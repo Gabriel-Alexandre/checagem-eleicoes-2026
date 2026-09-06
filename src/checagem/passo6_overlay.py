@@ -98,22 +98,50 @@ def _badge(d: ImageDraw.ImageDraw, x: int, y: int, veredito: cfg.Veredito) -> in
     return x + larg
 
 
-def _fontes_em_uma_linha(fontes: list[dict]) -> str:
+def _fontes_em_uma_linha(fontes: list[dict], fonte_texto, largura_max: float) -> str:
+    """A linha de fontes do card, construída medindo em pixels.
+
+    ⛔ Montar a linha e torcer para caber não funciona: nomes de instituição variam de
+    "IBGE" a "US Department of the Treasury / Federal Reserve Bank of St. Louis", e a
+    diferença é de mais de mil pixels. A primeira rodada deste repositório estourou a caixa
+    em 92px exatamente assim, e nenhum validador pegou — quem pegou foi a medição.
+
+    Regras, nesta ordem:
+      · instituições repetidas viram um nome só;
+      · entram as que couberem, e o que sobrar vira "(+N)";
+      · quando há mais documentos do que nomes, a contagem entra, para o card não passar a
+        impressão de ter uma fonte quando tem duas da mesma casa.
+    """
     if not fontes:
         return ""
+
     nomes: list[str] = []
     for f in fontes:
-        nome = f["instituicao"]
-        if nome not in nomes:
-            nomes.append(nome)
-    linha = "FONTES: " + " · ".join(nomes[:4])
-    if len(nomes) > 4:
-        linha += f"  (+{len(nomes) - 4})"
-    # Duas fontes da mesma instituição colapsariam em um nome só, e o card passaria a
-    # impressão de ter uma fonte quando tem duas. O número desfaz isso.
-    if len(fontes) > len(nomes):
-        linha += f"  ({len(fontes)} documentos)"
-    return linha
+        if f["instituicao"] not in nomes:
+            nomes.append(f["instituicao"])
+
+    contagem = f"  ({len(fontes)} documentos)" if len(fontes) > len(nomes) else ""
+
+    def monta(quantos: int) -> str:
+        sobra = len(nomes) - quantos
+        return ("FONTES: " + " · ".join(nomes[:quantos])
+                + (f"  (+{sobra})" if sobra else "") + contagem)
+
+    cabem = 0
+    for i in range(1, len(nomes) + 1):
+        if fonte_texto.getlength(monta(i)) <= largura_max:
+            cabem = i
+        else:
+            break
+
+    if cabem == 0:
+        # Nem o primeiro nome cabe inteiro: corta o nome, não a estrutura da linha.
+        curto = nomes[0]
+        while curto and fonte_texto.getlength(monta(1).replace(nomes[0], curto + "…")) > largura_max:
+            curto = curto[:-1].rstrip()
+        return monta(1).replace(nomes[0], curto + "…")
+
+    return monta(cabem)
 
 
 def desenhar_cartela(*, veredito_chave: str, falante: str, tempo_s: float, id_alegacao: str,
@@ -136,7 +164,7 @@ def desenhar_cartela(*, veredito_chave: str, falante: str, tempo_s: float, id_al
     linhas_res = tipo.quebrar(resumo, f_res, largura_texto, max_linhas=2)
     linhas_rsv = (tipo.quebrar(f"Ressalva: {ressalva}", f_rsv, largura_texto, max_linhas=2)
                   if ressalva else [])
-    linha_fontes = _fontes_em_uma_linha(fontes)
+    linha_fontes = _fontes_em_uma_linha(fontes, f_fnt, largura_texto)
 
     h_cit = tipo.altura_da_linha(f_cit)
     h_res = tipo.altura_da_linha(f_res)

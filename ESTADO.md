@@ -20,7 +20,7 @@ O pipeline está completo e roda de ponta a ponta. **Um caso foi fechado** — o
 | Metodologia, arquitetura, fontes, identidade visual, replicação | ✅ escritas |
 | Skills (4) e rules (4) | ✅ escritas, com espelho em `.claude/skills/` |
 | Esquemas JSON (3) | ✅ `caso`, `alegacoes`, `checagens` |
-| Testes | ✅ 29 passando, incluindo regressão sobre o caso real |
+| Testes | ✅ 35 passando, incluindo regressão sobre o caso real |
 | CI | ✅ `.github/workflows/validar.yml` — lint, testes, validador e links |
 
 ### O caso fechado
@@ -85,6 +85,7 @@ Cada linha aqui é um defeito que aconteceu de verdade. Estão listados porque a
 | Ressalva **cortada no meio da frase** | cabia em uma linha só | duas linhas |
 | Card dizendo "FONTES: IBGE" com **dois** documentos do IBGE | instituições repetidas colapsavam em um nome | o card mostra a contagem de documentos |
 | O selo "CHECAGEM ABERTA" **sumia nos intervalos** | ele era desenhado dentro da cartela | virou camada própria, sobreposta o vídeo inteiro |
+| Linha de fontes **estourando a caixa** em 92px | os nomes eram concatenados sem medir; "US Department of the Treasury / Federal Reserve Bank of St. Louis" mais um segundo nome dava 1802px numa caixa de 1710px | a linha é construída **medindo em pixels**, e o que não cabe vira "(+N)" |
 | Medição de áudio voltando **vazia sem erro** | `volumedetect` escreve em nível informativo, e o comando rodava com `-v error` | `_nivel_de_audio()` roda com `-v info` |
 | Resumo afirmando "a maior taxa desde **1986**" sem fonte | escrito de memória; o validador trata ano como data e não pegou | corrigido e registrado em `casos/.../CORRECOES.md` |
 | Duas fontes com a **mesma URL** contadas como duas | dois pedaços da mesma base | juntadas num trecho só; o validador reprova a duplicata |
@@ -95,7 +96,7 @@ Cada linha aqui é um defeito que aconteceu de verdade. Estão listados porque a
 
 ```bash
 cd checagem-eleicoes-2026
-python -m pytest -q                       # 29 testes
+python -m pytest -q                       # 35 testes
 python ferramentas/conferir-links.py      # nenhum link quebrado
 python -m checagem validar 2026-08-27-sabatina-lula-globo --recorte bloco-contas-publicas
 ```

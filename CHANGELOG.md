@@ -36,7 +36,7 @@ Primeira versão. Prova de conceito completa: um caso real, do arquivo de vídeo
 
 **Duas ferramentas de apoio:** `corrigir-transcricao.py`, que aplica correções de reconhecimento deixando rastro, e `conferir-links.py`, que impede documentação apontando para arquivo inexistente.
 
-**29 testes**, incluindo regressão sobre o caso publicado, e CI que roda lint, testes, validador e links.
+**35 testes**, incluindo regressão sobre o caso publicado, e CI que roda lint, testes, validador e links.
 
 **O caso `2026-08-27-sabatina-lula-globo`:** sabatina da TV Globo com Luiz Inácio Lula da Silva, 44min33s. Transcrição completa (709 segmentos), 110 turnos de falante justificados um a um, e o bloco de contas públicas (4min52s) checado com **23 alegações** e 56 citações de fonte.
 
@@ -60,7 +60,8 @@ Todos são defeitos que aconteceram de verdade e estão registrados em [`ESTADO.
 - ressalva cortada no meio da frase, por caber em uma linha só;
 - card dizendo "FONTES: IBGE" com dois documentos do IBGE — passou a mostrar a contagem;
 - o selo "CHECAGEM ABERTA" sumindo nos intervalos entre cards — virou camada própria;
-- medição de nível de áudio voltando vazia sem erro, porque `volumedetect` escreve em nível informativo.
+- medição de nível de áudio voltando vazia sem erro, porque `volumedetect` escreve em nível informativo;
+- a linha de fontes do card estourando a caixa em 92px, porque os nomes das instituições eram concatenados sem medir.
 
 ### Corrigido no conteúdo do caso
 

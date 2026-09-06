@@ -201,7 +201,9 @@
 
 **Resumo (o que aparece no vídeo):** O plano registrado no TSE fala em manter o arcabouço e controlar gastos, sem meta numérica para o mandato
 
-**Análise:** O programa de governo da chapa, registrado no TSE em 7 de agosto de 2026 com 84 páginas e 13 eixos, trata da área fiscal em termos qualitativos: manutenção do arcabouço fiscal, controle do crescimento do gasto primário e melhora da eficiência do gasto. Não há meta numérica de resultado primário nem meta de dívida em percentual do PIB para os quatro anos seguintes, que é exatamente o que a pergunta afirma faltar. Vale registrar o que a afirmação NÃO diz: ela não sustenta que o programa ignore a questão fiscal, e sim que não fixa metas explícitas.
+**Análise:** O programa de governo da chapa, registrado no TSE no início de agosto de 2026 com 84 páginas e 13 eixos, trata da área fiscal em termos qualitativos: manutenção do arcabouço fiscal, controle do crescimento do gasto primário e melhora da eficiência do gasto. Não há meta numérica de resultado primário nem meta de dívida em percentual do PIB para os quatro anos seguintes, que é exatamente o que a pergunta afirma faltar. Vale registrar o que a afirmação NÃO diz: ela não sustenta que o programa ignore a questão fiscal, e sim que não fixa metas explícitas.
+
+**⚠️ Divergência entre fontes:** As duas fontes divergem na data de registro: o Brasil de Fato diz sexta-feira, 7 de agosto, e o Congresso em Foco diz sábado, 8 de agosto. A divergência é de um dia e não afeta a afirmação, que é sobre o conteúdo do documento, mas fica registrada em vez de escolhida.
 
 **Confiança:** media
 

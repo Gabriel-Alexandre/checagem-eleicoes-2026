@@ -36,6 +36,9 @@ jobs:
           pip install -r requirements.txt -r requirements-dev.txt
           pip install -e .
 
+      - name: baixar as fontes
+        run: python -m checagem ativos baixar-fontes
+
       - name: lint
         run: ruff check src tests ferramentas
 
