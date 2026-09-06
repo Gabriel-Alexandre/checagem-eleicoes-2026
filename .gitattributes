@@ -1,0 +1,18 @@
+# Fim de linha LF no repositório, sempre. Isto casa com o .editorconfig e evita que um
+# clone no Windows mostre o arquivo inteiro como alterado.
+* text=auto eol=lf
+
+# Binário: nada de conversão nem de diff textual.
+*.ttf  binary
+*.otf  binary
+*.png  binary
+*.jpg  binary
+*.mp4  binary
+*.wav  binary
+*.mp3  binary
+
+# A transcrição e as checagens são dado, não código: diff por linha ajuda a revisar.
+*.json   text eol=lf diff
+*.md     text eol=lf diff
+*.mdc    text eol=lf diff
+*.srt    text eol=lf diff

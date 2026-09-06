@@ -1,0 +1,61 @@
+---
+description: Os riscos específicos de checar fala de candidato em ano eleitoral, e o que o projeto faz para não virar propaganda. Aplica a qualquer decisão editorial.
+globs:
+alwaysApply: true
+---
+
+# Ética e risco — checar candidato em ano eleitoral
+
+Checagem eleitoral tem um risco que checagem de qualquer outro assunto não tem: **o erro
+beneficia alguém**. Por isso as travas abaixo não são formalidade.
+
+## 1. Simetria, e como ela se prova
+
+- ⛔ Um caso só com o entrevistado checado é caso incompleto. A pergunta que afirma fato entra.
+- O `RELATORIO.md` publica a contagem **por papel**. Se um lado tem zero, isso fica visível para
+  quem lê, e não escondido no processo.
+- ⛔ **A escolha do recorte não pode ser feita pelo resultado.** O `--motivo` do recorte vai
+  escrito no relatório, exatamente para poder ser contestado.
+
+## 2. O que o projeto não conclui
+
+⛔ Não existe, em nenhuma saída deste repositório:
+
+- "o candidato mentiu N vezes";
+- ranking entre candidatos por número de falsidades;
+- adjetivo sobre a pessoa;
+- recomendação de voto, explícita ou por insinuação;
+- leitura de intenção ("tentou", "sabia que", "quis passar a impressão de").
+
+A contagem existe como **dado daquele trecho**, com o denominador sempre visível.
+
+## 3. Assimetria de dificuldade
+
+⚠️ Nem toda afirmação é igualmente checável. Dado de economia tem série pública; dado de segurança
+pública tem defasagem de um ano; promessa não tem fonte nenhuma. Uma peça pode terminar com mais
+`INSUSTENTAVEL` de um lado **só porque aquele lado falou de assuntos com fonte pior**.
+
+🔑 Quando isso acontecer, escreva no relatório. Silenciar essa assimetria transforma uma limitação
+de método em acusação.
+
+## 4. Contexto cortado
+
+- ⛔ Recorte que junta pedaços separados não existe aqui. Trecho é **contínuo**.
+- O `contexto` da alegação registra o que estava sendo perguntado.
+- Se a peça de origem já é um recorte de terceiro, `procedencia.integralidade` marca `trecho` e o
+  relatório avisa em cima.
+
+## 5. Prazo eleitoral
+
+Peça publicada perto do pleito tem menos tempo de correção circular do que de erro circular.
+Quando a checagem tocar em fato que ainda está em apuração — inquérito aberto, processo sem
+trânsito em julgado, dado com revisão pendente —, o veredito **não** é `FALSO` nem `VERDADEIRO`:
+é `INSUSTENTAVEL` ou `NAO_CHECAVEL`, e a `explicacao` diz que a apuração está em curso.
+
+⛔ Nunca escreva veredito que sugira culpa em processo sem decisão definitiva.
+
+## 6. Direito de resposta
+
+Qualquer pessoa citada pode contestar, por issue no repositório. A resposta é dada **com fonte**.
+Contestação procedente vira entrada em `CORRECOES.md` e correção no relatório e, quando possível,
+no vídeo. ⛔ Nada é apagado em silêncio.

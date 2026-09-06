@@ -1,0 +1,2836 @@
+1
+00:00:00,000 --> 00:00:04,080
+ Olá, boa noite.
+
+2
+00:00:04,340 --> 00:00:04,900
+ Boa noite.
+
+3
+00:00:05,580 --> 00:00:10,660
+ Nós estamos entrevistando esta semana os candidatos à presidência da República nas eleições
+
+4
+00:00:10,660 --> 00:00:11,620
+ 2026.
+
+5
+00:00:12,440 --> 00:00:18,060
+ Foram convidados os seis candidatos mais bem colocados na pesquisa Quest de 14 de agosto.
+
+6
+00:00:18,800 --> 00:00:24,840
+ A ordem das entrevistas foi decidida num sorteio com a presença de representantes das campanhas.
+
+7
+00:00:24,840 --> 00:00:30,320
+ Hoje nós recebemos aqui no estúdio o candidato Luiz Inácio Lula da Silva, do PT.
+
+8
+00:00:30,900 --> 00:00:36,580
+ Amanhã, nosso convidado é Flávio Bolsonaro, do PL, e no sábado, Augusto Cury, do Avante.
+
+9
+00:00:37,020 --> 00:00:43,140
+ Nós já entrevistamos Romeu Zema, do Novo, Ronaldo Caiado, do PSD, e Renan Santos, do Missão.
+
+10
+00:00:43,760 --> 00:00:50,000
+ Cada entrevista vai ter 40 minutos de duração, com dois blocos e as considerações finais
+
+11
+00:00:50,000 --> 00:00:51,040
+ dos candidatos.
+
+12
+00:00:51,360 --> 00:00:55,820
+ Vamos então começar relembrando a trajetória do candidato Lula.
+
+13
+00:00:56,720 --> 00:01:03,960
+ Aos 80 anos, Luiz Inácio Lula da Silva concorre à reeleição, pleiteando um quarto mandato.
+
+14
+00:01:04,700 --> 00:01:09,780
+ Lula nasceu em Caetés, no agreste de Pernambuco, na época um distrito de Garanhuns.
+
+15
+00:01:10,700 --> 00:01:18,400
+ Em 1969, já em São Paulo, começou a trajetória política como metalúrgico e líder de movimentos
+
+16
+00:01:18,400 --> 00:01:19,200
+ sindicais.
+
+17
+00:01:19,200 --> 00:01:26,660
+ Ele participou da fundação do Partido dos Trabalhadores no dia 10 de fevereiro de 1980.
+
+18
+00:01:27,700 --> 00:01:33,220
+ Foi deputado federal na Constituinte, de 88, e presidente da República pela primeira
+
+19
+00:01:33,220 --> 00:01:37,360
+ vez em 2002, depois de disputar a quarta eleição.
+
+20
+00:01:38,020 --> 00:01:43,680
+ Lula foi reeleito em 2006 e obteve o terceiro mandato em 2022.
+
+21
+00:01:43,680 --> 00:01:51,140
+ Nas eleições deste ano, concorre ao lado de Geraldo Alckmin, o candidato a vice pelo
+
+22
+00:01:51,140 --> 00:01:51,720
+ PSB.
+
+23
+00:01:52,720 --> 00:01:54,120
+ Boa noite, candidato.
+
+24
+00:01:54,180 --> 00:01:56,140
+ Muito obrigado pela presença do senhor.
+
+25
+00:01:56,460 --> 00:01:57,100
+ Boa noite.
+
+26
+00:01:57,440 --> 00:01:58,180
+ Boa noite, Trale.
+
+27
+00:01:58,260 --> 00:01:58,940
+ Boa noite, Renata.
+
+28
+00:01:59,140 --> 00:02:02,100
+ O tempo da entrevista começa a valer a partir de agora.
+
+29
+00:02:02,880 --> 00:02:08,780
+ Candidato, três inquéritos da Polícia Federal investigam o seu filho, Fábio Luiz Lula da
+
+30
+00:02:08,780 --> 00:02:09,120
+ Silva.
+
+31
+00:02:09,860 --> 00:02:14,180
+ A suspeita é de corrupção e tráfico de influência em órgãos federais.
+
+32
+00:02:14,180 --> 00:02:21,960
+ A PF apura se ele usou o fato de ser o seu filho para conduzir negócios de interesse privado
+
+33
+00:02:21,960 --> 00:02:27,680
+ dentro do Palácio do Planalto, do Ministério da Saúde e também na data breve.
+
+34
+00:02:28,360 --> 00:02:33,540
+ Os policiais federais afirmam também que ele mantinha uma sociedade oculta com outros
+
+35
+00:02:33,540 --> 00:02:38,340
+ dois empresários, Fernando Bittar e a lobista Roberta Luxinger.
+
+36
+00:02:38,340 --> 00:02:45,700
+ O senhor tem dito que é seu filho que tem que provar que é inocente e que, se ele for
+
+37
+00:02:45,700 --> 00:02:48,360
+ culpado, não vai haver privilégios.
+
+38
+00:02:49,080 --> 00:02:52,400
+ Mas cabe ao senhor responder pelo governo.
+
+39
+00:02:53,140 --> 00:02:59,520
+ Pergunto, então, ao senhor, que avaliação o senhor faz dessas acusações de corrupção
+
+40
+00:02:59,520 --> 00:03:02,120
+ e tráfico de influência na sua gestão?
+
+41
+00:03:02,120 --> 00:03:09,840
+ Veja, primeiro, doutor Ali, não tem nenhuma acusação, são ilações, ilações, ilações
+
+42
+00:03:09,840 --> 00:03:11,600
+ tiradas de telefonemas.
+
+43
+00:03:12,480 --> 00:03:15,320
+ Eu conheço isso muito bem, porque já vivi isso.
+
+44
+00:03:15,840 --> 00:03:16,760
+ O que eu tenho dito?
+
+45
+00:03:17,340 --> 00:03:22,260
+ Eu não sou do Ministério Público, eu não sou delegado, eu não sou juiz, eu sou presidente
+
+46
+00:03:22,260 --> 00:03:23,740
+ da República e pai do Fábio.
+
+47
+00:03:23,740 --> 00:03:30,940
+ Se o Fábio cometeu qualquer ilícito, qualquer ilícito, ele terá que pagar como qualquer
+
+48
+00:03:30,940 --> 00:03:32,520
+ cidadão brasileiro que cometeu ilícito.
+
+49
+00:03:33,220 --> 00:03:37,820
+ Eu não vou afastar o delegado da Polícia Federal, eu não vou fazer qualquer movimento
+
+50
+00:03:37,820 --> 00:03:41,940
+ para que meu filho seja comertado se ele tiver eu, como outros já fizeram.
+
+51
+00:03:42,740 --> 00:03:47,780
+ Ele sabe o que eu passei, sabe o que a minha filha Maria passou, ele sabe que a Marisa morreu
+
+52
+00:03:47,780 --> 00:03:51,520
+ por conta da falsa acusação que foi feita na Lava Jato.
+
+53
+00:03:51,740 --> 00:03:54,620
+ Portanto, ele tem obrigação de não ter feito erro.
+
+54
+00:03:55,260 --> 00:03:59,540
+ Eu estou muito tranquilo com o presidente da República, tudo o que for preciso fazer
+
+55
+00:03:59,540 --> 00:04:05,660
+ no âmbito da Polícia e da Justiça para apurar será dado toda e qualquer garantia.
+
+56
+00:04:06,100 --> 00:04:10,180
+ Esse é o comportamento do presidente da República, não é do pai do Fábio, é do presidente da
+
+57
+00:04:10,180 --> 00:04:15,260
+ República que tem que olhar para 215 milhões de brasileiros em igualdade de condições.
+
+58
+00:04:15,540 --> 00:04:20,240
+ Mas, candidato, e as mensagens obtidas pela Polícia Federal no celular dessa lobista
+
+59
+00:04:20,240 --> 00:04:21,180
+ Roberta Lucicinho?
+
+60
+00:04:21,180 --> 00:04:25,720
+ Na verdade, numa das conversas, candidato, ela afirma que seu filho entra em campo quando
+
+61
+00:04:25,720 --> 00:04:28,560
+ precisa e que os dois eram uma coisa só.
+
+62
+00:04:29,280 --> 00:04:31,320
+ E ela diz, abre aspas, eu sou o Fábio.
+
+63
+00:04:31,920 --> 00:04:36,260
+ Numa outra mensagem, ela afirma, eu trabalho a política via palácio.
+
+64
+00:04:36,840 --> 00:04:38,860
+ Eu sou boa de costura política.
+
+65
+00:04:39,280 --> 00:04:43,820
+ Os brasileiros não merecem algum tipo de explicação mais robusta diante de tudo isso
+
+66
+00:04:43,820 --> 00:04:46,200
+ que a Polícia Federal levantou até agora?
+
+67
+00:04:46,200 --> 00:04:50,740
+ Entrada, você é jornalista e você conhece isso melhor do que ninguém.
+
+68
+00:04:50,740 --> 00:04:57,220
+ Eu fui vítima disso na Lava Jato, da maior mentira montada neste país para evitar que eu fosse
+
+69
+00:04:57,220 --> 00:04:58,120
+ presidente da República.
+
+70
+00:04:58,120 --> 00:05:02,660
+ Eu poderia ter feito qualquer coisa para não emprestar depoimento.
+
+71
+00:05:02,660 --> 00:05:09,200
+ Fiquei quieto e oitenta dinheiro na cadeia porque somente eu sabia a verdade.
+
+72
+00:05:09,200 --> 00:05:15,300
+ E eu queria provar que a imprensa estava divulgando coisas mentirosas, que o Moro tinha mentido
+
+73
+00:05:15,300 --> 00:05:17,200
+ para a imprensa, que o Deleu tinha mentido para a imprensa.
+
+74
+00:05:17,200 --> 00:05:21,740
+ Com o meu filho vai acontecer a mesma coisa, só ele sabe a verdade.
+
+75
+00:05:21,740 --> 00:05:23,740
+ Se ele fez erro, ele pagará.
+
+76
+00:05:23,740 --> 00:05:25,280
+ Não existe outro jeito.
+
+77
+00:05:25,280 --> 00:05:29,660
+ Ele não será protegido por ser meu filho, por ser meu irmão, nada.
+
+78
+00:05:29,660 --> 00:05:32,660
+ Portanto, ele sabe o que ele tem que fazer.
+
+79
+00:05:32,660 --> 00:05:37,400
+ Ele tem que provar a inocência dele e eu tenho certeza que ele vai ser inocente.
+
+80
+00:05:37,400 --> 00:05:40,280
+ Vamos esperar o tempo.
+
+81
+00:05:40,280 --> 00:05:45,880
+ Não haverá da parte da Presidenta da República um milímetro de movimento para proteger o
+
+82
+00:05:45,880 --> 00:05:46,260
+ meu filho.
+
+83
+00:05:46,900 --> 00:05:51,200
+ A acusação está feita, a Polícia Federal está investigando, a Polícia Federal está
+
+84
+00:05:51,200 --> 00:05:56,200
+ vazando as coisas para a imprensa e eu espero que aconteça o julgamento.
+
+85
+00:05:56,660 --> 00:06:00,700
+ Se tiver que vir prestar depoimento, ele vai prestar depoimento, vai participar dos inquéritos.
+
+86
+00:06:01,180 --> 00:06:02,820
+ Se ele for culpado, pagará o preço.
+
+87
+00:06:03,080 --> 00:06:05,020
+ Se não for, ele será inocentado.
+
+88
+00:06:05,320 --> 00:06:09,260
+ Candidato, num desses inquéritos, a Polícia Federal, ela traz indícios de que seu filho
+
+89
+00:06:09,260 --> 00:06:15,100
+ teria atuado junto ao Palácio do Planalto para agendar uma reunião entre essa lobista
+
+90
+00:06:15,100 --> 00:06:19,600
+ e o então secretário executivo do Ministério da Saúde, conhecido como Berger.
+
+91
+00:06:20,300 --> 00:06:25,700
+ E aí, numa dessas mensagens, a lobista avisa seu filho que chegou a Brasília e ele responde
+
+92
+00:06:25,700 --> 00:06:27,880
+ que ótimo, vai com tudo.
+
+93
+00:06:28,840 --> 00:06:31,240
+ É uma relação adequada, candidato?
+
+94
+00:06:31,260 --> 00:06:36,520
+ Você acha que se eu pegasse o seu celular e fosse investigar tudo o que você falou, só
+
+95
+00:06:36,520 --> 00:06:38,400
+ tinha coisa certa, coisa correta?
+
+96
+00:06:38,400 --> 00:06:40,760
+ O que é que uma pilantra pode fazer no telefone?
+
+97
+00:06:40,860 --> 00:06:42,740
+ O que é que um cara qualquer pode fazer no telefone?
+
+98
+00:06:43,400 --> 00:06:48,440
+ Eu estou dizendo para você que o fato de ter pego as conversas no telefone não justifica
+
+99
+00:06:48,440 --> 00:06:49,980
+ absolutamente nada.
+
+100
+00:06:51,260 --> 00:06:54,120
+ Até agora não existe uma prova de um centavo público.
+
+101
+00:06:54,660 --> 00:06:59,240
+ Até agora não existe uma prova de uma conversa do meu filho com qualquer ministro.
+
+102
+00:06:59,240 --> 00:07:01,180
+ E eu tenho certeza que não fez.
+
+103
+00:07:01,180 --> 00:07:06,240
+ Agora, uma coisa eu vou lhe dizer: meu filho vai ser investigado, como qualquer cidadão
+
+104
+00:07:06,240 --> 00:07:07,240
+ brasileiro.
+
+105
+00:07:07,240 --> 00:07:08,240
+ Agora, candidato, se falou...
+
+106
+00:07:08,240 --> 00:07:10,280
+ Eu estou só na expectativa de que terminar esse inquérito.
+
+107
+00:07:10,280 --> 00:07:11,280
+ Porque o que acontece?
+
+108
+00:07:11,280 --> 00:07:12,280
+ Nós...
+
+109
+00:07:12,280 --> 00:07:17,280
+ Ele está sendo acusado de uma acusação, de um crime que nós descobrimos na Previdência
+
+110
+00:07:17,280 --> 00:07:22,320
+ Social, criado em 2019, a quadrilha da exploração da Previdência Social...
+
+111
+00:07:22,320 --> 00:07:24,320
+ Nós vamos tocar nesse assunto muito em breve.
+
+112
+00:07:24,320 --> 00:07:25,320
+ Nós...
+
+113
+00:07:25,320 --> 00:07:27,320
+ Eu vou antecipar para você.
+
+114
+00:07:27,320 --> 00:07:37,400
+ Nós pagamos R$ 3,5 bilhões a R$ 5 milhões de pessoas que foram assaltadas e já arrecadamos
+
+115
+00:07:37,400 --> 00:07:42,320
+ quase que R$ 100 bilhões das coisas que nós tomamos das quadrilhas que estavam montadas.
+
+116
+00:07:42,320 --> 00:07:45,320
+ E, portanto, meu cara, é o seguinte: se tem um brasileiro que quer que as coisas estejam
+
+117
+00:07:45,320 --> 00:07:47,320
+ investigadas, sou eu.
+
+118
+00:07:47,320 --> 00:07:52,320
+ Agora, o senhor se referiu há pouco sobre essa lobista, e eu gostaria justamente de saber,
+
+119
+00:07:52,320 --> 00:07:57,320
+ porque foi outra mensagem obtida pela Polícia Federal, que diz que essa lobista, Roberta
+
+120
+00:07:57,320 --> 00:08:03,320
+ Luxinger, afirma que o senhor teria oferecido um cargo a ela e dito, que o senhor teria dito
+
+121
+00:08:03,320 --> 00:08:05,320
+ para ela: "Escolha onde você quer ficar".
+
+122
+00:08:05,320 --> 00:08:06,320
+ Não, não foi isso.
+
+123
+00:08:06,320 --> 00:08:09,320
+ Eu pergunto ao senhor se isso aconteceu e se o senhor já recebeu esse empresário
+
+124
+00:08:09,320 --> 00:08:10,320
+ no Palácio.
+
+125
+00:08:10,320 --> 00:08:14,320
+ Faltou ela dizer o seguinte, que eu ofereci para ela o Ministério da Defesa, o Comando
+
+126
+00:08:14,320 --> 00:08:16,320
+ da Marinha, da Aeronáutica da Maratinha.
+
+127
+00:08:16,320 --> 00:08:17,320
+ É de uma imbecilidade.
+
+128
+00:08:17,320 --> 00:08:18,320
+ Isso aconteceu.
+
+129
+00:08:18,320 --> 00:08:20,320
+ Eu não conheço essa moça.
+
+130
+00:08:20,320 --> 00:08:22,320
+ Nunca vi essa moça na minha vida.
+
+131
+00:08:22,320 --> 00:08:24,320
+ Nunca conversei com essa moça.
+
+132
+00:08:24,320 --> 00:08:27,320
+ Ela nunca esteve próximo de mim.
+
+133
+00:08:27,320 --> 00:08:34,320
+ É o seguinte: malandro, sabe, é igual em qualquer lugar do mundo.
+
+134
+00:08:34,320 --> 00:08:37,320
+ Convertas por telefone, eu estou acompanhando.
+
+135
+00:08:37,320 --> 00:08:42,320
+ Um caso mais grave do que esse é o do Banco Master, que está silenciado.
+
+136
+00:08:42,320 --> 00:08:46,320
+ Nós vamos também tratar desse assunto, mas antes, eu gostaria de saber a sua avaliação.
+
+137
+00:08:46,320 --> 00:08:52,320
+ É só importante tomar cuidado, que eu não sou nem procurador, nem juiz, nem policial.
+
+138
+00:08:52,320 --> 00:08:57,320
+ A investigação da Polícia Federal envolve também um outro nome muito próximo ao senhor, que
+
+139
+00:08:57,320 --> 00:09:03,320
+ é o seu ex-chefe de gabinete, o Marco Aurélio Santana Ribeiro, conhecido como Marcola.
+
+140
+00:09:03,320 --> 00:09:08,320
+ A Polícia Federal diz que foi ele quem ajudou a agendar essa reunião dessa lobista no Ministério
+
+141
+00:09:08,320 --> 00:09:13,320
+ da Saúde e chegou até a receber a minuta de um contrato que favoreceria a empresa ligada
+
+142
+00:09:13,320 --> 00:09:18,320
+ ao careca do INSS, que é considerado o pivô do escândalo do INSS.
+
+143
+00:09:18,320 --> 00:09:23,320
+ A minha pergunta ao senhor é a seguinte: o senhor não considera que esse tipo de relação
+
+144
+00:09:23,320 --> 00:09:25,320
+ leva suspeitas para dentro do galácio?
+
+145
+00:09:25,320 --> 00:09:26,320
+ Leva.
+
+146
+00:09:26,320 --> 00:09:27,320
+ Lógico que leva.
+
+147
+00:09:27,320 --> 00:09:32,320
+ Leva suspeita e leva desconfiança para mim, porque o Marco Aurélio é meu chefe de
+
+148
+00:09:32,320 --> 00:09:33,320
+ gabinete.
+
+149
+00:09:33,320 --> 00:09:35,320
+ Agora, qual é o papel de chefe de gabinete?
+
+150
+00:09:35,320 --> 00:09:41,320
+ As pessoas sabem que ela é lobista, agora que a imprensa está falando que ela é lobista
+
+151
+00:09:41,320 --> 00:09:43,320
+ e que ela foi desendada.
+
+152
+00:09:43,320 --> 00:09:47,320
+ Mas, do lado concreto, é que o papel dele é que qualquer pessoa que chegar na Presidenta
+
+153
+00:09:47,320 --> 00:09:51,320
+ da República, conseguir uma audiência com ele para pedir uma audiência com ninguém,
+
+154
+00:09:51,320 --> 00:09:54,320
+ o papel dele é encaminhar para o Ministério.
+
+155
+00:09:55,320 --> 00:09:59,320
+ Agora, o que nós precisamos saber é o seguinte: essa mulher conseguiu liberar o dinheiro que
+
+156
+00:09:59,320 --> 00:10:00,320
+ ela disse que estava atrás.
+
+157
+00:10:00,320 --> 00:10:02,320
+ É, mas não foi só isso.
+
+158
+00:10:02,320 --> 00:10:03,320
+ Ela conseguiu liberar.
+
+159
+00:10:03,320 --> 00:10:06,320
+ Ela conseguiu liberar o dinheiro.
+
+160
+00:10:06,320 --> 00:10:09,320
+ Tem prova de que tem dinheiro público, porque aí é que está o crime.
+
+161
+00:10:09,320 --> 00:10:10,320
+ Aí é que está o crime.
+
+162
+00:10:10,320 --> 00:10:13,320
+ Por isso é que eu não sou precipitado, Renata.
+
+163
+00:10:13,320 --> 00:10:18,320
+ Eu fui acusado de ter um apartamento que eu não tinha, eu fui acusado de ter uma chácara
+
+164
+00:10:18,320 --> 00:10:23,320
+ que eu não tinha e só foi provada a inocência quando o processo foi anulado.
+
+165
+00:10:23,320 --> 00:10:26,320
+ Portanto, como eu não sou juiz, eu vou muito devagar com isso.
+
+166
+00:10:26,320 --> 00:10:32,320
+ Eu não gosto de fazer pirotecnia com acusações sem que você termine o inquérito.
+
+167
+00:10:32,320 --> 00:10:38,320
+ Todos eles, todos eles que foram citados, todos eles que participaram, o caminho é um só.
+
+168
+00:10:38,320 --> 00:10:44,320
+ É o caminho da apuração, da investigação ou da inocência ou da condenação se tiver cometido crime.
+
+169
+00:10:44,320 --> 00:10:47,320
+ Sobre a apuração, a Polícia Federal apurou mais.
+
+170
+00:10:47,320 --> 00:11:00,320
+ Ela disse também que essa lobista não só teria, por intermédio do seu ex-chefe de gabinete, conseguido a tal reunião, mas ela também pagou despesas pessoais do seu então chefe de gabinete.
+
+171
+00:11:00,320 --> 00:11:04,320
+ Ele ganhou boletos, parcelas de financiamento de um carro, faturas de cartão de crédito.
+
+172
+00:11:04,320 --> 00:11:10,320
+ Ele ganhou ainda joias, pediu a ela um quadro no valor de 100 mil euros.
+
+173
+00:11:10,320 --> 00:11:16,320
+ O Marcola disse que, de fato, foi um empréstimo de 249 mil reais que ele devolveu esse dinheiro.
+
+174
+00:11:16,320 --> 00:11:22,320
+ Eu pergunto ao senhor: é adequado o chefe de gabinete e a presidência da república ganhar
+
+175
+00:11:22,320 --> 00:11:27,320
+ joias e ter contas pagas por uma lobista com interesse em contratos do governo?
+
+176
+00:11:27,320 --> 00:11:31,320
+ O senhor sabia dessa relação que se passava na antessala do seu gabinete?
+
+177
+00:11:31,320 --> 00:11:32,320
+ Deixa eu contar uma coisa para você.
+
+178
+00:11:32,320 --> 00:11:33,320
+ Por favor.
+
+179
+00:11:33,320 --> 00:11:34,320
+ Não é adequado.
+
+180
+00:11:34,320 --> 00:11:35,320
+ É totalmente errado.
+
+181
+00:11:35,320 --> 00:11:40,320
+ E o Marcola sabe do erro que ele cometeu, porque não é esse o papel do chefe de gabinete.
+
+182
+00:11:40,320 --> 00:11:41,320
+ Ele sabe disso.
+
+183
+00:11:41,320 --> 00:11:44,320
+ Ele sabe da importância de ter chefe de gabinete.
+
+184
+00:11:44,320 --> 00:11:49,320
+ Agora, ele disse que tomou 249 mil reais de emprestado, é o que está na imprensa.
+
+185
+00:11:49,320 --> 00:11:52,320
+ Só ele sabe a verdade, se ele tomou ou não.
+
+186
+00:11:52,320 --> 00:12:00,320
+ Quando tiver uma acariação entre os dois, é que vai saber se foi empréstimo ou não.
+
+187
+00:12:00,320 --> 00:12:03,320
+ Eu, por enquanto, acredito na versão dele de que foi empréstimo.
+
+188
+00:12:03,320 --> 00:12:05,320
+ Acredito na versão dele.
+
+189
+00:12:05,320 --> 00:12:07,320
+ Por que ele não pediu empréstimo a um banco, por exemplo?
+
+190
+00:12:07,320 --> 00:12:08,320
+ Por que ele não falou comigo?
+
+191
+00:12:08,320 --> 00:12:10,320
+ Eu disse para ele: cara, eu sou quase que nem seu pai.
+
+192
+00:12:10,320 --> 00:12:12,320
+ Por que você não falou comigo?
+
+193
+00:12:12,320 --> 00:12:16,320
+ Por que você não falou comigo do problema que você estava tendo?
+
+194
+00:12:16,320 --> 00:12:17,320
+ Candidato.
+
+195
+00:12:17,320 --> 00:12:20,320
+ Agora, é o seguinte: ele cometeu o erro, ele pagará pelo erro que ele cometeu.
+
+196
+00:12:20,320 --> 00:12:22,320
+ É isso que vai acontecer.
+
+197
+00:12:22,320 --> 00:12:28,320
+ Era uma pessoa da minha total confiança, trabalha comigo há sete anos, todo o tempo que eu
+
+198
+00:12:28,320 --> 00:12:31,320
+ fiquei preso em Brasil e no Paraná.
+
+199
+00:12:31,320 --> 00:12:33,320
+ Ele ficou o tempo inteiro lá.
+
+200
+00:12:33,320 --> 00:12:36,320
+ Agora, cometeu o erro, pago o preço do erro cometido.
+
+201
+00:12:36,320 --> 00:12:37,320
+ Candidato.
+
+202
+00:12:37,320 --> 00:12:38,320
+ É isso.
+
+203
+00:12:38,320 --> 00:12:40,320
+ E eu espero que a polícia cumpra com a sua função.
+
+204
+00:12:40,320 --> 00:12:44,320
+ Eu espero que o Ministério Público cumpra com a sua função e o juiz faça o julgamento
+
+205
+00:12:44,320 --> 00:12:47,320
+ que for necessário fazer, de acordo com os autos do processo.
+
+206
+00:12:47,320 --> 00:12:50,320
+ O que eu não me deixo impactar é por ilhações.
+
+207
+00:12:50,320 --> 00:12:55,320
+ Eu conheço muito, muito, e já fui vítima muito disso.
+
+208
+00:12:55,320 --> 00:12:58,320
+ Então, eu estou muito tranquilo com relação a isso.
+
+209
+00:12:58,320 --> 00:13:00,320
+ Muito deprimido e muito chateado.
+
+210
+00:13:00,320 --> 00:13:04,320
+ Porque o meu filho sabe que não poderia cometer nenhum erro.
+
+211
+00:13:04,320 --> 00:13:05,320
+ Se cometeu, vai pagar.
+
+212
+00:13:05,320 --> 00:13:08,320
+ O Marcola sabe que não poderia cometer nenhum erro.
+
+213
+00:13:08,320 --> 00:13:09,320
+ Se cometeu, vai pagar.
+
+214
+00:13:09,320 --> 00:13:11,320
+ É assim que funciona.
+
+215
+00:13:11,320 --> 00:13:15,320
+ Candidato, o senhor há pouco citou o escândalo do INSS.
+
+216
+00:13:15,320 --> 00:13:18,320
+ Então, nós vamos entrar agora nesse assunto aqui com o senhor.
+
+217
+00:13:18,320 --> 00:13:22,320
+ Nesse escândalo, para a gente refrescar a memória, mais de 4 milhões de aposentados
+
+218
+00:13:22,320 --> 00:13:26,320
+ e pensionistas brasileiros foram vítimas desses descontos ilegais.
+
+219
+00:13:26,320 --> 00:13:30,320
+ As fraudes aconteceram entre 2019 e 2024.
+
+220
+00:13:30,320 --> 00:13:33,320
+ Podem ter passado de 6 bilhões de reais.
+
+221
+00:13:33,320 --> 00:13:39,320
+ E as investigações revelaram que mais de 60% desses descontos sob suspeita
+
+222
+00:13:39,320 --> 00:13:41,320
+ aconteceram no seu governo.
+
+223
+00:13:41,320 --> 00:13:46,320
+ O presidente do INSS no seu governo, ele está preso preventivamente.
+
+224
+00:13:46,320 --> 00:13:52,320
+ O Alessandro Stefanuto, ele é investigado por corrupção, organização criminosa,
+
+225
+00:13:52,320 --> 00:13:54,320
+ lavagem de dinheiro, entre outros crimes.
+
+226
+00:13:54,320 --> 00:14:00,320
+ Que explicação que o senhor dá hoje a esses aposentados e pensionistas?
+
+227
+00:14:00,320 --> 00:14:03,320
+ Nós já demos a explicação.
+
+228
+00:14:03,320 --> 00:14:08,320
+ Primeiro que nós já devolvemos 3 milhões e meio de reais.
+
+229
+00:14:08,320 --> 00:14:10,320
+ 3 milhões e meio de reais.
+
+230
+00:14:10,320 --> 00:14:14,320
+ Não tem um aposentado que foi roubado e que não foi devolvido o dinheiro.
+
+231
+00:14:14,320 --> 00:14:19,320
+ E esse dinheiro vai ser ressarcido pelos bens que nós aprendemos da quadrilha.
+
+232
+00:14:19,320 --> 00:14:25,320
+ Uma quadrilha que foi montada em 2019, inclusive com a participação do ministro da Previdência
+
+233
+00:14:25,320 --> 00:14:31,320
+ da Previdência daquela época, e nós passamos dois anos investigando, tanto a CGU quanto
+
+234
+00:14:31,320 --> 00:14:33,320
+ a Política Federal.
+
+235
+00:14:33,320 --> 00:14:37,320
+ Investigando, porque se a gente faz a denúncia antes da gente ter o processo como um todo,
+
+236
+00:14:37,320 --> 00:14:40,320
+ a gente atrapalharia facilitando os bandidos.
+
+237
+00:14:40,320 --> 00:14:44,320
+ E nós fizemos questão de colocar na cadeia as pessoas.
+
+238
+00:14:44,320 --> 00:14:46,320
+ Fizemos questão de pagar.
+
+239
+00:14:46,320 --> 00:14:51,320
+ Fizemos questão de pagar e vamos fazer questão de ressarcir os cofes públicos com os bens
+
+240
+00:14:51,320 --> 00:14:52,320
+ que nós aprendemos deles.
+
+241
+00:14:52,320 --> 00:14:59,320
+ Agora, fato é que no segundo ano do seu mandato, a quantidade de descontos suspeitos de legalidade
+
+242
+00:14:59,320 --> 00:15:02,320
+ mais do que triplicou em relação a 2022.
+
+243
+00:15:02,320 --> 00:15:07,320
+ E o seu então ministro da Previdência, Carlos Lupe, foi alertado de que havia indícios
+
+244
+00:15:07,320 --> 00:15:08,320
+ de irregularidades.
+
+245
+00:15:08,320 --> 00:15:14,320
+ Ele soube disso em 2023, ou seja, dois anos antes da operação da Polícia Federal revelar
+
+246
+00:15:14,320 --> 00:15:15,320
+ o escândalo.
+
+247
+00:15:15,320 --> 00:15:21,320
+ O Lupe teve tempo para agir, mas ele só suspendeu os contratos um ano depois de saber,
+
+248
+00:15:21,320 --> 00:15:23,320
+ de tomar conhecimento dos fatos.
+
+249
+00:15:23,320 --> 00:15:25,320
+ Que explicações ele deu para o senhor?
+
+250
+00:15:25,320 --> 00:15:28,320
+ Renata, nem os contratos foram suspensos pelo Lupe.
+
+251
+00:15:28,320 --> 00:15:32,320
+ Nós fomos a fundo para investigar porque a gente não queria que a Aquarilha se desmontasse.
+
+252
+00:15:32,320 --> 00:15:33,320
+ Mas demorou.
+
+253
+00:15:33,320 --> 00:15:34,320
+ Demorou.
+
+254
+00:15:34,320 --> 00:15:36,320
+ Demorou porque a investigação demora.
+
+255
+00:15:36,320 --> 00:15:37,320
+ Que explicação?
+
+256
+00:15:37,320 --> 00:15:39,320
+ O senhor ficou satisfeito com a explicação?
+
+257
+00:15:39,320 --> 00:15:42,320
+ A explicação é que a Polícia Federal trabalhou com muita seriedade.
+
+258
+00:15:42,320 --> 00:15:46,320
+ A CGU trabalhou com muita seriedade para investigar.
+
+259
+00:15:46,320 --> 00:15:48,320
+ Levou dois anos.
+
+260
+00:15:48,320 --> 00:15:51,320
+ O dado concreto é que a Aquarilha foi montada em 2019.
+
+261
+00:15:51,320 --> 00:15:55,320
+ Foi presa por nós, descoberta por nós.
+
+262
+00:15:55,320 --> 00:16:02,320
+ Os previdenciários receberam o seu dinheiro de volta e nós vamos receber o que a Previdência
+
+263
+00:16:02,320 --> 00:16:03,320
+ pagou para a Aquarilha.
+
+264
+00:16:03,320 --> 00:16:04,320
+ É simples.
+
+265
+00:16:04,320 --> 00:16:06,320
+ O senhor pediu explicações ao Lupe?
+
+266
+00:16:06,320 --> 00:16:07,320
+ Não, pediu explicação.
+
+267
+00:16:07,320 --> 00:16:08,320
+ Ele saiu do governo.
+
+268
+00:16:08,320 --> 00:16:09,320
+ Saiu do governo.
+
+269
+00:16:09,320 --> 00:16:13,320
+ Ninguém nunca reconhece, ninguém nunca reconhece que tinha corrupção.
+
+270
+00:16:13,320 --> 00:16:16,320
+ Precisou a CGU e a Polícia Federal investigar.
+
+271
+00:16:16,320 --> 00:16:18,320
+ E é assim que funciona a realidade.
+
+272
+00:16:18,320 --> 00:16:20,320
+ Não tem outro jeito de funcionar.
+
+273
+00:16:20,320 --> 00:16:23,320
+ Tem coisas que passam 80 anos para se apurar e não se apura.
+
+274
+00:16:23,320 --> 00:16:30,320
+ No nosso caso, no nosso caso, a Polícia Federal, a CGU, a AGU trabalham para que a gente coloque
+
+275
+00:16:30,320 --> 00:16:34,320
+ de pé toda e qualquer denúncia que aparecer.
+
+276
+00:16:34,320 --> 00:16:37,320
+ O senhor disse que pediu explicações ao Lupe e que ele saiu do governo.
+
+277
+00:16:37,320 --> 00:16:41,320
+ Mas, recentemente, o senhor subiu num palanque com o Carlos Lupe.
+
+278
+00:16:41,320 --> 00:16:43,320
+ Fez elogios a ele, recebeu apoio dele.
+
+279
+00:16:43,320 --> 00:16:48,320
+ Então, pergunto ao senhor: o senhor não vê problema em pedir voto ao lado de alguém
+
+280
+00:16:48,320 --> 00:16:53,320
+ que demorou para agir, para barrar os desvios e foi o responsável pela indicação do presidente
+
+281
+00:16:53,320 --> 00:16:54,320
+ do INSS, que está preso?
+
+282
+00:16:54,320 --> 00:16:57,320
+ Deixa eu lhe falar uma coisa: ele não está condenado.
+
+283
+00:16:57,320 --> 00:16:59,320
+ Ele é um cidadão livre.
+
+284
+00:16:59,320 --> 00:17:05,320
+ Você acha que você pode deixar de conversar com uma pessoa que é sua amiga, que foi,
+
+285
+00:17:05,320 --> 00:17:06,320
+ cometeu um erro?
+
+286
+00:17:06,320 --> 00:17:08,320
+ Ser pessoa está em liberdade e não está condenado?
+
+287
+00:17:08,320 --> 00:17:09,320
+ Não é conversativo.
+
+288
+00:17:09,320 --> 00:17:10,320
+ Você acha que é assim?
+
+289
+00:17:10,320 --> 00:17:11,320
+ Fazer elogios...
+
+290
+00:17:11,320 --> 00:17:12,320
+ Não, não elogios não.
+
+291
+00:17:12,320 --> 00:17:15,320
+ Deixa eu lhe contar uma coisa: a relação política não tem nada a ver com a relação
+
+292
+00:17:15,320 --> 00:17:16,320
+ administrativa.
+
+293
+00:17:16,320 --> 00:17:21,320
+ Se ele tivesse cometido o erro e a Polícia Federal já tivesse acusado, ele já tivesse
+
+294
+00:17:21,320 --> 00:17:24,320
+ sido condenado, era uma coisa: ele não está.
+
+295
+00:17:24,320 --> 00:17:28,320
+ Então, vamos aguardar, Renata, vamos aguardar a investigação.
+
+296
+00:17:28,320 --> 00:17:32,320
+ Eu sei o que é isso, Renata, porque eu já passei por isso.
+
+297
+00:17:32,320 --> 00:17:38,320
+ Você sabe, como jornalista, que eu fui vítima da maior mentira montada neste país,
+
+298
+00:17:38,320 --> 00:17:44,320
+ que tinha como objetivo não me deixar ser candidato em 2018, tinha como objetivo desmontar
+
+299
+00:17:44,320 --> 00:17:49,320
+ a indústria de engenharia deste país e criar uma imagem negativa da Petrobras.
+
+300
+00:17:49,320 --> 00:17:53,320
+ Eu coloquei a minha cara e falei: eu vou.
+
+301
+00:17:53,320 --> 00:17:55,320
+ Eu poderia ter saído do Brasil.
+
+302
+00:17:55,320 --> 00:17:59,320
+ Eu disse: eu vou para a cadeia que eu quero provar que o Moro é mentiroso, quero provar
+
+303
+00:17:59,320 --> 00:18:03,320
+ que o Dalao é mentiroso e quero provar que a imprensa um dia vai pedir desculpa, porque
+
+304
+00:18:03,320 --> 00:18:09,320
+ a imprensa brasileira comprou, comprou uma mentira, vendeu a mentira e nunca reconheceu
+
+305
+00:18:09,320 --> 00:18:11,320
+ que comprou uma mentira.
+
+306
+00:18:11,320 --> 00:18:15,320
+ O candidato do jornalismo da Globo cumpriu a sua obrigação de noticiar os fatos
+
+307
+00:18:15,320 --> 00:18:17,320
+ durante essa conversa.
+
+308
+00:18:17,320 --> 00:18:19,320
+ É de feito pedir desculpa.
+
+309
+00:18:19,320 --> 00:18:25,320
+ A imprensa brasileira sabe que ela produziu um monstro mentiroso chamado Moro, chamado
+
+310
+00:18:25,320 --> 00:18:26,320
+ Dalao.
+
+311
+00:18:26,320 --> 00:18:30,320
+ Eu não esqueço do PowerPoint mentiroso contra mim.
+
+312
+00:18:30,320 --> 00:18:32,320
+ Eu não esqueço.
+
+313
+00:18:32,320 --> 00:18:33,320
+ Agora, eu me disfuso...
+
+314
+00:18:33,320 --> 00:18:35,320
+ Candidato, em relação a essa...
+
+315
+00:18:35,320 --> 00:18:36,320
+ Me disfuso aí para a cadeia.
+
+316
+00:18:36,320 --> 00:18:38,320
+ Me disfuso aí para a cadeia.
+
+317
+00:18:38,320 --> 00:18:39,320
+ O senhor falou do PowerPoint.
+
+318
+00:18:39,320 --> 00:18:43,320
+ Eu só quero dizer ao senhor, por favor, em relação a essa questão do PowerPoint.
+
+319
+00:18:43,320 --> 00:18:48,320
+ Com os nossos princípios editoriais, nós fizemos a devida retratação sobre esse assunto.
+
+320
+00:18:48,320 --> 00:18:53,320
+ Então, eu peço que a gente siga com a entrevista, ainda sobre esse assunto tão importante
+
+321
+00:18:53,320 --> 00:18:56,320
+ para o Brasil, que se chama Previdência Social.
+
+322
+00:18:56,320 --> 00:19:03,320
+ Além de todos esses descontos indevidos, essa fraude bionária, que começou em 2019,
+
+323
+00:19:03,320 --> 00:19:06,320
+ 23, 24, foi descoberta só depois.
+
+324
+00:19:06,320 --> 00:19:11,320
+ Tem um problema sério hoje ainda no Brasil, que afeta aposentados e pensionistas, que é
+
+325
+00:19:11,320 --> 00:19:12,320
+ a fila do INSS.
+
+326
+00:19:12,320 --> 00:19:16,320
+ Quando o senhor assumiu esse terceiro mandato, o senhor prometeu zerar essa fila.
+
+327
+00:19:16,320 --> 00:19:17,320
+ Não zerou a fila.
+
+328
+00:19:17,320 --> 00:19:21,320
+ Hoje, ela está na casa de 1 milhão e 300 mil pessoas.
+
+329
+00:19:21,320 --> 00:19:26,320
+ Então, eu pergunto ao senhor, o que é que o senhor vai fazer, se releito, para oferecer
+
+330
+00:19:26,320 --> 00:19:30,320
+ mais qualidade nesse serviço essencial para os brasileiros?
+
+331
+00:19:30,320 --> 00:19:36,320
+ Se você prometer que vai à Brasília, eu, a semana que vem, vou anunciar que a fila zerou.
+
+332
+00:19:36,320 --> 00:19:43,320
+ A espera de 45 dias vai estar apenas em 250 mil pessoas, que é o normal.
+
+333
+00:19:43,320 --> 00:19:50,320
+ Você não pode deixar de dizer, Trale, que no meu governo os aposentados recebiam a aposentadoria,
+
+334
+00:19:50,320 --> 00:19:55,320
+ recebiam uma carta em casa dizendo: "Você tem tempo de aposentadoria, pode me receber".
+
+335
+00:19:55,320 --> 00:19:59,320
+ Uma mulher que dava à luz, ela recebeu o pré-natal quase junto com a criança.
+
+336
+00:19:59,320 --> 00:20:02,320
+ Uma pessoa que estava doente era imediatamente.
+
+337
+00:20:02,320 --> 00:20:05,320
+ As pessoas, a gente me encarta os benefícios.
+
+338
+00:20:05,320 --> 00:20:09,320
+ Eles desmontaram, desmontaram o Brasil, desmontaram a Previdência.
+
+339
+00:20:09,320 --> 00:20:12,320
+ Nós chegamos a ter 3 milhões de pessoas na fila.
+
+340
+00:20:12,320 --> 00:20:17,320
+ E nós vamos entregar agora a fila terminada na Previdência Social.
+
+341
+00:20:17,320 --> 00:20:22,320
+ Você está convidado antecipadamente para ir à Brasília assistir o ato em que a gente
+
+342
+00:20:22,320 --> 00:20:24,320
+ vai comemorar com os aposentados.
+
+343
+00:20:25,320 --> 00:20:26,320
+ Semana que vem.
+
+344
+00:20:26,320 --> 00:20:33,320
+ Candidato, Caso Master, um aliado histórico seu aparece nas investigações.
+
+345
+00:20:33,320 --> 00:20:37,320
+ Jacques Wagner, que até junho era líder do governo no Senado.
+
+346
+00:20:37,320 --> 00:20:42,320
+ A Polícia Federal apura se ele recebeu um apartamento com propina em troca de promover
+
+347
+00:20:42,320 --> 00:20:46,320
+ interesses do banqueiro Daniel Vorcaro na Bahia e no Senado.
+
+348
+00:20:46,320 --> 00:20:51,320
+ Apesar dessa investigação, o senhor continuou demonstrando apoio e pediu, inclusive, votos
+
+349
+00:20:51,320 --> 00:20:52,320
+ para o Jacques Wagner.
+
+350
+00:20:52,320 --> 00:20:57,320
+ Por isso, eu lhe pergunto, antes de pedir votos para ele, não é preciso aguardar as
+
+351
+00:20:57,320 --> 00:21:02,320
+ investigações desse caso, esclarecer, de fato, o envolvimento dele nesse caso?
+
+352
+00:21:02,320 --> 00:21:09,320
+ O Banco Master causou um prejuízo a esse país de 60 bilhões de reais.
+
+353
+00:21:09,320 --> 00:21:12,320
+ 60 bilhões, não foi 60 dólares.
+
+354
+00:21:12,320 --> 00:21:14,320
+ Foi 60 bilhões de reais.
+
+355
+00:21:14,320 --> 00:21:17,320
+ E tem muita gente nesse país envolvido.
+
+356
+00:21:17,320 --> 00:21:21,320
+ Até agora não está provado que o Wagner tem relação com o Banco Master.
+
+357
+00:21:21,320 --> 00:21:26,320
+ O Wagner tem relação com Augusto, que na época não era nem do Banco Master.
+
+358
+00:21:26,320 --> 00:21:32,320
+ O que eu não posso admitir para mim e aceitar é que eu possa fazer política vivendo de ilações
+
+359
+00:21:32,320 --> 00:21:33,320
+ todo santo dia.
+
+360
+00:21:33,320 --> 00:21:38,320
+ Você tem um processo, tem uma apuração, tem uma investigação, as pessoas são inocentes
+
+361
+00:21:38,320 --> 00:21:39,320
+ até prova em contrário.
+
+362
+00:21:39,320 --> 00:21:42,320
+ As pessoas são inocentes até prova em contrário.
+
+363
+00:21:42,320 --> 00:21:48,320
+ Se um dia, Renata, você for acusada, você torta para você ter amigo que acha que você
+
+364
+00:21:48,320 --> 00:21:50,320
+ é inocente até provar sua culpa.
+
+365
+00:21:50,320 --> 00:21:54,320
+ O que não dá, o que não dá, ele é senador da república.
+
+366
+00:21:54,320 --> 00:21:57,320
+ Ele é senador da república, é candidato à reeleição.
+
+367
+00:21:57,320 --> 00:22:02,320
+ É um homem que tem relação comigo há 45 anos, desde o tempo de sindicalista.
+
+368
+00:22:02,320 --> 00:22:08,320
+ Eu não posso colocar em dúvida o comportamento e a relação do Wagner comigo por conta de uma
+
+369
+00:22:08,320 --> 00:22:09,320
+ eleição.
+
+370
+00:22:09,320 --> 00:22:10,320
+ Não posso.
+
+371
+00:22:10,320 --> 00:22:13,320
+ E posso dizer: eu tenho consciência que o Wagner é honesto.
+
+372
+00:22:13,320 --> 00:22:14,320
+ Tenho consciência.
+
+373
+00:22:14,320 --> 00:22:19,320
+ Se ele cometer um desvio, vai acontecer com ele, vai acontecer com qualquer pessoa.
+
+374
+00:22:19,320 --> 00:22:22,320
+ Vai pagar o preço do erro que cometeu.
+
+375
+00:22:22,320 --> 00:22:28,320
+ Eu não sou uma pessoa que muda de calçada quando encontra um amigo que está sendo acusado
+
+376
+00:22:28,320 --> 00:22:29,320
+ de alguma coisa, não.
+
+377
+00:22:29,320 --> 00:22:32,320
+ Até prova em contrário, todos são inocentes.
+
+378
+00:22:32,320 --> 00:22:35,320
+ Candidato, vamos falar de contas públicas e ajustes fiscal.
+
+379
+00:22:35,320 --> 00:22:39,320
+ Eu acho que é da hora de falar, porque eu estava parecendo que eu estava no Ministério
+
+380
+00:22:39,320 --> 00:22:40,320
+ Público.
+
+381
+00:22:40,320 --> 00:22:44,320
+ Candidato, a dívida pública no seu governo ultrapassou os 10 trilhões de reais.
+
+382
+00:22:44,320 --> 00:22:48,320
+ E além do tamanho da dívida, o problema é a direção que ela está tomando.
+
+383
+00:22:48,320 --> 00:22:50,320
+ A gente chama de trajetória da dívida.
+
+384
+00:22:50,320 --> 00:22:56,320
+ No seu governo, a dívida disparou 10 pontos percentuais, atingiu 82% do PIB.
+
+385
+00:22:56,320 --> 00:23:02,320
+ E essa trajetória, ela pressiona os juros que encarece o crédito, que dificulta o investimento
+
+386
+00:23:02,320 --> 00:23:04,320
+ e que pesa no bolso das famílias.
+
+387
+00:23:04,320 --> 00:23:10,320
+ O seu programa de governo menciona uma necessidade de um ajuste fiscal, mas não traz metas explícitas
+
+388
+00:23:10,320 --> 00:23:12,320
+ para os próximos quatro anos.
+
+389
+00:23:12,320 --> 00:23:16,320
+ Eu quero saber do senhor quais são as suas metas e para que percentual do PIB o senhor
+
+390
+00:23:16,320 --> 00:23:18,320
+ pretende trazer essa dívida.
+
+391
+00:23:18,320 --> 00:23:26,320
+ E, Renata, eu pensei que uma jornalista da sua qualidade, da sua competência, pudesse
+
+392
+00:23:26,320 --> 00:23:29,320
+ começar essa pergunta falando diferente, Renata.
+
+393
+00:23:29,320 --> 00:23:35,320
+ Você pode dizer, presidente Lula, o senhor foi o único presidente na história do Brasil
+
+394
+00:23:35,320 --> 00:23:42,320
+ que fez superávit primário durante oito anos do seu primeiro mandato?
+
+395
+00:23:42,320 --> 00:23:47,320
+ Dos países do G20, eu fui o único que fez superávit primário durante oito anos.
+
+396
+00:23:47,320 --> 00:23:50,320
+ Nunca tive problema fiscal nesse país.
+
+397
+00:23:50,320 --> 00:23:54,320
+ Você acha que o Brasil está com problema de dívida pública porque nós chegamos a
+
+398
+00:23:54,320 --> 00:23:56,320
+ 80%, sabe por quê?
+
+399
+00:23:56,320 --> 00:23:58,320
+ Porque nós temos há mais de dez anos sem crescer.
+
+400
+00:23:58,320 --> 00:24:03,320
+ Você sabe quando é que o PIB voltou a crescer acima de 2%, Renata?
+
+401
+00:24:03,320 --> 00:24:05,320
+ Quando eu votei à presidência da República.
+
+402
+00:24:05,320 --> 00:24:10,320
+ Você se esquece que eu deixei esse país crescendo 7,5% em 2010?
+
+403
+00:24:10,320 --> 00:24:15,320
+ Você se esquece que eu deixei esse país crescendo 7,5% e quando eu votei ele estava
+
+404
+00:24:15,320 --> 00:24:22,320
+ crescendo 1%, ele só cresceu 3%, sabe, em 2023, 2024, 2025.
+
+405
+00:24:22,320 --> 00:24:24,320
+ Então, deixa eu lhe falar uma coisa.
+
+406
+00:24:24,320 --> 00:24:30,320
+ Na medida que você começa a crescer a economia, o PIB começa a cair, a dívida começa a cair
+
+407
+00:24:30,320 --> 00:24:33,320
+ com relação a dívida.
+
+408
+00:24:33,320 --> 00:24:37,320
+ 80% de dívida, sabe, em um país, não é muito se você olhar para os Estados Unidos,
+
+409
+00:24:37,320 --> 00:24:39,320
+ olhar para o Japão, olhe para a Itália.
+
+410
+00:24:39,320 --> 00:24:40,320
+ Essa trajetória do PIB...
+
+411
+00:24:40,320 --> 00:24:42,320
+ Sabe qual é a dívida dos Estados Unidos?
+
+412
+00:24:42,320 --> 00:24:47,320
+ 120% do PIB é 40 trilhões de dólares.
+
+413
+00:24:47,320 --> 00:24:53,320
+ Olha, o que é importante é o seguinte: uma dívida, sabe, uma parte dela é por conta da taxa de juros,
+
+414
+00:24:53,320 --> 00:24:58,320
+ que vocês defenderam a vida inteira o Banco Central independente.
+
+415
+00:24:58,320 --> 00:24:59,320
+ Candidato, o seu ministro...
+
+416
+00:24:59,320 --> 00:25:03,320
+ Você está lembrado que o Fernando Henrique Cardoso trocou três presidentes do Banco Central.
+
+417
+00:25:03,320 --> 00:25:08,320
+ Eu entrei e fiquei dois anos com o presidente do Bolsonaro.
+
+418
+00:25:08,320 --> 00:25:14,320
+ Porque se você não fizer a pergunta completa, eu vou dizer para você: a mim não preocupa a dívida pública.
+
+419
+00:25:14,320 --> 00:25:15,320
+ Eu vou dizer por quê.
+
+420
+00:25:15,320 --> 00:25:23,320
+ Eu herdei esse governo em janeiro de 2023 com déficit fiscal de 2,8%.
+
+421
+00:25:23,320 --> 00:25:26,320
+ Você sabe o quanto vai ser o orçamento desse ano?
+
+422
+00:25:26,320 --> 00:25:29,320
+ Superar o primário de 0,1%.
+
+423
+00:25:29,320 --> 00:25:34,320
+ Portanto, se tem alguém nesse país que tem responsabilidade fiscal, sou eu.
+
+424
+00:25:34,320 --> 00:25:36,320
+ E nem a trajetória da dívida o preocupa.
+
+425
+00:25:36,320 --> 00:25:40,320
+ Eu quero a trajetória de marcar a taxa de juros.
+
+426
+00:25:40,320 --> 00:25:47,320
+ Porque tem uma coisa que nós temos que entender, Renata.
+
+427
+00:25:47,320 --> 00:25:54,320
+ Nós pegamos esse país numa situação, nós não tínhamos orçamento para governar.
+
+428
+00:25:54,320 --> 00:25:57,320
+ Você está lembrado da PEC da transição?
+
+429
+00:25:57,320 --> 00:26:03,320
+ A PEC da transição foi, inclusive, para pagar rombo deixado pelo outro governo.
+
+430
+00:26:03,320 --> 00:26:12,320
+ Deixou um roubo de 94 bilhões, sabe, de dívida com as pessoas que nós tivemos que pagar.
+
+431
+00:26:12,320 --> 00:26:14,320
+ Eu quero aproveitar esse assunto ainda, candidato.
+
+432
+00:26:14,320 --> 00:26:15,320
+ Então, deixa eu falar uma coisa, Renata.
+
+433
+00:26:15,320 --> 00:26:19,320
+ Eu, sinceramente, Renata, eu tenho uma coisa que eu digo sempre.
+
+434
+00:26:19,320 --> 00:26:22,320
+ Responsabilidade, eu aprendi com a dona Lindu.
+
+435
+00:26:22,320 --> 00:26:25,320
+ Ela juntava os filhos, pegava o dinheiro e falava:
+
+436
+00:26:25,320 --> 00:26:29,320
+ "Vocês não podem comprar e gastar o que vocês não têm".
+
+437
+00:26:29,320 --> 00:26:32,320
+ Eu vou dizer uma coisa para vocês lembrarem.
+
+438
+00:26:32,320 --> 00:26:41,320
+ Em dezembro de 2008, por ocasião da crise do subprime nos Estados Unidos, o comércio
+
+439
+00:26:41,320 --> 00:26:42,320
+ entrou numa crise.
+
+440
+00:26:42,320 --> 00:26:48,320
+ Eu fui para a televisão, fiz um discurso de oito minutos, convocando a sociedade brasileira
+
+441
+00:26:48,320 --> 00:26:49,320
+ a consumir.
+
+442
+00:26:49,320 --> 00:26:53,320
+ Porque era verdade que estava tendo desemprego.
+
+443
+00:26:53,320 --> 00:26:57,320
+ Mas ele não consumiu, ia ter mais desemprego ainda.
+
+444
+00:26:57,320 --> 00:26:59,320
+ Consuma com responsabilidade.
+
+445
+00:26:59,320 --> 00:27:04,320
+ Se você consumir com responsabilidade, você vai poder pagar sua dívida e o PEC vai voltar
+
+446
+00:27:04,320 --> 00:27:05,320
+ a crescer.
+
+447
+00:27:05,320 --> 00:27:09,320
+ Foi o ano em que a classe C e D consumiram mais do que a classe B.
+
+448
+00:27:09,320 --> 00:27:15,320
+ Então, se tem uma coisa que baliza a minha vida, chama-se responsabilidade fiscal.
+
+449
+00:27:15,320 --> 00:27:19,320
+ E eu tenho uma equipe econômica, que era do Haddad, que era do Guido, que agora é
+
+450
+00:27:19,320 --> 00:27:22,320
+ do Dario, com muita responsabilidade fiscal.
+
+451
+00:27:22,320 --> 00:27:24,320
+ Eu sei o que eu quero desse país.
+
+452
+00:27:24,320 --> 00:27:30,320
+ Aproveitando, então, agora que o senhor acaba de tocar no nome do seu ministro da Fazenda,
+
+453
+00:27:30,320 --> 00:27:35,320
+ do Dario Durigan, eu queria entrar muito nesse assunto agora com o senhor, que é o seguinte:
+
+454
+00:27:35,320 --> 00:27:39,320
+ o próprio ministro da Fazenda do senhor tem manifestado preocupação com a rolagem
+
+455
+00:27:39,320 --> 00:27:40,320
+ da dívida pública.
+
+456
+00:27:40,320 --> 00:27:45,320
+ Ele disse que o próximo governo vai ter que fazer ajustes fiscais, vai ter que reduzir
+
+457
+00:27:45,320 --> 00:27:46,320
+ gastos obrigatórios.
+
+458
+00:27:46,320 --> 00:27:51,320
+ Então, eu pergunto ao senhor o seguinte: o senhor pretende reduzir gastos obrigatórios?
+
+459
+00:27:51,320 --> 00:27:55,320
+ Porque é muito importante esclarecer isso para a sociedade e para a população.
+
+460
+00:27:55,320 --> 00:27:59,320
+ E se o senhor pretende reduzir gastos obrigatórios, quais exatamente?
+
+461
+00:27:59,320 --> 00:28:02,320
+ Que compromisso que o senhor estabelece, se reeleito?
+
+462
+00:28:02,320 --> 00:28:06,320
+ O meu estabelecimento é o seguinte: é fazer esse país crescer.
+
+463
+00:28:06,320 --> 00:28:11,320
+ A minha proposta de ser candidato a presidente da República outra vez é porque eu já fiz
+
+464
+00:28:11,320 --> 00:28:13,320
+ o bado que eu tinha que fazer.
+
+465
+00:28:13,320 --> 00:28:18,320
+ Você está lembrado que eu comecei em 2003 dizendo que, ao terminar o meu mandato, cada
+
+466
+00:28:18,320 --> 00:28:22,320
+ brasileiro estiver almoçando, tomando café e jantando, eu terei realizado a obra da minha
+
+467
+00:28:22,320 --> 00:28:23,320
+ vida.
+
+468
+00:28:23,320 --> 00:28:25,320
+ Eu fiz mais do que isso.
+
+469
+00:28:25,320 --> 00:28:27,320
+ Depois eu fiz o PAC no segundo mandato.
+
+470
+00:28:27,320 --> 00:28:34,320
+ Depois eu fiz o PAC 3 agora nesse mandato, com 1 trilhão e 900 bilhões de investimentos,
+
+471
+00:28:34,320 --> 00:28:41,320
+ dos quais até 2023, agora em dezembro, são 1 trilhão e 340 bilhões, dos quais 97%
+
+472
+00:28:41,320 --> 00:28:42,320
+ já quitados.
+
+473
+00:28:42,320 --> 00:28:45,320
+ Então, o que eu quero para o próximo mandato?
+
+474
+00:28:45,320 --> 00:28:48,320
+ Eu quero fazer uma revolução tecnológica nesse país.
+
+475
+00:28:48,320 --> 00:28:54,320
+ Eu quero voltar a fazer com que esse país seja disputar com o mundo rico.
+
+476
+00:28:54,320 --> 00:28:58,320
+ Esse país vai ter que ser dono de minerais críticos das terras raras.
+
+477
+00:28:58,320 --> 00:29:02,320
+ Esse país vai ter que aportar numa inteligência artificial com linguagem portuguesa.
+
+478
+00:29:02,320 --> 00:29:07,320
+ Esse país vai ter que tentar fazer uma reforma para que a gente tenha a nossa defesa tomando
+
+479
+00:29:07,320 --> 00:29:12,320
+ conta de 8 milhões e meio de quilômetros quadrados, que está totalmente abandonado.
+
+480
+00:29:12,320 --> 00:29:17,320
+ E nós estamos vendo que nós temos, depois da China, possivelmente a gente esteja um país
+
+481
+00:29:17,320 --> 00:29:19,320
+ que tenha mais minerais críticos em terras raras.
+
+482
+00:29:19,320 --> 00:29:23,320
+ E você percebe que está sendo vendido enquanto a gente não faz a regulação.
+
+483
+00:29:23,320 --> 00:29:29,320
+ Eu estive com a Columbre essa semana pedindo para ele: vamos aprovar a regulação para
+
+484
+00:29:29,320 --> 00:29:35,320
+ que a gente não permita que as nossas riquezas sejam vendidas, porque isso, se a gente souber
+
+485
+00:29:35,320 --> 00:29:42,320
+ extrair, transformar e produzir os materiais que a gente pode, fazer bateria, fazer chip,
+
+486
+00:29:42,320 --> 00:29:48,320
+ fazer celular, aqui dentro do Brasil, a gente vai estar criando um passaporte para dar oportunidade
+
+487
+00:29:48,320 --> 00:29:53,320
+ para a juventude brasileira, sabe, ter orgulho de que, no seu país, ela vai ter condição
+
+488
+00:29:53,320 --> 00:29:56,320
+ de estudar, de trabalhar e de ganhar a sua vida.
+
+489
+00:29:56,320 --> 00:29:58,320
+ É esse o futuro que eu quero para o país.
+
+490
+00:29:58,320 --> 00:30:02,320
+ E é por isso que eu estou apreitando o quarto mandato, porque eu já acabei com a fome
+
+491
+00:30:02,320 --> 00:30:04,320
+ duas vezes, duas.
+
+492
+00:30:04,320 --> 00:30:09,320
+ Você sabe que, quando eu voltei agora, esse país estava destruído, destruído.
+
+493
+00:30:09,320 --> 00:30:13,320
+ O déficit era 2,8%.
+
+494
+00:30:13,320 --> 00:30:15,320
+ O último foi 0,8%.
+
+495
+00:30:15,320 --> 00:30:18,320
+ E agora, nesse orçamento, vai ser positivo.
+
+496
+00:30:18,320 --> 00:30:21,320
+ Nós vamos fazer superávit esse ano.
+
+497
+00:30:21,320 --> 00:30:22,320
+ Candidato, depois...
+
+498
+00:30:22,320 --> 00:30:24,320
+ Porque sabe o que acontece, Sr. Trale?
+
+499
+00:30:24,320 --> 00:30:25,320
+ Eu aprendi muito cedo...
+
+500
+00:30:25,320 --> 00:30:26,320
+ Posso avançar nos assuntos, por favor?
+
+501
+00:30:26,320 --> 00:30:31,320
+ E se eu gastar mais do que eu ganho, eu não vou conseguir realizar nada.
+
+502
+00:30:31,320 --> 00:30:32,320
+ Eu vou me perder.
+
+503
+00:30:32,320 --> 00:30:34,320
+ Então, eu tenho...
+
+504
+00:30:34,320 --> 00:30:37,320
+ Na próxima pergunta, eu vou lhe contar a minha conversa com o FMI.
+
+505
+00:30:37,320 --> 00:30:39,320
+ Esse país aqui...
+
+506
+00:30:39,320 --> 00:30:43,320
+ Porque, se a gente não contar, a meninada que está ouvindo a gente não entende.
+
+507
+00:30:43,320 --> 00:30:46,320
+ Esse país aqui devia 30 bilhões de dólares.
+
+508
+00:30:46,320 --> 00:30:50,320
+ Esse país aqui, o Malan, não conseguia uma audiência com o FMI.
+
+509
+00:30:50,320 --> 00:30:53,320
+ Esse país aqui não podia pagar suas importações.
+
+510
+00:30:53,320 --> 00:30:57,320
+ Quando eu assumi a presidência, todos os economistas diziam que o país estava quebrado.
+
+511
+00:30:57,320 --> 00:30:59,320
+ Pois bem, o país não quebrou.
+
+512
+00:30:59,320 --> 00:31:01,320
+ Eu paguei 30 bilhões do FMI.
+
+513
+00:31:01,320 --> 00:31:06,320
+ Fiz a primeira reserva de dólares para ir de 270 bilhões de reais,
+
+514
+00:31:06,320 --> 00:31:09,320
+ que é o que segura a estabilidade econômica desse país até hoje.
+
+515
+00:31:09,320 --> 00:31:12,320
+ Ainda falando sobre economia, sobre essa questão de dívida pública,
+
+516
+00:31:12,320 --> 00:31:15,320
+ quero muito ouvir o senhor sobre a crise nas estatais.
+
+517
+00:31:15,320 --> 00:31:22,320
+ As estatais brasileiras federais estão acumulando um prejuízo de 20 bilhões de reais no seu governo.
+
+518
+00:31:22,320 --> 00:31:26,320
+ E o caso mais emblemático, mais grave, é o dos Correios.
+
+519
+00:31:26,320 --> 00:31:29,320
+ Já são quatro anos seguidos de prejuízo.
+
+520
+00:31:29,320 --> 00:31:30,320
+ É um rombo histórico.
+
+521
+00:31:30,320 --> 00:31:33,320
+ São 15 bilhões de reais, candidato.
+
+522
+00:31:33,320 --> 00:31:40,320
+ A própria direção da estatal diz que parte da crise se deve a baixa qualidade na operação da empresa.
+
+523
+00:31:40,320 --> 00:31:46,320
+ Não ter eficiência num setor cada vez mais competitivo significa risco de prejuízo.
+
+524
+00:31:46,320 --> 00:31:49,320
+ O senhor considera vender os Correios?
+
+525
+00:31:49,320 --> 00:31:51,320
+ Eu queria lhe falar uma coisa, candidato.
+
+526
+00:31:51,320 --> 00:31:54,320
+ Você já era nascido em 1985.
+
+527
+00:31:54,320 --> 00:32:00,320
+ Desde 1985, o Correio brasileiro vive crise e alguém quer privatizar o Correio.
+
+528
+00:32:00,320 --> 00:32:07,320
+ O Correio é uma empresa muito importante para o Brasil, porque ela está em todos os municípios brasileiros.
+
+529
+00:32:07,320 --> 00:32:13,320
+ Obviamente que o Correio, a vítima da crise do Correio é que ele não se adaptou aos novos tempos.
+
+530
+00:32:13,320 --> 00:32:15,320
+ Não se adaptou.
+
+531
+00:32:15,320 --> 00:32:19,320
+ Surgiu muita empresa de fazer entrega e o Correio ficou na mesmice.
+
+532
+00:32:19,320 --> 00:32:25,320
+ Não só a gente está com uma nova administração no Correio, que está com a responsabilidade
+
+533
+00:32:25,320 --> 00:32:29,320
+ de fazer o enxugamento que for necessário nas contas do Correio.
+
+534
+00:32:29,320 --> 00:32:34,320
+ Se for necessário fazer associação com a empresa, nós faremos com a empresa bandeira
+
+535
+00:32:34,320 --> 00:32:38,320
+ ou com a empresa estrangeira, porque a gente quer um Correio prestando serviços
+
+536
+00:32:38,320 --> 00:32:40,320
+ junto com qualquer outra empresa.
+
+537
+00:32:40,320 --> 00:32:42,320
+ O senhor garante então que o Correio vai sair dessa crise?
+
+538
+00:32:42,320 --> 00:32:43,320
+ Garanto.
+
+539
+00:32:43,320 --> 00:32:45,320
+ Vai sair desse pombo, vai sair dessa dívida toda?
+
+540
+00:32:45,320 --> 00:32:46,320
+ Garanto.
+
+541
+00:32:46,320 --> 00:32:48,320
+ O senhor não considera vender?
+
+542
+00:32:48,320 --> 00:32:49,320
+ Hein?
+
+543
+00:32:49,320 --> 00:32:50,320
+ Não considero vender o Correio.
+
+544
+00:32:50,320 --> 00:32:51,320
+ Não considero.
+
+545
+00:32:51,320 --> 00:32:52,320
+ Candidato?
+
+546
+00:32:52,320 --> 00:32:55,320
+ Não considero recuperar o Correio, sabe?
+
+547
+00:32:55,320 --> 00:32:58,320
+ E para ele prestar serviço de qualidade ao povo brasileiro.
+
+548
+00:32:58,320 --> 00:32:59,320
+ E ele pode fazer isso.
+
+549
+00:32:59,320 --> 00:33:01,320
+ A gente vai continuar essa entrevista já, já.
+
+550
+00:33:01,320 --> 00:33:05,320
+ Só um pequeno intervalo e a gente volta em instantes.
+
+551
+00:33:05,320 --> 00:33:06,320
+ Vamos.
+
+552
+00:33:06,320 --> 00:33:11,320
+ Nós estamos de volta com o segundo bloco da entrevista com Luiz Inácio Lula da Silva,
+
+553
+00:33:11,320 --> 00:33:14,320
+ candidato do PT à presidência da República.
+
+554
+00:33:14,320 --> 00:33:16,320
+ Candidato, vamos falar de educação?
+
+555
+00:33:16,320 --> 00:33:17,320
+ Vamos.
+
+556
+00:33:17,320 --> 00:33:26,320
+ Vamos falar do acesso à escola entre jovens de 4 a 17 anos, que está na casa dos 97%,
+
+557
+00:33:26,320 --> 00:33:28,320
+ está perto da universalização.
+
+558
+00:33:28,320 --> 00:33:29,320
+ O que é bom.
+
+559
+00:33:29,320 --> 00:33:33,320
+ Mas a gente sabe que acesso não é a mesma coisa que aprendizagem.
+
+560
+00:33:33,320 --> 00:33:39,320
+ E um estudo do Todos pela Educação, divulgado agora em agosto, mostra que 6 em cada 10 jovens
+
+561
+00:33:39,320 --> 00:33:45,320
+ brasileiros terminam o ensino médio na rede pública sem aprender o básico em matemática.
+
+562
+00:33:45,320 --> 00:33:50,320
+ Eu quero saber do senhor por que esse resultado e qual é o seu plano para melhorar se o senhor for reeleito.
+
+563
+00:33:50,320 --> 00:33:55,320
+ Então, deixa eu te dizer uma coisa, Renata.
+
+564
+00:33:55,320 --> 00:34:01,320
+ Se tem uma coisa que eu tenho orgulho, é que o Brasil nunca teve um Presidente da República
+
+565
+00:34:01,320 --> 00:34:04,320
+ que cuidasse da educação como eu cuidei.
+
+566
+00:34:04,320 --> 00:34:09,320
+ Eu estou o Presidente da República que mais coloquei alunos em escola de tempo integral.
+
+567
+00:34:09,320 --> 00:34:14,320
+ Nós fizemos um pacto com os prefeitos para a alfabetização das crianças na idade certa,
+
+568
+00:34:14,320 --> 00:34:19,320
+ que a gente previa até 2030 chegar a 80% dos jovens.
+
+569
+00:34:19,320 --> 00:34:24,320
+ Chegamos a 66% no primeiro ano desse acordo.
+
+570
+00:34:24,320 --> 00:34:27,320
+ Porque as coisas estão evoluindo muito.
+
+571
+00:34:27,320 --> 00:34:32,320
+ Eu criei o Fundeb para garantir que os meninos do ensino médio não desistissem da escola.
+
+572
+00:34:32,320 --> 00:34:37,320
+ 500 mil desistiam por ano para ajudar no orçamento familiar.
+
+573
+00:34:37,320 --> 00:34:46,320
+ Nós criamos o Pé de Meia garantindo uma conta, uma poupança para os jovens para eles não desistirem da escola.
+
+574
+00:34:46,320 --> 00:34:51,320
+ Isso diminuiu a invasão no primeiro ano em mais de 60% dos alunos.
+
+575
+00:34:51,320 --> 00:34:56,320
+ E sou o Presidente que mais fiz universidade nesse país, mais fiz institutos federais.
+
+576
+00:34:57,320 --> 00:35:02,320
+ Dos quase 800 institutos desse país, 80% foi feito por mim e pela Dilma.
+
+577
+00:35:02,320 --> 00:35:05,320
+ E com relação a essa dificuldade do aprendizado?
+
+578
+00:35:05,320 --> 00:35:08,320
+ Veja, a dificuldade no aprendizado, você tem que entender.
+
+579
+00:35:08,320 --> 00:35:13,320
+ O Estado, como o Ceará, a molecada é mais evoluída aqui em São Paulo.
+
+580
+00:35:14,320 --> 00:35:19,320
+ O que, na verdade, a educação básica, ela é administrada pelo Estado.
+
+581
+00:35:20,320 --> 00:35:23,320
+ O governo tem o Fundeb que ajuda os Estados.
+
+582
+00:35:23,320 --> 00:35:26,320
+ Mas cada Estado age de um jeito.
+
+583
+00:35:26,320 --> 00:35:31,320
+ O Ceará e o Piauí são os Estados pobres que têm o melhor nível de educação nesse país.
+
+584
+00:35:31,320 --> 00:35:39,320
+ Você sabia que 40% dos alunos que passam no vestibular do ITA em São José dos Campos são ceareses?
+
+585
+00:35:39,320 --> 00:35:42,320
+ Por isso eu levei o ITA para Fortaleza, como premiação.
+
+586
+00:35:42,320 --> 00:35:53,320
+ Você sabe que nós criamos aqui no Rio de Janeiro uma faculdade de matemática para premiar os alunos que participam das Olimpíadas da Matemática, os que têm medalhas de ouro.
+
+587
+00:35:53,320 --> 00:36:04,320
+ Nós fazemos um vestibular entre eles e os 400 melhores estão numa faculdade de matemática aqui com dormida, comida, porque a gente não quer perder mais gênios.
+
+588
+00:36:04,320 --> 00:36:08,320
+ Estas técnicas em educação dizem que é muito importante investir na formação dos professores.
+
+589
+00:36:08,320 --> 00:36:10,320
+ Qual é a sua proposta para isso?
+
+590
+00:36:10,320 --> 00:36:12,320
+ Então, eu vou lhe dizer, sabe o que nós fizemos?
+
+591
+00:36:12,320 --> 00:36:24,320
+ Nós estamos dando uma bolsa de estudo para o menino do Enem que passar em primeiro lugar, que for ser professor, ele vai ganhar uma bolsa de estudo para estudar para o professor.
+
+592
+00:36:24,320 --> 00:36:35,320
+ Porque normalmente ele não quer, os melhores querem outra coisa, e nós estamos dando uma bolsa porque nós sabemos que a qualidade do professor influencia, sabe, na formação do aluno.
+
+593
+00:36:35,320 --> 00:36:37,320
+ Então, candidato, para a gente falar de um outro tema, pois não.
+
+594
+00:36:37,320 --> 00:36:47,320
+ Renata, quem criou a Olimpíada da Matemática no Brasil, na escola pública, fui eu, contra a vontade de muita gente que dizia que as crianças não gostavam de matemática.
+
+595
+00:36:47,320 --> 00:36:56,320
+ Na primeira inscrição, entrou 10 milhões de crianças, na segunda, 14 milhões de crianças, na terceira, 18 milhões de crianças.
+
+596
+00:36:56,320 --> 00:37:04,320
+ E quando as crianças aprendem a desfiar, o casulo da matemática passa a ser a matéria que ele mais mostra.
+
+597
+00:37:04,320 --> 00:37:12,320
+ Então, agora, no futuro, por isso que eu quero um quarto mandato, nós precisamos colocar muita gente para fazer matemática, muita gente para fazer engenharia,
+
+598
+00:37:12,320 --> 00:37:22,320
+ muita gente para prender esse mundo digital e discutir inteligência artificial, porque nós não queremos ficar subordinados à briga dos Estados Unidos com a China.
+
+599
+00:37:22,320 --> 00:37:28,320
+ Agora, antes de encerrar, eu gostaria de ouvir do senhor sobre um tema muito importante, que é segurança pública.
+
+600
+00:37:28,320 --> 00:37:30,320
+ Uma das maiores preocupações do brasileiro hoje.
+
+601
+00:37:30,320 --> 00:37:31,320
+ Exato.
+
+602
+00:37:31,320 --> 00:37:32,320
+ Acabou a educação.
+
+603
+00:37:32,320 --> 00:37:40,320
+ Nós estamos tentando avançar nos temas, candidato, porque estão faltando menos de 5 minutos.
+
+604
+00:37:40,320 --> 00:37:44,320
+ Nos últimos 24 anos, então, 17 foram do PCOM-PT na presidência.
+
+605
+00:37:44,320 --> 00:37:49,320
+ O senhor está no terceiro mandato, são 12 anos na cadeira de presidente.
+
+606
+00:37:49,320 --> 00:37:55,320
+ Na sua avaliação, candidato, por que, nesses mais de 20 anos, o crime organizado se espalhou pelo Brasil?
+
+607
+00:37:55,320 --> 00:37:56,320
+ Preciso ouvi-lo sobre isso.
+
+608
+00:37:56,320 --> 00:38:01,320
+ É importante que a gente contribua para formar as pessoas que estão nos assistindo.
+
+609
+00:38:01,320 --> 00:38:10,320
+ Na Constituição de 88, a Constituição aprovou que a segurança pública era da responsabilidade do Estado.
+
+610
+00:38:10,320 --> 00:38:15,320
+ A sociedade civil estava cansada dos militares terem ingerência nas políticas estaduais.
+
+611
+00:38:15,320 --> 00:38:22,320
+ E nós, então, a pedido de todos os progressistas da Constituinte, demos para o Estado.
+
+612
+00:38:22,320 --> 00:38:29,320
+ O Governo Federal ficou com a Polícia Federal, com a Polícia Rodoviária Federal e com a Polícia Penal.
+
+613
+00:38:29,320 --> 00:38:36,320
+ Eu estou discutindo no Congresso Nacional, foi colocado para votar agora.
+
+614
+00:38:36,320 --> 00:38:41,320
+ Por isso que eu almocei com o Columbre e com o Hugo Mota, votar a PEC da Segurança Pública.
+
+615
+00:38:41,320 --> 00:38:46,320
+ Porque, a hora que for aprovar a PEC da Segurança Pública, eu crio o Ministério da Segurança Pública.
+
+616
+00:38:46,320 --> 00:38:48,320
+ Por que que eu vou criar o Ministério?
+
+617
+00:38:48,320 --> 00:38:54,320
+ Porque, primeiro, eu quero estabelecer qual é a participação de cada ente federado da Segurança Pública.
+
+618
+00:38:54,320 --> 00:38:59,320
+ Qual vai ser o papel da União, qual vai ser o papel do Estado e qual vai ser o papel do município.
+
+619
+00:38:59,320 --> 00:39:04,320
+ Porque, aí sim, a gente vai trabalhar muito forte, talvez desmanado.
+
+620
+00:39:04,320 --> 00:39:06,320
+ Teve muitos governadores que não quiseram.
+
+621
+00:39:06,320 --> 00:39:11,320
+ Tarcísio não quis, Caiado não quis, porque não querem que o Governo Federal se meta na Segurança Pública.
+
+622
+00:39:11,320 --> 00:39:17,320
+ Candidato, aproveitando, então, posso aproveitar esse gancho que o senhor falou da coordenação entre governadores,
+
+623
+00:39:17,320 --> 00:39:21,320
+ a PEC da Segurança, que o senhor está tentando passar no Congresso Nacional?
+
+624
+00:39:21,320 --> 00:39:25,320
+ Lembrando, então, que o senhor vai completar 12 anos como presidente.
+
+625
+00:39:25,320 --> 00:39:28,320
+ O PT governa a Bahia tem 20 anos.
+
+626
+00:39:28,320 --> 00:39:33,320
+ E a Bahia, hoje, tem 5 das 10 cidades mais violentas do Brasil.
+
+627
+00:39:33,320 --> 00:39:38,320
+ O maior número de mortes violentas de crianças e adolescentes é o triplo da média nacional.
+
+628
+00:39:38,320 --> 00:39:43,320
+ Por que que o PT não tem conseguido coordenar ações eficientes sem segurança na Bahia,
+
+629
+00:39:43,320 --> 00:39:49,320
+ mesmo governando o país e o Estado, ao mesmo tempo e há tanto tempo, candidato?
+
+630
+00:39:49,320 --> 00:39:51,320
+ O PT não seria injusto com a Bahia.
+
+631
+00:39:51,320 --> 00:39:56,320
+ Nenhum governador do Brasil, nenhum, conseguiu resolver o problema da Segurança Pública.
+
+632
+00:39:56,320 --> 00:39:58,320
+ Nenhum conseguiu segurar.
+
+633
+00:39:58,320 --> 00:40:01,320
+ Se você pegar do Iapau, o cachorro e ninguém conseguiu.
+
+634
+00:40:01,320 --> 00:40:02,320
+ Ninguém.
+
+635
+00:40:02,320 --> 00:40:04,320
+ Você é de São Paulo, eu trago.
+
+636
+00:40:04,320 --> 00:40:06,320
+ Mas nem tem o governo do Estado e o governo federal, candidato?
+
+637
+00:40:06,320 --> 00:40:12,320
+ Você é de São Paulo e você, muito menino, cansou de ver as campanhas do Marufo lá em São Paulo?
+
+638
+00:40:12,320 --> 00:40:14,320
+ Bandido bom é bandido morto?
+
+639
+00:40:14,320 --> 00:40:18,320
+ Cansou de ver carreta passeando com um artista fantasiado de prisioneiro?
+
+640
+00:40:18,320 --> 00:40:20,320
+ Ninguém consegue resolver.
+
+641
+00:40:20,320 --> 00:40:24,320
+ Só vai conseguir se a gente tiver muito investimento em inteligência.
+
+642
+00:40:24,320 --> 00:40:25,320
+ É isso que eu quero fazer.
+
+643
+00:40:25,320 --> 00:40:26,320
+ O que é que eu quero fazer?
+
+644
+00:40:26,320 --> 00:40:29,320
+ Aprovando a PEC, nós vamos criar o Ministério da Segurança Pública,
+
+645
+00:40:29,320 --> 00:40:33,320
+ vamos definir qual é o papel da Polícia Federal nos Estados,
+
+646
+00:40:33,320 --> 00:40:36,320
+ porque você sabe que a Polícia Federal não pode investigar crime nos Estados,
+
+647
+00:40:36,320 --> 00:40:38,320
+ a não ser que seja crime federal.
+
+648
+00:40:38,320 --> 00:40:40,320
+ E nem sempre os governadores pedem.
+
+649
+00:40:40,320 --> 00:40:44,320
+ Se não fosse a Polícia Federal, a gente não pegava o assassino da Mariela aqui.
+
+650
+00:40:44,320 --> 00:40:47,320
+ E o governador não queria que a gente viesse investigar.
+
+651
+00:40:47,320 --> 00:40:49,320
+ Então, o que é que eu quero?
+
+652
+00:40:49,320 --> 00:40:50,320
+ Nós fizemos agora.
+
+653
+00:40:50,320 --> 00:40:51,320
+ Aprovamos uma lei de infracção.
+
+654
+00:40:51,320 --> 00:40:54,320
+ Estamos trabalhando na questão do combate ao crime organizado.
+
+655
+00:40:54,320 --> 00:40:57,320
+ Por isso, eu fui levar para o Trump uma proposta por inscritos.
+
+656
+00:40:57,320 --> 00:41:00,320
+ Se os Estados Unidos quiserem trabalhar junto com o Brasil
+
+657
+00:41:00,320 --> 00:41:02,320
+ para combater o narcotráfico e o crime organizado,
+
+658
+00:41:02,320 --> 00:41:04,320
+ o Brasil está pronto e preparado.
+
+659
+00:41:04,320 --> 00:41:07,320
+ Montamos uma base da Polícia Federal em Manaus
+
+660
+00:41:07,320 --> 00:41:09,320
+ para tomar conta da fronteira,
+
+661
+00:41:09,320 --> 00:41:14,320
+ com representantes de policiais de cada país da América do Sul,
+
+662
+00:41:14,320 --> 00:41:16,320
+ para que a gente possa enfrentar.
+
+663
+00:41:16,320 --> 00:41:17,320
+ Por quê?
+
+664
+00:41:17,320 --> 00:41:18,320
+ Qual é o meu desejo?
+
+665
+00:41:18,320 --> 00:41:22,320
+ O meu desejo é recuperar o território do povo.
+
+666
+00:41:22,320 --> 00:41:26,320
+ Sabe, aquela rua é do povo do Rio, não é do bandido.
+
+667
+00:41:26,320 --> 00:41:29,320
+ A escola é do povo, não é do bandido.
+
+668
+00:41:29,320 --> 00:41:30,320
+ O bairro é da escola.
+
+669
+00:41:30,320 --> 00:41:32,320
+ Nós precisamos, então, enfrentar isso.
+
+670
+00:41:32,320 --> 00:41:36,320
+ E enfrentar uma coisa mais grave, que é enfrentar o do andar de cima.
+
+671
+00:41:36,320 --> 00:41:38,320
+ Como nós fizemos a Operação Carbono Oculto,
+
+672
+00:41:38,320 --> 00:41:42,320
+ que foi a maior operação já feita na história desse país.
+
+673
+00:41:42,320 --> 00:41:44,320
+ Nós estamos preparados para muitas operações.
+
+674
+00:41:44,320 --> 00:41:50,320
+ O que eu quero é que prefeituras importantes, como o Rio de Janeiro e São Paulo,
+
+675
+00:41:50,320 --> 00:41:52,320
+ tem que ter policial com a ação de policial.
+
+676
+00:41:52,320 --> 00:41:54,320
+ Não pode ficar um policial sem poder prender.
+
+677
+00:41:54,320 --> 00:42:00,320
+ Se a gente fizer uma combinação de criar uma espécie de susto da segurança pública
+
+678
+00:42:00,320 --> 00:42:04,320
+ e a gente trabalhar conjuntamente, eu posso ter garantido que o povo brasileiro vai ganhar.
+
+679
+00:42:04,320 --> 00:42:08,320
+ E por isso que eu fui conversar com a Columbre: vamos aprovar a PEC.
+
+680
+00:42:08,320 --> 00:42:12,320
+ Porque aprovando a PEC, eu crio o Ministério na semana seguinte.
+
+681
+00:42:12,320 --> 00:42:16,320
+ E depois de criar o Ministério, não é que ele vai funcionar rapidamente, não.
+
+682
+00:42:16,320 --> 00:42:19,320
+ Eu vou ter que convencer o Daniel, que está assistindo o programa daqui,
+
+683
+00:42:19,320 --> 00:42:24,320
+ de que ele tem que colocar recursos, porque para a gente ter uma polícia eficiente
+
+684
+00:42:24,320 --> 00:42:28,320
+ e a gente acabar com o crime organizado, a gente vai ter que ter muito dinheiro.
+
+685
+00:42:28,320 --> 00:42:30,320
+ Candidato, o nosso tempo acabou.
+
+686
+00:42:30,320 --> 00:42:35,320
+ Eu peço agora que o senhor faça as suas considerações finais, a sua despedida do eleitor.
+
+687
+00:42:35,320 --> 00:42:37,320
+ O senhor tem um minuto.
+
+688
+00:42:37,320 --> 00:42:44,320
+ Renata e Trale e telespectadores sabem que estão nos assistindo.
+
+689
+00:42:44,320 --> 00:42:54,320
+ Eu quero dizer para vocês que eu vivo hoje, aos 80 anos, o melhor momento da minha passagem pelo planeta Terra.
+
+690
+00:42:54,320 --> 00:42:58,320
+ Eu tenho consciência do que nós fizemos nesse país.
+
+691
+00:42:58,320 --> 00:43:03,320
+ Eu tenho dito para todo mundo que se você pesquisar desde a Proclamação da República até o dia de hoje,
+
+692
+00:43:03,320 --> 00:43:10,320
+ você não vai encontrar nenhum governo que fez a quantidade de política de inclusão social que nós fizemos.
+
+693
+00:43:10,320 --> 00:43:17,320
+ É muito estranho dizer que o metalúrgico sem diploma universitário é o presidente que mais fez universidade nesse país.
+
+694
+00:43:17,320 --> 00:43:31,320
+ É importante dizer que quando eu cheguei na presidência nós tínhamos 5 milhões de trabalhadores no mercado de trabalho com diploma universitário.
+
+695
+00:43:31,320 --> 00:43:40,320
+ Hoje nós temos 25 milhões e eu quero chegar a 50, porque eu quero que o Brasil seja exportador de inteligência e de conhecimento.
+
+696
+00:43:40,320 --> 00:43:49,320
+ Eu não quero que o Brasil continue exportando, sabe, minerais, minério de ferro, soja e milho, sabe, que é muito importante.
+
+697
+00:43:49,320 --> 00:43:53,320
+ Mas é importante a gente exportar inteligência, que é isso que vai dar competitividade.
+
+698
+00:43:53,320 --> 00:43:58,320
+ Nós vamos fazer um forte investimento em educação, vamos apresentar um plano de educação.
+
+699
+00:43:58,320 --> 00:44:00,320
+ Terminou o tempo, candidato.
+
+700
+00:44:00,320 --> 00:44:01,320
+ Então, obrigado.
+
+701
+00:44:01,320 --> 00:44:03,320
+ Quero agradecer muito a entrevista.
+
+702
+00:44:03,320 --> 00:44:04,320
+ Muito obrigado aqui pela sua presença.
+
+703
+00:44:04,320 --> 00:44:05,320
+ Obrigado, Trano.
+
+704
+00:44:05,320 --> 00:44:06,320
+ Obrigado, Renata.
+
+705
+00:44:06,320 --> 00:44:07,320
+ Obrigada.
+
+706
+00:44:07,320 --> 00:44:11,320
+ O nosso entrevistado é Flávio Bolsonaro, o candidato Flávio Bolsonaro do PL.
+
+707
+00:44:11,320 --> 00:44:12,320
+ Boa noite.
+
+708
+00:44:12,320 --> 00:44:13,320
+ Boa noite.
+
+709
+00:44:13,320 --> 00:44:15,320
+ Muito obrigado e até amanhã.
+

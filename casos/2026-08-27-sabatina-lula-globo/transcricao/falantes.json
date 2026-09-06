@@ -1,0 +1,556 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "metodo": "escrito à mão a partir de (a) quadros do vídeo em cada bloco de pergunta e (b) as vezes em que o entrevistado chama o jornalista pelo nome na resposta. Ver transcricao/NOTA_DE_ATRIBUICAO.md.",
+  "turnos": [
+    {
+      "inicio_s": 0.0,
+      "fim_s": 4.34,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 4.34,
+      "fim_s": 5.58,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 5.58,
+      "fim_s": 56.72,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 56.72,
+      "fim_s": 112.72,
+      "falante": "Narração (VT)"
+    },
+    {
+      "inicio_s": 112.72,
+      "fim_s": 116.46,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 116.46,
+      "fim_s": 119.14,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 119.14,
+      "fim_s": 182.12,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 182.12,
+      "fim_s": 255.54,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 255.54,
+      "fim_s": 286.2,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 286.2,
+      "fim_s": 365.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 365.32,
+      "fim_s": 391.26,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 391.26,
+      "fim_s": 427.24,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 427.24,
+      "fim_s": 428.24,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 428.24,
+      "fim_s": 442.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 442.32,
+      "fim_s": 445.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 445.32,
+      "fim_s": 467.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 467.32,
+      "fim_s": 485.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 485.32,
+      "fim_s": 486.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 486.32,
+      "fim_s": 490.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 490.32,
+      "fim_s": 517.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 517.32,
+      "fim_s": 526.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 526.32,
+      "fim_s": 532.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 532.32,
+      "fim_s": 565.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 565.32,
+      "fim_s": 600.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 600.32,
+      "fim_s": 602.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 602.32,
+      "fim_s": 603.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 603.32,
+      "fim_s": 606.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 606.32,
+      "fim_s": 644.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 644.32,
+      "fim_s": 691.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 691.32,
+      "fim_s": 692.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 692.32,
+      "fim_s": 693.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 693.32,
+      "fim_s": 736.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 736.32,
+      "fim_s": 737.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 737.32,
+      "fim_s": 756.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 756.32,
+      "fim_s": 757.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 757.32,
+      "fim_s": 791.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 791.32,
+      "fim_s": 840.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 840.32,
+      "fim_s": 892.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 892.32,
+      "fim_s": 925.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 925.32,
+      "fim_s": 932.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 932.32,
+      "fim_s": 933.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 933.32,
+      "fim_s": 936.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 936.32,
+      "fim_s": 939.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 939.32,
+      "fim_s": 964.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 964.32,
+      "fim_s": 966.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 966.32,
+      "fim_s": 994.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 994.32,
+      "fim_s": 1014.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1014.32,
+      "fim_s": 1030.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1030.32,
+      "fim_s": 1031.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1031.32,
+      "fim_s": 1091.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1091.32,
+      "fim_s": 1097.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1097.32,
+      "fim_s": 1113.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1113.32,
+      "fim_s": 1115.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1115.32,
+      "fim_s": 1118.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1118.32,
+      "fim_s": 1170.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1170.32,
+      "fim_s": 1226.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1226.32,
+      "fim_s": 1262.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1262.32,
+      "fim_s": 1352.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1352.32,
+      "fim_s": 1355.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1355.32,
+      "fim_s": 1360.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1360.32,
+      "fim_s": 1398.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1398.32,
+      "fim_s": 1479.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1479.32,
+      "fim_s": 1480.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1480.32,
+      "fim_s": 1498.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1498.32,
+      "fim_s": 1499.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1499.32,
+      "fim_s": 1572.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1572.32,
+      "fim_s": 1574.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 1574.32,
+      "fim_s": 1644.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1644.32,
+      "fim_s": 1682.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1682.32,
+      "fim_s": 1821.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1821.32,
+      "fim_s": 1822.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1822.32,
+      "fim_s": 1825.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1825.32,
+      "fim_s": 1826.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1826.32,
+      "fim_s": 1869.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1869.32,
+      "fim_s": 1909.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1909.32,
+      "fim_s": 1962.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1962.32,
+      "fim_s": 1963.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1963.32,
+      "fim_s": 1965.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1965.32,
+      "fim_s": 1966.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1966.32,
+      "fim_s": 1968.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1968.32,
+      "fim_s": 1969.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1969.32,
+      "fim_s": 1979.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1979.32,
+      "fim_s": 1985.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1985.32,
+      "fim_s": 1986.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1986.32,
+      "fim_s": 1994.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 1994.32,
+      "fim_s": 1996.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 1996.32,
+      "fim_s": 2030.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 2030.32,
+      "fim_s": 2102.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2102.32,
+      "fim_s": 2105.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 2105.32,
+      "fim_s": 2164.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2164.32,
+      "fim_s": 2170.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 2170.32,
+      "fim_s": 2195.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2195.32,
+      "fim_s": 2197.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 2197.32,
+      "fim_s": 2242.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2242.32,
+      "fim_s": 2250.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 2250.32,
+      "fim_s": 2252.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2252.32,
+      "fim_s": 2276.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 2276.32,
+      "fim_s": 2351.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2351.32,
+      "fim_s": 2389.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 2389.32,
+      "fim_s": 2404.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2404.32,
+      "fim_s": 2406.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 2406.32,
+      "fim_s": 2548.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2548.32,
+      "fim_s": 2557.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 2557.32,
+      "fim_s": 2638.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2638.32,
+      "fim_s": 2640.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 2640.32,
+      "fim_s": 2641.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2641.32,
+      "fim_s": 2644.32,
+      "falante": "César Tralli"
+    },
+    {
+      "inicio_s": 2644.32,
+      "fim_s": 2646.32,
+      "falante": "Lula"
+    },
+    {
+      "inicio_s": 2646.32,
+      "fim_s": 2647.32,
+      "falante": "Renata Vasconcellos"
+    },
+    {
+      "inicio_s": 2647.32,
+      "fim_s": 2655.32,
+      "falante": "César Tralli"
+    }
+  ]
+}

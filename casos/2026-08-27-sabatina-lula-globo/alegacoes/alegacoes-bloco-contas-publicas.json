@@ -1,0 +1,416 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "gerado_em": "2026-09-05",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "bloco-contas-publicas",
+  "cobertura": {
+    "inicio_s": 1352.32,
+    "fim_s": 1644.32
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 1360.32,
+      "fim_s": 1364.32,
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "frase": "Candidato, a dívida pública no seu governo ultrapassou os 10 trilhões de reais.",
+      "afirmacao": "A dívida pública brasileira ultrapassou R$ 10 trilhões durante o terceiro mandato de Lula",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Abertura do bloco sobre contas públicas e ajuste fiscal",
+      "o_que_conferir": [
+        "estoque da Dívida Pública Federal (DPF) e da Dívida Bruta do Governo Geral (DBGG) em R$, no Tesouro Nacional e no Banco Central",
+        "qual dos dois conceitos passa de R$ 10 trilhões, e em que mês isso ocorreu",
+        "se a marca foi atingida dentro do mandato iniciado em 2023"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 1370.32,
+      "fim_s": 1376.32,
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "frase": "No seu governo, a dívida disparou 10 pontos percentuais, atingiu 82% do PIB.",
+      "afirmacao": "A dívida pública subiu cerca de 10 pontos percentuais do PIB durante o terceiro mandato de Lula",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre a trajetória da dívida e as metas do candidato",
+      "o_que_conferir": [
+        "série da Dívida Bruta do Governo Geral em % do PIB, Banco Central, de dezembro de 2022 até o mês mais recente",
+        "diferença em pontos percentuais entre o ponto de partida e o ponto final",
+        "se a fonte usada é a do Banco Central ou a do FMI, que usam metodologias diferentes"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 1370.32,
+      "fim_s": 1376.32,
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "frase": "No seu governo, a dívida disparou 10 pontos percentuais, atingiu 82% do PIB.",
+      "afirmacao": "A dívida pública brasileira atingiu 82% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Mesma frase da A002. O nível e a variação se conferem em séries diferentes, então são duas alegações.",
+      "o_que_conferir": [
+        "nível da Dívida Bruta do Governo Geral em % do PIB no mês mais próximo da entrevista",
+        "qual metodologia chega a 82%: a do Banco Central ou a do FMI"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 1376.32,
+      "fim_s": 1384.32,
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "frase": "E essa trajetória, ela pressiona os juros que encarece o crédito, que dificulta o investimento [...] e que pesa no bolso das famílias.",
+      "afirmacao": "A trajetória de alta da dívida pressiona os juros, encarece o crédito, dificulta o investimento e pesa no orçamento das famílias",
+      "tipo": "opiniao",
+      "checavel": false,
+      "assunto": "contas-publicas",
+      "contexto": "Justificativa analítica dentro da própria pergunta",
+      "o_que_conferir": [
+        "não se aplica: é a exposição de um mecanismo econômico, sem número, período ou magnitude declarados"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 1384.32,
+      "fim_s": 1392.32,
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "frase": "O seu programa de governo menciona uma necessidade de um ajuste fiscal, mas não traz metas explícitas [...] para os próximos quatro anos.",
+      "afirmacao": "O programa de governo registrado pela candidatura de Lula menciona a necessidade de ajuste fiscal mas não apresenta metas fiscais explícitas para o próximo mandato",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Fundamento da pergunta sobre quais seriam as metas do candidato",
+      "o_que_conferir": [
+        "conteúdo do programa de governo registrado no DivulgaCandContas do TSE para a chapa em 2026",
+        "se há meta numérica de resultado primário ou de dívida em % do PIB no documento"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 1409.32,
+      "fim_s": 1422.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você pode dizer, presidente Lula, o senhor foi o único presidente na história do Brasil que fez superávit primário durante oito anos do seu primeiro mandato?",
+      "afirmacao": "Lula é o único presidente da história do Brasil que obteve superávit primário durante oito anos seguidos",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta à pergunta sobre trajetória da dívida, contrapondo o histórico dos dois primeiros mandatos",
+      "o_que_conferir": [
+        "série anual de resultado primário do setor público consolidado, Banco Central, de 1991 até hoje",
+        "quantos anos seguidos de primário positivo houve em 2003 a 2010",
+        "se algum outro presidente emendou oito anos de primário positivo"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 1422.32,
+      "fim_s": 1427.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Dos países do G20, eu fui o único que fez superávit primário durante oito anos.",
+      "afirmacao": "Entre os países do G20, o Brasil sob Lula foi o único a registrar superávit primário por oito anos seguidos",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Segue a A006, ampliando a comparação para fora do Brasil",
+      "o_que_conferir": [
+        "resultado primário anual dos países do G20 entre 2003 e 2010, base do FMI (Fiscal Monitor / WEO)",
+        "se algum outro país do G20 emendou oito anos de primário positivo no mesmo período"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 1427.32,
+      "fim_s": 1430.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nunca tive problema fiscal nesse país.",
+      "afirmacao": "O candidato nunca teve problema fiscal como presidente",
+      "tipo": "juizo_de_valor",
+      "checavel": false,
+      "assunto": "contas-publicas",
+      "contexto": "Fecho da resposta sobre superávit primário",
+      "o_que_conferir": [
+        "não se aplica: 'problema fiscal' não tem definição declarada na fala nem critério numérico que permita conferir"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 1436.32,
+      "fim_s": 1438.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Porque nós temos há mais de dez anos sem crescer.",
+      "afirmacao": "O Brasil passou mais de dez anos sem crescer",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Explicação do candidato para o nível da dívida em relação ao PIB",
+      "o_que_conferir": [
+        "série anual de variação do PIB brasileiro, IBGE, de 2011 até 2022",
+        "qual leitura de 'sem crescer' a série sustenta: crescimento nulo, ou crescimento médio baixo"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 1438.32,
+      "fim_s": 1445.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você sabe quando é que o PIB voltou a crescer acima de 2%, Renata? [...] Quando eu voltei à presidência da República.",
+      "afirmacao": "O PIB brasileiro só voltou a crescer acima de 2% quando Lula voltou à presidência, em 2023",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Segue a A009",
+      "o_que_conferir": [
+        "série anual do PIB, IBGE, de 2011 a 2025: em que anos a variação passou de 2%",
+        "atenção ao ano de 2021, de forte recuperação depois da queda de 2020"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 1445.32,
+      "fim_s": 1450.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você se esquece que eu deixei esse país crescendo 7,5% em 2010?",
+      "afirmacao": "O PIB brasileiro cresceu 7,5% em 2010, último ano do segundo mandato de Lula",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Comparação entre o fim do segundo mandato e o começo do terceiro",
+      "o_que_conferir": [
+        "variação do PIB de 2010 nas Contas Nacionais do IBGE, na série revista mais recente",
+        "⚠️ o número original divulgado à época e o número da série revista podem não ser o mesmo"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 1450.32,
+      "fim_s": 1462.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você se esquece que eu deixei esse país crescendo 7,5% e quando eu voltei ele estava [...] crescendo 1%",
+      "afirmacao": "Quando Lula voltou à presidência, em janeiro de 2023, o PIB estava crescendo 1%",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Mesma frase da A013; o ponto de partida e os anos seguintes são séries diferentes",
+      "o_que_conferir": [
+        "variação do PIB de 2022, IBGE",
+        "se existe alguma leitura (projeção vigente em janeiro de 2023, ou variação trimestral) que chegue a 1%"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 1450.32,
+      "fim_s": 1462.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "ele só cresceu 3%, sabe, em 2023, 2024, 2025.",
+      "afirmacao": "O PIB brasileiro cresceu cerca de 3% em cada um dos anos de 2023, 2024 e 2025",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Segue a A012",
+      "o_que_conferir": [
+        "variação anual do PIB em 2023, 2024 e 2025, IBGE",
+        "se 2025 já tem número fechado ou ainda é estimativa"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 1473.32,
+      "fim_s": 1479.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "80% de dívida, sabe, em um país, não é muito se você olhar para os Estados Unidos, olhar para o Japão, olhe para a Itália.",
+      "afirmacao": "Estados Unidos, Japão e Itália têm dívida pública em proporção do PIB maior que a do Brasil",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Relativização do nível de endividamento brasileiro. A parte 'não é muito' é juízo e não entra; a comparação entre países entra.",
+      "o_que_conferir": [
+        "dívida bruta do governo geral em % do PIB de Brasil, Estados Unidos, Japão e Itália, base comparável do FMI",
+        "⚠️ a comparação internacional exige a série do FMI, não a do Banco Central, porque os critérios diferem"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 1480.32,
+      "fim_s": 1487.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Sabe qual é a dívida dos Estados Unidos? 120% do PIB é 40 trilhões de dólares.",
+      "afirmacao": "A dívida pública dos Estados Unidos equivale a 120% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Sustentação da comparação da A014",
+      "o_que_conferir": [
+        "dívida bruta do governo geral dos EUA em % do PIB, FMI",
+        "atenção: 'debt held by the public' e 'gross federal debt' dão números bem diferentes"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 1480.32,
+      "fim_s": 1487.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Sabe qual é a dívida dos Estados Unidos? 120% do PIB é 40 trilhões de dólares.",
+      "afirmacao": "A dívida pública dos Estados Unidos é de US$ 40 trilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Mesma frase da A015. O percentual e o valor absoluto se conferem em séries diferentes.",
+      "o_que_conferir": [
+        "estoque da dívida federal americana em dólares, no Treasury (Debt to the Penny) ou no FRED",
+        "qual conceito chega a US$ 40 trilhões e em que data"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 1499.32,
+      "fim_s": 1503.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você está lembrado que o Fernando Henrique Cardoso trocou três presidentes do Banco Central.",
+      "afirmacao": "Fernando Henrique Cardoso trocou três presidentes do Banco Central durante seu governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Contraponto do candidato ao tema da independência do Banco Central",
+      "o_que_conferir": [
+        "lista de presidentes do Banco Central e as datas de posse e saída, no próprio Banco Central",
+        "quantos ocuparam o cargo entre 1º de janeiro de 1995 e 31 de dezembro de 2002"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 1503.32,
+      "fim_s": 1508.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu entrei e fiquei dois anos com o presidente do Bolsonaro.",
+      "afirmacao": "Lula manteve por dois anos o presidente do Banco Central indicado por Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Segue a A017, contrastando a própria conduta com a de FHC",
+      "o_que_conferir": [
+        "quando terminou o mandato de Roberto Campos Neto à frente do Banco Central",
+        "quanto tempo desse mandato coincidiu com o terceiro mandato de Lula"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 1515.32,
+      "fim_s": 1523.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu herdei esse governo em janeiro de 2023 com déficit fiscal de 2,8%.",
+      "afirmacao": "O governo iniciado em janeiro de 2023 herdou um déficit fiscal de 2,8% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Defesa do candidato quanto à responsabilidade fiscal",
+      "o_que_conferir": [
+        "resultado primário do setor público consolidado em 2022, em % do PIB, Banco Central",
+        "resultado nominal de 2022 em % do PIB",
+        "⚠️ 2022 fechou com primário POSITIVO; é preciso descobrir a que número 2,8% se refere"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 1523.32,
+      "fim_s": 1529.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você sabe o quanto vai ser o orçamento desse ano? Superávit primário de 0,1%.",
+      "afirmacao": "O resultado primário previsto para 2026 é um superávit de 0,1% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Segue a A019",
+      "o_que_conferir": [
+        "meta de resultado primário para 2026 na LDO e no projeto de orçamento",
+        "se a meta é 0,1% do PIB ou zero com banda de tolerância"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 1557.32,
+      "fim_s": 1572.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A PEC da transição foi, inclusive, para pagar rombo deixado pelo outro governo. Deixou um rombo de 94 bilhões, sabe, de dívida com as pessoas que nós tivemos que pagar.",
+      "afirmacao": "O governo anterior deixou um rombo de R$ 94 bilhões em dívidas que o governo seguinte teve de pagar",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Justificativa para a PEC da Transição, aprovada em dezembro de 2022",
+      "o_que_conferir": [
+        "valor de restos a pagar e de despesas sem orçamento herdadas no fim de 2022",
+        "o que exatamente a PEC da Transição abriu de espaço, e para quê",
+        "se existe um número oficial de R$ 94 bilhões e a que ele se refere"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 1592.32,
+      "fim_s": 1609.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Em dezembro de 2008, por ocasião da crise do subprime nos Estados Unidos, o comércio [...] Eu fui para a televisão, fiz um discurso de oito minutos, convocando a sociedade brasileira a consumir.",
+      "afirmacao": "Em dezembro de 2008, durante a crise do subprime, Lula fez um pronunciamento de oito minutos em rede de televisão convocando os brasileiros a consumir",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Exemplo dado pelo candidato sobre responsabilidade e consumo",
+      "o_que_conferir": [
+        "registro do pronunciamento em rede nacional de dezembro de 2008 na Biblioteca da Presidência da República",
+        "a data e a duração do pronunciamento",
+        "se o teor era, de fato, um chamado ao consumo"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 1635.32,
+      "fim_s": 1642.32,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E eu tenho uma equipe econômica, que era do Haddad, que era do Guido, que agora é [...] do Dario, com muita responsabilidade fiscal.",
+      "afirmacao": "A equipe econômica do governo é hoje comandada por Dario Durigan, depois de ter sido de Fernando Haddad e, antes, de Guido Mantega",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Fecho da resposta sobre responsabilidade fiscal",
+      "o_que_conferir": [
+        "quem é o ministro da Fazenda na data da entrevista, e desde quando",
+        "quando Fernando Haddad deixou o cargo"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 1625.32,
+      "fim_s": 1629.32,
+      "falante": "Lula",
+      "frase": "Foi o ano em que a classe C e D consumiram mais do que a classe B.",
+      "motivo": "A transcrição desta frase não foi resolvida. Em quatro passadas do whisper.cpp com parâmetros diferentes, duas devolveram 'mais do que a classe B' e duas devolveram a repetição degenerada 'mais do que a classe C e D'. O sentido da alegação depende exatamente da palavra que está em dúvida, e citar palavra incerta num card é o defeito que este projeto existe para combater. Fica registrada aqui, não checada, e será retomada se houver transcrição oficial da peça."
+    }
+  ]
+}

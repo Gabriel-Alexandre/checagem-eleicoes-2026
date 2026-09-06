@@ -1,0 +1,59 @@
+{
+  "slug": "2026-08-27-sabatina-lula-globo",
+  "titulo": "Sabatina de Luiz Inácio Lula da Silva na TV Globo",
+  "data_do_evento": "2026-08-27",
+  "veiculo": "TV Globo",
+  "programa": "Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional)",
+  "formato": "sabatina",
+  "eleicao": "Eleições gerais 2026 — Presidência da República, 1º turno",
+  "duracao_s": 2673.151,
+  "falantes": [
+    {
+      "nome": "César Tralli",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Âncora do Jornal Nacional e um dos dois entrevistadores da série de sabatinas"
+    },
+    {
+      "nome": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Âncora do Jornal Nacional e uma das duas entrevistadoras da série de sabatinas"
+    },
+    {
+      "nome": "Lula",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PT — candidato à Presidência da República",
+      "descricao": "Luiz Inácio Lula da Silva, presidente da República e candidato à reeleição, com Geraldo Alckmin (PSB) como candidato a vice"
+    },
+    {
+      "nome": "Narração (VT)",
+      "papel": "narracao",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Voz em off da retrospectiva da trajetória do candidato, exibida na abertura (00:57 a 01:51). Não foi possível identificar de quem é a voz a partir do vídeo, e o repositório não atribui o que não consegue provar."
+    }
+  ],
+  "midia": {
+    "arquivo": "sabatina-lula-globo-2026-08-27.mp4",
+    "sha256": "d4252104b5e49898dd14e24f355393b51db278af5d8a6a75fabb1adc460b6844",
+    "bytes": 714144798,
+    "largura": 1920,
+    "altura": 1080,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "codec_audio": "aac"
+  },
+  "procedencia": {
+    "como_foi_obtido": "Arquivo entregue pelo autor do projeto para a prova de conceito. O repositório não redistribui o vídeo: guarda o sha256, a transcrição e a checagem.",
+    "url_oficial": null,
+    "integralidade": "integral",
+    "observacoes": "Indícios de integralidade conferidos no próprio arquivo: começa com a abertura da série (a apresentação do critério de convite e a retrospectiva da trajetória do candidato) e termina com o encerramento e a chamada do entrevistado do dia seguinte. A duração medida (44min33s) é compatível com os 40 minutos de entrevista anunciados no ar mais abertura, retrospectiva e encerramento. Metadados conferidos em fontes públicas: data (27/ago/2026, 5ª feira), entrevistadores (César Tralli e Renata Vasconcellos), critério de convite (seis mais bem colocados na pesquisa Quaest de 14/ago/2026) e ordem definida por sorteio. ⚠️ Divergência entre fontes secundárias sobre o enquadramento do programa: uma fonte descreve a sabatina como quadro do Jornal Nacional e outras como programa independente exibido após o JN, às 21h30. A segunda leitura é a que bate com o arquivo, que tem abertura e encerramento próprios."
+  },
+  "transcricao": {
+    "motor": "whisper.cpp",
+    "modelo": "ggml-large-v3-turbo.bin",
+    "idioma": "pt",
+    "parametros": "-t 10 -bs 5 -bo 5 -ml 0",
+    "revisao_humana": false
+  }
+}

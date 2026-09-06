@@ -1,0 +1,42 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "escopo": "Apenas o trecho 00:22:32 a 00:27:24 (recorte bloco-contas-publicas), que é o trecho checado nesta rodada. Erros de reconhecimento fora dele estão listados no fim de CORRECOES_DE_TRANSCRICAO.md como conhecidos e NÃO corrigidos, porque nenhuma alegação foi extraída deles.",
+  "como_foram_conferidas": "Cada trecho suspeito foi transcrito de novo, em janela isolada de 8 a 16 segundos, com o mesmo modelo (ggml-large-v3-turbo) mas parâmetros diferentes (beam 8 em vez de 5) e, numa das passadas, com prompt de contexto econômico. Só entrou na lista o que duas passadas independentes concordaram em corrigir.",
+  "correcoes": [
+    {
+      "inicio_s": 1443.32,
+      "de": "Quando eu votei à presidência da República.",
+      "para": "Quando eu voltei à presidência da República.",
+      "motivo": "erro de reconhecimento: 'votei' por 'voltei'. A frase inteira perde o sentido com 'votei'.",
+      "conferido_como": "2ª e 3ª passadas, janela 24:36 a 24:52, concordam em 'voltei'"
+    },
+    {
+      "inicio_s": 1450.32,
+      "de": "Você se esquece que eu deixei esse país crescendo 7,5% e quando eu votei ele estava",
+      "para": "Você se esquece que eu deixei esse país crescendo 7,5% e quando eu voltei ele estava",
+      "motivo": "mesmo erro: 'votei' por 'voltei'",
+      "conferido_como": "2ª passada no recorte inteiro, com prompt de contexto"
+    },
+    {
+      "inicio_s": 1526.32,
+      "de": "Superar o primário de 0,1%.",
+      "para": "Superávit primário de 0,1%.",
+      "motivo": "erro de reconhecimento: 'Superar o primário' por 'Superávit primário'. É a resposta direta à pergunta anterior, sobre o resultado do orçamento do ano.",
+      "conferido_como": "3ª passada em janela isolada de 11s (25:19 a 25:30), que devolveu 'Superávit primário de 0,1%' com clareza"
+    },
+    {
+      "inicio_s": 1563.32,
+      "de": "Deixou um roubo de 94 bilhões, sabe, de dívida com as pessoas que nós tivemos que pagar.",
+      "para": "Deixou um rombo de 94 bilhões, sabe, de dívida com as pessoas que nós tivemos que pagar.",
+      "motivo": "erro de reconhecimento: 'roubo' por 'rombo'. ⚠️ Correção relevante: 'roubo' imputaria crime onde a fala diz buraco fiscal. O segmento anterior, que o motor acertou, já diz 'para pagar rombo deixado pelo outro governo'.",
+      "conferido_como": "2ª passada no recorte inteiro devolveu 'o rombo deixado pelo outro governo' no segmento anterior e 'rombo' aqui"
+    },
+    {
+      "inicio_s": 1619.32,
+      "de": "Se você consumir com responsabilidade, você vai poder pagar sua dívida e o PEC vai voltar",
+      "para": "Se você consumir com responsabilidade, você vai poder pagar sua dívida e o país vai voltar",
+      "motivo": "erro de reconhecimento: 'o PEC' por 'o país'",
+      "conferido_como": "2ª e 3ª passadas, janela 26:58 a 27:10, concordam em 'o país vai voltar a crescer'"
+    }
+  ]
+}

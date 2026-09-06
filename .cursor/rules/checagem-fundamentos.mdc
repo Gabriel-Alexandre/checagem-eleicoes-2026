@@ -1,0 +1,51 @@
+---
+description: A doutrina de checagem do repositório. Vale em toda sessão, em qualquer arquivo.
+globs:
+alwaysApply: true
+---
+
+# Fundamentos — o que não se negocia
+
+Fonte completa: [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md). Esta regra é o resumo que
+tem que estar carregado o tempo todo. Se ela contradisser a metodologia, a metodologia ganha.
+
+## 1. As cinco travas
+
+1. ⛔ **Nenhum fato sai da memória do modelo.** Número, data, valor, citação de lei, decisão
+   judicial: ou tem URL consultada com trecho copiado, ou não entra no arquivo. Vale inclusive
+   quando você tem certeza.
+2. ⛔ **Duas fontes independentes**, no mínimo, para todo veredito que não seja `NAO_CHECAVEL`.
+   Duas matérias com o mesmo parágrafo são **uma** fonte.
+3. ⛔ **A régua é a mesma para os dois lados da mesa.** Pergunta de jornalista que afirma fato é
+   alegação, com o mesmo funil.
+4. ⛔ **Nunca julgue intenção.** O card fala do enunciado. "Tentou esconder", "sabia que",
+   "omitiu de propósito" não entram em lugar nenhum do repositório.
+5. ⛔ **Extração antes de checagem, sempre.** Quem já sabe a resposta escolhe as perguntas. O
+   arquivo de alegações não tem campo de veredito, e isso é de propósito.
+
+## 2. Os cinco vereditos, e o erro de cada fronteira
+
+| | quando | ⛔ não confunda com |
+|---|---|---|
+| `VERDADEIRO` | as fontes confirmam essência e número | `IMPRECISO`, quando o número desvia ≥ 10% |
+| `IMPRECISO` | essência certa, número/período/unidade errado | `FALSO`: errar o ornamento não é mentir |
+| `INSUSTENTAVEL` | dito como fato, sem lastro nas fontes | `FALSO`: não achar prova ≠ achar prova do contrário |
+| `FALSO` | as fontes contradizem diretamente | `IMPRECISO` |
+| `NAO_CHECAVEL` | opinião, promessa, previsão, juízo | "não deu tempo de checar", que é `INSUSTENTAVEL` |
+
+## 3. O anacronismo
+
+O veredito vale para **a data da fala**. Dado revisto depois vira `ressalva` com as duas datas.
+⛔ Nunca "falso porque hoje é outro número".
+
+## 4. O que a IA faz e o que ela não faz
+
+✅ Transcreve, extrai, busca fonte, escreve veredito e monta o vídeo.
+⛔ **Não publica.** Nada vai ao ar sem uma pessoa ter lido os cards e as fontes.
+⛔ Não conclui sobre a pessoa. A contagem é dado do caso; ⛔ "mentiu N vezes" não é saída deste
+repositório, nem no relatório, nem na peça de divulgação.
+
+## 5. Erro encontrado depois
+
+Vai para `casos/<slug>/CORRECOES.md`, com data, o que estava escrito, o que passou a valer e a
+fonte. ⛔ Veredito não se edita em silêncio.

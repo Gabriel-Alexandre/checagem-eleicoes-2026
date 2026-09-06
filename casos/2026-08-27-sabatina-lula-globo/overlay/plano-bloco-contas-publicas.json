@@ -1,0 +1,258 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "recorte": "bloco-contas-publicas",
+  "alvo": "recortes/bloco-contas-publicas.mp4",
+  "base_s": 1352.32,
+  "duracao_s": 292.0,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-09-06",
+  "selo": {
+    "arquivo": "overlay/cartelas-bloco-contas-publicas/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 292.0
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-bloco-contas-publicas/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "contagem_por_veredito": {
+    "VERDADEIRO": 15,
+    "NAO_CHECAVEL": 2,
+    "IMPRECISO": 3,
+    "FALSO": 3
+  },
+  "cartelas": [
+    {
+      "id": "A001",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A001.png",
+      "entra_s": 8.0,
+      "sai_s": 16.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1360.32
+    },
+    {
+      "id": "A002",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A002.png",
+      "entra_s": 18.0,
+      "sai_s": 28.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1370.32
+    },
+    {
+      "id": "A003",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A003.png",
+      "entra_s": 28.2,
+      "sai_s": 31.2,
+      "atraso_s": 10.2,
+      "atraso_do_fim_s": 4.2,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1370.32
+    },
+    {
+      "id": "A004",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A004.png",
+      "entra_s": 31.4,
+      "sai_s": 36.0,
+      "atraso_s": 7.4,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "NAO_CHECAVEL",
+      "tempo_na_peca_s": 1376.32
+    },
+    {
+      "id": "A005",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A005.png",
+      "entra_s": 36.2,
+      "sai_s": 44.0,
+      "atraso_s": 4.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1384.32
+    },
+    {
+      "id": "A006",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A006.png",
+      "entra_s": 57.0,
+      "sai_s": 71.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1409.32
+    },
+    {
+      "id": "A007",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A007.png",
+      "entra_s": 71.2,
+      "sai_s": 79.0,
+      "atraso_s": 1.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1422.32
+    },
+    {
+      "id": "A008",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A008.png",
+      "entra_s": 79.2,
+      "sai_s": 82.2,
+      "atraso_s": 4.2,
+      "atraso_do_fim_s": 1.2,
+      "veredito": "NAO_CHECAVEL",
+      "tempo_na_peca_s": 1427.32
+    },
+    {
+      "id": "A009",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A009.png",
+      "entra_s": 84.0,
+      "sai_s": 90.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 1436.32
+    },
+    {
+      "id": "A010",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A010.png",
+      "entra_s": 90.2,
+      "sai_s": 97.0,
+      "atraso_s": 4.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "FALSO",
+      "tempo_na_peca_s": 1438.32
+    },
+    {
+      "id": "A011",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A011.png",
+      "entra_s": 97.2,
+      "sai_s": 102.0,
+      "atraso_s": 4.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1445.32
+    },
+    {
+      "id": "A012",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A012.png",
+      "entra_s": 102.2,
+      "sai_s": 114.0,
+      "atraso_s": 4.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "FALSO",
+      "tempo_na_peca_s": 1450.32
+    },
+    {
+      "id": "A013",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A013.png",
+      "entra_s": 114.2,
+      "sai_s": 117.2,
+      "atraso_s": 16.2,
+      "atraso_do_fim_s": 4.2,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 1450.32
+    },
+    {
+      "id": "A014",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A014.png",
+      "entra_s": 121.0,
+      "sai_s": 131.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1473.32
+    },
+    {
+      "id": "A015",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A015.png",
+      "entra_s": 131.2,
+      "sai_s": 139.0,
+      "atraso_s": 3.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1480.32
+    },
+    {
+      "id": "A016",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A016.png",
+      "entra_s": 139.2,
+      "sai_s": 142.2,
+      "atraso_s": 11.2,
+      "atraso_do_fim_s": 4.2,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1480.32
+    },
+    {
+      "id": "A017",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A017.png",
+      "entra_s": 147.0,
+      "sai_s": 155.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1499.32
+    },
+    {
+      "id": "A018",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A018.png",
+      "entra_s": 155.2,
+      "sai_s": 160.0,
+      "atraso_s": 4.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1503.32
+    },
+    {
+      "id": "A019",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A019.png",
+      "entra_s": 163.0,
+      "sai_s": 175.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "FALSO",
+      "tempo_na_peca_s": 1515.32
+    },
+    {
+      "id": "A020",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A020.png",
+      "entra_s": 175.2,
+      "sai_s": 181.0,
+      "atraso_s": 4.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 1523.32
+    },
+    {
+      "id": "A021",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A021.png",
+      "entra_s": 205.0,
+      "sai_s": 219.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1557.32
+    },
+    {
+      "id": "A022",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A022.png",
+      "entra_s": 240.0,
+      "sai_s": 254.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1592.32
+    },
+    {
+      "id": "A023",
+      "arquivo": "overlay/cartelas-bloco-contas-publicas/A023.png",
+      "entra_s": 283.0,
+      "sai_s": 292.0,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1635.32
+    }
+  ]
+}

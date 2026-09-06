@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Gabriel-Alexandre/checagem-eleicoes-2026/esquemas/alegacoes.schema.json",
+  "title": "Alegações extraídas de um caso",
+  "description": "Saída do PASSO 4. Escrita pela IA seguindo a skill extrair-alegacoes. NUNCA contém veredito: o veredito nasce no passo 5, depois da busca. Essa separação é de propósito — ver docs/METODOLOGIA.md §5.",
+  "type": "object",
+  "required": ["caso", "gerado_em", "fonte_transcricao", "alegacoes"],
+  "additionalProperties": false,
+  "properties": {
+    "caso": {
+      "type": "string",
+      "description": "slug do caso, igual ao nome da pasta em casos/",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$"
+    },
+    "gerado_em": { "type": "string", "format": "date" },
+    "fonte_transcricao": {
+      "type": "string",
+      "description": "caminho relativo do arquivo de transcrição de onde as frases foram copiadas"
+    },
+    "recorte": {
+      "type": ["string", "null"],
+      "description": "id do recorte quando a extração cobre só um trecho; null quando cobre o caso inteiro"
+    },
+    "cobertura": {
+      "type": "object",
+      "description": "o intervalo da mídia efetivamente varrido. Existe para provar que a extração não escolheu trechos.",
+      "required": ["inicio_s", "fim_s"],
+      "additionalProperties": false,
+      "properties": {
+        "inicio_s": { "type": "number", "minimum": 0 },
+        "fim_s": { "type": "number", "minimum": 0 }
+      }
+    },
+    "alegacoes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/alegacao" }
+    },
+    "exclusoes": {
+      "type": "array",
+      "description": "Frases que ATRAVESSARAM o filtro de 'isto é uma afirmação de fato' e ainda assim não viraram alegação. Existe para que a varredura seja auditável: sem este campo, uma frase deixada de fora é indistinguível de uma frase não vista. ⛔ Não é lugar para descartar o que dá trabalho checar.",
+      "items": {
+        "type": "object",
+        "required": ["inicio_s", "fim_s", "frase", "motivo"],
+        "additionalProperties": false,
+        "properties": {
+          "inicio_s": { "type": "number", "minimum": 0 },
+          "fim_s": { "type": "number", "minimum": 0 },
+          "falante": { "type": "string" },
+          "frase": { "type": "string" },
+          "motivo": {
+            "type": "string",
+            "minLength": 25,
+            "description": "por que ficou de fora. Motivo aceitável: a transcrição do trecho não pôde ser resolvida, e citar palavra incerta num card é o defeito que o projeto combate."
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "alegacao": {
+      "type": "object",
+      "required": ["id", "inicio_s", "fim_s", "falante", "papel", "frase", "afirmacao", "tipo", "checavel", "assunto"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^A[0-9]{3}$",
+          "description": "A001, A002... na ordem cronológica da fala"
+        },
+        "inicio_s": { "type": "number", "minimum": 0 },
+        "fim_s": { "type": "number", "minimum": 0 },
+        "falante": {
+          "type": "string",
+          "minLength": 2,
+          "description": "nome próprio de quem falou, como aparece em CASO.md"
+        },
+        "papel": {
+          "type": "string",
+          "enum": ["entrevistado", "entrevistador", "narracao", "outro"]
+        },
+        "frase": {
+          "type": "string",
+          "minLength": 10,
+          "description": "citação LITERAL da transcrição. Corte interno marcado com [...]. ⛔ não normalizar, não consertar gramática."
+        },
+        "afirmacao": {
+          "type": "string",
+          "minLength": 10,
+          "description": "a asserção isolada, reescrita como proposição única e conferível. É isto que vai ser checado."
+        },
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "numero",
+            "serie_historica",
+            "valor_monetario",
+            "data_ou_prazo",
+            "evento_passado",
+            "norma_vigente",
+            "atribuicao_a_terceiro",
+            "comparacao",
+            "ranking",
+            "opiniao",
+            "promessa",
+            "previsao",
+            "juizo_de_valor",
+            "hipotese"
+          ]
+        },
+        "checavel": {
+          "type": "boolean",
+          "description": "false obriga tipo em [opiniao, promessa, previsao, juizo_de_valor, hipotese] e leva ao veredito NAO_CHECAVEL"
+        },
+        "assunto": {
+          "type": "string",
+          "description": "tema em kebab-case: economia, inss, seguranca-publica, educacao, justica, saude, meio-ambiente, politica..."
+        },
+        "contexto": {
+          "type": "string",
+          "description": "o que estava sendo perguntado. Só o necessário para a frase não ser lida fora de contexto."
+        },
+        "o_que_conferir": {
+          "type": "array",
+          "description": "escrito ANTES de buscar: que dado, de que fonte, de que período resolveria esta alegação. É o antídoto contra achar a fonte que confirma o que já se quer.",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

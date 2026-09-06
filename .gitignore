@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────
+# Mídia pesada: nunca entra no git.
+# O repositório guarda o QUE FOI DITO e A CHECAGEM, não o arquivo.
+# ─────────────────────────────────────────────────────────────
+casos/*/fonte/*.mp4
+casos/*/fonte/*.mkv
+casos/*/fonte/*.mov
+casos/*/fonte/*.webm
+casos/*/fonte/*.wav
+casos/*/fonte/*.mp3
+casos/*/fonte/*.m4a
+casos/*/recortes/*.mp4
+casos/*/recortes/*.wav
+casos/*/render/*.mp4
+casos/*/render/*.png
+casos/*/render/frames/
+
+# Cartelas do overlay: são DERIVADAS de alegacoes + checagens + config, e um `overlay`
+# regera as 24 em segundos. O que entra no git é o plano, que diz quando cada uma aparece.
+casos/*/overlay/cartelas*/
+
+# Saída bruta do whisper.cpp: 3 MB por caso, com dado por token que ninguém lê. O que
+# sustenta a checagem é a transcricao.json normalizada, que guarda o sha256 do modelo e os
+# parâmetros — ou seja, tudo que é preciso para gerar o bruto de novo.
+casos/*/transcricao/*.bruto.json
+
+# Fontes tipográficas: 1,8 MB de binário, baixadas por
+#   python -m checagem ativos baixar-fontes
+ativos/fontes/*.ttf
+ativos/fontes/*.otf
+
+# O manifesto da mídia (hash, duração, resolução) ENTRA no git.
+!casos/*/fonte/MIDIA.json
+!casos/*/recortes/RECORTES.json
+!casos/*/overlay/plano*.json
+
+# Modelos de transcrição
+modelos/
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários
+tmp/
+*.tmp
+*.log
+!casos/*/transcricao/*.log

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Gabriel-Alexandre/checagem-eleicoes-2026/esquemas/caso.schema.json",
+  "title": "Metadados de um caso",
+  "description": "Identidade da peça checada. Escrito à mão no PASSO 0 e conferido contra fontes públicas antes de qualquer transcrição.",
+  "type": "object",
+  "required": ["slug", "titulo", "data_do_evento", "veiculo", "formato", "falantes", "midia", "procedencia"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$" },
+    "titulo": { "type": "string", "minLength": 8 },
+    "data_do_evento": { "type": "string", "format": "date" },
+    "veiculo": { "type": "string" },
+    "programa": { "type": ["string", "null"] },
+    "formato": { "type": "string", "enum": ["sabatina", "debate", "entrevista", "pronunciamento", "comicio", "outro"] },
+    "eleicao": { "type": ["string", "null"], "description": "ex.: Eleições gerais 2026 — Presidência da República" },
+    "duracao_s": { "type": "number", "minimum": 1 },
+    "falantes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["nome", "papel"],
+        "additionalProperties": false,
+        "properties": {
+          "nome": { "type": "string" },
+          "papel": { "type": "string", "enum": ["entrevistado", "entrevistador", "narracao", "outro"] },
+          "cargo_ou_partido": { "type": ["string", "null"] },
+          "descricao": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "midia": {
+      "type": "object",
+      "required": ["arquivo", "sha256", "bytes", "largura", "altura", "fps"],
+      "additionalProperties": false,
+      "properties": {
+        "arquivo": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "bytes": { "type": "integer" },
+        "largura": { "type": "integer" },
+        "altura": { "type": "integer" },
+        "fps": { "type": "number" },
+        "codec_video": { "type": "string" },
+        "codec_audio": { "type": "string" }
+      }
+    },
+    "procedencia": {
+      "type": "object",
+      "description": "de onde veio o arquivo e o que se sabe sobre ele. Sem isto, a checagem começa checando a si mesma.",
+      "required": ["como_foi_obtido", "integralidade"],
+      "additionalProperties": false,
+      "properties": {
+        "como_foi_obtido": { "type": "string" },
+        "url_oficial": { "type": ["string", "null"] },
+        "integralidade": {
+          "type": "string",
+          "enum": ["integral", "trecho", "desconhecido"],
+          "description": "integral = a peça inteira; trecho = recorte publicado por terceiro. ⛔ trecho exige nota no relatório, porque corte muda contexto."
+        },
+        "observacoes": { "type": ["string", "null"] }
+      }
+    },
+    "transcricao": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "motor": { "type": "string" },
+        "modelo": { "type": "string" },
+        "idioma": { "type": "string" },
+        "parametros": { "type": "string" },
+        "revisao_humana": { "type": "boolean" }
+      }
+    }
+  }
+}

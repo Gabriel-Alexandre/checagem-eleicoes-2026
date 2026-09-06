@@ -1,0 +1,17 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "recortes": [
+    {
+      "id": "bloco-contas-publicas",
+      "arquivo": "bloco-contas-publicas.mp4",
+      "origem": "sabatina-lula-globo-2026-08-27.mp4",
+      "origem_inicio_s": 1352.32,
+      "duracao_s": 292.0,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "Maior densidade de afirmação numérica por minuto da peça, e o único bloco em que entrevistadora e entrevistado afirmam números um contra o outro sobre a mesma série (a dívida pública). Escolhido pela densidade, antes de qualquer checagem, e sem saber o resultado de nenhuma alegação.",
+      "criado_em": "2026-09-05"
+    }
+  ]
+}

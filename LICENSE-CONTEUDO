@@ -1,0 +1,51 @@
+LICENÇA DO CONTEÚDO — Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)
+
+Copyright (c) 2026 Gabriel Alexandre
+
+O QUE ESTA LICENÇA COBRE
+------------------------
+Tudo que neste repositório é texto e não é código:
+
+  · docs/            metodologia, arquitetura, fontes, identidade visual, replicação
+  · skills/          as instruções de execução
+  · .cursor/rules/   as regras de comportamento
+  · casos/*/         CASO.json, transcrições, alegações, checagens, relatórios e correções
+  · README.md, CLAUDE.md, ESTADO.md, CONTRIBUTING.md, CHANGELOG.md
+
+O código (src/, tests/, ferramentas/, esquemas/) está sob a licença MIT, no arquivo LICENSE.
+
+O QUE VOCÊ PODE FAZER
+---------------------
+Compartilhar, copiar, redistribuir, adaptar, remixar, transformar e usar para
+qualquer fim, inclusive comercial.
+
+A ÚNICA CONDIÇÃO
+----------------
+Atribuição. Cite a origem, indique se houve mudanças e aponte para a licença.
+Sugestão de crédito:
+
+  Checagem baseada em <https://github.com/Gabriel-Alexandre/checagem-eleicoes-2026>,
+  sob licença CC BY 4.0.
+
+⛔ Você não pode sugerir que o autor original endossa você ou o seu uso.
+
+Texto legal completo: https://creativecommons.org/licenses/by/4.0/legalcode.pt
+
+O QUE ESTA LICENÇA **NÃO** COBRE
+--------------------------------
+1. O VÍDEO DE ORIGEM. Ele não é distribuído por este repositório e pertence a quem
+   o produziu. O repositório guarda apenas o sha256, a transcrição e a checagem.
+   O uso de trechos para conferência de fatos se apoia em citação para fins de
+   crítica e informação, e não é objeto desta licença.
+
+2. AS FONTES CITADAS. Cada trecho copiado de uma fonte pertence a quem o publicou.
+   Ele aparece aqui como citação para permitir a auditoria do veredito, com URL e
+   data de consulta, e não como conteúdo redistribuído.
+
+3. A FONTE TIPOGRÁFICA INTER, que está sob a SIL Open Font License. O texto da
+   licença é baixado junto com a fonte, em ativos/fontes/OFL.txt.
+
+USAR ESTE CONTEÚDO NÃO TRANSFERE A RESPONSABILIDADE DELE
+--------------------------------------------------------
+Se você republicar um veredito daqui, ele passa a ser seu também. Confira as fontes
+antes: elas estão todas listadas, com URL e data, exatamente para isso.

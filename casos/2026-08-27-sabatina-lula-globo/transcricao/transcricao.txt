@@ -1,0 +1,933 @@
+# 2026-08-27-sabatina-lula-globo — transcrição
+# motor whisper.cpp · modelo ggml-large-v3-turbo.bin · idioma pt
+# tempos em HH:MM:SS na peça inteira · gerado em 2026-09-05
+
+
+[César Tralli]
+00:00:00  Olá, boa noite.
+
+[Renata Vasconcellos]
+00:00:04  Boa noite.
+
+[César Tralli]
+00:00:06  Nós estamos entrevistando esta semana os candidatos à presidência da República nas eleições
+00:00:11  2026.
+00:00:12  Foram convidados os seis candidatos mais bem colocados na pesquisa Quest de 14 de agosto.
+00:00:19  A ordem das entrevistas foi decidida num sorteio com a presença de representantes das campanhas.
+00:00:25  Hoje nós recebemos aqui no estúdio o candidato Luiz Inácio Lula da Silva, do PT.
+00:00:31  Amanhã, nosso convidado é Flávio Bolsonaro, do PL, e no sábado, Augusto Cury, do Avante.
+00:00:37  Nós já entrevistamos Romeu Zema, do Novo, Ronaldo Caiado, do PSD, e Renan Santos, do Missão.
+00:00:44  Cada entrevista vai ter 40 minutos de duração, com dois blocos e as considerações finais
+00:00:50  dos candidatos.
+00:00:51  Vamos então começar relembrando a trajetória do candidato Lula.
+
+[Narração (VT)]
+00:00:57  Aos 80 anos, Luiz Inácio Lula da Silva concorre à reeleição, pleiteando um quarto mandato.
+00:01:05  Lula nasceu em Caetés, no agreste de Pernambuco, na época um distrito de Garanhuns.
+00:01:11  Em 1969, já em São Paulo, começou a trajetória política como metalúrgico e líder de movimentos
+00:01:18  sindicais.
+00:01:19  Ele participou da fundação do Partido dos Trabalhadores no dia 10 de fevereiro de 1980.
+00:01:28  Foi deputado federal na Constituinte, de 88, e presidente da República pela primeira
+00:01:33  vez em 2002, depois de disputar a quarta eleição.
+00:01:38  Lula foi reeleito em 2006 e obteve o terceiro mandato em 2022.
+00:01:44  Nas eleições deste ano, concorre ao lado de Geraldo Alckmin, o candidato a vice pelo
+00:01:51  PSB.
+
+[César Tralli]
+00:01:53  Boa noite, candidato.
+00:01:54  Muito obrigado pela presença do senhor.
+
+[Lula]
+00:01:56  Boa noite.
+00:01:57  Boa noite, Trale.
+00:01:58  Boa noite, Renata.
+
+[César Tralli]
+00:01:59  O tempo da entrevista começa a valer a partir de agora.
+00:02:03  Candidato, três inquéritos da Polícia Federal investigam o seu filho, Fábio Luiz Lula da
+00:02:09  Silva.
+00:02:10  A suspeita é de corrupção e tráfico de influência em órgãos federais.
+00:02:14  A PF apura se ele usou o fato de ser o seu filho para conduzir negócios de interesse privado
+00:02:22  dentro do Palácio do Planalto, do Ministério da Saúde e também na data breve.
+00:02:28  Os policiais federais afirmam também que ele mantinha uma sociedade oculta com outros
+00:02:34  dois empresários, Fernando Bittar e a lobista Roberta Luxinger.
+00:02:38  O senhor tem dito que é seu filho que tem que provar que é inocente e que, se ele for
+00:02:46  culpado, não vai haver privilégios.
+00:02:49  Mas cabe ao senhor responder pelo governo.
+00:02:53  Pergunto, então, ao senhor, que avaliação o senhor faz dessas acusações de corrupção
+00:03:00  e tráfico de influência na sua gestão?
+
+[Lula]
+00:03:02  Veja, primeiro, doutor Ali, não tem nenhuma acusação, são ilações, ilações, ilações
+00:03:10  tiradas de telefonemas.
+00:03:12  Eu conheço isso muito bem, porque já vivi isso.
+00:03:16  O que eu tenho dito?
+00:03:17  Eu não sou do Ministério Público, eu não sou delegado, eu não sou juiz, eu sou presidente
+00:03:22  da República e pai do Fábio.
+00:03:24  Se o Fábio cometeu qualquer ilícito, qualquer ilícito, ele terá que pagar como qualquer
+00:03:31  cidadão brasileiro que cometeu ilícito.
+00:03:33  Eu não vou afastar o delegado da Polícia Federal, eu não vou fazer qualquer movimento
+00:03:38  para que meu filho seja comertado se ele tiver eu, como outros já fizeram.
+00:03:43  Ele sabe o que eu passei, sabe o que a minha filha Maria passou, ele sabe que a Marisa morreu
+00:03:48  por conta da falsa acusação que foi feita na Lava Jato.
+00:03:52  Portanto, ele tem obrigação de não ter feito erro.
+00:03:55  Eu estou muito tranquilo com o presidente da República, tudo o que for preciso fazer
+00:04:00  no âmbito da Polícia e da Justiça para apurar será dado toda e qualquer garantia.
+00:04:06  Esse é o comportamento do presidente da República, não é do pai do Fábio, é do presidente da
+00:04:10  República que tem que olhar para 215 milhões de brasileiros em igualdade de condições.
+
+[César Tralli]
+00:04:16  Mas, candidato, e as mensagens obtidas pela Polícia Federal no celular dessa lobista
+00:04:20  Roberta Lucicinho?
+00:04:21  Na verdade, numa das conversas, candidato, ela afirma que seu filho entra em campo quando
+00:04:26  precisa e que os dois eram uma coisa só.
+00:04:29  E ela diz, abre aspas, eu sou o Fábio.
+00:04:32  Numa outra mensagem, ela afirma, eu trabalho a política via palácio.
+00:04:37  Eu sou boa de costura política.
+00:04:39  Os brasileiros não merecem algum tipo de explicação mais robusta diante de tudo isso
+00:04:44  que a Polícia Federal levantou até agora?
+
+[Lula]
+00:04:46  Entrada, você é jornalista e você conhece isso melhor do que ninguém.
+00:04:51  Eu fui vítima disso na Lava Jato, da maior mentira montada neste país para evitar que eu fosse
+00:04:57  presidente da República.
+00:04:58  Eu poderia ter feito qualquer coisa para não emprestar depoimento.
+00:05:03  Fiquei quieto e oitenta dinheiro na cadeia porque somente eu sabia a verdade.
+00:05:09  E eu queria provar que a imprensa estava divulgando coisas mentirosas, que o Moro tinha mentido
+00:05:15  para a imprensa, que o Deleu tinha mentido para a imprensa.
+00:05:17  Com o meu filho vai acontecer a mesma coisa, só ele sabe a verdade.
+00:05:22  Se ele fez erro, ele pagará.
+00:05:24  Não existe outro jeito.
+00:05:25  Ele não será protegido por ser meu filho, por ser meu irmão, nada.
+00:05:30  Portanto, ele sabe o que ele tem que fazer.
+00:05:33  Ele tem que provar a inocência dele e eu tenho certeza que ele vai ser inocente.
+00:05:37  Vamos esperar o tempo.
+00:05:40  Não haverá da parte da Presidenta da República um milímetro de movimento para proteger o
+00:05:46  meu filho.
+00:05:47  A acusação está feita, a Polícia Federal está investigando, a Polícia Federal está
+00:05:51  vazando as coisas para a imprensa e eu espero que aconteça o julgamento.
+00:05:57  Se tiver que vir prestar depoimento, ele vai prestar depoimento, vai participar dos inquéritos.
+00:06:01  Se ele for culpado, pagará o preço.
+00:06:03  Se não for, ele será inocentado.
+
+[César Tralli]
+00:06:05  Candidato, num desses inquéritos, a Polícia Federal, ela traz indícios de que seu filho
+00:06:09  teria atuado junto ao Palácio do Planalto para agendar uma reunião entre essa lobista
+00:06:15  e o então secretário executivo do Ministério da Saúde, conhecido como Berger.
+00:06:20  E aí, numa dessas mensagens, a lobista avisa seu filho que chegou a Brasília e ele responde
+00:06:26  que ótimo, vai com tudo.
+00:06:29  É uma relação adequada, candidato?
+
+[Lula]
+00:06:31  Você acha que se eu pegasse o seu celular e fosse investigar tudo o que você falou, só
+00:06:37  tinha coisa certa, coisa correta?
+00:06:38  O que é que uma pilantra pode fazer no telefone?
+00:06:41  O que é que um cara qualquer pode fazer no telefone?
+00:06:43  Eu estou dizendo para você que o fato de ter pego as conversas no telefone não justifica
+00:06:48  absolutamente nada.
+00:06:51  Até agora não existe uma prova de um centavo público.
+00:06:55  Até agora não existe uma prova de uma conversa do meu filho com qualquer ministro.
+00:06:59  E eu tenho certeza que não fez.
+00:07:01  Agora, uma coisa eu vou lhe dizer: meu filho vai ser investigado, como qualquer cidadão
+00:07:06  brasileiro.
+
+[César Tralli]
+00:07:07  Agora, candidato, se falou...
+
+[Lula]
+00:07:08  Eu estou só na expectativa de que terminar esse inquérito.
+00:07:10  Porque o que acontece?
+00:07:11  Nós...
+00:07:12  Ele está sendo acusado de uma acusação, de um crime que nós descobrimos na Previdência
+00:07:17  Social, criado em 2019, a quadrilha da exploração da Previdência Social...
+
+[César Tralli]
+00:07:22  Nós vamos tocar nesse assunto muito em breve.
+00:07:24  Nós...
+
+[Lula]
+00:07:25  Eu vou antecipar para você.
+00:07:27  Nós pagamos R$ 3,5 bilhões a R$ 5 milhões de pessoas que foram assaltadas e já arrecadamos
+00:07:37  quase que R$ 100 bilhões das coisas que nós tomamos das quadrilhas que estavam montadas.
+00:07:42  E, portanto, meu cara, é o seguinte: se tem um brasileiro que quer que as coisas estejam
+00:07:45  investigadas, sou eu.
+
+[Renata Vasconcellos]
+00:07:47  Agora, o senhor se referiu há pouco sobre essa lobista, e eu gostaria justamente de saber,
+00:07:52  porque foi outra mensagem obtida pela Polícia Federal, que diz que essa lobista, Roberta
+00:07:57  Luxinger, afirma que o senhor teria oferecido um cargo a ela e dito, que o senhor teria dito
+00:08:03  para ela: "Escolha onde você quer ficar".
+
+[Lula]
+00:08:05  Não, não foi isso.
+
+[Renata Vasconcellos]
+00:08:06  Eu pergunto ao senhor se isso aconteceu e se o senhor já recebeu esse empresário
+00:08:09  no Palácio.
+
+[Lula]
+00:08:10  Faltou ela dizer o seguinte, que eu ofereci para ela o Ministério da Defesa, o Comando
+00:08:14  da Marinha, da Aeronáutica da Maratinha.
+00:08:16  É de uma imbecilidade.
+00:08:17  Isso aconteceu.
+00:08:18  Eu não conheço essa moça.
+00:08:20  Nunca vi essa moça na minha vida.
+00:08:22  Nunca conversei com essa moça.
+00:08:24  Ela nunca esteve próximo de mim.
+00:08:27  É o seguinte: malandro, sabe, é igual em qualquer lugar do mundo.
+00:08:34  Convertas por telefone, eu estou acompanhando.
+
+[Renata Vasconcellos]
+00:08:37  Um caso mais grave do que esse é o do Banco Master, que está silenciado.
+00:08:42  Nós vamos também tratar desse assunto, mas antes, eu gostaria de saber a sua avaliação.
+
+[Lula]
+00:08:46  É só importante tomar cuidado, que eu não sou nem procurador, nem juiz, nem policial.
+
+[Renata Vasconcellos]
+00:08:52  A investigação da Polícia Federal envolve também um outro nome muito próximo ao senhor, que
+00:08:57  é o seu ex-chefe de gabinete, o Marco Aurélio Santana Ribeiro, conhecido como Marcola.
+00:09:03  A Polícia Federal diz que foi ele quem ajudou a agendar essa reunião dessa lobista no Ministério
+00:09:08  da Saúde e chegou até a receber a minuta de um contrato que favoreceria a empresa ligada
+00:09:13  ao careca do INSS, que é considerado o pivô do escândalo do INSS.
+00:09:18  A minha pergunta ao senhor é a seguinte: o senhor não considera que esse tipo de relação
+00:09:23  leva suspeitas para dentro do galácio?
+
+[Lula]
+00:09:25  Leva.
+00:09:26  Lógico que leva.
+00:09:27  Leva suspeita e leva desconfiança para mim, porque o Marco Aurélio é meu chefe de
+00:09:32  gabinete.
+00:09:33  Agora, qual é o papel de chefe de gabinete?
+00:09:35  As pessoas sabem que ela é lobista, agora que a imprensa está falando que ela é lobista
+00:09:41  e que ela foi desendada.
+00:09:43  Mas, do lado concreto, é que o papel dele é que qualquer pessoa que chegar na Presidenta
+00:09:47  da República, conseguir uma audiência com ele para pedir uma audiência com ninguém,
+00:09:51  o papel dele é encaminhar para o Ministério.
+00:09:55  Agora, o que nós precisamos saber é o seguinte: essa mulher conseguiu liberar o dinheiro que
+00:09:59  ela disse que estava atrás.
+
+[Renata Vasconcellos]
+00:10:00  É, mas não foi só isso.
+
+[Lula]
+00:10:02  Ela conseguiu liberar.
+
+[Renata Vasconcellos]
+00:10:03  Ela conseguiu liberar o dinheiro.
+
+[Lula]
+00:10:06  Tem prova de que tem dinheiro público, porque aí é que está o crime.
+00:10:09  Aí é que está o crime.
+00:10:10  Por isso é que eu não sou precipitado, Renata.
+00:10:13  Eu fui acusado de ter um apartamento que eu não tinha, eu fui acusado de ter uma chácara
+00:10:18  que eu não tinha e só foi provada a inocência quando o processo foi anulado.
+00:10:23  Portanto, como eu não sou juiz, eu vou muito devagar com isso.
+00:10:26  Eu não gosto de fazer pirotecnia com acusações sem que você termine o inquérito.
+00:10:32  Todos eles, todos eles que foram citados, todos eles que participaram, o caminho é um só.
+00:10:38  É o caminho da apuração, da investigação ou da inocência ou da condenação se tiver cometido crime.
+
+[Renata Vasconcellos]
+00:10:44  Sobre a apuração, a Polícia Federal apurou mais.
+00:10:47  Ela disse também que essa lobista não só teria, por intermédio do seu ex-chefe de gabinete, conseguido a tal reunião, mas ela também pagou despesas pessoais do seu então chefe de gabinete.
+00:11:00  Ele ganhou boletos, parcelas de financiamento de um carro, faturas de cartão de crédito.
+00:11:04  Ele ganhou ainda joias, pediu a ela um quadro no valor de 100 mil euros.
+00:11:10  O Marcola disse que, de fato, foi um empréstimo de 249 mil reais que ele devolveu esse dinheiro.
+00:11:16  Eu pergunto ao senhor: é adequado o chefe de gabinete e a presidência da república ganhar
+00:11:22  joias e ter contas pagas por uma lobista com interesse em contratos do governo?
+00:11:27  O senhor sabia dessa relação que se passava na antessala do seu gabinete?
+
+[Lula]
+00:11:31  Deixa eu contar uma coisa para você.
+
+[Renata Vasconcellos]
+00:11:32  Por favor.
+
+[Lula]
+00:11:33  Não é adequado.
+00:11:34  É totalmente errado.
+00:11:35  E o Marcola sabe do erro que ele cometeu, porque não é esse o papel do chefe de gabinete.
+00:11:40  Ele sabe disso.
+00:11:41  Ele sabe da importância de ter chefe de gabinete.
+00:11:44  Agora, ele disse que tomou 249 mil reais de emprestado, é o que está na imprensa.
+00:11:49  Só ele sabe a verdade, se ele tomou ou não.
+00:11:52  Quando tiver uma acariação entre os dois, é que vai saber se foi empréstimo ou não.
+00:12:00  Eu, por enquanto, acredito na versão dele de que foi empréstimo.
+00:12:03  Acredito na versão dele.
+00:12:05  Por que ele não pediu empréstimo a um banco, por exemplo?
+00:12:07  Por que ele não falou comigo?
+00:12:08  Eu disse para ele: cara, eu sou quase que nem seu pai.
+00:12:10  Por que você não falou comigo?
+00:12:12  Por que você não falou comigo do problema que você estava tendo?
+
+[Renata Vasconcellos]
+00:12:16  Candidato.
+
+[Lula]
+00:12:17  Agora, é o seguinte: ele cometeu o erro, ele pagará pelo erro que ele cometeu.
+00:12:20  É isso que vai acontecer.
+00:12:22  Era uma pessoa da minha total confiança, trabalha comigo há sete anos, todo o tempo que eu
+00:12:28  fiquei preso em Brasil e no Paraná.
+00:12:31  Ele ficou o tempo inteiro lá.
+00:12:33  Agora, cometeu o erro, pago o preço do erro cometido.
+
+[Renata Vasconcellos]
+00:12:36  Candidato.
+
+[Lula]
+00:12:37  É isso.
+00:12:38  E eu espero que a polícia cumpra com a sua função.
+00:12:40  Eu espero que o Ministério Público cumpra com a sua função e o juiz faça o julgamento
+00:12:44  que for necessário fazer, de acordo com os autos do processo.
+00:12:47  O que eu não me deixo impactar é por ilhações.
+00:12:50  Eu conheço muito, muito, e já fui vítima muito disso.
+00:12:55  Então, eu estou muito tranquilo com relação a isso.
+00:12:58  Muito deprimido e muito chateado.
+00:13:00  Porque o meu filho sabe que não poderia cometer nenhum erro.
+00:13:04  Se cometeu, vai pagar.
+00:13:05  O Marcola sabe que não poderia cometer nenhum erro.
+00:13:08  Se cometeu, vai pagar.
+00:13:09  É assim que funciona.
+
+[Renata Vasconcellos]
+00:13:11  Candidato, o senhor há pouco citou o escândalo do INSS.
+00:13:15  Então, nós vamos entrar agora nesse assunto aqui com o senhor.
+00:13:18  Nesse escândalo, para a gente refrescar a memória, mais de 4 milhões de aposentados
+00:13:22  e pensionistas brasileiros foram vítimas desses descontos ilegais.
+00:13:26  As fraudes aconteceram entre 2019 e 2024.
+00:13:30  Podem ter passado de 6 bilhões de reais.
+00:13:33  E as investigações revelaram que mais de 60% desses descontos sob suspeita
+00:13:39  aconteceram no seu governo.
+00:13:41  O presidente do INSS no seu governo, ele está preso preventivamente.
+00:13:46  O Alessandro Stefanuto, ele é investigado por corrupção, organização criminosa,
+00:13:52  lavagem de dinheiro, entre outros crimes.
+00:13:54  Que explicação que o senhor dá hoje a esses aposentados e pensionistas?
+
+[Lula]
+00:14:00  Nós já demos a explicação.
+00:14:03  Primeiro que nós já devolvemos 3 milhões e meio de reais.
+00:14:08  3 milhões e meio de reais.
+00:14:10  Não tem um aposentado que foi roubado e que não foi devolvido o dinheiro.
+00:14:14  E esse dinheiro vai ser ressarcido pelos bens que nós aprendemos da quadrilha.
+00:14:19  Uma quadrilha que foi montada em 2019, inclusive com a participação do ministro da Previdência
+00:14:25  da Previdência daquela época, e nós passamos dois anos investigando, tanto a CGU quanto
+00:14:31  a Política Federal.
+00:14:33  Investigando, porque se a gente faz a denúncia antes da gente ter o processo como um todo,
+00:14:37  a gente atrapalharia facilitando os bandidos.
+00:14:40  E nós fizemos questão de colocar na cadeia as pessoas.
+00:14:44  Fizemos questão de pagar.
+00:14:46  Fizemos questão de pagar e vamos fazer questão de ressarcir os cofes públicos com os bens
+00:14:51  que nós aprendemos deles.
+
+[Renata Vasconcellos]
+00:14:52  Agora, fato é que no segundo ano do seu mandato, a quantidade de descontos suspeitos de legalidade
+00:14:59  mais do que triplicou em relação a 2022.
+00:15:02  E o seu então ministro da Previdência, Carlos Lupe, foi alertado de que havia indícios
+00:15:07  de irregularidades.
+00:15:08  Ele soube disso em 2023, ou seja, dois anos antes da operação da Polícia Federal revelar
+00:15:14  o escândalo.
+00:15:15  O Lupe teve tempo para agir, mas ele só suspendeu os contratos um ano depois de saber,
+00:15:21  de tomar conhecimento dos fatos.
+00:15:23  Que explicações ele deu para o senhor?
+
+[Lula]
+00:15:25  Renata, nem os contratos foram suspensos pelo Lupe.
+00:15:28  Nós fomos a fundo para investigar porque a gente não queria que a Aquarilha se desmontasse.
+
+[Renata Vasconcellos]
+00:15:32  Mas demorou.
+
+[Lula]
+00:15:33  Demorou.
+00:15:34  Demorou porque a investigação demora.
+
+[Renata Vasconcellos]
+00:15:36  Que explicação?
+00:15:37  O senhor ficou satisfeito com a explicação?
+
+[Lula]
+00:15:39  A explicação é que a Polícia Federal trabalhou com muita seriedade.
+00:15:42  A CGU trabalhou com muita seriedade para investigar.
+00:15:46  Levou dois anos.
+00:15:48  O dado concreto é que a Aquarilha foi montada em 2019.
+00:15:51  Foi presa por nós, descoberta por nós.
+00:15:55  Os previdenciários receberam o seu dinheiro de volta e nós vamos receber o que a Previdência
+00:16:02  pagou para a Aquarilha.
+00:16:03  É simples.
+
+[Renata Vasconcellos]
+00:16:04  O senhor pediu explicações ao Lupe?
+
+[Lula]
+00:16:06  Não, pediu explicação.
+00:16:07  Ele saiu do governo.
+00:16:08  Saiu do governo.
+00:16:09  Ninguém nunca reconhece, ninguém nunca reconhece que tinha corrupção.
+00:16:13  Precisou a CGU e a Polícia Federal investigar.
+00:16:16  E é assim que funciona a realidade.
+00:16:18  Não tem outro jeito de funcionar.
+00:16:20  Tem coisas que passam 80 anos para se apurar e não se apura.
+00:16:23  No nosso caso, no nosso caso, a Polícia Federal, a CGU, a AGU trabalham para que a gente coloque
+00:16:30  de pé toda e qualquer denúncia que aparecer.
+
+[Renata Vasconcellos]
+00:16:34  O senhor disse que pediu explicações ao Lupe e que ele saiu do governo.
+00:16:37  Mas, recentemente, o senhor subiu num palanque com o Carlos Lupe.
+00:16:41  Fez elogios a ele, recebeu apoio dele.
+00:16:43  Então, pergunto ao senhor: o senhor não vê problema em pedir voto ao lado de alguém
+00:16:48  que demorou para agir, para barrar os desvios e foi o responsável pela indicação do presidente
+00:16:53  do INSS, que está preso?
+
+[Lula]
+00:16:54  Deixa eu lhe falar uma coisa: ele não está condenado.
+00:16:57  Ele é um cidadão livre.
+00:16:59  Você acha que você pode deixar de conversar com uma pessoa que é sua amiga, que foi,
+00:17:05  cometeu um erro?
+00:17:06  Ser pessoa está em liberdade e não está condenado?
+00:17:08  Não é conversativo.
+00:17:09  Você acha que é assim?
+
+[Renata Vasconcellos]
+00:17:10  Fazer elogios...
+
+[Lula]
+00:17:11  Não, não elogios não.
+00:17:12  Deixa eu lhe contar uma coisa: a relação política não tem nada a ver com a relação
+00:17:15  administrativa.
+00:17:16  Se ele tivesse cometido o erro e a Polícia Federal já tivesse acusado, ele já tivesse
+00:17:21  sido condenado, era uma coisa: ele não está.
+00:17:24  Então, vamos aguardar, Renata, vamos aguardar a investigação.
+00:17:28  Eu sei o que é isso, Renata, porque eu já passei por isso.
+00:17:32  Você sabe, como jornalista, que eu fui vítima da maior mentira montada neste país,
+00:17:38  que tinha como objetivo não me deixar ser candidato em 2018, tinha como objetivo desmontar
+00:17:44  a indústria de engenharia deste país e criar uma imagem negativa da Petrobras.
+00:17:49  Eu coloquei a minha cara e falei: eu vou.
+00:17:53  Eu poderia ter saído do Brasil.
+00:17:55  Eu disse: eu vou para a cadeia que eu quero provar que o Moro é mentiroso, quero provar
+00:17:59  que o Dalao é mentiroso e quero provar que a imprensa um dia vai pedir desculpa, porque
+00:18:03  a imprensa brasileira comprou, comprou uma mentira, vendeu a mentira e nunca reconheceu
+00:18:09  que comprou uma mentira.
+
+[Renata Vasconcellos]
+00:18:11  O candidato do jornalismo da Globo cumpriu a sua obrigação de noticiar os fatos
+00:18:15  durante essa conversa.
+
+[Lula]
+00:18:17  É de feito pedir desculpa.
+00:18:19  A imprensa brasileira sabe que ela produziu um monstro mentiroso chamado Moro, chamado
+00:18:25  Dalao.
+00:18:26  Eu não esqueço do PowerPoint mentiroso contra mim.
+00:18:30  Eu não esqueço.
+00:18:32  Agora, eu me disfuso...
+
+[Renata Vasconcellos]
+00:18:33  Candidato, em relação a essa...
+
+[Lula]
+00:18:35  Me disfuso aí para a cadeia.
+00:18:36  Me disfuso aí para a cadeia.
+
+[César Tralli]
+00:18:38  O senhor falou do PowerPoint.
+00:18:39  Eu só quero dizer ao senhor, por favor, em relação a essa questão do PowerPoint.
+00:18:43  Com os nossos princípios editoriais, nós fizemos a devida retratação sobre esse assunto.
+00:18:48  Então, eu peço que a gente siga com a entrevista, ainda sobre esse assunto tão importante
+00:18:53  para o Brasil, que se chama Previdência Social.
+00:18:56  Além de todos esses descontos indevidos, essa fraude bionária, que começou em 2019,
+00:19:03  23, 24, foi descoberta só depois.
+00:19:06  Tem um problema sério hoje ainda no Brasil, que afeta aposentados e pensionistas, que é
+00:19:11  a fila do INSS.
+00:19:12  Quando o senhor assumiu esse terceiro mandato, o senhor prometeu zerar essa fila.
+00:19:16  Não zerou a fila.
+00:19:17  Hoje, ela está na casa de 1 milhão e 300 mil pessoas.
+00:19:21  Então, eu pergunto ao senhor, o que é que o senhor vai fazer, se releito, para oferecer
+00:19:26  mais qualidade nesse serviço essencial para os brasileiros?
+
+[Lula]
+00:19:30  Se você prometer que vai à Brasília, eu, a semana que vem, vou anunciar que a fila zerou.
+00:19:36  A espera de 45 dias vai estar apenas em 250 mil pessoas, que é o normal.
+00:19:43  Você não pode deixar de dizer, Trale, que no meu governo os aposentados recebiam a aposentadoria,
+00:19:50  recebiam uma carta em casa dizendo: "Você tem tempo de aposentadoria, pode me receber".
+00:19:55  Uma mulher que dava à luz, ela recebeu o pré-natal quase junto com a criança.
+00:19:59  Uma pessoa que estava doente era imediatamente.
+00:20:02  As pessoas, a gente me encarta os benefícios.
+00:20:05  Eles desmontaram, desmontaram o Brasil, desmontaram a Previdência.
+00:20:09  Nós chegamos a ter 3 milhões de pessoas na fila.
+00:20:12  E nós vamos entregar agora a fila terminada na Previdência Social.
+00:20:17  Você está convidado antecipadamente para ir à Brasília assistir o ato em que a gente
+00:20:22  vai comemorar com os aposentados.
+00:20:25  Semana que vem.
+
+[Renata Vasconcellos]
+00:20:26  Candidato, Caso Master, um aliado histórico seu aparece nas investigações.
+00:20:33  Jacques Wagner, que até junho era líder do governo no Senado.
+00:20:37  A Polícia Federal apura se ele recebeu um apartamento com propina em troca de promover
+00:20:42  interesses do banqueiro Daniel Vorcaro na Bahia e no Senado.
+00:20:46  Apesar dessa investigação, o senhor continuou demonstrando apoio e pediu, inclusive, votos
+00:20:51  para o Jacques Wagner.
+00:20:52  Por isso, eu lhe pergunto, antes de pedir votos para ele, não é preciso aguardar as
+00:20:57  investigações desse caso, esclarecer, de fato, o envolvimento dele nesse caso?
+
+[Lula]
+00:21:02  O Banco Master causou um prejuízo a esse país de 60 bilhões de reais.
+00:21:09  60 bilhões, não foi 60 dólares.
+00:21:12  Foi 60 bilhões de reais.
+00:21:14  E tem muita gente nesse país envolvido.
+00:21:17  Até agora não está provado que o Wagner tem relação com o Banco Master.
+00:21:21  O Wagner tem relação com Augusto, que na época não era nem do Banco Master.
+00:21:26  O que eu não posso admitir para mim e aceitar é que eu possa fazer política vivendo de ilações
+00:21:32  todo santo dia.
+00:21:33  Você tem um processo, tem uma apuração, tem uma investigação, as pessoas são inocentes
+00:21:38  até prova em contrário.
+00:21:39  As pessoas são inocentes até prova em contrário.
+00:21:42  Se um dia, Renata, você for acusada, você torta para você ter amigo que acha que você
+00:21:48  é inocente até provar sua culpa.
+00:21:50  O que não dá, o que não dá, ele é senador da república.
+00:21:54  Ele é senador da república, é candidato à reeleição.
+00:21:57  É um homem que tem relação comigo há 45 anos, desde o tempo de sindicalista.
+00:22:02  Eu não posso colocar em dúvida o comportamento e a relação do Wagner comigo por conta de uma
+00:22:08  eleição.
+00:22:09  Não posso.
+00:22:10  E posso dizer: eu tenho consciência que o Wagner é honesto.
+00:22:13  Tenho consciência.
+00:22:14  Se ele cometer um desvio, vai acontecer com ele, vai acontecer com qualquer pessoa.
+00:22:19  Vai pagar o preço do erro que cometeu.
+00:22:22  Eu não sou uma pessoa que muda de calçada quando encontra um amigo que está sendo acusado
+00:22:28  de alguma coisa, não.
+00:22:29  Até prova em contrário, todos são inocentes.
+
+[Renata Vasconcellos]
+00:22:32  Candidato, vamos falar de contas públicas e ajustes fiscal.
+
+[Lula]
+00:22:35  Eu acho que é da hora de falar, porque eu estava parecendo que eu estava no Ministério
+00:22:39  Público.
+
+[Renata Vasconcellos]
+00:22:40  Candidato, a dívida pública no seu governo ultrapassou os 10 trilhões de reais.
+00:22:44  E além do tamanho da dívida, o problema é a direção que ela está tomando.
+00:22:48  A gente chama de trajetória da dívida.
+00:22:50  No seu governo, a dívida disparou 10 pontos percentuais, atingiu 82% do PIB.
+00:22:56  E essa trajetória, ela pressiona os juros que encarece o crédito, que dificulta o investimento
+00:23:02  e que pesa no bolso das famílias.
+00:23:04  O seu programa de governo menciona uma necessidade de um ajuste fiscal, mas não traz metas explícitas
+00:23:10  para os próximos quatro anos.
+00:23:12  Eu quero saber do senhor quais são as suas metas e para que percentual do PIB o senhor
+00:23:16  pretende trazer essa dívida.
+
+[Lula]
+00:23:18  E, Renata, eu pensei que uma jornalista da sua qualidade, da sua competência, pudesse
+00:23:26  começar essa pergunta falando diferente, Renata.
+00:23:29  Você pode dizer, presidente Lula, o senhor foi o único presidente na história do Brasil
+00:23:35  que fez superávit primário durante oito anos do seu primeiro mandato?
+00:23:42  Dos países do G20, eu fui o único que fez superávit primário durante oito anos.
+00:23:47  Nunca tive problema fiscal nesse país.
+00:23:50  Você acha que o Brasil está com problema de dívida pública porque nós chegamos a
+00:23:54  80%, sabe por quê?
+00:23:56  Porque nós temos há mais de dez anos sem crescer.
+00:23:58  Você sabe quando é que o PIB voltou a crescer acima de 2%, Renata?
+00:24:03  Quando eu voltei à presidência da República.
+00:24:05  Você se esquece que eu deixei esse país crescendo 7,5% em 2010?
+00:24:10  Você se esquece que eu deixei esse país crescendo 7,5% e quando eu voltei ele estava
+00:24:15  crescendo 1%, ele só cresceu 3%, sabe, em 2023, 2024, 2025.
+00:24:22  Então, deixa eu lhe falar uma coisa.
+00:24:24  Na medida que você começa a crescer a economia, o PIB começa a cair, a dívida começa a cair
+00:24:30  com relação a dívida.
+00:24:33  80% de dívida, sabe, em um país, não é muito se você olhar para os Estados Unidos,
+00:24:37  olhar para o Japão, olhe para a Itália.
+
+[Renata Vasconcellos]
+00:24:39  Essa trajetória do PIB...
+
+[Lula]
+00:24:40  Sabe qual é a dívida dos Estados Unidos?
+00:24:42  120% do PIB é 40 trilhões de dólares.
+00:24:47  Olha, o que é importante é o seguinte: uma dívida, sabe, uma parte dela é por conta da taxa de juros,
+00:24:53  que vocês defenderam a vida inteira o Banco Central independente.
+
+[Renata Vasconcellos]
+00:24:58  Candidato, o seu ministro...
+
+[Lula]
+00:24:59  Você está lembrado que o Fernando Henrique Cardoso trocou três presidentes do Banco Central.
+00:25:03  Eu entrei e fiquei dois anos com o presidente do Bolsonaro.
+00:25:08  Porque se você não fizer a pergunta completa, eu vou dizer para você: a mim não preocupa a dívida pública.
+00:25:14  Eu vou dizer por quê.
+00:25:15  Eu herdei esse governo em janeiro de 2023 com déficit fiscal de 2,8%.
+00:25:23  Você sabe o quanto vai ser o orçamento desse ano?
+00:25:26  Superávit primário de 0,1%.
+00:25:29  Portanto, se tem alguém nesse país que tem responsabilidade fiscal, sou eu.
+00:25:34  E nem a trajetória da dívida o preocupa.
+00:25:36  Eu quero a trajetória de marcar a taxa de juros.
+00:25:40  Porque tem uma coisa que nós temos que entender, Renata.
+00:25:47  Nós pegamos esse país numa situação, nós não tínhamos orçamento para governar.
+00:25:54  Você está lembrado da PEC da transição?
+00:25:57  A PEC da transição foi, inclusive, para pagar rombo deixado pelo outro governo.
+00:26:03  Deixou um rombo de 94 bilhões, sabe, de dívida com as pessoas que nós tivemos que pagar.
+
+[Renata Vasconcellos]
+00:26:12  Eu quero aproveitar esse assunto ainda, candidato.
+
+[Lula]
+00:26:14  Então, deixa eu falar uma coisa, Renata.
+00:26:15  Eu, sinceramente, Renata, eu tenho uma coisa que eu digo sempre.
+00:26:19  Responsabilidade, eu aprendi com a dona Lindu.
+00:26:22  Ela juntava os filhos, pegava o dinheiro e falava:
+00:26:25  "Vocês não podem comprar e gastar o que vocês não têm".
+00:26:29  Eu vou dizer uma coisa para vocês lembrarem.
+00:26:32  Em dezembro de 2008, por ocasião da crise do subprime nos Estados Unidos, o comércio
+00:26:41  entrou numa crise.
+00:26:42  Eu fui para a televisão, fiz um discurso de oito minutos, convocando a sociedade brasileira
+00:26:48  a consumir.
+00:26:49  Porque era verdade que estava tendo desemprego.
+00:26:53  Mas ele não consumiu, ia ter mais desemprego ainda.
+00:26:57  Consuma com responsabilidade.
+00:26:59  Se você consumir com responsabilidade, você vai poder pagar sua dívida e o país vai voltar
+00:27:04  a crescer.
+00:27:05  Foi o ano em que a classe C e D consumiram mais do que a classe B.
+00:27:09  Então, se tem uma coisa que baliza a minha vida, chama-se responsabilidade fiscal.
+00:27:15  E eu tenho uma equipe econômica, que era do Haddad, que era do Guido, que agora é
+00:27:19  do Dario, com muita responsabilidade fiscal.
+00:27:22  Eu sei o que eu quero desse país.
+
+[César Tralli]
+00:27:24  Aproveitando, então, agora que o senhor acaba de tocar no nome do seu ministro da Fazenda,
+00:27:30  do Dario Durigan, eu queria entrar muito nesse assunto agora com o senhor, que é o seguinte:
+00:27:35  o próprio ministro da Fazenda do senhor tem manifestado preocupação com a rolagem
+00:27:39  da dívida pública.
+00:27:40  Ele disse que o próximo governo vai ter que fazer ajustes fiscais, vai ter que reduzir
+00:27:45  gastos obrigatórios.
+00:27:46  Então, eu pergunto ao senhor o seguinte: o senhor pretende reduzir gastos obrigatórios?
+00:27:51  Porque é muito importante esclarecer isso para a sociedade e para a população.
+00:27:55  E se o senhor pretende reduzir gastos obrigatórios, quais exatamente?
+00:27:59  Que compromisso que o senhor estabelece, se reeleito?
+
+[Lula]
+00:28:02  O meu estabelecimento é o seguinte: é fazer esse país crescer.
+00:28:06  A minha proposta de ser candidato a presidente da República outra vez é porque eu já fiz
+00:28:11  o bado que eu tinha que fazer.
+00:28:13  Você está lembrado que eu comecei em 2003 dizendo que, ao terminar o meu mandato, cada
+00:28:18  brasileiro estiver almoçando, tomando café e jantando, eu terei realizado a obra da minha
+00:28:22  vida.
+00:28:23  Eu fiz mais do que isso.
+00:28:25  Depois eu fiz o PAC no segundo mandato.
+00:28:27  Depois eu fiz o PAC 3 agora nesse mandato, com 1 trilhão e 900 bilhões de investimentos,
+00:28:34  dos quais até 2023, agora em dezembro, são 1 trilhão e 340 bilhões, dos quais 97%
+00:28:41  já quitados.
+00:28:42  Então, o que eu quero para o próximo mandato?
+00:28:45  Eu quero fazer uma revolução tecnológica nesse país.
+00:28:48  Eu quero voltar a fazer com que esse país seja disputar com o mundo rico.
+00:28:54  Esse país vai ter que ser dono de minerais críticos das terras raras.
+00:28:58  Esse país vai ter que aportar numa inteligência artificial com linguagem portuguesa.
+00:29:02  Esse país vai ter que tentar fazer uma reforma para que a gente tenha a nossa defesa tomando
+00:29:07  conta de 8 milhões e meio de quilômetros quadrados, que está totalmente abandonado.
+00:29:12  E nós estamos vendo que nós temos, depois da China, possivelmente a gente esteja um país
+00:29:17  que tenha mais minerais críticos em terras raras.
+00:29:19  E você percebe que está sendo vendido enquanto a gente não faz a regulação.
+00:29:23  Eu estive com a Columbre essa semana pedindo para ele: vamos aprovar a regulação para
+00:29:29  que a gente não permita que as nossas riquezas sejam vendidas, porque isso, se a gente souber
+00:29:35  extrair, transformar e produzir os materiais que a gente pode, fazer bateria, fazer chip,
+00:29:42  fazer celular, aqui dentro do Brasil, a gente vai estar criando um passaporte para dar oportunidade
+00:29:48  para a juventude brasileira, sabe, ter orgulho de que, no seu país, ela vai ter condição
+00:29:53  de estudar, de trabalhar e de ganhar a sua vida.
+00:29:56  É esse o futuro que eu quero para o país.
+00:29:58  E é por isso que eu estou apreitando o quarto mandato, porque eu já acabei com a fome
+00:30:02  duas vezes, duas.
+00:30:04  Você sabe que, quando eu voltei agora, esse país estava destruído, destruído.
+00:30:09  O déficit era 2,8%.
+00:30:13  O último foi 0,8%.
+00:30:15  E agora, nesse orçamento, vai ser positivo.
+00:30:18  Nós vamos fazer superávit esse ano.
+
+[César Tralli]
+00:30:21  Candidato, depois...
+
+[Lula]
+00:30:22  Porque sabe o que acontece, Sr. Trale?
+00:30:24  Eu aprendi muito cedo...
+
+[César Tralli]
+00:30:25  Posso avançar nos assuntos, por favor?
+
+[Lula]
+00:30:26  E se eu gastar mais do que eu ganho, eu não vou conseguir realizar nada.
+00:30:31  Eu vou me perder.
+00:30:32  Então, eu tenho...
+00:30:34  Na próxima pergunta, eu vou lhe contar a minha conversa com o FMI.
+00:30:37  Esse país aqui...
+00:30:39  Porque, se a gente não contar, a meninada que está ouvindo a gente não entende.
+00:30:43  Esse país aqui devia 30 bilhões de dólares.
+00:30:46  Esse país aqui, o Malan, não conseguia uma audiência com o FMI.
+00:30:50  Esse país aqui não podia pagar suas importações.
+00:30:53  Quando eu assumi a presidência, todos os economistas diziam que o país estava quebrado.
+00:30:57  Pois bem, o país não quebrou.
+00:30:59  Eu paguei 30 bilhões do FMI.
+00:31:01  Fiz a primeira reserva de dólares para ir de 270 bilhões de reais,
+00:31:06  que é o que segura a estabilidade econômica desse país até hoje.
+
+[César Tralli]
+00:31:09  Ainda falando sobre economia, sobre essa questão de dívida pública,
+00:31:12  quero muito ouvir o senhor sobre a crise nas estatais.
+00:31:15  As estatais brasileiras federais estão acumulando um prejuízo de 20 bilhões de reais no seu governo.
+00:31:22  E o caso mais emblemático, mais grave, é o dos Correios.
+00:31:26  Já são quatro anos seguidos de prejuízo.
+00:31:29  É um rombo histórico.
+00:31:30  São 15 bilhões de reais, candidato.
+00:31:33  A própria direção da estatal diz que parte da crise se deve a baixa qualidade na operação da empresa.
+00:31:40  Não ter eficiência num setor cada vez mais competitivo significa risco de prejuízo.
+00:31:46  O senhor considera vender os Correios?
+
+[Lula]
+00:31:49  Eu queria lhe falar uma coisa, candidato.
+00:31:51  Você já era nascido em 1985.
+00:31:54  Desde 1985, o Correio brasileiro vive crise e alguém quer privatizar o Correio.
+00:32:00  O Correio é uma empresa muito importante para o Brasil, porque ela está em todos os municípios brasileiros.
+00:32:07  Obviamente que o Correio, a vítima da crise do Correio é que ele não se adaptou aos novos tempos.
+00:32:13  Não se adaptou.
+00:32:15  Surgiu muita empresa de fazer entrega e o Correio ficou na mesmice.
+00:32:19  Não só a gente está com uma nova administração no Correio, que está com a responsabilidade
+00:32:25  de fazer o enxugamento que for necessário nas contas do Correio.
+00:32:29  Se for necessário fazer associação com a empresa, nós faremos com a empresa bandeira
+00:32:34  ou com a empresa estrangeira, porque a gente quer um Correio prestando serviços
+00:32:38  junto com qualquer outra empresa.
+00:32:40  O senhor garante então que o Correio vai sair dessa crise?
+
+[César Tralli]
+00:32:42  Garanto.
+
+[Lula]
+00:32:43  Vai sair desse pombo, vai sair dessa dívida toda?
+
+[César Tralli]
+00:32:45  Garanto.
+
+[Lula]
+00:32:46  O senhor não considera vender?
+
+[César Tralli]
+00:32:48  Hein?
+
+[Lula]
+00:32:49  Não considero vender o Correio.
+00:32:50  Não considero.
+00:32:51  Candidato?
+00:32:52  Não considero recuperar o Correio, sabe?
+00:32:55  E para ele prestar serviço de qualidade ao povo brasileiro.
+00:32:58  E ele pode fazer isso.
+
+[César Tralli]
+00:32:59  A gente vai continuar essa entrevista já, já.
+00:33:01  Só um pequeno intervalo e a gente volta em instantes.
+
+[Lula]
+00:33:05  Vamos.
+
+[César Tralli]
+00:33:06  Nós estamos de volta com o segundo bloco da entrevista com Luiz Inácio Lula da Silva,
+00:33:11  candidato do PT à presidência da República.
+
+[Lula]
+00:33:14  Candidato, vamos falar de educação?
+
+[Renata Vasconcellos]
+00:33:16  Vamos.
+00:33:17  Vamos falar do acesso à escola entre jovens de 4 a 17 anos, que está na casa dos 97%,
+00:33:26  está perto da universalização.
+00:33:28  O que é bom.
+00:33:29  Mas a gente sabe que acesso não é a mesma coisa que aprendizagem.
+00:33:33  E um estudo do Todos pela Educação, divulgado agora em agosto, mostra que 6 em cada 10 jovens
+00:33:39  brasileiros terminam o ensino médio na rede pública sem aprender o básico em matemática.
+00:33:45  Eu quero saber do senhor por que esse resultado e qual é o seu plano para melhorar se o senhor for reeleito.
+
+[Lula]
+00:33:50  Então, deixa eu te dizer uma coisa, Renata.
+00:33:55  Se tem uma coisa que eu tenho orgulho, é que o Brasil nunca teve um Presidente da República
+00:34:01  que cuidasse da educação como eu cuidei.
+00:34:04  Eu estou o Presidente da República que mais coloquei alunos em escola de tempo integral.
+00:34:09  Nós fizemos um pacto com os prefeitos para a alfabetização das crianças na idade certa,
+00:34:14  que a gente previa até 2030 chegar a 80% dos jovens.
+00:34:19  Chegamos a 66% no primeiro ano desse acordo.
+00:34:24  Porque as coisas estão evoluindo muito.
+00:34:27  Eu criei o Fundeb para garantir que os meninos do ensino médio não desistissem da escola.
+00:34:32  500 mil desistiam por ano para ajudar no orçamento familiar.
+00:34:37  Nós criamos o Pé de Meia garantindo uma conta, uma poupança para os jovens para eles não desistirem da escola.
+00:34:46  Isso diminuiu a invasão no primeiro ano em mais de 60% dos alunos.
+00:34:51  E sou o Presidente que mais fiz universidade nesse país, mais fiz institutos federais.
+00:34:57  Dos quase 800 institutos desse país, 80% foi feito por mim e pela Dilma.
+
+[Renata Vasconcellos]
+00:35:02  E com relação a essa dificuldade do aprendizado?
+
+[Lula]
+00:35:05  Veja, a dificuldade no aprendizado, você tem que entender.
+00:35:08  O Estado, como o Ceará, a molecada é mais evoluída aqui em São Paulo.
+00:35:14  O que, na verdade, a educação básica, ela é administrada pelo Estado.
+00:35:20  O governo tem o Fundeb que ajuda os Estados.
+00:35:23  Mas cada Estado age de um jeito.
+00:35:26  O Ceará e o Piauí são os Estados pobres que têm o melhor nível de educação nesse país.
+00:35:31  Você sabia que 40% dos alunos que passam no vestibular do ITA em São José dos Campos são ceareses?
+00:35:39  Por isso eu levei o ITA para Fortaleza, como premiação.
+00:35:42  Você sabe que nós criamos aqui no Rio de Janeiro uma faculdade de matemática para premiar os alunos que participam das Olimpíadas da Matemática, os que têm medalhas de ouro.
+00:35:53  Nós fazemos um vestibular entre eles e os 400 melhores estão numa faculdade de matemática aqui com dormida, comida, porque a gente não quer perder mais gênios.
+
+[Renata Vasconcellos]
+00:36:04  Estas técnicas em educação dizem que é muito importante investir na formação dos professores.
+00:36:08  Qual é a sua proposta para isso?
+
+[Lula]
+00:36:10  Então, eu vou lhe dizer, sabe o que nós fizemos?
+00:36:12  Nós estamos dando uma bolsa de estudo para o menino do Enem que passar em primeiro lugar, que for ser professor, ele vai ganhar uma bolsa de estudo para estudar para o professor.
+00:36:24  Porque normalmente ele não quer, os melhores querem outra coisa, e nós estamos dando uma bolsa porque nós sabemos que a qualidade do professor influencia, sabe, na formação do aluno.
+
+[Renata Vasconcellos]
+00:36:35  Então, candidato, para a gente falar de um outro tema, pois não.
+
+[Lula]
+00:36:37  Renata, quem criou a Olimpíada da Matemática no Brasil, na escola pública, fui eu, contra a vontade de muita gente que dizia que as crianças não gostavam de matemática.
+00:36:47  Na primeira inscrição, entrou 10 milhões de crianças, na segunda, 14 milhões de crianças, na terceira, 18 milhões de crianças.
+00:36:56  E quando as crianças aprendem a desfiar, o casulo da matemática passa a ser a matéria que ele mais mostra.
+00:37:04  Então, agora, no futuro, por isso que eu quero um quarto mandato, nós precisamos colocar muita gente para fazer matemática, muita gente para fazer engenharia,
+00:37:12  muita gente para prender esse mundo digital e discutir inteligência artificial, porque nós não queremos ficar subordinados à briga dos Estados Unidos com a China.
+
+[César Tralli]
+00:37:22  Agora, antes de encerrar, eu gostaria de ouvir do senhor sobre um tema muito importante, que é segurança pública.
+00:37:28  Uma das maiores preocupações do brasileiro hoje.
+
+[Lula]
+00:37:30  Exato.
+00:37:31  Acabou a educação.
+
+[César Tralli]
+00:37:32  Nós estamos tentando avançar nos temas, candidato, porque estão faltando menos de 5 minutos.
+00:37:40  Nos últimos 24 anos, então, 17 foram do PCOM-PT na presidência.
+00:37:44  O senhor está no terceiro mandato, são 12 anos na cadeira de presidente.
+00:37:49  Na sua avaliação, candidato, por que, nesses mais de 20 anos, o crime organizado se espalhou pelo Brasil?
+00:37:55  Preciso ouvi-lo sobre isso.
+
+[Lula]
+00:37:56  É importante que a gente contribua para formar as pessoas que estão nos assistindo.
+00:38:01  Na Constituição de 88, a Constituição aprovou que a segurança pública era da responsabilidade do Estado.
+00:38:10  A sociedade civil estava cansada dos militares terem ingerência nas políticas estaduais.
+00:38:15  E nós, então, a pedido de todos os progressistas da Constituinte, demos para o Estado.
+00:38:22  O Governo Federal ficou com a Polícia Federal, com a Polícia Rodoviária Federal e com a Polícia Penal.
+00:38:29  Eu estou discutindo no Congresso Nacional, foi colocado para votar agora.
+00:38:36  Por isso que eu almocei com o Columbre e com o Hugo Mota, votar a PEC da Segurança Pública.
+00:38:41  Porque, a hora que for aprovar a PEC da Segurança Pública, eu crio o Ministério da Segurança Pública.
+00:38:46  Por que que eu vou criar o Ministério?
+00:38:48  Porque, primeiro, eu quero estabelecer qual é a participação de cada ente federado da Segurança Pública.
+00:38:54  Qual vai ser o papel da União, qual vai ser o papel do Estado e qual vai ser o papel do município.
+00:38:59  Porque, aí sim, a gente vai trabalhar muito forte, talvez desmanado.
+00:39:04  Teve muitos governadores que não quiseram.
+00:39:06  Tarcísio não quis, Caiado não quis, porque não querem que o Governo Federal se meta na Segurança Pública.
+
+[César Tralli]
+00:39:11  Candidato, aproveitando, então, posso aproveitar esse gancho que o senhor falou da coordenação entre governadores,
+00:39:17  a PEC da Segurança, que o senhor está tentando passar no Congresso Nacional?
+00:39:21  Lembrando, então, que o senhor vai completar 12 anos como presidente.
+00:39:25  O PT governa a Bahia tem 20 anos.
+00:39:28  E a Bahia, hoje, tem 5 das 10 cidades mais violentas do Brasil.
+00:39:33  O maior número de mortes violentas de crianças e adolescentes é o triplo da média nacional.
+00:39:38  Por que que o PT não tem conseguido coordenar ações eficientes sem segurança na Bahia,
+00:39:43  mesmo governando o país e o Estado, ao mesmo tempo e há tanto tempo, candidato?
+
+[Lula]
+00:39:49  O PT não seria injusto com a Bahia.
+00:39:51  Nenhum governador do Brasil, nenhum, conseguiu resolver o problema da Segurança Pública.
+00:39:56  Nenhum conseguiu segurar.
+00:39:58  Se você pegar do Iapau, o cachorro e ninguém conseguiu.
+00:40:01  Ninguém.
+00:40:02  Você é de São Paulo, eu trago.
+
+[César Tralli]
+00:40:04  Mas nem tem o governo do Estado e o governo federal, candidato?
+
+[Lula]
+00:40:06  Você é de São Paulo e você, muito menino, cansou de ver as campanhas do Marufo lá em São Paulo?
+00:40:12  Bandido bom é bandido morto?
+00:40:14  Cansou de ver carreta passeando com um artista fantasiado de prisioneiro?
+00:40:18  Ninguém consegue resolver.
+00:40:20  Só vai conseguir se a gente tiver muito investimento em inteligência.
+00:40:24  É isso que eu quero fazer.
+00:40:25  O que é que eu quero fazer?
+00:40:26  Aprovando a PEC, nós vamos criar o Ministério da Segurança Pública,
+00:40:29  vamos definir qual é o papel da Polícia Federal nos Estados,
+00:40:33  porque você sabe que a Polícia Federal não pode investigar crime nos Estados,
+00:40:36  a não ser que seja crime federal.
+00:40:38  E nem sempre os governadores pedem.
+00:40:40  Se não fosse a Polícia Federal, a gente não pegava o assassino da Mariela aqui.
+00:40:44  E o governador não queria que a gente viesse investigar.
+00:40:47  Então, o que é que eu quero?
+00:40:49  Nós fizemos agora.
+00:40:50  Aprovamos uma lei de infracção.
+00:40:51  Estamos trabalhando na questão do combate ao crime organizado.
+00:40:54  Por isso, eu fui levar para o Trump uma proposta por inscritos.
+00:40:57  Se os Estados Unidos quiserem trabalhar junto com o Brasil
+00:41:00  para combater o narcotráfico e o crime organizado,
+00:41:02  o Brasil está pronto e preparado.
+00:41:04  Montamos uma base da Polícia Federal em Manaus
+00:41:07  para tomar conta da fronteira,
+00:41:09  com representantes de policiais de cada país da América do Sul,
+00:41:14  para que a gente possa enfrentar.
+00:41:16  Por quê?
+00:41:17  Qual é o meu desejo?
+00:41:18  O meu desejo é recuperar o território do povo.
+00:41:22  Sabe, aquela rua é do povo do Rio, não é do bandido.
+00:41:26  A escola é do povo, não é do bandido.
+00:41:29  O bairro é da escola.
+00:41:30  Nós precisamos, então, enfrentar isso.
+00:41:32  E enfrentar uma coisa mais grave, que é enfrentar o do andar de cima.
+00:41:36  Como nós fizemos a Operação Carbono Oculto,
+00:41:38  que foi a maior operação já feita na história desse país.
+00:41:42  Nós estamos preparados para muitas operações.
+00:41:44  O que eu quero é que prefeituras importantes, como o Rio de Janeiro e São Paulo,
+00:41:50  tem que ter policial com a ação de policial.
+00:41:52  Não pode ficar um policial sem poder prender.
+00:41:54  Se a gente fizer uma combinação de criar uma espécie de susto da segurança pública
+00:42:00  e a gente trabalhar conjuntamente, eu posso ter garantido que o povo brasileiro vai ganhar.
+00:42:04  E por isso que eu fui conversar com a Columbre: vamos aprovar a PEC.
+00:42:08  Porque aprovando a PEC, eu crio o Ministério na semana seguinte.
+00:42:12  E depois de criar o Ministério, não é que ele vai funcionar rapidamente, não.
+00:42:16  Eu vou ter que convencer o Daniel, que está assistindo o programa daqui,
+00:42:19  de que ele tem que colocar recursos, porque para a gente ter uma polícia eficiente
+00:42:24  e a gente acabar com o crime organizado, a gente vai ter que ter muito dinheiro.
+
+[César Tralli]
+00:42:28  Candidato, o nosso tempo acabou.
+00:42:30  Eu peço agora que o senhor faça as suas considerações finais, a sua despedida do eleitor.
+00:42:35  O senhor tem um minuto.
+
+[Lula]
+00:42:37  Renata e Trale e telespectadores sabem que estão nos assistindo.
+00:42:44  Eu quero dizer para vocês que eu vivo hoje, aos 80 anos, o melhor momento da minha passagem pelo planeta Terra.
+00:42:54  Eu tenho consciência do que nós fizemos nesse país.
+00:42:58  Eu tenho dito para todo mundo que se você pesquisar desde a Proclamação da República até o dia de hoje,
+00:43:03  você não vai encontrar nenhum governo que fez a quantidade de política de inclusão social que nós fizemos.
+00:43:10  É muito estranho dizer que o metalúrgico sem diploma universitário é o presidente que mais fez universidade nesse país.
+00:43:17  É importante dizer que quando eu cheguei na presidência nós tínhamos 5 milhões de trabalhadores no mercado de trabalho com diploma universitário.
+00:43:31  Hoje nós temos 25 milhões e eu quero chegar a 50, porque eu quero que o Brasil seja exportador de inteligência e de conhecimento.
+00:43:40  Eu não quero que o Brasil continue exportando, sabe, minerais, minério de ferro, soja e milho, sabe, que é muito importante.
+00:43:49  Mas é importante a gente exportar inteligência, que é isso que vai dar competitividade.
+00:43:53  Nós vamos fazer um forte investimento em educação, vamos apresentar um plano de educação.
+
+[César Tralli]
+00:43:58  Terminou o tempo, candidato.
+
+[Lula]
+00:44:00  Então, obrigado.
+
+[César Tralli]
+00:44:01  Quero agradecer muito a entrevista.
+00:44:03  Muito obrigado aqui pela sua presença.
+
+[Lula]
+00:44:04  Obrigado, Trano.
+00:44:05  Obrigado, Renata.
+
+[Renata Vasconcellos]
+00:44:06  Obrigada.
+
+[César Tralli]
+00:44:07  O nosso entrevistado é Flávio Bolsonaro, o candidato Flávio Bolsonaro do PL.
+00:44:11  Boa noite.
+00:44:12  Boa noite.
+00:44:13  Muito obrigado e até amanhã.

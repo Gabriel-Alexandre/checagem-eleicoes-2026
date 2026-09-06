@@ -1,0 +1,60 @@
+---
+description: Onde cada coisa mora, como se chama, e o que nunca entra no git. Aplica ao criar, mover ou renomear qualquer arquivo.
+globs:
+alwaysApply: true
+---
+
+# Organização — um lugar para cada coisa
+
+## 1. A árvore
+
+```
+docs/            doutrina e referência  ·  SCREAMING_SNAKE_CASE.md
+skills/          o que a IA executa     ·  kebab-case.md, com frontmatter name e description
+.claude/skills/  ponteiros para skills/ ·  ⛔ nunca doutrina nova
+.cursor/rules/   regras sempre ativas   ·  kebab-case.mdc
+src/checagem/    o pipeline             ·  passoN_nome.py, na ordem do pipeline
+esquemas/        contratos de dados     ·  <coisa>.schema.json
+ativos/fontes/   Inter (OFL)            ·  baixada por script, ⛔ fora do git
+casos/<slug>/    um caso                ·  AAAA-MM-DD-<formato>-<pessoa>-<veiculo>
+tests/           testes                 ·  test_*.py
+```
+
+Dentro de um caso:
+
+```
+CASO.json            identidade e procedência da peça
+fonte/               o vídeo original (⛔ fora do git) + MIDIA.json (✅ no git)
+recortes/            trechos + RECORTES.json com o tempo absoluto
+transcricao/         transcricao.json, .txt, falantes.json, CORRECOES_DE_TRANSCRICAO.md
+alegacoes/           saída do PASSO 4
+checagens/           saída do PASSO 5
+overlay/             cartelas PNG + plano.json
+render/              o MP4 anotado (⛔ fora do git)
+RELATORIO.md         o documento público do caso
+CORRECOES.md         o que mudou depois de publicado
+```
+
+## 2. O que nunca entra no git
+
+⛔ vídeo, áudio, PNG de render, modelo de whisper, fonte tipográfica.
+✅ **o manifesto sempre entra**: `MIDIA.json` com o `sha256` é o que prova de que arquivo se fala.
+
+🔑 **O repositório guarda o que foi dito e a checagem, não o arquivo.** Quem clona baixa a peça
+pela `url_oficial` do `CASO.json` e confere o `sha256`.
+
+## 3. Nomes
+
+- ⛔ **travessão em nome de arquivo, nunca.** Hífen simples.
+- ⛔ **nada solto na raiz** além de `README.md`, `CLAUDE.md`, `AGENTS.md`, `ESTADO.md`, `LICENSE*`,
+  `CONTRIBUTING.md`, `CHANGELOG.md` e os arquivos de configuração.
+- Documento de verdade em `SCREAMING_SNAKE_CASE.md`; skill, regra e pasta em kebab-case.
+- `id` de alegação é `A001`, com três dígitos, em ordem cronológica de fala.
+
+## 4. Mudou estado, propague
+
+Ao terminar qualquer passo, atualize **`ESTADO.md`** na raiz: onde o trabalho parou, o que falta,
+e o comando exato para retomar. Uma sessão nova tem que conseguir continuar lendo só ele.
+
+⚠️ **Atualizar um arquivo só é erro.** Mudou um número que aparece em dois lugares, os dois mudam
+no mesmo commit.

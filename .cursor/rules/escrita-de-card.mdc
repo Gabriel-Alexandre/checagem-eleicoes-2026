@@ -1,0 +1,49 @@
+---
+description: Como se escreve o texto que aparece na tela — resumo, ressalva e nome de fonte. Aplica em qualquer texto público do projeto.
+globs:
+alwaysApply: true
+---
+
+# Escrita de card — o texto que o espectador lê em 4 segundos
+
+O card tem duas linhas e nenhum contexto. Quem chegou no meio do vídeo precisa entender sozinho.
+
+## 1. O `resumo` (até 120 caracteres)
+
+| Trava | ⛔ | ✅ |
+|---|---|---|
+| **traz o dado, não o adjetivo** | "Número errado" | "O IBGE registrou 7,5% em 2010, não 8,5%" |
+| **fala do enunciado, não da intenção** | "Tentou inflar o resultado" | "O valor citado é o previsto; o pago foi R$ 1,9 bi" |
+| **nomeia a fonte** | "Dados oficiais mostram outra coisa" | "Segundo o Tesouro, a dívida fechou 2025 em 76,1% do PIB" |
+| **funciona fora do contexto** | "Isso não aconteceu naquele ano" | "A medida entrou em vigor em 2024, não em 2022" |
+
+⛔ **Sem travessão** (—). Ele quebra mal em caixa estreita e some em tela pequena.
+⛔ **Sem sigla que só especialista conhece** sem o nome por extenso na primeira aparição.
+⛔ **Sem ironia, sem ponto de exclamação, sem maiúscula de ênfase.**
+
+## 2. A `ressalva`
+
+É o "certo, mas". Uma linha, sempre com o número. Ela aparece em amarelo mesmo quando o veredito
+é verde, e isso é o que faz um `VERDADEIRO` honesto parecer honesto.
+
+> ✅ "Arredondado: o valor exato no painel é R$ 3,47 bi."
+> ✅ "251 mil é o estoque de agosto; em outubro foram 268 mil."
+
+## 3. Nome de instituição
+
+Escreva o nome que o espectador reconhece, não a sigla do sistema.
+
+| ⛔ | ✅ |
+|---|---|
+| "SGS/BCB série 4189" | "Banco Central" |
+| "SIDRA t/6784" | "IBGE" |
+| "Dataprev" | "INSS" quando o dado é do INSS publicado via Dataprev |
+
+A referência técnica completa vai no `RELATORIO.md`, que é onde ela é útil.
+
+## 4. O que nunca aparece na tela
+
+- ⛔ contagem do tipo "3ª informação falsa da entrevista": vira placar, e placar é editorial;
+- ⛔ adjetivo sobre a pessoa;
+- ⛔ URL longa (a marca no canto já leva ao repositório);
+- ⛔ emoji.

@@ -1,0 +1,5689 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "origem": "sabatina-lula-globo-2026-08-27.wav",
+  "recorte": null,
+  "deslocamento_s": 0.0,
+  "motor": "whisper.cpp",
+  "modelo": "ggml-large-v3-turbo.bin",
+  "modelo_sha256": "1fc70f774d38eb169993ac391eea357ef47c88757ef72ee5943879b7e8e2bc69",
+  "idioma": "pt",
+  "parametros": "-t 10 -bs 5 -bo 5 -ml 0",
+  "gerado_em": "2026-09-05",
+  "revisao_humana": true,
+  "duracao_s": 2655.32,
+  "segmentos": [
+    {
+      "i": 0,
+      "inicio_s": 0.0,
+      "fim_s": 4.08,
+      "texto": "Olá, boa noite.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 1,
+      "inicio_s": 4.34,
+      "fim_s": 4.9,
+      "texto": "Boa noite.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 2,
+      "inicio_s": 5.58,
+      "fim_s": 10.66,
+      "texto": "Nós estamos entrevistando esta semana os candidatos à presidência da República nas eleições",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 3,
+      "inicio_s": 10.66,
+      "fim_s": 11.62,
+      "texto": "2026.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 4,
+      "inicio_s": 12.44,
+      "fim_s": 18.06,
+      "texto": "Foram convidados os seis candidatos mais bem colocados na pesquisa Quest de 14 de agosto.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 5,
+      "inicio_s": 18.8,
+      "fim_s": 24.84,
+      "texto": "A ordem das entrevistas foi decidida num sorteio com a presença de representantes das campanhas.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 6,
+      "inicio_s": 24.84,
+      "fim_s": 30.32,
+      "texto": "Hoje nós recebemos aqui no estúdio o candidato Luiz Inácio Lula da Silva, do PT.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 7,
+      "inicio_s": 30.9,
+      "fim_s": 36.58,
+      "texto": "Amanhã, nosso convidado é Flávio Bolsonaro, do PL, e no sábado, Augusto Cury, do Avante.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 8,
+      "inicio_s": 37.02,
+      "fim_s": 43.14,
+      "texto": "Nós já entrevistamos Romeu Zema, do Novo, Ronaldo Caiado, do PSD, e Renan Santos, do Missão.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 9,
+      "inicio_s": 43.76,
+      "fim_s": 50.0,
+      "texto": "Cada entrevista vai ter 40 minutos de duração, com dois blocos e as considerações finais",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 10,
+      "inicio_s": 50.0,
+      "fim_s": 51.04,
+      "texto": "dos candidatos.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 11,
+      "inicio_s": 51.36,
+      "fim_s": 55.82,
+      "texto": "Vamos então começar relembrando a trajetória do candidato Lula.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 12,
+      "inicio_s": 56.72,
+      "fim_s": 63.96,
+      "texto": "Aos 80 anos, Luiz Inácio Lula da Silva concorre à reeleição, pleiteando um quarto mandato.",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 13,
+      "inicio_s": 64.7,
+      "fim_s": 69.78,
+      "texto": "Lula nasceu em Caetés, no agreste de Pernambuco, na época um distrito de Garanhuns.",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 14,
+      "inicio_s": 70.7,
+      "fim_s": 78.4,
+      "texto": "Em 1969, já em São Paulo, começou a trajetória política como metalúrgico e líder de movimentos",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 15,
+      "inicio_s": 78.4,
+      "fim_s": 79.2,
+      "texto": "sindicais.",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 16,
+      "inicio_s": 79.2,
+      "fim_s": 86.66,
+      "texto": "Ele participou da fundação do Partido dos Trabalhadores no dia 10 de fevereiro de 1980.",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 17,
+      "inicio_s": 87.7,
+      "fim_s": 93.22,
+      "texto": "Foi deputado federal na Constituinte, de 88, e presidente da República pela primeira",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 18,
+      "inicio_s": 93.22,
+      "fim_s": 97.36,
+      "texto": "vez em 2002, depois de disputar a quarta eleição.",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 19,
+      "inicio_s": 98.02,
+      "fim_s": 103.68,
+      "texto": "Lula foi reeleito em 2006 e obteve o terceiro mandato em 2022.",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 20,
+      "inicio_s": 103.68,
+      "fim_s": 111.14,
+      "texto": "Nas eleições deste ano, concorre ao lado de Geraldo Alckmin, o candidato a vice pelo",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 21,
+      "inicio_s": 111.14,
+      "fim_s": 111.72,
+      "texto": "PSB.",
+      "falante": "Narração (VT)",
+      "papel": "narracao"
+    },
+    {
+      "i": 22,
+      "inicio_s": 112.72,
+      "fim_s": 114.12,
+      "texto": "Boa noite, candidato.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 23,
+      "inicio_s": 114.18,
+      "fim_s": 116.14,
+      "texto": "Muito obrigado pela presença do senhor.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 24,
+      "inicio_s": 116.46,
+      "fim_s": 117.1,
+      "texto": "Boa noite.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 25,
+      "inicio_s": 117.44,
+      "fim_s": 118.18,
+      "texto": "Boa noite, Trale.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 26,
+      "inicio_s": 118.26,
+      "fim_s": 118.94,
+      "texto": "Boa noite, Renata.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 27,
+      "inicio_s": 119.14,
+      "fim_s": 122.1,
+      "texto": "O tempo da entrevista começa a valer a partir de agora.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 28,
+      "inicio_s": 122.88,
+      "fim_s": 128.78,
+      "texto": "Candidato, três inquéritos da Polícia Federal investigam o seu filho, Fábio Luiz Lula da",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 29,
+      "inicio_s": 128.78,
+      "fim_s": 129.12,
+      "texto": "Silva.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 30,
+      "inicio_s": 129.86,
+      "fim_s": 134.18,
+      "texto": "A suspeita é de corrupção e tráfico de influência em órgãos federais.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 31,
+      "inicio_s": 134.18,
+      "fim_s": 141.96,
+      "texto": "A PF apura se ele usou o fato de ser o seu filho para conduzir negócios de interesse privado",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 32,
+      "inicio_s": 141.96,
+      "fim_s": 147.68,
+      "texto": "dentro do Palácio do Planalto, do Ministério da Saúde e também na data breve.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 33,
+      "inicio_s": 148.36,
+      "fim_s": 153.54,
+      "texto": "Os policiais federais afirmam também que ele mantinha uma sociedade oculta com outros",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 34,
+      "inicio_s": 153.54,
+      "fim_s": 158.34,
+      "texto": "dois empresários, Fernando Bittar e a lobista Roberta Luxinger.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 35,
+      "inicio_s": 158.34,
+      "fim_s": 165.7,
+      "texto": "O senhor tem dito que é seu filho que tem que provar que é inocente e que, se ele for",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 36,
+      "inicio_s": 165.7,
+      "fim_s": 168.36,
+      "texto": "culpado, não vai haver privilégios.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 37,
+      "inicio_s": 169.08,
+      "fim_s": 172.4,
+      "texto": "Mas cabe ao senhor responder pelo governo.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 38,
+      "inicio_s": 173.14,
+      "fim_s": 179.52,
+      "texto": "Pergunto, então, ao senhor, que avaliação o senhor faz dessas acusações de corrupção",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 39,
+      "inicio_s": 179.52,
+      "fim_s": 182.12,
+      "texto": "e tráfico de influência na sua gestão?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 40,
+      "inicio_s": 182.12,
+      "fim_s": 189.84,
+      "texto": "Veja, primeiro, doutor Ali, não tem nenhuma acusação, são ilações, ilações, ilações",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 41,
+      "inicio_s": 189.84,
+      "fim_s": 191.6,
+      "texto": "tiradas de telefonemas.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 42,
+      "inicio_s": 192.48,
+      "fim_s": 195.32,
+      "texto": "Eu conheço isso muito bem, porque já vivi isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 43,
+      "inicio_s": 195.84,
+      "fim_s": 196.76,
+      "texto": "O que eu tenho dito?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 44,
+      "inicio_s": 197.34,
+      "fim_s": 202.26,
+      "texto": "Eu não sou do Ministério Público, eu não sou delegado, eu não sou juiz, eu sou presidente",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 45,
+      "inicio_s": 202.26,
+      "fim_s": 203.74,
+      "texto": "da República e pai do Fábio.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 46,
+      "inicio_s": 203.74,
+      "fim_s": 210.94,
+      "texto": "Se o Fábio cometeu qualquer ilícito, qualquer ilícito, ele terá que pagar como qualquer",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 47,
+      "inicio_s": 210.94,
+      "fim_s": 212.52,
+      "texto": "cidadão brasileiro que cometeu ilícito.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 48,
+      "inicio_s": 213.22,
+      "fim_s": 217.82,
+      "texto": "Eu não vou afastar o delegado da Polícia Federal, eu não vou fazer qualquer movimento",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 49,
+      "inicio_s": 217.82,
+      "fim_s": 221.94,
+      "texto": "para que meu filho seja comertado se ele tiver eu, como outros já fizeram.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 50,
+      "inicio_s": 222.74,
+      "fim_s": 227.78,
+      "texto": "Ele sabe o que eu passei, sabe o que a minha filha Maria passou, ele sabe que a Marisa morreu",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 51,
+      "inicio_s": 227.78,
+      "fim_s": 231.52,
+      "texto": "por conta da falsa acusação que foi feita na Lava Jato.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 52,
+      "inicio_s": 231.74,
+      "fim_s": 234.62,
+      "texto": "Portanto, ele tem obrigação de não ter feito erro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 53,
+      "inicio_s": 235.26,
+      "fim_s": 239.54,
+      "texto": "Eu estou muito tranquilo com o presidente da República, tudo o que for preciso fazer",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 54,
+      "inicio_s": 239.54,
+      "fim_s": 245.66,
+      "texto": "no âmbito da Polícia e da Justiça para apurar será dado toda e qualquer garantia.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 55,
+      "inicio_s": 246.1,
+      "fim_s": 250.18,
+      "texto": "Esse é o comportamento do presidente da República, não é do pai do Fábio, é do presidente da",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 56,
+      "inicio_s": 250.18,
+      "fim_s": 255.26,
+      "texto": "República que tem que olhar para 215 milhões de brasileiros em igualdade de condições.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 57,
+      "inicio_s": 255.54,
+      "fim_s": 260.24,
+      "texto": "Mas, candidato, e as mensagens obtidas pela Polícia Federal no celular dessa lobista",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 58,
+      "inicio_s": 260.24,
+      "fim_s": 261.18,
+      "texto": "Roberta Lucicinho?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 59,
+      "inicio_s": 261.18,
+      "fim_s": 265.72,
+      "texto": "Na verdade, numa das conversas, candidato, ela afirma que seu filho entra em campo quando",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 60,
+      "inicio_s": 265.72,
+      "fim_s": 268.56,
+      "texto": "precisa e que os dois eram uma coisa só.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 61,
+      "inicio_s": 269.28,
+      "fim_s": 271.32,
+      "texto": "E ela diz, abre aspas, eu sou o Fábio.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 62,
+      "inicio_s": 271.92,
+      "fim_s": 276.26,
+      "texto": "Numa outra mensagem, ela afirma, eu trabalho a política via palácio.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 63,
+      "inicio_s": 276.84,
+      "fim_s": 278.86,
+      "texto": "Eu sou boa de costura política.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 64,
+      "inicio_s": 279.28,
+      "fim_s": 283.82,
+      "texto": "Os brasileiros não merecem algum tipo de explicação mais robusta diante de tudo isso",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 65,
+      "inicio_s": 283.82,
+      "fim_s": 286.2,
+      "texto": "que a Polícia Federal levantou até agora?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 66,
+      "inicio_s": 286.2,
+      "fim_s": 290.74,
+      "texto": "Entrada, você é jornalista e você conhece isso melhor do que ninguém.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 67,
+      "inicio_s": 290.74,
+      "fim_s": 297.22,
+      "texto": "Eu fui vítima disso na Lava Jato, da maior mentira montada neste país para evitar que eu fosse",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 68,
+      "inicio_s": 297.22,
+      "fim_s": 298.12,
+      "texto": "presidente da República.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 69,
+      "inicio_s": 298.12,
+      "fim_s": 302.66,
+      "texto": "Eu poderia ter feito qualquer coisa para não emprestar depoimento.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 70,
+      "inicio_s": 302.66,
+      "fim_s": 309.2,
+      "texto": "Fiquei quieto e oitenta dinheiro na cadeia porque somente eu sabia a verdade.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 71,
+      "inicio_s": 309.2,
+      "fim_s": 315.3,
+      "texto": "E eu queria provar que a imprensa estava divulgando coisas mentirosas, que o Moro tinha mentido",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 72,
+      "inicio_s": 315.3,
+      "fim_s": 317.2,
+      "texto": "para a imprensa, que o Deleu tinha mentido para a imprensa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 73,
+      "inicio_s": 317.2,
+      "fim_s": 321.74,
+      "texto": "Com o meu filho vai acontecer a mesma coisa, só ele sabe a verdade.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 74,
+      "inicio_s": 321.74,
+      "fim_s": 323.74,
+      "texto": "Se ele fez erro, ele pagará.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 75,
+      "inicio_s": 323.74,
+      "fim_s": 325.28,
+      "texto": "Não existe outro jeito.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 76,
+      "inicio_s": 325.28,
+      "fim_s": 329.66,
+      "texto": "Ele não será protegido por ser meu filho, por ser meu irmão, nada.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 77,
+      "inicio_s": 329.66,
+      "fim_s": 332.66,
+      "texto": "Portanto, ele sabe o que ele tem que fazer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 78,
+      "inicio_s": 332.66,
+      "fim_s": 337.4,
+      "texto": "Ele tem que provar a inocência dele e eu tenho certeza que ele vai ser inocente.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 79,
+      "inicio_s": 337.4,
+      "fim_s": 340.28,
+      "texto": "Vamos esperar o tempo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 80,
+      "inicio_s": 340.28,
+      "fim_s": 345.88,
+      "texto": "Não haverá da parte da Presidenta da República um milímetro de movimento para proteger o",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 81,
+      "inicio_s": 345.88,
+      "fim_s": 346.26,
+      "texto": "meu filho.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 82,
+      "inicio_s": 346.9,
+      "fim_s": 351.2,
+      "texto": "A acusação está feita, a Polícia Federal está investigando, a Polícia Federal está",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 83,
+      "inicio_s": 351.2,
+      "fim_s": 356.2,
+      "texto": "vazando as coisas para a imprensa e eu espero que aconteça o julgamento.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 84,
+      "inicio_s": 356.66,
+      "fim_s": 360.7,
+      "texto": "Se tiver que vir prestar depoimento, ele vai prestar depoimento, vai participar dos inquéritos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 85,
+      "inicio_s": 361.18,
+      "fim_s": 362.82,
+      "texto": "Se ele for culpado, pagará o preço.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 86,
+      "inicio_s": 363.08,
+      "fim_s": 365.02,
+      "texto": "Se não for, ele será inocentado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 87,
+      "inicio_s": 365.32,
+      "fim_s": 369.26,
+      "texto": "Candidato, num desses inquéritos, a Polícia Federal, ela traz indícios de que seu filho",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 88,
+      "inicio_s": 369.26,
+      "fim_s": 375.1,
+      "texto": "teria atuado junto ao Palácio do Planalto para agendar uma reunião entre essa lobista",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 89,
+      "inicio_s": 375.1,
+      "fim_s": 379.6,
+      "texto": "e o então secretário executivo do Ministério da Saúde, conhecido como Berger.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 90,
+      "inicio_s": 380.3,
+      "fim_s": 385.7,
+      "texto": "E aí, numa dessas mensagens, a lobista avisa seu filho que chegou a Brasília e ele responde",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 91,
+      "inicio_s": 385.7,
+      "fim_s": 387.88,
+      "texto": "que ótimo, vai com tudo.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 92,
+      "inicio_s": 388.84,
+      "fim_s": 391.24,
+      "texto": "É uma relação adequada, candidato?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 93,
+      "inicio_s": 391.26,
+      "fim_s": 396.52,
+      "texto": "Você acha que se eu pegasse o seu celular e fosse investigar tudo o que você falou, só",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 94,
+      "inicio_s": 396.52,
+      "fim_s": 398.4,
+      "texto": "tinha coisa certa, coisa correta?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 95,
+      "inicio_s": 398.4,
+      "fim_s": 400.76,
+      "texto": "O que é que uma pilantra pode fazer no telefone?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 96,
+      "inicio_s": 400.86,
+      "fim_s": 402.74,
+      "texto": "O que é que um cara qualquer pode fazer no telefone?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 97,
+      "inicio_s": 403.4,
+      "fim_s": 408.44,
+      "texto": "Eu estou dizendo para você que o fato de ter pego as conversas no telefone não justifica",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 98,
+      "inicio_s": 408.44,
+      "fim_s": 409.98,
+      "texto": "absolutamente nada.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 99,
+      "inicio_s": 411.26,
+      "fim_s": 414.12,
+      "texto": "Até agora não existe uma prova de um centavo público.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 100,
+      "inicio_s": 414.66,
+      "fim_s": 419.24,
+      "texto": "Até agora não existe uma prova de uma conversa do meu filho com qualquer ministro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 101,
+      "inicio_s": 419.24,
+      "fim_s": 421.18,
+      "texto": "E eu tenho certeza que não fez.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 102,
+      "inicio_s": 421.18,
+      "fim_s": 426.24,
+      "texto": "Agora, uma coisa eu vou lhe dizer: meu filho vai ser investigado, como qualquer cidadão",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 103,
+      "inicio_s": 426.24,
+      "fim_s": 427.24,
+      "texto": "brasileiro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 104,
+      "inicio_s": 427.24,
+      "fim_s": 428.24,
+      "texto": "Agora, candidato, se falou...",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 105,
+      "inicio_s": 428.24,
+      "fim_s": 430.28,
+      "texto": "Eu estou só na expectativa de que terminar esse inquérito.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 106,
+      "inicio_s": 430.28,
+      "fim_s": 431.28,
+      "texto": "Porque o que acontece?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 107,
+      "inicio_s": 431.28,
+      "fim_s": 432.28,
+      "texto": "Nós...",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 108,
+      "inicio_s": 432.28,
+      "fim_s": 437.28,
+      "texto": "Ele está sendo acusado de uma acusação, de um crime que nós descobrimos na Previdência",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 109,
+      "inicio_s": 437.28,
+      "fim_s": 442.32,
+      "texto": "Social, criado em 2019, a quadrilha da exploração da Previdência Social...",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 110,
+      "inicio_s": 442.32,
+      "fim_s": 444.32,
+      "texto": "Nós vamos tocar nesse assunto muito em breve.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 111,
+      "inicio_s": 444.32,
+      "fim_s": 445.32,
+      "texto": "Nós...",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 112,
+      "inicio_s": 445.32,
+      "fim_s": 447.32,
+      "texto": "Eu vou antecipar para você.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 113,
+      "inicio_s": 447.32,
+      "fim_s": 457.4,
+      "texto": "Nós pagamos R$ 3,5 bilhões a R$ 5 milhões de pessoas que foram assaltadas e já arrecadamos",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 114,
+      "inicio_s": 457.4,
+      "fim_s": 462.32,
+      "texto": "quase que R$ 100 bilhões das coisas que nós tomamos das quadrilhas que estavam montadas.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 115,
+      "inicio_s": 462.32,
+      "fim_s": 465.32,
+      "texto": "E, portanto, meu cara, é o seguinte: se tem um brasileiro que quer que as coisas estejam",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 116,
+      "inicio_s": 465.32,
+      "fim_s": 467.32,
+      "texto": "investigadas, sou eu.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 117,
+      "inicio_s": 467.32,
+      "fim_s": 472.32,
+      "texto": "Agora, o senhor se referiu há pouco sobre essa lobista, e eu gostaria justamente de saber,",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 118,
+      "inicio_s": 472.32,
+      "fim_s": 477.32,
+      "texto": "porque foi outra mensagem obtida pela Polícia Federal, que diz que essa lobista, Roberta",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 119,
+      "inicio_s": 477.32,
+      "fim_s": 483.32,
+      "texto": "Luxinger, afirma que o senhor teria oferecido um cargo a ela e dito, que o senhor teria dito",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 120,
+      "inicio_s": 483.32,
+      "fim_s": 485.32,
+      "texto": "para ela: \"Escolha onde você quer ficar\".",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 121,
+      "inicio_s": 485.32,
+      "fim_s": 486.32,
+      "texto": "Não, não foi isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 122,
+      "inicio_s": 486.32,
+      "fim_s": 489.32,
+      "texto": "Eu pergunto ao senhor se isso aconteceu e se o senhor já recebeu esse empresário",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 123,
+      "inicio_s": 489.32,
+      "fim_s": 490.32,
+      "texto": "no Palácio.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 124,
+      "inicio_s": 490.32,
+      "fim_s": 494.32,
+      "texto": "Faltou ela dizer o seguinte, que eu ofereci para ela o Ministério da Defesa, o Comando",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 125,
+      "inicio_s": 494.32,
+      "fim_s": 496.32,
+      "texto": "da Marinha, da Aeronáutica da Maratinha.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 126,
+      "inicio_s": 496.32,
+      "fim_s": 497.32,
+      "texto": "É de uma imbecilidade.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 127,
+      "inicio_s": 497.32,
+      "fim_s": 498.32,
+      "texto": "Isso aconteceu.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 128,
+      "inicio_s": 498.32,
+      "fim_s": 500.32,
+      "texto": "Eu não conheço essa moça.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 129,
+      "inicio_s": 500.32,
+      "fim_s": 502.32,
+      "texto": "Nunca vi essa moça na minha vida.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 130,
+      "inicio_s": 502.32,
+      "fim_s": 504.32,
+      "texto": "Nunca conversei com essa moça.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 131,
+      "inicio_s": 504.32,
+      "fim_s": 507.32,
+      "texto": "Ela nunca esteve próximo de mim.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 132,
+      "inicio_s": 507.32,
+      "fim_s": 514.32,
+      "texto": "É o seguinte: malandro, sabe, é igual em qualquer lugar do mundo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 133,
+      "inicio_s": 514.32,
+      "fim_s": 517.32,
+      "texto": "Convertas por telefone, eu estou acompanhando.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 134,
+      "inicio_s": 517.32,
+      "fim_s": 522.32,
+      "texto": "Um caso mais grave do que esse é o do Banco Master, que está silenciado.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 135,
+      "inicio_s": 522.32,
+      "fim_s": 526.32,
+      "texto": "Nós vamos também tratar desse assunto, mas antes, eu gostaria de saber a sua avaliação.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 136,
+      "inicio_s": 526.32,
+      "fim_s": 532.32,
+      "texto": "É só importante tomar cuidado, que eu não sou nem procurador, nem juiz, nem policial.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 137,
+      "inicio_s": 532.32,
+      "fim_s": 537.32,
+      "texto": "A investigação da Polícia Federal envolve também um outro nome muito próximo ao senhor, que",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 138,
+      "inicio_s": 537.32,
+      "fim_s": 543.32,
+      "texto": "é o seu ex-chefe de gabinete, o Marco Aurélio Santana Ribeiro, conhecido como Marcola.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 139,
+      "inicio_s": 543.32,
+      "fim_s": 548.32,
+      "texto": "A Polícia Federal diz que foi ele quem ajudou a agendar essa reunião dessa lobista no Ministério",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 140,
+      "inicio_s": 548.32,
+      "fim_s": 553.32,
+      "texto": "da Saúde e chegou até a receber a minuta de um contrato que favoreceria a empresa ligada",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 141,
+      "inicio_s": 553.32,
+      "fim_s": 558.32,
+      "texto": "ao careca do INSS, que é considerado o pivô do escândalo do INSS.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 142,
+      "inicio_s": 558.32,
+      "fim_s": 563.32,
+      "texto": "A minha pergunta ao senhor é a seguinte: o senhor não considera que esse tipo de relação",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 143,
+      "inicio_s": 563.32,
+      "fim_s": 565.32,
+      "texto": "leva suspeitas para dentro do galácio?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 144,
+      "inicio_s": 565.32,
+      "fim_s": 566.32,
+      "texto": "Leva.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 145,
+      "inicio_s": 566.32,
+      "fim_s": 567.32,
+      "texto": "Lógico que leva.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 146,
+      "inicio_s": 567.32,
+      "fim_s": 572.32,
+      "texto": "Leva suspeita e leva desconfiança para mim, porque o Marco Aurélio é meu chefe de",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 147,
+      "inicio_s": 572.32,
+      "fim_s": 573.32,
+      "texto": "gabinete.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 148,
+      "inicio_s": 573.32,
+      "fim_s": 575.32,
+      "texto": "Agora, qual é o papel de chefe de gabinete?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 149,
+      "inicio_s": 575.32,
+      "fim_s": 581.32,
+      "texto": "As pessoas sabem que ela é lobista, agora que a imprensa está falando que ela é lobista",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 150,
+      "inicio_s": 581.32,
+      "fim_s": 583.32,
+      "texto": "e que ela foi desendada.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 151,
+      "inicio_s": 583.32,
+      "fim_s": 587.32,
+      "texto": "Mas, do lado concreto, é que o papel dele é que qualquer pessoa que chegar na Presidenta",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 152,
+      "inicio_s": 587.32,
+      "fim_s": 591.32,
+      "texto": "da República, conseguir uma audiência com ele para pedir uma audiência com ninguém,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 153,
+      "inicio_s": 591.32,
+      "fim_s": 594.32,
+      "texto": "o papel dele é encaminhar para o Ministério.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 154,
+      "inicio_s": 595.32,
+      "fim_s": 599.32,
+      "texto": "Agora, o que nós precisamos saber é o seguinte: essa mulher conseguiu liberar o dinheiro que",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 155,
+      "inicio_s": 599.32,
+      "fim_s": 600.32,
+      "texto": "ela disse que estava atrás.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 156,
+      "inicio_s": 600.32,
+      "fim_s": 602.32,
+      "texto": "É, mas não foi só isso.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 157,
+      "inicio_s": 602.32,
+      "fim_s": 603.32,
+      "texto": "Ela conseguiu liberar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 158,
+      "inicio_s": 603.32,
+      "fim_s": 606.32,
+      "texto": "Ela conseguiu liberar o dinheiro.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 159,
+      "inicio_s": 606.32,
+      "fim_s": 609.32,
+      "texto": "Tem prova de que tem dinheiro público, porque aí é que está o crime.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 160,
+      "inicio_s": 609.32,
+      "fim_s": 610.32,
+      "texto": "Aí é que está o crime.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 161,
+      "inicio_s": 610.32,
+      "fim_s": 613.32,
+      "texto": "Por isso é que eu não sou precipitado, Renata.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 162,
+      "inicio_s": 613.32,
+      "fim_s": 618.32,
+      "texto": "Eu fui acusado de ter um apartamento que eu não tinha, eu fui acusado de ter uma chácara",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 163,
+      "inicio_s": 618.32,
+      "fim_s": 623.32,
+      "texto": "que eu não tinha e só foi provada a inocência quando o processo foi anulado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 164,
+      "inicio_s": 623.32,
+      "fim_s": 626.32,
+      "texto": "Portanto, como eu não sou juiz, eu vou muito devagar com isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 165,
+      "inicio_s": 626.32,
+      "fim_s": 632.32,
+      "texto": "Eu não gosto de fazer pirotecnia com acusações sem que você termine o inquérito.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 166,
+      "inicio_s": 632.32,
+      "fim_s": 638.32,
+      "texto": "Todos eles, todos eles que foram citados, todos eles que participaram, o caminho é um só.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 167,
+      "inicio_s": 638.32,
+      "fim_s": 644.32,
+      "texto": "É o caminho da apuração, da investigação ou da inocência ou da condenação se tiver cometido crime.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 168,
+      "inicio_s": 644.32,
+      "fim_s": 647.32,
+      "texto": "Sobre a apuração, a Polícia Federal apurou mais.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 169,
+      "inicio_s": 647.32,
+      "fim_s": 660.32,
+      "texto": "Ela disse também que essa lobista não só teria, por intermédio do seu ex-chefe de gabinete, conseguido a tal reunião, mas ela também pagou despesas pessoais do seu então chefe de gabinete.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 170,
+      "inicio_s": 660.32,
+      "fim_s": 664.32,
+      "texto": "Ele ganhou boletos, parcelas de financiamento de um carro, faturas de cartão de crédito.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 171,
+      "inicio_s": 664.32,
+      "fim_s": 670.32,
+      "texto": "Ele ganhou ainda joias, pediu a ela um quadro no valor de 100 mil euros.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 172,
+      "inicio_s": 670.32,
+      "fim_s": 676.32,
+      "texto": "O Marcola disse que, de fato, foi um empréstimo de 249 mil reais que ele devolveu esse dinheiro.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 173,
+      "inicio_s": 676.32,
+      "fim_s": 682.32,
+      "texto": "Eu pergunto ao senhor: é adequado o chefe de gabinete e a presidência da república ganhar",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 174,
+      "inicio_s": 682.32,
+      "fim_s": 687.32,
+      "texto": "joias e ter contas pagas por uma lobista com interesse em contratos do governo?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 175,
+      "inicio_s": 687.32,
+      "fim_s": 691.32,
+      "texto": "O senhor sabia dessa relação que se passava na antessala do seu gabinete?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 176,
+      "inicio_s": 691.32,
+      "fim_s": 692.32,
+      "texto": "Deixa eu contar uma coisa para você.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 177,
+      "inicio_s": 692.32,
+      "fim_s": 693.32,
+      "texto": "Por favor.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 178,
+      "inicio_s": 693.32,
+      "fim_s": 694.32,
+      "texto": "Não é adequado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 179,
+      "inicio_s": 694.32,
+      "fim_s": 695.32,
+      "texto": "É totalmente errado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 180,
+      "inicio_s": 695.32,
+      "fim_s": 700.32,
+      "texto": "E o Marcola sabe do erro que ele cometeu, porque não é esse o papel do chefe de gabinete.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 181,
+      "inicio_s": 700.32,
+      "fim_s": 701.32,
+      "texto": "Ele sabe disso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 182,
+      "inicio_s": 701.32,
+      "fim_s": 704.32,
+      "texto": "Ele sabe da importância de ter chefe de gabinete.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 183,
+      "inicio_s": 704.32,
+      "fim_s": 709.32,
+      "texto": "Agora, ele disse que tomou 249 mil reais de emprestado, é o que está na imprensa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 184,
+      "inicio_s": 709.32,
+      "fim_s": 712.32,
+      "texto": "Só ele sabe a verdade, se ele tomou ou não.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 185,
+      "inicio_s": 712.32,
+      "fim_s": 720.32,
+      "texto": "Quando tiver uma acariação entre os dois, é que vai saber se foi empréstimo ou não.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 186,
+      "inicio_s": 720.32,
+      "fim_s": 723.32,
+      "texto": "Eu, por enquanto, acredito na versão dele de que foi empréstimo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 187,
+      "inicio_s": 723.32,
+      "fim_s": 725.32,
+      "texto": "Acredito na versão dele.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 188,
+      "inicio_s": 725.32,
+      "fim_s": 727.32,
+      "texto": "Por que ele não pediu empréstimo a um banco, por exemplo?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 189,
+      "inicio_s": 727.32,
+      "fim_s": 728.32,
+      "texto": "Por que ele não falou comigo?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 190,
+      "inicio_s": 728.32,
+      "fim_s": 730.32,
+      "texto": "Eu disse para ele: cara, eu sou quase que nem seu pai.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 191,
+      "inicio_s": 730.32,
+      "fim_s": 732.32,
+      "texto": "Por que você não falou comigo?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 192,
+      "inicio_s": 732.32,
+      "fim_s": 736.32,
+      "texto": "Por que você não falou comigo do problema que você estava tendo?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 193,
+      "inicio_s": 736.32,
+      "fim_s": 737.32,
+      "texto": "Candidato.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 194,
+      "inicio_s": 737.32,
+      "fim_s": 740.32,
+      "texto": "Agora, é o seguinte: ele cometeu o erro, ele pagará pelo erro que ele cometeu.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 195,
+      "inicio_s": 740.32,
+      "fim_s": 742.32,
+      "texto": "É isso que vai acontecer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 196,
+      "inicio_s": 742.32,
+      "fim_s": 748.32,
+      "texto": "Era uma pessoa da minha total confiança, trabalha comigo há sete anos, todo o tempo que eu",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 197,
+      "inicio_s": 748.32,
+      "fim_s": 751.32,
+      "texto": "fiquei preso em Brasil e no Paraná.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 198,
+      "inicio_s": 751.32,
+      "fim_s": 753.32,
+      "texto": "Ele ficou o tempo inteiro lá.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 199,
+      "inicio_s": 753.32,
+      "fim_s": 756.32,
+      "texto": "Agora, cometeu o erro, pago o preço do erro cometido.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 200,
+      "inicio_s": 756.32,
+      "fim_s": 757.32,
+      "texto": "Candidato.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 201,
+      "inicio_s": 757.32,
+      "fim_s": 758.32,
+      "texto": "É isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 202,
+      "inicio_s": 758.32,
+      "fim_s": 760.32,
+      "texto": "E eu espero que a polícia cumpra com a sua função.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 203,
+      "inicio_s": 760.32,
+      "fim_s": 764.32,
+      "texto": "Eu espero que o Ministério Público cumpra com a sua função e o juiz faça o julgamento",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 204,
+      "inicio_s": 764.32,
+      "fim_s": 767.32,
+      "texto": "que for necessário fazer, de acordo com os autos do processo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 205,
+      "inicio_s": 767.32,
+      "fim_s": 770.32,
+      "texto": "O que eu não me deixo impactar é por ilhações.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 206,
+      "inicio_s": 770.32,
+      "fim_s": 775.32,
+      "texto": "Eu conheço muito, muito, e já fui vítima muito disso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 207,
+      "inicio_s": 775.32,
+      "fim_s": 778.32,
+      "texto": "Então, eu estou muito tranquilo com relação a isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 208,
+      "inicio_s": 778.32,
+      "fim_s": 780.32,
+      "texto": "Muito deprimido e muito chateado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 209,
+      "inicio_s": 780.32,
+      "fim_s": 784.32,
+      "texto": "Porque o meu filho sabe que não poderia cometer nenhum erro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 210,
+      "inicio_s": 784.32,
+      "fim_s": 785.32,
+      "texto": "Se cometeu, vai pagar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 211,
+      "inicio_s": 785.32,
+      "fim_s": 788.32,
+      "texto": "O Marcola sabe que não poderia cometer nenhum erro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 212,
+      "inicio_s": 788.32,
+      "fim_s": 789.32,
+      "texto": "Se cometeu, vai pagar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 213,
+      "inicio_s": 789.32,
+      "fim_s": 791.32,
+      "texto": "É assim que funciona.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 214,
+      "inicio_s": 791.32,
+      "fim_s": 795.32,
+      "texto": "Candidato, o senhor há pouco citou o escândalo do INSS.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 215,
+      "inicio_s": 795.32,
+      "fim_s": 798.32,
+      "texto": "Então, nós vamos entrar agora nesse assunto aqui com o senhor.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 216,
+      "inicio_s": 798.32,
+      "fim_s": 802.32,
+      "texto": "Nesse escândalo, para a gente refrescar a memória, mais de 4 milhões de aposentados",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 217,
+      "inicio_s": 802.32,
+      "fim_s": 806.32,
+      "texto": "e pensionistas brasileiros foram vítimas desses descontos ilegais.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 218,
+      "inicio_s": 806.32,
+      "fim_s": 810.32,
+      "texto": "As fraudes aconteceram entre 2019 e 2024.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 219,
+      "inicio_s": 810.32,
+      "fim_s": 813.32,
+      "texto": "Podem ter passado de 6 bilhões de reais.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 220,
+      "inicio_s": 813.32,
+      "fim_s": 819.32,
+      "texto": "E as investigações revelaram que mais de 60% desses descontos sob suspeita",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 221,
+      "inicio_s": 819.32,
+      "fim_s": 821.32,
+      "texto": "aconteceram no seu governo.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 222,
+      "inicio_s": 821.32,
+      "fim_s": 826.32,
+      "texto": "O presidente do INSS no seu governo, ele está preso preventivamente.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 223,
+      "inicio_s": 826.32,
+      "fim_s": 832.32,
+      "texto": "O Alessandro Stefanuto, ele é investigado por corrupção, organização criminosa,",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 224,
+      "inicio_s": 832.32,
+      "fim_s": 834.32,
+      "texto": "lavagem de dinheiro, entre outros crimes.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 225,
+      "inicio_s": 834.32,
+      "fim_s": 840.32,
+      "texto": "Que explicação que o senhor dá hoje a esses aposentados e pensionistas?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 226,
+      "inicio_s": 840.32,
+      "fim_s": 843.32,
+      "texto": "Nós já demos a explicação.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 227,
+      "inicio_s": 843.32,
+      "fim_s": 848.32,
+      "texto": "Primeiro que nós já devolvemos 3 milhões e meio de reais.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 228,
+      "inicio_s": 848.32,
+      "fim_s": 850.32,
+      "texto": "3 milhões e meio de reais.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 229,
+      "inicio_s": 850.32,
+      "fim_s": 854.32,
+      "texto": "Não tem um aposentado que foi roubado e que não foi devolvido o dinheiro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 230,
+      "inicio_s": 854.32,
+      "fim_s": 859.32,
+      "texto": "E esse dinheiro vai ser ressarcido pelos bens que nós aprendemos da quadrilha.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 231,
+      "inicio_s": 859.32,
+      "fim_s": 865.32,
+      "texto": "Uma quadrilha que foi montada em 2019, inclusive com a participação do ministro da Previdência",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 232,
+      "inicio_s": 865.32,
+      "fim_s": 871.32,
+      "texto": "da Previdência daquela época, e nós passamos dois anos investigando, tanto a CGU quanto",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 233,
+      "inicio_s": 871.32,
+      "fim_s": 873.32,
+      "texto": "a Política Federal.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 234,
+      "inicio_s": 873.32,
+      "fim_s": 877.32,
+      "texto": "Investigando, porque se a gente faz a denúncia antes da gente ter o processo como um todo,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 235,
+      "inicio_s": 877.32,
+      "fim_s": 880.32,
+      "texto": "a gente atrapalharia facilitando os bandidos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 236,
+      "inicio_s": 880.32,
+      "fim_s": 884.32,
+      "texto": "E nós fizemos questão de colocar na cadeia as pessoas.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 237,
+      "inicio_s": 884.32,
+      "fim_s": 886.32,
+      "texto": "Fizemos questão de pagar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 238,
+      "inicio_s": 886.32,
+      "fim_s": 891.32,
+      "texto": "Fizemos questão de pagar e vamos fazer questão de ressarcir os cofes públicos com os bens",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 239,
+      "inicio_s": 891.32,
+      "fim_s": 892.32,
+      "texto": "que nós aprendemos deles.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 240,
+      "inicio_s": 892.32,
+      "fim_s": 899.32,
+      "texto": "Agora, fato é que no segundo ano do seu mandato, a quantidade de descontos suspeitos de legalidade",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 241,
+      "inicio_s": 899.32,
+      "fim_s": 902.32,
+      "texto": "mais do que triplicou em relação a 2022.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 242,
+      "inicio_s": 902.32,
+      "fim_s": 907.32,
+      "texto": "E o seu então ministro da Previdência, Carlos Lupe, foi alertado de que havia indícios",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 243,
+      "inicio_s": 907.32,
+      "fim_s": 908.32,
+      "texto": "de irregularidades.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 244,
+      "inicio_s": 908.32,
+      "fim_s": 914.32,
+      "texto": "Ele soube disso em 2023, ou seja, dois anos antes da operação da Polícia Federal revelar",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 245,
+      "inicio_s": 914.32,
+      "fim_s": 915.32,
+      "texto": "o escândalo.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 246,
+      "inicio_s": 915.32,
+      "fim_s": 921.32,
+      "texto": "O Lupe teve tempo para agir, mas ele só suspendeu os contratos um ano depois de saber,",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 247,
+      "inicio_s": 921.32,
+      "fim_s": 923.32,
+      "texto": "de tomar conhecimento dos fatos.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 248,
+      "inicio_s": 923.32,
+      "fim_s": 925.32,
+      "texto": "Que explicações ele deu para o senhor?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 249,
+      "inicio_s": 925.32,
+      "fim_s": 928.32,
+      "texto": "Renata, nem os contratos foram suspensos pelo Lupe.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 250,
+      "inicio_s": 928.32,
+      "fim_s": 932.32,
+      "texto": "Nós fomos a fundo para investigar porque a gente não queria que a Aquarilha se desmontasse.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 251,
+      "inicio_s": 932.32,
+      "fim_s": 933.32,
+      "texto": "Mas demorou.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 252,
+      "inicio_s": 933.32,
+      "fim_s": 934.32,
+      "texto": "Demorou.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 253,
+      "inicio_s": 934.32,
+      "fim_s": 936.32,
+      "texto": "Demorou porque a investigação demora.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 254,
+      "inicio_s": 936.32,
+      "fim_s": 937.32,
+      "texto": "Que explicação?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 255,
+      "inicio_s": 937.32,
+      "fim_s": 939.32,
+      "texto": "O senhor ficou satisfeito com a explicação?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 256,
+      "inicio_s": 939.32,
+      "fim_s": 942.32,
+      "texto": "A explicação é que a Polícia Federal trabalhou com muita seriedade.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 257,
+      "inicio_s": 942.32,
+      "fim_s": 946.32,
+      "texto": "A CGU trabalhou com muita seriedade para investigar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 258,
+      "inicio_s": 946.32,
+      "fim_s": 948.32,
+      "texto": "Levou dois anos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 259,
+      "inicio_s": 948.32,
+      "fim_s": 951.32,
+      "texto": "O dado concreto é que a Aquarilha foi montada em 2019.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 260,
+      "inicio_s": 951.32,
+      "fim_s": 955.32,
+      "texto": "Foi presa por nós, descoberta por nós.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 261,
+      "inicio_s": 955.32,
+      "fim_s": 962.32,
+      "texto": "Os previdenciários receberam o seu dinheiro de volta e nós vamos receber o que a Previdência",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 262,
+      "inicio_s": 962.32,
+      "fim_s": 963.32,
+      "texto": "pagou para a Aquarilha.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 263,
+      "inicio_s": 963.32,
+      "fim_s": 964.32,
+      "texto": "É simples.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 264,
+      "inicio_s": 964.32,
+      "fim_s": 966.32,
+      "texto": "O senhor pediu explicações ao Lupe?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 265,
+      "inicio_s": 966.32,
+      "fim_s": 967.32,
+      "texto": "Não, pediu explicação.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 266,
+      "inicio_s": 967.32,
+      "fim_s": 968.32,
+      "texto": "Ele saiu do governo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 267,
+      "inicio_s": 968.32,
+      "fim_s": 969.32,
+      "texto": "Saiu do governo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 268,
+      "inicio_s": 969.32,
+      "fim_s": 973.32,
+      "texto": "Ninguém nunca reconhece, ninguém nunca reconhece que tinha corrupção.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 269,
+      "inicio_s": 973.32,
+      "fim_s": 976.32,
+      "texto": "Precisou a CGU e a Polícia Federal investigar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 270,
+      "inicio_s": 976.32,
+      "fim_s": 978.32,
+      "texto": "E é assim que funciona a realidade.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 271,
+      "inicio_s": 978.32,
+      "fim_s": 980.32,
+      "texto": "Não tem outro jeito de funcionar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 272,
+      "inicio_s": 980.32,
+      "fim_s": 983.32,
+      "texto": "Tem coisas que passam 80 anos para se apurar e não se apura.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 273,
+      "inicio_s": 983.32,
+      "fim_s": 990.32,
+      "texto": "No nosso caso, no nosso caso, a Polícia Federal, a CGU, a AGU trabalham para que a gente coloque",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 274,
+      "inicio_s": 990.32,
+      "fim_s": 994.32,
+      "texto": "de pé toda e qualquer denúncia que aparecer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 275,
+      "inicio_s": 994.32,
+      "fim_s": 997.32,
+      "texto": "O senhor disse que pediu explicações ao Lupe e que ele saiu do governo.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 276,
+      "inicio_s": 997.32,
+      "fim_s": 1001.32,
+      "texto": "Mas, recentemente, o senhor subiu num palanque com o Carlos Lupe.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 277,
+      "inicio_s": 1001.32,
+      "fim_s": 1003.32,
+      "texto": "Fez elogios a ele, recebeu apoio dele.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 278,
+      "inicio_s": 1003.32,
+      "fim_s": 1008.32,
+      "texto": "Então, pergunto ao senhor: o senhor não vê problema em pedir voto ao lado de alguém",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 279,
+      "inicio_s": 1008.32,
+      "fim_s": 1013.32,
+      "texto": "que demorou para agir, para barrar os desvios e foi o responsável pela indicação do presidente",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 280,
+      "inicio_s": 1013.32,
+      "fim_s": 1014.32,
+      "texto": "do INSS, que está preso?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 281,
+      "inicio_s": 1014.32,
+      "fim_s": 1017.32,
+      "texto": "Deixa eu lhe falar uma coisa: ele não está condenado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 282,
+      "inicio_s": 1017.32,
+      "fim_s": 1019.32,
+      "texto": "Ele é um cidadão livre.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 283,
+      "inicio_s": 1019.32,
+      "fim_s": 1025.32,
+      "texto": "Você acha que você pode deixar de conversar com uma pessoa que é sua amiga, que foi,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 284,
+      "inicio_s": 1025.32,
+      "fim_s": 1026.32,
+      "texto": "cometeu um erro?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 285,
+      "inicio_s": 1026.32,
+      "fim_s": 1028.32,
+      "texto": "Ser pessoa está em liberdade e não está condenado?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 286,
+      "inicio_s": 1028.32,
+      "fim_s": 1029.32,
+      "texto": "Não é conversativo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 287,
+      "inicio_s": 1029.32,
+      "fim_s": 1030.32,
+      "texto": "Você acha que é assim?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 288,
+      "inicio_s": 1030.32,
+      "fim_s": 1031.32,
+      "texto": "Fazer elogios...",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 289,
+      "inicio_s": 1031.32,
+      "fim_s": 1032.32,
+      "texto": "Não, não elogios não.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 290,
+      "inicio_s": 1032.32,
+      "fim_s": 1035.32,
+      "texto": "Deixa eu lhe contar uma coisa: a relação política não tem nada a ver com a relação",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 291,
+      "inicio_s": 1035.32,
+      "fim_s": 1036.32,
+      "texto": "administrativa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 292,
+      "inicio_s": 1036.32,
+      "fim_s": 1041.32,
+      "texto": "Se ele tivesse cometido o erro e a Polícia Federal já tivesse acusado, ele já tivesse",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 293,
+      "inicio_s": 1041.32,
+      "fim_s": 1044.32,
+      "texto": "sido condenado, era uma coisa: ele não está.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 294,
+      "inicio_s": 1044.32,
+      "fim_s": 1048.32,
+      "texto": "Então, vamos aguardar, Renata, vamos aguardar a investigação.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 295,
+      "inicio_s": 1048.32,
+      "fim_s": 1052.32,
+      "texto": "Eu sei o que é isso, Renata, porque eu já passei por isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 296,
+      "inicio_s": 1052.32,
+      "fim_s": 1058.32,
+      "texto": "Você sabe, como jornalista, que eu fui vítima da maior mentira montada neste país,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 297,
+      "inicio_s": 1058.32,
+      "fim_s": 1064.32,
+      "texto": "que tinha como objetivo não me deixar ser candidato em 2018, tinha como objetivo desmontar",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 298,
+      "inicio_s": 1064.32,
+      "fim_s": 1069.32,
+      "texto": "a indústria de engenharia deste país e criar uma imagem negativa da Petrobras.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 299,
+      "inicio_s": 1069.32,
+      "fim_s": 1073.32,
+      "texto": "Eu coloquei a minha cara e falei: eu vou.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 300,
+      "inicio_s": 1073.32,
+      "fim_s": 1075.32,
+      "texto": "Eu poderia ter saído do Brasil.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 301,
+      "inicio_s": 1075.32,
+      "fim_s": 1079.32,
+      "texto": "Eu disse: eu vou para a cadeia que eu quero provar que o Moro é mentiroso, quero provar",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 302,
+      "inicio_s": 1079.32,
+      "fim_s": 1083.32,
+      "texto": "que o Dalao é mentiroso e quero provar que a imprensa um dia vai pedir desculpa, porque",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 303,
+      "inicio_s": 1083.32,
+      "fim_s": 1089.32,
+      "texto": "a imprensa brasileira comprou, comprou uma mentira, vendeu a mentira e nunca reconheceu",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 304,
+      "inicio_s": 1089.32,
+      "fim_s": 1091.32,
+      "texto": "que comprou uma mentira.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 305,
+      "inicio_s": 1091.32,
+      "fim_s": 1095.32,
+      "texto": "O candidato do jornalismo da Globo cumpriu a sua obrigação de noticiar os fatos",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 306,
+      "inicio_s": 1095.32,
+      "fim_s": 1097.32,
+      "texto": "durante essa conversa.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 307,
+      "inicio_s": 1097.32,
+      "fim_s": 1099.32,
+      "texto": "É de feito pedir desculpa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 308,
+      "inicio_s": 1099.32,
+      "fim_s": 1105.32,
+      "texto": "A imprensa brasileira sabe que ela produziu um monstro mentiroso chamado Moro, chamado",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 309,
+      "inicio_s": 1105.32,
+      "fim_s": 1106.32,
+      "texto": "Dalao.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 310,
+      "inicio_s": 1106.32,
+      "fim_s": 1110.32,
+      "texto": "Eu não esqueço do PowerPoint mentiroso contra mim.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 311,
+      "inicio_s": 1110.32,
+      "fim_s": 1112.32,
+      "texto": "Eu não esqueço.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 312,
+      "inicio_s": 1112.32,
+      "fim_s": 1113.32,
+      "texto": "Agora, eu me disfuso...",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 313,
+      "inicio_s": 1113.32,
+      "fim_s": 1115.32,
+      "texto": "Candidato, em relação a essa...",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 314,
+      "inicio_s": 1115.32,
+      "fim_s": 1116.32,
+      "texto": "Me disfuso aí para a cadeia.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 315,
+      "inicio_s": 1116.32,
+      "fim_s": 1118.32,
+      "texto": "Me disfuso aí para a cadeia.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 316,
+      "inicio_s": 1118.32,
+      "fim_s": 1119.32,
+      "texto": "O senhor falou do PowerPoint.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 317,
+      "inicio_s": 1119.32,
+      "fim_s": 1123.32,
+      "texto": "Eu só quero dizer ao senhor, por favor, em relação a essa questão do PowerPoint.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 318,
+      "inicio_s": 1123.32,
+      "fim_s": 1128.32,
+      "texto": "Com os nossos princípios editoriais, nós fizemos a devida retratação sobre esse assunto.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 319,
+      "inicio_s": 1128.32,
+      "fim_s": 1133.32,
+      "texto": "Então, eu peço que a gente siga com a entrevista, ainda sobre esse assunto tão importante",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 320,
+      "inicio_s": 1133.32,
+      "fim_s": 1136.32,
+      "texto": "para o Brasil, que se chama Previdência Social.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 321,
+      "inicio_s": 1136.32,
+      "fim_s": 1143.32,
+      "texto": "Além de todos esses descontos indevidos, essa fraude bionária, que começou em 2019,",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 322,
+      "inicio_s": 1143.32,
+      "fim_s": 1146.32,
+      "texto": "23, 24, foi descoberta só depois.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 323,
+      "inicio_s": 1146.32,
+      "fim_s": 1151.32,
+      "texto": "Tem um problema sério hoje ainda no Brasil, que afeta aposentados e pensionistas, que é",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 324,
+      "inicio_s": 1151.32,
+      "fim_s": 1152.32,
+      "texto": "a fila do INSS.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 325,
+      "inicio_s": 1152.32,
+      "fim_s": 1156.32,
+      "texto": "Quando o senhor assumiu esse terceiro mandato, o senhor prometeu zerar essa fila.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 326,
+      "inicio_s": 1156.32,
+      "fim_s": 1157.32,
+      "texto": "Não zerou a fila.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 327,
+      "inicio_s": 1157.32,
+      "fim_s": 1161.32,
+      "texto": "Hoje, ela está na casa de 1 milhão e 300 mil pessoas.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 328,
+      "inicio_s": 1161.32,
+      "fim_s": 1166.32,
+      "texto": "Então, eu pergunto ao senhor, o que é que o senhor vai fazer, se releito, para oferecer",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 329,
+      "inicio_s": 1166.32,
+      "fim_s": 1170.32,
+      "texto": "mais qualidade nesse serviço essencial para os brasileiros?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 330,
+      "inicio_s": 1170.32,
+      "fim_s": 1176.32,
+      "texto": "Se você prometer que vai à Brasília, eu, a semana que vem, vou anunciar que a fila zerou.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 331,
+      "inicio_s": 1176.32,
+      "fim_s": 1183.32,
+      "texto": "A espera de 45 dias vai estar apenas em 250 mil pessoas, que é o normal.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 332,
+      "inicio_s": 1183.32,
+      "fim_s": 1190.32,
+      "texto": "Você não pode deixar de dizer, Trale, que no meu governo os aposentados recebiam a aposentadoria,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 333,
+      "inicio_s": 1190.32,
+      "fim_s": 1195.32,
+      "texto": "recebiam uma carta em casa dizendo: \"Você tem tempo de aposentadoria, pode me receber\".",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 334,
+      "inicio_s": 1195.32,
+      "fim_s": 1199.32,
+      "texto": "Uma mulher que dava à luz, ela recebeu o pré-natal quase junto com a criança.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 335,
+      "inicio_s": 1199.32,
+      "fim_s": 1202.32,
+      "texto": "Uma pessoa que estava doente era imediatamente.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 336,
+      "inicio_s": 1202.32,
+      "fim_s": 1205.32,
+      "texto": "As pessoas, a gente me encarta os benefícios.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 337,
+      "inicio_s": 1205.32,
+      "fim_s": 1209.32,
+      "texto": "Eles desmontaram, desmontaram o Brasil, desmontaram a Previdência.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 338,
+      "inicio_s": 1209.32,
+      "fim_s": 1212.32,
+      "texto": "Nós chegamos a ter 3 milhões de pessoas na fila.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 339,
+      "inicio_s": 1212.32,
+      "fim_s": 1217.32,
+      "texto": "E nós vamos entregar agora a fila terminada na Previdência Social.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 340,
+      "inicio_s": 1217.32,
+      "fim_s": 1222.32,
+      "texto": "Você está convidado antecipadamente para ir à Brasília assistir o ato em que a gente",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 341,
+      "inicio_s": 1222.32,
+      "fim_s": 1224.32,
+      "texto": "vai comemorar com os aposentados.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 342,
+      "inicio_s": 1225.32,
+      "fim_s": 1226.32,
+      "texto": "Semana que vem.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 343,
+      "inicio_s": 1226.32,
+      "fim_s": 1233.32,
+      "texto": "Candidato, Caso Master, um aliado histórico seu aparece nas investigações.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 344,
+      "inicio_s": 1233.32,
+      "fim_s": 1237.32,
+      "texto": "Jacques Wagner, que até junho era líder do governo no Senado.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 345,
+      "inicio_s": 1237.32,
+      "fim_s": 1242.32,
+      "texto": "A Polícia Federal apura se ele recebeu um apartamento com propina em troca de promover",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 346,
+      "inicio_s": 1242.32,
+      "fim_s": 1246.32,
+      "texto": "interesses do banqueiro Daniel Vorcaro na Bahia e no Senado.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 347,
+      "inicio_s": 1246.32,
+      "fim_s": 1251.32,
+      "texto": "Apesar dessa investigação, o senhor continuou demonstrando apoio e pediu, inclusive, votos",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 348,
+      "inicio_s": 1251.32,
+      "fim_s": 1252.32,
+      "texto": "para o Jacques Wagner.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 349,
+      "inicio_s": 1252.32,
+      "fim_s": 1257.32,
+      "texto": "Por isso, eu lhe pergunto, antes de pedir votos para ele, não é preciso aguardar as",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 350,
+      "inicio_s": 1257.32,
+      "fim_s": 1262.32,
+      "texto": "investigações desse caso, esclarecer, de fato, o envolvimento dele nesse caso?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 351,
+      "inicio_s": 1262.32,
+      "fim_s": 1269.32,
+      "texto": "O Banco Master causou um prejuízo a esse país de 60 bilhões de reais.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 352,
+      "inicio_s": 1269.32,
+      "fim_s": 1272.32,
+      "texto": "60 bilhões, não foi 60 dólares.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 353,
+      "inicio_s": 1272.32,
+      "fim_s": 1274.32,
+      "texto": "Foi 60 bilhões de reais.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 354,
+      "inicio_s": 1274.32,
+      "fim_s": 1277.32,
+      "texto": "E tem muita gente nesse país envolvido.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 355,
+      "inicio_s": 1277.32,
+      "fim_s": 1281.32,
+      "texto": "Até agora não está provado que o Wagner tem relação com o Banco Master.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 356,
+      "inicio_s": 1281.32,
+      "fim_s": 1286.32,
+      "texto": "O Wagner tem relação com Augusto, que na época não era nem do Banco Master.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 357,
+      "inicio_s": 1286.32,
+      "fim_s": 1292.32,
+      "texto": "O que eu não posso admitir para mim e aceitar é que eu possa fazer política vivendo de ilações",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 358,
+      "inicio_s": 1292.32,
+      "fim_s": 1293.32,
+      "texto": "todo santo dia.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 359,
+      "inicio_s": 1293.32,
+      "fim_s": 1298.32,
+      "texto": "Você tem um processo, tem uma apuração, tem uma investigação, as pessoas são inocentes",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 360,
+      "inicio_s": 1298.32,
+      "fim_s": 1299.32,
+      "texto": "até prova em contrário.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 361,
+      "inicio_s": 1299.32,
+      "fim_s": 1302.32,
+      "texto": "As pessoas são inocentes até prova em contrário.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 362,
+      "inicio_s": 1302.32,
+      "fim_s": 1308.32,
+      "texto": "Se um dia, Renata, você for acusada, você torta para você ter amigo que acha que você",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 363,
+      "inicio_s": 1308.32,
+      "fim_s": 1310.32,
+      "texto": "é inocente até provar sua culpa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 364,
+      "inicio_s": 1310.32,
+      "fim_s": 1314.32,
+      "texto": "O que não dá, o que não dá, ele é senador da república.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 365,
+      "inicio_s": 1314.32,
+      "fim_s": 1317.32,
+      "texto": "Ele é senador da república, é candidato à reeleição.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 366,
+      "inicio_s": 1317.32,
+      "fim_s": 1322.32,
+      "texto": "É um homem que tem relação comigo há 45 anos, desde o tempo de sindicalista.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 367,
+      "inicio_s": 1322.32,
+      "fim_s": 1328.32,
+      "texto": "Eu não posso colocar em dúvida o comportamento e a relação do Wagner comigo por conta de uma",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 368,
+      "inicio_s": 1328.32,
+      "fim_s": 1329.32,
+      "texto": "eleição.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 369,
+      "inicio_s": 1329.32,
+      "fim_s": 1330.32,
+      "texto": "Não posso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 370,
+      "inicio_s": 1330.32,
+      "fim_s": 1333.32,
+      "texto": "E posso dizer: eu tenho consciência que o Wagner é honesto.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 371,
+      "inicio_s": 1333.32,
+      "fim_s": 1334.32,
+      "texto": "Tenho consciência.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 372,
+      "inicio_s": 1334.32,
+      "fim_s": 1339.32,
+      "texto": "Se ele cometer um desvio, vai acontecer com ele, vai acontecer com qualquer pessoa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 373,
+      "inicio_s": 1339.32,
+      "fim_s": 1342.32,
+      "texto": "Vai pagar o preço do erro que cometeu.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 374,
+      "inicio_s": 1342.32,
+      "fim_s": 1348.32,
+      "texto": "Eu não sou uma pessoa que muda de calçada quando encontra um amigo que está sendo acusado",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 375,
+      "inicio_s": 1348.32,
+      "fim_s": 1349.32,
+      "texto": "de alguma coisa, não.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 376,
+      "inicio_s": 1349.32,
+      "fim_s": 1352.32,
+      "texto": "Até prova em contrário, todos são inocentes.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 377,
+      "inicio_s": 1352.32,
+      "fim_s": 1355.32,
+      "texto": "Candidato, vamos falar de contas públicas e ajustes fiscal.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 378,
+      "inicio_s": 1355.32,
+      "fim_s": 1359.32,
+      "texto": "Eu acho que é da hora de falar, porque eu estava parecendo que eu estava no Ministério",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 379,
+      "inicio_s": 1359.32,
+      "fim_s": 1360.32,
+      "texto": "Público.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 380,
+      "inicio_s": 1360.32,
+      "fim_s": 1364.32,
+      "texto": "Candidato, a dívida pública no seu governo ultrapassou os 10 trilhões de reais.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 381,
+      "inicio_s": 1364.32,
+      "fim_s": 1368.32,
+      "texto": "E além do tamanho da dívida, o problema é a direção que ela está tomando.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 382,
+      "inicio_s": 1368.32,
+      "fim_s": 1370.32,
+      "texto": "A gente chama de trajetória da dívida.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 383,
+      "inicio_s": 1370.32,
+      "fim_s": 1376.32,
+      "texto": "No seu governo, a dívida disparou 10 pontos percentuais, atingiu 82% do PIB.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 384,
+      "inicio_s": 1376.32,
+      "fim_s": 1382.32,
+      "texto": "E essa trajetória, ela pressiona os juros que encarece o crédito, que dificulta o investimento",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 385,
+      "inicio_s": 1382.32,
+      "fim_s": 1384.32,
+      "texto": "e que pesa no bolso das famílias.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 386,
+      "inicio_s": 1384.32,
+      "fim_s": 1390.32,
+      "texto": "O seu programa de governo menciona uma necessidade de um ajuste fiscal, mas não traz metas explícitas",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 387,
+      "inicio_s": 1390.32,
+      "fim_s": 1392.32,
+      "texto": "para os próximos quatro anos.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 388,
+      "inicio_s": 1392.32,
+      "fim_s": 1396.32,
+      "texto": "Eu quero saber do senhor quais são as suas metas e para que percentual do PIB o senhor",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 389,
+      "inicio_s": 1396.32,
+      "fim_s": 1398.32,
+      "texto": "pretende trazer essa dívida.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 390,
+      "inicio_s": 1398.32,
+      "fim_s": 1406.32,
+      "texto": "E, Renata, eu pensei que uma jornalista da sua qualidade, da sua competência, pudesse",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 391,
+      "inicio_s": 1406.32,
+      "fim_s": 1409.32,
+      "texto": "começar essa pergunta falando diferente, Renata.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 392,
+      "inicio_s": 1409.32,
+      "fim_s": 1415.32,
+      "texto": "Você pode dizer, presidente Lula, o senhor foi o único presidente na história do Brasil",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 393,
+      "inicio_s": 1415.32,
+      "fim_s": 1422.32,
+      "texto": "que fez superávit primário durante oito anos do seu primeiro mandato?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 394,
+      "inicio_s": 1422.32,
+      "fim_s": 1427.32,
+      "texto": "Dos países do G20, eu fui o único que fez superávit primário durante oito anos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 395,
+      "inicio_s": 1427.32,
+      "fim_s": 1430.32,
+      "texto": "Nunca tive problema fiscal nesse país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 396,
+      "inicio_s": 1430.32,
+      "fim_s": 1434.32,
+      "texto": "Você acha que o Brasil está com problema de dívida pública porque nós chegamos a",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 397,
+      "inicio_s": 1434.32,
+      "fim_s": 1436.32,
+      "texto": "80%, sabe por quê?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 398,
+      "inicio_s": 1436.32,
+      "fim_s": 1438.32,
+      "texto": "Porque nós temos há mais de dez anos sem crescer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 399,
+      "inicio_s": 1438.32,
+      "fim_s": 1443.32,
+      "texto": "Você sabe quando é que o PIB voltou a crescer acima de 2%, Renata?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 400,
+      "inicio_s": 1443.32,
+      "fim_s": 1445.32,
+      "texto": "Quando eu voltei à presidência da República.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 401,
+      "inicio_s": 1445.32,
+      "fim_s": 1450.32,
+      "texto": "Você se esquece que eu deixei esse país crescendo 7,5% em 2010?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 402,
+      "inicio_s": 1450.32,
+      "fim_s": 1455.32,
+      "texto": "Você se esquece que eu deixei esse país crescendo 7,5% e quando eu voltei ele estava",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 403,
+      "inicio_s": 1455.32,
+      "fim_s": 1462.32,
+      "texto": "crescendo 1%, ele só cresceu 3%, sabe, em 2023, 2024, 2025.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 404,
+      "inicio_s": 1462.32,
+      "fim_s": 1464.32,
+      "texto": "Então, deixa eu lhe falar uma coisa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 405,
+      "inicio_s": 1464.32,
+      "fim_s": 1470.32,
+      "texto": "Na medida que você começa a crescer a economia, o PIB começa a cair, a dívida começa a cair",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 406,
+      "inicio_s": 1470.32,
+      "fim_s": 1473.32,
+      "texto": "com relação a dívida.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 407,
+      "inicio_s": 1473.32,
+      "fim_s": 1477.32,
+      "texto": "80% de dívida, sabe, em um país, não é muito se você olhar para os Estados Unidos,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 408,
+      "inicio_s": 1477.32,
+      "fim_s": 1479.32,
+      "texto": "olhar para o Japão, olhe para a Itália.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 409,
+      "inicio_s": 1479.32,
+      "fim_s": 1480.32,
+      "texto": "Essa trajetória do PIB...",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 410,
+      "inicio_s": 1480.32,
+      "fim_s": 1482.32,
+      "texto": "Sabe qual é a dívida dos Estados Unidos?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 411,
+      "inicio_s": 1482.32,
+      "fim_s": 1487.32,
+      "texto": "120% do PIB é 40 trilhões de dólares.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 412,
+      "inicio_s": 1487.32,
+      "fim_s": 1493.32,
+      "texto": "Olha, o que é importante é o seguinte: uma dívida, sabe, uma parte dela é por conta da taxa de juros,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 413,
+      "inicio_s": 1493.32,
+      "fim_s": 1498.32,
+      "texto": "que vocês defenderam a vida inteira o Banco Central independente.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 414,
+      "inicio_s": 1498.32,
+      "fim_s": 1499.32,
+      "texto": "Candidato, o seu ministro...",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 415,
+      "inicio_s": 1499.32,
+      "fim_s": 1503.32,
+      "texto": "Você está lembrado que o Fernando Henrique Cardoso trocou três presidentes do Banco Central.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 416,
+      "inicio_s": 1503.32,
+      "fim_s": 1508.32,
+      "texto": "Eu entrei e fiquei dois anos com o presidente do Bolsonaro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 417,
+      "inicio_s": 1508.32,
+      "fim_s": 1514.32,
+      "texto": "Porque se você não fizer a pergunta completa, eu vou dizer para você: a mim não preocupa a dívida pública.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 418,
+      "inicio_s": 1514.32,
+      "fim_s": 1515.32,
+      "texto": "Eu vou dizer por quê.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 419,
+      "inicio_s": 1515.32,
+      "fim_s": 1523.32,
+      "texto": "Eu herdei esse governo em janeiro de 2023 com déficit fiscal de 2,8%.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 420,
+      "inicio_s": 1523.32,
+      "fim_s": 1526.32,
+      "texto": "Você sabe o quanto vai ser o orçamento desse ano?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 421,
+      "inicio_s": 1526.32,
+      "fim_s": 1529.32,
+      "texto": "Superávit primário de 0,1%.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 422,
+      "inicio_s": 1529.32,
+      "fim_s": 1534.32,
+      "texto": "Portanto, se tem alguém nesse país que tem responsabilidade fiscal, sou eu.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 423,
+      "inicio_s": 1534.32,
+      "fim_s": 1536.32,
+      "texto": "E nem a trajetória da dívida o preocupa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 424,
+      "inicio_s": 1536.32,
+      "fim_s": 1540.32,
+      "texto": "Eu quero a trajetória de marcar a taxa de juros.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 425,
+      "inicio_s": 1540.32,
+      "fim_s": 1547.32,
+      "texto": "Porque tem uma coisa que nós temos que entender, Renata.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 426,
+      "inicio_s": 1547.32,
+      "fim_s": 1554.32,
+      "texto": "Nós pegamos esse país numa situação, nós não tínhamos orçamento para governar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 427,
+      "inicio_s": 1554.32,
+      "fim_s": 1557.32,
+      "texto": "Você está lembrado da PEC da transição?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 428,
+      "inicio_s": 1557.32,
+      "fim_s": 1563.32,
+      "texto": "A PEC da transição foi, inclusive, para pagar rombo deixado pelo outro governo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 429,
+      "inicio_s": 1563.32,
+      "fim_s": 1572.32,
+      "texto": "Deixou um rombo de 94 bilhões, sabe, de dívida com as pessoas que nós tivemos que pagar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 430,
+      "inicio_s": 1572.32,
+      "fim_s": 1574.32,
+      "texto": "Eu quero aproveitar esse assunto ainda, candidato.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 431,
+      "inicio_s": 1574.32,
+      "fim_s": 1575.32,
+      "texto": "Então, deixa eu falar uma coisa, Renata.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 432,
+      "inicio_s": 1575.32,
+      "fim_s": 1579.32,
+      "texto": "Eu, sinceramente, Renata, eu tenho uma coisa que eu digo sempre.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 433,
+      "inicio_s": 1579.32,
+      "fim_s": 1582.32,
+      "texto": "Responsabilidade, eu aprendi com a dona Lindu.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 434,
+      "inicio_s": 1582.32,
+      "fim_s": 1585.32,
+      "texto": "Ela juntava os filhos, pegava o dinheiro e falava:",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 435,
+      "inicio_s": 1585.32,
+      "fim_s": 1589.32,
+      "texto": "\"Vocês não podem comprar e gastar o que vocês não têm\".",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 436,
+      "inicio_s": 1589.32,
+      "fim_s": 1592.32,
+      "texto": "Eu vou dizer uma coisa para vocês lembrarem.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 437,
+      "inicio_s": 1592.32,
+      "fim_s": 1601.32,
+      "texto": "Em dezembro de 2008, por ocasião da crise do subprime nos Estados Unidos, o comércio",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 438,
+      "inicio_s": 1601.32,
+      "fim_s": 1602.32,
+      "texto": "entrou numa crise.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 439,
+      "inicio_s": 1602.32,
+      "fim_s": 1608.32,
+      "texto": "Eu fui para a televisão, fiz um discurso de oito minutos, convocando a sociedade brasileira",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 440,
+      "inicio_s": 1608.32,
+      "fim_s": 1609.32,
+      "texto": "a consumir.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 441,
+      "inicio_s": 1609.32,
+      "fim_s": 1613.32,
+      "texto": "Porque era verdade que estava tendo desemprego.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 442,
+      "inicio_s": 1613.32,
+      "fim_s": 1617.32,
+      "texto": "Mas ele não consumiu, ia ter mais desemprego ainda.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 443,
+      "inicio_s": 1617.32,
+      "fim_s": 1619.32,
+      "texto": "Consuma com responsabilidade.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 444,
+      "inicio_s": 1619.32,
+      "fim_s": 1624.32,
+      "texto": "Se você consumir com responsabilidade, você vai poder pagar sua dívida e o país vai voltar",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 445,
+      "inicio_s": 1624.32,
+      "fim_s": 1625.32,
+      "texto": "a crescer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 446,
+      "inicio_s": 1625.32,
+      "fim_s": 1629.32,
+      "texto": "Foi o ano em que a classe C e D consumiram mais do que a classe B.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 447,
+      "inicio_s": 1629.32,
+      "fim_s": 1635.32,
+      "texto": "Então, se tem uma coisa que baliza a minha vida, chama-se responsabilidade fiscal.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 448,
+      "inicio_s": 1635.32,
+      "fim_s": 1639.32,
+      "texto": "E eu tenho uma equipe econômica, que era do Haddad, que era do Guido, que agora é",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 449,
+      "inicio_s": 1639.32,
+      "fim_s": 1642.32,
+      "texto": "do Dario, com muita responsabilidade fiscal.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 450,
+      "inicio_s": 1642.32,
+      "fim_s": 1644.32,
+      "texto": "Eu sei o que eu quero desse país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 451,
+      "inicio_s": 1644.32,
+      "fim_s": 1650.32,
+      "texto": "Aproveitando, então, agora que o senhor acaba de tocar no nome do seu ministro da Fazenda,",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 452,
+      "inicio_s": 1650.32,
+      "fim_s": 1655.32,
+      "texto": "do Dario Durigan, eu queria entrar muito nesse assunto agora com o senhor, que é o seguinte:",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 453,
+      "inicio_s": 1655.32,
+      "fim_s": 1659.32,
+      "texto": "o próprio ministro da Fazenda do senhor tem manifestado preocupação com a rolagem",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 454,
+      "inicio_s": 1659.32,
+      "fim_s": 1660.32,
+      "texto": "da dívida pública.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 455,
+      "inicio_s": 1660.32,
+      "fim_s": 1665.32,
+      "texto": "Ele disse que o próximo governo vai ter que fazer ajustes fiscais, vai ter que reduzir",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 456,
+      "inicio_s": 1665.32,
+      "fim_s": 1666.32,
+      "texto": "gastos obrigatórios.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 457,
+      "inicio_s": 1666.32,
+      "fim_s": 1671.32,
+      "texto": "Então, eu pergunto ao senhor o seguinte: o senhor pretende reduzir gastos obrigatórios?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 458,
+      "inicio_s": 1671.32,
+      "fim_s": 1675.32,
+      "texto": "Porque é muito importante esclarecer isso para a sociedade e para a população.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 459,
+      "inicio_s": 1675.32,
+      "fim_s": 1679.32,
+      "texto": "E se o senhor pretende reduzir gastos obrigatórios, quais exatamente?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 460,
+      "inicio_s": 1679.32,
+      "fim_s": 1682.32,
+      "texto": "Que compromisso que o senhor estabelece, se reeleito?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 461,
+      "inicio_s": 1682.32,
+      "fim_s": 1686.32,
+      "texto": "O meu estabelecimento é o seguinte: é fazer esse país crescer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 462,
+      "inicio_s": 1686.32,
+      "fim_s": 1691.32,
+      "texto": "A minha proposta de ser candidato a presidente da República outra vez é porque eu já fiz",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 463,
+      "inicio_s": 1691.32,
+      "fim_s": 1693.32,
+      "texto": "o bado que eu tinha que fazer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 464,
+      "inicio_s": 1693.32,
+      "fim_s": 1698.32,
+      "texto": "Você está lembrado que eu comecei em 2003 dizendo que, ao terminar o meu mandato, cada",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 465,
+      "inicio_s": 1698.32,
+      "fim_s": 1702.32,
+      "texto": "brasileiro estiver almoçando, tomando café e jantando, eu terei realizado a obra da minha",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 466,
+      "inicio_s": 1702.32,
+      "fim_s": 1703.32,
+      "texto": "vida.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 467,
+      "inicio_s": 1703.32,
+      "fim_s": 1705.32,
+      "texto": "Eu fiz mais do que isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 468,
+      "inicio_s": 1705.32,
+      "fim_s": 1707.32,
+      "texto": "Depois eu fiz o PAC no segundo mandato.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 469,
+      "inicio_s": 1707.32,
+      "fim_s": 1714.32,
+      "texto": "Depois eu fiz o PAC 3 agora nesse mandato, com 1 trilhão e 900 bilhões de investimentos,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 470,
+      "inicio_s": 1714.32,
+      "fim_s": 1721.32,
+      "texto": "dos quais até 2023, agora em dezembro, são 1 trilhão e 340 bilhões, dos quais 97%",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 471,
+      "inicio_s": 1721.32,
+      "fim_s": 1722.32,
+      "texto": "já quitados.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 472,
+      "inicio_s": 1722.32,
+      "fim_s": 1725.32,
+      "texto": "Então, o que eu quero para o próximo mandato?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 473,
+      "inicio_s": 1725.32,
+      "fim_s": 1728.32,
+      "texto": "Eu quero fazer uma revolução tecnológica nesse país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 474,
+      "inicio_s": 1728.32,
+      "fim_s": 1734.32,
+      "texto": "Eu quero voltar a fazer com que esse país seja disputar com o mundo rico.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 475,
+      "inicio_s": 1734.32,
+      "fim_s": 1738.32,
+      "texto": "Esse país vai ter que ser dono de minerais críticos das terras raras.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 476,
+      "inicio_s": 1738.32,
+      "fim_s": 1742.32,
+      "texto": "Esse país vai ter que aportar numa inteligência artificial com linguagem portuguesa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 477,
+      "inicio_s": 1742.32,
+      "fim_s": 1747.32,
+      "texto": "Esse país vai ter que tentar fazer uma reforma para que a gente tenha a nossa defesa tomando",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 478,
+      "inicio_s": 1747.32,
+      "fim_s": 1752.32,
+      "texto": "conta de 8 milhões e meio de quilômetros quadrados, que está totalmente abandonado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 479,
+      "inicio_s": 1752.32,
+      "fim_s": 1757.32,
+      "texto": "E nós estamos vendo que nós temos, depois da China, possivelmente a gente esteja um país",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 480,
+      "inicio_s": 1757.32,
+      "fim_s": 1759.32,
+      "texto": "que tenha mais minerais críticos em terras raras.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 481,
+      "inicio_s": 1759.32,
+      "fim_s": 1763.32,
+      "texto": "E você percebe que está sendo vendido enquanto a gente não faz a regulação.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 482,
+      "inicio_s": 1763.32,
+      "fim_s": 1769.32,
+      "texto": "Eu estive com a Columbre essa semana pedindo para ele: vamos aprovar a regulação para",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 483,
+      "inicio_s": 1769.32,
+      "fim_s": 1775.32,
+      "texto": "que a gente não permita que as nossas riquezas sejam vendidas, porque isso, se a gente souber",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 484,
+      "inicio_s": 1775.32,
+      "fim_s": 1782.32,
+      "texto": "extrair, transformar e produzir os materiais que a gente pode, fazer bateria, fazer chip,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 485,
+      "inicio_s": 1782.32,
+      "fim_s": 1788.32,
+      "texto": "fazer celular, aqui dentro do Brasil, a gente vai estar criando um passaporte para dar oportunidade",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 486,
+      "inicio_s": 1788.32,
+      "fim_s": 1793.32,
+      "texto": "para a juventude brasileira, sabe, ter orgulho de que, no seu país, ela vai ter condição",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 487,
+      "inicio_s": 1793.32,
+      "fim_s": 1796.32,
+      "texto": "de estudar, de trabalhar e de ganhar a sua vida.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 488,
+      "inicio_s": 1796.32,
+      "fim_s": 1798.32,
+      "texto": "É esse o futuro que eu quero para o país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 489,
+      "inicio_s": 1798.32,
+      "fim_s": 1802.32,
+      "texto": "E é por isso que eu estou apreitando o quarto mandato, porque eu já acabei com a fome",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 490,
+      "inicio_s": 1802.32,
+      "fim_s": 1804.32,
+      "texto": "duas vezes, duas.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 491,
+      "inicio_s": 1804.32,
+      "fim_s": 1809.32,
+      "texto": "Você sabe que, quando eu voltei agora, esse país estava destruído, destruído.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 492,
+      "inicio_s": 1809.32,
+      "fim_s": 1813.32,
+      "texto": "O déficit era 2,8%.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 493,
+      "inicio_s": 1813.32,
+      "fim_s": 1815.32,
+      "texto": "O último foi 0,8%.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 494,
+      "inicio_s": 1815.32,
+      "fim_s": 1818.32,
+      "texto": "E agora, nesse orçamento, vai ser positivo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 495,
+      "inicio_s": 1818.32,
+      "fim_s": 1821.32,
+      "texto": "Nós vamos fazer superávit esse ano.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 496,
+      "inicio_s": 1821.32,
+      "fim_s": 1822.32,
+      "texto": "Candidato, depois...",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 497,
+      "inicio_s": 1822.32,
+      "fim_s": 1824.32,
+      "texto": "Porque sabe o que acontece, Sr. Trale?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 498,
+      "inicio_s": 1824.32,
+      "fim_s": 1825.32,
+      "texto": "Eu aprendi muito cedo...",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 499,
+      "inicio_s": 1825.32,
+      "fim_s": 1826.32,
+      "texto": "Posso avançar nos assuntos, por favor?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 500,
+      "inicio_s": 1826.32,
+      "fim_s": 1831.32,
+      "texto": "E se eu gastar mais do que eu ganho, eu não vou conseguir realizar nada.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 501,
+      "inicio_s": 1831.32,
+      "fim_s": 1832.32,
+      "texto": "Eu vou me perder.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 502,
+      "inicio_s": 1832.32,
+      "fim_s": 1834.32,
+      "texto": "Então, eu tenho...",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 503,
+      "inicio_s": 1834.32,
+      "fim_s": 1837.32,
+      "texto": "Na próxima pergunta, eu vou lhe contar a minha conversa com o FMI.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 504,
+      "inicio_s": 1837.32,
+      "fim_s": 1839.32,
+      "texto": "Esse país aqui...",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 505,
+      "inicio_s": 1839.32,
+      "fim_s": 1843.32,
+      "texto": "Porque, se a gente não contar, a meninada que está ouvindo a gente não entende.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 506,
+      "inicio_s": 1843.32,
+      "fim_s": 1846.32,
+      "texto": "Esse país aqui devia 30 bilhões de dólares.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 507,
+      "inicio_s": 1846.32,
+      "fim_s": 1850.32,
+      "texto": "Esse país aqui, o Malan, não conseguia uma audiência com o FMI.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 508,
+      "inicio_s": 1850.32,
+      "fim_s": 1853.32,
+      "texto": "Esse país aqui não podia pagar suas importações.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 509,
+      "inicio_s": 1853.32,
+      "fim_s": 1857.32,
+      "texto": "Quando eu assumi a presidência, todos os economistas diziam que o país estava quebrado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 510,
+      "inicio_s": 1857.32,
+      "fim_s": 1859.32,
+      "texto": "Pois bem, o país não quebrou.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 511,
+      "inicio_s": 1859.32,
+      "fim_s": 1861.32,
+      "texto": "Eu paguei 30 bilhões do FMI.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 512,
+      "inicio_s": 1861.32,
+      "fim_s": 1866.32,
+      "texto": "Fiz a primeira reserva de dólares para ir de 270 bilhões de reais,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 513,
+      "inicio_s": 1866.32,
+      "fim_s": 1869.32,
+      "texto": "que é o que segura a estabilidade econômica desse país até hoje.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 514,
+      "inicio_s": 1869.32,
+      "fim_s": 1872.32,
+      "texto": "Ainda falando sobre economia, sobre essa questão de dívida pública,",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 515,
+      "inicio_s": 1872.32,
+      "fim_s": 1875.32,
+      "texto": "quero muito ouvir o senhor sobre a crise nas estatais.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 516,
+      "inicio_s": 1875.32,
+      "fim_s": 1882.32,
+      "texto": "As estatais brasileiras federais estão acumulando um prejuízo de 20 bilhões de reais no seu governo.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 517,
+      "inicio_s": 1882.32,
+      "fim_s": 1886.32,
+      "texto": "E o caso mais emblemático, mais grave, é o dos Correios.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 518,
+      "inicio_s": 1886.32,
+      "fim_s": 1889.32,
+      "texto": "Já são quatro anos seguidos de prejuízo.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 519,
+      "inicio_s": 1889.32,
+      "fim_s": 1890.32,
+      "texto": "É um rombo histórico.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 520,
+      "inicio_s": 1890.32,
+      "fim_s": 1893.32,
+      "texto": "São 15 bilhões de reais, candidato.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 521,
+      "inicio_s": 1893.32,
+      "fim_s": 1900.32,
+      "texto": "A própria direção da estatal diz que parte da crise se deve a baixa qualidade na operação da empresa.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 522,
+      "inicio_s": 1900.32,
+      "fim_s": 1906.32,
+      "texto": "Não ter eficiência num setor cada vez mais competitivo significa risco de prejuízo.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 523,
+      "inicio_s": 1906.32,
+      "fim_s": 1909.32,
+      "texto": "O senhor considera vender os Correios?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 524,
+      "inicio_s": 1909.32,
+      "fim_s": 1911.32,
+      "texto": "Eu queria lhe falar uma coisa, candidato.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 525,
+      "inicio_s": 1911.32,
+      "fim_s": 1914.32,
+      "texto": "Você já era nascido em 1985.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 526,
+      "inicio_s": 1914.32,
+      "fim_s": 1920.32,
+      "texto": "Desde 1985, o Correio brasileiro vive crise e alguém quer privatizar o Correio.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 527,
+      "inicio_s": 1920.32,
+      "fim_s": 1927.32,
+      "texto": "O Correio é uma empresa muito importante para o Brasil, porque ela está em todos os municípios brasileiros.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 528,
+      "inicio_s": 1927.32,
+      "fim_s": 1933.32,
+      "texto": "Obviamente que o Correio, a vítima da crise do Correio é que ele não se adaptou aos novos tempos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 529,
+      "inicio_s": 1933.32,
+      "fim_s": 1935.32,
+      "texto": "Não se adaptou.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 530,
+      "inicio_s": 1935.32,
+      "fim_s": 1939.32,
+      "texto": "Surgiu muita empresa de fazer entrega e o Correio ficou na mesmice.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 531,
+      "inicio_s": 1939.32,
+      "fim_s": 1945.32,
+      "texto": "Não só a gente está com uma nova administração no Correio, que está com a responsabilidade",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 532,
+      "inicio_s": 1945.32,
+      "fim_s": 1949.32,
+      "texto": "de fazer o enxugamento que for necessário nas contas do Correio.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 533,
+      "inicio_s": 1949.32,
+      "fim_s": 1954.32,
+      "texto": "Se for necessário fazer associação com a empresa, nós faremos com a empresa bandeira",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 534,
+      "inicio_s": 1954.32,
+      "fim_s": 1958.32,
+      "texto": "ou com a empresa estrangeira, porque a gente quer um Correio prestando serviços",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 535,
+      "inicio_s": 1958.32,
+      "fim_s": 1960.32,
+      "texto": "junto com qualquer outra empresa.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 536,
+      "inicio_s": 1960.32,
+      "fim_s": 1962.32,
+      "texto": "O senhor garante então que o Correio vai sair dessa crise?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 537,
+      "inicio_s": 1962.32,
+      "fim_s": 1963.32,
+      "texto": "Garanto.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 538,
+      "inicio_s": 1963.32,
+      "fim_s": 1965.32,
+      "texto": "Vai sair desse pombo, vai sair dessa dívida toda?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 539,
+      "inicio_s": 1965.32,
+      "fim_s": 1966.32,
+      "texto": "Garanto.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 540,
+      "inicio_s": 1966.32,
+      "fim_s": 1968.32,
+      "texto": "O senhor não considera vender?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 541,
+      "inicio_s": 1968.32,
+      "fim_s": 1969.32,
+      "texto": "Hein?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 542,
+      "inicio_s": 1969.32,
+      "fim_s": 1970.32,
+      "texto": "Não considero vender o Correio.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 543,
+      "inicio_s": 1970.32,
+      "fim_s": 1971.32,
+      "texto": "Não considero.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 544,
+      "inicio_s": 1971.32,
+      "fim_s": 1972.32,
+      "texto": "Candidato?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 545,
+      "inicio_s": 1972.32,
+      "fim_s": 1975.32,
+      "texto": "Não considero recuperar o Correio, sabe?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 546,
+      "inicio_s": 1975.32,
+      "fim_s": 1978.32,
+      "texto": "E para ele prestar serviço de qualidade ao povo brasileiro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 547,
+      "inicio_s": 1978.32,
+      "fim_s": 1979.32,
+      "texto": "E ele pode fazer isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 548,
+      "inicio_s": 1979.32,
+      "fim_s": 1981.32,
+      "texto": "A gente vai continuar essa entrevista já, já.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 549,
+      "inicio_s": 1981.32,
+      "fim_s": 1985.32,
+      "texto": "Só um pequeno intervalo e a gente volta em instantes.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 550,
+      "inicio_s": 1985.32,
+      "fim_s": 1986.32,
+      "texto": "Vamos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 551,
+      "inicio_s": 1986.32,
+      "fim_s": 1991.32,
+      "texto": "Nós estamos de volta com o segundo bloco da entrevista com Luiz Inácio Lula da Silva,",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 552,
+      "inicio_s": 1991.32,
+      "fim_s": 1994.32,
+      "texto": "candidato do PT à presidência da República.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 553,
+      "inicio_s": 1994.32,
+      "fim_s": 1996.32,
+      "texto": "Candidato, vamos falar de educação?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 554,
+      "inicio_s": 1996.32,
+      "fim_s": 1997.32,
+      "texto": "Vamos.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 555,
+      "inicio_s": 1997.32,
+      "fim_s": 2006.32,
+      "texto": "Vamos falar do acesso à escola entre jovens de 4 a 17 anos, que está na casa dos 97%,",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 556,
+      "inicio_s": 2006.32,
+      "fim_s": 2008.32,
+      "texto": "está perto da universalização.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 557,
+      "inicio_s": 2008.32,
+      "fim_s": 2009.32,
+      "texto": "O que é bom.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 558,
+      "inicio_s": 2009.32,
+      "fim_s": 2013.32,
+      "texto": "Mas a gente sabe que acesso não é a mesma coisa que aprendizagem.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 559,
+      "inicio_s": 2013.32,
+      "fim_s": 2019.32,
+      "texto": "E um estudo do Todos pela Educação, divulgado agora em agosto, mostra que 6 em cada 10 jovens",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 560,
+      "inicio_s": 2019.32,
+      "fim_s": 2025.32,
+      "texto": "brasileiros terminam o ensino médio na rede pública sem aprender o básico em matemática.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 561,
+      "inicio_s": 2025.32,
+      "fim_s": 2030.32,
+      "texto": "Eu quero saber do senhor por que esse resultado e qual é o seu plano para melhorar se o senhor for reeleito.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 562,
+      "inicio_s": 2030.32,
+      "fim_s": 2035.32,
+      "texto": "Então, deixa eu te dizer uma coisa, Renata.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 563,
+      "inicio_s": 2035.32,
+      "fim_s": 2041.32,
+      "texto": "Se tem uma coisa que eu tenho orgulho, é que o Brasil nunca teve um Presidente da República",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 564,
+      "inicio_s": 2041.32,
+      "fim_s": 2044.32,
+      "texto": "que cuidasse da educação como eu cuidei.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 565,
+      "inicio_s": 2044.32,
+      "fim_s": 2049.32,
+      "texto": "Eu estou o Presidente da República que mais coloquei alunos em escola de tempo integral.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 566,
+      "inicio_s": 2049.32,
+      "fim_s": 2054.32,
+      "texto": "Nós fizemos um pacto com os prefeitos para a alfabetização das crianças na idade certa,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 567,
+      "inicio_s": 2054.32,
+      "fim_s": 2059.32,
+      "texto": "que a gente previa até 2030 chegar a 80% dos jovens.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 568,
+      "inicio_s": 2059.32,
+      "fim_s": 2064.32,
+      "texto": "Chegamos a 66% no primeiro ano desse acordo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 569,
+      "inicio_s": 2064.32,
+      "fim_s": 2067.32,
+      "texto": "Porque as coisas estão evoluindo muito.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 570,
+      "inicio_s": 2067.32,
+      "fim_s": 2072.32,
+      "texto": "Eu criei o Fundeb para garantir que os meninos do ensino médio não desistissem da escola.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 571,
+      "inicio_s": 2072.32,
+      "fim_s": 2077.32,
+      "texto": "500 mil desistiam por ano para ajudar no orçamento familiar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 572,
+      "inicio_s": 2077.32,
+      "fim_s": 2086.32,
+      "texto": "Nós criamos o Pé de Meia garantindo uma conta, uma poupança para os jovens para eles não desistirem da escola.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 573,
+      "inicio_s": 2086.32,
+      "fim_s": 2091.32,
+      "texto": "Isso diminuiu a invasão no primeiro ano em mais de 60% dos alunos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 574,
+      "inicio_s": 2091.32,
+      "fim_s": 2096.32,
+      "texto": "E sou o Presidente que mais fiz universidade nesse país, mais fiz institutos federais.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 575,
+      "inicio_s": 2097.32,
+      "fim_s": 2102.32,
+      "texto": "Dos quase 800 institutos desse país, 80% foi feito por mim e pela Dilma.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 576,
+      "inicio_s": 2102.32,
+      "fim_s": 2105.32,
+      "texto": "E com relação a essa dificuldade do aprendizado?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 577,
+      "inicio_s": 2105.32,
+      "fim_s": 2108.32,
+      "texto": "Veja, a dificuldade no aprendizado, você tem que entender.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 578,
+      "inicio_s": 2108.32,
+      "fim_s": 2113.32,
+      "texto": "O Estado, como o Ceará, a molecada é mais evoluída aqui em São Paulo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 579,
+      "inicio_s": 2114.32,
+      "fim_s": 2119.32,
+      "texto": "O que, na verdade, a educação básica, ela é administrada pelo Estado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 580,
+      "inicio_s": 2120.32,
+      "fim_s": 2123.32,
+      "texto": "O governo tem o Fundeb que ajuda os Estados.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 581,
+      "inicio_s": 2123.32,
+      "fim_s": 2126.32,
+      "texto": "Mas cada Estado age de um jeito.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 582,
+      "inicio_s": 2126.32,
+      "fim_s": 2131.32,
+      "texto": "O Ceará e o Piauí são os Estados pobres que têm o melhor nível de educação nesse país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 583,
+      "inicio_s": 2131.32,
+      "fim_s": 2139.32,
+      "texto": "Você sabia que 40% dos alunos que passam no vestibular do ITA em São José dos Campos são ceareses?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 584,
+      "inicio_s": 2139.32,
+      "fim_s": 2142.32,
+      "texto": "Por isso eu levei o ITA para Fortaleza, como premiação.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 585,
+      "inicio_s": 2142.32,
+      "fim_s": 2153.32,
+      "texto": "Você sabe que nós criamos aqui no Rio de Janeiro uma faculdade de matemática para premiar os alunos que participam das Olimpíadas da Matemática, os que têm medalhas de ouro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 586,
+      "inicio_s": 2153.32,
+      "fim_s": 2164.32,
+      "texto": "Nós fazemos um vestibular entre eles e os 400 melhores estão numa faculdade de matemática aqui com dormida, comida, porque a gente não quer perder mais gênios.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 587,
+      "inicio_s": 2164.32,
+      "fim_s": 2168.32,
+      "texto": "Estas técnicas em educação dizem que é muito importante investir na formação dos professores.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 588,
+      "inicio_s": 2168.32,
+      "fim_s": 2170.32,
+      "texto": "Qual é a sua proposta para isso?",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 589,
+      "inicio_s": 2170.32,
+      "fim_s": 2172.32,
+      "texto": "Então, eu vou lhe dizer, sabe o que nós fizemos?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 590,
+      "inicio_s": 2172.32,
+      "fim_s": 2184.32,
+      "texto": "Nós estamos dando uma bolsa de estudo para o menino do Enem que passar em primeiro lugar, que for ser professor, ele vai ganhar uma bolsa de estudo para estudar para o professor.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 591,
+      "inicio_s": 2184.32,
+      "fim_s": 2195.32,
+      "texto": "Porque normalmente ele não quer, os melhores querem outra coisa, e nós estamos dando uma bolsa porque nós sabemos que a qualidade do professor influencia, sabe, na formação do aluno.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 592,
+      "inicio_s": 2195.32,
+      "fim_s": 2197.32,
+      "texto": "Então, candidato, para a gente falar de um outro tema, pois não.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 593,
+      "inicio_s": 2197.32,
+      "fim_s": 2207.32,
+      "texto": "Renata, quem criou a Olimpíada da Matemática no Brasil, na escola pública, fui eu, contra a vontade de muita gente que dizia que as crianças não gostavam de matemática.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 594,
+      "inicio_s": 2207.32,
+      "fim_s": 2216.32,
+      "texto": "Na primeira inscrição, entrou 10 milhões de crianças, na segunda, 14 milhões de crianças, na terceira, 18 milhões de crianças.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 595,
+      "inicio_s": 2216.32,
+      "fim_s": 2224.32,
+      "texto": "E quando as crianças aprendem a desfiar, o casulo da matemática passa a ser a matéria que ele mais mostra.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 596,
+      "inicio_s": 2224.32,
+      "fim_s": 2232.32,
+      "texto": "Então, agora, no futuro, por isso que eu quero um quarto mandato, nós precisamos colocar muita gente para fazer matemática, muita gente para fazer engenharia,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 597,
+      "inicio_s": 2232.32,
+      "fim_s": 2242.32,
+      "texto": "muita gente para prender esse mundo digital e discutir inteligência artificial, porque nós não queremos ficar subordinados à briga dos Estados Unidos com a China.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 598,
+      "inicio_s": 2242.32,
+      "fim_s": 2248.32,
+      "texto": "Agora, antes de encerrar, eu gostaria de ouvir do senhor sobre um tema muito importante, que é segurança pública.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 599,
+      "inicio_s": 2248.32,
+      "fim_s": 2250.32,
+      "texto": "Uma das maiores preocupações do brasileiro hoje.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 600,
+      "inicio_s": 2250.32,
+      "fim_s": 2251.32,
+      "texto": "Exato.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 601,
+      "inicio_s": 2251.32,
+      "fim_s": 2252.32,
+      "texto": "Acabou a educação.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 602,
+      "inicio_s": 2252.32,
+      "fim_s": 2260.32,
+      "texto": "Nós estamos tentando avançar nos temas, candidato, porque estão faltando menos de 5 minutos.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 603,
+      "inicio_s": 2260.32,
+      "fim_s": 2264.32,
+      "texto": "Nos últimos 24 anos, então, 17 foram do PCOM-PT na presidência.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 604,
+      "inicio_s": 2264.32,
+      "fim_s": 2269.32,
+      "texto": "O senhor está no terceiro mandato, são 12 anos na cadeira de presidente.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 605,
+      "inicio_s": 2269.32,
+      "fim_s": 2275.32,
+      "texto": "Na sua avaliação, candidato, por que, nesses mais de 20 anos, o crime organizado se espalhou pelo Brasil?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 606,
+      "inicio_s": 2275.32,
+      "fim_s": 2276.32,
+      "texto": "Preciso ouvi-lo sobre isso.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 607,
+      "inicio_s": 2276.32,
+      "fim_s": 2281.32,
+      "texto": "É importante que a gente contribua para formar as pessoas que estão nos assistindo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 608,
+      "inicio_s": 2281.32,
+      "fim_s": 2290.32,
+      "texto": "Na Constituição de 88, a Constituição aprovou que a segurança pública era da responsabilidade do Estado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 609,
+      "inicio_s": 2290.32,
+      "fim_s": 2295.32,
+      "texto": "A sociedade civil estava cansada dos militares terem ingerência nas políticas estaduais.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 610,
+      "inicio_s": 2295.32,
+      "fim_s": 2302.32,
+      "texto": "E nós, então, a pedido de todos os progressistas da Constituinte, demos para o Estado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 611,
+      "inicio_s": 2302.32,
+      "fim_s": 2309.32,
+      "texto": "O Governo Federal ficou com a Polícia Federal, com a Polícia Rodoviária Federal e com a Polícia Penal.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 612,
+      "inicio_s": 2309.32,
+      "fim_s": 2316.32,
+      "texto": "Eu estou discutindo no Congresso Nacional, foi colocado para votar agora.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 613,
+      "inicio_s": 2316.32,
+      "fim_s": 2321.32,
+      "texto": "Por isso que eu almocei com o Columbre e com o Hugo Mota, votar a PEC da Segurança Pública.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 614,
+      "inicio_s": 2321.32,
+      "fim_s": 2326.32,
+      "texto": "Porque, a hora que for aprovar a PEC da Segurança Pública, eu crio o Ministério da Segurança Pública.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 615,
+      "inicio_s": 2326.32,
+      "fim_s": 2328.32,
+      "texto": "Por que que eu vou criar o Ministério?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 616,
+      "inicio_s": 2328.32,
+      "fim_s": 2334.32,
+      "texto": "Porque, primeiro, eu quero estabelecer qual é a participação de cada ente federado da Segurança Pública.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 617,
+      "inicio_s": 2334.32,
+      "fim_s": 2339.32,
+      "texto": "Qual vai ser o papel da União, qual vai ser o papel do Estado e qual vai ser o papel do município.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 618,
+      "inicio_s": 2339.32,
+      "fim_s": 2344.32,
+      "texto": "Porque, aí sim, a gente vai trabalhar muito forte, talvez desmanado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 619,
+      "inicio_s": 2344.32,
+      "fim_s": 2346.32,
+      "texto": "Teve muitos governadores que não quiseram.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 620,
+      "inicio_s": 2346.32,
+      "fim_s": 2351.32,
+      "texto": "Tarcísio não quis, Caiado não quis, porque não querem que o Governo Federal se meta na Segurança Pública.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 621,
+      "inicio_s": 2351.32,
+      "fim_s": 2357.32,
+      "texto": "Candidato, aproveitando, então, posso aproveitar esse gancho que o senhor falou da coordenação entre governadores,",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 622,
+      "inicio_s": 2357.32,
+      "fim_s": 2361.32,
+      "texto": "a PEC da Segurança, que o senhor está tentando passar no Congresso Nacional?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 623,
+      "inicio_s": 2361.32,
+      "fim_s": 2365.32,
+      "texto": "Lembrando, então, que o senhor vai completar 12 anos como presidente.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 624,
+      "inicio_s": 2365.32,
+      "fim_s": 2368.32,
+      "texto": "O PT governa a Bahia tem 20 anos.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 625,
+      "inicio_s": 2368.32,
+      "fim_s": 2373.32,
+      "texto": "E a Bahia, hoje, tem 5 das 10 cidades mais violentas do Brasil.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 626,
+      "inicio_s": 2373.32,
+      "fim_s": 2378.32,
+      "texto": "O maior número de mortes violentas de crianças e adolescentes é o triplo da média nacional.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 627,
+      "inicio_s": 2378.32,
+      "fim_s": 2383.32,
+      "texto": "Por que que o PT não tem conseguido coordenar ações eficientes sem segurança na Bahia,",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 628,
+      "inicio_s": 2383.32,
+      "fim_s": 2389.32,
+      "texto": "mesmo governando o país e o Estado, ao mesmo tempo e há tanto tempo, candidato?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 629,
+      "inicio_s": 2389.32,
+      "fim_s": 2391.32,
+      "texto": "O PT não seria injusto com a Bahia.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 630,
+      "inicio_s": 2391.32,
+      "fim_s": 2396.32,
+      "texto": "Nenhum governador do Brasil, nenhum, conseguiu resolver o problema da Segurança Pública.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 631,
+      "inicio_s": 2396.32,
+      "fim_s": 2398.32,
+      "texto": "Nenhum conseguiu segurar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 632,
+      "inicio_s": 2398.32,
+      "fim_s": 2401.32,
+      "texto": "Se você pegar do Iapau, o cachorro e ninguém conseguiu.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 633,
+      "inicio_s": 2401.32,
+      "fim_s": 2402.32,
+      "texto": "Ninguém.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 634,
+      "inicio_s": 2402.32,
+      "fim_s": 2404.32,
+      "texto": "Você é de São Paulo, eu trago.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 635,
+      "inicio_s": 2404.32,
+      "fim_s": 2406.32,
+      "texto": "Mas nem tem o governo do Estado e o governo federal, candidato?",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 636,
+      "inicio_s": 2406.32,
+      "fim_s": 2412.32,
+      "texto": "Você é de São Paulo e você, muito menino, cansou de ver as campanhas do Marufo lá em São Paulo?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 637,
+      "inicio_s": 2412.32,
+      "fim_s": 2414.32,
+      "texto": "Bandido bom é bandido morto?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 638,
+      "inicio_s": 2414.32,
+      "fim_s": 2418.32,
+      "texto": "Cansou de ver carreta passeando com um artista fantasiado de prisioneiro?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 639,
+      "inicio_s": 2418.32,
+      "fim_s": 2420.32,
+      "texto": "Ninguém consegue resolver.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 640,
+      "inicio_s": 2420.32,
+      "fim_s": 2424.32,
+      "texto": "Só vai conseguir se a gente tiver muito investimento em inteligência.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 641,
+      "inicio_s": 2424.32,
+      "fim_s": 2425.32,
+      "texto": "É isso que eu quero fazer.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 642,
+      "inicio_s": 2425.32,
+      "fim_s": 2426.32,
+      "texto": "O que é que eu quero fazer?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 643,
+      "inicio_s": 2426.32,
+      "fim_s": 2429.32,
+      "texto": "Aprovando a PEC, nós vamos criar o Ministério da Segurança Pública,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 644,
+      "inicio_s": 2429.32,
+      "fim_s": 2433.32,
+      "texto": "vamos definir qual é o papel da Polícia Federal nos Estados,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 645,
+      "inicio_s": 2433.32,
+      "fim_s": 2436.32,
+      "texto": "porque você sabe que a Polícia Federal não pode investigar crime nos Estados,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 646,
+      "inicio_s": 2436.32,
+      "fim_s": 2438.32,
+      "texto": "a não ser que seja crime federal.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 647,
+      "inicio_s": 2438.32,
+      "fim_s": 2440.32,
+      "texto": "E nem sempre os governadores pedem.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 648,
+      "inicio_s": 2440.32,
+      "fim_s": 2444.32,
+      "texto": "Se não fosse a Polícia Federal, a gente não pegava o assassino da Mariela aqui.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 649,
+      "inicio_s": 2444.32,
+      "fim_s": 2447.32,
+      "texto": "E o governador não queria que a gente viesse investigar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 650,
+      "inicio_s": 2447.32,
+      "fim_s": 2449.32,
+      "texto": "Então, o que é que eu quero?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 651,
+      "inicio_s": 2449.32,
+      "fim_s": 2450.32,
+      "texto": "Nós fizemos agora.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 652,
+      "inicio_s": 2450.32,
+      "fim_s": 2451.32,
+      "texto": "Aprovamos uma lei de infracção.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 653,
+      "inicio_s": 2451.32,
+      "fim_s": 2454.32,
+      "texto": "Estamos trabalhando na questão do combate ao crime organizado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 654,
+      "inicio_s": 2454.32,
+      "fim_s": 2457.32,
+      "texto": "Por isso, eu fui levar para o Trump uma proposta por inscritos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 655,
+      "inicio_s": 2457.32,
+      "fim_s": 2460.32,
+      "texto": "Se os Estados Unidos quiserem trabalhar junto com o Brasil",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 656,
+      "inicio_s": 2460.32,
+      "fim_s": 2462.32,
+      "texto": "para combater o narcotráfico e o crime organizado,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 657,
+      "inicio_s": 2462.32,
+      "fim_s": 2464.32,
+      "texto": "o Brasil está pronto e preparado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 658,
+      "inicio_s": 2464.32,
+      "fim_s": 2467.32,
+      "texto": "Montamos uma base da Polícia Federal em Manaus",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 659,
+      "inicio_s": 2467.32,
+      "fim_s": 2469.32,
+      "texto": "para tomar conta da fronteira,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 660,
+      "inicio_s": 2469.32,
+      "fim_s": 2474.32,
+      "texto": "com representantes de policiais de cada país da América do Sul,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 661,
+      "inicio_s": 2474.32,
+      "fim_s": 2476.32,
+      "texto": "para que a gente possa enfrentar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 662,
+      "inicio_s": 2476.32,
+      "fim_s": 2477.32,
+      "texto": "Por quê?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 663,
+      "inicio_s": 2477.32,
+      "fim_s": 2478.32,
+      "texto": "Qual é o meu desejo?",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 664,
+      "inicio_s": 2478.32,
+      "fim_s": 2482.32,
+      "texto": "O meu desejo é recuperar o território do povo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 665,
+      "inicio_s": 2482.32,
+      "fim_s": 2486.32,
+      "texto": "Sabe, aquela rua é do povo do Rio, não é do bandido.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 666,
+      "inicio_s": 2486.32,
+      "fim_s": 2489.32,
+      "texto": "A escola é do povo, não é do bandido.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 667,
+      "inicio_s": 2489.32,
+      "fim_s": 2490.32,
+      "texto": "O bairro é da escola.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 668,
+      "inicio_s": 2490.32,
+      "fim_s": 2492.32,
+      "texto": "Nós precisamos, então, enfrentar isso.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 669,
+      "inicio_s": 2492.32,
+      "fim_s": 2496.32,
+      "texto": "E enfrentar uma coisa mais grave, que é enfrentar o do andar de cima.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 670,
+      "inicio_s": 2496.32,
+      "fim_s": 2498.32,
+      "texto": "Como nós fizemos a Operação Carbono Oculto,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 671,
+      "inicio_s": 2498.32,
+      "fim_s": 2502.32,
+      "texto": "que foi a maior operação já feita na história desse país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 672,
+      "inicio_s": 2502.32,
+      "fim_s": 2504.32,
+      "texto": "Nós estamos preparados para muitas operações.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 673,
+      "inicio_s": 2504.32,
+      "fim_s": 2510.32,
+      "texto": "O que eu quero é que prefeituras importantes, como o Rio de Janeiro e São Paulo,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 674,
+      "inicio_s": 2510.32,
+      "fim_s": 2512.32,
+      "texto": "tem que ter policial com a ação de policial.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 675,
+      "inicio_s": 2512.32,
+      "fim_s": 2514.32,
+      "texto": "Não pode ficar um policial sem poder prender.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 676,
+      "inicio_s": 2514.32,
+      "fim_s": 2520.32,
+      "texto": "Se a gente fizer uma combinação de criar uma espécie de susto da segurança pública",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 677,
+      "inicio_s": 2520.32,
+      "fim_s": 2524.32,
+      "texto": "e a gente trabalhar conjuntamente, eu posso ter garantido que o povo brasileiro vai ganhar.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 678,
+      "inicio_s": 2524.32,
+      "fim_s": 2528.32,
+      "texto": "E por isso que eu fui conversar com a Columbre: vamos aprovar a PEC.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 679,
+      "inicio_s": 2528.32,
+      "fim_s": 2532.32,
+      "texto": "Porque aprovando a PEC, eu crio o Ministério na semana seguinte.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 680,
+      "inicio_s": 2532.32,
+      "fim_s": 2536.32,
+      "texto": "E depois de criar o Ministério, não é que ele vai funcionar rapidamente, não.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 681,
+      "inicio_s": 2536.32,
+      "fim_s": 2539.32,
+      "texto": "Eu vou ter que convencer o Daniel, que está assistindo o programa daqui,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 682,
+      "inicio_s": 2539.32,
+      "fim_s": 2544.32,
+      "texto": "de que ele tem que colocar recursos, porque para a gente ter uma polícia eficiente",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 683,
+      "inicio_s": 2544.32,
+      "fim_s": 2548.32,
+      "texto": "e a gente acabar com o crime organizado, a gente vai ter que ter muito dinheiro.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 684,
+      "inicio_s": 2548.32,
+      "fim_s": 2550.32,
+      "texto": "Candidato, o nosso tempo acabou.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 685,
+      "inicio_s": 2550.32,
+      "fim_s": 2555.32,
+      "texto": "Eu peço agora que o senhor faça as suas considerações finais, a sua despedida do eleitor.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 686,
+      "inicio_s": 2555.32,
+      "fim_s": 2557.32,
+      "texto": "O senhor tem um minuto.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 687,
+      "inicio_s": 2557.32,
+      "fim_s": 2564.32,
+      "texto": "Renata e Trale e telespectadores sabem que estão nos assistindo.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 688,
+      "inicio_s": 2564.32,
+      "fim_s": 2574.32,
+      "texto": "Eu quero dizer para vocês que eu vivo hoje, aos 80 anos, o melhor momento da minha passagem pelo planeta Terra.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 689,
+      "inicio_s": 2574.32,
+      "fim_s": 2578.32,
+      "texto": "Eu tenho consciência do que nós fizemos nesse país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 690,
+      "inicio_s": 2578.32,
+      "fim_s": 2583.32,
+      "texto": "Eu tenho dito para todo mundo que se você pesquisar desde a Proclamação da República até o dia de hoje,",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 691,
+      "inicio_s": 2583.32,
+      "fim_s": 2590.32,
+      "texto": "você não vai encontrar nenhum governo que fez a quantidade de política de inclusão social que nós fizemos.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 692,
+      "inicio_s": 2590.32,
+      "fim_s": 2597.32,
+      "texto": "É muito estranho dizer que o metalúrgico sem diploma universitário é o presidente que mais fez universidade nesse país.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 693,
+      "inicio_s": 2597.32,
+      "fim_s": 2611.32,
+      "texto": "É importante dizer que quando eu cheguei na presidência nós tínhamos 5 milhões de trabalhadores no mercado de trabalho com diploma universitário.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 694,
+      "inicio_s": 2611.32,
+      "fim_s": 2620.32,
+      "texto": "Hoje nós temos 25 milhões e eu quero chegar a 50, porque eu quero que o Brasil seja exportador de inteligência e de conhecimento.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 695,
+      "inicio_s": 2620.32,
+      "fim_s": 2629.32,
+      "texto": "Eu não quero que o Brasil continue exportando, sabe, minerais, minério de ferro, soja e milho, sabe, que é muito importante.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 696,
+      "inicio_s": 2629.32,
+      "fim_s": 2633.32,
+      "texto": "Mas é importante a gente exportar inteligência, que é isso que vai dar competitividade.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 697,
+      "inicio_s": 2633.32,
+      "fim_s": 2638.32,
+      "texto": "Nós vamos fazer um forte investimento em educação, vamos apresentar um plano de educação.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 698,
+      "inicio_s": 2638.32,
+      "fim_s": 2640.32,
+      "texto": "Terminou o tempo, candidato.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 699,
+      "inicio_s": 2640.32,
+      "fim_s": 2641.32,
+      "texto": "Então, obrigado.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 700,
+      "inicio_s": 2641.32,
+      "fim_s": 2643.32,
+      "texto": "Quero agradecer muito a entrevista.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 701,
+      "inicio_s": 2643.32,
+      "fim_s": 2644.32,
+      "texto": "Muito obrigado aqui pela sua presença.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 702,
+      "inicio_s": 2644.32,
+      "fim_s": 2645.32,
+      "texto": "Obrigado, Trano.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 703,
+      "inicio_s": 2645.32,
+      "fim_s": 2646.32,
+      "texto": "Obrigado, Renata.",
+      "falante": "Lula",
+      "papel": "entrevistado"
+    },
+    {
+      "i": 704,
+      "inicio_s": 2646.32,
+      "fim_s": 2647.32,
+      "texto": "Obrigada.",
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 705,
+      "inicio_s": 2647.32,
+      "fim_s": 2651.32,
+      "texto": "O nosso entrevistado é Flávio Bolsonaro, o candidato Flávio Bolsonaro do PL.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 706,
+      "inicio_s": 2651.32,
+      "fim_s": 2652.32,
+      "texto": "Boa noite.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 707,
+      "inicio_s": 2652.32,
+      "fim_s": 2653.32,
+      "texto": "Boa noite.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    },
+    {
+      "i": 708,
+      "inicio_s": 2653.32,
+      "fim_s": 2655.32,
+      "texto": "Muito obrigado e até amanhã.",
+      "falante": "César Tralli",
+      "papel": "entrevistador"
+    }
+  ],
+  "correcoes_aplicadas": 5
+}

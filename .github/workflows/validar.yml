@@ -1,0 +1,58 @@
+name: validar
+
+# A porta do repositório, rodando a cada mudança.
+#
+# ⚠️ O que roda aqui NÃO precisa do vídeo nem do áudio, que não entram no git. O que é
+# conferido é o que sustenta um veredito: o esquema dos dados, a citação contra a
+# transcrição, o lastro de cada número, as duas fontes independentes e o tempo de tela.
+#
+# ⛔ O que a CI NÃO substitui: a conferência com o olho sobre o vídeo renderizado.
+# Ver docs/REPLICAR.md §3.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+
+      - name: instalar
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r requirements-dev.txt
+          pip install -e .
+
+      - name: lint
+        run: ruff check src tests ferramentas
+
+      - name: testes
+        run: pytest -q
+
+      - name: validar o caso publicado
+        run: |
+          python -m checagem validar 2026-08-27-sabatina-lula-globo \
+              --recorte bloco-contas-publicas
+
+  documentacao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: nenhum link interno quebrado
+        run: python ferramentas/conferir-links.py
