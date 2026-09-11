@@ -1,6 +1,6 @@
 # ESTADO — onde o trabalho parou
 
-**Atualizado em:** 06/set/2026
+**Atualizado em:** 06/set/2026 · 🔧 11/set/2026 (duas correções de documentação, nenhuma de veredito: ver `CHANGELOG.md` 0.1.1)
 
 Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que está pronto, o que falta, e o comando exato para retomar. ⛔ Ele não guarda doutrina: isso é [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -36,7 +36,7 @@ O pipeline está completo e roda de ponta a ponta. **Um caso foi fechado** — o
 | Trecho checado | `bloco-contas-publicas` — 22:32 a 27:24 (4min52s) |
 | Alegações | 23 (18 do entrevistado, 5 da entrevistadora) + 1 exclusão declarada |
 | Vereditos | 15 verdadeiro · 3 impreciso · 3 falso · 2 não checável |
-| Fontes | 56 citações, com URL, data de consulta e trecho copiado |
+| Fontes | 52 citações (33 URLs distintas, 20 instituições), com URL, data de consulta e trecho copiado · 🔧 era "56" até 11/set, número escrito sem contar |
 | Validador | ✅ 0 erros, 0 avisos |
 | Vídeo | ✅ 1920x1080, 30 fps, 4min52s, áudio a −28 dB, duração idêntica à entrada |
 

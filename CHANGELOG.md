@@ -5,6 +5,15 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.1.1] — 11/set/2026
+
+### Corrigido
+
+- **A contagem de fontes estava errada em dois documentos.** `ESTADO.md` e este `CHANGELOG` diziam **56 citações de fonte**; a contagem feita sobre `checagens-bloco-contas-publicas.json` dá **52** (33 URLs distintas, 20 instituições). O 56 foi escrito sem ser contado, e nenhum validador confere número de documentação. Descoberto ao reunir material para um vídeo sobre o projeto, pela regra de recalcular número derivado antes de reusá-lo. ⚠️ Nenhum veredito, fonte ou alegação mudou: só o número que descrevia o total.
+- **A documentação dizia que o erro do "desde 1986" tinha sido pego pela revisão humana. Não foi.** O registro da sessão de 06/set mostra que quem pegou foi uma segunda leitura da própria IA, depois de o validador reprovar outros itens; nenhuma pessoa tinha lido a checagem naquele momento. Corrigido em `casos/.../CORRECOES.md` (com a linha antiga riscada, não apagada), em `docs/METODOLOGIA.md` §3.1 e na limitação abaixo. ⚠️ É o mesmo defeito do erro que a frase descrevia: soava certo e foi escrito sem conferir. **Revisão humana registrada segue em zero** (`ESTADO.md`, item 2).
+
+---
+
 ## [0.1.0] — 06/set/2026
 
 Primeira versão. Prova de conceito completa: um caso real, do arquivo de vídeo ao vídeo checado, com o processo inteiro aberto.
@@ -38,7 +47,7 @@ Primeira versão. Prova de conceito completa: um caso real, do arquivo de vídeo
 
 **35 testes**, incluindo regressão sobre o caso publicado, e CI que roda lint, testes, validador e links.
 
-**O caso `2026-08-27-sabatina-lula-globo`:** sabatina da TV Globo com Luiz Inácio Lula da Silva, 44min33s. Transcrição completa (709 segmentos), 110 turnos de falante justificados um a um, e o bloco de contas públicas (4min52s) checado com **23 alegações** e 56 citações de fonte.
+**O caso `2026-08-27-sabatina-lula-globo`:** sabatina da TV Globo com Luiz Inácio Lula da Silva, 44min33s. Transcrição completa (709 segmentos), 110 turnos de falante justificados um a um, e o bloco de contas públicas (4min52s) checado com **23 alegações** e 52 citações de fonte (33 URLs distintas).
 
 ### Decisões de arquitetura registradas
 
@@ -75,7 +84,7 @@ Registrado em [`casos/2026-08-27-sabatina-lula-globo/CORRECOES.md`](casos/2026-0
 
 ### Limitações conhecidas
 
-- O validador **não pega ano errado** dentro de um resumo: ano é tratado como data, não como quantidade. Foi assim que o "desde 1986" passou, e quem pegou foi a revisão humana.
+- O validador **não pega ano errado** dentro de um resumo: ano é tratado como data, não como quantidade. Foi assim que o "desde 1986" passou; quem pegou foi uma segunda leitura da própria IA, não uma pessoa (🔧 corrigido em 0.1.1).
 - O detector de frequência fundamental (`ferramentas/medir-tom.py`) **não separa vozes** em áudio de televisão comprimido. Ficou no repositório porque avisa quando não serve.
 - A voz da retrospectiva de abertura do caso **não foi identificada**, e está declarada como narração em off, sem atribuição a ninguém.
 - **Sem revisão humana registrada** em nenhuma checagem. O esquema só a exige quando a confiança é baixa, e nenhuma é — mas a doutrina diz que nada vai ao ar sem uma pessoa ter lido.

@@ -94,7 +94,7 @@ Um número só é rebaixado de `VERDADEIRO` para `IMPRECISO` quando o desvio **m
 
    O validador confere que **todas as parcelas de `de` aparecem em algum `trecho`** e só então aceita o valor. 🔑 A diferença entre isto e uma exceção genérica é que aqui a conta fica escrita e qualquer pessoa refaz. ⛔ Não use `derivacoes` para dar passagem a número que você não achou: isso é `INSUSTENTAVEL`.
 
-   ⚠️ **O que a regra 6 não pega:** ano. `1986` em "a maior taxa desde 1986" passa pelo validador porque ano é tratado como data, não como quantidade. Isso é decisão consciente para o aviso não virar ruído, e o preço é que **ano errado só cai na revisão humana**. Aconteceu na primeira rodada deste repositório, e está registrado em `casos/2026-08-27-sabatina-lula-globo/CORRECOES.md`.
+   ⚠️ **O que a regra 6 não pega:** ano. `1986` em "a maior taxa desde 1986" passa pelo validador porque ano é tratado como data, não como quantidade. Isso é decisão consciente para o aviso não virar ruído, e o preço é que **ano errado só cai numa leitura que não seja o validador**. Aconteceu na primeira rodada deste repositório, e está registrado em `casos/2026-08-27-sabatina-lula-globo/CORRECOES.md`. 🔧 **Quem pegou foi uma segunda leitura da própria IA, não uma pessoa** (até 11/set este parágrafo dizia "revisão humana", e estava errado). É exatamente por isso que a revisão humana segue obrigatória antes de publicar: uma releitura da mesma IA pegou este caso, e nada garante que pegue o próximo.
 
 ---
 
