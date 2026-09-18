@@ -54,7 +54,7 @@ O pipeline está completo e roda de ponta a ponta. **Um caso foi fechado** — o
 
 3. **Abrir um segundo caso.** A série de sabatinas teve seis candidatos. Um segundo caso é o que prova que o pipeline não foi moldado para um vídeo só. ⚠️ Serve também para testar a atribuição de falante numa peça com outra dinâmica de interrupção.
 
-4. **Publicar o repositório.** Ele nasce privado; a abertura é decisão do autor.
+4. ~~**Publicar o repositório.**~~ ✅ **Público desde 18/set/2026**, por decisão do autor, para o vídeo que conta o projeto. Antes de abrir, o histórico inteiro foi varrido: nenhuma chave, nenhum `.env`, nenhum e-mail, nenhum caminho local. ⚠️ O item 2 (revisão humana declarada) continua aberto: o repositório público mostra as checagens como a IA as deixou, com as correções registradas.
 
 ---
 
