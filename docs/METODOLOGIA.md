@@ -96,6 +96,10 @@ Um número só é rebaixado de `VERDADEIRO` para `IMPRECISO` quando o desvio **m
 
    ⚠️ **O que a regra 6 não pega:** ano. `1986` em "a maior taxa desde 1986" passa pelo validador porque ano é tratado como data, não como quantidade. Isso é decisão consciente para o aviso não virar ruído, e o preço é que **ano errado só cai numa leitura que não seja o validador**. Aconteceu na primeira rodada deste repositório, e está registrado em `casos/2026-08-27-sabatina-lula-globo/CORRECOES.md`. 🔧 **Quem pegou foi uma segunda leitura da própria IA, não uma pessoa** (até 11/set este parágrafo dizia "revisão humana", e estava errado). É exatamente por isso que a revisão humana segue obrigatória antes de publicar: uma releitura da mesma IA pegou este caso, e nada garante que pegue o próximo.
 
+   🔧 **Desde a versão 0.2.0 (26/set/2026), o ano também é cobrado**, por uma trava separada (`anos_de()` no validador): todo ano que aparece em `resumo`, `ressalva` ou `numero_apurado` precisa estar num trecho de fonte, na própria fala, na `data_de_referencia` ou numa derivação declarada. Ela gera **aviso**, não erro, porque ano aparece em lugar legítimo demais para reprovar sem leitura; e o aviso tem que ser lido e resolvido, não ignorado. Na primeira passada ela achou cinco textos de tela do caso publicado com ano ou número sem trecho, todos registrados em `CORRECOES.md` do caso. A mesma versão estendeu a regra 6 à `ressalva`, que também vai para a tela e antes não era conferida.
+
+7. **A `ressalva` e o `resumo` são texto de tela**, e seguem as regras de [`escrita-de-card`](../.cursor/rules/escrita-de-card.mdc): ⛔ travessão e ⛔ leitura de intenção reprovam no validador.
+
 ---
 
 ## 4. O que vira alegação, e o que não vira

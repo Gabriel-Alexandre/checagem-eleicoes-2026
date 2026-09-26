@@ -83,6 +83,16 @@ sentido, sem juntar duas falas separadas. Corte interno se marca com `[...]`.
 Se a frase literal for longa demais para caber num card, **não corte na extração**: o campo
 `afirmacao` é onde você escreve a proposição enxuta. A `frase` continua sendo a prova.
 
+🔧 **E se a `frase` não couber nas duas linhas do card?** O PASSO 6 avisa, e a citação sairia
+com reticências, às vezes no meio de um número. O conserto é `citacao_card`: um trecho
+**literal** mais curto da mesma fala, com `[...]` onde cortar. O validador confere a
+`citacao_card` contra a transcrição e contra a própria `frase`, exatamente como confere a
+`frase`. ⛔ Não é resumo nem paráfrase, e não pode deixar de fora a palavra que é checada.
+
+| `frase` | `citacao_card` |
+|---|---|
+| "e nós conseguimos, mesmo com toda a dificuldade que foi, sabe, fazer a inflação cair para 4,5% no ano passado" | "nós conseguimos [...] fazer a inflação cair para 4,5% no ano passado" |
+
 ### 5. Escreva a `afirmacao`
 
 A proposição isolada, em uma linha, no formato "X é/foi Y". É isto que o passo 5 vai checar.

@@ -21,7 +21,10 @@ python -m checagem overlay <slug> --recorte <id>
 Cada cartela é um **quadro inteiro** de 1920x1080 transparente, já com moldura e tarja no lugar.
 Saem em `overlay/cartelas-<recorte>/` e o `plano-<recorte>.json` diz quando cada uma entra e sai.
 
-**Olhe os avisos.** `A012 fica só 1,8s na tela` quer dizer que duas falas checadas estão coladas.
+**Olhe os avisos.** `A007: citacao não cabe em duas linhas` quer dizer que a citação sairia
+cortada com reticências: escreva `citacao_card` (PASSO 4), nunca aumente o limite de linhas.
+
+`A012 fica só 1,8s na tela` quer dizer que duas falas checadas estão coladas.
 Não é para ignorar: card que ninguém consegue ler é ruído colorido. Conserto possível:
 
 - juntar duas alegações que são a mesma coisa checável (volta ao PASSO 4);
@@ -38,8 +41,13 @@ python -m checagem renderizar <slug> --recorte <id>
 ```
 
 `libx264 crf 16 preset slow`, `yuv420p`, áudio **copiado** sem reencodar, `+faststart`.
-O script confere sozinho que a duração de saída casa com a de entrada e que a faixa de áudio
-sobreviveu.
+O script confere sozinho que a duração de saída casa com a de entrada, **mais os segundos da
+cartela de encerramento**, e que a faixa de áudio sobreviveu.
+
+🔧 **A cartela de encerramento** fica sobre o último quadro congelado, depois do fim do trecho:
+diz onde conferir as fontes, como contestar e **quantas checagens tiveram revisão humana**. Ela é
+acrescentada ao fim, e não sobreposta, para nunca disputar a tela com um card. O áudio continua
+copiado; ele simplesmente acaba antes do vídeo.
 
 ⏱️ ~1 a 3 min para 5 minutos de vídeo. Uma peça de 45 min leva de 20 a 40 min.
 
@@ -92,8 +100,11 @@ cada alegação com veredito, a análise inteira e o trecho copiado de cada font
 
 Antes de publicar, três coisas que não são técnicas:
 
-1. **Uma pessoa leu os cards e as fontes.** A skill `checar-alegacao` produz; a publicação é
-   decisão humana.
+1. **Uma pessoa leu os cards e as fontes**, e registrou isso:
+   `python ferramentas/registrar-revisao.py <slug> --recorte <id> --revisor "Nome"`. A skill
+   `checar-alegacao` produz; a publicação é decisão humana. ⛔ A IA não preenche este campo em
+   nome de ninguém. Depois de registrar, rode o PASSO 6 de novo: a cartela de encerramento
+   mostra a contagem.
 2. **Direito de resposta declarado.** O `README` do caso diz como contestar e o que acontece
    quando a contestação procede.
 3. **O vídeo aponta para o repositório.** Card sem fonte visível vira acusação sem lastro; a marca
@@ -103,7 +114,8 @@ Antes de publicar, três coisas que não são técnicas:
 
 ## Antes de dar por fechado
 
-- [ ] `validar` sai com 0 erros
+- [ ] `validar` sai com 0 erros, e cada aviso foi lido e resolvido ou justificado
+- [ ] `python ferramentas/validar-todos.py` passa (é o que a CI roda)
 - [ ] avisos de card curto foram lidos e decididos, um a um
 - [ ] conferi com o olho ao menos um quadro por card, e um de intervalo
 - [ ] o MP4 tem áudio, tem 1920x1080 e a mesma duração da entrada

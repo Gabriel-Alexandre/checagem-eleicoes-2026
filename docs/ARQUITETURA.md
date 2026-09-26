@@ -111,6 +111,18 @@ em prosa não sobrevivem à quinta sessão de trabalho. As que estão em código
 comparada com texto normalizado. Um modelo parafraseia sem perceber, e aspa parafraseada num vídeo
 de checagem é exatamente o defeito que o projeto diz combater.
 
+## 7.1 Derivado não é exigido, é conferido
+
+**Decisão (0.2.0):** as cartelas PNG são derivadas e ficam fora do git; o validador **não** as
+exige num clone limpo, mas confere que o plano versionado concorda com as checagens (mesmo
+conjunto de ids, mesmo veredito). A CI redesenha as cartelas e reprova se o plano regerado
+diferir do versionado.
+
+**Por quê:** até a 0.1.1 o validador exigia as PNGs, e a CI reprovou em todos os pushes desde o
+primeiro commit. Uma porta que reprova sempre é tão inútil quanto uma que aprova sempre:
+ninguém olha mais para ela. O risco real não era a PNG faltar; era o plano ficar velho e a
+moldura sair com a cor de um veredito que já mudou.
+
 ## 8. Mídia fora do git, manifesto dentro
 
 **Decisão:** `.gitignore` cobre vídeo, áudio e render; `MIDIA.json` com `sha256` é versionado.
@@ -141,4 +153,9 @@ primeira. Com isso, a checagem feita num recorte serve, sem recálculo, para ren
 | **Inter** (OFL) | tipografia | qualquer fonte variável com acentuação latina serve |
 
 ⛔ Sem dependência de nuvem no caminho crítico. A única etapa que precisa de internet é a **busca
-de fontes** do PASSO 5 — que é justamente a etapa que precisa da internet por definição.
+de fontes** do PASSO 5, que é justamente a etapa que precisa da internet por definição.
+
+🌐 **O desvio documentado:** quando o ambiente de trabalho não alcança o YouTube nem os portais,
+os passos mecânicos (baixar, transcrever, capturar páginas) rodam num runner do GitHub com o
+mesmo motor e o mesmo modelo, e devolvem o resultado num release em rascunho. Ver
+[`NUVEM.md`](NUVEM.md). O runner é substituível por qualquer máquina com rede; o método não muda.

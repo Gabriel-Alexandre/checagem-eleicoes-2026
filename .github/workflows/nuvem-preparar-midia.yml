@@ -62,6 +62,15 @@ jobs:
           pip install -r requirements.txt "yt-dlp[default]"
           pip install -e .
 
+      - name: provedor de PO token para o YouTube
+        # O YouTube recusa IP de datacenter; um token de prova de origem gerado localmente
+        # (bgutil) às vezes basta para o cliente web. Se falhar, o download segue sem ele.
+        continue-on-error: true
+        run: |
+          pip install bgutil-ytdlp-pot-provider
+          docker run -d --name bgutil -p 4416:4416 brainicism/bgutil-ytdlp-pot-provider
+          sleep 5 && curl -s http://127.0.0.1:4416/ping || true
+
       - name: baixar a peça
         env:
           ARQ: ${{ steps.pedido.outputs.arquivo }}

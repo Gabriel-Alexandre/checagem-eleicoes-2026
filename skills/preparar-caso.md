@@ -32,8 +32,22 @@ Descubra, com busca na internet e ≥ 2 fontes:
 escrito na tela. Uma fonte dizendo "os entrevistadores foram A e B" não prova que **este arquivo**
 é aquele programa.
 
+⚠️ **Cópia de terceiro não é a íntegra do veículo até prova em contrário.** Vídeo reenviado por
+outro canal pode ter título editorializado, corte no começo ou no fim, ou trecho faltando. Confira
+a duração e o começo e o fim contra a transcrição publicada, e declare em `integralidade`: se não
+der para provar que está inteiro, é `desconhecido`, e o relatório avisa em cima.
+
+⚠️ **Busca de procedência pode trazer checagem publicada junto.** Se um resultado de busca
+mostrar, sem você pedir, o veredito de alguém sobre a peça, isso fica **declarado** no
+`CASO.json` (`procedencia.observacoes`). Não apaga o que você viu; torna visível o risco, e a
+varredura completa do PASSO 4 é o antídoto.
+
 Escreva `casos/<slug>/CASO.json` seguindo `esquemas/caso.schema.json`. O `slug` é
 `AAAA-MM-DD-<formato>-<pessoa>-<veiculo>`, tudo minúsculo com hífen.
+
+> 🌐 **Sem ffmpeg, whisper.cpp ou rede para o YouTube?** Os PASSOS 1 e 2 rodam num runner do
+> GitHub a partir de um `PEDIDO_NUVEM.json`: ver [`docs/NUVEM.md`](../docs/NUVEM.md). O método é o
+> mesmo; o caminho do download vai declarado na procedência.
 
 ## PASSO 1 · assinar e preparar a mídia
 
@@ -78,6 +92,16 @@ transcrição refazível.
 **Confira a transcrição contra a peça.** Numa sabatina de TV existe quase sempre uma transcrição
 publicada (Poder360, o próprio veículo). Divergência achada não se conserta em silêncio: vai em
 `transcricao/CORRECOES_DE_TRANSCRICAO.md`, com antes, depois e quem conferiu no áudio.
+
+🔑 **Não confira lendo dois textos lado a lado.** O olho cansa e pula. Rode:
+
+```bash
+python ferramentas/comparar-transcricao.py <slug> referencia.txt --so-relevantes
+```
+
+Ele alinha as duas sequências de palavras e lista cada janela em que divergem, com o tempo, e
+marca as que envolvem número ou nome próprio. ⚠️ A referência não é verdade (jornal edita e
+limpa a fala): divergência é **suspeita**, e só vira correção depois de conferida no áudio.
 
 ⚠️ **Nome próprio é onde o reconhecimento mais erra**, e nome próprio errado numa citação é
 exatamente o tipo de defeito que desqualifica o projeto. Confira um a um.

@@ -65,6 +65,16 @@ Ordem de busca, sempre:
 cita. O que ⛔ não pode é parar na agência: a fonte que entra no arquivo é a primária, e a agência
 entra como segunda fonte.
 
+### 2.1 Capture a página, e copie o trecho da captura
+
+O `trecho` é copiado, e para copiar é preciso ter a página inteira na mão. Liste as URLs em
+`casos/<slug>/checagens/PEDIDO_CAPTURA.json` e rode `ferramentas/capturar-fontes.py` (ou o
+workflow de nuvem, ver [`docs/NUVEM.md`](../docs/NUVEM.md)). O manifesto das capturas, com o
+`sha256` do que foi lido, vai para `checagens/CAPTURAS.json`.
+
+⛔ **Resumo de buscador não é fonte, e não é trecho.** Ele é texto escrito por um modelo sobre a
+página. A busca serve para descobrir a URL; o trecho sai da captura.
+
 ### 3. Teste a independência
 
 Duas matérias que reproduzem o mesmo release são **uma** fonte. Se os dois trechos que você
@@ -104,8 +114,8 @@ Três travas do `resumo`:
 |---|---|
 | `explicacao` | o raciocínio inteiro: que dado resolve, o que a fonte diz, por que este veredito e **não o vizinho**. Para `FALSO` e `INSUSTENTAVEL`, no mínimo ~120 caracteres, e o validador cobra |
 | `numero_dito` / `numero_apurado` | quando há número. Escreva com unidade |
-| `data_de_referencia` | obrigatório em `numero`, `serie_historica` e `valor_monetario`. Sem ela, um número certo vira anacronismo |
-| `ressalva` | o "certo, mas": arredondamento, recorte, intervalo de confiança, revisão pendente |
+| `data_de_referencia` | obrigatório em `numero`, `serie_historica` e `valor_monetario`, e o validador reprova sem ela. Sem ela, um número certo vira anacronismo |
+| `ressalva` | o "certo, mas": arredondamento, recorte, intervalo de confiança, revisão pendente. 🔧 **Ela vai para a tela**: todo número e todo ano dela precisa de trecho, igual ao `resumo` |
 | `divergencia_entre_fontes` | ⛔ silenciar divergência é o pior defeito possível aqui. Se IBGE e FGV não batem, isso vai escrito |
 | `confianca` | `alta` (N1 direta e inequívoca) · `media` (exige interpretação, ou só N2/N3) · `baixa` (fontes divergem, ou o dado tem revisão pendente) |
 
@@ -166,7 +176,8 @@ mudou no mês seguinte, isso não torna a frase falsa: vai na `ressalva`, com as
 - [ ] Toda alegação tem exatamente uma checagem, com o mesmo `id`
 - [ ] Todo veredito não `NAO_CHECAVEL` tem ≥ 2 fontes, com URLs diferentes
 - [ ] Alegação numérica tem ≥ 1 fonte N1 ou N2
-- [ ] Nenhum número no `resumo` ou em `numero_apurado` que não esteja num `trecho`
+- [ ] Nenhum número **nem ano** no `resumo`, na `ressalva` ou em `numero_apurado` que não esteja num `trecho` (ou numa derivação declarada)
+- [ ] Todo trecho foi copiado de uma página capturada, e a URL está em `CAPTURAS.json`
 - [ ] Todo `trecho` é copiado, e toda `prova` diz o que ele resolve **aqui**
 - [ ] `data_de_referencia` preenchida onde o esquema exige
 - [ ] Divergência entre fontes está escrita, não escondida

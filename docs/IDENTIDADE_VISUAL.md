@@ -81,10 +81,32 @@ Ele existe porque cortes deste vídeo vão circular sem a descrição. Um card a
 
 ## 6. A cartela de abertura
 
-7 segundos, no começo: o que cada cor quer dizer, e a frase "toda checagem tem no mínimo duas
-fontes independentes". Sem ela, a moldura verde é decoração. ⛔ Não pule a legenda por achar que
+7 segundos, no começo: o que cada cor quer dizer, a frase "toda checagem tem no mínimo duas
+fontes independentes" e o **endereço do repositório**. O subtítulo traz título, veículo (só
+quando o título ainda não o nomeia) e a data **legível** ("27/ago/2026", nunca "2026-08-27").
+Nenhuma cartela entra enquanto a legenda está na tela: a fila de cards começa depois dela. Sem ela, a moldura verde é decoração. ⛔ Não pule a legenda por achar que
 "todo mundo entende": a diferença entre `IMPRECISO` e `SEM COMPROVAÇÃO` é justamente o que
 distingue este projeto de um selo de "fake news".
+
+## 6.1 A cartela de encerramento
+
+8 segundos, **depois** do fim do trecho, sobre o último quadro congelado. Responde às três
+perguntas que um corte do vídeo deixa sem resposta: onde estão as fontes (o endereço), como se
+contesta (issue com fonte) e **quanto disto uma pessoa já leu** ("Revisão humana registrada: X
+de N", ou "nenhuma até esta versão").
+
+Por que depois e não sobre os últimos segundos: sobreposta, ela disputaria a tela com o último
+card. Por que o quadro congelado e não uma tela preta: o espectador continua vendo de onde veio.
+O áudio não é reencodado; ele acaba quando a peça acaba.
+
+⛔ Ela não traz placar por veredito. Contagem na tela vira ranking.
+
+## 6.2 Texto que não cabe
+
+Citação, resumo e ressalva têm **no máximo duas linhas** (`MAX_LINHAS_*` em `config.py`).
+Acima disso a cartela corta com reticências e o PASSO 6 e o validador **avisam**. Para a
+citação, o conserto é `citacao_card` (trecho literal menor, conferido contra a transcrição);
+para resumo e ressalva, reescrever. ⛔ Nunca diminuir a fonte ou aumentar o limite por caso.
 
 ## 7. Tempo de tela
 
@@ -101,5 +123,6 @@ na extração (duas alegações que eram uma), ⛔ nunca encolhendo a permanênc
 ## 8. O que nunca entra na tela
 
 ⛔ contagem cumulativa ("3ª informação falsa") · ⛔ adjetivo sobre a pessoa · ⛔ emoji ·
-⛔ URL longa · ⛔ travessão · ⛔ animação de entrada que chame mais atenção que o dado ·
+⛔ URL longa **dentro do card** (o endereço do repositório aparece só na abertura e no
+encerramento) · ⛔ travessão · ⛔ animação de entrada que chame mais atenção que o dado ·
 ⛔ música ou efeito sonoro sobre a fala original.

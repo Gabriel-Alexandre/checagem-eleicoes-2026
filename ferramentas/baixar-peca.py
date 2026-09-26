@@ -64,8 +64,18 @@ def _juntar(video: Path, audio: Path, destino: Path) -> bool:
     return r.returncode == 0
 
 
+def _duracao(caminho: Path) -> float:
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of",
+                        "default=nw=1:nk=1", str(caminho)], capture_output=True, text=True)
+    try:
+        return float(r.stdout.strip())
+    except ValueError:
+        return 0.0
+
+
 def _yt_dlp(url: str, destino: Path) -> bool:
-    for cliente in ("", "youtube:player_client=tv_simply,web_safari", "youtube:player_client=mweb"):
+    for cliente in ("", "youtube:player_client=web", "youtube:player_client=tv_simply,web_safari",
+                    "youtube:player_client=mweb", "youtube:player_client=web_embedded"):
         extra = ["--extractor-args", cliente] if cliente else []
         r = subprocess.run([
             "yt-dlp", "--no-playlist", *extra,
@@ -74,6 +84,8 @@ def _yt_dlp(url: str, destino: Path) -> bool:
         ])
         if r.returncode == 0 and destino.exists():
             return True
+        if "youtube" not in url and "youtu.be" not in url:
+            break
     return False
 
 
@@ -146,6 +158,24 @@ def main() -> int:
         if ok:
             caminho, registro["url_obtida"] = "yt-dlp", alt
             break
+
+    # 🔴 Um arquivo que baixou não é, por isso, a peça. A cópia "oficial" que chegou na primeira
+    # tentativa deste caso era um corte vertical de 2min44s. Abaixo da duração mínima do pedido,
+    # o arquivo é descartado e registrado como tal, e a próxima alternativa é tentada.
+    minima = float(pedido.get("duracao_minima_s", 0))
+    while ok and minima and _duracao(destino) < minima:
+        registro["tentativas"][-1]["descartado"] = (
+            f"duração {_duracao(destino):.0f}s abaixo da mínima de {minima:.0f}s: não é a íntegra")
+        destino.unlink()
+        ok = False
+        restantes = [u for u in pedido.get("alternativas", [])
+                     if u not in [t.get("url") for t in registro["tentativas"]]]
+        for alt in restantes:
+            ok = _yt_dlp(alt, destino)
+            registro["tentativas"].append({"caminho": "yt-dlp", "url": alt, "ok": ok})
+            if ok:
+                caminho, registro["url_obtida"] = "yt-dlp", alt
+                break
 
     registro["ok"] = ok
     registro["caminho"] = caminho if ok else None
