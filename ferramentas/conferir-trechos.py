@@ -120,7 +120,7 @@ def main() -> int:
     # O recibo é refeito do zero a cada conferência: URL que deixou de ser citada sai dele.
     por_url: dict[str, dict] = {}
 
-    ok = falhou = sem = 0
+    ok = falhou = sem = revistos = 0
     for c in checagens["checagens"]:
         for f in c.get("fontes", []):
             cap = capturas.get(f["url"])
@@ -143,6 +143,9 @@ def main() -> int:
                 entrada["trechos"][c["id"]] = "encontrado"
             elif "json" in reg.get("tipo", "") and revisto(f["trecho"], cap["texto"]):
                 entrada["trechos"][c["id"]] = (f"valor revisto pela fonte depois da consulta de {f['consultada_em']}")
+                revistos += 1
+                print(f"  ~  {c['id']} valor revisto pela fonte: {f['url'][:80]}")
+                continue
             else:
                 entrada["trechos"][c["id"]] = "não encontrado"
             if achou:
@@ -156,7 +159,8 @@ def main() -> int:
                       "encontrado na página capturada. O texto das páginas não entra no git."),
              "capturas": sorted(por_url.values(), key=lambda x: x["url"])}
     destino.write_text(json.dumps(saida, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"\n{ok} trechos encontrados · {falhou} não encontrados · {sem} fontes sem captura")
+    print(f"\n{ok} trechos encontrados · {revistos} com valor revisto pela fonte · {falhou} não encontrados · "
+          f"{sem} fontes sem captura")
     print(f"recibo em {destino.relative_to(RAIZ)}")
     return 0
 

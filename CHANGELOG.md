@@ -5,6 +5,60 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.2.0] · 26/set/2026
+
+Segunda rodada: o repositório olhado de fora, as travas que faltavam, o que o público apontou no vídeo publicado, e o segundo caso.
+
+### Corrigido
+
+- **A CI reprovava em todos os pushes desde o primeiro commit.** O validador exigia as cartelas PNG, que são derivadas e ficam fora do git: num clone limpo a porta fechava para todo mundo, e o `ESTADO.md` dizia que os três comandos passavam. Agora pasta ausente é nota, pasta incompleta é erro, e a CI desenha as cartelas antes de validar e reprova plano de overlay velho.
+- **A trava da citação casava em pedaço de palavra.** A comparação era de substring sobre o texto normalizado: uma citação que começasse no meio de uma palavra passava. Agora é palavra inteira, no validador e na conferência de trecho, com teste.
+- A captura de fonte lia página em Windows-1252 como UTF-8 (acento quebrado não é cópia literal) e não descomprimia gzip mandado sem pedido.
+- A documentação dizia `--fade` no PASSO 6, opção que nunca existiu; `FADE_S` era constante morta.
+- O relatório não avisava em cima quando a peça não é íntegra, regra de `etica-e-risco` §4 que só existia em prosa.
+
+### Adicionado: travas no validador
+
+Cada uma com teste que prova o defeito que pega (`tests/test_travas_novas.py`):
+
+- **ano na tela também precisa de lastro** (`anos_de()`), o conserto do "desde 1986";
+- número e ano da **ressalva** passam pela mesma regra do resumo;
+- **VERDADEIRO com número dito diferente do apurado** exige ressalva que mostre o valor apurado (defeito apontado por um espectador, ver abaixo);
+- travessão e leitura de intenção em texto de tela reprovam;
+- `data_de_referencia` obrigatória onde o esquema já dizia que era;
+- alegação fora da `cobertura` declarada reprova;
+- o plano de overlay tem que concordar com as checagens (veredito velho deixaria a moldura com a cor errada);
+- fonte consultada antes da extração vira aviso;
+- nota com a contagem de revisão humana e de capturas assinadas, e aviso para trecho que não está na página capturada.
+
+### Adicionado: a tela
+
+- `citacao_card`: trecho literal menor da fala, conferido contra a transcrição, para quando a citação não cabe em duas linhas. A cartela mede e avisa texto cortado.
+- Legenda de abertura sem o veículo repetido, com data legível, o endereço do repositório e "arredondamento vira ressalva".
+- **Cartela de encerramento** sobre o último quadro congelado: onde conferir, como contestar e quantas checagens tiveram revisão humana. O áudio continua copiado.
+- `midia recortar --enquadrar`: vídeo vertical entra inteiro em 1920x1080, sem corte nem deformação.
+
+### Adicionado: evidência e nuvem
+
+- `ferramentas/capturar-fontes.py` e `conferir-trechos.py`: cada fonte é capturada com sha256, e cada trecho é conferido contra a página. O recibo vai para `checagens/CAPTURAS.json`.
+- `ferramentas/comparar-transcricao.py`: lista onde a transcrição diverge de uma publicada, com prioridade para número e nome próprio.
+- `ferramentas/registrar-revisao.py`, para a pessoa que revisou registrar isso; `ferramentas/validar-todos.py`, o que a CI roda.
+- Workflows `nuvem-preparar-midia`, `nuvem-capturar-fontes` e `nuvem-segunda-passada`, para quem não tem a máquina ou a rede ([`docs/NUVEM.md`](docs/NUVEM.md)). Tudo volta num release em **rascunho**, que só quem tem escrita no repositório vê.
+
+### Corrigido no caso Lula, com registro em `CORRECOES.md`
+
+- **`A017` passou de VERDADEIRO para IMPRECISO.** O registro oficial do Senado lista Francisco Lopes como presidente do Banco Central aprovado em 1999; a checagem o tratava como interino, e o trecho da lista citada omitia a linha dele. Foram cinco presidentes e quatro trocas no governo FHC, não três.
+- `A021`: um espectador apontou "94 bi marcado como verdadeiro, com 92,4 bi na tela". O veredito estava certo pela régua (1,7%), mas o card não dizia o arredondamento. Corrigido, e a fonte da IFI apontava para uma URL que não existia.
+- `A007`: contestação pública (Argentina e Arábia Saudita). Arábia Saudita, improcedente; Argentina, procedente como divergência de conceito, agora no card. Veredito mantido pelo critério escrito antes da checagem.
+- `A009`: a média "0,9%" de 2011 a 2020 era projeção de 2019; o realizado é 0,3%.
+- Lastro de texto de tela em `A002`, `A006`, `A010`, `A011` e `A013`; trechos reescritos ou truncados refeitos como cópia literal em `A005`, `A006`, `A018`, `A020` e `A023`; revisão da série do BCB registrada em `A002` e `A003`.
+
+### O segundo caso
+
+`2026-08-28-sabatina-flavio-globo`. O vídeo pedido (cópia do canal "EDUARDO BOLSONARO" no YouTube) não pôde ser baixado: o YouTube recusa servidor, e a íntegra oficial do Globoplay não toca fora do Brasil. O caso foi feito sobre o **trecho oficial publicado pelo g1** (2min44s), declarado como `trecho` no topo do relatório e na cartela. Ver `ESTADO.md`.
+
+---
+
 ## [0.1.1] — 11/set/2026
 
 ### Corrigido
