@@ -303,9 +303,10 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
     except (KeyError, ValueError):
         extraido_em = None
     capturas_path = caso / "checagens" / "CAPTURAS.json"
+    capturas_doc = ler_json(capturas_path) if capturas_path.exists() else None
     urls_capturadas = (
-        {c["url"] for c in ler_json(capturas_path).get("capturas", []) if c.get("sha256")}
-        if capturas_path.exists() else None
+        {c["url"] for c in capturas_doc.get("capturas", []) if c.get("sha256")}
+        if capturas_doc else None
     )
     urls_citadas: set[str] = set()
     revisadas = 0
@@ -458,6 +459,14 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
                  f"{len(urls_citadas)} URLs citadas têm sha256 em checagens/CAPTURAS.json")
         for u in sem_captura[:5]:
             rel.aviso(f"URL citada sem captura assinada: {u[:90]}")
+        conferidos = [(c["url"], aid, r) for c in capturas_doc["capturas"]
+                      for aid, r in (c.get("trechos") or {}).items()]
+        achados = sum(1 for _, _, r in conferidos if r == "encontrado")
+        rel.nota(f"trechos conferidos contra a página capturada: {achados} de {len(conferidos)} encontrados")
+        for url, aid, r in conferidos:
+            if r != "encontrado":
+                rel.aviso(f"{aid}: o trecho citado não foi encontrado na captura de {url[:80]} — "
+                          "a página mudou, ou o trecho não é cópia literal")
     if len(alegacoes) >= 10 and por_papel.get("entrevistador", 0) == 0:
         rel.aviso("nenhuma alegação de entrevistador em 10+ alegações — "
                   "a pergunta também afirma fato (METODOLOGIA §4.1)")

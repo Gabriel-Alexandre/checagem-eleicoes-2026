@@ -116,6 +116,8 @@
 
 **Análise:** A série do Banco Central registra a Dívida Bruta do Governo Geral em 71,68% do PIB em dezembro de 2022, último mês antes da posse, e em 81,93% em junho de 2026, o dado mais recente publicado na data da entrevista. A diferença é de 10,25 pontos percentuais, o que confere com a afirmação de alta de 10 pontos. O dado de julho, divulgado quatro dias depois da entrevista, subiu para 82,51%, o que levaria a diferença a 10,8 pontos.
 
+**Ressalva:** Arredondado: a alta exata é de 10,25 pontos, de 71,68% para 81,93% do PIB.
+
 **Confiança:** alta
 
 **Números derivados por cálculo:**
@@ -264,10 +266,10 @@
 
 **Fontes:**
 
-1. `N1` **Banco Central do Brasil**: [SGS série 5793 — NFSP, resultado primário, setor público consolidado (% do PIB, 12 meses)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-05
-   > {"data":"01/12/2003","valor":"-3.24"},{"data":"01/12/2004","valor":"-3.69"},{"data":"01/12/2005","valor":"-3.74"},{"data":"01/12/2006","valor":"-3.15"},{"data":"01/12/2007","valor":"-3.24"},{"data":"01/12/2008","valor":"-3.33"},{"data":"01/12/2009","valor":"-1.94"},{"data":"01/12/2010","valor":"-2.62"}
+1. `N1` **Banco Central do Brasil**: [SGS série 5793 — NFSP, resultado primário, setor público consolidado (% do PIB, 12 meses)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-26
+   > {"data":"01/12/2003","valor":"-3.24"},{"data":"01/12/2004","valor":"-3.69"},{"data":"01/12/2005","valor":"-3.74"},{"data":"01/12/2006","valor":"-3.15"},{"data":"01/12/2007","valor":"-3.24"},{"data":"01/12/2008","valor":"-3.33"},{"data":"01/12/2009","valor":"-1.94"},{"data":"01/12/2010","valor":"-2.62"},{"data":"01/12/2021","valor":"-0.72"},{"data":"01/12/2022","valor":"-1.25"},{"data":"01/12/2023","valor":"2.28"},{"data":"01/12/2024","valor":"0.40"},{"data":"01/12/2025","valor":"0.43"}
 
-   *O que prova:* Na convenção da série, valor negativo é superávit. Os doze meses encerrados em dezembro de cada ano de 2003 a 2010 são todos negativos: oito anos seguidos de superávit primário, entre 1,94% e 3,74% do PIB.
+   *O que prova:* Na convenção da série, valor negativo é superávit. Os doze meses encerrados em dezembro de cada ano de 2003 a 2010 são todos negativos: oito anos seguidos de superávit primário, entre 1,94% e 3,74% do PIB. Os anos de 2021 a 2025, acrescentados ao trecho em 26/set/2026, sustentam a ressalva do card: superávit em 2021 e 2022 (valores negativos) e déficit em 2023, 2024 e 2025 (valores positivos).
 
 2. `N2` **Fundo Monetário Internacional**: [DataMapper — Primary net lending/borrowing (% of GDP), Brasil](https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT) · consultada em 2026-09-05
    > "BRA":{"2003":3.55,"2004":4.05,"2005":3.86,"2006":1.51,"2007":2.88,"2008":3.21,"2009":0.91,"2010":1.58,"2011":2.74,"2012":2.22,"2013":1.52,"2014":-0.9}
@@ -296,23 +298,33 @@
 
 **Análise:** A base de resultado primário do FMI, que cobre os 19 países membros do G20, mostra que apenas o Brasil registrou saldo primário positivo em cada um dos oito anos de 2003 a 2010. Todos os demais têm pelo menos um ano negativo no período, e na maioria dos casos a quebra vem em 2009, ano das respostas fiscais à crise financeira: Rússia (-6,20% em 2009), Arábia Saudita (-5,53%), Canadá (-2,78%), Austrália (-4,51%), África do Sul (-2,62%), Coreia do Sul (-0,66% já em 2004 e -0,43% em 2009), Argentina (-0,49%), Indonésia (-0,08%), México (-0,99%), Turquia (-0,87%) e Itália (-0,87%). Alemanha, China, Estados Unidos, França, Índia, Japão e Reino Unido tiveram déficits primários em vários anos do período. Duas ressalvas de leitura: o G20 tem 19 países membros mais União Europeia e União Africana, e a base do FMI mede o governo geral, conceito que não é idêntico ao do setor público consolidado usado no Brasil.
 
-**Ressalva:** O G20 tem 19 países membros mais dois blocos; a comparação foi feita entre os 19 países.
+**Ressalva:** Vale na série comparável do FMI. No conceito nacional argentino, a Argentina também fechou 2009 com superávit primário (1,53% do PIB).
 
-**⚠️ Divergência entre fontes:** A base do FMI mede o governo geral; a série brasileira mais citada mede o setor público consolidado, que inclui estatais. Os dois conceitos dão números diferentes para o Brasil (por exemplo, 0,91% contra 1,94% em 2009), mas ambos são positivos em todos os oito anos, então a conclusão não muda.
+**⚠️ Divergência entre fontes:** A base do FMI mede o governo geral; a série brasileira mais citada mede o setor público consolidado, que inclui estatais. Os dois conceitos dão números diferentes para o Brasil (por exemplo, 0,91% contra 1,94% em 2009), mas ambos são positivos em todos os oito anos, então a conclusão não muda. 🔧 26/set/2026, após contestação pública: pelo conceito NACIONAL argentino (setor público nacional não financeiro, sem as províncias e com as rendas do Banco Central e do fundo da previdência), a Argentina também teve superávit primário em todos os anos de 2003 a 2010: 1,53% do PIB em 2009, segundo o anúncio oficial reproduzido na imprensa, e superávit em 2010, segundo o próprio Ministerio de Economía, que chama 2010 de último ano de superávit antes de 2019 e 2024. No conceito do FMI (governo geral, com as províncias), comparável entre os países, a Argentina fica negativa em 2009 (-0,49%) e 2010 (-0,54%). O veredito segue o critério registrado ANTES da checagem ('base do FMI'), e a afirmação é de comparação internacional, que exige série comparável; mas a divergência muda a leitura e agora vai no card. A Arábia Saudita, também citada na contestação, tem déficit primário de 5,53% do PIB em 2009 no FMI e não se qualifica em nenhum conceito encontrado.
 
 **Confiança:** media
 
 **Fontes:**
 
-1. `N2` **Fundo Monetário Internacional**: [DataMapper — Primary net lending/borrowing (% of GDP), membros do G20](https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT) · consultada em 2026-09-05
-   > "BRA":{"2003":3.55,"2004":4.05,"2005":3.86,"2006":1.51,"2007":2.88,"2008":3.21,"2009":0.91,"2010":1.58} · "RUS":{"2009":-6.2} · "SAU":{"2009":-5.53} · "KOR":{"2004":-0.66,"2009":-0.43} · "AUS":{"2008":-1.13,"2009":-4.51} · "CAN":{"2009":-2.78} · "ARG":{"2009":-0.49} · "ZAF":{"2009":-2.62} · "IDN":{"2009":-0.08} · "MEX":{"2009":-0.99} · "TUR":{"2009":-0.87} · "ITA":{"2009":-0.87}
+1. `N2` **Fundo Monetário Internacional**: [DataMapper — Primary net lending/borrowing (% of GDP), membros do G20](https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT) · consultada em 2026-09-26
+   > "BRA":{"2003":3.5534131319219,"2004":4.0510971522081,"2005":3.8647871630283,"2006":1.5066524175739,"2007":2.8804573789676,"2008":3.2133101107755,"2009":0.91177865293406,"2010":1.5795912276201} · "ARG":{"2009":-0.48791372357449,"2010":-0.53844789986599} · "SAU":{"2009":-5.5332245099156} · "RUS":{"2009":-6.1967160033188} · "KOR":{"2004":-0.65634314163133,"2009":-0.42743437798164} · "AUS":{"2008":-1.1287508990534,"2009":-4.5093651256432} · "CAN":{"2009":-2.7760488858511} · "ZAF":{"2009":-2.6208958822149} · "IDN":{"2009":-0.084298633840012} · "MEX":{"2009":-0.99085334732799} · "TUR":{"2009":-0.86992113575845} · "ITA":{"2009":-0.87323646698108}
 
-   *O que prova:* Os oito anos positivos do Brasil e, em cada um dos demais membros do G20, ao menos um ano negativo entre 2003 e 2010 — o que os elimina da sequência. Os candidatos mais prováveis (Rússia, Arábia Saudita e Coreia do Sul) foram conferidos um a um.
+   *O que prova:* Os oito anos positivos do Brasil e, em cada um dos demais membros do G20, ao menos um ano negativo entre 2003 e 2010 — o que os elimina da sequência. Os candidatos mais prováveis (Rússia, Arábia Saudita e Coreia do Sul) foram conferidos um a um. Trecho substituído em 26/set/2026 pela cópia literal da captura assinada: a versão anterior tinha os valores arredondados para duas casas, e trecho arredondado não é cópia.
 
 2. `N1` **Banco Central do Brasil**: [SGS série 5793 — resultado primário do setor público consolidado](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-05
    > {"data":"01/12/2009","valor":"-1.94"},{"data":"01/12/2010","valor":"-2.62"}
 
    *O que prova:* Confirma, na fonte brasileira, que 2009 e 2010, os anos mais frágeis da série, seguiram positivos aqui enquanto viravam negativos na maior parte do G20.
+
+3. `N4` **La Arena (Argentina), com agência NA**: [Se redujo el superávit fiscal (20/jan/2010)](https://www.laarena.com.ar/el-pais/2010-1-20-4-29-4-se-redujo-el-superavit-fiscal) · consultada em 2026-09-26
+   > La presidenta Cristina Fernández anunció que el superávit fiscal del 2009 fue de 17.272 millones de pesos, lo que marca una fuerte caída, del 46,9 por ciento, respecto del 2008. Ese nivel de superávit representó un 1,53 por ciento del Producto Interno Bruto [...] En 2008, el superávit fiscal primario fue de 32.528,7 millones de pesos
+
+   *O que prova:* Resultado primário argentino de 2009 no conceito nacional: positivo, 1,53% do PIB. O número é primário: a queda de 46,9% sai da comparação com os 32.528,7 milhões de superávit primário de 2008. É a base da ressalva do card.
+
+4. `N1` **Ministerio de Economía de la Nación (Argentina)**: [El sector público nacional acumula un superávit primario de $ 25.000 millones en los primeros once meses del año (09/dez/2019)](https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-acumula-un-superavit-primario-de-25000-millones-en-los-primeros) · consultada em 2026-09-26
+   > Es la primera vez desde 2010 que el sector público nacional no financiero tiene superávit primario en los primeros once meses del año.
+
+   *O que prova:* Indica, na fonte oficial argentina, que 2010 teve superávit primário no conceito nacional. É indireta (fala dos onze primeiros meses), e por isso a explicação a trata como indicação, não como número.
 
 ---
 
@@ -428,6 +440,11 @@
 
    *O que prova:* Crescimento acima de 2% no ano imediatamente anterior à posse, sem o efeito de base da pandemia.
 
+3. `N1` **Senado Federal (Agência Senado)**: [Congresso empossa Lula e Alckmin na Presidência da República](https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica) · consultada em 2026-09-26
+   > 01/01/2023, 17h41 [...] O Congresso Nacional deu posse neste domingo (1º) a Luiz Inácio Lula da Silva, 39º presidente do Brasil e primeiro governante do Executivo federal a conquistar três vitórias em eleições diretas.
+
+   *O que prova:* Data da posse do terceiro mandato, que o card usa como marco: 2021 e 2022 são anteriores a ela.
+
 ---
 
 ### A011 · 🟢 VERDADEIRO · 00:24:05
@@ -445,12 +462,12 @@
 | | |
 |---|---|
 | Dito | 7,5% em 2010 |
-| Apurado | 7,5% (IBGE, Contas Nacionais Trimestrais, divulgado em 3 de março de 2011) |
+| Apurado | 7,5% (IBGE, Contas Nacionais Trimestrais, primeira divulgação do resultado anual) |
 | Data de referência | ano de 2010 |
 
 **Análise:** O release do IBGE de março de 2011 fecha o ano de 2010 com variação de 7,5% do PIB, e esse é o número que segue sendo citado para o ano. Uma ressalva de método que não muda o veredito: as Contas Nacionais passam por revisões, e um número de 2010 divulgado em 2011 é anterior à revisão metodológica que adotou 2010 como ano de referência. A afirmação usa a taxa oficial do ano, na forma como foi publicada e é usada desde então.
 
-**Ressalva:** Número da divulgação de 2011; séries de contas nacionais passam por revisão ao longo do tempo.
+**Ressalva:** Número da primeira divulgação do IBGE; séries de contas nacionais passam por revisão ao longo do tempo.
 
 **Confiança:** alta
 
@@ -529,6 +546,12 @@
 **Ressalva:** A média dos três anos é de cerca de 3,0%; o desvio está concentrado em 2025.
 
 **Confiança:** alta
+
+**Números derivados por cálculo:**
+
+| Valor | De | Como |
+|---|---|---|
+| cerca de 3,0% | `3,2 3,4 2,3` | média simples das três taxas anuais do IBGE: (3,2 + 3,4 + 2,3) / 3 = 2,97, arredondado para 3,0 |
 
 **Fontes:**
 
@@ -866,9 +889,15 @@
 
 **Análise:** O valor de cerca de R$ 94 bilhões corresponde ao estoque de precatórios e sentenças judiciais que a emenda constitucional de 2021 havia represado e que foi quitado em dezembro de 2023: R$ 92,4 bilhões, número apontado pelo Banco Central ao explicar o resultado primário do ano e detalhado em análise da Instituição Fiscal Independente do Senado. O desvio para o número citado é de 1,7%, dentro do arredondamento. A associação feita na fala também se sustenta: a Emenda Constitucional 126, de 21 de dezembro de 2022, conhecida como PEC da Transição, excluiu despesas dos limites do teto e definiu regras de transição para o orçamento de 2023, que é o instrumento que abriu espaço para esse pagamento. ⚠️ Precatório é dívida judicial reconhecida, não desvio de recurso: a fala usa 'rombo' no sentido de buraco orçamentário herdado, e é assim que a checagem a lê.
 
-**Ressalva:** A PEC da Transição em si abriu R$ 145 bilhões fora do teto; os R$ 92,4 bilhões são o pagamento de precatórios represados, um item dentro desse espaço.
+**Ressalva:** Arredondado: o valor apurado é R$ 92,4 bi; os 94 bi citados ficam 1,7% acima.
 
 **Confiança:** media
+
+**Números derivados por cálculo:**
+
+| Valor | De | Como |
+|---|---|---|
+| 1,7% | `94 contra 92,4` | desvio do número dito sobre o apurado: (94 menos 92,4) / 92,4 = 1,73% |
 
 **Fontes:**
 
@@ -882,10 +911,10 @@
 
    *O que prova:* Registra o mesmo valor como explicação do Banco Central para o resultado de dezembro de 2023, em fonte independente da anterior.
 
-3. `N1` **Presidência da República — Casa Civil**: [Emenda Constitucional nº 126, de 21 de dezembro de 2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm) · consultada em 2026-09-05
-   > Altera a Constituição Federal, para dispor sobre as emendas individuais ao projeto de lei orçamentária, e o Ato das Disposições Constitucionais Transitórias para excluir despesas dos limites previstos no art. 107; define regras para a transição da Presidência da República aplicáveis à Lei Orçamentária de 2023
+3. `N1` **Presidência da República — Casa Civil**: [Emenda Constitucional nº 126, de 21 de dezembro de 2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm) · consultada em 2026-09-26
+   > Altera a Constituição Federal, para dispor sobre as emendas individuais ao projeto de lei orçamentária, e o Ato das Disposições Constitucionais Transitórias para excluir despesas dos limites previstos no art. 107; define regras para a transição da Presidência da República aplicáveis à Lei Orçamentária de 2023 [...] Art. 3º O limite estabelecido no inciso I do caput do art. 107 do Ato das Disposições Constitucionais Transitórias fica acrescido em R$ 145.000.000.000,00 (cento e quarenta e cinco bilhões de reais) para o exercício financeiro de 2023.
 
-   *O que prova:* É a PEC da Transição citada na fala, e a ementa confirma que ela existe para excluir despesas do teto na transição, que é o vínculo afirmado.
+   *O que prova:* É a PEC da Transição citada na fala, e a ementa confirma que ela existe para excluir despesas do teto na transição, que é o vínculo afirmado. O art. 3º, acrescentado ao trecho em 26/set/2026, dá o tamanho do espaço aberto fora do teto (R$ 145 bilhões), citado na explicação.
 
 ---
 

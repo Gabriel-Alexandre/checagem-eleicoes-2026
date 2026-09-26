@@ -1,25 +1,31 @@
 {
   "caso": "2026-08-28-sabatina-flavio-globo",
-  "rodada": 2,
-  "finalidade": "Rodada 2: achar uma cópia da ÍNTEGRA da sabatina fora do YouTube, que recusa o runner. Nenhuma URL desta rodada é fonte de checagem.",
+  "rodada": 3,
+  "finalidade": "Rodada 3: achar a transmissão integral nas páginas de Facebook do g1, do Jornal Nacional e da GloboNews. Nenhuma URL é fonte de checagem.",
   "urls": [
-    "https://www.youtube.com/watch?v=o0W3MnZTqyA",
     {
-      "url": "https://g1.globo.com/busca/?q=Fl%C3%A1vio%20Bolsonaro%20entrevista%20Jornal%20Nacional%20%C3%ADntegra",
+      "url": "https://www.facebook.com/g1/videos/1119392200517935/",
       "navegador": true
     },
     {
-      "url": "https://globoplay.globo.com/busca/?q=Fl%C3%A1vio%20Bolsonaro%20entrevista",
+      "url": "https://www.facebook.com/g1/videos/",
       "navegador": true
     },
     {
-      "url": "https://rumble.com/search/all?q=sabatina%20fl%C3%A1vio%20bolsonaro%20jornal%20nacional",
+      "url": "https://www.facebook.com/jornalnacional/videos/",
       "navegador": true
     },
-    "https://www.dailymotion.com/search/flavio%20bolsonaro%20jornal%20nacional/videos",
-    "https://html.duckduckgo.com/html/?q=Fl%C3%A1vio%20Bolsonaro%20entrevista%20Jornal%20Nacional%2028%20agosto%202026%20%C3%ADntegra%20v%C3%ADdeo",
-    "https://html.duckduckgo.com/html/?q=globoplay%20entrevista%20Fl%C3%A1vio%20Bolsonaro%20sabatina%20Globo%202026",
-    "https://html.duckduckgo.com/html/?q=rumble%20Fl%C3%A1vio%20Bolsonaro%20Jornal%20Nacional%20entrevista%20completa",
-    "https://www.bing.com/search?q=Fl%C3%A1vio%20Bolsonaro%20sabatina%20Globo%20%C3%ADntegra%20v%C3%ADdeo%20globoplay%20g1"
+    {
+      "url": "https://www.facebook.com/GloboNews/videos/",
+      "navegador": true
+    },
+    {
+      "url": "https://www.facebook.com/FlavioBolsonaro/videos/",
+      "navegador": true
+    },
+    {
+      "url": "https://m.facebook.com/g1/videos/",
+      "navegador": true
+    }
   ]
 }

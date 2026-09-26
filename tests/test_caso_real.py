@@ -109,18 +109,20 @@ def test_resumo_cabe_no_card(alvo):
 
 
 def test_derivacoes_tem_as_parcelas_nos_trechos(alvo):
+    """A exceção declarada da regra 6 só vale se as parcelas da conta estiverem nas fontes, ou
+    na própria fala (o número dito, na conta que mede o desvio dele)."""
     slug, recorte = alvo
-    """A exceção declarada da regra 6 só vale se as parcelas da conta estiverem nas fontes."""
+    alegacoes = {a["id"]: a for a in ler(slug, f"alegacoes/alegacoes-{recorte}.json")["alegacoes"]}
     for c in ler(slug, f"checagens/checagens-{recorte}.json")["checagens"]:
         if not c.get("derivacoes"):
             continue
         trechos = " ".join(f["trecho"] for f in c["fontes"])
         nos_trechos = numeros_de(trechos)
         achatado = trechos.replace(" ", "").replace(",", "").replace(".", "")
+        da_fala = numeros_de(alegacoes[c["id"]]["frase"]) | numeros_de(c.get("numero_dito") or "")
         for d in c["derivacoes"]:
             for n in numeros_de(d["de"]):
-                assert n in nos_trechos or n in achatado, f"{c['id']}: parcela {n} sem lastro"
-
+                assert n in nos_trechos or n in achatado or n in da_fala, f"{c['id']}: parcela {n} sem lastro"
 
 def test_o_recorte_guarda_o_tempo_absoluto(alvo):
     slug, recorte = alvo
