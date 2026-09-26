@@ -787,8 +787,8 @@
 
    *O que prova:* Data a saída no fim de 2024 e a entrada do sucessor em janeiro de 2025, o que fecha os dois anos de coincidência com o mandato iniciado em 2023.
 
-2. `N4` **Wikipédia (lista com datas de posse e saída)**: [Lista de presidentes do Banco Central do Brasil](https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil) · consultada em 2026-09-05 · captura sha256 `baa5affa981efc7a…`
-   > Ilan Goldfajn 9 de junho de 2016 31 de dezembro de 2018 Michel Temer | 1 de janeiro de 2019 28 de fevereiro de 2019 Jair Bolsonar
+2. `N4` **Wikipédia (lista com datas de posse e saída)**: [Lista de presidentes do Banco Central do Brasil](https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil) · consultada em 2026-09-26 · captura sha256 `baa5affa981efc7a…`
+   > Ilan Goldfajn 9 de junho de 2016 31 de dezembro de 2018 Michel Temer | 1 de janeiro de 2019 28 de fevereiro de 2019 Jair Bolsonaro
 
    *O que prova:* Situa a indicação de Campos Neto no governo anterior, que é a outra metade da afirmação.
 
