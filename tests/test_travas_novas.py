@@ -142,3 +142,12 @@ def test_anos_de_pega_ano_e_ignora_valor():
     assert anos_de("entre 2003 e 2010") == {"2003", "2010"}
     assert anos_de("R$ 1.986,50") == set()
     assert anos_de("G2023") == set()
+
+
+def test_citacao_que_comeca_no_meio_de_palavra_reprova(caso):
+    """🔧 A comparação era de substring: "ndidato, a dívida" casava dentro de "Candidato, a
+    dívida". Citação é palavra inteira, ou não é citação."""
+    dados = alegacoes(caso)
+    dados["alegacoes"][0]["citacao_card"] = "ndidato, a dívida pública no seu governo ultrapassou"
+    gravar(caso, f"alegacoes/alegacoes-{RECORTE}.json", dados)
+    assert validar(SLUG, recorte=RECORTE) == 1

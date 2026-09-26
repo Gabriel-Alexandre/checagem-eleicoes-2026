@@ -86,8 +86,9 @@ def _carregar(pastas: list[Path]) -> dict[str, dict]:
 def conferir(trecho: str, texto: str, tipo: str) -> bool:
     if "json" in (tipo or ""):
         return _numeros(trecho) <= _numeros(texto)
-    alvo = _norm(texto)
-    return all(_norm(p) in alvo for p in trecho.split("[...]") if _norm(p))
+    # Palavra inteira: sem as margens, "o PIB" casaria dentro de "brutO PIB".
+    alvo = f" {_norm(texto)} "
+    return all(f" {_norm(p)} " in alvo for p in trecho.split("[...]") if _norm(p))
 
 
 def _valores(t: str) -> list[float]:

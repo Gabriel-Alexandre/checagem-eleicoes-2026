@@ -208,7 +208,8 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
     if desconhecidos:
         rel.erro(f"falantes na transcrição que não estão no CASO.json: {sorted(desconhecidos)}")
 
-    texto_normalizado = normalizar(" ".join(s["texto"] for s in segmentos))
+    # Com espaço nas pontas: a citação tem que casar em palavra inteira, e não dentro de outra.
+    texto_normalizado = f' {normalizar(" ".join(s["texto"] for s in segmentos))} '
     rel.nota(f"transcrição · {len(segmentos)} segmentos · "
              f"{sum(len(s['texto'].split()) for s in segmentos)} palavras")
 
@@ -251,7 +252,7 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
 
         # 🔴 a trava da citação
         for parte in _partes_da_citacao(a["frase"]):
-            if normalizar(parte) not in texto_normalizado:
+            if f" {normalizar(parte)} " not in texto_normalizado:
                 rel.erro(
                     f"{aid}: a citação NÃO existe na transcrição — "
                     f'"{parte.strip()[:70]}…"'
@@ -261,12 +262,12 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
         # A citação encurtada para a tela passa pela MESMA trava, e ainda tem que sair da
         # própria frase: encurtar não autoriza trocar de fala.
         if a.get("citacao_card"):
-            frase_norm = normalizar(" ".join(_partes_da_citacao(a["frase"])))
+            frase_norm = f' {normalizar(" ".join(_partes_da_citacao(a["frase"])))} '
             for parte in _partes_da_citacao(a["citacao_card"]):
-                if normalizar(parte) not in texto_normalizado:
+                if f" {normalizar(parte)} " not in texto_normalizado:
                     rel.erro(f'{aid}: a citacao_card NÃO existe na transcrição — "{parte.strip()[:70]}…"')
                     break
-                if normalizar(parte) not in frase_norm:
+                if f" {normalizar(parte)} " not in frase_norm:
                     rel.erro(f"{aid}: a citacao_card não é um trecho da própria `frase`")
                     break
 
@@ -279,7 +280,7 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
         if cobertura and not (cobertura["inicio_s"] - 0.5 <= e["inicio_s"] <= cobertura["fim_s"] + 0.5):
             rel.erro(f"exclusão em {hms(e['inicio_s'])} está fora da cobertura declarada")
         for parte in _partes_da_citacao(e["frase"]):
-            if normalizar(parte) not in texto_normalizado:
+            if f" {normalizar(parte)} " not in texto_normalizado:
                 rel.aviso(f"exclusão em {hms(e['inicio_s'])}: a frase não está na transcrição "
                           "(aceitável só se o motivo for justamente a transcrição não resolvida)")
                 break
