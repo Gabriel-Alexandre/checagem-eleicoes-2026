@@ -1,0 +1,68 @@
+name: nuvem-capturar-fontes
+
+# PASSO 5, a parte mecânica: baixar as páginas das fontes, guardar o bruto e assinar com
+# sha256. Existe para quem trabalha num ambiente cuja rede não alcança os portais de dados.
+#
+# Como disparar: escreva casos/<slug>/checagens/PEDIDO_CAPTURA.json (formato no cabeçalho de
+# ferramentas/capturar-fontes.py) e faça push numa branch. O resultado vai para o release em
+# RASCUNHO nuvem-<slug>, como capturas-rodada-<N>.tar.gz.
+#
+# ⛔ Este workflow não escolhe fonte nem escreve veredito. Ele só busca o que o pedido listou.
+
+on:
+  push:
+    paths:
+      - "casos/*/checagens/PEDIDO_CAPTURA.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nuvem-capturas-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  capturar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: descobrir o pedido
+        id: pedido
+        run: |
+          arquivo=$(git diff --name-only HEAD~1 HEAD -- 'casos/*/checagens/PEDIDO_CAPTURA.json' | head -1)
+          if [ -z "$arquivo" ]; then arquivo=$(ls casos/*/checagens/PEDIDO_CAPTURA.json | head -1); fi
+          echo "arquivo=$arquivo" >> "$GITHUB_OUTPUT"
+          echo "slug=$(echo "$arquivo" | cut -d/ -f2)" >> "$GITHUB_OUTPUT"
+          echo "rodada=$(python -c "import json;print(json.load(open('$arquivo')).get('rodada', 1))")" >> "$GITHUB_OUTPUT"
+
+      - name: instalar
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: capturar
+        env:
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: python ferramentas/capturar-fontes.py "$SLUG" --saida "capturas/$SLUG"
+
+      - name: publicar no release em rascunho
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+          RODADA: ${{ steps.pedido.outputs.rodada }}
+        run: |
+          tag="nuvem-$SLUG"
+          gh release view "$tag" >/dev/null 2>&1 || \
+            gh release create "$tag" --draft --title "nuvem · $SLUG" \
+              --notes "Rascunho de trabalho do caso $SLUG. Não publicar."
+          tar -czf "capturas-rodada-$RODADA.tar.gz" -C capturas "$SLUG"
+          gh release upload "$tag" --clobber "capturas-rodada-$RODADA.tar.gz"

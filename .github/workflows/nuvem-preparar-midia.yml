@@ -1,0 +1,151 @@
+name: nuvem-preparar-midia
+
+# PASSOS 1 e 2 rodando num runner do GitHub, para quem não tem ffmpeg nem whisper.cpp na
+# máquina, ou trabalha num ambiente cuja rede não alcança o YouTube e o Hugging Face.
+#
+# Como disparar: escreva casos/<slug>/fonte/PEDIDO_NUVEM.json (formato em docs/NUVEM.md) e
+# faça push numa branch. O runner baixa a peça pela URL do pedido, assina com sha256, extrai o
+# áudio, transcreve com o MESMO motor e o MESMO modelo do caminho local e publica tudo num
+# release em RASCUNHO chamado nuvem-<slug>.
+#
+# 🔴 Rascunho, e não release publicado, de propósito: rascunho só é visível para quem tem
+# permissão de escrita no repositório. O vídeo de origem pertence a quem o produziu, e o
+# projeto não o redistribui (README, "Licença"). O repositório continua guardando só o
+# manifesto, a transcrição e a checagem.
+#
+# ⛔ Este workflow não extrai alegação nem checa nada. Os PASSOS 4 e 5 são julgamento.
+
+on:
+  push:
+    paths:
+      - "casos/*/fonte/PEDIDO_NUVEM.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nuvem-midia-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: descobrir o pedido
+        id: pedido
+        run: |
+          arquivo=$(git diff --name-only HEAD~1 HEAD -- 'casos/*/fonte/PEDIDO_NUVEM.json' | head -1)
+          if [ -z "$arquivo" ]; then arquivo=$(ls casos/*/fonte/PEDIDO_NUVEM.json | head -1); fi
+          slug=$(echo "$arquivo" | cut -d/ -f2)
+          echo "arquivo=$arquivo" >> "$GITHUB_OUTPUT"
+          echo "slug=$slug" >> "$GITHUB_OUTPUT"
+          cat "$arquivo"
+
+      - name: instalar
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg cmake
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt "yt-dlp[default]"
+          pip install -e .
+
+      - name: baixar a peça
+        env:
+          ARQ: ${{ steps.pedido.outputs.arquivo }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: |
+          url=$(python -c "import json,os;print(json.load(open(os.environ['ARQ']))['url'])")
+          nome=$(python -c "import json,os;print(json.load(open(os.environ['ARQ']))['arquivo'])")
+          mkdir -p "casos/$SLUG/fonte"
+          # O YouTube recusa alguns clientes em IP de datacenter; tenta os outros antes de desistir.
+          for cliente in "" "youtube:player_client=tv_simply,web_safari" "youtube:player_client=mweb" \
+                         "youtube:player_client=android_vr"; do
+            extra=(); [ -n "$cliente" ] && extra=(--extractor-args "$cliente")
+            if yt-dlp --no-playlist --write-info-json "${extra[@]}" \
+                 -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b[height<=1080]" \
+                 --merge-output-format mp4 \
+                 -o "casos/$SLUG/fonte/${nome%.*}.%(ext)s" "$url"; then
+              break
+            fi
+            echo "::warning::download falhou com o cliente '${cliente:-padrão}'"
+          done
+          ls -la "casos/$SLUG/fonte"
+          ls casos/$SLUG/fonte/*.mp4
+
+      - name: assinar e extrair o áudio (PASSO 1)
+        env:
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: |
+          python -m checagem ativos baixar-fontes
+          python -m checagem midia "$SLUG" registrar
+          python -m checagem midia "$SLUG" audio
+
+      - name: quadros de referência (para atribuir falante e conferir a tela)
+        env:
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: |
+          mkdir -p quadros
+          video=$(ls casos/$SLUG/fonte/*.mp4 | head -1)
+          ffmpeg -v error -i "$video" -vf "fps=1/5,scale=640:-2" -q:v 5 quadros/q_%05d.jpg
+          tar -czf quadros.tar.gz quadros
+
+      - name: compilar o whisper.cpp
+        run: |
+          git clone --depth 1 --branch v1.8.2 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp \
+            || git clone --depth 1 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp
+          cmake -S /tmp/whisper.cpp -B /tmp/whisper.cpp/build -DCMAKE_BUILD_TYPE=Release \
+            -DBUILD_SHARED_LIBS=OFF -DWHISPER_BUILD_TESTS=OFF
+          cmake --build /tmp/whisper.cpp/build -j 4 --target whisper-cli
+          sudo cp /tmp/whisper.cpp/build/bin/whisper-cli /usr/local/bin/
+          (cd /tmp/whisper.cpp && git log -1 --format="whisper.cpp %H %cs") | tee whisper-versao.txt
+
+      - name: transcrever (PASSO 2)
+        env:
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: python -m checagem transcrever "$SLUG" --threads 4
+
+      - name: comentários de um vídeo publicado (opcional)
+        if: always()
+        env:
+          ARQ: ${{ steps.pedido.outputs.arquivo }}
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          pedido = json.load(open(os.environ["ARQ"]))
+          for i, url in enumerate(pedido.get("comentarios_de", [])):
+              subprocess.run(["yt-dlp", "--skip-download", "--write-comments", "--write-info-json",
+                              "-o", f"comentarios_{i}", url], check=False)
+          PY
+          ls comentarios_* 2>/dev/null || true
+
+      - name: publicar no release em rascunho
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: |
+          tag="nuvem-$SLUG"
+          gh release view "$tag" >/dev/null 2>&1 || \
+            gh release create "$tag" --draft --title "nuvem · $SLUG" \
+              --notes "Rascunho de trabalho do caso $SLUG. Não publicar: o vídeo de origem não é redistribuído pelo projeto."
+          if [ -d "casos/$SLUG/transcricao" ]; then
+            tar -czf transcricao.tar.gz -C "casos/$SLUG" transcricao fonte/MIDIA.json
+          fi
+          for f in casos/$SLUG/fonte/*.mp4 casos/$SLUG/fonte/*.wav casos/$SLUG/fonte/*.info.json \
+                   transcricao.tar.gz quadros.tar.gz whisper-versao.txt comentarios_*.info.json; do
+            [ -f "$f" ] && gh release upload "$tag" --clobber "$f"
+          done
+          true

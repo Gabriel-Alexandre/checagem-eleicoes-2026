@@ -61,3 +61,7 @@ tmp/
 *.tmp
 *.log
 !casos/*/transcricao/*.log
+
+# Capturas de fontes (ferramentas/capturar-fontes.py): páginas de terceiros, fora do git.
+# O que entra é o manifesto com sha256, em casos/*/checagens/CAPTURAS.json.
+capturas/
