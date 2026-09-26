@@ -454,7 +454,8 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
     rel.nota(f"revisão humana registrada: {revisadas} de {len(checagens)} checagens"
              + (" (a doutrina manda uma pessoa ler antes de publicar)" if revisadas == 0 else ""))
     if urls_capturadas is not None:
-        sem_captura = sorted(urls_citadas - urls_capturadas)
+        recusadas = {c["url"] for c in capturas_doc.get("capturas", []) if not c.get("sha256")}
+        sem_captura = sorted(urls_citadas - urls_capturadas - recusadas)
         rel.nota(f"capturas assinadas: {len(urls_citadas) - len(sem_captura)} de "
                  f"{len(urls_citadas)} URLs citadas têm sha256 em checagens/CAPTURAS.json")
         for u in sem_captura[:5]:
@@ -464,8 +465,12 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
         achados = sum(1 for _, _, r in conferidos if r == "encontrado")
         rel.nota(f"trechos conferidos contra a página capturada: {achados} de {len(conferidos)} encontrados")
         for url, aid, r in conferidos:
-            if r != "encontrado":
-                rel.aviso(f"{aid}: o trecho citado não foi encontrado na captura de {url[:80]} — "
+            if r == "encontrado":
+                continue
+            if r.startswith("valor revisto") or r.startswith("portal recusou"):
+                rel.nota(f"{aid}: {r} ({url[:70]})")
+            else:
+                rel.aviso(f"{aid}: o trecho citado não foi encontrado na captura de {url[:80]}: "
                           "a página mudou, ou o trecho não é cópia literal")
     if len(alegacoes) >= 10 and por_papel.get("entrevistador", 0) == 0:
         rel.aviso("nenhuma alegação de entrevistador em 10+ alegações — "

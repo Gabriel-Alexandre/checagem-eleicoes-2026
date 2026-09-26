@@ -56,7 +56,7 @@
       "id": "A002",
       "veredito": "VERDADEIRO",
       "resumo": "A dívida bruta saiu de 71,7% do PIB em dezembro de 2022 para 81,9% em junho de 2026: alta de 10,3 pontos",
-      "explicacao": "A série do Banco Central registra a Dívida Bruta do Governo Geral em 71,68% do PIB em dezembro de 2022, último mês antes da posse, e em 81,93% em junho de 2026, o dado mais recente publicado na data da entrevista. A diferença é de 10,25 pontos percentuais, o que confere com a afirmação de alta de 10 pontos. O dado de julho, divulgado quatro dias depois da entrevista, subiu para 82,51%, o que levaria a diferença a 10,8 pontos.",
+      "explicacao": "A série do Banco Central registra a Dívida Bruta do Governo Geral em 71,68% do PIB em dezembro de 2022, último mês antes da posse, e em 81,93% em junho de 2026, o dado mais recente publicado na data da entrevista. A diferença é de 10,25 pontos percentuais, o que confere com a afirmação de alta de 10 pontos. O dado de julho, divulgado quatro dias depois da entrevista, subiu para 82,51%, o que levaria a diferença a 10,8 pontos. 🔧 Revisão posterior da fonte, registrada em 26/set/2026: na captura de 26/set a série do Banco Central mostra 81,95% para junho de 2026 e 82,56% para julho, contra 81,93% e 82,51% na consulta de 05/set. O veredito vale para o dado da data da fala (METODOLOGIA §5), e a revisão não o altera.",
       "numero_dito": "10 pontos percentuais",
       "numero_apurado": "10,25 pontos percentuais (de 71,68% em dez/2022 para 81,93% em jun/2026)",
       "data_de_referencia": "dezembro de 2022 a junho de 2026",
@@ -101,7 +101,7 @@
       "id": "A003",
       "veredito": "VERDADEIRO",
       "resumo": "Na data da entrevista o dado mais recente do Banco Central era 81,9% do PIB, referente a junho de 2026",
-      "explicacao": "A Dívida Bruta do Governo Geral estava em 81,93% do PIB em junho de 2026, número publicado antes da entrevista, e subiu para 82,51% em julho, divulgado em 31 de agosto, quatro dias depois. Dizer 82% arredonda o dado vigente e antecipa o seguinte, sem alterar a ordem de grandeza nem a leitura. Uma observação de método que muda o número mas não a conclusão: o FMI, que usa outra abrangência para comparação internacional, projeta a dívida bruta brasileira em 96,5% do PIB para 2026. O percentual citado na pergunta é o do Banco Central, que é a referência doméstica usual.",
+      "explicacao": "A Dívida Bruta do Governo Geral estava em 81,93% do PIB em junho de 2026, número publicado antes da entrevista, e subiu para 82,51% em julho, divulgado em 31 de agosto, quatro dias depois. Dizer 82% arredonda o dado vigente e antecipa o seguinte, sem alterar a ordem de grandeza nem a leitura. Uma observação de método que muda o número mas não a conclusão: o FMI, que usa outra abrangência para comparação internacional, projeta a dívida bruta brasileira em 96,5% do PIB para 2026. O percentual citado na pergunta é o do Banco Central, que é a referência doméstica usual. 🔧 Revisão posterior da fonte, registrada em 26/set/2026: na captura de 26/set a série do Banco Central mostra 81,95% para junho de 2026 e 82,56% para julho, contra 81,93% e 82,51% na consulta de 05/set. O veredito vale para o dado da data da fala (METODOLOGIA §5), e a revisão não o altera.",
       "numero_dito": "82% do PIB",
       "numero_apurado": "81,93% do PIB em junho/2026; 82,51% em julho/2026",
       "data_de_referencia": "junho de 2026 (dado vigente na data da entrevista)",
@@ -288,9 +288,9 @@
       "id": "A009",
       "veredito": "IMPRECISO",
       "resumo": "A estagnação vale para 2011 a 2020, mas o PIB cresceu em cada um dos cinco anos seguintes",
-      "explicacao": "A leitura de uma década sem crescimento tem lastro: entre 2011 e 2020 o crescimento médio anual foi de cerca de 0,9%, e o período é descrito na literatura econômica como a pior década do país em mais de um século. O erro está no recorte temporal da frase. Contado de 2026 para trás, 'mais de dez anos sem crescer' inclui 2021 (4,8%), 2022 (3,0%), 2023 (3,2%), 2024 (3,4%) e 2025 (2,3%), cinco anos seguidos de crescimento, sendo três deles acima de 3%. A essência está certa e o recorte está errado, que é a definição de impreciso na metodologia deste projeto.",
+      "explicacao": "A leitura de uma década sem crescimento tem lastro: entre 2011 e 2020 o crescimento médio anual foi de 0,3%, segundo a FGV (0,36% na média simples da série do Banco Central), e o período é descrito na literatura econômica como a pior década do país em mais de um século. O erro está no recorte temporal da frase. Contado de 2026 para trás, 'mais de dez anos sem crescer' inclui 2021 (4,8%), 2022 (3,0%), 2023 (3,2%), 2024 (3,4%) e 2025 (2,3%), cinco anos seguidos de crescimento, sendo três deles acima de 3%. A essência está certa e o recorte está errado, que é a definição de impreciso na metodologia deste projeto. 🔧 Até 26/set/2026 esta checagem dizia 'cerca de 0,9%' e citava um texto do Blog do IBRE de 2019: aquele 0,9% era uma PROJEÇÃO para a década, feita antes da pandemia com as expectativas do Focus para 2019 e 2020, e a frase citada como trecho não estava na página. O número realizado é 0,3%. O veredito não muda.",
       "numero_dito": "mais de dez anos sem crescer",
-      "numero_apurado": "2011 a 2020: média de cerca de 0,9% ao ano. 2021 a 2025: 4,8%, 3,0%, 3,2%, 3,4% e 2,3%",
+      "numero_apurado": "2011 a 2020: média de 0,3% ao ano (FGV; 0,36% na média simples da série do Banco Central). 2021 a 2025: 4,8%, 3,0%, 3,2%, 3,4% e 2,3%",
       "data_de_referencia": "2011 a 2025",
       "ressalva": "A frase descreve corretamente a década de 2011 a 2020, não os dez anos anteriores à entrevista.",
       "confianca": "alta",
@@ -314,15 +314,6 @@
           "consultada_em": "2026-09-05",
           "trecho": "O Produto Interno Bruto (PIB) atingiu R$ 9 trilhões em 2021, com crescimento de 4,8% ante 2020.",
           "prova": "Mostra o primeiro dos cinco anos seguidos de crescimento que a frase desconsidera."
-        },
-        {
-          "nivel": "N2",
-          "instituicao": "FGV / Blog do IBRE",
-          "titulo": "A nova década perdida brasileira e o resto do mundo",
-          "url": "https://blogdoibre.fgv.br/posts/nova-decada-perdida-brasileira-e-o-resto-do-mundo-resultados-capita",
-          "consultada_em": "2026-09-05",
-          "trecho": "de 2011 a 2020, o crescimento médio do Brasil foi de apenas 0,9%",
-          "prova": "Sustenta a parte correta da afirmação: houve, sim, uma década de crescimento próximo de zero, e ela é 2011 a 2020."
         },
         {
           "nivel": "N1",
@@ -350,6 +341,31 @@
           "consultada_em": "2026-09-05",
           "trecho": "encerrou o ano com crescimento de 3,4%, totalizando R$ 11,7 trilhões.",
           "prova": "A taxa de 2024."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "SGS série 7326, PIB: taxa de variação real no ano",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
+          "consultada_em": "2026-09-26",
+          "trecho": "{\"data\":\"01/01/2011\",\"valor\":\"3.97\"},{\"data\":\"01/01/2012\",\"valor\":\"1.92\"},{\"data\":\"01/01/2013\",\"valor\":\"3.00\"},{\"data\":\"01/01/2014\",\"valor\":\"0.50\"},{\"data\":\"01/01/2015\",\"valor\":\"-3.55\"},{\"data\":\"01/01/2016\",\"valor\":\"-3.28\"},{\"data\":\"01/01/2017\",\"valor\":\"1.32\"},{\"data\":\"01/01/2018\",\"valor\":\"1.78\"},{\"data\":\"01/01/2019\",\"valor\":\"1.22\"},{\"data\":\"01/01/2020\",\"valor\":\"-3.28\"}",
+          "prova": "As dez taxas anuais de 2011 a 2020, cuja média simples é 0,36% ao ano (ver derivações): a década de fato quase não cresceu."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil, com cálculo da FGV",
+          "titulo": "PIB: Brasil termina 2020 com segunda década perdida, e a pior desde 1900",
+          "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/pib-brasil-termina-2020-com-segunda-decada-perdida-e-a-pior-desde-1900/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Cálculos feitos pela Fundação Getulio Vargas apontam que o crescimento médio do Brasil na década que se encerra foi de apenas 0,3% ao ano, o menor desde o começo do século passado.",
+          "prova": "A média da década calculada pela FGV depois de fechado o ano de 2020, independente da conta feita aqui sobre a série do Banco Central."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "0,36%",
+          "de": "3.97 1.92 3.00 0.50 -3.55 -3.28 1.32 1.78 1.22 -3.28",
+          "como": "média simples das dez taxas anuais de 2011 a 2020 da série 7326 do Banco Central: 3,6 / 10 = 0,36"
         }
       ]
     },

@@ -3,6 +3,68 @@
   "nota": "Recibo das capturas das fontes: sha256 do que foi lido e se cada trecho citado foi encontrado na página capturada. O texto das páginas não entra no git.",
   "capturas": [
     {
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/42775-pib-fecha-2024-em-3-4-e-registra-maior-taxa-desde-2021",
+      "capturada_em": "2026-09-26T23:31:53+00:00",
+      "status": 403,
+      "sha256": null,
+      "trechos": {
+        "A009": "portal recusou a captura (HTTP 403)",
+        "A011": "portal recusou a captura (HTTP 403)",
+        "A013": "portal recusou a captura (HTTP 403)"
+      }
+    },
+    {
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13983-asi-em-2010-pib-varia-75-e-fica-em-r-3675-trilhoes",
+      "capturada_em": "2026-09-26T23:32:00+00:00",
+      "status": 403,
+      "sha256": null,
+      "trechos": {
+        "A011": "portal recusou a captura (HTTP 403)"
+      }
+    },
+    {
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/38284-release-contas-nacionais",
+      "capturada_em": "2026-09-26T23:31:31+00:00",
+      "status": 403,
+      "sha256": null,
+      "trechos": {
+        "A009": "portal recusou a captura (HTTP 403)",
+        "A010": "portal recusou a captura (HTTP 403)"
+      }
+    },
+    {
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/41763-pib-cresce-3-0-e-totaliza-r-10-trilhoes-em-2022",
+      "capturada_em": "2026-09-26T23:31:39+00:00",
+      "status": 403,
+      "sha256": null,
+      "trechos": {
+        "A009": "portal recusou a captura (HTTP 403)",
+        "A010": "portal recusou a captura (HTTP 403)",
+        "A012": "portal recusou a captura (HTTP 403)"
+      }
+    },
+    {
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/44973-pib-cresce-3-2-e-totaliza-r-10-9-trilhoes-em-2023",
+      "capturada_em": "2026-09-26T23:31:46+00:00",
+      "status": 403,
+      "sha256": null,
+      "trechos": {
+        "A009": "portal recusou a captura (HTTP 403)",
+        "A012": "portal recusou a captura (HTTP 403)",
+        "A013": "portal recusou a captura (HTTP 403)"
+      }
+    },
+    {
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes",
+      "capturada_em": "2026-09-26T23:31:24+00:00",
+      "status": 403,
+      "sha256": null,
+      "trechos": {
+        "A009": "portal recusou a captura (HTTP 403)",
+        "A013": "portal recusou a captura (HTTP 403)"
+      }
+    },
+    {
       "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026",
       "capturada_em": "2026-09-26T23:30:47+00:00",
       "status": 200,
@@ -23,8 +85,8 @@
       "bytes": 1673,
       "sha256": "20de479c9f928a17dc5f246ea8c205dd652fe4367ad402745853d9c2f14db963",
       "trechos": {
-        "A002": "não encontrado",
-        "A003": "não encontrado"
+        "A002": "valor revisto pela fonte depois da consulta de 2026-09-05",
+        "A003": "valor revisto pela fonte depois da consulta de 2026-09-05"
       }
     },
     {
@@ -42,27 +104,15 @@
       }
     },
     {
-      "url": "https://blogdoibre.fgv.br/posts/nova-decada-perdida-brasileira-e-o-resto-do-mundo-resultados-capita",
-      "capturada_em": "2026-09-26T23:31:32+00:00",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
+      "capturada_em": "2026-09-26T23:43:25+00:00",
       "status": 200,
-      "tipo": "text/html; charset=utf-8",
+      "tipo": "application/json; charset=utf-8",
       "caminho": "direto",
-      "bytes": 42399,
-      "sha256": "cd89db8cf4cf9da8e330a931ef1cb7d59ca25945ceb8755bc3db862287d81e5c",
+      "bytes": 2346,
+      "sha256": "bdb8ffac9e5166a1b96d3647545041fb32808d32e5d43284f2ac9f96221f7f2c",
       "trechos": {
-        "A009": "não encontrado"
-      }
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Gustavo_Franco",
-      "capturada_em": "2026-09-26T23:32:02+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 179152,
-      "sha256": "e44bf201fb0ca74adcde546cb3ff3e4c41dc9206c3aa9f9a41bc363e2e31a770",
-      "trechos": {
-        "A017": "não encontrado"
+        "A009": "encontrado"
       }
     },
     {
@@ -74,7 +124,7 @@
       "bytes": 247648,
       "sha256": "22da04c761bf1d168fcc1617b375f56ac7a4432a96c67655ddf50c05f30fffd5",
       "trechos": {
-        "A023": "não encontrado"
+        "A023": "encontrado"
       }
     },
     {
@@ -104,6 +154,18 @@
       }
     },
     {
+      "url": "https://pt.wikipedia.org/wiki/Francisco_Lopes_(economista)",
+      "capturada_em": "2026-09-26T23:35:55+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 122993,
+      "sha256": "d9f6a5dc63f405b3fc981d7e98a083e0c6167ae89ab6c33fd190c61702f7369d",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
       "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
       "capturada_em": "2026-09-26T23:32:02+00:00",
       "status": 200,
@@ -112,7 +174,6 @@
       "bytes": 143951,
       "sha256": "baa5affa981efc7a0201c82ab1a675bfffc341c98066d4a8f30047fd85b1f92b",
       "trechos": {
-        "A017": "não encontrado",
         "A018": "encontrado"
       }
     },
@@ -161,7 +222,7 @@
       "bytes": 682263,
       "sha256": "176ac188f0b617420f899f59734718030d88e1ff5cd26f7ab52766f27feea7de",
       "trechos": {
-        "A005": "não encontrado"
+        "A005": "encontrado"
       }
     },
     {
@@ -202,6 +263,18 @@
       }
     },
     {
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/pib-brasil-termina-2020-com-segunda-decada-perdida-e-a-pior-desde-1900/",
+      "capturada_em": "2026-09-26T23:43:26+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 384611,
+      "sha256": "cca06b38e124e3b26fcce3c23168817a38658c83846c3397b15065d45d338407",
+      "trechos": {
+        "A009": "encontrado"
+      }
+    },
+    {
       "url": "https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra",
       "capturada_em": "2026-09-26T23:31:03+00:00",
       "status": 200,
@@ -234,7 +307,7 @@
       "bytes": 182903,
       "sha256": "22b35875344767733c4ba6f46632a417858ec22771f167e9860edf83eb7c3d06",
       "trechos": {
-        "A006": "não encontrado",
+        "A006": "encontrado",
         "A007": "encontrado"
       }
     },
@@ -261,7 +334,7 @@
       "bytes": 41481,
       "sha256": "84b1f2feafe9e0ef7f25e7df6ce322933bc4b4d89c399b53f82b744da0edb035",
       "trechos": {
-        "A020": "não encontrado"
+        "A020": "encontrado"
       }
     },
     {
@@ -350,6 +423,18 @@
       }
     },
     {
+      "url": "https://www12.senado.leg.br/ifi/pdf/raf84_jan2024.pdf",
+      "capturada_em": "2026-09-26T23:36:11+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 3243962,
+      "sha256": "5805ac4e9ae550f445b3bdc4886b3272ffd1ab0a1b79e483f89569d47f0c6c3d",
+      "trechos": {
+        "A021": "encontrado"
+      }
+    },
+    {
       "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
       "capturada_em": "2026-09-26T23:31:54+00:00",
       "status": 200,
@@ -362,15 +447,15 @@
       }
     },
     {
-      "url": "https://www2.senado.leg.br/bdsf/handle/id/1000000",
-      "capturada_em": "2026-09-26T23:32:18+00:00",
+      "url": "https://www25.senado.leg.br/documents/12427/30022/Banco%20Central%20do%20Brasil/ba62d8c2-2a8d-429a-9414-7654dbffc620",
+      "capturada_em": "2026-09-26T23:35:54+00:00",
       "status": 200,
-      "tipo": "text/html; renderizado",
-      "caminho": "navegador",
-      "bytes": 60964,
-      "sha256": "abb2bfa71bc1b6f5737bf3a2f5fa0e34e0b3141b78be5a778db34e2781e73de6",
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 181497,
+      "sha256": "ec8236a4773d5d8304a98ebd287c803aa8499c4d22e026a32456540122e0d3bd",
       "trechos": {
-        "A021": "não encontrado"
+        "A017": "encontrado"
       }
     }
   ]

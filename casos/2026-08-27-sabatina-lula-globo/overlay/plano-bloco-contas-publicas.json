@@ -25,9 +25,9 @@
     "revisao_humana": "0 de 23"
   },
   "contagem_por_veredito": {
-    "VERDADEIRO": 15,
+    "VERDADEIRO": 14,
     "NAO_CHECAVEL": 2,
-    "IMPRECISO": 3,
+    "IMPRECISO": 4,
     "FALSO": 3
   },
   "cartelas": [
@@ -214,7 +214,7 @@
       "sai_s": 155.0,
       "atraso_s": 0.0,
       "atraso_do_fim_s": 0.0,
-      "veredito": "VERDADEIRO",
+      "veredito": "IMPRECISO",
       "tempo_na_peca_s": 1499.32,
       "cortado_na_tela": []
     },

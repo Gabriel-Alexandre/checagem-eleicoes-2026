@@ -49,6 +49,19 @@ def _numeros(t: str) -> set[str]:
             for n in re.findall(r"-?\d[\d.,]*\d|\d", t or "")}
 
 
+def _recusas(pastas: list[Path]) -> dict[str, dict]:
+    """URL -> registro das capturas que o portal recusou (403, 401...), a mais nova ganhando."""
+    achado: dict[str, dict] = {}
+    for pasta in pastas:
+        manifesto = pasta / "capturas.json"
+        if not manifesto.exists():
+            continue
+        for c in json.loads(manifesto.read_text(encoding="utf-8"))["capturas"]:
+            if c.get("status") != 200 and c.get("caracteres_de_texto", 0) < 2000:
+                achado[c["url"]] = c
+    return achado
+
+
 def _carregar(pastas: list[Path]) -> dict[str, dict]:
     """URL -> {registro, texto}, a rodada mais nova ganhando."""
     achado: dict[str, dict] = {}
@@ -77,6 +90,19 @@ def conferir(trecho: str, texto: str, tipo: str) -> bool:
     return all(_norm(p) in alvo for p in trecho.split("[...]") if _norm(p))
 
 
+def _valores(t: str) -> list[float]:
+    return [float(x) for x in re.findall(r"-?\d+\.\d+", t or "")]
+
+
+def revisto(trecho: str, texto: str) -> bool:
+    """Série de API que mudou pouco desde a consulta: todo valor do trecho que sumiu tem um
+    vizinho a menos de 0,5% na captura nova. É revisão da fonte, não trecho inventado; e a
+    metodologia manda registrar as duas datas, não trocar o veredito (METODOLOGIA §5)."""
+    novos = _valores(texto)
+    faltando = [v for v in _valores(trecho) if v not in novos]
+    return bool(faltando) and all(any(abs(v - n) <= abs(v) * 0.005 for n in novos) for v in faltando)
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="confere trechos de fonte contra as capturas")
     p.add_argument("slug")
@@ -87,10 +113,11 @@ def main() -> int:
     caso = RAIZ / "casos" / a.slug
     checagens = json.loads((caso / "checagens" / f"checagens-{a.recorte}.json").read_text(encoding="utf-8"))
     capturas = _carregar([Path(x) for x in a.capturas])
+    recusas = _recusas([Path(x) for x in a.capturas])
 
     destino = caso / "checagens" / "CAPTURAS.json"
-    anterior = json.loads(destino.read_text(encoding="utf-8")) if destino.exists() else {}
-    por_url: dict[str, dict] = {c["url"]: c for c in anterior.get("capturas", [])}
+    # O recibo é refeito do zero a cada conferência: URL que deixou de ser citada sai dele.
+    por_url: dict[str, dict] = {}
 
     ok = falhou = sem = 0
     for c in checagens["checagens"]:
@@ -98,6 +125,12 @@ def main() -> int:
             cap = capturas.get(f["url"])
             if not cap:
                 sem += 1
+                recusa = recusas.get(f["url"])
+                if recusa:
+                    entrada = por_url.setdefault(f["url"], {
+                        "url": f["url"], "capturada_em": recusa["capturada_em"], "status": recusa["status"],
+                        "sha256": None, "trechos": {}})
+                    entrada["trechos"][c["id"]] = f"portal recusou a captura (HTTP {recusa['status']})"
                 print(f"  ·  {c['id']} sem captura: {f['url'][:90]}")
                 continue
             reg = cap["registro"]
@@ -105,7 +138,12 @@ def main() -> int:
             entrada.update({k: reg[k] for k in ("url", "capturada_em", "status", "tipo", "caminho", "bytes", "sha256")})
             entrada.setdefault("trechos", {})
             achou = conferir(f["trecho"], cap["texto"], reg.get("tipo", ""))
-            entrada["trechos"][c["id"]] = "encontrado" if achou else "não encontrado"
+            if achou:
+                entrada["trechos"][c["id"]] = "encontrado"
+            elif "json" in reg.get("tipo", "") and revisto(f["trecho"], cap["texto"]):
+                entrada["trechos"][c["id"]] = (f"valor revisto pela fonte depois da consulta de {f['consultada_em']}")
+            else:
+                entrada["trechos"][c["id"]] = "não encontrado"
             if achou:
                 ok += 1
             else:

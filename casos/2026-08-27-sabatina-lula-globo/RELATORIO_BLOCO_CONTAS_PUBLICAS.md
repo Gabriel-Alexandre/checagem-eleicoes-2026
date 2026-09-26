@@ -32,8 +32,8 @@
 
 | Veredito | Total | entrevistado | entrevistador |
 |---|---:|---:|---:|
-| 🟢 VERDADEIRO | 15 | 11 | 4 |
-| 🟡 IMPRECISO | 3 | 3 | 0 |
+| 🟢 VERDADEIRO | 14 | 10 | 4 |
+| 🟡 IMPRECISO | 4 | 4 | 0 |
 | 🔴 FALSO | 3 | 3 | 0 |
 | ⚪ NÃO CHECÁVEL | 2 | 1 | 1 |
 
@@ -79,17 +79,17 @@
 
 **Fontes:**
 
-1. `N1` **Banco Central do Brasil**: [SGS série 13761 — Dívida Bruta do Governo Geral (R$ milhões)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026) · consultada em 2026-09-05
+1. `N1` **Banco Central do Brasil**: [SGS série 13761 — Dívida Bruta do Governo Geral (R$ milhões)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026) · consultada em 2026-09-05 · captura sha256 `1552493f6628c05a…`
    > {"data":"01/12/2025","valor":"10017919.14"},{"data":"01/06/2026","valor":"10809475.19"},{"data":"01/07/2026","valor":"10946725.80"}
 
    *O que prova:* O estoque da dívida bruta em R$ milhões: passa de R$ 10 trilhões em dezembro de 2025 e chega a R$ 10,81 trilhões em junho de 2026, mês do último dado publicado antes da entrevista.
 
-2. `N1` **Ministério da Fazenda / Tesouro Nacional**: [Dívida Pública Federal totalizou R$ 9,298 trilhões em julho](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/agosto/divida-publica-federal-totalizou-r-9-298-trilhoes-em-julho) · consultada em 2026-09-05
+2. `N1` **Ministério da Fazenda / Tesouro Nacional**: [Dívida Pública Federal totalizou R$ 9,298 trilhões em julho](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/agosto/divida-publica-federal-totalizou-r-9-298-trilhoes-em-julho) · consultada em 2026-09-05 · captura sha256 `085974742e1af17c…`
    > A Dívida Pública Federal (DPF) totalizou R$ 9,29 trilhões em julho, alta de 0,22% em relação aos R$ 9,27 trilhões registrados em junho.
 
    *O que prova:* Mostra que o outro conceito usual de 'dívida pública', o do Tesouro, ainda não tinha alcançado R$ 10 trilhões. É a ressalva do card.
 
-3. `N4` **Poder360**: [Dívida bruta chega a R$ 10,9 tri e atinge 82,5% do PIB](https://www.poder360.com.br/poder-economia/divida-bruta-chega-a-r-109-tri-e-atinge-825-do-pib/) · consultada em 2026-09-05
+3. `N4` **Poder360**: [Dívida bruta chega a R$ 10,9 tri e atinge 82,5% do PIB](https://www.poder360.com.br/poder-economia/divida-bruta-chega-a-r-109-tri-e-atinge-825-do-pib/) · consultada em 2026-09-05 · captura sha256 `0acb796e4f7ad0a8…`
    > A DBGG (dívida bruta do governo geral) chegou a R$ 10,9 trilhões em julho
 
    *O que prova:* Confirma a leitura da série do Banco Central em fonte independente e datada.
@@ -114,7 +114,7 @@
 | Apurado | 10,25 pontos percentuais (de 71,68% em dez/2022 para 81,93% em jun/2026) |
 | Data de referência | dezembro de 2022 a junho de 2026 |
 
-**Análise:** A série do Banco Central registra a Dívida Bruta do Governo Geral em 71,68% do PIB em dezembro de 2022, último mês antes da posse, e em 81,93% em junho de 2026, o dado mais recente publicado na data da entrevista. A diferença é de 10,25 pontos percentuais, o que confere com a afirmação de alta de 10 pontos. O dado de julho, divulgado quatro dias depois da entrevista, subiu para 82,51%, o que levaria a diferença a 10,8 pontos.
+**Análise:** A série do Banco Central registra a Dívida Bruta do Governo Geral em 71,68% do PIB em dezembro de 2022, último mês antes da posse, e em 81,93% em junho de 2026, o dado mais recente publicado na data da entrevista. A diferença é de 10,25 pontos percentuais, o que confere com a afirmação de alta de 10 pontos. O dado de julho, divulgado quatro dias depois da entrevista, subiu para 82,51%, o que levaria a diferença a 10,8 pontos. 🔧 Revisão posterior da fonte, registrada em 26/set/2026: na captura de 26/set a série do Banco Central mostra 81,95% para junho de 2026 e 82,56% para julho, contra 81,93% e 82,51% na consulta de 05/set. O veredito vale para o dado da data da fala (METODOLOGIA §5), e a revisão não o altera.
 
 **Ressalva:** Arredondado: a alta exata é de 10,25 pontos, de 71,68% para 81,93% do PIB.
 
@@ -129,12 +129,12 @@
 
 **Fontes:**
 
-1. `N1` **Banco Central do Brasil**: [SGS série 13762 — Dívida Bruta do Governo Geral (% do PIB)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026) · consultada em 2026-09-05
+1. `N1` **Banco Central do Brasil**: [SGS série 13762 — Dívida Bruta do Governo Geral (% do PIB)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026) · consultada em 2026-09-05 · captura sha256 `20de479c9f928a17…`
    > {"data":"01/12/2022","valor":"71.68"},{"data":"01/06/2026","valor":"81.93"},{"data":"01/07/2026","valor":"82.51"}
 
    *O que prova:* Os dois pontos da série que definem a variação: 71,68% no fim do governo anterior e 81,93% no último dado publicado antes da entrevista.
 
-2. `N4` **CNN Brasil / Reuters**: [Dívida pública bruta fica em 74,3% do PIB em dezembro, mostra BC](https://www.cnnbrasil.com.br/economia/macroeconomia/divida-publica-bruta-fica-em-743-do-pib-em-dezembro-mostra-bc/) · consultada em 2026-09-05
+2. `N4` **CNN Brasil / Reuters**: [Dívida pública bruta fica em 74,3% do PIB em dezembro, mostra BC](https://www.cnnbrasil.com.br/economia/macroeconomia/divida-publica-bruta-fica-em-743-do-pib-em-dezembro-mostra-bc/) · consultada em 2026-09-05 · captura sha256 `d9e14c77198ed6c7…`
    > A dívida pública bruta do país como proporção do PIB fechou dezembro em 74,3%, contra 73,8% no mês anterior e 71,7% no último mês de 2022.
 
    *O que prova:* Confirma, em fonte independente e contemporânea, o ponto de partida de 71,7% do PIB em dezembro de 2022.
@@ -159,7 +159,7 @@
 | Apurado | 81,93% do PIB em junho/2026; 82,51% em julho/2026 |
 | Data de referência | junho de 2026 (dado vigente na data da entrevista) |
 
-**Análise:** A Dívida Bruta do Governo Geral estava em 81,93% do PIB em junho de 2026, número publicado antes da entrevista, e subiu para 82,51% em julho, divulgado em 31 de agosto, quatro dias depois. Dizer 82% arredonda o dado vigente e antecipa o seguinte, sem alterar a ordem de grandeza nem a leitura. Uma observação de método que muda o número mas não a conclusão: o FMI, que usa outra abrangência para comparação internacional, projeta a dívida bruta brasileira em 96,5% do PIB para 2026. O percentual citado na pergunta é o do Banco Central, que é a referência doméstica usual.
+**Análise:** A Dívida Bruta do Governo Geral estava em 81,93% do PIB em junho de 2026, número publicado antes da entrevista, e subiu para 82,51% em julho, divulgado em 31 de agosto, quatro dias depois. Dizer 82% arredonda o dado vigente e antecipa o seguinte, sem alterar a ordem de grandeza nem a leitura. Uma observação de método que muda o número mas não a conclusão: o FMI, que usa outra abrangência para comparação internacional, projeta a dívida bruta brasileira em 96,5% do PIB para 2026. O percentual citado na pergunta é o do Banco Central, que é a referência doméstica usual. 🔧 Revisão posterior da fonte, registrada em 26/set/2026: na captura de 26/set a série do Banco Central mostra 81,95% para junho de 2026 e 82,56% para julho, contra 81,93% e 82,51% na consulta de 05/set. O veredito vale para o dado da data da fala (METODOLOGIA §5), e a revisão não o altera.
 
 **Ressalva:** 81,9% era o dado publicado; os 82,5% de julho só saíram quatro dias depois da entrevista.
 
@@ -169,17 +169,17 @@
 
 **Fontes:**
 
-1. `N1` **Banco Central do Brasil**: [SGS série 13762 — Dívida Bruta do Governo Geral (% do PIB)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026) · consultada em 2026-09-05
+1. `N1` **Banco Central do Brasil**: [SGS série 13762 — Dívida Bruta do Governo Geral (% do PIB)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026) · consultada em 2026-09-05 · captura sha256 `20de479c9f928a17…`
    > {"data":"01/06/2026","valor":"81.93"},{"data":"01/07/2026","valor":"82.51"}
 
    *O que prova:* O nível da dívida em % do PIB no mês vigente na entrevista e no mês seguinte.
 
-2. `N4` **Poder360**: [Dívida bruta chega a R$ 10,9 tri e atinge 82,5% do PIB](https://www.poder360.com.br/poder-economia/divida-bruta-chega-a-r-109-tri-e-atinge-825-do-pib/) · consultada em 2026-09-05
+2. `N4` **Poder360**: [Dívida bruta chega a R$ 10,9 tri e atinge 82,5% do PIB](https://www.poder360.com.br/poder-economia/divida-bruta-chega-a-r-109-tri-e-atinge-825-do-pib/) · consultada em 2026-09-05 · captura sha256 `0acb796e4f7ad0a8…`
    > equivalente a 82,5% do PIB
 
    *O que prova:* Datar a divulgação: o número de julho só foi ao ar em 31 de agosto de 2026, depois da entrevista.
 
-3. `N2` **Fundo Monetário Internacional**: [DataMapper — General government gross debt (% of GDP)](https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP) · consultada em 2026-09-05
+3. `N2` **Fundo Monetário Internacional**: [DataMapper — General government gross debt (% of GDP)](https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP) · consultada em 2026-09-05 · captura sha256 `ee29ce0c80bcfda6…`
    > "BRA":{"2022":83.9,"2023":84,"2024":87,"2025":93.3,"2026":96.5}
 
    *O que prova:* Mostra a divergência metodológica: no critério do FMI a dívida brasileira é maior que a do Banco Central. Registrada para que o card não passe a impressão de haver um número único.
@@ -226,15 +226,15 @@
 
 **Fontes:**
 
-1. `N4` **Congresso em Foco**: [PT registra novo plano de governo de Lula no TSE; veja a íntegra](https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra) · consultada em 2026-09-05
+1. `N4` **Congresso em Foco**: [PT registra novo plano de governo de Lula no TSE; veja a íntegra](https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra) · consultada em 2026-09-05 · captura sha256 `60497dade57fcedc…`
    > Na área fiscal, o programa prevê manter o arcabouço fiscal, controlar o crescimento do gasto primário e melhorar a eficiência e a qualidade do gasto público.
 
    *O que prova:* Descreve a parte fiscal do documento em termos exclusivamente qualitativos, sem meta numérica, o que é o ponto da afirmação.
 
-2. `N4` **Brasil de Fato**: [Lula protocola candidatura e lança plano de governo com palavra 'soberania' em 21 das 84 páginas](https://www.brasildefato.com.br/2026/08/08/lula-protocola-candidatura-e-lanca-plano-de-governo-com-palavra-soberania-em-21-das-84-paginas/) · consultada em 2026-09-05
-   > O documento estruturado em 13 eixos foi protocolado no Tribunal Superior Eleitoral (TSE) na sexta-feira (07/08).
+2. `N4` **Brasil de Fato**: [Lula protocola candidatura e lança plano de governo com palavra 'soberania' em 21 das 84 páginas](https://www.brasildefato.com.br/2026/08/08/lula-protocola-candidatura-e-lanca-plano-de-governo-com-palavra-soberania-em-21-das-84-paginas/) · consultada em 2026-09-26 · captura sha256 `176ac188f0b61742…`
+   > Na noite desta sexta-feira (7), a coligação “Brasil Pronto Pra Mais” oficializou no Tribunal Superior Eleitoral (TSE) a candidatura de Luiz Inácio Lula da Silva à reeleição, com Geraldo Alckmin como vice. O registro marca o início formal da busca pelo quarto mandato do petista, trazendo um programa de governo com 84 páginas
 
-   *O que prova:* Confirma a existência, a data de registro e a estrutura do documento a que a pergunta se refere, em veículo independente do primeiro.
+   *O que prova:* Data do registro da candidatura e do programa de governo no TSE (sexta-feira, 7 de agosto) e o tamanho do documento. 🔧 Até 26/set/2026 o trecho desta fonte ('O documento estruturado em 13 eixos foi protocolado...') não estava na página; foi trocado pela frase literal.
 
 ---
 
@@ -266,15 +266,15 @@
 
 **Fontes:**
 
-1. `N1` **Banco Central do Brasil**: [SGS série 5793 — NFSP, resultado primário, setor público consolidado (% do PIB, 12 meses)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-26
+1. `N1` **Banco Central do Brasil**: [SGS série 5793 — NFSP, resultado primário, setor público consolidado (% do PIB, 12 meses)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-26 · captura sha256 `b5137286d9469a32…`
    > {"data":"01/12/2003","valor":"-3.24"},{"data":"01/12/2004","valor":"-3.69"},{"data":"01/12/2005","valor":"-3.74"},{"data":"01/12/2006","valor":"-3.15"},{"data":"01/12/2007","valor":"-3.24"},{"data":"01/12/2008","valor":"-3.33"},{"data":"01/12/2009","valor":"-1.94"},{"data":"01/12/2010","valor":"-2.62"},{"data":"01/12/2021","valor":"-0.72"},{"data":"01/12/2022","valor":"-1.25"},{"data":"01/12/2023","valor":"2.28"},{"data":"01/12/2024","valor":"0.40"},{"data":"01/12/2025","valor":"0.43"}
 
    *O que prova:* Na convenção da série, valor negativo é superávit. Os doze meses encerrados em dezembro de cada ano de 2003 a 2010 são todos negativos: oito anos seguidos de superávit primário, entre 1,94% e 3,74% do PIB. Os anos de 2021 a 2025, acrescentados ao trecho em 26/set/2026, sustentam a ressalva do card: superávit em 2021 e 2022 (valores negativos) e déficit em 2023, 2024 e 2025 (valores positivos).
 
-2. `N2` **Fundo Monetário Internacional**: [DataMapper — Primary net lending/borrowing (% of GDP), Brasil](https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT) · consultada em 2026-09-05
-   > "BRA":{"2003":3.55,"2004":4.05,"2005":3.86,"2006":1.51,"2007":2.88,"2008":3.21,"2009":0.91,"2010":1.58,"2011":2.74,"2012":2.22,"2013":1.52,"2014":-0.9}
+2. `N2` **Fundo Monetário Internacional**: [DataMapper — Primary net lending/borrowing (% of GDP), Brasil](https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT) · consultada em 2026-09-26 · captura sha256 `22b3587534476773…`
+   > "BRA":{"2003":3.5534131319219,"2004":4.0510971522081,"2005":3.8647871630283,"2006":1.5066524175739,"2007":2.8804573789676,"2008":3.2133101107755,"2009":0.91177865293406,"2010":1.5795912276201,"2011":2.7371632873748,"2012":2.2207254897841,"2013":1.5197567674266,"2014":-0.90003011676475}
 
-   *O que prova:* Confirma os oito anos positivos em base independente e mostra que a sequência seguinte, de 2011 em diante, se interrompe em 2014, no quarto ano.
+   *O que prova:* Confirma os oito anos positivos em base independente e mostra que a sequência seguinte, de 2011 em diante, se interrompe em 2014, no quarto ano. 🔧 Trecho trocado em 26/set/2026 pela cópia literal da captura: a versão anterior tinha os valores arredondados.
 
 ---
 
@@ -306,22 +306,22 @@
 
 **Fontes:**
 
-1. `N2` **Fundo Monetário Internacional**: [DataMapper — Primary net lending/borrowing (% of GDP), membros do G20](https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT) · consultada em 2026-09-26
+1. `N2` **Fundo Monetário Internacional**: [DataMapper — Primary net lending/borrowing (% of GDP), membros do G20](https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT) · consultada em 2026-09-26 · captura sha256 `22b3587534476773…`
    > "BRA":{"2003":3.5534131319219,"2004":4.0510971522081,"2005":3.8647871630283,"2006":1.5066524175739,"2007":2.8804573789676,"2008":3.2133101107755,"2009":0.91177865293406,"2010":1.5795912276201} · "ARG":{"2009":-0.48791372357449,"2010":-0.53844789986599} · "SAU":{"2009":-5.5332245099156} · "RUS":{"2009":-6.1967160033188} · "KOR":{"2004":-0.65634314163133,"2009":-0.42743437798164} · "AUS":{"2008":-1.1287508990534,"2009":-4.5093651256432} · "CAN":{"2009":-2.7760488858511} · "ZAF":{"2009":-2.6208958822149} · "IDN":{"2009":-0.084298633840012} · "MEX":{"2009":-0.99085334732799} · "TUR":{"2009":-0.86992113575845} · "ITA":{"2009":-0.87323646698108}
 
    *O que prova:* Os oito anos positivos do Brasil e, em cada um dos demais membros do G20, ao menos um ano negativo entre 2003 e 2010 — o que os elimina da sequência. Os candidatos mais prováveis (Rússia, Arábia Saudita e Coreia do Sul) foram conferidos um a um. Trecho substituído em 26/set/2026 pela cópia literal da captura assinada: a versão anterior tinha os valores arredondados para duas casas, e trecho arredondado não é cópia.
 
-2. `N1` **Banco Central do Brasil**: [SGS série 5793 — resultado primário do setor público consolidado](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-05
+2. `N1` **Banco Central do Brasil**: [SGS série 5793 — resultado primário do setor público consolidado](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-05 · captura sha256 `b5137286d9469a32…`
    > {"data":"01/12/2009","valor":"-1.94"},{"data":"01/12/2010","valor":"-2.62"}
 
    *O que prova:* Confirma, na fonte brasileira, que 2009 e 2010, os anos mais frágeis da série, seguiram positivos aqui enquanto viravam negativos na maior parte do G20.
 
-3. `N4` **La Arena (Argentina), com agência NA**: [Se redujo el superávit fiscal (20/jan/2010)](https://www.laarena.com.ar/el-pais/2010-1-20-4-29-4-se-redujo-el-superavit-fiscal) · consultada em 2026-09-26
+3. `N4` **La Arena (Argentina), com agência NA**: [Se redujo el superávit fiscal (20/jan/2010)](https://www.laarena.com.ar/el-pais/2010-1-20-4-29-4-se-redujo-el-superavit-fiscal) · consultada em 2026-09-26 · captura sha256 `012d33b72ced5ebc…`
    > La presidenta Cristina Fernández anunció que el superávit fiscal del 2009 fue de 17.272 millones de pesos, lo que marca una fuerte caída, del 46,9 por ciento, respecto del 2008. Ese nivel de superávit representó un 1,53 por ciento del Producto Interno Bruto [...] En 2008, el superávit fiscal primario fue de 32.528,7 millones de pesos
 
    *O que prova:* Resultado primário argentino de 2009 no conceito nacional: positivo, 1,53% do PIB. O número é primário: a queda de 46,9% sai da comparação com os 32.528,7 milhões de superávit primário de 2008. É a base da ressalva do card.
 
-4. `N1` **Ministerio de Economía de la Nación (Argentina)**: [El sector público nacional acumula un superávit primario de $ 25.000 millones en los primeros once meses del año (09/dez/2019)](https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-acumula-un-superavit-primario-de-25000-millones-en-los-primeros) · consultada em 2026-09-26
+4. `N1` **Ministerio de Economía de la Nación (Argentina)**: [El sector público nacional acumula un superávit primario de $ 25.000 millones en los primeros once meses del año (09/dez/2019)](https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-acumula-un-superavit-primario-de-25000-millones-en-los-primeros) · consultada em 2026-09-26 · captura sha256 `343390e45c94e61a…`
    > Es la primera vez desde 2010 que el sector público nacional no financiero tiene superávit primario en los primeros once meses del año.
 
    *O que prova:* Indica, na fonte oficial argentina, que 2010 teve superávit primário no conceito nacional. É indireta (fala dos onze primeiros meses), e por isso a explicação a trata como indicação, não como número.
@@ -363,14 +363,20 @@
 | | |
 |---|---|
 | Dito | mais de dez anos sem crescer |
-| Apurado | 2011 a 2020: média de cerca de 0,9% ao ano. 2021 a 2025: 4,8%, 3,0%, 3,2%, 3,4% e 2,3% |
+| Apurado | 2011 a 2020: média de 0,3% ao ano (FGV; 0,36% na média simples da série do Banco Central). 2021 a 2025: 4,8%, 3,0%, 3,2%, 3,4% e 2,3% |
 | Data de referência | 2011 a 2025 |
 
-**Análise:** A leitura de uma década sem crescimento tem lastro: entre 2011 e 2020 o crescimento médio anual foi de cerca de 0,9%, e o período é descrito na literatura econômica como a pior década do país em mais de um século. O erro está no recorte temporal da frase. Contado de 2026 para trás, 'mais de dez anos sem crescer' inclui 2021 (4,8%), 2022 (3,0%), 2023 (3,2%), 2024 (3,4%) e 2025 (2,3%), cinco anos seguidos de crescimento, sendo três deles acima de 3%. A essência está certa e o recorte está errado, que é a definição de impreciso na metodologia deste projeto.
+**Análise:** A leitura de uma década sem crescimento tem lastro: entre 2011 e 2020 o crescimento médio anual foi de 0,3%, segundo a FGV (0,36% na média simples da série do Banco Central), e o período é descrito na literatura econômica como a pior década do país em mais de um século. O erro está no recorte temporal da frase. Contado de 2026 para trás, 'mais de dez anos sem crescer' inclui 2021 (4,8%), 2022 (3,0%), 2023 (3,2%), 2024 (3,4%) e 2025 (2,3%), cinco anos seguidos de crescimento, sendo três deles acima de 3%. A essência está certa e o recorte está errado, que é a definição de impreciso na metodologia deste projeto. 🔧 Até 26/set/2026 esta checagem dizia 'cerca de 0,9%' e citava um texto do Blog do IBRE de 2019: aquele 0,9% era uma PROJEÇÃO para a década, feita antes da pandemia com as expectativas do Focus para 2019 e 2020, e a frase citada como trecho não estava na página. O número realizado é 0,3%. O veredito não muda.
 
 **Ressalva:** A frase descreve corretamente a década de 2011 a 2020, não os dez anos anteriores à entrevista.
 
 **Confiança:** alta
+
+**Números derivados por cálculo:**
+
+| Valor | De | Como |
+|---|---|---|
+| 0,36% | `3.97 1.92 3.00 0.50 -3.55 -3.28 1.32 1.78 1.22 -3.28` | média simples das dez taxas anuais de 2011 a 2020 da série 7326 do Banco Central: 3,6 / 10 = 0,36 |
 
 **Fontes:**
 
@@ -384,25 +390,30 @@
 
    *O que prova:* Mostra o primeiro dos cinco anos seguidos de crescimento que a frase desconsidera.
 
-3. `N2` **FGV / Blog do IBRE**: [A nova década perdida brasileira e o resto do mundo](https://blogdoibre.fgv.br/posts/nova-decada-perdida-brasileira-e-o-resto-do-mundo-resultados-capita) · consultada em 2026-09-05
-   > de 2011 a 2020, o crescimento médio do Brasil foi de apenas 0,9%
-
-   *O que prova:* Sustenta a parte correta da afirmação: houve, sim, uma década de crescimento próximo de zero, e ela é 2011 a 2020.
-
-4. `N1` **IBGE**: [PIB cresce 3,0% e totaliza R$ 10 trilhões em 2022](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/41763-pib-cresce-3-0-e-totaliza-r-10-trilhoes-em-2022) · consultada em 2026-09-05
+3. `N1` **IBGE**: [PIB cresce 3,0% e totaliza R$ 10 trilhões em 2022](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/41763-pib-cresce-3-0-e-totaliza-r-10-trilhoes-em-2022) · consultada em 2026-09-05
    > Em 2022, o Produto Interno Bruto (PIB) atingiu R$ 10,1 trilhões, crescimento de 3,0% ante 2021.
 
    *O que prova:* A taxa de 2022, o segundo dos cinco anos de crescimento que a frase desconsidera.
 
-5. `N1` **IBGE**: [PIB cresce 3,2% e totaliza R$ 10,9 trilhões em 2023](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/44973-pib-cresce-3-2-e-totaliza-r-10-9-trilhoes-em-2023) · consultada em 2026-09-05
+4. `N1` **IBGE**: [PIB cresce 3,2% e totaliza R$ 10,9 trilhões em 2023](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/44973-pib-cresce-3-2-e-totaliza-r-10-9-trilhoes-em-2023) · consultada em 2026-09-05
    > Em 2023, o Produto Interno Bruto (PIB) atingiu R$ 10,9 trilhões, crescimento de 3,2% ante 2022.
 
    *O que prova:* A taxa de 2023.
 
-6. `N1` **IBGE**: [PIB fecha 2024 em 3,4% e registra maior taxa desde 2021](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/42775-pib-fecha-2024-em-3-4-e-registra-maior-taxa-desde-2021) · consultada em 2026-09-05
+5. `N1` **IBGE**: [PIB fecha 2024 em 3,4% e registra maior taxa desde 2021](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/42775-pib-fecha-2024-em-3-4-e-registra-maior-taxa-desde-2021) · consultada em 2026-09-05
    > encerrou o ano com crescimento de 3,4%, totalizando R$ 11,7 trilhões.
 
    *O que prova:* A taxa de 2024.
+
+6. `N1` **Banco Central do Brasil**: [SGS série 7326, PIB: taxa de variação real no ano](https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json) · consultada em 2026-09-26 · captura sha256 `bdb8ffac9e5166a1…`
+   > {"data":"01/01/2011","valor":"3.97"},{"data":"01/01/2012","valor":"1.92"},{"data":"01/01/2013","valor":"3.00"},{"data":"01/01/2014","valor":"0.50"},{"data":"01/01/2015","valor":"-3.55"},{"data":"01/01/2016","valor":"-3.28"},{"data":"01/01/2017","valor":"1.32"},{"data":"01/01/2018","valor":"1.78"},{"data":"01/01/2019","valor":"1.22"},{"data":"01/01/2020","valor":"-3.28"}
+
+   *O que prova:* As dez taxas anuais de 2011 a 2020, cuja média simples é 0,36% ao ano (ver derivações): a década de fato quase não cresceu.
+
+7. `N4` **CNN Brasil, com cálculo da FGV**: [PIB: Brasil termina 2020 com segunda década perdida, e a pior desde 1900](https://www.cnnbrasil.com.br/economia/macroeconomia/pib-brasil-termina-2020-com-segunda-decada-perdida-e-a-pior-desde-1900/) · consultada em 2026-09-26 · captura sha256 `cca06b38e124e3b2…`
+   > Cálculos feitos pela Fundação Getulio Vargas apontam que o crescimento médio do Brasil na década que se encerra foi de apenas 0,3% ao ano, o menor desde o começo do século passado.
+
+   *O que prova:* A média da década calculada pela FGV depois de fechado o ano de 2020, independente da conta feita aqui sobre a série do Banco Central.
 
 ---
 
@@ -440,7 +451,7 @@
 
    *O que prova:* Crescimento acima de 2% no ano imediatamente anterior à posse, sem o efeito de base da pandemia.
 
-3. `N1` **Senado Federal (Agência Senado)**: [Congresso empossa Lula e Alckmin na Presidência da República](https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica) · consultada em 2026-09-26
+3. `N1` **Senado Federal (Agência Senado)**: [Congresso empossa Lula e Alckmin na Presidência da República](https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica) · consultada em 2026-09-26 · captura sha256 `ad7d542a4238a5a8…`
    > 01/01/2023, 17h41 [...] O Congresso Nacional deu posse neste domingo (1º) a Luiz Inácio Lula da Silva, 39º presidente do Brasil e primeiro governante do Executivo federal a conquistar três vitórias em eleições diretas.
 
    *O que prova:* Data da posse do terceiro mandato, que o card usa como marco: 2021 e 2022 são anteriores a ela.
@@ -604,12 +615,12 @@
 
 **Fontes:**
 
-1. `N2` **Fundo Monetário Internacional**: [DataMapper — General government gross debt (% of GDP)](https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP) · consultada em 2026-09-05
+1. `N2` **Fundo Monetário Internacional**: [DataMapper — General government gross debt (% of GDP)](https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP) · consultada em 2026-09-05 · captura sha256 `ee29ce0c80bcfda6…`
    > "JPN":{"2026":204.4} "ITA":{"2026":138.4} "USA":{"2026":125.8} "BRA":{"2026":96.5}
 
    *O que prova:* Os quatro níveis na mesma base e no mesmo ano, que é o que a comparação exige.
 
-2. `N1` **Federal Reserve Bank of St. Louis (fonte: US Office of Management and Budget)**: [Federal Debt: Total Public Debt as Percent of Gross Domestic Product (GFDEGDQ188S)](https://fred.stlouisfed.org/series/GFDEGDQ188S) · consultada em 2026-09-05
+2. `N1` **Federal Reserve Bank of St. Louis (fonte: US Office of Management and Budget)**: [Federal Debt: Total Public Debt as Percent of Gross Domestic Product (GFDEGDQ188S)](https://fred.stlouisfed.org/series/GFDEGDQ188S) · consultada em 2026-09-05 · captura sha256 `86453d7f79acea1a…`
    > Q1 2026: 122.59387 | Percent of GDP, Seasonally Adjusted | Quarterly
 
    *O que prova:* Confirma, na fonte americana, que a dívida dos Estados Unidos está bem acima da brasileira, ainda que o número exato varie conforme o conceito.
@@ -650,12 +661,12 @@
 
 **Fontes:**
 
-1. `N1` **Federal Reserve Bank of St. Louis (fonte: US Office of Management and Budget)**: [Federal Debt: Total Public Debt as Percent of Gross Domestic Product (GFDEGDQ188S)](https://fred.stlouisfed.org/series/GFDEGDQ188S) · consultada em 2026-09-05
+1. `N1` **Federal Reserve Bank of St. Louis (fonte: US Office of Management and Budget)**: [Federal Debt: Total Public Debt as Percent of Gross Domestic Product (GFDEGDQ188S)](https://fred.stlouisfed.org/series/GFDEGDQ188S) · consultada em 2026-09-05 · captura sha256 `86453d7f79acea1a…`
    > Q1 2026: 122.59387 | Percent of GDP, Seasonally Adjusted | Quarterly
 
    *O que prova:* O dado observado mais recente da relação dívida/PIB americana.
 
-2. `N2` **Fundo Monetário Internacional**: [DataMapper — General government gross debt (% of GDP)](https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP) · consultada em 2026-09-05
+2. `N2` **Fundo Monetário Internacional**: [DataMapper — General government gross debt (% of GDP)](https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP) · consultada em 2026-09-05 · captura sha256 `ee29ce0c80bcfda6…`
    > "USA":{"2024":122.3,"2025":123.9,"2026":125.8}
 
    *O que prova:* Confirma a faixa em base independente e mostra a trajetória, o que descarta a hipótese de o número citado ser de um ano recente.
@@ -695,19 +706,19 @@
 
 **Fontes:**
 
-1. `N1` **US Department of the Treasury / Federal Reserve Bank of St. Louis**: [Federal Debt: Total Public Debt (GFDEBTN)](https://fred.stlouisfed.org/series/GFDEBTN) · consultada em 2026-09-05
+1. `N1` **US Department of the Treasury / Federal Reserve Bank of St. Louis**: [Federal Debt: Total Public Debt (GFDEBTN)](https://fred.stlouisfed.org/series/GFDEBTN) · consultada em 2026-09-05 · captura sha256 `13e1438e45ac9abc…`
    > Q1 2026: 39,065,421.00000 | Millions of Dollars, Not Seasonally Adjusted | Quarterly, End of Period
 
    *O que prova:* É o estoque em dólares da dívida pública total americana, na fonte que o produz.
 
-2. `N1` **Federal Reserve Bank of St. Louis (fonte: US Office of Management and Budget)**: [Federal Debt: Total Public Debt as Percent of Gross Domestic Product (GFDEGDQ188S)](https://fred.stlouisfed.org/series/GFDEGDQ188S) · consultada em 2026-09-05
+2. `N1` **Federal Reserve Bank of St. Louis (fonte: US Office of Management and Budget)**: [Federal Debt: Total Public Debt as Percent of Gross Domestic Product (GFDEGDQ188S)](https://fred.stlouisfed.org/series/GFDEGDQ188S) · consultada em 2026-09-05 · captura sha256 `86453d7f79acea1a…`
    > GFDEGDQ188S = ((GFDEBTN/1000)/GDP)*100
 
    *O que prova:* Mostra que o percentual citado na mesma frase e o valor em dólares vêm da mesma série, o que torna as duas metades da afirmação coerentes entre si.
 
 ---
 
-### A017 · 🟢 VERDADEIRO · 00:24:59
+### A017 · 🟡 IMPRECISO · 00:24:59
 
 **Lula** (entrevistado) · assunto: `politica-economica` · tipo: `evento_passado`
 
@@ -717,31 +728,33 @@
 
 **Contexto:** Contraponto do candidato ao tema da independência do Banco Central
 
-**Resumo (o que aparece no vídeo):** Houve quatro presidentes do Banco Central no governo FHC, o que corresponde a três substituições
+**Resumo (o que aparece no vídeo):** Contando Francisco Lopes, aprovado pelo Senado em 1999, foram cinco presidentes do BC no governo FHC e quatro trocas
 
 | | |
 |---|---|
 | Dito | trocou três presidentes do Banco Central |
-| Apurado | quatro titulares no período, ou seja, três substituições |
+| Apurado | cinco presidentes no período (Arida, Loyola, Franco, Lopes e Fraga), ou seja, quatro trocas |
 | Data de referência | 1º de janeiro de 1995 a 1º de janeiro de 2003 |
 
-**Análise:** Entre 1º de janeiro de 1995 e 1º de janeiro de 2003 passaram pela presidência do Banco Central, como titulares, Pérsio Arida, Gustavo Loyola, Gustavo Franco e Armínio Fraga, além de Francisco Lopes como interino por 19 dias em 1999. Quatro titulares significam três trocas de comando, que é exatamente o número citado. A frase é verdadeira na leitura de número de substituições. ⚠️ Ela seria imprecisa na leitura de número de presidentes, que foi quatro. A ambiguidade é do verbo 'trocar', não do dado.
+**Análise:** O registro oficial do Senado (Secretaria-Geral da Mesa) lista cinco presidentes do Banco Central aprovados entre 1995 e 2002: Pérsio Arida (aprovado em 10/01/1995), Gustavo Loyola (08/06/1995), Gustavo Franco (12/08/1997), Francisco Lopes (28/01/1999) e Armínio Fraga (03/03/1999). Cinco presidentes são quatro trocas de comando, e não três. A frase acerta a essência (o governo FHC trocou o comando do Banco Central várias vezes) e erra o número, que é a definição de impreciso. O número citado só fecha se Francisco Lopes for deixado de fora, e ele ficou pouco tempo: assumiu em janeiro de 1999 e saiu no início de fevereiro. 🔧 Até 26/set/2026 este veredito era VERDADEIRO: a checagem tratava Lopes como interino, com base na Wikipédia, e o trecho da lista citada tinha omitido a linha dele. O registro do Senado mostra que ele foi aprovado como presidente. Ver CORRECOES.md.
 
-**Ressalva:** Foram quatro presidentes titulares no período, mais um interino; três é o número de trocas.
+**Ressalva:** Sem Francisco Lopes, que ficou semanas no cargo, seriam três trocas, o número citado.
+
+**⚠️ Divergência entre fontes:** A lista da Wikipédia marca Francisco Lopes como '(interino)'; o registro do Senado o lista como presidente aprovado pela Casa em 28/01/1999, e o próprio verbete dele na Wikipédia o apresenta como presidente, de 13/01/1999 a 01/02/1999. O registro oficial prevalece sobre a marcação da lista.
 
 **Confiança:** media
 
 **Fontes:**
 
-1. `N4` **Wikipédia (lista com datas de posse e saída)**: [Lista de presidentes do Banco Central do Brasil](https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil) · consultada em 2026-09-05
-   > Pérsio Arida 11 de janeiro de 1995 13 de junho de 1995 Fernando Henrique Cardoso | Gustavo Loyola 13 de junho de 1995 20 de agosto de 1997 | Gustavo Franco 20 de agosto de 1997 4 de março de 1999 | Armínio Fraga 4 de março de 1999 1 de janeiro de 2003
+1. `N1` **Senado Federal (Secretaria-Geral da Mesa)**: [Banco Central do Brasil: histórico de aprovações pelo Senado (atualizado em 17/06/2026)](https://www25.senado.leg.br/documents/12427/30022/Banco%20Central%20do%20Brasil/ba62d8c2-2a8d-429a-9414-7654dbffc620) · consultada em 2026-09-26 · captura sha256 `ec8236a4773d5d83…`
+   > 10/01/1995 Pérsio Arida Presidente 11/01/1995 MSF 376/1994 [...] Gustavo Jorge Laboissiere 08/06/1995 Presidente 13/06/1995 Loyola MSF 199/1995 [...] Gustavo Henrique de Barroso 12/08/1997 Presidente 20/08/1997 Franco MSF 136/1997 [...] Francisco Lafaiete de Pádua 28/01/1999 Presidente 04/03/1999 Lopes MSF 54/1999 [...] 03/03/1999 Armínio Fraga Neto Presidente 04/03/1999 MSF 74/1999
 
-   *O que prova:* As quatro passagens com data, que somam três substituições dentro do período do governo.
+   *O que prova:* As cinco linhas de 'Presidente' do período FHC, com a data de aprovação pelo Senado de cada um. É a lista oficial, e Francisco Lopes está nela como presidente.
 
-2. `N4` **Wikipedia (biografias com datas de mandato)**: [Gustavo Franco e Arminio Fraga](https://en.wikipedia.org/wiki/Gustavo_Franco) · consultada em 2026-09-05
-   > Gustavo Franco served as President of the Central Bank from August 20, 1997 to March 4, 1999, succeeding Gustavo Loyola.
+2. `N4` **Wikipédia (verbete de Francisco Lopes)**: [Francisco Lopes (economista)](https://pt.wikipedia.org/wiki/Francisco_Lopes_(economista)) · consultada em 2026-09-26 · captura sha256 `d9f6a5dc63f405b3…`
+   > Francisco Lopes Presidente do Banco Central do Brasil Período 13 de janeiro de 1999 a 1º de fevereiro de 1999 Antecessor(a) Gustavo Franco Sucessor(a) Armínio Fraga [...] Em janeiro de 1999, assumiu a presidência do Banco, sucedendo Gustavo Franco
 
-   *O que prova:* Confirma, em registro independente da lista, a sucessão Loyola para Franco e a data, que é uma das três trocas.
+   *O que prova:* Confirma, em fonte independente do Senado, que Lopes ocupou a presidência entre Gustavo Franco e Armínio Fraga, e o período curto do mandato. Serve de ponteiro; a fonte forte é a do Senado.
 
 ---
 
@@ -769,12 +782,12 @@
 
 **Fontes:**
 
-1. `N4` **Poder360**: [Em despedida, Campos Neto diz que cumpriu mandato apesar de pressões](https://www.poder360.com.br/poder-economia/em-despedida-campos-neto-diz-que-cumpriu-mandato-apesar-de-pressoes/) · consultada em 2026-09-05
+1. `N4` **Poder360**: [Em despedida, Campos Neto diz que cumpriu mandato apesar de pressões](https://www.poder360.com.br/poder-economia/em-despedida-campos-neto-diz-que-cumpriu-mandato-apesar-de-pressoes/) · consultada em 2026-09-05 · captura sha256 `46992ff92f056226…`
    > Na frente, o presidente do BC, Roberto Campos Neto, participou de um evento de transição simbólica do cargo para Gabriel Galípolo (ao fundo), que assume em janeiro de 2025
 
    *O que prova:* Data a saída no fim de 2024 e a entrada do sucessor em janeiro de 2025, o que fecha os dois anos de coincidência com o mandato iniciado em 2023.
 
-2. `N4` **Wikipédia (lista com datas de posse e saída)**: [Lista de presidentes do Banco Central do Brasil](https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil) · consultada em 2026-09-05
+2. `N4` **Wikipédia (lista com datas de posse e saída)**: [Lista de presidentes do Banco Central do Brasil](https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil) · consultada em 2026-09-05 · captura sha256 `baa5affa981efc7a…`
    > Ilan Goldfajn 9 de junho de 2016 31 de dezembro de 2018 Michel Temer | 1 de janeiro de 2019 28 de fevereiro de 2019 Jair Bolsonar
 
    *O que prova:* Situa a indicação de Campos Neto no governo anterior, que é a outra metade da afirmação.
@@ -809,17 +822,17 @@
 
 **Fontes:**
 
-1. `N1` **Banco Central do Brasil**: [SGS série 5793 — NFSP, resultado primário, setor público consolidado (% do PIB, 12 meses)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-05
+1. `N1` **Banco Central do Brasil**: [SGS série 5793 — NFSP, resultado primário, setor público consolidado (% do PIB, 12 meses)](https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025) · consultada em 2026-09-05 · captura sha256 `b5137286d9469a32…`
    > {"data":"01/12/2022","valor":"-1.25"},{"data":"01/12/2023","valor":"2.28"}
 
    *O que prova:* Na convenção da série, negativo é superávit. Dezembro de 2022 fecha com superávit de 1,25% do PIB, o oposto de um déficit de 2,8%.
 
-2. `N1` **Tribunal de Contas da União**: [Fatos Fiscais — Resultado fiscal](https://sites.tcu.gov.br/fatos-fiscais/resultado_fiscal.html) · consultada em 2026-09-05
+2. `N1` **Tribunal de Contas da União**: [Fatos Fiscais — Resultado fiscal](https://sites.tcu.gov.br/fatos-fiscais/resultado_fiscal.html) · consultada em 2026-09-05 · captura sha256 `ed3c9b9d16e2f747…`
    > Após significativa redução do déficit para R$ 35,9 bilhões em 2021, em 2022, ocorreu a inversão de sinal com superávit de R$ 54,9 bilhões (0,6% do PIB).
 
    *O que prova:* Confirma o superávit de 2022 no conceito de governo central, em fonte de controle externo independente do Banco Central.
 
-3. `N4` **Poder360**: [Fazenda muda cálculo e agora deficit estrutural é de Bolsonaro](https://www.poder360.com.br/poder-economia/contas-publicas-tem-deficit-estrutural-desde-bolsonaro-diz-fazenda/) · consultada em 2026-09-05
+3. `N4` **Poder360**: [Fazenda muda cálculo e agora deficit estrutural é de Bolsonaro](https://www.poder360.com.br/poder-economia/contas-publicas-tem-deficit-estrutural-desde-bolsonaro-diz-fazenda/) · consultada em 2026-09-05 · captura sha256 `4184d4628eec912f…`
    > deficit de 0,60% do PIB
 
    *O que prova:* Fecha a leitura alternativa mais favorável à afirmação: mesmo no resultado estrutural recalculado pela própria Fazenda, 2022 dá 0,60% e não 2,8%.
@@ -852,18 +865,18 @@
 
 **Fontes:**
 
-1. `N1` **Câmara dos Deputados**: [Congresso aprova Lei de Diretrizes Orçamentárias de 2026 com meta de superávit](https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/) · consultada em 2026-09-05
+1. `N1` **Câmara dos Deputados**: [Congresso aprova Lei de Diretrizes Orçamentárias de 2026 com meta de superávit](https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/) · consultada em 2026-09-05 · captura sha256 `9f3448c4582f6cbe…`
    > O Congresso Nacional aprovou nesta quinta-feira (4) a Lei de Diretrizes Orçamentárias de 2026 (PLN 2/25) com uma meta de superávit primário para o ano que vem de R$ 34,3 bilhões – ou 0,25% do Produto Interno Bruto.
 
    *O que prova:* É a meta legal do ano, aprovada pelo Congresso, e ela é 0,25% do PIB.
 
-2. `N1` **Câmara dos Deputados**: [Congresso aprova Lei de Diretrizes Orçamentárias de 2026 com meta de superávit](https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/#tolerancia) · consultada em 2026-09-05
+2. `N1` **Câmara dos Deputados**: [Congresso aprova Lei de Diretrizes Orçamentárias de 2026 com meta de superávit](https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/#tolerancia) · consultada em 2026-09-05 · captura sha256 `9f3448c4582f6cbe…`
    > A meta fiscal será considerada cumprida se o resultado variar 0,25% para mais ou para menos. No Congresso, os parlamentares aprovaram dispositivo que permite ao governo observar o limite inferior, ou seja, déficit zero, caso seja necessário limitar despesas para atingir a meta.
 
    *O que prova:* Sustenta a ressalva do card: a banda de tolerância acomoda um resultado de 0,1%, ainda que a meta escrita seja 0,25%.
 
-3. `N2` **IPEA — Carta de Conjuntura**: [Panorama fiscal: evolução recente e perspectivas](https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/10/panorama-fiscal-evolucao-recente-e-perspectivas-7/) · consultada em 2026-09-05
-   > Para 2026, o Projeto de Lei Orçamentária (Ploa) projeta déficit primário para o governo central de R$ 23,3 bilhões, ou -0,17% do PIB; ao considerar a compensação de R$ 57,84 bilhões referente ao pagamento de precatórios, o resultado primário projetado atinge um superávit de R$ 34,5 bilhões (0,25% do PIB).
+3. `N2` **IPEA — Carta de Conjuntura**: [Panorama fiscal: evolução recente e perspectivas](https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/10/panorama-fiscal-evolucao-recente-e-perspectivas-7/) · consultada em 2026-09-26 · captura sha256 `84b1f2feafe9e0ef…`
+   > Para 2026, o Projeto de Lei Orçamentária (Ploa) projeta déficit primário para o governo central de R$ 23,3 bilhões, ou -0,17% do produto interno bruto (PIB); ao considerar a compensação de R$ 57,84 bilhões referente ao pagamento de precatórios, o resultado primário projetado atinge um superávit de R$ 34,5 bilhões (0,25% do PIB)
 
    *O que prova:* Mostra que o número que sai do orçamento é 0,25% e explica de onde ele vem, descartando 0,1% como valor de qualquer das duas leituras.
 
@@ -901,17 +914,17 @@
 
 **Fontes:**
 
-1. `N1` **Senado Federal — Instituição Fiscal Independente**: [Uma análise do resultado primário de 2023](https://www2.senado.leg.br/bdsf/handle/id/1000000) · consultada em 2026-09-05
-   > Os R$ 92,4 bilhões consideram precatórios e sentenças judiciais inseridos em benefícios previdenciários (R$ 27,7 bilhões), pessoal e encargos sociais
+1. `N1` **Senado Federal, Instituição Fiscal Independente (IFI)**: [Relatório de Acompanhamento Fiscal nº 84, janeiro de 2024 (nota 62)](https://www12.senado.leg.br/ifi/pdf/raf84_jan2024.pdf) · consultada em 2026-09-26 · captura sha256 `5805ac4e9ae550f4…`
+   > Os R$ 92,4 bilhões consideram precatórios e sentenças judiciais inseridos em benefícios previdenciários (R$ 27,7 bilhões), pessoal e encargos sociais (R$ 12,8 bilhões), Benefício de Prestação Continuada (R$ 0,4 bilhão) e precatórios e sentenças judiciais de custeio e capital (R$ 51,5 bilhões).
 
-   *O que prova:* Detalha a composição do valor e confirma que ele se refere a dívidas judiciais com pessoas, que é o sentido dado na fala.
+   *O que prova:* Detalha a composição do valor e confirma que ele se refere a dívidas judiciais com pessoas, que é o sentido dado na fala. 🔧 Até 26/set/2026 esta fonte apontava para um endereço que não existe (bdsf/handle/id/1000000); o trecho era real e está na nota 62 do RAF nº 84, que é o endereço agora citado.
 
-2. `N4` **CNN Brasil / Reuters**: [Dívida pública bruta fica em 74,3% do PIB em dezembro, mostra BC](https://www.cnnbrasil.com.br/economia/macroeconomia/divida-publica-bruta-fica-em-743-do-pib-em-dezembro-mostra-bc/) · consultada em 2026-09-05
+2. `N4` **CNN Brasil / Reuters**: [Dívida pública bruta fica em 74,3% do PIB em dezembro, mostra BC](https://www.cnnbrasil.com.br/economia/macroeconomia/divida-publica-bruta-fica-em-743-do-pib-em-dezembro-mostra-bc/) · consultada em 2026-09-05 · captura sha256 `d9e14c77198ed6c7…`
    > O BC ressaltou para esse resultado o impacto do pagamento de precatórios, de 92,4 bilhões de reais.
 
    *O que prova:* Registra o mesmo valor como explicação do Banco Central para o resultado de dezembro de 2023, em fonte independente da anterior.
 
-3. `N1` **Presidência da República — Casa Civil**: [Emenda Constitucional nº 126, de 21 de dezembro de 2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm) · consultada em 2026-09-26
+3. `N1` **Presidência da República — Casa Civil**: [Emenda Constitucional nº 126, de 21 de dezembro de 2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm) · consultada em 2026-09-26 · captura sha256 `b7d196f04a672a45…`
    > Altera a Constituição Federal, para dispor sobre as emendas individuais ao projeto de lei orçamentária, e o Ato das Disposições Constitucionais Transitórias para excluir despesas dos limites previstos no art. 107; define regras para a transição da Presidência da República aplicáveis à Lei Orçamentária de 2023 [...] Art. 3º O limite estabelecido no inciso I do caput do art. 107 do Ato das Disposições Constitucionais Transitórias fica acrescido em R$ 145.000.000.000,00 (cento e quarenta e cinco bilhões de reais) para o exercício financeiro de 2023.
 
    *O que prova:* É a PEC da Transição citada na fala, e a ementa confirma que ela existe para excluir despesas do teto na transição, que é o vínculo afirmado. O art. 3º, acrescentado ao trecho em 26/set/2026, dá o tamanho do espaço aberto fora do teto (R$ 145 bilhões), citado na explicação.
@@ -944,12 +957,12 @@
 
 **Fontes:**
 
-1. `N2` **Brazilian Journal of Political Economy / Revista de Economia Política (SciELO)**: [Governos Lula: a era do consumo?](https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt) · consultada em 2026-09-05
+1. `N2` **Brazilian Journal of Political Economy / Revista de Economia Política (SciELO)**: [Governos Lula: a era do consumo?](https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt) · consultada em 2026-09-05 · captura sha256 `ee206109fcf47f93…`
    > Cabe lembrar que, em 2008, na sua mensagem de final de ano, o presidente da República em rede nacional de comunicação de televisão e rádio apelou aos brasileiros para que realizassem os seus desejos de consumo.
 
    *O que prova:* Confirma a existência do pronunciamento, o ano, o meio (rede nacional de rádio e televisão) e o teor de apelo ao consumo.
 
-2. `N2` **Brazilian Journal of Political Economy / Revista de Economia Política (SciELO)**: [Governos Lula: a era do consumo? — citação do pronunciamento](https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt#pronunciamento) · consultada em 2026-09-05
+2. `N2` **Brazilian Journal of Political Economy / Revista de Economia Política (SciELO)**: [Governos Lula: a era do consumo? — citação do pronunciamento](https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt#pronunciamento) · consultada em 2026-09-05 · captura sha256 `cdc89d5e6f8e189e…`
    > Se você está com dívidas, procure antes equilibrar seu orçamento. Mas se tem um dinheirinho no bolso ou recebeu o décimo terceiro, e está querendo comprar uma geladeira, um fogão ou trocar de carro, não frustre seu sonho, com medo do futuro.
 
    *O que prova:* É a transcrição do próprio pronunciamento, que prova o teor descrito na fala: um chamado ao consumo responsável durante a crise.
@@ -980,12 +993,12 @@
 
 **Fontes:**
 
-1. `N4` **Exame**: [De diretor no WhatsApp a substituto de Haddad: quem é Dario Durigan, novo ministro da Fazenda](https://exame.com/economia/de-diretor-no-whatsapp-a-substituto-de-haddad-quem-e-dario-durigan-novo-ministro-da-fazenda/) · consultada em 2026-09-05
-   > Publicado em 20 de março de 2026 às 06h00. O secretário-executivo Dario Durigan assumirá o comando do Ministério da Fazenda até o fim do mandato do presidente Luiz Inácio Lula da Silva (PT), após a saída de Fernando Haddad para disputar o governo de São Paulo. A mudança ocorreu nesta quinta-feira, 19, último dia de Haddad à frente da pasta.
+1. `N4` **Exame**: [De diretor no WhatsApp a substituto de Haddad: quem é Dario Durigan, novo ministro da Fazenda](https://exame.com/economia/de-diretor-no-whatsapp-a-substituto-de-haddad-quem-e-dario-durigan-novo-ministro-da-fazenda/) · consultada em 2026-09-26 · captura sha256 `22da04c761bf1d16…`
+   > Publicado em 20 de março de 2026 às 06h00 [...] O secretário-executivo Dario Durigan assumirá o comando do Ministério da Fazenda até o fim do mandato do presidente Luiz Inácio Lula da Silva (PT) , após a saída de Fernando Haddad para disputar o governo de São Paulo. A mudança ocorreu nesta quinta-feira, 19, último dia de Haddad à frente da pasta.
 
    *O que prova:* Data a troca e nomeia quem entrou e quem saiu, que é o fato afirmado.
 
-2. `N4` **Brasil de Fato**: [Durigan tem desafio de continuar gestão Haddad no Ministério da Fazenda em ano eleitoral](https://www.brasildefato.com.br/2026/03/24/novo-ministro-da-fazenda-dario-durigan-tem-desafio-de-continuar-gestao-haddad-em-contexto-geopolitico-tenso/) · consultada em 2026-09-05
+2. `N4` **Brasil de Fato**: [Durigan tem desafio de continuar gestão Haddad no Ministério da Fazenda em ano eleitoral](https://www.brasildefato.com.br/2026/03/24/novo-ministro-da-fazenda-dario-durigan-tem-desafio-de-continuar-gestao-haddad-em-contexto-geopolitico-tenso/) · consultada em 2026-09-05 · captura sha256 `89332087ec5647fe…`
    > novo ministro da Fazenda, Dario Durigan
 
    *O que prova:* Confirma a posse em veículo independente do primeiro, dias depois da troca.
