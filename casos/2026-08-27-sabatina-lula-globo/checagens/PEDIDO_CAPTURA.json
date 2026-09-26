@@ -1,61 +1,22 @@
 {
   "caso": "2026-08-27-sabatina-lula-globo",
-  "rodada": 5,
-  "finalidade": "Rodada 5: captura assinada de TODAS as URLs citadas no caso, para conferir cada trecho contra a página como ela está hoje (ferramentas/conferir-trechos.py). Rodadas 1 a 4: lastro de texto de tela e contestação do A007.",
+  "rodada": 6,
+  "finalidade": "Rodada 6: auditoria de trechos. A017 (Francisco Lopes, omitido da lista), A021 (URL da IFI que não existe), A009 (frase da FGV que não está na página citada).",
   "urls": [
-    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026",
-    "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/agosto/divida-publica-federal-totalizou-r-9-298-trilhoes-em-julho",
-    "https://www.poder360.com.br/poder-economia/divida-bruta-chega-a-r-109-tri-e-atinge-825-do-pib/",
-    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026",
-    "https://www.cnnbrasil.com.br/economia/macroeconomia/divida-publica-bruta-fica-em-743-do-pib-em-dezembro-mostra-bc/",
-    "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
-    "https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra",
-    "https://www.brasildefato.com.br/2026/08/08/lula-protocola-candidatura-e-lanca-plano-de-governo-com-palavra-soberania-em-21-das-84-paginas/",
-    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025",
-    "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
-    "https://www.laarena.com.ar/el-pais/2010-1-20-4-29-4-se-redujo-el-superavit-fiscal",
-    "https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-acumula-un-superavit-primario-de-25000-millones-en-los-primeros",
+    "https://www.bcb.gov.br/historiacontada/publicacoes/hc_bc_volume_23_francisco_lopes.pdf",
     {
-      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes",
+      "url": "https://www.bcb.gov.br/historiacontada/",
       "navegador": true
     },
+    "https://www25.senado.leg.br/documents/12427/30022/Banco%20Central%20do%20Brasil/ba62d8c2-2a8d-429a-9414-7654dbffc620",
+    "https://pt.wikipedia.org/wiki/Francisco_Lopes_(economista)",
+    "https://blogdoibre.fgv.br/posts/brasil-precisaria-crescer-57-em-2019-e-2020-para-decada-2011-20-nao-ser-pior-decada-dos",
+    "https://www12.senado.leg.br/ifi/pdf/raf108_jan2026.pdf",
+    "https://www12.senado.leg.br/ifi/pdf/raf84_jan2024.pdf",
+    "https://www12.senado.leg.br/ifi/pdf/raf85_fev2024.pdf",
     {
-      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/38284-release-contas-nacionais",
+      "url": "https://www12.senado.leg.br/ifi/publicacoes-1/relatorio",
       "navegador": true
-    },
-    "https://blogdoibre.fgv.br/posts/nova-decada-perdida-brasileira-e-o-resto-do-mundo-resultados-capita",
-    {
-      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/41763-pib-cresce-3-0-e-totaliza-r-10-trilhoes-em-2022",
-      "navegador": true
-    },
-    {
-      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/44973-pib-cresce-3-2-e-totaliza-r-10-9-trilhoes-em-2023",
-      "navegador": true
-    },
-    {
-      "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/42775-pib-fecha-2024-em-3-4-e-registra-maior-taxa-desde-2021",
-      "navegador": true
-    },
-    "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
-    {
-      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13983-asi-em-2010-pib-varia-75-e-fica-em-r-3675-trilhoes",
-      "navegador": true
-    },
-    "https://fred.stlouisfed.org/series/GFDEGDQ188S",
-    "https://fred.stlouisfed.org/series/GFDEBTN",
-    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
-    "https://en.wikipedia.org/wiki/Gustavo_Franco",
-    "https://www.poder360.com.br/poder-economia/em-despedida-campos-neto-diz-que-cumpriu-mandato-apesar-de-pressoes/",
-    "https://sites.tcu.gov.br/fatos-fiscais/resultado_fiscal.html",
-    "https://www.poder360.com.br/poder-economia/contas-publicas-tem-deficit-estrutural-desde-bolsonaro-diz-fazenda/",
-    "https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/",
-    "https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/#tolerancia",
-    "https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/10/panorama-fiscal-evolucao-recente-e-perspectivas-7/",
-    "https://www2.senado.leg.br/bdsf/handle/id/1000000",
-    "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm",
-    "https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt",
-    "https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt#pronunciamento",
-    "https://exame.com/economia/de-diretor-no-whatsapp-a-substituto-de-haddad-quem-e-dario-durigan-novo-ministro-da-fazenda/",
-    "https://www.brasildefato.com.br/2026/03/24/novo-ministro-da-fazenda-dario-durigan-tem-desafio-de-continuar-gestao-haddad-em-contexto-geopolitico-tenso/"
+    }
   ]
 }

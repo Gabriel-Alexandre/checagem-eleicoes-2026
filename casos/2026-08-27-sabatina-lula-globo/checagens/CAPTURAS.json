@@ -1,0 +1,377 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "nota": "Recibo das capturas das fontes: sha256 do que foi lido e se cada trecho citado foi encontrado na página capturada. O texto das páginas não entra no git.",
+  "capturas": [
+    {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026",
+      "capturada_em": "2026-09-26T23:30:47+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 1901,
+      "sha256": "1552493f6628c05aa2cd4ca562831a9c02749515765fd861aff3159bdabca1f7",
+      "trechos": {
+        "A001": "encontrado"
+      }
+    },
+    {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022&dataFinal=31/07/2026",
+      "capturada_em": "2026-09-26T23:30:50+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 1673,
+      "sha256": "20de479c9f928a17dc5f246ea8c205dd652fe4367ad402745853d9c2f14db963",
+      "trechos": {
+        "A002": "não encontrado",
+        "A003": "não encontrado"
+      }
+    },
+    {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025",
+      "capturada_em": "2026-09-26T23:31:04+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 10452,
+      "sha256": "b5137286d9469a32b5479cb60468a9bd019224e558c3babcaaa441b97719366c",
+      "trechos": {
+        "A006": "encontrado",
+        "A007": "encontrado",
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://blogdoibre.fgv.br/posts/nova-decada-perdida-brasileira-e-o-resto-do-mundo-resultados-capita",
+      "capturada_em": "2026-09-26T23:31:32+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 42399,
+      "sha256": "cd89db8cf4cf9da8e330a931ef1cb7d59ca25945ceb8755bc3db862287d81e5c",
+      "trechos": {
+        "A009": "não encontrado"
+      }
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gustavo_Franco",
+      "capturada_em": "2026-09-26T23:32:02+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 179152,
+      "sha256": "e44bf201fb0ca74adcde546cb3ff3e4c41dc9206c3aa9f9a41bc363e2e31a770",
+      "trechos": {
+        "A017": "não encontrado"
+      }
+    },
+    {
+      "url": "https://exame.com/economia/de-diretor-no-whatsapp-a-substituto-de-haddad-quem-e-dario-durigan-novo-ministro-da-fazenda/",
+      "capturada_em": "2026-09-26T23:32:35+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 247648,
+      "sha256": "22da04c761bf1d168fcc1617b375f56ac7a4432a96c67655ddf50c05f30fffd5",
+      "trechos": {
+        "A023": "não encontrado"
+      }
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/GFDEBTN",
+      "capturada_em": "2026-09-26T23:32:01+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 79206,
+      "sha256": "13e1438e45ac9abcfcc68c83fe4100495a5f03f9131dc5a6b241086cd2355319",
+      "trechos": {
+        "A016": "encontrado"
+      }
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/GFDEGDQ188S",
+      "capturada_em": "2026-09-26T23:32:01+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 82794,
+      "sha256": "86453d7f79acea1aef56d515bf458d63f5e5efd13c4832ab3a3436c338b51a84",
+      "trechos": {
+        "A014": "encontrado",
+        "A015": "encontrado",
+        "A016": "encontrado"
+      }
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+      "capturada_em": "2026-09-26T23:32:02+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 143951,
+      "sha256": "baa5affa981efc7a0201c82ab1a675bfffc341c98066d4a8f30047fd85b1f92b",
+      "trechos": {
+        "A017": "não encontrado",
+        "A018": "encontrado"
+      }
+    },
+    {
+      "url": "https://sites.tcu.gov.br/fatos-fiscais/resultado_fiscal.html",
+      "capturada_em": "2026-09-26T23:32:03+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 5155,
+      "sha256": "ed3c9b9d16e2f747278fec22396f21d711e7473f564bf44197766fa217a844c2",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-acumula-un-superavit-primario-de-25000-millones-en-los-primeros",
+      "capturada_em": "2026-09-26T23:31:17+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 37555,
+      "sha256": "343390e45c94e61a42a8d3111d1723cb38412d0370073b10fbeb43d05ea86b69",
+      "trechos": {
+        "A007": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.brasildefato.com.br/2026/03/24/novo-ministro-da-fazenda-dario-durigan-tem-desafio-de-continuar-gestao-haddad-em-contexto-geopolitico-tenso/",
+      "capturada_em": "2026-09-26T23:32:36+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 689517,
+      "sha256": "89332087ec5647fe86a13ceceeb37b7cac2d30b5c47e1f5a2c4500ef468f023b",
+      "trechos": {
+        "A023": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.brasildefato.com.br/2026/08/08/lula-protocola-candidatura-e-lanca-plano-de-governo-com-palavra-soberania-em-21-das-84-paginas/",
+      "capturada_em": "2026-09-26T23:31:03+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 682263,
+      "sha256": "176ac188f0b617420f899f59734718030d88e1ff5cd26f7ab52766f27feea7de",
+      "trechos": {
+        "A005": "não encontrado"
+      }
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/",
+      "capturada_em": "2026-09-26T23:32:04+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 69525,
+      "sha256": "9f3448c4582f6cbefd82af6e2bcf2bd13600bfb47539c6ae23d996a52f90207f",
+      "trechos": {
+        "A020": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/1229998-congresso-aprova-lei-de-diretrizes-orcamentarias-de-2026-com-meta-de-superavit/#tolerancia",
+      "capturada_em": "2026-09-26T23:32:06+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 69525,
+      "sha256": "9f3448c4582f6cbefd82af6e2bcf2bd13600bfb47539c6ae23d996a52f90207f",
+      "trechos": {
+        "A020": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/divida-publica-bruta-fica-em-743-do-pib-em-dezembro-mostra-bc/",
+      "capturada_em": "2026-09-26T23:30:51+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 383535,
+      "sha256": "d9e14c77198ed6c736983e6b97cd3b97a16530e8e39a0634ad7c2478281c00ce",
+      "trechos": {
+        "A002": "encontrado",
+        "A021": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra",
+      "capturada_em": "2026-09-26T23:31:03+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 190564,
+      "sha256": "60497dade57fcedc37ef578b3b62e91559364a5801e7e86dc9f7c7400c27df40",
+      "trechos": {
+        "A005": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/agosto/divida-publica-federal-totalizou-r-9-298-trilhoes-em-julho",
+      "capturada_em": "2026-09-26T23:30:49+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 105420,
+      "sha256": "085974742e1af17c0349a3eb45d1a2d06078ae0fb6929fd577e1338e71b88df5",
+      "trechos": {
+        "A001": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
+      "capturada_em": "2026-09-26T23:31:15+00:00",
+      "status": 200,
+      "tipo": "application/json",
+      "caminho": "direto",
+      "bytes": 182903,
+      "sha256": "22b35875344767733c4ba6f46632a417858ec22771f167e9860edf83eb7c3d06",
+      "trechos": {
+        "A006": "não encontrado",
+        "A007": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
+      "capturada_em": "2026-09-26T23:31:01+00:00",
+      "status": 200,
+      "tipo": "application/json",
+      "caminho": "direto",
+      "bytes": 98046,
+      "sha256": "ee29ce0c80bcfda6875be68930b6b6d31c9b67d1834aa5c4e9aebec13a3cefd3",
+      "trechos": {
+        "A003": "encontrado",
+        "A014": "encontrado",
+        "A015": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/10/panorama-fiscal-evolucao-recente-e-perspectivas-7/",
+      "capturada_em": "2026-09-26T23:32:10+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 41481,
+      "sha256": "84b1f2feafe9e0ef7f25e7df6ce322933bc4b4d89c399b53f82b744da0edb035",
+      "trechos": {
+        "A020": "não encontrado"
+      }
+    },
+    {
+      "url": "https://www.laarena.com.ar/el-pais/2010-1-20-4-29-4-se-redujo-el-superavit-fiscal",
+      "capturada_em": "2026-09-26T23:31:15+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 194460,
+      "sha256": "012d33b72ced5ebc7cc6d05b6ddfe4dc1f6e45dcdbc5604681d6c30865de2fdf",
+      "trechos": {
+        "A007": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm",
+      "capturada_em": "2026-09-26T23:32:20+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 39099,
+      "sha256": "b7d196f04a672a450524c3d71f91b2d5378d870c1e4beb3b1ef46341c7145e42",
+      "trechos": {
+        "A021": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-economia/contas-publicas-tem-deficit-estrutural-desde-bolsonaro-diz-fazenda/",
+      "capturada_em": "2026-09-26T23:32:03+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 259015,
+      "sha256": "4184d4628eec912f0d5f6c7058a00ed59b5e90deca77380581ee521bdf97964d",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-economia/divida-bruta-chega-a-r-109-tri-e-atinge-825-do-pib/",
+      "capturada_em": "2026-09-26T23:30:49+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 244662,
+      "sha256": "0acb796e4f7ad0a85b21d0f8bc51e1e5552c549aa125c836374659c3896ed4a7",
+      "trechos": {
+        "A001": "encontrado",
+        "A003": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-economia/em-despedida-campos-neto-diz-que-cumpriu-mandato-apesar-de-pressoes/",
+      "capturada_em": "2026-09-26T23:32:02+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 261046,
+      "sha256": "46992ff92f05622615aefe23e63c230d7ac2d1a813869d142068105f91bde4c3",
+      "trechos": {
+        "A018": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt",
+      "capturada_em": "2026-09-26T23:32:27+00:00",
+      "status": 403,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 268355,
+      "sha256": "ee206109fcf47f93d913d088c8ed66040a2c8162011393cec34b4f102107c4cc",
+      "trechos": {
+        "A022": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.scielo.br/j/rep/a/GRkX8Xwf6QfkRVqwWKQQw3j/?format=html&lang=pt#pronunciamento",
+      "capturada_em": "2026-09-26T23:32:33+00:00",
+      "status": 403,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 271581,
+      "sha256": "cdc89d5e6f8e189e5ff746f52cb250d290422415cf3ea52846ffb100c1daa0b9",
+      "trechos": {
+        "A022": "encontrado"
+      }
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
+      "capturada_em": "2026-09-26T23:31:54+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 57019,
+      "sha256": "ad7d542a4238a5a83282329cce4ca8f8ef58516782e97bacadf4fae64326a7f8",
+      "trechos": {
+        "A010": "encontrado"
+      }
+    },
+    {
+      "url": "https://www2.senado.leg.br/bdsf/handle/id/1000000",
+      "capturada_em": "2026-09-26T23:32:18+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 60964,
+      "sha256": "abb2bfa71bc1b6f5737bf3a2f5fa0e34e0b3141b78be5a778db34e2781e73de6",
+      "trechos": {
+        "A021": "não encontrado"
+      }
+    }
+  ]
+}

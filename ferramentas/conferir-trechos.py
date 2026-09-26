@@ -57,7 +57,9 @@ def _carregar(pastas: list[Path]) -> dict[str, dict]:
         if not manifesto.exists():
             continue
         for c in json.loads(manifesto.read_text(encoding="utf-8"))["capturas"]:
-            if not c.get("sha256"):
+            # Página de erro (403 de um portal que recusa robô) não é captura da fonte: é
+            # captura da recusa. Conta como "sem captura", nunca como "trecho não encontrado".
+            if not c.get("sha256") or (c.get("status") != 200 and c.get("caracteres_de_texto", 0) < 2000):
                 continue
             atual = achado.get(c["url"])
             if atual and atual["registro"]["capturada_em"] >= c["capturada_em"]:
