@@ -3,5 +3,11 @@
   "url": "https://www.youtube.com/watch?v=o0W3MnZTqyA",
   "arquivo": "sabatina-flavio-globo-2026-08-28.mp4",
   "motivo": "Peça entregue pelo autor do projeto para o segundo caso. O ambiente de trabalho não alcança o YouTube nem o Hugging Face; o runner baixa, assina e transcreve com o mesmo motor e modelo do caminho local.",
-  "comentarios_de": ["https://www.youtube.com/watch?v=RWivnoqSSrU"]
+  "comentarios_de": [
+    "https://www.youtube.com/watch?v=RWivnoqSSrU"
+  ],
+  "alternativas": [
+    "https://www.facebook.com/g1/videos/1119392200517935/"
+  ],
+  "tentativa": 2
 }

@@ -67,23 +67,10 @@ jobs:
           ARQ: ${{ steps.pedido.outputs.arquivo }}
           SLUG: ${{ steps.pedido.outputs.slug }}
         run: |
-          url=$(python -c "import json,os;print(json.load(open(os.environ['ARQ']))['url'])")
           nome=$(python -c "import json,os;print(json.load(open(os.environ['ARQ']))['arquivo'])")
-          mkdir -p "casos/$SLUG/fonte"
-          # O YouTube recusa alguns clientes em IP de datacenter; tenta os outros antes de desistir.
-          for cliente in "" "youtube:player_client=tv_simply,web_safari" "youtube:player_client=mweb" \
-                         "youtube:player_client=android_vr"; do
-            extra=(); [ -n "$cliente" ] && extra=(--extractor-args "$cliente")
-            if yt-dlp --no-playlist --write-info-json "${extra[@]}" \
-                 -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b[height<=1080]" \
-                 --merge-output-format mp4 \
-                 -o "casos/$SLUG/fonte/${nome%.*}.%(ext)s" "$url"; then
-              break
-            fi
-            echo "::warning::download falhou com o cliente '${cliente:-padrão}'"
-          done
+          python ferramentas/baixar-peca.py "$ARQ" "casos/$SLUG/fonte/$nome"
+          rm -f casos/$SLUG/fonte/_v.mp4 casos/$SLUG/fonte/_a.m4a
           ls -la "casos/$SLUG/fonte"
-          ls casos/$SLUG/fonte/*.mp4
 
       - name: assinar e extrair o áudio (PASSO 1)
         env:
@@ -121,15 +108,7 @@ jobs:
         if: always()
         env:
           ARQ: ${{ steps.pedido.outputs.arquivo }}
-        run: |
-          python - <<'PY'
-          import json, os, subprocess
-          pedido = json.load(open(os.environ["ARQ"]))
-          for i, url in enumerate(pedido.get("comentarios_de", [])):
-              subprocess.run(["yt-dlp", "--skip-download", "--write-comments", "--write-info-json",
-                              "-o", f"comentarios_{i}", url], check=False)
-          PY
-          ls comentarios_* 2>/dev/null || true
+        run: python ferramentas/baixar-comentarios.py "$ARQ" || true
 
       - name: publicar no release em rascunho
         if: always()
@@ -144,8 +123,8 @@ jobs:
           if [ -d "casos/$SLUG/transcricao" ]; then
             tar -czf transcricao.tar.gz -C "casos/$SLUG" transcricao fonte/MIDIA.json
           fi
-          for f in casos/$SLUG/fonte/*.mp4 casos/$SLUG/fonte/*.wav casos/$SLUG/fonte/*.info.json \
-                   transcricao.tar.gz quadros.tar.gz whisper-versao.txt comentarios_*.info.json; do
+          for f in casos/$SLUG/fonte/*.mp4 casos/$SLUG/fonte/*.wav casos/$SLUG/fonte/*.json \
+                   transcricao.tar.gz quadros.tar.gz whisper-versao.txt comentarios_*.json; do
             [ -f "$f" ] && gh release upload "$tag" --clobber "$f"
           done
           true
