@@ -180,9 +180,9 @@
           "instituicao": "Brasil de Fato",
           "titulo": "Lula protocola candidatura e lança plano de governo com palavra 'soberania' em 21 das 84 páginas",
           "url": "https://www.brasildefato.com.br/2026/08/08/lula-protocola-candidatura-e-lanca-plano-de-governo-com-palavra-soberania-em-21-das-84-paginas/",
-          "consultada_em": "2026-09-05",
-          "trecho": "O documento estruturado em 13 eixos foi protocolado no Tribunal Superior Eleitoral (TSE) na sexta-feira (07/08).",
-          "prova": "Confirma a existência, a data de registro e a estrutura do documento a que a pergunta se refere, em veículo independente do primeiro."
+          "consultada_em": "2026-09-26",
+          "trecho": "Na noite desta sexta-feira (7), a coligação “Brasil Pronto Pra Mais” oficializou no Tribunal Superior Eleitoral (TSE) a candidatura de Luiz Inácio Lula da Silva à reeleição, com Geraldo Alckmin como vice. O registro marca o início formal da busca pelo quarto mandato do petista, trazendo um programa de governo com 84 páginas",
+          "prova": "Data do registro da candidatura e do programa de governo no TSE (sexta-feira, 7 de agosto) e o tamanho do documento. 🔧 Até 26/set/2026 o trecho desta fonte ('O documento estruturado em 13 eixos foi protocolado...') não estava na página; foi trocado pela frase literal."
         }
       ]
     },
@@ -213,9 +213,9 @@
           "instituicao": "Fundo Monetário Internacional",
           "titulo": "DataMapper — Primary net lending/borrowing (% of GDP), Brasil",
           "url": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
-          "consultada_em": "2026-09-05",
-          "trecho": "\"BRA\":{\"2003\":3.55,\"2004\":4.05,\"2005\":3.86,\"2006\":1.51,\"2007\":2.88,\"2008\":3.21,\"2009\":0.91,\"2010\":1.58,\"2011\":2.74,\"2012\":2.22,\"2013\":1.52,\"2014\":-0.9}",
-          "prova": "Confirma os oito anos positivos em base independente e mostra que a sequência seguinte, de 2011 em diante, se interrompe em 2014, no quarto ano."
+          "consultada_em": "2026-09-26",
+          "trecho": "\"BRA\":{\"2003\":3.5534131319219,\"2004\":4.0510971522081,\"2005\":3.8647871630283,\"2006\":1.5066524175739,\"2007\":2.8804573789676,\"2008\":3.2133101107755,\"2009\":0.91177865293406,\"2010\":1.5795912276201,\"2011\":2.7371632873748,\"2012\":2.2207254897841,\"2013\":1.5197567674266,\"2014\":-0.90003011676475}",
+          "prova": "Confirma os oito anos positivos em base independente e mostra que a sequência seguinte, de 2011 em diante, se interrompe em 2014, no quarto ano. 🔧 Trecho trocado em 26/set/2026 pela cópia literal da captura: a versão anterior tinha os valores arredondados."
         }
       ]
     },
@@ -637,34 +637,34 @@
     },
     {
       "id": "A017",
-      "veredito": "VERDADEIRO",
-      "resumo": "Houve quatro presidentes do Banco Central no governo FHC, o que corresponde a três substituições",
-      "explicacao": "Entre 1º de janeiro de 1995 e 1º de janeiro de 2003 passaram pela presidência do Banco Central, como titulares, Pérsio Arida, Gustavo Loyola, Gustavo Franco e Armínio Fraga, além de Francisco Lopes como interino por 19 dias em 1999. Quatro titulares significam três trocas de comando, que é exatamente o número citado. A frase é verdadeira na leitura de número de substituições. ⚠️ Ela seria imprecisa na leitura de número de presidentes, que foi quatro. A ambiguidade é do verbo 'trocar', não do dado.",
+      "veredito": "IMPRECISO",
+      "resumo": "Contando Francisco Lopes, aprovado pelo Senado em 1999, foram cinco presidentes do BC no governo FHC e quatro trocas",
+      "explicacao": "O registro oficial do Senado (Secretaria-Geral da Mesa) lista cinco presidentes do Banco Central aprovados entre 1995 e 2002: Pérsio Arida (aprovado em 10/01/1995), Gustavo Loyola (08/06/1995), Gustavo Franco (12/08/1997), Francisco Lopes (28/01/1999) e Armínio Fraga (03/03/1999). Cinco presidentes são quatro trocas de comando, e não três. A frase acerta a essência (o governo FHC trocou o comando do Banco Central várias vezes) e erra o número, que é a definição de impreciso. O número citado só fecha se Francisco Lopes for deixado de fora, e ele ficou pouco tempo: assumiu em janeiro de 1999 e saiu no início de fevereiro. 🔧 Até 26/set/2026 este veredito era VERDADEIRO: a checagem tratava Lopes como interino, com base na Wikipédia, e o trecho da lista citada tinha omitido a linha dele. O registro do Senado mostra que ele foi aprovado como presidente. Ver CORRECOES.md.",
       "numero_dito": "trocou três presidentes do Banco Central",
-      "numero_apurado": "quatro titulares no período, ou seja, três substituições",
+      "numero_apurado": "cinco presidentes no período (Arida, Loyola, Franco, Lopes e Fraga), ou seja, quatro trocas",
       "data_de_referencia": "1º de janeiro de 1995 a 1º de janeiro de 2003",
-      "ressalva": "Foram quatro presidentes titulares no período, mais um interino; três é o número de trocas.",
+      "ressalva": "Sem Francisco Lopes, que ficou semanas no cargo, seriam três trocas, o número citado.",
       "confianca": "media",
-      "divergencia_entre_fontes": null,
+      "divergencia_entre_fontes": "A lista da Wikipédia marca Francisco Lopes como '(interino)'; o registro do Senado o lista como presidente aprovado pela Casa em 28/01/1999, e o próprio verbete dele na Wikipédia o apresenta como presidente, de 13/01/1999 a 01/02/1999. O registro oficial prevalece sobre a marcação da lista.",
       "revisao_humana": null,
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "Wikipédia (lista com datas de posse e saída)",
-          "titulo": "Lista de presidentes do Banco Central do Brasil",
-          "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
-          "consultada_em": "2026-09-05",
-          "trecho": "Pérsio Arida 11 de janeiro de 1995 13 de junho de 1995 Fernando Henrique Cardoso | Gustavo Loyola 13 de junho de 1995 20 de agosto de 1997 | Gustavo Franco 20 de agosto de 1997 4 de março de 1999 | Armínio Fraga 4 de março de 1999 1 de janeiro de 2003",
-          "prova": "As quatro passagens com data, que somam três substituições dentro do período do governo."
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Secretaria-Geral da Mesa)",
+          "titulo": "Banco Central do Brasil: histórico de aprovações pelo Senado (atualizado em 17/06/2026)",
+          "url": "https://www25.senado.leg.br/documents/12427/30022/Banco%20Central%20do%20Brasil/ba62d8c2-2a8d-429a-9414-7654dbffc620",
+          "consultada_em": "2026-09-26",
+          "trecho": "10/01/1995 Pérsio Arida Presidente 11/01/1995 MSF 376/1994 [...] Gustavo Jorge Laboissiere 08/06/1995 Presidente 13/06/1995 Loyola MSF 199/1995 [...] Gustavo Henrique de Barroso 12/08/1997 Presidente 20/08/1997 Franco MSF 136/1997 [...] Francisco Lafaiete de Pádua 28/01/1999 Presidente 04/03/1999 Lopes MSF 54/1999 [...] 03/03/1999 Armínio Fraga Neto Presidente 04/03/1999 MSF 74/1999",
+          "prova": "As cinco linhas de 'Presidente' do período FHC, com a data de aprovação pelo Senado de cada um. É a lista oficial, e Francisco Lopes está nela como presidente."
         },
         {
           "nivel": "N4",
-          "instituicao": "Wikipedia (biografias com datas de mandato)",
-          "titulo": "Gustavo Franco e Arminio Fraga",
-          "url": "https://en.wikipedia.org/wiki/Gustavo_Franco",
-          "consultada_em": "2026-09-05",
-          "trecho": "Gustavo Franco served as President of the Central Bank from August 20, 1997 to March 4, 1999, succeeding Gustavo Loyola.",
-          "prova": "Confirma, em registro independente da lista, a sucessão Loyola para Franco e a data, que é uma das três trocas."
+          "instituicao": "Wikipédia (verbete de Francisco Lopes)",
+          "titulo": "Francisco Lopes (economista)",
+          "url": "https://pt.wikipedia.org/wiki/Francisco_Lopes_(economista)",
+          "consultada_em": "2026-09-26",
+          "trecho": "Francisco Lopes Presidente do Banco Central do Brasil Período 13 de janeiro de 1999 a 1º de fevereiro de 1999 Antecessor(a) Gustavo Franco Sucessor(a) Armínio Fraga [...] Em janeiro de 1999, assumiu a presidência do Banco, sucedendo Gustavo Franco",
+          "prova": "Confirma, em fonte independente do Senado, que Lopes ocupou a presidência entre Gustavo Franco e Armínio Fraga, e o período curto do mandato. Serve de ponteiro; a fonte forte é a do Senado."
         }
       ]
     },
@@ -779,8 +779,8 @@
           "instituicao": "IPEA — Carta de Conjuntura",
           "titulo": "Panorama fiscal: evolução recente e perspectivas",
           "url": "https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/10/panorama-fiscal-evolucao-recente-e-perspectivas-7/",
-          "consultada_em": "2026-09-05",
-          "trecho": "Para 2026, o Projeto de Lei Orçamentária (Ploa) projeta déficit primário para o governo central de R$ 23,3 bilhões, ou -0,17% do PIB; ao considerar a compensação de R$ 57,84 bilhões referente ao pagamento de precatórios, o resultado primário projetado atinge um superávit de R$ 34,5 bilhões (0,25% do PIB).",
+          "consultada_em": "2026-09-26",
+          "trecho": "Para 2026, o Projeto de Lei Orçamentária (Ploa) projeta déficit primário para o governo central de R$ 23,3 bilhões, ou -0,17% do produto interno bruto (PIB); ao considerar a compensação de R$ 57,84 bilhões referente ao pagamento de precatórios, o resultado primário projetado atinge um superávit de R$ 34,5 bilhões (0,25% do PIB)",
           "prova": "Mostra que o número que sai do orçamento é 0,25% e explica de onde ele vem, descartando 0,1% como valor de qualquer das duas leituras."
         }
       ]
@@ -800,12 +800,12 @@
       "fontes": [
         {
           "nivel": "N1",
-          "instituicao": "Senado Federal — Instituição Fiscal Independente",
-          "titulo": "Uma análise do resultado primário de 2023",
-          "url": "https://www2.senado.leg.br/bdsf/handle/id/1000000",
-          "consultada_em": "2026-09-05",
-          "trecho": "Os R$ 92,4 bilhões consideram precatórios e sentenças judiciais inseridos em benefícios previdenciários (R$ 27,7 bilhões), pessoal e encargos sociais",
-          "prova": "Detalha a composição do valor e confirma que ele se refere a dívidas judiciais com pessoas, que é o sentido dado na fala."
+          "instituicao": "Senado Federal, Instituição Fiscal Independente (IFI)",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 84, janeiro de 2024 (nota 62)",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf84_jan2024.pdf",
+          "consultada_em": "2026-09-26",
+          "trecho": "Os R$ 92,4 bilhões consideram precatórios e sentenças judiciais inseridos em benefícios previdenciários (R$ 27,7 bilhões), pessoal e encargos sociais (R$ 12,8 bilhões), Benefício de Prestação Continuada (R$ 0,4 bilhão) e precatórios e sentenças judiciais de custeio e capital (R$ 51,5 bilhões).",
+          "prova": "Detalha a composição do valor e confirma que ele se refere a dívidas judiciais com pessoas, que é o sentido dado na fala. 🔧 Até 26/set/2026 esta fonte apontava para um endereço que não existe (bdsf/handle/id/1000000); o trecho era real e está na nota 62 do RAF nº 84, que é o endereço agora citado."
         },
         {
           "nivel": "N4",
@@ -885,8 +885,8 @@
           "instituicao": "Exame",
           "titulo": "De diretor no WhatsApp a substituto de Haddad: quem é Dario Durigan, novo ministro da Fazenda",
           "url": "https://exame.com/economia/de-diretor-no-whatsapp-a-substituto-de-haddad-quem-e-dario-durigan-novo-ministro-da-fazenda/",
-          "consultada_em": "2026-09-05",
-          "trecho": "Publicado em 20 de março de 2026 às 06h00. O secretário-executivo Dario Durigan assumirá o comando do Ministério da Fazenda até o fim do mandato do presidente Luiz Inácio Lula da Silva (PT), após a saída de Fernando Haddad para disputar o governo de São Paulo. A mudança ocorreu nesta quinta-feira, 19, último dia de Haddad à frente da pasta.",
+          "consultada_em": "2026-09-26",
+          "trecho": "Publicado em 20 de março de 2026 às 06h00 [...] O secretário-executivo Dario Durigan assumirá o comando do Ministério da Fazenda até o fim do mandato do presidente Luiz Inácio Lula da Silva (PT) , após a saída de Fernando Haddad para disputar o governo de São Paulo. A mudança ocorreu nesta quinta-feira, 19, último dia de Haddad à frente da pasta.",
           "prova": "Data a troca e nomeia quem entrou e quem saiu, que é o fato afirmado."
         },
         {
