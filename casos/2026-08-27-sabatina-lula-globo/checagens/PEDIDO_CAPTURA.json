@@ -1,19 +1,15 @@
 {
   "caso": "2026-08-27-sabatina-lula-globo",
-  "rodada": 3,
-  "finalidade": "Rodada 3: contestação pública do A007 em comentários do vídeo publicado (Argentina e Arábia Saudita também teriam superávit primário de 2003 a 2010). Série do FMI de novo, série argentina no conceito nacional e o fechamento fiscal saudita de 2009. Rodadas 1 e 2: lastro de cinco textos de tela.",
+  "rodada": 4,
+  "finalidade": "Rodada 4: data de divulgação do PIB de 2010 (A011, o IBGE recusou o runner com 403) e o resultado argentino de 2010 no conceito nacional (A007). Rodadas anteriores: lastro de texto de tela e contestação do A007.",
   "urls": [
-    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025",
-    "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13983-asi-em-2010-pib-varia-75-e-fica-em-r-3675-trilhoes",
-    "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm",
-    "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
-    "https://agenciabrasil.ebc.com.br/politica/noticia/2023-01/democracia-foi-grande-vitoriosa-diz-lula-em-discurso-de-posse",
-    "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
-    "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT/ARG/SAU/BRA",
-    "https://cefip.econo.unlp.edu.ar/wp-content/uploads/2024/02/dt_2020_05_01_v01_f01.pdf",
-    "https://www.laarena.com.ar/el-pais/2010-1-20-4-29-4-se-redujo-el-superavit-fiscal",
-    "https://www.imf.org/en/News/Articles/2015/09/28/04/53/pn10117",
-    "https://www.mecon.gob.ar/onp/documentos/presupresumen/resum10.pdf",
-    "https://www.mecon.gob.ar/onp/documentos/presupresumen/resum11.pdf"
+    "https://exame.com/brasil/pib-brasileiro-cresce-0-7-no-4o-tri-e-encerra-2010-com-expansao-de-7-5/",
+    {
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13983-asi-em-2010-pib-varia-75-e-fica-em-r-3675-trilhoes",
+      "navegador": true
+    },
+    "https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-registro-superavit-financiero-anual-por-primera-vez-desde-el",
+    "https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-acumula-un-superavit-primario-de-25000-millones-en-los-primeros",
+    "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm"
   ]
 }

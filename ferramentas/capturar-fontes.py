@@ -87,8 +87,30 @@ def _navegador(url: str) -> tuple[int, str, bytes] | None:
     return status, "text/html; renderizado", conteudo
 
 
-def _texto_de_html(bruto: bytes) -> str:
-    t = bruto.decode("utf-8", errors="replace")
+def _charset(tipo: str, bruto: bytes) -> str:
+    """A codificação da página: o cabeçalho HTTP, depois o <meta>, e UTF-8 por último.
+
+    ⚠️ Página de governo antiga (o Planalto, por exemplo) ainda vem em Windows-1252. Lida como
+    UTF-8, "bilhões" vira "bilh�es", e um trecho com acento quebrado não é cópia literal.
+    """
+    m = re.search(r"charset=([\w-]+)", tipo or "", re.I) or \
+        re.search(rb'<meta[^>]+charset=["\']?([\w-]+)', bruto[:4000], re.I)
+    if m:
+        nome = m.group(1).decode() if isinstance(m.group(1), bytes) else m.group(1)
+        try:
+            "".encode(nome)
+            return nome
+        except LookupError:
+            pass
+    try:
+        bruto.decode("utf-8")
+        return "utf-8"
+    except UnicodeDecodeError:
+        return "cp1252"
+
+
+def _texto_de_html(bruto: bytes, tipo: str = "") -> str:
+    t = bruto.decode(_charset(tipo, bruto), errors="replace")
     t = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", t)
     t = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h[1-6]|tr|table|section|article)>", "\n", t)
     t = re.sub(r"(?s)<[^>]+>", " ", t)
@@ -132,7 +154,7 @@ def capturar(slug: str, pedido: Path, saida: Path) -> Path:
             elif ext == "json":
                 texto = bruto.decode("utf-8", errors="replace")
             else:
-                texto = _texto_de_html(bruto)
+                texto = _texto_de_html(bruto, tipo)
 
         if (status != 200 or len(texto) < 400) and ext != "pdf":
             renderizado = _navegador(url)
