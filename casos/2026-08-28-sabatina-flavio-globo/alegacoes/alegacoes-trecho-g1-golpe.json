@@ -1,0 +1,343 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "gerado_em": "2026-09-26",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "trecho-g1-golpe",
+  "cobertura": {
+    "inicio_s": 0.0,
+    "fim_s": 164.116
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 8.52,
+      "fim_s": 22.44,
+      "falante": "César Tralli",
+      "papel": "entrevistador",
+      "frase": "Candidato, ao julgar o caso, o Supremo Tribunal Federal identificou 13 atos numa trama que começou antes das eleições de 2022 e culminou no ataque às sedes dos três poderes em 8 de janeiro de 2023.",
+      "afirmacao": "Ao julgar o caso da trama golpista, o STF identificou 13 atos, iniciados antes das eleições de 2022, que culminaram no ataque de 8 de janeiro de 2023",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a tentativa de golpe de Estado e a condenação de Jair Bolsonaro pelo STF",
+      "o_que_conferir": [
+        "o acórdão ou a comunicação oficial do STF sobre o julgamento do núcleo principal da trama (Primeira Turma)",
+        "se a decisão fala em 13 atos, e se descreve a trama como iniciada antes das eleições de 2022 e culminando no 8 de janeiro"
+      ],
+      "citacao_card": "ao julgar o caso, o Supremo Tribunal Federal identificou 13 atos numa trama que começou antes das eleições de 2022"
+    },
+    {
+      "id": "A002",
+      "inicio_s": 22.44,
+      "fim_s": 36.2,
+      "falante": "César Tralli",
+      "papel": "entrevistador",
+      "frase": "Seu pai, o ex-presidente Jair Bolsonaro, ele foi condenado a 27 anos e 3 meses de prisão por liderar uma organização criminosa que tentou impedir a alternância de poder depois das eleições.",
+      "afirmacao": "Jair Bolsonaro foi condenado pelo STF a 27 anos e 3 meses de prisão por liderar organização criminosa que tentou impedir a alternância de poder",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a tentativa de golpe de Estado e a condenação de Jair Bolsonaro pelo STF",
+      "o_que_conferir": [
+        "a pena fixada pelo STF para Jair Bolsonaro e os crimes da condenação, na decisão ou no portal do STF",
+        "se a condenação era definitiva (trânsito em julgado) na data da fala, e a data do julgamento"
+      ],
+      "citacao_card": "Jair Bolsonaro, ele foi condenado a 27 anos e 3 meses de prisão por liderar uma organização criminosa"
+    },
+    {
+      "id": "A003",
+      "inicio_s": 36.2,
+      "fim_s": 57.5,
+      "falante": "César Tralli",
+      "papel": "entrevistador",
+      "frase": "E o Supremo enumerou as seguintes ações golpistas. Campanha para desacreditar as urnas eletrônicas e a justiça eleitoral, pressão sobre as forças armadas, uso de órgãos públicos contra adversários, plano para assassinar o então presidente eleito, o vice e o ministro do Supremo e a elaboração da chamada minuta do golpe.",
+      "afirmacao": "O STF listou entre as ações da trama a campanha contra as urnas e a Justiça Eleitoral, pressão sobre as Forças Armadas, uso de órgãos públicos contra adversários, o plano para assassinar o presidente eleito, o vice e um ministro do STF, e a minuta do golpe",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a tentativa de golpe de Estado e a condenação de Jair Bolsonaro pelo STF",
+      "o_que_conferir": [
+        "a lista de condutas descritas na decisão do STF ou na denúncia da PGR que a Turma acolheu",
+        "se cada um dos cinco itens aparece nela, inclusive o plano de assassinato e a minuta"
+      ],
+      "citacao_card": "o Supremo enumerou as seguintes ações golpistas [...] plano para assassinar o então presidente eleito, o vice e o ministro do Supremo"
+    },
+    {
+      "id": "A004",
+      "inicio_s": 58.44,
+      "fim_s": 68.4,
+      "falante": "César Tralli",
+      "papel": "entrevistador",
+      "frase": "Diante disso, pergunto ao senhor que garantias o eleitor tem de que o seu grupo político não vai voltar a atacar a democracia se o senhor for eleito.",
+      "afirmacao": "O grupo político do candidato atacou a democracia",
+      "tipo": "juizo_de_valor",
+      "checavel": false,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a tentativa de golpe de Estado e a condenação de Jair Bolsonaro pelo STF. A pergunta pressupõe um ataque à democracia pelo grupo político do candidato",
+      "o_que_conferir": [
+        "é qualificação política; os fatos em que ela se apoia (a condenação e as condutas descritas pelo STF) estão em A001 a A003"
+      ],
+      "citacao_card": "que garantias o eleitor tem de que o seu grupo político não vai voltar a atacar a democracia"
+    },
+    {
+      "id": "A005",
+      "inicio_s": 68.4,
+      "fim_s": 77.64,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É muito importante a sua pergunta para que quem está nos assistindo possa saber a grande farsa que foi armada para tirar o presidente Bolsonaro da vida pública.",
+      "afirmacao": "O processo que condenou Jair Bolsonaro foi uma farsa armada para tirá-lo da vida pública",
+      "tipo": "juizo_de_valor",
+      "checavel": false,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai. A qualificação se repete em 02:14 ('isso tudo foi uma farsa que foi armada')",
+      "o_que_conferir": [
+        "é juízo sobre o processo e leitura de intenção de quem o conduziu; não tem registro que o confirme ou desminta. Os fatos citados em seguida para sustentá-lo são alegações próprias (A007 a A019)"
+      ],
+      "citacao_card": "a grande farsa que foi armada para tirar o presidente Bolsonaro da vida pública"
+    },
+    {
+      "id": "A006",
+      "inicio_s": 77.86,
+      "fim_s": 82.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Você citou algumas acusações pelas quais ele foi condenado, ele foi julgado pelos seus inimigos.",
+      "afirmacao": "Jair Bolsonaro foi julgado por inimigos seus",
+      "tipo": "juizo_de_valor",
+      "checavel": false,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai. Em 02:22 ele nomeia Alexandre de Moraes como 'um inimigo declarado'",
+      "o_que_conferir": [
+        "'inimigo' é qualificação, não registro. Quem de fato julgou, e os vínculos citados de cada ministro, são alegações próprias (A015 a A019)"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 92.56,
+      "fim_s": 96.62,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Você falou alguns crimes que foram imputados a ele. Organização criminosa armada.",
+      "afirmacao": "Um dos crimes imputados a Jair Bolsonaro foi o de organização criminosa armada",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "a lista de crimes da denúncia da PGR e da condenação pelo STF",
+        "se o tipo penal é 'organização criminosa armada'"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 96.62,
+      "fim_s": 101.76,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Que organização as pessoas que estavam naquele 8 de janeiro nem se conheciam, nunca se viram na vida?",
+      "afirmacao": "As pessoas que participaram do 8 de janeiro não se conheciam entre si",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "o que a investigação da PF e as decisões do STF registram sobre organização, financiamento e coordenação dos atos de 8 de janeiro",
+        "se há registro que sustente que os participantes não se conheciam"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 101.82,
+      "fim_s": 104.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E armada? Não foi encontrada uma arma no 8 de janeiro, Tralli.",
+      "afirmacao": "Nenhuma arma foi encontrada nos atos de 8 de janeiro de 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "registros de apreensão da polícia e da investigação sobre os atos de 8 de janeiro",
+        "o que a decisão do STF considerou para o 'armada' do tipo penal, e se ele depende de arma apreendida no dia"
+      ],
+      "citacao_card": "E armada? Não foi encontrada uma arma no 8 de janeiro"
+    },
+    {
+      "id": "A010",
+      "inicio_s": 104.4,
+      "fim_s": 114.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Como é que alguém pode ser condenado, como foi o presidente Bolsonaro e centenas de outras pessoas, por depredação de patrimônio público, se ele estava a mais de 10 mil quilômetros de distância de Brasília?",
+      "afirmacao": "Jair Bolsonaro foi condenado por depredação de patrimônio público",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai. A frase traz três afirmações; esta é a da condenação dele. As outras são A011 e A012",
+      "o_que_conferir": [
+        "os crimes da condenação de Jair Bolsonaro no STF",
+        "se entre eles estão dano qualificado ou deterioração de patrimônio público"
+      ],
+      "citacao_card": "alguém pode ser condenado, como foi o presidente Bolsonaro [...] por depredação de patrimônio público"
+    },
+    {
+      "id": "A011",
+      "inicio_s": 104.4,
+      "fim_s": 114.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Como é que alguém pode ser condenado, como foi o presidente Bolsonaro e centenas de outras pessoas, por depredação de patrimônio público, se ele estava a mais de 10 mil quilômetros de distância de Brasília?",
+      "afirmacao": "Centenas de outras pessoas foram condenadas por depredação de patrimônio público pelo 8 de janeiro",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "número de condenados pelo STF por dano ao patrimônio nos processos do 8 de janeiro, na data da fala",
+        "fonte: balanço do STF ou do próprio tribunal sobre as ações penais do 8 de janeiro"
+      ],
+      "citacao_card": "condenado, como foi o presidente Bolsonaro e centenas de outras pessoas, por depredação de patrimônio público"
+    },
+    {
+      "id": "A012",
+      "inicio_s": 104.4,
+      "fim_s": 114.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Como é que alguém pode ser condenado, como foi o presidente Bolsonaro e centenas de outras pessoas, por depredação de patrimônio público, se ele estava a mais de 10 mil quilômetros de distância de Brasília?",
+      "afirmacao": "Em 8 de janeiro de 2023, Jair Bolsonaro estava a mais de 10 mil quilômetros de Brasília",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "onde Jair Bolsonaro estava em 8 de janeiro de 2023",
+        "a distância entre esse lugar e Brasília, numa fonte de distância geográfica"
+      ],
+      "citacao_card": "se ele estava a mais de 10 mil quilômetros de distância de Brasília"
+    },
+    {
+      "id": "A013",
+      "inicio_s": 121.0,
+      "fim_s": 126.24,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Depredação de um patrimônio público, a pessoa tem que estar fisicamente no mesmo local para poder cometer.",
+      "afirmacao": "Para responder por dano ao patrimônio público, a pessoa precisa estar fisicamente no local",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai, depois da analogia do copo quebrado",
+      "o_que_conferir": [
+        "o Código Penal: o tipo de dano (art. 163) e as regras de concurso de pessoas (art. 29)",
+        "se a lei exige presença física de todos os que respondem pelo crime"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 130.8,
+      "fim_s": 134.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Wi-Fi, é o golpe da Disney, é que eles estavam nos Estados Unidos.",
+      "afirmacao": "Em 8 de janeiro de 2023, Jair Bolsonaro estava nos Estados Unidos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "onde Jair Bolsonaro estava em 8 de janeiro de 2023, em registro jornalístico ou oficial da época"
+      ],
+      "citacao_card": "é o golpe da Disney, é que eles estavam nos Estados Unidos"
+    },
+    {
+      "id": "A015",
+      "inicio_s": 136.76,
+      "fim_s": 157.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "olha quem foi que julgou ele. Alexandre de Moraes, um inimigo declarado do presidente Bolsonaro, Flávio Dino, outro ministro indicado pelo Lula [...] O outro, Zanin",
+      "afirmacao": "Alexandre de Moraes, Flávio Dino e Cristiano Zanin participaram do julgamento de Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "a composição da Primeira Turma do STF que julgou o núcleo principal da trama",
+        "se os três votaram no julgamento"
+      ],
+      "citacao_card": "olha quem foi que julgou ele. Alexandre de Moraes [...] Flávio Dino [...] O outro, Zanin"
+    },
+    {
+      "id": "A016",
+      "inicio_s": 142.22,
+      "fim_s": 146.44,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Flávio Dino, outro ministro indicado pelo Lula",
+      "afirmacao": "Flávio Dino foi indicado ao STF por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "a indicação de Flávio Dino ao STF: quem indicou e quando, no Diário Oficial ou no Senado"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 142.22,
+      "fim_s": 151.86,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Flávio Dino, outro ministro indicado pelo Lula, que tem inclusive processo criminal contra o Bolsonaro",
+      "afirmacao": "Flávio Dino tem um processo criminal contra Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "se Flávio Dino moveu queixa-crime ou ação penal contra Jair Bolsonaro, e em que estado ela estava na data da fala",
+        "se a defesa pediu o impedimento de Dino por isso, e o que o STF decidiu"
+      ],
+      "citacao_card": "Flávio Dino, outro ministro indicado pelo Lula, que tem inclusive processo criminal contra o Bolsonaro"
+    },
+    {
+      "id": "A018",
+      "inicio_s": 146.44,
+      "fim_s": 153.26,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que disse que o Bolsonaro é o demônio na terra.",
+      "afirmacao": "Flávio Dino disse que Jair Bolsonaro é 'o demônio na terra'",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai",
+      "o_que_conferir": [
+        "registro da declaração de Flávio Dino, com data e contexto",
+        "se as palavras são essas, ou se a citação é de outra pessoa"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 153.26,
+      "fim_s": 157.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O outro, Zanin, indicado pelo Lula, que até ontem era advogado do Lula.",
+      "afirmacao": "Cristiano Zanin foi indicado ao STF por Lula e era advogado de Lula antes da indicação",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai. 'Até ontem' é figura de linguagem; o que se confere é o vínculo e a sequência",
+      "o_que_conferir": [
+        "a indicação de Zanin ao STF (quem, quando)",
+        "se ele foi advogado de Lula, e até quando"
+      ]
+    }
+  ],
+  "exclusoes": []
+}
