@@ -70,14 +70,20 @@ def _navegador(url: str) -> tuple[int, str, bytes] | None:
         from playwright.sync_api import sync_playwright
     except ImportError:
         return None
-    with sync_playwright() as p:
-        nav = p.chromium.launch()
-        pag = nav.new_page(user_agent=AGENTE, locale="pt-BR")
-        resp = pag.goto(url, wait_until="networkidle", timeout=90_000)
-        pag.wait_for_timeout(2500)
-        conteudo = pag.content().encode("utf-8")
-        status = resp.status if resp else 0
-        nav.close()
+    # Página que nunca "assenta" (anúncio, vídeo, telemetria) estoura o networkidle; o que
+    # importa é o texto, que já está lá depois do DOM carregado e de uns segundos de script.
+    try:
+        with sync_playwright() as p:
+            nav = p.chromium.launch()
+            pag = nav.new_page(user_agent=AGENTE, locale="pt-BR")
+            resp = pag.goto(url, wait_until="domcontentloaded", timeout=60_000)
+            pag.wait_for_timeout(6000)
+            conteudo = pag.content().encode("utf-8")
+            status = resp.status if resp else 0
+            nav.close()
+    except Exception as e:  # tempo esgotado, TLS, navegador: registra e segue
+        print(f"   navegador falhou em {url}: {e}".splitlines()[0], flush=True)
+        return None
     return status, "text/html; renderizado", conteudo
 
 
@@ -151,7 +157,10 @@ def capturar(slug: str, pedido: Path, saida: Path) -> Path:
         }
         manifesto["capturas"] = [c for c in manifesto["capturas"] if c["url"] != url] + [registro]
         marca = "ok " if status == 200 and texto else "!! "
-        print(f"{marca}{status} {len(texto):>7} {caminho:<9} {url}")
+        print(f"{marca}{status} {len(texto):>7} {caminho:<9} {url}", flush=True)
+        # O manifesto é gravado a cada URL: uma falha no meio não apaga o que já foi capturado.
+        manifesto_path.write_text(json.dumps(manifesto, ensure_ascii=False, indent=2) + "\n",
+                                  encoding="utf-8")
 
     manifesto_path.write_text(json.dumps(manifesto, ensure_ascii=False, indent=2) + "\n",
                               encoding="utf-8")

@@ -55,6 +55,7 @@ jobs:
         run: python ferramentas/capturar-fontes.py "$SLUG" --saida "capturas/$SLUG"
 
       - name: publicar no release em rascunho
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
           SLUG: ${{ steps.pedido.outputs.slug }}
@@ -64,5 +65,6 @@ jobs:
           gh release view "$tag" >/dev/null 2>&1 || \
             gh release create "$tag" --draft --title "nuvem · $SLUG" \
               --notes "Rascunho de trabalho do caso $SLUG. Não publicar."
+          [ -d "capturas/$SLUG" ] || exit 0
           tar -czf "capturas-rodada-$RODADA.tar.gz" -C capturas "$SLUG"
           gh release upload "$tag" --clobber "capturas-rodada-$RODADA.tar.gz"

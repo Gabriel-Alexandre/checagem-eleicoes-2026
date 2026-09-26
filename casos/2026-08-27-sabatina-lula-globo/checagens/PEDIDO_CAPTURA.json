@@ -1,6 +1,6 @@
 {
   "caso": "2026-08-27-sabatina-lula-globo",
-  "rodada": 1,
+  "rodada": 2,
   "finalidade": "Lastro de cinco textos de tela (A006, A010, A011, A013, A021) que a trava nova de ano e de número na ressalva apontou sem trecho de fonte. Ver CORRECOES.md, 26/set/2026.",
   "urls": [
     "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025",
