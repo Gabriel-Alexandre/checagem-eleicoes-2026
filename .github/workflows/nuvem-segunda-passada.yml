@@ -1,0 +1,93 @@
+name: nuvem-segunda-passada
+
+# A conferência de trecho suspeito da transcrição, feita num runner (ver docs/REPLICAR.md §2.2):
+# cada janela é transcrita de novo, ISOLADA, com o MESMO modelo e outros parâmetros (feixe 8 e,
+# opcionalmente, um prompt de contexto). Duas passadas independentes que concordam viram
+# correção, registrada por ferramentas/corrigir-transcricao.py; se discordam, o trecho fica
+# declarado como não resolvido.
+#
+# Disparo: push de casos/<slug>/transcricao/PEDIDO_SEGUNDA_PASSADA.json:
+#   { "caso": "<slug>", "rodada": 1, "prompt": "nomes próprios e contexto",
+#     "janelas": [ { "inicio_s": 96, "duracao_s": 10, "motivo": "..." } ] }
+# O WAV vem do release em rascunho nuvem-<slug>, publicado pelo nuvem-preparar-midia.
+
+on:
+  push:
+    paths:
+      - "casos/*/transcricao/PEDIDO_SEGUNDA_PASSADA.json"
+
+permissions:
+  contents: write
+
+jobs:
+  passar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+
+      - name: descobrir o pedido
+        id: pedido
+        run: |
+          arquivo=$(git diff --name-only HEAD~1 HEAD -- 'casos/*/transcricao/PEDIDO_SEGUNDA_PASSADA.json' | head -1)
+          if [ -z "$arquivo" ]; then arquivo=$(ls casos/*/transcricao/PEDIDO_SEGUNDA_PASSADA.json | head -1); fi
+          echo "arquivo=$arquivo" >> "$GITHUB_OUTPUT"
+          echo "slug=$(echo "$arquivo" | cut -d/ -f2)" >> "$GITHUB_OUTPUT"
+          echo "rodada=$(python3 -c "import json;print(json.load(open('$arquivo')).get('rodada', 1))")" >> "$GITHUB_OUTPUT"
+
+      - name: instalar e compilar o whisper.cpp
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg cmake
+          git clone --depth 1 --branch v1.8.2 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp \
+            || git clone --depth 1 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp
+          cmake -S /tmp/whisper.cpp -B /tmp/whisper.cpp/build -DCMAKE_BUILD_TYPE=Release \
+            -DBUILD_SHARED_LIBS=OFF -DWHISPER_BUILD_TESTS=OFF
+          cmake --build /tmp/whisper.cpp/build -j 4 --target whisper-cli
+          sudo cp /tmp/whisper.cpp/build/bin/whisper-cli /usr/local/bin/
+          curl -sSL -o /tmp/modelo.bin \
+            https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin
+          sha256sum /tmp/modelo.bin
+
+      - name: baixar o áudio do rascunho
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: gh release download "nuvem-$SLUG" --pattern "*.wav" --dir /tmp/audio
+
+      - name: segunda passada, janela a janela
+        env:
+          ARQ: ${{ steps.pedido.outputs.arquivo }}
+        run: |
+          python3 - <<'PY'
+          import glob, json, os, subprocess
+          pedido = json.load(open(os.environ["ARQ"]))
+          wav = glob.glob("/tmp/audio/*.wav")[0]
+          saida = {"caso": pedido["caso"], "modelo": "ggml-large-v3-turbo.bin",
+                   "parametros": "-bs 8 -bo 8", "prompt": pedido.get("prompt"), "janelas": []}
+          for j in pedido["janelas"]:
+              janela = f"/tmp/j_{j['inicio_s']}.wav"
+              subprocess.run(["ffmpeg", "-v", "error", "-i", wav, "-ss", str(j["inicio_s"]),
+                              "-t", str(j["duracao_s"]), "-y", janela], check=True)
+              resultado = {}
+              for rotulo, extra in (("sem_prompt", []), ("com_prompt", ["--prompt", pedido.get("prompt") or ""])):
+                  if rotulo == "com_prompt" and not pedido.get("prompt"):
+                      continue
+                  r = subprocess.run(["whisper-cli", "-m", "/tmp/modelo.bin", "-f", janela, "-l", "pt",
+                                      "-bs", "8", "-bo", "8", "-np", "-nt", *extra],
+                                     capture_output=True, text=True)
+                  resultado[rotulo] = r.stdout.strip()
+              saida["janelas"].append({**j, **resultado})
+              print(json.dumps(saida["janelas"][-1], ensure_ascii=False, indent=1), flush=True)
+          json.dump(saida, open("segunda-passada.json", "w"), ensure_ascii=False, indent=2)
+          PY
+
+      - name: publicar no release em rascunho
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+          RODADA: ${{ steps.pedido.outputs.rodada }}
+        run: |
+          cp segunda-passada.json "segunda-passada-rodada-$RODADA.json"
+          gh release upload "nuvem-$SLUG" --clobber "segunda-passada-rodada-$RODADA.json"

@@ -1,0 +1,12 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "rodada": 1,
+  "prompt": "Entrevista da TV Globo com Flávio Bolsonaro. Entrevistadores: César Tralli e Renata Vasconcellos. Supremo Tribunal Federal, Alexandre de Moraes, Flávio Dino, Cristiano Zanin, 8 de janeiro.",
+  "janelas": [
+    {"inicio_s": 0, "duracao_s": 10, "motivo": "abertura da pergunta, que a transcrição do Poder360 não tem"},
+    {"inicio_s": 94, "duracao_s": 12, "motivo": "'Organização criminosa armada' e 'Tralho': a referência tem 'E armada?' que a nossa não tem, e o nome do entrevistador parece errado"},
+    {"inicio_s": 104, "duracao_s": 11, "motivo": "número falado: 'mais de 10 mil quilômetros'"},
+    {"inicio_s": 125, "duracao_s": 13, "motivo": "'Ele foi imputado, esse crime é ele' contra 'E foi imputado esse crime a ele' na referência; 'Tralho' de novo"},
+    {"inicio_s": 141, "duracao_s": 18, "motivo": "nomes próprios dos ministros e a frase atribuída a Flávio Dino; sem referência publicada para este trecho"}
+  ]
+}
