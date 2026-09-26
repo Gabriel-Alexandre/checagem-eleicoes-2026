@@ -117,6 +117,23 @@ def anos_de(texto: str) -> set[str]:
     return set(ANO.findall(texto or ""))
 
 
+def valores_de(texto: str) -> list[float]:
+    """Os números de um texto como QUANTIDADE, no formato brasileiro: '10,81' -> 10.81,
+    '1.234,5' -> 1234.5. Serve para comparar o dito com o apurado com tolerância."""
+    saida = []
+    for bruto in NUMERO.findall(texto or ""):
+        limpo = bruto.strip(".,")
+        if "," in limpo:
+            limpo = limpo.replace(".", "").replace(",", ".")
+        elif limpo.count(".") >= 1 and all(len(p) == 3 for p in limpo.split(".")[1:]):
+            limpo = limpo.replace(".", "")
+        try:
+            saida.append(float(limpo))
+        except ValueError:
+            continue
+    return saida
+
+
 def _tem_intencao(texto: str) -> list[str]:
     baixo = (texto or "").lower()
     return [t for t in cfg.TERMOS_DE_INTENCAO if re.search(rf"(?<![a-zà-ÿ]){re.escape(t)}(?![a-zà-ÿ])", baixo)]
@@ -365,11 +382,14 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
             # é abrir exceção: é obrigar quem derivou a declarar a conta, e conferir que as
             # PARCELAS da conta estão nos trechos. Ver docs/METODOLOGIA.md §3.1.
             derivados: set[str] = set()
+            # A parcela de uma conta pode vir da fonte OU da própria fala: "94 contra 92,4" é a
+            # conta que mede o desvio do número dito, e o 94 tem lastro na transcrição.
+            da_fala = numeros_de(a["frase"]) | numeros_de(c.get("numero_dito") or "")
             for d in c.get("derivacoes", []):
                 parcelas = numeros_de(d.get("de", ""))
                 faltando = [
                     n for n in parcelas
-                    if n not in numeros_trechos and n not in trechos.replace(" ", "")
+                    if n not in numeros_trechos and n not in trechos.replace(" ", "") and n not in da_fala
                 ]
                 if faltando:
                     rel.erro(f"{aid}: a derivação de '{d.get('valor')}' usa {faltando} "
@@ -397,6 +417,26 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
                 for ano in sorted(anos_de(c.get(campo) or "") - anos_com_lastro):
                     rel.aviso(f"{aid}: o ano {ano} aparece em {campo} mas não em trecho de fonte, "
                               "na fala nem na data de referência")
+
+        # 🔧 Pego por um espectador (comentário no vídeo publicado, set/2026): "ele disse 94 bi,
+        # o card mostra 92,4 bi e marca VERDADEIRO". O veredito estava certo pela régua do §2.2
+        # (desvio de 1,7%), mas a própria régua manda o card DIZER o arredondamento, e não dizia.
+        # Número dito diferente do apurado, num VERDADEIRO, exige ressalva que traga o número.
+        if v == "VERDADEIRO":
+            dito_txt = (c.get("numero_dito") or "").lower()
+            d_vals, a_vals = valores_de(dito_txt), valores_de(c.get("numero_apurado") or "")
+            if d_vals and a_vals and a_vals[0]:
+                d, ap = d_vals[0], a_vals[0]
+                piso = any(t in dito_txt for t in ("mais de", "acima de", "passou de", "ultrapass"))
+                teto = any(t in dito_txt for t in ("menos de", "abaixo de"))
+                coerente = (piso and ap >= d) or (teto and ap <= d)
+                if not coerente and abs(d - ap) / abs(ap) >= 0.01:
+                    na_ressalva = valores_de(c.get("ressalva") or "")
+                    if not any(abs(x - ap) / abs(ap) < 0.05 for x in na_ressalva):
+                        rel.aviso(f"{aid}: VERDADEIRO com o número dito ({c.get('numero_dito')}) "
+                                  f"{abs(d - ap) / abs(ap) * 100:.1f}% longe do apurado, e a ressalva "
+                                  "não mostra o valor apurado: o card tem que dizer o arredondamento "
+                                  "(METODOLOGIA §2.2)")
 
         if c.get("confianca") == "baixa" and not c.get("revisao_humana"):
             rel.erro(f"{aid}: confiança baixa sem revisão humana registrada")

@@ -285,7 +285,7 @@ def desenhar_legenda(titulo: str, subtitulo: str) -> Image.Image:
         d.text((x0 + 56, y0 + 106 + i * 34), linha, font=f_sub, fill=cfg.COR_TEXTO_FRACO)
 
     explicacao = {
-        "VERDADEIRO": "confere com as fontes primárias",
+        "VERDADEIRO": "confere com as fontes; arredondamento vira ressalva",
         "IMPRECISO": "essência certa, número ou recorte errado",
         "INSUSTENTAVEL": "afirmado como fato, sem lastro nas fontes",
         "FALSO": "as fontes contradizem o que foi dito",

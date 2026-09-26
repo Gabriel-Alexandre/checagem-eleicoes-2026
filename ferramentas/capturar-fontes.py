@@ -144,6 +144,12 @@ def capturar(slug: str, pedido: Path, saida: Path) -> Path:
                 caminho = "navegador"
 
         (saida / "texto" / f"{ident}.txt").write_text(f"URL: {url}\n\n{texto}", encoding="utf-8")
+        # Os links da página, à parte: servem para achar a publicação certa (a íntegra de um
+        # vídeo, o documento anexo), e não entram no trecho de ninguém.
+        if bruto and ext == "html":
+            hrefs = sorted(set(re.findall(r'href="([^"#]+)"', bruto.decode("utf-8", errors="replace"))))
+            (saida / "links").mkdir(exist_ok=True)
+            (saida / "links" / f"{ident}.txt").write_text("\n".join(hrefs), encoding="utf-8")
         registro = {
             "id": ident,
             "url": url,
