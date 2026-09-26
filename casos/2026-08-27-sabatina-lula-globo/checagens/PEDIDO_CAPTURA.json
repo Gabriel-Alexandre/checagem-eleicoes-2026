@@ -1,22 +1,9 @@
 {
   "caso": "2026-08-27-sabatina-lula-globo",
-  "rodada": 6,
-  "finalidade": "Rodada 6: auditoria de trechos. A017 (Francisco Lopes, omitido da lista), A021 (URL da IFI que não existe), A009 (frase da FGV que não está na página citada).",
+  "rodada": 7,
+  "finalidade": "Rodada 7: taxa de variação real do PIB de 2011 a 2020 no Banco Central (SGS 7326), para o A009, cuja média de 0,9% era projeção de 2019 e não dado realizado.",
   "urls": [
-    "https://www.bcb.gov.br/historiacontada/publicacoes/hc_bc_volume_23_francisco_lopes.pdf",
-    {
-      "url": "https://www.bcb.gov.br/historiacontada/",
-      "navegador": true
-    },
-    "https://www25.senado.leg.br/documents/12427/30022/Banco%20Central%20do%20Brasil/ba62d8c2-2a8d-429a-9414-7654dbffc620",
-    "https://pt.wikipedia.org/wiki/Francisco_Lopes_(economista)",
-    "https://blogdoibre.fgv.br/posts/brasil-precisaria-crescer-57-em-2019-e-2020-para-decada-2011-20-nao-ser-pior-decada-dos",
-    "https://www12.senado.leg.br/ifi/pdf/raf108_jan2026.pdf",
-    "https://www12.senado.leg.br/ifi/pdf/raf84_jan2024.pdf",
-    "https://www12.senado.leg.br/ifi/pdf/raf85_fev2024.pdf",
-    {
-      "url": "https://www12.senado.leg.br/ifi/publicacoes-1/relatorio",
-      "navegador": true
-    }
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
+    "https://www.cnnbrasil.com.br/economia/macroeconomia/pib-brasil-termina-2020-com-segunda-decada-perdida-e-a-pior-desde-1900/"
   ]
 }

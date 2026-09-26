@@ -1,0 +1,47 @@
+{
+  "slug": "2026-08-28-sabatina-flavio-globo",
+  "titulo": "Sabatina de Flávio Bolsonaro na TV Globo (trecho oficial publicado pelo g1)",
+  "data_do_evento": "2026-08-28",
+  "veiculo": "TV Globo",
+  "programa": "Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional); trecho publicado pelo g1",
+  "formato": "sabatina",
+  "eleicao": "Eleições gerais 2026, Presidência da República, 1º turno",
+  "duracao_s": 164.116,
+  "falantes": [
+    {
+      "nome": "César Tralli",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Um dos dois entrevistadores da série de sabatinas. Faz a pergunta deste trecho (00:00 a 01:08). Ver transcricao/NOTA_DE_ATRIBUICAO.md: a transcrição publicada pelo Poder360 atribui esta pergunta a Renata Vasconcellos, e a gravação mostra outra coisa."
+    },
+    {
+      "nome": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PL, candidato à Presidência da República",
+      "descricao": "Senador e candidato do PL à Presidência. Responde de 01:08 ao fim do trecho."
+    }
+  ],
+  "midia": {
+    "arquivo": "sabatina-flavio-globo-2026-08-28.mp4",
+    "sha256": "f09911b7609faf7dda84537d2e275a4912f9f131425f0c6040a2d05b4cb52892",
+    "bytes": 17741918,
+    "largura": 720,
+    "altura": 1280,
+    "fps": 29.97,
+    "codec_video": "h264",
+    "codec_audio": "aac"
+  },
+  "procedencia": {
+    "como_foi_obtido": "O vídeo pedido pelo autor do projeto (YouTube o0W3MnZTqyA, 'Completo: excelente sabatina de Flávio no jornal nacional!', publicado pelo canal 'EDUARDO BOLSONARO' em 28/ago/2026) NÃO pôde ser baixado: o ambiente de trabalho não alcança o YouTube, e o runner do GitHub foi recusado pelo YouTube ('Sign in to confirm you're not a bot') em todas as tentativas, inclusive com token de origem e por espelhos públicos. A íntegra oficial está no Globoplay (id 14912682, 'Flávio Bolsonaro - Entrevista com o presidenciável'), mas a reprodução do Globoplay não responde fora do Brasil. O arquivo checado é o TRECHO OFICIAL publicado pelo g1 na própria página do Facebook (id 1119392200517935): 2min44s, vertical, 720x1280. O caminho inteiro está em fonte/origem-download.json e em fonte/PEDIDO_NUVEM.json. ⛔ Não se contornou trava de país com proxy ou rede de anonimato.",
+    "url_oficial": "https://www.facebook.com/g1/videos/1119392200517935/",
+    "integralidade": "trecho",
+    "observacoes": "É um recorte feito pelo próprio veículo, não por este projeto e não por terceiro: a publicação do g1 diz 'Para assistir à íntegra das entrevistas, você pode acessar o Globoplay, o g1 e o YouTube do g1', e o vídeo termina com a cartela 'Veja a íntegra da entrevista em g1.com.br/eleicoes'. O trecho começa na abertura de uma pergunta ('Vou seguir, então, para a gente falar agora sobre a tentativa de golpe de Estado') e termina no fim da primeira resposta; a transcrição do Poder360 mostra que a conversa sobre o tema continua depois dele, com réplica do entrevistador. ⛔ A escolha do trecho NÃO foi feita por este projeto nem pelo resultado: foi o único arquivo oficial que se conseguiu obter. Metadados conferidos em quatro fontes independentes entre si (Terra, InfoMoney, SP Diário e a própria publicação do g1): sexta-feira, 28/ago/2026, 21h30, ao vivo nos Estúdios Globo, no Rio de Janeiro, depois do Jornal Nacional, com César Tralli e Renata Vasconcellos; 40 minutos em dois blocos, mais considerações finais (Poder360); seis candidatos convidados pela pesquisa Quaest de 14/ago, ordem por sorteio. ⚠️ Contaminação declarada: uma busca de procedência devolveu, sem ser pedido, o resumo de uma checagem publicada da entrevista inteira (Aos Fatos), que menciona outros temas (Banco Master, o filme Dark Horse, tarifas), não o deste trecho. A extração do PASSO 4 foi feita por varredura completa do trecho, segmento a segmento, antes de qualquer busca sobre as alegações."
+  },
+  "transcricao": {
+    "motor": "whisper.cpp",
+    "modelo": "ggml-large-v3-turbo.bin",
+    "idioma": "pt",
+    "parametros": "-t 4 -bs 5 -bo 5 -ml 0",
+    "revisao_humana": false
+  }
+}

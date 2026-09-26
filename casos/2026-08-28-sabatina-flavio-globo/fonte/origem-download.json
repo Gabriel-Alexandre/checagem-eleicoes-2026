@@ -1,0 +1,38 @@
+{
+  "nota": "Registro consolidado das quatro tentativas de download feitas pelo workflow nuvem-preparar-midia em 26/set/2026. É procedência: diz por que o arquivo checado é o trecho oficial do g1 e não o vídeo pedido.",
+  "url_pedida": "https://www.youtube.com/watch?v=o0W3MnZTqyA",
+  "tentativas": [
+    {
+      "n": 1,
+      "caminho": "yt-dlp no YouTube",
+      "url": "https://www.youtube.com/watch?v=o0W3MnZTqyA",
+      "ok": false,
+      "motivo": "YouTube: 'Sign in to confirm you're not a bot' (IP de datacenter do runner)"
+    },
+    {
+      "n": 2,
+      "caminho": "yt-dlp no YouTube, espelhos Invidious e Piped, e a publicação do g1 no Facebook",
+      "url": "https://www.facebook.com/g1/videos/1119392200517935/",
+      "ok": true,
+      "motivo": "YouTube recusou; 13 espelhos Invidious e 5 Piped recusaram (403, 401, 500, tempo esgotado); o g1 no Facebook baixou",
+      "resultado": "arquivo de 164,1 s, 720x1280: é um TRECHO oficial, não a íntegra. É o arquivo checado."
+    },
+    {
+      "n": 3,
+      "caminho": "YouTube com provedor de PO token (bgutil), e a outra cópia integral no YouTube",
+      "url": "https://www.youtube.com/watch?v=Bi-qbHPenoI",
+      "ok": false,
+      "motivo": "YouTube recusou nas duas cópias"
+    },
+    {
+      "n": 4,
+      "caminho": "Globoplay (íntegra oficial, id 14912682)",
+      "url": "https://globoplay.globo.com/v/14912682/",
+      "ok": false,
+      "motivo": "a API de reprodução (cloud-jarvis.globo.com) não responde fora do Brasil; não se contornou a trava de país"
+    }
+  ],
+  "arquivo_checado": "sabatina-flavio-globo-2026-08-28.mp4",
+  "sha256": "f09911b7609faf7dda84537d2e275a4912f9f131425f0c6040a2d05b4cb52892",
+  "canal_do_video_pedido": "EDUARDO BOLSONARO (captura da página do YouTube, rodada 2 do PEDIDO_CAPTURA)"
+}

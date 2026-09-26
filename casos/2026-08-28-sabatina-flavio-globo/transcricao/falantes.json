@@ -1,0 +1,7 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "turnos": [
+    { "inicio_s": 0.0,  "fim_s": 68.4,    "falante": "César Tralli" },
+    { "inicio_s": 68.4, "fim_s": 164.116, "falante": "Flávio Bolsonaro" }
+  ]
+}

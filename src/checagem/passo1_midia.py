@@ -124,12 +124,34 @@ def extrair_audio(slug: str, *, recorte: str | None = None) -> Path:
 # ─────────────────────────────────────────────────────────────────────
 
 
+def _filtro_de_enquadramento(largura: int, altura: int) -> str | None:
+    """Filtro que põe um vídeo de outra proporção dentro do quadro de 1920x1080.
+
+    🔴 A imagem original NÃO é cortada nem deformada: ela é escalada para caber inteira na
+    altura e centralizada. O espaço que sobra ao lado é preenchido por uma cópia desfocada e
+    escurecida do próprio vídeo, e não por barra preta, para o espectador não confundir a borda
+    com parte da imagem. Existe porque a peça oficial pode vir vertical (corte de rede social) e
+    as cartelas são quadros inteiros de 1920x1080.
+    """
+    if (largura, altura) == (cfg.LARGURA, cfg.ALTURA):
+        return None
+    W, H = cfg.LARGURA, cfg.ALTURA
+    return (f"[0:v]split=2[fundo][frente];"
+            f"[fundo]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+            f"boxblur=40:4,eq=brightness=-0.18[fundo2];"
+            f"[frente]scale=-2:{H}:force_original_aspect_ratio=decrease[frente2];"
+            f"[fundo2][frente2]overlay=(W-w)/2:(H-h)/2,setsar=1,format=yuv420p[v]")
+
+
 def recortar(slug: str, identificador: str, inicio_s: float, duracao_s: float,
-             *, motivo: str = "") -> Path:
+             *, motivo: str = "", enquadrar: bool = False) -> Path:
     """Corta um trecho do vídeo de origem, sem reencodar o que não precisa.
 
     O corte é reencodado no vídeo (para o primeiro frame ser exato) e copiado no áudio.
     Corte por cópia de fluxo cai no keyframe anterior, e aí o tempo do card erra.
+
+    Com `enquadrar`, um vídeo que não é 1920x1080 é posto dentro desse quadro (ver
+    `_filtro_de_enquadramento`), e o registro do recorte guarda como foi feito.
     """
     exigir_binario("ffmpeg", "scoop install ffmpeg")
     caso = cfg.pasta_do_caso(slug)
@@ -137,10 +159,16 @@ def recortar(slug: str, identificador: str, inicio_s: float, duracao_s: float,
     saida = caso / "recortes" / f"{identificador}.mp4"
     saida.parent.mkdir(parents=True, exist_ok=True)
 
-    passo(f"PASSO 1 · recortar — {identificador} · {hms(inicio_s)} + {duracao_s:.0f}s")
+    passo(f"PASSO 1 · recortar · {identificador} · {hms(inicio_s)} + {duracao_s:.0f}s")
+    original = sondar(origem)
+    filtro = _filtro_de_enquadramento(original["largura"], original["altura"]) if enquadrar else None
+    if filtro:
+        info(f"enquadrando {original['largura']}x{original['altura']} em {cfg.LARGURA}x{cfg.ALTURA}, "
+             "sem cortar a imagem original")
     rodar([
         "ffmpeg", "-v", "error",
         "-ss", f"{inicio_s:.3f}", "-i", str(origem), "-t", f"{duracao_s:.3f}",
+        *(["-filter_complex", filtro, "-map", "[v]", "-map", "0:a?"] if filtro else []),
         "-c:v", "libx264", "-preset", "medium", "-crf", "16",
         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
         "-movflags", "+faststart", "-y", str(saida),
@@ -159,6 +187,13 @@ def recortar(slug: str, identificador: str, inicio_s: float, duracao_s: float,
         "motivo": motivo,
         "criado_em": date.today().isoformat(),
     }
+    if filtro:
+        registro["enquadramento"] = {
+            "original": f"{original['largura']}x{original['altura']}",
+            "como": "imagem inteira centralizada na altura, sem corte nem deformação; laterais com "
+                    "cópia desfocada e escurecida do próprio vídeo",
+            "filtro": filtro,
+        }
 
     indice_path = caso / "recortes" / "RECORTES.json"
     indice = ler_json(indice_path) if indice_path.exists() else {"caso": slug, "recortes": []}
@@ -187,6 +222,8 @@ def main(argv: list[str] | None = None) -> int:
     c.add_argument("--inicio", type=float, required=True, help="segundos, na peça inteira")
     c.add_argument("--duracao", type=float, required=True, help="segundos")
     c.add_argument("--motivo", default="")
+    c.add_argument("--enquadrar", action="store_true",
+                   help="põe vídeo de outra proporção (vertical, por exemplo) dentro de 1920x1080")
 
     args = p.parse_args(argv)
     if args.acao == "registrar":
@@ -194,7 +231,8 @@ def main(argv: list[str] | None = None) -> int:
     elif args.acao == "audio":
         extrair_audio(args.slug, recorte=args.recorte)
     else:
-        recortar(args.slug, args.id, args.inicio, args.duracao, motivo=args.motivo)
+        recortar(args.slug, args.id, args.inicio, args.duracao, motivo=args.motivo,
+                 enquadrar=args.enquadrar)
     return 0
 
 

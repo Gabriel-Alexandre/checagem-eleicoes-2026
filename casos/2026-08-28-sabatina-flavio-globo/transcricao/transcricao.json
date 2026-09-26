@@ -17,301 +17,344 @@
       "inicio_s": 0.0,
       "fim_s": 6.32,
       "texto": "Vou seguir, então, para a gente falar agora sobre a tentativa de golpe de Estado no Brasil,",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 1,
       "inicio_s": 6.32,
       "fim_s": 6.54,
       "texto": "candidato.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 2,
       "inicio_s": 6.54,
       "fim_s": 8.52,
       "texto": "Só para a gente fechar esse assunto, que é importante.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 3,
       "inicio_s": 8.52,
       "fim_s": 14.72,
       "texto": "Candidato, ao julgar o caso, o Supremo Tribunal Federal identificou 13 atos numa trama que",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 4,
       "inicio_s": 14.72,
       "fim_s": 21.18,
       "texto": "começou antes das eleições de 2022 e culminou no ataque às sedes dos três poderes em 8",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 5,
       "inicio_s": 21.18,
       "fim_s": 22.44,
       "texto": "de janeiro de 2023.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 6,
       "inicio_s": 22.44,
       "fim_s": 29.22,
       "texto": "Seu pai, o ex-presidente Jair Bolsonaro, ele foi condenado a 27 anos e 3 meses de prisão",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 7,
       "inicio_s": 29.22,
       "fim_s": 35.48,
       "texto": "por liderar uma organização criminosa que tentou impedir a alternância de poder depois",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 8,
       "inicio_s": 35.48,
       "fim_s": 36.2,
       "texto": "das eleições.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 9,
       "inicio_s": 36.2,
       "fim_s": 39.64,
       "texto": "E o Supremo enumerou as seguintes ações golpistas.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 10,
       "inicio_s": 39.64,
       "fim_s": 45.94,
       "texto": "Campanha para desacreditar as urnas eletrônicas e a justiça eleitoral, pressão sobre as",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 11,
       "inicio_s": 45.94,
       "fim_s": 51.54,
       "texto": "forças armadas, uso de órgãos públicos contra adversários, plano para assassinar o",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 12,
       "inicio_s": 51.54,
       "fim_s": 56.88,
       "texto": "então presidente eleito, o vice e o ministro do Supremo e a elaboração da chamada minuta",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 13,
       "inicio_s": 56.88,
       "fim_s": 57.5,
       "texto": "do golpe.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 14,
       "inicio_s": 58.44,
       "fim_s": 64.26,
       "texto": "Diante disso, pergunto ao senhor que garantias o eleitor tem de que o seu grupo político",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 15,
       "inicio_s": 64.26,
       "fim_s": 68.4,
       "texto": "não vai voltar a atacar a democracia se o senhor for eleito.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 16,
       "inicio_s": 68.4,
       "fim_s": 72.94,
       "texto": "É muito importante a sua pergunta para que quem está nos assistindo possa saber a grande",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 17,
       "inicio_s": 72.94,
       "fim_s": 77.64,
       "texto": "farsa que foi armada para tirar o presidente Bolsonaro da vida pública.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 18,
       "inicio_s": 77.86,
       "fim_s": 82.4,
       "texto": "Você citou algumas acusações pelas quais ele foi condenado, ele foi julgado pelos seus inimigos.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 19,
       "inicio_s": 82.4,
       "fim_s": 83.04,
       "texto": "Você tem ideia?",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 20,
       "inicio_s": 83.68,
       "fim_s": 88.3,
       "texto": "Olha, eu vou te falar uma coisa, você nunca queira ser julgado pelos seus inimigos, porque",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 21,
       "inicio_s": 88.3,
       "fim_s": 92.56,
       "texto": "você já sabe qual vai ser o resultado final antes do processo começar.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 22,
       "inicio_s": 92.56,
       "fim_s": 95.32,
       "texto": "Você falou alguns crimes que foram imputados a ele.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 23,
       "inicio_s": 95.32,
       "fim_s": 96.62,
       "texto": "Organização criminosa armada.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 24,
       "inicio_s": 96.62,
       "fim_s": 101.5,
       "texto": "Que organização as pessoas que estavam naquele 8 de janeiro nem se conheciam, nunca se viram",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 25,
       "inicio_s": 101.5,
       "fim_s": 101.76,
       "texto": "na vida?",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 26,
       "inicio_s": 101.82,
       "fim_s": 104.4,
       "texto": "Não foi encontrada uma arma no 8 de janeiro, Tralho.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 27,
       "inicio_s": 104.4,
       "fim_s": 108.4,
       "texto": "Como é que alguém pode ser condenado, como foi o presidente Bolsonaro e centenas de outras",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 28,
       "inicio_s": 108.4,
       "fim_s": 112.94,
       "texto": "pessoas, por depredação de patrimônio público, se ele estava a mais de 10 mil quilômetros",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 29,
       "inicio_s": 112.94,
       "fim_s": 114.1,
       "texto": "de distância de Brasília?",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 30,
       "inicio_s": 114.52,
       "fim_s": 119.5,
       "texto": "Eu, para quebrar esse copo, tenho que pegar ele na mão, tenho que tacar ele no chão e",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 31,
       "inicio_s": 119.5,
       "fim_s": 121.0,
       "texto": "aí você pode me acusar de ter quebrado o copo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 32,
       "inicio_s": 121.0,
       "fim_s": 125.14,
       "texto": "Depredação de um patrimônio público, a pessoa tem que estar fisicamente no mesmo",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 33,
       "inicio_s": 125.14,
       "fim_s": 126.24,
       "texto": "local para poder cometer.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 34,
       "inicio_s": 126.24,
       "fim_s": 130.8,
       "texto": "Ele foi imputado, esse crime é ele, é uma depredação de patrimônio público por",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 35,
       "inicio_s": 130.8,
       "fim_s": 134.1,
       "texto": "Wi-Fi, é o golpe da Disney, é que eles estavam nos Estados Unidos.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 36,
       "inicio_s": 134.1,
       "fim_s": 136.76,
       "texto": "Então, claramente, Tralho, isso tudo foi uma farsa que foi armada.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 37,
       "inicio_s": 136.76,
       "fim_s": 142.14,
       "texto": "Ele foi, só para fechar essa primeira pergunta sobre isso, olha quem foi que julgou ele.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 38,
       "inicio_s": 142.22,
       "fim_s": 146.44,
       "texto": "Alexandre de Moraes, um inimigo declarado do presidente Bolsonaro, Flávio Dino, outro",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 39,
       "inicio_s": 146.44,
       "fim_s": 151.86,
       "texto": "ministro indicado pelo Lula, que tem inclusive processo criminal contra o Bolsonaro, que disse",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 40,
       "inicio_s": 151.86,
       "fim_s": 153.26,
       "texto": "que o Bolsonaro é o demônio na terra.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 41,
       "inicio_s": 153.26,
       "fim_s": 157.5,
       "texto": "O outro, Zanin, indicado pelo Lula, que até ontem era advogado do Lula.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 42,
       "inicio_s": 157.5,
       "fim_s": 158.78,
       "texto": "Você acha que isso foi um julgamento justo?",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     }
   ]
 }

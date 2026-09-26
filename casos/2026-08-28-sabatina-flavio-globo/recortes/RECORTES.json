@@ -1,0 +1,22 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "recortes": [
+    {
+      "id": "trecho-g1-golpe",
+      "arquivo": "trecho-g1-golpe.mp4",
+      "origem": "sabatina-flavio-globo-2026-08-28.mp4",
+      "origem_inicio_s": 0.0,
+      "duracao_s": 164.033,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 29.97,
+      "motivo": "É o trecho inteiro publicado pelo g1, o único arquivo oficial da sabatina que se conseguiu obter (ver CASO.json, procedência). O recorte não foi escolhido por este projeto, nem por densidade, nem pelo resultado: é a peça disponível, checada de ponta a ponta. Os dois lados da mesa falam: a pergunta do entrevistador afirma fatos sobre o julgamento, e a resposta do entrevistado afirma fatos sobre o mesmo julgamento.",
+      "criado_em": "2026-09-26",
+      "enquadramento": {
+        "original": "720x1280",
+        "como": "imagem inteira centralizada na altura, sem corte nem deformação; laterais com cópia desfocada e escurecida do próprio vídeo",
+        "filtro": "[0:v]split=2[fundo][frente];[fundo]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=40:4,eq=brightness=-0.18[fundo2];[frente]scale=-2:1080:force_original_aspect_ratio=decrease[frente2];[fundo2][frente2]overlay=(W-w)/2:(H-h)/2,setsar=1,format=yuv420p[v]"
+      }
+    }
+  ]
+}
