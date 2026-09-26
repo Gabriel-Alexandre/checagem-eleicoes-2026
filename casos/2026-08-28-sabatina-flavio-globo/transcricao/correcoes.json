@@ -1,0 +1,35 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "escopo": "O trecho inteiro (00:00 a 02:44), que é o arquivo checado.",
+  "como_foram_conferidas": "Suspeitas levantadas por ferramentas/comparar-transcricao.py contra a transcrição publicada pelo Poder360. Cada janela suspeita foi transcrita de novo, isolada, no workflow nuvem-segunda-passada, com o mesmo modelo (ggml-large-v3-turbo) e feixe 8, em duas passadas: sem prompt e com prompt de contexto (nomes dos entrevistadores e dos ministros). Resultado bruto em segunda-passada-rodada-1.json, no release em rascunho nuvem-2026-08-28-sabatina-flavio-globo. Só entrou o que as passadas independentes concordaram em corrigir, ou, no caso do nome, o que está explicado no próprio registro.",
+  "correcoes": [
+    {
+      "inicio_s": 101.82,
+      "de": "Não foi encontrada uma arma no 8 de janeiro, Tralho.",
+      "para": "E armada? Não foi encontrada uma arma no 8 de janeiro, Tralli.",
+      "motivo": "duas correções no mesmo segmento. (1) 'E armada?' foi omitido pela primeira passada; as duas passadas novas (sem e com prompt) e a transcrição do Poder360 têm a pergunta. (2) 'Tralho' não é palavra nem nome: é o nome do entrevistador, César Tralli, a quem a resposta se dirige.",
+      "conferido_como": "janela 01:34 a 01:46, feixe 8. Sem prompt: 'E armada? Não foi encontrada uma arma no 8 de janeiro?' e, na janela seguinte, 'do tralho?'. Com prompt: 'E armada? Não foi encontrada uma arma no 8 de janeiro, Tralli?'. ⚠️ Só a passada com prompt escreve o nome certo, e o prompt continha o nome: a correção do nome se apoia também na atribuição (NOTA_DE_ATRIBUICAO.md), não só na concordância."
+    },
+    {
+      "inicio_s": 126.24,
+      "de": "Ele foi imputado, esse crime é ele, é uma depredação de patrimônio público por",
+      "para": "Ele foi imputado esse crime a ele, é uma depredação de patrimônio público por",
+      "motivo": "erro de reconhecimento: 'esse crime é ele' por 'esse crime a ele'. A frase perde o sentido na forma original.",
+      "conferido_como": "janela 02:05 a 02:18, feixe 8: as duas passadas (sem e com prompt) devolvem 'Ele foi imputado esse crime a ele'; a transcrição do Poder360 tem 'E foi imputado esse crime a ele'."
+    },
+    {
+      "inicio_s": 134.1,
+      "de": "Então, claramente, Tralho, isso tudo foi uma farsa que foi armada.",
+      "para": "Então, claramente, Tralli, isso tudo foi uma farsa que foi armada.",
+      "motivo": "o mesmo nome próprio: 'Tralho' por 'Tralli'.",
+      "conferido_como": "janela 02:05 a 02:18. Com prompt: 'Então, claramente, Tralli, isso tudo foi uma farsa'. Sem prompt, o nome some ('Então, claramente, isso tudo'). Mesma ressalva da primeira correção."
+    }
+  ],
+  "nao_corrigido": [
+    {
+      "inicio_s": 130.8,
+      "trecho": "é o golpe da Disney, é que eles estavam nos Estados Unidos",
+      "motivo": "as três leituras discordam ('é que', 'que', e 'porque' no Poder360). Fica como a primeira passada escreveu, e nenhuma alegação depende destas palavras."
+    }
+  ]
+}

@@ -67,8 +67,9 @@ export PATH="$HOME/scoop/shims:$PATH"      # Windows com scoop
 
 python -m checagem midia $SLUG registrar             # PASSO 1 · sha256, duração, resolução
 python -m checagem midia $SLUG audio                 # PASSO 1 · WAV 16 kHz mono
-python -m checagem midia $SLUG recortar <id> --inicio S --duracao S --motivo "..."
+python -m checagem midia $SLUG recortar <id> --inicio S --duracao S --motivo "..." [--enquadrar]
 python -m checagem transcrever $SLUG                 # PASSO 2 · whisper.cpp local
+python ferramentas/comparar-transcricao.py $SLUG ref.txt --so-relevantes   # suspeitas, contra transcrição publicada
 python ferramentas/corrigir-transcricao.py $SLUG     # correções, com registro
 python -m checagem falantes $SLUG                    # PASSO 3 · aplica falantes.json
 
@@ -78,7 +79,13 @@ python -m checagem overlay    $SLUG --recorte <id>   # PASSO 6 · desenha as car
 python -m checagem renderizar $SLUG --recorte <id>   # PASSO 7 · queima no vídeo
 python -m checagem validar    $SLUG --recorte <id>   # PASSO 8 · a porta (sai 1 se achar erro)
 python -m checagem relatorio  $SLUG --recorte <id>   # o documento público do caso
+
+python ferramentas/capturar-fontes.py $SLUG          # PASSO 5 · baixa e assina as fontes listadas
+python ferramentas/conferir-trechos.py $SLUG --recorte <id> --capturas capturas/$SLUG   # trecho existe na página?
+python ferramentas/validar-todos.py                  # o que a CI roda: todos os casos
 ```
+
+🌐 **Sem rede para o YouTube, o Hugging Face ou os portais?** Os passos mecânicos rodam num runner do GitHub a partir de arquivos de pedido: [`docs/NUVEM.md`](docs/NUVEM.md).
 
 Passo a passo com o que conferir em cada etapa: [`docs/REPLICAR.md`](docs/REPLICAR.md).
 
@@ -94,6 +101,7 @@ Passo a passo com o que conferir em cada etapa: [`docs/REPLICAR.md`](docs/REPLIC
 - **Duas entradas com a mesma URL são uma fonte só.** Junte no mesmo `trecho`.
 - **Correção de transcrição entra por script**, com antes, depois e como foi conferida. ⛔ Nunca em silêncio.
 - **Mudou estado, atualize [`ESTADO.md`](ESTADO.md)** no mesmo turno. Uma sessão nova tem que conseguir continuar lendo só ele.
+- **Trecho de fonte é cópia da página capturada**, conferida por `conferir-trechos.py`. Resumo de buscador não é fonte nem trecho.
 - **Veredito publicado não se edita em silêncio.** Vai para `casos/<slug>/CORRECOES.md`, com data, o que estava escrito e o que passou a valer.
 - ⛔ **Travessão em nome de arquivo, nunca.** Hífen simples.
 - ⛔ **Commit e push só com confirmação explícita dele**, mesmo que o prompt diga "commit ao final".

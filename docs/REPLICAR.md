@@ -101,7 +101,13 @@ python -m checagem midia $SLUG audio
 python -m checagem transcrever $SLUG
 ```
 
-**Confira a transcrição.** Nome próprio e número falado são onde o motor mais erra, e são exatamente os campos que a checagem usa. Erro achado vai para `transcricao/correcoes.json` e entra por script, com antes, depois e como foi conferido:
+**Confira a transcrição.** Nome próprio e número falado são onde o motor mais erra, e são exatamente os campos que a checagem usa. Se existe transcrição publicada (Poder360, o próprio veículo), salve o texto dela e rode:
+
+```bash
+python ferramentas/comparar-transcricao.py $SLUG referencia.txt --so-relevantes
+```
+
+Ele lista cada janela em que as duas divergem, com o tempo. ⚠️ A referência também edita a fala: divergência é suspeita, não correção. Erro achado vai para `transcricao/correcoes.json` e entra por script, com antes, depois e como foi conferido:
 
 ```bash
 python ferramentas/corrigir-transcricao.py $SLUG --conferir   # só verifica
@@ -169,6 +175,26 @@ python -m checagem relatorio  $SLUG --recorte bloco-x
 
 ---
 
+### 2.6 As fontes: capturar e conferir o trecho
+
+O trecho de cada fonte é **copiado da página**, e a página é capturada com assinatura:
+
+```bash
+# liste as URLs em casos/$SLUG/checagens/PEDIDO_CAPTURA.json
+python ferramentas/capturar-fontes.py $SLUG
+python ferramentas/conferir-trechos.py $SLUG --recorte bloco-x --capturas capturas/$SLUG
+```
+
+O recibo vai para `checagens/CAPTURAS.json` (no git): o `sha256` do que foi lido e, para cada checagem, se o trecho está na página. O validador avisa trecho não encontrado. 🧾 Na primeira auditoria assim, 26/set/2026, o caso do Lula tinha uma URL que não existia, uma lista com uma linha omitida e quatro trechos reescritos em vez de copiados: ver `casos/2026-08-27-sabatina-lula-globo/CORRECOES.md`.
+
+### 2.7 Vídeo que não é 1920x1080
+
+As cartelas são quadros inteiros de 1920x1080. Peça vertical (corte oficial de rede social, por exemplo) entra com `--enquadrar` no recorte: a imagem fica inteira, centralizada, sem corte nem deformação, e o registro do recorte guarda como foi feito.
+
+```bash
+python -m checagem midia $SLUG recortar trecho --inicio 0 --duracao 164 --enquadrar --motivo "..."
+```
+
 ## 3. 🔴 A conferência com o olho, que os números não substituem
 
 O validador confere **texto de JSON**. Ele não vê a imagem. Uma cartela que cobre a assinatura da emissora, um texto que estoura a caixa, uma moldura verde numa fala que a tarja diz ser falsa: nada disso reprova em validador nenhum.
@@ -219,6 +245,9 @@ PY
 | cartela entra muito depois da fala | alegações demais empilhadas no mesmo trecho | confira se houve fatiamento a mais; ⛔ não apague alegação para o vídeo ficar bonito |
 | `o vídeo é 1280x720 e as cartelas foram desenhadas para 1920x1080` | recorte de outra resolução | as cartelas são quadros inteiros; recorte na resolução da peça |
 | render sem áudio | a entrada não tinha faixa de áudio | o `renderizar` avisa; confira o recorte |
+| `Sign in to confirm you're not a bot` | o YouTube recusa IP de datacenter | baixe em casa, ou use as `alternativas` do pedido de nuvem (`docs/NUVEM.md`) |
+| trecho com "bilh�es" | página em Windows-1252 lida como UTF-8 | já tratado em `capturar-fontes.py`; confira o recibo |
+| a CI reprova com "cartela ausente" | versão anterior à 0.2.0: o validador exigia as PNGs, que ficam fora do git | já tratado: pasta ausente é nota; a CI desenha as cartelas antes |
 | script morre com `UnicodeEncodeError` | console do Windows em cp1252 | já tratado em `config.py`; se voltar, é script novo sem o `reconfigure` |
 
 ---

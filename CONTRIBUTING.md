@@ -39,7 +39,7 @@ pip install -r requirements.txt -r requirements-dev.txt
 ruff check src tests ferramentas
 pytest -q
 python ferramentas/conferir-links.py
-python -m checagem validar 2026-08-27-sabatina-lula-globo --recorte bloco-contas-publicas
+python ferramentas/validar-todos.py        # desenha as cartelas e valida todos os casos
 ```
 
 Os quatro têm que passar. O último é a porta: ⛔ **nada é dado por pronto com ele reprovando.**

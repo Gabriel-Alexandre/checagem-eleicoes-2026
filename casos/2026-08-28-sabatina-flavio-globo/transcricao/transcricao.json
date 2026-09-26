@@ -9,7 +9,7 @@
   "idioma": "pt",
   "parametros": "-t 4 -bs 5 -bo 5 -ml 0",
   "gerado_em": "2026-09-26",
-  "revisao_humana": false,
+  "revisao_humana": true,
   "duracao_s": 158.78,
   "segmentos": [
     {
@@ -224,7 +224,7 @@
       "i": 26,
       "inicio_s": 101.82,
       "fim_s": 104.4,
-      "texto": "Não foi encontrada uma arma no 8 de janeiro, Tralho.",
+      "texto": "E armada? Não foi encontrada uma arma no 8 de janeiro, Tralli.",
       "falante": "Flávio Bolsonaro",
       "papel": "entrevistado"
     },
@@ -288,7 +288,7 @@
       "i": 34,
       "inicio_s": 126.24,
       "fim_s": 130.8,
-      "texto": "Ele foi imputado, esse crime é ele, é uma depredação de patrimônio público por",
+      "texto": "Ele foi imputado esse crime a ele, é uma depredação de patrimônio público por",
       "falante": "Flávio Bolsonaro",
       "papel": "entrevistado"
     },
@@ -304,7 +304,7 @@
       "i": 36,
       "inicio_s": 134.1,
       "fim_s": 136.76,
-      "texto": "Então, claramente, Tralho, isso tudo foi uma farsa que foi armada.",
+      "texto": "Então, claramente, Tralli, isso tudo foi uma farsa que foi armada.",
       "falante": "Flávio Bolsonaro",
       "papel": "entrevistado"
     },
@@ -356,5 +356,6 @@
       "falante": "Flávio Bolsonaro",
       "papel": "entrevistado"
     }
-  ]
+  ],
+  "correcoes_aplicadas": 3
 }
