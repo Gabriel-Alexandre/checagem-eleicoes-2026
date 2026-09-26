@@ -15,7 +15,7 @@ from datetime import date
 from pathlib import Path
 
 from . import config as cfg
-from .util import hms, ler_json, ok, passo
+from .util import data_legivel, hms, ler_json, ok, passo
 
 EMOJI = {
     "VERDADEIRO": "🟢",
@@ -33,29 +33,53 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
     alegacoes = ler_json(caso / "alegacoes" / f"alegacoes{sufixo}.json")["alegacoes"]
     checagens = {c["id"]: c for c in ler_json(caso / "checagens" / f"checagens{sufixo}.json")["checagens"]}
 
-    passo(f"relatório — {slug}{sufixo}")
+    passo(f"relatório · {slug}{sufixo}")
+    caminho_capturas = caso / "checagens" / "CAPTURAS.json"
+    capturas = ({c["url"]: c for c in ler_json(caminho_capturas).get("capturas", [])}
+                if caminho_capturas.exists() else {})
     L: list[str] = []
     add = L.append
 
-    add(f"# Checagem — {meta['titulo']}")
+    add(f"# Checagem: {meta['titulo']}")
     add("")
     add(f"**Peça:** {meta['veiculo']}"
         + (f" · {meta['programa']}" if meta.get("programa") else "")
-        + f" · {meta['formato']} · {meta['data_do_evento']}  ")
+        + f" · {meta['formato']} · {data_legivel(meta['data_do_evento'])}  ")
     add(f"**Duração:** {hms(float(meta['duracao_s']))}  ")
     if recorte:
         indice = ler_json(caso / "recortes" / "RECORTES.json")
         reg = next(r for r in indice["recortes"] if r["id"] == recorte)
-        add(f"**Trecho checado:** `{recorte}` — {hms(reg['origem_inicio_s'])} a "
+        add(f"**Trecho checado:** `{recorte}`, de {hms(reg['origem_inicio_s'])} a "
             f"{hms(reg['origem_inicio_s'] + reg['duracao_s'])} da peça  ")
         add(f"**Por que este trecho:** {reg.get('motivo') or 'não registrado'}  ")
     add(f"**Relatório gerado em:** {date.today().isoformat()}  ")
     add("**Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  ")
     add(f"**Assinatura da mídia (sha256):** `{meta['midia']['sha256']}`")
     add("")
+    proc = meta.get("procedencia", {})
+    if proc.get("integralidade") != "integral":
+        # etica-e-risco §4: peça que já é recorte de terceiro avisa EM CIMA, antes de tudo.
+        add("> 🔴 **Atenção: a peça checada não é a íntegra oficial** "
+            f"(integralidade: `{proc.get('integralidade', 'desconhecido')}`). Corte muda contexto, "
+            "e o que ficou fora do arquivo não foi visto por esta checagem. Detalhes em "
+            "[Procedência](#procedência-da-peça).")
+        add("")
     add("> ⚠️ Este relatório afere **enunciados**, não pessoas. Ele não mede intenção, não avalia "
         "governo e não recomenda voto. A contagem abaixo é um dado deste trecho, não um veredito "
         "sobre quem falou. Ver [`METODOLOGIA §8`](../../docs/METODOLOGIA.md).")
+    add("")
+
+    # ── procedência ──
+    add("## Procedência da peça")
+    add("")
+    add(f"- **Como foi obtida:** {proc.get('como_foi_obtido') or 'não registrado'}")
+    if proc.get("url_oficial"):
+        add(f"- **Endereço:** <{proc['url_oficial']}>")
+    add(f"- **Integralidade:** `{proc.get('integralidade', 'desconhecido')}`")
+    if proc.get("observacoes"):
+        add(f"- **Observações:** {proc['observacoes']}")
+    add(f"- **Arquivo checado:** `{meta['midia']['arquivo']}` · {meta['midia']['largura']}x"
+        f"{meta['midia']['altura']} · sha256 `{meta['midia']['sha256']}`")
     add("")
 
     # ── quem falou ──
@@ -93,12 +117,32 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
     add("")
 
     # ── as alegações ──
+    # ── o que a contagem é, e o que ela não é ──
+    revisadas = sum(1 for a in alegacoes if checagens[a["id"]].get("revisao_humana"))
+    add("### Como ler esta contagem")
+    add("")
+    for papel in sorted(por_papel):
+        n = sum(por_papel[papel].values())
+        add(f"- **{papel}:** {n} de {len(alegacoes)} alegações.")
+    add("- Os números acima são **deste trecho** e têm o denominador à vista. ⛔ Eles não são "
+        "ranking entre pessoas nem entre candidatos, e não dizem nada sobre intenção.")
+    add("- ⚠️ **Nem toda afirmação é igualmente checável.** Economia tem série pública; segurança "
+        "tem defasagem; promessa não tem fonte. Um lado pode acumular `SEM COMPROVAÇÃO` só porque "
+        "falou de assunto com fonte pior ([`etica-e-risco` §3](../../.cursor/rules/etica-e-risco.mdc)).")
+    if revisadas == 0:
+        add(f"- 🔴 **Revisão humana registrada: nenhuma das {len(alegacoes)} checagens.** O "
+            "conteúdo foi produzido com auxílio de IA e passou pelo validador, mas a doutrina do "
+            "projeto exige que uma pessoa leia os cards e as fontes antes da publicação.")
+    else:
+        add(f"- **Revisão humana registrada:** {revisadas} de {len(alegacoes)} checagens.")
+    add("")
+
     add("## Alegação por alegação")
     add("")
     for a in alegacoes:
         c = checagens[a["id"]]
         v = cfg.VEREDITOS[c["veredito"]]
-        add(f"### {a['id']} · {EMOJI[c['veredito']]} {v.rotulo} — {hms(a['inicio_s'])}")
+        add(f"### {a['id']} · {EMOJI[c['veredito']]} {v.rotulo} · {hms(a['inicio_s'])}")
         add("")
         add(f"**{a['falante']}** ({a['papel']}) · assunto: `{a['assunto']}` · tipo: `{a['tipo']}`")
         add("")
@@ -114,8 +158,8 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
         if c.get("numero_dito") or c.get("numero_apurado"):
             add("| | |")
             add("|---|---|")
-            add(f"| Dito | {c.get('numero_dito') or '—'} |")
-            add(f"| Apurado | {c.get('numero_apurado') or '—'} |")
+            add(f"| Dito | {c.get('numero_dito') or 'não se aplica'} |")
+            add(f"| Apurado | {c.get('numero_apurado') or 'não se aplica'} |")
             if c.get("data_de_referencia"):
                 add(f"| Data de referência | {c['data_de_referencia']} |")
             add("")
@@ -131,7 +175,7 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
         add("")
         if c.get("revisao_humana"):
             r = c["revisao_humana"]
-            add(f"**Revisão humana:** {r['revisor']} em {r['data']} — {r['decisao']}"
+            add(f"**Revisão humana:** {r['revisor']} em {r['data']}: {r['decisao']}"
                 + (f". {r.get('nota')}" if r.get("nota") else ""))
             add("")
         if c.get("derivacoes"):
@@ -146,8 +190,10 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
             add("**Fontes:**")
             add("")
             for i, f in enumerate(c["fontes"], 1):
-                add(f"{i}. `{f['nivel']}` **{f['instituicao']}** — [{f['titulo']}]({f['url']}) "
-                    f"· consultada em {f['consultada_em']}")
+                cap = capturas.get(f["url"])
+                assinatura = f" · captura sha256 `{cap['sha256'][:16]}…`" if cap and cap.get("sha256") else ""
+                add(f"{i}. `{f['nivel']}` **{f['instituicao']}**: [{f['titulo']}]({f['url']}) "
+                    f"· consultada em {f['consultada_em']}{assinatura}")
                 add(f"   > {f['trecho']}")
                 add("")
                 add(f"   *O que prova:* {f['prova']}")
@@ -167,7 +213,7 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
             "registro, uma frase deixada de fora seria indistinguível de uma frase não vista.")
         add("")
         for e in exclusoes:
-            add(f"### {hms(e['inicio_s'])} · {e.get('falante', '—')}")
+            add(f"### {hms(e['inicio_s'])} · {e.get('falante', 'falante não atribuído')}")
             add("")
             add(f"> \"{e['frase']}\"")
             add("")
@@ -176,14 +222,37 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
         add("---")
         add("")
 
+    add("## Correções e contestação")
+    add("")
+    add("- Mudanças depois da publicação: [`CORRECOES.md`](CORRECOES.md). ⛔ Nada é apagado em silêncio.")
+    if (caso / "transcricao" / "CORRECOES_DE_TRANSCRICAO.md").exists():
+        add("- Correções de reconhecimento de fala: "
+            "[`transcricao/CORRECOES_DE_TRANSCRICAO.md`](transcricao/CORRECOES_DE_TRANSCRICAO.md).")
+    if (caso / "transcricao" / "NOTA_DE_ATRIBUICAO.md").exists():
+        add("- Quem falou o quê, decisão por decisão: "
+            "[`transcricao/NOTA_DE_ATRIBUICAO.md`](transcricao/NOTA_DE_ATRIBUICAO.md).")
+    add("- Discorda de um veredito? Abra uma **issue** com a fonte que sustenta a contestação. "
+        "Ver [`CONTRIBUTING.md`](../../CONTRIBUTING.md).")
+    add("")
+
+    rec = f" --recorte {recorte}" if recorte else ""
     add("## Como refazer esta checagem")
     add("")
     add("```bash")
+    add(f"# ponha o vídeo em casos/{slug}/fonte/ e confira que o sha256 bate com o de CASO.json")
     add(f"python -m checagem midia {slug} registrar")
     add(f"python -m checagem midia {slug} audio")
     add(f"python -m checagem transcrever {slug}")
+    add(f"python ferramentas/corrigir-transcricao.py {slug}")
     add(f"python -m checagem falantes {slug}")
-    add(f"python -m checagem validar {slug}" + (f" --recorte {recorte}" if recorte else ""))
+    add(f"python -m checagem validar {slug}{rec}")
+    if recorte:
+        indice = ler_json(caso / "recortes" / "RECORTES.json")
+        reg = next(r for r in indice["recortes"] if r["id"] == recorte)
+        add(f"python -m checagem midia {slug} recortar {recorte} --inicio {reg['origem_inicio_s']} "
+            f"--duracao {reg['duracao_s']}")
+    add(f"python -m checagem overlay {slug}{rec}")
+    add(f"python -m checagem renderizar {slug}{rec}")
     add("```")
     add("")
     add("Os passos de extração e de checagem são feitos por IA seguindo as skills em "

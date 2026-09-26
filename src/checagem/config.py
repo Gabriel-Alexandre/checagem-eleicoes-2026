@@ -132,6 +132,17 @@ TAM_FONTES = 24
 SELO_TEXTO = "CHECAGEM ABERTA"
 SELO_SUBTEXTO = "metodologia e fontes no repositório"
 
+# O endereço que a legenda de abertura e a cartela de encerramento mostram. Sem ele, "fontes no
+# repositório" é uma promessa que o espectador não tem como cobrar.
+REPOSITORIO_CURTO = "github.com/Gabriel-Alexandre/checagem-eleicoes-2026"
+
+# Textos que vão para a tela têm no máximo estas linhas. Acima disso a cartela corta com
+# reticências, e o PASSO 6 e o validador avisam: citação cortada no meio de um número é
+# exatamente o defeito que a conferência com o olho existia para pegar sozinha.
+MAX_LINHAS_CITACAO = 2
+MAX_LINHAS_RESUMO = 2
+MAX_LINHAS_RESSALVA = 2
+
 # ─────────────────────────────────────────────────────────────────────
 # Tempo de tela
 # ─────────────────────────────────────────────────────────────────────
@@ -146,8 +157,22 @@ FOLGA_ENTRE_CARDS_S = 0.20
 # Quanto uma cartela pode entrar DEPOIS DE A FRASE ACABAR, quando a fila empurra.
 # Acima disso o espectador já não liga o card à fala, e o PASSO 6 avisa.
 ATRASO_MAX_S = 12.0
-# Fade de entrada e saída do card.
-FADE_S = 0.25
-
 # Cartela de legenda no começo do vídeo.
 LEGENDA_DURACAO_S = 7.0
+LEGENDA_ENTRA_S = 0.5
+# Cartela de encerramento, sobre o último quadro congelado DEPOIS do fim do trecho: diz onde
+# estão as fontes, como contestar e quanto da checagem teve revisão humana. É acrescentada ao
+# fim, e não sobreposta aos últimos segundos, para nunca disputar a tela com um card.
+ENCERRAMENTO_S = 8.0
+
+# ─────────────────────────────────────────────────────────────────────
+# Texto proibido na tela e no relatório — .cursor/rules/escrita-de-card.mdc e etica-e-risco.mdc
+# ─────────────────────────────────────────────────────────────────────
+
+# Leitura de intenção e conclusão sobre a pessoa. O card fala do enunciado, nunca do motivo.
+TERMOS_DE_INTENCAO = (
+    "tentou esconder", "tentou enganar", "quis passar", "quis enganar", "sabia que",
+    "omitiu de propósito", "de propósito", "propositalmente", "deliberadamente",
+    "mentiu", "mentira", "mentiroso", "má-fé", "má fé",
+)
+TRAVESSOES = ("—", "–")

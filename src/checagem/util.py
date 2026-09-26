@@ -121,6 +121,19 @@ def hms(segundos: float) -> str:
     return f"{s // 3600:02d}:{(s % 3600) // 60:02d}:{s % 60:02d}"
 
 
+MESES = ("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez")
+
+
+def data_legivel(iso: str) -> str:
+    """'2026-08-27' -> '27/ago/2026'. A data ISO é para máquina; a tela e o relatório são para gente."""
+    from datetime import date
+    try:
+        d = date.fromisoformat(iso)
+    except ValueError:
+        return iso
+    return f"{d.day:02d}/{MESES[d.month - 1]}/{d.year}"
+
+
 def ms(segundos: float) -> str:
     """3661.5 -> '61:01'. Formato curto para vídeos de menos de uma hora."""
     s = int(round(segundos))

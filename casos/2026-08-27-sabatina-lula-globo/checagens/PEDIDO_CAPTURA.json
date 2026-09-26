@@ -1,0 +1,12 @@
+{
+  "caso": "2026-08-27-sabatina-lula-globo",
+  "rodada": 1,
+  "finalidade": "Lastro de cinco textos de tela (A006, A010, A011, A013, A021) que a trava nova de ano e de número na ressalva apontou sem trecho de fonte. Ver CORRECOES.md, 26/set/2026.",
+  "urls": [
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025",
+    "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13983-asi-em-2010-pib-varia-75-e-fica-em-r-3675-trilhoes",
+    "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm",
+    "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
+    "https://agenciabrasil.ebc.com.br/politica/noticia/2023-01/democracia-foi-grande-vitoriosa-diz-lula-em-discurso-de-posse"
+  ]
+}

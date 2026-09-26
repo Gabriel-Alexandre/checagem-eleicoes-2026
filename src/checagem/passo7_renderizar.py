@@ -75,6 +75,13 @@ def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
     atual = "0:v"
     indice = 1
 
+    # A cartela de encerramento vive DEPOIS do fim do trecho, sobre o último quadro congelado.
+    # O áudio não é tocado: continua copiado, e simplesmente acaba antes do vídeo.
+    fim = plano.get("encerramento")
+    if fim:
+        linhas.append(f"[0:v]tpad=stop_mode=clone:stop_duration={fim['duracao_s']:.3f}[base]")
+        atual = "base"
+
     entradas: list[dict] = []
     if plano.get("selo"):
         entradas.append(plano["selo"])
@@ -83,6 +90,8 @@ def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
                          "entra_s": plano["legenda"]["entra_s"],
                          "sai_s": plano["legenda"]["sai_s"]})
     entradas.extend(plano["cartelas"])
+    if fim:
+        entradas.append(fim)
 
     for e in entradas:
         rotulo = f"v{indice}"
@@ -93,7 +102,7 @@ def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
         atual = rotulo
         indice += 1
 
-    if not linhas:
+    if not plano["cartelas"]:
         raise ErroDeExecucao("o plano não tem nenhuma cartela para sobrepor")
     return linhas, atual
 
@@ -132,6 +141,9 @@ def renderizar(slug: str, *, recorte: str | None = None, crf: int = 16,
     if com_legenda and plano.get("legenda"):
         entradas_png.append(str(caso / plano["legenda"]["arquivo"]))
     entradas_png.extend(str(caso / c["arquivo"]) for c in plano["cartelas"])
+    if plano.get("encerramento"):
+        entradas_png.append(str(caso / plano["encerramento"]["arquivo"]))
+    acrescimo = float((plano.get("encerramento") or {}).get("duracao_s", 0.0))
 
     faltando = [p for p in entradas_png if not Path(p).exists()]
     if faltando:
@@ -158,11 +170,14 @@ def renderizar(slug: str, *, recorte: str | None = None, crf: int = 16,
     ok(f"{saida.relative_to(cfg.RAIZ)} · {saida.stat().st_size / 1e6:.1f} MB")
     info(f"{final['largura']}x{final['altura']} · {final['fps']} fps · {hms(final['duracao_s'])}")
 
-    desvio = abs(final["duracao_s"] - medido["duracao_s"])
+    esperado = medido["duracao_s"] + acrescimo
+    desvio = abs(final["duracao_s"] - esperado)
     if desvio > 0.15:
-        aviso(f"a duração saiu {desvio:.2f}s diferente da entrada")
+        aviso(f"a duração saiu {desvio:.2f}s diferente do esperado "
+              f"({hms(medido['duracao_s'])} da entrada + {acrescimo:.0f}s de encerramento)")
     else:
-        ok(f"duração casa com a entrada (desvio {desvio * 1000:.0f} ms)")
+        ok(f"duração casa com a entrada + {acrescimo:.0f}s de encerramento "
+           f"(desvio {desvio * 1000:.0f} ms)")
     if final["codec_audio"] is None:
         aviso("o vídeo saiu SEM faixa de áudio")
     else:

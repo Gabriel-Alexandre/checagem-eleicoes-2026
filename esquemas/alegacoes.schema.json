@@ -84,6 +84,11 @@
           "minLength": 10,
           "description": "citação LITERAL da transcrição. Corte interno marcado com [...]. ⛔ não normalizar, não consertar gramática."
         },
+        "citacao_card": {
+          "type": ["string", "null"],
+          "minLength": 10,
+          "description": "OPCIONAL. Trecho literal mais curto da mesma fala, para caber nas duas linhas do card quando a `frase` não cabe. Corte interno com [...]. O validador confere contra a transcrição exatamente como confere a `frase`. ⛔ não é resumo nem paráfrase: é a mesma fala, com menos palavras."
+        },
         "afirmacao": {
           "type": "string",
           "minLength": 10,

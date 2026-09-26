@@ -14,7 +14,7 @@ projeto já tentou; o Pillow ganha em tudo que importa aqui.
 
 ⚠️ Corte seco, sem fade. É deliberado: fade exige entrada de vídeo em laço por cartela, o
 grafo de filtro cresce por um ganho estético que, num card de checagem, ninguém sente falta.
-Quem quiser fade tem o `--fade`, que paga esse custo.
+Ver docs/ARQUITETURA.md §5.
 """
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 from datetime import date
 from pathlib import Path
+from typing import Any
 
 from PIL import Image, ImageDraw
 
@@ -30,6 +31,7 @@ from . import tipografia as tipo
 from .util import (
     ErroDeExecucao,
     aviso,
+    data_legivel,
     escrever_json,
     hex_para_rgb,
     info,
@@ -144,6 +146,43 @@ def _fontes_em_uma_linha(fontes: list[dict], fonte_texto, largura_max: float) ->
     return monta(cabem)
 
 
+def _fontes_do_card() -> dict[str, Any]:
+    return {
+        "citacao": tipo.fonte(cfg.TAM_CITACAO, "Regular", italico=True),
+        "resumo": tipo.fonte(cfg.TAM_RESUMO, "SemiBold"),
+        "ressalva": tipo.fonte(cfg.TAM_FONTES + 2, "Medium"),
+    }
+
+
+def _largura_de_texto() -> int:
+    return cfg.CARD_LARGURA - cfg.CARD_BARRA - 2 * cfg.CARD_PADDING_X
+
+
+def textos_cortados(frase: str, resumo: str, ressalva: str | None) -> list[str]:
+    """Quais textos do card NÃO cabem inteiros e sairiam com reticências.
+
+    🔴 A citação cortada é o caso grave: o espectador lê "... subiu 3" onde a pessoa disse
+    "subiu 30%". O conserto não é aumentar o limite de linhas nem diminuir a fonte (isso muda a
+    régua do projeto inteiro): é escrever `citacao_card`, um trecho literal mais curto da mesma
+    frase, conferido pelo validador contra a transcrição como qualquer outra citação.
+    """
+    f = _fontes_do_card()
+    larg = _largura_de_texto()
+    cortados = []
+    if len(tipo.quebrar(f'"{frase}"', f["citacao"], larg)) > cfg.MAX_LINHAS_CITACAO:
+        cortados.append("citacao")
+    if len(tipo.quebrar(resumo, f["resumo"], larg)) > cfg.MAX_LINHAS_RESUMO:
+        cortados.append("resumo")
+    if ressalva and len(tipo.quebrar(f"Ressalva: {ressalva}", f["ressalva"], larg)) > cfg.MAX_LINHAS_RESSALVA:
+        cortados.append("ressalva")
+    return cortados
+
+
+def citacao_do_card(alegacao: dict) -> str:
+    """A citação que vai para a tela: `citacao_card` quando existe, senão a `frase` inteira."""
+    return alegacao.get("citacao_card") or alegacao["frase"]
+
+
 def desenhar_cartela(*, veredito_chave: str, falante: str, tempo_s: float, id_alegacao: str,
                      frase: str, resumo: str, ressalva: str | None,
                      fontes: list[dict]) -> Image.Image:
@@ -153,16 +192,16 @@ def desenhar_cartela(*, veredito_chave: str, falante: str, tempo_s: float, id_al
     d = ImageDraw.Draw(img)
 
     f_meta = tipo.fonte(cfg.TAM_META, "Medium")
-    f_cit = tipo.fonte(cfg.TAM_CITACAO, "Regular", italico=True)
-    f_res = tipo.fonte(cfg.TAM_RESUMO, "SemiBold")
-    f_rsv = tipo.fonte(cfg.TAM_FONTES + 2, "Medium")
+    fontes_card = _fontes_do_card()
+    f_cit, f_res, f_rsv = fontes_card["citacao"], fontes_card["resumo"], fontes_card["ressalva"]
     f_fnt = tipo.fonte(cfg.TAM_FONTES, "Medium")
 
-    largura_texto = cfg.CARD_LARGURA - cfg.CARD_BARRA - 2 * cfg.CARD_PADDING_X
+    largura_texto = _largura_de_texto()
 
-    linhas_cit = tipo.quebrar(f'"{frase}"', f_cit, largura_texto, max_linhas=2)
-    linhas_res = tipo.quebrar(resumo, f_res, largura_texto, max_linhas=2)
-    linhas_rsv = (tipo.quebrar(f"Ressalva: {ressalva}", f_rsv, largura_texto, max_linhas=2)
+    linhas_cit = tipo.quebrar(f'"{frase}"', f_cit, largura_texto, max_linhas=cfg.MAX_LINHAS_CITACAO)
+    linhas_res = tipo.quebrar(resumo, f_res, largura_texto, max_linhas=cfg.MAX_LINHAS_RESUMO)
+    linhas_rsv = (tipo.quebrar(f"Ressalva: {ressalva}", f_rsv, largura_texto,
+                               max_linhas=cfg.MAX_LINHAS_RESSALVA)
                   if ressalva else [])
     linha_fontes = _fontes_em_uma_linha(fontes, f_fnt, largura_texto)
 
@@ -230,7 +269,7 @@ def desenhar_legenda(titulo: str, subtitulo: str) -> Image.Image:
     img = Image.new("RGBA", (cfg.LARGURA, cfg.ALTURA), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
 
-    larg, alt = 1280, 566
+    larg, alt = 1280, 606
     x0 = (cfg.LARGURA - larg) // 2
     y0 = (cfg.ALTURA - alt) // 2
     d.rounded_rectangle([x0, y0, x0 + larg, y0 + alt], radius=26,
@@ -265,7 +304,68 @@ def desenhar_legenda(titulo: str, subtitulo: str) -> Image.Image:
         y += 56
 
     d.text((x0 + 56, y + 18), "Toda checagem tem no mínimo duas fontes independentes, "
-           "listadas no repositório.", font=f_desc, fill=cfg.COR_TEXTO_FRACO)
+           "listadas no repositório:", font=f_desc, fill=cfg.COR_TEXTO_FRACO)
+    d.text((x0 + 56, y + 52), cfg.REPOSITORIO_CURTO, font=tipo.fonte(24, "SemiBold"),
+           fill=cfg.COR_TEXTO)
+    return img
+
+
+def subtitulo_da_legenda(meta: dict) -> str:
+    """Título, veículo e data, sem repetir o veículo quando ele já está no título."""
+    partes = [meta["titulo"]]
+    if meta["veiculo"].lower() not in meta["titulo"].lower():
+        partes.append(meta["veiculo"])
+    partes.append(data_legivel(meta["data_do_evento"]))
+    return " · ".join(partes)
+
+
+def desenhar_encerramento(*, slug: str, n_alegacoes: int, n_revisadas: int) -> Image.Image:
+    """A cartela final, sobre o último quadro congelado.
+
+    Ela responde às três perguntas que um corte do vídeo deixa sem resposta: onde estão as
+    fontes, como se contesta, e quanto disto uma pessoa já leu. ⛔ Não traz placar por
+    veredito: contagem na tela vira ranking, e ranking é editorial (etica-e-risco §2).
+    """
+    img = Image.new("RGBA", (cfg.LARGURA, cfg.ALTURA), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    larg, alt = 1360, 540
+    x0 = (cfg.LARGURA - larg) // 2
+    y0 = (cfg.ALTURA - alt) // 2
+    d.rounded_rectangle([x0, y0, x0 + larg, y0 + alt], radius=26,
+                        fill=(10, 13, 18, 246), outline=(255, 255, 255, 40), width=2)
+
+    f_tit = tipo.fonte(44, "Bold")
+    f_txt = tipo.fonte(28, "Regular")
+    f_url = tipo.fonte(34, "SemiBold")
+    f_pe = tipo.fonte(24, "Regular")
+    x = x0 + 64
+    y = y0 + 52
+    d.text((x, y), "Onde conferir esta checagem", font=f_tit, fill=cfg.COR_TEXTO)
+    y += 84
+
+    if n_revisadas == 0:
+        revisao = "Feita com auxílio de IA. Revisão humana registrada: nenhuma até esta versão."
+    else:
+        revisao = (f"Feita com auxílio de IA. Revisão humana registrada em {n_revisadas} "
+                   f"de {n_alegacoes} checagens.")
+    linhas = [
+        f"{n_alegacoes} alegações deste trecho, de quem pergunta e de quem responde, "
+        "passaram pelo mesmo método.",
+        "Cada veredito tem no mínimo duas fontes, com trecho copiado e data de consulta.",
+        "Discorda de algum? Abra uma issue com a fonte. Correção procedente é registrada, "
+        "nunca apagada.",
+        revisao,
+    ]
+    for linha in linhas:
+        for pedaco in tipo.quebrar(linha, f_txt, larg - 128):
+            d.text((x, y), pedaco, font=f_txt, fill=cfg.COR_CITACAO)
+            y += 38
+        y += 12
+
+    y += 18
+    d.text((x, y), cfg.REPOSITORIO_CURTO, font=f_url, fill=cfg.COR_TEXTO)
+    y += 50
+    d.text((x, y), f"casos/{slug}", font=f_pe, fill=cfg.COR_TEXTO_FRACO)
     return img
 
 
@@ -274,7 +374,7 @@ def desenhar_legenda(titulo: str, subtitulo: str) -> Image.Image:
 # ─────────────────────────────────────────────────────────────────────
 
 
-def _janelas(itens: list[dict], limite_s: float) -> list[dict]:
+def _janelas(itens: list[dict], limite_s: float, *, inicio_minimo_s: float = 0.0) -> list[dict]:
     """Calcula quando cada cartela entra e sai, sem deixar duas na tela ao mesmo tempo.
 
     A cartela quer entrar quando a frase começa e ficar até PERMANENCIA_S depois de a frase
@@ -288,10 +388,13 @@ def _janelas(itens: list[dict], limite_s: float) -> list[dict]:
     **máximo entre o começo da fala e o fim da cartela anterior**, e o atraso fica registrado no
     plano: card que aparece muito depois da frase que ele cita é defeito, e o validador precisa
     conseguir enxergá-lo.
+
+    `inicio_minimo_s` é o fim da legenda de abertura: uma cartela que entrasse durante a
+    legenda disputaria a tela com ela, e a legenda fica no centro do quadro.
     """
     itens = sorted(itens, key=lambda a: (a["inicio_s"], a["id"]))
     janelas: list[dict] = []
-    cursor = 0.0
+    cursor = inicio_minimo_s
 
     for a in itens:
         entra = max(0.0, a["inicio_s"], cursor)
@@ -360,7 +463,9 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
         aviso(f"{len(fora)} alegações caem fora do trecho renderizado e serão ignoradas: {fora[:5]}")
         relativos = [r for r in relativos if r["id"] not in fora]
 
-    janelas = _janelas(relativos, limite_s)
+    inicio_minimo = (cfg.LEGENDA_ENTRA_S + cfg.LEGENDA_DURACAO_S + cfg.FOLGA_ENTRE_CARDS_S
+                     if com_legenda else 0.0)
+    janelas = _janelas(relativos, limite_s, inicio_minimo_s=inicio_minimo)
     por_id_alegacao = {a["id"]: a for a in alegacoes["alegacoes"]}
 
     itens = []
@@ -373,7 +478,7 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
             falante=a["falante"],
             tempo_s=a["inicio_s"],
             id_alegacao=a["id"],
-            frase=a["frase"],
+            frase=citacao_do_card(a),
             resumo=c["resumo"],
             ressalva=c.get("ressalva"),
             fontes=c.get("fontes", []),
@@ -381,6 +486,7 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
         arquivo = saida / f"{a['id']}.png"
         img.save(arquivo, optimize=True)
         contagem[c["veredito"]] = contagem.get(c["veredito"], 0) + 1
+        cortados = textos_cortados(citacao_do_card(a), c["resumo"], c.get("ressalva"))
         itens.append({
             "id": a["id"],
             "arquivo": str(arquivo.relative_to(caso)).replace("\\", "/"),
@@ -390,7 +496,11 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
             "atraso_do_fim_s": j["atraso_do_fim_s"],
             "veredito": c["veredito"],
             "tempo_na_peca_s": a["inicio_s"],
+            "cortado_na_tela": cortados,
         })
+        if cortados:
+            aviso(f"{a['id']}: {', '.join(cortados)} não cabe(m) em duas linhas e sai(em) com "
+                  "reticências — para a citação, escreva `citacao_card` com um trecho literal menor")
         if j["curta"]:
             aviso(f"{a['id']} fica só {j['sai_s'] - j['entra_s']:.1f}s na tela "
                   f"(piso é {cfg.CARD_DURACAO_MIN_S}s) — o trecho acabou antes")
@@ -403,13 +513,16 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
 
     legenda_arquivo = None
     if com_legenda:
-        img = desenhar_legenda(
-            "Como ler esta checagem",
-            f"{meta['titulo']} · {meta['veiculo']} · {meta['data_do_evento']}",
-        )
+        img = desenhar_legenda("Como ler esta checagem", subtitulo_da_legenda(meta))
         p = saida / "_legenda.png"
         img.save(p, optimize=True)
         legenda_arquivo = str(p.relative_to(caso)).replace("\\", "/")
+
+    revisadas = sum(1 for i in itens if por_id_checagem[i["id"]].get("revisao_humana"))
+    caminho_fim = saida / "_encerramento.png"
+    desenhar_encerramento(slug=slug, n_alegacoes=len(itens), n_revisadas=revisadas).save(
+        caminho_fim, optimize=True)
+    fim_total = round(limite_s + cfg.ENCERRAMENTO_S, 3)
 
     plano = {
         "caso": slug,
@@ -423,16 +536,32 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
         "selo": {
             "arquivo": str(caminho_selo.relative_to(caso)).replace("\\", "/"),
             "entra_s": 0.0,
-            "sai_s": round(limite_s, 3),
+            "sai_s": fim_total,
         },
         "legenda": (
-            {"arquivo": legenda_arquivo, "entra_s": 0.5,
-             "sai_s": 0.5 + cfg.LEGENDA_DURACAO_S} if legenda_arquivo else None
+            {"arquivo": legenda_arquivo, "entra_s": cfg.LEGENDA_ENTRA_S,
+             "sai_s": cfg.LEGENDA_ENTRA_S + cfg.LEGENDA_DURACAO_S} if legenda_arquivo else None
         ),
+        # Acrescentado DEPOIS do fim do trecho, sobre o último quadro congelado. O vídeo
+        # renderizado tem, portanto, duracao_s + encerramento.duracao_s.
+        "encerramento": {
+            "arquivo": str(caminho_fim.relative_to(caso)).replace("\\", "/"),
+            "entra_s": round(limite_s, 3),
+            "sai_s": fim_total,
+            "duracao_s": cfg.ENCERRAMENTO_S,
+            "revisao_humana": f"{revisadas} de {len(itens)}",
+        },
         "contagem_por_veredito": contagem,
         "cartelas": itens,
     }
     caminho_plano = caso / "overlay" / _nome("plano", recorte)
+    # Regerar sem mudança nenhuma não pode sujar o git: a data só muda quando o plano muda.
+    # É isso que deixa a CI regerar o plano e reprovar quando o arquivo versionado está velho.
+    if caminho_plano.exists():
+        anterior = ler_json(caminho_plano)
+        if {k: v for k, v in anterior.items() if k != "gerado_em"} == \
+                {k: v for k, v in plano.items() if k != "gerado_em"}:
+            plano["gerado_em"] = anterior.get("gerado_em", plano["gerado_em"])
     escrever_json(caminho_plano, plano)
 
     ok(f"{len(itens)} cartelas em {saida.relative_to(cfg.RAIZ)}")

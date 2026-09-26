@@ -6,6 +6,11 @@ name: validar
 # conferido é o que sustenta um veredito: o esquema dos dados, a citação contra a
 # transcrição, o lastro de cada número, as duas fontes independentes e o tempo de tela.
 #
+# 🔧 Até a versão 0.1.1 esta CI reprovou em TODOS os pushes, desde o primeiro: o validador
+# exigia as cartelas PNG, que são derivadas e ficam fora do git. Num clone limpo elas não
+# existem, e a porta fechava para todo mundo. Agora a CI desenha as cartelas antes (PASSO 6
+# não precisa do vídeo) e reprova se o plano versionado estiver velho.
+#
 # ⛔ O que a CI NÃO substitui: a conferência com o olho sobre o vídeo renderizado.
 # Ver docs/REPLICAR.md §3.
 
@@ -23,9 +28,9 @@ jobs:
       matrix:
         python: ["3.10", "3.12"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           cache: pip
@@ -45,16 +50,21 @@ jobs:
       - name: testes
         run: pytest -q
 
-      - name: validar o caso publicado
+      - name: desenhar as cartelas e validar todos os casos
+        run: python ferramentas/validar-todos.py
+
+      - name: o plano de overlay versionado está em dia
         run: |
-          python -m checagem validar 2026-08-27-sabatina-lula-globo \
-              --recorte bloco-contas-publicas
+          git diff --exit-code -- 'casos/*/overlay/*.json' || {
+            echo "::error::um plano de overlay versionado não corresponde às checagens atuais. Rode 'python -m checagem overlay <slug> --recorte <id>' e versione o resultado."
+            exit 1
+          }
 
   documentacao:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: nenhum link interno quebrado
