@@ -5,12 +5,15 @@
   "motivo": "Peça entregue pelo autor do projeto para o segundo caso. O ambiente de trabalho não alcança o YouTube nem o Hugging Face; o runner baixa, assina e transcreve com o mesmo motor e modelo do caminho local.",
   "comentarios_de": [],
   "alternativas": [
+    "https://globoplay.globo.com/v/14912682/",
     "https://www.youtube.com/watch?v=Bi-qbHPenoI"
   ],
-  "tentativa": 3,
+  "tentativa": 4,
   "duracao_minima_s": 2100,
   "historico": [
     "tentativa 1: YouTube recusou o runner ('Sign in to confirm you're not a bot')",
-    "tentativa 2: YouTube e espelhos recusaram; a cópia do g1 no Facebook baixou, mas era um corte vertical de 2min44s, descartado"
+    "tentativa 2: YouTube e espelhos recusaram; a cópia do g1 no Facebook baixou, mas era um corte vertical de 2min44s, descartado",
+    "tentativa 3: YouTube recusou também com token de origem, nas duas cópias integrais conhecidas",
+    "rodada 2 de captura achou a cópia oficial no Globoplay (id 14912682, 'Flávio Bolsonaro - Entrevista com o presidenciável', 1 h), e mostrou que o vídeo pedido foi publicado pelo canal 'EDUARDO BOLSONARO'"
   ]
 }

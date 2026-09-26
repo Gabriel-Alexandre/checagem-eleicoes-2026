@@ -77,6 +77,9 @@ def _yt_dlp(url: str, destino: Path) -> bool:
     for cliente in ("", "youtube:player_client=web", "youtube:player_client=tv_simply,web_safari",
                     "youtube:player_client=mweb", "youtube:player_client=web_embedded"):
         extra = ["--extractor-args", cliente] if cliente else []
+        # Conteúdo de emissora brasileira costuma ter trava de país; o runner está fora do Brasil.
+        if "globo.com" in url:
+            extra += ["--xff", "BR"]
         r = subprocess.run([
             "yt-dlp", "--no-playlist", *extra,
             "-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b[height<=1080]/b",
