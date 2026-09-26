@@ -227,9 +227,9 @@
       "numero_dito": "único país do G20 com oito anos de superávit primário",
       "numero_apurado": "confirmado na base do FMI para 2003 a 2010: nenhum outro membro do G20 fecha os oito anos com saldo primário positivo",
       "data_de_referencia": "2003 a 2010",
-      "ressalva": "O G20 tem 19 países membros mais dois blocos; a comparação foi feita entre os 19 países.",
+      "ressalva": "Vale na série comparável do FMI. No conceito nacional argentino, a Argentina também fechou 2009 com superávit primário (1,53% do PIB).",
       "confianca": "media",
-      "divergencia_entre_fontes": "A base do FMI mede o governo geral; a série brasileira mais citada mede o setor público consolidado, que inclui estatais. Os dois conceitos dão números diferentes para o Brasil (por exemplo, 0,91% contra 1,94% em 2009), mas ambos são positivos em todos os oito anos, então a conclusão não muda.",
+      "divergencia_entre_fontes": "A base do FMI mede o governo geral; a série brasileira mais citada mede o setor público consolidado, que inclui estatais. Os dois conceitos dão números diferentes para o Brasil (por exemplo, 0,91% contra 1,94% em 2009), mas ambos são positivos em todos os oito anos, então a conclusão não muda. 🔧 26/set/2026, após contestação pública: pelo conceito NACIONAL argentino (setor público nacional não financeiro, sem as províncias e com as rendas do Banco Central e do fundo da previdência), a Argentina também teve superávit primário em todos os anos de 2003 a 2010: 1,53% do PIB em 2009, segundo o anúncio oficial reproduzido na imprensa, e superávit em 2010, segundo o próprio Ministerio de Economía, que chama 2010 de último ano de superávit antes de 2019 e 2024. No conceito do FMI (governo geral, com as províncias), comparável entre os países, a Argentina fica negativa em 2009 (-0,49%) e 2010 (-0,54%). O veredito segue o critério registrado ANTES da checagem ('base do FMI'), e a afirmação é de comparação internacional, que exige série comparável; mas a divergência muda a leitura e agora vai no card. A Arábia Saudita, também citada na contestação, tem déficit primário de 5,53% do PIB em 2009 no FMI e não se qualifica em nenhum conceito encontrado.",
       "revisao_humana": null,
       "fontes": [
         {
@@ -237,9 +237,9 @@
           "instituicao": "Fundo Monetário Internacional",
           "titulo": "DataMapper — Primary net lending/borrowing (% of GDP), membros do G20",
           "url": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
-          "consultada_em": "2026-09-05",
-          "trecho": "\"BRA\":{\"2003\":3.55,\"2004\":4.05,\"2005\":3.86,\"2006\":1.51,\"2007\":2.88,\"2008\":3.21,\"2009\":0.91,\"2010\":1.58} · \"RUS\":{\"2009\":-6.2} · \"SAU\":{\"2009\":-5.53} · \"KOR\":{\"2004\":-0.66,\"2009\":-0.43} · \"AUS\":{\"2008\":-1.13,\"2009\":-4.51} · \"CAN\":{\"2009\":-2.78} · \"ARG\":{\"2009\":-0.49} · \"ZAF\":{\"2009\":-2.62} · \"IDN\":{\"2009\":-0.08} · \"MEX\":{\"2009\":-0.99} · \"TUR\":{\"2009\":-0.87} · \"ITA\":{\"2009\":-0.87}",
-          "prova": "Os oito anos positivos do Brasil e, em cada um dos demais membros do G20, ao menos um ano negativo entre 2003 e 2010 — o que os elimina da sequência. Os candidatos mais prováveis (Rússia, Arábia Saudita e Coreia do Sul) foram conferidos um a um."
+          "consultada_em": "2026-09-26",
+          "trecho": "\"BRA\":{\"2003\":3.5534131319219,\"2004\":4.0510971522081,\"2005\":3.8647871630283,\"2006\":1.5066524175739,\"2007\":2.8804573789676,\"2008\":3.2133101107755,\"2009\":0.91177865293406,\"2010\":1.5795912276201} · \"ARG\":{\"2009\":-0.48791372357449,\"2010\":-0.53844789986599} · \"SAU\":{\"2009\":-5.5332245099156} · \"RUS\":{\"2009\":-6.1967160033188} · \"KOR\":{\"2004\":-0.65634314163133,\"2009\":-0.42743437798164} · \"AUS\":{\"2008\":-1.1287508990534,\"2009\":-4.5093651256432} · \"CAN\":{\"2009\":-2.7760488858511} · \"ZAF\":{\"2009\":-2.6208958822149} · \"IDN\":{\"2009\":-0.084298633840012} · \"MEX\":{\"2009\":-0.99085334732799} · \"TUR\":{\"2009\":-0.86992113575845} · \"ITA\":{\"2009\":-0.87323646698108}",
+          "prova": "Os oito anos positivos do Brasil e, em cada um dos demais membros do G20, ao menos um ano negativo entre 2003 e 2010 — o que os elimina da sequência. Os candidatos mais prováveis (Rússia, Arábia Saudita e Coreia do Sul) foram conferidos um a um. Trecho substituído em 26/set/2026 pela cópia literal da captura assinada: a versão anterior tinha os valores arredondados para duas casas, e trecho arredondado não é cópia."
         },
         {
           "nivel": "N1",
@@ -249,6 +249,24 @@
           "consultada_em": "2026-09-05",
           "trecho": "{\"data\":\"01/12/2009\",\"valor\":\"-1.94\"},{\"data\":\"01/12/2010\",\"valor\":\"-2.62\"}",
           "prova": "Confirma, na fonte brasileira, que 2009 e 2010, os anos mais frágeis da série, seguiram positivos aqui enquanto viravam negativos na maior parte do G20."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "La Arena (Argentina), com agência NA",
+          "titulo": "Se redujo el superávit fiscal (20/jan/2010)",
+          "url": "https://www.laarena.com.ar/el-pais/2010-1-20-4-29-4-se-redujo-el-superavit-fiscal",
+          "consultada_em": "2026-09-26",
+          "trecho": "La presidenta Cristina Fernández anunció que el superávit fiscal del 2009 fue de 17.272 millones de pesos, lo que marca una fuerte caída, del 46,9 por ciento, respecto del 2008. Ese nivel de superávit representó un 1,53 por ciento del Producto Interno Bruto [...] En 2008, el superávit fiscal primario fue de 32.528,7 millones de pesos",
+          "prova": "Resultado primário argentino de 2009 no conceito nacional: positivo, 1,53% do PIB. O número é primário: a queda de 46,9% sai da comparação com os 32.528,7 milhões de superávit primário de 2008. É a base da ressalva do card."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministerio de Economía de la Nación (Argentina)",
+          "titulo": "El sector público nacional acumula un superávit primario de $ 25.000 millones en los primeros once meses del año (09/dez/2019)",
+          "url": "https://www.argentina.gob.ar/noticias/el-sector-publico-nacional-acumula-un-superavit-primario-de-25000-millones-en-los-primeros",
+          "consultada_em": "2026-09-26",
+          "trecho": "Es la primera vez desde 2010 que el sector público nacional no financiero tiene superávit primario en los primeros once meses del año.",
+          "prova": "Indica, na fonte oficial argentina, que 2010 teve superávit primário no conceito nacional. É indireta (fala dos onze primeiros meses), e por isso a explicação a trata como indicação, não como número."
         }
       ]
     },
@@ -383,9 +401,9 @@
       "resumo": "O IBGE fechou 2010 com crescimento de 7,5% do PIB, exatamente o número citado",
       "explicacao": "O release do IBGE de março de 2011 fecha o ano de 2010 com variação de 7,5% do PIB, e esse é o número que segue sendo citado para o ano. Uma ressalva de método que não muda o veredito: as Contas Nacionais passam por revisões, e um número de 2010 divulgado em 2011 é anterior à revisão metodológica que adotou 2010 como ano de referência. A afirmação usa a taxa oficial do ano, na forma como foi publicada e é usada desde então.",
       "numero_dito": "7,5% em 2010",
-      "numero_apurado": "7,5% (IBGE, Contas Nacionais Trimestrais, divulgado em 3 de março de 2011)",
+      "numero_apurado": "7,5% (IBGE, Contas Nacionais Trimestrais, primeira divulgação do resultado anual)",
       "data_de_referencia": "ano de 2010",
-      "ressalva": "Número da divulgação de 2011; séries de contas nacionais passam por revisão ao longo do tempo.",
+      "ressalva": "Número da primeira divulgação do IBGE; séries de contas nacionais passam por revisão ao longo do tempo.",
       "confianca": "alta",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,

@@ -29,6 +29,7 @@ instalado. O manifesto registra qual dos dois caminhos produziu o texto.
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import html
 import json
@@ -60,9 +61,19 @@ def _baixar(url: str, tempo: int = 60) -> tuple[int, str, bytes]:
     })
     try:
         with urllib.request.urlopen(req, timeout=tempo) as r:  # noqa: S310
-            return r.status, r.headers.get("Content-Type", ""), r.read()
+            return r.status, r.headers.get("Content-Type", ""), _descomprimir(r.read())
     except urllib.error.HTTPError as e:
-        return e.code, e.headers.get("Content-Type", "") if e.headers else "", e.read() or b""
+        return e.code, e.headers.get("Content-Type", "") if e.headers else "", _descomprimir(e.read() or b"")
+
+
+def _descomprimir(bruto: bytes) -> bytes:
+    """Há servidor que manda gzip sem ter sido pedido. O bruto guardado é o conteúdo, não o envelope."""
+    if bruto[:2] == b"\x1f\x8b":
+        try:
+            return gzip.decompress(bruto)
+        except OSError:
+            return bruto
+    return bruto
 
 
 def _navegador(url: str) -> tuple[int, str, bytes] | None:
