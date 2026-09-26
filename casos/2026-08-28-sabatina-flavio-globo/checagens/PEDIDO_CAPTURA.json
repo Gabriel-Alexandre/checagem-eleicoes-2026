@@ -1,31 +1,59 @@
 {
   "caso": "2026-08-28-sabatina-flavio-globo",
-  "rodada": 3,
-  "finalidade": "Rodada 3: achar a transmissão integral nas páginas de Facebook do g1, do Jornal Nacional e da GloboNews. Nenhuma URL é fonte de checagem.",
+  "rodada": 4,
+  "finalidade": "Rodada 4: PASSO 5. Fontes candidatas para as 16 alegações checáveis (A001 a A003 e A007 a A019), escolhidas depois da extração.",
   "urls": [
+    "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+    "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
+    "https://noticias.stf.jus.br/postsnoticias/ap-2668-stf-determina-cumprimento-imediato-da-pena-dos-sete-reus-do-nucleo-1-da-tentativa-de-golpe/",
+    "https://noticias.stf.jus.br/postsnoticias/em-dois-anos-stf-responsabilizou-898-pessoas-por-atos-antidemocraticos-de-8-de-janeiro/",
+    "https://noticias.stf.jus.br/postsnoticias/presidente-do-stf-rejeita-impedimento-de-ministros-para-julgar-denuncia-contra-bolsonaro/",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-enumera-13-atos-executorios-para-condenacao-de-bolsonaro",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-nao-ha-duvida-sobre-tentativa-de-golpe-bolsonaro-era-lider",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-vota-para-condenar-bolsonaro-e-mais-sete-por-golpe-de-estado",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2026-01/stf-condenou-1399-pessoas-por-atos-golpistas-179-estao-presas",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-ja-condenou-mais-de-600-denunciados-pelo-8-de-janeiro",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2025-03/pgr-e-contra-pedido-de-bolsonaro-para-tirar-dino-e-zanin-de-julgamento",
+    "https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/senado-aprova-indicacao-de-flavio-dino-para-ministro-do-stf",
+    "https://agenciabrasil.ebc.com.br/politica/noticia/2023-06/senado-aprova-indicacao-de-cristiano-zanin-para-o-stf",
+    "https://www.infomoney.com.br/politica/golpe-em-capitulos-moraes-detalha-13-atos-que-formaram-organizacao-criminosa/",
+    "https://www.metropoles.com/brasil/os-13-momentos-da-tentativa-de-golpe-de-acordo-com-moraes",
+    "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+    "https://www.cnnbrasil.com.br/politica/stf-pena-jair-bolsonaro/",
+    "https://www.cnnbrasil.com.br/politica/veja-ponto-a-ponto-como-moraes-votou-para-condenar-bolsonaro-e-demais-reus/",
+    "https://www.cnnbrasil.com.br/politica/operacao-da-pf-busca-elos-entre-financiadores-do-8-de-janeiro-e-politicos-informam-fontes/",
+    "https://www.migalhas.com.br/quentes/439972/stf-condena-bolsonaro-a-27-anos-e-3-meses-de-prisao",
+    "https://www.migalhas.com.br/quentes/447475/tres-anos-apos-8-de-janeiro-stf-ja-condenou-mais-de-800-envolvidos",
+    "https://conjur.com.br/2025-nov-25/1a-turma-do-supremo-confirma-condenacao-definitiva-de-bolsonaro/",
+    "https://www.extraclasse.org.br/justica/2023/09/pf-busca-financiadores-de-onibus-que-levaram-bolsonaristas-radicais-a-brasilia/",
+    "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+    "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
+    "https://www.metropoles.com/colunas/fabio-serapiao/pf-apreendeu-r-137-milhoes-e-147-armas-em-operacoes-do-8-1",
+    "https://www.cartacapital.com.br/justica/o-novo-balanco-do-stf-sobre-os-condenados-por-participacao-em-atos-golpistas/",
+    "https://pt.distance.to/Bras%C3%ADlia/Orlando",
+    "https://www.geodatos.net/en/distances/from-brasilia-to-orlando",
     {
-      "url": "https://www.facebook.com/g1/videos/1119392200517935/",
+      "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/airportDisplay.jsp?airportId=MCO",
       "navegador": true
     },
     {
-      "url": "https://www.facebook.com/g1/videos/",
+      "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBBR",
       "navegador": true
     },
-    {
-      "url": "https://www.facebook.com/jornalnacional/videos/",
-      "navegador": true
-    },
-    {
-      "url": "https://www.facebook.com/GloboNews/videos/",
-      "navegador": true
-    },
-    {
-      "url": "https://www.facebook.com/FlavioBolsonaro/videos/",
-      "navegador": true
-    },
-    {
-      "url": "https://m.facebook.com/g1/videos/",
-      "navegador": true
-    }
+    "https://www.airnav.com/airport/KMCO",
+    "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+    "https://www.npr.org/2023/01/09/1147812986/why-did-jair-bolsonaro-leave-brazil-for-florida",
+    "https://www.cnbc.com/2023/01/09/as-brazil-reels-from-riots-bolsonaro-finds-home-in-florida-.html",
+    "https://www12.senado.leg.br/noticias/materias/2023/12/13/com-47-votos-favoraveis-senado-aprova-dino-para-o-stf",
+    "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=522442&ori=1",
+    "https://www12.senado.leg.br/noticias/materias/2023/06/21/senado-aprova-zanin-para-o-stf-com-58-votos-a-favor-e-18-contrarios",
+    "https://www.poder360.com.br/justica/stf-envia-a-camara-queixa-crime-de-flavio-dino-contra-bolsonaro/",
+    "https://www.poder360.com.br/poder-justica/dino-rejeita-impedimento-para-julgar-denuncia-contra-bolsonaro/",
+    "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=466108&ori=1",
+    "https://exame.com/brasil/antes-de-julgar-bolsonaro-stf-rejeitou-pedidos-para-afastar-moraes-dino-e-zanin/",
+    "https://www.brasil247.com/brasil/bolsonaro-e-o-proprio-demonio-diz-flavio-dino/",
+    "https://www.brasil247.com/poder/precisamos-que-o-demonio-volte-para-o-inferno-diz-flavio-dino-sobre-bolsonaro/",
+    "https://gilbertoleda.com.br/2022/04/18/dino-sobre-bolsonarismo-que-o-demonio-volte-para-o-inferno/",
+    "https://imirante.com/noticias/sao-luis/2022/04/18/ipolitica-flavio-dino-defende-campanha-judicializada-contra-bolsonaro-em-2022"
   ]
 }
