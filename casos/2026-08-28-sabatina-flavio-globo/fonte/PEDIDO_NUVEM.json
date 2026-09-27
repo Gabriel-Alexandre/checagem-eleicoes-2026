@@ -1,19 +1,20 @@
 {
   "caso": "2026-08-28-sabatina-flavio-globo",
-  "url": "https://www.youtube.com/watch?v=o0W3MnZTqyA",
-  "arquivo": "sabatina-flavio-globo-2026-08-28.mp4",
-  "motivo": "Peça entregue pelo autor do projeto para o segundo caso. O ambiente de trabalho não alcança o YouTube nem o Hugging Face; o runner baixa, assina e transcreve com o mesmo motor e modelo do caminho local.",
+  "url": "https://www.facebook.com/g1/videos/1023993500397311/",
+  "arquivo": "sabatina-flavio-globo-2026-08-28-g1-fb-1023993500397311.mp4",
+  "motivo": "Tentativa 5: o autor achou o trecho de 2min44s pouco checável (muito juízo de valor). Uma busca achou outro vídeo do g1 no Facebook sobre a mesma entrevista (id 1023993500397311), possivelmente mais longo. Se for a íntegra ou um trecho maior, o caso é refeito sobre ele.",
   "comentarios_de": [],
   "alternativas": [
-    "https://globoplay.globo.com/v/14912682/",
-    "https://www.youtube.com/watch?v=Bi-qbHPenoI"
+    "https://www.youtube.com/watch?v=Bi-qbHPenoI",
+    "https://www.youtube.com/watch?v=o0W3MnZTqyA"
   ],
-  "tentativa": 4,
-  "duracao_minima_s": 2100,
+  "tentativa": 5,
+  "duracao_minima_s": 400,
   "historico": [
     "tentativa 1: YouTube recusou o runner ('Sign in to confirm you're not a bot')",
     "tentativa 2: YouTube e espelhos recusaram; a cópia do g1 no Facebook baixou, mas era um corte vertical de 2min44s, descartado",
     "tentativa 3: YouTube recusou também com token de origem, nas duas cópias integrais conhecidas",
-    "rodada 2 de captura achou a cópia oficial no Globoplay (id 14912682, 'Flávio Bolsonaro - Entrevista com o presidenciável', 1 h), e mostrou que o vídeo pedido foi publicado pelo canal 'EDUARDO BOLSONARO'"
+    "rodada 2 de captura achou a cópia oficial no Globoplay (id 14912682, 'Flávio Bolsonaro - Entrevista com o presidenciável', 1 h), e mostrou que o vídeo pedido foi publicado pelo canal 'EDUARDO BOLSONARO'",
+    "tentativa 4: o trecho oficial do g1 (Facebook 1119392200517935, 2min44s) foi usado para o caso de 26/set"
   ]
 }
