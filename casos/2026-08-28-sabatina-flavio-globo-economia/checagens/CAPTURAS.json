@@ -1,0 +1,644 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo-economia",
+  "nota": "Recibo das capturas das fontes: sha256 do que foi lido e se cada trecho citado foi encontrado na página capturada. O texto das páginas não entra no git.",
+  "capturas": [
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/deficit-primario-do-governo-central-totaliza-r-617-bilhoes-em-2025",
+      "capturada_em": "2026-09-27T03:45:01+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 103056,
+      "sha256": "35c310b206be652ce183bf249fc5777fceb5c027cd8988b77b7d3c66f3a01c76",
+      "trechos": {
+        "A012": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/deficit-do-setor-publico-sobe-para-r-553-bilhoes-em-junho",
+      "capturada_em": "2026-09-27T03:44:24+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 100907,
+      "sha256": "5f2f044ed235d4a5a7bee8fdadcece98e589fc78ab47e952c98454516c048d2d",
+      "trechos": {
+        "A007": "encontrado"
+      }
+    },
+    {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022",
+      "capturada_em": "2026-09-27T03:44:22+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 1673,
+      "sha256": "20de479c9f928a17dc5f246ea8c205dd652fe4367ad402745853d9c2f14db963",
+      "trechos": {
+        "A002": "encontrado"
+      }
+    },
+    {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.188/dados?formato=json&dataInicial=01/01/2025",
+      "capturada_em": "2026-09-27T03:44:46+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 744,
+      "sha256": "20b4c66f7b7824a08df443c9ba10a700fa4a8bc158723f97e39ca544f20175e3",
+      "trechos": {
+        "A010": "encontrado"
+      }
+    },
+    {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/06/2026",
+      "capturada_em": "2026-09-27T03:44:27+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 5967,
+      "sha256": "bf119d0c0159c8f6bbca286366bdd5c09e074c5b507c000dffd5f18f2ccd5fc9",
+      "trechos": {
+        "A004": "encontrado"
+      }
+    },
+    {
+      "url": "https://bpmoney.com.br/mercado/brasil-perde-lideranca-mas-segue-entre-paises-com-maiores-juros-reais-do-mundo/",
+      "capturada_em": "2026-09-27T03:44:30+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 319981,
+      "sha256": "cc026c82ac4e7463b3cc65ced6e4c24bca3b810eb45af3077befcbe63be55937",
+      "trechos": {
+        "A005": "encontrado"
+      }
+    },
+    {
+      "url": "https://br.advfn.com/jornal/2026/08/tesouro-amplia-dependencia-da-selic-lfts-ja-representam-51-1-da-divida-publica",
+      "capturada_em": "2026-09-27T03:48:09+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 143581,
+      "sha256": "95940a1066a2ca6829bbcd43d0ffe89ead6b958dddf1e4f532da4a24b76a3d9f",
+      "trechos": {
+        "A021": "encontrado"
+      }
+    },
+    {
+      "url": "https://canaltech.com.br/hardware/incendio-destroi-data-center-do-governo-da-coreia-do-sul-que-nao-tinha-backup/",
+      "capturada_em": "2026-09-27T03:45:54+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 89725,
+      "sha256": "139999de7570ac02cfa4367e289727c421509473be9745366975f812b841bfd1",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-explora-crise-no-stf-e-se-desvia-de-propostas-economicas/",
+      "capturada_em": "2026-09-27T03:57:43+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 91814,
+      "sha256": "8c9782061f14e07f668b2b3676cec93e5501b5b83b387812e946f7c5c2c99c36",
+      "trechos": {
+        "A008": "encontrado"
+      }
+    },
+    {
+      "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/plano-de-governo-de-flavio-bolsonaro-propoe-tesouraco-e-novo-teto-de-gastos/",
+      "capturada_em": "2026-09-27T03:44:14+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 90983,
+      "sha256": "c8d5dc41fc11cb701ae4aad04df8f2a205dcb080721c0c67b581d489f35e6282",
+      "trechos": {
+        "A001": "encontrado"
+      }
+    },
+    {
+      "url": "https://m.imirante.com/noticias/brasil/2026/09/19/ipolitica-eleicoes-2026-propostas-dos-presidenciaveis-ao-salario",
+      "capturada_em": "2026-09-27T03:54:19+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 564108,
+      "sha256": "b36fa86e266621e8015d5a550930e83ca7f96c59a35f4261fe59dc4b14f46016",
+      "trechos": {
+        "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://ndmais.com.br/politica/divida-publica-o-que-os-presidenciaveis-propoem-para-o-pais/",
+      "capturada_em": "2026-09-27T03:44:16+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 189928,
+      "sha256": "08ffb5107efe5bd96f0ec7d316f5bd239ab455928aa9612e5257c8aefb5e0fc6",
+      "trechos": {
+        "A001": "encontrado"
+      }
+    },
+    {
+      "url": "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoAnuais?$top=200&$filter=Indicador%20eq%20'Selic'%20and%20Data%20ge%20'2022-10-24'%20and%20Data%20le%20'2022-10-31'&$format=json",
+      "capturada_em": "2026-09-27T03:44:32+00:00",
+      "status": 200,
+      "tipo": "application/json;charset=UTF-8;odata.metadata=minimal",
+      "caminho": "direto",
+      "bytes": 13233,
+      "sha256": "7a67a3f0fab1dbef0d4d591c6275628811999de68881dd689c08645e6fde9bfd",
+      "trechos": {
+        "A006": "encontrado"
+      }
+    },
+    {
+      "url": "https://portaln10.com.br/politica/rogerio-marinho-critica-politica-de-valorizacao-do-salario-minimo-238796/",
+      "capturada_em": "2026-09-27T03:54:01+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 106522,
+      "sha256": "fd88905fb62e21c1c90d2f2df40c8cf7c0e56818ec2343b668b0695f911238ea",
+      "trechos": {
+        "A008": "encontrado"
+      }
+    },
+    {
+      "url": "https://revistaoeste.com/politica/governo-lula-totaliza-mais-de-50-mil-cargos-comissionados-em-2025/",
+      "capturada_em": "2026-09-27T03:45:13+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 430638,
+      "sha256": "db5a934f10826639f4621e20c07cc7b5b0edc28d6b26d8a6cf0e515a704ab969",
+      "trechos": {
+        "A014": "encontrado"
+      }
+    },
+    {
+      "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+      "capturada_em": "2026-09-27T03:57:42+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 20260103,
+      "sha256": "ff60b7ae45083471448af7fa0bf62bbe7ce209a1d21682b3482f142e0cb8b4f0",
+      "trechos": {
+        "A001": "encontrado",
+        "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.acessa.com/economia/2026/01/307503-ifi-meta-foi-formalmente-cumprida-em-2024-e-2025-sem-necessariamente-haver-esforco-fiscal.html",
+      "capturada_em": "2026-09-27T03:54:43+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 217325,
+      "sha256": "c9207af7e153371b231756ae4c5ad634a39659d868c41f24aece64ab1f922a8d",
+      "trechos": {
+        "A020": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202607_Texto_de_estatisticas_fiscais.pdf",
+      "capturada_em": "2026-09-27T03:56:49+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 392331,
+      "sha256": "f5d72f44266f54fbd0c8501827f3c2580b6a93b143916b6bb6e29cc7c8bcdff3",
+      "trechos": {
+        "A007": "encontrado",
+        "A021": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.bcb.gov.br/content/focus/focus/R20221028.pdf",
+      "capturada_em": "2026-09-27T03:44:34+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 788361,
+      "sha256": "1880d5cd5f5a0ef3df14d7aa32461740320cd3c63aa711f3a6b8a077880f3a79",
+      "trechos": {
+        "A006": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+      "capturada_em": "2026-09-27T03:55:16+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 335977,
+      "sha256": "1de7dadd29ab3e53808e975ce0d0f3693abdb022b5a4c2915fe1debc888df8d3",
+      "trechos": {
+        "A007": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/1163918-delegado-da-pf-afirma-que-investigacao-sobre-descontos-indevidos-do-inss-ainda-esta-no-inicio/",
+      "capturada_em": "2026-09-27T03:45:28+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 66391,
+      "sha256": "d0332b7875a7a3e5a6b5463f84649a1944a1d37a92f9e32f9c1c9b6d98410f70",
+      "trechos": {
+        "A018": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/558763-camara-aprova-mp-que-busca-coibir-fraudes-no-inss/",
+      "capturada_em": "2026-09-27T03:45:26+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 72541,
+      "sha256": "1aef029fcabf509bc9981a484f19bda911326a15949957ce7dbaf5d8422a8242",
+      "trechos": {
+        "A016": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cartacapital.com.br/politica/o-que-esta-em-jogo-na-mp-871-maior-vitoria-parlamentar-de-bolsonaro-ate-aqui/",
+      "capturada_em": "2026-09-27T03:45:27+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 233892,
+      "sha256": "2e0d27f0e99868963a254cd2f8352acde1e135e2cd086a93c7c8e8705400a77f",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/em-3-anos-lula-criou-3-vezes-mais-cargos-comissionados-do-que-bolsonaro/",
+      "capturada_em": "2026-09-27T03:45:13+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 404829,
+      "sha256": "dd290e03b9ec44bd896516520297847720ccf33112e970f213c9ea50e9e423fd",
+      "trechos": {
+        "A014": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/governo-fecha-2023-com-deficit-de-r-2305-bi-segundo-pior-da-historia-diz-tesouro-nacional/",
+      "capturada_em": "2026-09-27T03:54:00+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 395136,
+      "sha256": "108c5ca9fb8fb02084d819eb53fbe63c528c29d1dc8c3af7346460774bcf1809",
+      "trechos": {
+        "A012": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/governo-lula-deve-fechar-2026-com-r-148-bi-fora-do-limite-fiscal-diz-ifi/",
+      "capturada_em": "2026-09-27T03:47:59+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 402094,
+      "sha256": "69d2700a0cfc23f0c2b3922f9bc8d3f1c4da248513e95f3e6f08a049e4034a58",
+      "trechos": {
+        "A020": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/bc-copom-agosto-2026/",
+      "capturada_em": "2026-09-27T03:44:28+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 403949,
+      "sha256": "83a20d7fe1e68fac1cef535c21c5d6589ad430129191dbd38a06b6ab103a1e4c",
+      "trechos": {
+        "A004": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/veja-todos-os-impostos-e-taxas-que-governo-lula-aumentou-desde-a-posse/",
+      "capturada_em": "2026-09-27T03:44:24+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 453095,
+      "sha256": "0149694d54f8e6f67b82342fe40f2e43fbaf3703270f53fa766b0bc87036546f",
+      "trechos": {
+        "A003": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/politica/pressao-da-esquerda-ajudou-a-manter-descontos-que-levaram-a-fraudes-no-inss/",
+      "capturada_em": "2026-09-27T03:54:29+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 399150,
+      "sha256": "d4a7a1c619c3aafdd24c0a094dfcec4fcc02882898930aa6d6c35642eb192e38",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.desbugados.com.br/noticias/2025/09/29/efeito-domino-incendio-em-um-unico-data-center-derruba-647-servicos-do-governo-da-coreia-do-sul",
+      "capturada_em": "2026-09-27T03:45:57+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 194222,
+      "sha256": "51b275ddde1e7add715afda274bbab4eba2eb9d09b4723fa84e2fd80e9b0ea14",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/economia/esquerda-lutou-contra-fiscalizacao-descontos-aposentados/",
+      "capturada_em": "2026-09-27T03:54:20+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 324817,
+      "sha256": "4ba5a90aba739dacf42ff3baad2183e413899beb0a05656fdb8d3dc126238e84",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/economia/lista-impostos-governo-lula-criou-elevou/",
+      "capturada_em": "2026-09-27T03:44:26+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 402000,
+      "sha256": "7708276edbf99ebc02a6eb044140a3aead104311261b135783f7c4efd1467cd2",
+      "trechos": {
+        "A003": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/republica/por-que-o-governo-federal-criou-medidas-para-elevar-impostos-a-cada-27-dias/",
+      "capturada_em": "2026-09-27T03:44:26+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 293263,
+      "sha256": "76e7db4c59e380d9f086ab0d39960f75dc490eb82cb5fcd1f6d0dc1b580f2744",
+      "trechos": {
+        "A003": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.infomoney.com.br/economia/ranking-juros-reais-agosto-2026/",
+      "capturada_em": "2026-09-27T03:44:30+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 358942,
+      "sha256": "7004641eaa180a63e3aa993216788e556cf3070d7368f3a7ffffe62637527c71",
+      "trechos": {
+        "A005": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.ipea.gov.br/cartadeconjuntura/index.php/2024/01/estimativa-preliminar-do-resultado-primario-do-governo-central-em-dezembro-de-2023/",
+      "capturada_em": "2026-09-27T03:59:34+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 38623,
+      "sha256": "82438e9d9a705a796670c9f35b04b2dbdf0d3d551ea4fcc3ef761fc48672bb33",
+      "trechos": {
+        "A012": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.ipea.gov.br/cartadeconjuntura/index.php/2026/01/estimativa-preliminar-do-resultado-primario-do-governo-central-em-dezembro-de-2025/",
+      "capturada_em": "2026-09-27T03:59:33+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 38255,
+      "sha256": "7ffb298d28fe0dbc5be83f1866ed447aecd38706847f6c64444464a0336290f6",
+      "trechos": {
+        "A012": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.jb.com.br/colunistas/o-outro-lado-da-moeda/2026/08/1060756-cada-ponto-na-selic-custa-rs-689-bilhoes.html",
+      "capturada_em": "2026-09-27T03:47:59+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 27690,
+      "sha256": "3dddf94ff3546c43b37d58a3524d2986506a61ef064b3e743c2c0e5350318642",
+      "trechos": {
+        "A021": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.meon.com.br/noticias/brasil/governo-extingue-21-mil-cargos-com-economia-estimada-de-r-194-9-milhoes-por-ano",
+      "capturada_em": "2026-09-27T03:45:12+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 129356,
+      "sha256": "cedd6048bf32366d17f274f17e33f230b93221f1e14e409f9a7770372afcc84c",
+      "trechos": {
+        "A013": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.metropoles.com/brasil/campanha-de-flavio-bolsonaro-divulga-integrantes-da-area-economica",
+      "capturada_em": "2026-09-27T03:44:58+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 252713,
+      "sha256": "6cbd8f8ccc88432b826079285f0d9ad9eced4888415ce5e2dd70f4ddba0816bf",
+      "trechos": {
+        "A011": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D9725.htm",
+      "capturada_em": "2026-09-27T03:45:10+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 195442,
+      "sha256": "0b1edb0a1868da2c78d152372bf69a03179d2958202066feaab10433cd8dc53a",
+      "trechos": {
+        "A013": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/mpv/mpv871.htm",
+      "capturada_em": "2026-09-27T03:45:24+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 111411,
+      "sha256": "afce666783c6ea65661fd30fcc5a4f3f664d8764ac896a3769b2fbcca1105c7a",
+      "trechos": {
+        "A016": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12797.htm",
+      "capturada_em": "2026-09-27T03:44:45+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 10327,
+      "sha256": "cb1675deb53c15a188d618c5d3f35d04f89d12cf270295bee82a21ed73d829d4",
+      "trechos": {
+        "A010": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "capturada_em": "2026-09-27T03:45:20+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 1839482,
+      "sha256": "a929c03c0c83f29ffa572ab24db24d045f68e0b2cbc6987913d3d149026b4dde",
+      "trechos": {
+        "A015": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+      "capturada_em": "2026-09-27T03:45:23+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 755476,
+      "sha256": "0efa3597ca9216d7c3961edb49eb19ac3e6250629666585eaa8ddf5b3d868abe",
+      "trechos": {
+        "A015": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/governo/governo-corta-21-000-cargos-e-gratificacoes/",
+      "capturada_em": "2026-09-27T03:45:06+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 253506,
+      "sha256": "780a703f69ddb7ff519725036315f32ddb856b767191bca48cdbc31fcd57bedb",
+      "trechos": {
+        "A013": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-economia/brasil-mantem-maior-juro-real-do-mundo-diz-pesquisa/",
+      "capturada_em": "2026-09-27T03:44:31+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 254767,
+      "sha256": "62d81e283bdf1ec424c4c10f2e1794ee64af5596dbaa6d62849c11599cdb7a3f",
+      "trechos": {
+        "A005": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-economia/divida-bruta-atinge-819-do-pib-em-junho-diz-banco-central/",
+      "capturada_em": "2026-09-27T03:44:22+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 255731,
+      "sha256": "dff0ab5cd6f434b0d5158c409f4fef66ab8f6b73873b32cabd17608e88fdd97f",
+      "trechos": {
+        "A002": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quem-integra-a-equipe-economica-de-flavio-bolsonaro/",
+      "capturada_em": "2026-09-27T03:44:57+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 248547,
+      "sha256": "867850b8abf3c06200895e617ac62baa101256526afa20f318193ee924cd596b",
+      "trechos": {
+        "A011": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-governo/lula-aumentou-impostos-27-vezes-em-3-anos-no-planalto/",
+      "capturada_em": "2026-09-27T03:44:24+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 262972,
+      "sha256": "5935651027f4620abeaab8a70625b3ff01db8af24f241f4ffc04ce4971730943",
+      "trechos": {
+        "A003": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.serasa.com.br/blog/valor-do-salario-minimo-2026/",
+      "capturada_em": "2026-09-27T03:44:47+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 243015,
+      "sha256": "20de8571cba99c5be795def9a30ef5e7d4508ec8271ff9ef4dcab877e87428eb",
+      "trechos": {
+        "A010": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.tech.gov.sg/products-and-services/for-government-agencies/software-development/government-on-commercial-cloud/",
+      "capturada_em": "2026-09-27T03:45:45+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 451244,
+      "sha256": "ca80ce81b3115db29a1ace48fdfc3e40e9ced1543d7f1865c4c7cffdc505cddd",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.terra.com.br/economia/cgu-alertou-inss-7-meses-antes-de-operacao-da-pf-sobre-fraude-bilionaria-em-descontos-de-aposentados,763108fb3d2a805c6f87d96a6cb8eb7834e13lq5.html",
+      "capturada_em": "2026-09-27T03:45:29+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 152879,
+      "sha256": "0390ee611cb8fedc19cc7aa8eed0001d284c2a2f474a0b5ae18061eca69b6802",
+      "trechos": {
+        "A018": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.tesourotransparente.gov.br/publicacoes/carga-tributaria-do-governo-geral/2025/114",
+      "capturada_em": "2026-09-27T04:00:22+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 31546,
+      "sha256": "0c1eafdcf4c556d9f1ccd38c64613abcfe86cf426e11f3f7cd90afba0200cc6e",
+      "trechos": {
+        "A003": "encontrado"
+      }
+    }
+  ]
+}

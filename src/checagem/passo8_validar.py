@@ -370,8 +370,15 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
         exige_forte = (v != "NAO_CHECAVEL"
                        and a["tipo"] in cfg.TIPOS_QUE_EXIGEM_FONTE_FORTE)
         if exige_forte and not any(f["nivel"] in cfg.NIVEIS_FORTES for f in fontes):
-            rel.erro(f"{aid} [{a['tipo']}]: nenhuma fonte N1 ou N2 "
-                     "(METODOLOGIA §3.1 regra 1)")
+            # 🔧 A árvore do §2.1 manda para INSUSTENTAVEL justamente a alegação para a qual não se
+            # acharam fontes qualificadas. Exigir N1 desse veredito deixava sem saída o número que
+            # não tem registro oficial (a equipe de uma campanha, um levantamento de imprensa).
+            if v == "INSUSTENTAVEL":
+                rel.aviso(f"{aid} [{a['tipo']}]: sem fonte N1 ou N2; o veredito é SEM COMPROVAÇÃO "
+                          "por isso mesmo, e a explicação tem que dizer o que faltou")
+            else:
+                rel.erro(f"{aid} [{a['tipo']}]: nenhuma fonte N1 ou N2 "
+                         "(METODOLOGIA §3.1 regra 1)")
 
         for f in fontes:
             try:
