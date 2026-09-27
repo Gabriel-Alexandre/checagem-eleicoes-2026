@@ -338,6 +338,11 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
                 rel.erro(f"{aid}: travessão em `{campo}` — ele quebra mal em caixa estreita")
             for termo in _tem_intencao(texto):
                 rel.erro(f"{aid}: `{campo}` lê intenção ou conclui sobre a pessoa ('{termo}')")
+        # 🔧 A linha "FONTES:" do card também é texto de tela: o nome da instituição entra nela.
+        for f in fontes:
+            if any(t in f.get("instituicao", "") for t in cfg.TRAVESSOES):
+                rel.erro(f"{aid}: travessão no nome da instituição '{f['instituicao']}', que vai "
+                         "para a linha de fontes do card")
         for termo in _tem_intencao(c.get("explicacao", "")):
             rel.aviso(f"{aid}: a explicação usa '{termo}' — confira se é citação, e não leitura "
                       "de intenção")

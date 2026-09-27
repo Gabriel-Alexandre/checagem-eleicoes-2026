@@ -1,0 +1,70 @@
+name: nuvem-sondar-videos
+
+# Consulta, SEM baixar, os metadados de vídeos candidatos a peça de um caso: título, descrição,
+# duração, resolução e data. Serve para escolher a peça (ou o trecho oficial mais completo) com
+# dados, antes de pedir o download pelo nuvem-preparar-midia (ver docs/NUVEM.md).
+#
+# Disparo: push de casos/<slug>/fonte/PEDIDO_SONDAGEM.json:
+#   { "caso": "<slug>", "rodada": 1, "urls": ["https://..."] }
+
+on:
+  push:
+    paths:
+      - "casos/*/fonte/PEDIDO_SONDAGEM.json"
+
+permissions:
+  contents: write
+
+jobs:
+  sondar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+
+      - name: descobrir o pedido
+        id: pedido
+        run: |
+          arquivo=$(git diff --name-only HEAD~1 HEAD -- 'casos/*/fonte/PEDIDO_SONDAGEM.json' | head -1)
+          if [ -z "$arquivo" ]; then arquivo=$(ls casos/*/fonte/PEDIDO_SONDAGEM.json | head -1); fi
+          echo "arquivo=$arquivo" >> "$GITHUB_OUTPUT"
+          echo "slug=$(echo "$arquivo" | cut -d/ -f2)" >> "$GITHUB_OUTPUT"
+          echo "rodada=$(python3 -c "import json;print(json.load(open('$arquivo')).get('rodada', 1))")" >> "$GITHUB_OUTPUT"
+
+      - name: sondar
+        env:
+          ARQ: ${{ steps.pedido.outputs.arquivo }}
+        run: |
+          pip install -q "yt-dlp[default]"
+          python3 - <<'PY'
+          import json, os, subprocess
+          pedido = json.load(open(os.environ["ARQ"]))
+          saida = []
+          for u in pedido["urls"]:
+              r = subprocess.run(["yt-dlp", "--dump-json", "--no-playlist", "--skip-download", u],
+                                 capture_output=True, text=True, timeout=180)
+              if r.returncode != 0:
+                  saida.append({"url": u, "ok": False, "erro": r.stderr.strip()[-400:]})
+                  continue
+              m = json.loads(r.stdout.splitlines()[0])
+              saida.append({"url": u, "ok": True, "titulo": m.get("title"),
+                            "descricao": (m.get("description") or "")[:1500],
+                            "duracao_s": m.get("duration"), "largura": m.get("width"),
+                            "altura": m.get("height"), "data": m.get("upload_date"),
+                            "canal": m.get("uploader")})
+              print(json.dumps(saida[-1], ensure_ascii=False)[:600], flush=True)
+          json.dump(saida, open("sondagem.json", "w"), ensure_ascii=False, indent=2)
+          PY
+
+      - name: publicar no release em rascunho
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+          RODADA: ${{ steps.pedido.outputs.rodada }}
+        run: |
+          gh release view "nuvem-$SLUG" >/dev/null 2>&1 || \
+            gh release create "nuvem-$SLUG" --draft --title "nuvem-$SLUG" --notes "rascunho de trabalho"
+          cp sondagem.json "sondagem-rodada-$RODADA.json"
+          gh release upload "nuvem-$SLUG" --clobber "sondagem-rodada-$RODADA.json"
