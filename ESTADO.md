@@ -47,7 +47,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Vereditos | 12 verdadeiro · 1 impreciso · 1 sem comprovação · 2 falso · 3 não checável |
 | Fontes | 48 citações, 33 URLs, 16 instituições; 33 de 33 com captura assinada; 48 de 48 trechos encontrados na página capturada |
 | Validador | ✅ 0 erros, 0 avisos |
-| Vídeo | ✅ 1920x1080, 3min12s (2min44s do trecho, 19,7s de congelamento de leitura, 8s de encerramento), renderizado e conferido quadro a quadro na sessão de 27/set. O MP4 vai para o release em rascunho `nuvem-2026-08-28-sabatina-flavio-globo` pelo workflow `nuvem-renderizar` |
+| Vídeo | ✅ 1920x1080, 3min12s (2min44s do trecho, 19,7s de congelamento de leitura, 8s de encerramento), renderizado e conferido quadro a quadro na sessão de 27/set. O MP4 de referência foi renderizado de novo pelo workflow `nuvem-renderizar` em 27/set (plano idêntico ao versionado, porta em 0 erros e 0 avisos) e está no release em rascunho `nuvem-2026-08-28-sabatina-flavio-globo`: 62,8 MB, sha256 `32ec046350bfcb35dbf0904219751e907bb4fa278c3dda0088db1bc044aed3c4` |
 
 ---
 
