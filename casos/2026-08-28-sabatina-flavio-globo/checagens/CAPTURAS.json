@@ -1,0 +1,417 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "nota": "Recibo das capturas das fontes: sha256 do que foi lido e se cada trecho citado foi encontrado na página capturada. O texto das páginas não entra no git.",
+  "capturas": [
+    {
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2023-06/saiba-quem-e-cristiano-zanin-ex-advogado-de-lula-indicado-ao-stf",
+      "capturada_em": "2026-09-27T00:06:01+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 97041,
+      "sha256": "198931d89e67ee33b2bc773df4dc341715d2f07bcf92c9dfae84cf0c237347c0",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-ja-condenou-mais-de-600-denunciados-pelo-8-de-janeiro",
+      "capturada_em": "2026-09-26T23:54:13+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 96354,
+      "sha256": "055eda35c97151cf2b271fde02b4111a1ae7c9f275cfcbb2fb110a381162d29d",
+      "trechos": {
+        "A008": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-enumera-13-atos-executorios-para-condenacao-de-bolsonaro",
+      "capturada_em": "2026-09-26T23:54:09+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 100801,
+      "sha256": "7c3efd468b2e4f21533c895b42fc9bfaa349e7ce6784a2e785b13aa031666058",
+      "trechos": {
+        "A001": "encontrado",
+        "A003": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-nao-ha-duvida-sobre-tentativa-de-golpe-bolsonaro-era-lider",
+      "capturada_em": "2026-09-26T23:54:10+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 114094,
+      "sha256": "b6637efb8ce2ad6cfa766f3ad5e4b097f8f2b3fe8b15c080f92cc28cd5398ff0",
+      "trechos": {
+        "A001": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-vota-para-condenar-bolsonaro-e-mais-sete-por-golpe-de-estado",
+      "capturada_em": "2026-09-26T23:54:12+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 106247,
+      "sha256": "d7ac6a984194b7f3c3a90c4dfcbe3c2ba5d681ea8a1c3545dbbab82153fbfa1e",
+      "trechos": {
+        "A015": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-01/stf-condenou-1399-pessoas-por-atos-golpistas-179-estao-presas",
+      "capturada_em": "2026-09-26T23:54:12+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 110296,
+      "sha256": "766708bc46d0441d6170b1f9d217263d453cc5fe6b4adf59e7ebe004ec844da4",
+      "trechos": {
+        "A007": "encontrado",
+        "A011": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/senado-aprova-indicacao-de-flavio-dino-para-ministro-do-stf",
+      "capturada_em": "2026-09-26T23:54:15+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 100376,
+      "sha256": "98fe6fe251ad22df72641a813443188fbf6b4882b09842e6fff4605518ae8096",
+      "trechos": {
+        "A016": "encontrado"
+      }
+    },
+    {
+      "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBBR",
+      "capturada_em": "2026-09-26T23:54:59+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 146957,
+      "sha256": "7184a3214819c16aecc084684ce164d32092418a04144ed164d2ceea90a88f6f",
+      "trechos": {
+        "A012": "encontrado"
+      }
+    },
+    {
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/vandalos-roubaram-armas-da-sala-do-gsi-no-palacio-do-planalto",
+      "capturada_em": "2026-09-26T23:59:28+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 97892,
+      "sha256": "4fa6bf1f7a0a678526c26c82fe0b29885312df99e5428de310d651e900923a12",
+      "trechos": {
+        "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://imirante.com/noticias/sao-luis/2022/04/18/ipolitica-flavio-dino-defende-campanha-judicializada-contra-bolsonaro-em-2022",
+      "capturada_em": "2026-09-26T23:55:29+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 109562,
+      "sha256": "2ec247c68cf855dcc1612ada433852983c604a7d8a2dbdce42b2f131c6ea3fa3",
+      "trechos": {
+        "A018": "encontrado"
+      }
+    },
+    {
+      "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/airportDisplay.jsp?airportId=MCO",
+      "capturada_em": "2026-09-26T23:54:48+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 80750,
+      "sha256": "29bf6dc327acbcc07d82bd56a175f55e3504b303c0ff013cd31aaedf94d7fd3d",
+      "trechos": {
+        "A012": "encontrado"
+      }
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-stf-determina-cumprimento-imediato-da-pena-dos-sete-reus-do-nucleo-1-da-tentativa-de-golpe/",
+      "capturada_em": "2026-09-26T23:54:06+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 70322,
+      "sha256": "4b4bbbe8836ae49a1091101e9687e59ecd6999b8791b7bbb469a710e8a1ce768",
+      "trechos": {
+        "A002": "encontrado"
+      }
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/em-dois-anos-stf-responsabilizou-898-pessoas-por-atos-antidemocraticos-de-8-de-janeiro/",
+      "capturada_em": "2026-09-26T23:54:07+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 66966,
+      "sha256": "1a02c6f38828580def014877b527bd30c74dabb4d110baa7ac7b7e618343719e",
+      "trechos": {
+        "A011": "encontrado"
+      }
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/presidente-do-stf-rejeita-impedimento-de-ministros-para-julgar-denuncia-contra-bolsonaro/",
+      "capturada_em": "2026-09-26T23:54:08+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 68134,
+      "sha256": "303b19012e088807273e60544654101144d3be2437b1ae6b48151d559a7cce12",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
+      "capturada_em": "2026-09-26T23:54:05+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 74797,
+      "sha256": "9e8e3e7e1edc16ea3943dd3c960513859d775177c7da7f8b04e01d9237fab04d",
+      "trechos": {
+        "A002": "encontrado",
+        "A003": "encontrado"
+      }
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+      "capturada_em": "2026-09-26T23:54:04+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 70234,
+      "sha256": "f21435b22f0701c0944ddac9ae267711950ed99155d81753ad510fc3d548b4ce",
+      "trechos": {
+        "A001": "encontrado",
+        "A003": "encontrado",
+        "A007": "encontrado",
+        "A008": "encontrado",
+        "A010": "encontrado",
+        "A013": "encontrado",
+        "A015": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+      "capturada_em": "2026-09-26T23:54:27+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 266797,
+      "sha256": "32439756eac22d3d560e86c75148750a1c07e061d6fafc34e28ce4ea46a0d79c",
+      "trechos": {
+        "A008": "encontrado",
+        "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.brasil247.com/brasil/bolsonaro-e-o-proprio-demonio-diz-flavio-dino/",
+      "capturada_em": "2026-09-26T23:55:22+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 231317,
+      "sha256": "b07233a5b71705cc32bd204cc699f281ce897ba823e69785abb0668b6f6e6ffe",
+      "trechos": {
+        "A018": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnbc.com/2023/01/09/as-brazil-reels-from-riots-bolsonaro-finds-home-in-florida-.html",
+      "capturada_em": "2026-09-26T23:55:03+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 748514,
+      "sha256": "f9213aa2ca62e2e266d0a63fb57ef7cbe79f14b8696db4fdc84a4b4d4722c1ed",
+      "trechos": {
+        "A012": "encontrado",
+        "A014": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/politica/criminosos-roubaram-armas-do-gsi-no-planalto-diz-ministro/",
+      "capturada_em": "2026-09-26T23:59:27+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 360283,
+      "sha256": "a755c20f8b2699bab190a57a7cb38319a06662c505c69d761dd673760fe8ddb5",
+      "trechos": {
+        "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/politica/operacao-da-pf-busca-elos-entre-financiadores-do-8-de-janeiro-e-politicos-informam-fontes/",
+      "capturada_em": "2026-09-26T23:54:18+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 382106,
+      "sha256": "a2570fbc53568f52d901aed840316bf65fb07b0a701c9320702f2f1672d70dbe",
+      "trechos": {
+        "A008": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+      "capturada_em": "2026-09-26T23:54:17+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 390982,
+      "sha256": "e871cc5e3d51fbb7f623ff48f6ae85b8c66c3886c5e1b5650e1ebf7d212298b9",
+      "trechos": {
+        "A002": "encontrado",
+        "A007": "encontrado",
+        "A010": "encontrado",
+        "A013": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/republica/de-advogado-de-lula-a-ministro-do-stf-confira-a-trajetoria-de-cristiano-zanin/",
+      "capturada_em": "2026-09-27T00:06:05+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 271408,
+      "sha256": "d632d98698a8d66ffd3dab46015efbb1e7c98c210ee6fbd4e9f1fba5a3d0207c",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
+      "capturada_em": "2026-09-26T23:54:28+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 476324,
+      "sha256": "02e02dd41585fb416423d3f500194a6ead2aa1fcc6104170d4e8176c906cc4d4",
+      "trechos": {
+        "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.npr.org/2023/01/09/1147812986/why-did-jair-bolsonaro-leave-brazil-for-florida",
+      "capturada_em": "2026-09-26T23:55:02+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 191537,
+      "sha256": "7d07a32dd35208b1fc622855a7c8bb754bd34328b5c1859a1235714b913e3e55",
+      "trechos": {
+        "A012": "encontrado",
+        "A014": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "capturada_em": "2026-09-26T23:55:01+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 683279,
+      "sha256": "e17b717cb31e557a52376c78bc469d4a00a623cde29c941f23f4bc8add5a9e3a",
+      "trechos": {
+        "A013": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/governo/aras-pede-que-stf-arquive-queixa-crime-de-flavio-dino-contra-bolsonaro/",
+      "capturada_em": "2026-09-27T00:06:06+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 244513,
+      "sha256": "48929d8e7e8bc9ee23b76e1efcb544c00df319c0f2f74a03499b16ab72cdb85f",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
+      "capturada_em": "2026-09-26T23:59:27+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 258349,
+      "sha256": "3b023831c259e49ac38dcd5dc7bb5efdcb09acbc25b924387fb7ce7d74b076be",
+      "trechos": {
+        "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/justica/flavio-dino-apresenta-ao-stf-queixa-crime-contra-bolsonaro-por-calunia/",
+      "capturada_em": "2026-09-27T00:06:05+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 246955,
+      "sha256": "0910623ffdc74c8952e7ef3181fc28ee8c62cee30ad5810137550c663347c99e",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/justica/stf-envia-a-camara-queixa-crime-de-flavio-dino-contra-bolsonaro/",
+      "capturada_em": "2026-09-26T23:55:14+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 245198,
+      "sha256": "d4ea46d9a5a89f0235e75705d4b54ce1f5d0f5b03472178959edc84afbb1ba91",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/poder-justica/dino-rejeita-impedimento-para-julgar-denuncia-contra-bolsonaro/",
+      "capturada_em": "2026-09-26T23:55:14+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 251018,
+      "sha256": "d84820b95898c0be5fe04c80208b3a914c66261bf3d31781e4540fe3cd52f0b0",
+      "trechos": {
+        "A015": "encontrado"
+      }
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2023/06/21/senado-aprova-zanin-para-o-stf-com-58-votos-a-favor-e-18-contrarios",
+      "capturada_em": "2026-09-26T23:55:13+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 63691,
+      "sha256": "33ff807b5366852aaabb8874c8a948cc9e63195fb25d5a8fa214f11899ce5fba",
+      "trechos": {
+        "A019": "encontrado"
+      }
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2023/12/13/com-47-votos-favoraveis-senado-aprova-dino-para-o-stf",
+      "capturada_em": "2026-09-26T23:55:05+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 61444,
+      "sha256": "5f26d929d3e8c85e94a31a0372241745e8c3a3fac96af3a6b04065ccb1ff9d74",
+      "trechos": {
+        "A016": "encontrado"
+      }
+    }
+  ]
+}

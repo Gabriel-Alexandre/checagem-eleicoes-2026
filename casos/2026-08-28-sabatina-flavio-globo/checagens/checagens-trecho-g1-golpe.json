@@ -1,0 +1,735 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "gerado_em": "2026-09-27",
+  "fonte_alegacoes": "alegacoes/alegacoes-trecho-g1-golpe.json",
+  "checagens": [
+    {
+      "id": "A001",
+      "veredito": "VERDADEIRO",
+      "resumo": "Os 13 atos são os do voto do relator, Moraes, seguido pela maioria da Primeira Turma; os primeiros são de 2021",
+      "explicacao": "O relator da ação penal do núcleo principal da trama (AP 2668), ministro Alexandre de Moraes, organizou o voto em 13 'atos executórios', do uso de órgãos públicos e das lives de 2021 até os atos de 8 de janeiro de 2023 e o 'gabinete de crise'. A Primeira Turma do STF seguiu o relator por 4 a 1 e condenou os réus. A trama, portanto, começa antes das eleições de 2022 (os primeiros atos são de 2021) e culmina no 8 de janeiro, como diz a pergunta. A única precisão que falta na frase é que a lista de 13 é a do voto do relator, acompanhado pela maioria, e não uma contagem feita pelo tribunal à parte.",
+      "numero_dito": "13 atos",
+      "numero_apurado": "13 atos executórios, no voto do relator acompanhado pela maioria (4 a 1)",
+      "data_de_referencia": "julgamento de 9 a 11 de setembro de 2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "O placar que definiu a condenação do Núcleo 1 foi de quatro a um. A ministra Cármen Lúcia e o ministro Cristiano Zanin, presidente da Turma, foram os dois últimos a votar. Eles acompanharam o relator, ministro Alexandre de Moraes, e o ministro Flávio Dino, que proferiram votos na última terça (9).",
+          "prova": "O resultado de 4 a 1, com a maioria acompanhando o relator: é por isso que a lista do relator é a do julgamento."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Moraes enumera 13 'atos executórios' para condenação de Bolsonaro",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-enumera-13-atos-executorios-para-condenacao-de-bolsonaro",
+          "consultada_em": "2026-09-26",
+          "trecho": "O ministro Alexandre de Moraes elencou nesta terça-feira (9), durante a leitura do seu voto, 13 atos executórios que comprovam a existência da organização criminosa golpista e sua ação coordenada e planejada para tentar reverter os resultados das eleições, mantendo o ex-presidente Jair Bolsonaro no poder. [...] 2) Atos executórios públicos ainda em 2021, como lives e entrevistas com graves ameaças à Justiça Eleitoral e divulgação massiva de desinformação sobre as urnas; [...] 12) Atos de 8 de Janeiro de 2023 na Esplanada dos Ministérios, em Brasília;",
+          "prova": "O número 13, que os atos começam em 2021 e que o 12º é o 8 de janeiro de 2023."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Moraes: não há dúvida sobre tentativa de golpe; Bolsonaro era líder",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-nao-ha-duvida-sobre-tentativa-de-golpe-bolsonaro-era-lider",
+          "consultada_em": "2026-09-26",
+          "trecho": "Moraes iniciou seu voto sobre o mérito do caso afirmando haver ao menos 13 atos executórios que comprovam a existência da organização criminosa golpista e sua ação coordenada e planejada, em “uma cronologia criminosa lógica no sentido da obtenção dos resultados pretendidos pela organização criminosa”.",
+          "prova": "Confirma, em texto independente do anterior, os 13 atos como estrutura do voto."
+        }
+      ]
+    },
+    {
+      "id": "A002",
+      "veredito": "VERDADEIRO",
+      "resumo": "O STF fixou 27 anos e 3 meses, com o agravante de liderar a organização; a condenação é definitiva desde nov/2025",
+      "explicacao": "A Primeira Turma do STF condenou Jair Bolsonaro, em 11 de setembro de 2025, a 27 anos e 3 meses de prisão em regime inicial fechado, a maior pena entre os réus da trama, pelos crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, organização criminosa armada, dano qualificado e deterioração de patrimônio tombado. O voto do relator o apontou como líder da organização, e a condenação teve o agravante de liderança. Em 25 de novembro de 2025 o relator declarou o trânsito em julgado, e a pena começou a ser cumprida: na data da entrevista, a condenação era definitiva, o que afasta a cautela de etica-e-risco §5 para processo sem decisão final.",
+      "numero_dito": "27 anos e 3 meses",
+      "numero_apurado": "27 anos e 3 meses de prisão, regime inicial fechado",
+      "data_de_referencia": "condenação em 11/09/2025; trânsito em julgado declarado em 25/11/2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": "Uma reportagem da Agência Brasil de janeiro de 2026 escreve '27 anos e seis meses'. As duas notícias do STF, inclusive a da decisão que declarou o trânsito em julgado, e as reportagens contemporâneas ao julgamento dizem 27 anos e três meses; vale a fonte primária.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF concluiu julgamento de ações contra réus que planejaram golpe de Estado",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "A pena mais alta foi imposta ao ex-presidente da República Jair Bolsonaro, 27 anos e três meses de prisão, e a menor, de 1 ano e 11 meses, ao tenente-coronel Ronald Ferreira de Araújo.",
+          "prova": "A pena, em fonte primária."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "AP 2668: STF determina cumprimento imediato da pena dos réus do Núcleo 1",
+          "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-stf-determina-cumprimento-imediato-da-pena-dos-sete-reus-do-nucleo-1-da-tentativa-de-golpe/",
+          "consultada_em": "2026-09-26",
+          "trecho": "declarou o trânsito em julgado das condenações (fim da possibilidade de recursos). [...] Sentenciado a 27 anos de prisão e três meses, em regime inicial fechado, o ex-presidente da República ficará custodiado na Superintendência Regional da Polícia Federal no Distrito Federal, onde já se encontra em prisão preventiva.",
+          "prova": "Que a condenação era definitiva na data da entrevista, e a pena, de novo, na decisão que a executou."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Bolsonaro foi condenado com o agravante de liderar a organização criminosa na tentativa de golpe de Estado.",
+          "prova": "A parte 'por liderar' da pergunta: a liderança pesou na condenação."
+        }
+      ]
+    },
+    {
+      "id": "A003",
+      "veredito": "VERDADEIRO",
+      "resumo": "Os cinco itens estão no julgamento, inclusive o plano para matar Lula, Alckmin e Moraes e a minuta do golpe",
+      "explicacao": "Os cinco itens da pergunta aparecem nos votos e nas decisões do STF sobre a trama. O uso de órgãos públicos contra adversários e os ataques à Justiça Eleitoral e às urnas são o 1º e o 2º dos 13 atos do voto do relator; a pressão sobre as Forças Armadas está na reunião ministerial com os comandantes (4º ato) e na apresentação da minuta a eles (11º); a minuta do golpe é o 11º ato; e o plano de assassinato do presidente e do vice eleitos, Lula e Alckmin, e do ministro Alexandre de Moraes (Operação Punhal Verde e Amarelo, 9º e 10º atos) consta da notícia do STF que encerra o julgamento dos núcleos da trama, e foi julgado especificamente na AP 2696.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "julgamentos de 2025",
+      "ressalva": "O plano de assassinato foi julgado com mais detalhe em outra ação da trama (AP 2696).",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Moraes enumera 13 'atos executórios' para condenação de Bolsonaro",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-enumera-13-atos-executorios-para-condenacao-de-bolsonaro",
+          "consultada_em": "2026-09-26",
+          "trecho": "1) Utilização de órgãos públicos para o monitoramento de adversários políticos e execução da estratégia de atentar contra o Poder Judiciário, especialmente a Justiça Eleitoral; [...] 4) Reunião ministerial de 5 de julho de 2022 em que o ex-presidente reafirma fraude no processo eleitoral e os possíveis cenários para uma tentativa de golpe, buscando a adesão dos ministros de Estado. O encontro incluiu o candidato a vice-presidente derrotado, Braga Netto, e os comandantes das Forças Armadas; [...] 9) Planejamento da Operação Punhal Verde e Amarelo e do Plano Copa 2022 [...] 11) A minuta do Golpe de Estado e a apresentação do documento aos representantes das Forças Armadas;",
+          "prova": "Quatro dos cinco itens na lista do voto do relator: órgãos públicos, Justiça Eleitoral, Forças Armadas e minuta."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF concluiu julgamento de ações contra réus que planejaram golpe de Estado",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "A AP 2693 concentrou os acusados de elaborar a chamada “minuta do golpe”, pelo plano para assassinar autoridades e por tentar impedir o voto de eleitores da Região Nordeste nas eleições de 2022. [...] Os réus na AP 2696 foram responsáveis pelo planejamento das ações mais violentas da organização criminosa, como o assassinato do presidente e vice-presidente eleitos, Luiz Inácio Lula da Silva e Geraldo Alckmin, e do ministro Alexandre de Moraes.",
+          "prova": "O plano de assassinato, com os três alvos citados na pergunta, e a minuta, em fonte primária."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Para isso, se utilizou de uma milícia digital que propagou ataques ao sistema eleitoral e às urnas eletrônicas. [...] Mencionou também a iminência de recorrer às Forças Armadas para impor sua vontade.",
+          "prova": "A campanha contra as urnas e o recurso às Forças Armadas, nos votos que formaram a maioria."
+        }
+      ]
+    },
+    {
+      "id": "A004",
+      "veredito": "NAO_CHECAVEL",
+      "resumo": "Pergunta do entrevistador com juízo de valor; os fatos em que ela se apoia estão checados em A001 a A003",
+      "explicacao": "A pergunta pede uma garantia sobre o futuro ('não vai voltar a atacar a democracia') e parte de um juízo ('atacar a democracia') sobre um grupo político. Nem a garantia pedida nem o juízo têm valor de verdade conferível contra um registro. Os fatos em que a pergunta se apoia (a condenação, a pena e as condutas julgadas) foram checados um a um nas alegações A001, A002 e A003, com a mesma régua aplicada às falas do entrevistado. ⛔ Não checável não quer dizer nem certo nem errado: quer dizer que a checagem não é o instrumento para avaliar esta frase.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": []
+    },
+    {
+      "id": "A005",
+      "veredito": "NAO_CHECAVEL",
+      "resumo": "Juízo sobre o processo ('farsa'); não há registro que confirme ou negue um juízo",
+      "explicacao": "Chamar o processo de 'farsa armada para tirar o presidente Bolsonaro da vida pública' é um juízo de valor sobre o processo e sobre o propósito dele, e propósito é intenção: não há registro contra o qual se confira. O que é conferível no processo (quem julgou, por quais crimes, com que placar, se a condenação é definitiva) está checado em A002, A007, A010 e A015. ⛔ Não checável não quer dizer nem certo nem errado: quer dizer que a checagem não é o instrumento para avaliar esta frase.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": []
+    },
+    {
+      "id": "A006",
+      "veredito": "NAO_CHECAVEL",
+      "resumo": "Juízo sobre os julgadores ('inimigos'); quem julgou e como foi indicado está checado em A015 a A019",
+      "explicacao": "'Julgado pelos seus inimigos' é uma qualificação da relação entre réu e julgadores, não um fato registrável. Os fatos que a sustentam na fala (quem compôs a turma, quem indicou cada ministro, a queixa-crime de Dino, a frase atribuída a ele e a advocacia de Zanin para Lula) foram separados e checados em A015 a A019. Os pedidos da defesa para afastar Moraes, Dino e Zanin foram julgados e negados pelo STF, e isso está registrado em A017. ⛔ Não checável não quer dizer nem certo nem errado: quer dizer que a checagem não é o instrumento para avaliar esta frase.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": []
+    },
+    {
+      "id": "A007",
+      "veredito": "VERDADEIRO",
+      "resumo": "Organização criminosa armada é um dos cinco crimes da condenação de Bolsonaro no STF",
+      "explicacao": "A Primeira Turma do STF condenou Jair Bolsonaro, em 11 de setembro de 2025, por cinco crimes, e um deles é a participação em organização criminosa armada. Segundo a cobertura do julgamento, a pena teve o agravante do emprego de armas, porque o plano incluía matar o presidente e o vice eleitos e o ministro Alexandre de Moraes. A fala está certa ao dizer que o crime foi imputado; a crítica que vem logo depois (A008 e A009) é checada separadamente.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "condenação em 11/09/2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Sete réus foram condenados pelos crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado.",
+          "prova": "O crime de organização criminosa armada na condenação, em fonte primária."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Houve agravante na condenação do ex-presidente por causa do emprego de armas, já que o plano de golpe incluía planos para matar Lula, Geraldo Alckmin (PSB) e Moraes.",
+          "prova": "Por que o STF tratou a organização como armada no caso do núcleo principal."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "STF condenou 1.399 pessoas por atos golpistas; 179 estão presas",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-01/stf-condenou-1399-pessoas-por-atos-golpistas-179-estao-presas",
+          "consultada_em": "2026-09-26",
+          "trecho": "As condenações ocorreram pelos crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado.",
+          "prova": "Confirma a lista de crimes em texto independente, de jan/2026."
+        }
+      ]
+    },
+    {
+      "id": "A008",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte mostra que os participantes não se conheciam; os registros mostram ônibus pagos e convocação em grupos",
+      "explicacao": "Não há fonte que sustente que as pessoas presentes em 8 de janeiro 'nem se conheciam, nunca se viram na vida'. Nenhum registro mede se os milhares de participantes se conheciam entre si, e por isso o veredito é insustentável, e não falso. O que os registros mostram vai no sentido oposto ao da fala: a Polícia Federal rastreou quem pagou os ônibus que levaram manifestantes a Brasília, e o Aos Fatos, com base em investigações e documentos oficiais, relata convocação em grupos de Telegram e WhatsApp e financiamento dos atos. Há ainda uma diferença de alvo: a organização criminosa armada pela qual Bolsonaro foi condenado (A007) é a do Núcleo 1 da trama, formado por ex-ministros, generais e auxiliares diretos dele, e não a multidão de 8 de janeiro; os executores dos atos foram condenados, em outras ações, por associação criminosa armada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "atos de 8 de janeiro de 2023",
+      "ressalva": "A organização da condenação de Bolsonaro é a do núcleo da trama, com ex-ministros e generais, não a multidão",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "As alegações mentirosas não encontram respaldo em investigações e documentos oficiais, que mostram que a tentativa de golpe articulada por bolsonaristas foi financiada e incitada dentro e fora das redes desde a vitória de Lula no segundo turno das eleições. [...] Mensagens em grupos de Telegram e WhatsApp convocavam grupos específicos e mais radicalizado de apoiadores de Bolsonaro",
+          "prova": "Financiamento e convocação organizada, com base em investigações e documentos oficiais."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Operação da PF busca elos entre financiadores do 8 de janeiro e políticos",
+          "url": "https://www.cnnbrasil.com.br/politica/operacao-da-pf-busca-elos-entre-financiadores-do-8-de-janeiro-e-politicos-informam-fontes/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Até o momento, PF seguiu a trilha do dinheiro, identificando quem pagou os ônibus que se deslocaram até Brasília; agora, tenta responder à pergunta se havia um movimento organizado por trás dessas pessoas",
+          "prova": "Ônibus pagos para levar manifestantes a Brasília, rastreados pela PF."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "A AP 2668 tem como réus os oito integrantes do Núcleo 1 da tentativa de golpe, ou “Núcleo Crucial”, segundo a Procuradoria-Geral da República (PGR): o deputado federal Alexandre Ramagem, ex-diretor da Agência Brasileira de Inteligência (Abin); o almirante Almir Garnier, ex-comandante da Marinha; Anderson Torres, ex-ministro da Justiça e ex-secretário de Segurança Pública do DF; o general Augusto Heleno, ex-chefe do Gabinete de Segurança Institucional (GSI);",
+          "prova": "Quem compõe a organização da condenação de Bolsonaro: o Núcleo 1, não a multidão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "STF já condenou mais de 600 denunciados pelo 8 de janeiro",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-ja-condenou-mais-de-600-denunciados-pelo-8-de-janeiro",
+          "consultada_em": "2026-09-26",
+          "trecho": "As condenações envolvem os executores do atos, que foram apenados pelos crimes de associação criminosa armada, dano qualificado, deterioração do patrimônio tombado, abolição violenta do Estado Democrático de Direito e tentativa de golpe de Estado.",
+          "prova": "Os executores foram condenados por associação criminosa armada, em ações próprias."
+        }
+      ]
+    },
+    {
+      "id": "A009",
+      "veredito": "FALSO",
+      "resumo": "Houve armas: facas, porretes e estilingues nos processos, e armas levadas do GSI, parte recuperada pela PM",
+      "explicacao": "A frase diz que não foi encontrada nenhuma arma em 8 de janeiro. Os registros contradizem isso por dois caminhos independentes. Primeiro, os processos descrevem o armamento usado pelos invasores como facas, porretes, barras de ferro, estilingues e bolas de gude, o que aparece tanto numa reportagem crítica ao STF (Gazeta do Povo) quanto numa checagem profissional (Aos Fatos), que cita ainda sinalizadores e estilingues com balas metálicas registrados pelas câmeras da Câmara. Segundo, invasores levaram armas e munição de uma sala do GSI no Palácio do Planalto, fato registrado no dia seguinte por Poder360 e CNN Brasil e, meses depois, pelas imagens de segurança; segundo o Aos Fatos, parte dessas armas foi recuperada depois pela PM do DF. O que a fala acerta, se 'arma' for lida só como arma de fogo em poder de manifestante: segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com eles. Isso vai na ressalva, e é também por isso que a confiança é média. ⚠️ Veredito pesado sobre a fala de um candidato: exige leitura humana antes de publicar.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "atos de 8 de janeiro de 2023",
+      "ressalva": "Segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com os manifestantes",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Sobre as armas levadas do GSI: no dia 8/1/2023, o então ministro da Secom, Paulo Pimenta, disse que foram levadas armas letais e não letais (CNN Brasil, com Agência Brasil); em abril de 2023, segundo o Diário do Poder, o Palácio do Planalto informou que as armas levadas não eram letais. As duas versões são oficiais e se contradizem; o veredito não depende de qual está certa, porque as duas confirmam que armas foram levadas.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Imagens do circuito interno da Câmara mostram que os manifestantes usaram sinalizadores, porretes, barras de ferro e estilingues com balas metálicas. [...] Também foram registradas pelas câmeras de segurança cenas de manifestantes invadindo salas do GSI (Gabinete de Segurança Institucional) e roubando caixas de armas e munições. Algumas das armas foram recuperadas posteriormente pela PM-DF.",
+          "prova": "Armas improvisadas registradas em imagens oficiais, e armas do GSI levadas e parte recuperada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Facas e bolas de gude: como o STF tenta sustentar que multidão do 8/1 estava armada",
+          "url": "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
+          "consultada_em": "2026-09-26",
+          "trecho": "na prática os processos descrevem o \"armamento\" como facas, porretes, barras de ferro, estilingues e bolas de gude. Também falam de pessoas que poderiam ter acesso a armas de fogo - embora nenhuma tenha sido apreendida pelas forças policiais.",
+          "prova": "Fonte crítica ao STF que confirma os objetos descritos nos processos, e a base da ressalva sobre arma de fogo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
+          "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Os extremistas, roubaram armas e munição de uma sala do GSI (Gabinete de Segurança Institucional).",
+          "prova": "Armas e munição levadas do GSI, registradas no dia seguinte."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil (texto da Agência Brasil)",
+          "titulo": "Criminosos roubaram armas do GSI no Planalto, diz ministro",
+          "url": "https://www.cnnbrasil.com.br/politica/criminosos-roubaram-armas-do-gsi-no-planalto-diz-ministro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "\"Armas letais e não-letais foram roubadas pelos criminosos dentro do Palácio do Planalto. Este é mais um crime a ser apurado\", disse o ministro.",
+          "prova": "A versão oficial do dia: armas letais e não letais."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Poder",
+          "titulo": "Vândalos roubaram armas da sala do GSI no Planalto (25/abr/2023)",
+          "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/vandalos-roubaram-armas-da-sala-do-gsi-no-palacio-do-planalto",
+          "consultada_em": "2026-09-26",
+          "trecho": "Caixas contendo armas teriam sido levadas pelos invasores. Os vândalos chegaram à sala do GSI por volta das 15h10, cerca de 1h e 20 min antes dos primeiros agentes da segurança presidencial aparecerem nas imagens. De acordo com o Palácio do Planalto, as armas levadas não eram letais.",
+          "prova": "A versão oficial posterior: armas não letais. Base da divergência registrada."
+        }
+      ]
+    },
+    {
+      "id": "A010",
+      "veredito": "VERDADEIRO",
+      "resumo": "Bolsonaro foi condenado por dano qualificado e deterioração de patrimônio tombado, ligados ao 8 de janeiro",
+      "explicacao": "A condenação de Jair Bolsonaro no STF inclui os crimes de dano qualificado e de deterioração de patrimônio tombado, que correspondem à depredação dos prédios dos Três Poderes em 8 de janeiro de 2023. O fundamento, segundo a cobertura do julgamento, é que o STF entendeu que ele incitou e facilitou os ataques, mesmo sem participação direta nos atos de vandalismo. Se isso pode ser feito à distância é a alegação A013.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "condenação em 11/09/2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Sete réus foram condenados pelos crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado.",
+          "prova": "Dano qualificado e deterioração de patrimônio tombado na condenação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "A condenação também relaciona Bolsonaro aos atos de 8 de janeiro de 2023, quando as sedes dos Três Poderes foram invadidas e depredadas por milhares de pessoas em Brasília. De acordo com o entendimento do STF, a organização foi incitada pelo ex-presidente, que fomentou e facilitou os ataques com objetivo de romper a ordem constitucional e impedir o funcionamento das instituições. O Supremo entendeu que, mesmo sem participação direta nos atos de vandalismo",
+          "prova": "A ligação desses crimes com o 8 de janeiro, e o fundamento."
+        }
+      ]
+    },
+    {
+      "id": "A011",
+      "veredito": "VERDADEIRO",
+      "resumo": "Centenas foram condenadas pelos atos, com dano qualificado: 373 com penas de 12 a 18 anos até jan/2026",
+      "explicacao": "O STF condenou centenas de pessoas pelos atos de 8 de janeiro por crimes que incluem dano qualificado e deterioração de patrimônio. No balanço de janeiro de 2025, os crimes dos condenados por atos graves eram cinco, entre eles dano qualificado e deterioração de patrimônio público. No balanço de janeiro de 2026, 254 condenados tinham penas de 12 a 14 anos e 119, de 16 a 18 anos, impostas pelos crimes de maior gravidade: somados, 373. 'Centenas' confere.",
+      "numero_dito": "centenas de outras pessoas",
+      "numero_apurado": "373 condenados com penas de 12 a 18 anos (254 mais 119)",
+      "data_de_referencia": "balanços do STF de janeiro de 2025 e de 8 de janeiro de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "373",
+          "de": "254 mais 119",
+          "como": "soma dos condenados com penas de 12 a 14 anos e de 16 a 18 anos no balanço de jan/2026"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "Em dois anos, STF responsabilizou 898 pessoas por atos antidemocráticos de 8 de janeiro",
+          "url": "https://noticias.stf.jus.br/postsnoticias/em-dois-anos-stf-responsabilizou-898-pessoas-por-atos-antidemocraticos-de-8-de-janeiro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "teve suas ações classificadas como graves. As penas para esses réus variam de três anos a 17 anos e seis meses de prisão. Os crimes pelos quais foram condenados são cinco: tentativa de abolição do Estado Democrático de Direito, golpe de Estado, dano qualificado, associação criminosa e deterioração de patrimônio público.",
+          "prova": "Dano qualificado entre os crimes dos condenados por atos graves, em fonte primária."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "STF condenou 1.399 pessoas por atos golpistas; 179 estão presas",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-01/stf-condenou-1399-pessoas-por-atos-golpistas-179-estao-presas",
+          "consultada_em": "2026-09-26",
+          "trecho": "Dos condenados, 254 (18,1%) tiveram penas fixadas entre 12 e 14 anos de prisão, e 119 (8,5%) entre 16 e 18 anos. Essas penas foram impostas para os que cometeram crimes de maior gravidade.",
+          "prova": "As duas parcelas da soma."
+        }
+      ]
+    },
+    {
+      "id": "A012",
+      "veredito": "IMPRECISO",
+      "resumo": "Orlando fica a cerca de 6,1 mil km de Brasília em linha reta, e não a mais de 10 mil",
+      "explicacao": "Em 8 de janeiro de 2023, Jair Bolsonaro estava em Orlando, na Flórida (NPR e CNBC). A distância em linha reta entre os pontos de referência oficiais dos aeroportos de Orlando (FAA, governo dos EUA) e de Brasília (DECEA, Força Aérea) é de cerca de 6,1 mil km. A essência da fala (ele estava longe, em outro país) está certa; o número está materialmente errado: 10 mil km é cerca de 64% acima da distância real, bem acima da régua de 10% da metodologia. A conta está em `derivacoes`; a casa em que ele estava fica perto da Disney, a poucos quilômetros do aeroporto, o que não muda a ordem de grandeza.",
+      "numero_dito": "mais de 10 mil quilômetros",
+      "numero_apurado": "cerca de 6,1 mil km em linha reta",
+      "data_de_referencia": "8 de janeiro de 2023 (onde ele estava); coordenadas oficiais consultadas em set/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "6,1 mil km",
+          "de": "28-25-45.817 N / 81-18-32.373 W e 15 52 16S/047 55 07W",
+          "como": "distância de grande círculo (haversine, raio médio da Terra de 6.371,0088 km) entre o ponto de referência do aeroporto de Orlando (FAA) e o do aeroporto de Brasília (DECEA): 6.096 km, arredondado para 6,1 mil km"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "NPR",
+          "titulo": "Jair Bolsonaro left Brazil for Florida. This could be why (9/jan/2023)",
+          "url": "https://www.npr.org/2023/01/09/1147812986/why-did-jair-bolsonaro-leave-brazil-for-florida",
+          "consultada_em": "2026-09-26",
+          "trecho": "Brazil's far-right ex-president was lying low in Orlando, Fla., as a mob of his supporters stormed government buildings this weekend.",
+          "prova": "Onde ele estava no dia dos atos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNBC",
+          "titulo": "As Brazil reels from riots, Bolsonaro finds home near Florida (9/jan/2023)",
+          "url": "https://www.cnbc.com/2023/01/09/as-brazil-reels-from-riots-bolsonaro-finds-home-in-florida-.html",
+          "consultada_em": "2026-09-26",
+          "trecho": "Former Brazil leader Jair Bolsonaro has decamped to Encore Resort at Reunion near Walt Disney World in Orlando, Florida.",
+          "prova": "Confirma o local em apuração independente."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Federal Aviation Administration (FAA)",
+          "titulo": "Airport Data: MCO, Orlando International",
+          "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/airportDisplay.jsp?airportId=MCO",
+          "consultada_em": "2026-09-26",
+          "trecho": "Latitude/Longitude 28-25-45.817 N / 81-18-32.373 W Elevation 96.3 FT Variation 6 W 2015 From city 6 miles SE of ORLANDO, FL",
+          "prova": "Coordenada oficial de Orlando, primeira parcela da conta."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "DECEA (Comando da Aeronáutica)",
+          "titulo": "AISWEB, ROTAER: Brasília, Presidente Juscelino Kubitschek (SBBR)",
+          "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBBR",
+          "consultada_em": "2026-09-26",
+          "trecho": "Presidente Juscelino Kubitschek ( SBBR ) / BRASÍLIA , DF 15 52 16S/047 55 07W",
+          "prova": "Coordenada oficial de Brasília, segunda parcela da conta."
+        }
+      ]
+    },
+    {
+      "id": "A013",
+      "veredito": "FALSO",
+      "resumo": "A lei pune quem concorre para o crime 'de qualquer modo' (Código Penal, art. 29); o STF aplicou isso ao dano",
+      "explicacao": "A fala afirma uma regra jurídica: que para responder por dano ao patrimônio público a pessoa precisa estar fisicamente no local. O Código Penal não diz isso. O artigo 163 define o dano, e o parágrafo único o qualifica quando é contra o patrimônio da União; o artigo 29, que vale para os crimes em geral, diz que quem, de qualquer modo, concorre para o crime incide nas penas a ele cominadas. E a regra foi aplicada ao próprio caso: o STF condenou Bolsonaro por dano qualificado estando ele em Orlando (A012), por entender que ele incitou e facilitou os ataques mesmo sem participação direta nos atos de vandalismo. A condenação não foi unânime: o ministro Luiz Fux divergiu, e isso vai na ressalva. A confiança é média porque a aplicação de uma norma a um caso é interpretação, ainda que aqui seja a interpretação de uma decisão definitiva do tribunal.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Código Penal vigente; condenação em 11/09/2025",
+      "ressalva": "O placar foi de 4 a 1: o ministro Luiz Fux divergiu e votou pela absolvição da maior parte dos réus",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940), texto compilado",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "consultada_em": "2026-09-26",
+          "trecho": "Art. 29 - Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. [...] Art. 163 - Destruir, inutilizar ou deteriorar coisa alheia: Pena - detenção, de um a seis meses, ou multa. Dano qualificado Parágrafo único - Se o crime é cometido: I - com violência à pessoa ou grave ameaça; II - com emprego de substância inflamável ou explosiva, se o fato não constitui crime mais grave III - contra o patrimônio da União, de Estado, do Distrito Federal,",
+          "prova": "A norma: não há exigência de presença física, e quem concorre de qualquer modo responde."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Sete réus foram condenados pelos crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado. [...] O placar que definiu a condenação do Núcleo 1 foi de quatro a um. A ministra Cármen Lúcia e o ministro Cristiano Zanin, presidente da Turma, foram os dois últimos a votar. Eles acompanharam o relator, ministro Alexandre de Moraes, e o ministro Flávio Dino, que proferiram votos na última terça (9). A única divergência foi do ministro Luiz Fux, que votou na quarta (10) pela condenação de dois réus em apenas um dos crimes pelos quais respondiam e pela absolvição dos demais.",
+          "prova": "A condenação por dano qualificado, o placar e a divergência de Fux."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "O Supremo entendeu que, mesmo sem participação direta nos atos de vandalismo, ele estimulou acampamentos em frente a quartéis, manteve interlocução com manifestantes e não atuou para desmobilizar os grupos. Segundo a condenação, as omissões e incentivos contribuíram para a radicalização que culminou nos ataques de 8 de janeiro.",
+          "prova": "A aplicação ao caso: condenação sem presença nos atos."
+        }
+      ]
+    },
+    {
+      "id": "A014",
+      "veredito": "VERDADEIRO",
+      "resumo": "Bolsonaro estava em Orlando, na Flórida, no dia dos atos de 8 de janeiro de 2023",
+      "explicacao": "Duas reportagens independentes, publicadas no dia seguinte aos atos, registram que Jair Bolsonaro estava em Orlando, na Flórida, perto da Disney, quando os prédios dos Três Poderes foram invadidos. A fala está certa quanto ao lugar; o que ela quer concluir disso (que ele não poderia ter concorrido para o dano) é a alegação A013.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "8 de janeiro de 2023",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "NPR",
+          "titulo": "Jair Bolsonaro left Brazil for Florida. This could be why (9/jan/2023)",
+          "url": "https://www.npr.org/2023/01/09/1147812986/why-did-jair-bolsonaro-leave-brazil-for-florida",
+          "consultada_em": "2026-09-26",
+          "trecho": "Brazil's far-right ex-president was lying low in Orlando, Fla., as a mob of his supporters stormed government buildings this weekend.",
+          "prova": "Ele estava em Orlando durante a invasão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNBC",
+          "titulo": "As Brazil reels from riots, Bolsonaro finds home near Florida (9/jan/2023)",
+          "url": "https://www.cnbc.com/2023/01/09/as-brazil-reels-from-riots-bolsonaro-finds-home-in-florida-.html",
+          "consultada_em": "2026-09-26",
+          "trecho": "Former Brazil leader Jair Bolsonaro has decamped to Encore Resort at Reunion near Walt Disney World in Orlando, Florida.",
+          "prova": "Confirma, em apuração independente, o local perto da Disney."
+        }
+      ]
+    },
+    {
+      "id": "A015",
+      "veredito": "VERDADEIRO",
+      "resumo": "Moraes, Dino e Zanin votaram no julgamento; a turma tinha também Cármen Lúcia e Luiz Fux",
+      "explicacao": "A Primeira Turma do STF, que julgou Bolsonaro, era formada por Alexandre de Moraes (relator), Flávio Dino, Cristiano Zanin (presidente da turma), Cármen Lúcia e Luiz Fux. Os três citados votaram, e votaram pela condenação. A fala omite os outros dois: Cármen Lúcia também condenou, e Fux divergiu. A qualificação de Moraes como 'inimigo declarado' é juízo, e não é checada aqui (ver A006).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "julgamento de 9 a 11 de setembro de 2025",
+      "ressalva": "A turma tinha cinco ministros: Cármen Lúcia também votou pela condenação, e Luiz Fux divergiu",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-09-26",
+          "trecho": "O placar que definiu a condenação do Núcleo 1 foi de quatro a um. A ministra Cármen Lúcia e o ministro Cristiano Zanin, presidente da Turma, foram os dois últimos a votar. Eles acompanharam o relator, ministro Alexandre de Moraes, e o ministro Flávio Dino, que proferiram votos na última terça (9). A única divergência foi do ministro Luiz Fux, que votou na quarta (10) pela condenação de dois réus em apenas um dos crimes pelos quais respondiam e pela absolvição dos demais.",
+          "prova": "Quem votou e como."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Dino rejeita impedimento para julgar denúncia contra Bolsonaro",
+          "url": "https://www.poder360.com.br/poder-justica/dino-rejeita-impedimento-para-julgar-denuncia-contra-bolsonaro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "O colegiado é composto pelo relator do caso, Alexandre de Moraes, além de Dino, Zanin, Cármen Lúcia e Luiz Fux.",
+          "prova": "A composição da turma, em texto independente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Moraes vota para condenar Bolsonaro e mais sete por golpe de Estado",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-vota-para-condenar-bolsonaro-e-mais-sete-por-golpe-de-estado",
+          "consultada_em": "2026-09-26",
+          "trecho": "Depois de Moraes, deve votar o ministro Flávio Dino, ainda na tarde desta terça. Também foram reservadas sessões nos dias 10, 11 e 12 de setembro para finalização do julgamento. Até a próxima sexta-feira (12), devem votar ainda, nessa ordem, os ministros Luiz Fux, Cármen Lúcia e Cristiano Zanin, presidente da Primeira Turma e responsável por conduzir os trabalhos",
+          "prova": "A ordem de votação, com os cinco ministros."
+        }
+      ]
+    },
+    {
+      "id": "A016",
+      "veredito": "VERDADEIRO",
+      "resumo": "Dino foi indicado ao STF pelo presidente Lula e aprovado pelo Senado em dezembro de 2023",
+      "explicacao": "Flávio Dino, então ministro da Justiça, foi indicado pelo presidente Luiz Inácio Lula da Silva para a vaga de Rosa Weber no STF e aprovado pelo plenário do Senado em 13 de dezembro de 2023, por 47 votos a 31.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "aprovação no Senado em 13/12/2023",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Com 47 votos favoráveis, Senado aprova Dino para o STF",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/12/13/com-47-votos-favoraveis-senado-aprova-dino-para-o-stf",
+          "consultada_em": "2026-09-26",
+          "trecho": "O Plenário do Senado aprovou nesta quarta-feira (13) a indicação do senador licenciado e atual ministro da Justiça Flávio Dino para o cargo de ministro do Supremo Tribunal Federal (STF). A votação secreta terminou com 47 votos a favor e 31 contrários, além de 2 abstenções. [...] Na votação no Plenário, o relator elogiou a indicação feita pelo presidente Luiz Inácio Lula da Silva e destacou a carreira do indicado.",
+          "prova": "A indicação por Lula e a aprovação, na fonte do próprio Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Senado aprova indicação de Flávio Dino para ministro do STF",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/senado-aprova-indicacao-de-flavio-dino-para-ministro-do-stf",
+          "consultada_em": "2026-09-26",
+          "trecho": "Dino foi indicado pelo presidente Luiz Inácio Lula da Silva para a vaga aberta com a aposentadoria da ex-ministra Rosa Weber.",
+          "prova": "Confirma em texto independente."
+        }
+      ]
+    },
+    {
+      "id": "A017",
+      "veredito": "VERDADEIRO",
+      "resumo": "Dino apresentou ao STF, em 2021, uma queixa-crime por calúnia contra Bolsonaro",
+      "explicacao": "Em 26 de janeiro de 2021, quando era governador do Maranhão, Flávio Dino apresentou ao STF uma queixa-crime por calúnia contra o então presidente Jair Bolsonaro. O relator à época enviou o caso à Câmara, porque processar o presidente exigia autorização dela, e o procurador-geral pediu o arquivamento. Em fevereiro de 2025, ao negar o pedido da defesa para afastar Dino do julgamento, o presidente do STF registrou 'o fato de Dino ter apresentado ação penal privada contra Bolsonaro', e decidiu que isso não é causa de impedimento pela lei processual. A fala confere no essencial. O que as fontes não mostram é o andamento atual da queixa, e a fala usa o presente ('tem'): isso vai na ressalva, e a confiança é média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "queixa-crime de 26/01/2021; decisão do STF sobre impedimento em 28/02/2025",
+      "ressalva": "A queixa-crime é de jan/2021, quando Dino era governador; as fontes não mostram o andamento atual dela",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Reportagens de 2025 (Agência Brasil e Poder360) relatam que a defesa de Bolsonaro disse que a queixa-crime foi apresentada quando Dino era ministro da Justiça, no início do governo Lula. As reportagens de 2021 do Poder360 mostram uma queixa-crime apresentada em janeiro de 2021, quando ele era governador. Pode haver mais de uma ação; a checagem afirma só a que tem data e fonte.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "Presidente do STF rejeita impedimento de ministros para julgar denúncia contra Bolsonaro",
+          "url": "https://noticias.stf.jus.br/postsnoticias/presidente-do-stf-rejeita-impedimento-de-ministros-para-julgar-denuncia-contra-bolsonaro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "Segundo Barroso, o fato de Dino ter apresentado ação penal privada contra Bolsonaro não é fator de impedimento, conforme a regra do CPP.",
+          "prova": "A ação penal privada de Dino contra Bolsonaro, reconhecida pelo próprio STF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio Dino apresenta ao STF queixa-crime contra Bolsonaro por calúnia (26/jan/2021)",
+          "url": "https://www.poder360.com.br/justica/flavio-dino-apresenta-ao-stf-queixa-crime-contra-bolsonaro-por-calunia/",
+          "consultada_em": "2026-09-27",
+          "trecho": "O governador do Maranhão, Flávio Dino (PC do B), apresentou nesta 3ª feira (26.jan.2021) ao STF (Supremo Tribunal Federal) uma queixa-crime contra o presidente Jair Bolsonaro por calúnia.",
+          "prova": "A data e o crime alegado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "STF envia à Câmara queixa-crime de Flávio Dino contra Bolsonaro (5/mar/2021)",
+          "url": "https://www.poder360.com.br/justica/stf-envia-a-camara-queixa-crime-de-flavio-dino-contra-bolsonaro/",
+          "consultada_em": "2026-09-26",
+          "trecho": "encaminhou à Câmara dos Deputados uma queixa-crime apresentada pelo governador do Maranhão, Flávio Dino (PC do B) , contra o presidente Jair Bolsonaro.",
+          "prova": "O andamento em 2021: envio à Câmara."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Aras pede que STF arquive queixa-crime de Flávio Dino contra Bolsonaro (12/abr/2021)",
+          "url": "https://www.poder360.com.br/governo/aras-pede-que-stf-arquive-queixa-crime-de-flavio-dino-contra-bolsonaro/",
+          "consultada_em": "2026-09-27",
+          "trecho": "O procurador-geral da República, Augusto Aras, pediu ao ministro Marco Aurélio Mello, do STF ( Supremo Tribunal Federal ) , o arquivamento de uma queixa-crime do governador do Maranhão, Flávio Dino (PC do B), contra o presidente da República Jair Bolsonaro (sem partido) por calúnia.",
+          "prova": "O pedido de arquivamento, parte do andamento que a ressalva menciona."
+        }
+      ]
+    },
+    {
+      "id": "A018",
+      "veredito": "VERDADEIRO",
+      "resumo": "Dino disse em 2022 que Bolsonaro é 'o próprio demônio'; a expressão 'demônio na terra' não aparece",
+      "explicacao": "Em entrevista ao UOL News em 8 de abril de 2022, Flávio Dino, então ex-governador e pré-candidato ao Senado, disse sobre Jair Bolsonaro: 'para mim ele é o próprio demônio'. Dez dias depois, em entrevista ao Valor, disse que 'o demônio volte para o inferno', falando do bolsonarismo. A atribuição confere no essencial. As palavras exatas não são as da fala ('demônio na terra'), e isso vai na ressalva: é o caso de 'certo no fato, errado no ornamento', que a metodologia manda marcar como verdadeiro com ressalva. A confiança é média porque o registro da primeira frase vem de um veículo que reproduz a entrevista, e não da gravação dela.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "entrevistas de 8 e de 18 de abril de 2022",
+      "ressalva": "As palavras registradas são 'ele é o próprio demônio' (UOL News, abril de 2022), não 'demônio na terra'",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil 247",
+          "titulo": "'Bolsonaro é o próprio demônio', diz Flávio Dino (8/abr/2022)",
+          "url": "https://www.brasil247.com/brasil/bolsonaro-e-o-proprio-demonio-diz-flavio-dino/",
+          "consultada_em": "2026-09-26",
+          "trecho": "que não é apenas um seguidor do demônio, para mim ele é o próprio demônio”, disse Dino durante entrevista ao UOL News nesta sexta-feira (8).",
+          "prova": "A frase de Dino sobre Bolsonaro, com data e veículo da entrevista."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Imirante (com entrevista ao Valor)",
+          "titulo": "Flávio Dino defende campanha judicializada contra Bolsonaro em 2022 (18/abr/2022)",
+          "url": "https://imirante.com/noticias/sao-luis/2022/04/18/ipolitica-flavio-dino-defende-campanha-judicializada-contra-bolsonaro-em-2022",
+          "consultada_em": "2026-09-26",
+          "trecho": "Eu espero que eles tenham êxito, porque Bolsonaro perderá, mas nós precisamos que também o bolsonarismo volte para a sua casinha. [Precisamos] que o demônio volte para o inferno”, opinou.",
+          "prova": "Outra fala de Dino, em outra entrevista e outro veículo, com a mesma imagem."
+        }
+      ]
+    },
+    {
+      "id": "A019",
+      "veredito": "VERDADEIRO",
+      "resumo": "Zanin foi indicado por Lula em 2023 e foi advogado dele na Lava Jato e na campanha de 2022",
+      "explicacao": "Cristiano Zanin foi indicado ao STF pelo presidente Lula e aprovado pelo Senado em 21 de junho de 2023, por 58 votos a 18. Antes disso, foi advogado de Lula nos processos da Operação Lava Jato, atuou na campanha eleitoral de 2022 e fez parte do gabinete de transição. A fala confere. 'Até ontem' é figura de linguagem: a advocacia para Lula terminou com a indicação, em 2023, e o julgamento foi em 2025; isso vai na ressalva.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "indicação em 01/06/2023; aprovação no Senado em 21/06/2023; julgamento de Bolsonaro em setembro de 2025",
+      "ressalva": "A advocacia para Lula terminou com a indicação, em 2023; o julgamento de Bolsonaro foi em 2025",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Senado aprova Zanin para o STF com 58 votos a favor e 18 contrários",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/06/21/senado-aprova-zanin-para-o-stf-com-58-votos-a-favor-e-18-contrarios",
+          "consultada_em": "2026-09-26",
+          "trecho": "Na votação no Plenário, muitos senadores elogiaram a indicação feita pelo presidente Luiz Inácio Lula da Silva e destacaram a carreira do indicado [...] Em alguns desses casos, Zanin é defensor do presidente Lula.",
+          "prova": "A indicação por Lula e a advocacia para ele, nos documentos entregues ao Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Saiba quem é Cristiano Zanin, ex-advogado de Lula indicado ao STF (01/06/2023)",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2023-06/saiba-quem-e-cristiano-zanin-ex-advogado-de-lula-indicado-ao-stf",
+          "consultada_em": "2026-09-27",
+          "trecho": "Indicado pelo presidente Luiz Inácio Lula da Silva a uma cadeira no Supremo Tribunal Federal (STF), o advogado Cristiano Zanin Martins, de 47 anos, formado em direito [...] Foi advogado do presidente Lula nos processos da Operação Lava-Jato.",
+          "prova": "Os dois fatos, em texto independente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "De advogado de Lula a ministro do STF: confira a trajetória de Cristiano Zanin (11/09/2025)",
+          "url": "https://www.gazetadopovo.com.br/republica/de-advogado-de-lula-a-ministro-do-stf-confira-a-trajetoria-de-cristiano-zanin/",
+          "consultada_em": "2026-09-27",
+          "trecho": "Além da defesa pessoal, Zanin atuou na campanha eleitoral de Lula em 2022 e fez parte do gabinete de transição depois da vitória.",
+          "prova": "A atuação para Lula até a transição de governo, em fonte de outra linha editorial."
+        }
+      ]
+    }
+  ]
+}
