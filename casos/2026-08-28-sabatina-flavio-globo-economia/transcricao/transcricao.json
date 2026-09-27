@@ -9,7 +9,7 @@
   "idioma": "pt",
   "parametros": "-t 4 -bs 5 -bo 5 -ml 0",
   "gerado_em": "2026-09-27",
-  "revisao_humana": false,
+  "revisao_humana": true,
   "duracao_s": 338.02,
   "segmentos": [
     {
@@ -17,658 +17,753 @@
       "inicio_s": 0.0,
       "fim_s": 4.88,
       "texto": "Candidato, vamos falar aqui de economia, dívida pública.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 1,
       "inicio_s": 4.88,
       "fim_s": 10.0,
       "texto": "O programa de governo do senhor promete estabilizar e reduzir a dívida pública do Brasil,",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 2,
       "inicio_s": 10.0,
       "fim_s": 14.64,
       "texto": "que está em trajetória de alta, mas não traz números, também não traz prazos.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 3,
       "inicio_s": 14.64,
       "fim_s": 19.02,
       "texto": "O plano diz que isso ocorreria no menor prazo possível.",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 4,
       "inicio_s": 19.02,
       "fim_s": 27.3,
       "texto": "De quanto seria exatamente o seu ajuste fiscal em reais ou em pontos do PIB?",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 5,
       "inicio_s": 27.3,
       "fim_s": 29.48,
       "texto": "E de onde é que sairia esse dinheiro?",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 6,
       "inicio_s": 30.14,
       "fim_s": 34.96,
-      "texto": "Otrali, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
-      "falante": null
+      "texto": "Tralli, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 7,
       "inicio_s": 34.96,
       "fim_s": 37.76,
       "texto": "está fadado aí a falência de todo mundo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 8,
       "inicio_s": 37.76,
       "fim_s": 39.6,
       "texto": "Está uma quebradeira generalizada.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 9,
       "inicio_s": 39.6,
       "fim_s": 46.32,
       "texto": "Você que está me acompanhando provavelmente está endividado ou conhece alguém que está endividado,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 10,
       "inicio_s": 46.32,
       "fim_s": 49.04,
       "texto": "mas a culpa não é sua, a culpa é desse atual governo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 11,
       "inicio_s": 49.04,
       "fim_s": 53.7,
       "texto": "Quando é um governo que gasta demais, aumenta os impostos de forma alucinada,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 12,
       "inicio_s": 53.7,
       "fim_s": 57.54,
       "texto": "mais de 30 impostos criados ou aumentados só nesse atual governo,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 13,
       "inicio_s": 57.66,
       "fim_s": 61.86,
       "texto": "para arrecadar mais e continua gastando mais ainda a taxa de juros oficial,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 14,
       "inicio_s": 61.86,
       "fim_s": 63.42,
       "texto": "que é a Selic, vai lá para a lua.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 15,
       "inicio_s": 64.22,
       "fim_s": 66.5,
-      "texto": "14% é a maior juro real do mundo.",
-      "falante": null
+      "texto": "14% é o maior juro real do mundo.",
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 16,
       "inicio_s": 66.5,
       "fim_s": 69.34,
-      "texto": "E sabe, Tralho, quanto é que era a previsão?",
-      "falante": null
+      "texto": "E sabe, Tralli, quanto é que era a previsão?",
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 17,
       "inicio_s": 69.34,
       "fim_s": 74.72,
       "texto": "Lá em outubro de 2022, a previsão do mercado era que, neste momento,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 18,
       "inicio_s": 74.72,
       "fim_s": 77.54,
       "texto": "a taxa de juros no Brasil, se fosse o governo do presidente Bolsonaro,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 19,
       "inicio_s": 77.54,
       "fim_s": 79.46,
       "texto": "ia estar em torno de 7%, metade.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 20,
       "inicio_s": 79.46,
       "fim_s": 83.02,
       "texto": "Se nós estamos falando de uns juros, de pagamento de juros na hora,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 21,
       "inicio_s": 83.02,
       "fim_s": 84.6,
       "texto": "é de um trilhão de reais ao ano.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 22,
       "inicio_s": 85.6,
       "fim_s": 87.38,
-      "texto": "E a taxa de juros era para estar metade, Tralho.",
-      "falante": null
+      "texto": "E a taxa de juros era para estar metade, Tralli.",
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 23,
       "inicio_s": 87.38,
       "fim_s": 89.42,
       "texto": "A gente está falando de 500 bilhões de reais.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 24,
       "inicio_s": 89.42,
       "fim_s": 93.46,
       "texto": "Para que patamar da dívida pública brasileira o senhor se compromete a trazer?",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 25,
       "inicio_s": 93.46,
       "fim_s": 93.96,
       "texto": "Vou chegar lá.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 26,
       "inicio_s": 93.96,
       "fim_s": 98.96,
       "texto": "Meio trilhão de reais por ano que você, pagador de impostos,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 27,
       "inicio_s": 98.96,
       "fim_s": 101.3,
       "texto": "está sustentando esse governo, a gastança desse governo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 28,
       "inicio_s": 101.3,
       "fim_s": 104.94,
       "texto": "Ou seja, só aqui tem dois trilhões de reais que, se fosse um governo que",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 29,
       "inicio_s": 104.94,
       "fim_s": 110.02,
       "texto": "cortasse na carne, um governo que economizasse, cortasse despesas,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 30,
       "inicio_s": 110.02,
       "fim_s": 112.84,
       "texto": "certamente a sua dívida não estaria nesse nível.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 31,
       "inicio_s": 112.84,
       "fim_s": 117.98,
       "texto": "Porque quanto sobe a taxa de juros, a taxa de juros do seu financiamento,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 32,
       "inicio_s": 117.98,
       "fim_s": 124.32,
       "texto": "do seu endividamento, cresce junto à parcela da sua dívida, aumenta também.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 33,
       "inicio_s": 124.32,
       "fim_s": 127.58,
       "texto": "Então, se você deve 200 reais, você podia estar levando 180,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 34,
       "inicio_s": 127.58,
       "fim_s": 132.16,
       "texto": "podia estar levando 150, 140, se tivesse um governo como vai ser.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 35,
       "inicio_s": 132.44,
       "fim_s": 135.86,
       "texto": "A sua oportunidade de mostrar a sua proposta do que o senhor vai fazer.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 36,
       "inicio_s": 135.86,
       "fim_s": 136.76,
       "texto": "Sim, eu estou explicando aqui.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 37,
       "inicio_s": 136.76,
       "fim_s": 138.5,
       "texto": "Por exemplo, até o que o senhor vai fazer.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 38,
       "inicio_s": 138.5,
       "fim_s": 141.0,
       "texto": "Sobre o salário mínimo, por exemplo, que é muito importante.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 39,
       "inicio_s": 141.0,
       "fim_s": 146.78,
       "texto": "Há uma divergência de propostas entre as propostas feitas pelos seus colaboradores",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 40,
       "inicio_s": 146.78,
       "fim_s": 148.22,
       "texto": "e o que está no seu programa de governo.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 41,
       "inicio_s": 148.22,
       "fim_s": 153.76,
       "texto": "O coordenador da sua campanha critica a política atual de reajuste do salário mínimo",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 42,
       "inicio_s": 153.76,
       "fim_s": 155.76,
       "texto": "e das aposentadorias e benefícios.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 43,
       "inicio_s": 155.76,
       "fim_s": 157.46,
       "texto": "O seu plano não trata desse assunto.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 44,
       "inicio_s": 157.46,
       "fim_s": 159.92,
       "texto": "Eu preciso saber qual é a sua decisão.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 45,
       "inicio_s": 160.02,
       "fim_s": 163.9,
       "texto": "O salário mínimo teria um aumento real ou não se o senhor foi eleito?",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 46,
       "inicio_s": 163.9,
       "fim_s": 168.44,
       "texto": "Renata, eu não vou fazer economia do povo mais sofrido brasileiro.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 47,
       "inicio_s": 168.44,
       "fim_s": 172.04,
       "texto": "Quem recebe salário mínimo hoje está perdendo o seu poder de compra",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 48,
       "inicio_s": 172.04,
       "fim_s": 173.68,
       "texto": "por causa da gastança do governo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 49,
       "inicio_s": 173.68,
       "fim_s": 175.9,
       "texto": "Não vou fazer economia em cima de você.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 50,
       "inicio_s": 175.9,
       "fim_s": 177.08,
       "texto": "Eu vou fazer um governo enxuta.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 51,
       "inicio_s": 177.08,
       "fim_s": 178.68,
       "texto": "Eu vou reduzir a quantidade de ministérios.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 52,
       "inicio_s": 178.68,
       "fim_s": 180.38,
       "texto": "Eu vou cortar a burocracia.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 53,
       "inicio_s": 180.38,
       "fim_s": 183.02,
       "texto": "Eu vou fazer tesouraço nos impostos.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 54,
       "inicio_s": 183.02,
       "fim_s": 188.4,
       "texto": "Vou cortar mais de mil atos normativos já no início do meu governo",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 55,
       "inicio_s": 188.4,
       "fim_s": 190.0,
       "texto": "por decreto aquilo que eu puder fazer.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 56,
       "inicio_s": 190.0,
       "fim_s": 193.7,
       "texto": "A nossa equipe econômica aqui tem mais de 10 economistas pegadê trabalhando já nisso.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 57,
       "inicio_s": 193.7,
       "fim_s": 197.08,
       "texto": "É assim que a gente vai começar a reduzir o custo do Brasil.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 58,
       "inicio_s": 197.08,
       "fim_s": 202.98,
       "texto": "Hoje o Lula aumentou a dívida primária do Brasil em mais de 330 bilhões de reais, Renata.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 59,
       "inicio_s": 202.98,
       "fim_s": 206.5,
       "texto": "É uma gastança sem precedentes na história desse Brasil.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 60,
       "inicio_s": 206.5,
       "fim_s": 210.38,
       "texto": "Eu vou cortar ministérios.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 61,
       "inicio_s": 210.38,
       "fim_s": 214.22,
       "texto": "Eu vou fazer um tesouraço, inclusive, nos cargos comissionados.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 62,
       "inicio_s": 214.22,
       "fim_s": 217.56,
       "texto": "O presidente Bolsonaro, em 2019, cortou 20 mil cargos em comissão.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 63,
       "inicio_s": 217.56,
       "fim_s": 219.9,
       "texto": "Agora o atual governo já criou mais de 22 mil.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 64,
       "inicio_s": 219.9,
       "fim_s": 222.56,
       "texto": "Eu vou fazer um combate à corrupção firme nesse governo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 65,
       "inicio_s": 222.56,
       "fim_s": 227.64,
       "texto": "Aposentadorias, aposentadorias, candidato, e benefícios vão continuar sendo reajustados",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 66,
       "inicio_s": 227.64,
       "fim_s": 228.74,
       "texto": "com o salário mínimo?",
-      "falante": null
+      "falante": "César Tralli",
+      "papel": "entrevistador"
     },
     {
       "i": 67,
       "inicio_s": 228.74,
       "fim_s": 233.02,
-      "texto": "Tralha, eu vou chegar lá e vou te explicar por que não precisa também fazer economia",
-      "falante": null
+      "texto": "Tralli, eu vou chegar lá e vou te explicar por que não precisa também fazer economia",
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 68,
       "inicio_s": 233.02,
       "fim_s": 233.98,
       "texto": "em cima dos aposentados.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 69,
       "inicio_s": 234.46,
       "fim_s": 238.58,
       "texto": "Porque nós vamos fazer um governo que vai combater a corrupção, como foi a MP 871",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 70,
       "inicio_s": 238.58,
       "fim_s": 243.12,
       "texto": "do governo do presidente Bolsonaro, que tinha um pacote anti-fraude, anti-corrupção",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 71,
       "inicio_s": 243.12,
       "fim_s": 248.66,
       "texto": "no INSS, que o PT trabalhou para derrubar essas medidas que combateriam a corrupção",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 72,
       "inicio_s": 248.66,
       "fim_s": 252.98,
       "texto": "e que evitariam que os aposentados do INSS tenham sido roubados como foram roubados",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 73,
       "inicio_s": 252.98,
       "fim_s": 254.06,
       "texto": "nesse atual governo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 74,
       "inicio_s": 254.06,
       "fim_s": 258.46,
       "texto": "Vou combater a roubalheira que hoje está generalizada nesse atual governo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 75,
       "inicio_s": 258.46,
       "fim_s": 263.22,
       "texto": "Vou criar uma governança tecnológica, Renato, dentro do meu governo.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 76,
       "inicio_s": 263.22,
       "fim_s": 267.22,
       "texto": "Vai ter um data center soberano para o Brasil, como já tem em Singapura, como tem na Coreia",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 77,
       "inicio_s": 267.22,
       "fim_s": 270.4,
       "texto": "do Sul, que vai controlar cada centavo de gasto público.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 78,
       "inicio_s": 270.4,
       "fim_s": 272.54,
       "texto": "Eu vou economizar dinheiro, vou começar economizando dinheiro daí.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 79,
       "inicio_s": 272.54,
       "fim_s": 277.8,
       "texto": "E com um ajuste fiscal que nós faremos resgatando a credibilidade desse país, que é uma coisa",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 80,
       "inicio_s": 277.8,
       "fim_s": 279.46,
       "texto": "que influencia na taxa de juros, Renato.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 81,
       "inicio_s": 279.46,
       "fim_s": 283.24,
       "texto": "Porque esse governo, ninguém mais acredita que ele faça ajuste fiscal porque ele gasta",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 82,
       "inicio_s": 283.24,
       "fim_s": 284.64,
       "texto": "fora do orçamento e não está nem aí.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 83,
       "inicio_s": 284.84,
       "fim_s": 289.04,
       "texto": "Mas então, sobre o reajuste do salário mínimo, o senhor desautoriza o seu coordenador",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 84,
       "inicio_s": 289.04,
       "fim_s": 291.68,
       "texto": "de campanha que critica a atual política de reajuste.",
-      "falante": null
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador"
     },
     {
       "i": 85,
       "inicio_s": 291.68,
       "fim_s": 296.04,
       "texto": "Não farei economia com quem ganha salário mínimo, não farei economia com aposentados.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 86,
       "inicio_s": 296.04,
       "fim_s": 301.54,
       "texto": "Eu vou fazer economia cortando corrupção, fazendo tesouraço na burocracia, reduzindo os impostos.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 87,
       "inicio_s": 301.78,
       "fim_s": 306.78,
       "texto": "Só com o anúncio da eleição de Flávio Bolsonaro como presidente da República e com a equipe",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 88,
       "inicio_s": 306.78,
       "fim_s": 312.72,
       "texto": "que vai ter essa cara que todos estão vendo, com a equipe de técnicos, de economistas,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 89,
       "inicio_s": 312.72,
       "fim_s": 316.96,
       "texto": "de pessoas sérias, de pessoas que são competentes, que estão ali por um projeto de Brasil,",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 90,
       "inicio_s": 316.96,
       "fim_s": 322.98,
       "texto": "a taxa de juros já vai cair na reunião seguinte do Copom, do Banco Central.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 91,
       "inicio_s": 322.98,
       "fim_s": 329.7,
       "texto": "E cada 1% de taxa de juros a menos que nós pagamos é cerca de R$ 90 bilhões que abre",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 92,
       "inicio_s": 329.7,
       "fim_s": 334.32,
       "texto": "dentro do orçamento é por esse recurso que eu vou conseguir fazer, tratar quem precisa",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     },
     {
       "i": 93,
       "inicio_s": 334.32,
       "fim_s": 338.02,
       "texto": "nesse Brasil, abraçar quem precisa nesse Brasil e estender a mão para que você evolua.",
-      "falante": null
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado"
     }
-  ]
+  ],
+  "correcoes_aplicadas": 5
 }

@@ -1,0 +1,376 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo-economia",
+  "gerado_em": "2026-09-27",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "bloco-economia",
+  "cobertura": {
+    "inicio_s": 0.0,
+    "fim_s": 343.105
+  },
+  "exclusoes": [],
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 4.88,
+      "fim_s": 19.02,
+      "falante": "César Tralli",
+      "papel": "entrevistador",
+      "frase": "O programa de governo do senhor promete estabilizar e reduzir a dívida pública do Brasil, [...] mas não traz números, também não traz prazos. O plano diz que isso ocorreria no menor prazo possível.",
+      "citacao_card": "O programa de governo do senhor promete estabilizar e reduzir a dívida pública do Brasil, [...] mas não traz números, também não traz prazos.",
+      "afirmacao": "O programa de governo de Flávio Bolsonaro promete estabilizar e reduzir a dívida pública, sem números nem prazos, 'no menor prazo possível'",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta de abertura do bloco, sobre o ajuste fiscal do programa de governo",
+      "o_que_conferir": [
+        "texto do programa de governo registrado no TSE (DivulgaCandContas), trecho sobre dívida pública",
+        "se há meta numérica ou prazo, e se a expressão 'no menor prazo possível' está no documento"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 4.88,
+      "fim_s": 14.64,
+      "falante": "César Tralli",
+      "papel": "entrevistador",
+      "frase": "reduzir a dívida pública do Brasil, que está em trajetória de alta",
+      "afirmacao": "A dívida pública brasileira está em trajetória de alta",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta de abertura do bloco, sobre o ajuste fiscal do programa de governo",
+      "o_que_conferir": [
+        "série da Dívida Bruta do Governo Geral em % do PIB, Banco Central (SGS 13762), até o mês mais recente antes de 28/ago/2026",
+        "projeções oficiais (Tesouro, IFI) sobre a trajetória"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 53.7,
+      "fim_s": 57.54,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "mais de 30 impostos criados ou aumentados só nesse atual governo",
+      "afirmacao": "Mais de 30 impostos foram criados ou aumentados no governo Lula (desde 2023)",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre ajuste fiscal",
+      "o_que_conferir": [
+        "levantamentos de aumentos de tributos desde 2023 (Receita, Congresso, imprensa com lista nominal)",
+        "o que conta como 'imposto' (tributo, alíquota, fim de desoneração)"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 57.66,
+      "fim_s": 66.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "a taxa de juros oficial, que é a Selic, vai lá para a lua. 14% é o maior juro real do mundo.",
+      "citacao_card": "que é a Selic, vai lá para a lua. 14% é o maior juro real do mundo.",
+      "afirmacao": "A taxa Selic está em 14% ao ano",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Resposta sobre ajuste fiscal",
+      "o_que_conferir": [
+        "meta da taxa Selic definida pelo Copom vigente em 28/ago/2026 (Banco Central)"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 64.22,
+      "fim_s": 66.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "14% é o maior juro real do mundo.",
+      "afirmacao": "O Brasil tem o maior juro real do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Resposta sobre ajuste fiscal",
+      "o_que_conferir": [
+        "ranking de juros reais entre países (levantamentos periódicos, como o da MoneYou/Infinity Asset), na data mais próxima da fala",
+        "se a comparação cobre todos os países ou uma amostra"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 69.34,
+      "fim_s": 79.46,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Lá em outubro de 2022, a previsão do mercado era que, neste momento, a taxa de juros no Brasil, se fosse o governo do presidente Bolsonaro, ia estar em torno de 7%, metade.",
+      "citacao_card": "Lá em outubro de 2022, a previsão do mercado era que, neste momento, a taxa de juros [...] ia estar em torno de 7%",
+      "afirmacao": "Em outubro de 2022, o mercado previa uma Selic em torno de 7% para 2026",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Resposta sobre ajuste fiscal",
+      "o_que_conferir": [
+        "Boletim Focus (Banco Central) de outubro de 2022: mediana da Selic para o horizonte mais longo projetado",
+        "se o Focus de out/2022 projetava 2026 ou só até 2025"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 79.46,
+      "fim_s": 84.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "de pagamento de juros na hora, é de um trilhão de reais ao ano.",
+      "afirmacao": "O pagamento de juros da dívida pública é de cerca de R$ 1 trilhão por ano",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre ajuste fiscal",
+      "o_que_conferir": [
+        "juros nominais do setor público consolidado acumulados em 12 meses, Banco Central (Estatísticas Fiscais), mês mais recente antes da fala"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 148.22,
+      "fim_s": 155.76,
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "frase": "O coordenador da sua campanha critica a política atual de reajuste do salário mínimo e das aposentadorias e benefícios.",
+      "afirmacao": "O coordenador da campanha de Flávio Bolsonaro critica a política atual de reajuste do salário mínimo, das aposentadorias e dos benefícios",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Pergunta sobre a política de reajuste do salário mínimo",
+      "o_que_conferir": [
+        "declaração pública do coordenador da campanha (quem é, o que disse, onde e quando)",
+        "se a crítica cita o salário mínimo e a vinculação dos benefícios"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 155.76,
+      "fim_s": 157.46,
+      "falante": "Renata Vasconcellos",
+      "papel": "entrevistador",
+      "frase": "O seu plano não trata desse assunto.",
+      "afirmacao": "O programa de governo de Flávio Bolsonaro não trata do reajuste do salário mínimo",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Pergunta sobre a política de reajuste do salário mínimo",
+      "o_que_conferir": [
+        "texto do programa de governo registrado no TSE: busca por 'salário mínimo', 'reajuste', 'aposentadoria'"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 168.44,
+      "fim_s": 173.68,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Quem recebe salário mínimo hoje está perdendo o seu poder de compra por causa da gastança do governo.",
+      "citacao_card": "Quem recebe salário mínimo hoje está perdendo o seu poder de compra",
+      "afirmacao": "Quem recebe salário mínimo está perdendo poder de compra",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre o salário mínimo",
+      "o_que_conferir": [
+        "valor do salário mínimo em 2026 e reajuste aplicado, contra a inflação do período (INPC/IPCA, IBGE)",
+        "série do salário mínimo real (DIEESE ou Ipea)"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 190.0,
+      "fim_s": 193.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A nossa equipe econômica aqui tem mais de 10 economistas",
+      "afirmacao": "A equipe econômica da campanha de Flávio Bolsonaro tem mais de 10 economistas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre o salário mínimo",
+      "o_que_conferir": [
+        "lista pública da equipe econômica da campanha (site da campanha, imprensa)",
+        "quantos são economistas"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 197.08,
+      "fim_s": 202.98,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje o Lula aumentou a dívida primária do Brasil em mais de 330 bilhões de reais, Renata.",
+      "citacao_card": "Hoje o Lula aumentou a dívida primária do Brasil em mais de 330 bilhões de reais",
+      "afirmacao": "O governo Lula acumulou mais de R$ 330 bilhões de déficit primário (a 'dívida primária' da fala)",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre o salário mínimo",
+      "o_que_conferir": [
+        "'dívida primária' não é conceito das estatísticas fiscais: conferir o resultado primário acumulado do governo central desde 2023 (Tesouro, RTN) e a variação da dívida no mesmo período (BCB)",
+        "se o valor citado bate com algum dos dois conceitos"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 214.22,
+      "fim_s": 217.56,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O presidente Bolsonaro, em 2019, cortou 20 mil cargos em comissão.",
+      "afirmacao": "O governo Bolsonaro cortou 20 mil cargos em comissão em 2019",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre o salário mínimo",
+      "o_que_conferir": [
+        "decreto de 2019 que extinguiu cargos, funções e gratificações (Planalto, DOU) e o número oficial",
+        "se eram cargos ocupados ou vagos, e se eram 'cargos em comissão'"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 217.56,
+      "fim_s": 219.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Agora o atual governo já criou mais de 22 mil.",
+      "afirmacao": "O governo Lula já criou mais de 22 mil cargos em comissão",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre o salário mínimo",
+      "o_que_conferir": [
+        "Painel Estatístico de Pessoal / leis e decretos de criação de cargos desde 2023 (Ministério da Gestão)",
+        "se o número é de cargos em comissão criados, ou de cargos e funções em geral"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 222.56,
+      "fim_s": 228.74,
+      "falante": "César Tralli",
+      "papel": "entrevistador",
+      "frase": "Aposentadorias, aposentadorias, candidato, e benefícios vão continuar sendo reajustados com o salário mínimo?",
+      "citacao_card": "Aposentadorias [...] e benefícios vão continuar sendo reajustados com o salário mínimo?",
+      "afirmacao": "Aposentadorias e benefícios são hoje reajustados com o salário mínimo",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "previdencia",
+      "contexto": "Pergunta sobre a política de reajuste",
+      "o_que_conferir": [
+        "Constituição, art. 201 §2º (piso de benefício igual ao salário mínimo) e lei do reajuste do salário mínimo",
+        "se só os benefícios de piso sobem com o salário mínimo, e os acima do piso pelo INPC"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 234.46,
+      "fim_s": 248.66,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "como foi a MP 871 do governo do presidente Bolsonaro, que tinha um pacote anti-fraude, anti-corrupção no INSS",
+      "afirmacao": "A MP 871, do governo Bolsonaro, trazia um pacote antifraude no INSS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "inss",
+      "contexto": "Resposta sobre aposentadorias",
+      "o_que_conferir": [
+        "texto e ementa da MP 871/2019 (Planalto) e a lei de conversão",
+        "se o objetivo declarado era combate a fraudes em benefícios"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 243.12,
+      "fim_s": 248.66,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que o PT trabalhou para derrubar essas medidas que combateriam a corrupção",
+      "afirmacao": "O PT trabalhou para derrubar as medidas antifraude da MP 871",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "inss",
+      "contexto": "Resposta sobre aposentadorias",
+      "o_que_conferir": [
+        "orientação e votos da bancada do PT na conversão da MP 871 (Câmara e Senado, 2019)",
+        "emendas ou destaques do PT contra os dispositivos antifraude"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 248.66,
+      "fim_s": 254.06,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que evitariam que os aposentados do INSS tenham sido roubados como foram roubados nesse atual governo.",
+      "citacao_card": "os aposentados do INSS tenham sido roubados como foram roubados nesse atual governo.",
+      "afirmacao": "Aposentados do INSS foram lesados por fraude durante o governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "inss",
+      "contexto": "Resposta sobre aposentadorias",
+      "o_que_conferir": [
+        "investigação da PF e da CGU sobre descontos associativos indevidos (Operação Sem Desconto, 2025): período dos descontos e valores por ano",
+        "se a fraude começou antes de 2023 e em que período cresceu"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 263.22,
+      "fim_s": 270.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Vai ter um data center soberano para o Brasil, como já tem em Singapura, como tem na Coreia do Sul",
+      "citacao_card": "um data center soberano para o Brasil, como já tem em Singapura, como tem na Coreia do Sul",
+      "afirmacao": "Singapura e Coreia do Sul têm um data center soberano do governo",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre aposentadorias",
+      "o_que_conferir": [
+        "iniciativas oficiais de nuvem ou data center governamental em Singapura (GovTech) e na Coreia do Sul (NIRS)",
+        "se servem para controlar gasto público, como a fala sugere"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 279.46,
+      "fim_s": 284.64,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Porque esse governo, ninguém mais acredita que ele faça ajuste fiscal porque ele gasta fora do orçamento e não está nem aí.",
+      "citacao_card": "ele gasta fora do orçamento",
+      "afirmacao": "O governo Lula faz gastos fora do orçamento",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre aposentadorias",
+      "o_que_conferir": [
+        "despesas excluídas da meta fiscal ou do limite do arcabouço desde 2023 (Tesouro, IFI, TCU)",
+        "o que 'fora do orçamento' pode significar: fora da meta, fora do limite, ou fora da lei orçamentária"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 322.98,
+      "fim_s": 329.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E cada 1% de taxa de juros a menos que nós pagamos é cerca de R$ 90 bilhões que abre",
+      "afirmacao": "Cada ponto percentual a menos na taxa de juros reduz a despesa com juros em cerca de R$ 90 bilhões",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta final sobre o salário mínimo",
+      "o_que_conferir": [
+        "sensibilidade da dívida à Selic publicada pelo Tesouro (Relatório Anual da Dívida / PAF) ou pelo Banco Central",
+        "horizonte da estimativa (12 meses) e se é efeito na dívida ou na despesa"
+      ]
+    }
+  ]
+}

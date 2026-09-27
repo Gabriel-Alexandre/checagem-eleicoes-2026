@@ -1,0 +1,22 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo-economia",
+  "recortes": [
+    {
+      "id": "bloco-economia",
+      "arquivo": "bloco-economia.mp4",
+      "origem": "sabatina-flavio-globo-2026-08-28-economia.mp4",
+      "origem_inicio_s": 0.0,
+      "duracao_s": 343.105,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 23.976,
+      "motivo": "É o bloco de economia inteiro, como o g1 o publicou: da pergunta de abertura sobre dívida pública ao fim da última resposta. Escolhido por TEMA antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (bloco de contas públicas da sabatina de Lula), depois de o autor avaliar que o trecho sobre a tentativa de golpe tinha pouco fato conferível. Os dois lados da mesa afirmam fatos: as perguntas trazem dados sobre o programa de governo, a dívida e o reajuste de benefícios.",
+      "criado_em": "2026-09-27",
+      "enquadramento": {
+        "original": "540x960",
+        "como": "imagem inteira centralizada na altura, sem corte nem deformação; laterais com cópia desfocada e escurecida do próprio vídeo",
+        "filtro": "[0:v]split=2[fundo][frente];[fundo]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=40:4,eq=brightness=-0.18[fundo2];[frente]scale=-2:1080:force_original_aspect_ratio=decrease[frente2];[fundo2][frente2]overlay=(W-w)/2:(H-h)/2,setsar=1,format=yuv420p[v]"
+      }
+    }
+  ]
+}

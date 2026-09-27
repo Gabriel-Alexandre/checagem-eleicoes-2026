@@ -1,0 +1,59 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo-economia",
+  "escopo": "O trecho inteiro (00:00 a 05:43), que é o arquivo checado.",
+  "como_foram_conferidas": "Suspeitas levantadas na leitura contra a transcrição publicada pelo Poder360 ('Leia a íntegra das perguntas da Globo e as respostas de Flávio'). Doze janelas transcritas de novo, isoladas, com o mesmo modelo e feixe 8, sem e com prompt de contexto (nomes da mesa e termos econômicos). Só entrou o que as passadas novas e a transcrição publicada sustentam; o nome próprio tem a ressalva de que só a passada com prompt o escreve certo.",
+  "correcoes": [
+    {
+      "inicio_s": 30.14,
+      "de": "Otrali, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
+      "para": "Tralli, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
+      "motivo": "nome do entrevistador: 'Otrali' é 'Tralli', a quem a resposta se dirige (ver NOTA_DE_ATRIBUICAO.md).",
+      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'O Trale', com prompt 'Trali'; o Poder360 escreve 'Tralli'. ⚠️ Só o prompt, que continha o nome, dá a grafia certa; a correção se apoia também na atribuição."
+    },
+    {
+      "inicio_s": 64.22,
+      "de": "14% é a maior juro real do mundo.",
+      "para": "14% é o maior juro real do mundo.",
+      "motivo": "concordância: 'a maior juro' por 'o maior juro'.",
+      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: as duas passadas escrevem 'o maior juro real do mundo', como o Poder360."
+    },
+    {
+      "inicio_s": 66.5,
+      "de": "E sabe, Tralho, quanto é que era a previsão?",
+      "para": "E sabe, Tralli, quanto é que era a previsão?",
+      "motivo": "nome do entrevistador: 'Tralho' por 'Tralli'.",
+      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'Tralho', com prompt 'Tralli'; Poder360 'Tralli'. Mesma ressalva da primeira correção."
+    },
+    {
+      "inicio_s": 85.6,
+      "de": "E a taxa de juros era para estar metade, Tralho.",
+      "para": "E a taxa de juros era para estar metade, Tralli.",
+      "motivo": "nome do entrevistador: 'Tralho' por 'Tralli'.",
+      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'Trale', com prompt 'Tralli'. Mesma ressalva."
+    },
+    {
+      "inicio_s": 228.74,
+      "de": "Tralha, eu vou chegar lá e vou te explicar por que não precisa também fazer economia",
+      "para": "Tralli, eu vou chegar lá e vou te explicar por que não precisa também fazer economia",
+      "motivo": "nome do entrevistador: 'Tralha' por 'Tralli'.",
+      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'Tralho', com prompt 'Tralli'. Mesma ressalva."
+    }
+  ],
+  "nao_corrigido": [
+    {
+      "inicio_s": 190.0,
+      "trecho": "mais de 10 economistas pegadê",
+      "motivo": "o Poder360 escreve 'PhD', mas as duas passadas novas ouvem 'pegadinha'. Sem concordância, fica como a primeira passada escreveu. A alegação sobre a equipe econômica cita só 'tem mais de 10 economistas', sem a palavra em dúvida."
+    },
+    {
+      "inicio_s": 258.46,
+      "trecho": "Renato",
+      "motivo": "as duas passadas novas também ouvem 'Renato', dirigido à entrevistadora Renata Vasconcellos. Não há como decidir entre erro de fala e erro de reconhecimento; nenhuma alegação depende da palavra. O mesmo vale para 277.80."
+    },
+    {
+      "inicio_s": 248.66,
+      "trecho": "tenham sido roubados",
+      "motivo": "as três leituras discordam ('tenham', 'tiverem', 'tivessem'); a alegação cita só 'como foram roubados nesse atual governo', que as três têm."
+    }
+  ]
+}
