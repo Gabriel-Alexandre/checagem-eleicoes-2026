@@ -1,10 +1,11 @@
 {
   "caso": "2026-08-28-sabatina-flavio-globo-economia",
-  "rodada": 3,
-  "finalidade": "Rodada 3: sensibilidade da dívida à Selic nas notas fiscais do Banco Central (A021).",
+  "rodada": 4,
+  "finalidade": "Rodada 4: o programa de governo registrado (PDF) e o coordenador da campanha (A001, A008, A009).",
   "urls": [
-    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202607_Texto_de_estatisticas_fiscais.pdf",
-    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202608_Texto_de_estatisticas_fiscais.pdf",
-    "https://www.tesourotransparente.gov.br/publicacoes/relatorio-mensal-da-divida-rmd/2026/7"
+    "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+    "https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/",
+    "https://www.poder360.com.br/poder-eleicoes-2026/plano-de-governo-de-flavio-mira-reforma-no-stf-e-tesouraco-na-economia/",
+    "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-explora-crise-no-stf-e-se-desvia-de-propostas-economicas/"
   ]
 }
