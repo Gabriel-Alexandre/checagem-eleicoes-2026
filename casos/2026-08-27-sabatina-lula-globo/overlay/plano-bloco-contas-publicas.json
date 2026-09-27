@@ -10,7 +10,7 @@
   "selo": {
     "arquivo": "overlay/cartelas-bloco-contas-publicas/_selo.png",
     "entra_s": 0.0,
-    "sai_s": 302.0
+    "sai_s": 294.0
   },
   "legenda": {
     "arquivo": "overlay/cartelas-bloco-contas-publicas/_legenda.png",
@@ -22,13 +22,7 @@
     "sai_s": 294.0,
     "duracao_s": 2.0
   },
-  "encerramento": {
-    "arquivo": "overlay/cartelas-bloco-contas-publicas/_encerramento.png",
-    "entra_s": 294.0,
-    "sai_s": 302.0,
-    "duracao_s": 8.0,
-    "revisao_humana": "0 de 23"
-  },
+  "encerramento": null,
   "contagem_por_veredito": {
     "VERDADEIRO": 14,
     "NAO_CHECAVEL": 2,

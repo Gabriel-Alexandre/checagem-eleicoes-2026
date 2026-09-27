@@ -47,7 +47,7 @@ conclusão. Ver [`docs/METODOLOGIA.md` §8](docs/METODOLOGIA.md).
    Quem já sabe a resposta escolhe as perguntas.
 4. ⛔ **A citação tem que existir na transcrição.** O validador compara texto normalizado e reprova
    aspa parafraseada. É a trava mais importante do repositório.
-5. ⛔ **A IA não publica.** Uma pessoa lê os cards e as fontes antes de qualquer coisa ir ao ar.
+5. ⛔ **A IA não publica, mas revisa.** Cada checagem passa por uma revisão adversarial da própria IA, em passada separada, registrada no arquivo; publicar é decisão do autor.
 
 ---
 
@@ -93,8 +93,8 @@ python -m checagem validar     $SLUG --recorte bloco-x
 python -m checagem relatorio   $SLUG --recorte bloco-x
 ```
 
-> 🔴 **Não existe comando "faz tudo", de propósito.** Os passos 4 e 5 são julgamento, e o 8 termina
-> em revisão humana. Um botão de "roda sozinho" daria a impressão de que existe checagem automática
+> 🔴 **Não existe comando "faz tudo", de propósito.** Os passos 4 e 5 são julgamento, e a revisão
+> adversarial (skill `revisar-checagem`) também. Um botão de "roda sozinho" daria a impressão de que existe checagem automática
 > de ponta a ponta aqui. Não existe.
 
 Passo a passo detalhado, com o que conferir em cada etapa: [`docs/REPLICAR.md`](docs/REPLICAR.md).
@@ -126,7 +126,7 @@ Passo a passo detalhado, com o que conferir em cada etapa: [`docs/REPLICAR.md`](
 |---|---|---|
 | [`2026-08-27-sabatina-lula-globo`](casos/2026-08-27-sabatina-lula-globo/) | Sabatina de Luiz Inácio Lula da Silva na TV Globo, 27/ago/2026, 44min33s | prova de conceito rodada num recorte de 4min52s; 23 alegações; auditado e corrigido em 26/set ([`CORRECOES.md`](casos/2026-08-27-sabatina-lula-globo/CORRECOES.md)) |
 | [`2026-08-28-sabatina-flavio-globo`](casos/2026-08-28-sabatina-flavio-globo/) | Sabatina de Flávio Bolsonaro na TV Globo, 28/ago/2026; **trecho oficial publicado pelo g1**, 2min44s | trecho checado primeiro; 19 alegações, 3 delas juízos que não deveriam ter entrado (registrado em `CORRECOES.md`); mantido como registro |
-| [`2026-08-28-sabatina-flavio-globo-economia`](casos/2026-08-28-sabatina-flavio-globo-economia/) | Sabatina de Flávio Bolsonaro na TV Globo, 28/ago/2026; **bloco de economia oficial do g1**, 5min43s | caso principal do Flávio, escolhido por tema como o do Lula; 21 alegações de fato (5 dos entrevistadores); aguarda revisão humana |
+| [`2026-08-28-sabatina-flavio-globo-economia`](casos/2026-08-28-sabatina-flavio-globo-economia/) | Sabatina de Flávio Bolsonaro na TV Globo, 28/ago/2026; **bloco de economia oficial do g1**, 5min43s | caso principal do Flávio, escolhido por tema como o do Lula; 21 alegações de fato (5 dos entrevistadores); 10 verdadeiro, 8 impreciso, 3 sem comprovação; revisão adversarial por IA registrada |
 
 ---
 

@@ -2,8 +2,8 @@
 
 **Peça:** TV Globo · Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional); trecho publicado pelo g1 · sabatina · 28/ago/2026  
 **Duração:** 00:05:43  
-**Trecho checado:** `bloco-economia`, de 00:00:00 a 00:05:43 da peça  
-**Por que este trecho:** É o bloco de economia inteiro, como o g1 o publicou: da pergunta de abertura sobre dívida pública ao fim da última resposta. Escolhido por TEMA antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (bloco de contas públicas da sabatina de Lula), depois de o autor avaliar que o trecho sobre a tentativa de golpe tinha pouco fato conferível. Os dois lados da mesa afirmam fatos: as perguntas trazem dados sobre o programa de governo, a dívida e o reajuste de benefícios.  
+**Trecho checado:** `bloco-economia`, de 00:00:00 a 00:05:38 da peça  
+**Por que este trecho:** É o bloco de economia inteiro, como o g1 o publicou: da pergunta de abertura sobre dívida pública ao fim da última resposta. Escolhido por TEMA antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (bloco de contas públicas da sabatina de Lula), depois de o autor avaliar que o trecho sobre a tentativa de golpe tinha pouco fato conferível. Os dois lados da mesa afirmam fatos: as perguntas trazem dados sobre o programa de governo, a dívida e o reajuste de benefícios. Termina no fim da última fala, antes da cartela de divulgação do g1 ('Veja a íntegra da entrevista em g1.com.br/eleicoes'), que não é parte da entrevista.  
 **Relatório gerado em:** 2026-09-27  
 **Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  
 **Assinatura da mídia (sha256):** `ae35ff24747314742390d3a934706ea61a43a7e46a1440e0ecb00a8406b09c7c`
@@ -34,8 +34,8 @@
 
 | Veredito | Total | entrevistado | entrevistador |
 |---|---:|---:|---:|
-| 🟢 VERDADEIRO | 14 | 9 | 5 |
-| 🟡 IMPRECISO | 4 | 4 | 0 |
+| 🟢 VERDADEIRO | 10 | 5 | 5 |
+| 🟡 IMPRECISO | 8 | 8 | 0 |
 | 🟠 SEM COMPROVAÇÃO | 3 | 3 | 0 |
 
 ### Como ler esta contagem
@@ -44,7 +44,7 @@
 - **entrevistador:** 5 de 21 alegações.
 - Os números acima são **deste trecho** e têm o denominador à vista. ⛔ Eles não são ranking entre pessoas nem entre candidatos, e não dizem nada sobre intenção.
 - ⚠️ **Nem toda afirmação é igualmente checável.** Economia tem série pública; segurança tem defasagem; promessa não tem fonte. Um lado pode acumular `SEM COMPROVAÇÃO` só porque falou de assunto com fonte pior ([`etica-e-risco` §3](../../.cursor/rules/etica-e-risco.mdc)).
-- 🔴 **Revisão humana registrada: nenhuma das 21 checagens.** O conteúdo foi produzido com auxílio de IA e passou pelo validador, mas a doutrina do projeto exige que uma pessoa leia os cards e as fontes antes da publicação.
+- **Revisão adversarial registrada nas 21 checagens**, feita por IA em passada separada da checagem ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)); o resultado de cada uma está na alegação.
 
 ## Alegação por alegação
 
@@ -63,6 +63,8 @@
 **Análise:** O programa de governo registrado por Flávio Bolsonaro (Para o Brasil Vencer o Atraso) estabelece como meta alcançar, 'no menor prazo possível', a estabilidade e depois a queda da relação Dívida/PIB, sem número de chegada nem data. A expressão citada pelo entrevistador está literalmente no documento. Duas reportagens independentes que leram o plano registrado no TSE (Folhapress e ND Mais) chegaram à mesma conclusão: a meta existe, os números e prazos não.
 
 **Confiança:** alta
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Tentei derrubar procurando no programa registrado alguma meta numérica ou prazo para a dívida; o texto só diz 'no menor prazo possível'. A pergunta atribui ao programa exatamente isso.
 
 **Fontes:**
 
@@ -105,6 +107,8 @@
 
 **Confiança:** alta
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. A tendência de alta vale na série inteira do SGS 13762 desde dez/2022 e no último dado anterior à entrevista (jun/2026); não há recorte que inverta a tendência.
+
 **Fontes:**
 
 1. `N1` **Banco Central do Brasil (SGS 13762)**: [Dívida Bruta do Governo Geral, % do PIB](https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022) · consultada em 2026-09-27 · captura sha256 `20de479c9f928a17…`
@@ -140,6 +144,8 @@
 **Análise:** Não existe contagem oficial de 'impostos criados ou aumentados'. Os levantamentos da imprensa contam medidas, com critérios e datas diferentes: 24 até maio de 2025 e 36 'criações ou aumentos diretos de impostos' até março de 2026 (Gazeta do Povo), 25 medidas (CNN) e 27 aumentos até outubro de 2025 (Poder360). Só a contagem mais recente passa de 30, e ela é de uma fonte só; as outras são anteriores e não a desmentem, mas também não a confirmam. O fundo da fala tem apoio oficial: a carga tributária bruta chegou a 32,40% do PIB em 2025, a maior da série do Tesouro. O número exato, 'mais de 30 impostos', fica sem duas fontes que o sustentem.
 
 **Confiança:** media
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Não há contagem oficial de impostos criados ou aumentados; as contagens da imprensa variam de 24 a 36 conforme o critério. Sem registro qualificado, SEM COMPROVAÇÃO é o veredito da árvore, e não FALSO, porque uma contagem acima de 30 existe.
 
 **Fontes:**
 
@@ -192,6 +198,8 @@
 
 **Confiança:** alta
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Selic de 14% conferida no SGS 432 na data da entrevista e na reportagem do corte de 5/ago/2026. 'Vai lá para a lua' é ornamento e não foi checado.
+
 **Fontes:**
 
 1. `N1` **Banco Central do Brasil (SGS 432)**: [Meta Selic definida pelo Copom](https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/06/2026) · consultada em 2026-09-27 · captura sha256 `bf119d0c0159c8f6…`
@@ -206,7 +214,7 @@
 
 ---
 
-### A005 · 🟢 VERDADEIRO · 00:01:04
+### A005 · 🟡 IMPRECISO · 00:01:04
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `politica-monetaria` · tipo: `ranking`
 
@@ -216,7 +224,7 @@
 
 **Contexto:** Resposta sobre ajuste fiscal
 
-**Resumo (o que aparece no vídeo):** No ranking vigente na data (MoneYou, 5/ago), o Brasil era o 1º em juro real: 9,30%, à frente da Rússia (9,09%)
+**Resumo (o que aparece no vídeo):** O Brasil era o 1º em juro real (9,30%), à frente da Rússia; mas 14% é a Selic nominal, e não o juro real
 
 | | |
 |---|---|
@@ -224,11 +232,13 @@
 | Apurado | 1º lugar, 9,30% (Rússia em 2º, 9,09%) |
 | Data de referência | ranking de 05/08/2026, vigente em 28/08/2026 |
 
-**Análise:** O ranking mundial de juros reais da MoneYou com a Lev Intelligence, o levantamento que a imprensa usa para essa comparação, pôs o Brasil em primeiro lugar entre 40 países na edição de 5 de agosto de 2026, a vigente na data da entrevista: 9,30% de juro real, contra 9,09% da Rússia, já com a Selic a 14%. O Brasil também liderava na edição de junho e voltou a liderar na de setembro. ⚠️ Duas reportagens publicadas em 5 e 6 de agosto (InfoMoney e BP Money) disseram que o Brasil tinha caído para o segundo lugar, com a Rússia a 9,67%; o relatório publicado pela própria MoneYou diz o contrário, e, pela hierarquia de fontes, vale o documento de origem. O ranking é de uma consultoria, com método publicado (equação de Fischer, inflação projetada pelo Focus).
+**Análise:** O ranking mundial de juros reais da MoneYou com a Lev Intelligence, o levantamento que a imprensa usa para essa comparação, pôs o Brasil em primeiro lugar entre 40 países na edição de 5 de agosto de 2026, a vigente na data da entrevista: 9,30% de juro real, contra 9,09% da Rússia, já com a Selic a 14%. O Brasil também liderava na edição de junho e voltou a liderar na de setembro. ⚠️ Duas reportagens publicadas em 5 e 6 de agosto (InfoMoney e BP Money) disseram que o Brasil tinha caído para o segundo lugar, com a Rússia a 9,67%; o relatório publicado pela própria MoneYou diz o contrário, e, pela hierarquia de fontes, vale o documento de origem. O ranking é de uma consultoria, com método publicado (equação de Fischer, inflação projetada pelo Focus). A fala, porém, diz que '14% é o maior juro real do mundo': 14% é a Selic, a taxa nominal; o juro real do Brasil no ranking era 9,30%. Pela régua do §2.2 (número certo, unidade errada: nominal por real), o veredito é IMPRECISO. 🔧 Até a revisão adversarial de 27/set/2026 o veredito era VERDADEIRO com ressalva; ver CORRECOES.md.
 
 **⚠️ Divergência entre fontes:** InfoMoney (05/08/2026) e BP Money (06/08/2026) publicaram que o Brasil caiu para o 2º lugar, com juro real de 9,33% contra 9,67% da Rússia. O relatório da MoneYou da mesma data traz o Brasil em 1º, com 9,30%, e a Rússia com 9,09%. Vale o documento de origem; a divergência fica registrada.
 
 **Confiança:** media
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: alterado. A posição no ranking confere pelo relatório primário (1º, 9,30%), mas a fala diz que '14% é o maior juro real'; 14% é a taxa nominal. A régua do §2.2 manda IMPRECISO para nominal por real, e antes o erro estava só numa ressalva. Mudou de VERDADEIRO para IMPRECISO; registrado em CORRECOES.md.
 
 **Fontes:**
 
@@ -273,6 +283,8 @@
 
 **Confiança:** alta
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Testei a régua de 10%: 7% contra 7,75% dá desvio de 9,7% sobre o valor apurado, abaixo do limite, a mesma base usada em A007 e A021. A ressalva diz que a projeção não dependia de quem vencesse, o que evita endossar a atribuição a um governo.
+
 **Fontes:**
 
 1. `N1` **Banco Central do Brasil (Focus)**: [Focus: Relatório de Mercado, 28 de outubro de 2022](https://www.bcb.gov.br/content/focus/focus/R20221028.pdf) · consultada em 2026-09-27 · captura sha256 `1880d5cd5f5a0ef3…`
@@ -287,7 +299,7 @@
 
 ---
 
-### A007 · 🟢 VERDADEIRO · 00:01:19
+### A007 · 🟡 IMPRECISO · 00:01:19
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `contas-publicas` · tipo: `valor_monetario`
 
@@ -297,7 +309,7 @@
 
 **Contexto:** Resposta sobre ajuste fiscal
 
-**Resumo (o que aparece no vídeo):** Os juros do setor público somaram R$ 1,16 trilhão em 12 meses até junho, dado divulgado antes da entrevista
+**Resumo (o que aparece no vídeo):** Os juros do setor público somaram R$ 1,16 trilhão em 12 meses até junho: a fala ficou 14% abaixo do valor
 
 | | |
 |---|---|
@@ -305,11 +317,19 @@
 | Apurado | R$ 1,16 trilhão em 12 meses até junho de 2026 |
 | Data de referência | 12 meses até junho de 2026 |
 
-**Análise:** Os juros nominais do setor público consolidado acumulados em 12 meses somaram R$ 1.160,5 bilhões até junho de 2026 (8,80% do PIB), segundo a nota do Banco Central de 31 de julho, a última antes da entrevista. A nota seguinte, de 31 de agosto, registrou R$ 1.150,5 bilhões até julho. A fala diz 'um trilhão de reais ao ano': é arredondamento para a unidade de trilhão, para baixo, que não muda a ordem de grandeza nem favorece o argumento de quem fala, e por isso fica como ressalva. ⚠️ A diferença é de 14%, acima da régua de 10% do §2.2; a decisão de tratar como arredondamento está registrada aqui para a revisão humana.
+**Análise:** Os juros nominais do setor público consolidado acumulados em 12 meses somaram R$ 1.160,5 bilhões até junho de 2026 (8,80% do PIB), segundo a nota do Banco Central de 31 de julho, a última antes da entrevista. A nota seguinte, de 31 de agosto, registrou R$ 1.150,5 bilhões até julho. A fala diz 'um trilhão de reais ao ano', 14% abaixo do valor apurado. O desvio é para menos, contra o próprio argumento de quem fala, mas a régua do §2.2 não distingue o sentido: desvio de 10% ou mais é IMPRECISO. 🔧 Até a revisão adversarial de 27/set/2026 o veredito era VERDADEIRO, tratado como arredondamento; ver CORRECOES.md.
 
-**Ressalva:** O valor apurado é R$ 1,16 trilhão, um pouco acima de um trilhão
+**Ressalva:** A diferença é para menos: o valor apurado é maior que o dito
 
 **Confiança:** alta
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: alterado. A checagem tratava 'um trilhão' como arredondamento, mas o desvio é de 14% e a régua do §2.2 não abre exceção para desvio contra o próprio argumento. Pela mesma régua de A021, IMPRECISO. A transcrição do Poder360 traz 'da ordem de R$ 1 trilhão', o que não muda o desvio. Registrado em CORRECOES.md.
+
+**Números derivados por cálculo:**
+
+| Valor | De | Como |
+|---|---|---|
+| 14% | `1.160,5` | 1 menos 1.000 dividido por 1.160,5 (R$ bilhões) |
 
 **Fontes:**
 
@@ -348,6 +368,8 @@
 
 **Confiança:** media
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. A crítica de Marinho à política do mínimo é pública, e o cargo de coordenador político vem de reportagem de 25/09/2026. A ressalva diz que a crítica é de jan/2025, antes da campanha: o card não faz parecer declaração recente.
+
 **Fontes:**
 
 1. `N4` **Portal N10**: [Rogério Marinho critica política de valorização do salário mínimo (07/01/2025)](https://portaln10.com.br/politica/rogerio-marinho-critica-politica-de-valorizacao-do-salario-minimo-238796/) · consultada em 2026-09-27 · captura sha256 `fd88905fb62e21c1…`
@@ -379,6 +401,8 @@
 **⚠️ Divergência entre fontes:** A coordenadora do plano econômico, Daniella Marques, disse em entrevista (Gazeta do Povo, 18/08/2026) que um governo Flávio daria ganho real ao salário mínimo. A declaração não está no programa registrado, que é o que a pergunta cita.
 
 **Confiança:** alta
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Procurei no programa registrado os termos salário mínimo, reajuste e valorização; não há regra de reajuste. Uma reportagem independente diz o mesmo.
 
 **Fontes:**
 
@@ -417,6 +441,8 @@
 **Ressalva:** De janeiro a julho de 2026, a inflação corroeu cerca de 3,5% do valor, como em todo ano
 
 **Confiança:** media
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Testei a leitura mais favorável à fala (perda dentro do ano, entre reajustes): ela existe todo ano e não é efeito de um governo. Na leitura de 12 meses o mínimo teve ganho real. O veredito IMPRECISO cobre as duas leituras sem julgar a causa ('gastança').
 
 **Números derivados por cálculo:**
 
@@ -467,6 +493,8 @@
 
 **Confiança:** media
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. A única lista pública tem 9 nomes, nem todos economistas. Não há como provar que não existam outros, por isso SEM COMPROVAÇÃO e não FALSO.
+
 **Fontes:**
 
 1. `N4` **Poder360**: [Saiba quem integra a equipe econômica de Flávio Bolsonaro (21/08/2026)](https://www.poder360.com.br/poder-eleicoes-2026/saiba-quem-integra-a-equipe-economica-de-flavio-bolsonaro/) · consultada em 2026-09-27 · captura sha256 `867850b8abf3c062…`
@@ -481,7 +509,7 @@
 
 ---
 
-### A012 · 🟢 VERDADEIRO · 00:03:17
+### A012 · 🟡 IMPRECISO · 00:03:17
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `contas-publicas` · tipo: `valor_monetario`
 
@@ -491,7 +519,7 @@
 
 **Contexto:** Resposta sobre o salário mínimo
 
-**Resumo (o que aparece no vídeo):** O déficit primário do governo central somou R$ 335 bi de 2023 a 2025; 'dívida primária' não existe como conceito
+**Resumo (o que aparece no vídeo):** O valor bate com o déficit primário de 2023 a 2025 (R$ 335 bi), mas 'dívida primária' não existe: déficit não é dívida
 
 | | |
 |---|---|
@@ -499,11 +527,13 @@
 | Apurado | R$ 335,11 bilhões de déficit primário do governo central, 2023 a 2025 |
 | Data de referência | resultados anuais de 2023, 2024 e 2025 |
 
-**Análise:** 'Dívida primária' não é conceito das estatísticas fiscais; o número da fala corresponde ao déficit primário acumulado do governo central. Pelos dados do Tesouro, foram R$ 230,5 bilhões em 2023, R$ 42,92 bilhões em 2024 e R$ 61,69 bilhões em 2025: R$ 335,11 bilhões em três anos, acima dos R$ 330 bilhões citados. As estimativas do Ipea, em valores corrigidos, dão resultado na mesma direção. O déficit de 2023 inclui o pagamento de precatórios atrasados, feito em dezembro daquele ano.
+**Análise:** 'Dívida primária' não é conceito das estatísticas fiscais; o número da fala corresponde ao déficit primário acumulado do governo central. Pelos dados do Tesouro, foram R$ 230,5 bilhões em 2023, R$ 42,92 bilhões em 2024 e R$ 61,69 bilhões em 2025: R$ 335,11 bilhões em três anos, acima dos R$ 330 bilhões citados. As estimativas do Ipea, em valores corrigidos, dão resultado na mesma direção. O déficit de 2023 inclui o pagamento de precatórios atrasados, feito em dezembro daquele ano. 🔧 Na revisão adversarial de 27/set/2026, o veredito passou de verdadeiro para impreciso: o número está certo, mas o conceito não (a fala diz dívida, o dado é déficit), e é a mesma régua do §2.2 aplicada à A013 ('número certo, unidade errada').
 
 **Ressalva:** O número é o déficit primário acumulado de 2023 a 2025, e não uma 'dívida primária'
 
 **Confiança:** alta
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: alterado. O valor bate com o déficit primário acumulado, mas 'dívida primária' não existe e dívida e déficit são grandezas diferentes. Pela régua de conceito errado do §2.2, IMPRECISO, e não VERDADEIRO. Registrado em CORRECOES.md.
 
 **Números derivados por cálculo:**
 
@@ -558,6 +588,8 @@
 
 **Confiança:** media
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. O Decreto 9.725 extinguiu cargos, funções e gratificações, e não só cargos em comissão; a fala troca a categoria. IMPRECISO pela régua de unidade errada.
+
 **Fontes:**
 
 1. `N1` **Presidência da República (Planalto)**: [Decreto nº 9.725, de 12 de março de 2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D9725.htm) · consultada em 2026-09-27 · captura sha256 `0b1edb0a1868da2c…`
@@ -599,6 +631,8 @@
 
 **Confiança:** media
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Nenhuma fonte traz 22 mil; a imprensa, com dados do governo, fala em 4,4 mil comissionados. Sem registro oficial conferível, SEM COMPROVAÇÃO; a explicação diz o que faltou.
+
 **Fontes:**
 
 1. `N4` **CNN Brasil**: [Em 3 anos, Lula criou 3 vezes mais cargos comissionados do que Bolsonaro (15/12/2025)](https://www.cnnbrasil.com.br/economia/macroeconomia/em-3-anos-lula-criou-3-vezes-mais-cargos-comissionados-do-que-bolsonaro/) · consultada em 2026-09-27 · captura sha256 `dd290e03b9ec44bd…`
@@ -631,6 +665,8 @@
 
 **Confiança:** alta
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. A pergunta afirma que benefícios são reajustados com o salário mínimo. A Constituição fixa o piso no mínimo e a Lei 8.213 reajusta os demais pelo INPC; a ressalva diz isso. Mesma régua aplicada à pergunta do entrevistador.
+
 **Fontes:**
 
 1. `N1` **Presidência da República (Constituição Federal)**: [Constituição, art. 201, § 2º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) · consultada em 2026-09-27 · captura sha256 `a929c03c0c83f29f…`
@@ -661,6 +697,8 @@
 
 **Confiança:** alta
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. A MP 871/2019 criou programas de revisão de benefícios com indício de irregularidade. 'Anticorrupção' é o nome dado pela fala; o card descreve o que a MP fez.
+
 **Fontes:**
 
 1. `N1` **Presidência da República (Planalto)**: [Medida Provisória nº 871, de 18 de janeiro de 2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/mpv/mpv871.htm) · consultada em 2026-09-27 · captura sha256 `afce666783c6ea65…`
@@ -685,13 +723,15 @@
 
 **Contexto:** Resposta sobre aposentadorias
 
-**Resumo (o que aparece no vídeo):** O PT se opôs à MP 871: 253 emendas, obstrução e voto contra, com parte das emendas afrouxando controles
+**Resumo (o que aparece no vídeo):** O PT se opôs à MP 871: 253 emendas, obstrução anunciada e fora do acordo que destravou a votação
 
 **Análise:** Na tramitação da MP 871, em 2019, o PT foi o partido que mais apresentou emendas (253), e deputados do partido anunciaram obstrução para que a medida 'não prosperasse'. Parte das emendas propunha afrouxar a revalidação anual dos descontos associativos, o ponto ligado à fraude posterior. Na votação final, a oposição fechou acordo para destravar a sessão, exceto o PT. A MP foi aprovada mesmo assim. Emendas no mesmo sentido também vieram de outros partidos, inclusive do PR, atual PL.
 
 **Ressalva:** A MP foi aprovada; emendas para afrouxar controles vieram de vários partidos, inclusive o PR, atual PL
 
 **Confiança:** alta
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: alterado. O resumo dizia 'voto contra', mas a CNN registra, na fala de um deputado do PT, que o tema 'não foi objeto de votação nominal'. Troquei por 'fora do acordo que destravou a votação', que está nas fontes. O veredito VERDADEIRO fica: 253 emendas e obstrução anunciada. Registrado em CORRECOES.md.
 
 **Fontes:**
 
@@ -730,6 +770,8 @@
 
 **Confiança:** alta
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Os descontos indevidos vão de 2019 a 2024, com salto a partir de 2023; a ressalva diz que começaram no governo anterior, para não aceitar o recorte da fala sem contexto.
+
 **Fontes:**
 
 1. `N4` **Terra (com Estadão)**: [CGU alertou INSS 7 meses antes de operação da PF sobre fraude bilionária (25/04/2025)](https://www.terra.com.br/economia/cgu-alertou-inss-7-meses-antes-de-operacao-da-pf-sobre-fraude-bilionaria-em-descontos-de-aposentados,763108fb3d2a805c6f87d96a6cb8eb7834e13lq5.html) · consultada em 2026-09-27 · captura sha256 `0390ee611cb8fedc…`
@@ -760,6 +802,8 @@
 
 **Confiança:** media
 
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. Coreia do Sul tem data center próprio do governo; Singapura usa nuvem comercial sob regras do governo. Metade da comparação não se sustenta como dita, IMPRECISO.
+
 **Fontes:**
 
 1. `N1` **GovTech Singapura (governo de Singapura)**: [Government on Commercial Cloud (GCC)](https://www.tech.gov.sg/products-and-services/for-government-agencies/software-development/government-on-commercial-cloud/) · consultada em 2026-09-27 · captura sha256 `ca80ce81b3115db2…`
@@ -779,7 +823,7 @@
 
 ---
 
-### A020 · 🟢 VERDADEIRO · 00:04:39
+### A020 · 🟡 IMPRECISO · 00:04:39
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `contas-publicas` · tipo: `evento_passado`
 
@@ -789,15 +833,15 @@
 
 **Contexto:** Resposta sobre aposentadorias
 
-**Resumo (o que aparece no vídeo):** A IFI estima R$ 147,7 bi de gastos fora dos limites fiscais de 2023 a 2026, embora dentro do orçamento
+**Resumo (o que aparece no vídeo):** A IFI estima R$ 147,7 bi fora dos limites fiscais de 2023 a 2026, mas esses gastos estão no orçamento, não fora dele
 
-**Análise:** A Instituição Fiscal Independente do Senado estima que o governo termine 2026 com cerca de R$ 147,7 bilhões em exceções aos limites de gasto e à meta fiscal, somando precatórios e gastos extraordinários de 2023 a 2026; em outra conta, a IFI fala em R$ 230,7 bilhões de despesas excetuadas. A expressão 'fora do orçamento' não é exata: esses gastos estão no orçamento, mas fora do cálculo da meta e do limite.
-
-**Ressalva:** Os gastos estão no orçamento, mas fora do cálculo da meta e do limite de despesas
+**Análise:** A Instituição Fiscal Independente do Senado estima que o governo termine 2026 com cerca de R$ 147,7 bilhões em exceções aos limites de gasto e à meta fiscal, somando precatórios e gastos extraordinários de 2023 a 2026; em outra conta, a IFI fala em R$ 230,7 bilhões de despesas excetuadas. A expressão 'fora do orçamento' troca o conceito: esses gastos estão no orçamento, mas fora do cálculo da meta e do limite. A prática existe; o termo da fala, não. Pela mesma régua aplicada a 'dívida primária' (A012), o veredito é IMPRECISO. 🔧 Até a revisão adversarial de 27/set/2026 o veredito era VERDADEIRO com ressalva; ver CORRECOES.md.
 
 **⚠️ Divergência entre fontes:** As duas contas da IFI diferem (R$ 147,7 bilhões e R$ 230,7 bilhões) porque medem conjuntos diferentes de despesas excetuadas; as duas confirmam a prática.
 
 **Confiança:** alta
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: alterado. A prática existe (R$ 147,7 bi fora dos limites, pela IFI), mas 'fora do orçamento' troca o conceito: os gastos estão no orçamento. Pela mesma régua aplicada a A012, IMPRECISO, e não VERDADEIRO com ressalva. 'Não está nem aí' é juízo e não foi checado. Registrado em CORRECOES.md.
 
 **Fontes:**
 
@@ -834,6 +878,8 @@
 **Análise:** O Banco Central publica todo mês a sensibilidade da dívida à Selic. Na nota de 31 de julho de 2026, a última antes da entrevista, a redução de 1 ponto percentual na Selic, mantida por 12 meses, diminuiria a dívida líquida em R$ 66,1 bilhões e a dívida bruta em R$ 60,6 bilhões. A fala diz 'cerca de R$ 90 bilhões', entre 36% e 49% acima da estimativa oficial. A essência (juro menor alivia as contas em dezenas de bilhões) confere; o número, não.
 
 **Confiança:** alta
+
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada da checagem) em 2026-09-27: mantido. A sensibilidade oficial do Banco Central é de R$ 60,6 a 66,1 bi por ponto; a atualização seguinte dá R$ 68,9 bi. R$ 90 bi fica de 36% a 49% acima. IMPRECISO pela régua de 10%.
 
 **Números derivados por cálculo:**
 
@@ -878,7 +924,7 @@ python -m checagem transcrever 2026-08-28-sabatina-flavio-globo-economia
 python ferramentas/corrigir-transcricao.py 2026-08-28-sabatina-flavio-globo-economia
 python -m checagem falantes 2026-08-28-sabatina-flavio-globo-economia
 python -m checagem validar 2026-08-28-sabatina-flavio-globo-economia --recorte bloco-economia
-python -m checagem midia 2026-08-28-sabatina-flavio-globo-economia recortar bloco-economia --inicio 0.0 --duracao 343.105
+python -m checagem midia 2026-08-28-sabatina-flavio-globo-economia recortar bloco-economia --inicio 0.0 --duracao 338.088
 python -m checagem overlay 2026-08-28-sabatina-flavio-globo-economia --recorte bloco-economia
 python -m checagem renderizar 2026-08-28-sabatina-flavio-globo-economia --recorte bloco-economia
 ```

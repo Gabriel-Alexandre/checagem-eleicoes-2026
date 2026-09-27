@@ -43,7 +43,17 @@
           "trecho": "nem todos estabelecem uma meta para a trajetória da dívida em relação ao Produto Interno Bruto (PIB). [...] A meta descrita no programa é alcançar, “no menor prazo possível”, primeiro a estabilidade e depois a queda da relação Dívida/PIB.",
           "prova": "Comparação entre os planos registrados: o de Flávio não traz número de chegada."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Tentei derrubar procurando no programa registrado alguma meta numérica ou prazo para a dívida; o texto só diz 'no menor prazo possível'. A pergunta atribui ao programa exatamente isso.",
+        "verificacoes": [
+          "frase 'no menor prazo possível' conferida na captura do programa",
+          "duas reportagens independentes dizem o mesmo"
+        ]
+      }
     },
     {
       "id": "A002",
@@ -76,7 +86,17 @@
           "trecho": "Dívida bruta atinge 81,9% do PIB em junho, diz Banco Central Setor público consolidado registrou alta de R$ 55,3 bilhões em junho e dívida total é de R$ 10,8 trilhões; sob Lula, relação dívida/PIB subiu 10,2 pontos percentuais",
           "prova": "A mesma trajetória, no dado divulgado antes da entrevista."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "A tendência de alta vale na série inteira do SGS 13762 desde dez/2022 e no último dado anterior à entrevista (jun/2026); não há recorte que inverta a tendência.",
+        "verificacoes": [
+          "série SGS 13762 lida nos dois extremos",
+          "derivação 81,95 menos 71,68 conferida"
+        ]
+      }
     },
     {
       "id": "A003",
@@ -136,7 +156,17 @@
           "trecho": "Em 2025, a carga tributária bruta do governo geral (governos central, estaduais e municipais) foi de 32,40% do PIB , o que representa um aumento de 0,18 p.p. do PIB em relação a 2024.",
           "prova": "O recorde da carga tributária, dado oficial que apoia o fundo da fala."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Não há contagem oficial de impostos criados ou aumentados; as contagens da imprensa variam de 24 a 36 conforme o critério. Sem registro qualificado, SEM COMPROVAÇÃO é o veredito da árvore, e não FALSO, porque uma contagem acima de 30 existe.",
+        "verificacoes": [
+          "cinco fontes relidas",
+          "critérios das contagens comparados"
+        ]
+      }
     },
     {
       "id": "A004",
@@ -169,13 +199,23 @@
           "trecho": "O Copom (Comitê de Política Monetária) do BC (Banco Central) reduziu os juros em 0,25 ponto , trazendo a Selic para 14% ao ano",
           "prova": "A decisão, em apuração independente."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Selic de 14% conferida no SGS 432 na data da entrevista e na reportagem do corte de 5/ago/2026. 'Vai lá para a lua' é ornamento e não foi checado.",
+        "verificacoes": [
+          "SGS 432 na data de 28/08/2026",
+          "data da reunião do Copom"
+        ]
+      }
     },
     {
       "id": "A005",
-      "veredito": "VERDADEIRO",
-      "resumo": "No ranking vigente na data (MoneYou, 5/ago), o Brasil era o 1º em juro real: 9,30%, à frente da Rússia (9,09%)",
-      "explicacao": "O ranking mundial de juros reais da MoneYou com a Lev Intelligence, o levantamento que a imprensa usa para essa comparação, pôs o Brasil em primeiro lugar entre 40 países na edição de 5 de agosto de 2026, a vigente na data da entrevista: 9,30% de juro real, contra 9,09% da Rússia, já com a Selic a 14%. O Brasil também liderava na edição de junho e voltou a liderar na de setembro. ⚠️ Duas reportagens publicadas em 5 e 6 de agosto (InfoMoney e BP Money) disseram que o Brasil tinha caído para o segundo lugar, com a Rússia a 9,67%; o relatório publicado pela própria MoneYou diz o contrário, e, pela hierarquia de fontes, vale o documento de origem. O ranking é de uma consultoria, com método publicado (equação de Fischer, inflação projetada pelo Focus).",
+      "veredito": "IMPRECISO",
+      "resumo": "O Brasil era o 1º em juro real (9,30%), à frente da Rússia; mas 14% é a Selic nominal, e não o juro real",
+      "explicacao": "O ranking mundial de juros reais da MoneYou com a Lev Intelligence, o levantamento que a imprensa usa para essa comparação, pôs o Brasil em primeiro lugar entre 40 países na edição de 5 de agosto de 2026, a vigente na data da entrevista: 9,30% de juro real, contra 9,09% da Rússia, já com a Selic a 14%. O Brasil também liderava na edição de junho e voltou a liderar na de setembro. ⚠️ Duas reportagens publicadas em 5 e 6 de agosto (InfoMoney e BP Money) disseram que o Brasil tinha caído para o segundo lugar, com a Rússia a 9,67%; o relatório publicado pela própria MoneYou diz o contrário, e, pela hierarquia de fontes, vale o documento de origem. O ranking é de uma consultoria, com método publicado (equação de Fischer, inflação projetada pelo Focus). A fala, porém, diz que '14% é o maior juro real do mundo': 14% é a Selic, a taxa nominal; o juro real do Brasil no ranking era 9,30%. Pela régua do §2.2 (número certo, unidade errada: nominal por real), o veredito é IMPRECISO. 🔧 Até a revisão adversarial de 27/set/2026 o veredito era VERDADEIRO com ressalva; ver CORRECOES.md.",
       "numero_dito": "o maior juro real do mundo",
       "numero_apurado": "1º lugar, 9,30% (Rússia em 2º, 9,09%)",
       "data_de_referencia": "ranking de 05/08/2026, vigente em 28/08/2026",
@@ -211,7 +251,18 @@
           "trecho": "O país aparece à frente da Rússia, com juro real de 6,79%, da Colômbia, com 6,33%",
           "prova": "A liderança na edição seguinte."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "alterado",
+        "nota": "A posição no ranking confere pelo relatório primário (1º, 9,30%), mas a fala diz que '14% é o maior juro real'; 14% é a taxa nominal. A régua do §2.2 manda IMPRECISO para nominal por real, e antes o erro estava só numa ressalva. Mudou de VERDADEIRO para IMPRECISO; registrado em CORRECOES.md.",
+        "verificacoes": [
+          "relatório da MoneYou de 05/08/2026 relido",
+          "régua §2.2 (unidade errada) aplicada",
+          "divergência com InfoMoney e BP Money mantida registrada"
+        ]
+      }
     },
     {
       "id": "A006",
@@ -244,17 +295,27 @@
           "trecho": "{\"Indicador\":\"Selic\",\"IndicadorDetalhe\":null,\"Data\":\"2022-10-28\",\"DataReferencia\":\"2026\",\"Media\":7.6609,\"Mediana\":7.7500,\"DesvioPadrao\":0.7628,\"Minimo\":5.0000,\"Maximo\":10.0000,\"numeroRespondentes\":87,\"baseCalculo\":0}",
           "prova": "A mediana de 7,75% para 2026, na base de dados do Focus."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Testei a régua de 10%: 7% contra 7,75% dá desvio de 9,7% sobre o valor apurado, abaixo do limite, a mesma base usada em A007 e A021. A ressalva diz que a projeção não dependia de quem vencesse, o que evita endossar a atribuição a um governo.",
+        "verificacoes": [
+          "Focus de 28/10/2022 em PDF e na base Olinda",
+          "conta do desvio com a mesma base das demais checagens"
+        ]
+      }
     },
     {
       "id": "A007",
-      "veredito": "VERDADEIRO",
-      "resumo": "Os juros do setor público somaram R$ 1,16 trilhão em 12 meses até junho, dado divulgado antes da entrevista",
-      "explicacao": "Os juros nominais do setor público consolidado acumulados em 12 meses somaram R$ 1.160,5 bilhões até junho de 2026 (8,80% do PIB), segundo a nota do Banco Central de 31 de julho, a última antes da entrevista. A nota seguinte, de 31 de agosto, registrou R$ 1.150,5 bilhões até julho. A fala diz 'um trilhão de reais ao ano': é arredondamento para a unidade de trilhão, para baixo, que não muda a ordem de grandeza nem favorece o argumento de quem fala, e por isso fica como ressalva. ⚠️ A diferença é de 14%, acima da régua de 10% do §2.2; a decisão de tratar como arredondamento está registrada aqui para a revisão humana.",
+      "veredito": "IMPRECISO",
+      "resumo": "Os juros do setor público somaram R$ 1,16 trilhão em 12 meses até junho: a fala ficou 14% abaixo do valor",
+      "explicacao": "Os juros nominais do setor público consolidado acumulados em 12 meses somaram R$ 1.160,5 bilhões até junho de 2026 (8,80% do PIB), segundo a nota do Banco Central de 31 de julho, a última antes da entrevista. A nota seguinte, de 31 de agosto, registrou R$ 1.150,5 bilhões até julho. A fala diz 'um trilhão de reais ao ano', 14% abaixo do valor apurado. O desvio é para menos, contra o próprio argumento de quem fala, mas a régua do §2.2 não distingue o sentido: desvio de 10% ou mais é IMPRECISO. 🔧 Até a revisão adversarial de 27/set/2026 o veredito era VERDADEIRO, tratado como arredondamento; ver CORRECOES.md.",
       "numero_dito": "um trilhão de reais ao ano",
       "numero_apurado": "R$ 1,16 trilhão em 12 meses até junho de 2026",
       "data_de_referencia": "12 meses até junho de 2026",
-      "ressalva": "O valor apurado é R$ 1,16 trilhão, um pouco acima de um trilhão",
+      "ressalva": "A diferença é para menos: o valor apurado é maior que o dito",
       "confianca": "alta",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
@@ -286,7 +347,25 @@
           "trecho": "considerando o acumulado em 12 meses (até junho de 2026), os juros nominais alcançaram R$ 1,16 trilhões (8,80% do PIB)",
           "prova": "Confirma o valor em reportagem."
         }
-      ]
+      ],
+      "derivacoes": [
+        {
+          "valor": "14%",
+          "de": "1.160,5",
+          "como": "1 menos 1.000 dividido por 1.160,5 (R$ bilhões)"
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "alterado",
+        "nota": "A checagem tratava 'um trilhão' como arredondamento, mas o desvio é de 14% e a régua do §2.2 não abre exceção para desvio contra o próprio argumento. Pela mesma régua de A021, IMPRECISO. A transcrição do Poder360 traz 'da ordem de R$ 1 trilhão', o que não muda o desvio. Registrado em CORRECOES.md.",
+        "verificacoes": [
+          "nota do Banco Central de 31/07/2026 relida",
+          "derivação 1 menos 1.000/1.160,5 conferida",
+          "consistência com A021"
+        ]
+      }
     },
     {
       "id": "A008",
@@ -319,7 +398,17 @@
           "trecho": "Segundo o coordenador político da campanha, senador Rogério Marinho (PL-RN), Flávio já tem o nome de um grupo [...] a equipe também estaria estudando desvincular a política de valorização do salário mínimo dos benefícios da Previdência.",
           "prova": "O cargo de Marinho na campanha e o estudo da equipe."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "A crítica de Marinho à política do mínimo é pública, e o cargo de coordenador político vem de reportagem de 25/09/2026. A ressalva diz que a crítica é de jan/2025, antes da campanha: o card não faz parecer declaração recente.",
+        "verificacoes": [
+          "cargo de Marinho conferido",
+          "data da crítica conferida"
+        ]
+      }
     },
     {
       "id": "A009",
@@ -352,7 +441,16 @@
           "trecho": "Flávio Bolsonaro O candidato do PL propõe digitalizar processos da Previdência e adotar uma gestão profissional, sem interferência de entidades sindicais. Entre as medidas apresentadas estão um pacote antifraude na Previdência e a proteção dos fundos de pensão das estatais contra indicações políticas. O plano também prevê uma ampla revisão de normas infralegais relacionadas à Previdência. Flávio Bolsonaro defende ainda a redução de pelo menos 10 ministérios, de cargos comissionados e de despesas administrativas, além do combate a penduricalhos e supersalários. Questionado pela Globo sobre a manutenção da vinculação das aposentadorias e benefícios previdenciários ao salário mínimo, o candidato não esclareceu se pretende manter a regra.",
           "prova": "Leitura independente: as propostas de Flávio para o tema não tratam do mínimo."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Procurei no programa registrado os termos salário mínimo, reajuste e valorização; não há regra de reajuste. Uma reportagem independente diz o mesmo.",
+        "verificacoes": [
+          "busca de 'mínimo', 'reajuste' e 'valorização' na captura do programa: só aparecem em outros contextos"
+        ]
+      }
     },
     {
       "id": "A010",
@@ -411,7 +509,17 @@
           "de": "0.39 0.56 0.91 0.81 0.65 0.14 -0.01",
           "como": "produto das variações mensais do INPC de jan a jul de 2026"
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Testei a leitura mais favorável à fala (perda dentro do ano, entre reajustes): ela existe todo ano e não é efeito de um governo. Na leitura de 12 meses o mínimo teve ganho real. O veredito IMPRECISO cobre as duas leituras sem julgar a causa ('gastança').",
+        "verificacoes": [
+          "INPC mensal no SGS 188",
+          "derivação de 2,6% refeita"
+        ]
+      }
     },
     {
       "id": "A011",
@@ -444,13 +552,22 @@
           "trecho": "a integração de sete nomes ligados à economia para elaborar as propostas técnicas do Plano de Governo Para o Brasil Vencer o Atraso . Em nota, foram anunciados os seguintes nomes: Alexandre Ywata, Alexandre Mesa, Andrei Spacov, Arilton Teixeira, Eduardo Cavendish Carvalho, Myrian Prado e Vladimir Kühl Teles.",
           "prova": "A lista, em apuração independente."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "A única lista pública tem 9 nomes, nem todos economistas. Não há como provar que não existam outros, por isso SEM COMPROVAÇÃO e não FALSO.",
+        "verificacoes": [
+          "duas reportagens com a lista comparadas"
+        ]
+      }
     },
     {
       "id": "A012",
-      "veredito": "VERDADEIRO",
-      "resumo": "O déficit primário do governo central somou R$ 335 bi de 2023 a 2025; 'dívida primária' não existe como conceito",
-      "explicacao": "'Dívida primária' não é conceito das estatísticas fiscais; o número da fala corresponde ao déficit primário acumulado do governo central. Pelos dados do Tesouro, foram R$ 230,5 bilhões em 2023, R$ 42,92 bilhões em 2024 e R$ 61,69 bilhões em 2025: R$ 335,11 bilhões em três anos, acima dos R$ 330 bilhões citados. As estimativas do Ipea, em valores corrigidos, dão resultado na mesma direção. O déficit de 2023 inclui o pagamento de precatórios atrasados, feito em dezembro daquele ano.",
+      "veredito": "IMPRECISO",
+      "resumo": "O valor bate com o déficit primário de 2023 a 2025 (R$ 335 bi), mas 'dívida primária' não existe: déficit não é dívida",
+      "explicacao": "'Dívida primária' não é conceito das estatísticas fiscais; o número da fala corresponde ao déficit primário acumulado do governo central. Pelos dados do Tesouro, foram R$ 230,5 bilhões em 2023, R$ 42,92 bilhões em 2024 e R$ 61,69 bilhões em 2025: R$ 335,11 bilhões em três anos, acima dos R$ 330 bilhões citados. As estimativas do Ipea, em valores corrigidos, dão resultado na mesma direção. O déficit de 2023 inclui o pagamento de precatórios atrasados, feito em dezembro daquele ano. 🔧 Na revisão adversarial de 27/set/2026, o veredito passou de verdadeiro para impreciso: o número está certo, mas o conceito não (a fala diz dívida, o dado é déficit), e é a mesma régua do §2.2 aplicada à A013 ('número certo, unidade errada').",
       "numero_dito": "mais de 330 bilhões de reais",
       "numero_apurado": "R$ 335,11 bilhões de déficit primário do governo central, 2023 a 2025",
       "data_de_referencia": "resultados anuais de 2023, 2024 e 2025",
@@ -507,7 +624,17 @@
           "de": "230,5 42,92 61,69",
           "como": "a mesma soma, arredondada para a tela"
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "alterado",
+        "nota": "O valor bate com o déficit primário acumulado, mas 'dívida primária' não existe e dívida e déficit são grandezas diferentes. Pela régua de conceito errado do §2.2, IMPRECISO, e não VERDADEIRO. Registrado em CORRECOES.md.",
+        "verificacoes": [
+          "déficits anuais do Tesouro somados",
+          "estimativas do Ipea comparadas"
+        ]
+      }
     },
     {
       "id": "A013",
@@ -549,7 +676,17 @@
           "trecho": "Governo corta 21.000 cargos e gratificações Alteração acaba com 3.190 funções Economia estimada é de R$ 195 mi É uma das 35 metas prioritárias",
           "prova": "Confirma o total, em apuração independente."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "O Decreto 9.725 extinguiu cargos, funções e gratificações, e não só cargos em comissão; a fala troca a categoria. IMPRECISO pela régua de unidade errada.",
+        "verificacoes": [
+          "texto do decreto no Planalto",
+          "duas reportagens"
+        ]
+      }
     },
     {
       "id": "A014",
@@ -582,7 +719,16 @@
           "trecho": "Desde janeiro de 2023, o governo Lula criou 4,4 mil novos postos desse tipo, destinados a funções de direção, chefia e assessoramento em órgãos públicos.",
           "prova": "O mesmo número, em veículo de outra linha editorial."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Nenhuma fonte traz 22 mil; a imprensa, com dados do governo, fala em 4,4 mil comissionados. Sem registro oficial conferível, SEM COMPROVAÇÃO; a explicação diz o que faltou.",
+        "verificacoes": [
+          "duas reportagens com dados do MGI"
+        ]
+      }
     },
     {
       "id": "A015",
@@ -615,7 +761,17 @@
           "trecho": "Art. 41-A. O valor dos benefícios em manutenção será reajustado, anualmente, na mesma data do reajuste do salário mínimo, pro rata , de acordo com suas respectivas datas de início ou do último reajustamento, com base no Índice Nacional de Preços ao Consumidor - INPC, apurado pela Fundação Instituto Brasileiro de Geografia e Estatística - IBGE.",
           "prova": "A regra dos demais benefícios: mesma data, pelo INPC."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "A pergunta afirma que benefícios são reajustados com o salário mínimo. A Constituição fixa o piso no mínimo e a Lei 8.213 reajusta os demais pelo INPC; a ressalva diz isso. Mesma régua aplicada à pergunta do entrevistador.",
+        "verificacoes": [
+          "art. 201 da Constituição",
+          "art. 41-A da Lei 8.213"
+        ]
+      }
     },
     {
       "id": "A016",
@@ -648,12 +804,22 @@
           "trecho": "Câmara aprova MP que busca coibir fraudes no INSS",
           "prova": "A finalidade antifraude, na cobertura da votação."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "A MP 871/2019 criou programas de revisão de benefícios com indício de irregularidade. 'Anticorrupção' é o nome dado pela fala; o card descreve o que a MP fez.",
+        "verificacoes": [
+          "texto da MP no Planalto",
+          "Agência Câmara"
+        ]
+      }
     },
     {
       "id": "A017",
       "veredito": "VERDADEIRO",
-      "resumo": "O PT se opôs à MP 871: 253 emendas, obstrução e voto contra, com parte das emendas afrouxando controles",
+      "resumo": "O PT se opôs à MP 871: 253 emendas, obstrução anunciada e fora do acordo que destravou a votação",
       "explicacao": "Na tramitação da MP 871, em 2019, o PT foi o partido que mais apresentou emendas (253), e deputados do partido anunciaram obstrução para que a medida 'não prosperasse'. Parte das emendas propunha afrouxar a revalidação anual dos descontos associativos, o ponto ligado à fraude posterior. Na votação final, a oposição fechou acordo para destravar a sessão, exceto o PT. A MP foi aprovada mesmo assim. Emendas no mesmo sentido também vieram de outros partidos, inclusive do PR, atual PL.",
       "numero_dito": null,
       "numero_apurado": null,
@@ -690,7 +856,17 @@
           "trecho": "A oposição, exceto pelo PT, topou desobstruir a votação em troca de estender o prazo para cadastro de trabalhadores rurais e pescadores na reforma da Previdência.",
           "prova": "O PT fora do acordo que destravou a votação, em veículo de outra linha editorial."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "alterado",
+        "nota": "O resumo dizia 'voto contra', mas a CNN registra, na fala de um deputado do PT, que o tema 'não foi objeto de votação nominal'. Troquei por 'fora do acordo que destravou a votação', que está nas fontes. O veredito VERDADEIRO fica: 253 emendas e obstrução anunciada. Registrado em CORRECOES.md.",
+        "verificacoes": [
+          "três reportagens relidas",
+          "trecho da CNN sobre ausência de votação nominal"
+        ]
+      }
     },
     {
       "id": "A018",
@@ -723,7 +899,17 @@
           "trecho": "os descontos em aposentadorias e pensões repassados a 11 entidades investigadas somaram cerca de R$ 6,3 bilhões entre 2019 e 2024.",
           "prova": "O mesmo período, em depoimento da PF à Câmara."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Os descontos indevidos vão de 2019 a 2024, com salto a partir de 2023; a ressalva diz que começaram no governo anterior, para não aceitar o recorte da fala sem contexto.",
+        "verificacoes": [
+          "Agência Câmara (CPMI)",
+          "reportagem com dados da CGU"
+        ]
+      }
     },
     {
       "id": "A019",
@@ -765,17 +951,27 @@
           "trecho": "Um incêndio iniciado durante a troca de uma bateria de íon-lítio em um datacenter do governo sul-coreano causou um efeito cascata, tirando 647 serviços digitais do ar",
           "prova": "Confirma, em texto independente."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "Coreia do Sul tem data center próprio do governo; Singapura usa nuvem comercial sob regras do governo. Metade da comparação não se sustenta como dita, IMPRECISO.",
+        "verificacoes": [
+          "página da GovTech de Singapura",
+          "duas reportagens sobre a Coreia do Sul"
+        ]
+      }
     },
     {
       "id": "A020",
-      "veredito": "VERDADEIRO",
-      "resumo": "A IFI estima R$ 147,7 bi de gastos fora dos limites fiscais de 2023 a 2026, embora dentro do orçamento",
-      "explicacao": "A Instituição Fiscal Independente do Senado estima que o governo termine 2026 com cerca de R$ 147,7 bilhões em exceções aos limites de gasto e à meta fiscal, somando precatórios e gastos extraordinários de 2023 a 2026; em outra conta, a IFI fala em R$ 230,7 bilhões de despesas excetuadas. A expressão 'fora do orçamento' não é exata: esses gastos estão no orçamento, mas fora do cálculo da meta e do limite.",
+      "veredito": "IMPRECISO",
+      "resumo": "A IFI estima R$ 147,7 bi fora dos limites fiscais de 2023 a 2026, mas esses gastos estão no orçamento, não fora dele",
+      "explicacao": "A Instituição Fiscal Independente do Senado estima que o governo termine 2026 com cerca de R$ 147,7 bilhões em exceções aos limites de gasto e à meta fiscal, somando precatórios e gastos extraordinários de 2023 a 2026; em outra conta, a IFI fala em R$ 230,7 bilhões de despesas excetuadas. A expressão 'fora do orçamento' troca o conceito: esses gastos estão no orçamento, mas fora do cálculo da meta e do limite. A prática existe; o termo da fala, não. Pela mesma régua aplicada a 'dívida primária' (A012), o veredito é IMPRECISO. 🔧 Até a revisão adversarial de 27/set/2026 o veredito era VERDADEIRO com ressalva; ver CORRECOES.md.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "estimativas da IFI para 2023 a 2026",
-      "ressalva": "Os gastos estão no orçamento, mas fora do cálculo da meta e do limite de despesas",
+      "ressalva": null,
       "confianca": "alta",
       "divergencia_entre_fontes": "As duas contas da IFI diferem (R$ 147,7 bilhões e R$ 230,7 bilhões) porque medem conjuntos diferentes de despesas excetuadas; as duas confirmam a prática.",
       "revisao_humana": null,
@@ -798,7 +994,18 @@
           "trecho": "Para a IFI, a retirada de despesas do cálculo da meta evidencia um enfraquecimento da regra fiscal. Nas contas do órgão, seriam 8,2% de despesas primárias excepcionalizadas, ou R$ 230,7 bilhões.",
           "prova": "Outra medida da IFI para as despesas excetuadas."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "alterado",
+        "nota": "A prática existe (R$ 147,7 bi fora dos limites, pela IFI), mas 'fora do orçamento' troca o conceito: os gastos estão no orçamento. Pela mesma régua aplicada a A012, IMPRECISO, e não VERDADEIRO com ressalva. 'Não está nem aí' é juízo e não foi checado. Registrado em CORRECOES.md.",
+        "verificacoes": [
+          "cálculo da IFI ano a ano",
+          "segunda medida da IFI (R$ 230,7 bi)",
+          "consistência com A012"
+        ]
+      }
     },
     {
       "id": "A021",
@@ -852,7 +1059,17 @@
           "de": "90 60,6",
           "como": "90 dividido por 60,6, menos 1"
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada da checagem)",
+        "data": "2026-09-27",
+        "decisao": "mantido",
+        "nota": "A sensibilidade oficial do Banco Central é de R$ 60,6 a 66,1 bi por ponto; a atualização seguinte dá R$ 68,9 bi. R$ 90 bi fica de 36% a 49% acima. IMPRECISO pela régua de 10%.",
+        "verificacoes": [
+          "tabela de elasticidades da nota de 31/07/2026",
+          "derivações refeitas"
+        ]
+      }
     }
   ]
 }

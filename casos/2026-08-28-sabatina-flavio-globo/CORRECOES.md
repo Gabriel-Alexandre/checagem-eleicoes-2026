@@ -20,14 +20,15 @@ Abra uma **issue** no repositório com a fonte que sustenta a contestação. A r
 
 | Data | Item | Estava | Passou a ser | Por quê |
 |---|---|---|---|---|
-| 27/set/2026 | abertura do registro | (nada) | caso dado por pronto para revisão humana | 19 checagens, 48 trechos conferidos contra a página capturada, validador em 0 erros e 0 avisos. Nenhuma correção posterior até esta data. |
+| 27/set/2026 | abertura do registro | (nada) | caso dado por pronto para a revisão adversarial | 19 checagens, 48 trechos conferidos contra a página capturada, validador em 0 erros e 0 avisos. Nenhuma correção posterior até esta data. |
 | 27/set/2026 | `A004`, `A005` e `A006` (extração) | três juízos de valor ("atacar a democracia", "farsa", "julgado pelos inimigos") extraídos como alegações e mostrados como cards NÃO CHECÁVEL | mantidos no arquivo, com este registro de que não deveriam ter entrado | A METODOLOGIA §4.2 diz que juízo de valor **não entra** como alegação; só a parte factual dele vira alegação separada, e os fatos destas frases já estavam checados em A001 a A003, A007 e A015 a A019. O erro foi apontado pelo autor do projeto ao ver o vídeo ("muitas partes focaram em juízo de valor"). Nenhum veredito mudou. O caso principal da sabatina de Flávio Bolsonaro passou a ser o bloco de economia (`casos/2026-08-28-sabatina-flavio-globo-economia`), escolhido por tema antes da checagem; este trecho fica no repositório como registro. |
+| 27/set/2026 | vídeo | trecho com a cartela de divulgação do g1 no fim e a cartela de encerramento do projeto | trecho cortado em 02:38,9, terminando com a fala | A cartela do g1 não é parte da entrevista, e o autor do projeto pediu que o vídeo termine junto com a fala. Nenhum veredito mudou por isso. |
 
 ---
 
-## O que ainda depende de leitura humana
+## Pontos para a revisão adversarial
 
-Antes de publicar, uma pessoa precisa ler, com as fontes abertas, em especial:
+A revisão deste trecho é por IA ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)), numa passada separada, e ainda não foi registrada: o caso principal passou a ser o bloco de economia. Quando for feita, deve olhar em especial:
 
 - `A009` (`FALSO`, confiança média): a leitura de "arma" pesa no veredito, e as duas versões oficiais sobre as armas levadas do GSI se contradizem;
 - `A013` (`FALSO`, confiança média): aplicação de norma a um caso, apoiada numa decisão definitiva, com um voto divergente;

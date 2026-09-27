@@ -5,6 +5,21 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.2.1] · 27/set/2026
+
+Pedido do autor depois de ver o vídeo do bloco de economia: o vídeo termina com a fala, e a revisão é da própria IA.
+
+### Mudado
+
+- **Sem cartela de encerramento** (`ENCERRAMENTO_S = 0`): o vídeo termina junto com a fala, ou com o congelamento de leitura quando a fila de cards passa do fim do trecho. O endereço do repositório continua na legenda de abertura e no selo.
+- **Sem a cartela de divulgação do g1**: os dois recortes do Flávio passaram a cortar na troca de cena antes dela (05:38,1 na economia, 02:38,9 no golpe), conferida quadro a quadro. Ela não é parte da entrevista.
+- **Revisão adversarial por IA** no lugar da revisão humana obrigatória: campo `revisao_ia` no esquema, `ferramentas/registrar-revisao.py --ia`, skill nova [`revisar-checagem`](skills/revisar-checagem.md) e aviso no validador para checagem sem revisão registrada. Publicar continua sendo decisão do autor.
+- O validador avisa quando a extração traz juízo, promessa ou hipótese como alegação (METODOLOGIA §4.2).
+
+### Corrigido no caso Flávio economia, com registro em `CORRECOES.md`
+
+A revisão adversarial aplicou a régua do §2.2 com mais rigor e mudou cinco checagens: `A005` (14% é a Selic nominal, não o juro real), `A007` (desvio de 14% no "um trilhão"), `A012` ("dívida primária" não existe) e `A020` ("fora do orçamento" troca o conceito) passaram de verdadeiro para impreciso; `A017` perdeu "voto contra" do resumo, que nenhuma fonte sustentava. Placar: 10 verdadeiro, 8 impreciso, 3 sem comprovação.
+
 ## [0.2.0] · 26/set/2026
 
 Segunda rodada: o repositório olhado de fora, as travas que faltavam, o que o público apontou no vídeo publicado, e o segundo caso.

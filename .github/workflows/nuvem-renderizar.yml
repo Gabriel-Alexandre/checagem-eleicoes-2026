@@ -69,13 +69,14 @@ jobs:
           slug, rid = os.environ["SLUG"], os.environ["RECORTE"]
           reg = next(r for r in json.load(open(f"casos/{slug}/recortes/RECORTES.json"))["recortes"] if r["id"] == rid)
           cmd = ["python", "-m", "checagem", "midia", slug, "recortar", rid,
-                 "--inicio", str(reg["origem_inicio_s"]), "--duracao", str(reg["duracao_s"] + 1),
+                 "--inicio", str(reg["origem_inicio_s"]), "--duracao", str(reg["duracao_s"]),
                  "--motivo", reg["motivo"]]
           if reg.get("enquadramento"):
               cmd.append("--enquadrar")
           subprocess.run(cmd, check=True)
           PY
-          # O índice versionado é o que vale; o recorte refeito só precisa caber nele.
+          # O índice versionado é o que vale. Duração exata, sem folga: o recorte corta antes de
+          # vinheta e cartela de divulgação do veículo, e 1s a mais trazia a cartela de volta.
           cp /tmp/RECORTES.versionado.json "casos/$SLUG/recortes/RECORTES.json"
 
       - name: overlay, render e porta

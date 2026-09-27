@@ -241,7 +241,7 @@ PY
 | `a mesma URL aparece duas vezes` | dois pedaços da mesma base citados como duas fontes | junte no mesmo `trecho`; duas entradas do mesmo endereço são uma fonte |
 | `o número X aparece em resumo mas não em nenhum trecho` | número calculado (subtração, unidade, arredondamento) | declare em `derivacoes`, com as parcelas e a conta |
 | `nenhuma fonte N1 ou N2` | alegação numérica sustentada só em imprensa | vá à base primária; a matéria serve de ponteiro, não de fonte |
-| `confiança baixa sem revisão humana` | veredito frágil sem alguém assinando | preencha `revisao_humana`, ou reveja o veredito |
+| `confiança baixa sem revisão registrada` | veredito frágil sem revisão | rode a skill `revisar-checagem` e registre com `registrar-revisao.py --ia`, ou reveja o veredito |
 | cartela entra muito depois da fala | alegações demais empilhadas no mesmo trecho | confira se houve fatiamento a mais; ⛔ não apague alegação para o vídeo ficar bonito |
 | `o vídeo é 1280x720 e as cartelas foram desenhadas para 1920x1080` | recorte de outra resolução | as cartelas são quadros inteiros; recorte na resolução da peça |
 | render sem áudio | a entrada não tinha faixa de áudio | o `renderizar` avisa; confira o recorte |

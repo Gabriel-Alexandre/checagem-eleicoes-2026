@@ -41,7 +41,8 @@ O veredito vale para **a data da fala**. Dado revisto depois vira `ressalva` com
 ## 4. O que a IA faz e o que ela não faz
 
 ✅ Transcreve, extrai, busca fonte, escreve veredito e monta o vídeo.
-⛔ **Não publica.** Nada vai ao ar sem uma pessoa ter lido os cards e as fontes.
+✅ **Revisa a própria checagem**, em passada separada e adversarial (skill `revisar-checagem`), e registra em `revisao_ia`. 🔧 Desde 27/set/2026 esta é a revisão do projeto, por decisão do autor.
+⛔ **Não publica.** Publicar é decisão do autor do projeto.
 ⛔ Não conclui sobre a pessoa. A contagem é dado do caso; ⛔ "mentiu N vezes" não é saída deste
 repositório, nem no relatório, nem na peça de divulgação.
 

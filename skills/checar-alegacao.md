@@ -119,8 +119,8 @@ Três travas do `resumo`:
 | `divergencia_entre_fontes` | ⛔ silenciar divergência é o pior defeito possível aqui. Se IBGE e FGV não batem, isso vai escrito |
 | `confianca` | `alta` (N1 direta e inequívoca) · `media` (exige interpretação, ou só N2/N3) · `baixa` (fontes divergem, ou o dado tem revisão pendente) |
 
-🔴 **`confianca: "baixa"` exige `revisao_humana` preenchida.** O validador reprova sem ela. Um
-veredito frágil pode ir ao ar, mas só com uma pessoa assinando a decisão.
+🔴 **`confianca: "baixa"` exige revisão registrada** (`revisao_ia`, da skill `revisar-checagem`, ou
+`revisao_humana`). O validador reprova sem ela.
 
 ### 7. Cada fonte carrega a sua própria prova
 

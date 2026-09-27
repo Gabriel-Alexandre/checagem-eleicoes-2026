@@ -3,14 +3,14 @@
   "recorte": "bloco-economia",
   "alvo": "recortes/bloco-economia.mp4",
   "base_s": 0.0,
-  "duracao_s": 343.105,
+  "duracao_s": 338.088,
   "largura": 1920,
   "altura": 1080,
   "gerado_em": "2026-09-27",
   "selo": {
     "arquivo": "overlay/cartelas-bloco-economia/_selo.png",
     "entra_s": 0.0,
-    "sai_s": 351.105
+    "sai_s": 338.088
   },
   "legenda": {
     "arquivo": "overlay/cartelas-bloco-economia/_legenda.png",
@@ -18,21 +18,15 @@
     "sai_s": 7.5
   },
   "congelamento": {
-    "entra_s": 343.105,
-    "sai_s": 343.105,
+    "entra_s": 338.088,
+    "sai_s": 338.088,
     "duracao_s": 0.0
   },
-  "encerramento": {
-    "arquivo": "overlay/cartelas-bloco-economia/_encerramento.png",
-    "entra_s": 343.105,
-    "sai_s": 351.105,
-    "duracao_s": 8.0,
-    "revisao_humana": "0 de 21"
-  },
+  "encerramento": null,
   "contagem_por_veredito": {
-    "VERDADEIRO": 14,
+    "VERDADEIRO": 10,
     "INSUSTENTAVEL": 3,
-    "IMPRECISO": 4
+    "IMPRECISO": 8
   },
   "cartelas": [
     {
@@ -83,19 +77,19 @@
       "id": "A005",
       "arquivo": "overlay/cartelas-bloco-economia/A005.png",
       "entra_s": 64.42,
-      "sai_s": 70.12,
+      "sai_s": 70.72,
       "atraso_s": 0.2,
       "atraso_do_fim_s": 0.0,
-      "veredito": "VERDADEIRO",
+      "veredito": "IMPRECISO",
       "tempo_na_peca_s": 64.22,
       "cortado_na_tela": []
     },
     {
       "id": "A006",
       "arquivo": "overlay/cartelas-bloco-economia/A006.png",
-      "entra_s": 70.32,
+      "entra_s": 70.92,
       "sai_s": 79.46,
-      "atraso_s": 0.98,
+      "atraso_s": 1.58,
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 69.34,
@@ -108,7 +102,7 @@
       "sai_s": 88.6,
       "atraso_s": 0.2,
       "atraso_do_fim_s": 0.0,
-      "veredito": "VERDADEIRO",
+      "veredito": "IMPRECISO",
       "tempo_na_peca_s": 79.46,
       "cortado_na_tela": []
     },
@@ -163,7 +157,7 @@
       "sai_s": 206.98,
       "atraso_s": 0.2,
       "atraso_do_fim_s": 0.0,
-      "veredito": "VERDADEIRO",
+      "veredito": "IMPRECISO",
       "tempo_na_peca_s": 197.08,
       "cortado_na_tela": []
     },
@@ -251,7 +245,7 @@
       "sai_s": 288.64,
       "atraso_s": 0.0,
       "atraso_do_fim_s": 0.0,
-      "veredito": "VERDADEIRO",
+      "veredito": "IMPRECISO",
       "tempo_na_peca_s": 279.46,
       "cortado_na_tela": []
     },

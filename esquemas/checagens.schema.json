@@ -4,22 +4,44 @@
   "title": "Checagens de um caso",
   "description": "Saída do PASSO 5. Uma checagem por alegação, na mesma ordem. O validador recusa checagem sem alegação correspondente e alegação sem checagem.",
   "type": "object",
-  "required": ["caso", "gerado_em", "fonte_alegacoes", "checagens"],
+  "required": [
+    "caso",
+    "gerado_em",
+    "fonte_alegacoes",
+    "checagens"
+  ],
   "additionalProperties": false,
   "properties": {
-    "caso": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$" },
-    "gerado_em": { "type": "string", "format": "date" },
-    "fonte_alegacoes": { "type": "string" },
+    "caso": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$"
+    },
+    "gerado_em": {
+      "type": "string",
+      "format": "date"
+    },
+    "fonte_alegacoes": {
+      "type": "string"
+    },
     "checagens": {
       "type": "array",
       "minItems": 1,
-      "items": { "$ref": "#/$defs/checagem" }
+      "items": {
+        "$ref": "#/$defs/checagem"
+      }
     }
   },
   "$defs": {
     "checagem": {
       "type": "object",
-      "required": ["id", "veredito", "resumo", "explicacao", "fontes", "confianca"],
+      "required": [
+        "id",
+        "veredito",
+        "resumo",
+        "explicacao",
+        "fontes",
+        "confianca"
+      ],
       "additionalProperties": false,
       "properties": {
         "id": {
@@ -29,7 +51,13 @@
         },
         "veredito": {
           "type": "string",
-          "enum": ["VERDADEIRO", "IMPRECISO", "INSUSTENTAVEL", "FALSO", "NAO_CHECAVEL"]
+          "enum": [
+            "VERDADEIRO",
+            "IMPRECISO",
+            "INSUSTENTAVEL",
+            "FALSO",
+            "NAO_CHECAVEL"
+          ]
         },
         "resumo": {
           "type": "string",
@@ -43,39 +71,79 @@
           "description": "o raciocínio completo: que dado resolve, o que a fonte diz, por que este veredito e não o vizinho. Vai para o relatório, não para a tela."
         },
         "numero_dito": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "o valor como foi falado"
         },
         "numero_apurado": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "o valor que as fontes sustentam"
         },
         "data_de_referencia": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "a que data/período o dado apurado se refere. Obrigatório quando o tipo é serie_historica, numero ou valor_monetario."
         },
         "ressalva": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "o 'certo, mas' — arredondamento, recorte, intervalo de confiança. Aparece no card quando existe."
         },
         "confianca": {
           "type": "string",
-          "enum": ["alta", "media", "baixa"],
-          "description": "alta = fonte N1 direta e inequívoca; media = N1 exige interpretação, ou só N2/N3; baixa = fontes divergem ou o dado tem revisão pendente. ⛔ confiança baixa não vai para o vídeo sem revisão humana registrada."
+          "enum": [
+            "alta",
+            "media",
+            "baixa"
+          ],
+          "description": "alta = fonte N1 direta e inequívoca; media = N1 exige interpretação, ou só N2/N3; baixa = fontes divergem ou o dado tem revisão pendente. ⛔ confiança baixa não vai para o vídeo sem revisão registrada (por IA ou humana)."
         },
         "divergencia_entre_fontes": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "escrito sempre que fontes qualificadas não batem. Silenciar divergência é o pior defeito possível aqui."
         },
         "revisao_humana": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "additionalProperties": false,
-          "required": ["revisor", "data", "decisao"],
+          "required": [
+            "revisor",
+            "data",
+            "decisao"
+          ],
           "properties": {
-            "revisor": { "type": "string" },
-            "data": { "type": "string", "format": "date" },
-            "decisao": { "type": "string", "enum": ["mantido", "alterado", "removido"] },
-            "nota": { "type": "string" }
+            "revisor": {
+              "type": "string"
+            },
+            "data": {
+              "type": "string",
+              "format": "date"
+            },
+            "decisao": {
+              "type": "string",
+              "enum": [
+                "mantido",
+                "alterado",
+                "removido"
+              ]
+            },
+            "nota": {
+              "type": "string"
+            }
           }
         },
         "derivacoes": {
@@ -83,7 +151,11 @@
           "description": "Números que NÃO estão literalmente em nenhuma fonte porque saíram de uma conta feita sobre os trechos citados: subtração de dois pontos de uma série, conversão de unidade, arredondamento. Declarar a conta é o que mantém a regra 6 da METODOLOGIA §3.1 de pé sem transformá-la em exceção genérica. O validador confere que TODAS as parcelas de `de` aparecem em algum trecho, e só então aceita `valor`.",
           "items": {
             "type": "object",
-            "required": ["valor", "de", "como"],
+            "required": [
+              "valor",
+              "de",
+              "como"
+            ],
             "additionalProperties": false,
             "properties": {
               "valor": {
@@ -104,37 +176,117 @@
         },
         "fontes": {
           "type": "array",
-          "items": { "$ref": "#/$defs/fonte" }
+          "items": {
+            "$ref": "#/$defs/fonte"
+          }
+        },
+        "revisao_ia": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "revisor",
+            "data",
+            "decisao",
+            "nota"
+          ],
+          "description": "Revisão adversarial feita por IA em passada separada, depois da checagem (skill revisar-checagem). É a revisão que o projeto usa por padrão; `revisao_humana` continua disponível para quando uma pessoa também ler.",
+          "properties": {
+            "revisor": {
+              "type": "string"
+            },
+            "data": {
+              "type": "string",
+              "format": "date"
+            },
+            "decisao": {
+              "type": "string",
+              "enum": [
+                "mantido",
+                "alterado",
+                "removido"
+              ]
+            },
+            "nota": {
+              "type": "string",
+              "minLength": 20
+            },
+            "verificacoes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
         }
       },
       "allOf": [
         {
           "if": {
-            "properties": { "veredito": { "const": "NAO_CHECAVEL" } }
+            "properties": {
+              "veredito": {
+                "const": "NAO_CHECAVEL"
+              }
+            }
           },
           "then": {
-            "properties": { "fontes": { "minItems": 0 } }
+            "properties": {
+              "fontes": {
+                "minItems": 0
+              }
+            }
           },
           "else": {
-            "properties": { "fontes": { "minItems": 2 } }
+            "properties": {
+              "fontes": {
+                "minItems": 2
+              }
+            }
           }
         }
       ]
     },
     "fonte": {
       "type": "object",
-      "required": ["nivel", "instituicao", "titulo", "url", "consultada_em", "trecho", "prova"],
+      "required": [
+        "nivel",
+        "instituicao",
+        "titulo",
+        "url",
+        "consultada_em",
+        "trecho",
+        "prova"
+      ],
       "additionalProperties": false,
       "properties": {
         "nivel": {
           "type": "string",
-          "enum": ["N1", "N2", "N3", "N4"],
+          "enum": [
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
           "description": "N5 não existe aqui: rede social, blog, site partidário e memória de modelo não entram."
         },
-        "instituicao": { "type": "string", "minLength": 2 },
-        "titulo": { "type": "string", "minLength": 4 },
-        "url": { "type": "string", "format": "uri" },
-        "consultada_em": { "type": "string", "format": "date" },
+        "instituicao": {
+          "type": "string",
+          "minLength": 2
+        },
+        "titulo": {
+          "type": "string",
+          "minLength": 4
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "consultada_em": {
+          "type": "string",
+          "format": "date"
+        },
         "trecho": {
           "type": "string",
           "minLength": 20,

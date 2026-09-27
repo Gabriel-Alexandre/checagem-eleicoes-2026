@@ -21,7 +21,7 @@ vídeo ──▶ [1] mídia ──▶ [2] transcrição ──▶ [3] falantes
                      [6] cartelas PNG                         RELATORIO.md
                               │
                               ▼
-                     [7] render ffmpeg ──▶ [8] validador ──▶ revisão humana
+                     [7] render ffmpeg ──▶ [8] validador ──▶ revisão por IA
 ```
 
 **Determinístico:** 1, 2, 6, 7, 8. **Julgamento:** 3 (revisado), 4, 5 e a revisão final.

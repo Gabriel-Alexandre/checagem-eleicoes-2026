@@ -94,7 +94,7 @@ Um número só é rebaixado de `VERDADEIRO` para `IMPRECISO` quando o desvio **m
 
    O validador confere que **todas as parcelas de `de` aparecem em algum `trecho`** e só então aceita o valor. 🔧 A única parcela que pode vir de fora dos trechos é **o número dito**, que tem lastro na transcrição: é o caso da conta que mede o desvio da fala, como "94 contra 92,4 = 1,7%", exigida pela régua do §2.2. 🔑 A diferença entre isto e uma exceção genérica é que aqui a conta fica escrita e qualquer pessoa refaz. ⛔ Não use `derivacoes` para dar passagem a número que você não achou: isso é `INSUSTENTAVEL`.
 
-   ⚠️ **O que a regra 6 não pega:** ano. `1986` em "a maior taxa desde 1986" passa pelo validador porque ano é tratado como data, não como quantidade. Isso é decisão consciente para o aviso não virar ruído, e o preço é que **ano errado só cai numa leitura que não seja o validador**. Aconteceu na primeira rodada deste repositório, e está registrado em `casos/2026-08-27-sabatina-lula-globo/CORRECOES.md`. 🔧 **Quem pegou foi uma segunda leitura da própria IA, não uma pessoa** (até 11/set este parágrafo dizia "revisão humana", e estava errado). É exatamente por isso que a revisão humana segue obrigatória antes de publicar: uma releitura da mesma IA pegou este caso, e nada garante que pegue o próximo.
+   ⚠️ **O que a regra 6 não pega:** ano. `1986` em "a maior taxa desde 1986" passa pelo validador porque ano é tratado como data, não como quantidade. Isso é decisão consciente para o aviso não virar ruído, e o preço é que **ano errado só cai numa leitura que não seja o validador**. Aconteceu na primeira rodada deste repositório, e está registrado em `casos/2026-08-27-sabatina-lula-globo/CORRECOES.md`. 🔧 **Quem pegou foi uma segunda leitura da própria IA, não uma pessoa** (até 11/set este parágrafo dizia "revisão humana", e estava errado). É exatamente por isso que a revisão é uma passada adversarial separada, com nota por checagem (§6): uma releitura da mesma IA pegou este caso, e só uma releitura que tenta derrubar o veredito, em vez de confirmá-lo, dá chance de pegar o próximo.
 
    🔧 **Desde a versão 0.2.0 (26/set/2026), o ano também é cobrado**, por uma trava separada (`anos_de()` no validador): todo ano que aparece em `resumo`, `ressalva` ou `numero_apurado` precisa estar num trecho de fonte, na própria fala, na `data_de_referencia` ou numa derivação declarada. Ela gera **aviso**, não erro, porque ano aparece em lugar legítimo demais para reprovar sem leitura; e o aviso tem que ser lido e resolvido, não ignorado. Na primeira passada ela achou cinco textos de tela do caso publicado com ano ou número sem trecho, todos registrados em `CORRECOES.md` do caso. A mesma versão estendeu a regra 6 à `ressalva`, que também vai para a tela e antes não era conferida.
 
@@ -159,9 +159,10 @@ Estes são os erros que transformam checagem em militância. Cada um já derrubo
 | 5. Checar cada alegação | **IA**, seguindo a skill `checar-alegacao`, com busca na web | ❌ julgamento |
 | 6. Validar schema, fontes e contagem | script | ✅ |
 | 7. Montar overlay e renderizar | script | ✅ |
-| 8. Revisão final | **humano** | ❌ |
+| 8. Revisão adversarial de cada checagem | **IA**, em passada separada, seguindo a skill `revisar-checagem` | ❌ julgamento, registrado em `revisao_ia` |
+| 9. Publicar | **o autor do projeto** | decisão, não etapa técnica |
 
-> 🔴 **A IA analisa. O humano publica.** Nenhum vídeo vai ao ar sem um humano ter lido os cards e as fontes. O repositório é aberto justamente para que esse humano não precise ser o autor.
+> 🔧 **Desde 27/set/2026 a revisão é feita pela própria IA**, por decisão do autor: o objetivo do projeto é avaliar com a IA, não depender de leitura humana. Para a revisão não virar carimbo, ela roda em passada separada, tenta derrubar cada veredito e deixa uma nota por checagem (`revisao_ia`); o validador avisa quando falta. Publicar continua sendo decisão do autor. O repositório é aberto para que qualquer pessoa confira e conteste.
 
 ---
 

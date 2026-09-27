@@ -41,13 +41,12 @@ python -m checagem renderizar <slug> --recorte <id>
 ```
 
 `libx264 crf 16 preset slow`, `yuv420p`, áudio **copiado** sem reencodar, `+faststart`.
-O script confere sozinho que a duração de saída casa com a de entrada, **mais os segundos da
-cartela de encerramento**, e que a faixa de áudio sobreviveu.
+O script confere sozinho que a duração de saída casa com a de entrada (mais o congelamento de
+leitura, quando houver) e que a faixa de áudio sobreviveu.
 
-🔧 **A cartela de encerramento** fica sobre o último quadro congelado, depois do fim do trecho:
-diz onde conferir as fontes, como contestar e **quantas checagens tiveram revisão humana**. Ela é
-acrescentada ao fim, e não sobreposta, para nunca disputar a tela com um card. O áudio continua
-copiado; ele simplesmente acaba antes do vídeo.
+🔧 **O vídeo termina com a fala.** Desde 27/set/2026 não há cartela de encerramento
+(`ENCERRAMENTO_S = 0`), por decisão do autor, e o recorte corta antes de vinhetas e cartelas de
+divulgação do veículo, que não são parte da entrevista.
 
 ⏱️ ~1 a 3 min para 5 minutos de vídeo. Uma peça de 45 min leva de 20 a 40 min.
 
@@ -100,11 +99,10 @@ cada alegação com veredito, a análise inteira e o trecho copiado de cada font
 
 Antes de publicar, três coisas que não são técnicas:
 
-1. **Uma pessoa leu os cards e as fontes**, e registrou isso:
-   `python ferramentas/registrar-revisao.py <slug> --recorte <id> --revisor "Nome"`. A skill
-   `checar-alegacao` produz; a publicação é decisão humana. ⛔ A IA não preenche este campo em
-   nome de ninguém. Depois de registrar, rode o PASSO 6 de novo: a cartela de encerramento
-   mostra a contagem.
+1. **A revisão adversarial foi feita e registrada** (skill `revisar-checagem`):
+   `python ferramentas/registrar-revisao.py <slug> --recorte <id> --ia --notas revisao.json`.
+   O validador avisa enquanto faltar alguma. 🔧 Desde 27/set/2026 é a revisão do projeto, feita
+   pela própria IA em passada separada; publicar continua sendo decisão do autor.
 2. **Direito de resposta declarado.** O `README` do caso diz como contestar e o que acontece
    quando a contestação procede.
 3. **O vídeo aponta para o repositório.** Card sem fonte visível vira acusação sem lastro; a marca

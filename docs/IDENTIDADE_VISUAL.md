@@ -88,12 +88,13 @@ Nenhuma cartela entra enquanto a legenda está na tela: a fila de cards começa 
 "todo mundo entende": a diferença entre `IMPRECISO` e `SEM COMPROVAÇÃO` é justamente o que
 distingue este projeto de um selo de "fake news".
 
-## 6.1 A cartela de encerramento
+## 6.1 A cartela de encerramento (desligada)
+
+🔧 **Desligada desde 27/set/2026** (`ENCERRAMENTO_S = 0`): o autor preferiu que o vídeo termine junto com a fala, e o endereço do repositório já está na legenda de abertura e no selo. O texto abaixo descreve a cartela para quem religar.
 
 8 segundos, **depois** do fim do trecho, sobre o último quadro congelado. Responde às três
 perguntas que um corte do vídeo deixa sem resposta: onde estão as fontes (o endereço), como se
-contesta (issue com fonte) e **quanto disto uma pessoa já leu** ("Revisão humana registrada: X
-de N", ou "nenhuma até esta versão").
+contesta (issue com fonte) e **quanto disto uma pessoa já leu** ("Revisão registrada: X de N").
 
 Por que depois e não sobre os últimos segundos: sobreposta, ela disputaria a tela com o último
 card. Por que o quadro congelado e não uma tela preta: o espectador continua vendo de onde veio.
@@ -107,6 +108,16 @@ Citação, resumo e ressalva têm **no máximo duas linhas** (`MAX_LINHAS_*` em 
 Acima disso a cartela corta com reticências e o PASSO 6 e o validador **avisam**. Para a
 citação, o conserto é `citacao_card` (trecho literal menor, conferido contra a transcrição);
 para resumo e ressalva, reescrever. ⛔ Nunca diminuir a fonte ou aumentar o limite por caso.
+
+## 6.3 Vídeo de origem vertical
+
+A saída é sempre 1920x1080. Quando o único arquivo oficial obtido é vertical (os trechos que o g1 publica em rede social, caso das duas peças de Flávio Bolsonaro), o recorte usa `--enquadrar`: a imagem inteira fica no centro, na altura toda, sem corte e sem deformação, e as laterais recebem uma cópia desfocada e escurecida do próprio vídeo. ⛔ Não se corta a imagem vertical para preencher o quadro: some o rosto de quem fala ou a cartela do veículo com o nome.
+
+Preferir sempre a íntegra horizontal. Ela só não é usada quando não pôde ser obtida sem contornar trava de acesso, e isso fica escrito na procedência do `CASO.json`.
+
+## 6.4 Onde o vídeo termina
+
+Na última fala do trecho, ou no fim do congelamento de leitura (§7). O recorte corta **antes** de vinheta, chamada ou cartela de divulgação do veículo (por exemplo, "Veja a íntegra da entrevista em g1.com.br/eleicoes"), que não é parte da entrevista: o ponto de corte é a troca de cena, conferida quadro a quadro, e vai no `motivo` do recorte.
 
 ## 7. Tempo de tela
 

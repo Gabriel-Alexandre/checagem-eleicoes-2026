@@ -71,10 +71,8 @@ def _nivel_de_audio(caminho: Path) -> float | None:
 
 def _acrescimo(plano: dict) -> float:
     """Segundos acrescentados ao fim do trecho: congelamento de leitura mais encerramento."""
-    if not plano.get("encerramento"):
-        return 0.0
     return (float((plano.get("congelamento") or {}).get("duracao_s", 0.0))
-            + float(plano["encerramento"]["duracao_s"]))
+            + float((plano.get("encerramento") or {}).get("duracao_s", 0.0)))
 
 
 def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
@@ -87,8 +85,8 @@ def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
     # O áudio não é tocado: continua copiado, e simplesmente acaba antes do vídeo.
     # Antes dele, o congelamento de leitura (se a fila de cards passou do fim do trecho).
     fim = plano.get("encerramento")
-    if fim:
-        extra = _acrescimo(plano)
+    extra = _acrescimo(plano)
+    if extra > 0:
         linhas.append(f"[0:v]tpad=stop_mode=clone:stop_duration={extra:.3f}[base]")
         atual = "base"
 

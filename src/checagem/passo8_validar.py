@@ -336,7 +336,7 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
 
         fontes = c.get("fontes", [])
         urls_citadas |= {f["url"] for f in fontes}
-        if c.get("revisao_humana"):
+        if c.get("revisao_ia") or c.get("revisao_humana"):
             revisadas += 1
 
         # Regras de escrita do que vai para a tela (.cursor/rules/escrita-de-card.mdc).
@@ -460,8 +460,8 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
                                   "não mostra o valor apurado: o card tem que dizer o arredondamento "
                                   "(METODOLOGIA §2.2)")
 
-        if c.get("confianca") == "baixa" and not c.get("revisao_humana"):
-            rel.erro(f"{aid}: confiança baixa sem revisão humana registrada")
+        if c.get("confianca") == "baixa" and not (c.get("revisao_ia") or c.get("revisao_humana")):
+            rel.erro(f"{aid}: confiança baixa sem revisão registrada (IA ou humana)")
         if v in ("FALSO", "INSUSTENTAVEL") and len(c.get("explicacao", "")) < 120:
             rel.aviso(f"{aid} [{v}]: explicação curta para um veredito pesado")
 
@@ -472,8 +472,14 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
     rel.nota("alegações por papel: " + " · ".join(f"{k} {n}" for k, n in sorted(por_papel.items())))
     rel.nota("vereditos: " + " · ".join(
         f"{cfg.VEREDITOS[k].rotulo} {n}" for k, n in sorted(por_veredito.items())))
-    rel.nota(f"revisão humana registrada: {revisadas} de {len(checagens)} checagens"
-             + (" (a doutrina manda uma pessoa ler antes de publicar)" if revisadas == 0 else ""))
+    # 🔧 27/set/2026: a revisão do projeto é feita pela própria IA, numa passada adversarial
+    # separada da checagem (skills/revisar-checagem.md). Checagem sem revisão é aviso, não nota:
+    # o caso não está pronto.
+    rel.nota(f"revisão registrada: {revisadas} de {len(checagens)} checagens (IA ou humana)")
+    if revisadas < len(checagens):
+        rel.aviso(f"{len(checagens) - revisadas} checagem(ns) sem revisão registrada: rode a "
+                  "revisão adversarial (skills/revisar-checagem.md) e registre com "
+                  "ferramentas/registrar-revisao.py --ia")
     if urls_capturadas is not None:
         recusadas = {c["url"] for c in capturas_doc.get("capturas", []) if not c.get("sha256")}
         sem_captura = sorted(urls_citadas - urls_capturadas - recusadas)

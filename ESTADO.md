@@ -1,6 +1,6 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 27/set/2026 (versão 0.2.0, dois casos)
+**Atualizado em:** 27/set/2026 (versão 0.2.1, dois casos)
 
 Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que está pronto, o que falta, e o comando exato para retomar. ⛔ Ele não guarda doutrina: isso é [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -8,7 +8,7 @@ Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que es
 
 ## Em uma frase
 
-O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/NUVEM.md`](docs/NUVEM.md)). **Dois casos principais** estão fechados para revisão humana: o bloco de contas públicas da sabatina de Lula (auditado e corrigido em 26/set) e o **bloco de economia** da sabatina de Flávio Bolsonaro (refeito em 27/set a pedido do autor). O primeiro trecho do Flávio, sobre a tentativa de golpe, fica como registro. Nenhum dos dois tem revisão humana registrada.
+O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/NUVEM.md`](docs/NUVEM.md)). **Dois casos principais** estão fechados: o bloco de contas públicas da sabatina de Lula (auditado e corrigido em 26/set) e o **bloco de economia** da sabatina de Flávio Bolsonaro (refeito em 27/set a pedido do autor). O primeiro trecho do Flávio, sobre a tentativa de golpe, fica como registro. A revisão é por IA, em passada adversarial separada ([`skills/revisar-checagem.md`](skills/revisar-checagem.md)): registrada nas 21 checagens do bloco de economia, ainda não nos outros dois casos. O vídeo termina com a fala: sem cartela de encerramento e sem a cartela de divulgação do g1.
 
 ---
 
@@ -17,9 +17,9 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Camada | Estado |
 |---|---|
 | Pipeline (8 passos) | ✅ completo; recorte com `--enquadrar` para vídeo vertical; tempo de leitura e congelamento final no overlay |
-| Validador | ✅ travas da 0.2.0: ano, ressalva, intenção, travessão, cobertura, `citacao_card`, arredondamento, capturas, plano |
+| Validador | ✅ travas da 0.2.0: ano, ressalva, intenção, travessão, cobertura, `citacao_card`, arredondamento, capturas, plano; na 0.2.1, aviso para juízo extraído como alegação e para checagem sem revisão registrada |
 | Evidência | ✅ captura de fonte com sha256 e conferência de trecho contra a página (`checagens/CAPTURAS.json`) |
-| Nuvem | ✅ quatro workflows: preparar mídia, capturar fontes, segunda passada, renderizar |
+| Nuvem | ✅ cinco workflows: preparar mídia, capturar fontes, segunda passada, renderizar, sondar vídeos |
 | Testes | ✅ 83 passando, incluindo regressão sobre os três casos reais |
 | CI | ✅ `.github/workflows/validar.yml`: lint, testes, validador de todos os casos, plano de overlay sem diferença, links |
 
@@ -34,21 +34,22 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Fontes | 56 citações, 38 URLs, 24 instituições; 32 URLs com captura assinada (as demais recusaram o robô, e isso está registrado) |
 | Correções | [`CORRECOES.md`](casos/2026-08-27-sabatina-lula-globo/CORRECOES.md), com a auditoria de 26/set e as contestações do vídeo publicado |
 | Validador | ✅ 0 erros, 1 aviso (`A016` entra 13,1s depois da fala, por causa do tempo de leitura dos cards anteriores) |
-| Vídeo | ⚠️ **precisa ser renderizado de novo** por quem tem o arquivo de origem: o plano mudou (textos corrigidos, encerramento, tempo de leitura, 2s de congelamento final). O arquivo de origem não está no repositório nem no rascunho |
+| Vídeo | ⚠️ **precisa ser renderizado de novo** por quem tem o arquivo de origem: o plano mudou (textos corrigidos, tempo de leitura, congelamento final; sem cartela de encerramento desde 27/set). O arquivo de origem não está no repositório nem no rascunho |
 
 ### Caso 3 (principal do Flávio) · `casos/2026-08-28-sabatina-flavio-globo-economia`
 
 | | |
 |---|---|
 | Por que existe | O autor avaliou que o trecho do golpe tinha muito juízo de valor e pouco fato conferível. Uma sondagem de 15 vídeos (`sondagem-rodada-1.json`) achou o segundo trecho oficial do g1: o bloco inteiro de economia, escolhido por tema, como o do Lula |
-| Peça | trecho oficial do g1 (Facebook 1023993500397311), 5min43s, vertical 540x960, sha256 `ae35ff24…`. A íntegra horizontal segue inacessível (YouTube recusa o runner; Globoplay só no Brasil) |
+| Peça | trecho oficial do g1 (Facebook 1023993500397311), 5min43s, vertical 540x960, sha256 `ae35ff24…`. É vertical porque é o único arquivo oficial obtido: a íntegra horizontal segue inacessível (YouTube recusa o runner; Globoplay só no Brasil). O recorte `bloco-economia` vai até 05:38,1, antes da cartela de divulgação do g1, e usa `--enquadrar` (imagem inteira no centro de um quadro 1920x1080) |
 | Transcrição | 94 segmentos; 5 correções com segunda passada; 3 leituras não resolvidas, declaradas |
 | Falantes | César Tralli, Renata Vasconcellos e Flávio Bolsonaro; trocas conferidas quadro a quadro e contra o Poder360 |
 | Alegações | 21, só fato (5 dos entrevistadores, 16 do entrevistado); nenhum juízo, promessa ou hipótese |
-| Vereditos | 14 verdadeiro · 4 impreciso · 3 sem comprovação |
+| Vereditos | 10 verdadeiro · 8 impreciso · 3 sem comprovação (5 mudanças da revisão adversarial por IA de 27/set, registradas em `CORRECOES.md`) |
+| Revisão | ✅ `revisao_ia` nas 21 checagens: 16 mantidas, 5 alteradas |
 | Fontes | 55 trechos, 53 URLs, todos conferidos contra a página capturada (7 rodadas de captura) |
 | Validador | ✅ 0 erros, 2 avisos (A011 e A014 sem fonte N1/N2, e por isso sem comprovação) |
-| Vídeo | ✅ 1920x1080, 5min51s, cards dentro do trecho, sem congelamento; conferido quadro a quadro. Renderizado de novo no runner (`nuvem-renderizar`, porta aprovada) e publicado no rascunho `nuvem-2026-08-28-sabatina-flavio-globo-economia`: 130,5 MB, sha256 `0a29bb26ff398293193addd1717c86ebb5e25ea084e181886eea17d2e64a8482` |
+| Vídeo | ✅ 1920x1080, termina com a última fala, sem cartela do g1 nem de encerramento; renderizado localmente em 27/set e conferido no fim quadro a quadro. Pedido de render no runner em `render/PEDIDO_RENDER.json` (rodada 2) para o MP4 de referência no rascunho `nuvem-2026-08-28-sabatina-flavio-globo-economia` |
 
 ### Caso 2 (registro) · `casos/2026-08-28-sabatina-flavio-globo`
 
@@ -60,14 +61,14 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Alegações | 19 (15 do entrevistado, 4 do entrevistador), cobertura do trecho inteiro, extraídas antes de qualquer busca |
 | Vereditos | 12 verdadeiro · 1 impreciso · 1 sem comprovação · 2 falso · 3 não checável |
 | Fontes | 48 citações, 33 URLs, 16 instituições; 33 de 33 com captura assinada; 48 de 48 trechos encontrados na página capturada |
-| Validador | ✅ 0 erros, 0 avisos |
-| Vídeo | ✅ 1920x1080, 3min12s (2min44s do trecho, 19,7s de congelamento de leitura, 8s de encerramento), renderizado e conferido quadro a quadro na sessão de 27/set. O MP4 de referência foi renderizado de novo pelo workflow `nuvem-renderizar` em 27/set (plano idêntico ao versionado, porta em 0 erros e 0 avisos) e está no release em rascunho `nuvem-2026-08-28-sabatina-flavio-globo`: 62,8 MB, sha256 `32ec046350bfcb35dbf0904219751e907bb4fa278c3dda0088db1bc044aed3c4` |
+| Validador | ✅ 0 erros; avisos para os três juízos extraídos (`A004` a `A006`, registrados em `CORRECOES.md`) e para a revisão ainda não registrada |
+| Vídeo | recorte refeito até 02:38,9, antes da cartela do g1, e plano sem encerramento. Pedido de render no runner em `render/PEDIDO_RENDER.json` (rodada 2); até ele rodar, o MP4 do rascunho `nuvem-2026-08-28-sabatina-flavio-globo` (62,8 MB) é o anterior, com as duas cartelas |
 
 ---
 
 ## ⬜ O que falta, em ordem de valor
 
-1. 🔴 **Revisão humana dos casos.** Nenhuma checagem tem `revisao_humana`. Prioridade: Flávio economia `A005`, `A007`, `A010`, `A011`, `A014`; Lula `A007` e `A017`. Registrar com `python ferramentas/registrar-revisao.py`.
+1. 🔴 **Revisão adversarial por IA do caso Lula e do trecho do golpe** ([`skills/revisar-checagem.md`](skills/revisar-checagem.md)), registrada com `python ferramentas/registrar-revisao.py <slug> --recorte <id> --ia --notas revisao.json`. Mudança de veredito vai para `CORRECOES.md`. Prioridade: Lula `A007` e `A017`; golpe `A009`, `A013`, `A017`, `A018`.
 2. **Renderizar de novo o vídeo do caso Lula** (quem tem `fonte/sabatina-lula-globo-2026-08-27.mp4`):
    ```bash
    python -m checagem midia 2026-08-27-sabatina-lula-globo recortar bloco-contas-publicas --inicio 1352.32 --duracao 292 --motivo "o mesmo de RECORTES.json"   # se o recorte não existir

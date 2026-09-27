@@ -4,7 +4,7 @@
 **Duração:** 00:44:33  
 **Trecho checado:** `bloco-contas-publicas`, de 00:22:32 a 00:27:24 da peça  
 **Por que este trecho:** Maior densidade de afirmação numérica por minuto da peça, e o único bloco em que entrevistadora e entrevistado afirmam números um contra o outro sobre a mesma série (a dívida pública). Escolhido pela densidade, antes de qualquer checagem, e sem saber o resultado de nenhuma alegação.  
-**Relatório gerado em:** 2026-09-26  
+**Relatório gerado em:** 2026-09-27  
 **Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  
 **Assinatura da mídia (sha256):** `d4252104b5e49898dd14e24f355393b51db278af5d8a6a75fabb1adc460b6844`
 
@@ -43,7 +43,7 @@
 - **entrevistador:** 5 de 23 alegações.
 - Os números acima são **deste trecho** e têm o denominador à vista. ⛔ Eles não são ranking entre pessoas nem entre candidatos, e não dizem nada sobre intenção.
 - ⚠️ **Nem toda afirmação é igualmente checável.** Economia tem série pública; segurança tem defasagem; promessa não tem fonte. Um lado pode acumular `SEM COMPROVAÇÃO` só porque falou de assunto com fonte pior ([`etica-e-risco` §3](../../.cursor/rules/etica-e-risco.mdc)).
-- 🔴 **Revisão humana registrada: nenhuma das 23 checagens.** O conteúdo foi produzido com auxílio de IA e passou pelo validador, mas a doutrina do projeto exige que uma pessoa leia os cards e as fontes antes da publicação.
+- 🔴 **Revisão registrada em 0 de 23 checagens.** O caso só está pronto quando todas passaram pela revisão adversarial ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)).
 
 ## Alegação por alegação
 
@@ -875,7 +875,7 @@
 
    *O que prova:* Sustenta a ressalva do card: a banda de tolerância acomoda um resultado de 0,1%, ainda que a meta escrita seja 0,25%.
 
-3. `N2` **IPEA — Carta de Conjuntura**: [Panorama fiscal: evolução recente e perspectivas](https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/10/panorama-fiscal-evolucao-recente-e-perspectivas-7/) · consultada em 2026-09-26 · captura sha256 `84b1f2feafe9e0ef…`
+3. `N2` **IPEA (Carta de Conjuntura)**: [Panorama fiscal: evolução recente e perspectivas](https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/10/panorama-fiscal-evolucao-recente-e-perspectivas-7/) · consultada em 2026-09-26 · captura sha256 `84b1f2feafe9e0ef…`
    > Para 2026, o Projeto de Lei Orçamentária (Ploa) projeta déficit primário para o governo central de R$ 23,3 bilhões, ou -0,17% do produto interno bruto (PIB); ao considerar a compensação de R$ 57,84 bilhões referente ao pagamento de precatórios, o resultado primário projetado atinge um superávit de R$ 34,5 bilhões (0,25% do PIB)
 
    *O que prova:* Mostra que o número que sai do orçamento é 0,25% e explica de onde ele vem, descartando 0,1% como valor de qualquer das duas leituras.
@@ -924,7 +924,7 @@
 
    *O que prova:* Registra o mesmo valor como explicação do Banco Central para o resultado de dezembro de 2023, em fonte independente da anterior.
 
-3. `N1` **Presidência da República — Casa Civil**: [Emenda Constitucional nº 126, de 21 de dezembro de 2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm) · consultada em 2026-09-26 · captura sha256 `b7d196f04a672a45…`
+3. `N1` **Presidência da República (Casa Civil)**: [Emenda Constitucional nº 126, de 21 de dezembro de 2022](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm) · consultada em 2026-09-26 · captura sha256 `b7d196f04a672a45…`
    > Altera a Constituição Federal, para dispor sobre as emendas individuais ao projeto de lei orçamentária, e o Ato das Disposições Constitucionais Transitórias para excluir despesas dos limites previstos no art. 107; define regras para a transição da Presidência da República aplicáveis à Lei Orçamentária de 2023 [...] Art. 3º O limite estabelecido no inciso I do caput do art. 107 do Ato das Disposições Constitucionais Transitórias fica acrescido em R$ 145.000.000.000,00 (cento e quarenta e cinco bilhões de reais) para o exercício financeiro de 2023.
 
    *O que prova:* É a PEC da Transição citada na fala, e a ementa confirma que ela existe para excluir despesas do teto na transição, que é o vínculo afirmado. O art. 3º, acrescentado ao trecho em 26/set/2026, dá o tamanho do espaço aberto fora do teto (R$ 145 bilhões), citado na explicação.

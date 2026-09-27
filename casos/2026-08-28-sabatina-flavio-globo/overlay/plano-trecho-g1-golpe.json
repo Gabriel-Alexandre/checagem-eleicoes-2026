@@ -3,14 +3,14 @@
   "recorte": "trecho-g1-golpe",
   "alvo": "recortes/trecho-g1-golpe.mp4",
   "base_s": 0.0,
-  "duracao_s": 164.033,
+  "duracao_s": 158.926,
   "largura": 1920,
   "altura": 1080,
   "gerado_em": "2026-09-27",
   "selo": {
     "arquivo": "overlay/cartelas-trecho-g1-golpe/_selo.png",
     "entra_s": 0.0,
-    "sai_s": 191.76
+    "sai_s": 183.76
   },
   "legenda": {
     "arquivo": "overlay/cartelas-trecho-g1-golpe/_legenda.png",
@@ -18,17 +18,11 @@
     "sai_s": 7.5
   },
   "congelamento": {
-    "entra_s": 164.033,
+    "entra_s": 158.926,
     "sai_s": 183.76,
-    "duracao_s": 19.727
+    "duracao_s": 24.834
   },
-  "encerramento": {
-    "arquivo": "overlay/cartelas-trecho-g1-golpe/_encerramento.png",
-    "entra_s": 183.76,
-    "sai_s": 191.76,
-    "duracao_s": 8.0,
-    "revisao_humana": "0 de 19"
-  },
+  "encerramento": null,
   "contagem_por_veredito": {
     "VERDADEIRO": 12,
     "NAO_CHECAVEL": 3,

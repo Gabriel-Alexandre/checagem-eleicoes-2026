@@ -171,10 +171,11 @@ ATRASO_MAX_S = 12.0
 # Cartela de legenda no começo do vídeo.
 LEGENDA_DURACAO_S = 7.0
 LEGENDA_ENTRA_S = 0.5
-# Cartela de encerramento, sobre o último quadro congelado DEPOIS do fim do trecho: diz onde
-# estão as fontes, como contestar e quanto da checagem teve revisão humana. É acrescentada ao
-# fim, e não sobreposta aos últimos segundos, para nunca disputar a tela com um card.
-ENCERRAMENTO_S = 8.0
+# Cartela de encerramento, sobre o último quadro congelado DEPOIS do fim do trecho. 🔧 Desligada
+# desde 27/set/2026 (zero): o autor do projeto preferiu que o vídeo termine junto com a fala, e o
+# endereço do repositório já está na legenda de abertura e no selo permanente. Um valor maior que
+# zero religa a cartela (passo6_overlay.desenhar_encerramento).
+ENCERRAMENTO_S = 0.0
 
 # ─────────────────────────────────────────────────────────────────────
 # Texto proibido na tela e no relatório — .cursor/rules/escrita-de-card.mdc e etica-e-risco.mdc

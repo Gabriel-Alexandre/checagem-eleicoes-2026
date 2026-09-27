@@ -344,9 +344,9 @@ def desenhar_encerramento(*, slug: str, n_alegacoes: int, n_revisadas: int) -> I
     y += 84
 
     if n_revisadas == 0:
-        revisao = "Feita com auxílio de IA. Revisão humana registrada: nenhuma até esta versão."
+        revisao = "Feita com auxílio de IA. Revisão adversarial registrada: nenhuma até esta versão."
     else:
-        revisao = (f"Feita com auxílio de IA. Revisão humana registrada em {n_revisadas} "
+        revisao = (f"Feita com auxílio de IA. Revisão adversarial registrada em {n_revisadas} "
                    f"de {n_alegacoes} checagens.")
     linhas = [
         f"{n_alegacoes} alegações deste trecho, de quem pergunta e de quem responde, "
@@ -539,12 +539,22 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
         img.save(p, optimize=True)
         legenda_arquivo = str(p.relative_to(caso)).replace("\\", "/")
 
-    revisadas = sum(1 for i in itens if por_id_checagem[i["id"]].get("revisao_humana"))
-    caminho_fim = saida / "_encerramento.png"
-    desenhar_encerramento(slug=slug, n_alegacoes=len(itens), n_revisadas=revisadas).save(
-        caminho_fim, optimize=True)
+    revisadas = sum(1 for i in itens if por_id_checagem[i["id"]].get("revisao_humana")
+                     or por_id_checagem[i["id"]].get("revisao_ia"))
     inicio_fim = round(limite_s + congelamento_s, 3)
     fim_total = round(inicio_fim + cfg.ENCERRAMENTO_S, 3)
+    encerramento = None
+    if cfg.ENCERRAMENTO_S > 0:
+        caminho_fim = saida / "_encerramento.png"
+        desenhar_encerramento(slug=slug, n_alegacoes=len(itens), n_revisadas=revisadas).save(
+            caminho_fim, optimize=True)
+        encerramento = {
+            "arquivo": str(caminho_fim.relative_to(caso)).replace("\\", "/"),
+            "entra_s": inicio_fim,
+            "sai_s": fim_total,
+            "duracao_s": cfg.ENCERRAMENTO_S,
+            "revisao_humana": f"{revisadas} de {len(itens)}",
+        }
 
     plano = {
         "caso": slug,
@@ -571,15 +581,8 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
             "sai_s": inicio_fim,
             "duracao_s": congelamento_s,
         },
-        # Acrescentado DEPOIS do fim do trecho e do congelamento, sobre o último quadro
-        # congelado. O vídeo renderizado tem duracao_s + congelamento + encerramento.
-        "encerramento": {
-            "arquivo": str(caminho_fim.relative_to(caso)).replace("\\", "/"),
-            "entra_s": inicio_fim,
-            "sai_s": fim_total,
-            "duracao_s": cfg.ENCERRAMENTO_S,
-            "revisao_humana": f"{revisadas} de {len(itens)}",
-        },
+        # Cartela opcional depois do trecho (cfg.ENCERRAMENTO_S). None: o vídeo acaba com a fala.
+        "encerramento": encerramento,
         "contagem_por_veredito": contagem,
         "cartelas": itens,
     }

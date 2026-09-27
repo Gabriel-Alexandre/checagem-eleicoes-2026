@@ -118,7 +118,8 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
 
     # ── as alegações ──
     # ── o que a contagem é, e o que ela não é ──
-    revisadas = sum(1 for a in alegacoes if checagens[a["id"]].get("revisao_humana"))
+    revisadas = sum(1 for a in alegacoes
+                    if checagens[a["id"]].get("revisao_ia") or checagens[a["id"]].get("revisao_humana"))
     add("### Como ler esta contagem")
     add("")
     for papel in sorted(por_papel):
@@ -129,12 +130,14 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
     add("- ⚠️ **Nem toda afirmação é igualmente checável.** Economia tem série pública; segurança "
         "tem defasagem; promessa não tem fonte. Um lado pode acumular `SEM COMPROVAÇÃO` só porque "
         "falou de assunto com fonte pior ([`etica-e-risco` §3](../../.cursor/rules/etica-e-risco.mdc)).")
-    if revisadas == 0:
-        add(f"- 🔴 **Revisão humana registrada: nenhuma das {len(alegacoes)} checagens.** O "
-            "conteúdo foi produzido com auxílio de IA e passou pelo validador, mas a doutrina do "
-            "projeto exige que uma pessoa leia os cards e as fontes antes da publicação.")
+    if revisadas < len(alegacoes):
+        add(f"- 🔴 **Revisão registrada em {revisadas} de {len(alegacoes)} checagens.** O caso só "
+            "está pronto quando todas passaram pela revisão adversarial "
+            "([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)).")
     else:
-        add(f"- **Revisão humana registrada:** {revisadas} de {len(alegacoes)} checagens.")
+        add(f"- **Revisão adversarial registrada nas {len(alegacoes)} checagens**, feita por IA em "
+            "passada separada da checagem ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)); "
+            "o resultado de cada uma está na alegação.")
     add("")
 
     add("## Alegação por alegação")
@@ -173,6 +176,10 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
             add("")
         add(f"**Confiança:** {c['confianca']}")
         add("")
+        if c.get("revisao_ia"):
+            r = c["revisao_ia"]
+            add(f"**Revisão por IA:** {r['revisor']} em {r['data']}: {r['decisao']}. {r['nota']}")
+            add("")
         if c.get("revisao_humana"):
             r = c["revisao_humana"]
             add(f"**Revisão humana:** {r['revisor']} em {r['data']}: {r['decisao']}"

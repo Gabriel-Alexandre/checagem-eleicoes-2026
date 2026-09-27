@@ -2,8 +2,8 @@
 
 **Peça:** TV Globo · Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional); trecho publicado pelo g1 · sabatina · 28/ago/2026  
 **Duração:** 00:02:44  
-**Trecho checado:** `trecho-g1-golpe`, de 00:00:00 a 00:02:44 da peça  
-**Por que este trecho:** É o trecho inteiro publicado pelo g1, o único arquivo oficial da sabatina que se conseguiu obter (ver CASO.json, procedência). O recorte não foi escolhido por este projeto, nem por densidade, nem pelo resultado: é a peça disponível, checada de ponta a ponta. Os dois lados da mesa falam: a pergunta do entrevistador afirma fatos sobre o julgamento, e a resposta do entrevistado afirma fatos sobre o mesmo julgamento.  
+**Trecho checado:** `trecho-g1-golpe`, de 00:00:00 a 00:02:39 da peça  
+**Por que este trecho:** É o trecho inteiro publicado pelo g1, o único arquivo oficial da sabatina que se conseguiu obter (ver CASO.json, procedência). O recorte não foi escolhido por este projeto, nem por densidade, nem pelo resultado: é a peça disponível, checada de ponta a ponta. Os dois lados da mesa falam: a pergunta do entrevistador afirma fatos sobre o julgamento, e a resposta do entrevistado afirma fatos sobre o mesmo julgamento. Termina no fim da última fala, antes da cartela de divulgação do g1 ('Veja a íntegra da entrevista em g1.com.br/eleicoes'), que não é parte da entrevista.  
 **Relatório gerado em:** 2026-09-27  
 **Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  
 **Assinatura da mídia (sha256):** `f09911b7609faf7dda84537d2e275a4912f9f131425f0c6040a2d05b4cb52892`
@@ -45,7 +45,7 @@
 - **entrevistador:** 4 de 19 alegações.
 - Os números acima são **deste trecho** e têm o denominador à vista. ⛔ Eles não são ranking entre pessoas nem entre candidatos, e não dizem nada sobre intenção.
 - ⚠️ **Nem toda afirmação é igualmente checável.** Economia tem série pública; segurança tem defasagem; promessa não tem fonte. Um lado pode acumular `SEM COMPROVAÇÃO` só porque falou de assunto com fonte pior ([`etica-e-risco` §3](../../.cursor/rules/etica-e-risco.mdc)).
-- 🔴 **Revisão humana registrada: nenhuma das 19 checagens.** O conteúdo foi produzido com auxílio de IA e passou pelo validador, mas a doutrina do projeto exige que uma pessoa leia os cards e as fontes antes da publicação.
+- 🔴 **Revisão registrada em 0 de 19 checagens.** O caso só está pronto quando todas passaram pela revisão adversarial ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)).
 
 ## Alegação por alegação
 
@@ -744,7 +744,7 @@ python -m checagem transcrever 2026-08-28-sabatina-flavio-globo
 python ferramentas/corrigir-transcricao.py 2026-08-28-sabatina-flavio-globo
 python -m checagem falantes 2026-08-28-sabatina-flavio-globo
 python -m checagem validar 2026-08-28-sabatina-flavio-globo --recorte trecho-g1-golpe
-python -m checagem midia 2026-08-28-sabatina-flavio-globo recortar trecho-g1-golpe --inicio 0.0 --duracao 164.033
+python -m checagem midia 2026-08-28-sabatina-flavio-globo recortar trecho-g1-golpe --inicio 0.0 --duracao 158.926
 python -m checagem overlay 2026-08-28-sabatina-flavio-globo --recorte trecho-g1-golpe
 python -m checagem renderizar 2026-08-28-sabatina-flavio-globo --recorte trecho-g1-golpe
 ```

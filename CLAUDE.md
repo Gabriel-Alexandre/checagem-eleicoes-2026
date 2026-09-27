@@ -12,7 +12,7 @@ Este arquivo existe por um motivo específico: as regras deste repo moram em `.c
 2. ⛔ **Duas fontes independentes**, no mínimo, para todo veredito que não seja `NAO_CHECAVEL`. Duas matérias com o mesmo parágrafo são **uma** fonte.
 3. ⛔ **A régua é a mesma para os dois lados da mesa.** Pergunta de jornalista que afirma fato é alegação.
 4. ⛔ **Nunca julgue intenção.** "Tentou esconder", "sabia que", "omitiu de propósito" não entram em lugar nenhum.
-5. ⛔ **A IA não publica.** Nada vai ao ar sem uma pessoa ter lido os cards e as fontes.
+5. ⛔ **A IA não publica, mas revisa.** Toda checagem passa por uma revisão adversarial da própria IA, em passada separada (skill `revisar-checagem`), registrada em `revisao_ia`. Publicar é decisão do autor.
 
 Doutrina completa: [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -53,6 +53,7 @@ Moram em [`skills/`](skills/) (fonte única) e têm um **espelho** em `.claude/s
 | "chegou um vídeo novo", "abre um caso" | [`preparar-caso`](skills/preparar-caso.md) — PASSOS 0 a 3 |
 | "o que dá para checar aqui?", "extrai as alegações" | [`extrair-alegacoes`](skills/extrair-alegacoes.md) — PASSO 4 |
 | "checa isso", "busca as fontes" | [`checar-alegacao`](skills/checar-alegacao.md) — PASSO 5 |
+| "revisa as checagens" (sempre antes de fechar) | [`revisar-checagem`](skills/revisar-checagem.md) |
 | "monta o vídeo", "gera o relatório" | [`fechar-caso`](skills/fechar-caso.md) — PASSOS 6 a 8 |
 
 ⛔ **Não pule da transcrição direto para a checagem.** A extração roda antes, com a internet fechada, e num arquivo separado. Quem já sabe a resposta escolhe as perguntas.
