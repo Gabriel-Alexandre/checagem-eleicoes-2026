@@ -1,0 +1,13 @@
+{
+  "url_pedida": "https://www.facebook.com/g1/videos/1023993500397311/",
+  "tentativas": [
+    {
+      "caminho": "yt-dlp",
+      "url": "https://www.facebook.com/g1/videos/1023993500397311/",
+      "ok": true
+    }
+  ],
+  "url_obtida": "https://www.facebook.com/g1/videos/1023993500397311/",
+  "ok": true,
+  "caminho": "yt-dlp"
+}

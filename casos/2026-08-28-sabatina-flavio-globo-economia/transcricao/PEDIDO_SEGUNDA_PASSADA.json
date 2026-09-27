@@ -1,0 +1,67 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo-economia",
+  "rodada": 1,
+  "prompt": "Entrevista da TV Globo. Entrevistadores: César Tralli e Renata Vasconcellos. Entrevistado: Flávio Bolsonaro. Termos: Selic, Copom, PhD, MP 871, INSS, cargos em comissão, dívida pública.",
+  "janelas": [
+    {
+      "inicio_s": 28,
+      "duracao_s": 10,
+      "motivo": "'Otrali' no começo da resposta"
+    },
+    {
+      "inicio_s": 62,
+      "duracao_s": 10,
+      "motivo": "'a maior juro' e 'Tralho'"
+    },
+    {
+      "inicio_s": 78,
+      "duracao_s": 14,
+      "motivo": "'uns juros, de pagamento de juros na hora' e 'Tralho'"
+    },
+    {
+      "inicio_s": 122,
+      "duracao_s": 20,
+      "motivo": "'200 reais... 180' e troca de falante em 132 a 139"
+    },
+    {
+      "inicio_s": 188,
+      "duracao_s": 8,
+      "motivo": "'pegadê'"
+    },
+    {
+      "inicio_s": 195,
+      "duracao_s": 10,
+      "motivo": "'dívida primária' e o valor"
+    },
+    {
+      "inicio_s": 212,
+      "duracao_s": 10,
+      "motivo": "cargos em comissão: 20 mil e 22 mil"
+    },
+    {
+      "inicio_s": 221,
+      "duracao_s": 14,
+      "motivo": "'Tralha' e troca de falante"
+    },
+    {
+      "inicio_s": 233,
+      "duracao_s": 22,
+      "motivo": "MP 871 e INSS"
+    },
+    {
+      "inicio_s": 256,
+      "duracao_s": 10,
+      "motivo": "'Renato'"
+    },
+    {
+      "inicio_s": 274,
+      "duracao_s": 12,
+      "motivo": "'Renato' e troca de falante em 284"
+    },
+    {
+      "inicio_s": 320,
+      "duracao_s": 12,
+      "motivo": "'cada 1%... 90 bilhões'"
+    }
+  ]
+}
