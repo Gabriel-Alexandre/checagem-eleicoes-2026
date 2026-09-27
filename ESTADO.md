@@ -48,7 +48,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Vereditos | 14 verdadeiro · 4 impreciso · 3 sem comprovação |
 | Fontes | 55 trechos, 53 URLs, todos conferidos contra a página capturada (7 rodadas de captura) |
 | Validador | ✅ 0 erros, 2 avisos (A011 e A014 sem fonte N1/N2, e por isso sem comprovação) |
-| Vídeo | ✅ 1920x1080, 5min51s, cards dentro do trecho, sem congelamento; conferido quadro a quadro |
+| Vídeo | ✅ 1920x1080, 5min51s, cards dentro do trecho, sem congelamento; conferido quadro a quadro. Renderizado de novo no runner (`nuvem-renderizar`, porta aprovada) e publicado no rascunho `nuvem-2026-08-28-sabatina-flavio-globo-economia`: 130,5 MB, sha256 `0a29bb26ff398293193addd1717c86ebb5e25ea084e181886eea17d2e64a8482` |
 
 ### Caso 2 (registro) · `casos/2026-08-28-sabatina-flavio-globo`
 
