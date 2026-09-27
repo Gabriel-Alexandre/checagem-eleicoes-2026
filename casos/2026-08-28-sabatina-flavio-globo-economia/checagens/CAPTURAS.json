@@ -63,18 +63,6 @@
       }
     },
     {
-      "url": "https://bpmoney.com.br/mercado/brasil-perde-lideranca-mas-segue-entre-paises-com-maiores-juros-reais-do-mundo/",
-      "capturada_em": "2026-09-27T03:44:30+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 319981,
-      "sha256": "cc026c82ac4e7463b3cc65ced6e4c24bca3b810eb45af3077befcbe63be55937",
-      "trechos": {
-        "A005": "encontrado"
-      }
-    },
-    {
       "url": "https://br.advfn.com/jornal/2026/08/tesouro-amplia-dependencia-da-selic-lfts-ja-representam-51-1-da-divida-publica",
       "capturada_em": "2026-09-27T03:48:09+00:00",
       "status": 200,
@@ -132,6 +120,18 @@
       "sha256": "b36fa86e266621e8015d5a550930e83ca7f96c59a35f4261fe59dc4b14f46016",
       "trechos": {
         "A009": "encontrado"
+      }
+    },
+    {
+      "url": "https://moneyou.com.br/wp-content/uploads/2026/08/rankingdejurosreais050826.pdf",
+      "capturada_em": "2026-09-27T04:05:40+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 457332,
+      "sha256": "1025c69ae727dcb4e32a6dbfc8f3be42d50766a97b0623cd535f8583f5306dfe",
+      "trechos": {
+        "A005": "encontrado"
       }
     },
     {
@@ -401,13 +401,13 @@
       }
     },
     {
-      "url": "https://www.infomoney.com.br/economia/ranking-juros-reais-agosto-2026/",
-      "capturada_em": "2026-09-27T03:44:30+00:00",
+      "url": "https://www.infomoney.com.br/economia/brasil-maior-juro-real-mundo-selic-junho2026/",
+      "capturada_em": "2026-09-27T03:44:31+00:00",
       "status": 200,
       "tipo": "text/html; charset=UTF-8",
       "caminho": "direto",
-      "bytes": 358942,
-      "sha256": "7004641eaa180a63e3aa993216788e556cf3070d7368f3a7ffffe62637527c71",
+      "bytes": 361191,
+      "sha256": "6b60f5b4d66dfa59e398bccf2bc83cf5a765ae12beb72d710e36db4ef81b3a77",
       "trechos": {
         "A005": "encontrado"
       }

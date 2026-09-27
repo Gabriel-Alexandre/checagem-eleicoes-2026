@@ -173,34 +173,34 @@
     },
     {
       "id": "A005",
-      "veredito": "IMPRECISO",
-      "resumo": "No ranking vigente na data, o Brasil era o 2º maior juro real (9,33%), atrás da Rússia (9,67%)",
-      "explicacao": "O levantamento mensal de juros reais da MoneYou com a Lev Intelligence, o mais citado sobre o tema, mostrou em 5 de agosto de 2026, depois do corte da Selic, o Brasil em segundo lugar entre as 40 maiores economias, com 9,33%, atrás da Rússia, com 9,67%. Esse era o ranking vigente na data da entrevista. O Brasil voltou ao primeiro lugar na edição de 16 de setembro, depois da entrevista. A essência (um dos juros reais mais altos do mundo) está certa; a posição, na data da fala, não.",
+      "veredito": "VERDADEIRO",
+      "resumo": "No ranking vigente na data (MoneYou, 5/ago), o Brasil era o 1º em juro real: 9,30%, à frente da Rússia (9,09%)",
+      "explicacao": "O ranking mundial de juros reais da MoneYou com a Lev Intelligence, o levantamento que a imprensa usa para essa comparação, pôs o Brasil em primeiro lugar entre 40 países na edição de 5 de agosto de 2026, a vigente na data da entrevista: 9,30% de juro real, contra 9,09% da Rússia, já com a Selic a 14%. O Brasil também liderava na edição de junho e voltou a liderar na de setembro. ⚠️ Duas reportagens publicadas em 5 e 6 de agosto (InfoMoney e BP Money) disseram que o Brasil tinha caído para o segundo lugar, com a Rússia a 9,67%; o relatório publicado pela própria MoneYou diz o contrário, e, pela hierarquia de fontes, vale o documento de origem. O ranking é de uma consultoria, com método publicado (equação de Fischer, inflação projetada pelo Focus).",
       "numero_dito": "o maior juro real do mundo",
-      "numero_apurado": "2º lugar (9,33%), atrás da Rússia (9,67%)",
+      "numero_apurado": "1º lugar, 9,30% (Rússia em 2º, 9,09%)",
       "data_de_referencia": "ranking de 05/08/2026, vigente em 28/08/2026",
-      "ressalva": "Em 16 de setembro, depois da entrevista, o Brasil voltou ao 1º lugar do mesmo ranking",
+      "ressalva": null,
       "confianca": "media",
-      "divergencia_entre_fontes": null,
+      "divergencia_entre_fontes": "InfoMoney (05/08/2026) e BP Money (06/08/2026) publicaram que o Brasil caiu para o 2º lugar, com juro real de 9,33% contra 9,67% da Rússia. O relatório da MoneYou da mesma data traz o Brasil em 1º, com 9,30%, e a Rússia com 9,09%. Vale o documento de origem; a divergência fica registrada.",
       "revisao_humana": null,
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "InfoMoney",
-          "titulo": "Corte da Selic faz Brasil cair uma posição e leva país ao 2º maior juro real do mundo (05/08/2026)",
-          "url": "https://www.infomoney.com.br/economia/ranking-juros-reais-agosto-2026/",
+          "nivel": "N2",
+          "instituicao": "MoneYou e Lev Intelligence",
+          "titulo": "Ranking Mundial de Juros Reais, 05 de agosto de 2026 (relatório)",
+          "url": "https://moneyou.com.br/wp-content/uploads/2026/08/rankingdejurosreais050826.pdf",
           "consultada_em": "2026-09-27",
-          "trecho": "Brasil tem juro real de 9,33% com Selic em 14%; ranking considera as 40 maiores economias do mundo e é liderado pela Rússia",
-          "prova": "O ranking vigente na data da entrevista."
+          "trecho": "Aos 14,00% aa, o Brasil se mantém à 1ªcolocação no ranking mundial de juros reais, acima de Rússia, Colômbia e Indonésia. [...] Ranking País Ex ante 1 Brasil 9,30% 2 Rússia 9,09% 3 Colômbia 6,16%",
+          "prova": "O documento de origem do ranking, na edição vigente na data da fala."
         },
         {
           "nivel": "N4",
-          "instituicao": "BP Money",
-          "titulo": "Brasil perde liderança, mas segue entre países com maiores juros reais do mundo (06/08/2026)",
-          "url": "https://bpmoney.com.br/mercado/brasil-perde-lideranca-mas-segue-entre-paises-com-maiores-juros-reais-do-mundo/",
+          "instituicao": "InfoMoney",
+          "titulo": "Brasil tem maior juro real do mundo com Selic em 14,25% (junho de 2026)",
+          "url": "https://www.infomoney.com.br/economia/brasil-maior-juro-real-mundo-selic-junho2026/",
           "consultada_em": "2026-09-27",
-          "trecho": "O juro real brasileiro está em 9,33%, atrás apenas da Rússia, que registra 9,67%.",
-          "prova": "Confirma a segunda posição e os dois valores."
+          "trecho": "Nem mesmo o corte de juro do BC tirou a liderança do Brasil no ranking de juros reais, que ficou em 9,67% em junho",
+          "prova": "A liderança na edição anterior."
         },
         {
           "nivel": "N4",
@@ -208,8 +208,8 @@
           "titulo": "Brasil mantém maior juro real do mundo, diz pesquisa (16/09/2026)",
           "url": "https://www.poder360.com.br/poder-economia/brasil-mantem-maior-juro-real-do-mundo-diz-pesquisa/",
           "consultada_em": "2026-09-27",
-          "trecho": "Ranking considera juros de mercado e inflação projetada para os próximos 12 meses [...] O país aparece à frente da Rússia, com juro real de 6,79%, da Colômbia, com 6,33%",
-          "prova": "A volta ao primeiro lugar, depois da entrevista."
+          "trecho": "O país aparece à frente da Rússia, com juro real de 6,79%, da Colômbia, com 6,33%",
+          "prova": "A liderança na edição seguinte."
         }
       ]
     },
@@ -220,7 +220,7 @@
       "explicacao": "O Boletim Focus de 28 de outubro de 2022, a pesquisa do Banco Central com o mercado, trazia mediana de 7,75% para a Selic no fim de 2025, e a base de dados do mesmo Banco Central registra a mesma mediana, 7,75%, para 2026. A fala diz 'em torno de 7%, metade', e 7,75% é pouco mais da metade dos 14% atuais. A projeção foi feita dois dias antes do segundo turno e não dependia de quem vencesse; atribuí-la a um governo específico é leitura da fala, não dado.",
       "numero_dito": "em torno de 7%",
       "numero_apurado": "7,75% (mediana do Focus para 2025 e para 2026)",
-      "data_de_referencia": "Focus de 28/10/2022",
+      "data_de_referencia": "Focus de 28/10/2022, projeções para 2025 e 2026",
       "ressalva": "A mediana era 7,75%, e a projeção valia para qualquer vencedor da eleição",
       "confianca": "alta",
       "divergencia_entre_fontes": null,
@@ -250,7 +250,7 @@
       "id": "A007",
       "veredito": "VERDADEIRO",
       "resumo": "Os juros do setor público somaram R$ 1,16 trilhão em 12 meses até junho, dado divulgado antes da entrevista",
-      "explicacao": "Os juros nominais do setor público consolidado acumulados em 12 meses somaram R$ 1.160,5 bilhões até junho de 2026 (8,80% do PIB), segundo a nota do Banco Central de 31 de julho, a última antes da entrevista. A nota seguinte, de 31 de agosto, registrou R$ 1.150,5 bilhões até julho. A fala diz 'um trilhão de reais ao ano', e o valor é um pouco maior.",
+      "explicacao": "Os juros nominais do setor público consolidado acumulados em 12 meses somaram R$ 1.160,5 bilhões até junho de 2026 (8,80% do PIB), segundo a nota do Banco Central de 31 de julho, a última antes da entrevista. A nota seguinte, de 31 de agosto, registrou R$ 1.150,5 bilhões até julho. A fala diz 'um trilhão de reais ao ano': é arredondamento para a unidade de trilhão, para baixo, que não muda a ordem de grandeza nem favorece o argumento de quem fala, e por isso fica como ressalva. ⚠️ A diferença é de 14%, acima da régua de 10% do §2.2; a decisão de tratar como arredondamento está registrada aqui para a revisão humana.",
       "numero_dito": "um trilhão de reais ao ano",
       "numero_apurado": "R$ 1,16 trilhão em 12 meses até junho de 2026",
       "data_de_referencia": "12 meses até junho de 2026",
@@ -415,11 +415,11 @@
     },
     {
       "id": "A011",
-      "veredito": "IMPRECISO",
-      "resumo": "A campanha divulgou uma equipe econômica de 9 nomes, nem todos economistas",
-      "explicacao": "Na semana anterior à entrevista, a campanha divulgou os integrantes da área econômica: sete nomes novos, anunciados em 21 de agosto, que se juntaram às coordenadoras Daniella Marques e Adolfo Sachsida, num total de nove. Pelos currículos publicados, parte deles é de outras formações (engenharia, estatística, mercado de capitais). A lista pública não chega a 'mais de 10 economistas'; a campanha pode ter colaboradores não divulgados, o que as fontes não mostram.",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A equipe econômica divulgada pela campanha tem 9 nomes, nem todos economistas; não há registro de mais de 10",
+      "explicacao": "Não há registro público de 'mais de 10 economistas' na equipe. Na semana anterior à entrevista, a campanha divulgou os integrantes da área econômica: sete nomes novos, anunciados em 21 de agosto, que se juntaram aos coordenadores Daniella Marques e Adolfo Sachsida, num total de nove. Pelos currículos publicados, parte deles tem outra formação (engenharia, estatística, mercado de capitais). A campanha pode ter colaboradores não divulgados, e por isso o veredito é sem comprovação, e não falso: as fontes não sustentam o número, sem provar o contrário.",
       "numero_dito": "mais de 10 economistas",
-      "numero_apurado": "9 nomes na área econômica, nem todos economistas",
+      "numero_apurado": "lista pública de 9 nomes na área econômica, nem todos economistas",
       "data_de_referencia": "lista divulgada em 21/08/2026",
       "ressalva": null,
       "confianca": "media",
@@ -501,6 +501,11 @@
           "valor": "R$ 335,11 bilhões",
           "de": "230,5 42,92 61,69",
           "como": "soma dos déficits primários anuais do governo central de 2023, 2024 e 2025"
+        },
+        {
+          "valor": "R$ 335 bilhões",
+          "de": "230,5 42,92 61,69",
+          "como": "a mesma soma, arredondada para a tela"
         }
       ]
     },
@@ -548,9 +553,9 @@
     },
     {
       "id": "A014",
-      "veredito": "FALSO",
-      "resumo": "O governo Lula criou cerca de 4,4 mil cargos comissionados desde 2023, e não mais de 22 mil",
-      "explicacao": "Pelos dados oficiais do Painel Estatístico de Pessoal do Ministério da Gestão, citados por duas apurações de linhas editoriais diferentes, o governo Lula criou cerca de 4,4 mil novos cargos comissionados de janeiro de 2023 a novembro de 2025. O número é cerca de três vezes o dos três primeiros anos do governo anterior, o que sustenta a crítica de fundo; mas 22 mil é cinco vezes o número apurado.",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte sustenta 22 mil; a imprensa, com dados do governo, apurou cerca de 4,4 mil cargos comissionados criados",
+      "explicacao": "Nenhuma fonte encontrada sustenta que o governo criou mais de 22 mil cargos comissionados. Duas apurações de linhas editoriais diferentes (CNN Brasil e Revista Oeste, esta com Estadão), ambas com base no Painel Estatístico de Pessoal do Ministério da Gestão, chegam a cerca de 4,4 mil novos cargos comissionados de janeiro de 2023 a novembro de 2025, cerca de três vezes o dos três primeiros anos do governo anterior. O painel oficial é dinâmico e não pôde ser capturado para conferência direta; por isso, pela regra de fontes da metodologia, o veredito é sem comprovação, e não falso, embora o número apurado seja cinco vezes menor que o da fala.",
       "numero_dito": "mais de 22 mil",
       "numero_apurado": "cerca de 4,4 mil cargos comissionados criados de jan/2023 a nov/2025",
       "data_de_referencia": "janeiro de 2023 a novembro de 2025",
@@ -673,7 +678,7 @@
           "titulo": "Pressão da esquerda ajudou a manter descontos que levaram a fraudes no INSS",
           "url": "https://www.cnnbrasil.com.br/politica/pressao-da-esquerda-ajudou-a-manter-descontos-que-levaram-a-fraudes-no-inss/",
           "consultada_em": "2026-09-27",
-          "trecho": "O texto recebeu 578 emendas na comissão mista em que foi analisado. A maioria, apresentada por partidos de esquerda, que eram oposição ao governo na época. O PT foi a legenda que apresentou o maior número: 253. [...] Parlamentares dos seguintes partidos fizeram sugestões para ampliar o período de revalidação ou retirar do texto o prazo: PT (16), Solidariedade (3); PC do B (3); PSB (3); MDB (2); PR, nome anterior do PL (2); e PSDB (3).",
+          "trecho": "O objetivo da MP 871/2019 era estabelecer novas regras para identificar irregularidades e evitar fraudes em benefícios. [...] O texto recebeu 578 emendas na comissão mista em que foi analisado. A maioria, apresentada por partidos de esquerda, que eram oposição ao governo na época. O PT foi a legenda que apresentou o maior número: 253. [...] Parlamentares dos seguintes partidos fizeram sugestões para ampliar o período de revalidação ou retirar do texto o prazo: PT (16), Solidariedade (3); PC do B (3); PSB (3); MDB (2); PR, nome anterior do PL (2); e PSDB (3).",
           "prova": "As emendas do PT e de outros partidos, inclusive o PR."
         },
         {
@@ -798,7 +803,7 @@
     {
       "id": "A021",
       "veredito": "IMPRECISO",
-      "resumo": "Pelo Banco Central, 1 ponto a menos na Selic por 12 meses reduz a dívida em R$ 60,6 a 66,1 bi, não R$ 90 bi",
+      "resumo": "Pelo Banco Central, 1 ponto a menos na Selic por doze meses reduz a dívida em R$ 60,6 a 66,1 bi, não R$ 90 bi",
       "explicacao": "O Banco Central publica todo mês a sensibilidade da dívida à Selic. Na nota de 31 de julho de 2026, a última antes da entrevista, a redução de 1 ponto percentual na Selic, mantida por 12 meses, diminuiria a dívida líquida em R$ 66,1 bilhões e a dívida bruta em R$ 60,6 bilhões. A fala diz 'cerca de R$ 90 bilhões', entre 36% e 49% acima da estimativa oficial. A essência (juro menor alivia as contas em dezenas de bilhões) confere; o número, não.",
       "numero_dito": "cerca de R$ 90 bilhões",
       "numero_apurado": "R$ 60,6 bilhões (dívida bruta) a R$ 66,1 bilhões (dívida líquida)",

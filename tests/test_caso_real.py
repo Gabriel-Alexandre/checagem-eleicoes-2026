@@ -80,7 +80,8 @@ def test_alegacao_numerica_tem_fonte_primaria_ou_institucional(alvo):
     slug, recorte = alvo
     alegacoes = {a["id"]: a for a in ler(slug, f"alegacoes/alegacoes-{recorte}.json")["alegacoes"]}
     for c in ler(slug, f"checagens/checagens-{recorte}.json")["checagens"]:
-        if c["veredito"] == "NAO_CHECAVEL":
+        # SEM COMPROVAÇÃO é o veredito de quem não achou fonte qualificada (METODOLOGIA §2.1).
+        if c["veredito"] in ("NAO_CHECAVEL", "INSUSTENTAVEL"):
             continue
         if alegacoes[c["id"]]["tipo"] in cfg.TIPOS_QUE_EXIGEM_FONTE_FORTE:
             assert any(f["nivel"] in cfg.NIVEIS_FORTES for f in c["fontes"]), c["id"]
