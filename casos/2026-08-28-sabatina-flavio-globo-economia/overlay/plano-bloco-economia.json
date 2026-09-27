@@ -1,0 +1,270 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo-economia",
+  "recorte": "bloco-economia",
+  "alvo": "recortes/bloco-economia.mp4",
+  "base_s": 0.0,
+  "duracao_s": 343.105,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-09-27",
+  "selo": {
+    "arquivo": "overlay/cartelas-bloco-economia/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 351.105
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-bloco-economia/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 343.105,
+    "sai_s": 343.105,
+    "duracao_s": 0.0
+  },
+  "encerramento": {
+    "arquivo": "overlay/cartelas-bloco-economia/_encerramento.png",
+    "entra_s": 343.105,
+    "sai_s": 351.105,
+    "duracao_s": 8.0,
+    "revisao_humana": "0 de 21"
+  },
+  "contagem_por_veredito": {
+    "VERDADEIRO": 14,
+    "INSUSTENTAVEL": 3,
+    "IMPRECISO": 4
+  },
+  "cartelas": [
+    {
+      "id": "A001",
+      "arquivo": "overlay/cartelas-bloco-economia/A001.png",
+      "entra_s": 7.7,
+      "sai_s": 12.5,
+      "atraso_s": 2.82,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 4.88,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A002",
+      "arquivo": "overlay/cartelas-bloco-economia/A002.png",
+      "entra_s": 12.7,
+      "sai_s": 18.64,
+      "atraso_s": 7.82,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 4.88,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A003",
+      "arquivo": "overlay/cartelas-bloco-economia/A003.png",
+      "entra_s": 53.7,
+      "sai_s": 58.9,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 53.7,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A004",
+      "arquivo": "overlay/cartelas-bloco-economia/A004.png",
+      "entra_s": 59.1,
+      "sai_s": 64.22,
+      "atraso_s": 1.44,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 57.66,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A005",
+      "arquivo": "overlay/cartelas-bloco-economia/A005.png",
+      "entra_s": 64.42,
+      "sai_s": 70.12,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 64.22,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A006",
+      "arquivo": "overlay/cartelas-bloco-economia/A006.png",
+      "entra_s": 70.32,
+      "sai_s": 79.46,
+      "atraso_s": 0.98,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 69.34,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A007",
+      "arquivo": "overlay/cartelas-bloco-economia/A007.png",
+      "entra_s": 79.66,
+      "sai_s": 88.6,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 79.46,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A008",
+      "arquivo": "overlay/cartelas-bloco-economia/A008.png",
+      "entra_s": 148.22,
+      "sai_s": 155.76,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 148.22,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A009",
+      "arquivo": "overlay/cartelas-bloco-economia/A009.png",
+      "entra_s": 155.96,
+      "sai_s": 161.46,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 155.76,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A010",
+      "arquivo": "overlay/cartelas-bloco-economia/A010.png",
+      "entra_s": 168.44,
+      "sai_s": 178.14,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 168.44,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A011",
+      "arquivo": "overlay/cartelas-bloco-economia/A011.png",
+      "entra_s": 190.0,
+      "sai_s": 197.08,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 190.0,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A012",
+      "arquivo": "overlay/cartelas-bloco-economia/A012.png",
+      "entra_s": 197.28,
+      "sai_s": 206.98,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 197.08,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A013",
+      "arquivo": "overlay/cartelas-bloco-economia/A013.png",
+      "entra_s": 214.22,
+      "sai_s": 218.82,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 214.22,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A014",
+      "arquivo": "overlay/cartelas-bloco-economia/A014.png",
+      "entra_s": 219.02,
+      "sai_s": 224.22,
+      "atraso_s": 1.46,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 217.56,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A015",
+      "arquivo": "overlay/cartelas-bloco-economia/A015.png",
+      "entra_s": 224.42,
+      "sai_s": 232.74,
+      "atraso_s": 1.86,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 222.56,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A016",
+      "arquivo": "overlay/cartelas-bloco-economia/A016.png",
+      "entra_s": 234.46,
+      "sai_s": 243.12,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 234.46,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A017",
+      "arquivo": "overlay/cartelas-bloco-economia/A017.png",
+      "entra_s": 243.32,
+      "sai_s": 252.32,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 243.12,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A018",
+      "arquivo": "overlay/cartelas-bloco-economia/A018.png",
+      "entra_s": 252.52,
+      "sai_s": 260.22,
+      "atraso_s": 3.86,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 248.66,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A019",
+      "arquivo": "overlay/cartelas-bloco-economia/A019.png",
+      "entra_s": 263.22,
+      "sai_s": 274.4,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 263.22,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A020",
+      "arquivo": "overlay/cartelas-bloco-economia/A020.png",
+      "entra_s": 279.46,
+      "sai_s": 288.64,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 279.46,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A021",
+      "arquivo": "overlay/cartelas-bloco-economia/A021.png",
+      "entra_s": 322.98,
+      "sai_s": 333.7,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 322.98,
+      "cortado_na_tela": []
+    }
+  ]
+}

@@ -54,6 +54,13 @@ Cada uma com teste que prova o defeito que pega (`tests/test_travas_novas.py`):
 - `A009`: a média "0,9%" de 2011 a 2020 era projeção de 2019; o realizado é 0,3%.
 - Lastro de texto de tela em `A002`, `A006`, `A010`, `A011` e `A013`; trechos reescritos ou truncados refeitos como cópia literal em `A005`, `A006`, `A018`, `A020` e `A023`; revisão da série do BCB registrada em `A002` e `A003`.
 
+### O caso Flávio refeito (27/set)
+
+- O autor achou o primeiro trecho do Flávio focado em juízo de valor. Estava certo: três juízos foram extraídos como alegações, contra a METODOLOGIA §4.2. O validador passou a avisar, e o erro está registrado no caso (e o mesmo, menor, no caso Lula).
+- Caso novo, `2026-08-28-sabatina-flavio-globo-economia`: o bloco de economia oficial do g1, escolhido por tema. 21 alegações de fato, 55 trechos conferidos, 14 verdadeiras, 4 imprecisas, 3 sem comprovação.
+- `nuvem-sondar-videos`: consulta metadados de vídeos candidatos sem baixar.
+- Travessão no nome de instituição (linha de fontes do card) passa a reprovar; SEM COMPROVAÇÃO sem fonte N1/N2 vira aviso, como manda a árvore do §2.1.
+
 ### O segundo caso
 
 `2026-08-28-sabatina-flavio-globo`. O vídeo pedido (cópia do canal "EDUARDO BOLSONARO" no YouTube) não pôde ser baixado: o YouTube recusa servidor, e a íntegra oficial do Globoplay não toca fora do Brasil. O caso foi feito sobre o **trecho oficial publicado pelo g1** (2min44s), declarado como `trecho` no topo do relatório e na cartela. Ver `ESTADO.md`.

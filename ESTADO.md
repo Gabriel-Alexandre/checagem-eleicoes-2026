@@ -8,7 +8,7 @@ Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que es
 
 ## Em uma frase
 
-O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/NUVEM.md`](docs/NUVEM.md)). **Dois casos** estão fechados para revisão humana: o bloco de contas públicas da sabatina de Lula (auditado e corrigido em 26/set) e o trecho oficial do g1 da sabatina de Flávio Bolsonaro. Nenhum dos dois tem revisão humana registrada.
+O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/NUVEM.md`](docs/NUVEM.md)). **Dois casos principais** estão fechados para revisão humana: o bloco de contas públicas da sabatina de Lula (auditado e corrigido em 26/set) e o **bloco de economia** da sabatina de Flávio Bolsonaro (refeito em 27/set a pedido do autor). O primeiro trecho do Flávio, sobre a tentativa de golpe, fica como registro. Nenhum dos dois tem revisão humana registrada.
 
 ---
 
@@ -20,7 +20,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Validador | ✅ travas da 0.2.0: ano, ressalva, intenção, travessão, cobertura, `citacao_card`, arredondamento, capturas, plano |
 | Evidência | ✅ captura de fonte com sha256 e conferência de trecho contra a página (`checagens/CAPTURAS.json`) |
 | Nuvem | ✅ quatro workflows: preparar mídia, capturar fontes, segunda passada, renderizar |
-| Testes | ✅ 72 passando, incluindo regressão sobre os dois casos reais |
+| Testes | ✅ 83 passando, incluindo regressão sobre os três casos reais |
 | CI | ✅ `.github/workflows/validar.yml`: lint, testes, validador de todos os casos, plano de overlay sem diferença, links |
 
 ### Caso 1 · `casos/2026-08-27-sabatina-lula-globo`
@@ -36,7 +36,21 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Validador | ✅ 0 erros, 1 aviso (`A016` entra 13,1s depois da fala, por causa do tempo de leitura dos cards anteriores) |
 | Vídeo | ⚠️ **precisa ser renderizado de novo** por quem tem o arquivo de origem: o plano mudou (textos corrigidos, encerramento, tempo de leitura, 2s de congelamento final). O arquivo de origem não está no repositório nem no rascunho |
 
-### Caso 2 · `casos/2026-08-28-sabatina-flavio-globo`
+### Caso 3 (principal do Flávio) · `casos/2026-08-28-sabatina-flavio-globo-economia`
+
+| | |
+|---|---|
+| Por que existe | O autor avaliou que o trecho do golpe tinha muito juízo de valor e pouco fato conferível. Uma sondagem de 15 vídeos (`sondagem-rodada-1.json`) achou o segundo trecho oficial do g1: o bloco inteiro de economia, escolhido por tema, como o do Lula |
+| Peça | trecho oficial do g1 (Facebook 1023993500397311), 5min43s, vertical 540x960, sha256 `ae35ff24…`. A íntegra horizontal segue inacessível (YouTube recusa o runner; Globoplay só no Brasil) |
+| Transcrição | 94 segmentos; 5 correções com segunda passada; 3 leituras não resolvidas, declaradas |
+| Falantes | César Tralli, Renata Vasconcellos e Flávio Bolsonaro; trocas conferidas quadro a quadro e contra o Poder360 |
+| Alegações | 21, só fato (5 dos entrevistadores, 16 do entrevistado); nenhum juízo, promessa ou hipótese |
+| Vereditos | 14 verdadeiro · 4 impreciso · 3 sem comprovação |
+| Fontes | 55 trechos, 53 URLs, todos conferidos contra a página capturada (7 rodadas de captura) |
+| Validador | ✅ 0 erros, 2 avisos (A011 e A014 sem fonte N1/N2, e por isso sem comprovação) |
+| Vídeo | ✅ 1920x1080, 5min51s, cards dentro do trecho, sem congelamento; conferido quadro a quadro |
+
+### Caso 2 (registro) · `casos/2026-08-28-sabatina-flavio-globo`
 
 | | |
 |---|---|
@@ -53,7 +67,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 
 ## ⬜ O que falta, em ordem de valor
 
-1. 🔴 **Revisão humana dos dois casos.** Nenhuma checagem tem `revisao_humana`. Prioridade: Flávio `A009`, `A013`, `A017`, `A018` e a atribuição da pergunta; Lula `A007` e `A017`. Registrar com `python ferramentas/registrar-revisao.py`.
+1. 🔴 **Revisão humana dos casos.** Nenhuma checagem tem `revisao_humana`. Prioridade: Flávio economia `A005`, `A007`, `A010`, `A011`, `A014`; Lula `A007` e `A017`. Registrar com `python ferramentas/registrar-revisao.py`.
 2. **Renderizar de novo o vídeo do caso Lula** (quem tem `fonte/sabatina-lula-globo-2026-08-27.mp4`):
    ```bash
    python -m checagem midia 2026-08-27-sabatina-lula-globo recortar bloco-contas-publicas --inicio 1352.32 --duracao 292 --motivo "o mesmo de RECORTES.json"   # se o recorte não existir
@@ -111,7 +125,7 @@ Cada linha aqui é um defeito que aconteceu de verdade. Estão listados porque a
 
 ```bash
 cd checagem-eleicoes-2026
-python -m pytest -q                       # 72 testes
+python -m pytest -q                       # 83 testes
 python ferramentas/conferir-links.py      # nenhum link quebrado
 python ferramentas/validar-todos.py       # os dois casos, 0 erros
 ```
