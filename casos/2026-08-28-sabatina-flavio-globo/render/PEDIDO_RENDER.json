@@ -1,0 +1,6 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "recorte": "trecho-g1-golpe",
+  "rodada": 1,
+  "finalidade": "Renderizar no runner o vídeo checado do trecho g1 e publicá-lo no release em rascunho: a sessão de trabalho renderizou e conferiu o vídeo, mas o proxy dela não deixa enviar binário à API do GitHub."
+}

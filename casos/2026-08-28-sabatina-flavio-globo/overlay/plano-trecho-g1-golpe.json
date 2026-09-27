@@ -1,0 +1,250 @@
+{
+  "caso": "2026-08-28-sabatina-flavio-globo",
+  "recorte": "trecho-g1-golpe",
+  "alvo": "recortes/trecho-g1-golpe.mp4",
+  "base_s": 0.0,
+  "duracao_s": 164.033,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-09-27",
+  "selo": {
+    "arquivo": "overlay/cartelas-trecho-g1-golpe/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 191.76
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-trecho-g1-golpe/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 164.033,
+    "sai_s": 183.76,
+    "duracao_s": 19.727
+  },
+  "encerramento": {
+    "arquivo": "overlay/cartelas-trecho-g1-golpe/_encerramento.png",
+    "entra_s": 183.76,
+    "sai_s": 191.76,
+    "duracao_s": 8.0,
+    "revisao_humana": "0 de 19"
+  },
+  "contagem_por_veredito": {
+    "VERDADEIRO": 12,
+    "NAO_CHECAVEL": 3,
+    "INSUSTENTAVEL": 1,
+    "FALSO": 2,
+    "IMPRECISO": 1
+  },
+  "cartelas": [
+    {
+      "id": "A001",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A001.png",
+      "entra_s": 8.52,
+      "sai_s": 22.44,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 8.52,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A002",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A002.png",
+      "entra_s": 22.64,
+      "sai_s": 36.2,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 22.44,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A003",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A003.png",
+      "entra_s": 36.4,
+      "sai_s": 50.4,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 36.2,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A004",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A004.png",
+      "entra_s": 58.44,
+      "sai_s": 68.4,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "NAO_CHECAVEL",
+      "tempo_na_peca_s": 58.44,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A005",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A005.png",
+      "entra_s": 68.6,
+      "sai_s": 77.86,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "NAO_CHECAVEL",
+      "tempo_na_peca_s": 68.4,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A006",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A006.png",
+      "entra_s": 78.06,
+      "sai_s": 86.4,
+      "atraso_s": 0.2,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "NAO_CHECAVEL",
+      "tempo_na_peca_s": 77.86,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A007",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A007.png",
+      "entra_s": 92.56,
+      "sai_s": 96.66,
+      "atraso_s": 0.0,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 92.56,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A008",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A008.png",
+      "entra_s": 96.86,
+      "sai_s": 106.06,
+      "atraso_s": 0.24,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 96.62,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A009",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A009.png",
+      "entra_s": 106.26,
+      "sai_s": 114.16,
+      "atraso_s": 4.44,
+      "atraso_do_fim_s": 1.86,
+      "veredito": "FALSO",
+      "tempo_na_peca_s": 101.82,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A010",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A010.png",
+      "entra_s": 114.36,
+      "sai_s": 118.96,
+      "atraso_s": 9.96,
+      "atraso_do_fim_s": 0.26,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 104.4,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A011",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A011.png",
+      "entra_s": 119.16,
+      "sai_s": 124.16,
+      "atraso_s": 14.76,
+      "atraso_do_fim_s": 5.06,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 104.4,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A012",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A012.png",
+      "entra_s": 124.36,
+      "sai_s": 129.76,
+      "atraso_s": 19.96,
+      "atraso_do_fim_s": 10.26,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 104.4,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A013",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A013.png",
+      "entra_s": 129.96,
+      "sai_s": 140.26,
+      "atraso_s": 8.96,
+      "atraso_do_fim_s": 3.72,
+      "veredito": "FALSO",
+      "tempo_na_peca_s": 121.0,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A014",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A014.png",
+      "entra_s": 140.46,
+      "sai_s": 145.06,
+      "atraso_s": 9.66,
+      "atraso_do_fim_s": 6.36,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 130.8,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A015",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A015.png",
+      "entra_s": 145.26,
+      "sai_s": 153.16,
+      "atraso_s": 8.5,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 136.76,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A016",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A016.png",
+      "entra_s": 153.36,
+      "sai_s": 157.96,
+      "atraso_s": 11.14,
+      "atraso_do_fim_s": 6.92,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 142.22,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A017",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A017.png",
+      "entra_s": 158.16,
+      "sai_s": 165.56,
+      "atraso_s": 15.94,
+      "atraso_do_fim_s": 6.3,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 142.22,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A018",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A018.png",
+      "entra_s": 165.76,
+      "sai_s": 174.56,
+      "atraso_s": 19.32,
+      "atraso_do_fim_s": 12.5,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 146.44,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A019",
+      "arquivo": "overlay/cartelas-trecho-g1-golpe/A019.png",
+      "entra_s": 174.76,
+      "sai_s": 183.76,
+      "atraso_s": 21.5,
+      "atraso_do_fim_s": 17.26,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 153.26,
+      "cortado_na_tela": []
+    }
+  ]
+}
