@@ -1,11 +1,11 @@
 {
   "caso": "2026-08-28-sabatina-flavio-globo-economia",
-  "rodada": 5,
-  "finalidade": "Rodada 5: resultado primário anual do governo central de 2023 a 2025 em fonte N1/N2 (A012).",
+  "rodada": 6,
+  "finalidade": "Rodada 6: carga tributária em fonte oficial (A003).",
   "urls": [
-    "https://www.ipea.gov.br/cartadeconjuntura/index.php/2026/01/estimativa-preliminar-do-resultado-primario-do-governo-central-em-dezembro-de-2025/",
-    "https://www.ipea.gov.br/cartadeconjuntura/index.php/2024/01/estimativa-preliminar-do-resultado-primario-do-governo-central-em-dezembro-de-2023/",
-    "https://www.ipea.gov.br/cartadeconjuntura/index.php/2025/01/estimativa-preliminar-do-resultado-primario-do-governo-central-em-dezembro-de-2024/",
-    "https://www.tesourotransparente.gov.br/publicacoes/boletim-resultado-do-tesouro-nacional-rtn/2025/12"
+    "https://www.tesourotransparente.gov.br/publicacoes/carga-tributaria-do-governo-geral/2025/114",
+    "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-40-do-pib-em-2025",
+    "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/avaliacao-da-gestao-dos-administradores/prestacao-de-contas-do-presidente-da-republica/2025/AnexoEstimativadaCargaTributriaBoletim_CTB_20251.pdf",
+    "https://www.cnnbrasil.com.br/economia/macroeconomia/tesouro-carga-tributaria-bruta-do-governo-geral-cresce-a-3240-do-pib-em-2025-maior-da-serie/"
   ]
 }
