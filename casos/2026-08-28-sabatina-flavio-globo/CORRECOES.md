@@ -21,6 +21,7 @@ Abra uma **issue** no repositório com a fonte que sustenta a contestação. A r
 | Data | Item | Estava | Passou a ser | Por quê |
 |---|---|---|---|---|
 | 27/set/2026 | abertura do registro | (nada) | caso dado por pronto para revisão humana | 19 checagens, 48 trechos conferidos contra a página capturada, validador em 0 erros e 0 avisos. Nenhuma correção posterior até esta data. |
+| 27/set/2026 | `A004`, `A005` e `A006` (extração) | três juízos de valor ("atacar a democracia", "farsa", "julgado pelos inimigos") extraídos como alegações e mostrados como cards NÃO CHECÁVEL | mantidos no arquivo, com este registro de que não deveriam ter entrado | A METODOLOGIA §4.2 diz que juízo de valor **não entra** como alegação; só a parte factual dele vira alegação separada, e os fatos destas frases já estavam checados em A001 a A003, A007 e A015 a A019. O erro foi apontado pelo autor do projeto ao ver o vídeo ("muitas partes focaram em juízo de valor"). Nenhum veredito mudou. O caso principal da sabatina de Flávio Bolsonaro passou a ser o bloco de economia (`casos/2026-08-28-sabatina-flavio-globo-economia`), escolhido por tema antes da checagem; este trecho fica no repositório como registro. |
 
 ---
 

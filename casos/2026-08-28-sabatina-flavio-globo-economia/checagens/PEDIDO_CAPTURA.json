@@ -1,30 +1,10 @@
 {
   "caso": "2026-08-28-sabatina-flavio-globo-economia",
-  "rodada": 2,
-  "finalidade": "Rodada 2: primárias do BCB e do Tesouro, programa de governo, coordenador da campanha, PT na MP 871, IFI.",
+  "rodada": 3,
+  "finalidade": "Rodada 3: sensibilidade da dívida à Selic nas notas fiscais do Banco Central (A021).",
   "urls": [
-    "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/janeiro/governo-central-registrou-deficit-primario-de-r-230-535-bilhoes-em-2023",
-    "https://www.cnnbrasil.com.br/economia/macroeconomia/governo-fecha-2023-com-deficit-de-r-2305-bi-segundo-pior-da-historia-diz-tesouro-nacional/",
-    "https://portaln10.com.br/politica/rogerio-marinho-critica-politica-de-valorizacao-do-salario-minimo-238796/",
-    "https://fpabramo.org.br/plano-da-oposicao-preve-desvincular-aposentadorias-do-minimo-para-cortar-r-11-tri-economistas-alertam-para-explosao-da-pobreza/",
-    "https://www.flaviobolsonaro.com.br/plano-de-governo",
-    "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-plano-de-flavio-preve-ganho-real-no-salario-minimo-e-controle-de-gastos/",
-    "https://www.nexojornal.com.br/expresso/2026/09/24/flavio-bolsonaro-proposta-economica-ministra-economia-flavio",
-    "https://m.imirante.com/noticias/brasil/2026/09/19/ipolitica-eleicoes-2026-propostas-dos-presidenciaveis-ao-salario",
-    "https://vtvnews.com.br/noticias/eleicoes/eleicoes-2026-propostas-salario-minimo-aposentadoria-bb/",
-    "https://www.gazetadopovo.com.br/economia/esquerda-lutou-contra-fiscalizacao-descontos-aposentados/",
-    "https://pt.org.br/sem-combater-grandes-fraudadores-mp-871-criminaliza-trabalhadores/",
-    "https://www.poder360.com.br/poder-congresso/leia-a-mp-que-endurecia-regra-do-inss-e-foi-afrouxada-pela-esquerda/",
-    "https://www.cnnbrasil.com.br/politica/pressao-da-esquerda-ajudou-a-manter-descontos-que-levaram-a-fraudes-no-inss/",
-    "https://www.camara.leg.br/noticias/552878-OPOSICAO-CRITICA-DIFICULDADES-IMPOSTAS-AOS-TRABALHADORES-PELA-MP-871-NA-AQUISICAO-DE-BENEFICIOS",
-    "https://www12.senado.leg.br/ifi/pdf/raf112_mai2026.pdf",
-    "https://www.acessa.com/economia/2026/01/307503-ifi-meta-foi-formalmente-cumprida-em-2024-e-2025-sem-necessariamente-haver-esforco-fiscal.html",
-    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados/ultimos/3?formato=json",
-    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4649/dados/ultimos/3?formato=json",
-    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4648/dados/ultimos/3?formato=json",
-    "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
-    "https://economicnewsbrasil.com.br/2026/09/21/divida-publica-brasileira-selic/",
-    "https://agenciabrasil.ebc.com.br/economia/noticia/2025-12/salario-minimo-de-2026-sera-de-r-1621",
-    "https://istoedinheiro.com.br/governo-central-deficitr-2305-bilhoes-em-2023/"
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202607_Texto_de_estatisticas_fiscais.pdf",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202608_Texto_de_estatisticas_fiscais.pdf",
+    "https://www.tesourotransparente.gov.br/publicacoes/relatorio-mensal-da-divida-rmd/2026/7"
   ]
 }

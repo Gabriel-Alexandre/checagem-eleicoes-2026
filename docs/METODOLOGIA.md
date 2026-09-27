@@ -121,6 +121,8 @@ Um número só é rebaixado de `VERDADEIRO` para `IMPRECISO` quando o desvio **m
 - Hipótese e cenário ("se o Congresso aprovar").
 - Cortesia, transição, ironia sem conteúdo factual.
 
+> 🔧 **E o veredito `NAO_CHECAVEL`, então, serve para quê?** Para a frase que **parece** fato e, examinada, não tem registro contra o qual conferir. Juízo declarado ("foi uma farsa") não entra na extração, e o validador avisa quando entra. O caso Flávio de 26/set extraiu três juízos, e o vídeo pareceu focar em opinião e não em fato; o erro está em `casos/2026-08-28-sabatina-flavio-globo/CORRECOES.md`.
+
 ### 4.3 A regra de fatiar
 
 > 🔴 **Uma alegação = uma coisa checável.** Se uma frase tem dois números que se checam em fontes diferentes, são **duas** alegações, com o mesmo intervalo de tempo. Se a frase tem um fato e um juízo colado, o fato vira alegação e o juízo é descartado.

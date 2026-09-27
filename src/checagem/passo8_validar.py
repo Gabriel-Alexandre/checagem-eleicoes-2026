@@ -275,6 +275,14 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
             rel.erro(f"{aid}: marcada como checável, mas o tipo é '{a['tipo']}'")
         if not a["checavel"] and a["tipo"] not in cfg.TIPOS_NAO_CHECAVEIS:
             rel.erro(f"{aid}: marcada como não checável, mas o tipo é '{a['tipo']}'")
+        # 🔧 Pego pelo autor do projeto ao ver o vídeo do caso Flávio (27/set/2026): três juízos de
+        # valor viraram cards cinzentos, e o vídeo pareceu "focar em juízo, não em fato". A
+        # METODOLOGIA §4.2 manda NÃO extrair juízo, opinião, promessa nem hipótese; o veredito
+        # NAO_CHECAVEL existe para a frase que parece fato e não é. Aviso, não erro: a fronteira
+        # pede leitura, e a explicação da checagem tem que dizer por que a frase entrou.
+        if not a["checavel"]:
+            rel.aviso(f"{aid}: alegação do tipo '{a['tipo']}' na extração; a METODOLOGIA §4.2 manda "
+                      "não extrair juízo, opinião, promessa nem hipótese (só a parte factual, separada)")
 
     for e in alegacoes_doc.get("exclusoes", []):
         if cobertura and not (cobertura["inicio_s"] - 0.5 <= e["inicio_s"] <= cobertura["fim_s"] + 0.5):
