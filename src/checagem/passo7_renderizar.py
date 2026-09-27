@@ -69,6 +69,14 @@ def _nivel_de_audio(caminho: Path) -> float | None:
     return float(m.group(1)) if m else None
 
 
+def _acrescimo(plano: dict) -> float:
+    """Segundos acrescentados ao fim do trecho: congelamento de leitura mais encerramento."""
+    if not plano.get("encerramento"):
+        return 0.0
+    return (float((plano.get("congelamento") or {}).get("duracao_s", 0.0))
+            + float(plano["encerramento"]["duracao_s"]))
+
+
 def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
     """Devolve (linhas do filtro, rótulo da saída de vídeo)."""
     linhas: list[str] = []
@@ -77,9 +85,11 @@ def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
 
     # A cartela de encerramento vive DEPOIS do fim do trecho, sobre o último quadro congelado.
     # O áudio não é tocado: continua copiado, e simplesmente acaba antes do vídeo.
+    # Antes dele, o congelamento de leitura (se a fila de cards passou do fim do trecho).
     fim = plano.get("encerramento")
     if fim:
-        linhas.append(f"[0:v]tpad=stop_mode=clone:stop_duration={fim['duracao_s']:.3f}[base]")
+        extra = _acrescimo(plano)
+        linhas.append(f"[0:v]tpad=stop_mode=clone:stop_duration={extra:.3f}[base]")
         atual = "base"
 
     entradas: list[dict] = []
@@ -143,7 +153,7 @@ def renderizar(slug: str, *, recorte: str | None = None, crf: int = 16,
     entradas_png.extend(str(caso / c["arquivo"]) for c in plano["cartelas"])
     if plano.get("encerramento"):
         entradas_png.append(str(caso / plano["encerramento"]["arquivo"]))
-    acrescimo = float((plano.get("encerramento") or {}).get("duracao_s", 0.0))
+    acrescimo = _acrescimo(plano)
 
     faltando = [p for p in entradas_png if not Path(p).exists()]
     if faltando:
@@ -174,9 +184,9 @@ def renderizar(slug: str, *, recorte: str | None = None, crf: int = 16,
     desvio = abs(final["duracao_s"] - esperado)
     if desvio > 0.15:
         aviso(f"a duração saiu {desvio:.2f}s diferente do esperado "
-              f"({hms(medido['duracao_s'])} da entrada + {acrescimo:.0f}s de encerramento)")
+              f"({hms(medido['duracao_s'])} da entrada + {acrescimo:.0f}s de congelamento e encerramento)")
     else:
-        ok(f"duração casa com a entrada + {acrescimo:.0f}s de encerramento "
+        ok(f"duração casa com a entrada + {acrescimo:.0f}s de congelamento e encerramento "
            f"(desvio {desvio * 1000:.0f} ms)")
     if final["codec_audio"] is None:
         aviso("o vídeo saiu SEM faixa de áudio")

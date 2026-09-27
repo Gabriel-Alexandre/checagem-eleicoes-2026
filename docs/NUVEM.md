@@ -10,14 +10,16 @@ A parte **mecânica** (baixar, assinar, transcrever, capturar páginas) roda num
 
 ⛔ Nenhum workflow deste repositório extrai alegação, escolhe fonte ou escreve veredito.
 
-## 2. Os dois workflows
+## 2. Os workflows
 
 | Workflow | Disparo | Faz | Devolve |
 |---|---|---|---|
 | [`nuvem-preparar-midia`](../.github/workflows/nuvem-preparar-midia.yml) | push de `casos/<slug>/fonte/PEDIDO_NUVEM.json` | baixa a peça, `midia registrar`, `midia audio`, quadros de referência a cada 5 s, `transcrever` com o mesmo motor e modelo do caminho local | vídeo, WAV, `transcricao.tar.gz`, `quadros.tar.gz`, `origem-download.json` |
 | [`nuvem-capturar-fontes`](../.github/workflows/nuvem-capturar-fontes.yml) | push de `casos/<slug>/checagens/PEDIDO_CAPTURA.json` | baixa cada URL listada, guarda o bruto, extrai o texto, assina com sha256 | `capturas-rodada-<N>.tar.gz` |
+| [`nuvem-segunda-passada`](../.github/workflows/nuvem-segunda-passada.yml) | push de `casos/<slug>/transcricao/PEDIDO_SEGUNDA_PASSADA.json` | transcreve de novo, isoladas, as janelas suspeitas, com feixe maior | `segunda-passada-rodada-<N>.json` |
+| [`nuvem-renderizar`](../.github/workflows/nuvem-renderizar.yml) | push de `casos/<slug>/render/PEDIDO_RENDER.json` (`{"caso", "recorte", "rodada"}`) | baixa a mídia do rascunho, refaz o recorte com os parâmetros de `RECORTES.json`, desenha as cartelas, renderiza e passa pela porta. ⛔ Falha se o plano gerado for diferente do versionado | o MP4 checado e o `.sha256` dele |
 
-Os dois publicam num **release em rascunho** chamado `nuvem-<slug>`.
+Todos publicam num **release em rascunho** chamado `nuvem-<slug>`.
 
 🔴 **Rascunho, e não release publicado, de propósito.** Rascunho só é visível para quem tem escrita no repositório. O vídeo de origem pertence a quem o produziu e o projeto não o redistribui; página de jornal capturada também tem dono. O repositório continua guardando só o que sempre guardou: manifesto, transcrição, checagem e o recibo das capturas.
 
@@ -79,6 +81,10 @@ curl -H "Authorization: Bearer $GH_TOKEN" \
 curl -L -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/octet-stream" \
   -o transcricao.tar.gz https://api.github.com/repos/<dono>/checagem-eleicoes-2026/releases/assets/<id>
 ```
+
+### 7.1 Por que o vídeo final é renderizado no runner
+
+🔧 Encontrado em 27/set/2026: a sessão de trabalho renderizou o caso Flávio, mas não conseguiu enviar o MP4 ao rascunho (o proxy de rede da sessão aceita só corpo JSON na API do GitHub, e corta transferências longas). Em vez de contornar a rede, o runner, que já tem a mídia no rascunho, refaz o render a partir do que está versionado. O resultado é o mesmo arquivo lógico: mesmos parâmetros de recorte, mesmo plano, mesma porta.
 
 ## 8. O que este caminho NÃO resolve
 

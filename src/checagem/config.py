@@ -154,8 +154,19 @@ CARD_DURACAO_MIN_S = 3.0
 CARD_DURACAO_MAX_S = 14.0
 # Folga entre um card e o próximo, para não haver dois na tela.
 FOLGA_ENTRE_CARDS_S = 0.20
+# Tempo de leitura de um card: o que o espectador lê de novo é o resumo e a ressalva (a
+# citação ele acabou de ouvir). 🔧 Até a 0.2.0 o piso era fixo em 3s, e num trecho denso
+# (o caso Flávio tem cinco alegações em 20s) cinco cards saíam com 3s: não dá para ler.
+LEITURA_PALAVRAS_POR_S = 4.5
+LEITURA_BASE_S = 1.0
+# Quando a fila passa do fim do trecho, o último quadro fica congelado (sem áudio novo) o
+# tempo que faltar para os cards pendentes, ANTES do encerramento. Teto para não virar
+# apresentação de slides: acima dele o PASSO 6 avisa, e o caminho é recortar menos denso.
+CONGELAMENTO_MAX_S = 45.0
 # Quanto uma cartela pode entrar DEPOIS DE A FRASE ACABAR, quando a fila empurra.
-# Acima disso o espectador já não liga o card à fala, e o PASSO 6 avisa.
+# Acima disso o espectador já não liga o card à fala, e o PASSO 6 avisa. Não vale para card
+# que entra durante o congelamento final: ali não há fala nova disputando a atenção, e o card
+# traz a citação e o minuto da fala.
 ATRASO_MAX_S = 12.0
 # Cartela de legenda no começo do vídeo.
 LEGENDA_DURACAO_S = 7.0

@@ -37,13 +37,14 @@ Cada uma com teste que prova o defeito que pega (`tests/test_travas_novas.py`):
 - Legenda de abertura sem o veículo repetido, com data legível, o endereço do repositório e "arredondamento vira ressalva".
 - **Cartela de encerramento** sobre o último quadro congelado: onde conferir, como contestar e quantas checagens tiveram revisão humana. O áudio continua copiado.
 - `midia recortar --enquadrar`: vídeo vertical entra inteiro em 1920x1080, sem corte nem deformação.
+- **Tempo de leitura por card** e **congelamento final**: cada card fica no mínimo o tempo de ler o resumo e a ressalva, e a fila que passa do fim do trecho congela o último quadro antes do encerramento, declarado no plano ([`docs/IDENTIDADE_VISUAL.md` §7](docs/IDENTIDADE_VISUAL.md)). O plano do caso Lula foi regerado: três cards que ficavam 3s na tela passaram a ficar entre 6,6s e 9s, e o vídeo ganha 2s de congelamento no fim. ⚠️ O vídeo publicado do caso Lula precisa ser renderizado de novo pela pessoa que tem o arquivo de origem.
 
 ### Adicionado: evidência e nuvem
 
 - `ferramentas/capturar-fontes.py` e `conferir-trechos.py`: cada fonte é capturada com sha256, e cada trecho é conferido contra a página. O recibo vai para `checagens/CAPTURAS.json`.
 - `ferramentas/comparar-transcricao.py`: lista onde a transcrição diverge de uma publicada, com prioridade para número e nome próprio.
 - `ferramentas/registrar-revisao.py`, para a pessoa que revisou registrar isso; `ferramentas/validar-todos.py`, o que a CI roda.
-- Workflows `nuvem-preparar-midia`, `nuvem-capturar-fontes` e `nuvem-segunda-passada`, para quem não tem a máquina ou a rede ([`docs/NUVEM.md`](docs/NUVEM.md)). Tudo volta num release em **rascunho**, que só quem tem escrita no repositório vê.
+- Workflows `nuvem-preparar-midia`, `nuvem-capturar-fontes`, `nuvem-segunda-passada` e `nuvem-renderizar`, para quem não tem a máquina ou a rede ([`docs/NUVEM.md`](docs/NUVEM.md)). Tudo volta num release em **rascunho**, que só quem tem escrita no repositório vê.
 
 ### Corrigido no caso Lula, com registro em `CORRECOES.md`
 

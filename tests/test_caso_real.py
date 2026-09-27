@@ -127,9 +127,9 @@ def test_derivacoes_tem_as_parcelas_nos_trechos(alvo):
 def test_o_recorte_guarda_o_tempo_absoluto(alvo):
     slug, recorte = alvo
     """Sem origem_inicio_s, um card checado num trecho não sabe voltar ao minuto certo
-    da peça inteira."""
+    da peça inteira. Zero é válido: é o recorte que cobre o arquivo desde o começo (caso Flávio)."""
     reg = next(r for r in ler(slug, "recortes/RECORTES.json")["recortes"] if r["id"] == recorte)
-    assert reg["origem_inicio_s"] > 0
+    assert isinstance(reg["origem_inicio_s"], int | float) and reg["origem_inicio_s"] >= 0
     assert reg["motivo"].strip()
 
 

@@ -1,0 +1,100 @@
+name: nuvem-renderizar
+
+# PASSOS 6 a 8 num runner, para quando a máquina de trabalho não consegue entregar o vídeo
+# final (ver docs/NUVEM.md): o runner baixa a mídia do release em rascunho nuvem-<slug>,
+# refaz o recorte com os parâmetros versionados em recortes/RECORTES.json, desenha as
+# cartelas, renderiza, passa pela porta e publica o MP4 no MESMO rascunho.
+#
+# ⛔ O runner não decide nada: alegações, checagens e plano vêm do git. Se o plano que ele
+# gera diferir do versionado, o job registra a diferença no log e falha: vídeo que não
+# corresponde ao plano revisado não sai.
+#
+# Disparo: push de casos/<slug>/render/PEDIDO_RENDER.json:
+#   { "caso": "<slug>", "recorte": "<id ou null>", "rodada": 1 }
+
+on:
+  push:
+    paths:
+      - "casos/*/render/PEDIDO_RENDER.json"
+
+permissions:
+  contents: write
+
+jobs:
+  renderizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: descobrir o pedido
+        id: pedido
+        run: |
+          arquivo=$(git diff --name-only HEAD~1 HEAD -- 'casos/*/render/PEDIDO_RENDER.json' | head -1)
+          if [ -z "$arquivo" ]; then arquivo=$(ls casos/*/render/PEDIDO_RENDER.json | head -1); fi
+          echo "slug=$(echo "$arquivo" | cut -d/ -f2)" >> "$GITHUB_OUTPUT"
+          echo "recorte=$(python3 -c "import json;print(json.load(open('$arquivo')).get('recorte') or '')")" >> "$GITHUB_OUTPUT"
+
+      - name: instalar
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install -e .
+          python -m checagem ativos baixar-fontes
+
+      - name: baixar a mídia do rascunho
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: |
+          arquivo=$(python3 -c "import json;print(json.load(open('casos/$SLUG/CASO.json'))['midia']['arquivo'])")
+          gh release download "nuvem-$SLUG" --pattern "$arquivo" --dir "casos/$SLUG/fonte"
+          echo "esperado: $(python3 -c "import json;print(json.load(open('casos/$SLUG/CASO.json'))['midia']['sha256'])")"
+          sha256sum "casos/$SLUG/fonte/$arquivo"
+
+      - name: refazer o recorte com os parâmetros versionados
+        if: steps.pedido.outputs.recorte != ''
+        env:
+          SLUG: ${{ steps.pedido.outputs.slug }}
+          RECORTE: ${{ steps.pedido.outputs.recorte }}
+        run: |
+          cp "casos/$SLUG/recortes/RECORTES.json" /tmp/RECORTES.versionado.json
+          python3 - <<'PY'
+          import json, os, subprocess
+          slug, rid = os.environ["SLUG"], os.environ["RECORTE"]
+          reg = next(r for r in json.load(open(f"casos/{slug}/recortes/RECORTES.json"))["recortes"] if r["id"] == rid)
+          cmd = ["python", "-m", "checagem", "midia", slug, "recortar", rid,
+                 "--inicio", str(reg["origem_inicio_s"]), "--duracao", str(reg["duracao_s"] + 1),
+                 "--motivo", reg["motivo"]]
+          if reg.get("enquadramento"):
+              cmd.append("--enquadrar")
+          subprocess.run(cmd, check=True)
+          PY
+          # O índice versionado é o que vale; o recorte refeito só precisa caber nele.
+          cp /tmp/RECORTES.versionado.json "casos/$SLUG/recortes/RECORTES.json"
+
+      - name: overlay, render e porta
+        env:
+          SLUG: ${{ steps.pedido.outputs.slug }}
+          RECORTE: ${{ steps.pedido.outputs.recorte }}
+        run: |
+          opt=""; [ -n "$RECORTE" ] && opt="--recorte $RECORTE"
+          python -m checagem overlay "$SLUG" $opt
+          git diff --stat -- "casos/$SLUG/overlay/"
+          git diff --exit-code -- "casos/$SLUG/overlay/"
+          python -m checagem renderizar "$SLUG" $opt
+          python -m checagem validar "$SLUG" $opt
+
+      - name: publicar no release em rascunho
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.pedido.outputs.slug }}
+        run: |
+          cd "casos/$SLUG/render"
+          for f in *.mp4; do sha256sum "$f" > "$f.sha256"; done
+          gh release upload "nuvem-$SLUG" --clobber *.mp4 *.mp4.sha256

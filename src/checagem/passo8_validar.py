@@ -520,13 +520,20 @@ def validar(slug: str, *, recorte: str | None = None) -> int:
                 if not (caso / c["arquivo"]).exists():
                     rel.erro(f"cartela ausente: {c['arquivo']}")
 
+        congelado = float((plano.get("congelamento") or {}).get("duracao_s", 0.0))
+        if congelado > cfg.CONGELAMENTO_MAX_S + 0.001:
+            rel.erro(f"congelamento final de {congelado:.1f}s passa do teto de "
+                     f"{cfg.CONGELAMENTO_MAX_S:.0f}s")
+        elif congelado > 0:
+            rel.nota(f"o último quadro fica congelado {congelado:.1f}s depois do fim do trecho, "
+                     "para os cards que a fila empurrou serem lidos")
         for c in cartelas:
             dur = c["sai_s"] - c["entra_s"]
             if dur < cfg.CARD_DURACAO_MIN_S - 0.001:
                 rel.aviso(f"{c['id']} fica {dur:.1f}s na tela (piso {cfg.CARD_DURACAO_MIN_S}s)")
-            if c["sai_s"] > plano["duracao_s"] + 0.5:
+            if c["sai_s"] > limite + congelado + 0.5:
                 rel.erro(f"{c['id']} sai depois do fim do vídeo")
-            if c.get("atraso_do_fim_s", 0) > cfg.ATRASO_MAX_S:
+            if c.get("atraso_do_fim_s", 0) > cfg.ATRASO_MAX_S and c["entra_s"] < limite:
                 rel.aviso(f"{c['id']} só entra {c['atraso_do_fim_s']:.1f}s depois de a frase "
                           f"acabar (teto {cfg.ATRASO_MAX_S}s)")
             for campo in c.get("cortado_na_tela", []):

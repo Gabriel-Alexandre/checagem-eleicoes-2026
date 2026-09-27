@@ -374,6 +374,13 @@ def desenhar_encerramento(*, slug: str, n_alegacoes: int, n_revisadas: int) -> I
 # ─────────────────────────────────────────────────────────────────────
 
 
+def tempo_de_leitura(checagem: dict) -> float:
+    """Quanto tempo um card precisa ficar na tela para o resumo e a ressalva serem lidos."""
+    palavras = len(f"{checagem.get('resumo') or ''} {checagem.get('ressalva') or ''}".split())
+    t = cfg.LEITURA_BASE_S + palavras / cfg.LEITURA_PALAVRAS_POR_S
+    return round(min(max(t, cfg.CARD_DURACAO_MIN_S), cfg.CARD_DURACAO_MAX_S), 1)
+
+
 def _janelas(itens: list[dict], limite_s: float, *, inicio_minimo_s: float = 0.0) -> list[dict]:
     """Calcula quando cada cartela entra e sai, sem deixar duas na tela ao mesmo tempo.
 
@@ -396,10 +403,16 @@ def _janelas(itens: list[dict], limite_s: float, *, inicio_minimo_s: float = 0.0
     janelas: list[dict] = []
     cursor = inicio_minimo_s
 
-    for a in itens:
+    for n, a in enumerate(itens):
         entra = max(0.0, a["inicio_s"], cursor)
         natural = a["fim_s"] + cfg.PERMANENCIA_S - entra
-        duracao = max(cfg.CARD_DURACAO_MIN_S, min(natural, cfg.CARD_DURACAO_MAX_S))
+        leitura = a.get("leitura_s", cfg.CARD_DURACAO_MIN_S)
+        duracao = max(leitura, min(natural, cfg.CARD_DURACAO_MAX_S))
+        # 🔧 Com fila, o card não segura a tela além do tempo de leitura: a frase longa de
+        # quem cita três ministros não pode deixar as três alegações seguintes com 3s cada.
+        proximo = itens[n + 1]["inicio_s"] if n + 1 < len(itens) else None
+        if proximo is not None and proximo < entra + duracao:
+            duracao = max(leitura, min(duracao, proximo - entra))
         sai = min(entra + duracao, limite_s)
         janelas.append({
             "id": a["id"],
@@ -412,7 +425,7 @@ def _janelas(itens: list[dict], limite_s: float, *, inicio_minimo_s: float = 0.0
             # primeiro número diga 12. É este segundo que dispara o aviso.
             "atraso_s": round(entra - a["inicio_s"], 3),
             "atraso_do_fim_s": round(max(0.0, entra - a["fim_s"]), 3),
-            "curta": (sai - entra) < cfg.CARD_DURACAO_MIN_S - 0.001,
+            "curta": (sai - entra) < min(leitura, cfg.CARD_DURACAO_MAX_S) - 0.001,
         })
         cursor = sai + cfg.FOLGA_ENTRE_CARDS_S
 
@@ -455,7 +468,8 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
 
     # Tempo relativo ao arquivo que vai ser renderizado.
     relativos = [
-        {"id": a["id"], "inicio_s": a["inicio_s"] - base_s, "fim_s": a["fim_s"] - base_s}
+        {"id": a["id"], "inicio_s": a["inicio_s"] - base_s, "fim_s": a["fim_s"] - base_s,
+         "leitura_s": tempo_de_leitura(por_id_checagem[a["id"]])}
         for a in alegacoes["alegacoes"]
     ]
     fora = [r["id"] for r in relativos if r["fim_s"] < 0 or r["inicio_s"] > limite_s]
@@ -465,7 +479,14 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
 
     inicio_minimo = (cfg.LEGENDA_ENTRA_S + cfg.LEGENDA_DURACAO_S + cfg.FOLGA_ENTRE_CARDS_S
                      if com_legenda else 0.0)
-    janelas = _janelas(relativos, limite_s, inicio_minimo_s=inicio_minimo)
+    # A fila pode passar do fim do trecho: o que passar vira congelamento do último quadro,
+    # declarado no plano, e não card cortado. Ver cfg.CONGELAMENTO_MAX_S.
+    janelas = _janelas(relativos, limite_s + cfg.CONGELAMENTO_MAX_S, inicio_minimo_s=inicio_minimo)
+    fim_cards = max((j["sai_s"] for j in janelas), default=limite_s)
+    congelamento_s = round(max(0.0, fim_cards - limite_s), 3)
+    if congelamento_s > 0:
+        aviso(f"a fila passa {congelamento_s:.1f}s do fim do trecho: o último quadro fica congelado "
+              "esse tempo, sem áudio, antes do encerramento (registrado no plano)")
     por_id_alegacao = {a["id"]: a for a in alegacoes["alegacoes"]}
 
     itens = []
@@ -502,9 +523,9 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
             aviso(f"{a['id']}: {', '.join(cortados)} não cabe(m) em duas linhas e sai(em) com "
                   "reticências — para a citação, escreva `citacao_card` com um trecho literal menor")
         if j["curta"]:
-            aviso(f"{a['id']} fica só {j['sai_s'] - j['entra_s']:.1f}s na tela "
-                  f"(piso é {cfg.CARD_DURACAO_MIN_S}s) — o trecho acabou antes")
-        if j["atraso_do_fim_s"] > cfg.ATRASO_MAX_S:
+            aviso(f"{a['id']} fica só {j['sai_s'] - j['entra_s']:.1f}s na tela, menos que o "
+                  f"tempo de leitura ({tempo_de_leitura(c):.1f}s): o congelamento final bateu no teto")
+        if j["atraso_do_fim_s"] > cfg.ATRASO_MAX_S and j["entra_s"] < limite_s:
             aviso(f"{a['id']} só entra {j['atraso_do_fim_s']:.1f}s depois de a frase acabar "
                   f"(teto é {cfg.ATRASO_MAX_S}s) — há alegações demais empilhadas antes dela")
 
@@ -522,7 +543,8 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
     caminho_fim = saida / "_encerramento.png"
     desenhar_encerramento(slug=slug, n_alegacoes=len(itens), n_revisadas=revisadas).save(
         caminho_fim, optimize=True)
-    fim_total = round(limite_s + cfg.ENCERRAMENTO_S, 3)
+    inicio_fim = round(limite_s + congelamento_s, 3)
+    fim_total = round(inicio_fim + cfg.ENCERRAMENTO_S, 3)
 
     plano = {
         "caso": slug,
@@ -542,11 +564,18 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
             {"arquivo": legenda_arquivo, "entra_s": cfg.LEGENDA_ENTRA_S,
              "sai_s": cfg.LEGENDA_ENTRA_S + cfg.LEGENDA_DURACAO_S} if legenda_arquivo else None
         ),
-        # Acrescentado DEPOIS do fim do trecho, sobre o último quadro congelado. O vídeo
-        # renderizado tem, portanto, duracao_s + encerramento.duracao_s.
+        # Tempo de leitura dos cards que a fila empurrou para depois do fim do trecho, sobre o
+        # último quadro congelado e sem áudio novo. Zero quando a fila cabe no trecho.
+        "congelamento": {
+            "entra_s": round(limite_s, 3),
+            "sai_s": inicio_fim,
+            "duracao_s": congelamento_s,
+        },
+        # Acrescentado DEPOIS do fim do trecho e do congelamento, sobre o último quadro
+        # congelado. O vídeo renderizado tem duracao_s + congelamento + encerramento.
         "encerramento": {
             "arquivo": str(caminho_fim.relative_to(caso)).replace("\\", "/"),
-            "entra_s": round(limite_s, 3),
+            "entra_s": inicio_fim,
             "sai_s": fim_total,
             "duracao_s": cfg.ENCERRAMENTO_S,
             "revisao_humana": f"{revisadas} de {len(itens)}",

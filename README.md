@@ -110,6 +110,7 @@ Passo a passo detalhado, com o que conferir em cada etapa: [`docs/REPLICAR.md`](
 | [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md) | cada decisão técnica e o que ela estava segurando |
 | [`docs/IDENTIDADE_VISUAL.md`](docs/IDENTIDADE_VISUAL.md) | a tela: cores, tarja, moldura, tempo de leitura |
 | [`docs/REPLICAR.md`](docs/REPLICAR.md) | do zero ao vídeo pronto, com o que conferir em cada passo |
+| [`docs/NUVEM.md`](docs/NUVEM.md) | o caminho pelos runners do GitHub, para quem não tem a máquina ou a rede |
 | [`skills/`](skills/) | o que a IA executa em cada etapa, em texto |
 | [`.cursor/rules/`](.cursor/rules/) | as regras sempre ativas (Cursor carrega sozinho; no Claude Code, ver [`CLAUDE.md`](CLAUDE.md)) |
 | [`esquemas/`](esquemas/) | os contratos de dados, em JSON Schema |
@@ -123,7 +124,8 @@ Passo a passo detalhado, com o que conferir em cada etapa: [`docs/REPLICAR.md`](
 
 | Caso | Peça | Estado |
 |---|---|---|
-| [`2026-08-27-sabatina-lula-globo`](casos/2026-08-27-sabatina-lula-globo/) | Sabatina de Luiz Inácio Lula da Silva na TV Globo, 27/ago/2026, 44min33s | prova de conceito rodada num recorte |
+| [`2026-08-27-sabatina-lula-globo`](casos/2026-08-27-sabatina-lula-globo/) | Sabatina de Luiz Inácio Lula da Silva na TV Globo, 27/ago/2026, 44min33s | prova de conceito rodada num recorte de 4min52s; 23 alegações; auditado e corrigido em 26/set ([`CORRECOES.md`](casos/2026-08-27-sabatina-lula-globo/CORRECOES.md)) |
+| [`2026-08-28-sabatina-flavio-globo`](casos/2026-08-28-sabatina-flavio-globo/) | Sabatina de Flávio Bolsonaro na TV Globo, 28/ago/2026; **trecho oficial publicado pelo g1**, 2min44s | trecho inteiro checado; 19 alegações, dos dois lados da mesa; aguarda revisão humana |
 
 ---
 

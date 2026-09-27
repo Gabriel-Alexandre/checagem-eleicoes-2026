@@ -114,11 +114,17 @@ para resumo e ressalva, reescrever. ⛔ Nunca diminuir a fonte ou aumentar o lim
 |---|---|---|
 | permanência depois da fala | 4,0s | ~40 palavras de card a uma leitura de 200 palavras/min |
 | teto | 14,0s | card parado demais vira ruído e some da atenção |
+| tempo de leitura | 1,0s + palavras do resumo e da ressalva ÷ 4,5 | é o texto novo para o espectador; a citação ele acabou de ouvir |
 | piso | 3,0s | abaixo disso não dá para ler duas linhas e ver a cor |
 | folga entre cards | 0,2s | ⛔ dois cards na tela é defeito, não estilo |
+| congelamento final | até 45s | tempo dos cards que a fila empurrou para depois do fim do trecho |
 
-⚠️ Quando o piso não é alcançável porque as falas estão coladas, o PASSO 6 **avisa**. O conserto é
-na extração (duas alegações que eram uma), ⛔ nunca encolhendo a permanência global.
+🔧 **Desde 27/set/2026, cada card fica no mínimo o tempo de leitura dele**, e não mais o piso fixo de 3s. O caso Flávio tem cinco alegações em 20s no fim do trecho; com o piso fixo, cinco cards (um deles `FALSO`) saíam com 3s cada, o que não dá para ler. Duas regras resolvem sem esconder nada:
+
+1. **Com fila, o card não segura a tela além do tempo de leitura.** Uma frase longa que cita três ministros não deixa as três alegações seguintes esperando.
+2. **O que passar do fim do trecho vira congelamento do último quadro**, sem áudio novo, antes da cartela de encerramento. O plano registra o bloco `congelamento`, o render acrescenta esse tempo ao vídeo, e o validador confere que nenhum card sai depois dele.
+
+⚠️ O aviso de atraso (card que entra mais de 12s depois da fala) não vale durante o congelamento: ali não há fala nova disputando a atenção, e o card traz a citação e o minuto da fala. Durante o trecho, ele continua valendo, e o conserto é na extração (duas alegações que eram uma), ⛔ nunca encolhendo a leitura.
 
 ## 8. O que nunca entra na tela
 

@@ -94,3 +94,37 @@ def test_subtitulo_nao_repete_o_veiculo():
 def test_valores_de_le_formato_brasileiro():
     assert valores_de("R$ 10,81 trilhões") == [10.81]
     assert valores_de("1.234,5 e 94") == [1234.5, 94.0]
+
+
+# ─────────────────────────────────────────────────────────────────────
+# Fila de cards: tempo de leitura e congelamento final
+# ─────────────────────────────────────────────────────────────────────
+
+
+def test_tempo_de_leitura_cresce_com_o_texto_e_tem_piso_e_teto():
+    from checagem.passo6_overlay import tempo_de_leitura
+    curto = tempo_de_leitura({"resumo": "Confere com o STF", "ressalva": None})
+    longo = tempo_de_leitura({"resumo": " ".join(["palavra"] * 20), "ressalva": " ".join(["x"] * 15)})
+    assert curto == cfg.CARD_DURACAO_MIN_S
+    assert cfg.CARD_DURACAO_MIN_S < longo <= cfg.CARD_DURACAO_MAX_S
+
+
+def test_fila_nao_deixa_card_com_menos_que_o_tempo_de_leitura():
+    """🔧 O defeito do caso Flávio: cinco alegações em 20s no fim do trecho saíam com 3s cada.
+    Agora a fila corre para o congelamento final, e cada card fica o tempo de leitura."""
+    from checagem.passo6_overlay import _janelas
+    itens = [{"id": f"A{i:03d}", "inicio_s": 90.0 + i, "fim_s": 95.0 + i, "leitura_s": 7.0}
+             for i in range(5)]
+    janelas = _janelas(itens, 100.0 + cfg.CONGELAMENTO_MAX_S)
+    assert all(j["sai_s"] - j["entra_s"] >= 7.0 - 0.001 for j in janelas)
+    assert all(b["entra_s"] >= a["sai_s"] for a, b in zip(janelas, janelas[1:], strict=False))
+    assert janelas[-1]["sai_s"] > 100.0          # passou do trecho: vira congelamento
+
+
+def test_card_de_frase_longa_nao_segura_a_fila():
+    from checagem.passo6_overlay import _janelas
+    itens = [{"id": "A001", "inicio_s": 10.0, "fim_s": 30.0, "leitura_s": 5.0},
+             {"id": "A002", "inicio_s": 12.0, "fim_s": 14.0, "leitura_s": 5.0}]
+    a, b = _janelas(itens, 100.0)
+    assert a["sai_s"] - a["entra_s"] == 5.0
+    assert b["entra_s"] < 16.0
