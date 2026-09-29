@@ -100,6 +100,8 @@ Passo a passo com o que conferir em cada etapa: [`docs/REPLICAR.md`](docs/REPLIC
 
 ---
 
+- 🆕 **29/set/2026, do que ele apontou ao rever um vídeo longo (editor `edicao-videos-longos`, LICOES §69):** no vídeo que o pipeline devolve, o card de veredito, a fonte e o texto **não dividem pixel** (uma frase nunca fica sobre a outra), qualquer marcador ou seta **toca** o trecho que indica, todo elemento que entra tem **animação e som** no quadro dele, e o enquadramento nunca deixa borda preta à mostra. Dono da doutrina: o editor de longos (`docs/REGRAS.md` V31 a V36).
+
 ## 7. O que este repositório NÃO faz
 
 ⛔ Não apura (não entrevista ninguém, não obtém documento inédito) · ⛔ não mede intenção, caráter ou desempenho de governo · ⛔ não recomenda voto · ⛔ não conclui "mentiu N vezes" sobre ninguém, nem no relatório nem em peça de divulgação · ⛔ não substitui as agências de checagem profissionais: usa-as como fonte e aponta para elas.
