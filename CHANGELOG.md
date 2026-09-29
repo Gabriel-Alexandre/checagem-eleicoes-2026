@@ -5,6 +5,14 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [Não publicado]
+
+### Documentado
+
+- **Medida de tempo de leitura dos cards** (§7.1): 17 dos 23 cards do caso publicado ficam na tela menos que o tempo de ler resumo e ressalva a 17 caracteres por segundo. Registrado como limitação conhecida (`ESTADO.md`), sem mudança no pipeline.
+
+---
+
 ## [0.1.1] — 11/set/2026
 
 ### Corrigido

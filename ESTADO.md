@@ -69,6 +69,7 @@ O pipeline está completo e roda de ponta a ponta. **Um caso foi fechado** — o
 | A checagem do G20 usa o conceito de governo geral do FMI, que **não é** o do setor público consolidado brasileiro | `checagens/...json`, A007, campo `divergencia_entre_fontes` |
 | A exclusividade "na história do Brasil" (A006) **não é verificável** antes de 2001, quando as séries comparáveis começam | idem, A006 |
 | Não há fade entre cartelas: corte seco, decisão deliberada | `docs/ARQUITETURA.md` §5 |
+| 🆕 **17 dos 23 cards** ficam na tela menos que o tempo de ler resumo e ressalva (17 caracteres por segundo); registrado como medida, sem mudança no pipeline | `docs/IDENTIDADE_VISUAL.md` §7.1 |
 
 ---
 
