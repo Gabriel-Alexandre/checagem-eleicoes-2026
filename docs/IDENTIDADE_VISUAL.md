@@ -137,6 +137,14 @@ Na última fala do trecho, ou no fim do congelamento de leitura (§7). O recorte
 
 ⚠️ O aviso de atraso (card que entra mais de 12s depois da fala) não vale durante o congelamento: ali não há fala nova disputando a atenção, e o card traz a citação e o minuto da fala. Durante o trecho, ele continua valendo, e o conserto é na extração (duas alegações que eram uma), ⛔ nunca encolhendo a leitura.
 
+### 7.1 Medida de 29/set/2026: o tempo de leitura (registro, sem mudança no pipeline)
+
+O card entra quando a frase começa e fica até 4,0 s depois de ela acabar, então o tempo total na tela é a fala mais a permanência (limitado pelo piso e pelo teto da tabela). É esse tempo total que foi medido abaixo.
+
+Medido no caso publicado (`plano-bloco-contas-publicas.json` contra o `resumo` e a `ressalva` de cada checagem, o texto que o card mostra além da frase e das fontes), pela régua de legenda de 17 caracteres por segundo (a confortável para público geral, com mínimo de 0,83 s por evento): **17 dos 23 cards ficam na tela menos que o tempo de ler resumo e ressalva** (mediana de 185 caracteres, que pedem ~11 s; os cards ficam de 3,0 a 14,0 s). O espectador pode pausar, e a frase citada ajuda a leitura, então isso não é defeito declarado: é uma medida para a próxima decisão sobre o tamanho do resumo ou as constantes de tempo, que é decisão do mantenedor.
+
+A mesma régua veio do editor de vídeos que conta este projeto em vídeo, onde texto que fica menos que o tempo de leitura e cena que troca antes de assentar pesaram na qualidade percebida.
+
 ## 8. O que nunca entra na tela
 
 ⛔ contagem cumulativa ("3ª informação falsa") · ⛔ adjetivo sobre a pessoa · ⛔ emoji ·

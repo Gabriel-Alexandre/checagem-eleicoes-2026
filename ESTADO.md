@@ -94,6 +94,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | O validador cobra ano e número por **aviso**, não por erro: aviso tem que ser lido | `docs/METODOLOGIA.md` §3.1 |
 | Portais que recusam robô (IBGE, portal do STF) ficam sem captura assinada, e isso é registrado | `checagens/CAPTURAS.json` de cada caso |
 | A checagem do G20 usa o conceito de governo geral do FMI | caso Lula, `A007` |
+| 🆕 **17 dos 23 cards** ficam na tela menos que o tempo de ler resumo e ressalva (17 caracteres por segundo); registrado como medida, sem mudança no pipeline | `docs/IDENTIDADE_VISUAL.md` §7.1 |
 
 ---
 
