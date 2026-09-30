@@ -1,6 +1,6 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 27/set/2026 (versão 0.2.1, dois casos)
+**Atualizado em:** 30/set/2026 (versão 0.3.0, três casos)
 
 Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que está pronto, o que falta, e o comando exato para retomar. ⛔ Ele não guarda doutrina: isso é [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -10,17 +10,19 @@ Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que es
 
 O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/NUVEM.md`](docs/NUVEM.md)). **Dois casos principais** estão fechados: o bloco de contas públicas da sabatina de Lula (auditado e corrigido em 26/set) e o **bloco de economia** da sabatina de Flávio Bolsonaro (refeito em 27/set a pedido do autor). O primeiro trecho do Flávio, sobre a tentativa de golpe, fica como registro. A revisão é por IA, em passada adversarial separada ([`skills/revisar-checagem.md`](skills/revisar-checagem.md)): registrada nas 21 checagens do bloco de economia, ainda não nos outros dois casos. O vídeo termina com a fala: sem cartela de encerramento e sem a cartela de divulgação do g1.
 
+🆕 **30/set/2026: o bloco de economia passou a ser checado sobre a íntegra horizontal da sabatina** (44min18s, fornecida pelo autor), no lugar do clipe vertical do g1. As faixas pretas foram cortadas (`--cortar-faixas`), só o bloco (34:02 a 39:40) foi recortado, os cards ficaram opacos e passaram a entrar com fade. **Nenhum veredito mudou**; o que mudou foi o relógio dos tempos, oito correções de transcrição e a citação de `A018`. Tudo em [`CORRECOES.md`](casos/2026-08-28-sabatina-flavio-globo-economia/CORRECOES.md).
+
 ---
 
 ## O que está pronto
 
 | Camada | Estado |
 |---|---|
-| Pipeline (8 passos) | ✅ completo; recorte com `--enquadrar` para vídeo vertical; tempo de leitura e congelamento final no overlay |
+| Pipeline (8 passos) | ✅ completo; recorte com `--enquadrar` para vídeo vertical e `--cortar-faixas` para horizontal com barras pretas; tempo de leitura e congelamento final no overlay; 🆕 card opaco e entrada com fade de 8 quadros; `--som-de-entrada` opcional; `ferramentas/migrar-tempos.py` para trocar a mídia de um caso |
 | Validador | ✅ travas da 0.2.0: ano, ressalva, intenção, travessão, cobertura, `citacao_card`, arredondamento, capturas, plano; na 0.2.1, aviso para juízo extraído como alegação e para checagem sem revisão registrada |
 | Evidência | ✅ captura de fonte com sha256 e conferência de trecho contra a página (`checagens/CAPTURAS.json`) |
 | Nuvem | ✅ cinco workflows: preparar mídia, capturar fontes, segunda passada, renderizar, sondar vídeos |
-| Testes | ✅ 83 passando, incluindo regressão sobre os três casos reais |
+| Testes | ✅ 92 passando, incluindo regressão sobre os três casos reais e os do corte de faixas e da entrada com fade |
 | CI | ✅ `.github/workflows/validar.yml`: lint, testes, validador de todos os casos, plano de overlay sem diferença, links |
 
 ### Caso 1 · `casos/2026-08-27-sabatina-lula-globo`
@@ -41,15 +43,15 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | | |
 |---|---|
 | Por que existe | O autor avaliou que o trecho do golpe tinha muito juízo de valor e pouco fato conferível. Uma sondagem de 15 vídeos (`sondagem-rodada-1.json`) achou o segundo trecho oficial do g1: o bloco inteiro de economia, escolhido por tema, como o do Lula |
-| Peça | trecho oficial do g1 (Facebook 1023993500397311), 5min43s, vertical 540x960, sha256 `ae35ff24…`. É vertical porque é o único arquivo oficial obtido: a íntegra horizontal segue inacessível (YouTube recusa o runner; Globoplay só no Brasil). O recorte `bloco-economia` vai até 05:38,1, antes da cartela de divulgação do g1, e usa `--enquadrar` (imagem inteira no centro de um quadro 1920x1080) |
-| Transcrição | 94 segmentos; 5 correções com segunda passada; 3 leituras não resolvidas, declaradas |
-| Falantes | César Tralli, Renata Vasconcellos e Flávio Bolsonaro; trocas conferidas quadro a quadro e contra o Poder360 |
+| Peça | 🔧 **30/set/2026: íntegra horizontal** da sabatina, 44min18s, 1920x886 com faixas pretas laterais, sha256 `a7006047…`, fornecida pelo autor (canal de origem não informado; conferida pelo conteúdo e pela fala, ver `CASO.json`). Antes era o clipe vertical do g1 (`ae35ff24…`, 540x960). O recorte `bloco-economia` vai de 34:02,3 a 39:40,45 e usa `--cortar-faixas` (imagem útil 1568x882, recuada 4 px da borda mole, levada a 1920x1080).
+| Transcrição | 98 segmentos (o bloco transcrito de novo na mídia nova, `transcricao-bloco-economia.json`); 8 correções com segunda passada, entre elas `1922` por `2022` e duas do fim do bloco, onde o motor puxou frase da pergunta seguinte; leituras não resolvidas declaradas |
+| Falantes | César Tralli, Renata Vasconcellos e Flávio Bolsonaro; 🔧 trocas refeitas em 30/set na íntegra (plano aberto quando um entrevistador fala, close quando Flávio responde) e contra o Poder360; o limite de 35:32 mudou |
 | Alegações | 21, só fato (5 dos entrevistadores, 16 do entrevistado); nenhum juízo, promessa ou hipótese |
 | Vereditos | 10 verdadeiro · 8 impreciso · 3 sem comprovação (5 mudanças da revisão adversarial por IA de 27/set, registradas em `CORRECOES.md`) |
 | Revisão | ✅ `revisao_ia` nas 21 checagens: 16 mantidas, 5 alteradas |
 | Fontes | 55 trechos, 53 URLs, todos conferidos contra a página capturada (7 rodadas de captura) |
 | Validador | ✅ 0 erros, 2 avisos (A011 e A014 sem fonte N1/N2, e por isso sem comprovação) |
-| Vídeo | ✅ 1920x1080, termina com a última fala, sem cartela do g1 nem de encerramento; renderizado localmente em 27/set e conferido no fim quadro a quadro. Pedido de render no runner em `render/PEDIDO_RENDER.json` (rodada 2) para o MP4 de referência no rascunho `nuvem-2026-08-28-sabatina-flavio-globo-economia` |
+| Vídeo | ✅ 1920x1080, 30 fps, 5min38s, termina com a última fala (sem cartela do g1 nem de encerramento), sem faixa preta, cards opacos com fade; renderizado localmente em 30/set e conferido: 169 quadros sem linha preta na borda, 21 cards sem vídeo por baixo (variação de 0,38 dentro do card contra 10,5 ou mais no vídeo puro), último quadro limpo. Versão leve de 25 MB (crf 32) ao lado. ⚠️ O MP4 de referência no rascunho `nuvem-…` continua o do clipe: o runner não tem a íntegra, e `render/PEDIDO_RENDER.json` (rodada 2) é da mídia antiga |
 
 ### Caso 2 (registro) · `casos/2026-08-28-sabatina-flavio-globo`
 
@@ -77,7 +79,11 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
    python -m checagem validar    2026-08-27-sabatina-lula-globo --recorte bloco-contas-publicas
    ```
    Confira os parâmetros exatos do recorte em `recortes/RECORTES.json` antes de rodar.
-3. **Checar a íntegra da sabatina de Flávio.** Precisa do arquivo: coloque-o em `casos/2026-08-28-sabatina-flavio-globo/fonte/` a partir de uma rede no Brasil (Globoplay) ou libere o YouTube na política de rede do ambiente, e comece no PASSO 1 com um slug novo ou um recorte novo. Uma checagem publicada da entrevista inteira (Aos Fatos) já existe e contamina a extração: declare-a, como foi feito aqui.
+3. **Checar o resto da íntegra da sabatina de Flávio.** 🔧 O arquivo existe desde 30/set (dentro do caso `2026-08-28-sabatina-flavio-globo-economia/fonte/`, fora do git; o `MIDIA.json` traz o sha256). Falta transcrever a peça toda (`python -m checagem transcrever <slug>`, uns 30 min de CPU), extrair e checar o que está fora do bloco de economia, com slug ou recorte novo. Uma checagem publicada da entrevista inteira (Aos Fatos) já existe e contamina a extração: declare-a.
+   **Antes de publicar o vídeo de economia, decisões e conferências que são do autor** (⬜ não são pendência de andamento, são o que a IA não pode fechar):
+   - ouvir `35:12` a `35:17` e confirmar **`outubro de 2022`** (o motor escreve 1922 em sete de oito decodificações e 2022 só na passada longa com prompt; a correção se apoia em referência e contexto, não no áudio);
+   - decidir o **som de entrada** dos cards: o padrão V32 do editor de longos pede som, mas o PASSO 7 copia o áudio sem reencodar. O `--som-de-entrada` existe e está desligado (`docs/ARQUITETURA.md` §5);
+   - `A021`: a nota do BC de 31/08 traz a tabela de elasticidades como imagem e ninguém leu o número novo.
 4. **Checar os outros 40 minutos da peça de Lula.** Transcrição e falantes da peça inteira já existem: comece no PASSO 4.
 5. **Os outros quatro candidatos da série.**
 
@@ -87,7 +93,9 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 
 | Limitação | Onde |
 |---|---|
-| O caso Flávio é um **trecho escolhido pelo veículo**, não a íntegra | `CASO.json`, procedência; topo do relatório |
+| O caso Flávio do golpe (registro) é um **trecho escolhido pelo veículo**, não a íntegra; o de economia usa a íntegra fornecida pelo autor, com **origem de download não informada** | `CASO.json` de cada caso, procedência |
+| A íntegra tem 44min18s e o Globoplay lista cerca de 1 h; a diferença não foi esclarecida | `CASO.json` do caso de economia |
+| A transcrição do bloco de economia tem três pontos sem decisão: o verbo de `A018` (a citação usa `[...]`), a fala "Meio trilhão de reais..." (0,6 s) e uma interjeição de Renata em 37:29 que o motor principal não escreveu | `CORRECOES.md` e `NOTA_DE_ATRIBUICAO.md` §3 do caso |
 | O ambiente de trabalho **não alcança o YouTube**, e o runner é recusado por ele | `fonte/origem-download.json` do caso Flávio; `docs/NUVEM.md` |
 | O proxy da sessão **não deixa enviar binário** à API do GitHub | `docs/NUVEM.md` §7.1 |
 | O detector de tom **não separa vozes** em áudio de TV comprimido | nota de atribuição do caso Lula, §4 |
@@ -119,6 +127,11 @@ Cada linha aqui é um defeito que aconteceu de verdade. Estão listados porque a
 | Trecho "de fonte" que não estava na página | trechos reescritos ou truncados, e uma URL que não existia (caso Lula) | captura com sha256 e `ferramentas/conferir-trechos.py`, que confere cada trecho contra a página |
 | "o PIB" casando dentro de "brutO PIB" | a comparação de citação e de trecho era de substring | palavra inteira, no validador e na conferência de trechos |
 | Card de `FALSO` com 3s na tela | piso fixo de 3s e cinco alegações em 20s no fim do trecho do caso Flávio | tempo de leitura por card e congelamento final declarado no plano |
+| Borda preta de 3 a 4 colunas no quadro final, mesmo com o corte certo | a borda entre a faixa e a imagem é mole: a compressão espalha cinza (coluna 172 tem luma 33) | `--cortar-faixas` recua 4 px para dentro da borda medida |
+| Deslocamento entre duas mídias medido com dispersão de 0,78 s | o **começo** de cada segmento do motor varia entre passadas sobre o mesmo áudio; o **fim** não (±0,04 s) | `ferramentas/migrar-tempos.py` mede pelo fim |
+| "outubro de **1922**" na transcrição nova | erro recorrente do motor no áudio de outra codificação (sete de oito decodificações) onde o clipe acertava | correção por script, com a conferência no áudio marcada como pendente |
+| Fala de entrevistador dentro do último turno de Flávio | o motor escreveu "Então, quero ouvir o senhor, candidato", frase da **pergunta seguinte**, que fica depois do corte | nove decodificações concordam contra ela; corrigido por script |
+| Quina reta no canto esquerdo do card | o corpo escuro era um retângulo sobre a faixa colorida | corpo arredondado só à direita (`corners` do Pillow) |
 | Upload do vídeo final recusado | o proxy da sessão só aceita corpo JSON na API do GitHub | o runner renderiza a partir do que está versionado (`nuvem-renderizar`) |
 
 ---
@@ -127,9 +140,9 @@ Cada linha aqui é um defeito que aconteceu de verdade. Estão listados porque a
 
 ```bash
 cd checagem-eleicoes-2026
-python -m pytest -q                       # 83 testes
+python -m pytest -q                       # 92 testes
 python ferramentas/conferir-links.py      # nenhum link quebrado
-python ferramentas/validar-todos.py       # os dois casos, 0 erros
+python ferramentas/validar-todos.py       # os três casos, 0 erros
 ```
 
 Se os três passarem, o repositório está no estado descrito aqui. Se algum falhar, **conserte antes de escrever qualquer coisa nova**: seguir em frente com a porta reprovando é como o projeto perde a única coisa que ele tem, que é ser conferível.

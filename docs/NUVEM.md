@@ -86,6 +86,10 @@ curl -L -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/octet-strea
 
 🔧 Encontrado em 27/set/2026: a sessão de trabalho renderizou o caso Flávio, mas não conseguiu enviar o MP4 ao rascunho (o proxy de rede da sessão aceita só corpo JSON na API do GitHub, e corta transferências longas). Em vez de contornar a rede, o runner, que já tem a mídia no rascunho, refaz o render a partir do que está versionado. O resultado é o mesmo arquivo lógico: mesmos parâmetros de recorte, mesmo plano, mesma porta.
 
+### 7.2 Quando a mídia troca, o runner fica para trás
+
+🔧 30/set/2026: o caso `2026-08-28-sabatina-flavio-globo-economia` passou a usar a íntegra horizontal (335 MB), que não está no rascunho `nuvem-<slug>`, onde ficou o clipe do g1. O `nuvem-renderizar` baixaria o arquivo pelo nome do `CASO.json` e falharia. O vídeo desse caso foi renderizado na máquina do autor, e o `render/PEDIDO_RENDER.json` (rodada 2) é da mídia antiga. Para o runner voltar a servir esse caso, a íntegra teria que ser subida ao rascunho (decisão do autor, porque é conteúdo de terceiro). O workflow já sabe refazer o recorte com `--cortar-faixas` quando o registro traz `enquadramento.corte`.
+
 ## 8. O que este caminho NÃO resolve
 
 - ⛔ **Não publica nada.** O release é rascunho, e a publicação do vídeo checado segue sendo decisão humana (METODOLOGIA §6).

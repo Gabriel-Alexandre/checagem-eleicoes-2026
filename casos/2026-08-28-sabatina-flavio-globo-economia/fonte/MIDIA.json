@@ -1,12 +1,12 @@
 {
-  "arquivo": "sabatina-flavio-globo-2026-08-28-economia.mp4",
-  "sha256": "ae35ff24747314742390d3a934706ea61a43a7e46a1440e0ecb00a8406b09c7c",
-  "bytes": 6439376,
-  "duracao_s": 343.105,
-  "largura": 540,
-  "altura": 960,
-  "fps": 23.976,
-  "codec_video": "av1",
+  "arquivo": "sabatina-flavio-globo-2026-08-28-integra.mp4",
+  "sha256": "a70060479a94485746c13e65e647bc7426a8ef38e0ce548fe68acdb76fb72972",
+  "bytes": 335569427,
+  "duracao_s": 2657.686,
+  "largura": 1920,
+  "altura": 886,
+  "fps": 30.0,
+  "codec_video": "h264",
   "codec_audio": "aac",
-  "registrado_em": "2026-09-27"
+  "registrado_em": "2026-09-30"
 }

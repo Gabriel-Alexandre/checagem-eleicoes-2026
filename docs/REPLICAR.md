@@ -195,6 +195,36 @@ As cartelas são quadros inteiros de 1920x1080. Peça vertical (corte oficial de
 python -m checagem midia $SLUG recortar trecho --inicio 0 --duracao 164 --enquadrar --motivo "..."
 ```
 
+🆕 **Horizontal com faixas pretas** (cópia da íntegra que veio com barras, 30/set/2026): meça e corte com `--cortar-faixas`. O `cropdetect` roda em 24 cenas, a caixa é recuada 4 px da borda mole, fica 16:9 exata e vai a 1920x1080. `python -m checagem midia $SLUG faixas` só mostra a medida. Detalhe em `docs/IDENTIDADE_VISUAL.md` §6.3.1.
+
+```bash
+python -m checagem midia $SLUG recortar bloco-x --inicio 1200 --duracao 338 --cortar-faixas --motivo "..."
+```
+
+### 2.8 Trocar a mídia de um caso que já está checado
+
+🆕 Acontece quando aparece um arquivo melhor da MESMA fala (a íntegra horizontal no lugar de um clipe vertical, por exemplo). As checagens não se refazem: muda o **relógio**. Foi assim no caso `2026-08-28-sabatina-flavio-globo-economia` em 30/set/2026, e o registro completo está no `CORRECOES.md` dele.
+
+```bash
+# 1. guarde a transcrição antiga fora do caso (ela vai ser substituída)
+cp casos/$SLUG/transcricao/transcricao.json /tmp/transcricao-antiga.json
+# 2. ponha o arquivo novo em fonte/ (só um vídeo por caso) e assine
+python -m checagem midia $SLUG registrar
+python -m checagem midia $SLUG faixas                 # se veio com barras pretas: vê a medida
+# 3. ache onde o bloco começa (uma transcrição rápida da peça, ou a primeira frase do bloco) e recorte
+python -m checagem midia $SLUG recortar bloco-x --inicio S --duracao S --cortar-faixas --motivo "..."
+python -m checagem midia $SLUG audio --recorte bloco-x
+python -m checagem transcrever $SLUG --recorte bloco-x
+# 4. leve alegações e turnos para o relógio novo e reconfira as correções
+python ferramentas/migrar-tempos.py $SLUG --recorte bloco-x --antiga /tmp/transcricao-antiga.json --aplicar
+# 5. o motor erra de outro jeito no áudio novo: reescreva correcoes.json, aplique, atribua falante e valide
+python ferramentas/corrigir-transcricao.py $SLUG --recorte bloco-x
+python -m checagem falantes $SLUG --recorte bloco-x
+python -m checagem validar  $SLUG --recorte bloco-x
+```
+
+⚠️ Três coisas que o script não decide e que aconteceram de verdade: (1) o motor **escreveu 1922 onde a fala era 2022** e puxou uma frase da pergunta seguinte para dentro do último turno; só uma segunda decodificação completa (feixe 8, com prompt) e janelas isoladas desmascaram isso; (2) o limite de um turno pode cair dentro de um segmento novo: confira cada troca de falante no quadro; (3) cada correção nova precisa da sua própria conferência, escrita no `conferido_como`, e o que só a audição resolve fica marcado como pendência do autor.
+
 ## 3. 🔴 A conferência com o olho, que os números não substituem
 
 O validador confere **texto de JSON**. Ele não vê a imagem. Uma cartela que cobre a assinatura da emissora, um texto que estoura a caixa, uma moldura verde numa fala que a tarja diz ser falsa: nada disso reprova em validador nenhum.

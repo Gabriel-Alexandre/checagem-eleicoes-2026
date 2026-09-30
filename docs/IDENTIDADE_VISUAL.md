@@ -57,7 +57,7 @@ Três decisões dentro disso:
 | margem inferior | 56px | ⚠️ ainda pode cobrir crédito de emissora, e o PASSO 8 manda conferir |
 | altura | calculada | o card cresce com o texto; ⛔ altura fixa corta frase ou deixa buraco |
 | raio | 22px | arredondado o bastante para não parecer legenda automática |
-| fundo | `#0D1016` a 94% | opaco o suficiente para o texto sobreviver a cenário claro |
+| fundo | `#0D1016` a 100% | 🔧 era 94% até 29/set/2026. Com 6% de transparência o vídeo aparecia por baixo do texto; agora **nada do vídeo fica sob o texto** do card, do selo ou da legenda |
 | citação | 33px itálico | menor e mais leve que o resumo: é prova, não é a conclusão |
 | resumo | 40px SemiBold | a linha que tem que ser lida se só uma for lida |
 
@@ -114,6 +114,10 @@ para resumo e ressalva, reescrever. ⛔ Nunca diminuir a fonte ou aumentar o lim
 A saída é sempre 1920x1080. Quando o único arquivo oficial obtido é vertical (os trechos que o g1 publica em rede social, caso das duas peças de Flávio Bolsonaro), o recorte usa `--enquadrar`: a imagem inteira fica no centro, na altura toda, sem corte e sem deformação, e as laterais recebem uma cópia desfocada e escurecida do próprio vídeo. ⛔ Não se corta a imagem vertical para preencher o quadro: some o rosto de quem fala ou a cartela do veículo com o nome.
 
 Preferir sempre a íntegra horizontal. Ela só não é usada quando não pôde ser obtida sem contornar trava de acesso, e isso fica escrito na procedência do `CASO.json`.
+
+### 6.3.1 Vídeo horizontal com faixas pretas (30/set/2026)
+
+Uma cópia horizontal também pode vir com barras pretas (a íntegra da sabatina de Flávio chegou em 1920x886, com 172 px de preto de cada lado). O recorte usa `--cortar-faixas`: o `cropdetect` mede a imagem útil em 24 cenas, a caixa é recuada **4 px para dentro** da borda (a compressão espalha 3 a 4 colunas de cinza entre o preto e a imagem), ajustada a 16:9 exato e par, e escalada a 1920x1080 sem deformar. O registro do recorte guarda a caixa, o que foi medido e o filtro. `python -m checagem midia <slug> faixas` mostra a medida sem cortar. ⛔ Nenhum pixel de faixa pode ficar no quadro, e a conferência quadro a quadro procura preto na borda.
 
 ## 6.4 Onde o vídeo termina
 

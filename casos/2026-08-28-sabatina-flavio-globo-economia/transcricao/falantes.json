@@ -2,63 +2,63 @@
   "caso": "2026-08-28-sabatina-flavio-globo-economia",
   "turnos": [
     {
-      "inicio_s": 0.0,
-      "fim_s": 30.14,
+      "inicio_s": 2042.3,
+      "fim_s": 2072.5,
       "falante": "César Tralli"
     },
     {
-      "inicio_s": 30.14,
-      "fim_s": 89.42,
+      "inicio_s": 2072.5,
+      "fim_s": 2132.5,
       "falante": "Flávio Bolsonaro"
     },
     {
-      "inicio_s": 89.42,
-      "fim_s": 93.46,
+      "inicio_s": 2132.5,
+      "fim_s": 2135.8,
       "falante": "César Tralli"
     },
     {
-      "inicio_s": 93.46,
-      "fim_s": 132.44,
+      "inicio_s": 2135.8,
+      "fim_s": 2174.5,
       "falante": "Flávio Bolsonaro"
     },
     {
-      "inicio_s": 132.44,
-      "fim_s": 135.86,
+      "inicio_s": 2174.5,
+      "fim_s": 2178.22,
       "falante": "Renata Vasconcellos"
     },
     {
-      "inicio_s": 135.86,
-      "fim_s": 136.76,
+      "inicio_s": 2178.22,
+      "fim_s": 2179.12,
       "falante": "Flávio Bolsonaro"
     },
     {
-      "inicio_s": 136.76,
-      "fim_s": 163.9,
+      "inicio_s": 2179.12,
+      "fim_s": 2206.28,
       "falante": "Renata Vasconcellos"
     },
     {
-      "inicio_s": 163.9,
-      "fim_s": 222.56,
+      "inicio_s": 2206.28,
+      "fim_s": 2264.94,
       "falante": "Flávio Bolsonaro"
     },
     {
-      "inicio_s": 222.56,
-      "fim_s": 228.74,
+      "inicio_s": 2264.94,
+      "fim_s": 2271.1,
       "falante": "César Tralli"
     },
     {
-      "inicio_s": 228.74,
-      "fim_s": 284.84,
+      "inicio_s": 2271.1,
+      "fim_s": 2327.0,
       "falante": "Flávio Bolsonaro"
     },
     {
-      "inicio_s": 284.84,
-      "fim_s": 291.68,
+      "inicio_s": 2327.0,
+      "fim_s": 2334.04,
       "falante": "Renata Vasconcellos"
     },
     {
-      "inicio_s": 291.68,
-      "fim_s": 343.105,
+      "inicio_s": 2334.04,
+      "fim_s": 2380.45,
       "falante": "Flávio Bolsonaro"
     }
   ]

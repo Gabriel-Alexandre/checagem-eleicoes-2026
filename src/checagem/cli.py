@@ -20,7 +20,9 @@ checagem — pipeline de checagem de fatos em vídeo
 
   midia <slug> registrar                    PASSO 1 · assina e mede o vídeo de origem
   midia <slug> audio [--recorte ID]         PASSO 1 · extrai WAV 16 kHz mono
+  midia <slug> faixas                       PASSO 1 · mede as faixas pretas (imagem útil)
   midia <slug> recortar ID --inicio S --duracao S [--motivo "..."]
+                          [--enquadrar | --cortar-faixas]
                                             PASSO 1 · corta um trecho
 
   transcrever <slug> [--recorte ID] [--modelo M] [--threads N]

@@ -1,12 +1,12 @@
 {
   "slug": "2026-08-28-sabatina-flavio-globo-economia",
-  "titulo": "Sabatina de Flávio Bolsonaro na TV Globo: bloco de economia (trecho oficial publicado pelo g1)",
+  "titulo": "Sabatina de Flávio Bolsonaro na TV Globo: bloco de economia",
   "data_do_evento": "2026-08-28",
   "veiculo": "TV Globo",
-  "programa": "Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional); trecho publicado pelo g1",
+  "programa": "Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional); íntegra de 44min18s, com o bloco de economia recortado",
   "formato": "sabatina",
   "eleicao": "Eleições gerais 2026, Presidência da República, 1º turno",
-  "duracao_s": 343.105,
+  "duracao_s": 2657.686,
   "falantes": [
     {
       "nome": "César Tralli",
@@ -28,26 +28,26 @@
     }
   ],
   "midia": {
-    "arquivo": "sabatina-flavio-globo-2026-08-28-economia.mp4",
-    "sha256": "ae35ff24747314742390d3a934706ea61a43a7e46a1440e0ecb00a8406b09c7c",
-    "bytes": 6439376,
-    "largura": 540,
-    "altura": 960,
-    "fps": 23.976,
-    "codec_video": "av1",
+    "arquivo": "sabatina-flavio-globo-2026-08-28-integra.mp4",
+    "sha256": "a70060479a94485746c13e65e647bc7426a8ef38e0ce548fe68acdb76fb72972",
+    "bytes": 335569427,
+    "largura": 1920,
+    "altura": 886,
+    "fps": 30.0,
+    "codec_video": "h264",
     "codec_audio": "aac"
   },
   "procedencia": {
-    "como_foi_obtido": "A íntegra da sabatina não pôde ser baixada: as cópias integrais estão no YouTube (o0W3MnZTqyA, Bi-qbHPenoI, fMx1ud1uJQc), que recusou o runner do GitHub em seis tentativas ('Sign in to confirm you're not a bot'), e no Globoplay (id 14912682), que não reproduz fora do Brasil. ⛔ Não se contornou trava de país com proxy ou rede de anonimato. Uma sondagem de 15 vídeos candidatos (sondagem-rodada-1.json, no release em rascunho nuvem-2026-08-28-sabatina-flavio-globo) mostrou que o g1 publicou dois trechos oficiais da entrevista no Facebook: 2min44s sobre a tentativa de golpe (caso 2026-08-28-sabatina-flavio-globo) e 5min43s sobre economia, este. O arquivo checado é o segundo: Facebook do g1, id 1023993500397311, vertical 540x960, publicado em 29/ago/2026, título 'ENTREVISTA COM O CANDIDATO - Flávio Bolsonaro (PL)...', cartela de abertura do g1 'Flávio responde sobre ajuste fiscal, salário-mínimo e aposentadoria'.",
-    "url_oficial": "https://www.facebook.com/g1/videos/1023993500397311/",
-    "integralidade": "trecho",
-    "observacoes": "Recorte feito pelo próprio veículo, contínuo, com a pergunta de abertura do bloco ('Candidato, vamos falar aqui de economia, dívida pública') até o fim da última resposta, e a cartela 'Veja a íntegra da entrevista em g1.com.br/eleicoes'. Conferido contra a transcrição integral publicada pelo Poder360: o bloco do vídeo corresponde, sem lacuna, às perguntas e respostas de economia daquela transcrição. POR QUE ESTE TRECHO: o autor do projeto avaliou que o trecho de 2min44s sobre a tentativa de golpe tinha pouco fato conferível e muito juízo de valor. Este bloco foi escolhido por TEMA, antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (o bloco de contas públicas da sabatina de Lula): é o bloco da entrevista sobre dívida, juros e gasto público. ⚠️ Contaminação declarada: antes da extração, uma busca de procedência devolveu o resumo de uma checagem ao vivo da entrevista (Agência Lupa) e uma menção genérica a 'mentiras' em outra página; nenhum veredito sobre as frases deste bloco foi lido. Os metadados da entrevista (28/ago/2026, 21h30, Estúdios Globo, César Tralli e Renata Vasconcellos, 40 minutos em dois blocos) estão conferidos em quatro fontes no caso 2026-08-28-sabatina-flavio-globo."
+    "como_foi_obtido": "Arquivo fornecido pelo autor do projeto em 30/set/2026, cópia local `sabatina-flavio.mp4` (1920x886, 30 fps, 44min18s, 335,6 MB). O canal ou endereço de onde ele foi baixado não foi informado. Que é a transmissão da TV Globo de 28/ago/2026 foi conferido no próprio arquivo: as imagens trazem o selo 'AO VIVO' da emissora e o cenário do 'Eleições', a mesa é a do caso (César Tralli, Renata Vasconcellos e Flávio Bolsonaro), e a fala do bloco de economia coincide, segmento a segmento, com a do clipe do g1 que era a peça anterior (ver transcricao/NOTA_DE_ATRIBUICAO.md). Chamada de íntegra: o arquivo começa na abertura do programa ('Olá, boa noite') e termina no encerramento ('Amanhã o nosso entrevistado é o candidato Augusto Cury'), conferido por transcrição dos dois pontas em 30/set. ⚠️ A página do Globoplay lista cerca de 1 h para a entrevista, contra os 44min18s do arquivo; a diferença não foi esclarecida (o intervalo comercial é a hipótese, sem prova). ⛔ Não se contornou trava de país com proxy ou rede de anonimato para obtê-lo.",
+    "url_oficial": "https://globoplay.globo.com/v/14912682/",
+    "integralidade": "integral",
+    "observacoes": "A imagem chegou com faixas pretas laterais (172 px de cada lado): o recorte usa --cortar-faixas, que mede e corta a imagem útil e a leva a 1920x1080 sem deformar (docs/IDENTIDADE_VISUAL.md §6.3.1). POR QUE ESTE TRECHO: o autor do projeto avaliou que o trecho de 2min44s sobre a tentativa de golpe tinha pouco fato conferível e muito juízo de valor. O bloco de economia foi escolhido por TEMA, antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (o bloco de contas públicas da sabatina de Lula): é o bloco da entrevista sobre dívida, juros e gasto público. ⚠️ Contaminação declarada: antes da extração, uma busca de procedência devolveu o resumo de uma checagem ao vivo da entrevista (Agência Lupa) e uma menção genérica a 'mentiras' em outra página; nenhum veredito sobre as frases deste bloco foi lido. Os metadados da entrevista (28/ago/2026, 21h30, Estúdios Globo, César Tralli e Renata Vasconcellos, 40 minutos em dois blocos) estão conferidos em quatro fontes no caso 2026-08-28-sabatina-flavio-globo. ANTES DE 30/set/2026 a peça checada era o clipe vertical do g1 no Facebook (id 1023993500397311, 540x960, 5min43s, sha256 ae35ff24747314742390d3a934706ea61a43a7e46a1440e0ecb00a8406b09c7c). Foi trocada pela íntegra horizontal abaixo, a pedido do autor; a troca e o que ela mudou (só o relógio dos tempos, nenhum veredito) estão em CORRECOES.md. Naquele clipe o g1 tinha feito o mesmo recorte que este caso faz agora: da pergunta de abertura sobre dívida pública ao fim da última resposta."
   },
   "transcricao": {
     "motor": "whisper.cpp",
     "modelo": "ggml-large-v3-turbo.bin",
     "idioma": "pt",
-    "parametros": "-t 4 -bs 5 -bo 5 -ml 0",
+    "parametros": "-t 11 -bs 5 -bo 5 -ml 0",
     "revisao_humana": false
   }
 }

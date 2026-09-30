@@ -83,13 +83,27 @@ lugar. O ffmpeg faz um `overlay=0:0` por cartela.
 O quadro inteiro faz o grafo de filtro virar **uma linha por card**, e o alinhamento existir em
 um lugar só (o Pillow). O custo é ~150 KB por cartela em disco, que não entra no git.
 
-## 5. Corte seco, sem fade
+## 5. Entrada com fade de 8 quadros (o selo entra seco)
 
-**Decisão:** `enable='between(t,entra,sai)'`, sem transição.
+🔧 **Revista em 30/set/2026.** Até 0.2.1 a decisão era corte seco. Ela foi trocada porque o padrão
+de 29/set do editor de vídeos longos (V31: *todo elemento que entra tem animação*) passou a valer
+aqui também (ver `CLAUDE.md`, nota de 29/set).
 
-**Por quê:** fade exige entrada de vídeo em laço por cartela (`-loop 1 -t D`), o que multiplica os
-fluxos decodificados e o tamanho do grafo por um ganho que, num card de checagem, ninguém sente
-falta. Gráfico de telejornal corta seco justamente porque o corte marca o começo da informação.
+**Decisão:** cada cartela, e a legenda de abertura, entra com `fade=t=in:d=0,267:alpha=1`
+(8 quadros a 30 fps). O `enable='between(t,entra,sai)'` continua mandando na saída, que segue
+seca, e o selo permanente não anima: ele já está na tela no primeiro quadro.
+
+**Como sem inflar o grafo:** o motivo original do corte seco era o custo de `-loop 1 -t D` por
+cartela. O custo só é grande se o laço dura o vídeo inteiro. Aqui cada cartela vira uma entrada em
+laço **só pela sua própria vida** (`-t` = tempo na tela + 0,25 s), deslocada para o segundo certo
+por `setpts=PTS+entra/TB`, e o `overlay` usa `eof_action=pass`. São segundos de quadros por
+cartela, não minutos.
+
+**Som:** o padrão V32 do mesmo editor pede um som no quadro de cada entrada. Aqui ele é **opt-in**
+(`--som-de-entrada`, um estalo de 90 ms a -20 dBFS, mixado sem tocar na fala). O motivo é que o
+PASSO 7 copia o áudio sem reencodar para o vídeo ser conferível contra a peça original, e mixar
+muda o arquivo de áudio. Qual das duas regras vale no vídeo publicado é decisão do mantenedor
+(`ESTADO.md`).
 
 ## 6. Uma cartela por vez na tela
 

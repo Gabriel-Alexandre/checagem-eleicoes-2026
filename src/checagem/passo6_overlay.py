@@ -12,9 +12,11 @@ A alternativa — desenhar a moldura com quatro `drawbox` e a tarja com `drawtex
 filtros por card, texto sem quebra de linha de verdade e nenhum controle de acento. Este
 projeto já tentou; o Pillow ganha em tudo que importa aqui.
 
-⚠️ Corte seco, sem fade. É deliberado: fade exige entrada de vídeo em laço por cartela, o
-grafo de filtro cresce por um ganho estético que, num card de checagem, ninguém sente falta.
-Ver docs/ARQUITETURA.md §5.
+🔧 Entrada com fade de 8 quadros (30/set/2026, padrão V31 do editor de vídeos longos). Antes era
+corte seco por decisão; o fade custa uma entrada em laço só pela vida da cartela, o que o PASSO 7
+resolve sem inflar o grafo. Ver docs/ARQUITETURA.md §5.
+
+🔴 Nenhum texto do quadro fica sobre o vídeo: o fundo do card, do selo e da legenda é opaco.
 """
 
 from __future__ import annotations
@@ -71,7 +73,7 @@ def _selo(d: ImageDraw.ImageDraw) -> None:
     alt = 78
     x = cfg.LARGURA - cfg.CARD_MARGEM_X - larg
     y = 42
-    d.rounded_rectangle([x, y, x + larg, y + alt], radius=12, fill=(13, 16, 22, 200))
+    d.rounded_rectangle([x, y, x + larg, y + alt], radius=12, fill=(13, 16, 22, 255))
     d.text((x + 22, y + 16), cfg.SELO_TEXTO, font=f1, fill=cfg.COR_TEXTO)
     d.text((x + 22, y + 46), cfg.SELO_SUBTEXTO, font=f2, fill=cfg.COR_TEXTO_FRACO)
 
@@ -225,13 +227,13 @@ def desenhar_cartela(*, veredito_chave: str, falante: str, tempo_s: float, id_al
     x1 = x0 + cfg.CARD_LARGURA
     y1 = y0 + altura_card
 
-    d.rounded_rectangle([x0, y0, x1, y1], radius=cfg.CARD_RAIO,
-                        fill=cfg.CARD_FUNDO, outline=cfg.CARD_BORDA, width=2)
-    # faixa colorida à esquerda, arredondada só do lado de fora
-    d.rounded_rectangle([x0, y0, x0 + cfg.CARD_BARRA + cfg.CARD_RAIO, y1],
-                        radius=cfg.CARD_RAIO, fill=_rgba(v.cor))
-    d.rectangle([x0 + cfg.CARD_BARRA, y0, x0 + cfg.CARD_BARRA + cfg.CARD_RAIO, y1],
-                fill=cfg.CARD_FUNDO)
+    # 🔧 30/set/2026: o card é a faixa colorida inteira arredondada, com o corpo escuro por cima
+    # arredondado só à direita. Antes o corpo era um retângulo de quina reta sobre a faixa, e a quina
+    # aparecia como um degrau escuro de alguns pixels nos cantos da esquerda.
+    d.rounded_rectangle([x0, y0, x1, y1], radius=cfg.CARD_RAIO, fill=_rgba(v.cor))
+    d.rounded_rectangle([x0 + cfg.CARD_BARRA, y0, x1, y1], radius=cfg.CARD_RAIO,
+                        fill=cfg.CARD_FUNDO, outline=cfg.CARD_BORDA, width=2,
+                        corners=(False, True, True, False))
 
     tx = x0 + cfg.CARD_BARRA + cfg.CARD_PADDING_X
     ty = y0 + cfg.CARD_PADDING_Y
@@ -273,7 +275,7 @@ def desenhar_legenda(titulo: str, subtitulo: str) -> Image.Image:
     x0 = (cfg.LARGURA - larg) // 2
     y0 = (cfg.ALTURA - alt) // 2
     d.rounded_rectangle([x0, y0, x0 + larg, y0 + alt], radius=26,
-                        fill=(10, 13, 18, 242), outline=(255, 255, 255, 40), width=2)
+                        fill=(10, 13, 18, 255), outline=(255, 255, 255, 40), width=2)
 
     f_tit = tipo.fonte(46, "Bold")
     f_sub = tipo.fonte(26, "Regular")
@@ -332,7 +334,7 @@ def desenhar_encerramento(*, slug: str, n_alegacoes: int, n_revisadas: int) -> I
     x0 = (cfg.LARGURA - larg) // 2
     y0 = (cfg.ALTURA - alt) // 2
     d.rounded_rectangle([x0, y0, x0 + larg, y0 + alt], radius=26,
-                        fill=(10, 13, 18, 246), outline=(255, 255, 255, 40), width=2)
+                        fill=(10, 13, 18, 255), outline=(255, 255, 255, 40), width=2)
 
     f_tit = tipo.fonte(44, "Bold")
     f_txt = tipo.fonte(28, "Regular")

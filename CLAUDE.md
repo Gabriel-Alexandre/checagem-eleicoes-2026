@@ -68,7 +68,7 @@ export PATH="$HOME/scoop/shims:$PATH"      # Windows com scoop
 
 python -m checagem midia $SLUG registrar             # PASSO 1 · sha256, duração, resolução
 python -m checagem midia $SLUG audio                 # PASSO 1 · WAV 16 kHz mono
-python -m checagem midia $SLUG recortar <id> --inicio S --duracao S --motivo "..." [--enquadrar]
+python -m checagem midia $SLUG recortar <id> --inicio S --duracao S --motivo "..." [--enquadrar | --cortar-faixas]
 python -m checagem transcrever $SLUG                 # PASSO 2 · whisper.cpp local
 python ferramentas/comparar-transcricao.py $SLUG ref.txt --so-relevantes   # suspeitas, contra transcrição publicada
 python ferramentas/corrigir-transcricao.py $SLUG     # correções, com registro

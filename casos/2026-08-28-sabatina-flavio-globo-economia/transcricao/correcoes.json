@@ -1,59 +1,63 @@
 {
   "caso": "2026-08-28-sabatina-flavio-globo-economia",
-  "escopo": "O trecho inteiro (00:00 a 05:43), que é o arquivo checado.",
-  "como_foram_conferidas": "Suspeitas levantadas na leitura contra a transcrição publicada pelo Poder360 ('Leia a íntegra das perguntas da Globo e as respostas de Flávio'). Doze janelas transcritas de novo, isoladas, com o mesmo modelo e feixe 8, sem e com prompt de contexto (nomes da mesa e termos econômicos). Só entrou o que as passadas novas e a transcrição publicada sustentam; o nome próprio tem a ressalva de que só a passada com prompt o escreve certo.",
+  "escopo": "O bloco de economia recortado da íntegra (34:02 a 39:40 da peça, arquivo recortes/bloco-economia.mp4).",
+  "como_foram_conferidas": "Em 30/set/2026, quando a peça checada passou do clipe vertical do g1 para a íntegra horizontal, o bloco foi transcrito de novo (whisper.cpp, large-v3-turbo, feixe 5). A saída nova foi comparada, palavra a palavra, com a transcrição corrigida do clipe (mesmo áudio da transmissão, outra codificação) e, onde divergiam, com janelas isoladas transcritas de novo (feixe 5 e 8, sem e com prompt de contexto) e com a transcrição publicada pelo Poder360 ('Leia a íntegra das perguntas da Globo e as respostas de Flávio'). Só entrou o que passadas novas e referência sustentam. A referência edita a fala (jornal tira hesitação): divergência com ela é suspeita, nunca correção por si só. ⚠️ Nenhuma passada substitui ouvir o áudio.",
   "correcoes": [
     {
-      "inicio_s": 30.14,
-      "de": "Otrali, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
-      "para": "Tralli, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
-      "motivo": "nome do entrevistador: 'Otrali' é 'Tralli', a quem a resposta se dirige (ver NOTA_DE_ATRIBUICAO.md).",
-      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'O Trale', com prompt 'Trali'; o Poder360 escreve 'Tralli'. ⚠️ Só o prompt, que continha o nome, dá a grafia certa; a correção se apoia também na atribuição."
+      "inicio_s": 2072.3,
+      "de": "Ô Trale, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
+      "para": "Ô Tralli, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,",
+      "motivo": "nome do entrevistador: 'Trale' é 'Tralli', a quem a resposta se dirige (ver NOTA_DE_ATRIBUICAO.md).",
+      "conferido_como": "Passadas isoladas na mídia nova (íntegra), com o mesmo modelo, feixe 8, sem e com prompt de contexto (nomes da mesa e termos econômicos), em 30/set/2026. O nome só sai 'Tralli' quando o prompt o contém: na janela 34:29 a 34:41 a passada sem prompt escreve 'Ô Trale' e a com prompt cortou a frase. ⚠️ A correção se apoia na atribuição (a pergunta acabou de ser feita por Tralli, quadro em close nele), no Poder360 e nas outras janelas, não numa passada que escreva o nome."
     },
     {
-      "inicio_s": 64.22,
-      "de": "14% é a maior juro real do mundo.",
-      "para": "14% é o maior juro real do mundo.",
-      "motivo": "concordância: 'a maior juro' por 'o maior juro'.",
-      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: as duas passadas escrevem 'o maior juro real do mundo', como o Poder360."
+      "inicio_s": 2104.34,
+      "de": "que é a Selic, vai lá pra lua.",
+      "para": "que é a Selic, vai lá para a lua.",
+      "motivo": "a leitura 'pra lua' saiu das duas passadas longas e de uma das quatro janelas isoladas; 'para a lua' é a leitura das outras três janelas, da transcrição do clipe e do Poder360. Está dividido, e o áudio não desempata: a citação do card usa 'para a lua' (forma da referência e do clipe) e precisa ser literal à transcrição.",
+      "conferido_como": "Janela 34:58 a 35:08, feixe 5 e 8, sem e com prompt: três das quatro passadas escrevem 'vai lá para a lua', uma (feixe 5 com prompt) 'pra lua'; as duas passadas longas escrevem 'pra lua'. Transcrição do clipe do g1 e Poder360: 'para a lua'. ⚠️ Não muda o sentido, só o registro da fala; a leitura escolhida é a que a referência publicada e o clipe sustentam."
     },
     {
-      "inicio_s": 66.5,
-      "de": "E sabe, Tralho, quanto é que era a previsão?",
+      "inicio_s": 2109.36,
+      "de": "E sabe, Trale, quanto é que era a previsão?",
       "para": "E sabe, Tralli, quanto é que era a previsão?",
-      "motivo": "nome do entrevistador: 'Tralho' por 'Tralli'.",
-      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'Tralho', com prompt 'Tralli'; Poder360 'Tralli'. Mesma ressalva da primeira correção."
+      "motivo": "nome do entrevistador: 'Trale' por 'Tralli'.",
+      "conferido_como": "Passadas isoladas na mídia nova (íntegra), com o mesmo modelo, feixe 8, sem e com prompt de contexto (nomes da mesa e termos econômicos), em 30/set/2026. O nome só sai 'Tralli' quando o prompt o contém: janela 35:06 a 35:16: sem prompt 'Tralho', com prompt 'Tralli' (feixe 5 e 8). Poder360 escreve 'Tralli'."
     },
     {
-      "inicio_s": 85.6,
-      "de": "E a taxa de juros era para estar metade, Tralho.",
-      "para": "E a taxa de juros era para estar metade, Tralli.",
-      "motivo": "nome do entrevistador: 'Tralho' por 'Tralli'.",
-      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'Trale', com prompt 'Tralli'. Mesma ressalva."
+      "inicio_s": 2112.16,
+      "de": "Lá em outubro de 1922, a previsão do mercado era que, neste momento,",
+      "para": "Lá em outubro de 2022, a previsão do mercado era que, neste momento,",
+      "motivo": "ano impossível: 'outubro de 1922' não tem Selic nem governo Bolsonaro; a fala refere o Boletim Focus de outubro de 2022, que é a base da checagem A006. 🔴 É o único caso em que a transcrição nova erra onde a do clipe acertava.",
+      "conferido_como": "Sete das oito decodificações novas (a passada principal e seis janelas isoladas, feixe 5 e 8, sem e com prompt) escrevem 'outubro de 1922'; só a segunda passada completa do bloco (feixe 8, com prompt, com o contexto de toda a fala) escreve 'outubro de 2022'. É erro recorrente do motor neste áudio, que o contexto longo corrige. A transcrição do clipe do g1 (mesmo áudio da transmissão) e a do Poder360 escrevem 'outubro de 2022', e o contexto ('se fosse o governo do presidente Bolsonaro', 'neste momento') só fecha com 2022. ⚠️ A conferência no áudio é a que falta: o autor deve ouvir 35:12 a 35:17 antes de publicar."
     },
     {
-      "inicio_s": 228.74,
-      "de": "Tralha, eu vou chegar lá e vou te explicar por que não precisa também fazer economia",
+      "inicio_s": 2128.04,
+      "de": "E a taxa de juros era pra estar metade, Trale.",
+      "para": "E a taxa de juros era pra estar metade, Tralli.",
+      "motivo": "nome do entrevistador: 'Trale' por 'Tralli'.",
+      "conferido_como": "Passadas isoladas na mídia nova (íntegra), com o mesmo modelo, feixe 8, sem e com prompt de contexto (nomes da mesa e termos econômicos), em 30/set/2026. O nome só sai 'Tralli' quando o prompt o contém: janela 35:24 a 35:34: sem prompt 'Trale', com prompt 'Tralli'. Poder360 escreve 'Tralli'."
+    },
+    {
+      "inicio_s": 2271.24,
+      "de": "Tralho, eu vou chegar lá e vou te explicar por que não precisa também fazer economia",
       "para": "Tralli, eu vou chegar lá e vou te explicar por que não precisa também fazer economia",
-      "motivo": "nome do entrevistador: 'Tralha' por 'Tralli'.",
-      "conferido_como": "janela isolada no workflow nuvem-segunda-passada (segunda-passada-rodada-1.json, release em rascunho nuvem-2026-08-28-sabatina-flavio-globo-economia), feixe 8, sem e com prompt: sem prompt 'Tralho', com prompt 'Tralli'. Mesma ressalva."
-    }
-  ],
-  "nao_corrigido": [
-    {
-      "inicio_s": 190.0,
-      "trecho": "mais de 10 economistas pegadê",
-      "motivo": "o Poder360 escreve 'PhD', mas as duas passadas novas ouvem 'pegadinha'. Sem concordância, fica como a primeira passada escreveu. A alegação sobre a equipe econômica cita só 'tem mais de 10 economistas', sem a palavra em dúvida."
+      "motivo": "nome do entrevistador: 'Tralho' por 'Tralli', a quem a resposta se dirige (a pergunta anterior, sobre aposentadorias, é dele).",
+      "conferido_como": "Passadas isoladas na mídia nova (íntegra), com o mesmo modelo, feixe 8, sem e com prompt de contexto (nomes da mesa e termos econômicos), em 30/set/2026. O nome só sai 'Tralli' quando o prompt o contém: janela 37:48 a 38:00, feixe 5 e 8, sem e com prompt: 'Tralho' em todas. ⚠️ A correção se apoia na atribuição (a pergunta é de Tralli), no Poder360 e no que o clipe do g1 escrevia ('Tralha'), não numa passada que escreva o nome."
     },
     {
-      "inicio_s": 258.46,
-      "trecho": "Renato",
-      "motivo": "as duas passadas novas também ouvem 'Renato', dirigido à entrevistadora Renata Vasconcellos. Não há como decidir entre erro de fala e erro de reconhecimento; nenhuma alegação depende da palavra. O mesmo vale para 277.80."
+      "inicio_s": 2372.9,
+      "de": "Então, quero ouvir o senhor, candidato.",
+      "para": "É por esse recurso que eu vou conseguir",
+      "motivo": "alucinação do motor: a frase é da pergunta seguinte, que fica depois do fim do bloco. Nenhum entrevistador fala entre 39:32 e 39:40.",
+      "conferido_como": "Nove decodificações do mesmo trecho concordam entre si e discordam da passada principal: as oito passadas isoladas em duas janelas, 39:20 a 39:40 e 39:24 a 39:40 (feixe 5 e 8, sem e com prompt) e a segunda passada completa do bloco (feixe 8, com prompt) escrevem 'é por/com esse recurso que eu vou conseguir tratar quem precisa nesse Brasil'; o clipe do g1 (mesmo áudio) também não tinha 'quero ouvir o senhor'. A frase que a passada principal escreveu é a da PERGUNTA SEGUINTE da entrevista ('Quero ouvir o senhor sobre o tema importante, é meio ambiente', 39:43, depois do fim do bloco): o motor puxou palavras do que vem depois do corte. Isto importa para a atribuição: ela deixaria uma fala de entrevistador dentro do último turno de Flávio."
     },
     {
-      "inicio_s": 248.66,
-      "trecho": "tenham sido roubados",
-      "motivo": "as três leituras discordam ('tenham', 'tiverem', 'tivessem'); a alegação cita só 'como foram roubados nesse atual governo', que as três têm."
+      "inicio_s": 2374.26,
+      "de": "Eu vou conseguir fazer, tratar quem precisa nesse Brasil, abraçar quem precisa nesse Brasil",
+      "para": "tratar quem precisa nesse Brasil, abraçar quem precisa nesse Brasil",
+      "motivo": "mesma passagem: 'Eu vou conseguir fazer,' repete o 'eu vou conseguir' que a correção anterior devolve ao segmento de antes.",
+      "conferido_como": "Nove decodificações do mesmo trecho concordam entre si e discordam da passada principal: as oito passadas isoladas em duas janelas, 39:20 a 39:40 e 39:24 a 39:40 (feixe 5 e 8, sem e com prompt) e a segunda passada completa do bloco (feixe 8, com prompt) escrevem 'é por/com esse recurso que eu vou conseguir tratar quem precisa nesse Brasil'; o clipe do g1 (mesmo áudio) também não tinha 'quero ouvir o senhor'. A frase que a passada principal escreveu é a da PERGUNTA SEGUINTE da entrevista ('Quero ouvir o senhor sobre o tema importante, é meio ambiente', 39:43, depois do fim do bloco): o motor puxou palavras do que vem depois do corte. Isto importa para a atribuição: ela deixaria uma fala de entrevistador dentro do último turno de Flávio. ⚠️ O clipe do g1 escrevia 'conseguir fazer, tratar'; as nove decodificações novas não têm 'fazer'."
     }
   ]
 }

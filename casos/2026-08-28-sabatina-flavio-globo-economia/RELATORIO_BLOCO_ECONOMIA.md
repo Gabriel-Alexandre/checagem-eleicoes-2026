@@ -1,24 +1,22 @@
-# Checagem: Sabatina de Flávio Bolsonaro na TV Globo: bloco de economia (trecho oficial publicado pelo g1)
+# Checagem: Sabatina de Flávio Bolsonaro na TV Globo: bloco de economia
 
-**Peça:** TV Globo · Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional); trecho publicado pelo g1 · sabatina · 28/ago/2026  
-**Duração:** 00:05:43  
-**Trecho checado:** `bloco-economia`, de 00:00:00 a 00:05:38 da peça  
-**Por que este trecho:** É o bloco de economia inteiro, como o g1 o publicou: da pergunta de abertura sobre dívida pública ao fim da última resposta. Escolhido por TEMA antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (bloco de contas públicas da sabatina de Lula), depois de o autor avaliar que o trecho sobre a tentativa de golpe tinha pouco fato conferível. Os dois lados da mesa afirmam fatos: as perguntas trazem dados sobre o programa de governo, a dívida e o reajuste de benefícios. Termina no fim da última fala, antes da cartela de divulgação do g1 ('Veja a íntegra da entrevista em g1.com.br/eleicoes'), que não é parte da entrevista.  
-**Relatório gerado em:** 2026-09-27  
+**Peça:** TV Globo · Sabatina (série com os candidatos à Presidência, exibida após o Jornal Nacional); íntegra de 44min18s, com o bloco de economia recortado · sabatina · 28/ago/2026  
+**Duração:** 00:44:18  
+**Trecho checado:** `bloco-economia`, de 00:34:02 a 00:39:40 da peça  
+**Por que este trecho:** É o bloco de economia inteiro, da pergunta de abertura sobre dívida pública (34:02) ao fim da última resposta (39:40), como já era no clipe do g1 e agora na íntegra. Escolhido por TEMA antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (bloco de contas públicas da sabatina de Lula), depois de o autor avaliar que o trecho sobre a tentativa de golpe tinha pouco fato conferível. Os dois lados da mesa afirmam fatos: as perguntas trazem dados sobre o programa de governo, a dívida e o reajuste de benefícios. Começa 0,1 s antes da pergunta, depois da vinheta de volta do intervalo ('Flávio Bolsonaro.', que termina em 34:02,06). Termina 0,07 s depois da última palavra de Flávio (39:40,38), antes da pergunta seguinte, sobre meio ambiente, que começa em 39:40,52.  
+**Relatório gerado em:** 2026-09-30  
 **Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  
-**Assinatura da mídia (sha256):** `ae35ff24747314742390d3a934706ea61a43a7e46a1440e0ecb00a8406b09c7c`
-
-> 🔴 **Atenção: a peça checada não é a íntegra oficial** (integralidade: `trecho`). Corte muda contexto, e o que ficou fora do arquivo não foi visto por esta checagem. Detalhes em [Procedência](#procedência-da-peça).
+**Assinatura da mídia (sha256):** `a70060479a94485746c13e65e647bc7426a8ef38e0ce548fe68acdb76fb72972`
 
 > ⚠️ Este relatório afere **enunciados**, não pessoas. Ele não mede intenção, não avalia governo e não recomenda voto. A contagem abaixo é um dado deste trecho, não um veredito sobre quem falou. Ver [`METODOLOGIA §8`](../../docs/METODOLOGIA.md).
 
 ## Procedência da peça
 
-- **Como foi obtida:** A íntegra da sabatina não pôde ser baixada: as cópias integrais estão no YouTube (o0W3MnZTqyA, Bi-qbHPenoI, fMx1ud1uJQc), que recusou o runner do GitHub em seis tentativas ('Sign in to confirm you're not a bot'), e no Globoplay (id 14912682), que não reproduz fora do Brasil. ⛔ Não se contornou trava de país com proxy ou rede de anonimato. Uma sondagem de 15 vídeos candidatos (sondagem-rodada-1.json, no release em rascunho nuvem-2026-08-28-sabatina-flavio-globo) mostrou que o g1 publicou dois trechos oficiais da entrevista no Facebook: 2min44s sobre a tentativa de golpe (caso 2026-08-28-sabatina-flavio-globo) e 5min43s sobre economia, este. O arquivo checado é o segundo: Facebook do g1, id 1023993500397311, vertical 540x960, publicado em 29/ago/2026, título 'ENTREVISTA COM O CANDIDATO - Flávio Bolsonaro (PL)...', cartela de abertura do g1 'Flávio responde sobre ajuste fiscal, salário-mínimo e aposentadoria'.
-- **Endereço:** <https://www.facebook.com/g1/videos/1023993500397311/>
-- **Integralidade:** `trecho`
-- **Observações:** Recorte feito pelo próprio veículo, contínuo, com a pergunta de abertura do bloco ('Candidato, vamos falar aqui de economia, dívida pública') até o fim da última resposta, e a cartela 'Veja a íntegra da entrevista em g1.com.br/eleicoes'. Conferido contra a transcrição integral publicada pelo Poder360: o bloco do vídeo corresponde, sem lacuna, às perguntas e respostas de economia daquela transcrição. POR QUE ESTE TRECHO: o autor do projeto avaliou que o trecho de 2min44s sobre a tentativa de golpe tinha pouco fato conferível e muito juízo de valor. Este bloco foi escolhido por TEMA, antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (o bloco de contas públicas da sabatina de Lula): é o bloco da entrevista sobre dívida, juros e gasto público. ⚠️ Contaminação declarada: antes da extração, uma busca de procedência devolveu o resumo de uma checagem ao vivo da entrevista (Agência Lupa) e uma menção genérica a 'mentiras' em outra página; nenhum veredito sobre as frases deste bloco foi lido. Os metadados da entrevista (28/ago/2026, 21h30, Estúdios Globo, César Tralli e Renata Vasconcellos, 40 minutos em dois blocos) estão conferidos em quatro fontes no caso 2026-08-28-sabatina-flavio-globo.
-- **Arquivo checado:** `sabatina-flavio-globo-2026-08-28-economia.mp4` · 540x960 · sha256 `ae35ff24747314742390d3a934706ea61a43a7e46a1440e0ecb00a8406b09c7c`
+- **Como foi obtida:** Arquivo fornecido pelo autor do projeto em 30/set/2026, cópia local `sabatina-flavio.mp4` (1920x886, 30 fps, 44min18s, 335,6 MB). O canal ou endereço de onde ele foi baixado não foi informado. Que é a transmissão da TV Globo de 28/ago/2026 foi conferido no próprio arquivo: as imagens trazem o selo 'AO VIVO' da emissora e o cenário do 'Eleições', a mesa é a do caso (César Tralli, Renata Vasconcellos e Flávio Bolsonaro), e a fala do bloco de economia coincide, segmento a segmento, com a do clipe do g1 que era a peça anterior (ver transcricao/NOTA_DE_ATRIBUICAO.md). ⛔ Não se contornou trava de país com proxy ou rede de anonimato para obtê-lo.
+- **Endereço:** <https://globoplay.globo.com/v/14912682/>
+- **Integralidade:** `integral`
+- **Observações:** A imagem chegou com faixas pretas laterais (172 px de cada lado): o recorte usa --cortar-faixas, que mede e corta a imagem útil e a leva a 1920x1080 sem deformar (docs/IDENTIDADE_VISUAL.md §6.3.1). POR QUE ESTE TRECHO: o autor do projeto avaliou que o trecho de 2min44s sobre a tentativa de golpe tinha pouco fato conferível e muito juízo de valor. O bloco de economia foi escolhido por TEMA, antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (o bloco de contas públicas da sabatina de Lula): é o bloco da entrevista sobre dívida, juros e gasto público. ⚠️ Contaminação declarada: antes da extração, uma busca de procedência devolveu o resumo de uma checagem ao vivo da entrevista (Agência Lupa) e uma menção genérica a 'mentiras' em outra página; nenhum veredito sobre as frases deste bloco foi lido. Os metadados da entrevista (28/ago/2026, 21h30, Estúdios Globo, César Tralli e Renata Vasconcellos, 40 minutos em dois blocos) estão conferidos em quatro fontes no caso 2026-08-28-sabatina-flavio-globo. ANTES DE 30/set/2026 a peça checada era o clipe vertical do g1 no Facebook (id 1023993500397311, 540x960, 5min43s, sha256 ae35ff24747314742390d3a934706ea61a43a7e46a1440e0ecb00a8406b09c7c). Foi trocada pela íntegra horizontal abaixo, a pedido do autor; a troca e o que ela mudou (só o relógio dos tempos, nenhum veredito) estão em CORRECOES.md. Naquele clipe o g1 tinha feito o mesmo recorte que este caso faz agora: da pergunta de abertura sobre dívida pública ao fim da última resposta.
+- **Arquivo checado:** `sabatina-flavio-globo-2026-08-28-integra.mp4` · 1920x886 · sha256 `a70060479a94485746c13e65e647bc7426a8ef38e0ce548fe68acdb76fb72972`
 
 ## Quem está na peça
 
@@ -48,7 +46,7 @@
 
 ## Alegação por alegação
 
-### A001 · 🟢 VERDADEIRO · 00:00:05
+### A001 · 🟢 VERDADEIRO · 00:34:08
 
 **César Tralli** (entrevistador) · assunto: `contas-publicas` · tipo: `atribuicao_a_terceiro`
 
@@ -85,7 +83,7 @@
 
 ---
 
-### A002 · 🟢 VERDADEIRO · 00:00:05
+### A002 · 🟢 VERDADEIRO · 00:34:08
 
 **César Tralli** (entrevistador) · assunto: `contas-publicas` · tipo: `serie_historica`
 
@@ -123,7 +121,7 @@
 
 ---
 
-### A003 · 🟠 SEM COMPROVAÇÃO · 00:00:54
+### A003 · 🟠 SEM COMPROVAÇÃO · 00:34:56
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `politica-economica` · tipo: `numero`
 
@@ -176,7 +174,7 @@
 
 ---
 
-### A004 · 🟢 VERDADEIRO · 00:00:58
+### A004 · 🟢 VERDADEIRO · 00:35:00
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `politica-monetaria` · tipo: `numero`
 
@@ -214,7 +212,7 @@
 
 ---
 
-### A005 · 🟡 IMPRECISO · 00:01:04
+### A005 · 🟡 IMPRECISO · 00:35:07
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `politica-monetaria` · tipo: `ranking`
 
@@ -259,7 +257,7 @@
 
 ---
 
-### A006 · 🟢 VERDADEIRO · 00:01:09
+### A006 · 🟢 VERDADEIRO · 00:35:12
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `politica-monetaria` · tipo: `numero`
 
@@ -299,7 +297,7 @@
 
 ---
 
-### A007 · 🟡 IMPRECISO · 00:01:19
+### A007 · 🟡 IMPRECISO · 00:35:22
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `contas-publicas` · tipo: `valor_monetario`
 
@@ -350,7 +348,7 @@
 
 ---
 
-### A008 · 🟢 VERDADEIRO · 00:02:28
+### A008 · 🟢 VERDADEIRO · 00:36:31
 
 **Renata Vasconcellos** (entrevistador) · assunto: `politica-economica` · tipo: `atribuicao_a_terceiro`
 
@@ -384,7 +382,7 @@
 
 ---
 
-### A009 · 🟢 VERDADEIRO · 00:02:36
+### A009 · 🟢 VERDADEIRO · 00:36:38
 
 **Renata Vasconcellos** (entrevistador) · assunto: `politica-economica` · tipo: `atribuicao_a_terceiro`
 
@@ -418,7 +416,7 @@
 
 ---
 
-### A010 · 🟡 IMPRECISO · 00:02:48
+### A010 · 🟡 IMPRECISO · 00:36:52
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `politica-economica` · tipo: `comparacao`
 
@@ -471,7 +469,7 @@
 
 ---
 
-### A011 · 🟠 SEM COMPROVAÇÃO · 00:03:10
+### A011 · 🟠 SEM COMPROVAÇÃO · 00:37:12
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `politica` · tipo: `numero`
 
@@ -509,7 +507,7 @@
 
 ---
 
-### A012 · 🟡 IMPRECISO · 00:03:17
+### A012 · 🟡 IMPRECISO · 00:37:20
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `contas-publicas` · tipo: `valor_monetario`
 
@@ -566,7 +564,7 @@
 
 ---
 
-### A013 · 🟡 IMPRECISO · 00:03:34
+### A013 · 🟡 IMPRECISO · 00:37:37
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `administracao-publica` · tipo: `numero`
 
@@ -609,7 +607,7 @@
 
 ---
 
-### A014 · 🟠 SEM COMPROVAÇÃO · 00:03:38
+### A014 · 🟠 SEM COMPROVAÇÃO · 00:37:40
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `administracao-publica` · tipo: `numero`
 
@@ -647,7 +645,7 @@
 
 ---
 
-### A015 · 🟢 VERDADEIRO · 00:03:43
+### A015 · 🟢 VERDADEIRO · 00:37:45
 
 **César Tralli** (entrevistador) · assunto: `previdencia` · tipo: `norma_vigente`
 
@@ -681,7 +679,7 @@
 
 ---
 
-### A016 · 🟢 VERDADEIRO · 00:03:54
+### A016 · 🟢 VERDADEIRO · 00:37:57
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `inss` · tipo: `evento_passado`
 
@@ -713,7 +711,7 @@
 
 ---
 
-### A017 · 🟢 VERDADEIRO · 00:04:03
+### A017 · 🟢 VERDADEIRO · 00:38:05
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `inss` · tipo: `evento_passado`
 
@@ -752,11 +750,11 @@
 
 ---
 
-### A018 · 🟢 VERDADEIRO · 00:04:09
+### A018 · 🟢 VERDADEIRO · 00:38:11
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `inss` · tipo: `evento_passado`
 
-> "que evitariam que os aposentados do INSS tenham sido roubados como foram roubados nesse atual governo."
+> "que evitariam que os aposentados do INSS [...] como foram roubados nesse atual governo."
 
 **Afirmação isolada:** Aposentados do INSS foram lesados por fraude durante o governo Lula
 
@@ -786,7 +784,7 @@
 
 ---
 
-### A019 · 🟡 IMPRECISO · 00:04:23
+### A019 · 🟡 IMPRECISO · 00:38:26
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `administracao-publica` · tipo: `comparacao`
 
@@ -823,7 +821,7 @@
 
 ---
 
-### A020 · 🟡 IMPRECISO · 00:04:39
+### A020 · 🟡 IMPRECISO · 00:38:42
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `contas-publicas` · tipo: `evento_passado`
 
@@ -857,7 +855,7 @@
 
 ---
 
-### A021 · 🟡 IMPRECISO · 00:05:23
+### A021 · 🟡 IMPRECISO · 00:39:25
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `contas-publicas` · tipo: `numero`
 
@@ -924,7 +922,7 @@ python -m checagem transcrever 2026-08-28-sabatina-flavio-globo-economia
 python ferramentas/corrigir-transcricao.py 2026-08-28-sabatina-flavio-globo-economia
 python -m checagem falantes 2026-08-28-sabatina-flavio-globo-economia
 python -m checagem validar 2026-08-28-sabatina-flavio-globo-economia --recorte bloco-economia
-python -m checagem midia 2026-08-28-sabatina-flavio-globo-economia recortar bloco-economia --inicio 0.0 --duracao 338.088
+python -m checagem midia 2026-08-28-sabatina-flavio-globo-economia recortar bloco-economia --inicio 2042.3 --duracao 338.167
 python -m checagem overlay 2026-08-28-sabatina-flavio-globo-economia --recorte bloco-economia
 python -m checagem renderizar 2026-08-28-sabatina-flavio-globo-economia --recorte bloco-economia
 ```

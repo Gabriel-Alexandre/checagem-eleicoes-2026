@@ -72,7 +72,8 @@ jobs:
                  "--inicio", str(reg["origem_inicio_s"]), "--duracao", str(reg["duracao_s"]),
                  "--motivo", reg["motivo"]]
           if reg.get("enquadramento"):
-              cmd.append("--enquadrar")
+              # faixas pretas cortadas (horizontal com barras) ou vertical enquadrado
+              cmd.append("--cortar-faixas" if reg["enquadramento"].get("corte") else "--enquadrar")
           subprocess.run(cmd, check=True)
           PY
           # O índice versionado é o que vale. Duração exata, sem folga: o recorte corta antes de

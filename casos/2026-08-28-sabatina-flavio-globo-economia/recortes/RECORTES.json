@@ -4,18 +4,30 @@
     {
       "id": "bloco-economia",
       "arquivo": "bloco-economia.mp4",
-      "origem": "sabatina-flavio-globo-2026-08-28-economia.mp4",
-      "origem_inicio_s": 0.0,
-      "duracao_s": 338.088,
+      "origem": "sabatina-flavio-globo-2026-08-28-integra.mp4",
+      "origem_inicio_s": 2042.3,
+      "duracao_s": 338.167,
       "largura": 1920,
       "altura": 1080,
-      "fps": 23.976,
-      "motivo": "É o bloco de economia inteiro, como o g1 o publicou: da pergunta de abertura sobre dívida pública ao fim da última resposta. Escolhido por TEMA antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (bloco de contas públicas da sabatina de Lula), depois de o autor avaliar que o trecho sobre a tentativa de golpe tinha pouco fato conferível. Os dois lados da mesa afirmam fatos: as perguntas trazem dados sobre o programa de governo, a dívida e o reajuste de benefícios. Termina no fim da última fala, antes da cartela de divulgação do g1 ('Veja a íntegra da entrevista em g1.com.br/eleicoes'), que não é parte da entrevista.",
-      "criado_em": "2026-09-27",
+      "fps": 30.0,
+      "motivo": "É o bloco de economia inteiro, da pergunta de abertura sobre dívida pública (34:02) ao fim da última resposta (39:40), como já era no clipe do g1 e agora na íntegra. Escolhido por TEMA antes de qualquer checagem, pelo mesmo critério do primeiro caso do repositório (bloco de contas públicas da sabatina de Lula), depois de o autor avaliar que o trecho sobre a tentativa de golpe tinha pouco fato conferível. Os dois lados da mesa afirmam fatos: as perguntas trazem dados sobre o programa de governo, a dívida e o reajuste de benefícios. Começa 0,1 s antes da pergunta, depois da vinheta de volta do intervalo ('Flávio Bolsonaro.', que termina em 34:02,06). Termina 0,07 s depois da última palavra de Flávio (39:40,38), antes da pergunta seguinte, sobre meio ambiente, que começa em 39:40,52.",
+      "criado_em": "2026-09-30",
       "enquadramento": {
-        "original": "540x960",
-        "como": "imagem inteira centralizada na altura, sem corte nem deformação; laterais com cópia desfocada e escurecida do próprio vídeo",
-        "filtro": "[0:v]split=2[fundo][frente];[fundo]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=40:4,eq=brightness=-0.18[fundo2];[frente]scale=-2:1080:force_original_aspect_ratio=decrease[frente2];[fundo2][frente2]overlay=(W-w)/2:(H-h)/2,setsar=1,format=yuv420p[v]"
+        "original": "1920x886",
+        "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem para dentro da borda mole) e a imagem útil, 16:9, escalada a 1920x1080 sem deformar; nenhum pixel de faixa fica no quadro",
+        "corte": {
+          "x": 176,
+          "y": 2,
+          "w": 1568,
+          "h": 882
+        },
+        "conteudo_medido": {
+          "x1": 172,
+          "x2": 1747,
+          "y1": 0,
+          "y2": 885
+        },
+        "filtro": "crop=1568:882:176:2,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
       }
     }
   ]

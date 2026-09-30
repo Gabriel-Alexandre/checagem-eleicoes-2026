@@ -1,0 +1,126 @@
+# 2026-08-28-sabatina-flavio-globo-economia: transcrição · recorte bloco-economia
+# motor whisper.cpp · modelo ggml-large-v3-turbo.bin · idioma pt
+# tempos em HH:MM:SS na peça inteira · gerado em 2026-09-30
+
+
+[César Tralli]
+00:34:02  Candidato, vamos falar aqui de economia, dívida pública.
+00:34:08  O programa de governo do senhor promete estabilizar e reduzir a dívida pública do Brasil,
+00:34:12  que está em trajetória de alta, mas não traz números, também não traz prazos.
+00:34:17  O plano diz que isso ocorreria no menor prazo possível.
+00:34:22  De quanto seria exatamente o seu ajuste fiscal em reais ou em pontos do PIB?
+00:34:30  E de onde é que sairia esse dinheiro?
+
+[Flávio Bolsonaro]
+00:34:32  Ô Tralli, a gente tem que entender que se o Brasil não tiver um ajuste fiscal forte,
+00:34:38  tá fadado aí a falência de todo mundo.
+00:34:40  Tá uma quebradeira generalizada.
+00:34:42  Você que tá me acompanhando provavelmente tá endividado ou conhece alguém que está endividado,
+00:34:49  mas a culpa não é sua, a culpa é desse atual governo.
+00:34:52  Quando é um governo que gasta demais, aumenta os impostos de forma alucinada,
+00:34:56  mais de 30 impostos criados ou aumentados só nesse atual governo,
+00:35:00  pra arrecadar mais e continua gastando mais ainda a taxa de juros oficial,
+00:35:04  que é a Selic, vai lá para a lua.
+00:35:07  14% é o maior juro real do mundo.
+00:35:09  E sabe, Tralli, quanto é que era a previsão?
+00:35:12  Lá em outubro de 2022, a previsão do mercado era que, neste momento,
+00:35:17  a taxa de juros no Brasil, se fosse o governo do presidente Bolsonaro,
+00:35:20  ia estar em torno de 7%, metade.
+00:35:22  Se nós estamos falando de uns juros, de pagamento de juros na hora,
+00:35:25  é de um trilhão de reais ao ano.
+00:35:28  E a taxa de juros era pra estar metade, Tralli.
+00:35:30  A gente está falando de 500 bilhões de reais.
+00:35:32  Meio trilhão de reais...
+
+[César Tralli]
+00:35:32  Pra que patamar da dívida pública brasileira o senhor se compromete a trazer?
+
+[Flávio Bolsonaro]
+00:35:36  Vou chegar lá.
+00:35:37  Meio trilhão de reais por ano que você, pagador de impostos,
+00:35:42  está sustentando esse governo, a gastança desse governo.
+00:35:44  Ou seja, só aqui tem dois trilhões de reais que, se fosse um governo que
+00:35:47  cortasse na carne um governo que economizasse, que cortasse despesas,
+00:35:52  certamente a sua dívida não estaria nesse nível.
+00:35:55  Porque quanto sobe a taxa de juros, a taxa de juros do seu financiamento,
+00:36:00  do seu endividamento, cresce junto à parcela da sua dívida, aumenta também.
+00:36:07  Então, se você deve 200 reais, você podia estar levando 180,
+00:36:10  podia estar levando 150, 140, se tivesse um governo como vai ser.
+
+[Renata Vasconcellos]
+00:36:14  Me dá até a sua oportunidade de mostrar a sua proposta do que o senhor vai fazer.
+
+[Flávio Bolsonaro]
+00:36:19  Sim, eu estou explicando aqui.
+
+[Renata Vasconcellos]
+00:36:19  Por exemplo, até o que o senhor vai fazer.
+00:36:21  Sobre o salário mínimo, por exemplo, que é muito importante.
+00:36:24  Há uma divergência de propostas entre as propostas feitas pelos seus colaboradores
+00:36:29  e o que está no seu programa de governo.
+00:36:31  O coordenador da sua campanha critica a política atual de reajuste do salário mínimo
+00:36:36  e das aposentadorias e benefícios.
+00:36:38  O seu plano não trata desse assunto.
+00:36:40  Eu preciso saber qual é a sua decisão.
+00:36:42  O salário mínimo teria um aumento real ou não se o senhor foi eleito?
+
+[Flávio Bolsonaro]
+00:36:47  Renata, eu não vou fazer economia do povo mais sofrido brasileiro.
+00:36:52  Quem recebe salário mínimo hoje está perdendo o seu poder de compra
+00:36:54  por causa da gastança do governo.
+00:36:57  Não vou fazer economia em cima de você.
+00:36:58  Eu vou fazer um governo enxuta.
+00:37:00  Eu vou reduzir a quantidade de ministérios.
+00:37:02  Eu vou cortar a burocracia.
+00:37:03  Eu vou fazer tesouraço nos impostos.
+00:37:05  Vou cortar mais de mil atos normativos já no início do meu governo, por decreto, aquilo
+00:37:12  que eu puder fazer.
+00:37:12  A nossa equipe econômica aqui tem mais de 10 economistas que pegam e estão trabalhando
+00:37:16  já nisso.
+00:37:16  É assim que a gente vai começar a reduzir o custo do Brasil.
+00:37:20  Hoje o Lula aumentou a dívida primária do Brasil em mais de 330 bilhões de reais,
+00:37:25  Renata.
+00:37:26  É uma gastança sem precedentes na história desse Brasil.
+00:37:29  Eu vou cortar ministérios.
+00:37:33  Eu vou fazer um tesouraço, inclusive, nos cargos comissionados.
+00:37:37  O presidente Bolsonaro, em 2019, cortou 20 mil cargos em comissão.
+00:37:40  Agora o atual governo já criou mais de 22 mil.
+00:37:42  Eu vou fazer um combate à corrupção firme nesse governo.
+
+[César Tralli]
+00:37:45  Aposentadorias, aposentadorias, candidato, e benefícios vão continuar sendo reajustados
+00:37:50  com o salário mínimo?
+
+[Flávio Bolsonaro]
+00:37:51  Tralli, eu vou chegar lá e vou te explicar por que não precisa também fazer economia
+00:37:55  em cima dos aposentados.
+00:37:57  Porque nós vamos fazer um governo que vai combater a corrupção, como foi a MP 871
+00:38:01  do governo do presidente Bolsonaro, que tinha um pacote anti-fraude, anti-corrupção
+00:38:05  no INSS, que o PT trabalhou para derrubar essas medidas que combateriam a corrupção
+00:38:11  e que evitariam que os aposentados do INSS tiverem sido roubados como foram roubados nesse
+00:38:16  atual governo.
+00:38:16  Vou combater a roubalheira que hoje está generalizada nesse atual governo.
+00:38:21  Vou criar uma governança tecnológica, Renato, dentro do meu governo.
+00:38:26  vai ter um data center soberano para o Brasil, como já tem em Singapura, como tem na Coreia
+00:38:30  do Sul, que vai controlar cada centavo de gasto público.
+00:38:33  Eu vou economizar dinheiro, vou começar economizando dinheiro daí.
+00:38:35  E com um ajuste fiscal que nós faremos resgatando a credibilidade desse país, que é uma coisa
+00:38:40  que influencia na taxa de juros, Renato, porque esse governo, ninguém mais acredita que
+00:38:44  ele faça ajuste fiscal porque ele gasta fora do orçamento e não está nem aí.
+
+[Renata Vasconcellos]
+00:38:47  Mas então, sobre o reajuste do salário mínimo, o senhor desautoriza o seu coordenador de
+00:38:52  campanha que critica a atual política de reajuste.
+
+[Flávio Bolsonaro]
+00:38:54  Não farei economia com quem ganha salário mínimo, não farei economia com aposentados.
+00:38:58  Eu vou fazer economia cortando corrupção, fazendo tesouraço na burocracia, reduzindo
+00:39:03  os impostos.
+00:39:04  Só com o anúncio da eleição de Flávio Bolsonaro como presidente da República e com a equipe que
+00:39:10  vai ter essa cara que todos estão vendo com a equipe de técnicos, de economistas, de
+00:39:15  pessoas sérias, de pessoas que são competentes, que estão ali por um projeto de Brasil, a
+00:39:20  taxa de juros já vai cair na reunião seguinte do Copom, do Banco Central e cada 1% de taxa
+00:39:27  de juros a menos que nós pagamos é cerca de R$ 90 bilhões que abre dentro do orçamento.
+00:39:33  É por esse recurso que eu vou conseguir
+00:39:34  tratar quem precisa nesse Brasil, abraçar quem precisa nesse Brasil
+00:39:39  e estender a mão para que você evolua.

@@ -115,7 +115,9 @@ CARD_RAIO = 22
 CARD_BARRA = 14                                      # faixa colorida à esquerda
 CARD_PADDING_X = 34
 CARD_PADDING_Y = 26
-CARD_FUNDO = (13, 16, 22, 240)
+# 🔧 Opaco desde 30/set/2026 (era 240 de 255): com 6% de transparência o vídeo aparecia por baixo
+# do texto do card, e texto sobre imagem que se mexe é o que o padrão de 29/set proíbe.
+CARD_FUNDO = (13, 16, 22, 255)
 CARD_BORDA = (255, 255, 255, 36)
 
 COR_TEXTO = "#F5F7FA"
@@ -127,6 +129,11 @@ TAM_META = 25
 TAM_CITACAO = 33
 TAM_RESUMO = 40
 TAM_FONTES = 24
+
+# Entrada de cada cartela: um fade de 8 quadros a 30 fps (padrão de 29/set/2026 do editor de
+# vídeos longos, V31: todo elemento que entra tem animação). O selo permanente não entra: ele
+# já está na tela no primeiro quadro.
+ENTRADA_FADE_S = round(8 / FPS_SAIDA, 3)
 
 # Selo permanente no canto superior direito.
 SELO_TEXTO = "CHECAGEM ABERTA"

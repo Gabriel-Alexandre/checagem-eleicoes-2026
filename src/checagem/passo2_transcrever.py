@@ -191,7 +191,7 @@ def exportar_texto(slug: str, *, recorte: str | None = None) -> Path:
     destino = caso / "transcricao" / f"{nome}.txt"
 
     linhas = [
-        f"# {slug} — transcrição{' · recorte ' + recorte if recorte else ''}",
+        f"# {slug}: transcrição{' · recorte ' + recorte if recorte else ''}",
         f"# motor {dados['motor']} · modelo {dados['modelo']} · idioma {dados['idioma']}",
         f"# tempos em HH:MM:SS na peça inteira · gerado em {dados['gerado_em']}",
         "",

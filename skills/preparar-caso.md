@@ -79,6 +79,10 @@ python -m checagem midia <slug> recortar bloco-economia \
 python -m checagem midia <slug> audio --recorte bloco-economia
 ```
 
+Se o arquivo veio com **faixas pretas** (cópia horizontal com barras), acrescente `--cortar-faixas` ao
+recorte: ele mede a imagem útil, corta com margem para dentro da borda mole e leva a 1920x1080. Se veio
+**vertical**, é `--enquadrar`. Os dois são caminhos diferentes, e o recorte recusa os dois juntos.
+
 ## PASSO 2 · transcrever
 
 ```bash

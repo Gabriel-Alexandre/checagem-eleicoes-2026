@@ -126,7 +126,7 @@ Passo a passo detalhado, com o que conferir em cada etapa: [`docs/REPLICAR.md`](
 |---|---|---|
 | [`2026-08-27-sabatina-lula-globo`](casos/2026-08-27-sabatina-lula-globo/) | Sabatina de Luiz Inácio Lula da Silva na TV Globo, 27/ago/2026, 44min33s | prova de conceito rodada num recorte de 4min52s; 23 alegações; auditado e corrigido em 26/set ([`CORRECOES.md`](casos/2026-08-27-sabatina-lula-globo/CORRECOES.md)) |
 | [`2026-08-28-sabatina-flavio-globo`](casos/2026-08-28-sabatina-flavio-globo/) | Sabatina de Flávio Bolsonaro na TV Globo, 28/ago/2026; **trecho oficial publicado pelo g1**, 2min44s | trecho checado primeiro; 19 alegações, 3 delas juízos que não deveriam ter entrado (registrado em `CORRECOES.md`); mantido como registro |
-| [`2026-08-28-sabatina-flavio-globo-economia`](casos/2026-08-28-sabatina-flavio-globo-economia/) | Sabatina de Flávio Bolsonaro na TV Globo, 28/ago/2026; **bloco de economia oficial do g1**, 5min43s | caso principal do Flávio, escolhido por tema como o do Lula; 21 alegações de fato (5 dos entrevistadores); 10 verdadeiro, 8 impreciso, 3 sem comprovação; revisão adversarial por IA registrada |
+| [`2026-08-28-sabatina-flavio-globo-economia`](casos/2026-08-28-sabatina-flavio-globo-economia/) | Sabatina de Flávio Bolsonaro na TV Globo, 28/ago/2026; **bloco de economia recortado da íntegra horizontal** (44min18s), 5min38s | caso principal do Flávio, escolhido por tema como o do Lula; 21 alegações de fato (5 dos entrevistadores); 10 verdadeiro, 8 impreciso, 3 sem comprovação; revisão adversarial por IA registrada; 🔧 30/set: mídia trocada do clipe vertical do g1 pela íntegra, faixas pretas cortadas, nenhum veredito mudou ([`CORRECOES.md`](casos/2026-08-28-sabatina-flavio-globo-economia/CORRECOES.md)) |
 
 ---
 

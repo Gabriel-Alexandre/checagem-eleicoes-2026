@@ -5,6 +5,31 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.3.0] · 30/set/2026
+
+Pedido do autor: usar a íntegra horizontal da sabatina como peça do caso de economia, cortar as faixas pretas, recortar só o bloco e seguir os padrões de 29/set do editor de vídeos longos.
+
+### Adicionado
+
+- **`midia <slug> recortar ... --cortar-faixas`** e **`midia <slug> faixas`**: medem a imagem útil com `cropdetect` em 24 cenas, recuam 4 px da borda mole, ajustam a 16:9 exato e par e levam a 1920x1080 sem deformar. O registro do recorte guarda a caixa, o que foi medido e o filtro (`docs/IDENTIDADE_VISUAL.md` §6.3.1).
+- **`ferramentas/migrar-tempos.py`**: leva alegações, turnos e correções de uma mídia para outra. Mede o deslocamento pelo **fim** dos segmentos (o começo varia até 0,8 s entre passadas sobre o mesmo áudio), recusa quando as mídias não andam juntas e lista as correções que o texto novo não sustenta.
+- **`renderizar --som-de-entrada`** (desligado por padrão): mixa um estalo de 90 ms em cada cartela que entra, no layout de canais da fala, sem mudar o nível dela.
+- Testes do corte de faixas, da entrada com fade, da opacidade dos textos e do canto do card (92 no total).
+
+### Mudado
+
+- **Cartelas entram com fade de 8 quadros** (V31 do editor de longos), no lugar do corte seco; cada cartela vira uma entrada em laço só pela própria vida, então o grafo não cresce. O selo permanente segue seco. `docs/ARQUITETURA.md` §5 reescrita.
+- **Card, selo e legenda opacos** (fundo 100%, era 94% no card): nada do vídeo fica por baixo do texto (V33).
+- **Canto esquerdo do card arredondado**: o corpo escuro era um retângulo de quina reta sobre a faixa colorida.
+- `nuvem-renderizar` passa `--cortar-faixas` quando o registro do recorte traz a caixa de corte.
+- Versão do pacote alinhada em 0.3.0 (`pyproject.toml` dizia 0.2.0 e `__init__` 0.1.0).
+
+### Caso Flávio economia: mídia trocada
+
+O clipe vertical do g1 (`ae35ff24…`) deu lugar à íntegra horizontal (`a7006047…`, 44min18s, faixas pretas de 172 px cortadas), com o bloco recortado em 34:02 a 39:40. **Nenhum veredito, resumo ou fonte mudou.** Mudou o relógio (+2042,36 s, medido pelo fim de 58 segmentos idênticos, desvio de 0,08 s), oito correções de transcrição (incluindo `1922` por `2022` e a frase da pergunta seguinte que o motor puxou para o fim do bloco), o limite de turno de 35:32 e a citação de `A018`, que passou a usar `[...]` no verbo que o áudio não decide. Os dados sensíveis ao tempo foram reconferidos até 30/set: nada muda o veredito (`CORRECOES.md`).
+
+---
+
 ## [Não publicado]
 
 ### Documentado

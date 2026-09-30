@@ -10,7 +10,13 @@ Como cada cartela já é um quadro inteiro de 1920x1080 com moldura e tarja dese
      linha de comando do Windows estoura em 32 KB. ⚠️ Qual opção passa esse arquivo **depende
      da versão do ffmpeg** — ver `_opcao_de_script`.
   2. **O áudio é copiado, nunca reencodado.** O vídeo existe para ser conferido contra a
-     peça original: reencodar áudio muda o arquivo sem necessidade nenhuma.
+     peça original: reencodar áudio muda o arquivo sem necessidade nenhuma. A única exceção é
+     opt-in, `--som-de-entrada`, que mixa um estalo curto a cada cartela que entra.
+
+🔧 30/set/2026: cada cartela (menos o selo, que já está na tela no primeiro quadro) entra com um
+fade de 8 quadros. Para o `fade` ter o que fazer, a cartela vira uma entrada em laço só pela sua
+própria vida (`-loop 1 -t`), deslocada no tempo com `setpts`: o custo é de segundos de quadros por
+cartela, não de minutos. Ver docs/ARQUITETURA.md §5.
 """
 
 from __future__ import annotations
@@ -75,49 +81,85 @@ def _acrescimo(plano: dict) -> float:
             + float((plano.get("encerramento") or {}).get("duracao_s", 0.0)))
 
 
+def _sobreposicoes(plano: dict, com_legenda: bool) -> list[dict]:
+    """Tudo que é sobreposto ao vídeo, na ordem das entradas do ffmpeg (depois da 0).
+
+    `entra` marca o que entra animado: é ele que vira entrada em laço com fade (e, opcionalmente,
+    som). O selo é permanente e já está no primeiro quadro, então entra seco.
+    """
+    itens: list[dict] = []
+    if plano.get("selo"):
+        itens.append({**plano["selo"], "entra": False})
+    if com_legenda and plano.get("legenda"):
+        itens.append({"arquivo": plano["legenda"]["arquivo"], "entra": True,
+                      "entra_s": plano["legenda"]["entra_s"], "sai_s": plano["legenda"]["sai_s"]})
+    itens.extend({**c, "entra": True} for c in plano["cartelas"])
+    if plano.get("encerramento"):
+        itens.append({**plano["encerramento"], "entra": True})
+    return itens
+
+
 def _grafo(plano: dict, com_legenda: bool) -> tuple[list[str], str]:
     """Devolve (linhas do filtro, rótulo da saída de vídeo)."""
     linhas: list[str] = []
     atual = "0:v"
-    indice = 1
 
     # A cartela de encerramento vive DEPOIS do fim do trecho, sobre o último quadro congelado.
     # O áudio não é tocado: continua copiado, e simplesmente acaba antes do vídeo.
     # Antes dele, o congelamento de leitura (se a fila de cards passou do fim do trecho).
-    fim = plano.get("encerramento")
     extra = _acrescimo(plano)
     if extra > 0:
         linhas.append(f"[0:v]tpad=stop_mode=clone:stop_duration={extra:.3f}[base]")
         atual = "base"
 
-    entradas: list[dict] = []
-    if plano.get("selo"):
-        entradas.append(plano["selo"])
-    if com_legenda and plano.get("legenda"):
-        entradas.append({"arquivo": plano["legenda"]["arquivo"],
-                         "entra_s": plano["legenda"]["entra_s"],
-                         "sai_s": plano["legenda"]["sai_s"]})
-    entradas.extend(plano["cartelas"])
-    if fim:
-        entradas.append(fim)
+    if not plano["cartelas"]:
+        raise ErroDeExecucao("o plano não tem nenhuma cartela para sobrepor")
 
-    for e in entradas:
+    for indice, e in enumerate(_sobreposicoes(plano, com_legenda), start=1):
+        fonte = f"{indice}:v"
+        if e["entra"]:
+            fonte = f"c{indice}"
+            linhas.append(
+                f"[{indice}:v]format=rgba,fade=t=in:st=0:d={cfg.ENTRADA_FADE_S}:alpha=1,"
+                f"setpts=PTS+{e['entra_s']:.3f}/TB[{fonte}]"
+            )
         rotulo = f"v{indice}"
         linhas.append(
-            f"[{atual}][{indice}:v]overlay=0:0:eof_action=repeat:"
+            f"[{atual}][{fonte}]overlay=0:0:eof_action={'pass' if e['entra'] else 'repeat'}:"
             f"enable='between(t,{e['entra_s']:.3f},{e['sai_s']:.3f})'[{rotulo}]"
         )
         atual = rotulo
-        indice += 1
-
-    if not plano["cartelas"]:
-        raise ErroDeExecucao("o plano não tem nenhuma cartela para sobrepor")
     return linhas, atual
+
+
+def _linhas_de_som(plano: dict, com_legenda: bool, canais: int = 2) -> tuple[list[str], str]:
+    """Mixa um estalo curto no quadro em que cada cartela começa a entrar.
+
+    Opt-in (`--som-de-entrada`): reencoda o áudio. O estalo é um seno de 880 Hz de 90 ms que cai
+    em 80 ms, a -20 dBFS de pico, gerado pelo próprio ffmpeg (nenhum arquivo de terceiros).
+    `normalize=0` no `amix`: sem ele, o ffmpeg abaixaria a fala para dar lugar aos estalos. E o
+    estalo nasce no mesmo layout de canais da fala (`canais`): forçar estéreo sobre uma fala mono
+    baixa a fala 3 dB no upmix, e a fala não pode mudar de nível por causa de um efeito.
+    """
+    layout = "mono" if canais == 1 else "stereo"
+    entradas = [e for e in _sobreposicoes(plano, com_legenda) if e["entra"]]
+    linhas: list[str] = [f"[0:a]aresample=48000,aformat=channel_layouts={layout}[fala]"]
+    rotulos = ["[fala]"]
+    for n, e in enumerate(entradas):
+        atraso = max(0, round(e["entra_s"] * 1000))
+        linhas.append(
+            "sine=frequency=880:duration=0.09:sample_rate=48000,"
+            f"afade=t=out:st=0.01:d=0.08,volume=0.1,aformat=channel_layouts={layout},"
+            f"adelay={atraso}|{atraso}[som{n}]"
+        )
+        rotulos.append(f"[som{n}]")
+    linhas.append(f"{''.join(rotulos)}amix=inputs={len(rotulos)}:duration=first:normalize=0[aout]")
+    return linhas, "[aout]"
 
 
 def renderizar(slug: str, *, recorte: str | None = None, crf: int = 16,
                preset: str = "slow", com_legenda: bool = True,
-               sufixo: str = "") -> Path:
+               sufixo: str = "", som_de_entrada: bool = False) -> Path:
     exigir_binario("ffmpeg", "scoop install ffmpeg · apt install ffmpeg · brew install ffmpeg")
     caso = cfg.pasta_do_caso(slug)
     nome_plano = f"plano-{recorte}.json" if recorte else "plano.json"
@@ -140,17 +182,15 @@ def renderizar(slug: str, *, recorte: str | None = None, crf: int = 16,
     saida.parent.mkdir(parents=True, exist_ok=True)
 
     linhas, rotulo = _grafo(plano, com_legenda)
+    rotulo_audio = None
+    if som_de_entrada:
+        linhas_som, rotulo_audio = _linhas_de_som(plano, com_legenda, medido["audio_canais"] or 2)
+        linhas += linhas_som
     script = caso / "render" / f"_filtro-{base}.txt"
     script.write_text(";\n".join(linhas) + "\n", encoding="utf-8", newline="\n")
 
-    entradas_png: list[str] = []
-    if plano.get("selo"):
-        entradas_png.append(str(caso / plano["selo"]["arquivo"]))
-    if com_legenda and plano.get("legenda"):
-        entradas_png.append(str(caso / plano["legenda"]["arquivo"]))
-    entradas_png.extend(str(caso / c["arquivo"]) for c in plano["cartelas"])
-    if plano.get("encerramento"):
-        entradas_png.append(str(caso / plano["encerramento"]["arquivo"]))
+    sobrepostas = _sobreposicoes(plano, com_legenda)
+    entradas_png = [str(caso / e["arquivo"]) for e in sobrepostas]
     acrescimo = _acrescimo(plano)
 
     faltando = [p for p in entradas_png if not Path(p).exists()]
@@ -159,17 +199,24 @@ def renderizar(slug: str, *, recorte: str | None = None, crf: int = 16,
 
     passo(f"PASSO 7 · renderizar — {len(entradas_png)} sobreposições sobre {entrada.name}")
     info(f"{medido['largura']}x{medido['altura']} · {medido['fps']} fps · {hms(medido['duracao_s'])}")
-    info(f"libx264 crf {crf} preset {preset} · áudio copiado sem reencodar")
+    info(f"libx264 crf {crf} preset {preset} · "
+         + ("áudio com o estalo de entrada mixado (aac 192k)" if som_de_entrada
+            else "áudio copiado sem reencodar"))
 
     cmd = ["ffmpeg", "-v", "error", "-stats", "-i", str(entrada)]
-    for p in entradas_png:
-        cmd += ["-i", p]
+    for arquivo, e in zip(entradas_png, sobrepostas, strict=True):
+        if e["entra"]:
+            # a cartela só existe durante a sua janela; o fade precisa de quadros de verdade
+            cmd += ["-loop", "1", "-framerate", str(cfg.FPS_SAIDA),
+                    "-t", f"{e['sai_s'] - e['entra_s'] + 0.25:.3f}"]
+        cmd += ["-i", arquivo]
     cmd += [
         *_opcao_de_script(script),
-        "-map", f"[{rotulo}]", "-map", "0:a?",
+        "-map", f"[{rotulo}]", *(["-map", rotulo_audio] if rotulo_audio else ["-map", "0:a?"]),
         "-c:v", "libx264", "-preset", preset, "-crf", str(crf),
         "-pix_fmt", "yuv420p", "-profile:v", "high", "-level", "4.2",
-        "-c:a", "copy", "-movflags", "+faststart",
+        *(["-c:a", "aac", "-b:a", "192k"] if rotulo_audio else ["-c:a", "copy"]),
+        "-movflags", "+faststart",
         "-y", str(saida),
     ]
     rodar(cmd)
@@ -208,9 +255,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--preset", default="slow")
     p.add_argument("--sem-legenda", action="store_true")
     p.add_argument("--sufixo", default="")
+    p.add_argument("--som-de-entrada", action="store_true",
+                   help="mixa um estalo curto a cada cartela que entra (reencoda o áudio)")
     args = p.parse_args(argv)
     renderizar(args.slug, recorte=args.recorte, crf=args.crf, preset=args.preset,
-               com_legenda=not args.sem_legenda, sufixo=args.sufixo)
+               com_legenda=not args.sem_legenda, sufixo=args.sufixo,
+               som_de_entrada=args.som_de_entrada)
     return 0
 
 
