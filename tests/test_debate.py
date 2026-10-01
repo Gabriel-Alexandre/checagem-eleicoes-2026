@@ -140,6 +140,31 @@ def test_markdown_traz_as_ressalvas_e_o_aviso_de_assimetria(caso):
     assert any("Diego Reis" in a for a in m["avisos"]), "candidato sem alegação checável tem que aparecer"
 
 
+def test_metricas_por_bloco_e_campos_do_roteiro(caso):
+    _, _, t = caso
+    alegs = _alegacoes(t)
+    checagens = {"checagens": [_checagem(a["id"], "FALSO" if a["inicio_s"] < 280 else "VERDADEIRO") for a in alegs]}
+    blocos = [{"id": "b1", "titulo": "Primeiro bloco", "inicio_s": 0, "fim_s": 280},
+              {"id": "b2", "titulo": "Segundo bloco", "inicio_s": 280, "fim_s": 1200}]
+    m = metricas.calcular(_meta(), t, {"alegacoes": alegs}, checagens, blocos=blocos)
+    assert [b["alegacoes"] for b in m["por_bloco"]] == [sum(a["inicio_s"] < 280 for a in alegs),
+                                                       sum(a["inicio_s"] >= 280 for a in alegs)]
+    assert m["por_bloco"][0]["por_veredito"]["VERDADEIRO"] == 0
+    r = m["para_roteiro"]
+    assert r["N_ALEG"] == len(alegs) and r["C1_NOME"] == "Ana Souza" and r["C4_NOME"] == "Diego Reis"
+    assert r["B1_ALEG"] + r["B2_ALEG"] == len(alegs)
+    assert "C5_NOME" not in r
+    assert not any("fora de qualquer bloco" in a for a in m["avisos"])
+
+
+def test_alegacao_fora_dos_blocos_gera_aviso(caso):
+    _, _, t = caso
+    alegs = _alegacoes(t)
+    m = metricas.calcular(_meta(), t, {"alegacoes": alegs}, {"checagens": [_checagem(a["id"]) for a in alegs]},
+                          blocos=[{"id": "b1", "inicio_s": 0, "fim_s": 100}])
+    assert any("fora de qualquer bloco" in a for a in m["avisos"])
+
+
 def test_tempo_de_fala_respeita_a_cobertura(caso):
     _, _, t = caso
     alegs = _alegacoes(t)[:3]

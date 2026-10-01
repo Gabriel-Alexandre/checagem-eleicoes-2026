@@ -52,7 +52,7 @@ python ferramentas/registrar-revisao.py $SLUG --recorte debate-completo --ia --n
 
 # a porta e as métricas
 python -m checagem validar  $SLUG --recorte debate-completo
-python -m checagem metricas $SLUG --recorte debate-completo
+python -m checagem metricas $SLUG --recorte debate-completo --blocos casos/$SLUG/metricas/blocos.json
 
 # só para os cortes que viram vídeo (§5)
 python -m checagem midia $SLUG recortar corte-01 --inicio S --duracao S --motivo "..." --cortar-faixas
@@ -95,6 +95,8 @@ O PASSO 3 é manual de propósito ([`passo3_falantes.py`](../src/checagem/passo3
 | **Geral** | alegações, checáveis, não checáveis, cada veredito em número e em % dos checáveis, por papel |
 | **Por falante** | tempo de fala, alegações, checáveis, cada veredito, % dos checáveis, **alegações por minuto de fala**, assuntos e tipos. ⛔ **Na ordem da primeira fala, nunca por resultado** |
 | **Por assunto** | quem falou do quê, com a distribuição de vereditos |
+| **Por bloco** | com `--blocos blocos.json` (`{"blocos": [{"id","titulo","inicio_s","fim_s"}]}`, janelas do evento lidas no vídeo): o mesmo recorte de números por bloco do debate e, dentro dele, por falante |
+| **Campos do roteiro** | o bloco `para_roteiro` do JSON (`N_ALEG`, `N_V`, `C1_NOME`, `C1_V`, `B1_ALEG`...) traz cada ⟦campo⟧ do roteiro do vídeo já preenchido, para ninguém copiar número à mão. `C1` a `C4` são os candidatos na ordem da primeira fala |
 | **Avisos automáticos** | candidatos com número de checáveis muito diferente, tempo de fala diferente, candidato sem alegação checável, checagem sem revisão |
 | **Ressalvas fixas** | as quatro de [`etica-e-risco.mdc`](../.cursor/rules/etica-e-risco.mdc) §2 e §3, em todo relatório |
 

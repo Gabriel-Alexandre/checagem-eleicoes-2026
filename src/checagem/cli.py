@@ -37,7 +37,8 @@ checagem — pipeline de checagem de fatos em vídeo
   validar <slug> [--recorte ID]             PASSO 8 · a porta (sai 1 se achar erro)
 
   relatorio <slug> [--recorte ID]           gera o RELATORIO.md do caso
-  metricas <slug> [--recorte ID]            métricas gerais e por falante (denominador sempre junto)
+  metricas <slug> [--recorte ID] [--blocos blocos.json]
+                                            métricas gerais, por falante e por bloco (denominador sempre junto)
   ativos baixar-fontes                      baixa a Inter (OFL)
 
 Documentação: docs/METODOLOGIA.md · docs/REPLICAR.md · ESTADO.md

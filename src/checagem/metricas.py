@@ -72,8 +72,12 @@ def calcular(
     checagens_doc: dict[str, Any],
     *,
     recorte: str | None = None,
+    blocos: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
-    """Função pura: recebe os quatro documentos e devolve o dicionário de métricas."""
+    """Função pura: recebe os quatro documentos e devolve o dicionário de métricas.
+
+    `blocos` (opcional) é a lista `[{"id", "titulo", "inicio_s", "fim_s"}]` com as janelas do evento
+    (os blocos do debate). Cada alegação cai no bloco em que **começa**."""
     alegacoes = alegacoes_doc["alegacoes"]
     checagem_de = {c["id"]: c for c in checagens_doc["checagens"]}
     sem_checagem = [a["id"] for a in alegacoes if a["id"] not in checagem_de]
@@ -186,6 +190,21 @@ def calcular(
     if revisoes.get("sem_revisao"):
         avisos.append(f"{revisoes['sem_revisao']} checagens ainda sem `revisao_ia`: o resultado não está fechado.")
 
+    por_bloco = []
+    for bl in blocos or []:
+        lista = [a for a in alegacoes if bl["inicio_s"] - 0.001 <= a["inicio_s"] < bl["fim_s"]]
+        b = bloco(lista)
+        b.update({"id": bl["id"], "titulo": bl.get("titulo", bl["id"]),
+                  "inicio_s": bl["inicio_s"], "fim_s": bl["fim_s"],
+                  "por_falante": {nome: bloco([a for a in lista if a["falante"] == nome])
+                                  for nome in dict.fromkeys(a["falante"] for a in lista)}})
+        por_bloco.append(b)
+    fora = [a["id"] for a in alegacoes
+            if blocos and not any(bl["inicio_s"] - 0.001 <= a["inicio_s"] < bl["fim_s"] for bl in blocos)]
+    if fora:
+        avisos.append(f"{len(fora)} alegações fora de qualquer bloco declarado (vinheta, intervalo ou janela mal "
+                      f"marcada): {', '.join(fora[:6])}")
+
     return {
         "caso": meta["slug"],
         "recorte": recorte,
@@ -195,6 +214,7 @@ def calcular(
         "geral": geral,
         "por_falante": por_falante,
         "por_assunto": por_assunto,
+        "por_bloco": por_bloco,
         "revisao_ia": dict(revisoes),
         "confianca": dict(confianca),
         "fontes": {
@@ -204,7 +224,40 @@ def calcular(
         },
         "avisos": avisos,
         "ressalvas": list(RESSALVAS_FIXAS),
+        "para_roteiro": _para_roteiro(geral, por_falante, por_bloco, transcricao),
     }
+
+
+def _para_roteiro(geral: dict, por_falante: list[dict], por_bloco: list[dict],
+                  transcricao: dict) -> dict[str, Any]:
+    """Os campos ⟦...⟧ do roteiro do vídeo, já preenchidos, para ninguém copiar número à mão.
+
+    N_* é a peça inteira; C1_* a C4_* são os participantes `entrevistado` na ordem da primeira
+    fala (⛔ nunca por resultado); B1_* em diante são os blocos, na ordem declarada."""
+    v = geral["por_veredito"]
+    saida: dict[str, Any] = {
+        "N_ALEG": geral["alegacoes"], "N_CHEC": geral["checaveis"], "N_NC": geral["nao_checaveis"],
+        "N_V": v["VERDADEIRO"], "N_I": v["IMPRECISO"], "N_S": v["INSUSTENTAVEL"], "N_F": v["FALSO"],
+        "DURACAO": hms(geral["janela_s"]),
+        "PALAVRAS": sum(len(s["texto"].split()) for s in transcricao["segmentos"]),
+    }
+    candidatos = [f for f in por_falante if f["papel"] == "entrevistado"]
+    for i, f in enumerate(candidatos, 1):
+        c = f["por_veredito"]
+        saida.update({
+            f"C{i}_NOME": f["nome"], f"C{i}_PARTIDO": f.get("cargo_ou_partido"), f"C{i}_FALA": f["fala_hms"],
+            f"C{i}_ALEG": f["alegacoes"], f"C{i}_CHEC": f["checaveis"], f"C{i}_V": c["VERDADEIRO"],
+            f"C{i}_I": c["IMPRECISO"], f"C{i}_S": c["INSUSTENTAVEL"], f"C{i}_F": c["FALSO"],
+            f"C{i}_NC": c["NAO_CHECAVEL"],
+        })
+    for i, b in enumerate(por_bloco, 1):
+        c = b["por_veredito"]
+        saida.update({
+            f"B{i}_TITULO": b["titulo"], f"B{i}_ALEG": b["alegacoes"], f"B{i}_V": c["VERDADEIRO"],
+            f"B{i}_I": c["IMPRECISO"], f"B{i}_S": c["INSUSTENTAVEL"], f"B{i}_F": c["FALSO"],
+            f"B{i}_NC": c["NAO_CHECAVEL"],
+        })
+    return saida
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -269,12 +322,22 @@ def para_markdown(m: dict[str, Any]) -> str:
         c = a["por_veredito"]
         out.append(f"| {a['assunto']} | {a['alegacoes']} | {a['checaveis']} | {c['VERDADEIRO']} | {c['IMPRECISO']} | {c['INSUSTENTAVEL']} | {c['FALSO']} |")
 
+    if m.get("por_bloco"):
+        out += ["", "## Por bloco do evento", "",
+                "| Bloco | Janela | Alegações | Verdadeiro | Impreciso | Sem comprovação | Falso | Não checável |",
+                "|---|---|---:|---:|---:|---:|---:|---:|"]
+        for b in m["por_bloco"]:
+            c = b["por_veredito"]
+            out.append(f"| {b['titulo']} | {hms(b['inicio_s'])} a {hms(b['fim_s'])} | {b['alegacoes']} | "
+                       f"{c['VERDADEIRO']} | {c['IMPRECISO']} | {c['INSUSTENTAVEL']} | {c['FALSO']} | {c['NAO_CHECAVEL']} |")
+
     out += ["", "## Como o trabalho foi conferido", "",
             f"- Revisão adversarial por IA: {', '.join(f'{k} {v}' for k, v in m['revisao_ia'].items())}",
             f"- Confiança: {', '.join(f'{k} {v}' for k, v in m['confianca'].items())}",
             f"- Fontes: {m['fontes']['citacoes']} citações, {m['fontes']['urls_distintas']} URLs, {m['fontes']['instituicoes']} instituições"]
     if m["avisos"]:
         out += ["", "## ⚠️ Avisos desta rodada", ""] + [f"- {a}" for a in m["avisos"]]
+    out += ["", "## Campos do roteiro (⟦...⟧)", "", "```"] + [f"{k} = {v}" for k, v in m["para_roteiro"].items()] + ["```"]
     out += ["", "## Ressalvas (valem sempre)", ""] + [f"{i}. {r}" for i, r in enumerate(m["ressalvas"], 1)]
     return "\n".join(out) + "\n"
 
@@ -282,7 +345,7 @@ def para_markdown(m: dict[str, Any]) -> str:
 # ─────────────────────────────────────────────────────────────────────
 
 
-def gerar(slug: str, *, recorte: str | None = None) -> dict[str, Any]:
+def gerar(slug: str, *, recorte: str | None = None, blocos: str | None = None) -> dict[str, Any]:
     caso = cfg.pasta_do_caso(slug)
     meta = ler_json(caso / "CASO.json")
     nome_t = f"transcricao-{recorte}.json" if recorte else "transcricao.json"
@@ -294,7 +357,11 @@ def gerar(slug: str, *, recorte: str | None = None) -> dict[str, Any]:
     checagens = ler_json(caso / "checagens" / (f"checagens-{recorte}.json" if recorte else "checagens.json"))
 
     passo(f"MÉTRICAS · {slug}{' · ' + recorte if recorte else ''}")
-    m = calcular(meta, transcricao, alegacoes, checagens, recorte=recorte)
+    lista_de_blocos = None
+    if blocos:
+        from pathlib import Path as _P
+        lista_de_blocos = ler_json(_P(blocos))["blocos"]
+    m = calcular(meta, transcricao, alegacoes, checagens, recorte=recorte, blocos=lista_de_blocos)
 
     pasta = caso / "metricas"
     pasta.mkdir(exist_ok=True)
@@ -312,8 +379,10 @@ def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="checagem metricas", description="métricas gerais e por falante")
     p.add_argument("slug")
     p.add_argument("--recorte", default=None)
+    p.add_argument("--blocos", default=None,
+                   help='JSON {"blocos": [{"id","titulo","inicio_s","fim_s"}]} com as janelas do evento')
     args = p.parse_args(argv)
-    gerar(args.slug, recorte=args.recorte)
+    gerar(args.slug, recorte=args.recorte, blocos=args.blocos)
     return 0
 
 
