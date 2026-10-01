@@ -55,6 +55,8 @@ Moram em [`skills/`](skills/) (fonte única) e têm um **espelho** em `.claude/s
 | "checa isso", "busca as fontes" | [`checar-alegacao`](skills/checar-alegacao.md) — PASSO 5 |
 | "revisa as checagens" (sempre antes de fechar) | [`revisar-checagem`](skills/revisar-checagem.md) |
 | "monta o vídeo", "gera o relatório" | [`fechar-caso`](skills/fechar-caso.md) — PASSOS 6 a 8 |
+| 🆕 "chegou o debate", "checa o debate inteiro" | [`checar-debate`](skills/checar-debate.md): lotes em paralelo, junção, revisão em pares, métricas. Operação em [`docs/DEBATES.md`](docs/DEBATES.md) |
+| 🆕 "as considerações da IA sobre o debate" | [`consideracoes-do-debate`](skills/consideracoes-do-debate.md): camada **separada** da checagem, com critérios registrados antes do evento |
 
 ⛔ **Não pule da transcrição direto para a checagem.** A extração roda antes, com a internet fechada, e num arquivo separado. Quem já sabe a resposta escolhe as perguntas.
 
@@ -84,6 +86,12 @@ python -m checagem relatorio  $SLUG --recorte <id>   # o documento público do c
 python ferramentas/capturar-fontes.py $SLUG          # PASSO 5 · baixa e assina as fontes listadas
 python ferramentas/conferir-trechos.py $SLUG --recorte <id> --capturas capturas/$SLUG   # trecho existe na página?
 python ferramentas/validar-todos.py                  # o que a CI roda: todos os casos
+
+# 🆕 braço de debate (peça longa, vários candidatos): docs/DEBATES.md
+python ferramentas/novo-caso-debate.py <slug> --titulo ... --data ... --veiculo ... --mediador ... --candidato "Nome (PARTIDO)"
+python ferramentas/lotes-de-debate.py extracao-dividir|extracao-juntar|checagem-dividir|checagem-juntar|status <slug>
+python ferramentas/derivar-recorte.py <slug> --de debate-completo --para corte-01 --inicio S --fim S
+python -m checagem metricas <slug> --recorte debate-completo   # geral, por falante e por assunto, com denominador
 ```
 
 🌐 **Sem rede para o YouTube, o Hugging Face ou os portais?** Os passos mecânicos rodam num runner do GitHub a partir de arquivos de pedido: [`docs/NUVEM.md`](docs/NUVEM.md).

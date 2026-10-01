@@ -1,6 +1,6 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 30/set/2026 (versão 0.3.0, três casos)
+**Atualizado em:** 1º/out/2026 (versão 0.4.0, três casos e o braço de debate preparado)
 
 Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que está pronto, o que falta, e o comando exato para retomar. ⛔ Ele não guarda doutrina: isso é [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -11,6 +11,8 @@ Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que es
 O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/NUVEM.md`](docs/NUVEM.md)). **Dois casos principais** estão fechados: o bloco de contas públicas da sabatina de Lula (auditado e corrigido em 26/set) e o **bloco de economia** da sabatina de Flávio Bolsonaro (refeito em 27/set a pedido do autor). O primeiro trecho do Flávio, sobre a tentativa de golpe, fica como registro. A revisão é por IA, em passada adversarial separada ([`skills/revisar-checagem.md`](skills/revisar-checagem.md)): registrada nas 21 checagens do bloco de economia, ainda não nos outros dois casos. O vídeo termina com a fala: sem cartela de encerramento e sem a cartela de divulgação do g1.
 
 🆕 **30/set/2026: o bloco de economia passou a ser checado sobre a íntegra horizontal da sabatina** (44min18s, fornecida pelo autor), no lugar do clipe vertical do g1. As faixas pretas foram cortadas (`--cortar-faixas`), só o bloco (34:02 a 39:40) foi recortado, os cards ficaram opacos e passaram a entrar com fade. **Nenhum veredito mudou**; o que mudou foi o relógio dos tempos, oito correções de transcrição e a citação de `A018`. Tudo em [`CORRECOES.md`](casos/2026-08-28-sabatina-flavio-globo-economia/CORRECOES.md).
+
+🆕 **1º/out/2026: nasceu o braço de DEBATE** ([`docs/DEBATES.md`](docs/DEBATES.md)), preparado **antes** do debate presidencial da TV Globo (21h30 de 1º/out, mediação de César Tralli, quatro candidatos presentes: Flávio Bolsonaro, Ronaldo Caiado, Augusto Cury e Romeu Zema; Lula avisou que não vai). O caso [`2026-10-01-debate-presidencial-globo`](casos/2026-10-01-debate-presidencial-globo/CASO.json) está aberto, **sem mídia**: falta o vídeo (o autor passa), a procedência, a transcrição, os turnos e a checagem. Ferramentas prontas e testadas: `metricas`, `lotes-de-debate`, `derivar-recorte`, `novo-caso-debate`, skills `checar-debate` e `consideracoes-do-debate`, e os **critérios das considerações da IA, registrados antes do evento** (`consideracoes/CRITERIOS.md`). ⚠️ O texto da resolução do TSE sobre IA e o prazo de publicação (§7 do `DEBATES.md`) são **decisão do autor**, não resolvida aqui.
 
 ---
 
@@ -86,6 +88,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
    - `A021`: a nota do BC de 31/08 traz a tabela de elasticidades como imagem e ninguém leu o número novo.
 4. **Checar os outros 40 minutos da peça de Lula.** Transcrição e falantes da peça inteira já existem: comece no PASSO 4.
 5. **Os outros quatro candidatos da série.**
+6. 🆕 **O debate da Globo, quando o vídeo chegar:** siga [`skills/checar-debate.md`](skills/checar-debate.md) (comandos em `docs/DEBATES.md` §2). Antes de rodar o PASSO 0, o autor entrega o arquivo e diz de onde veio.
 
 ---
 

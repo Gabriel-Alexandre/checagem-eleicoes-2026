@@ -5,6 +5,26 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.4.0] · 1º/out/2026
+
+Pedido do autor, no dia do debate presidencial da TV Globo: um **novo braço** do projeto para peças longas com vários candidatos, sem substituir o que existe. Validação sobre a peça inteira, vídeo só de alguns cortes, métricas gerais e por candidato, e uma camada separada de considerações da IA.
+
+### Adicionado
+
+- **`python -m checagem metricas <slug> [--recorte ID]`**: métricas gerais, por falante (na ordem da primeira fala, nunca por resultado) e por assunto, com o denominador e o tempo de fala ao lado, avisos automáticos de assimetria e as ressalvas fixas de `etica-e-risco` §2 e §3. `src/checagem/metricas.py`.
+- **`ferramentas/lotes-de-debate.py`**: divide a extração e a checagem em lotes para rodar em paralelo, junta com prova de cobertura (recusa lote faltando, alegação fora da janela, buraco entre janelas, veredito na extração, id inventado) e renumera `A001...`.
+- **`ferramentas/derivar-recorte.py`**: o recorte que vira vídeo herda as checagens da peça inteira, com os mesmos ids, e recusa alegação cortada na borda.
+- **`ferramentas/novo-caso-debate.py`** e o caso `casos/2026-10-01-debate-presidencial-globo/` (mídia por registrar).
+- **`docs/DEBATES.md`**, as skills **`checar-debate`** e **`consideracoes-do-debate`**, e `casos/2026-10-01-debate-presidencial-globo/consideracoes/CRITERIOS.md`, registrado antes do debate.
+- 18 testes (110 no total).
+
+### Mudado
+
+- `ferramentas/validar-todos.py` não desenha cartela de recorte sem vídeo (o `debate-completo` não tem render).
+- `METODOLOGIA.md` §8 registra a camada de considerações como **separada** da checagem.
+
+---
+
 ## [0.3.0] · 30/set/2026
 
 Pedido do autor: usar a íntegra horizontal da sabatina como peça do caso de economia, cortar as faixas pretas, recortar só o bloco e seguir os padrões de 29/set do editor de vídeos longos.

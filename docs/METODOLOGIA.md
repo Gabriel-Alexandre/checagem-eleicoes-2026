@@ -179,4 +179,5 @@ Estes são os erros que transformam checagem em militância. Cada um já derrubo
 - ⛔ Não é apuração jornalística: não entrevista, não ouve fonte humana, não obtém documento inédito. Ele confere o que foi dito contra o que já está publicado.
 - ⛔ Não mede intenção, caráter, coerência ideológica ou desempenho de governo.
 - ⛔ Não recomenda voto, não classifica candidato e não soma placar de "quem mentiu mais" como conclusão editorial. A contagem existe como dado do caso, não como veredito sobre a pessoa.
+- 🆕 **1º/out/2026:** o braço de debate ([`DEBATES.md`](DEBATES.md)) produz métricas **por candidato**, sempre com denominador, tempo de fala e ressalvas, **sem ordem por resultado**. E, a pedido do autor, existe uma camada **separada** de *considerações da IA* sobre o debate ([`skills/consideracoes-do-debate.md`](../skills/consideracoes-do-debate.md)), com critérios registrados antes do evento. Ela **não é checagem**, não mora nos arquivos da checagem, e esta lista de "o que o projeto não é" continua valendo para o checador.
 - ⛔ Não substitui as agências de checagem profissionais: ele as usa como fonte e aponta para elas.
