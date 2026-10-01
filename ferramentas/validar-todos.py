@@ -27,6 +27,18 @@ from checagem.passo6_overlay import montar  # noqa: E402
 from checagem.passo8_validar import validar  # noqa: E402
 
 
+def tem_video(slug: str, recorte: str | None) -> bool:
+    """Recorte sem entrada em recortes/RECORTES.json é só validação (o `debate-completo` de um
+    debate inteiro): não há vídeo a desenhar, e desenhar 200 cartelas sem render é trabalho jogado fora."""
+    if recorte is None:
+        return True
+    manifesto = cfg.pasta_do_caso(slug) / "recortes" / "RECORTES.json"
+    if not manifesto.exists():
+        return False
+    import json
+    return any(r["id"] == recorte for r in json.loads(manifesto.read_text(encoding="utf-8"))["recortes"])
+
+
 def alvos() -> list[tuple[str, str | None]]:
     achados = []
     for caso in sorted(p for p in cfg.CASOS.iterdir() if (p / "CASO.json").exists()):
@@ -48,7 +60,7 @@ def main() -> int:
     reprovados = []
     lista = alvos()
     for slug, recorte in lista:
-        if not args.sem_overlay:
+        if not args.sem_overlay and tem_video(slug, recorte):
             montar(slug, recorte=recorte)
         if validar(slug, recorte=recorte) != 0:
             reprovados.append(f"{slug} {recorte or ''}".strip())

@@ -1,0 +1,56 @@
+{
+  "slug": "2026-10-01-debate-presidencial-globo",
+  "titulo": "Debate presidencial da TV Globo, 1º turno de 2026",
+  "data_do_evento": "2026-10-01",
+  "veiculo": "TV Globo",
+  "programa": "Debate presidencial",
+  "formato": "debate",
+  "eleicao": "Eleições gerais 2026, Presidência da República",
+  "duracao_s": 1,
+  "falantes": [
+    {
+      "nome": "César Tralli",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Mediação do debate."
+    },
+    {
+      "nome": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PL",
+      "descricao": "Candidato à Presidência da República, debatedor."
+    },
+    {
+      "nome": "Ronaldo Caiado",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PSD",
+      "descricao": "Candidato à Presidência da República, debatedor."
+    },
+    {
+      "nome": "Augusto Cury",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "Avante",
+      "descricao": "Candidato à Presidência da República, debatedor."
+    },
+    {
+      "nome": "Romeu Zema",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "Novo",
+      "descricao": "Candidato à Presidência da República, debatedor."
+    }
+  ],
+  "midia": {
+    "arquivo": "a-registrar.mp4",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bytes": 0,
+    "largura": 1920,
+    "altura": 1080,
+    "fps": 30
+  },
+  "procedencia": {
+    "como_foi_obtido": "A PREENCHER antes de qualquer transcrição (PASSO 0).",
+    "url_oficial": null,
+    "integralidade": "desconhecido",
+    "observacoes": "Debate com mais de um candidato: o papel `entrevistado` vale para cada debatedor. A pergunta que um candidato faz a outro afirma fato e entra na checagem, com o autor dela. Ausentes: Luiz Inácio Lula da Silva (PT), que avisou a emissora que não participaria (não são falantes)."
+  }
+}
