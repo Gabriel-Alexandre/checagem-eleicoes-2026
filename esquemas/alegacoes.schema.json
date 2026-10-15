@@ -31,6 +31,16 @@
         "fim_s": { "type": "number", "minimum": 0 }
       }
     },
+    "fora_do_limite_de_tamanho": {
+      "type": "object",
+      "description": "Só em corte derivado (ferramentas/derivar-recorte.py) que passou dos limites de tamanho de config.py (CORTE_MAX_S, CORTES_TOTAL_MAX_S, CORTES_INTERVALO_MIN_S) com --aceito-mais-longo. Guarda o que passou e o motivo dele, para o relatório mostrar.",
+      "required": ["problemas", "motivo"],
+      "additionalProperties": false,
+      "properties": {
+        "problemas": { "type": "array", "items": { "type": "string" } },
+        "motivo": { "type": "string", "minLength": 10 }
+      }
+    },
     "alegacoes": {
       "type": "array",
       "minItems": 1,

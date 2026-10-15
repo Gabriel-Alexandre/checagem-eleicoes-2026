@@ -1,0 +1,44 @@
+{
+  "slug": "2026-10-15-sabatina-lula-globo-2turno",
+  "titulo": "Sabatina de Luiz Inácio Lula da Silva na TV Globo, 2º turno de 2026",
+  "data_do_evento": "2026-10-15",
+  "veiculo": "TV Globo",
+  "programa": "Sabatina com os candidatos do 2º turno, exibida após o Jornal Nacional",
+  "formato": "sabatina",
+  "eleicao": "Eleições gerais 2026, Presidência da República, 2º turno",
+  "duracao_s": 1,
+  "falantes": [
+    {
+      "nome": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Jornalista da TV Globo (apresentadora do Jornal da Globo, segundo a CBN de 15/out/2026) que conduz a sabatina do 2º turno."
+    },
+    {
+      "nome": "Lula",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PT, candidato à reeleição",
+      "descricao": "Luiz Inácio Lula da Silva, presidente da República e candidato à reeleição no 2º turno de 2026."
+    },
+    {
+      "nome": "Narração (VT)",
+      "papel": "narracao",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Voz em off de VT exibido na peça. O repositório não atribui a uma pessoa o que não consegue provar pelo vídeo."
+    }
+  ],
+  "midia": {
+    "arquivo": "a-registrar.mp4",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bytes": 0,
+    "largura": 1920,
+    "altura": 1080,
+    "fps": 30
+  },
+  "procedencia": {
+    "como_foi_obtido": "A PREENCHER antes de qualquer transcrição (PASSO 0).",
+    "url_oficial": null,
+    "integralidade": "desconhecido",
+    "observacoes": "Peça checada INTEIRA (recorte `sabatina-completa`, sem vídeo renderizado); só cortes curtos viram vídeo (docs/PECA_INTEIRA.md). A pergunta do jornalista que afirma fato entra na checagem, com a mesma régua da resposta. O que se sabia ANTES do evento, conferido em duas fontes em 15/out/2026: exibição ao vivo nesta quinta, 15/out, logo após o Jornal Nacional, nos Estúdios Globo (Rio de Janeiro), conduzida por Renata Lo Prete; a CBN informa início às 21h15 e \"duração exata de 45 minutos\" (https://cbntotal.com.br/cotidiano/sabatina-de-lula-na-globo-no-2o-turno-saiba-que-horas-comeca-e-como-ouvir-ao-vivo-na-cbn/); o blog Jamildo informa que a ordem foi definida por sorteio, que Flávio Bolsonaro é entrevistado no dia seguinte (16/out) e que o comunicado da Globo não detalha a duração (https://jamildo.com/politica/globo-sabatina-lula-e-flavio-bolsonaro-em-dias-seguidos-antes-do-ultimo-debate-presidencial-veja-horarios-e-regras.html). A íntegra fica no Globoplay e no g1. A duração medida do arquivo se confere contra os 45 minutos anunciados mais abertura e encerramento."
+  }
+}

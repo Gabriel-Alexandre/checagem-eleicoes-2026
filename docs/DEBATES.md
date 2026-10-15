@@ -2,6 +2,8 @@
 
 **Criado:** 1º/out/2026, a pedido do autor, no dia do debate presidencial da TV Globo. Palavras dele: *"esse projeto não vai substituir o que já existe, mas sim vai ser um novo braço do projeto"*, *"dessa vez a validação deve ser para todo o debate (mas não precisa editar o vídeo para tudo, rode apenas a validação para obter as métricas e classificações)"*.
 
+> 🆕 **15/out/2026:** o mesmo braço passou a servir para a **sabatina checada inteira**, com cortes curtos de até 30 s (direito autoral) e sugestão de cortes que não lê veredito: [`PECA_INTEIRA.md`](PECA_INTEIRA.md). Os limites de tamanho de corte valem também para debate.
+
 > ⚠️ Este arquivo é **operação**: diz como rodar o braço de debate. A doutrina (vereditos, fontes, o que o projeto não conclui) continua em [`METODOLOGIA.md`](METODOLOGIA.md), e **ela ganha** de qualquer coisa aqui.
 
 ---

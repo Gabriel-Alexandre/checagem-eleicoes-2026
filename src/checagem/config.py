@@ -40,6 +40,38 @@ def pasta_do_caso(slug: str) -> Path:
 
 
 # ─────────────────────────────────────────────────────────────────────
+# Peça inteira e cortes curtos — docs/PECA_INTEIRA.md
+# ─────────────────────────────────────────────────────────────────────
+
+# O recorte que guarda a checagem da peça TODA (sem vídeo renderizado). O nome segue o formato do
+# caso, para o arquivo dizer o que é: `alegacoes-sabatina-completa.json`, `alegacoes-debate-completo.json`.
+RECORTE_DA_PECA_INTEIRA = {"debate": "debate-completo", "sabatina": "sabatina-completa"}
+
+
+def recorte_da_peca_inteira(formato: str | None) -> str:
+    return RECORTE_DA_PECA_INTEIRA.get(formato or "", "peca-completa")
+
+
+def recorte_da_peca_inteira_do_caso(slug: str) -> str:
+    import json
+
+    meta = json.loads((pasta_do_caso(slug) / "CASO.json").read_text(encoding="utf-8"))
+    return recorte_da_peca_inteira(meta.get("formato"))
+
+
+# Decisão dele, 15/out/2026, para os cortes que vão para o YouTube: *"tem que ser trechos bem
+# curtos. Não pode ser trecho de, por exemplo, um minuto"*, *"pelo menos uns 5, 6 trechos
+# diferentes. Não de continuidade"*. Os números são o teto da IMAGEM DA EMISSORA no corte (o
+# trecho da peça), não do vídeo dele. ⚠️ Não é parecer jurídico: Lei 9.610/98, art. 46, III permite
+# citar "na medida justificada para o fim a atingir", e o tamanho é o que mais pesa.
+CORTE_MAX_S = 30.0            # acima disto o derivar-recorte recusa
+CORTE_RECOMENDADO_S = 20.0    # acima disto avisa
+CORTES_TOTAL_MAX_S = 150.0    # soma de todos os cortes de uma peça (6 x 25 s)
+CORTES_INTERVALO_MIN_S = 60.0  # distância mínima entre dois cortes: "não de continuidade"
+CORTES_QUANTIDADE = (5, 6)    # o que ele pediu
+
+
+# ─────────────────────────────────────────────────────────────────────
 # Vereditos — docs/METODOLOGIA.md §2
 # ─────────────────────────────────────────────────────────────────────
 

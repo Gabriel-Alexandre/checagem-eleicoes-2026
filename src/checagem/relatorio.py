@@ -26,6 +26,59 @@ EMOJI = {
 }
 
 
+def _registro_do_recorte(caso: Path, recorte: str | None) -> dict | None:
+    """A entrada do recorte em RECORTES.json, ou None (peça inteira, sem vídeo)."""
+    if not recorte or not (caso / "recortes" / "RECORTES.json").exists():
+        return None
+    return next((r for r in ler_json(caso / "recortes" / "RECORTES.json")["recortes"] if r["id"] == recorte), None)
+
+
+def _secao_da_peca_inteira(add, caso: Path, slug: str, recorte: str) -> None:
+    """Métricas por falante e os cortes que viraram vídeo, quando a checagem é da peça inteira."""
+    m_path = caso / "metricas" / f"metricas-{recorte}.json"
+    if m_path.exists():
+        m = ler_json(m_path)
+        add("## Por falante")
+        add("")
+        add(f"Detalhe completo, com assunto e bloco: [`metricas/METRICAS_{recorte}.md`](metricas/METRICAS_{recorte}.md). "
+            "Ordem da primeira fala, nunca por resultado.")
+        add("")
+        add("| Falante | Papel | Fala | Alegações | Checáveis | 🟢 | 🟡 | 🟠 | 🔴 | ⚪ |")
+        add("|---|---|---:|---:|---:|---:|---:|---:|---:|---:|")
+        for f in m["por_falante"]:
+            c = f["por_veredito"]
+            add(f"| {f['nome']} | {f['papel']} | {f['fala_hms']} | {f['alegacoes']} | {f['checaveis']} | "
+                f"{c['VERDADEIRO']} | {c['IMPRECISO']} | {c['INSUSTENTAVEL']} | {c['FALSO']} | {c['NAO_CHECAVEL']} |")
+        add("")
+        for a in m.get("avisos", []):
+            add(f"- ⚠️ {a}")
+        if m.get("avisos"):
+            add("")
+    else:
+        add(f"> ⚠️ Métricas ainda não geradas: `python -m checagem metricas {slug} --recorte {recorte}`.")
+        add("")
+    cortes = sorted((caso / "alegacoes").glob("alegacoes-corte-*.json"))
+    if cortes:
+        indice = {r["id"]: r for r in ler_json(caso / "recortes" / "RECORTES.json")["recortes"]}             if (caso / "recortes" / "RECORTES.json").exists() else {}
+        add("## Os cortes que viraram vídeo")
+        add("")
+        add("Cada corte herda as checagens desta peça, com os mesmos ids. O critério de escolha foi "
+            "registrado antes dos vereditos ([`recortes/SELECAO_DE_CORTES.md`](recortes/SELECAO_DE_CORTES.md)).")
+        add("")
+        add("| Corte | Janela | Alegações | Por que este trecho |")
+        add("|---|---|---|---|")
+        for arq in cortes:
+            d = ler_json(arq)
+            rid = arq.stem[len("alegacoes-"):]
+            cob = d["cobertura"]
+            motivo = (indice.get(rid) or {}).get("motivo") or "não registrado"
+            if d.get("fora_do_limite_de_tamanho"):
+                motivo += " · ⚠️ fora do limite de tamanho: " + d["fora_do_limite_de_tamanho"]["motivo"]
+            add(f"| `{rid}` | {hms(cob['inicio_s'])} a {hms(cob['fim_s'])} ({cob['fim_s'] - cob['inicio_s']:.0f} s) | "
+                f"{', '.join(x['id'] for x in d['alegacoes'])} | {motivo} |")
+        add("")
+
+
 def gerar(slug: str, *, recorte: str | None = None) -> Path:
     caso = cfg.pasta_do_caso(slug)
     meta = ler_json(caso / "CASO.json")
@@ -46,12 +99,21 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
         + (f" · {meta['programa']}" if meta.get("programa") else "")
         + f" · {meta['formato']} · {data_legivel(meta['data_do_evento'])}  ")
     add(f"**Duração:** {hms(float(meta['duracao_s']))}  ")
-    if recorte:
-        indice = ler_json(caso / "recortes" / "RECORTES.json")
-        reg = next(r for r in indice["recortes"] if r["id"] == recorte)
+    reg = _registro_do_recorte(caso, recorte)
+    doc_alegacoes = ler_json(caso / "alegacoes" / f"alegacoes{sufixo}.json")
+    if recorte and reg:
         add(f"**Trecho checado:** `{recorte}`, de {hms(reg['origem_inicio_s'])} a "
             f"{hms(reg['origem_inicio_s'] + reg['duracao_s'])} da peça  ")
         add(f"**Por que este trecho:** {reg.get('motivo') or 'não registrado'}  ")
+        if doc_alegacoes.get("fora_do_limite_de_tamanho"):
+            fl = doc_alegacoes["fora_do_limite_de_tamanho"]
+            add(f"**⚠️ Fora do limite de tamanho de corte:** {'; '.join(fl['problemas'])}. Motivo: {fl['motivo']}  ")
+    elif recorte:
+        # 🆕 15/out/2026: a peça checada INTEIRA (debate-completo, sabatina-completa) não tem vídeo
+        # renderizado nem entrada em RECORTES.json. O que prova a cobertura é a `cobertura` da extração.
+        cob = doc_alegacoes.get("cobertura") or {"inicio_s": 0.0, "fim_s": float(meta["duracao_s"])}
+        add(f"**Trecho checado:** a peça inteira (`{recorte}`), de {hms(cob['inicio_s'])} a "
+            f"{hms(cob['fim_s'])}, sem escolha de trecho  ")
     add(f"**Relatório gerado em:** {date.today().isoformat()}  ")
     add("**Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  ")
     add(f"**Assinatura da mídia (sha256):** `{meta['midia']['sha256']}`")
@@ -140,6 +202,9 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
             "o resultado de cada uma está na alegação.")
     add("")
 
+    if recorte and not reg:
+        _secao_da_peca_inteira(add, caso, slug, recorte)
+
     add("## Alegação por alegação")
     add("")
     for a in alegacoes:
@@ -211,7 +276,7 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
         add("---")
         add("")
 
-    exclusoes = ler_json(caso / "alegacoes" / f"alegacoes{sufixo}.json").get("exclusoes", [])
+    exclusoes = doc_alegacoes.get("exclusoes", [])
     if exclusoes:
         add("## Frases que ficaram de fora, e por quê")
         add("")
@@ -253,13 +318,14 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
     add(f"python ferramentas/corrigir-transcricao.py {slug}")
     add(f"python -m checagem falantes {slug}")
     add(f"python -m checagem validar {slug}{rec}")
-    if recorte:
-        indice = ler_json(caso / "recortes" / "RECORTES.json")
-        reg = next(r for r in indice["recortes"] if r["id"] == recorte)
+    if recorte and reg:
         add(f"python -m checagem midia {slug} recortar {recorte} --inicio {reg['origem_inicio_s']} "
             f"--duracao {reg['duracao_s']}")
-    add(f"python -m checagem overlay {slug}{rec}")
-    add(f"python -m checagem renderizar {slug}{rec}")
+    if not recorte or reg:
+        add(f"python -m checagem overlay {slug}{rec}")
+        add(f"python -m checagem renderizar {slug}{rec}")
+    else:
+        add(f"python -m checagem metricas {slug}{rec}")
     add("```")
     add("")
     add("Os passos de extração e de checagem são feitos por IA seguindo as skills em "

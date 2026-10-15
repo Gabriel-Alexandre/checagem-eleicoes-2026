@@ -1,7 +1,8 @@
 """MÉTRICAS — o que a checagem de uma peça inteira diz, em números, com o denominador sempre junto.
 
 Existe por causa do debate (outubro/2026): com quatro candidatos e centenas de alegações, o autor
-quer falar os resultados **gerais** e **por candidato**. Este módulo só **calcula**. Ele lê o que o
+quer falar os resultados **gerais** e **por candidato**. Desde 15/out/2026 vale também para a
+sabatina checada inteira (docs/PECA_INTEIRA.md): o entrevistado e o jornalista, lado a lado. Este módulo só **calcula**. Ele lê o que o
 validador já aprovou (alegações, checagens, transcrição com falante) e escreve:
 
     casos/<slug>/metricas/metricas-<recorte>.json     · para a máquina (e para o roteiro)
@@ -233,7 +234,9 @@ def _para_roteiro(geral: dict, por_falante: list[dict], por_bloco: list[dict],
     """Os campos ⟦...⟧ do roteiro do vídeo, já preenchidos, para ninguém copiar número à mão.
 
     N_* é a peça inteira; C1_* a C4_* são os participantes `entrevistado` na ordem da primeira
-    fala (⛔ nunca por resultado); B1_* em diante são os blocos, na ordem declarada."""
+    fala (⛔ nunca por resultado); J1_* em diante os jornalistas e mediadores, na mesma ordem;
+    P_ENTREVISTADO_* e P_ENTREVISTADOR_* os dois lados da mesa; B1_* em diante são os blocos, na
+    ordem declarada. *_P? é percentual dos checáveis (None quando não há checável)."""
     v = geral["por_veredito"]
     saida: dict[str, Any] = {
         "N_ALEG": geral["alegacoes"], "N_CHEC": geral["checaveis"], "N_NC": geral["nao_checaveis"],
@@ -241,6 +244,21 @@ def _para_roteiro(geral: dict, por_falante: list[dict], por_bloco: list[dict],
         "DURACAO": hms(geral["janela_s"]),
         "PALAVRAS": sum(len(s["texto"].split()) for s in transcricao["segmentos"]),
     }
+    def pct(b: dict, v: str) -> float | None:
+        return b["percentual_dos_checaveis"].get(v)
+
+    saida.update({"N_PV": pct(geral, "VERDADEIRO"), "N_PI": pct(geral, "IMPRECISO"),
+                  "N_PS": pct(geral, "INSUSTENTAVEL"), "N_PF": pct(geral, "FALSO")})
+    # 🆕 15/out/2026 (sabatina inteira): os dois lados da mesa. P_ENTREVISTADO_* soma todos os
+    # entrevistados e P_ENTREVISTADOR_* todos os jornalistas e mediadores. A pergunta que afirma fato
+    # é alegação (etica-e-risco §1), e o roteiro mostra os dois lados com a mesma régua.
+    for papel, b in geral["por_papel"].items():
+        c, chave = b["por_veredito"], f"P_{papel.upper()}"
+        saida.update({
+            f"{chave}_ALEG": b["alegacoes"], f"{chave}_CHEC": b["checaveis"], f"{chave}_V": c["VERDADEIRO"],
+            f"{chave}_I": c["IMPRECISO"], f"{chave}_S": c["INSUSTENTAVEL"], f"{chave}_F": c["FALSO"],
+            f"{chave}_NC": c["NAO_CHECAVEL"],
+        })
     candidatos = [f for f in por_falante if f["papel"] == "entrevistado"]
     for i, f in enumerate(candidatos, 1):
         c = f["por_veredito"]
@@ -248,7 +266,16 @@ def _para_roteiro(geral: dict, por_falante: list[dict], por_bloco: list[dict],
             f"C{i}_NOME": f["nome"], f"C{i}_PARTIDO": f.get("cargo_ou_partido"), f"C{i}_FALA": f["fala_hms"],
             f"C{i}_ALEG": f["alegacoes"], f"C{i}_CHEC": f["checaveis"], f"C{i}_V": c["VERDADEIRO"],
             f"C{i}_I": c["IMPRECISO"], f"C{i}_S": c["INSUSTENTAVEL"], f"C{i}_F": c["FALSO"],
-            f"C{i}_NC": c["NAO_CHECAVEL"],
+            f"C{i}_NC": c["NAO_CHECAVEL"], f"C{i}_PV": pct(f, "VERDADEIRO"), f"C{i}_PI": pct(f, "IMPRECISO"),
+            f"C{i}_PS": pct(f, "INSUSTENTAVEL"), f"C{i}_PF": pct(f, "FALSO"),
+        })
+    jornalistas = [f for f in por_falante if f["papel"] == "entrevistador"]
+    for i, f in enumerate(jornalistas, 1):
+        c = f["por_veredito"]
+        saida.update({
+            f"J{i}_NOME": f["nome"], f"J{i}_FALA": f["fala_hms"], f"J{i}_ALEG": f["alegacoes"],
+            f"J{i}_CHEC": f["checaveis"], f"J{i}_V": c["VERDADEIRO"], f"J{i}_I": c["IMPRECISO"],
+            f"J{i}_S": c["INSUSTENTAVEL"], f"J{i}_F": c["FALSO"], f"J{i}_NC": c["NAO_CHECAVEL"],
         })
     for i, b in enumerate(por_bloco, 1):
         c = b["por_veredito"]

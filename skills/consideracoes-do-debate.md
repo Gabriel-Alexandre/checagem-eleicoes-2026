@@ -7,6 +7,8 @@ description: Camada editorial pedida pelo autor, separada da checagem. Depois qu
 
 Palavras do autor (1º/out/2026): *"colocar a IA para fazer considerações (gerais e não por candidato) buscando ser imparcial sobre quem se saiu melhor, ela pode considerar pesquisas e outras coisas que achar na internet"*.
 
+🆕 **15/out/2026: vale também para a sabatina checada inteira** ([`docs/PECA_INTEIRA.md`](../docs/PECA_INTEIRA.md)). Os critérios são os do `consideracoes/CRITERIOS.md` **do caso** (o da sabatina de 15/out troca a passada anonimizada pela **passada espelho**: um segundo agente sem ver o primeiro e o teste de troca de nome, porque não há outro candidato na mesa), e as métricas lidas no PASSO 0 são as de `metricas/METRICAS_sabatina-completa.md`.
+
 ## O que esta skill entrega
 
 `casos/<slug>/consideracoes/CONSIDERACOES_IA.md`, com: (1) o que foi o debate, (2) critério a critério o que se observou, (3) a percepção pública medida por terceiros, (4) as duas passadas e onde divergiram, (5) o que o texto **não** pode afirmar, e (6) o **texto-base para a fala do vídeo** (curto, no tom dele).

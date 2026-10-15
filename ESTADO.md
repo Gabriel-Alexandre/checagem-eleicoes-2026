@@ -1,6 +1,6 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 1º/out/2026 (versão 0.4.0, três casos e o braço de debate preparado)
+**Atualizado em:** 15/out/2026, 10h (versão 0.5.0: três casos, o braço de debate e o braço de **sabatina inteira** preparados; o caso da sabatina de Lula do 2º turno aberto **antes** do evento, sem mídia)
 
 Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que está pronto, o que falta, e o comando exato para retomar. ⛔ Ele não guarda doutrina: isso é [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -14,6 +14,8 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 
 🆕 **1º/out/2026: nasceu o braço de DEBATE** ([`docs/DEBATES.md`](docs/DEBATES.md)), preparado **antes** do debate presidencial da TV Globo (21h30 de 1º/out, mediação de César Tralli, quatro candidatos presentes: Flávio Bolsonaro, Ronaldo Caiado, Augusto Cury e Romeu Zema; Lula avisou que não vai). O caso [`2026-10-01-debate-presidencial-globo`](casos/2026-10-01-debate-presidencial-globo/CASO.json) está aberto, **sem mídia**: falta o vídeo (o autor passa), a procedência, a transcrição, os turnos e a checagem. Ferramentas prontas e testadas: `metricas`, `lotes-de-debate`, `derivar-recorte`, `novo-caso-debate`, skills `checar-debate` e `consideracoes-do-debate`, e os **critérios das considerações da IA, registrados antes do evento** (`consideracoes/CRITERIOS.md`). ⚠️ O texto da resolução do TSE sobre IA e o prazo de publicação (§7 do `DEBATES.md`) são **decisão do autor**, não resolvida aqui.
 
+🆕 **15/out/2026: a sabatina INTEIRA, com cortes curtos** ([`docs/PECA_INTEIRA.md`](docs/PECA_INTEIRA.md)), preparada **antes** da sabatina de Lula na TV Globo do 2º turno (21h15 de 15/out, logo após o Jornal Nacional, 45 min, Renata Lo Prete; Flávio Bolsonaro no dia seguinte). O caso [`2026-10-15-sabatina-lula-globo-2turno`](casos/2026-10-15-sabatina-lula-globo-2turno/CASO.json) está aberto **sem mídia**, com o critério dos cortes ([`recortes/SELECAO_DE_CORTES.md`](casos/2026-10-15-sabatina-lula-globo-2turno/recortes/SELECAO_DE_CORTES.md)) e o das considerações da IA ([`consideracoes/CRITERIOS.md`](casos/2026-10-15-sabatina-lula-globo-2turno/consideracoes/CRITERIOS.md)) registrados às 10h. Ferramentas novas, testadas e ensaiadas sobre a íntegra de 27/ago (o ensaio não entrou no git): `sugerir-cortes.py`, `rascunho-de-turnos.py`, limites de corte curto no `derivar-recorte.py` e relatório da peça inteira. **Para retomar:** o autor entrega a gravação e diz de onde veio; siga a skill [`checar-sabatina-completa`](skills/checar-sabatina-completa.md) do passo 0 ao 16.
+
 ---
 
 ## O que está pronto
@@ -24,7 +26,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Validador | ✅ travas da 0.2.0: ano, ressalva, intenção, travessão, cobertura, `citacao_card`, arredondamento, capturas, plano; na 0.2.1, aviso para juízo extraído como alegação e para checagem sem revisão registrada |
 | Evidência | ✅ captura de fonte com sha256 e conferência de trecho contra a página (`checagens/CAPTURAS.json`) |
 | Nuvem | ✅ cinco workflows: preparar mídia, capturar fontes, segunda passada, renderizar, sondar vídeos |
-| Testes | ✅ 92 passando, incluindo regressão sobre os três casos reais e os do corte de faixas e da entrada com fade |
+| Testes | ✅ 123 passando, incluindo regressão sobre os três casos reais, o braço de debate e o da sabatina inteira (cortes curtos, sugestão sem veredito, relatório da peça) |
 | CI | ✅ `.github/workflows/validar.yml`: lint, testes, validador de todos os casos, plano de overlay sem diferença, links |
 
 ### Caso 1 · `casos/2026-08-27-sabatina-lula-globo`
@@ -72,6 +74,8 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 
 ## ⬜ O que falta, em ordem de valor
 
+0. 🔴 **A sabatina de Lula do 2º turno (15/out), quando a gravação chegar:** skill [`checar-sabatina-completa`](skills/checar-sabatina-completa.md). Antes do PASSO 0, o autor entrega o arquivo e diz de onde veio. Cortes renderizados vão para `C:/Users/Gabriel/Videos/youtube/video-longo/video-9/cortes-checados/` (o VIDEO_009 dele).
+   **Decisões que são dele, não da IA:** quais dos 5 a 6 cortes sugeridos entram e em que ordem; se algum trecho "polêmico" entra por `--fixar`; o que fazer quando o congelamento final de um corte passar de ~10 s; se as considerações da IA entram no vídeo.
 1. 🔴 **Revisão adversarial por IA do caso Lula e do trecho do golpe** ([`skills/revisar-checagem.md`](skills/revisar-checagem.md)), registrada com `python ferramentas/registrar-revisao.py <slug> --recorte <id> --ia --notas revisao.json`. Mudança de veredito vai para `CORRECOES.md`. Prioridade: Lula `A007` e `A017`; golpe `A009`, `A013`, `A017`, `A018`.
 2. **Renderizar de novo o vídeo do caso Lula** (quem tem `fonte/sabatina-lula-globo-2026-08-27.mp4`):
    ```bash
@@ -105,6 +109,8 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | O validador cobra ano e número por **aviso**, não por erro: aviso tem que ser lido | `docs/METODOLOGIA.md` §3.1 |
 | Portais que recusam robô (IBGE, portal do STF) ficam sem captura assinada, e isso é registrado | `checagens/CAPTURAS.json` de cada caso |
 | A checagem do G20 usa o conceito de governo geral do FMI | caso Lula, `A007` |
+| 🆕 O **tom de voz não separa Lula** de uma entrevistadora (192 Hz contra 188 Hz de mediana, medido em 15/out); o rascunho de turnos usa o enquadramento, e erra mais na fala de jornalista em plano aberto (71% certa) | `docs/PECA_INTEIRA.md` §4 |
+| 🆕 Corte curto com várias cartelas congela o último quadro (14 s de trecho viraram 34 s de arquivo no ensaio) | `docs/PECA_INTEIRA.md` §2 |
 | 🆕 **17 dos 23 cards** ficam na tela menos que o tempo de ler resumo e ressalva (17 caracteres por segundo); registrado como medida, sem mudança no pipeline | `docs/IDENTIDADE_VISUAL.md` §7.1 |
 
 ---
@@ -143,7 +149,7 @@ Cada linha aqui é um defeito que aconteceu de verdade. Estão listados porque a
 
 ```bash
 cd checagem-eleicoes-2026
-python -m pytest -q                       # 92 testes
+python -m pytest -q                       # 123 testes
 python ferramentas/conferir-links.py      # nenhum link quebrado
 python ferramentas/validar-todos.py       # os três casos, 0 erros
 ```

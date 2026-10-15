@@ -5,6 +5,34 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.5.0] · 15/out/2026
+
+Pedido do autor, no dia da sabatina de Lula na TV Globo do 2º turno (21h15, 45 min, Renata Lo Prete): checar a **sabatina inteira**, guardar as métricas dos dois lados da mesa e gerar só **5 a 6 cortes curtos**, separados, dos trechos mais importantes e com mais fato, por causa de direito autoral no YouTube. Deixar tudo pronto para ele só entregar a gravação.
+
+### Adicionado
+
+- **`docs/PECA_INTEIRA.md`** e a skill **`checar-sabatina-completa`** (com o ponteiro em `.claude/skills/`): a ordem de execução da gravação até os cortes, com prompts dos agentes, tempo esperado e a lista de conferência.
+- **Limites de corte curto** em `config.py` (`CORTE_MAX_S` 30 s, `CORTE_RECOMENDADO_S` 20 s, `CORTES_TOTAL_MAX_S` 150 s, `CORTES_INTERVALO_MIN_S` 60 s), cobrados pelo `derivar-recorte.py`; passar deles só com `--aceito-mais-longo "motivo"`, gravado no corte (`fora_do_limite_de_tamanho` no esquema) e mostrado no relatório.
+- **`ferramentas/sugerir-cortes.py`**: aplica o critério pré-registrado (fato, confronto jornalista x candidato, troca de turno, variedade de assunto, uma alegação checável do candidato por corte) **sem abrir o arquivo de vereditos**, e escreve `recortes/SUGESTAO_DE_CORTES.md` com os comandos prontos; `--fixar` para o trecho que ele quiser por repercussão, com o motivo dele.
+- **`ferramentas/rascunho-de-turnos.py`**: agrupa os enquadramentos do vídeo, desenha a folha dos grupos para rotular, junta plano + texto + VT declarado num rascunho de turnos e desenha a folha dos turnos. Medido no ensaio sobre a sabatina de 27/ago: 96,5% da fala de Lula e 71% da fala dos jornalistas no falante certo. Não escreve o `falantes.json`.
+- `config.recorte_da_peca_inteira()`: `sabatina-completa`, `debate-completo` ou `peca-completa`, conforme o formato do caso; `lotes-de-debate.py` e `derivar-recorte.py` inferem o recorte quando ele não é passado.
+- `novo-caso-debate.py --formato sabatina --entrevistador ... --narracao`.
+- Campos de roteiro nas métricas: `P_ENTREVISTADO_*`, `P_ENTREVISTADOR_*`, `J1_*` (jornalistas) e os percentuais `N_P?` e `C1_P?`.
+- O caso **`casos/2026-10-15-sabatina-lula-globo-2turno/`** aberto antes do evento, com `recortes/SELECAO_DE_CORTES.md` e `consideracoes/CRITERIOS.md` registrados às 10h (a mesma régua vale para a sabatina de Flávio Bolsonaro de 16/out).
+- 11 testes (123 no total).
+
+### Mudado
+
+- `python -m checagem relatorio --recorte <peça inteira>` funciona sem entrada em `RECORTES.json`: diz que a peça foi checada inteira, traz a tabela por falante (das métricas) e a lista de cortes com o motivo de cada um.
+- `consideracoes-do-debate` vale também para sabatina, com a passada espelho no lugar da anonimizada.
+
+### Descoberto no ensaio (e registrado onde mora)
+
+- O tom de voz **não** separa Lula de uma entrevistadora (mediana de 192 Hz contra 188 Hz): `medir-tom.py` não serve de pista neste caso (`docs/PECA_INTEIRA.md` §4).
+- Corte curto e denso congela o último quadro: 14 s de trecho com 3 cartelas viram 34 s de arquivo (`docs/PECA_INTEIRA.md` §2).
+
+---
+
 ## [0.4.0] · 1º/out/2026
 
 Pedido do autor, no dia do debate presidencial da TV Globo: um **novo braço** do projeto para peças longas com vários candidatos, sem substituir o que existe. Validação sobre a peça inteira, vídeo só de alguns cortes, métricas gerais e por candidato, e uma camada separada de considerações da IA.

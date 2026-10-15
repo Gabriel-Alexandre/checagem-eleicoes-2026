@@ -56,7 +56,8 @@ Moram em [`skills/`](skills/) (fonte única) e têm um **espelho** em `.claude/s
 | "revisa as checagens" (sempre antes de fechar) | [`revisar-checagem`](skills/revisar-checagem.md) |
 | "monta o vídeo", "gera o relatório" | [`fechar-caso`](skills/fechar-caso.md) — PASSOS 6 a 8 |
 | 🆕 "chegou o debate", "checa o debate inteiro" | [`checar-debate`](skills/checar-debate.md): lotes em paralelo, junção, revisão em pares, métricas. Operação em [`docs/DEBATES.md`](docs/DEBATES.md) |
-| 🆕 "as considerações da IA sobre o debate" | [`consideracoes-do-debate`](skills/consideracoes-do-debate.md): camada **separada** da checagem, com critérios registrados antes do evento |
+| 🆕 **"chegou a sabatina", "aqui está a gravação, executa"** (15/out/2026) | [`checar-sabatina-completa`](skills/checar-sabatina-completa.md): a sabatina **inteira**, métricas dos dois lados da mesa, relatório da peça e **5 a 6 cortes curtos** (até 30 s cada, critério registrado antes do evento). Operação em [`docs/PECA_INTEIRA.md`](docs/PECA_INTEIRA.md). Caso de hoje já aberto: `casos/2026-10-15-sabatina-lula-globo-2turno` |
+| 🆕 "as considerações da IA sobre o debate" (ou sobre a sabatina) | [`consideracoes-do-debate`](skills/consideracoes-do-debate.md): camada **separada** da checagem, com critérios registrados antes do evento |
 
 ⛔ **Não pule da transcrição direto para a checagem.** A extração roda antes, com a internet fechada, e num arquivo separado. Quem já sabe a resposta escolhe as perguntas.
 
@@ -90,8 +91,14 @@ python ferramentas/validar-todos.py                  # o que a CI roda: todos os
 # 🆕 braço de debate (peça longa, vários candidatos): docs/DEBATES.md
 python ferramentas/novo-caso-debate.py <slug> --titulo ... --data ... --veiculo ... --mediador ... --candidato "Nome (PARTIDO)"
 python ferramentas/lotes-de-debate.py extracao-dividir|extracao-juntar|checagem-dividir|checagem-juntar|status <slug>
-python ferramentas/derivar-recorte.py <slug> --de debate-completo --para corte-01 --inicio S --fim S
+python ferramentas/derivar-recorte.py <slug> --para corte-01 --inicio S --fim S   # --de inferido do formato; corte curto (config.CORTE_MAX_S)
 python -m checagem metricas <slug> --recorte debate-completo   # geral, por falante e por assunto, com denominador
+
+# 🆕 sabatina inteira com cortes curtos (15/out/2026): docs/PECA_INTEIRA.md
+python ferramentas/novo-caso-debate.py <slug> --formato sabatina --entrevistador "Nome" --candidato "Nome (PARTIDO)" --narracao ...
+python ferramentas/rascunho-de-turnos.py planos|turnos <slug> ...   # rascunho de turnos por enquadramento, com folha para conferir
+python ferramentas/sugerir-cortes.py <slug>                         # cortes pelo critério pré-registrado, sem ler veredito
+python -m checagem relatorio <slug> --recorte sabatina-completa     # relatório da peça inteira, com métricas e cortes
 ```
 
 🌐 **Sem rede para o YouTube, o Hugging Face ou os portais?** Os passos mecânicos rodam num runner do GitHub a partir de arquivos de pedido: [`docs/NUVEM.md`](docs/NUVEM.md).

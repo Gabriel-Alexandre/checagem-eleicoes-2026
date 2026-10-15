@@ -14,10 +14,14 @@ cortar o trabalho em **lotes independentes** e juntar depois, com as travas do p
     5. status             o que já voltou e o que falta
 
     python ferramentas/lotes-de-debate.py extracao-dividir <slug> [--minutos 8] [--contexto-s 45]
-    python ferramentas/lotes-de-debate.py extracao-juntar  <slug> --recorte debate-completo
-    python ferramentas/lotes-de-debate.py checagem-dividir <slug> --recorte debate-completo [--tamanho 10]
-    python ferramentas/lotes-de-debate.py checagem-juntar  <slug> --recorte debate-completo
-    python ferramentas/lotes-de-debate.py status           <slug> --recorte debate-completo
+    python ferramentas/lotes-de-debate.py extracao-juntar  <slug> [--recorte debate-completo]
+    python ferramentas/lotes-de-debate.py checagem-dividir <slug> [--recorte debate-completo] [--tamanho 10]
+    python ferramentas/lotes-de-debate.py checagem-juntar  <slug> [--recorte debate-completo]
+    python ferramentas/lotes-de-debate.py status           <slug> [--recorte debate-completo]
+
+Sem `--recorte`, o nome sai do formato do caso (config.recorte_da_peca_inteira): `debate-completo`
+num debate, `sabatina-completa` numa sabatina, `peca-completa` no resto. Vale para qualquer peça
+longa checada inteira, não só debate (docs/PECA_INTEIRA.md).
 
 🔴 O que este script NÃO faz: julgar. Ele corta, junta e confere contagem. Quem extrai e checa é
 um agente seguindo as skills, e a revisão adversarial (skills/revisar-checagem.md) roda DEPOIS da
@@ -87,8 +91,8 @@ LOTE {n:02d} de {total:02d} · janela a EXTRAIR: {ini} a {fim} ({ini_s:.1f} s a 
 ⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
 ⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
    de contexto, e NÃO viram alegação.
-⛔ Mesma régua para todos os falantes: candidato, mediador, e a pergunta que um candidato faz ao outro
-   (ela afirma fato e entra). Nada de pular quem "fala difícil".
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
 
 Saída: {saida}
   · ids locais A001, A002... na ordem da fala (o script renumera depois)
@@ -366,12 +370,14 @@ def main() -> int:
     for nome in ("extracao-juntar", "checagem-juntar", "status"):
         s = sub.add_parser(nome)
         s.add_argument("slug")
-        s.add_argument("--recorte", default="debate-completo")
+        s.add_argument("--recorte", default=None, help="padrão: o recorte da peça inteira do formato do caso")
     c = sub.add_parser("checagem-dividir")
     c.add_argument("slug")
-    c.add_argument("--recorte", default="debate-completo")
+    c.add_argument("--recorte", default=None, help="padrão: o recorte da peça inteira do formato do caso")
     c.add_argument("--tamanho", type=int, default=10)
     args = p.parse_args()
+    if getattr(args, "recorte", "x") is None:
+        args.recorte = cfg.recorte_da_peca_inteira_do_caso(args.slug)
     if args.cmd == "extracao-dividir":
         dividir_extracao(args.slug, args.minutos, args.contexto_s)
     elif args.cmd == "extracao-juntar":

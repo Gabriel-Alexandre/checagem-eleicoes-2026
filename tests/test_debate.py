@@ -348,7 +348,8 @@ def test_derivar_recorte_herda_as_checagens_com_os_mesmos_ids(caso, monkeypatch)
         {"caso": slug, "gerado_em": "2026-10-01", "fonte_alegacoes": "x",
          "checagens": [_checagem(a["id"]) for a in alegs]}), encoding="utf-8")
     # um trecho que contém exatamente as alegações da rodada 1 (t = 280 a 560)
-    assert _derivar(monkeypatch, slug, "--para", "corte-01", "--inicio", "280", "--fim", "560") == 0
+    assert _derivar(monkeypatch, slug, "--para", "corte-01", "--inicio", "280", "--fim", "560",
+                    "--aceito-mais-longo", "teste do braço de debate, sem limite de corte curto") == 0
     a = json.loads((pasta / "alegacoes" / "alegacoes-corte-01.json").read_text(encoding="utf-8"))
     c = json.loads((pasta / "checagens" / "checagens-corte-01.json").read_text(encoding="utf-8"))
     assert a["recorte"] == "corte-01" and a["cobertura"] == {"inicio_s": 280.0, "fim_s": 560.0}
