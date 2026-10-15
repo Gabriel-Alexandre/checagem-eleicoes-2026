@@ -18,7 +18,7 @@ Pedido do autor, no dia da sabatina de Lula na TV Globo do 2º turno (21h15, 45 
 - `config.recorte_da_peca_inteira()`: `sabatina-completa`, `debate-completo` ou `peca-completa`, conforme o formato do caso; `lotes-de-debate.py` e `derivar-recorte.py` inferem o recorte quando ele não é passado.
 - `novo-caso-debate.py --formato sabatina --entrevistador ... --narracao`.
 - Campos de roteiro nas métricas: `P_ENTREVISTADO_*`, `P_ENTREVISTADOR_*`, `J1_*` (jornalistas) e os percentuais `N_P?` e `C1_P?`.
-- O caso **`casos/2026-10-15-sabatina-lula-globo-2turno/`** aberto antes do evento, com `recortes/SELECAO_DE_CORTES.md` e `consideracoes/CRITERIOS.md` registrados às 10h (a mesma régua vale para a sabatina de Flávio Bolsonaro de 16/out). Commits `37cdb3f` (10h07) e `5812ef4` (10h08, o ajuste para 15 s). 🔧 Às 11h, ainda antes do evento, o `SELECAO_DE_CORTES.md` teve corrigido o horário do ajuste, que estava escrito como 10h40; o critério não mudou.
+- O caso **`casos/2026-10-15-sabatina-lula-globo-2turno/`** aberto antes do evento, com `recortes/SELECAO_DE_CORTES.md` e `consideracoes/CRITERIOS.md` registrados às 10h (a mesma régua vale para a sabatina de Flávio Bolsonaro de 16/out). Commits `37cdb3f` (10h07) e `5812ef4` (10h08, o ajuste para 15 s). 🔧 Às 10h56 (`5fad751`), ainda antes do evento, o `SELECAO_DE_CORTES.md` teve corrigido o horário do ajuste, que estava escrito como 10h40; o critério não mudou.
 - 11 testes (123 no total).
 
 ### Mudado

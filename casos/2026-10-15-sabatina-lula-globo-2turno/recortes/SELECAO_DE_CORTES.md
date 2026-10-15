@@ -14,7 +14,7 @@ Operação: [`docs/PECA_INTEIRA.md`](../../../docs/PECA_INTEIRA.md) §2 e §3. Q
 
 Roda **depois da extração (PASSO 4) e antes da checagem (PASSO 5)**. Usa só o que existe nesse momento: a transcrição com falantes e a lista de alegações, sem veredito.
 
-1. **Candidatas.** Toda janela que começa e termina em borda de segmento da transcrição, dura de **8 a 15 s** (até 30 s se não couberem cinco cortes; ajustado às 10h08, um minuto depois do commit original e ainda antes do evento (o horário estava escrito como 10h40, corrigido às 11h pelo `git log`), para a régua de telejornal do canal: ~10 s por trecho), **contém cada alegação inteira** (nenhuma frase cortada na borda) e tem **pelo menos uma alegação checável do candidato**.
+1. **Candidatas.** Toda janela que começa e termina em borda de segmento da transcrição, dura de **8 a 15 s** (até 30 s se não couberem cinco cortes; ajustado às 10h08, um minuto depois do commit original e ainda antes do evento (o horário estava escrito como 10h40, corrigido pelo `git log` no commit `5fad751`, às 10h56), para a régua de telejornal do canal: ~10 s por trecho), **contém cada alegação inteira** (nenhuma frase cortada na borda) e tem **pelo menos uma alegação checável do candidato**.
 2. **Pontos de cada janela** (sem veredito, sem tom, sem intenção):
    - **fato:** cada alegação checável vale 1,0 se for dado duro (número, série, valor, comparação, ranking) e 0,8 se for evento, norma, data ou atribuição; opinião, promessa e previsão valem 0;
    - **confronto:** +1,0 quando a jornalista afirma fato e o candidato responde com fato na mesma janela; +0,5 a mais se for o mesmo assunto;
