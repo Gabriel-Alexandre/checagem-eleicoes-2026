@@ -56,7 +56,7 @@ Moram em [`skills/`](skills/) (fonte única) e têm um **espelho** em `.claude/s
 | "revisa as checagens" (sempre antes de fechar) | [`revisar-checagem`](skills/revisar-checagem.md) |
 | "monta o vídeo", "gera o relatório" | [`fechar-caso`](skills/fechar-caso.md) — PASSOS 6 a 8 |
 | 🆕 "chegou o debate", "checa o debate inteiro" | [`checar-debate`](skills/checar-debate.md): lotes em paralelo, junção, revisão em pares, métricas. Operação em [`docs/DEBATES.md`](docs/DEBATES.md) |
-| 🆕 **"chegou a sabatina", "aqui está a gravação, executa"** (15/out/2026) | [`checar-sabatina-completa`](skills/checar-sabatina-completa.md): a sabatina **inteira**, métricas dos dois lados da mesa, relatório da peça e **5 a 6 cortes curtos** (até 30 s cada, critério registrado antes do evento). Operação em [`docs/PECA_INTEIRA.md`](docs/PECA_INTEIRA.md). Caso de hoje já aberto: `casos/2026-10-15-sabatina-lula-globo-2turno` |
+| 🆕 **"chegou a sabatina", "aqui está a gravação, executa"** (15/out/2026) | [`checar-sabatina-completa`](skills/checar-sabatina-completa.md): a sabatina **inteira**, métricas dos dois lados da mesa, relatório da peça e **5 a 6 cortes curtos** (15 s recomendados, 30 s no máximo, critério registrado antes do evento). Operação em [`docs/PECA_INTEIRA.md`](docs/PECA_INTEIRA.md). Caso de hoje já aberto: `casos/2026-10-15-sabatina-lula-globo-2turno` |
 | 🆕 "as considerações da IA sobre o debate" (ou sobre a sabatina) | [`consideracoes-do-debate`](skills/consideracoes-do-debate.md): camada **separada** da checagem, com critérios registrados antes do evento |
 
 ⛔ **Não pule da transcrição direto para a checagem.** A extração roda antes, com a internet fechada, e num arquivo separado. Quem já sabe a resposta escolhe as perguntas.

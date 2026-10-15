@@ -63,10 +63,12 @@ def recorte_da_peca_inteira_do_caso(slug: str) -> str:
 # curtos. Não pode ser trecho de, por exemplo, um minuto"*, *"pelo menos uns 5, 6 trechos
 # diferentes. Não de continuidade"*. Os números são o teto da IMAGEM DA EMISSORA no corte (o
 # trecho da peça), não do vídeo dele. ⚠️ Não é parecer jurídico: Lei 9.610/98, art. 46, III permite
-# citar "na medida justificada para o fim a atingir", e o tamanho é o que mais pesa.
+# citar "na medida justificada para o fim a atingir", e o tamanho é o que mais pesa. A régua do
+# canal dele para telejornal (skill `trechos-de-terceiros-no-video` do LOW_TICKET_1) é "até ~10 s
+# por trecho", dentro da moldura: os 15 s recomendados cabem uma pergunta curta e a resposta.
 CORTE_MAX_S = 30.0            # acima disto o derivar-recorte recusa
-CORTE_RECOMENDADO_S = 20.0    # acima disto avisa
-CORTES_TOTAL_MAX_S = 150.0    # soma de todos os cortes de uma peça (6 x 25 s)
+CORTE_RECOMENDADO_S = 15.0    # acima disto avisa
+CORTES_TOTAL_MAX_S = 120.0    # soma de todos os cortes de uma peça (6 x 20 s)
 CORTES_INTERVALO_MIN_S = 60.0  # distância mínima entre dois cortes: "não de continuidade"
 CORTES_QUANTIDADE = (5, 6)    # o que ele pediu
 

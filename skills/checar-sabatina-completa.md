@@ -15,7 +15,7 @@ Frase que dispara: *"chegou a sabatina"*, *"aqui está a gravação, executa"*, 
 2. ⛔ **Extração de internet fechada, em todos os lotes**, antes de qualquer checagem. Agente de extração que pesquisou: o lote se refaz.
 3. ⛔ **Os cortes são sugeridos e commitados ANTES do primeiro veredito** (`sugerir-cortes.py`, que não abre `checagens/`). O horário do commit é a prova.
 4. ⛔ **Nenhuma alegação é descartada para o vídeo ficar mais bonito**: o que não vira corte continua na checagem, nas métricas e no relatório.
-5. ⛔ **Corte curto**: até 30 s cada, 150 s somados, 60 s entre um e outro (`config.py`). Mais que isso só com o motivo dele.
+5. ⛔ **Corte curto**: 15 s recomendados, 30 s no máximo, 120 s somados, 60 s entre um e outro (`config.py`). Mais que isso só com o motivo dele.
 6. ⛔ **"Mentiu", "mentira", ranking e placar não entram em arquivo nenhum.** Ele fala "mentira" no pedido; o repositório escreve `FALSO` e explica a diferença (`METODOLOGIA.md` §8).
 7. ⛔ **Commit e push**: só com a confirmação dele no chat. O pedido de 15/out já autoriza commit e push ao fim desta execução.
 
@@ -31,7 +31,7 @@ Frase que dispara: *"chegou a sabatina"*, *"aqui está a gravação, executa"*, 
 | 5 | Lotes de extração | script | `python ferramentas/lotes-de-debate.py extracao-dividir <slug> --minutos 8` (6 lotes para 45 min) | 1 min |
 | 6 | **Extração, um agente por lote, em paralelo** | agentes | prompt abaixo | 15 min |
 | 7 | Junção | script | `extracao-juntar <slug>`. Se recusar, o conserto é no lote, nunca no script. Ler as `exclusoes`: a jornalista e o candidato com motivos parecidos | 5 min |
-| 8 | **Sugestão de cortes, e commit** | script + a IA | `python ferramentas/sugerir-cortes.py <slug>`; ler o `SUGESTAO_DE_CORTES.md`; se vierem menos de 5, `--max 25` ou `--min 6`; **commit** de alegações + sugestão antes da etapa 9 | 5 min |
+| 8 | **Sugestão de cortes, e commit** | script + a IA | `python ferramentas/sugerir-cortes.py <slug>`; ler o `SUGESTAO_DE_CORTES.md`; se vierem menos de 5, `--max 20` (até 30) ou `--min 6`; **commit** de alegações + sugestão antes da etapa 9 | 5 min |
 | 9 | Lotes de checagem | script | `checagem-dividir <slug> --tamanho 10` | 1 min |
 | 10 | **Checagem, um agente por pedido, em paralelo** | agentes | prompt abaixo; cada agente devolve também as URLs que usou | 40 a 60 min |
 | 11 | Junção e fontes | script | `checagem-juntar`; montar `checagens/PEDIDO_CAPTURA.json` com todas as URLs; `capturar-fontes.py`; `conferir-trechos.py --recorte sabatina-completa --capturas capturas/<slug>`; trecho não encontrado volta para o agente daquela alegação | 15 min |
@@ -90,6 +90,6 @@ ferramentas/registrar-revisao.py --ia.
 - [ ] `metricas` rodada **depois** da revisão; os dois lados da mesa no `METRICAS_*.md`
 - [ ] `RELATORIO_SABATINA_COMPLETA.md` gerado, com a seção por falante e a lista de cortes
 - [ ] cada corte: `validar --recorte corte-NN` aprovado, 2 quadros olhados, congelamento anotado
-- [ ] soma dos cortes ≤ 150 s; nenhum corte colado no outro
+- [ ] soma dos cortes ≤ 120 s; nenhum corte colado no outro
 - [ ] ⛔ nenhuma frase de "mentiu", ranking por falsidade ou recomendação de voto em arquivo do repositório
 - [ ] `ESTADO.md` diz onde parou e o que é decisão dele

@@ -14,13 +14,13 @@ Operação: [`docs/PECA_INTEIRA.md`](../../../docs/PECA_INTEIRA.md) §2 e §3. Q
 
 Roda **depois da extração (PASSO 4) e antes da checagem (PASSO 5)**. Usa só o que existe nesse momento: a transcrição com falantes e a lista de alegações, sem veredito.
 
-1. **Candidatas.** Toda janela que começa e termina em borda de segmento da transcrição, dura de **8 a 20 s** (até 30 s se não couberem cinco cortes), **contém cada alegação inteira** (nenhuma frase cortada na borda) e tem **pelo menos uma alegação checável do candidato**.
+1. **Candidatas.** Toda janela que começa e termina em borda de segmento da transcrição, dura de **8 a 15 s** (até 30 s se não couberem cinco cortes; ajustado às 10h40, ainda antes do evento, para a régua de telejornal do canal: ~10 s por trecho), **contém cada alegação inteira** (nenhuma frase cortada na borda) e tem **pelo menos uma alegação checável do candidato**.
 2. **Pontos de cada janela** (sem veredito, sem tom, sem intenção):
    - **fato:** cada alegação checável vale 1,0 se for dado duro (número, série, valor, comparação, ranking) e 0,8 se for evento, norma, data ou atribuição; opinião, promessa e previsão valem 0;
    - **confronto:** +1,0 quando a jornalista afirma fato e o candidato responde com fato na mesma janela; +0,5 a mais se for o mesmo assunto;
    - **troca de turno:** +0,4 por virada entre jornalista e candidato, até 3 (o "momento quente" observável);
    - desempate: alegações checáveis por segundo, depois a que vem primeiro.
-3. **Escolha:** a de mais pontos primeiro, até **6 cortes**, com **60 s** entre um e outro, **150 s** somados, e **um assunto por corte** antes de repetir assunto.
+3. **Escolha:** a de mais pontos primeiro, até **6 cortes**, com **60 s** entre um e outro, **120 s** somados, e **um assunto por corte** antes de repetir assunto.
 4. **Polêmico por repercussão** (o trecho que a imprensa destacou na noite, o que ele achou mais importante): entra só por `--fixar INICIO-FIM "motivo"`, com o motivo dele escrito, e o relatório mostra que veio de fora do critério.
 
 ## O que NÃO entra no critério

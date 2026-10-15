@@ -19,8 +19,8 @@ trecho vem dos critérios declarados ANTES dos vereditos (docs/DEBATES.md §5), 
 recorte diz qual foi.
 
 🔴 Tamanho (decisão dele, 15/out/2026, por direito autoral): o trecho da emissora num corte tem no
-máximo `config.CORTE_MAX_S` (30 s), aviso acima de `CORTE_RECOMENDADO_S` (20 s), e a soma de todos
-os cortes da peça no máximo `CORTES_TOTAL_MAX_S` (150 s), com `CORTES_INTERVALO_MIN_S` (60 s) entre
+máximo `config.CORTE_MAX_S` (30 s), aviso acima de `CORTE_RECOMENDADO_S` (15 s), e a soma de todos
+os cortes da peça no máximo `CORTES_TOTAL_MAX_S` (120 s), com `CORTES_INTERVALO_MIN_S` (60 s) entre
 um corte e outro ("não de continuidade"). Passar disso só com `--aceito-mais-longo "motivo"`, que
 fica gravado no arquivo do corte e aparece no relatório.
 """

@@ -27,14 +27,16 @@ Decisão dele, 15/out: os cortes vão para o YouTube e **não podem** ser trecho
 
 | Regra | Valor | Onde trava |
 |---|---|---|
-| trecho da emissora num corte | **até 30 s** (recusa acima), **20 s recomendado** (avisa acima) | `CORTE_MAX_S`, `CORTE_RECOMENDADO_S` |
-| soma dos cortes da peça | **até 150 s** (cerca de 5% de 45 min) | `CORTES_TOTAL_MAX_S` |
+| trecho da emissora num corte | **até 30 s** (recusa acima), **15 s recomendado** (avisa acima) | `CORTE_MAX_S`, `CORTE_RECOMENDADO_S` |
+| soma dos cortes da peça | **até 120 s** (menos de 5% de 45 min) | `CORTES_TOTAL_MAX_S` |
 | distância entre dois cortes | **pelo menos 60 s**: um corte não é continuação do outro | `CORTES_INTERVALO_MIN_S` |
 | quantos | **5 a 6** | `CORTES_QUANTIDADE` |
 
 Passar de qualquer limite só com `--aceito-mais-longo "motivo"`; o motivo fica gravado no arquivo do corte e aparece no relatório.
 
-⚠️ **O quadro congelado.** Num corte curto e denso, as cartelas fazem fila e o último quadro congela até a última ser lida. Medido no ensaio de 15/out: **14 s de trecho com 3 cartelas viram 34 s de arquivo** (20 s de quadro parado, sem som). O áudio da emissora continua sendo só o trecho. Se o congelamento passar de ~10 s, há duas saídas, e as duas são dele: um corte com menos alegações, ou o editor de longos mostrar as cartelas sobre a narração dele em vez do quadro congelado.
+🔑 **A régua do canal para telejornal** (skill `trechos-de-terceiros-no-video` do repositório do canal, `LOW_TICKET_1`): *até ~10 s por trecho*, **dentro da moldura** (o retângulo 3D do editor de longos, nunca em tela cheia), cada trecho seguido do comentário dele, crédito da emissora na tela e na descrição. Os 15 s daqui cabem uma pergunta curta e a resposta; o que passar de ~10 s pede o comentário dele logo em seguida.
+
+⚠️ **O quadro congelado.** Num corte curto e denso, as cartelas fazem fila e o último quadro congela até a última ser lida. Medido no ensaio de 15/out: **14 s de trecho com 3 cartelas viram 34 s de arquivo** (20 s de quadro parado, sem som). O áudio da emissora continua sendo só o trecho. Se o congelamento passar de ~10 s, há duas saídas, e as duas são dele: um corte com menos alegações, ou o editor de longos mostrar as cartelas (que são arte do projeto, não da emissora) sobre a narração dele em vez do quadro congelado da emissora.
 
 ⚠️ **Não é parecer jurídico.** A Lei 9.610/98, art. 46, III permite a citação "na medida justificada para o fim a atingir", com indicação de autor e origem; trecho curto, crédito da emissora na tela e na descrição e a análise por cima são o que pesa a favor. O Content ID do YouTube é automático e não lê a lei: um corte pode ser reivindicado mesmo assim, e a contestação é dele.
 
