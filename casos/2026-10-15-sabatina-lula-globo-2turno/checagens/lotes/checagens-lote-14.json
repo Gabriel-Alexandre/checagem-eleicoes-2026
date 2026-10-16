@@ -200,17 +200,44 @@
     },
     {
       "id": "A174",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "A espera por especialista é problema reconhecido, mas nenhuma pesquisa achada a põe como a principal queixa",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A afirmação é um ranking: a espera seria a principal queixa dos usuários do SUS. Isso se confere com pesquisa de opinião que liste as queixas (Datafolha/CFM, CNI ou IBGE). Nesta rodada não foi capturada nenhuma pesquisa de 2025 ou 2026 com essa lista; a busca foi interrompida pelo limite de buscas da sessão, então ela não é exaustiva. As fontes capturadas confirmam que a espera por consultas, exames e cirurgias especializadas é problema central reconhecido pelo Ministério da Saúde e por sanitaristas, mas nenhuma a coloca em primeiro lugar entre as queixas. Não é FALSO porque nada contradiz o ranking; é INSUSTENTAVEL porque o primeiro lugar não foi sustentado.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pesquisas do Datafolha e do Ipec põem a espera por consulta, exame e cirurgia no topo das queixas sobre o SUS",
+      "explicacao": "A pergunta afirma um ranking: a principal queixa sobre o SUS seria o tempo de espera por consultas especializadas, exames e cirurgias eletivas. A mesma régua das falas do candidato vale aqui. Foram achadas duas pesquisas independentes. A pesquisa CFM/Datafolha, com campo de 9 a 16 de maio de 2018 e 2.087 entrevistas, aponta médicos especialistas como o item de maior dificuldade de acesso (74%), seguido de cirurgias (68%), e o tempo de espera como a principal razão do mau atendimento (24%, à frente da falta de recursos, com 15%); a Agência Brasil, reproduzida pelo Mais Goiás, registra que a espera é o maior gargalo para 82% dos que buscam consulta. A pesquisa do Ipec relatada pelo Diario de Pernambuco em março de 2024 aponta a demora para conseguir consulta, exame ou cirurgia como o principal problema de saúde do país. As duas confirmam o primeiro lugar da espera e o recorte da pergunta (especialista, exame, cirurgia). Ressalva: a busca desta rodada procurou pesquisa de 2025 ou 2026 com lista de queixas (Datafolha, CFM, Ipec, CNI, IBGE) e não achou; o Datafolha de março de 2026 já capturado no caso mede a área mais problemática, não as queixas. O relatório original do Ipec não foi achado, só a reportagem. Por isso confiança media, e VERDADEIRO porque nenhuma fonte contradiz o ranking e as duas que o medem o confirmam.",
       "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": null,
-      "ressalva": null,
-      "confianca": "baixa",
+      "numero_apurado": "espera como principal razão do mau atendimento (24%) e especialista como acesso mais difícil (74%), CFM/Datafolha; demora como principal problema, Ipec",
+      "data_de_referencia": "pesquisa CFM/Datafolha de maio de 2018 e pesquisa Ipec divulgada em março de 2024; nenhuma de 2025 ou 2026 achada",
+      "ressalva": "As pesquisas achadas são de 2018 e de 2024; não foi achada pesquisa mais recente com a lista de queixas",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Conselho Federal de Medicina (pesquisa CFM/Datafolha)",
+          "titulo": "PESQUISA DATAFOLHA: Estudo revela dificuldade no acesso a serviços na rede pública de saúde",
+          "url": "https://portal.cfm.org.br/noticias/pesquisa-datafolhaestudo-revela-dificuldade-no-acesso-a-servicos-na-rede-publica-de-saude/",
+          "consultada_em": "2026-10-16",
+          "trecho": "28/06/2018 | 18:38 A pesquisa CFM/Datafolha revelou os itens que, no entendimento dos brasileiros, apresentam maior dificuldade de acesso no âmbito do SUS. São eles: médicos especialistas (74%); cirurgias (68%) [...] como o tempo de espera para ter uma resposta do SUS para uma demanda encaminhada. Essa é a visão de 24% dos entrevistados, que na pesquisa apontaram – de forma estimulada – a principal razão para o mau atendimento.",
+          "prova": "Pesquisa nacional que põe a espera em primeiro lugar entre as razões do mau atendimento e o especialista como acesso mais difícil."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (pesquisa Ipec)",
+          "titulo": "Doentes e aflitos, pacientes do SUS sofrem em filas para marcar exames",
+          "url": "https://www.diariodepernambuco.com.br/noticia/vidaurbana/2024/03/doentes-e-aflitos-pacientes-precisam-aguardar-longos-prazos-para-real.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado: 18/03/2024 às 05:30 [...] Uma pesquisa desenvolvida pelo Inteligência em Pesquisa e Consultoria Estratégica (Ipec), com base na opinião de pacientes, mostra que a demora para conseguir consulta, exame ou cirurgia no Sistema Único de Saúde (SUS) é o principal problema de saúde no país.",
+          "prova": "Segunda pesquisa, de outro instituto e mais recente, com a demora como principal problema."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Mais Goiás (Agência Brasil)",
+          "titulo": "Quase 90% dos brasileiros consideram saúde péssima, ruim ou regular",
+          "url": "https://www.maisgoias.com.br/brasil/quase-90-dos-brasileiros-consideram-saude-pessima-ruim-ou-regular/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado em: 26/06/2018 15:52 [...] O tempo de espera é o fator com avaliação mais negativa do SUS – o item é apontado como maior gargalo na rede pública para 82% dos entrevistados que buscam consulta, 80% dos que precisam de um exame de imagem e para 79% dos que aguardam cirurgia.",
+          "prova": "Detalha, da mesma pesquisa CFM/Datafolha, a espera como maior gargalo em consulta, exame e cirurgia; não é fonte independente dela."
+        },
         {
           "nivel": "N1",
           "instituicao": "Ministério da Saúde",
@@ -219,26 +246,9 @@
           "consultada_em": "2026-10-16",
           "trecho": "A proposta integra as ações do Programa Agora Tem Especialistas com foco na redução do tempo de espera por atendimento especializado e aumento da resolutividade dos serviços de saúde",
           "prova": "O governo reconhece a espera como problema a enfrentar, mas o texto não é pesquisa de queixas."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Futuro da Saúde",
-          "titulo": "Ritmo de cirurgias do Agora Tem Especialistas caiu em 2025, aponta TCU",
-          "url": "https://futurodasaude.com.br/?p=47964",
-          "consultada_em": "2026-10-16",
-          "trecho": "É verdade que os transplantes são um problema, do ponto de vista numérico, menor do que consultas de especialidades, mas precisamos ter uma fila única como os transplantes. [...] Especialidades é um problema de mais de 30 anos que vem se acumulando.",
-          "prova": "Sanitaristas tratam a fila de especialidades como problema antigo e grande, sem ranking de queixas."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Outras Palavras (Outra Saúde)",
-          "titulo": "Agora Tem Especialistas avança, mas não supera gargalos",
-          "url": "https://outraspalavras.net/outrasaude/agora-tem-especialistas-avanca-mas-nao-supera-gargalos/",
-          "consultada_em": "2026-10-16",
-          "trecho": "O programa é correto, um choque de oferta de procedimentos especializados diante de uma calamidade, milhões de pessoas na fila.",
-          "prova": "A dimensão da fila, sem pesquisa que a ponha como principal queixa."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A175",
@@ -404,16 +414,28 @@
     },
     {
       "id": "A178",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Governo registrou o auge do Mais Médicos em 18.240 médicos, em 2015; falta uma segunda fonte independente",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A fala diz que o programa chegou a ter 20 e poucos mil médicos, o que se refere ao auge, antes de 2023. Nesta segunda rodada foi achada a fonte oficial: a exposição de motivos da MP 1.165, de março de 2023, assinada pelos ministérios da Saúde, da Educação e da Fazenda, diz que o Mais Médicos, no seu auge, em 2015, contava com 18.240 profissionais. O parecer da comissão mista do Congresso repete o mesmo número, mas resumindo a própria exposição de motivos, então as duas contam como uma fonte. Se uma segunda fonte independente confirmar o auge de 18.240, a fala tende a IMPRECISO: 20 mil já fica perto de 10% acima, e 20 e poucos mil passa disso. A busca por essa segunda fonte foi interrompida pelo limite de buscas, então não é exaustiva.",
+      "veredito": "IMPRECISO",
+      "resumo": "O auge do Mais Médicos foi de 18.240 médicos, em 2015, abaixo dos 20 e poucos mil citados",
+      "explicacao": "A fala diz que o programa chegou a ter 20 e poucos mil médicos, o que se refere ao auge, antes de 2023. Três fontes dão o mesmo número: a exposição de motivos da MP 1.165, de março de 2023 (Saúde, Educação e Fazenda), diz que o Mais Médicos, no auge, em 2015, contava com 18.240 profissionais; a Agência Brasil, em reportagem própria de 30/12/2015, registra que naquele momento 18.240 profissionais clinicavam pelo programa; e o Conass reproduz o anúncio do Ministério da Saúde de maio de 2015, com 18.240 médicos em 4.058 municípios. A expansão de 2015 integrou os municípios que já tinham vagas do Provab, outro programa de provimento, então o auge de 18.240 não deixa de fora uma segunda frente daquele ano. Não foi achado registro do programa acima de 20 mil médicos antes de 2023. Pela régua do IMPRECISO, o desvio passa de 10% para qualquer valor acima de 20.064 (18.240 mais 10%); '20 e poucos mil' é, no mínimo, 20 mil, 9,6% acima, e qualquer leitura de 'e poucos' passa disso. A essência (o programa já foi bem maior do que era em 2023) está certa; o número está acima do registrado. Por isso IMPRECISO, e não FALSO. Confiança media porque o desvio depende de como se lê '20 e poucos'.",
       "numero_dito": "20 e poucos mil médicos",
-      "numero_apurado": "18.240 profissionais no auge, em 2015, segundo a exposição de motivos do governo de março de 2023; falta fonte independente",
+      "numero_apurado": "18.240 médicos no auge, em 2015",
       "data_de_referencia": "2015, auge do programa",
-      "ressalva": null,
-      "confianca": "baixa",
+      "ressalva": "A diferença passa de 10% em qualquer leitura de 20 e poucos mil acima de 20.064",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "20.064",
+          "de": "18.240",
+          "como": "18.240 acrescido de 10%, o limite da régua do IMPRECISO"
+        },
+        {
+          "valor": "9,6%",
+          "de": "20 mil e 18.240",
+          "como": "desvio da leitura mínima da fala, 20 mil, sobre 18.240"
+        }
+      ],
       "fontes": [
         {
           "nivel": "N1",
@@ -425,46 +447,72 @@
           "prova": "O número oficial do auge do Mais Médicos, que é o recorte da fala."
         },
         {
-          "nivel": "N1",
-          "instituicao": "Congresso Nacional (Parecer nº 1/2023-CN, comissão mista da MP 1.165)",
-          "titulo": "Parecer da comissão mista sobre a Medida Provisória nº 1.165, de 2023",
-          "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2284995",
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Em 2015, Mais Médicos ocupa todas as vagas abertas com brasileiros pela 1ª vez",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-12/em-2015-mais-medicos-ocupa-todas-vagas-abertas-com-brasileiros-pela-1a-vez",
           "consultada_em": "2026-10-16",
-          "trecho": "Em 2015, o Projeto Mais Médicos para o Brasil contava com 18.240 médicos atuando em 4.058 municípios e em todos os 34 Distritos Sanitários Especiais Indígenas, em todas as regiões do Brasil. Atualmente, segundo a EMI,",
-          "prova": "Repete o auge de 18.240, mas como resumo da exposição de motivos: não é fonte independente."
+          "trecho": "Publicado em 30/12/2015 - 17:10 [...] Hoje 18.240 profissionais clinicam pelo programa. A porcentagem de cubanos ainda é a maior, são 69% dos bolsistas.",
+          "prova": "Reportagem da época, independente da exposição de motivos de 2023, com o mesmo total no fim de 2015."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Conselho Nacional de Secretários de Saúde (Conass), reprodução do anúncio do Ministério da Saúde",
+          "titulo": "Mais Médicos atende 100% da meta de expansão em 2015",
+          "url": "https://www.conass.org.br/?p=4029",
+          "consultada_em": "2026-10-16",
+          "trecho": "maio 14, 2015 [...] Ao todo, serão 18.240 médicos atuando em 4.058 municípios, cobrindo 72,8% das cidades brasileiras, e 34 Distritos Sanitários Especiais Indígenas (DSEI). [...] A expansão deste ano priorizou os municípios com maior vulnerabilidade social e econômica, além de integrar os que já contavam com vagas do Programa de Valorização do Profissional da Atenção Básica (Provab).",
+          "prova": "O total de 2015 e a integração do Provab, que mostra que o auge não deixa de fora outro programa daquele ano."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A179",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Governo dá 8.613 médicos no Mais Médicos em março de 2023 e 12.843 em dezembro de 2022; as fontes divergem",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O número que resolve é o total de médicos em atividade no programa de provimento quando Lula voltou à presidência. Há dois números do próprio governo que não batem. A exposição de motivos da MP 1.165, de 20 de março de 2023, diz que o Mais Médicos 'registra hoje 8.613 profissionais em atuação' e que os programas federais de provimento estavam no menor número de médicos em atividade desde 2014. Um comunicado do Ministério da Saúde de julho de 2024, reproduzido pelo Medicina S/A e pelo O Imparcial, informa 12.843 profissionais na ativa em dezembro de 2022, compatível com 'apenas 12 mil'. As duas reproduções são do mesmo comunicado e contam como uma fonte, e a página original do governo está fora do ar no período eleitoral. As fontes não dizem se medem o mesmo conjunto de programas, então a divergência fica escrita e não resolvida. Não é FALSO porque o número da fala existe numa delas.",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Ministério da Saúde registrou 12.843 médicos no programa em dezembro de 2022",
+      "explicacao": "O número que resolve é o total de médicos do programa de provimento quando Lula voltou à presidência. Dois comunicados diferentes do Ministério da Saúde dão o mesmo ponto de partida: o de julho de 2024, confirmado pelo ministério à Super Rádio Tupi, diz que em dezembro de 2022 havia 12.843 profissionais na ativa, e traz a ministra dizendo que havia 12 mil médicos quando o governo assumiu; o de dezembro de 2024, publicado pelo ABC do ABC, diz que eram 12,8 mil no final da gestão anterior. 12 mil contra 12.843 é desvio de 6,6%, abaixo da régua de 10%, então VERDADEIRO com ressalva. A divergência que a rodada anterior deixou aberta foi investigada: a exposição de motivos da MP 1.165, de março de 2023, dá 8.613 profissionais em atuação, mas fala do Mais Médicos ('o Programa'), e o mesmo documento trata à parte dos 'programas federais de provimento'. O informe do ministério à Comissão Intergestores Tripartite, de março de 2024, conta os médicos em atividade nos programas de provimento somando Mais Médicos e Médicos pelo Brasil (24.770), número da mesma ordem dos 24.894 que o comunicado de julho de 2024 chama de Mais Médicos. Isso é compatível com a série de 12.843 incluir os dois programas e a de 8.613 só um, mas nenhuma fonte diz isso com todas as letras; por isso a divergência fica escrita e a confiança é media. Não é IMPRECISO porque o número da fala bate com a série que o próprio governo usa para o programa.",
       "numero_dito": "12 mil",
-      "numero_apurado": "12.843 na ativa em dezembro de 2022, em comunicado reproduzido pela imprensa, e 8.613 em atuação no Mais Médicos em março de 2023, na exposição de motivos",
-      "data_de_referencia": "dezembro de 2022 e março de 2023",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "A exposição de motivos da MP 1.165 dá 8.613 profissionais em atuação no Mais Médicos em março de 2023; o comunicado do Ministério da Saúde de 2024 dá 12.843 na ativa em dezembro de 2022. As fontes não dizem se contam o mesmo conjunto de programas.",
+      "numero_apurado": "12.843 médicos na ativa em dezembro de 2022",
+      "data_de_referencia": "dezembro de 2022",
+      "ressalva": "A fala arredonda os 12.843 de dezembro de 2022; só no Mais Médicos, o governo contou 8.613 em março de 2023",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A exposição de motivos da MP 1.165 dá 8.613 profissionais em atuação no Mais Médicos em março de 2023; os comunicados do Ministério da Saúde de 2024 dão 12.843 (ou 12,8 mil) em dezembro de 2022. O informe do ministério à CIT de março de 2024 soma Mais Médicos e Médicos pelo Brasil nos programas de provimento, o que é compatível com a série de 12.843 incluir os dois programas; nenhuma fonte afirma isso diretamente.",
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "6,6%",
+          "de": "12 mil e 12.843",
+          "como": "desvio da fala sobre o número de dezembro de 2022"
+        }
+      ],
       "fontes": [
         {
           "nivel": "N4",
-          "instituicao": "Medicina S/A (reprodução de comunicado do Ministério da Saúde)",
-          "titulo": "Mais Médicos cresce 137% no estado de São Paulo em 18 meses",
-          "url": "https://medicinasa.com.br/mais-medicos-cresce",
+          "instituicao": "Super Rádio Tupi (comunicado confirmado pelo Ministério da Saúde)",
+          "titulo": "Programa 'Mais Médicos' cresce mais de 190% no Rio, em 18 meses",
+          "url": "https://www.tupi.fm/?p=1807942",
           "consultada_em": "2026-10-16",
-          "trecho": "Nacional — Em dezembro de 2022, 12.843 profissionais estavam na ativa. [...] “O Mais Médicos é uma realidade e faz a diferença. Quando assumimos o governo, havia ainda 12 mil médicos.",
-          "prova": "O total de dezembro de 2022, segundo o comunicado do ministério."
+          "trecho": "Publicado em 09/07/24 17:26 [...] As informações foram confirmadas pelo Ministério da Saúde nesta terça-feira (9). [...] Em dezembro de 2022, 12.843 profissionais estavam na ativa. [...] “O Mais Médicos é uma realidade e faz a diferença. Quando assumimos o governo, havia ainda 12 mil médicos.",
+          "prova": "O total de dezembro de 2022 no comunicado de julho de 2024 do ministério."
         },
         {
           "nivel": "N4",
-          "instituicao": "O Imparcial (reprodução de comunicado do Ministério da Saúde)",
-          "titulo": "Em 18 meses, Mais Médicos cresce 58,3% no Maranhão",
-          "url": "https://oimparcial.com.br/noticias/2024/07/em-18-meses-mais-medicos-cresce-583-no-maranhao/",
+          "instituicao": "ABC do ABC (comunicado do Ministério da Saúde)",
+          "titulo": "Mais Médicos cresce 151% em SP entre o fim de 2022 e novembro de 2024",
+          "url": "https://abcdoabc.com.br/mais-medicos-cresce-151-em-sp-entre-o-fim-de-2022-e-novembro-de-2024/",
           "consultada_em": "2026-10-16",
-          "trecho": "Atualmente, 24.894 médicos e médicas atendem em todo o Brasil. São 12.051 profissionais a mais que o registrado em dezembro de 2022.",
-          "prova": "O mesmo comunicado: 24.894 menos 12.051 dá 12.843 em dezembro de 2022."
+          "trecho": "Publicado: 17/12/2024 10:48 [...] Em âmbito nacional, o Mais Médicos teve um crescimento de mais de 100% entre o fim de dezembro de 2022 e novembro de 2024. Eram 12,8 mil no final da gestão anterior e são 26,7 mil atualmente.",
+          "prova": "Outro comunicado do ministério, cinco meses depois, com o mesmo ponto de partida de 12,8 mil."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde, informe à Comissão Intergestores Tripartite (publicado pelo Conass)",
+          "titulo": "Informe CIT: Status do Programa Mais Médicos (março de 2024)",
+          "url": "https://www.conass.org.br/wp-content/uploads/2024/03/4.1-Informe-CIT_PMM_2024.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "DATA: 30 de março de 2024. [...] Informamos que temos 24.770 médicos em atividade nos programas de provimento do Ministério da Saúde. Dados em acordo com o relatório da Casa Civil (4/3/2024): - Programa Mais Médicos: 11.723 CRM Brasil, 8.307 intercambistas e 463 em DSEI, somando 20.493 médicos ativos; - Programa Médicos pelo Brasil: 4.740 médicos em municípios e 42 em DSEI, somando 4.782 médicos ativos. Do total de médicos, mais de 16.340 ingressaram em 2023 e mais de 930 em 2024.",
+          "prova": "Mostra que o ministério conta os programas de provimento somando Mais Médicos e Médicos pelo Brasil."
         },
         {
           "nivel": "N1",
@@ -476,35 +524,50 @@
           "prova": "Fonte oficial do trimestre da posse, com 8.613 só no Mais Médicos, número diferente do comunicado de 2024."
         }
       ],
-      "derivacoes": [
-        {
-          "valor": "12.843",
-          "de": "24.894 menos 12.051",
-          "como": "subtração do total de junho de 2024 pelo acréscimo desde dezembro de 2022"
-        }
-      ]
+      "revisao_ia": null
     },
     {
       "id": "A180",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Em junho de 2024 havia 12.051 médicos a mais que em 2022, e 24,9 mil em maio de 2025; falta o dado de 2026",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A fala diz que o governo já contratou 16 mil médicos no programa de provimento. O comunicado do Ministério reproduzido pela imprensa dá, em junho de 2024, 24.894 médicos em atividade, 12.051 a mais que em dezembro de 2022; o dado mais recente capturado é da Agência Brasil, de maio de 2025: cerca de 24,9 mil médicos atuando, com meta de 28 mil até o fim de 2025. Esse é saldo de médicos em atividade, não total de contratações, que pode ser maior por causa das saídas. Nesta segunda rodada foram abertas as páginas do programa no portal do Ministério da Saúde e as notícias de 2026: nenhuma traz o total de 2026 nem um total de 16 mil contratados, e os balanços estão fora do ar no período eleitoral. Os cerca de 2 mil do Mais Médicos Especialistas são outro componente. Sem o dado da data da fala, não se sustenta nem se derruba.",
+      "veredito": "IMPRECISO",
+      "resumo": "Só em 2023 entraram mais de 16.340 médicos, e outros 6.729 em 2024; as contratações passam de 16 mil",
+      "explicacao": "A fala diz que o governo já contratou 16 mil médicos no programa de provimento. 'Contratar' é entrada de médico, não saldo. O informe do Ministério da Saúde à Comissão Intergestores Tripartite, de março de 2024, diz que, dos médicos então em atividade, mais de 16.340 ingressaram em 2023 e mais de 930 em 2024; o comunicado do ministério de dezembro de 2024 diz que só em 2024 entraram 6.729 novos profissionais. Somando, as entradas de 2023 e 2024 passam de 23.069, sem contar 2025 e 2026, e o número só cresce com o tempo. 16 mil fica pelo menos 30% abaixo disso. Se a fala for lida como saldo de médicos em atividade, o mesmo comunicado dá 12,8 mil no fim de 2022 e 26,7 mil em novembro de 2024, saldo de 13,9 mil, e 16 mil fica 15% acima. Em nenhuma das duas leituras o número fica dentro de 10% do dado com data. O balanço de junho de 2026 do ministério está fora do ar pelo defeso eleitoral, e o total de contratações até a data da fala não foi publicado. A essência (o governo levou milhares de médicos ao programa) está certa e o número não bate; por isso IMPRECISO, e não INSUSTENTAVEL, já que as entradas de 2023 e 2024 estão registradas. Os cerca de 2 mil do Mais Médicos Especialistas são contados à parte.",
       "numero_dito": "16 mil",
-      "numero_apurado": "12.051 médicos a mais em atividade em junho de 2024 do que em dezembro de 2022",
-      "data_de_referencia": "dezembro de 2022 a maio de 2025 (dado de 2026 não localizado)",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "numero_apurado": "mais de 23.069 médicos que entraram no programa em 2023 e 2024",
+      "data_de_referencia": "entradas de 2023 contadas em março de 2024 e entradas de 2024 contadas em novembro de 2024; total até a data da fala não publicado",
+      "ressalva": "Contando o saldo de médicos em atividade, foram de 12,8 mil para 26,7 mil até novembro de 2024",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O comunicado do Ministério da Saúde de dezembro de 2024 dá 26,7 mil médicos em atividade em novembro de 2024; a reportagem da Agência Brasil de maio de 2025 dá cerca de 24,9 mil. As fontes não explicam a diferença, que afeta só a leitura da fala como saldo.",
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "23.069",
+          "de": "16.340 mais 6.729",
+          "como": "soma das entradas registradas de 2023 e de 2024"
+        },
+        {
+          "valor": "13,9 mil",
+          "de": "26,7 mil menos 12,8 mil",
+          "como": "saldo de médicos em atividade entre dezembro de 2022 e novembro de 2024"
+        }
+      ],
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "Medicina S/A (reprodução de comunicado do Ministério da Saúde)",
-          "titulo": "Mais Médicos cresce 137% no estado de São Paulo em 18 meses",
-          "url": "https://medicinasa.com.br/mais-medicos-cresce",
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde, informe à Comissão Intergestores Tripartite (publicado pelo Conass)",
+          "titulo": "Informe CIT: Status do Programa Mais Médicos (março de 2024)",
+          "url": "https://www.conass.org.br/wp-content/uploads/2024/03/4.1-Informe-CIT_PMM_2024.pdf",
           "consultada_em": "2026-10-16",
-          "trecho": "Atualmente, 24.894 médicos e médicas atendem em todo o Brasil. São 12.051 profissionais a mais que o registrado em dezembro de 2022. [...] O estado de São Paulo é o sexto do país com maior taxa de crescimento de profissionais no Mais Médicos entre dezembro de 2022 e junho de 2024.",
-          "prova": "O saldo de médicos em atividade até junho de 2024."
+          "trecho": "DATA: 30 de março de 2024. [...] Informamos que temos 24.770 médicos em atividade nos programas de provimento do Ministério da Saúde. Dados em acordo com o relatório da Casa Civil (4/3/2024): - Programa Mais Médicos: 11.723 CRM Brasil, 8.307 intercambistas e 463 em DSEI, somando 20.493 médicos ativos; - Programa Médicos pelo Brasil: 4.740 médicos em municípios e 42 em DSEI, somando 4.782 médicos ativos. Do total de médicos, mais de 16.340 ingressaram em 2023 e mais de 930 em 2024.",
+          "prova": "Dá as entradas de médicos em 2023, que já passam de 16 mil."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "ABC do ABC (comunicado do Ministério da Saúde)",
+          "titulo": "Mais Médicos cresce 151% em SP entre o fim de 2022 e novembro de 2024",
+          "url": "https://abcdoabc.com.br/mais-medicos-cresce-151-em-sp-entre-o-fim-de-2022-e-novembro-de-2024/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado: 17/12/2024 10:48 [...] Eram 12,8 mil no final da gestão anterior e são 26,7 mil atualmente. Um efetivo que atende mais de 68 milhões de habitantes. Só em 2024, 6.729 novos profissionais entraram em atividade em mais de 2 mil municípios.",
+          "prova": "Dá as entradas de 2024 e o saldo até novembro de 2024, para as duas leituras da fala."
         },
         {
           "nivel": "N4",
@@ -524,7 +587,8 @@
           "trecho": "O projeto já alcança 2 mil médicos especialistas distribuídos em todo o país — quatro vezes a meta inicial —, dos quais cerca de 500 são anestesiologistas, fundamentais para a realização de cirurgias.",
           "prova": "O componente de especialistas, que não soma 16 mil e é contado à parte."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A181",
@@ -580,16 +644,59 @@
     {
       "id": "A182",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "O programa existe desde 2004 e virou lei em 2023; não foi achado dado do governo anterior que mostre parada ou queda",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A fala diz que o Brasil Sorridente precisava 'voltar a funcionar', o que pressupõe que tinha parado ou encolhido antes de 2023. Para conferir seria preciso o orçamento executado e o número de equipes de saúde bucal e de Centros de Especialidades Odontológicas ano a ano no governo anterior. As fontes capturadas mostram que o programa existe desde 2004, que a Política Nacional de Saúde Bucal virou lei em maio de 2023 e que, em julho de 2026, havia 34,5 mil equipes de saúde bucal; nenhuma traz a série do período anterior, e a busca foi interrompida pelo limite de buscas. Não há prova de extinção nem de queda, e também não há prova do contrário.",
+      "resumo": "O programa estava em 5,2 mil municípios em 2023; o governo diz que o credenciamento de equipes estava parado",
+      "explicacao": "A fala diz que foi preciso fazer o Brasil Sorridente 'voltar a funcionar'. Na leitura literal, de que o programa tinha parado, as fontes contradizem: no relançamento, em 8 de maio de 2023, o Poder360 registra o programa em 5,2 mil municípios, e a página do Ministério da Saúde o trata como contínuo desde 2004. Mas a leitura de que o programa estava travado tem registro: no mesmo dia, a ministra da Saúde disse que o Brasil Sorridente ficou estagnado nos últimos 4 anos e que o governo anterior represou o credenciamento de equipes, e o secretário disse ter encontrado, em janeiro de 2023, mais de 3.500 equipes represadas e que o credenciamento, que libera o repasse de recursos, 'ficou paralisado' (Poder360); o Brasil de Fato chama o programa de desidratado, e a análise de 2019 de Paulo Capel Narvai, da USP, mostra a previsão de recursos para 2022 abaixo da de 2012. Contra isso, o número de equipes que a imprensa permite calcular subiu: 26.807 em 2019 e mais de 29.315 antes da expansão de 2023. 🔧 A rodada 2 tinha dado FALSO; a revisão adversarial da rodada 2 (16/out) rebaixou para INSUSTENTAVEL. O relato da paralisação do credenciamento, que não estava nas fontes, dá base à leitura mais branda da fala, e o que pesaria contra ela é uma conta de equipes montada com duas fontes de imprensa, sem a série oficial; FALSO exige contradição direta do essencial, e ela não existe. O relato da paralisação, por sua vez, vem do governo que faz a afirmação e não confirma a fala sozinho. O que faltou: a série oficial de equipes credenciadas e a execução do gasto de 2019 a 2022.",
       "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": null,
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "numero_apurado": "mais de 3.500 equipes à espera de credenciamento em janeiro de 2023, segundo o governo; mais de 29.315 equipes antes da expansão de 2023, contra 26.807 em 2019",
+      "data_de_referencia": "outubro de 2019, janeiro e maio de 2023",
+      "ressalva": "A paralisação do credenciamento é relato do próprio governo; a série oficial de equipes e de gastos não foi achada",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O governo (ministra e secretário da Saúde, no Poder360 de 08/05/2023) diz que o programa ficou estagnado e que o credenciamento de equipes ficou paralisado, e o Brasil de Fato o chama de desidratado; o Poder360 do mesmo dia registra o programa em 5,2 mil municípios, e a conta de equipes feita com fontes de imprensa mostra alta entre 2019 e 2023.",
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "29.315",
+          "de": "33 mil menos 3.685",
+          "como": "equipes ativas anunciadas com a expansão menos as equipes novas da expansão"
+        }
+      ],
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula sanciona lei que garante atendimento odontológico no SUS",
+          "url": "https://www.poder360.com.br/saude/lula-sanciona-lei-que-garante-atendimento-odontologico-no-sus/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) sancionou nesta 2ª feira (8.mai.2023) o projeto que inclui a Política Nacional de Saúde Bucal, também conhecida como Brasil Sorridente, na Lei Orgânica da Saúde. [...] Atualmente, o Brasil Sorridente está presente em 5,2 mil municípios.",
+          "prova": "Mostra o programa funcionando no momento em que o governo diz tê-lo retomado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (declarações da ministra e do secretário de Atenção Primária à Saúde)",
+          "titulo": "Bolsonaro estagnou programa de saúde bucal, diz ministra da Saúde",
+          "url": "https://www.poder360.com.br/governo/bolsonaro-estagnou-programa-de-saude-bucal-diz-ministra-da-saude/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A ministra da Saúde, Nísia Trindade, disse nesta 2ª feira (8.mai.2023) que a Política Nacional de Saúde Bucal, também conhecida como Brasil Sorridente, ficou estagnada nos últimos 4 anos. De acordo com ela, o governo do ex-presidente Jair Bolsonaro (PL) represou o credenciamento de equipes. [...] Encontramos em 12 de janeiro deste ano mais de 3.500 equipes represadas [...] Normalmente os municípios pedem os credenciamento dessa equipes e é com esse credenciamento que é possível o repasse de recursos. Isso ficou paralisado.",
+          "prova": "O governo descreve o credenciamento de equipes como paralisado até 2023: base para a leitura branda da fala, vinda de quem a faz."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Outras Palavras (Outra Saúde), artigo de Paulo Capel Narvai, professor da USP",
+          "titulo": "Saúde bucal no SUS: recursos regridem a 2005",
+          "url": "https://outraspalavras.net/outrasaude/saude-bucal-no-sus-recursos-regridem-a-2005/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado 25/10/2019 às 05:38 [...] Mas em 2005 o Brasil contava com apenas 12.602 Equipes de Saúde Bucal (ESB) e 161 CEO. Atualmente, são 26.807 ESB e os mencionados 1.138 CEO. [...] Comparando-se 2012 com o previsto para 2022 observa-se uma expressiva redução de R$ 425.265.158,00.",
+          "prova": "Dá o número de equipes em 2019, base da comparação, e a previsão de corte de recursos, o argumento a favor da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil de Fato",
+          "titulo": "Lula recria Brasil Sorridente, programa de saúde bucal do SUS",
+          "url": "https://www.brasildefato.com.br/2023/05/08/lula-recria-brasil-sorridente-programa-de-saude-bucal-do-sus",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na prática, a medida recria o programa Brasil Sorridente, lançado pelo próprio Lula em 2004 e desidratado nos últimos anos, especialmente durante o governo de Jair Bolsonaro (PL) . [...] A nova versão do Brasil Sorridente prevê investimentos públicos de cerca de R$ 136,9 milhões para contratação de 3.685 novas equipes de saúde bucal, que atuarão em todos os estados do país e no Distrito Federal, com foco em locais onde há vazios assistenciais. Com isso, serão mais de 33 mil equipes ativas.",
+          "prova": "Dá o total de equipes depois da expansão, de onde sai o número de antes, e registra a leitura de que o programa foi desidratado."
+        },
         {
           "nivel": "N1",
           "instituicao": "Ministério da Saúde",
@@ -598,26 +705,9 @@
           "consultada_em": "2026-10-16",
           "trecho": "O Brasil Sorridente é um programa de assistência odontológica, criado em 2004, que apresenta diretrizes nacionais de saúde bucal, integradas na Política Nacional de Saúde Bucal.",
           "prova": "O programa é de 2004; a página não fala em interrupção."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Presidência da República (Planalto)",
-          "titulo": "Lei nº 14.572, de 8 de maio de 2023",
-          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14572.htm",
-          "consultada_em": "2026-10-16",
-          "trecho": "LEI Nº 14.572, DE 8 DE MAIO DE 2023 [...] Institui a Política Nacional de Saúde Bucal no âmbito do Sistema Único de Saúde (SUS) e altera a Lei nº 8.080, de 19 de setembro de 1990, para incluir a saúde bucal no campo de atuação do SUS .",
-          "prova": "O que mudou em 2023 foi a política virar lei, o que não prova que ela tinha parado."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Ministério da Saúde",
-          "titulo": "Próteses dentárias digitais e Rede de Atenção à Saúde Bucal são pactuadas na CIT (jul/2026)",
-          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/proteses-dentarias-digitais-e-rede-de-atencao-a-saude-bucal-sao-pactuadas-na-cit-em-porto-alegre",
-          "consultada_em": "2026-10-16",
-          "trecho": "Atualmente, há 34,5 mil equipes de Saúde Bucal na atenção primária do SUS, com capacidade para atender cerca de 105 milhões de brasileiros. A rede pública também conta com 3 mil Laboratórios Regionais de Próteses Dentárias, 1,2 mil Centros de Especialidades Odontológicas, 278 Serviços de Especialidades em Saúde Bucal e 1,1 mil Unidades Odontológicas Móveis.",
-          "prova": "O tamanho atual da rede, sem a série de antes de 2023 para comparar."
         }
-      ]
+      ],
+      "revisao_ia": null
     }
   ]
 }

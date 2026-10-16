@@ -1,6 +1,6 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 15/out/2026, 10h (versão 0.5.0: três casos, o braço de debate e o braço de **sabatina inteira** preparados; o caso da sabatina de Lula do 2º turno aberto **antes** do evento, sem mídia)
+**Atualizado em:** 16/out/2026, manhã (versão 0.5.1: a sabatina de Lula do 2º turno checada inteira, com 6 cortes curtos)
 
 Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que está pronto, o que falta, e o comando exato para retomar. ⛔ Ele não guarda doutrina: isso é [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -74,9 +74,8 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 
 ## ⬜ O que falta, em ordem de valor
 
-0. 🔴 **A sabatina de Lula do 2º turno (15/out): PARADO NO PASSO 12 (16/out, 03h10, limite de uso).** Feito: procedência, transcrição (14 correções), turnos à mão, blocos, 193 alegações (Renata 74, Lula 119), sugestão de 6 cortes commitada antes dos vereditos, 193 checagens (118 V, 25 I, 47 S, 3 F), revisão adversarial registrada nas 193 (66 alteradas) e passada de coerência entre lotes, CAPTURAS.json conferido (647 de 648 trechos). Os 6 recortes de mídia existem em recortes/ (caixa 94,62,1088,612). ⬜ **Falta:** (a) A059: o trecho do em.com.br está na captura p05 mas o conferir-trechos não acha (investigar normalização); (b) A032 sem N1/N2 e A026 com data interna inconsistente; (c) ⚠️ **cerca de 30 vereditos INSUSTENTAVEL são PROVISÓRIOS** (busca web esgotada no turno; `confianca: baixa` e explicação começando por "Busca interrompida..."): refazer com busca nova antes de publicar; (d) validar, métricas com --blocos, relatório, derivar/overlay/renderizar os 6 cortes, copiar para video-9/cortes-checados, considerações (passo 16). ⚠️ `registrar-revisao.py` escreve no arquivo JUNTADO: se rodar `checagem-juntar` de novo, registre a revisão de novo (`checagens/revisao/revisao.json`).
-   Antes: **quando a gravação chegar:** skill [`checar-sabatina-completa`](skills/checar-sabatina-completa.md). Antes do PASSO 0, o autor entrega o arquivo e diz de onde veio. Cortes renderizados vão para `C:/Users/Gabriel/Videos/youtube/video-longo/video-9/cortes-checados/` (o VIDEO_009 dele).
-   **Decisões que são dele, não da IA:** quais dos 5 a 6 cortes sugeridos entram e em que ordem; se algum trecho "polêmico" entra por `--fixar`; o que fazer quando o congelamento final de um corte passar de ~10 s; se as considerações da IA entram no vídeo.
+0. ✅ **A sabatina de Lula do 2º turno (15/out): checada inteira em 16/out** (CHANGELOG 0.5.1). 193 alegações, 130 V · 30 I · 30 S · 3 F, revisão por IA em todas, validador 0 erros, métricas, `RELATORIO_SABATINA_COMPLETA.md`, 6 cortes renderizados em `Videos/youtube/video-longo/video-9/cortes-checados/` (com `LEIA-ME.md`) e as considerações em `consideracoes/`. ⬜ **Decisões que são dele, não da IA:** quais cortes entram e em que ordem; o que fazer com o quadro congelado no fim de cada corte (10 a 39 s); se as considerações entram no vídeo e de que forma; o merge do branch no `main` (os links da descrição dependem dele).
+   ⚠️ `registrar-revisao.py` escreve no arquivo JUNTADO: se rodar `checagem-juntar` de novo, registre a revisão de novo com `checagens/revisao/revisao.json`.
 1. 🔴 **Revisão adversarial por IA do caso Lula e do trecho do golpe** ([`skills/revisar-checagem.md`](skills/revisar-checagem.md)), registrada com `python ferramentas/registrar-revisao.py <slug> --recorte <id> --ia --notas revisao.json`. Mudança de veredito vai para `CORRECOES.md`. Prioridade: Lula `A007` e `A017`; golpe `A009`, `A013`, `A017`, `A018`.
 2. **Renderizar de novo o vídeo do caso Lula** (quem tem `fonte/sabatina-lula-globo-2026-08-27.mp4`):
    ```bash
@@ -150,7 +149,7 @@ Cada linha aqui é um defeito que aconteceu de verdade. Estão listados porque a
 
 ```bash
 cd checagem-eleicoes-2026
-python -m pytest -q                       # 123 testes
+python -m pytest -q                       # 200 testes
 python ferramentas/conferir-links.py      # nenhum link quebrado
 python ferramentas/validar-todos.py       # os três casos, 0 erros
 ```

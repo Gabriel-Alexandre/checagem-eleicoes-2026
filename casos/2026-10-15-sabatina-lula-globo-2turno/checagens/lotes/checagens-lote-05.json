@@ -301,7 +301,7 @@
           "titulo": "Redução de maioridade é resgate do passado mais arcaico do País, diz líder do PT (31/05/2015)",
           "url": "https://www.em.com.br/app/noticia/politica/2015/05/31/interna_politica,653373/amp.html",
           "consultada_em": "2026-10-16",
-          "trecho": "o presidente da Câmara dos Deputados, Eduardo Cunha (PMDB-RJ), de que colocará a Proposta de Emenda à Constituição 171/1993, a PEC da Redução da Maioridade Penal, em votação até o final de junho, contrariando o PT que não defende a medida.",
+          "trecho": "anúncio feito neste domingo (31) pelo presidente da Câmara dos Deputados, Eduardo Cunha (PMDB-RJ), de que colocará a Proposta de Emenda à Constituição 171/1993, a PEC da Redução da Maioridade Penal, em votação até o final de junho, contrariando o PT que não defende a medida.",
           "prova": "Posição do PT contra a PEC 171/1993 em 2015."
         },
         {
@@ -461,45 +461,55 @@
     },
     {
       "id": "A063",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "O recurso do governo ao STF contra o Congresso no caso do IOF está registrado; as fontes não medem a frequência",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A pergunta afirma que o governo se valeu 'bastante' do STF no terceiro mandato. O critério escrito antes era a contagem de ações de controle concentrado da Presidência ou da AGU de 2023 a 2026, comparada com governos anteriores. Essa contagem não foi achada: a busca encontrou o caso do IOF (ADC da AGU em 1º/07/2025, contra a derrubada do decreto pelo Congresso), registrado por O Tempo, Gazeta do Povo e A Gazeta, mas nenhum levantamento com número de ações ou comparação entre governos. A busca foi interrompida pelo limite de pesquisas da sessão antes de alcançar o painel de estatísticas do STF. Um caso documentado não sustenta nem desmente 'bastante'; por isso o veredito é SEM COMPROVAÇÃO e não FALSO.",
+      "veredito": "VERDADEIRO",
+      "resumo": "O governo foi ao STF contra decisões do Congresso na desoneração da folha e no IOF, além de outras ações",
+      "explicacao": "A pergunta afirma que as dificuldades com o Congresso e a tentativa de golpe fizeram o governo se valer bastante do STF no terceiro mandato. O critério escrito antes tinha duas partes: a contagem de ações de controle concentrado da Presidência e da AGU comparada com governos anteriores, e os casos em que o governo levou ao STF disputas com o Congresso. A contagem comparada não foi achada: o painel Corte Aberta do STF é montado em JavaScript e a captura só traz os títulos dos painéis, e a busca nesta rodada não achou levantamento publicado. A segunda parte está documentada pelo próprio STF em ocasiões distintas: em abril de 2024 o presidente acionou o STF contra a lei do Congresso que prorrogou a desoneração da folha (ADI 7633), e o presidente do Senado chamou isso de judicializar a política; em julho de 2025 pediu ao STF a anulação do decreto legislativo que barrou o aumento do IOF (ADC 96); e em 2025 o presidente acionou o tribunal também no caso dos descontos indevidos nas aposentadorias (ADPF 1236). Pela mesma régua da checagem A053 (ocasiões distintas sustentam um 'bastante' sem régua numérica), o veredito é VERDADEIRO; a confiança é média porque a comparação com governos anteriores, que mediria o 'bastante', não existe em fonte pública achada, e isso vai na ressalva.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "terceiro mandato, de 2023 a outubro de 2026",
-      "ressalva": null,
-      "confianca": "baixa",
+      "data_de_referencia": "ações de abril de 2024 a julho de 2025, dentro do terceiro mandato",
+      "ressalva": "Não achamos contagem pública que compare o número de ações com o de governos anteriores",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "O Tempo",
-          "titulo": "Governo Lula confirma recurso ao STF contra decisão do Congresso que derrubou aumento do IOF (01/07/2025)",
-          "url": "https://www.otempo.com.br/politica/governo/2025/7/1/governo-lula-confirma-recurso-ao-stf-contra-decisao-do-congresso-que-derrubou-aumento-do-iof",
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (STF)",
+          "titulo": "Presidente da República aciona STF contra prorrogação da desoneração da folha de pagamento (25/04/2024)",
+          "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=534100&ori=1",
           "consultada_em": "2026-10-16",
-          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) decidiu recorrer ao Supremo Tribunal Federal (STF) contra a decisão do Congresso Nacional de derrubar o aumento do Imposto sobre Operações Financeiras (IOF). O recurso foi apresentado nesta terça-feira (1º), segundo informou o ministro da Advocacia-Geral da União (AGU), Jorge Messias.",
-          "prova": "Um caso concreto de recurso ao STF em disputa com o Congresso."
+          "trecho": "O presidente da República, Luiz Inácio Lula da Silva, acionou o Supremo Tribunal Federal (STF) contra lei que prorrogou a desoneração da folha de pagamento de municípios e de diversos setores produtivos até 2027. O pedido é objeto da Ação Direita de Inconstitucionalidade (ADI) 7633. [...] O Congresso, contudo, aprovou a Lei 14.784/2023 que, além de prorrogar a desoneração desses setores, diminuiu para 8% a alíquota da contribuição previdenciária incidente sobre a folha de pagamento dos municípios.",
+          "prova": "Primeira ocasião: o presidente leva ao STF uma lei aprovada pelo Congresso contra a proposta do governo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (STF)",
+          "titulo": "Presidente Lula aciona STF para validar decreto que eleva alíquotas do IOF (01/07/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/presidente-lula-aciona-stf-para-validar-decreto-que-eleva-aliquotas-do-iof/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente da República, Luiz Inácio Lula da Silva (PT), solicitou ao Supremo Tribunal Federal (STF) a confirmação da validade do decreto que elevou alíquotas do Imposto sobre Operações Financeiras (IOF). A Ação Declaratória de Constitucionalidade (ADC) 96 também requer a anulação do decreto legislativo que barrou o aumento do tributo.",
+          "prova": "Segunda ocasião, distinta da primeira: o presidente pede ao STF que anule um ato do Congresso."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (STF)",
+          "titulo": "Governo federal aciona STF contra decisões que responsabilizam Estado por descontos indevidos nas aposentadorias (12/06/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/governo-federal-aciona-stf-contra-decisoes-que-responsabilizam-estado-por-descontos-indevidos-nas-aposentadorias/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente da República, Luiz Inácio Lula da Silva, representado pela Advocacia-Geral da União (AGU), acionou o Supremo Tribunal Federal (STF) para pedir a suspensão de processos e decisões judiciais que tratem da responsabilização da União e do INSS por descontos indevidos nas aposentadorias realizados por associações sindicais. O pedido foi feito na Arguição de Descumprimento de Preceito Fundamental (ADPF) 1236 .",
+          "prova": "Outra ocasião em que o presidente recorre ao STF, fora da disputa com o Congresso: mostra o uso frequente, não a causa."
         },
         {
           "nivel": "N4",
-          "instituicao": "Gazeta do Povo",
-          "titulo": "Governo desafia Congresso e recorre ao STF para subir IOF novamente",
-          "url": "https://www.gazetadopovo.com.br/economia/governo-desafia-congresso-e-recorre-ao-stf-para-subir-iof-novamente/",
+          "instituicao": "Jornal Contábil",
+          "titulo": "Para Pacheco, governo erra ao questionar no STF desoneração da folha (26/04/2024)",
+          "url": "https://jornalcontabil.com.br/noticia/para-pacheco-governo-erra-ao-questionar-no-stf-desoneracao-da-folha/",
           "consultada_em": "2026-10-16",
-          "trecho": "Segundo ele, o instrumento escolhido pela AGU é uma Ação Declaratória de Constitucionalidade (ADC) em favor do decreto de Lula que elevou o IOF.",
-          "prova": "O instrumento usado nesse caso; não traz contagem de outros casos."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "A Gazeta",
-          "titulo": "Usurpação de poder? Os argumentos do governo Lula para ir ao STF contra derrubada do IOF pelo Congresso",
-          "url": "https://www.agazeta.com.br/mundo/usurpacao-de-poder-os-argumentos-do-governo-lula-para-ir-ao-stf-contra-derrubadadoiof-pelo-congresso-0725",
-          "consultada_em": "2026-10-16",
-          "trecho": "A Advocacia-Geral da União (AGU) protocolou nesta terça-feira (1/7) ação junto ao Supremo Tribunal Federal (STF) com o objetivo de reverter a derrubada de decreto que aumentava alíquotas do Imposto sobre Operações Financeiras (IOF) .",
-          "prova": "Terceira apuração do mesmo episódio; nenhuma traz medida de frequência."
+          "trecho": "Por meio de nota, Rodrigo Pacheco disse que o governo federal “erra ao judicializar a política”. Para o presidente do Senado, a Ação Direta de Inconstitucionalidade (ADI) 7633, que questiona a validade da desoneração, representa um “aparente terceiro turno de discussão sobre o tema”.",
+          "prova": "O próprio Congresso descreveu a ação como disputa política levada ao STF, o que liga o caso às dificuldades com o Congresso citadas na pergunta."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A064",

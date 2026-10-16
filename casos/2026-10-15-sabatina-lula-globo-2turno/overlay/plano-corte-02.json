@@ -1,0 +1,88 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "recorte": "corte-02",
+  "alvo": "recortes/corte-02.mp4",
+  "base_s": 481.29,
+  "duracao_s": 13.233,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-16",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-02/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 37.5
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-02/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 13.233,
+    "sai_s": 37.5,
+    "duracao_s": 24.267
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "IMPRECISO": 2,
+    "VERDADEIRO": 1,
+    "INSUSTENTAVEL": 2
+  },
+  "cartelas": [
+    {
+      "id": "A036",
+      "arquivo": "overlay/cartelas-corte-02/A036.png",
+      "entra_s": 7.7,
+      "sai_s": 12.5,
+      "atraso_s": 7.49,
+      "atraso_do_fim_s": 5.69,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 481.5,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A037",
+      "arquivo": "overlay/cartelas-corte-02/A037.png",
+      "entra_s": 12.7,
+      "sai_s": 20.4,
+      "atraso_s": 9.89,
+      "atraso_do_fim_s": 8.19,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 484.1,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A038",
+      "arquivo": "overlay/cartelas-corte-02/A038.png",
+      "entra_s": 20.6,
+      "sai_s": 28.0,
+      "atraso_s": 15.99,
+      "atraso_do_fim_s": 14.59,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 485.9,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A039",
+      "arquivo": "overlay/cartelas-corte-02/A039.png",
+      "entra_s": 28.2,
+      "sai_s": 32.5,
+      "atraso_s": 21.69,
+      "atraso_do_fim_s": 20.29,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 487.8,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A040",
+      "arquivo": "overlay/cartelas-corte-02/A040.png",
+      "entra_s": 32.7,
+      "sai_s": 37.5,
+      "atraso_s": 24.29,
+      "atraso_do_fim_s": 19.69,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 489.7,
+      "cortado_na_tela": []
+    }
+  ]
+}

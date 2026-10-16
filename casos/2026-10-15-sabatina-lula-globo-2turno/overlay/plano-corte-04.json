@@ -1,0 +1,88 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "recorte": "corte-04",
+  "alvo": "recortes/corte-04.mp4",
+  "base_s": 2152.13,
+  "duracao_s": 12.5,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-16",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-04/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 51.1
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-04/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 12.5,
+    "sai_s": 51.1,
+    "duracao_s": 38.6
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "IMPRECISO": 1,
+    "FALSO": 1,
+    "VERDADEIRO": 3
+  },
+  "cartelas": [
+    {
+      "id": "A145",
+      "arquivo": "overlay/cartelas-corte-04/A145.png",
+      "entra_s": 7.7,
+      "sai_s": 19.1,
+      "atraso_s": 7.43,
+      "atraso_do_fim_s": 4.73,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 2152.4,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A146",
+      "arquivo": "overlay/cartelas-corte-04/A146.png",
+      "entra_s": 19.3,
+      "sai_s": 24.7,
+      "atraso_s": 19.03,
+      "atraso_do_fim_s": 16.33,
+      "veredito": "FALSO",
+      "tempo_na_peca_s": 2152.4,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A147",
+      "arquivo": "overlay/cartelas-corte-04/A147.png",
+      "entra_s": 24.9,
+      "sai_s": 31.0,
+      "atraso_s": 20.33,
+      "atraso_do_fim_s": 17.53,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 2156.7,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A148",
+      "arquivo": "overlay/cartelas-corte-04/A148.png",
+      "entra_s": 31.2,
+      "sai_s": 40.6,
+      "atraso_s": 23.13,
+      "atraso_do_fim_s": 20.73,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 2160.2,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A149",
+      "arquivo": "overlay/cartelas-corte-04/A149.png",
+      "entra_s": 40.8,
+      "sai_s": 51.1,
+      "atraso_s": 29.93,
+      "atraso_do_fim_s": 28.33,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 2163.0,
+      "cortado_na_tela": []
+    }
+  ]
+}

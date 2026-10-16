@@ -5,6 +5,28 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.5.1] · 16/out/2026
+
+A sabatina de Lula na TV Globo do 2º turno, **checada inteira** com a gravação que o autor entregou às 23h48 de 15/out.
+
+### O caso `2026-10-15-sabatina-lula-globo-2turno`
+- **Procedência:** captura de uma retransmissão (o sinal da GloboNews numa moldura vermelha, numa janela do projetor do OBS), com a fala de um terceiro no intervalo e depois do fim declarada como `Fora da sabatina` (papel `outro`) e fora de tudo. A entrevista é íntegra: de 0:50 a 45:55, com intervalo de 28:48 a 31:25 (00:42:32 de entrevista, 7359 palavras).
+- **Transcrição** com 14 correções conferidas em passadas isoladas; **turnos escritos à mão** pela IA, conferidos nos quadros (Lula 00:23:49 de fala, Renata Lo Prete 00:14:12).
+- **193 alegações** (Renata Lo Prete 74, Lula 119) extraídas em 6 lotes de internet fechada; a sugestão dos 6 cortes foi commitada às 00h44 (`d262c9b`), antes do primeiro veredito.
+- **Checagem:** 130 verdadeiro, 30 impreciso, 30 sem comprovação, 3 falso. Revisão adversarial por IA nas 193 (8 revisores por lote, uma passada de coerência entre lotes e a revisão da rodada 2), com tudo o que mudou em `CORRECOES.md`. ⚠️ A primeira rodada esgotou o limite de buscas web: 34 vereditos saíram provisórios e foram refeitos numa rodada 2 com busca, revisada por outro agente. 700 trechos conferidos contra as páginas capturadas. Validador: 0 erros, 2 avisos esperados (A018 e A040, sem fonte oficial, e por isso sem comprovação).
+- **6 cortes curtos** (81,4 s de emissora) renderizados e validados, entregues em `Videos/youtube/video-longo/video-9/cortes-checados/`.
+- **Considerações da IA**: duas passadas (com nomes e espelho) e o documento final.
+
+### Adicionado
+- `midia recortar --caixa X,Y,W,H` e `sugerir-cortes.py --caixa`: corta uma caixa declarada (imagem dentro de moldura colorida) e leva a 1920x1080.
+- Métricas: `DURACAO_PECA` e `PALAVRAS_PECA`, só com a mesa (sem os trechos `outro`).
+
+### Corrigido
+- `caixa_sem_faixas` devolvia uma dimensão ímpar (1102x617); agora 16k x 9k com k par. Teste novo.
+- `capturar-fontes.py` quebrava em todo PDF no Windows com `PYTHONUTF8=1` (o `pdftotext` saía em Latin1): pede `-enc UTF-8` e lê bytes.
+- `test_caso_real.py`: a peça inteira (sem vídeo próprio) e os cortes curtos derivados dela entram na regressão sem cobrar o que não se aplica a eles.
+- `__init__.__version__` estava em 0.4.0 com o pacote em 0.5.0.
+
 ## [0.5.0] · 15/out/2026
 
 Pedido do autor, no dia da sabatina de Lula na TV Globo do 2º turno (21h15, 45 min, Renata Lo Prete): checar a **sabatina inteira**, guardar as métricas dos dois lados da mesa e gerar só **5 a 6 cortes curtos**, separados, dos trechos mais importantes e com mais fato, por causa de direito autoral no YouTube. Deixar tudo pronto para ele só entregar a gravação.

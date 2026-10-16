@@ -1,0 +1,64 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "recorte": "corte-03",
+  "alvo": "recortes/corte-03.mp4",
+  "base_s": 1006.87,
+  "duracao_s": 13.767,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-16",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-03/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 23.7
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-03/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 13.767,
+    "sai_s": 23.7,
+    "duracao_s": 9.933
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "INSUSTENTAVEL": 3
+  },
+  "cartelas": [
+    {
+      "id": "A073",
+      "arquivo": "overlay/cartelas-corte-03/A073.png",
+      "entra_s": 7.7,
+      "sai_s": 13.1,
+      "atraso_s": 7.47,
+      "atraso_do_fim_s": 1.87,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 1007.1,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A074",
+      "arquivo": "overlay/cartelas-corte-03/A074.png",
+      "entra_s": 13.3,
+      "sai_s": 18.5,
+      "atraso_s": 7.47,
+      "atraso_do_fim_s": 0.0,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 1012.7,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A075",
+      "arquivo": "overlay/cartelas-corte-03/A075.png",
+      "entra_s": 18.7,
+      "sai_s": 23.7,
+      "atraso_s": 12.87,
+      "atraso_do_fim_s": 4.97,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 1012.7,
+      "cortado_na_tela": []
+    }
+  ]
+}

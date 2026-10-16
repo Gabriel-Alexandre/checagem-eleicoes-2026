@@ -1,0 +1,427 @@
+{
+ "checagens": [
+  {
+   "id": "A063",
+   "veredito": "VERDADEIRO",
+   "resumo": "O governo foi ao STF contra decisões do Congresso na desoneração da folha e no IOF, além de outras ações",
+   "explicacao": "A pergunta afirma que as dificuldades com o Congresso e a tentativa de golpe fizeram o governo se valer bastante do STF no terceiro mandato. O critério escrito antes tinha duas partes: a contagem de ações de controle concentrado da Presidência e da AGU comparada com governos anteriores, e os casos em que o governo levou ao STF disputas com o Congresso. A contagem comparada não foi achada: o painel Corte Aberta do STF é montado em JavaScript e a captura só traz os títulos dos painéis, e a busca nesta rodada não achou levantamento publicado. A segunda parte está documentada pelo próprio STF em ocasiões distintas: em abril de 2024 o presidente acionou o STF contra a lei do Congresso que prorrogou a desoneração da folha (ADI 7633), e o presidente do Senado chamou isso de judicializar a política; em julho de 2025 pediu ao STF a anulação do decreto legislativo que barrou o aumento do IOF (ADC 96); e em 2025 o presidente acionou o tribunal também no caso dos descontos indevidos nas aposentadorias (ADPF 1236). Pela mesma régua da checagem A053 (ocasiões distintas sustentam um 'bastante' sem régua numérica), o veredito é VERDADEIRO; a confiança é média porque a comparação com governos anteriores, que mediria o 'bastante', não existe em fonte pública achada, e isso vai na ressalva.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "ações de abril de 2024 a julho de 2025, dentro do terceiro mandato",
+   "ressalva": "Não achamos contagem pública que compare o número de ações com o de governos anteriores",
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Supremo Tribunal Federal (STF)",
+     "titulo": "Presidente da República aciona STF contra prorrogação da desoneração da folha de pagamento (25/04/2024)",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=534100&ori=1",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente da República, Luiz Inácio Lula da Silva, acionou o Supremo Tribunal Federal (STF) contra lei que prorrogou a desoneração da folha de pagamento de municípios e de diversos setores produtivos até 2027. O pedido é objeto da Ação Direita de Inconstitucionalidade (ADI) 7633. [...] O Congresso, contudo, aprovou a Lei 14.784/2023 que, além de prorrogar a desoneração desses setores, diminuiu para 8% a alíquota da contribuição previdenciária incidente sobre a folha de pagamento dos municípios.",
+     "prova": "Primeira ocasião: o presidente leva ao STF uma lei aprovada pelo Congresso contra a proposta do governo."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Supremo Tribunal Federal (STF)",
+     "titulo": "Presidente Lula aciona STF para validar decreto que eleva alíquotas do IOF (01/07/2025)",
+     "url": "https://noticias.stf.jus.br/postsnoticias/presidente-lula-aciona-stf-para-validar-decreto-que-eleva-aliquotas-do-iof/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente da República, Luiz Inácio Lula da Silva (PT), solicitou ao Supremo Tribunal Federal (STF) a confirmação da validade do decreto que elevou alíquotas do Imposto sobre Operações Financeiras (IOF). A Ação Declaratória de Constitucionalidade (ADC) 96 também requer a anulação do decreto legislativo que barrou o aumento do tributo.",
+     "prova": "Segunda ocasião, distinta da primeira: o presidente pede ao STF que anule um ato do Congresso."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Supremo Tribunal Federal (STF)",
+     "titulo": "Governo federal aciona STF contra decisões que responsabilizam Estado por descontos indevidos nas aposentadorias (12/06/2025)",
+     "url": "https://noticias.stf.jus.br/postsnoticias/governo-federal-aciona-stf-contra-decisoes-que-responsabilizam-estado-por-descontos-indevidos-nas-aposentadorias/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente da República, Luiz Inácio Lula da Silva, representado pela Advocacia-Geral da União (AGU), acionou o Supremo Tribunal Federal (STF) para pedir a suspensão de processos e decisões judiciais que tratem da responsabilização da União e do INSS por descontos indevidos nas aposentadorias realizados por associações sindicais. O pedido foi feito na Arguição de Descumprimento de Preceito Fundamental (ADPF) 1236 .",
+     "prova": "Outra ocasião em que o presidente recorre ao STF, fora da disputa com o Congresso: mostra o uso frequente, não a causa."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Jornal Contábil",
+     "titulo": "Para Pacheco, governo erra ao questionar no STF desoneração da folha (26/04/2024)",
+     "url": "https://jornalcontabil.com.br/noticia/para-pacheco-governo-erra-ao-questionar-no-stf-desoneracao-da-folha/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Por meio de nota, Rodrigo Pacheco disse que o governo federal “erra ao judicializar a política”. Para o presidente do Senado, a Ação Direta de Inconstitucionalidade (ADI) 7633, que questiona a validade da desoneração, representa um “aparente terceiro turno de discussão sobre o tema”.",
+     "prova": "O próprio Congresso descreveu a ação como disputa política levada ao STF, o que liga o caso às dificuldades com o Congresso citadas na pergunta."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A080",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "O STF não publica contagem de pedidos de vista por dia; as fontes trazem só a regra do prazo de 90 dias",
+   "explicacao": "A frase afirma uma frequência: que no STF se pede vista todos os dias. O dado que resolveria é a estatística oficial de pedidos de vista do tribunal em 2025 e 2026. Nesta rodada a busca foi ao painel Corte Aberta do STF, cuja lista de painéis estatísticos (acervo, decisões, controle concentrado, plenário virtual, pautas, entre outros) não tem painel de pedidos de vista, e cujos números são montados em JavaScript e não saem na captura; procurou também relatório de atividades do STF e levantamentos de imprensa com o total anual de pedidos de vista, e não achou nenhum. O que o próprio STF publica é a regra: desde a Emenda Regimental 58/2022, a vista tem de ser devolvida em 90 dias, e depois disso o processo fica liberado para julgamento; a cobertura do pedido de vista de Flávio Dino de setembro de 2026 repete a regra. Nenhuma fonte traz contagem por dia, por sessão ou por ano. Sem o número, a frase não pode ser confirmada nem desmentida: INSUSTENTAVEL, e não FALSO, porque nada a contradiz. Não é NAO_CHECAVEL porque pedido de vista é ato processual registrado; o que falta é a contagem publicada.",
+   "numero_dito": "todo dia",
+   "numero_apurado": null,
+   "data_de_referencia": "regra do pedido de vista vigente desde a Emenda Regimental 58/2022, aplicada em setembro de 2026",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Supremo Tribunal Federal (STF)",
+     "titulo": "Emenda regimental altera regras para devolução de pedidos de vista no STF (26/12/2022)",
+     "url": "https://noticias.stf.jus.br/postsnoticias/emenda-regimental-altera-regras-para-devolucao-de-pedidos-de-vista-no-stf/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O Supremo Tribunal Federal (STF) aprovou mudança no Regimento Interno para estabelecer que os pedidos de vista deverão ser devolvidos no prazo de 90 dias, contado da data da publicação da ata de julgamento. Após esse período, os autos estarão automaticamente liberados para continuidade da análise pelos demais ministros.",
+     "prova": "É a regra oficial do pedido de vista; o STF descreve o prazo, mas não publica quantos pedidos são feitos."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Supremo Tribunal Federal (STF), programa Corte Aberta",
+     "titulo": "Painéis estatísticos do Corte Aberta",
+     "url": "https://transparencia.stf.jus.br/extensions/corte_aberta/corte_aberta.html",
+     "consultada_em": "2026-10-16",
+     "trecho": "Plenário Virtual - decisões colegiadas em ambientes virtuais. Pauta do Plenário - processos liberados para julgamento colegiado. Pauta das Turmas - processos liberados para julgamento colegiado.",
+     "prova": "A lista de painéis estatísticos do tribunal não inclui pedidos de vista, e os números aparecem como traço na captura: é onde o dado faltou."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Rádio Itatiaia (CNN Brasil)",
+     "titulo": "Pedido de vista de Dino pode adiar julgamento sobre Moraes no STF até dezembro (16/09/2026)",
+     "url": "https://www.itatiaia.com.br/politica/pedido-de-vista-de-dino-pode-adiar-julgamento-sobre-moraes-no-stf-ate-dezembro/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Agora, com o pedido de vista, começa a contar o prazo de 90 dias para Dino devolver o caso ao plenário. O ministro pode retornar o processo antes do fim desse período, mas o prazo máximo termina em dezembro.",
+     "prova": "Descreve a regra do pedido de vista no STF, mas não traz quantos pedidos são feitos por dia: é o que faltou."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A085",
+   "veredito": "VERDADEIRO",
+   "resumo": "A imprensa registra três conversas reservadas de Lula com Fachin no início de setembro, durante a crise no STF",
+   "explicacao": "A frase afirma três conversas com o presidente do STF, Edson Fachin, pedindo que ele apure e julgue. Na rodada 1 só duas conversas tinham registro de terceiros. Nesta rodada a busca achou a terceira: segundo O Globo, citado pelo Diário do Centro do Mundo em 02/09/2026, Lula encontrou Fachin no Palácio da Alvorada na noite de terça-feira (1º), em meio à crise do STF. As outras duas são de sexta-feira, 4: conversa reservada no Planalto com Fachin e Gonet, e nova reunião reservada com Fachin depois da cerimônia de sanção, segundo o A Tarde com base no Metrópoles. São três ocasiões distintas com Fachin já na presidência do STF, o mesmo número que Lula deu ao Flow Podcast em 01/10/2026. Sobre o conteúdo, os relatos de bastidor falam em pedido de resposta 'equilibrada' para a crise e em preocupação com a imagem do Supremo, o que vai na direção do que ele disse, mas não registram as palavras 'apure e julgue'; por isso a confiança é média e a ressalva diz que o conteúdo vem de relato reservado. O Globo não pôde ser capturado, e o Diário do Centro do Mundo entra como ponteiro para ele; a agenda oficial da Presidência também não foi capturada. Veredito VERDADEIRO pelo número de conversas, que é o que se pode conferir.",
+   "numero_dito": "três vezes",
+   "numero_apurado": "três conversas registradas pela imprensa",
+   "data_de_referencia": "conversas de 1º e 4 de setembro de 2026",
+   "ressalva": "O que foi dito nas conversas vem de relatos reservados, que falam em pedido de resposta equilibrada à crise",
+   "confianca": "media",
+   "divergencia_entre_fontes": "Os relatos de bastidor divergem sobre o conteúdo: o A Tarde fala em pedido de resposta equilibrada à crise; o relato atribuído a O Globo, em preocupação com a imagem do Supremo. Nenhum registra a frase sobre apurar e julgar.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "A Tarde",
+     "titulo": "Em meio à crise no STF, Lula tem conversa reservada com Fachin e Gonet (04/09/2026)",
+     "url": "https://atarde.com.br/politica/em-meio-a-crise-no-stf-lula-tem-conversa-reservada-com-fachin-e-gonet-1400933",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente Lula teve conversa reservada com o ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF) e o procurador-geral da República, Paulo Gonet, na manhã desta sexta-feira, 4, no Palácio do Planalto. [...] Após o evento da sanção, Lula voltou a se reunir reservadamente com Fachin.",
+     "prova": "Registro de terceiros de duas conversas no mesmo dia, com Fachin já na presidência do STF."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Centro do Mundo (citando O Globo)",
+     "titulo": "Em meio à crise no STF, Lula conversa com Fachin, Gilmar e Dino (02/09/2026)",
+     "url": "https://www.diariodocentrodomundo.com.br/em-meio-a-crise-no-stf-lula-conversa-com-fachin-gilmar-e-dino/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Segundo O Globo , Lula recebeu Gilmar Mendes no Palácio do Planalto na tarde de terça, encontrou Fachin no Palácio da Alvorada naquela noite e falou com Dino nesta quarta. Interlocutores dizem que o presidente demonstrou preocupação com o desgaste da imagem institucional do Supremo e com o risco de a crise ganhar dimensão política durante a campanha eleitoral.",
+     "prova": "Registra uma terceira conversa, no Alvorada em 1º de setembro, distinta das duas de 4 de setembro; vale como ponteiro para O Globo, que não pôde ser capturado."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "ICL Notícias",
+     "titulo": "Lula diz ter falado 3 vezes com Fachin sobre crise no STF; condução do caso 'não foi correta' (02/10/2026)",
+     "url": "https://iclnoticias.com.br/?p=130290",
+     "consultada_em": "2026-10-16",
+     "trecho": "“Eu conversei com o Fachin três vezes nesse processo todo. Eu falei: ‘Fachin, você não pode deixar a Suprema Corte ficar se digladiando entre ela’”, afirmou Lula ao Flow Podcast.",
+     "prova": "Mostra que a contagem de três vem do próprio Lula, em entrevista anterior."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+     "titulo": "Lula diz que pediu a Fachin para impedir STF de 'se digladiar' (01/10/2026)",
+     "url": "https://www.dgabc.com.br/Noticia/4350287/lula-diz-que-pediu-a-fachin-para-impedir-stf-de-se-digladiar",
+     "consultada_em": "2026-10-16",
+     "trecho": "Fachin assumiu a presidência do STF em 2025 e tem conduzido os desdobramentos internos do caso Master",
+     "prova": "Confirma que Fachin é o presidente do STF no período das conversas."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A086",
+   "veredito": "VERDADEIRO",
+   "resumo": "O candidato Flávio Bolsonaro chamou Andrei de amigo e pau-mandado de Lula e o acusou na Justiça Eleitoral",
+   "explicacao": "A pergunta atribui a adversários de Lula a afirmação de que o diretor-geral da PF, Andrei Rodrigues, tem proximidade grande com ele. Na rodada 1 não se achou declaração de adversário nesse sentido. Nesta rodada a busca achou declarações públicas do principal adversário, o candidato Flávio Bolsonaro (PL), em ocasiões distintas: em 08/09/2026, no X, ele chamou Andrei de 'companheiro, camarada, amigo, irmão' e 'pau-mandado de Lula' e falou em 'grupo especial de Lula na Polícia Federal' (Itatiaia, com apuração própria, e Estadão Conteúdo no Diario de Pernambuco); em 11/10/2026 a equipe jurídica dele pediu à Justiça Eleitoral investigação de Andrei por suposto uso da PF para beneficiar Lula no primeiro turno. A proximidade em si também é descrita por reportagens (Gazeta do Povo, Poder360). O partido Novo, outro adversário, agiu contra Andrei pelo caso Master, não pela relação com Lula. O essencial da pergunta confere: adversário aponta essa proximidade em público, mais de uma vez. A ressalva registra que os registros achados vêm sobretudo de Flávio Bolsonaro e da equipe dele, e não de vários adversários, o que é o limite do 'muitos'; por isso a confiança é média. A mesma régua foi aplicada à resposta de Lula sobre o mesmo ponto (A090).",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "declarações de 08/09/2026 e pedido de 11/10/2026",
+   "ressalva": "Os registros achados vêm sobretudo do candidato Flávio Bolsonaro e da equipe dele",
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Rádio Itatiaia",
+     "titulo": "Flávio Bolsonaro: afastamento de Andrei ‘desmascara’ grupo de Lula na PF (08/09/2026)",
+     "url": "https://www.itatiaia.com.br/politica/flavio-bolsonaro-afastamento-de-andrei-desmascara-grupo-de-lula-na-pf/",
+     "consultada_em": "2026-10-16",
+     "trecho": "“Chefe da PF (companheiro, camarada, amigo, irmão, irmão, cupincha, parça, aliado, preposto, indicado, pau-mandado de Lula) acusado de investigações clandestinas contra um ministro do STF. Grupo especial de Lula na Polícia Federal desmascarado oficialmente.",
+     "prova": "Declaração pública do principal adversário de Lula apontando proximidade entre Andrei e o presidente."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+     "titulo": "Flávio sobre afastamento de diretor: \"Grupo especial de Lula na PF desmascarado\" (08/09/2026)",
+     "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723372-flavio-sobre-afastamento-de-diretor-grupo-especial-de-lula-na-pf-desmascarado.html",
+     "consultada_em": "2026-10-16",
+     "trecho": "O candidato à Presidência Flávio Bolsonaro (PL) comentou nesta terça-feira (8) o afastamento do diretor-geral da Polícia Federal (PF), Andrei Rodrigues, e disse que a decisão afeta o que chamou de \"grupo especial\" do presidente Luiz Inácio Lula da Silva (PT) na PF.",
+     "prova": "Segunda apuração, de outra agência, da mesma declaração, com a identificação de Flávio como candidato adversário."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Grande ABC",
+     "titulo": "Flávio Bolsonaro pede para Justiça Eleitoral investigar diretor da PF por beneficiar Lula (11/10/2026)",
+     "url": "https://www.dgabc.com.br/Noticia/4352191/flavio-bolsonaro-pede-para-justica-eleitoral-investigar-diretor-da-pf-por-beneficiar-lula",
+     "consultada_em": "2026-10-16",
+     "trecho": "A equipe jurídica do senador e candidato do PL à Presidência da República, Flávio Bolsonaro, apresentou uma notícia-crime à Justiça Eleitoral pedindo a abertura de investigação contra o diretor-geral da Polícia Federal, Andrei Rodrigues, por suposto uso da estrutura pública para beneficiar o presidente Luiz Inácio Lula da Silva (PT) durante o primeiro turno das eleições.",
+     "prova": "Outra ocasião, um mês depois, em que o adversário associa Andrei a Lula, agora em pedido formal."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Gazeta do Povo",
+     "titulo": "Novo pede que Mendonça afaste Andrei Rodrigues por suspeitas de interferência no caso Master",
+     "url": "https://www.gazetadopovo.com.br/republica/novo-pede-que-mendonca-afaste-andrei-rodrigues-por-suspeitas-de-interferencia-no-caso-master/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O Novo alega risco de interferência nas investigações do caso Master por conta de trechos que envolvem o diretor-geral.",
+     "prova": "A ação pública de um partido adversário contra Andrei se apoia no caso Master, não na proximidade com Lula."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A092",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Não foi achado registro da bronca a Andrei Rodrigues além da fala do próprio Lula, nem nota oficial sobre ela",
+   "explicacao": "O critério pedia declaração anterior de Lula, nota do Planalto ou reportagem com fonte identificada sobre a repreensão. É relato de conversa reservada do próprio entrevistado. Nas duas rodadas a busca procurou: a cobertura de 15/10/2026 da sabatina (SBT News, O Tempo, O Antagonista, Metrópoles), que só reproduz a fala; declarações anteriores de Lula sobre Andrei e a viagem a Londres; nota do Planalto, da PF ou do Ministério da Justiça; e checagens das agências sobre a sabatina, que até a consulta não tinham sido publicadas. Na entrevista ao SBT Brasil de 10/09/2026, Lula chamou Andrei de 'da minha total confiança' e disse que, se ele errou, seria investigado, sem mencionar bronca; isso não contradiz a fala, apenas não a confirma. A ida de Andrei a Londres se tornou pública em fevereiro de 2026 (Poder360), e a fala não diz quando a repreensão aconteceu. Não há registro independente nem prova do contrário: INSUSTENTAVEL, e não FALSO. O único registro pode ser a própria fala, e isso não muda com mais busca.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "fala de 15/10/2026; viagem a Londres em abril de 2024, noticiada em fevereiro de 2026",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "SBT News",
+     "titulo": "Lula: explicação de Andrei sobre Vorcaro não convenceu (15/10/2026)",
+     "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-explicacao-de-andrei-sobre-vorcaro-nao-convenceu",
+     "consultada_em": "2026-10-16",
+     "trecho": "Lula disse que chamou a atenção de Rodrigues quando soube da viagem e ressaltou que a função de diretor-geral da PF exige determinados cuidados. O presidente, no entanto, não detalhou quais pontos da explicação considerou insatisfatórios.",
+     "prova": "Mostra que o relato da repreensão vem só da fala na sabatina, sem detalhe de data nem confirmação de terceiro."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "SBT News",
+     "titulo": "Lula sai em defesa de diretor-geral da PF após acusações (10/09/2026)",
+     "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-sai-em-defesa-de-diretor-geral-da-pf-apos-acusacoes",
+     "consultada_em": "2026-10-16",
+     "trecho": "Ele fez um trabalho extraordinário. A Polícia Federal nunca trabalhou tanto quanto neste mandato do Andrei. Ele é da minha total confiança e, se por acaso cometeu algum erro, ele vai ser investigado.",
+     "prova": "Declaração anterior de Lula sobre Andrei: não menciona a repreensão, nem a confirma nem a desmente."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Master bancou viagem de diretor-geral da PF a Londres (08/04/2026)",
+     "url": "https://www.poder360.com.br/poder-justica/master-bancou-viagem-de-diretor-geral-da-pf-para-londres/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O Poder360 procurou o diretor-geral da Polícia Federal em fevereiro de 2026, quando noticiou que Andrei Rodrigues havia participado de um evento que contava com o patrocínio do Master, e na 3ª feira (7.abr.2026) para perguntar se ele gostaria de se manifestar. Não houve resposta até a publicação desta reportagem.",
+     "prova": "Data em que a ida a Londres se tornou pública, referência para situar a repreensão, que a fala não data."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A093",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Não foi achado registro público do alerta ao ministro da Justiça além da fala do próprio Lula na sabatina",
+   "explicacao": "O critério pedia declaração do ministro da Justiça ou do Planalto sobre o alerta e quem era o ministro na data. É relato de conversa reservada do próprio entrevistado. Nas duas rodadas a busca procurou nota do Ministério da Justiça, do Planalto ou de ex-ministro, reportagem sobre o alerta e checagens das agências sobre a sabatina; achou só a própria fala, publicada pela imprensa, e pedidos da oposição para ouvir o diretor da PF e o ministro sobre a viagem, sem menção a alerta do presidente. Quem era o ministro depende de quando o alerta ocorreu, e Lula não disse: Ricardo Lewandowski chefiou a pasta até janeiro de 2026 (comunicou a saída em 08/01; Wellington César Lima e Silva foi chamado em 13/01), e o próprio Lewandowski, então ministro, estava no evento de Londres de abril de 2024, segundo a CNN Brasil. A ida de Andrei a Londres só se tornou pública em fevereiro de 2026, já na gestão do sucessor. Sem registro e sem prova em contrário: INSUSTENTAVEL, e não FALSO. O único registro pode ser a própria fala, e isso não muda com mais busca.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "fala de 15/10/2026; troca no Ministério da Justiça em janeiro de 2026",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "O Tempo",
+     "titulo": "Lula defende mandato para ministro do STF e diz que repreendeu Andrei por viagem bancada pelo Master (15/10/2026)",
+     "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/15/lula-defende-mandato-para-ministro-do-stf-e-diz-que-repreendeu-andrei-por-viagem-bancada-pelo-master",
+     "consultada_em": "2026-10-16",
+     "trecho": "Ele me deu uma explicação, não foi convincente para mim, ele não precisava ter ido. Aliás, ninguém precisava ter ido naquela festa. Ele sabe que eu o repreendi, alertei o ministro da Justiça.",
+     "prova": "O alerta ao ministro só aparece na própria fala, sem nome do ministro nem data."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "CNN Brasil",
+     "titulo": "Comissão aprova convite para diretor da PF explicar viagem paga por Master (14/04/2026)",
+     "url": "https://www.cnnbrasil.com.br/politica/comissao-aprova-convite-para-diretor-da-pf-explicar-viagem-paga-por-master/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Também estiveram presentes o procurador-geral da República, Paulo Gonet ; Ricardo Lewandowski , então ministro da Justiça e Segurança Pública; Alexandre Silveira , ministro de Minas e Energia; e o advogado-geral da União, Jorge Messias .",
+     "prova": "O ministro da Justiça da época do evento também estava em Londres, o que torna incerto a quem e quando o alerta foi feito."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "SBT News",
+     "titulo": "Lewandowski diz a Lula que vai deixar governo (08/01/2026)",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/lewandowski-diz-a-lula-que-vai-deixar-governo",
+     "consultada_em": "2026-10-16",
+     "trecho": "O ministro Ricardo Lewandowski comunicou ao presidente Lula (PT) nesta quinta-feira (8) que vai deixar o Ministério da Justiça em breve.",
+     "prova": "Marca a saída do ministro que estava no cargo até janeiro de 2026."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "SBT News",
+     "titulo": "Lula chama advogado da Petrobras e deve anunciar novo titular do Ministério da Justiça (13/01/2026)",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-chama-advogado-da-petrobras-e-deve-anunciar-novo-titular-do-ministerio-da-justica",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente Luiz Inácio Lula da Silva (PT) chamou o advogado-geral da Petrobras, Wellington César Lima e Silva para ser o novo titular do Ministério da Justiça.",
+     "prova": "Identifica o sucessor, que já chefiava a pasta quando a viagem se tornou pública."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A099",
+   "veredito": "VERDADEIRO",
+   "resumo": "Procuradoria registra que Silvio Santos foi a Lula em 2010, logo depois de o BC ver falhas no banco, para salvá-lo",
+   "explicacao": "O critério pedia registro de Silvio Santos procurando Lula na crise do PanAmericano. Na rodada 1 só se achou a visita de 22/09/2010, anunciada como pedido de apoio ao Teleton. Nesta rodada a busca achou o registro independente: no pedido de deflagração da Operação Conclave, assinado por um procurador da República e uma delegada da PF e noticiado pelo Estadão Conteúdo em 2017, a Procuradoria descreve o encontro de 22/09/2010 no Planalto como ocorrido 'logo após a descoberta das inconsistências contábeis' pelo Banco Central (que pediu esclarecimentos ao banco em 08/09/2010) e diz que 'a pauta teria consistido na busca de meios a fim de salvar o Banco Panamericano'; o documento cita ainda o ex-presidente do Grupo Silvio Santos, Luiz Sebastião Sandoval, dizendo que o tema principal foi a ajuda do FGC. O próprio Lula contou o mesmo em 18/08/2024, um dia depois da morte de Silvio Santos (O Fator, O Povo). A fraude veio a público em novembro de 2010 (g1). O que diverge é a versão da época: o encontro foi anunciado como sobre o Teleton (Exame) e Lula negou ter tratado do banco, o que vai na divergência e na ressalva. Como o registro independente e o relato posterior do próprio Lula sustentam o essencial (Silvio o procurou quando o banco teve problema), o veredito é VERDADEIRO; a confiança é média porque o pedido da Procuradoria é peça de investigação, não decisão judicial, e Silvio Santos nunca foi denunciado no caso.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "encontro de 22 de setembro de 2010; crise do PanAmericano entre setembro e novembro de 2010",
+   "ressalva": "Na época, a visita foi anunciada como apoio ao Teleton, e Lula negou ter tratado do banco",
+   "confianca": "media",
+   "divergencia_entre_fontes": "Em 2010, a Presidência e Silvio Santos disseram que o encontro foi sobre o Teleton, e Lula negou ter conversado sobre o banco (Folha, citada por O Fator). O pedido da Procuradoria de 2017 e o próprio Lula em 2024 dizem que o assunto foi o banco.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "IstoÉ (Estadão Conteúdo)",
+     "titulo": "Procuradoria diz que Silvio Santos e Lula se reuniram para ‘salvar Panamericano’ (20/04/2017)",
+     "url": "https://istoe.com.br/procuradoria-diz-que-silvio-santos-e-lula-se-reuniram-para-salvar-panamericano/",
+     "consultada_em": "2026-10-16",
+     "trecho": "No pedido encaminhado à Justiça Federal para deflagração da Operação Conclave – investigação sobre fraudes na compra de ações do Banco Panamericano pela Caixa Participações S.A. (Caixapar) -, a Procuradoria da República destacou um encontro ocorrido no dia 22 de setembro de 2010 entre o apresentador de TV Silvio Santos e o então presidente Lula. [...] A reunião do petista com Senor Abravanel, o Silvio Santos, ocorreu no Palácio do Planalto ‘logo após a descoberta das inconsistências contábeis (no Panamericano) pelo Banco Central’. “A pauta teria consistido na busca de meios a fim de salvar o Banco Panamericano.” [...] “Apesar de ter autorizado preliminarmente o negócio em julho de 2010, o Banco Central somente constatou oficialmente indícios de inconsistências contáveis dois meses depois, oportunidade em que solicitou esclarecimentos ao Banco Panamericano, no dia 8 de setembro de 2010”, informam os investigadores.",
+     "prova": "Registro independente da fala: a Procuradoria situa o encontro depois de o BC ver o problema e diz que a pauta foi salvar o banco."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "O Fator",
+     "titulo": "Lula entrega Silvio Santos e a si mesmo (19/08/2024)",
+     "url": "https://ofator.com.br/?p=12241",
+     "consultada_em": "2026-10-16",
+     "trecho": "“Eu posso contar uma coisa para vocês da seriedade do Silvio Santos. Quando teve aquele golpe no Banco, sabe, Panamericano, o Silvio Santos me procurou aqui, muito preocupado. Eu era presidente da República. Ele estava com medo de ser preso”, declarou. [...] Na época, lá em 2010, o papo era outro. Lula negou ter conversado sobre o banco com Silvio.",
+     "prova": "Mostra que Lula contou o mesmo episódio em 2024 e que, em 2010, negou ter tratado do banco: é a divergência registrada."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "g1",
+     "titulo": "'Vendi o banco', diz Silvio Santos sobre Panamericano (31/01/2011)",
+     "url": "https://g1.globo.com/economia/negocios/noticia/2011/01/vendi-o-banco-diz-silvio-santos-sobre-panamericano.html",
+     "consultada_em": "2026-10-16",
+     "trecho": "Em novembro, o Panamericano recebeu um aporte de R$ 2,5 bilhões, com recursos obtidos junto ao Fundo Garantidor de Créditos (FGC), tendo os bens do grupo Silvio Santos como garantia, depois que o BC identificou um rombo nas contas da instituição.",
+     "prova": "Data a crise e a saída dela pelo FGC, sem menção a pedido ao presidente."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Exame",
+     "titulo": "Relembre encontros de Silvio Santos com presidentes da República",
+     "url": "https://exame.com/brasil/relembre-encontros-de-silvio-santos-com-presidentes-da-republica/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Em 22 de setembro de 2010, Silvio Santos foi até o Planalto para se encontrar com Lula, para falar com o então presidente sobre o Teleton, programa com intuito de caridade exibido anualmente pelo SBT.",
+     "prova": "O encontro de 2010 registrado foi antes do rombo e sobre outro assunto."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A100",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "As fontes não registram Edemar Cid Ferreira, do Banco Santos, procurando Lula antes da intervenção de 2004",
+   "explicacao": "A transcrição registra 'Banco de Santos', lido como Banco Santos. O critério pedia quem controlava o banco e se ele procurou Lula antes da intervenção do Banco Central. O controlador era Edemar Cid Ferreira, e o BC interveio em 12 de novembro de 2004 (Folha de S.Paulo; Poder360). Nas duas rodadas a busca procurou encontro ou pedido de Edemar a Lula, ao Planalto ou à equipe econômica em 2004, reportagens sobre a intervenção e a falência, o indiciamento de 2005 e declarações anteriores de Lula sobre o Banco Santos; nenhuma fonte registra Edemar procurando Lula na crise do banco. A única relação registrada entre os dois, numa enciclopédia usada na rodada 1 como ponteiro (uma condecoração anterior à crise), saiu das fontes por não ser fonte qualificada. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL, e não FALSO: a ausência de registro não mostra que o contato não houve.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "intervenção do BC no Banco Santos em novembro de 2004",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Folha de S.Paulo",
+     "titulo": "Morre Edemar Cid Ferreira, fundador do falido Banco Santos, aos 80 anos (13/01/2024)",
+     "url": "https://www1.folha.uol.com.br/mercado/2024/01/morre-edemar-cid-ferreira-fundador-do-falido-banco-santos-aos-80-anos.shtml",
+     "consultada_em": "2026-10-16",
+     "trecho": "Em 12 de novembro de 2004, o BC interveio na instituição depois de constatar que não cumpria normas básicas, como o recolhimento compulsório",
+     "prova": "Identifica o controlador e a data da crise, sem menção a pedido ao presidente."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Morre Edemar Cid Ferreira, ex-banqueiro do falido Banco Santos, aos 80 anos",
+     "url": "https://www.poder360.com.br/brasil/morre-edemar-cid-ferreira-ex-banqueiro-do-falido-banco-santos/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Em 2004, o BC (Banco Central) decretou intervenção no Banco Santos ao constatar que a instituição não cumpria normas básicas de administração. O banco, que chegou a ser o 21º maior do país, decretou falência em 2005.",
+     "prova": "Segunda apuração da crise do banco, independente da Folha, também sem menção a pedido ao presidente."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A101",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "O banco de Edir Macedo é o Digimais, com crise apontada em 2024 e 2025; as fontes não registram o banco procurando Lula",
+   "explicacao": "O critério pedia identificar a instituição e um registro de encontro com Lula na crise. O banco de Edir Macedo é o Digimais, antigo Banco Renner, cujo controle ele assumiu em 2020 (Suno). Metrópoles e Estadão descrevem a crise do banco, com relatórios de 2024 e 2025 apontando inadimplência alta depois da pandemia, aportes do próprio Macedo e o banco à venda há mais de um ano. Nas duas rodadas a busca procurou encontro, conversa ou pedido de ajuda de Macedo, da Igreja Universal ou de dirigentes do Digimais a Lula, ao Planalto ou ao Banco Central, e declarações anteriores de Lula sobre o banco; achou cobertura da crise, da tentativa de venda e de operação da Polícia Federal contra o banco, mas nenhum registro de representante do banco ou da igreja procurando Lula. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL, e não FALSO. A leitura de que a fala se refere ao Digimais é a mais plausível, mas a fala não nomeia o banco.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "crise do Digimais em 2024 e 2025",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Metrópoles (coluna Dinheiro e Negócios)",
+     "titulo": "Os impactos da liquidação do Master no Digimais, banco de Edir Macedo (09/02/2026)",
+     "url": "https://www.metropoles.com/colunas/dinheiro-e-negocios/os-impactos-da-liquidacao-do-master-no-digimais-banco-de-edir-macedo",
+     "consultada_em": "2026-10-16",
+     "trecho": "A situação do Digimais não é boa há um bom tempo. Relatórios de 2024 e 2025 apontaram alta inadimplência após a pandemia, o que corroeu o patrimônio e exigiu aportes recorrentes para evitar quebra técnica . O dinheiro veio do próprio Edir Macedo, líder da Igreja Universal do Reino de Deus e dono da Rede Record de Televisão.",
+     "prova": "Identifica o banco e data a crise, sem menção a pedido ao presidente."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Estadão",
+     "titulo": "Banco de Edir Macedo passa carteira podre a fundos e esconde prejuízo multimilionário (18/05/2026)",
+     "url": "https://www.estadao.com.br/economia/banco-de-edir-macedo-passa-carteira-podre-a-fundos-e-esconde-prejuizo-multimilionario/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O banco Digimais , do bispo Edir Macedo , que está em crise e à venda há mais de um ano, lançou mão de uma manobra com uso de fundos de investimentos para limpar seu balanço de perdas multimilionárias.",
+     "prova": "Outra apuração sobre a crise do banco, também sem registro de pedido a Lula."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Suno Notícias",
+     "titulo": "Banco Renner, de Edir Macedo, muda nome para Banco Digimais (13/07/2020)",
+     "url": "https://www.suno.com.br/noticias/banco-renner-edir-macedo-muda-nome/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O líder e fundador da Igreja Universal do Reino de Deus, Edir Macedo , assumiu no início deste mês o controle do Banco Renner, do qual já possuía uma participação de 49%, após receber a autorização da autoridade monetária.",
+     "prova": "Confirma qual é o banco ligado a Macedo."
+    }
+   ],
+   "revisao_ia": null
+  }
+ ]
+}

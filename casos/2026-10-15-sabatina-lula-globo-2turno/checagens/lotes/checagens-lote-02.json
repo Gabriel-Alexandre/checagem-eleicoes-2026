@@ -175,17 +175,42 @@
     },
     {
       "id": "A016",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "A Câmara registra 81 deputados eleitos em 2022 pela federação do PT; o número do PT sozinho faltou",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: Lula disse que foi eleito com 70 deputados no seu partido. As duas páginas oficiais de bancadas da Câmara, na eleição e na posse, trazem o resultado por federação: a Federação PT-PCdoB-PV elegeu 81 dos 513 e tinha 81 na posse de 2023, sem separar o PT. Nesta segunda rodada foram abertas a API de dados abertos da Câmara (ela devolve o partido atual de cada deputado, não o de 2022) e os arquivos de resultado do TSE de 2022 (fora do ar no endereço de resultados), e nenhuma traz a bancada eleita do PT sozinho num trecho que se possa copiar. A imprensa traz números do PT que não resolvem: o Times Brasil diz que o PT 'passará de 69 para 70' sem dizer se o 69 é a bancada eleita em 2022 ou a atual, e o 70 é a bancada que o PT elegeu em 04/10/2026. O que falta é o resultado oficial do PT sozinho na eleição de 2022. Não é FALSO porque nada contradiz um PT em torno de 70.",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Câmara registra 68 deputados eleitos pelo PT em 2022, dois a menos que o número citado",
+      "explicacao": "Lula disse que foi eleito com 70 deputados no seu partido. A Agência Câmara, da própria Câmara dos Deputados, publicou com o resultado de 2022 que a federação PT-PCdoB-PV elegeu 80 deputados, sendo 68 do PT, 6 do PCdoB e 6 do PV, e que o PT passou de 56 para 68 deputados a partir de 2023. Investnews e Congresso em Foco, com apuração própria, trazem os mesmos 68 e 80. Contra os 70 ditos, os 68 apurados dão desvio de cerca de 3%, abaixo da margem de 10% da régua do §2.2, e não mudam a ordem de grandeza nem a leitura (uma bancada pequena diante de 513). Por isso VERDADEIRO, com a ressalva do número exato, e não IMPRECISO. A página de bancadas da Câmara mostra 81 para a federação, um a mais que a contagem do dia da eleição; isso não muda o número do PT. A rodada 1 tinha deixado INSUSTENTAVEL provisório porque só achara o número da federação; o número do PT sozinho está nas duas matérias da Agência Câmara capturadas nesta rodada.",
       "numero_dito": "70 deputados",
-      "numero_apurado": "81 deputados eleitos pela federação PT-PCdoB-PV em 2022; PT sozinho sem fonte oficial capturada",
-      "data_de_referencia": "eleição de outubro de 2022",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "numero_apurado": "68 deputados eleitos pelo PT (federação PT-PCdoB-PV: 80 na contagem da eleição)",
+      "data_de_referencia": "eleição de outubro de 2022, bancada a partir de fevereiro de 2023",
+      "ressalva": "Foram 68 eleitos pelo PT; com PCdoB e PV, a federação somou 80.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "A Agência Câmara deu 80 eleitos à federação no dia da eleição; a página de bancadas na eleição da Câmara registra 81. O número do PT, 68, é o mesmo nas fontes que o separam.",
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "dois a menos",
+          "de": "70 menos 68",
+          "como": "diferença entre o número dito (70) e o número de eleitos do PT na Agência Câmara (68)"
+        }
+      ],
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara de Notícias)",
+          "titulo": "PL desponta como maior bancada da Câmara, seguido pela federação liderada pelo PT",
+          "url": "https://www.camara.leg.br/noticias/911504-pl-desponta-como-maior-bancada-da-camara-seguido-pela-federacao-liderada-pelo-pt/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em segundo lugar está a federação PT-PCdoB-PV, com 80 deputados eleitos (PT com 68, PCdoB com 6  e PV com 6).",
+          "prova": "Resultado da eleição de 2022 publicado pela Câmara: o PT sozinho elegeu 68 deputados."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara de Notícias)",
+          "titulo": "Confira os partidos que mais ganharam e mais perderam deputados nas eleições",
+          "url": "https://www.camara.leg.br/noticias/911890-confira-os-partidos-que-mais-ganharam-e-mais-perderam-deputados-nas-eleicoes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PT, legenda do outro candidato à Presidência da República, Luiz Inácio Lula da Silva, por sua vez, ganhou 12 deputados, passando de uma bancada atual de 56 integrantes para uma de 68 deputados a partir de 2023.",
+          "prova": "Segundo registro da Câmara com o mesmo número: 68 deputados do PT na legislatura que começou em 2023."
+        },
         {
           "nivel": "N1",
           "instituicao": "Câmara dos Deputados",
@@ -196,56 +221,66 @@
           "prova": "O resultado oficial de 2022 só separa a federação, com 81 eleitos."
         },
         {
-          "nivel": "N1",
-          "instituicao": "Câmara dos Deputados",
-          "titulo": "Bancadas na posse de 2023",
-          "url": "https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias/bancada-na-posse",
+          "nivel": "N4",
+          "instituicao": "Investnews",
+          "titulo": "PL e PT têm as maiores bancadas da Câmara; veja deputados federais eleitos",
+          "url": "https://investnews.com.br/economia/pl-e-pt-tem-as-maiores-bancadas-da-camara-veja-deputados-federais-eleitos",
           "consultada_em": "2026-10-16",
-          "trecho": "Bancadas na posse de 2023 [...] Federação PT - PCdoB - PV 81",
-          "prova": "Na posse a Câmara também só registra a federação, com 81, sem a bancada do PT sozinho."
+          "trecho": "Assim como no Senado , o PL conquistou 99 cadeiras, a maior bancada na nova composição da Câmara, com início em fevereiro de 2023. Já o seu rival, o PT, terá 68 cadeiras.",
+          "prova": "Confirmação independente, com apuração própria, dos 68 eleitos do PT."
         },
         {
           "nivel": "N4",
           "instituicao": "Congresso em Foco",
-          "titulo": "Veja como eram e como ficaram as bancadas desde a eleição de 2022 (26/05/2026)",
-          "url": "https://www.congressoemfoco.com.br/noticia/119145/veja-como-eram-e-como-ficaram-as-bancadas-desde-a-eleicao-de-2022",
+          "titulo": "PL e PT dominarão nova Câmara; veja como bancadas evoluíram ao longo da história desde 1986",
+          "url": "https://congressoemfoco.com.br/coluna/37685/pl-e-pt-dominarao-nova-camara-veja-como-bancadas-evoluiram-ao-longo-da-historia-desde-1986",
           "consultada_em": "2026-10-16",
-          "trecho": "A Federação PT-PCdoB-PV aparece em segundo lugar, com 83 deputados, dois a mais do que os 81 eleitos.",
-          "prova": "Confirma os 81 eleitos da federação, pela base da Câmara."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Times Brasil",
-          "titulo": "Decisão 2026: como ficam as bancadas partidárias após as eleições (06/10/2026)",
-          "url": "https://timesbrasil.com.br/brasil/decisao-2026-como-ficam-as-bancadas-partidarias-apos-as-eleicoes/",
-          "consultada_em": "2026-10-16",
-          "trecho": "O PT também cresceu, mas em menor proporção: passará de 69 para 70 deputados.",
-          "prova": "Número do PT sozinho na imprensa, sem dizer se é a bancada eleita em 2022."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Gazeta de São Paulo",
-          "titulo": "Câmara terá 121 deputados do PL e 70 do PT (05/10/2026)",
-          "url": "https://www.gazetasp.com.br/politica/camara-tera-121-deputados-do-pl-e-70-do-pt-confira-como-ficaram-as-513-cadeiras-por-partido-e-os-mais-votados-das-eleicoes-de-2026-no-brasil/",
-          "consultada_em": "2026-10-16",
-          "trecho": "Na sequência aparece o PT, com 70 deputados , seguido por União Brasil, com 46, PSD, com 43, e PP e Republicanos, com 41 cada.",
-          "prova": "Mostra que 70 é a bancada eleita pelo PT em 2026."
+          "trecho": "O PL, partido de Jair Bolsonaro, elegeu o maior número de deputados federais: 99. A Federação Brasil, que inclui PT, PV e PCdoB, elegeu 80 deputados.",
+          "prova": "Confirma os 80 da federação na contagem do dia da eleição, que a Agência Câmara divide em 68 do PT, 6 do PCdoB e 6 do PV."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A017",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "A imprensa registra 9 senadores do PT depois da eleição e 8 na posse; faltou o dado oficial",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: Lula disse que foi eleito com 9 senadores do PT, de 81. Quatro veículos independentes descrevem o mesmo quadro: depois da eleição, o PT teria 9 senadores (Investnews: 'passou de sete para nove cadeiras'; Poder360: 'Seriam 9 senadores petistas'), e a bancada começou 2023 com 8, porque Wellington Dias virou ministro e sua suplente é do PSD (Poder360, Congresso em Foco, Agência Estado no O Povo). Isso bate com a fala, que fala do momento da eleição. Nesta segunda rodada foi aberta a API de dados abertos do Senado: a lista de senadores da legislatura traz mandato e suplência, mas não o partido de cada um na posse. Pela régua do projeto, número exige fonte N1 ou N2, e ela não foi capturada. O que falta é a composição partidária oficial do Senado em fevereiro de 2023. Não é FALSO porque nenhuma fonte contradiz.",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Senado registra 9 senadores do PT ao fim da eleição de 2022 e 9 na posse, em comunicado do presidente da Casa",
+      "explicacao": "Lula disse que foi eleito tendo 9 senadores do PT, de 81. A Agência Senado registrou, com o fim do segundo turno de 2022, que o PT teria 9 senadores na legislatura seguinte, e a Rádio Senado transcreve o comunicado oficial do presidente do Senado na posse, em fevereiro de 2023, para o cálculo da proporcionalidade: 'Partido dos Trabalhadores (PT), nove Senadores'. As duas são registros do próprio Senado em momentos diferentes (eleição e posse) e batem com a fala. A Agência Senado também registra que a Casa tem 81 senadores desde 1990. Parte da imprensa (Poder360, Congresso em Foco, O Povo) contava 8 na posse, porque Wellington Dias virou ministro e a suplente é do PSD; o comunicado oficial, porém, registra nove, e a divergência fica escrita. A rodada 1 tinha deixado INSUSTENTAVEL provisório por falta de fonte N1; as duas páginas oficiais do Senado foram capturadas nesta rodada.",
       "numero_dito": "9 senadores de 81",
-      "numero_apurado": "9 senadores do PT após a eleição de 2022 e 8 na posse, segundo a imprensa; sem fonte oficial capturada",
-      "data_de_referencia": "outubro de 2022 (eleição) e fevereiro de 2023 (posse)",
+      "numero_apurado": "9 senadores do PT (fim da eleição de 2022 e comunicado da posse, em fevereiro de 2023)",
+      "data_de_referencia": "outubro de 2022 (fim do segundo turno) e fevereiro de 2023 (posse)",
       "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "CartaCapital fala em 9 representantes no início da legislatura; Poder360, Congresso em Foco e O Povo, em 8 na posse.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "Poder360, Congresso em Foco e O Povo contavam 8 senadores do PT na posse, pela ida de Wellington Dias para o ministério; o comunicado oficial do presidente do Senado na posse registra nove.",
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Bancadas do Senado estarão mais concentradas em 2023 (31/10/2022)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2022/10/31/bancadas-do-senado-estarao-mais-concentradas-em-2023",
+          "consultada_em": "2026-10-16",
+          "trecho": "A conclusão do segundo turno das eleições de 2022 no domingo (30) deu números finais às bancadas do Senado para o ano que vem. O PL, já confirmado como o maior partido a partir da próxima legislatura, terá 14 senadores. Ele será seguido pelo PSD, com 11; por MDB e União Brasil, com 10 cada um; e pelo PT, com 9.",
+          "prova": "Registro oficial do Senado: 9 senadores do PT ao fim da eleição de 2022, o momento a que a fala se refere."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Rádio Senado)",
+          "titulo": "Tamanho das bancadas do Senado define a presidência e composição das comissões (02/02/2023)",
+          "url": "https://www12.senado.leg.br/radio/1/noticia/2023/02/02/tamanho-das-bancadas-do-senado-define-a-presidencia-e-composicao-das-comissoes",
+          "consultada_em": "2026-10-16",
+          "trecho": "Assim, para fins de cálculo da proporcionalidade partidária, comunico a representação dos partidos políticos no Senado Federal. Partido Social Democrático (PSD), quinze Senadores; Partido Liberal (PL), doze Senadores; Movimento Democrático Brasileiro (MDB), 10 Senadores; Partido dos Trabalhadores (PT), nove Senadores;",
+          "prova": "Comunicado oficial do presidente do Senado na posse: o PT com nove senadores no início da legislatura."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "PL faz a maior bancada do Senado; PSD é o segundo maior partido (03/10/2022)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2022/10/03/pl-faz-a-maior-bancada-do-senado-psd-e-o-segundo-maior-partido",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PT se isolou como quarta bancada, com 8 senadores confirmados, mas pode chegar a 9 dependendo do segundo turno nos estados. Se isso se confirmar, o partido encostaria em MDB e União Brasil e formaria a quinta bancada de pelo menos 9 senadores — algo que nunca aconteceu no Senado desde 1990, quando a Casa passou a ter 81 senadores.",
+          "prova": "Dá o total de 81 senadores e mostra que o nono senador do PT dependia do segundo turno, confirmado depois."
+        },
         {
           "nivel": "N4",
           "instituicao": "Investnews",
@@ -272,26 +307,9 @@
           "consultada_em": "2026-10-16",
           "trecho": "Com isso, o partido de Lula passa a ter uma bancada de oito senadores na próxima legislatura",
           "prova": "Confirma 8 no início da legislatura."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "O Povo (Agência Estado)",
-          "titulo": "Partidos já definem líderes no Senado antes da eleição da Mesa (25/01/2023)",
-          "url": "https://www.opovo.com.br/noticias/politica/2023/01/25/partidos-ja-definem-lideres-no-senado-antes-da-eleicao-da-mesa.html",
-          "consultada_em": "2026-10-16",
-          "trecho": "O Partido dos Trabalhadores inicia o ano legislativo de 2023 com 8 senadores, um a mais do que na legislatura anterior.",
-          "prova": "Terceira fonte para os 8 na posse."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "CartaCapital",
-          "titulo": "Fabiano Contarato é o novo líder do PT no Senado",
-          "url": "https://www.cartacapital.com.br/?p=321815",
-          "consultada_em": "2026-10-16",
-          "trecho": "O PT terá a quinta maior bancada, com 9 representantes.",
-          "prova": "Registro divergente: 9 representantes."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A018",
@@ -689,7 +707,7 @@
       "resumo": "Foram duas tarifas só contra o Brasil: 40% a mais em agosto de 2025 e 25% em julho de 2026",
       "explicacao": "Contando as medidas dirigidas especificamente ao Brasil, foram duas: a ordem executiva de 30/07/2025, que somou 40% aos 10% recíprocos e passou a valer em 06/08/2025, e a ação final da Seção 301 do USTR, anunciada em 15/07/2026, com 25% sobre parte dos produtos brasileiros a partir de 22/07/2026. Houve ainda medidas que alcançaram o Brasil junto com outros países (a tarifa recíproca de 10% de abril de 2025 e a sobretaxa de 12,5% por trabalho forçado, aplicada a 41 economias em 2026), e a tarifa de 40% caiu em parte em novembro de 2025 e perdeu base legal com a decisão da Suprema Corte dos EUA de fevereiro de 2026. 'Duas rodadas' é a contagem das medidas próprias contra o Brasil e confere.",
       "numero_dito": "duas rodadas",
-      "numero_apurado": "duas: 40% (julho de 2025) e 25% (julho de 2026)",
+      "numero_apurado": "duas: 40% (ordem de 30 de julho de 2025, em vigor em 6 de agosto) e 25% (julho de 2026)",
       "data_de_referencia": "julho de 2025 a julho de 2026",
       "ressalva": "Houve também a tarifa global de 10% de abril de 2025 e uma de 12,5% aplicada a vários países em 2026",
       "confianca": "alta",

@@ -27,15 +27,40 @@
       }
     },
     {
-      "url": "https://40graus.com.br/contas-basicas-dividas-poupanca-brasileiros/",
-      "capturada_em": "2026-10-16T03:51:00+00:00",
+      "url": "https://abcdoabc.com.br/mais-medicos-cresce-151-em-sp-entre-o-fim-de-2022-e-novembro-de-2024/",
+      "capturada_em": "2026-10-16T10:35:53+00:00",
       "status": 200,
-      "tipo": "text/html; charset=UTF-8",
+      "tipo": "text/html",
       "caminho": "direto",
-      "bytes": 96816,
-      "sha256": "e3d51ce1300ef2dcffac9f31fd921b80eb6ff4982f0074b571a3bd8c4ea2df9b",
+      "bytes": 40951,
+      "sha256": "b708d7b09abed78abe1e18a54f6e8a06526b46298fa05260a69cbecb3b546fc9",
       "trechos": {
-        "A126": "encontrado"
+        "A179": "encontrado",
+        "A180": "encontrado"
+      }
+    },
+    {
+      "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20170930_FSP.pdf",
+      "capturada_em": "2026-10-16T10:35:24+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 347051,
+      "sha256": "209402475cb4a366825ba4c200b7127e7caf73c8d6509c70e46a0b372e524c99",
+      "trechos": {
+        "A169": "encontrado"
+      }
+    },
+    {
+      "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20180225_OEstadodeSPaulo_EletrobrasPerdeRelevanciaNaGeracaoDeEnergiaDoPais.pdf",
+      "capturada_em": "2026-10-16T10:35:25+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 231477,
+      "sha256": "57b423697bfbea7b8a31e149be02c5db3a0ab211f9548b694a4e7d57b633988d",
+      "trechos": {
+        "A169": "encontrado"
       }
     },
     {
@@ -78,6 +103,18 @@
       }
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-12/em-2015-mais-medicos-ocupa-todas-vagas-abertas-com-brasileiros-pela-1a-vez",
+      "capturada_em": "2026-10-16T10:35:37+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 103490,
+      "sha256": "0776d7cf1af9f436fa64e2c667859a354a44019d5ff0dd0cddca139e22e0f104",
+      "trechos": {
+        "A178": "encontrado"
+      }
+    },
+    {
       "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13983-asi-em-2010-pib-varia-75-e-fica-em-r-3675-trilhoes",
       "capturada_em": "2026-10-16T03:52:34+00:00",
       "status": 200,
@@ -87,6 +124,30 @@
       "sha256": "2ffd654845343cb266d748fad2a291f7c7eec7d510c0f0d670b50ad04836a0fd",
       "trechos": {
         "A007": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciainfra.com/blog/bndes-registra-lucro-recorrente-recorde-de-r-152-bi-em-2025/",
+      "capturada_em": "2026-10-16T10:37:35+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 196713,
+      "sha256": "2060b6adf4561922a522113a6292375e0d6d714b488a6d44cf841914f166a68a",
+      "trechos": {
+        "A157": "encontrado"
+      }
+    },
+    {
+      "url": "https://agenciainfra.com/blog/wp-content/uploads/2026/07/Sondagem-CNI-Industria-e-Energia-2026.pdf",
+      "capturada_em": "2026-10-16T10:36:48+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 6424945,
+      "sha256": "6c4bd567f5cf87dd19b1678e93e5f84a6ab0c9067ee1d077a1a8afeec7758463",
+      "trechos": {
+        "A163": "encontrado"
       }
     },
     {
@@ -491,6 +552,18 @@
       }
     },
     {
+      "url": "https://bpmoney.com.br/?p=426253",
+      "capturada_em": "2026-10-16T10:36:46+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 304083,
+      "sha256": "11533fff99ecd07e9ecafc5484e7fc613f87cae315be69015fa598fbe422800d",
+      "trechos": {
+        "A192": "encontrado"
+      }
+    },
+    {
       "url": "https://bpmoney.com.br/economia/lula-diz-que-eua-devem-se-preocupar-com-brasil-e-cita-avanco-comercial-da-china/",
       "capturada_em": "2026-10-16T03:49:42+00:00",
       "status": 200,
@@ -541,6 +614,18 @@
       }
     },
     {
+      "url": "https://braziljournal.com/o-dia-em-que-lula-quase-demitiu-meirelles/",
+      "capturada_em": "2026-10-16T10:37:41+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 187178,
+      "sha256": "d5e2e83cfd7ed283ce0ee744c6192e8ca45a6c530db0549cfc67d142ccc7863f",
+      "trechos": {
+        "A158": "encontrado"
+      }
+    },
+    {
       "url": "https://cenarioenergia.com.br/2026/02/19/reforma-do-setor-eletrico-redesenha-o-mercado-de-energia-e-amplia-desafios-regulatorios/",
       "capturada_em": "2026-10-16T03:48:54+00:00",
       "status": 200,
@@ -578,6 +663,150 @@
       }
     },
     {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202501&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:41:11+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 955,
+      "sha256": "9c8e3853923a2574338462203065fd47f651cbe014fc9841630ff70d033d67e1",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202502&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:43:09+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 956,
+      "sha256": "055f34d3dc34345fbaa08daffd44a16323bc33ced2513d326b64475362f53bc3",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202503&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:41:21+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 955,
+      "sha256": "b0c76937b78804b9c037775330625338affcf782a52199d0cedc782d4a52ce58",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202504&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:41:33+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 1118,
+      "sha256": "3140220fe4ec02cb7d2a9da0ed9c7e9c2efd4430b299c98f4f7d2deb7b4f70d7",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202505&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:41:34+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 956,
+      "sha256": "fad52f33295e76c3c51f3df0a2bc5d951b7863294eabb05d41e8c80aba08d630",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202506&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:43:18+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 1119,
+      "sha256": "428ca59731e15d138ce19f9bc8b1a358f2f0c3924a08c5aa66268338e1dfb67b",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202601&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:41:43+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 955,
+      "sha256": "b5aee26b67a7bf9b3d49370b531148740f9d69407caaf44cf64887b122a4e3e9",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202602&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:43:22+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 955,
+      "sha256": "981b5750b41bd2b7a6065ca9997927b5d1db2ab1e4b3096e024e24a2e23d1492",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202603&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:41:53+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 953,
+      "sha256": "7cc2bd8e385123fd7d88bae33b7dafd9937db85bcd48c675b81be83d70961957",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202604&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:43:23+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 955,
+      "sha256": "49d847ecefc1d273de51a9e927a5f4fe816ec7bc38fc798e84c8ad79b789738b",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202605&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:42:03+00:00",
+      "status": 200,
+      "tipo": "application/json; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 954,
+      "sha256": "a4af7cea3cedf61d383bf8ec980cbb2011478095aa3e42550346f7ae9b7807e9",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202606&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+      "capturada_em": "2026-10-16T10:42:12+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 1118,
+      "sha256": "120400509bc943350289518f300e07a039b754b74d97490312396c2f8209983e",
+      "trechos": {
+        "A037": "encontrado"
+      }
+    },
+    {
       "url": "https://congressoemfoco.com.br/area/governo/retrato-do-desmonte-veja-a-integra-do-relatorio-da-transicao",
       "capturada_em": "2026-10-16T03:52:12+00:00",
       "status": 200,
@@ -590,6 +819,18 @@
       }
     },
     {
+      "url": "https://congressoemfoco.com.br/coluna/37685/pl-e-pt-dominarao-nova-camara-veja-como-bancadas-evoluiram-ao-longo-da-historia-desde-1986",
+      "capturada_em": "2026-10-16T10:39:32+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 190272,
+      "sha256": "ae0a131661cb0904567fee35c1df374db3d66d23cc40b1a9c69f5da5e746df73",
+      "trechos": {
+        "A016": "encontrado"
+      }
+    },
+    {
       "url": "https://congressoemfoco.com.br/noticia/47915/cunha-sabota-uniao-pt-psdb-sobre-maioridade-penal",
       "capturada_em": "2026-10-16T03:50:17+00:00",
       "status": 200,
@@ -599,18 +840,6 @@
       "sha256": "da3c2fadf873c4071b2d75107219054fc27bb65a14aff3338173a41b0f6b33fb",
       "trechos": {
         "A059": "encontrado"
-      }
-    },
-    {
-      "url": "https://dadosabertos.aneel.gov.br/dataset/resultado-de-leiloes",
-      "capturada_em": "2026-10-16T04:24:36+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=utf-8",
-      "caminho": "direto",
-      "bytes": 24346,
-      "sha256": "c8b6db2e2b0d19935b5fa7cd89ab5799498aacb3e9f1fb1ba1ce49bfb4b1acfa",
-      "trechos": {
-        "A169": "encontrado"
       }
     },
     {
@@ -723,6 +952,18 @@
       }
     },
     {
+      "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-repete-que-mantera-reajuste-do-salario-minimo-e-bolsa-familia-caso-eleito-1.3797978",
+      "capturada_em": "2026-10-16T10:37:27+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 166833,
+      "sha256": "e601ee9d4df077e11c71d0219ebf184bb85d3bef75daf1783257a6c9db3c768c",
+      "trechos": {
+        "A161": "encontrado"
+      }
+    },
+    {
       "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/senador-camilo-santana-propoe-reduzir-maioridade-penal-para-16-anos-em-crimes-hediondos-1.3798866",
       "capturada_em": "2026-10-16T03:50:09+00:00",
       "status": 200,
@@ -758,6 +999,42 @@
       "sha256": "cd743fd246dab04e02c630e92d3357e18df9e993cb18f117738ae05c8d053d34",
       "trechos": {
         "A175": "encontrado"
+      }
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=en&freq=M&reporter=DE&partner=BR&product=TOTAL&flow=1&indicators=VALUE_IN_EUROS&sinceTimePeriod=2025-01",
+      "capturada_em": "2026-10-16T10:41:10+00:00",
+      "status": 200,
+      "tipo": "application/json",
+      "caminho": "direto",
+      "bytes": 2812,
+      "sha256": "2a7b6cd3f23a0df06f21cc9aa096fe7c8f4a3efbb92443af52760504e86aec90",
+      "trechos": {
+        "A038": "encontrado"
+      }
+    },
+    {
+      "url": "https://edicao.correiobraziliense.com.br/correiobraziliense/2026/02/10/133471/pdf/A02-POL-1002-DIG.pdf",
+      "capturada_em": "2026-10-16T10:41:06+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 436559,
+      "sha256": "c5ca66d39f4d4086dce97d5b4dbdbc443efc40b394fc89d325874308944b03d2",
+      "trechos": {
+        "A029": "encontrado"
+      }
+    },
+    {
+      "url": "https://eixos.com.br/gas-natural/gas-do-povo-chega-a-15-milhoes-de-familias-com-nova-expansao/",
+      "capturada_em": "2026-10-16T10:36:48+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 354770,
+      "sha256": "26d62680b3b43ab45808eb393320397212ca3ca1a5dad30af569f270b64a4438",
+      "trechos": {
+        "A192": "encontrado"
       }
     },
     {
@@ -885,6 +1162,18 @@
       }
     },
     {
+      "url": "https://futurodasaude.com.br/?p=36715",
+      "capturada_em": "2026-10-16T10:36:35+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 207514,
+      "sha256": "01a963b87d5562906ec1355c7692a48e2e9939ccabce14702c1e549b0f9de8ce",
+      "trechos": {
+        "A187": "encontrado"
+      }
+    },
+    {
       "url": "https://futurodasaude.com.br/?p=38454",
       "capturada_em": "2026-10-16T03:49:14+00:00",
       "status": 200,
@@ -906,7 +1195,6 @@
       "bytes": 209362,
       "sha256": "25a2f467508d6b85edd9ad16d077c5d076e993e54153a56c4a38d9ee600df75c",
       "trechos": {
-        "A174": "encontrado",
         "A175": "encontrado",
         "A176": "encontrado",
         "A177": "encontrado",
@@ -924,6 +1212,18 @@
       "sha256": "3bdc9af8a1a34318872c70197507bb159ddbc70a7a19c65988f6e1912a37bebc",
       "trechos": {
         "A099": "encontrado"
+      }
+    },
+    {
+      "url": "https://gesel.ie.ufrj.br/wp-content/uploads/2022/10/Castro_2022_10_03.pdf",
+      "capturada_em": "2026-10-16T10:35:26+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 293747,
+      "sha256": "f6ef15ed549c1968d0027f18e97e05c34c08e7d780408a64fb32ec4fb648a3cb",
+      "trechos": {
+        "A169": "encontrado"
       }
     },
     {
@@ -1011,6 +1311,18 @@
       }
     },
     {
+      "url": "https://investnews.com.br/economia/pl-e-pt-tem-as-maiores-bancadas-da-camara-veja-deputados-federais-eleitos",
+      "capturada_em": "2026-10-16T10:39:33+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 319862,
+      "sha256": "4896a8b6ecea7ddd26e124e837f659a0773db4b25a9d2b71ef7bef6eeb6ebe9c",
+      "trechos": {
+        "A016": "encontrado"
+      }
+    },
+    {
       "url": "https://investnews.com.br/economia/quem-sao-senadores-eleitos-2022/amp/",
       "capturada_em": "2026-10-16T03:50:50+00:00",
       "status": 200,
@@ -1020,6 +1332,54 @@
       "sha256": "66cca178ab785ee11da298d5c917a2a9e11db6a62b7eaa9b99b16c476dca2016",
       "trechos": {
         "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://istoe.com.br/flavio-bolsonaro-reajuste-aposentadorias-inss",
+      "capturada_em": "2026-10-16T10:37:30+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 223687,
+      "sha256": "b9b417658f3edacc620438e91edaa9c654151db16159a74ad87c099bdb84f513",
+      "trechos": {
+        "A161": "encontrado"
+      }
+    },
+    {
+      "url": "https://istoe.com.br/procuradoria-diz-que-silvio-santos-e-lula-se-reuniram-para-salvar-panamericano/",
+      "capturada_em": "2026-10-16T10:37:20+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 223473,
+      "sha256": "a9d44144fa68c425396a3226cbaeb930c6325a945d6fc42857c8077ff3d22d6f",
+      "trechos": {
+        "A099": "encontrado"
+      }
+    },
+    {
+      "url": "https://jornalcontabil.com.br/noticia/para-pacheco-governo-erra-ao-questionar-no-stf-desoneracao-da-folha/",
+      "capturada_em": "2026-10-16T10:37:45+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 238012,
+      "sha256": "aa966d83ff0092c2f8c8fe0245ae7271d1128877c251c8844190dd0875d72975",
+      "trechos": {
+        "A063": "encontrado"
+      }
+    },
+    {
+      "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/baleia-rossi-sinaliza-alinhamento-com-tarcisio-enquanto-lula-disputa-apoio-do-mdb/",
+      "capturada_em": "2026-10-16T10:41:07+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 88354,
+      "sha256": "4f0cf65a5bd1d716cb67770649328132efec67da51e7594aed160aa057ca6408",
+      "trechos": {
+        "A029": "encontrado"
       }
     },
     {
@@ -1118,7 +1478,6 @@
       "bytes": 567941,
       "sha256": "f5155ba306340fc204ee27e164977dbcf7f990004e2559a4875d07e6202b4628",
       "trechos": {
-        "A161": "encontrado",
         "A162": "encontrado"
       }
     },
@@ -1209,19 +1568,6 @@
       }
     },
     {
-      "url": "https://medicinasa.com.br/mais-medicos-cresce",
-      "capturada_em": "2026-10-16T03:49:23+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 203669,
-      "sha256": "a2f549692e9cfd13498804276f5959799a8229175447593496ddc076fc0de759",
-      "trechos": {
-        "A179": "encontrado",
-        "A180": "encontrado"
-      }
-    },
-    {
       "url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2003-09-05/brazil-will-withdraw-another-us4-billion-imf-agreement-funds",
       "capturada_em": "2026-10-16T03:50:27+00:00",
       "status": 200,
@@ -1303,8 +1649,7 @@
       "sha256": "77fed1ab4cf40f48f01be4550b57708604f68319f363a6a3805d891729308584",
       "trechos": {
         "A072": "encontrado",
-        "A073": "encontrado",
-        "A080": "encontrado"
+        "A073": "encontrado"
       }
     },
     {
@@ -1357,14 +1702,39 @@
     },
     {
       "url": "https://noticias.stf.jus.br/postsnoticias/emenda-regimental-altera-regras-para-devolucao-de-pedidos-de-vista-no-stf/",
-      "capturada_em": "2026-10-16T03:50:00+00:00",
+      "capturada_em": "2026-10-16T10:37:46+00:00",
       "status": 200,
       "tipo": "text/html; charset=UTF-8",
       "caminho": "direto",
       "bytes": 65343,
-      "sha256": "830227d0e21ead353d3e98ad2fa7aa83467379ceae10158d80843207f4047aa4",
+      "sha256": "f11b2726d98f9a021bd8aa25904dce29da590be328b31fb48ca19263b8d09a02",
       "trechos": {
-        "A078": "encontrado"
+        "A078": "encontrado",
+        "A080": "encontrado"
+      }
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/governo-federal-aciona-stf-contra-decisoes-que-responsabilizam-estado-por-descontos-indevidos-nas-aposentadorias/",
+      "capturada_em": "2026-10-16T10:37:30+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 65079,
+      "sha256": "8fcfa788f42fe75874752d04e6ea19096ba99fb46a6fe20b2ad7a2d01ced7612",
+      "trechos": {
+        "A063": "encontrado"
+      }
+    },
+    {
+      "url": "https://noticias.stf.jus.br/postsnoticias/presidente-lula-aciona-stf-para-validar-decreto-que-eleva-aliquotas-do-iof/",
+      "capturada_em": "2026-10-16T10:37:29+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 66017,
+      "sha256": "0dad9d75dd7949fd889d7f0f47a0fcaec966169366a30e8eb24fe800d7305f1f",
+      "trechos": {
+        "A063": "encontrado"
       }
     },
     {
@@ -1380,15 +1750,15 @@
       }
     },
     {
-      "url": "https://oimparcial.com.br/noticias/2024/07/em-18-meses-mais-medicos-cresce-583-no-maranhao/",
-      "capturada_em": "2026-10-16T03:49:21+00:00",
+      "url": "https://ofator.com.br/?p=12241",
+      "capturada_em": "2026-10-16T10:37:21+00:00",
       "status": 200,
       "tipo": "text/html; charset=UTF-8",
       "caminho": "direto",
-      "bytes": 70575,
-      "sha256": "71104624c3c9577d050013f6fbe9ae97ed1d0df0ddb19e67f83bd52b1efda913",
+      "bytes": 374532,
+      "sha256": "0e22241f6fb13832fc71e2e82c42b6c6a6ceb2163201c12c15b38a1e9a884466",
       "trechos": {
-        "A179": "encontrado"
+        "A099": "encontrado"
       }
     },
     {
@@ -1400,10 +1770,21 @@
       "bytes": 165608,
       "sha256": "43aea35ca7a68ee7408d8a4700bc263a355eab09d6a3dd4f2c60bfce5165220a",
       "trechos": {
-        "A174": "encontrado",
         "A175": "encontrado",
         "A176": "encontrado",
         "A177": "encontrado"
+      }
+    },
+    {
+      "url": "https://outraspalavras.net/outrasaude/saude-bucal-no-sus-recursos-regridem-a-2005/",
+      "capturada_em": "2026-10-16T10:36:23+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 164628,
+      "sha256": "754c711ac1c58f2d4c418df6e16bb310b468e58316fb14f9cf3afe8b5b5cd256",
+      "trechos": {
+        "A182": "encontrado"
       }
     },
     {
@@ -1416,6 +1797,30 @@
       "sha256": "1c8447df98b2078eda0116c70c4568cbbde16842540fbc63656250cafbe04fc7",
       "trechos": {
         "A130": "encontrado"
+      }
+    },
+    {
+      "url": "https://portal.cfm.org.br/noticias/pesquisa-datafolhaestudo-revela-dificuldade-no-acesso-a-servicos-na-rede-publica-de-saude/",
+      "capturada_em": "2026-10-16T10:35:31+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 163987,
+      "sha256": "025732d20ee7bff56f444059ee3d8f007c52d051410890f9b484fce1a0d84b36",
+      "trechos": {
+        "A174": "encontrado"
+      }
+    },
+    {
+      "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=534100&ori=1",
+      "capturada_em": "2026-10-16T10:37:28+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 59877,
+      "sha256": "c557ecb0c55426e9cc62410126c31878dd5df5bd78fc3ba2ac6402b83db76172",
+      "trechos": {
+        "A063": "encontrado"
       }
     },
     {
@@ -1508,15 +1913,15 @@
       }
     },
     {
-      "url": "https://pt.wikipedia.org/wiki/Edemar_Cid_Ferreira",
-      "capturada_em": "2026-10-16T03:53:27+00:00",
+      "url": "https://portalibre.fgv.br/press-releases/icc-de-setembro-de-2026",
+      "capturada_em": "2026-10-16T10:36:34+00:00",
       "status": 200,
-      "tipo": "text/html; charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 138817,
-      "sha256": "082bbac982ea1c41e0f1ce381617002c813a60242e9f93397f3bce02909cbd2a",
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 74187,
+      "sha256": "ae3ec234e9f5a1a351782595400f512f11c2632b8274649e0d47bdd7ccd85ff3",
       "trechos": {
-        "A100": "encontrado"
+        "A126": "encontrado"
       }
     },
     {
@@ -1543,6 +1948,18 @@
       "trechos": {
         "A001": "encontrado",
         "A002": "encontrado"
+      }
+    },
+    {
+      "url": "https://revistaoeste.com/economia/brasileiros-se-endividam-e-tiram-dinheiro-da-poupanca-para-pagar-contas-basicas/",
+      "capturada_em": "2026-10-16T10:36:36+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 405077,
+      "sha256": "157e958f60daf86456c885343c51e23030cffdff3ca3792ef10c5a6a9823f8ef",
+      "trechos": {
+        "A126": "encontrado"
       }
     },
     {
@@ -1607,6 +2024,18 @@
       "sha256": "2f905e6ea2dbf05517c7b262d369797967aa5c17812581aee40f83b4436ac814",
       "trechos": {
         "A041": "encontrado"
+      }
+    },
+    {
+      "url": "https://sbtnews.sbt.com.br/noticia/economia/governo-espera-proposta-dos-eua-sobre-tarifaco-em-novembro",
+      "capturada_em": "2026-10-16T10:40:58+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 211970,
+      "sha256": "666bbc0a23ace275f8610ba11d6d6f19e9ffb72bc29e9d7b6661cb20f95b504a",
+      "trechos": {
+        "A034": "encontrado"
       }
     },
     {
@@ -1843,6 +2272,18 @@
       }
     },
     {
+      "url": "https://static.poder360.com.br/uploads/2026/08/estudo-clp-Energia-cara-no-brasil-freia-a-competitividade-3ago2026.pdf",
+      "capturada_em": "2026-10-16T10:36:51+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 373389,
+      "sha256": "dfea397d6c604246153bfc2372a33d744f5e5af8bcefaf8649bb17689882b229",
+      "trechos": {
+        "A165": "encontrado"
+      }
+    },
+    {
       "url": "https://static.poder360.com.br/uploads/2026/09/Questao-de-Ordem-PET-16662-Gimar-Mendes-analise-investigacao-Alexandre-de-Moraes-15set2026.pdf",
       "capturada_em": "2026-10-16T03:51:41+00:00",
       "status": 200,
@@ -1880,18 +2321,6 @@
       }
     },
     {
-      "url": "https://timesbrasil.com.br/brasil/decisao-2026-como-ficam-as-bancadas-partidarias-apos-as-eleicoes/",
-      "capturada_em": "2026-10-16T03:50:25+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 137603,
-      "sha256": "43d1d280910ecf79d37eab7ab4f25d535ad57f71b87602897e77e446c0ed6f31",
-      "trechos": {
-        "A016": "encontrado"
-      }
-    },
-    {
       "url": "https://timesbrasil.com.br/brasil/itamaraty-destaca-carater-unilateral-de-decisao-dos-eua-sobre-pcc-e-cv-e-riscos-a-soberania-nacional/",
       "capturada_em": "2026-10-16T03:50:31+00:00",
       "status": 200,
@@ -1925,6 +2354,18 @@
       "sha256": "8913551b3d933195ef192ec36b0a471fcd0d1c9a5e16846f500e4006a9faeae3",
       "trechos": {
         "A058": "encontrado"
+      }
+    },
+    {
+      "url": "https://transparencia.stf.jus.br/extensions/corte_aberta/corte_aberta.html",
+      "capturada_em": "2026-10-16T10:37:55+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 160536,
+      "sha256": "228da55b2a924518e2c8a7283b4e332e57257149e9bf9f9dc872e3ffbc81aeae",
+      "trechos": {
+        "A080": "encontrado"
       }
     },
     {
@@ -1990,6 +2431,18 @@
       }
     },
     {
+      "url": "https://tvtnews.com.br/lula-prorroga-prazo-para-aplicacao-de-recursos-do-fgts-entidades-hospitalares-filantropicas/",
+      "capturada_em": "2026-10-16T10:36:37+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 148445,
+      "sha256": "bb61e8a62113278460e453bbb9241727d69d668d06c388fd13598a2970128aec",
+      "trechos": {
+        "A187": "encontrado"
+      }
+    },
+    {
       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-section-301-action-brazils-unreasonable-acts-policies-and-practices",
       "capturada_em": "2026-10-16T03:51:54+00:00",
       "status": 200,
@@ -2026,6 +2479,18 @@
       }
     },
     {
+      "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/27047/1/PRFol_216443_Tr%c3%aad%20d%c3%a9cadas_BNDES_1994-2024%20PDFA.pdf",
+      "capturada_em": "2026-10-16T10:37:37+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 375219,
+      "sha256": "dcea5911e39d78fd021fa2f121241c5e4615f54f5e743fb6d712a248fbbd19e5",
+      "trechos": {
+        "A157": "encontrado"
+      }
+    },
+    {
       "url": "https://www.acessa.com/noticias/2026/09/341253-moretti-havera-remanejamento-de-despesas-para-acomodar-desenrola-3-0-no-orcamento.html",
       "capturada_em": "2026-10-16T03:49:32+00:00",
       "status": 200,
@@ -2047,18 +2512,6 @@
       "sha256": "37e76dd70d53c58b4ad0375b3f2463f2092e8520c3f31fdd2ac425239627680f",
       "trechos": {
         "A009": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.agazeta.com.br/mundo/usurpacao-de-poder-os-argumentos-do-governo-lula-para-ir-ao-stf-contra-derrubadadoiof-pelo-congresso-0725",
-      "capturada_em": "2026-10-16T03:50:32+00:00",
-      "status": 200,
-      "tipo": "text/html;charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 490169,
-      "sha256": "647e9cc32df16e03e3d2c06e2cd4c8151b1ddd7cc38ebca2f5afc11aede6668f",
-      "trechos": {
-        "A063": "encontrado"
       }
     },
     {
@@ -2248,6 +2701,18 @@
       }
     },
     {
+      "url": "https://www.bloomberglinea.com.br/2022/11/17/arminio-bacha-e-malan-rebatem-criticas-de-lula-ao-mercado-leia-carta/",
+      "capturada_em": "2026-10-16T10:36:37+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 337502,
+      "sha256": "d01b9f9a3fc9c7ae1088b14f7e053bdf609df608400b2f28f0576360f6617647",
+      "trechos": {
+        "A153": "encontrado"
+      }
+    },
+    {
       "url": "https://www.bnews.com.br/noticias/policia/violencia-supera-corrupcao-e-economia-entre-principais-problemas-do-brasil-aponta-quaest.html",
       "capturada_em": "2026-10-16T03:50:09+00:00",
       "status": 200,
@@ -2257,6 +2722,18 @@
       "sha256": "a6f620c751a99b757c7442730228327c0bcdc8b07b4313111db0feba642190e9",
       "trechos": {
         "A043": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.brasildefato.com.br/2023/05/08/lula-recria-brasil-sorridente-programa-de-saude-bucal-do-sus",
+      "capturada_em": "2026-10-16T10:36:24+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 195553,
+      "sha256": "0ff6b39b034f262b1e03d9ce0ebed7621976f2afc5f12abf6e734ce30649672e",
+      "trechos": {
+        "A182": "encontrado"
       }
     },
     {
@@ -2303,18 +2780,6 @@
       "caminho": "direto",
       "bytes": 119006,
       "sha256": "aae5c3754d38c0c875ff26987b826f9743625ed05fbf75cc314f44e3bb382bbd",
-      "trechos": {
-        "A016": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias/bancada-na-posse",
-      "capturada_em": "2026-10-16T05:05:32+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=utf-8",
-      "caminho": "direto",
-      "bytes": 118974,
-      "sha256": "51f2ac1bc3ae2d2c706d0cbfb088eec6881e806ac2ad21aa31b032626a7651ef",
       "trechos": {
         "A016": "encontrado"
       }
@@ -2374,15 +2839,27 @@
       }
     },
     {
-      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2284995",
-      "capturada_em": "2026-10-16T05:05:29+00:00",
+      "url": "https://www.camara.leg.br/noticias/911504-pl-desponta-como-maior-bancada-da-camara-seguido-pela-federacao-liderada-pelo-pt/",
+      "capturada_em": "2026-10-16T10:39:30+00:00",
       "status": 200,
-      "tipo": "application/pdf",
+      "tipo": "text/html; charset=utf-8",
       "caminho": "direto",
-      "bytes": 11019087,
-      "sha256": "44ebc38aa375998e1b9106fed3db813815fa09e17b27a698b9e5d39323626675",
+      "bytes": 61012,
+      "sha256": "fa4a4235bea8440c17de1a3fb1d911aba4d36ca3b448c7dcda2c1ed2f4f11ce5",
       "trechos": {
-        "A178": "encontrado"
+        "A016": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/911890-confira-os-partidos-que-mais-ganharam-e-mais-perderam-deputados-nas-eleicoes/",
+      "capturada_em": "2026-10-16T10:39:29+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 59970,
+      "sha256": "fd3f4f35a398107114ee01c031d227ada69cf53539b1824b3fb654929eafbd94",
+      "trechos": {
+        "A016": "encontrado"
       }
     },
     {
@@ -2456,18 +2933,6 @@
       "sha256": "0c48585225e7c4c99483007702556df8547bdd0ba6fb90550bd44f31f17415ce",
       "trechos": {
         "A090": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.cartacapital.com.br/?p=321815",
-      "capturada_em": "2026-10-16T03:50:49+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 243027,
-      "sha256": "ee41b32a56439882bbd4369e07717f9e949817a02b2272418b8ecb63ca3e9f38",
-      "trechos": {
-        "A017": "encontrado"
       }
     },
     {
@@ -2583,6 +3048,31 @@
       }
     },
     {
+      "url": "https://www.conass.org.br/?p=4029",
+      "capturada_em": "2026-10-16T10:35:39+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 454701,
+      "sha256": "b1530b34464ad2a74dbe608165a1b3027595692dd2e7d078732d648223fc980d",
+      "trechos": {
+        "A178": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.conass.org.br/wp-content/uploads/2024/03/4.1-Informe-CIT_PMM_2024.pdf",
+      "capturada_em": "2026-10-16T10:35:52+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 761105,
+      "sha256": "b096356aa92b9eda4934917a46b247bc40b0a649a5075c00a67a52882354bb2f",
+      "trechos": {
+        "A179": "encontrado",
+        "A180": "encontrado"
+      }
+    },
+    {
       "url": "https://www.congressoemfoco.com.br/area/congresso-nacional/com-47-votos-senado-aprova-flavio-dino-como-novo-ministro-do-stf/",
       "capturada_em": "2026-10-16T03:49:21+00:00",
       "status": 200,
@@ -2628,18 +3118,6 @@
       "sha256": "cf75f8cc31a4401195f764770a47a1e3ab3330931ca3ea1ea760460c8596d1c9",
       "trechos": {
         "A003": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.congressoemfoco.com.br/noticia/119145/veja-como-eram-e-como-ficaram-as-bancadas-desde-a-eleicao-de-2022",
-      "capturada_em": "2026-10-16T03:50:21+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=utf-8",
-      "caminho": "direto",
-      "bytes": 190303,
-      "sha256": "44a6f39078e791a543deaae77e56b1eab5185a90501ea1d6c3ecf861c8f64d84",
-      "trechos": {
-        "A016": "encontrado"
       }
     },
     {
@@ -2704,6 +3182,18 @@
       }
     },
     {
+      "url": "https://www.congressoemfoco.com.br/noticia/3149/ministros-consultam-cgu-para-participar-da-campanha",
+      "capturada_em": "2026-10-16T10:41:04+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 169899,
+      "sha256": "d559c6217fcf009968fe7553fba17fa7a49e70fd71b32e86a89b070c6f477818",
+      "trechos": {
+        "A028": "encontrado"
+      }
+    },
+    {
       "url": "https://www.congressoemfoco.com.br/noticia/44377/com-indicacao-de-ministros-pt-perde-uma-cadeira-no-senado",
       "capturada_em": "2026-10-16T03:50:48+00:00",
       "status": 200,
@@ -2716,8 +3206,44 @@
       }
     },
     {
+      "url": "https://www.congressoemfoco.com.br/noticia/93287/lula-faz-primeira-reuniao-ministerial-de-2006-amanha",
+      "capturada_em": "2026-10-16T10:41:05+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 165818,
+      "sha256": "76e0d2e5cd1a7d65fd5c24e58d227ed2cd74932f8a0a93e8ac927b1f6b54cf15",
+      "trechos": {
+        "A028": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.correio24horas.com.br/brasil/flavio-bolsonaro-avalia-limitar-reajuste-de-aposentadorias-e-bpc-diz-jornal-1026",
+      "capturada_em": "2026-10-16T10:37:31+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 709666,
+      "sha256": "751d2652a1113e70817ef52bde81db103b04de1ea86a30150cc09961fa318909",
+      "trechos": {
+        "A161": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.correiobraziliense.com.br/economia/2026/10/7517086-brasil-e-estados-unidos-avancam-em-negociacoes-sobre-tarifas-comerciais.html",
+      "capturada_em": "2026-10-16T10:41:01+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 206672,
+      "sha256": "7b4325cf904ef6694a673da41be5d22098f752d4c483788ed99c3a3a6e65598a",
+      "trechos": {
+        "A034": "encontrado"
+      }
+    },
+    {
       "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
-      "capturada_em": "2026-10-16T03:50:43+00:00",
+      "capturada_em": "2026-10-16T10:58:06+00:00",
       "status": 200,
       "tipo": "text/html",
       "caminho": "direto",
@@ -2934,6 +3460,30 @@
       }
     },
     {
+      "url": "https://www.dgabc.com.br/Noticia/4351309/edinho-diz-ter-conversado-com-kassab-e-marcos-pereira-sobre-2-turno",
+      "capturada_em": "2026-10-16T10:41:07+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 96656,
+      "sha256": "b9e240efafbefd04df327100e026d014277b99f5db49de674c274823f59503c6",
+      "trechos": {
+        "A029": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.dgabc.com.br/Noticia/4352191/flavio-bolsonaro-pede-para-justica-eleitoral-investigar-diretor-da-pf-por-beneficiar-lula",
+      "capturada_em": "2026-10-16T10:38:13+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 99025,
+      "sha256": "0a57844528a36df114e7e0673a053c7ad4d5e842e2fc953b966431716633ca72",
+      "trechos": {
+        "A086": "encontrado"
+      }
+    },
+    {
       "url": "https://www.diariodepernambuco.com.br/amp/politica/2026/05/11713616-lula-levara-a-reuniao-com-trump-proposta-de-acordo-de-combate-ao-crime-organizado-diz-alckmin.html",
       "capturada_em": "2026-10-16T03:50:52+00:00",
       "status": 200,
@@ -2970,6 +3520,18 @@
       }
     },
     {
+      "url": "https://www.diariodepernambuco.com.br/noticia/vidaurbana/2024/03/doentes-e-aflitos-pacientes-precisam-aguardar-longos-prazos-para-real.html",
+      "capturada_em": "2026-10-16T10:35:30+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 147507,
+      "sha256": "16a102f6452fbca649fa46712c6bcf2e947c1ffda51c1553d6b1749ec0bfea5f",
+      "trechos": {
+        "A174": "encontrado"
+      }
+    },
+    {
       "url": "https://www.diariodepernambuco.com.br/politica/2025/11/11701249-stf-comeca-a-analisar-decisao-de-moraes-que-decretou-prisao-de-bolsonaro.html",
       "capturada_em": "2026-10-16T03:49:06+00:00",
       "status": 200,
@@ -2995,13 +3557,14 @@
     },
     {
       "url": "https://www.diariodepernambuco.com.br/politica/2026/08/11721995-lula-diz-que-conversa-com-trump-ja-deu-frutos-e-espera-que-sejam-bem-saborosos.html",
-      "capturada_em": "2026-10-16T03:51:35+00:00",
+      "capturada_em": "2026-10-16T10:40:57+00:00",
       "status": 200,
       "tipo": "text/html",
       "caminho": "direto",
       "bytes": 158005,
-      "sha256": "653235fbab444dddb940c4a3da79626ee69458c70eb9622e89650f9f7973d5da",
+      "sha256": "0d819fb58556d1c5d2253f0f2cfd71780dc4bdeffa9481ffa02fda68fd83dd2f",
       "trechos": {
+        "A032": "encontrado",
         "A033": "encontrado"
       }
     },
@@ -3051,6 +3614,18 @@
       "sha256": "b9bfcfce0963ed61a45728a95d6dbcbdc54f3690e727a0f66b3dbe62dd953887",
       "trechos": {
         "A075": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723372-flavio-sobre-afastamento-de-diretor-grupo-especial-de-lula-na-pf-desmascarado.html",
+      "capturada_em": "2026-10-16T10:38:15+00:00",
+      "status": 200,
+      "tipo": "text/html",
+      "caminho": "direto",
+      "bytes": 172427,
+      "sha256": "e28aba5d46800954294b5d8d020ab460c05d8d008b99302f4a0d15e0c7475a96",
+      "trechos": {
+        "A086": "encontrado"
       }
     },
     {
@@ -3106,6 +3681,18 @@
       }
     },
     {
+      "url": "https://www.diariodocentrodomundo.com.br/em-meio-a-crise-no-stf-lula-conversa-com-fachin-gilmar-e-dino/",
+      "capturada_em": "2026-10-16T10:38:03+00:00",
+      "status": 200,
+      "tipo": "text/html; renderizado",
+      "caminho": "navegador",
+      "bytes": 332968,
+      "sha256": "8a7bb86c90457c205bb6701700ae21cf93034e5ea2e5a8812668a5114fe8da4a",
+      "trechos": {
+        "A085": "encontrado"
+      }
+    },
+    {
       "url": "https://www.em.com.br/app/noticia/politica/2015/05/31/interna_politica,653373/amp.html",
       "capturada_em": "2026-10-16T03:50:14+00:00",
       "status": 200,
@@ -3114,7 +3701,7 @@
       "bytes": 22847,
       "sha256": "c194b4af490fea7c4907b6a0074683c08d863b52c6bcad8745758669e1269dbf",
       "trechos": {
-        "A059": "não encontrado"
+        "A059": "encontrado"
       }
     },
     {
@@ -3287,18 +3874,6 @@
       }
     },
     {
-      "url": "https://www.gazetadopovo.com.br/economia/governo-desafia-congresso-e-recorre-ao-stf-para-subir-iof-novamente/",
-      "capturada_em": "2026-10-16T03:50:31+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=utf-8",
-      "caminho": "direto",
-      "bytes": 322724,
-      "sha256": "9f0fd4a0baacacb3dd204581f215d22d567709fdc4bee14efbb94bc949df5d2e",
-      "trechos": {
-        "A063": "encontrado"
-      }
-    },
-    {
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/estamos-carregando-nas-costas-a-promiscuidade-da-suprema-corte-diz-lula/",
       "capturada_em": "2026-10-16T03:50:40+00:00",
       "status": 200,
@@ -3357,18 +3932,6 @@
       "sha256": "b715f0c7ce1d51e79497c3035028b49195f0991c0862166beb7f5854ffa4e501",
       "trechos": {
         "A076": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.gazetadopovo.com.br/republica/como-andrei-rodrigues-se-tornou-o-homem-de-confianca-de-lula/",
-      "capturada_em": "2026-10-16T03:50:38+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=utf-8",
-      "caminho": "direto",
-      "bytes": 425387,
-      "sha256": "675a0c536f9619c4af5ab7568eb6677d701845446e5584b97671d78115dda5db",
-      "trechos": {
-        "A086": "encontrado"
       }
     },
     {
@@ -3478,8 +4041,7 @@
       "bytes": 189320,
       "sha256": "59c1f74c4413287eda1080735b48dc69b1bd193374a8e8af1c5882f90f9cefdb",
       "trechos": {
-        "A015": "encontrado",
-        "A016": "encontrado"
+        "A015": "encontrado"
       }
     },
     {
@@ -3495,37 +4057,25 @@
       }
     },
     {
-      "url": "https://www.gov.br/aneel/pt-br/assuntos/leiloes",
-      "capturada_em": "2026-10-16T04:24:38+00:00",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026-periodo-eleitoral/outubro",
+      "capturada_em": "2026-10-16T10:41:03+00:00",
       "status": 200,
       "tipo": "text/html;charset=utf-8",
       "caminho": "direto",
-      "bytes": 221684,
-      "sha256": "d440be854a1d8ff520a24c8256e261cbead52b3e58ece6deb18b3e508c077840",
+      "bytes": 171756,
+      "sha256": "0f2997002cd893f1206c71cd88860c890e3ea0a7a647655b79fa3eb357f970d6",
       "trechos": {
-        "A165": "encontrado"
+        "A034": "encontrado"
       }
     },
     {
-      "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/gas-do-povo/dados-consolidados-de-familias-beneficiarias-do-gas-do-povo",
-      "capturada_em": "2026-10-16T05:05:26+00:00",
+      "url": "https://www.gov.br/mme/pt-br/gas-do-povo/perguntas-frequentes-faq/FAQProgramaGasdoPovo.pdf",
+      "capturada_em": "2026-10-16T10:36:44+00:00",
       "status": 200,
-      "tipo": "text/html;charset=utf-8",
+      "tipo": "application/pdf",
       "caminho": "direto",
-      "bytes": 156149,
-      "sha256": "6d1feb7637fb89130fcaf092eba9fcb220d91e92dd9184e6285a8a726b1be07f",
-      "trechos": {
-        "A192": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/gas-do-povo/informes/informes-gas-do-povo",
-      "capturada_em": "2026-10-16T05:05:24+00:00",
-      "status": 200,
-      "tipo": "text/html;charset=utf-8",
-      "caminho": "direto",
-      "bytes": 143631,
-      "sha256": "ff63b7354daaab480f5a44842fa3c3e89e0ca1b998d66bd1b92ba36df83d8151",
+      "bytes": 685478,
+      "sha256": "0babdb0c7217eefb9e87071a68e758e295c5bcab76d185df38cb3502c7191558",
       "trechos": {
         "A192": "encontrado"
       }
@@ -3565,6 +4115,42 @@
       "sha256": "95104d444ca7af215f5adaec034c38bb8cab26b7a76f78a533dd58fb49043d7b",
       "trechos": {
         "A138": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-10-26",
+      "capturada_em": "2026-10-16T10:42:42+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 131422,
+      "sha256": "16e38c6e5c27c707310820581725625f4b643112291d20cb7d4770593e332a8d",
+      "trechos": {
+        "A032": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-05-07",
+      "capturada_em": "2026-10-16T10:39:42+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 128598,
+      "sha256": "c91c0500a548bf69c26ca9e05c59bd44b570fd69c06e1abbaa9061adade6eaf8",
+      "trechos": {
+        "A032": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-08-21",
+      "capturada_em": "2026-10-16T10:42:44+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 133028,
+      "sha256": "4bb7b6f6cab6e8f6e5486a77b99d349d00c892894de38701563126e141ea1258",
+      "trechos": {
+        "A032": "encontrado"
       }
     },
     {
@@ -3620,18 +4206,6 @@
       "sha256": "a0b810c49355df3db99910319a1b4e1425a5960d862aea1a54648f766ceb631d",
       "trechos": {
         "A181": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/proteses-dentarias-digitais-e-rede-de-atencao-a-saude-bucal-sao-pactuadas-na-cit-em-porto-alegre",
-      "capturada_em": "2026-10-16T03:53:27+00:00",
-      "status": 200,
-      "tipo": "text/html;charset=utf-8",
-      "caminho": "direto",
-      "bytes": 116968,
-      "sha256": "db6145bc2c81b06b4ddb22c2197c5e6fe37d6e992cca41ffeccb74d95628bc42",
-      "trechos": {
-        "A182": "encontrado"
       }
     },
     {
@@ -3849,6 +4423,18 @@
       }
     },
     {
+      "url": "https://www.infomoney.com.br/politica/lula-diz-que-pediu-a-galipolo-que-mostre-quem-e-quem-no-escandalo-do-master/",
+      "capturada_em": "2026-10-16T10:37:33+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 346436,
+      "sha256": "2bd28fcdb1661acc058671e8ab5a87735b455ebde6828fe4a7f97bbf12f23726",
+      "trechos": {
+        "A103": "encontrado"
+      }
+    },
+    {
       "url": "https://www.infomoney.com.br/politica/simone-tebet-depositarei-em-lula-o-meu-voto-porque-reconheco-seu-compromisso-com-a-democracia-e-com-a-constituicao-o-que-desconheco-no-atual-presidente",
       "capturada_em": "2026-10-16T03:52:16+00:00",
       "status": 200,
@@ -3873,15 +4459,15 @@
       }
     },
     {
-      "url": "https://www.intramed.net/content/hospitais-privados-e-filantropicos-poderao-reforcar-atendimento-no-sus-em-troca-de-compensacao-por-credito-financeiro",
-      "capturada_em": "2026-10-16T03:49:16+00:00",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf",
+      "capturada_em": "2026-10-16T10:37:26+00:00",
       "status": 200,
-      "tipo": "text/html; charset=utf-8",
+      "tipo": "application/pdf",
       "caminho": "direto",
-      "bytes": 219191,
-      "sha256": "70385b906bb8344de1af1095babcc7e44673eff807eeaad899ffe3ddf0b2f5be",
+      "bytes": 51516161,
+      "sha256": "ffe8ce4bde29616f3edf9ef1a86dbb6ae2d5381a0ecb9bb1f71bb20204b6bada",
       "trechos": {
-        "A187": "encontrado"
+        "A165": "encontrado"
       }
     },
     {
@@ -3943,6 +4529,18 @@
       "sha256": "4a5006946ac9d34a10a1f74d55000c2bea422a99f4ae60770b959db981aabba6",
       "trechos": {
         "A090": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.itatiaia.com.br/politica/flavio-bolsonaro-afastamento-de-andrei-desmascara-grupo-de-lula-na-pf/",
+      "capturada_em": "2026-10-16T10:38:04+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 386820,
+      "sha256": "6afb2e15cc8c042b492b4aa241c6d3f473b370968a00c2debc9740185d90a9d9",
+      "trechos": {
+        "A086": "encontrado"
       }
     },
     {
@@ -4079,6 +4677,18 @@
       }
     },
     {
+      "url": "https://www.maisgoias.com.br/brasil/quase-90-dos-brasileiros-consideram-saude-pessima-ruim-ou-regular/",
+      "capturada_em": "2026-10-16T10:35:34+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 132012,
+      "sha256": "9c3c7950e6f3084ab4b1be34519d118d5676c6935378021b1f1271030ee46382",
+      "trechos": {
+        "A174": "encontrado"
+      }
+    },
+    {
       "url": "https://www.maisgoias.com.br/brasil/veja-quem-ja-declarou-apoio-a-lula-e-a-bolsonaro-no-2o-turno/",
       "capturada_em": "2026-10-16T03:51:14+00:00",
       "status": 200,
@@ -4153,6 +4763,19 @@
       "sha256": "4d85b27f924e76c43309508b5fa0eb9bd436f247655c8a02a3f6d0f7781e4d40",
       "trechos": {
         "A053": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.metropoles.com/negocios/industria/para-empresarios-custo-da-energia-subiu-e-impacto-na-producao-e-alto",
+      "capturada_em": "2026-10-16T10:36:51+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 188632,
+      "sha256": "48ed28fa1cc9d274996098f233e4480f57d65b73156e41ed14371aafa461417c",
+      "trechos": {
+        "A163": "encontrado",
+        "A165": "encontrado"
       }
     },
     {
@@ -4236,8 +4859,19 @@
       "bytes": 897842,
       "sha256": "33e589114685514017f8d7de21fddd786ff340b5ae038073470727213afa6449",
       "trechos": {
-        "A161": "encontrado",
         "A162": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.oliberal.com/economia/gas-do-povo-atende-mais-de-1-milh-o-de-familias-no-para-em-setembro-1.1174286",
+      "capturada_em": "2026-10-16T10:36:47+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 278549,
+      "sha256": "c5b1d891a4c6902f1c9d1680c01c5d1f05520d2e41e0ebb879ad44ec11c33be7",
+      "trechos": {
+        "A192": "encontrado"
       }
     },
     {
@@ -4325,18 +4959,6 @@
       }
     },
     {
-      "url": "https://www.opovo.com.br/noticias/politica/2023/01/25/partidos-ja-definem-lideres-no-senado-antes-da-eleicao-da-mesa.html",
-      "capturada_em": "2026-10-16T03:50:47+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=utf-8",
-      "caminho": "direto",
-      "bytes": 68940,
-      "sha256": "a40e3b632c655c3bbaadc94355bcb73d58e2d40aea6a3b15939b7c73ecff0d94",
-      "trechos": {
-        "A017": "encontrado"
-      }
-    },
-    {
       "url": "https://www.opovo.com.br/noticias/politica/2025/10/27/amp/lula-completa-80-anos-e-se-torna-o-primeiro-octogenario-no-cargo.html",
       "capturada_em": "2026-10-16T03:50:48+00:00",
       "status": 200,
@@ -4395,18 +5017,6 @@
       "trechos": {
         "A056": "encontrado",
         "A059": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.otempo.com.br/politica/governo/2025/7/1/governo-lula-confirma-recurso-ao-stf-contra-decisao-do-congresso-que-derrubou-aumento-do-iof",
-      "capturada_em": "2026-10-16T03:50:30+00:00",
-      "status": 200,
-      "tipo": "text/html;charset=utf-8",
-      "caminho": "direto",
-      "bytes": 201669,
-      "sha256": "94c16512b575868a9b09b5a399bd57f30a4869dbddff9816fe2e37528bb8b35a",
-      "trechos": {
-        "A063": "encontrado"
       }
     },
     {
@@ -4504,18 +5114,6 @@
       "sha256": "11631cbe003ae55f68d60fccbec9520ee743eb4b5dcb36eb204264e847a99d8b",
       "trechos": {
         "A109": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14572.htm",
-      "capturada_em": "2026-10-16T03:51:01+00:00",
-      "status": 200,
-      "tipo": "text/html",
-      "caminho": "direto",
-      "bytes": 26081,
-      "sha256": "b2874fb25122f322c749260974983222732a073904127a259727f16e3512d05a",
-      "trechos": {
-        "A182": "encontrado"
       }
     },
     {
@@ -4754,7 +5352,6 @@
       "bytes": 96576,
       "sha256": "9f66d0f9a1a617962343043d347c66a5b040411ace973912c1271aedf3cad86f",
       "trechos": {
-        "A192": "encontrado",
         "A193": "encontrado"
       }
     },
@@ -4876,6 +5473,18 @@
       }
     },
     {
+      "url": "https://www.poder360.com.br/brasil/morre-edemar-cid-ferreira-ex-banqueiro-do-falido-banco-santos/",
+      "capturada_em": "2026-10-16T10:37:22+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 246456,
+      "sha256": "1ff3510d4107d443004771a75a48b9d030971f065c8e3dac0aaeaa8c7324f7cc",
+      "trechos": {
+        "A100": "encontrado"
+      }
+    },
+    {
       "url": "https://www.poder360.com.br/congresso/ministerios-de-lula-diminuem-bancada-do-pt-no-senado-em-2023/",
       "capturada_em": "2026-10-16T03:50:47+00:00",
       "status": 200,
@@ -4921,6 +5530,18 @@
       "sha256": "1d05cc3a67d7cc505ce6e20bf72d609273f57bfe45270d35bbe779230927e82a",
       "trechos": {
         "A153": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/governo/bolsonaro-estagnou-programa-de-saude-bucal-diz-ministra-da-saude/",
+      "capturada_em": "2026-10-16T10:58:06+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 252142,
+      "sha256": "b22b302a2ac0cadc4d6493845bf2d1c38e8211a6d94ebb2056877e07bfcd735d",
+      "trechos": {
+        "A182": "encontrado"
       }
     },
     {
@@ -5019,18 +5640,6 @@
       "sha256": "9499e2e1ec95afb8830e42928c32fa6e8a9ba2168f960330cf6e6bbb4af4aafa",
       "trechos": {
         "A057": "encontrado"
-      }
-    },
-    {
-      "url": "https://www.poder360.com.br/poder-economia/brasil-e-eua-avancam-agenda-comercial-apos-encontro-lula-trump/",
-      "capturada_em": "2026-10-16T03:55:35+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=UTF-8",
-      "caminho": "direto",
-      "bytes": 257027,
-      "sha256": "0a600d33d67dd989f15898ce41a9ebf8e3b12100a2c14dff57d81a4f0a5116e2",
-      "trechos": {
-        "A032": "encontrado"
       }
     },
     {
@@ -5332,7 +5941,6 @@
       "bytes": 292591,
       "sha256": "9aebb0a682f56007f99272b392912dc402a42ac01471117c63b7bdce477c3cf2",
       "trechos": {
-        "A086": "encontrado",
         "A090": "encontrado",
         "A091": "encontrado"
       }
@@ -5384,6 +5992,18 @@
       "sha256": "9710ce0aebb9bc85d6f1a516996925bddc721c0b80a3c4837d378e2a72519383",
       "trechos": {
         "A068": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/saude/lula-sanciona-lei-que-garante-atendimento-odontologico-no-sus/",
+      "capturada_em": "2026-10-16T10:36:33+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 250055,
+      "sha256": "73e7f48fce62ecea0a866f02bf7e98630ba7bf65ef53ed81caf3e91d019939fe",
+      "trechos": {
+        "A182": "encontrado"
       }
     },
     {
@@ -5548,6 +6168,18 @@
       }
     },
     {
+      "url": "https://www.tupi.fm/?p=1807942",
+      "capturada_em": "2026-10-16T10:35:56+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 212320,
+      "sha256": "7706da66171f43af095204abac8dad4c5bc98c813e9f3da992e1b999fc65e64e",
+      "trechos": {
+        "A179": "encontrado"
+      }
+    },
+    {
       "url": "https://www1.folha.uol.com.br/mercado/2024/01/morre-edemar-cid-ferreira-fundador-do-falido-banco-santos-aos-80-anos.shtml",
       "capturada_em": "2026-10-16T03:55:23+00:00",
       "status": 200,
@@ -5625,6 +6257,30 @@
       }
     },
     {
+      "url": "https://www12.senado.leg.br/noticias/materias/2022/10/03/pl-faz-a-maior-bancada-do-senado-psd-e-o-segundo-maior-partido",
+      "capturada_em": "2026-10-16T10:39:35+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 54808,
+      "sha256": "c29acbd617abcb1f60d717b949a095a3f8f9c38faacacd496634bc934cfe6bb8",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
+      "url": "https://www12.senado.leg.br/noticias/materias/2022/10/31/bancadas-do-senado-estarao-mais-concentradas-em-2023",
+      "capturada_em": "2026-10-16T10:39:34+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 56950,
+      "sha256": "141a04df567f7dbccafe0bdbbe8fe1ce7e968fe9f771facd0cfda72822a048c0",
+      "trechos": {
+        "A017": "encontrado"
+      }
+    },
+    {
       "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
       "capturada_em": "2026-10-16T03:50:30+00:00",
       "status": 200,
@@ -5688,6 +6344,18 @@
       "trechos": {
         "A012": "encontrado",
         "A183": "encontrado"
+      }
+    },
+    {
+      "url": "https://www12.senado.leg.br/radio/1/noticia/2023/02/02/tamanho-das-bancadas-do-senado-define-a-presidencia-e-composicao-das-comissoes",
+      "capturada_em": "2026-10-16T10:39:36+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=utf-8",
+      "caminho": "direto",
+      "bytes": 40408,
+      "sha256": "d7492fb13fd86549c63a18eb772d75cebbcb09195a19b6a7fd55d46128832b35",
+      "trechos": {
+        "A017": "encontrado"
       }
     },
     {

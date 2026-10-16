@@ -1,0 +1,63 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-01",
+  "cobertura": {
+    "inicio_s": 253.75,
+    "fim_s": 266.59
+  },
+  "alegacoes": [
+    {
+      "id": "A016",
+      "inicio_s": 254.0,
+      "fim_s": 258.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu fui eleito tendo 70 deputados no meu partido de 513",
+      "afirmacao": "O PT tinha 70 dos 513 deputados federais quando Lula foi eleito em 2022",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "bancada eleita do PT na Câmara em 2022, TSE e Câmara dos Deputados",
+        "se o número é do PT sozinho ou da federação (PT, PCdoB, PV)"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 257.0,
+      "fim_s": 260.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e tendo 9 senadores de 81",
+      "afirmacao": "O PT tinha 9 dos 81 senadores quando Lula foi eleito em 2022",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "bancada do PT no Senado no início da legislatura de 2023 (eleitos em 2022 mais os que tinham mandato), Senado Federal",
+        "se o número é o da posse ou de outro momento"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 260.9,
+      "fim_s": 266.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E nós aprovamos 99% de tudo que a gente fez aqui no Congresso Nacional",
+      "afirmacao": "O Congresso aprovou 99% das propostas do governo Lula",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "taxa de aprovação das proposições do Executivo (MPs, PLs, PECs) de 2023 a 2026, Câmara, Senado e levantamentos independentes",
+        "qual universo dá 99%: o que foi enviado, o que foi votado, ou só as prioridades"
+      ]
+    }
+  ]
+}

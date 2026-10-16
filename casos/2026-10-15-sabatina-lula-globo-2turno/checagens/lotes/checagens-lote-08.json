@@ -7,12 +7,12 @@
       "id": "A092",
       "veredito": "INSUSTENTAVEL",
       "resumo": "Não foi achado registro da bronca a Andrei Rodrigues além da fala do próprio Lula, nem nota oficial sobre ela",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia declaração anterior de Lula, nota do Planalto ou reportagem com fonte identificada sobre a repreensão. A cobertura de 15/10/2026 (SBT News, O Tempo, O Antagonista, Metrópoles) só reproduz a própria fala da sabatina; nenhuma traz nota do Planalto, da PF ou do Ministério da Justiça confirmando a conversa nem a data dela. Na entrevista ao SBT Brasil de 10/09/2026, Lula chamou Andrei de 'da minha total confiança' e disse que, se ele errou, seria investigado, sem mencionar bronca; isso não contradiz a fala, apenas não a confirma. A participação de Andrei no evento de Londres se tornou pública em fevereiro de 2026 (Poder360), e a fala não diz quando a repreensão aconteceu em relação a isso. Sem registro independente e sem prova do contrário, o veredito é INSUSTENTAVEL, não FALSO. A busca desta rodada foi limitada e não achou outro relato. 🔧 Na revisão de coerência entre lotes (16/out/2026) a checagem virou provisória, com confiança baixa, e o resumo trocou a ausência afirmada ('O único registro da bronca a Andrei Rodrigues é a fala do próprio Lula; não há nota oficial sobre ela') por 'não foi achado', pela mesma régua das checagens A085 e A103 (relato de Lula sobre conversa reservada dele, com busca limitada); ver checagens/revisao/correcoes-coerencia.md.",
+      "explicacao": "O critério pedia declaração anterior de Lula, nota do Planalto ou reportagem com fonte identificada sobre a repreensão. É relato de conversa reservada do próprio entrevistado. Nas duas rodadas a busca procurou: a cobertura de 15/10/2026 da sabatina (SBT News, O Tempo, O Antagonista, Metrópoles), que só reproduz a fala; declarações anteriores de Lula sobre Andrei e a viagem a Londres; nota do Planalto, da PF ou do Ministério da Justiça; e checagens das agências sobre a sabatina, que até a consulta não tinham sido publicadas. Na entrevista ao SBT Brasil de 10/09/2026, Lula chamou Andrei de 'da minha total confiança' e disse que, se ele errou, seria investigado, sem mencionar bronca; isso não contradiz a fala, apenas não a confirma. A ida de Andrei a Londres se tornou pública em fevereiro de 2026 (Poder360), e a fala não diz quando a repreensão aconteceu. Não há registro independente nem prova do contrário: INSUSTENTAVEL, e não FALSO. O único registro pode ser a própria fala, e isso não muda com mais busca.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "fala de 15/10/2026; viagem a Londres em abril de 2024, noticiada em fevereiro de 2026",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -43,18 +43,19 @@
           "trecho": "O Poder360 procurou o diretor-geral da Polícia Federal em fevereiro de 2026, quando noticiou que Andrei Rodrigues havia participado de um evento que contava com o patrocínio do Master, e na 3ª feira (7.abr.2026) para perguntar se ele gostaria de se manifestar. Não houve resposta até a publicação desta reportagem.",
           "prova": "Data em que a ida a Londres se tornou pública, referência para situar a repreensão, que a fala não data."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A093",
       "veredito": "INSUSTENTAVEL",
       "resumo": "Não foi achado registro público do alerta ao ministro da Justiça além da fala do próprio Lula na sabatina",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia declaração do ministro da Justiça ou do Planalto sobre o alerta e quem era o ministro na data. Nenhuma fonte capturada traz nota do Ministério da Justiça, do Planalto ou de ex-ministro confirmando o alerta; a frase só aparece na transcrição da sabatina publicada pela imprensa. Quem era o ministro depende de quando o alerta ocorreu, e Lula não disse: Ricardo Lewandowski chefiou a pasta até janeiro de 2026 (pediu demissão em 08/01; Wellington César Lima e Silva foi convidado em 13/01), e o próprio Lewandowski, então ministro, estava no evento de Londres em abril de 2024, segundo a CNN Brasil. A ida de Andrei a Londres só se tornou pública em fevereiro de 2026, já na gestão do sucessor. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL. 🔧 Na revisão de coerência entre lotes (16/out/2026) a checagem virou provisória, com confiança baixa, e o resumo trocou a ausência afirmada ('Não há registro público do alerta ao ministro da Justiça além da fala do próprio Lula na sabatina') por 'não foi achado', pela mesma régua das checagens A085 e A103 (relato de Lula sobre conversa reservada dele, com busca limitada); ver checagens/revisao/correcoes-coerencia.md.",
+      "explicacao": "O critério pedia declaração do ministro da Justiça ou do Planalto sobre o alerta e quem era o ministro na data. É relato de conversa reservada do próprio entrevistado. Nas duas rodadas a busca procurou nota do Ministério da Justiça, do Planalto ou de ex-ministro, reportagem sobre o alerta e checagens das agências sobre a sabatina; achou só a própria fala, publicada pela imprensa, e pedidos da oposição para ouvir o diretor da PF e o ministro sobre a viagem, sem menção a alerta do presidente. Quem era o ministro depende de quando o alerta ocorreu, e Lula não disse: Ricardo Lewandowski chefiou a pasta até janeiro de 2026 (comunicou a saída em 08/01; Wellington César Lima e Silva foi chamado em 13/01), e o próprio Lewandowski, então ministro, estava no evento de Londres de abril de 2024, segundo a CNN Brasil. A ida de Andrei a Londres só se tornou pública em fevereiro de 2026, já na gestão do sucessor. Sem registro e sem prova em contrário: INSUSTENTAVEL, e não FALSO. O único registro pode ser a própria fala, e isso não muda com mais busca.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "fala de 15/10/2026; troca no Ministério da Justiça em janeiro de 2026",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -94,7 +95,8 @@
           "trecho": "O presidente Luiz Inácio Lula da Silva (PT) chamou o advogado-geral da Petrobras, Wellington César Lima e Silva para ser o novo titular do Ministério da Justiça.",
           "prova": "Identifica o sucessor, que já chefiava a pasta quando a viagem se tornou pública."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A094",
@@ -299,25 +301,34 @@
     },
     {
       "id": "A099",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "As fontes não registram Silvio Santos procurando Lula no caso PanAmericano; a visita de 2010 foi antes, sobre o Teleton",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia registro de encontro de Silvio Santos com Lula na crise do PanAmericano. O rombo veio a público em novembro de 2010, quando o banco recebeu aporte do FGC (g1). O único encontro dos dois em 2010 que as fontes capturadas registram é a ida de Silvio Santos ao Planalto em 22 de setembro de 2010, antes do rombo, para pedir doação ao Teleton (Exame). Nenhuma fonte capturada mostra Silvio procurando Lula por causa do banco. Isso não prova que o contato não houve, então o veredito é INSUSTENTAVEL, não FALSO. A busca desta rodada foi limitada.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Procuradoria registra que Silvio Santos foi a Lula em 2010, logo depois de o BC ver falhas no banco, para salvá-lo",
+      "explicacao": "O critério pedia registro de Silvio Santos procurando Lula na crise do PanAmericano. Na rodada 1 só se achou a visita de 22/09/2010, anunciada como pedido de apoio ao Teleton. Nesta rodada a busca achou o registro independente: no pedido de deflagração da Operação Conclave, assinado por um procurador da República e uma delegada da PF e noticiado pelo Estadão Conteúdo em 2017, a Procuradoria descreve o encontro de 22/09/2010 no Planalto como ocorrido 'logo após a descoberta das inconsistências contábeis' pelo Banco Central (que pediu esclarecimentos ao banco em 08/09/2010) e diz que 'a pauta teria consistido na busca de meios a fim de salvar o Banco Panamericano'; o documento cita ainda o ex-presidente do Grupo Silvio Santos, Luiz Sebastião Sandoval, dizendo que o tema principal foi a ajuda do FGC. O próprio Lula contou o mesmo em 18/08/2024, um dia depois da morte de Silvio Santos (O Fator, O Povo). A fraude veio a público em novembro de 2010 (g1). O que diverge é a versão da época: o encontro foi anunciado como sobre o Teleton (Exame) e Lula negou ter tratado do banco, o que vai na divergência e na ressalva. Como o registro independente e o relato posterior do próprio Lula sustentam o essencial (Silvio o procurou quando o banco teve problema), o veredito é VERDADEIRO; a confiança é média porque o pedido da Procuradoria é peça de investigação, não decisão judicial, e Silvio Santos nunca foi denunciado no caso.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "crise do PanAmericano em novembro de 2010",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "data_de_referencia": "encontro de 22 de setembro de 2010; crise do PanAmericano entre setembro e novembro de 2010",
+      "ressalva": "Na época, a visita foi anunciada como apoio ao Teleton, e Lula negou ter tratado do banco",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Em 2010, a Presidência e Silvio Santos disseram que o encontro foi sobre o Teleton, e Lula negou ter conversado sobre o banco (Folha, citada por O Fator). O pedido da Procuradoria de 2017 e o próprio Lula em 2024 dizem que o assunto foi o banco.",
       "revisao_humana": null,
       "fontes": [
         {
           "nivel": "N4",
-          "instituicao": "Exame",
-          "titulo": "Relembre encontros de Silvio Santos com presidentes da República",
-          "url": "https://exame.com/brasil/relembre-encontros-de-silvio-santos-com-presidentes-da-republica/",
+          "instituicao": "IstoÉ (Estadão Conteúdo)",
+          "titulo": "Procuradoria diz que Silvio Santos e Lula se reuniram para ‘salvar Panamericano’ (20/04/2017)",
+          "url": "https://istoe.com.br/procuradoria-diz-que-silvio-santos-e-lula-se-reuniram-para-salvar-panamericano/",
           "consultada_em": "2026-10-16",
-          "trecho": "Em 22 de setembro de 2010, Silvio Santos foi até o Planalto para se encontrar com Lula, para falar com o então presidente sobre o Teleton, programa com intuito de caridade exibido anualmente pelo SBT.",
-          "prova": "O encontro de 2010 registrado foi antes do rombo e sobre outro assunto."
+          "trecho": "No pedido encaminhado à Justiça Federal para deflagração da Operação Conclave – investigação sobre fraudes na compra de ações do Banco Panamericano pela Caixa Participações S.A. (Caixapar) -, a Procuradoria da República destacou um encontro ocorrido no dia 22 de setembro de 2010 entre o apresentador de TV Silvio Santos e o então presidente Lula. [...] A reunião do petista com Senor Abravanel, o Silvio Santos, ocorreu no Palácio do Planalto ‘logo após a descoberta das inconsistências contábeis (no Panamericano) pelo Banco Central’. “A pauta teria consistido na busca de meios a fim de salvar o Banco Panamericano.” [...] “Apesar de ter autorizado preliminarmente o negócio em julho de 2010, o Banco Central somente constatou oficialmente indícios de inconsistências contáveis dois meses depois, oportunidade em que solicitou esclarecimentos ao Banco Panamericano, no dia 8 de setembro de 2010”, informam os investigadores.",
+          "prova": "Registro independente da fala: a Procuradoria situa o encontro depois de o BC ver o problema e diz que a pauta foi salvar o banco."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Fator",
+          "titulo": "Lula entrega Silvio Santos e a si mesmo (19/08/2024)",
+          "url": "https://ofator.com.br/?p=12241",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Eu posso contar uma coisa para vocês da seriedade do Silvio Santos. Quando teve aquele golpe no Banco, sabe, Panamericano, o Silvio Santos me procurou aqui, muito preocupado. Eu era presidente da República. Ele estava com medo de ser preso”, declarou. [...] Na época, lá em 2010, o papo era outro. Lula negou ter conversado sobre o banco com Silvio.",
+          "prova": "Mostra que Lula contou o mesmo episódio em 2024 e que, em 2010, negou ter tratado do banco: é a divergência registrada."
         },
         {
           "nivel": "N4",
@@ -327,19 +338,29 @@
           "consultada_em": "2026-10-16",
           "trecho": "Em novembro, o Panamericano recebeu um aporte de R$ 2,5 bilhões, com recursos obtidos junto ao Fundo Garantidor de Créditos (FGC), tendo os bens do grupo Silvio Santos como garantia, depois que o BC identificou um rombo nas contas da instituição.",
           "prova": "Data a crise e a saída dela pelo FGC, sem menção a pedido ao presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Exame",
+          "titulo": "Relembre encontros de Silvio Santos com presidentes da República",
+          "url": "https://exame.com/brasil/relembre-encontros-de-silvio-santos-com-presidentes-da-republica/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 22 de setembro de 2010, Silvio Santos foi até o Planalto para se encontrar com Lula, para falar com o então presidente sobre o Teleton, programa com intuito de caridade exibido anualmente pelo SBT.",
+          "prova": "O encontro de 2010 registrado foi antes do rombo e sobre outro assunto."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A100",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "As fontes consultadas não registram Edemar Cid Ferreira procurando Lula antes da intervenção no Banco Santos",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia quem controlava o Banco Santos e se procurou Lula antes da intervenção do BC. O controlador era Edemar Cid Ferreira, e o BC interveio em 12 de novembro de 2004 (Folha de S.Paulo). As fontes capturadas registram uma relação institucional anterior (Edemar foi condecorado por Lula com a Ordem do Mérito Militar em outubro de 2003, segundo a Wikipédia, que cita o Diário Oficial de 24/10/2003, cuja página não pôde ser capturada), mas nenhuma registra pedido de ajuda a Lula na crise do banco. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL. A busca desta rodada foi limitada, e a segunda fonte é uma enciclopédia usada como ponteiro.",
+      "resumo": "As fontes não registram Edemar Cid Ferreira, do Banco Santos, procurando Lula antes da intervenção de 2004",
+      "explicacao": "A transcrição registra 'Banco de Santos', lido como Banco Santos. O critério pedia quem controlava o banco e se ele procurou Lula antes da intervenção do Banco Central. O controlador era Edemar Cid Ferreira, e o BC interveio em 12 de novembro de 2004 (Folha de S.Paulo; Poder360). Nas duas rodadas a busca procurou encontro ou pedido de Edemar a Lula, ao Planalto ou à equipe econômica em 2004, reportagens sobre a intervenção e a falência, o indiciamento de 2005 e declarações anteriores de Lula sobre o Banco Santos; nenhuma fonte registra Edemar procurando Lula na crise do banco. A única relação registrada entre os dois, numa enciclopédia usada na rodada 1 como ponteiro (uma condecoração anterior à crise), saiu das fontes por não ser fonte qualificada. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL, e não FALSO: a ausência de registro não mostra que o contato não houve.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "intervenção do BC no Banco Santos em novembro de 2004",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -354,25 +375,26 @@
         },
         {
           "nivel": "N4",
-          "instituicao": "Wikipédia (verbete que cita o Diário Oficial da União)",
-          "titulo": "Edemar Cid Ferreira",
-          "url": "https://pt.wikipedia.org/wiki/Edemar_Cid_Ferreira",
+          "instituicao": "Poder360",
+          "titulo": "Morre Edemar Cid Ferreira, ex-banqueiro do falido Banco Santos, aos 80 anos",
+          "url": "https://www.poder360.com.br/brasil/morre-edemar-cid-ferreira-ex-banqueiro-do-falido-banco-santos/",
           "consultada_em": "2026-10-16",
-          "trecho": "Em outubro de 2003, Edemar foi condecorado pelo presidente Luiz Inácio Lula da Silva com a Ordem do Mérito Militar no grau de Comendador especial.",
-          "prova": "Única relação registrada entre os dois, anterior à crise e de outra natureza."
+          "trecho": "Em 2004, o BC (Banco Central) decretou intervenção no Banco Santos ao constatar que a instituição não cumpria normas básicas de administração. O banco, que chegou a ser o 21º maior do país, decretou falência em 2005.",
+          "prova": "Segunda apuração da crise do banco, independente da Folha, também sem menção a pedido ao presidente."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A101",
       "veredito": "INSUSTENTAVEL",
       "resumo": "O banco de Edir Macedo é o Digimais, com crise apontada em 2024 e 2025; as fontes não registram o banco procurando Lula",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia identificar a instituição e um registro de encontro com Lula na crise. O banco de Edir Macedo é o Digimais, antigo Banco Renner, cujo controle ele assumiu em 2020 (Suno). Metrópoles e Estadão descrevem a crise do banco, com relatórios de 2024 e 2025 apontando inadimplência alta depois da pandemia, aportes do próprio Macedo e o banco à venda há mais de um ano. Nenhuma das fontes capturadas registra representante do banco ou da igreja procurando Lula por causa dela. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL. A busca desta rodada foi limitada.",
+      "explicacao": "O critério pedia identificar a instituição e um registro de encontro com Lula na crise. O banco de Edir Macedo é o Digimais, antigo Banco Renner, cujo controle ele assumiu em 2020 (Suno). Metrópoles e Estadão descrevem a crise do banco, com relatórios de 2024 e 2025 apontando inadimplência alta depois da pandemia, aportes do próprio Macedo e o banco à venda há mais de um ano. Nas duas rodadas a busca procurou encontro, conversa ou pedido de ajuda de Macedo, da Igreja Universal ou de dirigentes do Digimais a Lula, ao Planalto ou ao Banco Central, e declarações anteriores de Lula sobre o banco; achou cobertura da crise, da tentativa de venda e de operação da Polícia Federal contra o banco, mas nenhum registro de representante do banco ou da igreja procurando Lula. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL, e não FALSO. A leitura de que a fala se refere ao Digimais é a mais plausível, mas a fala não nomeia o banco.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "crise do Digimais em 2024 e 2025",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -403,7 +425,8 @@
           "trecho": "O líder e fundador da Igreja Universal do Reino de Deus, Edir Macedo , assumiu no início deste mês o controle do Banco Renner, do qual já possuía uma participação de 49%, após receber a autorização da autoridade monetária.",
           "prova": "Confirma qual é o banco ligado a Macedo."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A102",
@@ -450,13 +473,13 @@
     {
       "id": "A103",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "O BC comunicou o caso Master ao Ministério Público e à PF; as fontes não registram que foi a pedido de Lula",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: na revisão r4 entraram duas capturas que já estavam no caso. O critério pedia a comunicação formal do BC ao MPF ou à PGR e registro de que foi a pedido do presidente. As fontes confirmam que o BC comunicou fatos ao Ministério Público Federal e à PF: as irregularidades nas carteiras cedidas ao BRB, a falta de lastro de que o BC teve certeza em 27 de junho de 2025 (comunicada em julho, segundo o Poder360) e, em setembro de 2025, as pressões políticas. Haddad disse em entrevista de junho de 2026 que, quando o caso ganhou força no último trimestre de 2024, ele foi levado ao conhecimento do Procurador-Geral da República e da PF, sem dizer por quem nem a pedido de quem. Galípolo, perguntado na CPI se recebeu comando do Planalto depois da reunião com Vorcaro, descreveu a orientação de ser técnico e ter autonomia, sem citar pedido para comunicar a PGR, e atribui a comunicação ao dever legal de colaborar com a PF e o Ministério Público. Nenhuma fonte capturada registra o pedido de Lula a Galípolo. Isso não prova que ele não houve, então o veredito é INSUSTENTAVEL, não FALSO; o caso Master segue em apuração.",
+      "resumo": "O BC comunicou o caso Master ao Ministério Público e à PF; nenhuma fonte achada diz que foi a pedido de Lula",
+      "explicacao": "O critério pedia a comunicação formal do BC ao MPF ou à PGR e registro público de que ela foi a pedido do presidente. A primeira parte está nas fontes: o BC comunicou ao Ministério Público Federal as irregularidades nas carteiras cedidas ao BRB, a falta de lastro de que teve certeza em 27 de junho de 2025 (comunicada em julho, segundo o Poder360) e, em setembro de 2025, as pressões políticas; Haddad disse em junho de 2026 que o caso foi levado ao Procurador-Geral da República e à PF, sem dizer por quem nem a pedido de quem. A segunda parte não aparece em nenhuma fonte: Galípolo, perguntado na CPI se recebeu comando do Planalto depois da reunião com Vorcaro, descreveu a orientação de ser técnico e atribuiu a comunicação ao dever legal de colaborar com a PF e o Ministério Público. O relato anterior do próprio Lula, em abril de 2026 (Estadão Conteúdo, no InfoMoney), descreve outro pedido: que Galípolo prestasse contas à sociedade sobre a origem do caso, e não que acusasse ninguém, 'porque você não é policial e nem procurador'. Na rodada 2 (16/out) a busca procurou o pedido a Galípolo para comunicar a PGR em reportagens sobre a CPI, nas entrevistas de Lula sobre o caso e no pedido de Damares Alves à PGR sobre as reuniões com Vorcaro; nada registra esse pedido. Ausência de registro não prova que o pedido não houve, e o caso Master segue em apuração, então o veredito é INSUSTENTAVEL, não FALSO.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "comunicações ao Ministério Público e à PF entre o fim de 2024 e setembro de 2025",
+      "data_de_referencia": "comunicações ao Ministério Público e à PF entre o fim de 2024 e setembro de 2025; relato de Lula em abril de 2026",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -495,8 +518,18 @@
           "consultada_em": "2026-10-16",
           "trecho": "“No segundo semestre, ou mais particularmente no último trimestre de 2024, é que a coisa eclodiu com muita força. E aí, tudo o que foi feito foi levar o que estava acontecendo ao conhecimento do Procurador-Geral da República e da Polícia Federal”, afirmou.",
           "prova": "O caso chegou à PGR e à PF, no relato de Haddad, sem menção a pedido de Lula a Galípolo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney (Estadão Conteúdo, entrevista de Lula)",
+          "titulo": "Lula diz que pediu a Galípolo que mostre 'quem é quem' no escândalo do Master (14/04/2026)",
+          "url": "https://www.infomoney.com.br/politica/lula-diz-que-pediu-a-galipolo-que-mostre-quem-e-quem-no-escandalo-do-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Eu disse ao companheiro Galípolo: ‘o que eu quero de você é que você preste contas à sociedade de onde é que está a origem disso. Eu não quero que você acuse o Roberto Campos porque você não é policial e nem procurador. Eu só quero que você mostre para a sociedade quem é quem no cinema, quem é o artista principal e quem é o coadjuvante'”, afirmou Lula.",
+          "prova": "O relato do próprio Lula sobre o que pediu a Galípolo fala em prestar contas à sociedade, não em comunicar a PGR."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A104",

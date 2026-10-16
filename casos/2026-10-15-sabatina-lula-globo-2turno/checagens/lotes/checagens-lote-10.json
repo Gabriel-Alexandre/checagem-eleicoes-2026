@@ -395,13 +395,13 @@
     {
       "id": "A126",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Os 24,9% do FGV Ibre vêm de uma só reportagem, do Estadão; a pesquisa original não foi capturada",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: o Estadão publicou em 11/10/2026, com entrevista do pesquisador Rodolpho Tobler, que em setembro de 2026 24,9% dos brasileiros estavam contraindo dívidas ou se desfazendo de patrimônio para pagar despesas do dia a dia, segundo levantamento do FGV Ibre, o maior percentual para o mês desde 2022. Um em cada quatro é o arredondamento de 24,9%, e água, luz e gás aparecem na reportagem como exemplos. Todas as outras páginas capturadas (40graus, SP Diário, Aciara, Blog do Itamar) saíram no mesmo dia e reproduzem a matéria do Estadão, então a frase tem uma única cadeia de imprensa. A divulgação do próprio FGV Ibre, que seria a fonte primária, não foi capturada: a página da Sondagem do Consumidor recusou a conexão na tentativa da revisão de 16/out. Pela regra do projeto, número precisa de fonte primária ou institucional, ou de duas fontes independentes que citem a primária conferida, e nada disso existe aqui. É a mesma régua aplicada às falas do candidato com fonte primária faltando. Não é FALSO porque nada contradiz o número; com a divulgação do FGV Ibre, deve virar VERDADEIRO.",
+      "resumo": "O 24,9% do FGV Ibre só aparece no Estadão e em reproduções; não se achou a divulgação do próprio FGV",
+      "explicacao": "O Estadão publicou em 11/10/2026, com entrevista do pesquisador Rodolpho Tobler, que em setembro de 2026 24,9% dos brasileiros estavam contraindo dívidas ou se desfazendo de patrimônio para pagar despesas do dia a dia, segundo levantamento do FGV Ibre. Um em cada quatro é o arredondamento de 24,9%, e água, luz e gás aparecem na reportagem como exemplos. Na rodada 2 (16/out) a busca procurou a divulgação do FGV Ibre: a página de press releases da Sondagem do Consumidor, a lista de notícias do portal do Ibre e o press release do Índice de Confiança do Consumidor de setembro de 2026 (página capturada; o PDF foi lido e não pôde ser capturado). O release de setembro traz o índice (84,2 pontos) e não traz o 24,9%; nenhuma outra página do Ibre achada traz o número. Todas as outras reportagens achadas (40graus, Revista Oeste, SP Diário, Aciara, Blog do Itamar) saíram no mesmo dia e repetem o número, o recorte por renda e as falas de Tobler da matéria do Estadão, então são uma única cadeia de imprensa. Pela METODOLOGIA §3.1, número precisa de fonte N1 ou N2, ou de duas N3/N4 que citem a primária conferida; nada disso existe aqui. É a mesma régua aplicada às falas do candidato com a fonte primária faltando. Não é FALSO porque nada contradiz o número.",
       "numero_dito": "um em cada quatro",
       "numero_apurado": "24,9% em setembro de 2026, segundo o Estadão",
       "data_de_referencia": "setembro de 2026",
       "ressalva": "O Estadão dá 24,9% em setembro de 2026; água, luz e gás são exemplos da reportagem, não a pergunta da pesquisa.",
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -416,14 +416,24 @@
         },
         {
           "nivel": "N4",
-          "instituicao": "40graus",
-          "titulo": "Contas básicas: 1 em 4 faz dívidas ou usa poupança",
-          "url": "https://40graus.com.br/contas-basicas-dividas-poupanca-brasileiros/",
+          "instituicao": "Revista Oeste",
+          "titulo": "Brasileiros se endividam e tiram dinheiro da poupança para pagar contas básicas (11/10/2026)",
+          "url": "https://revistaoeste.com/economia/brasileiros-se-endividam-e-tiram-dinheiro-da-poupanca-para-pagar-contas-basicas/",
           "consultada_em": "2026-10-16",
-          "trecho": "Em setembro de 2026, 24,9% da população precisou contrair dívidas ou recorrer ao dinheiro guardado para pagar despesas básicas , como contas de água, energia elétrica e gás. O levantamento do Instituto Brasileiro de Economia da Fundação Getulio Vargas (FGV Ibre) mostra que praticamente um em cada quatro brasileiros já enfrenta dificuldades para cobrir gastos essenciais com os recursos disponíveis no mês.",
-          "prova": "Registra o mês do dado (setembro de 2026), mas reproduz a mesma apuração: não é fonte independente da anterior."
+          "trecho": "Segundo a pesquisa, 24,9% da população contraiu dívidas ou perdeu parte do patrimônio para quitar as despesas do dia a dia. Trata-se do maior porcentual para setembro desde 2022, quando o índice era de 25,4%.",
+          "prova": "Repete o número, o recorte por renda e as falas de Tobler do Estadão no mesmo dia: não é apuração independente."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "FGV Ibre (press release da Sondagem do Consumidor)",
+          "titulo": "ICC de setembro de 2026 (24/09/2026)",
+          "url": "https://portalibre.fgv.br/press-releases/icc-de-setembro-de-2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Índice de Confiança do Consumidor (ICC) do FGV IBRE recuou 0,5 ponto em setembro, para 84,2 pontos, menor nível desde novembro de 2022 (83,5 pontos).",
+          "prova": "É a divulgação oficial da Sondagem do Consumidor de setembro; ela não traz o 24,9%, que segue sem fonte primária."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A127",

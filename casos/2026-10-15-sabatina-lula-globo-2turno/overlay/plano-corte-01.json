@@ -1,0 +1,65 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "recorte": "corte-01",
+  "alvo": "recortes/corte-01.mp4",
+  "base_s": 253.75,
+  "duracao_s": 12.867,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-16",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-01/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 26.9
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-01/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 12.867,
+    "sai_s": 26.9,
+    "duracao_s": 14.033
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "VERDADEIRO": 2,
+    "INSUSTENTAVEL": 1
+  },
+  "cartelas": [
+    {
+      "id": "A016",
+      "arquivo": "overlay/cartelas-corte-01/A016.png",
+      "entra_s": 7.7,
+      "sai_s": 15.4,
+      "atraso_s": 7.45,
+      "atraso_do_fim_s": 3.45,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 254.0,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A017",
+      "arquivo": "overlay/cartelas-corte-01/A017.png",
+      "entra_s": 15.6,
+      "sai_s": 21.7,
+      "atraso_s": 12.35,
+      "atraso_do_fim_s": 8.95,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 257.0,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A018",
+      "arquivo": "overlay/cartelas-corte-01/A018.png",
+      "entra_s": 21.9,
+      "sai_s": 26.9,
+      "atraso_s": 14.75,
+      "atraso_do_fim_s": 9.35,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 260.9,
+      "cortado_na_tela": []
+    }
+  ]
+}

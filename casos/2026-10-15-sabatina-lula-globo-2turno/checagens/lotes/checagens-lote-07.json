@@ -48,16 +48,34 @@
     {
       "id": "A080",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Não achamos contagem pública de pedidos de vista por dia no STF; as fontes só trazem a regra do prazo",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase afirma uma frequência: que no STF se pede vista todos os dias. O dado que resolveria é a estatística oficial de pedidos de vista do próprio tribunal (painel Corte Aberta ou relatório de atividades), em 2025 e 2026. O portal do STF recusou o acesso automatizado (HTTP 403) durante esta checagem, e não foi possível capturar a série. As fontes capturadas tratam do pedido de vista de Flávio Dino de 15/09/2026 e descrevem só a regra: prazo de até 90 dias para devolver o processo ao plenário. Nenhuma traz contagem por dia, por sessão ou por ano. Sem o número, a frase não pode ser confirmada nem desmentida: o veredito é INSUSTENTAVEL, e não FALSO, porque não se achou dado que a contradiga. Não é NAO_CHECAVEL porque a frequência de pedidos de vista é registrada pelo tribunal; o que faltou foi acesso ao registro.",
+      "resumo": "O STF não publica contagem de pedidos de vista por dia; as fontes trazem só a regra do prazo de 90 dias",
+      "explicacao": "A frase afirma uma frequência: que no STF se pede vista todos os dias. O dado que resolveria é a estatística oficial de pedidos de vista do tribunal em 2025 e 2026. Nesta rodada a busca foi ao painel Corte Aberta do STF, cuja lista de painéis estatísticos (acervo, decisões, controle concentrado, plenário virtual, pautas, entre outros) não tem painel de pedidos de vista, e cujos números são montados em JavaScript e não saem na captura; procurou também relatório de atividades do STF e levantamentos de imprensa com o total anual de pedidos de vista, e não achou nenhum. O que o próprio STF publica é a regra: desde a Emenda Regimental 58/2022, a vista tem de ser devolvida em 90 dias, e depois disso o processo fica liberado para julgamento; a cobertura do pedido de vista de Flávio Dino de setembro de 2026 repete a regra. Nenhuma fonte traz contagem por dia, por sessão ou por ano. Sem o número, a frase não pode ser confirmada nem desmentida: INSUSTENTAVEL, e não FALSO, porque nada a contradiz. Não é NAO_CHECAVEL porque pedido de vista é ato processual registrado; o que falta é a contagem publicada.",
       "numero_dito": "todo dia",
       "numero_apurado": null,
-      "data_de_referencia": "regra do pedido de vista vigente em setembro de 2026",
+      "data_de_referencia": "regra do pedido de vista vigente desde a Emenda Regimental 58/2022, aplicada em setembro de 2026",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (STF)",
+          "titulo": "Emenda regimental altera regras para devolução de pedidos de vista no STF (26/12/2022)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/emenda-regimental-altera-regras-para-devolucao-de-pedidos-de-vista-no-stf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Supremo Tribunal Federal (STF) aprovou mudança no Regimento Interno para estabelecer que os pedidos de vista deverão ser devolvidos no prazo de 90 dias, contado da data da publicação da ata de julgamento. Após esse período, os autos estarão automaticamente liberados para continuidade da análise pelos demais ministros.",
+          "prova": "É a regra oficial do pedido de vista; o STF descreve o prazo, mas não publica quantos pedidos são feitos."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (STF), programa Corte Aberta",
+          "titulo": "Painéis estatísticos do Corte Aberta",
+          "url": "https://transparencia.stf.jus.br/extensions/corte_aberta/corte_aberta.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Plenário Virtual - decisões colegiadas em ambientes virtuais. Pauta do Plenário - processos liberados para julgamento colegiado. Pauta das Turmas - processos liberados para julgamento colegiado.",
+          "prova": "A lista de painéis estatísticos do tribunal não inclui pedidos de vista, e os números aparecem como traço na captura: é onde o dado faltou."
+        },
         {
           "nivel": "N4",
           "instituicao": "Rádio Itatiaia (CNN Brasil)",
@@ -66,17 +84,9 @@
           "consultada_em": "2026-10-16",
           "trecho": "Agora, com o pedido de vista, começa a contar o prazo de 90 dias para Dino devolver o caso ao plenário. O ministro pode retornar o processo antes do fim desse período, mas o prazo máximo termina em dezembro.",
           "prova": "Descreve a regra do pedido de vista no STF, mas não traz quantos pedidos são feitos por dia: é o que faltou."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Movimento Econômico",
-          "titulo": "Dino pede vista após bate-boca e STF tem 4x3 para separar casos Moraes e Mendonça (15/09/2026)",
-          "url": "https://movimentoeconomico.com.br/economia/justica/2026/09/15/dino-pede-vista-apos-bate-boca-e-stf-tem-4x3-para-separar-casos-moraes-e-mendonca/",
-          "consultada_em": "2026-10-16",
-          "trecho": "O julgamento pode ficar suspenso por até 90 dias , segundo as regras internas da Corte, em meio a uma crise institucional que dividiu o plenário em dois blocos e produziu confrontos verbais entre ministros durante a transmissão ao vivo.",
-          "prova": "Segunda cobertura independente que trata do pedido de vista só pela regra regimental, sem estatística de frequência."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A081",
@@ -257,15 +267,15 @@
     },
     {
       "id": "A085",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "A imprensa registra duas conversas reservadas com Fachin no mesmo dia; as três só aparecem no relato de Lula",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase afirma três conversas com o presidente do STF, Edson Fachin, pedindo apuração e julgamento. O que resolveria é a agenda oficial da Presidência, que não foi capturada nesta checagem. O registro independente encontrado é a reportagem do A Tarde (com base no Metrópoles) de 04/09/2026: Lula teve conversa reservada com Fachin e o procurador-geral no Planalto e, depois de um evento, voltou a se reunir com Fachin, pedindo resposta equilibrada para a crise. O número três aparece só na fala do próprio Lula, em entrevista ao Flow Podcast em 01/10/2026, em que ele diz ter pedido a Fachin que não deixasse a Corte se digladiar e assumisse a responsabilidade. Fachin é o presidente do STF na data. Como o número e o conteúdo exato dependem do relato do próprio entrevistado, e só duas conversas aparecem em registro de terceiros, o veredito é INSUSTENTAVEL; não é FALSO, porque nada contradiz uma terceira conversa.",
+      "veredito": "VERDADEIRO",
+      "resumo": "A imprensa registra três conversas reservadas de Lula com Fachin no início de setembro, durante a crise no STF",
+      "explicacao": "A frase afirma três conversas com o presidente do STF, Edson Fachin, pedindo que ele apure e julgue. Na rodada 1 só duas conversas tinham registro de terceiros. Nesta rodada a busca achou a terceira: segundo O Globo, citado pelo Diário do Centro do Mundo em 02/09/2026, Lula encontrou Fachin no Palácio da Alvorada na noite de terça-feira (1º), em meio à crise do STF. As outras duas são de sexta-feira, 4: conversa reservada no Planalto com Fachin e Gonet, e nova reunião reservada com Fachin depois da cerimônia de sanção, segundo o A Tarde com base no Metrópoles. São três ocasiões distintas com Fachin já na presidência do STF, o mesmo número que Lula deu ao Flow Podcast em 01/10/2026. Sobre o conteúdo, os relatos de bastidor falam em pedido de resposta 'equilibrada' para a crise e em preocupação com a imagem do Supremo, o que vai na direção do que ele disse, mas não registram as palavras 'apure e julgue'; por isso a confiança é média e a ressalva diz que o conteúdo vem de relato reservado. O Globo não pôde ser capturado, e o Diário do Centro do Mundo entra como ponteiro para ele; a agenda oficial da Presidência também não foi capturada. Veredito VERDADEIRO pelo número de conversas, que é o que se pode conferir.",
       "numero_dito": "três vezes",
-      "numero_apurado": null,
-      "data_de_referencia": "conversas relatadas entre setembro e 01/10/2026",
-      "ressalva": "A agenda oficial da Presidência não foi consultada",
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "numero_apurado": "três conversas registradas pela imprensa",
+      "data_de_referencia": "conversas de 1º e 4 de setembro de 2026",
+      "ressalva": "O que foi dito nas conversas vem de relatos reservados, que falam em pedido de resposta equilibrada à crise",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Os relatos de bastidor divergem sobre o conteúdo: o A Tarde fala em pedido de resposta equilibrada à crise; o relato atribuído a O Globo, em preocupação com a imagem do Supremo. Nenhum registra a frase sobre apurar e julgar.",
       "revisao_humana": null,
       "fontes": [
         {
@@ -276,6 +286,15 @@
           "consultada_em": "2026-10-16",
           "trecho": "O presidente Lula teve conversa reservada com o ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF) e o procurador-geral da República, Paulo Gonet, na manhã desta sexta-feira, 4, no Palácio do Planalto. [...] Após o evento da sanção, Lula voltou a se reunir reservadamente com Fachin.",
           "prova": "Registro de terceiros de duas conversas no mesmo dia, com Fachin já na presidência do STF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Centro do Mundo (citando O Globo)",
+          "titulo": "Em meio à crise no STF, Lula conversa com Fachin, Gilmar e Dino (02/09/2026)",
+          "url": "https://www.diariodocentrodomundo.com.br/em-meio-a-crise-no-stf-lula-conversa-com-fachin-gilmar-e-dino/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo O Globo , Lula recebeu Gilmar Mendes no Palácio do Planalto na tarde de terça, encontrou Fachin no Palácio da Alvorada naquela noite e falou com Dino nesta quarta. Interlocutores dizem que o presidente demonstrou preocupação com o desgaste da imagem institucional do Supremo e com o risco de a crise ganhar dimensão política durante a campanha eleitoral.",
+          "prova": "Registra uma terceira conversa, no Alvorada em 1º de setembro, distinta das duas de 4 de setembro; vale como ponteiro para O Globo, que não pôde ser capturado."
         },
         {
           "nivel": "N4",
@@ -295,29 +314,48 @@
           "trecho": "Fachin assumiu a presidência do STF em 2025 e tem conduzido os desdobramentos internos do caso Master",
           "prova": "Confirma que Fachin é o presidente do STF no período das conversas."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A086",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Reportagens descrevem Andrei como próximo de Lula, mas não achamos adversário dizendo isso em público",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A pergunta atribui a adversários de Lula a afirmação de que Andrei Rodrigues tem proximidade grande com ele. A proximidade em si aparece em reportagens: a Gazeta do Povo descreve uma relação de confiança desde a campanha de 2022, e o Poder360 registra que ele passou a integrar com frequência a comitiva presidencial. O que se pede para conferir, porém, é a declaração de adversários. O adversário que agiu publicamente contra Andrei nas fontes capturadas é o partido Novo, que pediu seu afastamento e sua prisão, mas com base em risco de interferência no caso Master, não na proximidade com Lula. Um texto de opinião de revista crítica ao governo diz que ele é próximo a Lula, mas canal de opinião não entra como fonte. Sem declaração de parlamentar, candidato ou partido adversário nesse sentido, a atribuição não está sustentada: INSUSTENTAVEL, e não FALSO, porque nada mostra que adversários não digam isso. A mesma régua foi aplicada à resposta de Lula sobre o mesmo ponto.",
+      "veredito": "VERDADEIRO",
+      "resumo": "O candidato Flávio Bolsonaro chamou Andrei de amigo e pau-mandado de Lula e o acusou na Justiça Eleitoral",
+      "explicacao": "A pergunta atribui a adversários de Lula a afirmação de que o diretor-geral da PF, Andrei Rodrigues, tem proximidade grande com ele. Na rodada 1 não se achou declaração de adversário nesse sentido. Nesta rodada a busca achou declarações públicas do principal adversário, o candidato Flávio Bolsonaro (PL), em ocasiões distintas: em 08/09/2026, no X, ele chamou Andrei de 'companheiro, camarada, amigo, irmão' e 'pau-mandado de Lula' e falou em 'grupo especial de Lula na Polícia Federal' (Itatiaia, com apuração própria, e Estadão Conteúdo no Diario de Pernambuco); em 11/10/2026 a equipe jurídica dele pediu à Justiça Eleitoral investigação de Andrei por suposto uso da PF para beneficiar Lula no primeiro turno. A proximidade em si também é descrita por reportagens (Gazeta do Povo, Poder360). O partido Novo, outro adversário, agiu contra Andrei pelo caso Master, não pela relação com Lula. O essencial da pergunta confere: adversário aponta essa proximidade em público, mais de uma vez. A ressalva registra que os registros achados vêm sobretudo de Flávio Bolsonaro e da equipe dele, e não de vários adversários, o que é o limite do 'muitos'; por isso a confiança é média. A mesma régua foi aplicada à resposta de Lula sobre o mesmo ponto (A090).",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "publicações até 15/10/2026",
-      "ressalva": "O partido Novo pediu o afastamento de Andrei, mas pelo caso Master, não pela relação com Lula",
-      "confianca": "baixa",
+      "data_de_referencia": "declarações de 08/09/2026 e pedido de 11/10/2026",
+      "ressalva": "Os registros achados vêm sobretudo do candidato Flávio Bolsonaro e da equipe dele",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
         {
           "nivel": "N4",
-          "instituicao": "Gazeta do Povo",
-          "titulo": "Como Andrei Rodrigues se tornou o homem de confiança de Lula",
-          "url": "https://www.gazetadopovo.com.br/republica/como-andrei-rodrigues-se-tornou-o-homem-de-confianca-de-lula/",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Flávio Bolsonaro: afastamento de Andrei ‘desmascara’ grupo de Lula na PF (08/09/2026)",
+          "url": "https://www.itatiaia.com.br/politica/flavio-bolsonaro-afastamento-de-andrei-desmascara-grupo-de-lula-na-pf/",
           "consultada_em": "2026-10-16",
-          "trecho": "A relação de confiança entre Luiz Inácio Lula da Silva (PT) e Andrei Rodrigues começou antes mesmo de o petista voltar ao Palácio do Planalto em janeiro de 2023.",
-          "prova": "A proximidade é descrita pela reportagem, não atribuída a adversários."
+          "trecho": "“Chefe da PF (companheiro, camarada, amigo, irmão, irmão, cupincha, parça, aliado, preposto, indicado, pau-mandado de Lula) acusado de investigações clandestinas contra um ministro do STF. Grupo especial de Lula na Polícia Federal desmascarado oficialmente.",
+          "prova": "Declaração pública do principal adversário de Lula apontando proximidade entre Andrei e o presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Flávio sobre afastamento de diretor: \"Grupo especial de Lula na PF desmascarado\" (08/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723372-flavio-sobre-afastamento-de-diretor-grupo-especial-de-lula-na-pf-desmascarado.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O candidato à Presidência Flávio Bolsonaro (PL) comentou nesta terça-feira (8) o afastamento do diretor-geral da Polícia Federal (PF), Andrei Rodrigues, e disse que a decisão afeta o que chamou de \"grupo especial\" do presidente Luiz Inácio Lula da Silva (PT) na PF.",
+          "prova": "Segunda apuração, de outra agência, da mesma declaração, com a identificação de Flávio como candidato adversário."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Flávio Bolsonaro pede para Justiça Eleitoral investigar diretor da PF por beneficiar Lula (11/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4352191/flavio-bolsonaro-pede-para-justica-eleitoral-investigar-diretor-da-pf-por-beneficiar-lula",
+          "consultada_em": "2026-10-16",
+          "trecho": "A equipe jurídica do senador e candidato do PL à Presidência da República, Flávio Bolsonaro, apresentou uma notícia-crime à Justiça Eleitoral pedindo a abertura de investigação contra o diretor-geral da Polícia Federal, Andrei Rodrigues, por suposto uso da estrutura pública para beneficiar o presidente Luiz Inácio Lula da Silva (PT) durante o primeiro turno das eleições.",
+          "prova": "Outra ocasião, um mês depois, em que o adversário associa Andrei a Lula, agora em pedido formal."
         },
         {
           "nivel": "N4",
@@ -327,17 +365,9 @@
           "consultada_em": "2026-10-16",
           "trecho": "O Novo alega risco de interferência nas investigações do caso Master por conta de trechos que envolvem o diretor-geral.",
           "prova": "A ação pública de um partido adversário contra Andrei se apoia no caso Master, não na proximidade com Lula."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Poder360",
-          "titulo": "Saiba quem é Andrei Rodrigues, que foi segurança de Lula em 2022",
-          "url": "https://www.poder360.com.br/poder-justica/saiba-quem-e-andrei-rodrigues-ex-seguranca-de-lula-em-2022/",
-          "consultada_em": "2026-10-16",
-          "trecho": "A proximidade com Lula se manteve depois da eleição. Como diretor-geral da PF, Andrei passou a integrar com frequência a comitiva presidencial em viagens internacionais .",
-          "prova": "Outra reportagem que registra a proximidade por conta própria, sem atribuí-la a adversários."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A087",

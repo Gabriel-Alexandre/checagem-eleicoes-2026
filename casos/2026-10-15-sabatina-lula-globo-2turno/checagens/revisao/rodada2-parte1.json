@@ -1,0 +1,785 @@
+{
+ "checagens": [
+  {
+   "id": "A016",
+   "veredito": "VERDADEIRO",
+   "resumo": "A Câmara registra 68 deputados eleitos pelo PT em 2022, dois a menos que o número citado",
+   "explicacao": "Lula disse que foi eleito com 70 deputados no seu partido. A Agência Câmara, da própria Câmara dos Deputados, publicou com o resultado de 2022 que a federação PT-PCdoB-PV elegeu 80 deputados, sendo 68 do PT, 6 do PCdoB e 6 do PV, e que o PT passou de 56 para 68 deputados a partir de 2023. Investnews e Congresso em Foco, com apuração própria, trazem os mesmos 68 e 80. Contra os 70 ditos, os 68 apurados dão desvio de cerca de 3%, abaixo da margem de 10% da régua do §2.2, e não mudam a ordem de grandeza nem a leitura (uma bancada pequena diante de 513). Por isso VERDADEIRO, com a ressalva do número exato, e não IMPRECISO. A página de bancadas da Câmara mostra 81 para a federação, um a mais que a contagem do dia da eleição; isso não muda o número do PT. A rodada 1 tinha deixado INSUSTENTAVEL provisório porque só achara o número da federação; o número do PT sozinho está nas duas matérias da Agência Câmara capturadas nesta rodada.",
+   "numero_dito": "70 deputados",
+   "numero_apurado": "68 deputados eleitos pelo PT (federação PT-PCdoB-PV: 80 na contagem da eleição)",
+   "data_de_referencia": "eleição de outubro de 2022, bancada a partir de fevereiro de 2023",
+   "ressalva": "Foram 68 eleitos pelo PT; com PCdoB e PV, a federação somou 80.",
+   "confianca": "alta",
+   "divergencia_entre_fontes": "A Agência Câmara deu 80 eleitos à federação no dia da eleição; a página de bancadas na eleição da Câmara registra 81. O número do PT, 68, é o mesmo nas fontes que o separam.",
+   "revisao_humana": null,
+   "derivacoes": [
+    {
+     "valor": "dois a menos",
+     "de": "70 menos 68",
+     "como": "diferença entre o número dito (70) e o número de eleitos do PT na Agência Câmara (68)"
+    }
+   ],
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Câmara dos Deputados (Agência Câmara de Notícias)",
+     "titulo": "PL desponta como maior bancada da Câmara, seguido pela federação liderada pelo PT",
+     "url": "https://www.camara.leg.br/noticias/911504-pl-desponta-como-maior-bancada-da-camara-seguido-pela-federacao-liderada-pelo-pt/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Em segundo lugar está a federação PT-PCdoB-PV, com 80 deputados eleitos (PT com 68, PCdoB com 6  e PV com 6).",
+     "prova": "Resultado da eleição de 2022 publicado pela Câmara: o PT sozinho elegeu 68 deputados."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Câmara dos Deputados (Agência Câmara de Notícias)",
+     "titulo": "Confira os partidos que mais ganharam e mais perderam deputados nas eleições",
+     "url": "https://www.camara.leg.br/noticias/911890-confira-os-partidos-que-mais-ganharam-e-mais-perderam-deputados-nas-eleicoes/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O PT, legenda do outro candidato à Presidência da República, Luiz Inácio Lula da Silva, por sua vez, ganhou 12 deputados, passando de uma bancada atual de 56 integrantes para uma de 68 deputados a partir de 2023.",
+     "prova": "Segundo registro da Câmara com o mesmo número: 68 deputados do PT na legislatura que começou em 2023."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Câmara dos Deputados",
+     "titulo": "Bancadas na eleição de 2022",
+     "url": "https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias/bancada-na-eleicao",
+     "consultada_em": "2026-10-16",
+     "trecho": "Bancadas na eleição de 2022 - Portal da Câmara dos Deputados Ir ao conteúdo Ir à navegação principal Você está usando um navegador defasado . Por favor, atualize seu navegador para melhorar sua experiência e sua segurança. Página inicial Acessibilidade Fale Conosco Congresso Senado PT English EN Español ES Entrar Assuntos Agropecuária Cidades e transportes Ciência, tecnologia e comunicações Consumidor Direitos humanos Economia Educação, cultura e esportes Meio ambiente e energia Política e administração pública Relações exteriores Saúde Segurança Trabalho, previdência e assistência Institucional Agenda Serviços Presidência Biblioteca e publicações Escola da Câmara Papel e estrutura História e arquivo Visite Deputados Quem são Lideranças e bancadas Frentes e grupos parlamentares Atividade Legislativa Propostas legislativas Plenário Comissões Sessões e reuniões Estudos legislativos Orçamento da União Legislação Entenda o processo legislativo Participe Comunicação Agência Câmara de Notícias Rádio Câmara TV Câmara Banco de Imagens Assessoria de Imprensa Comprove uma notícia Transparência e prestação de contas Transparência Prestação de contas Dados abertos Pesquise no Portal da Câmara Buscar Início Deputados Lideranças e Bancadas Partidárias Esta página Lideranças e Bancadas Partidárias MENU DESTA SEÇÃO Bancadas Atuais Bancadas na Eleição Bancadas na Posse Contatos Bancadas na eleição de 2022 bancadas na eleição de 2022 para deputado federal [...] Federação PT - PCdoB - PV 81",
+     "prova": "O resultado oficial de 2022 só separa a federação, com 81 eleitos."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Investnews",
+     "titulo": "PL e PT têm as maiores bancadas da Câmara; veja deputados federais eleitos",
+     "url": "https://investnews.com.br/economia/pl-e-pt-tem-as-maiores-bancadas-da-camara-veja-deputados-federais-eleitos",
+     "consultada_em": "2026-10-16",
+     "trecho": "Assim como no Senado , o PL conquistou 99 cadeiras, a maior bancada na nova composição da Câmara, com início em fevereiro de 2023. Já o seu rival, o PT, terá 68 cadeiras.",
+     "prova": "Confirmação independente, com apuração própria, dos 68 eleitos do PT."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Congresso em Foco",
+     "titulo": "PL e PT dominarão nova Câmara; veja como bancadas evoluíram ao longo da história desde 1986",
+     "url": "https://congressoemfoco.com.br/coluna/37685/pl-e-pt-dominarao-nova-camara-veja-como-bancadas-evoluiram-ao-longo-da-historia-desde-1986",
+     "consultada_em": "2026-10-16",
+     "trecho": "O PL, partido de Jair Bolsonaro, elegeu o maior número de deputados federais: 99. A Federação Brasil, que inclui PT, PV e PCdoB, elegeu 80 deputados.",
+     "prova": "Confirma os 80 da federação na contagem do dia da eleição, que a Agência Câmara divide em 68 do PT, 6 do PCdoB e 6 do PV."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A017",
+   "veredito": "VERDADEIRO",
+   "resumo": "O Senado registra 9 senadores do PT ao fim da eleição de 2022 e 9 na posse, em comunicado do presidente da Casa",
+   "explicacao": "Lula disse que foi eleito tendo 9 senadores do PT, de 81. A Agência Senado registrou, com o fim do segundo turno de 2022, que o PT teria 9 senadores na legislatura seguinte, e a Rádio Senado transcreve o comunicado oficial do presidente do Senado na posse, em fevereiro de 2023, para o cálculo da proporcionalidade: 'Partido dos Trabalhadores (PT), nove Senadores'. As duas são registros do próprio Senado em momentos diferentes (eleição e posse) e batem com a fala. A Agência Senado também registra que a Casa tem 81 senadores desde 1990. Parte da imprensa (Poder360, Congresso em Foco, O Povo) contava 8 na posse, porque Wellington Dias virou ministro e a suplente é do PSD; o comunicado oficial, porém, registra nove, e a divergência fica escrita. A rodada 1 tinha deixado INSUSTENTAVEL provisório por falta de fonte N1; as duas páginas oficiais do Senado foram capturadas nesta rodada.",
+   "numero_dito": "9 senadores de 81",
+   "numero_apurado": "9 senadores do PT (fim da eleição de 2022 e comunicado da posse, em fevereiro de 2023)",
+   "data_de_referencia": "outubro de 2022 (fim do segundo turno) e fevereiro de 2023 (posse)",
+   "ressalva": null,
+   "confianca": "alta",
+   "divergencia_entre_fontes": "Poder360, Congresso em Foco e O Povo contavam 8 senadores do PT na posse, pela ida de Wellington Dias para o ministério; o comunicado oficial do presidente do Senado na posse registra nove.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Senado Federal (Agência Senado)",
+     "titulo": "Bancadas do Senado estarão mais concentradas em 2023 (31/10/2022)",
+     "url": "https://www12.senado.leg.br/noticias/materias/2022/10/31/bancadas-do-senado-estarao-mais-concentradas-em-2023",
+     "consultada_em": "2026-10-16",
+     "trecho": "A conclusão do segundo turno das eleições de 2022 no domingo (30) deu números finais às bancadas do Senado para o ano que vem. O PL, já confirmado como o maior partido a partir da próxima legislatura, terá 14 senadores. Ele será seguido pelo PSD, com 11; por MDB e União Brasil, com 10 cada um; e pelo PT, com 9.",
+     "prova": "Registro oficial do Senado: 9 senadores do PT ao fim da eleição de 2022, o momento a que a fala se refere."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Senado Federal (Rádio Senado)",
+     "titulo": "Tamanho das bancadas do Senado define a presidência e composição das comissões (02/02/2023)",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2023/02/02/tamanho-das-bancadas-do-senado-define-a-presidencia-e-composicao-das-comissoes",
+     "consultada_em": "2026-10-16",
+     "trecho": "Assim, para fins de cálculo da proporcionalidade partidária, comunico a representação dos partidos políticos no Senado Federal. Partido Social Democrático (PSD), quinze Senadores; Partido Liberal (PL), doze Senadores; Movimento Democrático Brasileiro (MDB), 10 Senadores; Partido dos Trabalhadores (PT), nove Senadores;",
+     "prova": "Comunicado oficial do presidente do Senado na posse: o PT com nove senadores no início da legislatura."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Senado Federal (Agência Senado)",
+     "titulo": "PL faz a maior bancada do Senado; PSD é o segundo maior partido (03/10/2022)",
+     "url": "https://www12.senado.leg.br/noticias/materias/2022/10/03/pl-faz-a-maior-bancada-do-senado-psd-e-o-segundo-maior-partido",
+     "consultada_em": "2026-10-16",
+     "trecho": "O PT se isolou como quarta bancada, com 8 senadores confirmados, mas pode chegar a 9 dependendo do segundo turno nos estados. Se isso se confirmar, o partido encostaria em MDB e União Brasil e formaria a quinta bancada de pelo menos 9 senadores — algo que nunca aconteceu no Senado desde 1990, quando a Casa passou a ter 81 senadores.",
+     "prova": "Dá o total de 81 senadores e mostra que o nono senador do PT dependia do segundo turno, confirmado depois."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Investnews",
+     "titulo": "PL passa a ter maior bancada do Senado; veja nova composição (outubro de 2022)",
+     "url": "https://investnews.com.br/economia/quem-sao-senadores-eleitos-2022/amp/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Já o Partido dos Trabalhadores (PT), do presidente Luiz Inácio Lula da Silva, passou de sete para nove cadeiras.",
+     "prova": "O PT com 9 senadores logo depois da eleição."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Ministérios de Lula diminuem bancada do PT no Senado em 2023",
+     "url": "https://www.poder360.com.br/congresso/ministerios-de-lula-diminuem-bancada-do-pt-no-senado-em-2023/",
+     "consultada_em": "2026-10-16",
+     "trecho": "A bancada do PT no Senado em 2023 deve começar desfalcada por conta das indicações do presidente eleito, Luiz Inácio Lula da Silva (PT), para ministérios. Seriam 9 senadores petistas na Casa Alta e, agora, devem ser 8. [...] Com a saída de Dias para a Esplanada, a bancada petista no Senado cai de 9 para 8 congressistas.",
+     "prova": "9 depois da eleição e 8 na posse, com o motivo."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Congresso em Foco",
+     "titulo": "Com indicação de ministros, PT perde uma cadeira no Senado",
+     "url": "https://www.congressoemfoco.com.br/noticia/44377/com-indicacao-de-ministros-pt-perde-uma-cadeira-no-senado",
+     "consultada_em": "2026-10-16",
+     "trecho": "Com isso, o partido de Lula passa a ter uma bancada de oito senadores na próxima legislatura",
+     "prova": "Confirma 8 no início da legislatura."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A028",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Em 2006, ministros consultaram a Controladoria sobre como fazer campanha; nada achado sobre pedido de Lula",
+   "explicacao": "A frase diz que, na campanha à reeleição de 2006, Lula não pediu aos ministros que fizessem campanha por ele. Na rodada 2 foram procurados, em buscas na web e nas páginas capturadas, cobertura de 2006 sobre ministros em campanha, reuniões ministeriais e orientações do Planalto. O que se achou: o Congresso em Foco de 10/07/2006 registra a primeira reunião ministerial do ano, para orientar os ministros sobre como se comportar durante a campanha, com um balanço que deveria servir de argumento 'quando os ministros forem abordados nas ruas, na campanha'; e o de 04/10/2006 registra que três ministros (Turismo, Comunicações e Desenvolvimento Social) consultaram a Controladoria-Geral da União sobre como participar da campanha de reeleição. Nenhum registro diz que Lula pediu que eles fizessem campanha, nem o contrário. A reunião de julho mostra o governo preparando os ministros para a campanha, mas não é um pedido de campanha e não basta para FALSO; a consulta dos ministros mostra iniciativa deles. Sem fonte que sustente ou contradiga a frase, o veredito é INSUSTENTAVEL.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "campanha presidencial de 2006",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Congresso em Foco",
+     "titulo": "Ministros consultam CGU para participar da campanha (04/10/2006)",
+     "url": "https://www.congressoemfoco.com.br/noticia/3149/ministros-consultam-cgu-para-participar-da-campanha",
+     "consultada_em": "2026-10-16",
+     "trecho": "A Controladoria Geral da União (CGU) foi consultada por três ministros que querem definir de que forma poderão participar da campanha de reeleição do presidente Lula.",
+     "prova": "Mostra ministros querendo participar da campanha de 2006, por consulta deles, sem dizer se houve pedido de Lula."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Congresso em Foco",
+     "titulo": "Lula faz primeira reunião ministerial de 2006 amanhã (10/07/2006)",
+     "url": "https://www.congressoemfoco.com.br/noticia/93287/lula-faz-primeira-reuniao-ministerial-de-2006-amanha",
+     "consultada_em": "2026-10-16",
+     "trecho": "A reunião servirá para orientar os ministros sobre como eles devem se comportar durante a campanha eleitoral, além de ser apresentado um balanço sobre as ações do governo. As informações deverão servir de argumentos para quando os ministros forem abordados nas ruas, na campanha.",
+     "prova": "O registro mais próximo de uma orientação de Lula aos ministros sobre a campanha de 2006: orienta conduta e dá argumentos, sem pedido de que façam campanha."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Presidência da República (Planalto)",
+     "titulo": "Biografia do Presidente da República",
+     "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+     "consultada_em": "2026-10-16",
+     "trecho": "Em 29 de outubro de 2006, novamente na companhia do vice José Alencar, foi reeleito presidente da República com mais de 58 milhões de votos",
+     "prova": "Situa a campanha de 2006 a que a frase se refere; não trata da atuação dos ministros."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Terra",
+     "titulo": "Na Globo, Lula muda de opinião e defende redução da maioridade penal, e faz mea-culpa sobre resultados do governo",
+     "url": "https://www.terra.com.br/noticias/eleicoes/em-sabatina-na-tv-globo-lula-admite-dificuldade-para-comunicar-resultados-do-governo-e-destaca-relacao-civilizada-com-trump,a736578906d473595a214a2df0eca0dchkuvcljh.html",
+     "consultada_em": "2026-10-16",
+     "trecho": "Ele afirmou, ainda, que nem em 2006 pediu para que seus ministros fizessem campanha por ele na reeleição",
+     "prova": "Registra a afirmação na cobertura da sabatina, sem fonte que a confirme."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A029",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Jornais relataram negociação de Lula com o MDB pela vice em troca de apoio; o partido negou e não há registro oficial",
+   "explicacao": "A frase diz que Lula nunca procurou partidos para apoiá-lo nesta campanha. Na rodada 2 foram procurados noticiário de 2026 sobre negociações de Lula e do PT com MDB, PSD, PP, União Brasil e Republicanos, no 1º e no 2º turno. Há registros que apontam no sentido contrário à frase, todos de imprensa: o Correio Braziliense (10/02/2026) escreveu que Lula estava 'disposto a ceder a vice na chapa à reeleição com o objetivo de garantir o apoio' do MDB, e o Jornal de Brasília, no mesmo dia, falou em 'negociações de bastidores' entre Lula e o MDB sobre a vice, acrescentando que integrantes do MDB negavam discussão formal; no 2º turno, o presidente do PT, Edinho Silva, disse ter conversado com os presidentes do PSD e do Republicanos sobre a posição dos partidos, e o PSD deixou espaço para o PT buscar apoio regional; e em 14/10 Lula convocou senadores do MDB ao Alvorada, sem registro do que foi tratado. Isso não fecha FALSO: as negociações de fevereiro são relato de bastidor contestado pelo próprio partido, as conversas do 2º turno com registro foram do presidente do PT e não de Lula, e não há registro oficial (N1 ou N2) de pedido de apoio feito por ele. Também não há fonte que sustente a frase. Pela árvore do §2.1, sem fontes qualificadas que confirmem ou contradigam, o veredito é INSUSTENTAVEL.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "campanha de 2026, de fevereiro a 15/out",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Correio Braziliense",
+     "titulo": "Lula e Tarcísio de olho na força do MDB (edição impressa de 10/02/2026, página A2)",
+     "url": "https://edicao.correiobraziliense.com.br/correiobraziliense/2026/02/10/133471/pdf/A02-POL-1002-DIG.pdf",
+     "consultada_em": "2026-10-16",
+     "trecho": "Enquanto presidente está disposto a ceder a vice na chapa à reeleição com o objetivo de garantir o apoio do partido,",
+     "prova": "Relato de que Lula estava disposto a oferecer a vice ao MDB para ter o apoio do partido, sem fonte identificada nem confirmação oficial."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Jornal de Brasília",
+     "titulo": "Baleia Rossi sinaliza alinhamento com Tarcísio enquanto Lula disputa apoio do MDB (10/02/2026)",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/baleia-rossi-sinaliza-alinhamento-com-tarcisio-enquanto-lula-disputa-apoio-do-mdb/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O encontro ocorre em meio a negociações de bastidores entre o presidente Luiz Inácio Lula da Silva (PT) e o MDB sobre a possibilidade de indicação de um nome da sigla para a vaga de vice-presidente na chapa à reeleição, em outubro. Integrantes da legenda negam que o tema esteja em discussão formal no partido.",
+     "prova": "Segundo relato, independente do primeiro, das negociações com o MDB, com a negativa do partido registrada."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Grande ABC",
+     "titulo": "Edinho diz ter conversado com Kassab e Marcos Pereira sobre 2º turno (06/10/2026)",
+     "url": "https://www.dgabc.com.br/Noticia/4351309/edinho-diz-ter-conversado-com-kassab-e-marcos-pereira-sobre-2-turno",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente do PT, Edinho Silva, disse nesta terça-feira, 6, que conversou com o presidente do PSD, Gilberto Kassab, e com o presidente do Republicanos, Marcos Pereira, sobre a posição dos dois partidos no segundo turno das eleições. Segundo Edinho, Kassab expressou que o PSD ficará neutro, mas manteve o espaço aberto para o PT dialogar com lideranças regionais do PSD em busca de apoio.",
+     "prova": "No 2º turno, quem procurou os partidos, com registro, foi o presidente do PT, não Lula."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Durante votação do fim da 6 X 1, Lula se reúne com senadores do MDB",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/durante-votacao-do-fim-da-6-x-1-lula-se-reune-com-senadores-do-mdb/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente Luiz Inácio Lula da Silva (PT) convocou, nesta 4ª feira (14.out.2026), os senadores dos diretórios do Norte e Nordeste do MDB para uma reunião. O encontro no Palácio do Alvorada se dá durante a votação da PEC (Proposta de Emenda à Constituição) que acaba com a escala 6 X 1. [...] Apesar de a convocação ter sido feita por Lula, o convite aos congressistas foi feito pelo senador Eduardo Braga (MDB-PA).",
+     "prova": "Mostra uma reunião com senadores de um partido convocada por Lula durante o 2º turno, no dia de uma votação no Senado, sem dizer o que foi tratado."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "MDB anuncia apoio da maioria dos diretórios estaduais a Flávio",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/mdb-anuncia-apoio-da-maioria-dos-diretorios-estaduais-a-flavio/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Dos 27 diretórios estaduais do MDB, 17 apoiam Flávio, enquanto 10 declararam apoio a Lula .",
+     "prova": "Contexto: o apoio de parte do MDB a Lula existe, mas a fonte não diz se partiu de pedido dele."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A032",
+   "veredito": "VERDADEIRO",
+   "resumo": "A agenda oficial registra reuniões com Trump na Malásia e na Casa Branca e um telefonema em agosto, o último",
+   "explicacao": "Lula disse 'nós tivemos três reuniões' e emendou que 'a última foi quase uma hora e meia por telefone'. A agenda oficial do presidente, publicada pelo Planalto, registra três compromissos com Trump que batem com essa contagem: 'Reunião com o Presidente dos Estados Unidos, Donald Trump' em Kuala Lumpur, em 26/10/2025; 'Reunião com o Presidente dos Estados Unidos da América, Donald Trump' no Salão Oval da Casa Branca, em 07/05/2026; e 'Telefonema com o Presidente dos Estados Unidos da América, Donald Trump' em 21/08/2026. Poder360 e Folha de Pernambuco (Reuters) confirmam de forma independente a reunião na Malásia, e o Diario de Pernambuco registra o telefonema de agosto. Houve também telefonemas anteriores e o encontro rápido na Assembleia Geral da ONU, em setembro de 2025, que não aparece como reunião na agenda; contando tudo, os contatos passam de três, e por isso a confiança é média e a ressalva vai escrita. A rodada 1 tinha só imprensa (o validador acusava falta de N1 ou N2); as páginas oficiais de notícias do Planalto estão fechadas no defeso eleitoral, mas as agendas oficiais seguem abertas e foram capturadas nesta rodada. O tempo do telefonema ('quase uma hora e meia') não foi conferido em fonte capturada e não entra no card.",
+   "numero_dito": "três reuniões",
+   "numero_apurado": "três compromissos na agenda oficial: reuniões na Malásia e na Casa Branca e o telefonema de agosto",
+   "data_de_referencia": "de outubro de 2025 a agosto de 2026",
+   "ressalva": "Houve também telefonemas anteriores e um encontro rápido na ONU, fora da agenda de reuniões.",
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Presidência da República (Planalto), agenda oficial",
+     "titulo": "Agenda do Presidente da República para 26/10/2025",
+     "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-10-26",
+     "consultada_em": "2026-10-16",
+     "trecho": "Publicado em 25/10/2025 23h00 [...] Kuala Lumpur (fuso: +11h do horário de Brasília) [...] 15h30 Reunião com o Presidente dos Estados Unidos, Donald Trump",
+     "prova": "Primeira reunião: Kuala Lumpur, na agenda oficial."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Presidência da República (Planalto), agenda oficial",
+     "titulo": "Agenda do Presidente da República para 07/05/2026",
+     "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-05-07",
+     "consultada_em": "2026-10-16",
+     "trecho": "Publicado em 07/05/2026 00h00 [...] Washington DC (Fuso: -1h do horário de Brasília) 11h30 Reunião com o Presidente dos Estados Unidos da América, Donald Trump Salão Oval - Casa Branca",
+     "prova": "Segunda reunião: Casa Branca, na agenda oficial."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Presidência da República (Planalto), agenda oficial",
+     "titulo": "Agenda do Presidente da República para 21/08/2026",
+     "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-08-21",
+     "consultada_em": "2026-10-16",
+     "trecho": "Publicado em 21/08/2026 00h00 [...] 09h30 Telefonema com o Presidente dos Estados Unidos da América, Donald Trump Palácio da Alvorada",
+     "prova": "O telefonema que a fala descreve como o último contato, na agenda oficial."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Acho que faremos acordo com Brasil, diz Trump ao lado de Lula",
+     "url": "https://www.poder360.com.br/poder-internacional/acho-que-faremos-acordo-com-brasil-diz-trump-em-reuniao-com-lula/",
+     "consultada_em": "2026-10-16",
+     "trecho": "A reunião se deu neste domingo (26.out.2025), em Kuala Lumpur, na Malásia, paralelamente à cúpula da Asean (Associação de Nações do Sudeste Asiático). [...] Foi 0 2º encontro entre os presidentes em menos de 2 meses, após uma breve conversa na Assembleia Geral das ONU (Organização das Nações Unidas), em setembro.",
+     "prova": "Primeiro e segundo encontros: Nova York e Kuala Lumpur."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Folha de Pernambuco (Reuters)",
+     "titulo": "Lula diz que vai telefonar para Trump caso negociações não avancem",
+     "url": "https://www.folhape.com.br/politica/lula-diz-que-vai-telefonar-para-trump-caso-negociacoes-nao-avancem/448214/",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente Luiz Inácio Lula da Silva se reuniu no dia 26 de outubro com o presidente dos Estados Unidos, Donald Trump, em Kuala Lumpur, na Malásia. O encontro durou cerca de 50 minutos",
+     "prova": "Confirmação independente da reunião na Malásia."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diario de Pernambuco",
+     "titulo": "Lula diz que conversa com Trump já deu frutos e espera que sejam 'bem saborosos' (agosto de 2026)",
+     "url": "https://www.diariodepernambuco.com.br/politica/2026/08/11721995-lula-diz-que-conversa-com-trump-ja-deu-frutos-e-espera-que-sejam-bem-saborosos.html",
+     "consultada_em": "2026-10-16",
+     "trecho": "O presidente da República e candidato à reeleição, Luiz Inácio Lula da Silva (PT), disse que o telefonema que fez esta semana ao presidente dos Estados Unidos, Donald Trump, já deu frutos.",
+     "prova": "Confirmação independente do telefonema de agosto."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "NSC Total",
+     "titulo": "O que Lula e Trump conversaram em primeiro telefonema após tarifaço",
+     "url": "https://www.nsctotal.com.br/noticias/o-que-lula-e-trump-conversaram-em-primeiro-telefonema-apos-tarifaco",
+     "consultada_em": "2026-10-16",
+     "trecho": "Trump surpreendeu ao falar sobre “química” em encontro rápido com Lula e anunciar reunião para próxima semana",
+     "prova": "Confirmação independente do encontro rápido na ONU e de que houve telefonemas além dos encontros."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A034",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Em 8 de outubro o ministro do Desenvolvimento disse esperar proposta dos EUA; nenhuma reunião achada na semana da fala",
+   "explicacao": "A frase diz que, na semana da sabatina, os ministros do Desenvolvimento, Indústria e Comércio e das Relações Exteriores negociaram com os Estados Unidos. Na rodada 2 foram procurados, em buscas na web e nos portais do MDIC e do Itamaraty, registros de reunião ou conversa entre 12 e 15/out. O último encontro registrado é o de 30/set, em Milwaukee, com o representante comercial dos EUA (nota conjunta MRE e MDIC). Em 08/10, o ministro Márcio Elias Rosa disse, segundo SBT News e Correio Braziliense, que o Brasil esperava receber dos EUA uma proposta em três ou quatro semanas e que a última conversa tinha sido às margens do G20, na semana anterior; a lista de notícias do MDIC de outubro, até 15/10, não traz nota sobre negociação com os EUA. Isso não fecha FALSO: no defeso eleitoral o Itamaraty distribui notas só por e-mail, contatos técnicos podem não ter nota, e o ministro descreveu as negociações como em andamento. Também não há registro que sustente uma negociação naquela semana. Sem fonte que confirme ou contradiga, o veredito é INSUSTENTAVEL.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "semana de 12 a 15/out/2026",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério das Relações Exteriores e MDIC (nota conjunta)",
+     "titulo": "Reunião presencial Brasil-EUA sobre temas comerciais (30/09/2026)",
+     "url": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/reuniao-presencial-brasil-eua-sobre-temas-comerciais-2014-nota-conjunta-mre-mdic",
+     "consultada_em": "2026-10-16",
+     "trecho": "Os ministros Mauro Vieira, das Relações Exteriores, e Márcio Elias Rosa, do Desenvolvimento, Indústria, Comércio e Serviços, reuniram-se nesta quarta-feira (30), em Milwaukee, com o Representante de Comércio dos Estados Unidos (USTR), Jamieson Greer, à margem da Reunião de Ministros do Comércio do G20.",
+     "prova": "Última negociação registrada dos dois ministros com os EUA, duas semanas antes da fala."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério das Relações Exteriores",
+     "titulo": "Comunicação institucional do Ministério das Relações Exteriores durante o defeso eleitoral",
+     "url": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/comunicacao-institucional-do-ministerio-das-relacoes-exteriores-durante-o-defeso-eleitoral",
+     "consultada_em": "2026-10-16",
+     "trecho": "Durante o defeso, as Notas à Imprensa serão distribuídas exclusivamente por correio eletrônico.",
+     "prova": "Explica por que a ausência de nota no portal não basta para dizer que não houve reunião."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC)",
+     "titulo": "Notícias de outubro de 2026 (período eleitoral)",
+     "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026-periodo-eleitoral/outubro",
+     "consultada_em": "2026-10-16",
+     "trecho": "Comitê Gestor discute Plano de Ação do Pro-REG para 2027–2030 15/10/2026 [...] MDIC divulga balança comercial da 2ª semana de outubro de 2026 13/10/2026 [...] MDIC divulga balança comercial de setembro de 2026 06/10/2026",
+     "prova": "A lista de notícias do MDIC até 15/10 não traz nota sobre reunião ou negociação com os EUA."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "SBT News",
+     "titulo": "Governo espera proposta dos EUA sobre tarifaço em novembro (08/10/2026)",
+     "url": "https://sbtnews.sbt.com.br/noticia/economia/governo-espera-proposta-dos-eua-sobre-tarifaco-em-novembro",
+     "consultada_em": "2026-10-16",
+     "trecho": "O ministro do Desenvolvimento, Indústria, Comércio e Serviços, Márcio Elias Rosa, afirmou nesta quinta-feira (8) que o governo espera receber em novembro uma proposta formal dos Estados Unidos para avançar nas negociações sobre o tarifaço imposto a produtos brasileiros.",
+     "prova": "Uma semana antes da fala, o próximo passo descrito pelo ministro era esperar a proposta americana."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Correio Braziliense",
+     "titulo": "Brasil e Estados Unidos avançam em negociações sobre tarifas comerciais (08/10/2026)",
+     "url": "https://www.correiobraziliense.com.br/economia/2026/10/7517086-brasil-e-estados-unidos-avancam-em-negociacoes-sobre-tarifas-comerciais.html",
+     "consultada_em": "2026-10-16",
+     "trecho": "De acordo com o ministro, as conversas com autoridades norte-americanas durante o G20, na semana passada, geraram um diálogo positivo entre as duas partes. O governo brasileiro aguarda agora o envio de um termo de referência elaborado pelos Estados Unidos.",
+     "prova": "Confirmação independente: a última conversa citada foi no G20 e o governo aguardava documento dos EUA."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
+     "url": "https://www.poder360.com.br/poder-governo/quem-deve-estar-preocupado-conosco-sao-os-eua-diz-lula/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Afirmou que o chanceler Mauro Vieira e o ministro do Desenvolvimento, Márcio Elias Rosa, seguem em negociação com representantes do presidente norte-americano.",
+     "prova": "Registra a afirmação, sem data de reunião na semana."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A037",
+   "veredito": "IMPRECISO",
+   "resumo": "Pelo Ministério do Desenvolvimento, a exportação à Indonésia subiu 2,2% até setembro, bem abaixo do dito",
+   "explicacao": "Lula disse que o Brasil cresceu 15% com a Indonésia. No Comex Stat, base oficial do MDIC, as exportações para a Indonésia cresceram 2,2% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio (exportação mais importação) cresceu 2,4%; em 12 meses até setembro, 0,8% e 2,0%. É o recorte usado para EUA, China, Alemanha e Vietnã. A segunda fonte, independente, é a base do país parceiro: nas importações declaradas pela Indonésia à ONU (UN Comtrade), as compras vindas do Brasil subiram 8,6% no primeiro semestre de 2026 sobre o de 2025 (os meses seguintes ainda não estavam disponíveis). As duas bases confirmam o essencial (o comércio cresceu), mas nenhuma chega perto de 15% no período completo disponível; o desvio passa muito da margem de 10% da régua do §2.2. Por isso IMPRECISO, e não FALSO (não há queda) nem VERDADEIRO. A divergência entre as bases vai escrita: medem coisas diferentes (exportação brasileira em valor FOB contra importação indonésia em valor CIF, com a defasagem do frete) e períodos diferentes; e, de janeiro a maio, a base da Indonésia chegou a 15,5%, recorte que não se sustenta com junho nem na base brasileira até setembro.",
+   "numero_dito": "alta de 15%",
+   "numero_apurado": "alta de 2,2% nas exportações brasileiras (jan a set) e de 8,6% nas importações declaradas pela Indonésia (jan a jun)",
+   "data_de_referencia": "janeiro a setembro de 2026 contra 2025 (Comex Stat) e janeiro a junho de 2026 contra 2025 (UN Comtrade), consultados em 16/out/2026",
+   "ressalva": "Nos dados da Indonésia, as compras vindas do Brasil subiram 8,6% no primeiro semestre.",
+   "confianca": "media",
+   "divergencia_entre_fontes": "Base brasileira (exportações, janeiro a setembro): alta de 2,2%. Base da Indonésia (importações, janeiro a junho): alta de 8,6%; de janeiro a maio, 15,5%. As bases medem fluxos e períodos diferentes, e as duas ficam abaixo de 15% no período completo disponível.",
+   "revisao_humana": null,
+   "derivacoes": [
+    {
+     "valor": "2,2%",
+     "de": "3073177875 e 3006015974",
+     "como": "variação das exportações de janeiro a setembro, 2026 sobre 2025, arredondada a uma casa"
+    },
+    {
+     "valor": "2,4%",
+     "de": "3073177875 mais 1891651666, contra 3006015974 mais 1842077235",
+     "como": "variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025"
+    },
+    {
+     "valor": "0,8%",
+     "de": "3073177875 mais 1125515589, contra 3006015974 mais 1161298928",
+     "como": "variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+    },
+    {
+     "valor": "2,0%",
+     "de": "3073177875 mais 1125515589 mais 1891651666 mais 547507116, contra 3006015974 mais 1161298928 mais 1842077235 mais 498316859",
+     "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+    },
+    {
+     "valor": "8,6%",
+     "de": "378937058.691 mais 321059362.628 mais 366444856.06 mais 557950372.941 mais 335187530.991 mais 405435065.327, contra 240980580.362 mais 316920711.366 mais 321583735.931 mais 353353148.046 mais 463822186.414 mais 480528713.575",
+     "como": "variação das importações da Indonésia vindas do Brasil, janeiro a junho, 2026 sobre 2025 (UN Comtrade)"
+    },
+    {
+     "valor": "15,5%",
+     "de": "378937058.691 mais 321059362.628 mais 366444856.06 mais 557950372.941 mais 335187530.991, contra 240980580.362 mais 316920711.366 mais 321583735.931 mais 353353148.046 mais 463822186.414",
+     "como": "variação das importações da Indonésia vindas do Brasil, janeiro a maio, 2026 sobre 2025 (UN Comtrade)"
+    }
+   ],
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: exportações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Indonésia, ano 2026, janeiro a setembro, exportação US$ FOB: 3073177875 [...] Indonésia, ano 2025, janeiro a setembro, exportação US$ FOB: 3006015974",
+     "prova": "Base oficial: exportações a Indonésia nos nove meses de cada ano."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: importações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Indonésia, ano 2026, janeiro a setembro, importação US$ FOB: 1891651666 [...] Indonésia, ano 2025, janeiro a setembro, importação US$ FOB: 1842077235",
+     "prova": "Base oficial: importações da Indonésia, que completam a corrente de comércio."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: exportações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Indonésia, ano 2025, outubro a dezembro, exportação US$ FOB: 1125515589 [...] Indonésia, ano 2024, outubro a dezembro, exportação US$ FOB: 1161298928",
+     "prova": "Completa os 12 meses até setembro: exportações à Indonésia de outubro a dezembro de cada ano (captura da revisão)."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: importações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Indonésia, ano 2025, outubro a dezembro, importação US$ FOB: 547507116 [...] Indonésia, ano 2024, outubro a dezembro, importação US$ FOB: 498316859",
+     "prova": "Completa os 12 meses até setembro: importações da Indonésia de outubro a dezembro de cada ano (captura da revisão)."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, janeiro de 2025 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202501&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202501\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":240980580.362",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em janeiro de 2025, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, fevereiro de 2025 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202502&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202502\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":316920711.366",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em fevereiro de 2025, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, março de 2025 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202503&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202503\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":321583735.931",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em março de 2025, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, abril de 2025 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202504&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202504\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":353353148.046",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em abril de 2025, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, maio de 2025 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202505&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202505\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":463822186.414",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em maio de 2025, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, junho de 2025 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202506&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202506\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":480528713.575",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em junho de 2025, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, janeiro de 2026 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202601&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202601\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":378937058.691",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em janeiro de 2026, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, fevereiro de 2026 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202602&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202602\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":321059362.628",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em fevereiro de 2026, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, março de 2026 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202603&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202603\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":366444856.06",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em março de 2026, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, abril de 2026 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202604&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202604\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":557950372.941",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em abril de 2026, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, maio de 2026 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202605&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202605\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":335187530.991",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em maio de 2026, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+     "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, junho de 2026 (consulta à API)",
+     "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202606&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"period\":\"202606\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":405435065.327",
+     "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em junho de 2026, em dólares, independente da base brasileira."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
+     "url": "https://www.poder360.com.br/poder-governo/quem-deve-estar-preocupado-conosco-sao-os-eua-diz-lula/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
+     "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A038",
+   "veredito": "VERDADEIRO",
+   "resumo": "Exportação à Alemanha subiu 15,8% até setembro, pelo Ministério do Desenvolvimento; os dados europeus dão 16,7%",
+   "explicacao": "Lula disse que o Brasil cresceu 16% com a Alemanha. No Comex Stat, base oficial do MDIC, as exportações para a Alemanha cresceram 15,8% de janeiro a setembro de 2026 sobre o mesmo período de 2025 (15,9% em 12 meses até setembro). A segunda fonte, independente, é a base do parceiro: no Eurostat, as importações da Alemanha vindas do Brasil cresceram 16,7% de janeiro a agosto de 2026 sobre o mesmo período de 2025, em euros. As duas bases batem com os 16% ditos, com desvio bem abaixo da margem de 10% da régua do §2.2. Por isso VERDADEIRO pela medida de exportação. A ressalva vai escrita: se 'comércio' for lido como corrente de comércio (exportação mais importação), a alta foi de 7,5% de janeiro a setembro (8,5% em 12 meses), bem abaixo; a leitura pela exportação é a mesma aplicada aos outros países da fala. As bases medem coisas diferentes (exportação brasileira em dólares FOB, importação alemã em euros), e o câmbio pode explicar parte da diferença entre 15,8% e 16,7%.",
+   "numero_dito": "alta de 16%",
+   "numero_apurado": "alta de 15,8% nas exportações brasileiras (jan a set) e de 16,7% nas importações alemãs vindas do Brasil (jan a ago, em euros)",
+   "data_de_referencia": "janeiro a setembro de 2026 contra 2025 (Comex Stat) e janeiro a agosto de 2026 contra 2025 (Eurostat), consultados em 16/out/2026",
+   "ressalva": "A exportação subiu 15,8%; somando a importação, a corrente de comércio subiu 7,5%.",
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "derivacoes": [
+    {
+     "valor": "15,8%",
+     "de": "5264933369 e 4546494950",
+     "como": "variação das exportações de janeiro a setembro, 2026 sobre 2025, arredondada a uma casa"
+    },
+    {
+     "valor": "7,5%",
+     "de": "5264933369 mais 11315921824, contra 4546494950 mais 10879456865",
+     "como": "variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025"
+    },
+    {
+     "valor": "15,9%",
+     "de": "5264933369 mais 1977729680, contra 4546494950 mais 1705146044",
+     "como": "variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+    },
+    {
+     "valor": "8,5%",
+     "de": "5264933369 mais 1977729680 mais 11315921824 mais 3523580227, contra 4546494950 mais 1705146044 mais 10879456865 mais 3224926326",
+     "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+    },
+    {
+     "valor": "16,7%",
+     "de": "617038163 mais 394354017 mais 678598040 mais 621532249 mais 554554976 mais 714094022 mais 494785607 mais 480114749, contra 465617157 mais 352481750 mais 409172428 mais 649956626 mais 572987703 mais 471788653 mais 516689112 mais 463934957",
+     "como": "variação das importações da Alemanha vindas do Brasil, janeiro a agosto, 2026 sobre 2025, em euros (Eurostat)"
+    }
+   ],
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: exportações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Alemanha, ano 2026, janeiro a setembro, exportação US$ FOB: 5264933369 [...] Alemanha, ano 2025, janeiro a setembro, exportação US$ FOB: 4546494950",
+     "prova": "Base oficial: exportações a Alemanha nos nove meses de cada ano."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: importações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Alemanha, ano 2026, janeiro a setembro, importação US$ FOB: 11315921824 [...] Alemanha, ano 2025, janeiro a setembro, importação US$ FOB: 10879456865",
+     "prova": "Base oficial: importações da Alemanha, que completam a corrente de comércio."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: exportações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Alemanha, ano 2025, outubro a dezembro, exportação US$ FOB: 1977729680 [...] Alemanha, ano 2024, outubro a dezembro, exportação US$ FOB: 1705146044",
+     "prova": "Completa os 12 meses até setembro: exportações à Alemanha de outubro a dezembro de cada ano (captura da revisão)."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: importações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Alemanha, ano 2025, outubro a dezembro, importação US$ FOB: 3523580227 [...] Alemanha, ano 2024, outubro a dezembro, importação US$ FOB: 3224926326",
+     "prova": "Completa os 12 meses até setembro: importações da Alemanha de outubro a dezembro de cada ano (captura da revisão)."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Eurostat (serviço de estatística da União Europeia), Comext",
+     "titulo": "EU trade since 1988 by HS2-4-6 and CN8: importações da Alemanha vindas do Brasil, mensal desde jan/2025 (consulta à API)",
+     "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=en&freq=M&reporter=DE&partner=BR&product=TOTAL&flow=1&indicators=VALUE_IN_EUROS&sinceTimePeriod=2025-01",
+     "consultada_em": "2026-10-16",
+     "trecho": "\"value\":{\"0\":465617157,\"1\":352481750,\"2\":409172428,\"3\":649956626,\"4\":572987703,\"5\":471788653,\"6\":516689112,\"7\":463934957,\"8\":429187483,\"9\":498106672,\"10\":536289380,\"11\":615969750,\"12\":617038163,\"13\":394354017,\"14\":678598040,\"15\":621532249,\"16\":554554976,\"17\":714094022,\"18\":494785607,\"19\":480114749} [...] \"time\":{\"label\":\"TIME_PERIOD\",\"category\":{\"index\":{\"2025-01\":0,\"2025-02\":1,\"2025-03\":2,\"2025-04\":3,\"2025-05\":4,\"2025-06\":5,\"2025-07\":6,\"2025-08\":7,\"2025-09\":8,\"2025-10\":9,\"2025-11\":10,\"2025-12\":11,\"2026-01\":12,\"2026-02\":13,\"2026-03\":14,\"2026-04\":15,\"2026-05\":16,\"2026-06\":17,\"2026-07\":18,\"2026-08\":19",
+     "prova": "Base do país parceiro, independente da brasileira: importações alemãs vindas do Brasil mês a mês (posições 0 a 7 são jan a ago de 2025; 12 a 19, jan a ago de 2026), em euros."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
+     "url": "https://www.poder360.com.br/poder-governo/quem-deve-estar-preocupado-conosco-sao-os-eua-diz-lula/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
+     "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
+    }
+   ],
+   "revisao_ia": null
+  },
+  {
+   "id": "A039",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro; faltou fonte independente",
+   "explicacao": "Lula disse que o Brasil cresceu 13% com o Vietnã. No Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio cresceu 19,4%; em 12 meses até setembro, 5,5% e 11,9%. Pelo acumulado do ano, a exportação fica perto do dito. A regra do projeto pede uma segunda fonte independente, e na rodada 2 ela foi procurada onde poderia estar: a base do parceiro nas Nações Unidas (UN Comtrade, sem nenhum mês de 2026 declarado pelo Vietnã na consulta de 16/out), as estatísticas da alfândega e do escritório de estatística do Vietnã e a imprensa vietnamita (só dados de anos anteriores ou de produtos isolados), e checagens e reportagens sobre a sabatina (só repetem a fala). Nada foi achado. Sem segunda fonte independente, o veredito é INSUSTENTAVEL, e o resumo diz o que a base oficial brasileira mostra e o que faltou. Não é FALSO nem IMPRECISO, porque a única base disponível fica perto do dito.",
+   "numero_dito": "alta de 13%",
+   "numero_apurado": "alta de 14,1% nas exportações e de 19,4% na corrente de comércio, só na base brasileira",
+   "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "derivacoes": [
+    {
+     "valor": "14,1%",
+     "de": "3109734744 e 2725869029",
+     "como": "variação das exportações de janeiro a setembro, 2026 sobre 2025, arredondada a uma casa"
+    },
+    {
+     "valor": "19,4%",
+     "de": "3109734744 mais 3460015211, contra 2725869029 mais 2774933663",
+     "como": "variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025"
+    },
+    {
+     "valor": "5,5%",
+     "de": "3109734744 mais 1035180175, contra 2725869029 mais 1204470551",
+     "como": "variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+    },
+    {
+     "valor": "11,9%",
+     "de": "3109734744 mais 1035180175 mais 3460015211 mais 894927029, contra 2725869029 mais 1204470551 mais 2774933663 mais 891669908",
+     "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+    }
+   ],
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: exportações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Vietnã, ano 2026, janeiro a setembro, exportação US$ FOB: 3109734744 [...] Vietnã, ano 2025, janeiro a setembro, exportação US$ FOB: 2725869029",
+     "prova": "Base oficial: exportações ao Vietnã nos nove meses de cada ano."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: importações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Vietnã, ano 2026, janeiro a setembro, importação US$ FOB: 3460015211 [...] Vietnã, ano 2025, janeiro a setembro, importação US$ FOB: 2774933663",
+     "prova": "Base oficial: importações do Vietnã, que completam a corrente de comércio."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: exportações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Vietnã, ano 2025, outubro a dezembro, exportação US$ FOB: 1035180175 [...] Vietnã, ano 2024, outubro a dezembro, exportação US$ FOB: 1204470551",
+     "prova": "Completa os 12 meses até setembro: exportações ao Vietnã de outubro a dezembro de cada ano (captura da revisão)."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+     "titulo": "Comex Stat: importações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+     "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+     "consultada_em": "2026-10-16",
+     "trecho": "Vietnã, ano 2025, outubro a dezembro, importação US$ FOB: 894927029 [...] Vietnã, ano 2024, outubro a dezembro, importação US$ FOB: 891669908",
+     "prova": "Completa os 12 meses até setembro: importações do Vietnã de outubro a dezembro de cada ano (captura da revisão)."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
+     "url": "https://www.poder360.com.br/poder-governo/quem-deve-estar-preocupado-conosco-sao-os-eua-diz-lula/",
+     "consultada_em": "2026-10-16",
+     "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
+     "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
+    }
+   ],
+   "revisao_ia": null
+  }
+ ]
+}

@@ -45,16 +45,34 @@
     {
       "id": "A028",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Não foi achado registro sobre ministros em campanha a pedido de Lula na reeleição de 2006",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: a frase diz que, na campanha à reeleição de 2006, Lula não pediu aos ministros que fizessem campanha por ele. Conferir isso exige cobertura de 2006 sobre ministros em campanha e orientações do Planalto, e nada disso estava entre as páginas capturadas nesta rodada. As fontes disponíveis só confirmam que a reeleição aconteceu em 2006 (biografia oficial) e registram a frase dita na sabatina, sem conferi-la. Sem registro que a sustente ou a contradiga, o veredito é INSUSTENTAVEL, e não FALSO.",
+      "resumo": "Em 2006, ministros consultaram a Controladoria sobre como fazer campanha; nada achado sobre pedido de Lula",
+      "explicacao": "A frase diz que, na campanha à reeleição de 2006, Lula não pediu aos ministros que fizessem campanha por ele. Na rodada 2 foram procurados, em buscas na web e nas páginas capturadas, cobertura de 2006 sobre ministros em campanha, reuniões ministeriais e orientações do Planalto. O que se achou: o Congresso em Foco de 10/07/2006 registra a primeira reunião ministerial do ano, para orientar os ministros sobre como se comportar durante a campanha, com um balanço que deveria servir de argumento 'quando os ministros forem abordados nas ruas, na campanha'; e o de 04/10/2006 registra que três ministros (Turismo, Comunicações e Desenvolvimento Social) consultaram a Controladoria-Geral da União sobre como participar da campanha de reeleição. Nenhum registro diz que Lula pediu que eles fizessem campanha, nem o contrário. A reunião de julho mostra o governo preparando os ministros para a campanha, mas não é um pedido de campanha e não basta para FALSO; a consulta dos ministros mostra iniciativa deles. Sem fonte que sustente ou contradiga a frase, o veredito é INSUSTENTAVEL.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "campanha presidencial de 2006",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Ministros consultam CGU para participar da campanha (04/10/2006)",
+          "url": "https://www.congressoemfoco.com.br/noticia/3149/ministros-consultam-cgu-para-participar-da-campanha",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Controladoria Geral da União (CGU) foi consultada por três ministros que querem definir de que forma poderão participar da campanha de reeleição do presidente Lula.",
+          "prova": "Mostra ministros querendo participar da campanha de 2006, por consulta deles, sem dizer se houve pedido de Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Lula faz primeira reunião ministerial de 2006 amanhã (10/07/2006)",
+          "url": "https://www.congressoemfoco.com.br/noticia/93287/lula-faz-primeira-reuniao-ministerial-de-2006-amanha",
+          "consultada_em": "2026-10-16",
+          "trecho": "A reunião servirá para orientar os ministros sobre como eles devem se comportar durante a campanha eleitoral, além de ser apresentado um balanço sobre as ações do governo. As informações deverão servir de argumentos para quando os ministros forem abordados nas ruas, na campanha.",
+          "prova": "O registro mais próximo de uma orientação de Lula aos ministros sobre a campanha de 2006: orienta conduta e dá argumentos, sem pedido de que façam campanha."
+        },
         {
           "nivel": "N1",
           "instituicao": "Presidência da República (Planalto)",
@@ -73,21 +91,49 @@
           "trecho": "Ele afirmou, ainda, que nem em 2006 pediu para que seus ministros fizessem campanha por ele na reeleição",
           "prova": "Registra a afirmação na cobertura da sabatina, sem fonte que a confirme."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A029",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Lula reuniu senadores do MDB em 14 de outubro, durante a votação do fim da escala 6 X 1; não foi achado o que se tratou",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: a frase diz que Lula nunca procurou partidos para apoiá-lo nesta campanha. O Poder360 registra que, em 14/out, Lula convocou ao Palácio do Alvorada os senadores dos diretórios do Norte e do Nordeste do MDB, durante a votação da PEC que acaba com a escala 6 X 1, num momento em que 10 dos 27 diretórios do partido apoiavam Lula e 17 apoiavam Flávio Bolsonaro. A reunião mostra contato com um partido em pleno 2º turno, mas a reportagem não diz o que foi tratado nem se houve pedido de apoio, e não foi capturado noticiário sobre negociações com PSD, PP, União Brasil ou outros no 1º turno. As duas matérias são do mesmo veículo. Sem segunda fonte independente nem registro do conteúdo da conversa, o veredito é INSUSTENTAVEL, e não FALSO.",
+      "resumo": "Jornais relataram negociação de Lula com o MDB pela vice em troca de apoio; o partido negou e não há registro oficial",
+      "explicacao": "A frase diz que Lula nunca procurou partidos para apoiá-lo nesta campanha. Na rodada 2 foram procurados noticiário de 2026 sobre negociações de Lula e do PT com MDB, PSD, PP, União Brasil e Republicanos, no 1º e no 2º turno. Há registros que apontam no sentido contrário à frase, todos de imprensa: o Correio Braziliense (10/02/2026) escreveu que Lula estava 'disposto a ceder a vice na chapa à reeleição com o objetivo de garantir o apoio' do MDB, e o Jornal de Brasília, no mesmo dia, falou em 'negociações de bastidores' entre Lula e o MDB sobre a vice, acrescentando que integrantes do MDB negavam discussão formal; no 2º turno, o presidente do PT, Edinho Silva, disse ter conversado com os presidentes do PSD e do Republicanos sobre a posição dos partidos, e o PSD deixou espaço para o PT buscar apoio regional; e em 14/10 Lula convocou senadores do MDB ao Alvorada, sem registro do que foi tratado. Isso não fecha FALSO: as negociações de fevereiro são relato de bastidor contestado pelo próprio partido, as conversas do 2º turno com registro foram do presidente do PT e não de Lula, e não há registro oficial (N1 ou N2) de pedido de apoio feito por ele. Também não há fonte que sustente a frase. Pela árvore do §2.1, sem fontes qualificadas que confirmem ou contradigam, o veredito é INSUSTENTAVEL.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "campanha de 2026, até 15/out",
+      "data_de_referencia": "campanha de 2026, de fevereiro a 15/out",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Lula e Tarcísio de olho na força do MDB (edição impressa de 10/02/2026, página A2)",
+          "url": "https://edicao.correiobraziliense.com.br/correiobraziliense/2026/02/10/133471/pdf/A02-POL-1002-DIG.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Enquanto presidente está disposto a ceder a vice na chapa à reeleição com o objetivo de garantir o apoio do partido,",
+          "prova": "Relato de que Lula estava disposto a oferecer a vice ao MDB para ter o apoio do partido, sem fonte identificada nem confirmação oficial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília",
+          "titulo": "Baleia Rossi sinaliza alinhamento com Tarcísio enquanto Lula disputa apoio do MDB (10/02/2026)",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/baleia-rossi-sinaliza-alinhamento-com-tarcisio-enquanto-lula-disputa-apoio-do-mdb/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O encontro ocorre em meio a negociações de bastidores entre o presidente Luiz Inácio Lula da Silva (PT) e o MDB sobre a possibilidade de indicação de um nome da sigla para a vaga de vice-presidente na chapa à reeleição, em outubro. Integrantes da legenda negam que o tema esteja em discussão formal no partido.",
+          "prova": "Segundo relato, independente do primeiro, das negociações com o MDB, com a negativa do partido registrada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Edinho diz ter conversado com Kassab e Marcos Pereira sobre 2º turno (06/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4351309/edinho-diz-ter-conversado-com-kassab-e-marcos-pereira-sobre-2-turno",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do PT, Edinho Silva, disse nesta terça-feira, 6, que conversou com o presidente do PSD, Gilberto Kassab, e com o presidente do Republicanos, Marcos Pereira, sobre a posição dos dois partidos no segundo turno das eleições. Segundo Edinho, Kassab expressou que o PSD ficará neutro, mas manteve o espaço aberto para o PT dialogar com lideranças regionais do PSD em busca de apoio.",
+          "prova": "No 2º turno, quem procurou os partidos, com registro, foi o presidente do PT, não Lula."
+        },
         {
           "nivel": "N4",
           "instituicao": "Poder360",
@@ -106,7 +152,8 @@
           "trecho": "Dos 27 diretórios estaduais do MDB, 17 apoiam Flávio, enquanto 10 declararam apoio a Lula .",
           "prova": "Contexto: o apoio de parte do MDB a Lula existe, mas a fonte não diz se partiu de pedido dele."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A030",
@@ -229,16 +276,43 @@
     {
       "id": "A032",
       "veredito": "VERDADEIRO",
-      "resumo": "Foram três encontros: na ONU em Nova York, na Malásia e na Casa Branca, além de telefonemas",
-      "explicacao": "Os registros mostram três encontros presenciais entre Lula e Trump: a conversa rápida na Assembleia Geral da ONU, em Nova York, em setembro de 2025; a reunião bilateral em Kuala Lumpur, em 26 de outubro de 2025, que o Poder360 descreve como o 2º encontro; e a reunião na Casa Branca em 7 de maio de 2026. Houve também telefonemas e uma videoconferência. A frase seguinte da fala ('a última foi [...] por telefone') sugere que Lula contou um telefonema entre as três; contando os telefonemas, os contatos passam de três. VERDADEIRO pela leitura de reunião como encontro, com a ressalva escrita; confiança média porque o critério de contagem da fala não é explícito.",
+      "resumo": "A agenda oficial registra reuniões com Trump na Malásia e na Casa Branca e um telefonema em agosto, o último",
+      "explicacao": "Lula disse 'nós tivemos três reuniões' e emendou que 'a última foi quase uma hora e meia por telefone'. A agenda oficial do presidente, publicada pelo Planalto, registra três compromissos com Trump que batem com essa contagem: 'Reunião com o Presidente dos Estados Unidos, Donald Trump' em Kuala Lumpur, em 26/10/2025; 'Reunião com o Presidente dos Estados Unidos da América, Donald Trump' no Salão Oval da Casa Branca, em 07/05/2026; e 'Telefonema com o Presidente dos Estados Unidos da América, Donald Trump' em 21/08/2026. Poder360 e Folha de Pernambuco (Reuters) confirmam de forma independente a reunião na Malásia, e o Diario de Pernambuco registra o telefonema de agosto. Houve também telefonemas anteriores e o encontro rápido na Assembleia Geral da ONU, em setembro de 2025, que não aparece como reunião na agenda; contando tudo, os contatos passam de três, e por isso a confiança é média e a ressalva vai escrita. A rodada 1 tinha só imprensa (o validador acusava falta de N1 ou N2); as páginas oficiais de notícias do Planalto estão fechadas no defeso eleitoral, mas as agendas oficiais seguem abertas e foram capturadas nesta rodada. O tempo do telefonema ('quase uma hora e meia') não foi conferido em fonte capturada e não entra no card.",
       "numero_dito": "três reuniões",
-      "numero_apurado": "três encontros presenciais",
-      "data_de_referencia": "de setembro de 2025 a 15/out/2026",
-      "ressalva": "Conta o encontro rápido na ONU; houve também telefonemas, e o último contato foi por telefone.",
+      "numero_apurado": "três compromissos na agenda oficial: reuniões na Malásia e na Casa Branca e o telefonema de agosto",
+      "data_de_referencia": "de outubro de 2025 a agosto de 2026",
+      "ressalva": "Houve também telefonemas anteriores e um encontro rápido na ONU, fora da agenda de reuniões.",
       "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto), agenda oficial",
+          "titulo": "Agenda do Presidente da República para 26/10/2025",
+          "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-10-26",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado em 25/10/2025 23h00 [...] Kuala Lumpur (fuso: +11h do horário de Brasília) [...] 15h30 Reunião com o Presidente dos Estados Unidos, Donald Trump",
+          "prova": "Primeira reunião: Kuala Lumpur, na agenda oficial."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto), agenda oficial",
+          "titulo": "Agenda do Presidente da República para 07/05/2026",
+          "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-05-07",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado em 07/05/2026 00h00 [...] Washington DC (Fuso: -1h do horário de Brasília) 11h30 Reunião com o Presidente dos Estados Unidos da América, Donald Trump Salão Oval - Casa Branca",
+          "prova": "Segunda reunião: Casa Branca, na agenda oficial."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto), agenda oficial",
+          "titulo": "Agenda do Presidente da República para 21/08/2026",
+          "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-08-21",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado em 21/08/2026 00h00 [...] 09h30 Telefonema com o Presidente dos Estados Unidos da América, Donald Trump Palácio da Alvorada",
+          "prova": "O telefonema que a fala descreve como o último contato, na agenda oficial."
+        },
         {
           "nivel": "N4",
           "instituicao": "Poder360",
@@ -247,15 +321,6 @@
           "consultada_em": "2026-10-16",
           "trecho": "A reunião se deu neste domingo (26.out.2025), em Kuala Lumpur, na Malásia, paralelamente à cúpula da Asean (Associação de Nações do Sudeste Asiático). [...] Foi 0 2º encontro entre os presidentes em menos de 2 meses, após uma breve conversa na Assembleia Geral das ONU (Organização das Nações Unidas), em setembro.",
           "prova": "Primeiro e segundo encontros: Nova York e Kuala Lumpur."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Poder360",
-          "titulo": "Brasil e EUA avançam agenda comercial após encontro Lula-Trump",
-          "url": "https://www.poder360.com.br/poder-economia/brasil-e-eua-avancam-agenda-comercial-apos-encontro-lula-trump/",
-          "consultada_em": "2026-10-16",
-          "trecho": "O encontro on-line deu continuidade às tratativas iniciadas em 7 de maio, quando o presidente Luiz Inácio Lula da Silva (PT) se reuniu com o presidente norte-americano Donald Trump (Partido Republicano) na Casa Branca.",
-          "prova": "Terceiro encontro: Casa Branca, maio de 2026."
         },
         {
           "nivel": "N4",
@@ -268,6 +333,15 @@
         },
         {
           "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Lula diz que conversa com Trump já deu frutos e espera que sejam 'bem saborosos' (agosto de 2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/08/11721995-lula-diz-que-conversa-com-trump-ja-deu-frutos-e-espera-que-sejam-bem-saborosos.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente da República e candidato à reeleição, Luiz Inácio Lula da Silva (PT), disse que o telefonema que fez esta semana ao presidente dos Estados Unidos, Donald Trump, já deu frutos.",
+          "prova": "Confirmação independente do telefonema de agosto."
+        },
+        {
+          "nivel": "N4",
           "instituicao": "NSC Total",
           "titulo": "O que Lula e Trump conversaram em primeiro telefonema após tarifaço",
           "url": "https://www.nsctotal.com.br/noticias/o-que-lula-e-trump-conversaram-em-primeiro-telefonema-apos-tarifaco",
@@ -275,7 +349,8 @@
           "trecho": "Trump surpreendeu ao falar sobre “química” em encontro rápido com Lula e anunciar reunião para próxima semana",
           "prova": "Confirmação independente do encontro rápido na ONU e de que houve telefonemas além dos encontros."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A033",
@@ -331,13 +406,13 @@
     {
       "id": "A034",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "A última negociação registrada dos dois ministros com os EUA foi em 30 de setembro; nada achado na semana da fala",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: a frase diz que, na semana da sabatina, os ministros do MDIC e das Relações Exteriores negociaram com os Estados Unidos. O registro oficial mais recente capturado é a nota conjunta do Itamaraty e do MDIC sobre a reunião de Mauro Vieira e Márcio Elias Rosa com o representante comercial dos EUA, Jamieson Greer, em Milwaukee, em 30/set; não foi achado registro de negociação entre 12 e 15/out. Durante o defeso eleitoral o Itamaraty distribui notas só por e-mail, então a falta de nota no portal não prova que não houve reunião. A cobertura da sabatina só repete que os ministros 'seguem em negociação'. Sem registro da semana, o veredito é INSUSTENTAVEL, e não FALSO.",
+      "resumo": "Em 8 de outubro o ministro do Desenvolvimento disse esperar proposta dos EUA; nenhuma reunião achada na semana da fala",
+      "explicacao": "A frase diz que, na semana da sabatina, os ministros do Desenvolvimento, Indústria e Comércio e das Relações Exteriores negociaram com os Estados Unidos. Na rodada 2 foram procurados, em buscas na web e nos portais do MDIC e do Itamaraty, registros de reunião ou conversa entre 12 e 15/out. O último encontro registrado é o de 30/set, em Milwaukee, com o representante comercial dos EUA (nota conjunta MRE e MDIC). Em 08/10, o ministro Márcio Elias Rosa disse, segundo SBT News e Correio Braziliense, que o Brasil esperava receber dos EUA uma proposta em três ou quatro semanas e que a última conversa tinha sido às margens do G20, na semana anterior; a lista de notícias do MDIC de outubro, até 15/10, não traz nota sobre negociação com os EUA. Isso não fecha FALSO: no defeso eleitoral o Itamaraty distribui notas só por e-mail, contatos técnicos podem não ter nota, e o ministro descreveu as negociações como em andamento. Também não há registro que sustente uma negociação naquela semana. Sem fonte que confirme ou contradiga, o veredito é INSUSTENTAVEL.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "semana de 12 a 15/out/2026",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -360,6 +435,33 @@
           "prova": "Explica por que a ausência de nota no portal não basta para dizer que não houve reunião."
         },
         {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC)",
+          "titulo": "Notícias de outubro de 2026 (período eleitoral)",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026-periodo-eleitoral/outubro",
+          "consultada_em": "2026-10-16",
+          "trecho": "Comitê Gestor discute Plano de Ação do Pro-REG para 2027–2030 15/10/2026 [...] MDIC divulga balança comercial da 2ª semana de outubro de 2026 13/10/2026 [...] MDIC divulga balança comercial de setembro de 2026 06/10/2026",
+          "prova": "A lista de notícias do MDIC até 15/10 não traz nota sobre reunião ou negociação com os EUA."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Governo espera proposta dos EUA sobre tarifaço em novembro (08/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/governo-espera-proposta-dos-eua-sobre-tarifaco-em-novembro",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro do Desenvolvimento, Indústria, Comércio e Serviços, Márcio Elias Rosa, afirmou nesta quinta-feira (8) que o governo espera receber em novembro uma proposta formal dos Estados Unidos para avançar nas negociações sobre o tarifaço imposto a produtos brasileiros.",
+          "prova": "Uma semana antes da fala, o próximo passo descrito pelo ministro era esperar a proposta americana."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Brasil e Estados Unidos avançam em negociações sobre tarifas comerciais (08/10/2026)",
+          "url": "https://www.correiobraziliense.com.br/economia/2026/10/7517086-brasil-e-estados-unidos-avancam-em-negociacoes-sobre-tarifas-comerciais.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "De acordo com o ministro, as conversas com autoridades norte-americanas durante o G20, na semana passada, geraram um diálogo positivo entre as duas partes. O governo brasileiro aguarda agora o envio de um termo de referência elaborado pelos Estados Unidos.",
+          "prova": "Confirmação independente: a última conversa citada foi no G20 e o governo aguardava documento dos EUA."
+        },
+        {
           "nivel": "N4",
           "instituicao": "Poder360",
           "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
@@ -368,7 +470,8 @@
           "trecho": "Afirmou que o chanceler Mauro Vieira e o ministro do Desenvolvimento, Márcio Elias Rosa, seguem em negociação com representantes do presidente norte-americano.",
           "prova": "Registra a afirmação, sem data de reunião na semana."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A035",
@@ -560,15 +663,15 @@
     },
     {
       "id": "A037",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Pelo Ministério do Desenvolvimento, a exportação à Indonésia subiu 2,2% até setembro, longe do dito; sem segunda fonte",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: no Comex Stat, base oficial do MDIC, as exportações para a Indonésia cresceram 2,2% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio (exportação mais importação) cresceu 2,4%. Contra os 15% ditos, a alta medida é muito menor em qualquer das duas medidas, o que levaria a IMPRECISO se confirmado por segunda fonte. Esse é o mesmo recorte e a mesma medida em que os números dos EUA e da China foram conferidos. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 0,8% nas exportações e de 2,0% na corrente de comércio. Em nenhum desses recortes a alta chega perto dos 15%. Não foi capturada nesta rodada uma segunda fonte independente (divulgação do MDIC por país, matéria com apuração própria ou estatística do país parceiro), exigida para fechar o veredito; por isso fica INSUSTENTAVEL provisório.",
+      "veredito": "IMPRECISO",
+      "resumo": "Pelo Ministério do Desenvolvimento, a exportação à Indonésia subiu 2,2% até setembro, bem abaixo do dito",
+      "explicacao": "Lula disse que o Brasil cresceu 15% com a Indonésia. No Comex Stat, base oficial do MDIC, as exportações para a Indonésia cresceram 2,2% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio (exportação mais importação) cresceu 2,4%; em 12 meses até setembro, 0,8% e 2,0%. É o recorte usado para EUA, China, Alemanha e Vietnã. A segunda fonte, independente, é a base do país parceiro: nas importações declaradas pela Indonésia à ONU (UN Comtrade), as compras vindas do Brasil subiram 8,6% no primeiro semestre de 2026 sobre o de 2025 (os meses seguintes ainda não estavam disponíveis). As duas bases confirmam o essencial (o comércio cresceu), mas nenhuma chega perto de 15% no período completo disponível; o desvio passa muito da margem de 10% da régua do §2.2. Por isso IMPRECISO, e não FALSO (não há queda) nem VERDADEIRO. A divergência entre as bases vai escrita: medem coisas diferentes (exportação brasileira em valor FOB contra importação indonésia em valor CIF, com a defasagem do frete) e períodos diferentes; e, de janeiro a maio, a base da Indonésia chegou a 15,5%, recorte que não se sustenta com junho nem na base brasileira até setembro.",
       "numero_dito": "alta de 15%",
-      "numero_apurado": "alta de 2,2% nas exportações e de 2,4% na corrente de comércio",
-      "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "numero_apurado": "alta de 2,2% nas exportações brasileiras (jan a set) e de 8,6% nas importações declaradas pela Indonésia (jan a jun)",
+      "data_de_referencia": "janeiro a setembro de 2026 contra 2025 (Comex Stat) e janeiro a junho de 2026 contra 2025 (UN Comtrade), consultados em 16/out/2026",
+      "ressalva": "Nos dados da Indonésia, as compras vindas do Brasil subiram 8,6% no primeiro semestre.",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Base brasileira (exportações, janeiro a setembro): alta de 2,2%. Base da Indonésia (importações, janeiro a junho): alta de 8,6%; de janeiro a maio, 15,5%. As bases medem fluxos e períodos diferentes, e as duas ficam abaixo de 15% no período completo disponível.",
       "revisao_humana": null,
       "derivacoes": [
         {
@@ -590,6 +693,16 @@
           "valor": "2,0%",
           "de": "3073177875 mais 1125515589 mais 1891651666 mais 547507116, contra 3006015974 mais 1161298928 mais 1842077235 mais 498316859",
           "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "8,6%",
+          "de": "378937058.691 mais 321059362.628 mais 366444856.06 mais 557950372.941 mais 335187530.991 mais 405435065.327, contra 240980580.362 mais 316920711.366 mais 321583735.931 mais 353353148.046 mais 463822186.414 mais 480528713.575",
+          "como": "variação das importações da Indonésia vindas do Brasil, janeiro a junho, 2026 sobre 2025 (UN Comtrade)"
+        },
+        {
+          "valor": "15,5%",
+          "de": "378937058.691 mais 321059362.628 mais 366444856.06 mais 557950372.941 mais 335187530.991, contra 240980580.362 mais 316920711.366 mais 321583735.931 mais 353353148.046 mais 463822186.414",
+          "como": "variação das importações da Indonésia vindas do Brasil, janeiro a maio, 2026 sobre 2025 (UN Comtrade)"
         }
       ],
       "fontes": [
@@ -630,6 +743,114 @@
           "prova": "Completa os 12 meses até setembro: importações da Indonésia de outubro a dezembro de cada ano (captura da revisão)."
         },
         {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, janeiro de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202501&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202501\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":240980580.362",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em janeiro de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, fevereiro de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202502&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202502\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":316920711.366",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em fevereiro de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, março de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202503&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202503\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":321583735.931",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em março de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, abril de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202504&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202504\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":353353148.046",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em abril de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, maio de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202505&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202505\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":463822186.414",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em maio de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, junho de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202506&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202506\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":480528713.575",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em junho de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, janeiro de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202601&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202601\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":378937058.691",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em janeiro de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, fevereiro de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202602&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202602\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":321059362.628",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em fevereiro de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, março de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202603&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202603\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":366444856.06",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em março de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, abril de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202604&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202604\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":557950372.941",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em abril de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, maio de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202605&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202605\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":335187530.991",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em maio de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, junho de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202606&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202606\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":405435065.327",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em junho de 2026, em dólares, independente da base brasileira."
+        },
+        {
           "nivel": "N4",
           "instituicao": "Poder360",
           "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
@@ -638,18 +859,19 @@
           "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
           "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A038",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Pelo Ministério do Desenvolvimento, a exportação à Alemanha subiu 15,8% até setembro, perto do dito; sem segunda fonte",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: no Comex Stat, base oficial do MDIC, as exportações para a Alemanha cresceram 15,8% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio (exportação mais importação) cresceu 7,5%. Contra os 16% ditos, a alta das exportações bate (a corrente de comércio cresceu menos), o que levaria a VERDADEIRO pela medida de exportação se confirmado por segunda fonte. Esse é o mesmo recorte e a mesma medida em que os números dos EUA e da China foram conferidos. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 15,9% nas exportações e de 8,5% na corrente de comércio. A alta das exportações bate com os 16% nos dois recortes; a da corrente de comércio fica bem abaixo. Não foi capturada nesta rodada uma segunda fonte independente (divulgação do MDIC por país, matéria com apuração própria ou estatística do país parceiro), exigida para fechar o veredito; por isso fica INSUSTENTAVEL provisório.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Exportação à Alemanha subiu 15,8% até setembro, pelo Ministério do Desenvolvimento; os dados europeus dão 16,7%",
+      "explicacao": "Lula disse que o Brasil cresceu 16% com a Alemanha. No Comex Stat, base oficial do MDIC, as exportações para a Alemanha cresceram 15,8% de janeiro a setembro de 2026 sobre o mesmo período de 2025 (15,9% em 12 meses até setembro). A segunda fonte, independente, é a base do parceiro: no Eurostat, as importações da Alemanha vindas do Brasil cresceram 16,7% de janeiro a agosto de 2026 sobre o mesmo período de 2025, em euros. As duas bases batem com os 16% ditos, com desvio bem abaixo da margem de 10% da régua do §2.2. Por isso VERDADEIRO pela medida de exportação. A ressalva vai escrita: se 'comércio' for lido como corrente de comércio (exportação mais importação), a alta foi de 7,5% de janeiro a setembro (8,5% em 12 meses), bem abaixo; a leitura pela exportação é a mesma aplicada aos outros países da fala. As bases medem coisas diferentes (exportação brasileira em dólares FOB, importação alemã em euros), e o câmbio pode explicar parte da diferença entre 15,8% e 16,7%.",
       "numero_dito": "alta de 16%",
-      "numero_apurado": "alta de 15,8% nas exportações e de 7,5% na corrente de comércio",
-      "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
-      "ressalva": null,
-      "confianca": "baixa",
+      "numero_apurado": "alta de 15,8% nas exportações brasileiras (jan a set) e de 16,7% nas importações alemãs vindas do Brasil (jan a ago, em euros)",
+      "data_de_referencia": "janeiro a setembro de 2026 contra 2025 (Comex Stat) e janeiro a agosto de 2026 contra 2025 (Eurostat), consultados em 16/out/2026",
+      "ressalva": "A exportação subiu 15,8%; somando a importação, a corrente de comércio subiu 7,5%.",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "derivacoes": [
@@ -672,6 +894,11 @@
           "valor": "8,5%",
           "de": "5264933369 mais 1977729680 mais 11315921824 mais 3523580227, contra 4546494950 mais 1705146044 mais 10879456865 mais 3224926326",
           "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "16,7%",
+          "de": "617038163 mais 394354017 mais 678598040 mais 621532249 mais 554554976 mais 714094022 mais 494785607 mais 480114749, contra 465617157 mais 352481750 mais 409172428 mais 649956626 mais 572987703 mais 471788653 mais 516689112 mais 463934957",
+          "como": "variação das importações da Alemanha vindas do Brasil, janeiro a agosto, 2026 sobre 2025, em euros (Eurostat)"
         }
       ],
       "fontes": [
@@ -712,6 +939,15 @@
           "prova": "Completa os 12 meses até setembro: importações da Alemanha de outubro a dezembro de cada ano (captura da revisão)."
         },
         {
+          "nivel": "N2",
+          "instituicao": "Eurostat (serviço de estatística da União Europeia), Comext",
+          "titulo": "EU trade since 1988 by HS2-4-6 and CN8: importações da Alemanha vindas do Brasil, mensal desde jan/2025 (consulta à API)",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=en&freq=M&reporter=DE&partner=BR&product=TOTAL&flow=1&indicators=VALUE_IN_EUROS&sinceTimePeriod=2025-01",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"value\":{\"0\":465617157,\"1\":352481750,\"2\":409172428,\"3\":649956626,\"4\":572987703,\"5\":471788653,\"6\":516689112,\"7\":463934957,\"8\":429187483,\"9\":498106672,\"10\":536289380,\"11\":615969750,\"12\":617038163,\"13\":394354017,\"14\":678598040,\"15\":621532249,\"16\":554554976,\"17\":714094022,\"18\":494785607,\"19\":480114749} [...] \"time\":{\"label\":\"TIME_PERIOD\",\"category\":{\"index\":{\"2025-01\":0,\"2025-02\":1,\"2025-03\":2,\"2025-04\":3,\"2025-05\":4,\"2025-06\":5,\"2025-07\":6,\"2025-08\":7,\"2025-09\":8,\"2025-10\":9,\"2025-11\":10,\"2025-12\":11,\"2026-01\":12,\"2026-02\":13,\"2026-03\":14,\"2026-04\":15,\"2026-05\":16,\"2026-06\":17,\"2026-07\":18,\"2026-08\":19",
+          "prova": "Base do país parceiro, independente da brasileira: importações alemãs vindas do Brasil mês a mês (posições 0 a 7 são jan a ago de 2025; 12 a 19, jan a ago de 2026), em euros."
+        },
+        {
           "nivel": "N4",
           "instituicao": "Poder360",
           "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
@@ -720,18 +956,19 @@
           "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
           "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A039",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro, perto do dito; sem segunda fonte",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: no Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio (exportação mais importação) cresceu 19,4%. Contra os 13% ditos, a alta das exportações fica dentro da margem de 10% da régua (a corrente de comércio cresceu mais), o que levaria a VERDADEIRO pela medida de exportação se confirmado por segunda fonte. Esse é o mesmo recorte e a mesma medida em que os números dos EUA e da China foram conferidos. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 5,5% nas exportações e de 11,9% na corrente de comércio. Nos 12 meses, quem fica perto dos 13% é a corrente de comércio, e não as exportações. Não foi capturada nesta rodada uma segunda fonte independente (divulgação do MDIC por país, matéria com apuração própria ou estatística do país parceiro), exigida para fechar o veredito; por isso fica INSUSTENTAVEL provisório.",
+      "resumo": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro; faltou fonte independente",
+      "explicacao": "Lula disse que o Brasil cresceu 13% com o Vietnã. No Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio cresceu 19,4%; em 12 meses até setembro, 5,5% e 11,9%. Pelo acumulado do ano, a exportação fica perto do dito. A regra do projeto pede uma segunda fonte independente, e na rodada 2 ela foi procurada onde poderia estar: a base do parceiro nas Nações Unidas (UN Comtrade, sem nenhum mês de 2026 declarado pelo Vietnã na consulta de 16/out), as estatísticas da alfândega e do escritório de estatística do Vietnã e a imprensa vietnamita (só dados de anos anteriores ou de produtos isolados), e checagens e reportagens sobre a sabatina (só repetem a fala). Nada foi achado. Sem segunda fonte independente, o veredito é INSUSTENTAVEL, e o resumo diz o que a base oficial brasileira mostra e o que faltou. Não é FALSO nem IMPRECISO, porque a única base disponível fica perto do dito.",
       "numero_dito": "alta de 13%",
-      "numero_apurado": "alta de 14,1% nas exportações e de 19,4% na corrente de comércio",
+      "numero_apurado": "alta de 14,1% nas exportações e de 19,4% na corrente de comércio, só na base brasileira",
       "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "derivacoes": [
@@ -802,7 +1039,8 @@
           "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
           "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
         }
-      ]
+      ],
+      "revisao_ia": null
     }
   ]
 }

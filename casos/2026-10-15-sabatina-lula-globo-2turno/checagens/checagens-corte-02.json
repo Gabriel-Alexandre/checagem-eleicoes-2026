@@ -1,0 +1,586 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/alegacoes-corte-02.json",
+  "checagens": [
+    {
+      "id": "A036",
+      "veredito": "IMPRECISO",
+      "resumo": "Exportações à China cresceram 12,0% de janeiro a setembro e a corrente de comércio, 11,1%; não 20%",
+      "explicacao": "No Comex Stat, as exportações para a China somaram US$ 84,68 bilhões de janeiro a setembro de 2026, contra US$ 75,58 bilhões no mesmo período de 2025: alta de 12,0%, número que o Poder360 também reporta a partir da divulgação do MDIC. Com as importações, a corrente de comércio cresceu 11,1%. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 16,6% nas exportações e de 12,8% na corrente. O crescimento existe, mas os 20% ficam acima de todas essas medidas por mais que a margem de 10% da régua. IMPRECISO: essência certa, número materialmente errado.",
+      "numero_dito": "alta de 20%",
+      "numero_apurado": "alta de 12,0% nas exportações e de 11,1% na corrente de comércio",
+      "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "12,0%",
+          "de": "84677382774 e 75583368598",
+          "como": "variação das exportações de janeiro a setembro, 2026 sobre 2025, arredondada a uma casa"
+        },
+        {
+          "valor": "11,1%",
+          "de": "84677382774 mais 58622895561, contra 75583368598 mais 53353295433",
+          "como": "variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025"
+        },
+        {
+          "valor": "67%",
+          "de": "20 contra 12,0",
+          "como": "desvio do número dito sobre a alta das exportações apurada"
+        },
+        {
+          "valor": "16,6%",
+          "de": "84677382774 mais 24356876112, contra 75583368598 mais 17948271869",
+          "como": "variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "12,8%",
+          "de": "84677382774 mais 24356876112 mais 58622895561 mais 17562262981, contra 75583368598 mais 17948271869 mais 53353295433 mais 17336471987",
+          "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "China, ano 2026, janeiro a setembro, exportação US$ FOB: 84677382774 [...] China, ano 2025, janeiro a setembro, exportação US$ FOB: 75583368598",
+          "prova": "Base oficial: exportações à China nos nove meses, de onde sai a alta de 12,0%."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "China, ano 2026, janeiro a setembro, importação US$ FOB: 58622895561 [...] China, ano 2025, janeiro a setembro, importação US$ FOB: 53353295433",
+          "prova": "Base oficial: importações da China, que completam a corrente de comércio (alta de 11,1%)."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "China, ano 2025, outubro a dezembro, exportação US$ FOB: 24356876112 [...] China, ano 2024, outubro a dezembro, exportação US$ FOB: 17948271869",
+          "prova": "Completa os 12 meses até setembro: exportações à China de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "China, ano 2025, outubro a dezembro, importação US$ FOB: 17562262981 [...] China, ano 2024, outubro a dezembro, importação US$ FOB: 17336471987",
+          "prova": "Completa os 12 meses até setembro: importações da China de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Superavit da balança comercial sobe 146% em setembro, a US$ 7,7 bi (06/10/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/superavit-da-balanca-comercial-sobe-146-em-setembro-a-us-77-bi/",
+          "consultada_em": "2026-10-16",
+          "trecho": "De janeiro a setembro, os embarques cresceram 12,0%, para US$ 84,677 bilhões.",
+          "prova": "Apuração independente sobre a divulgação do MDIC: alta de 12,0%, não de 20%."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Recontado: exportações à China +12,0% e corrente +11,1% de janeiro a setembro (Comex Stat p03; Poder360 confirma 12,0%). Melhor argumento contra: outro recorte poderia dar 20%. A mesma conta feita em A035 foi feita aqui com a captura da revisão: em 12 meses até setembro, +16,6% nas exportações e +12,8% na corrente. 20 contra 16,6 é desvio de 20%, fora da margem; IMPRECISO mantido. A explicação passa a trazer os 12 meses, com derivações e fontes, para a régua ser igual dentro da mesma resposta. Resumo sem alteração.",
+        "verificacoes": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "id": "A037",
+      "veredito": "IMPRECISO",
+      "resumo": "Pelo Ministério do Desenvolvimento, a exportação à Indonésia subiu 2,2% até setembro, bem abaixo do dito",
+      "explicacao": "Lula disse que o Brasil cresceu 15% com a Indonésia. No Comex Stat, base oficial do MDIC, as exportações para a Indonésia cresceram 2,2% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio (exportação mais importação) cresceu 2,4%; em 12 meses até setembro, 0,8% e 2,0%. É o recorte usado para EUA, China, Alemanha e Vietnã. A segunda fonte, independente, é a base do país parceiro: nas importações declaradas pela Indonésia à ONU (UN Comtrade), as compras vindas do Brasil subiram 8,6% no primeiro semestre de 2026 sobre o de 2025 (os meses seguintes ainda não estavam disponíveis). As duas bases confirmam o essencial (o comércio cresceu), mas nenhuma chega perto de 15% no período completo disponível; o desvio passa muito da margem de 10% da régua do §2.2. Por isso IMPRECISO, e não FALSO (não há queda) nem VERDADEIRO. A divergência entre as bases vai escrita: medem coisas diferentes (exportação brasileira em valor FOB contra importação indonésia em valor CIF, com a defasagem do frete) e períodos diferentes; e, de janeiro a maio, a base da Indonésia chegou a 15,5%, recorte que não se sustenta com junho nem na base brasileira até setembro.",
+      "numero_dito": "alta de 15%",
+      "numero_apurado": "alta de 2,2% nas exportações brasileiras (jan a set) e de 8,6% nas importações declaradas pela Indonésia (jan a jun)",
+      "data_de_referencia": "janeiro a setembro de 2026 contra 2025 (Comex Stat) e janeiro a junho de 2026 contra 2025 (UN Comtrade), consultados em 16/out/2026",
+      "ressalva": "Nos dados da Indonésia, as compras vindas do Brasil subiram 8,6% no primeiro semestre.",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Base brasileira (exportações, janeiro a setembro): alta de 2,2%. Base da Indonésia (importações, janeiro a junho): alta de 8,6%; de janeiro a maio, 15,5%. As bases medem fluxos e períodos diferentes, e as duas ficam abaixo de 15% no período completo disponível.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "2,2%",
+          "de": "3073177875 e 3006015974",
+          "como": "variação das exportações de janeiro a setembro, 2026 sobre 2025, arredondada a uma casa"
+        },
+        {
+          "valor": "2,4%",
+          "de": "3073177875 mais 1891651666, contra 3006015974 mais 1842077235",
+          "como": "variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025"
+        },
+        {
+          "valor": "0,8%",
+          "de": "3073177875 mais 1125515589, contra 3006015974 mais 1161298928",
+          "como": "variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "2,0%",
+          "de": "3073177875 mais 1125515589 mais 1891651666 mais 547507116, contra 3006015974 mais 1161298928 mais 1842077235 mais 498316859",
+          "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "8,6%",
+          "de": "378937058.691 mais 321059362.628 mais 366444856.06 mais 557950372.941 mais 335187530.991 mais 405435065.327, contra 240980580.362 mais 316920711.366 mais 321583735.931 mais 353353148.046 mais 463822186.414 mais 480528713.575",
+          "como": "variação das importações da Indonésia vindas do Brasil, janeiro a junho, 2026 sobre 2025 (UN Comtrade)"
+        },
+        {
+          "valor": "15,5%",
+          "de": "378937058.691 mais 321059362.628 mais 366444856.06 mais 557950372.941 mais 335187530.991, contra 240980580.362 mais 316920711.366 mais 321583735.931 mais 353353148.046 mais 463822186.414",
+          "como": "variação das importações da Indonésia vindas do Brasil, janeiro a maio, 2026 sobre 2025 (UN Comtrade)"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Indonésia, ano 2026, janeiro a setembro, exportação US$ FOB: 3073177875 [...] Indonésia, ano 2025, janeiro a setembro, exportação US$ FOB: 3006015974",
+          "prova": "Base oficial: exportações a Indonésia nos nove meses de cada ano."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Indonésia, ano 2026, janeiro a setembro, importação US$ FOB: 1891651666 [...] Indonésia, ano 2025, janeiro a setembro, importação US$ FOB: 1842077235",
+          "prova": "Base oficial: importações da Indonésia, que completam a corrente de comércio."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Indonésia, ano 2025, outubro a dezembro, exportação US$ FOB: 1125515589 [...] Indonésia, ano 2024, outubro a dezembro, exportação US$ FOB: 1161298928",
+          "prova": "Completa os 12 meses até setembro: exportações à Indonésia de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Indonésia, ano 2025, outubro a dezembro, importação US$ FOB: 547507116 [...] Indonésia, ano 2024, outubro a dezembro, importação US$ FOB: 498316859",
+          "prova": "Completa os 12 meses até setembro: importações da Indonésia de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, janeiro de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202501&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202501\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":240980580.362",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em janeiro de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, fevereiro de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202502&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202502\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":316920711.366",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em fevereiro de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, março de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202503&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202503\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":321583735.931",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em março de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, abril de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202504&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202504\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":353353148.046",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em abril de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, maio de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202505&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202505\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":463822186.414",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em maio de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, junho de 2025 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202506&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202506\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":480528713.575",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em junho de 2025, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, janeiro de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202601&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202601\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":378937058.691",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em janeiro de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, fevereiro de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202602&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202602\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":321059362.628",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em fevereiro de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, março de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202603&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202603\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":366444856.06",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em março de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, abril de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202604&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202604\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":557950372.941",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em abril de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, maio de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202605&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202605\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":335187530.991",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em maio de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Nações Unidas, UN Comtrade (importações declaradas pela Indonésia)",
+          "titulo": "UN Comtrade: importações da Indonésia vindas do Brasil, junho de 2026 (consulta à API)",
+          "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=360&period=202606&partnerCode=76&flowCode=M&cmdCode=TOTAL",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"period\":\"202606\",\"reporterCode\":360 [...] \"partnerCode\":76 [...] \"primaryValue\":405435065.327",
+          "prova": "Base do país parceiro: valor das compras da Indonésia vindas do Brasil em junho de 2026, em dólares, independente da base brasileira."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/quem-deve-estar-preocupado-conosco-sao-os-eua-diz-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
+          "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a IMPRECISO. Revisão adversarial da rodada 2: Melhor argumento contra o IMPRECISO: na base da Indonésia (UN Comtrade), de janeiro a maio as compras vindas do Brasil subiram 15,5%, o número dito. Não derruba: com junho a alta cai para 8,6%, e na base brasileira até setembro é 2,2% (exportação) e 2,4% (corrente); é o mesmo recorte usado para os outros países da fala, e escolher janeiro a maio seria escolher o recorte pelo resultado. Mesma direção, desvio muito acima de 10%: IMPRECISO, não FALSO. Derivações refeitas a partir dos trechos. · Revisão anterior: Provisório. Recontado no Comex Stat: +2,2% nas exportações e +2,4% na corrente de janeiro a setembro; nos 12 meses até setembro (captura da revisão), +0,8% e +2,0%. Nenhum recorte chega perto de 15%, então, com a segunda fonte, o veredito tende a IMPRECISO. Melhor argumento contra o provisório: a base oficial já basta e o card poderia sair IMPRECISO agora. Cai: a §2.1 e a §3.1 pedem duas fontes independentes, a captura nova é da mesma base, e o Poder360 só registra a fala; não havia divulgação por país nem estatística do parceiro capturada (o Comtrade não tem setembro de 2026). INSUSTENTAVEL provisório bem posto. Resumo reescrito: 'Comex Stat' é nome de sistema (escrita-de-card §3), e 'longe do dito' deixa a leitura certa em cinco segundos. · Coerência entre lotes: Par A163, que foi alinhado a este padrão.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A038",
+      "veredito": "VERDADEIRO",
+      "resumo": "Exportação à Alemanha subiu 15,8% até setembro, pelo Ministério do Desenvolvimento; os dados europeus dão 16,7%",
+      "explicacao": "Lula disse que o Brasil cresceu 16% com a Alemanha. No Comex Stat, base oficial do MDIC, as exportações para a Alemanha cresceram 15,8% de janeiro a setembro de 2026 sobre o mesmo período de 2025 (15,9% em 12 meses até setembro). A segunda fonte, independente, é a base do parceiro: no Eurostat, as importações da Alemanha vindas do Brasil cresceram 16,7% de janeiro a agosto de 2026 sobre o mesmo período de 2025, em euros. As duas bases batem com os 16% ditos, com desvio bem abaixo da margem de 10% da régua do §2.2. Por isso VERDADEIRO pela medida de exportação. A ressalva vai escrita: se 'comércio' for lido como corrente de comércio (exportação mais importação), a alta foi de 7,5% de janeiro a setembro (8,5% em 12 meses), bem abaixo; a leitura pela exportação é a mesma aplicada aos outros países da fala. As bases medem coisas diferentes (exportação brasileira em dólares FOB, importação alemã em euros), e o câmbio pode explicar parte da diferença entre 15,8% e 16,7%.",
+      "numero_dito": "alta de 16%",
+      "numero_apurado": "alta de 15,8% nas exportações brasileiras (jan a set) e de 16,7% nas importações alemãs vindas do Brasil (jan a ago, em euros)",
+      "data_de_referencia": "janeiro a setembro de 2026 contra 2025 (Comex Stat) e janeiro a agosto de 2026 contra 2025 (Eurostat), consultados em 16/out/2026",
+      "ressalva": "A exportação subiu 15,8%; somando a importação, a corrente de comércio subiu 7,5%.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "15,8%",
+          "de": "5264933369 e 4546494950",
+          "como": "variação das exportações de janeiro a setembro, 2026 sobre 2025, arredondada a uma casa"
+        },
+        {
+          "valor": "7,5%",
+          "de": "5264933369 mais 11315921824, contra 4546494950 mais 10879456865",
+          "como": "variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025"
+        },
+        {
+          "valor": "15,9%",
+          "de": "5264933369 mais 1977729680, contra 4546494950 mais 1705146044",
+          "como": "variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "8,5%",
+          "de": "5264933369 mais 1977729680 mais 11315921824 mais 3523580227, contra 4546494950 mais 1705146044 mais 10879456865 mais 3224926326",
+          "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "16,7%",
+          "de": "617038163 mais 394354017 mais 678598040 mais 621532249 mais 554554976 mais 714094022 mais 494785607 mais 480114749, contra 465617157 mais 352481750 mais 409172428 mais 649956626 mais 572987703 mais 471788653 mais 516689112 mais 463934957",
+          "como": "variação das importações da Alemanha vindas do Brasil, janeiro a agosto, 2026 sobre 2025, em euros (Eurostat)"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Alemanha, ano 2026, janeiro a setembro, exportação US$ FOB: 5264933369 [...] Alemanha, ano 2025, janeiro a setembro, exportação US$ FOB: 4546494950",
+          "prova": "Base oficial: exportações a Alemanha nos nove meses de cada ano."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Alemanha, ano 2026, janeiro a setembro, importação US$ FOB: 11315921824 [...] Alemanha, ano 2025, janeiro a setembro, importação US$ FOB: 10879456865",
+          "prova": "Base oficial: importações da Alemanha, que completam a corrente de comércio."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Alemanha, ano 2025, outubro a dezembro, exportação US$ FOB: 1977729680 [...] Alemanha, ano 2024, outubro a dezembro, exportação US$ FOB: 1705146044",
+          "prova": "Completa os 12 meses até setembro: exportações à Alemanha de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Alemanha, ano 2025, outubro a dezembro, importação US$ FOB: 3523580227 [...] Alemanha, ano 2024, outubro a dezembro, importação US$ FOB: 3224926326",
+          "prova": "Completa os 12 meses até setembro: importações da Alemanha de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Eurostat (serviço de estatística da União Europeia), Comext",
+          "titulo": "EU trade since 1988 by HS2-4-6 and CN8: importações da Alemanha vindas do Brasil, mensal desde jan/2025 (consulta à API)",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=en&freq=M&reporter=DE&partner=BR&product=TOTAL&flow=1&indicators=VALUE_IN_EUROS&sinceTimePeriod=2025-01",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"value\":{\"0\":465617157,\"1\":352481750,\"2\":409172428,\"3\":649956626,\"4\":572987703,\"5\":471788653,\"6\":516689112,\"7\":463934957,\"8\":429187483,\"9\":498106672,\"10\":536289380,\"11\":615969750,\"12\":617038163,\"13\":394354017,\"14\":678598040,\"15\":621532249,\"16\":554554976,\"17\":714094022,\"18\":494785607,\"19\":480114749} [...] \"time\":{\"label\":\"TIME_PERIOD\",\"category\":{\"index\":{\"2025-01\":0,\"2025-02\":1,\"2025-03\":2,\"2025-04\":3,\"2025-05\":4,\"2025-06\":5,\"2025-07\":6,\"2025-08\":7,\"2025-09\":8,\"2025-10\":9,\"2025-11\":10,\"2025-12\":11,\"2026-01\":12,\"2026-02\":13,\"2026-03\":14,\"2026-04\":15,\"2026-05\":16,\"2026-06\":17,\"2026-07\":18,\"2026-08\":19",
+          "prova": "Base do país parceiro, independente da brasileira: importações alemãs vindas do Brasil mês a mês (posições 0 a 7 são jan a ago de 2025; 12 a 19, jan a ago de 2026), em euros."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/quem-deve-estar-preocupado-conosco-sao-os-eua-diz-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
+          "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a VERDADEIRO. Revisão adversarial da rodada 2: Melhor argumento contra: 'comércio' lido como corrente de comércio dá 7,5%, bem abaixo de 16%. Não derruba: a leitura por exportação é a mesma aplicada a Indonésia, China, EUA e Vietnã, e duas bases independentes (Comex Stat, N1, e Eurostat, N2) dão 15,8% e 16,7%; a ressalva põe a corrente no card. Conferi as derivações contra os valores dos trechos. · Revisão anterior: Provisório. Recontado no Comex Stat: +15,8% nas exportações e +7,5% na corrente de janeiro a setembro; nos 12 meses até setembro, +15,9% e +8,5%. A exportação bate com os 16% nos dois recortes, então, com a segunda fonte, tende a VERDADEIRO com ressalva de que a corrente cresceu menos (é a mesma leitura pela medida que confere aplicada a EUA, China e Indonésia, onde nenhuma medida confere). Melhor argumento contra o provisório: o card laranja com um dado oficial que confirma a fala engana. Pela régua, sem segunda fonte independente o veredito não fecha; o defeito estava no resumo, que não dizia que o dado oficial bate. Resumo reescrito ('perto do dito', nome do ministério no lugar de 'Comex Stat'), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A039",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro; faltou fonte independente",
+      "explicacao": "Lula disse que o Brasil cresceu 13% com o Vietnã. No Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio cresceu 19,4%; em 12 meses até setembro, 5,5% e 11,9%. Pelo acumulado do ano, a exportação fica perto do dito. A regra do projeto pede uma segunda fonte independente, e na rodada 2 ela foi procurada onde poderia estar: a base do parceiro nas Nações Unidas (UN Comtrade, sem nenhum mês de 2026 declarado pelo Vietnã na consulta de 16/out), as estatísticas da alfândega e do escritório de estatística do Vietnã e a imprensa vietnamita (só dados de anos anteriores ou de produtos isolados), e checagens e reportagens sobre a sabatina (só repetem a fala). Nada foi achado. Sem segunda fonte independente, o veredito é INSUSTENTAVEL, e o resumo diz o que a base oficial brasileira mostra e o que faltou. Não é FALSO nem IMPRECISO, porque a única base disponível fica perto do dito.",
+      "numero_dito": "alta de 13%",
+      "numero_apurado": "alta de 14,1% nas exportações e de 19,4% na corrente de comércio, só na base brasileira",
+      "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "14,1%",
+          "de": "3109734744 e 2725869029",
+          "como": "variação das exportações de janeiro a setembro, 2026 sobre 2025, arredondada a uma casa"
+        },
+        {
+          "valor": "19,4%",
+          "de": "3109734744 mais 3460015211, contra 2725869029 mais 2774933663",
+          "como": "variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025"
+        },
+        {
+          "valor": "5,5%",
+          "de": "3109734744 mais 1035180175, contra 2725869029 mais 1204470551",
+          "como": "variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "11,9%",
+          "de": "3109734744 mais 1035180175 mais 3460015211 mais 894927029, contra 2725869029 mais 1204470551 mais 2774933663 mais 891669908",
+          "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Vietnã, ano 2026, janeiro a setembro, exportação US$ FOB: 3109734744 [...] Vietnã, ano 2025, janeiro a setembro, exportação US$ FOB: 2725869029",
+          "prova": "Base oficial: exportações ao Vietnã nos nove meses de cada ano."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, janeiro a setembro de 2025 e de 2026 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2025-01..2026-09&months=01-09&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Vietnã, ano 2026, janeiro a setembro, importação US$ FOB: 3460015211 [...] Vietnã, ano 2025, janeiro a setembro, importação US$ FOB: 2774933663",
+          "prova": "Base oficial: importações do Vietnã, que completam a corrente de comércio."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: exportações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=export&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Vietnã, ano 2025, outubro a dezembro, exportação US$ FOB: 1035180175 [...] Vietnã, ano 2024, outubro a dezembro, exportação US$ FOB: 1204470551",
+          "prova": "Completa os 12 meses até setembro: exportações ao Vietnã de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC/Secex), Comex Stat",
+          "titulo": "Comex Stat: importações por país, outubro a dezembro de 2024 e de 2025 (consulta à API)",
+          "url": "https://api-comexstat.mdic.gov.br/general?flow=import&period=2024-10..2025-12&months=10-12&countries=249,160,365,023,858&details=country&metrics=metricFOB",
+          "consultada_em": "2026-10-16",
+          "trecho": "Vietnã, ano 2025, outubro a dezembro, importação US$ FOB: 894927029 [...] Vietnã, ano 2024, outubro a dezembro, importação US$ FOB: 891669908",
+          "prova": "Completa os 12 meses até setembro: importações do Vietnã de outubro a dezembro de cada ano (captura da revisão)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "\"Quem deve estar preocupado conosco são os EUA\", diz Lula (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/quem-deve-estar-preocupado-conosco-sao-os-eua-diz-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
+          "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a INSUSTENTAVEL. Revisão adversarial da rodada 2: Tentei subir para VERDADEIRO (14,1% na exportação contra 13% dito, desvio de cerca de 8%) e descer para IMPRECISO (corrente de 19,4%). Nenhum fecha: só há uma base (Comex Stat), e a regra 1 da §3.1 pede duas fontes; o UN Comtrade não tinha 2026 do Vietnã. INSUSTENTAVEL com o resumo dizendo o que a base mostra e o que faltou é a régua da A126 aplicada ao candidato. · Revisão anterior: Provisório. Recontado no Comex Stat: +14,1% nas exportações e +19,4% na corrente de janeiro a setembro; 13 contra 14,1 é desvio de 8%, dentro da margem. Nos 12 meses até setembro (captura da revisão), +5,5% nas exportações e +11,9% na corrente: aí quem fica perto dos 13% é a corrente, e a explicação registra isso. Com a segunda fonte, tende a VERDADEIRO pelo acumulado do ano, que é o recorte usado nos cinco países. Melhor argumento contra o provisório: igual ao de A038, e cai pelo mesmo motivo (falta fonte independente da base do MDIC). Resumo reescrito ('perto do dito', nome do ministério), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A040",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte traz a média de 10,5%; o Poder360 contava 41 países visitados no mandato até junho",
+      "explicacao": "A frase atribui ao comércio com '50 países que nós visitamos' um crescimento médio de 10,5%. Para conferir seria preciso a lista dos países, o período comparado e o tipo de média, e nenhuma das reportagens sobre a entrevista traz isso; elas só repetem a fala. Não foi achada publicação do governo (Planalto, MDIC, Itamaraty) com esse número, e o cálculo no Comex Stat não é reprodutível sem a lista. A contagem pública que existe, do Poder360, registrava 41 países diferentes visitados no 3º mandato até junho de 2026, abaixo dos 50 citados; como o critério de contagem do presidente não é conhecido (pode incluir mandatos anteriores ou países visitados depois de junho), isso não prova o contrário, só mostra que o número não tem lastro. Por isso INSUSTENTAVEL e não FALSO. Sem fonte N1 ou N2 porque nenhuma base oficial publica o dado nesse recorte.",
+      "numero_dito": "crescimento médio de 10,5% com 50 países visitados",
+      "numero_apurado": null,
+      "data_de_referencia": "3º mandato, de janeiro de 2023 a junho de 2026 (contagem de viagens do Poder360)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Em ano de eleição, Lula acumula 20 dias fora do Brasil",
+          "url": "https://www.poder360.com.br/poder-governo/em-ano-de-eleicao-lula-acumula-20-dias-fora-do-brasil/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Considerando todo o 3º mandato, Lula acumula 158 dias fora do país . Foram 46 viagens internacionais e visitas a 41 países diferentes desde janeiro de 2023.",
+          "prova": "Levantamento independente das viagens: 41 países diferentes no mandato até junho de 2026, não 50."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estado de Minas",
+          "titulo": "Lula diz que EUA precisam mais do Brasil do que o contrário (15/10/2026)",
+          "url": "https://www.em.com.br/politica/2026/10/7521758-lula-diz-que-eua-precisam-mais-do-brasil-do-que-o-contrario.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula acrescentou que o Brasil também registrou crescimento médio de 10,5% nas relações comerciais com 50 países visitados e voltou a alcançar recordes de superávit comercial.",
+          "prova": "Registra a afirmação na cobertura da entrevista, sem fonte, período ou lista de países que permitam conferir a média."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Lula cita queda de 9% no comércio com EUA e avanço da China (15/10/2026)",
+          "url": "https://bpmoney.com.br/economia/lula-diz-que-eua-devem-se-preocupar-com-brasil-e-cita-avanco-comercial-da-china/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente também declarou que o comércio com um conjunto de 50 países visitados pelo governo registrou crescimento médio de 10,5%.",
+          "prova": "Segunda cobertura independente que repete o número sem indicar de onde ele sai."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "mantido",
+        "nota": "Melhor argumento contra: o Poder360 contava 41 países até 18/jun/2026, abaixo dos 50 ditos, então o card deveria ser FALSO. Cai: o 'nós visitamos' pode incluir viagens de ministros ou países visitados entre junho e outubro, e a média de 10,5% não aparece em fonte nenhuma, nem para confirmar nem para desmentir; a árvore do §2.1 manda para INSUSTENTAVEL quando as fontes não sustentam sem provar o contrário. Conferido: a frase em 489,7 a 494,3 s, no meio da lista de crescimento por país, o que confirma a leitura comercial; os três trechos estão nas capturas (p04), e a página do Poder360 é de 18.jun.2026, o que sustenta o 'até junho' do resumo. Sem N1/N2, e a explicação diz por quê (aviso esperado do validador). O card lido sozinho mostra o que faltou e o único número público, sem afirmar que os 50 são falsos.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      }
+    }
+  ]
+}

@@ -244,6 +244,20 @@ def _para_roteiro(geral: dict, por_falante: list[dict], por_bloco: list[dict],
         "DURACAO": hms(geral["janela_s"]),
         "PALAVRAS": sum(len(s["texto"].split()) for s in transcricao["segmentos"]),
     }
+    # 🆕 16/out/2026: a gravação da sabatina do 2º turno traz trechos que não são a peça (fim do JN,
+    # intervalo comercial, a fala de um terceiro da retransmissão), declarados com papel `outro`.
+    # DURACAO e PALAVRAS acima continuam sendo a gravação inteira; os campos *_PECA contam só quem
+    # é da mesa, e DURACAO_PECA vai da primeira à última fala da mesa, sem os trechos `outro` do meio.
+    papel_de = {f["nome"]: f["papel"] for f in por_falante}
+    mesa = [s for s in transcricao["segmentos"] if papel_de.get(s.get("falante")) not in (None, "outro")]
+    if mesa:
+        ini, fim = mesa[0]["inicio_s"], mesa[-1]["fim_s"]
+        outros = [s["inicio_s"] for s in transcricao["segmentos"] if papel_de.get(s.get("falante")) == "outro"]
+        # o vão inteiro entre duas falas da mesa sai quando há um trecho `outro` dentro dele (o intervalo)
+        fora = sum(b["inicio_s"] - a["fim_s"] for a, b in zip(mesa, mesa[1:], strict=False)
+                   if any(a["fim_s"] <= t < b["inicio_s"] for t in outros))
+        saida["DURACAO_PECA"] = hms(max(0.0, fim - ini - fora))
+        saida["PALAVRAS_PECA"] = sum(len(s["texto"].split()) for s in mesa)
     def pct(b: dict, v: str) -> float | None:
         return b["percentual_dos_checaveis"].get(v)
 

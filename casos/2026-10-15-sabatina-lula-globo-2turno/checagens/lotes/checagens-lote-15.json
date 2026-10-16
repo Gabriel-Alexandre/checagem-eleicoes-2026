@@ -210,24 +210,24 @@
     {
       "id": "A187",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "A adesão das Santas Casas ao programa é voluntária, e não foi achado convênio com todas elas",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase diz que o governo está fazendo convênio com todas as Santas Casas. O instrumento encontrado é o Agora Tem Especialistas, em que hospitais filantrópicos (caso das Santas Casas) e privados aderem por vontade própria; o Ministério da Saúde descreve a adesão como voluntária, e o ministro da Saúde disse que o foco não é atingir todas as instituições. No primeiro mês, 96 hospitais privados e filantrópicos se cadastraram, num universo de 1.824 hospitais e entidades filantrópicas contados pela CMB. Não foi capturado documento de acordo com o conjunto das Santas Casas ou com a CMB. As fontes não sustentam o 'todas', mas também não provam que não exista uma negociação em curso; por isso INSUSTENTAVEL, e não FALSO. Limite declarado: a busca por um eventual acordo com a CMB não pôde ser aprofundada nesta rodada.",
+      "resumo": "A adesão das Santas Casas aos programas federais é feita uma a uma, e não foi achado convênio com todas elas",
+      "explicacao": "A frase diz que o governo está fazendo convênio com todas as Santas Casas. Foram procurados, no Ministério da Saúde, no Planalto, na Confederação das Santas Casas (CMB) e na imprensa (Metrópoles, TVT, Futuro da Saúde, Diário do Comércio), acordo, convênio ou adesão do conjunto das Santas Casas em 2025 e 2026. O que existe são instrumentos de adesão individual: a Lei 15.233, de 2025, implanta o Agora Tem Especialistas 'por meio de adesão' de cada estabelecimento; o ministro da Saúde disse que o foco não é atingir todas as instituições; o presidente da CMB disse que, no desenho do programa, quem deve atender são as grandes Santas Casas; no primeiro mês, 96 hospitais privados e filantrópicos se cadastraram, num universo de 1.824 filantrópicos contados pela CMB; e a linha de crédito do FGTS reaberta em agosto de 2026 é contratada entidade por entidade, com 78 em negociação, para 1.525 hospitais filantrópicos no país. Nenhuma fonte registra convênio com todas as Santas Casas, e nenhuma prova que não haja negociação nesse sentido; contradição direta exigiria registro de que o acordo não existe. Por isso INSUSTENTAVEL, e não FALSO. Os números de filantrópicos divergem entre a CMB (1.824) e o governo (1.525), o que não muda o veredito.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "edital de julho de 2025 e situação até a data da fala",
+      "data_de_referencia": "edital de julho de 2025 a agosto de 2026",
       "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A CMB conta 1.824 hospitais e entidades filantrópicas; o governo, em agosto de 2026, conta 1.525 hospitais filantrópicos. A diferença não altera o veredito.",
       "revisao_humana": null,
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "Intramed (nota do Ministério da Saúde)",
-          "titulo": "Hospitais privados e filantrópicos poderão reforçar atendimento no SUS em troca de compensação por crédito financeiro",
-          "url": "https://www.intramed.net/content/hospitais-privados-e-filantropicos-poderao-reforcar-atendimento-no-sus-em-troca-de-compensacao-por-credito-financeiro",
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.233, de 7 de outubro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15233.htm",
           "consultada_em": "2026-10-16",
-          "trecho": "A adesão ao programa Agora Tem Especialistas é voluntária.",
-          "prova": "O instrumento disponível depende de adesão de cada hospital, não de convênio geral."
+          "trecho": "Fica instituído o Programa Agora Tem Especialistas, a ser implementado por meio de adesão por estabelecimentos hospitalares privados, com ou sem fins lucrativos",
+          "prova": "A lei prevê adesão individual de estabelecimentos, não convênio com um conjunto de entidades."
         },
         {
           "nivel": "N4",
@@ -248,15 +248,25 @@
           "prova": "A adesão inicial foi pequena diante do universo de filantrópicos."
         },
         {
-          "nivel": "N1",
-          "instituicao": "Presidência da República (Planalto)",
-          "titulo": "Lei nº 15.233, de 7 de outubro de 2025",
-          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15233.htm",
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Operadoras com rede própria e santas casas devem ser o alvo do Agora Tem Especialistas para troca de dívidas e ressarcimentos ao SUS",
+          "url": "https://futurodasaude.com.br/?p=36715",
           "consultada_em": "2026-10-16",
-          "trecho": "Fica instituído o Programa Agora Tem Especialistas, a ser implementado por meio de adesão por estabelecimentos hospitalares privados, com ou sem fins lucrativos",
-          "prova": "A lei prevê adesão individual de estabelecimentos, não convênio com um conjunto de entidades."
+          "trecho": "“A base do SUS é feita por pequenas e médias santas casas. Dentro do que está desenhado, quem deve atender o Agora Tem Especialistas são as grandes santas casas, porque é onde tem o maior endividamento e a capacidade de produção é maior também”, afirma Mirócles Véras, presidente da CMB.",
+          "prova": "A própria CMB descreve participação parcial, não um convênio com todas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News (informações do governo federal)",
+          "titulo": "Lula prorroga prazo para aplicação de recursos do FGTS entidades hospitalares filantrópicas",
+          "url": "https://tvtnews.com.br/lula-prorroga-prazo-para-aplicacao-de-recursos-do-fgts-entidades-hospitalares-filantropicas/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A lei reabre o Programa Caixa Hospitais FGTS, linha de crédito especial que utiliza recursos do fundo para financiar Santas Casas, hospitais filantrópicos e instituições sem fins lucrativos [...] O protocolo destaca que a Caixa já possui uma esteira de negócios de R$ 1,58 bilhão, distribuída em 78 entidades em negociação [...] O Brasil conta com 1.525 hospitais filantrópicos, distribuídos em 1.145 municípios.",
+          "prova": "A medida mais recente para as Santas Casas é contratada entidade por entidade, não por convênio geral."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A188",
@@ -409,9 +419,9 @@
       "resumo": "Lei de 2025 zera a conta até 80 kWh na tarifa social e isenta da CDE até 120 kWh outra faixa de renda",
       "explicacao": "A Lei 15.235/2025 (conversão da MP 1.300/2025) fixou a Tarifa Social com desconto de 100% na parcela de consumo até 80 kWh por mês para a subclasse residencial baixa renda, e criou, a partir de 1º de janeiro de 2026, a isenção das quotas da CDE no consumo até 120 kWh para famílias do CadÚnico com renda por pessoa entre meio e um salário mínimo. As duas regras estavam em vigor em 15/10/2026. A fala acerta as duas faixas e o efeito (não paga até 80, paga menos até 120). A ressalva é sobre o público: os 120 kWh valem para outra faixa de renda, e o benefício é tirar a CDE da conta, não cobrar 'só a diferença' de quem passou de 80. Por isso VERDADEIRO com ressalva, e não IMPRECISO: a fala não diz que as duas regras são para as mesmas famílias. As duas fontes são documentos do mesmo processo legislativo (a lei e a exposição de motivos da MP).",
       "numero_dito": "até 80 kWh não paga; até 120 kWh paga a diferença",
-      "numero_apurado": "desconto de 100% até 80 kWh (tarifa social); isenção da CDE até 120 kWh para renda de meio a um salário mínimo por pessoa",
+      "numero_apurado": "conta zerada até 80 kWh na tarifa social; isenção só da CDE até 120 kWh para outra faixa de renda",
       "data_de_referencia": "Lei 15.235 de 8/10/2025; regra dos 120 kWh desde 1º/1/2026",
-      "ressalva": "Os 120 kWh valem para famílias com renda de meio a um salário mínimo por pessoa e isentam só a CDE",
+      "ressalva": "Até 80 kWh a conta zera na tarifa social; os 120 kWh valem para renda de meio a um salário mínimo por pessoa e isentam só a CDE",
       "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
@@ -438,17 +448,65 @@
     },
     {
       "id": "A192",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Não foi achado balanço do mês da fala; a meta oficial era 15,5 milhões de famílias a partir de março de 2026",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase diz que o gás é distribuído para 17 milhões de pessoas. O documento oficial capturado é a exposição de motivos da MP 1.313/2025, que fixa a meta de alcançar 15,5 milhões de famílias a partir de março de 2026 e registra 5,6 milhões de famílias no auxílio em dinheiro em 2023. A Lei 15.348/2026 confirma as modalidades, sem número de beneficiários. Nesta segunda rodada foram abertas as páginas do programa no Ministério do Desenvolvimento Social: elas dizem que o número de pessoas beneficiárias existe no painel de dados do ministério, mas o painel só abre com navegação interativa e não devolveu o indicador por endereço direto, e o informe do programa avisa que a comunicação está sob o defeso eleitoral até 25 de outubro. Sem o dado do mês da fala, o número não pode ser sustentado nem desmentido. A meta é em famílias, e a fala, em pessoas.",
+      "veredito": "IMPRECISO",
+      "resumo": "O programa atende mais de 15 milhões de famílias, cerca de 50 milhões de pessoas, segundo o governo",
+      "explicacao": "A frase diz que o gás é distribuído para 17 milhões de pessoas. O Gás do Povo passou a atender quase 15 milhões de famílias em todos os municípios a partir de 23 de março de 2026 (Agência Brasil), e em outubro, mês da fala, a cobertura era de mais de 15 milhões de famílias (BP Money, 13/10/2026). O Ministério de Minas e Energia estima o alcance em cerca de 50 milhões de pessoas para mais de 15 milhões de famílias. A proporção bate com o dado do MDS para o Pará em setembro: 1.019.809 famílias e 3.198.702 pessoas, 3,1 pessoas por família. Em pessoas, que é a unidade da fala, 17 milhões é cerca de um terço do atendido. Se a fala quis dizer famílias, 17 milhões fica 13,3% acima de 15 milhões; mas o dado do mês é 'mais de 15 milhões' e a meta oficial era 15,5 milhões, e contra a meta o desvio fica no limite da margem de 10%. Por isso o veredito se apoia na leitura em pessoas, que é a unidade dita. A essência (o programa distribui gás a milhões de pessoas) está certa e o número não; por isso IMPRECISO, e não FALSO, já que o número dito está abaixo do real e não inverte o sentido. O painel do MDS com o número exato do mês está sob o defeso eleitoral; o número em pessoas é estimativa oficial, por isso confiança media.",
       "numero_dito": "17 milhões de pessoas",
-      "numero_apurado": null,
-      "data_de_referencia": "meta para março de 2026, fixada em setembro de 2025",
-      "ressalva": null,
-      "confianca": "baixa",
+      "numero_apurado": "mais de 15 milhões de famílias em outubro de 2026; cerca de 50 milhões de pessoas na estimativa do governo",
+      "data_de_referencia": "outubro de 2026 (famílias) e estimativa oficial do programa (pessoas)",
+      "ressalva": "Se a fala quis dizer famílias, 17 milhões fica acima dos mais de 15 milhões atendidos",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "3,1",
+          "de": "3.198.702 dividido por 1.019.809",
+          "como": "pessoas por família atendida no Pará em setembro"
+        },
+        {
+          "valor": "13,3%",
+          "de": "17 milhões e 15 milhões",
+          "como": "desvio da fala, lida como famílias, sobre o total de famílias"
+        }
+      ],
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério de Minas e Energia",
+          "titulo": "Perguntas frequentes do Programa Gás do Povo",
+          "url": "https://www.gov.br/mme/pt-br/gas-do-povo/perguntas-frequentes-faq/FAQProgramaGasdoPovo.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "O programa vai oferecer gratuidade na recarga do botijão de gás de cozinha (GLP), de 13 kg em revendas credenciadas para mais de 15 milhões de famílias brasileiras, beneficiando cerca de 50 milhões de pessoas.",
+          "prova": "A estimativa oficial do alcance em pessoas, a unidade da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Gás do Povo de outubro começa a ser pago; recarga pode ser retirada até 9 de novembro",
+          "url": "https://bpmoney.com.br/?p=426253",
+          "consultada_em": "2026-10-16",
+          "trecho": "13/10/2026 08:47 [...] O Programa Gás do Povo iniciou, neste sábado (10), o pagamento das recargas de outubro de 2026. [...] Atualmente, o programa do governo federal atende mais de 15 milhões de famílias de baixa renda em todo o Brasil.",
+          "prova": "O alcance em famílias no mês da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "eixos (Agência Brasil)",
+          "titulo": "Gás do Povo chega a 15 milhões de famílias com nova expansão",
+          "url": "https://eixos.com.br/gas-natural/gas-do-povo-chega-a-15-milhoes-de-familias-com-nova-expansao/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Agência Brasil 23/03/2026 17:19 [...] O programa Gás do Povo passou a atender quase 15 milhões de famílias em todos os municípios do Brasil.",
+          "prova": "Fonte independente da anterior, com o patamar alcançado desde março de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (dados do MDS)",
+          "titulo": "Gás do Povo atende mais de 1 milhão de famílias no Pará em setembro",
+          "url": "https://www.oliberal.com/economia/gas-do-povo-atende-mais-de-1-milh-o-de-familias-no-para-em-setembro-1.1174286",
+          "consultada_em": "2026-10-16",
+          "trecho": "28 de setembro de 2026 às 15:27 [...] Segundo dados divulgados pelo Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome (MDS) , o benefício chega a 1.019.809 famílias no estado, alcançando 3.198.702 pessoas.",
+          "prova": "Mostra, com dado do MDS, quantas pessoas cada família atendida representa, o que confirma a ordem de grandeza em pessoas."
+        },
         {
           "nivel": "N1",
           "instituicao": "Presidência da República (exposição de motivos da MP 1.313/2025)",
@@ -457,35 +515,9 @@
           "consultada_em": "2026-10-16",
           "trecho": "ao contemplar 5,6 milhões de famílias em 2023, embora os objetivos energéticos da política pública não apresentem a mesma evolução. [...] com meta de alcançar 15,5 milhões de famílias a partir de março de 2026 e manter este patamar nos meses e anos seguintes",
           "prova": "O único número oficial encontrado: meta, em famílias, não o atendimento do mês da fala."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Presidência da República (Planalto)",
-          "titulo": "Lei nº 15.348, de 13 de fevereiro de 2026",
-          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15348.htm",
-          "consultada_em": "2026-10-16",
-          "trecho": "§ 4º Até que sejam contemplados pela gratuidade, prevista no inciso II do caput , os beneficiários da modalidade de pagamento de valor monetário, prevista no inciso I do caput deste artigo, deverão receber o auxílio nessa forma",
-          "prova": "Mostra que o programa convive com duas modalidades em transição, sem informar quantos são atendidos."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
-          "titulo": "Dados consolidados do Gás do Povo",
-          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/gas-do-povo/dados-consolidados-de-familias-beneficiarias-do-gas-do-povo",
-          "consultada_em": "2026-10-16",
-          "trecho": "possibilita acesso a dados como: famílias beneficiárias do Programa Gás do Povo; pessoas beneficiárias do Programa Gás do Povo;",
-          "prova": "O número em pessoas existe no painel do ministério, que não pôde ser capturado nesta rodada."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
-          "titulo": "Informes Gás do Povo",
-          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/gas-do-povo/informes/informes-gas-do-povo",
-          "consultada_em": "2026-10-16",
-          "trecho": "Programa Gás do Povo sob as regras do Defeso Eleitoral: Desde 4 de julho até 25 de outubro de 2026 está em vigor o defeso eleitoral",
-          "prova": "Explica por que o balanço do mês da fala não está publicado no portal do ministério."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A193",

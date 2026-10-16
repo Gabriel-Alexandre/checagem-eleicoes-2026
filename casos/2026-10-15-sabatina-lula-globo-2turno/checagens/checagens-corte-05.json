@@ -1,0 +1,229 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/alegacoes-corte-05.json",
+  "checagens": [
+    {
+      "id": "A182",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O programa estava em 5,2 mil municípios em 2023; o governo diz que o credenciamento de equipes estava parado",
+      "explicacao": "A fala diz que foi preciso fazer o Brasil Sorridente 'voltar a funcionar'. Na leitura literal, de que o programa tinha parado, as fontes contradizem: no relançamento, em 8 de maio de 2023, o Poder360 registra o programa em 5,2 mil municípios, e a página do Ministério da Saúde o trata como contínuo desde 2004. Mas a leitura de que o programa estava travado tem registro: no mesmo dia, a ministra da Saúde disse que o Brasil Sorridente ficou estagnado nos últimos 4 anos e que o governo anterior represou o credenciamento de equipes, e o secretário disse ter encontrado, em janeiro de 2023, mais de 3.500 equipes represadas e que o credenciamento, que libera o repasse de recursos, 'ficou paralisado' (Poder360); o Brasil de Fato chama o programa de desidratado, e a análise de 2019 de Paulo Capel Narvai, da USP, mostra a previsão de recursos para 2022 abaixo da de 2012. Contra isso, o número de equipes que a imprensa permite calcular subiu: 26.807 em 2019 e mais de 29.315 antes da expansão de 2023. 🔧 A rodada 2 tinha dado FALSO; a revisão adversarial da rodada 2 (16/out) rebaixou para INSUSTENTAVEL. O relato da paralisação do credenciamento, que não estava nas fontes, dá base à leitura mais branda da fala, e o que pesaria contra ela é uma conta de equipes montada com duas fontes de imprensa, sem a série oficial; FALSO exige contradição direta do essencial, e ela não existe. O relato da paralisação, por sua vez, vem do governo que faz a afirmação e não confirma a fala sozinho. O que faltou: a série oficial de equipes credenciadas e a execução do gasto de 2019 a 2022.",
+      "numero_dito": null,
+      "numero_apurado": "mais de 3.500 equipes à espera de credenciamento em janeiro de 2023, segundo o governo; mais de 29.315 equipes antes da expansão de 2023, contra 26.807 em 2019",
+      "data_de_referencia": "outubro de 2019, janeiro e maio de 2023",
+      "ressalva": "A paralisação do credenciamento é relato do próprio governo; a série oficial de equipes e de gastos não foi achada",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O governo (ministra e secretário da Saúde, no Poder360 de 08/05/2023) diz que o programa ficou estagnado e que o credenciamento de equipes ficou paralisado, e o Brasil de Fato o chama de desidratado; o Poder360 do mesmo dia registra o programa em 5,2 mil municípios, e a conta de equipes feita com fontes de imprensa mostra alta entre 2019 e 2023.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "29.315",
+          "de": "33 mil menos 3.685",
+          "como": "equipes ativas anunciadas com a expansão menos as equipes novas da expansão"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula sanciona lei que garante atendimento odontológico no SUS",
+          "url": "https://www.poder360.com.br/saude/lula-sanciona-lei-que-garante-atendimento-odontologico-no-sus/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) sancionou nesta 2ª feira (8.mai.2023) o projeto que inclui a Política Nacional de Saúde Bucal, também conhecida como Brasil Sorridente, na Lei Orgânica da Saúde. [...] Atualmente, o Brasil Sorridente está presente em 5,2 mil municípios.",
+          "prova": "Mostra o programa funcionando no momento em que o governo diz tê-lo retomado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (declarações da ministra e do secretário de Atenção Primária à Saúde)",
+          "titulo": "Bolsonaro estagnou programa de saúde bucal, diz ministra da Saúde",
+          "url": "https://www.poder360.com.br/governo/bolsonaro-estagnou-programa-de-saude-bucal-diz-ministra-da-saude/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A ministra da Saúde, Nísia Trindade, disse nesta 2ª feira (8.mai.2023) que a Política Nacional de Saúde Bucal, também conhecida como Brasil Sorridente, ficou estagnada nos últimos 4 anos. De acordo com ela, o governo do ex-presidente Jair Bolsonaro (PL) represou o credenciamento de equipes. [...] Encontramos em 12 de janeiro deste ano mais de 3.500 equipes represadas [...] Normalmente os municípios pedem os credenciamento dessa equipes e é com esse credenciamento que é possível o repasse de recursos. Isso ficou paralisado.",
+          "prova": "O governo descreve o credenciamento de equipes como paralisado até 2023: base para a leitura branda da fala, vinda de quem a faz."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Outras Palavras (Outra Saúde), artigo de Paulo Capel Narvai, professor da USP",
+          "titulo": "Saúde bucal no SUS: recursos regridem a 2005",
+          "url": "https://outraspalavras.net/outrasaude/saude-bucal-no-sus-recursos-regridem-a-2005/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado 25/10/2019 às 05:38 [...] Mas em 2005 o Brasil contava com apenas 12.602 Equipes de Saúde Bucal (ESB) e 161 CEO. Atualmente, são 26.807 ESB e os mencionados 1.138 CEO. [...] Comparando-se 2012 com o previsto para 2022 observa-se uma expressiva redução de R$ 425.265.158,00.",
+          "prova": "Dá o número de equipes em 2019, base da comparação, e a previsão de corte de recursos, o argumento a favor da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil de Fato",
+          "titulo": "Lula recria Brasil Sorridente, programa de saúde bucal do SUS",
+          "url": "https://www.brasildefato.com.br/2023/05/08/lula-recria-brasil-sorridente-programa-de-saude-bucal-do-sus",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na prática, a medida recria o programa Brasil Sorridente, lançado pelo próprio Lula em 2004 e desidratado nos últimos anos, especialmente durante o governo de Jair Bolsonaro (PL) . [...] A nova versão do Brasil Sorridente prevê investimentos públicos de cerca de R$ 136,9 milhões para contratação de 3.685 novas equipes de saúde bucal, que atuarão em todos os estados do país e no Distrito Federal, com foco em locais onde há vazios assistenciais. Com isso, serão mais de 33 mil equipes ativas.",
+          "prova": "Dá o total de equipes depois da expansão, de onde sai o número de antes, e registra a leitura de que o programa foi desidratado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Brasil Sorridente",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil Sorridente é um programa de assistência odontológica, criado em 2004, que apresenta diretrizes nacionais de saúde bucal, integradas na Política Nacional de Saúde Bucal.",
+          "prova": "O programa é de 2004; a página não fala em interrupção."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a FALSO. Revisão adversarial da rodada 2: FALSO para INSUSTENTAVEL. O FALSO se apoiava numa conta de equipes montada com duas fontes de imprensa, sem série oficial, com confiança média e a leitura branda da alegação ('estava reduzido') em aberto. A busca da revisão (1 busca, 1 leitura) achou o Poder360 de 08/05/2023: a ministra disse que o programa ficou estagnado e que o governo anterior represou o credenciamento de equipes, e o secretário falou em mais de 3.500 equipes represadas e credenciamento 'paralisado'. É relato do governo que afirma e não confirma a fala sozinho, mas tira a contradição direta do essencial. Fonte nova capturada (-rv2) e trecho conferido; resumo, ressalva e explicação reescritos. Ver correcoes-rodada2.md. · Revisão anterior: Veredito provisório bem posto. Melhor argumento contra: 'precisamos fazer o Brasil Sorridente voltar a funcionar' é dito no tom de plano, e plano é NAO_CHECAVEL. Cai: a frase vem logo depois de 'eu cheguei no governo' e pressupõe que o programa tinha parado ou encolhido, o que é fato sobre o passado e tem registro (orçamento e número de equipes ano a ano). Também testei a mesma régua da A183: lá há fonte de que o programa funcionava e de corte proposto; aqui as fontes capturadas (página do programa, Lei 14.572 de 2023, 34,5 mil equipes em julho de 2026, todas encontradas na p14) não trazem a série de antes de 2023, então não dá para dizer nem IMPRECISO nem VERDADEIRO. A diferença de veredito entre as duas vem da diferença de prova, não de régua.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A183",
+      "veredito": "IMPRECISO",
+      "resumo": "O programa funcionava em 2022, mas estava sem credenciar farmácia nova e o orçamento de 2023 previa corte de 59%",
+      "explicacao": "A frase diz que era preciso fazer o Farmácia Popular 'voltar a funcionar'. As fontes mostram que o programa não tinha parado: em 2022 tinha orçamento de R$ 2,5 bilhões e entregava de graça os remédios de asma, diabetes e hipertensão. O que as fontes registram é enfraquecimento e risco: nenhuma farmácia nova credenciada por cerca de oito anos até 2023, renovação anual do credenciamento interrompida em 2018 e, na proposta de orçamento de 2023 enviada em agosto de 2022, corte de 59% nos recursos do programa (Aos Fatos); em novembro de 2022 o relator do orçamento no Congresso alertou que, sem a PEC da Transição, o Farmácia Popular corria o risco de parar por falta de dinheiro (Rádio Senado). A essência (programa enfraquecido e sob risco) confere; a ideia de que ele tinha deixado de funcionar não confere. Por isso IMPRECISO, e não VERDADEIRO nem FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "2022 (situação do programa e proposta de orçamento de 2023, de agosto de 2022)",
+      "ressalva": "O corte de 59% estava na proposta de orçamento de 2023, não no gasto de 2022",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde (nota republicada pelo Conselho Federal de Farmácia)",
+          "titulo": "Saúde abre credenciamento do Farmácia Popular a todos os municípios do país (13/02/2025)",
+          "url": "https://site.cff.org.br/noticia/Noticias-gerais/13/02/2025/saude-abre-credenciamento-do-farmacia-popular-a-todos-os-municipios-do-pais",
+          "consultada_em": "2026-10-16",
+          "trecho": "O credenciamento de novas unidades foi retomado em 2023, após oito anos sem nenhuma nova farmácia credenciada. [...] Até 2022, somente eram ofertados de graça para a população medicamentos para asma, diabetes e hipertensão. [...] Em 2024, o orçamento destinado ao programa alcançou R$ 3,6 bilhões, superando os R$ 3,1 bilhões de 2023 e os R$ 2,5 bilhões de 2022.",
+          "prova": "Mostra que em 2022 o programa existia, com orçamento e remédios gratuitos, e que o que estava parado era o credenciamento de farmácias novas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Gov (republicada pelo portal Movimento Econômico)",
+          "titulo": "Governo abre credenciamento para adesão ao programa Farmácia Popular (14/01/2025)",
+          "url": "https://movimentoeconomico.com.br/economia/negocios/2025/01/14/governo-abre-credenciamento-para-adesao-ao-programa-farmacia-popular/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Há quase uma década não havia abertura de credenciamento para adesão de novos estabelecimentos no País. Para alcançar esse importante resultado, o Ministério da Saúde ampliou o investimento no programa. Em 2024, o orçamento chegou a R$ 3,6 bilhões, superior até mesmo ao registrado em 2023: R$ 3,10 bilhões. Em 2022, o investimento não chegou a R$ 2,5 bilhões.",
+          "prova": "Outro comunicado oficial, com outro texto, que repete a interrupção do credenciamento e o orçamento de 2022."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde (nota republicada pelo Conselho Federal de Farmácia)",
+          "titulo": "Farmácia Popular vai recadastrar todos os estabelecimentos participantes até o fim de maio (15/05/2025)",
+          "url": "https://site.cff.org.br/noticia/Noticias-gerais/15/05/2025/farmacia-popular-vai-recadastrar-todos-os-estabelecimentos-participantes-ate-o-fim-de-maio",
+          "consultada_em": "2026-10-16",
+          "trecho": "o Farmácia Popular voltou a realizar a renovação anual obrigatória do credenciamento dos estabelecimentos. A medida, que havia sido interrompida em 2018, faz parte de um processo de reconstrução e fortalecimento do programa conduzido pelo Ministério da Saúde.",
+          "prova": "Registra o enfraquecimento da gestão do programa (renovação interrompida em 2018), sem dizer que ele deixou de operar."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "Bolsa Família, teto de gastos e novos ministérios: os desafios do Orçamento de Lula (28/12/2022)",
+          "url": "https://www.aosfatos.org/noticias/bolsa-familia-teto-de-gastos-orcamento-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PLOA 2023 (Projeto de Lei Orçamentária Anual) original, enviado ao Congresso Nacional em agosto deste ano, apresentava problemas na distribuição de verbas, como o corte de 59% nos recursos do programa Farmácia Popular",
+          "prova": "Fonte independente do Ministério da Saúde: o orçamento proposto para 2023 cortava 59% do programa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Senado",
+          "titulo": "Relator do Orçamento alerta que sem a PEC da Transição programas sociais ficarão sem dinheiro (30/11/2022)",
+          "url": "https://www12.senado.leg.br/radio/1/noticia/2022/11/30/relator-do-orcamento-alerta-que-sem-a-pec-da-transicao-programas-sociais-ficarao-sem-dinheiro",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relator, senador Marcelo Castro (MDB-PI), alertou que sem a aprovação da PEC da Transição, programas importantes, como o Farmácia Popular, correm o risco de parar por falta de dinheiro.",
+          "prova": "Outra fonte independente: no fim de 2022 o programa funcionava, mas corria risco de parar."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Melhor argumento contra o IMPRECISO: as três fontes eram comunicados do próprio Ministério da Saúde, como a explicação admitia; sem duas fontes independentes, a árvore do §2.1 e a regra 3 da §3.1 levariam o card para INSUSTENTAVEL. Procurei nas capturas do caso e achei duas fontes independentes já capturadas na rodada p01: Aos Fatos (N3), com o corte de 59% nos recursos do programa na proposta de orçamento de 2023, e Rádio Senado (relator do orçamento em 30/11/2022: sem a PEC da Transição o Farmácia Popular corria risco de parar). Elas sustentam exatamente a essência que o IMPRECISO afirma: o programa funcionava, mas estava enfraquecido e sob risco; não tinha deixado de funcionar. Com isso o veredito fica de pé, agora com lastro. Alterados: fontes, resumo (passa a mostrar o corte proposto para o ano da posse), ressalva, data e explicação. Trechos novos conferidos na p01. Detalhe em correcoes-r7.md.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A184",
+      "veredito": "VERDADEIRO",
+      "resumo": "O TCU diz que o programa ajudou a aumentar as cirurgias, mas boa parte da alta é recuperação pós-pandemia",
+      "explicacao": "O programa citado na pergunta é o Mais Acesso a Especialistas, lançado em 2024 e incorporado em 2025 ao Agora Tem Especialistas, segundo o próprio TCU. A auditoria do TCU (Acórdão 1622/2026) concluiu que, no componente cirúrgico, o financiamento federal ajudou a aumentar o número de cirurgias, e a tabela do relatório mostra a produção do rol do programa subindo de 4.514.848 em 2023 para 5.677.639 em 2025. A reportagem da Folha (republicada pelo Jornal de Brasília) resume a mesma auditoria: o programa ampliou a oferta de atendimentos. O essencial da frase (ampliou o atendimento) confere, por isso VERDADEIRO. A ressalva é do próprio TCU: parte do crescimento é recuperação pós-pandemia, e o componente de consultas e exames executou só uma pequena parte do planejado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "2023 a 2025 (período da auditoria do TCU)",
+      "ressalva": "No componente de consultas e exames, só 6,9% do planejado foi feito em 2025, segundo o TCU",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (Secom)",
+          "titulo": "TCU avalia Programa Agora Tem Especialistas, do Ministério da Saúde (24/06/2026)",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/tcu-avalia-programa-agora-tem-especialistas-do-ministerio-da-saude",
+          "consultada_em": "2026-10-16",
+          "trecho": "A primeira constatação foi que, no componente cirúrgico , o financiamento federal ajudou a aumentar o número de cirurgias realizadas, mas boa parte desse crescimento reflete a recuperação do SUS após a pandemia, e não necessariamente o impacto direto do Pate. [...] Apenas 6,9% do que foi planejado pelos estados e municípios foi realizado em 2025",
+          "prova": "A conclusão da auditoria sobre a ampliação, com as duas ressalvas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (Secom)",
+          "titulo": "Programa de redução de filas na saúde pública passa por fiscalização do TCU (10/02/2026)",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/programa-de-reducao-de-filas-na-saude-publica-passa-por-fiscalizacao-do-tcu",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 2024, o governo federal lançou o Programa Mais Acesso a Especialistas (Pmae), com foco no atendimento ambulatorial. Incorporando o Pmae, em 2025 o Pate passou a atuar com cinco objetivos principais:",
+          "prova": "Identifica o programa da pergunta e mostra que ele foi incorporado ao Agora Tem Especialistas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília (Folhapress)",
+          "titulo": "Programa de Lula amplia atendimentos, mas 1/4 dos pacientes enfrenta espera maior, diz TCU",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/programa-de-lula-amplia-atendimentos-mas-1-4-dos-pacientes-enfrenta-espera-maior-diz-tcu/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O programa Agora Tem Especialistas, principal aposta do governo Lula para reduzir as filas de consultas, exames e cirurgias no SUS (Sistema Único de Saúde), ampliou a oferta de atendimentos, mas ainda não conseguiu demonstrar que reduziu de forma consistente o tempo de espera dos pacientes",
+          "prova": "Leitura independente da mesma auditoria: houve ampliação da oferta."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (relatório e voto do Acórdão 1622/2026, TC 015.703/2025-8)",
+          "titulo": "Relatório de auditoria operacional do Programa Agora Tem Especialistas, Tabela 4",
+          "url": "https://portal.tcu.gov.br/uploads/noticias/pdf/2026/06/24/documentos_-_2026-06-24T123648.987.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "2023 4.514.848 7.814.026 135 119 16,3 2024 5.432.942 8.571.300 162,6 130,3 32,3 2025 5.677.639 8.902.534 170 135 34,6",
+          "prova": "A produção cirúrgica do rol do programa por ano, de 2023 a 2025, na base usada pelo TCU."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Melhor argumento contra o VERDADEIRO: o programa de que a jornalista fala, o Mais Acesso a Especialistas, era o componente ambulatorial, e o TCU diz que ele executou só 6,9% das ofertas de cuidado integrado planejadas em 2025; a alta das cirurgias seria de outro componente. Cai: o programa foi incorporado ao Agora Tem Especialistas em 2025 (TCU, N1), a pergunta trata do programa como um todo, e 6,9% do planejado ainda é atendimento a mais; o TCU conclui que o financiamento ajudou a aumentar as cirurgias e a Folhapress lê a mesma auditoria como ampliação da oferta. Conferi no texto do acórdão (p15) que os 6,9% são das ofertas de cuidado integrado de janeiro a novembro de 2025, o que a ressalva diz. Veredito mantido. Alterado o resumo: 'em parte pela volta pós-pandemia' encolhia o 'boa parte' do TCU e misturava a ajuda do programa com a recuperação. Detalhe em correcoes-r7.md. · Coerência entre lotes: Par A175: mesmo veredito, ressalvas compatíveis.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ]
+}

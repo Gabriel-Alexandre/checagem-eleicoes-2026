@@ -1,0 +1,64 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-06",
+  "cobertura": {
+    "inicio_s": 2726.31,
+    "fim_s": 2740.7
+  },
+  "alegacoes": [
+    {
+      "id": "A191",
+      "inicio_s": 2726.6,
+      "fim_s": 2732.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "como nós fizemos com a energia elétrica. quem consome até 80 não paga e quem consome até 120 paga apenas uma diferença,",
+      "citacao_card": "quem consome até 80 não paga e quem consome até 120 paga apenas uma diferença",
+      "afirmacao": "Pela regra criada no governo, famílias de baixa renda que consomem até 80 kWh por mês não pagam a conta de luz e quem consome até 120 kWh paga só a diferença",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Considerações finais; o candidato compara uma proposta de transporte com programas já feitos",
+      "o_que_conferir": [
+        "norma da tarifa social de energia elétrica e do desconto social (medida provisória ou lei e resolução da ANEEL) e se ela está em vigor na data da fala",
+        "quais são as faixas de consumo e o público de cada uma (isenção até 80 kWh; o que acontece na faixa até 120 kWh), no texto da norma e na ANEEL"
+      ]
+    },
+    {
+      "id": "A192",
+      "inicio_s": 2734.6,
+      "fim_s": 2737.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós estamos distribuindo o gás para 17 milhões de pessoas",
+      "afirmacao": "O programa federal de gás de cozinha atende 17 milhões de pessoas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Considerações finais, na comparação com programas já feitos",
+      "o_que_conferir": [
+        "número de beneficiários do programa de gás (Gás do Povo ou Auxílio Gás), Ministério do Desenvolvimento Social ou Ministério de Minas e Energia, no mês da fala",
+        "se o número da fonte é de famílias ou de pessoas, porque a fala diz pessoas"
+      ]
+    },
+    {
+      "id": "A193",
+      "inicio_s": 2737.7,
+      "fim_s": 2739.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "sabendo que nós pagamos o gás.",
+      "afirmacao": "No programa federal de gás de cozinha, o governo paga o botijão para o beneficiário",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Mesma frase sobre a distribuição de gás",
+      "o_que_conferir": [
+        "regra do programa (lei, decreto ou portaria) sobre quem paga o botijão: recarga gratuita paga pela União à revenda ou auxílio em dinheiro à família",
+        "se a regra está em vigor na data da fala"
+      ]
+    }
+  ]
+}

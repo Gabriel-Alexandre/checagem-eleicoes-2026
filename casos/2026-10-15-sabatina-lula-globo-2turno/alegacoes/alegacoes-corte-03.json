@@ -1,0 +1,79 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-03",
+  "cobertura": {
+    "inicio_s": 1006.87,
+    "fim_s": 1020.62
+  },
+  "alegacoes": [
+    {
+      "id": "A073",
+      "inicio_s": 1007.1,
+      "fim_s": 1012.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que de fato, candidato, é o ministro até aqui mais implicado com o Daniel Vorcaro.",
+      "afirmacao": "Alexandre de Moraes é, até agora, o ministro do STF mais implicado com Daniel Vorcaro",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o pedido de vista de Flávio Dino num processo que envolve Alexandre de Moraes",
+      "o_que_conferir": [
+        "o que as investigações e reportagens registram sobre a relação de cada ministro do STF com Daniel Vorcaro e o Banco Master até 15/out/2026 (contratos, mensagens, encontros)",
+        "qual critério sustenta 'mais implicado': número de menções, existência de contrato ou pedido formal de investigação"
+      ]
+    },
+    {
+      "id": "A074",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o Toffoli também está implicado",
+      "afirmacao": "O ministro do STF Dias Toffoli está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem Dias Toffoli em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    },
+    {
+      "id": "A075",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o André Mendonça também está implicado",
+      "afirmacao": "O ministro do STF André Mendonça está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem André Mendonça em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "frase": "Era o mais implicado, era o mais implicado",
+      "motivo": "comparação sem medida ('o mais implicado') que repete a premissa da pergunta, cujo fato fica no lote anterior; os fatos novos da frase (Toffoli e André Mendonça) viraram alegação"
+    },
+    {
+      "inicio_s": 1020.6,
+      "fim_s": 1023.2,
+      "falante": "Lula",
+      "frase": "agora está todo mundo implicado.",
+      "motivo": "generalização sem referente identificável, não há registro único contra o qual conferir 'todo mundo'"
+    }
+  ]
+}

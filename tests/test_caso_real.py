@@ -43,6 +43,17 @@ def ler(slug, caminho):
     return json.loads((cfg.CASOS / slug / caminho).read_text(encoding="utf-8"))
 
 
+def _peca_inteira(slug, recorte):
+    """🆕 16/out/2026: na peça checada inteira (docs/PECA_INTEIRA.md) o recorte `sabatina-completa`
+    não tem vídeo nem entrada em RECORTES.json, e os cortes curtos derivados dela herdam a checagem."""
+    return recorte == cfg.recorte_da_peca_inteira_do_caso(slug)
+
+
+def _corte_derivado(slug, recorte):
+    return (not _peca_inteira(slug, recorte)
+            and (cfg.CASOS / slug / "alegacoes" / f"alegacoes-{cfg.recorte_da_peca_inteira_do_caso(slug)}.json").exists())
+
+
 def test_o_caso_publicado_passa_no_validador(alvo, capsys):
     slug, recorte = alvo
     assert validar(slug, recorte=recorte) == 0
@@ -59,6 +70,8 @@ def test_os_dois_lados_da_mesa_foram_checados(alvo):
     slug, recorte = alvo
     """⛔ Um caso só com o entrevistado checado é caso incompleto. A pergunta que afirma
     fato entra pelo mesmo funil."""
+    if _corte_derivado(slug, recorte):
+        pytest.skip("corte curto de 15 s herda a checagem da peça inteira; os dois lados se cobram nela")
     alegacoes = ler(slug, f"alegacoes/alegacoes-{recorte}.json")["alegacoes"]
     papeis = {a["papel"] for a in alegacoes}
     assert "entrevistado" in papeis
@@ -129,6 +142,8 @@ def test_o_recorte_guarda_o_tempo_absoluto(alvo):
     slug, recorte = alvo
     """Sem origem_inicio_s, um card checado num trecho não sabe voltar ao minuto certo
     da peça inteira. Zero é válido: é o recorte que cobre o arquivo desde o começo (caso Flávio)."""
+    if _peca_inteira(slug, recorte):
+        pytest.skip("a peça inteira não tem vídeo próprio nem entrada em RECORTES.json")
     reg = next(r for r in ler(slug, "recortes/RECORTES.json")["recortes"] if r["id"] == recorte)
     assert isinstance(reg["origem_inicio_s"], int | float) and reg["origem_inicio_s"] >= 0
     assert reg["motivo"].strip()
@@ -138,5 +153,7 @@ def test_o_motivo_do_recorte_esta_escrito(alvo):
     slug, recorte = alvo
     """⛔ A escolha do trecho não pode ser feita pelo resultado, e o motivo sai no relatório
     exatamente para poder ser contestado."""
+    if _peca_inteira(slug, recorte):
+        pytest.skip("a peça inteira não tem vídeo próprio nem entrada em RECORTES.json")
     reg = next(r for r in ler(slug, "recortes/RECORTES.json")["recortes"] if r["id"] == recorte)
     assert len(reg["motivo"]) > 40

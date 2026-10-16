@@ -1,0 +1,178 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/alegacoes-corte-03.json",
+  "checagens": [
+    {
+      "id": "A073",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O relatório da PF dedicou 181 de 218 páginas a Moraes, mas nenhuma fonte compara o envolvimento de cada ministro",
+      "explicacao": "A frase é um ranking ('o ministro até aqui mais implicado'), e nenhuma fonte define o critério nem fecha a comparação. O que existe: o relatório da PF sobre o celular de Vorcaro dedicou 181 de 218 páginas ao contato de Moraes (Movimento Econômico, citando o Poder360), e as mensagens indicam pedidos de Vorcaro a Moraes (Diario de Pernambuco). Pelo volume do relatório, Moraes é o mais citado. Do outro lado, o voto de Gilmar Mendes na questão de ordem de 15/09 diz que os relatórios foram 'direcionados seletivamente' contra Moraes e propõe certificar todos os magistrados mencionados no caso Master, porque não se sabe 'quais integrantes desta Corte foram mencionados e em que condição'. É a posição de um ministro numa proposta que não foi aprovada até a data da fala, e não uma conclusão do tribunal; serve aqui para mostrar que o volume do relatório mede para onde a investigação olhou, não o grau de envolvimento de cada um. Outros ministros (Toffoli, Nunes Marques) aparecem em fatos do caso. Como a apuração sobre Moraes está suspensa e nenhuma acusação foi julgada, a régua da METODOLOGIA e da regra de ética §5 impede VERDADEIRO ou FALSO para um juízo de implicação: o veredito é INSUSTENTAVEL. A mesma régua foi aplicada às falas do entrevistado sobre Toffoli, Mendonça e Castro.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "relatório da PF tornado público em 01/09/2026; sessão do STF de 15/09/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (voto do ministro Gilmar Mendes, PDF publicado pelo Poder360)",
+          "titulo": "Questão de ordem na Pet 16.662/DF, sessão de 15/09/2026",
+          "url": "https://static.poder360.com.br/uploads/2026/09/Questao-de-Ordem-PET-16662-Gimar-Mendes-analise-investigacao-Alexandre-de-Moraes-15set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "embora os relatórios produzidos por ordem do Ministro André Mendonça tenham sido direcionados seletivamente contra o Ministro Alexandre de Moraes, dados recentes apontam a necessidade de apurar com maior rigor se deve ser admitida a participação de outros membros do colegiado em votações relacionadas com a Pet 16.662/DF. [...] Enquanto não se souber quais integrantes desta Corte foram mencionados e em que condição, não se saberá quem pode votar e quem se acha impedido nos feitos correlatos.",
+          "prova": "Voto de um ministro na questão de ordem: diz que a apuração mirou Moraes e que não se sabe quais ministros são citados nem em que condição. É argumento de uma parte do plenário, e mostra que não há critério firmado para o ranking."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Movimento Econômico",
+          "titulo": "Dino pede vista após bate-boca e STF tem 4x3 para separar casos Moraes e Mendonça",
+          "url": "https://movimentoeconomico.com.br/economia/justica/2026/09/15/dino-pede-vista-apos-bate-boca-e-stf-tem-4x3-para-separar-casos-moraes-e-mendonca/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relatório de 218 páginas , entregue a Mendonça em 27 de agosto , dedicou 181 páginas ao contato que Vorcaro mantinha registrado como “Alexandre de Moraes BRASILIA”, segundo o Poder360 .",
+          "prova": "Mostra o critério de volume que favorece a frase, e que mede o foco do relatório."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Mensagens indicam que Vorcaro pediu a Moraes freio em investigação",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722803-mensagens-indicam-que-vorcaro-pediu-a-moraes-freio-em-investigacao.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mensagens extraídas do celular de Daniel Vorcaro, dono do Banco Master, indicam que o banqueiro pediu reiteradamente ao ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), que recorresse ao diretor-geral da Polícia Federal (PF), Andrei Rodrigues, e ao procurador-geral da República, Paulo Gonet, para conter o avanço das investigações sobre a instituição financeira.",
+          "prova": "Registra o conteúdo atribuído a Moraes nas mensagens, sem conclusão da apuração."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Melhor argumento a favor da entrevistadora: por todo critério documentado (181 de 218 páginas do relatório, mensagens, pedido de investigação no plenário), Moraes é o mais citado, e o próprio entrevistado respondeu 'era o mais implicado'; INSUSTENTAVEL soaria como desmentido. O veredito fica de pé: 'mais implicado' é ranking de envolvimento numa apuração sem conclusão, a regra de ética §5 impede VERDADEIRO, e a mesma régua foi aplicada às falas de Lula sobre Toffoli, Mendonça e Castro (A074 a A076). Mas o resumo dizia que 'o STF não apurou quais ministros são citados', atribuindo ao tribunal o argumento de um voto (Gilmar) numa questão de ordem que, pelo Poder360 capturado, estava 4 a 3 contra quando Dino pediu vista. Resumo, explicação e prova da fonte reescritos; o rótulo N1 do voto vale como registro do que o ministro disse, não do fato. Ver correcoes-r3.md.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A074",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Toffoli é citado em mensagens de Vorcaro sobre aportes ao resort Tayayá; ele nega, e a apuração não concluiu",
+      "explicacao": "O que as fontes registram sobre Dias Toffoli: o relatório da PF com o material do celular de Vorcaro tem menções a ele, e Fachin o encaminhou ao ministro para avaliar impedimento (InfoMoney); mensagens entre Vorcaro e o cunhado tratam de aportes ao resort Tayayá, ligado à empresa Maridt, da qual Toffoli é sócio (Gazeta do Povo); Toffoli deixou a relatoria do caso e, na sessão de 15/09, declarou-se suspeito (Poder360). Ele admite a sociedade e nega ter recebido valores de Vorcaro ou do cunhado. 'Implicado' é a palavra da frase; ser citado em material da investigação está documentado, mas envolvimento no caso é objeto de apuração sem conclusão nem acusação formal. Pela regra de ética §5, fato em apuração não recebe VERDADEIRO nem FALSO: o veredito é INSUSTENTAVEL, e o resumo diz o que está registrado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "relatório da PF e notas de Toffoli no 1º semestre de 2026; sessão de 15/09/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney (com Reuters)",
+          "titulo": "Toffoli admite ser sócio de empresa que negociou resort com fundo ligado a Vorcaro",
+          "url": "https://www.infomoney.com.br/politica/toffoli-admite-ser-socio-de-empresa-que-negociou-resort-com-fundo-ligado-a-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro do Supremo Tribunal Federal (STF)Dias Toffoli admitiu em nota que é sócio da empresa Maridt, que vendeu uma participação no resort Tayayá, no interior do Paraná, para um fundo do cunhado do banqueiro Daniel Vorcaro, dono do Banco Master. Toffoli disse que declarou à Receita Federal os valores recebidos na negociação e afirmou que nunca “recebeu qualquer valor de Daniel Vorcaro ou de seu cunhado Fabiano Zettel”.",
+          "prova": "Registra a ligação societária e a negativa do ministro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Vorcaro foi cobrado por demora em pagamentos a resort de Toffoli, diz jornal",
+          "url": "https://www.gazetadopovo.com.br/republica/vorcaro-cobrado-demora-pagamentos-resort-toffoli-diz-jornal/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mensagens obtidas pela Polícia Federal no celular do banqueiro Daniel Vorcaro indicam que ele relatou ter sido cobrado pela demora em aportes financeiros destinados a um resort ligado ao ministro do Supremo Tribunal Federal (STF), Dias Toffoli. O conteúdo consta de relatório encaminhado à corte e revelado pelo jornal O Estado de S. Paulo .",
+          "prova": "Registra a menção em material da PF, ainda sem conclusão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Supremo salva Alexandre de Moraes por até 90 dias",
+          "url": "https://www.poder360.com.br/poder-justica/supremo-salva-alexandre-de-moraes-por-ate-90-dias/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dias Toffoli – declarou-se suspeito e também não votará. Alegou foro íntimo e que, assim, ajuda a preservar o Supremo no caso de “eventuais especulações”.",
+          "prova": "Mostra que, na sessão de 15/09, Toffoli se afastou do julgamento do caso."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "mantido",
+        "nota": "Melhor argumento contra: Toffoli está documentadamente citado no material da PF, a PF pediu a suspeição dele e ele se declarou suspeito em 15/09; 'implicado' em sentido comum confere e o veredito seria VERDADEIRO. Cai pela mesma régua da A073, aplicada à entrevistadora: 'implicado no caso' é juízo sobre envolvimento em apuração sem conclusão (ética §5), e o card diz só o que está registrado (citação nas mensagens, sociedade no resort, negativa dele). Conferido na captura p06: o InfoMoney registra que Fachin encaminhou o relatório a Toffoli para avaliar impedimento, e o Poder360 registra a suspeição. 'Deixou a relatoria' é inferência das capturas (o InfoMoney o trata como relator e o Correio da Manhã de setembro trata Mendonça como relator).",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A075",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Mendonça é o relator do caso; Moraes pediu investigar a condução dele, e o pedido não foi julgado",
+      "explicacao": "André Mendonça é o relator no STF das investigações do Banco Master (Correio da Manhã). Em 3/9, Alexandre de Moraes encaminhou a Fachin pedido de investigação sobre a atuação de Mendonça na relatoria das operações Sem Desconto e Compliance Zero, apontando indícios de improbidade e abuso de autoridade (Diario de Pernambuco); o julgamento desse pedido foi retirado de pauta por Fachin em 18/9 (O Povo). As fontes consultadas não registram menção a Mendonça como destinatário de valores ou mensagens de Vorcaro: o que o liga ao caso é a condução da relatoria, contestada por um colega. 'Implicado no caso Master' depende de uma apuração ainda não julgada, e pela regra de ética §5 o veredito é INSUSTENTAVEL, não VERDADEIRO nem FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "pedido de Moraes em 03/09/2026; retirada de pauta em 18/09/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Alexandre de Moraes vê indícios de crimes de Mendonça e encaminha pedido de investigação a Fachin",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723064-alexandre-de-moraes-ve-indicios-de-crimes-de-mendonca-e-encaminha-pedido-de-investigacao-a-fachin.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), encaminhou nesta quinta-feira (3) ao presidente da Corte, Edson Fachin, um pedido para que seja investigada a atuação do ministro André Mendonça na condução de inquéritos relacionados às operações Sem Desconto e Compliance Zero .",
+          "prova": "Mostra em que sentido Mendonça aparece no caso: a condução da relatoria."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "STF: Fachin tira de pauta julgamento sobre atuação de Mendonça no caso Master",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/09/18/stf-fachin-tira-de-pauta-julgamento-sobre-atuacao-de-mendonca-no-caso-master.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, retirou da pauta da sessão plenária da próxima quarta-feira (23) o julgamento de um pedido de investigação sobre a condução dada pelo ministro André Mendonça como relator do caso Master na Corte",
+          "prova": "Mostra que o pedido não foi julgado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Mendonça pede à PGR explicações sobre mensagem de Vorcaro",
+          "url": "https://www.correiodamanha.com.br/politica/2026/09/315719-mendonca-pede-a-pgr-explicacoes-sobre-mensagem-de-vorcaro.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mendonça é o relator no STF das investigações relacionadas às suspeitas de fraudes financeiras envolvendo o Banco Master.",
+          "prova": "Confirma o papel de relator, que é a ligação documentada dele com o caso."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "mantido",
+        "nota": "Melhor argumento contra: deveria ser FALSO, porque Mendonça é o relator, não alvo, e nada o liga a dinheiro ou mensagens de Vorcaro. Cai: existe um pedido de investigação de um colega sobre a condução dele, não julgado (Diario de Pernambuco, O Povo de 18/09), então a ligação existe e está em apuração, nenhuma fonte a contradiz e a ética §5 manda INSUSTENTAVEL. Conferi que a mensagem de Vorcaro citada no título do Correio da Manhã menciona Gonet e Andrei, não Mendonça, o que sustenta a frase da explicação.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ]
+}

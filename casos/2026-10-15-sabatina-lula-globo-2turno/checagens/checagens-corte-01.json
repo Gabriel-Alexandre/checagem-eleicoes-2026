@@ -1,0 +1,236 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/alegacoes-corte-01.json",
+  "checagens": [
+    {
+      "id": "A016",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Câmara registra 68 deputados eleitos pelo PT em 2022, dois a menos que o número citado",
+      "explicacao": "Lula disse que foi eleito com 70 deputados no seu partido. A Agência Câmara, da própria Câmara dos Deputados, publicou com o resultado de 2022 que a federação PT-PCdoB-PV elegeu 80 deputados, sendo 68 do PT, 6 do PCdoB e 6 do PV, e que o PT passou de 56 para 68 deputados a partir de 2023. Investnews e Congresso em Foco, com apuração própria, trazem os mesmos 68 e 80. Contra os 70 ditos, os 68 apurados dão desvio de cerca de 3%, abaixo da margem de 10% da régua do §2.2, e não mudam a ordem de grandeza nem a leitura (uma bancada pequena diante de 513). Por isso VERDADEIRO, com a ressalva do número exato, e não IMPRECISO. A página de bancadas da Câmara mostra 81 para a federação, um a mais que a contagem do dia da eleição; isso não muda o número do PT. A rodada 1 tinha deixado INSUSTENTAVEL provisório porque só achara o número da federação; o número do PT sozinho está nas duas matérias da Agência Câmara capturadas nesta rodada.",
+      "numero_dito": "70 deputados",
+      "numero_apurado": "68 deputados eleitos pelo PT (federação PT-PCdoB-PV: 80 na contagem da eleição)",
+      "data_de_referencia": "eleição de outubro de 2022, bancada a partir de fevereiro de 2023",
+      "ressalva": "Foram 68 eleitos pelo PT; com PCdoB e PV, a federação somou 80.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "A Agência Câmara deu 80 eleitos à federação no dia da eleição; a página de bancadas na eleição da Câmara registra 81. O número do PT, 68, é o mesmo nas fontes que o separam.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "dois a menos",
+          "de": "70 menos 68",
+          "como": "diferença entre o número dito (70) e o número de eleitos do PT na Agência Câmara (68)"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara de Notícias)",
+          "titulo": "PL desponta como maior bancada da Câmara, seguido pela federação liderada pelo PT",
+          "url": "https://www.camara.leg.br/noticias/911504-pl-desponta-como-maior-bancada-da-camara-seguido-pela-federacao-liderada-pelo-pt/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em segundo lugar está a federação PT-PCdoB-PV, com 80 deputados eleitos (PT com 68, PCdoB com 6  e PV com 6).",
+          "prova": "Resultado da eleição de 2022 publicado pela Câmara: o PT sozinho elegeu 68 deputados."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara de Notícias)",
+          "titulo": "Confira os partidos que mais ganharam e mais perderam deputados nas eleições",
+          "url": "https://www.camara.leg.br/noticias/911890-confira-os-partidos-que-mais-ganharam-e-mais-perderam-deputados-nas-eleicoes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PT, legenda do outro candidato à Presidência da República, Luiz Inácio Lula da Silva, por sua vez, ganhou 12 deputados, passando de uma bancada atual de 56 integrantes para uma de 68 deputados a partir de 2023.",
+          "prova": "Segundo registro da Câmara com o mesmo número: 68 deputados do PT na legislatura que começou em 2023."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados",
+          "titulo": "Bancadas na eleição de 2022",
+          "url": "https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias/bancada-na-eleicao",
+          "consultada_em": "2026-10-16",
+          "trecho": "Bancadas na eleição de 2022 - Portal da Câmara dos Deputados Ir ao conteúdo Ir à navegação principal Você está usando um navegador defasado . Por favor, atualize seu navegador para melhorar sua experiência e sua segurança. Página inicial Acessibilidade Fale Conosco Congresso Senado PT English EN Español ES Entrar Assuntos Agropecuária Cidades e transportes Ciência, tecnologia e comunicações Consumidor Direitos humanos Economia Educação, cultura e esportes Meio ambiente e energia Política e administração pública Relações exteriores Saúde Segurança Trabalho, previdência e assistência Institucional Agenda Serviços Presidência Biblioteca e publicações Escola da Câmara Papel e estrutura História e arquivo Visite Deputados Quem são Lideranças e bancadas Frentes e grupos parlamentares Atividade Legislativa Propostas legislativas Plenário Comissões Sessões e reuniões Estudos legislativos Orçamento da União Legislação Entenda o processo legislativo Participe Comunicação Agência Câmara de Notícias Rádio Câmara TV Câmara Banco de Imagens Assessoria de Imprensa Comprove uma notícia Transparência e prestação de contas Transparência Prestação de contas Dados abertos Pesquise no Portal da Câmara Buscar Início Deputados Lideranças e Bancadas Partidárias Esta página Lideranças e Bancadas Partidárias MENU DESTA SEÇÃO Bancadas Atuais Bancadas na Eleição Bancadas na Posse Contatos Bancadas na eleição de 2022 bancadas na eleição de 2022 para deputado federal [...] Federação PT - PCdoB - PV 81",
+          "prova": "O resultado oficial de 2022 só separa a federação, com 81 eleitos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Investnews",
+          "titulo": "PL e PT têm as maiores bancadas da Câmara; veja deputados federais eleitos",
+          "url": "https://investnews.com.br/economia/pl-e-pt-tem-as-maiores-bancadas-da-camara-veja-deputados-federais-eleitos",
+          "consultada_em": "2026-10-16",
+          "trecho": "Assim como no Senado , o PL conquistou 99 cadeiras, a maior bancada na nova composição da Câmara, com início em fevereiro de 2023. Já o seu rival, o PT, terá 68 cadeiras.",
+          "prova": "Confirmação independente, com apuração própria, dos 68 eleitos do PT."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "PL e PT dominarão nova Câmara; veja como bancadas evoluíram ao longo da história desde 1986",
+          "url": "https://congressoemfoco.com.br/coluna/37685/pl-e-pt-dominarao-nova-camara-veja-como-bancadas-evoluiram-ao-longo-da-historia-desde-1986",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PL, partido de Jair Bolsonaro, elegeu o maior número de deputados federais: 99. A Federação Brasil, que inclui PT, PV e PCdoB, elegeu 80 deputados.",
+          "prova": "Confirma os 80 da federação na contagem do dia da eleição, que a Agência Câmara divide em 68 do PT, 6 do PCdoB e 6 do PV."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a VERDADEIRO. Revisão adversarial da rodada 2: Melhor argumento contra o VERDADEIRO: a página oficial de bancadas na eleição só dá a federação (81), e 70 não aparece em fonte nenhuma. Não derruba: as duas matérias da Agência Câmara (N1) separam o PT com 68, e Investnews e Congresso em Foco batem; 70 contra 68 é desvio de cerca de 3%, abaixo da régua de 10%, e a ressalva põe o número exato no card. Frase conferida na transcrição; os cinco trechos estão nas capturas. · Revisão anterior: Veredito provisório (busca interrompida), bem posto. Contra: o INSUSTENTAVEL foi dado sem a busca exaustiva que a árvore do §2.1 pede, e o número dito pode estar certo, porque a federação teve 81 eleitos e o PT sozinho seria algo perto de 70. Não derruba o provisório: as duas páginas oficiais da Câmara (eleição e posse, trechos achados na p02 e na r2) só dão a federação; procurei a bancada eleita do PT sozinho no texto das 15 pastas de captura e da r2 e ela não aparece; o Times Brasil fala em 69 sem dizer de quando. Nada contradiz um PT em torno de 70, então FALSO não cabe, e VERDADEIRO exigiria a fonte que falta. O resumo diz o que faltou. A refazer com o resultado oficial do TSE por partido em 2022.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A017",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Senado registra 9 senadores do PT ao fim da eleição de 2022 e 9 na posse, em comunicado do presidente da Casa",
+      "explicacao": "Lula disse que foi eleito tendo 9 senadores do PT, de 81. A Agência Senado registrou, com o fim do segundo turno de 2022, que o PT teria 9 senadores na legislatura seguinte, e a Rádio Senado transcreve o comunicado oficial do presidente do Senado na posse, em fevereiro de 2023, para o cálculo da proporcionalidade: 'Partido dos Trabalhadores (PT), nove Senadores'. As duas são registros do próprio Senado em momentos diferentes (eleição e posse) e batem com a fala. A Agência Senado também registra que a Casa tem 81 senadores desde 1990. Parte da imprensa (Poder360, Congresso em Foco, O Povo) contava 8 na posse, porque Wellington Dias virou ministro e a suplente é do PSD; o comunicado oficial, porém, registra nove, e a divergência fica escrita. A rodada 1 tinha deixado INSUSTENTAVEL provisório por falta de fonte N1; as duas páginas oficiais do Senado foram capturadas nesta rodada.",
+      "numero_dito": "9 senadores de 81",
+      "numero_apurado": "9 senadores do PT (fim da eleição de 2022 e comunicado da posse, em fevereiro de 2023)",
+      "data_de_referencia": "outubro de 2022 (fim do segundo turno) e fevereiro de 2023 (posse)",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": "Poder360, Congresso em Foco e O Povo contavam 8 senadores do PT na posse, pela ida de Wellington Dias para o ministério; o comunicado oficial do presidente do Senado na posse registra nove.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Bancadas do Senado estarão mais concentradas em 2023 (31/10/2022)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2022/10/31/bancadas-do-senado-estarao-mais-concentradas-em-2023",
+          "consultada_em": "2026-10-16",
+          "trecho": "A conclusão do segundo turno das eleições de 2022 no domingo (30) deu números finais às bancadas do Senado para o ano que vem. O PL, já confirmado como o maior partido a partir da próxima legislatura, terá 14 senadores. Ele será seguido pelo PSD, com 11; por MDB e União Brasil, com 10 cada um; e pelo PT, com 9.",
+          "prova": "Registro oficial do Senado: 9 senadores do PT ao fim da eleição de 2022, o momento a que a fala se refere."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Rádio Senado)",
+          "titulo": "Tamanho das bancadas do Senado define a presidência e composição das comissões (02/02/2023)",
+          "url": "https://www12.senado.leg.br/radio/1/noticia/2023/02/02/tamanho-das-bancadas-do-senado-define-a-presidencia-e-composicao-das-comissoes",
+          "consultada_em": "2026-10-16",
+          "trecho": "Assim, para fins de cálculo da proporcionalidade partidária, comunico a representação dos partidos políticos no Senado Federal. Partido Social Democrático (PSD), quinze Senadores; Partido Liberal (PL), doze Senadores; Movimento Democrático Brasileiro (MDB), 10 Senadores; Partido dos Trabalhadores (PT), nove Senadores;",
+          "prova": "Comunicado oficial do presidente do Senado na posse: o PT com nove senadores no início da legislatura."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "PL faz a maior bancada do Senado; PSD é o segundo maior partido (03/10/2022)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2022/10/03/pl-faz-a-maior-bancada-do-senado-psd-e-o-segundo-maior-partido",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PT se isolou como quarta bancada, com 8 senadores confirmados, mas pode chegar a 9 dependendo do segundo turno nos estados. Se isso se confirmar, o partido encostaria em MDB e União Brasil e formaria a quinta bancada de pelo menos 9 senadores — algo que nunca aconteceu no Senado desde 1990, quando a Casa passou a ter 81 senadores.",
+          "prova": "Dá o total de 81 senadores e mostra que o nono senador do PT dependia do segundo turno, confirmado depois."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Investnews",
+          "titulo": "PL passa a ter maior bancada do Senado; veja nova composição (outubro de 2022)",
+          "url": "https://investnews.com.br/economia/quem-sao-senadores-eleitos-2022/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Já o Partido dos Trabalhadores (PT), do presidente Luiz Inácio Lula da Silva, passou de sete para nove cadeiras.",
+          "prova": "O PT com 9 senadores logo depois da eleição."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Ministérios de Lula diminuem bancada do PT no Senado em 2023",
+          "url": "https://www.poder360.com.br/congresso/ministerios-de-lula-diminuem-bancada-do-pt-no-senado-em-2023/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A bancada do PT no Senado em 2023 deve começar desfalcada por conta das indicações do presidente eleito, Luiz Inácio Lula da Silva (PT), para ministérios. Seriam 9 senadores petistas na Casa Alta e, agora, devem ser 8. [...] Com a saída de Dias para a Esplanada, a bancada petista no Senado cai de 9 para 8 congressistas.",
+          "prova": "9 depois da eleição e 8 na posse, com o motivo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Com indicação de ministros, PT perde uma cadeira no Senado",
+          "url": "https://www.congressoemfoco.com.br/noticia/44377/com-indicacao-de-ministros-pt-perde-uma-cadeira-no-senado",
+          "consultada_em": "2026-10-16",
+          "trecho": "Com isso, o partido de Lula passa a ter uma bancada de oito senadores na próxima legislatura",
+          "prova": "Confirma 8 no início da legislatura."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a VERDADEIRO. Revisão adversarial da rodada 2: Melhor argumento contra: Poder360, Congresso em Foco e O Povo contavam 8 senadores do PT na posse (Wellington Dias foi para o ministério). Não derruba: a fala é sobre a eleição ('fui eleito tendo'), e a Agência Senado registra 9 ao fim do 2º turno; o comunicado oficial da posse também diz nove. A divergência está escrita. Trechos N1 conferidos nas capturas r2p1. · Revisão anterior: Veredito provisório (busca interrompida), bem posto. Contra: quatro veículos independentes dão 9 senadores do PT depois da eleição, o que bate com a fala, e dar INSUSTENTAVEL seria rigor maior que o do A015, em que o lado eleito vem de N4. Não derruba: a regra 1 do §3.1 exige N1 ou N2 quando a afirmação é um número, e duas N4 só bastam se citarem uma primária conferida (regra 2), o que não ocorre; o A015 tem a N1 da Câmara e a frase dele não é um número. Há ainda divergência entre 9 (CartaCapital) e 8 na posse (Poder360, Congresso em Foco, O Povo). Não é FALSO, e o resumo diz que a imprensa registra 9. A refazer com a composição partidária oficial do Senado em fevereiro de 2023.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A018",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte dá 99%: 21% das MPs viraram lei até 2025; o governo calcula 94% com outro critério",
+      "explicacao": "Lula disse que o governo aprovou 99% de tudo o que fez no Congresso. Nenhuma fonte achada chega a 99% em universo nenhum. As contagens independentes, feitas sobre as bases da Câmara e do Planalto, dão números muito menores: até 31/12/2025, 37 das 179 MPs foram convertidas em lei, taxa de 21% (Poder360); em 2023 e 2024, 22 dos 59 projetos de lei do Executivo viraram norma, 37,29% (Aos Fatos); e o levantamento do Estadão sobre o mandato todo dá 23% das MPs convertidas. O critério mais favorável, o do próprio governo, chega a 94% das MPs no primeiro biênio, excluindo as em tramitação e as temporárias e contando o conteúdo incorporado a projetos de lei. A frase não define o universo ('tudo'), e em dezembro de 2025 Lula falou em 99% da 'pauta econômica', que não tem lista pública para medir. Por isso o veredito é INSUSTENTAVEL, e não FALSO: o número não existe em fonte nenhuma, e as medidas disponíveis contradizem a leitura literal de 'tudo', mas o recorte que Lula usa não é conferível.",
+      "numero_dito": "99%",
+      "numero_apurado": "21% das MPs convertidas em lei até dezembro de 2025; 37,29% dos projetos de lei do Executivo em 2023 e 2024; 94% pelo critério do governo",
+      "data_de_referencia": "MPs de 2023 até dezembro de 2025; projetos de lei de 2023 e 2024",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Secretaria de Relações Institucionais calcula 94% de MPs aprovadas no primeiro biênio, excluindo as em tramitação e as temporárias; os levantamentos independentes dão 15% a 23% conforme o período.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula tem menor taxa de aprovação de MPs desde 2003 (24/01/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/lula-tem-menor-taxa-de-aprovacao-de-mps-desde-2003/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Até 31 de dezembro de 2025, o petista havia editado 179 MPs (23 ainda estão em tramitação). Só 37 foram convertidas em lei, o que representa uma taxa de aprovação de 21%.",
+          "prova": "A taxa de MPs convertidas em lei no mandato até o fim de 2025."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "Lula engana ao falar sobre relação com o Congresso (06/02/2025)",
+          "url": "https://www.aosfatos.org/noticias/lula-engana-frases-relacao-com-congresso/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Entre 2023 e 2024, o atual governo Lula enviou 59 PLs ao Congresso, sendo que 22 viraram normas jurídicas. Isso significa que 37,29% dos projetos de lei de autoria do Executivo foram aprovados pelo Congresso e sancionados pela Presidência. [...] Em resposta ao levantamento feito pela Folha de S.Paulo, em janeiro, a Secretaria de Relações Institucionais alegou ser equivocado considerar que houve aprovação de apenas 15% das MPs no primeiro biênio de governo. Segundo a secretaria, a taxa de aprovação seria de 94%, e para chegar ao percentual é preciso excluir MPs em tramitação e de natureza temporária, como créditos orçamentários.",
+          "prova": "Taxa de projetos de lei do Executivo aprovados, os 15% de MPs do primeiro biênio contados pela Folha e o cálculo de 94% do governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Congresso reprova ou deixa caducar 77% das MPs de Lula (02/04/2026)",
+          "url": "https://www.oliberal.com/politica/congresso-reprova-ou-deixa-caducar-77-das-mps-de-lula-taxa-de-aprovacao-e-a-menor-desde-2001-1.1105198",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Congresso Nacional converteu em lei apenas 23% das medidas provisórias do terceiro governo Lula (PT).",
+          "prova": "Terceira contagem, com o mandato até 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "'Aprovamos 99% da pauta econômica no Congresso', diz Lula (18/12/2025)",
+          "url": "https://www.itatiaia.com.br/politica/aprovamos-99-da-pauta-economica-no-congresso-diz-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) comemorou nesta quinta-feira (18) os resultados de sua equipe econômica ao final do terceiro ano de seu mandato, que, segundo ele, conseguiu aprovar “99%” da pauta no Congresso Nacional.",
+          "prova": "Mostra que o 99% já foi usado por Lula para a pauta econômica, recorte sem lista pública."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Contra: as contagens independentes (21% e 23% das MPs, 37,29% dos projetos de lei) contradizem o '99% de tudo', e pelo §2.2 número que existe e é outro seria FALSO. Não derruba: o universo da frase é indefinido, e no mesmo bloco Lula reformula para '99% de tudo que a gente queria aprovar' (transcrição, 310,9 s); em dezembro de 2025 ele falou em 99% da 'pauta econômica', que não tem lista pública. Taxa de MP não mede a pauta prioritária (o governo diz que o conteúdo de MPs caducadas foi incorporado a projetos), então as medidas disponíveis não conferem nem contradizem o recorte dele. Nenhuma fonte dá 99%: INSUSTENTAVEL, com o card dizendo o que as fontes medem. Correção: a divergência entre fontes citava 15% sem trecho; o trecho do Aos Fatos foi estendido até a frase com os 15% do primeiro biênio, na mesma página capturada (p02). Veredito mantido.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    }
+  ]
+}

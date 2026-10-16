@@ -1,0 +1,206 @@
+{
+  "A016": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A Câmara registra 81 deputados eleitos em 2022 pela federação do PT; o número do PT sozinho faltou",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "A Câmara registra 68 deputados eleitos pelo PT em 2022, dois a menos que o número citado"
+  },
+  "A017": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A imprensa registra 9 senadores do PT depois da eleição e 8 na posse; faltou o dado oficial",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "O Senado registra 9 senadores do PT ao fim da eleição de 2022 e 9 na posse, em comunicado do presidente da Casa"
+  },
+  "A028": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Não foi achado registro sobre ministros em campanha a pedido de Lula na reeleição de 2006",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "Em 2006, ministros consultaram a Controladoria sobre como fazer campanha; nada achado sobre pedido de Lula"
+  },
+  "A029": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Lula reuniu senadores do MDB em 14 de outubro, durante a votação do fim da escala 6 X 1; não foi achado o que se tratou",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "Jornais relataram negociação de Lula com o MDB pela vice em troca de apoio; o partido negou e não há registro oficial"
+  },
+  "A032": {
+    "antes": "VERDADEIRO",
+    "resumo_antes": "Foram três encontros: na ONU em Nova York, na Malásia e na Casa Branca, além de telefonemas",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "A agenda oficial registra reuniões com Trump na Malásia e na Casa Branca e um telefonema em agosto, o último"
+  },
+  "A034": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A última negociação registrada dos dois ministros com os EUA foi em 30 de setembro; nada achado na semana da fala",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "Em 8 de outubro o ministro do Desenvolvimento disse esperar proposta dos EUA; nenhuma reunião achada na semana da fala"
+  },
+  "A037": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Pelo Ministério do Desenvolvimento, a exportação à Indonésia subiu 2,2% até setembro, longe do dito; sem segunda fonte",
+    "depois": "IMPRECISO",
+    "resumo_depois": "Pelo Ministério do Desenvolvimento, a exportação à Indonésia subiu 2,2% até setembro, bem abaixo do dito"
+  },
+  "A038": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Pelo Ministério do Desenvolvimento, a exportação à Alemanha subiu 15,8% até setembro, perto do dito; sem segunda fonte",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "Exportação à Alemanha subiu 15,8% até setembro, pelo Ministério do Desenvolvimento; os dados europeus dão 16,7%"
+  },
+  "A039": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro, perto do dito; sem segunda fonte",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro; faltou fonte independente"
+  },
+  "A063": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "O recurso do governo ao STF contra o Congresso no caso do IOF está registrado; as fontes não medem a frequência",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "O governo foi ao STF contra decisões do Congresso na desoneração da folha e no IOF, além de outras ações"
+  },
+  "A080": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Não achamos contagem pública de pedidos de vista por dia no STF; as fontes só trazem a regra do prazo",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "O STF não publica contagem de pedidos de vista por dia; as fontes trazem só a regra do prazo de 90 dias"
+  },
+  "A085": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A imprensa registra duas conversas reservadas com Fachin no mesmo dia; as três só aparecem no relato de Lula",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "A imprensa registra três conversas reservadas de Lula com Fachin no início de setembro, durante a crise no STF"
+  },
+  "A086": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Reportagens descrevem Andrei como próximo de Lula, mas não achamos adversário dizendo isso em público",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "O candidato Flávio Bolsonaro chamou Andrei de amigo e pau-mandado de Lula e o acusou na Justiça Eleitoral"
+  },
+  "A092": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Não foi achado registro da bronca a Andrei Rodrigues além da fala do próprio Lula, nem nota oficial sobre ela",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "Não foi achado registro da bronca a Andrei Rodrigues além da fala do próprio Lula, nem nota oficial sobre ela"
+  },
+  "A093": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Não foi achado registro público do alerta ao ministro da Justiça além da fala do próprio Lula na sabatina",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "Não foi achado registro público do alerta ao ministro da Justiça além da fala do próprio Lula na sabatina"
+  },
+  "A099": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "As fontes não registram Silvio Santos procurando Lula no caso PanAmericano; a visita de 2010 foi antes, sobre o Teleton",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "Procuradoria registra que Silvio Santos foi a Lula em 2010, logo depois de o BC ver falhas no banco, para salvá-lo"
+  },
+  "A100": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "As fontes consultadas não registram Edemar Cid Ferreira procurando Lula antes da intervenção no Banco Santos",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "As fontes não registram Edemar Cid Ferreira, do Banco Santos, procurando Lula antes da intervenção de 2004"
+  },
+  "A101": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "O banco de Edir Macedo é o Digimais, com crise apontada em 2024 e 2025; as fontes não registram o banco procurando Lula",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "O banco de Edir Macedo é o Digimais, com crise apontada em 2024 e 2025; as fontes não registram o banco procurando Lula"
+  },
+  "A103": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "O BC comunicou o caso Master ao Ministério Público e à PF; as fontes não registram que foi a pedido de Lula",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "O BC comunicou o caso Master ao Ministério Público e à PF; nenhuma fonte achada diz que foi a pedido de Lula"
+  },
+  "A126": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Os 24,9% do FGV Ibre vêm de uma só reportagem, do Estadão; a pesquisa original não foi capturada",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "O 24,9% do FGV Ibre só aparece no Estadão e em reproduções; não se achou a divulgação do próprio FGV"
+  },
+  "A153": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A crítica de Fraga, Malan e Bacha, que votaram em Lula, só aparece no Poder360; a carta original não foi capturada",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "Fraga, Malan e Bacha, que votaram em Lula, criticaram em carta de 2022 a oposição entre o fiscal e o social"
+  },
+  "A157": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Há programas de crédito do governo, como o Desenrola, mas nada achado compara o volume com o de outros governos",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "O BNDES desembolsou R$ 169,7 bi em 2025, menos que a média de R$ 350 bi por ano de 2011 a 2014; falta medida total"
+  },
+  "A158": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Nenhuma fonte achada registra brigas de Lula com Mantega e Meirelles; o CPDOC registra divergência entre os dois",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "Livro relata Lula cobrando Meirelles por juros em 2005 e 2007; não se achou registro de brigas com Mantega"
+  },
+  "A161": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Não se achou anúncio de Flávio de reajuste do mínimo só pela inflação; o plano dele não fixa meta para o piso",
+    "depois": "FALSO",
+    "resumo_depois": "Flávio disse que manterá o reajuste do mínimo e prometeu aumento real a aposentados; não há anúncio do contrário"
+  },
+  "A163": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Na PIA do IBGE, energia elétrica foi 1,05% dos custos da indústria em 2023 e matérias-primas, 46%; sem segunda fonte",
+    "depois": "IMPRECISO",
+    "resumo_depois": "A CNI chama a energia de um dos principais insumos; no IBGE, ela foi 1,05% dos custos da indústria em 2023"
+  },
+  "A165": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Não se achou comparação do custo de gerar energia no Brasil com o de outros países",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "A Irena põe a eólica do Brasil entre as mais baratas do mundo em 2024; a conta de luz é que é cara"
+  },
+  "A169": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A Eletrobras foi desestatizada por lei, mas não se achou a fatia privada da geração, transmissão e distribuição",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "Empresas privadas já tinham 60% da geração e 71% da distribuição em 2017, e a Eletrobras deixou de ser estatal"
+  },
+  "A174": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A espera por especialista é problema reconhecido, mas nenhuma pesquisa achada a põe como a principal queixa",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "Pesquisas do Datafolha e do Ipec põem a espera por consulta, exame e cirurgia no topo das queixas sobre o SUS"
+  },
+  "A178": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Governo registrou o auge do Mais Médicos em 18.240 médicos, em 2015; falta uma segunda fonte independente",
+    "depois": "IMPRECISO",
+    "resumo_depois": "O auge do Mais Médicos foi de 18.240 médicos, em 2015, abaixo dos 20 e poucos mil citados"
+  },
+  "A179": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Governo dá 8.613 médicos no Mais Médicos em março de 2023 e 12.843 em dezembro de 2022; as fontes divergem",
+    "depois": "VERDADEIRO",
+    "resumo_depois": "O Ministério da Saúde registrou 12.843 médicos no programa em dezembro de 2022"
+  },
+  "A180": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Em junho de 2024 havia 12.051 médicos a mais que em 2022, e 24,9 mil em maio de 2025; falta o dado de 2026",
+    "depois": "IMPRECISO",
+    "resumo_depois": "Só em 2023 entraram mais de 16.340 médicos, e outros 6.729 em 2024; as contratações passam de 16 mil"
+  },
+  "A182": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "O programa existe desde 2004 e virou lei em 2023; não foi achado dado do governo anterior que mostre parada ou queda",
+    "depois": "FALSO",
+    "resumo_depois": "O programa estava em 5,2 mil municípios no relançamento, e as equipes cresceram desde 2019; não tinha parado"
+  },
+  "A187": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "A adesão das Santas Casas ao programa é voluntária, e não foi achado convênio com todas elas",
+    "depois": "INSUSTENTAVEL",
+    "resumo_depois": "A adesão das Santas Casas aos programas federais é feita uma a uma, e não foi achado convênio com todas elas"
+  },
+  "A192": {
+    "antes": "INSUSTENTAVEL",
+    "resumo_antes": "Não foi achado balanço do mês da fala; a meta oficial era 15,5 milhões de famílias a partir de março de 2026",
+    "depois": "IMPRECISO",
+    "resumo_depois": "O programa atende mais de 15 milhões de famílias, cerca de 50 milhões de pessoas, segundo o governo"
+  }
+}

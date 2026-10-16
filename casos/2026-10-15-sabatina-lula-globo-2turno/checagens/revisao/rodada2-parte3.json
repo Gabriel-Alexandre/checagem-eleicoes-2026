@@ -1,0 +1,432 @@
+{
+  "checagens": [
+    {
+      "id": "A103",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O BC comunicou o caso Master ao Ministério Público e à PF; nenhuma fonte achada diz que foi a pedido de Lula",
+      "explicacao": "O critério pedia a comunicação formal do BC ao MPF ou à PGR e registro público de que ela foi a pedido do presidente. A primeira parte está nas fontes: o BC comunicou ao Ministério Público Federal as irregularidades nas carteiras cedidas ao BRB, a falta de lastro de que teve certeza em 27 de junho de 2025 (comunicada em julho, segundo o Poder360) e, em setembro de 2025, as pressões políticas; Haddad disse em junho de 2026 que o caso foi levado ao Procurador-Geral da República e à PF, sem dizer por quem nem a pedido de quem. A segunda parte não aparece em nenhuma fonte: Galípolo, perguntado na CPI se recebeu comando do Planalto depois da reunião com Vorcaro, descreveu a orientação de ser técnico e atribuiu a comunicação ao dever legal de colaborar com a PF e o Ministério Público. O relato anterior do próprio Lula, em abril de 2026 (Estadão Conteúdo, no InfoMoney), descreve outro pedido: que Galípolo prestasse contas à sociedade sobre a origem do caso, e não que acusasse ninguém, 'porque você não é policial e nem procurador'. Na rodada 2 (16/out) a busca procurou o pedido a Galípolo para comunicar a PGR em reportagens sobre a CPI, nas entrevistas de Lula sobre o caso e no pedido de Damares Alves à PGR sobre as reuniões com Vorcaro; nada registra esse pedido. Ausência de registro não prova que o pedido não houve, e o caso Master segue em apuração, então o veredito é INSUSTENTAVEL, não FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "comunicações ao Ministério Público e à PF entre o fim de 2024 e setembro de 2025; relato de Lula em abril de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste",
+          "titulo": "BC alertou Master sobre riscos 1 ano antes da liquidação, mostra TCU (09/01/2026)",
+          "url": "https://www.revistaoeste.com/politica/bc-alertou-master-sobre-riscos-1-ano-antes-da-liquidacao-mostra-tcu/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O BC também identificou graves irregularidades nas carteiras de crédito cedidas ao BRB, envolvendo artifícios contábeis e operações suspeitas, o que levou à comunicação dos fatos ao Ministério Público Federal. [...] Em setembro de 2025, o BC vetou a aquisição e relatou à Polícia Federal e ao Ministério Público Federal pressões políticas inéditas para salvar o Master.",
+          "prova": "Confirma a comunicação ao MPF, sem atribuí-la a pedido do presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Finsiders Brasil (declaração pública do presidente do Banco Central)",
+          "titulo": "Galípolo detalha cronologia do caso Master e defende atuação do BC (09/02/2026)",
+          "url": "https://finsidersbrasil.com.br/?p=359378",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Quando a gente entende que esse é um tema que transcende a questão simplesmente de regulação e estabilidade do sistema financeiro, a gente entende que é importante fazer o que a legislação manda, que é colaborar com Polícia Federal e Ministério Público”, afirmou.",
+          "prova": "Galípolo apresenta a comunicação como dever legal, sem mencionar pedido de Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (depoimento do presidente do Banco Central à CPI)",
+          "titulo": "Lula disse para eu ser técnico após reunião com Vorcaro, diz Galípolo (08/04/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/lula-disse-para-eu-ser-tecnico-apos-reuniao-com-vorcaro-diz-galipolo/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relator da CPI é o senador Alessandro Vieira (MDB-SE) questionou Galípolo se ele recebeu algum tipo de comando do Planalto depois do término da reunião. “Recebi. Sempre assim: ‘Olha, seja técnico. O mais técnico possível. Você tem toda a autonomia nesse processo para você perseguir, seja quem for investigar seja quem for. [...] O Banco Central teve “ certeza” da inexistência de lastro em carteira de crédito em 27 de junho de 2025 . As autoridades competentes –Ministério Público Federal e Polícia Federal– foram comunicadas em julho .",
+          "prova": "Galípolo descreve a orientação que recebeu do Planalto sem citar pedido para comunicar a PGR; e a comunicação ao MPF e à PF tem data."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande (entrevista de Haddad ao podcast 3 Irmãos)",
+          "titulo": "Haddad diz que Banco Central tinha dever de agir diante de irregularidades no Banco Master (junho de 2026)",
+          "url": "https://acritica.net/politica/haddad-banco-master-bc/",
+          "consultada_em": "2026-10-16",
+          "trecho": "“No segundo semestre, ou mais particularmente no último trimestre de 2024, é que a coisa eclodiu com muita força. E aí, tudo o que foi feito foi levar o que estava acontecendo ao conhecimento do Procurador-Geral da República e da Polícia Federal”, afirmou.",
+          "prova": "O caso chegou à PGR e à PF, no relato de Haddad, sem menção a pedido de Lula a Galípolo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney (Estadão Conteúdo, entrevista de Lula)",
+          "titulo": "Lula diz que pediu a Galípolo que mostre 'quem é quem' no escândalo do Master (14/04/2026)",
+          "url": "https://www.infomoney.com.br/politica/lula-diz-que-pediu-a-galipolo-que-mostre-quem-e-quem-no-escandalo-do-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Eu disse ao companheiro Galípolo: ‘o que eu quero de você é que você preste contas à sociedade de onde é que está a origem disso. Eu não quero que você acuse o Roberto Campos porque você não é policial e nem procurador. Eu só quero que você mostre para a sociedade quem é quem no cinema, quem é o artista principal e quem é o coadjuvante'”, afirmou Lula.",
+          "prova": "O relato do próprio Lula sobre o que pediu a Galípolo fala em prestar contas à sociedade, não em comunicar a PGR."
+        }
+      ],
+      "revisao_ia": null
+    },
+    {
+      "id": "A126",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O 24,9% do FGV Ibre só aparece no Estadão e em reproduções; não se achou a divulgação do próprio FGV",
+      "explicacao": "O Estadão publicou em 11/10/2026, com entrevista do pesquisador Rodolpho Tobler, que em setembro de 2026 24,9% dos brasileiros estavam contraindo dívidas ou se desfazendo de patrimônio para pagar despesas do dia a dia, segundo levantamento do FGV Ibre. Um em cada quatro é o arredondamento de 24,9%, e água, luz e gás aparecem na reportagem como exemplos. Na rodada 2 (16/out) a busca procurou a divulgação do FGV Ibre: a página de press releases da Sondagem do Consumidor, a lista de notícias do portal do Ibre e o press release do Índice de Confiança do Consumidor de setembro de 2026 (página capturada; o PDF foi lido e não pôde ser capturado). O release de setembro traz o índice (84,2 pontos) e não traz o 24,9%; nenhuma outra página do Ibre achada traz o número. Todas as outras reportagens achadas (40graus, Revista Oeste, SP Diário, Aciara, Blog do Itamar) saíram no mesmo dia e repetem o número, o recorte por renda e as falas de Tobler da matéria do Estadão, então são uma única cadeia de imprensa. Pela METODOLOGIA §3.1, número precisa de fonte N1 ou N2, ou de duas N3/N4 que citem a primária conferida; nada disso existe aqui. É a mesma régua aplicada às falas do candidato com a fonte primária faltando. Não é FALSO porque nada contradiz o número.",
+      "numero_dito": "um em cada quatro",
+      "numero_apurado": "24,9% em setembro de 2026, segundo o Estadão",
+      "data_de_referencia": "setembro de 2026",
+      "ressalva": "O Estadão dá 24,9% em setembro de 2026; água, luz e gás são exemplos da reportagem, não a pergunta da pesquisa.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Estadão",
+          "titulo": "Brasileiros se endividam ou gastam a poupança para pagar contas básicas, como água e luz",
+          "url": "https://www.estadao.com.br/economia/brasileiros-se-endividam-ou-gastam-a-poupanca-para-pagar-contas-basicas-como-agua-e-luz/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Sem folga no orçamento doméstico, os brasileiros estão recorrendo a algum tipo de poupança ou até mesmo se endividando para conseguir pagar contas básicas, como água, luz e gás. [...] Em setembro, 24,9% dos brasileiros estavam contraindo dívidas ou perdendo parte do seu patrimônio para quitar despesas do dia a dia, segundo um levantamento do Instituto Brasileiro de Economia da Fundação Getúlio Vargas (FGV/Ibre). É o maior porcentual para o mesmo mês desde 2022 (25,4%).",
+          "prova": "A matéria original que divulgou o levantamento, com o percentual e o recorte."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste",
+          "titulo": "Brasileiros se endividam e tiram dinheiro da poupança para pagar contas básicas (11/10/2026)",
+          "url": "https://revistaoeste.com/economia/brasileiros-se-endividam-e-tiram-dinheiro-da-poupanca-para-pagar-contas-basicas/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo a pesquisa, 24,9% da população contraiu dívidas ou perdeu parte do patrimônio para quitar as despesas do dia a dia. Trata-se do maior porcentual para setembro desde 2022, quando o índice era de 25,4%.",
+          "prova": "Repete o número, o recorte por renda e as falas de Tobler do Estadão no mesmo dia: não é apuração independente."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "FGV Ibre (press release da Sondagem do Consumidor)",
+          "titulo": "ICC de setembro de 2026 (24/09/2026)",
+          "url": "https://portalibre.fgv.br/press-releases/icc-de-setembro-de-2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Índice de Confiança do Consumidor (ICC) do FGV IBRE recuou 0,5 ponto em setembro, para 84,2 pontos, menor nível desde novembro de 2022 (83,5 pontos).",
+          "prova": "É a divulgação oficial da Sondagem do Consumidor de setembro; ela não traz o 24,9%, que segue sem fonte primária."
+        }
+      ],
+      "revisao_ia": null
+    },
+    {
+      "id": "A153",
+      "veredito": "VERDADEIRO",
+      "resumo": "Fraga, Malan e Bacha, que votaram em Lula, criticaram em carta de 2022 a oposição entre o fiscal e o social",
+      "explicacao": "A pergunta atribui a economistas, inclusive apoiadores atuais ou antigos de Lula, a crítica de que ele opõe a preocupação com os fundamentos macroeconômicos à preocupação com os pobres. A carta de Arminio Fraga, Pedro Malan e Edmar Bacha, publicada na Folha de S.Paulo em 17/11/2022 depois de um discurso de Lula na COP27, foi conferida na íntegra, reproduzida com autorização pela Bloomberg Línea: 'A responsabilidade fiscal não é um obstáculo ao nobre anseio de responsabilidade social', 'O teto de gastos não tira dinheiro da educação, da saúde, da cultura, para pagar juros a banqueiros gananciosos' e 'Quando o governo perde o seu crédito, a economia se arrebenta. Quando isso acontece, quem perde mais? Os pobres!'. É exatamente a crítica descrita na pergunta. Os três tinham declarado voto em Lula no 2º turno de 2022 (com Persio Arida), o que a carta diz ('apoiamos a sua eleição') e o Poder360 registra; em 2026, Arida e Fraga apoiaram outra pré-candidatura, o que os torna apoiadores antigos. São duas redações independentes (Poder360 e Bloomberg Línea) e a primária conferida, o que cumpre a regra 2 da METODOLOGIA §3.1. O que não se sustenta com precisão é o quantificador: o registro achado é de três economistas, em 2022, e não há levantamento de quantos fazem essa crítica hoje; isso vai na ressalva, porque não muda a essência da frase. 🔧 Até a revisão adversarial r6 (16/out/2026) o veredito era VERDADEIRO; passou a INSUSTENTAVEL provisório por falta da carta original e de uma segunda redação, e voltou a VERDADEIRO na rodada 2 com as duas conferidas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "outubro e novembro de 2022 (apoio e carta) e março de 2026",
+      "ressalva": "O registro achado é a carta de 2022 de três economistas; não há levantamento de quantos fazem a crítica hoje",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Arminio, Malan e Bacha pedem responsabilidade em carta a Lula (17/11/2022)",
+          "url": "https://www.poder360.com.br/economia/arminio-malan-e-bacha-pedem-responsabilidade-em-carta-a-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Pobres são os que mais sofrerão se governo perder credibilidade fiscal, escrevem economistas que apoiaram petista na eleição copiar link --> Em discurso na COP27, Lula disse que a Bolsa ia cair e o dólar ia subir com furo no teto Bel Pedrosa/Fórum Econômico Mundial, JRS/Solange Macedo e Roque de Sá/Agência Senado Douglas Rodrigues 17.nov.2022 (quinta-feira) - 18h03 Priorize o Poder no Google Os economistas Arminio Fraga, Pedro Malan e Edmar Bacha escreveram uma carta pública pedindo ao presidente eleito, Luiz Inácio Lula da Silva (PT) responsabilidade social, para já ou o quanto antes. O texto em que alertam Lula sobre as consequências do discurso dele foi publicado nesta 5ª feira (17.nov.2022) em artigo na Folha de S.Paulo . Formuladores do Plano Real na década de 90, os 3 apoiaram o petista contra Jair Bolsonaro (PL) na eleição presidencial.",
+          "prova": "A crítica, feita por economistas que apoiaram Lula: os pobres perdem com a falta de credibilidade fiscal."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "'Fiquei feliz', diz Lula sobre carta que pede responsabilidade (18/11/2022)",
+          "url": "https://www.poder360.com.br/governo/fiquei-feliz-diz-lula-sobre-carta-que-pede-responsabilidade/",
+          "consultada_em": "2026-10-16",
+          "trecho": "foi questionado nesta 6ª feira (18.nov.2022) sobre a carta dos economistas Arminio Fraga, Edmar Bacha e Pedro Malan, que pediram responsabilidade ao petista depois de fala à COP27.",
+          "prova": "Confirma a carta pela resposta do próprio Lula, em outra reportagem."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Assista ao vídeo de Armínio Fraga para a campanha de Lula (19/10/2022)",
+          "url": "https://www.poder360.com.br/eleicoes/assista-ao-video-de-arminio-fraga-para-a-campanha-de-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "No início do mês, o economista assinou uma nota conjunta com Edmar Bacha, Pedro Malan e Persio Arida declarando voto no ex-presidente. [...] Votaremos em Lula no 2º turno; nossa expectativa é de condução responsável da economia",
+          "prova": "Mostra que os autores da carta apoiaram Lula na eleição de 2022."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Economistas que consolidaram Plano Real querem Leite na Presidência (27/03/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes/economistas-que-consolidaram-plano-real-querem-leite-na-presidencia/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governador do Rio Grande do Sul obteve os endossos de Persio Arida e Armínio Fraga, que presidiram o Banco Central .",
+          "prova": "Em 2026, dois deles apoiaram outro pré-candidato: são apoiadores antigos, como a pergunta descreve."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bloomberg Línea (íntegra da carta, publicada com autorização)",
+          "titulo": "Arminio, Bacha e Malan rebatem críticas de Lula ao mercado; leia carta (17/11/2022)",
+          "url": "https://www.bloomberglinea.com.br/2022/11/17/arminio-bacha-e-malan-rebatem-criticas-de-lula-ao-mercado-leia-carta/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na carta, divulgada originalmente pelo jornal Folha de S.Paulo na tarde desta quinta e publicada também pela Bloomberg Línea com autorização (leia abaixo a íntegra) [...] A responsabilidade fiscal não é um obstáculo ao nobre anseio de responsabilidade social, para já ou o quanto antes. [...] O teto de gastos não tira dinheiro da educação, da saúde, da cultura, para pagar juros a banqueiros gananciosos. Não é uma conspiração para desmontar a área social. [...] Como o senhor sabe, apoiamos a sua eleição e torcemos por um Brasil melhor e mais justo. [...] Quando o governo perde o seu crédito, a economia se arrebenta. Quando isso acontece, quem perde mais? Os pobres!",
+          "prova": "O texto da carta, conferido: a crítica à oposição entre responsabilidade fiscal e social, feita por quem apoiou Lula."
+        }
+      ],
+      "revisao_ia": null
+    },
+    {
+      "id": "A157",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O BNDES desembolsou R$ 169,7 bi em 2025, menos que a média de R$ 350 bi por ano de 2011 a 2014; falta medida total",
+      "explicacao": "O critério pedia o volume de crédito dos programas federais deste governo contra os anteriores, em valores corrigidos, e qual medida sustenta 'maior'. Achados: há política de crédito (Lei 14.690, de 2023, do Desenrola, e MP 1.292, de 2025, do consignado de empregados CLT), e o BNDES, maior instrumento público de crédito, cresceu: desembolsou R$ 169,7 bilhões em 2025, alta de 27%, com carteira recorde (balanço divulgado em 17/03/2026). Mas o estudo do próprio BNDES sobre 1994 a 2024 diz que, a preços de 2024, os desembolsos foram em média R$ 357 bilhões por ano de 2008 a 2010 e R$ 350 bilhões por ano de 2011 a 2014, com pico em 2010. Mesmo sem corrigir os R$ 169,7 bilhões de 2025 (o que só os reduziria a preços de 2024), eles ficam abaixo da metade dessa média. Por esse critério, o BNDES de hoje não é o maior da história. Não achado: uma medida do conjunto da política de crédito (consignado, Desenrola, Pronampe, Plano Safra, microcrédito e BNDES somados, ou o subsídio total) comparada entre governos. Na rodada 2 (16/out) a busca procurou essa comparação e só achou a do BNDES. Como a frase fala da política inteira e não define a medida, o dado do BNDES pesa contra, mas não fecha a frase; por isso é INSUSTENTAVEL, e não FALSO.",
+      "numero_dito": null,
+      "numero_apurado": "desembolsos do BNDES: R$ 169,7 bilhões em 2025; média de R$ 350 bilhões por ano de 2011 a 2014, a preços de 2024",
+      "data_de_referencia": "desembolsos do BNDES de 2008 a 2014 (a preços de 2024) e de 2025",
+      "ressalva": "A comparação achada é só a do BNDES; os outros programas de crédito não têm série comparável",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.690, de 3 de outubro de 2023 (Desenrola Brasil)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14690.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 14.690, DE 3 DE OUTUBRO DE 2023 Vigência Institui o Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil; estabelece normas para facilitação de acesso a crédito e mitigação de riscos de inadimplemento e de superendividamento de pessoas físicas",
+          "prova": "Existe um programa federal de crédito e renegociação neste governo; o trecho não diz nada sobre o tamanho comparado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.292, de 12 de março de 2025 (consignado de empregados)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1292.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "MEDIDA PROVISÓRIA Nº 1.292, DE 12 DE MARÇO DE 2025 [...] Altera a Lei nº 10.820, de 17 de dezembro de 2003, que trata sobre as operações de crédito consignado de empregados regidos pela Consolidação das Leis do Trabalho",
+          "prova": "Segundo instrumento de crédito do governo; também sem comparação de volume."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "BNDES (Estudos especiais do BNDES, 48)",
+          "titulo": "Três décadas: o BNDES depois da estabilização, 1994/2024 (2025)",
+          "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/27047/1/PRFol_216443_Tr%c3%aad%20d%c3%a9cadas_BNDES_1994-2024%20PDFA.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Embora em queda em relação ao pico de 2010, na média dos quatro anos entre 2011 e 2014, os desembolsos anuais foram de R$ 350 bilhões, próximo ao desembolso médio de 2008 a 2010, de R$ 357 bilhões, ambos a preços de 2024.",
+          "prova": "O volume real de crédito do BNDES nos governos de 2008 a 2014, a base para comparar com o atual."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência iNFRA (balanço anual do BNDES)",
+          "titulo": "BNDES registra lucro recorrente recorde de R$ 15,2 bi em 2025 (17/03/2026)",
+          "url": "https://agenciainfra.com/blog/bndes-registra-lucro-recorrente-recorde-de-r-152-bi-em-2025/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O banco também atingiu recordes em outros indicadores, com ativos totais de R$ 962,5 bilhões (+14,5% em um ano), carteira de crédito de R$ 663,6 bilhões (+13,4%) e desembolsos de R$ 169,7 bilhões (+27%).",
+          "prova": "Os desembolsos do BNDES em 2025, no governo atual, em valor nominal."
+        }
+      ],
+      "revisao_ia": null
+    },
+    {
+      "id": "A158",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Livro relata Lula cobrando Meirelles por juros em 2005 e 2007; não se achou registro de brigas com Mantega",
+      "explicacao": "O critério pedia registros públicos de divergência de Lula com Mantega e com Meirelles e o período de cada um no cargo. Achados sobre Meirelles: um trecho do livro Eles Não São Loucos, de João Borges, publicado pelo Brazil Journal, relata, pela versão de Meirelles, que Lula cobrou dele a alta da Selic em 2005 e telefonou em 2007 pedindo que o BC reduzisse os juros mais rápido, e que a relação 'esfriou'. É um relato só, de um livro, e o verbete do CPDOC/FGV registra que Meirelles tinha a confiança de Lula e obteve dele o compromisso com a autonomia operacional do BC. Sobre Mantega: o CPDOC registra divergência de Mantega com Meirelles, não com Lula, e o mesmo trecho do livro mostra Mantega cobrando o BC em público com o aval do presidente. Na rodada 2 (16/out) a busca procurou reportagens e memórias com divergência de Lula com cada um; não achou nenhum registro de briga de Lula com Mantega, e para Meirelles achou um relato só. Com uma fonte para metade da frase e nenhuma para a outra metade, ela fica sem sustentação; nada desmente, e por isso não é FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "2005 e 2007 (episódios com Meirelles); Mantega no governo desde 2003",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "O livro de João Borges relata pressão de Lula sobre Meirelles; o verbete do CPDOC descreve Meirelles como alguém que tinha a confiança do presidente.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "CPDOC/FGV, Dicionário Histórico-Biográfico Brasileiro",
+          "titulo": "Verbete Guido Mantega",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/mantega-guido",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em janeiro de 2003, ele assumiu o Ministério do Planejamento, Orçamento e Gestão [...] Mantega encaminhou a política econômica buscando uma combinação de estabilidade com a retomada do crescimento, muitas vezes com proposições diferentes da austeridade do presidente do Banco Central, Henrique Meirelles, que ao longo do primeiro mandato angariara a confiança do presidente Lula e garantira a ortodoxia do mercado.",
+          "prova": "O período de Mantega no governo e a divergência registrada, que é com Meirelles e não com Lula."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "CPDOC/FGV, Dicionário Histórico-Biográfico Brasileiro",
+          "titulo": "Verbete Henrique Meireles",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/meireles-henrique",
+          "consultada_em": "2026-10-16",
+          "trecho": "Meireles obteve de Lula o compromisso com a autonomia operacional do BC, o que na prática garantia ao banco liberdade para definir a política monetária do país sem interferências ou pressões de natureza política. [...] Optou no entanto por não concorrer a cargo eletivo, mantendo-se à frente do Banco Central até o fim do governo Lula.",
+          "prova": "O período de Meirelles no BC e o compromisso de Lula com ele; nenhum registro de briga."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brazil Journal (trecho do livro Eles Não São Loucos, de João Borges)",
+          "titulo": "O dia em que Lula (quase) demitiu Meirelles (11/02/2023)",
+          "url": "https://braziljournal.com/o-dia-em-que-lula-quase-demitiu-meirelles/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Para Lula e o PT, a alta dos juros promovida por Meirelles no BC em 2005 não só era injustificável como constituía uma ameaça real para os dois anos finais de mandato, pois interromperia o tão festejado crescimento de 2004. Durante um dos despachos no Palácio do Planalto, que raramente constavam da agenda oficial da Presidência, Lula cobrou Meirelles pela alta da Selic. [...] Lula, que até então pressionava Meirelles de forma indireta quando estava contrariado com a política do BC, dessa vez agiu sem intermediários ou insinuações, pedindo à secretária que ligasse para a presidência do Banco Central.",
+          "prova": "O único registro achado de atrito de Lula com Meirelles, na versão de Meirelles contada no livro; nada sobre Mantega."
+        }
+      ],
+      "revisao_ia": null
+    },
+    {
+      "id": "A161",
+      "veredito": "FALSO",
+      "resumo": "Flávio disse que manterá o reajuste do mínimo e prometeu aumento real a aposentados; não há anúncio do contrário",
+      "explicacao": "A frase diz que o adversário anunciou que não haverá aumento do salário mínimo acima da inflação. As declarações públicas do candidato vão no sentido oposto: em 8 de outubro, perguntado se se comprometia a dar reajuste real aos aposentados, como é hoje, Flávio Bolsonaro disse que sim (Correio, Salvador), e negou desvincular os benefícios da política de valorização do mínimo (Agora RN); em 11 de outubro, reiterou que manterá o reajuste do salário mínimo e o Bolsa Família (Estadão Conteúdo, no Diário do Nordeste). O plano de governo não traz proposta específica para o reajuste do mínimo (IstoÉ). O que existe é o relato, pela Folha de S.Paulo, de que a equipe econômica estudava corrigir só pela inflação as aposentadorias e o BPC, mas, segundo o mesmo relato, os trabalhadores que recebem o piso continuariam com ganho real; a campanha negou que isso seja compromisso, e o candidato negou a intenção. Na rodada 2 (16/out) a busca procurou um anúncio de Flávio de reajuste do mínimo só pela inflação e não achou. Com as declarações do candidato contrárias ao anúncio atribuído a ele, e o único estudo relatado preservando o ganho real do piso, as fontes contradizem o essencial da frase: FALSO. A confiança é média porque o 'anúncio' poderia ser leitura do estudo sobre benefícios, que trata de outra coisa.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações do candidato de 8 e 11 de outubro de 2026",
+      "ressalva": "A equipe estudou, segundo a Folha, corrigir só pela inflação aposentadorias e BPC, não o piso; o candidato nega",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador)",
+          "titulo": "Flávio Bolsonaro avalia limitar reajuste de aposentadorias e BPC, diz jornal (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/brasil/flavio-bolsonaro-avalia-limitar-reajuste-de-aposentadorias-e-bpc-diz-jornal-1026",
+          "consultada_em": "2026-10-16",
+          "trecho": "Se a alteração nos benefícios fosse adotada, um aumento do salário mínimo acima da inflação não seria integralmente repassado aos aposentados e beneficiários do BPC. Os pagamentos poderiam ser reajustados somente pelo Índice Nacional de Preços ao Consumidor (INPC), enquanto trabalhadores que recebem o piso teriam também o ganho real. [...] Perguntado diretamente se ele se comprometia a dar reajuste real aos aposentados, como é hoje, ele foi categórico ao dizer que \"sim\", se comprometia.",
+          "prova": "O estudo relatado preservava o ganho real do piso, e o candidato se comprometeu com reajuste real a aposentados."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Nordeste (Estadão Conteúdo)",
+          "titulo": "Flávio repete que manterá reajuste do salário mínimo e Bolsa Família caso eleito (11/10/2026)",
+          "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-repete-que-mantera-reajuste-do-salario-minimo-e-bolsa-familia-caso-eleito-1.3797978",
+          "consultada_em": "2026-10-16",
+          "trecho": "O candidato da oposição à Presidência da República, Flávio Bolsonaro (PL), reiterou neste domingo (11) que manterá o reajuste do salário mínimo e o Bolsa Família , em uma eventual eleição. \"Ninguém vai tocar em programas sociais\", disse ele",
+          "prova": "A declaração pública mais recente do candidato sobre o mínimo, quatro dias antes da sabatina, vai no sentido contrário."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IstoÉ",
+          "titulo": "INSS: entenda como Flávio Bolsonaro pode mudar reajuste das aposentadorias (08/10/2026)",
+          "url": "https://istoe.com.br/flavio-bolsonaro-reajuste-aposentadorias-inss",
+          "consultada_em": "2026-10-16",
+          "trecho": "Flávio Bolsonaro, entretanto, nega que pretenda realizar essa mudança. Seu programa de governo não apresenta uma proposta específica para o reajuste do salário mínimo.",
+          "prova": "O plano de governo não anuncia reajuste do mínimo só pela inflação, e o candidato nega a mudança estudada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agora RN",
+          "titulo": "Flávio Bolsonaro nega corte em aposentadorias e promete reajuste acima da inflação (08/10/2026)",
+          "url": "https://agorarn.com.br/politica/flavio-nega-corte-em-aposentadorias/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Flávio negou que seu eventual governo pretenda desvincular os benefícios da política de valorização do salário mínimo.",
+          "prova": "A declaração pública do candidato vai no sentido oposto ao anúncio atribuído a ele."
+        }
+      ],
+      "revisao_ia": null
+    },
+    {
+      "id": "A163",
+      "veredito": "IMPRECISO",
+      "resumo": "A CNI chama a energia de um dos principais insumos; no IBGE, ela foi 1,05% dos custos da indústria em 2023",
+      "explicacao": "O critério pedia a participação da energia elétrica nos custos da indústria (IBGE ou CNI) e se a fonte a trata como o maior item de custo ou como um dos principais. A CNI, na Sondagem Especial Indústria e Energia 2026, escreve que 'a energia elétrica é um dos principais insumos da indústria brasileira'. Mas, pelo peso no custo, ela não é o principal: na Pesquisa Industrial Anual do IBGE para 2023 (empresas com 30 ou mais pessoas), a compra de energia elétrica usada na produção foi 64122538 mil reais num total de custos e despesas de 6079347160 mil, cerca de 1,05%, contra 46% das matérias-primas; com empresas de 5 ou mais pessoas, energia elétrica e combustíveis somados ficam muito abaixo das matérias-primas. A pesquisa da CNI de 2024, com 1.001 empresas, dá o mesmo sentido: o peso médio da conta de energia no orçamento da empresa era de 10%, e de até 5% para 55% dos respondentes. A essência (a energia é um insumo central para a indústria) é sustentada pela própria CNI; o 'o principal' não é, por nenhuma das medidas de custo achadas. Pela régua do §2.2, isso é IMPRECISO, e não FALSO: a frase erra o grau, não o fato. Ressalva de método: a PIA soma matérias-primas de vários tipos e compara com um insumo só, e há setores eletrointensivos em que a energia pesa muito mais. ⚠️ Uma reportagem (Movimento Econômico) escreveu que a energia é 'o principal insumo para 79% das indústrias', mas o documento da CNI diz que 79% usam a energia elétrica como 'principal fonte de energia', que é outra coisa.",
+      "numero_dito": null,
+      "numero_apurado": "compra de energia elétrica: 1,05% dos custos e despesas da indústria em 2023; matérias-primas: 46%",
+      "data_de_referencia": "2023 (Pesquisa Industrial Anual - Empresa) e pesquisas da CNI de 2024 e 2026",
+      "ressalva": "Nas contas do IBGE de 2023, as matérias-primas somaram 46% dos custos; o peso da energia muda por setor",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 7245, PIA-Empresa, 30 ou mais pessoas ocupadas)",
+          "titulo": "Estrutura dos custos e despesas das empresas industriais, 2023",
+          "url": "https://apisidra.ibge.gov.br/values/t/7245/n1/all/v/802,803,828,10427/p/2023/c12762/117897/f/n",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"6079347160\", \"D1N\": \"Brasil\", \"D2N\": \"Custos e despesas - total\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"606800860\", \"D1N\": \"Brasil\", \"D2N\": \"Custos e despesas - gastos de pessoal - total\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"2800506773\", \"D1N\": \"Brasil\", \"D2N\": \"Compras de matérias-primas, materiais auxiliares e componentes\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"64122538\", \"D1N\": \"Brasil\", \"D2N\": \"Compra de energia elétrica utilizada na produção\", \"D3N\": \"2023\", \"D4N\": \"Total\" }",
+          "prova": "O peso da energia elétrica no custo total da indústria, ao lado de matérias-primas e pessoal."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 1847, PIA-Empresa, 5 ou mais pessoas ocupadas)",
+          "titulo": "Estrutura dos custos e despesas das empresas industriais, 2023",
+          "url": "https://apisidra.ibge.gov.br/values/t/1847/n1/all/v/838,868,809,831/p/2023/c12762/117897/f/n",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"6328260312\", \"D1N\": \"Brasil\", \"D2N\": \"Total de custos e despesas\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"667010337\", \"D1N\": \"Brasil\", \"D2N\": \"Gastos de pessoal\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"2947406740\", \"D1N\": \"Brasil\", \"D2N\": \"Consumo de matérias-primas, materiais auxiliares e componentes\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"157526425\", \"D1N\": \"Brasil\", \"D2N\": \"Compras de energia elétrica e consumo de combustíveis\", \"D3N\": \"2023\", \"D4N\": \"Total\" }",
+          "prova": "Com empresas menores e energia somada a combustíveis, a ordem é a mesma: muito abaixo das matérias-primas."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Confederação Nacional da Indústria (CNI), Sondagem Especial Indústria e Energia 2026 (cópia do PDF publicada pela Agência iNFRA)",
+          "titulo": "Sondagem Especial Indústria e Energia 2026, número 103 (maio de 2026)",
+          "url": "https://agenciainfra.com/blog/wp-content/uploads/2026/07/Sondagem-CNI-Industria-e-Energia-2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A energia elétrica é um dos principais [...] insumos da indústria brasileira, razão [...] pela qual a sua disponibilidade e o seu [...] preço são determinantes fundamentais [...] 79% da indústria brasileira utiliza a energia elétrica como [...] principal fonte de energia.",
+          "prova": "A CNI trata a energia como um dos principais insumos, não como o principal; e os 79% são de fonte de energia."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (pesquisa Indústria e Matriz Energética, CNI, 2024)",
+          "titulo": "Para empresários, custo da energia subiu e impacto na produção é alto (01/07/2024)",
+          "url": "https://www.metropoles.com/negocios/industria/para-empresarios-custo-da-energia-subiu-e-impacto-na-producao-e-alto",
+          "consultada_em": "2026-10-16",
+          "trecho": "A média do impacto da conta de energia elétrica no orçamento da empresa é de 10%, de acordo com a pesquisa. Para 55% dos respondentes, o impacto é de até 5%. Já para 20%, o custo da energia aumenta o orçamento entre 6% e 10%. Para outros 6%, aumenta mais de 30%.",
+          "prova": "Medida independente do IBGE, pela declaração das empresas: a energia pesa em média 10% do orçamento, longe de ser o maior item."
+        }
+      ],
+      "revisao_ia": null,
+      "derivacoes": [
+        {
+          "valor": "1,05%",
+          "de": "64122538 dividido por 6079347160",
+          "como": "compra de energia elétrica sobre o total de custos e despesas, em porcentagem"
+        },
+        {
+          "valor": "46%",
+          "de": "2800506773 dividido por 6079347160",
+          "como": "matérias-primas sobre o total de custos e despesas, em porcentagem arredondada"
+        }
+      ]
+    },
+    {
+      "id": "A165",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Irena põe a eólica do Brasil entre as mais baratas do mundo em 2024; a conta de luz é que é cara",
+      "explicacao": "O critério pedia o custo de geração no Brasil contra referências internacionais e a diferença entre custo de geração e tarifa final. A Irena (Renewable Power Generation Costs in 2024) registra para a eólica em terra no Brasil custo nivelado de USD 0.030/kWh, o segundo menor entre os mercados destacados, ao lado da China (USD 0.029/kWh) e abaixo da média mundial de USD 0.034/kWh. O Centro de Liderança Pública, em nota de agosto de 2026, chama a geração brasileira de 'relativamente barata' e diz que os leilões de energia existente de 2025 tiveram preços médios entre R$ 205/MWh e R$ 213/MWh, 'patamar competitivo em termos internacionais'; a CNI diz que o país tem 'custos de produção de energia muito competitivos', e a EPE, que as renováveis da matriz têm menores custos de operação. A frase fala de produzir, e para a produção as fontes confirmam. O que é caro é a tarifa: segundo o CLP, a parcela da energia era cerca de 30,4% da conta de luz em 2025, e a conta residencial ajustada pelo poder de compra é maior que em cerca de 70 países; isso vai na ressalva. Também nem toda fonte é barata: na bioenergia, a Irena registra o Brasil com o custo mais alto entre os países destacados. Por isso a confiança é média.",
+      "numero_dito": null,
+      "numero_apurado": "eólica em terra: USD 0.030/kWh no Brasil, contra média mundial de USD 0.034/kWh (2024)",
+      "data_de_referencia": "2024 (custos da Irena) e 2025 (leilões e composição da conta)",
+      "ressalva": "O custo baixo é o de gerar; a energia era cerca de 30,4% da conta de luz em 2025, segundo o CLP",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Agência Internacional de Energia Renovável (Irena)",
+          "titulo": "Renewable Power Generation Costs in 2024 (julho de 2025)",
+          "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Onshore wind continued reinforcing its cost advantage (Figure S3), with a global average LCOE of USD 0.034/kWh in 2024 – 53% lower than fossil fuel-based generation. China (USD 0.029/kWh) and Brazil (USD 0.030/kWh) recorded the lowest costs, benefitting from strong resource availability, domestic manufacturing and streamlined project execution. [...] Bioenergy’s LCOE ranged from USD 0.065/kWh in India to USD 0.118/kWh in Brazil.",
+          "prova": "Comparação internacional do custo de gerar: a eólica brasileira entre as mais baratas; a bioenergia, entre as mais caras."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Centro de Liderança Pública (CLP), nota técnica",
+          "titulo": "Energia cara freia a competitividade (03/08/2026)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/estudo-clp-Energia-cara-no-brasil-freia-a-competitividade-3ago2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Essa vantagem aparece também nos leilões e na energia contratada no atacado. Nos Leilões de Energia Existente A-1, A-2 e A-3 de 2025, por exemplo, a EPE registrou preços médios entre R$ 205/MWh e R$ 213/MWh, patamar competitivo em termos internacionais para contratos de fornecimento no atacado. O consumidor final, por outro lado, paga muito mais do que o custo da energia comprada. Na composição tarifária da conta de luz de 2025, a parcela “energia” respondia por cerca de 30,4% da conta",
+          "prova": "O preço de contratar a energia gerada é competitivo lá fora; a conta final é que pesa, e a geração é só uma parte dela."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (declaração do gerente de Energia da CNI)",
+          "titulo": "Para empresários, custo da energia subiu e impacto na produção é alto (01/07/2024)",
+          "url": "https://www.metropoles.com/negocios/industria/para-empresarios-custo-da-energia-subiu-e-impacto-na-producao-e-alto",
+          "consultada_em": "2026-10-16",
+          "trecho": "“A tarifa final paga pelas empresas e por toda a sociedade no Brasil é uma das mais caras no mundo, apesar de termos custos de produção de energia muito competitivos.",
+          "prova": "A indústria, que paga a conta, descreve o custo de produzir energia no país como competitivo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Empresa de Pesquisa Energética (EPE)",
+          "titulo": "Matriz energética e elétrica (ABCDEnergia)",
+          "url": "https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica",
+          "consultada_em": "2026-10-16",
+          "trecho": "Aprendemos com o gráfico que a matriz elétrica brasileira é baseada em fontes renováveis de energia, ao contrário da matriz elétrica mundial. Isso é ótimo para o Brasil, pois além de possuírem menores custos de operação, as usinas que geram energia a partir de fontes renováveis em geral emitem bem menos gases de estufa.",
+          "prova": "Indica custo de operação menor das renováveis, sem número e sem comparação entre países."
+        }
+      ],
+      "revisao_ia": null
+    }
+  ]
+}

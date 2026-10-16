@@ -1,0 +1,63 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-05",
+  "cobertura": {
+    "inicio_s": 2598.18,
+    "fim_s": 2612.91
+  },
+  "alegacoes": [
+    {
+      "id": "A182",
+      "inicio_s": 2598.3,
+      "fim_s": 2601.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós precisamos fazer o Brasil sorridente voltar a funcionar",
+      "afirmacao": "Quando Lula voltou ao governo, o Brasil Sorridente tinha deixado de funcionar ou estava reduzido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS, descrevendo o que encontrou ao chegar ao governo",
+      "o_que_conferir": [
+        "orçamento executado e número de equipes de saúde bucal e de Centros de Especialidades Odontológicas, 2019 a 2022, Ministério da Saúde",
+        "se o programa foi extinto ou só teve redução"
+      ]
+    },
+    {
+      "id": "A183",
+      "inicio_s": 2601.9,
+      "fim_s": 2604.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós precisamos botar o Farmácia Popular voltar a funcionar",
+      "afirmacao": "Quando Lula voltou ao governo, o Farmácia Popular tinha deixado de funcionar ou estava reduzido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS, descrevendo o que encontrou ao chegar ao governo",
+      "o_que_conferir": [
+        "orçamento executado e número de farmácias credenciadas e de beneficiários do Farmácia Popular, 2019 a 2022, Ministério da Saúde",
+        "se o programa foi extinto ou só teve redução"
+      ]
+    },
+    {
+      "id": "A184",
+      "inicio_s": 2608.7,
+      "fim_s": 2612.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o programa a que eu me referi é o Mais Especialistas, que ampliou o atendimento,",
+      "afirmacao": "O programa federal de atendimento especializado do SUS citado na pergunta (chamado de Mais Especialistas) ampliou o atendimento",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "A entrevistadora esclarece a que programa se referia na pergunta sobre o tempo de espera por especialistas no SUS",
+      "o_que_conferir": [
+        "nome oficial do programa (Mais Acesso a Especialistas ou Agora Tem Especialistas) e se é este o programa da pergunta, no Ministério da Saúde",
+        "série de consultas, exames e procedimentos especializados realizados antes e depois do início do programa, Ministério da Saúde/DATASUS (SIA e SIH), até a data da fala"
+      ]
+    }
+  ]
+}

@@ -6,13 +6,13 @@
     {
       "id": "A157",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Há programas de crédito do governo, como o Desenrola, mas nada achado compara o volume com o de outros governos",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a Lei 14.690, de 3 de outubro de 2023, que criou o Desenrola Brasil e normas de acesso a crédito, e a Medida Provisória 1.292, de 12 de março de 2025, que levou o crédito consignado de empregados CLT para plataformas digitais. As duas mostram que há política de crédito, não que ela é a maior da história. Não achados: o volume de crédito dos programas federais (BNDES, Pronampe, microcrédito, consignado, Desenrola) deste governo contra o dos anteriores, em valores corrigidos, e qual medida sustentaria 'maior' (volume, número de tomadores ou subsídio). Sem esse comparativo, a frase não fica sustentada nem desmentida.",
+      "resumo": "O BNDES desembolsou R$ 169,7 bi em 2025, menos que a média de R$ 350 bi por ano de 2011 a 2014; falta medida total",
+      "explicacao": "O critério pedia o volume de crédito dos programas federais deste governo contra os anteriores, em valores corrigidos, e qual medida sustenta 'maior'. Achados: há política de crédito (Lei 14.690, de 2023, do Desenrola, e MP 1.292, de 2025, do consignado de empregados CLT), e o BNDES, maior instrumento público de crédito, cresceu: desembolsou R$ 169,7 bilhões em 2025, alta de 27%, com carteira recorde (balanço divulgado em 17/03/2026). Mas o estudo do próprio BNDES sobre 1994 a 2024 diz que, a preços de 2024, os desembolsos foram em média R$ 357 bilhões por ano de 2008 a 2010 e R$ 350 bilhões por ano de 2011 a 2014, com pico em 2010. Mesmo sem corrigir os R$ 169,7 bilhões de 2025 (o que só os reduziria a preços de 2024), eles ficam abaixo da metade dessa média. Por esse critério, o BNDES de hoje não é o maior da história. Não achado: uma medida do conjunto da política de crédito (consignado, Desenrola, Pronampe, Plano Safra, microcrédito e BNDES somados, ou o subsídio total) comparada entre governos. Na rodada 2 (16/out) a busca procurou essa comparação e só achou a do BNDES. Como a frase fala da política inteira e não define a medida, o dado do BNDES pesa contra, mas não fecha a frase; por isso é INSUSTENTAVEL, e não FALSO.",
       "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": null,
-      "ressalva": null,
-      "confianca": "baixa",
+      "numero_apurado": "desembolsos do BNDES: R$ 169,7 bilhões em 2025; média de R$ 350 bilhões por ano de 2011 a 2014, a preços de 2024",
+      "data_de_referencia": "desembolsos do BNDES de 2008 a 2014 (a preços de 2024) e de 2025",
+      "ressalva": "A comparação achada é só a do BNDES; os outros programas de crédito não têm série comparável",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -33,20 +33,39 @@
           "consultada_em": "2026-10-16",
           "trecho": "MEDIDA PROVISÓRIA Nº 1.292, DE 12 DE MARÇO DE 2025 [...] Altera a Lei nº 10.820, de 17 de dezembro de 2003, que trata sobre as operações de crédito consignado de empregados regidos pela Consolidação das Leis do Trabalho",
           "prova": "Segundo instrumento de crédito do governo; também sem comparação de volume."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "BNDES (Estudos especiais do BNDES, 48)",
+          "titulo": "Três décadas: o BNDES depois da estabilização, 1994/2024 (2025)",
+          "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/27047/1/PRFol_216443_Tr%c3%aad%20d%c3%a9cadas_BNDES_1994-2024%20PDFA.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Embora em queda em relação ao pico de 2010, na média dos quatro anos entre 2011 e 2014, os desembolsos anuais foram de R$ 350 bilhões, próximo ao desembolso médio de 2008 a 2010, de R$ 357 bilhões, ambos a preços de 2024.",
+          "prova": "O volume real de crédito do BNDES nos governos de 2008 a 2014, a base para comparar com o atual."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência iNFRA (balanço anual do BNDES)",
+          "titulo": "BNDES registra lucro recorrente recorde de R$ 15,2 bi em 2025 (17/03/2026)",
+          "url": "https://agenciainfra.com/blog/bndes-registra-lucro-recorrente-recorde-de-r-152-bi-em-2025/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O banco também atingiu recordes em outros indicadores, com ativos totais de R$ 962,5 bilhões (+14,5% em um ano), carteira de crédito de R$ 663,6 bilhões (+13,4%) e desembolsos de R$ 169,7 bilhões (+27%).",
+          "prova": "Os desembolsos do BNDES em 2025, no governo atual, em valor nominal."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A158",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Nenhuma fonte achada registra brigas de Lula com Mantega e Meirelles; o CPDOC registra divergência entre os dois",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: os verbetes biográficos do CPDOC/FGV. O de Guido Mantega registra que ele assumiu o Planejamento em janeiro de 2003 e, no segundo mandato, conduziu a Fazenda com proposições diferentes da austeridade de Henrique Meirelles, que tinha a confiança de Lula. O de Meirelles registra que ele obteve de Lula o compromisso com a autonomia operacional do Banco Central e ficou no cargo até o fim do governo Lula. A divergência documentada é entre os dois auxiliares, não de Lula com cada um. Não achados: entrevistas, memórias ou reportagens da época com divergência de Lula com Mantega e com Meirelles. Por isso a frase fica sem sustentação, e não desmentida.",
+      "resumo": "Livro relata Lula cobrando Meirelles por juros em 2005 e 2007; não se achou registro de brigas com Mantega",
+      "explicacao": "O critério pedia registros públicos de divergência de Lula com Mantega e com Meirelles e o período de cada um no cargo. Achados sobre Meirelles: um trecho do livro Eles Não São Loucos, de João Borges, publicado pelo Brazil Journal, relata, pela versão de Meirelles, que Lula cobrou dele a alta da Selic em 2005 e telefonou em 2007 pedindo que o BC reduzisse os juros mais rápido, e que a relação 'esfriou'. É um relato só, de um livro, e o verbete do CPDOC/FGV registra que Meirelles tinha a confiança de Lula e obteve dele o compromisso com a autonomia operacional do BC. Sobre Mantega: o CPDOC registra divergência de Mantega com Meirelles, não com Lula, e o mesmo trecho do livro mostra Mantega cobrando o BC em público com o aval do presidente. Na rodada 2 (16/out) a busca procurou reportagens e memórias com divergência de Lula com cada um; não achou nenhum registro de briga de Lula com Mantega, e para Meirelles achou um relato só. Com uma fonte para metade da frase e nenhuma para a outra metade, ela fica sem sustentação; nada desmente, e por isso não é FALSO.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": null,
+      "data_de_referencia": "2005 e 2007 (episódios com Meirelles); Mantega no governo desde 2003",
       "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "O livro de João Borges relata pressão de Lula sobre Meirelles; o verbete do CPDOC descreve Meirelles como alguém que tinha a confiança do presidente.",
       "revisao_humana": null,
       "fontes": [
         {
@@ -66,8 +85,18 @@
           "consultada_em": "2026-10-16",
           "trecho": "Meireles obteve de Lula o compromisso com a autonomia operacional do BC, o que na prática garantia ao banco liberdade para definir a política monetária do país sem interferências ou pressões de natureza política. [...] Optou no entanto por não concorrer a cargo eletivo, mantendo-se à frente do Banco Central até o fim do governo Lula.",
           "prova": "O período de Meirelles no BC e o compromisso de Lula com ele; nenhum registro de briga."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brazil Journal (trecho do livro Eles Não São Loucos, de João Borges)",
+          "titulo": "O dia em que Lula (quase) demitiu Meirelles (11/02/2023)",
+          "url": "https://braziljournal.com/o-dia-em-que-lula-quase-demitiu-meirelles/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Para Lula e o PT, a alta dos juros promovida por Meirelles no BC em 2005 não só era injustificável como constituía uma ameaça real para os dois anos finais de mandato, pois interromperia o tão festejado crescimento de 2004. Durante um dos despachos no Palácio do Planalto, que raramente constavam da agenda oficial da Presidência, Lula cobrou Meirelles pela alta da Selic. [...] Lula, que até então pressionava Meirelles de forma indireta quando estava contrariado com a política do BC, dessa vez agiu sem intermediários ou insinuações, pedindo à secretária que ligasse para a presidência do Banco Central.",
+          "prova": "O único registro achado de atrito de Lula com Meirelles, na versão de Meirelles contada no livro; nada sobre Mantega."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A159",
@@ -174,42 +203,42 @@
     {
       "id": "A161",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Não se achou anúncio de Flávio de reajuste do mínimo só pela inflação; o plano dele não fixa meta para o piso",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a frase diz que o adversário anunciou que não haverá aumento do salário mínimo acima da inflação. As fontes capturadas não registram esse anúncio. Na parte da reportagem do Imirante sobre Flávio Bolsonaro, questionado pela Globo sobre manter a vinculação das aposentadorias e benefícios previdenciários ao salário mínimo, o candidato não esclareceu se mantém a regra, e disse que não pretende fazer economia 'em cima dos aposentados'; o NSC Total diz que o plano dele não estabelece meta fixa de aumento para o piso. O que existe é o relato, em abril, de que a equipe econômica estudava separar o reajuste de aposentadorias e BPC do reajuste do mínimo, com só reposição da inflação para os benefícios (Correio Braziliense), e em 8 de outubro Flávio disse que não pretende desvincular os benefícios da política de valorização do mínimo (Agora RN). O estudo trata de benefícios, não do piso pago ao trabalhador da ativa. Não é FALSO porque o candidato não esclareceu, questionado pela Globo, se mantém a regra, e o estudo foi relatado; é INSUSTENTAVEL porque nenhuma fonte registra o anúncio atribuído a ele. Não achados: o plano de governo registrado no TSE, lido na íntegra, e as declarações do candidato sobre a regra do salário mínimo do trabalhador da ativa. 🔧 Até a revisão adversarial r6 (16/out/2026) o resumo e esta explicação diziam que o plano de Flávio não muda o cálculo do salário mínimo, com base numa frase do Imirante que está na parte da reportagem sobre o plano de Lula; ver checagens/revisao/correcoes-r6.md.",
+      "resumo": "Não foi achado anúncio de Flávio contra aumento real do mínimo; jornais relataram estudo da equipe sobre benefícios",
+      "explicacao": "A frase diz que o adversário está anunciando que não haverá aumento do salário mínimo acima da inflação. Esse anúncio não foi achado: o plano de governo não traz proposta específica para o reajuste do mínimo (IstoÉ), e as declarações públicas do candidato vão no sentido oposto: em 8 de outubro, perguntado se se comprometia a dar reajuste real aos aposentados, Flávio Bolsonaro disse que sim (Correio, Salvador) e negou desvincular os benefícios da política de valorização do mínimo (Agora RN); em 11 de outubro, reiterou que manterá o reajuste do salário mínimo (Estadão Conteúdo, no Diário do Nordeste). Mas há registro que dá base parcial à fala: em abril, o Correio Braziliense relatou, com integrantes da pré-campanha, que a equipe econômica estudava 'mudanças na política de valorização do salário mínimo' para que aposentadorias e BPC passassem a ter só reposição inflacionária, num plano 'ainda não oficialmente apresentado'; em outubro, a Folha relatou o mesmo estudo, com o ganho real preservado para quem recebe o piso. 🔧 A rodada 2 tinha dado FALSO; a revisão adversarial da rodada 2 (16/out) rebaixou para INSUSTENTAVEL. FALSO exige que as fontes contradigam o essencial, e aqui elas não contradizem tudo: o anúncio não existe e o piso dos trabalhadores manteria o ganho real no estudo relatado, mas o estudo existe, mexe na valorização do mínimo para quem recebe benefício, e o que o contradiz são negativas e promessas de campanha, que não são registro de que o estudo não houve. É a mesma régua da A029, em que relato de bastidor negado pelo partido também não fechou FALSO. O que faltou: anúncio do candidato ou da campanha sobre o reajuste do mínimo.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "plano de governo registrado e declarações até 08/10/2026",
-      "ressalva": "Houve relato de estudo da equipe para corrigir só pela inflação aposentadorias e BPC, não o mínimo",
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "O Correio Braziliense relata estudo da equipe econômica para separar o reajuste dos benefícios do reajuste do mínimo; o candidato nega a desvinculação em público (Agora RN).",
+      "data_de_referencia": "relato de abril de 2026 sobre o estudo da equipe e declarações do candidato de 8 e 11 de outubro de 2026",
+      "ressalva": "Segundo jornais, a equipe estudou corrigir aposentadorias e BPC só pela inflação, não o piso; o candidato nega",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Correio Braziliense (abril) e a Folha (relatada pelo Correio, de Salvador, e pela IstoÉ, em outubro) descrevem um estudo da equipe econômica que mexe na política de valorização do salário mínimo para separar dela os benefícios; o candidato e a campanha negam que isso seja proposta.",
       "revisao_humana": null,
       "fontes": [
         {
           "nivel": "N4",
-          "instituicao": "Imirante",
-          "titulo": "Salário mínimo e aposentadoria: veja as propostas dos candidatos à Presidência (19/09/2026)",
-          "url": "https://m.imirante.com/noticias/brasil/2026/09/19/ipolitica-eleicoes-2026-propostas-dos-presidenciaveis-ao-salario",
+          "instituicao": "Correio (Salvador)",
+          "titulo": "Flávio Bolsonaro avalia limitar reajuste de aposentadorias e BPC, diz jornal (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/brasil/flavio-bolsonaro-avalia-limitar-reajuste-de-aposentadorias-e-bpc-diz-jornal-1026",
           "consultada_em": "2026-10-16",
-          "trecho": "Flávio Bolsonaro O candidato do PL propõe digitalizar processos da Previdência e adotar uma gestão profissional, sem interferência de entidades sindicais. [...] Questionado pela Globo sobre a manutenção da vinculação das aposentadorias e benefícios previdenciários ao salário mínimo, o candidato não esclareceu se pretende manter a regra. Flávio afirmou, porém, que não pretende fazer economia “em cima dos aposentados”.",
-          "prova": "Na parte sobre Flávio: a pergunta sobre a vinculação ao mínimo ficou sem resposta, e não há anúncio de reajuste só pela inflação."
+          "trecho": "Se a alteração nos benefícios fosse adotada, um aumento do salário mínimo acima da inflação não seria integralmente repassado aos aposentados e beneficiários do BPC. Os pagamentos poderiam ser reajustados somente pelo Índice Nacional de Preços ao Consumidor (INPC), enquanto trabalhadores que recebem o piso teriam também o ganho real. [...] Perguntado diretamente se ele se comprometia a dar reajuste real aos aposentados, como é hoje, ele foi categórico ao dizer que \"sim\", se comprometia.",
+          "prova": "O estudo relatado preservava o ganho real do piso, e o candidato se comprometeu com reajuste real a aposentados."
         },
         {
           "nivel": "N4",
-          "instituicao": "NSC Total",
-          "titulo": "Os planos de Lula e Flávio Bolsonaro para o salário mínimo no Brasil",
-          "url": "https://www.nsctotal.com.br/politica/salario-minimo-propostas-lula-flavio-bolsonaro-eleicoes-2026",
+          "instituicao": "Diário do Nordeste (Estadão Conteúdo)",
+          "titulo": "Flávio repete que manterá reajuste do salário mínimo e Bolsa Família caso eleito (11/10/2026)",
+          "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-repete-que-mantera-reajuste-do-salario-minimo-e-bolsa-familia-caso-eleito-1.3797978",
           "consultada_em": "2026-10-16",
-          "trecho": "a candidatura de oposição tem como prioridade a diminuição do custo de vida e dos custos que impactam o trabalhador formal, sem estabelecer, por enquanto, uma meta fixa de aumento nominal para o piso.",
-          "prova": "Outra leitura do plano: sem meta para o piso, o que não é o mesmo que anunciar reajuste só pela inflação."
+          "trecho": "O candidato da oposição à Presidência da República, Flávio Bolsonaro (PL), reiterou neste domingo (11) que manterá o reajuste do salário mínimo e o Bolsa Família , em uma eventual eleição. \"Ninguém vai tocar em programas sociais\", disse ele",
+          "prova": "A declaração pública mais recente do candidato sobre o mínimo, quatro dias antes da sabatina, vai no sentido contrário."
         },
         {
           "nivel": "N4",
-          "instituicao": "Correio Braziliense",
-          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (abr/2026)",
-          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "instituicao": "IstoÉ",
+          "titulo": "INSS: entenda como Flávio Bolsonaro pode mudar reajuste das aposentadorias (08/10/2026)",
+          "url": "https://istoe.com.br/flavio-bolsonaro-reajuste-aposentadorias-inss",
           "consultada_em": "2026-10-16",
-          "trecho": "Outra frente envolve mudanças na política de valorização do salário mínimo. A ideia é separar os reajustes concedidos aos trabalhadores da ativa daqueles aplicados a benefícios previdenciários e assistenciais, como aposentadorias do INSS e o Benefício de Prestação Continuada (BPC), que passariam a ter apenas reposição inflacionária.",
-          "prova": "O estudo relatado: só reposição da inflação para benefícios, não para o mínimo do trabalhador da ativa."
+          "trecho": "Flávio Bolsonaro, entretanto, nega que pretenda realizar essa mudança. Seu programa de governo não apresenta uma proposta específica para o reajuste do salário mínimo.",
+          "prova": "O plano de governo não anuncia reajuste do mínimo só pela inflação, e o candidato nega a mudança estudada."
         },
         {
           "nivel": "N4",
@@ -219,8 +248,18 @@
           "consultada_em": "2026-10-16",
           "trecho": "Flávio negou que seu eventual governo pretenda desvincular os benefícios da política de valorização do salário mínimo.",
           "prova": "A declaração pública do candidato vai no sentido oposto ao anúncio atribuído a ele."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A equipe econômica do pré-candidato à Presidência Flávio Bolsonaro (PL) estuda um pacote de ajuste fiscal que prevê a correção de aposentadorias, além de despesas com saúde e educação, apenas pela inflação. [...] O plano ainda não foi oficialmente apresentado. [...] Outra frente envolve mudanças na política de valorização do salário mínimo. A ideia é separar os reajustes concedidos aos trabalhadores da ativa daqueles aplicados a benefícios previdenciários e assistenciais, como aposentadorias do INSS e o Benefício de Prestação Continuada (BPC), que passariam a ter apenas reposição inflacionária.",
+          "prova": "O estudo da equipe mexe na valorização do mínimo para quem recebe benefício, sem ter sido anunciado: base parcial da fala, e o motivo de não ser FALSO."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A162",
@@ -266,28 +305,16 @@
     },
     {
       "id": "A163",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Na PIA do IBGE, energia elétrica foi 1,05% dos custos da indústria em 2023 e matérias-primas, 46%; sem segunda fonte",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: duas tabelas da Pesquisa Industrial Anual - Empresa, do IBGE, para 2023. Na das empresas com 30 ou mais pessoas ocupadas, a compra de energia elétrica usada na produção somou 64122538 mil reais, contra 2800506773 mil em matérias-primas, num total de custos e despesas de 6079347160 mil: cerca de 1,05% do total, contra 46% das matérias-primas. Na das empresas com 5 ou mais pessoas, energia elétrica e combustíveis juntos somam 157526425 mil reais, contra 2947406740 mil em matérias-primas. Pelo peso no custo, a energia não é o principal insumo da indústria, e o dado aponta contra a frase. Não achados: uma segunda fonte independente do IBGE (como a CNI) e o recorte por setor, onde há indústrias em que a energia pesa mais. As duas tabelas são da mesma pesquisa, então o veredito fica provisório; com a segunda fonte, pode virar FALSO ou IMPRECISO. 🔧 Na revisão de coerência entre lotes (16/out/2026) o resumo ganhou 'sem segunda fonte', como os cards provisórios do candidato com uma base oficial só (A037 a A039, A178), para o laranja não ser lido como dado que confirma ou que derruba a frase; ver checagens/revisao/correcoes-coerencia.md.",
+      "veredito": "IMPRECISO",
+      "resumo": "A CNI chama a energia de um dos principais insumos; no IBGE, ela foi 1,05% dos custos da indústria em 2023",
+      "explicacao": "O critério pedia a participação da energia elétrica nos custos da indústria (IBGE ou CNI) e se a fonte a trata como o maior item de custo ou como um dos principais. A CNI, na Sondagem Especial Indústria e Energia 2026, escreve que 'a energia elétrica é um dos principais insumos da indústria brasileira'. Mas, pelo peso no custo, ela não é o principal: na Pesquisa Industrial Anual do IBGE para 2023 (empresas com 30 ou mais pessoas), a compra de energia elétrica usada na produção foi 64122538 mil reais num total de custos e despesas de 6079347160 mil, cerca de 1,05%, contra 46% das matérias-primas; com empresas de 5 ou mais pessoas, energia elétrica e combustíveis somados ficam muito abaixo das matérias-primas. A pesquisa da CNI de 2024, com 1.001 empresas, dá o mesmo sentido: o peso médio da conta de energia no orçamento da empresa era de 10%, e de até 5% para 55% dos respondentes. A essência (a energia é um insumo central para a indústria) é sustentada pela própria CNI; o 'o principal' não é, por nenhuma das medidas de custo achadas. Pela régua do §2.2, isso é IMPRECISO, e não FALSO: a frase erra o grau, não o fato. Ressalva de método: a PIA soma matérias-primas de vários tipos e compara com um insumo só, e há setores eletrointensivos em que a energia pesa muito mais. ⚠️ Uma reportagem (Movimento Econômico) escreveu que a energia é 'o principal insumo para 79% das indústrias', mas o documento da CNI diz que 79% usam a energia elétrica como 'principal fonte de energia', que é outra coisa.",
       "numero_dito": null,
-      "numero_apurado": "compra de energia elétrica: 1,05% dos custos e despesas da indústria; matérias-primas: 46%",
-      "data_de_referencia": "2023 (Pesquisa Industrial Anual - Empresa)",
-      "ressalva": "A pesquisa mede o peso no custo, não a importância do insumo para a produção",
-      "confianca": "baixa",
+      "numero_apurado": "compra de energia elétrica: 1,05% dos custos e despesas da indústria em 2023; matérias-primas: 46%",
+      "data_de_referencia": "2023 (Pesquisa Industrial Anual - Empresa) e pesquisas da CNI de 2024 e 2026",
+      "ressalva": "Nas contas do IBGE de 2023, as matérias-primas somaram 46% dos custos; o peso da energia muda por setor",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
-      "derivacoes": [
-        {
-          "valor": "1,05%",
-          "de": "64122538 dividido por 6079347160",
-          "como": "compra de energia elétrica sobre o total de custos e despesas, em porcentagem"
-        },
-        {
-          "valor": "46%",
-          "de": "2800506773 dividido por 6079347160",
-          "como": "matérias-primas sobre o total de custos e despesas, em porcentagem arredondada"
-        }
-      ],
       "fontes": [
         {
           "nivel": "N1",
@@ -306,6 +333,37 @@
           "consultada_em": "2026-10-16",
           "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"6328260312\", \"D1N\": \"Brasil\", \"D2N\": \"Total de custos e despesas\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"667010337\", \"D1N\": \"Brasil\", \"D2N\": \"Gastos de pessoal\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"2947406740\", \"D1N\": \"Brasil\", \"D2N\": \"Consumo de matérias-primas, materiais auxiliares e componentes\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"157526425\", \"D1N\": \"Brasil\", \"D2N\": \"Compras de energia elétrica e consumo de combustíveis\", \"D3N\": \"2023\", \"D4N\": \"Total\" }",
           "prova": "Com empresas menores e energia somada a combustíveis, a ordem é a mesma: muito abaixo das matérias-primas."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Confederação Nacional da Indústria (CNI), Sondagem Especial Indústria e Energia 2026 (cópia do PDF publicada pela Agência iNFRA)",
+          "titulo": "Sondagem Especial Indústria e Energia 2026, número 103 (maio de 2026)",
+          "url": "https://agenciainfra.com/blog/wp-content/uploads/2026/07/Sondagem-CNI-Industria-e-Energia-2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A energia elétrica é um dos principais [...] insumos da indústria brasileira, razão [...] pela qual a sua disponibilidade e o seu [...] preço são determinantes fundamentais [...] 79% da indústria brasileira utiliza a energia elétrica como [...] principal fonte de energia.",
+          "prova": "A CNI trata a energia como um dos principais insumos, não como o principal; e os 79% são de fonte de energia."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (pesquisa Indústria e Matriz Energética, CNI, 2024)",
+          "titulo": "Para empresários, custo da energia subiu e impacto na produção é alto (01/07/2024)",
+          "url": "https://www.metropoles.com/negocios/industria/para-empresarios-custo-da-energia-subiu-e-impacto-na-producao-e-alto",
+          "consultada_em": "2026-10-16",
+          "trecho": "A média do impacto da conta de energia elétrica no orçamento da empresa é de 10%, de acordo com a pesquisa. Para 55% dos respondentes, o impacto é de até 5%. Já para 20%, o custo da energia aumenta o orçamento entre 6% e 10%. Para outros 6%, aumenta mais de 30%.",
+          "prova": "Medida independente do IBGE, pela declaração das empresas: a energia pesa em média 10% do orçamento, longe de ser o maior item."
+        }
+      ],
+      "revisao_ia": null,
+      "derivacoes": [
+        {
+          "valor": "1,05%",
+          "de": "64122538 dividido por 6079347160",
+          "como": "compra de energia elétrica sobre o total de custos e despesas, em porcentagem"
+        },
+        {
+          "valor": "46%",
+          "de": "2800506773 dividido por 6079347160",
+          "como": "matérias-primas sobre o total de custos e despesas, em porcentagem arredondada"
         }
       ]
     },
@@ -351,17 +409,44 @@
     },
     {
       "id": "A165",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Não se achou comparação do custo de gerar energia no Brasil com o de outros países",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a EPE diz que as usinas renováveis, base da matriz elétrica brasileira, têm menores custos de operação, e a ANEEL descreve os leilões de energia como meio de contratar pelo menor preço possível. Nenhum dos dois trechos compara o custo brasileiro com o de outros países. Não achados: preço médio dos leilões ou custo nivelado de geração no Brasil contra referências internacionais, e a separação entre custo de geração e tarifa final ao consumidor (a tarifa subiu no ano, ver A166). A ANEEL publica o resultado dos leilões em dados abertos, que não foram processados nesta rodada.",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Irena põe a eólica do Brasil entre as mais baratas do mundo em 2024; a conta de luz é que é cara",
+      "explicacao": "O critério pedia o custo de geração no Brasil contra referências internacionais e a diferença entre custo de geração e tarifa final. A Irena (Renewable Power Generation Costs in 2024) registra para a eólica em terra no Brasil custo nivelado de USD 0.030/kWh, o segundo menor entre os mercados destacados, ao lado da China (USD 0.029/kWh) e abaixo da média mundial de USD 0.034/kWh. O Centro de Liderança Pública, em nota de agosto de 2026, chama a geração brasileira de 'relativamente barata' e diz que os leilões de energia existente de 2025 tiveram preços médios entre R$ 205/MWh e R$ 213/MWh, 'patamar competitivo em termos internacionais'; a CNI diz que o país tem 'custos de produção de energia muito competitivos', e a EPE, que as renováveis da matriz têm menores custos de operação. A frase fala de produzir, e para a produção as fontes confirmam. O que é caro é a tarifa: segundo o CLP, a parcela da energia era cerca de 30,4% da conta de luz em 2025, e a conta residencial ajustada pelo poder de compra é maior que em cerca de 70 países; isso vai na ressalva. Também nem toda fonte é barata: na bioenergia, a Irena registra o Brasil com o custo mais alto entre os países destacados. Por isso a confiança é média.",
       "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": null,
-      "ressalva": null,
-      "confianca": "baixa",
+      "numero_apurado": "eólica em terra: USD 0.030/kWh no Brasil, contra média mundial de USD 0.034/kWh (2024)",
+      "data_de_referencia": "2024 (custos da Irena) e 2025 (leilões e composição da conta)",
+      "ressalva": "O custo baixo é o de gerar; a energia era cerca de 30,4% da conta de luz em 2025, segundo o CLP",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Agência Internacional de Energia Renovável (Irena)",
+          "titulo": "Renewable Power Generation Costs in 2024 (julho de 2025)",
+          "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Onshore wind continued reinforcing its cost advantage (Figure S3), with a global average LCOE of USD 0.034/kWh in 2024 – 53% lower than fossil fuel-based generation. China (USD 0.029/kWh) and Brazil (USD 0.030/kWh) recorded the lowest costs, benefitting from strong resource availability, domestic manufacturing and streamlined project execution. [...] Bioenergy’s LCOE ranged from USD 0.065/kWh in India to USD 0.118/kWh in Brazil.",
+          "prova": "Comparação internacional do custo de gerar: a eólica brasileira entre as mais baratas; a bioenergia, entre as mais caras."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Centro de Liderança Pública (CLP), nota técnica",
+          "titulo": "Energia cara freia a competitividade (03/08/2026)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/estudo-clp-Energia-cara-no-brasil-freia-a-competitividade-3ago2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Essa vantagem aparece também nos leilões e na energia contratada no atacado. Nos Leilões de Energia Existente A-1, A-2 e A-3 de 2025, por exemplo, a EPE registrou preços médios entre R$ 205/MWh e R$ 213/MWh, patamar competitivo em termos internacionais para contratos de fornecimento no atacado. O consumidor final, por outro lado, paga muito mais do que o custo da energia comprada. Na composição tarifária da conta de luz de 2025, a parcela “energia” respondia por cerca de 30,4% da conta",
+          "prova": "O preço de contratar a energia gerada é competitivo lá fora; a conta final é que pesa, e a geração é só uma parte dela."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (declaração do gerente de Energia da CNI)",
+          "titulo": "Para empresários, custo da energia subiu e impacto na produção é alto (01/07/2024)",
+          "url": "https://www.metropoles.com/negocios/industria/para-empresarios-custo-da-energia-subiu-e-impacto-na-producao-e-alto",
+          "consultada_em": "2026-10-16",
+          "trecho": "“A tarifa final paga pelas empresas e por toda a sociedade no Brasil é uma das mais caras no mundo, apesar de termos custos de produção de energia muito competitivos.",
+          "prova": "A indústria, que paga a conta, descreve o custo de produzir energia no país como competitivo."
+        },
         {
           "nivel": "N1",
           "instituicao": "Empresa de Pesquisa Energética (EPE)",
@@ -370,17 +455,9 @@
           "consultada_em": "2026-10-16",
           "trecho": "Aprendemos com o gráfico que a matriz elétrica brasileira é baseada em fontes renováveis de energia, ao contrário da matriz elétrica mundial. Isso é ótimo para o Brasil, pois além de possuírem menores custos de operação, as usinas que geram energia a partir de fontes renováveis em geral emitem bem menos gases de estufa.",
           "prova": "Indica custo de operação menor das renováveis, sem número e sem comparação entre países."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Agência Nacional de Energia Elétrica (ANEEL)",
-          "titulo": "Leilões",
-          "url": "https://www.gov.br/aneel/pt-br/assuntos/leiloes",
-          "consultada_em": "2026-10-16",
-          "trecho": "Os leilões de compra de energia elétrica possuem como objetivo: contratar energia pelo menor preço possível (modicidade tarifária);",
-          "prova": "Descreve o objetivo dos leilões, não o nível do custo brasileiro."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A166",
@@ -529,17 +606,35 @@
     },
     {
       "id": "A169",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "A Eletrobras foi desestatizada por lei, mas não se achou a fatia privada da geração, transmissão e distribuição",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a Lei 14.182, de 12 de julho de 2021, que desestatizou a Eletrobras por aumento de capital com renúncia da União à subscrição, e a descrição da ANEEL de que compra de energia e transmissão são contratadas por leilão entre concessionárias, permissionárias e autorizadas. Não achados: a participação de empresas privadas em cada segmento, que a ANEEL publica em dados abertos (agentes de geração, com o percentual de cada sócio em cada usina) e que não foi processada nesta rodada, e como a Eletrobras é classificada depois da desestatização. Sem essa participação, 'a grande parte' não fica sustentada nem desmentida.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Empresas privadas já tinham 60% da geração e 71% da distribuição em 2017, e a Eletrobras deixou de ser estatal",
+      "explicacao": "A frase diz que a maior parte da energia brasileira é privada hoje. O dado que resolve é a fatia de empresas privadas na geração, na transmissão e na distribuição. O levantamento da Thymos Energia publicado pela Folha em 30/09/2017 dava à iniciativa privada 60% da capacidade instalada de geração, 39% da transmissão e 71% da distribuição, e dizia que, dos 40% da geração ainda com empresas públicas, 35% eram da Eletrobras. Depois disso a Eletrobras foi desestatizada pela Lei 14.182, de 2021, por aumento de capital com renúncia da União, e o Grupo de Estudos do Setor Elétrico da UFRJ (GESEL) descreve a empresa como corporação privada sem bloco de controle, em que nenhum acionista vota com mais de 10%, com 23% da capacidade instalada do país e 40% da extensão das linhas de transmissão. O Estadão de 2018 confirma, por outra apuração, o encolhimento da fatia estatal na geração (a Eletrobras caiu de 36% para 31% da capacidade entre 2011 e 2018). Na geração e na distribuição, portanto, a maior parte já era privada antes da desestatização, e a desestatização só ampliou essa fatia. Na transmissão o dado de 2017 era 39% privado; com a Eletrobras privada, a soma provavelmente passa da metade, mas as fontes medem coisas diferentes (capacidade contra extensão de linha) e a soma não foi feita. Não foi achado número de 2025 ou 2026 com a divisão por controle acionário; a ANEEL publica os agentes em dados abertos, mas sem o total por controle. Por isso VERDADEIRO com ressalva sobre a data dos percentuais, e confiança media: a conclusão depende de juntar o dado de 2017 com a desestatização posterior.",
       "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "Lei 14.182 de 12/07/2021; participação privada por segmento não apurada",
-      "ressalva": null,
-      "confianca": "baixa",
+      "numero_apurado": "60% da geração, 39% da transmissão e 71% da distribuição privadas em 2017; depois, a Eletrobras, com 23% da capacidade instalada, deixou de ser estatal",
+      "data_de_referencia": "setembro de 2017 (fatias privadas) e desestatização da Eletrobras pela Lei 14.182, de 2021",
+      "ressalva": "Os percentuais são de 2017; depois disso a Eletrobras, com 23% da capacidade instalada, deixou de ser estatal",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Folha de S. Paulo (levantamento da Thymos Energia), arquivo do Instituto Acende Brasil",
+          "titulo": "Empresas privadas já detêm 60% da geração de energia do Brasil",
+          "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20170930_FSP.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Folha de S. Paulo - 30/09/2017 Empresas privadas já detêm 60% da geração de energia do Brasil A iniciativa privada já detém 60% da capacidade de geração de energia instalada no país, além de 39% da transmissão (que interliga o sistema) e 71% da distribuição (que entrega a energia ao consumidor final). O levantamento é da Thymos Energia. [...] Dos 40% ainda em poder de empresas públicas, 35% são da Eletrobras, que o governo estuda como privatizar.",
+          "prova": "Dá a fatia privada de cada segmento, já majoritária na geração e na distribuição antes da desestatização."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Grupo de Estudos do Setor Elétrico da UFRJ (GESEL), artigo de Nivalde de Castro, Roberto Brandão e Nelson Siffert",
+          "titulo": "Eletrobrás: de empresa estatal a corporation",
+          "url": "https://gesel.ie.ufrj.br/wp-content/uploads/2022/10/Castro_2022_10_03.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "O mecanismo adotado foi a perda do controle da União por meio do aumento de capital da companhia, transformando-a, a exemplo da Vale, em uma corporation sem bloco de controle definido, onde nenhum acionista detém uma participação com direito a voto maior do que 10% e são vedados acordos entre os shareholders. A Corporation Eletrobras, privada, é composta pelas subsidiárias controladas Furnas, Chesf e Eletronorte [...] com 42,6 GW de capacidade instalada, representando 23% do total do SEB (185 GW). As linhas de transmissão somam 67 mil km de extensão em um total de 170 mil km no Brasil (40%).",
+          "prova": "Mostra que a maior empresa estatal restante em 2017 passou ao controle privado, com o seu peso na geração e na transmissão."
+        },
         {
           "nivel": "N1",
           "instituicao": "Presidência da República (Planalto)",
@@ -550,15 +645,16 @@
           "prova": "A maior empresa do setor deixou de ser estatal; o trecho não dá a fatia privada do setor."
         },
         {
-          "nivel": "N1",
-          "instituicao": "Agência Nacional de Energia Elétrica (ANEEL), dados abertos",
-          "titulo": "Resultado de leilões",
-          "url": "https://dadosabertos.aneel.gov.br/dataset/resultado-de-leiloes",
+          "nivel": "N4",
+          "instituicao": "O Estado de S. Paulo, arquivo do Instituto Acende Brasil",
+          "titulo": "Eletrobrás perde relevância na geração de energia do País",
+          "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20180225_OEstadodeSPaulo_EletrobrasPerdeRelevanciaNaGeracaoDeEnergiaDoPais.pdf",
           "consultada_em": "2026-10-16",
-          "trecho": "Assim, a ANEEL organiza os leilões para contratar a compra de energia elétrica por parte das concessionárias, das permissionárias e das autorizadas do serviço público de distribuição de energia elétrica, bem como para conceder serviço público de transmissão",
-          "prova": "O setor opera por concessão e leilão; o trecho não diz quanto está com empresas privadas."
+          "trecho": "O Estado de S. Paulo - 25/02/2018 Eletrobrás perde relevância na geração de energia do País [...] De 2011 para cá, a participação da empresa na capacidade instalada do País caiu de 36% para 31%. Nesse período, a empresa contribuiu com apenas 15% do aumento da expansão do sistema elétrico, enquanto a iniciativa privada (e estatais estaduais) foi responsável por 85%.",
+          "prova": "Apuração independente da Folha que confirma a perda de peso estatal na geração antes da desestatização."
         }
-      ]
+      ],
+      "revisao_ia": null
     }
   ]
 }

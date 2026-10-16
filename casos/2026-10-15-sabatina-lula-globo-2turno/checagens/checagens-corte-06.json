@@ -1,0 +1,190 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/alegacoes-corte-06.json",
+  "checagens": [
+    {
+      "id": "A191",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lei de 2025 zera a conta até 80 kWh na tarifa social e isenta da CDE até 120 kWh outra faixa de renda",
+      "explicacao": "A Lei 15.235/2025 (conversão da MP 1.300/2025) fixou a Tarifa Social com desconto de 100% na parcela de consumo até 80 kWh por mês para a subclasse residencial baixa renda, e criou, a partir de 1º de janeiro de 2026, a isenção das quotas da CDE no consumo até 120 kWh para famílias do CadÚnico com renda por pessoa entre meio e um salário mínimo. As duas regras estavam em vigor em 15/10/2026. A fala acerta as duas faixas e o efeito (não paga até 80, paga menos até 120). A ressalva é sobre o público: os 120 kWh valem para outra faixa de renda, e o benefício é tirar a CDE da conta, não cobrar 'só a diferença' de quem passou de 80. Por isso VERDADEIRO com ressalva, e não IMPRECISO: a fala não diz que as duas regras são para as mesmas famílias. As duas fontes são documentos do mesmo processo legislativo (a lei e a exposição de motivos da MP).",
+      "numero_dito": "até 80 kWh não paga; até 120 kWh paga a diferença",
+      "numero_apurado": "conta zerada até 80 kWh na tarifa social; isenção só da CDE até 120 kWh para outra faixa de renda",
+      "data_de_referencia": "Lei 15.235 de 8/10/2025; regra dos 120 kWh desde 1º/1/2026",
+      "ressalva": "Até 80 kWh a conta zera na tarifa social; os 120 kWh valem para renda de meio a um salário mínimo por pessoa e isentam só a CDE",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.235, de 8 de outubro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15235.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nº 15.235, DE 8 DE OUTUBRO DE 2025 Conversão da Medida Provisória nº 1.300, de 2025 [...] A partir de 1º de janeiro de 2026, as famílias com renda mensal per capita superior a 1/2 (meio) e igual ou inferior a 1 (um) salário mínimo, desde que devidamente inscritas no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico), terão isenção, em uma única unidade consumidora, do pagamento das quotas anuais da CDE para consumo mensal de até 120 kWh (cento e vinte quilowatts-hora). [...] para a parcela do consumo de energia elétrica inferior ou igual a 80 kWh/mês (oitenta quilowatts-hora por mês), o desconto será de 100% (cem por cento); e",
+          "prova": "O texto da norma em vigor com as duas faixas e o público de cada uma."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério de Minas e Energia (exposição de motivos da MP 1.300/2025)",
+          "titulo": "Exposição de motivos da Medida Provisória nº 1.300, de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/Exm/Exm-1300-25.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "uma nova Tarifa Social de Energia Elétrica, que garantirá a gratuidade no consumo mensal de até 80 kWh para famílias beneficiárias, e (ii) o desconto social de energia elétrica, representado pela isenção do pagamento da Conta de Desenvolvimento Energético - CDE no consumo mensal de até 120 kWh, para famílias com renda per capita superior a 1/2 (meio) e igual ou inferior a 1 (um) salário mínimo.",
+          "prova": "Explica o desenho das duas faixas e confirma que a de 120 kWh é para outra faixa de renda."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "mantido",
+        "nota": "Melhor argumento contra o VERDADEIRO: 'quem consome até 120 paga apenas uma diferença' descreve uma regra que não existe para as mesmas famílias; os 120 kWh são de outra faixa de renda e isentam só a CDE, então seria IMPRECISO. Cai: a fala não diz que as duas faixas são das mesmas famílias, os dois números (80 e 120 kWh) e os efeitos (não paga até 80, paga menos até 120) estão na Lei 15.235 (N1) e na exposição de motivos da MP 1.300, e a ressalva diz o público e o alcance da isenção com o número. As duas fontes são do mesmo processo legislativo, o que a explicação declara; para a descrição de norma vigente, a própria lei é o registro do fato. Trechos encontrados nas capturas p13 a p15.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A192",
+      "veredito": "IMPRECISO",
+      "resumo": "O programa atende mais de 15 milhões de famílias, cerca de 50 milhões de pessoas, segundo o governo",
+      "explicacao": "A frase diz que o gás é distribuído para 17 milhões de pessoas. O Gás do Povo passou a atender quase 15 milhões de famílias em todos os municípios a partir de 23 de março de 2026 (Agência Brasil), e em outubro, mês da fala, a cobertura era de mais de 15 milhões de famílias (BP Money, 13/10/2026). O Ministério de Minas e Energia estima o alcance em cerca de 50 milhões de pessoas para mais de 15 milhões de famílias. A proporção bate com o dado do MDS para o Pará em setembro: 1.019.809 famílias e 3.198.702 pessoas, 3,1 pessoas por família. Em pessoas, que é a unidade da fala, 17 milhões é cerca de um terço do atendido. Se a fala quis dizer famílias, 17 milhões fica 13,3% acima de 15 milhões; mas o dado do mês é 'mais de 15 milhões' e a meta oficial era 15,5 milhões, e contra a meta o desvio fica no limite da margem de 10%. Por isso o veredito se apoia na leitura em pessoas, que é a unidade dita. A essência (o programa distribui gás a milhões de pessoas) está certa e o número não; por isso IMPRECISO, e não FALSO, já que o número dito está abaixo do real e não inverte o sentido. O painel do MDS com o número exato do mês está sob o defeso eleitoral; o número em pessoas é estimativa oficial, por isso confiança media.",
+      "numero_dito": "17 milhões de pessoas",
+      "numero_apurado": "mais de 15 milhões de famílias em outubro de 2026; cerca de 50 milhões de pessoas na estimativa do governo",
+      "data_de_referencia": "outubro de 2026 (famílias) e estimativa oficial do programa (pessoas)",
+      "ressalva": "Se a fala quis dizer famílias, 17 milhões fica acima dos mais de 15 milhões atendidos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "3,1",
+          "de": "3.198.702 dividido por 1.019.809",
+          "como": "pessoas por família atendida no Pará em setembro"
+        },
+        {
+          "valor": "13,3%",
+          "de": "17 milhões e 15 milhões",
+          "como": "desvio da fala, lida como famílias, sobre o total de famílias"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério de Minas e Energia",
+          "titulo": "Perguntas frequentes do Programa Gás do Povo",
+          "url": "https://www.gov.br/mme/pt-br/gas-do-povo/perguntas-frequentes-faq/FAQProgramaGasdoPovo.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "O programa vai oferecer gratuidade na recarga do botijão de gás de cozinha (GLP), de 13 kg em revendas credenciadas para mais de 15 milhões de famílias brasileiras, beneficiando cerca de 50 milhões de pessoas.",
+          "prova": "A estimativa oficial do alcance em pessoas, a unidade da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Gás do Povo de outubro começa a ser pago; recarga pode ser retirada até 9 de novembro",
+          "url": "https://bpmoney.com.br/?p=426253",
+          "consultada_em": "2026-10-16",
+          "trecho": "13/10/2026 08:47 [...] O Programa Gás do Povo iniciou, neste sábado (10), o pagamento das recargas de outubro de 2026. [...] Atualmente, o programa do governo federal atende mais de 15 milhões de famílias de baixa renda em todo o Brasil.",
+          "prova": "O alcance em famílias no mês da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "eixos (Agência Brasil)",
+          "titulo": "Gás do Povo chega a 15 milhões de famílias com nova expansão",
+          "url": "https://eixos.com.br/gas-natural/gas-do-povo-chega-a-15-milhoes-de-familias-com-nova-expansao/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Agência Brasil 23/03/2026 17:19 [...] O programa Gás do Povo passou a atender quase 15 milhões de famílias em todos os municípios do Brasil.",
+          "prova": "Fonte independente da anterior, com o patamar alcançado desde março de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (dados do MDS)",
+          "titulo": "Gás do Povo atende mais de 1 milhão de famílias no Pará em setembro",
+          "url": "https://www.oliberal.com/economia/gas-do-povo-atende-mais-de-1-milh-o-de-familias-no-para-em-setembro-1.1174286",
+          "consultada_em": "2026-10-16",
+          "trecho": "28 de setembro de 2026 às 15:27 [...] Segundo dados divulgados pelo Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome (MDS) , o benefício chega a 1.019.809 famílias no estado, alcançando 3.198.702 pessoas.",
+          "prova": "Mostra, com dado do MDS, quantas pessoas cada família atendida representa, o que confirma a ordem de grandeza em pessoas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (exposição de motivos da MP 1.313/2025)",
+          "titulo": "Exposição de motivos da Medida Provisória nº 1.313, de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/Exm/Exm-1313-25.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "ao contemplar 5,6 milhões de famílias em 2023, embora os objetivos energéticos da política pública não apresentem a mesma evolução. [...] com meta de alcançar 15,5 milhões de famílias a partir de março de 2026 e manter este patamar nos meses e anos seguintes",
+          "prova": "O único número oficial encontrado: meta, em famílias, não o atendimento do mês da fala."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a IMPRECISO. Revisão adversarial da rodada 2: Veredito IMPRECISO mantido; explicação corrigida. Na unidade dita (pessoas), 17 milhões contra cerca de 50 milhões (estimativa oficial, N1) passa muito da margem. Mas a explicação afirmava que, lida como famílias, o desvio também passa de 10%: o dado do mês é 'mais de 15 milhões', um piso, e contra a meta oficial de 15,5 milhões o desvio fica no limite da margem. A frase passou a dizer isso e que o veredito se apoia na leitura em pessoas. · Revisão anterior: Veredito provisório bem posto. Melhor argumento contra: a meta oficial é 15,5 milhões de famílias, e famílias são muito mais que 17 milhões de pessoas, então a fala estaria abaixo do número em pessoas e o card poderia ser IMPRECISO; ou, se a fala quis dizer famílias, 17 milhões ficaria 9,7% acima da meta e seria VERDADEIRO. Nenhum dos dois se sustenta: meta não é atendimento, e o atendimento do mês da fala não foi capturado (o painel do ministério não abre por endereço direto e o informe registra o defeso eleitoral até 25 de outubro). Conferidos os quatro trechos (exposição de motivos da MP 1.313, Lei 15.348 e as duas páginas do ministério) nas capturas p15 e r2. O resumo mostra a meta em famílias, e a explicação diz que a fala é em pessoas.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A193",
+      "veredito": "VERDADEIRO",
+      "resumo": "Na modalidade gratuidade, a lei de 2026 prevê botijão grátis na revenda, custeado por repasse da União",
+      "explicacao": "A Lei 15.348/2026 (conversão da MP 1.313/2025) criou a modalidade de gratuidade do Auxílio Gás do Povo: o botijão de 13 kg é entregue de graça na revenda autorizada pela ANP, e a modalidade é custeada por repasses da União à Caixa. A regra estava em vigor em 15/10/2026. A afirmação de que o governo paga o botijão confere para essa modalidade, por isso VERDADEIRO. A ressalva: quem ainda está na modalidade em dinheiro recebe um valor de no mínimo metade do preço médio do botijão, e a lei prevê a migração gradual para a gratuidade; não foi capturado dado de quantas famílias já estavam na gratuidade na data da fala. As duas fontes são documentos da mesma norma (a lei e a MP).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 15.348 de 13/2/2026, em vigor na data da fala",
+      "ressalva": "Na modalidade em dinheiro, que ainda existe, o auxílio é de no mínimo 50% do preço médio do botijão",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.348, de 13 de fevereiro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15348.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "4º-A. A modalidade de que trata o inciso II do caput do art. 1º-A desta Lei consiste na disponibilização gratuita de botijão de 13 kg (treze quilogramas) de GLP diretamente na revenda varejista autorizada pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) [...] 4º-E. A modalidade de gratuidade poderá ser custeada por meio de repasses diretos à Caixa Econômica Federal: I - pela União, de dotações orçamentárias consignadas ao Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+          "prova": "A regra em vigor: botijão grátis na revenda, pago com dinheiro da União."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.313, de 4 de setembro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1313.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "terão direito, bimestralmente, a um valor monetário correspondente a uma parcela de, no mínimo, 50% (cinquenta por cento) sobre o preço médio do botijão de GLP ao consumidor final, na forma estabelecida em regulamento.",
+          "prova": "A outra modalidade, em dinheiro, que cobre parte do preço, base da ressalva."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "mantido",
+        "nota": "Melhor argumento contra: 'nós pagamos o gás' vale inteiro só para quem já está na gratuidade; na modalidade em dinheiro, que ainda existe, o governo paga no mínimo metade do preço médio, e não se sabe quantas famílias já migraram. Cai: a afirmação é que, no programa, o governo paga o botijão, e a modalidade de gratuidade custeada pela União está na Lei 15.348 (N1) em vigor na data da fala; a outra modalidade entra na ressalva com o número (50%). As duas fontes são da mesma norma (lei e MP), o que a explicação declara; para descrever norma vigente, a norma é o registro do fato. Trechos encontrados na captura p15.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ]
+}

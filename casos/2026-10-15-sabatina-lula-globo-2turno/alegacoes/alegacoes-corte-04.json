@@ -1,0 +1,98 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-04",
+  "cobertura": {
+    "inicio_s": 2152.13,
+    "fim_s": 2164.6
+  },
+  "alegacoes": [
+    {
+      "id": "A145",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI",
+      "afirmacao": "Em 2003, o Brasil devia cerca de US$ 30 bilhões ao FMI",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "saldo devedor do Brasil com o FMI no início de 2003, nos dados do FMI ou do Banco Central",
+        "a moeda da dívida (dólares ou DES) e o valor no pico do acordo de 2002"
+      ]
+    },
+    {
+      "id": "A146",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI e não estava crescendo",
+      "citacao_card": "e não estava crescendo",
+      "afirmacao": "Quando Lula assumiu em 2003, a economia brasileira não estava crescendo",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "crescimento do PIB em 2002 e 2003, IBGE (Contas Nacionais)",
+        "se 'não estava crescendo' cabe a crescimento baixo porém positivo"
+      ]
+    },
+    {
+      "id": "A147",
+      "inicio_s": 2156.7,
+      "fim_s": 2159.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu deixei a presidência, o Brasil era a 7ª economia do mundo",
+      "afirmacao": "Quando Lula deixou a presidência, em 2010, o Brasil era a 7ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook) ou Banco Mundial, para 2010",
+        "se a posição muda conforme a medida e a revisão dos dados"
+      ]
+    },
+    {
+      "id": "A148",
+      "inicio_s": 2160.2,
+      "fim_s": 2162.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Fizemos uma reserva de 270 bilhões de dólares",
+      "afirmacao": "Os governos Lula 1 e 2 formaram reservas internacionais de cerca de US$ 270 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "série das reservas internacionais do Banco Central, dez/2002 e dez/2010",
+        "se o número se refere ao estoque final ou ao acréscimo no período"
+      ]
+    },
+    {
+      "id": "A149",
+      "inicio_s": 2163.0,
+      "fim_s": 2164.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "paguei os 30 bilhões do FMI",
+      "afirmacao": "O governo Lula quitou a dívida de cerca de US$ 30 bilhões com o FMI",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "data e valor da quitação antecipada da dívida com o FMI, notas do Banco Central e do FMI",
+        "quanto do total devido foi pago no governo Lula e quanto antes dele"
+      ]
+    }
+  ]
+}

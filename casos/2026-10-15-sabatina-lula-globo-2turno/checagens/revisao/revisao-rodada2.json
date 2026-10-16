@@ -1,0 +1,173 @@
+{
+  "revisor": "Claude (revisão adversarial por IA da rodada 2, passada separada)",
+  "A016": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o VERDADEIRO: a página oficial de bancadas na eleição só dá a federação (81), e 70 não aparece em fonte nenhuma. Não derruba: as duas matérias da Agência Câmara (N1) separam o PT com 68, e Investnews e Congresso em Foco batem; 70 contra 68 é desvio de cerca de 3%, abaixo da régua de 10%, e a ressalva põe o número exato no card. Frase conferida na transcrição; os cinco trechos estão nas capturas.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A017": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: Poder360, Congresso em Foco e O Povo contavam 8 senadores do PT na posse (Wellington Dias foi para o ministério). Não derruba: a fala é sobre a eleição ('fui eleito tendo'), e a Agência Senado registra 9 ao fim do 2º turno; o comunicado oficial da posse também diz nove. A divergência está escrita. Trechos N1 conferidos nas capturas r2p1.",
+    "verificacoes": ["1", "3", "4", "5"]
+  },
+  "A028": {
+    "decisao": "mantido",
+    "nota": "Tentei derrubar para FALSO pela reunião ministerial de julho de 2006 que orientou os ministros 'quando forem abordados nas ruas, na campanha'. Não basta: orientar conduta e dar argumentos não é pedir que façam campanha, e a consulta de três ministros à CGU mostra iniciativa deles. Nada sustenta nem contradiz a frase; INSUSTENTAVEL fica, com o resumo dizendo o que se achou.",
+    "verificacoes": ["1", "3", "6"]
+  },
+  "A029": {
+    "decisao": "mantido",
+    "nota": "Busquei (1 busca) registro de Lula pedindo pessoalmente apoio a partido em 2026 (Kassab, MDB, PDT); achei a convenção do PDT de julho, em que o partido decidiu apoiar e Lula discursou, mas nenhum pedido dele registrado. As negociações de fevereiro com o MDB são bastidor negado pelo partido, e as conversas do 2º turno com registro foram do presidente do PT. Sem contradição direta, INSUSTENTAVEL. Esta checagem é a régua usada para rebaixar a A161.",
+    "verificacoes": ["1", "3", "6"]
+  },
+  "A032": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: contando o encontro rápido na ONU e telefonemas anteriores, os contatos passam de três. Não derruba: Lula chamou o telefonema de reunião ('a última foi quase uma hora e meia por telefone'), e a agenda oficial (N1, três capturas r2p1 conferidas) traz exatamente três compromissos com esse rótulo; a ressalva avisa dos outros contatos. O tempo do telefonema ficou fora do card, corretamente.",
+    "verificacoes": ["1", "3", "4", "8"]
+  },
+  "A034": {
+    "decisao": "mantido",
+    "nota": "Tentei FALSO pela fala do ministro em 08/10 de que esperava proposta dos EUA e pela lista do MDIC sem nota até 15/10. Não fecha: no defeso o Itamaraty só distribui notas por e-mail (trecho N1 conferido), e contato técnico pode não ter nota. Sem registro da semana em nenhum sentido, INSUSTENTAVEL.",
+    "verificacoes": ["3", "5", "6"]
+  },
+  "A037": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: na base da Indonésia (UN Comtrade), de janeiro a maio as compras vindas do Brasil subiram 15,5%, o número dito. Não derruba: com junho a alta cai para 8,6%, e na base brasileira até setembro é 2,2% (exportação) e 2,4% (corrente); é o mesmo recorte usado para os outros países da fala, e escolher janeiro a maio seria escolher o recorte pelo resultado. Mesma direção, desvio muito acima de 10%: IMPRECISO, não FALSO. Derivações refeitas a partir dos trechos.",
+    "verificacoes": ["3", "4", "5", "6"]
+  },
+  "A038": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'comércio' lido como corrente de comércio dá 7,5%, bem abaixo de 16%. Não derruba: a leitura por exportação é a mesma aplicada a Indonésia, China, EUA e Vietnã, e duas bases independentes (Comex Stat, N1, e Eurostat, N2) dão 15,8% e 16,7%; a ressalva põe a corrente no card. Conferi as derivações contra os valores dos trechos.",
+    "verificacoes": ["3", "4", "6", "7"]
+  },
+  "A039": {
+    "decisao": "mantido",
+    "nota": "Tentei subir para VERDADEIRO (14,1% na exportação contra 13% dito, desvio de cerca de 8%) e descer para IMPRECISO (corrente de 19,4%). Nenhum fecha: só há uma base (Comex Stat), e a regra 1 da §3.1 pede duas fontes; o UN Comtrade não tinha 2026 do Vietnã. INSUSTENTAVEL com o resumo dizendo o que a base mostra e o que faltou é a régua da A126 aplicada ao candidato.",
+    "verificacoes": ["4", "6"]
+  },
+  "A063": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o VERDADEIRO, que veio de INSUSTENTAVEL: 'bastante' é frequência, e a contagem comparada com outros governos não existe em fonte achada. Não derruba: são três ações distintas do presidente no STF, com notícia do próprio tribunal (N1, ADI 7633, ADC 96 e ADPF 1236, trechos conferidos em r2p2), duas delas contra atos do Congresso, e o presidente do Senado chamou uma de judicializar a política; é a mesma régua da A053 e a usada para quantificador vago dos dois lados (A086, A153). A ressalva diz que não há comparação com governos anteriores.",
+    "verificacoes": ["1", "3", "6", "8"]
+  },
+  "A080": {
+    "decisao": "mantido",
+    "nota": "Considerei NAO_CHECAVEL (frase de efeito). Não cabe: pedido de vista é ato processual registrado, e o que falta é a contagem publicada; o painel Corte Aberta não tem painel de vistas. Nada contradiz, nada sustenta: INSUSTENTAVEL.",
+    "verificacoes": ["2", "3"]
+  },
+  "A085": {
+    "decisao": "mantido",
+    "nota": "Ponto fraco: a terceira conversa (Alvorada, 1º/09) vinha só do Diário do Centro do Mundo citando O Globo, que não foi capturado. Busquei (1 busca) o que contradiria a contagem e achei o contrário: o Jurinews registra, por conta própria, a reunião de Lula com Fachin no Alvorada em 1º de setembro, sobre a crise do STF (não capturado; fica como confirmação para a próxima rodada). Com as duas de 04/09 no A Tarde, são três. O conteúdo ('apure e julgue') não está em fonte, e a ressalva diz isso; o veredito é pelo número, que é o que se confere.",
+    "verificacoes": ["1", "3", "4", "8"]
+  },
+  "A086": {
+    "decisao": "mantido",
+    "nota": "Régua para a jornalista: 'muitos dos seus adversários' contra registros que vêm do principal adversário e da equipe dele, em duas ocasiões (08/09, no X, e 11/10, notícia-crime à Justiça Eleitoral), trechos conferidos em r2p2. O quantificador é o ponto fraco, mas é o mesmo tratamento de 'bastante' (A063) e 'muitos economistas' (A153): essência confirmada, quantificador na ressalva. Não é IMPRECISO porque não há número a medir contra a régua de 10%.",
+    "verificacoes": ["1", "3", "6", "8"]
+  },
+  "A092": {
+    "decisao": "mantido",
+    "nota": "Relato de conversa reservada do próprio Lula; a declaração anterior dele ao SBT (Andrei 'da minha total confiança') não confirma nem desmente a bronca. Sem registro independente e sem prova em contrário: INSUSTENTAVEL, não FALSO.",
+    "verificacoes": ["1", "3", "6"]
+  },
+  "A093": {
+    "decisao": "mantido",
+    "nota": "Só a própria fala registra o alerta. A explicação mostra que o ministro da época do evento (Lewandowski) também estava em Londres, o que torna incerto a quem foi o alerta, sem afirmar nada além do trecho da CNN Brasil. INSUSTENTAVEL.",
+    "verificacoes": ["3", "5", "7"]
+  },
+  "A099": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o VERDADEIRO: em 2010 o encontro foi anunciado como sobre o Teleton e Lula negou ter tratado do banco, e o pedido da Procuradoria é peça de investigação, com 'a pauta teria consistido' no condicional. Não derruba o essencial (Silvio procurou Lula quando o banco teve problema): o encontro de 22/09/2010 foi depois de o BC pedir esclarecimentos em 08/09 (trecho conferido em r2p2), e o próprio Lula contou o mesmo em 2024. A divergência e a ressalva estão escritas, e Silvio Santos nunca foi denunciado, o que a explicação diz; o card não sugere culpa. Ponto de atenção: o resumo diz 'para salvá-lo' sem o condicional da Procuradoria; a atribuição à Procuradoria mantém a leitura correta.",
+    "verificacoes": ["3", "4", "5", "7", "8"]
+  },
+  "A100": {
+    "decisao": "mantido",
+    "nota": "Nenhuma fonte registra Edemar Cid Ferreira procurando Lula; as duas apurações da crise (Folha e Poder360) não falam disso. Ausência de registro não prova que não houve: INSUSTENTAVEL.",
+    "verificacoes": ["3", "6"]
+  },
+  "A101": {
+    "decisao": "mantido",
+    "nota": "A fala não nomeia o banco; a leitura Digimais é a mais plausível e está declarada. Nada registra o banco ou a igreja procurando Lula. INSUSTENTAVEL.",
+    "verificacoes": ["1", "3", "6"]
+  },
+  "A103": {
+    "decisao": "mantido",
+    "nota": "Tentei FALSO pelo relato anterior de Lula (InfoMoney, abril de 2026), em que o pedido a Galípolo foi prestar contas à sociedade 'porque você não é policial e nem procurador'. Não é contradição direta: são pedidos diferentes, e o caso Master segue em apuração, o que pela regra de etica-e-risco §5 impede FALSO. Galípolo atribui a comunicação ao dever legal. INSUSTENTAVEL.",
+    "verificacoes": ["1", "3", "6"]
+  },
+  "A126": {
+    "decisao": "mantido",
+    "nota": "Régua para a jornalista: o 24,9% está no Estadão, com o pesquisador do FGV Ibre identificado, e todas as outras matérias repetem o Estadão no mesmo dia (uma cadeia só); o release oficial de setembro capturado não traz o número. Número sem N1 ou N2 é INSUSTENTAVEL, a mesma régua da A039 (Lula, Vietnã). Não procurei a divulgação do FGV: a busca da revisão é só para contradição.",
+    "verificacoes": ["3", "4", "6"]
+  },
+  "A153": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'muitos economistas [...] reclamam' está no presente, e o registro achado é uma carta de três economistas, de 2022. Não derruba: a carta foi conferida na íntegra (Bloomberg Línea, trecho em r2p3) e é exatamente a crítica descrita, feita por quem declarou voto em Lula; Poder360 é redação independente. O quantificador e a data vão na ressalva, como em A063 e A086. Nada contradiz.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A157": {
+    "decisao": "mantido",
+    "nota": "Considerei FALSO pelo BNDES (R$ 169,7 bi em 2025 contra média de R$ 350 bi por ano de 2011 a 2014, a preços de 2024). Não fecha: a frase fala da política de crédito inteira, e não há medida do conjunto comparada entre governos. O BNDES pesa contra e está no resumo; INSUSTENTAVEL.",
+    "verificacoes": ["3", "4", "6", "7"]
+  },
+  "A158": {
+    "decisao": "mantido",
+    "nota": "Metade da frase tem um relato (livro de João Borges sobre Meirelles, versão do próprio Meirelles), a outra metade (Mantega) nenhum, e o CPDOC registra a divergência como de Mantega com Meirelles. Nada desmente. INSUSTENTAVEL.",
+    "verificacoes": ["3", "4", "6"]
+  },
+  "A161": {
+    "decisao": "alterado",
+    "nota": "FALSO para INSUSTENTAVEL. O que contradizia a fala eram negativas e promessas do candidato (8 e 11/10), que não são registro de que não houve plano. A busca da revisão (2 buscas, 1 leitura) achou o Correio Braziliense de 22/04/2026: a equipe econômica estudava 'mudanças na política de valorização do salário mínimo' para que aposentadorias e BPC passassem a ter 'apenas reposição inflacionária', plano 'ainda não oficialmente apresentado'. Não há anúncio, e o piso dos trabalhadores manteria o ganho real, mas há base parcial; FALSO exige contradição direta do essencial. Régua da A029 (bastidor negado não fecha FALSO). Fonte nova capturada (-rv2) e trecho conferido; resumo e ressalva reescritos. Ver correcoes-rodada2.md.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A163": {
+    "decisao": "mantido",
+    "nota": "Régua para a jornalista. Tentei FALSO (pelo IBGE, energia é cerca de 1,05% dos custos contra 46% das matérias-primas: não é 'o principal') e VERDADEIRO (a CNI chama a energia de 'um dos principais insumos'). Fica IMPRECISO: a essência (insumo central) tem a CNI, o grau ('o principal') não se sustenta em nenhuma medida de custo; a explicação avisa que a PIA compara uma cesta com um insumo só e que há setores eletrointensivos. Derivações conferidas contra os valores da SIDRA.",
+    "verificacoes": ["3", "4", "6", "7"]
+  },
+  "A165": {
+    "decisao": "mantido",
+    "nota": "Régua para a jornalista. Busquei (1 busca) estudo que mostrasse geração brasileira cara em comparação internacional; achei o contrário (Irena, CLP) e o peso de encargos, térmicas e subsídios na tarifa, que a ressalva já separa. A frase fala de produzir; Irena (N2) e CLP confirmam para a produção, e a bioenergia cara está na explicação. VERDADEIRO com confiança média.",
+    "verificacoes": ["1", "3", "4", "8"]
+  },
+  "A169": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: os percentuais são de 2017 e não há número de 2025 ou 2026 por controle acionário. Não derruba: em 2017 a geração (60%) e a distribuição (71%) já eram majoritariamente privadas, e depois a Eletrobras, com 23% da capacidade, deixou de ser estatal (lei N1 e GESEL N2), o que só aumenta a fatia; a ressalva põe a data no card. 'Grande parte' não exige a transmissão.",
+    "verificacoes": ["3", "4", "5", "8"]
+  },
+  "A174": {
+    "decisao": "mantido",
+    "nota": "Régua para a jornalista. Busquei (1 busca) pesquisa recente com outra queixa no topo; o que achei põe de novo a espera em primeiro lugar (CFM/Datafolha, 36%, e um estudo de 2025 sobre atenção primária com demora entre os motivos). CFM/Datafolha (2018) e Ipec (2024) são independentes e confirmam o recorte (especialista, exame, cirurgia); a ressalva diz que não há pesquisa de 2025 ou 2026 com lista de queixas.",
+    "verificacoes": ["3", "4", "5", "6"]
+  },
+  "A178": {
+    "decisao": "mantido",
+    "nota": "Tentei derrubar o IMPRECISO pela soma de programas: se em 2015 houvesse Provab fora do Mais Médicos, o total de provimento passaria de 20 mil, como a A179 soma Mais Médicos e Médicos pelo Brasil em 2022. A busca (1) mostra o Provab absorvido pelo Mais Médicos em 2015 e o total de 18.240 em três fontes, sem segunda frente que somasse acima de 20 mil. 'Vinte e poucos mil' fica a mais de 10% de 18.240: IMPRECISO.",
+    "verificacoes": ["3", "4", "6"]
+  },
+  "A179": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fonte N1 da época (exposição de motivos da MP 1.165, março de 2023) dá 8.613 no Programa, e a primária ganha das secundárias (pergunta 4). Não derruba: as duas séries medem coisas diferentes (o informe à CIT soma Mais Médicos e Médicos pelo Brasil nos programas de provimento), e a busca (1) achou o 12.843 de dezembro de 2022 também na Agência Gov, canal oficial, sem nada que o contradiga. A divergência está escrita e a confiança é média. Escopo coerente com a A178 (total de provimento em cada data).",
+    "verificacoes": ["3", "4", "5", "6"]
+  },
+  "A180": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: 12 mil mais 16 mil dá os 28 mil da fala ('para ir para 28'), e mais de 16.340 entraram só em 2023, o que bate com 16 mil. Não derruba: lida como contratações, 16 mil fica pelo menos 30% abaixo das entradas registradas de 2023 e 2024; lida como saldo, o último dado com data (novembro de 2024) dá 13,9 mil, e o balanço de 2026 está fora do ar no defeso. Nas duas leituras com dado datado o número sai da margem, e a explicação diz isso sem afirmar o total de 2026.",
+    "verificacoes": ["1", "3", "5", "6"]
+  },
+  "A182": {
+    "decisao": "alterado",
+    "nota": "FALSO para INSUSTENTAVEL. O FALSO se apoiava numa conta de equipes montada com duas fontes de imprensa, sem série oficial, com confiança média e a leitura branda da alegação ('estava reduzido') em aberto. A busca da revisão (1 busca, 1 leitura) achou o Poder360 de 08/05/2023: a ministra disse que o programa ficou estagnado e que o governo anterior represou o credenciamento de equipes, e o secretário falou em mais de 3.500 equipes represadas e credenciamento 'paralisado'. É relato do governo que afirma e não confirma a fala sozinho, mas tira a contradição direta do essencial. Fonte nova capturada (-rv2) e trecho conferido; resumo, ressalva e explicação reescritos. Ver correcoes-rodada2.md.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A187": {
+    "decisao": "mantido",
+    "nota": "Tentei FALSO pelo ministro ('nosso foco não é atingir todas as instituições') e pela adesão individual da Lei 15.233. Não fecha: 'estamos fazendo' é em curso, e a fala de Padilha é sobre o Agora Tem Especialistas, não prova que não haja negociação com todas. INSUSTENTAVEL.",
+    "verificacoes": ["1", "3", "6"]
+  },
+  "A192": {
+    "decisao": "alterado",
+    "nota": "Veredito IMPRECISO mantido; explicação corrigida. Na unidade dita (pessoas), 17 milhões contra cerca de 50 milhões (estimativa oficial, N1) passa muito da margem. Mas a explicação afirmava que, lida como famílias, o desvio também passa de 10%: o dado do mês é 'mais de 15 milhões', um piso, e contra a meta oficial de 15,5 milhões o desvio fica no limite da margem. A frase passou a dizer isso e que o veredito se apoia na leitura em pessoas.",
+    "verificacoes": ["6", "7"]
+  }
+}

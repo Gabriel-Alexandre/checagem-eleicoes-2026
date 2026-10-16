@@ -505,14 +505,14 @@
     },
     {
       "id": "A153",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "A crítica de Fraga, Malan e Bacha, que votaram em Lula, só aparece no Poder360; a carta original não foi capturada",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: a pergunta atribui a economistas, inclusive apoiadores atuais ou antigos de Lula, a crítica de que ele opõe a preocupação com os fundamentos macroeconômicos à preocupação com os pobres. O registro encontrado: em novembro de 2022, depois de um discurso de Lula na COP27, Arminio Fraga, Pedro Malan e Edmar Bacha, que tinham declarado voto nele no 2º turno (com Persio Arida), publicaram carta dizendo que os pobres são os que mais sofrem se o governo perder credibilidade fiscal; Lula respondeu à carta no dia seguinte; em 2026, Arida e Fraga apoiaram outra pré-candidatura. As quatro reportagens capturadas são do mesmo veículo (Poder360), e a carta, publicada na Folha de S.Paulo, não foi capturada. Pela METODOLOGIA §3.1 (regra 2), fontes N3 ou N4 só bastam quando citam a primária e ela foi conferida; não foi. Nada contradiz a pergunta, por isso não é FALSO, e não foi achado levantamento que diga quantos economistas fazem essa crítica hoje. É a mesma régua aplicada neste caso a falas do candidato com a fonte primária faltando (A016) e a outro número da entrevistadora com uma só cadeia de imprensa (A126). Falta capturar a carta original e uma segunda redação. 🔧 Até a revisão adversarial r6 (16/out/2026) o veredito era VERDADEIRO com confiança média; ver checagens/revisao/correcoes-r6.md.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Fraga, Malan e Bacha, que votaram em Lula, criticaram em carta de 2022 a oposição entre o fiscal e o social",
+      "explicacao": "A pergunta atribui a economistas, inclusive apoiadores atuais ou antigos de Lula, a crítica de que ele opõe a preocupação com os fundamentos macroeconômicos à preocupação com os pobres. A carta de Arminio Fraga, Pedro Malan e Edmar Bacha, publicada na Folha de S.Paulo em 17/11/2022 depois de um discurso de Lula na COP27, foi conferida na íntegra, reproduzida com autorização pela Bloomberg Línea: 'A responsabilidade fiscal não é um obstáculo ao nobre anseio de responsabilidade social', 'O teto de gastos não tira dinheiro da educação, da saúde, da cultura, para pagar juros a banqueiros gananciosos' e 'Quando o governo perde o seu crédito, a economia se arrebenta. Quando isso acontece, quem perde mais? Os pobres!'. É exatamente a crítica descrita na pergunta. Os três tinham declarado voto em Lula no 2º turno de 2022 (com Persio Arida), o que a carta diz ('apoiamos a sua eleição') e o Poder360 registra; em 2026, Arida e Fraga apoiaram outra pré-candidatura, o que os torna apoiadores antigos. São duas redações independentes (Poder360 e Bloomberg Línea) e a primária conferida, o que cumpre a regra 2 da METODOLOGIA §3.1. O que não se sustenta com precisão é o quantificador: o registro achado é de três economistas, em 2022, e não há levantamento de quantos fazem essa crítica hoje; isso vai na ressalva, porque não muda a essência da frase. 🔧 Até a revisão adversarial r6 (16/out/2026) o veredito era VERDADEIRO; passou a INSUSTENTAVEL provisório por falta da carta original e de uma segunda redação, e voltou a VERDADEIRO na rodada 2 com as duas conferidas.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "outubro e novembro de 2022 (apoio e carta) e março de 2026",
-      "ressalva": "O registro achado é a carta de 2022; não há levantamento de quantos economistas fazem essa crítica hoje",
-      "confianca": "baixa",
+      "ressalva": "O registro achado é a carta de 2022 de três economistas; não há levantamento de quantos fazem a crítica hoje",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -551,8 +551,18 @@
           "consultada_em": "2026-10-16",
           "trecho": "O governador do Rio Grande do Sul obteve os endossos de Persio Arida e Armínio Fraga, que presidiram o Banco Central .",
           "prova": "Em 2026, dois deles apoiaram outro pré-candidato: são apoiadores antigos, como a pergunta descreve."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bloomberg Línea (íntegra da carta, publicada com autorização)",
+          "titulo": "Arminio, Bacha e Malan rebatem críticas de Lula ao mercado; leia carta (17/11/2022)",
+          "url": "https://www.bloomberglinea.com.br/2022/11/17/arminio-bacha-e-malan-rebatem-criticas-de-lula-ao-mercado-leia-carta/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na carta, divulgada originalmente pelo jornal Folha de S.Paulo na tarde desta quinta e publicada também pela Bloomberg Línea com autorização (leia abaixo a íntegra) [...] A responsabilidade fiscal não é um obstáculo ao nobre anseio de responsabilidade social, para já ou o quanto antes. [...] O teto de gastos não tira dinheiro da educação, da saúde, da cultura, para pagar juros a banqueiros gananciosos. Não é uma conspiração para desmontar a área social. [...] Como o senhor sabe, apoiamos a sua eleição e torcemos por um Brasil melhor e mais justo. [...] Quando o governo perde o seu crédito, a economia se arrebenta. Quando isso acontece, quem perde mais? Os pobres!",
+          "prova": "O texto da carta, conferido: a crítica à oposição entre responsabilidade fiscal e social, feita por quem apoiou Lula."
         }
-      ]
+      ],
+      "revisao_ia": null
     },
     {
       "id": "A154",

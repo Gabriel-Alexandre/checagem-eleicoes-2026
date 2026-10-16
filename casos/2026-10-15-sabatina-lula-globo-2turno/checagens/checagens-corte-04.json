@@ -1,0 +1,349 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/alegacoes-corte-04.json",
+  "checagens": [
+    {
+      "id": "A145",
+      "veredito": "IMPRECISO",
+      "resumo": "Na posse, o Brasil devia ao FMI cerca de US$ 20 bi; a dívida só passou de US$ 30 bi em 2003, com pico de US$ 33,7 bi",
+      "explicacao": "A posição financeira do Brasil no FMI em 31/12/2002, véspera da posse, registra saldo devedor de 15.319,64 milhões de Direitos Especiais de Saque (DES), cerca de US$ 20 bilhões pela equivalência que a própria carta de intenção de 2002 usa (DES 22.821 milhões para uns US$ 30 bilhões). Os US$ 30 bilhões eram o tamanho do acordo assinado em 2002, do qual só uma parte fora sacada até dezembro (4.564,22 milhões de DES); a reportagem de 2002 diz que US$ 6 bilhões ficavam para aquele ano e US$ 24 bilhões para 2003. Os saques continuaram em 2003, já no governo Lula (Agência Brasil, set/2003): a posição do FMI em 30/11/2003 registra saldo de 23.358,59 milhões de DES, com 17.199,64 milhões sacados do acordo de 2002, e a reportagem de 2005 dá o máximo da dívida, US$ 33,7 bilhões, em novembro de 2003. O valor da ordem de US$ 30 bilhões existe, mas como tamanho do acordo ou como saldo de 2003, não como dívida no dia da posse: número certo, período errado, IMPRECISO pela régua da METODOLOGIA §2.2. 🔧 Na revisão adversarial r6 (16/out/2026) o resumo passou de DES para dólar, para não comparar na tela 15,3 bilhões de DES com 30 bilhões de dólares, e entrou a posição do FMI de novembro de 2003; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": "US$ 30 bilhões",
+      "numero_apurado": "15,3 bilhões de DES em 31/12/2002 (cerca de US$ 20 bilhões); pico de US$ 33,7 bilhões em nov/2003",
+      "data_de_referencia": "31/12/2002 (saldo devedor na véspera da posse) e novembro de 2003 (pico)",
+      "ressalva": "Os US$ 30 bilhões eram o tamanho do acordo de 2002; a maior parte foi sacada já em 2003",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "15,3 bilhões de DES",
+          "de": "15,319.64",
+          "como": "arredondamento de DES milhões para DES bilhões"
+        },
+        {
+          "valor": "cerca de US$ 20 bilhões",
+          "de": "15,319.64 vezes 30 dividido por 22,821",
+          "como": "conversão aproximada de DES para dólar pela equivalência declarada na carta de intenção de 2002"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Financial Position in the Fund for Brazil as of December 31, 2002",
+          "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2002-12-31",
+          "consultada_em": "2026-10-16",
+          "trecho": "Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 15,319.64 504.58 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 4,564.22",
+          "prova": "Saldo devedor do Brasil com o FMI no fim de 2002, véspera da posse: 15.319,64 milhões de DES; do acordo de 2002, só 4.564,22 milhões tinham sido sacados."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Brazil: Letter of Intent, 2002 (pedido do acordo Stand-By)",
+          "url": "https://www.imf.org/external/np/loi/2002/bra/04/index.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "requests a Stand-By Arrangement (SBA) for a period of 15 months with the Fund, in the amount of SDR 22,821 million (equivalent to some US$30 billion,",
+          "prova": "Os US$ 30 bilhões são o tamanho do acordo de 2002 (DES 22.821 milhões), não o saldo devido."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Estado do Paraná, via Tribuna do Paraná",
+          "titulo": "BC anuncia pagamento da dívida ao FMI (23/12/2005)",
+          "url": "https://www.tribunapr.com.br/noticias/economia/bc-anuncia-pagamento-da-divida-ao-fmi/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil tem reduzido seu endividamento com o FMI desde novembro de 2003, quando os débitos junto ao organismo atingiram seu ponto máximo: US$ 33,7 bilhões.",
+          "prova": "O pico da dívida com o FMI foi em novembro de 2003, já no governo Lula: US$ 33,7 bilhões."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Globo, via Tribuna do Paraná",
+          "titulo": "Brasil faz acordo e pega US$ 30 bilhões do FMI (08/08/2002)",
+          "url": "https://www.tribunapr.com.br/noticias/economia/brasil-faz-acordo-e-pega-us-30-bilhoes-do-fmi/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Fundo Monetário Internacional (FMI) vai liberar US$ 30 bilhões para o Brasil. O acordo, que vinha sendo costurado há uma semana, terá duração de 15 meses e será submetido à diretoria executiva do fundo no início de setembro. Segundo nota oficial divulgada pelo FMI, apenas 20% dos recursos (US$ 6 bilhões) estarão disponíveis para serem usados neste ano. O restante, ou seja, US$ 24 bilhões, estará disponível em 2003.",
+          "prova": "Confirma que os US$ 30 bilhões eram o acordo, com a maior parte disponível só em 2003."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Brazil will withdraw another US$4 billion of IMF-agreement funds (05/09/2003)",
+          "url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2003-09-05/brazil-will-withdraw-another-us4-billion-imf-agreement-funds",
+          "consultada_em": "2026-10-16",
+          "trecho": "Minister of Finance, Antonion Palocci, then announced that the country would withdraw the US$4 billion it has a right to within the next few days. The amount is the next to last tranche of the US$30 billion agreement.",
+          "prova": "Mostra o governo Lula sacando parcelas do acordo em 2003, o que fez a dívida crescer depois da posse."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Financial Position in the Fund for Brazil as of November 30, 2003",
+          "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2003-11-30",
+          "consultada_em": "2026-10-16",
+          "trecho": "Brazil : Financial Position in the Fund as of November 30, 2003 [...] Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 23,358.59 769.36 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 17,199.64",
+          "prova": "Em 30/11/2003 o saldo devedor já era de 23.358,59 milhões de DES, e do acordo de 2002 tinham sido sacados 17.199,64 milhões: os saques cresceram a dívida depois da posse."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Melhor argumento contra o IMPRECISO: 'devia 30 bilhões' pode se referir ao acordo de 2002, que de fato era de uns US$ 30 bilhões, e então seria VERDADEIRO. Cai porque a frase é sobre a posse ('quando eu assumi'), e a posição do FMI em 31/12/2002 dá saldo de 15.319,64 milhões de DES (cerca de US$ 20 bilhões), com só 4.564,22 sacados do acordo; número certo, período errado. Veredito mantido. Alterado o resumo: punha '15,3 bilhões de DES' ao lado de 'US$ 30 bi', e lido em cinco segundos o espectador compara moedas diferentes; passou para 'cerca de US$ 20 bi', derivação já declarada. Entrou como fonte primária a posição do FMI em 30/11/2003 (23.358,59 milhões de DES, 17.199,64 sacados), capturada na revisão, porque o saldo de 2003 só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A149 (os 30 bilhões do FMI, ditos duas vezes). A145 mede a dívida na posse (cerca de US$ 20 bi) e diz que os 30 bi vieram em 2003 com saques do próprio governo; A149 mede o que foi quitado e aceita o pico. São afirmações diferentes, e as duas explicações citam uma à outra. Sem contradição na tela.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A146",
+      "veredito": "FALSO",
+      "resumo": "O PIB cresceu 3,05% em 2002, ano anterior à posse, e 1,14% em 2003, segundo a série do Banco Central",
+      "explicacao": "A taxa real de crescimento do PIB, na série do Banco Central (SGS 7326, que reproduz as Contas Nacionais do IBGE), foi de 3,05% em 2002 e 1,14% em 2003. O Banco Mundial registra os mesmos valores e o FMI os arredonda para 3,1% e 1,1%. A economia estava crescendo no ano anterior à posse, e a uma taxa maior que a de 2001 (1,39%) e que a de 2003. 'Não estava crescendo' é contradito pelo dado: não se trata de crescimento baixo que a frase arredondaria para zero, mas de uma alta de 3,05% no ano que antecede a posse. Por isso FALSO e não IMPRECISO. A confiança é média porque a frase não diz o período, e o veredito considera o ano anterior à posse e o primeiro ano do mandato, ambos com crescimento positivo.",
+      "numero_dito": "não estava crescendo",
+      "numero_apurado": "+3,05% em 2002 e +1,14% em 2003 (variação real do PIB)",
+      "data_de_referencia": "2002 e 2003 (variação real anual do PIB)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 7326, dado do IBGE)",
+          "titulo": "PIB, taxa de variação real no ano",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
+          "consultada_em": "2026-10-16",
+          "trecho": "{\"data\":\"01/01/2001\",\"valor\":\"1.39\"},{\"data\":\"01/01/2002\",\"valor\":\"3.05\"},{\"data\":\"01/01/2003\",\"valor\":\"1.14\"}",
+          "prova": "Crescimento positivo em 2002 e em 2003."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "Crescimento do PIB, % ao ano (NY.GDP.MKTP.KD.ZG), Brasil",
+          "url": "https://api.worldbank.org/v2/country/BRA/indicator/NY.GDP.MKTP.KD.ZG?date=2000:2004&format=json",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"BRA\",\"date\":\"2003\",\"value\":1.14082899824888 [...] \"countryiso3code\":\"BRA\",\"date\":\"2002\",\"value\":3.05346185909312",
+          "prova": "Fonte independente com as mesmas taxas positivas."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: crescimento real do PIB (NGDP_RPCH)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH/BRA",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"BRA\":{ [...] \"2001\":1.4,\"2002\":3.1,\"2003\":1.1",
+          "prova": "O FMI registra 3,1% em 2002 e 1,1% em 2003 para o Brasil."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "mantido",
+        "nota": "Melhor argumento contra o FALSO: 'não estava crescendo' é força de expressão para crescimento fraco, e caberia IMPRECISO; ou o dado de 2002 conhecido na época era menor que o revisado. Cai porque a série vigente na data da fala (SGS 7326, Banco Mundial e FMI, três fontes concordando) dá +3,05% em 2002 e +1,14% em 2003, positivos nos dois anos possíveis, e 3,05% é a maior taxa entre 2001 e 2003; o §5 manda usar o dado vigente na data da fala. É a mesma régua da sabatina de 27/ago, em que 'crescendo 1%' contra 3,0% em 2022 foi FALSO (A012). Frase conferida na transcrição (2152,4 a 2155,1 s), no contexto da posse; trechos encontrados nas capturas p12.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "id": "A147",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2010, último ano de Lula, o Brasil era a 7ª economia do mundo pelo PIB em dólar, segundo FMI e Banco Mundial",
+      "explicacao": "Pelo PIB anual em dólares correntes de 2010, o FMI (WEO de outubro de 2026) põe à frente do Brasil só Estados Unidos, China, Japão, Alemanha, França e Reino Unido, com o Brasil logo acima da Itália: 7º lugar. O Banco Mundial dá a mesma ordem. Em paridade de poder de compra o FMI também põe o Brasil em 7º em 2010. A posição citada confere.",
+      "numero_dito": "7ª economia do mundo",
+      "numero_apurado": "7ª, pelo PIB em US$ correntes de 2010",
+      "data_de_referencia": "2010 (PIB anual em dólares correntes)",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: PIB em dólares correntes (NGDPD), US$ bilhões",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDPD?periods=2002,2003,2010,2022,2025,2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"USA\":{ [...] \"2010\":15048.975 [...] \"CHN\":{ [...] \"2010\":6193.268 [...] \"JPN\":{ [...] \"2010\":5811.577 [...] \"DEU\":{ [...] \"2010\":3469.925 [...] \"FRA\":{ [...] \"2010\":2648.391 [...] \"GBR\":{ [...] \"2010\":2498.365 [...] \"BRA\":{ [...] \"2010\":2208.704 [...] \"ITA\":{ [...] \"2010\":2146.687",
+          "prova": "Seis países acima do Brasil em 2010 (6193.268 da China a 2498.365 do Reino Unido), e a Itália logo abaixo: 7º."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "PIB em US$ correntes (NY.GDP.MKTP.CD), todos os países, 2010",
+          "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?date=2010&format=json&per_page=400",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"USA\",\"date\":\"2010\",\"value\":15048971000000 [...] \"countryiso3code\":\"CHN\",\"date\":\"2010\",\"value\":6192564874453.29 [...] \"countryiso3code\":\"JPN\",\"date\":\"2010\",\"value\":5811578109447.07 [...] \"countryiso3code\":\"DEU\",\"date\":\"2010\",\"value\":3467093769666.67 [...] \"countryiso3code\":\"FRA\",\"date\":\"2010\",\"value\":2646230027988.34 [...] \"countryiso3code\":\"GBR\",\"date\":\"2010\",\"value\":2496740681057.14 [...] \"countryiso3code\":\"BRA\",\"date\":\"2010\",\"value\":2208837745100.55 [...] \"countryiso3code\":\"ITA\",\"date\":\"2010\",\"value\":2144936254535",
+          "prova": "Fonte independente com a mesma ordem: o Brasil em 7º, à frente da Itália."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "DataMapper: metadados dos indicadores (edição do WEO usada)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/indicators",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"NGDPD\":{\"label\":\"GDP, current prices\" [...] \"source\":\"World Economic Outlook (October 2026)\",\"unit\":\"Billions of U.S. dollars\",\"dataset\":\"WEO\",\"last-modified\":\"2026-10-08 14:43:33\"",
+          "prova": "Mostra que a série de PIB em dólar do FMI é a do World Economic Outlook de outubro de 2026, modificada em 08/10/2026, antes da entrevista."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "mantido",
+        "nota": "Melhor argumento contra: pela revisão de dados ou por outra medida a posição de 2010 seria outra, ou 'quando eu deixei' poderia ser 2011, quando o Brasil foi o 6º. Cai porque Lula saiu em 1º/01/2011, o último ano inteiro é 2010, e recontei nas capturas brutas: FMI e Banco Mundial dão 6 países à frente (EUA, China, Japão, Alemanha, França, Reino Unido) e a Itália logo atrás; em PPC também 7º. Duas fontes N2 independentes, edição do WEO de outubro de 2026 conferida nos metadados. Trechos encontrados. · Coerência entre lotes: Par A006, que foi alinhado a este.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "id": "A148",
+      "veredito": "VERDADEIRO",
+      "resumo": "As reservas foram de US$ 37,8 bi em dez/2002 para US$ 288,6 bi em dez/2010, alta de US$ 250,8 bi",
+      "explicacao": "A série mensal de reservas internacionais do Banco Central (SGS 3546, US$ milhões) marca 37.823 em dezembro de 2002 e 288.575 em dezembro de 2010. O Banco Mundial registra o mesmo estoque em 2010. Os US$ 270 bilhões ditos ficam entre o estoque final (US$ 288,6 bilhões, do qual o dito fica 6,4% abaixo) e o acréscimo do período (US$ 250,8 bilhões, do qual o dito fica 7,7% acima): pelas duas leituras o desvio, medido sobre o valor apurado, é menor que 10%, a régua do IMPRECISO na METODOLOGIA §2.2. 🔧 Até a revisão adversarial r6 os dois desvios estavam escritos como 6% e 7%, com bases diferentes; ver checagens/revisao/correcoes-r6.md. VERDADEIRO, com o valor apurado na ressalva.",
+      "numero_dito": "US$ 270 bilhões",
+      "numero_apurado": "US$ 288,6 bilhões de estoque em dez/2010 (alta de US$ 250,8 bilhões desde dez/2002)",
+      "data_de_referencia": "dezembro de 2002 e dezembro de 2010 (reservas internacionais, conceito liquidez)",
+      "ressalva": "O estoque era de US$ 288,6 bilhões em dez/2010; a alta desde dez/2002 foi de US$ 250,8 bilhões",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "US$ 37,8 bi",
+          "de": "37823",
+          "como": "arredondamento de US$ milhões para US$ bilhões"
+        },
+        {
+          "valor": "US$ 288,6 bilhões",
+          "de": "288575",
+          "como": "arredondamento de US$ milhões para US$ bilhões"
+        },
+        {
+          "valor": "US$ 250,8 bilhões",
+          "de": "288575 menos 37823",
+          "como": "subtração dos dois pontos da série, em US$ milhões, arredondada para bilhões"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 3546)",
+          "titulo": "Reservas internacionais, total, mensal (US$ milhões)",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/12/2002&dataFinal=31/12/2010",
+          "consultada_em": "2026-10-16",
+          "trecho": "[{\"data\":\"01/12/2002\",\"valor\":\"37823\"} [...] {\"data\":\"01/12/2010\",\"valor\":\"288575\"}",
+          "prova": "Os dois pontos da série: dezembro de 2002 e dezembro de 2010."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "Reservas totais incluindo ouro (FI.RES.TOTL.CD), Brasil",
+          "url": "https://api.worldbank.org/v2/country/BRA/indicator/FI.RES.TOTL.CD?date=2002:2010&format=json",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"BRA\",\"date\":\"2010\",\"value\":288574623536.621 [...] \"countryiso3code\":\"BRA\",\"date\":\"2002\",\"value\":37832146718.419",
+          "prova": "Fonte independente: o mesmo estoque de cerca de US$ 288,6 bilhões em 2010 e de US$ 37,8 bilhões em 2002."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Melhor argumento contra o VERDADEIRO: 'fizemos uma reserva de 270 bilhões' pode significar o estoque final, e 270 contra 288,6 é desvio que, medido na base errada, chega perto de 7%. Fica de pé: na base do §2.2 (sobre o apurado) o dito fica 6,4% abaixo do estoque de dez/2010 e 7,7% acima do acréscimo desde dez/2002, menos de 10% nas duas leituras, e a ressalva mostra o apurado, como o validador exige. SGS 3546 e Banco Mundial conferidos nas capturas, mesmo valor. Alterado só o texto da explicação, que escrevia os dois desvios como 6% e 7% em bases diferentes. Ver correcoes-r6.md. · Coerência entre lotes: Par A154 e A046: desvio menor que 10% pelas duas leituras e pelas duas bases.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "id": "A149",
+      "veredito": "VERDADEIRO",
+      "resumo": "O governo Lula quitou a dívida com o FMI em dezembro de 2005; ela tinha chegado a US$ 33,7 bi em nov/2003",
+      "explicacao": "O Relatório de Inflação do Banco Central de março de 2006 registra a antecipação de US$ 5 bilhões em julho de 2005 e, em dezembro, a quitação antecipada de US$ 15,5 bilhões, 'relativa ao restante da dívida com o FMI', com pagamentos de US$ 23,3 bilhões ao Fundo em 2005. A reportagem de dezembro de 2005 diz que o pagamento quitava todas as dívidas remanescentes e que o saldo tinha chegado ao máximo de US$ 33,7 bilhões em novembro de 2003. A quitação no governo Lula confere. Não há um número único para 'a dívida paga': os US$ 30 bilhões citados ficam entre o pago em 2005 (US$ 23,3 bilhões) e o pico do saldo (US$ 33,7 bilhões, pela reportagem). A posição do próprio FMI em 30/11/2003 registra 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela equivalência de DES para dólar que a carta de intenção de 2002 usa (DES 22.821 milhões para uns US$ 30 bilhões), e o acordo de 2002, conhecido como o de US$ 30 bilhões, estava em grande parte sacado (17.199,64 de 22.821,12 milhões de DES). Por isso VERDADEIRO com ressalva e não IMPRECISO. Parte do que foi pago tinha sido sacada pelo próprio governo Lula em 2003 (ver A145). 🔧 Na revisão adversarial r6 (16/out/2026) entrou a posição do FMI de novembro de 2003 como fonte primária do saldo no pico, que antes só tinha a reportagem; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": "US$ 30 bilhões",
+      "numero_apurado": "US$ 33,7 bilhões no pico (nov/2003), quitados até dez/2005; US$ 23,3 bilhões pagos em 2005",
+      "data_de_referencia": "novembro de 2003 (pico do saldo) a dezembro de 2005 (quitação)",
+      "ressalva": "A dívida chegou a US$ 33,7 bilhões em nov/2003, já com saques do próprio governo, e foi quitada em dez/2005",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Relatório de Inflação, março de 2006, boxe Evolução dos Indicadores de Sustentabilidade Externa",
+          "url": "https://www.bcb.gov.br/htms/relinf/port/2006/03/ri200603b6p.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 2005, o governo federal anunciou a antecipação do pagamento da linha Supplemental Reserve Facility (SRF) ao Fundo Monetário Internacional (FMI), no valor de US$5 bilhões, efetuado em julho, e, em dezembro, foi realizada a quitação antecipada de US$15,5 bilhões, [...] relativa ao restante da dívida com o FMI. [...] não obstante a quitação antecipada da dívida com o FMI, que resultou em pagamentos de US$23,3 bilhões em 2005,",
+          "prova": "A quitação do restante da dívida em dezembro de 2005 e o total pago ao FMI naquele ano."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Estado do Paraná, via Tribuna do Paraná",
+          "titulo": "BC anuncia pagamento da dívida ao FMI (23/12/2005)",
+          "url": "https://www.tribunapr.com.br/noticias/economia/bc-anuncia-pagamento-da-divida-ao-fmi/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil tem reduzido seu endividamento com o FMI desde novembro de 2003, quando os débitos junto ao organismo atingiram seu ponto máximo: US$ 33,7 bilhões.",
+          "prova": "O pagamento quitou todas as dívidas remanescentes; o saldo tinha chegado a US$ 33,7 bilhões em novembro de 2003."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil, via Congresso em Foco",
+          "titulo": "Lula fala à nação esta noite sobre FMI (16/01/2006)",
+          "url": "https://www.congressoemfoco.com.br/noticia/102766/lula-fala-a-nacao-esta-noite-sobre-fmi",
+          "consultada_em": "2026-10-16",
+          "trecho": "No dia 27 de dezembro, o governo brasileiro antecipou o pagamento da dívida com o FMI no valor de US$ 15,5 bilhões.",
+          "prova": "Data e valor da quitação final, em fonte independente da reportagem paranaense."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Financial Position in the Fund for Brazil as of November 30, 2003",
+          "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2003-11-30",
+          "consultada_em": "2026-10-16",
+          "trecho": "Brazil : Financial Position in the Fund as of November 30, 2003 [...] Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 23,358.59 769.36 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 17,199.64",
+          "prova": "O saldo no pico, na fonte primária: 23.358,59 milhões de DES em 30/11/2003, cerca de US$ 30,7 bilhões pela equivalência da carta de intenção de 2002."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "cerca de US$ 30,7 bilhões",
+          "de": "23,358.59 vezes 30 dividido por 22,821.12",
+          "como": "conversão aproximada de DES para dólar pela equivalência declarada na carta de intenção de 2002"
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
+        "data": "2026-10-16",
+        "decisao": "alterado",
+        "nota": "Melhor argumento contra o VERDADEIRO: a dívida quitada chegou a US$ 33,7 bilhões, 11% acima dos 30 ditos, e pela régua aplicada a A154 isso seria IMPRECISO. Cai porque não há um número único para 'a dívida paga': o pico de 33,7 é saldo em dólar a câmbio de 2003, os pagamentos de 2005 somam 23,3, e a posição primária do FMI em 30/11/2003, capturada na revisão, dá 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela mesma equivalência que a carta de intenção de 2002 usa, com o acordo 'de 30 bilhões' em grande parte sacado (17.199,64 de 22.821,12). A quitação em dezembro de 2005 confere no Relatório de Inflação do BC (N1). Alterado: entrou essa fonte N2 com a derivação declarada, porque o pico só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A145: ver nota de A145.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      }
+    }
+  ]
+}

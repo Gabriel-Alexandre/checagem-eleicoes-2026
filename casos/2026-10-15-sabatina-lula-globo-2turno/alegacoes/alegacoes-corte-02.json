@@ -1,0 +1,93 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-02",
+  "cobertura": {
+    "inicio_s": 481.29,
+    "fim_s": 494.51
+  },
+  "alegacoes": [
+    {
+      "id": "A036",
+      "inicio_s": 481.5,
+      "fim_s": 483.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós crescemos 20% com a China",
+      "afirmacao": "O comércio do Brasil com a China cresceu 20%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-China, Comex Stat (MDIC/Secex), mesmo período e mesma medida da alegação sobre os EUA"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 484.1,
+      "fim_s": 485.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "crescemos 15% com a Indonésia",
+      "afirmacao": "O comércio do Brasil com a Indonésia cresceu 15%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Indonésia, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 485.9,
+      "fim_s": 487.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "16% com a Alemanha",
+      "afirmacao": "O comércio do Brasil com a Alemanha cresceu 16%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Alemanha, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 487.8,
+      "fim_s": 489.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "13% com o Vietnã",
+      "afirmacao": "O comércio do Brasil com o Vietnã cresceu 13%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Vietnã, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A040",
+      "inicio_s": 489.7,
+      "fim_s": 494.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e crescemos em 50 países que nós visitamos, em média 10,5% a mais",
+      "afirmacao": "O comércio do Brasil com os 50 países visitados por Lula cresceu em média 10,5%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "lista de países visitados por Lula no mandato (Planalto, Itamaraty) e se são 50",
+        "variação do comércio com esses países no Comex Stat, se a média dá 10,5%, e de que tipo de média se trata"
+      ]
+    }
+  ]
+}

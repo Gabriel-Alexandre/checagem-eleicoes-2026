@@ -1,0 +1,1336 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "recorte": "sabatina-completa",
+  "gerado_em": "2026-10-16",
+  "formato": "sabatina",
+  "cobertura": {
+    "inicio_s": 0.0,
+    "fim_s": 2867.08
+  },
+  "geral": {
+    "alegacoes": 193,
+    "checaveis": 193,
+    "nao_checaveis": 0,
+    "por_veredito": {
+      "VERDADEIRO": 130,
+      "IMPRECISO": 30,
+      "INSUSTENTAVEL": 30,
+      "FALSO": 3,
+      "NAO_CHECAVEL": 0
+    },
+    "percentual_dos_checaveis": {
+      "VERDADEIRO": 67.4,
+      "IMPRECISO": 15.5,
+      "INSUSTENTAVEL": 15.5,
+      "FALSO": 1.6
+    },
+    "por_papel": {
+      "entrevistado": {
+        "alegacoes": 119,
+        "checaveis": 119,
+        "nao_checaveis": 0,
+        "por_veredito": {
+          "VERDADEIRO": 67,
+          "IMPRECISO": 24,
+          "INSUSTENTAVEL": 25,
+          "FALSO": 3,
+          "NAO_CHECAVEL": 0
+        },
+        "percentual_dos_checaveis": {
+          "VERDADEIRO": 56.3,
+          "IMPRECISO": 20.2,
+          "INSUSTENTAVEL": 21.0,
+          "FALSO": 2.5
+        }
+      },
+      "entrevistador": {
+        "alegacoes": 74,
+        "checaveis": 74,
+        "nao_checaveis": 0,
+        "por_veredito": {
+          "VERDADEIRO": 63,
+          "IMPRECISO": 6,
+          "INSUSTENTAVEL": 5,
+          "FALSO": 0,
+          "NAO_CHECAVEL": 0
+        },
+        "percentual_dos_checaveis": {
+          "VERDADEIRO": 85.1,
+          "IMPRECISO": 8.1,
+          "INSUSTENTAVEL": 6.8,
+          "FALSO": 0.0
+        }
+      }
+    },
+    "janela_s": 2867.1
+  },
+  "por_falante": [
+    {
+      "alegacoes": 0,
+      "checaveis": 0,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 0,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": null,
+        "IMPRECISO": null,
+        "INSUSTENTAVEL": null,
+        "FALSO": null
+      },
+      "nome": "Fora da sabatina",
+      "chave": "fora-da-sabatina",
+      "papel": "outro",
+      "cargo_ou_partido": "não se aplica",
+      "fala_s": 198.4,
+      "fala_hms": "00:03:18",
+      "alegacoes_por_minuto_de_fala": 0.0,
+      "assuntos": {},
+      "tipos": {}
+    },
+    {
+      "alegacoes": 74,
+      "checaveis": 74,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 63,
+        "IMPRECISO": 6,
+        "INSUSTENTAVEL": 5,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 85.1,
+        "IMPRECISO": 8.1,
+        "INSUSTENTAVEL": 6.8,
+        "FALSO": 0.0
+      },
+      "nome": "Renata Lo Prete",
+      "chave": "renata-lo-prete",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "fala_s": 852.1,
+      "fala_hms": "00:14:12",
+      "alegacoes_por_minuto_de_fala": 5.21,
+      "assuntos": {
+        "justica": 18,
+        "politica": 15,
+        "seguranca-publica": 8,
+        "energia": 6,
+        "saude": 6,
+        "contas-publicas": 5,
+        "relacoes-exteriores": 4,
+        "economia": 4,
+        "politica-monetaria": 3,
+        "programas-sociais": 2,
+        "meio-ambiente": 1,
+        "administracao-publica": 1,
+        "politica-economica": 1
+      },
+      "tipos": {
+        "evento_passado": 31,
+        "atribuicao_a_terceiro": 14,
+        "data_ou_prazo": 9,
+        "comparacao": 7,
+        "numero": 5,
+        "serie_historica": 4,
+        "ranking": 3,
+        "norma_vigente": 1
+      }
+    },
+    {
+      "alegacoes": 119,
+      "checaveis": 119,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 67,
+        "IMPRECISO": 24,
+        "INSUSTENTAVEL": 25,
+        "FALSO": 3,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 56.3,
+        "IMPRECISO": 20.2,
+        "INSUSTENTAVEL": 21.0,
+        "FALSO": 2.5
+      },
+      "nome": "Lula",
+      "chave": "lula",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PT, candidato à reeleição",
+      "fala_s": 1429.0,
+      "fala_hms": "00:23:49",
+      "alegacoes_por_minuto_de_fala": 5.0,
+      "assuntos": {
+        "economia": 22,
+        "politica": 20,
+        "justica": 19,
+        "contas-publicas": 10,
+        "saude": 10,
+        "relacoes-exteriores": 8,
+        "seguranca-publica": 6,
+        "programas-sociais": 5,
+        "energia": 5,
+        "administracao-publica": 4,
+        "economia-internacional": 4,
+        "politica-economica": 4,
+        "desenvolvimento-social": 2
+      },
+      "tipos": {
+        "evento_passado": 52,
+        "numero": 30,
+        "norma_vigente": 13,
+        "ranking": 6,
+        "atribuicao_a_terceiro": 5,
+        "valor_monetario": 5,
+        "comparacao": 4,
+        "data_ou_prazo": 2,
+        "serie_historica": 2
+      }
+    }
+  ],
+  "por_assunto": [
+    {
+      "alegacoes": 37,
+      "checaveis": 37,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 26,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 8,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 70.3,
+        "IMPRECISO": 8.1,
+        "INSUSTENTAVEL": 21.6,
+        "FALSO": 0.0
+      },
+      "assunto": "justica",
+      "por_falante": {
+        "Lula": 19,
+        "Renata Lo Prete": 18
+      }
+    },
+    {
+      "alegacoes": 35,
+      "checaveis": 35,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 22,
+        "IMPRECISO": 4,
+        "INSUSTENTAVEL": 9,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 62.9,
+        "IMPRECISO": 11.4,
+        "INSUSTENTAVEL": 25.7,
+        "FALSO": 0.0
+      },
+      "assunto": "politica",
+      "por_falante": {
+        "Lula": 20,
+        "Renata Lo Prete": 15
+      }
+    },
+    {
+      "alegacoes": 26,
+      "checaveis": 26,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 15,
+        "IMPRECISO": 7,
+        "INSUSTENTAVEL": 3,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 57.7,
+        "IMPRECISO": 26.9,
+        "INSUSTENTAVEL": 11.5,
+        "FALSO": 3.8
+      },
+      "assunto": "economia",
+      "por_falante": {
+        "Lula": 22,
+        "Renata Lo Prete": 4
+      }
+    },
+    {
+      "alegacoes": 16,
+      "checaveis": 16,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 4,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 56.2,
+        "IMPRECISO": 18.8,
+        "INSUSTENTAVEL": 25.0,
+        "FALSO": 0.0
+      },
+      "assunto": "saude",
+      "por_falante": {
+        "Lula": 10,
+        "Renata Lo Prete": 6
+      }
+    },
+    {
+      "alegacoes": 15,
+      "checaveis": 15,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 8,
+        "IMPRECISO": 5,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 53.3,
+        "IMPRECISO": 33.3,
+        "INSUSTENTAVEL": 6.7,
+        "FALSO": 6.7
+      },
+      "assunto": "contas-publicas",
+      "por_falante": {
+        "Lula": 10,
+        "Renata Lo Prete": 5
+      }
+    },
+    {
+      "alegacoes": 14,
+      "checaveis": 14,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 12,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 85.7,
+        "IMPRECISO": 14.3,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "seguranca-publica",
+      "por_falante": {
+        "Renata Lo Prete": 8,
+        "Lula": 6
+      }
+    },
+    {
+      "alegacoes": 12,
+      "checaveis": 12,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 75.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 16.7,
+        "FALSO": 8.3
+      },
+      "assunto": "relacoes-exteriores",
+      "por_falante": {
+        "Lula": 8,
+        "Renata Lo Prete": 4
+      }
+    },
+    {
+      "alegacoes": 11,
+      "checaveis": 11,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 81.8,
+        "IMPRECISO": 18.2,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "energia",
+      "por_falante": {
+        "Renata Lo Prete": 6,
+        "Lula": 5
+      }
+    },
+    {
+      "alegacoes": 7,
+      "checaveis": 7,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 6,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 85.7,
+        "IMPRECISO": 14.3,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "programas-sociais",
+      "por_falante": {
+        "Lula": 5,
+        "Renata Lo Prete": 2
+      }
+    },
+    {
+      "alegacoes": 5,
+      "checaveis": 5,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 4,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 80.0,
+        "IMPRECISO": 20.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "administracao-publica",
+      "por_falante": {
+        "Lula": 4,
+        "Renata Lo Prete": 1
+      }
+    },
+    {
+      "alegacoes": 5,
+      "checaveis": 5,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 2,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 3,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 40.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 60.0,
+        "FALSO": 0.0
+      },
+      "assunto": "politica-economica",
+      "por_falante": {
+        "Lula": 4,
+        "Renata Lo Prete": 1
+      }
+    },
+    {
+      "alegacoes": 4,
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 2,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 50.0,
+        "IMPRECISO": 50.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "economia-internacional",
+      "por_falante": {
+        "Lula": 4
+      }
+    },
+    {
+      "alegacoes": 3,
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 3,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 100.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "politica-monetaria",
+      "por_falante": {
+        "Renata Lo Prete": 3
+      }
+    },
+    {
+      "alegacoes": 2,
+      "checaveis": 2,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 2,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 100.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "desenvolvimento-social",
+      "por_falante": {
+        "Lula": 2
+      }
+    },
+    {
+      "alegacoes": 1,
+      "checaveis": 1,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 1,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 100.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "meio-ambiente",
+      "por_falante": {
+        "Renata Lo Prete": 1
+      }
+    }
+  ],
+  "por_bloco": [
+    {
+      "alegacoes": 12,
+      "checaveis": 12,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 8,
+        "IMPRECISO": 4,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 66.7,
+        "IMPRECISO": 33.3,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "id": "b01",
+      "titulo": "Responsabilidade pelo cenário da eleição",
+      "inicio_s": 50.04,
+      "fim_s": 213.16,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 4,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 80.0,
+            "IMPRECISO": 20.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 7,
+          "checaveis": 7,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 4,
+            "IMPRECISO": 3,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 57.1,
+            "IMPRECISO": 42.9,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 12,
+      "checaveis": 12,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 75.0,
+        "IMPRECISO": 16.7,
+        "INSUSTENTAVEL": 8.3,
+        "FALSO": 0.0
+      },
+      "id": "b02",
+      "titulo": "Congresso e governabilidade",
+      "inicio_s": 213.16,
+      "fim_s": 350.0,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 7,
+          "checaveis": 7,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 6,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 85.7,
+            "IMPRECISO": 14.3,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 3,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 60.0,
+            "IMPRECISO": 20.0,
+            "INSUSTENTAVEL": 20.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 18,
+      "checaveis": 18,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 6,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 50.0,
+        "IMPRECISO": 16.7,
+        "INSUSTENTAVEL": 33.3,
+        "FALSO": 0.0
+      },
+      "id": "b03",
+      "titulo": "Estados Unidos, Trump e tarifas",
+      "inicio_s": 350.0,
+      "fim_s": 521.96,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 3,
+          "checaveis": 3,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 2,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 66.7,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 33.3,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 15,
+          "checaveis": 15,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 7,
+            "IMPRECISO": 3,
+            "INSUSTENTAVEL": 5,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 46.7,
+            "IMPRECISO": 20.0,
+            "INSUSTENTAVEL": 33.3,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 19,
+      "checaveis": 19,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 16,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 84.2,
+        "IMPRECISO": 10.5,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 5.3
+      },
+      "id": "b04",
+      "titulo": "Segurança pública: facções, PEC e maioridade penal",
+      "inicio_s": 521.96,
+      "fim_s": 876.4,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 11,
+          "checaveis": 11,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 10,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 90.9,
+            "IMPRECISO": 9.1,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 8,
+          "checaveis": 8,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 6,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 75.0,
+            "IMPRECISO": 12.5,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 12.5
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 54,
+      "checaveis": 54,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 36,
+        "IMPRECISO": 4,
+        "INSUSTENTAVEL": 14,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 66.7,
+        "IMPRECISO": 7.4,
+        "INSUSTENTAVEL": 25.9,
+        "FALSO": 0.0
+      },
+      "id": "b05",
+      "titulo": "Supremo, caso Master e Polícia Federal",
+      "inicio_s": 876.4,
+      "fim_s": 1600.48,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 21,
+          "checaveis": 21,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 19,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 2,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 90.5,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 9.5,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 33,
+          "checaveis": 33,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 17,
+            "IMPRECISO": 4,
+            "INSUSTENTAVEL": 12,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 51.5,
+            "IMPRECISO": 12.1,
+            "INSUSTENTAVEL": 36.4,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 10,
+      "checaveis": 10,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 8,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 80.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 10.0,
+        "FALSO": 10.0
+      },
+      "id": "b06",
+      "titulo": "Bolsa Família e orçamento",
+      "inicio_s": 1600.48,
+      "fim_s": 1749.4,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 5,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 3,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 60.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 20.0,
+            "FALSO": 20.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 14,
+      "checaveis": 14,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 10,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 71.4,
+        "IMPRECISO": 21.4,
+        "INSUSTENTAVEL": 7.1,
+        "FALSO": 0.0
+      },
+      "id": "b07",
+      "titulo": "Endividamento das famílias",
+      "inicio_s": 1884.74,
+      "fim_s": 2082.5,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 4,
+          "checaveis": 4,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 3,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 75.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 25.0,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 10,
+          "checaveis": 10,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 7,
+            "IMPRECISO": 3,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 70.0,
+            "IMPRECISO": 30.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 23,
+      "checaveis": 23,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 14,
+        "IMPRECISO": 5,
+        "INSUSTENTAVEL": 3,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 60.9,
+        "IMPRECISO": 21.7,
+        "INSUSTENTAVEL": 13.0,
+        "FALSO": 4.3
+      },
+      "id": "b08",
+      "titulo": "Juros, Banco Central e dívida pública",
+      "inicio_s": 2082.5,
+      "fim_s": 2355.48,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 6,
+          "checaveis": 6,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 5,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 83.3,
+            "IMPRECISO": 16.7,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 17,
+          "checaveis": 17,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 9,
+            "IMPRECISO": 4,
+            "INSUSTENTAVEL": 3,
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 52.9,
+            "IMPRECISO": 23.5,
+            "INSUSTENTAVEL": 17.6,
+            "FALSO": 5.9
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 11,
+      "checaveis": 11,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 81.8,
+        "IMPRECISO": 18.2,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "id": "b09",
+      "titulo": "Energia elétrica",
+      "inicio_s": 2355.48,
+      "fim_s": 2484.6,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 6,
+          "checaveis": 6,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 4,
+            "IMPRECISO": 2,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 66.7,
+            "IMPRECISO": 33.3,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 5,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 16,
+      "checaveis": 16,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 4,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 56.2,
+        "IMPRECISO": 18.8,
+        "INSUSTENTAVEL": 25.0,
+        "FALSO": 0.0
+      },
+      "id": "b10",
+      "titulo": "Saúde e tempo de espera no SUS",
+      "inicio_s": 2484.6,
+      "fim_s": 2652.5,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 6,
+          "checaveis": 6,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 5,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 83.3,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 16.7,
+            "FALSO": 0.0
+          }
+        },
+        "Lula": {
+          "alegacoes": 10,
+          "checaveis": 10,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 4,
+            "IMPRECISO": 3,
+            "INSUSTENTAVEL": 3,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 40.0,
+            "IMPRECISO": 30.0,
+            "INSUSTENTAVEL": 30.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 4,
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 2,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 50.0,
+        "IMPRECISO": 50.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "id": "b11",
+      "titulo": "Considerações finais",
+      "inicio_s": 2652.5,
+      "fim_s": 2767.82,
+      "por_falante": {
+        "Lula": {
+          "alegacoes": 4,
+          "checaveis": 4,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 2,
+            "IMPRECISO": 2,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 50.0,
+            "IMPRECISO": 50.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "revisao_ia": {
+    "mantido": 109,
+    "alterado": 84
+  },
+  "confianca": {
+    "alta": 60,
+    "media": 132,
+    "baixa": 1
+  },
+  "fontes": {
+    "citacoes": 700,
+    "urls_distintas": 521,
+    "instituicoes": 264
+  },
+  "avisos": [],
+  "ressalvas": [
+    "A contagem é dado **deste** evento, com o denominador à vista. Ela não é nota nem placar, e não serve para dizer quem mente mais ou quem se saiu melhor.",
+    "Quem fala mais tempo, ou é perguntado sobre assunto com fonte pública melhor (economia tem série oficial; promessa e opinião não têm), tem mais alegações checáveis. Um percentual menor de `VERDADEIRO` pode vir só disso: leia o tempo de fala e o assunto antes de comparar.",
+    "`INSUSTENTAVEL` (SEM COMPROVAÇÃO) quer dizer que **a busca não achou fonte que sustente**, e não que alguém provou o contrário. É diferente de `FALSO`.",
+    "Alegação **não checável** (opinião, promessa, previsão) não entra nos percentuais, mas entra na contagem de alegações, porque o autor decide o que é fato pela metodologia, não pelo resultado."
+  ],
+  "para_roteiro": {
+    "N_ALEG": 193,
+    "N_CHEC": 193,
+    "N_NC": 0,
+    "N_V": 130,
+    "N_I": 30,
+    "N_S": 30,
+    "N_F": 3,
+    "DURACAO": "00:47:47",
+    "PALAVRAS": 7891,
+    "DURACAO_PECA": "00:42:32",
+    "PALAVRAS_PECA": 7359,
+    "N_PV": 67.4,
+    "N_PI": 15.5,
+    "N_PS": 15.5,
+    "N_PF": 1.6,
+    "P_ENTREVISTADO_ALEG": 119,
+    "P_ENTREVISTADO_CHEC": 119,
+    "P_ENTREVISTADO_V": 67,
+    "P_ENTREVISTADO_I": 24,
+    "P_ENTREVISTADO_S": 25,
+    "P_ENTREVISTADO_F": 3,
+    "P_ENTREVISTADO_NC": 0,
+    "P_ENTREVISTADOR_ALEG": 74,
+    "P_ENTREVISTADOR_CHEC": 74,
+    "P_ENTREVISTADOR_V": 63,
+    "P_ENTREVISTADOR_I": 6,
+    "P_ENTREVISTADOR_S": 5,
+    "P_ENTREVISTADOR_F": 0,
+    "P_ENTREVISTADOR_NC": 0,
+    "C1_NOME": "Lula",
+    "C1_PARTIDO": "PT, candidato à reeleição",
+    "C1_FALA": "00:23:49",
+    "C1_ALEG": 119,
+    "C1_CHEC": 119,
+    "C1_V": 67,
+    "C1_I": 24,
+    "C1_S": 25,
+    "C1_F": 3,
+    "C1_NC": 0,
+    "C1_PV": 56.3,
+    "C1_PI": 20.2,
+    "C1_PS": 21.0,
+    "C1_PF": 2.5,
+    "J1_NOME": "Renata Lo Prete",
+    "J1_FALA": "00:14:12",
+    "J1_ALEG": 74,
+    "J1_CHEC": 74,
+    "J1_V": 63,
+    "J1_I": 6,
+    "J1_S": 5,
+    "J1_F": 0,
+    "J1_NC": 0,
+    "B1_TITULO": "Responsabilidade pelo cenário da eleição",
+    "B1_ALEG": 12,
+    "B1_V": 8,
+    "B1_I": 4,
+    "B1_S": 0,
+    "B1_F": 0,
+    "B1_NC": 0,
+    "B2_TITULO": "Congresso e governabilidade",
+    "B2_ALEG": 12,
+    "B2_V": 9,
+    "B2_I": 2,
+    "B2_S": 1,
+    "B2_F": 0,
+    "B2_NC": 0,
+    "B3_TITULO": "Estados Unidos, Trump e tarifas",
+    "B3_ALEG": 18,
+    "B3_V": 9,
+    "B3_I": 3,
+    "B3_S": 6,
+    "B3_F": 0,
+    "B3_NC": 0,
+    "B4_TITULO": "Segurança pública: facções, PEC e maioridade penal",
+    "B4_ALEG": 19,
+    "B4_V": 16,
+    "B4_I": 2,
+    "B4_S": 0,
+    "B4_F": 1,
+    "B4_NC": 0,
+    "B5_TITULO": "Supremo, caso Master e Polícia Federal",
+    "B5_ALEG": 54,
+    "B5_V": 36,
+    "B5_I": 4,
+    "B5_S": 14,
+    "B5_F": 0,
+    "B5_NC": 0,
+    "B6_TITULO": "Bolsa Família e orçamento",
+    "B6_ALEG": 10,
+    "B6_V": 8,
+    "B6_I": 0,
+    "B6_S": 1,
+    "B6_F": 1,
+    "B6_NC": 0,
+    "B7_TITULO": "Endividamento das famílias",
+    "B7_ALEG": 14,
+    "B7_V": 10,
+    "B7_I": 3,
+    "B7_S": 1,
+    "B7_F": 0,
+    "B7_NC": 0,
+    "B8_TITULO": "Juros, Banco Central e dívida pública",
+    "B8_ALEG": 23,
+    "B8_V": 14,
+    "B8_I": 5,
+    "B8_S": 3,
+    "B8_F": 1,
+    "B8_NC": 0,
+    "B9_TITULO": "Energia elétrica",
+    "B9_ALEG": 11,
+    "B9_V": 9,
+    "B9_I": 2,
+    "B9_S": 0,
+    "B9_F": 0,
+    "B9_NC": 0,
+    "B10_TITULO": "Saúde e tempo de espera no SUS",
+    "B10_ALEG": 16,
+    "B10_V": 9,
+    "B10_I": 3,
+    "B10_S": 4,
+    "B10_F": 0,
+    "B10_NC": 0,
+    "B11_TITULO": "Considerações finais",
+    "B11_ALEG": 4,
+    "B11_V": 2,
+    "B11_I": 2,
+    "B11_S": 0,
+    "B11_F": 0,
+    "B11_NC": 0
+  }
+}
