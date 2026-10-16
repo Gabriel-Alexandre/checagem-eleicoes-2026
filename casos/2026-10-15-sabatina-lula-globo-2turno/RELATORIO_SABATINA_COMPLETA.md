@@ -31,9 +31,9 @@
 
 | Veredito | Total | entrevistado | entrevistador |
 |---|---:|---:|---:|
-| 🟢 VERDADEIRO | 130 | 67 | 63 |
+| 🟢 VERDADEIRO | 129 | 67 | 62 |
 | 🟡 IMPRECISO | 30 | 24 | 6 |
-| 🟠 SEM COMPROVAÇÃO | 30 | 25 | 5 |
+| 🟠 SEM COMPROVAÇÃO | 31 | 25 | 6 |
 | 🔴 FALSO | 3 | 3 | 0 |
 
 ### Como ler esta contagem
@@ -51,7 +51,7 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 | Falante | Papel | Fala | Alegações | Checáveis | 🟢 | 🟡 | 🟠 | 🔴 | ⚪ |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Fora da sabatina | outro | 00:03:18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Renata Lo Prete | entrevistador | 00:14:12 | 74 | 74 | 63 | 6 | 5 | 0 | 0 |
+| Renata Lo Prete | entrevistador | 00:14:12 | 74 | 74 | 62 | 6 | 6 | 0 | 0 |
 | Lula | entrevistado | 00:23:49 | 119 | 119 | 67 | 24 | 25 | 3 | 0 |
 
 ## Os cortes que viraram vídeo
@@ -1813,11 +1813,13 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 | Apurado | alta de 12,0% nas exportações e de 11,1% na corrente de comércio |
 | Data de referência | janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026) |
 
-**Análise:** No Comex Stat, as exportações para a China somaram US$ 84,68 bilhões de janeiro a setembro de 2026, contra US$ 75,58 bilhões no mesmo período de 2025: alta de 12,0%, número que o Poder360 também reporta a partir da divulgação do MDIC. Com as importações, a corrente de comércio cresceu 11,1%. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 16,6% nas exportações e de 12,8% na corrente. O crescimento existe, mas os 20% ficam acima de todas essas medidas por mais que a margem de 10% da régua. IMPRECISO: essência certa, número materialmente errado.
+**Análise:** No Comex Stat, as exportações para a China somaram US$ 84,68 bilhões de janeiro a setembro de 2026, contra US$ 75,58 bilhões no mesmo período de 2025: alta de 12,0%, número que o Poder360 também reporta a partir da divulgação do MDIC. Com as importações, a corrente de comércio cresceu 11,1%. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 16,6% nas exportações e de 12,8% na corrente. O crescimento existe, mas os 20% ficam acima de todas essas medidas por mais que a margem de 10% da régua. IMPRECISO: essência certa, número materialmente errado. A independência das fontes, declarada: o Poder360 reproduz a divulgação do MDIC, e o relatório do Conselho Empresarial Brasil-China (CEBC, pela Caixin) trata a mesma base; pela regra 2 da §3.1, a base primária conferida é o Comex Stat e as duas entram como apoio, não como base independente. A base do parceiro não estava disponível: a China não tinha declarado ao UN Comtrade nenhum mês de 2026 nas consultas de 16/out. O melhor argumento a favor da fala vai na ressalva: no 1º semestre a alta das exportações foi de 22%, perto dos 20 ditos. Ela não se sustenta com julho, agosto e setembro, e o recorte usado é o acumulado do ano, o mesmo dos outros países da fala (na A037, o recorte de janeiro a maio da Indonésia foi recusado pelo mesmo motivo). 🔧 Ressalva e esta parte entraram na auditoria final (16/out/2026); o veredito não mudou.
+
+**Ressalva:** No 1º semestre a exportação à China subiu 22%, pelo Conselho Empresarial Brasil-China; até setembro, 12,0%
 
 **Confiança:** alta
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Recontado: exportações à China +12,0% e corrente +11,1% de janeiro a setembro (Comex Stat p03; Poder360 confirma 12,0%). Melhor argumento contra: outro recorte poderia dar 20%. A mesma conta feita em A035 foi feita aqui com a captura da revisão: em 12 meses até setembro, +16,6% nas exportações e +12,8% na corrente. 20 contra 16,6 é desvio de 20%, fora da margem; IMPRECISO mantido. A explicação passa a trazer os 12 meses, com derivações e fontes, para a régua ser igual dentro da mesma resposta. Resumo sem alteração.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Auditoria final (16/out): o Poder360 reproduz o MDIC, e por isso a explicação passa a declarar a regra 2 da §3.1 (primária conferida, imprensa como apoio). Entrou na ressalva o melhor argumento a favor da fala (22% no 1º semestre, CEBC pela Caixin), que não se sustenta até setembro, como o recorte de janeiro a maio da A037. A China não tinha 2026 no UN Comtrade. Veredito mantido. · Recontado: exportações à China +12,0% e corrente +11,1% de janeiro a setembro (Comex Stat p03; Poder360 confirma 12,0%). Melhor argumento contra: outro recorte poderia dar 20%. A mesma conta feita em A035 foi feita aqui com a captura da revisão: em 12 meses até setembro, +16,6% nas exportações e +12,8% na corrente. 20 contra 16,6 é desvio de 20%, fora da margem; IMPRECISO mantido. A explicação passa a trazer os 12 meses, com derivações e fontes, para a régua ser igual dentro da mesma resposta. Resumo sem alteração.
 
 **Números derivados por cálculo:**
 
@@ -1855,6 +1857,11 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
    > De janeiro a setembro, os embarques cresceram 12,0%, para US$ 84,677 bilhões.
 
    *O que prova:* Apuração independente sobre a divulgação do MDIC: alta de 12,0%, não de 20%.
+
+6. `N4` **Caixin Global, com relatório do Conselho Empresarial Brasil-China (CEBC)**: [China-Brazil trade hits record high on EV surge and shifting oil flows (20/07/2026)](https://www.caixinglobal.com/2026-07-20/china-brazil-trade-hits-record-high-on-ev-surge-and-shifting-oil-flows-102466114.html) · consultada em 2026-10-16 · captura sha256 `958d0f290fed8f4b…`
+   > Between January and June, Brazil’s exports to China jumped 22% year over year to $58.3 billion
+
+   *O que prova:* No 1º semestre de 2026 a exportação do Brasil à China cresceu 22%, pelo relatório do CEBC, que trata a mesma base brasileira; é o recorte mais favorável à fala, e não se sustenta até setembro.
 
 ---
 
@@ -2056,7 +2063,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A039 · 🟠 SEM COMPROVAÇÃO · 00:08:08
+### A039 · 🟢 VERDADEIRO · 00:08:08
 
 **Lula** (entrevistado) · assunto: `economia` · tipo: `numero`
 
@@ -2066,19 +2073,21 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos
 
-**Resumo (o que aparece no vídeo):** Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro; faltou fonte independente
+**Resumo (o que aparece no vídeo):** Exportação ao Vietnã subiu 14,1% até setembro, pelo Ministério do Desenvolvimento; o Vietnã dá 16,6% no semestre
 
 | | |
 |---|---|
 | Dito | alta de 13% |
-| Apurado | alta de 14,1% nas exportações e de 19,4% na corrente de comércio, só na base brasileira |
+| Apurado | alta de 14,1% nas exportações de janeiro a setembro (Comex Stat) e de 16,6% no 1º semestre (dado do Vietnã) |
 | Data de referência | janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026) |
 
-**Análise:** Lula disse que o Brasil cresceu 13% com o Vietnã. No Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio cresceu 19,4%; em 12 meses até setembro, 5,5% e 11,9%. Pelo acumulado do ano, a exportação fica perto do dito. A regra do projeto pede uma segunda fonte independente, e na rodada 2 ela foi procurada onde poderia estar: a base do parceiro nas Nações Unidas (UN Comtrade, sem nenhum mês de 2026 declarado pelo Vietnã na consulta de 16/out), as estatísticas da alfândega e do escritório de estatística do Vietnã e a imprensa vietnamita (só dados de anos anteriores ou de produtos isolados), e checagens e reportagens sobre a sabatina (só repetem a fala). Nada foi achado. Sem segunda fonte independente, o veredito é INSUSTENTAVEL, e o resumo diz o que a base oficial brasileira mostra e o que faltou. Não é FALSO nem IMPRECISO, porque a única base disponível fica perto do dito.
+**Análise:** Lula disse que o Brasil cresceu 13% com o Vietnã. No Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025 (5,5% em 12 meses até setembro), e a corrente de comércio cresceu 19,4%. A segunda fonte, independente, é o dado do país parceiro: a agência VNA publicou em 11/07/2026, pela embaixada do Vietnã no Brasil, que as exportações do Brasil ao Vietnã cresceram 16,6% no 1º semestre de 2026. As duas bases confirmam o crescimento de dois dígitos, e os 13% ditos ficam a cerca de 8% do acumulado do ano, dentro da margem de 10% da régua do §2.2. Por isso VERDADEIRO pela medida de exportação, a mesma aplicada aos outros países da fala. A ressalva vai escrita: o dado vietnamita cobre só o semestre, e a corrente de comércio subiu mais (19,4%). 🔧 Até a auditoria final (16/out/2026) o veredito era INSUSTENTAVEL, por falta de segunda fonte independente; a busca da rodada 2 não tinha achado a matéria da VNA. Ver CORRECOES.md, seção da auditoria final.
+
+**Ressalva:** A exportação subiu 14,1% até setembro; os dados do Vietnã, 16,6%, cobrem só o 1º semestre
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a INSUSTENTAVEL. Revisão adversarial da rodada 2: Tentei subir para VERDADEIRO (14,1% na exportação contra 13% dito, desvio de cerca de 8%) e descer para IMPRECISO (corrente de 19,4%). Nenhum fecha: só há uma base (Comex Stat), e a regra 1 da §3.1 pede duas fontes; o UN Comtrade não tinha 2026 do Vietnã. INSUSTENTAVEL com o resumo dizendo o que a base mostra e o que faltou é a régua da A126 aplicada ao candidato. · Revisão anterior: Provisório. Recontado no Comex Stat: +14,1% nas exportações e +19,4% na corrente de janeiro a setembro; 13 contra 14,1 é desvio de 8%, dentro da margem. Nos 12 meses até setembro (captura da revisão), +5,5% nas exportações e +11,9% na corrente: aí quem fica perto dos 13% é a corrente, e a explicação registra isso. Com a segunda fonte, tende a VERDADEIRO pelo acumulado do ano, que é o recorte usado nos cinco países. Melhor argumento contra o provisório: igual ao de A038, e cai pelo mesmo motivo (falta fonte independente da base do MDIC). Resumo reescrito ('perto do dito', nome do ministério), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Auditoria final (16/out): a segunda fonte existia. A VNA (11/07/2026, pela embaixada do Vietnã) dá alta de 16,6% nas exportações do Brasil no 1º semestre; com os 14,1% do Comex Stat até setembro, duas bases independentes confirmam, e 13 fica a cerca de 8% do acumulado. INSUSTENTAVEL passou a VERDADEIRO com ressalva, a régua da A038. · Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a INSUSTENTAVEL. Revisão adversarial da rodada 2: Tentei subir para VERDADEIRO (14,1% na exportação contra 13% dito, desvio de cerca de 8%) e descer para IMPRECISO (corrente de 19,4%). Nenhum fecha: só há uma base (Comex Stat), e a regra 1 da §3.1 pede duas fontes; o UN Comtrade não tinha 2026 do Vietnã. INSUSTENTAVEL com o resumo dizendo o que a base mostra e o que faltou é a régua da A126 aplicada ao candidato. · Revisão anterior: Provisório. Recontado no Comex Stat: +14,1% nas exportações e +19,4% na corrente de janeiro a setembro; 13 contra 14,1 é desvio de 8%, dentro da margem. Nos 12 meses até setembro (captura da revisão), +5,5% nas exportações e +11,9% na corrente: aí quem fica perto dos 13% é a corrente, e a explicação registra isso. Com a segunda fonte, tende a VERDADEIRO pelo acumulado do ano, que é o recorte usado nos cinco países. Melhor argumento contra o provisório: igual ao de A038, e cai pelo mesmo motivo (falta fonte independente da base do MDIC). Resumo reescrito ('perto do dito', nome do ministério), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.
 
 **Números derivados por cálculo:**
 
@@ -2088,6 +2097,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 | 19,4% | `3109734744 mais 3460015211, contra 2725869029 mais 2774933663` | variação da corrente de comércio (exportação mais importação), janeiro a setembro, 2026 sobre 2025 |
 | 5,5% | `3109734744 mais 1035180175, contra 2725869029 mais 1204470551` | variação das exportações em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025 |
 | 11,9% | `3109734744 mais 1035180175 mais 3460015211 mais 894927029, contra 2725869029 mais 1204470551 mais 2774933663 mais 891669908` | variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025 |
+| 8% | `13 contra 3109734744 e 2725869029` | desvio do número dito sobre a alta das exportações de janeiro a setembro |
 
 **Fontes:**
 
@@ -2115,6 +2125,11 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
    > Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.
 
    *O que prova:* Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio).
+
+6. `N4` **Vietnam News (agência VNA), com a embaixada do Vietnã no Brasil**: [Việt Nam, Brazil seek ways to promote trade, investment cooperation (11/07/2026)](https://vietnamnews.vn/economy/1785257/viet-nam-brazil-seek-ways-to-promote-trade-investment-cooperation.html) · consultada em 2026-10-16 · captura sha256 `652ff4c8bb498b70…`
+   > two-way trade reached US$4.22 billion in the first six months of 2026, up 16.8 per cent year-on-year. Brazil's exports to Việt Nam exceeded $2 billion, rising 16.6 per cent
+
+   *O que prova:* Dado do lado do parceiro, informado pela embaixada do Vietnã: as exportações do Brasil ao Vietnã cresceram 16,6% no 1º semestre de 2026, independente da base brasileira.
 
 ---
 
@@ -3138,7 +3153,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: mantido. Melhor argumento contra: a jornalista afirma que há suspeitas e uma crise, não que os ministros sejam culpados; as três fontes confirmam isso, e o card laranja diz 'sem comprovação' para algo que o próprio resumo confirma. É o argumento mais forte desta revisão. Fica de pé por simetria e pela regra: o caso aplicou a ética §5 do mesmo jeito às falas de Lula sobre o mesmo assunto ('o Toffoli também está implicado', A074, e 'o Castro está implicado', A076, ambas INSUSTENTAVEL com resumo que confirma a menção e diz que a apuração não concluiu); mudar só a da jornalista quebraria a régua entre os dois lados da mesa. Se o autor decidir que 'existem suspeitas' é fato concluído e não fato em apuração, as três mudam juntas. Conferido: trechos nas capturas (CNN e Gazeta de 5/10/2026, Agência Pública de setembro); o resumo não sugere culpa. · Coerência entre lotes: Grupo do caso Master (A064, A073 da entrevistadora; A074, A075, A076, A084 do candidato): todas INSUSTENTAVEL por fato em apuração, confiança média, os dois lados. A distinção com A089, A098 e A110 (VERDADEIRO) é a mesma em todo o caso: existência de inquérito ou busca é fato; 'implicado' e 'suspeita' dependem da apuração.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: mantido. Auditoria final (16/out): o auditor sugeriu VERDADEIRO com ressalva, porque a existência das suspeitas está documentada. Mantido: a frase toca fato em apuração, e etica-e-risco §5 manda INSUSTENTAVEL; o resumo diz o que está documentado e que a apuração não concluiu, e a regra vale igual para a A074 (Lula). · Melhor argumento contra: a jornalista afirma que há suspeitas e uma crise, não que os ministros sejam culpados; as três fontes confirmam isso, e o card laranja diz 'sem comprovação' para algo que o próprio resumo confirma. É o argumento mais forte desta revisão. Fica de pé por simetria e pela regra: o caso aplicou a ética §5 do mesmo jeito às falas de Lula sobre o mesmo assunto ('o Toffoli também está implicado', A074, e 'o Castro está implicado', A076, ambas INSUSTENTAVEL com resumo que confirma a menção e diz que a apuração não concluiu); mudar só a da jornalista quebraria a régua entre os dois lados da mesa. Se o autor decidir que 'existem suspeitas' é fato concluído e não fato em apuração, as três mudam juntas. Conferido: trechos nas capturas (CNN e Gazeta de 5/10/2026, Agência Pública de setembro); o resumo não sugere culpa. · Coerência entre lotes: Grupo do caso Master (A064, A073 da entrevistadora; A074, A075, A076, A084 do candidato): todas INSUSTENTAVEL por fato em apuração, confiança média, os dois lados. A distinção com A089, A098 e A110 (VERDADEIRO) é a mesma em todo o caso: existência de inquérito ou busca é fato; 'implicado' e 'suspeita' dependem da apuração.
 
 **Fontes:**
 
@@ -3540,7 +3555,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: mantido. Melhor argumento contra: Toffoli está documentadamente citado no material da PF, a PF pediu a suspeição dele e ele se declarou suspeito em 15/09; 'implicado' em sentido comum confere e o veredito seria VERDADEIRO. Cai pela mesma régua da A073, aplicada à entrevistadora: 'implicado no caso' é juízo sobre envolvimento em apuração sem conclusão (ética §5), e o card diz só o que está registrado (citação nas mensagens, sociedade no resort, negativa dele). Conferido na captura p06: o InfoMoney registra que Fachin encaminhou o relatório a Toffoli para avaliar impedimento, e o Poder360 registra a suspeição. 'Deixou a relatoria' é inferência das capturas (o InfoMoney o trata como relator e o Correio da Manhã de setembro trata Mendonça como relator).
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: mantido. Auditoria final (16/out): mantido pela mesma razão da A064 (etica-e-risco §5), com a simetria entre os dois lados da mesa. · Melhor argumento contra: Toffoli está documentadamente citado no material da PF, a PF pediu a suspeição dele e ele se declarou suspeito em 15/09; 'implicado' em sentido comum confere e o veredito seria VERDADEIRO. Cai pela mesma régua da A073, aplicada à entrevistadora: 'implicado no caso' é juízo sobre envolvimento em apuração sem conclusão (ética §5), e o card diz só o que está registrado (citação nas mensagens, sociedade no resort, negativa dele). Conferido na captura p06: o InfoMoney registra que Fachin encaminhou o relatório a Toffoli para avaliar impedimento, e o Poder360 registra a suspeição. 'Deixou a relatoria' é inferência das capturas (o InfoMoney o trata como relator e o Correio da Manhã de setembro trata Mendonça como relator).
 
 **Fontes:**
 
@@ -5693,7 +5708,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a INSUSTENTAVEL. Revisão adversarial da rodada 2: Régua para a jornalista: o 24,9% está no Estadão, com o pesquisador do FGV Ibre identificado, e todas as outras matérias repetem o Estadão no mesmo dia (uma cadeia só); o release oficial de setembro capturado não traz o número. Número sem N1 ou N2 é INSUSTENTAVEL, a mesma régua da A039 (Lula, Vietnã). Não procurei a divulgação do FGV: a busca da revisão é só para contradição. · Revisão anterior: Melhor argumento contra o VERDADEIRO: é número, e as cinco páginas capturadas formam uma única cadeia de imprensa (Estadão de 11/10, reproduzido no mesmo dia por 40graus, SP Diário, Aciara e Blog do Itamar), sem a divulgação do FGV Ibre. Fica de pé: a §3.1 exige N1 ou N2 para número, ou duas N3/N4 citando a primária conferida, e nada disso existe. A revisão tentou capturar a página da Sondagem do Consumidor do FGV Ibre por URL direta e a conexão foi recusada. Na mesma rodada, falas do candidato com primária faltando receberam INSUSTENTAVEL provisório (A016); manter VERDADEIRO aqui seria régua diferente para a jornalista. Veredito passou a INSUSTENTAVEL provisório, confiança baixa, com resumo dizendo o que faltou e a nota de que nada contradiz o número.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Auditoria final (16/out): a A039, citada abaixo como régua, ganhou a segunda fonte e saiu de INSUSTENTAVEL. A A126 fica: aqui falta a própria divulgação primária do FGV Ibre, que no caso do Vietnã existia (Comex Stat). · Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a INSUSTENTAVEL. Revisão adversarial da rodada 2: Régua para a jornalista: o 24,9% está no Estadão, com o pesquisador do FGV Ibre identificado, e todas as outras matérias repetem o Estadão no mesmo dia (uma cadeia só); o release oficial de setembro capturado não traz o número. Número sem N1 ou N2 é INSUSTENTAVEL, a mesma régua da A039 (Lula, Vietnã). Não procurei a divulgação do FGV: a busca da revisão é só para contradição. · Revisão anterior: Melhor argumento contra o VERDADEIRO: é número, e as cinco páginas capturadas formam uma única cadeia de imprensa (Estadão de 11/10, reproduzido no mesmo dia por 40graus, SP Diário, Aciara e Blog do Itamar), sem a divulgação do FGV Ibre. Fica de pé: a §3.1 exige N1 ou N2 para número, ou duas N3/N4 citando a primária conferida, e nada disso existe. A revisão tentou capturar a página da Sondagem do Consumidor do FGV Ibre por URL direta e a conexão foi recusada. Na mesma rodada, falas do candidato com primária faltando receberam INSUSTENTAVEL provisório (A016); manter VERDADEIRO aqui seria régua diferente para a jornalista. Veredito passou a INSUSTENTAVEL provisório, confiança baixa, com resumo dizendo o que faltou e a nota de que nada contradiz o número.
 
 **Fontes:**
 
@@ -6730,7 +6745,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A149 · 🟢 VERDADEIRO · 00:36:03
+### A149 · 🟡 IMPRECISO · 00:36:03
 
 **Lula** (entrevistado) · assunto: `economia-internacional` · tipo: `evento_passado`
 
@@ -6740,27 +6755,29 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores
 
-**Resumo (o que aparece no vídeo):** O governo Lula quitou a dívida com o FMI em dezembro de 2005; ela tinha chegado a US$ 33,7 bi em nov/2003
+**Resumo (o que aparece no vídeo):** A dívida com o FMI foi quitada em dez/2005, mas tinha chegado a US$ 33,7 bi em nov/2003, não 30
 
 | | |
 |---|---|
 | Dito | US$ 30 bilhões |
-| Apurado | US$ 33,7 bilhões no pico (nov/2003), quitados até dez/2005; US$ 23,3 bilhões pagos em 2005 |
+| Apurado | cerca de US$ 33,8 bilhões no pico (30/11/2003, pela cotação do FMI); US$ 23,3 bilhões pagos em 2005, com a quitação em dez/2005 |
 | Data de referência | novembro de 2003 (pico do saldo) a dezembro de 2005 (quitação) |
 
-**Análise:** O Relatório de Inflação do Banco Central de março de 2006 registra a antecipação de US$ 5 bilhões em julho de 2005 e, em dezembro, a quitação antecipada de US$ 15,5 bilhões, 'relativa ao restante da dívida com o FMI', com pagamentos de US$ 23,3 bilhões ao Fundo em 2005. A reportagem de dezembro de 2005 diz que o pagamento quitava todas as dívidas remanescentes e que o saldo tinha chegado ao máximo de US$ 33,7 bilhões em novembro de 2003. A quitação no governo Lula confere. Não há um número único para 'a dívida paga': os US$ 30 bilhões citados ficam entre o pago em 2005 (US$ 23,3 bilhões) e o pico do saldo (US$ 33,7 bilhões, pela reportagem). A posição do próprio FMI em 30/11/2003 registra 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela equivalência de DES para dólar que a carta de intenção de 2002 usa (DES 22.821 milhões para uns US$ 30 bilhões), e o acordo de 2002, conhecido como o de US$ 30 bilhões, estava em grande parte sacado (17.199,64 de 22.821,12 milhões de DES). Por isso VERDADEIRO com ressalva e não IMPRECISO. Parte do que foi pago tinha sido sacada pelo próprio governo Lula em 2003 (ver A145). 🔧 Na revisão adversarial r6 (16/out/2026) entrou a posição do FMI de novembro de 2003 como fonte primária do saldo no pico, que antes só tinha a reportagem; ver checagens/revisao/correcoes-r6.md.
+**Análise:** O Relatório de Inflação do Banco Central de março de 2006 registra a antecipação de US$ 5 bilhões em julho de 2005 e, em dezembro, a quitação antecipada de US$ 15,5 bilhões, 'relativa ao restante da dívida com o FMI', com pagamentos de US$ 23,3 bilhões ao Fundo em 2005. A quitação no governo Lula confere. O número não confere em nenhuma das leituras: a posição do FMI em 30/11/2003 registra 23.358,59 milhões de DES, e pela cotação oficial do próprio FMI de 28/11/2003 (0,690236 DES por dólar) isso dá cerca de US$ 33,8 bilhões, o mesmo pico de US$ 33,7 bilhões da reportagem de 2005; os 30 ditos ficam 11% abaixo. Contra o pago em 2005, US$ 23,3 bilhões, ficam 29% acima. Os US$ 30 bilhões eram o tamanho do acordo de 2002 (DES 22.821 milhões, 'equivalent to some US$30 billion'), do qual parte foi sacada pelo próprio governo Lula em 2003 (ver A145). Pela régua do §2.2, desvio de 10% ou mais é IMPRECISO: a essência (a dívida foi quitada) está certa e o número não. 🔧 Até a auditoria final (16/out/2026) o veredito era VERDADEIRO, apoiado numa conversão do saldo de 2003 pela equivalência de agosto de 2002 (cerca de US$ 30,7 bilhões); com a cotação da data, a conversão dá 33,8. Ver CORRECOES.md, seção da auditoria final.
 
-**Ressalva:** A dívida chegou a US$ 33,7 bilhões em nov/2003, já com saques do próprio governo, e foi quitada em dez/2005
+**Ressalva:** Os US$ 30 bilhões eram o tamanho do acordo de 2002; em 2005 o Brasil pagou US$ 23,3 bilhões ao FMI
 
-**Confiança:** media
+**Confiança:** alta
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Melhor argumento contra o VERDADEIRO: a dívida quitada chegou a US$ 33,7 bilhões, 11% acima dos 30 ditos, e pela régua aplicada a A154 isso seria IMPRECISO. Cai porque não há um número único para 'a dívida paga': o pico de 33,7 é saldo em dólar a câmbio de 2003, os pagamentos de 2005 somam 23,3, e a posição primária do FMI em 30/11/2003, capturada na revisão, dá 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela mesma equivalência que a carta de intenção de 2002 usa, com o acordo 'de 30 bilhões' em grande parte sacado (17.199,64 de 22.821,12). A quitação em dezembro de 2005 confere no Relatório de Inflação do BC (N1). Alterado: entrou essa fonte N2 com a derivação declarada, porque o pico só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A145: ver nota de A145.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Auditoria final (16/out): a conversão de 30,7 bilhões usava a equivalência de agosto de 2002; pela cotação do FMI de 28/11/2003 (capturada) o saldo no pico dá cerca de US$ 33,8 bilhões, 11% acima dos 30 ditos, e o pago em 2005 fica 29% abaixo. VERDADEIRO passou a IMPRECISO, a régua da A154 aplicada ao candidato. · Melhor argumento contra o VERDADEIRO: a dívida quitada chegou a US$ 33,7 bilhões, 11% acima dos 30 ditos, e pela régua aplicada a A154 isso seria IMPRECISO. Cai porque não há um número único para 'a dívida paga': o pico de 33,7 é saldo em dólar a câmbio de 2003, os pagamentos de 2005 somam 23,3, e a posição primária do FMI em 30/11/2003, capturada na revisão, dá 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela mesma equivalência que a carta de intenção de 2002 usa, com o acordo 'de 30 bilhões' em grande parte sacado (17.199,64 de 22.821,12). A quitação em dezembro de 2005 confere no Relatório de Inflação do BC (N1). Alterado: entrou essa fonte N2 com a derivação declarada, porque o pico só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A145: ver nota de A145.
 
 **Números derivados por cálculo:**
 
 | Valor | De | Como |
 |---|---|---|
-| cerca de US$ 30,7 bilhões | `23,358.59 vezes 30 dividido por 22,821.12` | conversão aproximada de DES para dólar pela equivalência declarada na carta de intenção de 2002 |
+| cerca de US$ 33,8 bilhões | `23,358.59 dividido por 0.6902360000` | saldo do Brasil no FMI em 30/11/2003, em milhões de DES, convertido para dólar pela cotação do FMI de 28/11/2003 (DES por dólar) |
+| 11% | `30 contra 23,358.59 dividido por 0.6902360000` | desvio do número dito sobre o saldo no pico |
+| 29% | `30 contra 23,3` | desvio do número dito sobre o pago em 2005 |
 
 **Fontes:**
 
@@ -6783,6 +6800,16 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
    > Brazil : Financial Position in the Fund as of November 30, 2003 [...] Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 23,358.59 769.36 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 17,199.64
 
    *O que prova:* O saldo no pico, na fonte primária: 23.358,59 milhões de DES em 30/11/2003, cerca de US$ 30,7 bilhões pela equivalência da carta de intenção de 2002.
+
+5. `N2` **Fundo Monetário Internacional (FMI)**: [Brazil: Letter of Intent, 2002 (pedido do acordo Stand-By)](https://www.imf.org/external/np/loi/2002/bra/04/index.htm) · consultada em 2026-10-16 · captura sha256 `989fab5aa8c1940f…`
+   > requests a Stand-By Arrangement (SBA) for a period of 15 months with the Fund, in the amount of SDR 22,821 million (equivalent to some US$30 billion,
+
+   *O que prova:* Os US$ 30 bilhões são o tamanho do acordo de 2002 (DES 22.821 milhões), não o saldo devido.
+
+6. `N2` **Fundo Monetário Internacional, cotações do DES**: [SDRs per Currency unit for November 2003 (cotação do dólar em DES)](https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2003-11-30&reportType=SDRCV) · consultada em 2026-10-16 · captura sha256 `c912aed0a4436fb1…`
+   > SDRs per Currency unit for November 2003 (Continued) [...] November 28, 2003 [...] U.S. dollar 0.6964530000 0.6923920000 0.6919950000 0.6928420000 0.6947900000 0.6959010000 0.6946460000 0.6917770000 0.6902360000
+
+   *O que prova:* Cotação oficial do FMI em 28/11/2003: 0,690236 DES por dólar, a que converte o saldo do Brasil em 30/11/2003 para dólar na data.
 
 ---
 
@@ -7046,7 +7073,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A155 · 🟢 VERDADEIRO · 00:36:52
+### A155 · 🟠 SEM COMPROVAÇÃO · 00:36:52
 
 **Renata Lo Prete** (entrevistador) · assunto: `contas-publicas` · tipo: `atribuicao_a_terceiro`
 
@@ -7056,7 +7083,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Réplica da entrevistadora à resposta sobre crescimento e política fiscal
 
-**Resumo (o que aparece no vídeo):** A IFI do Senado diz que o resultado fiscal fica longe do que estabiliza a dívida, e o FMI projeta alta até 2029
+**Resumo (o que aparece no vídeo):** IFI e FMI projetam a dívida subindo sem estabilizar; não há levantamento do que pensa boa parte dos economistas
 
 | | |
 |---|---|
@@ -7064,13 +7091,13 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 | Apurado | dívida bruta de 82,5% do PIB em 2026 e 86,4% em 2027 (IFI); alta anual até 2029 (FMI) |
 | Data de referência | projeções de setembro de 2026 (IFI) e outubro de 2026 (FMI) |
 
-**Análise:** A pergunta atribui a boa parte dos economistas a avaliação de que a trajetória da dívida é insustentável. O critério escrito antes da busca aceita os relatórios da IFI do Senado e pede atenção ao termo usado. O Relatório de Acompanhamento Fiscal de setembro de 2026 da IFI diz que, mesmo cumprida a meta de 2027, 'a realidade estará muito distante do resultado fiscal para estabilizar a relação entre dívida pública e o PIB', e projeta a dívida bruta de 82,5% do PIB em 2026 para 86,4% em 2027. O FMI, no WEO de outubro de 2026, projeta a dívida bruta brasileira subindo todos os anos até 2029. Em julho, segundo o Poder360, a IFI estimava que, no ritmo atual, a dívida poderia chegar a 115% do PIB em 2036. Duas instituições de referência independentes descrevem uma trajetória de alta sem estabilização, que é a substância da frase. O termo usado pela IFI é 'distante do resultado para estabilizar', não 'insustentável', e não foi achado levantamento que meça quantos economistas usam essa palavra; a busca deste pedido foi interrompida pelo limite de consultas da sessão.
+**Análise:** A pergunta atribui a boa parte dos economistas a avaliação de que a trajetória da dívida é insustentável. O Relatório de Acompanhamento Fiscal de setembro de 2026 da IFI do Senado diz que, mesmo cumprida a meta de 2027, 'a realidade estará muito distante do resultado fiscal para estabilizar a relação entre dívida pública e o PIB', e projeta a dívida bruta de 82,5% do PIB em 2026 para 86,4% em 2027; o FMI, no WEO de outubro de 2026, projeta a dívida bruta brasileira subindo todos os anos até 2029. São duas instituições, não uma medida do que pensa 'boa parte dos economistas'. Na auditoria final (16/out) a busca procurou essa medida (pesquisa com economistas, Prisma Fiscal, levantamentos de bancos e entidades) e não achou levantamento de 2026; achou avaliações individuais nos dois sentidos, inclusive a do Ipea, que trabalha com ajuste a partir de 2027. Sem a medida do conjunto, o veredito é INSUSTENTAVEL, e o resumo diz o que IFI e FMI projetam e o que faltou. É a régua da A157 e da A158, aplicada ao candidato quando a medida do todo não existe nas fontes. Não é FALSO, porque nada contradiz a frase. 🔧 Até a auditoria final o veredito era VERDADEIRO provisório, de uma busca interrompida pelo limite da madrugada que a rodada 2 não pegou, porque a explicação não trazia o marcador de provisório. Ver CORRECOES.md, seção da auditoria final.
 
-**Ressalva:** A IFI fala em resultado distante do que estabiliza a dívida; não há levantamento de quantos economistas a chamam de insustentável
+**Ressalva:** A IFI diz que o resultado fiscal fica longe do que estabiliza a dívida, sem usar a palavra insustentável
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: mantido. Veredito provisório (busca interrompida). Melhor argumento contra: 'boa parte dos economistas' é afirmação sobre opinião de muitos, e as fontes são duas instituições, sem pesquisa de opinião; a IFI não usa a palavra 'insustentável'. Não derruba o VERDADEIRO provisório: a IFI do Senado e o FMI são N2 independentes, e as duas descrevem uma dívida sem estabilização (a IFI diz que o resultado fica 'muito distante' do que estabiliza a relação dívida/PIB; o FMI projeta alta todo ano até 2029), que é o sentido técnico de trajetória insustentável. A diferença com A153 é que aqui há fonte N2 primária. A ressalva diz o termo usado e a falta de levantamento. Antes de ir à tela, pede o Prisma Fiscal ou outra pesquisa com economistas. Trechos conferidos (IFI nas capturas p10 e p12). · Coerência entre lotes: Par A153: ver nota de A153.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Auditoria final (16/out): era provisório sem o marcador, e a rodada 2 não passou por ele. A busca pedida pela própria revisão (pesquisa com economistas, Prisma Fiscal, levantamentos de 2026) não achou medida do que pensa boa parte dos economistas. VERDADEIRO passou a INSUSTENTAVEL, a régua da A157 e da A158 (Lula) aplicada à jornalista. · Veredito provisório (busca interrompida). Melhor argumento contra: 'boa parte dos economistas' é afirmação sobre opinião de muitos, e as fontes são duas instituições, sem pesquisa de opinião; a IFI não usa a palavra 'insustentável'. Não derruba o VERDADEIRO provisório: a IFI do Senado e o FMI são N2 independentes, e as duas descrevem uma dívida sem estabilização (a IFI diz que o resultado fica 'muito distante' do que estabiliza a relação dívida/PIB; o FMI projeta alta todo ano até 2029), que é o sentido técnico de trajetória insustentável. A diferença com A153 é que aqui há fonte N2 primária. A ressalva diz o termo usado e a falta de levantamento. Antes de ir à tela, pede o Prisma Fiscal ou outra pesquisa com economistas. Trechos conferidos (IFI nas capturas p10 e p12). · Coerência entre lotes: Par A153: ver nota de A153.
 
 **Fontes:**
 
@@ -8237,7 +8264,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A180 · 🟡 IMPRECISO · 00:42:20
+### A180 · 🟠 SEM COMPROVAÇÃO · 00:42:20
 
 **Lula** (entrevistado) · assunto: `saude` · tipo: `numero`
 
@@ -8247,29 +8274,28 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos
 
-**Resumo (o que aparece no vídeo):** Só em 2023 entraram mais de 16.340 médicos, e outros 6.729 em 2024; as contratações passam de 16 mil
+**Resumo (o que aparece no vídeo):** O total até a fala não foi publicado; em nov/2024 eram 26,7 mil médicos no programa, de 12,8 mil no fim de 2022
 
 | | |
 |---|---|
 | Dito | 16 mil |
-| Apurado | mais de 23.069 médicos que entraram no programa em 2023 e 2024 |
-| Data de referência | entradas de 2023 contadas em março de 2024 e entradas de 2024 contadas em novembro de 2024; total até a data da fala não publicado |
+| Apurado | 26,7 mil médicos em atividade em novembro de 2024, de 12,8 mil no fim de 2022; mais de 16.340 entradas em 2023 |
+| Data de referência | saldo do fim de 2022 e de novembro de 2024; entradas de 2023 contadas em março de 2024; total até a data da fala não publicado |
 
-**Análise:** A fala diz que o governo já contratou 16 mil médicos no programa de provimento. 'Contratar' é entrada de médico, não saldo. O informe do Ministério da Saúde à Comissão Intergestores Tripartite, de março de 2024, diz que, dos médicos então em atividade, mais de 16.340 ingressaram em 2023 e mais de 930 em 2024; o comunicado do ministério de dezembro de 2024 diz que só em 2024 entraram 6.729 novos profissionais. Somando, as entradas de 2023 e 2024 passam de 23.069, sem contar 2025 e 2026, e o número só cresce com o tempo. 16 mil fica pelo menos 30% abaixo disso. Se a fala for lida como saldo de médicos em atividade, o mesmo comunicado dá 12,8 mil no fim de 2022 e 26,7 mil em novembro de 2024, saldo de 13,9 mil, e 16 mil fica 15% acima. Em nenhuma das duas leituras o número fica dentro de 10% do dado com data. O balanço de junho de 2026 do ministério está fora do ar pelo defeso eleitoral, e o total de contratações até a data da fala não foi publicado. A essência (o governo levou milhares de médicos ao programa) está certa e o número não bate; por isso IMPRECISO, e não INSUSTENTAVEL, já que as entradas de 2023 e 2024 estão registradas. Os cerca de 2 mil do Mais Médicos Especialistas são contados à parte.
+**Análise:** A fala diz que o governo já contratou 16 mil médicos no programa de provimento. O informe do Ministério da Saúde à Comissão Intergestores Tripartite, de março de 2024, diz que, dos médicos então em atividade, mais de 16.340 ingressaram em 2023; o comunicado do ministério de dezembro de 2024 diz que só em 2024 entraram 6.729 novos profissionais e que o programa foi de 12,8 mil médicos no fim de 2022 para 26,7 mil em novembro de 2024. O último dado com data é de quase dois anos antes da fala, e o total até outubro de 2026 não foi publicado: o balanço de junho de 2026 do ministério está fora do ar pelo defeso eleitoral, e a busca da auditoria final também não achou balanço de 2026. Lida como entradas, a frase não é contradita (16 mil fica abaixo do que já tinha entrado em 2023 e 2024); lida como saldo, julgá-la por um dado de novembro de 2024 seria anacronismo (§5 da METODOLOGIA). Sem o dado da data da fala, o veredito é INSUSTENTAVEL, e o resumo diz o último dado com data e o que faltou. Os cerca de 2 mil do Mais Médicos Especialistas são contados à parte. 🔧 Até a auditoria final (16/out/2026) o veredito era IMPRECISO, pelas duas leituras com dado de 2024; a revisão anterior à rodada 2 já tinha mantido INSUSTENTAVEL por esse motivo. Ver CORRECOES.md, seção da auditoria final.
 
-**Ressalva:** Contando o saldo de médicos em atividade, foram de 12,8 mil para 26,7 mil até novembro de 2024
+**Ressalva:** Só em 2023 entraram mais de 16.340 médicos, o que não contradiz a fala
 
 **⚠️ Divergência entre fontes:** O comunicado do Ministério da Saúde de dezembro de 2024 dá 26,7 mil médicos em atividade em novembro de 2024; a reportagem da Agência Brasil de maio de 2025 dá cerca de 24,9 mil. As fontes não explicam a diferença, que afeta só a leitura da fala como saldo.
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a IMPRECISO. Revisão adversarial da rodada 2: Melhor argumento contra o IMPRECISO: 12 mil mais 16 mil dá os 28 mil da fala ('para ir para 28'), e mais de 16.340 entraram só em 2023, o que bate com 16 mil. Não derruba: lida como contratações, 16 mil fica pelo menos 30% abaixo das entradas registradas de 2023 e 2024; lida como saldo, o último dado com data (novembro de 2024) dá 13,9 mil, e o balanço de 2026 está fora do ar no defeso. Nas duas leituras com dado datado o número sai da margem, e a explicação diz isso sem afirmar o total de 2026. · Revisão anterior: Melhor argumento contra o INSUSTENTAVEL: 12 mil mais 16 mil dá os 28 mil da fala e da meta, e o saldo de 12.051 em junho de 2024 seria 25% abaixo de 16 mil, então o card poderia ser IMPRECISO. Não derruba: o saldo é de médicos em atividade, não de contratações, o dado é de mais de dois anos antes da fala e a regra é usar o dado da data da fala (§5, anacronismo), que não foi achado. Veredito mantido. Alterado: o card dizia que o último dado achado era de junho de 2024, mas a reportagem do Mais Goiás (Agência Brasil), já capturada e citada, é de 22/05/2025 (cerca de 24,9 mil atuando); e a meta de 28 mil estava na explicação sem trecho. Resumo, explicação, data e o trecho dessa fonte corrigidos, todos conferidos na captura p14. Detalhe em correcoes-r7.md.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Auditoria final (16/out): o IMPRECISO julgava uma fala de out/2026 com dado de nov/2024 (anacronismo, §5) e, lida como entradas, a frase não é contradita. A busca da auditoria não achou balanço de 2026. IMPRECISO passou a INSUSTENTAVEL, como a revisão anterior já tinha decidido. · Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a IMPRECISO. Revisão adversarial da rodada 2: Melhor argumento contra o IMPRECISO: 12 mil mais 16 mil dá os 28 mil da fala ('para ir para 28'), e mais de 16.340 entraram só em 2023, o que bate com 16 mil. Não derruba: lida como contratações, 16 mil fica pelo menos 30% abaixo das entradas registradas de 2023 e 2024; lida como saldo, o último dado com data (novembro de 2024) dá 13,9 mil, e o balanço de 2026 está fora do ar no defeso. Nas duas leituras com dado datado o número sai da margem, e a explicação diz isso sem afirmar o total de 2026. · Revisão anterior: Melhor argumento contra o INSUSTENTAVEL: 12 mil mais 16 mil dá os 28 mil da fala e da meta, e o saldo de 12.051 em junho de 2024 seria 25% abaixo de 16 mil, então o card poderia ser IMPRECISO. Não derruba: o saldo é de médicos em atividade, não de contratações, o dado é de mais de dois anos antes da fala e a regra é usar o dado da data da fala (§5, anacronismo), que não foi achado. Veredito mantido. Alterado: o card dizia que o último dado achado era de junho de 2024, mas a reportagem do Mais Goiás (Agência Brasil), já capturada e citada, é de 22/05/2025 (cerca de 24,9 mil atuando); e a meta de 28 mil estava na explicação sem trecho. Resumo, explicação, data e o trecho dessa fonte corrigidos, todos conferidos na captura p14. Detalhe em correcoes-r7.md.
 
 **Números derivados por cálculo:**
 
 | Valor | De | Como |
 |---|---|---|
-| 23.069 | `16.340 mais 6.729` | soma das entradas registradas de 2023 e de 2024 |
 | 13,9 mil | `26,7 mil menos 12,8 mil` | saldo de médicos em atividade entre dezembro de 2022 e novembro de 2024 |
 
 **Fontes:**

@@ -1,0 +1,72 @@
+{
+  "A149": {
+    "antes": {
+      "veredito": "VERDADEIRO",
+      "confianca": "media",
+      "resumo": "O governo Lula quitou a dívida com o FMI em dezembro de 2005; ela tinha chegado a US$ 33,7 bi em nov/2003",
+      "ressalva": "A dívida chegou a US$ 33,7 bilhões em nov/2003, já com saques do próprio governo, e foi quitada em dez/2005"
+    },
+    "depois": {
+      "veredito": "IMPRECISO",
+      "confianca": "alta",
+      "resumo": "A dívida com o FMI foi quitada em dez/2005, mas tinha chegado a US$ 33,7 bi em nov/2003, não 30",
+      "ressalva": "Os US$ 30 bilhões eram o tamanho do acordo de 2002; em 2005 o Brasil pagou US$ 23,3 bilhões ao FMI"
+    }
+  },
+  "A039": {
+    "antes": {
+      "veredito": "INSUSTENTAVEL",
+      "confianca": "media",
+      "resumo": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro; faltou fonte independente",
+      "ressalva": null
+    },
+    "depois": {
+      "veredito": "VERDADEIRO",
+      "confianca": "media",
+      "resumo": "Exportação ao Vietnã subiu 14,1% até setembro, pelo Ministério do Desenvolvimento; o Vietnã dá 16,6% no semestre",
+      "ressalva": "Os dados do Vietnã cobrem só o 1º semestre; somando a importação, o comércio subiu 19,4% até setembro"
+    }
+  },
+  "A036": {
+    "antes": {
+      "veredito": "IMPRECISO",
+      "confianca": "alta",
+      "resumo": "Exportações à China cresceram 12,0% de janeiro a setembro e a corrente de comércio, 11,1%; não 20%",
+      "ressalva": null
+    },
+    "depois": {
+      "veredito": "IMPRECISO",
+      "confianca": "alta",
+      "resumo": "Exportações à China cresceram 12,0% de janeiro a setembro e a corrente de comércio, 11,1%; não 20%",
+      "ressalva": "No 1º semestre a exportação à China subiu 22%, pelo Conselho Empresarial Brasil-China; até setembro, 12,0%"
+    }
+  },
+  "A155": {
+    "antes": {
+      "veredito": "VERDADEIRO",
+      "confianca": "media",
+      "resumo": "A IFI do Senado diz que o resultado fiscal fica longe do que estabiliza a dívida, e o FMI projeta alta até 2029",
+      "ressalva": "A IFI fala em resultado distante do que estabiliza a dívida; não há levantamento de quantos economistas a chamam de insustentável"
+    },
+    "depois": {
+      "veredito": "INSUSTENTAVEL",
+      "confianca": "media",
+      "resumo": "IFI e FMI projetam a dívida subindo sem estabilizar; não há levantamento do que pensa boa parte dos economistas",
+      "ressalva": "A IFI diz que o resultado fiscal fica longe do que estabiliza a dívida, sem usar a palavra insustentável"
+    }
+  },
+  "A180": {
+    "antes": {
+      "veredito": "IMPRECISO",
+      "confianca": "media",
+      "resumo": "Só em 2023 entraram mais de 16.340 médicos, e outros 6.729 em 2024; as contratações passam de 16 mil",
+      "ressalva": "Contando o saldo de médicos em atividade, foram de 12,8 mil para 26,7 mil até novembro de 2024"
+    },
+    "depois": {
+      "veredito": "INSUSTENTAVEL",
+      "confianca": "media",
+      "resumo": "O total até a fala não foi publicado; em nov/2024 eram 26,7 mil médicos no programa, de 12,8 mil no fim de 2022",
+      "ressalva": "Só em 2023 entraram mais de 16.340 médicos, o que não contradiz a fala"
+    }
+  }
+}

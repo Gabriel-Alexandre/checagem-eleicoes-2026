@@ -680,3 +680,22 @@ Achadas pelo validador e pela releitura depois da revisão adversarial, antes de
 
 As 14 correções da transcrição estão em `transcricao/CORRECOES_DE_TRANSCRICAO.md`. ⚠️ O campo `revisao_humana: true` de `transcricao/transcricao.json` é marcado sozinho pelo `ferramentas/corrigir-transcricao.py` quando aplica correções; nesta transcrição as correções foram conferidas pela IA, por passadas isoladas do motor, e **nenhuma pessoa ouviu o áudio**.
 
+## 4. A auditoria final por amostra (16/out, manhã)
+
+Depois da validação, um agente de IA que não extraiu, não checou e não revisou nada deste caso auditou 44 checagens: as 3 `FALSO`, uma amostra sorteada dos outros vereditos (semente e script em `checagens/revisao/AUDITORIA_FINAL.md`) e todas as dos 6 cortes. Fez 8 buscas web, só atrás do que contradiria um veredito. Achou 5 problemas, e a correção foi feita em seguida, nos lotes, com nova junção, registro da revisão (`revisao.json`, nota "Auditoria final" no começo de cada uma), conferência de trechos (704 de 704) e validador com 0 erros. O antes e depois está em `checagens/revisao/auditoria-final-antes-depois.json`.
+
+| Id | Quem fala | Antes | Depois | Por quê |
+|---|---|---|---|---|
+| A149 (corte-04) | Lula | VERDADEIRO | IMPRECISO | a conversão do saldo do FMI de nov/2003 usava a equivalência de agosto de 2002 (cerca de US$ 30,7 bilhões); pela cotação do próprio FMI de 28/11/2003 (capturada) dá cerca de US$ 33,8 bilhões, 11% acima dos 30 ditos, e o pago em 2005 fica 29% abaixo. É a régua da A154 (Renata, 10,6%) aplicada ao candidato |
+| A039 (corte-02) | Lula | INSUSTENTAVEL | VERDADEIRO | a segunda fonte existia: a VNA publicou, pela embaixada do Vietnã, alta de 16,6% nas exportações do Brasil no 1º semestre; com os 14,1% do Comex Stat até setembro, o dito fica a cerca de 8% do apurado, a régua da A038 |
+| A155 | Renata Lo Prete | VERDADEIRO | INSUSTENTAVEL | era provisório de uma busca interrompida, sem o marcador, e a rodada 2 não passou por ele; a busca da auditoria não achou levantamento do que pensa "boa parte dos economistas". É a régua da A157 e da A158 (Lula) aplicada à jornalista |
+| A180 | Lula | IMPRECISO | INSUSTENTAVEL | julgava uma fala de out/2026 com dado de nov/2024 (anacronismo, METODOLOGIA §5); lida como entradas, a frase não é contradita, e não há balanço de 2026 |
+| A036 (corte-02) | Lula | IMPRECISO | IMPRECISO | o veredito fica; entrou na ressalva o melhor argumento a favor da fala (22% no 1º semestre, pelo CEBC), que não se sustenta até setembro, como o recorte de janeiro a maio da A037, e a explicação declara que Poder360 e CEBC usam a mesma base (regra 2 da §3.1). A China não tinha 2026 no UN Comtrade |
+| A064 e A074 (corte-03) | Renata Lo Prete e Lula | INSUSTENTAVEL | INSUSTENTAVEL | o auditor sugeriu VERDADEIRO com ressalva. Mantidos: as duas frases tocam fato em apuração, e `etica-e-risco.mdc` §5 manda INSUSTENTAVEL; o resumo de cada uma diz o que está documentado e que a apuração não concluiu, a mesma régua nos dois lados da mesa |
+
+**Novas capturas:** `capturas/2026-10-15-sabatina-lula-globo-2turno-aud` (cotações do DES do FMI de novembro de 2003 e a matéria da VNA; a página de cotações de dezembro de 2002 veio sem a tabela e não entrou como fonte) e `-aud2` (Caixin, com o relatório do CEBC). Pedidos em `checagens/pedidos-captura/auditoria-final*.json`.
+
+**O que mudou no resultado:** 129 verdadeiro, 30 impreciso, 31 sem comprovação, 3 falso. Do lado de Lula os números não mudaram (67 · 24 · 25 · 3: uma subida e uma descida em cada veredito); do lado da entrevistadora, 62 · 6 · 6 · 0. Métricas, relatório e considerações refeitos; corte-02 e corte-04 renderizados, validados e copiados de novo para a pasta de entrega.
+
+**A A145** usa a mesma equivalência de 2002 para o saldo da posse. O auditor, com a cotação do FMI de 31/12/2002, chegou a perto de US$ 20,8 bilhões; essa página veio sem a tabela na captura e o número não entrou no caso. O resumo ("cerca de US$ 20 bi") continua de pé nas duas contas, e a A145 não mudou.
+

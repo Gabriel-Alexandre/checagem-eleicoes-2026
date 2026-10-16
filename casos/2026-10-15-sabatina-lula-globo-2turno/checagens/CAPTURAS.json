@@ -2455,6 +2455,18 @@
       }
     },
     {
+      "url": "https://vietnamnews.vn/economy/1785257/viet-nam-brazil-seek-ways-to-promote-trade-investment-cooperation.html",
+      "capturada_em": "2026-10-16T11:19:10+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 60581,
+      "sha256": "652ff4c8bb498b70188c44ac164952dd6ae97db144a9aeb2bae4ffd0b72306a5",
+      "trechos": {
+        "A039": "encontrado"
+      }
+    },
+    {
       "url": "https://viva.com.br/noticias/lula-conversa-com-trump-por-telefone-e-pede-mais-negociacoes-contra-tarifaco.html",
       "capturada_em": "2026-10-16T03:51:38+00:00",
       "status": 200,
@@ -2758,6 +2770,18 @@
       "sha256": "3b6ad0a05ca9aa36f69bb24d42b6fef915cf95e8cf76bbd6e3a17e91dbafaed9",
       "trechos": {
         "A030": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-07-20/china-brazil-trade-hits-record-high-on-ev-surge-and-shifting-oil-flows-102466114.html",
+      "capturada_em": "2026-10-16T11:20:12+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 66991,
+      "sha256": "958d0f290fed8f4bfb8bca0adc10d7ccb75b0ff9f452b1a2bf7fa9cb56d79925",
+      "trechos": {
+        "A036": "encontrado"
       }
     },
     {
@@ -4362,6 +4386,18 @@
       }
     },
     {
+      "url": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2003-11-30&reportType=SDRCV",
+      "capturada_em": "2026-10-16T11:18:53+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 294952,
+      "sha256": "c912aed0a4436fb1c01b0b471ae449f9925f07b63c15dfaf4903d405854a5ff7",
+      "trechos": {
+        "A149": "encontrado"
+      }
+    },
+    {
       "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2002-12-31",
       "capturada_em": "2026-10-16T03:50:18+00:00",
       "status": 200,
@@ -4395,7 +4431,8 @@
       "bytes": 86431,
       "sha256": "989fab5aa8c1940faa9f2f14c7695b21c1d81c959f7e67afc0668851062ad6bc",
       "trechos": {
-        "A145": "encontrado"
+        "A145": "encontrado",
+        "A149": "encontrado"
       }
     },
     {

@@ -12,16 +12,16 @@
     "checaveis": 193,
     "nao_checaveis": 0,
     "por_veredito": {
-      "VERDADEIRO": 130,
+      "VERDADEIRO": 129,
       "IMPRECISO": 30,
-      "INSUSTENTAVEL": 30,
+      "INSUSTENTAVEL": 31,
       "FALSO": 3,
       "NAO_CHECAVEL": 0
     },
     "percentual_dos_checaveis": {
-      "VERDADEIRO": 67.4,
+      "VERDADEIRO": 66.8,
       "IMPRECISO": 15.5,
-      "INSUSTENTAVEL": 15.5,
+      "INSUSTENTAVEL": 16.1,
       "FALSO": 1.6
     },
     "por_papel": {
@@ -48,16 +48,16 @@
         "checaveis": 74,
         "nao_checaveis": 0,
         "por_veredito": {
-          "VERDADEIRO": 63,
+          "VERDADEIRO": 62,
           "IMPRECISO": 6,
-          "INSUSTENTAVEL": 5,
+          "INSUSTENTAVEL": 6,
           "FALSO": 0,
           "NAO_CHECAVEL": 0
         },
         "percentual_dos_checaveis": {
-          "VERDADEIRO": 85.1,
+          "VERDADEIRO": 83.8,
           "IMPRECISO": 8.1,
-          "INSUSTENTAVEL": 6.8,
+          "INSUSTENTAVEL": 8.1,
           "FALSO": 0.0
         }
       }
@@ -97,16 +97,16 @@
       "checaveis": 74,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 63,
+        "VERDADEIRO": 62,
         "IMPRECISO": 6,
-        "INSUSTENTAVEL": 5,
+        "INSUSTENTAVEL": 6,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 85.1,
+        "VERDADEIRO": 83.8,
         "IMPRECISO": 8.1,
-        "INSUSTENTAVEL": 6.8,
+        "INSUSTENTAVEL": 8.1,
         "FALSO": 0.0
       },
       "nome": "Renata Lo Prete",
@@ -246,16 +246,16 @@
       "checaveis": 26,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 15,
+        "VERDADEIRO": 16,
         "IMPRECISO": 7,
-        "INSUSTENTAVEL": 3,
+        "INSUSTENTAVEL": 2,
         "FALSO": 1,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 57.7,
+        "VERDADEIRO": 61.5,
         "IMPRECISO": 26.9,
-        "INSUSTENTAVEL": 11.5,
+        "INSUSTENTAVEL": 7.7,
         "FALSO": 3.8
       },
       "assunto": "economia",
@@ -270,15 +270,15 @@
       "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 9,
-        "IMPRECISO": 3,
-        "INSUSTENTAVEL": 4,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 5,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 56.2,
-        "IMPRECISO": 18.8,
-        "INSUSTENTAVEL": 25.0,
+        "IMPRECISO": 12.5,
+        "INSUSTENTAVEL": 31.2,
         "FALSO": 0.0
       },
       "assunto": "saude",
@@ -292,16 +292,16 @@
       "checaveis": 15,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 8,
+        "VERDADEIRO": 7,
         "IMPRECISO": 5,
-        "INSUSTENTAVEL": 1,
+        "INSUSTENTAVEL": 2,
         "FALSO": 1,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 53.3,
+        "VERDADEIRO": 46.7,
         "IMPRECISO": 33.3,
-        "INSUSTENTAVEL": 6.7,
+        "INSUSTENTAVEL": 13.3,
         "FALSO": 6.7
       },
       "assunto": "contas-publicas",
@@ -453,15 +453,15 @@
       "checaveis": 4,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 2,
-        "IMPRECISO": 2,
+        "VERDADEIRO": 1,
+        "IMPRECISO": 3,
         "INSUSTENTAVEL": 0,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 50.0,
-        "IMPRECISO": 50.0,
+        "VERDADEIRO": 25.0,
+        "IMPRECISO": 75.0,
         "INSUSTENTAVEL": 0.0,
         "FALSO": 0.0
       },
@@ -663,16 +663,16 @@
       "checaveis": 18,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 9,
+        "VERDADEIRO": 10,
         "IMPRECISO": 3,
-        "INSUSTENTAVEL": 6,
+        "INSUSTENTAVEL": 5,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 50.0,
+        "VERDADEIRO": 55.6,
         "IMPRECISO": 16.7,
-        "INSUSTENTAVEL": 33.3,
+        "INSUSTENTAVEL": 27.8,
         "FALSO": 0.0
       },
       "id": "b03",
@@ -703,16 +703,16 @@
           "checaveis": 15,
           "nao_checaveis": 0,
           "por_veredito": {
-            "VERDADEIRO": 7,
+            "VERDADEIRO": 8,
             "IMPRECISO": 3,
-            "INSUSTENTAVEL": 5,
+            "INSUSTENTAVEL": 4,
             "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 46.7,
+            "VERDADEIRO": 53.3,
             "IMPRECISO": 20.0,
-            "INSUSTENTAVEL": 33.3,
+            "INSUSTENTAVEL": 26.7,
             "FALSO": 0.0
           }
         }
@@ -963,16 +963,16 @@
       "checaveis": 23,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 14,
-        "IMPRECISO": 5,
-        "INSUSTENTAVEL": 3,
+        "VERDADEIRO": 12,
+        "IMPRECISO": 6,
+        "INSUSTENTAVEL": 4,
         "FALSO": 1,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 60.9,
-        "IMPRECISO": 21.7,
-        "INSUSTENTAVEL": 13.0,
+        "VERDADEIRO": 52.2,
+        "IMPRECISO": 26.1,
+        "INSUSTENTAVEL": 17.4,
         "FALSO": 4.3
       },
       "id": "b08",
@@ -985,16 +985,16 @@
           "checaveis": 6,
           "nao_checaveis": 0,
           "por_veredito": {
-            "VERDADEIRO": 5,
+            "VERDADEIRO": 4,
             "IMPRECISO": 1,
-            "INSUSTENTAVEL": 0,
+            "INSUSTENTAVEL": 1,
             "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 83.3,
+            "VERDADEIRO": 66.7,
             "IMPRECISO": 16.7,
-            "INSUSTENTAVEL": 0.0,
+            "INSUSTENTAVEL": 16.7,
             "FALSO": 0.0
           }
         },
@@ -1003,15 +1003,15 @@
           "checaveis": 17,
           "nao_checaveis": 0,
           "por_veredito": {
-            "VERDADEIRO": 9,
-            "IMPRECISO": 4,
+            "VERDADEIRO": 8,
+            "IMPRECISO": 5,
             "INSUSTENTAVEL": 3,
             "FALSO": 1,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 52.9,
-            "IMPRECISO": 23.5,
+            "VERDADEIRO": 47.1,
+            "IMPRECISO": 29.4,
             "INSUSTENTAVEL": 17.6,
             "FALSO": 5.9
           }
@@ -1084,15 +1084,15 @@
       "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 9,
-        "IMPRECISO": 3,
-        "INSUSTENTAVEL": 4,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 5,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 56.2,
-        "IMPRECISO": 18.8,
-        "INSUSTENTAVEL": 25.0,
+        "IMPRECISO": 12.5,
+        "INSUSTENTAVEL": 31.2,
         "FALSO": 0.0
       },
       "id": "b10",
@@ -1124,15 +1124,15 @@
           "nao_checaveis": 0,
           "por_veredito": {
             "VERDADEIRO": 4,
-            "IMPRECISO": 3,
-            "INSUSTENTAVEL": 3,
+            "IMPRECISO": 2,
+            "INSUSTENTAVEL": 4,
             "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
             "VERDADEIRO": 40.0,
-            "IMPRECISO": 30.0,
-            "INSUSTENTAVEL": 30.0,
+            "IMPRECISO": 20.0,
+            "INSUSTENTAVEL": 40.0,
             "FALSO": 0.0
           }
         }
@@ -1182,18 +1182,18 @@
     }
   ],
   "revisao_ia": {
-    "mantido": 109,
-    "alterado": 84
+    "mantido": 108,
+    "alterado": 85
   },
   "confianca": {
-    "alta": 60,
-    "media": 132,
+    "alta": 61,
+    "media": 131,
     "baixa": 1
   },
   "fontes": {
-    "citacoes": 700,
-    "urls_distintas": 521,
-    "instituicoes": 264
+    "citacoes": 704,
+    "urls_distintas": 524,
+    "instituicoes": 267
   },
   "avisos": [],
   "ressalvas": [
@@ -1206,17 +1206,17 @@
     "N_ALEG": 193,
     "N_CHEC": 193,
     "N_NC": 0,
-    "N_V": 130,
+    "N_V": 129,
     "N_I": 30,
-    "N_S": 30,
+    "N_S": 31,
     "N_F": 3,
     "DURACAO": "00:47:47",
     "PALAVRAS": 7891,
     "DURACAO_PECA": "00:42:32",
     "PALAVRAS_PECA": 7359,
-    "N_PV": 67.4,
+    "N_PV": 66.8,
     "N_PI": 15.5,
-    "N_PS": 15.5,
+    "N_PS": 16.1,
     "N_PF": 1.6,
     "P_ENTREVISTADO_ALEG": 119,
     "P_ENTREVISTADO_CHEC": 119,
@@ -1227,9 +1227,9 @@
     "P_ENTREVISTADO_NC": 0,
     "P_ENTREVISTADOR_ALEG": 74,
     "P_ENTREVISTADOR_CHEC": 74,
-    "P_ENTREVISTADOR_V": 63,
+    "P_ENTREVISTADOR_V": 62,
     "P_ENTREVISTADOR_I": 6,
-    "P_ENTREVISTADOR_S": 5,
+    "P_ENTREVISTADOR_S": 6,
     "P_ENTREVISTADOR_F": 0,
     "P_ENTREVISTADOR_NC": 0,
     "C1_NOME": "Lula",
@@ -1250,9 +1250,9 @@
     "J1_FALA": "00:14:12",
     "J1_ALEG": 74,
     "J1_CHEC": 74,
-    "J1_V": 63,
+    "J1_V": 62,
     "J1_I": 6,
-    "J1_S": 5,
+    "J1_S": 6,
     "J1_F": 0,
     "J1_NC": 0,
     "B1_TITULO": "Responsabilidade pelo cenário da eleição",
@@ -1271,9 +1271,9 @@
     "B2_NC": 0,
     "B3_TITULO": "Estados Unidos, Trump e tarifas",
     "B3_ALEG": 18,
-    "B3_V": 9,
+    "B3_V": 10,
     "B3_I": 3,
-    "B3_S": 6,
+    "B3_S": 5,
     "B3_F": 0,
     "B3_NC": 0,
     "B4_TITULO": "Segurança pública: facções, PEC e maioridade penal",
@@ -1306,9 +1306,9 @@
     "B7_NC": 0,
     "B8_TITULO": "Juros, Banco Central e dívida pública",
     "B8_ALEG": 23,
-    "B8_V": 14,
-    "B8_I": 5,
-    "B8_S": 3,
+    "B8_V": 12,
+    "B8_I": 6,
+    "B8_S": 4,
     "B8_F": 1,
     "B8_NC": 0,
     "B9_TITULO": "Energia elétrica",
@@ -1321,8 +1321,8 @@
     "B10_TITULO": "Saúde e tempo de espera no SUS",
     "B10_ALEG": 16,
     "B10_V": 9,
-    "B10_I": 3,
-    "B10_S": 4,
+    "B10_I": 2,
+    "B10_S": 5,
     "B10_F": 0,
     "B10_NC": 0,
     "B11_TITULO": "Considerações finais",

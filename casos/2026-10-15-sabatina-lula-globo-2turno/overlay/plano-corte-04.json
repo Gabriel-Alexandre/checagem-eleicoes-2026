@@ -10,7 +10,7 @@
   "selo": {
     "arquivo": "overlay/cartelas-corte-04/_selo.png",
     "entra_s": 0.0,
-    "sai_s": 51.1
+    "sai_s": 50.9
   },
   "legenda": {
     "arquivo": "overlay/cartelas-corte-04/_legenda.png",
@@ -19,14 +19,14 @@
   },
   "congelamento": {
     "entra_s": 12.5,
-    "sai_s": 51.1,
-    "duracao_s": 38.6
+    "sai_s": 50.9,
+    "duracao_s": 38.4
   },
   "encerramento": null,
   "contagem_por_veredito": {
-    "IMPRECISO": 1,
+    "IMPRECISO": 2,
     "FALSO": 1,
-    "VERDADEIRO": 3
+    "VERDADEIRO": 2
   },
   "cartelas": [
     {
@@ -77,10 +77,10 @@
       "id": "A149",
       "arquivo": "overlay/cartelas-corte-04/A149.png",
       "entra_s": 40.8,
-      "sai_s": 51.1,
+      "sai_s": 50.9,
       "atraso_s": 29.93,
       "atraso_do_fim_s": 28.33,
-      "veredito": "VERDADEIRO",
+      "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2163.0,
       "cortado_na_tela": []
     }

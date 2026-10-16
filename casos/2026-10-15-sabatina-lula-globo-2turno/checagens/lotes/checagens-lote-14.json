@@ -528,22 +528,17 @@
     },
     {
       "id": "A180",
-      "veredito": "IMPRECISO",
-      "resumo": "Só em 2023 entraram mais de 16.340 médicos, e outros 6.729 em 2024; as contratações passam de 16 mil",
-      "explicacao": "A fala diz que o governo já contratou 16 mil médicos no programa de provimento. 'Contratar' é entrada de médico, não saldo. O informe do Ministério da Saúde à Comissão Intergestores Tripartite, de março de 2024, diz que, dos médicos então em atividade, mais de 16.340 ingressaram em 2023 e mais de 930 em 2024; o comunicado do ministério de dezembro de 2024 diz que só em 2024 entraram 6.729 novos profissionais. Somando, as entradas de 2023 e 2024 passam de 23.069, sem contar 2025 e 2026, e o número só cresce com o tempo. 16 mil fica pelo menos 30% abaixo disso. Se a fala for lida como saldo de médicos em atividade, o mesmo comunicado dá 12,8 mil no fim de 2022 e 26,7 mil em novembro de 2024, saldo de 13,9 mil, e 16 mil fica 15% acima. Em nenhuma das duas leituras o número fica dentro de 10% do dado com data. O balanço de junho de 2026 do ministério está fora do ar pelo defeso eleitoral, e o total de contratações até a data da fala não foi publicado. A essência (o governo levou milhares de médicos ao programa) está certa e o número não bate; por isso IMPRECISO, e não INSUSTENTAVEL, já que as entradas de 2023 e 2024 estão registradas. Os cerca de 2 mil do Mais Médicos Especialistas são contados à parte.",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O total até a fala não foi publicado; em nov/2024 eram 26,7 mil médicos no programa, de 12,8 mil no fim de 2022",
+      "explicacao": "A fala diz que o governo já contratou 16 mil médicos no programa de provimento. O informe do Ministério da Saúde à Comissão Intergestores Tripartite, de março de 2024, diz que, dos médicos então em atividade, mais de 16.340 ingressaram em 2023; o comunicado do ministério de dezembro de 2024 diz que só em 2024 entraram 6.729 novos profissionais e que o programa foi de 12,8 mil médicos no fim de 2022 para 26,7 mil em novembro de 2024. O último dado com data é de quase dois anos antes da fala, e o total até outubro de 2026 não foi publicado: o balanço de junho de 2026 do ministério está fora do ar pelo defeso eleitoral, e a busca da auditoria final também não achou balanço de 2026. Lida como entradas, a frase não é contradita (16 mil fica abaixo do que já tinha entrado em 2023 e 2024); lida como saldo, julgá-la por um dado de novembro de 2024 seria anacronismo (§5 da METODOLOGIA). Sem o dado da data da fala, o veredito é INSUSTENTAVEL, e o resumo diz o último dado com data e o que faltou. Os cerca de 2 mil do Mais Médicos Especialistas são contados à parte. 🔧 Até a auditoria final (16/out/2026) o veredito era IMPRECISO, pelas duas leituras com dado de 2024; a revisão anterior à rodada 2 já tinha mantido INSUSTENTAVEL por esse motivo. Ver CORRECOES.md, seção da auditoria final.",
       "numero_dito": "16 mil",
-      "numero_apurado": "mais de 23.069 médicos que entraram no programa em 2023 e 2024",
-      "data_de_referencia": "entradas de 2023 contadas em março de 2024 e entradas de 2024 contadas em novembro de 2024; total até a data da fala não publicado",
-      "ressalva": "Contando o saldo de médicos em atividade, foram de 12,8 mil para 26,7 mil até novembro de 2024",
+      "numero_apurado": "26,7 mil médicos em atividade em novembro de 2024, de 12,8 mil no fim de 2022; mais de 16.340 entradas em 2023",
+      "data_de_referencia": "saldo do fim de 2022 e de novembro de 2024; entradas de 2023 contadas em março de 2024; total até a data da fala não publicado",
+      "ressalva": "Só em 2023 entraram mais de 16.340 médicos, o que não contradiz a fala",
       "confianca": "media",
       "divergencia_entre_fontes": "O comunicado do Ministério da Saúde de dezembro de 2024 dá 26,7 mil médicos em atividade em novembro de 2024; a reportagem da Agência Brasil de maio de 2025 dá cerca de 24,9 mil. As fontes não explicam a diferença, que afeta só a leitura da fala como saldo.",
       "revisao_humana": null,
       "derivacoes": [
-        {
-          "valor": "23.069",
-          "de": "16.340 mais 6.729",
-          "como": "soma das entradas registradas de 2023 e de 2024"
-        },
         {
           "valor": "13,9 mil",
           "de": "26,7 mil menos 12,8 mil",

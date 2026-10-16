@@ -10,7 +10,7 @@
   "selo": {
     "arquivo": "overlay/cartelas-corte-02/_selo.png",
     "entra_s": 0.0,
-    "sai_s": 37.5
+    "sai_s": 45.0
   },
   "legenda": {
     "arquivo": "overlay/cartelas-corte-02/_legenda.png",
@@ -19,21 +19,21 @@
   },
   "congelamento": {
     "entra_s": 13.233,
-    "sai_s": 37.5,
-    "duracao_s": 24.267
+    "sai_s": 45.0,
+    "duracao_s": 31.767
   },
   "encerramento": null,
   "contagem_por_veredito": {
     "IMPRECISO": 2,
-    "VERDADEIRO": 1,
-    "INSUSTENTAVEL": 2
+    "VERDADEIRO": 2,
+    "INSUSTENTAVEL": 1
   },
   "cartelas": [
     {
       "id": "A036",
       "arquivo": "overlay/cartelas-corte-02/A036.png",
       "entra_s": 7.7,
-      "sai_s": 12.5,
+      "sai_s": 16.0,
       "atraso_s": 7.49,
       "atraso_do_fim_s": 5.69,
       "veredito": "IMPRECISO",
@@ -43,10 +43,10 @@
     {
       "id": "A037",
       "arquivo": "overlay/cartelas-corte-02/A037.png",
-      "entra_s": 12.7,
-      "sai_s": 20.4,
-      "atraso_s": 9.89,
-      "atraso_do_fim_s": 8.19,
+      "entra_s": 16.2,
+      "sai_s": 23.9,
+      "atraso_s": 13.39,
+      "atraso_do_fim_s": 11.69,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 484.1,
       "cortado_na_tela": []
@@ -54,10 +54,10 @@
     {
       "id": "A038",
       "arquivo": "overlay/cartelas-corte-02/A038.png",
-      "entra_s": 20.6,
-      "sai_s": 28.0,
-      "atraso_s": 15.99,
-      "atraso_do_fim_s": 14.59,
+      "entra_s": 24.1,
+      "sai_s": 31.5,
+      "atraso_s": 19.49,
+      "atraso_do_fim_s": 18.09,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 485.9,
       "cortado_na_tela": []
@@ -65,21 +65,21 @@
     {
       "id": "A039",
       "arquivo": "overlay/cartelas-corte-02/A039.png",
-      "entra_s": 28.2,
-      "sai_s": 32.5,
-      "atraso_s": 21.69,
-      "atraso_do_fim_s": 20.29,
-      "veredito": "INSUSTENTAVEL",
+      "entra_s": 31.7,
+      "sai_s": 40.0,
+      "atraso_s": 25.19,
+      "atraso_do_fim_s": 23.79,
+      "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 487.8,
       "cortado_na_tela": []
     },
     {
       "id": "A040",
       "arquivo": "overlay/cartelas-corte-02/A040.png",
-      "entra_s": 32.7,
-      "sai_s": 37.5,
-      "atraso_s": 24.29,
-      "atraso_do_fim_s": 19.69,
+      "entra_s": 40.2,
+      "sai_s": 45.0,
+      "atraso_s": 31.79,
+      "atraso_do_fim_s": 27.19,
       "veredito": "INSUSTENTAVEL",
       "tempo_na_peca_s": 489.7,
       "cortado_na_tela": []

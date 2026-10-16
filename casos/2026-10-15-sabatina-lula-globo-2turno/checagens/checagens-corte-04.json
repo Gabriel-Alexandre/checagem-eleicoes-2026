@@ -275,14 +275,14 @@
     },
     {
       "id": "A149",
-      "veredito": "VERDADEIRO",
-      "resumo": "O governo Lula quitou a dívida com o FMI em dezembro de 2005; ela tinha chegado a US$ 33,7 bi em nov/2003",
-      "explicacao": "O Relatório de Inflação do Banco Central de março de 2006 registra a antecipação de US$ 5 bilhões em julho de 2005 e, em dezembro, a quitação antecipada de US$ 15,5 bilhões, 'relativa ao restante da dívida com o FMI', com pagamentos de US$ 23,3 bilhões ao Fundo em 2005. A reportagem de dezembro de 2005 diz que o pagamento quitava todas as dívidas remanescentes e que o saldo tinha chegado ao máximo de US$ 33,7 bilhões em novembro de 2003. A quitação no governo Lula confere. Não há um número único para 'a dívida paga': os US$ 30 bilhões citados ficam entre o pago em 2005 (US$ 23,3 bilhões) e o pico do saldo (US$ 33,7 bilhões, pela reportagem). A posição do próprio FMI em 30/11/2003 registra 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela equivalência de DES para dólar que a carta de intenção de 2002 usa (DES 22.821 milhões para uns US$ 30 bilhões), e o acordo de 2002, conhecido como o de US$ 30 bilhões, estava em grande parte sacado (17.199,64 de 22.821,12 milhões de DES). Por isso VERDADEIRO com ressalva e não IMPRECISO. Parte do que foi pago tinha sido sacada pelo próprio governo Lula em 2003 (ver A145). 🔧 Na revisão adversarial r6 (16/out/2026) entrou a posição do FMI de novembro de 2003 como fonte primária do saldo no pico, que antes só tinha a reportagem; ver checagens/revisao/correcoes-r6.md.",
+      "veredito": "IMPRECISO",
+      "resumo": "A dívida com o FMI foi quitada em dez/2005, mas tinha chegado a US$ 33,7 bi em nov/2003, não 30",
+      "explicacao": "O Relatório de Inflação do Banco Central de março de 2006 registra a antecipação de US$ 5 bilhões em julho de 2005 e, em dezembro, a quitação antecipada de US$ 15,5 bilhões, 'relativa ao restante da dívida com o FMI', com pagamentos de US$ 23,3 bilhões ao Fundo em 2005. A quitação no governo Lula confere. O número não confere em nenhuma das leituras: a posição do FMI em 30/11/2003 registra 23.358,59 milhões de DES, e pela cotação oficial do próprio FMI de 28/11/2003 (0,690236 DES por dólar) isso dá cerca de US$ 33,8 bilhões, o mesmo pico de US$ 33,7 bilhões da reportagem de 2005; os 30 ditos ficam 11% abaixo. Contra o pago em 2005, US$ 23,3 bilhões, ficam 29% acima. Os US$ 30 bilhões eram o tamanho do acordo de 2002 (DES 22.821 milhões, 'equivalent to some US$30 billion'), do qual parte foi sacada pelo próprio governo Lula em 2003 (ver A145). Pela régua do §2.2, desvio de 10% ou mais é IMPRECISO: a essência (a dívida foi quitada) está certa e o número não. 🔧 Até a auditoria final (16/out/2026) o veredito era VERDADEIRO, apoiado numa conversão do saldo de 2003 pela equivalência de agosto de 2002 (cerca de US$ 30,7 bilhões); com a cotação da data, a conversão dá 33,8. Ver CORRECOES.md, seção da auditoria final.",
       "numero_dito": "US$ 30 bilhões",
-      "numero_apurado": "US$ 33,7 bilhões no pico (nov/2003), quitados até dez/2005; US$ 23,3 bilhões pagos em 2005",
+      "numero_apurado": "cerca de US$ 33,8 bilhões no pico (30/11/2003, pela cotação do FMI); US$ 23,3 bilhões pagos em 2005, com a quitação em dez/2005",
       "data_de_referencia": "novembro de 2003 (pico do saldo) a dezembro de 2005 (quitação)",
-      "ressalva": "A dívida chegou a US$ 33,7 bilhões em nov/2003, já com saques do próprio governo, e foi quitada em dez/2005",
-      "confianca": "media",
+      "ressalva": "Os US$ 30 bilhões eram o tamanho do acordo de 2002; em 2005 o Brasil pagou US$ 23,3 bilhões ao FMI",
+      "confianca": "alta",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -321,20 +321,48 @@
           "consultada_em": "2026-10-16",
           "trecho": "Brazil : Financial Position in the Fund as of November 30, 2003 [...] Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 23,358.59 769.36 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 17,199.64",
           "prova": "O saldo no pico, na fonte primária: 23.358,59 milhões de DES em 30/11/2003, cerca de US$ 30,7 bilhões pela equivalência da carta de intenção de 2002."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Brazil: Letter of Intent, 2002 (pedido do acordo Stand-By)",
+          "url": "https://www.imf.org/external/np/loi/2002/bra/04/index.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "requests a Stand-By Arrangement (SBA) for a period of 15 months with the Fund, in the amount of SDR 22,821 million (equivalent to some US$30 billion,",
+          "prova": "Os US$ 30 bilhões são o tamanho do acordo de 2002 (DES 22.821 milhões), não o saldo devido."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional, cotações do DES",
+          "titulo": "SDRs per Currency unit for November 2003 (cotação do dólar em DES)",
+          "url": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2003-11-30&reportType=SDRCV",
+          "consultada_em": "2026-10-16",
+          "trecho": "SDRs per Currency unit for November 2003 (Continued) [...] November 28, 2003 [...] U.S. dollar 0.6964530000 0.6923920000 0.6919950000 0.6928420000 0.6947900000 0.6959010000 0.6946460000 0.6917770000 0.6902360000",
+          "prova": "Cotação oficial do FMI em 28/11/2003: 0,690236 DES por dólar, a que converte o saldo do Brasil em 30/11/2003 para dólar na data."
         }
       ],
       "derivacoes": [
         {
-          "valor": "cerca de US$ 30,7 bilhões",
-          "de": "23,358.59 vezes 30 dividido por 22,821.12",
-          "como": "conversão aproximada de DES para dólar pela equivalência declarada na carta de intenção de 2002"
+          "valor": "cerca de US$ 33,8 bilhões",
+          "de": "23,358.59 dividido por 0.6902360000",
+          "como": "saldo do Brasil no FMI em 30/11/2003, em milhões de DES, convertido para dólar pela cotação do FMI de 28/11/2003 (DES por dólar)"
+        },
+        {
+          "valor": "11%",
+          "de": "30 contra 23,358.59 dividido por 0.6902360000",
+          "como": "desvio do número dito sobre o saldo no pico"
+        },
+        {
+          "valor": "29%",
+          "de": "30 contra 23,3",
+          "como": "desvio do número dito sobre o pago em 2005"
         }
       ],
       "revisao_ia": {
         "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
         "data": "2026-10-16",
         "decisao": "alterado",
-        "nota": "Melhor argumento contra o VERDADEIRO: a dívida quitada chegou a US$ 33,7 bilhões, 11% acima dos 30 ditos, e pela régua aplicada a A154 isso seria IMPRECISO. Cai porque não há um número único para 'a dívida paga': o pico de 33,7 é saldo em dólar a câmbio de 2003, os pagamentos de 2005 somam 23,3, e a posição primária do FMI em 30/11/2003, capturada na revisão, dá 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela mesma equivalência que a carta de intenção de 2002 usa, com o acordo 'de 30 bilhões' em grande parte sacado (17.199,64 de 22.821,12). A quitação em dezembro de 2005 confere no Relatório de Inflação do BC (N1). Alterado: entrou essa fonte N2 com a derivação declarada, porque o pico só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A145: ver nota de A145.",
+        "nota": "Auditoria final (16/out): a conversão de 30,7 bilhões usava a equivalência de agosto de 2002; pela cotação do FMI de 28/11/2003 (capturada) o saldo no pico dá cerca de US$ 33,8 bilhões, 11% acima dos 30 ditos, e o pago em 2005 fica 29% abaixo. VERDADEIRO passou a IMPRECISO, a régua da A154 aplicada ao candidato. · Melhor argumento contra o VERDADEIRO: a dívida quitada chegou a US$ 33,7 bilhões, 11% acima dos 30 ditos, e pela régua aplicada a A154 isso seria IMPRECISO. Cai porque não há um número único para 'a dívida paga': o pico de 33,7 é saldo em dólar a câmbio de 2003, os pagamentos de 2005 somam 23,3, e a posição primária do FMI em 30/11/2003, capturada na revisão, dá 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela mesma equivalência que a carta de intenção de 2002 usa, com o acordo 'de 30 bilhões' em grande parte sacado (17.199,64 de 22.821,12). A quitação em dezembro de 2005 confere no Relatório de Inflação do BC (N1). Alterado: entrou essa fonte N2 com a derivação declarada, porque o pico só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A145: ver nota de A145.",
         "verificacoes": [
           "1",
           "3",

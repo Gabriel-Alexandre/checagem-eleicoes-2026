@@ -7,11 +7,11 @@
       "id": "A036",
       "veredito": "IMPRECISO",
       "resumo": "Exportações à China cresceram 12,0% de janeiro a setembro e a corrente de comércio, 11,1%; não 20%",
-      "explicacao": "No Comex Stat, as exportações para a China somaram US$ 84,68 bilhões de janeiro a setembro de 2026, contra US$ 75,58 bilhões no mesmo período de 2025: alta de 12,0%, número que o Poder360 também reporta a partir da divulgação do MDIC. Com as importações, a corrente de comércio cresceu 11,1%. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 16,6% nas exportações e de 12,8% na corrente. O crescimento existe, mas os 20% ficam acima de todas essas medidas por mais que a margem de 10% da régua. IMPRECISO: essência certa, número materialmente errado.",
+      "explicacao": "No Comex Stat, as exportações para a China somaram US$ 84,68 bilhões de janeiro a setembro de 2026, contra US$ 75,58 bilhões no mesmo período de 2025: alta de 12,0%, número que o Poder360 também reporta a partir da divulgação do MDIC. Com as importações, a corrente de comércio cresceu 11,1%. Em 12 meses até setembro, conferidos na mesma base pela revisão, a alta é de 16,6% nas exportações e de 12,8% na corrente. O crescimento existe, mas os 20% ficam acima de todas essas medidas por mais que a margem de 10% da régua. IMPRECISO: essência certa, número materialmente errado. A independência das fontes, declarada: o Poder360 reproduz a divulgação do MDIC, e o relatório do Conselho Empresarial Brasil-China (CEBC, pela Caixin) trata a mesma base; pela regra 2 da §3.1, a base primária conferida é o Comex Stat e as duas entram como apoio, não como base independente. A base do parceiro não estava disponível: a China não tinha declarado ao UN Comtrade nenhum mês de 2026 nas consultas de 16/out. O melhor argumento a favor da fala vai na ressalva: no 1º semestre a alta das exportações foi de 22%, perto dos 20 ditos. Ela não se sustenta com julho, agosto e setembro, e o recorte usado é o acumulado do ano, o mesmo dos outros países da fala (na A037, o recorte de janeiro a maio da Indonésia foi recusado pelo mesmo motivo). 🔧 Ressalva e esta parte entraram na auditoria final (16/out/2026); o veredito não mudou.",
       "numero_dito": "alta de 20%",
       "numero_apurado": "alta de 12,0% nas exportações e de 11,1% na corrente de comércio",
       "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
-      "ressalva": null,
+      "ressalva": "No 1º semestre a exportação à China subiu 22%, pelo Conselho Empresarial Brasil-China; até setembro, 12,0%",
       "confianca": "alta",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
@@ -87,13 +87,22 @@
           "consultada_em": "2026-10-16",
           "trecho": "De janeiro a setembro, os embarques cresceram 12,0%, para US$ 84,677 bilhões.",
           "prova": "Apuração independente sobre a divulgação do MDIC: alta de 12,0%, não de 20%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Caixin Global, com relatório do Conselho Empresarial Brasil-China (CEBC)",
+          "titulo": "China-Brazil trade hits record high on EV surge and shifting oil flows (20/07/2026)",
+          "url": "https://www.caixinglobal.com/2026-07-20/china-brazil-trade-hits-record-high-on-ev-surge-and-shifting-oil-flows-102466114.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Between January and June, Brazil’s exports to China jumped 22% year over year to $58.3 billion",
+          "prova": "No 1º semestre de 2026 a exportação do Brasil à China cresceu 22%, pelo relatório do CEBC, que trata a mesma base brasileira; é o recorte mais favorável à fala, e não se sustenta até setembro."
         }
       ],
       "revisao_ia": {
         "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
         "data": "2026-10-16",
         "decisao": "alterado",
-        "nota": "Recontado: exportações à China +12,0% e corrente +11,1% de janeiro a setembro (Comex Stat p03; Poder360 confirma 12,0%). Melhor argumento contra: outro recorte poderia dar 20%. A mesma conta feita em A035 foi feita aqui com a captura da revisão: em 12 meses até setembro, +16,6% nas exportações e +12,8% na corrente. 20 contra 16,6 é desvio de 20%, fora da margem; IMPRECISO mantido. A explicação passa a trazer os 12 meses, com derivações e fontes, para a régua ser igual dentro da mesma resposta. Resumo sem alteração.",
+        "nota": "Auditoria final (16/out): o Poder360 reproduz o MDIC, e por isso a explicação passa a declarar a regra 2 da §3.1 (primária conferida, imprensa como apoio). Entrou na ressalva o melhor argumento a favor da fala (22% no 1º semestre, CEBC pela Caixin), que não se sustenta até setembro, como o recorte de janeiro a maio da A037. A China não tinha 2026 no UN Comtrade. Veredito mantido. · Recontado: exportações à China +12,0% e corrente +11,1% de janeiro a setembro (Comex Stat p03; Poder360 confirma 12,0%). Melhor argumento contra: outro recorte poderia dar 20%. A mesma conta feita em A035 foi feita aqui com a captura da revisão: em 12 meses até setembro, +16,6% nas exportações e +12,8% na corrente. 20 contra 16,6 é desvio de 20%, fora da margem; IMPRECISO mantido. A explicação passa a trazer os 12 meses, com derivações e fontes, para a régua ser igual dentro da mesma resposta. Resumo sem alteração.",
         "verificacoes": [
           "3",
           "4",
@@ -431,13 +440,13 @@
     },
     {
       "id": "A039",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Pelo Ministério do Desenvolvimento, a exportação ao Vietnã subiu 14,1% até setembro; faltou fonte independente",
-      "explicacao": "Lula disse que o Brasil cresceu 13% com o Vietnã. No Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025, e a corrente de comércio cresceu 19,4%; em 12 meses até setembro, 5,5% e 11,9%. Pelo acumulado do ano, a exportação fica perto do dito. A regra do projeto pede uma segunda fonte independente, e na rodada 2 ela foi procurada onde poderia estar: a base do parceiro nas Nações Unidas (UN Comtrade, sem nenhum mês de 2026 declarado pelo Vietnã na consulta de 16/out), as estatísticas da alfândega e do escritório de estatística do Vietnã e a imprensa vietnamita (só dados de anos anteriores ou de produtos isolados), e checagens e reportagens sobre a sabatina (só repetem a fala). Nada foi achado. Sem segunda fonte independente, o veredito é INSUSTENTAVEL, e o resumo diz o que a base oficial brasileira mostra e o que faltou. Não é FALSO nem IMPRECISO, porque a única base disponível fica perto do dito.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Exportação ao Vietnã subiu 14,1% até setembro, pelo Ministério do Desenvolvimento; o Vietnã dá 16,6% no semestre",
+      "explicacao": "Lula disse que o Brasil cresceu 13% com o Vietnã. No Comex Stat, base oficial do MDIC, as exportações para o Vietnã cresceram 14,1% de janeiro a setembro de 2026 sobre o mesmo período de 2025 (5,5% em 12 meses até setembro), e a corrente de comércio cresceu 19,4%. A segunda fonte, independente, é o dado do país parceiro: a agência VNA publicou em 11/07/2026, pela embaixada do Vietnã no Brasil, que as exportações do Brasil ao Vietnã cresceram 16,6% no 1º semestre de 2026. As duas bases confirmam o crescimento de dois dígitos, e os 13% ditos ficam a cerca de 8% do acumulado do ano, dentro da margem de 10% da régua do §2.2. Por isso VERDADEIRO pela medida de exportação, a mesma aplicada aos outros países da fala. A ressalva vai escrita: o dado vietnamita cobre só o semestre, e a corrente de comércio subiu mais (19,4%). 🔧 Até a auditoria final (16/out/2026) o veredito era INSUSTENTAVEL, por falta de segunda fonte independente; a busca da rodada 2 não tinha achado a matéria da VNA. Ver CORRECOES.md, seção da auditoria final.",
       "numero_dito": "alta de 13%",
-      "numero_apurado": "alta de 14,1% nas exportações e de 19,4% na corrente de comércio, só na base brasileira",
+      "numero_apurado": "alta de 14,1% nas exportações de janeiro a setembro (Comex Stat) e de 16,6% no 1º semestre (dado do Vietnã)",
       "data_de_referencia": "janeiro a setembro de 2026 contra janeiro a setembro de 2025, e 12 meses até setembro (Comex Stat, consultado em 16/out/2026)",
-      "ressalva": null,
+      "ressalva": "A exportação subiu 14,1% até setembro; os dados do Vietnã, 16,6%, cobrem só o 1º semestre",
       "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
@@ -461,6 +470,11 @@
           "valor": "11,9%",
           "de": "3109734744 mais 1035180175 mais 3460015211 mais 894927029, contra 2725869029 mais 1204470551 mais 2774933663 mais 891669908",
           "como": "variação da corrente de comércio em 12 meses (outubro a setembro), até setembro de 2026 sobre até setembro de 2025"
+        },
+        {
+          "valor": "8%",
+          "de": "13 contra 3109734744 e 2725869029",
+          "como": "desvio do número dito sobre a alta das exportações de janeiro a setembro"
         }
       ],
       "fontes": [
@@ -508,13 +522,22 @@
           "consultada_em": "2026-10-16",
           "trecho": "Segundo o petista, a perda comercial com os Estados Unidos foi compensada pelo crescimento da relação com países como China, Indonésia, Alemanha e Vietnã.",
           "prova": "Registra a fala na cobertura da sabatina, sem indicar período nem medida (exportação ou corrente de comércio)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Vietnam News (agência VNA), com a embaixada do Vietnã no Brasil",
+          "titulo": "Việt Nam, Brazil seek ways to promote trade, investment cooperation (11/07/2026)",
+          "url": "https://vietnamnews.vn/economy/1785257/viet-nam-brazil-seek-ways-to-promote-trade-investment-cooperation.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "two-way trade reached US$4.22 billion in the first six months of 2026, up 16.8 per cent year-on-year. Brazil's exports to Việt Nam exceeded $2 billion, rising 16.6 per cent",
+          "prova": "Dado do lado do parceiro, informado pela embaixada do Vietnã: as exportações do Brasil ao Vietnã cresceram 16,6% no 1º semestre de 2026, independente da base brasileira."
         }
       ],
       "revisao_ia": {
         "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
         "data": "2026-10-16",
         "decisao": "alterado",
-        "nota": "Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a INSUSTENTAVEL. Revisão adversarial da rodada 2: Tentei subir para VERDADEIRO (14,1% na exportação contra 13% dito, desvio de cerca de 8%) e descer para IMPRECISO (corrente de 19,4%). Nenhum fecha: só há uma base (Comex Stat), e a regra 1 da §3.1 pede duas fontes; o UN Comtrade não tinha 2026 do Vietnã. INSUSTENTAVEL com o resumo dizendo o que a base mostra e o que faltou é a régua da A126 aplicada ao candidato. · Revisão anterior: Provisório. Recontado no Comex Stat: +14,1% nas exportações e +19,4% na corrente de janeiro a setembro; 13 contra 14,1 é desvio de 8%, dentro da margem. Nos 12 meses até setembro (captura da revisão), +5,5% nas exportações e +11,9% na corrente: aí quem fica perto dos 13% é a corrente, e a explicação registra isso. Com a segunda fonte, tende a VERDADEIRO pelo acumulado do ano, que é o recorte usado nos cinco países. Melhor argumento contra o provisório: igual ao de A038, e cai pelo mesmo motivo (falta fonte independente da base do MDIC). Resumo reescrito ('perto do dito', nome do ministério), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
+        "nota": "Auditoria final (16/out): a segunda fonte existia. A VNA (11/07/2026, pela embaixada do Vietnã) dá alta de 16,6% nas exportações do Brasil no 1º semestre; com os 14,1% do Comex Stat até setembro, duas bases independentes confirmam, e 13 fica a cerca de 8% do acumulado. INSUSTENTAVEL passou a VERDADEIRO com ressalva, a régua da A038. · Rodada 2 (16/out, busca refeita): INSUSTENTAVEL provisório passou a INSUSTENTAVEL. Revisão adversarial da rodada 2: Tentei subir para VERDADEIRO (14,1% na exportação contra 13% dito, desvio de cerca de 8%) e descer para IMPRECISO (corrente de 19,4%). Nenhum fecha: só há uma base (Comex Stat), e a regra 1 da §3.1 pede duas fontes; o UN Comtrade não tinha 2026 do Vietnã. INSUSTENTAVEL com o resumo dizendo o que a base mostra e o que faltou é a régua da A126 aplicada ao candidato. · Revisão anterior: Provisório. Recontado no Comex Stat: +14,1% nas exportações e +19,4% na corrente de janeiro a setembro; 13 contra 14,1 é desvio de 8%, dentro da margem. Nos 12 meses até setembro (captura da revisão), +5,5% nas exportações e +11,9% na corrente: aí quem fica perto dos 13% é a corrente, e a explicação registra isso. Com a segunda fonte, tende a VERDADEIRO pelo acumulado do ano, que é o recorte usado nos cinco países. Melhor argumento contra o provisório: igual ao de A038, e cai pelo mesmo motivo (falta fonte independente da base do MDIC). Resumo reescrito ('perto do dito', nome do ministério), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
         "verificacoes": [
           "1",
           "3",
