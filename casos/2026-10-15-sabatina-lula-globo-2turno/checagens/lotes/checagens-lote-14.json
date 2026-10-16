@@ -1,0 +1,623 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A170",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Eletrobras foi privatizada em junho de 2022, no governo Bolsonaro, com base em lei de 2021",
+      "explicacao": "A Lei 14.182, de julho de 2021, autorizou a desestatização da Eletrobras na modalidade de aumento de capital com renúncia da União ao direito de subscrição. A oferta de ações foi concluída em junho de 2022, no governo Bolsonaro, e a União deixou de ser acionista majoritária, ficando com 40,3% do capital votante segundo o Mais Retorno. A privatização, portanto, aconteceu antes do atual governo Lula, como diz a fala. O 'fizeram o favor' é avaliação e não entra no veredito.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "lei de 12/07/2021; oferta concluída em 09/06/2022",
+      "ressalva": "A União continua acionista, com 40,3% do capital votante, mas deixou de ter o controle",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "A fatia anterior da União varia conforme o recorte: o Mais Retorno fala em 72% do capital votante (com BNDES), o Poder360 em 51,82% das ações ordinárias detidas diretamente. Não muda o veredito.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.182, de 12 de julho de 2021",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14182.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 14.182, DE 12 DE JULHO DE 2021 [...] Dispõe sobre a desestatização da empresa Centrais Elétricas Brasileiras S.A. (Eletrobras); [...] § 1º A desestatização da Eletrobras será executada na modalidade de aumento do capital social, por meio da subscrição pública de ações ordinárias com renúncia do direito de subscrição pela União",
+          "prova": "A lei que autorizou a desestatização e o modelo, aprovada em 2021, antes do atual governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Mais Retorno",
+          "titulo": "Eletrobras é privatizada com oferta de R$ 33,7 bi (10/06/2022)",
+          "url": "https://maisretorno.com/portal/eletrobras-e-privatizada-com-oferta-de-r-337-bi-e-se-torna-a-segunda-maior-operacao-em-bolsa-do-mundo-em-2022",
+          "consultada_em": "2026-10-16",
+          "trecho": "Data de publicação: 10/06/2022 [...] Na operação, a União teve seu capital reduzido de 72% do capital votante para 40,3%. Com isso, o Estado deixa de ser acionista majoritário e a empresa se torna uma corporação de capital pulverizado.",
+          "prova": "A data da operação e a participação da União depois dela."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Folha de Pernambuco (Agência O Globo)",
+          "titulo": "Eletrobras finaliza processo de capitalização e é privatizada (09/06/2022)",
+          "url": "https://www.folhape.com.br/economia/eletrobras-finaliza-processo-de-capitalizacao-e-e-privatizada/229908/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Eletrobras finalizou o processo de capitalização nesta quinta-feira (9) e, com isso, estará privatizada . [...] A privatização é um símbolo para o ministro da Economia, Paulo Guedes, e para o presidente Jair Bolsonaro.",
+          "prova": "Apuração independente: a privatização concluída no governo Bolsonaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Governo regulamenta oferta secundária de ações da Eletrobras",
+          "url": "https://www.poder360.com.br/governo/governo-regulamenta-oferta-secundaria-de-acoes-da-eletrobras/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A União detinha diretamente 51,82% das ações ordinárias da Eletrobras no 3º trimestre do ano passado. Com a desestatização, haverá aumento de capital social, com a oferta primária de ações, que consiste na venda de novas ações no mercado.",
+          "prova": "A participação direta da União antes da operação, que mostra a divergência de recorte."
+        }
+      ]
+    },
+    {
+      "id": "A171",
+      "veredito": "VERDADEIRO",
+      "resumo": "Leis de 2025 isentam a baixa renda de encargo da conta de luz e criam imposto mínimo para altas rendas",
+      "explicacao": "A frase não diz qual mudança é, e as duas leituras previstas no o_que_conferir foram conferidas. Na energia, a Lei 15.235/2025 ampliou a isenção de encargo (quotas da CDE) para famílias de baixa renda no CadÚnico, e o custo foi redistribuído entre os demais consumidores (TAGD Advogados); a Lei 15.269/2025 dividiu o encargo da CDE entre mercado livre e regulado. No imposto de renda, a Lei 15.270/2025 criou a tributação mínima para pessoas físicas de altas rendas. Nas duas leituras houve mudança recente pela qual quem tem mais passa a pagar mais. Fica VERDADEIRO, com confiança média porque a referência exata da fala é ambígua.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 15.235 de 08/10/2025; Lei 15.270 de 26/11/2025",
+      "ressalva": "Na conta de luz, o custo da isenção é repartido entre os demais consumidores, não só entre os mais ricos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.235, de 8 de outubro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15235.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 15.235, DE 8 DE OUTUBRO DE 2025 [...] A partir de 1º de janeiro de 2026, as famílias com renda mensal per capita superior a 1/2 (meio) e igual ou inferior a 1 (um) salário mínimo, desde que devidamente inscritas no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico), terão isenção, em uma única unidade consumidora, do pagamento das quotas anuais da CDE para consumo mensal de até 120 kWh (cento e vinte quilowatts-hora).",
+          "prova": "A mudança no setor elétrico: isenção de encargo para a baixa renda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TAGD Advogados",
+          "titulo": "Entre remendos e reformas: o que realmente mudou no setor elétrico em 2025",
+          "url": "https://tagdlaw.com.br/entre-remendos-e-reformas-o-que-realmente-mudou-no-setor-eletrico-em-2025/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O texto aprovado no último dia de vigência (17/09/2025) e convertido n Lei nº 15.235/2025 estabeleceu a isenção integral para consumidores de baixa renda inscritos no CadÚnico com consumo de até 80 kWh/mês [...] Assim, embora tenha proporcionado alívio imediato a milhões de famílias, a nova regra projetou efeitos distributivos de médio prazo, redistribuindo custos entre os demais consumidores.",
+          "prova": "Leitura independente: o custo da isenção recai sobre os demais consumidores."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.270, de 26 de novembro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15270.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 15.270, DE 26 DE NOVEMBRO DE 2025 [...] para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas",
+          "prova": "A outra leitura possível: imposto mínimo sobre altas rendas, aprovado em 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Cenário Energia",
+          "titulo": "Reforma do setor elétrico redesenha o mercado de energia (19/02/2026)",
+          "url": "https://cenarioenergia.com.br/2026/02/19/reforma-do-setor-eletrico-redesenha-o-mercado-de-energia-e-amplia-desafios-regulatorios/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Lei nº 15.269/2025 também avançou na discussão sobre a alocação mais equitativa de encargos setoriais, especialmente da Conta de Desenvolvimento Energético (CDE). Débora Yanasse observou que o texto legal buscou mitigar distorções históricas ao evitar que o mercado regulado continue arcando de forma desproporcional com subsídios do setor.",
+          "prova": "A reforma de 2025 também dividiu o encargo entre mercado livre e regulado."
+        }
+      ]
+    },
+    {
+      "id": "A172",
+      "veredito": "VERDADEIRO",
+      "resumo": "Mercado livre, apontado como mais barato, era restrito a grandes consumidores; residências ainda não podem migrar",
+      "explicacao": "A Lei 15.269/2025 prevê a redução dos limites de tensão e carga para chegar aos consumidores abaixo de 2,3 kV, o que mostra que eles estavam fora do mercado livre. Duas reportagens independentes descrevem o mercado livre como restrito, até então, aos grandes consumidores, e associam a abertura ao acesso a energia mais barata, com economia estimada de até 18% na compra de energia. O essencial da comparação confere. A parte 'comprava do Estado' é imprecisa: no mercado regulado quem vende é a distribuidora da área de concessão. Isso vai na ressalva e não muda a leitura central. Confiança média porque a vantagem de preço vem de estimativa de mercado, não de série oficial de preços capturada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "regras anteriores à Lei 15.269, de 24/11/2025",
+      "ressalva": "No mercado regulado a energia é vendida pela distribuidora da região, não pelo Estado; a economia é estimativa",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.269, de 24 de novembro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15269.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 15.269, DE 24 DE NOVEMBRO DE 2025 [...] § 17. A redução dos limites de tensão e carga de que trata o § 3º, para atingir os consumidores atendidos em tensão inferior a 2,3 kV (dois inteiros e três décimos quilovolts): I - deverá observar o seguinte cronograma: a) até 24 (vinte e quatro) meses da entrada em vigor deste dispositivo para consumidores industriais e comerciais; b) até 36 (trinta e seis) meses da entrada em vigor deste dispositivo para os demais consumidores; II - deverá ser antecedida do atendimento aos seguintes requisitos: a) desenvolvimento e execução de plano de comunicação para conscientização dos consumidores quanto à opção de migração para o Ambiente de Contratação Livre (ACL);",
+          "prova": "A lei precisa reduzir os limites para incluir quem está abaixo de 2,3 kV: os pequenos consumidores estavam fora do mercado livre."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Mercado livre de energia avança? Entenda como a nova lei pode acelerar o acesso",
+          "url": "https://timesbrasil.com.br/brasil/mercado-livre-de-energia-avanca-entenda-nova-lei-pode-acelerar-abertura/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A legislação estabelece uma abertura gradual do mercado livre de energia, permitindo que consumidores em baixa tensão , como residências e pequenas empresas, possam acessar esse mercado, que até então estava restrito a grandes consumidores. Isso é um marco importante para democratizar o acesso à energia mais barata e competitiva.",
+          "prova": "O mercado livre era restrito aos grandes e é associado a energia mais barata."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Cenário Energia",
+          "titulo": "Abertura da baixa tensão inaugura nova era do mercado livre (08/07/2026)",
+          "url": "https://cenarioenergia.com.br/2026/07/08/abertura-da-baixa-tensao-inaugura-nova-era-do-mercado-livre-e-pode-reduzir-conta-de-luz-em-ate-18/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A medida amplia para milhões de consumidores um benefício que, até então, estava restrito aos grandes consumidores do Ambiente de Contratação Livre (ACL): a possibilidade de negociar preços, prazos, indexadores e características da energia contratada diretamente com comercializadoras e geradores. As estimativas do mercado apontam para economias potenciais de até 18% na parcela referente à compra da energia elétrica [...] as concessionárias deixam de deter exclusividade sobre a venda da energia elétrica aos consumidores de suas áreas de concessão.",
+          "prova": "A restrição aos grandes, a economia estimada e quem vende no regulado: a concessionária."
+        }
+      ]
+    },
+    {
+      "id": "A173",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lei de 2025 abre o mercado livre a todos; residências entram até novembro de 2028",
+      "explicacao": "A Lei 15.269, de 24/11/2025, fixa o cronograma de abertura do mercado livre aos consumidores abaixo de 2,3 kV: até 24 meses para indústria e comércio e até 36 meses para os demais, inclusive residências, com requisitos prévios como o plano de comunicação. A abertura a todos foi aprovada e sancionada no atual governo, como diz a afirmação. Na data da fala, porém, o consumidor residencial ainda não podia migrar: o prazo vai até novembro de 2028 e, em agosto de 2026, o decreto de regulamentação ainda estava para ser assinado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 15.269 de 24/11/2025; situação em agosto de 2026",
+      "ressalva": "Na data da fala a abertura ainda não valia para residências, que entram até novembro de 2028",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "Para indústria e comércio, o Cenário Energia de fevereiro fala em novembro de 2027 e o de agosto em dezembro de 2027. Não afeta o veredito.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.269, de 24 de novembro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15269.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 15.269, DE 24 DE NOVEMBRO DE 2025 [...] § 17. A redução dos limites de tensão e carga de que trata o § 3º, para atingir os consumidores atendidos em tensão inferior a 2,3 kV (dois inteiros e três décimos quilovolts): I - deverá observar o seguinte cronograma: a) até 24 (vinte e quatro) meses da entrada em vigor deste dispositivo para consumidores industriais e comerciais; b) até 36 (trinta e seis) meses da entrada em vigor deste dispositivo para os demais consumidores; II - deverá ser antecedida do atendimento aos seguintes requisitos: a) desenvolvimento e execução de plano de comunicação para conscientização dos consumidores quanto à opção de migração para o Ambiente de Contratação Livre (ACL);",
+          "prova": "O texto da lei: abertura a todos, com prazos de 24 e 36 meses e requisitos prévios."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TAGD Advogados",
+          "titulo": "Entre remendos e reformas: o que realmente mudou no setor elétrico em 2025",
+          "url": "https://tagdlaw.com.br/entre-remendos-e-reformas-o-que-realmente-mudou-no-setor-eletrico-em-2025/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Já a Lei nº 15.269/2025 (fruto da MP nº 1.304/2025) estabeleceu , um cronograma efetivo de abertura do mercado livre: consumidores industriais e comerciais terão direito à migração em até 24 meses, enquanto consumidores residenciais e demais classes poderão migrar em até 36 meses contados da publicação da lei",
+          "prova": "Leitura independente do cronograma da lei."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Cenário Energia",
+          "titulo": "Reforma do setor elétrico redesenha o mercado de energia (19/02/2026)",
+          "url": "https://cenarioenergia.com.br/2026/02/19/reforma-do-setor-eletrico-redesenha-o-mercado-de-energia-e-amplia-desafios-regulatorios/",
+          "consultada_em": "2026-10-16",
+          "trecho": "ao destacar que até novembro de 2027 a abertura alcançará clientes industriais e comerciais e, até novembro de 2028, todos os consumidores, inclusive residenciais.",
+          "prova": "As datas-limite da abertura: residências até novembro de 2028."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Cenário Energia",
+          "titulo": "Decreto de abertura do mercado livre para a baixa tensão será assinado (10/08/2026)",
+          "url": "https://cenarioenergia.com.br/2026/08/10/decreto-abertura-mercado-livre-baixa-tensao-alexandre-silveira/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Governo Federal assinará até a próxima semana o decreto que regulamenta a abertura total do Mercado Livre de Energia (Ambiente de Contratação Livre – ACL) para os consumidores conectados na baixa tensão no Brasil. [...] pequenas indústrias e estabelecimentos comerciais passarão a ter acesso ao mercado livre a partir de dezembro de 2027, enquanto os demais consumidores, incluindo o segmento residencial e rural, poderão escolher seu fornecedor de energia a partir de novembro de 2028.",
+          "prova": "Em agosto de 2026 a regulamentação ainda estava pendente."
+        }
+      ]
+    },
+    {
+      "id": "A174",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A espera por especialista é problema reconhecido, mas nenhuma pesquisa achada a põe como a principal queixa",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A afirmação é um ranking: a espera seria a principal queixa dos usuários do SUS. Isso se confere com pesquisa de opinião que liste as queixas (Datafolha/CFM, CNI ou IBGE). Nesta rodada não foi capturada nenhuma pesquisa de 2025 ou 2026 com essa lista; a busca foi interrompida pelo limite de buscas da sessão, então ela não é exaustiva. As fontes capturadas confirmam que a espera por consultas, exames e cirurgias especializadas é problema central reconhecido pelo Ministério da Saúde e por sanitaristas, mas nenhuma a coloca em primeiro lugar entre as queixas. Não é FALSO porque nada contradiz o ranking; é INSUSTENTAVEL porque o primeiro lugar não foi sustentado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Projeto Mais Médicos Especialistas",
+          "url": "https://www.gov.br/saude/pt-br/composicao/sgtes/mais-medicos/especialistas",
+          "consultada_em": "2026-10-16",
+          "trecho": "A proposta integra as ações do Programa Agora Tem Especialistas com foco na redução do tempo de espera por atendimento especializado e aumento da resolutividade dos serviços de saúde",
+          "prova": "O governo reconhece a espera como problema a enfrentar, mas o texto não é pesquisa de queixas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ritmo de cirurgias do Agora Tem Especialistas caiu em 2025, aponta TCU",
+          "url": "https://futurodasaude.com.br/?p=47964",
+          "consultada_em": "2026-10-16",
+          "trecho": "É verdade que os transplantes são um problema, do ponto de vista numérico, menor do que consultas de especialidades, mas precisamos ter uma fila única como os transplantes. [...] Especialidades é um problema de mais de 30 anos que vem se acumulando.",
+          "prova": "Sanitaristas tratam a fila de especialidades como problema antigo e grande, sem ranking de queixas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Outras Palavras (Outra Saúde)",
+          "titulo": "Agora Tem Especialistas avança, mas não supera gargalos",
+          "url": "https://outraspalavras.net/outrasaude/agora-tem-especialistas-avanca-mas-nao-supera-gargalos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O programa é correto, um choque de oferta de procedimentos especializados diante de uma calamidade, milhões de pessoas na fila.",
+          "prova": "A dimensão da fila, sem pesquisa que a ponha como principal queixa."
+        }
+      ]
+    },
+    {
+      "id": "A175",
+      "veredito": "VERDADEIRO",
+      "resumo": "Cirurgias eletivas no SUS cresceram 42% de 2022 a 2025, e o TCU vê ajuda do programa nessa alta",
+      "explicacao": "Dados do Ministério da Saúde, reproduzidos pela imprensa, mostram alta das cirurgias eletivas (14,9 milhões em 2025, 42% acima de 2022, segundo o Diário do Pará; a primeira divulgação, citada pelo Futuro da Saúde, dava 10,8 milhões em 2022 e 14,7 milhões em 2025), das consultas com especialistas (alta de 30%) e dos exames especializados (alta de 22%). Até julho de 2026, 2,92 milhões de cirurgias, 40% do total, saíram pelo Agora Tem Especialistas. O próprio ministério registra mais de 1 milhão de procedimentos nas carretas do programa e aumento de atendimentos onde chegaram os especialistas. A auditoria do TCU, relatada por duas publicações, vê impacto positivo na produção cirúrgica, com ritmo de crescimento em queda. A pergunta diz que o programa ampliou o atendimento, e isso confere. Confiança média porque parte da alta começou antes do programa e a atribuição exata não é medida.",
+      "numero_dito": null,
+      "numero_apurado": "cirurgias eletivas: 14,9 milhões em 2025, 42% acima de 2022 (balanço do Ministério da Saúde)",
+      "data_de_referencia": "2022 a 2025; até julho de 2026",
+      "ressalva": "Parte da alta é anterior ao programa, e o TCU aponta crescimento de só 4,5% em 2025",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Para 2025, o Diário do Pará cita 14,9 milhões de cirurgias eletivas e o Futuro da Saúde, 14,7 milhões, ambos com dados do Ministério da Saúde.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Carretas do Agora Tem Especialistas ultrapassam 1 milhão de procedimentos no SUS (set/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/carretas-do-agora-tem-especialistas-ultrapassam-1-milhao-de-procedimentos-no-sus",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mais de 1 milhão de procedimentos foram realizados pelas carretas do Agora Tem Especialistas em todo o país. As 120 unidades móveis em funcionamento atenderam 393,7 mil pessoas em 4.290 municípios, com consultas, exames e cirurgias especializadas.",
+          "prova": "Atendimento especializado novo, contado pelo próprio ministério."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Ministério da Saúde prorroga permanência de médicos especialistas até fevereiro de 2027 (ago/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/ministerio-da-saude-prorroga-permanencia-de-medicos-especialistas-ate-fevereiro-de-2027-em-todo-o-pais",
+          "consultada_em": "2026-10-16",
+          "trecho": "O programa integra o Agora Tem Especialistas, instituído pela Lei nº 15.233, de 7 de outubro de 2025. [...] A presença do Projeto Mais Médicos Especialistas também permitiu um aumento imediato no número de atendimentos e procedimentos realizados, a exemplo do serviço na cidade de Patos de Minas, em Minas Gerais, onde a realização de ultrassonografias mamárias teve um salto de 565%, passando de 52 para 344 exames.",
+          "prova": "O programa é do atual governo e aumentou procedimentos onde atuou."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ritmo de cirurgias do Agora Tem Especialistas caiu em 2025, aponta TCU",
+          "url": "https://futurodasaude.com.br/?p=47964",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dados do Ministério da Saúde apontam que as cirurgias eletivas saltaram de 10,8 milhões em 2022 para 14,7 milhões em 2025, um aumento de cerca de 40%, como impacto do programa. [...] Desde a criação do Plano Nacional de Redução de Filas em 2023, o ritmo de crescimento da produção total vem perdendo força. A taxa de expansão, que era de 45,6% em 2022, caiu para 20,3% em 2023 e 2024, chegando a 4,5% em 2025",
+          "prova": "A série de cirurgias e a desaceleração apontada pelo TCU."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Pará",
+          "titulo": "Agora Tem Especialistas amplia atendimento médico no Pará",
+          "url": "https://diariodopara.com.br/para/agoratem-especialistas-amplia-atendimento-medico-no-para-saiba-mais/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 2025, o país registrou a marca recorde de 14,9 milhões de cirurgias eletivas pelo SUS, um crescimento de 42% em relação a 2022. O número de consultas com especialistas chegou a 1,6 bilhão, alta de 30% no período, enquanto os exames especializados ultrapassaram 1,3 bilhão, aumento de 22%.",
+          "prova": "Consultas e exames especializados também cresceram."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News",
+          "titulo": "SUS realiza 7,5 milhões de cirurgias eletivas no primeiro semestre de 2026",
+          "url": "https://tvtnews.com.br/?p=803108",
+          "consultada_em": "2026-10-16",
+          "trecho": "Do total de cirurgias realizadas até julho, 2,92 milhões, o equivalente a 40%, foram feitas por meio do programa Agora Tem Especialistas .",
+          "prova": "A fatia das cirurgias feita pelo próprio programa em 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Outras Palavras (Outra Saúde)",
+          "titulo": "Agora Tem Especialistas avança, mas não supera gargalos",
+          "url": "https://outraspalavras.net/outrasaude/agora-tem-especialistas-avanca-mas-nao-supera-gargalos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Num primeiro olhar, o programa tem impacto positivo, ao aumentar a produção cirúrgica no país. No entanto, a queda do ritmo dos últimos meses sinaliza os limites da atual oferta de serviços especializados no SUS.",
+          "prova": "Leitura independente da auditoria do TCU: ampliou, com ritmo em queda."
+        }
+      ]
+    },
+    {
+      "id": "A176",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Sem série nacional; TCU vê mediana menor na maioria das cirurgias, um quarto esperando mais e baixa efetividade",
+      "explicacao": "A afirmação pede uma série do tempo de espera antes e depois do programa. As fontes capturadas mostram que essa série nacional não existe de forma publicada: o TCU apontou dificuldade de estabelecer as filas por falta de integração de sistemas, e em julho de 2026 só 448 centrais de regulação estavam ativas no e-SUS Regulação. O próprio acórdão do TCU (1622/2026) puxa para os dois lados: a ementa registra 'baixa efetividade na redução do tempo de espera', o que vai na direção da pergunta, mas o texto conclui que a mediana da espera caiu na maioria das cirurgias eletivas do rol do programa e que a maioria dos usuários está sendo atendida mais rapidamente, enquanto um quarto deles espera cada vez mais. O Ministério afirma redução da espera, sem série. Como 'significativamente' não tem régua e o dado é parcial, a frase não se sustenta nem se derruba.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "auditoria do TCU sobre 2023 a 2025; e-SUS Regulação em julho de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Ministério da Saúde diz que a redução da espera acompanha o aumento de procedimentos; o TCU, no mesmo acórdão, registra baixa efetividade na redução do tempo de espera e, no corpo do relatório, mediana menor na maioria das cirurgias e espera maior para um quarto dos usuários.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (relatório e voto do Acórdão 1622/2026, TC 015.703/2025-8)",
+          "titulo": "Acórdão 1622/2026, Plenário: auditoria operacional do Programa Agora Tem Especialistas",
+          "url": "https://portal.tcu.gov.br/uploads/noticias/pdf/2026/06/24/documentos_-_2026-06-24T123648.987.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "BAIXA EFETIVIDADE NA REDUÇÃO DO TEMPO DE ESPERA. [...] A mediana dos tempos de espera está reduzindo para a maioria dos procedimentos cirúrgicos eletivos do rol do Pate registrados na RNDS, porém um quarto dos usuários enfrenta esperas cada vez mais longas 60. A análise dos dados de regulação da RNDS revela que a maioria dos usuários está sendo atendida mais rapidamente",
+          "prova": "A fonte primária da auditoria, com os dois lados: a ementa de baixa efetividade e a mediana em queda na maioria dos procedimentos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ritmo de cirurgias do Agora Tem Especialistas caiu em 2025, aponta TCU",
+          "url": "https://futurodasaude.com.br/?p=47964",
+          "consultada_em": "2026-10-16",
+          "trecho": "O TCU também apontou dificuldades de estabelecer as filas e acompanhar os investimentos do programa por falta de integração de sistemas do Ministério da Saúde. Segundo o Tribunal, a mediana dos tempos de espera está reduzindo para a maioria dos procedimentos cirúrgicos eletivos do rol do programa, porém, um quarto dos usuários enfrenta esperas cada vez mais longas.",
+          "prova": "O achado do TCU sobre a espera, que não confirma nem nega a falta de queda significativa."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Regulação para redução de filas foi destaque no Conasems (jul/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/atuacao-integrada-da-vigilancia-e-da-atencao-basica-regulacao-para-reducao-de-filas-soberania-tecnologica-do-sus-foram-destaque-no-conasems",
+          "consultada_em": "2026-10-16",
+          "trecho": "O e-SUS Regulação é uma ferramenta disponibilizada pelo Ministério para a comunicação entre as redes de saúde para a gestão e transparência das filas de espera no SUS. Hoje, 1.588 centrais de regulação de estados e municípios estão em ambiente de treinamento e outras 448 centrais já estão ativas e operacionais no ambiente do e-SUS Regulação.",
+          "prova": "A ferramenta nacional de filas ainda estava em implantação: não há série nacional."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Ministério da Saúde prorroga permanência de médicos especialistas até fevereiro de 2027 (ago/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/ministerio-da-saude-prorroga-permanencia-de-medicos-especialistas-ate-fevereiro-de-2027-em-todo-o-pais",
+          "consultada_em": "2026-10-16",
+          "trecho": "A redução do tempo de espera está relacionada ao aumento do número de procedimentos realizados pelos especialistas. A produção é acompanhada por meio dos registros do Sistema de Informação Ambulatorial e do Sistema de Informação Hospitalar",
+          "prova": "O ministério afirma redução, mas mede produção, não tempo de espera."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Outras Palavras (Outra Saúde)",
+          "titulo": "Agora Tem Especialistas avança, mas não supera gargalos",
+          "url": "https://outraspalavras.net/outrasaude/agora-tem-especialistas-avanca-mas-nao-supera-gargalos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Uma auditoria do Tribunal de Contas da União traz números que permitem uma avaliação parcial dos resultados do Agora Tem Especialistas.",
+          "prova": "Leitura independente: o dado disponível só permite avaliação parcial."
+        }
+      ]
+    },
+    {
+      "id": "A177",
+      "veredito": "VERDADEIRO",
+      "resumo": "Sanitaristas ouvidos pela imprensa chamam o programa de correto, mas dizem que ele não resolve a fila",
+      "explicacao": "A pergunta atribui a quem estuda saúde pública a avaliação de que o programa é paliativo necessário e não estruturante. Duas publicações independentes ouviram sanitaristas com essa leitura: Gonzalo Vecina Neto (USP) diz que o programa é correto, mas não resolverá o problema; Tulio Franco (UFF) chama o programa de choque de oferta correto e diz que, para não repetir a fila, é preciso aumentar a resolutividade nos territórios. O Futuro da Saúde registra que carretas e mutirões não focam na solução estrutural das filas. O sentido da atribuição confere. Confiança média porque são especialistas ouvidos pela imprensa, não um levantamento entre pesquisadores, e a palavra 'paliativo' não aparece nas falas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "avaliações publicadas em 2026",
+      "ressalva": "São falas de sanitaristas ouvidos pela imprensa, não um levantamento; a palavra paliativo não aparece",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ritmo de cirurgias do Agora Tem Especialistas caiu em 2025, aponta TCU",
+          "url": "https://futurodasaude.com.br/?p=47964",
+          "consultada_em": "2026-10-16",
+          "trecho": "Para Vecina, a iniciativa do Ministério da Saúde é boa, mas não resolve o problema. [...] O Agora Tem Especialistas é um programa correto, mas não resolverá o problema da assistência à saúde”, afirma o sanitarista. [...] Essas não são consideradas iniciativas inovadoras pelos especialistas, servindo para reduzir uma demanda urgente, como a que foi reprimida na pandemia de Covid-19. Entretanto, não foca na solução estrutural das filas de especialidades.",
+          "prova": "Sanitarista e especialistas: programa correto, sem solução estrutural."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Outras Palavras (Outra Saúde)",
+          "titulo": "Agora Tem Especialistas avança, mas não supera gargalos",
+          "url": "https://outraspalavras.net/outrasaude/agora-tem-especialistas-avanca-mas-nao-supera-gargalos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O programa é correto, um choque de oferta de procedimentos especializados diante de uma calamidade, milhões de pessoas na fila. Mas, para não repetir, é necessário aumentar a resolutividade nos territórios, o que significa ampliar o escopo de serviços de referência territorial.",
+          "prova": "Outro sanitarista, em publicação independente, com a mesma leitura."
+        }
+      ]
+    },
+    {
+      "id": "A178",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Governo registrou o auge do Mais Médicos em 18.240 médicos, em 2015; falta uma segunda fonte independente",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A fala diz que o programa chegou a ter 20 e poucos mil médicos, o que se refere ao auge, antes de 2023. Nesta segunda rodada foi achada a fonte oficial: a exposição de motivos da MP 1.165, de março de 2023, assinada pelos ministérios da Saúde, da Educação e da Fazenda, diz que o Mais Médicos, no seu auge, em 2015, contava com 18.240 profissionais. O parecer da comissão mista do Congresso repete o mesmo número, mas resumindo a própria exposição de motivos, então as duas contam como uma fonte. Se uma segunda fonte independente confirmar o auge de 18.240, a fala tende a IMPRECISO: 20 mil já fica perto de 10% acima, e 20 e poucos mil passa disso. A busca por essa segunda fonte foi interrompida pelo limite de buscas, então não é exaustiva.",
+      "numero_dito": "20 e poucos mil médicos",
+      "numero_apurado": "18.240 profissionais no auge, em 2015, segundo a exposição de motivos do governo de março de 2023; falta fonte independente",
+      "data_de_referencia": "2015, auge do programa",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (exposição de motivos da MP 1.165/2023, MS, MEC e MF)",
+          "titulo": "Exposição de motivos da Medida Provisória nº 1.165, de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/Exm/Exm-1165-23.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "EMI nº 00011/2023 MS/MEC/MF [...] Brasília, 20 de março de 2023 [...] o Programa registra hoje 8.613 profissionais em atuação, muito aquém do registrado em seu auge, em 2015, quando contava com 18.240 profissionais.",
+          "prova": "O número oficial do auge do Mais Médicos, que é o recorte da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Congresso Nacional (Parecer nº 1/2023-CN, comissão mista da MP 1.165)",
+          "titulo": "Parecer da comissão mista sobre a Medida Provisória nº 1.165, de 2023",
+          "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2284995",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 2015, o Projeto Mais Médicos para o Brasil contava com 18.240 médicos atuando em 4.058 municípios e em todos os 34 Distritos Sanitários Especiais Indígenas, em todas as regiões do Brasil. Atualmente, segundo a EMI,",
+          "prova": "Repete o auge de 18.240, mas como resumo da exposição de motivos: não é fonte independente."
+        }
+      ]
+    },
+    {
+      "id": "A179",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Governo dá 8.613 médicos no Mais Médicos em março de 2023 e 12.843 em dezembro de 2022; as fontes divergem",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O número que resolve é o total de médicos em atividade no programa de provimento quando Lula voltou à presidência. Há dois números do próprio governo que não batem. A exposição de motivos da MP 1.165, de 20 de março de 2023, diz que o Mais Médicos 'registra hoje 8.613 profissionais em atuação' e que os programas federais de provimento estavam no menor número de médicos em atividade desde 2014. Um comunicado do Ministério da Saúde de julho de 2024, reproduzido pelo Medicina S/A e pelo O Imparcial, informa 12.843 profissionais na ativa em dezembro de 2022, compatível com 'apenas 12 mil'. As duas reproduções são do mesmo comunicado e contam como uma fonte, e a página original do governo está fora do ar no período eleitoral. As fontes não dizem se medem o mesmo conjunto de programas, então a divergência fica escrita e não resolvida. Não é FALSO porque o número da fala existe numa delas.",
+      "numero_dito": "12 mil",
+      "numero_apurado": "12.843 na ativa em dezembro de 2022, em comunicado reproduzido pela imprensa, e 8.613 em atuação no Mais Médicos em março de 2023, na exposição de motivos",
+      "data_de_referencia": "dezembro de 2022 e março de 2023",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "A exposição de motivos da MP 1.165 dá 8.613 profissionais em atuação no Mais Médicos em março de 2023; o comunicado do Ministério da Saúde de 2024 dá 12.843 na ativa em dezembro de 2022. As fontes não dizem se contam o mesmo conjunto de programas.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Medicina S/A (reprodução de comunicado do Ministério da Saúde)",
+          "titulo": "Mais Médicos cresce 137% no estado de São Paulo em 18 meses",
+          "url": "https://medicinasa.com.br/mais-medicos-cresce",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nacional — Em dezembro de 2022, 12.843 profissionais estavam na ativa. [...] “O Mais Médicos é uma realidade e faz a diferença. Quando assumimos o governo, havia ainda 12 mil médicos.",
+          "prova": "O total de dezembro de 2022, segundo o comunicado do ministério."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Imparcial (reprodução de comunicado do Ministério da Saúde)",
+          "titulo": "Em 18 meses, Mais Médicos cresce 58,3% no Maranhão",
+          "url": "https://oimparcial.com.br/noticias/2024/07/em-18-meses-mais-medicos-cresce-583-no-maranhao/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Atualmente, 24.894 médicos e médicas atendem em todo o Brasil. São 12.051 profissionais a mais que o registrado em dezembro de 2022.",
+          "prova": "O mesmo comunicado: 24.894 menos 12.051 dá 12.843 em dezembro de 2022."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (exposição de motivos da MP 1.165/2023, MS, MEC e MF)",
+          "titulo": "Exposição de motivos da Medida Provisória nº 1.165, de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/Exm/Exm-1165-23.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Brasília, 20 de março de 2023 [...] Os programas federais de provimento de médicos para a Atenção Primária à Saúde (APS) apresentam, atualmente, o menor número de médicos em atividade desde 2014 [...] o Programa registra hoje 8.613 profissionais em atuação",
+          "prova": "Fonte oficial do trimestre da posse, com 8.613 só no Mais Médicos, número diferente do comunicado de 2024."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "12.843",
+          "de": "24.894 menos 12.051",
+          "como": "subtração do total de junho de 2024 pelo acréscimo desde dezembro de 2022"
+        }
+      ]
+    },
+    {
+      "id": "A180",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Em junho de 2024 havia 12.051 médicos a mais que em 2022, e 24,9 mil em maio de 2025; falta o dado de 2026",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A fala diz que o governo já contratou 16 mil médicos no programa de provimento. O comunicado do Ministério reproduzido pela imprensa dá, em junho de 2024, 24.894 médicos em atividade, 12.051 a mais que em dezembro de 2022; o dado mais recente capturado é da Agência Brasil, de maio de 2025: cerca de 24,9 mil médicos atuando, com meta de 28 mil até o fim de 2025. Esse é saldo de médicos em atividade, não total de contratações, que pode ser maior por causa das saídas. Nesta segunda rodada foram abertas as páginas do programa no portal do Ministério da Saúde e as notícias de 2026: nenhuma traz o total de 2026 nem um total de 16 mil contratados, e os balanços estão fora do ar no período eleitoral. Os cerca de 2 mil do Mais Médicos Especialistas são outro componente. Sem o dado da data da fala, não se sustenta nem se derruba.",
+      "numero_dito": "16 mil",
+      "numero_apurado": "12.051 médicos a mais em atividade em junho de 2024 do que em dezembro de 2022",
+      "data_de_referencia": "dezembro de 2022 a maio de 2025 (dado de 2026 não localizado)",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Medicina S/A (reprodução de comunicado do Ministério da Saúde)",
+          "titulo": "Mais Médicos cresce 137% no estado de São Paulo em 18 meses",
+          "url": "https://medicinasa.com.br/mais-medicos-cresce",
+          "consultada_em": "2026-10-16",
+          "trecho": "Atualmente, 24.894 médicos e médicas atendem em todo o Brasil. São 12.051 profissionais a mais que o registrado em dezembro de 2022. [...] O estado de São Paulo é o sexto do país com maior taxa de crescimento de profissionais no Mais Médicos entre dezembro de 2022 e junho de 2024.",
+          "prova": "O saldo de médicos em atividade até junho de 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Mais Goiás (Agência Brasil)",
+          "titulo": "Mais Médicos bate recorde de inscritos",
+          "url": "https://www.maisgoias.com.br/brasil/mais-medicos-bate-recorde-de-inscritos-com-mais-de-457-mil-candidatos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Publicado em: 22/05/2025 [...] a meta do Ministério da Saúde é chegar a 28 mil profissionais, em 4.547 municípios, até o fim de 2025. Atualmente, o programa conta com cerca de 24,9 mil médicos atuando em 4,2 mil municípios, o que representa 77% do território nacional.",
+          "prova": "Fonte independente com o total em atividade em maio de 2025 e a meta de 28 mil, sem 16 mil contratações."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Ministério da Saúde prorroga permanência de médicos especialistas até fevereiro de 2027 (ago/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/ministerio-da-saude-prorroga-permanencia-de-medicos-especialistas-ate-fevereiro-de-2027-em-todo-o-pais",
+          "consultada_em": "2026-10-16",
+          "trecho": "O projeto já alcança 2 mil médicos especialistas distribuídos em todo o país — quatro vezes a meta inicial —, dos quais cerca de 500 são anestesiologistas, fundamentais para a realização de cirurgias.",
+          "prova": "O componente de especialistas, que não soma 16 mil e é contado à parte."
+        }
+      ]
+    },
+    {
+      "id": "A181",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Mais Médicos Especialistas já soma cerca de 2 mil médicos, segundo o Ministério da Saúde em agosto de 2026",
+      "explicacao": "O governo criou o Projeto Mais Médicos Especialistas, que leva e aprimora médicos especialistas no SUS dentro do Agora Tem Especialistas. Em agosto de 2026 o Ministério informava cerca de 2 mil especialistas no projeto, com 1.480 em atividade e 451 chegando pelo terceiro ciclo; o edital de julho abriu 1.136 vagas, e a página do projeto prevê 2000 vagas de aprimoramento em 2026. Uma reportagem de fevereiro de 2026 já registrava 570 novos especialistas. A afirmação de que o governo está ampliando o provimento de especialistas confere. As vagas de residência médica não foram conferidas nesta rodada.",
+      "numero_dito": null,
+      "numero_apurado": "cerca de 2 mil médicos especialistas no projeto (agosto de 2026)",
+      "data_de_referencia": "agosto de 2026",
+      "ressalva": "O dado é de provimento e aprimoramento de especialistas; vagas de residência não foram conferidas",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Ministério da Saúde prorroga permanência de médicos especialistas até fevereiro de 2027 (ago/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/ministerio-da-saude-prorroga-permanencia-de-medicos-especialistas-ate-fevereiro-de-2027-em-todo-o-pais",
+          "consultada_em": "2026-10-16",
+          "trecho": "O projeto já alcança 2 mil médicos especialistas distribuídos em todo o país — quatro vezes a meta inicial —, dos quais cerca de 500 são anestesiologistas, fundamentais para a realização de cirurgias. Do total de especialistas, 52% atuam no interior do país, contribuindo para ampliar a oferta de atendimento e reduzir vazios assistenciais. Atualmente, são 1.480 médicos em atividade, além de 451 com chegada nessa semana, pelo 3º Ciclo do Projeto Mais Médicos Especialistas.",
+          "prova": "O tamanho do provimento de especialistas na data mais próxima da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Edital abre 1.136 vagas para provimento de médicos especialistas (jul/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/edital-abre-1-138-vagas-para-provimento-de-medicos-especialistas",
+          "consultada_em": "2026-10-16",
+          "trecho": "Estão abertas, até o dia 16 de julho, as inscrições para o terceiro ciclo do edital para provimento de médicos especialistas. Ao todo, são 1.136 vagas imediatas, distribuídas em 26 cursos de aprimoramento, abrangendo 309 municípios nas cinco regiões do Brasil e nas 26 Unidades da Federação.",
+          "prova": "Novo ciclo de vagas aberto em 2026."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Projeto Mais Médicos Especialistas",
+          "url": "https://www.gov.br/saude/pt-br/composicao/sgtes/mais-medicos/especialistas",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ofertar 2000 vagas de aprimoramento para médicos especialistas na rede de serviços próprios ou contratualizados do Sistema Único de Saúde (SUS), ainda em 2026.",
+          "prova": "A meta oficial do projeto para 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Viva (reprodução de dado do Ministério da Saúde)",
+          "titulo": "SUS bate recorde e realiza 14,7 milhões de cirurgias eletivas em 2025 (07/02/2026)",
+          "url": "https://viva.com.br/noticias/sus-bate-recorde-e-realiza-147-milhoes-de-cirurgias-eletivas-em-2025.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Além disso, o programa reforçou o atendimento no SUS com 570 novos médicos especialistas , a maioria (72%) atuando no Norte e Nordeste.",
+          "prova": "Registro anterior, em fevereiro de 2026, do provimento já em curso."
+        }
+      ]
+    },
+    {
+      "id": "A182",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O programa existe desde 2004 e virou lei em 2023; não foi achado dado do governo anterior que mostre parada ou queda",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A fala diz que o Brasil Sorridente precisava 'voltar a funcionar', o que pressupõe que tinha parado ou encolhido antes de 2023. Para conferir seria preciso o orçamento executado e o número de equipes de saúde bucal e de Centros de Especialidades Odontológicas ano a ano no governo anterior. As fontes capturadas mostram que o programa existe desde 2004, que a Política Nacional de Saúde Bucal virou lei em maio de 2023 e que, em julho de 2026, havia 34,5 mil equipes de saúde bucal; nenhuma traz a série do período anterior, e a busca foi interrompida pelo limite de buscas. Não há prova de extinção nem de queda, e também não há prova do contrário.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Brasil Sorridente",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil Sorridente é um programa de assistência odontológica, criado em 2004, que apresenta diretrizes nacionais de saúde bucal, integradas na Política Nacional de Saúde Bucal.",
+          "prova": "O programa é de 2004; a página não fala em interrupção."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.572, de 8 de maio de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14572.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 14.572, DE 8 DE MAIO DE 2023 [...] Institui a Política Nacional de Saúde Bucal no âmbito do Sistema Único de Saúde (SUS) e altera a Lei nº 8.080, de 19 de setembro de 1990, para incluir a saúde bucal no campo de atuação do SUS .",
+          "prova": "O que mudou em 2023 foi a política virar lei, o que não prova que ela tinha parado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde",
+          "titulo": "Próteses dentárias digitais e Rede de Atenção à Saúde Bucal são pactuadas na CIT (jul/2026)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/proteses-dentarias-digitais-e-rede-de-atencao-a-saude-bucal-sao-pactuadas-na-cit-em-porto-alegre",
+          "consultada_em": "2026-10-16",
+          "trecho": "Atualmente, há 34,5 mil equipes de Saúde Bucal na atenção primária do SUS, com capacidade para atender cerca de 105 milhões de brasileiros. A rede pública também conta com 3 mil Laboratórios Regionais de Próteses Dentárias, 1,2 mil Centros de Especialidades Odontológicas, 278 Serviços de Especialidades em Saúde Bucal e 1,1 mil Unidades Odontológicas Móveis.",
+          "prova": "O tamanho atual da rede, sem a série de antes de 2023 para comparar."
+        }
+      ]
+    }
+  ]
+}

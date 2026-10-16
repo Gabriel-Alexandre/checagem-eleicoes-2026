@@ -1,0 +1,248 @@
+PEDIDO DE CHECAGEM 10 de 15 · alegações A118 a A130
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-10.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A118",
+      "inicio_s": 1626.6,
+      "fim_s": 1634.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu fiquei sabendo que o Bolsa Família não tinha sido reajustado",
+      "afirmacao": "Até a decisão de 2026, o valor do Bolsa Família não tinha sido reajustado no atual mandato de Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "histórico dos valores do benefício do Bolsa Família desde jan/2023, em portarias e decretos do MDS",
+        "se houve correção anterior de algum componente do benefício (valor-base ou adicionais)"
+      ]
+    },
+    {
+      "id": "A119",
+      "inicio_s": 1652.2,
+      "fim_s": 1656.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A gente vai dar e vai dar tudo o que a gente não deu",
+      "afirmacao": "O reajuste do Bolsa Família decidido em 2026 repõe toda a perda de valor acumulada desde a última fixação do valor do benefício",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "percentual do reajuste anunciado e a data de vigência, no ato oficial do MDS",
+        "inflação acumulada (IPCA, IBGE) desde a última fixação do valor do benefício até o anúncio",
+        "se a reposição vale para o valor-base e para os adicionais ou só para parte deles"
+      ]
+    },
+    {
+      "id": "A120",
+      "inicio_s": 1663.8,
+      "fim_s": 1671.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No dia 31 de agosto, duas semanas antes do anúncio, o seu governo mandou para o Congresso a proposta de orçamento de 2027",
+      "citacao_card": "No dia 31 de agosto [...] o seu governo mandou para o Congresso a proposta de orçamento de 2027",
+      "afirmacao": "O governo enviou ao Congresso o projeto de lei orçamentária de 2027 em 31 de agosto de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "data de envio do PLOA 2027 ao Congresso (mensagem presidencial, Ministério do Planejamento, página do Congresso)",
+        "intervalo entre o envio e a data do anúncio do reajuste do Bolsa Família"
+      ]
+    },
+    {
+      "id": "A121",
+      "inicio_s": 1672.1,
+      "fim_s": 1674.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E ali não tinha correção do Bolsa Família",
+      "afirmacao": "O projeto de lei orçamentária de 2027 enviado em 31 de agosto não previa correção do valor do Bolsa Família",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "dotação do Bolsa Família no PLOA 2027 e as premissas de valor do benefício usadas no cálculo",
+        "se a mensagem ou a nota técnica do PLOA 2027 menciona reajuste do benefício"
+      ]
+    },
+    {
+      "id": "A122",
+      "inicio_s": 1687.9,
+      "fim_s": 1698.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Se tem espaço fiscal para aumentar, por que não aumentaram? [...] tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal",
+      "citacao_card": "Se tem espaço fiscal para aumentar [...] tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal",
+      "afirmacao": "Havia espaço fiscal para reajustar o Bolsa Família dentro das regras fiscais vigentes",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "custo anual estimado do reajuste do Bolsa Família, no ato ou na nota do governo",
+        "margem sob o limite de despesas do arcabouço fiscal (LC 200/2023) e a meta de resultado primário, nos relatórios bimestrais de 2026 e no PLOA 2027",
+        "se o reajuste exigiu corte, bloqueio ou remanejamento de outras despesas"
+      ]
+    },
+    {
+      "id": "A123",
+      "inicio_s": 1699.1,
+      "fim_s": 1710.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós apresentamos um orçamento com superávit primário. 0,1%",
+      "afirmacao": "A proposta de orçamento de 2027 prevê superávit primário de 0,1% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "meta e resultado primário projetado no PLOA 2027 e na LDO 2027, em % do PIB",
+        "se o 0,1% é a meta do governo central ou o resultado estimado, e se considera as exclusões permitidas"
+      ]
+    },
+    {
+      "id": "A124",
+      "inicio_s": 1705.8,
+      "fim_s": 1710.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu peguei com um déficit de 2,8%",
+      "afirmacao": "Quando Lula tomou posse, em 2023, o país tinha déficit de 2,8% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "resultado primário do governo central e do setor público em 2022 (Tesouro Nacional e Banco Central), em % do PIB",
+        "déficit previsto no orçamento de 2023 aprovado no fim de 2022",
+        "qual medida dá 2,8%: primária, nominal, realizada ou projetada"
+      ]
+    },
+    {
+      "id": "A125",
+      "inicio_s": 1715.1,
+      "fim_s": 1723.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "tem muita gente séria, instituição fiscal independente, achando que as receitas estão superestimadas para chegar aí nesse superávit",
+      "citacao_card": "instituição fiscal independente, achando que as receitas estão superestimadas",
+      "afirmacao": "A Instituição Fiscal Independente avaliou que as receitas da proposta de orçamento de 2027 estão superestimadas para atingir o superávit previsto",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "Relatório de Acompanhamento Fiscal ou nota técnica da IFI (Senado) sobre o PLOA 2027, set/out de 2026",
+        "se a IFI fala em receitas superestimadas e em risco à meta de resultado primário"
+      ]
+    },
+    {
+      "id": "A126",
+      "inicio_s": 1907.8,
+      "fim_s": 1918.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Um estudo recente da Fundação Getúlio Vargas mostra que um em cada quatro brasileiros está contraindo dívida ou sacando de poupança para pagar contas básicas como água, luz e gás",
+      "citacao_card": "Fundação Getúlio Vargas mostra que um em cada quatro brasileiros está contraindo dívida ou sacando de poupança",
+      "afirmacao": "Estudo recente da FGV mostra que um em cada quatro brasileiros contrai dívida ou saca da poupança para pagar contas básicas como água, luz e gás",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "estudo ou sondagem da FGV (FGV Ibre) de 2026 sobre como os consumidores pagam contas básicas",
+        "percentual exato, universo (brasileiros, consumidores, famílias) e data da pesquisa"
+      ]
+    },
+    {
+      "id": "A127",
+      "inicio_s": 1919.5,
+      "fim_s": 1925.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Em agosto, o senhor deve conhecer bem esse número, eram 84 milhões de pessoas negativadas no Serasa",
+      "citacao_card": "Em agosto [...] eram 84 milhões de pessoas negativadas no Serasa",
+      "afirmacao": "Em agosto de 2026 havia 84 milhões de pessoas inadimplentes registradas no Serasa",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "Mapa da Inadimplência da Serasa, edição de agosto de 2026",
+        "número de pessoas inadimplentes no mês e a definição usada pela Serasa"
+      ]
+    },
+    {
+      "id": "A128",
+      "inicio_s": 1925.8,
+      "fim_s": 1928.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo já lançou três edições do programa Desenrola",
+      "afirmacao": "O governo Lula lançou três edições do programa Desenrola",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "atos de criação de cada edição do Desenrola (medidas provisórias, leis, portarias) de 2023 a 2026, no Ministério da Fazenda e no Planalto",
+        "se a contagem de três edições é a que o próprio governo usa"
+      ]
+    },
+    {
+      "id": "A129",
+      "inicio_s": 1934.6,
+      "fim_s": 1938.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas o que acontece é que logo depois a inadimplência volta a subir",
+      "afirmacao": "Depois das edições do Desenrola, a inadimplência voltou a subir",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "série mensal de inadimplência de pessoas físicas (Banco Central e Mapa da Inadimplência da Serasa) de 2023 a 2026",
+        "o comportamento da série logo depois do fim de cada edição do Desenrola"
+      ]
+    },
+    {
+      "id": "A130",
+      "inicio_s": 1950.9,
+      "fim_s": 1957.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu tomei posse, nós tínhamos 78% da população endividada",
+      "afirmacao": "Quando Lula tomou posse, em janeiro de 2023, 78% das famílias brasileiras estavam endividadas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "Pesquisa de Endividamento e Inadimplência do Consumidor (Peic/CNC) de dez/2022 e jan/2023",
+        "se o percentual é de famílias ou de população, e o conceito de endividamento usado"
+      ]
+    }
+  ]
+}

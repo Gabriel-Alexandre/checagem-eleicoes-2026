@@ -1,0 +1,589 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "lotes/checagem/pedido-06.json",
+  "checagens": [
+    {
+      "id": "A066",
+      "veredito": "VERDADEIRO",
+      "resumo": "Deputados e senadores da oposição protocolaram pedidos de impeachment de Moraes, ao menos dois citando o Master",
+      "explicacao": "A afirmação checável é que setores da oposição buscam o impeachment de Alexandre de Moraes. Os registros confirmam: em 29/12/2025 deputados e senadores da oposição apresentaram pedido de impeachment com base nas supostas tratativas do ministro com o Banco Central em favor do Banco Master (Poder360), e em 1º/09/2026 a oposição informou que protocolou novo pedido no Senado depois do relatório da PF sobre as mensagens de Daniel Vorcaro (BP Money e SBT News). A Itatiaia chamou o pedido de dezembro de 'mais um pedido', e o presidente do Senado disse ter recebido 109 pedidos contra ministros do STF, o que indica que não são os únicos. A segunda parte da frase ('não é por conta do Banco Master apenas') fala da motivação de quem pede, e motivação não tem registro contra o qual conferir; por isso o veredito se limita à existência dos pedidos. Os pedidos não foram aceitos pelo presidente do Senado até as fontes consultadas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "pedidos de 29/12/2025 e 01/09/2026",
+      "ressalva": "O trecho sobre o motivo dos pedidos fala de intenção alheia e não tem registro para conferir",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Oposição apresenta novo pedido de impeachment contra Moraes",
+          "url": "https://www.poder360.com.br/poder-congresso/oposicao-apresenta-novo-pedido-de-impeachment-contra-moraes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A oposição ao governo federal na Câmara dos Deputados apresentou nesta 2ª feira (29.dez.2025) um novo pedido de impeachment do ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal). O documento, que cita reuniões de Moraes com Gabriel Galípolo, presidente do Banco Central, será enviado ao presidente do Senado Federal, Davi Alcolumbre (União-AP).",
+          "prova": "Registra um pedido de impeachment da oposição contra Moraes ligado ao caso Master, em dezembro de 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Alexandre de Moraes: senadores pedem impeachment após mensagens de Vorcaro",
+          "url": "https://bpmoney.com.br/politica/alexandre-de-moraes-senadores-pedem-impeachment-apos-mensagens-de-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nesta terça-feira (1º) , os senadores Alessandro Vieira, Carlos Viana, Cleitinho, Damares Alves, Esperidião Amin, Flávio Bolsonaro, Izalci Lucas, Luis Carlos Heinze e Magno Malta fizeram discursos no Senado cobrando o afastamento de Moraes ou mais esclarecimentos sobre sua relação com Vorcaro. Além disso, a oposição informou que protocolou um novo pedido de impeachment contra o ministro. [...] O presidente do Senado, Davi Alcolumbre (União-AP) , afirmou que a Casa já recebeu 109 pedidos de impeachment contra ministros do STF .",
+          "prova": "Registra novo pedido em setembro de 2026 e senadores da oposição cobrando o afastamento de Moraes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Oposição pede impeachment de Moraes após denúncias",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/oposicao-pede-impeachment-de-moraes-apos-denuncias",
+          "consultada_em": "2026-10-16",
+          "trecho": "As lideranças da oposição na Câmara dos Deputados e no Senado Federal anunciaram nesta terça-feira (1º) uma ofensiva contra o ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), após a divulgação de novas denúncias envolvendo o magistrado e o ex-banqueiro Daniel Vorcaro , do Banco Master. Entre as medidas anunciadas está o protocolo de um pedido de impeachment contra Moraes.",
+          "prova": "Apuração independente do mesmo movimento da oposição, nomeando as lideranças da Câmara e do Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Oposição suspende recesso antes do Ano Novo para novo pedido de impeachment contra Moraes",
+          "url": "https://www.itatiaia.com.br/colunas/edilene-lopes/politica/oposicao-suspende-recesso-antes-do-ano-novo-para-novo-pedido-de-impeachment-contra-moraes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Deputados e senadores da oposição vão suspender o recesso parlamentar na próxima segunda-feira (29), antes do Reveillon, para protocolar mais um pedido de impeachment contra o ministro Alexandre de Moraes, desta vez por causa da reunião com o presidente do Banco Central, Gabriel Galípolo, com o qual Moraes teria tratado do Caso do Banco Master.",
+          "prova": "'Mais um pedido' e 'desta vez' mostram que houve pedidos anteriores por outros motivos."
+        }
+      ]
+    },
+    {
+      "id": "A067",
+      "veredito": "VERDADEIRO",
+      "resumo": "Moraes decretou a prisão preventiva de Bolsonaro em 22 de novembro de 2025, confirmada pela Primeira Turma",
+      "explicacao": "A ordem de prisão preventiva de Jair Bolsonaro foi expedida pelo ministro Alexandre de Moraes em 22/11/2025, a pedido da Polícia Federal e com concordância da PGR (Correio da Manhã e O Povo). A decisão foi individual do relator e depois referendada por unanimidade pela Primeira Turma do STF (Diario de Pernambuco). Antes disso, desde 4 de agosto, Bolsonaro já cumpria prisão domiciliar imposta pelo mesmo ministro. A frase atribui a prisão a Moraes, e é isso que as fontes registram; o fato de o colegiado ter confirmado depois não muda quem decretou.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "decisão de 22/11/2025",
+      "ressalva": "A decisão individual de Moraes foi referendada por unanimidade pela Primeira Turma do STF",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Bolsonaro tem prisão preventiva decretada por Moraes",
+          "url": "https://www.correiodamanha.com.br/politica/2025/11/235090-bolsonaro-tem-prisao-preventiva-decretada-por-moraes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-presidente Jair Bolsonaro (PL) foi preso preventivamente em Brasília, neste sábado (22), por ordem do ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF). A prisão, ocorrida por volta das 6h, foi solicitada pela Polícia Federal (PF).",
+          "prova": "Diz que a ordem de prisão foi do ministro Alexandre de Moraes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Bolsonaro é preso preventivamente a pedido da PF",
+          "url": "https://www.opovo.com.br/noticias/politica/2025/11/22/bolsonaro-e-preso-preventivamente-a-pedido-da-pf.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-presidente Jair Bolsonaro (PL) foi preso na manhã deste sábado, 22 de novembro de 2025, por decisão preventiva solicitada pela Polícia Federal (PF). [...] Em nota, o órgão confirmou o cumprimento de um mandado de prisão preventiva expedido pelo ministro Alexandre de Moraes , do Supremo Tribunal Federal (STF). [...] Desde 4 de agosto, o ex-presidente estava em prisão domiciliar. Na ocasião, o ministro Alexandre de Moraes impôs a medida ao considerar que Bolsonaro havia descumprido restrições cautelares",
+          "prova": "Dá a data e registra que a PF cumpriu mandado expedido por Moraes; também cita a domiciliar de agosto imposta por ele."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Por unanimidade, STF mantém prisão preventiva de Bolsonaro",
+          "url": "https://www.diariodepernambuco.com.br/politica/2025/11/11701249-stf-comeca-a-analisar-decisao-de-moraes-que-decretou-prisao-de-bolsonaro.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Primeira Turma do Supremo Tribunal Federal (STF) confirmou, por unanimidade, a prisão preventiva do ex-presidente Jair Bolsonaro, decretada pelo ministro Alexandre de Moraes no último sábado (22).",
+          "prova": "Responde ao segundo ponto do o_que_conferir: a ordem foi do relator e a Turma referendou."
+        }
+      ]
+    },
+    {
+      "id": "A068",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PF prendeu Márcio Canella, aliado de Flávio Bolsonaro, no Rio em 15/out, na 8ª fase da Operação Unha e Carne",
+      "explicacao": "Duas reportagens independentes registram que Márcio Canella (União Brasil), ex-prefeito de Belford Roxo e deputado estadual eleito, foi preso pela Polícia Federal na manhã de 15/10/2026, na oitava fase da Operação Unha e Carne, que apura lavagem de dinheiro com postos de combustíveis no Rio (Poder360 e Jovem Pan). A Jovem Pan o descreve como aliado de Flávio Bolsonaro e lembra que ele era o nome apoiado pelo senador para o Senado, com Rogéria Bolsonaro cotada para a suplência. O núcleo da frase (operação da PF no Rio no dia da fala, com prisão de Canella) confere. 'Pessoa importante do clã' é caracterização: Canella não é da família Bolsonaro, é aliado político, e isso vai na ressalva. O mandado da operação é da Justiça; a frase não diz quem o expediu. Não foi possível capturar a nota da própria PF sobre a fase.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "15/10/2026",
+      "ressalva": "Canella é do União Brasil e aliado de Flávio Bolsonaro; não é parente da família",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Márcio Canella, preso em operação contra lavagem de dinheiro",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/saiba-quem-e-marcio-canella-preso-em-operacao-contra-lavagem-de-dinheiro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Márcio Canella (União Brasil), 2º deputado estadual mais votado do Rio de Janeiro, foi preso na manhã desta 5ª feira (15.out.2026) durante a 8ª fase da operação Unha e Carne, da Polícia Federal. A ação mira uma organização criminosa suspeita de usar postos de combustíveis na Região Metropolitana do Rio para lavar dinheiro.",
+          "prova": "Registra a prisão pela PF no Rio no dia da fala e a fase da operação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Quem é Márcio Canella, deputado eleito e ex-prefeito preso pela PF no Rio",
+          "url": "https://jovempan.com.br/politica/quem-e-marcio-canella-deputado-eleito-e-ex-prefeito-preso-pela-pf-no-rio/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-prefeito de Belford Roxo e deputado estadual eleito Márcio Canella (União Brasil) , preso pela Polícia Federal nesta quinta-feira (15) , foi o segundo candidato mais votado para a Assembleia Legislativa do Rio de Janeiro (Alerj) nas eleições de 2026 , com 197.178 votos. Presidente do União Brasil no estado e aliado de Flávio Bolsonaro (PL), Canella construiu sua trajetória política na Baixada Fluminense",
+          "prova": "Segunda apuração da prisão no mesmo dia e do vínculo político com Flávio Bolsonaro."
+        }
+      ]
+    },
+    {
+      "id": "A069",
+      "veredito": "VERDADEIRO",
+      "resumo": "Rogéria Bolsonaro, mãe de Flávio, foi anunciada suplente de Canella ao Senado; em julho, virou candidata a deputada",
+      "explicacao": "O PL do Rio anunciou Rogéria Bolsonaro como primeira suplente na chapa de Márcio Canella (União Brasil) ao Senado, em acordo com a federação PP e União Brasil (SBT News). Depois da operação da PF de julho contra Canella, Flávio Bolsonaro determinou que a mãe deixasse a suplência e disputasse a Câmara dos Deputados (SBT News, Gazeta do Povo e Estado de Minas). A frase usa 'ia ser', o que corresponde ao que as fontes registram: a suplência foi anunciada e depois desfeita. Não foi consultado o registro de candidatura no TSE (DivulgaCand); as fontes indicam que a troca aconteceu antes das candidaturas, e Canella acabou disputando a Assembleia do Rio, não o Senado (Poder360, citado na A068).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "anúncio da suplência no 1º semestre de 2026; troca anunciada em 29/07/2026",
+      "ressalva": "A suplência foi anunciada e desfeita antes da eleição; Rogéria disputou vaga de deputada federal",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Rogéria Bolsonaro será primeira suplente ao Senado na chapa do PL no Rio",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/rogeria-bolsonaro-sera-primeira-suplente-ao-senado-na-chapa-do-pl-no-rio",
+          "consultada_em": "2026-10-16",
+          "trecho": "Rogéria Bolsonaro será a primeira suplente ao Senado na chapa lançada pelo Partido Liberal (PL) no Rio de Janeiro para as eleições deste ano. Ela integrará a candidatura de Márcio Canella (União Brasil) , atual prefeito de Belford Roxo, definida após acordo do PL com a federação formada por Progressistas (PP) e União Brasil para consolidar um palanque no estado.",
+          "prova": "Registra o anúncio da suplência que a frase descreve."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Flávio anuncia Rogéria Bolsonaro como candidata a deputada federal pelo Rio",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-anuncia-rogeria-bolsonaro-como-candidata-a-deputada-federal-pelo-rio/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Inicialmente, Rogéria era cotada para ocupar a suplência na chapa de Márcio Canella (União) ao Senado. No entanto, o grupo político decidiu lançá-la na disputa por uma vaga na Câmara dos Deputados",
+          "prova": "Apuração independente: confirma a suplência prevista e a troca."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estado de Minas",
+          "titulo": "Mãe de Flávio Bolsonaro será candidata a deputada federal pelo Rio",
+          "url": "https://www.em.com.br/politica/2026/07/7470288-mae-de-flavio-bolsonaro-sera-candidata-a-deputada-federal-pelo-rio.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Vale lembrar que Rogéria foi vereadora do Rio de Janeiro entre 1993 e 2000 e, recentemente, foi divulgada como suplente na chapa ao Senado Federal de Márcio Canella (União)",
+          "prova": "Terceira leitura: a suplência foi divulgada publicamente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Flávio veta suplência de Canella e lança mãe a deputada",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-veta-suplencia-de-canella-e-lanca-mae-a-deputada",
+          "consultada_em": "2026-10-16",
+          "trecho": "Por determinação do senador Flávio Bolsonaro (PL-RJ), pré-candidato à Presidência da República, sua mãe, Rogéria Bolsonaro (PL), não será mais suplente de Canella, mas candidata à Câmara dos Deputados.",
+          "prova": "Mostra que a suplência foi desfeita, o que sustenta o 'ia ser' da frase."
+        }
+      ]
+    },
+    {
+      "id": "A070",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula pediu em setembro que o caso Master fosse investigado 'sem blindagem de ninguém, doa a quem doer'",
+      "explicacao": "A pergunta atribui a Lula a defesa de que se apurem todas as responsabilidades no caso Master. Duas manifestações públicas dele, em datas diferentes, confirmam: em 3/9, em vídeo divulgado pela Presidência, disse que é fundamental investigar todo mundo, sem blindagem de ninguém (Bahia Notícias); em 9/9, pediu a quebra completa do sigilo das investigações de todos os envolvidos, 'seja quem for, doa a quem doer' (TNH1 e Diário do Grande ABC). As duas reportagens tratam de declarações distintas, então não são a mesma fonte republicada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de 03/09/2026 e 09/09/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias",
+          "titulo": "Lula pede investigação sem blindagem em caso Master e defende ética no Judiciário: 'Doa a quem doer'",
+          "url": "https://www.bahianoticias.com.br/noticia/320738-lula-pede-investigacao-sem-blindagem-em-caso-master-e-defende-etica-no-judiciario-doa-a-quem-doer",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) pediu nesta quinta-feira (3) que as investigações envolvendo o Banco Master avancem sem proteção a autoridades e criticou a divulgação de informações de forma seletiva. Em vídeo divulgado pela Presidência, Lula afirmou que o episódio envolve pessoas poderosas e que a apuração precisa alcançar todos os possíveis envolvidos. “É fundamental que se investigue todo mundo, sem blindagem de ninguém, doa a quem doer”, declarou.",
+          "prova": "Primeira declaração pública pedindo apuração de todos os envolvidos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1",
+          "titulo": "Lula defende quebra completa de sigilo do caso Master como resposta à crise no Judiciário",
+          "url": "https://www.tnh1.com.br/noticia/nid/lula-defende-quebra-completa-de-sigilo-do-caso-master-como-resposta-a-crise-no-judiciario/",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"É urgente a quebra completa do sigilo das investigações de todos os envolvidos no caso Master, seja quem for, doa a quem doer. O Brasil precisa saber a verdade\", declarou o petista.",
+          "prova": "Segunda declaração, seis dias depois, no mesmo sentido."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Lula pede quebra completa de sigilo do caso Master",
+          "url": "https://www.dgabc.com.br/Noticia/4345945/lula-pede-quebra-completa-de-sigilo-do-caso-master",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva defendeu, nesta quarta-feira (9), a “quebra completa do sigilo das investigações de todos os envolvidos no caso Master”.",
+          "prova": "Confirma a data e o teor da declaração de 9 de setembro."
+        }
+      ]
+    },
+    {
+      "id": "A071",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio Dino foi indicado ao STF por Lula e aprovado pelo Senado em dezembro de 2023",
+      "explicacao": "Flávio Dino foi indicado ao STF pelo presidente Luiz Inácio Lula da Silva para a vaga de Rosa Weber (Extra Classe, Poder360 e Congresso em Foco) e aprovado pelo plenário do Senado em 13/12/2023, com 47 votos favoráveis e 31 contrários (Poder360). A Constituição prevê que ministros do STF são nomeados pelo presidente depois de aprovados pelo Senado. A frase da entrevistadora confere.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "aprovação no Senado em 13/12/2023",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Senado aprova indicação de Dino para o STF por 47 votos",
+          "url": "https://www.poder360.com.br/congresso/senado-aprova-dino-para-ministro-do-stf-com-47-votos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Senado Federal aprovou na noite desta 4ª feira (13.dez.2023) o nome do ministro da Justiça, Flávio Dino, para a vaga de ministro do STF (Supremo Tribunal Federal) com 47 votos favoráveis e 31 contrários . Só duas abstenções foram registradas. [...] Dino foi indicado pelo presidente Luiz Inácio Lula da Silva (PT) em 27 de novembro.",
+          "prova": "Dá a indicação por Lula, a data e o placar da aprovação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Extra Classe",
+          "titulo": "Senado aprova indicação de Flávio Dino para ministro do STF",
+          "url": "https://www.extraclasse.org.br/?p=99902",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ministro da Justiça e Segurança Pública do governo federal, Dino foi indicado pelo presidente Luiz Inácio Lula da Silva (PT) para a vaga aberta com a aposentadoria da ex-ministra Rosa Weber.",
+          "prova": "Segunda apuração da autoria da indicação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Com 47 votos, Senado aprova Flávio Dino como novo ministro do STF",
+          "url": "https://www.congressoemfoco.com.br/area/congresso-nacional/com-47-votos-senado-aprova-flavio-dino-como-novo-ministro-do-stf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Senado aprovou nesta quarta-feira (13) a indicação de Flávio Dino para a vaga no Supremo Tribunal Federal (STF). O atual ministro da Justiça foi aprovado por 47 votos a 31 e duas abstenções .",
+          "prova": "Terceira fonte com o mesmo placar."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição da República Federativa do Brasil de 1988 (texto compilado)",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Parágrafo único. Os Ministros do Supremo Tribunal Federal serão nomeados pelo Presidente da República, depois de aprovada a escolha pela maioria absoluta do Senado Federal.",
+          "prova": "A regra que faz da escolha de ministro do STF um ato do presidente, confirmada pelo Senado."
+        }
+      ]
+    },
+    {
+      "id": "A072",
+      "veredito": "VERDADEIRO",
+      "resumo": "Dino pediu vista em 15/set e suspendeu o julgamento sobre investigar Moraes; o Regimento dá 90 dias",
+      "explicacao": "Em 15/09/2026 o plenário do STF analisava se abriria investigação sobre a relação de Alexandre de Moraes com Daniel Vorcaro (Pet 16.662). Durante a votação da questão de ordem de Gilmar Mendes, que propunha juntar o caso ao de André Mendonça, Flávio Dino pediu vista e o julgamento parou (Poder360 e Movimento Econômico). Na data da fala, a investigação sobre Moraes não tinha sido aberta, e o Poder360 descreveu o efeito como ter salvado Moraes 'momentaneamente' de ser investigado. O ponto que pede ressalva é 'impede': pelo Regimento Interno do STF a vista tem prazo de 90 dias, que fica suspenso no recesso e pode ser prorrogado uma vez por igual período, e vencido o prazo os autos são liberados automaticamente; ou seja, a vista suspende, não encerra. Por isso o veredito é VERDADEIRO com ressalva, e não IMPRECISO: na data da fala o efeito descrito era real. As fontes consultadas não registram retomada do julgamento até 15/10; o O Povo de 18/09 confirma que o julgamento seguia interrompido.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "pedido de vista em 15/09/2026",
+      "ressalva": "A vista suspende o julgamento por 90 dias, prorrogáveis uma vez; vencido o prazo, o caso é liberado automaticamente",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Supremo salva Alexandre de Moraes por até 90 dias",
+          "url": "https://www.poder360.com.br/poder-justica/supremo-salva-alexandre-de-moraes-por-ate-90-dias/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Supremo Tribunal Federal salvou momentaneamente, nesta 3ª feira (15.set.2026), o ministro Alexandre de Moraes de ser investigado sobre suas relações com Daniel Vorcaro , fundador do Banco Master e preso no momento sob suspeita de corrupção, depois de o ministro Flávio Dino pedir vista (mais tempo para analisar os autos). Com isso, o Regimento do STF permite que o caso seja devolvido em até 90 dias.",
+          "prova": "Registra o pedido de vista de Dino e o efeito sobre a decisão de investigar Moraes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Movimento Econômico",
+          "titulo": "Dino pede vista após bate-boca e STF tem 4x3 para separar casos Moraes e Mendonça",
+          "url": "https://movimentoeconomico.com.br/economia/justica/2026/09/15/dino-pede-vista-apos-bate-boca-e-stf-tem-4x3-para-separar-casos-moraes-e-mendonca/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Um pedido de vista do ministro Flávio Dino interrompeu nesta terça-feira ( 15 ) a sessão do Supremo Tribunal Federal ( STF ) que decidiria sobre a abertura de investigação contra o ministro Alexandre de Moraes por sua relação com o banqueiro Daniel Vorcaro , preso desde março de 2026 na Operação Compliance Zero. O julgamento pode ficar suspenso por até 90 dias , segundo as regras internas da Corte",
+          "prova": "Segunda apuração: a sessão decidiria a abertura da investigação, e a vista a interrompeu."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "Regimento Interno do STF (texto consolidado)",
+          "url": "https://www.stf.jus.br/arquivo/cms/legislacaoRegimentoInterno/anexo/RISTF.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 134. O ministro que pedir vista dos autos deverá apresentá-los, para pros- seguimento da votação, no prazo de 90 (noventa) dias, contado da data da publicação da ata de julgamento. [...] § 4º O prazo a que se refere o caput ficará suspenso nos períodos de recesso ou férias coletivas e poderá ser prorrogado, por uma única vez, por igual período, mediante manifestação expressa do ministro vistor ao presidente do respectivo colegiado. [...] § 5º Vencido o prazo previsto no caput, os autos estarão automaticamente libe- rados para a continuação do julgamento.",
+          "prova": "Responde ao segundo ponto do o_que_conferir: a vista tem prazo, prorrogável uma vez, e liberação automática; não impede para sempre."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "STF: Fachin tira de pauta julgamento sobre atuação de Mendonça no caso Master",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/09/18/stf-fachin-tira-de-pauta-julgamento-sobre-atuacao-de-mendonca-no-caso-master.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O plenário começou a votar a proposta, mas o julgamento acabou interrompido por um pedido de vista (mais tempo de análise) do ministro Flávio Dino , quando o placar estava em 4 a 3 para que os processos fossem julgados em separado.",
+          "prova": "Confirma, três dias depois, que o julgamento seguia interrompido pela vista."
+        }
+      ]
+    },
+    {
+      "id": "A073",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O relatório da PF dedicou 181 de 218 páginas a Moraes, mas nenhuma fonte compara o envolvimento de cada ministro",
+      "explicacao": "A frase é um ranking ('o ministro até aqui mais implicado'), e nenhuma fonte define o critério nem fecha a comparação. O que existe: o relatório da PF sobre o celular de Vorcaro dedicou 181 de 218 páginas ao contato de Moraes (Movimento Econômico, citando o Poder360), e as mensagens indicam pedidos de Vorcaro a Moraes (Diario de Pernambuco). Pelo volume do relatório, Moraes é o mais citado. Do outro lado, o voto de Gilmar Mendes na questão de ordem de 15/09 diz que os relatórios foram 'direcionados seletivamente' contra Moraes e propõe certificar todos os magistrados mencionados no caso Master, porque não se sabe 'quais integrantes desta Corte foram mencionados e em que condição'. É a posição de um ministro numa proposta que não foi aprovada até a data da fala, e não uma conclusão do tribunal; serve aqui para mostrar que o volume do relatório mede para onde a investigação olhou, não o grau de envolvimento de cada um. Outros ministros (Toffoli, Nunes Marques) aparecem em fatos do caso. Como a apuração sobre Moraes está suspensa e nenhuma acusação foi julgada, a régua da METODOLOGIA e da regra de ética §5 impede VERDADEIRO ou FALSO para um juízo de implicação: o veredito é INSUSTENTAVEL. A mesma régua foi aplicada às falas do entrevistado sobre Toffoli, Mendonça e Castro.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "relatório da PF tornado público em 01/09/2026; sessão do STF de 15/09/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (voto do ministro Gilmar Mendes, PDF publicado pelo Poder360)",
+          "titulo": "Questão de ordem na Pet 16.662/DF, sessão de 15/09/2026",
+          "url": "https://static.poder360.com.br/uploads/2026/09/Questao-de-Ordem-PET-16662-Gimar-Mendes-analise-investigacao-Alexandre-de-Moraes-15set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "embora os relatórios produzidos por ordem do Ministro André Mendonça tenham sido direcionados seletivamente contra o Ministro Alexandre de Moraes, dados recentes apontam a necessidade de apurar com maior rigor se deve ser admitida a participação de outros membros do colegiado em votações relacionadas com a Pet 16.662/DF. [...] Enquanto não se souber quais integrantes desta Corte foram mencionados e em que condição, não se saberá quem pode votar e quem se acha impedido nos feitos correlatos.",
+          "prova": "Voto de um ministro na questão de ordem: diz que a apuração mirou Moraes e que não se sabe quais ministros são citados nem em que condição. É argumento de uma parte do plenário, e mostra que não há critério firmado para o ranking."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Movimento Econômico",
+          "titulo": "Dino pede vista após bate-boca e STF tem 4x3 para separar casos Moraes e Mendonça",
+          "url": "https://movimentoeconomico.com.br/economia/justica/2026/09/15/dino-pede-vista-apos-bate-boca-e-stf-tem-4x3-para-separar-casos-moraes-e-mendonca/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relatório de 218 páginas , entregue a Mendonça em 27 de agosto , dedicou 181 páginas ao contato que Vorcaro mantinha registrado como “Alexandre de Moraes BRASILIA”, segundo o Poder360 .",
+          "prova": "Mostra o critério de volume que favorece a frase, e que mede o foco do relatório."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Mensagens indicam que Vorcaro pediu a Moraes freio em investigação",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722803-mensagens-indicam-que-vorcaro-pediu-a-moraes-freio-em-investigacao.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mensagens extraídas do celular de Daniel Vorcaro, dono do Banco Master, indicam que o banqueiro pediu reiteradamente ao ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), que recorresse ao diretor-geral da Polícia Federal (PF), Andrei Rodrigues, e ao procurador-geral da República, Paulo Gonet, para conter o avanço das investigações sobre a instituição financeira.",
+          "prova": "Registra o conteúdo atribuído a Moraes nas mensagens, sem conclusão da apuração."
+        }
+      ]
+    },
+    {
+      "id": "A074",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Toffoli é citado em mensagens de Vorcaro sobre aportes ao resort Tayayá; ele nega, e a apuração não concluiu",
+      "explicacao": "O que as fontes registram sobre Dias Toffoli: o relatório da PF com o material do celular de Vorcaro tem menções a ele, e Fachin o encaminhou ao ministro para avaliar impedimento (InfoMoney); mensagens entre Vorcaro e o cunhado tratam de aportes ao resort Tayayá, ligado à empresa Maridt, da qual Toffoli é sócio (Gazeta do Povo); Toffoli deixou a relatoria do caso e, na sessão de 15/09, declarou-se suspeito (Poder360). Ele admite a sociedade e nega ter recebido valores de Vorcaro ou do cunhado. 'Implicado' é a palavra da frase; ser citado em material da investigação está documentado, mas envolvimento no caso é objeto de apuração sem conclusão nem acusação formal. Pela regra de ética §5, fato em apuração não recebe VERDADEIRO nem FALSO: o veredito é INSUSTENTAVEL, e o resumo diz o que está registrado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "relatório da PF e notas de Toffoli no 1º semestre de 2026; sessão de 15/09/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney (com Reuters)",
+          "titulo": "Toffoli admite ser sócio de empresa que negociou resort com fundo ligado a Vorcaro",
+          "url": "https://www.infomoney.com.br/politica/toffoli-admite-ser-socio-de-empresa-que-negociou-resort-com-fundo-ligado-a-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro do Supremo Tribunal Federal (STF)Dias Toffoli admitiu em nota que é sócio da empresa Maridt, que vendeu uma participação no resort Tayayá, no interior do Paraná, para um fundo do cunhado do banqueiro Daniel Vorcaro, dono do Banco Master. Toffoli disse que declarou à Receita Federal os valores recebidos na negociação e afirmou que nunca “recebeu qualquer valor de Daniel Vorcaro ou de seu cunhado Fabiano Zettel”.",
+          "prova": "Registra a ligação societária e a negativa do ministro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Vorcaro foi cobrado por demora em pagamentos a resort de Toffoli, diz jornal",
+          "url": "https://www.gazetadopovo.com.br/republica/vorcaro-cobrado-demora-pagamentos-resort-toffoli-diz-jornal/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mensagens obtidas pela Polícia Federal no celular do banqueiro Daniel Vorcaro indicam que ele relatou ter sido cobrado pela demora em aportes financeiros destinados a um resort ligado ao ministro do Supremo Tribunal Federal (STF), Dias Toffoli. O conteúdo consta de relatório encaminhado à corte e revelado pelo jornal O Estado de S. Paulo .",
+          "prova": "Registra a menção em material da PF, ainda sem conclusão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Supremo salva Alexandre de Moraes por até 90 dias",
+          "url": "https://www.poder360.com.br/poder-justica/supremo-salva-alexandre-de-moraes-por-ate-90-dias/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dias Toffoli – declarou-se suspeito e também não votará. Alegou foro íntimo e que, assim, ajuda a preservar o Supremo no caso de “eventuais especulações”.",
+          "prova": "Mostra que, na sessão de 15/09, Toffoli se afastou do julgamento do caso."
+        }
+      ]
+    },
+    {
+      "id": "A075",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Mendonça é o relator do caso; Moraes pediu investigar a condução dele, e o pedido não foi julgado",
+      "explicacao": "André Mendonça é o relator no STF das investigações do Banco Master (Correio da Manhã). Em 3/9, Alexandre de Moraes encaminhou a Fachin pedido de investigação sobre a atuação de Mendonça na relatoria das operações Sem Desconto e Compliance Zero, apontando indícios de improbidade e abuso de autoridade (Diario de Pernambuco); o julgamento desse pedido foi retirado de pauta por Fachin em 18/9 (O Povo). As fontes consultadas não registram menção a Mendonça como destinatário de valores ou mensagens de Vorcaro: o que o liga ao caso é a condução da relatoria, contestada por um colega. 'Implicado no caso Master' depende de uma apuração ainda não julgada, e pela regra de ética §5 o veredito é INSUSTENTAVEL, não VERDADEIRO nem FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "pedido de Moraes em 03/09/2026; retirada de pauta em 18/09/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Alexandre de Moraes vê indícios de crimes de Mendonça e encaminha pedido de investigação a Fachin",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723064-alexandre-de-moraes-ve-indicios-de-crimes-de-mendonca-e-encaminha-pedido-de-investigacao-a-fachin.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), encaminhou nesta quinta-feira (3) ao presidente da Corte, Edson Fachin, um pedido para que seja investigada a atuação do ministro André Mendonça na condução de inquéritos relacionados às operações Sem Desconto e Compliance Zero .",
+          "prova": "Mostra em que sentido Mendonça aparece no caso: a condução da relatoria."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "STF: Fachin tira de pauta julgamento sobre atuação de Mendonça no caso Master",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/09/18/stf-fachin-tira-de-pauta-julgamento-sobre-atuacao-de-mendonca-no-caso-master.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, retirou da pauta da sessão plenária da próxima quarta-feira (23) o julgamento de um pedido de investigação sobre a condução dada pelo ministro André Mendonça como relator do caso Master na Corte",
+          "prova": "Mostra que o pedido não foi julgado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Mendonça pede à PGR explicações sobre mensagem de Vorcaro",
+          "url": "https://www.correiodamanha.com.br/politica/2026/09/315719-mendonca-pede-a-pgr-explicacoes-sobre-mensagem-de-vorcaro.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mendonça é o relator no STF das investigações relacionadas às suspeitas de fraudes financeiras envolvendo o Banco Master.",
+          "prova": "Confirma o papel de relator, que é a ligação documentada dele com o caso."
+        }
+      ]
+    },
+    {
+      "id": "A076",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Cláudio Castro foi alvo de busca da PF no caso Master, por aportes do Rioprevidência; a apuração não concluiu",
+      "explicacao": "A fala diz só 'o Castro'. Pelo contexto (o Rio de Janeiro e aliados de Flávio Bolsonaro), a leitura é Cláudio Castro (PL), ex-governador do Rio, mas a identificação é inferência e vai declarada aqui. Sobre ele, as fontes registram que foi alvo de busca e apreensão na oitava fase da Operação Compliance Zero, autorizada por André Mendonça, que apura aportes do Rioprevidência em fundos ligados ao Banco Master; a PF diz que Castro tinha 'vínculo próximo' e 'alinhamento político' com Vorcaro, e a decisão afirma que ele teve papel relevante para os aportes (Money Times, Gazeta do Povo, O Liberal). A defesa não se manifestou ou disse acompanhar as buscas com serenidade. Ser alvo de busca é fato documentado; 'implicado' depende de apuração sem denúncia nem julgamento, e pela regra de ética §5 o veredito é INSUSTENTAVEL.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "operação da PF de maio de 2026",
+      "ressalva": "A fala diz só 'o Castro'; a identificação com Cláudio Castro é leitura do contexto",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Money Times",
+          "titulo": "PF: Castro tinha 'vínculo próximo' e 'alinhamento político' com Vorcaro para investir no Banco Master",
+          "url": "https://www.moneytimes.com.br/pf-castro-tinha-vinculo-proximo-e-alinhamento-politico-com-vorcaro-para-investir-no-master-gaep/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na manhã desta terça-feira (26) Castro foi alvo de mandado de busca e apreensão na oitava fase da Operação Compliance Zero sob suspeita de manter “vínculo próximo” e “alinhamento político” com o banqueiro Daniel Vorcaro , termos usados pela PF no pedido feito ao Supremo Tribunal Federal (STF) para autorizar a operação.",
+          "prova": "Registra que Castro é investigado no caso Master, nos termos da PF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Cláudio Castro é alvo novamente da PF por aplicar R$ 3 bi da Riopreviência no Master",
+          "url": "https://www.gazetadopovo.com.br/republica/castro-alvo-pf-aplicar-3-bi-riopreviencia-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Os mandados contra Castro fazem parte da 8ª fase da Operação Compliance Zero e foram autorizados pelo ministro André Mendonça, do Supremo Tribunal Federal (STF), relator dos processos referentes ao Master na Corte.",
+          "prova": "Segunda apuração: a busca foi autorizada no STF dentro do caso Master."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Cláudio Castro é alvo da PF em operação sobre aportes do Rioprevidência no Master",
+          "url": "https://www.oliberal.com/politica/claudio-castro-e-alvo-da-pf-em-operacao-sobre-aportes-do-rioprevidencia-no-master-1.1126017",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Polícia Federal (PF) deflagrou nesta terça-feira (26) uma operação contra o ex-governador do Rio de Janeiro, Cláudio Castro (PL). A ação investiga investimentos de recursos públicos estaduais, oriundos do Rioprevidência, em fundos vinculados ao Banco Master . A defesa do ex-governador foi procurada, mas não se manifestou até o momento.",
+          "prova": "Terceira leitura, com o registro de que a defesa não se manifestou."
+        }
+      ]
+    },
+    {
+      "id": "A077",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Constituição faz os Poderes independentes e dá garantias aos juízes; o Executivo não revê decisão do STF",
+      "explicacao": "A Constituição declara os Poderes independentes e harmônicos (art. 2º), dá aos juízes vitaliciedade, inamovibilidade e irredutibilidade (art. 95) e autonomia administrativa e financeira ao Judiciário (art. 99). O controle sobre ministros do STF por crime de responsabilidade cabe ao Senado (art. 52, II), e o andamento de um pedido de impeachment depende só do presidente do Senado (Poder360). No caso concreto da conversa, o pedido de vista é ato do próprio ministro, com prazo e liberação automática definidos pelo Regimento do STF, sem papel do Executivo. O melhor argumento contra a frase é que o governo pode contestar decisão de ministro: em setembro, a AGU recorreu ao STF contra o afastamento do diretor-geral da PF, e o presidente do tribunal suspendeu a decisão (O Povo). Mas recorrer é pedir ao próprio Judiciário, que decide; não é instrumento do presidente para alterar a decisão. Os poderes do presidente que tocam o Judiciário, nomear ministros com aprovação do Senado e conceder indulto, também não mudam decisão. Confiança média porque se trata de provar uma ausência a partir da estrutura constitucional.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Constituição Federal e Regimento Interno do STF vigentes em 15/10/2026",
+      "ressalva": "O governo pode recorrer pela AGU, como fez em setembro, mas quem decide o recurso é o próprio STF",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição da República Federativa do Brasil de 1988 (texto compilado)",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário. [...] Art. 95. Os juízes gozam das seguintes garantias: I - vitaliciedade [...] Art. 99. Ao Poder Judiciário é assegurada autonomia administrativa e financeira. [...] XII - conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei; [...] Parágrafo único. Os Ministros do Supremo Tribunal Federal serão nomeados pelo Presidente da República, depois de aprovada a escolha pela maioria absoluta do Senado Federal.",
+          "prova": "A norma vigente: separação dos Poderes e garantias da magistratura; os poderes do presidente que tocam o Judiciário não incluem rever decisão."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "Regimento Interno do STF (texto consolidado)",
+          "url": "https://www.stf.jus.br/arquivo/cms/legislacaoRegimentoInterno/anexo/RISTF.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "§ 5º Vencido o prazo previsto no caput, os autos estarão automaticamente libe- rados para a continuação do julgamento.",
+          "prova": "No exemplo da conversa (a vista), a retomada é automática pelo Regimento, sem ato de outro Poder."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Oposição apresenta novo pedido de impeachment contra Moraes",
+          "url": "https://www.poder360.com.br/poder-congresso/oposicao-apresenta-novo-pedido-de-impeachment-contra-moraes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Após protocolado, cabe exclusivamente ao presidente do Senado decidir se o pedido será arquivado ou se terá andamento.",
+          "prova": "Mostra que o controle político sobre ministros do STF passa pelo Senado, não pelo Executivo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Fachin suspende decisões de Mendonça e Dino e mantém Andrei Rodrigues na chefia da PF (09/09/2026)",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/09/09/fachin-suspende-decisoes-de-mendonca-e-dino-e-mantem-andrei-rodrigues-na-chefia-da-pf.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Supremo Tribunal Federal (STF) , Edson Fachin, suspendeu nesta quarta-feira, 9, as decisões dos ministros André Mendonça e Flávio Dino relacionadas ao comando da Polícia Federal. [...] No mesmo dia, a Advocacia-Geral da União (AGU) recorreu ao STF para tentar derrubar o afastamento.",
+          "prova": "O caminho que o governo tem contra uma decisão de ministro é o recurso, e quem decide é o próprio STF."
+        }
+      ]
+    },
+    {
+      "id": "A078",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Regimento do STF deixa a cada ministro pedir vista, sem requisito, mas fixa 90 dias para devolver",
+      "explicacao": "O art. 134 do Regimento Interno do STF diz que 'o ministro que pedir vista' deve devolver os autos em 90 dias, contados da publicação da ata, e não estabelece requisito para o pedido: ele é prerrogativa de cada ministro. A limitação está no tempo: o prazo de 90 dias foi criado pela Emenda Regimental 58/2022, e vencido o prazo os autos são liberados automaticamente (Regimento, notícia oficial do STF e Gazeta do Povo). O texto consolidado mantém o § 4º, segundo o qual o prazo fica suspenso no recesso e pode ser prorrogado uma vez. A frase confere quanto a quem decide pedir; a ressalva registra o limite de prazo.",
+      "numero_dito": null,
+      "numero_apurado": "prazo de 90 dias",
+      "data_de_referencia": "Regimento Interno do STF vigente em 15/10/2026 (art. 134)",
+      "ressalva": "A vista tem prazo de 90 dias, prorrogável uma vez; vencido, o processo volta à pauta automaticamente",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "Regimento Interno do STF (texto consolidado)",
+          "url": "https://www.stf.jus.br/arquivo/cms/legislacaoRegimentoInterno/anexo/RISTF.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 134. O ministro que pedir vista dos autos deverá apresentá-los, para pros- seguimento da votação, no prazo de 90 (noventa) dias, contado da data da publicação da ata de julgamento. [...] § 4º O prazo a que se refere o caput ficará suspenso nos períodos de recesso ou férias coletivas e poderá ser prorrogado, por uma única vez, por igual período, mediante manifestação expressa do ministro vistor ao presidente do respectivo colegiado.",
+          "prova": "A norma: o pedido cabe ao ministro, sem requisito, e tem prazo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (Notícias STF)",
+          "titulo": "Emenda regimental altera regras para devolução de pedidos de vista no STF",
+          "url": "https://noticias.stf.jus.br/postsnoticias/emenda-regimental-altera-regras-para-devolucao-de-pedidos-de-vista-no-stf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Supremo Tribunal Federal (STF) aprovou mudança no Regimento Interno para estabelecer que os pedidos de vista deverão ser devolvidos no prazo de 90 dias, contado da data da publicação da ata de julgamento. Após esse período, os autos estarão automaticamente liberados para continuidade da análise pelos demais ministros.",
+          "prova": "Confirma a liberação automática ao fim do prazo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "STF determina prazo de 90 dias para devolução de pedidos de vista",
+          "url": "https://www.gazetadopovo.com.br/republica/breves/stf-determina-prazo-de-90-dias-para-devolucao-de-pedidos-de-vista/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O pedido de vista é feito quando um ministro solicita mais tempo para analisar os autos, o que paralisa a tramitação do julgamento. Com a mudança, após os 90 dias, os processos serão automaticamente liberados para análise dos demais ministros da Corte.",
+          "prova": "Leitura independente da regra: a vista é pedida pelo ministro e tem limite."
+        }
+      ]
+    }
+  ]
+}

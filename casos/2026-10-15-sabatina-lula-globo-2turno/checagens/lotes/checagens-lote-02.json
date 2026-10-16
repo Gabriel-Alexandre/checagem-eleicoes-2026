@@ -1,0 +1,747 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A014",
+      "veredito": "IMPRECISO",
+      "resumo": "Tebet, do MDB, apoiou em 2022 e foi ministra; o Cidadania e quadros do PSDB também apoiaram e ficaram sem ministério",
+      "explicacao": "A pergunta afirma que as forças de centro que apoiaram Lula em 2022 acabaram sem lugar no governo. As fontes mostram as duas coisas. De um lado, Simone Tebet (MDB), terceira colocada no 1º turno, declarou apoio a Lula no 2º turno e foi ministra do Planejamento de 2023 até sair para disputar a eleição de 2026, e o MDB chegou a ter três ministérios. De outro, Cidadania, Solidariedade, PV, Avante e Pros apoiaram a eleição e, segundo o Poder360 de dezembro de 2022, ficariam só com cargos de segundo escalão; o PSDB, de quadros como FHC e Serra que votaram em Lula, nunca integrou o primeiro escalão, segundo levantamento da Folha de março de 2025; e o cientista político Fernando Limongi avaliou que a frente ampla da campanha apareceu só em parte nos ministérios. A essência (o centro que apoiou teve pouco espaço) tem lastro, mas a forma absoluta da frase não: a principal liderança de centro do apoio de 2022 ocupou um ministério por mais de três anos. Por isso IMPRECISO, e não VERDADEIRO nem FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "apoios de outubro de 2022 e ministérios de 2023 a 2026",
+      "ressalva": "Parte do centro que apoiou ficou fora do primeiro escalão, mas o MDB de Tebet teve ministérios",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Simone Tebet anuncia apoio a Lula no segundo turno das eleições (05/10/2022)",
+          "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/05/simone-tebet-anuncia-apoio-a-lula-no-segundo-turno-das-eleicoes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A senadora e ex-candidata a presidente Simone Tebet (MBD) anunciou apoio à candidatura de Luiz Inácio Lula da Silva (PT) no segundo turno das eleições. A emedebista alcançou o terceiro lugar na corrida eleitoral com 4,16% dos votos. O anúncio foi feito durante pronunciamento em São Paulo. \"Há um Brasil a ser, imediatamente, reconstruído. Há um povo a ser, novamente, reunido. Reunido na diversidade, antes (e sempre) a nossa maior riqueza, agora esmigalhada por todos os tipos de discriminação. Neste ponto, um desabafo: de que vale irmos às nossas igrejas, proclamar a nossa fé, se não somos capazes de pregar o evangelho e respeitar o nosso próximo nos nossos lares, no nosso trabalho, nas ruas de nossa pátria?\". Seja assinante O POVO+ Tenha acesso a todos os conteúdos exclusivos, colunistas, acessos ilimitados e descontos em lojas, farmácias e muito mais. Assine --> É + que streaming. É arte, cultura e história. + filmes, séries e documentários + reportagens interativas + colunistas exclusivos Assine agora Segundo ela, nos últimos quatro anos, \"o Brasil foi abandonado na fogueira do ódio e das desavenças. A negação atrasou a vacina. A arma ocupou o lugar do livro. A iniquidade fez curvar a esperança. A mentira feriu a verdade. O ouvido conciliador deu lugar à voz esbravejada. O conceito de humanidade foi substituído pelo de desamor. O Brasil voltou ao mapa da fome. O orçamento, antes público, necessário para servir ao povo, tornou-se secreto e privado\". \"Por tudo isso, ainda que mantenha as críticas que fiz ao candidato Luiz Inácio Lula da Silva, em especial nos últimos dias de campanha, quando cometeu o erro de chamar para si o voto útil, o que é legítimo, mas sem apresentar suas propostas para os reais problemas do Brasil, depositarei nele o meu voto, porque reconheço seu compromisso com a Democracia e a Constituição, o que desconheço no atual presidente\"",
+          "prova": "Tebet, do MDB, apoiou Lula no 2º turno de 2022."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Após reforma, confira a divisão da Esplanada dos Ministérios por partidos (06/09/2023)",
+          "url": "https://www.cartacapital.com.br/?p=369991",
+          "consultada_em": "2026-10-16",
+          "trecho": "MDB: Planejamento: Simone Tebet Cidades: Jader Filho Transportes: Renan Filho",
+          "prova": "Tebet e o MDB ocuparam ministérios no governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula deve anunciar 16 ministros nesta 5ª; leia os cotados (29/12/2022)",
+          "url": "https://www.poder360.com.br/governo/lula-deve-anunciar-16-ministros-nesta-5a-leia-os-cotados/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Considerando os demais partidos aliados a Lula, mas que não possuem representantes na Esplanada, o petista pode chegar a uma base total de 287 deputados . São: Solidariedade, Cidadania, PV, Avante e Pros. Todos apoiaram a eleição de Lula. Os 5 partidos devem ser contemplados apenas com cargos no 2º escalão, como presidência de agências públicas.",
+          "prova": "Partidos que apoiaram a eleição, entre eles o Cidadania, ficariam fora dos ministérios."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias (Folhapress)",
+          "titulo": "Só PSDB e outros 4 partidos no Congresso nunca integraram 1º escalão dos governos de Lula (06/03/2025)",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/324841-so-psdb-e-outros-4-partidos-no-congresso-nunca-integraram-1o-escalao-dos-governos-de-lula",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dos 20 partidos hoje com representação no Congresso Nacional, apenas 5 nunca integraram o primeiro escalão de nenhum dos três governos de Lula (PT), de 2003 a 2010 e de 2023 em diante. Rival histórico do PT e seu antagonista desde os anos 1980, o PSDB é o principal deles.",
+          "prova": "O PSDB nunca teve ministério nos governos Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Mais Goiás",
+          "titulo": "Veja quem já declarou apoio a Lula e a Bolsonaro no 2º turno (05/10/2022)",
+          "url": "https://www.maisgoias.com.br/brasil/veja-quem-ja-declarou-apoio-a-lula-e-a-bolsonaro-no-2o-turno/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O partido libertou seus filiados para apoiarem Lula ou Bolsonaro após o primeiro turno. Quadros importantes da sigla, como José Serra e Fernando Henrique Cardoso, apoiaram o petista. [...] O partido, federado ao PSDB e parte da coligação de Simone Tebet (MDB), apoiou Lula",
+          "prova": "Quadros do PSDB e o Cidadania apoiaram Lula em 2022."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Instituto Humanitas Unisinos (entrevista da DW Brasil com Fernando Limongi)",
+          "titulo": "Coalizão de Lula está mais à esquerda do que ao centro (05/01/2023)",
+          "url": "https://ihu.unisinos.br/625257-coalizao-de-lula-esta-mais-a-esquerda-do-que-ao-centro-entrevista-com-fernando-limongi",
+          "consultada_em": "2026-10-16",
+          "trecho": "A frente ampla da campanha apareceu apenas parcialmente na escolha ministerial e a expectativa era maior nesse sentido.",
+          "prova": "Avaliação de especialista de que a frente ampla só apareceu em parte nos ministérios."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Simone Tebet confirma saída do governo até 30 de março (30/01/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes/simone-tebet-confirma-saida-do-governo-ate-30-de-marco/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A ministra do Planejamento e Orçamento, Simone Tebet (MDB), confirmou nesta 6ª feira (30.jan.2026) que deixará o governo federal até 30 de março para disputar as eleições de 2026.",
+          "prova": "Tebet seguia ministra do Planejamento no início de 2026 e só saiu para disputar a eleição."
+        }
+      ]
+    },
+    {
+      "id": "A015",
+      "veredito": "VERDADEIRO",
+      "resumo": "Na Câmara eleita, PL e Novo vão de 103 para 131 cadeiras; no Senado, a direita terá 49 das 81",
+      "explicacao": "O critério é o tamanho da oposição e da base à esquerda, comparando a bancada atual (página oficial da Câmara) com a eleita em 04/10/2026. Na Câmara, PL e Novo, os dois partidos de oposição declarada, passam de 98 e 5 deputados para 121 e 10, ou de 103 para 131. Os partidos de esquerda que sustentam o governo (federação PT, PCdoB e PV, federação PSOL e Rede, PSB e PDT) ficam quase iguais, de 126 para 124, e os partidos de centro que tiveram ministérios (União, PP, PSD, Republicanos, MDB e Podemos) caem de 252 para 234. No Senado, Poder360 e Correio da Manhã contam 49 senadores de direita a partir de 2027. As duas Casas ficam com mais cadeiras para a oposição, o que sustenta a comparação da pergunta. 'Hostil' é leitura de alinhamento, e o critério acima está declarado; por isso confiança média.",
+      "numero_dito": null,
+      "numero_apurado": "PL e Novo de 103 para 131 deputados; esquerda de 126 para 124; direita com 49 dos 81 senadores em 2027",
+      "data_de_referencia": "bancadas da Câmara em outubro de 2026 contra as eleitas em 04/10/2026, com posse em fevereiro de 2027",
+      "ressalva": "Na Câmara, a esquerda fica quase igual (126 para 124); quem cresce é o PL, e o centro cai de 252 para 234",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "103",
+          "de": "98 mais 5",
+          "como": "soma das bancadas atuais de PL e Novo na página da Câmara"
+        },
+        {
+          "valor": "131",
+          "de": "121 mais 10",
+          "como": "soma das bancadas eleitas de PL e Novo"
+        },
+        {
+          "valor": "126",
+          "de": "83 mais 16 mais 17 mais 10",
+          "como": "soma das bancadas atuais de federação PT-PCdoB-PV, federação PSOL-Rede, PSB e PDT"
+        },
+        {
+          "valor": "124",
+          "de": "88 mais 15 mais 15 mais 6",
+          "como": "soma das bancadas eleitas de federação PT-PCdoB-PV, PSOL-Rede, PSB e PDT"
+        },
+        {
+          "valor": "252",
+          "de": "50 mais 47 mais 48 mais 42 mais 38 mais 27",
+          "como": "soma das bancadas atuais de União, PP, PSD, Republicanos, MDB e Podemos"
+        },
+        {
+          "valor": "234",
+          "de": "46 mais 41 mais 43 mais 41 mais 36 mais 27",
+          "como": "soma das bancadas eleitas de União, PP, PSD, Republicanos, MDB e Podemos"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados",
+          "titulo": "Lideranças e bancadas partidárias (bancadas atuais)",
+          "url": "https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias",
+          "consultada_em": "2026-10-16",
+          "trecho": "Partidos que atuam sozinhos PL - Partido Liberal Integrantes: 98 [...] Federação PT-PCdoB-PV Integrantes: 83 [...] Federação PSOL-REDE Integrantes: 16 [...] PSB - Partido Socialista Brasileiro Integrantes: 17 [...] PDT - Partido Democrático Trabalhista Integrantes: 10 [...] NOVO - Partido Novo Integrantes: 5 [...] UNIÃO - União Brasil Integrantes: 50 Líder: Pedro Lucas Fernandes PSD - Partido Social Democrático Integrantes: 48 Líder: Antonio Brito PP - Progressistas Integrantes: 47 Líder: Doutor Luizinho REPUBLICANOS - Republicanos Integrantes: 42 Líder: Augusto Coutinho MDB - Movimento Democrático Brasileiro Integrantes: 38 Líder: Isnaldo Bulhões Jr. PODE - Podemos Integrantes: 27",
+          "prova": "A composição atual da Câmara, partido a partido, base da comparação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta de São Paulo",
+          "titulo": "Câmara terá 121 deputados do PL e 70 do PT (05/10/2026)",
+          "url": "https://www.gazetasp.com.br/politica/camara-tera-121-deputados-do-pl-e-70-do-pt-confira-como-ficaram-as-513-cadeiras-por-partido-e-os-mais-votados-das-eleicoes-de-2026-no-brasil/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Partido Deputados eleitos PL 121 PT 70 União Brasil 46 PSD 43 PP 41 Republicanos 41 MDB 36 Podemos 27 PSB 15 PSOL 14 PCdoB 11 PSDB 11 Novo 10 PV 7 PDT 6 Avante 5 PRD 5 Solidariedade 2 Rede 1 Missão 1 Total 513",
+          "prova": "A bancada eleita de cada partido em 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News",
+          "titulo": "Câmara dos Deputados terá PL como maior bancada em 2027",
+          "url": "https://tvtnews.com.br/camara-dos-deputados-bancadas-2027/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Partido ou federação Deputados eleitos PL 121 PT-PCdoB-PV 88 União Brasil-PP 87 PSD 43 Republicanos 41 MDB 36 Podemos 27 PSOL-Rede 15 PSB 15 PSDB-Cidadania 11 Novo 10 PRD-Solidariedade 7 PDT 6 Avante 5 Missão 1 Total 513",
+          "prova": "A bancada eleita por federação, com PSOL-Rede, PSB e PDT."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Senado será dominado pela direita a partir de 2027 (04/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/senado-sera-dominado-pela-direita-a-partir-de-2027/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Somando os que ficam e os que entram em 2027, a configuração deve ser essa: 49 mais à direita ; 27 mais à esquerda ; 5 mais ao centro .",
+          "prova": "A composição do Senado a partir de 2027, por orientação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Aumento da direita no Congresso amplia articulação, mas não garante aprovação de pautas",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/324752-aumento-da-direita-no-congresso-amplia-articulacao-mas-nao-garante-aprovacao-de-pautas-avalia-especialista.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A direita passa a ter 49 dos 81 senadores e 281 dos 513 deputados federais.",
+          "prova": "Segunda contagem independente do avanço da direita nas duas Casas."
+        }
+      ]
+    },
+    {
+      "id": "A016",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A Câmara registra 81 deputados eleitos em 2022 pela federação do PT; o número do PT sozinho faltou",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: Lula disse que foi eleito com 70 deputados no seu partido. As duas páginas oficiais de bancadas da Câmara, na eleição e na posse, trazem o resultado por federação: a Federação PT-PCdoB-PV elegeu 81 dos 513 e tinha 81 na posse de 2023, sem separar o PT. Nesta segunda rodada foram abertas a API de dados abertos da Câmara (ela devolve o partido atual de cada deputado, não o de 2022) e os arquivos de resultado do TSE de 2022 (fora do ar no endereço de resultados), e nenhuma traz a bancada eleita do PT sozinho num trecho que se possa copiar. A imprensa traz números do PT que não resolvem: o Times Brasil diz que o PT 'passará de 69 para 70' sem dizer se o 69 é a bancada eleita em 2022 ou a atual, e o 70 é a bancada que o PT elegeu em 04/10/2026. O que falta é o resultado oficial do PT sozinho na eleição de 2022. Não é FALSO porque nada contradiz um PT em torno de 70.",
+      "numero_dito": "70 deputados",
+      "numero_apurado": "81 deputados eleitos pela federação PT-PCdoB-PV em 2022; PT sozinho sem fonte oficial capturada",
+      "data_de_referencia": "eleição de outubro de 2022",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados",
+          "titulo": "Bancadas na eleição de 2022",
+          "url": "https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias/bancada-na-eleicao",
+          "consultada_em": "2026-10-16",
+          "trecho": "Bancadas na eleição de 2022 - Portal da Câmara dos Deputados Ir ao conteúdo Ir à navegação principal Você está usando um navegador defasado . Por favor, atualize seu navegador para melhorar sua experiência e sua segurança. Página inicial Acessibilidade Fale Conosco Congresso Senado PT English EN Español ES Entrar Assuntos Agropecuária Cidades e transportes Ciência, tecnologia e comunicações Consumidor Direitos humanos Economia Educação, cultura e esportes Meio ambiente e energia Política e administração pública Relações exteriores Saúde Segurança Trabalho, previdência e assistência Institucional Agenda Serviços Presidência Biblioteca e publicações Escola da Câmara Papel e estrutura História e arquivo Visite Deputados Quem são Lideranças e bancadas Frentes e grupos parlamentares Atividade Legislativa Propostas legislativas Plenário Comissões Sessões e reuniões Estudos legislativos Orçamento da União Legislação Entenda o processo legislativo Participe Comunicação Agência Câmara de Notícias Rádio Câmara TV Câmara Banco de Imagens Assessoria de Imprensa Comprove uma notícia Transparência e prestação de contas Transparência Prestação de contas Dados abertos Pesquise no Portal da Câmara Buscar Início Deputados Lideranças e Bancadas Partidárias Esta página Lideranças e Bancadas Partidárias MENU DESTA SEÇÃO Bancadas Atuais Bancadas na Eleição Bancadas na Posse Contatos Bancadas na eleição de 2022 bancadas na eleição de 2022 para deputado federal [...] Federação PT - PCdoB - PV 81",
+          "prova": "O resultado oficial de 2022 só separa a federação, com 81 eleitos."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados",
+          "titulo": "Bancadas na posse de 2023",
+          "url": "https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias/bancada-na-posse",
+          "consultada_em": "2026-10-16",
+          "trecho": "Bancadas na posse de 2023 [...] Federação PT - PCdoB - PV 81",
+          "prova": "Na posse a Câmara também só registra a federação, com 81, sem a bancada do PT sozinho."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Veja como eram e como ficaram as bancadas desde a eleição de 2022 (26/05/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/119145/veja-como-eram-e-como-ficaram-as-bancadas-desde-a-eleicao-de-2022",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Federação PT-PCdoB-PV aparece em segundo lugar, com 83 deputados, dois a mais do que os 81 eleitos.",
+          "prova": "Confirma os 81 eleitos da federação, pela base da Câmara."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil",
+          "titulo": "Decisão 2026: como ficam as bancadas partidárias após as eleições (06/10/2026)",
+          "url": "https://timesbrasil.com.br/brasil/decisao-2026-como-ficam-as-bancadas-partidarias-apos-as-eleicoes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PT também cresceu, mas em menor proporção: passará de 69 para 70 deputados.",
+          "prova": "Número do PT sozinho na imprensa, sem dizer se é a bancada eleita em 2022."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta de São Paulo",
+          "titulo": "Câmara terá 121 deputados do PL e 70 do PT (05/10/2026)",
+          "url": "https://www.gazetasp.com.br/politica/camara-tera-121-deputados-do-pl-e-70-do-pt-confira-como-ficaram-as-513-cadeiras-por-partido-e-os-mais-votados-das-eleicoes-de-2026-no-brasil/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na sequência aparece o PT, com 70 deputados , seguido por União Brasil, com 46, PSD, com 43, e PP e Republicanos, com 41 cada.",
+          "prova": "Mostra que 70 é a bancada eleita pelo PT em 2026."
+        }
+      ]
+    },
+    {
+      "id": "A017",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A imprensa registra 9 senadores do PT depois da eleição e 8 na posse; faltou o dado oficial",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: Lula disse que foi eleito com 9 senadores do PT, de 81. Quatro veículos independentes descrevem o mesmo quadro: depois da eleição, o PT teria 9 senadores (Investnews: 'passou de sete para nove cadeiras'; Poder360: 'Seriam 9 senadores petistas'), e a bancada começou 2023 com 8, porque Wellington Dias virou ministro e sua suplente é do PSD (Poder360, Congresso em Foco, Agência Estado no O Povo). Isso bate com a fala, que fala do momento da eleição. Nesta segunda rodada foi aberta a API de dados abertos do Senado: a lista de senadores da legislatura traz mandato e suplência, mas não o partido de cada um na posse. Pela régua do projeto, número exige fonte N1 ou N2, e ela não foi capturada. O que falta é a composição partidária oficial do Senado em fevereiro de 2023. Não é FALSO porque nenhuma fonte contradiz.",
+      "numero_dito": "9 senadores de 81",
+      "numero_apurado": "9 senadores do PT após a eleição de 2022 e 8 na posse, segundo a imprensa; sem fonte oficial capturada",
+      "data_de_referencia": "outubro de 2022 (eleição) e fevereiro de 2023 (posse)",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "CartaCapital fala em 9 representantes no início da legislatura; Poder360, Congresso em Foco e O Povo, em 8 na posse.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Investnews",
+          "titulo": "PL passa a ter maior bancada do Senado; veja nova composição (outubro de 2022)",
+          "url": "https://investnews.com.br/economia/quem-sao-senadores-eleitos-2022/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Já o Partido dos Trabalhadores (PT), do presidente Luiz Inácio Lula da Silva, passou de sete para nove cadeiras.",
+          "prova": "O PT com 9 senadores logo depois da eleição."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Ministérios de Lula diminuem bancada do PT no Senado em 2023",
+          "url": "https://www.poder360.com.br/congresso/ministerios-de-lula-diminuem-bancada-do-pt-no-senado-em-2023/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A bancada do PT no Senado em 2023 deve começar desfalcada por conta das indicações do presidente eleito, Luiz Inácio Lula da Silva (PT), para ministérios. Seriam 9 senadores petistas na Casa Alta e, agora, devem ser 8. [...] Com a saída de Dias para a Esplanada, a bancada petista no Senado cai de 9 para 8 congressistas.",
+          "prova": "9 depois da eleição e 8 na posse, com o motivo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Com indicação de ministros, PT perde uma cadeira no Senado",
+          "url": "https://www.congressoemfoco.com.br/noticia/44377/com-indicacao-de-ministros-pt-perde-uma-cadeira-no-senado",
+          "consultada_em": "2026-10-16",
+          "trecho": "Com isso, o partido de Lula passa a ter uma bancada de oito senadores na próxima legislatura",
+          "prova": "Confirma 8 no início da legislatura."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (Agência Estado)",
+          "titulo": "Partidos já definem líderes no Senado antes da eleição da Mesa (25/01/2023)",
+          "url": "https://www.opovo.com.br/noticias/politica/2023/01/25/partidos-ja-definem-lideres-no-senado-antes-da-eleicao-da-mesa.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Partido dos Trabalhadores inicia o ano legislativo de 2023 com 8 senadores, um a mais do que na legislatura anterior.",
+          "prova": "Terceira fonte para os 8 na posse."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Fabiano Contarato é o novo líder do PT no Senado",
+          "url": "https://www.cartacapital.com.br/?p=321815",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PT terá a quinta maior bancada, com 9 representantes.",
+          "prova": "Registro divergente: 9 representantes."
+        }
+      ]
+    },
+    {
+      "id": "A018",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte dá 99%: 21% das MPs viraram lei até 2025; o governo calcula 94% com outro critério",
+      "explicacao": "Lula disse que o governo aprovou 99% de tudo o que fez no Congresso. Nenhuma fonte achada chega a 99% em universo nenhum. As contagens independentes, feitas sobre as bases da Câmara e do Planalto, dão números muito menores: até 31/12/2025, 37 das 179 MPs foram convertidas em lei, taxa de 21% (Poder360); em 2023 e 2024, 22 dos 59 projetos de lei do Executivo viraram norma, 37,29% (Aos Fatos); e o levantamento do Estadão sobre o mandato todo dá 23% das MPs convertidas. O critério mais favorável, o do próprio governo, chega a 94% das MPs no primeiro biênio, excluindo as em tramitação e as temporárias e contando o conteúdo incorporado a projetos de lei. A frase não define o universo ('tudo'), e em dezembro de 2025 Lula falou em 99% da 'pauta econômica', que não tem lista pública para medir. Por isso o veredito é INSUSTENTAVEL, e não FALSO: o número não existe em fonte nenhuma, e as medidas disponíveis contradizem a leitura literal de 'tudo', mas o recorte que Lula usa não é conferível.",
+      "numero_dito": "99%",
+      "numero_apurado": "21% das MPs convertidas em lei até dezembro de 2025; 37,29% dos projetos de lei do Executivo em 2023 e 2024; 94% pelo critério do governo",
+      "data_de_referencia": "MPs de 2023 até dezembro de 2025; projetos de lei de 2023 e 2024",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Secretaria de Relações Institucionais calcula 94% de MPs aprovadas no primeiro biênio, excluindo as em tramitação e as temporárias; os levantamentos independentes dão 15% a 23% conforme o período.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula tem menor taxa de aprovação de MPs desde 2003 (24/01/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/lula-tem-menor-taxa-de-aprovacao-de-mps-desde-2003/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Até 31 de dezembro de 2025, o petista havia editado 179 MPs (23 ainda estão em tramitação). Só 37 foram convertidas em lei, o que representa uma taxa de aprovação de 21%.",
+          "prova": "A taxa de MPs convertidas em lei no mandato até o fim de 2025."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "Lula engana ao falar sobre relação com o Congresso (06/02/2025)",
+          "url": "https://www.aosfatos.org/noticias/lula-engana-frases-relacao-com-congresso/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Entre 2023 e 2024, o atual governo Lula enviou 59 PLs ao Congresso, sendo que 22 viraram normas jurídicas. Isso significa que 37,29% dos projetos de lei de autoria do Executivo foram aprovados pelo Congresso e sancionados pela Presidência. [...] Em resposta ao levantamento feito pela Folha de S.Paulo, em janeiro, a Secretaria de Relações Institucionais alegou ser equivocado considerar que houve aprovação de apenas 15% das MPs no primeiro biênio de governo. Segundo a secretaria, a taxa de aprovação seria de 94%, e para chegar ao percentual é preciso excluir MPs em tramitação e de natureza temporária, como créditos orçamentários.",
+          "prova": "Taxa de projetos de lei do Executivo aprovados, os 15% de MPs do primeiro biênio contados pela Folha e o cálculo de 94% do governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Congresso reprova ou deixa caducar 77% das MPs de Lula (02/04/2026)",
+          "url": "https://www.oliberal.com/politica/congresso-reprova-ou-deixa-caducar-77-das-mps-de-lula-taxa-de-aprovacao-e-a-menor-desde-2001-1.1105198",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Congresso Nacional converteu em lei apenas 23% das medidas provisórias do terceiro governo Lula (PT).",
+          "prova": "Terceira contagem, com o mandato até 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "'Aprovamos 99% da pauta econômica no Congresso', diz Lula (18/12/2025)",
+          "url": "https://www.itatiaia.com.br/politica/aprovamos-99-da-pauta-economica-no-congresso-diz-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) comemorou nesta quinta-feira (18) os resultados de sua equipe econômica ao final do terceiro ano de seu mandato, que, segundo ele, conseguiu aprovar “99%” da pauta no Congresso Nacional.",
+          "prova": "Mostra que o 99% já foi usado por Lula para a pauta econômica, recorte sem lista pública."
+        }
+      ]
+    },
+    {
+      "id": "A019",
+      "veredito": "VERDADEIRO",
+      "resumo": "A reforma foi promulgada em dezembro de 2023; Lira e o relator falaram em 40 anos de debate, outros em 30",
+      "explicacao": "A Emenda Constitucional 132, que reformou a tributação do consumo, foi promulgada em 20/12/2023, durante o governo Lula. O tempo de espera não tem marco inicial único: na promulgação, o presidente da Câmara, Arthur Lira, falou em '40 anos de espera', e o relator no Senado, Eduardo Braga, em discussão 'há 40 anos'; a Agência Brasil e o próprio Lula, em 2023, falaram em 30 anos. Os 40 anos da fala estão dentro do que as fontes dizem sobre décadas de tentativa, e a reforma de fato foi aprovada no governo dele. Por isso VERDADEIRO, com a ressalva de que a conta varia.",
+      "numero_dito": "40 anos",
+      "numero_apurado": "debate de 30 a 40 anos, conforme a fonte; promulgada em 20 de dezembro de 2023",
+      "data_de_referencia": "promulgação em 20 de dezembro de 2023",
+      "ressalva": "Não há marco inicial único: as fontes falam de 30 a 40 anos de debate",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Lira e Eduardo Braga falam em 40 anos; Agência Brasil e Lula, em 2023, em 30 anos.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Emenda Constitucional nº 132, de 20 de dezembro de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "EMENDA CONSTITUCIONAL Nº 132, DE 20 DE DEZEMBRO DE 2023 Vigência Altera o Sistema Tributário Nacional.",
+          "prova": "A data da promulgação da reforma."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Portal NetCPA",
+          "titulo": "Reforma tributária é promulgada em plenário lotado do Congresso Nacional",
+          "url": "https://netcpa.com.br/colunas/reforma-tributaria-e-promulgada-em-plenario-lotado-do-congresso-nacional/21145",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lira disse que foram décadas tentando discutir o texto, mas que “não havia mais tempo a esperar”. “Foram 40 anos de espera que transformaram nosso sistema tributário num manicômio fiscal. A cada novo governo, a cada nova legislatura, o tema vinha à tona e naufragava em interesses diversos.",
+          "prova": "O presidente da Câmara fala em 40 anos de espera."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Fenacon",
+          "titulo": "Congresso promulga reforma tributária (20/12/2023)",
+          "url": "https://fenacon.org.br/noticias/materias/2023/12/20/congresso-promulga-reforma-tributaria",
+          "consultada_em": "2026-10-16",
+          "trecho": "O senador Eduardo Braga (MDB-AM), que atuou como relator da reforma tributária, disse ter o sentimento de dever cumprido. Ele lembrou que o tema vinha sendo discutido há 40 anos.",
+          "prova": "O relator no Senado fala em 40 anos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Nordeste (Agência Brasil)",
+          "titulo": "Congresso promulga emenda constitucional da reforma tributária (20/12/2023)",
+          "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/congresso-promulga-emenda-constitucional-da-reforma-tributaria-1.3458198",
+          "consultada_em": "2026-10-16",
+          "trecho": "Após 30 anos de discussão , a reforma tributária simplificará a tributação sobre o consumo",
+          "prova": "Contagem divergente: 30 anos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Monitor Mercantil",
+          "titulo": "Lula: 'Depois de mais de 30 anos, promulgamos a Reforma Tributária' (20/12/2023)",
+          "url": "https://monitormercantil.com.br/lula-depois-de-mais-de-30-anos-promulgamos-a-reforma-tributaria-quem-ganha-e-o-brasil/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Essa é a primeira reforma tributária aprovada no regime democrático, quase 40 anos depois.",
+          "prova": "Outra leitura do mesmo dia: quase 40 anos desde a redemocratização."
+        }
+      ]
+    },
+    {
+      "id": "A020",
+      "veredito": "IMPRECISO",
+      "resumo": "PP, União, PSD e MDB tiveram ministérios, mas PSDB, Podemos, Avante, Solidariedade e Novo nunca tiveram",
+      "explicacao": "Lula disse que todos os partidos, exceto o PL, participaram do ministério, e citou PP, União Brasil, PSD e MDB. Os quatro citados tiveram ministros: a divisão da Esplanada de setembro de 2023 lista MDB (Planejamento, Cidades, Transportes), União Brasil (três pastas), PSD (três) e PP (Esporte), além de Republicanos, PSB, PDT, PSOL, PCdoB e Rede. Mas a parte do 'todos' não confere: levantamento da Folha de março de 2025 aponta que, dos 20 partidos com representação no Congresso, cinco nunca integraram o primeiro escalão de nenhum governo Lula: PSDB, Podemos, Avante, Solidariedade e Novo. A essência (uma coalizão ampla, com partidos de centro e de centro-direita) confere; a generalização de que só o PL ficou de fora está errada. Por isso IMPRECISO, e não FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "ministérios de 2023 a 2026; levantamento da Folha de março de 2025",
+      "ressalva": "O levantamento dos partidos sem ministério é de março de 2025",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Após reforma, confira a divisão da Esplanada dos Ministérios por partidos (06/09/2023)",
+          "url": "https://www.cartacapital.com.br/?p=369991",
+          "consultada_em": "2026-10-16",
+          "trecho": "MDB: Planejamento: Simone Tebet Cidades: Jader Filho Transportes: Renan Filho PSB: Justiça e Segurança Pública: Flávio Dino Indústria e Comércio: Geraldo Alckmin Micro e Pequenas Empresas : Márcio França União Brasil: Integração e Desenvolvimento Regional: Waldez Góes. Ele foi indicado pelo União e se licenciou do PDT antes de assumir o cargo; Turismo: Celso Sabino Comunicações: Juscelino Filho PSD: Agricultura: Carlos Fávaro Pesca: André de Paula Minas e Energia: Alexandre Silveira PDT: Previdência Social: Carlos Lupi PSOL: Povos Indígenas: Sonia Guajajara PCdoB: Ciência e Tecnologia: Luciana Santos PP: Esporte: André Fufuca Republicanos: Portos e Aeroportos: Silvio Costa Filho Rede Sustentabilidade: Meio Ambiente: Marina Silva",
+          "prova": "Os partidos com ministério, entre eles os quatro citados."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias (Folhapress)",
+          "titulo": "Só PSDB e outros 4 partidos no Congresso nunca integraram 1º escalão dos governos de Lula (06/03/2025)",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/324841-so-psdb-e-outros-4-partidos-no-congresso-nunca-integraram-1o-escalao-dos-governos-de-lula",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dos 20 partidos hoje com representação no Congresso Nacional, apenas 5 nunca integraram o primeiro escalão de nenhum dos três governos de Lula (PT), de 2003 a 2010 e de 2023 em diante. Rival histórico do PT e seu antagonista desde os anos 1980, o PSDB é o principal deles. Depois, vêm os centro-direitistas Podemos e Avante, o centro-esquerdista Solidariedade e o oposicionista Novo.",
+          "prova": "Os cinco partidos, além do PL, sem ministério."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula deve anunciar 16 ministros nesta 5ª; leia os cotados (29/12/2022)",
+          "url": "https://www.poder360.com.br/governo/lula-deve-anunciar-16-ministros-nesta-5a-leia-os-cotados/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Considerando os demais partidos aliados a Lula, mas que não possuem representantes na Esplanada, o petista pode chegar a uma base total de 287 deputados . São: Solidariedade, Cidadania, PV, Avante e Pros. Todos apoiaram a eleição de Lula. Os 5 partidos devem ser contemplados apenas com cargos no 2º escalão, como presidência de agências públicas.",
+          "prova": "Aliados como Solidariedade e Avante ficaram só com segundo escalão já na montagem do governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo e Agência Brasil)",
+          "titulo": "MDB se divide e 10 diretórios do Norte e Nordeste declaram apoio a Lula no 2º turno (13/10/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11726514-mdb-norte-e-nordeste-declara-apoio-a-lula-no-segundo-turno.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O MDB chegou a ocupar três ministérios de peso no governo Lula: Planejamento, com Simone Tebet; Transportes, com Renan Filho; e Cidades, com Jader Filho.",
+          "prova": "Confirma os ministérios do MDB com fonte independente."
+        }
+      ]
+    },
+    {
+      "id": "A021",
+      "veredito": "VERDADEIRO",
+      "resumo": "PP, União e Republicanos estão com Flávio; o PSD ficou neutro e o MDB se dividiu no 2º turno",
+      "explicacao": "A frase se refere aos partidos que Lula acabara de citar com ministérios (PP, União Brasil, PSD e MDB). No 2º turno de 2026, a federação União Progressista (União Brasil e PP) e o Republicanos, que também teve ministério, apoiam Flávio Bolsonaro; o PSD anunciou neutralidade e liberou os diretórios; o MDB não apoiou ninguém no 1º turno e, no 2º, 17 diretórios foram para Flávio e 10, do Norte e do Nordeste, para Lula. Nenhum desses partidos está, como partido, na campanha de Lula. Por isso VERDADEIRO, com a ressalva dos diretórios do MDB.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "posições de 04/10/2026 a 13/10/2026",
+      "ressalva": "10 dos 27 diretórios estaduais do MDB declararam apoio a Lula no 2º turno",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "PSD anuncia 'neutralidade' no 2º turno entre Lula e Flávio (05/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/psd-anuncia-neutralidade-no-2-turno-entre-lula-e-flavio",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Partido Social Democrático (PSD), Gilberto Kassab , anunciou na noite de domingo (4) que manterá a neutralidade no segundo turno das eleições .",
+          "prova": "O PSD neutro no 2º turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Imirante (com informações de O Globo)",
+          "titulo": "Dez diretórios do MDB declaram apoio a Lula no 2º turno (13/10/2026)",
+          "url": "https://m.imirante.com/noticias/brasil/2026/10/13/ipolitica-10-diretorios-mdb-apoiam-lula-visando-eleicoes-2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dez dos 27 diretórios estaduais do MDB declararam apoio à reeleição [...] O senador conseguiu reunir a maior parte dos partidos em torno de sua candidatura no segundo turno, incluindo a federação União Progressista, formada por União Brasil e PP, além de Republicanos, Podemos e Novo.",
+          "prova": "União, PP e Republicanos com Flávio; o MDB dividido."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo e Agência Brasil)",
+          "titulo": "MDB se divide e 10 diretórios do Norte e Nordeste declaram apoio a Lula no 2º turno (13/10/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11726514-mdb-norte-e-nordeste-declara-apoio-a-lula-no-segundo-turno.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "MDB se divide e 10 diretórios do Norte e Nordeste declaram apoio a Lula no 2º turno Diretórios do partido citam avanços sociais e na economia; outros 17 diretórios da legenda apoiam Flávio [...] No primeiro turno da eleição, o MDB decidiu não apoiar nenhum candidato ao Planalto e liberar os diretórios estaduais para definir seus apoios conforme a realidade local.",
+          "prova": "O MDB sem apoio a Lula no 1º turno e com a maioria dos diretórios com Flávio no 2º."
+        }
+      ]
+    },
+    {
+      "id": "A022",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2025, o Congresso derrubou 52 itens de veto de Lula à lei do licenciamento, que dispensa e simplifica licenças",
+      "explicacao": "A frase afirma que, no governo Lula, o Congresso aprovou mudanças que reduziram a proteção ambiental. A Lei Geral do Licenciamento Ambiental (Lei 15.190, de 08/08/2025) veio de projeto do Congresso; Lula vetou 63 dos 400 dispositivos, e em 27/11/2025 o Congresso derrubou 52 itens de veto, devolvendo à lei a dispensa e a simplificação do licenciamento, a licença por adesão e compromisso também para médio potencial poluidor e a consulta restrita a terras indígenas homologadas, contra a posição do governo. A Agência Senado registra a fala de senadora que chamou a lei de 'retrocesso'. O fato descrito confere. 'Desmonte grande' é avaliação, e no mesmo período o Congresso também aprovou leis ambientais de outro sentido (a Câmara conta 35 na legislatura); por isso a ressalva.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 15.190 de 08/08/2025 e derrubada de vetos em 27/11/2025",
+      "ressalva": "'Desmonte' é avaliação; a Câmara conta 35 leis ambientais aprovadas na legislatura, de vários sentidos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Senado",
+          "titulo": "Congresso derruba 52 itens de veto à Lei Geral do Licenciamento Ambiental (27/11/2025)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/congresso-derruba-52-itens-de-veto-a-lei-geral-do-licenciamento-ambiental",
+          "consultada_em": "2026-10-16",
+          "trecho": "Por maioria de votos em ambas as Casas, o Congresso Nacional derrubou, nesta quinta-feira (27), veto do Poder Executivo à 52 pontos da Lei Geral do Licenciamento Ambiental ( Lei 15.190, de 2025 ). Retornam ao texto legal trechos como os que tratam da dispensa e simplificação do licenciamento ambiental e de suas exigências e responsabilidades; e função dos órgãos federais, estados e municípios nesses processos. [...] vetou 63 dos 400 dispositivos do projeto aprovado no Parlamento. [...] A senadora Eliziane Gama (PSD-MA) afirmou na tribuna que a aprovação da Lei do Licenciamento Ambiental \"é um retrocesso e uma vergonha para o Brasil\"",
+          "prova": "A derrubada dos vetos e o conteúdo devolvido à lei."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Câmara",
+          "titulo": "Congresso derruba vetos de Lula ao licenciamento ambiental (27/11/2025)",
+          "url": "https://www.camara.leg.br/noticias/1227650-congresso-derruba-vetos-de-lula-ao-licenciamento-ambiental/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Parlamento restituiu à lei todas as regras sobre a Licença por Adesão e Compromisso (LAC), aplicável, segundo o texto, também a empreendimentos de médio potencial poluidor. [...] Um dos principais pontos a ser incorporado à Lei Geral do Licenciamento Ambiental é a limitação da consulta às autoridades envolvidas, por parte do órgão ambiental licenciador, apenas quando o empreendimento envolver terras indígenas com demarcação homologada",
+          "prova": "O alcance das mudanças, pela agência da outra Casa."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.190, de 8 de agosto de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15190.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 15.190, DE 8 DE AGOSTO DE 2025 Mensagem de veto Vigência (Promulgação partes vetadas) Dispõe sobre o licenciamento ambiental;",
+          "prova": "A lei aprovada pelo Congresso no governo Lula."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Câmara",
+          "titulo": "Congresso Nacional aprovou 35 leis ambientais na atual legislatura (06/11/2025)",
+          "url": "https://www.camara.leg.br/noticias/1220279-congresso-nacional-aprovou-35-leis-ambientais-na-atual-legislatura",
+          "consultada_em": "2026-10-16",
+          "trecho": "o Congresso Nacional aprovou, na atual legislatura , iniciada em 2023, 35 leis com impacto no meio ambiente, no desenvolvimento sustentável e na gestão de recursos naturais.",
+          "prova": "O contraponto: leis ambientais de outros sentidos no mesmo período."
+        }
+      ]
+    },
+    {
+      "id": "A023",
+      "veredito": "VERDADEIRO",
+      "resumo": "Antes de abril de 2026, o Senado só tinha rejeitado indicados ao STF em 1894, cinco vezes",
+      "explicacao": "O Arquivo do Senado registra que só cinco indicações ao STF foram derrubadas pelos senadores, todas em 1894, no governo Floriano Peixoto. A rejeição de Jorge Messias, em 29/04/2026, foi a primeira desde então, segundo Exame e CNN. Um caso em mais de 130 anos de indicações aprovadas sustenta o 'praticamente inédita'.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "histórico até 29/04/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Senado (Arquivo S)",
+          "titulo": "Senado já rejeitou médico e general para o Supremo Tribunal Federal (01/06/2015)",
+          "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/senado-ja-rejeitou-medico-e-general-para-o-supremo-tribunal-federal",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nestes 125 anos, apenas cinco indicações do presidente foram derrubadas pelos senadores. Todas as rejeições ocorreram em 1894, no governo do marechal Floriano Peixoto.",
+          "prova": "O histórico oficial: cinco rejeições, todas em 1894."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Exame",
+          "titulo": "Em derrota do governo Lula, Senado recusa nome de Messias ao STF (29/04/2026)",
+          "url": "https://exame.com/brasil/em-derrota-do-governo-lula-senado-recusa-nome-de-messias-ao-stf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Essa é a primeira vez que um nome indicado ao STF é rejeitado em mais de 132 anos. A rejeição de indicados à Corte só ocorreu em 1894, quando o Senado reprovou cinco indicações do então presidente Floriano Peixoto.",
+          "prova": "A rejeição de 2026 como a primeira desde 1894."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Messias é 1º indicado ao STF rejeitado desde redemocratização (29/04/2026)",
+          "url": "https://www.cnnbrasil.com.br/politica/messias-e-1o-indicado-ao-stf-rejeitado-desde-redemocratizacao/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Antes disso, apenas cinco indicados haviam sido rejeitados, todos em 1894, durante o governo de Floriano Peixoto (1891–1894).",
+          "prova": "Segunda fonte independente para o histórico."
+        }
+      ]
+    },
+    {
+      "id": "A024",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 29 de abril de 2026, o Senado rejeitou Jorge Messias, indicado de Lula ao STF, por 42 votos a 34",
+      "explicacao": "O plenário do Senado rejeitou em 29/04/2026 a indicação do advogado-geral da União, Jorge Messias, feita por Lula para a vaga de Luís Roberto Barroso no STF. Foram 42 votos contrários e 34 favoráveis, e a aprovação exigia 41. Agência Senado (republicada pelo O Povo), Exame e CNN registram o mesmo placar.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "votação de 29/04/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (texto da Agência Senado)",
+          "titulo": "Indicação de Jorge Messias é rejeitada no Senado (29/04/2026)",
+          "url": "https://www.opovo.com.br/noticias/politica/2026/04/29/indicacao-de-jorge-messias-e-rejeitada-no-senado.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O advogado-geral da União, Jorge Messias , teve indicação ao Supremo Tribunal Federal (STF) rejeitada em votação no plenário do Senado Federal nesta quarta-feira, 29. Ao todo, foram 42 votos contrários ao indicado do presidente Lula (PT) e 34 votos favoráveis .",
+          "prova": "A votação, o nome e o placar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Exame",
+          "titulo": "Em derrota do governo Lula, Senado recusa nome de Messias ao STF (29/04/2026)",
+          "url": "https://exame.com/brasil/em-derrota-do-governo-lula-senado-recusa-nome-de-messias-ao-stf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O plenário do Senado rejeitou na noite desta quarta-feira, 29, a indicação do advogado-geral da União, Jorge Messias, para o Supremo Tribunal Federal (STF) por 42 votos a 34. 77 senadores votaram, dois se ausentaram e dois não votaram. Para ser aprovado, o ministro de Lula precisava de 41 dos 81 senadores, a maioria absoluta.",
+          "prova": "O mesmo placar e o quórum exigido, por apuração própria."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Messias é 1º indicado ao STF rejeitado desde redemocratização (29/04/2026)",
+          "url": "https://www.cnnbrasil.com.br/politica/messias-e-1o-indicado-ao-stf-rejeitado-desde-redemocratizacao/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Para ser aprovado, Messias precisava de ao menos 41 votos favoráveis, mas o placar foi de 42 votos contrários a 34 favoráveis.",
+          "prova": "Terceira fonte para o placar."
+        }
+      ]
+    },
+    {
+      "id": "A025",
+      "veredito": "VERDADEIRO",
+      "resumo": "Telefonemas e encontros foram descritos como amistosos pelos dois lados, em meio a atritos entre os governos",
+      "explicacao": "Os contatos diretos entre Lula e Trump registrados nas fontes foram descritos em tom positivo pelos dois lados: o encontro rápido na ONU, em Nova York, lembrado como 'boa química'; o telefonema de 06/10/2025, que a nota do Planalto descreve como amistoso; a reunião na Malásia, que Trump chamou de 'boa reunião'; e o encontro na Casa Branca em 07/05/2026, que Trump disse ter 'corrido muito bem'. As tensões existiram entre os governos (o tarifaço, a expulsão de um policial brasileiro em Miami, a negação de visto a um conselheiro de Trump), mas não aparecem como incidente nos próprios encontros. A frase fala das interações entre os dois, e isso confere.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "contatos de setembro de 2025 a maio de 2026",
+      "ressalva": "Houve atritos entre os governos, como expulsão de agente e negação de visto, fora dos encontros",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Forbes Brasil (nota do Palácio do Planalto)",
+          "titulo": "Trump diz que conversa com Lula foi ótima (06/10/2025)",
+          "url": "https://forbes.com.br/forbes-money/2025/10/lula-conversa-com-trump-e-pede-fim-de-tarifaco/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o governo brasileiro, a ligação partiu de Trump e a conversa se deu em tom amistoso, com os dois relembrando “a boa química” que tiveram em Nova York por ocasião da Assembleia Geral da ONU , quando “os dois presidentes reiteraram a impressão positiva daquele encontro”",
+          "prova": "O tom do telefonema e do encontro na ONU, pela nota oficial citada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Monitor Mercantil (Reuters)",
+          "titulo": "Lula sobre Trump: 'Ele tem meu telefone e eu tenho o dele' (27/10/2025)",
+          "url": "https://monitormercantil.com.br/lula-sobre-trump-ele-tem-meu-telefone-e-eu-tenho-o-dele-2/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Estabelecemos uma regra de negociação que toda vez que tiver uma dificuldade eu vou conversar pessoalmente com ele. Ele tem o meu telefone e eu tenho o telefone dele”, afirmou. A declaração do presidente brasileiro foi em resposta à fala de Donald Trump, após deixar a Malásia. Segundo a agência de notícias Reuters, Trump disse que teve uma “boa reunião” com Lula",
+          "prova": "O encontro na Malásia descrito como boa reunião."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Trump afirma que seu encontro com Lula na Casa Branca correu muito bem (07/05/2026)",
+          "url": "https://www.diariodepernambuco.com.br/mundo/2026/05/11713747-trump-afirma-que-seu-encontro-com-lula-na-casa-branca-correu-muito-bem-e-antecipa-novas-reunioes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"Discutimos muitos assuntos, entre eles o comércio e, especificamente, as tarifas. A reunião correu muito bem. [...] O encontro ocorre em um contexto marcado por tensões reacendidas entre Washington e Brasília, que pareciam ter se acalmado após a sintonia demonstrada em sua conversa telefônica em dezembro de 2025",
+          "prova": "O encontro de maio de 2026 e o contexto de tensão entre os governos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Expreso (Agencia EFE)",
+          "titulo": "Trump recibirá a Lula en la Casa Blanca bajo máxima tensión entre Brasil y EE.UU. (05/05/2026)",
+          "url": "https://www.expreso.ec/internacional/trump-recibe-lula-casa-blanca-maxima-tension-brasil-ee-uu-281072.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Tensión diplomática: Washington expulsó a un policía brasileño en Miami; Brasil respondió retirando credenciales a un agente de EE. UU. Conflicto Bolsonaro: La relación se tensó por la denegación de visado a un consejero de Trump para visitar al expresidente preso. [...] Alckmin, que habló con periodistas en São Paulo, dijo confiar en que, con esa visita, \"se pueda fortalecer la buena química\" que hubo en los encuentros anteriores entre Lula y Trump",
+          "prova": "Fonte estrangeira: os atritos (policial expulso em Miami, visto negado a um conselheiro de Trump) eram entre governos, e os encontros anteriores tinham sido cordiais."
+        }
+      ]
+    },
+    {
+      "id": "A026",
+      "veredito": "VERDADEIRO",
+      "resumo": "Foram duas tarifas só contra o Brasil: 40% a mais em agosto de 2025 e 25% em julho de 2026",
+      "explicacao": "Contando as medidas dirigidas especificamente ao Brasil, foram duas: a ordem executiva de 30/07/2025, que somou 40% aos 10% recíprocos e passou a valer em 06/08/2025, e a ação final da Seção 301 do USTR, anunciada em 15/07/2026, com 25% sobre parte dos produtos brasileiros a partir de 22/07/2026. Houve ainda medidas que alcançaram o Brasil junto com outros países (a tarifa recíproca de 10% de abril de 2025 e a sobretaxa de 12,5% por trabalho forçado, aplicada a 41 economias em 2026), e a tarifa de 40% caiu em parte em novembro de 2025 e perdeu base legal com a decisão da Suprema Corte dos EUA de fevereiro de 2026. 'Duas rodadas' é a contagem das medidas próprias contra o Brasil e confere.",
+      "numero_dito": "duas rodadas",
+      "numero_apurado": "duas: 40% (julho de 2025) e 25% (julho de 2026)",
+      "data_de_referencia": "julho de 2025 a julho de 2026",
+      "ressalva": "Houve também a tarifa global de 10% de abril de 2025 e uma de 12,5% aplicada a vários países em 2026",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Representante Comercial dos Estados Unidos (USTR)",
+          "titulo": "USTR Section 301 Action on Brazil's Unreasonable Acts, Policies, and Practices (15/07/2026)",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-section-301-action-brazils-unreasonable-acts-policies-and-practices",
+          "consultada_em": "2026-10-16",
+          "trecho": "July 15, 2026 WASHINGTON – Today, Ambassador Jamieson Greer is taking final action, at President Trump’s direction, under Section 301 of the Trade Act of 1974 by imposing a 25% tariff on certain goods of Brazil.",
+          "prova": "A segunda rodada, pelo órgão que a impôs."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Trench Rossi Watanabe",
+          "titulo": "United States implements additional 50% tariffs on Brazilian products (01/08/2025)",
+          "url": "https://www.trenchrossi.com/en/legal-alerts/united-states-implements-additional-50-tariffs-on-brazilian-products/",
+          "consultada_em": "2026-10-16",
+          "trecho": "In an Executive Order issued on July 30, 2025 [1] , the United States government implemented the previously announced 50% tariff [2] on imports of Brazilian products. The measure imposes a 40% tariff that adds to the reciprocal 10% tariffs implemented on April 2, 2025 [3] – [4] , reaching a total of 50%. The measure will take effect at 12:01 a.m. eastern daylight time on August 6.",
+          "prova": "A primeira rodada, citando a ordem executiva."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Migalhas",
+          "titulo": "Tarifaço de Trump tem isenções e começará em sete dias; veja íntegra (30/07/2025)",
+          "url": "https://www.migalhas.com.br/quentes/435770/tarifaco-de-trump-tem-isencoes-e-comecara-em-sete-dias-veja-integra",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nesta quarta-feira, 30, o presidente dos Estados Unidos, Donald J. Trump, assinou ordem executiva que declara \"emergência nacional\" contra o governo do Brasil e determina a aplicação de tarifa adicional de 40% sobre uma ampla gama de produtos brasileiros. Com isso, a alíquota total chega a 50%, conforme já havia sido prometido por Trump em carta enviada ao presidente Lula.",
+          "prova": "Segunda fonte para a primeira rodada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Tarifaço dos EUA de 25% sobre produtos brasileiros começa em 22 de julho (16/07/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/tarifaco-dos-eua-de-25-sobre-produtos-brasileiros-comeca-em-22-de-julho/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A tarifa de 25% imposta pelos Estados Unidos sobre parte dos produtos brasileiros começa a valer em 22 de julho [...] As primeiras taxas impostas pelos Estados Unidos entraram em vigor em 2 de abril de 2025. Trump estabeleceu tarifas recíprocas com alíquota inicial de 10% para 125 países, incluindo o Brasil. [...] Em 20 de fevereiro de 2026 , a Suprema Corte dos Estados Unidos decidiu —por 6 votos a 3— que as tarifas globais impostas por Trump eram ilegais.",
+          "prova": "A cronologia completa, com a tarifa global e a decisão da Suprema Corte."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (dados do MDIC)",
+          "titulo": "MDIC aponta que 23,1% das exportações brasileiras aos EUA estão sujeitas a novas tarifas (24/07/2026)",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/07/24/mdic-aponta-que-231-das-exportacoes-brasileiras-aos-eua-estao-sujeitas-a-novas-tarifas.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A tarifa de 12,5% foi aplicada a 41 economias , enquanto a de 10% alcançou outras 19 . No caso do Brasil, a sobretaxa adicional fixada foi de 12,5%",
+          "prova": "A medida de 2026 que atinge vários países, contada à parte."
+        }
+      ]
+    }
+  ]
+}

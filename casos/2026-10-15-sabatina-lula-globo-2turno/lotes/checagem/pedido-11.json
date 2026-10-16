@@ -1,0 +1,242 @@
+PEDIDO DE CHECAGEM 11 de 15 · alegações A131 a A143
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-11.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A131",
+      "inicio_s": 1958.1,
+      "fim_s": 1963.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós criamos o Desenrola 1. Depois, nós atendemos por volta de 15 milhões de pessoas",
+      "afirmacao": "A primeira edição do Desenrola atendeu cerca de 15 milhões de pessoas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "balanço final do Desenrola Brasil (2023-2024) do Ministério da Fazenda",
+        "se o número é de pessoas atendidas, de pessoas que renegociaram ou de pessoas retiradas do cadastro de negativados"
+      ]
+    },
+    {
+      "id": "A132",
+      "inicio_s": 1969.2,
+      "fim_s": 1974.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "esse Desenrola 3, nós fizemos uma medida provisória. Ele está na Câmara",
+      "afirmacao": "O Desenrola 3 foi criado por medida provisória que está em tramitação na Câmara dos Deputados",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "número e data da medida provisória do Desenrola 3, no Diário Oficial da União",
+        "situação da tramitação da MP no Congresso na data da sabatina (comissão mista ou plenário da Câmara)"
+      ]
+    },
+    {
+      "id": "A133",
+      "inicio_s": 1974.0,
+      "fim_s": 2001.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós vamos fazer um leilão da dívida das pessoas [...] A União vai comprar essa dívida",
+      "afirmacao": "A medida provisória do Desenrola 3 prevê um leilão em que a União compra dívidas de pessoas físicas",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "texto da medida provisória do Desenrola 3: mecanismo de leilão e quem compra as dívidas (a União ou um fundo)",
+        "nota do Ministério da Fazenda que descreve o mecanismo"
+      ]
+    },
+    {
+      "id": "A134",
+      "inicio_s": 1989.7,
+      "fim_s": 1996.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós estamos comprando a dívida de todas as pessoas que devem, acima de dois anos, até R$ 4 mil",
+      "afirmacao": "O Desenrola 3 compra dívidas de pessoas com atraso acima de dois anos e valor de até R$ 4 mil",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "critérios de elegibilidade no texto da MP do Desenrola 3: tempo de atraso, teto de valor por dívida ou por pessoa",
+        "se o critério alcança 'todas as pessoas' ou depende de adesão dos credores ao leilão"
+      ]
+    },
+    {
+      "id": "A135",
+      "inicio_s": 2007.6,
+      "fim_s": 2009.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Essa dívida existe hoje, R$ 150 bilhões",
+      "afirmacao": "O estoque de dívidas de pessoas físicas elegíveis ao Desenrola 3 soma R$ 150 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "estimativa do Ministério da Fazenda, na exposição de motivos da MP, do estoque de dívidas elegíveis",
+        "dados do Banco Central ou da Serasa sobre dívidas em atraso há mais de dois anos de até R$ 4 mil"
+      ]
+    },
+    {
+      "id": "A136",
+      "inicio_s": 2018.7,
+      "fim_s": 2022.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós fizemos o perdão do MEI",
+      "afirmacao": "O governo concedeu perdão de dívidas de microempreendedores individuais",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "ato que concedeu o perdão ou a remissão de dívidas do MEI (lei, MP ou portaria da PGFN) e sua data",
+        "se o ato já está em vigor ou ainda é proposta, já que a fala segue com 'eu sugeri que a gente estudasse a possibilidade de anistiar'"
+      ]
+    },
+    {
+      "id": "A137",
+      "inicio_s": 2022.7,
+      "fim_s": 2027.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós descobrimos que tinha R$ 12,7 bilhões de dívida ativa da União",
+      "afirmacao": "A dívida ativa da União de microempreendedores individuais somava R$ 12,7 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "estoque da dívida ativa da União de MEIs na PGFN (painel da dívida ativa ou nota do governo) em 2026",
+        "se o valor é de MEIs só ou de todo o Simples Nacional"
+      ]
+    },
+    {
+      "id": "A138",
+      "inicio_s": 2032.6,
+      "fim_s": 2038.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "essas pessoas não conseguem fazer novo negócio porque estão no Serasa",
+      "afirmacao": "MEIs com dívida inscrita na dívida ativa da União ficam com o nome negativado no Serasa",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "regras da PGFN sobre protesto e envio de inscrições em dívida ativa aos birôs de crédito (Serasa)",
+        "se há convênio da PGFN com a Serasa que inclui dívidas de MEI"
+      ]
+    },
+    {
+      "id": "A139",
+      "inicio_s": 2073.4,
+      "fim_s": 2078.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Estamos fazendo isso com muita, com muita coisa, sem mexer no espaço fiscal",
+      "afirmacao": "As medidas de renegociação de dívidas do Desenrola 3 não afetam o espaço fiscal do governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "impacto no resultado primário e no limite de despesas indicado na exposição de motivos da MP do Desenrola 3",
+        "fonte dos recursos para comprar as dívidas (fundo, operação financeira ou despesa primária) e o tratamento na meta fiscal"
+      ]
+    },
+    {
+      "id": "A140",
+      "inicio_s": 2091.2,
+      "fim_s": 2099.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No comando do Banco Central, que define a taxa básica, o senhor tem já há um ano e nove meses, a pessoa que o senhor escolheu, Gabriel Galípolo",
+      "citacao_card": "No comando do Banco Central [...] já há um ano e nove meses, a pessoa que o senhor escolheu, Gabriel Galípolo",
+      "afirmacao": "Gabriel Galípolo, indicado por Lula, preside o Banco Central há cerca de um ano e nove meses",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "data de posse de Gabriel Galípolo na presidência do Banco Central, no site do BC ou no Diário Oficial",
+        "se a indicação ao cargo foi do presidente Lula (mensagem ao Senado e aprovação)",
+        "o intervalo entre a posse e 15/out/2026"
+      ]
+    },
+    {
+      "id": "A141",
+      "inicio_s": 2099.3,
+      "fim_s": 2104.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e ele não só não viu espaço para reduzir de maneira significativa os juros",
+      "afirmacao": "Sob a presidência de Galípolo, o Banco Central não reduziu de forma significativa a taxa Selic",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "série da meta Selic definida pelo Copom, do início do mandato de Galípolo até outubro de 2026, no site do BC",
+        "o tamanho total dos cortes no período, se houve, e o nível em 15/out/2026"
+      ]
+    },
+    {
+      "id": "A142",
+      "inicio_s": 2104.9,
+      "fim_s": 2111.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "como num evento recente, ele disse que o modelo de crescimento, baseado no estímulo ao consumo, está esgotado",
+      "citacao_card": "ele disse que o modelo de crescimento, baseado no estímulo ao consumo, está esgotado",
+      "afirmacao": "Galípolo disse em evento recente que o modelo de crescimento baseado no estímulo ao consumo está esgotado",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "registro do evento recente (vídeo, transcrição ou nota do BC) com a fala de Galípolo sobre o modelo de crescimento",
+        "se a fala usa a ideia de esgotamento do crescimento baseado em consumo, e se liga isso a corte de gasto e queda de juros, como a pergunta resume em seguida"
+      ]
+    },
+    {
+      "id": "A143",
+      "inicio_s": 2131.1,
+      "fim_s": 2132.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu estou com 80 anos de idade",
+      "afirmacao": "Lula tem 80 anos de idade",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre juros e política fiscal",
+      "o_que_conferir": [
+        "data de nascimento de Lula em registro oficial (TSE, Presidência) e a idade em 15/out/2026"
+      ]
+    }
+  ]
+}

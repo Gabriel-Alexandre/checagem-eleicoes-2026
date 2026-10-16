@@ -1,0 +1,123 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A170": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fala diz 'fizeram o favor de privatizar a Eletrobras a troco de banana', e o 'a troco de banana' é juízo de preço que o card poderia parecer endossar. Cai: a afirmação extraída é só o fato (privatização antes do atual governo), e a explicação separa o juízo. Conferidos na transcrição o contexto (resposta sobre conta de luz) e, nas capturas p14, os quatro trechos: Lei 14.182 de 12/07/2021 (N1), Mais Retorno de 10/06/2022 com 72% para 40,3%, Folha de Pernambuco com a capitalização concluída no governo Bolsonaro, Poder360 com 51,82%. Duas fontes independentes da lei confirmam junho de 2022. A divergência 72% contra 51,82% é de recorte (com BNDES contra ações ordinárias diretas) e está declarada. Resumo e ressalva têm lastro, sem travessão nem intenção.",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "7", "8"]
+  },
+  "A171": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase está no meio de uma fala sobre energia, e a isenção da Lei 15.235 joga o custo sobre os demais consumidores, não sobre os ricos; ler o imposto mínimo de renda seria trocar o assunto para salvar o veredito. Fica de pé com confiança média: a frase é ambígua ('os ricos pagam um pouco mais como nós fizemos agora'), a alegação já registrava as duas leituras no o_que_conferir antes da checagem, e nas duas há mudança recente pela qual quem tem mais paga mais (Lei 15.270, tributação mínima de altas rendas; Lei 15.269, encargo da CDE dividido com o mercado livre, de grandes consumidores, segundo o Cenário Energia). A ressalva já diz que, na conta de luz, o custo da isenção vai para os demais consumidores. Procurei na captura da Lei 15.269 o texto da divisão da CDE para ter N1 nessa leitura e não achei um trecho que a diga com clareza; fica como está, apoiada no N4. Os quatro trechos estão nas capturas p13 a p15.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A172": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o veredito: 'o pobre comprava do Estado' está errado (quem vende no regulado é a distribuidora, quase toda privada, e o próprio candidato diz antes que a energia é privada), e 'mais barato' só tem estimativa de mercado. Cai como ornamento, pela regra do §2.2 (certo no fato, errado no detalhe, vai na ressalva, que já diz isso): a comparação central, pequeno consumidor preso ao regulado e grande consumidor no livre, está na Lei 15.269 (N1, precisa reduzir os limites para alcançar quem está abaixo de 2,3 kV) e em duas reportagens independentes. O que caiu foi o resumo: 'até a reforma de 2025, residências não podiam' dava a entender que hoje podem, e na data da fala ainda não podiam (prazo de até 36 meses, como a A173 registra). Resumo reescrito; veredito VERDADEIRO mantido. Detalhe em correcoes-r7.md.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A173": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'nós agora estamos permitindo que todo e qualquer cidadão possa ir para o mercado livre' afirma no presente uma permissão que, na data da fala, não valia para residências (prazo até novembro de 2028 e decreto ainda pendente em agosto de 2026); pela régua de período errado, seria IMPRECISO. Fica de pé por pouco: o gerúndio 'estamos permitindo' descreve um processo em curso que o governo aprovou e sancionou (Lei 15.269, de 24/11/2025), e a linha 'número certo, período errado' do §2.2 é para atribuir a um governo o que aconteceu em outro, o que não é o caso. O card não esconde o prazo: o resumo já diz que residências entram até novembro de 2028 e a ressalva diz que na data da fala a abertura ainda não valia. Conferidos os quatro trechos na captura p14 (lei, TAGD, Cenário Energia de fevereiro e de agosto). A divergência novembro contra dezembro de 2027 para indústria e comércio não toca a fala.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A174": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: é a pergunta da jornalista, e afirmação de que a espera é 'a principal queixa' poderia ser tratada como enquadramento de pergunta, não fato (NAO_CHECAVEL). Cai: é um ranking, e ranking se confere com pesquisa de opinião, então o §4.1 manda checar, com a mesma régua que vale para o candidato. Procurei nas capturas do caso alguma pesquisa com lista de queixas: só há o Datafolha de março de 2026 (captura p04), que põe a saúde como a área federal mais problemática (21%) e não fala de fila nem de espera, então não decide o primeiro lugar. As três fontes capturadas (Ministério da Saúde, Futuro da Saúde, Outras Palavras, trechos encontrados na p14 e p15) sustentam que a espera é problema central, não que é a principal queixa. Nada contradiz o ranking, então não é FALSO; a busca foi interrompida, o que a explicação declara. Resumo ('nenhuma pesquisa achada') descreve o que a busca sustenta.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A175": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o veredito: a alta das cirurgias começou antes do programa e o TCU atribui boa parte dela à recuperação pós-pandemia, então dizer que o programa ampliou o atendimento seria creditar a ele o que veio de antes. Cai: a pergunta só diz que o programa ampliou o atendimento, não quanto; o Ministério da Saúde (N1) conta mais de 1 milhão de procedimentos nas carretas e aumento onde os especialistas chegaram, e duas leituras independentes da auditoria do TCU registram impacto positivo na produção cirúrgica. Veredito VERDADEIRO mantido. Alterado o número do card: usava os 14,7 milhões da divulgação de fevereiro, quando o balanço mais recente antes da fala é 14,9 milhões (42% sobre 2022, Diário do Pará), o mesmo que a A188 deste caso mostra; e o trecho da TVT diz 'até julho', não 'primeiro semestre'. Todos os trechos conferidos na p14. Detalhe em correcoes-r7.md.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A176": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o Acórdão 1622/2026 do TCU, capturado no caso (p15), tem na ementa 'baixa efetividade na redução do tempo de espera', o que confirmaria a jornalista e faria o card VERDADEIRO, coerente com a A185. Não derruba: o corpo do mesmo relatório diz que a mediana caiu em 18 de 29 procedimentos de maior volume e que a maioria dos usuários está sendo atendida mais rapidamente, enquanto um quarto espera mais; 'significativamente' não tem régua, a base cobre pouco das cirurgias e não há série nacional (e-SUS Regulação com 448 centrais ativas em julho de 2026). A A185 é atribuição ao TCU, que o documento confirma; esta é afirmação sobre a espera em si, que o dado não decide. Veredito mantido. Alterados: a fonte primária do TCU entrou como N1 (antes o achado chegava só pela leitura do Futuro da Saúde), e resumo, explicação e divergência passaram a trazer os dois lados do acórdão, porque o card antigo só mostrava o lado que contraria a pergunta. Detalhe em correcoes-r7.md.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A177": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'quem estuda a saúde pública vê' generaliza para a área inteira uma leitura que as fontes mostram em dois sanitaristas ouvidos pela imprensa, e a palavra 'paliativo' não aparece. Fica de pé: é atribuição a terceiro, que o §4.1 manda checar, e o sentido atribuído (programa correto e necessário, sem resolver o problema estrutural) aparece em duas publicações independentes: Vecina (Futuro da Saúde) e Tulio Franco (Outras Palavras), além da avaliação do Futuro da Saúde de que as iniciativas não focam na solução estrutural. Trechos encontrados nas capturas p14 e p15, inclusive os pedaços separados por [...]. A ressalva já diz que não é levantamento e que 'paliativo' não aparece; a confiança média está bem posta.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A178": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: a exposição de motivos da MP 1.165 (N1) dá o auge em 18.240 médicos em 2015, e '20 e poucos mil' passa de 10% acima, então seria IMPRECISO. Procurei nas capturas uma segunda fonte: a única outra com 18.240 é um artigo de 2019 do Carta Campinas (captura p14), texto de opinião que entra como N5 e não conta; o parecer da comissão mista repete a exposição de motivos e conta como a mesma fonte. Além disso, a A179 mostra que o próprio governo usa duas bases de contagem (8.613 contra 12.843 no começo de 2023), e não se sabe em qual base a fala está. Com uma fonte só e base incerta, INSUSTENTAVEL fica. Trechos conferidos na captura r2. A explicação declara a busca interrompida e o que mudaria o veredito.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A179": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra, para os dois lados: a fonte primária (exposição de motivos da MP 1.165, março de 2023) dá 8.613 no Mais Médicos, e a regra 'a primária ganha' faria o card IMPRECISO; ou, ao contrário, o comunicado do Ministério de 2024 dá 12.843 em dezembro de 2022, o que faria o 'apenas 12 mil' VERDADEIRO. Nenhum dos dois derruba: as duas são do mesmo Ministério, uma mede só o programa e a outra não diz o recorte, e as duas reproduções do comunicado (Medicina S/A e O Imparcial) contam como uma fonte. A conta 24.894 menos 12.051 igual a 12.843 confere e está em derivacoes. Trechos encontrados nas capturas p14 e r2. Divergência escrita, sem escolher lado, como deve ser.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7"]
+  },
+  "A180": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: 12 mil mais 16 mil dá os 28 mil da fala e da meta, e o saldo de 12.051 em junho de 2024 seria 25% abaixo de 16 mil, então o card poderia ser IMPRECISO. Não derruba: o saldo é de médicos em atividade, não de contratações, o dado é de mais de dois anos antes da fala e a regra é usar o dado da data da fala (§5, anacronismo), que não foi achado. Veredito mantido. Alterado: o card dizia que o último dado achado era de junho de 2024, mas a reportagem do Mais Goiás (Agência Brasil), já capturada e citada, é de 22/05/2025 (cerca de 24,9 mil atuando); e a meta de 28 mil estava na explicação sem trecho. Resumo, explicação, data e o trecho dessa fonte corrigidos, todos conferidos na captura p14. Detalhe em correcoes-r7.md.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A181": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fala diz 'estamos criando mais especialistas', o que soa como formação (residência), e as fontes falam de provimento e aprimoramento de quem já é especialista. Cai: a afirmação extraída já cobre formação ou provimento, a ressalva diz que residência não foi conferida, e o provimento está documentado em três páginas do Ministério da Saúde (N1: cerca de 2 mil especialistas e 1.480 em atividade em agosto de 2026, edital de 1.136 vagas em julho, meta de 2000 vagas) e na reprodução do Viva (570 novos especialistas). Trechos encontrados na p14 e p15. A segunda parte da frase ('para que todas as pessoas tenham direito ao segundo médico') é objetivo e ficou de fora, como deve.",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "7", "8"]
+  },
+  "A182": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: 'precisamos fazer o Brasil Sorridente voltar a funcionar' é dito no tom de plano, e plano é NAO_CHECAVEL. Cai: a frase vem logo depois de 'eu cheguei no governo' e pressupõe que o programa tinha parado ou encolhido, o que é fato sobre o passado e tem registro (orçamento e número de equipes ano a ano). Também testei a mesma régua da A183: lá há fonte de que o programa funcionava e de corte proposto; aqui as fontes capturadas (página do programa, Lei 14.572 de 2023, 34,5 mil equipes em julho de 2026, todas encontradas na p14) não trazem a série de antes de 2023, então não dá para dizer nem IMPRECISO nem VERDADEIRO. A diferença de veredito entre as duas vem da diferença de prova, não de régua.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A183": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o IMPRECISO: as três fontes eram comunicados do próprio Ministério da Saúde, como a explicação admitia; sem duas fontes independentes, a árvore do §2.1 e a regra 3 da §3.1 levariam o card para INSUSTENTAVEL. Procurei nas capturas do caso e achei duas fontes independentes já capturadas na rodada p01: Aos Fatos (N3), com o corte de 59% nos recursos do programa na proposta de orçamento de 2023, e Rádio Senado (relator do orçamento em 30/11/2022: sem a PEC da Transição o Farmácia Popular corria risco de parar). Elas sustentam exatamente a essência que o IMPRECISO afirma: o programa funcionava, mas estava enfraquecido e sob risco; não tinha deixado de funcionar. Com isso o veredito fica de pé, agora com lastro. Alterados: fontes, resumo (passa a mostrar o corte proposto para o ano da posse), ressalva, data e explicação. Trechos novos conferidos na p01. Detalhe em correcoes-r7.md.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A184": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: o programa de que a jornalista fala, o Mais Acesso a Especialistas, era o componente ambulatorial, e o TCU diz que ele executou só 6,9% das ofertas de cuidado integrado planejadas em 2025; a alta das cirurgias seria de outro componente. Cai: o programa foi incorporado ao Agora Tem Especialistas em 2025 (TCU, N1), a pergunta trata do programa como um todo, e 6,9% do planejado ainda é atendimento a mais; o TCU conclui que o financiamento ajudou a aumentar as cirurgias e a Folhapress lê a mesma auditoria como ampliação da oferta. Conferi no texto do acórdão (p15) que os 6,9% são das ofertas de cuidado integrado de janeiro a novembro de 2025, o que a ressalva diz. Veredito mantido. Alterado o resumo: 'em parte pela volta pós-pandemia' encolhia o 'boa parte' do TCU e misturava a ajuda do programa com a recuperação. Detalhe em correcoes-r7.md.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A185": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o TCU não diz que o programa 'não conseguiu resolver' a espera; diz que a mediana caiu na maioria das cirurgias, e o card verde poderia dar a impressão de que nada melhorou. Cai: a afirmação é a atribuição da jornalista ao TCU, e a ementa do Acórdão 1622/2026 traz 'baixa efetividade na redução do tempo de espera' (conferido no texto da captura p15, junto com número, processo e data na página da Secom); duas leituras independentes da auditoria (Folhapress e Futuro da Saúde) dizem o mesmo. A ressalva traz o outro lado com o número (um quarto dos pacientes), então o card não exagera. A A176, sobre a espera em si, segue INSUSTENTAVEL: são afirmações diferentes, e a régua é a mesma.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A186": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'estão pagando' afirma que hospitais já quitam dívida com atendimento, e não foi capturado balanço de crédito usado até a data da fala; sem isso seria INSUSTENTAVEL. Fica de pé: a afirmação extraída é que o governo fez o acordo, e a lei em vigor (Lei 15.233, N1) cria exatamente a troca de atendimento ao SUS por crédito contra tributo federal, com adesão efetiva de 96 hospitais no primeiro mês (Ministério da Saúde via Futuro da Saúde) e leitura independente do Estadão. 'Convênio' por 'adesão' é ornamento. A ressalva já diz que não há balanço do que foi prestado. Veredito mantido. Alterado só o trecho da lei: a explicação cita 'a partir de 2026' e o teto de R$ 2 bilhões, que não estavam em trecho; o § 1º e o § 2º do art. 4º entraram, conferidos na captura p15.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A187": {
+    "decisao": "alterado",
+    "nota": "Veredito provisório bem posto, com o resumo corrigido. Melhor argumento contra o INSUSTENTAVEL: o ministro da Saúde disse que o foco não é atingir todas as instituições e a lei prevê adesão individual, o que contradiz 'convênio com todas as Santas Casas' e faria o card FALSO. Não derruba: a fala diz 'estamos fazendo', e nada nas fontes exclui uma negociação com a CMB, que não pôde ser procurada a fundo; contradição direta exigiria registro de que não há acordo. INSUSTENTAVEL mantido. Alterado o resumo: 'não há registro de convênio' afirma uma ausência que a busca interrompida não prova; passou a 'não foi achado convênio', como nos outros cards provisórios do caso. Os quatro trechos conferidos na captura p15.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A188": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o número oficial de 14,9 milhões só chega por reportagem (Jornal do Brasil), e a fonte N1 capturada, a base do TCU, soma 14,58 milhões incluindo cirurgias de caráter agudo, então nem é contagem de eletivas. Fica de pé: contra 14,9 milhões a fala fica 0,7% acima e contra 14,58 milhões 2,9% acima; nas duas bases o desvio é arredondamento sem mudar a ordem de grandeza, VERDADEIRO com ressalva pelo §2.2, e a regra 2 da §3.1 aceita a reportagem porque a primária (base do TCU) foi conferida. A conta 5.677.639 mais 8.902.534 confere e está em derivacoes. Trechos encontrados nas capturas p14 e p15. A frase seguinte ('vamos fazer 16 milhões') é previsão e ficou de fora, como deve.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A189": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o TCU acha medianas de 695 a 725 dias em 2025 e diz que um quarto dos usuários espera cada vez mais, então algumas pessoas esperavam, sim, dois a três anos, e o card poderia ser VERDADEIRO. Não derruba: a frase está no passado ('esperavam') e descreve a espera da fila como de dois a três anos; o dado do TCU é de 2023 a 2025, cobre só 10,4% das cirurgias do rol, mostra esse patamar só nos procedimentos de pouco volume e mais raros (o TCU usa essas palavras) e, nos 29 de maior volume, nenhuma mediana acima de 180 dias. Não há medida que sustente nem que desminta a espera típica de antes. Trechos conferidos na captura p15. Resumo e ressalva têm lastro.",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "7", "8"]
+  },
+  "A190": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: a fala diz 'paralisadas', e as contas oficiais juntam paralisadas e inacabadas; só paralisadas, na educação, eram 875, e o número da saúde (cerca de 5 mil) tem uma fonte só. Com outra definição o total poderia ficar abaixo de 6 mil, então o desvio de 30% dependeria da escolha. Fica de pé: o próprio pacto que o governo criou (Lei 14.719, N1) trata as obras paralisadas e inacabadas como o conjunto a retomar, e é esse o sentido comum de 'obras paradas'; a educação tem duas fontes oficiais (3.540 e 3.599), e a saúde vem do parecer do Congresso citando o Ministério. Nessa base a fala subestima, e a essência (milhares de obras de escola, creche e saúde paradas) confere. O limite está declarado na explicação e na ressalva. As contas 3.599 mais 5 mil e o desvio de 30% conferem e estão em derivacoes. Trechos conferidos nas capturas p15 e r2.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A191": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'quem consome até 120 paga apenas uma diferença' descreve uma regra que não existe para as mesmas famílias; os 120 kWh são de outra faixa de renda e isentam só a CDE, então seria IMPRECISO. Cai: a fala não diz que as duas faixas são das mesmas famílias, os dois números (80 e 120 kWh) e os efeitos (não paga até 80, paga menos até 120) estão na Lei 15.235 (N1) e na exposição de motivos da MP 1.300, e a ressalva diz o público e o alcance da isenção com o número. As duas fontes são do mesmo processo legislativo, o que a explicação declara; para a descrição de norma vigente, a própria lei é o registro do fato. Trechos encontrados nas capturas p13 a p15.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A192": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: a meta oficial é 15,5 milhões de famílias, e famílias são muito mais que 17 milhões de pessoas, então a fala estaria abaixo do número em pessoas e o card poderia ser IMPRECISO; ou, se a fala quis dizer famílias, 17 milhões ficaria 9,7% acima da meta e seria VERDADEIRO. Nenhum dos dois se sustenta: meta não é atendimento, e o atendimento do mês da fala não foi capturado (o painel do ministério não abre por endereço direto e o informe registra o defeso eleitoral até 25 de outubro). Conferidos os quatro trechos (exposição de motivos da MP 1.313, Lei 15.348 e as duas páginas do ministério) nas capturas p15 e r2. O resumo mostra a meta em famílias, e a explicação diz que a fala é em pessoas.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A193": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'nós pagamos o gás' vale inteiro só para quem já está na gratuidade; na modalidade em dinheiro, que ainda existe, o governo paga no mínimo metade do preço médio, e não se sabe quantas famílias já migraram. Cai: a afirmação é que, no programa, o governo paga o botijão, e a modalidade de gratuidade custeada pela União está na Lei 15.348 (N1) em vigor na data da fala; a outra modalidade entra na ressalva com o número (50%). As duas fontes são da mesma norma (lei e MP), o que a explicação declara; para descrever norma vigente, a norma é o registro do fato. Trechos encontrados na captura p15.",
+    "verificacoes": ["1", "2", "3", "5", "6", "7", "8"]
+  }
+}

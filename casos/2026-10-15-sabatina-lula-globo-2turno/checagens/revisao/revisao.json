@@ -1,0 +1,2326 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, que não checaram, e uma passada de coerência entre lotes)",
+  "A001": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'os dois anteriores e o atual' pode ser lido como três mandatos completos, e o atual ainda não acabou. Cai: a frase fala de mandatos conquistados, e a Agência Senado registra o governo de 1º/01/2003 a 1º/01/2011 mais a posse de 2023, o Poder360 chama 2026 de tentativa do 4º mandato e o JSON oficial do TSE lista Lula no 2º turno. Os três trechos foram achados nas capturas p01. Sem número a ajustar, e o card lido sozinho deixa a impressão certa.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A002": {
+    "decisao": "mantido",
+    "nota": "Contra: a entrevistadora disse 'segundo turno' antes de se corrigir, e o card poderia parecer falar de derrota no 2º turno. Cai: a frase extraída é a corrigida ('do primeiro turno'), e em 15/10 só o 1º turno tinha acontecido. O JSON do TSE (trecho conferido na captura p01) dá 47,03% a Flávio e 45,16% a Lula dos válidos; Jornal do Comércio e SBT News trazem o próprio Lula dizendo que não terminou em primeiro. Resumo só com os números do TSE, sem leitura de intenção.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A003": {
+    "decisao": "alterado",
+    "nota": "Contra: 'rejeitaram majoritariamente' pode significar só que a desaprovação superou a aprovação, e então seria VERDADEIRO. Não derruba: na leitura literal (mais da metade) só quatro rodadas passam de 50%, e mesmo na leitura branda houve empate no Datafolha de 20 e 21 de maio (48% a 48%) e a aprovação ficou à frente em julho e no início de agosto nos dois institutos, o que deixa 'quase o tempo inteiro' exagerado. É a mesma régua aplicada às frases absolutas de Lula (A011, A012, A020): essência certa, forma exagerada, IMPRECISO. Achados: a explicação trazia números sem trecho (Quaest de 14/08, 48% e 46%, e de 02/09, 48% e 45%) e um 'ruim ou péssimo' de 40% e 41% que omitia o 42% já presente no trecho do DGABC, e não citava o empate de maio. Entraram duas fontes já capturadas na p01 (Congresso em Foco, Datafolha de 23/05; Diario de Pernambuco, Quaest de 02/09), a explicação foi refeita com a série completa e a ressalva passou a citar o empate. Veredito mantido. Detalhe em correcoes-r1.md.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A004": {
+    "decisao": "mantido",
+    "nota": "Contra: 'esse quadro' é a rejeição de 2026, e as falas achadas são de 2024 e 2025, sobre outras quedas; além disso, em janeiro de 2025 Lula atribuiu a avaliação à entrega do governo, não à conjuntura. Fica de pé com confiança média: a frase diz 'já atribuiu', sem data, e a fala de agosto de 2025 explica a queda de popularidade pelo custo de vida (Poder360), enquanto a de março de 2024 liga a credibilidade ao preço do arroz e do feijão (conferido no texto capturado do SBT, além do trecho). Procurei 'conjuntura' no texto das 15 pastas de captura do caso e não há fala de 2026. A ressalva já diz que não foi achada fala deste ano e registra o contraponto de 2025; o card não exagera.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A005": {
+    "decisao": "mantido",
+    "nota": "Contra: Lula disse 'menos organizada', não 'desorganizada'. Cai: o sentido é o mesmo, e o Jornal do Comércio já traduz a fala como 'mais desorganizada'. Três registros independentes datam a fala em 07/10/2026, oito dias antes da sabatina, o que sustenta o 'recentemente'. Trechos achados nas capturas p01.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A006": {
+    "decisao": "alterado",
+    "nota": "Contra: por paridade de poder de compra o Brasil não seria o 7º, e a fala não diz o critério. Cai: o ranking usual de 'maior economia' é o PIB nominal em dólar, e a explicação declara o critério e o limite. Conferi a ordem nos dois JSONs capturados (Banco Mundial e FMI, fontes independentes): EUA, China, Japão, Alemanha, França e Reino Unido acima, Brasil em 7º, Itália logo abaixo; as parcelas da derivação estão no trecho. A fala situa o dado no fim do mandato de 2010, e o dado é de 2010. · Coerência entre lotes: Par A147: mesmo ponto (7ª economia em 2010), mesmas duas séries N2; A147 tinha confiança alta e A006 média. Confiança igualada em alta.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A007": {
+    "decisao": "mantido",
+    "nota": "Contra: 'crescia a 7,5% ao ano' sugere ritmo sustentado, e a média de 2003 a 2010 foi de cerca de 4,1%, com -0,13% em 2009. Cai: a frase é dita sobre 'o final do meu mandato de 2010' (transcrição de 148,9 s a 161 s), e a taxa de 2010 confere no IBGE (7,5%) e no SGS 7326 do Banco Central (7,53%). Refiz a média das oito taxas do trecho: 4,08, arredonda para 4,1. A ressalva impede a leitura de média, e o tratamento é o mesmo do caso de agosto (A011 de 2026-08-27, VERDADEIRO para os 7,5% de 2010).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A008": {
+    "decisao": "mantido",
+    "nota": "Contra 1: os 22 milhões poderiam somar ocupações informais, e aí a RAIS, que é só emprego formal, não seria a régua. Nenhuma fonte capturada dá 22 milhões em série nenhuma, e a explicação diz isso. Contra 2: com desvio de 43%, seria FALSO. Cai pela régua do §2.2: número que existe e é outro, no mesmo sentido, é IMPRECISO; FALSO exige sentido oposto. Conferi 44.068.355 menos 28.683.913 = 15.384.442 e 22 dividido por 15,384, menos 1, = 43%. Três fontes, uma N2 e o próprio release do Ministério do Trabalho da época, todas com trecho achado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A009": {
+    "decisao": "mantido",
+    "nota": "Contra: 'desmontados' não é 'extintos', Fazenda, Planejamento e Indústria foram fundidos, e a redução líquida foi de sete pastas (29 para 22), não de dez. Não derruba: o número dito é 'dez ministérios', e a MP 870 extinguiu exatamente dez, listados um a um no trecho da Agência Senado; o termo forte é ornamento, e a ressalva diz que parte foi fusão. Mesmo tratamento dado ao 'desmonte' na frase da entrevistadora (A022).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A010": {
+    "decisao": "mantido",
+    "nota": "Contra: 'para começar governando antes de eu tomar posse' pode sugerir que o governo começou antes da posse. Cai: a afirmação checada é só que a PEC veio antes da posse, e a EC 126 é de 21/12/2022 (texto do Planalto, N1, e O Povo com a Agência Brasil) e a posse de 01/01/2023 (Agência Senado). Trechos achados na p01.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A011": {
+    "decisao": "alterado",
+    "nota": "Contra 1: o projeto reservava R$ 105,7 bilhões para o programa, o que contradiz 'não tinha deixado dinheiro', e seria FALSO. Não derruba: o que faltava era a verba para manter os R$ 600 então pagos, e é disso que a fala trata no contexto da PEC da Transição; essência certa, forma absoluta errada, IMPRECISO, a mesma régua usada para a entrevistadora no A014. Contra 2: os valores do card (R$ 105,7 bi, R$ 405) vinham só de N3 e N4, sem N1 ou N2 (METODOLOGIA §3.1, regra 1), e só duas das três reportagens citadas trazem esses valores. Corrigido sem busca nova: a captura p01 já tinha a notícia oficial do Senado na promulgação da EC 126, que diz que a emenda 'impediu a redução, já no próximo mês de janeiro, do valor pago' e abriu R$ 70 bilhões para o Bolsa Família. Entrou como N1 e a explicação foi ajustada. Veredito mantido. · Coerência entre lotes: Par A121 (projeto de orçamento sem reajuste, candidato e entrevistadora). A011 cai pela forma absoluta ('não tinha deixado dinheiro', havia R$ 105,7 bi); A121 afirma ausência de correção, que confere. Mesma régua.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A012": {
+    "decisao": "mantido",
+    "nota": "Contra: saúde e educação têm piso constitucional, então havia dinheiro e a frase seria FALSO. Não derruba: o relator do Orçamento (Rádio Senado, N1) e o Aos Fatos mostram cortes de 50% a mais de 90% em programas das duas áreas, e a notícia oficial do Senado na promulgação da PEC (captura p01) registra R$ 75 bilhões abertos para políticas de saúde como o Farmácia Popular. A essência (faltava verba para os programas) confere, a forma absoluta não: IMPRECISO, mesma régua do A011. O 59% do resumo está no trecho do Aos Fatos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A013": {
+    "decisao": "mantido",
+    "nota": "Contra: Alckmin é do PSB, de centro-esquerda, e chamar o apoio de 'centro' é classificação, não dado. Fica de pé: Tebet (MDB, 3ª colocada com 4,16%) apoiou no 2º turno com aval do partido, e Alckmin, vice da chapa, foi quadro histórico do PSDB; nenhuma fonte capturada contesta a classificação, e a explicação declara que é classificação, com confiança média. Data certa (eleição de 2022).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A014": {
+    "decisao": "alterado",
+    "nota": "Contra: Tebet foi ministra do Planejamento por mais de três anos, o MDB teve três pastas e Alckmin acumulou a Indústria e Comércio, o que levaria a frase a FALSO. Não chega a FALSO: Cidadania, Solidariedade, Avante e Pros, que apoiaram, ficaram fora da Esplanada, o PSDB nunca integrou o primeiro escalão, e Limongi avalia que a frente apareceu só em parte nos ministérios; a frase acerta uma parte e erra na forma absoluta. É a mesma régua do 'todos os partidos' de Lula (A020): IMPRECISO dos dois lados da mesa. Correções: o resumo dizia que 'PSDB e Cidadania também apoiaram', mas o trecho do Mais Goiás mostra que o PSDB liberou os filiados e que quem apoiou foram quadros como Serra e FHC, e o resumo passou a dizer 'quadros do PSDB'; a explicação dizia que Tebet ficou no ministério até sair para disputar 2026 sem trecho que sustentasse, e entrou a matéria do Poder360 de 30/01/2026, já capturada na p02. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A015": {
+    "decisao": "mantido",
+    "nota": "Contra 1: 'mais hostil' é juízo, não fato. Fica como fato medido por um critério declarado (tamanho da oposição e da base), escrito na explicação, com confiança média. Contra 2: a esquerda fica quase igual (126 para 124), então o Congresso não seria mais hostil. Cai: a oposição declarada (PL e Novo) sobe de 103 para 131 e o centro que teve ministérios cai de 252 para 234; refiz as seis somas das derivações contra os trechos da Câmara (N1, bancada atual), da Gazeta SP e da TVT. No Senado, duas contagens independentes dão 49 de 81 à direita a partir de 2027. A ressalva mostra a esquerda estável, e o card não exagera. O lado eleito vem de N4, mas a checagem tem a N1 da Câmara, como pede a regra 1 do §3.1.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A016": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida), bem posto. Contra: o INSUSTENTAVEL foi dado sem a busca exaustiva que a árvore do §2.1 pede, e o número dito pode estar certo, porque a federação teve 81 eleitos e o PT sozinho seria algo perto de 70. Não derruba o provisório: as duas páginas oficiais da Câmara (eleição e posse, trechos achados na p02 e na r2) só dão a federação; procurei a bancada eleita do PT sozinho no texto das 15 pastas de captura e da r2 e ela não aparece; o Times Brasil fala em 69 sem dizer de quando. Nada contradiz um PT em torno de 70, então FALSO não cabe, e VERDADEIRO exigiria a fonte que falta. O resumo diz o que faltou. A refazer com o resultado oficial do TSE por partido em 2022.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A017": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida), bem posto. Contra: quatro veículos independentes dão 9 senadores do PT depois da eleição, o que bate com a fala, e dar INSUSTENTAVEL seria rigor maior que o do A015, em que o lado eleito vem de N4. Não derruba: a regra 1 do §3.1 exige N1 ou N2 quando a afirmação é um número, e duas N4 só bastam se citarem uma primária conferida (regra 2), o que não ocorre; o A015 tem a N1 da Câmara e a frase dele não é um número. Há ainda divergência entre 9 (CartaCapital) e 8 na posse (Poder360, Congresso em Foco, O Povo). Não é FALSO, e o resumo diz que a imprensa registra 9. A refazer com a composição partidária oficial do Senado em fevereiro de 2023.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A018": {
+    "decisao": "alterado",
+    "nota": "Contra: as contagens independentes (21% e 23% das MPs, 37,29% dos projetos de lei) contradizem o '99% de tudo', e pelo §2.2 número que existe e é outro seria FALSO. Não derruba: o universo da frase é indefinido, e no mesmo bloco Lula reformula para '99% de tudo que a gente queria aprovar' (transcrição, 310,9 s); em dezembro de 2025 ele falou em 99% da 'pauta econômica', que não tem lista pública. Taxa de MP não mede a pauta prioritária (o governo diz que o conteúdo de MPs caducadas foi incorporado a projetos), então as medidas disponíveis não conferem nem contradizem o recorte dele. Nenhuma fonte dá 99%: INSUSTENTAVEL, com o card dizendo o que as fontes medem. Correção: a divergência entre fontes citava 15% sem trecho; o trecho do Aos Fatos foi estendido até a frase com os 15% do primeiro biênio, na mesma página capturada (p02). Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A019": {
+    "decisao": "mantido",
+    "nota": "Contra: a Agência Brasil e o próprio Lula, em 2023, falaram em 30 anos; 40 contra 30 passaria da régua de 10%. Não derruba: não há marco inicial único, e as fontes do mesmo dia se dividem entre 30 e 40 (Arthur Lira e o relator Eduardo Braga dizem 40; o Monitor Mercantil diz 'quase 40 anos' desde a redemocratização). A régua de 10% mede desvio contra um valor apurado, e aqui o apurado é uma faixa que contém o 40. A data da EC 132 vem do Planalto (N1). A ressalva expõe a faixa.",
+    "verificacoes": [
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A020": {
+    "decisao": "mantido",
+    "nota": "Contra 1: cinco partidos com bancada nunca tiveram ministério, além do PL, o que contradiz 'todos' e levaria a FALSO. Não chega: os quatro citados (PP, União, PSD, MDB) tiveram pastas, e a coalizão incluiu ainda Republicanos, PSB, PDT, PSOL, PCdoB e Rede (CartaCapital, Diario de Pernambuco); essência certa, generalização errada, IMPRECISO, a mesma régua do A014 para a entrevistadora. Contra 2: o levantamento da Folha é de março de 2025 e a lista pode ter mudado até outubro de 2026; a ressalva diz a data. Trechos achados na p02.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A021": {
+    "decisao": "mantido",
+    "nota": "Contra: 10 dos 27 diretórios do MDB declararam apoio a Lula no 2º turno, e PSB, PDT, PSOL, PCdoB e Rede, que também tiveram ministérios, estão com ele; a frase seria IMPRECISO. Não derruba: no contexto, 'esses partidos' são os que Lula acabara de citar (PP, União, PSD, MDB; transcrição em 281,5 s), e como partido nenhum deles está na campanha dele: União e PP com Flávio, PSD neutro, MDB neutro no 1º turno e dividido no 2º, com a maioria dos diretórios (17) com Flávio. A ressalva traz os 10 diretórios. As posições são de 04 a 13/10, antes da fala. · Coerência entre lotes: Par A014 e A020 (forma absoluta com exceções). A014 e A020 caem por exceção material (Tebet ministra; cinco partidos sem ministério); em A021 nenhum dos partidos citados apoia Lula como partido, e os diretórios do MDB vão na ressalva.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A022": {
+    "decisao": "mantido",
+    "nota": "Contra: 'desmonte grande' é juízo, e a extração deveria ter descartado a frase ou dado NAO_CHECAVEL. Fica: há um fato dentro do juízo (o Congresso aprovou e depois restaurou, contra o governo, a dispensa e a simplificação do licenciamento), e o card checa esse fato, com a ressalva de que 'desmonte' é avaliação e com o contraponto das 35 leis ambientais contadas pela Câmara. Quatro fontes N1 (Agência Senado, Agência Câmara duas vezes, Planalto), trechos achados na p02. Mesmo tratamento dado aos 'dez ministérios desmontados' de Lula (A009).",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A023": {
+    "decisao": "mantido",
+    "nota": "Contra: houve precedente, cinco rejeições em 1894, então não é inédito. Cai: a frase diz 'praticamente inédita', e um único episódio em mais de 130 anos, no governo Floriano Peixoto, sustenta o advérbio. O Arquivo S do Senado (N1) e duas apurações independentes (Exame e CNN) dizem o mesmo, com trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A024": {
+    "decisao": "mantido",
+    "nota": "Contra: não há N1 direta; o placar vem da Agência Senado republicada pelo O Povo e de duas N4. Não derruba: a afirmação não é um número, é o evento (o Senado rejeitou o indicado de Lula ao STF), e três registros independentes concordam no nome, na data (29/04/2026) e no placar de 42 a 34. Evento anterior à fala.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A025": {
+    "decisao": "alterado",
+    "nota": "Contra 1: a carta de Trump de julho de 2025 anunciando o tarifaço foi uma interação com atrito, e houve expulsão de policial e visto negado; a frase seria IMPRECISO. Não derruba: no contexto a entrevistadora separa as interações pessoais ('às vezes em tom até amigável') do que houve 'de concreto' (o tarifaço), onde a carta se encaixa, e os encontros e telefonemas registrados (ONU, 06/10/2025, Malásia, Casa Branca em 07/05/2026) foram descritos em tom positivo pelos dois lados. Contra 2: 'sem incidentes' é avaliação; fica com confiança média e a ressalva registra os atritos. Correção: a ressalva citava a expulsão de agente e a negação de visto, que não estavam em trecho nenhum; o trecho da EFE (Expreso, captura p02) foi estendido até a frase que traz os dois fatos. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "7",
+      "8"
+    ]
+  },
+  "A026": {
+    "decisao": "mantido",
+    "nota": "Contra: dá para contar três ou quatro rodadas (a recíproca de 10% de abril de 2025, os 40% de agosto de 2025, os 25% de julho de 2026 e os 12,5% de 2026). Cai: 'tarifaço' designa as medidas dirigidas ao Brasil, e são duas, conferidas na ordem executiva de 30/07/2025 (Trench Rossi, Migalhas) e no comunicado do USTR de 15/07/2026 (N1); as medidas gerais estão na ressalva, com trecho (Poder360, O Povo com dados do MDIC). A redução de novembro de 2025 e a decisão da Suprema Corte citadas na explicação estão no texto capturado do Poder360.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A040": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o Poder360 contava 41 países até 18/jun/2026, abaixo dos 50 ditos, então o card deveria ser FALSO. Cai: o 'nós visitamos' pode incluir viagens de ministros ou países visitados entre junho e outubro, e a média de 10,5% não aparece em fonte nenhuma, nem para confirmar nem para desmentir; a árvore do §2.1 manda para INSUSTENTAVEL quando as fontes não sustentam sem provar o contrário. Conferido: a frase em 489,7 a 494,3 s, no meio da lista de crescimento por país, o que confirma a leitura comercial; os três trechos estão nas capturas (p04), e a página do Poder360 é de 18.jun.2026, o que sustenta o 'até junho' do resumo. Sem N1/N2, e a explicação diz por quê (aviso esperado do validador). O card lido sozinho mostra o que faltou e o único número público, sem afirmar que os 50 são falsos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A041": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o 'E outra vez, nós batemos recordes' vem no presente da conversa sobre 2026, e 2026 não é recorde (US$ 62,4 bi até setembro, projetado como segundo maior); pela linha 'número certo, período errado' do §2.2 seria IMPRECISO. Fica de pé o VERDADEIRO: o verbo está no passado, o recorde histórico (US$ 98,8 bi em 2023) é do mesmo mandato, e o exemplo da régua (atribuir a um governo o que aconteceu em outro) não se aplica; a ressalva já põe o recorde em 2023 e 2026 em segundo. Conferido: os três trechos nas capturas (IEDI, SBT News citando o MDIC, Mercado & Consumo de 07/10/2026); N2 presente para série histórica; o dado de 2026 é o da data da fala. Não achei recorde mensal de 2026 nas capturas que sustentasse o plural, o que mantém a ressalva necessária.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A042": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a afirmação extraída diz que o governo 'não acionou' a lei, e a Band de 13/08/2026 tem o título 'Brasil aciona Lei da Reciprocidade'; lida assim, a frase seria IMPRECISA ou FALSA. Cai porque a fala inteira ('não quero fazer, eu quero continuar negociando. Mas, se for necessário fazer, nós vamos fazer', 505 a 512 s) trata de aplicar a retaliação, e os trechos (Canal Rural, BP Money do dia 15/10) registram que nenhuma tarifa ou contramedida foi aplicada; o card diz exatamente isso e põe o processo aberto na ressalva. Fica registrado que a `afirmacao` do arquivo de alegações ('não acionou') é mais larga que a frase. Alteração: a explicação dizia que o rito foi acionado 'em 2025 e em 2026', e nenhum trecho das cinco fontes sustenta 2025; o trecho ficou só com a abertura de 13/08/2026, que tem lastro na Band. Veredito, resumo e ressalva sem mudança.",
+    "verificacoes": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A043": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a única fonte N2 (Datafolha de março) põe a saúde à frente (21% contra 19%), e o primeiro lugar da segurança vem só de reportagens sobre a Quaest (N4), sem o relatório do instituto; 'no topo' estaria sustentado por fonte fraca. Fica de pé: o próprio Datafolha diz 'no mesmo patamar' com margem de 2 pontos, ou seja, empate no topo, e duas medições Quaest independentes de setembro (31% e 28%) põem violência em 1º; a pergunta da jornalista não diz '1º lugar isolado'. Conferido: trechos nas capturas; a BNews é de 18/09/2026 e o Diario de Pernambuco de 2/09/2026, as duas antes da fala; a divergência entre perguntas está registrada; confiança média é a certa. O card mostra o empate do Datafolha na ressalva.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A044": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o documento do Federal Register é da página de inspeção pública, anterior à publicação, e poderia não ter entrado em vigor. Cai: o próprio texto diz que a designação vale a partir da publicação, e Correio da Manhã e Band (28/05/2026) registram as duas designações (SDGT em 28/05 e FTO a partir de 5/06). Conferido: trecho N1 com 'Dated: May 28, 2026' e os dois nomes, trechos N4 nas capturas; a frase da jornalista (530,6 a 540,8 s) não diz qual regime, e os dois alcançam as duas facções. Nada nas capturas indica revogação até a data da fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A045": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: as três fontes são N4 e duas delas leem o mesmo ofício do Itamaraty, que não foi capturado; pela regra 2 da §3.1, duas N4 só bastam se a primária for conferida. Fica de pé porque é atribuição de posição, não número, e há manifestações distintas: o ofício (Poder360 e Correio Braziliense citam trechos diferentes dele), a nota do Planalto sobre soberania 'inegociável' (está na captura do Correio) e a própria resposta de Lula na entrevista, que confirma a oposição. As duas razões da pergunta (não resolve o problema; ingerência) aparecem: 'não traz benefícios concretos' e 'ações extraterritoriais' com 'riscos concretos' à soberania. Conferido: data do ofício (1º de julho) e da matéria (6 de julho de 2026) na captura do Poder360. Confiança média registra a falta do ofício.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A046": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a jornalista disse 'aproximadamente', o Datafolha tem margem de 2 pontos, e no teto do intervalo (61%) o desvio para dois terços cai abaixo de 10%; além disso, a A154 do mesmo caso (também da jornalista) ficou VERDADEIRO com desvio de 10,6%. Cai: a exceção de 20% do §2.2 é para estimativa oficial com intervalo, e pesquisa de opinião se compara pelo ponto (59%); medido sobre o apurado, como na A154, o desvio aqui é de 13%, longe do limite; 59% está mais perto de três quintos que de dois terços, e isso muda o tamanho da maioria que a pergunta usa como argumento. Conferido: o número do próprio Datafolha (45% mais 14%), campo em 17 e 18/06/2026 e registro BR-09956/2026 nas capturas; a ressalva sobre a redação da pergunta tem lastro no trecho N2. IMPRECISO e não FALSO, porque a maioria e o mês estão certos. · Coerência entre lotes: Par A035, A148, A154 e A190 (régua do desvio). Era a única conta do caso feita sobre o número dito (11,5%); as outras medem sobre o apurado. Passou a 13% sobre o apurado. IMPRECISO mantido pelas duas bases.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A047": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase é uma leitura de Lula sobre como os EUA entendem terrorismo, logo juízo; e a lei americana dá apoio parcial a ele, porque 'terrorism' em 22 U.S.C. 2656f(d)(2) é violência politicamente motivada e o uso de arma 'for mere personal monetary gain' fica fora de 'terrorist activity'. Cai: o 8 U.S.C. §1189 aceita qualquer das duas definições (o trecho mostra o 'or'), e a prática contradiz diretamente o essencial da fala: os EUA designaram cartéis do narcotráfico em 20/02/2025 e o próprio PCC e CV em 2026 pela mesma seção 219. A frase descreve a norma vigente, que é checável (§4.1), e o que ela diz que a classificação exclui é exatamente o que ela inclui; por isso FALSO e não IMPRECISO. Conferido: trechos N1 e N2 nas capturas; contexto de 571 a 606 s, em que Lula diz que a facção 'só quer o dinheiro'.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A048": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: toda a sustentação vem do governo brasileiro (Lula na Itatiaia, Vieira no Portal Tela, Alckmin antes da viagem), sem confirmação americana; a entrega 'por escrito' é autodeclarada, e a fonte independente (Band) fala de um documento com argumentos contra a classificação, que pode ser outro papel. Fica de pé: a proposta é um ato do próprio governo numa reunião fechada, e três integrantes diferentes a descrevem de forma convergente antes e depois do encontro; a Band registra como fato que houve documento entregue a Trump; e o card já diz, na ressalva, que a entrega escrita é relato do presidente sem confirmação dos EUA. Conferido: data (quinta-feira, 7/05/2026) nos trechos e na captura; nada nas capturas contradiz. Confiança média é a certa.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A049": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'aprovamos' atribui ao governo uma aprovação que foi do Congresso, e o texto sancionado (Marco Legal, 'Lei Raul Jungmann') foi reescrito na Câmara; a lei aprovada não seria a do governo. Fica de pé: o Senado registra autoria da Presidência e a Lei 15.358 como norma gerada do PL 5582/2025, o presidente sancionou (com dois vetos, segundo a captura do Brasil de Fato), e a lei aumenta penas (20 a 40 anos no tipo novo); a ressalva já diz que o texto mudou no Congresso e que a proposta original previa até 30 anos. Conferido: trechos N1 do Senado e do Planalto e os N4 nas capturas; a data do envio (31/10/2025) está no trecho do DGABC.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A050": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o art. 144 cria a Polícia Federal e a PRF como órgãos de segurança pública mantidos pela União, com a PF reprimindo o tráfico; 'nunca permitiu que a União se metesse' seria contradito no essencial, o que pela árvore daria FALSO. Fica de pé o IMPRECISO: o núcleo do argumento (as polícias civis, militares e penais respondem aos governadores, §6º, e a Constituição não dá à União a coordenação nacional que a PEC propõe, como diz a Agência Câmara) confere, e o exagero está no alcance ('nunca', 'se metesse'). O resumo diz as duas coisas e deixa a impressão certa em cinco segundos. Conferido: os três trechos nas capturas; texto vigente na data da fala, com a PEC 18/2025 'pronta para deliberação do plenário' no Senado em 15/10/2026.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A051": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a PEC aprovada na Câmara foi reformulada pelo relator Mendonça Filho, e 'nós mandamos a PEC' poderia sugerir que o texto em votação é o do governo. Cai: a frase só afirma o envio, e o Senado registra a PEC 18/2025 'de Presidência da República', a Agência Câmara diz 'elaborada pelo governo federal'; a ressalva cobre a reformulação. Conferido: trechos nas capturas; a captura do Jornal Opção é de 4 de março de 2026, o que sustenta o 'março de 2026' da explicação.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A052": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a pesquisa é de março, sete meses antes da fala, e o 'quase 80%' para roubo na rua (78,6%) é arredondamento. Cai: é a pesquisa do Fórum mais recente achada, a jornalista a cita como 'um dado' sem data, e 78,6% e 78,8% ficam a menos de 2% de 80, dentro da régua; os outros medos citados (morte em assalto, golpe digital, mão armada) estão na mesma pesquisa. Conferido: trecho N2 do relatório do Fórum e o do DGABC nas capturas; o 'com o Datafolha' do resumo tem lastro na captura do relatório ('Fórum Brasileiro de Segurança e Instituto Datafolha, 2026'); a ressalva traz os números exatos, como pede o §2.2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A053": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'tem falado bastante' é frequência, e as fontes mostram uma ocasião com a expressão 'andar de cima' (lançamento do programa, 12/05/2026, com a matéria da véspera) e uma nota oficial de dezembro de 2025, que não é fala literal de Lula. Fica de pé: são ocasiões distintas, a nota oficial atribui a Lula o destaque da asfixia financeira, e a Folha de Pernambuco liga as duas ideias 'nas palavras do próprio presidente'. Conferido: trechos nas capturas (CNN, Folha PE, Metrópoles); a confiança média registra que a biblioteca da Presidência não foi lida. Fica anotado para a A063: aqui duas ocasiões bastaram para 'bastante', e a mesma régua vale lá.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A054": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: os casos de Bolsa Família achados são de traficantes retendo cartões de usuários de crack (Operação Bolsa Crack) e de uma facção usando o cartão de uma beneficiária, e não de 'donos de rua' controlando o recebimento num território; o dado do gás é de um levantamento de 2021 no Rio. Fica de pé: a frase descreve o tipo de interferência de grupos criminosos sobre moradores, sem número nem alcance nacional, e as duas partes têm registro (gás: CNN e Gazeta do Povo sobre milícias e tráfico; Bolsa Família: MPSP, N1, e Gazeta do Povo). A ressalva já diz que os casos são locais e sem levantamento nacional. Conferido: os quatro trechos nas capturas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A055": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o Estadão Conteúdo avaliou que o texto da Câmara blindou os estados contra a influência da União, o oposto de 'ampliando o raio de ação do governo federal'. Cai: aquela comparação é contra o texto original do governo, não contra a Constituição vigente; contra a situação atual, a Agência Senado (14/10/2026, sobre o texto em votação) diz que a proposta 'amplia a participação do governo federal', e o Poder360 lista a PRF com mais atribuições. A divergência está registrada no campo próprio. Conferido: trechos nas capturas; o texto avaliado é o que estava no Senado na data da fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A056": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: se Alcolumbre tirou a PEC da pauta, talvez ela nem tenha sido discutida em plenário. Cai: O Tempo registra que o plenário começou a discutir na tarde de 15/10, e a Agenda do Poder publica a retirada às 19h22 do mesmo dia, depois disso; a página do Senado citada na A050 mostra 'pronto para deliberação do plenário' em 15/10/2026. Discutida e pendente, como a jornalista disse durante a entrevista à noite. Conferido: trechos e datas nas capturas (a matéria da Agenda do Poder é de 15 de outubro de 2026).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A057": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a checagem se apoia só em imprensa (sem a emenda no sistema do Senado) e registrava uma divergência sobre a volta de Camilo ao Senado citando o Congresso em Foco, que não estava entre as fontes. O veredito fica de pé: Diário do Nordeste (com o documento protocolado) e Gazeta do Povo confirmam, de forma independente, 16 anos, crimes hediondos e protocolo em 15/10/2026; o Poder360 confirma que ele foi ministro da Educação de Lula e estava no mandato. Alteração: a divergência (junho no Poder360, abril no Congresso em Foco) não tinha lastro na lista de fontes; o Congresso em Foco entrou como quarta fonte, com trecho conferido na captura p05 (0264a4417ba2). Veredito, resumo e ressalva sem mudança.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7"
+    ]
+  },
+  "A058": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fonte mais forte da oposição é o ministro José Guimarães dizendo que 'a bancada do PT está contra', e ao mesmo tempo quatro petistas assinaram a emenda; dizer 'parte da bancada' seria uma leitura da checagem. Fica de pé: a Gazeta do Povo afirma, em texto próprio, que 'parte da bancada petista se opõe', o Transmissão Política registra resistência e signatários do PT, e o Diário do Nordeste fala em falta de consenso; a frase da jornalista diz exatamente 'parte'. Conferido: trechos nas capturas, todos de 15/10/2026; a captura da Gazeta mostra ainda a líder do governo, Teresa Leitão, defendendo votar sem emendas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A059": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'historicamente' pediria mais que um episódio, e as fontes são todas N4, quase todas de 2015. Fica de pé: em 2015 há três registros independentes (Estadão Conteúdo, Rede Brasil Atual com a orientação da bancada na comissão especial, Congresso em Foco) da posição contrária do PT na PEC 171/1993, e O Tempo de 15/10/2026 descreve a bancada como 'tradicionalmente' contrária; a captura da Gazeta do Povo usada na A057 diz o mesmo. Sem número na frase, a exigência de N1/N2 não se aplica. Conferido: os quatro trechos nas capturas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A060": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o relator da Câmara chegou a pôr no texto um referendo sobre a redução da maioridade, então a PEC já 'discutiu isso'. Cai: o trecho foi retirado antes da votação na Câmara (DGABC e Diario de Pernambuco, março de 2026), o texto original do governo não o tinha, e a TV Senado registra que a PEC passou sem mudanças na CCJ e só então recebeu a emenda de Rogério Marinho; na data da fala o texto em votação não tratava do tema. A ressalva traz o referendo. Conferido: trechos nas capturas; a captura da TV Senado mostra que a outra emenda (Portinho) é sobre o Fundo Nacional, o que confirma que a maioridade veio só por emenda.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A061": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: Lula diz 'reduzindo para 14 anos', e a emenda do PL fixa 16 como regra geral, com 14 só para crimes graves; o número estaria fora do recorte, o que pela régua seria IMPRECISO, e com a jornalista a régua foi aplicada com rigor (A046). Fica de pé: o 14 existe na proposta e não é desvio de valor; a fala também resume a de Camilo como 'para 16' sem dizer que é só para crimes hediondos, e as duas simplificações vão na mesma direção, sem inverter a comparação (a do PL é a mais dura); a ordem (PL em 14/10, Camilo em 15/10) confere. A ressalva traz a regra geral de 16. Conferido: trechos nas capturas (Band de 14/10/2026, TV Senado, Diário do Nordeste).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A062": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'tentativa de golpe na transição' é a acusação, e a ética §5 manda não dar VERDADEIRO a fato sem decisão definitiva. Cai: há decisão definitiva, com trânsito em julgado em 25/11/2025 (Band), e condenação dos oito réus do Núcleo 1 por golpe de Estado e tentativa de abolição violenta do Estado Democrático de Direito (STF, N1), com o objetivo de impedir a posse, o que situa o fato na transição. Conferido: trechos nas capturas; a data do julgamento (11/09/2025) citada na explicação está na captura do STF.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A063": {
+    "decisao": "mantido",
+    "nota": "Checagem provisória (busca interrompida pelo limite da rodada); o veredito provisório está bem posto. Melhor argumento contra: 'se valesse bastante do Supremo' é grau sem régua e com causa ('fizeram com que'), e a A053 aceitou duas ocasiões para 'tem falado bastante'; pela mesma régua, mais um caso de recurso ao STF bastaria para VERDADEIRO, e o critério escrito antes (contagem comparada com governos anteriores) é mais exigente que o da A053. Não muda agora: as capturas trazem um caso só em disputa com o Congresso (IOF, ADC da AGU em 1º/07/2025, três fontes); o outro recurso achado nas capturas (AGU contra o afastamento do diretor da PF, set/2026) é contra decisão do próprio tribunal e não ilustra a frase. NAO_CHECAVEL não é saída, porque a alegação é checável (o validador recusa). Ao refazer, usar a mesma régua da A053 (ocasiões distintas) e, se possível, a contagem do painel do STF. O card diz o que foi achado e o que faltou.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A064": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a jornalista afirma que há suspeitas e uma crise, não que os ministros sejam culpados; as três fontes confirmam isso, e o card laranja diz 'sem comprovação' para algo que o próprio resumo confirma. É o argumento mais forte desta revisão. Fica de pé por simetria e pela regra: o caso aplicou a ética §5 do mesmo jeito às falas de Lula sobre o mesmo assunto ('o Toffoli também está implicado', A074, e 'o Castro está implicado', A076, ambas INSUSTENTAVEL com resumo que confirma a menção e diz que a apuração não concluiu); mudar só a da jornalista quebraria a régua entre os dois lados da mesa. Se o autor decidir que 'existem suspeitas' é fato concluído e não fato em apuração, as três mudam juntas. Conferido: trechos nas capturas (CNN e Gazeta de 5/10/2026, Agência Pública de setembro); o resumo não sugere culpa. · Coerência entre lotes: Grupo do caso Master (A064, A073 da entrevistadora; A074, A075, A076, A084 do candidato): todas INSUSTENTAVEL por fato em apuração, confiança média, os dois lados. A distinção com A089, A098 e A110 (VERDADEIRO) é a mesma em todo o caso: existência de inquérito ou busca é fato; 'implicado' e 'suspeita' dependem da apuração.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A065": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'só agora' afirma que Lula nunca tinha usado a palavra antes, e as fontes não fazem essa busca; a outra metade ('demorou a comentar com clareza') não foi medida. Fica de pé: o fato datado (a palavra em 5/10/2026, um dia depois do 1º turno de 4/10) está em três veículos, e a CNN classifica a fala como uma das críticas mais duras desde o início da crise, o que sustenta o 'palavra mais dura'; a ressalva diz o que não foi medido. Conferido: trechos nas capturas; a A081 do caso (Lula falando em apuração e presunção de inocência em agosto) vai na mesma direção da parte não medida. · Coerência entre lotes: Par A070, A081, A084 e A115. A ressalva dizia que as fontes não mediam se Lula evitou o tema antes, mas o Diario de Pernambuco de 18/09 (captura p07, já usado em A081 e A084) traz Lula dizendo que cinco ministros do STF estavam ligados ao caso Master, com Moraes e Toffoli citados, e A070 mostra pedidos de apuração em 3 e 9 de setembro. Melhor argumento para IMPRECISO: a afirmação diz que antes ele evitou comentar com clareza. Cai porque a frase é 'demorou a comentar' e as fontes não datam o começo das suspeitas sobre ministros; o veredito fica no uso da palavra depois do 1º turno, e a fala de setembro vai na ressalva. Trecho novo conferido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A066": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase atribui motivo ('não é por conta do Banco Master apenas', 'porque prendeu o pai do Flávio') e o resumo destaca justamente os pedidos que citam o Master, o que poderia ler como desmentido do motivo. Cai: o veredito se limita à existência dos pedidos, que é a afirmação extraída; o motivo é intenção alheia (METODOLOGIA §4.2) e a ressalva diz isso. Os 4 trechos foram achados na p06; 29/12/2025 e 01/09/2026 conferem (1º/09/2026 é terça, como diz o BP Money). Pedido de impeachment protocolado é fato documentado, não apuração em curso, então a regra de ética §5 não se aplica. 'caçar' na transcrição foi lido como cassar ou derrubar, e as duas leituras levam ao mesmo veredito.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A067": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a prisão foi pedida pela PF e referendada pela Primeira Turma, então 'Moraes prendeu' personalizaria uma decisão do tribunal. Cai: o mandado de 22/11/2025 é decisão individual do relator (Correio da Manhã, O Povo e Diario de Pernambuco, trechos achados na p06), e o referendo unânime está na ressalva. 22/11/2025 é sábado, como dizem as fontes. A frase está no passado e não depende da situação de Bolsonaro na data da fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A068": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'uma das pessoas importantes do clã do Bolsonaro' é falso, porque Canella não é da família e é do União Brasil; e a nota da própria PF não foi capturada. Cai: o núcleo checável (PF no Rio no dia da fala, prisão de Canella) está em duas apurações independentes, Poder360 e Jovem Pan, ambas de 15/10/2026, uma quinta; 'clã' é caracterização, a ressalva diz que ele não é parente e a Jovem Pan registra o vínculo político com Flávio e a articulação com Rogéria. A transcrição traz 'Política Federal' e 'Canelas', marcados como não resolvidos em correcoes.json, mas Polícia Federal e Canella são a única leitura coerente e o veredito não depende da grafia. Tipo evento_passado, sem exigência de N1.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A069": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o o_que_conferir pedia o registro no TSE, que não foi consultado, e a Gazeta diz só que Rogéria era 'cotada', o que faria da suplência especulação de bastidor. Cai: o SBT News registra o anúncio formal do PL ('será a primeira suplente'), o Estado de Minas diz que ela foi 'divulgada como suplente', e o SBT News de 29/07/2026 registra o veto de Flávio depois da operação de 7 de julho (as duas datas conferidas na captura p06); o 'ia ser' da frase descreve uma suplência anunciada e desfeita, que por isso nunca chegou ao registro de candidatura. Detalhe sem efeito no card: a explicação atribui ao Poder360 o fato de Canella ter disputado a Assembleia; quem diz isso por extenso é a Jovem Pan (A068).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A070": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'tem defendido que se apurem todas as responsabilidades' é genérico, e as duas declarações poderiam ser a mesma republicada. Cai: são falas distintas, de 03/09/2026 (vídeo da Presidência, Bahia Notícias, data conferida na captura) e de 09/09 (TNH1 e DGABC), com trechos achados na p06. A pergunta da entrevistadora recebeu a mesma exigência de duas fontes aplicada às falas do candidato. · Coerência entre lotes: Par A065: as falas de setembro entraram na explicação e na ressalva de A065.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A071": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'indicado pelo senhor' omite que a escolha depende do Senado. Cai: a frase só afirma a indicação, e o card traz a aprovação; Poder360 (indicação em 27/11 e aprovação por 47 a 31 em 13/12/2023), Extra Classe, Congresso em Foco e a Constituição, todos os trechos achados (p06 e p04). 'Aliado histórico' é juízo e não foi extraído.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A072": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'impede que exista uma investigação' seria falso, porque a vista só suspende, e o veredito deveria ser IMPRECISO. Cai: na data da fala, 30 dias depois, o julgamento seguia interrompido e a investigação não tinha sido aberta (Poder360, Movimento Econômico, O Povo de 18/09), então o efeito descrito era real; pelo §2.2 isso é VERDADEIRO com ressalva, a mesma régua usada para o entrevistado na A078. Mas a ressalva dizia 'por até 90 dias', e o § 4º do art. 134 do Regimento suspende o prazo no recesso e permite prorrogá-lo uma vez; o card prometia um teto que não existe e contradizia a A078 do mesmo vídeo. Ressalva e explicação corrigidas e o trecho do Regimento ampliado com o § 4º (achado na p06). Ver correcoes-r3.md. · Coerência entre lotes: Par A079 (vista de Dino). A072 confere o efeito (julgamento suspenso, ressalva dos 90 dias); A079 confere o motivo atribuído e fica IMPRECISO. Não se contradizem na tela.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A073": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento a favor da entrevistadora: por todo critério documentado (181 de 218 páginas do relatório, mensagens, pedido de investigação no plenário), Moraes é o mais citado, e o próprio entrevistado respondeu 'era o mais implicado'; INSUSTENTAVEL soaria como desmentido. O veredito fica de pé: 'mais implicado' é ranking de envolvimento numa apuração sem conclusão, a regra de ética §5 impede VERDADEIRO, e a mesma régua foi aplicada às falas de Lula sobre Toffoli, Mendonça e Castro (A074 a A076). Mas o resumo dizia que 'o STF não apurou quais ministros são citados', atribuindo ao tribunal o argumento de um voto (Gilmar) numa questão de ordem que, pelo Poder360 capturado, estava 4 a 3 contra quando Dino pediu vista. Resumo, explicação e prova da fonte reescritos; o rótulo N1 do voto vale como registro do que o ministro disse, não do fato. Ver correcoes-r3.md.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A074": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: Toffoli está documentadamente citado no material da PF, a PF pediu a suspeição dele e ele se declarou suspeito em 15/09; 'implicado' em sentido comum confere e o veredito seria VERDADEIRO. Cai pela mesma régua da A073, aplicada à entrevistadora: 'implicado no caso' é juízo sobre envolvimento em apuração sem conclusão (ética §5), e o card diz só o que está registrado (citação nas mensagens, sociedade no resort, negativa dele). Conferido na captura p06: o InfoMoney registra que Fachin encaminhou o relatório a Toffoli para avaliar impedimento, e o Poder360 registra a suspeição. 'Deixou a relatoria' é inferência das capturas (o InfoMoney o trata como relator e o Correio da Manhã de setembro trata Mendonça como relator).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A075": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: deveria ser FALSO, porque Mendonça é o relator, não alvo, e nada o liga a dinheiro ou mensagens de Vorcaro. Cai: existe um pedido de investigação de um colega sobre a condução dele, não julgado (Diario de Pernambuco, O Povo de 18/09), então a ligação existe e está em apuração, nenhuma fonte a contradiz e a ética §5 manda INSUSTENTAVEL. Conferi que a mensagem de Vorcaro citada no título do Correio da Manhã menciona Gonet e Andrei, não Mendonça, o que sustenta a frase da explicação.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A076": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a palavra pode não ser 'Castro'. O correcoes.json da transcrição marca o trecho como não resolvido (com prompt saiu 'Kasso') e diz que a extração não apoia veredito nele; o contexto é uma lista de ministros, e a entrevistadora responde que 'são vários ministros', o que favoreceria Kassio Nunes Marques. Testei de novo nesta revisão: whisper-cli com ggml-large-v3-turbo, janelas de 1012,5 a 1024 s e de 1018,5 a 1023,5 s, feixe 8, sem prompt e com um prompt neutro que lista os dois nomes; as três passadas que não degeneraram escrevem 'o Castro'. 'Castro' fica como a leitura mais sustentada, não há ministro do STF com esse nome, e Cláudio Castro foi alvo de busca no caso Master em 26/05/2026 (Money Times, Gazeta do Povo e O Liberal, data conferida). A identificação continua inferência declarada na ressalva, e o INSUSTENTAVEL valeria igual para Kassio (citado em reportagem, sem conclusão), então a dúvida não muda a cor do card. Só ouvir o áudio fecha a identificação. · Coerência entre lotes: Par A098 e A064: ser alvo de busca é fato registrado no resumo; 'implicado' fica sem veredito por apuração em curso, como A073 da entrevistadora.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A077": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: o governo contestou, neste mesmo semestre, uma decisão de ministro: a AGU recorreu do afastamento do diretor-geral da PF determinado por Mendonça, e Fachin suspendeu a decisão em 09/09 (O Povo, captura p07). Cai para o veredito: recorrer é pedir ao próprio STF, que decide; não há instrumento do presidente para alterar a decisão, e no exemplo da conversa (a vista) a retomada é automática pelo Regimento. Mas a ressalva falava de nomeação e indulto, que não vêm ao caso, e omitia o caminho que existe e foi usado. Ressalva trocada, O Povo entrou como fonte com trecho conferido, explicação traz o argumento. Ver correcoes-r3.md.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A078": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'quando querem' seria juízo, ou seria falso porque a vista tem prazo. Cai: a frase descreve a norma, e o art. 134 do Regimento não põe requisito para pedir vista; o limite de 90 dias, a prorrogação e a liberação automática estão na ressalva, com Regimento (N1), notícia do STF (N1) e Gazeta do Povo, trechos achados na p06. É a mesma régua aplicada à pergunta da entrevistadora na A072.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A079": {
+    "decisao": "mantido",
+    "nota": "Dois argumentos opostos. A favor do entrevistado: motivo é intenção de terceiro, e o registro mostra que Dino votou pelo julgamento conjunto e que a vista travou um placar de 4 a 3 pela separação, efeito que bate com a fala; seria VERDADEIRO. Contra: a justificativa dada por Dino foi o ambiente degradante; seria FALSO. Os dois caem. A pergunta que o próprio Lula faz ('por que pediu vista?') tem resposta em registro público, a fala de Dino ao pedir vista (Congresso em Foco, Itatiaia), e ela não é o motivo atribuído; e nada contradiz a posição de Dino pelo julgamento conjunto (DGABC, Congresso em Foco). Essência certa, nexo de causa não registrado: IMPRECISO. Trechos achados na p07; resumo com 119 caracteres.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A080": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto: a frase afirma uma frequência, o dado existe no STF e não foi lido, e as duas fontes só trazem a regra do prazo, o que a explicação e o resumo dizem. Melhor argumento contra: 'todo dia' é hipérbole e deveria ser NAO_CHECAVEL; cai porque a frequência de vista é registrada pelo tribunal, e o validador e o §2 mandam INSUSTENTAVEL quando falta acesso ao registro. Observação: a recusa HTTP 403 do portal do STF citada na explicação não aparece em nenhum capturas.json do caso. Não tentei captura direta porque não há endereço conhecido da estatística e o painel do STF é montado em JavaScript. Segue a refazer.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A081": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a transcrição de 27/08 já usada como fonte (Aos Fatos, captura p07, conferida contra a transcrição deste repositório em casos/2026-08-27-sabatina-lula-globo) tem, no bloco do INSS, que para todos os citados o caminho é um só, o da apuração, da investigação, da inocência ou da condenação, e, no bloco do Master, que se Wagner cometeu desvio vai pagar o preço. O núcleo do que Lula diz ter repetido (apurar e punir quem errou) foi dito na entrevista anterior da Globo, e a árvore do §2.1 reserva INSUSTENTAVEL para quando as fontes não sustentam. Fica a parte certa da checagem: a frase de que a sociedade não aceitaria não aparece, e no bloco do Master a ênfase foi a presunção de inocência. Essência certa, enquadramento e assunto não: passa a IMPRECISO, com resumo, ressalva, explicação e trecho refeitos. Ver correcoes-r3.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A082": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento a favor de VERDADEIRO: 'fui eu que fiz' em fala de presidente quer dizer 'no meu governo, com meu empenho', o que confere (FGV/CPDOC), e 'a primeira' pode significar a primeira sob a Constituição de 1988. Fica de pé o IMPRECISO: emenda é promulgada pelas Mesas do Congresso (texto oficial), nasceu de PEC de 1992 com 13 anos de tramitação (Jus.com.br), e a EC 7 de 1977 já tratou do Poder Judiciário; são dois exageros materiais na mesma frase. Contra FALSO: o fato central (reforma promulgada no governo dele, com atuação do ministro da Justiça) confere. Anos do resumo e da ressalva (2004, 1992, 1977) têm trecho; trechos achados na p07.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A083": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'nós fizemos' dá a Jobim papel de autor de uma emenda do Congresso. Cai: a afirmação extraída checa só os cargos na data, e a autoria é tratada na A082. STF (N1) dá Jobim na presidência de 03/06/2004 a 29/03/2006; FGV/CPDOC dá Thomaz Bastos no Ministério da Justiça de janeiro de 2003 a 2007; a EC 45 de 08/12/2004 cabe nos dois períodos. Trechos achados na p07.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A084": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento a favor de VERDADEIRO: a afirmação é sobre denúncias terem aparecido, não sobre serem verdadeiras, e há reportagens de dinheiro (contrato do Master com o escritório da mulher de um ministro), festa (degustação paga por Vorcaro) e mulher (encontro com acompanhante); seria existência documentada, como na A087. Fica de pé o INSUSTENTAVEL: a palavra que dá peso à frase, 'orgia', só aparece na boca do próprio Lula, e um VERDADEIRO para 'denúncias de orgia' no STF sugeriria culpa em fato sem conclusão (ética §5). Mas o resumo dizia 'um encontro pago com ministros', que lia como encontro de ministros pago por Vorcaro, e 'festas' no plural, sem lastro; e a ressalva dizia que 'nenhum ministro foi denunciado formalmente', sem trecho. Resumo e ressalva reescritos. Ver correcoes-r3.md.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A085": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento a favor de VERDADEIRO: Lula já tinha dito 'três vezes' antes, no Flow Podcast, sem contestação. Cai: a fala anterior do mesmo entrevistado não é fonte independente, e o registro de terceiros (A Tarde) dá duas conversas no mesmo dia 04/09. A agenda oficial não foi capturada, e a ressalva diz isso. Não tentei capturar a agenda da Presidência: sem as datas das conversas, só confirmaria as de 04/09, que já têm registro, e não mudaria o veredito. Conferido na captura: Fachin assumiu a presidência do STF em 2025. · Coerência entre lotes: Par A092, A093 e A105. Já era provisória com confiança baixa; serviu de régua para A092 e A093.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A086": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: a proximidade é notória e descrita pela imprensa (Gazeta do Povo, Poder360), então a entrevistadora estaria certa. Cai porque a frase atribui a afirmação a adversários, e procurei em todas as capturas do caso trecho de parlamentar, candidato ou partido adversário apontando essa proximidade: só há a imprensa descrevendo a relação e o pedido do Novo, que se apoia em suspeita de interferência no caso Master. O card diz que não se achou, não que adversários não falam disso. A resposta do entrevistado sobre o mesmo ponto (A090) recebeu a mesma régua. · Coerência entre lotes: Par A090 (Andrei Rodrigues, entrevistadora e candidato). A086 é provisória porque falta a declaração de adversários; A090 tem fonte que contradiz em parte a negativa e não depende de busca. Os dois declaram a mesma régua.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A087": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'festa do Daniel Vorcaro' exagera, era um fórum jurídico com vários patrocinadores. Cai: o Poder360 (dado obtido por LAI) registra 'confraternização oferecida por Vorcaro' com o diretor da PF entre os presentes, a Gazeta o lista na degustação de 25/04/2024 bancada por Vorcaro, e o Diario de Pernambuco o identifica em vídeo da festa; três apurações independentes, trechos achados na p07. A ressalva (a PF diz que ele não recebeu outro benefício) tem lastro na captura. Única correção: a data de referência dizia '24 a 26/04/2024', e o dia 24 não está em trecho nenhum. Ver correcoes-r3.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A088": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a checagem dizia ter uma fonte só, mas a reportagem do SBT News já capturada neste caso (p08, usada nas A097 e A098) registra que o BC conhecia e analisou suspeitas sobre o Master desde 2023 com seus departamentos de supervisão; com o LetsMoney (apuração do Valor: ofícios do Departamento de Supervisão desde 2021 e ciclo de supervisão sobre irregularidades em crédito e precatórios em 2021 e 2022), são duas fontes independentes que datam a apuração antes de abril de 2024. Passa a VERDADEIRO, confiança média. A ressalva antiga (termo de comparecimento em maio de 2024, depois da festa), num card INSUSTENTAVEL, lia como desmentido da entrevistadora quando a única fonte a sustentava; a mesma informação vira o 'certo, mas' do VERDADEIRO. O que resta contra (o SBT diz que o BC concluiu então não abrir procedimento específico) está na explicação e não derruba 'apurava'. Ver correcoes-r3.md. · Coerência entre lotes: Par A097 (BC e Master). Os critérios são diferentes e coerentes: 'apurava irregularidades' aceita ofícios de supervisão; 'procedimentos formais' pede o termo de comparecimento de novembro de 2024. As duas ressalvas dizem isso.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A089": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a explicação dizia que nenhuma fonte capturada citava inquérito da PF em São Paulo antes de abril de 2024, e o resumo dizia 'nada de inquérito em SP antes', mas o SBT News capturado na p08 registra dois inquéritos da delegacia de crimes financeiros da PF em São Paulo abertos desde 2023. A checagem A098, sobre o mesmo ponto que a entrevistadora retoma minutos depois, já tinha VERDADEIRO com SBT News e CNN Brasil; o vídeo teria dois cards opostos sobre o mesmo fato. Passa a VERDADEIRO com o mesmo par de fontes, confiança média porque a data anterior à festa vem só do documento obtido pelo SBT News (a CNN confirma investigação em 2024, sem mês). Os dois trechos foram achados na p08. O mérito dos inquéritos segue em apuração e a ressalva diz isso (ética §5). Ver correcoes-r3.md. · Coerência entre lotes: Par A098 e A110. Mesmo critério de A098 (existência e data do inquérito, mérito em apuração, confiança média por documento obtido por um veículo). A110 foi alinhado a este par.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A090": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento a favor de FALSO: Andrei coordenou a segurança da campanha de 2022, foi escolhido pela 'relação de confiança construída durante a campanha' (Itatiaia) e viaja com frequência na comitiva presidencial (Poder360); isso contradiria 'não é ligado a mim'. Cai: o vínculo registrado é funcional (segurança de candidato é tarefa da própria PF, e ele fez a de Dilma em 2010), nenhuma fonte registra filiação ou relação pessoal fora do serviço, e 'ligado' sem definição não permite FALSO; o card mostra os fatos que pesam contra a negativa. Mesma régua da A086, do lado da entrevistadora. Trechos achados na p07. · Coerência entre lotes: Par A086: ver nota de A086.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A091": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o Poder360 diz que quem escolheu Andrei foi Flávio Dino, então ministro da Justiça, e não Lula. Cai: a nomeação é ato do governo Lula (Folhapress, 02/01/2023), o O Povo registra que nomear o diretor-geral é atribuição do presidente, e a divergência está declarada no campo próprio. Ele seguia no cargo na data da fala: afastado por Mendonça em 08/09, efeitos suspensos por Fachin em 09/09 (O Povo, data conferida na captura), e o SBT News de 15/10 o chama de diretor-geral.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A092": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a fala é sobre uma conversa privada do próprio Lula, e caberia NAO_CHECAVEL, ou a falta de qualquer registro deveria pesar como FALSO. Não procede: é evento passado com registro possível (nota do Planalto, da PF, relato de Andrei), então a árvore do §2.1 leva a INSUSTENTAVEL, e nenhuma captura contradiz (procurei Andrei com repreensão, nota e resposta em todas as capturas do caso; Terra e Mixvale só reproduzem a fala). Frase confere com a transcrição (1233,4 s) no contexto da pergunta sobre manter Andrei. Os três trechos estão nas capturas p07 e p08. Mesma régua de A085 (conversas com Fachin que só aparecem no relato de Lula). O 'abril de 2024' da data de referência tem lastro na CNN capturada para A093. O resumo diz 'não há nota oficial' de forma absoluta, mas a explicação registra a busca limitada e a leitura do card não muda. · Coerência entre lotes: Par A085 e A103 (relato de Lula sobre conversa reservada dele). A explicação dizia que a busca foi limitada, mas a confiança era média e faltava o prefixo de provisório, que A085 tem. Passou a confiança baixa com o prefixo, e o resumo trocou 'não há' por 'não foi achado'. Veredito INSUSTENTAVEL mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A093": {
+    "decisao": "alterado",
+    "nota": "Contra: a transcrição está truncada ('ele alertei o ministro da Justiça'), e a afirmação poderia estar esticando a fala. O Tempo transcreve 'Ele sabe que eu o repreendi, alertei o ministro da Justiça', então a afirmação confere. Nenhuma captura traz confirmação nem desmentido do Ministério da Justiça ou do Planalto; INSUSTENTAVEL é o que a árvore dá, não FALSO. Trechos conferidos (O Tempo, CNN, SBT de 08/01 e de 13/01). A CNN capturada data o evento de Londres em abril de 2024, com Lewandowski presente. 'Pediu demissão em 08/01' na explicação é um pouco mais forte que o trecho ('comunicou que vai deixar'), mas não vai para a tela. Sem leitura de intenção. · Coerência entre lotes: Mesma frase, mesmo episódio e mesmo lote de A092, com a mesma busca. Igualado a A092 e A085: confiança baixa, prefixo de provisório, resumo com 'não foi achado'. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A094": {
+    "decisao": "mantido",
+    "nota": "Contra: o Metrópoles diz, com dados de portaria obtidos por LAI, que não há registro de entrada de Vorcaro no Planalto em dezembro de 2024, o que poderia derrubar a data dita pela entrevistadora. Não derruba: Lula confirmou a reunião (SBT, citando o UOL), Galípolo, que estava nela, a situou em 4 de dezembro de 2024 na CPI (Poder360, captura p09), e três apurações independentes dão o mesmo mês e o mesmo local. A divergência está registrada no campo próprio. Régua igual à das falas de Lula: aqui há registro independente, lá não. Trechos encontrados nas capturas p08 e p09.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A095": {
+    "decisao": "mantido",
+    "nota": "Contra: 'levado pelo Mantega' pode exagerar o papel dele, já que o Poder360 diz que Mantega e Vorcaro pediram juntos a reunião ao fim de outra audiência. Não muda a leitura: Lula confirmou ao SBT, segundo a Revista Oeste, que recebeu Vorcaro 'a pedido' de Mantega, e o SBT diz que o encontro foi 'costurado' por ele. Três trechos conferidos na captura p08. Essência e recorte confirmados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A096": {
+    "decisao": "mantido",
+    "nota": "Contra: as fontes são de 2026 e descrevem Mantega como consultor em termos gerais; o vínculo em dezembro de 2024 especificamente poderia não estar provado. Cai: o Metrópoles diz que ele foi ao Planalto quatro vezes em 2024 'quando atuava como consultor do Banco Master', e a declaração do banco à Receita, publicada pelo O Globo e reproduzida pelo Jornal Grande Bahia, registra R$ 6 milhões pagos em 2024. O Jornal Grande Bahia conta como ponteiro do O Globo, mas Metrópoles e SBT são apurações separadas. 'Trabalhava para' por meio de empresa de consultoria confere. A ressalva tem o ano no trecho.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7"
+    ]
+  },
+  "A097": {
+    "decisao": "mantido",
+    "nota": "Contra: um termo de comparecimento pode ser supervisão de rotina, e não 'procedimento formal', e era contra o banco, não contra Vorcaro. Não procede: Galípolo descreve convocação da diretoria de Fiscalização com prazo de seis meses para correções, e o SBT fala em termo assinado pelo banqueiro; é ato formal, com nome e prazo, em novembro de 2024, antes do encontro de 4/12. Haddad, na entrevista capturada na p07, também diz que um processo administrativo já tinha sido aberto no fim da gestão anterior do BC. A ressalva separa o processo sancionador de 2025, e a explicação diz que o alvo é o banco controlado por Vorcaro. Trechos conferidos. · Coerência entre lotes: Par A088: ver nota de A088.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A098": {
+    "decisao": "mantido",
+    "nota": "Contra: a pergunta diz 'naquele mesmo ano', e o SBT diz que os inquéritos de São Paulo foram abertos desde 2023; e o elemento 'São Paulo' tem uma fonte só, porque a CNN fala da investigação que virou a Compliance Zero sem citar São Paulo. Fica de pé: o inquérito aberto em 2023 estava em curso em 2024 (ofício de julho de 2024 ao BC), o que é ser alvo naquele ano, e a ressalva diz que ele é de 2023; o dado de São Paulo vem de documento obtido pelo SBT, com o delegado e a delegacia nomeados, e a investigação da PF em 2024 tem a segunda fonte. Os inquéritos são sobre o Master e fundos usados por Vorcaro, e a ressalva diz isso. Não julga mérito (etica-e-risco §5). Mesma régua de A110. · Coerência entre lotes: Par A089 e A110: mesmo fato, mesma fonte, mesmo veredito. Sem mudança.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A099": {
+    "decisao": "alterado",
+    "nota": "O veredito provisório está bem posto: nas capturas (Exame, g1 e o verbete de Silvio Santos, que repete a visita do Teleton) não há registro de Silvio Santos procurando Lula na crise de novembro de 2010, e nada prova que não procurou, então INSUSTENTAVEL e não FALSO, com confiança baixa. Melhor argumento contra o card: 'a visita de Silvio Santos a Lula em 2010 foi sobre o Teleton', lido sozinho, sugeria que a visita a que Lula se refere foi outra coisa, impressão de FALSO; ele ficou de pé e o resumo mudou para dizer que a visita de 2010 foi antes da crise. Frase confere (1346,0 s). Ao refazer a busca, procurar relato da época sobre contato de Silvio Santos com o governo em novembro de 2010.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A100": {
+    "decisao": "mantido",
+    "nota": "Contra: a segunda fonte é a Wikipédia, que a METODOLOGIA §3 não põe em N4 (não é imprensa com apuração própria); sem ela sobra a Folha. O veredito provisório ainda está bem posto na direção: INSUSTENTAVEL por ausência de registro, sem prova em contrário (procurei Edemar e Banco Santos com Lula, Planalto e governo em todas as capturas do caso; só aparecem a Folha e dois verbetes da Wikipédia), e a explicação já declara a enciclopédia como ponteiro e a confiança é baixa. Não alterei o nível porque o veredito não depende dessa fonte, mas a nova busca precisa trocar a Wikipédia por uma segunda fonte de imprensa ou pelo Diário Oficial capturado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A101": {
+    "decisao": "alterado",
+    "nota": "Contra: o 'Banco da Igreja de Macedo' pode não ser o Digimais. É a leitura mais plausível (Macedo controla o banco desde 2020 e a crise é recente), e de qualquer forma nenhuma captura registra banco ligado a Macedo procurando Lula (procurei Digimais e Macedo com Lula e Planalto em todas as capturas). INSUSTENTAVEL provisório bem posto. Alterado o resumo: 'em crise desde 2024' não tem lastro, porque as fontes falam em relatórios de 2024 e 2025, em problema que vem de depois da pandemia e em banco à venda há mais de um ano; e 'sob supervisão do BC', na explicação, não estava em trecho nenhum.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A102": {
+    "decisao": "mantido",
+    "nota": "Contra: 'foi assim que o Galípolo se posicionou' pode atribuir a ele o que ele não disse, e as fontes falam em seguir a lei, não em 'sem critério político'. Fica de pé, e com mais lastro do que o lote usa: no depoimento à CPI (Poder360, captura p09) Galípolo contou que a orientação recebida depois da reunião foi 'seja técnico, o mais técnico possível' e 'não proteja ninguém, não persiga ninguém'. A ressalva diz que a expressão literal não aparece. A mesma régua foi aplicada a Haddad em A104.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A103": {
+    "decisao": "alterado",
+    "nota": "O veredito provisório INSUSTENTAVEL fica, e mais firme: Galípolo, perguntado na CPI se recebeu comando do Planalto depois da reunião com Vorcaro, descreveu só a orientação de ser técnico, sem pedido para comunicar a PGR (Poder360, captura p09). Melhor argumento contra a checagem como estava: a explicação dizia que nenhuma fonte capturada especificava o Procurador-Geral como destinatário, e a entrevista de Haddad na captura p07 diz que o caso foi levado ao Procurador-Geral da República e à PF; esse argumento ficou de pé, e a explicação foi corrigida, com as duas fontes acrescentadas e a data da comunicação ao MPF e à PF (julho de 2025). O resumo trocou 'não há registro' por 'as fontes não registram', porque a busca foi limitada. Caso em apuração e ausência de registro não é prova de que o pedido não houve: não é FALSO. · Coerência entre lotes: Só formato: o prefixo terminava em ponto ('a refazer. Revisão r4:'); passou a dois-pontos, como em todas as provisórias do caso.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A104": {
+    "decisao": "alterado",
+    "nota": "O veredito provisório não estava bem posto. Ele dizia que nenhuma fonte capturada sustentava a posição atribuída, mas a captura p07 (A Crítica de Campo Grande, entrevista ao podcast 3 Irmãos) traz Haddad dizendo que o Banco Central era o órgão responsável por agir diante das irregularidades do Master e que o caso foi levado ao Procurador-Geral e à PF, que é o 'assim' da fala de Lula (o BC trata tecnicamente, a PGR é comunicada). Com o agradecimento público de Galípolo ao apoio de Haddad, são duas fontes; trechos conferidos. Pela mesma régua de A102, passa a VERDADEIRO, com ressalva de que a expressão 'sem critério político' não aparece. Melhor argumento contra o veredito novo: na mesma entrevista Haddad culpa a gestão anterior do BC, o que é posição política; ele cai porque é avaliação dele e não contradiz que o caso devia ficar com o BC e com os órgãos de investigação. Confiança baixa: uma fonte direta, de veículo regional que relata um podcast. · Coerência entre lotes: Par A102 e A153. VERDADEIRO com confiança baixa por uma fonte direta e uma de apoio; A102 tem mais lastro e confiança média. Coerente com a fonte de cada um.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A105": {
+    "decisao": "mantido",
+    "nota": "Contra: Galípolo descreve perseguição 'pelo mercado financeiro', o que contradiria o 'politicamente' e levaria a FALSO. Não leva: Galípolo diz que a reunião já tinha começado quando chegou ('Quando eu chego na reunião'), então o relato dele não cobre a conversa inteira e não exclui que Vorcaro tenha dito nomes. A frase transcrita está truncada ('eu estou me perseguindo politicamente'), e o resumo fala só do que as fontes trazem: queixa contra o mercado no relato de Galípolo, perseguição política e nomes só no de Lula, e nem o relato anterior de Lula (Congresso em Foco) cita nomes. Mesma régua de A085 e A092. Caso em apuração. Trechos conferidos na p08 e na p09. · Coerência entre lotes: Par A085 e A092. Não é provisória porque há relato independente (Galípolo, presente na reunião) e a explicação não declara busca limitada; o resumo diz o que cada relato traz.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A106": {
+    "decisao": "mantido",
+    "nota": "Contra pelos dois lados. FALSO: 349 dias contra 'um mês' é desvio de mais de dez vezes. Mas o §2.2 reserva FALSO para número que existe e é outro com sentido oposto; aqui o sentido (o banco foi fechado depois do encontro, por irregularidade, como diz a nota do BC) se mantém, e prazo errado é desvio de valor, IMPRECISO. VERDADEIRO: não, o prazo muda a leitura de causa e efeito imediata. Conferi se 'um mês' poderia se referir a outro encontro: a Gazeta do Povo registra que o Planalto diz ter sido o único. Conta refeita: de 4/12/2024 a 18/11/2025 são 349 dias. Nota do BC (N1) conferida na captura p09.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A107": {
+    "decisao": "mantido",
+    "nota": "Contra: o contrato era do escritório com o Banco Master, não com Vorcaro em pessoa, e isso poderia ser recorte errado que pede IMPRECISO. Não muda a leitura: Vorcaro controlava o banco, Lewandowski participava do Comitê Estratégico (o 'conselheiro' da pergunta) e confirmou a consultoria em nota; a ressalva diz que o contrato era com o banco. A régua é a mesma aplicada às falas de Lula sobre o mesmo contrato (A112). A divergência de mês da posse (janeiro na Metrópoles, fevereiro na Band) foi conferida nas capturas e não afeta o veredito, porque o contrato é de agosto de 2023.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A108": {
+    "decisao": "mantido",
+    "nota": "Contra: 'a família manteve o contrato que ele tinha' pode esticar, porque o contrato era do escritório. As fontes dizem que o escritório passou a ser representado pelo filho e que os pagamentos seguiram até setembro de 2025 (Metrópoles; O Antagonista em A112), e a Rádio Bandeirantes confirmou por conta própria; Lewandowski, em nota, não nega a continuidade. A divergência sobre quem atua no escritório (os dois filhos ou a esposa e o filho) está nos trechos e não muda o veredito.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A109": {
+    "decisao": "mantido",
+    "nota": "Contra: o decreto de 2023 pode ter sido substituído até outubro de 2026, e 'comanda' pode exagerar a relação. A página do Planalto capturada não traz marca de revogação, só redações dadas pelo Decreto 11.759/2023, e lista a Polícia Federal na estrutura do ministério; a Lei 14.600 atribui ao ministério a execução das funções da PF. Subordinação hierárquica é o que 'comanda' diz. Duas fontes N1, vigentes na data da fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A110": {
+    "decisao": "alterado",
+    "nota": "Contra: a investigação era do banco, não 'do Vorcaro', e pode ter começado depois do início do contrato com a família, em janeiro de 2024. Não derruba: o contrato foi mantido até setembro de 2025, então houve sobreposição com a investigação aberta em 2024 (e com os inquéritos de São Paulo abertos desde 2023, A098), e Vorcaro foi preso nessa investigação. A ressalva diz que as fontes não dão o mês e que a investigação é do banco. O card fala de existência de investigação, não de culpa. · Coerência entre lotes: Par A089 e A098 (mesma entrevistadora, mesma investigação, dois minutos antes). Os dois cards dizem inquéritos da PF de São Paulo abertos desde 2023; este dizia 'desde 2024' e que as fontes não davam a data. Entrou o SBT News (captura p08, mesmo trecho de A098), o resumo passou a 'desde 2023' e a ressalva diz de onde vem a data. Veredito VERDADEIRO mantido; trechos conferidos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A111": {
+    "decisao": "mantido",
+    "nota": "Contra: 'foi trabalhar por conta dele' só teria a palavra do próprio Lewandowski. A Metrópoles mostra o escritório dele contratado pelo Master em agosto de 2023, registro independente da atividade privada depois do STF; a data de saída do STF vem da nota dele, e a explicação diz isso. A frase confere no contexto (Lula falando da saída do STF, não do ministério, apesar do 'quando ele deixou o ministério' dito antes).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A112": {
+    "decisao": "mantido",
+    "nota": "Contra: 'ele largou a assessoria e veio', dito em resposta à pergunta sobre o contrato mantido pela família, deixa a impressão de ruptura completa, e o contrato seguiu com o escritório; isso poderia ser recorte que muda a leitura (IMPRECISO). Fica VERDADEIRO porque a frase fala dele, e ele saiu da sociedade em 17/1/2024 e suspendeu o registro na OAB (três fontes, trechos conferidos); a ressalva, que vai à tela, diz que o contrato continuou com os filhos e com pagamentos até setembro de 2025. Coerente com A108, em que a pergunta da jornalista sobre o mesmo contrato também é VERDADEIRO.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A113": {
+    "decisao": "mantido",
+    "nota": "Contra: ex-ministro do STF não tem quarentena para atividade privada em geral, só a vedação de advogar no próprio tribunal por três anos, e os 6 meses da Lei 12.813 não impedem todo trabalho privado, só o que conflita com o cargo; 'cumprem a quarentena e depois vão cuidar das suas vidas' pode exagerar. A frase descreve de forma geral que existe quarentena, e existe, nas duas normas N1 conferidas no texto do Planalto. A ressalva diz que a regra vale para cargos listados, com prazos e alcances diferentes. É ornamento, não fato errado, pelo §2.2.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A114": {
+    "decisao": "mantido",
+    "nota": "Contra: 'ninguém pode voltar atrás' é falso em sentido estrito, porque o próprio STF revê suas decisões e o Congresso pode mudar a Constituição; e a frase pode ser retórica, não fato. É descrição de norma, e a afirmação extraída (não há instância acima do STF) confere pelo portal do STF e pelo art. 102. A ressalva diz o que o texto constitucional capturado sustenta (efeito vinculante sem citar o Legislativo e revisão de súmula pelo próprio STF). Fato certo com ornamento exagerado: VERDADEIRO com ressalva, pelo §2.2.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A115": {
+    "decisao": "mantido",
+    "nota": "Contra: as duas fontes são do mesmo veículo. A regra de independência mira a mesma matéria reproduzida; aqui são duas entrevistas diferentes (SBT Brasil em 10/9 e Rádio Tupi em 18/9), cada uma registro de uma fala anterior à sabatina, e a de 10/9 ainda cita uma fala anterior ('outro dia, eu disse, brincando'). A frase confere em essência ('não pode querer ser rico'). Trechos conferidos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A116": {
+    "decisao": "alterado",
+    "nota": "Contra: em 2023 o programa ganhou adicionais, e alguém poderia chamar isso de reajuste, o que tornaria a pergunta errada. Os adicionais são componentes criados com o programa, e as fontes tratam o anúncio de setembro de 2026 como o primeiro reajuste; o próprio Lula, na sabatina (1626,6 s), diz que não sabia que o Bolsa Família não tinha sido reajustado, o que o SBT registra. A ressalva diz que os adicionais não foram conferidos. Lei 14.601 (N1) conferida. Fora do card: o Poder360 dá 15,04% e R$ 600 para R$ 691, conta que não fecha exata (600 vezes 1,1504 dá 690,24); não entra no resumo. · Coerência entre lotes: Par A118 (o candidato sobre o mesmo fato). A118 tinha confiança alta com o Decreto 13.120, que corrige todos os componentes desde março de 2023; A116 tinha confiança média e ressalva sobre adicionais não conferidos. Entraram o decreto e o Congresso em Foco de A118, a confiança subiu para alta e a ressalva saiu. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A117": {
+    "decisao": "mantido",
+    "nota": "Contra: 'reajustado' pode ser a data de vigência, não a do anúncio. A pergunta trata do anúncio, e as duas fontes de imprensa dão 17 de setembro. Conta refeita: 1º de outubro de 2026 cai numa quinta, o primeiro domingo é o dia 4, e de 17/9 a 4/10 são 17 dias (13 até 30/9 mais 4). Data do 1º turno pela Constituição (N1). Régua igual à das falas do candidato.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A118": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: algum componente (valor-base ou adicional) pode ter sido corrigido antes de 2026, e a frase seria falsa. Cai: o Decreto 13.120 corrige a variação do INPC desde março de 2023, o que só faz sentido se nada foi corrigido antes, e a nota do ministério reproduzida pela Tribuna de Jundiaí e o Congresso em Foco dizem que é a primeira atualização desde 2023. Frase conferida na transcrição (1626,6 s), fato embutido na resposta e não juízo; o momento em que Lula soube fica fora, como a explicação diz. Todos os trechos encontrados nas capturas p09/p10. Mudança: o trecho da Lei 14.601 passou a incluir R$ 150 e R$ 50, que a explicação citava sem lastro. · Coerência entre lotes: Par A116, que foi alinhado a este.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A119": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'tudo o que a gente não deu' depende do índice, e pelo IPCA a perda é maior. Conferido com captura nova do IBGE (SIDRA 1737): IPCA de 16,3% entre fevereiro de 2023 e agosto de 2026, contra 15,04% do INPC do decreto; o piso sobe 15,2%, então pelo IPCA a reposição não é integral. O desvio no valor (cerca de 1% no piso) fica abaixo da régua de 10% do §2.2, e o veredito VERDADEIRO fica de pé, mas a ressalva passou a mostrar o IPCA. Também conferido: a frase descreve o decreto já publicado em 17/09, não uma promessa; a conta do INPC (7810,09 / 6788,87) bate com o trecho do SIDRA. Mudanças: fonte IBGE IPCA, duas derivações, explicação e ressalva.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A120": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a reportagem do Acessa de 1º de setembro dizia que o projeto ainda não tinha sido protocolado, o que deslocaria a data. Cai: a IFI do Senado (N1) registra a apresentação ao Congresso em 31 de agosto, e o Brasil 61 traz o número do PLN no mesmo dia; a divergência já está registrada. 'Duas semanas antes' é 17 dias, arredondamento que não muda a leitura e está na ressalva. Trechos encontrados nas capturas p10. Régua igual à aplicada às datas ditas pelo candidato.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A121": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: uma dotação de R$ 157,1 bilhões, maior que a de 2026, poderia embutir algum reajuste. Cai: o próprio ministro, no dia do envio, disse que não havia previsão de reajuste, a tabela da IFI mostra alta de 1,1%, incompatível com correção de 15%, e a Folhapress registra depois do anúncio que o custo extra não estava no projeto. A divergência de valor (155,8 contra 157,1) está declarada e não muda o veredito. Trechos encontrados nas capturas p10.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A122": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o decreto foi publicado e o governo diz que o custo de 2026 cabe no orçamento sem crédito extraordinário, o que seria espaço fiscal de fato; ou, ao contrário, a IFI mostraria que não há espaço (FALSO). Nenhum dos dois cai bem: o documento que resolveria 2026 (relatório bimestral com o remanejamento) não foi capturado, a IFI contesta a fonte do espaço (Previdência) e não o desmente por inteiro, e a representação do Ministério Público junto ao TCU estava sem decisão. INSUSTENTAVEL está bem posto, coerente com etica-e-risco §5. Trechos encontrados nas capturas p10. Mudanças: o resumo usava 'IFI' e 'MP no TCU', siglas de especialista, e 'MP' no mesmo bloco significa medida provisória; passou a nomear a instituição fiscal do Senado e dizer que o TCU não decidiu. O trecho do Poder360 passou a incluir os custos de R$ 5,8 e R$ 22 bilhões citados na explicação. · Coerência entre lotes: Par A139 e A125. Afirmações diferentes sobre espaço fiscal: 'havia espaço' é contestado pela IFI e fica sem comprovação; 'sem mexer no espaço' contradiz o uso de até R$ 15 bi e fica IMPRECISO. Números da IFI iguais em A123 e A125.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A123": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 0,1% pode ser confundido com a meta, que é 0,5%, ou o governo calcula 0,13%. Cai: a frase fala do orçamento apresentado, e o superávit primário efetivo do projeto é R$ 18,6 bilhões, 0,1% do PIB pela IFI e 0,13% pelo governo, diferença de arredondamento. A ressalva já mostra as deduções legais e a projeção de déficit da IFI. Mesma régua de arredondamento usada para a jornalista no A127. Mudança: o trecho da IFI passou a incluir o déficit de R$ 86,1 bilhões que a explicação citava sem lastro.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A124": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o FALSO: 2,8% poderia ser outra medida (nominal, estrutural, projeção do orçamento de 2023, resultado de 2023). Cai: a série 5793 do Banco Central dá superávit de 1,25% em 2022 e o TCU dá superávit de 0,6% no governo central; o déficit de 2,4% do TCU é de 2023; o caso 2026-08-27 já conferiu o estrutural (0,60%) e a projeção de 2023 (cerca de 2,2%). Nenhuma leitura dá 2,8%, e as fontes registram sinal oposto para o ano anterior à posse. A mesma frase recebeu FALSO no A019 de 2026-08-27-sabatina-lula-globo, com os mesmos números (1,25% e 0,6%): a régua é a mesma. Trechos encontrados nas capturas p10.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A125": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a IFI não usa a palavra 'superestimadas' e atribui parte da diferença às despesas, então a jornalista teria esticado o relatório. Cai: o RAF 116 diz que a receita líquida do projeto é R$ 127,9 bilhões superior à da IFI e que a meta depende de premissas mais otimistas que as dela, o que é a essência de receitas superestimadas; a divergência nas despesas e a exceção de petróleo e dividendos estão na ressalva. Relatório de setembro, anterior à fala. Trechos encontrados nas capturas p10. Mudança: o resumo trocou a sigla 'IFI' pelo nome que o espectador reconhece; o veredito não muda.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A126": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: é número, e as cinco páginas capturadas formam uma única cadeia de imprensa (Estadão de 11/10, reproduzido no mesmo dia por 40graus, SP Diário, Aciara e Blog do Itamar), sem a divulgação do FGV Ibre. Fica de pé: a §3.1 exige N1 ou N2 para número, ou duas N3/N4 citando a primária conferida, e nada disso existe. A revisão tentou capturar a página da Sondagem do Consumidor do FGV Ibre por URL direta e a conexão foi recusada. Na mesma rodada, falas do candidato com primária faltando receberam INSUSTENTAVEL provisório (A016); manter VERDADEIRO aqui seria régua diferente para a jornalista. Veredito passou a INSUSTENTAVEL provisório, confiança baixa, com resumo dizendo o que faltou e a nota de que nada contradiz o número.",
+    "verificacoes": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A127": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 84 milhões não é o número de agosto, e a Serasa conta inadimplentes, não 'negativados'. Cai: a Serasa deu 83,9 milhões no fim de julho (divulgação de agosto) e 83,98 milhões em agosto (O Povo, 19/09, antes da fala); os dois arredondam para 84 milhões, e o indicador é o de pessoas com dívida em atraso no cadastro, que é o sentido de 'negativadas no Serasa'. Ressalva com o número exato. Trechos encontrados nas capturas p10.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A128": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: houve outras modalidades com o nome Desenrola, e a contagem de três edições seria arbitrária. Cai: a própria contagem do governo, registrada na criação da 3.0 (Diário de Pernambuco), é de duas etapas anteriores; a 1ª tem lei de 2023 (N1), a 2.0 foi lançada em maio de 2026 e a 3.0 é a MP de 25/09. A pergunta usa a mesma contagem que o candidato usa na resposta (Desenrola 1, 2 e 3). Trechos encontrados nas capturas p10.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "A129": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'logo depois' não se confirma. Depois da 1ª fase a série do Banco Central ficou estável por cerca de sete meses (3,82% em maio, 3,63% em dezembro de 2024) e só subiu em 2025; na 2ª fase o índice subiu durante o programa, e a série capturada termina em agosto de 2026, sem o mês seguinte ao fim. Fica de pé o essencial: a inadimplência caiu na 1ª fase e voltou a subir para acima do nível anterior (6,03%), e o desvio de tempo não inverte a tendência nem muda a leitura (§2.2), então VERDADEIRO com ressalva, a mesma régua do A132 para detalhe de fase. Mudança: a explicação chamava o 'logo depois' de impreciso com veredito verde, contradição interna; passou a dizer que o tempo vai na ressalva e que o 'depois' da 2ª fase ainda não é observável.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A130": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'população' por 'famílias' seria unidade errada (§2.2), e 'endividada' na Peic inclui dívida a vencer no cartão, então caberia IMPRECISO. Fica VERDADEIRO: a Peic é a referência pública da frase, o percentual é exatamente 78,0% em janeiro de 2023 na divulgação da própria CNC, e trocar famílias por população não muda a leitura de que a grande maioria estava endividada; a ressalva mostra o recorte. Mesma régua aplicada à jornalista no A126, que diz 'brasileiros' para um levantamento por entrevistados. Trechos encontrados nas capturas r2 e p10.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A131": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a nota da Fazenda tem 15,5 milhões no título e 15,06 milhões no corpo, e 'atendemos' pode ser pessoas que só consultaram. Cai: o corpo do balanço oficial diz 15,06 milhões de pessoas beneficiadas pela negociação, o sentido de 'atendemos'; 'por volta de 15 milhões' é arredondamento sem efeito. A Câmara e o FDR partem do mesmo balanço, que foi conferido, o que satisfaz a regra 2 da §3.1. Trechos encontrados nas capturas p11.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  "A132": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'está na Câmara' está errado, porque a MP estava na comissão mista. Conferido na captura da API da Câmara: os únicos eventos até a fala são a publicação, o prazo de emendas e o ofício de 01/10 com a constituição da comissão mista, sem nada no plenário. A essência (MP criando o programa, pendente no Congresso) confere e a fase vai na ressalva, por isso VERDADEIRO e não IMPRECISO; é a mesma régua do A129. Trechos encontrados nas capturas p11.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A133": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a MP não fala em 'leilão' e a compra pode ser feita por fundo, não pela União. Cai: o art. 31-B autoriza a União a adquirir as carteiras em procedimento competitivo pelo maior desconto, que é um leilão, e a Câmara usa a palavra 'leilões'; a via por fundo ou por Banco do Brasil e Caixa está na ressalva. Trechos encontrados nas capturas p11 (texto da MP, sumário do Senado, Câmara).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A134": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: com teto de R$ 10 mil, 'até R$ 4 mil' seria número inexistente e o veredito poderia ser INSUSTENTAVEL ou FALSO. Fica IMPRECISO: o critério de atraso confere na base (mais de 720 dias), o teto real inclui as dívidas de até R$ 4 mil, então o número dito subestima a regra em vez de inverter seu sentido (§2.2); o desvio de R$ 4 mil para R$ 10 mil passa dos 10%. 'Todas as pessoas' também é corrigido na explicação pela dependência dos credores e das dotações. Trechos encontrados nas capturas p11.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A135": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: R$ 150 bilhões é a conta do teto (R$ 15 bilhões a 10% do valor de face), não a medida do estoque de dívidas que 'existe hoje'. Fica de pé o veredito, porque no contexto (2001 a 2016 s) 'essa dívida' é a que a União vai comprar, e o governo estima que até R$ 150 bilhões possam ser renegociados; a confiança média e a ressalva dos R$ 75 bilhões já tratam disso. Mas o resumo dizia 'dívidas elegíveis', afirmando no card o estoque que nenhuma fonte capturada mede. Mudanças: resumo, explicação e número apurado passaram a usar as palavras das fontes.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A136": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: se o perdão não estava em vigor, 'fizemos o perdão' seria FALSO; ou, ao contrário, a própria fala segue com 'eu sugeri que a gente estudasse', o que tiraria o caráter de fato. Fica IMPRECISO: o projeto foi enviado em 13/10 e aprovado pela Câmara em 14/10 por 461 a 4, aguardando o Senado (API da Câmara), então o perdão existe como ato do governo e falta o estado de conclusão, o mesmo tipo de desvio de fase tratado no A132 mas aqui mudando a leitura (concluído contra pendente). Conferido no autógrafo capturado que o art. 5º só produz efeito em 1º de janeiro de 2027 (art. 10, II), o que sustenta a ressalva. Trechos encontrados nas capturas p11.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A137": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: o valor pode ser de todo o Simples Nacional, não só de MEI, ou o oficial seria R$ 12,6 bilhões. Cai: a exposição de motivos (N1) diz carteira de MEIs na Dívida Ativa, R$ 12,86 bilhões; o anúncio usou R$ 12,6 bilhões; o falado fica entre os dois, a 1,2% do documento, arredondamento sem efeito pela régua do §2.2. Trechos encontrados nas capturas p11. Mudança: a conta do 1,2% citada na explicação ganhou derivação declarada.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A138": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a fala é universal ('essas pessoas estão no Serasa'), e a norma só diz que a Procuradoria da Fazenda 'poderá' comunicar, sem dado de quantos MEIs estão negativados; caberia IMPRECISO. Fica VERDADEIRO no essencial: o mecanismo existe por norma (Portaria PGFN 33/2018), é aplicado na cobrança com a Serasa citada pelo nome e o próprio governo descreve a dívida como obstáculo ao crédito; a falta de automatismo está na ressalva. Trechos encontrados nas capturas p11. Mudança: o resumo trocou a sigla PGFN pelo nome por extenso; o veredito não muda.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A139": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o IMPRECISO: lida ao pé da letra, 'sem mexer no espaço fiscal' é desmentida pelo texto da MP, que cria despesa de até R$ 15 bilhões (FALSO); lida como 'sem furar a regra', é palavra do governo, como no A122 (INSUSTENTAVEL). Fica IMPRECISO: a MP (N1) prende a despesa às dotações e à disponibilidade orçamentária, o que impede ampliar o limite, e ao mesmo tempo prova que o programa ocupa espaço de despesa discricionária. Mas a explicação dava a compensação como fato ('a regra fiscal é cumprida') e o resumo dizia 'compensada', quando a compensação é plano anunciado para o orçamento do ano que vem. Mudanças: resumo e explicação atribuem a compensação ao governo, com a mesma cautela do A122.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A140": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: todas as fontes são de imprensa, e a duração é número. Cai: a afirmação é de data e de indicação, e duas redações independentes (Reuters e Correio da Manhã, 08/10/2024) dão a aprovação por 66 a 5 e o início em janeiro de 2025; de janeiro de 2025 a 15/10/2026 são um ano e nove meses. O Poder360 de 15/10 confirma Galípolo no cargo na data da fala. Trechos encontrados nas capturas p11.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "A141": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'significativa' é juízo (§4.2), e houve cinco cortes. Fica: a parte factual é conferível na série 432 do Banco Central (12,25% na posse, pico de 15%, 13,75% em 15/10/2026), e a taxa na data da fala estava acima da de partida; não há leitura dos dados em que a redução sob Galípolo seja grande, já que o saldo é de alta. Confiança média pelo juízo embutido, como a checagem diz. Trechos encontrados nas capturas p11.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "A142": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a palavra 'esgotado' não aparece em registro nenhum, e o 'evento recente' citado pela jornalista pode ser outro. Fica VERDADEIRO no essencial: conferido nas capturas que o Seu Dinheiro e a CNN registram a conferência do Santander de segunda-feira, 17 de agosto de 2026, com Galípolo dizendo que não existe crescimento sustentável movido apenas por consumo e que o BC não conduz os juros para colaborar com crescimento puxado por consumo; é a ideia que a pergunta atribui a ele. A ressalva já diz que 'esgotado' e a ligação com corte de gastos não foram achados. Confiança média adequada.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A143": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: pela data de registro (6 de outubro) Lula já teria 81 anos na data da fala. Cai: a biografia oficial do Planalto dá 27 de outubro de 1945, e a cobertura do aniversário de 80 anos em 27/10/2025 confirma; a data de registro diferente está na ressalva e na divergência entre fontes. Fato sobre a própria idade, conferível em registro. Trechos encontrados nas capturas p03 e p11. · Coerência entre lotes: Par A030, que foi alinhado a este.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A144": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 12 contra 13 é desvio de 7,7%, abaixo da régua de 10% do §2.2, então seria VERDADEIRO com ressalva. Cai porque posição de ranking é contagem, e contagem errada por uma casa já foi tratada como IMPRECISO no projeto (A017 da sabatina de 27/ago, três trocas contra quatro); e em 2003, o ano da posse dito na frase, a posição é 14ª (desvio de 14%). Recontei nas capturas brutas do FMI (NGDPD) e do Banco Mundial, tirando os agregados regionais: 12 países à frente em 2002 e 13 em 2003 (entra a Holanda); em PPC, 10º nos dois anos. Frase e contexto conferem na transcrição (2145,5 a 2151,8 s). Todos os trechos estão nas capturas p12. Mesma régua usada para a entrevistadora (A154, A166). · Coerência entre lotes: Par A151 e A152 (posição no ranking repetida). O ano de referência é o último fechado na data citada: 2002 para a posse de 2003 (A144 mostra também 2003), 2022 para a de 2023, 2010 para a saída. Nenhum dá 12ª; os dois IMPRECISO ficam.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A145": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o IMPRECISO: 'devia 30 bilhões' pode se referir ao acordo de 2002, que de fato era de uns US$ 30 bilhões, e então seria VERDADEIRO. Cai porque a frase é sobre a posse ('quando eu assumi'), e a posição do FMI em 31/12/2002 dá saldo de 15.319,64 milhões de DES (cerca de US$ 20 bilhões), com só 4.564,22 sacados do acordo; número certo, período errado. Veredito mantido. Alterado o resumo: punha '15,3 bilhões de DES' ao lado de 'US$ 30 bi', e lido em cinco segundos o espectador compara moedas diferentes; passou para 'cerca de US$ 20 bi', derivação já declarada. Entrou como fonte primária a posição do FMI em 30/11/2003 (23.358,59 milhões de DES, 17.199,64 sacados), capturada na revisão, porque o saldo de 2003 só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A149 (os 30 bilhões do FMI, ditos duas vezes). A145 mede a dívida na posse (cerca de US$ 20 bi) e diz que os 30 bi vieram em 2003 com saques do próprio governo; A149 mede o que foi quitado e aceita o pico. São afirmações diferentes, e as duas explicações citam uma à outra. Sem contradição na tela.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A146": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o FALSO: 'não estava crescendo' é força de expressão para crescimento fraco, e caberia IMPRECISO; ou o dado de 2002 conhecido na época era menor que o revisado. Cai porque a série vigente na data da fala (SGS 7326, Banco Mundial e FMI, três fontes concordando) dá +3,05% em 2002 e +1,14% em 2003, positivos nos dois anos possíveis, e 3,05% é a maior taxa entre 2001 e 2003; o §5 manda usar o dado vigente na data da fala. É a mesma régua da sabatina de 27/ago, em que 'crescendo 1%' contra 3,0% em 2022 foi FALSO (A012). Frase conferida na transcrição (2152,4 a 2155,1 s), no contexto da posse; trechos encontrados nas capturas p12.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A147": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: pela revisão de dados ou por outra medida a posição de 2010 seria outra, ou 'quando eu deixei' poderia ser 2011, quando o Brasil foi o 6º. Cai porque Lula saiu em 1º/01/2011, o último ano inteiro é 2010, e recontei nas capturas brutas: FMI e Banco Mundial dão 6 países à frente (EUA, China, Japão, Alemanha, França, Reino Unido) e a Itália logo atrás; em PPC também 7º. Duas fontes N2 independentes, edição do WEO de outubro de 2026 conferida nos metadados. Trechos encontrados. · Coerência entre lotes: Par A006, que foi alinhado a este.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A148": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'fizemos uma reserva de 270 bilhões' pode significar o estoque final, e 270 contra 288,6 é desvio que, medido na base errada, chega perto de 7%. Fica de pé: na base do §2.2 (sobre o apurado) o dito fica 6,4% abaixo do estoque de dez/2010 e 7,7% acima do acréscimo desde dez/2002, menos de 10% nas duas leituras, e a ressalva mostra o apurado, como o validador exige. SGS 3546 e Banco Mundial conferidos nas capturas, mesmo valor. Alterado só o texto da explicação, que escrevia os dois desvios como 6% e 7% em bases diferentes. Ver correcoes-r6.md. · Coerência entre lotes: Par A154 e A046: desvio menor que 10% pelas duas leituras e pelas duas bases.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A149": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: a dívida quitada chegou a US$ 33,7 bilhões, 11% acima dos 30 ditos, e pela régua aplicada a A154 isso seria IMPRECISO. Cai porque não há um número único para 'a dívida paga': o pico de 33,7 é saldo em dólar a câmbio de 2003, os pagamentos de 2005 somam 23,3, e a posição primária do FMI em 30/11/2003, capturada na revisão, dá 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela mesma equivalência que a carta de intenção de 2002 usa, com o acordo 'de 30 bilhões' em grande parte sacado (17.199,64 de 22.821,12). A quitação em dezembro de 2005 confere no Relatório de Inflação do BC (N1). Alterado: entrou essa fonte N2 com a derivação declarada, porque o pico só tinha a reportagem de 2005. Ver correcoes-r6.md. · Coerência entre lotes: Par A145: ver nota de A145.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A150": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: o compromisso brasileiro com o FMI pode ter crescido depois, nos Novos Acordos de Empréstimo (NAB), e 15 poderia ser esse valor. Não derruba: nenhuma captura traz esse compromisso (e memória do modelo é N5), e mesmo um valor na casa de 13 ou 14 bilhões deixaria os 15 ditos 7% a 15% acima, sem mudar o veredito de forma confiável; o que as fontes N2 do FMI e a Reuters dão é o acordo de até US$ 10 bilhões, 50% abaixo do dito. A essência (o Brasil emprestou ao FMI depois da crise) confere, e a ressalva diz que é teto, não desembolso. Trechos conferidos nas capturas p12.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A151": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 12 contra 11 é 8,3%, abaixo da régua; e no ano da volta, 2023, o Brasil foi o 9º, o que tornaria a frase ainda mais errada, mas em sentido contrário. Cai porque ranking é contagem (mesma régua de A144 e do A017 de 27/ago) e o ano de referência é o anterior à posse, como em A144 (coerência dentro do lote). Recontei nas capturas brutas: 10 países à frente em 2022 no FMI e no Banco Mundial, a Coreia logo atrás. A explicação diz que o erro faz o ponto de partida parecer mais baixo; isso descreve o efeito do número, não intenção. Sem travessão. · Coerência entre lotes: Par A144: ver nota de A144.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A152": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'hoje' é o último ano fechado, 2025, em que o Brasil foi o 11º no FMI e no Banco Mundial, e então seria IMPRECISO, com a mesma régua de A151. Fica de pé porque, em outubro, a estimativa do ano corrente do WEO de outubro de 2026 (publicado em 08/10, antes da fala, conferido nos metadados) é a medida usual de 'hoje', dá 10º (Brasil 2.654,761 contra Canadá 2.490,256, recontado na captura bruta), e o card mostra na ressalva que é projeção e que 2025 deu 11º. Confiança média adequada. · Coerência entre lotes: Par A144 e A151. 'Hoje' usa a estimativa do ano corrente do FMI (10ª) e a ressalva traz o último ano fechado (11ª). O critério de usar o dado que valia na data se mantém.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A153": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: as quatro fontes são N4 do mesmo veículo (Poder360), a carta original, publicada na Folha, não foi capturada, e 'muitos' e 'reclamam' (no presente) não têm lastro além de uma carta de três economistas em 2022. Fica de pé contra o VERDADEIRO: a METODOLOGIA §3.1 regra 2 só aceita N3/N4 com a primária conferida, e neste caso a mesma falta levou a INSUSTENTAVEL provisório falas do candidato (A016) e outro número da entrevistadora (A126, revisão r5). Passou a INSUSTENTAVEL provisório, confiança baixa, com resumo que diz o que faltou; não é FALSO porque nada contradiz a pergunta. Conferido: a frase bate com a transcrição (2188,5 a 2204,6 s) e todos os trechos estão nas capturas p12. Para voltar a VERDADEIRO falta a carta e uma segunda redação. Ver correcoes-r6.md. · Coerência entre lotes: Par A155 e A104 (atribuição de posição a terceiros). A153 tem uma só redação (Poder360) e a carta original não capturada; A155 tem duas instituições N2 que sustentam a substância, com o quantificador na ressalva; A104 tem duas redações distintas (A Crítica e Finsiders) e confiança baixa. Tratamentos diferentes por fonte diferente, não por lado da mesa.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A154": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: os 10 pontos ditos ficam 1,19 abaixo da alta de 11,19 (71,68% em dez/2022 para 82,87% em ago/2026, SGS 13762, dado de agosto publicado em 30/09, antes da fala), desvio de 10,6% sobre o apurado, acima da régua de 10% do §2.2. O argumento de que o erro é para menos e não muda a leitura não segura: a régua não distingue o sentido, e foi o critério aplicado a Flávio Bolsonaro (A007 de 28/ago, 14% para menos, IMPRECISO), à mesma entrevistadora em A166 e às posições do candidato em A144 e A151. Passou a IMPRECISO, com ressalva que diz que a diferença é para menos e derivação do desvio declarada. Trechos do BC, do Poder360 e do FMI conferidos nas capturas p12. Ver correcoes-r6.md. · Coerência entre lotes: Par A046 e A148: desvio de 10,6% sobre o apurado, base comum do caso; pela base do dito seria 11,9%. IMPRECISO pelas duas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A155": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: 'boa parte dos economistas' é afirmação sobre opinião de muitos, e as fontes são duas instituições, sem pesquisa de opinião; a IFI não usa a palavra 'insustentável'. Não derruba o VERDADEIRO provisório: a IFI do Senado e o FMI são N2 independentes, e as duas descrevem uma dívida sem estabilização (a IFI diz que o resultado fica 'muito distante' do que estabiliza a relação dívida/PIB; o FMI projeta alta todo ano até 2029), que é o sentido técnico de trajetória insustentável. A diferença com A153 é que aqui há fonte N2 primária. A ressalva diz o termo usado e a falta de levantamento. Antes de ir à tela, pede o Prisma Fiscal ou outra pesquisa com economistas. Trechos conferidos (IFI nas capturas p10 e p12). · Coerência entre lotes: Par A153: ver nota de A153.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A156": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL provisório: a fonte oficial que a própria checagem citava diz o número. Conferido na captura (p12/06c2b86c5a3b, biografia do Planalto): 'Marisa Letícia Lula da Silva, mãe de quatro dos seus cinco filhos'. A explicação dizia que a biografia não falava dos filhos; estava errado. Passou a VERDADEIRO, confiança média (só a N1 dá o total; as duas reportagens do Poder360 nomeiam Lurian, a mais velha, e Marcos Cláudio, filho com Marisa, coerentes com a biografia). Argumento contra o VERDADEIRO, que não derruba: 'criei' pode não valer para todos os filhos; a frase checável é o número, e ele confere. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A157": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: 'a maior política de crédito' é juízo de valor e deveria sair da extração, ou ser NAO_CHECAVEL. Não derruba: 'maior' é comparação mensurável (volume, tomadores ou subsídio, como a própria alegação lista), e o §2 diz que NAO_CHECAVEL não serve para falta de dado. As duas fontes N1 (Lei 14.690 e MP 1.292, trechos conferidos na captura p13) mostram que existe política de crédito e não dizem o tamanho; o resumo diz o que faltou, sem sugerir desmentido. Bem posto como provisório.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A158": {
+    "decisao": "alterado",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra o INSUSTENTAVEL: briga privada entre presidente e auxiliares não teria registro, e seria NAO_CHECAVEL. Não derruba: é fato passado, e o §2 diz que fato passado nunca é NAO_CHECAVEL; entrevistas e memórias podem registrar. O veredito provisório fica. Alterado o resumo: 'não brigas de Lula com os dois', lido sozinho, soa como desmentido, e o verbete do CPDOC só não registra as brigas. Passou a 'Nenhuma fonte achada registra brigas de Lula com Mantega e Meirelles; o CPDOC registra divergência entre os dois'. Trechos dos dois verbetes conferidos na captura p13. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A159": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: em 2014 o presidente era Dilma Rousseff, e o §2.2 manda IMPRECISO quando se atribui a um governo o que aconteceu em outro; além disso as três fontes eram N4 sem a primária da FAO, o que fere a regra 2 da §3.1. A revisão capturou a primária (FAO, The State of Food Insecurity in the World 2014): a subalimentação do Brasil caiu de 10,7% em 2000-02 para abaixo de 5% em 2004-06, com o Fome Zero lançado em 2003, no primeiro mandato de Lula. Isso derruba o argumento do período e resolve a falta de primária; o VERDADEIRO fica. Entraram como fontes a FAO (N2) e a biografia do Planalto (N1, Dilma no cargo desde 2011 e reeleita em 2014), e a explicação deixou de dizer que as capturas não informavam quem governava em 2014. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A160": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o dado oficial do IBGE (PNAD Contínua) pode dar número de pessoas em insegurança alimentar grave bem menor que 33 milhões, e o inquérito da Rede PENSSAN é de entidade da sociedade civil. Não derruba: a frase é sobre quando ele voltou, em janeiro de 2023, a PNAD não foi capturada, e uma medição feita já no governo não descreve a volta; na data da volta, o número disponível era o da PENSSAN (coleta de nov/2021 a abr/2022), que confere com 33,1 milhões. A FES publicou a divulgação do próprio inquérito, e Poder360 e Idec confirmam. A ressalva diz que não é IBGE e o período. A transcrição registra 'passando por uma', e o sentido de fome vem da frase anterior (conferido em 2300,9 a 2306,8 s). Recomenda capturar a PNAD antes de ir à tela, mas o veredito está bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7"
+    ]
+  },
+  "A161": {
+    "decisao": "alterado",
+    "nota": "Veredito provisório (busca interrompida). Ao reler o trecho do Imirante na captura (p13/1aa6060817c3), a frase 'O plano de governo não apresenta mudanças no cálculo [...] do salário mínimo' é a última da seção sobre o plano de Lula, logo antes do cabeçalho 'Flávio Bolsonaro'; a checagem a atribuiu ao plano de Flávio, e o resumo repetia isso. Corrigidos resumo, trecho e explicação. Melhor argumento contra o INSUSTENTAVEL, agora: Flávio disse em 8/10 que manterá reajustes de aposentadoria acima da inflação, o que contradiria a fala e daria FALSO. Não derruba: a declaração é sobre aposentadorias, não sobre o mínimo do trabalhador da ativa, e na Globo ele não esclareceu se mantém a regra; também não há anúncio do que Lula atribui a ele. O veredito fica. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A162": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'no meu caso, tem' é promessa de campanha, NAO_CHECAVEL; ou o arcabouço fiscal limitou o ganho real e a frase esconderia isso. Não derruba: no contexto (2349,7 a 2355,5 s) a frase contrasta a regra dele com o anúncio que atribui ao adversário, e a regra vigente, a Lei 14.663 (N1, trecho conferido), soma inflação e crescimento do PIB; o limite do arcabouço reduz o ganho real, não o zera, e a checagem declara que ele não foi conferido. A ressalva mostra a exceção do PIB negativo. O INPC do resumo está no §1 da mesma lei capturada, fora do trecho; não muda o card.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "7"
+    ]
+  },
+  "A163": {
+    "decisao": "alterado",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: o dado da PIA (energia elétrica 1,05% dos custos e despesas, matérias-primas 46%, conta refeita sobre os valores da captura) contradiz 'principal insumo', e caberia FALSO já. Não derruba agora: as duas tabelas são da mesma pesquisa (uma fonte, pela regra 3 da §3.1), e 'principal insumo' tem uma leitura que não é peso no custo (insumo de que toda a indústria depende), o que a ressalva registra. INSUSTENTAVEL provisório, com o dado contra no resumo, é o que a árvore do §2.1 dá com uma fonte. Mesma régua aplicada ao candidato quando só uma fonte foi achada. · Coerência entre lotes: Par A037 a A039 e A178 (provisórias com uma base oficial só). Os cards do candidato dizem 'sem segunda fonte'; o da entrevistadora não dizia, e o dado do IBGE aponta contra a frase. Resumo ganhou 'sem segunda fonte'. Veredito provisório mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A164": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'das mais limpas do mundo' é posição em ranking, e as fontes só comparam o Brasil com a média mundial. A revisão capturou a série do Banco Mundial de renováveis no consumo final para todos os países em 2020 (rev/1cb187103807): o Brasil, com 50%, fica em 50º de 213 países, no quarto mais limpo, em 1º entre os países do G20 (a Índia, 2ª, fica em 71º), e atrás sobretudo de países que dependem de lenha. Isso sustenta 'das mais limpas'; não derruba o VERDADEIRO. Trechos da EPE (N1) e do Banco Mundial (N2) conferidos. A ressalva ainda diz que a posição não foi apurada; a medição da revisão pode entrar no card se o autor quiser.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A165": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: 'custo baixo' é juízo, NAO_CHECAVEL. Não derruba: é comparação com custo de outros países, mensurável por leilões ou custo nivelado, e a alegação diz isso; o §2 não aceita NAO_CHECAVEL por falta de dado. As duas fontes N1 (EPE e ANEEL, trechos conferidos na captura p13) não comparam o custo brasileiro, e o resumo diz exatamente o que faltou, sem sugerir desmentido. Bem posto como provisório.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A166": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: 'a tarifa' pode ser o reajuste homologado pela ANEEL, que pode ter subido o dobro; ou 'o dobro' é força de expressão para 'bem acima'. Não derruba: 'só este ano' casa com o acumulado do ano, e o IPCA de setembro (publicado antes da fala) dá 6,50% contra 3,95%, 1,6 vez; o dobro seria 7,90%, 21% acima do apurado, além da régua. O IPCA-15 dá a mesma leitura. A ressalva traz o recorte de 12 meses, em que a luz subiu menos que o índice, o que deixa o card honesto nos dois sentidos. Mesma régua aplicada a A154 e aos números do candidato.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A167": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: a regra nova zerou o desconto acima de 80 kWh, e quem consome mais teria perdido, o que tornaria 'ampliou' só parcialmente certo. Conferido na Lei 12.212 compilada (captura p13): a regra antiga tinha três faixas (65% até 30, 40% de 31 a 100, 10% de 101 a 220 kWh), e o desconto máximo equivalia a 59,5 kWh gratuitos, contra 80 na nova; ninguém perde desconto total. O VERDADEIRO fica. Alterada a ressalva, que lida sozinha sugeria perda, com a terceira faixa no trecho e a conta declarada em derivação. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A168": {
+    "decisao": "alterado",
+    "nota": "O terceiro trecho (Lei 15.235) era o parágrafo sobre famílias indígenas e quilombolas, e a explicação o lia como custeio do desconto geral: o trecho não provava a coluna 'prova'. Substituído pelo art. 11-A que a mesma lei acrescentou à Lei 12.111, conferido na captura: o custo de Angra 1 e 2 é rateado entre todos, exceto a baixa renda, o que sustenta o resumo ('a lei passa custos a quem está fora da baixa renda'), que antes só tinha a MP. Melhor argumento contra o VERDADEIRO: em 12 meses a luz subiu menos que a inflação, e 'parcela grande' não foi medida. Não derruba: a frase diz 'pagando mais', e em valor nominal a conta subiu no ano e em 12 meses; a ressalva e a confiança média declaram o que falta. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A169": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: com a Eletrobras desestatizada e a distribuição quase toda concedida a empresas privadas, 'a grande parte é privada' seria VERDADEIRO por conhecimento comum. Não derruba: nenhum trecho capturado dá a fatia privada de geração, transmissão ou distribuição, e memória do modelo é N5; a Lei 14.182 (N1, trecho conferido) prova só a desestatização da Eletrobras. INSUSTENTAVEL provisório com o resumo dizendo o que faltou é o que a árvore dá. Pede os dados abertos da ANEEL antes de ir à tela.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A170": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fala diz 'fizeram o favor de privatizar a Eletrobras a troco de banana', e o 'a troco de banana' é juízo de preço que o card poderia parecer endossar. Cai: a afirmação extraída é só o fato (privatização antes do atual governo), e a explicação separa o juízo. Conferidos na transcrição o contexto (resposta sobre conta de luz) e, nas capturas p14, os quatro trechos: Lei 14.182 de 12/07/2021 (N1), Mais Retorno de 10/06/2022 com 72% para 40,3%, Folha de Pernambuco com a capitalização concluída no governo Bolsonaro, Poder360 com 51,82%. Duas fontes independentes da lei confirmam junho de 2022. A divergência 72% contra 51,82% é de recorte (com BNDES contra ações ordinárias diretas) e está declarada. Resumo e ressalva têm lastro, sem travessão nem intenção.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A171": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase está no meio de uma fala sobre energia, e a isenção da Lei 15.235 joga o custo sobre os demais consumidores, não sobre os ricos; ler o imposto mínimo de renda seria trocar o assunto para salvar o veredito. Fica de pé com confiança média: a frase é ambígua ('os ricos pagam um pouco mais como nós fizemos agora'), a alegação já registrava as duas leituras no o_que_conferir antes da checagem, e nas duas há mudança recente pela qual quem tem mais paga mais (Lei 15.270, tributação mínima de altas rendas; Lei 15.269, encargo da CDE dividido com o mercado livre, de grandes consumidores, segundo o Cenário Energia). A ressalva já diz que, na conta de luz, o custo da isenção vai para os demais consumidores. Procurei na captura da Lei 15.269 o texto da divisão da CDE para ter N1 nessa leitura e não achei um trecho que a diga com clareza; fica como está, apoiada no N4. Os quatro trechos estão nas capturas p13 a p15.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A172": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o veredito: 'o pobre comprava do Estado' está errado (quem vende no regulado é a distribuidora, quase toda privada, e o próprio candidato diz antes que a energia é privada), e 'mais barato' só tem estimativa de mercado. Cai como ornamento, pela regra do §2.2 (certo no fato, errado no detalhe, vai na ressalva, que já diz isso): a comparação central, pequeno consumidor preso ao regulado e grande consumidor no livre, está na Lei 15.269 (N1, precisa reduzir os limites para alcançar quem está abaixo de 2,3 kV) e em duas reportagens independentes. O que caiu foi o resumo: 'até a reforma de 2025, residências não podiam' dava a entender que hoje podem, e na data da fala ainda não podiam (prazo de até 36 meses, como a A173 registra). Resumo reescrito; veredito VERDADEIRO mantido. Detalhe em correcoes-r7.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A173": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'nós agora estamos permitindo que todo e qualquer cidadão possa ir para o mercado livre' afirma no presente uma permissão que, na data da fala, não valia para residências (prazo até novembro de 2028 e decreto ainda pendente em agosto de 2026); pela régua de período errado, seria IMPRECISO. Fica de pé por pouco: o gerúndio 'estamos permitindo' descreve um processo em curso que o governo aprovou e sancionou (Lei 15.269, de 24/11/2025), e a linha 'número certo, período errado' do §2.2 é para atribuir a um governo o que aconteceu em outro, o que não é o caso. O card não esconde o prazo: o resumo já diz que residências entram até novembro de 2028 e a ressalva diz que na data da fala a abertura ainda não valia. Conferidos os quatro trechos na captura p14 (lei, TAGD, Cenário Energia de fevereiro e de agosto). A divergência novembro contra dezembro de 2027 para indústria e comércio não toca a fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A174": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: é a pergunta da jornalista, e afirmação de que a espera é 'a principal queixa' poderia ser tratada como enquadramento de pergunta, não fato (NAO_CHECAVEL). Cai: é um ranking, e ranking se confere com pesquisa de opinião, então o §4.1 manda checar, com a mesma régua que vale para o candidato. Procurei nas capturas do caso alguma pesquisa com lista de queixas: só há o Datafolha de março de 2026 (captura p04), que põe a saúde como a área federal mais problemática (21%) e não fala de fila nem de espera, então não decide o primeiro lugar. As três fontes capturadas (Ministério da Saúde, Futuro da Saúde, Outras Palavras, trechos encontrados na p14 e p15) sustentam que a espera é problema central, não que é a principal queixa. Nada contradiz o ranking, então não é FALSO; a busca foi interrompida, o que a explicação declara. Resumo ('nenhuma pesquisa achada') descreve o que a busca sustenta.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A175": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o veredito: a alta das cirurgias começou antes do programa e o TCU atribui boa parte dela à recuperação pós-pandemia, então dizer que o programa ampliou o atendimento seria creditar a ele o que veio de antes. Cai: a pergunta só diz que o programa ampliou o atendimento, não quanto; o Ministério da Saúde (N1) conta mais de 1 milhão de procedimentos nas carretas e aumento onde os especialistas chegaram, e duas leituras independentes da auditoria do TCU registram impacto positivo na produção cirúrgica. Veredito VERDADEIRO mantido. Alterado o número do card: usava os 14,7 milhões da divulgação de fevereiro, quando o balanço mais recente antes da fala é 14,9 milhões (42% sobre 2022, Diário do Pará), o mesmo que a A188 deste caso mostra; e o trecho da TVT diz 'até julho', não 'primeiro semestre'. Todos os trechos conferidos na p14. Detalhe em correcoes-r7.md. · Coerência entre lotes: Par A184 (a mesma afirmação repetida pela entrevistadora) e A176, A185, A189: vereditos e números compatíveis (14,9 milhões; TCU com baixa efetividade e mediana menor na maioria das cirurgias).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A176": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o Acórdão 1622/2026 do TCU, capturado no caso (p15), tem na ementa 'baixa efetividade na redução do tempo de espera', o que confirmaria a jornalista e faria o card VERDADEIRO, coerente com a A185. Não derruba: o corpo do mesmo relatório diz que a mediana caiu em 18 de 29 procedimentos de maior volume e que a maioria dos usuários está sendo atendida mais rapidamente, enquanto um quarto espera mais; 'significativamente' não tem régua, a base cobre pouco das cirurgias e não há série nacional (e-SUS Regulação com 448 centrais ativas em julho de 2026). A A185 é atribuição ao TCU, que o documento confirma; esta é afirmação sobre a espera em si, que o dado não decide. Veredito mantido. Alterados: a fonte primária do TCU entrou como N1 (antes o achado chegava só pela leitura do Futuro da Saúde), e resumo, explicação e divergência passaram a trazer os dois lados do acórdão, porque o card antigo só mostrava o lado que contraria a pergunta. Detalhe em correcoes-r7.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A177": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'quem estuda a saúde pública vê' generaliza para a área inteira uma leitura que as fontes mostram em dois sanitaristas ouvidos pela imprensa, e a palavra 'paliativo' não aparece. Fica de pé: é atribuição a terceiro, que o §4.1 manda checar, e o sentido atribuído (programa correto e necessário, sem resolver o problema estrutural) aparece em duas publicações independentes: Vecina (Futuro da Saúde) e Tulio Franco (Outras Palavras), além da avaliação do Futuro da Saúde de que as iniciativas não focam na solução estrutural. Trechos encontrados nas capturas p14 e p15, inclusive os pedaços separados por [...]. A ressalva já diz que não é levantamento e que 'paliativo' não aparece; a confiança média está bem posta.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A178": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: a exposição de motivos da MP 1.165 (N1) dá o auge em 18.240 médicos em 2015, e '20 e poucos mil' passa de 10% acima, então seria IMPRECISO. Procurei nas capturas uma segunda fonte: a única outra com 18.240 é um artigo de 2019 do Carta Campinas (captura p14), texto de opinião que entra como N5 e não conta; o parecer da comissão mista repete a exposição de motivos e conta como a mesma fonte. Além disso, a A179 mostra que o próprio governo usa duas bases de contagem (8.613 contra 12.843 no começo de 2023), e não se sabe em qual base a fala está. Com uma fonte só e base incerta, INSUSTENTAVEL fica. Trechos conferidos na captura r2. A explicação declara a busca interrompida e o que mudaria o veredito. · Coerência entre lotes: Par A163: mesma régua de fonte única.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A179": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra, para os dois lados: a fonte primária (exposição de motivos da MP 1.165, março de 2023) dá 8.613 no Mais Médicos, e a regra 'a primária ganha' faria o card IMPRECISO; ou, ao contrário, o comunicado do Ministério de 2024 dá 12.843 em dezembro de 2022, o que faria o 'apenas 12 mil' VERDADEIRO. Nenhum dos dois derruba: as duas são do mesmo Ministério, uma mede só o programa e a outra não diz o recorte, e as duas reproduções do comunicado (Medicina S/A e O Imparcial) contam como uma fonte. A conta 24.894 menos 12.051 igual a 12.843 confere e está em derivacoes. Trechos encontrados nas capturas p14 e r2. Divergência escrita, sem escolher lado, como deve ser.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A180": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: 12 mil mais 16 mil dá os 28 mil da fala e da meta, e o saldo de 12.051 em junho de 2024 seria 25% abaixo de 16 mil, então o card poderia ser IMPRECISO. Não derruba: o saldo é de médicos em atividade, não de contratações, o dado é de mais de dois anos antes da fala e a regra é usar o dado da data da fala (§5, anacronismo), que não foi achado. Veredito mantido. Alterado: o card dizia que o último dado achado era de junho de 2024, mas a reportagem do Mais Goiás (Agência Brasil), já capturada e citada, é de 22/05/2025 (cerca de 24,9 mil atuando); e a meta de 28 mil estava na explicação sem trecho. Resumo, explicação, data e o trecho dessa fonte corrigidos, todos conferidos na captura p14. Detalhe em correcoes-r7.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A181": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fala diz 'estamos criando mais especialistas', o que soa como formação (residência), e as fontes falam de provimento e aprimoramento de quem já é especialista. Cai: a afirmação extraída já cobre formação ou provimento, a ressalva diz que residência não foi conferida, e o provimento está documentado em três páginas do Ministério da Saúde (N1: cerca de 2 mil especialistas e 1.480 em atividade em agosto de 2026, edital de 1.136 vagas em julho, meta de 2000 vagas) e na reprodução do Viva (570 novos especialistas). Trechos encontrados na p14 e p15. A segunda parte da frase ('para que todas as pessoas tenham direito ao segundo médico') é objetivo e ficou de fora, como deve.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A182": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: 'precisamos fazer o Brasil Sorridente voltar a funcionar' é dito no tom de plano, e plano é NAO_CHECAVEL. Cai: a frase vem logo depois de 'eu cheguei no governo' e pressupõe que o programa tinha parado ou encolhido, o que é fato sobre o passado e tem registro (orçamento e número de equipes ano a ano). Também testei a mesma régua da A183: lá há fonte de que o programa funcionava e de corte proposto; aqui as fontes capturadas (página do programa, Lei 14.572 de 2023, 34,5 mil equipes em julho de 2026, todas encontradas na p14) não trazem a série de antes de 2023, então não dá para dizer nem IMPRECISO nem VERDADEIRO. A diferença de veredito entre as duas vem da diferença de prova, não de régua.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A183": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o IMPRECISO: as três fontes eram comunicados do próprio Ministério da Saúde, como a explicação admitia; sem duas fontes independentes, a árvore do §2.1 e a regra 3 da §3.1 levariam o card para INSUSTENTAVEL. Procurei nas capturas do caso e achei duas fontes independentes já capturadas na rodada p01: Aos Fatos (N3), com o corte de 59% nos recursos do programa na proposta de orçamento de 2023, e Rádio Senado (relator do orçamento em 30/11/2022: sem a PEC da Transição o Farmácia Popular corria risco de parar). Elas sustentam exatamente a essência que o IMPRECISO afirma: o programa funcionava, mas estava enfraquecido e sob risco; não tinha deixado de funcionar. Com isso o veredito fica de pé, agora com lastro. Alterados: fontes, resumo (passa a mostrar o corte proposto para o ano da posse), ressalva, data e explicação. Trechos novos conferidos na p01. Detalhe em correcoes-r7.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A184": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: o programa de que a jornalista fala, o Mais Acesso a Especialistas, era o componente ambulatorial, e o TCU diz que ele executou só 6,9% das ofertas de cuidado integrado planejadas em 2025; a alta das cirurgias seria de outro componente. Cai: o programa foi incorporado ao Agora Tem Especialistas em 2025 (TCU, N1), a pergunta trata do programa como um todo, e 6,9% do planejado ainda é atendimento a mais; o TCU conclui que o financiamento ajudou a aumentar as cirurgias e a Folhapress lê a mesma auditoria como ampliação da oferta. Conferi no texto do acórdão (p15) que os 6,9% são das ofertas de cuidado integrado de janeiro a novembro de 2025, o que a ressalva diz. Veredito mantido. Alterado o resumo: 'em parte pela volta pós-pandemia' encolhia o 'boa parte' do TCU e misturava a ajuda do programa com a recuperação. Detalhe em correcoes-r7.md. · Coerência entre lotes: Par A175: mesmo veredito, ressalvas compatíveis.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A185": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o TCU não diz que o programa 'não conseguiu resolver' a espera; diz que a mediana caiu na maioria das cirurgias, e o card verde poderia dar a impressão de que nada melhorou. Cai: a afirmação é a atribuição da jornalista ao TCU, e a ementa do Acórdão 1622/2026 traz 'baixa efetividade na redução do tempo de espera' (conferido no texto da captura p15, junto com número, processo e data na página da Secom); duas leituras independentes da auditoria (Folhapress e Futuro da Saúde) dizem o mesmo. A ressalva traz o outro lado com o número (um quarto dos pacientes), então o card não exagera. A A176, sobre a espera em si, segue INSUSTENTAVEL: são afirmações diferentes, e a régua é a mesma.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A186": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'estão pagando' afirma que hospitais já quitam dívida com atendimento, e não foi capturado balanço de crédito usado até a data da fala; sem isso seria INSUSTENTAVEL. Fica de pé: a afirmação extraída é que o governo fez o acordo, e a lei em vigor (Lei 15.233, N1) cria exatamente a troca de atendimento ao SUS por crédito contra tributo federal, com adesão efetiva de 96 hospitais no primeiro mês (Ministério da Saúde via Futuro da Saúde) e leitura independente do Estadão. 'Convênio' por 'adesão' é ornamento. A ressalva já diz que não há balanço do que foi prestado. Veredito mantido. Alterado só o trecho da lei: a explicação cita 'a partir de 2026' e o teto de R$ 2 bilhões, que não estavam em trecho; o § 1º e o § 2º do art. 4º entraram, conferidos na captura p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A187": {
+    "decisao": "alterado",
+    "nota": "Veredito provisório bem posto, com o resumo corrigido. Melhor argumento contra o INSUSTENTAVEL: o ministro da Saúde disse que o foco não é atingir todas as instituições e a lei prevê adesão individual, o que contradiz 'convênio com todas as Santas Casas' e faria o card FALSO. Não derruba: a fala diz 'estamos fazendo', e nada nas fontes exclui uma negociação com a CMB, que não pôde ser procurada a fundo; contradição direta exigiria registro de que não há acordo. INSUSTENTAVEL mantido. Alterado o resumo: 'não há registro de convênio' afirma uma ausência que a busca interrompida não prova; passou a 'não foi achado convênio', como nos outros cards provisórios do caso. Os quatro trechos conferidos na captura p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A188": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o número oficial de 14,9 milhões só chega por reportagem (Jornal do Brasil), e a fonte N1 capturada, a base do TCU, soma 14,58 milhões incluindo cirurgias de caráter agudo, então nem é contagem de eletivas. Fica de pé: contra 14,9 milhões a fala fica 0,7% acima e contra 14,58 milhões 2,9% acima; nas duas bases o desvio é arredondamento sem mudar a ordem de grandeza, VERDADEIRO com ressalva pelo §2.2, e a regra 2 da §3.1 aceita a reportagem porque a primária (base do TCU) foi conferida. A conta 5.677.639 mais 8.902.534 confere e está em derivacoes. Trechos encontrados nas capturas p14 e p15. A frase seguinte ('vamos fazer 16 milhões') é previsão e ficou de fora, como deve.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A189": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o TCU acha medianas de 695 a 725 dias em 2025 e diz que um quarto dos usuários espera cada vez mais, então algumas pessoas esperavam, sim, dois a três anos, e o card poderia ser VERDADEIRO. Não derruba: a frase está no passado ('esperavam') e descreve a espera da fila como de dois a três anos; o dado do TCU é de 2023 a 2025, cobre só 10,4% das cirurgias do rol, mostra esse patamar só nos procedimentos de pouco volume e mais raros (o TCU usa essas palavras) e, nos 29 de maior volume, nenhuma mediana acima de 180 dias. Não há medida que sustente nem que desminta a espera típica de antes. Trechos conferidos na captura p15. Resumo e ressalva têm lastro.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A190": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: a fala diz 'paralisadas', e as contas oficiais juntam paralisadas e inacabadas; só paralisadas, na educação, eram 875, e o número da saúde (cerca de 5 mil) tem uma fonte só. Com outra definição o total poderia ficar abaixo de 6 mil, então o desvio de 30% dependeria da escolha. Fica de pé: o próprio pacto que o governo criou (Lei 14.719, N1) trata as obras paralisadas e inacabadas como o conjunto a retomar, e é esse o sentido comum de 'obras paradas'; a educação tem duas fontes oficiais (3.540 e 3.599), e a saúde vem do parecer do Congresso citando o Ministério. Nessa base a fala subestima, e a essência (milhares de obras de escola, creche e saúde paradas) confere. O limite está declarado na explicação e na ressalva. As contas 3.599 mais 5 mil e o desvio de 30% conferem e estão em derivacoes. Trechos conferidos nas capturas p15 e r2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A191": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'quem consome até 120 paga apenas uma diferença' descreve uma regra que não existe para as mesmas famílias; os 120 kWh são de outra faixa de renda e isentam só a CDE, então seria IMPRECISO. Cai: a fala não diz que as duas faixas são das mesmas famílias, os dois números (80 e 120 kWh) e os efeitos (não paga até 80, paga menos até 120) estão na Lei 15.235 (N1) e na exposição de motivos da MP 1.300, e a ressalva diz o público e o alcance da isenção com o número. As duas fontes são do mesmo processo legislativo, o que a explicação declara; para a descrição de norma vigente, a própria lei é o registro do fato. Trechos encontrados nas capturas p13 a p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A192": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: a meta oficial é 15,5 milhões de famílias, e famílias são muito mais que 17 milhões de pessoas, então a fala estaria abaixo do número em pessoas e o card poderia ser IMPRECISO; ou, se a fala quis dizer famílias, 17 milhões ficaria 9,7% acima da meta e seria VERDADEIRO. Nenhum dos dois se sustenta: meta não é atendimento, e o atendimento do mês da fala não foi capturado (o painel do ministério não abre por endereço direto e o informe registra o defeso eleitoral até 25 de outubro). Conferidos os quatro trechos (exposição de motivos da MP 1.313, Lei 15.348 e as duas páginas do ministério) nas capturas p15 e r2. O resumo mostra a meta em famílias, e a explicação diz que a fala é em pessoas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A193": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'nós pagamos o gás' vale inteiro só para quem já está na gratuidade; na modalidade em dinheiro, que ainda existe, o governo paga no mínimo metade do preço médio, e não se sabe quantas famílias já migraram. Cai: a afirmação é que, no programa, o governo paga o botijão, e a modalidade de gratuidade custeada pela União está na Lei 15.348 (N1) em vigor na data da fala; a outra modalidade entra na ressalva com o número (50%). As duas fontes são da mesma norma (lei e MP), o que a explicação declara; para descrever norma vigente, a norma é o registro do fato. Trechos encontrados na captura p15.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A027": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a pergunta é leitura de sinais públicos (tarifas e sanções depois da condenação de Jair Bolsonaro, Flávio recebido na Casa Branca, 'grande vitória' depois do 1º turno), e esses sinais existem; o argumento oposto é que nada contradiz, então seria FALSO por ausência. Nenhum dos dois derruba: as fontes registram aceno sem apoio declarado de Trump e um governo americano que 'evita anunciar apoio oficial' (BP Money, 05/10), e 'preferência clara' tem parte de leitura, então não é FALSO. Frase e contexto conferidos na transcrição (369,8 s a 377,6 s, junto com 'duas rodadas de tarifaço'). Os três trechos estão nas capturas p03. Defeito achado: o resumo punha como contraprova a frase de uma fonte anônima da Folha de Pernambuco (Estadão), publicada em 03/06/2026, quatro meses antes da fala, e cortava a parte da mesma fonte que vai na direção da jornalista (entorno de Trump vê Flávio como 'aliado natural'). Resumo reescrito para o fato que as fontes sustentam, trechos ampliados para dar lastro às tarifas e sanções e aos dois lados da fonte anônima, data posta no título. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A028": {
+    "decisao": "mantido",
+    "nota": "Provisório, revisado igual. Contexto conferido: Lula diz que nem em 2006 pediu que ministros fizessem campanha e emenda 'eu chamei os ministros [...] para me dar governabilidade'; a afirmação extraída bate (a transcrição registra 'pedo', a cobertura do Terra registra 'pediu'). É fato sobre conduta passada, checável contra a cobertura de 2006, então não é NAO_CHECAVEL. Os dois trechos estão nas capturas (Planalto em p03, Terra em p05) e só situam a fala e a reeleição; nenhuma página capturada trata de ministros em campanha em 2006. Melhor argumento contra: ministros de Lula fizeram campanha em 2006, o que puxaria para FALSO; cai porque nada disso foi capturado e, mesmo que tenha ocorrido, não prova que foi a pedido dele. INSUSTENTAVEL provisório está bem posto, o resumo diz 'não foi achado' e não afirma ausência. Sem travessão nem intenção.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A029": {
+    "decisao": "alterado",
+    "nota": "Provisório. Melhor argumento contra: a reunião de 14/out com senadores do MDB seria a prova de que Lula procurou partido, o que levaria a FALSO. Cai: a reportagem (Poder360, captura p03) diz que o encontro foi durante a votação da PEC do fim da escala 6 X 1 e não diz o que foi tratado nem se houve pedido de apoio, e as duas fontes são do mesmo veículo. Defeitos achados: a explicação dizia que os senadores eram 'os mesmos que declararam apoio a ele no 2º turno', o que a página não diz; o resumo omitia a votação da PEC, contexto que muda a leitura em cinco segundos; e 'não há registro' afirmava ausência que a busca interrompida não provou. Resumo e explicação reescritos, trecho ampliado com a frase do Alvorada e da PEC (conferido na captura). INSUSTENTAVEL provisório bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A030": {
+    "decisao": "alterado",
+    "nota": "Conferidos os quatro trechos (Planalto, Miller Center, Britannica, AFP) nas capturas p03. Lula nasceu em 27/10/1945 e tinha 80 anos em 15/10/2026; Trump nasceu em 14/06/1946 e tinha 80. Melhor argumento contra: na frase Lula conta o que disse a Trump numa conversa de 2025, quando os dois tinham 79 anos, e o o_que_conferir pedia a idade na data da conversa também. Cai: a afirmação extraída é 'têm cerca de 80 anos', e 79 contra 80 é desvio de pouco mais de 1%, sem efeito na régua do §2.2; na data da fala, os dois tinham 80 exatos. Card lido sozinho dá a impressão certa. Sem travessão. · Coerência entre lotes: Par A143 (a idade de Lula, dita duas vezes). A143 tinha a ressalva da data de registro (6 de outubro, 81 anos); A030 não. Entrou a mesma ressalva, com a fonte TVT News e a derivação de A143. 'Cerca de 80 anos' segue VERDADEIRO.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A031": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'maior democracia' é juízo e Ocidente não tem definição, o que puxaria para NAO_CHECAVEL. Cai: ranking por população entre países classificados como livres é conferível, e a explicação declara a definição usada. Trechos do Banco Mundial (2024) e da Freedom House (2026) conferidos nas capturas p03. Defeito de raciocínio: a ressalva dizia que o México, terceiro mais populoso, é parcialmente livre, como se o veredito dependesse disso; o México tem 131 milhões e fica atrás do Brasil (212 milhões) livre ou não, então o que sustenta o card é só que Brasil e EUA são livres e que nenhum outro país do recorte passa do Brasil. Ressalva reescrita para as duas condições que de fato importam (definição de Ocidente e de democracia), explicação corrigida. Veredito VERDADEIRO e confiança média mantidos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A032": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase seguinte ('a última foi [...] por telefone') mostra que Lula conta o telefonema entre as três, e então os contatos passam de três (Nova York, Kuala Lumpur, Casa Branca e telefonemas), o que poderia levar a IMPRECISO. Cai: em qualquer das leituras a contagem fica em três ou perto disso (três encontros presenciais, ou Kuala Lumpur, Casa Branca e o telefonema se o encontro rápido na ONU não contar como reunião), e a explicação e a ressalva declaram o critério. Trechos conferidos nas capturas p03 (Poder360 duas vezes, Folha de Pernambuco/Reuters, NSC Total). A citação da 'videoconferência' na explicação não tem trecho próprio, mas não vai para a tela nem muda o veredito. Resumo e ressalva com lastro, sem travessão. · Coerência entre lotes: Par A017 e A140. Contagem de encontros públicos com data, por redações independentes, recebeu o mesmo tratamento que A140 da entrevistadora (só imprensa, VERDADEIRO). O erro do validador 'nenhuma fonte N1 ou N2' segue e fica registrado para o autor.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A033": {
+    "decisao": "mantido",
+    "nota": "Conferidos na captura p03 os quatro trechos: Secom via Estadão (1 hora e 20 minutos, reclamação sobre o Conselho de Segurança), Diario de Pernambuco ('o telefonema que fez'), nota conjunta MRE/MDIC de 30/09 (telefonema de 21/08 como início do diálogo) e SBT News. Melhor argumento contra: Lula diz que ligou 'para reclamar' do Conselho de Segurança, e o tema principal registrado foi o tarifaço, o que seria IMPRECISO no propósito. Cai: o Conselho de Segurança esteve na conversa, quem ligou foi Lula, e 80 minutos cabem em 'quase uma hora e meia'; o propósito é ornamento, e a ressalva diz qual foi o tema principal. Não foi achado contato posterior a 21/08 nas capturas. VERDADEIRO com confiança média bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A034": {
+    "decisao": "mantido",
+    "nota": "Provisório. Conferidos na captura p03 a nota conjunta MRE/MDIC de 30/09 (Milwaukee, com Greer), a nota do defeso eleitoral (notas só por e-mail) e o Poder360 de 15/10 ('seguem em negociação'). A revisão também leu a nota de retomada do diálogo (d569e18378d3), que é de 31/08, e a da balança da 2ª semana de outubro: nenhuma registra negociação entre 12 e 15/10. Melhor argumento contra: duas semanas sem nota seriam contradição e levariam a FALSO. Cai pela própria nota do defeso: falta de nota no portal não prova que não houve reunião. INSUSTENTAVEL provisório bem posto; o resumo diz 'nada achado', sem afirmar ausência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A035": {
+    "decisao": "alterado",
+    "nota": "Números recontados das capturas do Comex Stat (p03): exportação −6,5%, corrente −6,8% de janeiro a setembro; Poder360 e Mercado & Consumo confirmam −6,5%. Melhor argumento contra o IMPRECISO: Lula disse 'relação comercial' sem período, e outro recorte poderia dar 9%. A revisão capturou outubro a dezembro na mesma base (captura -rev, 80fc9bb8be26 e bc559f37e260) e mediu os 12 meses até setembro: exportação −11,4%, corrente −7,2%. Nenhum dos quatro recortes fica a menos de 10% dos 9% (desvios de 38%, 32%, 21% e 25%), então o veredito fica. Defeitos: a explicação dizia que os 38% eram contra 'a medida mais desfavorável', mas são contra a menor queda (6,5%); e o recorte de 12 meses era afirmado sem captura (§3.1, regra 6). Corrigido, com as derivações declaradas. Ressalva do setembro isolado (31,9%) conferida no Poder360.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A036": {
+    "decisao": "alterado",
+    "nota": "Recontado: exportações à China +12,0% e corrente +11,1% de janeiro a setembro (Comex Stat p03; Poder360 confirma 12,0%). Melhor argumento contra: outro recorte poderia dar 20%. A mesma conta feita em A035 foi feita aqui com a captura da revisão: em 12 meses até setembro, +16,6% nas exportações e +12,8% na corrente. 20 contra 16,6 é desvio de 20%, fora da margem; IMPRECISO mantido. A explicação passa a trazer os 12 meses, com derivações e fontes, para a régua ser igual dentro da mesma resposta. Resumo sem alteração.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A037": {
+    "decisao": "alterado",
+    "nota": "Provisório. Recontado no Comex Stat: +2,2% nas exportações e +2,4% na corrente de janeiro a setembro; nos 12 meses até setembro (captura da revisão), +0,8% e +2,0%. Nenhum recorte chega perto de 15%, então, com a segunda fonte, o veredito tende a IMPRECISO. Melhor argumento contra o provisório: a base oficial já basta e o card poderia sair IMPRECISO agora. Cai: a §2.1 e a §3.1 pedem duas fontes independentes, a captura nova é da mesma base, e o Poder360 só registra a fala; não havia divulgação por país nem estatística do parceiro capturada (o Comtrade não tem setembro de 2026). INSUSTENTAVEL provisório bem posto. Resumo reescrito: 'Comex Stat' é nome de sistema (escrita-de-card §3), e 'longe do dito' deixa a leitura certa em cinco segundos. · Coerência entre lotes: Par A163, que foi alinhado a este padrão.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A038": {
+    "decisao": "alterado",
+    "nota": "Provisório. Recontado no Comex Stat: +15,8% nas exportações e +7,5% na corrente de janeiro a setembro; nos 12 meses até setembro, +15,9% e +8,5%. A exportação bate com os 16% nos dois recortes, então, com a segunda fonte, tende a VERDADEIRO com ressalva de que a corrente cresceu menos (é a mesma leitura pela medida que confere aplicada a EUA, China e Indonésia, onde nenhuma medida confere). Melhor argumento contra o provisório: o card laranja com um dado oficial que confirma a fala engana. Pela régua, sem segunda fonte independente o veredito não fecha; o defeito estava no resumo, que não dizia que o dado oficial bate. Resumo reescrito ('perto do dito', nome do ministério no lugar de 'Comex Stat'), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A039": {
+    "decisao": "alterado",
+    "nota": "Provisório. Recontado no Comex Stat: +14,1% nas exportações e +19,4% na corrente de janeiro a setembro; 13 contra 14,1 é desvio de 8%, dentro da margem. Nos 12 meses até setembro (captura da revisão), +5,5% nas exportações e +11,9% na corrente: aí quem fica perto dos 13% é a corrente, e a explicação registra isso. Com a segunda fonte, tende a VERDADEIRO pelo acumulado do ano, que é o recorte usado nos cinco países. Melhor argumento contra o provisório: igual ao de A038, e cai pelo mesmo motivo (falta fonte independente da base do MDIC). Resumo reescrito ('perto do dito', nome do ministério), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  }
+}

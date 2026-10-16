@@ -1,0 +1,133 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A092": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fala é sobre uma conversa privada do próprio Lula, e caberia NAO_CHECAVEL, ou a falta de qualquer registro deveria pesar como FALSO. Não procede: é evento passado com registro possível (nota do Planalto, da PF, relato de Andrei), então a árvore do §2.1 leva a INSUSTENTAVEL, e nenhuma captura contradiz (procurei Andrei com repreensão, nota e resposta em todas as capturas do caso; Terra e Mixvale só reproduzem a fala). Frase confere com a transcrição (1233,4 s) no contexto da pergunta sobre manter Andrei. Os três trechos estão nas capturas p07 e p08. Mesma régua de A085 (conversas com Fachin que só aparecem no relato de Lula). O 'abril de 2024' da data de referência tem lastro na CNN capturada para A093. O resumo diz 'não há nota oficial' de forma absoluta, mas a explicação registra a busca limitada e a leitura do card não muda.",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "7", "8"]
+  },
+  "A093": {
+    "decisao": "mantido",
+    "nota": "Contra: a transcrição está truncada ('ele alertei o ministro da Justiça'), e a afirmação poderia estar esticando a fala. O Tempo transcreve 'Ele sabe que eu o repreendi, alertei o ministro da Justiça', então a afirmação confere. Nenhuma captura traz confirmação nem desmentido do Ministério da Justiça ou do Planalto; INSUSTENTAVEL é o que a árvore dá, não FALSO. Trechos conferidos (O Tempo, CNN, SBT de 08/01 e de 13/01). A CNN capturada data o evento de Londres em abril de 2024, com Lewandowski presente. 'Pediu demissão em 08/01' na explicação é um pouco mais forte que o trecho ('comunicou que vai deixar'), mas não vai para a tela. Sem leitura de intenção.",
+    "verificacoes": ["1", "2", "3", "5", "6", "7", "8"]
+  },
+  "A094": {
+    "decisao": "mantido",
+    "nota": "Contra: o Metrópoles diz, com dados de portaria obtidos por LAI, que não há registro de entrada de Vorcaro no Planalto em dezembro de 2024, o que poderia derrubar a data dita pela entrevistadora. Não derruba: Lula confirmou a reunião (SBT, citando o UOL), Galípolo, que estava nela, a situou em 4 de dezembro de 2024 na CPI (Poder360, captura p09), e três apurações independentes dão o mesmo mês e o mesmo local. A divergência está registrada no campo próprio. Régua igual à das falas de Lula: aqui há registro independente, lá não. Trechos encontrados nas capturas p08 e p09.",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A095": {
+    "decisao": "mantido",
+    "nota": "Contra: 'levado pelo Mantega' pode exagerar o papel dele, já que o Poder360 diz que Mantega e Vorcaro pediram juntos a reunião ao fim de outra audiência. Não muda a leitura: Lula confirmou ao SBT, segundo a Revista Oeste, que recebeu Vorcaro 'a pedido' de Mantega, e o SBT diz que o encontro foi 'costurado' por ele. Três trechos conferidos na captura p08. Essência e recorte confirmados.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A096": {
+    "decisao": "mantido",
+    "nota": "Contra: as fontes são de 2026 e descrevem Mantega como consultor em termos gerais; o vínculo em dezembro de 2024 especificamente poderia não estar provado. Cai: o Metrópoles diz que ele foi ao Planalto quatro vezes em 2024 'quando atuava como consultor do Banco Master', e a declaração do banco à Receita, publicada pelo O Globo e reproduzida pelo Jornal Grande Bahia, registra R$ 6 milhões pagos em 2024. O Jornal Grande Bahia conta como ponteiro do O Globo, mas Metrópoles e SBT são apurações separadas. 'Trabalhava para' por meio de empresa de consultoria confere. A ressalva tem o ano no trecho.",
+    "verificacoes": ["1", "3", "4", "5", "7"]
+  },
+  "A097": {
+    "decisao": "mantido",
+    "nota": "Contra: um termo de comparecimento pode ser supervisão de rotina, e não 'procedimento formal', e era contra o banco, não contra Vorcaro. Não procede: Galípolo descreve convocação da diretoria de Fiscalização com prazo de seis meses para correções, e o SBT fala em termo assinado pelo banqueiro; é ato formal, com nome e prazo, em novembro de 2024, antes do encontro de 4/12. Haddad, na entrevista capturada na p07, também diz que um processo administrativo já tinha sido aberto no fim da gestão anterior do BC. A ressalva separa o processo sancionador de 2025, e a explicação diz que o alvo é o banco controlado por Vorcaro. Trechos conferidos.",
+    "verificacoes": ["1", "2", "3", "5", "6", "7", "8"]
+  },
+  "A098": {
+    "decisao": "mantido",
+    "nota": "Contra: a pergunta diz 'naquele mesmo ano', e o SBT diz que os inquéritos de São Paulo foram abertos desde 2023; e o elemento 'São Paulo' tem uma fonte só, porque a CNN fala da investigação que virou a Compliance Zero sem citar São Paulo. Fica de pé: o inquérito aberto em 2023 estava em curso em 2024 (ofício de julho de 2024 ao BC), o que é ser alvo naquele ano, e a ressalva diz que ele é de 2023; o dado de São Paulo vem de documento obtido pelo SBT, com o delegado e a delegacia nomeados, e a investigação da PF em 2024 tem a segunda fonte. Os inquéritos são sobre o Master e fundos usados por Vorcaro, e a ressalva diz isso. Não julga mérito (etica-e-risco §5). Mesma régua de A110.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7"]
+  },
+  "A099": {
+    "decisao": "alterado",
+    "nota": "O veredito provisório está bem posto: nas capturas (Exame, g1 e o verbete de Silvio Santos, que repete a visita do Teleton) não há registro de Silvio Santos procurando Lula na crise de novembro de 2010, e nada prova que não procurou, então INSUSTENTAVEL e não FALSO, com confiança baixa. Melhor argumento contra o card: 'a visita de Silvio Santos a Lula em 2010 foi sobre o Teleton', lido sozinho, sugeria que a visita a que Lula se refere foi outra coisa, impressão de FALSO; ele ficou de pé e o resumo mudou para dizer que a visita de 2010 foi antes da crise. Frase confere (1346,0 s). Ao refazer a busca, procurar relato da época sobre contato de Silvio Santos com o governo em novembro de 2010.",
+    "verificacoes": ["1", "3", "6", "7", "8"]
+  },
+  "A100": {
+    "decisao": "mantido",
+    "nota": "Contra: a segunda fonte é a Wikipédia, que a METODOLOGIA §3 não põe em N4 (não é imprensa com apuração própria); sem ela sobra a Folha. O veredito provisório ainda está bem posto na direção: INSUSTENTAVEL por ausência de registro, sem prova em contrário (procurei Edemar e Banco Santos com Lula, Planalto e governo em todas as capturas do caso; só aparecem a Folha e dois verbetes da Wikipédia), e a explicação já declara a enciclopédia como ponteiro e a confiança é baixa. Não alterei o nível porque o veredito não depende dessa fonte, mas a nova busca precisa trocar a Wikipédia por uma segunda fonte de imprensa ou pelo Diário Oficial capturado.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A101": {
+    "decisao": "alterado",
+    "nota": "Contra: o 'Banco da Igreja de Macedo' pode não ser o Digimais. É a leitura mais plausível (Macedo controla o banco desde 2020 e a crise é recente), e de qualquer forma nenhuma captura registra banco ligado a Macedo procurando Lula (procurei Digimais e Macedo com Lula e Planalto em todas as capturas). INSUSTENTAVEL provisório bem posto. Alterado o resumo: 'em crise desde 2024' não tem lastro, porque as fontes falam em relatórios de 2024 e 2025, em problema que vem de depois da pandemia e em banco à venda há mais de um ano; e 'sob supervisão do BC', na explicação, não estava em trecho nenhum.",
+    "verificacoes": ["1", "3", "6", "7", "8"]
+  },
+  "A102": {
+    "decisao": "mantido",
+    "nota": "Contra: 'foi assim que o Galípolo se posicionou' pode atribuir a ele o que ele não disse, e as fontes falam em seguir a lei, não em 'sem critério político'. Fica de pé, e com mais lastro do que o lote usa: no depoimento à CPI (Poder360, captura p09) Galípolo contou que a orientação recebida depois da reunião foi 'seja técnico, o mais técnico possível' e 'não proteja ninguém, não persiga ninguém'. A ressalva diz que a expressão literal não aparece. A mesma régua foi aplicada a Haddad em A104.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A103": {
+    "decisao": "alterado",
+    "nota": "O veredito provisório INSUSTENTAVEL fica, e mais firme: Galípolo, perguntado na CPI se recebeu comando do Planalto depois da reunião com Vorcaro, descreveu só a orientação de ser técnico, sem pedido para comunicar a PGR (Poder360, captura p09). Melhor argumento contra a checagem como estava: a explicação dizia que nenhuma fonte capturada especificava o Procurador-Geral como destinatário, e a entrevista de Haddad na captura p07 diz que o caso foi levado ao Procurador-Geral da República e à PF; esse argumento ficou de pé, e a explicação foi corrigida, com as duas fontes acrescentadas e a data da comunicação ao MPF e à PF (julho de 2025). O resumo trocou 'não há registro' por 'as fontes não registram', porque a busca foi limitada. Caso em apuração e ausência de registro não é prova de que o pedido não houve: não é FALSO.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A104": {
+    "decisao": "alterado",
+    "nota": "O veredito provisório não estava bem posto. Ele dizia que nenhuma fonte capturada sustentava a posição atribuída, mas a captura p07 (A Crítica de Campo Grande, entrevista ao podcast 3 Irmãos) traz Haddad dizendo que o Banco Central era o órgão responsável por agir diante das irregularidades do Master e que o caso foi levado ao Procurador-Geral e à PF, que é o 'assim' da fala de Lula (o BC trata tecnicamente, a PGR é comunicada). Com o agradecimento público de Galípolo ao apoio de Haddad, são duas fontes; trechos conferidos. Pela mesma régua de A102, passa a VERDADEIRO, com ressalva de que a expressão 'sem critério político' não aparece. Melhor argumento contra o veredito novo: na mesma entrevista Haddad culpa a gestão anterior do BC, o que é posição política; ele cai porque é avaliação dele e não contradiz que o caso devia ficar com o BC e com os órgãos de investigação. Confiança baixa: uma fonte direta, de veículo regional que relata um podcast.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A105": {
+    "decisao": "mantido",
+    "nota": "Contra: Galípolo descreve perseguição 'pelo mercado financeiro', o que contradiria o 'politicamente' e levaria a FALSO. Não leva: Galípolo diz que a reunião já tinha começado quando chegou ('Quando eu chego na reunião'), então o relato dele não cobre a conversa inteira e não exclui que Vorcaro tenha dito nomes. A frase transcrita está truncada ('eu estou me perseguindo politicamente'), e o resumo fala só do que as fontes trazem: queixa contra o mercado no relato de Galípolo, perseguição política e nomes só no de Lula, e nem o relato anterior de Lula (Congresso em Foco) cita nomes. Mesma régua de A085 e A092. Caso em apuração. Trechos conferidos na p08 e na p09.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A106": {
+    "decisao": "mantido",
+    "nota": "Contra pelos dois lados. FALSO: 349 dias contra 'um mês' é desvio de mais de dez vezes. Mas o §2.2 reserva FALSO para número que existe e é outro com sentido oposto; aqui o sentido (o banco foi fechado depois do encontro, por irregularidade, como diz a nota do BC) se mantém, e prazo errado é desvio de valor, IMPRECISO. VERDADEIRO: não, o prazo muda a leitura de causa e efeito imediata. Conferi se 'um mês' poderia se referir a outro encontro: a Gazeta do Povo registra que o Planalto diz ter sido o único. Conta refeita: de 4/12/2024 a 18/11/2025 são 349 dias. Nota do BC (N1) conferida na captura p09.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A107": {
+    "decisao": "mantido",
+    "nota": "Contra: o contrato era do escritório com o Banco Master, não com Vorcaro em pessoa, e isso poderia ser recorte errado que pede IMPRECISO. Não muda a leitura: Vorcaro controlava o banco, Lewandowski participava do Comitê Estratégico (o 'conselheiro' da pergunta) e confirmou a consultoria em nota; a ressalva diz que o contrato era com o banco. A régua é a mesma aplicada às falas de Lula sobre o mesmo contrato (A112). A divergência de mês da posse (janeiro na Metrópoles, fevereiro na Band) foi conferida nas capturas e não afeta o veredito, porque o contrato é de agosto de 2023.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A108": {
+    "decisao": "mantido",
+    "nota": "Contra: 'a família manteve o contrato que ele tinha' pode esticar, porque o contrato era do escritório. As fontes dizem que o escritório passou a ser representado pelo filho e que os pagamentos seguiram até setembro de 2025 (Metrópoles; O Antagonista em A112), e a Rádio Bandeirantes confirmou por conta própria; Lewandowski, em nota, não nega a continuidade. A divergência sobre quem atua no escritório (os dois filhos ou a esposa e o filho) está nos trechos e não muda o veredito.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A109": {
+    "decisao": "mantido",
+    "nota": "Contra: o decreto de 2023 pode ter sido substituído até outubro de 2026, e 'comanda' pode exagerar a relação. A página do Planalto capturada não traz marca de revogação, só redações dadas pelo Decreto 11.759/2023, e lista a Polícia Federal na estrutura do ministério; a Lei 14.600 atribui ao ministério a execução das funções da PF. Subordinação hierárquica é o que 'comanda' diz. Duas fontes N1, vigentes na data da fala.",
+    "verificacoes": ["1", "3", "4", "5", "6"]
+  },
+  "A110": {
+    "decisao": "mantido",
+    "nota": "Contra: a investigação era do banco, não 'do Vorcaro', e pode ter começado depois do início do contrato com a família, em janeiro de 2024. Não derruba: o contrato foi mantido até setembro de 2025, então houve sobreposição com a investigação aberta em 2024 (e com os inquéritos de São Paulo abertos desde 2023, A098), e Vorcaro foi preso nessa investigação. A ressalva diz que as fontes não dão o mês e que a investigação é do banco. O card fala de existência de investigação, não de culpa.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A111": {
+    "decisao": "mantido",
+    "nota": "Contra: 'foi trabalhar por conta dele' só teria a palavra do próprio Lewandowski. A Metrópoles mostra o escritório dele contratado pelo Master em agosto de 2023, registro independente da atividade privada depois do STF; a data de saída do STF vem da nota dele, e a explicação diz isso. A frase confere no contexto (Lula falando da saída do STF, não do ministério, apesar do 'quando ele deixou o ministério' dito antes).",
+    "verificacoes": ["1", "3", "4", "5", "8"]
+  },
+  "A112": {
+    "decisao": "mantido",
+    "nota": "Contra: 'ele largou a assessoria e veio', dito em resposta à pergunta sobre o contrato mantido pela família, deixa a impressão de ruptura completa, e o contrato seguiu com o escritório; isso poderia ser recorte que muda a leitura (IMPRECISO). Fica VERDADEIRO porque a frase fala dele, e ele saiu da sociedade em 17/1/2024 e suspendeu o registro na OAB (três fontes, trechos conferidos); a ressalva, que vai à tela, diz que o contrato continuou com os filhos e com pagamentos até setembro de 2025. Coerente com A108, em que a pergunta da jornalista sobre o mesmo contrato também é VERDADEIRO.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A113": {
+    "decisao": "mantido",
+    "nota": "Contra: ex-ministro do STF não tem quarentena para atividade privada em geral, só a vedação de advogar no próprio tribunal por três anos, e os 6 meses da Lei 12.813 não impedem todo trabalho privado, só o que conflita com o cargo; 'cumprem a quarentena e depois vão cuidar das suas vidas' pode exagerar. A frase descreve de forma geral que existe quarentena, e existe, nas duas normas N1 conferidas no texto do Planalto. A ressalva diz que a regra vale para cargos listados, com prazos e alcances diferentes. É ornamento, não fato errado, pelo §2.2.",
+    "verificacoes": ["1", "2", "3", "5", "6", "7"]
+  },
+  "A114": {
+    "decisao": "mantido",
+    "nota": "Contra: 'ninguém pode voltar atrás' é falso em sentido estrito, porque o próprio STF revê suas decisões e o Congresso pode mudar a Constituição; e a frase pode ser retórica, não fato. É descrição de norma, e a afirmação extraída (não há instância acima do STF) confere pelo portal do STF e pelo art. 102. A ressalva diz o que o texto constitucional capturado sustenta (efeito vinculante sem citar o Legislativo e revisão de súmula pelo próprio STF). Fato certo com ornamento exagerado: VERDADEIRO com ressalva, pelo §2.2.",
+    "verificacoes": ["1", "2", "3", "6", "7", "8"]
+  },
+  "A115": {
+    "decisao": "mantido",
+    "nota": "Contra: as duas fontes são do mesmo veículo. A regra de independência mira a mesma matéria reproduzida; aqui são duas entrevistas diferentes (SBT Brasil em 10/9 e Rádio Tupi em 18/9), cada uma registro de uma fala anterior à sabatina, e a de 10/9 ainda cita uma fala anterior ('outro dia, eu disse, brincando'). A frase confere em essência ('não pode querer ser rico'). Trechos conferidos.",
+    "verificacoes": ["1", "3", "4", "5", "8"]
+  },
+  "A116": {
+    "decisao": "mantido",
+    "nota": "Contra: em 2023 o programa ganhou adicionais, e alguém poderia chamar isso de reajuste, o que tornaria a pergunta errada. Os adicionais são componentes criados com o programa, e as fontes tratam o anúncio de setembro de 2026 como o primeiro reajuste; o próprio Lula, na sabatina (1626,6 s), diz que não sabia que o Bolsa Família não tinha sido reajustado, o que o SBT registra. A ressalva diz que os adicionais não foram conferidos. Lei 14.601 (N1) conferida. Fora do card: o Poder360 dá 15,04% e R$ 600 para R$ 691, conta que não fecha exata (600 vezes 1,1504 dá 690,24); não entra no resumo.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7"]
+  },
+  "A117": {
+    "decisao": "mantido",
+    "nota": "Contra: 'reajustado' pode ser a data de vigência, não a do anúncio. A pergunta trata do anúncio, e as duas fontes de imprensa dão 17 de setembro. Conta refeita: 1º de outubro de 2026 cai numa quinta, o primeiro domingo é o dia 4, e de 17/9 a 4/10 são 17 dias (13 até 30/9 mais 4). Data do 1º turno pela Constituição (N1). Régua igual à das falas do candidato.",
+    "verificacoes": ["1", "3", "4", "5", "6"]
+  }
+}

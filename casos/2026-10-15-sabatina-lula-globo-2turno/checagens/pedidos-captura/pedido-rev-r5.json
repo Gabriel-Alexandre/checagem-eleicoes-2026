@@ -1,0 +1,5 @@
+{ "caso": "2026-10-15-sabatina-lula-globo-2turno", "rodada": "rev-r5",
+  "urls": [
+    {"url": "https://portalibre.fgv.br/sondagem-do-consumidor", "navegador": true},
+    "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/202302,202303,202608"
+  ] }

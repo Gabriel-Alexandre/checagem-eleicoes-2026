@@ -1,0 +1,12 @@
+{"caso": "2026-10-15-sabatina-lula-globo-2turno", "rodada": 5, "urls": [
+"https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/mantega-guido",
+"https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/meireles-henrique",
+"https://api.worldbank.org/v2/country/BRA;WLD/indicator/EG.FEC.RNEW.ZS?format=json&date=2020",
+"https://apisidra.ibge.gov.br/values/t/7245/n1/all/v/802,803,828,10427/p/2023/c12762/117897/f/n",
+"https://apisidra.ibge.gov.br/values/t/1847/n1/all/v/838,868,809,831/p/2023/c12762/117897/f/n",
+"https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14690.htm",
+"https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1292.htm",
+"https://www.epe.gov.br/pt/abcdenergia/fontes-de-energia",
+"https://dadosabertos.aneel.gov.br/dataset/resultado-de-leiloes",
+"https://www.gov.br/aneel/pt-br/assuntos/leiloes"
+]}

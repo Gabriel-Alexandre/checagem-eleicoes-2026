@@ -1,0 +1,581 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "lotes/checagem/pedido-11.json",
+  "checagens": [
+    {
+      "id": "A131",
+      "veredito": "VERDADEIRO",
+      "resumo": "Fazenda: o primeiro Desenrola beneficiou 15,06 milhões de pessoas e negociou R$ 53,07 bilhões",
+      "explicacao": "O balanço de encerramento do Desenrola Brasil, publicado pelo Ministério da Fazenda quando o programa terminou (20/05/2024), diz que ele beneficiou 15,06 milhões de pessoas com a negociação de R$ 53,07 bilhões em dívidas. O número é de pessoas beneficiadas por renegociação, que é o sentido da fala ('atendemos'). A Câmara, ao apresentar a MP do Desenrola 3.0, repete o dado da primeira fase (15 milhões de pessoas e famílias, R$ 53 bilhões). 15 milhões contra 15,06 milhões é arredondamento sem efeito na leitura, por isso VERDADEIRO e não IMPRECISO. As duas fontes de imprensa partem do mesmo balanço oficial, que é a fonte forte aqui.",
+      "numero_dito": "por volta de 15 milhões de pessoas",
+      "numero_apurado": "15,06 milhões de pessoas",
+      "data_de_referencia": "balanço de encerramento do programa, 20/05/2024",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": "O título da nota da Fazenda fala em 15,5 milhões de pessoas; o corpo do mesmo texto traz 15,06 milhões. A Câmara e o FDR usam 15 milhões.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Fazenda (nota de balanço publicada pelo Poder360)",
+          "titulo": "Desenrola encerra beneficiando 15,5 milhões de pessoas e reduzindo inadimplência dos mais vulneráveis (21/05/2024)",
+          "url": "https://static.poder360.com.br/2024/05/desenrola-brasil-balanco-21mai2024.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Programa Desenrola Brasil chegou ao fim na segunda-feira (20/5) [...] O Ministério da Fazenda (MF) considera que o Desenrola Brasil atingiu seu objetivo ao beneficiar 15,06 milhões de pessoas com a negociação de R$ 53,07 bilhões em dívidas",
+          "prova": "O balanço oficial do fim do programa: 15,06 milhões de pessoas beneficiadas pela renegociação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Câmara dos Deputados (texto com informações da Agência Brasil)",
+          "titulo": "Enquete da MPV 1393/2026",
+          "url": "https://www.camara.leg.br/enquetes/2647154",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na primeira fase, foram mais de 8 milhões de operações de renegociação, com R$ 53 bilhões em dívidas renegociadas e 15 milhões de pessoas e famílias atendidas.",
+          "prova": "A Câmara, ao descrever o Desenrola 3.0, registra o mesmo número para a primeira fase."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "FDR",
+          "titulo": "Desenrola Brasil foi prorrogado? Governo se pronuncia sobre a notícia (22/05/2024)",
+          "url": "https://fdr.com.br/2024/05/22/desenrola-brasil-foi-prorrogado-governo-se-pronuncia-sobre-a-noticia-para-renegociar-dividas",
+          "consultada_em": "2026-10-16",
+          "trecho": "Balanço do Ministério da Fazenda mostrou que o Desenrola Brasil ajudou 15 milhões de pessoas na renegociação de dívidas.",
+          "prova": "Leitura de imprensa do balanço, na semana do encerramento: 15 milhões de pessoas."
+        }
+      ]
+    },
+    {
+      "id": "A132",
+      "veredito": "VERDADEIRO",
+      "resumo": "A MP 1.393, de setembro de 2026, criou o Desenrola 3.0 e, na data da fala, tramitava no Congresso",
+      "explicacao": "O Desenrola Brasil 3.0 foi instituído pela Medida Provisória nº 1.393, de 25/09/2026, que altera a Lei 14.690/2023. Como toda MP, vale desde a publicação e precisa ser aprovada pela Câmara e pelo Senado em até 120 dias. Na data da fala ela não tinha sido votada: o registro de tramitação da Câmara mostra o prazo de emendas e a constituição da comissão mista (ofício do Congresso de 30/09/2026), sem nenhuma etapa no plenário da Câmara. Dizer que ela 'está na Câmara' é impreciso só no detalhe da fase (a comissão mista vem antes do plenário da Câmara); o essencial, uma MP criando o programa e pendente no Congresso, confere. Por isso VERDADEIRO com ressalva, e não IMPRECISO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "MP publicada em 25/09/2026; tramitação até 15/10/2026",
+      "ressalva": "Na data da fala, a MP estava na fase de comissão mista do Congresso; o plenário da Câmara vota depois dela",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.393, de 25 de setembro de 2026 (texto no Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1393.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "MEDIDA PROVISÓRIA Nº 1.393, DE 25 DE SETEMBRO DE 2026 [...] Altera a Lei nº 14.690, de 3 de outubro de 2023, para instituir a Modalidade Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil 3.0",
+          "prova": "O ato que criou o Desenrola 3.0 é uma medida provisória."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "Tramitação da MPV 1393/2026",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647154/tramitacoes",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"despacho\":\"Prazo para Emendas: 25/09/2026 a 01/10/2026.Comissão Mista: [...] Comunica, de ordem, a constituição de comissões mistas e o calendário de tramitação das Medidas Provisórias números 1393 e 1394, de 2026",
+          "prova": "Os registros da tramitação até a data da fala: prazo de emendas e comissão mista, sem votação em plenário."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Congresso Nacional (ofício à Câmara dos Deputados)",
+          "titulo": "Ofício nº 129/2026 SLCN: constituição de comissões mistas das MPs 1.393 e 1.394 (30/09/2026)",
+          "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3182457",
+          "consultada_em": "2026-10-16",
+          "trecho": "que estão constituídas as Comissões Mistas incumbidas de emitir parecer sobre as Medidas Provisórias n°s 1.393 e 1.394, de 2026.",
+          "prova": "Mostra que a MP estava na fase de comissão mista."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Câmara dos Deputados (texto com informações da Agência Brasil)",
+          "titulo": "Enquete da MPV 1393/2026",
+          "url": "https://www.camara.leg.br/enquetes/2647154",
+          "consultada_em": "2026-10-16",
+          "trecho": "Como toda medida provisória, a norma já está em vigor desde a publicação, mas precisa ser aprovada pela Câmara e pelo Senado em até 120 dias para virar lei.",
+          "prova": "A MP ainda dependia de votação na Câmara e no Senado."
+        }
+      ]
+    },
+    {
+      "id": "A133",
+      "veredito": "VERDADEIRO",
+      "resumo": "A MP autoriza a União a comprar carteiras de dívidas de pessoas físicas em disputa pelo maior desconto",
+      "explicacao": "O texto da MP 1.393/2026 autoriza a União a adquirir, por cessão onerosa, carteiras de dívidas inadimplidas de pessoas físicas, num procedimento competitivo em que as propostas dos credores são classificadas pelo maior deságio. É o que a fala chama de leilão em que a União compra a dívida, e a própria Câmara descreve o mecanismo como leilões de compra de carteiras. A ressalva é que a operação pode ser feita pela União diretamente ou por fundo do qual ela participe, com Banco do Brasil e Caixa como agentes. O desconto obtido passa ao devedor.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "MP 1.393, em vigor desde 25/09/2026",
+      "ressalva": "A compra pode ser feita pela União diretamente ou por fundo com participação dela",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.393, de 25 de setembro de 2026 (texto no Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1393.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 31-B. Fica a União autorizada a realizar a aquisição onerosa e a renegociação, total ou parcial, de dívidas, de carteiras de crédito ou de direitos creditórios detidos por instituições financeiras e demais pessoas jurídicas credoras referentes a dívidas inadimplidas de pessoas físicas [...] § 6º O procedimento competitivo terá como critério de julgamento, para fins da ordem de aquisição das carteiras, o maior desconto, observado o deságio mínimo previsto no inciso III do § 1º.",
+          "prova": "O texto da norma: compra das dívidas pela União, em procedimento competitivo pelo maior desconto."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Consultoria Legislativa do Senado Federal",
+          "titulo": "Sumário Executivo da Medida Provisória nº 1.393, de 2026 (29/09/2026)",
+          "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/sumarios-de-proposicoes/mpv1393",
+          "consultada_em": "2026-10-16",
+          "trecho": "As aquisições terão deságio mínimo de 90% sobre o valor de face de cada carteira ofertada e serão realizadas por meio de procedimentos competitivos, em que as propostas recebidas pela União serão classificadas pelo critério do maior percentual de deságio ofertado (art. 31-C). [...] As aquisições de carteiras de crédito pela União poderão ser feitas indiretamente por meio dos agentes financeiros Banco do Brasil S.A. e Caixa Econômica Federal ou por meio da participação em fundo de natureza privada",
+          "prova": "Leitura técnica do Senado: a União compra em procedimento competitivo, direto ou por fundo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Câmara dos Deputados (texto com informações da Agência Brasil)",
+          "titulo": "Enquete da MPV 1393/2026",
+          "url": "https://www.camara.leg.br/enquetes/2647154",
+          "consultada_em": "2026-10-16",
+          "trecho": "A principal novidade dessa etapa do programa é a autorização para que a União realize leilões de compra de carteiras de dívidas não pagas, repassando integralmente o desconto obtido aos devedores.",
+          "prova": "A Câmara descreve o mesmo mecanismo como leilão de compra pela União."
+        }
+      ]
+    },
+    {
+      "id": "A134",
+      "veredito": "IMPRECISO",
+      "resumo": "A MP vale para atraso entre 720 e 1.645 dias e dívida abaixo de R$ 10 mil, e não até R$ 4 mil",
+      "explicacao": "O critério de atraso confere em parte: a MP exige dívida inadimplida há mais de 720 dias (cerca de dois anos), mas também há menos de 1.645 dias (cerca de quatro anos e meio), contados de 25/09/2026. O teto de valor dito está errado: a MP fala em valor original inferior a R$ 10.000,00, e não em R$ 4 mil; nenhuma das fontes consultadas traz um teto de R$ 4 mil. Além disso, a compra não alcança 'todas as pessoas' automaticamente: depende de os credores ofertarem suas carteiras no procedimento competitivo, e só é adquirido o que couber nas dotações. A essência (compra de dívidas antigas e pequenas de pessoas físicas) está certa e o número do teto está materialmente errado: IMPRECISO, não FALSO.",
+      "numero_dito": "atraso acima de dois anos, dívidas até R$ 4 mil",
+      "numero_apurado": "atraso de mais de 720 e menos de 1.645 dias; valor original inferior a R$ 10 mil",
+      "data_de_referencia": "texto da MP 1.393, publicada em 25/09/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.393, de 25 de setembro de 2026 (texto no Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1393.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "§ 1º Deverão ser observados para os créditos elegíveis, cumulativamente, os seguintes critérios: I - dívidas inadimplidas há mais de setecentos e vinte e menos de mil seiscentos e quarenta e cinco dias, contados de 25 de setembro de 2026, ressalvado o disposto no § 3º; II - dívidas inadimplidas com valor original inferior a R$ 10.000,00 (dez mil reais) [...] IV - classificação das propostas pelo critério do maior percentual de deságio ofertado, observado o limite das dotações orçamentárias e os limites financeiros disponíveis",
+          "prova": "Os critérios de elegibilidade escritos na norma: o teto é R$ 10 mil e há limite máximo de atraso."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Consultoria Legislativa do Senado Federal",
+          "titulo": "Sumário Executivo da Medida Provisória nº 1.393, de 2026 (29/09/2026)",
+          "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/sumarios-de-proposicoes/mpv1393",
+          "consultada_em": "2026-10-16",
+          "trecho": "a União é autorizada a adquirir carteiras de crédito, constituídas de dívidas bancárias e não bancárias de pessoas físicas, com atrasos nos pagamentos superiores a dois anos e inferior a quatro anos e meio, contados de 25 de setembro de 2026, e valor original da dívida inferior a R$ 10.000,00",
+          "prova": "A leitura do Senado confirma a faixa de atraso e o teto de valor."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Câmara dos Deputados (texto com informações da Agência Brasil)",
+          "titulo": "Enquete da MPV 1393/2026",
+          "url": "https://www.camara.leg.br/enquetes/2647154",
+          "consultada_em": "2026-10-16",
+          "trecho": "podem ser integradas ao programa carteiras de dívidas bancárias e não bancárias com valor original de até R$ 10 mil. O tempo de inadimplência deve ser superior a 720 dias e inferior a 1.645 dias (cerca de dois anos a quatro anos e meio).",
+          "prova": "A Câmara traz os mesmos números: até R$ 10 mil, de 720 a 1.645 dias."
+        }
+      ]
+    },
+    {
+      "id": "A135",
+      "veredito": "VERDADEIRO",
+      "resumo": "O governo estima comprar até R$ 150 bilhões em dívidas, gastando até R$ 15 bilhões com deságio mínimo de 90%",
+      "explicacao": "O número é a estimativa oficial de teto: a MP limita a despesa de compra a R$ 15 bilhões e exige deságio mínimo de 90%, o que corresponde a até R$ 150 bilhões em valor de face; a Câmara e a imprensa registram que o governo estima que até R$ 150 bilhões em dívidas possam ser renegociados pelas regras do programa. O sumário do Senado e o texto da MP não trazem o estoque total de dívidas da faixa elegível medido por Banco Central ou Serasa, então o que se confere é a estimativa do governo. Como a fala apresenta o número como o tamanho da dívida a ser comprada, e é esse o teto estimado, VERDADEIRO; a ressalva diz que o próprio governo espera renegociar cerca de metade disso.",
+      "numero_dito": "R$ 150 bilhões",
+      "numero_apurado": "até R$ 150 bilhões em dívidas renegociáveis pelas regras do programa (estimativa do governo)",
+      "data_de_referencia": "estimativa divulgada com a MP, em 25/09/2026",
+      "ressalva": "É estimativa de teto; o governo prevê R$ 75 bilhões efetivamente renegociados",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "R$ 150 bilhões",
+          "de": "15.000.000.000,00 e 90",
+          "como": "teto de despesa da MP dividido por 10%, o que sobra do valor de face com deságio mínimo de 90%"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.393, de 25 de setembro de 2026 (texto no Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1393.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "III - deságio mínimo de 90% (noventa por cento) sobre o valor de face de cada carteira ofertada; [...] observado o limite máximo de R$ 15.000.000.000,00 (quinze bilhões de reais).",
+          "prova": "Teto de despesa e deságio mínimo, de onde sai o valor de face máximo de R$ 150 bilhões."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Câmara dos Deputados (texto com informações da Agência Brasil)",
+          "titulo": "Enquete da MPV 1393/2026",
+          "url": "https://www.camara.leg.br/enquetes/2647154",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo estima que até R$ 150 bilhões em dívidas possam ser renegociados pelas regras do programa. [...] Com isso, a estimativa é desembolsar R$ 15 bilhões para adquirir os R$ 150 bilhões em dívidas.",
+          "prova": "A estimativa de R$ 150 bilhões atribuída ao governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1",
+          "titulo": "Veja como funciona a compra de dívidas pelo governo no Desenrola 3.0",
+          "url": "https://www.tnh1.com.br/noticia/nid/veja-como-funciona-a-compra-de-dividas-pelo-governo-no-desenrola-30/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A União poderá gastar até R$ 15 bilhões com a compra das carteiras de dívidas, o que nos cálculos do governo pode alcançar cerca de R$ 150 bilhões em dívidas. A estimativa do governo é de R$ 75 bilhões em dívidas efetivamente renegociadas, considerando a adesão parcial de credores e devedores.",
+          "prova": "Confirma os R$ 150 bilhões e traz a estimativa de R$ 75 bilhões efetivamente renegociados."
+        }
+      ]
+    },
+    {
+      "id": "A136",
+      "veredito": "IMPRECISO",
+      "resumo": "O perdão de dívidas de MEI foi aprovado pela Câmara na véspera da fala e ainda dependia do Senado",
+      "explicacao": "O governo enviou em 13/10/2026 o projeto de lei complementar que concede remissão das dívidas de MEI inscritas na Dívida Ativa da União (PLP 267/2026). Em 14/10, a Câmara aprovou o texto, incorporado ao PLP 186/2026 por 461 votos a 4, e o enviou ao Senado. Na data da fala, portanto, o perdão não era lei: dependia do Senado e da sanção, e o próprio texto só produz efeitos a partir de 1º de janeiro de 2027. A ação do governo existe e avançou, mas 'fizemos o perdão' apresenta como concluído um ato que ainda não estava. Não é FALSO porque o perdão não foi negado nem inventado: foi proposto e aprovado numa das duas Casas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "tramitação até 15/10/2026",
+      "ressalva": "Se for aprovado também pelo Senado, o perdão vale a partir de 2027",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados",
+          "titulo": "Autógrafo do PLP 186-A/2026 enviado ao Senado (14/10/2026)",
+          "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3184063",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 5º Fica concedida remissão integral dos créditos de titularidade da União, inscritos ou não em Dívida Ativa da União, até 13 de outubro de 2026, de responsabilidade de pessoas naturais regularmente enquadradas como microempreendedor individual – MEI [...] II – 1º de janeiro de 2027, quanto aos demais dispositivos. CÂMARA DOS DEPUTADOS, 14 de outubro de 2026.",
+          "prova": "O texto aprovado pela Câmara com o perdão, e a data em que ele passaria a produzir efeito."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "Tramitação do PLP 186/2026",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2635476/tramitacoes",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"despacho\":\"Aprovada a Subemenda Substitutiva Global ao Projeto de Lei Complementar nº 186, de 2026, adotada pelo relator da Comissão de Indústria, Comércio e Serviços, ressalvados os destaques. Sim: 461; Não: 4; Total: 465.\" [...] \"descricaoSituacao\":\"Aguardando Apreciação pelo Senado Federal\",\"codSituacao\":926,\"despacho\":\"Remessa ao Senado Federal por meio do Of. nº 235/2026/SGM-P.\"",
+          "prova": "Mostra a aprovação na Câmara e que o texto aguardava o Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Governo propõe perdão de R$ 12,6 bilhões em dívidas de MEIs (13/10/2026)",
+          "url": "https://www.itatiaia.com.br/politica/governo-propoe-perdao-de-r-126-bilhoes-em-dividas-de-meis/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A proposta ainda precisa seguir a tramitação legislativa para entrar em vigor. Portanto, o perdão não é automático nem passa a valer imediatamente com a formalização do projeto.",
+          "prova": "No anúncio, o perdão era proposta, não ato em vigor."
+        }
+      ]
+    },
+    {
+      "id": "A137",
+      "veredito": "VERDADEIRO",
+      "resumo": "O projeto do governo registra R$ 12,86 bilhões de MEIs na dívida ativa; o anúncio falou em R$ 12,6 bilhões",
+      "explicacao": "A exposição de motivos do projeto de remissão, assinada pelos ministros da Fazenda, do Planejamento e do Empreendedorismo em 13/10/2026, diz que a carteira de MEIs na Dívida Ativa da União reúne aproximadamente R$ 12,86 bilhões, de cerca de 3,67 milhões de devedores. O valor é só de MEI (a contribuição do DAS-MEI e acessórios), não de todo o Simples Nacional. No anúncio, o ministério e a imprensa usaram R$ 12,6 bilhões. O número falado, R$ 12,7 bilhões, fica entre os dois e a 1,2% do valor do documento oficial: arredondamento sem efeito na leitura, por isso VERDADEIRO.",
+      "numero_dito": "R$ 12,7 bilhões",
+      "numero_apurado": "cerca de R$ 12,86 bilhões, de cerca de 3,67 milhões de MEIs",
+      "data_de_referencia": "estoque informado na exposição de motivos de 13/10/2026",
+      "ressalva": "O valor falado fica entre os R$ 12,86 bilhões do projeto e os R$ 12,6 bilhões do anúncio",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "A exposição de motivos fala em R$ 12,86 bilhões e 3,67 milhões de devedores; o anúncio do ministério, reproduzido pela imprensa, em R$ 12,6 bilhões e 3,6 milhões de MEIs.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (inteiro teor do PLP 267/2026, com a exposição de motivos do Executivo)",
+          "titulo": "PLP 267/2026 e EM nº 2247/2026 (13/10/2026)",
+          "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183630",
+          "consultada_em": "2026-10-16",
+          "trecho": "A carteira de MEIs na Dívida Ativa da União reúne aproximadamente R$ 12,86 bilhões, distribuídos entre cerca de 3,67 milhões de devedores.",
+          "prova": "O estoque oficial de dívida ativa de MEI que o projeto quer perdoar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Prospera MEI: Lula propõe perdão de dívidas e repasses de até R$ 5 mil (13/10/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/123198/prospera-mei-lula-propoe-perdao-de-dividas-e-repasses-de-ate-r-5-mil",
+          "consultada_em": "2026-10-16",
+          "trecho": "A proposta de anistia prevê perdoar integralmente R$ 12,6 bilhões em dívidas de cerca de 3,6 milhões de MEIs inscritos na Dívida Ativa da União.",
+          "prova": "O número usado no anúncio do governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta de São Paulo",
+          "titulo": "Veja quais dívidas de MEI podem ser perdoadas com nova proposta de Lula (13/10/2026)",
+          "url": "https://www.gazetasp.com.br/politica/veja-quais-dividas-de-mei-podem-ser-perdoadas-com-nova-proposta-de-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "De acordo com o Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte, o estoque de dívidas contemplado pela iniciativa soma R$ 12,6 bilhões.",
+          "prova": "O mesmo número atribuído ao ministério, por outra redação."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "1,2%",
+          "de": "12,86 menos 12,7, dividido por 12,86",
+          "como": "distância entre o valor falado e o da exposição de motivos: (12,86 - 12,7) / 12,86 = 0,0124"
+        }
+      ]
+    },
+    {
+      "id": "A138",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Procuradoria da Fazenda pode comunicar a dívida ativa a cadastros como a Serasa, o que dificulta obter crédito",
+      "explicacao": "A Portaria PGFN nº 33/2018 prevê que, esgotado o prazo da notificação sem pagamento, parcelamento ou contestação, a PGFN pode comunicar a inscrição em dívida ativa aos serviços de proteção ao crédito, por convênio. Os editais de cobrança da PGFN avisam o devedor disso citando SERASA e SCPC. A exposição de motivos do projeto de perdão do MEI afirma que o acúmulo dessas dívidas cria obstáculo à obtenção de crédito. O mecanismo descrito na fala existe e alcança o MEI devedor da União. A ressalva é que a negativação é uma das medidas que a PGFN pode adotar, não um efeito automático para todo inscrito; nenhuma fonte informa quantos MEIs estão de fato no cadastro.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Portaria PGFN nº 33/2018, com alterações até 2026",
+      "ressalva": "A inclusão no cadastro é uma das medidas que a PGFN pode adotar, não é automática",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Procuradoria-Geral da Fazenda Nacional (Receita Federal, sistema de normas)",
+          "titulo": "Portaria PGFN nº 33, de 8 de fevereiro de 2018",
+          "url": "http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=90028",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 7º. Esgotado o prazo e não adotada nenhuma das providências descritas no art. 6º, a Procuradoria-Geral da Fazenda Nacional poderá: [...] II - comunicar a inscrição em dívida ativa aos órgãos que operam bancos de dados e cadastros relativos a consumidores e aos serviços de proteção ao crédito e congêneres, mediante convênio firmado com as respectivas entidades;",
+          "prova": "A norma que permite à PGFN negativar o devedor inscrito em dívida ativa."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Procuradoria-Geral da Fazenda Nacional",
+          "titulo": "Edital de Primeira Cobrança nº 2556 (03/04/2025)",
+          "url": "https://www.gov.br/pgfn/pt-br/servicos/editais-de-notificacao/editais-2025/EDITALDEPRIMEIRACOBRANAN255603.04.2025.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Se os contribuintes não se regularizarem, a União poderá: 1. Protestar a dívida em cartório; 2. Cobrar o débito na Justiça; 3. Comunicar a existência da dívida a órgãos de proteção ao crédito, como SERASA e SCPC",
+          "prova": "A aplicação da regra na cobrança, citando a Serasa pelo nome."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (inteiro teor do PLP 267/2026, com a exposição de motivos do Executivo)",
+          "titulo": "PLP 267/2026 e EM nº 2247/2026 (13/10/2026)",
+          "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183630",
+          "consultada_em": "2026-10-16",
+          "trecho": "Para empreendimentos de pequena escala, o acúmulo de obrigações pretéritas compromete os recursos necessários à atividade e ao cumprimento dos recolhimentos correntes, bem como cria obstáculo à obtenção de crédito e à contratação com o Poder Público.",
+          "prova": "O próprio governo descreve o efeito da dívida do MEI sobre o crédito."
+        }
+      ]
+    },
+    {
+      "id": "A139",
+      "veredito": "IMPRECISO",
+      "resumo": "O custo de até R$ 15 bilhões é despesa do orçamento, que o governo diz compensar com corte em outras áreas",
+      "explicacao": "A MP 1.393 diz que a compra das carteiras corre à conta de dotações orçamentárias do Ministério da Fazenda, com limite de R$ 15 bilhões, e que a despesa é discricionária. O ministro do Planejamento informou no lançamento que o custo é registrado como despesa primária e será acomodado por remanejamento entre rubricas, sem aumento global de despesa e dentro do limite de gastos. Ou seja: a MP prende a despesa ao orçamento disponível e o governo diz que vai compensá-la, sem ampliar o limite, mas o programa ocupa até R$ 15 bilhões do espaço de despesa discricionária, que deixa de ir para outras áreas. A compensação é anunciada para o orçamento do ano que vem e ainda não está num documento capturado. 'Sem mexer no espaço fiscal' não descreve isso com precisão. Por isso IMPRECISO, e não FALSO: o programa não amplia o limite de despesas, mas usa o espaço dentro dele.",
+      "numero_dito": null,
+      "numero_apurado": "até R$ 15 bilhões em despesa primária discricionária, compensada",
+      "data_de_referencia": "MP 1.393 e declarações de 25/09/2026",
+      "ressalva": "O programa não aumenta a despesa total, mas usa espaço do orçamento que iria para outras áreas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.393, de 25 de setembro de 2026 (texto no Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1393.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 31-E . As despesas decorrentes da aquisição, pela União, de carteiras de créditos inadimplidos ou de eventual integralização de cotas em fundo correrão à conta de dotações orçamentárias consignadas ao Ministério da Fazenda, observado o limite máximo de R$ 15.000.000.000,00 (quinze bilhões de reais). Parágrafo único. As despesas de que trata o caput têm natureza discricionária e observarão a disponibilidade orçamentária e financeira.",
+          "prova": "A compra é despesa do orçamento, com teto e natureza discricionária."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Consultoria Legislativa do Senado Federal",
+          "titulo": "Sumário Executivo da Medida Provisória nº 1.393, de 2026 (29/09/2026)",
+          "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/sumarios-de-proposicoes/mpv1393",
+          "consultada_em": "2026-10-16",
+          "trecho": "Quanto ao impacto financeiro orçamentário da Medida Provisória, as despesas decorrentes da aquisição de carteiras de crédito pela União, conforme a Exposição de Motivos, correrão à conta de dotações orçamentárias consignadas ao Ministério da Fazenda, observado o limite máximo de R$ 15 bilhões.",
+          "prova": "A leitura do Senado da exposição de motivos sobre o impacto orçamentário."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Acessa.com (Estadão Conteúdo)",
+          "titulo": "Moretti: Haverá remanejamento de despesas para acomodar Desenrola 3.0 no orçamento (25/09/2026)",
+          "url": "https://www.acessa.com/noticias/2026/09/341253-moretti-havera-remanejamento-de-despesas-para-acomodar-desenrola-3-0-no-orcamento.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro do Planejamento, Bruno Moretti, disse hoje que o governo fará um remanejamento de despesas no orçamento do ano que vem para acomodar o Desenrola 3.0 sem descumprir as regras fiscais. O custo máximo do programa é de R$ 15 bilhões, registrado como despesa primária, que será compensada com redução de gastos em outras áreas.",
+          "prova": "O governo trata o custo como despesa primária compensada por corte em outras áreas."
+        }
+      ]
+    },
+    {
+      "id": "A140",
+      "veredito": "VERDADEIRO",
+      "resumo": "Indicado por Lula e aprovado pelo Senado, Galípolo assumiu o Banco Central em janeiro de 2025",
+      "explicacao": "Lula indicou Gabriel Galípolo para a presidência do Banco Central; o Senado aprovou a indicação por 66 votos a 5 em outubro de 2024, com início do mandato em janeiro de 2025 e duração de quatro anos. Em 2026 ele segue como presidente do BC, como mostram as reportagens sobre suas falas e a própria cobertura da entrevista. De janeiro de 2025 a 15/10/2026 são um ano e nove meses, como disse a pergunta. As fontes são de imprensa porque a afirmação é de data e de indicação, e três redações independentes registram o mesmo.",
+      "numero_dito": "um ano e nove meses",
+      "numero_apurado": "no cargo desde janeiro de 2025",
+      "data_de_referencia": "início do mandato em janeiro de 2025; fala de 15/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Reuters (publicado por Notícias Agrícolas)",
+          "titulo": "Senado aprova indicação de Galípolo à presidência do Banco Central (08/10/2024)",
+          "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/386388-senado-aprova-indicacao-de-galipolo-a-presidencia-do-banco-central.amp.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Senado aprovou nesta terça-feira a indicação de Gabriel Galípolo para a presidência do Banco Central a partir de 2025 [...] Aprovado por 66 votos a 5, o nome indicado pelo presidente Luiz Inácio Lula da Silva substituirá Roberto Campos Neto",
+          "prova": "Indicação de Lula e aprovação no Senado para assumir em 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Gabriel Galípolo é o novo presidente do Banco Central (08/10/2024)",
+          "url": "https://www.correiodamanha.com.br/politica/2024/10/amp/160754-gabriel-galipolo-e-o-novo-presidente-do-banco-central.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A indicação foi aprovada por 66 votos favoráveis, cinco contrários e nenhuma abstenção. Ele entrará no lugar de Roberto Campos Neto em janeiro de 2025 e atuará no posto por quatro anos.",
+          "prova": "O mês de início do mandato: janeiro de 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula defende crescimento contra dívida e descarta corte de gastos (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-defende-crescimento-contra-divida-e-descarta-corte-de-gastos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "uma declaração recente do presidente do Banco Central , Gabriel Galípolo",
+          "prova": "Na data da fala, Galípolo segue como presidente do BC."
+        }
+      ]
+    },
+    {
+      "id": "A141",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Selic subiu de 12,25% a 15% e caiu a 13,75% até a fala: ainda acima do nível de quando Galípolo assumiu",
+      "explicacao": "Pela série oficial da meta Selic do Banco Central, a taxa estava em 12,25% no início de janeiro de 2025, quando Galípolo assumiu. Sob a gestão dele subiu até 15% (junho de 2025), ficou nesse nível até março de 2026 e depois teve cinco cortes de 0,25 ponto, chegando a 13,75% em setembro de 2026, valor vigente na data da fala. A redução acumulada desde o pico foi de 1,25 ponto e a taxa seguia acima do ponto de partida. 'Significativa' é avaliação, mas o dado sustenta a leitura de que não houve redução grande dos juros no período. Confiança média pelo juízo embutido na palavra.",
+      "numero_dito": null,
+      "numero_apurado": "12,25% (jan/2025), pico de 15%, 13,75% em 15/10/2026",
+      "data_de_referencia": "meta Selic de 02/01/2025 a 15/10/2026",
+      "ressalva": "Os cortes somaram 1,25 ponto desde o pico, todos em 2026",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "1,25 ponto",
+          "de": "15.00 menos 13.75",
+          "como": "subtração do pico da meta Selic pelo valor vigente na data da fala"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 432)",
+          "titulo": "Meta Selic definida pelo Copom, % ao ano",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/12/2024&dataFinal=15/10/2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "{\"data\":\"02/01/2025\",\"valor\":\"12.25\"} [...] {\"data\":\"30/01/2025\",\"valor\":\"13.25\"} [...] {\"data\":\"19/06/2025\",\"valor\":\"15.00\"} [...] {\"data\":\"18/03/2026\",\"valor\":\"15.00\"},{\"data\":\"19/03/2026\",\"valor\":\"14.75\"} [...] {\"data\":\"17/09/2026\",\"valor\":\"13.75\"} [...] {\"data\":\"15/10/2026\",\"valor\":\"13.75\"}",
+          "prova": "A série oficial: nível na posse, pico, início dos cortes e valor na data da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Copom realiza o terceiro corte na taxa de juros em 2026; Selic vai a 14,25%",
+          "url": "https://www.itatiaia.com.br/economia/copom-realiza-o-terceiro-corte-na-taxa-de-juros-em-2026-selic-vai-a-1425/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em março, a autoridade monetária realizou o primeiro corte da Selic em 2026, levando a taxa do patamar histórico de 15% ao ano para 14,75%. Em abril, o movimento foi repetido para 14,5%.",
+          "prova": "Confirma o pico de 15% e que os cortes começaram em 2026, em passos de 0,25 ponto."
+        }
+      ]
+    },
+    {
+      "id": "A142",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em evento do Santander em agosto, Galípolo disse que não há crescimento sustentável movido só por consumo",
+      "explicacao": "Na conferência anual do Santander, em 17/08/2026, Galípolo disse que o Brasil vive crescimento puxado pelo consumo com demanda acima da oferta, que o BC não conduz os juros para colaborar com crescimento puxado por mais consumo e que não existe crescimento sustentável movido apenas por consumo, sem ganho de produtividade. Duas redações registraram a fala. É o conteúdo que a pergunta atribui a ele. A palavra 'esgotado' não aparece nos relatos do evento, e a ligação explícita com corte de gastos para baixar os juros, citada pela imprensa ao descrever a pergunta, não foi achada num registro primário da fala. Por isso VERDADEIRO no essencial, com confiança média e ressalva.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "conferência do Santander, 17/08/2026",
+      "ressalva": "A palavra esgotado não aparece nos relatos do evento, e a ligação com corte de gastos não foi achada",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Seu Dinheiro",
+          "titulo": "Por que a Selic continua alta? Galípolo aponta culpado para os juros elevados e faz alerta sobre inadimplência",
+          "url": "https://www.seudinheiro.com/2026/economia/galipolo-selic-deve-seguir-restritiva-para-reequilibrar-oferta-e-demanda-ccgg/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A declaração foi feita nesta segunda-feira (17) durante a 27ª Conferência Anual do Santander, em São Paulo. [...] Na visão do chefe da autoridade monetária, o Brasil vive um cenário prolongado de pleno emprego e crescimento puxado pelo consumo. [...] Galípolo alertou que não existe crescimento sustentável movido apenas por consumo.",
+          "prova": "O relato do evento com a ideia atribuída a ele na pergunta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Galípolo defende juro contracionista para frear demanda doméstica",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/galipolo-defende-juro-contracionista-para-frear-demanda-domestica/",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"Neste momento, o Banco Central não está pilotando a política monetária pensando em colocar a taxa de juros de uma maneira para colaborar com o crescimento puxado por mais consumo e mais demanda. A gente está muito mais pensando em botar um patamar contracionista\", declarou Galípolo.",
+          "prova": "A citação literal do evento, registrada por outra redação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula defende crescimento contra dívida e descarta corte de gastos (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-defende-crescimento-contra-divida-e-descarta-corte-de-gastos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "uma declaração recente do presidente do Banco Central , Gabriel Galípolo , indicando que o modelo focado no estímulo ao consumo está esgotado e que a redução dos juros depende de cortes substanciais de despesas.",
+          "prova": "Como a imprensa resumiu a declaração citada na pergunta."
+        }
+      ]
+    },
+    {
+      "id": "A143",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Planalto registra o nascimento de Lula em 27 de outubro de 1945: ele tinha 80 anos na data da fala",
+      "explicacao": "A biografia oficial no site do Planalto diz que Lula nasceu em 27 de outubro de 1945; ele completou 80 anos em 27/10/2025, como registrou a cobertura do aniversário, e só faria 81 depois da data da fala. A ressalva é que documentos antigos, como a ficha do sindicato, registram o nascimento em 6 de outubro, data em que ele foi registrado; por essa data ele já teria completado 81 anos. A data que o próprio Planalto publica é 27 de outubro, e por ela a idade dita confere.",
+      "numero_dito": "80 anos",
+      "numero_apurado": "80 anos (nascimento em 27 de outubro de 1945)",
+      "data_de_referencia": "idade em 15/10/2026",
+      "ressalva": "Alguns documentos registram 6 de outubro como nascimento; por essa data seriam 81 anos",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "O Planalto e a imprensa dão 27 de outubro de 1945; a ficha do Sindicato dos Metalúrgicos do ABC, citada pela TVT, traz 6 de outubro.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "81 anos",
+          "de": "6 de outubro de 1945",
+          "como": "idade completa em 15/10/2026 contada a partir da data de registro"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Biografia do presidente",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+          "consultada_em": "2026-10-16",
+          "trecho": "Luiz Inácio Lula da Silva nasceu em 27 de outubro de 1945 na cidade de Garanhuns, interior de Pernambuco.",
+          "prova": "A data de nascimento oficial publicada pela Presidência."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (Agência Brasil)",
+          "titulo": "Lula completa 80 anos e se torna o primeiro octogenário no cargo (27/10/2025)",
+          "url": "https://www.opovo.com.br/noticias/politica/2025/10/27/amp/lula-completa-80-anos-e-se-torna-o-primeiro-octogenario-no-cargo.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Aos 80 anos completados nesta segunda-feira (27), o governante supera o recorde anterior do ex-presidente Michel Temer",
+          "prova": "Ele completou 80 anos em outubro de 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News",
+          "titulo": "Aniversário do Lula; presidente faz 80 anos e está pronto para o 4° mandato (26/10/2025)",
+          "url": "https://tvtnews.com.br/lula-faz-80-anos-o-aniversario-do-presidente/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Curiosamente, a data de nascimento do presidente consta em documentos como 6 de outubro. Assim como milhares de brasileiros, Lula foi registrado numa data diferente da data de nascimento.",
+          "prova": "A divergência de data de registro, que vai na ressalva."
+        }
+      ]
+    }
+  ]
+}

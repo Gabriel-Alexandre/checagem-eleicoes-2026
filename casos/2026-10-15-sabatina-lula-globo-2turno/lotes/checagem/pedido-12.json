@@ -1,0 +1,242 @@
+PEDIDO DE CHECAGEM 12 de 15 · alegações A144 a A156
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-12.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A144",
+      "inicio_s": 2145.5,
+      "fim_s": 2151.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu assumi a presidência em 2003, o Brasil era a 12ª economia do mundo",
+      "afirmacao": "Em 2003, quando Lula assumiu, o Brasil era a 12ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook) ou Banco Mundial, para 2002 e 2003",
+        "se a posição muda conforme a medida (dólar corrente ou paridade de poder de compra)"
+      ]
+    },
+    {
+      "id": "A145",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI",
+      "afirmacao": "Em 2003, o Brasil devia cerca de US$ 30 bilhões ao FMI",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "saldo devedor do Brasil com o FMI no início de 2003, nos dados do FMI ou do Banco Central",
+        "a moeda da dívida (dólares ou DES) e o valor no pico do acordo de 2002"
+      ]
+    },
+    {
+      "id": "A146",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI e não estava crescendo",
+      "citacao_card": "e não estava crescendo",
+      "afirmacao": "Quando Lula assumiu em 2003, a economia brasileira não estava crescendo",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "crescimento do PIB em 2002 e 2003, IBGE (Contas Nacionais)",
+        "se 'não estava crescendo' cabe a crescimento baixo porém positivo"
+      ]
+    },
+    {
+      "id": "A147",
+      "inicio_s": 2156.7,
+      "fim_s": 2159.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu deixei a presidência, o Brasil era a 7ª economia do mundo",
+      "afirmacao": "Quando Lula deixou a presidência, em 2010, o Brasil era a 7ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook) ou Banco Mundial, para 2010",
+        "se a posição muda conforme a medida e a revisão dos dados"
+      ]
+    },
+    {
+      "id": "A148",
+      "inicio_s": 2160.2,
+      "fim_s": 2162.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Fizemos uma reserva de 270 bilhões de dólares",
+      "afirmacao": "Os governos Lula 1 e 2 formaram reservas internacionais de cerca de US$ 270 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "série das reservas internacionais do Banco Central, dez/2002 e dez/2010",
+        "se o número se refere ao estoque final ou ao acréscimo no período"
+      ]
+    },
+    {
+      "id": "A149",
+      "inicio_s": 2163.0,
+      "fim_s": 2164.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "paguei os 30 bilhões do FMI",
+      "afirmacao": "O governo Lula quitou a dívida de cerca de US$ 30 bilhões com o FMI",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "data e valor da quitação antecipada da dívida com o FMI, notas do Banco Central e do FMI",
+        "quanto do total devido foi pago no governo Lula e quanto antes dele"
+      ]
+    },
+    {
+      "id": "A150",
+      "inicio_s": 2164.6,
+      "fim_s": 2168.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e aí emprestei 15 bilhões depois da crise do subprime ao FMI",
+      "afirmacao": "Depois da crise do subprime, o Brasil emprestou US$ 15 bilhões ao FMI",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "valor comprometido e valor efetivamente aportado pelo Brasil ao FMI em 2009-2010 (compra de notas do FMI, NAB), Banco Central e FMI",
+        "a diferença entre compromisso anunciado e desembolso"
+      ]
+    },
+    {
+      "id": "A151",
+      "inicio_s": 2170.4,
+      "fim_s": 2173.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu peguei a economia outra vez, a 12ª",
+      "afirmacao": "Quando Lula voltou à presidência, em 2023, o Brasil era a 12ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, comparando com o mandato atual",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook), para 2022",
+        "se a posição muda conforme a medida e a revisão dos dados"
+      ]
+    },
+    {
+      "id": "A152",
+      "inicio_s": 2173.7,
+      "fim_s": 2175.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Hoje já é a 10ª",
+      "afirmacao": "Hoje o Brasil é a 10ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, comparando com o mandato atual",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares no dado anual mais recente (2025) e na projeção do FMI para 2026",
+        "qual base a fala usa: último ano fechado ou estimativa do ano corrente"
+      ]
+    },
+    {
+      "id": "A153",
+      "inicio_s": 2188.5,
+      "fim_s": 2204.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "muitos economistas, inclusive economistas que apoiam o senhor até hoje ou já apoiaram o senhor, reclamam do fato que o senhor parece estar dizendo que quem se preocupa com os fundamentos da macroeconomia não está se preocupando com os mais pobres",
+      "citacao_card": "muitos economistas, inclusive economistas que apoiam o senhor [...] reclamam",
+      "afirmacao": "Muitos economistas, inclusive apoiadores atuais ou antigos de Lula, criticam a fala de que quem se preocupa com os fundamentos macroeconômicos não se preocupa com os pobres",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "declarações públicas de economistas ligados ou que já foram ligados ao PT ou ao governo criticando esse tipo de fala, em entrevistas e artigos de 2023 a 2026",
+        "se a crítica registrada é sobre essa oposição entre fundamentos e pobres, ou sobre outra coisa"
+      ]
+    },
+    {
+      "id": "A154",
+      "inicio_s": 2207.2,
+      "fim_s": 2211.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o fato da dívida pública ter crescido 10 pontos percentuais no seu governo",
+      "afirmacao": "A dívida pública cresceu 10 pontos percentuais do PIB no atual governo Lula",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "Dívida Bruta do Governo Geral em % do PIB, Banco Central (estatísticas fiscais), dez/2022 e último mês divulgado antes de 15/out/2026",
+        "se o número muda conforme o indicador (DBGG, DLSP ou critério do FMI)"
+      ]
+    },
+    {
+      "id": "A155",
+      "inicio_s": 2211.7,
+      "fim_s": 2220.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e de boa parte dos economistas considerar que a trajetória da dívida, mais até do que o valor dela, a trajetória da dívida é insustentável",
+      "citacao_card": "boa parte dos economistas considerar [...] a trajetória da dívida é insustentável",
+      "afirmacao": "Boa parte dos economistas considera insustentável a trajetória da dívida pública brasileira",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "levantamentos com economistas sobre a sustentabilidade da dívida (pesquisas de mercado, relatórios da IFI do Senado, projeções do Prisma Fiscal), em 2026",
+        "se as instituições citadas falam em trajetória insustentável ou em outro termo"
+      ]
+    },
+    {
+      "id": "A156",
+      "inicio_s": 2226.2,
+      "fim_s": 2228.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu criei uma família com cinco filhos",
+      "afirmacao": "Lula criou cinco filhos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à observação sobre a dívida pública",
+      "o_que_conferir": [
+        "biografia oficial de Lula (Presidência, Instituto Lula) e registro público dos filhos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A118",
+      "veredito": "VERDADEIRO",
+      "resumo": "Valores de 2023 (R$ 142 por pessoa, piso de R$ 600) ficaram sem correção até o decreto de setembro de 2026",
+      "explicacao": "A Lei 14.601, de junho de 2023, fixou os benefícios do Bolsa Família em R$ 142 por integrante, piso de R$ 600 por família, R$ 150 por criança pequena e R$ 50 de benefício variável, e autorizou o Executivo a corrigi-los por ato próprio. O Decreto 13.120, de 17 de setembro de 2026, é o ato que faz a primeira correção desses valores, pela inflação acumulada desde março de 2023. A imprensa e o próprio ministério descrevem o decreto como a primeira atualização desde o relançamento do programa. A frase, portanto, confere: até a decisão de 2026 os valores não tinham sido reajustados no mandato. A checagem se limita ao fato do reajuste; o momento em que o presidente soube disso não é verificável.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "de março de 2023 a 17 de setembro de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Lei nº 14.601, de 19 de junho de 2023 (Programa Bolsa Família)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "I - Benefício de Renda de Cidadania, no valor de R$ 142,00 (cento e quarenta e dois reais) por integrante, destinado a todas as famílias beneficiárias do Programa Bolsa Família; II - Benefício Complementar, destinado às famílias beneficiárias do Programa Bolsa Família cuja soma dos valores relativos aos benefícios financeiros de que trata o inciso I deste parágrafo seja inferior a R$ 600,00 (seiscentos reais) [...] III - Benefício Primeira Infância, no valor de R$ 150,00 (cento e cinquenta reais) por criança [...] IV - Benefício Variável Familiar, no valor de R$ 50,00 (cinquenta reais) [...] § 4º Os valores de que trata o § 3º deste artigo poderão ser corrigidos a cada intervalo de, no máximo, 24 (vinte e quatro) meses, na forma estabelecida em regulamento, vedada sua redução.",
+          "prova": "Os valores fixados em 2023, inclusive os adicionais, e a previsão legal de correção por ato do Executivo, que é o ponto de partida da frase."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Decreto nº 13.120, de 17 de setembro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13120.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dispõe sobre a correção do valor dos benefícios financeiros do Programa Bolsa Família pela variação acumulada do Índice Nacional de Preços ao Consumidor – INPC entre março de 2023 e agosto de 2026.",
+          "prova": "O ato de 2026 corrige a inflação desde março de 2023, o que mostra que os valores estavam parados desde então."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Lula anuncia primeiro reajuste no Bolsa Família desde março de 2023 (17/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/122353/lula-anuncia-primeiro-reajuste-no-bolsa-familia-desde-marco-de-2023",
+          "consultada_em": "2026-10-16",
+          "trecho": "O último reajuste estrutural do Bolsa Família havia ocorrido no relançamento do programa, em março de 2023. Desde então, os valores-base não tinham sido corrigidos até o anúncio de Lula nesta quinta-feira. Em 2023, o novo desenho estabeleceu R$ 142 por integrante da família, com complemento para garantir piso mínimo de R$ 600",
+          "prova": "Leitura independente da imprensa: nenhuma correção entre 2023 e o anúncio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna de Jundiaí",
+          "titulo": "Lula aumenta Bolsa Família a 17 dias das eleições",
+          "url": "https://tribunadejundiai.com.br/politica/lula-aumenta-bolsa-familia-a-17-dias-das-eleicoes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o Ministério do Desenvolvimento Social, esta é a primeira atualização pela inflação desde a retomada do atual modelo do Bolsa Família, em 2023.",
+          "prova": "Registra a posição do ministério responsável de que não houve atualização anterior."
+        }
+      ]
+    },
+    {
+      "id": "A119",
+      "veredito": "VERDADEIRO",
+      "resumo": "O reajuste de 15,04% é a inflação do INPC de março de 2023 a agosto de 2026, período sem correção do benefício",
+      "explicacao": "Os valores do Bolsa Família foram fixados em março de 2023 (MP 1.164, depois Lei 14.601) e não foram corrigidos até setembro de 2026. O Decreto 13.120 corrige todos os componentes pela variação acumulada do INPC de março de 2023 a agosto de 2026, que a imprensa e o governo informam como 15,04%. A conta confere no número-índice do INPC do IBGE: 7810,09 em agosto de 2026 contra 6788,87 em fevereiro de 2023 dá 15,04%. Os novos valores (R$ 164, R$ 691, R$ 173 e R$ 58, contra R$ 142, R$ 600, R$ 150 e R$ 50) arredondam para cima, então cada componente, inclusive os adicionais, sobe pelo menos a inflação do período. A essência da frase, repor tudo o que não foi corrigido desde a última fixação, se sustenta. O índice do decreto é o INPC. Pelo IPCA, a inflação do mesmo período foi maior, 16,3% (número-índice de 7633,23 em agosto de 2026 contra 6563,07 em fevereiro de 2023), e por essa régua o piso de R$ 691 (alta de 15,2%) fica pouco abaixo da reposição integral. A diferença é pequena e não muda a leitura da frase, por isso VERDADEIRO com ressalva.",
+      "numero_dito": "tudo o que a gente não deu",
+      "numero_apurado": "15,04%, a variação do INPC de março de 2023 a agosto de 2026",
+      "data_de_referencia": "INPC de março de 2023 a agosto de 2026; decreto de 17 de setembro de 2026",
+      "ressalva": "A reposição usa o INPC até agosto de 2026; pelo IPCA, a inflação do mesmo período foi de 16,3%.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "15,04%",
+          "de": "7810.0900000000000 dividido por 6788.8700000000000",
+          "como": "variação do número-índice do INPC entre fevereiro de 2023 e agosto de 2026: 7810,09 / 6788,87 = 1,1504"
+        },
+        {
+          "valor": "16,3%",
+          "de": "7633.2300000000000 dividido por 6563.0700000000000",
+          "como": "variação do número-índice do IPCA entre fevereiro de 2023 e agosto de 2026: 7633,23 / 6563,07 = 1,1631"
+        },
+        {
+          "valor": "15,2%",
+          "de": "691 dividido por 600",
+          "como": "alta do piso: R$ 691 / R$ 600 = 1,1517"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Decreto nº 13.120, de 17 de setembro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13120.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 1º Este Decreto corrige o valor dos benefícios financeiros do Programa Bolsa Família pela variação acumulada do Índice Nacional de Preços ao Consumidor – INPC entre março de 2023 e agosto de 2026. [...] no valor de R$ 164,00 (cento e sessenta e quatro reais); II - Benefício Complementar - destinado às famílias cuja soma dos valores dos benefícios de que trata o inciso I seja inferior a R$ 691,00 (seiscentos e noventa e um reais) [...] no valor de R$ 173,00 (cento e setenta e três reais); IV - Benefício Variável Familiar - no valor de R$ 58,00 (cinquenta e oito reais)",
+          "prova": "O ato corrige todos os componentes, valor-base e adicionais, pela inflação desde a fixação de 2023."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 1736)",
+          "titulo": "INPC, número-índice (base: dezembro de 1993 = 100)",
+          "url": "https://apisidra.ibge.gov.br/values/t/1736/n1/all/v/2289,2292/p/202302,202303,202608",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"V\": \"6788.8700000000000\", \"D1C\": \"1\", \"D1N\": \"Brasil\", \"D2C\": \"2289\", \"D2N\": \"INPC - Número-índice (base: dezembro de 1993 = 100)\", \"D3C\": \"202302\", \"D3N\": \"fevereiro 2023\" [...] \"V\": \"7810.0900000000000\", \"D1C\": \"1\", \"D1N\": \"Brasil\", \"D2C\": \"2289\", \"D2N\": \"INPC - Número-índice (base: dezembro de 1993 = 100)\", \"D3C\": \"202608\", \"D3N\": \"agosto 2026\"",
+          "prova": "Os dois pontos do índice que permitem refazer a conta: a inflação de março de 2023 a agosto de 2026 é 15,04%."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 1737)",
+          "titulo": "IPCA, número-índice (base: dezembro de 1993 = 100)",
+          "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/202302,202303,202608",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"V\": \"6563.0700000000000\", \"D1C\": \"1\", \"D1N\": \"Brasil\", \"D2C\": \"2266\", \"D2N\": \"IPCA - Número-índice (base: dezembro de 1993 = 100)\", \"D3C\": \"202302\", \"D3N\": \"fevereiro 2023\" [...] \"V\": \"7633.2300000000000\", \"D1C\": \"1\", \"D1N\": \"Brasil\", \"D2C\": \"2266\", \"D2N\": \"IPCA - Número-índice (base: dezembro de 1993 = 100)\", \"D3C\": \"202608\", \"D3N\": \"agosto 2026\"",
+          "prova": "O índice oficial de inflação no mesmo período: 16,3%, pouco acima dos 15,04% do INPC usado no decreto."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Lei nº 14.601, de 19 de junho de 2023 (Programa Bolsa Família)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "I - Benefício de Renda de Cidadania, no valor de R$ 142,00 (cento e quarenta e dois reais) por integrante [...] seja inferior a R$ 600,00 (seiscentos reais) [...] III - Benefício Primeira Infância, no valor de R$ 150,00 (cento e cinquenta reais) por criança [...] IV - Benefício Variável Familiar, no valor de R$ 50,00 (cinquenta reais)",
+          "prova": "Os valores anteriores, que permitem conferir que cada componente subiu pelo menos 15,04%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CUT",
+          "titulo": "Lula anuncia reajuste de 15% no Bolsa Família, que terá mínimo de R$ 691 (17/09/2026)",
+          "url": "https://www.cut.org.br/noticias/lula-anuncia-reajuste-de-15-no-bolsa-familia-que-tera-minimo-de-r-691-6a71/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O reajuste corresponde à variação acumulada de 15,04% do Índice Nacional de Preços ao Consumidor (INPC) entre março de 2023 e agosto de 2026.",
+          "prova": "O percentual anunciado, igual à inflação acumulada do período."
+        }
+      ]
+    },
+    {
+      "id": "A120",
+      "veredito": "VERDADEIRO",
+      "resumo": "O projeto do Orçamento de 2027 foi enviado ao Congresso em 31 de agosto, 17 dias antes do anúncio do reajuste",
+      "explicacao": "A Instituição Fiscal Independente do Senado registra que o projeto de lei orçamentária de 2027 foi apresentado pelo governo ao Congresso em 31 de agosto, e a imprensa registra o envio no mesmo dia (PLN 24/2026). O reajuste do Bolsa Família foi anunciado em 17 de setembro, 17 dias depois, o que a pergunta arredonda para duas semanas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "31 de agosto de 2026 (envio) e 17 de setembro de 2026 (anúncio)",
+      "ressalva": "O intervalo exato foi de 17 dias, pouco mais de duas semanas.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "Uma reportagem publicada na manhã de 1º de setembro (Acessa) dizia que o projeto ainda não tinha sido formalmente protocolado. A IFI, do próprio Senado, e as demais reportagens registram a apresentação ao Congresso em 31 de agosto.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal, Instituição Fiscal Independente (IFI)",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "o RAF 116 procura traçar um raio X do Projeto de Lei Orçamentária Anual (PLOA 2027), apresentado pelo governo ao Congresso Nacional em 31 de agosto.",
+          "prova": "Registro do órgão técnico do Senado sobre a data de apresentação do projeto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil 61",
+          "titulo": "Orçamento de 2027: governo estima salário mínimo de R$ 1.741 e não reajusta Bolsa Família",
+          "url": "https://brasil61.com/n/orcamento-de-2027-governo-estima-salario-minimo-de-r-1-741-e-nao-reajusta-bolsa-familia-bras2617057",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Governo Federal enviou a Proposta de Lei Orçamentária Anual (PLOA) de 2027 (PLN 24/2026) ao Congresso Nacional na última segunda-feira (31).",
+          "prova": "Confirma o envio em 31 de agosto, com o número do projeto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Há 17 dias, governo descartava reajuste no Bolsa Família no Orçamento de 2027 (17/09/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4347475/ha-17-dias-governo-descartava-reajuste-no-bolsa-familia-no-orcamento-de-2027",
+          "consultada_em": "2026-10-16",
+          "trecho": "Anunciado nesta quinta-feira, 17, pelo governo federal, o reajuste de 15% do Bolsa Família não estava previsto no Projeto de Lei Orçamentária de 2027 (PLOA). Há 17 dias, durante a coletiva de imprensa para comentar o PLOA de 2027, o governo descartou reajuste no benefício social.",
+          "prova": "Dá o intervalo entre a apresentação do projeto e o anúncio do reajuste: 17 dias."
+        }
+      ]
+    },
+    {
+      "id": "A121",
+      "veredito": "VERDADEIRO",
+      "resumo": "O projeto de 2027 reservou R$ 157,1 bilhões ao Bolsa Família sem reajuste, como disse o próprio ministro em 31 de agosto",
+      "explicacao": "Na apresentação do projeto de orçamento de 2027, o ministro do Planejamento, Bruno Moretti, afirmou que não havia previsão de reajuste do Bolsa Família e que o projeto tratava só do montante global, de R$ 157,1 bilhões. A tabela da IFI mostra a dotação quase igual à de 2026 (R$ 155,8 bilhões para R$ 157,1 bilhões). Depois do anúncio de 17 de setembro, a Folha registrou que o custo extra do reajuste não estava previsto no projeto e que o governo teria de ajustá-lo. A pergunta confere.",
+      "numero_dito": null,
+      "numero_apurado": "R$ 157,1 bilhões, sem reajuste do benefício",
+      "data_de_referencia": "projeto de lei orçamentária de 2027, apresentado em 31 de agosto de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": "A Folha (via Diário do Comércio) diz que o valor de R$ 155,8 bilhões foi mantido na proposta de 2027; a IFI e o ministro dão R$ 157,1 bilhões no projeto. Nas duas leituras não há correção do benefício, então a divergência não muda o veredito.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Há 17 dias, governo descartava reajuste no Bolsa Família no Orçamento de 2027 (17/09/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4347475/ha-17-dias-governo-descartava-reajuste-no-bolsa-familia-no-orcamento-de-2027",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"O Orçamento não trata de reajuste, ele trata de um montante global relativo ao Bolsa Família\", afirmou em 31 de agosto. A previsão com o programa para o ano que vem é de R$ 157,1 bilhões. \"Não tem previsão de reajuste. O PLOA também não trata dessa matéria\", acrescentou o ministro na ocasião.",
+          "prova": "A declaração do ministro responsável pelo projeto, no dia do envio, de que não havia reajuste."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal, Instituição Fiscal Independente (IFI)",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026 (tabela de despesas obrigatórias)",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Bolsa Família                  155,8    157,1    1,1%                                       1,1%            -0,1",
+          "prova": "A dotação do programa no projeto de 2027 (R$ 157,1 bilhões) fica praticamente igual à de 2026, sem espaço para correção de 15%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (Folhapress)",
+          "titulo": "Reajuste do Bolsa Família vai custar R$ 22,7 bi em 2027, e governo precisará ajustar Orçamento",
+          "url": "https://diariodocomercio.com.br/economia/reajuste-bolsa-familia-2027/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Os valores adicionais não estão previstos nem no Orçamento de 2026, nem no PLOA (Projeto de Lei Orçamentária Anual) de 2027, encaminhado no fim de agosto ao Congresso Nacional.",
+          "prova": "Confirma, por apuração independente, que o projeto enviado não incluía a correção."
+        }
+      ]
+    },
+    {
+      "id": "A122",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Governo diz que o reajuste cabe remanejando gastos; a instituição fiscal do Senado contesta e o TCU não decidiu",
+      "explicacao": "A afirmação de que havia espaço fiscal é sustentada só pelo governo. O ministro do Planejamento disse que o custo (R$ 5,8 bilhões em 2026 e cerca de R$ 22 bilhões em 2027) cabe no limite de despesas, sem crédito extraordinário, remanejando recursos de outras áreas e usando sobra da Previdência. A Instituição Fiscal Independente contesta a premissa: para ela não há sobra na Previdência, cuja despesa já considera subestimada, e mesmo antes do reajuste o projeto de 2027 só cumpre a meta com contingenciamento de R$ 35,7 bilhões. O Ministério Público junto ao TCU pediu a suspensão do decreto por dúvidas sobre a adequação orçamentária, e as fontes capturadas não registram decisão até a data da fala. O documento que resolveria o ponto de 2026, o relatório bimestral de setembro com o remanejamento detalhado, não foi capturado nesta rodada. Com o governo afirmando, o órgão técnico do Senado contestando e a análise de controle em curso, as fontes não sustentam nem desmentem a frase: por isso o veredito não é FALSO nem VERDADEIRO (etica-e-risco §5).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "anúncio de 17 de setembro de 2026 e projeto de orçamento de 2027",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "Governo (Moretti, Durigan) afirma que há espaço fiscal dentro do limite de despesas; a IFI afirma que não há sobra na Previdência para financiar o reajuste e que a meta de 2027 já exigia contingenciamento.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula aumenta Bolsa Família; piso chega a R$ 691 a 17 dias do 1º turno",
+          "url": "https://www.poder360.com.br/poder-governo/lula-aumenta-bolsa-familia-para-r-691-a-17-dias-do-1o-turno/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo Moretti, o custo da medida será de R$ 5,8 bilhões neste ano, a partir da folha de outubro, e de cerca de R$ 22 bilhões em 2027 [...] O ministro afirmou que parte do espaço fiscal usado para bancar o reajuste vem da zeragem da fila do INSS, que teria gerado sobra de recursos. Segundo ele, a medida não altera a despesa total do governo nem exige créditos fora do orçamento já previsto.",
+          "prova": "O custo informado pelo governo e a posição dele: o reajuste caberia no orçamento sem crédito extra."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande (com Estadão)",
+          "titulo": "IFI aponta pressão no Orçamento de 2027 após reajuste do Bolsa Família",
+          "url": "https://acritica.net/economia/ifi-aponta-pressao-no-orcamento-de-2027-apos-reajuste-do-bolsa-familia/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro do Planejamento e Orçamento, Bruno Moretti, afirmou que os recursos serão acomodados sem aumento do limite global de despesas, a partir de uma revisão das projeções da Previdência e de economias obtidas com a revisão de cadastros. A avaliação da IFI é diferente. O diretor-executivo da instituição, Marcus Pestana, afirmou ao Estadão que não haveria sobra na Previdência para financiar a mudança, uma vez que o órgão já considera subestimada a despesa previdenciária prevista para 2027.",
+          "prova": "Mostra a contestação técnica à fonte de espaço apontada pelo governo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal, Instituição Fiscal Independente (IFI)",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A IFI identifica que, mesmo após as exclusões legais de despesas na apuração do resultado primário, haverá superávit primário inferior a R$ 1 bilhão, insuficiente para o cumprimento da meta fiscal, ainda que no limite inferior do intervalo de tolerância de 0,25 p.p. do PIB. Nessa situação, a IFI aponta a necessidade de contingenciamento de R$ 35,7 bilhões para o cumprimento da meta no próximo ano.",
+          "prova": "Antes mesmo do reajuste, o órgão técnico do Senado via o projeto de 2027 sem folga para a meta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna de Jundiaí",
+          "titulo": "Lula aumenta Bolsa Família a 17 dias das eleições",
+          "url": "https://tribunadejundiai.com.br/politica/lula-aumenta-bolsa-familia-a-17-dias-das-eleicoes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A representação levanta dúvidas sobre a previsão e a adequação orçamentário-financeira da despesa e sobre a estimativa de seu impacto. O governo contesta essa interpretação. O ministro do Planejamento e Orçamento, Bruno Moretti, afirmou que há recursos para absorver o aumento neste ano por meio da realocação de valores disponíveis em outras rubricas. Até a manhã desta sexta-feira, o TCU ainda não havia se manifestado sobre o pedido.",
+          "prova": "Registra a análise de controle em curso sobre a adequação orçamentária do reajuste."
+        }
+      ]
+    },
+    {
+      "id": "A123",
+      "veredito": "VERDADEIRO",
+      "resumo": "O projeto de 2027 prevê superávit primário efetivo de R$ 18,6 bilhões, 0,1% do PIB; a meta legal é 0,5%",
+      "explicacao": "O projeto de lei orçamentária de 2027 projeta para o governo central um superávit primário efetivo de R$ 18,6 bilhões, que a IFI registra como 0,1% do PIB e o governo como 0,13%. É esse o número citado. Ele não é a meta: a meta da LDO de 2027 é superávit de 0,5% do PIB, e o projeto chega a R$ 83,4 bilhões (0,6% do PIB) quando se descontam as despesas que a lei permite tirar da conta. A IFI projeta, para o mesmo ano, déficit de R$ 86,1 bilhões. A frase descreve corretamente o que o projeto apresenta.",
+      "numero_dito": "superávit primário de 0,1%",
+      "numero_apurado": "0,1% do PIB, superávit primário efetivo de R$ 18,6 bilhões (0,13% no cálculo do governo)",
+      "data_de_referencia": "projeto de lei orçamentária de 2027, apresentado em 31 de agosto de 2026",
+      "ressalva": "É o resultado efetivo projetado; com as deduções legais o projeto mostra R$ 83,4 bilhões (0,6% do PIB), e a IFI projeta déficit.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal, Instituição Fiscal Independente (IFI)",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Já de acordo com as estimativas do Executivo, divulgadas na proposta orçamentária do próximo ano, o governo central deverá ter um superávit primário efetivo de R$ 18,6 bilhões (0,1% do PIB). Desconsiderados os abatimentos legais de despesas, o superávit primário passaria a R$ 83,4 bilhões (0,6% do PIB) em 2027. [...] entre as estimativas de resultado primário efetivo do PLOA 2027 (superávit de R$ 18,6 bilhões, ou 0,1% do PIB) e do RAF nº 113 (déficit de R$ 86,1 bilhões, ou 0,6% do PIB) para 2027",
+          "prova": "O número do projeto, em % do PIB, conferido pelo órgão técnico do Senado, e a projeção de déficit da própria IFI."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Movimento Econômico",
+          "titulo": "Orçamento de 2027 prevê salário mínimo de R$ 1.741 e R$ 6 bilhões para Correios (31/08/2026)",
+          "url": "https://movimentoeconomico.com.br/governo-federal/2026/08/31/orcamento-de-2027-preve-salario-minimo-de-r-1-741-e-r-6-bilhoes-para-correios/",
+          "consultada_em": "2026-10-16",
+          "trecho": "prevê salário mínimo de R$ 1.741 , aporte de R$ 6 bilhões aos Correios e superávit primário estimado em R$ 83,4 bilhões , valor R$ 10,2 bilhões acima da meta fiscal de R$ 73,2 bilhões ( 0,5% do PIB). [...] o superávit efetivo cai para R$ 18,6 bilhões ( 0,13% do PIB).",
+          "prova": "Dá o cálculo do governo (0,13%) e a meta de 0,5%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil 61",
+          "titulo": "Orçamento de 2027: governo estima salário mínimo de R$ 1.741 e não reajusta Bolsa Família",
+          "url": "https://brasil61.com/n/orcamento-de-2027-governo-estima-salario-minimo-de-r-1-741-e-nao-reajusta-bolsa-familia-bras2617057",
+          "consultada_em": "2026-10-16",
+          "trecho": "Conforme o texto do Executivo, o superávit primário – que é a diferença entre o que o governo arrecada e o que gasta – deve ficar em R$ 18,6 bilhões. O valor representa pouco mais de 0,1% do PIB.",
+          "prova": "Confirma, em outra apuração, o superávit de pouco mais de 0,1% do PIB."
+        }
+      ]
+    },
+    {
+      "id": "A124",
+      "veredito": "FALSO",
+      "resumo": "2022 fechou com superávit primário de 1,25% do PIB no setor público e de 0,6% no governo central, não com déficit",
+      "explicacao": "O ano anterior à posse terminou com resultado primário positivo nos dois conceitos oficiais. A série do Banco Central registra superávit de 1,25% do PIB no setor público consolidado em dezembro de 2022 (na convenção da série, valor negativo é superávit), e o TCU registra superávit de R$ 54,9 bilhões, 0,6% do PIB, no governo central. Nenhum dos dois produz déficit de 2,8%. O déficit de 2,4% do PIB que aparece na página do TCU é o de 2023, primeiro ano do mandato, e também não é 2,8%. A mesma frase, dita na entrevista ao Jornal Nacional de 27/08/2026, já recebeu o mesmo veredito no caso 2026-08-27-sabatina-lula-globo (A019). A checagem se limita ao número; não avalia a herança fiscal em geral.",
+      "numero_dito": "déficit de 2,8%",
+      "numero_apurado": "superávit primário de 1,25% do PIB (setor público consolidado) e de 0,6% do PIB (governo central) em 2022",
+      "data_de_referencia": "ano de 2022",
+      "ressalva": "O déficit de 2,4% do PIB registrado pelo TCU é de 2023, o primeiro ano do mandato, e não do ano anterior à posse.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "Setor público consolidado e governo central dão números diferentes para 2022 (1,25% e 0,6% do PIB), mas ambos são superávits.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "SGS série 5793, resultado primário do setor público consolidado (% do PIB, 12 meses)",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/1995&dataFinal=31/12/2025",
+          "consultada_em": "2026-10-16",
+          "trecho": "{\"data\":\"01/12/2022\",\"valor\":\"-1.25\"}",
+          "prova": "Na convenção da série (necessidade de financiamento), negativo é superávit: 2022 fechou com superávit de 1,25% do PIB."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União",
+          "titulo": "Fatos Fiscais: resultado fiscal",
+          "url": "https://sites.tcu.gov.br/fatos-fiscais/resultado_fiscal.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Resultado primário déficit de: R$ 264,5 bilhões Percentual do PIB 2,4% [...] Após significativa redução do déficit para R$ 35,9 bilhões em 2021, em 2022, ocorreu a inversão de sinal com superávit de R$ 54,9 bilhões (0,6% do PIB). Entretanto, haja vista a autorização legislativa para a efetivação de deduções no cálculo do resultado primário, finalizou- se, em 2023, com o déficit de R$ 264,5 bilhões .",
+          "prova": "Confirma o superávit de 2022 no governo central e mostra que o déficit de 2,4% é de 2023."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz ser responsável fiscal e prevê superávit de 0,1% (28/08/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-ser-responsavel-fiscal-e-preve-superavit-de-0-1",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula disse que, ao assumir o governo em janeiro de 2023, encontrou um déficit de 2,8% e que a situação teria sido revertida durante sua gestão.",
+          "prova": "Registra que o número se refere à situação encontrada em janeiro de 2023, isto é, ao resultado de 2022."
+        }
+      ]
+    },
+    {
+      "id": "A125",
+      "veredito": "VERDADEIRO",
+      "resumo": "A instituição fiscal do Senado projeta receita R$ 127,9 bi menor que a do projeto de 2027 e déficit de R$ 86,1 bi",
+      "explicacao": "No Relatório de Acompanhamento Fiscal de setembro de 2026, a IFI do Senado avalia o projeto de 2027 e projeta receita primária líquida R$ 127,9 bilhões abaixo da do governo, atribuindo a diferença a premissas mais otimistas no projeto (PIB de 2,5% contra 1,8%) e a receitas de CBS e Imposto Seletivo ainda sem regulamentação. Com isso, em vez do superávit de R$ 18,6 bilhões, projeta déficit de R$ 86,1 bilhões e diz que o cumprimento da meta depende de premissas mais otimistas que as suas. A pergunta resume isso como receitas superestimadas, o que confere na essência. A IFI não usa a palavra superestimadas, aponta divergência também nas despesas e é mais otimista que o governo em petróleo e dividendos.",
+      "numero_dito": null,
+      "numero_apurado": "receita líquida R$ 127,9 bilhões menor; déficit de R$ 86,1 bilhões contra superávit de R$ 18,6 bilhões",
+      "data_de_referencia": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026",
+      "ressalva": "A IFI atribui a diferença também às despesas e é mais otimista que o governo nas receitas de petróleo e dividendos.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal, Instituição Fiscal Independente (IFI)",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "De acordo com a tabela, existe uma diferença, a maior, de R$ 104,8 bilhões (0,7 p.p. do PIB) entre as estimativas de resultado primário efetivo do PLOA 2027 (superávit de R$ 18,6 bilhões, ou 0,1% do PIB) e do RAF nº 113 (déficit de R$ 86,1 bilhões, ou 0,6% do PIB) para 2027. Ainda segundo a tabela, a receita primária líquida do governo central projetada no PLOA é R$ 127,9 bilhões superior à estimativa da IFI, enquanto a despesa primária está R$ 23,2 bilhões acima. [...] o cumprimento formal da meta fiscal permanece possível no próximo ano, mas depende de premissas mais otimistas do que as adotadas por esta instituição [...] Em relação às receitas derivadas da exploração de recursos naturais e dos dividendos repassados ao Tesouro Nacional pelas empresas estatais, os números da IFI são mais otimistas que os presentes no PLOA 2027",
+          "prova": "A própria avaliação da IFI: receitas do projeto acima das suas, risco à meta e a exceção de petróleo e dividendos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna do Sertão",
+          "titulo": "IFI projeta déficit primário de R$ 86,1 bi em 2027 e alerta para necessidade de contingenciamento (17/09/2026)",
+          "url": "https://tribunadosertao.com.br/geral/2026/09/17/980758-ifi-projeta-deficit-primario-de-r-861-bi-em-2027-e-alerta-para-necessidade-de-contingenciamento",
+          "consultada_em": "2026-10-16",
+          "trecho": "A diferença de R$ 104,8 bilhões entre as estimativas de resultado primário se deu pela utilização de diferentes parâmetros macroeconômicos para o próximo ano. O PLOA 2027, que foi enviado ao Congresso Nacional em 31 de agosto, prevê um crescimento de 2,5% do PIB, enquanto a IFI espera 1,8% e o Boletim Focus apenas 1,5% . Uma expansão menor da economia doméstica prejudicaria diretamente a arrecadação",
+          "prova": "Leitura independente do relatório, publicada antes da entrevista: a premissa de crescimento infla a arrecadação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande (com Estadão)",
+          "titulo": "IFI aponta pressão no Orçamento de 2027 após reajuste do Bolsa Família",
+          "url": "https://acritica.net/economia/ifi-aponta-pressao-no-orcamento-de-2027-apos-reajuste-do-bolsa-familia/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A instituição atribui parte da diferença a estimativas distintas para crescimento econômico, arrecadação, massa salarial e despesas obrigatórias.",
+          "prova": "Confirma que a divergência envolve arrecadação e também despesas, o que sustenta a ressalva."
+        }
+      ]
+    },
+    {
+      "id": "A126",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Os 24,9% do FGV Ibre vêm de uma só reportagem, do Estadão; a pesquisa original não foi capturada",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: o Estadão publicou em 11/10/2026, com entrevista do pesquisador Rodolpho Tobler, que em setembro de 2026 24,9% dos brasileiros estavam contraindo dívidas ou se desfazendo de patrimônio para pagar despesas do dia a dia, segundo levantamento do FGV Ibre, o maior percentual para o mês desde 2022. Um em cada quatro é o arredondamento de 24,9%, e água, luz e gás aparecem na reportagem como exemplos. Todas as outras páginas capturadas (40graus, SP Diário, Aciara, Blog do Itamar) saíram no mesmo dia e reproduzem a matéria do Estadão, então a frase tem uma única cadeia de imprensa. A divulgação do próprio FGV Ibre, que seria a fonte primária, não foi capturada: a página da Sondagem do Consumidor recusou a conexão na tentativa da revisão de 16/out. Pela regra do projeto, número precisa de fonte primária ou institucional, ou de duas fontes independentes que citem a primária conferida, e nada disso existe aqui. É a mesma régua aplicada às falas do candidato com fonte primária faltando. Não é FALSO porque nada contradiz o número; com a divulgação do FGV Ibre, deve virar VERDADEIRO.",
+      "numero_dito": "um em cada quatro",
+      "numero_apurado": "24,9% em setembro de 2026, segundo o Estadão",
+      "data_de_referencia": "setembro de 2026",
+      "ressalva": "O Estadão dá 24,9% em setembro de 2026; água, luz e gás são exemplos da reportagem, não a pergunta da pesquisa.",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Estadão",
+          "titulo": "Brasileiros se endividam ou gastam a poupança para pagar contas básicas, como água e luz",
+          "url": "https://www.estadao.com.br/economia/brasileiros-se-endividam-ou-gastam-a-poupanca-para-pagar-contas-basicas-como-agua-e-luz/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Sem folga no orçamento doméstico, os brasileiros estão recorrendo a algum tipo de poupança ou até mesmo se endividando para conseguir pagar contas básicas, como água, luz e gás. [...] Em setembro, 24,9% dos brasileiros estavam contraindo dívidas ou perdendo parte do seu patrimônio para quitar despesas do dia a dia, segundo um levantamento do Instituto Brasileiro de Economia da Fundação Getúlio Vargas (FGV/Ibre). É o maior porcentual para o mesmo mês desde 2022 (25,4%).",
+          "prova": "A matéria original que divulgou o levantamento, com o percentual e o recorte."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "40graus",
+          "titulo": "Contas básicas: 1 em 4 faz dívidas ou usa poupança",
+          "url": "https://40graus.com.br/contas-basicas-dividas-poupanca-brasileiros/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em setembro de 2026, 24,9% da população precisou contrair dívidas ou recorrer ao dinheiro guardado para pagar despesas básicas , como contas de água, energia elétrica e gás. O levantamento do Instituto Brasileiro de Economia da Fundação Getulio Vargas (FGV Ibre) mostra que praticamente um em cada quatro brasileiros já enfrenta dificuldades para cobrir gastos essenciais com os recursos disponíveis no mês.",
+          "prova": "Registra o mês do dado (setembro de 2026), mas reproduz a mesma apuração: não é fonte independente da anterior."
+        }
+      ]
+    },
+    {
+      "id": "A127",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Serasa contou 83,98 milhões de pessoas negativadas em agosto de 2026, arredondados para 84 milhões",
+      "explicacao": "O Mapa da Inadimplência da Serasa registrou 83,9 milhões de inadimplentes no fim de julho de 2026 (divulgação de agosto) e 83,98 milhões em agosto, alta de 0,06% no mês. Os 84 milhões citados são o arredondamento de qualquer das duas leituras. A definição da Serasa é pessoa com alguma dívida em atraso registrada no cadastro.",
+      "numero_dito": "84 milhões",
+      "numero_apurado": "83,98 milhões em agosto de 2026 (83,9 milhões no fim de julho)",
+      "data_de_referencia": "agosto de 2026",
+      "ressalva": "Arredondado: eram 83,98 milhões em agosto, segundo a Serasa.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Serasa (Mapa da Inadimplência e Negociação de Dívidas)",
+          "titulo": "Inadimplência atinge 83,9 milhões de pessoas e quitar dívidas é prioridade para brasileiros no segundo semestre",
+          "url": "https://www.serasa.com.br/imprensa/inadimplencia-segundo-semestre-serasa/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Agosto de 2026 – O Brasil encerrou o mês de julho com 83,9 milhões de pessoas inadimplentes, um avanço de 0,23% em relação ao mês anterior. Segundo o mais recente Mapa da Inadimplência e Negociação de Dívidas da Serasa, ao todo, mais de 348,3 milhões de dívidas estão em aberto, somando R$ 586,4 bilhões em débitos.",
+          "prova": "Divulgação da própria Serasa, produtora do indicador: o patamar de 84 milhões na divulgação de agosto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Com 83,98 milhões negativados, inadimplência no BR alcança menor patamar de crescimento do ano, aponta Serasa (19/09/2026)",
+          "url": "https://mais.opovo.com.br/jornal/farol/2026/09/19/com-8398-milhoes-negativados-inadimplencia-no-br-alcanca-menor-patamar-de-crescimento-do-ano-aponta-serasa.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Com um avanço de 0,06% em agosto, o número de negativados no Brasil registrou o menor incremento mensal de 2026 , conforme dados divulgados no Mapa da Inadimplência e Renegociação de Dívidas da Serasa . [...] No mês, 83,98 milhões de brasileiros carregavam algum tipo de dívida em atraso frente a 83,93 milhões no período anterior.",
+          "prova": "O número do mês de agosto, citado na pergunta."
+        }
+      ]
+    },
+    {
+      "id": "A128",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Desenrola teve a 1ª fase em 2023, a 2.0 em maio de 2026 e a 3.0, criada por medida provisória em 25 de setembro",
+      "explicacao": "A primeira fase do Desenrola Brasil foi instituída pela Lei 14.690, de 2023, e durou até maio de 2024. A segunda, chamada Desenrola 2.0, foi lançada em maio de 2026 e prorrogada até 31 de agosto. A terceira, Desenrola Brasil 3.0, foi criada por medida provisória assinada em 25 de setembro de 2026. O próprio governo descreve a terceira fase como continuidade das duas etapas anteriores. São três edições, como diz a pergunta.",
+      "numero_dito": "três edições",
+      "numero_apurado": null,
+      "data_de_referencia": "2023 a 25 de setembro de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Lei nº 14.690, de 3 de outubro de 2023 (Desenrola Brasil)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14690.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 1º Fica instituído o Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil, com o objetivo de incentivar a renegociação de dívidas de natureza privada de pessoas físicas inscritas em cadastros de inadimplentes para reduzir seu endividamento e facilitar a retomada do acesso ao mercado de crédito. [...] Parágrafo único. O Desenrola Brasil terá duração até 20 de maio de 2024",
+          "prova": "A primeira edição, criada em lei em 2023 e encerrada em maio de 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário de Pernambuco",
+          "titulo": "Governo cria 3ª fase do Desenrola com compra de dívidas pela União (26/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/economia/2026/09/11724998-governo-cria-3-fase-do-desenrola-com-compra-de-dividas-pela-uniao.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva assinou nesta sexta-feira (25), em São Paulo, medida provisória que cria a terceira fase do programa de renegociação de dívidas de pessoas físicas, o Desenrola Brasil 3.0. [...] A terceira fase dá continuidade às duas etapas anteriores do programa, que, segundo o governo, já alcançaram 25 milhões de pessoas.",
+          "prova": "A terceira edição e a contagem do próprio governo: duas etapas anteriores."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Governo oficializa prorrogação do Desenrola até 31 de agosto de 2026",
+          "url": "https://www.dgabc.com.br/Noticia/4338651/governo-oficializa-prorrogacao-do-desenrola-ate-31-de-agosto-de-2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo federal oficializou nesta sexta-feira, 31, a prorrogação do novo programa de renegociação de dívidas, o Desenrola 2.0, até o próximo dia 31 de agosto. [...] Lançada em maio deste ano, a atual edição do Desenrola tinha previsão de durar 90 dias",
+          "prova": "A segunda edição, lançada em maio de 2026."
+        }
+      ]
+    },
+    {
+      "id": "A129",
+      "veredito": "VERDADEIRO",
+      "resumo": "A inadimplência de pessoa física no BC caiu na 1ª fase, ficou estável e subiu de 3,63% (dez/2024) a 6,03% (ago/2026)",
+      "explicacao": "A série do Banco Central de inadimplência da carteira de crédito de pessoas físicas caiu durante a primeira fase do Desenrola (de 4,22% em julho de 2023 para 3,71% em março de 2024). Depois do fim da fase, em 20 de maio de 2024, ficou estável até dezembro (3,63%) e subiu ao longo de 2025 e 2026, chegando a 6,03% em agosto de 2026, acima do nível de antes do programa. Na segunda fase (maio a agosto de 2026), o índice subiu de 5,63% para 6,03%, e a contagem da Serasa de pessoas inadimplentes continuou crescendo, mais devagar. A essência da pergunta, de que a inadimplência volta a subir depois das edições, confere, e o tempo vai na ressalva: depois da primeira fase a alta começou cerca de sete meses após o fim, e na segunda fase o índice subiu durante o programa. A série capturada vai até agosto de 2026 e ainda não mostra o mês seguinte ao fim da segunda fase. A distância no tempo não muda a leitura de que a queda não se sustentou, por isso VERDADEIRO com ressalva, e não IMPRECISO.",
+      "numero_dito": null,
+      "numero_apurado": "de 3,63% em dez/2024 para 6,03% em ago/2026 (inadimplência de pessoas físicas, Banco Central)",
+      "data_de_referencia": "série mensal de janeiro de 2023 a agosto de 2026",
+      "ressalva": "Depois do fim da 1ª fase, em maio de 2024, o índice ficou estável e a alta começou em 2025.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "SGS série 21084, inadimplência da carteira de crédito, pessoas físicas, total (%)",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.21084/dados?formato=json&dataInicial=01/01/2023&dataFinal=31/08/2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "{\"data\":\"01/07/2023\",\"valor\":\"4.22\"} [...] {\"data\":\"01/03/2024\",\"valor\":\"3.71\"},{\"data\":\"01/04/2024\",\"valor\":\"3.75\"},{\"data\":\"01/05/2024\",\"valor\":\"3.82\"} [...] {\"data\":\"01/12/2024\",\"valor\":\"3.63\"},{\"data\":\"01/01/2025\",\"valor\":\"3.89\"} [...] {\"data\":\"01/12/2025\",\"valor\":\"5.12\"} [...] {\"data\":\"01/05/2026\",\"valor\":\"5.63\"},{\"data\":\"01/06/2026\",\"valor\":\"5.42\"},{\"data\":\"01/07/2026\",\"valor\":\"5.80\"},{\"data\":\"01/08/2026\",\"valor\":\"6.03\"}",
+          "prova": "A série mensal: queda durante a 1ª fase, estabilidade em 2024, alta em 2025 e 2026, inclusive durante e depois da 2ª fase."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (Portal de Dados Abertos)",
+          "titulo": "Catálogo de dados abertos: série 21084",
+          "url": "https://dadosabertos.bcb.gov.br/api/3/action/package_search?q=21084&rows=3",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"name\": \"21084-inadimplencia-da-carteira-de-credito---pessoas-fisicas---total\"",
+          "prova": "Identifica no catálogo oficial o que a série 21084 mede: inadimplência da carteira de crédito de pessoas físicas, total."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Serasa (Mapa da Inadimplência e Negociação de Dívidas)",
+          "titulo": "Inadimplência atinge 83,9 milhões de pessoas e quitar dívidas é prioridade para brasileiros no segundo semestre",
+          "url": "https://www.serasa.com.br/imprensa/inadimplencia-segundo-semestre-serasa/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo a Serasa, o avanço das renegociações coincidiu com uma desaceleração no ritmo de crescimento da inadimplência. Enquanto entre maio e julho de 2025 o aumento médio mensal foi de 0,7%, no mesmo período de 2026, a média caiu para 0,2%.",
+          "prova": "Fonte independente do Banco Central: na 2ª fase o número de inadimplentes continuou subindo, só mais devagar."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Lei nº 14.690, de 3 de outubro de 2023 (Desenrola Brasil)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14690.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Parágrafo único. O Desenrola Brasil terá duração até 20 de maio de 2024, ressalvado o disposto no inciso II do § 2º do art. 16 desta Lei.",
+          "prova": "Data de fim da 1ª fase, que marca o depois na série."
+        }
+      ]
+    },
+    {
+      "id": "A130",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pesquisa da CNC: 78% das famílias tinham dívidas em janeiro de 2023; ela mede famílias, não pessoas",
+      "explicacao": "O dado que resolve é a Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), da CNC, no mês da posse. A própria divulgação da CNC de janeiro de 2023 traz 78,0% das famílias com dívidas a vencer, o mesmo nível de dezembro, e diz no texto que o endividamento representava 78% dos lares do País. Duas reportagens independentes que citam a mesma pesquisa confirmam: a Agência Brasil registra 78% em janeiro de 2023 e o InfoMoney traz as faixas de renda do mesmo mês, compatíveis com o total. O número dito é o número da fonte, por isso VERDADEIRO e não IMPRECISO. A ressalva é o recorte: a Peic mede famílias com qualquer dívida a vencer, inclusive no cartão de crédito, e não pessoas nem dívida em atraso; a fala diz 'população'. A diferença não muda a leitura, porque a pesquisa é a referência para a frase e o percentual é o mesmo.",
+      "numero_dito": "78% da população endividada",
+      "numero_apurado": "78,0% das famílias com dívidas a vencer (janeiro de 2023)",
+      "data_de_referencia": "janeiro de 2023",
+      "ressalva": "A Peic mede famílias com qualquer dívida a vencer, inclusive no cartão de crédito, e não pessoas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC)",
+          "titulo": "Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), janeiro de 2023",
+          "url": "https://portal-bucket.azureedge.net/wp-content/2023/10/f235030f6efcefc2fb8fbe6dde45b12e.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "ENDIVIDAMENTO COMEÇA 2023 ESTÁVEL [...] O percentual de famílias que relataram ter dívidas a [...] representando 78% dos lares do País. [...] dez/22 78,0%      30,0%       11,3% [...] jan/23 78,0%      29,9%       11,6%",
+          "prova": "A divulgação da própria CNC: 78,0% das famílias endividadas em janeiro de 2023, mês da posse."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Inadimplência das famílias é a menor em quase dois anos (01/02/2024)",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2024-02/inadimplencia-das-familias-e-menor-em-quase-dois-anos",
+          "consultada_em": "2026-10-16",
+          "trecho": "O percentual de famílias com dívidas, em atraso ou não, ficou em 78,1% em janeiro deste ano. A taxa ficou acima dos 77,6% de dezembro e dos 78% de janeiro de 2023. Dados são da Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), divulgada nesta quinta-feira (1º) pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC).",
+          "prova": "Reportagem independente que cita a Peic: 78% em janeiro de 2023, no mesmo conceito de dívida."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Famílias de baixa e de alta renda entram em 2023 mais endividadas, diz CNC (08/02/2023)",
+          "url": "https://www.infomoney.com.br/minhas-financas/familias-de-baixa-e-de-alta-renda-entram-em-2023-mais-endividadas-diz-cnc/",
+          "consultada_em": "2026-10-16",
+          "trecho": "As famílias que ganham até 3 salários mínimos estavam proporcionalmente mais endividadas em janeiro (79,2% do total, contra 76,5% há um ano), assim como as que ganham mais de 10 salários mínimos (74,4%, contra 71,2% em janeiro de 2022).",
+          "prova": "Cobertura da época com as faixas de renda de janeiro de 2023, compatíveis com o total da CNC."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+PEDIDO DE CHECAGEM 09 de 15 · alegações A105 a A117
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-09.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A105",
+      "inicio_s": 1390.3,
+      "fim_s": 1396.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O cidadão me procurou, porque eu estou me perseguindo politicamente. Até disse o nome das pessoas que estavam perseguindo.",
+      "afirmacao": "No encontro, Vorcaro disse a Lula que estava sendo perseguido politicamente e nomeou quem o perseguia",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "relatos públicos do conteúdo do encontro: declarações de participantes, de Vorcaro, ou depoimentos em inquérito",
+        "se existe registro além da palavra do próprio Lula"
+      ]
+    },
+    {
+      "id": "A106",
+      "inicio_s": 1399.5,
+      "fim_s": 1402.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E um mês depois o banco fechou, porque ele estava errado.",
+      "afirmacao": "O Banco Master foi fechado cerca de um mês depois do encontro de Vorcaro com Lula",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "data do ato do Banco Central que fechou (liquidou) o Banco Master",
+        "comparar com a data do encontro no Planalto e ler o fundamento declarado no ato"
+      ]
+    },
+    {
+      "id": "A107",
+      "inicio_s": 1419.6,
+      "fim_s": 1429.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu falo de Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado do Daniel Vorcaro, quando o senhor chamou ele para ser ministro da Justiça.",
+      "citacao_card": "Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado do Daniel Vorcaro",
+      "afirmacao": "Ricardo Lewandowski era conselheiro e advogado de Daniel Vorcaro quando foi convidado para ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "contrato ou registro de prestação de serviço de Lewandowski ao Banco Master ou a Vorcaro, e o período",
+        "data do convite e da nomeação de Lewandowski como ministro da Justiça"
+      ]
+    },
+    {
+      "id": "A108",
+      "inicio_s": 1430.4,
+      "fim_s": 1435.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A família dele manteve o contrato que ele tinha com o Daniel Vorcaro.",
+      "afirmacao": "A família de Lewandowski manteve o contrato que ele tinha com Daniel Vorcaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "quem assumiu o contrato (escritório de familiares) e o período de vigência",
+        "documento ou reportagem com documento que mostre o contrato ativo durante a gestão dele no Ministério da Justiça"
+      ]
+    },
+    {
+      "id": "A109",
+      "inicio_s": 1435.9,
+      "fim_s": 1441.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o ministro da Justiça, que comanda a PF",
+      "afirmacao": "A Polícia Federal é subordinada ao Ministério da Justiça",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "estrutura regimental do Ministério da Justiça e Segurança Pública vigente e a posição da PF nela"
+      ]
+    },
+    {
+      "id": "A110",
+      "inicio_s": 1442.0,
+      "fim_s": 1447.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mantendo o contrato com o Daniel Vorcaro, que já era um personagem investigado pela Polícia Federal.",
+      "afirmacao": "Enquanto o escritório da família de Lewandowski mantinha o contrato, Vorcaro já era investigado pela Polícia Federal",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "data de abertura de investigação da PF que tinha Vorcaro como alvo",
+        "comparar com o período do contrato e com o período de Lewandowski no Ministério da Justiça"
+      ]
+    },
+    {
+      "id": "A111",
+      "inicio_s": 1466.1,
+      "fim_s": 1470.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando ele deixou o ministério, quando ele deixou a Suprema Corte, ele foi trabalhar por conta dele.",
+      "afirmacao": "Depois de deixar o STF, Lewandowski passou a trabalhar na iniciativa privada por conta própria",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "data da aposentadoria de Lewandowski no STF",
+        "atividade registrada depois dela: escritório, inscrição na OAB, consultoria"
+      ]
+    },
+    {
+      "id": "A112",
+      "inicio_s": 1475.6,
+      "fim_s": 1480.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu resolvi indicar o ministério da Justiça, eu o convidei. Ele largou a assessoria e veio.",
+      "citacao_card": "eu o convidei. Ele largou a assessoria e veio",
+      "afirmacao": "Ao aceitar o convite para o Ministério da Justiça, Lewandowski deixou a assessoria privada que prestava",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "registro do encerramento ou da transferência dos contratos de Lewandowski ao tomar posse, inclusive declarações à Comissão de Ética Pública",
+        "o que aconteceu com o contrato com Vorcaro, que a pergunta diz ter sido mantido pela família"
+      ]
+    },
+    {
+      "id": "A113",
+      "inicio_s": 1507.2,
+      "fim_s": 1510.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "As pessoas têm uma quarentena, cumprem a quarentena e depois vão cuidar das suas vidas.",
+      "afirmacao": "Quem deixa cargo público cumpre uma quarentena antes de atuar no setor privado",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "Lei 12.813/2013 (conflito de interesses e quarentena de ex-ocupantes de cargo no Executivo federal)",
+        "Constituição, art. 95, sobre o impedimento de ex-magistrado advogar no tribunal de onde saiu, e os prazos de cada regra"
+      ]
+    },
+    {
+      "id": "A114",
+      "inicio_s": 1563.3,
+      "fim_s": 1567.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eles tomam a decisão, ninguém pode mais tomar decisão, ninguém pode voltar atrás.",
+      "afirmacao": "Decisão do STF não pode ser revista por nenhuma outra instância",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, na resposta sobre Lewandowski, voltou às denúncias envolvendo o STF e à proposta de mandato para ministros.",
+      "o_que_conferir": [
+        "Constituição Federal: competência do STF como última instância",
+        "recursos internos cabíveis contra decisão do STF e a possibilidade de o Congresso mudar os efeitos por emenda ou lei"
+      ]
+    },
+    {
+      "id": "A115",
+      "inicio_s": 1577.5,
+      "fim_s": 1581.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu já disse uma vez, quem quiser ser rico não pode ser ministro da Suprema Corte.",
+      "afirmacao": "Lula já havia dito publicamente que quem quer ser rico não pode ser ministro do STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Lula, na resposta sobre Lewandowski, voltou às denúncias envolvendo o STF e à proposta de mandato para ministros.",
+      "o_que_conferir": [
+        "declaração pública anterior de Lula com essa frase ou equivalente, com data e veículo"
+      ]
+    },
+    {
+      "id": "A116",
+      "inicio_s": 1612.6,
+      "fim_s": 1618.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o reajuste do Bolsa Família, o primeiro no seu atual mandato",
+      "afirmacao": "O reajuste do Bolsa Família anunciado em 2026 foi o primeiro do valor do benefício no mandato de Lula iniciado em 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "histórico dos valores do benefício do Bolsa Família (base e adicionais) desde jan/2023, em portarias e decretos do MDS",
+        "se houve alguma correção do valor-base ou dos adicionais entre 2023 e o anúncio de 2026, e como a fonte define 'reajuste'"
+      ]
+    },
+    {
+      "id": "A117",
+      "inicio_s": 1619.3,
+      "fim_s": 1626.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "por que o principal programa social do governo só foi reajustado 17 dias antes do primeiro turno",
+      "afirmacao": "O reajuste do Bolsa Família foi anunciado 17 dias antes do 1º turno de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "data do anúncio oficial do reajuste do Bolsa Família (Planalto, MDS, Agência Gov)",
+        "data do 1º turno de 2026 no calendário do TSE e a contagem de dias entre as duas"
+      ]
+    }
+  ]
+}

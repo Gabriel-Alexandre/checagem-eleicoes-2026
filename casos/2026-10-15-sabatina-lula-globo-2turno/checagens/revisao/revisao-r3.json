@@ -1,0 +1,133 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A066": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase atribui motivo ('não é por conta do Banco Master apenas', 'porque prendeu o pai do Flávio') e o resumo destaca justamente os pedidos que citam o Master, o que poderia ler como desmentido do motivo. Cai: o veredito se limita à existência dos pedidos, que é a afirmação extraída; o motivo é intenção alheia (METODOLOGIA §4.2) e a ressalva diz isso. Os 4 trechos foram achados na p06; 29/12/2025 e 01/09/2026 conferem (1º/09/2026 é terça, como diz o BP Money). Pedido de impeachment protocolado é fato documentado, não apuração em curso, então a regra de ética §5 não se aplica. 'caçar' na transcrição foi lido como cassar ou derrubar, e as duas leituras levam ao mesmo veredito.",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "7", "8"]
+  },
+  "A067": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a prisão foi pedida pela PF e referendada pela Primeira Turma, então 'Moraes prendeu' personalizaria uma decisão do tribunal. Cai: o mandado de 22/11/2025 é decisão individual do relator (Correio da Manhã, O Povo e Diario de Pernambuco, trechos achados na p06), e o referendo unânime está na ressalva. 22/11/2025 é sábado, como dizem as fontes. A frase está no passado e não depende da situação de Bolsonaro na data da fala.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A068": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'uma das pessoas importantes do clã do Bolsonaro' é falso, porque Canella não é da família e é do União Brasil; e a nota da própria PF não foi capturada. Cai: o núcleo checável (PF no Rio no dia da fala, prisão de Canella) está em duas apurações independentes, Poder360 e Jovem Pan, ambas de 15/10/2026, uma quinta; 'clã' é caracterização, a ressalva diz que ele não é parente e a Jovem Pan registra o vínculo político com Flávio e a articulação com Rogéria. A transcrição traz 'Política Federal' e 'Canelas', marcados como não resolvidos em correcoes.json, mas Polícia Federal e Canella são a única leitura coerente e o veredito não depende da grafia. Tipo evento_passado, sem exigência de N1.",
+    "verificacoes": ["1", "2", "3", "4", "5", "7", "8"]
+  },
+  "A069": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o o_que_conferir pedia o registro no TSE, que não foi consultado, e a Gazeta diz só que Rogéria era 'cotada', o que faria da suplência especulação de bastidor. Cai: o SBT News registra o anúncio formal do PL ('será a primeira suplente'), o Estado de Minas diz que ela foi 'divulgada como suplente', e o SBT News de 29/07/2026 registra o veto de Flávio depois da operação de 7 de julho (as duas datas conferidas na captura p06); o 'ia ser' da frase descreve uma suplência anunciada e desfeita, que por isso nunca chegou ao registro de candidatura. Detalhe sem efeito no card: a explicação atribui ao Poder360 o fato de Canella ter disputado a Assembleia; quem diz isso por extenso é a Jovem Pan (A068).",
+    "verificacoes": ["1", "3", "4", "5", "7", "8"]
+  },
+  "A070": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'tem defendido que se apurem todas as responsabilidades' é genérico, e as duas declarações poderiam ser a mesma republicada. Cai: são falas distintas, de 03/09/2026 (vídeo da Presidência, Bahia Notícias, data conferida na captura) e de 09/09 (TNH1 e DGABC), com trechos achados na p06. A pergunta da entrevistadora recebeu a mesma exigência de duas fontes aplicada às falas do candidato.",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A071": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'indicado pelo senhor' omite que a escolha depende do Senado. Cai: a frase só afirma a indicação, e o card traz a aprovação; Poder360 (indicação em 27/11 e aprovação por 47 a 31 em 13/12/2023), Extra Classe, Congresso em Foco e a Constituição, todos os trechos achados (p06 e p04). 'Aliado histórico' é juízo e não foi extraído.",
+    "verificacoes": ["1", "2", "3", "4", "6", "8"]
+  },
+  "A072": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'impede que exista uma investigação' seria falso, porque a vista só suspende, e o veredito deveria ser IMPRECISO. Cai: na data da fala, 30 dias depois, o julgamento seguia interrompido e a investigação não tinha sido aberta (Poder360, Movimento Econômico, O Povo de 18/09), então o efeito descrito era real; pelo §2.2 isso é VERDADEIRO com ressalva, a mesma régua usada para o entrevistado na A078. Mas a ressalva dizia 'por até 90 dias', e o § 4º do art. 134 do Regimento suspende o prazo no recesso e permite prorrogá-lo uma vez; o card prometia um teto que não existe e contradizia a A078 do mesmo vídeo. Ressalva e explicação corrigidas e o trecho do Regimento ampliado com o § 4º (achado na p06). Ver correcoes-r3.md.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A073": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento a favor da entrevistadora: por todo critério documentado (181 de 218 páginas do relatório, mensagens, pedido de investigação no plenário), Moraes é o mais citado, e o próprio entrevistado respondeu 'era o mais implicado'; INSUSTENTAVEL soaria como desmentido. O veredito fica de pé: 'mais implicado' é ranking de envolvimento numa apuração sem conclusão, a regra de ética §5 impede VERDADEIRO, e a mesma régua foi aplicada às falas de Lula sobre Toffoli, Mendonça e Castro (A074 a A076). Mas o resumo dizia que 'o STF não apurou quais ministros são citados', atribuindo ao tribunal o argumento de um voto (Gilmar) numa questão de ordem que, pelo Poder360 capturado, estava 4 a 3 contra quando Dino pediu vista. Resumo, explicação e prova da fonte reescritos; o rótulo N1 do voto vale como registro do que o ministro disse, não do fato. Ver correcoes-r3.md.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A074": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: Toffoli está documentadamente citado no material da PF, a PF pediu a suspeição dele e ele se declarou suspeito em 15/09; 'implicado' em sentido comum confere e o veredito seria VERDADEIRO. Cai pela mesma régua da A073, aplicada à entrevistadora: 'implicado no caso' é juízo sobre envolvimento em apuração sem conclusão (ética §5), e o card diz só o que está registrado (citação nas mensagens, sociedade no resort, negativa dele). Conferido na captura p06: o InfoMoney registra que Fachin encaminhou o relatório a Toffoli para avaliar impedimento, e o Poder360 registra a suspeição. 'Deixou a relatoria' é inferência das capturas (o InfoMoney o trata como relator e o Correio da Manhã de setembro trata Mendonça como relator).",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A075": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: deveria ser FALSO, porque Mendonça é o relator, não alvo, e nada o liga a dinheiro ou mensagens de Vorcaro. Cai: existe um pedido de investigação de um colega sobre a condução dele, não julgado (Diario de Pernambuco, O Povo de 18/09), então a ligação existe e está em apuração, nenhuma fonte a contradiz e a ética §5 manda INSUSTENTAVEL. Conferi que a mensagem de Vorcaro citada no título do Correio da Manhã menciona Gonet e Andrei, não Mendonça, o que sustenta a frase da explicação.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A076": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a palavra pode não ser 'Castro'. O correcoes.json da transcrição marca o trecho como não resolvido (com prompt saiu 'Kasso') e diz que a extração não apoia veredito nele; o contexto é uma lista de ministros, e a entrevistadora responde que 'são vários ministros', o que favoreceria Kassio Nunes Marques. Testei de novo nesta revisão: whisper-cli com ggml-large-v3-turbo, janelas de 1012,5 a 1024 s e de 1018,5 a 1023,5 s, feixe 8, sem prompt e com um prompt neutro que lista os dois nomes; as três passadas que não degeneraram escrevem 'o Castro'. 'Castro' fica como a leitura mais sustentada, não há ministro do STF com esse nome, e Cláudio Castro foi alvo de busca no caso Master em 26/05/2026 (Money Times, Gazeta do Povo e O Liberal, data conferida). A identificação continua inferência declarada na ressalva, e o INSUSTENTAVEL valeria igual para Kassio (citado em reportagem, sem conclusão), então a dúvida não muda a cor do card. Só ouvir o áudio fecha a identificação.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A077": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: o governo contestou, neste mesmo semestre, uma decisão de ministro: a AGU recorreu do afastamento do diretor-geral da PF determinado por Mendonça, e Fachin suspendeu a decisão em 09/09 (O Povo, captura p07). Cai para o veredito: recorrer é pedir ao próprio STF, que decide; não há instrumento do presidente para alterar a decisão, e no exemplo da conversa (a vista) a retomada é automática pelo Regimento. Mas a ressalva falava de nomeação e indulto, que não vêm ao caso, e omitia o caminho que existe e foi usado. Ressalva trocada, O Povo entrou como fonte com trecho conferido, explicação traz o argumento. Ver correcoes-r3.md.",
+    "verificacoes": ["2", "3", "4", "6", "7", "8"]
+  },
+  "A078": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'quando querem' seria juízo, ou seria falso porque a vista tem prazo. Cai: a frase descreve a norma, e o art. 134 do Regimento não põe requisito para pedir vista; o limite de 90 dias, a prorrogação e a liberação automática estão na ressalva, com Regimento (N1), notícia do STF (N1) e Gazeta do Povo, trechos achados na p06. É a mesma régua aplicada à pergunta da entrevistadora na A072.",
+    "verificacoes": ["2", "3", "4", "5", "6", "8"]
+  },
+  "A079": {
+    "decisao": "mantido",
+    "nota": "Dois argumentos opostos. A favor do entrevistado: motivo é intenção de terceiro, e o registro mostra que Dino votou pelo julgamento conjunto e que a vista travou um placar de 4 a 3 pela separação, efeito que bate com a fala; seria VERDADEIRO. Contra: a justificativa dada por Dino foi o ambiente degradante; seria FALSO. Os dois caem. A pergunta que o próprio Lula faz ('por que pediu vista?') tem resposta em registro público, a fala de Dino ao pedir vista (Congresso em Foco, Itatiaia), e ela não é o motivo atribuído; e nada contradiz a posição de Dino pelo julgamento conjunto (DGABC, Congresso em Foco). Essência certa, nexo de causa não registrado: IMPRECISO. Trechos achados na p07; resumo com 119 caracteres.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A080": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto: a frase afirma uma frequência, o dado existe no STF e não foi lido, e as duas fontes só trazem a regra do prazo, o que a explicação e o resumo dizem. Melhor argumento contra: 'todo dia' é hipérbole e deveria ser NAO_CHECAVEL; cai porque a frequência de vista é registrada pelo tribunal, e o validador e o §2 mandam INSUSTENTAVEL quando falta acesso ao registro. Observação: a recusa HTTP 403 do portal do STF citada na explicação não aparece em nenhum capturas.json do caso. Não tentei captura direta porque não há endereço conhecido da estatística e o painel do STF é montado em JavaScript. Segue a refazer.",
+    "verificacoes": ["2", "3", "4", "6", "8"]
+  },
+  "A081": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a transcrição de 27/08 já usada como fonte (Aos Fatos, captura p07, conferida contra a transcrição deste repositório em casos/2026-08-27-sabatina-lula-globo) tem, no bloco do INSS, que para todos os citados o caminho é um só, o da apuração, da investigação, da inocência ou da condenação, e, no bloco do Master, que se Wagner cometeu desvio vai pagar o preço. O núcleo do que Lula diz ter repetido (apurar e punir quem errou) foi dito na entrevista anterior da Globo, e a árvore do §2.1 reserva INSUSTENTAVEL para quando as fontes não sustentam. Fica a parte certa da checagem: a frase de que a sociedade não aceitaria não aparece, e no bloco do Master a ênfase foi a presunção de inocência. Essência certa, enquadramento e assunto não: passa a IMPRECISO, com resumo, ressalva, explicação e trecho refeitos. Ver correcoes-r3.md.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A082": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento a favor de VERDADEIRO: 'fui eu que fiz' em fala de presidente quer dizer 'no meu governo, com meu empenho', o que confere (FGV/CPDOC), e 'a primeira' pode significar a primeira sob a Constituição de 1988. Fica de pé o IMPRECISO: emenda é promulgada pelas Mesas do Congresso (texto oficial), nasceu de PEC de 1992 com 13 anos de tramitação (Jus.com.br), e a EC 7 de 1977 já tratou do Poder Judiciário; são dois exageros materiais na mesma frase. Contra FALSO: o fato central (reforma promulgada no governo dele, com atuação do ministro da Justiça) confere. Anos do resumo e da ressalva (2004, 1992, 1977) têm trecho; trechos achados na p07.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A083": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'nós fizemos' dá a Jobim papel de autor de uma emenda do Congresso. Cai: a afirmação extraída checa só os cargos na data, e a autoria é tratada na A082. STF (N1) dá Jobim na presidência de 03/06/2004 a 29/03/2006; FGV/CPDOC dá Thomaz Bastos no Ministério da Justiça de janeiro de 2003 a 2007; a EC 45 de 08/12/2004 cabe nos dois períodos. Trechos achados na p07.",
+    "verificacoes": ["1", "3", "4", "5", "8"]
+  },
+  "A084": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento a favor de VERDADEIRO: a afirmação é sobre denúncias terem aparecido, não sobre serem verdadeiras, e há reportagens de dinheiro (contrato do Master com o escritório da mulher de um ministro), festa (degustação paga por Vorcaro) e mulher (encontro com acompanhante); seria existência documentada, como na A087. Fica de pé o INSUSTENTAVEL: a palavra que dá peso à frase, 'orgia', só aparece na boca do próprio Lula, e um VERDADEIRO para 'denúncias de orgia' no STF sugeriria culpa em fato sem conclusão (ética §5). Mas o resumo dizia 'um encontro pago com ministros', que lia como encontro de ministros pago por Vorcaro, e 'festas' no plural, sem lastro; e a ressalva dizia que 'nenhum ministro foi denunciado formalmente', sem trecho. Resumo e ressalva reescritos. Ver correcoes-r3.md.",
+    "verificacoes": ["1", "2", "3", "6", "7", "8"]
+  },
+  "A085": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento a favor de VERDADEIRO: Lula já tinha dito 'três vezes' antes, no Flow Podcast, sem contestação. Cai: a fala anterior do mesmo entrevistado não é fonte independente, e o registro de terceiros (A Tarde) dá duas conversas no mesmo dia 04/09. A agenda oficial não foi capturada, e a ressalva diz isso. Não tentei capturar a agenda da Presidência: sem as datas das conversas, só confirmaria as de 04/09, que já têm registro, e não mudaria o veredito. Conferido na captura: Fachin assumiu a presidência do STF em 2025.",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A086": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório bem posto. Melhor argumento contra: a proximidade é notória e descrita pela imprensa (Gazeta do Povo, Poder360), então a entrevistadora estaria certa. Cai porque a frase atribui a afirmação a adversários, e procurei em todas as capturas do caso trecho de parlamentar, candidato ou partido adversário apontando essa proximidade: só há a imprensa descrevendo a relação e o pedido do Novo, que se apoia em suspeita de interferência no caso Master. O card diz que não se achou, não que adversários não falam disso. A resposta do entrevistado sobre o mesmo ponto (A090) recebeu a mesma régua.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A087": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'festa do Daniel Vorcaro' exagera, era um fórum jurídico com vários patrocinadores. Cai: o Poder360 (dado obtido por LAI) registra 'confraternização oferecida por Vorcaro' com o diretor da PF entre os presentes, a Gazeta o lista na degustação de 25/04/2024 bancada por Vorcaro, e o Diario de Pernambuco o identifica em vídeo da festa; três apurações independentes, trechos achados na p07. A ressalva (a PF diz que ele não recebeu outro benefício) tem lastro na captura. Única correção: a data de referência dizia '24 a 26/04/2024', e o dia 24 não está em trecho nenhum. Ver correcoes-r3.md.",
+    "verificacoes": ["1", "3", "4", "5", "7", "8"]
+  },
+  "A088": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a checagem dizia ter uma fonte só, mas a reportagem do SBT News já capturada neste caso (p08, usada nas A097 e A098) registra que o BC conhecia e analisou suspeitas sobre o Master desde 2023 com seus departamentos de supervisão; com o LetsMoney (apuração do Valor: ofícios do Departamento de Supervisão desde 2021 e ciclo de supervisão sobre irregularidades em crédito e precatórios em 2021 e 2022), são duas fontes independentes que datam a apuração antes de abril de 2024. Passa a VERDADEIRO, confiança média. A ressalva antiga (termo de comparecimento em maio de 2024, depois da festa), num card INSUSTENTAVEL, lia como desmentido da entrevistadora quando a única fonte a sustentava; a mesma informação vira o 'certo, mas' do VERDADEIRO. O que resta contra (o SBT diz que o BC concluiu então não abrir procedimento específico) está na explicação e não derruba 'apurava'. Ver correcoes-r3.md.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A089": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a explicação dizia que nenhuma fonte capturada citava inquérito da PF em São Paulo antes de abril de 2024, e o resumo dizia 'nada de inquérito em SP antes', mas o SBT News capturado na p08 registra dois inquéritos da delegacia de crimes financeiros da PF em São Paulo abertos desde 2023. A checagem A098, sobre o mesmo ponto que a entrevistadora retoma minutos depois, já tinha VERDADEIRO com SBT News e CNN Brasil; o vídeo teria dois cards opostos sobre o mesmo fato. Passa a VERDADEIRO com o mesmo par de fontes, confiança média porque a data anterior à festa vem só do documento obtido pelo SBT News (a CNN confirma investigação em 2024, sem mês). Os dois trechos foram achados na p08. O mérito dos inquéritos segue em apuração e a ressalva diz isso (ética §5). Ver correcoes-r3.md.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A090": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento a favor de FALSO: Andrei coordenou a segurança da campanha de 2022, foi escolhido pela 'relação de confiança construída durante a campanha' (Itatiaia) e viaja com frequência na comitiva presidencial (Poder360); isso contradiria 'não é ligado a mim'. Cai: o vínculo registrado é funcional (segurança de candidato é tarefa da própria PF, e ele fez a de Dilma em 2010), nenhuma fonte registra filiação ou relação pessoal fora do serviço, e 'ligado' sem definição não permite FALSO; o card mostra os fatos que pesam contra a negativa. Mesma régua da A086, do lado da entrevistadora. Trechos achados na p07.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A091": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o Poder360 diz que quem escolheu Andrei foi Flávio Dino, então ministro da Justiça, e não Lula. Cai: a nomeação é ato do governo Lula (Folhapress, 02/01/2023), o O Povo registra que nomear o diretor-geral é atribuição do presidente, e a divergência está declarada no campo próprio. Ele seguia no cargo na data da fala: afastado por Mendonça em 08/09, efeitos suspensos por Fachin em 09/09 (O Povo, data conferida na captura), e o SBT News de 15/10 o chama de diretor-geral.",
+    "verificacoes": ["1", "3", "4", "5", "7", "8"]
+  }
+}

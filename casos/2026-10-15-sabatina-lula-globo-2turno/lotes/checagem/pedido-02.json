@@ -1,0 +1,239 @@
+PEDIDO DE CHECAGEM 02 de 15 · alegações A014 a A026
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-02.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A014",
+      "inicio_s": 222.9,
+      "fim_s": 224.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que acabaram não tendo lugar no seu governo",
+      "afirmacao": "As forças de centro que apoiaram Lula em 2022 não tiveram lugar no governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre governabilidade e a frente ampla de apoios num eventual novo mandato",
+      "o_que_conferir": [
+        "ministros do governo Lula de 2023 a 2026 por partido e origem política",
+        "se os líderes e partidos de centro que apoiaram em 2022 ocuparam cargos no primeiro escalão"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 225.3,
+      "fim_s": 231.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor vai enfrentar um congresso eleito mais hostil do que o atual",
+      "afirmacao": "O Congresso eleito em 2026 tem menos parlamentares alinhados a Lula do que o atual",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre governabilidade e a frente ampla de apoios num eventual novo mandato",
+      "o_que_conferir": [
+        "composição da Câmara e do Senado eleita em 2026 contra a eleita em 2022, por partido, TSE",
+        "critério de alinhamento (base, oposição, campo ideológico) e se ele dá menos cadeiras ao governo"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 254.0,
+      "fim_s": 258.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu fui eleito tendo 70 deputados no meu partido de 513",
+      "afirmacao": "O PT tinha 70 dos 513 deputados federais quando Lula foi eleito em 2022",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "bancada eleita do PT na Câmara em 2022, TSE e Câmara dos Deputados",
+        "se o número é do PT sozinho ou da federação (PT, PCdoB, PV)"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 257.0,
+      "fim_s": 260.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e tendo 9 senadores de 81",
+      "afirmacao": "O PT tinha 9 dos 81 senadores quando Lula foi eleito em 2022",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "bancada do PT no Senado no início da legislatura de 2023 (eleitos em 2022 mais os que tinham mandato), Senado Federal",
+        "se o número é o da posse ou de outro momento"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 260.9,
+      "fim_s": 266.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E nós aprovamos 99% de tudo que a gente fez aqui no Congresso Nacional",
+      "afirmacao": "O Congresso aprovou 99% das propostas do governo Lula",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "taxa de aprovação das proposições do Executivo (MPs, PLs, PECs) de 2023 a 2026, Câmara, Senado e levantamentos independentes",
+        "qual universo dá 99%: o que foi enviado, o que foi votado, ou só as prioridades"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 266.9,
+      "fim_s": 270.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "até uma reforma tributária que havia há 40 anos que nós queríamos aprovar",
+      "afirmacao": "A reforma tributária aprovada no governo Lula era uma mudança buscada havia cerca de 40 anos",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "data de promulgação da reforma tributária do consumo",
+        "histórico das propostas de reforma tributária desde a Constituinte para conferir os 40 anos"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 271.4,
+      "fim_s": 276.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "todos os partidos, com exceção do PL, participaram do meu governo",
+      "afirmacao": "Todos os partidos, exceto o PL, tiveram ministérios no governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "composição partidária dos ministérios de 2023 a 2026, Presidência da República",
+        "conferir também os quatro citados em seguida (PP, União Brasil, PSD, MDB) e os partidos com bancada que não tiveram ministro"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 321.3,
+      "fim_s": 327.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "esses partidos que participaram do seu governo com ministérios não estão com o senhor na reeleição",
+      "afirmacao": "Os partidos que tiveram ministérios no governo Lula não apoiam a reeleição dele em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "coligação de Lula registrada no TSE em 2026 e apoios formais de PP, União Brasil, PSD e MDB no 1º e no 2º turno",
+        "se algum desses partidos declarou apoio, ainda que só no 2º turno"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 334.2,
+      "fim_s": 338.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O governo viu um desmonte grande de legislação ambiental.",
+      "afirmacao": "Durante o governo Lula, o Congresso aprovou mudanças que reduziram a legislação de proteção ambiental",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "meio-ambiente",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "leis ambientais aprovadas pelo Congresso de 2023 a 2026 e vetos derrubados, com datas (Congresso Nacional, Diário Oficial)",
+        "avaliação de órgãos e entidades sobre o alcance das mudanças"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 341.4,
+      "fim_s": 346.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E o senhor teve essa situação praticamente inédita",
+      "afirmacao": "A rejeição de um indicado ao STF pelo Senado é praticamente inédita na história do país",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "histórico de indicações ao STF rejeitadas pelo Senado, com datas (STF e Senado Federal)",
+        "quantas vezes isso aconteceu e quando foi a última antes do mandato atual"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 341.4,
+      "fim_s": 348.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "ver um ministro indicado pelo senhor para o Supremo ser rejeitado pelo Senado",
+      "afirmacao": "O Senado rejeitou um ministro indicado por Lula para o STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "votação no Senado da indicação de Lula ao STF no mandato atual: nome, data e placar, Senado Federal"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 364.2,
+      "fim_s": 369.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As suas interações com ele transcorreram sem incidentes, às vezes em tom até amigável.",
+      "afirmacao": "Os encontros e conversas entre Lula e Donald Trump ocorreram sem incidentes diplomáticos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a pressão dos Estados Unidos e a vizinhança sul-americana",
+      "o_que_conferir": [
+        "registro dos encontros e telefonemas entre Lula e Trump desde 2025 e o relato oficial de cada um (Planalto, Itamaraty, Casa Branca)",
+        "se houve troca pública de ataques em algum desses contatos"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 369.8,
+      "fim_s": 376.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "de concreto, a gente teve duas rodadas de tarifaço",
+      "afirmacao": "Os Estados Unidos impuseram duas rodadas de tarifas extras contra produtos brasileiros",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a pressão dos Estados Unidos e a vizinhança sul-americana",
+      "o_que_conferir": [
+        "ordens executivas e anúncios de tarifas dos EUA contra o Brasil desde 2025, com datas e alíquotas (Casa Branca, USTR, MDIC)",
+        "o que conta como 'rodada': anúncio, ordem executiva ou entrada em vigor"
+      ]
+    }
+  ]
+}

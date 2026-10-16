@@ -1,0 +1,308 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A001": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'os dois anteriores e o atual' pode ser lido como três mandatos completos, e o atual ainda não acabou. Cai: a frase fala de mandatos conquistados, e a Agência Senado registra o governo de 1º/01/2003 a 1º/01/2011 mais a posse de 2023, o Poder360 chama 2026 de tentativa do 4º mandato e o JSON oficial do TSE lista Lula no 2º turno. Os três trechos foram achados nas capturas p01. Sem número a ajustar, e o card lido sozinho deixa a impressão certa.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A002": {
+    "decisao": "mantido",
+    "nota": "Contra: a entrevistadora disse 'segundo turno' antes de se corrigir, e o card poderia parecer falar de derrota no 2º turno. Cai: a frase extraída é a corrigida ('do primeiro turno'), e em 15/10 só o 1º turno tinha acontecido. O JSON do TSE (trecho conferido na captura p01) dá 47,03% a Flávio e 45,16% a Lula dos válidos; Jornal do Comércio e SBT News trazem o próprio Lula dizendo que não terminou em primeiro. Resumo só com os números do TSE, sem leitura de intenção.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A003": {
+    "decisao": "alterado",
+    "nota": "Contra: 'rejeitaram majoritariamente' pode significar só que a desaprovação superou a aprovação, e então seria VERDADEIRO. Não derruba: na leitura literal (mais da metade) só quatro rodadas passam de 50%, e mesmo na leitura branda houve empate no Datafolha de 20 e 21 de maio (48% a 48%) e a aprovação ficou à frente em julho e no início de agosto nos dois institutos, o que deixa 'quase o tempo inteiro' exagerado. É a mesma régua aplicada às frases absolutas de Lula (A011, A012, A020): essência certa, forma exagerada, IMPRECISO. Achados: a explicação trazia números sem trecho (Quaest de 14/08, 48% e 46%, e de 02/09, 48% e 45%) e um 'ruim ou péssimo' de 40% e 41% que omitia o 42% já presente no trecho do DGABC, e não citava o empate de maio. Entraram duas fontes já capturadas na p01 (Congresso em Foco, Datafolha de 23/05; Diario de Pernambuco, Quaest de 02/09), a explicação foi refeita com a série completa e a ressalva passou a citar o empate. Veredito mantido. Detalhe em correcoes-r1.md.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A004": {
+    "decisao": "mantido",
+    "nota": "Contra: 'esse quadro' é a rejeição de 2026, e as falas achadas são de 2024 e 2025, sobre outras quedas; além disso, em janeiro de 2025 Lula atribuiu a avaliação à entrega do governo, não à conjuntura. Fica de pé com confiança média: a frase diz 'já atribuiu', sem data, e a fala de agosto de 2025 explica a queda de popularidade pelo custo de vida (Poder360), enquanto a de março de 2024 liga a credibilidade ao preço do arroz e do feijão (conferido no texto capturado do SBT, além do trecho). Procurei 'conjuntura' no texto das 15 pastas de captura do caso e não há fala de 2026. A ressalva já diz que não foi achada fala deste ano e registra o contraponto de 2025; o card não exagera.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A005": {
+    "decisao": "mantido",
+    "nota": "Contra: Lula disse 'menos organizada', não 'desorganizada'. Cai: o sentido é o mesmo, e o Jornal do Comércio já traduz a fala como 'mais desorganizada'. Três registros independentes datam a fala em 07/10/2026, oito dias antes da sabatina, o que sustenta o 'recentemente'. Trechos achados nas capturas p01.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A006": {
+    "decisao": "mantido",
+    "nota": "Contra: por paridade de poder de compra o Brasil não seria o 7º, e a fala não diz o critério. Cai: o ranking usual de 'maior economia' é o PIB nominal em dólar, e a explicação declara o critério e o limite. Conferi a ordem nos dois JSONs capturados (Banco Mundial e FMI, fontes independentes): EUA, China, Japão, Alemanha, França e Reino Unido acima, Brasil em 7º, Itália logo abaixo; as parcelas da derivação estão no trecho. A fala situa o dado no fim do mandato de 2010, e o dado é de 2010.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A007": {
+    "decisao": "mantido",
+    "nota": "Contra: 'crescia a 7,5% ao ano' sugere ritmo sustentado, e a média de 2003 a 2010 foi de cerca de 4,1%, com -0,13% em 2009. Cai: a frase é dita sobre 'o final do meu mandato de 2010' (transcrição de 148,9 s a 161 s), e a taxa de 2010 confere no IBGE (7,5%) e no SGS 7326 do Banco Central (7,53%). Refiz a média das oito taxas do trecho: 4,08, arredonda para 4,1. A ressalva impede a leitura de média, e o tratamento é o mesmo do caso de agosto (A011 de 2026-08-27, VERDADEIRO para os 7,5% de 2010).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A008": {
+    "decisao": "mantido",
+    "nota": "Contra 1: os 22 milhões poderiam somar ocupações informais, e aí a RAIS, que é só emprego formal, não seria a régua. Nenhuma fonte capturada dá 22 milhões em série nenhuma, e a explicação diz isso. Contra 2: com desvio de 43%, seria FALSO. Cai pela régua do §2.2: número que existe e é outro, no mesmo sentido, é IMPRECISO; FALSO exige sentido oposto. Conferi 44.068.355 menos 28.683.913 = 15.384.442 e 22 dividido por 15,384, menos 1, = 43%. Três fontes, uma N2 e o próprio release do Ministério do Trabalho da época, todas com trecho achado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A009": {
+    "decisao": "mantido",
+    "nota": "Contra: 'desmontados' não é 'extintos', Fazenda, Planejamento e Indústria foram fundidos, e a redução líquida foi de sete pastas (29 para 22), não de dez. Não derruba: o número dito é 'dez ministérios', e a MP 870 extinguiu exatamente dez, listados um a um no trecho da Agência Senado; o termo forte é ornamento, e a ressalva diz que parte foi fusão. Mesmo tratamento dado ao 'desmonte' na frase da entrevistadora (A022).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A010": {
+    "decisao": "mantido",
+    "nota": "Contra: 'para começar governando antes de eu tomar posse' pode sugerir que o governo começou antes da posse. Cai: a afirmação checada é só que a PEC veio antes da posse, e a EC 126 é de 21/12/2022 (texto do Planalto, N1, e O Povo com a Agência Brasil) e a posse de 01/01/2023 (Agência Senado). Trechos achados na p01.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A011": {
+    "decisao": "alterado",
+    "nota": "Contra 1: o projeto reservava R$ 105,7 bilhões para o programa, o que contradiz 'não tinha deixado dinheiro', e seria FALSO. Não derruba: o que faltava era a verba para manter os R$ 600 então pagos, e é disso que a fala trata no contexto da PEC da Transição; essência certa, forma absoluta errada, IMPRECISO, a mesma régua usada para a entrevistadora no A014. Contra 2: os valores do card (R$ 105,7 bi, R$ 405) vinham só de N3 e N4, sem N1 ou N2 (METODOLOGIA §3.1, regra 1), e só duas das três reportagens citadas trazem esses valores. Corrigido sem busca nova: a captura p01 já tinha a notícia oficial do Senado na promulgação da EC 126, que diz que a emenda 'impediu a redução, já no próximo mês de janeiro, do valor pago' e abriu R$ 70 bilhões para o Bolsa Família. Entrou como N1 e a explicação foi ajustada. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A012": {
+    "decisao": "mantido",
+    "nota": "Contra: saúde e educação têm piso constitucional, então havia dinheiro e a frase seria FALSO. Não derruba: o relator do Orçamento (Rádio Senado, N1) e o Aos Fatos mostram cortes de 50% a mais de 90% em programas das duas áreas, e a notícia oficial do Senado na promulgação da PEC (captura p01) registra R$ 75 bilhões abertos para políticas de saúde como o Farmácia Popular. A essência (faltava verba para os programas) confere, a forma absoluta não: IMPRECISO, mesma régua do A011. O 59% do resumo está no trecho do Aos Fatos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A013": {
+    "decisao": "mantido",
+    "nota": "Contra: Alckmin é do PSB, de centro-esquerda, e chamar o apoio de 'centro' é classificação, não dado. Fica de pé: Tebet (MDB, 3ª colocada com 4,16%) apoiou no 2º turno com aval do partido, e Alckmin, vice da chapa, foi quadro histórico do PSDB; nenhuma fonte capturada contesta a classificação, e a explicação declara que é classificação, com confiança média. Data certa (eleição de 2022).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A014": {
+    "decisao": "alterado",
+    "nota": "Contra: Tebet foi ministra do Planejamento por mais de três anos, o MDB teve três pastas e Alckmin acumulou a Indústria e Comércio, o que levaria a frase a FALSO. Não chega a FALSO: Cidadania, Solidariedade, Avante e Pros, que apoiaram, ficaram fora da Esplanada, o PSDB nunca integrou o primeiro escalão, e Limongi avalia que a frente apareceu só em parte nos ministérios; a frase acerta uma parte e erra na forma absoluta. É a mesma régua do 'todos os partidos' de Lula (A020): IMPRECISO dos dois lados da mesa. Correções: o resumo dizia que 'PSDB e Cidadania também apoiaram', mas o trecho do Mais Goiás mostra que o PSDB liberou os filiados e que quem apoiou foram quadros como Serra e FHC, e o resumo passou a dizer 'quadros do PSDB'; a explicação dizia que Tebet ficou no ministério até sair para disputar 2026 sem trecho que sustentasse, e entrou a matéria do Poder360 de 30/01/2026, já capturada na p02. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A015": {
+    "decisao": "mantido",
+    "nota": "Contra 1: 'mais hostil' é juízo, não fato. Fica como fato medido por um critério declarado (tamanho da oposição e da base), escrito na explicação, com confiança média. Contra 2: a esquerda fica quase igual (126 para 124), então o Congresso não seria mais hostil. Cai: a oposição declarada (PL e Novo) sobe de 103 para 131 e o centro que teve ministérios cai de 252 para 234; refiz as seis somas das derivações contra os trechos da Câmara (N1, bancada atual), da Gazeta SP e da TVT. No Senado, duas contagens independentes dão 49 de 81 à direita a partir de 2027. A ressalva mostra a esquerda estável, e o card não exagera. O lado eleito vem de N4, mas a checagem tem a N1 da Câmara, como pede a regra 1 do §3.1.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A016": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida), bem posto. Contra: o INSUSTENTAVEL foi dado sem a busca exaustiva que a árvore do §2.1 pede, e o número dito pode estar certo, porque a federação teve 81 eleitos e o PT sozinho seria algo perto de 70. Não derruba o provisório: as duas páginas oficiais da Câmara (eleição e posse, trechos achados na p02 e na r2) só dão a federação; procurei a bancada eleita do PT sozinho no texto das 15 pastas de captura e da r2 e ela não aparece; o Times Brasil fala em 69 sem dizer de quando. Nada contradiz um PT em torno de 70, então FALSO não cabe, e VERDADEIRO exigiria a fonte que falta. O resumo diz o que faltou. A refazer com o resultado oficial do TSE por partido em 2022.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A017": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida), bem posto. Contra: quatro veículos independentes dão 9 senadores do PT depois da eleição, o que bate com a fala, e dar INSUSTENTAVEL seria rigor maior que o do A015, em que o lado eleito vem de N4. Não derruba: a regra 1 do §3.1 exige N1 ou N2 quando a afirmação é um número, e duas N4 só bastam se citarem uma primária conferida (regra 2), o que não ocorre; o A015 tem a N1 da Câmara e a frase dele não é um número. Há ainda divergência entre 9 (CartaCapital) e 8 na posse (Poder360, Congresso em Foco, O Povo). Não é FALSO, e o resumo diz que a imprensa registra 9. A refazer com a composição partidária oficial do Senado em fevereiro de 2023.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A018": {
+    "decisao": "alterado",
+    "nota": "Contra: as contagens independentes (21% e 23% das MPs, 37,29% dos projetos de lei) contradizem o '99% de tudo', e pelo §2.2 número que existe e é outro seria FALSO. Não derruba: o universo da frase é indefinido, e no mesmo bloco Lula reformula para '99% de tudo que a gente queria aprovar' (transcrição, 310,9 s); em dezembro de 2025 ele falou em 99% da 'pauta econômica', que não tem lista pública. Taxa de MP não mede a pauta prioritária (o governo diz que o conteúdo de MPs caducadas foi incorporado a projetos), então as medidas disponíveis não conferem nem contradizem o recorte dele. Nenhuma fonte dá 99%: INSUSTENTAVEL, com o card dizendo o que as fontes medem. Correção: a divergência entre fontes citava 15% sem trecho; o trecho do Aos Fatos foi estendido até a frase com os 15% do primeiro biênio, na mesma página capturada (p02). Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A019": {
+    "decisao": "mantido",
+    "nota": "Contra: a Agência Brasil e o próprio Lula, em 2023, falaram em 30 anos; 40 contra 30 passaria da régua de 10%. Não derruba: não há marco inicial único, e as fontes do mesmo dia se dividem entre 30 e 40 (Arthur Lira e o relator Eduardo Braga dizem 40; o Monitor Mercantil diz 'quase 40 anos' desde a redemocratização). A régua de 10% mede desvio contra um valor apurado, e aqui o apurado é uma faixa que contém o 40. A data da EC 132 vem do Planalto (N1). A ressalva expõe a faixa.",
+    "verificacoes": [
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A020": {
+    "decisao": "mantido",
+    "nota": "Contra 1: cinco partidos com bancada nunca tiveram ministério, além do PL, o que contradiz 'todos' e levaria a FALSO. Não chega: os quatro citados (PP, União, PSD, MDB) tiveram pastas, e a coalizão incluiu ainda Republicanos, PSB, PDT, PSOL, PCdoB e Rede (CartaCapital, Diario de Pernambuco); essência certa, generalização errada, IMPRECISO, a mesma régua do A014 para a entrevistadora. Contra 2: o levantamento da Folha é de março de 2025 e a lista pode ter mudado até outubro de 2026; a ressalva diz a data. Trechos achados na p02.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A021": {
+    "decisao": "mantido",
+    "nota": "Contra: 10 dos 27 diretórios do MDB declararam apoio a Lula no 2º turno, e PSB, PDT, PSOL, PCdoB e Rede, que também tiveram ministérios, estão com ele; a frase seria IMPRECISO. Não derruba: no contexto, 'esses partidos' são os que Lula acabara de citar (PP, União, PSD, MDB; transcrição em 281,5 s), e como partido nenhum deles está na campanha dele: União e PP com Flávio, PSD neutro, MDB neutro no 1º turno e dividido no 2º, com a maioria dos diretórios (17) com Flávio. A ressalva traz os 10 diretórios. As posições são de 04 a 13/10, antes da fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A022": {
+    "decisao": "mantido",
+    "nota": "Contra: 'desmonte grande' é juízo, e a extração deveria ter descartado a frase ou dado NAO_CHECAVEL. Fica: há um fato dentro do juízo (o Congresso aprovou e depois restaurou, contra o governo, a dispensa e a simplificação do licenciamento), e o card checa esse fato, com a ressalva de que 'desmonte' é avaliação e com o contraponto das 35 leis ambientais contadas pela Câmara. Quatro fontes N1 (Agência Senado, Agência Câmara duas vezes, Planalto), trechos achados na p02. Mesmo tratamento dado aos 'dez ministérios desmontados' de Lula (A009).",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A023": {
+    "decisao": "mantido",
+    "nota": "Contra: houve precedente, cinco rejeições em 1894, então não é inédito. Cai: a frase diz 'praticamente inédita', e um único episódio em mais de 130 anos, no governo Floriano Peixoto, sustenta o advérbio. O Arquivo S do Senado (N1) e duas apurações independentes (Exame e CNN) dizem o mesmo, com trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A024": {
+    "decisao": "mantido",
+    "nota": "Contra: não há N1 direta; o placar vem da Agência Senado republicada pelo O Povo e de duas N4. Não derruba: a afirmação não é um número, é o evento (o Senado rejeitou o indicado de Lula ao STF), e três registros independentes concordam no nome, na data (29/04/2026) e no placar de 42 a 34. Evento anterior à fala.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A025": {
+    "decisao": "alterado",
+    "nota": "Contra 1: a carta de Trump de julho de 2025 anunciando o tarifaço foi uma interação com atrito, e houve expulsão de policial e visto negado; a frase seria IMPRECISO. Não derruba: no contexto a entrevistadora separa as interações pessoais ('às vezes em tom até amigável') do que houve 'de concreto' (o tarifaço), onde a carta se encaixa, e os encontros e telefonemas registrados (ONU, 06/10/2025, Malásia, Casa Branca em 07/05/2026) foram descritos em tom positivo pelos dois lados. Contra 2: 'sem incidentes' é avaliação; fica com confiança média e a ressalva registra os atritos. Correção: a ressalva citava a expulsão de agente e a negação de visto, que não estavam em trecho nenhum; o trecho da EFE (Expreso, captura p02) foi estendido até a frase que traz os dois fatos. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "7",
+      "8"
+    ]
+  },
+  "A026": {
+    "decisao": "mantido",
+    "nota": "Contra: dá para contar três ou quatro rodadas (a recíproca de 10% de abril de 2025, os 40% de agosto de 2025, os 25% de julho de 2026 e os 12,5% de 2026). Cai: 'tarifaço' designa as medidas dirigidas ao Brasil, e são duas, conferidas na ordem executiva de 30/07/2025 (Trench Rossi, Migalhas) e no comunicado do USTR de 15/07/2026 (N1); as medidas gerais estão na ressalva, com trecho (Poder360, O Povo com dados do MDIC). A redução de novembro de 2025 e a decisão da Suprema Corte citadas na explicação estão no texto capturado do Poder360.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  }
+}

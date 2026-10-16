@@ -1,0 +1,309 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A040": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o Poder360 contava 41 países até 18/jun/2026, abaixo dos 50 ditos, então o card deveria ser FALSO. Cai: o 'nós visitamos' pode incluir viagens de ministros ou países visitados entre junho e outubro, e a média de 10,5% não aparece em fonte nenhuma, nem para confirmar nem para desmentir; a árvore do §2.1 manda para INSUSTENTAVEL quando as fontes não sustentam sem provar o contrário. Conferido: a frase em 489,7 a 494,3 s, no meio da lista de crescimento por país, o que confirma a leitura comercial; os três trechos estão nas capturas (p04), e a página do Poder360 é de 18.jun.2026, o que sustenta o 'até junho' do resumo. Sem N1/N2, e a explicação diz por quê (aviso esperado do validador). O card lido sozinho mostra o que faltou e o único número público, sem afirmar que os 50 são falsos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A041": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o 'E outra vez, nós batemos recordes' vem no presente da conversa sobre 2026, e 2026 não é recorde (US$ 62,4 bi até setembro, projetado como segundo maior); pela linha 'número certo, período errado' do §2.2 seria IMPRECISO. Fica de pé o VERDADEIRO: o verbo está no passado, o recorde histórico (US$ 98,8 bi em 2023) é do mesmo mandato, e o exemplo da régua (atribuir a um governo o que aconteceu em outro) não se aplica; a ressalva já põe o recorde em 2023 e 2026 em segundo. Conferido: os três trechos nas capturas (IEDI, SBT News citando o MDIC, Mercado & Consumo de 07/10/2026); N2 presente para série histórica; o dado de 2026 é o da data da fala. Não achei recorde mensal de 2026 nas capturas que sustentasse o plural, o que mantém a ressalva necessária.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A042": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a afirmação extraída diz que o governo 'não acionou' a lei, e a Band de 13/08/2026 tem o título 'Brasil aciona Lei da Reciprocidade'; lida assim, a frase seria IMPRECISA ou FALSA. Cai porque a fala inteira ('não quero fazer, eu quero continuar negociando. Mas, se for necessário fazer, nós vamos fazer', 505 a 512 s) trata de aplicar a retaliação, e os trechos (Canal Rural, BP Money do dia 15/10) registram que nenhuma tarifa ou contramedida foi aplicada; o card diz exatamente isso e põe o processo aberto na ressalva. Fica registrado que a `afirmacao` do arquivo de alegações ('não acionou') é mais larga que a frase. Alteração: a explicação dizia que o rito foi acionado 'em 2025 e em 2026', e nenhum trecho das cinco fontes sustenta 2025; o trecho ficou só com a abertura de 13/08/2026, que tem lastro na Band. Veredito, resumo e ressalva sem mudança.",
+    "verificacoes": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A043": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a única fonte N2 (Datafolha de março) põe a saúde à frente (21% contra 19%), e o primeiro lugar da segurança vem só de reportagens sobre a Quaest (N4), sem o relatório do instituto; 'no topo' estaria sustentado por fonte fraca. Fica de pé: o próprio Datafolha diz 'no mesmo patamar' com margem de 2 pontos, ou seja, empate no topo, e duas medições Quaest independentes de setembro (31% e 28%) põem violência em 1º; a pergunta da jornalista não diz '1º lugar isolado'. Conferido: trechos nas capturas; a BNews é de 18/09/2026 e o Diario de Pernambuco de 2/09/2026, as duas antes da fala; a divergência entre perguntas está registrada; confiança média é a certa. O card mostra o empate do Datafolha na ressalva.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A044": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o documento do Federal Register é da página de inspeção pública, anterior à publicação, e poderia não ter entrado em vigor. Cai: o próprio texto diz que a designação vale a partir da publicação, e Correio da Manhã e Band (28/05/2026) registram as duas designações (SDGT em 28/05 e FTO a partir de 5/06). Conferido: trecho N1 com 'Dated: May 28, 2026' e os dois nomes, trechos N4 nas capturas; a frase da jornalista (530,6 a 540,8 s) não diz qual regime, e os dois alcançam as duas facções. Nada nas capturas indica revogação até a data da fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A045": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: as três fontes são N4 e duas delas leem o mesmo ofício do Itamaraty, que não foi capturado; pela regra 2 da §3.1, duas N4 só bastam se a primária for conferida. Fica de pé porque é atribuição de posição, não número, e há manifestações distintas: o ofício (Poder360 e Correio Braziliense citam trechos diferentes dele), a nota do Planalto sobre soberania 'inegociável' (está na captura do Correio) e a própria resposta de Lula na entrevista, que confirma a oposição. As duas razões da pergunta (não resolve o problema; ingerência) aparecem: 'não traz benefícios concretos' e 'ações extraterritoriais' com 'riscos concretos' à soberania. Conferido: data do ofício (1º de julho) e da matéria (6 de julho de 2026) na captura do Poder360. Confiança média registra a falta do ofício.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A046": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a jornalista disse 'aproximadamente', o Datafolha tem margem de 2 pontos, e no teto do intervalo (61%) o desvio para dois terços cai abaixo de 10%; além disso, a A154 do mesmo caso (também da jornalista) ficou VERDADEIRO com desvio de 10,6%. Cai: a exceção de 20% do §2.2 é para estimativa oficial com intervalo, e pesquisa de opinião se compara pelo ponto (59%); medido sobre o apurado, como na A154, o desvio aqui é de 13%, longe do limite; 59% está mais perto de três quintos que de dois terços, e isso muda o tamanho da maioria que a pergunta usa como argumento. Conferido: o número do próprio Datafolha (45% mais 14%), campo em 17 e 18/06/2026 e registro BR-09956/2026 nas capturas; a ressalva sobre a redação da pergunta tem lastro no trecho N2. IMPRECISO e não FALSO, porque a maioria e o mês estão certos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A047": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase é uma leitura de Lula sobre como os EUA entendem terrorismo, logo juízo; e a lei americana dá apoio parcial a ele, porque 'terrorism' em 22 U.S.C. 2656f(d)(2) é violência politicamente motivada e o uso de arma 'for mere personal monetary gain' fica fora de 'terrorist activity'. Cai: o 8 U.S.C. §1189 aceita qualquer das duas definições (o trecho mostra o 'or'), e a prática contradiz diretamente o essencial da fala: os EUA designaram cartéis do narcotráfico em 20/02/2025 e o próprio PCC e CV em 2026 pela mesma seção 219. A frase descreve a norma vigente, que é checável (§4.1), e o que ela diz que a classificação exclui é exatamente o que ela inclui; por isso FALSO e não IMPRECISO. Conferido: trechos N1 e N2 nas capturas; contexto de 571 a 606 s, em que Lula diz que a facção 'só quer o dinheiro'.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A048": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: toda a sustentação vem do governo brasileiro (Lula na Itatiaia, Vieira no Portal Tela, Alckmin antes da viagem), sem confirmação americana; a entrega 'por escrito' é autodeclarada, e a fonte independente (Band) fala de um documento com argumentos contra a classificação, que pode ser outro papel. Fica de pé: a proposta é um ato do próprio governo numa reunião fechada, e três integrantes diferentes a descrevem de forma convergente antes e depois do encontro; a Band registra como fato que houve documento entregue a Trump; e o card já diz, na ressalva, que a entrega escrita é relato do presidente sem confirmação dos EUA. Conferido: data (quinta-feira, 7/05/2026) nos trechos e na captura; nada nas capturas contradiz. Confiança média é a certa.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A049": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'aprovamos' atribui ao governo uma aprovação que foi do Congresso, e o texto sancionado (Marco Legal, 'Lei Raul Jungmann') foi reescrito na Câmara; a lei aprovada não seria a do governo. Fica de pé: o Senado registra autoria da Presidência e a Lei 15.358 como norma gerada do PL 5582/2025, o presidente sancionou (com dois vetos, segundo a captura do Brasil de Fato), e a lei aumenta penas (20 a 40 anos no tipo novo); a ressalva já diz que o texto mudou no Congresso e que a proposta original previa até 30 anos. Conferido: trechos N1 do Senado e do Planalto e os N4 nas capturas; a data do envio (31/10/2025) está no trecho do DGABC.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A050": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o art. 144 cria a Polícia Federal e a PRF como órgãos de segurança pública mantidos pela União, com a PF reprimindo o tráfico; 'nunca permitiu que a União se metesse' seria contradito no essencial, o que pela árvore daria FALSO. Fica de pé o IMPRECISO: o núcleo do argumento (as polícias civis, militares e penais respondem aos governadores, §6º, e a Constituição não dá à União a coordenação nacional que a PEC propõe, como diz a Agência Câmara) confere, e o exagero está no alcance ('nunca', 'se metesse'). O resumo diz as duas coisas e deixa a impressão certa em cinco segundos. Conferido: os três trechos nas capturas; texto vigente na data da fala, com a PEC 18/2025 'pronta para deliberação do plenário' no Senado em 15/10/2026.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A051": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a PEC aprovada na Câmara foi reformulada pelo relator Mendonça Filho, e 'nós mandamos a PEC' poderia sugerir que o texto em votação é o do governo. Cai: a frase só afirma o envio, e o Senado registra a PEC 18/2025 'de Presidência da República', a Agência Câmara diz 'elaborada pelo governo federal'; a ressalva cobre a reformulação. Conferido: trechos nas capturas; a captura do Jornal Opção é de 4 de março de 2026, o que sustenta o 'março de 2026' da explicação.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A052": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a pesquisa é de março, sete meses antes da fala, e o 'quase 80%' para roubo na rua (78,6%) é arredondamento. Cai: é a pesquisa do Fórum mais recente achada, a jornalista a cita como 'um dado' sem data, e 78,6% e 78,8% ficam a menos de 2% de 80, dentro da régua; os outros medos citados (morte em assalto, golpe digital, mão armada) estão na mesma pesquisa. Conferido: trecho N2 do relatório do Fórum e o do DGABC nas capturas; o 'com o Datafolha' do resumo tem lastro na captura do relatório ('Fórum Brasileiro de Segurança e Instituto Datafolha, 2026'); a ressalva traz os números exatos, como pede o §2.2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A053": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'tem falado bastante' é frequência, e as fontes mostram uma ocasião com a expressão 'andar de cima' (lançamento do programa, 12/05/2026, com a matéria da véspera) e uma nota oficial de dezembro de 2025, que não é fala literal de Lula. Fica de pé: são ocasiões distintas, a nota oficial atribui a Lula o destaque da asfixia financeira, e a Folha de Pernambuco liga as duas ideias 'nas palavras do próprio presidente'. Conferido: trechos nas capturas (CNN, Folha PE, Metrópoles); a confiança média registra que a biblioteca da Presidência não foi lida. Fica anotado para a A063: aqui duas ocasiões bastaram para 'bastante', e a mesma régua vale lá.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A054": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: os casos de Bolsa Família achados são de traficantes retendo cartões de usuários de crack (Operação Bolsa Crack) e de uma facção usando o cartão de uma beneficiária, e não de 'donos de rua' controlando o recebimento num território; o dado do gás é de um levantamento de 2021 no Rio. Fica de pé: a frase descreve o tipo de interferência de grupos criminosos sobre moradores, sem número nem alcance nacional, e as duas partes têm registro (gás: CNN e Gazeta do Povo sobre milícias e tráfico; Bolsa Família: MPSP, N1, e Gazeta do Povo). A ressalva já diz que os casos são locais e sem levantamento nacional. Conferido: os quatro trechos nas capturas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A055": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o Estadão Conteúdo avaliou que o texto da Câmara blindou os estados contra a influência da União, o oposto de 'ampliando o raio de ação do governo federal'. Cai: aquela comparação é contra o texto original do governo, não contra a Constituição vigente; contra a situação atual, a Agência Senado (14/10/2026, sobre o texto em votação) diz que a proposta 'amplia a participação do governo federal', e o Poder360 lista a PRF com mais atribuições. A divergência está registrada no campo próprio. Conferido: trechos nas capturas; o texto avaliado é o que estava no Senado na data da fala.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A056": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: se Alcolumbre tirou a PEC da pauta, talvez ela nem tenha sido discutida em plenário. Cai: O Tempo registra que o plenário começou a discutir na tarde de 15/10, e a Agenda do Poder publica a retirada às 19h22 do mesmo dia, depois disso; a página do Senado citada na A050 mostra 'pronto para deliberação do plenário' em 15/10/2026. Discutida e pendente, como a jornalista disse durante a entrevista à noite. Conferido: trechos e datas nas capturas (a matéria da Agenda do Poder é de 15 de outubro de 2026).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A057": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a checagem se apoia só em imprensa (sem a emenda no sistema do Senado) e registrava uma divergência sobre a volta de Camilo ao Senado citando o Congresso em Foco, que não estava entre as fontes. O veredito fica de pé: Diário do Nordeste (com o documento protocolado) e Gazeta do Povo confirmam, de forma independente, 16 anos, crimes hediondos e protocolo em 15/10/2026; o Poder360 confirma que ele foi ministro da Educação de Lula e estava no mandato. Alteração: a divergência (junho no Poder360, abril no Congresso em Foco) não tinha lastro na lista de fontes; o Congresso em Foco entrou como quarta fonte, com trecho conferido na captura p05 (0264a4417ba2). Veredito, resumo e ressalva sem mudança.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7"
+    ]
+  },
+  "A058": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a fonte mais forte da oposição é o ministro José Guimarães dizendo que 'a bancada do PT está contra', e ao mesmo tempo quatro petistas assinaram a emenda; dizer 'parte da bancada' seria uma leitura da checagem. Fica de pé: a Gazeta do Povo afirma, em texto próprio, que 'parte da bancada petista se opõe', o Transmissão Política registra resistência e signatários do PT, e o Diário do Nordeste fala em falta de consenso; a frase da jornalista diz exatamente 'parte'. Conferido: trechos nas capturas, todos de 15/10/2026; a captura da Gazeta mostra ainda a líder do governo, Teresa Leitão, defendendo votar sem emendas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A059": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'historicamente' pediria mais que um episódio, e as fontes são todas N4, quase todas de 2015. Fica de pé: em 2015 há três registros independentes (Estadão Conteúdo, Rede Brasil Atual com a orientação da bancada na comissão especial, Congresso em Foco) da posição contrária do PT na PEC 171/1993, e O Tempo de 15/10/2026 descreve a bancada como 'tradicionalmente' contrária; a captura da Gazeta do Povo usada na A057 diz o mesmo. Sem número na frase, a exigência de N1/N2 não se aplica. Conferido: os quatro trechos nas capturas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A060": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o relator da Câmara chegou a pôr no texto um referendo sobre a redução da maioridade, então a PEC já 'discutiu isso'. Cai: o trecho foi retirado antes da votação na Câmara (DGABC e Diario de Pernambuco, março de 2026), o texto original do governo não o tinha, e a TV Senado registra que a PEC passou sem mudanças na CCJ e só então recebeu a emenda de Rogério Marinho; na data da fala o texto em votação não tratava do tema. A ressalva traz o referendo. Conferido: trechos nas capturas; a captura da TV Senado mostra que a outra emenda (Portinho) é sobre o Fundo Nacional, o que confirma que a maioridade veio só por emenda.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A061": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: Lula diz 'reduzindo para 14 anos', e a emenda do PL fixa 16 como regra geral, com 14 só para crimes graves; o número estaria fora do recorte, o que pela régua seria IMPRECISO, e com a jornalista a régua foi aplicada com rigor (A046). Fica de pé: o 14 existe na proposta e não é desvio de valor; a fala também resume a de Camilo como 'para 16' sem dizer que é só para crimes hediondos, e as duas simplificações vão na mesma direção, sem inverter a comparação (a do PL é a mais dura); a ordem (PL em 14/10, Camilo em 15/10) confere. A ressalva traz a regra geral de 16. Conferido: trechos nas capturas (Band de 14/10/2026, TV Senado, Diário do Nordeste).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A062": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'tentativa de golpe na transição' é a acusação, e a ética §5 manda não dar VERDADEIRO a fato sem decisão definitiva. Cai: há decisão definitiva, com trânsito em julgado em 25/11/2025 (Band), e condenação dos oito réus do Núcleo 1 por golpe de Estado e tentativa de abolição violenta do Estado Democrático de Direito (STF, N1), com o objetivo de impedir a posse, o que situa o fato na transição. Conferido: trechos nas capturas; a data do julgamento (11/09/2025) citada na explicação está na captura do STF.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A063": {
+    "decisao": "mantido",
+    "nota": "Checagem provisória (busca interrompida pelo limite da rodada); o veredito provisório está bem posto. Melhor argumento contra: 'se valesse bastante do Supremo' é grau sem régua e com causa ('fizeram com que'), e a A053 aceitou duas ocasiões para 'tem falado bastante'; pela mesma régua, mais um caso de recurso ao STF bastaria para VERDADEIRO, e o critério escrito antes (contagem comparada com governos anteriores) é mais exigente que o da A053. Não muda agora: as capturas trazem um caso só em disputa com o Congresso (IOF, ADC da AGU em 1º/07/2025, três fontes); o outro recurso achado nas capturas (AGU contra o afastamento do diretor da PF, set/2026) é contra decisão do próprio tribunal e não ilustra a frase. NAO_CHECAVEL não é saída, porque a alegação é checável (o validador recusa). Ao refazer, usar a mesma régua da A053 (ocasiões distintas) e, se possível, a contagem do painel do STF. O card diz o que foi achado e o que faltou.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A064": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a jornalista afirma que há suspeitas e uma crise, não que os ministros sejam culpados; as três fontes confirmam isso, e o card laranja diz 'sem comprovação' para algo que o próprio resumo confirma. É o argumento mais forte desta revisão. Fica de pé por simetria e pela regra: o caso aplicou a ética §5 do mesmo jeito às falas de Lula sobre o mesmo assunto ('o Toffoli também está implicado', A074, e 'o Castro está implicado', A076, ambas INSUSTENTAVEL com resumo que confirma a menção e diz que a apuração não concluiu); mudar só a da jornalista quebraria a régua entre os dois lados da mesa. Se o autor decidir que 'existem suspeitas' é fato concluído e não fato em apuração, as três mudam juntas. Conferido: trechos nas capturas (CNN e Gazeta de 5/10/2026, Agência Pública de setembro); o resumo não sugere culpa.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A065": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'só agora' afirma que Lula nunca tinha usado a palavra antes, e as fontes não fazem essa busca; a outra metade ('demorou a comentar com clareza') não foi medida. Fica de pé: o fato datado (a palavra em 5/10/2026, um dia depois do 1º turno de 4/10) está em três veículos, e a CNN classifica a fala como uma das críticas mais duras desde o início da crise, o que sustenta o 'palavra mais dura'; a ressalva diz o que não foi medido. Conferido: trechos nas capturas; a A081 do caso (Lula falando em apuração e presunção de inocência em agosto) vai na mesma direção da parte não medida.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  }
+}

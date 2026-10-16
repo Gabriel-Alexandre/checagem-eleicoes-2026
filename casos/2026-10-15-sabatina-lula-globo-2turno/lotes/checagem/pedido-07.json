@@ -1,0 +1,245 @@
+PEDIDO DE CHECAGEM 07 de 15 · alegações A079 a A091
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-07.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A079",
+      "inicio_s": 1036.1,
+      "fim_s": 1040.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Por que o Flávio Dino pediu vista? Porque o Flávio Dino queria que todos fossem jogados na mesma sessão.",
+      "afirmacao": "Flávio Dino pediu vista para que todos os casos fossem julgados na mesma sessão",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "a justificativa registrada por Flávio Dino no pedido de vista (despacho, voto ou declaração pública dele)",
+        "se os outros casos a que a fala se refere estavam pautados ou tramitavam no mesmo colegiado"
+      ]
+    },
+    {
+      "id": "A080",
+      "inicio_s": 1054.6,
+      "fim_s": 1056.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Todo dia se pede vista alguma coisa lá.",
+      "afirmacao": "No STF há pedido de vista todos os dias",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "estatística oficial de pedidos de vista no STF (Corte Aberta ou relatório de atividades) em 2025 e 2026",
+        "média de pedidos por dia útil e por sessão"
+      ]
+    },
+    {
+      "id": "A081",
+      "inicio_s": 1057.6,
+      "fim_s": 1075.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu vou dizer o que eu já disse na outra entrevista que eu fiz aqui, que eu disse o seguinte, não é possível imaginar que a sociedade brasileira vai aceitar que não seja apurado tudo",
+      "citacao_card": "eu vou dizer o que eu já disse na outra entrevista [...] não é possível imaginar que a sociedade brasileira vai aceitar que não seja apurado tudo",
+      "afirmacao": "Na entrevista anterior à TV Globo, Lula disse que a sociedade não aceitaria que o caso não fosse todo apurado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "transcrição da sabatina de Lula na TV Globo de 27/ago/2026 (caso 2026-08-27-sabatina-lula-globo deste repositório)",
+        "se houve outra entrevista dele na Globo antes desta e se o trecho sobre apuração existe nela e de que assunto tratava"
+      ]
+    },
+    {
+      "id": "A082",
+      "inicio_s": 1089.7,
+      "fim_s": 1098.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a gente vai ter que discutir a necessidade de uma reforma do Poder Judiciário, que, aliás, a primeira foi eu que fiz.",
+      "citacao_card": "uma reforma do Poder Judiciário, que, aliás, a primeira foi eu que fiz",
+      "afirmacao": "A primeira reforma do Poder Judiciário foi feita no governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "a emenda constitucional da Reforma do Judiciário: data de promulgação e governo em que tramitou",
+        "se houve reforma do Judiciário anterior que a fonte reconheça como tal"
+      ]
+    },
+    {
+      "id": "A083",
+      "inicio_s": 1099.1,
+      "fim_s": 1105.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu, o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça, nós fizemos a primeira reforma.",
+      "citacao_card": "o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça",
+      "afirmacao": "Quando a reforma do Judiciário foi feita, Nelson Jobim presidia o STF e Márcio Thomaz Bastos era ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "período de Nelson Jobim na presidência do STF e de Márcio Thomaz Bastos no Ministério da Justiça",
+        "data de promulgação da emenda da Reforma do Judiciário, para ver se cai dentro dos dois períodos"
+      ]
+    },
+    {
+      "id": "A084",
+      "inicio_s": 1146.4,
+      "fim_s": 1154.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não é possível que apareça na Suprema Corte tantas e tantas denúncias, tantas coisas de orgia, de mulher, de dinheiro.",
+      "citacao_card": "apareça na Suprema Corte tantas e tantas denúncias, tantas coisas de orgia, de mulher, de dinheiro",
+      "afirmacao": "Surgiram denúncias envolvendo o STF que relatam festas com mulheres e dinheiro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "reportagens ou documentos de investigação publicados até 15/out/2026 que relatem festas, mulheres e pagamentos envolvendo ministros do STF",
+        "separar denúncia formal (inquérito, representação, delação) de relato da imprensa"
+      ]
+    },
+    {
+      "id": "A085",
+      "inicio_s": 1160.2,
+      "fim_s": 1170.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E que eu já conversei três vezes com o presidente Fachin, dizendo que é importante que ele, enquanto for presidente, faça a apuração que tiver que fazer e que julgue.",
+      "citacao_card": "eu já conversei três vezes com o presidente Fachin",
+      "afirmacao": "Lula conversou três vezes com o presidente do STF, Edson Fachin, pedindo apuração e julgamento",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "agenda oficial da Presidência e do STF com encontros entre Lula e Fachin desde que Fachin assumiu a presidência do tribunal",
+        "relatos públicos do conteúdo desses encontros; confirmar que Fachin é o presidente do STF na data da fala"
+      ]
+    },
+    {
+      "id": "A086",
+      "inicio_s": 1195.6,
+      "fim_s": 1200.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Muitos dos seus adversários apontam uma proximidade grande dele com o senhor,",
+      "afirmacao": "Adversários de Lula apontam proximidade entre ele e o diretor-geral da PF, Andrei Rodrigues",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declarações públicas de adversários de Lula (parlamentares, candidatos, partidos) apontando essa proximidade",
+        "o histórico que essas declarações citam como prova da proximidade"
+      ]
+    },
+    {
+      "id": "A087",
+      "inicio_s": 1205.3,
+      "fim_s": 1208.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ele esteve numa festa do Daniel Vorcaro em Londres,",
+      "afirmacao": "Andrei Rodrigues esteve numa festa de Daniel Vorcaro em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "reportagens com registro da presença do diretor-geral da PF em evento de Vorcaro em Londres, e a data do evento",
+        "nota oficial da PF ou do próprio Andrei Rodrigues sobre a viagem"
+      ]
+    },
+    {
+      "id": "A088",
+      "inicio_s": 1208.9,
+      "fim_s": 1213.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "quando o Banco Central já apurava irregularidades no Master",
+      "afirmacao": "Na data da festa em Londres, o Banco Central já apurava irregularidades no Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "data de abertura dos procedimentos de supervisão ou apuração do Banco Central sobre o Banco Master",
+        "comparar com a data da festa em Londres"
+      ]
+    },
+    {
+      "id": "A089",
+      "inicio_s": 1213.3,
+      "fim_s": 1217.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e já havia inquérito na PF de São Paulo sobre o Master.",
+      "afirmacao": "Na data da festa em Londres, já havia inquérito da PF em São Paulo sobre o Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "data de instauração do inquérito da Polícia Federal em São Paulo sobre o Banco Master",
+        "comparar com a data da festa em Londres"
+      ]
+    },
+    {
+      "id": "A090",
+      "inicio_s": 1223.4,
+      "fim_s": 1225.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Primeiro, ele não é ligado a mim.",
+      "afirmacao": "Andrei Rodrigues não tem vínculo pessoal ou político com Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "histórico profissional de Andrei Rodrigues antes da nomeação: cargos ou funções exercidos junto a Lula, em campanha ou no governo",
+        "o que a fonte entende por vínculo, para não comparar coisas diferentes"
+      ]
+    },
+    {
+      "id": "A091",
+      "inicio_s": 1226.1,
+      "fim_s": 1229.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Ele é o diretor-geral da Polícia Federal que eu escolhi.",
+      "afirmacao": "Andrei Rodrigues é o diretor-geral da Polícia Federal e foi escolhido por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "ato de nomeação do diretor-geral da PF no Diário Oficial da União: data e quem assinou",
+        "se ele continua no cargo na data da fala"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "revisor": "Claude (revisão de coerência entre lotes, passada separada)",
+  "A110": {
+    "decisao": "alterado",
+    "nota": "Par A089 e A098 (mesma entrevistadora, mesma investigação, dois minutos antes). Os dois cards dizem inquéritos da PF de São Paulo abertos desde 2023; este dizia 'desde 2024' e que as fontes não davam a data. Entrou o SBT News (captura p08, mesmo trecho de A098), o resumo passou a 'desde 2023' e a ressalva diz de onde vem a data. Veredito VERDADEIRO mantido; trechos conferidos.",
+    "verificacoes": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A089": {
+    "decisao": "mantido",
+    "nota": "Par A098 e A110. Mesmo critério de A098 (existência e data do inquérito, mérito em apuração, confiança média por documento obtido por um veículo). A110 foi alinhado a este par.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A098": {
+    "decisao": "mantido",
+    "nota": "Par A089 e A110: mesmo fato, mesma fonte, mesmo veredito. Sem mudança.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A088": {
+    "decisao": "mantido",
+    "nota": "Par A097 (BC e Master). Os critérios são diferentes e coerentes: 'apurava irregularidades' aceita ofícios de supervisão; 'procedimentos formais' pede o termo de comparecimento de novembro de 2024. As duas ressalvas dizem isso.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A097": {
+    "decisao": "mantido",
+    "nota": "Par A088: ver nota de A088.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A116": {
+    "decisao": "alterado",
+    "nota": "Par A118 (o candidato sobre o mesmo fato). A118 tinha confiança alta com o Decreto 13.120, que corrige todos os componentes desde março de 2023; A116 tinha confiança média e ressalva sobre adicionais não conferidos. Entraram o decreto e o Congresso em Foco de A118, a confiança subiu para alta e a ressalva saiu. Veredito mantido.",
+    "verificacoes": [
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A118": {
+    "decisao": "mantido",
+    "nota": "Par A116, que foi alinhado a este.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A092": {
+    "decisao": "alterado",
+    "nota": "Par A085 e A103 (relato de Lula sobre conversa reservada dele). A explicação dizia que a busca foi limitada, mas a confiança era média e faltava o prefixo de provisório, que A085 tem. Passou a confiança baixa com o prefixo, e o resumo trocou 'não há' por 'não foi achado'. Veredito INSUSTENTAVEL mantido.",
+    "verificacoes": [
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A093": {
+    "decisao": "alterado",
+    "nota": "Mesma frase, mesmo episódio e mesmo lote de A092, com a mesma busca. Igualado a A092 e A085: confiança baixa, prefixo de provisório, resumo com 'não foi achado'. Veredito mantido.",
+    "verificacoes": [
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A103": {
+    "decisao": "alterado",
+    "nota": "Só formato: o prefixo terminava em ponto ('a refazer. Revisão r4:'); passou a dois-pontos, como em todas as provisórias do caso.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A085": {
+    "decisao": "mantido",
+    "nota": "Par A092, A093 e A105. Já era provisória com confiança baixa; serviu de régua para A092 e A093.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A105": {
+    "decisao": "mantido",
+    "nota": "Par A085 e A092. Não é provisória porque há relato independente (Galípolo, presente na reunião) e a explicação não declara busca limitada; o resumo diz o que cada relato traz.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A086": {
+    "decisao": "mantido",
+    "nota": "Par A090 (Andrei Rodrigues, entrevistadora e candidato). A086 é provisória porque falta a declaração de adversários; A090 tem fonte que contradiz em parte a negativa e não depende de busca. Os dois declaram a mesma régua.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A090": {
+    "decisao": "mantido",
+    "nota": "Par A086: ver nota de A086.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A065": {
+    "decisao": "alterado",
+    "nota": "Par A070, A081, A084 e A115. A ressalva dizia que as fontes não mediam se Lula evitou o tema antes, mas o Diario de Pernambuco de 18/09 (captura p07, já usado em A081 e A084) traz Lula dizendo que cinco ministros do STF estavam ligados ao caso Master, com Moraes e Toffoli citados, e A070 mostra pedidos de apuração em 3 e 9 de setembro. Melhor argumento para IMPRECISO: a afirmação diz que antes ele evitou comentar com clareza. Cai porque a frase é 'demorou a comentar' e as fontes não datam o começo das suspeitas sobre ministros; o veredito fica no uso da palavra depois do 1º turno, e a fala de setembro vai na ressalva. Trecho novo conferido.",
+    "verificacoes": [
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A070": {
+    "decisao": "mantido",
+    "nota": "Par A065: as falas de setembro entraram na explicação e na ressalva de A065.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A030": {
+    "decisao": "alterado",
+    "nota": "Par A143 (a idade de Lula, dita duas vezes). A143 tinha a ressalva da data de registro (6 de outubro, 81 anos); A030 não. Entrou a mesma ressalva, com a fonte TVT News e a derivação de A143. 'Cerca de 80 anos' segue VERDADEIRO.",
+    "verificacoes": [
+      "6",
+      "8"
+    ]
+  },
+  "A143": {
+    "decisao": "mantido",
+    "nota": "Par A030, que foi alinhado a este.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A006": {
+    "decisao": "alterado",
+    "nota": "Par A147: mesmo ponto (7ª economia em 2010), mesmas duas séries N2; A147 tinha confiança alta e A006 média. Confiança igualada em alta.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A147": {
+    "decisao": "mantido",
+    "nota": "Par A006, que foi alinhado a este.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A144": {
+    "decisao": "mantido",
+    "nota": "Par A151 e A152 (posição no ranking repetida). O ano de referência é o último fechado na data citada: 2002 para a posse de 2003 (A144 mostra também 2003), 2022 para a de 2023, 2010 para a saída. Nenhum dá 12ª; os dois IMPRECISO ficam.",
+    "verificacoes": [
+      "5",
+      "6"
+    ]
+  },
+  "A151": {
+    "decisao": "mantido",
+    "nota": "Par A144: ver nota de A144.",
+    "verificacoes": [
+      "5",
+      "6"
+    ]
+  },
+  "A152": {
+    "decisao": "mantido",
+    "nota": "Par A144 e A151. 'Hoje' usa a estimativa do ano corrente do FMI (10ª) e a ressalva traz o último ano fechado (11ª). O critério de usar o dado que valia na data se mantém.",
+    "verificacoes": [
+      "5",
+      "6"
+    ]
+  },
+  "A145": {
+    "decisao": "mantido",
+    "nota": "Par A149 (os 30 bilhões do FMI, ditos duas vezes). A145 mede a dívida na posse (cerca de US$ 20 bi) e diz que os 30 bi vieram em 2003 com saques do próprio governo; A149 mede o que foi quitado e aceita o pico. São afirmações diferentes, e as duas explicações citam uma à outra. Sem contradição na tela.",
+    "verificacoes": [
+      "5",
+      "6"
+    ]
+  },
+  "A149": {
+    "decisao": "mantido",
+    "nota": "Par A145: ver nota de A145.",
+    "verificacoes": [
+      "5",
+      "6"
+    ]
+  },
+  "A046": {
+    "decisao": "alterado",
+    "nota": "Par A035, A148, A154 e A190 (régua do desvio). Era a única conta do caso feita sobre o número dito (11,5%); as outras medem sobre o apurado. Passou a 13% sobre o apurado. IMPRECISO mantido pelas duas bases.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A154": {
+    "decisao": "mantido",
+    "nota": "Par A046 e A148: desvio de 10,6% sobre o apurado, base comum do caso; pela base do dito seria 11,9%. IMPRECISO pelas duas.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A148": {
+    "decisao": "mantido",
+    "nota": "Par A154 e A046: desvio menor que 10% pelas duas leituras e pelas duas bases.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A163": {
+    "decisao": "alterado",
+    "nota": "Par A037 a A039 e A178 (provisórias com uma base oficial só). Os cards do candidato dizem 'sem segunda fonte'; o da entrevistadora não dizia, e o dado do IBGE aponta contra a frase. Resumo ganhou 'sem segunda fonte'. Veredito provisório mantido.",
+    "verificacoes": [
+      "6",
+      "8"
+    ]
+  },
+  "A037": {
+    "decisao": "mantido",
+    "nota": "Par A163, que foi alinhado a este padrão.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A178": {
+    "decisao": "mantido",
+    "nota": "Par A163: mesma régua de fonte única.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A153": {
+    "decisao": "mantido",
+    "nota": "Par A155 e A104 (atribuição de posição a terceiros). A153 tem uma só redação (Poder360) e a carta original não capturada; A155 tem duas instituições N2 que sustentam a substância, com o quantificador na ressalva; A104 tem duas redações distintas (A Crítica e Finsiders) e confiança baixa. Tratamentos diferentes por fonte diferente, não por lado da mesa.",
+    "verificacoes": [
+      "4",
+      "6"
+    ]
+  },
+  "A155": {
+    "decisao": "mantido",
+    "nota": "Par A153: ver nota de A153.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A104": {
+    "decisao": "mantido",
+    "nota": "Par A102 e A153. VERDADEIRO com confiança baixa por uma fonte direta e uma de apoio; A102 tem mais lastro e confiança média. Coerente com a fonte de cada um.",
+    "verificacoes": [
+      "4",
+      "6"
+    ]
+  },
+  "A064": {
+    "decisao": "mantido",
+    "nota": "Grupo do caso Master (A064, A073 da entrevistadora; A074, A075, A076, A084 do candidato): todas INSUSTENTAVEL por fato em apuração, confiança média, os dois lados. A distinção com A089, A098 e A110 (VERDADEIRO) é a mesma em todo o caso: existência de inquérito ou busca é fato; 'implicado' e 'suspeita' dependem da apuração.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A076": {
+    "decisao": "mantido",
+    "nota": "Par A098 e A064: ser alvo de busca é fato registrado no resumo; 'implicado' fica sem veredito por apuração em curso, como A073 da entrevistadora.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A072": {
+    "decisao": "mantido",
+    "nota": "Par A079 (vista de Dino). A072 confere o efeito (julgamento suspenso, ressalva dos 90 dias); A079 confere o motivo atribuído e fica IMPRECISO. Não se contradizem na tela.",
+    "verificacoes": [
+      "6",
+      "8"
+    ]
+  },
+  "A021": {
+    "decisao": "mantido",
+    "nota": "Par A014 e A020 (forma absoluta com exceções). A014 e A020 caem por exceção material (Tebet ministra; cinco partidos sem ministério); em A021 nenhum dos partidos citados apoia Lula como partido, e os diretórios do MDB vão na ressalva.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A011": {
+    "decisao": "mantido",
+    "nota": "Par A121 (projeto de orçamento sem reajuste, candidato e entrevistadora). A011 cai pela forma absoluta ('não tinha deixado dinheiro', havia R$ 105,7 bi); A121 afirma ausência de correção, que confere. Mesma régua.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A122": {
+    "decisao": "mantido",
+    "nota": "Par A139 e A125. Afirmações diferentes sobre espaço fiscal: 'havia espaço' é contestado pela IFI e fica sem comprovação; 'sem mexer no espaço' contradiz o uso de até R$ 15 bi e fica IMPRECISO. Números da IFI iguais em A123 e A125.",
+    "verificacoes": [
+      "6"
+    ]
+  },
+  "A032": {
+    "decisao": "mantido",
+    "nota": "Par A017 e A140. Contagem de encontros públicos com data, por redações independentes, recebeu o mesmo tratamento que A140 da entrevistadora (só imprensa, VERDADEIRO). O erro do validador 'nenhuma fonte N1 ou N2' segue e fica registrado para o autor.",
+    "verificacoes": [
+      "4",
+      "6"
+    ]
+  },
+  "A175": {
+    "decisao": "mantido",
+    "nota": "Par A184 (a mesma afirmação repetida pela entrevistadora) e A176, A185, A189: vereditos e números compatíveis (14,9 milhões; TCU com baixa efetividade e mediana menor na maioria das cirurgias).",
+    "verificacoes": [
+      "6",
+      "8"
+    ]
+  },
+  "A184": {
+    "decisao": "mantido",
+    "nota": "Par A175: mesmo veredito, ressalvas compatíveis.",
+    "verificacoes": [
+      "6"
+    ]
+  }
+}

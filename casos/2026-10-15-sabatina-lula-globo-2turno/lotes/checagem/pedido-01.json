@@ -1,0 +1,242 @@
+PEDIDO DE CHECAGEM 01 de 15 · alegações A001 a A013
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-01.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 82.6,
+      "fim_s": 91.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor busca o quarto mandato em situação mais adversa do que aquela de quando conseguiu os dois anteriores e o atual.",
+      "citacao_card": "O senhor busca o quarto mandato [...] quando conseguiu os dois anteriores e o atual",
+      "afirmacao": "Lula exerceu três mandatos presidenciais (dois anteriores e o atual) e disputa o quarto",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "lista de mandatos presidenciais de Lula, TSE e Presidência da República: anos de posse e término",
+        "se a candidatura de 2026 é à reeleição para um quarto mandato"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 91.7,
+      "fim_s": 96.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu não me refiro só à desvantagem na votação do segundo turno, do primeiro turno.",
+      "citacao_card": "a desvantagem na votação [...] do primeiro turno",
+      "afirmacao": "Lula terminou o 1º turno de 2026 atrás do adversário na votação",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "resultado oficial do 1º turno presidencial de 2026, TSE: votos válidos de Lula e do adversário",
+        "a entrevistadora corrige 'segundo turno' para 'primeiro turno' na própria frase: conferir só o 1º turno, já que o 2º não tinha ocorrido"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 96.4,
+      "fim_s": 104.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "desde o início do ano, quase que o tempo inteiro, os brasileiros rejeitaram majoritariamente o seu governo",
+      "afirmacao": "Desde o início de 2026, na maior parte do tempo, a maioria dos brasileiros desaprovou o governo Lula nas pesquisas",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "série de pesquisas de avaliação e aprovação do governo (Datafolha, Quaest, AtlasIntel, Ipec) de janeiro a outubro de 2026",
+        "se a desaprovação ou a avaliação negativa passou de 50% em quase todas as rodadas, e qual medida a frase usa (desaprovação ou ruim/péssimo)"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 104.6,
+      "fim_s": 110.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor já atribuiu esse quadro às situações de conjuntura",
+      "afirmacao": "Lula atribuiu publicamente a avaliação adversa do governo a fatores de conjuntura",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "declarações públicas de Lula em 2026 sobre as causas da reprovação do governo, com data e veículo",
+        "se a palavra 'conjuntura' ou equivalente aparece na fala dele"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 108.0,
+      "fim_s": 112.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e também disse recentemente que a sua campanha foi desorganizada",
+      "afirmacao": "Lula disse recentemente que a sua campanha de 2026 foi desorganizada",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "declaração de Lula entre o 1º turno e 15/out/2026 sobre desorganização da campanha, com data e veículo",
+        "o termo exato que ele usou"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 159.0,
+      "fim_s": 160.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A gente era a sétima economia do mundo.",
+      "afirmacao": "Em 2010, o Brasil era a sétima maior economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares por país em 2010, FMI (World Economic Outlook) e Banco Mundial",
+        "se o critério é PIB nominal ou por paridade de poder de compra"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 161.0,
+      "fim_s": 164.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A economia crescia a 7,5% ao ano",
+      "afirmacao": "A economia brasileira crescia 7,5% ao ano no fim do segundo mandato de Lula (2010)",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "PIB de 2010 e taxa de crescimento anual, IBGE (Contas Nacionais), na revisão vigente",
+        "se '7,5% ao ano' descreve só 2010 ou a média do período, que é outro número"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 164.0,
+      "fim_s": 167.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "tínhamos criado 22 milhões de empregos em oito anos",
+      "afirmacao": "Os oito anos de governo Lula (2003 a 2010) criaram 22 milhões de empregos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "saldo de empregos formais de 2003 a 2010, CAGED e RAIS (Ministério do Trabalho)",
+        "se o número é emprego formal (CAGED/RAIS) ou ocupação total (PNAD), e qual série dá cerca de 22 milhões"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 173.7,
+      "fim_s": 175.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Foram dez ministérios desmontados.",
+      "afirmacao": "Dez ministérios foram extintos ou desmontados antes do atual governo Lula (2019 a 2022)",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "estrutura ministerial em 2018, em 2019 e em dez/2022 (medidas provisórias e decretos de organização da Presidência)",
+        "quantos ministérios foram extintos ou fundidos no período, e o que conta como 'desmontado'"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 178.3,
+      "fim_s": 185.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós tivemos que fazer uma PEC da transição para começar governando antes de eu tomar posse",
+      "afirmacao": "O governo eleito aprovou uma PEC da Transição antes da posse de Lula, em 1º/jan/2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "tramitação e data de promulgação da PEC da Transição, Congresso Nacional",
+        "comparar a data de promulgação com a da posse"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 188.2,
+      "fim_s": 192.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O orçamento não tinha deixado dinheiro para o Bolsa Família",
+      "afirmacao": "O projeto de orçamento de 2023 enviado pelo governo anterior não reservava recursos para o Bolsa Família no valor então pago",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "PLOA 2023 (enviado em ago/2022): dotação do Auxílio Brasil/Bolsa Família e valor do benefício previsto",
+        "comparar com o benefício pago no fim de 2022 e com o custo necessário para mantê-lo"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 188.2,
+      "fim_s": 192.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O orçamento não tinha deixado dinheiro para [...] a educação, para a saúde.",
+      "afirmacao": "O projeto de orçamento de 2023 do governo anterior não deixava recursos suficientes para educação e saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "PLOA 2023: dotações discricionárias de Educação e de Saúde comparadas a 2022, e o piso constitucional",
+        "notas técnicas da Consultoria de Orçamento do Congresso e relatório da equipe de transição sobre essas áreas"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 217.8,
+      "fim_s": 222.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor venceu naquela altura com o apoio de forças políticas mais ao centro",
+      "afirmacao": "Lula venceu a eleição de 2022 com o apoio de forças políticas de centro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre governabilidade e a frente ampla de apoios num eventual novo mandato",
+      "o_que_conferir": [
+        "coligação de Lula em 2022 e os apoios declarados no 2º turno (partidos e líderes de centro), TSE e imprensa",
+        "quem apoiou no 1º turno e quem só no 2º"
+      ]
+    }
+  ]
+}

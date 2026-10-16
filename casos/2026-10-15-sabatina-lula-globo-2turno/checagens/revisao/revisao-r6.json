@@ -1,0 +1,305 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A144": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 12 contra 13 é desvio de 7,7%, abaixo da régua de 10% do §2.2, então seria VERDADEIRO com ressalva. Cai porque posição de ranking é contagem, e contagem errada por uma casa já foi tratada como IMPRECISO no projeto (A017 da sabatina de 27/ago, três trocas contra quatro); e em 2003, o ano da posse dito na frase, a posição é 14ª (desvio de 14%). Recontei nas capturas brutas do FMI (NGDPD) e do Banco Mundial, tirando os agregados regionais: 12 países à frente em 2002 e 13 em 2003 (entra a Holanda); em PPC, 10º nos dois anos. Frase e contexto conferem na transcrição (2145,5 a 2151,8 s). Todos os trechos estão nas capturas p12. Mesma régua usada para a entrevistadora (A154, A166).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A145": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o IMPRECISO: 'devia 30 bilhões' pode se referir ao acordo de 2002, que de fato era de uns US$ 30 bilhões, e então seria VERDADEIRO. Cai porque a frase é sobre a posse ('quando eu assumi'), e a posição do FMI em 31/12/2002 dá saldo de 15.319,64 milhões de DES (cerca de US$ 20 bilhões), com só 4.564,22 sacados do acordo; número certo, período errado. Veredito mantido. Alterado o resumo: punha '15,3 bilhões de DES' ao lado de 'US$ 30 bi', e lido em cinco segundos o espectador compara moedas diferentes; passou para 'cerca de US$ 20 bi', derivação já declarada. Entrou como fonte primária a posição do FMI em 30/11/2003 (23.358,59 milhões de DES, 17.199,64 sacados), capturada na revisão, porque o saldo de 2003 só tinha a reportagem de 2005. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A146": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o FALSO: 'não estava crescendo' é força de expressão para crescimento fraco, e caberia IMPRECISO; ou o dado de 2002 conhecido na época era menor que o revisado. Cai porque a série vigente na data da fala (SGS 7326, Banco Mundial e FMI, três fontes concordando) dá +3,05% em 2002 e +1,14% em 2003, positivos nos dois anos possíveis, e 3,05% é a maior taxa entre 2001 e 2003; o §5 manda usar o dado vigente na data da fala. É a mesma régua da sabatina de 27/ago, em que 'crescendo 1%' contra 3,0% em 2022 foi FALSO (A012). Frase conferida na transcrição (2152,4 a 2155,1 s), no contexto da posse; trechos encontrados nas capturas p12.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A147": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: pela revisão de dados ou por outra medida a posição de 2010 seria outra, ou 'quando eu deixei' poderia ser 2011, quando o Brasil foi o 6º. Cai porque Lula saiu em 1º/01/2011, o último ano inteiro é 2010, e recontei nas capturas brutas: FMI e Banco Mundial dão 6 países à frente (EUA, China, Japão, Alemanha, França, Reino Unido) e a Itália logo atrás; em PPC também 7º. Duas fontes N2 independentes, edição do WEO de outubro de 2026 conferida nos metadados. Trechos encontrados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A148": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'fizemos uma reserva de 270 bilhões' pode significar o estoque final, e 270 contra 288,6 é desvio que, medido na base errada, chega perto de 7%. Fica de pé: na base do §2.2 (sobre o apurado) o dito fica 6,4% abaixo do estoque de dez/2010 e 7,7% acima do acréscimo desde dez/2002, menos de 10% nas duas leituras, e a ressalva mostra o apurado, como o validador exige. SGS 3546 e Banco Mundial conferidos nas capturas, mesmo valor. Alterado só o texto da explicação, que escrevia os dois desvios como 6% e 7% em bases diferentes. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A149": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: a dívida quitada chegou a US$ 33,7 bilhões, 11% acima dos 30 ditos, e pela régua aplicada a A154 isso seria IMPRECISO. Cai porque não há um número único para 'a dívida paga': o pico de 33,7 é saldo em dólar a câmbio de 2003, os pagamentos de 2005 somam 23,3, e a posição primária do FMI em 30/11/2003, capturada na revisão, dá 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela mesma equivalência que a carta de intenção de 2002 usa, com o acordo 'de 30 bilhões' em grande parte sacado (17.199,64 de 22.821,12). A quitação em dezembro de 2005 confere no Relatório de Inflação do BC (N1). Alterado: entrou essa fonte N2 com a derivação declarada, porque o pico só tinha a reportagem de 2005. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A150": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: o compromisso brasileiro com o FMI pode ter crescido depois, nos Novos Acordos de Empréstimo (NAB), e 15 poderia ser esse valor. Não derruba: nenhuma captura traz esse compromisso (e memória do modelo é N5), e mesmo um valor na casa de 13 ou 14 bilhões deixaria os 15 ditos 7% a 15% acima, sem mudar o veredito de forma confiável; o que as fontes N2 do FMI e a Reuters dão é o acordo de até US$ 10 bilhões, 50% abaixo do dito. A essência (o Brasil emprestou ao FMI depois da crise) confere, e a ressalva diz que é teto, não desembolso. Trechos conferidos nas capturas p12.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A151": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 12 contra 11 é 8,3%, abaixo da régua; e no ano da volta, 2023, o Brasil foi o 9º, o que tornaria a frase ainda mais errada, mas em sentido contrário. Cai porque ranking é contagem (mesma régua de A144 e do A017 de 27/ago) e o ano de referência é o anterior à posse, como em A144 (coerência dentro do lote). Recontei nas capturas brutas: 10 países à frente em 2022 no FMI e no Banco Mundial, a Coreia logo atrás. A explicação diz que o erro faz o ponto de partida parecer mais baixo; isso descreve o efeito do número, não intenção. Sem travessão.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A152": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'hoje' é o último ano fechado, 2025, em que o Brasil foi o 11º no FMI e no Banco Mundial, e então seria IMPRECISO, com a mesma régua de A151. Fica de pé porque, em outubro, a estimativa do ano corrente do WEO de outubro de 2026 (publicado em 08/10, antes da fala, conferido nos metadados) é a medida usual de 'hoje', dá 10º (Brasil 2.654,761 contra Canadá 2.490,256, recontado na captura bruta), e o card mostra na ressalva que é projeção e que 2025 deu 11º. Confiança média adequada.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A153": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: as quatro fontes são N4 do mesmo veículo (Poder360), a carta original, publicada na Folha, não foi capturada, e 'muitos' e 'reclamam' (no presente) não têm lastro além de uma carta de três economistas em 2022. Fica de pé contra o VERDADEIRO: a METODOLOGIA §3.1 regra 2 só aceita N3/N4 com a primária conferida, e neste caso a mesma falta levou a INSUSTENTAVEL provisório falas do candidato (A016) e outro número da entrevistadora (A126, revisão r5). Passou a INSUSTENTAVEL provisório, confiança baixa, com resumo que diz o que faltou; não é FALSO porque nada contradiz a pergunta. Conferido: a frase bate com a transcrição (2188,5 a 2204,6 s) e todos os trechos estão nas capturas p12. Para voltar a VERDADEIRO falta a carta e uma segunda redação. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A154": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: os 10 pontos ditos ficam 1,19 abaixo da alta de 11,19 (71,68% em dez/2022 para 82,87% em ago/2026, SGS 13762, dado de agosto publicado em 30/09, antes da fala), desvio de 10,6% sobre o apurado, acima da régua de 10% do §2.2. O argumento de que o erro é para menos e não muda a leitura não segura: a régua não distingue o sentido, e foi o critério aplicado a Flávio Bolsonaro (A007 de 28/ago, 14% para menos, IMPRECISO), à mesma entrevistadora em A166 e às posições do candidato em A144 e A151. Passou a IMPRECISO, com ressalva que diz que a diferença é para menos e derivação do desvio declarada. Trechos do BC, do Poder360 e do FMI conferidos nas capturas p12. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A155": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: 'boa parte dos economistas' é afirmação sobre opinião de muitos, e as fontes são duas instituições, sem pesquisa de opinião; a IFI não usa a palavra 'insustentável'. Não derruba o VERDADEIRO provisório: a IFI do Senado e o FMI são N2 independentes, e as duas descrevem uma dívida sem estabilização (a IFI diz que o resultado fica 'muito distante' do que estabiliza a relação dívida/PIB; o FMI projeta alta todo ano até 2029), que é o sentido técnico de trajetória insustentável. A diferença com A153 é que aqui há fonte N2 primária. A ressalva diz o termo usado e a falta de levantamento. Antes de ir à tela, pede o Prisma Fiscal ou outra pesquisa com economistas. Trechos conferidos (IFI nas capturas p10 e p12).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A156": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL provisório: a fonte oficial que a própria checagem citava diz o número. Conferido na captura (p12/06c2b86c5a3b, biografia do Planalto): 'Marisa Letícia Lula da Silva, mãe de quatro dos seus cinco filhos'. A explicação dizia que a biografia não falava dos filhos; estava errado. Passou a VERDADEIRO, confiança média (só a N1 dá o total; as duas reportagens do Poder360 nomeiam Lurian, a mais velha, e Marcos Cláudio, filho com Marisa, coerentes com a biografia). Argumento contra o VERDADEIRO, que não derruba: 'criei' pode não valer para todos os filhos; a frase checável é o número, e ele confere. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A157": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: 'a maior política de crédito' é juízo de valor e deveria sair da extração, ou ser NAO_CHECAVEL. Não derruba: 'maior' é comparação mensurável (volume, tomadores ou subsídio, como a própria alegação lista), e o §2 diz que NAO_CHECAVEL não serve para falta de dado. As duas fontes N1 (Lei 14.690 e MP 1.292, trechos conferidos na captura p13) mostram que existe política de crédito e não dizem o tamanho; o resumo diz o que faltou, sem sugerir desmentido. Bem posto como provisório.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A158": {
+    "decisao": "alterado",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra o INSUSTENTAVEL: briga privada entre presidente e auxiliares não teria registro, e seria NAO_CHECAVEL. Não derruba: é fato passado, e o §2 diz que fato passado nunca é NAO_CHECAVEL; entrevistas e memórias podem registrar. O veredito provisório fica. Alterado o resumo: 'não brigas de Lula com os dois', lido sozinho, soa como desmentido, e o verbete do CPDOC só não registra as brigas. Passou a 'Nenhuma fonte achada registra brigas de Lula com Mantega e Meirelles; o CPDOC registra divergência entre os dois'. Trechos dos dois verbetes conferidos na captura p13. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A159": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: em 2014 o presidente era Dilma Rousseff, e o §2.2 manda IMPRECISO quando se atribui a um governo o que aconteceu em outro; além disso as três fontes eram N4 sem a primária da FAO, o que fere a regra 2 da §3.1. A revisão capturou a primária (FAO, The State of Food Insecurity in the World 2014): a subalimentação do Brasil caiu de 10,7% em 2000-02 para abaixo de 5% em 2004-06, com o Fome Zero lançado em 2003, no primeiro mandato de Lula. Isso derruba o argumento do período e resolve a falta de primária; o VERDADEIRO fica. Entraram como fontes a FAO (N2) e a biografia do Planalto (N1, Dilma no cargo desde 2011 e reeleita em 2014), e a explicação deixou de dizer que as capturas não informavam quem governava em 2014. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A160": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: o dado oficial do IBGE (PNAD Contínua) pode dar número de pessoas em insegurança alimentar grave bem menor que 33 milhões, e o inquérito da Rede PENSSAN é de entidade da sociedade civil. Não derruba: a frase é sobre quando ele voltou, em janeiro de 2023, a PNAD não foi capturada, e uma medição feita já no governo não descreve a volta; na data da volta, o número disponível era o da PENSSAN (coleta de nov/2021 a abr/2022), que confere com 33,1 milhões. A FES publicou a divulgação do próprio inquérito, e Poder360 e Idec confirmam. A ressalva diz que não é IBGE e o período. A transcrição registra 'passando por uma', e o sentido de fome vem da frase anterior (conferido em 2300,9 a 2306,8 s). Recomenda capturar a PNAD antes de ir à tela, mas o veredito está bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7"
+    ]
+  },
+  "A161": {
+    "decisao": "alterado",
+    "nota": "Veredito provisório (busca interrompida). Ao reler o trecho do Imirante na captura (p13/1aa6060817c3), a frase 'O plano de governo não apresenta mudanças no cálculo [...] do salário mínimo' é a última da seção sobre o plano de Lula, logo antes do cabeçalho 'Flávio Bolsonaro'; a checagem a atribuiu ao plano de Flávio, e o resumo repetia isso. Corrigidos resumo, trecho e explicação. Melhor argumento contra o INSUSTENTAVEL, agora: Flávio disse em 8/10 que manterá reajustes de aposentadoria acima da inflação, o que contradiria a fala e daria FALSO. Não derruba: a declaração é sobre aposentadorias, não sobre o mínimo do trabalhador da ativa, e na Globo ele não esclareceu se mantém a regra; também não há anúncio do que Lula atribui a ele. O veredito fica. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A162": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'no meu caso, tem' é promessa de campanha, NAO_CHECAVEL; ou o arcabouço fiscal limitou o ganho real e a frase esconderia isso. Não derruba: no contexto (2349,7 a 2355,5 s) a frase contrasta a regra dele com o anúncio que atribui ao adversário, e a regra vigente, a Lei 14.663 (N1, trecho conferido), soma inflação e crescimento do PIB; o limite do arcabouço reduz o ganho real, não o zera, e a checagem declara que ele não foi conferido. A ressalva mostra a exceção do PIB negativo. O INPC do resumo está no §1 da mesma lei capturada, fora do trecho; não muda o card.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "7"
+    ]
+  },
+  "A163": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: o dado da PIA (energia elétrica 1,05% dos custos e despesas, matérias-primas 46%, conta refeita sobre os valores da captura) contradiz 'principal insumo', e caberia FALSO já. Não derruba agora: as duas tabelas são da mesma pesquisa (uma fonte, pela regra 3 da §3.1), e 'principal insumo' tem uma leitura que não é peso no custo (insumo de que toda a indústria depende), o que a ressalva registra. INSUSTENTAVEL provisório, com o dado contra no resumo, é o que a árvore do §2.1 dá com uma fonte. Mesma régua aplicada ao candidato quando só uma fonte foi achada.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A164": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'das mais limpas do mundo' é posição em ranking, e as fontes só comparam o Brasil com a média mundial. A revisão capturou a série do Banco Mundial de renováveis no consumo final para todos os países em 2020 (rev/1cb187103807): o Brasil, com 50%, fica em 50º de 213 países, no quarto mais limpo, em 1º entre os países do G20 (a Índia, 2ª, fica em 71º), e atrás sobretudo de países que dependem de lenha. Isso sustenta 'das mais limpas'; não derruba o VERDADEIRO. Trechos da EPE (N1) e do Banco Mundial (N2) conferidos. A ressalva ainda diz que a posição não foi apurada; a medição da revisão pode entrar no card se o autor quiser.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A165": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: 'custo baixo' é juízo, NAO_CHECAVEL. Não derruba: é comparação com custo de outros países, mensurável por leilões ou custo nivelado, e a alegação diz isso; o §2 não aceita NAO_CHECAVEL por falta de dado. As duas fontes N1 (EPE e ANEEL, trechos conferidos na captura p13) não comparam o custo brasileiro, e o resumo diz exatamente o que faltou, sem sugerir desmentido. Bem posto como provisório.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A166": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: 'a tarifa' pode ser o reajuste homologado pela ANEEL, que pode ter subido o dobro; ou 'o dobro' é força de expressão para 'bem acima'. Não derruba: 'só este ano' casa com o acumulado do ano, e o IPCA de setembro (publicado antes da fala) dá 6,50% contra 3,95%, 1,6 vez; o dobro seria 7,90%, 21% acima do apurado, além da régua. O IPCA-15 dá a mesma leitura. A ressalva traz o recorte de 12 meses, em que a luz subiu menos que o índice, o que deixa o card honesto nos dois sentidos. Mesma régua aplicada a A154 e aos números do candidato.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A167": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: a regra nova zerou o desconto acima de 80 kWh, e quem consome mais teria perdido, o que tornaria 'ampliou' só parcialmente certo. Conferido na Lei 12.212 compilada (captura p13): a regra antiga tinha três faixas (65% até 30, 40% de 31 a 100, 10% de 101 a 220 kWh), e o desconto máximo equivalia a 59,5 kWh gratuitos, contra 80 na nova; ninguém perde desconto total. O VERDADEIRO fica. Alterada a ressalva, que lida sozinha sugeria perda, com a terceira faixa no trecho e a conta declarada em derivação. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A168": {
+    "decisao": "alterado",
+    "nota": "O terceiro trecho (Lei 15.235) era o parágrafo sobre famílias indígenas e quilombolas, e a explicação o lia como custeio do desconto geral: o trecho não provava a coluna 'prova'. Substituído pelo art. 11-A que a mesma lei acrescentou à Lei 12.111, conferido na captura: o custo de Angra 1 e 2 é rateado entre todos, exceto a baixa renda, o que sustenta o resumo ('a lei passa custos a quem está fora da baixa renda'), que antes só tinha a MP. Melhor argumento contra o VERDADEIRO: em 12 meses a luz subiu menos que a inflação, e 'parcela grande' não foi medida. Não derruba: a frase diz 'pagando mais', e em valor nominal a conta subiu no ano e em 12 meses; a ressalva e a confiança média declaram o que falta. Ver correcoes-r6.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A169": {
+    "decisao": "mantido",
+    "nota": "Veredito provisório (busca interrompida). Melhor argumento contra: com a Eletrobras desestatizada e a distribuição quase toda concedida a empresas privadas, 'a grande parte é privada' seria VERDADEIRO por conhecimento comum. Não derruba: nenhum trecho capturado dá a fatia privada de geração, transmissão ou distribuição, e memória do modelo é N5; a Lei 14.182 (N1, trecho conferido) prova só a desestatização da Eletrobras. INSUSTENTAVEL provisório com o resumo dizendo o que faltou é o que a árvore dá. Pede os dados abertos da ANEEL antes de ir à tela.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "8"
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+PEDIDO DE CHECAGEM 08 de 15 · alegações A092 a A104
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-08.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A092",
+      "inicio_s": 1233.4,
+      "fim_s": 1240.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E quando eu fiquei sabendo que ele tinha ido a Londres, eu chamei ele a atenção",
+      "afirmacao": "Lula repreendeu Andrei Rodrigues por ter ido à festa em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declarações anteriores de Lula, nota do Planalto ou reportagem com fonte identificada sobre a repreensão",
+        "quando a repreensão teria ocorrido em relação à data em que a viagem se tornou pública"
+      ]
+    },
+    {
+      "id": "A093",
+      "inicio_s": 1257.7,
+      "fim_s": 1262.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "ele sabe que eu o reprendi, ele alertei o ministro da Justiça.",
+      "afirmacao": "Lula alertou o ministro da Justiça sobre a ida do diretor-geral da PF à festa em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declaração pública do ministro da Justiça ou do Planalto sobre o alerta",
+        "quem era o ministro da Justiça na data do alerta"
+      ]
+    },
+    {
+      "id": "A094",
+      "inicio_s": 1305.7,
+      "fim_s": 1311.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "para lembrar do momento em que o senhor recebeu o Vorcaro no Palácio do Planalto. Era dezembro de 2024.",
+      "afirmacao": "Lula recebeu Daniel Vorcaro no Palácio do Planalto em dezembro de 2024",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "agenda oficial do presidente em dezembro de 2024",
+        "reportagens com a data do encontro e se ele constou ou não da agenda pública"
+      ]
+    },
+    {
+      "id": "A095",
+      "inicio_s": 1311.4,
+      "fim_s": 1316.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ele foi levado ao senhor pelo seu ex-ministro da Fazenda, Guido Mântega,",
+      "afirmacao": "Daniel Vorcaro foi levado a Lula por Guido Mantega",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "relatos do encontro que indiquem quem o intermediou e quem estava presente",
+        "registro de entrada no Planalto, se divulgado"
+      ]
+    },
+    {
+      "id": "A096",
+      "inicio_s": 1311.4,
+      "fim_s": 1317.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Guido Mântega, que naquela altura trabalhava para o máster.",
+      "afirmacao": "Em dezembro de 2024, Guido Mantega trabalhava para o Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "contrato ou vínculo de Guido Mantega com o Banco Master e o período dele (início e fim)",
+        "comparar com a data do encontro no Planalto"
+      ]
+    },
+    {
+      "id": "A097",
+      "inicio_s": 1318.2,
+      "fim_s": 1323.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Vorcaro já era alvo naquela ocasião, como eu disse, de procedimentos formais no Banco Central",
+      "afirmacao": "Em dezembro de 2024, Vorcaro já era alvo de procedimentos formais no Banco Central",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "procedimentos de supervisão ou administrativos do Banco Central contra o Banco Master ou Vorcaro abertos antes de dezembro de 2024",
+        "o que a fonte chama de procedimento formal, para não confundir com acompanhamento de rotina"
+      ]
+    },
+    {
+      "id": "A098",
+      "inicio_s": 1323.7,
+      "fim_s": 1329.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e também naquele mesmo ano de um inquérito da Polícia Federal. Ocorria em São Paulo esse inquérito.",
+      "afirmacao": "Em 2024, Vorcaro era alvo de um inquérito da Polícia Federal em São Paulo",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "data de instauração do inquérito da PF em São Paulo e se Vorcaro era investigado nele",
+        "comparar com a data do encontro no Planalto"
+      ]
+    },
+    {
+      "id": "A099",
+      "inicio_s": 1346.0,
+      "fim_s": 1351.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha que o Silvio Santos fez quando o Banco Pan-Americano deu problema? Foi me procurar.",
+      "afirmacao": "Silvio Santos procurou Lula quando o Banco PanAmericano teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "agenda presidencial e reportagens da época da crise do PanAmericano sobre encontro de Silvio Santos com Lula"
+      ]
+    },
+    {
+      "id": "A100",
+      "inicio_s": 1352.0,
+      "fim_s": 1354.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha que o Banco de Santos fez? Foi me procurar.",
+      "afirmacao": "O controlador do Banco Santos procurou Lula quando o banco teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "quem controlava o Banco Santos e se procurou Lula antes da intervenção do Banco Central",
+        "agenda presidencial e reportagens da época"
+      ]
+    },
+    {
+      "id": "A101",
+      "inicio_s": 1355.1,
+      "fim_s": 1358.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha do Banco da Igreja de Macedo fez? Foi me procurar.",
+      "afirmacao": "Um banco ligado à igreja de Edir Macedo procurou Lula quando teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "identificar a instituição a que a fala se refere (banco ligado a Edir Macedo ou à igreja dele)",
+        "registro de encontro de representantes desse banco com Lula quando o banco teve problemas"
+      ]
+    },
+    {
+      "id": "A102",
+      "inicio_s": 1378.2,
+      "fim_s": 1384.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E foi assim que o Galipo se posicionou",
+      "afirmacao": "Gabriel Galípolo se posicionou dizendo que o Banco Central trataria o caso Master de forma técnica, sem critério político",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "declarações públicas do presidente do Banco Central, Gabriel Galípolo, sobre o caso Master",
+        "se ele defendeu critério técnico e não político, e quando"
+      ]
+    },
+    {
+      "id": "A103",
+      "inicio_s": 1378.2,
+      "fim_s": 1387.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "foi assim que eu pedi para ele comunicar ao Procurador-Geral da República",
+      "afirmacao": "Lula pediu a Galípolo que comunicasse o caso Master ao Procurador-Geral da República",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "comunicação formal do Banco Central ao MPF ou à PGR sobre o Banco Master, e a data",
+        "registro público de que a comunicação foi a pedido do presidente"
+      ]
+    },
+    {
+      "id": "A104",
+      "inicio_s": 1384.4,
+      "fim_s": 1387.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "foi assim que o Haddad se posicionou.",
+      "afirmacao": "Fernando Haddad se posicionou dizendo que o caso Master seria tratado de forma técnica, sem critério político",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "declarações públicas de Fernando Haddad sobre o Banco Master e a atuação do Banco Central",
+        "se ele defendeu critério técnico e não político, e quando"
+      ]
+    }
+  ]
+}

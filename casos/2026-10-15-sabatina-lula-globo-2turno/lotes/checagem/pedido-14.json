@@ -1,0 +1,242 @@
+PEDIDO DE CHECAGEM 14 de 15 · alegações A170 a A182
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-14.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A170",
+      "inicio_s": 2409.3,
+      "fim_s": 2411.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Fizeram o favor de privatizar a Eletrobras",
+      "afirmacao": "A Eletrobras foi privatizada antes do atual governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "data e modelo da desestatização da Eletrobras (Lei 14.182/2021, oferta de ações de 2022)",
+        "a participação da União depois da operação"
+      ]
+    },
+    {
+      "id": "A171",
+      "inicio_s": 2466.6,
+      "fim_s": 2469.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e os ricos pagam um pouco mais como nós fizemos agora",
+      "afirmacao": "O governo Lula fez recentemente uma mudança pela qual os mais ricos passam a pagar um pouco mais",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica; logo depois ele fala do mercado livre de energia",
+      "o_que_conferir": [
+        "qual mudança a fala indica: rateio de encargos do setor elétrico entre consumidores (reforma de 2025-2026) ou a tributação de altas rendas que acompanhou a isenção do IR",
+        "o texto da norma aprovada e quem passa a pagar mais"
+      ]
+    },
+    {
+      "id": "A172",
+      "inicio_s": 2469.9,
+      "fim_s": 2479.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você está lembrado que o pobre pagava muita energia porque o pobre comprava do Estado e o rico comprava no mercado livre mais barato",
+      "citacao_card": "o pobre comprava do Estado e o rico comprava no mercado livre mais barato",
+      "afirmacao": "Consumidores pequenos compravam energia no mercado regulado, mais caro, enquanto grandes consumidores compravam no mercado livre, mais barato",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "regras de acesso ao mercado livre antes da abertura (limites de carga), ANEEL e CCEE",
+        "preço médio da energia no mercado livre contra a tarifa regulada, CCEE e ANEEL",
+        "se a energia do mercado regulado é vendida pelo Estado ou por distribuidoras, inclusive privadas"
+      ]
+    },
+    {
+      "id": "A173",
+      "inicio_s": 2479.5,
+      "fim_s": 2484.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós agora estamos permitindo que todo e qualquer cidadão possa ir para o mercado livre",
+      "afirmacao": "O governo Lula aprovou a abertura do mercado livre de energia a todos os consumidores",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "norma que abre o mercado livre ao consumidor residencial (medida provisória ou lei de 2025-2026) e se foi aprovada",
+        "o cronograma da abertura: se já vale em outubro de 2026 ou só em data futura"
+      ]
+    },
+    {
+      "id": "A174",
+      "inicio_s": 2491.8,
+      "fim_s": 2499.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A principal queixa hoje é o tempo de espera para consultas especializadas, determinados exames, cirurgias eletivas",
+      "citacao_card": "A principal queixa hoje é o tempo de espera para consultas especializadas",
+      "afirmacao": "A principal queixa dos usuários do SUS hoje é o tempo de espera por consultas especializadas, exames e cirurgias eletivas",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "pesquisas de opinião sobre o SUS (Datafolha/CFM, CNI, IBGE) com a lista das principais queixas, em 2025-2026",
+        "se a espera por especialista aparece em primeiro lugar"
+      ]
+    },
+    {
+      "id": "A175",
+      "inicio_s": 2500.1,
+      "fim_s": 2504.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Um programa lançado pelo seu governo conseguiu ampliar o atendimento para isso",
+      "afirmacao": "Um programa do governo Lula ampliou o atendimento especializado no SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "número de consultas especializadas, exames e cirurgias eletivas realizados no SUS antes e depois do programa (Agora Tem Especialistas ou equivalente), Ministério da Saúde (SIA/SIH)"
+      ]
+    },
+    {
+      "id": "A176",
+      "inicio_s": 2504.8,
+      "fim_s": 2508.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas o tempo de espera não diminuiu significativamente",
+      "afirmacao": "O tempo de espera por atendimento especializado no SUS não diminuiu de forma significativa",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "série do tempo médio de espera ou do tamanho das filas de regulação, Ministério da Saúde ou secretarias estaduais, antes e depois do programa",
+        "se existe série nacional publicada ou só dados estaduais"
+      ]
+    },
+    {
+      "id": "A177",
+      "inicio_s": 2508.1,
+      "fim_s": 2516.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Quem estuda a saúde pública vê esse seu programa como um paliativo, um paliativo necessário, mas não como uma mudança estruturante",
+      "citacao_card": "Quem estuda a saúde pública vê esse seu programa como um paliativo",
+      "afirmacao": "Especialistas em saúde pública avaliam o programa como paliativo necessário, mas não como mudança estruturante",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "avaliações publicadas por pesquisadores de saúde pública (Abrasco, Fiocruz, universidades, IEPS) sobre o programa de especialistas",
+        "se essas avaliações usam a ideia de paliativo ou de falta de mudança estrutural"
+      ]
+    },
+    {
+      "id": "A178",
+      "inicio_s": 2532.9,
+      "fim_s": 2537.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a gente tinha 20 e poucos mil médicos",
+      "afirmacao": "O programa Mais Médicos chegou a ter mais de 20 mil médicos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número máximo de médicos em atividade no Mais Médicos (2014-2016), Ministério da Saúde",
+        "se a fala se refere ao Mais Médicos ou a outro conjunto de médicos"
+      ]
+    },
+    {
+      "id": "A179",
+      "inicio_s": 2537.6,
+      "fim_s": 2540.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu voltei para a presidência, tinha apenas 12 mil",
+      "afirmacao": "Em 2023, quando Lula voltou à presidência, o programa de provimento tinha apenas 12 mil médicos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número de médicos em atividade no Mais Médicos e no Médicos pelo Brasil em dez/2022 e jan/2023, Ministério da Saúde"
+      ]
+    },
+    {
+      "id": "A180",
+      "inicio_s": 2540.1,
+      "fim_s": 2543.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós já contratamos 16 mil",
+      "afirmacao": "O governo Lula já contratou 16 mil médicos no programa de provimento",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número de médicos contratados pelo Mais Médicos desde 2023 e o total em atividade em 2026, Ministério da Saúde",
+        "se os 16 mil são contratações novas ou o total em atividade"
+      ]
+    },
+    {
+      "id": "A181",
+      "inicio_s": 2545.1,
+      "fim_s": 2552.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós agora estamos criando mais especialistas para fazer com que todas as pessoas tenham direito ao segundo médico",
+      "citacao_card": "Nós agora estamos criando mais especialistas",
+      "afirmacao": "O governo Lula está ampliando a formação ou o provimento de médicos especialistas no SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "vagas de residência médica e de provimento de especialistas abertas desde 2023 (Mais Médicos Especialistas, MEC e Ministério da Saúde)"
+      ]
+    },
+    {
+      "id": "A182",
+      "inicio_s": 2598.3,
+      "fim_s": 2601.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós precisamos fazer o Brasil sorridente voltar a funcionar",
+      "afirmacao": "Quando Lula voltou ao governo, o Brasil Sorridente tinha deixado de funcionar ou estava reduzido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS, descrevendo o que encontrou ao chegar ao governo",
+      "o_que_conferir": [
+        "orçamento executado e número de equipes de saúde bucal e de Centros de Especialidades Odontológicas, 2019 a 2022, Ministério da Saúde",
+        "se o programa foi extinto ou só teve redução"
+      ]
+    }
+  ]
+}

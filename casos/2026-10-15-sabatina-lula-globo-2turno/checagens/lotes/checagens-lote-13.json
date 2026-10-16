@@ -1,0 +1,564 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "lotes/checagem/pedido-13.json",
+  "checagens": [
+    {
+      "id": "A157",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Há programas de crédito do governo, como o Desenrola, mas nada achado compara o volume com o de outros governos",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a Lei 14.690, de 3 de outubro de 2023, que criou o Desenrola Brasil e normas de acesso a crédito, e a Medida Provisória 1.292, de 12 de março de 2025, que levou o crédito consignado de empregados CLT para plataformas digitais. As duas mostram que há política de crédito, não que ela é a maior da história. Não achados: o volume de crédito dos programas federais (BNDES, Pronampe, microcrédito, consignado, Desenrola) deste governo contra o dos anteriores, em valores corrigidos, e qual medida sustentaria 'maior' (volume, número de tomadores ou subsídio). Sem esse comparativo, a frase não fica sustentada nem desmentida.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.690, de 3 de outubro de 2023 (Desenrola Brasil)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14690.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 14.690, DE 3 DE OUTUBRO DE 2023 Vigência Institui o Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil; estabelece normas para facilitação de acesso a crédito e mitigação de riscos de inadimplemento e de superendividamento de pessoas físicas",
+          "prova": "Existe um programa federal de crédito e renegociação neste governo; o trecho não diz nada sobre o tamanho comparado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.292, de 12 de março de 2025 (consignado de empregados)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1292.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "MEDIDA PROVISÓRIA Nº 1.292, DE 12 DE MARÇO DE 2025 [...] Altera a Lei nº 10.820, de 17 de dezembro de 2003, que trata sobre as operações de crédito consignado de empregados regidos pela Consolidação das Leis do Trabalho",
+          "prova": "Segundo instrumento de crédito do governo; também sem comparação de volume."
+        }
+      ]
+    },
+    {
+      "id": "A158",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte achada registra brigas de Lula com Mantega e Meirelles; o CPDOC registra divergência entre os dois",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: os verbetes biográficos do CPDOC/FGV. O de Guido Mantega registra que ele assumiu o Planejamento em janeiro de 2003 e, no segundo mandato, conduziu a Fazenda com proposições diferentes da austeridade de Henrique Meirelles, que tinha a confiança de Lula. O de Meirelles registra que ele obteve de Lula o compromisso com a autonomia operacional do Banco Central e ficou no cargo até o fim do governo Lula. A divergência documentada é entre os dois auxiliares, não de Lula com cada um. Não achados: entrevistas, memórias ou reportagens da época com divergência de Lula com Mantega e com Meirelles. Por isso a frase fica sem sustentação, e não desmentida.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "CPDOC/FGV, Dicionário Histórico-Biográfico Brasileiro",
+          "titulo": "Verbete Guido Mantega",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/mantega-guido",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em janeiro de 2003, ele assumiu o Ministério do Planejamento, Orçamento e Gestão [...] Mantega encaminhou a política econômica buscando uma combinação de estabilidade com a retomada do crescimento, muitas vezes com proposições diferentes da austeridade do presidente do Banco Central, Henrique Meirelles, que ao longo do primeiro mandato angariara a confiança do presidente Lula e garantira a ortodoxia do mercado.",
+          "prova": "O período de Mantega no governo e a divergência registrada, que é com Meirelles e não com Lula."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "CPDOC/FGV, Dicionário Histórico-Biográfico Brasileiro",
+          "titulo": "Verbete Henrique Meireles",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/meireles-henrique",
+          "consultada_em": "2026-10-16",
+          "trecho": "Meireles obteve de Lula o compromisso com a autonomia operacional do BC, o que na prática garantia ao banco liberdade para definir a política monetária do país sem interferências ou pressões de natureza política. [...] Optou no entanto por não concorrer a cargo eletivo, mantendo-se à frente do Banco Central até o fim do governo Lula.",
+          "prova": "O período de Meirelles no BC e o compromisso de Lula com ele; nenhum registro de briga."
+        }
+      ]
+    },
+    {
+      "id": "A159",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Brasil saiu do Mapa da Fome da FAO em 2014 e voltou a ele no triênio 2018/2020",
+      "explicacao": "A frase fala em ter acabado com a fome em 2014, e o registro que corresponde a isso é a saída do Mapa da Fome da FAO naquele ano. Três reportagens de épocas e redações diferentes dizem o mesmo: uma de 2018 (IHU Unisinos) e duas de 2025, ao noticiar a nova saída (Congresso em Foco, com texto da Folhapress, e Diário do Comércio). A fonte primária, o relatório da FAO de 2014 (The State of Food Insecurity in the World 2014), capturado na revisão, registra que a taxa de subalimentação do Brasil caiu de 10,7% em 2000-02 para abaixo de 5% em 2004-06, depois do lançamento do Fome Zero em 2003. Em 2014 governava Dilma Rousseff, reeleita naquele ano (biografia oficial da Presidência), mas a queda que levou o país abaixo do limite aconteceu no primeiro mandato de Lula, então a atribuição pessoal ('eu tinha acabado') tem lastro na fonte primária. VERDADEIRO. Ressalva: sair do mapa é ficar abaixo do limite de subalimentação usado pela FAO (o relatório de 2014 fala em abaixo de 5%; o Diário do Comércio descreve o critério como 2,5%), não zerar a fome. 🔧 Até a revisão adversarial r6 (16/out/2026) a checagem não tinha a fonte primária e dizia que as fontes capturadas não informavam quem governava em 2014; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "saída do mapa em 2014; retorno no triênio 2018/2020",
+      "ressalva": "Sair do Mapa da Fome é ficar abaixo do limite de subalimentação da FAO, não zerar a fome",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Instituto Humanitas Unisinos (IHU)",
+          "titulo": "Reportagem sobre o risco de o Brasil voltar ao Mapa da Fome (06/03/2018)",
+          "url": "https://ihu.unisinos.br/576635",
+          "consultada_em": "2026-10-16",
+          "trecho": "Estar incluído no mapa significa ter parte considerável da população em situação de insegurança alimentar, ingerindo uma quantidade diária de calorias inferior ao recomendado. O Brasil saiu do mapa em 2014.",
+          "prova": "Registro anterior à volta ao mapa: a saída em 2014, e o que estar no mapa significa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco (texto da Folhapress)",
+          "titulo": "Brasil volta a ficar fora do Mapa da Fome (28/07/2025)",
+          "url": "https://www.congressoemfoco.com.br/noticia/110552/brasil-volta-a-ficar-fora-do-mapa-da-fome",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil já havia saído do Mapa em 2014, mas voltou à lista no triênio 2018-2020.",
+          "prova": "Outra redação, outra época: confirma a saída em 2014 e o retorno posterior."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio",
+          "titulo": "Relatório da ONU diz que Brasil saiu do Mapa da Fome (28/07/2025)",
+          "url": "https://diariodocomercio.com.br/economia/relatorio-onu-diz-que-brasil-saiu-mapa-fome/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Mapa da Fome é um indicador global da FAO que identifica países em que mais de 2,5% da população sofrem de subalimentação grave (insegurança alimentar crônica). [...] O Brasil alcançou esse patamar em 2014, mas tinha retornado ao Mapa da Fome no triênio 2018/2020.",
+          "prova": "Diz o que o indicador mede, a saída em 2014 e o retorno no triênio 2018/2020."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Organização das Nações Unidas para a Alimentação e a Agricultura (FAO)",
+          "titulo": "The State of Food Insecurity in the World 2014, seção sobre o Brasil",
+          "url": "https://www.fao.org/3/i4030e/i4030e.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ensuring that all people [...] could eat three meals a day – as former President Luis Ignácio Lula da Silva said in his inaugural address – became a [...] presidential and government priority in 2003, with the [...] launch of the Zero Hunger programme. Between 2000–02 [...] and 2004–06, the undernourishment rate in Brazil fell by [...] half from 10.7 percent to below 5 percent.",
+          "prova": "A fonte primária: a subalimentação caiu de 10,7% para abaixo de 5% entre 2000-02 e 2004-06, com o Fome Zero lançado em 2003, no governo Lula."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Biografia do Presidente da República",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dilma foi eleita no segundo turno, com 11 milhões de votos à frente do segundo colocado, José Serra. Em 1º de janeiro de 2011, Lula transmitiu o cargo à sucessora [...] a Lava-Jato não conseguiu impedir a reeleição de Dilma Rousseff nas eleições de 2014.",
+          "prova": "Quem governava em 2014: Dilma Rousseff, sucessora de Lula desde 2011."
+        }
+      ]
+    },
+    {
+      "id": "A160",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Rede PENSSAN contou 33,1 milhões de pessoas com fome no inquérito feito entre 2021 e 2022",
+      "explicacao": "O número de 33 milhões é o do 2º Inquérito Nacional sobre Insegurança Alimentar da Rede PENSSAN, divulgado em junho de 2022: 33,1 milhões de pessoas em insegurança alimentar grave, a faixa que a Escala Brasileira de Insegurança Alimentar descreve como conviver com a fome. A coleta foi de novembro de 2021 a abril de 2022, em 12.745 domicílios. O número dito confere, por isso VERDADEIRO. A transcrição registra 'passando por uma', e o sentido de fome vem da frase anterior. Ressalvas: o dado é de um inquérito da sociedade civil, não do IBGE; o Poder360 registra que o método não mede quantas vezes a pessoa passou fome; e o dado oficial da PNAD Contínua para comparação não foi capturado nesta rodada, por isso a confiança é média.",
+      "numero_dito": "33 milhões",
+      "numero_apurado": "33,1 milhões de pessoas em insegurança alimentar grave",
+      "data_de_referencia": "coleta de novembro de 2021 a abril de 2022 (2º Inquérito da Rede PENSSAN)",
+      "ressalva": "Dado da Rede PENSSAN, não do IBGE, colhido entre novembro de 2021 e abril de 2022",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Rede PENSSAN, divulgação publicada pela Fundação Friedrich Ebert Brasil (apoiadora do inquérito)",
+          "titulo": "Fome avança no Brasil em 2022 e atinge 33,1 milhões de pessoas",
+          "url": "https://brasil.fes.de/detalhe/fome-avanca-no-brasil-em-2022-e-atinge-331-milhoes-de-pessoas",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 2022, 33,1 milhões de pessoas não têm o que comer. É o que revela o 2º Inquérito Nacional sobre Insegurança Alimentar no Contexto da Pandemia da Covid-19 no Brasil, lançado nesta quarta-feira, 8 de junho. [...] As estatísticas foram coletadas entre novembro de 2021 e abril de 2022, a partir da realização de entrevistas em 12.745 domicílios",
+          "prova": "A divulgação do próprio inquérito: o número e o período de coleta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "33 milhões vivem insegurança alimentar grave no país, diz estudo (08/06/2022)",
+          "url": "https://www.poder360.com.br/brasil/33-milhoes-vivem-inseguranca-alimentar-grave-no-pais-diz-estudo/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Uma pesquisa divulgada nesta 4ª feira (8.jun.2022) afirma que 33 milhões de pessoas estão em situação de insegurança alimentar grave no Brasil. Os dados foram levantados pela Rede Penssan",
+          "prova": "Leitura independente e crítica do mesmo estudo: confirma o número e registra o limite do método."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Instituto de Defesa de Consumidores (Idec)",
+          "titulo": "Em 2022, 33 milhões de brasileiros passam fome no Brasil",
+          "url": "https://idec.org.br/noticia/em-2022-33-milhoes-de-brasileiros-passam-fome-no-brasil",
+          "consultada_em": "2026-10-16",
+          "trecho": "são 33,1 milhões de pessoas na situação mais grave da insegurança alimentar no nosso país",
+          "prova": "Terceira leitura do inquérito, com o mesmo número."
+        }
+      ]
+    },
+    {
+      "id": "A161",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não se achou anúncio de Flávio de reajuste do mínimo só pela inflação; o plano dele não fixa meta para o piso",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a frase diz que o adversário anunciou que não haverá aumento do salário mínimo acima da inflação. As fontes capturadas não registram esse anúncio. Na parte da reportagem do Imirante sobre Flávio Bolsonaro, questionado pela Globo sobre manter a vinculação das aposentadorias e benefícios previdenciários ao salário mínimo, o candidato não esclareceu se mantém a regra, e disse que não pretende fazer economia 'em cima dos aposentados'; o NSC Total diz que o plano dele não estabelece meta fixa de aumento para o piso. O que existe é o relato, em abril, de que a equipe econômica estudava separar o reajuste de aposentadorias e BPC do reajuste do mínimo, com só reposição da inflação para os benefícios (Correio Braziliense), e em 8 de outubro Flávio disse que não pretende desvincular os benefícios da política de valorização do mínimo (Agora RN). O estudo trata de benefícios, não do piso pago ao trabalhador da ativa. Não é FALSO porque o candidato não esclareceu, questionado pela Globo, se mantém a regra, e o estudo foi relatado; é INSUSTENTAVEL porque nenhuma fonte registra o anúncio atribuído a ele. Não achados: o plano de governo registrado no TSE, lido na íntegra, e as declarações do candidato sobre a regra do salário mínimo do trabalhador da ativa. 🔧 Até a revisão adversarial r6 (16/out/2026) o resumo e esta explicação diziam que o plano de Flávio não muda o cálculo do salário mínimo, com base numa frase do Imirante que está na parte da reportagem sobre o plano de Lula; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "plano de governo registrado e declarações até 08/10/2026",
+      "ressalva": "Houve relato de estudo da equipe para corrigir só pela inflação aposentadorias e BPC, não o mínimo",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "O Correio Braziliense relata estudo da equipe econômica para separar o reajuste dos benefícios do reajuste do mínimo; o candidato nega a desvinculação em público (Agora RN).",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Imirante",
+          "titulo": "Salário mínimo e aposentadoria: veja as propostas dos candidatos à Presidência (19/09/2026)",
+          "url": "https://m.imirante.com/noticias/brasil/2026/09/19/ipolitica-eleicoes-2026-propostas-dos-presidenciaveis-ao-salario",
+          "consultada_em": "2026-10-16",
+          "trecho": "Flávio Bolsonaro O candidato do PL propõe digitalizar processos da Previdência e adotar uma gestão profissional, sem interferência de entidades sindicais. [...] Questionado pela Globo sobre a manutenção da vinculação das aposentadorias e benefícios previdenciários ao salário mínimo, o candidato não esclareceu se pretende manter a regra. Flávio afirmou, porém, que não pretende fazer economia “em cima dos aposentados”.",
+          "prova": "Na parte sobre Flávio: a pergunta sobre a vinculação ao mínimo ficou sem resposta, e não há anúncio de reajuste só pela inflação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "NSC Total",
+          "titulo": "Os planos de Lula e Flávio Bolsonaro para o salário mínimo no Brasil",
+          "url": "https://www.nsctotal.com.br/politica/salario-minimo-propostas-lula-flavio-bolsonaro-eleicoes-2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "a candidatura de oposição tem como prioridade a diminuição do custo de vida e dos custos que impactam o trabalhador formal, sem estabelecer, por enquanto, uma meta fixa de aumento nominal para o piso.",
+          "prova": "Outra leitura do plano: sem meta para o piso, o que não é o mesmo que anunciar reajuste só pela inflação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (abr/2026)",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Outra frente envolve mudanças na política de valorização do salário mínimo. A ideia é separar os reajustes concedidos aos trabalhadores da ativa daqueles aplicados a benefícios previdenciários e assistenciais, como aposentadorias do INSS e o Benefício de Prestação Continuada (BPC), que passariam a ter apenas reposição inflacionária.",
+          "prova": "O estudo relatado: só reposição da inflação para benefícios, não para o mínimo do trabalhador da ativa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agora RN",
+          "titulo": "Flávio Bolsonaro nega corte em aposentadorias e promete reajuste acima da inflação (08/10/2026)",
+          "url": "https://agorarn.com.br/politica/flavio-nega-corte-em-aposentadorias/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Flávio negou que seu eventual governo pretenda desvincular os benefícios da política de valorização do salário mínimo.",
+          "prova": "A declaração pública do candidato vai no sentido oposto ao anúncio atribuído a ele."
+        }
+      ]
+    },
+    {
+      "id": "A162",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Lei 14.663 manda somar ao INPC o crescimento real do PIB de dois anos antes no reajuste do mínimo",
+      "explicacao": "A regra vigente de valorização do salário mínimo, criada pela Lei 14.663, de 28 de agosto de 2023, soma a inflação do INPC em 12 meses ao crescimento real do PIB do segundo ano anterior, para fins de aumento real. A frase ('no meu caso, tem') descreve essa regra, e as reportagens sobre os planos registrados (NSC Total, Imirante) dizem que o plano de Lula prevê mantê-la. Por isso VERDADEIRO. A própria lei prevê reajuste só pela inflação quando o PIB de referência cai. Ficaram sem conferir nesta rodada, por falta de fonte capturada: o limite ao ganho real aplicado pelo arcabouço fiscal e os reajustes efetivos de cada ano contra o INPC. Por isso a confiança é média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": "Se o PIB de dois anos antes cair, a lei manda reajustar o mínimo só pela inflação",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.663, de 28 de agosto de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14663.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 14.663, DE 28 DE AGOSTO DE 2023 [...] Ficam estabelecidas as diretrizes para a política de valorização do salário mínimo a vigorar a partir de 2024, inclusive, a serem aplicadas em 1º de janeiro do respectivo ano, considerado que o valor decorrerá da soma do índice de medida da inflação do ano anterior, para a preservação do poder aquisitivo, com o índice correspondente ao crescimento real do Produto Interno Bruto (PIB) de 2 (dois) anos anteriores, para fins de aumento real [...] Em caso de taxa de crescimento real negativa do PIB, o salário mínimo será reajustado apenas pelo índice previsto no § 1º deste artigo vigente à época.",
+          "prova": "O texto da regra: inflação mais crescimento do PIB, e a exceção do PIB negativo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "NSC Total",
+          "titulo": "Os planos de Lula e Flávio Bolsonaro para o salário mínimo no Brasil",
+          "url": "https://www.nsctotal.com.br/politica/salario-minimo-propostas-lula-flavio-bolsonaro-eleicoes-2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "O reajuste do salário mínimo acima da inflação de forma permanente garante a espinha dorsal do plano de governo do presidente Lula (PT).",
+          "prova": "Leitura independente do plano de Lula: reajuste acima da inflação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Imirante",
+          "titulo": "Salário mínimo e aposentadoria: veja as propostas dos candidatos à Presidência (19/09/2026)",
+          "url": "https://m.imirante.com/noticias/brasil/2026/09/19/ipolitica-eleicoes-2026-propostas-dos-presidenciaveis-ao-salario",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT), que disputa a reeleição, propõe manter a regra de reajuste do salário mínimo com aumento real para trabalhadores, aposentados e beneficiários do Benefício de Prestação Continuada (BPC).",
+          "prova": "Outra leitura: a regra com aumento real está em vigor e o plano prevê mantê-la."
+        }
+      ]
+    },
+    {
+      "id": "A163",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Na PIA do IBGE, energia elétrica foi 1,05% dos custos da indústria em 2023 e matérias-primas, 46%; sem segunda fonte",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: duas tabelas da Pesquisa Industrial Anual - Empresa, do IBGE, para 2023. Na das empresas com 30 ou mais pessoas ocupadas, a compra de energia elétrica usada na produção somou 64122538 mil reais, contra 2800506773 mil em matérias-primas, num total de custos e despesas de 6079347160 mil: cerca de 1,05% do total, contra 46% das matérias-primas. Na das empresas com 5 ou mais pessoas, energia elétrica e combustíveis juntos somam 157526425 mil reais, contra 2947406740 mil em matérias-primas. Pelo peso no custo, a energia não é o principal insumo da indústria, e o dado aponta contra a frase. Não achados: uma segunda fonte independente do IBGE (como a CNI) e o recorte por setor, onde há indústrias em que a energia pesa mais. As duas tabelas são da mesma pesquisa, então o veredito fica provisório; com a segunda fonte, pode virar FALSO ou IMPRECISO. 🔧 Na revisão de coerência entre lotes (16/out/2026) o resumo ganhou 'sem segunda fonte', como os cards provisórios do candidato com uma base oficial só (A037 a A039, A178), para o laranja não ser lido como dado que confirma ou que derruba a frase; ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": null,
+      "numero_apurado": "compra de energia elétrica: 1,05% dos custos e despesas da indústria; matérias-primas: 46%",
+      "data_de_referencia": "2023 (Pesquisa Industrial Anual - Empresa)",
+      "ressalva": "A pesquisa mede o peso no custo, não a importância do insumo para a produção",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "1,05%",
+          "de": "64122538 dividido por 6079347160",
+          "como": "compra de energia elétrica sobre o total de custos e despesas, em porcentagem"
+        },
+        {
+          "valor": "46%",
+          "de": "2800506773 dividido por 6079347160",
+          "como": "matérias-primas sobre o total de custos e despesas, em porcentagem arredondada"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 7245, PIA-Empresa, 30 ou mais pessoas ocupadas)",
+          "titulo": "Estrutura dos custos e despesas das empresas industriais, 2023",
+          "url": "https://apisidra.ibge.gov.br/values/t/7245/n1/all/v/802,803,828,10427/p/2023/c12762/117897/f/n",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"6079347160\", \"D1N\": \"Brasil\", \"D2N\": \"Custos e despesas - total\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"606800860\", \"D1N\": \"Brasil\", \"D2N\": \"Custos e despesas - gastos de pessoal - total\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"2800506773\", \"D1N\": \"Brasil\", \"D2N\": \"Compras de matérias-primas, materiais auxiliares e componentes\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"64122538\", \"D1N\": \"Brasil\", \"D2N\": \"Compra de energia elétrica utilizada na produção\", \"D3N\": \"2023\", \"D4N\": \"Total\" }",
+          "prova": "O peso da energia elétrica no custo total da indústria, ao lado de matérias-primas e pessoal."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 1847, PIA-Empresa, 5 ou mais pessoas ocupadas)",
+          "titulo": "Estrutura dos custos e despesas das empresas industriais, 2023",
+          "url": "https://apisidra.ibge.gov.br/values/t/1847/n1/all/v/838,868,809,831/p/2023/c12762/117897/f/n",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"6328260312\", \"D1N\": \"Brasil\", \"D2N\": \"Total de custos e despesas\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"667010337\", \"D1N\": \"Brasil\", \"D2N\": \"Gastos de pessoal\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"2947406740\", \"D1N\": \"Brasil\", \"D2N\": \"Consumo de matérias-primas, materiais auxiliares e componentes\", \"D3N\": \"2023\", \"D4N\": \"Total\" }, { \"NN\": \"Brasil\", \"MN\": \"Mil Reais\", \"V\": \"157526425\", \"D1N\": \"Brasil\", \"D2N\": \"Compras de energia elétrica e consumo de combustíveis\", \"D3N\": \"2023\", \"D4N\": \"Total\" }",
+          "prova": "Com empresas menores e energia somada a combustíveis, a ordem é a mesma: muito abaixo das matérias-primas."
+        }
+      ]
+    },
+    {
+      "id": "A164",
+      "veredito": "VERDADEIRO",
+      "resumo": "Renováveis são 49,5% da matriz do Brasil e 14,5% da mundial, diz a EPE; o Banco Mundial mostra a mesma distância",
+      "explicacao": "A EPE, que faz o Balanço Energético Nacional, compara a matriz energética brasileira com a mundial, com dados da Agência Internacional de Energia: as renováveis somam 49,5% da matriz brasileira e 14,5% da mundial, e o Brasil emite menos gases de efeito estufa por habitante que a maioria dos países. O Banco Mundial, com outra medida (participação das renováveis no consumo final de energia), dá 50% para o Brasil e 19,7% para o mundo em 2020. As duas fontes confirmam que a matriz energética, e não só a elétrica, é bem mais limpa que a média mundial, por isso VERDADEIRO. A posição exata num ranking de países não foi apurada, e a confiança é média por isso.",
+      "numero_dito": null,
+      "numero_apurado": "49,5% de renováveis na matriz brasileira contra 14,5% na mundial (EPE)",
+      "data_de_referencia": "matriz brasileira de 2025 (BEN 2026); Banco Mundial, 2020",
+      "ressalva": "A comparação é pela fatia de fontes renováveis; a posição num ranking de países não foi apurada",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "19,7%",
+          "de": "19.7355641050053",
+          "como": "arredondamento a uma casa da fatia mundial do Banco Mundial"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Empresa de Pesquisa Energética (EPE)",
+          "titulo": "Matriz energética e elétrica (ABCDEnergia)",
+          "url": "https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica",
+          "consultada_em": "2026-10-16",
+          "trecho": "Somando à participação da energia hidráulica e dos biocombustíveis e resíduos, as renováveis totalizam 14,5%. A matriz energética do Brasil é muito diferente da mundial. Por aqui, usamos mais fontes renováveis que no resto do mundo. Somando lenha e carvão vegetal, hidráulica, derivados de cana, eólica, solar e outras renováveis, nossas renováveis totalizam 49,5%, ou seja, representam quase metade da nossa matriz energética. [...] Matriz Energética Brasileira 2025 (BEN, 2026; [...] Como consumimos mais energia das fontes renováveis que em outros países, dividindo a emissão de gases de efeito estufa pelo número total de habitantes no Brasil, veremos que nosso país emite menos GEE por habitante que a maioria dos outros países.",
+          "prova": "A fatia de renováveis no Brasil e no mundo, e a emissão por habitante abaixo da maioria dos países."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial (World Development Indicators, EG.FEC.RNEW.ZS)",
+          "titulo": "Renewable energy consumption (% of total final energy consumption), Brasil e mundo, 2020",
+          "url": "https://api.worldbank.org/v2/country/BRA;WLD/indicator/EG.FEC.RNEW.ZS?format=json&date=2020",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"country\":{\"id\":\"BR\",\"value\":\"Brazil\"},\"countryiso3code\":\"BRA\",\"date\":\"2020\",\"value\":50,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2},{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"1W\",\"value\":\"World\"},\"countryiso3code\":\"WLD\",\"date\":\"2020\",\"value\":19.7355641050053",
+          "prova": "Base independente da EPE, com outra medida, e a mesma distância entre Brasil e mundo."
+        }
+      ]
+    },
+    {
+      "id": "A165",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não se achou comparação do custo de gerar energia no Brasil com o de outros países",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a EPE diz que as usinas renováveis, base da matriz elétrica brasileira, têm menores custos de operação, e a ANEEL descreve os leilões de energia como meio de contratar pelo menor preço possível. Nenhum dos dois trechos compara o custo brasileiro com o de outros países. Não achados: preço médio dos leilões ou custo nivelado de geração no Brasil contra referências internacionais, e a separação entre custo de geração e tarifa final ao consumidor (a tarifa subiu no ano, ver A166). A ANEEL publica o resultado dos leilões em dados abertos, que não foram processados nesta rodada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Empresa de Pesquisa Energética (EPE)",
+          "titulo": "Matriz energética e elétrica (ABCDEnergia)",
+          "url": "https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica",
+          "consultada_em": "2026-10-16",
+          "trecho": "Aprendemos com o gráfico que a matriz elétrica brasileira é baseada em fontes renováveis de energia, ao contrário da matriz elétrica mundial. Isso é ótimo para o Brasil, pois além de possuírem menores custos de operação, as usinas que geram energia a partir de fontes renováveis em geral emitem bem menos gases de estufa.",
+          "prova": "Indica custo de operação menor das renováveis, sem número e sem comparação entre países."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Nacional de Energia Elétrica (ANEEL)",
+          "titulo": "Leilões",
+          "url": "https://www.gov.br/aneel/pt-br/assuntos/leiloes",
+          "consultada_em": "2026-10-16",
+          "trecho": "Os leilões de compra de energia elétrica possuem como objetivo: contratar energia pelo menor preço possível (modicidade tarifária);",
+          "prova": "Descreve o objetivo dos leilões, não o nível do custo brasileiro."
+        }
+      ]
+    },
+    {
+      "id": "A166",
+      "veredito": "IMPRECISO",
+      "resumo": "Até setembro, a luz subiu 6,50% no ano e o IPCA 3,95%, cerca de 1,6 vez e não o dobro, diz o IBGE",
+      "explicacao": "O dado que resolve é o IPCA do IBGE de setembro de 2026, o último divulgado antes da entrevista: no acumulado do ano, a energia elétrica residencial subiu 6,50% e o índice geral, 3,95%. A luz subiu mais que a inflação, como diz a pergunta, mas 1,6 vez, e não o dobro; o dobro seria 7,90%, e a diferença passa da margem de 10% da régua. Por isso IMPRECISO e não VERDADEIRO. Não é FALSO porque o essencial (a conta subiu bem acima da inflação no ano) confere. Recorte: em 12 meses a energia subiu 2,74%, abaixo do IPCA de 4,58%; a afirmação fala de 'este ano', e o acumulado do ano é o recorte certo. Se 'a tarifa' quis dizer os reajustes homologados pela ANEEL, isso não foi conferido nesta rodada.",
+      "numero_dito": "o dobro da inflação",
+      "numero_apurado": "energia elétrica residencial 6,50% contra IPCA de 3,95% no ano",
+      "data_de_referencia": "acumulado de janeiro a setembro de 2026 (IPCA de setembro, divulgado antes da fala)",
+      "ressalva": "Em 12 meses, a energia subiu 2,74%, abaixo do IPCA de 4,58%",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "1,6 vez",
+          "de": "6.50 dividido por 3.95",
+          "como": "razão entre os dois acumulados no ano, arredondada a uma casa"
+        },
+        {
+          "valor": "7,90%",
+          "de": "3.95 vezes 2",
+          "como": "o dobro do IPCA acumulado no ano, para medir o desvio"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 7060, IPCA)",
+          "titulo": "IPCA: variação acumulada no ano e em 12 meses, setembro de 2026",
+          "url": "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/69,2265/p/202609/c315/7169,7484/f/n",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"%\", \"V\": \"3.95\", \"D1N\": \"Brasil\", \"D2N\": \"IPCA - Variação acumulada no ano\", \"D3N\": \"setembro 2026\", \"D4N\": \"Índice geral\" }, { \"NN\": \"Brasil\", \"MN\": \"%\", \"V\": \"6.50\", \"D1N\": \"Brasil\", \"D2N\": \"IPCA - Variação acumulada no ano\", \"D3N\": \"setembro 2026\", \"D4N\": \"2202.Energia elétrica residencial\" }, { \"NN\": \"Brasil\", \"MN\": \"%\", \"V\": \"4.58\", \"D1N\": \"Brasil\", \"D2N\": \"IPCA - Variação acumulada em 12 meses\", \"D3N\": \"setembro 2026\", \"D4N\": \"Índice geral\" }, { \"NN\": \"Brasil\", \"MN\": \"%\", \"V\": \"2.74\", \"D1N\": \"Brasil\", \"D2N\": \"IPCA - Variação acumulada em 12 meses\", \"D3N\": \"setembro 2026\", \"D4N\": \"2202.Energia elétrica residencial\" }",
+          "prova": "Os dois acumulados do ano e os de 12 meses, energia e índice geral, no último IPCA antes da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 7062, IPCA-15)",
+          "titulo": "IPCA-15: variação acumulada no ano, setembro de 2026",
+          "url": "https://apisidra.ibge.gov.br/values/t/7062/n1/all/v/355,356,1120/p/202609/c315/7169,7484/f/n",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"%\", \"V\": \"3.82\", \"D1N\": \"Brasil\", \"D2N\": \"IPCA15 - Variação acumulada no ano\", \"D3N\": \"setembro 2026\", \"D4N\": \"Índice geral\" }, { \"NN\": \"Brasil\", \"MN\": \"%\", \"V\": \"4.59\", \"D1N\": \"Brasil\", \"D2N\": \"IPCA15 - Variação acumulada no ano\", \"D3N\": \"setembro 2026\", \"D4N\": \"2202.Energia elétrica residencial\" }",
+          "prova": "Pesquisa separada (a prévia de setembro) com a mesma leitura: a luz acima do índice, longe do dobro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "IPCA sobe 0,82% em setembro, pressionado por energia elétrica e alimentos (09/10/2026)",
+          "url": "https://bpmoney.com.br/?p=425837",
+          "consultada_em": "2026-10-16",
+          "trecho": "Com o avanço, o IPCA acumula alta de 3,95% em 2026 .",
+          "prova": "Confirma, na divulgação do IBGE, o acumulado do índice geral usado na conta."
+        }
+      ]
+    },
+    {
+      "id": "A167",
+      "veredito": "VERDADEIRO",
+      "resumo": "A MP 1.300 e a Lei 15.235 deram desconto de 100% até 80 kWh; antes era 65% até 30 kWh",
+      "explicacao": "A Medida Provisória 1.300, de 21 de maio de 2025, convertida na Lei 15.235, de 8 de outubro de 2025, reescreveu a Tarifa Social: desconto de 100% no consumo de até 80 kWh por mês e nenhum desconto acima disso. A redação anterior da Lei 12.212, que o Planalto mantém no texto compilado, dava 65% até 30 kWh, 40% de 31 a 100 kWh e 10% de 101 a 220 kWh. Pela regra antiga o desconto máximo equivalia a 59,5 kWh de consumo gratuito (30 x 65% + 70 x 40% + 120 x 10%); pela nova, a 80 kWh, então o desconto total cresceu em qualquer faixa de consumo. A lei também criou isenção da CDE até 120 kWh para famílias do CadÚnico com renda de meio a um salário mínimo por pessoa, faixa nova. A ampliação confere: VERDADEIRO. O número de famílias atendidas antes e depois não foi capturado nesta rodada, por isso a confiança é média. 🔧 Até a revisão adversarial r6 (16/out/2026) a ressalva dizia só que acima de 80 kWh o desconto passou a zero e que antes havia 40% de 31 a 100 kWh, o que, lido sozinho, sugeria perda para quem consome mais; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "MP 1.300 de 21/05/2025; Lei 15.235 de 08/10/2025",
+      "ressalva": "Em kWh gratuitos, o desconto máximo passou de 59,5 para 80, e acima de 80 kWh não há mais desconto",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 12.212, de 20 de janeiro de 2010 (texto compilado)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12212.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "I - para a parcela do consumo de energia elétrica inferior ou igual a 30 (trinta) kWh/mês, o desconto será de 65% (sessenta e cinco por cento); [...] II - para a parcela do consumo compreendida entre 31 (trinta e um) kWh/mês e 100 (cem) kWh/mês, o desconto será de 40% (quarenta por cento); [...] III - para a parcela do consumo compreendida entre 101 (cento e um) kWh/mês e 220 (duzentos e vinte) kWh/mês, o desconto será de 10% (dez por cento);",
+          "prova": "A regra anterior da Tarifa Social, com as três faixas de desconto, para comparar."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.235, de 8 de outubro de 2025 (conversão da MP 1.300)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15235.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 15.235, DE 8 DE OUTUBRO DE 2025 Conversão da Medida Provisória nº 1.300, de 2025 [...] A partir de 1º de janeiro de 2026, as famílias com renda mensal per capita superior a 1/2 (meio) e igual ou inferior a 1 (um) salário mínimo, desde que devidamente inscritas no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico), terão isenção, em uma única unidade consumidora, do pagamento das quotas anuais da CDE para consumo mensal de até 120 kWh (cento e vinte quilowatts-hora). [...] I - para a parcela do consumo de energia elétrica inferior ou igual a 80 kWh/mês (oitenta quilowatts-hora por mês), o desconto será de 100% (cem por cento); e II - para a parcela do consumo de energia elétrica superior a 80 kWh/mês (oitenta quilowatts-hora por mês), o desconto será de 0% (zero por cento);",
+          "prova": "A regra nova aprovada pelo Congresso: gratuidade até 80 kWh e a faixa nova de isenção."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.300, de 21 de maio de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1300.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "I - para a parcela do consumo de energia elétrica inferior ou igual a 80 kWh/mês (oitenta quilowatt-hora/mês), o desconto será de 100% (cem por cento); e II - para a parcela do consumo de energia elétrica superior a 80 kWh/mês (oitenta quilowatt-hora/mês), o desconto será de 0% (zero por cento).",
+          "prova": "O ato do governo que propôs a mudança, antes da votação."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "59,5",
+          "de": "30 vezes 65% mais (100 menos 30) vezes 40% mais (220 menos 100) vezes 10%",
+          "como": "desconto máximo da regra antiga, em kWh equivalentes de consumo gratuito"
+        }
+      ]
+    },
+    {
+      "id": "A168",
+      "veredito": "VERDADEIRO",
+      "resumo": "A luz residencial subiu 6,50% no ano até setembro, e a lei passa custos a quem está fora da baixa renda",
+      "explicacao": "O IPCA de setembro de 2026 mostra a energia elétrica residencial com alta acumulada de 6,50% no ano, média de todas as contas residenciais, incluídas as da Tarifa Social. A MP 1.300, mantida nesse ponto pela Lei 15.235, rateia a partir de 2026 o custo de Angra 1 e Angra 2 entre os consumidores, exceto a baixa renda, de modo que quem está fora da Tarifa Social carrega um custo que os beneficiários não pagam. Isso sustenta que esse grupo paga mais, por isso VERDADEIRO. A palavra 'grande' não foi medida: o número de unidades consumidoras fora da Tarifa Social não foi capturado nesta rodada, e o IBGE não separa as contas por tipo de tarifa. Quem custeia o desconto geral da Tarifa Social também não foi conferido. Por isso a confiança é média. 🔧 Até a revisão adversarial r6 (16/out/2026) a terceira fonte era um trecho da Lei 15.235 sobre o desconto de famílias indígenas e quilombolas, lido como se fosse o custeio do desconto geral; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": null,
+      "numero_apurado": "energia elétrica residencial 6,50% no ano",
+      "data_de_referencia": "acumulado de janeiro a setembro de 2026",
+      "ressalva": "O IBGE mede a média das contas residenciais, sem separar quem tem tarifa social",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (SIDRA, tabela 7060, IPCA)",
+          "titulo": "IPCA: variação acumulada no ano, setembro de 2026",
+          "url": "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/69,2265/p/202609/c315/7169,7484/f/n",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"NN\": \"Brasil\", \"MN\": \"%\", \"V\": \"6.50\", \"D1N\": \"Brasil\", \"D2N\": \"IPCA - Variação acumulada no ano\", \"D3N\": \"setembro 2026\", \"D4N\": \"2202.Energia elétrica residencial\" }",
+          "prova": "A alta média da conta de luz residencial no ano, no último dado antes da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.300, de 21 de maio de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1300.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "A partir de 1º de janeiro de 2026, o pagamento à Eletronuclear S.A. da receita decorrente da geração de energia de Angra 1 e Angra 2 será rateado entre os usuários finais de energia elétrica do Sistema Interligado Nacional – SIN, de que trata o art. 3º-A da Lei nº 10.848, de 15 de março de 2004 , exceto entre os consumidores integrantes da Subclasse Residencial Baixa Renda",
+          "prova": "Um custo dividido só entre quem está fora da baixa renda."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.235, de 8 de outubro de 2025 (conversão da MP 1.300), art. 11-A da Lei 12.111",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15235.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "A partir de 1º de janeiro de 2026, o pagamento à Eletronuclear da receita decorrente da geração de energia de Angra 1 e Angra 2 será rateado entre os usuários finais de energia elétrica do Sistema Interligado Nacional (SIN), de que trata o art. 3º-A da Lei nº 10.848, de 15 de março de 2004 , exceto entre os consumidores integrantes da Subclasse Residencial Baixa Renda",
+          "prova": "A lei em vigor manteve o rateio de Angra 1 e Angra 2 sem a baixa renda: um custo que só quem está fora da Tarifa Social paga."
+        }
+      ]
+    },
+    {
+      "id": "A169",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A Eletrobras foi desestatizada por lei, mas não se achou a fatia privada da geração, transmissão e distribuição",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: achados: a Lei 14.182, de 12 de julho de 2021, que desestatizou a Eletrobras por aumento de capital com renúncia da União à subscrição, e a descrição da ANEEL de que compra de energia e transmissão são contratadas por leilão entre concessionárias, permissionárias e autorizadas. Não achados: a participação de empresas privadas em cada segmento, que a ANEEL publica em dados abertos (agentes de geração, com o percentual de cada sócio em cada usina) e que não foi processada nesta rodada, e como a Eletrobras é classificada depois da desestatização. Sem essa participação, 'a grande parte' não fica sustentada nem desmentida.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 14.182 de 12/07/2021; participação privada por segmento não apurada",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.182, de 12 de julho de 2021 (desestatização da Eletrobras)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14182.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "LEI Nº 14.182, DE 12 DE JULHO DE 2021 [...] Dispõe sobre a desestatização da empresa Centrais Elétricas Brasileiras S.A. (Eletrobras) [...] A desestatização da Eletrobras será executada na modalidade de aumento do capital social, por meio da subscrição pública de ações ordinárias com renúncia do direito de subscrição pela União",
+          "prova": "A maior empresa do setor deixou de ser estatal; o trecho não dá a fatia privada do setor."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Nacional de Energia Elétrica (ANEEL), dados abertos",
+          "titulo": "Resultado de leilões",
+          "url": "https://dadosabertos.aneel.gov.br/dataset/resultado-de-leiloes",
+          "consultada_em": "2026-10-16",
+          "trecho": "Assim, a ANEEL organiza os leilões para contratar a compra de energia elétrica por parte das concessionárias, das permissionárias e das autorizadas do serviço público de distribuição de energia elétrica, bem como para conceder serviço público de transmissão",
+          "prova": "O setor opera por concessão e leilão; o trecho não diz quanto está com empresas privadas."
+        }
+      ]
+    }
+  ]
+}

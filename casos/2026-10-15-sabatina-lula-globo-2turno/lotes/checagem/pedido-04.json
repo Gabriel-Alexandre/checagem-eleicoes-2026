@@ -1,0 +1,246 @@
+PEDIDO DE CHECAGEM 04 de 15 · alegações A040 a A052
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-04.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A040",
+      "inicio_s": 489.7,
+      "fim_s": 494.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e crescemos em 50 países que nós visitamos, em média 10,5% a mais",
+      "afirmacao": "O comércio do Brasil com os 50 países visitados por Lula cresceu em média 10,5%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "lista de países visitados por Lula no mandato (Planalto, Itamaraty) e se são 50",
+        "variação do comércio com esses países no Comex Stat, se a média dá 10,5%, e de que tipo de média se trata"
+      ]
+    },
+    {
+      "id": "A041",
+      "inicio_s": 494.6,
+      "fim_s": 499.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós batemos recordes, sabe, de superávit comercial",
+      "afirmacao": "O Brasil bateu recordes de superávit comercial",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "série anual e acumulada no ano do saldo da balança comercial, Comex Stat (MDIC/Secex)",
+        "se o recorde é do ano fechado, do acumulado de 2026 ou de algum mês"
+      ]
+    },
+    {
+      "id": "A042",
+      "inicio_s": 505.1,
+      "fim_s": 508.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu não fiz a lei da reciprocidade, não quero fazer",
+      "afirmacao": "O governo Lula não acionou a lei da reciprocidade contra os Estados Unidos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "se existe lei de reciprocidade comercial sancionada e em que data (Diário Oficial)",
+        "se o governo editou medida de retaliação com base nela contra os EUA até 15/out/2026 (Camex, MDIC)",
+        "a frase admite as leituras 'não fiz a lei' e 'não apliquei a lei': conferir as duas"
+      ]
+    },
+    {
+      "id": "A043",
+      "inicio_s": 524.4,
+      "fim_s": 530.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "outra que está no topo das preocupações dos brasileiros, que é a questão da segurança pública",
+      "afirmacao": "A segurança pública está no topo das preocupações dos brasileiros",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Transição da entrevistadora do tema Estados Unidos para o tema segurança pública",
+      "o_que_conferir": [
+        "pesquisas de opinião de 2026 com a pergunta de principal problema do país (Datafolha, Quaest, AtlasIntel, Ipec), posição da segurança pública ou violência na mais recente antes de 15/out/2026",
+        "se 'no topo' corresponde ao 1º lugar ou só a estar entre os primeiros, e se a pergunta é espontânea ou estimulada"
+      ]
+    },
+    {
+      "id": "A044",
+      "inicio_s": 530.6,
+      "fim_s": 540.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a decisão do governo americano que classificou como organizações terroristas, facções criminosas, entre elas, PCC e Comando Vermelho",
+      "citacao_card": "governo americano que classificou como organizações terroristas, facções criminosas, entre elas, PCC e Comando Vermelho",
+      "afirmacao": "O governo dos Estados Unidos classificou o PCC e o Comando Vermelho como organizações terroristas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a posição do governo brasileiro diante da designação americana das facções",
+      "o_que_conferir": [
+        "ato do Departamento de Estado ou do Tesouro dos EUA publicado no Federal Register designando PCC e Comando Vermelho, com a data",
+        "qual designação foi usada (Foreign Terrorist Organization ou Specially Designated Global Terrorist) e se alcança as duas facções"
+      ]
+    },
+    {
+      "id": "A045",
+      "inicio_s": 530.6,
+      "fim_s": 547.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo é contra a decisão do governo americano [...] É contra por considerar que isso não resolve o problema e ainda abre caminho para a ingerência americana aqui.",
+      "citacao_card": "O seu governo é contra a decisão do governo americano [...] abre caminho para a ingerência americana aqui",
+      "afirmacao": "O governo Lula se opõe à designação americana das facções como terroristas, alegando que ela não resolve o problema e abre caminho para ingerência dos EUA",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "notas oficiais do Itamaraty, do Ministério da Justiça ou declarações do presidente sobre a designação, com data",
+        "se as duas razões citadas (não resolve o problema; abre caminho para ingerência) aparecem nessas manifestações oficiais"
+      ]
+    },
+    {
+      "id": "A046",
+      "inicio_s": 547.9,
+      "fim_s": 560.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas a população é a favor. A população brasileira, uma pesquisa de junho do Datafolha, aponta que dois terços, aproximadamente, concorda total ou parcialmente com essa designação.",
+      "citacao_card": "uma pesquisa de junho do Datafolha, aponta que dois terços, aproximadamente, concorda total ou parcialmente",
+      "afirmacao": "Pesquisa Datafolha de junho apontou que cerca de dois terços dos brasileiros concordam total ou parcialmente com a designação das facções como terroristas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "relatório Datafolha de junho de 2026 com a pergunta sobre classificar facções como terroristas: soma de 'concorda totalmente' e 'concorda em parte'",
+        "se a pergunta da pesquisa trata da designação pelos EUA ou de classificar facções como terroristas em geral (lei brasileira)"
+      ]
+    },
+    {
+      "id": "A047",
+      "inicio_s": 574.2,
+      "fim_s": 584.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando os Estados Unidos falam em terrorismo, ele fala em terrorismo de Estado. Ele fala em terrorismo como aqueles que atentaram contra as duas torres americanas",
+      "citacao_card": "quando os Estados Unidos falam em terrorismo, ele fala em terrorismo de Estado",
+      "afirmacao": "A classificação de terrorismo usada pelos EUA se refere a terrorismo de Estado e a ataques como os de 11 de setembro, e não a grupos criminosos com fim financeiro",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre por que o governo é contra a designação americana de PCC e Comando Vermelho",
+      "o_que_conferir": [
+        "critérios legais da designação de organização terrorista estrangeira nos EUA (8 U.S.C. §1189 e a Ordem Executiva 13224), em vigor em 2026",
+        "se a lista americana já inclui organizações criminosas de motivação financeira (cartéis, facções) e desde quando"
+      ]
+    },
+    {
+      "id": "A048",
+      "inicio_s": 608.8,
+      "fim_s": 623.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós oferecemos ao presidente Trump uma proposta de combater o crime organizado, combater o narcotráfico, fazendo tudo aquilo que nós já temos feito de experiência com a Polícia Federal brasileira, levamos por escrito para ele",
+      "citacao_card": "Nós oferecemos ao presidente Trump uma proposta de combater o crime organizado [...] levamos por escrito para ele",
+      "afirmacao": "O governo brasileiro entregou por escrito ao presidente Trump uma proposta de cooperação no combate ao crime organizado e ao narcotráfico",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "registro do Planalto, do Itamaraty ou do Ministério da Justiça de proposta escrita entregue ao governo Trump sobre crime organizado e narcotráfico, com data e ocasião",
+        "confirmação do lado americano (Casa Branca, Departamento de Estado) ou de cobertura jornalística do encontro"
+      ]
+    },
+    {
+      "id": "A049",
+      "inicio_s": 623.4,
+      "fim_s": 629.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós criamos, aprovamos a lei contra a lei anti-facção, que aumenta a pena dos bandidos.",
+      "afirmacao": "O governo Lula propôs e conseguiu aprovar a lei antifacção, que aumenta as penas para integrantes de facções",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o que o governo faz contra o crime organizado",
+      "o_que_conferir": [
+        "tramitação do projeto de lei antifacção na Câmara e no Senado: autor (Executivo ou parlamentar), data de aprovação e de sanção, número da lei",
+        "texto da lei sancionada: se aumenta penas e para quais crimes, em comparação com a legislação anterior"
+      ]
+    },
+    {
+      "id": "A050",
+      "inicio_s": 631.3,
+      "fim_s": 636.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a Constituição brasileira nunca permitiu que a União se metesse na segurança pública, é a questão do Estado.",
+      "afirmacao": "A Constituição atribui a segurança pública aos estados e não dá à União papel nela",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o combate ao crime organizado e a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "artigo 144 da Constituição de 1988 e as competências que ele dá à União (Polícia Federal, Polícia Rodoviária Federal, Polícia Penal federal) e aos estados",
+        "se alguma emenda anterior a 15/out/2026 já alterou a divisão de competências na segurança pública"
+      ]
+    },
+    {
+      "id": "A051",
+      "inicio_s": 636.8,
+      "fim_s": 639.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu agora quero me meter, por isso que nós mandamos a PEC.",
+      "afirmacao": "O governo Lula enviou ao Congresso uma PEC da Segurança Pública",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o papel da União na segurança pública",
+      "o_que_conferir": [
+        "registro da PEC da Segurança Pública na Câmara: autor (Poder Executivo), número e data de envio"
+      ]
+    },
+    {
+      "id": "A052",
+      "inicio_s": 672.6,
+      "fim_s": 687.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E eu cito aqui um dado do Fórum Brasileiro de Segurança Pública. Quase 80% dos brasileiros têm medo de serem roubados na rua, principalmente celular, inclusive a mão armada. Medo também de serem mortos em assalto ou de serem vítimas de golpe digital.",
+      "citacao_card": "um dado do Fórum Brasileiro de Segurança Pública. Quase 80% dos brasileiros têm medo de serem roubados na rua",
+      "afirmacao": "Segundo o Fórum Brasileiro de Segurança Pública, quase 80% dos brasileiros têm medo de ser roubados na rua, e há medo também de ser morto em assalto e de golpe digital",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o que o governo faria contra a violência como ela é sentida no cotidiano",
+      "o_que_conferir": [
+        "a pesquisa de percepção de medo publicada pelo Fórum Brasileiro de Segurança Pública mais recente antes de 15/out/2026: o percentual com medo de roubo na rua (celular, à mão armada)",
+        "se a mesma pesquisa traz os itens medo de ser morto em assalto e medo de golpe digital"
+      ]
+    }
+  ]
+}

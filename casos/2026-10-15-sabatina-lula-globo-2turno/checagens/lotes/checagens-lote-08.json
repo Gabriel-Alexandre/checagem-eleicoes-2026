@@ -1,0 +1,535 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A092",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi achado registro da bronca a Andrei Rodrigues além da fala do próprio Lula, nem nota oficial sobre ela",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia declaração anterior de Lula, nota do Planalto ou reportagem com fonte identificada sobre a repreensão. A cobertura de 15/10/2026 (SBT News, O Tempo, O Antagonista, Metrópoles) só reproduz a própria fala da sabatina; nenhuma traz nota do Planalto, da PF ou do Ministério da Justiça confirmando a conversa nem a data dela. Na entrevista ao SBT Brasil de 10/09/2026, Lula chamou Andrei de 'da minha total confiança' e disse que, se ele errou, seria investigado, sem mencionar bronca; isso não contradiz a fala, apenas não a confirma. A participação de Andrei no evento de Londres se tornou pública em fevereiro de 2026 (Poder360), e a fala não diz quando a repreensão aconteceu em relação a isso. Sem registro independente e sem prova do contrário, o veredito é INSUSTENTAVEL, não FALSO. A busca desta rodada foi limitada e não achou outro relato. 🔧 Na revisão de coerência entre lotes (16/out/2026) a checagem virou provisória, com confiança baixa, e o resumo trocou a ausência afirmada ('O único registro da bronca a Andrei Rodrigues é a fala do próprio Lula; não há nota oficial sobre ela') por 'não foi achado', pela mesma régua das checagens A085 e A103 (relato de Lula sobre conversa reservada dele, com busca limitada); ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "fala de 15/10/2026; viagem a Londres em abril de 2024, noticiada em fevereiro de 2026",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula: explicação de Andrei sobre Vorcaro não convenceu (15/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-explicacao-de-andrei-sobre-vorcaro-nao-convenceu",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula disse que chamou a atenção de Rodrigues quando soube da viagem e ressaltou que a função de diretor-geral da PF exige determinados cuidados. O presidente, no entanto, não detalhou quais pontos da explicação considerou insatisfatórios.",
+          "prova": "Mostra que o relato da repreensão vem só da fala na sabatina, sem detalhe de data nem confirmação de terceiro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula sai em defesa de diretor-geral da PF após acusações (10/09/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-sai-em-defesa-de-diretor-geral-da-pf-apos-acusacoes",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ele fez um trabalho extraordinário. A Polícia Federal nunca trabalhou tanto quanto neste mandato do Andrei. Ele é da minha total confiança e, se por acaso cometeu algum erro, ele vai ser investigado.",
+          "prova": "Declaração anterior de Lula sobre Andrei: não menciona a repreensão, nem a confirma nem a desmente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Master bancou viagem de diretor-geral da PF a Londres (08/04/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/master-bancou-viagem-de-diretor-geral-da-pf-para-londres/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Poder360 procurou o diretor-geral da Polícia Federal em fevereiro de 2026, quando noticiou que Andrei Rodrigues havia participado de um evento que contava com o patrocínio do Master, e na 3ª feira (7.abr.2026) para perguntar se ele gostaria de se manifestar. Não houve resposta até a publicação desta reportagem.",
+          "prova": "Data em que a ida a Londres se tornou pública, referência para situar a repreensão, que a fala não data."
+        }
+      ]
+    },
+    {
+      "id": "A093",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi achado registro público do alerta ao ministro da Justiça além da fala do próprio Lula na sabatina",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia declaração do ministro da Justiça ou do Planalto sobre o alerta e quem era o ministro na data. Nenhuma fonte capturada traz nota do Ministério da Justiça, do Planalto ou de ex-ministro confirmando o alerta; a frase só aparece na transcrição da sabatina publicada pela imprensa. Quem era o ministro depende de quando o alerta ocorreu, e Lula não disse: Ricardo Lewandowski chefiou a pasta até janeiro de 2026 (pediu demissão em 08/01; Wellington César Lima e Silva foi convidado em 13/01), e o próprio Lewandowski, então ministro, estava no evento de Londres em abril de 2024, segundo a CNN Brasil. A ida de Andrei a Londres só se tornou pública em fevereiro de 2026, já na gestão do sucessor. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL. 🔧 Na revisão de coerência entre lotes (16/out/2026) a checagem virou provisória, com confiança baixa, e o resumo trocou a ausência afirmada ('Não há registro público do alerta ao ministro da Justiça além da fala do próprio Lula na sabatina') por 'não foi achado', pela mesma régua das checagens A085 e A103 (relato de Lula sobre conversa reservada dele, com busca limitada); ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "fala de 15/10/2026; troca no Ministério da Justiça em janeiro de 2026",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "O Tempo",
+          "titulo": "Lula defende mandato para ministro do STF e diz que repreendeu Andrei por viagem bancada pelo Master (15/10/2026)",
+          "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/15/lula-defende-mandato-para-ministro-do-stf-e-diz-que-repreendeu-andrei-por-viagem-bancada-pelo-master",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ele me deu uma explicação, não foi convincente para mim, ele não precisava ter ido. Aliás, ninguém precisava ter ido naquela festa. Ele sabe que eu o repreendi, alertei o ministro da Justiça.",
+          "prova": "O alerta ao ministro só aparece na própria fala, sem nome do ministro nem data."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Comissão aprova convite para diretor da PF explicar viagem paga por Master (14/04/2026)",
+          "url": "https://www.cnnbrasil.com.br/politica/comissao-aprova-convite-para-diretor-da-pf-explicar-viagem-paga-por-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Também estiveram presentes o procurador-geral da República, Paulo Gonet ; Ricardo Lewandowski , então ministro da Justiça e Segurança Pública; Alexandre Silveira , ministro de Minas e Energia; e o advogado-geral da União, Jorge Messias .",
+          "prova": "O ministro da Justiça da época do evento também estava em Londres, o que torna incerto a quem e quando o alerta foi feito."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lewandowski diz a Lula que vai deixar governo (08/01/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/lewandowski-diz-a-lula-que-vai-deixar-governo",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro Ricardo Lewandowski comunicou ao presidente Lula (PT) nesta quinta-feira (8) que vai deixar o Ministério da Justiça em breve.",
+          "prova": "Marca a saída do ministro que estava no cargo até janeiro de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula chama advogado da Petrobras e deve anunciar novo titular do Ministério da Justiça (13/01/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-chama-advogado-da-petrobras-e-deve-anunciar-novo-titular-do-ministerio-da-justica",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) chamou o advogado-geral da Petrobras, Wellington César Lima e Silva para ser o novo titular do Ministério da Justiça.",
+          "prova": "Identifica o sucessor, que já chefiava a pasta quando a viagem se tornou pública."
+        }
+      ]
+    },
+    {
+      "id": "A094",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula recebeu Vorcaro no Planalto em 4 de dezembro de 2024, fora da agenda oficial; Lula confirmou o encontro",
+      "explicacao": "Três veículos com apuração própria dão a mesma data e o mesmo local: o Poder360 confirmou que a reunião foi em 4 de dezembro de 2024 no Palácio do Planalto, sem registro na agenda do presidente, depois de uma audiência de Guido Mantega registrada na agenda do chefe do Gabinete Pessoal; o SBT News, com mensagens do celular de Vorcaro, dá a mesma data e registra que o próprio Lula confirmou a conversa ao UOL; o Metrópoles também situa o encontro em dezembro de 2024, no gabinete de Lula. A pergunta da entrevistadora confere em data e local.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "4 de dezembro de 2024",
+      "ressalva": "O encontro não constou da agenda oficial da Presidência",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Metrópoles informa, com dados de portaria obtidos por LAI, que não há registro de entrada de Vorcaro no Planalto em dezembro de 2024; isso não contradiz a reunião, que o próprio Lula confirmou.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda (26/01/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) participou, em 4 dezembro de 2024, de uma reunião no Palácio do Planalto com o banqueiro Daniel Vorcaro, controlador do Banco Master, sem registro nos compromissos oficiais do petista.",
+          "prova": "Data e local do encontro, e a ausência na agenda oficial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Vorcaro descreveu conversa fora da agenda com Lula como 'ótima' em mensagens (05/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/vorcaro-descreveu-conversa-fora-da-agenda-com-lula-como-otima-em-mensagens",
+          "consultada_em": "2026-10-16",
+          "trecho": "O banqueiro Daniel Vorcaro descreveu como \"ótimo\" o encontro fora da agenda que teve com o presidente Lula (PT) em 4 de dezembro de 2024. [...] Lula afirmou ao portal Uol que a conversa foi rápida e que ouviu as reclamações de Vorcaro sobre possíveis perseguições dos grandes bancos.",
+          "prova": "Confirma a data por outra apuração e registra que o próprio Lula admitiu a reunião."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (coluna Andreza Matais)",
+          "titulo": "Dono do Master foi três vezes ao Palácio do Planalto, fora da agenda (28/01/2026)",
+          "url": "https://www.metropoles.com/colunas/andreza-matais/dono-do-master-foi-tres-vezes-ao-palacio-do-planalto-fora-da-agenda",
+          "consultada_em": "2026-10-16",
+          "trecho": "Como mostrou a coluna, o presidente Lula recebeu Daniel Vorcaro para uma reunião no Palácio do Planalto em dezembro de 2024. Esse encontro também não foi registrado na agenda oficial. A reunião ocorreu no gabinete de Lula e durou cerca de uma hora e meia.",
+          "prova": "Terceira apuração independente com o mesmo mês e o mesmo local."
+        }
+      ]
+    },
+    {
+      "id": "A095",
+      "veredito": "VERDADEIRO",
+      "resumo": "Mantega chegou ao Planalto com Vorcaro e os dois pediram a reunião; Lula disse que foi a pedido de Mantega",
+      "explicacao": "O critério pedia relatos que indicassem quem intermediou o encontro. O Poder360 apurou que Mantega tinha audiência com o chefe do Gabinete Pessoal, foi acompanhado de Vorcaro e, ao fim, os dois pediram para ver o presidente, que os recebeu em seguida. O SBT News diz que o encontro foi 'costurado' por Mantega. E o próprio Lula, na entrevista ao SBT de 10/09/2026, confirmou que recebeu Vorcaro a pedido de Mantega, segundo a Revista Oeste. As três fontes confirmam que foi Mantega quem levou Vorcaro a Lula.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "4 de dezembro de 2024",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda (26/01/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mantega compareceu à audiência acompanhado de Daniel Vorcaro. Ao fim da conversa prevista na agenda, os 2 solicitaram uma reunião com o presidente.",
+          "prova": "Mostra que Vorcaro chegou ao Planalto com Mantega e que os dois pediram o encontro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Vorcaro descreveu conversa fora da agenda com Lula como 'ótima' em mensagens (05/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/vorcaro-descreveu-conversa-fora-da-agenda-com-lula-como-otima-em-mensagens",
+          "consultada_em": "2026-10-16",
+          "trecho": "O encontro ocorreu pela manhã e foi costurado pelo ex-ministro da Fazenda Guido Mantega, um dos consultores do Banco Master.",
+          "prova": "Outra apuração atribuindo a intermediação a Mantega."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste",
+          "titulo": "Lula admite encontro com Vorcaro (10/09/2026)",
+          "url": "https://www.revistaoeste.com/politica/lula-admite-encontro-com-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva, candidato à reeleição, confirmou nesta quinta-feira, 10, que se reuniu com Daniel Vorcaro, controlador do Banco Master, no Palácio do Planalto, a pedido do ex-ministro Guido Mantega, para discutir alegações de perseguição à instituição.",
+          "prova": "O próprio Lula confirmou que o encontro foi a pedido de Mantega."
+        }
+      ]
+    },
+    {
+      "id": "A096",
+      "veredito": "VERDADEIRO",
+      "resumo": "Mantega era consultor do Banco Master em 2024, e o banco declarou à Receita pagamentos a ele naquele ano",
+      "explicacao": "O critério pedia o vínculo de Mantega com o Master e o período. O Metrópoles diz que, no encontro de dezembro de 2024, Mantega era 'então consultor do Banco Master' e que ele esteve no Planalto ao menos quatro vezes em 2024 'quando atuava como consultor'. O Jornal Grande Bahia, com dados da Receita Federal revelados pelo O Globo, registra pagamentos do Master à empresa de consultoria de Mantega já em 2024. O SBT News também o descreve como um dos consultores do banco na data do encontro. O vínculo em dezembro de 2024 está sustentado. A data exata de início do contrato não aparece nas fontes capturadas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "dezembro de 2024",
+      "ressalva": "A data de início do contrato não aparece nas fontes; os pagamentos declarados começam em 2024",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Os totais pagos a Mantega variam entre reportagens (o Jornal Grande Bahia cita a declaração à Receita; outros veículos citam valores mensais de colunas); a divergência é sobre valor, não sobre a existência do vínculo em 2024.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (coluna Andreza Matais)",
+          "titulo": "Dono do Master foi três vezes ao Palácio do Planalto, fora da agenda (28/01/2026)",
+          "url": "https://www.metropoles.com/colunas/andreza-matais/dono-do-master-foi-tres-vezes-ao-palacio-do-planalto-fora-da-agenda",
+          "consultada_em": "2026-10-16",
+          "trecho": "Como mostrou a coluna, Mantega foi ao Palácio do Planalto pelo menos quatro vezes durante o ano de 2024 , quando atuava como consultor do Banco Master.",
+          "prova": "Situa Mantega como consultor do Master ao longo de 2024, inclusive em dezembro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Grande Bahia (com dados da Receita Federal publicados pelo O Globo)",
+          "titulo": "Banco Master declara R$ 65,8 milhões em pagamentos a ex-presidente, ministros e dirigentes políticos (abril de 2026)",
+          "url": "https://jornalgrandebahia.com.br/2026/04/banco-master-declara-r-658-milhoes-em-pagamentos-a-ex-presidente-ministros-e-dirigentes-politicos-receita-federal-detalha-valores-do-esquema-de-daniel-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Outro nome de destaque é o do ex-ministro da Fazenda Guido Mantega , que recebeu R$ 14 milhões por meio de empresa de consultoria , distribuídos entre R$ 6 milhões em 2024 e R$ 8 milhões em 2025 .",
+          "prova": "Pagamentos declarados pelo próprio banco à Receita mostram o vínculo remunerado já em 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Vorcaro descreveu conversa fora da agenda com Lula como 'ótima' em mensagens (05/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/vorcaro-descreveu-conversa-fora-da-agenda-com-lula-como-otima-em-mensagens",
+          "consultada_em": "2026-10-16",
+          "trecho": "O encontro ocorreu pela manhã e foi costurado pelo ex-ministro da Fazenda Guido Mantega, um dos consultores do Banco Master.",
+          "prova": "Terceira fonte descrevendo Mantega como consultor do Master na época do encontro."
+        }
+      ]
+    },
+    {
+      "id": "A097",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em novembro de 2024 a Fiscalização do BC convocou o Master e deu seis meses para correções",
+      "explicacao": "O critério pedia procedimento formal do BC contra o Master ou Vorcaro aberto antes de dezembro de 2024, sem confundir com acompanhamento de rotina. O presidente do BC, Gabriel Galípolo, disse em público (09/02/2026) que em novembro de 2024 a diretoria de Fiscalização convocou o banco para um termo de comparecimento, com prazo de seis meses para correções em liquidez, governança e patrimônio, e chamou o ato de 'cartão amarelo'. O SBT News registra um termo assinado pelo banqueiro com o BC em novembro de 2024, e a Revista Oeste, com registros do TCU publicados pelo O Globo, diz que os avisos começaram em novembro de 2024. Há, portanto, procedimento formal da supervisão antes do encontro de dezembro. O processo administrativo sancionador só foi aberto no primeiro trimestre de 2025, o que vai na ressalva. Os atos citados são do BC sobre o banco controlado por Vorcaro.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "novembro de 2024",
+      "ressalva": "O processo sancionador do BC só foi aberto no primeiro trimestre de 2025",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Galípolo chama o ato de novembro de 2024 de termo de comparecimento; o SBT News fala em termo de compromisso assinado pelo banqueiro. As duas descrições são de ato formal na mesma data.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Finsiders Brasil (declaração pública do presidente do Banco Central)",
+          "titulo": "Galípolo detalha cronologia do caso Master e defende atuação do BC (09/02/2026)",
+          "url": "https://finsidersbrasil.com.br/?p=359378",
+          "consultada_em": "2026-10-16",
+          "trecho": "De acordo com o presidente do BC, o Master começou a enfrentar dificuldades de credibilidade e problemas de captação no final de 2024. Isso gerou restrições de liquidez . Ainda em novembro daquele ano, a diretoria de Fiscalização convocou o banco de Daniel Vorcaro para um termo de comparecimento. Na ocasião, o regulador deu prazo de seis meses para correções em liquidez, governança e patrimônio. [...] Já existia um processo administrativo sancionador em cima do banco desde o primeiro trimestre de 2025 porque não estava cumprindo o compulsório, com atraso de mais de R$ 2,5 bilhões.",
+          "prova": "O próprio presidente do BC descreve o ato formal de novembro de 2024 e data o processo sancionador em 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News (coluna Nathalia Fruet)",
+          "titulo": "Exclusivo: Banco Central recebeu alerta da PF sobre Master em 2024, mas disse não ter encontrado ilegalidades (19/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-nathalia-fruet/exclusivo-banco-central-recebeu-alerta-da-pf-sobre-master-em-2024-mas-disse-nao-ter-encontrado-ilegalidades",
+          "consultada_em": "2026-10-16",
+          "trecho": "A resposta do BC à PF foi dada quatro meses antes de o banqueiro assinar um termo de compromisso com o Banco Central, em novembro de 2024, para fazer correções na gestão do Master.",
+          "prova": "Outra apuração confirma ato formal entre o BC e o banqueiro em novembro de 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste (registros do TCU publicados pelo O Globo)",
+          "titulo": "BC alertou Master sobre riscos 1 ano antes da liquidação, mostra TCU (09/01/2026)",
+          "url": "https://www.revistaoeste.com/politica/bc-alertou-master-sobre-riscos-1-ano-antes-da-liquidacao-mostra-tcu/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Os registros, publicados pelo jornal O Globo nesta sexta-feira, 9, mostram que os primeiros avisos ocorreram em novembro de 2024, com comunicações contínuas até setembro de 2025.",
+          "prova": "Registros do TCU situam os primeiros avisos formais do BC em novembro de 2024, antes do encontro."
+        }
+      ]
+    },
+    {
+      "id": "A098",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PF em São Paulo já tinha inquéritos sobre o Master e fundos usados por Vorcaro, abertos em 2023 e ativos em 2024",
+      "explicacao": "O critério pedia a data de instauração do inquérito da PF em São Paulo e se Vorcaro era investigado. O SBT News obteve o ofício de julho de 2024 da Delegacia de Repressão à Corrupção e Crimes Financeiros da PF em São Paulo ao BC e informa que essa delegacia tinha aberto, desde 2023, dois inquéritos sobre o Master e fundos de investimento usados por Vorcaro. A CNN Brasil, na prisão de Vorcaro, registra que as investigações da operação Compliance Zero começaram em 2024 a pedido do Ministério Público Federal. Havia, portanto, inquérito da PF em São Paulo em curso em 2024, antes do encontro. A alegação trata da existência e da data do inquérito, que estão documentadas; o mérito das investigações segue em apuração e não é julgado aqui (etica-e-risco §5).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "2024 (inquéritos abertos desde 2023; ofício de julho de 2024)",
+      "ressalva": "Os inquéritos de São Paulo foram abertos em 2023 e tratam do Master e de fundos usados por Vorcaro",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News (coluna Nathalia Fruet)",
+          "titulo": "Exclusivo: Banco Central recebeu alerta da PF sobre Master em 2024, mas disse não ter encontrado ilegalidades (19/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-nathalia-fruet/exclusivo-banco-central-recebeu-alerta-da-pf-sobre-master-em-2024-mas-disse-nao-ter-encontrado-ilegalidades",
+          "consultada_em": "2026-10-16",
+          "trecho": "A coluna obteve a íntegra da resposta do BC ao delegado Gleydson Machado Calheiros, da Delegacia de Repressão à Corrupção e Crimes Financeiros da PF em São Paulo. [...] A Delegacia de Repressão e Crimes Financeiros da PF de São Paulo havia aberto desde 2023 dois inquéritos sobre o Master e fundos de investimentos usados por Vorcaro.",
+          "prova": "Documenta inquéritos da PF em São Paulo sobre o Master e Vorcaro em curso em 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Investigações contra Banco Master e Vorcaro tiveram início em 2024 (18/11/2025)",
+          "url": "https://www.cnnbrasil.com.br/economia/investigacoes-contra-banco-master-e-vorcaro-tiveram-inicio-em-2024/",
+          "consultada_em": "2026-10-16",
+          "trecho": "As investigações tiveram início em 2024 , após solicitação do Ministério Público Federal para apurar a possível fabricação de carteiras de crédito insubsistentes por uma instituição financeira.",
+          "prova": "Confirma investigação da PF sobre o Master em 2024, por outra apuração."
+        }
+      ]
+    },
+    {
+      "id": "A099",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "As fontes não registram Silvio Santos procurando Lula no caso PanAmericano; a visita de 2010 foi antes, sobre o Teleton",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia registro de encontro de Silvio Santos com Lula na crise do PanAmericano. O rombo veio a público em novembro de 2010, quando o banco recebeu aporte do FGC (g1). O único encontro dos dois em 2010 que as fontes capturadas registram é a ida de Silvio Santos ao Planalto em 22 de setembro de 2010, antes do rombo, para pedir doação ao Teleton (Exame). Nenhuma fonte capturada mostra Silvio procurando Lula por causa do banco. Isso não prova que o contato não houve, então o veredito é INSUSTENTAVEL, não FALSO. A busca desta rodada foi limitada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "crise do PanAmericano em novembro de 2010",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Exame",
+          "titulo": "Relembre encontros de Silvio Santos com presidentes da República",
+          "url": "https://exame.com/brasil/relembre-encontros-de-silvio-santos-com-presidentes-da-republica/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 22 de setembro de 2010, Silvio Santos foi até o Planalto para se encontrar com Lula, para falar com o então presidente sobre o Teleton, programa com intuito de caridade exibido anualmente pelo SBT.",
+          "prova": "O encontro de 2010 registrado foi antes do rombo e sobre outro assunto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "g1",
+          "titulo": "'Vendi o banco', diz Silvio Santos sobre Panamericano (31/01/2011)",
+          "url": "https://g1.globo.com/economia/negocios/noticia/2011/01/vendi-o-banco-diz-silvio-santos-sobre-panamericano.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em novembro, o Panamericano recebeu um aporte de R$ 2,5 bilhões, com recursos obtidos junto ao Fundo Garantidor de Créditos (FGC), tendo os bens do grupo Silvio Santos como garantia, depois que o BC identificou um rombo nas contas da instituição.",
+          "prova": "Data a crise e a saída dela pelo FGC, sem menção a pedido ao presidente."
+        }
+      ]
+    },
+    {
+      "id": "A100",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "As fontes consultadas não registram Edemar Cid Ferreira procurando Lula antes da intervenção no Banco Santos",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia quem controlava o Banco Santos e se procurou Lula antes da intervenção do BC. O controlador era Edemar Cid Ferreira, e o BC interveio em 12 de novembro de 2004 (Folha de S.Paulo). As fontes capturadas registram uma relação institucional anterior (Edemar foi condecorado por Lula com a Ordem do Mérito Militar em outubro de 2003, segundo a Wikipédia, que cita o Diário Oficial de 24/10/2003, cuja página não pôde ser capturada), mas nenhuma registra pedido de ajuda a Lula na crise do banco. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL. A busca desta rodada foi limitada, e a segunda fonte é uma enciclopédia usada como ponteiro.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "intervenção do BC no Banco Santos em novembro de 2004",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Folha de S.Paulo",
+          "titulo": "Morre Edemar Cid Ferreira, fundador do falido Banco Santos, aos 80 anos (13/01/2024)",
+          "url": "https://www1.folha.uol.com.br/mercado/2024/01/morre-edemar-cid-ferreira-fundador-do-falido-banco-santos-aos-80-anos.shtml",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 12 de novembro de 2004, o BC interveio na instituição depois de constatar que não cumpria normas básicas, como o recolhimento compulsório",
+          "prova": "Identifica o controlador e a data da crise, sem menção a pedido ao presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Wikipédia (verbete que cita o Diário Oficial da União)",
+          "titulo": "Edemar Cid Ferreira",
+          "url": "https://pt.wikipedia.org/wiki/Edemar_Cid_Ferreira",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em outubro de 2003, Edemar foi condecorado pelo presidente Luiz Inácio Lula da Silva com a Ordem do Mérito Militar no grau de Comendador especial.",
+          "prova": "Única relação registrada entre os dois, anterior à crise e de outra natureza."
+        }
+      ]
+    },
+    {
+      "id": "A101",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O banco de Edir Macedo é o Digimais, com crise apontada em 2024 e 2025; as fontes não registram o banco procurando Lula",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: O critério pedia identificar a instituição e um registro de encontro com Lula na crise. O banco de Edir Macedo é o Digimais, antigo Banco Renner, cujo controle ele assumiu em 2020 (Suno). Metrópoles e Estadão descrevem a crise do banco, com relatórios de 2024 e 2025 apontando inadimplência alta depois da pandemia, aportes do próprio Macedo e o banco à venda há mais de um ano. Nenhuma das fontes capturadas registra representante do banco ou da igreja procurando Lula por causa dela. Sem registro e sem prova em contrário, o veredito é INSUSTENTAVEL. A busca desta rodada foi limitada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "crise do Digimais em 2024 e 2025",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (coluna Dinheiro e Negócios)",
+          "titulo": "Os impactos da liquidação do Master no Digimais, banco de Edir Macedo (09/02/2026)",
+          "url": "https://www.metropoles.com/colunas/dinheiro-e-negocios/os-impactos-da-liquidacao-do-master-no-digimais-banco-de-edir-macedo",
+          "consultada_em": "2026-10-16",
+          "trecho": "A situação do Digimais não é boa há um bom tempo. Relatórios de 2024 e 2025 apontaram alta inadimplência após a pandemia, o que corroeu o patrimônio e exigiu aportes recorrentes para evitar quebra técnica . O dinheiro veio do próprio Edir Macedo, líder da Igreja Universal do Reino de Deus e dono da Rede Record de Televisão.",
+          "prova": "Identifica o banco e data a crise, sem menção a pedido ao presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estadão",
+          "titulo": "Banco de Edir Macedo passa carteira podre a fundos e esconde prejuízo multimilionário (18/05/2026)",
+          "url": "https://www.estadao.com.br/economia/banco-de-edir-macedo-passa-carteira-podre-a-fundos-e-esconde-prejuizo-multimilionario/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O banco Digimais , do bispo Edir Macedo , que está em crise e à venda há mais de um ano, lançou mão de uma manobra com uso de fundos de investimentos para limpar seu balanço de perdas multimilionárias.",
+          "prova": "Outra apuração sobre a crise do banco, também sem registro de pedido a Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Suno Notícias",
+          "titulo": "Banco Renner, de Edir Macedo, muda nome para Banco Digimais (13/07/2020)",
+          "url": "https://www.suno.com.br/noticias/banco-renner-edir-macedo-muda-nome/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O líder e fundador da Igreja Universal do Reino de Deus, Edir Macedo , assumiu no início deste mês o controle do Banco Renner, do qual já possuía uma participação de 49%, após receber a autorização da autoridade monetária.",
+          "prova": "Confirma qual é o banco ligado a Macedo."
+        }
+      ]
+    },
+    {
+      "id": "A102",
+      "veredito": "VERDADEIRO",
+      "resumo": "Galípolo defendeu em público que o BC tratou o caso Master seguindo estritamente a lei e com diligência",
+      "explicacao": "O critério pedia declarações públicas de Galípolo defendendo critério técnico. Segundo o Broadcast, reproduzido pelo O Povo, Galípolo reforçou em público, na CAE do Senado e na coletiva do Relatório de Política Monetária, a preocupação em seguir estritamente os aspectos legais e infralegais antes de decidir sobre o Master. Em fevereiro de 2026, em evento da ABBC, ele disse que o BC agiu com diligência e dentro de suas atribuições legais. O Poder360 apurou que, na reunião de dezembro de 2024, Lula pediu a Galípolo acompanhar as queixas com critérios técnicos e isentos. A posição técnica atribuída a Galípolo está sustentada; a expressão literal 'sem critério político' não aparece nas falas dele capturadas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de dezembro de 2025 e fevereiro de 2026",
+      "ressalva": "As falas de Galípolo defendem o rito legal; a expressão sem critério político não aparece nelas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (Broadcast, do Grupo Estado)",
+          "titulo": "Ministro do TCU vê 'precipitação' na liquidação do Master; BC diz estar munido com documentos (19/12/2025)",
+          "url": "https://www.opovo.com.br/noticias/economia/2025/12/19/amp/ministro-do-tcu-ve-precipitacao-na-liquidacao-do-master-bc-diz-estar-munido-com-documentos.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente da autarquia, Gabriel Galípolo, reforçou essa postura publicamente, tanto na Comissão de Assuntos Econômicos (CAE) do Senado quanto na coletiva do Relatório de Política Monetária, destacando a preocupação em seguir estritamente os aspectos legais e infralegais antes da tomada de decisão.",
+          "prova": "Registra o posicionamento público de Galípolo pelo rito técnico e legal no caso."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Finsiders Brasil (declaração pública do presidente do Banco Central)",
+          "titulo": "Galípolo detalha cronologia do caso Master e defende atuação do BC (09/02/2026)",
+          "url": "https://finsidersbrasil.com.br/?p=359378",
+          "consultada_em": "2026-10-16",
+          "trecho": "Durante o evento “Estabilidade Financeira e Perspectivas para 2026 e 2027”, realizado nesta segunda-feira (9/2) pela Associação Brasileira de Bancos ( ABBC ), Galípolo defendeu que o BC agiu com diligência e dentro de suas atribuições legais.",
+          "prova": "Segunda declaração pública, em outra ocasião, no mesmo sentido."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda (26/01/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Poder360 apurou que Lula pediu a Galípolo o acompanhamento das queixas com critérios “técnicos e isentos” .",
+          "prova": "Contexto da fala: o critério técnico citado por Lula, apurado de forma independente."
+        }
+      ]
+    },
+    {
+      "id": "A103",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O BC comunicou o caso Master ao Ministério Público e à PF; as fontes não registram que foi a pedido de Lula",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: na revisão r4 entraram duas capturas que já estavam no caso. O critério pedia a comunicação formal do BC ao MPF ou à PGR e registro de que foi a pedido do presidente. As fontes confirmam que o BC comunicou fatos ao Ministério Público Federal e à PF: as irregularidades nas carteiras cedidas ao BRB, a falta de lastro de que o BC teve certeza em 27 de junho de 2025 (comunicada em julho, segundo o Poder360) e, em setembro de 2025, as pressões políticas. Haddad disse em entrevista de junho de 2026 que, quando o caso ganhou força no último trimestre de 2024, ele foi levado ao conhecimento do Procurador-Geral da República e da PF, sem dizer por quem nem a pedido de quem. Galípolo, perguntado na CPI se recebeu comando do Planalto depois da reunião com Vorcaro, descreveu a orientação de ser técnico e ter autonomia, sem citar pedido para comunicar a PGR, e atribui a comunicação ao dever legal de colaborar com a PF e o Ministério Público. Nenhuma fonte capturada registra o pedido de Lula a Galípolo. Isso não prova que ele não houve, então o veredito é INSUSTENTAVEL, não FALSO; o caso Master segue em apuração.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "comunicações ao Ministério Público e à PF entre o fim de 2024 e setembro de 2025",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste",
+          "titulo": "BC alertou Master sobre riscos 1 ano antes da liquidação, mostra TCU (09/01/2026)",
+          "url": "https://www.revistaoeste.com/politica/bc-alertou-master-sobre-riscos-1-ano-antes-da-liquidacao-mostra-tcu/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O BC também identificou graves irregularidades nas carteiras de crédito cedidas ao BRB, envolvendo artifícios contábeis e operações suspeitas, o que levou à comunicação dos fatos ao Ministério Público Federal. [...] Em setembro de 2025, o BC vetou a aquisição e relatou à Polícia Federal e ao Ministério Público Federal pressões políticas inéditas para salvar o Master.",
+          "prova": "Confirma a comunicação ao MPF, sem atribuí-la a pedido do presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Finsiders Brasil (declaração pública do presidente do Banco Central)",
+          "titulo": "Galípolo detalha cronologia do caso Master e defende atuação do BC (09/02/2026)",
+          "url": "https://finsidersbrasil.com.br/?p=359378",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Quando a gente entende que esse é um tema que transcende a questão simplesmente de regulação e estabilidade do sistema financeiro, a gente entende que é importante fazer o que a legislação manda, que é colaborar com Polícia Federal e Ministério Público”, afirmou.",
+          "prova": "Galípolo apresenta a comunicação como dever legal, sem mencionar pedido de Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (depoimento do presidente do Banco Central à CPI)",
+          "titulo": "Lula disse para eu ser técnico após reunião com Vorcaro, diz Galípolo (08/04/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/lula-disse-para-eu-ser-tecnico-apos-reuniao-com-vorcaro-diz-galipolo/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relator da CPI é o senador Alessandro Vieira (MDB-SE) questionou Galípolo se ele recebeu algum tipo de comando do Planalto depois do término da reunião. “Recebi. Sempre assim: ‘Olha, seja técnico. O mais técnico possível. Você tem toda a autonomia nesse processo para você perseguir, seja quem for investigar seja quem for. [...] O Banco Central teve “ certeza” da inexistência de lastro em carteira de crédito em 27 de junho de 2025 . As autoridades competentes –Ministério Público Federal e Polícia Federal– foram comunicadas em julho .",
+          "prova": "Galípolo descreve a orientação que recebeu do Planalto sem citar pedido para comunicar a PGR; e a comunicação ao MPF e à PF tem data."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande (entrevista de Haddad ao podcast 3 Irmãos)",
+          "titulo": "Haddad diz que Banco Central tinha dever de agir diante de irregularidades no Banco Master (junho de 2026)",
+          "url": "https://acritica.net/politica/haddad-banco-master-bc/",
+          "consultada_em": "2026-10-16",
+          "trecho": "“No segundo semestre, ou mais particularmente no último trimestre de 2024, é que a coisa eclodiu com muita força. E aí, tudo o que foi feito foi levar o que estava acontecendo ao conhecimento do Procurador-Geral da República e da Polícia Federal”, afirmou.",
+          "prova": "O caso chegou à PGR e à PF, no relato de Haddad, sem menção a pedido de Lula a Galípolo."
+        }
+      ]
+    },
+    {
+      "id": "A104",
+      "veredito": "VERDADEIRO",
+      "resumo": "Haddad disse que cabia ao Banco Central agir no caso Master e que o caso foi levado à Procuradoria-Geral e à PF",
+      "explicacao": "Revisão r4: o veredito provisório (INSUSTENTAVEL) foi refeito com uma captura que já estava no caso, da rodada p07. O critério pedia declarações públicas de Haddad sobre o Master e a atuação do BC defendendo critério técnico. Em entrevista ao podcast 3 Irmãos, publicada em 6 de junho (relato de A Crítica de Campo Grande), Haddad disse que o Banco Central era o órgão responsável por acompanhar e agir diante das irregularidades do Master, que quem supervisiona banco é o Banco Central, e que, quando o caso ganhou força no último trimestre de 2024, tudo o que foi feito foi levá-lo ao conhecimento do Procurador-Geral da República e da Polícia Federal. Em fevereiro de 2026, Galípolo agradeceu em público o apoio de Haddad ao BC no caso. A posição que Lula atribuiu a Haddad, a de deixar o caso com o BC e com os órgãos de investigação, está sustentada. A expressão literal 'sem critério político' não aparece, o que vai na ressalva, como na checagem sobre Galípolo (A102). Na mesma entrevista Haddad associou o caso à gestão anterior do BC; isso é avaliação dele e não entra no veredito. A busca da rodada de 16/out foi limitada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "entrevista publicada em 6 de junho de 2026; agradecimento de Galípolo em 9 de fevereiro de 2026",
+      "ressalva": "Haddad fala do dever do Banco Central e do envio à Procuradoria-Geral e à PF; a expressão sem critério político não aparece",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande (entrevista de Haddad ao podcast 3 Irmãos)",
+          "titulo": "Haddad diz que Banco Central tinha dever de agir diante de irregularidades no Banco Master (junho de 2026)",
+          "url": "https://acritica.net/politica/haddad-banco-master-bc/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Fernando Haddad afirmou que o Banco Central era o órgão responsável por acompanhar e agir diante das irregularidades envolvendo o Banco Master. [...] Quem supervisiona banco é o Banco Central. Quem tem o dever de olhar o que está acontecendo com o banco é o Banco Central [...] E aí, tudo o que foi feito foi levar o que estava acontecendo ao conhecimento do Procurador-Geral da República e da Polícia Federal",
+          "prova": "A posição pública de Haddad: o caso é do Banco Central, e foi levado à PGR e à PF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Finsiders Brasil (declaração pública do presidente do Banco Central)",
+          "titulo": "Galípolo detalha cronologia do caso Master e defende atuação do BC (09/02/2026)",
+          "url": "https://finsidersbrasil.com.br/?p=359378",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do BC agradeceu o apoio de associações, federações e da opinião pública, assim como da Polícia Federal, do Ministério Público, do ministro da Fazenda Fernando Haddad e do presidente da República Luiz Inácio Lula da Silva.",
+          "prova": "Em outra ocasião, o presidente do BC registra o apoio de Haddad à atuação do BC no caso."
+        }
+      ]
+    }
+  ]
+}

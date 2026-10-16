@@ -1,0 +1,598 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A053",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula falou em chegar ao 'andar de cima' do crime ao lançar plano centrado na asfixia financeira das facções",
+      "explicacao": "A pergunta atribui a Lula duas ideias recorrentes: atacar o 'andar de cima do crime' e asfixiar financeiramente as facções. No lançamento do Programa Brasil Contra o Crime Organizado (12/05/2026), a CNN registra a fala do presidente sobre combater o crime 'desde a esquina até o andar de cima', e o Estadão Conteúdo descreve o eixo principal do programa como a asfixia da estrutura financeira das facções, chegando, 'nas palavras do próprio presidente', ao 'andar de cima'. Em dezembro de 2025, nota oficial citada pelo Metrópoles já registrava Lula destacando operações 'com vistas a asfixiar financeiramente o crime organizado'. São ocasiões distintas, o que sustenta o 'tem falado bastante'. A biblioteca da Presidência não pôde ser lida (a página do Planalto não entregou texto na captura), por isso a confiança é média e as fontes são de imprensa.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "dezembro de 2025 a maio de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Em ano eleitoral, Lula lança plano de combate contra crime organizado (12/05/2026)",
+          "url": "https://www.cnnbrasil.com.br/politica/em-ano-eleitoral-lula-lanca-plano-de-combate-contra-crime-organizado/",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"Esse programa está permitindo que a gente possa combater o crime organizado desde a esquina até o andar de cima do prédio mais alto desse país [...] Muitas vezes, o responsável está no andar de cima, engravatado, tomando whisky e zombando da nossa cara. Nós chegaremos nele um dia \", declarou o chefe do Executivo.",
+          "prova": "A fala de Lula com a expressão 'andar de cima' no lançamento do programa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Folha de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Lula lança amanhã programa contra crime organizado com foco na asfixia financeira das facções (11/05/2026)",
+          "url": "https://www.folhape.com.br/politica/lula-lanca-amanha-programa-contra-crime-organizado-com-foco-na-asfixia/486516/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A iniciativa terá quatro eixos de ação, com o principal buscando asfixiar a estrutura financeira das organizações criminosas e, nas palavras do próprio presidente, chegar mais no \"andar de cima\" dessas facções.",
+          "prova": "Liga as duas ideias da pergunta (asfixia financeira e 'andar de cima') ao próprio presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Lula tenta puxar EUA para combater \"andar de cima\" do crime organizado (03/12/2025)",
+          "url": "https://www.metropoles.com/mundo/lula-eua-combater-crime-organizado",
+          "consultada_em": "2026-10-16",
+          "trecho": "“(Lula) destacou as recentes operações realizadas no Brasil pelo governo federal com vistas a asfixiar financeiramente o crime organizado e identificou ramificações que operam a partir do exterior”, diz trecho da nota oficial.",
+          "prova": "Outra ocasião, meses antes, em que Lula defende a asfixia financeira do crime organizado."
+        }
+      ]
+    },
+    {
+      "id": "A054",
+      "veredito": "VERDADEIRO",
+      "resumo": "Há registros de milícias e tráfico impondo a venda de gás e de traficantes retendo cartões do Bolsa Família",
+      "explicacao": "A frase descreve dois tipos de interferência de grupos criminosos na vida de moradores. Gás: a CNN registra que moradores de áreas dominadas no Rio pagavam até 30% mais pelo botijão por imposição de milicianos e traficantes, e a Gazeta do Povo descreve milícias controlando a venda de gás. Bolsa Família: o Ministério Público de São Paulo (Operação Bolsa Crack) apurou que investigados retinham cartões do Bolsa Família de usuários para garantir o pagamento de drogas, e a Gazeta do Povo relata caso em que uma facção usava o cartão de uma beneficiária para sacar. A essência confere. A ressalva é de alcance: os casos de Bolsa Família documentados envolvem traficantes e usuários, não necessariamente controle territorial, e não há levantamento nacional do fenômeno.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": "Os casos de Bolsa Família são locais e não há levantamento nacional que meça o fenômeno",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Gás e transporte: os negócios paralelos sob controle das facções no Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/brasil/gas-e-transporte-os-negocios-paralelos-sob-controle-das-faccoes-no-brasil/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Gás de cozinha: em um levantamento feito pela CNN Brasil em 2021, cerca de 3,7 milhões de pessoas viviam em favelas e bairros controlados por algum grupo criminoso no Rio. À época do estudo, esse moradores estavam sujeitos a pagar até 30% mais caro do que o comum por um botijão de 13 kg por imposição de milicianos e traficantes de drogas.",
+          "prova": "Interferência de grupos criminosos na compra de gás por moradores de áreas dominadas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "O que são milícias, como funcionam e por que é tão difícil combatê-las",
+          "url": "https://www.gazetadopovo.com.br/republica/milicias-o-que-sao-como-funcionam/",
+          "consultada_em": "2026-10-16",
+          "trecho": "É a partir deste momento que os milicianos passam a controlar a venda de água, de gás, de cigarro, de TV e internet piratas, de imóveis, de terrenos, de aterro, o transporte clandestino de pessoas, entre outros serviços.",
+          "prova": "Apuração independente do controle da venda de gás por milícias."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério Público do Estado de São Paulo (Gaeco)",
+          "titulo": "Com Operação Bolsa Crack, Gaeco mira associação criminosa que explorava moradores em situação de rua",
+          "url": "https://www.mpsp.mp.br/w/com-operacao-bolsa-crack-gaeco-mira-associacao-criminosa-que-explorava-moradores-em-situacao-de-rua",
+          "consultada_em": "2026-10-16",
+          "trecho": "Há notícia de que os investigados chegavam a reter os cartões do Bolsa Família de alguns dos usuários como forma de garantir o pagamento, reduzindo a zero o risco de inadimplência, daí o denominação da operação: Bolsa Crack.",
+          "prova": "Registro oficial de criminosos interferindo no recebimento do Bolsa Família."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "O que se sabe sobre o uso do Bolsa Família para compra de drogas",
+          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/o-que-se-sabe-sobre-o-uso-do-bolsa-familia-para-compra-de-drogas/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo a reportagem do Metrópoles , uma facção usava o cartão para realizar saques e, em troca, a mulher recebia drogas. [...] Não há um levantamento nacional que dimensione quanto dinheiro do Bolsa Família acaba usado na compra de drogas ou capturado por traficantes",
+          "prova": "Caso de facção usando o cartão de uma beneficiária, e o limite: não há medida nacional."
+        }
+      ]
+    },
+    {
+      "id": "A055",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PEC muda competências na segurança e, segundo a Agência Senado, amplia a participação do governo federal",
+      "explicacao": "O texto original do Executivo altera os artigos 21, 22, 23, 24 e 144 da Constituição para redistribuir competências e dá à União a política e o plano nacional de segurança e a coordenação do Susp. A Agência Câmara descreve o tripé: Susp na Constituição, mais competências para a Polícia Federal e papel maior da União na coordenação. Para a versão que estava no Senado em 15/10 (o texto da Câmara mantido pela CCJ), a Agência Senado diz que a proposta 'amplia a participação do governo federal no setor', e o Poder360 lista a ampliação das atribuições da PRF e a integração entre União, estados e municípios. A frase confere. Há uma leitura divergente: o Estadão Conteúdo avaliou que o texto da Câmara blindou os estados contra a influência da União no direcionamento de políticas, em relação ao original.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto em análise no Senado em 15/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Agência Senado diz que o texto amplia a participação do governo federal; o Estadão Conteúdo avaliou que a versão da Câmara blindou os estados contra a influência da União no direcionamento de políticas, em relação ao original.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Senado",
+          "titulo": "PEC da Segurança Pública está na pauta do Plenário nesta quinta-feira (14/10/2026)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/10/14/pec-da-seguranca-publica-esta-na-pauta-do-plenario-nesta-quinta-feira",
+          "consultada_em": "2026-10-16",
+          "trecho": "De iniciativa do Poder Executivo, a proposta inclui o Sistema Único de Segurança Pública (Susp) na Constituição, amplia a participação do governo federal no setor e estabelece regras para a criação de polícias municipais.",
+          "prova": "Descrição oficial do Senado sobre o texto em análise na data da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Câmara de Notícias",
+          "titulo": "Proposta do governo muda estrutura da segurança pública em busca de maior integração na área",
+          "url": "https://www.camara.leg.br/noticias/1153668-PROPOSTA-DO-GOVERNO-MUDA-ESTRUTURA-DA-SEGURANCA-PUBLICA-EM-BUSCA-DE-MAIOR-INTEGRACAO-NA-AREA",
+          "consultada_em": "2026-10-16",
+          "trecho": "A proposta está baseada em um tripé: constitucionaliza o Sistema Único de Segurança Pública (Susp), hoje amparado por lei ordinária ( Lei 13.675/18 ); amplia competências de órgãos de segurança, como a Polícia Federal (PF); e fortalece o papel da União no planejamento e coordenação da segurança pública.",
+          "prova": "A reorganização de competências e o reforço do papel da União no desenho da PEC."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Ao vivo: Senado vota PEC da Segurança Pública (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/ao-vivo-senado-vota-pec-da-seguranca-publica/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O texto reorganiza a cooperação entre União, Estados, Distrito Federal e municípios na segurança pública e estabelece medidas de combate a facções criminosas e milícias. [...] atuação da PRF – amplia as atribuições da Polícia Rodoviária Federal para o policiamento de ferrovias e hidrovias federais;",
+          "prova": "Leitura independente da versão enviada ao plenário: reorganização e mais atribuições federais."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "PEC da Segurança é aprovada sem redução da maioridade (05/03/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4288739/pec-da-seguranca-e-aprovada-sem-reducao-da-maioridade",
+          "consultada_em": "2026-10-16",
+          "trecho": "A PEC aprovada prevê o endurecimento penal contra faccionados e blindagem dos Estados contra a influência da União para direcionar políticas públicas - na contramão do proposto no texto original, elaborado pelo então ministro da Justiça, Ricardo Lewandowski.",
+          "prova": "A leitura divergente sobre o alcance federal no texto aprovado pela Câmara."
+        }
+      ]
+    },
+    {
+      "id": "A056",
+      "veredito": "VERDADEIRO",
+      "resumo": "O plenário do Senado começou a discutir a PEC na tarde de 15/10, e Alcolumbre tirou a votação da pauta",
+      "explicacao": "A Agência Senado informou em 14/10 que o plenário poderia votar a PEC na quinta-feira (15), após a CCJ concluir a análise. O Tempo registra que o plenário começou a discutir a proposta na tarde de 15/10, e a Agenda do Poder, que Alcolumbre retirou a PEC da pauta naquela quinta-feira. Discutida no dia e sem votação concluída: a frase confere, e a pendência era no plenário, não na CCJ.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "15/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "O Tempo",
+          "titulo": "Plenário do Senado começa a discutir PEC da Segurança Pública (15/10/2026)",
+          "url": "https://www.otempo.com.br/politica/congresso/2026/10/15/senado-comeca-a-discutir-a-pec-da-seguranca",
+          "consultada_em": "2026-10-16",
+          "trecho": "O plenário do Senado começou a discutir, na tarde desta quinta-feira (15/10), a proposta de emenda à Constituição (PEC) da Segurança Pública, e pode votar a matéria em dois turnos até o fim do dia.",
+          "prova": "A discussão no plenário no dia da entrevista."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Senado",
+          "titulo": "PEC da Segurança Pública está na pauta do Plenário nesta quinta-feira (14/10/2026)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/10/14/pec-da-seguranca-publica-esta-na-pauta-do-plenario-nesta-quinta-feira",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Plenário do Senado pode votar nesta quinta-feira (15), a partir das 14h, a PEC da Segurança Pública ( PEC 18/2025 ), que busca ampliar a integração entre os órgãos de segurança e fortalecer o combate ao crime organizado. [...] permite acelerar a tramitação da PEC, que teve sua análise concluída pela Comissão de Constituição e Justiça (CCJ) nesta quarta-feira",
+          "prova": "A PEC estava na pauta do plenário em 15/10, com a CCJ já concluída."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agenda do Poder",
+          "titulo": "PEC da Segurança: Alcolumbre adia votação após impasse entre PT e PL",
+          "url": "https://agendadopoder.com.br/pec-da-seguranca-alcolumbre-adia-votacao-apos-impasse-entre-pt-e-pl/",
+          "consultada_em": "2026-10-16",
+          "trecho": "o presidente do Senado, Davi Alcolumbre (União Brasil-AP), decidiu retirar a proposta da pauta do plenário nesta quinta-feira (15).",
+          "prova": "A votação não foi concluída no dia: segue pendente."
+        }
+      ]
+    },
+    {
+      "id": "A057",
+      "veredito": "VERDADEIRO",
+      "resumo": "Camilo Santana, ex-ministro da Educação, apresentou emenda com maioridade penal de 16 anos em crimes hediondos",
+      "explicacao": "A emenda do senador Camilo Santana (PT-CE) à PEC da Segurança fixa a imputabilidade penal aos 16 anos para crimes hediondos e mantém 18 para os demais, segundo o documento obtido pelo Diário do Nordeste; a Gazeta do Povo confirma o protocolo em 15/10. O Poder360 registra que ele foi ministro da Educação do governo Lula e que reassumiu o mandato de senador. Idade, alcance e autoria conferem com a pergunta.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "15/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "Sobre a volta ao Senado, o Poder360 diz que ele reassumiu o mandato em junho; o Congresso em Foco diz que foi em abril. Não muda a alegação.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Nordeste",
+          "titulo": "Senador Camilo Santana propõe reduzir maioridade penal para 16 anos em crimes hediondos (15/10/2026)",
+          "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/senador-camilo-santana-propoe-reduzir-maioridade-penal-para-16-anos-em-crimes-hediondos-1.3798866",
+          "consultada_em": "2026-10-16",
+          "trecho": "Emenda à PEC da Segurança Pública foi apresentada pelo cearense nesta quinta-feira (15). [...] Conforme o documento protocolado, ao qual o PontoPoder obteve acesso, a imputabilidade penal será estabelecida aos 16 anos para os crimes hediondos e aos 18 anos para os demais crimes",
+          "prova": "Idade, alcance (crimes hediondos) e data da emenda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Líder do PT no Senado contraria governo e protocola emenda para reduzir maioridade penal (15/10/2026)",
+          "url": "https://www.gazetadopovo.com.br/republica/pt-barra-proposta-para-reduzir-maioridade-penal-apos-resistencia-interna/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O senador Camilo Santana (PT-CE), líder do PT no Senado, protocolou nesta quinta-feira (15) uma emenda à Proposta de Emenda à Constituição (PEC) da Segurança Pública para reduzir de 18 para 16 anos a maioridade penal em casos de crimes hediondos.",
+          "prova": "Confirmação independente da emenda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "PT anuncia Camilo Santana como líder do Senado (08/07/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/pt-anuncia-camilo-santana-como-lider-do-senado/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-ministro da Educação do governo do presidente Luiz Inácio Lula da Silva (PT) substitui a senadora Teresa Leitão (PT-PE), que assumiu a liderança do Governo pela legenda. [...] Camilo era o 1º vice-líder do PT no Senado e reassumiu o mandato em junho, depois de permanecer licenciado por mais de 3 anos para comandar o Ministério da Educação.",
+          "prova": "Ele foi ministro da Educação de Lula e estava no exercício do mandato de senador."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Ex-ministro de Lula, Camilo Santana assume liderança do PT no Senado",
+          "url": "https://www.congressoemfoco.com.br/noticia/120315/ex-ministro-de-lula-camilo-santana-assume-lideranca-do-pt-no-senado",
+          "consultada_em": "2026-10-16",
+          "trecho": "Camilo Santana já ocupava a vice-liderança desde abril, quando retomou seu mandato no Senado. O parlamentar estava afastado para comando do Ministério da Educação desde 2023.",
+          "prova": "A outra data da volta ao Senado (abril), que é a divergência registrada; confirma também que ele foi ministro da Educação e estava no mandato."
+        }
+      ]
+    },
+    {
+      "id": "A058",
+      "veredito": "VERDADEIRO",
+      "resumo": "A emenda dividiu o PT: parte da bancada se opôs, e petistas como Contarato e Beto Faro a assinaram",
+      "explicacao": "Em 15/10, a Gazeta do Povo registra que parte da bancada petista se opunha à emenda e cita o ministro José Guimarães: 'a bancada do PT está contra essa emenda do Camilo'. O Transmissão Política relata resistência na bancada e lista petistas entre os signatários (o registro do Senado tem quatro do PT). O Diário do Nordeste diz que não havia consenso entre os senadores petistas. 'Oposição em parte da bancada' confere; a fala de Guimarães, que fala da bancada inteira, vai além do que a lista de assinaturas permite, e por isso o 'parte' da pergunta é a leitura mais fiel.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "15/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Líder do PT no Senado contraria governo e protocola emenda para reduzir maioridade penal (15/10/2026)",
+          "url": "https://www.gazetadopovo.com.br/republica/pt-barra-proposta-para-reduzir-maioridade-penal-apos-resistencia-interna/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Embora o senador tenha protocolado a proposta, parte da bancada petista se opõe à mudança. O ministro das Relações Institucionais, José Guimarães (PT), confirmou à CNN Brasil a resistência interna à iniciativa. “O Camilo apresentou uma emenda nesse sentido. (Mas) a bancada do PT está contra essa emenda do Camilo”, afirmou.",
+          "prova": "Oposição de parte da bancada do PT, no dia da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Transmissão Política",
+          "titulo": "Camilo Santana propõe maioridade penal aos 16 e divide PT (15/10/2026)",
+          "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/15/camilo-santana-maioridade-penal-16-anos/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Entre os nomes aparecem Camilo Santana, Beto Faro, Fabiano Contarato, Jaques Wagner e Rogério Carvalho. [...] Enquanto um documento aponta 28 assinaturas e cinco petistas, o registro do Senado relaciona 27 signatários e quatro integrantes do PT, sem Jaques Wagner. [...] Apesar do apoio de parte dos senadores, a emenda de Camilo Santana provocou resistência na bancada petista e entre integrantes do governo federal.",
+          "prova": "Resistência na bancada e, ao mesmo tempo, petistas entre os signatários: a divisão é parcial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Nordeste",
+          "titulo": "Senador Camilo Santana propõe reduzir maioridade penal para 16 anos em crimes hediondos (15/10/2026)",
+          "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/senador-camilo-santana-propoe-reduzir-maioridade-penal-para-16-anos-em-crimes-hediondos-1.3798866",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao que tudo indica, ainda não há consenso entre os senadores petistas quanto ao tema apresentado.",
+          "prova": "Falta de consenso entre os senadores do PT."
+        }
+      ]
+    },
+    {
+      "id": "A059",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2015, a bancada do PT na Câmara orientou contra a PEC que reduzia a maioridade penal",
+      "explicacao": "Na tramitação da PEC 171/1993, em 2015, o líder do PT na Câmara, Sibá Machado, afirmou que o partido não defendia a redução; na comissão especial, a bancada do PT se posicionou contra, ao lado de PSB, PPS, PDT e PCdoB; e o Congresso em Foco registrou que 'o PT se opõe a qualquer mudança na legislação atual'. Em out/2026, O Tempo descreve a bancada petista como tradicionalmente contrária. A posição histórica descrita na pergunta confere.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "2015 e outubro de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Estado de Minas (Estadão Conteúdo)",
+          "titulo": "Redução de maioridade é resgate do passado mais arcaico do País, diz líder do PT (31/05/2015)",
+          "url": "https://www.em.com.br/app/noticia/politica/2015/05/31/interna_politica,653373/amp.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "o presidente da Câmara dos Deputados, Eduardo Cunha (PMDB-RJ), de que colocará a Proposta de Emenda à Constituição 171/1993, a PEC da Redução da Maioridade Penal, em votação até o final de junho, contrariando o PT que não defende a medida.",
+          "prova": "Posição do PT contra a PEC 171/1993 em 2015."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IHU Unisinos (Rede Brasil Atual)",
+          "titulo": "Comissão especial aprova redução da maioridade penal em crimes hediondos (18/06/2015)",
+          "url": "https://ihu.unisinos.br/noticias/543655-comissao-especial-aprova-reducao-da-maioridade-penal-em-crimes-hediondos",
+          "consultada_em": "2026-10-16",
+          "trecho": "Orientaram favoravelmente à redução da maioridade penal os partidos PMDB, PSDB, DEM, PR, PP e PTB . Posicionaram-se contrárias, as bancadas do PT, PSB, PPS, PDT e PCdoB .",
+          "prova": "Orientação contrária da bancada do PT na votação da comissão especial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Cunha sabota união PT-PSDB sobre maioridade penal (10/06/2015)",
+          "url": "https://congressoemfoco.com.br/noticia/47915/cunha-sabota-uniao-pt-psdb-sobre-maioridade-penal",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PT se opõe a qualquer mudança na legislação atual",
+          "prova": "Confirmação independente da posição do partido."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Tempo",
+          "titulo": "Plenário do Senado começa a discutir PEC da Segurança Pública (15/10/2026)",
+          "url": "https://www.otempo.com.br/politica/congresso/2026/10/15/senado-comeca-a-discutir-a-pec-da-seguranca",
+          "consultada_em": "2026-10-16",
+          "trecho": "Apesar disso, tradicionalmente, a bancada do PT costuma ser oposta a esse tipo de sugestão, defendendo que essa medida sobrecarregaria o sistema penitenciário brasileiro",
+          "prova": "A posição descrita como tradicional na data da fala."
+        }
+      ]
+    },
+    {
+      "id": "A060",
+      "veredito": "VERDADEIRO",
+      "resumo": "O texto da Câmara, mantido pela CCJ do Senado, não trata da maioridade; o tema chegou por emendas de plenário",
+      "explicacao": "A Câmara aprovou a PEC sem a redução da maioridade: um acordo entre o relator e Hugo Motta retirou o trecho, que não constava do texto original do governo. A TV Senado registra que a PEC foi aprovada sem mudanças na CCJ e só então recebeu a emenda de Rogério Marinho sobre maioridade penal. Na data da fala, o texto em votação não tratava do tema; ele entrou por emendas. A ressalva: na Câmara, o relator chegou a incluir um referendo sobre a redução, retirado antes da votação.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto em votação no Senado em 15/10/2026",
+      "ressalva": "Na Câmara, o relator chegou a incluir um referendo sobre a redução, retirado antes da votação",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "TV Senado",
+          "titulo": "Emenda à PEC da Segurança propõe reduzir maioridade penal para 16 anos",
+          "url": "https://www12.senado.leg.br/tv/programas/noticias-1/2026/10/emenda-a-pec-da-seguranca-propoe-reduzir-maioridade-penal-para-16-anos",
+          "consultada_em": "2026-10-16",
+          "trecho": "Aprovada sem mudanças na CCJ, a PEC da Segurança Pública entrou na pauta do Plenário com calendário especial e recebeu duas emendas. A do senador Rogério Marinho (PL-RN) reduz a maioridade penal para 16 anos na maior parte dos crimes e para 14 anos em crimes como tráfico de drogas e organização criminosa.",
+          "prova": "O texto da CCJ não tinha a maioridade; o tema veio por emenda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "PEC da Segurança é aprovada sem redução da maioridade (05/03/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4288739/pec-da-seguranca-e-aprovada-sem-reducao-da-maioridade",
+          "consultada_em": "2026-10-16",
+          "trecho": "Um acordo feito mais cedo entre o relator da PEC, Mendonça Filho (União Brasil-PE), e o presidente da Câmara, Hugo Motta (Republicanos-PB), levou à retirada do trecho que previa uma brecha para reduzir a maioridade penal de 18 para 16 anos. O trecho que previa a realização de um referendo sobre o assunto não constava no texto original da PEC elaborada pelo governo Lula e foi incluído pelo relator durante a elaboração do parecer.",
+          "prova": "Nem o texto do governo nem o aprovado pela Câmara tratam da maioridade."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Câmara aprova PEC da Segurança Pública; texto vai ao Senado (04/03/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/03/11709138-camara-aprova-pec-da-seguranca-publica-texto-vai-ao-senado.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relator da PEC, Mendonça Filho, retirou do texto a diminuição da maioridade penal de 18 anos para 16 anos em crimes com violência ou grave ameaça à pessoa, cuja validade dependeria de um referendo popular.",
+          "prova": "Confirmação independente da retirada antes da votação na Câmara."
+        }
+      ]
+    },
+    {
+      "id": "A061",
+      "veredito": "VERDADEIRO",
+      "resumo": "A emenda do PL, com 14 anos para crimes graves, saiu um dia antes da de Camilo, que fixa 16 anos",
+      "explicacao": "Rogério Marinho (PL-RN) protocolou em 14/10 a emenda que fixa 16 anos como regra geral e 14 anos para crimes hediondos, tortura, tráfico, terrorismo e organização criminosa (Band; a TV Senado descreve o mesmo conteúdo). A emenda de Camilo Santana, com 16 anos só para crimes hediondos, foi apresentada em 15/10 (Diário do Nordeste). A ordem e as idades conferem. A ressalva: a proposta do PL não leva a maioridade a 14 anos para todos os crimes; a regra geral nela é 16.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "14/10/2026 e 15/10/2026",
+      "ressalva": "Na emenda do PL, 14 anos vale para crimes como tráfico e organização criminosa; a regra geral é 16",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "Emenda à PEC da Segurança propõe reduzir maioridade penal para 16 anos",
+          "url": "https://www.band.com.br/politica/emenda-a-pec-da-seguranca-propoe-reduzir-maioridade-penal-para-16-anos",
+          "consultada_em": "2026-10-16",
+          "trecho": "O senador Rogério Marinho (PL-RN) protocolou, nesta quarta-feira (14), uma emenda à Proposta de Emenda à Constituição (PEC) 18/2025 , conhecida como PEC da Segurança Pública, incluindo entre as medidas previstas na proposta a redução da maioridade penal . [...] A emenda altera a redação do artigo 228 da Constituição Federal , fixando em 16 anos o limite geral de inimputabilidade penal. A medida estabelece uma exceção, com teto etário de 14 anos , para adolescentes envolvidos em crimes hediondos, tortura, tráfico ilícito de entorpecentes, terrorismo e atuação em organizações ou associações criminosas .",
+          "prova": "Autor, partido, data e idades da emenda do PL."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "TV Senado",
+          "titulo": "Emenda à PEC da Segurança propõe reduzir maioridade penal para 16 anos",
+          "url": "https://www12.senado.leg.br/tv/programas/noticias-1/2026/10/emenda-a-pec-da-seguranca-propoe-reduzir-maioridade-penal-para-16-anos",
+          "consultada_em": "2026-10-16",
+          "trecho": "A do senador Rogério Marinho (PL-RN) reduz a maioridade penal para 16 anos na maior parte dos crimes e para 14 anos em crimes como tráfico de drogas e organização criminosa.",
+          "prova": "Conteúdo da emenda do PL descrito pelo próprio Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Nordeste",
+          "titulo": "Senador Camilo Santana propõe reduzir maioridade penal para 16 anos em crimes hediondos (15/10/2026)",
+          "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/senador-camilo-santana-propoe-reduzir-maioridade-penal-para-16-anos-em-crimes-hediondos-1.3798866",
+          "consultada_em": "2026-10-16",
+          "trecho": "Emenda à PEC da Segurança Pública foi apresentada pelo cearense nesta quinta-feira (15).",
+          "prova": "A emenda de Camilo é do dia seguinte à do PL."
+        }
+      ]
+    },
+    {
+      "id": "A062",
+      "veredito": "VERDADEIRO",
+      "resumo": "O STF condenou Bolsonaro e mais sete réus por tentativa de golpe de Estado, com trânsito em julgado",
+      "explicacao": "A Primeira Turma do STF condenou os oito réus do Núcleo 1 na Ação Penal 2668 por tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado e outros crimes (julgamento finalizado em 11/09/2025, acórdão publicado em 22/10/2025). A certidão de trânsito em julgado foi emitida em 25/11/2025, segundo a Band. A Jovem Pan registra que a acusação era de chefiar uma organização com o objetivo de impedir a posse de Lula, o que situa o fato na transição de 2022 para 2023. Decisão definitiva: não há apuração em curso que impeça o veredito.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "acórdão de 22/10/2025; trânsito em julgado em 25/11/2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "AP 2668: publicado acórdão da condenação do ex-presidente Bolsonaro e outros sete réus por tentativa de golpe (22/10/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-publicado-acordao-que-condenou-o-ex-presidente-bolsonaro-e-outros-sete-reus-por-tentativa-de-golpe/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Supremo Tribunal Federal (STF) publicou, nesta quarta-feira (22), o acórdão da decisão da Primeira Turma na Ação Penal (AP) 2668 , que condenou, por maioria de votos, os oito réus do Núcleo 1 da denúncia relativa à tentativa de golpe de Estado. [...] A condenação envolve os crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado.",
+          "prova": "A condenação pelo STF por tentativa de golpe de Estado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "O que acontece com Bolsonaro agora (25/11/2025)",
+          "url": "https://www.band.com.br/noticias/o-que-acontece-com-bolsonaro-agora-202511251511",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Supremo Tribunal Federal (STF) emitiu a certidão de trânsito em julgado da Ação Penal 2668, encerrando oficialmente a possibilidade de novos recursos. [...] A certidão assinada pela Secretaria Judiciária do STF confirma que os acórdãos publicados em 18 de novembro de 2025 transitaram em julgado hoje.",
+          "prova": "A decisão é definitiva, sem recurso pendente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Trânsito em julgado: entenda o conceito jurídico que selou o destino de Bolsonaro e aliados",
+          "url": "https://jovempan.com.br/noticias/politica/transito-em-julgado-entenda-o-conceito-juridico-que-selou-o-destino-de-bolsonaro-e-aliados.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-presidente recebeu uma pena de 27 anos e 3 meses de reclusão, em regime inicial fechado, acusado de chefiar uma organização criminosa com o objetivo de impedir a posse do presidente Luiz Inácio Lula da Silva (PT) e atentar contra o Estado Democrático de Direito.",
+          "prova": "O objetivo de impedir a posse liga o fato à transição de governo."
+        }
+      ]
+    },
+    {
+      "id": "A063",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O recurso do governo ao STF contra o Congresso no caso do IOF está registrado; as fontes não medem a frequência",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A pergunta afirma que o governo se valeu 'bastante' do STF no terceiro mandato. O critério escrito antes era a contagem de ações de controle concentrado da Presidência ou da AGU de 2023 a 2026, comparada com governos anteriores. Essa contagem não foi achada: a busca encontrou o caso do IOF (ADC da AGU em 1º/07/2025, contra a derrubada do decreto pelo Congresso), registrado por O Tempo, Gazeta do Povo e A Gazeta, mas nenhum levantamento com número de ações ou comparação entre governos. A busca foi interrompida pelo limite de pesquisas da sessão antes de alcançar o painel de estatísticas do STF. Um caso documentado não sustenta nem desmente 'bastante'; por isso o veredito é SEM COMPROVAÇÃO e não FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "terceiro mandato, de 2023 a outubro de 2026",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "O Tempo",
+          "titulo": "Governo Lula confirma recurso ao STF contra decisão do Congresso que derrubou aumento do IOF (01/07/2025)",
+          "url": "https://www.otempo.com.br/politica/governo/2025/7/1/governo-lula-confirma-recurso-ao-stf-contra-decisao-do-congresso-que-derrubou-aumento-do-iof",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) decidiu recorrer ao Supremo Tribunal Federal (STF) contra a decisão do Congresso Nacional de derrubar o aumento do Imposto sobre Operações Financeiras (IOF). O recurso foi apresentado nesta terça-feira (1º), segundo informou o ministro da Advocacia-Geral da União (AGU), Jorge Messias.",
+          "prova": "Um caso concreto de recurso ao STF em disputa com o Congresso."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Governo desafia Congresso e recorre ao STF para subir IOF novamente",
+          "url": "https://www.gazetadopovo.com.br/economia/governo-desafia-congresso-e-recorre-ao-stf-para-subir-iof-novamente/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo ele, o instrumento escolhido pela AGU é uma Ação Declaratória de Constitucionalidade (ADC) em favor do decreto de Lula que elevou o IOF.",
+          "prova": "O instrumento usado nesse caso; não traz contagem de outros casos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta",
+          "titulo": "Usurpação de poder? Os argumentos do governo Lula para ir ao STF contra derrubada do IOF pelo Congresso",
+          "url": "https://www.agazeta.com.br/mundo/usurpacao-de-poder-os-argumentos-do-governo-lula-para-ir-ao-stf-contra-derrubadadoiof-pelo-congresso-0725",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Advocacia-Geral da União (AGU) protocolou nesta terça-feira (1/7) ação junto ao Supremo Tribunal Federal (STF) com o objetivo de reverter a derrubada de decreto que aumentava alíquotas do Imposto sobre Operações Financeiras (IOF) .",
+          "prova": "Terceira apuração do mesmo episódio; nenhuma traz medida de frequência."
+        }
+      ]
+    },
+    {
+      "id": "A064",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Ministros do STF são citados em relatórios e reportagens do caso Master; as apurações seguem sem conclusão",
+      "explicacao": "Que o STF vive uma crise ligada ao caso Master, e que ministros aparecem em relatórios da PF e em reportagens, está documentado: a CNN registra que documentos da PF passaram a mencionar ministros, familiares e pessoas próximas; a Agência Pública cita contrato do escritório da esposa de Moraes com o Master e 'pelo menos três outros ministros roçados pelo Master' (Toffoli, Nunes Marques e Fux); a Gazeta do Povo descreve a crise interna. Mas o conteúdo das suspeitas está em apuração, sem conclusão nem decisão definitiva, e os citados negam irregularidades. Pela regra de fato em apuração (etica-e-risco §5), o veredito não pode ser VERDADEIRO nem FALSO: fica SEM COMPROVAÇÃO quanto às suspeitas, sem negar que elas foram noticiadas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "outubro de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Lula diz carregar nas costas \"promiscuidade que ficou estabelecida\" no STF (05/10/2026)",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-carrega-nas-costas-promiscuidade-estabelecida-no-stf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A crise teve início a partir das investigações sobre o Banco Master e ganhou dimensão institucional à medida que mensagens e documentos da Polícia Federal passaram a mencionar ministros do Supremo, familiares e pessoas próximas a integrantes da Corte.",
+          "prova": "A crise do STF ligada ao Master e a menção a ministros em documentos da PF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Pública",
+          "titulo": "Análise: as revelações sobre Master, Vorcaro, Moraes e Mendonça (setembro de 2026)",
+          "url": "https://apublica.org/2026/09/analise-as-revelacoes-sobre-master-vorcaro-moraes-e-mendonca/",
+          "consultada_em": "2026-10-16",
+          "trecho": "há pelo menos três outros ministros roçados pelo Master: além de Toffoli, Nunes Marques, cujo filho advogado recebeu R$ 281,6 mil de uma consultoria paga pelo banco, e Fux",
+          "prova": "Mais de um ministro citado; a própria análise trata as ligações como questões abertas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "“Estamos carregando nas costas a promiscuidade da Suprema Corte”, diz Lula (05/10/2026)",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/estamos-carregando-nas-costas-a-promiscuidade-da-suprema-corte-diz-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O STF vive uma crise interna que se aprofundou no dia 1º de setembro, quando o ministro André Mendonça retirou o sigilo de um relatório da Polícia Federal que revelou mensagens entre de Daniel Vorcaro, dono do Banco Master, para o ministro Alexandre de Moraes.",
+          "prova": "A crise interna no tribunal, ligada a relatório da PF ainda sem desfecho."
+        }
+      ]
+    },
+    {
+      "id": "A065",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula falou em 'promiscuidade' no STF em 5/10, um dia após o 1º turno; a CNN a viu como uma das críticas mais duras",
+      "explicacao": "Três veículos registram que Lula disse, na reunião de campanha de 5/10, um dia depois do primeiro turno, que carregava 'nas costas' a 'promiscuidade que ficou estabelecida na Suprema Corte'. A CNN classifica a declaração como uma das críticas mais duras dele à Corte desde o início da crise do Master. A parte datada da pergunta confere. A outra parte ('demorou a comentar com clareza') é comparação com falas anteriores. As fontes do caso mostram que Lula já falava das suspeitas antes do 1º turno: em 3 e 9 de setembro pediu a apuração de todos os envolvidos (checagem A070) e, em 18 de setembro, disse que cinco ministros do STF estavam ligados direta ou indiretamente ao caso Master e citou Moraes e Toffoli (Diario de Pernambuco). Quanto tempo ele levou para comentar, contado desde as primeiras suspeitas sobre ministros, as fontes não medem, e por isso a demora não é julgada; a fala de setembro vai na ressalva para o card não deixar a impressão de que ele não tinha comentado antes. O veredito fica no uso da palavra depois do 1º turno, que confere. 🔧 Na revisão de coerência entre lotes (16/out/2026) a ressalva, que dizia 'As fontes não medem se Lula evitou o tema antes; a parte checada é o uso da palavra depois do 1º turno', passou a trazer a fala de 18 de setembro, já capturada para as checagens A081 e A084, e fica coerente com A070 e A115; ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "05/10/2026",
+      "ressalva": "Em 18 de setembro, antes do 1º turno, Lula já dizia que cinco ministros do STF estavam ligados ao caso Master",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Após 1º turno, Lula diz que carregou “nas costas” a “promiscuidade” no STF (05/10/2026)",
+          "url": "https://www.metropoles.com/brasil/apos-1o-turno-lula-diz-que-carregou-nas-costas-a-promiscuidade-no-stf",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) afirmou, nesta segunda-feira (5/10), que está “carregando nas costas” a “promiscuidade” que, segundo ele, se estabeleceu no Supremo Tribunal Federal (STF) após as revelações relacionadas ao Banco Master. A declaração foi feita na primeira reunião da coordenação de campanha após o primeiro turno das eleições",
+          "prova": "Data e ocasião: depois do primeiro turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Lula diz carregar nas costas \"promiscuidade que ficou estabelecida\" no STF (05/10/2026)",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-carrega-nas-costas-promiscuidade-estabelecida-no-stf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT ) disse nesta segunda-feira (5) que está \"carregando nas costas\" o que chamou de \"promiscuidade\" do STF (Supremo Tribunal Federal) , em uma das críticas mais duras feitas por ele à Corte desde o início da crise provocada pelo Banco Master e seu ex-contralador, Daniel Vorcaro . A declaração foi dada um dia depois de Lula terminar o primeiro turno da eleição presidencial",
+          "prova": "Um dia após o primeiro turno, e a avaliação de que a palavra foi mais dura que as anteriores."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "“Estamos carregando nas costas a promiscuidade da Suprema Corte”, diz Lula (05/10/2026)",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/estamos-carregando-nas-costas-a-promiscuidade-da-suprema-corte-diz-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta segunda-feira (5) que carrega nas costas “a promiscuidade da Suprema Corte brasileira”. A declaração ocorre após o petista ficar atrás de Flávio Bolsonaro (PL) no primeiro turno da eleição presidencial.",
+          "prova": "Terceira confirmação da data, posterior ao primeiro turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Lula: STF tem cinco ministros ligados direta ou indiretamente com o Caso Master (18/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11724304-lula-stf-tem-cinco-ministros-ligados-direta-ou-indiretamente-com-o-caso-master.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) disse nesta sexta-feira (18) que \"cinco ministros\" do Supremo Tribunal Federal (STF) \"estão ligados direta ou indiretamente\" com o escândalo do Banco Master [...] Ele citou explicitamente os ministros Alexandre de Moraes e Dias Toffoli",
+          "prova": "Antes do primeiro turno, em 18 de setembro, Lula já falava das suspeitas sobre ministros do STF e citava dois deles pelo nome."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "lotes/checagem/pedido-07.json",
+  "checagens": [
+    {
+      "id": "A079",
+      "veredito": "IMPRECISO",
+      "resumo": "Dino votou por julgar juntos os casos de Moraes e Mendonça, mas ao pedir vista disse que não havia clima para deliberar",
+      "explicacao": "O que resolve a frase é o registro da sessão do STF de 15/09/2026 em que Flávio Dino pediu vista. Duas coberturas independentes mostram que Dino havia acompanhado a questão de ordem de Gilmar Mendes para analisar em conjunto a petição sobre Alexandre de Moraes e a ação sobre a atuação de André Mendonça, pautada para a semana seguinte; esse voto não foi contado porque ele pediu vista. Até aqui a fala de Lula confere: Dino queria os casos julgados juntos. Mas a justificativa que o próprio Dino deu ao pedir vista foi outra: segundo o Congresso em Foco, ele disse que o ambiente se tornara degradante e que o tribunal já não tinha condições de deliberar, e a Itatiaia registra que ele criticou a condução dos trabalhos. A frase apresenta como motivo da vista uma posição que Dino tinha sobre o rito, e não o motivo que ele declarou. Por isso IMPRECISO, e não VERDADEIRO: a essência (Dino defendia o julgamento conjunto) está certa, a causa atribuída ao pedido de vista não é a registrada. Também não é FALSO, porque as fontes não contradizem a posição de Dino, só o nexo de causa. Os casos citados seguem em apuração no STF.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "sessão do STF de 15/09/2026",
+      "ressalva": "Os dois casos tramitavam no mesmo plenário; o de Mendonça estava pautado para a semana seguinte",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Sem voto de Dino, placar fica 4 a 3 contra questão de ordem de Gilmar no STF (15/09/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4347132/sem-voto-de-dino-placar-fica-4-a-3-contra-questao-de-ordem-de-gilmar-no-stf",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro propôs que a análise sobre a abertura de investigação envolvendo Alexandre de Moraes seja feita em conjunto com a ação que aponta possíveis irregularidades na atuação de André Mendonça, caso pautado para a próxima semana. [...] Flávio Dino já havia acompanhado Gilmar na questão de ordem, mas seu voto não foi contabilizado porque pediu vista.",
+          "prova": "Mostra que Dino votou pelo julgamento conjunto dos casos de Moraes e Mendonça, que é a parte da fala que confere."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Julgamento do caso Moraes-Vorcaro no STF é adiado após pedido de vista (15/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/122245/julgamento-do-caso-moraes-vorcaro-no-stf-e-adiado-apos-pedido-de-vista",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dino também se manifestou a favor da análise conjunta, mas seu voto não foi contabilizado no resultado provisório proclamado por Fachin porque o ministro pediu vista. [...] Ao pedir vista, Dino afirmou que o ambiente havia se tornado \"degradante\" e sustentou que o tribunal já não tinha condições de deliberar naquele momento.",
+          "prova": "Confirma a posição de Dino pelo julgamento conjunto e registra a justificativa que ele próprio deu ao pedir vista, que não é a atribuída na fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Crise no STF: Dino pede vista e suspende julgamento que poderia tornar Moraes investigado (15/09/2026)",
+          "url": "https://www.itatiaia.com.br/politica/crise-no-stf-dino-pede-vista-e-suspende-julgamento-que-poderia-tornar-moraes-investigado/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em sessão tensa, Dino afirmou que a condução dos trabalhos estava ocorrendo aquém do que a gravidade dos fatos suscita, e, com isso, paralisou a sessão.",
+          "prova": "Terceira cobertura que liga o pedido de vista à crítica de Dino à condução da sessão."
+        }
+      ]
+    },
+    {
+      "id": "A080",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não achamos contagem pública de pedidos de vista por dia no STF; as fontes só trazem a regra do prazo",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase afirma uma frequência: que no STF se pede vista todos os dias. O dado que resolveria é a estatística oficial de pedidos de vista do próprio tribunal (painel Corte Aberta ou relatório de atividades), em 2025 e 2026. O portal do STF recusou o acesso automatizado (HTTP 403) durante esta checagem, e não foi possível capturar a série. As fontes capturadas tratam do pedido de vista de Flávio Dino de 15/09/2026 e descrevem só a regra: prazo de até 90 dias para devolver o processo ao plenário. Nenhuma traz contagem por dia, por sessão ou por ano. Sem o número, a frase não pode ser confirmada nem desmentida: o veredito é INSUSTENTAVEL, e não FALSO, porque não se achou dado que a contradiga. Não é NAO_CHECAVEL porque a frequência de pedidos de vista é registrada pelo tribunal; o que faltou foi acesso ao registro.",
+      "numero_dito": "todo dia",
+      "numero_apurado": null,
+      "data_de_referencia": "regra do pedido de vista vigente em setembro de 2026",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia (CNN Brasil)",
+          "titulo": "Pedido de vista de Dino pode adiar julgamento sobre Moraes no STF até dezembro (16/09/2026)",
+          "url": "https://www.itatiaia.com.br/politica/pedido-de-vista-de-dino-pode-adiar-julgamento-sobre-moraes-no-stf-ate-dezembro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Agora, com o pedido de vista, começa a contar o prazo de 90 dias para Dino devolver o caso ao plenário. O ministro pode retornar o processo antes do fim desse período, mas o prazo máximo termina em dezembro.",
+          "prova": "Descreve a regra do pedido de vista no STF, mas não traz quantos pedidos são feitos por dia: é o que faltou."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Movimento Econômico",
+          "titulo": "Dino pede vista após bate-boca e STF tem 4x3 para separar casos Moraes e Mendonça (15/09/2026)",
+          "url": "https://movimentoeconomico.com.br/economia/justica/2026/09/15/dino-pede-vista-apos-bate-boca-e-stf-tem-4x3-para-separar-casos-moraes-e-mendonca/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O julgamento pode ficar suspenso por até 90 dias , segundo as regras internas da Corte, em meio a uma crise institucional que dividiu o plenário em dois blocos e produziu confrontos verbais entre ministros durante a transmissão ao vivo.",
+          "prova": "Segunda cobertura independente que trata do pedido de vista só pela regra regimental, sem estatística de frequência."
+        }
+      ]
+    },
+    {
+      "id": "A081",
+      "veredito": "IMPRECISO",
+      "resumo": "Na Globo, em agosto, Lula defendeu apuração e condenação de quem errou, mas sem dizer que a sociedade não aceitaria",
+      "explicacao": "A fala diz que Lula repetiu o que já tinha dito 'na outra entrevista que eu fiz aqui': que a sociedade não aceitaria que não fosse tudo apurado, sem pedra sobre pedra, e que se punisse quem precisasse ser punido. A entrevista anterior dele na TV Globo foi a sabatina de 27/08/2026, transcrita na íntegra pelo Aos Fatos (e conferida contra a transcrição deste repositório do mesmo caso). Nela, no bloco do INSS, Lula disse que para todos os citados o caminho é um só, o da apuração, da investigação, da inocência ou da condenação se tiver cometido crime; no bloco do Master, defendeu Jaques Wagner, falou em processo, apuração e investigação e na presunção de inocência, e disse que, se ele cometeu desvio, vai pagar o preço. A essência do que ele diz ter repetido (apurar e punir quem errou) está lá. O que não está é a frase de que a sociedade não aceitaria a falta de apuração, nem a defesa de apuração ampla no bloco do Master. Ideias parecidas com a da sociedade aparecem em entrevistas de setembro a outros veículos: à Rádio Tupi ('a sociedade não tem que aceitar isso como normal') e ao podcast Desce a Letra. Por isso IMPRECISO: a essência confere, o enquadramento e o assunto atribuídos à entrevista anterior não. Não é INSUSTENTAVEL porque a transcrição sustenta o núcleo, e não é FALSO porque nada a contradiz.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "sabatina de Lula na TV Globo em 27/08/2026",
+      "ressalva": "A fala de agosto sobre apuração foi no bloco do INSS; sobre o Master, ele destacou a presunção de inocência",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "Checamos a entrevista de Lula à TV Globo (27/08/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Todos eles, todos eles que foram citados, todos eles que participaram, o caminho é um só. É o caminho da apuração, da investigação, ou da inocência, ou da condenação, se tiver cometido o crime. [...] O que eu não posso admitir para mim e aceitar é que eu possa fazer política vivendo de ilações todo santo dia. Você tem um processo, tem uma apuração, tem uma investigação, as pessoas são inocentes até provem contrário.",
+          "prova": "Transcrição integral da sabatina anterior na Globo: defende apuração e condenação de quem errou (bloco do INSS) e presunção de inocência (bloco do Master), sem a frase sobre a sociedade."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Lula: STF tem cinco ministros ligados direta ou indiretamente com o Caso Master (18/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11724304-lula-stf-tem-cinco-ministros-ligados-direta-ou-indiretamente-com-o-caso-master.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula disse ver \"com uma certeza tristeza\" as revelações sobre o caso Master. \"A sociedade não tem que aceitar isso como normal.",
+          "prova": "Mostra onde uma ideia parecida foi dita: em entrevista à Rádio Tupi, não na Globo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Lula critica denuncismo e cobra conclusão de apurações no STF (16/09/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/09/319514-lula-critica-denuncismo-e-cobra-conclusao-de-apuracoes-no-stf.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta quarta-feira (16) que a sociedade brasileira não pode permanecer acompanhando uma sucessão de denúncias sem que as investigações cheguem a conclusões.",
+          "prova": "Outra entrevista, ao podcast Desce a Letra, com a mesma ideia fora da Globo."
+        }
+      ]
+    },
+    {
+      "id": "A082",
+      "veredito": "IMPRECISO",
+      "resumo": "A Reforma do Judiciário foi promulgada em 2004, no governo Lula, mas é emenda do Congresso proposta em 1992",
+      "explicacao": "A Emenda Constitucional 45/2004, conhecida como Reforma do Judiciário, foi promulgada em 8/12/2004, no primeiro mandato de Lula, e o ministro da Justiça dele, Márcio Thomaz Bastos, atuou pela aprovação e criou a Secretaria de Reforma do Judiciário (FGV/CPDOC). Isso sustenta a essência: a reforma saiu no governo dele, com participação do governo. Dois pontos da frase, porém, não conferem. Primeiro, emenda constitucional é promulgada pelas Mesas da Câmara e do Senado (texto oficial no Planalto), e a proposta foi apresentada pelo deputado Hélio Bicudo em 1992, depois de 13 anos de tramitação; 'fui eu que fiz' atribui ao Executivo um processo do Congresso que começou antes do governo. Segundo, 'a primeira': em 1977 a Emenda Constitucional 7 já havia incorporado à Constituição disposições relativas ao Poder Judiciário. Por isso IMPRECISO, e não VERDADEIRO nem FALSO: o fato central confere, a autoria e o 'primeira' estão materialmente exagerados.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "EC 45 promulgada em 8/12/2004",
+      "ressalva": "Em 1977 uma emenda já havia alterado as disposições sobre o Poder Judiciário",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto), Subchefia para Assuntos Jurídicos",
+          "titulo": "Emenda Constitucional nº 45, de 30 de dezembro de 2004",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc45.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "AS MESAS DA CÂMARA DOS DEPUTADOS E DO SENADO FEDERAL , nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:",
+          "prova": "O texto oficial mostra que quem promulga a emenda é o Congresso, não o presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jus.com.br (artigo jurídico)",
+          "titulo": "Reforma do Judiciário. Emenda Constitucional nº 45/2004",
+          "url": "https://jus.com.br/artigos/6463/reforma-do-judiciario-emenda-constitucional-n-45-2004",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na Câmara dos Deputados, apresentada pelo Deputado Hélio Bicudo, em 26 de março de 1992, a Proposta de Emenda à Constituição (PEC) recebeu o n. 96/92. [...] A de n. 29/2000 foi aprovada, transformando-se na EC n. 45/2004, promulgada em 8 de dezembro de 2004 e publicada no DOU de 31 de dezembro de 2004.",
+          "prova": "Data a origem da proposta (1992) e a promulgação (dezembro de 2004)."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundação Getulio Vargas (FGV/CPDOC)",
+          "titulo": "Verbete biográfico: Márcio Thomaz Bastos",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/bastos-marcio-thomaz",
+          "consultada_em": "2026-10-16",
+          "trecho": "atuou para a aprovação da Emenda Constitucional n° 45/2004 no Congresso Nacional. A emenda, referente a uma Reforma do Poder Judiciário, criava o Conselho Nacional de Justiça. Para tanto, chegara a criar a Secretaria de Reforma do Judiciário.",
+          "prova": "Sustenta a parte que confere: o governo Lula, pelo ministro da Justiça, trabalhou pela aprovação da reforma."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto), Subchefia para Assuntos Jurídicos",
+          "titulo": "Emenda Constitucional nº 7, de 13 de abril de 1977",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc07-77.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "EMENDA CONSTITUCIONAL Nº 7, DE 13 DE ABRIL DE 1977 Vide Constituição de 1988. Incorpora ao texto da Constituição Federal disposições relativas ao Poder Judiciário.",
+          "prova": "Mostra que houve emenda anterior sobre o Poder Judiciário, o que pesa contra o 'primeira'."
+        }
+      ]
+    },
+    {
+      "id": "A083",
+      "veredito": "VERDADEIRO",
+      "resumo": "A emenda saiu em dezembro de 2004, com Jobim na presidência do STF e Thomaz Bastos no Ministério da Justiça",
+      "explicacao": "A frase confere os dois cargos na data da Reforma do Judiciário. A Emenda Constitucional 45 foi promulgada em 8/12/2004 e publicada em 31/12/2004. O STF registra que Nelson Jobim assumiu a presidência do tribunal em 3/6/2004 e se aposentou em 29/3/2006, o que cobre a data da emenda. A FGV/CPDOC registra que Márcio Thomaz Bastos assumiu o Ministério da Justiça em janeiro de 2003 e deixou o governo em 2007, o que também cobre a data, e que ele atuou pela aprovação da emenda. As duas fontes de cargo são independentes entre si e a do STF é primária. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "EC 45 promulgada em 8/12/2004",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "Ministro Nelson Azevedo Jobim: dados biográficos",
+          "url": "https://portal.stf.jus.br/ostf/ministros/verMinistro.asp?periodo=STF&id=34",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em sessão de 19 de maio de 2004, foi eleito Presidente do Supremo Tribunal. Assumiu a Presidência do Tribunal em sessão solene realizada em 3 de junho de 2004.* Aposentou-se, a pedido, em 29 de março de 2006, por decreto do mesmo dia",
+          "prova": "Período de Jobim na presidência do STF, que inclui dezembro de 2004."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundação Getulio Vargas (FGV/CPDOC)",
+          "titulo": "Verbete biográfico: Márcio Thomaz Bastos",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/bastos-marcio-thomaz",
+          "consultada_em": "2026-10-16",
+          "trecho": "Assumiu a pasta em janeiro de 2003, com a posse do novo presidente da República, sucedendo ao ministro Paulo de Tarso Ramos Ribeiro. No comando da pasta, auxiliou na aprovação do Estatuto do Desarmamento em 2003 e atuou para a aprovação da Emenda Constitucional n° 45/2004 no Congresso Nacional. [...] Deixou o governo em 2007, sendo sucedido por Tarso Genro.",
+          "prova": "Período de Thomaz Bastos no Ministério da Justiça, que inclui a promulgação da emenda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jus.com.br (artigo jurídico)",
+          "titulo": "Reforma do Judiciário. Emenda Constitucional nº 45/2004",
+          "url": "https://jus.com.br/artigos/6463/reforma-do-judiciario-emenda-constitucional-n-45-2004",
+          "consultada_em": "2026-10-16",
+          "trecho": "A de n. 29/2000 foi aprovada, transformando-se na EC n. 45/2004, promulgada em 8 de dezembro de 2004 e publicada no DOU de 31 de dezembro de 2004.",
+          "prova": "Data da promulgação, que é o ponto que se compara com os dois mandatos."
+        }
+      ]
+    },
+    {
+      "id": "A084",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Reportagens citam contrato do Master, festa paga por Vorcaro e suposto encontro com acompanhante; 'orgia' só vem de Lula",
+      "explicacao": "A frase diz que surgiram no STF muitas denúncias envolvendo orgia, mulher e dinheiro. Até 15/10/2026 há registros de imprensa de: um contrato entre o Master e o escritório da mulher de Alexandre de Moraes; uma degustação em Londres bancada por Daniel Vorcaro com ministros do STF entre os convidados; e uma reportagem, citada pelo Diario de Pernambuco, sobre mensagens que indicariam um encontro de um ministro com uma acompanhante pago por Vorcaro. Isso cobre 'dinheiro', 'festa' e um relato com 'mulher'. O termo 'orgia' só aparece nas fontes na boca do próprio Lula. Além disso, tudo isso está em apuração: a Gazeta do Povo registra que nenhuma autoridade presente na degustação era investigada e que não havia irregularidade identificada. Pela regra de fato em apuração, o veredito não pode ser VERDADEIRO nem FALSO; é INSUSTENTAVEL, porque os relatos existem em parte, mas a caracterização de 'orgia' não tem lastro e nenhuma denúncia formal contra ministro está concluída.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "reportagens publicadas até 15/10/2026",
+      "ressalva": "Os relatos seguem em apuração, sem conclusão até a data da fala",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Moraes, Toffoli, Gonet: quem participou de degustação de uísque bancada por Vorcaro em Londres",
+          "url": "https://www.gazetadopovo.com.br/republica/moraes-toffoli-gonet-quem-participou-de-degustacao-de-uisque-bancada-por-vorcaro-em-londres/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Uma degustação exclusiva do seleto uísque escocês Macallan, realizada em Londres em 25 de abril de 2024 e que custou quase US$ 641 mil (pouco mais de R$ 3 milhões no câmbio da época), reuniu o ex-controlador do Banco Master, Daniel Vorcaro, e autoridades brasileiras. [...] Nenhuma das autoridades citadas é investigada e não há irregularidades nem crimes identificados.",
+          "prova": "Registra a festa paga por Vorcaro com ministros do STF e, ao mesmo tempo, que não há irregularidade identificada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Crise no STF: Dino pede vista e suspende julgamento que poderia tornar Moraes investigado (15/09/2026)",
+          "url": "https://www.itatiaia.com.br/politica/crise-no-stf-dino-pede-vista-e-suspende-julgamento-que-poderia-tornar-moraes-investigado/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Um dos documentos indicou uma troca de mensagens entre Vorcaro e Alexandre de Moraes, com indicativo de que os dois tiveram encontros presencialmente, além de um contrato de R$ 130 milhões entre o Master e o escritório da esposa do ministro, Viviane Barci de Moraes.",
+          "prova": "Mostra a denúncia de dinheiro envolvendo um ministro, em relatório da PF ainda em análise."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Lula: STF tem cinco ministros ligados direta ou indiretamente com o Caso Master (18/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11724304-lula-stf-tem-cinco-ministros-ligados-direta-ou-indiretamente-com-o-caso-master.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Sem mencionar o nome do ministro Kassio Nunes Marques , Lula também citou uma reportagem que revelou mensagens que indicam que o ministro teria tido um encontro com uma acompanhante pago por Daniel Vorcaro, dono do Banco Master.",
+          "prova": "Registra a existência de reportagem sobre um encontro pago com uma acompanhante, o relato mais próximo de 'mulher'."
+        }
+      ]
+    },
+    {
+      "id": "A085",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A imprensa registra duas conversas reservadas com Fachin no mesmo dia; as três só aparecem no relato de Lula",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase afirma três conversas com o presidente do STF, Edson Fachin, pedindo apuração e julgamento. O que resolveria é a agenda oficial da Presidência, que não foi capturada nesta checagem. O registro independente encontrado é a reportagem do A Tarde (com base no Metrópoles) de 04/09/2026: Lula teve conversa reservada com Fachin e o procurador-geral no Planalto e, depois de um evento, voltou a se reunir com Fachin, pedindo resposta equilibrada para a crise. O número três aparece só na fala do próprio Lula, em entrevista ao Flow Podcast em 01/10/2026, em que ele diz ter pedido a Fachin que não deixasse a Corte se digladiar e assumisse a responsabilidade. Fachin é o presidente do STF na data. Como o número e o conteúdo exato dependem do relato do próprio entrevistado, e só duas conversas aparecem em registro de terceiros, o veredito é INSUSTENTAVEL; não é FALSO, porque nada contradiz uma terceira conversa.",
+      "numero_dito": "três vezes",
+      "numero_apurado": null,
+      "data_de_referencia": "conversas relatadas entre setembro e 01/10/2026",
+      "ressalva": "A agenda oficial da Presidência não foi consultada",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Em meio à crise no STF, Lula tem conversa reservada com Fachin e Gonet (04/09/2026)",
+          "url": "https://atarde.com.br/politica/em-meio-a-crise-no-stf-lula-tem-conversa-reservada-com-fachin-e-gonet-1400933",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Lula teve conversa reservada com o ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF) e o procurador-geral da República, Paulo Gonet, na manhã desta sexta-feira, 4, no Palácio do Planalto. [...] Após o evento da sanção, Lula voltou a se reunir reservadamente com Fachin.",
+          "prova": "Registro de terceiros de duas conversas no mesmo dia, com Fachin já na presidência do STF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "ICL Notícias",
+          "titulo": "Lula diz ter falado 3 vezes com Fachin sobre crise no STF; condução do caso 'não foi correta' (02/10/2026)",
+          "url": "https://iclnoticias.com.br/?p=130290",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Eu conversei com o Fachin três vezes nesse processo todo. Eu falei: ‘Fachin, você não pode deixar a Suprema Corte ficar se digladiando entre ela’”, afirmou Lula ao Flow Podcast.",
+          "prova": "Mostra que a contagem de três vem do próprio Lula, em entrevista anterior."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Lula diz que pediu a Fachin para impedir STF de 'se digladiar' (01/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4350287/lula-diz-que-pediu-a-fachin-para-impedir-stf-de-se-digladiar",
+          "consultada_em": "2026-10-16",
+          "trecho": "Fachin assumiu a presidência do STF em 2025 e tem conduzido os desdobramentos internos do caso Master",
+          "prova": "Confirma que Fachin é o presidente do STF no período das conversas."
+        }
+      ]
+    },
+    {
+      "id": "A086",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Reportagens descrevem Andrei como próximo de Lula, mas não achamos adversário dizendo isso em público",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A pergunta atribui a adversários de Lula a afirmação de que Andrei Rodrigues tem proximidade grande com ele. A proximidade em si aparece em reportagens: a Gazeta do Povo descreve uma relação de confiança desde a campanha de 2022, e o Poder360 registra que ele passou a integrar com frequência a comitiva presidencial. O que se pede para conferir, porém, é a declaração de adversários. O adversário que agiu publicamente contra Andrei nas fontes capturadas é o partido Novo, que pediu seu afastamento e sua prisão, mas com base em risco de interferência no caso Master, não na proximidade com Lula. Um texto de opinião de revista crítica ao governo diz que ele é próximo a Lula, mas canal de opinião não entra como fonte. Sem declaração de parlamentar, candidato ou partido adversário nesse sentido, a atribuição não está sustentada: INSUSTENTAVEL, e não FALSO, porque nada mostra que adversários não digam isso. A mesma régua foi aplicada à resposta de Lula sobre o mesmo ponto.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "publicações até 15/10/2026",
+      "ressalva": "O partido Novo pediu o afastamento de Andrei, mas pelo caso Master, não pela relação com Lula",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Como Andrei Rodrigues se tornou o homem de confiança de Lula",
+          "url": "https://www.gazetadopovo.com.br/republica/como-andrei-rodrigues-se-tornou-o-homem-de-confianca-de-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A relação de confiança entre Luiz Inácio Lula da Silva (PT) e Andrei Rodrigues começou antes mesmo de o petista voltar ao Palácio do Planalto em janeiro de 2023.",
+          "prova": "A proximidade é descrita pela reportagem, não atribuída a adversários."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Novo pede que Mendonça afaste Andrei Rodrigues por suspeitas de interferência no caso Master",
+          "url": "https://www.gazetadopovo.com.br/republica/novo-pede-que-mendonca-afaste-andrei-rodrigues-por-suspeitas-de-interferencia-no-caso-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Novo alega risco de interferência nas investigações do caso Master por conta de trechos que envolvem o diretor-geral.",
+          "prova": "A ação pública de um partido adversário contra Andrei se apoia no caso Master, não na proximidade com Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Andrei Rodrigues, que foi segurança de Lula em 2022",
+          "url": "https://www.poder360.com.br/poder-justica/saiba-quem-e-andrei-rodrigues-ex-seguranca-de-lula-em-2022/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A proximidade com Lula se manteve depois da eleição. Como diretor-geral da PF, Andrei passou a integrar com frequência a comitiva presidencial em viagens internacionais .",
+          "prova": "Outra reportagem que registra a proximidade por conta própria, sem atribuí-la a adversários."
+        }
+      ]
+    },
+    {
+      "id": "A087",
+      "veredito": "VERDADEIRO",
+      "resumo": "Andrei esteve em abril de 2024 na degustação paga por Vorcaro em Londres, durante fórum patrocinado pelo Master",
+      "explicacao": "Três registros independentes confirmam. O Poder360, com dados obtidos por Lei de Acesso à Informação, informa que o Master bancou a ida de Andrei Rodrigues ao 1º Fórum Jurídico Brasil de Ideias, em Londres, e que, além do diretor da PF, cerca de 40 pessoas participaram da confraternização oferecida por Vorcaro. A Gazeta do Povo lista Andrei entre as autoridades da degustação de 25/04/2024. O Diario de Pernambuco, com base em vídeo divulgado pelo Metrópoles, o identifica na recepção do fórum, descrita como festa patrocinada por Vorcaro. VERDADEIRO. A ressalva é o que a PF informou: os organizadores pagaram hospedagem, alimentação e locomoção, e ele não recebeu remuneração ou outro benefício. A presença no evento não é, por si, prova de irregularidade, e as apurações sobre o caso seguem abertas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "degustação de 25/04/2024, durante fórum em Londres em abril de 2024",
+      "ressalva": "A PF diz que os organizadores pagaram pousada, alimentação e locomoção, sem outro benefício a ele",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Master bancou viagem de diretor-geral da PF para Londres",
+          "url": "https://www.poder360.com.br/poder-justica/master-bancou-viagem-de-diretor-geral-da-pf-para-londres/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A corporação informou que os organizadores do evento arcaram com os custos de “pousada, alimentação e locomoção”. [...] Cerca de 40 pessoas participaram da confraternização oferecida por Vorcaro. Além do diretor da PF, estiveram presentes ministros do STF, do STJ, um ministro de Estado, o procurador-geral da República e congressistas.",
+          "prova": "Confirma, com dado obtido por LAI, a presença do diretor-geral da PF na confraternização oferecida por Vorcaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Moraes, Toffoli, Gonet: quem participou de degustação de uísque bancada por Vorcaro em Londres",
+          "url": "https://www.gazetadopovo.com.br/republica/moraes-toffoli-gonet-quem-participou-de-degustacao-de-uisque-bancada-por-vorcaro-em-londres/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Entre elas estavam os ministros do Supremo Tribunal Federal (STF) Alexandre de Moraes e Dias Toffoli, o então ministro da Justiça do governo Lula, Ricardo Lewandowski, o diretor-geral da Polícia Federal, Andrei Rodrigues,",
+          "prova": "Lista Andrei entre os convidados da degustação de 25 de abril de 2024, confirmada pela Gazeta com fontes próprias."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Vídeo mostra festa de 2024 em Londres com Vorcaro, Andrei, Lewandowski, Ciro Nogueira e Fábio Faria",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11724463-video-mostra-festa-de-2024-em-londres-com-vorcaro-andrei-lewandowski-ciro-nogueira-e-fabio-faria.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Um vídeo registrou a presença de integrantes do governo Lula e de ex-ministros de Jair Bolsonaro em uma festa patrocinada por Daniel Vorcaro, dono do Banco Master, em Londres. [...] Entre os participantes identificados nas imagens estão o diretor-geral da Polícia Federal (PF), Andrei Rodrigues,",
+          "prova": "Registro em vídeo da presença de Andrei na festa patrocinada por Vorcaro."
+        }
+      ]
+    },
+    {
+      "id": "A088",
+      "veredito": "VERDADEIRO",
+      "resumo": "Ofícios do BC cobravam correções do Master desde 2021, e o BC analisou suspeitas sobre o banco em 2023",
+      "explicacao": "A pergunta afirma que, na data da festa em Londres (abril de 2024), o Banco Central já apurava irregularidades no Master. Duas fontes independentes sustentam. A reportagem do LetsMoney, com base em apuração do Valor, registra que o Departamento de Supervisão enviou pelo menos 25 ofícios ao banco entre 2021 e 2024 cobrando correções de insuficiência de capital e de irregularidades na classificação de risco de crédito, e situa em 2021 e 2022 um ciclo de supervisão sobre irregularidades em crédito e precatórios. O SBT News, com a resposta do BC a um delegado da PF, registra que o BC conhecia suspeitas sobre o Master desde 2023 e as analisou com seus departamentos de supervisão, concluindo então que não era preciso abrir procedimento específico. As duas datam a atuação do BC antes de abril de 2024. A ressalva diz o tipo de apuração: ofícios de supervisão e análise interna; o termo de comparecimento, instrumento mais duro, foi preparado em maio de 2024, depois da festa. A fala de Fernando Haddad situa o agravamento no fim de 2024 e não contradiz a supervisão anterior. Revisão de 16/out: o veredito provisório (INSUSTENTAVEL por fonte única) foi refeito com a reportagem do SBT News, já capturada neste caso para as checagens A097 e A098.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "supervisão do BC entre 2021 e 2024, comparada com o evento de abril de 2024",
+      "ressalva": "Eram ofícios de supervisão; o termo de comparecimento, ação mais dura, só foi preparado em maio de 2024",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "LetsMoney",
+          "titulo": "BC preparou e adiou ação contra Master duas vezes em 2024",
+          "url": "https://www.letsmoney.com.br/banco-central/banco-master-bc-supervisao-acao-adiada-2024/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Supervisão do BC sobre o Master: marcos de 2021 a 2025 Período O que o BC identificou Resposta 2021-2022 Fragilidades de governança; irregularidades em crédito e precatórios Ciclo de supervisão; ofícios exigindo correções [...] O Departamento de Supervisão (Desup) enviou pelo menos 25 ofícios ao Master entre 2021 e 2024 , exigindo correções em insuficiência de capital, irregularidades na classificação de risco de crédito e informações inconsistentes sobre investimentos em precatórios.",
+          "prova": "Registra supervisão do BC sobre irregularidades do Master desde 2021, antes de abril de 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News (coluna Nathalia Fruet)",
+          "titulo": "Exclusivo: Banco Central recebeu alerta da PF sobre Master em 2024, mas disse não ter encontrado ilegalidades (19/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-nathalia-fruet/exclusivo-banco-central-recebeu-alerta-da-pf-sobre-master-em-2024-mas-disse-nao-ter-encontrado-ilegalidades",
+          "consultada_em": "2026-10-16",
+          "trecho": "O BC respondeu que essas e outras suspeitas já eram de seu conhecimento desde 2023, quando o fundo ESH Theta protocolou petição semelhante. A autarquia afirmou que os fatos narrados já haviam sido analisados no contexto do aumento de capital do Banco Master e que, após consulta a seus departamentos de supervisão, concluiu não haver necessidade de abertura de procedimento específico.",
+          "prova": "Segunda fonte, independente: o BC analisava suspeitas sobre o Master desde 2023, antes da festa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande",
+          "titulo": "Haddad diz que Banco Central tinha dever de agir diante de irregularidades no Banco Master",
+          "url": "https://acritica.net/politica/haddad-banco-master-bc/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao detalhar a cronologia, ele afirmou que a situação ganhou mais força no último trimestre de 2024.",
+          "prova": "Situa o agravamento no fim de 2024, sem negar a supervisão anterior."
+        }
+      ]
+    },
+    {
+      "id": "A089",
+      "veredito": "VERDADEIRO",
+      "resumo": "Ofício obtido pelo SBT News registra dois inquéritos da PF de São Paulo sobre o Master abertos desde 2023",
+      "explicacao": "A pergunta afirma que, na data da festa em Londres (abril de 2024), já havia inquérito da PF em São Paulo sobre o Master. O SBT News obteve a resposta do BC a um delegado da Delegacia de Repressão à Corrupção e Crimes Financeiros da PF em São Paulo e informa que essa delegacia tinha aberto, desde 2023, dois inquéritos sobre o Master e fundos usados por Vorcaro, o que é anterior à festa. A CNN Brasil registra que investigações sobre o Master começaram em 2024, a pedido do Ministério Público Federal; ela confirma a apuração em curso naquele ano, mas não a data exata, que fica com o SBT News, e por isso a confiança é média. O inquérito mais conhecido, ligado à negociação com o BRB e à operação Compliance Zero, é posterior (Jovem Pan e Gazeta do Povo) e não contradiz os de 2023. É o mesmo par de fontes e o mesmo veredito da checagem A098, em que a entrevistadora retoma o ponto mais adiante. A alegação trata da existência e da data dos inquéritos; o mérito segue em apuração e não é julgado aqui (etica-e-risco §5). Revisão de 16/out: o veredito provisório (INSUSTENTAVEL) dizia que nenhuma fonte capturada citava inquérito em São Paulo antes de abril de 2024, mas a reportagem do SBT News já estava capturada neste caso.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "inquéritos da PF sobre o Master noticiados até 15/10/2026",
+      "ressalva": "A data de 2023 consta de documento obtido pelo SBT News; o mérito dos inquéritos segue em apuração",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News (coluna Nathalia Fruet)",
+          "titulo": "Exclusivo: Banco Central recebeu alerta da PF sobre Master em 2024, mas disse não ter encontrado ilegalidades (19/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-nathalia-fruet/exclusivo-banco-central-recebeu-alerta-da-pf-sobre-master-em-2024-mas-disse-nao-ter-encontrado-ilegalidades",
+          "consultada_em": "2026-10-16",
+          "trecho": "A coluna obteve a íntegra da resposta do BC ao delegado Gleydson Machado Calheiros, da Delegacia de Repressão à Corrupção e Crimes Financeiros da PF em São Paulo. [...] A Delegacia de Repressão e Crimes Financeiros da PF de São Paulo havia aberto desde 2023 dois inquéritos sobre o Master e fundos de investimentos usados por Vorcaro.",
+          "prova": "Documenta dois inquéritos da PF em São Paulo sobre o Master abertos desde 2023, antes da festa de abril de 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Investigações contra Banco Master e Vorcaro tiveram início em 2024 (18/11/2025)",
+          "url": "https://www.cnnbrasil.com.br/economia/investigacoes-contra-banco-master-e-vorcaro-tiveram-inicio-em-2024/",
+          "consultada_em": "2026-10-16",
+          "trecho": "As investigações tiveram início em 2024 , após solicitação do Ministério Público Federal para apurar a possível fabricação de carteiras de crédito insubsistentes por uma instituição financeira.",
+          "prova": "Confirma, por outra apuração, investigação sobre o Master em 2024; não traz o mês."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Polícia Federal abre inquérito para investigar o Banco Master",
+          "url": "https://jovempan.com.br/noticias/policia-federal-abre-inquerito-para-investigar-o-banco-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Polícia Federal (PF) abriu um inquérito para investigar o Banco Master. A decisão foi tomada após o Banco Central (BC) repassar informações detalhadas sobre as negociações entre o Banco Master e o Banco de Brasília (BRB) ao Ministério Público Federal (MPF).",
+          "prova": "Trata do inquérito aberto depois da negociação com o BRB, que é posterior e não exclui os de 2023."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Adiamentos em série frustram expectativa da PF de concluir inquérito do Master (16/10/2026)",
+          "url": "https://www.gazetadopovo.com.br/republica/adiamentos-em-serie-frustram-expectativa-da-pf-de-concluir-inquerito-do-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "sustentaria a legalidade da operação financeira, barrada pelo Banco Central em setembro de 2025. [...] A Compliance Zero começou em novembro de 2025, com a prisão de Vorcaro e outros investigados, quando a PF apurava a fabricação de carteiras de crédito sem lastro e sua negociação com o BRB.",
+          "prova": "Data a operação com o BRB e o início da Compliance Zero, ambos posteriores à festa; não trata dos inquéritos de 2023."
+        }
+      ]
+    },
+    {
+      "id": "A090",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Andrei chefiou a segurança da campanha de Lula em 2022 e viajou na comitiva; vínculo partidário não aparece",
+      "explicacao": "A frase nega vínculo de Andrei Rodrigues com Lula. As fontes registram um vínculo profissional: ele integrou a equipe de segurança de Lula na campanha de 2022 (Poder360) e a coordenou (CartaCapital, Itatiaia), foi escolhido para a PF levando em conta 'a relação de confiança construída durante a campanha' (Itatiaia) e, como diretor-geral, passou a integrar com frequência a comitiva presidencial em viagens ao exterior (Poder360). Esse histórico não sustenta a negativa ampla. Ao mesmo tempo, a segurança de candidato é função da própria PF, ele também fez a segurança de Dilma Rousseff em 2010, e nenhuma fonte registra filiação, cargo partidário ou relação pessoal fora do serviço. Como 'ligado' não tem definição e as fontes mostram vínculo funcional, mas não político ou pessoal, o veredito é INSUSTENTAVEL, e não FALSO. A mesma régua foi aplicada à pergunta da entrevistadora sobre o mesmo ponto.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "trajetória de Andrei Rodrigues até 15/10/2026",
+      "ressalva": "Ele também chefiou a segurança da campanha de Dilma Rousseff em 2010",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Andrei Rodrigues, que foi segurança de Lula em 2022",
+          "url": "https://www.poder360.com.br/poder-justica/saiba-quem-e-andrei-rodrigues-ex-seguranca-de-lula-em-2022/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Rodrigues também atuou na segurança de autoridades. Foi responsável pela segurança da então presidente Dilma Rousseff ( PT ) durante a campanha presidencial de 2010 e integrou a equipe responsável pela segurança de Luiz Inácio Lula da Silva (PT) durante a campanha de 2022.",
+          "prova": "Registra o vínculo profissional com a campanha de Lula, e que o mesmo serviço foi prestado a outra candidata."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Do entorno de presidenciáveis a grandes investigações na PF: a trajetória de Andrei Rodrigues",
+          "url": "https://www.itatiaia.com.br/politica/do-entorno-de-presidenciaveis-a-grandes-investigacoes-na-pf-a-trajetoria-de-andrei-rodrigues/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Após a vitória de Lula, Andrei saiu da chefia da Divisão de Relações Internacionais da instituição e foi escolhido para a direção-geral da corporação. O presidente levou em consideração a experiência dentro da PF e a relação de confiança construída durante a campanha presidencial.",
+          "prova": "Atribui a escolha também à relação de confiança da campanha, o que pesa contra 'não é ligado'."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Conheça Andrei Rodrigues, o diretor-geral da Polícia Federal no governo Lula (09/12/2022)",
+          "url": "https://www.cartacapital.com.br/?p=314527",
+          "consultada_em": "2026-10-16",
+          "trecho": "Rodrigues coordenou a equipe de segurança de Luiz Inácio Lula da Silva na campanha eleitoral e se manterá no posto até a posse, em 1º de janeiro.",
+          "prova": "Terceira fonte, de 2022, sobre o papel dele na segurança da campanha."
+        }
+      ]
+    },
+    {
+      "id": "A091",
+      "veredito": "VERDADEIRO",
+      "resumo": "Andrei foi nomeado diretor-geral da PF no governo Lula e seguia no cargo na data da fala",
+      "explicacao": "A nomeação de Andrei Rodrigues como diretor-geral da PF foi publicada no Diário Oficial na abertura do governo Lula, em janeiro de 2023 (Folhapress, via Diário do Pará), e a nomeação do diretor-geral é atribuição do presidente da República (O Povo, citando a AGU e Fachin). Na data da fala ele era o diretor-geral: em 8/9/2026 o ministro André Mendonça determinou seu afastamento, mas no dia seguinte Fachin suspendeu os efeitos do afastamento, e reportagens de 15/10/2026 ainda o tratam como diretor-geral. VERDADEIRO. Há uma divergência menor sobre quem escolheu: o Poder360 diz que ele foi escolhido pelo então ministro da Justiça, Flávio Dino, que fez o anúncio; a Itatiaia diz que o presidente levou em conta a relação de confiança; o ato de nomeação é do governo dele.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "nomeação em janeiro de 2023; cargo conferido em 15/10/2026",
+      "ressalva": "Foi afastado por decisão de Mendonça em setembro, e Fachin suspendeu o afastamento no dia seguinte",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Poder360 atribui a escolha ao então ministro da Justiça, Flávio Dino; a Itatiaia diz que Lula levou em conta a relação de confiança. O ato de nomeação é do governo Lula nas duas versões.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Pará (Folhapress)",
+          "titulo": "Lula nomeia novos chefes da Polícia Federal e da PRF (02/01/2023)",
+          "url": "https://diariodopara.com.br/noticias/brasil/lula-nomeia-novos-chefes-da-policia-federal-e-da-prf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo Lula (PT) exonerou nesta segunda (2) a cúpula da Polícia Federal indicada por Jair Bolsonaro (PL) e nomeou o novo diretor-geral da corporação, o delegado Andrei Rodrigues.",
+          "prova": "Registra a nomeação pelo governo Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Andrei Rodrigues, que foi segurança de Lula em 2022",
+          "url": "https://www.poder360.com.br/poder-justica/saiba-quem-e-andrei-rodrigues-ex-seguranca-de-lula-em-2022/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Rodrigues está à frente da corporação desde janeiro de 2023, quando foi escolhido para o cargo pelo então ministro da Justiça, Flávio Dino.",
+          "prova": "Data o início no cargo e registra a versão de que a escolha passou pelo ministro da Justiça."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Fachin suspende decisões de Mendonça e Dino e mantém Andrei Rodrigues na chefia da PF (09/09/2026)",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/09/09/fachin-suspende-decisoes-de-mendonca-e-dino-e-mantem-andrei-rodrigues-na-chefia-da-pf.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Supremo Tribunal Federal (STF) , Edson Fachin, suspendeu nesta quarta-feira, 9, as decisões dos ministros André Mendonça e Flávio Dino relacionadas ao comando da Polícia Federal. Com a medida, ficam interrompidos os efeitos tanto do afastamento de Andrei Rodrigues e Leandro Almada quanto da decisão posterior que havia determinado o retorno dos dois aos cargos.",
+          "prova": "Mostra que o afastamento de setembro teve os efeitos suspensos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula: explicação de Andrei sobre Vorcaro não convenceu (15/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-explicacao-de-andrei-sobre-vorcaro-nao-convenceu",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, afirmou nesta quinta-feira (15) que não considerou convincente a explicação do diretor-geral da Polícia Federal (PF), Andrei Rodrigues,",
+          "prova": "Na data da fala, a imprensa ainda o identifica como diretor-geral da PF."
+        }
+      ]
+    }
+  ]
+}

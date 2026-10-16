@@ -1,0 +1,651 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A001",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula governou de 2003 a 2010 e desde 2023, e em 2026 disputa o 4º mandato",
+      "explicacao": "A frase da entrevistadora afirma que Lula já teve três mandatos (dois anteriores e o atual) e que busca o quarto. A Agência Senado registra a posse de 1º/01/2023 e diz que ele já esteve à frente do Planalto entre 1º de janeiro de 2003 e 1º de janeiro de 2011, ou seja, dois mandatos completos antes do atual. O Poder360 descreve a candidatura de 2026 como a tentativa de um 4º mandato, e o resultado oficial do TSE do 1º turno de 2026 lista Lula como candidato que segue para o 2º turno. As fontes confirmam a contagem; não há número ou recorte a ajustar, por isso VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "mandatos de 2003 a 2010 e de 2023 em diante; candidatura de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Congresso empossa Lula e Alckmin na Presidência da República (01/01/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Congresso Nacional deu posse neste domingo (1º) a Luiz Inácio Lula da Silva, 39º presidente do Brasil e primeiro governante do Executivo federal a conquistar três vitórias em eleições diretas. [...] Ele já esteve à frente do Palácio do Planalto entre 1º de janeiro de 2003 e 1º de janeiro de 2011.",
+          "prova": "Registro oficial da posse do atual mandato e dos dois mandatos anteriores, de 2003 a 2010."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula escolhe foto com chapéu para urna eletrônica em 2026 (08/08/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-divulga-foto-oficial-da-candidatura-a-reeleicao/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula tenta conquistar um 4º mandato como presidente da República. Ele governou o país de 2003 a 2010 e voltou ao Planalto em 2023.",
+          "prova": "Confirma que a candidatura de 2026 é à reeleição, para um quarto mandato."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, cargo de presidente, Brasil (arquivo de divulgação)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"nm\" : \"LUIZ INÁCIO LULA DA SILVA\", \"nmu\" : \"LULA\", \"dt\" : \"06/10/1945\", \"dvt\" : \"Válido\", \"seq\" : \"2\", \"e\" : \"s\", \"st\" : \"2º turno\"",
+          "prova": "Mostra Lula como candidato a presidente em 2026, na disputa que segue para o 2º turno."
+        }
+      ]
+    },
+    {
+      "id": "A002",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio terminou o 1º turno com 47,03% dos votos válidos e Lula com 45,16%, segundo o TSE",
+      "explicacao": "A frase corrige 'segundo turno' para 'primeiro turno' na própria fala, e só o 1º turno havia ocorrido na data da entrevista (15/out/2026). O arquivo oficial de resultado do TSE, com 100% das seções totalizadas, dá a Flávio Bolsonaro 56.104.503 votos (47,03% dos válidos) e a Lula 53.879.538 (45,16%). Reportagens do Jornal do Comércio e do SBT News registram o próprio Lula dizendo que estranhou não ter terminado o 1º turno em primeiro lugar. A desvantagem citada existe nos números oficiais, por isso VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": "Flávio 47,03% e Lula 45,16% dos votos válidos",
+      "data_de_referencia": "1º turno de 04/10/2026, totalização de 05/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, cargo de presidente, Brasil (arquivo de divulgação, 05/10/2026)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"nm\" : \"FLAVIO NANTES BOLSONARO\", \"nmu\" : \"FLAVIO BOLSONARO\", \"dt\" : \"30/04/1981\", \"dvt\" : \"Válido\", \"seq\" : \"1\", \"e\" : \"s\", \"st\" : \"2º turno\", \"vap\" : \"56104503\", \"pvap\" : \"47,03\" [...] \"nm\" : \"LUIZ INÁCIO LULA DA SILVA\", \"nmu\" : \"LULA\", \"dt\" : \"06/10/1945\", \"dvt\" : \"Válido\", \"seq\" : \"2\", \"e\" : \"s\", \"st\" : \"2º turno\", \"vap\" : \"53879538\", \"pvap\" : \"45,16\"",
+          "prova": "Votos e percentual de votos válidos de cada um no resultado oficial: Flávio à frente de Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Comércio",
+          "titulo": "Lula diz que campanha à Presidência é a mais desorganizada desde a 1ª que disputou, em 1989 (out/2026)",
+          "url": "https://www.jornaldocomercio.com/politica/2026/10/1266131-lula-diz-que-campanha-a-presidencia-e-a-mais-desorganizada-desde-a-1-que-disputou-em-1989.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente disse também que \"estranhou\" o fato de não ter terminado o primeiro turno à frente do senador Flávio Bolsonaro (PL)",
+          "prova": "Confirmação independente de que Lula terminou o 1º turno atrás de Flávio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que campanha foi a menos organizada desde 1989 (07/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-campanha-foi-a-menos-organizada-desde-1989",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na ocasião, o presidente também disse ter estranhado não ter vencido no primeiro turno, realizado no último domingo (4). \"Depois de tudo o que nós entregamos neste país, nós não conseguimos ganhar as eleições. Eu, sinceramente, estranhei não termos ganho as eleições. E mais ainda, estranhei não ter terminado em primeiro lugar\", afirmou.",
+          "prova": "O próprio candidato reconhece que não terminou o 1º turno em primeiro lugar."
+        }
+      ]
+    },
+    {
+      "id": "A003",
+      "veredito": "IMPRECISO",
+      "resumo": "Desaprovação liderou na maioria das pesquisas de 2026, mas passou de 50% só em parte delas",
+      "explicacao": "A frase diz que, desde o início do ano e quase o tempo inteiro, os brasileiros rejeitaram majoritariamente o governo. Medida usada: aprovação e desaprovação do trabalho do presidente, a pergunta que Datafolha e Quaest fazem em toda rodada (a avaliação 'ruim ou péssimo' nunca chegou à maioria nas rodadas lidas: de 38% a 42% no Datafolha). Rodadas encontradas, Datafolha: março 49% desaprovam e 47% aprovam; abril e 12 e 13 de maio 51% e 45%; 20 e 21 de maio empate, 48% e 48%; junho 49% e 48%; julho 48% desaprovam e 49% aprovam; início de setembro 51% e 45%; fim de setembro e 1º de outubro 49% e 48%. Quaest: abril 52% e 43%; julho e 5 de agosto 47% desaprovam e 48% aprovam; 14 de agosto 48% e 46%; 2 de setembro 48% e 45%; 14 de setembro 50% e 43%; a rodada seguinte 50% e 44%; 28 de setembro 49% e 46%. A essência confere: a desaprovação esteve numericamente à frente na maior parte das rodadas. Mas 'majoritariamente', no sentido de mais da metade, só aparece em parte delas (51% ou 52% em quatro rodadas), várias diferenças ficaram dentro da margem de 2 pontos, houve empate no Datafolha de maio, e em julho e no início de agosto a aprovação ficou numericamente à frente nos dois institutos. Não foram capturadas rodadas de janeiro e fevereiro. Como o essencial está certo e o recorte ('maioria' quase o tempo inteiro) exagera o dado, IMPRECISO, e não FALSO.",
+      "numero_dito": "majoritariamente, quase o tempo inteiro",
+      "numero_apurado": "desaprovação de 47% a 52% (Datafolha e Quaest), acima de 50% em parte das rodadas",
+      "data_de_referencia": "rodadas Datafolha e Quaest de março a 1º de outubro de 2026",
+      "ressalva": "Houve empate em maio, a aprovação ficou à frente em julho e no início de agosto, e várias diferenças estavam na margem de 2 pontos",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Os dois institutos não batem rodada a rodada (abril: Datafolha 51% e Quaest 52%; julho: 48% e 47%), mas as diferenças cabem nas margens declaradas e apontam a mesma tendência.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Datafolha (divulgação publicada na Folha de S.Paulo; PDF hospedado pelo Poder360)",
+          "titulo": "Datafolha: Lula tem 45% e Flávio Bolsonaro, 40% em votos válidos no 1º turno (01/10/2026)",
+          "url": "https://static.poder360.com.br/uploads/2026/10/datafolha-presidencial-outubro.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A avaliação do governo Lula é negativa para 41%, enquanto 35% têm uma visão positiva da gestão do candidato à reeleição e 23%, regular. Afirmam reprovar pessoalmente o presidente 49%, ante 48% que o aprovam.",
+          "prova": "Última rodada antes do 1º turno (registro BR-08039/2026): desaprovação de 49%, abaixo da maioria absoluta, e ruim ou péssimo em 41%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Lula busca quarto mandato com pior avaliação de governo (15/09/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4346937/lula-busca-quarto-mandato-com-pior-avaliacao-de-governo",
+          "consultada_em": "2026-10-16",
+          "trecho": "Pesquisa Datafolha (sob registro BR-03669/2026) realizada nos dias 1º e 2 de setembro mostra que 42% dos brasileiros consideram a administração ruim ou péssima, enquanto 31% a classificam como ótima ou boa e 25% como regular. Na avaliação pessoal do presidente, 51% desaprovam seu trabalho e 45% aprovam.",
+          "prova": "Rodada de setembro do Datafolha com desaprovação acima de 50%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Datafolha: 47% aprovam o governo Lula e 49% desaprovam (07/03/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes/datafolha-47-aprovam-o-governo-lula-e-49-desaprovam/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Levantamento do Instituto Datafolha divulgado no sábado (7.mar.2026) mostra que 47% dos eleitores brasileiros dizem aprovar o desempenho do presidente Luiz Inácio Lula da Silva (PT). Os que declaram desaprovar são 49% e os que não souberam opinar, 4%.",
+          "prova": "Rodada de março: desaprovação à frente, mas abaixo de 50%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "51% desaprovam o trabalho de Lula e 45%, aprovam, diz Datafolha (maio/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/51-desaprovam-o-trabalho-de-lula-45-aprovam-diz-datafolha/",
+          "consultada_em": "2026-10-16",
+          "trecho": "51% desaprovam o trabalho de Lula e 45%, aprovam, diz Datafolha [...] Pesquisa feita de 12 a 13 de maio mostra que taxas são as mesmas de abril",
+          "prova": "Rodadas de abril e maio com desaprovação acima de 50%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Portal de Prefeitura (Estadão Conteúdo)",
+          "titulo": "Lula é aprovado por 49% e desaprovado por 48% dos brasileiros, revela pesquisa Datafolha (24/07/2026)",
+          "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/lula-e-aprovado-desaprovado-brasileiros-pesquisa-datafolha/627878/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Pesquisa Datafolha divulgada nesta sexta-feira, 24, mostra que o governo do presidente Luiz Inácio Lula da Silva (PT) é aprovado por 49% dos brasileiros e desaprovado por 48%. O cenário é praticamente idêntico ao levantamento anterior, quando 48% aprovavam e 49% desaprovavam.",
+          "prova": "Rodadas de junho e julho: empate técnico, com a aprovação numericamente à frente em julho."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Desaprovação do governo Lula vai a 52%, diz Quaest (15/04/2026)",
+          "url": "https://www.poder360.com.br/poder-pesquisas/desaprovacao-do-governo-lula-vai-a-52-diz-quaest/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Levantamento Genial/Quaest divulgado nesta 4ª feira (15.abr.2026) mostra que 52% dos brasileiros desaprovam o governo do presidente Luiz Inácio Lula da Silva (PT), enquanto 43% dizem aprovar a gestão.",
+          "prova": "Pico de desaprovação da Quaest no ano, acima de 50%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estado de Minas",
+          "titulo": "Genial/Quaest: aprovação de Lula é de 48% e desaprovação fica em 47% (05/08/2026)",
+          "url": "https://www.em.com.br/politica/2026/08/7474020-genial-quaest-aprovacao-de-lula-e-de-48-e-desaprovacao-fica-em-47.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) tem aprovação de 48% dos brasileiros, segundo a pesquisa Genial/Quaest divulgada nesta quarta-feira (5/8). Outros 47% desaprovam o trabalho do petista, enquanto 5% não souberam ou não responderam. [...] Com relação à aprovação do presidente, os números representam estabilidade em relação ao levantamento de julho, quando a aprovação também marcou 48% e a desaprovação, 47%.",
+          "prova": "Rodadas de julho e agosto da Quaest com aprovação numericamente à frente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula é desaprovado por 50% e aprovado por 43%, diz Quaest (14/09/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-desaprovado-por-50-e-aprovado-por-43-diz-quaest/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Levantamento da Genial/Quaest divulgado nesta 2ª feira (14.set.2026) mostra que o trabalho do presidente Luiz Inácio Lula da Silva (PT) é desaprovado por 50% dos eleitores do Brasil, enquanto 43% aprovam o governo.",
+          "prova": "Rodada de meados de setembro: desaprovação em 50%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Portal de Prefeitura (Estadão Conteúdo)",
+          "titulo": "Pesquisa Quaest: aprovação do governo Lula sobe para 46% e desaprovação fica em 49% (28/09/2026)",
+          "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/pesquisa-quaest-aprovacao-do-governo-lula-sobe-para-46-e/632996/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A aprovação do governo do presidente Luiz Inácio Lula da Silva (PT) oscilou de 44% para 46% em uma semana, enquanto a desaprovação passou de 50% para 49%, segundo pesquisa Quaest divulgada nesta segunda-feira, 28. Apesar das oscilações, a desaprovação permanece numericamente acima da aprovação.",
+          "prova": "Última rodada Quaest antes do 1º turno: desaprovação à frente, abaixo de 50%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Datafolha: rejeição a Lula cai, e aprovação encurta distância (23/05/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/119117/datafolha-rejeicao-a-lula-cai-e-aprovacao-encurta-distancia",
+          "consultada_em": "2026-10-16",
+          "trecho": "O levantamento mostra que 38% dos brasileiros consideram a gestão ruim ou péssima, enquanto 32% avaliam o governo como ótimo ou bom. [...] Há um mês, eram 11 pontos de distância: 40% avaliavam o governo negativamente, contra 29% de aprovação positiva. [...] Hoje, 48% aprovam o trabalho de Lula e outros 48% desaprovam. Na rodada anterior, o placar era de 51% de desaprovação contra 45% de aprovação.",
+          "prova": "Rodada Datafolha de 20 e 21 de maio: empate em 48%, e ruim ou péssimo em 38% e 40%, abaixo da maioria."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Quaest: 48% desaprovam o governo Lula e 45% aprovam (02/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722885-quaest-48-desaprovam-o-governo-lula-e-45-aprovam.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A desaprovação ao governo do presidente Luiz Inácio Lula da Silva (PT) permaneceu em 48%, enquanto a aprovação oscilou de 46% para 45%, segundo pesquisa Quaest divulgada nesta quarta-feira (2). [...] Na rodada anterior, divulgada em 14 de agosto, 48% desaprovavam a gestão petista e 46% a aprovavam. Outros 6% não souberam ou não responderam. As variações ocorreram dentro da margem de erro do levantamento, de 2 pontos porcentuais.",
+          "prova": "Rodadas Quaest de 14 de agosto e 2 de setembro: desaprovação à frente, abaixo de 50%, dentro da margem."
+        }
+      ]
+    },
+    {
+      "id": "A004",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula ligou a queda nas pesquisas ao custo de vida e ao preço dos alimentos em entrevistas de 2024 e 2025",
+      "explicacao": "A frase atribui a Lula ter explicado a avaliação adversa por fatores de conjuntura. Em agosto de 2025, à BandNews, ele atribuiu a queda de popularidade ao preço dos alimentos ('o feijão estava caro, o arroz estava caro'), segundo o Poder360. Em março de 2024, ao SBT, disse que a pesquisa é uma fotografia 'em função do momento que você está vivendo' e ligou a perda de credibilidade ao preço do arroz e do feijão. As duas falas são explicações por conjuntura econômica. Ressalvas: a busca não achou declaração de 2026 com a palavra 'conjuntura', e em janeiro de 2025 ele também disse que 'a gente não está entregando aquilo que prometeu', uma explicação que não é de conjuntura. Como a frase da entrevistadora ('já atribuiu') não fixa data e as fontes confirmam o essencial, VERDADEIRO, com confiança média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de 11/03/2024, 31/01/2025 e 12/08/2025",
+      "ressalva": "Não foi achada fala deste ano; em 2025 ele também disse que o governo não entregava o que prometeu",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "O povo tinha razão de estar meio puto, diz Lula sobre pesquisas (12/08/2025)",
+          "url": "https://www.poder360.com.br/poder-governo/o-povo-tinha-razao-de-estar-meio-puto-diz-lula-sobre-pesquisas/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Presidente atribuiu queda recente de popularidade ao preço dos alimentos e disse que os brasileiros que o criticaram tinham razão [...] \"O povo tinha razão de estar meio puto porque o custo de vida estava caro, o feijão estava caro, o arroz estava caro, o café está caro ainda, a carne estava muito cara\", afirmou Lula em entrevista ao programa \"O É da Coisa\", da BandNews, nesta 3ª feira (12.ago.2025)",
+          "prova": "Lula explica a queda nas pesquisas pelo custo de vida, fator de conjuntura."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula reconhece que alimentos ainda estão caros; veja íntegra da entrevista (11/03/2024)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-reconhece-que-alimentos-ainda-estao-caros-veja-integra-da-entrevista",
+          "consultada_em": "2026-10-16",
+          "trecho": "Política 2024-03-11T23:33:24.042Z O presidente(PT) reconheceu que os alimentos ainda estão caros no país. [...] A segunda coisa é que a pesquisa é uma fotografia e a gente tem que entendê-la como a fotografia em função do momento que você está vivendo.",
+          "prova": "Na íntegra da entrevista, Lula responde à queda de popularidade com o momento econômico e o preço dos alimentos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Presidente diz que governo não está entregando o que prometeu, mas é cedo para projetar 2026 (31/01/2025)",
+          "url": "https://mais.opovo.com.br/jornal/politica/2025/01/31/presidente-diz-que-governo-nao-esta-entregando-o-que-prometeu-mas-e-cedo-para-projetar-2026.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Eu disse ao (Paulo) Pimenta (ex-ministro da Secom): 'Não se preocupe com pesquisa, porque o povo tem razão, a gente não está entregando aquilo que prometeu' [...] a desaprovação ao trabalho do presidente subiu dois pontos porcentuais, de 47% em dezembro de 2024 para 49% em janeiro de 2025.",
+          "prova": "Contraponto: em janeiro de 2025 Lula também explicou a avaliação pela entrega do governo, não só pela conjuntura."
+        }
+      ]
+    },
+    {
+      "id": "A005",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 7 de outubro, Lula disse que a campanha foi a menos organizada de que participou desde 1989",
+      "explicacao": "A frase diz que Lula afirmou recentemente que a campanha foi desorganizada. Em 7/out/2026, três dias depois do 1º turno, Lula disse em plenária com congressistas do PT que comunicou a Edinho Silva que aquela 'foi a campanha menos organizada que participei desde 1989', segundo Poder360, SBT News e Jornal do Comércio. O termo exato foi 'menos organizada', e não 'desorganizada', mas o sentido é o mesmo e a fala é anterior à entrevista. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declaração de 07/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula diz que campanha atual foi a menos organizada desde 1989 (07/10/2026)",
+          "url": "https://www.poder360.com.br/brasil/lula-diz-que-campanha-foi-a-menos-organizada-desde-1989/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) disse nesta 4ª feira (7.out.2026) que a campanha eleitoral foi a “menos organizada” de que participou desde 1989. [...] “Acho que nós fizemos uma campanha aquém da minha possibilidade; poderíamos ter feito mais. Disse para o Edinho que essa foi a campanha menos organizada que participei desde 1989” , declarou.",
+          "prova": "A fala, com data e o termo exato."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que campanha foi a menos organizada desde 1989 (07/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-campanha-foi-a-menos-organizada-desde-1989",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta quarta-feira (7) que a campanha para o primeiro turno das eleições de 2026 foi a menos organizada de sua trajetória eleitoral desde 1989.",
+          "prova": "Registro independente da mesma fala, situando-a no 1º turno de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Comércio",
+          "titulo": "Lula diz que campanha à Presidência é a mais desorganizada desde a 1ª que disputou, em 1989 (out/2026)",
+          "url": "https://www.jornaldocomercio.com/politica/2026/10/1266131-lula-diz-que-campanha-a-presidencia-e-a-mais-desorganizada-desde-a-1-que-disputou-em-1989.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) admitiu para aliados que a sua campanha à reeleição não está bem ordenada . O presidente disse em reunião com parlamentares aliados que foram eleitos que comunicou ao presidente do PT, Edinho Silva , que esta é a menos organizada que ele participou desde a primeira, em 1989.",
+          "prova": "Terceiro registro, que já traduz a fala como 'desorganizada'."
+        }
+      ]
+    },
+    {
+      "id": "A006",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pelo Banco Mundial e pelo FMI, o Brasil era a 7ª economia do mundo em 2010, em PIB nominal em dólares",
+      "explicacao": "O critério é o PIB nominal em dólares correntes, o usado em rankings de 'maior economia'. Pelo Banco Mundial, em 2010 o Brasil (US$ 2,21 trilhões) ficava atrás de Estados Unidos, China, Japão, Alemanha, França e Reino Unido e à frente da Itália (US$ 2,14 trilhões); a série do FMI (World Economic Outlook) dá a mesma ordem entre os países. A comparação cobre as doze maiores economias consultadas; Índia, Canadá, Rússia e Espanha ficam abaixo do Brasil. O Página/12, em março de 2011, registrou o anúncio de que o Brasil se tornara a sétima economia após o crescimento de 2010. Por paridade de poder de compra o ranking é outro, e não foi apurado aqui. VERDADEIRO. 🔧 Na revisão de coerência entre lotes (16/out/2026) a confiança passou de média para alta, a mesma da checagem A147, que confere o mesmo ponto (7ª economia em 2010) com as mesmas duas séries, do Banco Mundial e do FMI; ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": "sétima economia do mundo",
+      "numero_apurado": "7ª maior economia em 2010 (PIB nominal em dólares)",
+      "data_de_referencia": "2010",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "7ª",
+          "de": "2208837745100.55 abaixo de 2496740681057.14 e acima de 2144936254535",
+          "como": "ordenação dos PIBs nominais de 2010 do Banco Mundial: seis países acima do Brasil"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial (World Development Indicators, NY.GDP.MKTP.CD)",
+          "titulo": "GDP (current US$), 2010, doze maiores economias",
+          "url": "https://api.worldbank.org/v2/country/USA;CHN;JPN;DEU;FRA;GBR;BRA;ITA;IND;CAN;RUS;ESP/indicator/NY.GDP.MKTP.CD?date=2010&format=json&per_page=50",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"USA\",\"date\":\"2010\",\"value\":15048971000000 [...] \"countryiso3code\":\"CHN\",\"date\":\"2010\",\"value\":6192564874453.29 [...] \"countryiso3code\":\"JPN\",\"date\":\"2010\",\"value\":5811578109447.07 [...] \"countryiso3code\":\"DEU\",\"date\":\"2010\",\"value\":3467093769666.67 [...] \"countryiso3code\":\"FRA\",\"date\":\"2010\",\"value\":2646230027988.34 [...] \"countryiso3code\":\"GBR\",\"date\":\"2010\",\"value\":2496740681057.14 [...] \"countryiso3code\":\"BRA\",\"date\":\"2010\",\"value\":2208837745100.55 [...] \"countryiso3code\":\"ITA\",\"date\":\"2010\",\"value\":2144936254535",
+          "prova": "PIB nominal de 2010 em dólares: o Brasil é o 7º, logo abaixo do Reino Unido e acima da Itália."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (World Economic Outlook, DataMapper NGDPD)",
+          "titulo": "GDP, current prices (bilhões de US$), 2010",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDPD/USA/CHN/JPN/DEU/FRA/GBR/BRA/ITA/IND/CAN/RUS/ESP?periods=2010",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"USA\":{ [...] \"2010\":15048.975 [...] \"CHN\":{ [...] \"2010\":6193.268 [...] \"JPN\":{ [...] \"2010\":5811.577 [...] \"DEU\":{ [...] \"2010\":3469.925 [...] \"FRA\":{ [...] \"2010\":2648.391 [...] \"GBR\":{ [...] \"2010\":2498.365 [...] \"BRA\":{ [...] \"2010\":2208.704 [...] \"ITA\":{ [...] \"2010\":2146.687",
+          "prova": "Fonte independente da do Banco Mundial, com a mesma ordem: o Brasil em 7º entre os países em 2010."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Página/12",
+          "titulo": "Brasil sube en el ranking (04/03/2011)",
+          "url": "https://www.pagina12.com.ar/diario/economia/2-163441-2011-03-04.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Brasil anunció ayer que se convirtió en la séptima economía del mundo, luego de haber registrado un crecimiento de 7,5 por ciento en 2010, el mejor resultado de los últimos 24 años.",
+          "prova": "Registro da época de que o Brasil chegou ao 7º lugar com o resultado de 2010."
+        }
+      ]
+    },
+    {
+      "id": "A007",
+      "veredito": "VERDADEIRO",
+      "resumo": "O IBGE registrou alta de 7,5% do PIB em 2010; é a taxa daquele ano, não a média do período",
+      "explicacao": "A fala descreve a economia ao fim do segundo mandato. O IBGE divulgou que o PIB de 2010 variou 7,5% sobre 2009, e a série do Banco Central (SGS 7326, variação real anual do PIB) traz 7,53% para 2010 na revisão vigente. O número confere para 2010. Não descreve o período inteiro: a mesma série dá -0,13% em 2009 e média de cerca de 4,1% ao ano de 2003 a 2010. Como a frase situa o número no fim do mandato, VERDADEIRO, com a ressalva de que 7,5% foi a taxa de um ano.",
+      "numero_dito": "7,5% ao ano",
+      "numero_apurado": "7,5% em 2010 (7,53% na série revista)",
+      "data_de_referencia": "ano de 2010; série 2003 a 2010",
+      "ressalva": "Em 2009 a variação foi de -0,13%, e a média de 2003 a 2010 ficou em cerca de 4,1% ao ano",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "4,1%",
+          "de": "média de 1.14, 5.76, 3.20, 3.96, 6.07, 5.09, -0.13 e 7.53",
+          "como": "média aritmética simples das oito taxas anuais, arredondada para uma casa"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "IBGE (Agência de Notícias)",
+          "titulo": "Em 2010, PIB varia 7,5% e fica em R$ 3,675 trilhões",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13983-asi-em-2010-pib-varia-75-e-fica-em-r-3675-trilhoes",
+          "consultada_em": "2026-10-16",
+          "trecho": "No acumulado no ano de 2010 , em relação ao mesmo período de 2009, o PIB variou 7,5% , resultado do crescimento de 6,7 % no valor adicionado e 12,5 % nos impostos .",
+          "prova": "Taxa oficial de crescimento do PIB em 2010."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 7326, PIB: taxa de variação real no ano)",
+          "titulo": "Série anual de 2002 a 2011",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/2002&dataFinal=31/12/2011",
+          "consultada_em": "2026-10-16",
+          "trecho": "{\"data\":\"01/01/2003\",\"valor\":\"1.14\"},{\"data\":\"01/01/2004\",\"valor\":\"5.76\"},{\"data\":\"01/01/2005\",\"valor\":\"3.20\"},{\"data\":\"01/01/2006\",\"valor\":\"3.96\"},{\"data\":\"01/01/2007\",\"valor\":\"6.07\"},{\"data\":\"01/01/2008\",\"valor\":\"5.09\"},{\"data\":\"01/01/2009\",\"valor\":\"-0.13\"},{\"data\":\"01/01/2010\",\"valor\":\"7.53\"}",
+          "prova": "Confirma 7,53% em 2010 na revisão vigente e mostra os outros anos dos dois mandatos."
+        }
+      ]
+    },
+    {
+      "id": "A008",
+      "veredito": "IMPRECISO",
+      "resumo": "A RAIS mostra 15,4 milhões de empregos formais a mais de 2002 a 2010, e não 22 milhões",
+      "explicacao": "O dado que resolve é o estoque de empregos formais da RAIS (Ministério do Trabalho). O UOL Confere, com a RAIS, registra 28.683.913 empregos formais em 2002 e 44.068.355 em 2010: 15.384.442 a mais nos oito anos. O próprio Ministério do Trabalho, ao divulgar a RAIS 2010, informou 15,384 milhões de postos formais no período do governo Lula, e o Instituto Mauro Borges confirma o estoque de 44,068 milhões em 2010. O número dito fica cerca de 43% acima. A busca não achou série oficial (CAGED, RAIS ou PNAD) que dê 22 milhões para 2003 a 2010; em 2026 o próprio Lula usou 22 milhões para 'o mandato anterior'. Houve forte criação de empregos, o essencial confere, mas o número é materialmente maior que o registrado: IMPRECISO pela régua do desvio acima de 10%, e não FALSO, porque a direção é a mesma.",
+      "numero_dito": "22 milhões de empregos em oito anos",
+      "numero_apurado": "15,4 milhões de empregos formais a mais (RAIS, 2002 a 2010)",
+      "data_de_referencia": "estoque de empregos formais da RAIS, dezembro de 2002 a dezembro de 2010",
+      "ressalva": "O número de 22 milhões não aparece em série oficial para 2003 a 2010; a RAIS dá 15,4 milhões",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "15,4 milhões",
+          "de": "15.384.442",
+          "como": "arredondamento de 15.384.442 para milhões com uma casa"
+        },
+        {
+          "valor": "43%",
+          "de": "22 contra 15,384",
+          "como": "desvio do número dito em relação ao apurado: 22 dividido por 15,384, menos 1"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Instituto Mauro Borges (Governo de Goiás), com dados da RAIS/MTE",
+          "titulo": "Goiás gera metade dos empregos formais da região Centro-Oeste em 2010",
+          "url": "https://goias.gov.br/imb/goias-gera-metade-dos-empregos-formais-da-regiao-centro-oeste-em-2010/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo dados da RAIS – Relação Anual de Informações Sociais – do MTE – Ministério do Trabalho e Emprego, no ano de 2010 foi gerado no Brasil 2.860.809 novos empregos formais, um recorde na geração de empregos, correspondendo ao crescimento de 6,94% em relação ao estoque de empregos de dezembro de 2009. Com o bom desempenho do mercado de trabalho, o número de trabalhadores com vínculos formais ativos chegou a 44.068 milhões, o maior da história.",
+          "prova": "Estoque de empregos formais em 2010, ponto final da conta."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "UOL Confere (BOL Notícias)",
+          "titulo": "Checagem do debate da Band: Lula exagerou ao citar dados de geração de empregos (16/10/2022)",
+          "url": "http://www.bol.uol.com.br/noticias/2022/10/16/lula-debate-band-uol-checagem.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "No ano de 2002, quando Lula foi eleito pela primeira vez, o número de empregos formais era de 28.683.913 (28 milhões). Em 2010, último ano do segundo mandato do petista, o número de empregos formais era de 44.068.355 (44 milhões). Nesse período, portanto, o número de empregos formais a mais foi de 15.384.442 (15 milhões), e não 22 milhões, como disse o candidato. Os dados são do RAIS (Relação Anual de Informações Sociais) elaborado pelo Ministério do Trabalho e divulgado em novembro de 2021.",
+          "prova": "A mesma frase de Lula já checada contra a RAIS: 15,4 milhões, e não 22 milhões."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "LegisWeb (reprodução do release do Ministério do Trabalho e Emprego sobre a RAIS 2010)",
+          "titulo": "Brasil bate mais um recorde de geração de empregos",
+          "url": "https://www.legisweb.com.br/noticia/?id=2884",
+          "consultada_em": "2026-10-16",
+          "trecho": "No período do Governo Lula (2003 a 2010), a geração de empregos formais atingiu a marca de 15,384 milhões de novos postos de empregos formais, crescimento de 53,63% ao longo do período.",
+          "prova": "O número do próprio governo da época para os oito anos."
+        }
+      ]
+    },
+    {
+      "id": "A009",
+      "veredito": "VERDADEIRO",
+      "resumo": "A MP 870, de 2019, extinguiu dez ministérios e reduziu de 29 para 22 as pastas com status de ministério",
+      "explicacao": "A Medida Provisória 870/2019, primeiro ato do governo Bolsonaro, extinguiu os ministérios das Cidades, Cultura, Desenvolvimento Social, Esportes, Fazenda, Indústria e Comércio Exterior, Integração Nacional, Planejamento, Segurança Pública e Trabalho: dez, contados na lista da Agência Senado. A Gazeta confirma, de forma independente, a redução de 29 para 22 pastas. O número dito bate. 'Desmontados' é um termo forte para o que foi, em parte, fusão: Fazenda, Planejamento e Indústria viraram o Ministério da Economia. O registro não cobre recriações posteriores, que não foram apuradas aqui. VERDADEIRO.",
+      "numero_dito": "dez ministérios",
+      "numero_apurado": "dez ministérios extintos pela MP 870/2019",
+      "data_de_referencia": "estrutura definida pela MP 870, de 1º/01/2019",
+      "ressalva": "Parte das pastas extintas foi fundida em outras, como Fazenda e Planejamento no Ministério da Economia",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Medida provisória confirma estrutura de governo de Jair Bolsonaro (02/01/2019)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2019/01/02/medida-provisoria-confirma-estrutura-de-governo-de-jair-bolsonaro",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Medida Provisória 870/2019 reduz de 29 para 22 o número de órgãos com status ministerial no governo federal. [...] Pela decisão, ficam extintos os seguintes ministérios: Cidades; Cultura; Desenvolvimento Social; Esportes; Fazenda; Indústria, Comércio Exterior e Serviços; Integração Nacional; Planejamento, Desenvolvimento e Gestão; Segurança Pública; e Trabalho. A maior parte dessas pastas foi acoplada a outras, como os ministérios da Fazenda, Planejamento e Indústria - unidos para criar o Ministério da Economia.",
+          "prova": "A lista dos dez ministérios extintos e a ressalva de que parte foi fundida."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta",
+          "titulo": "Veja perguntas e respostas sobre a MP da reforma administrativa de Bolsonaro (22/05/2019)",
+          "url": "https://www.agazeta.com.br/es/politica/veja-perguntas-e-respostas-sobre-a-mp-da-reforma-administrativa-de-bolsonaro-0519",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em um de seus primeiros atos de governo, o presidente Jair Bolsonaro (PSL) assinou uma MP (Medida Provisória) que reduziu de 29 para 22 o número de ministérios e distribuiu algumas funções de uma pasta para outra.",
+          "prova": "Confirmação independente da redução da Esplanada pela MP."
+        }
+      ]
+    },
+    {
+      "id": "A010",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PEC da Transição virou a Emenda 126, promulgada em 21 de dezembro de 2022, antes da posse de 1º de janeiro",
+      "explicacao": "A PEC da Transição foi promulgada pelo Congresso na noite de 21/12/2022 como Emenda Constitucional 126, segundo o texto oficial no Planalto e a Agência Brasil (via O Povo). A posse de Lula foi em 1º/01/2023, segundo a Agência Senado. A emenda veio antes da posse, como dito. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "promulgação em 21/12/2022; posse em 01/01/2023",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto, legislação)",
+          "titulo": "Emenda Constitucional nº 126, de 21 de dezembro de 2022",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "EMENDA CONSTITUCIONAL Nº 126, DE 21 DE DEZEMBRO DE 2022 Altera a Constituição Federal, para dispor sobre as emendas individuais ao projeto de lei orçamentária, e o Ato das Disposições Constitucionais Transitórias para excluir despesas dos limites previstos no art. 107; define regras para a transição da Presidência da República",
+          "prova": "Data de promulgação e o objeto de transição da emenda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (Agência Brasil)",
+          "titulo": "Congresso promulga PEC da Transição (22/12/2022)",
+          "url": "https://www.opovo.com.br/noticias/politica/2022/12/22/congresso-promulga-pec-da-transicao.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Proposta de Emenda à Constituição (PEC) da Transição foi promulgada na noite desta quarta-feira (21) pelo Congresso Nacional em sessão solene semipresencial realizada no plenário do Senado, cerca de 15 minutos após a aprovação da PEC no Senado. Com a promulgação, as mudanças propostas no texto passam a fazer parte da Constituição por meio da Emenda Constitucional 126/2022.",
+          "prova": "Confirma que a EC 126 é a PEC da Transição e a data."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Congresso empossa Lula e Alckmin na Presidência da República (01/01/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
+          "consultada_em": "2026-10-16",
+          "trecho": "01/01/2023, 17h41 [...] O Congresso Nacional deu posse neste domingo (1º) a Luiz Inácio Lula da Silva",
+          "prova": "Data da posse, posterior à promulgação."
+        }
+      ]
+    },
+    {
+      "id": "A011",
+      "veredito": "IMPRECISO",
+      "resumo": "O projeto previa R$ 105,7 bi para o Auxílio Brasil a R$ 405 em média, sem os R$ 600 então pagos",
+      "explicacao": "A frase diz que o orçamento não tinha deixado dinheiro para o Bolsa Família. O projeto de orçamento de 2023, enviado em 31/08/2022, reservava R$ 105,7 bilhões para o Auxílio Brasil (nome do programa à época), a um valor médio de R$ 405 para 21,6 milhões de famílias, segundo InfoMoney e O Povo. O benefício pago naquele momento era de R$ 600, e manter esse valor exigia mudar o teto de gastos, o que foi feito pela PEC da Transição (Aos Fatos). Havia dinheiro para o programa, mas não para o valor então pago. A essência (faltava verba para manter o benefício) confere; a forma absoluta ('não tinha deixado dinheiro') não. IMPRECISO. O PLOA em si não foi capturado; os valores do projeto vêm de duas reportagens independentes que o leram, com os mesmos números, e o registro oficial do Senado na promulgação da PEC da Transição confirma o ponto central: a emenda garantiu os R$ 600 e, nas palavras do presidente do Congresso, impediu a redução do valor pago já em janeiro.",
+      "numero_dito": null,
+      "numero_apurado": "R$ 105,7 bilhões, benefício médio de R$ 405",
+      "data_de_referencia": "PLOA 2023, enviado em 31/08/2022",
+      "ressalva": "Havia verba para o programa, mas não para manter o benefício de R$ 600",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Governo manda Orçamento com Auxílio Brasil de R$ 405 em 2023, apesar de Bolsonaro prometer R$ 600 (31/08/2022)",
+          "url": "https://www.infomoney.com.br/?p=1925851",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo federal enviou ao Congresso Nacional, nesta quarta-feira (31), o Projeto de Lei Orçamentária Anual (PLOA) de 2023, com a previsão de 21,6 milhões de famílias contempladas pelo Auxílio Brasil a um valor médio mensal de R$ 405,00. O montante é menor em R$ 195,00 em relação ao valor prometido pelo presidente Jair Bolsonaro (PL), candidato à reeleição, durante sua campanha. O valor total previsto para o programa social na peça orçamentária é de R$ 105,7 bilhões no ano que vem",
+          "prova": "A dotação e o valor médio previstos no projeto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Orçamento 2023 com Auxílio de R$ 405 e IR sem correção (01/09/2022)",
+          "url": "https://mais.opovo.com.br/jornal/economia/2022/09/01/orcamento-2023-com-auxilio-de-rs-405-e-ir-sem-correcao.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "No PLOA, o Auxílio Brasil veio previsto o pagamento no valor médio de R$ 405, suficiente para atender 21,6 milhões de famílias. [...] No projeto, o orçamento para o programa é de R$ 105,7 bilhões, um acréscimo de R$ 16,7 bilhões em relação a este ano.",
+          "prova": "Leitura independente do mesmo projeto, com os mesmos números."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "Bolsa Família, teto de gastos e novos ministérios: os desafios do Orçamento de Lula",
+          "url": "https://www.aosfatos.org/noticias/bolsa-familia-teto-de-gastos-orcamento-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Após a vitória na eleição presidencial, a equipe de Lula passou a negociar com o relator do Orçamento , o senador Marcelo Castro (MDB-PI), para manter o pagamento de parcelas de R$ 600 do Bolsa Família — novo nome do Auxílio Brasil — e o adicional de R$ 150 para famílias com crianças pequenas, prometidos na campanha , e aumentar o salário mínimo acima da inflação. Isso exigia a aprovação de mais crédito, além dos limites do teto de gastos.",
+          "prova": "Mostra que o que faltava era a verba para manter os R$ 600, e não a dotação do programa."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Presidência do Senado)",
+          "titulo": "Congresso Nacional promulga “PEC da Transição” que garante a manutenção de R$ 600 a famílias carentes (22/12/2022)",
+          "url": "https://www12.senado.leg.br/institucional/presidencia/noticia/rodrigo-pacheco/congresso-nacional-promulga-201cpec-da-transicao201d-que-garante-a-manutencao-de-r-600-a-familias-carentes",
+          "consultada_em": "2026-10-16",
+          "trecho": "As Mesas do Senado e da Câmara dos Deputados promulgaram, na noite desta quarta-feira (21), a Emenda Constitucional (EC) 126/2022 que garante, a partir do próximo ano, o pagamento do valor de R$ 600 do atual programa Auxílio Brasil, pelo novo governo federal, e mais um adicional de R$ 150 por criança de até 6 anos. [...] na célere aprovação da proposta que impediu a redução, já no próximo mês de janeiro, do valor pago às famílias beneficiárias do maior programa de assistência governamental do mundo [...] A emenda constitucional retira do teto de gastos R$ 145 bilhões do exercício financeiro de 2023, sendo R$ 70 bilhões para o Bolsa Família",
+          "prova": "Registro oficial: sem a emenda o valor pago cairia em janeiro de 2023; havia programa no orçamento, faltava verba para os R$ 600."
+        }
+      ]
+    },
+    {
+      "id": "A012",
+      "veredito": "IMPRECISO",
+      "resumo": "O projeto cortava verbas de saúde e educação, como 59% do Farmácia Popular, mas não as zerava",
+      "explicacao": "A frase diz que o orçamento não tinha deixado dinheiro para educação e saúde. O relator do Orçamento de 2023, senador Marcelo Castro, apontou no projeto enviado pelo governo anterior cortes de 60% em ações de saúde indígena e no Farmácia Popular e de 50% no Ministério da Educação, e disse que sem a PEC da Transição programas corriam risco de parar (Rádio Senado). O Aos Fatos registra corte de 59% no Farmácia Popular e de mais de 90% em construção de creches, e o relatório da transição estimou cortes de R$ 10,47 bilhões na saúde. As fontes confirmam a falta de verba em programas das duas áreas, mas descrevem cortes, e não ausência de recursos. A essência confere e a forma absoluta não: IMPRECISO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "PLOA 2023, enviado em agosto de 2022",
+      "ressalva": "Os cortes eram grandes em programas, mas as duas áreas tinham orçamento no projeto",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O corte no Farmácia Popular aparece como 60% na fala do relator (Rádio Senado) e 59% no Aos Fatos; é arredondamento.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Rádio Senado)",
+          "titulo": "Relator do Orçamento alerta que sem a PEC da Transição programas sociais ficarão sem dinheiro (30/11/2022)",
+          "url": "https://www12.senado.leg.br/radio/1/noticia/2022/11/30/relator-do-orcamento-alerta-que-sem-a-pec-da-transicao-programas-sociais-ficarao-sem-dinheiro",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relator, senador Marcelo Castro, do MDB do Piauí, voltou a declarar que não há recursos para programas básicos. Ele citou uma redução de 93,2% das verbas para habitação social; de 65,2% para saneamento básico; de 60% para ações do Ministério da Saúde junto aos povos indígenas e ao Farmácia Popular e de 50% para o Ministério da Educação, o que atinge a merenda escolar.",
+          "prova": "Os cortes no projeto, nas duas áreas, medidos pelo relator do Orçamento."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "Bolsa Família, teto de gastos e novos ministérios: os desafios do Orçamento de Lula",
+          "url": "https://www.aosfatos.org/noticias/bolsa-familia-teto-de-gastos-orcamento-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PLOA 2023 (Projeto de Lei Orçamentária Anual) original, enviado ao Congresso Nacional em agosto deste ano, apresentava problemas na distribuição de verbas, como o corte de 59% nos recursos do programa Farmácia Popular , a redução nos investimentos em saúde indígena e os cortes de dois terços das 79 verbas orçamentárias para ações para mulheres. Na área da educação, estavam previstos cortes de mais de 90% nos recursos para construção de creches",
+          "prova": "Os cortes por programa no projeto original."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Retrato do desmonte: veja a íntegra do relatório da transição",
+          "url": "https://congressoemfoco.com.br/area/governo/retrato-do-desmonte-veja-a-integra-do-relatorio-da-transicao",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"Os cortes no orçamento da saúde para 2023 são da casa de R$ 10,47 bilhões, o que inviabiliza programas e ações estratégicas do SUS [Sistema Único de Saúde], tais como: farmácia popular, saúde",
+          "prova": "A estimativa do relatório da transição para a saúde: corte, e não ausência de orçamento."
+        }
+      ]
+    },
+    {
+      "id": "A013",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2022, Lula teve Alckmin de vice e, no 2º turno, o apoio de Simone Tebet, do MDB",
+      "explicacao": "A frase diz que Lula venceu em 2022 com o apoio de forças mais ao centro. O vice da chapa foi Geraldo Alckmin (PSB), empossado com Lula. No 2º turno, Simone Tebet (MDB), terceira colocada no 1º turno com 4,16% dos votos válidos, declarou apoio a Lula com o aval do MDB, que liberou os diretórios. Alckmin estava na chapa desde o 1º turno; Tebet entrou só no 2º. As fontes confirmam os apoios; chamar essas forças de 'centro' é classificação política, não dado, e não é contestada por nenhuma fonte encontrada. VERDADEIRO, com confiança média pela parte de classificação.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "eleição de 2022, 1º e 2º turnos",
+      "ressalva": "Alckmin estava na chapa desde o 1º turno; Tebet apoiou só no 2º turno",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Simone Tebet oficializa apoio a Lula no 2º turno (05/10/2022)",
+          "url": "https://www.infomoney.com.br/politica/simone-tebet-depositarei-em-lula-o-meu-voto-porque-reconheco-seu-compromisso-com-a-democracia-e-com-a-constituicao-o-que-desconheco-no-atual-presidente",
+          "consultada_em": "2026-10-16",
+          "trecho": "A senadora Simone Tebet (MDB) anunciou nesta quarta-feira (5) seu apoio ao ex-presidente Luiz Inácio Lula da Silva (PT) na disputa de segundo turno das Eleições 2022 contra o atual chefe do Executivo, Jair Bolsonaro (PL). [...] A senadora encerrou o primeiro turno em terceiro lugar na corrida pelo Planalto , com 4,9 milhões de votos válidos, ou 4,16% do total.",
+          "prova": "O apoio do MDB de Tebet a Lula no 2º turno de 2022."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bloomberg Línea",
+          "titulo": "Simone Tebet, do MDB, declara apoio a Lula no 2º turno (05/10/2022)",
+          "url": "https://www.bloomberglinea.com.br/2022/10/05/simone-tebet-do-mdb-declara-apoio-a-lula-no-2-turno/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O apoio tem o aval do MDB, que liberou nesta manhã os diretórios estaduais para escolher quem apoiar.",
+          "prova": "O partido liberou o apoio, e não foi neutro em bloco."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Simone Tebet anuncia apoio a Lula no segundo turno das eleições (05/10/2022)",
+          "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/05/amp/simone-tebet-anuncia-apoio-a-lula-no-segundo-turno-das-eleicoes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Mais cedo, Tebet se encontrou com o vice na chapa do petista, Geraldo Alckmin (PSB), além de ter almoçado com Lula na casa da ex-senadora Marta Suplicy (sem partido).",
+          "prova": "Alckmin como vice na chapa de Lula em 2022."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Congresso empossa Lula e Alckmin na Presidência da República (01/01/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na mesma solenidade, realizada no Plenário da Câmara dos Deputados, tomou posse o vice-presidente Geraldo Alckmin.",
+          "prova": "Registro oficial de Alckmin como vice eleito com Lula."
+        }
+      ]
+    }
+  ]
+}

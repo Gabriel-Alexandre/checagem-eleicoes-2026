@@ -1,0 +1,167 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A027": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: a pergunta é leitura de sinais públicos (tarifas e sanções depois da condenação de Jair Bolsonaro, Flávio recebido na Casa Branca, 'grande vitória' depois do 1º turno), e esses sinais existem; o argumento oposto é que nada contradiz, então seria FALSO por ausência. Nenhum dos dois derruba: as fontes registram aceno sem apoio declarado de Trump e um governo americano que 'evita anunciar apoio oficial' (BP Money, 05/10), e 'preferência clara' tem parte de leitura, então não é FALSO. Frase e contexto conferidos na transcrição (369,8 s a 377,6 s, junto com 'duas rodadas de tarifaço'). Os três trechos estão nas capturas p03. Defeito achado: o resumo punha como contraprova a frase de uma fonte anônima da Folha de Pernambuco (Estadão), publicada em 03/06/2026, quatro meses antes da fala, e cortava a parte da mesma fonte que vai na direção da jornalista (entorno de Trump vê Flávio como 'aliado natural'). Resumo reescrito para o fato que as fontes sustentam, trechos ampliados para dar lastro às tarifas e sanções e aos dois lados da fonte anônima, data posta no título. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A028": {
+    "decisao": "mantido",
+    "nota": "Provisório, revisado igual. Contexto conferido: Lula diz que nem em 2006 pediu que ministros fizessem campanha e emenda 'eu chamei os ministros [...] para me dar governabilidade'; a afirmação extraída bate (a transcrição registra 'pedo', a cobertura do Terra registra 'pediu'). É fato sobre conduta passada, checável contra a cobertura de 2006, então não é NAO_CHECAVEL. Os dois trechos estão nas capturas (Planalto em p03, Terra em p05) e só situam a fala e a reeleição; nenhuma página capturada trata de ministros em campanha em 2006. Melhor argumento contra: ministros de Lula fizeram campanha em 2006, o que puxaria para FALSO; cai porque nada disso foi capturado e, mesmo que tenha ocorrido, não prova que foi a pedido dele. INSUSTENTAVEL provisório está bem posto, o resumo diz 'não foi achado' e não afirma ausência. Sem travessão nem intenção.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A029": {
+    "decisao": "alterado",
+    "nota": "Provisório. Melhor argumento contra: a reunião de 14/out com senadores do MDB seria a prova de que Lula procurou partido, o que levaria a FALSO. Cai: a reportagem (Poder360, captura p03) diz que o encontro foi durante a votação da PEC do fim da escala 6 X 1 e não diz o que foi tratado nem se houve pedido de apoio, e as duas fontes são do mesmo veículo. Defeitos achados: a explicação dizia que os senadores eram 'os mesmos que declararam apoio a ele no 2º turno', o que a página não diz; o resumo omitia a votação da PEC, contexto que muda a leitura em cinco segundos; e 'não há registro' afirmava ausência que a busca interrompida não provou. Resumo e explicação reescritos, trecho ampliado com a frase do Alvorada e da PEC (conferido na captura). INSUSTENTAVEL provisório bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A030": {
+    "decisao": "mantido",
+    "nota": "Conferidos os quatro trechos (Planalto, Miller Center, Britannica, AFP) nas capturas p03. Lula nasceu em 27/10/1945 e tinha 80 anos em 15/10/2026; Trump nasceu em 14/06/1946 e tinha 80. Melhor argumento contra: na frase Lula conta o que disse a Trump numa conversa de 2025, quando os dois tinham 79 anos, e o o_que_conferir pedia a idade na data da conversa também. Cai: a afirmação extraída é 'têm cerca de 80 anos', e 79 contra 80 é desvio de pouco mais de 1%, sem efeito na régua do §2.2; na data da fala, os dois tinham 80 exatos. Card lido sozinho dá a impressão certa. Sem travessão.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A031": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'maior democracia' é juízo e Ocidente não tem definição, o que puxaria para NAO_CHECAVEL. Cai: ranking por população entre países classificados como livres é conferível, e a explicação declara a definição usada. Trechos do Banco Mundial (2024) e da Freedom House (2026) conferidos nas capturas p03. Defeito de raciocínio: a ressalva dizia que o México, terceiro mais populoso, é parcialmente livre, como se o veredito dependesse disso; o México tem 131 milhões e fica atrás do Brasil (212 milhões) livre ou não, então o que sustenta o card é só que Brasil e EUA são livres e que nenhum outro país do recorte passa do Brasil. Ressalva reescrita para as duas condições que de fato importam (definição de Ocidente e de democracia), explicação corrigida. Veredito VERDADEIRO e confiança média mantidos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A032": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a frase seguinte ('a última foi [...] por telefone') mostra que Lula conta o telefonema entre as três, e então os contatos passam de três (Nova York, Kuala Lumpur, Casa Branca e telefonemas), o que poderia levar a IMPRECISO. Cai: em qualquer das leituras a contagem fica em três ou perto disso (três encontros presenciais, ou Kuala Lumpur, Casa Branca e o telefonema se o encontro rápido na ONU não contar como reunião), e a explicação e a ressalva declaram o critério. Trechos conferidos nas capturas p03 (Poder360 duas vezes, Folha de Pernambuco/Reuters, NSC Total). A citação da 'videoconferência' na explicação não tem trecho próprio, mas não vai para a tela nem muda o veredito. Resumo e ressalva com lastro, sem travessão.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A033": {
+    "decisao": "mantido",
+    "nota": "Conferidos na captura p03 os quatro trechos: Secom via Estadão (1 hora e 20 minutos, reclamação sobre o Conselho de Segurança), Diario de Pernambuco ('o telefonema que fez'), nota conjunta MRE/MDIC de 30/09 (telefonema de 21/08 como início do diálogo) e SBT News. Melhor argumento contra: Lula diz que ligou 'para reclamar' do Conselho de Segurança, e o tema principal registrado foi o tarifaço, o que seria IMPRECISO no propósito. Cai: o Conselho de Segurança esteve na conversa, quem ligou foi Lula, e 80 minutos cabem em 'quase uma hora e meia'; o propósito é ornamento, e a ressalva diz qual foi o tema principal. Não foi achado contato posterior a 21/08 nas capturas. VERDADEIRO com confiança média bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A034": {
+    "decisao": "mantido",
+    "nota": "Provisório. Conferidos na captura p03 a nota conjunta MRE/MDIC de 30/09 (Milwaukee, com Greer), a nota do defeso eleitoral (notas só por e-mail) e o Poder360 de 15/10 ('seguem em negociação'). A revisão também leu a nota de retomada do diálogo (d569e18378d3), que é de 31/08, e a da balança da 2ª semana de outubro: nenhuma registra negociação entre 12 e 15/10. Melhor argumento contra: duas semanas sem nota seriam contradição e levariam a FALSO. Cai pela própria nota do defeso: falta de nota no portal não prova que não houve reunião. INSUSTENTAVEL provisório bem posto; o resumo diz 'nada achado', sem afirmar ausência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A035": {
+    "decisao": "alterado",
+    "nota": "Números recontados das capturas do Comex Stat (p03): exportação −6,5%, corrente −6,8% de janeiro a setembro; Poder360 e Mercado & Consumo confirmam −6,5%. Melhor argumento contra o IMPRECISO: Lula disse 'relação comercial' sem período, e outro recorte poderia dar 9%. A revisão capturou outubro a dezembro na mesma base (captura -rev, 80fc9bb8be26 e bc559f37e260) e mediu os 12 meses até setembro: exportação −11,4%, corrente −7,2%. Nenhum dos quatro recortes fica a menos de 10% dos 9% (desvios de 38%, 32%, 21% e 25%), então o veredito fica. Defeitos: a explicação dizia que os 38% eram contra 'a medida mais desfavorável', mas são contra a menor queda (6,5%); e o recorte de 12 meses era afirmado sem captura (§3.1, regra 6). Corrigido, com as derivações declaradas. Ressalva do setembro isolado (31,9%) conferida no Poder360.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A036": {
+    "decisao": "alterado",
+    "nota": "Recontado: exportações à China +12,0% e corrente +11,1% de janeiro a setembro (Comex Stat p03; Poder360 confirma 12,0%). Melhor argumento contra: outro recorte poderia dar 20%. A mesma conta feita em A035 foi feita aqui com a captura da revisão: em 12 meses até setembro, +16,6% nas exportações e +12,8% na corrente. 20 contra 16,6 é desvio de 20%, fora da margem; IMPRECISO mantido. A explicação passa a trazer os 12 meses, com derivações e fontes, para a régua ser igual dentro da mesma resposta. Resumo sem alteração.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A037": {
+    "decisao": "alterado",
+    "nota": "Provisório. Recontado no Comex Stat: +2,2% nas exportações e +2,4% na corrente de janeiro a setembro; nos 12 meses até setembro (captura da revisão), +0,8% e +2,0%. Nenhum recorte chega perto de 15%, então, com a segunda fonte, o veredito tende a IMPRECISO. Melhor argumento contra o provisório: a base oficial já basta e o card poderia sair IMPRECISO agora. Cai: a §2.1 e a §3.1 pedem duas fontes independentes, a captura nova é da mesma base, e o Poder360 só registra a fala; não havia divulgação por país nem estatística do parceiro capturada (o Comtrade não tem setembro de 2026). INSUSTENTAVEL provisório bem posto. Resumo reescrito: 'Comex Stat' é nome de sistema (escrita-de-card §3), e 'longe do dito' deixa a leitura certa em cinco segundos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A038": {
+    "decisao": "alterado",
+    "nota": "Provisório. Recontado no Comex Stat: +15,8% nas exportações e +7,5% na corrente de janeiro a setembro; nos 12 meses até setembro, +15,9% e +8,5%. A exportação bate com os 16% nos dois recortes, então, com a segunda fonte, tende a VERDADEIRO com ressalva de que a corrente cresceu menos (é a mesma leitura pela medida que confere aplicada a EUA, China e Indonésia, onde nenhuma medida confere). Melhor argumento contra o provisório: o card laranja com um dado oficial que confirma a fala engana. Pela régua, sem segunda fonte independente o veredito não fecha; o defeito estava no resumo, que não dizia que o dado oficial bate. Resumo reescrito ('perto do dito', nome do ministério no lugar de 'Comex Stat'), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A039": {
+    "decisao": "alterado",
+    "nota": "Provisório. Recontado no Comex Stat: +14,1% nas exportações e +19,4% na corrente de janeiro a setembro; 13 contra 14,1 é desvio de 8%, dentro da margem. Nos 12 meses até setembro (captura da revisão), +5,5% nas exportações e +11,9% na corrente: aí quem fica perto dos 13% é a corrente, e a explicação registra isso. Com a segunda fonte, tende a VERDADEIRO pelo acumulado do ano, que é o recorte usado nos cinco países. Melhor argumento contra o provisório: igual ao de A038, e cai pelo mesmo motivo (falta fonte independente da base do MDIC). Resumo reescrito ('perto do dito', nome do ministério), explicação com os 12 meses e derivações. INSUSTENTAVEL provisório bem posto.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  }
+}

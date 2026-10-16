@@ -1,0 +1,524 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A183",
+      "veredito": "IMPRECISO",
+      "resumo": "O programa funcionava em 2022, mas estava sem credenciar farmácia nova e o orçamento de 2023 previa corte de 59%",
+      "explicacao": "A frase diz que era preciso fazer o Farmácia Popular 'voltar a funcionar'. As fontes mostram que o programa não tinha parado: em 2022 tinha orçamento de R$ 2,5 bilhões e entregava de graça os remédios de asma, diabetes e hipertensão. O que as fontes registram é enfraquecimento e risco: nenhuma farmácia nova credenciada por cerca de oito anos até 2023, renovação anual do credenciamento interrompida em 2018 e, na proposta de orçamento de 2023 enviada em agosto de 2022, corte de 59% nos recursos do programa (Aos Fatos); em novembro de 2022 o relator do orçamento no Congresso alertou que, sem a PEC da Transição, o Farmácia Popular corria o risco de parar por falta de dinheiro (Rádio Senado). A essência (programa enfraquecido e sob risco) confere; a ideia de que ele tinha deixado de funcionar não confere. Por isso IMPRECISO, e não VERDADEIRO nem FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "2022 (situação do programa e proposta de orçamento de 2023, de agosto de 2022)",
+      "ressalva": "O corte de 59% estava na proposta de orçamento de 2023, não no gasto de 2022",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde (nota republicada pelo Conselho Federal de Farmácia)",
+          "titulo": "Saúde abre credenciamento do Farmácia Popular a todos os municípios do país (13/02/2025)",
+          "url": "https://site.cff.org.br/noticia/Noticias-gerais/13/02/2025/saude-abre-credenciamento-do-farmacia-popular-a-todos-os-municipios-do-pais",
+          "consultada_em": "2026-10-16",
+          "trecho": "O credenciamento de novas unidades foi retomado em 2023, após oito anos sem nenhuma nova farmácia credenciada. [...] Até 2022, somente eram ofertados de graça para a população medicamentos para asma, diabetes e hipertensão. [...] Em 2024, o orçamento destinado ao programa alcançou R$ 3,6 bilhões, superando os R$ 3,1 bilhões de 2023 e os R$ 2,5 bilhões de 2022.",
+          "prova": "Mostra que em 2022 o programa existia, com orçamento e remédios gratuitos, e que o que estava parado era o credenciamento de farmácias novas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Gov (republicada pelo portal Movimento Econômico)",
+          "titulo": "Governo abre credenciamento para adesão ao programa Farmácia Popular (14/01/2025)",
+          "url": "https://movimentoeconomico.com.br/economia/negocios/2025/01/14/governo-abre-credenciamento-para-adesao-ao-programa-farmacia-popular/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Há quase uma década não havia abertura de credenciamento para adesão de novos estabelecimentos no País. Para alcançar esse importante resultado, o Ministério da Saúde ampliou o investimento no programa. Em 2024, o orçamento chegou a R$ 3,6 bilhões, superior até mesmo ao registrado em 2023: R$ 3,10 bilhões. Em 2022, o investimento não chegou a R$ 2,5 bilhões.",
+          "prova": "Outro comunicado oficial, com outro texto, que repete a interrupção do credenciamento e o orçamento de 2022."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério da Saúde (nota republicada pelo Conselho Federal de Farmácia)",
+          "titulo": "Farmácia Popular vai recadastrar todos os estabelecimentos participantes até o fim de maio (15/05/2025)",
+          "url": "https://site.cff.org.br/noticia/Noticias-gerais/15/05/2025/farmacia-popular-vai-recadastrar-todos-os-estabelecimentos-participantes-ate-o-fim-de-maio",
+          "consultada_em": "2026-10-16",
+          "trecho": "o Farmácia Popular voltou a realizar a renovação anual obrigatória do credenciamento dos estabelecimentos. A medida, que havia sido interrompida em 2018, faz parte de um processo de reconstrução e fortalecimento do programa conduzido pelo Ministério da Saúde.",
+          "prova": "Registra o enfraquecimento da gestão do programa (renovação interrompida em 2018), sem dizer que ele deixou de operar."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "Bolsa Família, teto de gastos e novos ministérios: os desafios do Orçamento de Lula (28/12/2022)",
+          "url": "https://www.aosfatos.org/noticias/bolsa-familia-teto-de-gastos-orcamento-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PLOA 2023 (Projeto de Lei Orçamentária Anual) original, enviado ao Congresso Nacional em agosto deste ano, apresentava problemas na distribuição de verbas, como o corte de 59% nos recursos do programa Farmácia Popular",
+          "prova": "Fonte independente do Ministério da Saúde: o orçamento proposto para 2023 cortava 59% do programa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Senado",
+          "titulo": "Relator do Orçamento alerta que sem a PEC da Transição programas sociais ficarão sem dinheiro (30/11/2022)",
+          "url": "https://www12.senado.leg.br/radio/1/noticia/2022/11/30/relator-do-orcamento-alerta-que-sem-a-pec-da-transicao-programas-sociais-ficarao-sem-dinheiro",
+          "consultada_em": "2026-10-16",
+          "trecho": "O relator, senador Marcelo Castro (MDB-PI), alertou que sem a aprovação da PEC da Transição, programas importantes, como o Farmácia Popular, correm o risco de parar por falta de dinheiro.",
+          "prova": "Outra fonte independente: no fim de 2022 o programa funcionava, mas corria risco de parar."
+        }
+      ]
+    },
+    {
+      "id": "A184",
+      "veredito": "VERDADEIRO",
+      "resumo": "O TCU diz que o programa ajudou a aumentar as cirurgias, mas boa parte da alta é recuperação pós-pandemia",
+      "explicacao": "O programa citado na pergunta é o Mais Acesso a Especialistas, lançado em 2024 e incorporado em 2025 ao Agora Tem Especialistas, segundo o próprio TCU. A auditoria do TCU (Acórdão 1622/2026) concluiu que, no componente cirúrgico, o financiamento federal ajudou a aumentar o número de cirurgias, e a tabela do relatório mostra a produção do rol do programa subindo de 4.514.848 em 2023 para 5.677.639 em 2025. A reportagem da Folha (republicada pelo Jornal de Brasília) resume a mesma auditoria: o programa ampliou a oferta de atendimentos. O essencial da frase (ampliou o atendimento) confere, por isso VERDADEIRO. A ressalva é do próprio TCU: parte do crescimento é recuperação pós-pandemia, e o componente de consultas e exames executou só uma pequena parte do planejado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "2023 a 2025 (período da auditoria do TCU)",
+      "ressalva": "No componente de consultas e exames, só 6,9% do planejado foi feito em 2025, segundo o TCU",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (Secom)",
+          "titulo": "TCU avalia Programa Agora Tem Especialistas, do Ministério da Saúde (24/06/2026)",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/tcu-avalia-programa-agora-tem-especialistas-do-ministerio-da-saude",
+          "consultada_em": "2026-10-16",
+          "trecho": "A primeira constatação foi que, no componente cirúrgico , o financiamento federal ajudou a aumentar o número de cirurgias realizadas, mas boa parte desse crescimento reflete a recuperação do SUS após a pandemia, e não necessariamente o impacto direto do Pate. [...] Apenas 6,9% do que foi planejado pelos estados e municípios foi realizado em 2025",
+          "prova": "A conclusão da auditoria sobre a ampliação, com as duas ressalvas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (Secom)",
+          "titulo": "Programa de redução de filas na saúde pública passa por fiscalização do TCU (10/02/2026)",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/programa-de-reducao-de-filas-na-saude-publica-passa-por-fiscalizacao-do-tcu",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 2024, o governo federal lançou o Programa Mais Acesso a Especialistas (Pmae), com foco no atendimento ambulatorial. Incorporando o Pmae, em 2025 o Pate passou a atuar com cinco objetivos principais:",
+          "prova": "Identifica o programa da pergunta e mostra que ele foi incorporado ao Agora Tem Especialistas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília (Folhapress)",
+          "titulo": "Programa de Lula amplia atendimentos, mas 1/4 dos pacientes enfrenta espera maior, diz TCU",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/programa-de-lula-amplia-atendimentos-mas-1-4-dos-pacientes-enfrenta-espera-maior-diz-tcu/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O programa Agora Tem Especialistas, principal aposta do governo Lula para reduzir as filas de consultas, exames e cirurgias no SUS (Sistema Único de Saúde), ampliou a oferta de atendimentos, mas ainda não conseguiu demonstrar que reduziu de forma consistente o tempo de espera dos pacientes",
+          "prova": "Leitura independente da mesma auditoria: houve ampliação da oferta."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (relatório e voto do Acórdão 1622/2026, TC 015.703/2025-8)",
+          "titulo": "Relatório de auditoria operacional do Programa Agora Tem Especialistas, Tabela 4",
+          "url": "https://portal.tcu.gov.br/uploads/noticias/pdf/2026/06/24/documentos_-_2026-06-24T123648.987.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "2023 4.514.848 7.814.026 135 119 16,3 2024 5.432.942 8.571.300 162,6 130,3 32,3 2025 5.677.639 8.902.534 170 135 34,6",
+          "prova": "A produção cirúrgica do rol do programa por ano, de 2023 a 2025, na base usada pelo TCU."
+        }
+      ]
+    },
+    {
+      "id": "A185",
+      "veredito": "VERDADEIRO",
+      "resumo": "O acórdão do TCU de junho de 2026 aponta baixa efetividade do programa na redução do tempo de espera",
+      "explicacao": "A auditoria existe: Acórdão 1622/2026 do Plenário do TCU, processo TC 015.703/2025-8, julgado em 24/06/2026. A ementa do relatório traz literalmente 'baixa efetividade na redução do tempo de espera', e o texto conclui que a mediana de espera caiu na maioria das cirurgias de maior volume, mas um quarto dos usuários enfrenta esperas cada vez mais longas, e que o Ministério não tem base nacional para medir o percurso do paciente na fila. A atribuição da jornalista ao TCU confere com o documento, por isso VERDADEIRO. A nuance vai na ressalva: o TCU não diz que nada melhorou.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Acórdão 1622/2026, sessão de 24/06/2026",
+      "ressalva": "O TCU viu a espera mediana cair na maioria das cirurgias de maior volume; a piora atinge um quarto dos pacientes",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (relatório e voto do Acórdão 1622/2026, TC 015.703/2025-8)",
+          "titulo": "Relatório de auditoria operacional do Programa Agora Tem Especialistas",
+          "url": "https://portal.tcu.gov.br/uploads/noticias/pdf/2026/06/24/documentos_-_2026-06-24T123648.987.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "SUMÁRIO: RELATÓRIO DE AUDITORIA OPERACIONAL. PROGRAMA AGORA TEM ESPECIALISTAS (PATE). AVALIAÇÃO DOS COMPONENTES CIRÚRGICO E AMBULATORIAL. BAIXA EFETIVIDADE NA REDUÇÃO DO TEMPO DE ESPERA. [...] A mediana dos tempos de espera está reduzindo para a maioria dos procedimentos cirúrgicos eletivos do rol do Pate registrados na RNDS, porém um quarto dos usuários enfrenta esperas cada vez mais longas",
+          "prova": "O texto do próprio TCU sobre o tempo de espera, que é o ponto da pergunta."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (Secom)",
+          "titulo": "TCU avalia Programa Agora Tem Especialistas, do Ministério da Saúde (24/06/2026)",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/tcu-avalia-programa-agora-tem-especialistas-do-ministerio-da-saude",
+          "consultada_em": "2026-10-16",
+          "trecho": "Leia a íntegra da decisão: Acórdão 1622/2026 - TCU - Plenário Processo: TC 015.703/2025-8 Sessão extraordinária: 24/06/2026",
+          "prova": "Número, processo e data da decisão citada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília (Folhapress)",
+          "titulo": "Programa de Lula amplia atendimentos, mas 1/4 dos pacientes enfrenta espera maior, diz TCU",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/programa-de-lula-amplia-atendimentos-mas-1-4-dos-pacientes-enfrenta-espera-maior-diz-tcu/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o TCU, o Ministério da Saúde ainda não dispõe de uma base nacional capaz de acompanhar o percurso do paciente desde a entrada na fila até a realização do procedimento, dificultando medir o tamanho real da demanda e avaliar o impacto da política pública.",
+          "prova": "Leitura independente da auditoria: o tempo de espera não está resolvido nem medido nacionalmente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ritmo de cirurgias do Agora Tem Especialistas caiu em 2025, aponta TCU",
+          "url": "https://futurodasaude.com.br/?p=47964",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o Tribunal, a mediana dos tempos de espera está reduzindo para a maioria dos procedimentos cirúrgicos eletivos do rol do programa, porém, um quarto dos usuários enfrenta esperas cada vez mais longas.",
+          "prova": "Outra leitura independente, com a mesma conclusão e a mesma nuance."
+        }
+      ]
+    },
+    {
+      "id": "A186",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lei de 2025 deixa hospitais privados trocarem atendimento ao SUS por créditos para pagar tributos federais",
+      "explicacao": "O mecanismo existe: a Lei 15.233/2025 (conversão da MP 1.301/2025) criou o Agora Tem Especialistas por adesão de hospitais privados, com ou sem fins lucrativos, que recebem créditos financeiros pelos atendimentos e os usam para compensar tributos federais, inscritos ou não em dívida ativa, a partir de 2026, com teto anual de R$ 2 bilhões. O Ministério da Saúde informou que 96 hospitais privados e filantrópicos se cadastraram no primeiro mês do edital. A frase fala em 'convênio' (o instrumento é adesão por credenciamento, não convênio) e diz que os hospitais 'estão pagando' a dívida: o desenho confere, mas não foi capturado balanço de atendimentos efetivamente prestados ou créditos já usados até a data da fala. Por isso VERDADEIRO, com confiança média e ressalva.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 15.233 de 7/10/2025, em vigor na data da fala",
+      "ressalva": "Adesão é voluntária e não foi achado balanço de atendimentos já prestados até a data da fala",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.233, de 7 de outubro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15233.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Fica instituído o Programa Agora Tem Especialistas, a ser implementado por meio de adesão por estabelecimentos hospitalares privados, com ou sem fins lucrativos, com os seguintes objetivos: [...] O estabelecimento hospitalar, com ou sem fins lucrativos, que tiver o requerimento de adesão ao Programa Agora Tem Especialistas deferido poderá usufruir de créditos financeiros relativos ao total dos valores de atribuição dos atendimentos médico-hospitalares. [...] Os créditos financeiros de que trata esta Lei, apurados mensalmente, serão utilizados na compensação de tributos federais, inscritos ou não em dívida ativa da União. [...] § 1º A partir do exercício de 2026, para fruição dos créditos financeiros de que trata esta Lei, o estabelecimento hospitalar deverá: [...] § 2º Os créditos financeiros de que trata esta Lei serão limitados anualmente ao valor de R$ 2.000.000.000,00 (dois bilhões de reais).",
+          "prova": "A norma em vigor que troca atendimento ao SUS por crédito contra dívida tributária."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ao menos 96 hospitais privados aderem a troca de dívidas por serviços ao SUS em julho",
+          "url": "https://futurodasaude.com.br/?p=38454",
+          "consultada_em": "2026-10-16",
+          "trecho": "96 hospitais privados e filantrópicos se cadastraram para participar do programa Agora Tem Especialistas, no edital de credenciamento aberto no início de julho. A informação foi divulgada pelo Ministério da Saúde",
+          "prova": "Mostra que houve adesão efetiva de hospitais privados."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (conteúdo Estadão)",
+          "titulo": "Hospitais privados poderão trocar até 50% das dívidas ao atender pelo SUS",
+          "url": "https://diariodocomercio.com.br/negocios/hospitais-privados-poderao-trocar-dividas-atender-sus/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Hospitais privados e filantrópicos que queiram aderir ao programa “Agora tem Especialistas” e trocar dívidas por atendimento a pacientes do Sistema Único de Saúde (SUS) poderão abater até 50% dos débitos com a União",
+          "prova": "Leitura independente do mecanismo de troca de dívida por atendimento."
+        }
+      ]
+    },
+    {
+      "id": "A187",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A adesão das Santas Casas ao programa é voluntária, e não foi achado convênio com todas elas",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase diz que o governo está fazendo convênio com todas as Santas Casas. O instrumento encontrado é o Agora Tem Especialistas, em que hospitais filantrópicos (caso das Santas Casas) e privados aderem por vontade própria; o Ministério da Saúde descreve a adesão como voluntária, e o ministro da Saúde disse que o foco não é atingir todas as instituições. No primeiro mês, 96 hospitais privados e filantrópicos se cadastraram, num universo de 1.824 hospitais e entidades filantrópicas contados pela CMB. Não foi capturado documento de acordo com o conjunto das Santas Casas ou com a CMB. As fontes não sustentam o 'todas', mas também não provam que não exista uma negociação em curso; por isso INSUSTENTAVEL, e não FALSO. Limite declarado: a busca por um eventual acordo com a CMB não pôde ser aprofundada nesta rodada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "edital de julho de 2025 e situação até a data da fala",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Intramed (nota do Ministério da Saúde)",
+          "titulo": "Hospitais privados e filantrópicos poderão reforçar atendimento no SUS em troca de compensação por crédito financeiro",
+          "url": "https://www.intramed.net/content/hospitais-privados-e-filantropicos-poderao-reforcar-atendimento-no-sus-em-troca-de-compensacao-por-credito-financeiro",
+          "consultada_em": "2026-10-16",
+          "trecho": "A adesão ao programa Agora Tem Especialistas é voluntária.",
+          "prova": "O instrumento disponível depende de adesão de cada hospital, não de convênio geral."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (conteúdo Estadão)",
+          "titulo": "Hospitais privados poderão trocar até 50% das dívidas ao atender pelo SUS",
+          "url": "https://diariodocomercio.com.br/negocios/hospitais-privados-poderao-trocar-dividas-atender-sus/",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Nosso foco não é o número de instituições que participam, é o número de cirurgias, consultas especializadas e exames ofertados”, declarou Padilha. “Nosso foco não é atingir todas as instituições, até porque algumas não têm nem capacidade operacional de oferecer cirurgias, exames, aquilo que a gente precisa.”",
+          "prova": "O próprio ministro descarta atingir todas as instituições."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ao menos 96 hospitais privados aderem a troca de dívidas por serviços ao SUS em julho",
+          "url": "https://futurodasaude.com.br/?p=38454",
+          "consultada_em": "2026-10-16",
+          "trecho": "No Brasil, há, pelo menos, 3.770 hospitais privados e 1.824 hospitais e entidades filantrópicas, segundo dados da Associação Nacional de Hospitais Privados (Anahp) e da Confederação das Santas Casas e Hospitais Filantrópicos (CMB). Desse modo, apenas 1,72% das instituições hospitalares do país demonstraram interesse em participar no primeiro mês de abertura do edital.",
+          "prova": "A adesão inicial foi pequena diante do universo de filantrópicos."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.233, de 7 de outubro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15233.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Fica instituído o Programa Agora Tem Especialistas, a ser implementado por meio de adesão por estabelecimentos hospitalares privados, com ou sem fins lucrativos",
+          "prova": "A lei prevê adesão individual de estabelecimentos, não convênio com um conjunto de entidades."
+        }
+      ]
+    },
+    {
+      "id": "A188",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Ministério da Saúde registra 14,9 milhões de cirurgias eletivas no SUS em 2025; a fala arredonda para 15",
+      "explicacao": "O balanço do Ministério da Saúde divulgado em setembro de 2026 registra 14,9 milhões de cirurgias eletivas em 2025 (a primeira divulgação, em fevereiro, falava em 14,7 milhões). A base usada pelo TCU no Acórdão 1622/2026, extraída em 27/2/2026, soma 5.677.639 cirurgias do rol do programa e 8.902.534 fora do rol em 2025, 14,58 milhões no total; o TCU avisa que parte das de fora do rol é de caráter agudo, então essa soma não é só de eletivas. Contra 14,9 milhões, os 15 milhões ditos ficam 0,7% acima; contra 14,58 milhões, 2,9% acima. Pela régua da METODOLOGIA §2.2, arredondamento que não muda a ordem de grandeza é VERDADEIRO com ressalva. Limite declarado: a página do Ministério da Saúde com o balanço não foi capturada; o número oficial vem pelas reportagens e o lastro N1 é a base do TCU.",
+      "numero_dito": "15 milhões de cirurgias eletivas",
+      "numero_apurado": "14,9 milhões (balanço do Ministério da Saúde); 14,58 milhões de cirurgias na base do TCU",
+      "data_de_referencia": "ano de 2025",
+      "ressalva": "Em fevereiro o governo divulgou 14,7 milhões; a base do TCU soma 14,58 milhões, com definição mais ampla",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Ministério da Saúde: 14,7 milhões (fevereiro) e depois 14,9 milhões; TCU: 14,58 milhões somando cirurgias do rol e de fora do rol do programa, com parte de caráter agudo.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "14,58 milhões",
+          "de": "5.677.639 mais 8.902.534",
+          "como": "soma das cirurgias do rol e de fora do rol em 2025 na Tabela 4 do TCU (14.580.173), arredondada para milhões"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (relatório e voto do Acórdão 1622/2026, TC 015.703/2025-8)",
+          "titulo": "Relatório de auditoria operacional do Programa Agora Tem Especialistas, Tabela 4",
+          "url": "https://portal.tcu.gov.br/uploads/noticias/pdf/2026/06/24/documentos_-_2026-06-24T123648.987.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Tabela 4 - Produção cirúrgica de procedimentos do rol do Pate e de fora do rol, com índices base 2019, de 2019 a 2025 [...] 2025 5.677.639 8.902.534 170 135 34,6 [...] As cirurgias fora do rol são predominantemente de média complexidade (85,1%), muitas delas de caráter agudo",
+          "prova": "A produção cirúrgica de 2025 na base oficial usada pelo TCU, e o aviso de que parte dela não é eletiva."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Brasil",
+          "titulo": "SUS realiza 7,5 milhões de cirurgias eletivas no 1º semestre",
+          "url": "https://www.jb.com.br/bem-viver/saude/2026/09/amp/1060922-sus-realiza-75-milhoes-de-cirurgias-eletivas-no-1-semestre.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Ministério da Saúde projeta que o SUS ultrapasse 15 milhões de cirurgias eletivas em 2026, superando os 14,9 milhões registrados em 2025.",
+          "prova": "O número de 2025 no balanço mais recente do Ministério antes da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Ritmo de cirurgias do Agora Tem Especialistas caiu em 2025, aponta TCU",
+          "url": "https://futurodasaude.com.br/?p=47964",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dados do Ministério da Saúde apontam que as cirurgias eletivas saltaram de 10,8 milhões em 2022 para 14,7 milhões em 2025, um aumento de cerca de 40%, como impacto do programa.",
+          "prova": "A primeira divulgação do número de 2025, que diverge pouco da posterior."
+        }
+      ]
+    },
+    {
+      "id": "A189",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não há medida nacional da espera; o TCU acha medianas de 695 a 725 dias só em cirurgias raras e complexas",
+      "explicacao": "A frase descreve a espera no SUS como de dois a três anos. O dado mais completo encontrado é o da auditoria do TCU (Acórdão 1622/2026), que mediu a espera entre a solicitação e a cirurgia na RNDS de 2023 a 2025: nos 29 procedimentos de maior volume nenhuma mediana passa de 180 dias, e esperas na casa de dois anos (medianas de 695 a 725 dias em 2025) aparecem em procedimentos de alta complexidade e baixo volume, como neurocirurgia vascular e câncer de tireoide. O próprio TCU avisa que a RNDS cobre só 10,4% das cirurgias do rol em 2024, o que impede generalizar, e o ministro da Saúde disse que o país nunca teve painel nacional de filas. Não há, então, registro que sustente dois a três anos como a espera típica, nem prova de que ela fosse menor no início de 2023. Por isso INSUSTENTAVEL, e não FALSO.",
+      "numero_dito": "dois a três anos",
+      "numero_apurado": null,
+      "data_de_referencia": "2023 a 2025 (dados da RNDS analisados pelo TCU)",
+      "ressalva": "Nos 29 procedimentos de maior volume, nenhuma mediana de espera passa de 180 dias, segundo o TCU",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (relatório e voto do Acórdão 1622/2026, TC 015.703/2025-8)",
+          "titulo": "Relatório de auditoria operacional do Programa Agora Tem Especialistas",
+          "url": "https://portal.tcu.gov.br/uploads/noticias/pdf/2026/06/24/documentos_-_2026-06-24T123648.987.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A cobertura da RNDS em relação à produção de cirurgias eletivas do rol do Pate no SUS ainda é baixa, estimada em 10,4% em 2024, e localizada em certas unidades da federação (UF) [...] Quando se restringe a análise aos 29 procedimentos de maior volume, os tempos de espera extremos desaparecem, pois nenhum desses procedimentos tem mediana acima de 180 dias. [...] Os três primeiros apresentam medianas entre 695 e 725 dias em 2025",
+          "prova": "A única medida de tempo de espera encontrada: longa só em procedimentos específicos, com cobertura baixa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Grande Bahia",
+          "titulo": "Governo Lula anuncia recorde de 14,9 milhões de cirurgias no SUS; Deputados cobram transparência nas filas",
+          "url": "https://jornalgrandebahia.com.br/?p=1354090",
+          "consultada_em": "2026-10-16",
+          "trecho": "Padilha negou qualquer tentativa de ocultação de informações e afirmou que o país nunca teve um painel nacional unificado de monitoramento das filas.",
+          "prova": "Confirma, pela voz do ministro, que não existe série nacional de tempo de espera."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília (Folhapress)",
+          "titulo": "Programa de Lula amplia atendimentos, mas 1/4 dos pacientes enfrenta espera maior, diz TCU",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/programa-de-lula-amplia-atendimentos-mas-1-4-dos-pacientes-enfrenta-espera-maior-diz-tcu/",
+          "consultada_em": "2026-10-16",
+          "trecho": "um quarto dos pacientes enfrenta esperas cada vez mais longas algumas acima de um ano de cirurgias como para câncer de tireoide, neurocirurgias vasculares, correções de escoliose e paratireoidectomias",
+          "prova": "Leitura independente: as esperas longas citadas são de procedimentos específicos."
+        }
+      ]
+    },
+    {
+      "id": "A190",
+      "veredito": "IMPRECISO",
+      "resumo": "Governo contou 3.599 obras de escola paradas ou inacabadas e cerca de 5 mil de saúde em 2023: mais que 6 mil",
+      "explicacao": "A frase fala em 6 mil obras paralisadas de creches, escolas, hospitais e postos no início do governo. Há dois registros oficiais de 2023. Na educação básica, a exposição de motivos da MP 1.174 conta 3.540 obras paralisadas ou inacabadas em abril, e o parecer da comissão mista do Congresso, citando o sistema de obras do MEC no dia da MP, conta 3.599. Na saúde, o mesmo parecer registra cerca de 5 mil obras inacabadas, a maior parte Unidades Básicas de Saúde, segundo o Ministério da Saúde, e foi por isso que a Lei 14.719 levou o pacto também para a saúde. A essência da frase está certa: havia milhares de obras paradas de escola, creche e saúde. O número não: somando educação e saúde, as contas oficiais dão cerca de 8,6 mil, e 6 mil fica cerca de 30% abaixo, desvio acima dos 10% da régua. Por isso IMPRECISO, e não VERDADEIRO. Não é FALSO porque as fontes confirmam o fato e só não batem no número. Limite declarado: o número da saúde tem uma fonte só, o parecer, e as contas juntam obras paralisadas e inacabadas; só paralisadas, na educação, eram 875.",
+      "numero_dito": "6 mil obras paralisadas",
+      "numero_apurado": "3.599 obras de educação básica inacabadas e paralisadas e cerca de 5 mil obras de saúde inacabadas, somando cerca de 8,6 mil",
+      "data_de_referencia": "abril a agosto de 2023",
+      "ressalva": "As contas oficiais juntam obras paralisadas e inacabadas; só paralisadas, na educação, eram 875",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (exposição de motivos da MP 1.174/2023, MEC)",
+          "titulo": "Exposição de motivos da Medida Provisória nº 1.174, de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/Exm/Exm-1174-23.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Informações de abril de 2023 revelam que há no País 3.540 obras de infraestrutura escolar voltadas para a educação básica paralisadas ou inacabadas. Tal condição se manifesta em todos os estados e no Distrito Federal e em 1.682 municípios",
+          "prova": "A conta oficial da educação em abril de 2023: 3.540 obras paralisadas ou inacabadas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Congresso Nacional (Parecer nº 1/2023-CN, comissão mista da MP 1.174)",
+          "titulo": "Parecer da comissão mista sobre a Medida Provisória nº 1.174, de 2023, com a complementação de voto",
+          "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2314465",
+          "consultada_em": "2026-10-16",
+          "trecho": "16 de agosto de 2023 [...] A Medida Provisória (MPV) nº 1.174, de 12 de maio de 2023, [...] No dia de publicação desta MPV, o Sistema Integrado de Monitoramento, Execução e Controle (Simec) do Ministério da Educação registrava o número de 2.274 obras inacabadas e 875 obras paralisadas, totalizando 3.599 obras de infraestrutura da educação básica inacabadas e paralisadas em 1.659 municípios. [...] Atualmente, são registradas pelo Ministério da Saúde cerca de 5 mil obras inacabadas, a maior parte delas Unidades Básicas de Saúde",
+          "prova": "Traz a conta da educação em maio de 2023 e a da saúde, que juntas passam de 6 mil."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.719, de 1º de novembro de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14719.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Institui o Pacto Nacional pela Retomada de Obras e de Serviços de Engenharia Destinados à Educação Básica e Profissionalizante e à Saúde",
+          "prova": "Mostra que as obras de saúde entraram no pacto, o que confirma o recorte da fala."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "8,6 mil",
+          "de": "3.599 mais 5 mil",
+          "como": "soma das obras da educação básica no sistema do MEC com as obras de saúde do Ministério da Saúde, arredondada"
+        },
+        {
+          "valor": "30%",
+          "de": "6 mil contra 3.599 mais 5 mil",
+          "como": "desvio da fala: a soma oficial menos 6 mil, dividido pela soma oficial, arredondado"
+        }
+      ]
+    },
+    {
+      "id": "A191",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lei de 2025 zera a conta até 80 kWh na tarifa social e isenta da CDE até 120 kWh outra faixa de renda",
+      "explicacao": "A Lei 15.235/2025 (conversão da MP 1.300/2025) fixou a Tarifa Social com desconto de 100% na parcela de consumo até 80 kWh por mês para a subclasse residencial baixa renda, e criou, a partir de 1º de janeiro de 2026, a isenção das quotas da CDE no consumo até 120 kWh para famílias do CadÚnico com renda por pessoa entre meio e um salário mínimo. As duas regras estavam em vigor em 15/10/2026. A fala acerta as duas faixas e o efeito (não paga até 80, paga menos até 120). A ressalva é sobre o público: os 120 kWh valem para outra faixa de renda, e o benefício é tirar a CDE da conta, não cobrar 'só a diferença' de quem passou de 80. Por isso VERDADEIRO com ressalva, e não IMPRECISO: a fala não diz que as duas regras são para as mesmas famílias. As duas fontes são documentos do mesmo processo legislativo (a lei e a exposição de motivos da MP).",
+      "numero_dito": "até 80 kWh não paga; até 120 kWh paga a diferença",
+      "numero_apurado": "desconto de 100% até 80 kWh (tarifa social); isenção da CDE até 120 kWh para renda de meio a um salário mínimo por pessoa",
+      "data_de_referencia": "Lei 15.235 de 8/10/2025; regra dos 120 kWh desde 1º/1/2026",
+      "ressalva": "Os 120 kWh valem para famílias com renda de meio a um salário mínimo por pessoa e isentam só a CDE",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.235, de 8 de outubro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15235.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nº 15.235, DE 8 DE OUTUBRO DE 2025 Conversão da Medida Provisória nº 1.300, de 2025 [...] A partir de 1º de janeiro de 2026, as famílias com renda mensal per capita superior a 1/2 (meio) e igual ou inferior a 1 (um) salário mínimo, desde que devidamente inscritas no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico), terão isenção, em uma única unidade consumidora, do pagamento das quotas anuais da CDE para consumo mensal de até 120 kWh (cento e vinte quilowatts-hora). [...] para a parcela do consumo de energia elétrica inferior ou igual a 80 kWh/mês (oitenta quilowatts-hora por mês), o desconto será de 100% (cem por cento); e",
+          "prova": "O texto da norma em vigor com as duas faixas e o público de cada uma."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério de Minas e Energia (exposição de motivos da MP 1.300/2025)",
+          "titulo": "Exposição de motivos da Medida Provisória nº 1.300, de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/Exm/Exm-1300-25.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "uma nova Tarifa Social de Energia Elétrica, que garantirá a gratuidade no consumo mensal de até 80 kWh para famílias beneficiárias, e (ii) o desconto social de energia elétrica, representado pela isenção do pagamento da Conta de Desenvolvimento Energético - CDE no consumo mensal de até 120 kWh, para famílias com renda per capita superior a 1/2 (meio) e igual ou inferior a 1 (um) salário mínimo.",
+          "prova": "Explica o desenho das duas faixas e confirma que a de 120 kWh é para outra faixa de renda."
+        }
+      ]
+    },
+    {
+      "id": "A192",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi achado balanço do mês da fala; a meta oficial era 15,5 milhões de famílias a partir de março de 2026",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: A frase diz que o gás é distribuído para 17 milhões de pessoas. O documento oficial capturado é a exposição de motivos da MP 1.313/2025, que fixa a meta de alcançar 15,5 milhões de famílias a partir de março de 2026 e registra 5,6 milhões de famílias no auxílio em dinheiro em 2023. A Lei 15.348/2026 confirma as modalidades, sem número de beneficiários. Nesta segunda rodada foram abertas as páginas do programa no Ministério do Desenvolvimento Social: elas dizem que o número de pessoas beneficiárias existe no painel de dados do ministério, mas o painel só abre com navegação interativa e não devolveu o indicador por endereço direto, e o informe do programa avisa que a comunicação está sob o defeso eleitoral até 25 de outubro. Sem o dado do mês da fala, o número não pode ser sustentado nem desmentido. A meta é em famílias, e a fala, em pessoas.",
+      "numero_dito": "17 milhões de pessoas",
+      "numero_apurado": null,
+      "data_de_referencia": "meta para março de 2026, fixada em setembro de 2025",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (exposição de motivos da MP 1.313/2025)",
+          "titulo": "Exposição de motivos da Medida Provisória nº 1.313, de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/Exm/Exm-1313-25.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "ao contemplar 5,6 milhões de famílias em 2023, embora os objetivos energéticos da política pública não apresentem a mesma evolução. [...] com meta de alcançar 15,5 milhões de famílias a partir de março de 2026 e manter este patamar nos meses e anos seguintes",
+          "prova": "O único número oficial encontrado: meta, em famílias, não o atendimento do mês da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.348, de 13 de fevereiro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15348.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "§ 4º Até que sejam contemplados pela gratuidade, prevista no inciso II do caput , os beneficiários da modalidade de pagamento de valor monetário, prevista no inciso I do caput deste artigo, deverão receber o auxílio nessa forma",
+          "prova": "Mostra que o programa convive com duas modalidades em transição, sem informar quantos são atendidos."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+          "titulo": "Dados consolidados do Gás do Povo",
+          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/gas-do-povo/dados-consolidados-de-familias-beneficiarias-do-gas-do-povo",
+          "consultada_em": "2026-10-16",
+          "trecho": "possibilita acesso a dados como: famílias beneficiárias do Programa Gás do Povo; pessoas beneficiárias do Programa Gás do Povo;",
+          "prova": "O número em pessoas existe no painel do ministério, que não pôde ser capturado nesta rodada."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+          "titulo": "Informes Gás do Povo",
+          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/gas-do-povo/informes/informes-gas-do-povo",
+          "consultada_em": "2026-10-16",
+          "trecho": "Programa Gás do Povo sob as regras do Defeso Eleitoral: Desde 4 de julho até 25 de outubro de 2026 está em vigor o defeso eleitoral",
+          "prova": "Explica por que o balanço do mês da fala não está publicado no portal do ministério."
+        }
+      ]
+    },
+    {
+      "id": "A193",
+      "veredito": "VERDADEIRO",
+      "resumo": "Na modalidade gratuidade, a lei de 2026 prevê botijão grátis na revenda, custeado por repasse da União",
+      "explicacao": "A Lei 15.348/2026 (conversão da MP 1.313/2025) criou a modalidade de gratuidade do Auxílio Gás do Povo: o botijão de 13 kg é entregue de graça na revenda autorizada pela ANP, e a modalidade é custeada por repasses da União à Caixa. A regra estava em vigor em 15/10/2026. A afirmação de que o governo paga o botijão confere para essa modalidade, por isso VERDADEIRO. A ressalva: quem ainda está na modalidade em dinheiro recebe um valor de no mínimo metade do preço médio do botijão, e a lei prevê a migração gradual para a gratuidade; não foi capturado dado de quantas famílias já estavam na gratuidade na data da fala. As duas fontes são documentos da mesma norma (a lei e a MP).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 15.348 de 13/2/2026, em vigor na data da fala",
+      "ressalva": "Na modalidade em dinheiro, que ainda existe, o auxílio é de no mínimo 50% do preço médio do botijão",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.348, de 13 de fevereiro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15348.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "4º-A. A modalidade de que trata o inciso II do caput do art. 1º-A desta Lei consiste na disponibilização gratuita de botijão de 13 kg (treze quilogramas) de GLP diretamente na revenda varejista autorizada pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) [...] 4º-E. A modalidade de gratuidade poderá ser custeada por meio de repasses diretos à Caixa Econômica Federal: I - pela União, de dotações orçamentárias consignadas ao Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+          "prova": "A regra em vigor: botijão grátis na revenda, pago com dinheiro da União."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Medida Provisória nº 1.313, de 4 de setembro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1313.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "terão direito, bimestralmente, a um valor monetário correspondente a uma parcela de, no mínimo, 50% (cinquenta por cento) sobre o preço médio do botijão de GLP ao consumidor final, na forma estabelecida em regulamento.",
+          "prova": "A outra modalidade, em dinheiro, que cobre parte do preço, base da ressalva."
+        }
+      ]
+    }
+  ]
+}

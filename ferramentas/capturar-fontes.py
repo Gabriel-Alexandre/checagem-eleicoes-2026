@@ -132,8 +132,11 @@ def _texto_de_html(bruto: bytes, tipo: str = "") -> str:
 
 
 def _texto_de_pdf(caminho: Path) -> str:
-    r = subprocess.run(["pdftotext", "-layout", str(caminho), "-"], capture_output=True, text=True)
-    return r.stdout if r.returncode == 0 else ""
+    # 🔧 16/out/2026: o pdftotext (xpdf 4.00, Windows) escreve em Latin1 por padrão, e com PYTHONUTF8=1 a
+    # leitura em texto quebrava a rodada inteira (UnicodeDecodeError e depois TypeError). Pede UTF-8 e lê
+    # bytes, decodificando com substituição: um caractere estranho não derruba a captura.
+    r = subprocess.run(["pdftotext", "-enc", "UTF-8", "-layout", str(caminho), "-"], capture_output=True)
+    return r.stdout.decode("utf-8", errors="replace") if r.returncode == 0 and r.stdout else ""
 
 
 def capturar(slug: str, pedido: Path, saida: Path) -> Path:

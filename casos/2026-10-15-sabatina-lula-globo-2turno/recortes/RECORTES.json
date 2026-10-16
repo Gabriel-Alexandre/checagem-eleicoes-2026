@@ -1,0 +1,143 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "recortes": [
+    {
+      "id": "corte-01",
+      "arquivo": "corte-01.mp4",
+      "origem": "sabatina-lula-globo-2026-10-15.mp4",
+      "origem_inicio_s": 253.75,
+      "duracao_s": 12.867,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 13 s, assunto politica",
+      "criado_em": "2026-10-16",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "caixa declarada: só a imagem da emissora, sem a moldura da gravação, escalada a 1920x1080 sem deformar (a caixa foi medida antes, em vários quadros, e está no CASO.json)",
+        "corte": {
+          "x": 94,
+          "y": 62,
+          "w": 1088,
+          "h": 612
+        },
+        "filtro": "crop=1088:612:94:62,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-02",
+      "arquivo": "corte-02.mp4",
+      "origem": "sabatina-lula-globo-2026-10-15.mp4",
+      "origem_inicio_s": 481.29,
+      "duracao_s": 13.233,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 13 s, assunto economia",
+      "criado_em": "2026-10-16",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "caixa declarada: só a imagem da emissora, sem a moldura da gravação, escalada a 1920x1080 sem deformar (a caixa foi medida antes, em vários quadros, e está no CASO.json)",
+        "corte": {
+          "x": 94,
+          "y": 62,
+          "w": 1088,
+          "h": 612
+        },
+        "filtro": "crop=1088:612:94:62,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-03",
+      "arquivo": "corte-03.mp4",
+      "origem": "sabatina-lula-globo-2026-10-15.mp4",
+      "origem_inicio_s": 1006.87,
+      "duracao_s": 13.767,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto justica; confronto jornalista x entrevistado em justica; 1 troca de turno",
+      "criado_em": "2026-10-16",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "caixa declarada: só a imagem da emissora, sem a moldura da gravação, escalada a 1920x1080 sem deformar (a caixa foi medida antes, em vários quadros, e está no CASO.json)",
+        "corte": {
+          "x": 94,
+          "y": 62,
+          "w": 1088,
+          "h": 612
+        },
+        "filtro": "crop=1088:612:94:62,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-04",
+      "arquivo": "corte-04.mp4",
+      "origem": "sabatina-lula-globo-2026-10-15.mp4",
+      "origem_inicio_s": 2152.13,
+      "duracao_s": 12.5,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 12 s, assunto economia-internacional",
+      "criado_em": "2026-10-16",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "caixa declarada: só a imagem da emissora, sem a moldura da gravação, escalada a 1920x1080 sem deformar (a caixa foi medida antes, em vários quadros, e está no CASO.json)",
+        "corte": {
+          "x": 94,
+          "y": 62,
+          "w": 1088,
+          "h": 612
+        },
+        "filtro": "crop=1088:612:94:62,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-05",
+      "arquivo": "corte-05.mp4",
+      "origem": "sabatina-lula-globo-2026-10-15.mp4",
+      "origem_inicio_s": 2598.18,
+      "duracao_s": 14.733,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 15 s, assunto saude; confronto jornalista x entrevistado em saude; 3 trocas de turno",
+      "criado_em": "2026-10-16",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "caixa declarada: só a imagem da emissora, sem a moldura da gravação, escalada a 1920x1080 sem deformar (a caixa foi medida antes, em vários quadros, e está no CASO.json)",
+        "corte": {
+          "x": 94,
+          "y": 62,
+          "w": 1088,
+          "h": 612
+        },
+        "filtro": "crop=1088:612:94:62,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-06",
+      "arquivo": "corte-06.mp4",
+      "origem": "sabatina-lula-globo-2026-10-15.mp4",
+      "origem_inicio_s": 2726.31,
+      "duracao_s": 14.4,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto programas-sociais; 1 troca de turno",
+      "criado_em": "2026-10-16",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "caixa declarada: só a imagem da emissora, sem a moldura da gravação, escalada a 1920x1080 sem deformar (a caixa foi medida antes, em vários quadros, e está no CASO.json)",
+        "corte": {
+          "x": 94,
+          "y": 62,
+          "w": 1088,
+          "h": 612
+        },
+        "filtro": "crop=1088:612:94:62,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    }
+  ]
+}

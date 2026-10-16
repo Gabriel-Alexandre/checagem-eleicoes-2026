@@ -1,0 +1,240 @@
+PEDIDO DE CHECAGEM 06 de 15 · alegações A066 a A078
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-06.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A066",
+      "inicio_s": 940.4,
+      "fim_s": 946.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eles querem caçar o Alexandre de Moraes, não é por conta do Banco Master apenas",
+      "afirmacao": "Setores da direita buscam a cassação ou o impeachment do ministro Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "pedidos de impeachment contra Alexandre de Moraes protocolados no Senado: autores, partidos e datas, incluindo os que citam o Banco Master",
+        "declarações de lideranças da oposição pedindo o afastamento de Moraes em 2026"
+      ]
+    },
+    {
+      "id": "A067",
+      "inicio_s": 946.6,
+      "fim_s": 950.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o Alexandre de Moraes prendeu o pai do Flávio Bolsonaro.",
+      "afirmacao": "Alexandre de Moraes determinou a prisão de Jair Bolsonaro, pai de Flávio Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "decisões de Alexandre de Moraes que determinaram prisão (domiciliar, preventiva ou para cumprimento de pena) de Jair Bolsonaro, com datas",
+        "se a ordem foi decisão individual do relator ou da Primeira Turma"
+      ]
+    },
+    {
+      "id": "A068",
+      "inicio_s": 954.6,
+      "fim_s": 970.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E hoje a Política Federal esteve no Rio de Janeiro interferindo numa das pessoas importantes do clã do Bolsonaro, o Canelas, que foi preso",
+      "citacao_card": "hoje a Política Federal esteve no Rio de Janeiro [...] o Canelas, que foi preso",
+      "afirmacao": "A Polícia Federal fez operação no Rio de Janeiro em 15/out/2026 que prendeu uma pessoa conhecida como Canelas, ligada à família Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "nota da Polícia Federal sobre operação no Rio de Janeiro em 15/out/2026: alvos, mandados e se houve prisão",
+        "quem é 'Canelas' (nome completo, cargo ou candidatura) e qual o vínculo com a família Bolsonaro"
+      ]
+    },
+    {
+      "id": "A069",
+      "inicio_s": 962.0,
+      "fim_s": 970.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e que a mãe do Flávio ia ser suplente dele no Senado.",
+      "afirmacao": "A mãe de Flávio Bolsonaro seria suplente na candidatura ao Senado da pessoa conhecida como Canelas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "registro de candidatura no TSE (DivulgaCand 2026) da chapa ao Senado de 'Canelas': titular e suplentes",
+        "se a suplência foi registrada ou só anunciada, e se a pessoa citada é a mãe de Flávio Bolsonaro"
+      ]
+    },
+    {
+      "id": "A070",
+      "inicio_s": 982.2,
+      "fim_s": 986.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor tem defendido mesmo que se apurem todas as responsabilidades.",
+      "afirmacao": "Lula tem defendido publicamente que se apurem todas as responsabilidades no caso Master",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta complementar sobre o STF, Alexandre de Moraes e o caso Master",
+      "o_que_conferir": [
+        "declarações de Lula sobre o caso Master pedindo apuração, com datas e fontes (Presidência, entrevistas)"
+      ]
+    },
+    {
+      "id": "A071",
+      "inicio_s": 992.7,
+      "fim_s": 999.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "um ministro como Flávio Dino, que foi indicado pelo senhor",
+      "afirmacao": "Flávio Dino foi indicado ao STF por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o pedido de vista de Flávio Dino num processo que envolve Alexandre de Moraes",
+      "o_que_conferir": [
+        "mensagem presidencial de indicação de Flávio Dino ao STF e a data da aprovação no Senado"
+      ]
+    },
+    {
+      "id": "A072",
+      "inicio_s": 999.7,
+      "fim_s": 1006.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "chega lá e faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes",
+      "citacao_card": "faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes",
+      "afirmacao": "Flávio Dino fez um pedido de vista que impediu a abertura de uma investigação sobre a conduta de Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta feita em forma condicional ('se de repente'), mas descrevendo um episódio: o pedido de vista de Dino",
+      "o_que_conferir": [
+        "processo no STF (número, órgão julgador e data) em que Flávio Dino pediu vista, e o que estava sendo julgado (abertura de investigação, arquivamento, suspeição)",
+        "efeito do pedido de vista pelo regimento: se suspende o julgamento por prazo definido ou impede a investigação"
+      ]
+    },
+    {
+      "id": "A073",
+      "inicio_s": 1007.1,
+      "fim_s": 1012.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que de fato, candidato, é o ministro até aqui mais implicado com o Daniel Vorcaro.",
+      "afirmacao": "Alexandre de Moraes é, até agora, o ministro do STF mais implicado com Daniel Vorcaro",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o pedido de vista de Flávio Dino num processo que envolve Alexandre de Moraes",
+      "o_que_conferir": [
+        "o que as investigações e reportagens registram sobre a relação de cada ministro do STF com Daniel Vorcaro e o Banco Master até 15/out/2026 (contratos, mensagens, encontros)",
+        "qual critério sustenta 'mais implicado': número de menções, existência de contrato ou pedido formal de investigação"
+      ]
+    },
+    {
+      "id": "A074",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o Toffoli também está implicado",
+      "afirmacao": "O ministro do STF Dias Toffoli está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem Dias Toffoli em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    },
+    {
+      "id": "A075",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o André Mendonça também está implicado",
+      "afirmacao": "O ministro do STF André Mendonça está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem André Mendonça em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    },
+    {
+      "id": "A076",
+      "inicio_s": 1020.6,
+      "fim_s": 1023.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e o Castro está implicado",
+      "afirmacao": "Uma pessoa de sobrenome Castro está implicada no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "identificar a quem a fala se refere: o trecho diz só 'o Castro', sem nome completo nem cargo",
+        "registros de investigação ou reportagens com documento que liguem essa pessoa ao Banco Master ou a Daniel Vorcaro"
+      ]
+    },
+    {
+      "id": "A077",
+      "inicio_s": 1028.5,
+      "fim_s": 1032.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu não tenho como interferir na decisão de um ministro da Suprema Corte.",
+      "afirmacao": "O presidente da República não tem instrumento legal para interferir na decisão de um ministro do STF",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "Constituição Federal: separação dos Poderes e garantias da magistratura",
+        "se existe algum instrumento do Executivo capaz de alterar ou suspender decisão de ministro do STF"
+      ]
+    },
+    {
+      "id": "A078",
+      "inicio_s": 1033.2,
+      "fim_s": 1036.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eles pedem vista quando querem pedir vista e não pedem vista.",
+      "afirmacao": "O pedido de vista no STF é prerrogativa de cada ministro, que pede quando quer",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "regras do pedido de vista no Regimento Interno do STF, na versão vigente em out/2026",
+        "se há requisito, prazo ou devolução automática que limite o pedido"
+      ]
+    }
+  ]
+}

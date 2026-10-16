@@ -1,0 +1,6 @@
+{ "caso": "2026-10-15-sabatina-lula-globo-2turno", "rodada": "rev-r6",
+  "urls": [
+    "https://api.worldbank.org/v2/country/all/indicator/EG.FEC.RNEW.ZS?format=json&date=2020&per_page=400",
+    "https://www.fao.org/3/i4030e/i4030e.pdf",
+    "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2003-11-30"
+  ] }

@@ -1,0 +1,549 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A105",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Galípolo, presente, diz que Vorcaro se queixou do mercado; perseguição política e nomes só aparecem na fala de Lula",
+      "explicacao": "A queixa de perseguição no encontro de 4 de dezembro de 2024 tem um relato independente do de Lula: o presidente do Banco Central, Gabriel Galípolo, que estava na reunião, disse à CPI que Vorcaro e os acionistas do Master relatavam estar 'sendo perseguidos pelo mercado financeiro' por causa da concorrência. A apuração do Poder360 sobre o encontro registra que Vorcaro falou da concentração do sistema bancário e da atuação dos grandes bancos. O que a frase acrescenta, que a perseguição era política e que Vorcaro disse o nome de quem o perseguia, aparece só nos relatos do próprio Lula, e nenhum outro participante descreveu isso publicamente; no relato anterior de Lula (Congresso em Foco, 18/9) não há menção a nomes. Não é FALSO porque nenhuma fonte afirma que Vorcaro não citou nomes; não é VERDADEIRO porque a parte específica da frase não tem registro além da palavra de quem a diz. O caso Master segue em apuração.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "encontro de 4 de dezembro de 2024; relatos de abril e setembro de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula disse para eu ser técnico após reunião com Vorcaro, diz Galípolo (08/04/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/lula-disse-para-eu-ser-tecnico-apos-reuniao-com-vorcaro-diz-galipolo/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Quando eu chego na reunião, o tema seguia uma narrativa que estava bastante disseminada e foi até predominante durante boa parte de 2025. Os acionistas do Master relatavam sempre uma história de que eles estavam sendo perseguidos pelo mercado financeiro e que a dificuldade de eles conseguirem fazer captação era essa persecução que existiria em função da concorrência que eles estariam gerando",
+          "prova": "Relato de um participante do encontro que não é Lula: a perseguição descrita era do mercado financeiro, sem menção a perseguição política nem a nomes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda",
+          "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Durante a reunião, Vorcaro falou sobre a concentração do sistema bancário brasileiro e a atuação dos grandes bancos no mercado financeiro.",
+          "prova": "Apuração própria sobre o conteúdo do encontro, sem perseguição política nem nomes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Lula conta ter negado ajuda a Vorcaro: \"aqui ninguém é perseguido\" (18/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/122399/lula-conta-ter-negado-ajuda-a-vorcaro--aqui-ninguem-e-perseguido",
+          "consultada_em": "2026-10-16",
+          "trecho": "Esse Vorcaro me procurou um dia numa conversa de 20 minutos e disse: 'Olha, porque estão me prejudicando, meu banco está quebrando, eu estou sendo perseguido.",
+          "prova": "O relato anterior do próprio Lula: queixa de perseguição, sem a menção a nomes que aparece na sabatina."
+        }
+      ]
+    },
+    {
+      "id": "A106",
+      "veredito": "IMPRECISO",
+      "resumo": "Encontro em 4 de dezembro de 2024; liquidação do Master em 18 de novembro de 2025, quase um ano depois",
+      "explicacao": "O Banco Master foi de fato fechado pelo Banco Central: a nota do próprio BC diz que a liquidação extrajudicial foi decretada em 18 de novembro de 2025, motivada pela grave crise de liquidez e por graves violações às normas do sistema financeiro. O encontro de Vorcaro com Lula no Planalto, segundo o Poder360 e a Gazeta do Povo, foi em 4 de dezembro de 2024, o único conhecido. Entre as duas datas são 349 dias, e não cerca de um mês. A essência (o banco foi fechado depois do encontro, por irregularidade) confere; o prazo dito está materialmente errado. A régua da METODOLOGIA §2.2 manda IMPRECISO, e não FALSO, porque o sentido da frase não se inverte.",
+      "numero_dito": "cerca de um mês",
+      "numero_apurado": "349 dias, de 4 de dezembro de 2024 a 18 de novembro de 2025",
+      "data_de_referencia": "4 de dezembro de 2024 (encontro) e 18 de novembro de 2025 (liquidação)",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "349 dias",
+          "de": "4 de dezembro de 2024 até 18 de novembro de 2025",
+          "como": "contagem de dias no calendário entre a data do encontro e a data da liquidação"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Banco Central decreta liquidação extrajudicial do Banco Master (nota)",
+          "url": "https://www.bcb.gov.br/detalhenoticia/20936/nota",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Banco Central decretou hoje, 18 de novembro de 2025, a liquidação extrajudicial do Banco Master S/A, do Banco Master de Investimento S/A, do Banco Letsbank S/A, e da Master S/A Corretora de Câmbio, Títulos e Valores Mobiliários [...] A decretação do regime especial nas instituições foi motivada pela grave crise de liquidez do Conglomerado Master e pelo comprometimento significativo da sua situação econômico-financeira, bem como por graves violações às normas que regem a atividade das instituições integrantes do SFN.",
+          "prova": "A data do fechamento e o fundamento declarado no ato, na fonte oficial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda",
+          "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) participou, em 4 dezembro de 2024, de uma reunião no Palácio do Planalto com o banqueiro Daniel Vorcaro, controlador do Banco Master, sem registro nos compromissos oficiais do petista.",
+          "prova": "A data do encontro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Vorcaro acionou Mantega e buscou nova reunião com Lula em 2025",
+          "url": "https://www.gazetadopovo.com.br/republica/vorcaro-acionou-mantega-e-buscou-nova-reuniao-com-lula-em-2025/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A única reunião entre o presidente e o ex-banqueiro conhecida até o momento, no entanto, é a de 4 de dezembro de 2024. O Planalto diz que esta foi a única vez que o petista se encontrou com o líder do esquema do Master.",
+          "prova": "Confirmação independente da data e de que houve um único encontro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Banco Central decreta liquidação extrajudicial do Banco Master (18/11/25)",
+          "url": "https://www.cnnbrasil.com.br/economia/negocios/banco-central-decreta-liquidacao-extrajudicial-do-banco-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O BC (Banco Central) decretou nesta terça-feira (18) a liquidação extrajudicial do Banco Master menos de um dia após o Grupo Fictor ter indicado o interesse em comprar a instituição financeira.",
+          "prova": "Registro jornalístico da liquidação no mesmo dia."
+        }
+      ]
+    },
+    {
+      "id": "A107",
+      "veredito": "VERDADEIRO",
+      "resumo": "O escritório de Lewandowski tinha contrato de consultoria com o Master desde agosto de 2023; o convite veio em 2024",
+      "explicacao": "Segundo a coluna de Andreza Matais (Metrópoles), o contrato de consultoria jurídica e institucional entre o Banco Master e a Lewandowski Advocacia foi assinado em 28 de agosto de 2023, e uma das tarefas de Lewandowski era participar das reuniões do Comitê Estratégico do banco. O próprio Lewandowski confirmou, em nota publicada pela Band, que prestou consultoria jurídica ao Master depois de deixar o STF e que se retirou do escritório ao ser convidado para o Ministério da Justiça, em janeiro de 2024. Quando veio o convite, portanto, ele era consultor jurídico do banco controlado por Vorcaro. O essencial da pergunta confere.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "contrato de 28 de agosto de 2023; convite em janeiro de 2024",
+      "ressalva": "O contrato era do escritório com o Banco Master, controlado por Vorcaro, e não com Vorcaro em pessoa",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Metrópoles diz que Lewandowski assumiu o Ministério da Justiça em janeiro de 2024; a Band fala em fevereiro de 2024. A diferença não muda o veredito: o contrato é de agosto de 2023, anterior às duas datas.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Master pagou R$ 5 milhões a escritório de Lewandowski já como ministro (coluna Andreza Matais)",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/master-pagou-r-5-milhoes-a-escritorio-de-lewandowski-ja-como-ministro",
+          "consultada_em": "2026-10-16",
+          "trecho": "O contrato entre o Master e a Lewandowski Advocacia foi assinado no dia 28 de agosto de 2023, e os pagamentos prosseguiram até o mês de setembro de 2025 [...] Uma das tarefas de Lewandowski era participar das reuniões do Comitê Estratégico do Banco Master.",
+          "prova": "A data do contrato e a função de aconselhamento no comitê do banco."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "Lewandowski confirma consultoria ao Master, mas diz que suspendeu registro",
+          "url": "https://www.band.com.br/noticias/lewandowski-confirma-consultoria-ao-master-mas-diz-que-suspendeu-registro-202601271240",
+          "consultada_em": "2026-10-16",
+          "trecho": "Além de vários outros clientes, prestou serviços de consultoria jurídica ao Banco Master. Ao ser convidado pelo presidente Luiz Inácio Lula da Silva para assumir o Ministério da Justiça de Segurança Pública, em janeiro de 2024, Lewandowski retirou-se de seu escritório de advocacia",
+          "prova": "A confirmação do próprio Lewandowski: era consultor do Master quando foi convidado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda",
+          "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+          "consultada_em": "2026-10-16",
+          "trecho": "com o banqueiro Daniel Vorcaro, controlador do Banco Master",
+          "prova": "Vorcaro era o controlador do banco que contratou o escritório."
+        }
+      ]
+    },
+    {
+      "id": "A108",
+      "veredito": "VERDADEIRO",
+      "resumo": "O contrato do Master com o escritório da família seguiu até setembro de 2025, com o escritório tocado pelos filhos",
+      "explicacao": "A Metrópoles apurou que, com a ida de Lewandowski para o Ministério da Justiça, o escritório passou a ser representado pelo filho Enrique de Abreu Lewandowski, hoje sócio com a irmã Yara, e que os pagamentos do Master continuaram até setembro de 2025. A Rádio Bandeirantes confirmou a contratação por conta própria e diz que o escritório da família manteve o contrato enquanto ele integrava o governo. Lewandowski, em nota, disse que se retirou do escritório, sem negar a continuidade do contrato. A frase confere.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "contrato vigente de agosto de 2023 a setembro de 2025",
+      "ressalva": "O contrato era com o Banco Master, controlado por Vorcaro",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Metrópoles diz que os sócios do escritório são os dois filhos de Lewandowski; a Rádio Bandeirantes fala em escritório onde atuam a esposa e o filho. As duas dizem que o contrato ficou com a família.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Master pagou R$ 5 milhões a escritório de Lewandowski já como ministro (coluna Andreza Matais)",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/master-pagou-r-5-milhoes-a-escritorio-de-lewandowski-ja-como-ministro",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao assumir o cargo no MJSP, o ex-ministro deixou a sociedade de advogados. A saída dele foi formalizada no dia 17 de janeiro daquele ano. Atualmente, os sócios são dois filhos do ex-ministro: Enrique de Abreu Lewandowski e Yara de Abreu Lewandowski. [...] Com a ida dele para o Ministério da Justiça, o escritório passou a ser representado pelo advogado Enrique de Abreu Lewandowski, filho do ministro. Segundo apurou a coluna, Enrique não fez nenhuma entrega significativa para o banco, embora os pagamentos tenham continuado.",
+          "prova": "Quem ficou com o contrato e que ele continuou depois da saída de Lewandowski."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Bandeirantes",
+          "titulo": "Contrato do Banco Master com família de Lewandowski amplia suspeitas",
+          "url": "https://www.band.com.br/radio-bandeirantes/noticias/contrato-do-banco-master-com-familia-de-lewandowski-amplia-suspeitas-de-conflito-de-interesse-202601271205",
+          "consultada_em": "2026-10-16",
+          "trecho": "O escândalo envolvendo o Banco Master ganhou novos desdobramentos com a revelação de que o escritório de advocacia da família do ex-ministro da Justiça, Ricardo Lewandowski, manteve contrato com a instituição financeira durante o período em que ele integrava o governo Lula. [...] A contratação foi inicialmente divulgada pelo portal Metrópoles e confirmada pela Rádio Bandeirantes.",
+          "prova": "Confirmação própria da Bandeirantes de que o contrato seguiu com a família durante a gestão."
+        }
+      ]
+    },
+    {
+      "id": "A109",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Polícia Federal faz parte da estrutura do Ministério da Justiça, e a lei dá ao ministério as funções da PF",
+      "explicacao": "O Decreto 11.348/2023, que aprova a estrutura regimental do Ministério da Justiça e Segurança Pública, lista a Polícia Federal entre os órgãos da estrutura organizacional do ministério, no texto vigente. A Lei 14.600/2023, que organiza os ministérios, inclui entre as competências do Ministério da Justiça a execução das atividades do art. 144, § 1º, da Constituição 'por meio da polícia federal'. A PF é, portanto, órgão subordinado ao ministro da Justiça, como disse a pergunta.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto vigente em outubro de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto nº 11.348, de 1º de janeiro de 2023 (estrutura regimental do MJSP)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11348.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 2º O Ministério da Justiça e Segurança Pública tem a seguinte estrutura organizacional: [...] i) Polícia Federal:",
+          "prova": "A PF está dentro da estrutura do ministério, no texto vigente do decreto."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.600, de 19 de junho de 2023 (organização dos ministérios)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "XIII - execução das atividades previstas no § 1º do art. 144 da Constituição Federal , por meio da polícia federal;",
+          "prova": "A lei atribui ao Ministério da Justiça a execução das funções da PF."
+        }
+      ]
+    },
+    {
+      "id": "A110",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PF de São Paulo investigava o Master desde 2023; o contrato da família de Lewandowski foi até setembro de 2025",
+      "explicacao": "O SBT News obteve o ofício de julho de 2024 da Delegacia de Repressão à Corrupção e Crimes Financeiros da PF em São Paulo e informa que essa delegacia tinha aberto, desde 2023, dois inquéritos sobre o Master e fundos de investimento usados por Vorcaro (a mesma fonte das checagens A089 e A098). A reportagem do SBT sobre a operação Compliance Zero, que prendeu Vorcaro em novembro de 2025, diz que as investigações começaram em 2024, por requisição do Ministério Público Federal. A Migalhas registra que a PF vinha investigando o Master com informações repassadas pelo Banco Central. O contrato do escritório da família de Lewandowski com o Master teve pagamentos até setembro de 2025 (Metrópoles), período em que ele era ministro da Justiça. Há, portanto, sobreposição entre o contrato mantido e uma investigação da PF já aberta. Vai como ressalva que a data de 2023 vem de documento obtido pelo SBT News e que os inquéritos tratam do banco e de fundos usados por Vorcaro, que o controlava e foi preso na operação. A frase trata da existência da investigação, não de culpa, que segue em apuração. 🔧 Na revisão de coerência entre lotes (16/out/2026) o resumo dizia 'A PF investigava o Master desde 2024; o contrato da família de Lewandowski com o banco foi até setembro de 2025' e a ressalva dizia 'As fontes não dão o mês em que a investigação começou e tratam da investigação do banco, que Vorcaro controlava'; minutos antes, nas checagens A089 e A098, os cards dizem que a PF de São Paulo tinha inquéritos abertos desde 2023, com a mesma reportagem do SBT News, que entrou aqui; ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "inquéritos da PF em São Paulo abertos desde 2023; investigação a pedido do MPF iniciada em 2024; contrato até setembro de 2025",
+      "ressalva": "Os inquéritos de 2023 constam de documento obtido pelo SBT News e tratam do Master e de fundos usados por Vorcaro",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News (coluna Nathalia Fruet)",
+          "titulo": "Exclusivo: Banco Central recebeu alerta da PF sobre Master em 2024, mas disse não ter encontrado ilegalidades (19/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-nathalia-fruet/exclusivo-banco-central-recebeu-alerta-da-pf-sobre-master-em-2024-mas-disse-nao-ter-encontrado-ilegalidades",
+          "consultada_em": "2026-10-16",
+          "trecho": "A coluna obteve a íntegra da resposta do BC ao delegado Gleydson Machado Calheiros, da Delegacia de Repressão à Corrupção e Crimes Financeiros da PF em São Paulo. [...] A Delegacia de Repressão e Crimes Financeiros da PF de São Paulo havia aberto desde 2023 dois inquéritos sobre o Master e fundos de investimentos usados por Vorcaro.",
+          "prova": "Documenta inquéritos da PF em São Paulo sobre o Master e Vorcaro em curso em 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Banco Central decreta liquidação extrajudicial do Banco Master em meio a operação da PF (18/11/2025)",
+          "url": "https://sbtnews.sbt.com.br/noticia/brasil/banco-central-liquidacao-extrajudicial-banco-master-operacao-pf",
+          "consultada_em": "2026-10-16",
+          "trecho": "As investigações tiveram início em 2024, após requisição do Ministério Público Federal (MPF), para investigar a possível fabricação de carteiras de crédito insubsistentes por uma instituição financeira.",
+          "prova": "O ano de início da investigação da PF que levou à prisão de Vorcaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Migalhas",
+          "titulo": "Banco Central decreta liquidação extrajudicial do Banco Master",
+          "url": "https://www.migalhas.com.br/quentes/444659/banco-central-decreta-liquidacao-extrajudicial-do-banco-master",
+          "consultada_em": "2026-10-16",
+          "trecho": "A medida vem ao mesmo tempo em que a Polícia Federal prendeu Daniel Vorcaro, dono do Master. A PF vinha investigando o Master com informações repassadas pelo próprio BC.",
+          "prova": "A PF já investigava o Master antes da operação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Master pagou R$ 5 milhões a escritório de Lewandowski já como ministro (coluna Andreza Matais)",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/master-pagou-r-5-milhoes-a-escritorio-de-lewandowski-ja-como-ministro",
+          "consultada_em": "2026-10-16",
+          "trecho": "O contrato entre o Master e a Lewandowski Advocacia foi assinado no dia 28 de agosto de 2023, e os pagamentos prosseguiram até o mês de setembro de 2025, quando Lewandowski já estava no Ministério da Justiça havia 21 meses",
+          "prova": "O período do contrato, que se sobrepõe à investigação."
+        }
+      ]
+    },
+    {
+      "id": "A111",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lewandowski deixou o STF em abril de 2023 e voltou à advocacia, no escritório que tinha com os filhos",
+      "explicacao": "Em nota publicada pela Band, a assessoria de Lewandowski afirma que, depois de deixar o STF em abril de 2023, ele retornou às atividades de advocacia, com vários clientes. A apuração da Metrópoles mostra o escritório dele com os filhos (Lewandowski Advocacia) contratado pelo Master em agosto de 2023 e a saída formal dele da sociedade em janeiro de 2024. A frase confere. A independência é limitada: a data de saída do STF vem da nota do próprio ex-ministro, e a atividade do escritório, da apuração da Metrópoles.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "abril de 2023 a janeiro de 2024",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "Lewandowski confirma consultoria ao Master, mas diz que suspendeu registro",
+          "url": "https://www.band.com.br/noticias/lewandowski-confirma-consultoria-ao-master-mas-diz-que-suspendeu-registro-202601271240",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro Ricardo Lewandowski, depois de deixar o Supremo Tribunal Federal (STF), em abril de 2023, retornou às atividades de advocacia. Além de vários outros clientes, prestou serviços de consultoria jurídica ao Banco Master.",
+          "prova": "A data de saída do STF e a volta à advocacia privada, na palavra do próprio Lewandowski."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Master pagou R$ 5 milhões a escritório de Lewandowski já como ministro (coluna Andreza Matais)",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/master-pagou-r-5-milhoes-a-escritorio-de-lewandowski-ja-como-ministro",
+          "consultada_em": "2026-10-16",
+          "trecho": "O contrato entre o Master e a Lewandowski Advocacia foi assinado no dia 28 de agosto de 2023 [...] Ao assumir o cargo no MJSP, o ex-ministro deixou a sociedade de advogados. A saída dele foi formalizada no dia 17 de janeiro daquele ano.",
+          "prova": "O escritório próprio em funcionamento entre a saída do STF e a ida ao ministério."
+        }
+      ]
+    },
+    {
+      "id": "A112",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lewandowski saiu do escritório em 17 de janeiro de 2024 para ir ao ministério; o contrato com o Master seguiu",
+      "explicacao": "A Metrópoles registra que a saída de Lewandowski da sociedade de advogados foi formalizada em 17 de janeiro de 2024, ao assumir o Ministério da Justiça, e a nota dele, publicada pela Band, diz que suspendeu o registro na OAB e deixou de atuar em todos os casos. O Antagonista confirma a data. Isso confere com 'ele largou a assessoria e veio'. O que a frase não diz, e vai na ressalva, é que o contrato do escritório com o Master continuou, tocado pelos filhos, com pagamentos até setembro de 2025.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "17 de janeiro de 2024",
+      "ressalva": "O contrato do escritório com o Master continuou com os filhos, com pagamentos até setembro de 2025",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Metrópoles diz que Lewandowski assumiu o Ministério da Justiça em janeiro de 2024; a Band fala em fevereiro de 2024. A diferença não muda o veredito: o contrato é de agosto de 2023, anterior às duas datas.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Master pagou R$ 5 milhões a escritório de Lewandowski já como ministro (coluna Andreza Matais)",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/master-pagou-r-5-milhoes-a-escritorio-de-lewandowski-ja-como-ministro",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao assumir o cargo no MJSP, o ex-ministro deixou a sociedade de advogados. A saída dele foi formalizada no dia 17 de janeiro daquele ano. [...] Com a ida dele para o Ministério da Justiça, o escritório passou a ser representado pelo advogado Enrique de Abreu Lewandowski, filho do ministro.",
+          "prova": "A data da saída e quem ficou com o escritório."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "Lewandowski confirma consultoria ao Master, mas diz que suspendeu registro",
+          "url": "https://www.band.com.br/noticias/lewandowski-confirma-consultoria-ao-master-mas-diz-que-suspendeu-registro-202601271240",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao ser convidado pelo presidente Luiz Inácio Lula da Silva para assumir o Ministério da Justiça de Segurança Pública, em janeiro de 2024, Lewandowski retirou-se de seu escritório de advocacia e suspendeu o seu registro na Ordem dos Advogados do Brasil (OAB), deixando de atuar em todos os casos",
+          "prova": "A versão do próprio Lewandowski sobre a saída."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Antagonista",
+          "titulo": "Lewandowski é alvo de representação sobre contrato com Master",
+          "url": "https://oantagonista.com.br/brasil/lewandowski-e-alvo-de-representacao-sobre-contrato-com-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Para assumir o Ministério da Justiça, Lewandowski deixou o quadro societário do escritório que tinha com os filhos Enrique e Yara em 17 de janeiro de 2024. [...] O contrato foi assinado em 28 de agosto de 2023. Os pagamentos foram realizados até setembro de 2025.",
+          "prova": "Confirma a saída e que os pagamentos seguiram depois dela."
+        }
+      ]
+    },
+    {
+      "id": "A113",
+      "veredito": "VERDADEIRO",
+      "resumo": "Há quarentena: 6 meses para ministros e altos cargos do Executivo e três anos para ex-juiz advogar no tribunal",
+      "explicacao": "Há quarentena, com regras diferentes por cargo. A Lei 12.813/2013 vale para ministros de Estado, cargos de natureza especial, dirigentes de autarquias e estatais e DAS 6 e 5, e considera conflito de interesses, nos 6 meses depois da saída e salvo autorização da Comissão de Ética Pública ou da CGU, prestar serviço a quem teve relacionamento relevante com o cargo ou se vincular a quem atua na área do cargo. Para magistrados, a Constituição (art. 95) veda advogar no tribunal de onde saiu antes de três anos. A frase descreve isso de forma geral e confere para os cargos em discussão (ex-ministro do STF e ex-ministro de Estado).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "normas vigentes em outubro de 2026",
+      "ressalva": "A regra vale para cargos listados em lei e para magistrados, com prazos e alcances diferentes, e não para todo cargo público",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 12.813, de 16 de maio de 2013 (conflito de interesses)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12813.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 2º Submetem-se ao regime desta Lei os ocupantes dos seguintes cargos e empregos: I - de ministro de Estado; [...] Art. 6º Configura conflito de interesses após o exercício de cargo ou emprego no âmbito do Poder Executivo federal: I - a qualquer tempo, divulgar ou fazer uso de informação privilegiada obtida em razão das atividades exercidas; e II - no período de 6 (seis) meses, contado da data da dispensa, exoneração, destituição, demissão ou aposentadoria, salvo quando expressamente autorizado, conforme o caso, pela Comissão de Ética Pública ou pela Controladoria-Geral da União:",
+          "prova": "A quarentena de 6 meses e os cargos a que ela se aplica."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição Federal, art. 95, parágrafo único",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "V - exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos três anos do afastamento do cargo por aposentadoria ou exoneração.",
+          "prova": "A quarentena de ex-magistrado."
+        }
+      ]
+    },
+    {
+      "id": "A114",
+      "veredito": "VERDADEIRO",
+      "resumo": "O STF é o órgão de cúpula do Judiciário; não há instância judicial acima dele para rever suas decisões",
+      "explicacao": "O próprio STF se descreve, com base no art. 102 da Constituição, como 'o órgão de cúpula do Poder Judiciário', a quem compete a guarda da Constituição; não há tribunal acima dele. A frase confere quanto a outras instâncias judiciais. A ressalva vem do texto constitucional: o efeito vinculante das decisões em ações diretas alcança 'os demais órgãos do Poder Judiciário' e a administração pública, sem citar o Legislativo, e o próprio STF pode rever ou cancelar súmula vinculante (art. 103-A).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Constituição vigente em outubro de 2026",
+      "ressalva": "O efeito vinculante previsto na Constituição alcança o Judiciário e a administração, sem citar o Legislativo, e o STF pode rever súmula",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "Institucional (Portal STF)",
+          "url": "https://portal.stf.jus.br/textos/verTexto.asp?servico=sobreStfConhecaStfInstitucional",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Supremo Tribunal Federal é o órgão de cúpula do Poder Judiciário, e a ele compete, precipuamente, a guarda da Constituição, conforme definido no art. 102 da Constituição da República.",
+          "prova": "Não há instância judicial acima do STF."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição Federal, arts. 102 e 103-A",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "As decisões definitivas de mérito, proferidas pelo Supremo Tribunal Federal, nas ações diretas de inconstitucionalidade e nas ações declaratórias de constitucionalidade produzirão eficácia contra todos e efeito vinculante, relativamente aos demais órgãos do Poder Judiciário e à administração pública direta e indireta, nas esferas federal, estadual e municipal. [...] bem como proceder à sua revisão ou cancelamento, na forma estabelecida em lei.",
+          "prova": "O alcance do efeito vinculante e a revisão de súmula pelo próprio STF."
+        }
+      ]
+    },
+    {
+      "id": "A115",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula disse a frase ao SBT Brasil em 10 de setembro e a repetiu à Rádio Tupi em 18 de setembro",
+      "explicacao": "Há registro de pelo menos duas falas anteriores. Em 10 de setembro de 2026, ao SBT Brasil, Lula disse que 'quem quiser ser da Suprema Corte não pode querer ser rico', e ali já citou ter dito isso antes ('outro dia, eu disse, brincando'). Em 18 de setembro, à Rádio Tupi, repetiu que 'quem quiser ir pra Suprema Corte não pode querer ser rico'. A frase confere. As duas fontes são do mesmo veículo (SBT News), mas registram falas diferentes, em datas e entrevistas diferentes.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "10 e 18 de setembro de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Após crise, Lula defende discutir mandato a ministros do STF (10/09/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/apos-crise-lula-defende-discutir-mandato-a-ministros-do-stf",
+          "consultada_em": "2026-10-16",
+          "trecho": "defendeu, nesta quinta-feira (10), uma reforma do Judiciário e a adoção de mandatos para ministros do Supremo Tribunal Federal (STF). [...] Outro dia, eu disse, brincando: quem quiser ser da Suprema Corte não pode querer ser rico. Se quiser ser rico, vai trabalhar no seu escritório. Se quiser ser juiz, com método e respeito, vai para a Suprema Corte",
+          "prova": "A declaração pública anterior, em entrevista ao SBT Brasil em 10 de setembro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Crise no STF \"vai respingar\" nas eleições, admite Lula (18/09/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/crise-no-stf-vai-respingar-nas-eleicoes-admite-lula",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva (PT) admitiu nesta sexta-feira (18) que a crise entre ministros do Supremo Tribunal Federal (STF) por causa do caso do Banco Master [...] Em entrevista à Rádio Tupi, do Rio de Janeiro [...] O que nós estamos defendendo é que quem quiser ir pra Suprema Corte não pode querer ser rico. Ali é um sacerdócio.",
+          "prova": "Outra declaração pública anterior, à Rádio Tupi em 18 de setembro."
+        }
+      ]
+    },
+    {
+      "id": "A116",
+      "veredito": "VERDADEIRO",
+      "resumo": "O piso de R$ 600 fixado em 2023 só subiu com o reajuste anunciado em 17 de setembro, para R$ 691",
+      "explicacao": "A Lei 14.601/2023, que recriou o Bolsa Família, fixou o piso de R$ 600 por família e o benefício de R$ 142 por integrante, e permite que ato do Executivo altere esses valores. O Poder360 e o SBT News registram que o reajuste anunciado em 17 de setembro de 2026 elevou o valor mínimo de R$ 600 para R$ 691, ou seja, o piso de 2023 vigorou até então, e o SBT relata que Lula, na própria sabatina, disse não saber que o programa ainda não tinha sido reajustado no mandato. O Decreto 13.120, de 17 de setembro de 2026, é o ato que corrige o valor dos benefícios do programa pela inflação desde março de 2023, e o Congresso em Foco registra que os valores-base não tinham sido corrigidos desde o relançamento do programa, o que cobre também os adicionais. É a mesma base da checagem A118, sobre o mesmo ponto dito pelo candidato. 🔧 Na revisão de coerência entre lotes (16/out/2026) a confiança passou de média para alta e saiu a ressalva 'As reportagens tratam do piso por família; não foi conferido se algum adicional mudou antes', porque o decreto e a reportagem que respondem a isso já estavam capturados para a checagem A118, que tinha confiança alta sobre o mesmo fato; ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": null,
+      "numero_apurado": "piso de R$ 600 desde 2023, elevado para R$ 691 no anúncio de 17 de setembro de 2026",
+      "data_de_referencia": "junho de 2023 a setembro de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.601, de 19 de junho de 2023 (Programa Bolsa Família)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "I - Benefício de Renda de Cidadania, no valor de R$ 142,00 (cento e quarenta e dois reais) por integrante, destinado a todas as famílias beneficiárias do Programa Bolsa Família; II - Benefício Complementar, destinado às famílias beneficiárias do Programa Bolsa Família cuja soma dos valores relativos aos benefícios financeiros de que trata o inciso I deste parágrafo seja inferior a R$ 600,00 (seiscentos reais), calculado pela diferença entre este valor e a referida soma;",
+          "prova": "Os valores fixados em 2023, ponto de partida do mandato."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio promete manter Bolsa Família: \"Bolsonaro triplicou\" (11/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-promete-manter-bolsa-familia-bolsonaro-triplicou/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao criticar o reajuste de 15,04% anunciado pelo governo Lula em 17 de setembro, que elevou o valor mínimo do Bolsa Família de R$ 600 para R$ 691",
+          "prova": "O piso ainda era R$ 600 até o anúncio de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que não sabia de falta de reajuste no Bolsa Família (16/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-nao-sabia-de-falta-de-reajuste-no-bolsa-familia",
+          "consultada_em": "2026-10-16",
+          "trecho": "afirmou nesta quinta-feira (15), durante sabatina da TV Globo, que não sabia que o Bolsa Família ainda não havia sido reajustado em seu terceiro governo.",
+          "prova": "Registro de que não houve reajuste anterior no mandato."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Decreto nº 13.120, de 17 de setembro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13120.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dispõe sobre a correção do valor dos benefícios financeiros do Programa Bolsa Família pela variação acumulada do Índice Nacional de Preços ao Consumidor – INPC entre março de 2023 e agosto de 2026.",
+          "prova": "O ato de 2026 corrige a inflação desde março de 2023, o que mostra que os valores estavam parados desde então."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Lula anuncia primeiro reajuste no Bolsa Família desde março de 2023 (17/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/122353/lula-anuncia-primeiro-reajuste-no-bolsa-familia-desde-marco-de-2023",
+          "consultada_em": "2026-10-16",
+          "trecho": "O último reajuste estrutural do Bolsa Família havia ocorrido no relançamento do programa, em março de 2023. Desde então, os valores-base não tinham sido corrigidos até o anúncio de Lula nesta quinta-feira. Em 2023, o novo desenho estabeleceu R$ 142 por integrante da família, com complemento para garantir piso mínimo de R$ 600",
+          "prova": "Leitura independente da imprensa: nenhuma correção entre 2023 e o anúncio."
+        }
+      ]
+    },
+    {
+      "id": "A117",
+      "veredito": "VERDADEIRO",
+      "resumo": "O reajuste foi anunciado em 17 de setembro, e o 1º turno, no primeiro domingo de outubro, veio 17 dias depois",
+      "explicacao": "O Poder360 e o SBT News datam o anúncio do reajuste do Bolsa Família em 17 de setembro de 2026. A Constituição (art. 77) marca o primeiro turno para o primeiro domingo de outubro, que em 2026 caiu no dia 4. De 17 de setembro a 4 de outubro são 17 dias, o que a pergunta diz. O SBT descreve o anúncio como feito 'três semanas antes do primeiro turno', arredondamento compatível.",
+      "numero_dito": "17 dias",
+      "numero_apurado": "17 dias, de 17 de setembro ao primeiro domingo de outubro de 2026",
+      "data_de_referencia": "17 de setembro de 2026 (anúncio) e primeiro domingo de outubro de 2026 (1º turno)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "17 dias",
+          "de": "17 de setembro e primeiro domingo de outubro de 2026",
+          "como": "contagem no calendário: o primeiro domingo de outubro de 2026 é o dia 4, e de 17/9 a 4/10 são 17 dias"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição Federal, art. 77",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 77. A eleição do Presidente e do Vice-Presidente da República realizar-se-á, simultaneamente, no primeiro domingo de outubro, em primeiro turno, e no último domingo de outubro, em segundo turno, se houver, do ano anterior ao do término do mandato presidencial vigente.",
+          "prova": "A data do primeiro turno: o primeiro domingo de outubro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio promete manter Bolsa Família: \"Bolsonaro triplicou\" (11/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-promete-manter-bolsa-familia-bolsonaro-triplicou/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao criticar o reajuste de 15,04% anunciado pelo governo Lula em 17 de setembro",
+          "prova": "A data do anúncio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que não sabia de falta de reajuste no Bolsa Família (16/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-nao-sabia-de-falta-de-reajuste-no-bolsa-familia",
+          "consultada_em": "2026-10-16",
+          "trecho": "Anunciado em 17 de setembro, o reajuste elevou o valor mínimo do benefício de R$ 600",
+          "prova": "Confirmação independente da data do anúncio."
+        }
+      ]
+    }
+  ]
+}

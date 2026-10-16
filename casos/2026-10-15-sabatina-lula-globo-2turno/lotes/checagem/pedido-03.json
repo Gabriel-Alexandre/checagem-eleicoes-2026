@@ -1,0 +1,238 @@
+PEDIDO DE CHECAGEM 03 de 15 · alegações A027 a A039
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-03.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A027",
+      "inicio_s": 369.8,
+      "fim_s": 377.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e uma clara preferência do governo americano pela vitória do seu adversário",
+      "afirmacao": "O governo dos Estados Unidos manifestou preferência pela vitória do adversário de Lula na eleição de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a pressão dos Estados Unidos e a vizinhança sul-americana",
+      "o_que_conferir": [
+        "declarações públicas de Trump e de membros do governo americano sobre a eleição brasileira de 2026, com data e fonte",
+        "se houve apoio explícito ao adversário ou só crítica ao governo Lula"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 391.9,
+      "fim_s": 399.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nem em 2006, quando eu fui candidato à reeleição, eu pedo para os meus ministros fazerem campanha para mim",
+      "citacao_card": "nem em 2006 [...] eu pedo para os meus ministros fazerem campanha para mim",
+      "afirmacao": "Na campanha de 2006, Lula não pediu aos seus ministros que fizessem campanha para ele",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "cobertura da campanha de 2006 sobre ministros em campanha e orientação do Planalto, com data e veículo",
+        "registros de ministros que deixaram o cargo ou fizeram campanha em 2006 a pedido do presidente"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 413.1,
+      "fim_s": 416.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu nunca procurei os partidos para me apoiar nessa campanha.",
+      "afirmacao": "Lula não buscou o apoio de outros partidos na campanha de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "noticiário de 2026 sobre negociações de Lula ou do PT com partidos (MDB, PSD, PP, União Brasil e outros) por apoio no 1º e no 2º turno",
+        "reuniões públicas de Lula com dirigentes partidários com pedido de apoio"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 432.0,
+      "fim_s": 442.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "era importante que dois homens de 80 anos, sabe, tivessem juízo",
+      "afirmacao": "Lula e Donald Trump têm, os dois, cerca de 80 anos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "datas de nascimento de Lula e de Trump e a idade de cada um na data da conversa e na da fala (15/out/2026)"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 436.6,
+      "fim_s": 447.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não era possível a gente ficar passando desavença entre as duas maiores democracias do Ocidente",
+      "citacao_card": "as duas maiores democracias do Ocidente",
+      "afirmacao": "Brasil e Estados Unidos são as duas maiores democracias do Ocidente",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "população e eleitorado dos países classificados como democracias (V-Dem, EIU, Freedom House) no Ocidente",
+        "o que se entende por 'Ocidente' (Américas, ou Américas mais Europa)"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 449.1,
+      "fim_s": 450.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós tivemos três reuniões.",
+      "afirmacao": "Lula e Trump tiveram três reuniões",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "agenda oficial de encontros e telefonemas Lula-Trump desde 2025 (Planalto, Itamaraty, Casa Branca)",
+        "se 'reunião' inclui encontro rápido e telefonema"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 451.2,
+      "fim_s": 457.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A última foi quase uma hora e meia por telefone que eu liguei para ele para reclamar do comportamento do Conselho de Segurança da ONU.",
+      "citacao_card": "A última foi quase uma hora e meia por telefone que eu liguei para ele",
+      "afirmacao": "O último contato de Lula com Trump foi um telefonema de quase uma hora e meia, feito por Lula, sobre o Conselho de Segurança da ONU",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "nota oficial do Planalto ou do Itamaraty sobre o último telefonema com Trump: data, quem ligou, duração e temas",
+        "relato da Casa Branca sobre o mesmo telefonema"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 458.9,
+      "fim_s": 469.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Essa semana mesmo, o meu ministro da Indústria do Comércio, o meu ministro das Relações Exteriores, e estiveram negociando com os Estados Unidos.",
+      "citacao_card": "Essa semana mesmo, o meu ministro da Indústria do Comércio, o meu ministro das Relações Exteriores, [...] estiveram negociando com os Estados Unidos",
+      "afirmacao": "Na semana da sabatina, os ministros do Desenvolvimento, Indústria e Comércio e das Relações Exteriores negociaram com os Estados Unidos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "agendas oficiais do MDIC e do Itamaraty na semana de 12 a 15/out/2026 e notas sobre reuniões com o governo americano"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 476.3,
+      "fim_s": 481.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "embora a gente tenha perdido 9% na relação comercial com os Estados Unidos",
+      "afirmacao": "O comércio do Brasil com os Estados Unidos caiu 9%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio (ou exportações) Brasil-EUA, Comex Stat (MDIC/Secex), 2026 contra o mesmo período de 2025",
+        "qual medida (exportação ou corrente) e qual período dão -9%"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 481.5,
+      "fim_s": 483.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós crescemos 20% com a China",
+      "afirmacao": "O comércio do Brasil com a China cresceu 20%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-China, Comex Stat (MDIC/Secex), mesmo período e mesma medida da alegação sobre os EUA"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 484.1,
+      "fim_s": 485.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "crescemos 15% com a Indonésia",
+      "afirmacao": "O comércio do Brasil com a Indonésia cresceu 15%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Indonésia, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 485.9,
+      "fim_s": 487.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "16% com a Alemanha",
+      "afirmacao": "O comércio do Brasil com a Alemanha cresceu 16%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Alemanha, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 487.8,
+      "fim_s": 489.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "13% com o Vietnã",
+      "afirmacao": "O comércio do Brasil com o Vietnã cresceu 13%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Vietnã, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    }
+  ]
+}

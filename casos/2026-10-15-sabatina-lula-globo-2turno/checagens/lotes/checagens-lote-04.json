@@ -1,0 +1,577 @@
+{
+  "checagens": [
+    {
+      "id": "A040",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte traz a média de 10,5%; o Poder360 contava 41 países visitados no mandato até junho",
+      "explicacao": "A frase atribui ao comércio com '50 países que nós visitamos' um crescimento médio de 10,5%. Para conferir seria preciso a lista dos países, o período comparado e o tipo de média, e nenhuma das reportagens sobre a entrevista traz isso; elas só repetem a fala. Não foi achada publicação do governo (Planalto, MDIC, Itamaraty) com esse número, e o cálculo no Comex Stat não é reprodutível sem a lista. A contagem pública que existe, do Poder360, registrava 41 países diferentes visitados no 3º mandato até junho de 2026, abaixo dos 50 citados; como o critério de contagem do presidente não é conhecido (pode incluir mandatos anteriores ou países visitados depois de junho), isso não prova o contrário, só mostra que o número não tem lastro. Por isso INSUSTENTAVEL e não FALSO. Sem fonte N1 ou N2 porque nenhuma base oficial publica o dado nesse recorte.",
+      "numero_dito": "crescimento médio de 10,5% com 50 países visitados",
+      "numero_apurado": null,
+      "data_de_referencia": "3º mandato, de janeiro de 2023 a junho de 2026 (contagem de viagens do Poder360)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Em ano de eleição, Lula acumula 20 dias fora do Brasil",
+          "url": "https://www.poder360.com.br/poder-governo/em-ano-de-eleicao-lula-acumula-20-dias-fora-do-brasil/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Considerando todo o 3º mandato, Lula acumula 158 dias fora do país . Foram 46 viagens internacionais e visitas a 41 países diferentes desde janeiro de 2023.",
+          "prova": "Levantamento independente das viagens: 41 países diferentes no mandato até junho de 2026, não 50."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estado de Minas",
+          "titulo": "Lula diz que EUA precisam mais do Brasil do que o contrário (15/10/2026)",
+          "url": "https://www.em.com.br/politica/2026/10/7521758-lula-diz-que-eua-precisam-mais-do-brasil-do-que-o-contrario.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula acrescentou que o Brasil também registrou crescimento médio de 10,5% nas relações comerciais com 50 países visitados e voltou a alcançar recordes de superávit comercial.",
+          "prova": "Registra a afirmação na cobertura da entrevista, sem fonte, período ou lista de países que permitam conferir a média."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Lula cita queda de 9% no comércio com EUA e avanço da China (15/10/2026)",
+          "url": "https://bpmoney.com.br/economia/lula-diz-que-eua-devem-se-preocupar-com-brasil-e-cita-avanco-comercial-da-china/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente também declarou que o comércio com um conjunto de 50 países visitados pelo governo registrou crescimento médio de 10,5%.",
+          "prova": "Segunda cobertura independente que repete o número sem indicar de onde ele sai."
+        }
+      ]
+    },
+    {
+      "id": "A041",
+      "veredito": "VERDADEIRO",
+      "resumo": "O recorde anual da série é de 2023, com superávit de US$ 98,8 bilhões; 2026 soma US$ 62,4 bi até setembro",
+      "explicacao": "O saldo da balança comercial de 2023, de US$ 98,8 bilhões (US$ 98.838 milhões), é o recorde da série histórica, segundo o IEDI, que trata os dados do MDIC, e segundo a divulgação do próprio MDIC reportada pelo SBT News. 2023 é ano do mandato atual, então a frase 'batemos recordes de superávit comercial' confere. O plural e o 'outra vez' não se sustentam para 2026: o acumulado de janeiro a setembro de 2026 é de US$ 62,4 bilhões e a projeção do MDIC coloca 2026 como o segundo maior ano, atrás de 2023. Isso vai na ressalva e não muda o veredito, porque o recorde existe e é do governo que fala.",
+      "numero_dito": null,
+      "numero_apurado": "US$ 98,8 bilhões em 2023, recorde da série",
+      "data_de_referencia": "ano de 2023 (recorde anual) e acumulado de janeiro a setembro de 2026",
+      "ressalva": "O recorde é do ano de 2023; a projeção do MDIC para 2026 é o segundo maior saldo, atrás de 2023.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Instituto de Estudos para o Desenvolvimento Industrial (IEDI)",
+          "titulo": "Carta IEDI n. 1257",
+          "url": "https://iedi.org.br/cartas/carta_iedi_n_1257.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O saldo de comércio de bens da economia brasileira atingiu o valor recorde de US$ 98,8 bilhões, em 2023 [...] O saldo de comércio de bens da economia brasileira somou US$ 98.838 milhões em 2023, cifra 60% superior à registrada em 2022 e recorde histórico.",
+          "prova": "Instituição de referência confirma que o saldo de 2023 é o recorde histórico."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Balança Comercial fecha 2023 com recorde histórico: superávit de US$ 98,8 bilhões",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/balanca-comercial-fecha-2023-com-recorde-historico-us-98-8-bilhoes",
+          "consultada_em": "2026-10-16",
+          "trecho": "A balança comercial brasileira teve superávit (saldo positivo) recorde em 2023: foram US$ 98,8 bilhões, resultado cerca de 60% maior do que no ano inteiro de 2022. É ainda o maior número em mais de 30 anos. Os dados foram divulgados nesta sexta-feira (05.jan) pelo Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC).",
+          "prova": "Reporta a divulgação do MDIC com o recorde de 2023."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Mercado & Consumo",
+          "titulo": "Balança comercial tem superávit de US$ 7,74 bilhões em setembro (07/10/2026)",
+          "url": "https://mercadoeconsumo.com.br/07/10/2026/economia/balanca-comercial-tem-superavit-de-us-774-bilhoes-em-setembro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "No acumulado de janeiro a setembro, a balança comercial registrou superávit de US$ 62,4 bilhões. [...] Mesmo com a queda, o resultado seria o segundo maior para um ano desde o início da série histórica, em 1989. Só perderia para 2023 (US$ 98,8 bilhões).",
+          "prova": "Situação na data da fala: 2026 não é recorde, e o recorde segue sendo 2023."
+        }
+      ]
+    },
+    {
+      "id": "A042",
+      "veredito": "VERDADEIRO",
+      "resumo": "Nenhuma contramedida foi aplicada contra os EUA; o governo só abriu o processo previsto na lei",
+      "explicacao": "A frase completa é 'eu não fiz a lei da reciprocidade, não quero fazer [...] se for necessário fazer, nós vamos fazer', ou seja, fala de usar a lei. As duas leituras do o_que_conferir conferem: a Lei 15.122/2025 nasceu do PL 2088/2023, aprovado pelo Congresso (o presidente só a sancionou), e as fontes registram que o governo abriu formalmente o processo de reciprocidade contra os EUA em 13 de agosto, sem aplicar tarifa ou outra contramedida. A reportagem do dia da entrevista diz que o presidente não apresentou prazo para uma decisão. O ponto que não é VERDADEIRO sem ressalva: o governo já acionou o rito da lei, com a abertura formal do processo em 13 de agosto de 2026; o que não houve foi a retaliação. Não foi achada fonte entre meados de agosto e 15 de outubro registrando contramedida aplicada, por isso confiança média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação em 15/10/2026; processo aberto em 13/08/2026",
+      "ressalva": "O governo abriu formalmente o processo da lei contra os EUA em 13 de agosto; o que não houve foi tarifa ou contramedida.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República",
+          "titulo": "Lei nº 15.122, de 11 de abril de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15122.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei: Art. 1º Esta Lei estabelece critérios para a suspensão de concessões comerciais, de investimentos e de obrigações relativas a direitos de propriedade intelectual, pelo Poder Executivo e em coordenação com o setor privado",
+          "prova": "A lei existe, foi decretada pelo Congresso e sancionada; aplicá-la é ato do Poder Executivo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Senado aprova Lei da Reciprocidade por unanimidade",
+          "url": "https://www.gazetadopovo.com.br/republica/senado-aprova-lei-da-reciprocidade-por-unanimidade-apos-manobra-de-randolfe/",
+          "consultada_em": "2026-10-16",
+          "trecho": "No início da noite desta terça-feira (1º), o plenário do Senado Federal aprovou, por unanimidade, o projeto de lei (PL 2088/2023) que garante ao Brasil a ativação de um dispositivo de retaliação em caso de barreiras tarifárias impostas por outros países.",
+          "prova": "A lei nasceu de projeto do Congresso, não do governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "Brasil aciona Lei da Reciprocidade em resposta a tarifas impostas pelos EUA",
+          "url": "https://www.band.com.br/politica/noticias/brasil-aciona-lei-da-reciprocidade-em-resposta-a-tarifas-impostas-pelos-eua-202608131947",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo brasileiro anunciou, nesta quinta-feira (13), a abertura formal de um processo de reciprocidade econômica contra os Estados Unidos . A medida fundamenta-se na Lei nº 15.122/2025 e surge como resposta a medidas unilaterais adotadas por Washington no âmbito da Secção 301 da sua legislação comercial.",
+          "prova": "O que o governo fez com a lei: abriu o processo, que é a ressalva."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Canal Rural",
+          "titulo": "Lei da Reciprocidade: Brasil tem a arma em mãos, mas ainda não puxou o gatilho (14/08/2026)",
+          "url": "https://www.canalrural.com.br/opiniao-noticias/lei-da-reciprocidade-brasil-tem-a-arma-em-maos-mas-ainda-nao-puxou-o-gatilho/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ao iniciar o procedimento previsto na Lei da Reciprocidade Econômica, o governo ainda não aplicou nenhuma tarifa contra produtos americanos. Colocou, porém, sobre a mesa um instrumento legal que poderá ser utilizado se o diálogo não avançar.",
+          "prova": "Fonte independente: o processo não aplicou contramedida."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Lula cita queda de 9% no comércio com EUA e avanço da China (15/10/2026)",
+          "url": "https://bpmoney.com.br/economia/lula-diz-que-eua-devem-se-preocupar-com-brasil-e-cita-avanco-comercial-da-china/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente não detalhou quais setores poderiam enfrentar eventuais medidas de reciprocidade nem apresentou um prazo para uma decisão.",
+          "prova": "Na data da fala, as medidas seguiam como eventuais, sem decisão."
+        }
+      ]
+    },
+    {
+      "id": "A043",
+      "veredito": "VERDADEIRO",
+      "resumo": "Violência lidera na Quaest de setembro, com 31%; no Datafolha de março, segurança tinha 19% e saúde 21%",
+      "explicacao": "A pergunta de principal problema do país coloca a segurança pública no topo ou empatada no topo nas pesquisas mais recentes antes da fala. Na Quaest de 30 de agosto a 1º de setembro, a violência é a principal preocupação, com 31%, e na pesquisa Quaest/Pax de 12 a 15 de setembro, com 28%. No Datafolha de março (pergunta espontânea sobre áreas de responsabilidade federal), saúde tem 21% e segurança 19%, 'no mesmo patamar' segundo o próprio instituto, com margem de dois pontos. 'No topo' se sustenta como primeiro lugar numa série e empate técnico com o primeiro na outra; não é IMPRECISO porque nenhuma pesquisa achada põe a segurança fora das duas primeiras posições. Os números da Quaest vêm de reportagens (N4) porque o relatório nacional do instituto não foi localizado; o do Datafolha vem do site do instituto.",
+      "numero_dito": null,
+      "numero_apurado": "31% (Quaest, 1º lugar); 19% contra 21% da saúde (Datafolha)",
+      "data_de_referencia": "Quaest de 30/08 a 01/09/2026; Quaest/Pax de 12 a 15/09/2026; Datafolha de março de 2026",
+      "ressalva": "No Datafolha a saúde aparece à frente, com 21% contra 19% da segurança, no mesmo patamar segundo o instituto.",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Quaest põe a violência em 1º lugar com folga; o Datafolha põe a saúde numericamente à frente da segurança, dentro da margem. As perguntas não são iguais (o Datafolha restringe a áreas de responsabilidade federal).",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Datafolha",
+          "titulo": "Saúde (21%) e segurança pública (19%) são áreas de responsabilidade federal mais problemáticas (12/03/2026)",
+          "url": "https://datafolha.folha.uol.com.br/opiniao-e-sociedade/2026/03/saude-21-e-seguranca-publica-19-sao-areas-de-responsabilidade-federal-mais-problematicas.shtml",
+          "consultada_em": "2026-10-16",
+          "trecho": "Considerando as áreas que são de responsabilidade do Governo Federal, 21% citam espontaneamente a saúde como o principal problema do país atualmente, índice similar ao registrado em dezembro de 2025 (20%). No mesmo patamar, 19% citam a segurança pública/ violência (ante 16% no levantamento anterior)",
+          "prova": "Divulgação do próprio instituto: segurança empatada no topo com a saúde, pergunta espontânea."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Quaest: violência é a maior preocupação para 31% dos eleitores",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722889-quaest-violencia-e-a-maior-preocupacao-para-31-dos-eleitores.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A violência permanece como a principal preocupação dos brasileiros, citada por 31% dos entrevistados, segundo pesquisa Quaest divulgada nesta quarta-feira (2). [...] A pesquisa Quaest, contratada pela TV Globo e pelo jornal O Globo, ouviu 2.004 eleitores entre os dias 30 de agosto e 1º de setembro. A margem de erro é de dois pontos porcentuais, para mais ou para menos, com nível de confiança de 95%. O levantamento foi registrado no Tribunal Superior Eleitoral (TSE) sob o protocolo BR-07065/2026.",
+          "prova": "Pesquisa nacional mais recente achada antes da fala: violência em 1º lugar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BNews",
+          "titulo": "Violência supera corrupção e economia entre principais problemas do Brasil, aponta Quaest",
+          "url": "https://www.bnews.com.br/noticias/policia/violencia-supera-corrupcao-e-economia-entre-principais-problemas-do-brasil-aponta-quaest.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A violência é apontada como o principal problema enfrentado pelo Brasil por 28% dos brasileiros, segundo a Pesquisa Nacional de Segurança e Tecnologia, realizada pela Quaest em parceria com a Pax e divulgada nesta sexta-feira (18).",
+          "prova": "Segunda medição de setembro com a violência em 1º lugar."
+        }
+      ]
+    },
+    {
+      "id": "A044",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Departamento de Estado designou PCC e CV como organizações terroristas estrangeiras em 2026",
+      "explicacao": "Em 28 de maio de 2026 o Departamento de Estado dos EUA classificou o PCC e o Comando Vermelho como Terroristas Globais Especialmente Designados (SDGT, pela Ordem Executiva 13224) e assinou a designação das duas facções como Organizações Terroristas Estrangeiras (FTO, pela seção 219 da lei de imigração, 8 U.S.C. §1189), publicada no Federal Register com efeito a partir de 5 de junho. A designação alcança as duas facções citadas, nos dois regimes. A frase confere.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "designação assinada em 28/05/2026, publicada em 05/06/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Departamento de Estado dos EUA (Federal Register)",
+          "titulo": "Public Notice 13030: Foreign Terrorist Organization Designation of Primeiro Comando da Capital and Comando Vermelho",
+          "url": "https://public-inspection.federalregister.gov/2026-11323.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Therefore, I hereby designate the aforementioned organizations and their respective aliases as Foreign Terrorist Organizations pursuant to section 219 of the INA. This determination shall be published in the Federal Register. These designations go into effect upon publication. Dated: May 28, 2026. Marco Rubio, Secretary of State,",
+          "prova": "O ato oficial que designa as duas facções como organizações terroristas estrangeiras."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "EUA contraria Lula e classifica PCC e CV como organizações terroristas",
+          "url": "https://www.correiodamanha.com.br/politica/2026/05/amp/289676-eua-contraria-lula-e-classifica-pcc-e-cv-como-organizacoes-terroristas.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo dos Estados Unidos contrariou o posicionamento do governo Lula e classificou como “Terroristas Globais Especialmente Designados” , a partir desta quinta-feira (28), as facções criminosas brasileiras Comando Vermelho (CV) e Primeiro Comando da Capital (PCC) . O comunicado do Departamento de Estado dos EUA, informou ainda que os dois grupos receberão a classificação de “Organizações Terroristas Estrangeiras” a partir do dia 5 de junho.",
+          "prova": "Cobertura independente com as duas designações e as datas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "EUA decidem classificar PCC e CV como organizações terroristas",
+          "url": "https://www.band.com.br/noticias/eua-decidem-classificar-pcc-e-cv-como-organizacoes-terroristas-202605281903",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Departamento de Estado dos Estados Unidos anunciou nesta quinta-feira (28) a designação do Comando Vermelho (CV) e do Primeiro Comando da Capital (PCC) como organizações terroristas . O governo americano também informou a intenção de classificar ambas as facções como Organizações Terroristas Estrangeiras (FTOs), medida que entra em vigor no dia 5 de junho.",
+          "prova": "Confirma o anúncio do Departamento de Estado."
+        }
+      ]
+    },
+    {
+      "id": "A045",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Itamaraty disse que a medida não traz benefício contra o crime organizado e põe em risco a soberania",
+      "explicacao": "Em ofício à Câmara de 1º de julho, assinado pelo chanceler Mauro Vieira, o governo registrou que a classificação 'não traz benefícios concretos ao combate ao crime organizado' (a primeira razão citada na pergunta) e que pode servir para ações unilaterais e extraterritoriais dos EUA contra pessoas e instituições brasileiras, com 'riscos concretos' à soberania e até a possibilidade de uso da força militar (a segunda razão, a ingerência). O Planalto também divulgou nota dizendo que a soberania é 'inegociável'. As duas razões atribuídas ao governo aparecem nas manifestações oficiais. Os trechos vêm de reportagens que tiveram acesso ao documento do Itamaraty; o ofício em si não foi capturado, por isso confiança média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "ofício do Itamaraty à Câmara de 01/07/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Governo Lula diz ver risco de intervenção militar dos EUA no Brasil",
+          "url": "https://www.poder360.com.br/poder-governo/governo-lula-diz-ver-risco-de-intervencao-militar-dos-eua-no-brasil/",
+          "consultada_em": "2026-10-16",
+          "trecho": "“O governo brasileiro tem reiterado sua posição de que tal classificação não traz benefícios concretos ao combate ao crime organizado, e vem buscando reforçar o diálogo bilateral para incrementar a cooperação na matéria, com vistas a identificar formas efetivas de atuação conjunta no enfrentamento ao crime organizado transnacional” , afirma o MRE.",
+          "prova": "A primeira razão (não resolve o problema) nas palavras do Itamaraty."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Veja por que carta do Itamaraty cita risco de ação militar dos EUA",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/07/7456178-veja-por-que-carta-do-itamaraty-cita-risco-de-acao-militar-dos-eua.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na visão do Itamaraty, a classificação de terrorista não traz \"benefícios concretos\" para o enfrentamento ao crime organizado e pode ter \"impactos relevantes\" no plano econômico brasileiro, assim como \"riscos concretos\" à soberania nacional. \"A referida classificação unilateral poderia ser invocada como justificativa para ações extraterritoriais sobre instituições brasileiras, em particular no âmbito financeiro, migratório e penal\", ressalta.",
+          "prova": "Leitura independente do mesmo documento, com as duas razões: sem benefício e risco à soberania."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Itamaraty destaca caráter unilateral de decisão dos EUA sobre PCC e CV e riscos à soberania nacional",
+          "url": "https://timesbrasil.com.br/brasil/itamaraty-destaca-carater-unilateral-de-decisao-dos-eua-sobre-pcc-e-cv-e-riscos-a-soberania-nacional/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O MRE também avaliou que a classificação das facções como organizações terroristas não traz benefícios concretos para a cooperação entre Brasil e Estados Unidos no enfrentamento ao crime organizado.",
+          "prova": "Terceira cobertura do posicionamento oficial."
+        }
+      ]
+    },
+    {
+      "id": "A046",
+      "veredito": "IMPRECISO",
+      "resumo": "Datafolha de junho: 59% concordam total ou em parte com a classificação, abaixo de dois terços",
+      "explicacao": "O Datafolha de 17 e 18 de junho de 2026 (registro BR-09956/2026) mediu 59% de concordância com a classificação do PCC e do CV como organizações terroristas, sendo 45% totalmente e 14% em parte. Dois terços equivalem a cerca de 66,7%; 59% fica 7,7 pontos abaixo, um desvio de cerca de 13% medido sobre o valor apurado (7,7 sobre 59), acima do limite de 10% da régua da METODOLOGIA §2.2. A essência (a maioria concorda, mês de junho, instituto e categorias de resposta) está certa; o tamanho da maioria está materialmente exagerado. Por isso IMPRECISO e não FALSO. Sobre o segundo ponto do o_que_conferir: o Datafolha apresenta o dado como concordância com a classificação 'independente da ação do governo dos EUA', na mesma pesquisa sobre a designação americana; algumas reportagens o descrevem como apoio à decisão dos EUA. 🔧 Na revisão de coerência entre lotes (16/out/2026) o desvio passou a ser medido sobre o valor apurado, a base usada nas outras checagens do caso (A035, A148, A154, A190); antes estava sobre o número dito (11,5%). O veredito não muda; ver checagens/revisao/correcoes-coerencia.md.",
+      "numero_dito": "dois terços, aproximadamente",
+      "numero_apurado": "59% (45% totalmente e 14% em parte)",
+      "data_de_referencia": "Datafolha de 17 e 18 de junho de 2026, divulgado em 23 de junho",
+      "ressalva": "O Datafolha apresenta o dado como concordância com a classificação, independente da ação do governo dos EUA.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": "O Datafolha descreve a pergunta como concordância com a classificação independente da ação dos EUA; o SBT News a descreve como concordância com a decisão dos EUA. O percentual é o mesmo nas três fontes.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Datafolha",
+          "titulo": "83% declaram ter conhecimento sobre a classificação do PCC e CV como terroristas pelo governo dos EUA (24/06/2026)",
+          "url": "https://datafolha.folha.uol.com.br/opiniao-e-sociedade/2026/06/83-declaram-ter-conhecimento-sobre-a-classificacao-do-pcc-e-cv-como-terroristas-pelo-governo-dos-eua.shtml",
+          "consultada_em": "2026-10-16",
+          "trecho": "Independente da ação do governo dos EUA, a maioria dos brasileiros (59%) concorda com a classificação do PCC e CV como organizações terroristas (45% totalmente e 14% em parte), 1% não concorda e nem discorda, 33% discordam (11% em parte e 22% totalmente) e 7% não opinaram.",
+          "prova": "O número do próprio instituto: 59%, não dois terços."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Datafolha: maioria dos brasileiros apoia classificar PCC e CV como terroristas",
+          "url": "https://www.gazetadopovo.com.br/brasil/datafolha-maioria-brasileiros-classificar-pcc-cv-terroristas/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo o levantamento, 59% dos entrevistados concordam total ou parcialmente com esse enquadramento, enquanto 33% se posicionam contra a medida. [...] O Datafolha ouviu 2.004 pessoas em 139 municípios nos dias 17 e 18 de junho. A margem de erro é de dois pontos percentuais para mais ou para menos e a pesquisa foi registrada na Justiça Eleitoral sob o número BR-09956/2026.",
+          "prova": "Confirma o percentual, a data de campo e o registro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Datafolha: 59% apoiam classificar PCC e CV como terroristas",
+          "url": "https://sbtnews.sbt.com.br/noticia/brasil/datafolha-59-apoiam-classificar-pcc-e-cv-como-terroristas",
+          "consultada_em": "2026-10-16",
+          "trecho": "Pesquisa Datafolha divulgada nesta terça-feira (23) aponta que 59% dos brasileiros concordam total ou parcialmente com a decisão dos Estados Unidos de classificar o PCC (Primeiro Comando da Capital) e o Comando Vermelho (CV) como organizações terroristas .",
+          "prova": "Mesmo percentual; descreve a pergunta como apoio à decisão americana."
+        }
+      ]
+    },
+    {
+      "id": "A047",
+      "veredito": "FALSO",
+      "resumo": "A lei americana não exige terrorismo de Estado; desde 2025 a lista inclui cartéis do narcotráfico",
+      "explicacao": "Os critérios da designação de organização terrorista estrangeira nos EUA (8 U.S.C. §1189) são três: ser organização estrangeira, praticar atividade terrorista ou terrorismo, e essa atividade ameaçar cidadãos americanos ou a segurança nacional dos EUA. Não há exigência de que seja terrorismo de Estado nem de motivação política. E a lista já inclui grupos criminosos de motivação financeira: em fevereiro de 2025 o Departamento de Estado designou o Cartel de Sinaloa, o CJNG, o Tren de Aragua, o MS-13 e outros cartéis, e em 2026 o próprio PCC e o CV foram designados pela mesma seção 219. As fontes primárias contradizem diretamente a descrição de que a classificação americana se limita a terrorismo de Estado ou a ataques como os de 11 de setembro. Por isso FALSO e não IMPRECISO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "8 U.S.C. §1189 vigente; designações de 20/02/2025 e de 05/06/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Legal Information Institute (Cornell), texto do Código dos EUA",
+          "titulo": "8 U.S. Code § 1189 - Designation of foreign terrorist organizations",
+          "url": "https://www.law.cornell.edu/uscode/text/8/1189",
+          "consultada_em": "2026-10-16",
+          "trecho": "(1) In general The Secretary is authorized to designate an organization as a foreign terrorist organization in accordance with this subsection if the Secretary finds that— (A) the organization is a foreign organization ; (B) the organization engages in terrorist activity (as defined in section 1182(a)(3)(B) of this title or terrorism (as defined in section 2656f(d)(2) of title 22 ), or retains the capability and intent to engage in terrorist activity or terrorism) [1] ; and (C) the terrorist activity or terrorism of the organization threatens the security of United States nationals or the national security of the United States.",
+          "prova": "Os critérios legais: nenhum exige terrorismo de Estado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Departamento de Estado dos EUA (Federal Register, via GovInfo)",
+          "titulo": "Public Notice 12672: Foreign Terrorist Organization Designations of Tren de Aragua, Mara Salvatrucha, Cartel de Sinaloa e outros (20/02/2025)",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2025-02-20/html/2025-02873.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Foreign Terrorist Organization Designations of Tren de Aragua, Mara Salvatrucha, Cartel de Sinaloa, Cartel de Jalisco Nueva Generacion, Carteles Unidos, Cartel del Noreste, Cartel del Golfo, and La Nueva Familia Michoacana [...] Therefore, I hereby designate the aforementioned organizations and their respective aliases as Foreign Terrorist Organizations pursuant to section 219 of the INA.",
+          "prova": "A lista americana já incluía cartéis do narcotráfico desde 2025."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Departamento de Estado dos EUA (Federal Register)",
+          "titulo": "Public Notice 13030: Foreign Terrorist Organization Designation of Primeiro Comando da Capital and Comando Vermelho",
+          "url": "https://public-inspection.federalregister.gov/2026-11323.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "I have concluded that there is a sufficient factual basis to find that the relevant circumstances described in section 219 of the Immigration and Nationality Act, as amended (hereinafter \"INA\") (8 U.S.C. § 1189), exist with respect to: Primeiro Comando da Capital (also known as PCC, First Capital Command) and Comando Vermelho (also known as Red Command). [...] Dated: May 28, 2026.",
+          "prova": "As facções brasileiras foram designadas pela mesma regra, o que contradiz a leitura restrita."
+        }
+      ]
+    },
+    {
+      "id": "A048",
+      "veredito": "VERDADEIRO",
+      "resumo": "Na Casa Branca, em 7 de maio, Lula propôs a Trump um grupo contra o crime organizado e diz ter entregue tudo por escrito",
+      "explicacao": "No encontro de 7 de maio de 2026 na Casa Branca, Lula propôs a Trump um grupo de trabalho internacional contra o crime organizado, o que é confirmado pelo chanceler Mauro Vieira (mecanismo amplo contra o crime organizado transnacional, com tráfico de armas, drogas e lavagem de dinheiro) e foi anunciado antes pelo vice Geraldo Alckmin. Lula disse no mesmo dia que terminou a reunião entregando as propostas escritas em inglês. A Band registrou, de forma independente, que o presidente entregou a Trump um documento com argumentos contra a classificação das facções. Não há registro público do lado americano sobre o documento, por isso a entrega por escrito fica na ressalva e a confiança é média. A frase cita a experiência da Polícia Federal, e Lula citou a PF ao apresentar a proposta.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "reunião na Casa Branca em 07/05/2026",
+      "ressalva": "A entrega por escrito é relatada pelo próprio presidente; não há confirmação pública do governo dos EUA.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Itatiaia",
+          "titulo": "Lula diz que não discutiu sobre PCC e Comando Vermelho com Trump",
+          "url": "https://www.itatiaia.com.br/politica/lula-diz-que-nao-discutiu-sobre-pcc-e-comando-vermelho-com-trump/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em entrevista após o encontro com Donald Trump nesta quinta-feira (7), o presidente Luiz Inácio Lula da Silva (PT) disse que apresentou a seu par americano a proposta de construir um grupo de trabalho internacional para combater o crime organizado [...] “Não foi discutido isso (PCC ou CV como organizações terroristas). Entreguei por escrito cada assunto que conversei com o presidente Trump. Eu terminei a reunião entregando para ele as propostas escritas em inglês, para ele não ter dúvida sobre o que nós queremos.",
+          "prova": "A proposta e a entrega por escrito, na fala do presidente logo após a reunião."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Portal Tela",
+          "titulo": "Vieira diz que Lula propôs a Trump mecanismo abrangente contra crime organizado",
+          "url": "https://www.portaltela.com/noticias/internacional/2026/05/13/vieira-diz-que-lula-propos-a-trump-mecanismo-abrangente-contra-crime-organizado/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ministro das Relações Exteriores, Mauro Vieira, afirmou que o presidente Luiz Inácio Lula da Silva propôs aos EUA a criação de um mecanismo mais amplo de combate ao crime organizado transnacional. A ideia foi apresentada durante reunião na Casa Branca, em Washington, na quinta-feira (7).",
+          "prova": "Confirmação da proposta por outro integrante do governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "EUA decidem classificar PCC e CV como organizações terroristas",
+          "url": "https://www.band.com.br/noticias/eua-decidem-classificar-pcc-e-cv-como-organizacoes-terroristas-202605281903",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo Lula havia adotado posição oposta. O presidente entregou a Trump um documento com argumentos contrários à classificação das facções como organizações terroristas.",
+          "prova": "Registro independente de que houve documento escrito entregue a Trump."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Lula levará à reunião com Trump proposta de acordo de combate ao crime organizado, diz Alckmin",
+          "url": "https://www.diariodepernambuco.com.br/amp/politica/2026/05/11713616-lula-levara-a-reuniao-com-trump-proposta-de-acordo-de-combate-ao-crime-organizado-diz-alckmin.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula deve levar a Trump, entre outros assuntos, a proposta de assinatura de um novo acordo de combate ao crime organizado, segundo Alckmin.",
+          "prova": "A proposta estava prevista antes do encontro."
+        }
+      ]
+    },
+    {
+      "id": "A049",
+      "veredito": "VERDADEIRO",
+      "resumo": "O projeto é da Presidência e virou a Lei 15.358, de março de 2026, com penas de 20 a 40 anos",
+      "explicacao": "O PL 5582/2025, chamado PL Antifacção, tem autoria da Presidência da República (o presidente assinou e enviou o texto ao Congresso em 31 de outubro de 2025), foi aprovado pela Câmara e pelo Senado e virou a Lei nº 15.358, de 24 de março de 2026, sancionada com veto parcial. A lei cria o crime de domínio social estruturado com pena de reclusão de 20 a 40 anos e endurece benefícios e progressão para lideranças. 'Criamos, aprovamos' e 'aumenta a pena' conferem. O texto foi alterado no Congresso: a proposta original anunciada pelo governo previa pena de até 30 anos.",
+      "numero_dito": null,
+      "numero_apurado": "Lei nº 15.358, de 24/03/2026; reclusão de 20 a 40 anos",
+      "data_de_referencia": "sanção em 24/03/2026",
+      "ressalva": "O texto mudou no Congresso; a proposta enviada pelo governo previa pena de até 30 anos.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Projeto de Lei n° 5582, de 2025 (PL Antifacção)",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/171725",
+          "consultada_em": "2026-10-16",
+          "trecho": "Projeto de Lei n° 5582, de 2025 PL Antifacção Ver também: VET 14/2026 Autoria: Presidência da República Autoria: Câmara dos Deputados Nº na Câmara dos Deputados: PL 5582/2025 Norma Gerada: Lei nº 15.358 de 24/03/2026",
+          "prova": "Autoria do Executivo e a lei gerada."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República",
+          "titulo": "Lei nº 15.358, de 24 de março de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15358.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nº 15.358, DE 24 DE MARÇO DE 2026 Mensagem de veto Institui o Marco Legal do Combate ao Crime Organizado no Brasil (Lei Raul Jungmann); [...] Pena - reclusão, de 20 (vinte) a 40 (quarenta) anos, sem prejuízo das sanções correspondentes à ameaça, à violência ou a de outros crimes previstos na legislação penal.",
+          "prova": "O texto sancionado e a pena do novo crime."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Lula assina projeto que endurece lei de combate às organizações criminosas (01/11/2025)",
+          "url": "https://www.dgabc.com.br/Noticia/4266633/lula-assina-projeto-antifaccao-que-endurece-lei-de-combate-as-organizacoes-criminosas",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"Assinei e envio hoje sexta-feira, 31 ao Congresso Nacional o Projeto da Lei Antifacção, elaborado pelo Governo do Brasil, que eleva para até 30 anos as penas para quem integra as facções criminosas que dominam muitos bairros e comunidades\", disse o presidente em sua rede social.",
+          "prova": "A origem no governo e a pena da proposta original."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil de Fato",
+          "titulo": "Lula sanciona lei antifacção e ressalta prisão de magnatas do crime",
+          "url": "https://www.brasildefato.com.br/2026/03/24/lula-sanciona-lei-antifaccao-e-ressalta-prisao-de-magnatas-do-crime/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente Luiz Inácio Lula da Silva sancionou nesta terça-feira (24) o Projeto de Lei Antifacção , que prevê o aumento de penas pela participação em organização criminosa ou milícia, além de facilitar a apreensão de bens dos envolvidos.",
+          "prova": "A sanção e o aumento de penas."
+        }
+      ]
+    },
+    {
+      "id": "A050",
+      "veredito": "IMPRECISO",
+      "resumo": "A Constituição põe as polícias civis e militares sob os governadores, mas também cria a Polícia Federal e a PRF",
+      "explicacao": "O artigo 144 da Constituição lista entre os órgãos de segurança pública a polícia federal, a polícia rodoviária federal e a polícia ferroviária federal, mantidas pela União, e dá à Polícia Federal, entre outras funções, prevenir e reprimir o tráfico de drogas e apurar infrações com repercussão interestadual ou internacional. Então a frase de que a Constituição 'nunca permitiu que a União se metesse na segurança pública' está errada no que afirma. O que está certo é o núcleo do argumento: as polícias civis, militares e penais estaduais se subordinam aos governadores (§6º), e a Constituição não dá à União a coordenação nacional da área, que é o que a PEC do governo propõe e que, em 15/10/2026, seguia em tramitação no Senado. Como a frase acerta o essencial do arranjo (polícia ostensiva e investigação comum são dos estados) e exagera o resto, o veredito é IMPRECISO e não FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Constituição vigente em 15/10/2026 (PEC 18/2025 ainda em tramitação)",
+      "ressalva": "A PEC do governo, que amplia o papel da União na coordenação, ainda estava no Senado na data da fala.",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República",
+          "titulo": "Constituição da República Federativa do Brasil de 1988, art. 144",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 144. A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio, através dos seguintes órgãos: I - polícia federal; II - polícia rodoviária federal; III - polícia ferroviária federal; IV - polícias civis; V - polícias militares e corpos de bombeiros militares. [...] § 1º A polícia federal, instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira, destina-se a: [...] II - prevenir e reprimir o tráfico ilícito de entorpecentes e drogas afins, o contrabando e o descaminho, sem prejuízo da ação fazendária e de outros órgãos públicos nas respectivas áreas de competência; [...] § 6º As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios.",
+          "prova": "O texto vigente: a União tem polícias próprias na segurança pública, e as polícias estaduais respondem aos governadores."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara)",
+          "titulo": "Proposta do governo muda estrutura da segurança pública em busca de maior integração na área",
+          "url": "https://www.camara.leg.br/noticias/1153668-PROPOSTA-DO-GOVERNO-MUDA-ESTRUTURA-DA-SEGURANCA-PUBLICA-EM-BUSCA-DE-MAIOR-INTEGRACAO-NA-AREA",
+          "consultada_em": "2026-10-16",
+          "trecho": "A proposta está baseada em um tripé: constitucionaliza o Sistema Único de Segurança Pública (Susp), hoje amparado por lei ordinária ( Lei 13.675/18 ); amplia competências de órgãos de segurança, como a Polícia Federal (PF); e fortalece o papel da União no planejamento e coordenação da segurança pública.",
+          "prova": "O que a Constituição não dá hoje e a PEC propõe: o papel de coordenação da União."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Proposta de Emenda à Constituição n° 18, de 2025",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172997",
+          "consultada_em": "2026-10-16",
+          "trecho": "Situação Atual Em tramitação --> --> Último local: 15/10/2026 - Plenário do Senado Federal (Secretaria Legislativa do Senado Federal) Último estado: 15/10/2026 - PRONTO PARA DELIBERAÇÃO DO PLENÁRIO",
+          "prova": "Na data da fala a PEC não tinha sido promulgada; o art. 144 vigente é o da Constituição atual."
+        }
+      ]
+    },
+    {
+      "id": "A051",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PEC 18/2025, da Segurança Pública, tem autoria da Presidência da República e está no Senado",
+      "explicacao": "A Proposta de Emenda à Constituição nº 18, de 2025, a PEC da Segurança Pública, foi elaborada pelo governo federal e tem como autora a Presidência da República, segundo o Senado e a Agência Câmara. Foi aprovada pela Câmara em março de 2026, com o texto reformulado pelo relator Mendonça Filho, e na data da fala aguardava votação no plenário do Senado. 'Nós mandamos a PEC' confere.",
+      "numero_dito": null,
+      "numero_apurado": "PEC 18/2025",
+      "data_de_referencia": "PEC apresentada em 2025; situação em 15/10/2026",
+      "ressalva": "O texto foi reformulado na Câmara pelo relator Mendonça Filho.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Proposta de Emenda à Constituição n° 18, de 2025",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172997",
+          "consultada_em": "2026-10-16",
+          "trecho": "Da COMISSÃO DE CONSTITUIÇÃO, JUSTIÇA E CIDADANIA, sobre Proposta de Emenda à Constituição n° 18, de 2025, de Presidência da República, que Altera os arts. 5º, 15, 22, 23, 24, 40, 49, 84, 103-B, 130-A e 144 da Constituição Federal",
+          "prova": "Autoria formal da Presidência da República."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara)",
+          "titulo": "Proposta do governo muda estrutura da segurança pública em busca de maior integração na área",
+          "url": "https://www.camara.leg.br/noticias/1153668-PROPOSTA-DO-GOVERNO-MUDA-ESTRUTURA-DA-SEGURANCA-PUBLICA-EM-BUSCA-DE-MAIOR-INTEGRACAO-NA-AREA",
+          "consultada_em": "2026-10-16",
+          "trecho": "Elaborada pelo governo federal, a Proposta de Emenda à Constituição (PEC) 18/25 reconfigura a estrutura de segurança pública no Brasil, buscando maior integração e coordenação entre os diferentes níveis federativos e órgãos de segurança.",
+          "prova": "A Câmara registra a PEC como proposta do governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Câmara aprova PEC da Segurança Pública em primeiro turno",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/camara-aprova-pec-da-seguranca-publica-em-primeiro-turno-800521/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Câmara dos Deputados aprovou nesta quarta-feira, 4, em primeiro turno, a Proposta de Emenda à Constituição (PEC) da Segurança Pública (18/2025), que amplia e regulamenta a integração entre as forças de segurança dos três níveis da federação. A proposta é considerada uma das prioridades do governo federal na área desde 2025 e teve o texto reformulado na Câmara sob relatoria do deputado Mendonça Filho (União Brasil-PE).",
+          "prova": "Tramitação e mudança do texto na Câmara."
+        }
+      ]
+    },
+    {
+      "id": "A052",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pesquisa do Fórum com o Datafolha: 78,6% temem ser roubados na rua e 78,8% ter o celular roubado",
+      "explicacao": "A pesquisa 'Medo do crime e eleições 2026: os gatilhos da insegurança', do Fórum Brasileiro de Segurança Pública com o Datafolha (2.004 entrevistas em 137 municípios, 9 e 10 de março de 2026), registra medo de ser roubado ou assaltado na rua para 78,6%, de ter o celular furtado ou roubado para 78,8%, de roubo à mão armada para 82,3%, de ser morto durante um assalto para 80,7% e de golpe pela internet ou celular para 83,2%. 'Quase 80%' para o roubo na rua e o celular confere, e os outros medos citados (morte em assalto, golpe digital) estão na mesma pesquisa, até com percentuais maiores.",
+      "numero_dito": "quase 80%",
+      "numero_apurado": "78,6% (roubo na rua) e 78,8% (celular)",
+      "data_de_referencia": "pesquisa de campo em 9 e 10 de março de 2026",
+      "ressalva": "Os números exatos são 78,6% para roubo na rua e 78,8% para celular; o medo de golpe digital, 83,2%, é o maior.",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública",
+          "titulo": "Medo do crime e eleições 2026: os gatilhos da insegurança (relatório completo)",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2026/05/os-gatilhos-da-inseguranca-relatorio-completo-2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A amostra total foi de 2.004 entrevistas. [...] A margem de erro para o total da amostra é de 2 pontos para mais ou para menos, considerando um nível de confiança de 95%. Os maiores medos relatados são: golpe pela internet/celular (83,2%), roubo à mão armada (82,3%), ser morto durante um assalto (80,7%), ter o celular furtado ou roubado (78,8%), ser roubado/assaltado na rua (78,6%), ser vítima de \"bala perdida\" (77,5%), ter a residência invadida (76,1%) e ser assassinado (75,1%).",
+          "prova": "O dado do próprio Fórum, com todos os medos citados na pergunta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Brasileiro troca medo da rua pelo digital",
+          "url": "https://www.dgabc.com.br/Noticia/4318769/brasileiro-troca-medo-da-rua-pelo-digital",
+          "consultada_em": "2026-10-16",
+          "trecho": "Atualmente, o maior temor nacional, apontado por 83,2% dos entrevistados, é o de cair em golpes digitais e perder dinheiro pela internet, superando o medo do roubo à mão armada (82,3%), de ser morto durante um assalto (80,7%) e de ter o celular furtado ou roubado (78,8%). [...] O levantamento ouviu 2.004 pessoas em 137 municípios entre os dias 9 e 10 de março de 2026, com margem de erro de 2 pontos percentuais.",
+          "prova": "Leitura independente da pesquisa, com a data de campo."
+        }
+      ]
+    }
+  ]
+}

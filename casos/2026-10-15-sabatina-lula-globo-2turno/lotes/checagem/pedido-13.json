@@ -1,0 +1,244 @@
+PEDIDO DE CHECAGEM 13 de 15 · alegações A157 a A169
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-13.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A157",
+      "inicio_s": 2273.5,
+      "fim_s": 2277.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "É por isso que nós fazemos a maior política de crédito que esse país já conheceu",
+      "citacao_card": "nós fazemos a maior política de crédito que esse país já conheceu",
+      "afirmacao": "O governo Lula faz a maior política de crédito da história do país",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre dívida pública, defendendo crédito e microcrédito",
+      "o_que_conferir": [
+        "volume de crédito dos programas federais (microcrédito, Desenrola, consignado, BNDES, Pronampe) no governo atual contra os anteriores, em valores corrigidos",
+        "qual medida sustenta 'maior': volume, número de tomadores ou subsídio"
+      ]
+    },
+    {
+      "id": "A158",
+      "inicio_s": 2285.3,
+      "fim_s": 2288.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu cansei de brigar com Guido Mantega e com Meirelles",
+      "afirmacao": "Lula teve divergências frequentes com Guido Mantega e Henrique Meirelles sobre política econômica",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre dívida pública, defendendo a microeconomia",
+      "o_que_conferir": [
+        "registros públicos (entrevistas, memórias, reportagens da época) de divergência entre Lula e Mantega e entre Lula e Meirelles",
+        "o período em que cada um esteve no cargo nos governos Lula"
+      ]
+    },
+    {
+      "id": "A159",
+      "inicio_s": 2300.9,
+      "fim_s": 2302.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu tinha acabado com a fome em 2014",
+      "afirmacao": "Em 2014, o Brasil havia saído do Mapa da Fome",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "desenvolvimento-social",
+      "contexto": "Resposta sobre dívida pública, defendendo a distribuição de renda",
+      "o_que_conferir": [
+        "relatório SOFI da FAO de 2014 e o critério de saída do Mapa da Fome (prevalência de subalimentação abaixo de 2,5%)",
+        "em que governo e em que período a queda aconteceu (2014 já era o governo Dilma)"
+      ]
+    },
+    {
+      "id": "A160",
+      "inicio_s": 2302.9,
+      "fim_s": 2306.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu voltei tinha 33 milhões de pessoas passando por uma outra vez",
+      "citacao_card": "quando eu voltei tinha 33 milhões de pessoas",
+      "afirmacao": "Quando Lula voltou à presidência, em 2023, havia 33 milhões de pessoas passando fome no Brasil",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "desenvolvimento-social",
+      "contexto": "Continuação da frase anterior sobre a fome; a transcrição registra 'passando por uma outra vez', e o sentido de fome vem da frase anterior",
+      "o_que_conferir": [
+        "Inquérito da Rede PENSSAN (2021-2022) sobre insegurança alimentar grave e o número de pessoas",
+        "dados oficiais da PNAD Contínua (IBGE) sobre insegurança alimentar grave em 2023, para comparar a definição"
+      ]
+    },
+    {
+      "id": "A161",
+      "inicio_s": 2349.7,
+      "fim_s": 2354.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Alguém está anunciando como meu adversário que não tem aumento do salário mínimo acima da inflação",
+      "afirmacao": "O adversário de Lula no 2º turno anunciou que não haverá aumento do salário mínimo acima da inflação",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Fim da resposta sobre dívida pública e política fiscal",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE e declarações públicas do candidato adversário (Flávio Bolsonaro) sobre a regra do salário mínimo",
+        "se a proposta fala em reajuste só pela inflação ou em outra regra"
+      ]
+    },
+    {
+      "id": "A162",
+      "inicio_s": 2351.7,
+      "fim_s": 2355.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não tem aumento do salário mínimo acima da inflação. No meu caso, tem",
+      "citacao_card": "No meu caso, tem",
+      "afirmacao": "No governo Lula, o salário mínimo tem aumento acima da inflação",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Fim da resposta sobre dívida pública e política fiscal",
+      "o_que_conferir": [
+        "regra de valorização do salário mínimo em vigor (Lei 14.663/2023) e o limite aplicado pelo arcabouço fiscal a partir de 2025",
+        "reajustes de 2023 a 2026 contra o INPC do período"
+      ]
+    },
+    {
+      "id": "A163",
+      "inicio_s": 2364.5,
+      "fim_s": 2368.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu quero ouvir o senhor sobre energia elétrica, porque é o principal insumo",
+      "citacao_card": "energia elétrica, porque é o principal insumo",
+      "afirmacao": "A energia elétrica é o principal insumo da indústria brasileira",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação da energia elétrica nos custos da indústria, IBGE (PIA) ou CNI",
+        "se a fonte trata a energia como o maior item de custo ou como um dos principais"
+      ]
+    },
+    {
+      "id": "A164",
+      "inicio_s": 2371.0,
+      "fim_s": 2374.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O Brasil tem uma matriz energética limpa, das mais limpas do mundo",
+      "afirmacao": "A matriz energética brasileira está entre as mais limpas do mundo",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação de fontes renováveis na matriz energética e na matriz elétrica, EPE (Balanço Energético Nacional), contra a média mundial (IEA)",
+        "se a comparação vale para a matriz energética ou só para a elétrica"
+      ]
+    },
+    {
+      "id": "A165",
+      "inicio_s": 2374.8,
+      "fim_s": 2377.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "produz energia a custo baixo",
+      "afirmacao": "O Brasil produz energia elétrica a custo baixo",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "custo de geração no Brasil (preços de leilão da ANEEL/CCEE, custo nivelado da EPE) contra referências internacionais",
+        "a diferença entre custo de geração e tarifa final ao consumidor"
+      ]
+    },
+    {
+      "id": "A166",
+      "inicio_s": 2377.7,
+      "fim_s": 2381.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas só este ano a tarifa já subiu o dobro da inflação",
+      "afirmacao": "Em 2026, a tarifa de energia elétrica subiu o dobro da inflação",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "IPCA acumulado em 2026 do subitem energia elétrica residencial contra o IPCA geral, IBGE, até o último mês divulgado antes de 15/out/2026",
+        "se 'a tarifa' é o índice de preço ao consumidor ou os reajustes homologados pela ANEEL"
+      ]
+    },
+    {
+      "id": "A167",
+      "inicio_s": 2382.0,
+      "fim_s": 2387.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo fez um programa para ajudar os mais pobres, ampliou a tarifa social",
+      "afirmacao": "O governo Lula ampliou a tarifa social de energia elétrica",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "norma que ampliou a tarifa social (medida provisória ou lei de 2025-2026) e o número de famílias atendidas antes e depois, ANEEL e MME"
+      ]
+    },
+    {
+      "id": "A168",
+      "inicio_s": 2388.1,
+      "fim_s": 2391.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas tem uma parcela grande da população que está pagando mais",
+      "afirmacao": "Uma parcela grande da população fora da tarifa social está pagando mais pela energia elétrica",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "reajustes tarifários das distribuidoras em 2026, ANEEL, e quantas unidades consumidoras residenciais ficam fora da tarifa social",
+        "se a ampliação da tarifa social foi financiada por encargo pago pelos demais consumidores (CDE)"
+      ]
+    },
+    {
+      "id": "A169",
+      "inicio_s": 2399.9,
+      "fim_s": 2404.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "É importante lembrar que a grande parte da energia brasileira é privada hoje",
+      "citacao_card": "a grande parte da energia brasileira é privada hoje",
+      "afirmacao": "Hoje a maior parte do setor elétrico brasileiro é privada",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação de empresas privadas na geração, na transmissão e na distribuição, ANEEL",
+        "como a Eletrobras é classificada depois da privatização"
+      ]
+    }
+  ]
+}

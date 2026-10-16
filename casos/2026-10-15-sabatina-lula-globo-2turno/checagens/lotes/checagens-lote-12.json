@@ -1,0 +1,714 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A144",
+      "veredito": "IMPRECISO",
+      "resumo": "Pelo PIB em dólar do FMI e do Banco Mundial, o Brasil era a 13ª economia em 2002 e a 14ª em 2003",
+      "explicacao": "A posição se mede pelo PIB anual em dólares correntes. Na série do FMI (World Economic Outlook de outubro de 2026), doze países tinham PIB maior que o do Brasil em 2002 (Estados Unidos, Japão, Alemanha, Reino Unido, França, China, Itália, México, Canadá, Espanha, Coreia do Sul e Índia), o que põe o Brasil em 13º; em 2003 a Holanda também ficou à frente e o Brasil caiu para 14º. A série do Banco Mundial dá a mesma ordem nos dois anos. Em paridade de poder de compra, a outra medida usual, o FMI põe o Brasil em 10º em 2002 e em 2003. Nenhuma das duas medidas dá a 12ª posição. A essência da frase (o Brasil estava fora das dez maiores quando Lula assumiu, e subiu depois, ver A147) se sustenta, mas a posição citada está uma a duas casas acima da registrada: por isso IMPRECISO, e não FALSO.",
+      "numero_dito": "12ª economia do mundo",
+      "numero_apurado": "13ª em 2002 e 14ª em 2003, pelo PIB em US$ correntes",
+      "data_de_referencia": "2002 e 2003 (PIB anual em dólares correntes; FMI, WEO de outubro de 2026, e Banco Mundial)",
+      "ressalva": "Em paridade de poder de compra, o FMI põe o Brasil em 10º nos dois anos",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "13ª",
+          "de": "2002: 10929.1, 4245.946, 2100.865, 1785.889, 1491.373, 1489.832, 1280.84, 810.666, 760.149, 708.437, 649.747 e 514.938 acima de 509.798",
+          "como": "contagem dos países com PIB em US$ maior que o do Brasil em 2002 na série do FMI"
+        },
+        {
+          "valor": "14ª",
+          "de": "2003: 11456.45, 4573.415, 2534.081, 2054.763, 1834.637, 1683.911, 1582.534, 907.736, 895.599, 765.55, 728.497, 607.701 e 582.29 acima de 558.232",
+          "como": "contagem dos países com PIB em US$ maior que o do Brasil em 2003 na série do FMI"
+        },
+        {
+          "valor": "10º",
+          "de": "2002: 10929.1, 4112.135, 3540.062, 2746.222, 2227.014, 1910.54, 1864.487, 1779.856 e 1779.247 acima de 1579.574",
+          "como": "contagem dos países com PIB em PPC maior que o do Brasil em 2002 na série do FMI"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: PIB em dólares correntes (NGDPD), US$ bilhões, todos os países",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDPD?periods=2002,2003,2010,2022,2025,2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"USA\":{ [...] \"2002\":10929.1,\"2003\":11456.45 [...] \"JPN\":{ [...] \"2002\":4245.946,\"2003\":4573.415 [...] \"DEU\":{ [...] \"2002\":2100.865,\"2003\":2534.081 [...] \"GBR\":{ [...] \"2002\":1785.889,\"2003\":2054.763 [...] \"FRA\":{ [...] \"2002\":1491.373,\"2003\":1834.637 [...] \"CHN\":{ [...] \"2002\":1489.832,\"2003\":1683.911 [...] \"ITA\":{ [...] \"2002\":1280.84,\"2003\":1582.534 [...] \"MEX\":{ [...] \"2002\":810.666,\"2003\":765.55 [...] \"CAN\":{ [...] \"2002\":760.149,\"2003\":895.599 [...] \"ESP\":{ [...] \"2002\":708.437,\"2003\":907.736 [...] \"KOR\":{ [...] \"2002\":649.747,\"2003\":728.497 [...] \"IND\":{ [...] \"2002\":514.938,\"2003\":607.701 [...] \"NLD\":{ [...] \"2002\":475.194,\"2003\":582.29 [...] \"BRA\":{ [...] \"2002\":509.798,\"2003\":558.232",
+          "prova": "Os valores de 2002 e 2003 dos países à frente do Brasil e do próprio Brasil: 13º em 2002 e 14º em 2003."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "PIB em US$ correntes (NY.GDP.MKTP.CD), todos os países, 2002 e 2003",
+          "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?date=2002:2003&format=json&per_page=600",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"USA\",\"date\":\"2002\",\"value\":10929108000000 [...] \"countryiso3code\":\"JPN\",\"date\":\"2002\",\"value\":4245946980572.3 [...] \"countryiso3code\":\"DEU\",\"date\":\"2002\",\"value\":2102350798305.89 [...] \"countryiso3code\":\"GBR\",\"date\":\"2002\",\"value\":1790536570743.41 [...] \"countryiso3code\":\"FRA\",\"date\":\"2002\",\"value\":1492427756382.43 [...] \"countryiso3code\":\"CHN\",\"date\":\"2002\",\"value\":1489821682050.54 [...] \"countryiso3code\":\"ITA\",\"date\":\"2002\",\"value\":1281746271196.04 [...] \"countryiso3code\":\"MEX\",\"date\":\"2002\",\"value\":810666116401.915 [...] \"countryiso3code\":\"CAN\",\"date\":\"2002\",\"value\":760650608551.583 [...] \"countryiso3code\":\"ESP\",\"date\":\"2002\",\"value\":708938227243.923 [...] \"countryiso3code\":\"KOR\",\"date\":\"2002\",\"value\":650014391470.21 [...] \"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":514939140318.756 [...] \"countryiso3code\":\"NLD\",\"date\":\"2002\",\"value\":475529972122.746 [...] \"countryiso3code\":\"BRA\",\"date\":\"2002\",\"value\":509795273806.715 [...] \"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":607700687237.318 [...] \"countryiso3code\":\"NLD\",\"date\":\"2003\",\"value\":582435617081.96 [...] \"countryiso3code\":\"BRA\",\"date\":\"2003\",\"value\":558233745651.874",
+          "prova": "Fonte independente com a mesma ordem: em 2002 o Brasil vem logo depois da Índia; em 2003, depois da Índia e da Holanda."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: PIB em paridade de poder de compra (PPPGDP), todos os países",
+          "url": "https://www.imf.org/external/datamapper/api/v1/PPPGDP?periods=2002,2003,2010,2022,2025,2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"USA\":{ [...] \"2002\":10929.1,\"2003\":11456.45 [...] \"CHN\":{ [...] \"2002\":4112.135,\"2003\":4617.736 [...] \"JPN\":{ [...] \"2002\":3540.062,\"2003\":3659.772 [...] \"DEU\":{ [...] \"2002\":2746.222,\"2003\":2785.422 [...] \"IND\":{ [...] \"2002\":2227.014,\"2003\":2449.49 [...] \"ITA\":{ [...] \"2002\":1910.54,\"2003\":1949.556 [...] \"FRA\":{ [...] \"2002\":1864.487,\"2003\":1920.09 [...] \"GBR\":{ [...] \"2002\":1779.856,\"2003\":1873.016 [...] \"RUS\":{ [...] \"2002\":1779.247,\"2003\":1947.833 [...] \"BRA\":{ [...] \"2002\":1579.574,\"2003\":1629.137",
+          "prova": "Na outra medida usual, o Brasil fica em 10º em 2002 e 2003: também não é a 12ª posição."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "DataMapper: metadados dos indicadores (edição do WEO usada)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/indicators",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"NGDPD\":{\"label\":\"GDP, current prices\" [...] \"source\":\"World Economic Outlook (October 2026)\",\"unit\":\"Billions of U.S. dollars\",\"dataset\":\"WEO\",\"last-modified\":\"2026-10-08 14:43:33\"",
+          "prova": "Mostra que a série de PIB em dólar do FMI é a do World Economic Outlook de outubro de 2026, modificada em 08/10/2026, antes da entrevista."
+        }
+      ]
+    },
+    {
+      "id": "A145",
+      "veredito": "IMPRECISO",
+      "resumo": "Na posse, o Brasil devia ao FMI cerca de US$ 20 bi; a dívida só passou de US$ 30 bi em 2003, com pico de US$ 33,7 bi",
+      "explicacao": "A posição financeira do Brasil no FMI em 31/12/2002, véspera da posse, registra saldo devedor de 15.319,64 milhões de Direitos Especiais de Saque (DES), cerca de US$ 20 bilhões pela equivalência que a própria carta de intenção de 2002 usa (DES 22.821 milhões para uns US$ 30 bilhões). Os US$ 30 bilhões eram o tamanho do acordo assinado em 2002, do qual só uma parte fora sacada até dezembro (4.564,22 milhões de DES); a reportagem de 2002 diz que US$ 6 bilhões ficavam para aquele ano e US$ 24 bilhões para 2003. Os saques continuaram em 2003, já no governo Lula (Agência Brasil, set/2003): a posição do FMI em 30/11/2003 registra saldo de 23.358,59 milhões de DES, com 17.199,64 milhões sacados do acordo de 2002, e a reportagem de 2005 dá o máximo da dívida, US$ 33,7 bilhões, em novembro de 2003. O valor da ordem de US$ 30 bilhões existe, mas como tamanho do acordo ou como saldo de 2003, não como dívida no dia da posse: número certo, período errado, IMPRECISO pela régua da METODOLOGIA §2.2. 🔧 Na revisão adversarial r6 (16/out/2026) o resumo passou de DES para dólar, para não comparar na tela 15,3 bilhões de DES com 30 bilhões de dólares, e entrou a posição do FMI de novembro de 2003; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": "US$ 30 bilhões",
+      "numero_apurado": "15,3 bilhões de DES em 31/12/2002 (cerca de US$ 20 bilhões); pico de US$ 33,7 bilhões em nov/2003",
+      "data_de_referencia": "31/12/2002 (saldo devedor na véspera da posse) e novembro de 2003 (pico)",
+      "ressalva": "Os US$ 30 bilhões eram o tamanho do acordo de 2002; a maior parte foi sacada já em 2003",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "15,3 bilhões de DES",
+          "de": "15,319.64",
+          "como": "arredondamento de DES milhões para DES bilhões"
+        },
+        {
+          "valor": "cerca de US$ 20 bilhões",
+          "de": "15,319.64 vezes 30 dividido por 22,821",
+          "como": "conversão aproximada de DES para dólar pela equivalência declarada na carta de intenção de 2002"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Financial Position in the Fund for Brazil as of December 31, 2002",
+          "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2002-12-31",
+          "consultada_em": "2026-10-16",
+          "trecho": "Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 15,319.64 504.58 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 4,564.22",
+          "prova": "Saldo devedor do Brasil com o FMI no fim de 2002, véspera da posse: 15.319,64 milhões de DES; do acordo de 2002, só 4.564,22 milhões tinham sido sacados."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Brazil: Letter of Intent, 2002 (pedido do acordo Stand-By)",
+          "url": "https://www.imf.org/external/np/loi/2002/bra/04/index.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "requests a Stand-By Arrangement (SBA) for a period of 15 months with the Fund, in the amount of SDR 22,821 million (equivalent to some US$30 billion,",
+          "prova": "Os US$ 30 bilhões são o tamanho do acordo de 2002 (DES 22.821 milhões), não o saldo devido."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Estado do Paraná, via Tribuna do Paraná",
+          "titulo": "BC anuncia pagamento da dívida ao FMI (23/12/2005)",
+          "url": "https://www.tribunapr.com.br/noticias/economia/bc-anuncia-pagamento-da-divida-ao-fmi/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil tem reduzido seu endividamento com o FMI desde novembro de 2003, quando os débitos junto ao organismo atingiram seu ponto máximo: US$ 33,7 bilhões.",
+          "prova": "O pico da dívida com o FMI foi em novembro de 2003, já no governo Lula: US$ 33,7 bilhões."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Globo, via Tribuna do Paraná",
+          "titulo": "Brasil faz acordo e pega US$ 30 bilhões do FMI (08/08/2002)",
+          "url": "https://www.tribunapr.com.br/noticias/economia/brasil-faz-acordo-e-pega-us-30-bilhoes-do-fmi/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Fundo Monetário Internacional (FMI) vai liberar US$ 30 bilhões para o Brasil. O acordo, que vinha sendo costurado há uma semana, terá duração de 15 meses e será submetido à diretoria executiva do fundo no início de setembro. Segundo nota oficial divulgada pelo FMI, apenas 20% dos recursos (US$ 6 bilhões) estarão disponíveis para serem usados neste ano. O restante, ou seja, US$ 24 bilhões, estará disponível em 2003.",
+          "prova": "Confirma que os US$ 30 bilhões eram o acordo, com a maior parte disponível só em 2003."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Brazil will withdraw another US$4 billion of IMF-agreement funds (05/09/2003)",
+          "url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2003-09-05/brazil-will-withdraw-another-us4-billion-imf-agreement-funds",
+          "consultada_em": "2026-10-16",
+          "trecho": "Minister of Finance, Antonion Palocci, then announced that the country would withdraw the US$4 billion it has a right to within the next few days. The amount is the next to last tranche of the US$30 billion agreement.",
+          "prova": "Mostra o governo Lula sacando parcelas do acordo em 2003, o que fez a dívida crescer depois da posse."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Financial Position in the Fund for Brazil as of November 30, 2003",
+          "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2003-11-30",
+          "consultada_em": "2026-10-16",
+          "trecho": "Brazil : Financial Position in the Fund as of November 30, 2003 [...] Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 23,358.59 769.36 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 17,199.64",
+          "prova": "Em 30/11/2003 o saldo devedor já era de 23.358,59 milhões de DES, e do acordo de 2002 tinham sido sacados 17.199,64 milhões: os saques cresceram a dívida depois da posse."
+        }
+      ]
+    },
+    {
+      "id": "A146",
+      "veredito": "FALSO",
+      "resumo": "O PIB cresceu 3,05% em 2002, ano anterior à posse, e 1,14% em 2003, segundo a série do Banco Central",
+      "explicacao": "A taxa real de crescimento do PIB, na série do Banco Central (SGS 7326, que reproduz as Contas Nacionais do IBGE), foi de 3,05% em 2002 e 1,14% em 2003. O Banco Mundial registra os mesmos valores e o FMI os arredonda para 3,1% e 1,1%. A economia estava crescendo no ano anterior à posse, e a uma taxa maior que a de 2001 (1,39%) e que a de 2003. 'Não estava crescendo' é contradito pelo dado: não se trata de crescimento baixo que a frase arredondaria para zero, mas de uma alta de 3,05% no ano que antecede a posse. Por isso FALSO e não IMPRECISO. A confiança é média porque a frase não diz o período, e o veredito considera o ano anterior à posse e o primeiro ano do mandato, ambos com crescimento positivo.",
+      "numero_dito": "não estava crescendo",
+      "numero_apurado": "+3,05% em 2002 e +1,14% em 2003 (variação real do PIB)",
+      "data_de_referencia": "2002 e 2003 (variação real anual do PIB)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 7326, dado do IBGE)",
+          "titulo": "PIB, taxa de variação real no ano",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
+          "consultada_em": "2026-10-16",
+          "trecho": "{\"data\":\"01/01/2001\",\"valor\":\"1.39\"},{\"data\":\"01/01/2002\",\"valor\":\"3.05\"},{\"data\":\"01/01/2003\",\"valor\":\"1.14\"}",
+          "prova": "Crescimento positivo em 2002 e em 2003."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "Crescimento do PIB, % ao ano (NY.GDP.MKTP.KD.ZG), Brasil",
+          "url": "https://api.worldbank.org/v2/country/BRA/indicator/NY.GDP.MKTP.KD.ZG?date=2000:2004&format=json",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"BRA\",\"date\":\"2003\",\"value\":1.14082899824888 [...] \"countryiso3code\":\"BRA\",\"date\":\"2002\",\"value\":3.05346185909312",
+          "prova": "Fonte independente com as mesmas taxas positivas."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: crescimento real do PIB (NGDP_RPCH)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH/BRA",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"BRA\":{ [...] \"2001\":1.4,\"2002\":3.1,\"2003\":1.1",
+          "prova": "O FMI registra 3,1% em 2002 e 1,1% em 2003 para o Brasil."
+        }
+      ]
+    },
+    {
+      "id": "A147",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2010, último ano de Lula, o Brasil era a 7ª economia do mundo pelo PIB em dólar, segundo FMI e Banco Mundial",
+      "explicacao": "Pelo PIB anual em dólares correntes de 2010, o FMI (WEO de outubro de 2026) põe à frente do Brasil só Estados Unidos, China, Japão, Alemanha, França e Reino Unido, com o Brasil logo acima da Itália: 7º lugar. O Banco Mundial dá a mesma ordem. Em paridade de poder de compra o FMI também põe o Brasil em 7º em 2010. A posição citada confere.",
+      "numero_dito": "7ª economia do mundo",
+      "numero_apurado": "7ª, pelo PIB em US$ correntes de 2010",
+      "data_de_referencia": "2010 (PIB anual em dólares correntes)",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: PIB em dólares correntes (NGDPD), US$ bilhões",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDPD?periods=2002,2003,2010,2022,2025,2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"USA\":{ [...] \"2010\":15048.975 [...] \"CHN\":{ [...] \"2010\":6193.268 [...] \"JPN\":{ [...] \"2010\":5811.577 [...] \"DEU\":{ [...] \"2010\":3469.925 [...] \"FRA\":{ [...] \"2010\":2648.391 [...] \"GBR\":{ [...] \"2010\":2498.365 [...] \"BRA\":{ [...] \"2010\":2208.704 [...] \"ITA\":{ [...] \"2010\":2146.687",
+          "prova": "Seis países acima do Brasil em 2010 (6193.268 da China a 2498.365 do Reino Unido), e a Itália logo abaixo: 7º."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "PIB em US$ correntes (NY.GDP.MKTP.CD), todos os países, 2010",
+          "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?date=2010&format=json&per_page=400",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"USA\",\"date\":\"2010\",\"value\":15048971000000 [...] \"countryiso3code\":\"CHN\",\"date\":\"2010\",\"value\":6192564874453.29 [...] \"countryiso3code\":\"JPN\",\"date\":\"2010\",\"value\":5811578109447.07 [...] \"countryiso3code\":\"DEU\",\"date\":\"2010\",\"value\":3467093769666.67 [...] \"countryiso3code\":\"FRA\",\"date\":\"2010\",\"value\":2646230027988.34 [...] \"countryiso3code\":\"GBR\",\"date\":\"2010\",\"value\":2496740681057.14 [...] \"countryiso3code\":\"BRA\",\"date\":\"2010\",\"value\":2208837745100.55 [...] \"countryiso3code\":\"ITA\",\"date\":\"2010\",\"value\":2144936254535",
+          "prova": "Fonte independente com a mesma ordem: o Brasil em 7º, à frente da Itália."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "DataMapper: metadados dos indicadores (edição do WEO usada)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/indicators",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"NGDPD\":{\"label\":\"GDP, current prices\" [...] \"source\":\"World Economic Outlook (October 2026)\",\"unit\":\"Billions of U.S. dollars\",\"dataset\":\"WEO\",\"last-modified\":\"2026-10-08 14:43:33\"",
+          "prova": "Mostra que a série de PIB em dólar do FMI é a do World Economic Outlook de outubro de 2026, modificada em 08/10/2026, antes da entrevista."
+        }
+      ]
+    },
+    {
+      "id": "A148",
+      "veredito": "VERDADEIRO",
+      "resumo": "As reservas foram de US$ 37,8 bi em dez/2002 para US$ 288,6 bi em dez/2010, alta de US$ 250,8 bi",
+      "explicacao": "A série mensal de reservas internacionais do Banco Central (SGS 3546, US$ milhões) marca 37.823 em dezembro de 2002 e 288.575 em dezembro de 2010. O Banco Mundial registra o mesmo estoque em 2010. Os US$ 270 bilhões ditos ficam entre o estoque final (US$ 288,6 bilhões, do qual o dito fica 6,4% abaixo) e o acréscimo do período (US$ 250,8 bilhões, do qual o dito fica 7,7% acima): pelas duas leituras o desvio, medido sobre o valor apurado, é menor que 10%, a régua do IMPRECISO na METODOLOGIA §2.2. 🔧 Até a revisão adversarial r6 os dois desvios estavam escritos como 6% e 7%, com bases diferentes; ver checagens/revisao/correcoes-r6.md. VERDADEIRO, com o valor apurado na ressalva.",
+      "numero_dito": "US$ 270 bilhões",
+      "numero_apurado": "US$ 288,6 bilhões de estoque em dez/2010 (alta de US$ 250,8 bilhões desde dez/2002)",
+      "data_de_referencia": "dezembro de 2002 e dezembro de 2010 (reservas internacionais, conceito liquidez)",
+      "ressalva": "O estoque era de US$ 288,6 bilhões em dez/2010; a alta desde dez/2002 foi de US$ 250,8 bilhões",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "US$ 37,8 bi",
+          "de": "37823",
+          "como": "arredondamento de US$ milhões para US$ bilhões"
+        },
+        {
+          "valor": "US$ 288,6 bilhões",
+          "de": "288575",
+          "como": "arredondamento de US$ milhões para US$ bilhões"
+        },
+        {
+          "valor": "US$ 250,8 bilhões",
+          "de": "288575 menos 37823",
+          "como": "subtração dos dois pontos da série, em US$ milhões, arredondada para bilhões"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 3546)",
+          "titulo": "Reservas internacionais, total, mensal (US$ milhões)",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/12/2002&dataFinal=31/12/2010",
+          "consultada_em": "2026-10-16",
+          "trecho": "[{\"data\":\"01/12/2002\",\"valor\":\"37823\"} [...] {\"data\":\"01/12/2010\",\"valor\":\"288575\"}",
+          "prova": "Os dois pontos da série: dezembro de 2002 e dezembro de 2010."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "Reservas totais incluindo ouro (FI.RES.TOTL.CD), Brasil",
+          "url": "https://api.worldbank.org/v2/country/BRA/indicator/FI.RES.TOTL.CD?date=2002:2010&format=json",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"BRA\",\"date\":\"2010\",\"value\":288574623536.621 [...] \"countryiso3code\":\"BRA\",\"date\":\"2002\",\"value\":37832146718.419",
+          "prova": "Fonte independente: o mesmo estoque de cerca de US$ 288,6 bilhões em 2010 e de US$ 37,8 bilhões em 2002."
+        }
+      ]
+    },
+    {
+      "id": "A149",
+      "veredito": "VERDADEIRO",
+      "resumo": "O governo Lula quitou a dívida com o FMI em dezembro de 2005; ela tinha chegado a US$ 33,7 bi em nov/2003",
+      "explicacao": "O Relatório de Inflação do Banco Central de março de 2006 registra a antecipação de US$ 5 bilhões em julho de 2005 e, em dezembro, a quitação antecipada de US$ 15,5 bilhões, 'relativa ao restante da dívida com o FMI', com pagamentos de US$ 23,3 bilhões ao Fundo em 2005. A reportagem de dezembro de 2005 diz que o pagamento quitava todas as dívidas remanescentes e que o saldo tinha chegado ao máximo de US$ 33,7 bilhões em novembro de 2003. A quitação no governo Lula confere. Não há um número único para 'a dívida paga': os US$ 30 bilhões citados ficam entre o pago em 2005 (US$ 23,3 bilhões) e o pico do saldo (US$ 33,7 bilhões, pela reportagem). A posição do próprio FMI em 30/11/2003 registra 23.358,59 milhões de DES, cerca de US$ 30,7 bilhões pela equivalência de DES para dólar que a carta de intenção de 2002 usa (DES 22.821 milhões para uns US$ 30 bilhões), e o acordo de 2002, conhecido como o de US$ 30 bilhões, estava em grande parte sacado (17.199,64 de 22.821,12 milhões de DES). Por isso VERDADEIRO com ressalva e não IMPRECISO. Parte do que foi pago tinha sido sacada pelo próprio governo Lula em 2003 (ver A145). 🔧 Na revisão adversarial r6 (16/out/2026) entrou a posição do FMI de novembro de 2003 como fonte primária do saldo no pico, que antes só tinha a reportagem; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": "US$ 30 bilhões",
+      "numero_apurado": "US$ 33,7 bilhões no pico (nov/2003), quitados até dez/2005; US$ 23,3 bilhões pagos em 2005",
+      "data_de_referencia": "novembro de 2003 (pico do saldo) a dezembro de 2005 (quitação)",
+      "ressalva": "A dívida chegou a US$ 33,7 bilhões em nov/2003, já com saques do próprio governo, e foi quitada em dez/2005",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Relatório de Inflação, março de 2006, boxe Evolução dos Indicadores de Sustentabilidade Externa",
+          "url": "https://www.bcb.gov.br/htms/relinf/port/2006/03/ri200603b6p.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 2005, o governo federal anunciou a antecipação do pagamento da linha Supplemental Reserve Facility (SRF) ao Fundo Monetário Internacional (FMI), no valor de US$5 bilhões, efetuado em julho, e, em dezembro, foi realizada a quitação antecipada de US$15,5 bilhões, [...] relativa ao restante da dívida com o FMI. [...] não obstante a quitação antecipada da dívida com o FMI, que resultou em pagamentos de US$23,3 bilhões em 2005,",
+          "prova": "A quitação do restante da dívida em dezembro de 2005 e o total pago ao FMI naquele ano."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Estado do Paraná, via Tribuna do Paraná",
+          "titulo": "BC anuncia pagamento da dívida ao FMI (23/12/2005)",
+          "url": "https://www.tribunapr.com.br/noticias/economia/bc-anuncia-pagamento-da-divida-ao-fmi/amp/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil tem reduzido seu endividamento com o FMI desde novembro de 2003, quando os débitos junto ao organismo atingiram seu ponto máximo: US$ 33,7 bilhões.",
+          "prova": "O pagamento quitou todas as dívidas remanescentes; o saldo tinha chegado a US$ 33,7 bilhões em novembro de 2003."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil, via Congresso em Foco",
+          "titulo": "Lula fala à nação esta noite sobre FMI (16/01/2006)",
+          "url": "https://www.congressoemfoco.com.br/noticia/102766/lula-fala-a-nacao-esta-noite-sobre-fmi",
+          "consultada_em": "2026-10-16",
+          "trecho": "No dia 27 de dezembro, o governo brasileiro antecipou o pagamento da dívida com o FMI no valor de US$ 15,5 bilhões.",
+          "prova": "Data e valor da quitação final, em fonte independente da reportagem paranaense."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Financial Position in the Fund for Brazil as of November 30, 2003",
+          "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2003-11-30",
+          "consultada_em": "2026-10-16",
+          "trecho": "Brazil : Financial Position in the Fund as of November 30, 2003 [...] Outstanding Purchases and Loans: SDR Million %Quota Stand-by Arrangements 23,358.59 769.36 V. Latest Financial Commitments: Arrangements: Date of Expiration Amount Approved Amount Drawn Type Arrangement Date (SDR Million) (SDR Million) Stand-By Sep 06, 2002 Dec 31, 2003 22,821.12 17,199.64",
+          "prova": "O saldo no pico, na fonte primária: 23.358,59 milhões de DES em 30/11/2003, cerca de US$ 30,7 bilhões pela equivalência da carta de intenção de 2002."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "cerca de US$ 30,7 bilhões",
+          "de": "23,358.59 vezes 30 dividido por 22,821.12",
+          "como": "conversão aproximada de DES para dólar pela equivalência declarada na carta de intenção de 2002"
+        }
+      ]
+    },
+    {
+      "id": "A150",
+      "veredito": "IMPRECISO",
+      "resumo": "O acordo assinado com o FMI em 2010 previa a compra de até US$ 10 bilhões em notas do Fundo, não 15",
+      "explicacao": "Depois da crise de 2008, o Brasil passou a emprestar ao FMI comprando notas emitidas pelo Fundo. O FMI anunciou em junho de 2009 a intenção brasileira de investir até US$ 10 bilhões, e em janeiro de 2010 assinou com o Brasil o acordo de compra de até US$ 10 bilhões em notas, num prazo de até dois anos. A Reuters, em outubro de 2009, registra a formalização da compra de 10 bilhões de dólares pelo ministro Guido Mantega. A essência da frase (o Brasil emprestou ao FMI depois da crise) confere; o valor dito é 50% maior que o teto acordado, desvio acima da régua de 10%: IMPRECISO. As fontes capturadas dão o teto do compromisso ('até'), não o valor efetivamente desembolsado.",
+      "numero_dito": "US$ 15 bilhões",
+      "numero_apurado": "até US$ 10 bilhões (acordo de compra de notas do FMI)",
+      "data_de_referencia": "junho de 2009 (anúncio) a janeiro de 2010 (acordo assinado)",
+      "ressalva": "O valor é o teto do acordo; as fontes não dizem quanto foi efetivamente aportado",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Press Release No. 10/14: IMF Signs US$10 Billion Note Purchase Agreement with Brazil",
+          "url": "https://www.imf.org/en/News/Articles/2015/09/14/01/49/pr1014",
+          "consultada_em": "2026-10-16",
+          "trecho": "The International Monetary Fund (IMF) and Brazil signed an agreement under which Brazil would purchase up to US$10 billion in IMF notes over a period of up to two years.",
+          "prova": "O acordo assinado: até US$ 10 bilhões."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "Press Release No. 09/207: Strauss-Kahn Welcomes Brazil's Intention to Invest Up To US$10 Billion",
+          "url": "https://www.imf.org/en/News/Articles/2015/09/14/01/49/pr09207",
+          "consultada_em": "2026-10-16",
+          "trecho": "Core announcement: Brazil intends to invest up to US$10 billion in notes to be issued by the IMF.",
+          "prova": "O anúncio de 2009, com o mesmo teto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Reuters, via Jornal do Brasil",
+          "titulo": "Brasil confirma compra de US$10 bi em títulos do FMI (05/10/2009)",
+          "url": "https://www.jb.com.br/economia/noticias/2009/10/05/brasil-confirma-compra-de-us10-bi-em-titulos-do-fmi.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O Brasil formalizou a nesta segunda-feira a decisão de comprar 10 bilhões de dólares em Direito Especial de Saque (SDR) do Fundo Monetário Internacional (FMI).",
+          "prova": "Fonte independente do FMI com o mesmo valor, 10 bilhões de dólares."
+        }
+      ]
+    },
+    {
+      "id": "A151",
+      "veredito": "IMPRECISO",
+      "resumo": "Em 2022, ano anterior à volta de Lula, o Brasil era a 11ª economia pelo PIB em dólar, segundo FMI e Banco Mundial",
+      "explicacao": "Lula voltou à Presidência em 1º de janeiro de 2023, então o ano de referência é 2022. Pelo PIB em dólares correntes de 2022, o FMI (WEO de outubro de 2026) põe dez países à frente do Brasil (Estados Unidos, China, Japão, Alemanha, Índia, Reino Unido, França, Rússia, Canadá e Itália): 11º lugar, logo acima da Coreia do Sul. O Banco Mundial dá a mesma ordem. Em paridade de poder de compra o Brasil é o 7º. A frase diz 12ª: a posição está uma casa abaixo da registrada nas duas fontes, o que faz o ponto de partida parecer mais baixo do que foi. A essência (o Brasil estava fora das dez maiores) se mantém: IMPRECISO.",
+      "numero_dito": "12ª",
+      "numero_apurado": "11ª, pelo PIB em US$ correntes de 2022",
+      "data_de_referencia": "2022 (PIB anual em dólares correntes; FMI, WEO de outubro de 2026, e Banco Mundial)",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "11ª",
+          "de": "2022: 26059.725, 18346.879, 4444.939, 4226.711, 3257.327, 3204.984, 2796.987, 2296.41, 2200.567 e 2105.723 acima de 1951.849",
+          "como": "contagem dos países com PIB em US$ maior que o do Brasil em 2022 na série do FMI"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: PIB em dólares correntes (NGDPD), US$ bilhões",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDPD?periods=2002,2003,2010,2022,2025,2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"USA\":{ [...] \"2022\":26059.725 [...] \"CHN\":{ [...] \"2022\":18346.879 [...] \"JPN\":{ [...] \"2022\":4444.939 [...] \"DEU\":{ [...] \"2022\":4226.711 [...] \"IND\":{ [...] \"2022\":3257.327 [...] \"GBR\":{ [...] \"2022\":3204.984 [...] \"FRA\":{ [...] \"2022\":2796.987 [...] \"RUS\":{ [...] \"2022\":2296.41 [...] \"CAN\":{ [...] \"2022\":2200.567 [...] \"ITA\":{ [...] \"2022\":2105.723 [...] \"BRA\":{ [...] \"2022\":1951.849 [...] \"KOR\":{ [...] \"2022\":1802.76",
+          "prova": "Dez países acima do Brasil em 2022 e a Coreia do Sul logo abaixo: 11º."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "PIB em US$ correntes (NY.GDP.MKTP.CD), todos os países, 2022",
+          "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?date=2022&format=json&per_page=400",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"USA\",\"date\":\"2022\",\"value\":26054614000000 [...] \"countryiso3code\":\"CHN\",\"date\":\"2022\",\"value\":18316765021690.2 [...] \"countryiso3code\":\"JPN\",\"date\":\"2022\",\"value\":4447976207314.78 [...] \"countryiso3code\":\"DEU\",\"date\":\"2022\",\"value\":4201021706478.62 [...] \"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":3249938492013.47 [...] \"countryiso3code\":\"GBR\",\"date\":\"2022\",\"value\":3181244350465.41 [...] \"countryiso3code\":\"FRA\",\"date\":\"2022\",\"value\":2794788137066.94 [...] \"countryiso3code\":\"RUS\",\"date\":\"2022\",\"value\":2292495097681.47 [...] \"countryiso3code\":\"CAN\",\"date\":\"2022\",\"value\":2200562785046.32 [...] \"countryiso3code\":\"ITA\",\"date\":\"2022\",\"value\":2104067630319.46 [...] \"countryiso3code\":\"BRA\",\"date\":\"2022\",\"value\":1951923942083.32 [...] \"countryiso3code\":\"KOR\",\"date\":\"2022\",\"value\":1799363116866.52",
+          "prova": "Fonte independente com a mesma ordem: o Brasil em 11º."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: PIB em paridade de poder de compra (PPPGDP)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/PPPGDP?periods=2002,2003,2010,2022,2025,2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"CHN\":{ [...] \"2022\":32522.058 [...] \"USA\":{ [...] \"2022\":26059.725 [...] \"IND\":{ [...] \"2022\":12808.899 [...] \"JPN\":{ [...] \"2022\":6305.423 [...] \"RUS\":{ [...] \"2022\":6007.002 [...] \"DEU\":{ [...] \"2022\":5772.989 [...] \"BRA\":{ [...] \"2022\":4180.687",
+          "prova": "Na outra medida usual o Brasil é o 7º em 2022: também não é a 12ª posição."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "DataMapper: metadados dos indicadores (edição do WEO usada)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/indicators",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"NGDPD\":{\"label\":\"GDP, current prices\" [...] \"source\":\"World Economic Outlook (October 2026)\",\"unit\":\"Billions of U.S. dollars\",\"dataset\":\"WEO\",\"last-modified\":\"2026-10-08 14:43:33\"",
+          "prova": "Mostra que a série de PIB em dólar do FMI é a do World Economic Outlook de outubro de 2026, modificada em 08/10/2026, antes da entrevista."
+        }
+      ]
+    },
+    {
+      "id": "A152",
+      "veredito": "VERDADEIRO",
+      "resumo": "Na projeção do FMI para 2026 o Brasil é a 10ª economia; no último ano fechado, 2025, foi a 11ª",
+      "explicacao": "'Hoje' tem duas leituras possíveis. Na estimativa do ano corrente, a do World Economic Outlook de outubro de 2026 (modificado em 08/10/2026, antes da entrevista), o FMI projeta o PIB do Brasil em US$ 2.654,8 bilhões em 2026, acima do Canadá e abaixo da Itália: 10º lugar. No último ano fechado, 2025, o FMI e o Banco Mundial põem o Brasil em 11º, logo atrás do Canadá. Como a frase fala do presente e a estimativa de 2026 do FMI dá a 10ª posição, VERDADEIRO, com a ressalva de que é projeção e de que o dado fechado mais recente dá 11º. A confiança é média porque a posição de 2026 depende de projeção, e Brasil e Canadá ficam perto um do outro.",
+      "numero_dito": "10ª",
+      "numero_apurado": "10ª na projeção do FMI para 2026; 11ª em 2025 (FMI e Banco Mundial)",
+      "data_de_referencia": "2026 (projeção do FMI, WEO de outubro de 2026) e 2025 (último ano fechado)",
+      "ressalva": "É projeção do FMI para 2026; no último ano fechado, 2025, o Brasil foi o 11º",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "10ª",
+          "de": "2026: 32642.373, 21546.403, 5471.299, 4341.986, 4268.446, 4060.207, 3554.155, 2861.156 e 2701.737 acima de 2654.761; 2490.256 abaixo",
+          "como": "contagem dos países com PIB em US$ maior que o do Brasil na projeção do FMI para 2026"
+        },
+        {
+          "valor": "11ª",
+          "de": "2025: 30861.3, 19626.191, 5115.594, 4453.094, 4012.224, 3908.964, 3382.595, 2572.315, 2550.111 e 2321.182 acima de 2279.918",
+          "como": "contagem dos países com PIB em US$ maior que o do Brasil em 2025 na série do FMI"
+        },
+        {
+          "valor": "US$ 2.654,8 bilhões",
+          "de": "2654.761",
+          "como": "arredondamento de uma casa decimal"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: PIB em dólares correntes (NGDPD), US$ bilhões, 2025 e 2026",
+          "url": "https://www.imf.org/external/datamapper/api/v1/NGDPD?periods=2002,2003,2010,2022,2025,2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"USA\":{ [...] \"2025\":30861.3,\"2026\":32642.373 [...] \"CHN\":{ [...] \"2025\":19626.191,\"2026\":21546.403 [...] \"DEU\":{ [...] \"2025\":5115.594,\"2026\":5471.299 [...] \"JPN\":{ [...] \"2025\":4453.094,\"2026\":4341.986 [...] \"GBR\":{ [...] \"2025\":4012.224,\"2026\":4268.446 [...] \"IND\":{ [...] \"2025\":3908.964,\"2026\":4060.207 [...] \"FRA\":{ [...] \"2025\":3382.595,\"2026\":3554.155 [...] \"RUS\":{ [...] \"2025\":2572.315,\"2026\":2861.156 [...] \"ITA\":{ [...] \"2025\":2550.111,\"2026\":2701.737 [...] \"BRA\":{ [...] \"2025\":2279.918,\"2026\":2654.761 [...] \"CAN\":{ [...] \"2025\":2321.182,\"2026\":2490.256",
+          "prova": "Em 2026 (projeção), nove países acima do Brasil e o Canadá abaixo: 10º. Em 2025, o Canadá ainda à frente: 11º."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Banco Mundial, World Development Indicators",
+          "titulo": "PIB em US$ correntes (NY.GDP.MKTP.CD), todos os países, 2025",
+          "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?date=2024:2025&format=json&per_page=600",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"countryiso3code\":\"USA\",\"date\":\"2025\",\"value\":30769700000000 [...] \"countryiso3code\":\"CHN\",\"date\":\"2025\",\"value\":19498039388042.6 [...] \"countryiso3code\":\"DEU\",\"date\":\"2025\",\"value\":5050922925047.05 [...] \"countryiso3code\":\"JPN\",\"date\":\"2025\",\"value\":4435162999976.94 [...] \"countryiso3code\":\"GBR\",\"date\":\"2025\",\"value\":4002587541846.01 [...] \"countryiso3code\":\"IND\",\"date\":\"2025\",\"value\":3956067115771.63 [...] \"countryiso3code\":\"FRA\",\"date\":\"2025\",\"value\":3366315927447.33 [...] \"countryiso3code\":\"RUS\",\"date\":\"2025\",\"value\":2561310169358.74 [...] \"countryiso3code\":\"ITA\",\"date\":\"2025\",\"value\":2551556954100.35 [...] \"countryiso3code\":\"CAN\",\"date\":\"2025\",\"value\":2319899772425.92 [...] \"countryiso3code\":\"BRA\",\"date\":\"2025\",\"value\":2279920092492.13",
+          "prova": "Fonte independente para o último ano fechado: o Brasil em 11º, logo atrás do Canadá."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI)",
+          "titulo": "DataMapper: metadados dos indicadores (edição do WEO usada)",
+          "url": "https://www.imf.org/external/datamapper/api/v1/indicators",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"NGDPD\":{\"label\":\"GDP, current prices\" [...] \"source\":\"World Economic Outlook (October 2026)\",\"unit\":\"Billions of U.S. dollars\",\"dataset\":\"WEO\",\"last-modified\":\"2026-10-08 14:43:33\"",
+          "prova": "Mostra que a série de PIB em dólar do FMI é a do World Economic Outlook de outubro de 2026, modificada em 08/10/2026, antes da entrevista."
+        }
+      ]
+    },
+    {
+      "id": "A153",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A crítica de Fraga, Malan e Bacha, que votaram em Lula, só aparece no Poder360; a carta original não foi capturada",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 16/out; veredito provisório, a refazer: a pergunta atribui a economistas, inclusive apoiadores atuais ou antigos de Lula, a crítica de que ele opõe a preocupação com os fundamentos macroeconômicos à preocupação com os pobres. O registro encontrado: em novembro de 2022, depois de um discurso de Lula na COP27, Arminio Fraga, Pedro Malan e Edmar Bacha, que tinham declarado voto nele no 2º turno (com Persio Arida), publicaram carta dizendo que os pobres são os que mais sofrem se o governo perder credibilidade fiscal; Lula respondeu à carta no dia seguinte; em 2026, Arida e Fraga apoiaram outra pré-candidatura. As quatro reportagens capturadas são do mesmo veículo (Poder360), e a carta, publicada na Folha de S.Paulo, não foi capturada. Pela METODOLOGIA §3.1 (regra 2), fontes N3 ou N4 só bastam quando citam a primária e ela foi conferida; não foi. Nada contradiz a pergunta, por isso não é FALSO, e não foi achado levantamento que diga quantos economistas fazem essa crítica hoje. É a mesma régua aplicada neste caso a falas do candidato com a fonte primária faltando (A016) e a outro número da entrevistadora com uma só cadeia de imprensa (A126). Falta capturar a carta original e uma segunda redação. 🔧 Até a revisão adversarial r6 (16/out/2026) o veredito era VERDADEIRO com confiança média; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "outubro e novembro de 2022 (apoio e carta) e março de 2026",
+      "ressalva": "O registro achado é a carta de 2022; não há levantamento de quantos economistas fazem essa crítica hoje",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Arminio, Malan e Bacha pedem responsabilidade em carta a Lula (17/11/2022)",
+          "url": "https://www.poder360.com.br/economia/arminio-malan-e-bacha-pedem-responsabilidade-em-carta-a-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Pobres são os que mais sofrerão se governo perder credibilidade fiscal, escrevem economistas que apoiaram petista na eleição copiar link --> Em discurso na COP27, Lula disse que a Bolsa ia cair e o dólar ia subir com furo no teto Bel Pedrosa/Fórum Econômico Mundial, JRS/Solange Macedo e Roque de Sá/Agência Senado Douglas Rodrigues 17.nov.2022 (quinta-feira) - 18h03 Priorize o Poder no Google Os economistas Arminio Fraga, Pedro Malan e Edmar Bacha escreveram uma carta pública pedindo ao presidente eleito, Luiz Inácio Lula da Silva (PT) responsabilidade social, para já ou o quanto antes. O texto em que alertam Lula sobre as consequências do discurso dele foi publicado nesta 5ª feira (17.nov.2022) em artigo na Folha de S.Paulo . Formuladores do Plano Real na década de 90, os 3 apoiaram o petista contra Jair Bolsonaro (PL) na eleição presidencial.",
+          "prova": "A crítica, feita por economistas que apoiaram Lula: os pobres perdem com a falta de credibilidade fiscal."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "'Fiquei feliz', diz Lula sobre carta que pede responsabilidade (18/11/2022)",
+          "url": "https://www.poder360.com.br/governo/fiquei-feliz-diz-lula-sobre-carta-que-pede-responsabilidade/",
+          "consultada_em": "2026-10-16",
+          "trecho": "foi questionado nesta 6ª feira (18.nov.2022) sobre a carta dos economistas Arminio Fraga, Edmar Bacha e Pedro Malan, que pediram responsabilidade ao petista depois de fala à COP27.",
+          "prova": "Confirma a carta pela resposta do próprio Lula, em outra reportagem."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Assista ao vídeo de Armínio Fraga para a campanha de Lula (19/10/2022)",
+          "url": "https://www.poder360.com.br/eleicoes/assista-ao-video-de-arminio-fraga-para-a-campanha-de-lula/",
+          "consultada_em": "2026-10-16",
+          "trecho": "No início do mês, o economista assinou uma nota conjunta com Edmar Bacha, Pedro Malan e Persio Arida declarando voto no ex-presidente. [...] Votaremos em Lula no 2º turno; nossa expectativa é de condução responsável da economia",
+          "prova": "Mostra que os autores da carta apoiaram Lula na eleição de 2022."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Economistas que consolidaram Plano Real querem Leite na Presidência (27/03/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes/economistas-que-consolidaram-plano-real-querem-leite-na-presidencia/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governador do Rio Grande do Sul obteve os endossos de Persio Arida e Armínio Fraga, que presidiram o Banco Central .",
+          "prova": "Em 2026, dois deles apoiaram outro pré-candidato: são apoiadores antigos, como a pergunta descreve."
+        }
+      ]
+    },
+    {
+      "id": "A154",
+      "veredito": "IMPRECISO",
+      "resumo": "A dívida bruta foi de 71,68% do PIB em dez/2022 para 82,87% em ago/2026, alta de 11,19 pontos, segundo o BC",
+      "explicacao": "A Dívida Bruta do Governo Geral, medida pelo Banco Central (SGS 13762), estava em 71,68% do PIB em dezembro de 2022 e em 82,87% em agosto de 2026, último mês divulgado antes da entrevista (nota do BC de 30/09/2026, que arredonda para 82,9%). A alta no governo é de 11,19 pontos percentuais; em junho, o Poder360 registrava 10,2 pontos. Os '10 pontos' ditos ficam 1,19 ponto abaixo do apurado, desvio de 10,6% (1,19 sobre 11,19), acima da margem de 10% da METODOLOGIA §2.2. O desvio é para menos, contra o próprio argumento de quem pergunta, mas a régua não distingue o sentido: é o mesmo critério aplicado ao 'um trilhão de reais' da sabatina de Flávio Bolsonaro de 28/ago (A007 daquele caso, desvio de 14%, IMPRECISO) e, neste caso, ao 'dobro da inflação' dito pela mesma entrevistadora (A166). A essência (a dívida subiu perto de dez pontos do PIB no governo) se mantém, por isso IMPRECISO e não FALSO. Pelo critério do FMI, que inclui os títulos na carteira do BC, a alta seria maior (ver divergência). 🔧 Até a revisão adversarial r6 (16/out/2026) o veredito era VERDADEIRO, tratado como limite da régua; ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": "10 pontos percentuais",
+      "numero_apurado": "11,19 pontos percentuais (71,68% do PIB em dez/2022 para 82,87% em ago/2026)",
+      "data_de_referencia": "dezembro de 2022 a agosto de 2026 (último dado divulgado antes de 15/10/2026)",
+      "ressalva": "A diferença é para menos: a alta apurada é maior que a dita; até junho, era de 10,2 pontos",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Pelo critério do FMI (WEO de outubro de 2026), a dívida bruta do governo geral passa de 83,9% do PIB em 2022 para 97% na projeção de 2026, alta maior que a da medida do Banco Central, que é a usada no debate brasileiro.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "11,19 pontos",
+          "de": "82.87 menos 71.68",
+          "como": "subtração dos dois pontos da série de dívida bruta em % do PIB"
+        },
+        {
+          "valor": "10,6%",
+          "de": "82.87 menos 71.68 menos 10, dividido por 82.87 menos 71.68",
+          "como": "desvio do número dito sobre a alta apurada, em porcentagem"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 13762)",
+          "titulo": "Dívida Bruta do Governo Geral, % do PIB",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2022&dataFinal=15/10/2026",
+          "consultada_em": "2026-10-16",
+          "trecho": "{\"data\":\"01/12/2022\",\"valor\":\"71.68\"} [...] {\"data\":\"01/06/2026\",\"valor\":\"81.95\"},{\"data\":\"01/07/2026\",\"valor\":\"82.55\"},{\"data\":\"01/08/2026\",\"valor\":\"82.87\"}",
+          "prova": "Os dois extremos da série no governo: dezembro de 2022 e agosto de 2026."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Nota para a imprensa de estatísticas fiscais, 30/09/2026",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A DBGG ­ que compreende Governo Federal, INSS e governos estaduais e municipais ­ atingiu 82,9% do PIB (R$11,1 trilhões) em agosto de 2026,",
+          "prova": "Mostra que o dado de agosto foi divulgado em 30/09/2026, antes da entrevista."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Dívida bruta atinge 81,9% do PIB em junho, diz Banco Central (31/07/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/divida-bruta-atinge-819-do-pib-em-junho-diz-banco-central/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Durante os 3 anos e meio do atual governo do presidente Luiz Inácio Lula da Silva (PT), a relação da dívida pública em comparação ao PIB subiu 10,2 pontos percentuais.",
+          "prova": "Leitura independente da série, dois meses antes: alta de 10,2 pontos no governo Lula."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: dívida bruta do governo geral (GGXWDG_NGDP), % do PIB",
+          "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/BRA",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"BRA\":{ [...] \"2022\":83.9,\"2023\":84,\"2024\":87,\"2025\":93.3,\"2026\":97",
+          "prova": "Pelo critério do FMI a alta também existe, e é maior: o número muda com o indicador."
+        }
+      ]
+    },
+    {
+      "id": "A155",
+      "veredito": "VERDADEIRO",
+      "resumo": "A IFI do Senado diz que o resultado fiscal fica longe do que estabiliza a dívida, e o FMI projeta alta até 2029",
+      "explicacao": "A pergunta atribui a boa parte dos economistas a avaliação de que a trajetória da dívida é insustentável. O critério escrito antes da busca aceita os relatórios da IFI do Senado e pede atenção ao termo usado. O Relatório de Acompanhamento Fiscal de setembro de 2026 da IFI diz que, mesmo cumprida a meta de 2027, 'a realidade estará muito distante do resultado fiscal para estabilizar a relação entre dívida pública e o PIB', e projeta a dívida bruta de 82,5% do PIB em 2026 para 86,4% em 2027. O FMI, no WEO de outubro de 2026, projeta a dívida bruta brasileira subindo todos os anos até 2029. Em julho, segundo o Poder360, a IFI estimava que, no ritmo atual, a dívida poderia chegar a 115% do PIB em 2036. Duas instituições de referência independentes descrevem uma trajetória de alta sem estabilização, que é a substância da frase. O termo usado pela IFI é 'distante do resultado para estabilizar', não 'insustentável', e não foi achado levantamento que meça quantos economistas usam essa palavra; a busca deste pedido foi interrompida pelo limite de consultas da sessão.",
+      "numero_dito": null,
+      "numero_apurado": "dívida bruta de 82,5% do PIB em 2026 e 86,4% em 2027 (IFI); alta anual até 2029 (FMI)",
+      "data_de_referencia": "projeções de setembro de 2026 (IFI) e outubro de 2026 (FMI)",
+      "ressalva": "A IFI fala em resultado distante do que estabiliza a dívida; não há levantamento de quantos economistas a chamam de insustentável",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Instituição Fiscal Independente (IFI), Senado Federal",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "A IFI considera possível o cumprimento da meta fiscal em 2027, desde que as atuais premissas macroeconômicas se confirmem e que a calibragem orçamentária seja feita por meio dos contingenciamentos que se fizerem necessários. Ainda assim, a realidade estará muito distante do resultado fiscal para estabilizar a relação entre dívida pública e o PIB.",
+          "prova": "A avaliação da IFI: o resultado fiscal fica longe do que estabilizaria a dívida."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Instituição Fiscal Independente (IFI), Senado Federal",
+          "titulo": "Página da IFI: Projeções da IFI, RAF 116",
+          "url": "https://www12.senado.leg.br/ifi",
+          "consultada_em": "2026-10-16",
+          "trecho": "RAF 116 (Setembro de 2026) [...] Dívida bruta (% do PIB) 2026: 82,5 2027: 86,4",
+          "prova": "A projeção numérica da IFI: dívida bruta em alta de 2026 para 2027."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fundo Monetário Internacional (FMI), World Economic Outlook",
+          "titulo": "DataMapper: dívida bruta do governo geral (GGXWDG_NGDP), % do PIB",
+          "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/BRA",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"BRA\":{ [...] \"2025\":93.3,\"2026\":97,\"2027\":99.3,\"2028\":101.3,\"2029\":103.2",
+          "prova": "Instituição independente da IFI projetando a dívida em alta todos os anos até 2029."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Dívida bruta atinge 81,9% do PIB em junho, diz Banco Central (31/07/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/divida-bruta-atinge-819-do-pib-em-junho-diz-banco-central/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo a IFI (Instituição Fiscal Independente), no atual ritmo, esse percentual pode chegar a 115% em 2036 .",
+          "prova": "A leitura de longo prazo da IFI no ritmo atual."
+        }
+      ]
+    },
+    {
+      "id": "A156",
+      "veredito": "VERDADEIRO",
+      "resumo": "A biografia oficial da Presidência diz que Lula tem cinco filhos, quatro deles com Marisa Letícia",
+      "explicacao": "A frase pede o número de filhos de Lula. A biografia oficial da Presidência, capturada para esta checagem, diz, no trecho sobre a morte de Marisa Letícia, que ela era 'mãe de quatro dos seus cinco filhos'. As reportagens do Poder360 nomeiam Lurian, 'filha mais velha do presidente', e Marcos Cláudio, filho dele com Marisa Letícia, o que é coerente com a biografia (quatro filhos com Marisa Letícia e um de outra relação). O número dito confere: VERDADEIRO. A confiança é média porque só a fonte oficial dá o total; as reportagens confirmam filhos nomeados, não a soma. 🔧 Até a revisão adversarial r6 (16/out/2026) o veredito era INSUSTENTAVEL, provisório, porque a checagem leu que a biografia oficial não falava dos filhos; a frase com o total estava na própria página capturada. ver checagens/revisao/correcoes-r6.md.",
+      "numero_dito": "cinco filhos",
+      "numero_apurado": "cinco filhos, quatro deles com Marisa Letícia (biografia oficial da Presidência)",
+      "data_de_referencia": "biografia oficial da Presidência, consultada em 16/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Biografia do Presidente da República",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+          "consultada_em": "2026-10-16",
+          "trecho": "Em 3 de fevereiro de 2017, sofreu duro golpe com o falecimento da esposa Marisa Letícia Lula da Silva, mãe de quatro dos seus cinco filhos, com quem havia se casado em 1974.",
+          "prova": "A biografia oficial dá o total: cinco filhos, quatro deles com Marisa Letícia."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Neto de Lula é nomeado para cargo no governo de Sergipe (17/01/2023)",
+          "url": "https://www.poder360.com.br/governo/neto-de-lula-e-nomeado-para-cargo-no-governo-de-sergipe/",
+          "consultada_em": "2026-10-16",
+          "trecho": "João Gabriel é filho de Lurian Cordeiro Lula da Silva, 48 anos, filha mais velha do Presidente da República.",
+          "prova": "Nomeia a filha mais velha, sem dizer o total; coerente com a biografia."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Ex-nora de Lula é investigada por esquema de fraudes no MEC (12/11/2025)",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/ex-nora-de-lula-e-investigada-por-suposto-esquema-de-fraudes-no-mec/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Carla foi casada com Marcos Cláudio Lula da Silva, que é filho do presidente com a ex-primeira-dama Marisa Letícia Reprodução/Processo judicial Nino Guimarães Hadass Leventhal de Brasília 12.nov.2025 (quarta-feira) - 23h27 atualizado: 13.nov.2025 (quinta-feira) - 9h12 Priorize o Poder no Google As apurações da PF (Polícia Federal) na operação Coffee Break , deflagrada nesta 4ª feira (12.nov.2025), indicam que Carla Ariane Trindade, ex-nora do presidente Luiz Inácio Lula da Silva (PT), pressionou por liberação de recursos do MEC (Ministério da Educação) para o pagamento de empresas investigadas por fraudes em licitações públicas. Carla foi casada com Marcos Cláudio Lula da Silva, que é filho do presidente com a ex-primeira-dama Marisa Letícia.",
+          "prova": "Nomeia um filho com Marisa Letícia, sem dizer o total; coerente com a biografia."
+        }
+      ]
+    }
+  ]
+}

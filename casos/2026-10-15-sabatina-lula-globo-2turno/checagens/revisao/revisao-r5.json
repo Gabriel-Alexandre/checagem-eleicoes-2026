@@ -1,0 +1,133 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada)",
+  "A118": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: algum componente (valor-base ou adicional) pode ter sido corrigido antes de 2026, e a frase seria falsa. Cai: o Decreto 13.120 corrige a variação do INPC desde março de 2023, o que só faz sentido se nada foi corrigido antes, e a nota do ministério reproduzida pela Tribuna de Jundiaí e o Congresso em Foco dizem que é a primeira atualização desde 2023. Frase conferida na transcrição (1626,6 s), fato embutido na resposta e não juízo; o momento em que Lula soube fica fora, como a explicação diz. Todos os trechos encontrados nas capturas p09/p10. Mudança: o trecho da Lei 14.601 passou a incluir R$ 150 e R$ 50, que a explicação citava sem lastro.",
+    "verificacoes": ["1", "2", "3", "4", "5", "7"]
+  },
+  "A119": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 'tudo o que a gente não deu' depende do índice, e pelo IPCA a perda é maior. Conferido com captura nova do IBGE (SIDRA 1737): IPCA de 16,3% entre fevereiro de 2023 e agosto de 2026, contra 15,04% do INPC do decreto; o piso sobe 15,2%, então pelo IPCA a reposição não é integral. O desvio no valor (cerca de 1% no piso) fica abaixo da régua de 10% do §2.2, e o veredito VERDADEIRO fica de pé, mas a ressalva passou a mostrar o IPCA. Também conferido: a frase descreve o decreto já publicado em 17/09, não uma promessa; a conta do INPC (7810,09 / 6788,87) bate com o trecho do SIDRA. Mudanças: fonte IBGE IPCA, duas derivações, explicação e ressalva.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A120": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a reportagem do Acessa de 1º de setembro dizia que o projeto ainda não tinha sido protocolado, o que deslocaria a data. Cai: a IFI do Senado (N1) registra a apresentação ao Congresso em 31 de agosto, e o Brasil 61 traz o número do PLN no mesmo dia; a divergência já está registrada. 'Duas semanas antes' é 17 dias, arredondamento que não muda a leitura e está na ressalva. Trechos encontrados nas capturas p10. Régua igual à aplicada às datas ditas pelo candidato.",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A121": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: uma dotação de R$ 157,1 bilhões, maior que a de 2026, poderia embutir algum reajuste. Cai: o próprio ministro, no dia do envio, disse que não havia previsão de reajuste, a tabela da IFI mostra alta de 1,1%, incompatível com correção de 15%, e a Folhapress registra depois do anúncio que o custo extra não estava no projeto. A divergência de valor (155,8 contra 157,1) está declarada e não muda o veredito. Trechos encontrados nas capturas p10.",
+    "verificacoes": ["1", "3", "4", "5", "8"]
+  },
+  "A122": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o decreto foi publicado e o governo diz que o custo de 2026 cabe no orçamento sem crédito extraordinário, o que seria espaço fiscal de fato; ou, ao contrário, a IFI mostraria que não há espaço (FALSO). Nenhum dos dois cai bem: o documento que resolveria 2026 (relatório bimestral com o remanejamento) não foi capturado, a IFI contesta a fonte do espaço (Previdência) e não o desmente por inteiro, e a representação do Ministério Público junto ao TCU estava sem decisão. INSUSTENTAVEL está bem posto, coerente com etica-e-risco §5. Trechos encontrados nas capturas p10. Mudanças: o resumo usava 'IFI' e 'MP no TCU', siglas de especialista, e 'MP' no mesmo bloco significa medida provisória; passou a nomear a instituição fiscal do Senado e dizer que o TCU não decidiu. O trecho do Poder360 passou a incluir os custos de R$ 5,8 e R$ 22 bilhões citados na explicação.",
+    "verificacoes": ["2", "3", "4", "6", "7", "8"]
+  },
+  "A123": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: 0,1% pode ser confundido com a meta, que é 0,5%, ou o governo calcula 0,13%. Cai: a frase fala do orçamento apresentado, e o superávit primário efetivo do projeto é R$ 18,6 bilhões, 0,1% do PIB pela IFI e 0,13% pelo governo, diferença de arredondamento. A ressalva já mostra as deduções legais e a projeção de déficit da IFI. Mesma régua de arredondamento usada para a jornalista no A127. Mudança: o trecho da IFI passou a incluir o déficit de R$ 86,1 bilhões que a explicação citava sem lastro.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7"]
+  },
+  "A124": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o FALSO: 2,8% poderia ser outra medida (nominal, estrutural, projeção do orçamento de 2023, resultado de 2023). Cai: a série 5793 do Banco Central dá superávit de 1,25% em 2022 e o TCU dá superávit de 0,6% no governo central; o déficit de 2,4% do TCU é de 2023; o caso 2026-08-27 já conferiu o estrutural (0,60%) e a projeção de 2023 (cerca de 2,2%). Nenhuma leitura dá 2,8%, e as fontes registram sinal oposto para o ano anterior à posse. A mesma frase recebeu FALSO no A019 de 2026-08-27-sabatina-lula-globo, com os mesmos números (1,25% e 0,6%): a régua é a mesma. Trechos encontrados nas capturas p10.",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A125": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a IFI não usa a palavra 'superestimadas' e atribui parte da diferença às despesas, então a jornalista teria esticado o relatório. Cai: o RAF 116 diz que a receita líquida do projeto é R$ 127,9 bilhões superior à da IFI e que a meta depende de premissas mais otimistas que as dela, o que é a essência de receitas superestimadas; a divergência nas despesas e a exceção de petróleo e dividendos estão na ressalva. Relatório de setembro, anterior à fala. Trechos encontrados nas capturas p10. Mudança: o resumo trocou a sigla 'IFI' pelo nome que o espectador reconhece; o veredito não muda.",
+    "verificacoes": ["1", "3", "4", "5", "7", "8"]
+  },
+  "A126": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: é número, e as cinco páginas capturadas formam uma única cadeia de imprensa (Estadão de 11/10, reproduzido no mesmo dia por 40graus, SP Diário, Aciara e Blog do Itamar), sem a divulgação do FGV Ibre. Fica de pé: a §3.1 exige N1 ou N2 para número, ou duas N3/N4 citando a primária conferida, e nada disso existe. A revisão tentou capturar a página da Sondagem do Consumidor do FGV Ibre por URL direta e a conexão foi recusada. Na mesma rodada, falas do candidato com primária faltando receberam INSUSTENTAVEL provisório (A016); manter VERDADEIRO aqui seria régua diferente para a jornalista. Veredito passou a INSUSTENTAVEL provisório, confiança baixa, com resumo dizendo o que faltou e a nota de que nada contradiz o número.",
+    "verificacoes": ["3", "4", "6", "7", "8"]
+  },
+  "A127": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 84 milhões não é o número de agosto, e a Serasa conta inadimplentes, não 'negativados'. Cai: a Serasa deu 83,9 milhões no fim de julho (divulgação de agosto) e 83,98 milhões em agosto (O Povo, 19/09, antes da fala); os dois arredondam para 84 milhões, e o indicador é o de pessoas com dívida em atraso no cadastro, que é o sentido de 'negativadas no Serasa'. Ressalva com o número exato. Trechos encontrados nas capturas p10.",
+    "verificacoes": ["1", "3", "4", "5", "6"]
+  },
+  "A128": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: houve outras modalidades com o nome Desenrola, e a contagem de três edições seria arbitrária. Cai: a própria contagem do governo, registrada na criação da 3.0 (Diário de Pernambuco), é de duas etapas anteriores; a 1ª tem lei de 2023 (N1), a 2.0 foi lançada em maio de 2026 e a 3.0 é a MP de 25/09. A pergunta usa a mesma contagem que o candidato usa na resposta (Desenrola 1, 2 e 3). Trechos encontrados nas capturas p10.",
+    "verificacoes": ["1", "3", "4", "5"]
+  },
+  "A129": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o VERDADEIRO: 'logo depois' não se confirma. Depois da 1ª fase a série do Banco Central ficou estável por cerca de sete meses (3,82% em maio, 3,63% em dezembro de 2024) e só subiu em 2025; na 2ª fase o índice subiu durante o programa, e a série capturada termina em agosto de 2026, sem o mês seguinte ao fim. Fica de pé o essencial: a inadimplência caiu na 1ª fase e voltou a subir para acima do nível anterior (6,03%), e o desvio de tempo não inverte a tendência nem muda a leitura (§2.2), então VERDADEIRO com ressalva, a mesma régua do A132 para detalhe de fase. Mudança: a explicação chamava o 'logo depois' de impreciso com veredito verde, contradição interna; passou a dizer que o tempo vai na ressalva e que o 'depois' da 2ª fase ainda não é observável.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A130": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'população' por 'famílias' seria unidade errada (§2.2), e 'endividada' na Peic inclui dívida a vencer no cartão, então caberia IMPRECISO. Fica VERDADEIRO: a Peic é a referência pública da frase, o percentual é exatamente 78,0% em janeiro de 2023 na divulgação da própria CNC, e trocar famílias por população não muda a leitura de que a grande maioria estava endividada; a ressalva mostra o recorte. Mesma régua aplicada à jornalista no A126, que diz 'brasileiros' para um levantamento por entrevistados. Trechos encontrados nas capturas r2 e p10.",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A131": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a nota da Fazenda tem 15,5 milhões no título e 15,06 milhões no corpo, e 'atendemos' pode ser pessoas que só consultaram. Cai: o corpo do balanço oficial diz 15,06 milhões de pessoas beneficiadas pela negociação, o sentido de 'atendemos'; 'por volta de 15 milhões' é arredondamento sem efeito. A Câmara e o FDR partem do mesmo balanço, que foi conferido, o que satisfaz a regra 2 da §3.1. Trechos encontrados nas capturas p11.",
+    "verificacoes": ["1", "3", "4", "6"]
+  },
+  "A132": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'está na Câmara' está errado, porque a MP estava na comissão mista. Conferido na captura da API da Câmara: os únicos eventos até a fala são a publicação, o prazo de emendas e o ofício de 01/10 com a constituição da comissão mista, sem nada no plenário. A essência (MP criando o programa, pendente no Congresso) confere e a fase vai na ressalva, por isso VERDADEIRO e não IMPRECISO; é a mesma régua do A129. Trechos encontrados nas capturas p11.",
+    "verificacoes": ["1", "3", "4", "5", "6"]
+  },
+  "A133": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a MP não fala em 'leilão' e a compra pode ser feita por fundo, não pela União. Cai: o art. 31-B autoriza a União a adquirir as carteiras em procedimento competitivo pelo maior desconto, que é um leilão, e a Câmara usa a palavra 'leilões'; a via por fundo ou por Banco do Brasil e Caixa está na ressalva. Trechos encontrados nas capturas p11 (texto da MP, sumário do Senado, Câmara).",
+    "verificacoes": ["1", "3", "4", "8"]
+  },
+  "A134": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: com teto de R$ 10 mil, 'até R$ 4 mil' seria número inexistente e o veredito poderia ser INSUSTENTAVEL ou FALSO. Fica IMPRECISO: o critério de atraso confere na base (mais de 720 dias), o teto real inclui as dívidas de até R$ 4 mil, então o número dito subestima a regra em vez de inverter seu sentido (§2.2); o desvio de R$ 4 mil para R$ 10 mil passa dos 10%. 'Todas as pessoas' também é corrigido na explicação pela dependência dos credores e das dotações. Trechos encontrados nas capturas p11.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A135": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: R$ 150 bilhões é a conta do teto (R$ 15 bilhões a 10% do valor de face), não a medida do estoque de dívidas que 'existe hoje'. Fica de pé o veredito, porque no contexto (2001 a 2016 s) 'essa dívida' é a que a União vai comprar, e o governo estima que até R$ 150 bilhões possam ser renegociados; a confiança média e a ressalva dos R$ 75 bilhões já tratam disso. Mas o resumo dizia 'dívidas elegíveis', afirmando no card o estoque que nenhuma fonte capturada mede. Mudanças: resumo, explicação e número apurado passaram a usar as palavras das fontes.",
+    "verificacoes": ["1", "3", "4", "7", "8"]
+  },
+  "A136": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: se o perdão não estava em vigor, 'fizemos o perdão' seria FALSO; ou, ao contrário, a própria fala segue com 'eu sugeri que a gente estudasse', o que tiraria o caráter de fato. Fica IMPRECISO: o projeto foi enviado em 13/10 e aprovado pela Câmara em 14/10 por 461 a 4, aguardando o Senado (API da Câmara), então o perdão existe como ato do governo e falta o estado de conclusão, o mesmo tipo de desvio de fase tratado no A132 mas aqui mudando a leitura (concluído contra pendente). Conferido no autógrafo capturado que o art. 5º só produz efeito em 1º de janeiro de 2027 (art. 10, II), o que sustenta a ressalva. Trechos encontrados nas capturas p11.",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "8"]
+  },
+  "A137": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: o valor pode ser de todo o Simples Nacional, não só de MEI, ou o oficial seria R$ 12,6 bilhões. Cai: a exposição de motivos (N1) diz carteira de MEIs na Dívida Ativa, R$ 12,86 bilhões; o anúncio usou R$ 12,6 bilhões; o falado fica entre os dois, a 1,2% do documento, arredondamento sem efeito pela régua do §2.2. Trechos encontrados nas capturas p11. Mudança: a conta do 1,2% citada na explicação ganhou derivação declarada.",
+    "verificacoes": ["1", "3", "4", "6", "7"]
+  },
+  "A138": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra: a fala é universal ('essas pessoas estão no Serasa'), e a norma só diz que a Procuradoria da Fazenda 'poderá' comunicar, sem dado de quantos MEIs estão negativados; caberia IMPRECISO. Fica VERDADEIRO no essencial: o mecanismo existe por norma (Portaria PGFN 33/2018), é aplicado na cobrança com a Serasa citada pelo nome e o próprio governo descreve a dívida como obstáculo ao crédito; a falta de automatismo está na ressalva. Trechos encontrados nas capturas p11. Mudança: o resumo trocou a sigla PGFN pelo nome por extenso; o veredito não muda.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A139": {
+    "decisao": "alterado",
+    "nota": "Melhor argumento contra o IMPRECISO: lida ao pé da letra, 'sem mexer no espaço fiscal' é desmentida pelo texto da MP, que cria despesa de até R$ 15 bilhões (FALSO); lida como 'sem furar a regra', é palavra do governo, como no A122 (INSUSTENTAVEL). Fica IMPRECISO: a MP (N1) prende a despesa às dotações e à disponibilidade orçamentária, o que impede ampliar o limite, e ao mesmo tempo prova que o programa ocupa espaço de despesa discricionária. Mas a explicação dava a compensação como fato ('a regra fiscal é cumprida') e o resumo dizia 'compensada', quando a compensação é plano anunciado para o orçamento do ano que vem. Mudanças: resumo e explicação atribuem a compensação ao governo, com a mesma cautela do A122.",
+    "verificacoes": ["1", "2", "3", "4", "6", "7", "8"]
+  },
+  "A140": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: todas as fontes são de imprensa, e a duração é número. Cai: a afirmação é de data e de indicação, e duas redações independentes (Reuters e Correio da Manhã, 08/10/2024) dão a aprovação por 66 a 5 e o início em janeiro de 2025; de janeiro de 2025 a 15/10/2026 são um ano e nove meses. O Poder360 de 15/10 confirma Galípolo no cargo na data da fala. Trechos encontrados nas capturas p11.",
+    "verificacoes": ["1", "3", "4", "5"]
+  },
+  "A141": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: 'significativa' é juízo (§4.2), e houve cinco cortes. Fica: a parte factual é conferível na série 432 do Banco Central (12,25% na posse, pico de 15%, 13,75% em 15/10/2026), e a taxa na data da fala estava acima da de partida; não há leitura dos dados em que a redução sob Galípolo seja grande, já que o saldo é de alta. Confiança média pelo juízo embutido, como a checagem diz. Trechos encontrados nas capturas p11.",
+    "verificacoes": ["1", "2", "3", "4", "5"]
+  },
+  "A142": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: a palavra 'esgotado' não aparece em registro nenhum, e o 'evento recente' citado pela jornalista pode ser outro. Fica VERDADEIRO no essencial: conferido nas capturas que o Seu Dinheiro e a CNN registram a conferência do Santander de segunda-feira, 17 de agosto de 2026, com Galípolo dizendo que não existe crescimento sustentável movido apenas por consumo e que o BC não conduz os juros para colaborar com crescimento puxado por consumo; é a ideia que a pergunta atribui a ele. A ressalva já diz que 'esgotado' e a ligação com corte de gastos não foram achados. Confiança média adequada.",
+    "verificacoes": ["1", "3", "4", "5", "8"]
+  },
+  "A143": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: pela data de registro (6 de outubro) Lula já teria 81 anos na data da fala. Cai: a biografia oficial do Planalto dá 27 de outubro de 1945, e a cobertura do aniversário de 80 anos em 27/10/2025 confirma; a data de registro diferente está na ressalva e na divergência entre fontes. Fato sobre a própria idade, conferível em registro. Trechos encontrados nas capturas p03 e p11.",
+    "verificacoes": ["1", "3", "4", "5", "8"]
+  }
+}

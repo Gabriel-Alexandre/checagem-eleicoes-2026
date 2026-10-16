@@ -1,0 +1,242 @@
+PEDIDO DE CHECAGEM 05 de 15 · alegações A053 a A065
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/checagens/lotes/checagens-lote-05.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A053",
+      "inicio_s": 688.7,
+      "fim_s": 695.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor tem falado bastante na importância de atacar o que o senhor chama de andar de cima do crime, de asfixiar financeiramente as facções.",
+      "citacao_card": "O senhor tem falado bastante na importância de atacar o que o senhor chama de andar de cima do crime",
+      "afirmacao": "Lula tem falado com frequência em atacar o 'andar de cima do crime' e asfixiar financeiramente as facções",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o que o governo faria contra a violência como ela é sentida no cotidiano",
+      "o_que_conferir": [
+        "discursos e entrevistas de Lula em 2025 e 2026 com a expressão 'andar de cima do crime' ou equivalente sobre asfixia financeira das facções (biblioteca da Presidência, cobertura jornalística)"
+      ]
+    },
+    {
+      "id": "A054",
+      "inicio_s": 757.7,
+      "fim_s": 764.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "de dono de rua, de pessoas que interferem na compra de gás, que interferem no recebimento do Bolsa Família.",
+      "afirmacao": "Grupos criminosos que dominam territórios interferem na venda de gás de cozinha e no recebimento do Bolsa Família pelos moradores",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre libertar territórios dominados pelo crime organizado",
+      "o_que_conferir": [
+        "investigações policiais, do Ministério Público ou relatórios (Fórum Brasileiro de Segurança Pública, Geni/UFF) sobre controle da venda de gás por facções e milícias",
+        "registros do Ministério do Desenvolvimento Social ou de investigações sobre interferência de grupos criminosos no Bolsa Família (cobrança, cadastro, saque)"
+      ]
+    },
+    {
+      "id": "A055",
+      "inicio_s": 774.3,
+      "fim_s": 780.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "ela reorganiza o papel de cada um nesse assunto, ampliando o raio de ação do governo federal.",
+      "afirmacao": "A PEC da Segurança Pública reorganiza as competências na segurança pública e amplia a atuação do governo federal",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "texto da PEC da Segurança Pública na versão em discussão no Senado em out/2026: dispositivos que dão novas competências à União (diretrizes nacionais, Polícia Federal, PRF)"
+      ]
+    },
+    {
+      "id": "A056",
+      "inicio_s": 783.4,
+      "fim_s": 790.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Foi discutida hoje, inclusive, enquanto a gente está conversando aqui e ainda está pendente de votação no Senado.",
+      "afirmacao": "A PEC da Segurança Pública foi discutida no Senado em 15/out/2026 e ainda não tinha sido votada pela Casa",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "página de tramitação da PEC no Senado: sessão ou reunião de comissão em 15/out/2026 e situação da votação nessa data",
+        "se a pendência é na CCJ ou no plenário do Senado"
+      ]
+    },
+    {
+      "id": "A057",
+      "inicio_s": 795.3,
+      "fim_s": 805.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu ex-ministro da Educação, o senador Camilo Santana, apareceu com a ideia de redução da maioridade penal de 18 para 16 anos, no caso de crimes hediondos.",
+      "citacao_card": "o senador Camilo Santana, apareceu com a ideia de redução da maioridade penal de 18 para 16 anos",
+      "afirmacao": "O senador Camilo Santana, ex-ministro da Educação de Lula, propôs reduzir a maioridade penal de 18 para 16 anos em crimes hediondos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a discussão da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "emenda ou proposta apresentada por Camilo Santana no Senado sobre maioridade penal em out/2026: idade, alcance (crimes hediondos) e data",
+        "se Camilo Santana estava no exercício do mandato de senador nessa data e o período em que foi ministro da Educação"
+      ]
+    },
+    {
+      "id": "A058",
+      "inicio_s": 806.2,
+      "fim_s": 811.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Essa ideia, ela causou oposição em parte da bancada do PT no Senado",
+      "afirmacao": "A proposta de Camilo Santana sobre maioridade penal enfrentou oposição de parte da bancada do PT no Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a proposta de redução da maioridade penal de Camilo Santana",
+      "o_que_conferir": [
+        "declarações públicas de senadores do PT contra a proposta, ou registro de votação ou orientação da bancada, em out/2026"
+      ]
+    },
+    {
+      "id": "A059",
+      "inicio_s": 811.5,
+      "fim_s": 814.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "historicamente, o PT foi contra a redução da maioridade penal.",
+      "afirmacao": "O PT historicamente se posicionou contra a redução da maioridade penal",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a proposta de redução da maioridade penal de Camilo Santana",
+      "o_que_conferir": [
+        "orientação e votos da bancada do PT na PEC 171/1993 na Câmara (2015) e em outras votações sobre maioridade penal",
+        "resoluções ou documentos partidários do PT sobre o tema"
+      ]
+    },
+    {
+      "id": "A060",
+      "inicio_s": 835.9,
+      "fim_s": 838.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Era que a PEC não estava discutindo isso.",
+      "afirmacao": "O texto da PEC da Segurança Pública não tratava de maioridade penal",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre a proposta de redução da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "texto da PEC enviado pelo Executivo e texto aprovado na Câmara: se algum dispositivo trata de maioridade penal",
+        "se a maioridade penal entrou só por emenda no Senado"
+      ]
+    },
+    {
+      "id": "A061",
+      "inicio_s": 838.9,
+      "fim_s": 847.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A direita do PL tentou apresentar uma proposta reduzindo para 14 anos. E aí, o Camilo apresentou a proposta para 16.",
+      "citacao_card": "A direita do PL tentou apresentar uma proposta reduzindo para 14 anos",
+      "afirmacao": "Parlamentares do PL tentaram incluir na PEC a redução da maioridade penal para 14 anos, e a proposta de Camilo Santana para 16 veio depois",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre a proposta de redução da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "emendas apresentadas à PEC no Senado sobre maioridade penal: autor, partido, idade proposta e data de cada uma",
+        "a ordem cronológica entre a emenda do PL (14 anos) e a proposta de Camilo Santana (16 anos)"
+      ]
+    },
+    {
+      "id": "A062",
+      "inicio_s": 889.8,
+      "fim_s": 894.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E essas dificuldades, eu lembro, somadas à tentativa de golpe na transição",
+      "afirmacao": "Houve uma tentativa de golpe de Estado na transição de governo de 2022 para 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o uso do STF pelo governo e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "julgamento do STF na ação penal da trama golpista (núcleo central), com data e tipificação dos crimes",
+        "relatório da Polícia Federal e denúncia da PGR sobre a tentativa de golpe"
+      ]
+    },
+    {
+      "id": "A063",
+      "inicio_s": 895.4,
+      "fim_s": 899.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "fizeram com que o senhor se valesse bastante do Supremo neste seu terceiro mandato",
+      "afirmacao": "O governo Lula recorreu com frequência ao STF no terceiro mandato",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o uso do STF pelo governo e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "número de ações de controle concentrado (ADI, ADC, ADPF) ajuizadas pela Presidência ou pela AGU no STF de 2023 a 2026, comparado com os governos anteriores",
+        "casos em que o governo levou ao STF disputas com o Congresso (emendas, desoneração, IOF)"
+      ]
+    },
+    {
+      "id": "A064",
+      "inicio_s": 900.0,
+      "fim_s": 915.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Supremo que está às voltas agora [...] por causa do caso Master. [...] as suspeitas que pairam sobre vários ministros.",
+      "citacao_card": "Supremo que está às voltas agora [...] por causa do caso Master",
+      "afirmacao": "O STF enfrenta uma crise ligada ao caso Banco Master, com suspeitas envolvendo vários de seus ministros",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a relação do governo com o STF e a crise do tribunal",
+      "o_que_conferir": [
+        "investigações e reportagens sobre ligações de ministros do STF com o Banco Master e Daniel Vorcaro: quantos ministros, quais suspeitas e se há procedimento formal",
+        "pesquisas de confiança no STF em 2026, para situar a crise"
+      ]
+    },
+    {
+      "id": "A065",
+      "inicio_s": 909.4,
+      "fim_s": 923.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "demorou a comentar mais com clareza as suspeitas que pairam sobre vários ministros. E só agora, depois do primeiro turno, o senhor usou uma palavra mais dura, promiscuidade, para se referir ao que acontece no tribunal.",
+      "citacao_card": "só agora, depois do primeiro turno, o senhor usou uma palavra mais dura, promiscuidade",
+      "afirmacao": "Lula só usou a palavra 'promiscuidade' para se referir ao que acontece no STF depois do primeiro turno, e antes evitou comentar com clareza as suspeitas sobre ministros",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a relação do governo com o STF e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "data e ocasião em que Lula usou a palavra 'promiscuidade' sobre o STF (entrevista, discurso), e se é posterior à data do primeiro turno",
+        "declarações anteriores de Lula sobre as suspeitas envolvendo ministros do STF no caso Master"
+      ]
+    }
+  ]
+}
