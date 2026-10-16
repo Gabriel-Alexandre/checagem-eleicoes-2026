@@ -1,0 +1,4077 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 0.0,
+    "fim_s": 2867.08
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 82.6,
+      "fim_s": 91.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor busca o quarto mandato em situação mais adversa do que aquela de quando conseguiu os dois anteriores e o atual.",
+      "citacao_card": "O senhor busca o quarto mandato [...] quando conseguiu os dois anteriores e o atual",
+      "afirmacao": "Lula exerceu três mandatos presidenciais (dois anteriores e o atual) e disputa o quarto",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "lista de mandatos presidenciais de Lula, TSE e Presidência da República: anos de posse e término",
+        "se a candidatura de 2026 é à reeleição para um quarto mandato"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 91.7,
+      "fim_s": 96.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu não me refiro só à desvantagem na votação do segundo turno, do primeiro turno.",
+      "citacao_card": "a desvantagem na votação [...] do primeiro turno",
+      "afirmacao": "Lula terminou o 1º turno de 2026 atrás do adversário na votação",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "resultado oficial do 1º turno presidencial de 2026, TSE: votos válidos de Lula e do adversário",
+        "a entrevistadora corrige 'segundo turno' para 'primeiro turno' na própria frase: conferir só o 1º turno, já que o 2º não tinha ocorrido"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 96.4,
+      "fim_s": 104.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "desde o início do ano, quase que o tempo inteiro, os brasileiros rejeitaram majoritariamente o seu governo",
+      "afirmacao": "Desde o início de 2026, na maior parte do tempo, a maioria dos brasileiros desaprovou o governo Lula nas pesquisas",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "série de pesquisas de avaliação e aprovação do governo (Datafolha, Quaest, AtlasIntel, Ipec) de janeiro a outubro de 2026",
+        "se a desaprovação ou a avaliação negativa passou de 50% em quase todas as rodadas, e qual medida a frase usa (desaprovação ou ruim/péssimo)"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 104.6,
+      "fim_s": 110.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor já atribuiu esse quadro às situações de conjuntura",
+      "afirmacao": "Lula atribuiu publicamente a avaliação adversa do governo a fatores de conjuntura",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "declarações públicas de Lula em 2026 sobre as causas da reprovação do governo, com data e veículo",
+        "se a palavra 'conjuntura' ou equivalente aparece na fala dele"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 108.0,
+      "fim_s": 112.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e também disse recentemente que a sua campanha foi desorganizada",
+      "afirmacao": "Lula disse recentemente que a sua campanha de 2026 foi desorganizada",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta de abertura sobre as condições em que Lula disputa a reeleição",
+      "o_que_conferir": [
+        "declaração de Lula entre o 1º turno e 15/out/2026 sobre desorganização da campanha, com data e veículo",
+        "o termo exato que ele usou"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 159.0,
+      "fim_s": 160.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A gente era a sétima economia do mundo.",
+      "afirmacao": "Em 2010, o Brasil era a sétima maior economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares por país em 2010, FMI (World Economic Outlook) e Banco Mundial",
+        "se o critério é PIB nominal ou por paridade de poder de compra"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 161.0,
+      "fim_s": 164.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A economia crescia a 7,5% ao ano",
+      "afirmacao": "A economia brasileira crescia 7,5% ao ano no fim do segundo mandato de Lula (2010)",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "PIB de 2010 e taxa de crescimento anual, IBGE (Contas Nacionais), na revisão vigente",
+        "se '7,5% ao ano' descreve só 2010 ou a média do período, que é outro número"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 164.0,
+      "fim_s": 167.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "tínhamos criado 22 milhões de empregos em oito anos",
+      "afirmacao": "Os oito anos de governo Lula (2003 a 2010) criaram 22 milhões de empregos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "saldo de empregos formais de 2003 a 2010, CAGED e RAIS (Ministério do Trabalho)",
+        "se o número é emprego formal (CAGED/RAIS) ou ocupação total (PNAD), e qual série dá cerca de 22 milhões"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 173.7,
+      "fim_s": 175.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Foram dez ministérios desmontados.",
+      "afirmacao": "Dez ministérios foram extintos ou desmontados antes do atual governo Lula (2019 a 2022)",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "estrutura ministerial em 2018, em 2019 e em dez/2022 (medidas provisórias e decretos de organização da Presidência)",
+        "quantos ministérios foram extintos ou fundidos no período, e o que conta como 'desmontado'"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 178.3,
+      "fim_s": 185.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós tivemos que fazer uma PEC da transição para começar governando antes de eu tomar posse",
+      "afirmacao": "O governo eleito aprovou uma PEC da Transição antes da posse de Lula, em 1º/jan/2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "tramitação e data de promulgação da PEC da Transição, Congresso Nacional",
+        "comparar a data de promulgação com a da posse"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 188.2,
+      "fim_s": 192.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O orçamento não tinha deixado dinheiro para o Bolsa Família",
+      "afirmacao": "O projeto de orçamento de 2023 enviado pelo governo anterior não reservava recursos para o Bolsa Família no valor então pago",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "PLOA 2023 (enviado em ago/2022): dotação do Auxílio Brasil/Bolsa Família e valor do benefício previsto",
+        "comparar com o benefício pago no fim de 2022 e com o custo necessário para mantê-lo"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 188.2,
+      "fim_s": 192.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O orçamento não tinha deixado dinheiro para [...] a educação, para a saúde.",
+      "afirmacao": "O projeto de orçamento de 2023 do governo anterior não deixava recursos suficientes para educação e saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre o que considera responsabilidade sua na situação adversa",
+      "o_que_conferir": [
+        "PLOA 2023: dotações discricionárias de Educação e de Saúde comparadas a 2022, e o piso constitucional",
+        "notas técnicas da Consultoria de Orçamento do Congresso e relatório da equipe de transição sobre essas áreas"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 217.8,
+      "fim_s": 222.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor venceu naquela altura com o apoio de forças políticas mais ao centro",
+      "afirmacao": "Lula venceu a eleição de 2022 com o apoio de forças políticas de centro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre governabilidade e a frente ampla de apoios num eventual novo mandato",
+      "o_que_conferir": [
+        "coligação de Lula em 2022 e os apoios declarados no 2º turno (partidos e líderes de centro), TSE e imprensa",
+        "quem apoiou no 1º turno e quem só no 2º"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 222.9,
+      "fim_s": 224.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que acabaram não tendo lugar no seu governo",
+      "afirmacao": "As forças de centro que apoiaram Lula em 2022 não tiveram lugar no governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre governabilidade e a frente ampla de apoios num eventual novo mandato",
+      "o_que_conferir": [
+        "ministros do governo Lula de 2023 a 2026 por partido e origem política",
+        "se os líderes e partidos de centro que apoiaram em 2022 ocuparam cargos no primeiro escalão"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 225.3,
+      "fim_s": 231.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor vai enfrentar um congresso eleito mais hostil do que o atual",
+      "afirmacao": "O Congresso eleito em 2026 tem menos parlamentares alinhados a Lula do que o atual",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre governabilidade e a frente ampla de apoios num eventual novo mandato",
+      "o_que_conferir": [
+        "composição da Câmara e do Senado eleita em 2026 contra a eleita em 2022, por partido, TSE",
+        "critério de alinhamento (base, oposição, campo ideológico) e se ele dá menos cadeiras ao governo"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 254.0,
+      "fim_s": 258.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu fui eleito tendo 70 deputados no meu partido de 513",
+      "afirmacao": "O PT tinha 70 dos 513 deputados federais quando Lula foi eleito em 2022",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "bancada eleita do PT na Câmara em 2022, TSE e Câmara dos Deputados",
+        "se o número é do PT sozinho ou da federação (PT, PCdoB, PV)"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 257.0,
+      "fim_s": 260.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e tendo 9 senadores de 81",
+      "afirmacao": "O PT tinha 9 dos 81 senadores quando Lula foi eleito em 2022",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "bancada do PT no Senado no início da legislatura de 2023 (eleitos em 2022 mais os que tinham mandato), Senado Federal",
+        "se o número é o da posse ou de outro momento"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 260.9,
+      "fim_s": 266.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E nós aprovamos 99% de tudo que a gente fez aqui no Congresso Nacional",
+      "afirmacao": "O Congresso aprovou 99% das propostas do governo Lula",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "taxa de aprovação das proposições do Executivo (MPs, PLs, PECs) de 2023 a 2026, Câmara, Senado e levantamentos independentes",
+        "qual universo dá 99%: o que foi enviado, o que foi votado, ou só as prioridades"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 266.9,
+      "fim_s": 270.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "até uma reforma tributária que havia há 40 anos que nós queríamos aprovar",
+      "afirmacao": "A reforma tributária aprovada no governo Lula era uma mudança buscada havia cerca de 40 anos",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "data de promulgação da reforma tributária do consumo",
+        "histórico das propostas de reforma tributária desde a Constituinte para conferir os 40 anos"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 271.4,
+      "fim_s": 276.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "todos os partidos, com exceção do PL, participaram do meu governo",
+      "afirmacao": "Todos os partidos, exceto o PL, tiveram ministérios no governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre governabilidade e a base no Congresso",
+      "o_que_conferir": [
+        "composição partidária dos ministérios de 2023 a 2026, Presidência da República",
+        "conferir também os quatro citados em seguida (PP, União Brasil, PSD, MDB) e os partidos com bancada que não tiveram ministro"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 321.3,
+      "fim_s": 327.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "esses partidos que participaram do seu governo com ministérios não estão com o senhor na reeleição",
+      "afirmacao": "Os partidos que tiveram ministérios no governo Lula não apoiam a reeleição dele em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "coligação de Lula registrada no TSE em 2026 e apoios formais de PP, União Brasil, PSD e MDB no 1º e no 2º turno",
+        "se algum desses partidos declarou apoio, ainda que só no 2º turno"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 334.2,
+      "fim_s": 338.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O governo viu um desmonte grande de legislação ambiental.",
+      "afirmacao": "Durante o governo Lula, o Congresso aprovou mudanças que reduziram a legislação de proteção ambiental",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "meio-ambiente",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "leis ambientais aprovadas pelo Congresso de 2023 a 2026 e vetos derrubados, com datas (Congresso Nacional, Diário Oficial)",
+        "avaliação de órgãos e entidades sobre o alcance das mudanças"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 341.4,
+      "fim_s": 346.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E o senhor teve essa situação praticamente inédita",
+      "afirmacao": "A rejeição de um indicado ao STF pelo Senado é praticamente inédita na história do país",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "histórico de indicações ao STF rejeitadas pelo Senado, com datas (STF e Senado Federal)",
+        "quantas vezes isso aconteceu e quando foi a última antes do mandato atual"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 341.4,
+      "fim_s": 348.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "ver um ministro indicado pelo senhor para o Supremo ser rejeitado pelo Senado",
+      "afirmacao": "O Senado rejeitou um ministro indicado por Lula para o STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Ponderações da entrevistadora depois da resposta sobre o Congresso",
+      "o_que_conferir": [
+        "votação no Senado da indicação de Lula ao STF no mandato atual: nome, data e placar, Senado Federal"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 364.2,
+      "fim_s": 369.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As suas interações com ele transcorreram sem incidentes, às vezes em tom até amigável.",
+      "afirmacao": "Os encontros e conversas entre Lula e Donald Trump ocorreram sem incidentes diplomáticos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a pressão dos Estados Unidos e a vizinhança sul-americana",
+      "o_que_conferir": [
+        "registro dos encontros e telefonemas entre Lula e Trump desde 2025 e o relato oficial de cada um (Planalto, Itamaraty, Casa Branca)",
+        "se houve troca pública de ataques em algum desses contatos"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 369.8,
+      "fim_s": 376.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "de concreto, a gente teve duas rodadas de tarifaço",
+      "afirmacao": "Os Estados Unidos impuseram duas rodadas de tarifas extras contra produtos brasileiros",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a pressão dos Estados Unidos e a vizinhança sul-americana",
+      "o_que_conferir": [
+        "ordens executivas e anúncios de tarifas dos EUA contra o Brasil desde 2025, com datas e alíquotas (Casa Branca, USTR, MDIC)",
+        "o que conta como 'rodada': anúncio, ordem executiva ou entrada em vigor"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 369.8,
+      "fim_s": 377.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e uma clara preferência do governo americano pela vitória do seu adversário",
+      "afirmacao": "O governo dos Estados Unidos manifestou preferência pela vitória do adversário de Lula na eleição de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a pressão dos Estados Unidos e a vizinhança sul-americana",
+      "o_que_conferir": [
+        "declarações públicas de Trump e de membros do governo americano sobre a eleição brasileira de 2026, com data e fonte",
+        "se houve apoio explícito ao adversário ou só crítica ao governo Lula"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 391.9,
+      "fim_s": 399.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nem em 2006, quando eu fui candidato à reeleição, eu pedo para os meus ministros fazerem campanha para mim",
+      "citacao_card": "nem em 2006 [...] eu pedo para os meus ministros fazerem campanha para mim",
+      "afirmacao": "Na campanha de 2006, Lula não pediu aos seus ministros que fizessem campanha para ele",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "cobertura da campanha de 2006 sobre ministros em campanha e orientação do Planalto, com data e veículo",
+        "registros de ministros que deixaram o cargo ou fizeram campanha em 2006 a pedido do presidente"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 413.1,
+      "fim_s": 416.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu nunca procurei os partidos para me apoiar nessa campanha.",
+      "afirmacao": "Lula não buscou o apoio de outros partidos na campanha de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "noticiário de 2026 sobre negociações de Lula ou do PT com partidos (MDB, PSD, PP, União Brasil e outros) por apoio no 1º e no 2º turno",
+        "reuniões públicas de Lula com dirigentes partidários com pedido de apoio"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 432.0,
+      "fim_s": 442.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "era importante que dois homens de 80 anos, sabe, tivessem juízo",
+      "afirmacao": "Lula e Donald Trump têm, os dois, cerca de 80 anos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "datas de nascimento de Lula e de Trump e a idade de cada um na data da conversa e na da fala (15/out/2026)"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 436.6,
+      "fim_s": 447.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não era possível a gente ficar passando desavença entre as duas maiores democracias do Ocidente",
+      "citacao_card": "as duas maiores democracias do Ocidente",
+      "afirmacao": "Brasil e Estados Unidos são as duas maiores democracias do Ocidente",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "população e eleitorado dos países classificados como democracias (V-Dem, EIU, Freedom House) no Ocidente",
+        "o que se entende por 'Ocidente' (Américas, ou Américas mais Europa)"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 449.1,
+      "fim_s": 450.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós tivemos três reuniões.",
+      "afirmacao": "Lula e Trump tiveram três reuniões",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "agenda oficial de encontros e telefonemas Lula-Trump desde 2025 (Planalto, Itamaraty, Casa Branca)",
+        "se 'reunião' inclui encontro rápido e telefonema"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 451.2,
+      "fim_s": 457.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A última foi quase uma hora e meia por telefone que eu liguei para ele para reclamar do comportamento do Conselho de Segurança da ONU.",
+      "citacao_card": "A última foi quase uma hora e meia por telefone que eu liguei para ele",
+      "afirmacao": "O último contato de Lula com Trump foi um telefonema de quase uma hora e meia, feito por Lula, sobre o Conselho de Segurança da ONU",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "nota oficial do Planalto ou do Itamaraty sobre o último telefonema com Trump: data, quem ligou, duração e temas",
+        "relato da Casa Branca sobre o mesmo telefonema"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 458.9,
+      "fim_s": 469.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Essa semana mesmo, o meu ministro da Indústria do Comércio, o meu ministro das Relações Exteriores, e estiveram negociando com os Estados Unidos.",
+      "citacao_card": "Essa semana mesmo, o meu ministro da Indústria do Comércio, o meu ministro das Relações Exteriores, [...] estiveram negociando com os Estados Unidos",
+      "afirmacao": "Na semana da sabatina, os ministros do Desenvolvimento, Indústria e Comércio e das Relações Exteriores negociaram com os Estados Unidos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "agendas oficiais do MDIC e do Itamaraty na semana de 12 a 15/out/2026 e notas sobre reuniões com o governo americano"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 476.3,
+      "fim_s": 481.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "embora a gente tenha perdido 9% na relação comercial com os Estados Unidos",
+      "afirmacao": "O comércio do Brasil com os Estados Unidos caiu 9%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio (ou exportações) Brasil-EUA, Comex Stat (MDIC/Secex), 2026 contra o mesmo período de 2025",
+        "qual medida (exportação ou corrente) e qual período dão -9%"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 481.5,
+      "fim_s": 483.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós crescemos 20% com a China",
+      "afirmacao": "O comércio do Brasil com a China cresceu 20%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-China, Comex Stat (MDIC/Secex), mesmo período e mesma medida da alegação sobre os EUA"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 484.1,
+      "fim_s": 485.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "crescemos 15% com a Indonésia",
+      "afirmacao": "O comércio do Brasil com a Indonésia cresceu 15%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Indonésia, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 485.9,
+      "fim_s": 487.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "16% com a Alemanha",
+      "afirmacao": "O comércio do Brasil com a Alemanha cresceu 16%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Alemanha, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 487.8,
+      "fim_s": 489.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "13% com o Vietnã",
+      "afirmacao": "O comércio do Brasil com o Vietnã cresceu 13%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "corrente de comércio ou exportações Brasil-Vietnã, Comex Stat (MDIC/Secex), mesmo período e medida"
+      ]
+    },
+    {
+      "id": "A040",
+      "inicio_s": 489.7,
+      "fim_s": 494.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e crescemos em 50 países que nós visitamos, em média 10,5% a mais",
+      "afirmacao": "O comércio do Brasil com os 50 países visitados por Lula cresceu em média 10,5%",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "lista de países visitados por Lula no mandato (Planalto, Itamaraty) e se são 50",
+        "variação do comércio com esses países no Comex Stat, se a média dá 10,5%, e de que tipo de média se trata"
+      ]
+    },
+    {
+      "id": "A041",
+      "inicio_s": 494.6,
+      "fim_s": 499.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós batemos recordes, sabe, de superávit comercial",
+      "afirmacao": "O Brasil bateu recordes de superávit comercial",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "série anual e acumulada no ano do saldo da balança comercial, Comex Stat (MDIC/Secex)",
+        "se o recorde é do ano fechado, do acumulado de 2026 ou de algum mês"
+      ]
+    },
+    {
+      "id": "A042",
+      "inicio_s": 505.1,
+      "fim_s": 508.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu não fiz a lei da reciprocidade, não quero fazer",
+      "afirmacao": "O governo Lula não acionou a lei da reciprocidade contra os Estados Unidos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos",
+      "o_que_conferir": [
+        "se existe lei de reciprocidade comercial sancionada e em que data (Diário Oficial)",
+        "se o governo editou medida de retaliação com base nela contra os EUA até 15/out/2026 (Camex, MDIC)",
+        "a frase admite as leituras 'não fiz a lei' e 'não apliquei a lei': conferir as duas"
+      ]
+    },
+    {
+      "id": "A043",
+      "inicio_s": 524.4,
+      "fim_s": 530.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "outra que está no topo das preocupações dos brasileiros, que é a questão da segurança pública",
+      "afirmacao": "A segurança pública está no topo das preocupações dos brasileiros",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Transição da entrevistadora do tema Estados Unidos para o tema segurança pública",
+      "o_que_conferir": [
+        "pesquisas de opinião de 2026 com a pergunta de principal problema do país (Datafolha, Quaest, AtlasIntel, Ipec), posição da segurança pública ou violência na mais recente antes de 15/out/2026",
+        "se 'no topo' corresponde ao 1º lugar ou só a estar entre os primeiros, e se a pergunta é espontânea ou estimulada"
+      ]
+    },
+    {
+      "id": "A044",
+      "inicio_s": 530.6,
+      "fim_s": 540.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a decisão do governo americano que classificou como organizações terroristas, facções criminosas, entre elas, PCC e Comando Vermelho",
+      "citacao_card": "governo americano que classificou como organizações terroristas, facções criminosas, entre elas, PCC e Comando Vermelho",
+      "afirmacao": "O governo dos Estados Unidos classificou o PCC e o Comando Vermelho como organizações terroristas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a posição do governo brasileiro diante da designação americana das facções",
+      "o_que_conferir": [
+        "ato do Departamento de Estado ou do Tesouro dos EUA publicado no Federal Register designando PCC e Comando Vermelho, com a data",
+        "qual designação foi usada (Foreign Terrorist Organization ou Specially Designated Global Terrorist) e se alcança as duas facções"
+      ]
+    },
+    {
+      "id": "A045",
+      "inicio_s": 530.6,
+      "fim_s": 547.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo é contra a decisão do governo americano [...] É contra por considerar que isso não resolve o problema e ainda abre caminho para a ingerência americana aqui.",
+      "citacao_card": "O seu governo é contra a decisão do governo americano [...] abre caminho para a ingerência americana aqui",
+      "afirmacao": "O governo Lula se opõe à designação americana das facções como terroristas, alegando que ela não resolve o problema e abre caminho para ingerência dos EUA",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "notas oficiais do Itamaraty, do Ministério da Justiça ou declarações do presidente sobre a designação, com data",
+        "se as duas razões citadas (não resolve o problema; abre caminho para ingerência) aparecem nessas manifestações oficiais"
+      ]
+    },
+    {
+      "id": "A046",
+      "inicio_s": 547.9,
+      "fim_s": 560.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas a população é a favor. A população brasileira, uma pesquisa de junho do Datafolha, aponta que dois terços, aproximadamente, concorda total ou parcialmente com essa designação.",
+      "citacao_card": "uma pesquisa de junho do Datafolha, aponta que dois terços, aproximadamente, concorda total ou parcialmente",
+      "afirmacao": "Pesquisa Datafolha de junho apontou que cerca de dois terços dos brasileiros concordam total ou parcialmente com a designação das facções como terroristas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "relatório Datafolha de junho de 2026 com a pergunta sobre classificar facções como terroristas: soma de 'concorda totalmente' e 'concorda em parte'",
+        "se a pergunta da pesquisa trata da designação pelos EUA ou de classificar facções como terroristas em geral (lei brasileira)"
+      ]
+    },
+    {
+      "id": "A047",
+      "inicio_s": 574.2,
+      "fim_s": 584.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando os Estados Unidos falam em terrorismo, ele fala em terrorismo de Estado. Ele fala em terrorismo como aqueles que atentaram contra as duas torres americanas",
+      "citacao_card": "quando os Estados Unidos falam em terrorismo, ele fala em terrorismo de Estado",
+      "afirmacao": "A classificação de terrorismo usada pelos EUA se refere a terrorismo de Estado e a ataques como os de 11 de setembro, e não a grupos criminosos com fim financeiro",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre por que o governo é contra a designação americana de PCC e Comando Vermelho",
+      "o_que_conferir": [
+        "critérios legais da designação de organização terrorista estrangeira nos EUA (8 U.S.C. §1189 e a Ordem Executiva 13224), em vigor em 2026",
+        "se a lista americana já inclui organizações criminosas de motivação financeira (cartéis, facções) e desde quando"
+      ]
+    },
+    {
+      "id": "A048",
+      "inicio_s": 608.8,
+      "fim_s": 623.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós oferecemos ao presidente Trump uma proposta de combater o crime organizado, combater o narcotráfico, fazendo tudo aquilo que nós já temos feito de experiência com a Polícia Federal brasileira, levamos por escrito para ele",
+      "citacao_card": "Nós oferecemos ao presidente Trump uma proposta de combater o crime organizado [...] levamos por escrito para ele",
+      "afirmacao": "O governo brasileiro entregou por escrito ao presidente Trump uma proposta de cooperação no combate ao crime organizado e ao narcotráfico",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "registro do Planalto, do Itamaraty ou do Ministério da Justiça de proposta escrita entregue ao governo Trump sobre crime organizado e narcotráfico, com data e ocasião",
+        "confirmação do lado americano (Casa Branca, Departamento de Estado) ou de cobertura jornalística do encontro"
+      ]
+    },
+    {
+      "id": "A049",
+      "inicio_s": 623.4,
+      "fim_s": 629.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós criamos, aprovamos a lei contra a lei anti-facção, que aumenta a pena dos bandidos.",
+      "afirmacao": "O governo Lula propôs e conseguiu aprovar a lei antifacção, que aumenta as penas para integrantes de facções",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o que o governo faz contra o crime organizado",
+      "o_que_conferir": [
+        "tramitação do projeto de lei antifacção na Câmara e no Senado: autor (Executivo ou parlamentar), data de aprovação e de sanção, número da lei",
+        "texto da lei sancionada: se aumenta penas e para quais crimes, em comparação com a legislação anterior"
+      ]
+    },
+    {
+      "id": "A050",
+      "inicio_s": 631.3,
+      "fim_s": 636.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a Constituição brasileira nunca permitiu que a União se metesse na segurança pública, é a questão do Estado.",
+      "afirmacao": "A Constituição atribui a segurança pública aos estados e não dá à União papel nela",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o combate ao crime organizado e a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "artigo 144 da Constituição de 1988 e as competências que ele dá à União (Polícia Federal, Polícia Rodoviária Federal, Polícia Penal federal) e aos estados",
+        "se alguma emenda anterior a 15/out/2026 já alterou a divisão de competências na segurança pública"
+      ]
+    },
+    {
+      "id": "A051",
+      "inicio_s": 636.8,
+      "fim_s": 639.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu agora quero me meter, por isso que nós mandamos a PEC.",
+      "afirmacao": "O governo Lula enviou ao Congresso uma PEC da Segurança Pública",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o papel da União na segurança pública",
+      "o_que_conferir": [
+        "registro da PEC da Segurança Pública na Câmara: autor (Poder Executivo), número e data de envio"
+      ]
+    },
+    {
+      "id": "A052",
+      "inicio_s": 672.6,
+      "fim_s": 687.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E eu cito aqui um dado do Fórum Brasileiro de Segurança Pública. Quase 80% dos brasileiros têm medo de serem roubados na rua, principalmente celular, inclusive a mão armada. Medo também de serem mortos em assalto ou de serem vítimas de golpe digital.",
+      "citacao_card": "um dado do Fórum Brasileiro de Segurança Pública. Quase 80% dos brasileiros têm medo de serem roubados na rua",
+      "afirmacao": "Segundo o Fórum Brasileiro de Segurança Pública, quase 80% dos brasileiros têm medo de ser roubados na rua, e há medo também de ser morto em assalto e de golpe digital",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o que o governo faria contra a violência como ela é sentida no cotidiano",
+      "o_que_conferir": [
+        "a pesquisa de percepção de medo publicada pelo Fórum Brasileiro de Segurança Pública mais recente antes de 15/out/2026: o percentual com medo de roubo na rua (celular, à mão armada)",
+        "se a mesma pesquisa traz os itens medo de ser morto em assalto e medo de golpe digital"
+      ]
+    },
+    {
+      "id": "A053",
+      "inicio_s": 688.7,
+      "fim_s": 695.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor tem falado bastante na importância de atacar o que o senhor chama de andar de cima do crime, de asfixiar financeiramente as facções.",
+      "citacao_card": "O senhor tem falado bastante na importância de atacar o que o senhor chama de andar de cima do crime",
+      "afirmacao": "Lula tem falado com frequência em atacar o 'andar de cima do crime' e asfixiar financeiramente as facções",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o que o governo faria contra a violência como ela é sentida no cotidiano",
+      "o_que_conferir": [
+        "discursos e entrevistas de Lula em 2025 e 2026 com a expressão 'andar de cima do crime' ou equivalente sobre asfixia financeira das facções (biblioteca da Presidência, cobertura jornalística)"
+      ]
+    },
+    {
+      "id": "A054",
+      "inicio_s": 757.7,
+      "fim_s": 764.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "de dono de rua, de pessoas que interferem na compra de gás, que interferem no recebimento do Bolsa Família.",
+      "afirmacao": "Grupos criminosos que dominam territórios interferem na venda de gás de cozinha e no recebimento do Bolsa Família pelos moradores",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre libertar territórios dominados pelo crime organizado",
+      "o_que_conferir": [
+        "investigações policiais, do Ministério Público ou relatórios (Fórum Brasileiro de Segurança Pública, Geni/UFF) sobre controle da venda de gás por facções e milícias",
+        "registros do Ministério do Desenvolvimento Social ou de investigações sobre interferência de grupos criminosos no Bolsa Família (cobrança, cadastro, saque)"
+      ]
+    },
+    {
+      "id": "A055",
+      "inicio_s": 774.3,
+      "fim_s": 780.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "ela reorganiza o papel de cada um nesse assunto, ampliando o raio de ação do governo federal.",
+      "afirmacao": "A PEC da Segurança Pública reorganiza as competências na segurança pública e amplia a atuação do governo federal",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "texto da PEC da Segurança Pública na versão em discussão no Senado em out/2026: dispositivos que dão novas competências à União (diretrizes nacionais, Polícia Federal, PRF)"
+      ]
+    },
+    {
+      "id": "A056",
+      "inicio_s": 783.4,
+      "fim_s": 790.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Foi discutida hoje, inclusive, enquanto a gente está conversando aqui e ainda está pendente de votação no Senado.",
+      "afirmacao": "A PEC da Segurança Pública foi discutida no Senado em 15/out/2026 e ainda não tinha sido votada pela Casa",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "página de tramitação da PEC no Senado: sessão ou reunião de comissão em 15/out/2026 e situação da votação nessa data",
+        "se a pendência é na CCJ ou no plenário do Senado"
+      ]
+    },
+    {
+      "id": "A057",
+      "inicio_s": 795.3,
+      "fim_s": 805.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu ex-ministro da Educação, o senador Camilo Santana, apareceu com a ideia de redução da maioridade penal de 18 para 16 anos, no caso de crimes hediondos.",
+      "citacao_card": "o senador Camilo Santana, apareceu com a ideia de redução da maioridade penal de 18 para 16 anos",
+      "afirmacao": "O senador Camilo Santana, ex-ministro da Educação de Lula, propôs reduzir a maioridade penal de 18 para 16 anos em crimes hediondos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a discussão da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "emenda ou proposta apresentada por Camilo Santana no Senado sobre maioridade penal em out/2026: idade, alcance (crimes hediondos) e data",
+        "se Camilo Santana estava no exercício do mandato de senador nessa data e o período em que foi ministro da Educação"
+      ]
+    },
+    {
+      "id": "A058",
+      "inicio_s": 806.2,
+      "fim_s": 811.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Essa ideia, ela causou oposição em parte da bancada do PT no Senado",
+      "afirmacao": "A proposta de Camilo Santana sobre maioridade penal enfrentou oposição de parte da bancada do PT no Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a proposta de redução da maioridade penal de Camilo Santana",
+      "o_que_conferir": [
+        "declarações públicas de senadores do PT contra a proposta, ou registro de votação ou orientação da bancada, em out/2026"
+      ]
+    },
+    {
+      "id": "A059",
+      "inicio_s": 811.5,
+      "fim_s": 814.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "historicamente, o PT foi contra a redução da maioridade penal.",
+      "afirmacao": "O PT historicamente se posicionou contra a redução da maioridade penal",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a proposta de redução da maioridade penal de Camilo Santana",
+      "o_que_conferir": [
+        "orientação e votos da bancada do PT na PEC 171/1993 na Câmara (2015) e em outras votações sobre maioridade penal",
+        "resoluções ou documentos partidários do PT sobre o tema"
+      ]
+    },
+    {
+      "id": "A060",
+      "inicio_s": 835.9,
+      "fim_s": 838.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Era que a PEC não estava discutindo isso.",
+      "afirmacao": "O texto da PEC da Segurança Pública não tratava de maioridade penal",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre a proposta de redução da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "texto da PEC enviado pelo Executivo e texto aprovado na Câmara: se algum dispositivo trata de maioridade penal",
+        "se a maioridade penal entrou só por emenda no Senado"
+      ]
+    },
+    {
+      "id": "A061",
+      "inicio_s": 838.9,
+      "fim_s": 847.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A direita do PL tentou apresentar uma proposta reduzindo para 14 anos. E aí, o Camilo apresentou a proposta para 16.",
+      "citacao_card": "A direita do PL tentou apresentar uma proposta reduzindo para 14 anos",
+      "afirmacao": "Parlamentares do PL tentaram incluir na PEC a redução da maioridade penal para 14 anos, e a proposta de Camilo Santana para 16 veio depois",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre a proposta de redução da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "emendas apresentadas à PEC no Senado sobre maioridade penal: autor, partido, idade proposta e data de cada uma",
+        "a ordem cronológica entre a emenda do PL (14 anos) e a proposta de Camilo Santana (16 anos)"
+      ]
+    },
+    {
+      "id": "A062",
+      "inicio_s": 889.8,
+      "fim_s": 894.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E essas dificuldades, eu lembro, somadas à tentativa de golpe na transição",
+      "afirmacao": "Houve uma tentativa de golpe de Estado na transição de governo de 2022 para 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o uso do STF pelo governo e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "julgamento do STF na ação penal da trama golpista (núcleo central), com data e tipificação dos crimes",
+        "relatório da Polícia Federal e denúncia da PGR sobre a tentativa de golpe"
+      ]
+    },
+    {
+      "id": "A063",
+      "inicio_s": 895.4,
+      "fim_s": 899.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "fizeram com que o senhor se valesse bastante do Supremo neste seu terceiro mandato",
+      "afirmacao": "O governo Lula recorreu com frequência ao STF no terceiro mandato",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o uso do STF pelo governo e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "número de ações de controle concentrado (ADI, ADC, ADPF) ajuizadas pela Presidência ou pela AGU no STF de 2023 a 2026, comparado com os governos anteriores",
+        "casos em que o governo levou ao STF disputas com o Congresso (emendas, desoneração, IOF)"
+      ]
+    },
+    {
+      "id": "A064",
+      "inicio_s": 900.0,
+      "fim_s": 915.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Supremo que está às voltas agora [...] por causa do caso Master. [...] as suspeitas que pairam sobre vários ministros.",
+      "citacao_card": "Supremo que está às voltas agora [...] por causa do caso Master",
+      "afirmacao": "O STF enfrenta uma crise ligada ao caso Banco Master, com suspeitas envolvendo vários de seus ministros",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a relação do governo com o STF e a crise do tribunal",
+      "o_que_conferir": [
+        "investigações e reportagens sobre ligações de ministros do STF com o Banco Master e Daniel Vorcaro: quantos ministros, quais suspeitas e se há procedimento formal",
+        "pesquisas de confiança no STF em 2026, para situar a crise"
+      ]
+    },
+    {
+      "id": "A065",
+      "inicio_s": 909.4,
+      "fim_s": 923.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "demorou a comentar mais com clareza as suspeitas que pairam sobre vários ministros. E só agora, depois do primeiro turno, o senhor usou uma palavra mais dura, promiscuidade, para se referir ao que acontece no tribunal.",
+      "citacao_card": "só agora, depois do primeiro turno, o senhor usou uma palavra mais dura, promiscuidade",
+      "afirmacao": "Lula só usou a palavra 'promiscuidade' para se referir ao que acontece no STF depois do primeiro turno, e antes evitou comentar com clareza as suspeitas sobre ministros",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a relação do governo com o STF e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "data e ocasião em que Lula usou a palavra 'promiscuidade' sobre o STF (entrevista, discurso), e se é posterior à data do primeiro turno",
+        "declarações anteriores de Lula sobre as suspeitas envolvendo ministros do STF no caso Master"
+      ]
+    },
+    {
+      "id": "A066",
+      "inicio_s": 940.4,
+      "fim_s": 946.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eles querem caçar o Alexandre de Moraes, não é por conta do Banco Master apenas",
+      "afirmacao": "Setores da direita buscam a cassação ou o impeachment do ministro Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "pedidos de impeachment contra Alexandre de Moraes protocolados no Senado: autores, partidos e datas, incluindo os que citam o Banco Master",
+        "declarações de lideranças da oposição pedindo o afastamento de Moraes em 2026"
+      ]
+    },
+    {
+      "id": "A067",
+      "inicio_s": 946.6,
+      "fim_s": 950.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o Alexandre de Moraes prendeu o pai do Flávio Bolsonaro.",
+      "afirmacao": "Alexandre de Moraes determinou a prisão de Jair Bolsonaro, pai de Flávio Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "decisões de Alexandre de Moraes que determinaram prisão (domiciliar, preventiva ou para cumprimento de pena) de Jair Bolsonaro, com datas",
+        "se a ordem foi decisão individual do relator ou da Primeira Turma"
+      ]
+    },
+    {
+      "id": "A068",
+      "inicio_s": 954.6,
+      "fim_s": 970.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E hoje a Política Federal esteve no Rio de Janeiro interferindo numa das pessoas importantes do clã do Bolsonaro, o Canelas, que foi preso",
+      "citacao_card": "hoje a Política Federal esteve no Rio de Janeiro [...] o Canelas, que foi preso",
+      "afirmacao": "A Polícia Federal fez operação no Rio de Janeiro em 15/out/2026 que prendeu uma pessoa conhecida como Canelas, ligada à família Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "nota da Polícia Federal sobre operação no Rio de Janeiro em 15/out/2026: alvos, mandados e se houve prisão",
+        "quem é 'Canelas' (nome completo, cargo ou candidatura) e qual o vínculo com a família Bolsonaro"
+      ]
+    },
+    {
+      "id": "A069",
+      "inicio_s": 962.0,
+      "fim_s": 970.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e que a mãe do Flávio ia ser suplente dele no Senado.",
+      "afirmacao": "A mãe de Flávio Bolsonaro seria suplente na candidatura ao Senado da pessoa conhecida como Canelas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "registro de candidatura no TSE (DivulgaCand 2026) da chapa ao Senado de 'Canelas': titular e suplentes",
+        "se a suplência foi registrada ou só anunciada, e se a pessoa citada é a mãe de Flávio Bolsonaro"
+      ]
+    },
+    {
+      "id": "A070",
+      "inicio_s": 982.2,
+      "fim_s": 986.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor tem defendido mesmo que se apurem todas as responsabilidades.",
+      "afirmacao": "Lula tem defendido publicamente que se apurem todas as responsabilidades no caso Master",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta complementar sobre o STF, Alexandre de Moraes e o caso Master",
+      "o_que_conferir": [
+        "declarações de Lula sobre o caso Master pedindo apuração, com datas e fontes (Presidência, entrevistas)"
+      ]
+    },
+    {
+      "id": "A071",
+      "inicio_s": 992.7,
+      "fim_s": 999.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "um ministro como Flávio Dino, que foi indicado pelo senhor",
+      "afirmacao": "Flávio Dino foi indicado ao STF por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o pedido de vista de Flávio Dino num processo que envolve Alexandre de Moraes",
+      "o_que_conferir": [
+        "mensagem presidencial de indicação de Flávio Dino ao STF e a data da aprovação no Senado"
+      ]
+    },
+    {
+      "id": "A072",
+      "inicio_s": 999.7,
+      "fim_s": 1006.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "chega lá e faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes",
+      "citacao_card": "faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes",
+      "afirmacao": "Flávio Dino fez um pedido de vista que impediu a abertura de uma investigação sobre a conduta de Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta feita em forma condicional ('se de repente'), mas descrevendo um episódio: o pedido de vista de Dino",
+      "o_que_conferir": [
+        "processo no STF (número, órgão julgador e data) em que Flávio Dino pediu vista, e o que estava sendo julgado (abertura de investigação, arquivamento, suspeição)",
+        "efeito do pedido de vista pelo regimento: se suspende o julgamento por prazo definido ou impede a investigação"
+      ]
+    },
+    {
+      "id": "A073",
+      "inicio_s": 1007.1,
+      "fim_s": 1012.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que de fato, candidato, é o ministro até aqui mais implicado com o Daniel Vorcaro.",
+      "afirmacao": "Alexandre de Moraes é, até agora, o ministro do STF mais implicado com Daniel Vorcaro",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o pedido de vista de Flávio Dino num processo que envolve Alexandre de Moraes",
+      "o_que_conferir": [
+        "o que as investigações e reportagens registram sobre a relação de cada ministro do STF com Daniel Vorcaro e o Banco Master até 15/out/2026 (contratos, mensagens, encontros)",
+        "qual critério sustenta 'mais implicado': número de menções, existência de contrato ou pedido formal de investigação"
+      ]
+    },
+    {
+      "id": "A074",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o Toffoli também está implicado",
+      "afirmacao": "O ministro do STF Dias Toffoli está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem Dias Toffoli em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    },
+    {
+      "id": "A075",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o André Mendonça também está implicado",
+      "afirmacao": "O ministro do STF André Mendonça está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem André Mendonça em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    },
+    {
+      "id": "A076",
+      "inicio_s": 1020.6,
+      "fim_s": 1023.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e o Castro está implicado",
+      "afirmacao": "Uma pessoa de sobrenome Castro está implicada no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "identificar a quem a fala se refere: o trecho diz só 'o Castro', sem nome completo nem cargo",
+        "registros de investigação ou reportagens com documento que liguem essa pessoa ao Banco Master ou a Daniel Vorcaro"
+      ]
+    },
+    {
+      "id": "A077",
+      "inicio_s": 1028.5,
+      "fim_s": 1032.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu não tenho como interferir na decisão de um ministro da Suprema Corte.",
+      "afirmacao": "O presidente da República não tem instrumento legal para interferir na decisão de um ministro do STF",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "Constituição Federal: separação dos Poderes e garantias da magistratura",
+        "se existe algum instrumento do Executivo capaz de alterar ou suspender decisão de ministro do STF"
+      ]
+    },
+    {
+      "id": "A078",
+      "inicio_s": 1033.2,
+      "fim_s": 1036.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eles pedem vista quando querem pedir vista e não pedem vista.",
+      "afirmacao": "O pedido de vista no STF é prerrogativa de cada ministro, que pede quando quer",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "regras do pedido de vista no Regimento Interno do STF, na versão vigente em out/2026",
+        "se há requisito, prazo ou devolução automática que limite o pedido"
+      ]
+    },
+    {
+      "id": "A079",
+      "inicio_s": 1036.1,
+      "fim_s": 1040.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Por que o Flávio Dino pediu vista? Porque o Flávio Dino queria que todos fossem jogados na mesma sessão.",
+      "afirmacao": "Flávio Dino pediu vista para que todos os casos fossem julgados na mesma sessão",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "a justificativa registrada por Flávio Dino no pedido de vista (despacho, voto ou declaração pública dele)",
+        "se os outros casos a que a fala se refere estavam pautados ou tramitavam no mesmo colegiado"
+      ]
+    },
+    {
+      "id": "A080",
+      "inicio_s": 1054.6,
+      "fim_s": 1056.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Todo dia se pede vista alguma coisa lá.",
+      "afirmacao": "No STF há pedido de vista todos os dias",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "estatística oficial de pedidos de vista no STF (Corte Aberta ou relatório de atividades) em 2025 e 2026",
+        "média de pedidos por dia útil e por sessão"
+      ]
+    },
+    {
+      "id": "A081",
+      "inicio_s": 1057.6,
+      "fim_s": 1075.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu vou dizer o que eu já disse na outra entrevista que eu fiz aqui, que eu disse o seguinte, não é possível imaginar que a sociedade brasileira vai aceitar que não seja apurado tudo",
+      "citacao_card": "eu vou dizer o que eu já disse na outra entrevista [...] não é possível imaginar que a sociedade brasileira vai aceitar que não seja apurado tudo",
+      "afirmacao": "Na entrevista anterior à TV Globo, Lula disse que a sociedade não aceitaria que o caso não fosse todo apurado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "transcrição da sabatina de Lula na TV Globo de 27/ago/2026 (caso 2026-08-27-sabatina-lula-globo deste repositório)",
+        "se houve outra entrevista dele na Globo antes desta e se o trecho sobre apuração existe nela e de que assunto tratava"
+      ]
+    },
+    {
+      "id": "A082",
+      "inicio_s": 1089.7,
+      "fim_s": 1098.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a gente vai ter que discutir a necessidade de uma reforma do Poder Judiciário, que, aliás, a primeira foi eu que fiz.",
+      "citacao_card": "uma reforma do Poder Judiciário, que, aliás, a primeira foi eu que fiz",
+      "afirmacao": "A primeira reforma do Poder Judiciário foi feita no governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "a emenda constitucional da Reforma do Judiciário: data de promulgação e governo em que tramitou",
+        "se houve reforma do Judiciário anterior que a fonte reconheça como tal"
+      ]
+    },
+    {
+      "id": "A083",
+      "inicio_s": 1099.1,
+      "fim_s": 1105.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu, o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça, nós fizemos a primeira reforma.",
+      "citacao_card": "o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça",
+      "afirmacao": "Quando a reforma do Judiciário foi feita, Nelson Jobim presidia o STF e Márcio Thomaz Bastos era ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "período de Nelson Jobim na presidência do STF e de Márcio Thomaz Bastos no Ministério da Justiça",
+        "data de promulgação da emenda da Reforma do Judiciário, para ver se cai dentro dos dois períodos"
+      ]
+    },
+    {
+      "id": "A084",
+      "inicio_s": 1146.4,
+      "fim_s": 1154.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não é possível que apareça na Suprema Corte tantas e tantas denúncias, tantas coisas de orgia, de mulher, de dinheiro.",
+      "citacao_card": "apareça na Suprema Corte tantas e tantas denúncias, tantas coisas de orgia, de mulher, de dinheiro",
+      "afirmacao": "Surgiram denúncias envolvendo o STF que relatam festas com mulheres e dinheiro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "reportagens ou documentos de investigação publicados até 15/out/2026 que relatem festas, mulheres e pagamentos envolvendo ministros do STF",
+        "separar denúncia formal (inquérito, representação, delação) de relato da imprensa"
+      ]
+    },
+    {
+      "id": "A085",
+      "inicio_s": 1160.2,
+      "fim_s": 1170.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E que eu já conversei três vezes com o presidente Fachin, dizendo que é importante que ele, enquanto for presidente, faça a apuração que tiver que fazer e que julgue.",
+      "citacao_card": "eu já conversei três vezes com o presidente Fachin",
+      "afirmacao": "Lula conversou três vezes com o presidente do STF, Edson Fachin, pedindo apuração e julgamento",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "agenda oficial da Presidência e do STF com encontros entre Lula e Fachin desde que Fachin assumiu a presidência do tribunal",
+        "relatos públicos do conteúdo desses encontros; confirmar que Fachin é o presidente do STF na data da fala"
+      ]
+    },
+    {
+      "id": "A086",
+      "inicio_s": 1195.6,
+      "fim_s": 1200.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Muitos dos seus adversários apontam uma proximidade grande dele com o senhor,",
+      "afirmacao": "Adversários de Lula apontam proximidade entre ele e o diretor-geral da PF, Andrei Rodrigues",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declarações públicas de adversários de Lula (parlamentares, candidatos, partidos) apontando essa proximidade",
+        "o histórico que essas declarações citam como prova da proximidade"
+      ]
+    },
+    {
+      "id": "A087",
+      "inicio_s": 1205.3,
+      "fim_s": 1208.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ele esteve numa festa do Daniel Vorcaro em Londres,",
+      "afirmacao": "Andrei Rodrigues esteve numa festa de Daniel Vorcaro em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "reportagens com registro da presença do diretor-geral da PF em evento de Vorcaro em Londres, e a data do evento",
+        "nota oficial da PF ou do próprio Andrei Rodrigues sobre a viagem"
+      ]
+    },
+    {
+      "id": "A088",
+      "inicio_s": 1208.9,
+      "fim_s": 1213.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "quando o Banco Central já apurava irregularidades no Master",
+      "afirmacao": "Na data da festa em Londres, o Banco Central já apurava irregularidades no Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "data de abertura dos procedimentos de supervisão ou apuração do Banco Central sobre o Banco Master",
+        "comparar com a data da festa em Londres"
+      ]
+    },
+    {
+      "id": "A089",
+      "inicio_s": 1213.3,
+      "fim_s": 1217.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e já havia inquérito na PF de São Paulo sobre o Master.",
+      "afirmacao": "Na data da festa em Londres, já havia inquérito da PF em São Paulo sobre o Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "data de instauração do inquérito da Polícia Federal em São Paulo sobre o Banco Master",
+        "comparar com a data da festa em Londres"
+      ]
+    },
+    {
+      "id": "A090",
+      "inicio_s": 1223.4,
+      "fim_s": 1225.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Primeiro, ele não é ligado a mim.",
+      "afirmacao": "Andrei Rodrigues não tem vínculo pessoal ou político com Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "histórico profissional de Andrei Rodrigues antes da nomeação: cargos ou funções exercidos junto a Lula, em campanha ou no governo",
+        "o que a fonte entende por vínculo, para não comparar coisas diferentes"
+      ]
+    },
+    {
+      "id": "A091",
+      "inicio_s": 1226.1,
+      "fim_s": 1229.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Ele é o diretor-geral da Polícia Federal que eu escolhi.",
+      "afirmacao": "Andrei Rodrigues é o diretor-geral da Polícia Federal e foi escolhido por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "ato de nomeação do diretor-geral da PF no Diário Oficial da União: data e quem assinou",
+        "se ele continua no cargo na data da fala"
+      ]
+    },
+    {
+      "id": "A092",
+      "inicio_s": 1233.4,
+      "fim_s": 1240.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E quando eu fiquei sabendo que ele tinha ido a Londres, eu chamei ele a atenção",
+      "afirmacao": "Lula repreendeu Andrei Rodrigues por ter ido à festa em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declarações anteriores de Lula, nota do Planalto ou reportagem com fonte identificada sobre a repreensão",
+        "quando a repreensão teria ocorrido em relação à data em que a viagem se tornou pública"
+      ]
+    },
+    {
+      "id": "A093",
+      "inicio_s": 1257.7,
+      "fim_s": 1262.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "ele sabe que eu o reprendi, ele alertei o ministro da Justiça.",
+      "afirmacao": "Lula alertou o ministro da Justiça sobre a ida do diretor-geral da PF à festa em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declaração pública do ministro da Justiça ou do Planalto sobre o alerta",
+        "quem era o ministro da Justiça na data do alerta"
+      ]
+    },
+    {
+      "id": "A094",
+      "inicio_s": 1305.7,
+      "fim_s": 1311.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "para lembrar do momento em que o senhor recebeu o Vorcaro no Palácio do Planalto. Era dezembro de 2024.",
+      "afirmacao": "Lula recebeu Daniel Vorcaro no Palácio do Planalto em dezembro de 2024",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "agenda oficial do presidente em dezembro de 2024",
+        "reportagens com a data do encontro e se ele constou ou não da agenda pública"
+      ]
+    },
+    {
+      "id": "A095",
+      "inicio_s": 1311.4,
+      "fim_s": 1316.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ele foi levado ao senhor pelo seu ex-ministro da Fazenda, Guido Mântega,",
+      "afirmacao": "Daniel Vorcaro foi levado a Lula por Guido Mantega",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "relatos do encontro que indiquem quem o intermediou e quem estava presente",
+        "registro de entrada no Planalto, se divulgado"
+      ]
+    },
+    {
+      "id": "A096",
+      "inicio_s": 1311.4,
+      "fim_s": 1317.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Guido Mântega, que naquela altura trabalhava para o máster.",
+      "afirmacao": "Em dezembro de 2024, Guido Mantega trabalhava para o Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "contrato ou vínculo de Guido Mantega com o Banco Master e o período dele (início e fim)",
+        "comparar com a data do encontro no Planalto"
+      ]
+    },
+    {
+      "id": "A097",
+      "inicio_s": 1318.2,
+      "fim_s": 1323.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Vorcaro já era alvo naquela ocasião, como eu disse, de procedimentos formais no Banco Central",
+      "afirmacao": "Em dezembro de 2024, Vorcaro já era alvo de procedimentos formais no Banco Central",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "procedimentos de supervisão ou administrativos do Banco Central contra o Banco Master ou Vorcaro abertos antes de dezembro de 2024",
+        "o que a fonte chama de procedimento formal, para não confundir com acompanhamento de rotina"
+      ]
+    },
+    {
+      "id": "A098",
+      "inicio_s": 1323.7,
+      "fim_s": 1329.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e também naquele mesmo ano de um inquérito da Polícia Federal. Ocorria em São Paulo esse inquérito.",
+      "afirmacao": "Em 2024, Vorcaro era alvo de um inquérito da Polícia Federal em São Paulo",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "data de instauração do inquérito da PF em São Paulo e se Vorcaro era investigado nele",
+        "comparar com a data do encontro no Planalto"
+      ]
+    },
+    {
+      "id": "A099",
+      "inicio_s": 1346.0,
+      "fim_s": 1351.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha que o Silvio Santos fez quando o Banco Pan-Americano deu problema? Foi me procurar.",
+      "afirmacao": "Silvio Santos procurou Lula quando o Banco PanAmericano teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "agenda presidencial e reportagens da época da crise do PanAmericano sobre encontro de Silvio Santos com Lula"
+      ]
+    },
+    {
+      "id": "A100",
+      "inicio_s": 1352.0,
+      "fim_s": 1354.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha que o Banco de Santos fez? Foi me procurar.",
+      "afirmacao": "O controlador do Banco Santos procurou Lula quando o banco teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "quem controlava o Banco Santos e se procurou Lula antes da intervenção do Banco Central",
+        "agenda presidencial e reportagens da época"
+      ]
+    },
+    {
+      "id": "A101",
+      "inicio_s": 1355.1,
+      "fim_s": 1358.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha do Banco da Igreja de Macedo fez? Foi me procurar.",
+      "afirmacao": "Um banco ligado à igreja de Edir Macedo procurou Lula quando teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "identificar a instituição a que a fala se refere (banco ligado a Edir Macedo ou à igreja dele)",
+        "registro de encontro de representantes desse banco com Lula quando o banco teve problemas"
+      ]
+    },
+    {
+      "id": "A102",
+      "inicio_s": 1378.2,
+      "fim_s": 1384.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E foi assim que o Galipo se posicionou",
+      "afirmacao": "Gabriel Galípolo se posicionou dizendo que o Banco Central trataria o caso Master de forma técnica, sem critério político",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "declarações públicas do presidente do Banco Central, Gabriel Galípolo, sobre o caso Master",
+        "se ele defendeu critério técnico e não político, e quando"
+      ]
+    },
+    {
+      "id": "A103",
+      "inicio_s": 1378.2,
+      "fim_s": 1387.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "foi assim que eu pedi para ele comunicar ao Procurador-Geral da República",
+      "afirmacao": "Lula pediu a Galípolo que comunicasse o caso Master ao Procurador-Geral da República",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "comunicação formal do Banco Central ao MPF ou à PGR sobre o Banco Master, e a data",
+        "registro público de que a comunicação foi a pedido do presidente"
+      ]
+    },
+    {
+      "id": "A104",
+      "inicio_s": 1384.4,
+      "fim_s": 1387.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "foi assim que o Haddad se posicionou.",
+      "afirmacao": "Fernando Haddad se posicionou dizendo que o caso Master seria tratado de forma técnica, sem critério político",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "declarações públicas de Fernando Haddad sobre o Banco Master e a atuação do Banco Central",
+        "se ele defendeu critério técnico e não político, e quando"
+      ]
+    },
+    {
+      "id": "A105",
+      "inicio_s": 1390.3,
+      "fim_s": 1396.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O cidadão me procurou, porque eu estou me perseguindo politicamente. Até disse o nome das pessoas que estavam perseguindo.",
+      "afirmacao": "No encontro, Vorcaro disse a Lula que estava sendo perseguido politicamente e nomeou quem o perseguia",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "relatos públicos do conteúdo do encontro: declarações de participantes, de Vorcaro, ou depoimentos em inquérito",
+        "se existe registro além da palavra do próprio Lula"
+      ]
+    },
+    {
+      "id": "A106",
+      "inicio_s": 1399.5,
+      "fim_s": 1402.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E um mês depois o banco fechou, porque ele estava errado.",
+      "afirmacao": "O Banco Master foi fechado cerca de um mês depois do encontro de Vorcaro com Lula",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "data do ato do Banco Central que fechou (liquidou) o Banco Master",
+        "comparar com a data do encontro no Planalto e ler o fundamento declarado no ato"
+      ]
+    },
+    {
+      "id": "A107",
+      "inicio_s": 1419.6,
+      "fim_s": 1429.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu falo de Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado do Daniel Vorcaro, quando o senhor chamou ele para ser ministro da Justiça.",
+      "citacao_card": "Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado do Daniel Vorcaro",
+      "afirmacao": "Ricardo Lewandowski era conselheiro e advogado de Daniel Vorcaro quando foi convidado para ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "contrato ou registro de prestação de serviço de Lewandowski ao Banco Master ou a Vorcaro, e o período",
+        "data do convite e da nomeação de Lewandowski como ministro da Justiça"
+      ]
+    },
+    {
+      "id": "A108",
+      "inicio_s": 1430.4,
+      "fim_s": 1435.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A família dele manteve o contrato que ele tinha com o Daniel Vorcaro.",
+      "afirmacao": "A família de Lewandowski manteve o contrato que ele tinha com Daniel Vorcaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "quem assumiu o contrato (escritório de familiares) e o período de vigência",
+        "documento ou reportagem com documento que mostre o contrato ativo durante a gestão dele no Ministério da Justiça"
+      ]
+    },
+    {
+      "id": "A109",
+      "inicio_s": 1435.9,
+      "fim_s": 1441.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o ministro da Justiça, que comanda a PF",
+      "afirmacao": "A Polícia Federal é subordinada ao Ministério da Justiça",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "estrutura regimental do Ministério da Justiça e Segurança Pública vigente e a posição da PF nela"
+      ]
+    },
+    {
+      "id": "A110",
+      "inicio_s": 1442.0,
+      "fim_s": 1447.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mantendo o contrato com o Daniel Vorcaro, que já era um personagem investigado pela Polícia Federal.",
+      "afirmacao": "Enquanto o escritório da família de Lewandowski mantinha o contrato, Vorcaro já era investigado pela Polícia Federal",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "data de abertura de investigação da PF que tinha Vorcaro como alvo",
+        "comparar com o período do contrato e com o período de Lewandowski no Ministério da Justiça"
+      ]
+    },
+    {
+      "id": "A111",
+      "inicio_s": 1466.1,
+      "fim_s": 1470.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando ele deixou o ministério, quando ele deixou a Suprema Corte, ele foi trabalhar por conta dele.",
+      "afirmacao": "Depois de deixar o STF, Lewandowski passou a trabalhar na iniciativa privada por conta própria",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "data da aposentadoria de Lewandowski no STF",
+        "atividade registrada depois dela: escritório, inscrição na OAB, consultoria"
+      ]
+    },
+    {
+      "id": "A112",
+      "inicio_s": 1475.6,
+      "fim_s": 1480.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu resolvi indicar o ministério da Justiça, eu o convidei. Ele largou a assessoria e veio.",
+      "citacao_card": "eu o convidei. Ele largou a assessoria e veio",
+      "afirmacao": "Ao aceitar o convite para o Ministério da Justiça, Lewandowski deixou a assessoria privada que prestava",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "registro do encerramento ou da transferência dos contratos de Lewandowski ao tomar posse, inclusive declarações à Comissão de Ética Pública",
+        "o que aconteceu com o contrato com Vorcaro, que a pergunta diz ter sido mantido pela família"
+      ]
+    },
+    {
+      "id": "A113",
+      "inicio_s": 1507.2,
+      "fim_s": 1510.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "As pessoas têm uma quarentena, cumprem a quarentena e depois vão cuidar das suas vidas.",
+      "afirmacao": "Quem deixa cargo público cumpre uma quarentena antes de atuar no setor privado",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "Lei 12.813/2013 (conflito de interesses e quarentena de ex-ocupantes de cargo no Executivo federal)",
+        "Constituição, art. 95, sobre o impedimento de ex-magistrado advogar no tribunal de onde saiu, e os prazos de cada regra"
+      ]
+    },
+    {
+      "id": "A114",
+      "inicio_s": 1563.3,
+      "fim_s": 1567.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eles tomam a decisão, ninguém pode mais tomar decisão, ninguém pode voltar atrás.",
+      "afirmacao": "Decisão do STF não pode ser revista por nenhuma outra instância",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, na resposta sobre Lewandowski, voltou às denúncias envolvendo o STF e à proposta de mandato para ministros.",
+      "o_que_conferir": [
+        "Constituição Federal: competência do STF como última instância",
+        "recursos internos cabíveis contra decisão do STF e a possibilidade de o Congresso mudar os efeitos por emenda ou lei"
+      ]
+    },
+    {
+      "id": "A115",
+      "inicio_s": 1577.5,
+      "fim_s": 1581.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu já disse uma vez, quem quiser ser rico não pode ser ministro da Suprema Corte.",
+      "afirmacao": "Lula já havia dito publicamente que quem quer ser rico não pode ser ministro do STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Lula, na resposta sobre Lewandowski, voltou às denúncias envolvendo o STF e à proposta de mandato para ministros.",
+      "o_que_conferir": [
+        "declaração pública anterior de Lula com essa frase ou equivalente, com data e veículo"
+      ]
+    },
+    {
+      "id": "A116",
+      "inicio_s": 1612.6,
+      "fim_s": 1618.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o reajuste do Bolsa Família, o primeiro no seu atual mandato",
+      "afirmacao": "O reajuste do Bolsa Família anunciado em 2026 foi o primeiro do valor do benefício no mandato de Lula iniciado em 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "histórico dos valores do benefício do Bolsa Família (base e adicionais) desde jan/2023, em portarias e decretos do MDS",
+        "se houve alguma correção do valor-base ou dos adicionais entre 2023 e o anúncio de 2026, e como a fonte define 'reajuste'"
+      ]
+    },
+    {
+      "id": "A117",
+      "inicio_s": 1619.3,
+      "fim_s": 1626.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "por que o principal programa social do governo só foi reajustado 17 dias antes do primeiro turno",
+      "afirmacao": "O reajuste do Bolsa Família foi anunciado 17 dias antes do 1º turno de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "data do anúncio oficial do reajuste do Bolsa Família (Planalto, MDS, Agência Gov)",
+        "data do 1º turno de 2026 no calendário do TSE e a contagem de dias entre as duas"
+      ]
+    },
+    {
+      "id": "A118",
+      "inicio_s": 1626.6,
+      "fim_s": 1634.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu fiquei sabendo que o Bolsa Família não tinha sido reajustado",
+      "afirmacao": "Até a decisão de 2026, o valor do Bolsa Família não tinha sido reajustado no atual mandato de Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "histórico dos valores do benefício do Bolsa Família desde jan/2023, em portarias e decretos do MDS",
+        "se houve correção anterior de algum componente do benefício (valor-base ou adicionais)"
+      ]
+    },
+    {
+      "id": "A119",
+      "inicio_s": 1652.2,
+      "fim_s": 1656.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A gente vai dar e vai dar tudo o que a gente não deu",
+      "afirmacao": "O reajuste do Bolsa Família decidido em 2026 repõe toda a perda de valor acumulada desde a última fixação do valor do benefício",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "percentual do reajuste anunciado e a data de vigência, no ato oficial do MDS",
+        "inflação acumulada (IPCA, IBGE) desde a última fixação do valor do benefício até o anúncio",
+        "se a reposição vale para o valor-base e para os adicionais ou só para parte deles"
+      ]
+    },
+    {
+      "id": "A120",
+      "inicio_s": 1663.8,
+      "fim_s": 1671.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No dia 31 de agosto, duas semanas antes do anúncio, o seu governo mandou para o Congresso a proposta de orçamento de 2027",
+      "citacao_card": "No dia 31 de agosto [...] o seu governo mandou para o Congresso a proposta de orçamento de 2027",
+      "afirmacao": "O governo enviou ao Congresso o projeto de lei orçamentária de 2027 em 31 de agosto de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "data de envio do PLOA 2027 ao Congresso (mensagem presidencial, Ministério do Planejamento, página do Congresso)",
+        "intervalo entre o envio e a data do anúncio do reajuste do Bolsa Família"
+      ]
+    },
+    {
+      "id": "A121",
+      "inicio_s": 1672.1,
+      "fim_s": 1674.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E ali não tinha correção do Bolsa Família",
+      "afirmacao": "O projeto de lei orçamentária de 2027 enviado em 31 de agosto não previa correção do valor do Bolsa Família",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "dotação do Bolsa Família no PLOA 2027 e as premissas de valor do benefício usadas no cálculo",
+        "se a mensagem ou a nota técnica do PLOA 2027 menciona reajuste do benefício"
+      ]
+    },
+    {
+      "id": "A122",
+      "inicio_s": 1687.9,
+      "fim_s": 1698.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Se tem espaço fiscal para aumentar, por que não aumentaram? [...] tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal",
+      "citacao_card": "Se tem espaço fiscal para aumentar [...] tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal",
+      "afirmacao": "Havia espaço fiscal para reajustar o Bolsa Família dentro das regras fiscais vigentes",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "custo anual estimado do reajuste do Bolsa Família, no ato ou na nota do governo",
+        "margem sob o limite de despesas do arcabouço fiscal (LC 200/2023) e a meta de resultado primário, nos relatórios bimestrais de 2026 e no PLOA 2027",
+        "se o reajuste exigiu corte, bloqueio ou remanejamento de outras despesas"
+      ]
+    },
+    {
+      "id": "A123",
+      "inicio_s": 1699.1,
+      "fim_s": 1710.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós apresentamos um orçamento com superávit primário. 0,1%",
+      "afirmacao": "A proposta de orçamento de 2027 prevê superávit primário de 0,1% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "meta e resultado primário projetado no PLOA 2027 e na LDO 2027, em % do PIB",
+        "se o 0,1% é a meta do governo central ou o resultado estimado, e se considera as exclusões permitidas"
+      ]
+    },
+    {
+      "id": "A124",
+      "inicio_s": 1705.8,
+      "fim_s": 1710.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu peguei com um déficit de 2,8%",
+      "afirmacao": "Quando Lula tomou posse, em 2023, o país tinha déficit de 2,8% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "resultado primário do governo central e do setor público em 2022 (Tesouro Nacional e Banco Central), em % do PIB",
+        "déficit previsto no orçamento de 2023 aprovado no fim de 2022",
+        "qual medida dá 2,8%: primária, nominal, realizada ou projetada"
+      ]
+    },
+    {
+      "id": "A125",
+      "inicio_s": 1715.1,
+      "fim_s": 1723.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "tem muita gente séria, instituição fiscal independente, achando que as receitas estão superestimadas para chegar aí nesse superávit",
+      "citacao_card": "instituição fiscal independente, achando que as receitas estão superestimadas",
+      "afirmacao": "A Instituição Fiscal Independente avaliou que as receitas da proposta de orçamento de 2027 estão superestimadas para atingir o superávit previsto",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "Relatório de Acompanhamento Fiscal ou nota técnica da IFI (Senado) sobre o PLOA 2027, set/out de 2026",
+        "se a IFI fala em receitas superestimadas e em risco à meta de resultado primário"
+      ]
+    },
+    {
+      "id": "A126",
+      "inicio_s": 1907.8,
+      "fim_s": 1918.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Um estudo recente da Fundação Getúlio Vargas mostra que um em cada quatro brasileiros está contraindo dívida ou sacando de poupança para pagar contas básicas como água, luz e gás",
+      "citacao_card": "Fundação Getúlio Vargas mostra que um em cada quatro brasileiros está contraindo dívida ou sacando de poupança",
+      "afirmacao": "Estudo recente da FGV mostra que um em cada quatro brasileiros contrai dívida ou saca da poupança para pagar contas básicas como água, luz e gás",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "estudo ou sondagem da FGV (FGV Ibre) de 2026 sobre como os consumidores pagam contas básicas",
+        "percentual exato, universo (brasileiros, consumidores, famílias) e data da pesquisa"
+      ]
+    },
+    {
+      "id": "A127",
+      "inicio_s": 1919.5,
+      "fim_s": 1925.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Em agosto, o senhor deve conhecer bem esse número, eram 84 milhões de pessoas negativadas no Serasa",
+      "citacao_card": "Em agosto [...] eram 84 milhões de pessoas negativadas no Serasa",
+      "afirmacao": "Em agosto de 2026 havia 84 milhões de pessoas inadimplentes registradas no Serasa",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "Mapa da Inadimplência da Serasa, edição de agosto de 2026",
+        "número de pessoas inadimplentes no mês e a definição usada pela Serasa"
+      ]
+    },
+    {
+      "id": "A128",
+      "inicio_s": 1925.8,
+      "fim_s": 1928.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo já lançou três edições do programa Desenrola",
+      "afirmacao": "O governo Lula lançou três edições do programa Desenrola",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "atos de criação de cada edição do Desenrola (medidas provisórias, leis, portarias) de 2023 a 2026, no Ministério da Fazenda e no Planalto",
+        "se a contagem de três edições é a que o próprio governo usa"
+      ]
+    },
+    {
+      "id": "A129",
+      "inicio_s": 1934.6,
+      "fim_s": 1938.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas o que acontece é que logo depois a inadimplência volta a subir",
+      "afirmacao": "Depois das edições do Desenrola, a inadimplência voltou a subir",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "série mensal de inadimplência de pessoas físicas (Banco Central e Mapa da Inadimplência da Serasa) de 2023 a 2026",
+        "o comportamento da série logo depois do fim de cada edição do Desenrola"
+      ]
+    },
+    {
+      "id": "A130",
+      "inicio_s": 1950.9,
+      "fim_s": 1957.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu tomei posse, nós tínhamos 78% da população endividada",
+      "afirmacao": "Quando Lula tomou posse, em janeiro de 2023, 78% das famílias brasileiras estavam endividadas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "Pesquisa de Endividamento e Inadimplência do Consumidor (Peic/CNC) de dez/2022 e jan/2023",
+        "se o percentual é de famílias ou de população, e o conceito de endividamento usado"
+      ]
+    },
+    {
+      "id": "A131",
+      "inicio_s": 1958.1,
+      "fim_s": 1963.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós criamos o Desenrola 1. Depois, nós atendemos por volta de 15 milhões de pessoas",
+      "afirmacao": "A primeira edição do Desenrola atendeu cerca de 15 milhões de pessoas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "balanço final do Desenrola Brasil (2023-2024) do Ministério da Fazenda",
+        "se o número é de pessoas atendidas, de pessoas que renegociaram ou de pessoas retiradas do cadastro de negativados"
+      ]
+    },
+    {
+      "id": "A132",
+      "inicio_s": 1969.2,
+      "fim_s": 1974.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "esse Desenrola 3, nós fizemos uma medida provisória. Ele está na Câmara",
+      "afirmacao": "O Desenrola 3 foi criado por medida provisória que está em tramitação na Câmara dos Deputados",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "número e data da medida provisória do Desenrola 3, no Diário Oficial da União",
+        "situação da tramitação da MP no Congresso na data da sabatina (comissão mista ou plenário da Câmara)"
+      ]
+    },
+    {
+      "id": "A133",
+      "inicio_s": 1974.0,
+      "fim_s": 2001.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós vamos fazer um leilão da dívida das pessoas [...] A União vai comprar essa dívida",
+      "afirmacao": "A medida provisória do Desenrola 3 prevê um leilão em que a União compra dívidas de pessoas físicas",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "texto da medida provisória do Desenrola 3: mecanismo de leilão e quem compra as dívidas (a União ou um fundo)",
+        "nota do Ministério da Fazenda que descreve o mecanismo"
+      ]
+    },
+    {
+      "id": "A134",
+      "inicio_s": 1989.7,
+      "fim_s": 1996.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós estamos comprando a dívida de todas as pessoas que devem, acima de dois anos, até R$ 4 mil",
+      "afirmacao": "O Desenrola 3 compra dívidas de pessoas com atraso acima de dois anos e valor de até R$ 4 mil",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "critérios de elegibilidade no texto da MP do Desenrola 3: tempo de atraso, teto de valor por dívida ou por pessoa",
+        "se o critério alcança 'todas as pessoas' ou depende de adesão dos credores ao leilão"
+      ]
+    },
+    {
+      "id": "A135",
+      "inicio_s": 2007.6,
+      "fim_s": 2009.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Essa dívida existe hoje, R$ 150 bilhões",
+      "afirmacao": "O estoque de dívidas de pessoas físicas elegíveis ao Desenrola 3 soma R$ 150 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "estimativa do Ministério da Fazenda, na exposição de motivos da MP, do estoque de dívidas elegíveis",
+        "dados do Banco Central ou da Serasa sobre dívidas em atraso há mais de dois anos de até R$ 4 mil"
+      ]
+    },
+    {
+      "id": "A136",
+      "inicio_s": 2018.7,
+      "fim_s": 2022.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós fizemos o perdão do MEI",
+      "afirmacao": "O governo concedeu perdão de dívidas de microempreendedores individuais",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "ato que concedeu o perdão ou a remissão de dívidas do MEI (lei, MP ou portaria da PGFN) e sua data",
+        "se o ato já está em vigor ou ainda é proposta, já que a fala segue com 'eu sugeri que a gente estudasse a possibilidade de anistiar'"
+      ]
+    },
+    {
+      "id": "A137",
+      "inicio_s": 2022.7,
+      "fim_s": 2027.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós descobrimos que tinha R$ 12,7 bilhões de dívida ativa da União",
+      "afirmacao": "A dívida ativa da União de microempreendedores individuais somava R$ 12,7 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "estoque da dívida ativa da União de MEIs na PGFN (painel da dívida ativa ou nota do governo) em 2026",
+        "se o valor é de MEIs só ou de todo o Simples Nacional"
+      ]
+    },
+    {
+      "id": "A138",
+      "inicio_s": 2032.6,
+      "fim_s": 2038.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "essas pessoas não conseguem fazer novo negócio porque estão no Serasa",
+      "afirmacao": "MEIs com dívida inscrita na dívida ativa da União ficam com o nome negativado no Serasa",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "regras da PGFN sobre protesto e envio de inscrições em dívida ativa aos birôs de crédito (Serasa)",
+        "se há convênio da PGFN com a Serasa que inclui dívidas de MEI"
+      ]
+    },
+    {
+      "id": "A139",
+      "inicio_s": 2073.4,
+      "fim_s": 2078.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Estamos fazendo isso com muita, com muita coisa, sem mexer no espaço fiscal",
+      "afirmacao": "As medidas de renegociação de dívidas do Desenrola 3 não afetam o espaço fiscal do governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "impacto no resultado primário e no limite de despesas indicado na exposição de motivos da MP do Desenrola 3",
+        "fonte dos recursos para comprar as dívidas (fundo, operação financeira ou despesa primária) e o tratamento na meta fiscal"
+      ]
+    },
+    {
+      "id": "A140",
+      "inicio_s": 2091.2,
+      "fim_s": 2099.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No comando do Banco Central, que define a taxa básica, o senhor tem já há um ano e nove meses, a pessoa que o senhor escolheu, Gabriel Galípolo",
+      "citacao_card": "No comando do Banco Central [...] já há um ano e nove meses, a pessoa que o senhor escolheu, Gabriel Galípolo",
+      "afirmacao": "Gabriel Galípolo, indicado por Lula, preside o Banco Central há cerca de um ano e nove meses",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "data de posse de Gabriel Galípolo na presidência do Banco Central, no site do BC ou no Diário Oficial",
+        "se a indicação ao cargo foi do presidente Lula (mensagem ao Senado e aprovação)",
+        "o intervalo entre a posse e 15/out/2026"
+      ]
+    },
+    {
+      "id": "A141",
+      "inicio_s": 2099.3,
+      "fim_s": 2104.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e ele não só não viu espaço para reduzir de maneira significativa os juros",
+      "afirmacao": "Sob a presidência de Galípolo, o Banco Central não reduziu de forma significativa a taxa Selic",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "série da meta Selic definida pelo Copom, do início do mandato de Galípolo até outubro de 2026, no site do BC",
+        "o tamanho total dos cortes no período, se houve, e o nível em 15/out/2026"
+      ]
+    },
+    {
+      "id": "A142",
+      "inicio_s": 2104.9,
+      "fim_s": 2111.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "como num evento recente, ele disse que o modelo de crescimento, baseado no estímulo ao consumo, está esgotado",
+      "citacao_card": "ele disse que o modelo de crescimento, baseado no estímulo ao consumo, está esgotado",
+      "afirmacao": "Galípolo disse em evento recente que o modelo de crescimento baseado no estímulo ao consumo está esgotado",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "registro do evento recente (vídeo, transcrição ou nota do BC) com a fala de Galípolo sobre o modelo de crescimento",
+        "se a fala usa a ideia de esgotamento do crescimento baseado em consumo, e se liga isso a corte de gasto e queda de juros, como a pergunta resume em seguida"
+      ]
+    },
+    {
+      "id": "A143",
+      "inicio_s": 2131.1,
+      "fim_s": 2132.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu estou com 80 anos de idade",
+      "afirmacao": "Lula tem 80 anos de idade",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre juros e política fiscal",
+      "o_que_conferir": [
+        "data de nascimento de Lula em registro oficial (TSE, Presidência) e a idade em 15/out/2026"
+      ]
+    },
+    {
+      "id": "A144",
+      "inicio_s": 2145.5,
+      "fim_s": 2151.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu assumi a presidência em 2003, o Brasil era a 12ª economia do mundo",
+      "afirmacao": "Em 2003, quando Lula assumiu, o Brasil era a 12ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook) ou Banco Mundial, para 2002 e 2003",
+        "se a posição muda conforme a medida (dólar corrente ou paridade de poder de compra)"
+      ]
+    },
+    {
+      "id": "A145",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI",
+      "afirmacao": "Em 2003, o Brasil devia cerca de US$ 30 bilhões ao FMI",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "saldo devedor do Brasil com o FMI no início de 2003, nos dados do FMI ou do Banco Central",
+        "a moeda da dívida (dólares ou DES) e o valor no pico do acordo de 2002"
+      ]
+    },
+    {
+      "id": "A146",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI e não estava crescendo",
+      "citacao_card": "e não estava crescendo",
+      "afirmacao": "Quando Lula assumiu em 2003, a economia brasileira não estava crescendo",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "crescimento do PIB em 2002 e 2003, IBGE (Contas Nacionais)",
+        "se 'não estava crescendo' cabe a crescimento baixo porém positivo"
+      ]
+    },
+    {
+      "id": "A147",
+      "inicio_s": 2156.7,
+      "fim_s": 2159.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu deixei a presidência, o Brasil era a 7ª economia do mundo",
+      "afirmacao": "Quando Lula deixou a presidência, em 2010, o Brasil era a 7ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook) ou Banco Mundial, para 2010",
+        "se a posição muda conforme a medida e a revisão dos dados"
+      ]
+    },
+    {
+      "id": "A148",
+      "inicio_s": 2160.2,
+      "fim_s": 2162.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Fizemos uma reserva de 270 bilhões de dólares",
+      "afirmacao": "Os governos Lula 1 e 2 formaram reservas internacionais de cerca de US$ 270 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "série das reservas internacionais do Banco Central, dez/2002 e dez/2010",
+        "se o número se refere ao estoque final ou ao acréscimo no período"
+      ]
+    },
+    {
+      "id": "A149",
+      "inicio_s": 2163.0,
+      "fim_s": 2164.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "paguei os 30 bilhões do FMI",
+      "afirmacao": "O governo Lula quitou a dívida de cerca de US$ 30 bilhões com o FMI",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "data e valor da quitação antecipada da dívida com o FMI, notas do Banco Central e do FMI",
+        "quanto do total devido foi pago no governo Lula e quanto antes dele"
+      ]
+    },
+    {
+      "id": "A150",
+      "inicio_s": 2164.6,
+      "fim_s": 2168.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e aí emprestei 15 bilhões depois da crise do subprime ao FMI",
+      "afirmacao": "Depois da crise do subprime, o Brasil emprestou US$ 15 bilhões ao FMI",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "valor comprometido e valor efetivamente aportado pelo Brasil ao FMI em 2009-2010 (compra de notas do FMI, NAB), Banco Central e FMI",
+        "a diferença entre compromisso anunciado e desembolso"
+      ]
+    },
+    {
+      "id": "A151",
+      "inicio_s": 2170.4,
+      "fim_s": 2173.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu peguei a economia outra vez, a 12ª",
+      "afirmacao": "Quando Lula voltou à presidência, em 2023, o Brasil era a 12ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, comparando com o mandato atual",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook), para 2022",
+        "se a posição muda conforme a medida e a revisão dos dados"
+      ]
+    },
+    {
+      "id": "A152",
+      "inicio_s": 2173.7,
+      "fim_s": 2175.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Hoje já é a 10ª",
+      "afirmacao": "Hoje o Brasil é a 10ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, comparando com o mandato atual",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares no dado anual mais recente (2025) e na projeção do FMI para 2026",
+        "qual base a fala usa: último ano fechado ou estimativa do ano corrente"
+      ]
+    },
+    {
+      "id": "A153",
+      "inicio_s": 2188.5,
+      "fim_s": 2204.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "muitos economistas, inclusive economistas que apoiam o senhor até hoje ou já apoiaram o senhor, reclamam do fato que o senhor parece estar dizendo que quem se preocupa com os fundamentos da macroeconomia não está se preocupando com os mais pobres",
+      "citacao_card": "muitos economistas, inclusive economistas que apoiam o senhor [...] reclamam",
+      "afirmacao": "Muitos economistas, inclusive apoiadores atuais ou antigos de Lula, criticam a fala de que quem se preocupa com os fundamentos macroeconômicos não se preocupa com os pobres",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "declarações públicas de economistas ligados ou que já foram ligados ao PT ou ao governo criticando esse tipo de fala, em entrevistas e artigos de 2023 a 2026",
+        "se a crítica registrada é sobre essa oposição entre fundamentos e pobres, ou sobre outra coisa"
+      ]
+    },
+    {
+      "id": "A154",
+      "inicio_s": 2207.2,
+      "fim_s": 2211.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o fato da dívida pública ter crescido 10 pontos percentuais no seu governo",
+      "afirmacao": "A dívida pública cresceu 10 pontos percentuais do PIB no atual governo Lula",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "Dívida Bruta do Governo Geral em % do PIB, Banco Central (estatísticas fiscais), dez/2022 e último mês divulgado antes de 15/out/2026",
+        "se o número muda conforme o indicador (DBGG, DLSP ou critério do FMI)"
+      ]
+    },
+    {
+      "id": "A155",
+      "inicio_s": 2211.7,
+      "fim_s": 2220.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e de boa parte dos economistas considerar que a trajetória da dívida, mais até do que o valor dela, a trajetória da dívida é insustentável",
+      "citacao_card": "boa parte dos economistas considerar [...] a trajetória da dívida é insustentável",
+      "afirmacao": "Boa parte dos economistas considera insustentável a trajetória da dívida pública brasileira",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "levantamentos com economistas sobre a sustentabilidade da dívida (pesquisas de mercado, relatórios da IFI do Senado, projeções do Prisma Fiscal), em 2026",
+        "se as instituições citadas falam em trajetória insustentável ou em outro termo"
+      ]
+    },
+    {
+      "id": "A156",
+      "inicio_s": 2226.2,
+      "fim_s": 2228.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu criei uma família com cinco filhos",
+      "afirmacao": "Lula criou cinco filhos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à observação sobre a dívida pública",
+      "o_que_conferir": [
+        "biografia oficial de Lula (Presidência, Instituto Lula) e registro público dos filhos"
+      ]
+    },
+    {
+      "id": "A157",
+      "inicio_s": 2273.5,
+      "fim_s": 2277.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "É por isso que nós fazemos a maior política de crédito que esse país já conheceu",
+      "citacao_card": "nós fazemos a maior política de crédito que esse país já conheceu",
+      "afirmacao": "O governo Lula faz a maior política de crédito da história do país",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre dívida pública, defendendo crédito e microcrédito",
+      "o_que_conferir": [
+        "volume de crédito dos programas federais (microcrédito, Desenrola, consignado, BNDES, Pronampe) no governo atual contra os anteriores, em valores corrigidos",
+        "qual medida sustenta 'maior': volume, número de tomadores ou subsídio"
+      ]
+    },
+    {
+      "id": "A158",
+      "inicio_s": 2285.3,
+      "fim_s": 2288.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu cansei de brigar com Guido Mantega e com Meirelles",
+      "afirmacao": "Lula teve divergências frequentes com Guido Mantega e Henrique Meirelles sobre política econômica",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre dívida pública, defendendo a microeconomia",
+      "o_que_conferir": [
+        "registros públicos (entrevistas, memórias, reportagens da época) de divergência entre Lula e Mantega e entre Lula e Meirelles",
+        "o período em que cada um esteve no cargo nos governos Lula"
+      ]
+    },
+    {
+      "id": "A159",
+      "inicio_s": 2300.9,
+      "fim_s": 2302.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu tinha acabado com a fome em 2014",
+      "afirmacao": "Em 2014, o Brasil havia saído do Mapa da Fome",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "desenvolvimento-social",
+      "contexto": "Resposta sobre dívida pública, defendendo a distribuição de renda",
+      "o_que_conferir": [
+        "relatório SOFI da FAO de 2014 e o critério de saída do Mapa da Fome (prevalência de subalimentação abaixo de 2,5%)",
+        "em que governo e em que período a queda aconteceu (2014 já era o governo Dilma)"
+      ]
+    },
+    {
+      "id": "A160",
+      "inicio_s": 2302.9,
+      "fim_s": 2306.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu voltei tinha 33 milhões de pessoas passando por uma outra vez",
+      "citacao_card": "quando eu voltei tinha 33 milhões de pessoas",
+      "afirmacao": "Quando Lula voltou à presidência, em 2023, havia 33 milhões de pessoas passando fome no Brasil",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "desenvolvimento-social",
+      "contexto": "Continuação da frase anterior sobre a fome; a transcrição registra 'passando por uma outra vez', e o sentido de fome vem da frase anterior",
+      "o_que_conferir": [
+        "Inquérito da Rede PENSSAN (2021-2022) sobre insegurança alimentar grave e o número de pessoas",
+        "dados oficiais da PNAD Contínua (IBGE) sobre insegurança alimentar grave em 2023, para comparar a definição"
+      ]
+    },
+    {
+      "id": "A161",
+      "inicio_s": 2349.7,
+      "fim_s": 2354.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Alguém está anunciando como meu adversário que não tem aumento do salário mínimo acima da inflação",
+      "afirmacao": "O adversário de Lula no 2º turno anunciou que não haverá aumento do salário mínimo acima da inflação",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Fim da resposta sobre dívida pública e política fiscal",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE e declarações públicas do candidato adversário (Flávio Bolsonaro) sobre a regra do salário mínimo",
+        "se a proposta fala em reajuste só pela inflação ou em outra regra"
+      ]
+    },
+    {
+      "id": "A162",
+      "inicio_s": 2351.7,
+      "fim_s": 2355.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não tem aumento do salário mínimo acima da inflação. No meu caso, tem",
+      "citacao_card": "No meu caso, tem",
+      "afirmacao": "No governo Lula, o salário mínimo tem aumento acima da inflação",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Fim da resposta sobre dívida pública e política fiscal",
+      "o_que_conferir": [
+        "regra de valorização do salário mínimo em vigor (Lei 14.663/2023) e o limite aplicado pelo arcabouço fiscal a partir de 2025",
+        "reajustes de 2023 a 2026 contra o INPC do período"
+      ]
+    },
+    {
+      "id": "A163",
+      "inicio_s": 2364.5,
+      "fim_s": 2368.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu quero ouvir o senhor sobre energia elétrica, porque é o principal insumo",
+      "citacao_card": "energia elétrica, porque é o principal insumo",
+      "afirmacao": "A energia elétrica é o principal insumo da indústria brasileira",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação da energia elétrica nos custos da indústria, IBGE (PIA) ou CNI",
+        "se a fonte trata a energia como o maior item de custo ou como um dos principais"
+      ]
+    },
+    {
+      "id": "A164",
+      "inicio_s": 2371.0,
+      "fim_s": 2374.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O Brasil tem uma matriz energética limpa, das mais limpas do mundo",
+      "afirmacao": "A matriz energética brasileira está entre as mais limpas do mundo",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação de fontes renováveis na matriz energética e na matriz elétrica, EPE (Balanço Energético Nacional), contra a média mundial (IEA)",
+        "se a comparação vale para a matriz energética ou só para a elétrica"
+      ]
+    },
+    {
+      "id": "A165",
+      "inicio_s": 2374.8,
+      "fim_s": 2377.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "produz energia a custo baixo",
+      "afirmacao": "O Brasil produz energia elétrica a custo baixo",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "custo de geração no Brasil (preços de leilão da ANEEL/CCEE, custo nivelado da EPE) contra referências internacionais",
+        "a diferença entre custo de geração e tarifa final ao consumidor"
+      ]
+    },
+    {
+      "id": "A166",
+      "inicio_s": 2377.7,
+      "fim_s": 2381.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas só este ano a tarifa já subiu o dobro da inflação",
+      "afirmacao": "Em 2026, a tarifa de energia elétrica subiu o dobro da inflação",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "IPCA acumulado em 2026 do subitem energia elétrica residencial contra o IPCA geral, IBGE, até o último mês divulgado antes de 15/out/2026",
+        "se 'a tarifa' é o índice de preço ao consumidor ou os reajustes homologados pela ANEEL"
+      ]
+    },
+    {
+      "id": "A167",
+      "inicio_s": 2382.0,
+      "fim_s": 2387.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo fez um programa para ajudar os mais pobres, ampliou a tarifa social",
+      "afirmacao": "O governo Lula ampliou a tarifa social de energia elétrica",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "norma que ampliou a tarifa social (medida provisória ou lei de 2025-2026) e o número de famílias atendidas antes e depois, ANEEL e MME"
+      ]
+    },
+    {
+      "id": "A168",
+      "inicio_s": 2388.1,
+      "fim_s": 2391.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas tem uma parcela grande da população que está pagando mais",
+      "afirmacao": "Uma parcela grande da população fora da tarifa social está pagando mais pela energia elétrica",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "reajustes tarifários das distribuidoras em 2026, ANEEL, e quantas unidades consumidoras residenciais ficam fora da tarifa social",
+        "se a ampliação da tarifa social foi financiada por encargo pago pelos demais consumidores (CDE)"
+      ]
+    },
+    {
+      "id": "A169",
+      "inicio_s": 2399.9,
+      "fim_s": 2404.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "É importante lembrar que a grande parte da energia brasileira é privada hoje",
+      "citacao_card": "a grande parte da energia brasileira é privada hoje",
+      "afirmacao": "Hoje a maior parte do setor elétrico brasileiro é privada",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação de empresas privadas na geração, na transmissão e na distribuição, ANEEL",
+        "como a Eletrobras é classificada depois da privatização"
+      ]
+    },
+    {
+      "id": "A170",
+      "inicio_s": 2409.3,
+      "fim_s": 2411.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Fizeram o favor de privatizar a Eletrobras",
+      "afirmacao": "A Eletrobras foi privatizada antes do atual governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "data e modelo da desestatização da Eletrobras (Lei 14.182/2021, oferta de ações de 2022)",
+        "a participação da União depois da operação"
+      ]
+    },
+    {
+      "id": "A171",
+      "inicio_s": 2466.6,
+      "fim_s": 2469.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e os ricos pagam um pouco mais como nós fizemos agora",
+      "afirmacao": "O governo Lula fez recentemente uma mudança pela qual os mais ricos passam a pagar um pouco mais",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica; logo depois ele fala do mercado livre de energia",
+      "o_que_conferir": [
+        "qual mudança a fala indica: rateio de encargos do setor elétrico entre consumidores (reforma de 2025-2026) ou a tributação de altas rendas que acompanhou a isenção do IR",
+        "o texto da norma aprovada e quem passa a pagar mais"
+      ]
+    },
+    {
+      "id": "A172",
+      "inicio_s": 2469.9,
+      "fim_s": 2479.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você está lembrado que o pobre pagava muita energia porque o pobre comprava do Estado e o rico comprava no mercado livre mais barato",
+      "citacao_card": "o pobre comprava do Estado e o rico comprava no mercado livre mais barato",
+      "afirmacao": "Consumidores pequenos compravam energia no mercado regulado, mais caro, enquanto grandes consumidores compravam no mercado livre, mais barato",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "regras de acesso ao mercado livre antes da abertura (limites de carga), ANEEL e CCEE",
+        "preço médio da energia no mercado livre contra a tarifa regulada, CCEE e ANEEL",
+        "se a energia do mercado regulado é vendida pelo Estado ou por distribuidoras, inclusive privadas"
+      ]
+    },
+    {
+      "id": "A173",
+      "inicio_s": 2479.5,
+      "fim_s": 2484.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós agora estamos permitindo que todo e qualquer cidadão possa ir para o mercado livre",
+      "afirmacao": "O governo Lula aprovou a abertura do mercado livre de energia a todos os consumidores",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "norma que abre o mercado livre ao consumidor residencial (medida provisória ou lei de 2025-2026) e se foi aprovada",
+        "o cronograma da abertura: se já vale em outubro de 2026 ou só em data futura"
+      ]
+    },
+    {
+      "id": "A174",
+      "inicio_s": 2491.8,
+      "fim_s": 2499.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A principal queixa hoje é o tempo de espera para consultas especializadas, determinados exames, cirurgias eletivas",
+      "citacao_card": "A principal queixa hoje é o tempo de espera para consultas especializadas",
+      "afirmacao": "A principal queixa dos usuários do SUS hoje é o tempo de espera por consultas especializadas, exames e cirurgias eletivas",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "pesquisas de opinião sobre o SUS (Datafolha/CFM, CNI, IBGE) com a lista das principais queixas, em 2025-2026",
+        "se a espera por especialista aparece em primeiro lugar"
+      ]
+    },
+    {
+      "id": "A175",
+      "inicio_s": 2500.1,
+      "fim_s": 2504.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Um programa lançado pelo seu governo conseguiu ampliar o atendimento para isso",
+      "afirmacao": "Um programa do governo Lula ampliou o atendimento especializado no SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "número de consultas especializadas, exames e cirurgias eletivas realizados no SUS antes e depois do programa (Agora Tem Especialistas ou equivalente), Ministério da Saúde (SIA/SIH)"
+      ]
+    },
+    {
+      "id": "A176",
+      "inicio_s": 2504.8,
+      "fim_s": 2508.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas o tempo de espera não diminuiu significativamente",
+      "afirmacao": "O tempo de espera por atendimento especializado no SUS não diminuiu de forma significativa",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "série do tempo médio de espera ou do tamanho das filas de regulação, Ministério da Saúde ou secretarias estaduais, antes e depois do programa",
+        "se existe série nacional publicada ou só dados estaduais"
+      ]
+    },
+    {
+      "id": "A177",
+      "inicio_s": 2508.1,
+      "fim_s": 2516.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Quem estuda a saúde pública vê esse seu programa como um paliativo, um paliativo necessário, mas não como uma mudança estruturante",
+      "citacao_card": "Quem estuda a saúde pública vê esse seu programa como um paliativo",
+      "afirmacao": "Especialistas em saúde pública avaliam o programa como paliativo necessário, mas não como mudança estruturante",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "avaliações publicadas por pesquisadores de saúde pública (Abrasco, Fiocruz, universidades, IEPS) sobre o programa de especialistas",
+        "se essas avaliações usam a ideia de paliativo ou de falta de mudança estrutural"
+      ]
+    },
+    {
+      "id": "A178",
+      "inicio_s": 2532.9,
+      "fim_s": 2537.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a gente tinha 20 e poucos mil médicos",
+      "afirmacao": "O programa Mais Médicos chegou a ter mais de 20 mil médicos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número máximo de médicos em atividade no Mais Médicos (2014-2016), Ministério da Saúde",
+        "se a fala se refere ao Mais Médicos ou a outro conjunto de médicos"
+      ]
+    },
+    {
+      "id": "A179",
+      "inicio_s": 2537.6,
+      "fim_s": 2540.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu voltei para a presidência, tinha apenas 12 mil",
+      "afirmacao": "Em 2023, quando Lula voltou à presidência, o programa de provimento tinha apenas 12 mil médicos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número de médicos em atividade no Mais Médicos e no Médicos pelo Brasil em dez/2022 e jan/2023, Ministério da Saúde"
+      ]
+    },
+    {
+      "id": "A180",
+      "inicio_s": 2540.1,
+      "fim_s": 2543.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós já contratamos 16 mil",
+      "afirmacao": "O governo Lula já contratou 16 mil médicos no programa de provimento",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número de médicos contratados pelo Mais Médicos desde 2023 e o total em atividade em 2026, Ministério da Saúde",
+        "se os 16 mil são contratações novas ou o total em atividade"
+      ]
+    },
+    {
+      "id": "A181",
+      "inicio_s": 2545.1,
+      "fim_s": 2552.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós agora estamos criando mais especialistas para fazer com que todas as pessoas tenham direito ao segundo médico",
+      "citacao_card": "Nós agora estamos criando mais especialistas",
+      "afirmacao": "O governo Lula está ampliando a formação ou o provimento de médicos especialistas no SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "vagas de residência médica e de provimento de especialistas abertas desde 2023 (Mais Médicos Especialistas, MEC e Ministério da Saúde)"
+      ]
+    },
+    {
+      "id": "A182",
+      "inicio_s": 2598.3,
+      "fim_s": 2601.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós precisamos fazer o Brasil sorridente voltar a funcionar",
+      "afirmacao": "Quando Lula voltou ao governo, o Brasil Sorridente tinha deixado de funcionar ou estava reduzido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS, descrevendo o que encontrou ao chegar ao governo",
+      "o_que_conferir": [
+        "orçamento executado e número de equipes de saúde bucal e de Centros de Especialidades Odontológicas, 2019 a 2022, Ministério da Saúde",
+        "se o programa foi extinto ou só teve redução"
+      ]
+    },
+    {
+      "id": "A183",
+      "inicio_s": 2601.9,
+      "fim_s": 2604.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós precisamos botar o Farmácia Popular voltar a funcionar",
+      "afirmacao": "Quando Lula voltou ao governo, o Farmácia Popular tinha deixado de funcionar ou estava reduzido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS, descrevendo o que encontrou ao chegar ao governo",
+      "o_que_conferir": [
+        "orçamento executado e número de farmácias credenciadas e de beneficiários do Farmácia Popular, 2019 a 2022, Ministério da Saúde",
+        "se o programa foi extinto ou só teve redução"
+      ]
+    },
+    {
+      "id": "A184",
+      "inicio_s": 2608.7,
+      "fim_s": 2612.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o programa a que eu me referi é o Mais Especialistas, que ampliou o atendimento,",
+      "afirmacao": "O programa federal de atendimento especializado do SUS citado na pergunta (chamado de Mais Especialistas) ampliou o atendimento",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "A entrevistadora esclarece a que programa se referia na pergunta sobre o tempo de espera por especialistas no SUS",
+      "o_que_conferir": [
+        "nome oficial do programa (Mais Acesso a Especialistas ou Agora Tem Especialistas) e se é este o programa da pergunta, no Ministério da Saúde",
+        "série de consultas, exames e procedimentos especializados realizados antes e depois do início do programa, Ministério da Saúde/DATASUS (SIA e SIH), até a data da fala"
+      ]
+    },
+    {
+      "id": "A185",
+      "inicio_s": 2612.9,
+      "fim_s": 2619.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas, segundo uma auditoria do próprio Tribunal de Contas da União, ainda não conseguiu resolver o problema do tempo de espera.",
+      "citacao_card": "segundo uma auditoria do [...] Tribunal de Contas da União, ainda não conseguiu resolver o problema do tempo de espera",
+      "afirmacao": "Uma auditoria do TCU concluiu que o programa de atendimento especializado ainda não resolveu o problema do tempo de espera no SUS",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Mesma fala da entrevistadora, que pondera a resposta do candidato sobre filas no SUS",
+      "o_que_conferir": [
+        "acórdão ou relatório de auditoria do TCU sobre o programa de especialistas do SUS (número do processo, data e conclusão sobre tempo de espera)",
+        "se a conclusão do TCU fala de tempo de espera em si ou de outro ponto (monitoramento, dados, metas), no texto do acórdão"
+      ]
+    },
+    {
+      "id": "A186",
+      "inicio_s": 2623.3,
+      "fim_s": 2631.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós fizemos um convênio com hospitais particulares que estão pagando parte da dívida que tem com o Estado para atender pelo SUS.",
+      "citacao_card": "Nós fizemos um convênio com hospitais particulares que estão pagando parte da dívida [...] para atender pelo SUS",
+      "afirmacao": "O governo federal fez acordo com hospitais privados para que paguem parte de suas dívidas com a União prestando atendimento pelo SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera por atendimento especializado no SUS",
+      "o_que_conferir": [
+        "norma que criou a troca de dívida de hospitais privados por atendimento ao SUS (lei ou medida provisória, portarias do Ministério da Saúde e da PGFN) e sua vigência",
+        "se há hospitais particulares com adesão efetiva e atendimentos já prestados, segundo Ministério da Saúde ou PGFN, até a data da fala"
+      ]
+    },
+    {
+      "id": "A187",
+      "inicio_s": 2631.7,
+      "fim_s": 2634.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós estamos fazendo um convênio com todas as Santas Casas.",
+      "afirmacao": "O governo federal está firmando convênio com todas as Santas Casas do país",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Continuação da resposta sobre filas no SUS",
+      "o_que_conferir": [
+        "existência de convênio, acordo ou adesão das Santas Casas e hospitais filantrópicos (CMB) com o Ministério da Saúde, na data da fala",
+        "se o acordo abrange todas as Santas Casas ou só as que aderiram, com o número de adesões informado pelo Ministério da Saúde ou pela CMB"
+      ]
+    },
+    {
+      "id": "A188",
+      "inicio_s": 2634.9,
+      "fim_s": 2639.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Em 2025, nós fizemos 15 milhões de cirurgias eletivas.",
+      "afirmacao": "O SUS realizou 15 milhões de cirurgias eletivas em 2025",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Continuação da resposta sobre filas no SUS",
+      "o_que_conferir": [
+        "total de cirurgias eletivas realizadas pelo SUS em 2025, Ministério da Saúde/DATASUS (SIH/SUS e SIA/SUS) ou balanço oficial do programa de redução de filas",
+        "qual definição de cirurgia eletiva a fonte usa (só procedimentos hospitalares ou também ambulatoriais), porque a soma muda muito"
+      ]
+    },
+    {
+      "id": "A189",
+      "inicio_s": 2648.2,
+      "fim_s": 2650.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "As pessoas esperavam dois anos, três anos.",
+      "afirmacao": "Antes das medidas do governo, pacientes do SUS esperavam de dois a três anos na fila por cirurgia ou atendimento especializado",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "O candidato diz que ainda falta muito e descreve o tempo de espera na fila do SUS",
+      "o_que_conferir": [
+        "tempo médio ou mediano de espera por cirurgia eletiva e consulta especializada no SUS no início de 2023, em levantamento do Ministério da Saúde, CFM, TCU ou secretarias estaduais",
+        "se dois a três anos é a média ou só casos extremos de algumas especialidades e estados"
+      ]
+    },
+    {
+      "id": "A190",
+      "inicio_s": 2685.1,
+      "fim_s": 2692.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós encontramos 6 mil obras paralisadas entre creches, hospitais, postos de atendimento médico e escolas.",
+      "citacao_card": "nós encontramos 6 mil obras paralisadas entre creches, hospitais, [...] e escolas",
+      "afirmacao": "No início do governo, em 2023, havia cerca de 6 mil obras paralisadas de creches, hospitais, postos de saúde e escolas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "número de obras paralisadas de educação e saúde financiadas pela União no início de 2023, em levantamento do TCU (painel de obras paralisadas), do FNDE/MEC, do Ministério da Saúde ou do Pacto pela Retomada de Obras",
+        "se o total de cerca de 6 mil se refere só a creches, escolas e unidades de saúde ou inclui outros tipos de obra"
+      ]
+    },
+    {
+      "id": "A191",
+      "inicio_s": 2726.6,
+      "fim_s": 2732.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "como nós fizemos com a energia elétrica. quem consome até 80 não paga e quem consome até 120 paga apenas uma diferença,",
+      "citacao_card": "quem consome até 80 não paga e quem consome até 120 paga apenas uma diferença",
+      "afirmacao": "Pela regra criada no governo, famílias de baixa renda que consomem até 80 kWh por mês não pagam a conta de luz e quem consome até 120 kWh paga só a diferença",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Considerações finais; o candidato compara uma proposta de transporte com programas já feitos",
+      "o_que_conferir": [
+        "norma da tarifa social de energia elétrica e do desconto social (medida provisória ou lei e resolução da ANEEL) e se ela está em vigor na data da fala",
+        "quais são as faixas de consumo e o público de cada uma (isenção até 80 kWh; o que acontece na faixa até 120 kWh), no texto da norma e na ANEEL"
+      ]
+    },
+    {
+      "id": "A192",
+      "inicio_s": 2734.6,
+      "fim_s": 2737.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós estamos distribuindo o gás para 17 milhões de pessoas",
+      "afirmacao": "O programa federal de gás de cozinha atende 17 milhões de pessoas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Considerações finais, na comparação com programas já feitos",
+      "o_que_conferir": [
+        "número de beneficiários do programa de gás (Gás do Povo ou Auxílio Gás), Ministério do Desenvolvimento Social ou Ministério de Minas e Energia, no mês da fala",
+        "se o número da fonte é de famílias ou de pessoas, porque a fala diz pessoas"
+      ]
+    },
+    {
+      "id": "A193",
+      "inicio_s": 2737.7,
+      "fim_s": 2739.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "sabendo que nós pagamos o gás.",
+      "afirmacao": "No programa federal de gás de cozinha, o governo paga o botijão para o beneficiário",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Mesma frase sobre a distribuição de gás",
+      "o_que_conferir": [
+        "regra do programa (lei, decreto ou portaria) sobre quem paga o botijão: recarga gratuita paga pela União à revenda ou auxílio em dinheiro à família",
+        "se a regra está em vigor na data da fala"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 50.0,
+      "fim_s": 57.0,
+      "falante": "Renata Lo Prete",
+      "frase": "A TV Globo começa hoje a entrevistar os candidatos à presidência que passaram ao segundo turno da eleição presidencial.",
+      "motivo": "Apresentação do formato da própria entrevista pela emissora; não é afirmação sobre o debate público nem sobre o candidato."
+    },
+    {
+      "inicio_s": 57.0,
+      "fim_s": 65.2,
+      "falante": "Renata Lo Prete",
+      "frase": "A ordem das entrevistas foi definida por sorteio",
+      "motivo": "Regra de produção da própria emissora sobre a entrevista, sem afirmação sobre o candidato ou sobre o país; o registro dela é a própria emissora."
+    },
+    {
+      "inicio_s": 82.6,
+      "fim_s": 91.2,
+      "falante": "Renata Lo Prete",
+      "frase": "em situação mais adversa do que aquela de quando conseguiu os dois anteriores e o atual",
+      "motivo": "Juízo de comparação ('mais adversa'); os fatos que a entrevistadora usa para sustentá-lo (desvantagem no 1º turno e rejeição ao governo) viraram alegações separadas."
+    },
+    {
+      "inicio_s": 145.5,
+      "fim_s": 148.7,
+      "falante": "Lula",
+      "frase": "foram dois anos e meio para tentar recuperar o país",
+      "motivo": "Caracterização do próprio governo ('recuperar o país'), sem dado ou registro que a confirme ou desminta como está dita."
+    },
+    {
+      "inicio_s": 148.9,
+      "fim_s": 158.9,
+      "falante": "Lula",
+      "frase": "quando o povo votou em mim, Renata, ele votou em mim com a cabeça no final do meu mandato de 2010, em que a gente estava vivendo um momento de ouro",
+      "motivo": "Interpretação da motivação do eleitor e juízo ('momento de ouro'); os números de 2010 que ele dá em seguida viraram alegações."
+    },
+    {
+      "inicio_s": 176.2,
+      "fim_s": 178.3,
+      "falante": "Lula",
+      "frase": "Quase tudo estava desmontado nesse país.",
+      "motivo": "Juízo genérico sem medida; a parte com número (dez ministérios) virou alegação separada."
+    },
+    {
+      "inicio_s": 186.1,
+      "fim_s": 187.7,
+      "falante": "Lula",
+      "frase": "porque não tinha dinheiro para nada",
+      "motivo": "Hipérbole; a parte checável (o que o orçamento deixou para Bolsa Família, educação e saúde) virou alegação separada."
+    },
+    {
+      "inicio_s": 209.4,
+      "fim_s": 213.1,
+      "falante": "Lula",
+      "frase": "Mas eu estou consciente que vou ganhar as eleições dia 25 de outubro.",
+      "motivo": "Previsão de resultado eleitoral; a data citada é só o marco do calendário da própria eleição, sem afirmação de fato em disputa."
+    },
+    {
+      "inicio_s": 231.1,
+      "fim_s": 233.7,
+      "falante": "Renata Lo Prete",
+      "frase": "e o atual já não facilitou a sua vida",
+      "motivo": "Juízo sobre a relação com o Congresso; os episódios concretos que a entrevistadora cita depois (legislação ambiental, indicação ao STF) viraram alegações."
+    },
+    {
+      "inicio_s": 245.4,
+      "fim_s": 249.0,
+      "falante": "Renata Lo Prete",
+      "frase": "justamente essa frente que não vingou no mandato que está acabando agora",
+      "motivo": "Repete, como juízo ('não vingou'), o fato já extraído na alegação sobre as forças de centro sem lugar no governo."
+    },
+    {
+      "inicio_s": 279.1,
+      "fim_s": 290.2,
+      "falante": "Lula",
+      "frase": "Todos participaram do ministério do meu governo. O PP participou, o União Brasil participou, o PSD participou, o PMDB participou.",
+      "motivo": "Mesmo dado da alegação anterior (composição partidária dos ministérios); os quatro partidos citados entram no que conferir dela, para não fatiar a mesma coisa duas vezes."
+    },
+    {
+      "inicio_s": 294.4,
+      "fim_s": 296.4,
+      "falante": "Lula",
+      "frase": "É por isso que nós conseguimos aprovar tudo.",
+      "motivo": "Relação de causa afirmada como explicação, sem registro que a separe de outras causas; o número de aprovações virou alegação."
+    },
+    {
+      "inicio_s": 310.9,
+      "fim_s": 317.0,
+      "falante": "Lula",
+      "frase": "E nós fizemos isso e aprovamos 99% de tudo que a gente queria aprovar, Renata.",
+      "motivo": "Repetição do mesmo número (99% de aprovação) já extraído na mesma resposta; seria a mesma checagem duas vezes."
+    },
+    {
+      "inicio_s": 327.9,
+      "fim_s": 330.0,
+      "falante": "Renata Lo Prete",
+      "frase": "E o senhor, de fato, aprovou coisas importantes.",
+      "motivo": "Juízo ('coisas importantes'); a reforma tributária, que é o exemplo concreto, já está numa alegação."
+    },
+    {
+      "inicio_s": 338.6,
+      "fim_s": 341.0,
+      "falante": "Renata Lo Prete",
+      "frase": "As emendas foram uma dureza de negociar.",
+      "motivo": "Juízo sobre a dificuldade de negociação, sem medida ou registro único que o confirme ou desminta."
+    },
+    {
+      "inicio_s": 359.3,
+      "fim_s": 363.5,
+      "falante": "Renata Lo Prete",
+      "frase": "O seu governo vive sob essa pressão praticamente desde que Donald Trump voltou à Casa Branca.",
+      "motivo": "Caracterização ('pressão'); as medidas concretas que a entrevistadora cita em seguida (tarifas e preferência eleitoral) viraram alegações."
+    },
+    {
+      "inicio_s": 383.6,
+      "fim_s": 391.4,
+      "falante": "Renata Lo Prete",
+      "frase": "uma vizinhança aqui na América do Sul, quase toda colocada já na órbita dos interesses dos Estados Unidos",
+      "motivo": "Caracterização política ('órbita dos interesses') sem critério ou registro que a resolva."
+    },
+    {
+      "inicio_s": 418.9,
+      "fim_s": 428.8,
+      "falante": "Lula",
+      "frase": "eu acho que a minha relação com o Trump foi a relação mais civilizada que eu acho que ele já teve com o outro presidente da República",
+      "motivo": "Opinião declarada como opinião ('eu acho') e juízo ('mais civilizada')."
+    },
+    {
+      "inicio_s": 429.5,
+      "fim_s": 430.8,
+      "falante": "Lula",
+      "frase": "Ela começou muito tensa.",
+      "motivo": "Caracterização da relação, sem medida ou registro único que a resolva."
+    },
+    {
+      "inicio_s": 447.9,
+      "fim_s": 449.0,
+      "falante": "Lula",
+      "frase": "Ele concordou comigo.",
+      "motivo": "Relato da reação do interlocutor numa conversa privada, sem registro público previsível do que foi dito."
+    },
+    {
+      "inicio_s": 469.4,
+      "fim_s": 471.2,
+      "falante": "Lula",
+      "frase": "Eu acho que nós vamos chegar no acordo.",
+      "motivo": "Previsão sobre uma negociação em curso, declarada como opinião."
+    },
+    {
+      "inicio_s": 499.9,
+      "fim_s": 504.0,
+      "falante": "Lula",
+      "frase": "Então, quem deve estar preocupado conosco nesse momento é os Estados Unidos.",
+      "motivo": "Opinião e conclusão tirada dos números anteriores, que viraram alegações."
+    },
+    {
+      "inicio_s": 510.6,
+      "fim_s": 514.8,
+      "falante": "Lula",
+      "frase": "Mas, se for necessário fazer, nós vamos fazer, e eu acho que eles vão ter problema conosco.",
+      "motivo": "Promessa condicional e previsão, sem afirmação sobre o passado."
+    },
+    {
+      "inicio_s": 516.1,
+      "fim_s": 521.7,
+      "falante": "Lula",
+      "frase": "Porque nós temos coisas que eles precisam mais do que coisas que eu preciso dele.",
+      "motivo": "Juízo comparativo de dependência comercial, sem produto, valor ou fonte dito."
+    },
+    {
+      "inicio_s": 586.0,
+      "fim_s": 590.5,
+      "falante": "Lula",
+      "frase": "Não é o caso da facção de do crime organizado no Brasil, que ele só quer o dinheiro.",
+      "motivo": "Caracterização da motivação das facções (só querem dinheiro): juízo sobre intenção de terceiros, sem registro que confirme ou desminta. A parte checável da fala (o critério americano de terrorismo) entrou como A005."
+    },
+    {
+      "inicio_s": 595.4,
+      "fim_s": 602.4,
+      "falante": "Lula",
+      "frase": "tanto o PCC e o Comando Vermelho são terroristas para a comunidade brasileira",
+      "motivo": "Juízo de valor sobre como as facções são vistas pela comunidade, sem dado declarado contra o qual conferir."
+    },
+    {
+      "inicio_s": 661.3,
+      "fim_s": 664.2,
+      "falante": "Lula",
+      "frase": "porque os Estados não tiveram competência de fazer.",
+      "motivo": "Juízo sobre o desempenho dos estados na segurança pública (não tiveram competência), sem métrica declarada."
+    },
+    {
+      "inicio_s": 711.3,
+      "fim_s": 722.3,
+      "falante": "Lula",
+      "frase": "eu vou criar o Ministério da Segurança Pública",
+      "motivo": "Promessa condicionada à aprovação da PEC (criar ministério, definir orçamento e papéis das polícias): futuro, não fato."
+    },
+    {
+      "inicio_s": 725.6,
+      "fim_s": 731.3,
+      "falante": "Lula",
+      "frase": "Nós vamos financiar 138 presídios em todo o território nacional.",
+      "motivo": "Promessa no futuro (vamos financiar). O número 138 é de um plano anunciado, não de algo feito; fica registrado aqui para o passo 5 não perder o número se ele aparecer como fato em outra fala."
+    },
+    {
+      "inicio_s": 822.6,
+      "fim_s": 828.4,
+      "falante": "Lula",
+      "frase": "todo e qualquer crime hediondo, eu estou favorável a diminuir a penalidade.",
+      "motivo": "Posição pessoal declarada como opinião ('meu pensamento, enquanto cidadão'), não afirmação sobre o mundo."
+    },
+    {
+      "inicio_s": 851.8,
+      "fim_s": 856.7,
+      "falante": "Lula",
+      "frase": "Eu sou favorável a reduzir para 16, mas não discutindo nessa PEC.",
+      "motivo": "Posição pessoal sobre a redução da maioridade penal e sobre onde discuti-la: opinião, não fato. O fato sobre o conteúdo da PEC entrou como A018."
+    },
+    {
+      "inicio_s": 866.9,
+      "fim_s": 875.7,
+      "falante": "Lula",
+      "frase": "Eu acho que a sociedade brasileira inteira, sabe, é favorável à punição de qualquer crime hediondo.",
+      "motivo": "Opinião declarada como opinião ('eu acho') sobre o que a sociedade pensa, sem pesquisa citada."
+    },
+    {
+      "inicio_s": 900.0,
+      "fim_s": 903.6,
+      "falante": "Renata Lo Prete",
+      "frase": "com a maior crise de reputação da sua história",
+      "motivo": "Superlativo sem métrica declarada (maior crise de reputação da história): juízo. O fato embutido, a crise do STF ligada ao caso Master, entrou como A022."
+    },
+    {
+      "inicio_s": 935.1,
+      "fim_s": 940.4,
+      "falante": "Lula",
+      "frase": "a extrema-direita tenta jogar a Suprema Corte nas minhas costas",
+      "motivo": "Juízo sobre a intenção de adversários, sem registro que confirme ou desminta."
+    },
+    {
+      "inicio_s": 946.6,
+      "fim_s": 950.7,
+      "falante": "Lula",
+      "frase": "eles querem caçar o Alexandre de Moraes, porque o Alexandre de Moraes prendeu o pai do Flávio Bolsonaro.",
+      "motivo": "O nexo causal (querem afastar Moraes porque ele prendeu Bolsonaro) é juízo sobre motivação de terceiros. Os dois fatos embutidos entraram separados: A024 (os pedidos de afastamento) e A025 (a prisão)."
+    },
+    {
+      "inicio_s": 954.6,
+      "fim_s": 962.0,
+      "falante": "Lula",
+      "frase": "numa das pessoas importantes do clã do Bolsonaro",
+      "motivo": "Caracterização (pessoa importante do clã) sem critério verificável; o vínculo concreto com a família Bolsonaro está no o_que_conferir de A026 e em A027."
+    },
+    {
+      "inicio_s": 992.7,
+      "fim_s": 999.2,
+      "falante": "Renata Lo Prete",
+      "frase": "é seu aliado histórico",
+      "motivo": "Caracterização da relação política (aliado histórico) sem critério único; o fato verificável, a indicação de Dino ao STF por Lula, entrou como A029."
+    },
+    {
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "frase": "Era o mais implicado, era o mais implicado",
+      "motivo": "comparação sem medida ('o mais implicado') que repete a premissa da pergunta, cujo fato fica no lote anterior; os fatos novos da frase (Toffoli e André Mendonça) viraram alegação"
+    },
+    {
+      "inicio_s": 1020.6,
+      "fim_s": 1023.2,
+      "falante": "Lula",
+      "frase": "agora está todo mundo implicado.",
+      "motivo": "generalização sem referente identificável, não há registro único contra o qual conferir 'todo mundo'"
+    },
+    {
+      "inicio_s": 1025.1,
+      "fim_s": 1028.5,
+      "falante": "Renata Lo Prete",
+      "frase": "parece que a gente está tratando casos diferentes de maneira igual.",
+      "motivo": "juízo da entrevistadora sobre a resposta, sem fato afirmado"
+    },
+    {
+      "inicio_s": 1042.4,
+      "fim_s": 1046.8,
+      "falante": "Lula",
+      "frase": "Porque a denúncia paira sobre todos. Hoje a denúncia paira sobre todos.",
+      "motivo": "afirmação genérica sem dizer qual denúncia nem quem são 'todos'; o fato concreto do trecho (a razão do pedido de vista) virou alegação"
+    },
+    {
+      "inicio_s": 1046.8,
+      "fim_s": 1049.1,
+      "falante": "Lula",
+      "frase": "Então, o Flávio Dino fez aquilo que é de direito dele.",
+      "motivo": "resolve-se no mesmo dado da alegação sobre o pedido de vista como prerrogativa do ministro (Regimento Interno do STF); fica uma só"
+    },
+    {
+      "inicio_s": 1108.4,
+      "fim_s": 1121.8,
+      "falante": "Lula",
+      "frase": "Nós temos que discutir mandato para as pessoas.",
+      "motivo": "proposta para o futuro (critério de escolha, mandato e advocacia na Corte), promessa não entra como checável"
+    },
+    {
+      "inicio_s": 1122.4,
+      "fim_s": 1129.9,
+      "falante": "Lula",
+      "frase": "essa confusão toda trouxe um debate que será irreversível, será irreversível no próximo ano.",
+      "motivo": "previsão sobre o debate no próximo ano, não há registro para conferir"
+    },
+    {
+      "inicio_s": 1133.6,
+      "fim_s": 1138.6,
+      "falante": "Lula",
+      "frase": "ninguém está acima da lei, nem os ministros da Suprema Corte.",
+      "motivo": "princípio geral enunciado como valor, sem fato específico a conferir"
+    },
+    {
+      "inicio_s": 1172.0,
+      "fim_s": 1174.3,
+      "falante": "Lula",
+      "frase": "Que julgue, porque senão o Congresso vai fazer.",
+      "motivo": "previsão sobre o que o Congresso faria, hipótese sem registro"
+    },
+    {
+      "inicio_s": 1181.6,
+      "fim_s": 1189.2,
+      "falante": "Renata Lo Prete",
+      "frase": "Tem suspeitas de corrupção mesmo e tem também uma politização do tribunal.",
+      "motivo": "caracterização geral do momento do STF ('suspeitas', 'politização', 'aliados de um lado e de outro') sem caso nem número que se confira numa fonte"
+    },
+    {
+      "inicio_s": 1189.2,
+      "fim_s": 1195.2,
+      "falante": "Renata Lo Prete",
+      "frase": "o diretor-geral da Polícia Federal, Andrei Rodrigues.",
+      "motivo": "resolve-se no mesmo ato de nomeação da alegação de Lula sobre Andrei Rodrigues ser o diretor-geral que ele escolheu; fica uma só"
+    },
+    {
+      "inicio_s": 1200.5,
+      "fim_s": 1204.9,
+      "falante": "Renata Lo Prete",
+      "frase": "sendo que ele comanda uma das corporações mais bem informadas da República.",
+      "motivo": "juízo sobre a corporação ('mais bem informadas'), sem medida nem ranking conferível"
+    },
+    {
+      "inicio_s": 1230.6,
+      "fim_s": 1232.5,
+      "falante": "Lula",
+      "frase": "E está fazendo um extraordinário trabalho.",
+      "motivo": "juízo de valor sobre o desempenho do diretor-geral, repetido em 1262.9 s ('trabalho excepcional')"
+    },
+    {
+      "inicio_s": 1236.4,
+      "fim_s": 1243.0,
+      "falante": "Lula",
+      "frase": "o papel do diretor da Polícia Federal não permite que ele estivesse a Londres.",
+      "motivo": "avaliação de conduta sem citar norma; o fato verificável do trecho (a repreensão) virou alegação"
+    },
+    {
+      "inicio_s": 1245.5,
+      "fim_s": 1249.2,
+      "falante": "Lula",
+      "frase": "Ele me deu uma explicação, sabe? Não foi convincente para mim.",
+      "motivo": "conversa privada sem registro público e avaliação pessoal de Lula sobre a explicação"
+    },
+    {
+      "inicio_s": 1254.7,
+      "fim_s": 1256.5,
+      "falante": "Lula",
+      "frase": "Aliás, ninguém precisava ter ido para aquela festa.",
+      "motivo": "opinião sobre a conduta de quem foi à festa"
+    },
+    {
+      "inicio_s": 1286.8,
+      "fim_s": 1289.4,
+      "falante": "Lula",
+      "frase": "Você não tem noção da quantidade de gente que manda cartão para mim.",
+      "motivo": "sem quantidade afirmada e sobre correspondência privada, sem registro contra o qual conferir"
+    },
+    {
+      "inicio_s": 1361.0,
+      "fim_s": 1368.6,
+      "falante": "Lula",
+      "frase": "o Banco Central não investiga politicamente. O Banco Central vai investigar tecnicamente.",
+      "motivo": "caracterização do modo de agir do Banco Central, sem caso nem norma citada; as atribuições a Galípolo e Haddad no mesmo trecho viraram alegação"
+    },
+    {
+      "inicio_s": 1396.4,
+      "fim_s": 1399.0,
+      "falante": "Lula",
+      "frase": "E eu disse o seguinte, você não vai ter perseguido, você vai ter investigado.",
+      "motivo": "resposta dada na mesma conversa privada da alegação sobre o que Vorcaro disse a Lula; resolve-se no mesmo relato do encontro"
+    },
+    {
+      "inicio_s": 1461.3,
+      "fim_s": 1465.4,
+      "falante": "Lula",
+      "frase": "O Lewandowski foi o extraordinário ministro da Suprema Corte brasileira.",
+      "motivo": "juízo de valor sobre Lewandowski, repetido sobre a gestão dele no Ministério da Justiça"
+    },
+    {
+      "inicio_s": 1471.6,
+      "fim_s": 1475.0,
+      "falante": "Lula",
+      "frase": "Eu não tenho emprego para oferecer para ele e também não sei onde ele foi trabalhar.",
+      "motivo": "declaração sobre o próprio conhecimento de Lula, sem registro externo que confirme ou desminta"
+    },
+    {
+      "inicio_s": 1493.4,
+      "fim_s": 1499.2,
+      "falante": "Lula",
+      "frase": "Não tem como o presidente da República ficar acompanhando a vida das pessoas.",
+      "motivo": "opinião sobre o papel do presidente, sem fato conferível"
+    },
+    {
+      "inicio_s": 1538.2,
+      "fim_s": 1541.7,
+      "falante": "Lula",
+      "frase": "Não há possibilidade nenhuma das coisas serem acobertadas.",
+      "motivo": "previsão sobre o resultado das investigações, não há registro para conferir"
+    },
+    {
+      "inicio_s": 1542.7,
+      "fim_s": 1562.7,
+      "falante": "Lula",
+      "frase": "As festas noturnas, a quantidade de mulheres, a quantidade de pessoas envolvidas.",
+      "motivo": "resolve-se no mesmo dado da alegação sobre denúncias envolvendo o STF com festas, mulheres e dinheiro; fica uma só"
+    },
+    {
+      "inicio_s": 1588.8,
+      "fim_s": 1590.8,
+      "falante": "Lula",
+      "frase": "E é por isso que eu estou defendendo o mandato.",
+      "motivo": "posição declarada na própria entrevista (mandato para ministros do STF), confirmada pela fala dele no mesmo bloco"
+    },
+    {
+      "inicio_s": 1606.7,
+      "fim_s": 1612.2,
+      "falante": "Renata Lo Prete",
+      "frase": "que foram objeto de anúncios do governo neste ano eleitoral, alguns já bem próximos da eleição",
+      "motivo": "Moldura genérica da pergunta, sem anúncio identificado; o anúncio concreto e a data vêm nas frases seguintes, que viraram A001 e A002."
+    },
+    {
+      "inicio_s": 1612.6,
+      "fim_s": 1618.9,
+      "falante": "Renata Lo Prete",
+      "frase": "Eu acho que o de maior alcance talvez tenha sido",
+      "motivo": "Opinião declarada da entrevistadora ('eu acho', 'talvez') sobre qual anúncio teve maior alcance; a parte factual da frase virou A001."
+    },
+    {
+      "inicio_s": 1635.7,
+      "fim_s": 1647.9,
+      "falante": "Lula",
+      "frase": "Eu não sabia, porque é inexplicável, Renata",
+      "motivo": "Afirma o que o candidato sabia ou não sabia: é estado mental próprio, sem registro público contra o qual conferir. O fato de o benefício não ter sido reajustado virou A003."
+    },
+    {
+      "inicio_s": 1677.5,
+      "fim_s": 1681.2,
+      "falante": "Renata Lo Prete",
+      "frase": "Apareceu um espaço fiscal que a equipe econômica não tinha chegado antes?",
+      "motivo": "Pergunta hipotética, sem afirmar fato: levanta uma possibilidade para o candidato responder."
+    },
+    {
+      "inicio_s": 1931.1,
+      "fim_s": 1934.1,
+      "falante": "Renata Lo Prete",
+      "frase": "porque as pessoas e as empresas estão, de fato, encalacradas",
+      "motivo": "Caracterização genérica sem número nem período; os dados concretos da mesma pergunta viraram A011, A012 e A014."
+    },
+    {
+      "inicio_s": 1979.4,
+      "fim_s": 1987.1,
+      "falante": "Lula",
+      "frase": "Nós trabalhamos com a expectativa de que os bancos vão vender a dívida descontando 90%, 92%, 93%",
+      "motivo": "Previsão declarada como expectativa sobre o resultado do leilão, que ainda não aconteceu; não há registro passado contra o qual conferir."
+    },
+    {
+      "inicio_s": 2001.4,
+      "fim_s": 2007.0,
+      "falante": "Lula",
+      "frase": "Nós estamos achando que é possível a gente colocar uns R$ 150 bilhões para comprar essa dívida",
+      "motivo": "Estimativa futura do valor a ser usado na compra ('estamos achando que é possível'); o estoque atual da dívida, afirmado logo depois, virou A020."
+    },
+    {
+      "inicio_s": 2009.8,
+      "fim_s": 2018.0,
+      "falante": "Lula",
+      "frase": "Se a gente compra ela por 5% do valor dela, a gente está fazendo um favor extraordinário",
+      "motivo": "Hipótese condicional ('se a gente compra') seguida de juízo de valor ('favor extraordinário'), sem fato passado a conferir."
+    },
+    {
+      "inicio_s": 2028.4,
+      "fim_s": 2032.2,
+      "falante": "Lula",
+      "frase": "Dívida que a União não vai receber mais",
+      "motivo": "Previsão sobre a recuperação futura da dívida; o estoque citado da dívida ativa de MEI virou A022."
+    },
+    {
+      "inicio_s": 2039.8,
+      "fim_s": 2047.9,
+      "falante": "Lula",
+      "frase": "eu sugeri que a gente estudasse a possibilidade de anistiar essa dívida das pessoas",
+      "motivo": "Relato de sugestão interna do candidato ao governo, sem ato público identificado; o perdão das dívidas de MEI afirmado antes virou A021, cujo o_que_conferir já cobre se é ato ou proposta."
+    },
+    {
+      "inicio_s": 2047.9,
+      "fim_s": 2059.7,
+      "falante": "Lula",
+      "frase": "nós vamos disponibilizar uma espécie de crédito e um aval de R$ 5 mil para essas pessoas que zerarem a sua dívida",
+      "motivo": "Promessa no futuro ('vamos disponibilizar'), sem norma citada que já a preveja; promessa não entra como alegação checável."
+    },
+    {
+      "inicio_s": 2067.0,
+      "fim_s": 2073.0,
+      "falante": "Lula",
+      "frase": "É o jeito que nós encontramos de reativar a economia",
+      "motivo": "Juízo sobre a finalidade e o efeito esperado da medida, sem fato passado a conferir."
+    },
+    {
+      "inicio_s": 2112.2,
+      "fim_s": 2116.7,
+      "falante": "Renata Lo Prete",
+      "frase": "Ou seja, que se não cortar gasto, não tem como baixar juros e trazer mais crescimento",
+      "motivo": "É a leitura da própria entrevistadora sobre a fala de Galípolo ('ou seja'); se resolve no mesmo registro do evento da A003 e está no o_que_conferir dela, então separar seria fatiar a mesma coisa duas vezes."
+    },
+    {
+      "inicio_s": 2123.1,
+      "fim_s": 2130.8,
+      "falante": "Lula",
+      "frase": "O jeito de você resolver o problema fiscal é fazer a economia ficar crescendo",
+      "motivo": "Tese econômica declarada como opinião (o jeito de resolver), sem fato registrável."
+    },
+    {
+      "inicio_s": 2133.3,
+      "fim_s": 2135.8,
+      "falante": "Lula",
+      "frase": "Eu vivo isso há 50 anos, essa briga",
+      "motivo": "O prazo de 50 anos se refere a 'essa briga', que não tem início definido em registro nenhum; não há contra o que conferir."
+    },
+    {
+      "inicio_s": 2135.9,
+      "fim_s": 2140.7,
+      "falante": "Lula",
+      "frase": "toda vez que alguém quer resolver o problema fiscal, o povo pobre paga",
+      "motivo": "Generalização de juízo sobre todos os ajustes fiscais, sem episódio nem medida identificável."
+    },
+    {
+      "inicio_s": 2175.7,
+      "fim_s": 2180.0,
+      "falante": "Lula",
+      "frase": "E nós, o ano que vem, vamos ter economia entre as 8ª economia do mundo",
+      "motivo": "Previsão para o ano que vem; não há registro presente contra o qual conferir."
+    },
+    {
+      "inicio_s": 2180.4,
+      "fim_s": 2188.4,
+      "falante": "Lula",
+      "frase": "Porque é o único jeito de você fazer o déficit com relação à dívida diminuir é crescer a economia. Não é cortar do pobre",
+      "motivo": "Tese econômica e juízo (o único jeito), sem fato registrável."
+    },
+    {
+      "inicio_s": 2230.1,
+      "fim_s": 2237.7,
+      "falante": "Lula",
+      "frase": "Eu sei que se a gente perder o controle do nosso orçamento, eu sei que a coisa quebra e vai quebrar do lado mais pobre",
+      "motivo": "Hipótese condicional (se perder o controle) sobre consequência futura, sem fato registrável."
+    },
+    {
+      "inicio_s": 2250.2,
+      "fim_s": 2263.5,
+      "falante": "Lula",
+      "frase": "eu tenho divergência de muitos economistas, porque eu tenho uma tese econômica. A minha tese é o seguinte, muito dinheiro na mão de poucos é pobreza e pouco dinheiro na mão de muitos é riqueza",
+      "motivo": "Opinião declarada como tese própria; não afirma fato sobre o mundo que tenha registro para conferir."
+    },
+    {
+      "inicio_s": 2277.5,
+      "fim_s": 2281.9,
+      "falante": "Lula",
+      "frase": "fazendo com que as pessoas peguem dois, três, um, mil reais",
+      "motivo": "Os valores saem embaralhados na transcrição ('dois, três, um, mil reais') e não se resolvem; citar valor incerto num card é o defeito que o projeto combate. O fato da política de crédito está na A018."
+    },
+    {
+      "inicio_s": 2288.6,
+      "fim_s": 2300.5,
+      "falante": "Lula",
+      "frase": "O que faz a economia do Brasil crescer é a chamada microeconomia, é fazer o dinheiro rodar na mão do povo",
+      "motivo": "Tese econômica declarada como opinião, seguida de hipótese (se o dinheiro fica concentrado), sem fato registrável."
+    },
+    {
+      "inicio_s": 2308.1,
+      "fim_s": 2331.1,
+      "falante": "Lula",
+      "frase": "Eu não quero que a dívida cresça",
+      "motivo": "Declaração de intenção e, em seguida, argumento sobre quando vale ter dívida (ferrovia, hidrelétrica, porto); opinião, sem fato registrável."
+    },
+    {
+      "inicio_s": 2336.7,
+      "fim_s": 2343.2,
+      "falante": "Renata Lo Prete",
+      "frase": "o senhor já deixou claro que nessa matéria o senhor não está propondo uma correção de rumo",
+      "motivo": "Leitura da entrevistadora sobre as respostas dadas na própria entrevista, não fato externo com registro próprio."
+    },
+    {
+      "inicio_s": 2343.4,
+      "fim_s": 2348.4,
+      "falante": "Lula",
+      "frase": "Eu estou propondo não gastar, não cortar dinheiro dos pobres",
+      "motivo": "Proposta para o próximo mandato; promessa não entra como checável."
+    },
+    {
+      "inicio_s": 2367.9,
+      "fim_s": 2370.6,
+      "falante": "Renata Lo Prete",
+      "frase": "e é o maior fator de competitividade da nossa indústria",
+      "motivo": "Juízo sobre competitividade (maior fator), sem medida única que o confirme; a parte factual sobre o peso da energia nos custos está na A024."
+    },
+    {
+      "inicio_s": 2405.5,
+      "fim_s": 2408.0,
+      "falante": "Lula",
+      "frase": "porque fizeram o favor de vender tudo",
+      "motivo": "Hipérbole (vender tudo); o fato contido nela está na A030 (parcela privada) e na A031 (privatização da Eletrobras)."
+    },
+    {
+      "inicio_s": 2411.6,
+      "fim_s": 2412.9,
+      "falante": "Lula",
+      "frase": "a troco de banana",
+      "motivo": "Juízo sobre o preço da privatização da Eletrobras, sem valor citado; o fato da privatização está na A031."
+    },
+    {
+      "inicio_s": 2414.1,
+      "fim_s": 2420.4,
+      "falante": "Lula",
+      "frase": "Então, o povo está pagando o preço, sabe? Que a gente nem sempre tem todo o total controle",
+      "motivo": "Relação causal genérica entre privatização e conta de luz, declarada como juízo, sem medida identificável."
+    },
+    {
+      "inicio_s": 2422.7,
+      "fim_s": 2453.6,
+      "falante": "Lula",
+      "frase": "a perspectiva de receber pelo menos uns 500 bilhões de reais de investimento",
+      "motivo": "Previsão de investimento em data centers (perspectiva), não fato ocorrido; a fala diz que o governo está trabalhando nisso, sem nomear medida conferível."
+    },
+    {
+      "inicio_s": 2453.7,
+      "fim_s": 2460.3,
+      "falante": "Lula",
+      "frase": "Nós estamos trabalhando também na questão da economia verde. Estamos trabalhando na economia criativa. Estamos trabalhando na economia digital",
+      "motivo": "Declaração genérica de trabalho em andamento, sem programa, número ou ato que se possa conferir."
+    },
+    {
+      "inicio_s": 2523.7,
+      "fim_s": 2530.8,
+      "falante": "Lula",
+      "frase": "não só temos plano, como nós estamos colocando em prática. É que isso estava tudo desmontado",
+      "motivo": "Afirmação genérica de plano e juízo sobre o estado anterior (tudo desmontado); os fatos concretos da resposta estão nas A039 a A044."
+    },
+    {
+      "inicio_s": 2543.3,
+      "fim_s": 2544.7,
+      "falante": "Lula",
+      "frase": "para ir para 28 médicos",
+      "motivo": "Meta futura, e a transcrição registra '28 médicos' sem a unidade (mil); citar número incerto num card é o defeito que o projeto combate."
+    },
+    {
+      "inicio_s": 2556.0,
+      "fim_s": 2570.8,
+      "falante": "Lula",
+      "frase": "nós vamos ter ainda esse ano 150 carretas andando pelo Brasil",
+      "motivo": "Meta para o restante do ano (vamos ter), promessa e não fato ocorrido."
+    },
+    {
+      "inicio_s": 2571.2,
+      "fim_s": 2573.0,
+      "falante": "Lula",
+      "frase": "É uma revolução que está acontecendo",
+      "motivo": "Juízo de valor sobre a política de saúde, sem fato registrável."
+    },
+    {
+      "inicio_s": 2577.4,
+      "fim_s": 2589.3,
+      "falante": "Lula",
+      "frase": "Nós estamos trabalhando para que o Brasil, dentro de algum tempo, a gente possa ser o país que mais tem evoluído no tratamento de câncer no mundo. Porque estamos investindo muito",
+      "motivo": "Objetivo futuro (dentro de algum tempo) e investimento qualificado só como 'muito', sem valor, período ou programa que se possa conferir."
+    },
+    {
+      "inicio_s": 2592.9,
+      "fim_s": 2598.2,
+      "falante": "Lula",
+      "frase": "10 mil bulanças se renovaram, nós vamos comprar 10 mil",
+      "motivo": "A transcrição não se resolve ('você tinha o país, 10 mil bulanças se renovaram'): não dá para saber o que foi dito sobre as ambulâncias encontradas; a compra de 10 mil é promessa."
+    },
+    {
+      "inicio_s": 2639.6,
+      "fim_s": 2644.7,
+      "falante": "Lula",
+      "frase": "Esse ano, vamos fazer 16 milhões de cirurgias eletivas.",
+      "motivo": "Previsão para o ano em curso (vamos fazer); o resultado de 2026 ainda não fechou, então não há registro que confirme ou desminta. O número de 2025 entrou como A005."
+    },
+    {
+      "inicio_s": 2665.3,
+      "fim_s": 2671.7,
+      "falante": "Lula",
+      "frase": "que não é fácil você fazer as coisas acontecer em um país que estava destruído como o nosso.",
+      "motivo": "Juízo de valor (país destruído) sem número ou fato específico que se confira; o fato concreto que ele dá logo depois (6 mil obras paralisadas) entrou como A007."
+    },
+    {
+      "inicio_s": 2672.0,
+      "fim_s": 2677.5,
+      "falante": "Lula",
+      "frase": "E eu acho que nós fizemos milagres nesse país. Na área da educação, na área da saúde.",
+      "motivo": "Opinião declarada como opinião (eu acho) e juízo de valor (milagres), sem fato conferível embutido."
+    },
+    {
+      "inicio_s": 2702.9,
+      "fim_s": 2706.1,
+      "falante": "Lula",
+      "frase": "é que eu tenho certeza absoluta que o país está no rumo certo.",
+      "motivo": "Opinião e juízo de valor (rumo certo); não há registro contra o qual conferir."
+    },
+    {
+      "inicio_s": 2706.7,
+      "fim_s": 2709.3,
+      "falante": "Lula",
+      "frase": "Eu tenho certeza que a aprovação da escala 6 por 1.",
+      "motivo": "Frase interrompida, sem predicado: não afirma se a mudança na escala 6 por 1 foi aprovada, por quem ou quando, e completar a frase seria inventar aspas."
+    },
+    {
+      "inicio_s": 2709.6,
+      "fim_s": 2712.2,
+      "falante": "Lula",
+      "frase": "Eu tenho certeza que a política que nós fizemos por meio.",
+      "motivo": "Frase interrompida e com final incerto na transcrição (por meio); não se sabe de que política se trata, e citar palavra incerta num card é o defeito que o projeto combate."
+    },
+    {
+      "inicio_s": 2713.3,
+      "fim_s": 2724.1,
+      "falante": "Lula",
+      "frase": "essa coisa que eu estou pensando de fazer programa de governo, não é? Agora não. De dar transporte gratuito para as pessoas no final de semana, já que vai ter dois dias de descanso,",
+      "motivo": "Promessa e plano de governo (transporte gratuito no fim de semana) e previsão (vai ter dois dias de descanso); não há fato passado ou vigente a conferir."
+    },
+    {
+      "inicio_s": 2750.7,
+      "fim_s": 2753.7,
+      "falante": "Renata Lo Prete",
+      "frase": "Amanhã é a vez de Flávio Bolsonaro do PL.",
+      "motivo": "Transição de encerramento com a programação da própria emissora (a entrevista do outro candidato no dia seguinte), já registrada no CASO.json; não é afirmação em disputa na sabatina."
+    }
+  ]
+}

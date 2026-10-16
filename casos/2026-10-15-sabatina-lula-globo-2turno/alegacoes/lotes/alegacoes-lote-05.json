@@ -1,0 +1,944 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": { "inicio_s": 2082.5, "fim_s": 2604.4 },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 2091.2,
+      "fim_s": 2099.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No comando do Banco Central, que define a taxa básica, o senhor tem já há um ano e nove meses, a pessoa que o senhor escolheu, Gabriel Galípolo",
+      "citacao_card": "No comando do Banco Central [...] já há um ano e nove meses, a pessoa que o senhor escolheu, Gabriel Galípolo",
+      "afirmacao": "Gabriel Galípolo, indicado por Lula, preside o Banco Central há cerca de um ano e nove meses",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "data de posse de Gabriel Galípolo na presidência do Banco Central, no site do BC ou no Diário Oficial",
+        "se a indicação ao cargo foi do presidente Lula (mensagem ao Senado e aprovação)",
+        "o intervalo entre a posse e 15/out/2026"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 2099.3,
+      "fim_s": 2104.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e ele não só não viu espaço para reduzir de maneira significativa os juros",
+      "afirmacao": "Sob a presidência de Galípolo, o Banco Central não reduziu de forma significativa a taxa Selic",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "série da meta Selic definida pelo Copom, do início do mandato de Galípolo até outubro de 2026, no site do BC",
+        "o tamanho total dos cortes no período, se houve, e o nível em 15/out/2026"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 2104.9,
+      "fim_s": 2111.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "como num evento recente, ele disse que o modelo de crescimento, baseado no estímulo ao consumo, está esgotado",
+      "citacao_card": "ele disse que o modelo de crescimento, baseado no estímulo ao consumo, está esgotado",
+      "afirmacao": "Galípolo disse em evento recente que o modelo de crescimento baseado no estímulo ao consumo está esgotado",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-monetaria",
+      "contexto": "Pergunta sobre juros e a posição do presidente do Banco Central",
+      "o_que_conferir": [
+        "registro do evento recente (vídeo, transcrição ou nota do BC) com a fala de Galípolo sobre o modelo de crescimento",
+        "se a fala usa a ideia de esgotamento do crescimento baseado em consumo, e se liga isso a corte de gasto e queda de juros, como a pergunta resume em seguida"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 2131.1,
+      "fim_s": 2132.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu estou com 80 anos de idade",
+      "afirmacao": "Lula tem 80 anos de idade",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre juros e política fiscal",
+      "o_que_conferir": [
+        "data de nascimento de Lula em registro oficial (TSE, Presidência) e a idade em 15/out/2026"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 2145.5,
+      "fim_s": 2151.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu assumi a presidência em 2003, o Brasil era a 12ª economia do mundo",
+      "afirmacao": "Em 2003, quando Lula assumiu, o Brasil era a 12ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook) ou Banco Mundial, para 2002 e 2003",
+        "se a posição muda conforme a medida (dólar corrente ou paridade de poder de compra)"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI",
+      "afirmacao": "Em 2003, o Brasil devia cerca de US$ 30 bilhões ao FMI",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "saldo devedor do Brasil com o FMI no início de 2003, nos dados do FMI ou do Banco Central",
+        "a moeda da dívida (dólares ou DES) e o valor no pico do acordo de 2002"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 2152.4,
+      "fim_s": 2155.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Devia 30 bilhões para o FMI e não estava crescendo",
+      "citacao_card": "e não estava crescendo",
+      "afirmacao": "Quando Lula assumiu em 2003, a economia brasileira não estava crescendo",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "crescimento do PIB em 2002 e 2003, IBGE (Contas Nacionais)",
+        "se 'não estava crescendo' cabe a crescimento baixo porém positivo"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 2156.7,
+      "fim_s": 2159.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu deixei a presidência, o Brasil era a 7ª economia do mundo",
+      "afirmacao": "Quando Lula deixou a presidência, em 2010, o Brasil era a 7ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook) ou Banco Mundial, para 2010",
+        "se a posição muda conforme a medida e a revisão dos dados"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 2160.2,
+      "fim_s": 2162.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Fizemos uma reserva de 270 bilhões de dólares",
+      "afirmacao": "Os governos Lula 1 e 2 formaram reservas internacionais de cerca de US$ 270 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "série das reservas internacionais do Banco Central, dez/2002 e dez/2010",
+        "se o número se refere ao estoque final ou ao acréscimo no período"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 2163.0,
+      "fim_s": 2164.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "paguei os 30 bilhões do FMI",
+      "afirmacao": "O governo Lula quitou a dívida de cerca de US$ 30 bilhões com o FMI",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "data e valor da quitação antecipada da dívida com o FMI, notas do Banco Central e do FMI",
+        "quanto do total devido foi pago no governo Lula e quanto antes dele"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 2164.6,
+      "fim_s": 2168.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e aí emprestei 15 bilhões depois da crise do subprime ao FMI",
+      "afirmacao": "Depois da crise do subprime, o Brasil emprestou US$ 15 bilhões ao FMI",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia-internacional",
+      "contexto": "Resposta sobre juros e política fiscal, com o histórico dos mandatos anteriores",
+      "o_que_conferir": [
+        "valor comprometido e valor efetivamente aportado pelo Brasil ao FMI em 2009-2010 (compra de notas do FMI, NAB), Banco Central e FMI",
+        "a diferença entre compromisso anunciado e desembolso"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 2170.4,
+      "fim_s": 2173.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu peguei a economia outra vez, a 12ª",
+      "afirmacao": "Quando Lula voltou à presidência, em 2023, o Brasil era a 12ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, comparando com o mandato atual",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares, FMI (World Economic Outlook), para 2022",
+        "se a posição muda conforme a medida e a revisão dos dados"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 2173.7,
+      "fim_s": 2175.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Hoje já é a 10ª",
+      "afirmacao": "Hoje o Brasil é a 10ª economia do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre juros e política fiscal, comparando com o mandato atual",
+      "o_que_conferir": [
+        "ranking do PIB nominal em dólares no dado anual mais recente (2025) e na projeção do FMI para 2026",
+        "qual base a fala usa: último ano fechado ou estimativa do ano corrente"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 2188.5,
+      "fim_s": 2204.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "muitos economistas, inclusive economistas que apoiam o senhor até hoje ou já apoiaram o senhor, reclamam do fato que o senhor parece estar dizendo que quem se preocupa com os fundamentos da macroeconomia não está se preocupando com os mais pobres",
+      "citacao_card": "muitos economistas, inclusive economistas que apoiam o senhor [...] reclamam",
+      "afirmacao": "Muitos economistas, inclusive apoiadores atuais ou antigos de Lula, criticam a fala de que quem se preocupa com os fundamentos macroeconômicos não se preocupa com os pobres",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "declarações públicas de economistas ligados ou que já foram ligados ao PT ou ao governo criticando esse tipo de fala, em entrevistas e artigos de 2023 a 2026",
+        "se a crítica registrada é sobre essa oposição entre fundamentos e pobres, ou sobre outra coisa"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 2207.2,
+      "fim_s": 2211.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o fato da dívida pública ter crescido 10 pontos percentuais no seu governo",
+      "afirmacao": "A dívida pública cresceu 10 pontos percentuais do PIB no atual governo Lula",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "Dívida Bruta do Governo Geral em % do PIB, Banco Central (estatísticas fiscais), dez/2022 e último mês divulgado antes de 15/out/2026",
+        "se o número muda conforme o indicador (DBGG, DLSP ou critério do FMI)"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 2211.7,
+      "fim_s": 2220.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e de boa parte dos economistas considerar que a trajetória da dívida, mais até do que o valor dela, a trajetória da dívida é insustentável",
+      "citacao_card": "boa parte dos economistas considerar [...] a trajetória da dívida é insustentável",
+      "afirmacao": "Boa parte dos economistas considera insustentável a trajetória da dívida pública brasileira",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da entrevistadora à resposta sobre crescimento e política fiscal",
+      "o_que_conferir": [
+        "levantamentos com economistas sobre a sustentabilidade da dívida (pesquisas de mercado, relatórios da IFI do Senado, projeções do Prisma Fiscal), em 2026",
+        "se as instituições citadas falam em trajetória insustentável ou em outro termo"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 2226.2,
+      "fim_s": 2228.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu criei uma família com cinco filhos",
+      "afirmacao": "Lula criou cinco filhos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à observação sobre a dívida pública",
+      "o_que_conferir": [
+        "biografia oficial de Lula (Presidência, Instituto Lula) e registro público dos filhos"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 2273.5,
+      "fim_s": 2277.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "É por isso que nós fazemos a maior política de crédito que esse país já conheceu",
+      "citacao_card": "nós fazemos a maior política de crédito que esse país já conheceu",
+      "afirmacao": "O governo Lula faz a maior política de crédito da história do país",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre dívida pública, defendendo crédito e microcrédito",
+      "o_que_conferir": [
+        "volume de crédito dos programas federais (microcrédito, Desenrola, consignado, BNDES, Pronampe) no governo atual contra os anteriores, em valores corrigidos",
+        "qual medida sustenta 'maior': volume, número de tomadores ou subsídio"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 2285.3,
+      "fim_s": 2288.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu cansei de brigar com Guido Mantega e com Meirelles",
+      "afirmacao": "Lula teve divergências frequentes com Guido Mantega e Henrique Meirelles sobre política econômica",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Resposta sobre dívida pública, defendendo a microeconomia",
+      "o_que_conferir": [
+        "registros públicos (entrevistas, memórias, reportagens da época) de divergência entre Lula e Mantega e entre Lula e Meirelles",
+        "o período em que cada um esteve no cargo nos governos Lula"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 2300.9,
+      "fim_s": 2302.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu tinha acabado com a fome em 2014",
+      "afirmacao": "Em 2014, o Brasil havia saído do Mapa da Fome",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "desenvolvimento-social",
+      "contexto": "Resposta sobre dívida pública, defendendo a distribuição de renda",
+      "o_que_conferir": [
+        "relatório SOFI da FAO de 2014 e o critério de saída do Mapa da Fome (prevalência de subalimentação abaixo de 2,5%)",
+        "em que governo e em que período a queda aconteceu (2014 já era o governo Dilma)"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 2302.9,
+      "fim_s": 2306.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu voltei tinha 33 milhões de pessoas passando por uma outra vez",
+      "citacao_card": "quando eu voltei tinha 33 milhões de pessoas",
+      "afirmacao": "Quando Lula voltou à presidência, em 2023, havia 33 milhões de pessoas passando fome no Brasil",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "desenvolvimento-social",
+      "contexto": "Continuação da frase anterior sobre a fome; a transcrição registra 'passando por uma outra vez', e o sentido de fome vem da frase anterior",
+      "o_que_conferir": [
+        "Inquérito da Rede PENSSAN (2021-2022) sobre insegurança alimentar grave e o número de pessoas",
+        "dados oficiais da PNAD Contínua (IBGE) sobre insegurança alimentar grave em 2023, para comparar a definição"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 2349.7,
+      "fim_s": 2354.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Alguém está anunciando como meu adversário que não tem aumento do salário mínimo acima da inflação",
+      "afirmacao": "O adversário de Lula no 2º turno anunciou que não haverá aumento do salário mínimo acima da inflação",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Fim da resposta sobre dívida pública e política fiscal",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE e declarações públicas do candidato adversário (Flávio Bolsonaro) sobre a regra do salário mínimo",
+        "se a proposta fala em reajuste só pela inflação ou em outra regra"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 2351.7,
+      "fim_s": 2355.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não tem aumento do salário mínimo acima da inflação. No meu caso, tem",
+      "citacao_card": "No meu caso, tem",
+      "afirmacao": "No governo Lula, o salário mínimo tem aumento acima da inflação",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica-economica",
+      "contexto": "Fim da resposta sobre dívida pública e política fiscal",
+      "o_que_conferir": [
+        "regra de valorização do salário mínimo em vigor (Lei 14.663/2023) e o limite aplicado pelo arcabouço fiscal a partir de 2025",
+        "reajustes de 2023 a 2026 contra o INPC do período"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 2364.5,
+      "fim_s": 2368.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu quero ouvir o senhor sobre energia elétrica, porque é o principal insumo",
+      "citacao_card": "energia elétrica, porque é o principal insumo",
+      "afirmacao": "A energia elétrica é o principal insumo da indústria brasileira",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação da energia elétrica nos custos da indústria, IBGE (PIA) ou CNI",
+        "se a fonte trata a energia como o maior item de custo ou como um dos principais"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 2371.0,
+      "fim_s": 2374.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O Brasil tem uma matriz energética limpa, das mais limpas do mundo",
+      "afirmacao": "A matriz energética brasileira está entre as mais limpas do mundo",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação de fontes renováveis na matriz energética e na matriz elétrica, EPE (Balanço Energético Nacional), contra a média mundial (IEA)",
+        "se a comparação vale para a matriz energética ou só para a elétrica"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 2374.8,
+      "fim_s": 2377.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "produz energia a custo baixo",
+      "afirmacao": "O Brasil produz energia elétrica a custo baixo",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "custo de geração no Brasil (preços de leilão da ANEEL/CCEE, custo nivelado da EPE) contra referências internacionais",
+        "a diferença entre custo de geração e tarifa final ao consumidor"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 2377.7,
+      "fim_s": 2381.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas só este ano a tarifa já subiu o dobro da inflação",
+      "afirmacao": "Em 2026, a tarifa de energia elétrica subiu o dobro da inflação",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "IPCA acumulado em 2026 do subitem energia elétrica residencial contra o IPCA geral, IBGE, até o último mês divulgado antes de 15/out/2026",
+        "se 'a tarifa' é o índice de preço ao consumidor ou os reajustes homologados pela ANEEL"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 2382.0,
+      "fim_s": 2387.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo fez um programa para ajudar os mais pobres, ampliou a tarifa social",
+      "afirmacao": "O governo Lula ampliou a tarifa social de energia elétrica",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "norma que ampliou a tarifa social (medida provisória ou lei de 2025-2026) e o número de famílias atendidas antes e depois, ANEEL e MME"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 2388.1,
+      "fim_s": 2391.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas tem uma parcela grande da população que está pagando mais",
+      "afirmacao": "Uma parcela grande da população fora da tarifa social está pagando mais pela energia elétrica",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Pergunta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "reajustes tarifários das distribuidoras em 2026, ANEEL, e quantas unidades consumidoras residenciais ficam fora da tarifa social",
+        "se a ampliação da tarifa social foi financiada por encargo pago pelos demais consumidores (CDE)"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 2399.9,
+      "fim_s": 2404.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "É importante lembrar que a grande parte da energia brasileira é privada hoje",
+      "citacao_card": "a grande parte da energia brasileira é privada hoje",
+      "afirmacao": "Hoje a maior parte do setor elétrico brasileiro é privada",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "participação de empresas privadas na geração, na transmissão e na distribuição, ANEEL",
+        "como a Eletrobras é classificada depois da privatização"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 2409.3,
+      "fim_s": 2411.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Fizeram o favor de privatizar a Eletrobras",
+      "afirmacao": "A Eletrobras foi privatizada antes do atual governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "data e modelo da desestatização da Eletrobras (Lei 14.182/2021, oferta de ações de 2022)",
+        "a participação da União depois da operação"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 2466.6,
+      "fim_s": 2469.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e os ricos pagam um pouco mais como nós fizemos agora",
+      "afirmacao": "O governo Lula fez recentemente uma mudança pela qual os mais ricos passam a pagar um pouco mais",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica; logo depois ele fala do mercado livre de energia",
+      "o_que_conferir": [
+        "qual mudança a fala indica: rateio de encargos do setor elétrico entre consumidores (reforma de 2025-2026) ou a tributação de altas rendas que acompanhou a isenção do IR",
+        "o texto da norma aprovada e quem passa a pagar mais"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 2469.9,
+      "fim_s": 2479.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Você está lembrado que o pobre pagava muita energia porque o pobre comprava do Estado e o rico comprava no mercado livre mais barato",
+      "citacao_card": "o pobre comprava do Estado e o rico comprava no mercado livre mais barato",
+      "afirmacao": "Consumidores pequenos compravam energia no mercado regulado, mais caro, enquanto grandes consumidores compravam no mercado livre, mais barato",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "regras de acesso ao mercado livre antes da abertura (limites de carga), ANEEL e CCEE",
+        "preço médio da energia no mercado livre contra a tarifa regulada, CCEE e ANEEL",
+        "se a energia do mercado regulado é vendida pelo Estado ou por distribuidoras, inclusive privadas"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 2479.5,
+      "fim_s": 2484.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós agora estamos permitindo que todo e qualquer cidadão possa ir para o mercado livre",
+      "afirmacao": "O governo Lula aprovou a abertura do mercado livre de energia a todos os consumidores",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre o custo da energia elétrica",
+      "o_que_conferir": [
+        "norma que abre o mercado livre ao consumidor residencial (medida provisória ou lei de 2025-2026) e se foi aprovada",
+        "o cronograma da abertura: se já vale em outubro de 2026 ou só em data futura"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 2491.8,
+      "fim_s": 2499.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A principal queixa hoje é o tempo de espera para consultas especializadas, determinados exames, cirurgias eletivas",
+      "citacao_card": "A principal queixa hoje é o tempo de espera para consultas especializadas",
+      "afirmacao": "A principal queixa dos usuários do SUS hoje é o tempo de espera por consultas especializadas, exames e cirurgias eletivas",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "pesquisas de opinião sobre o SUS (Datafolha/CFM, CNI, IBGE) com a lista das principais queixas, em 2025-2026",
+        "se a espera por especialista aparece em primeiro lugar"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 2500.1,
+      "fim_s": 2504.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Um programa lançado pelo seu governo conseguiu ampliar o atendimento para isso",
+      "afirmacao": "Um programa do governo Lula ampliou o atendimento especializado no SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "número de consultas especializadas, exames e cirurgias eletivas realizados no SUS antes e depois do programa (Agora Tem Especialistas ou equivalente), Ministério da Saúde (SIA/SIH)"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 2504.8,
+      "fim_s": 2508.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas o tempo de espera não diminuiu significativamente",
+      "afirmacao": "O tempo de espera por atendimento especializado no SUS não diminuiu de forma significativa",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "série do tempo médio de espera ou do tamanho das filas de regulação, Ministério da Saúde ou secretarias estaduais, antes e depois do programa",
+        "se existe série nacional publicada ou só dados estaduais"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 2508.1,
+      "fim_s": 2516.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Quem estuda a saúde pública vê esse seu programa como um paliativo, um paliativo necessário, mas não como uma mudança estruturante",
+      "citacao_card": "Quem estuda a saúde pública vê esse seu programa como um paliativo",
+      "afirmacao": "Especialistas em saúde pública avaliam o programa como paliativo necessário, mas não como mudança estruturante",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "avaliações publicadas por pesquisadores de saúde pública (Abrasco, Fiocruz, universidades, IEPS) sobre o programa de especialistas",
+        "se essas avaliações usam a ideia de paliativo ou de falta de mudança estrutural"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 2532.9,
+      "fim_s": 2537.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a gente tinha 20 e poucos mil médicos",
+      "afirmacao": "O programa Mais Médicos chegou a ter mais de 20 mil médicos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número máximo de médicos em atividade no Mais Médicos (2014-2016), Ministério da Saúde",
+        "se a fala se refere ao Mais Médicos ou a outro conjunto de médicos"
+      ]
+    },
+    {
+      "id": "A040",
+      "inicio_s": 2537.6,
+      "fim_s": 2540.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu voltei para a presidência, tinha apenas 12 mil",
+      "afirmacao": "Em 2023, quando Lula voltou à presidência, o programa de provimento tinha apenas 12 mil médicos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número de médicos em atividade no Mais Médicos e no Médicos pelo Brasil em dez/2022 e jan/2023, Ministério da Saúde"
+      ]
+    },
+    {
+      "id": "A041",
+      "inicio_s": 2540.1,
+      "fim_s": 2543.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós já contratamos 16 mil",
+      "afirmacao": "O governo Lula já contratou 16 mil médicos no programa de provimento",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS; a fala trata do programa de provimento de médicos",
+      "o_que_conferir": [
+        "número de médicos contratados pelo Mais Médicos desde 2023 e o total em atividade em 2026, Ministério da Saúde",
+        "se os 16 mil são contratações novas ou o total em atividade"
+      ]
+    },
+    {
+      "id": "A042",
+      "inicio_s": 2545.1,
+      "fim_s": 2552.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós agora estamos criando mais especialistas para fazer com que todas as pessoas tenham direito ao segundo médico",
+      "citacao_card": "Nós agora estamos criando mais especialistas",
+      "afirmacao": "O governo Lula está ampliando a formação ou o provimento de médicos especialistas no SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS",
+      "o_que_conferir": [
+        "vagas de residência médica e de provimento de especialistas abertas desde 2023 (Mais Médicos Especialistas, MEC e Ministério da Saúde)"
+      ]
+    },
+    {
+      "id": "A043",
+      "inicio_s": 2598.3,
+      "fim_s": 2601.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós precisamos fazer o Brasil sorridente voltar a funcionar",
+      "afirmacao": "Quando Lula voltou ao governo, o Brasil Sorridente tinha deixado de funcionar ou estava reduzido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS, descrevendo o que encontrou ao chegar ao governo",
+      "o_que_conferir": [
+        "orçamento executado e número de equipes de saúde bucal e de Centros de Especialidades Odontológicas, 2019 a 2022, Ministério da Saúde",
+        "se o programa foi extinto ou só teve redução"
+      ]
+    },
+    {
+      "id": "A044",
+      "inicio_s": 2601.9,
+      "fim_s": 2604.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós precisamos botar o Farmácia Popular voltar a funcionar",
+      "afirmacao": "Quando Lula voltou ao governo, o Farmácia Popular tinha deixado de funcionar ou estava reduzido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera no SUS, descrevendo o que encontrou ao chegar ao governo",
+      "o_que_conferir": [
+        "orçamento executado e número de farmácias credenciadas e de beneficiários do Farmácia Popular, 2019 a 2022, Ministério da Saúde",
+        "se o programa foi extinto ou só teve redução"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 2112.2,
+      "fim_s": 2116.7,
+      "falante": "Renata Lo Prete",
+      "frase": "Ou seja, que se não cortar gasto, não tem como baixar juros e trazer mais crescimento",
+      "motivo": "É a leitura da própria entrevistadora sobre a fala de Galípolo ('ou seja'); se resolve no mesmo registro do evento da A003 e está no o_que_conferir dela, então separar seria fatiar a mesma coisa duas vezes."
+    },
+    {
+      "inicio_s": 2123.1,
+      "fim_s": 2130.8,
+      "falante": "Lula",
+      "frase": "O jeito de você resolver o problema fiscal é fazer a economia ficar crescendo",
+      "motivo": "Tese econômica declarada como opinião (o jeito de resolver), sem fato registrável."
+    },
+    {
+      "inicio_s": 2133.3,
+      "fim_s": 2135.8,
+      "falante": "Lula",
+      "frase": "Eu vivo isso há 50 anos, essa briga",
+      "motivo": "O prazo de 50 anos se refere a 'essa briga', que não tem início definido em registro nenhum; não há contra o que conferir."
+    },
+    {
+      "inicio_s": 2135.9,
+      "fim_s": 2140.7,
+      "falante": "Lula",
+      "frase": "toda vez que alguém quer resolver o problema fiscal, o povo pobre paga",
+      "motivo": "Generalização de juízo sobre todos os ajustes fiscais, sem episódio nem medida identificável."
+    },
+    {
+      "inicio_s": 2175.7,
+      "fim_s": 2180.0,
+      "falante": "Lula",
+      "frase": "E nós, o ano que vem, vamos ter economia entre as 8ª economia do mundo",
+      "motivo": "Previsão para o ano que vem; não há registro presente contra o qual conferir."
+    },
+    {
+      "inicio_s": 2180.4,
+      "fim_s": 2188.4,
+      "falante": "Lula",
+      "frase": "Porque é o único jeito de você fazer o déficit com relação à dívida diminuir é crescer a economia. Não é cortar do pobre",
+      "motivo": "Tese econômica e juízo (o único jeito), sem fato registrável."
+    },
+    {
+      "inicio_s": 2230.1,
+      "fim_s": 2237.7,
+      "falante": "Lula",
+      "frase": "Eu sei que se a gente perder o controle do nosso orçamento, eu sei que a coisa quebra e vai quebrar do lado mais pobre",
+      "motivo": "Hipótese condicional (se perder o controle) sobre consequência futura, sem fato registrável."
+    },
+    {
+      "inicio_s": 2250.2,
+      "fim_s": 2263.5,
+      "falante": "Lula",
+      "frase": "eu tenho divergência de muitos economistas, porque eu tenho uma tese econômica. A minha tese é o seguinte, muito dinheiro na mão de poucos é pobreza e pouco dinheiro na mão de muitos é riqueza",
+      "motivo": "Opinião declarada como tese própria; não afirma fato sobre o mundo que tenha registro para conferir."
+    },
+    {
+      "inicio_s": 2277.5,
+      "fim_s": 2281.9,
+      "falante": "Lula",
+      "frase": "fazendo com que as pessoas peguem dois, três, um, mil reais",
+      "motivo": "Os valores saem embaralhados na transcrição ('dois, três, um, mil reais') e não se resolvem; citar valor incerto num card é o defeito que o projeto combate. O fato da política de crédito está na A018."
+    },
+    {
+      "inicio_s": 2288.6,
+      "fim_s": 2300.5,
+      "falante": "Lula",
+      "frase": "O que faz a economia do Brasil crescer é a chamada microeconomia, é fazer o dinheiro rodar na mão do povo",
+      "motivo": "Tese econômica declarada como opinião, seguida de hipótese (se o dinheiro fica concentrado), sem fato registrável."
+    },
+    {
+      "inicio_s": 2308.1,
+      "fim_s": 2331.1,
+      "falante": "Lula",
+      "frase": "Eu não quero que a dívida cresça",
+      "motivo": "Declaração de intenção e, em seguida, argumento sobre quando vale ter dívida (ferrovia, hidrelétrica, porto); opinião, sem fato registrável."
+    },
+    {
+      "inicio_s": 2336.7,
+      "fim_s": 2343.2,
+      "falante": "Renata Lo Prete",
+      "frase": "o senhor já deixou claro que nessa matéria o senhor não está propondo uma correção de rumo",
+      "motivo": "Leitura da entrevistadora sobre as respostas dadas na própria entrevista, não fato externo com registro próprio."
+    },
+    {
+      "inicio_s": 2343.4,
+      "fim_s": 2348.4,
+      "falante": "Lula",
+      "frase": "Eu estou propondo não gastar, não cortar dinheiro dos pobres",
+      "motivo": "Proposta para o próximo mandato; promessa não entra como checável."
+    },
+    {
+      "inicio_s": 2367.9,
+      "fim_s": 2370.6,
+      "falante": "Renata Lo Prete",
+      "frase": "e é o maior fator de competitividade da nossa indústria",
+      "motivo": "Juízo sobre competitividade (maior fator), sem medida única que o confirme; a parte factual sobre o peso da energia nos custos está na A024."
+    },
+    {
+      "inicio_s": 2405.5,
+      "fim_s": 2408.0,
+      "falante": "Lula",
+      "frase": "porque fizeram o favor de vender tudo",
+      "motivo": "Hipérbole (vender tudo); o fato contido nela está na A030 (parcela privada) e na A031 (privatização da Eletrobras)."
+    },
+    {
+      "inicio_s": 2411.6,
+      "fim_s": 2412.9,
+      "falante": "Lula",
+      "frase": "a troco de banana",
+      "motivo": "Juízo sobre o preço da privatização da Eletrobras, sem valor citado; o fato da privatização está na A031."
+    },
+    {
+      "inicio_s": 2414.1,
+      "fim_s": 2420.4,
+      "falante": "Lula",
+      "frase": "Então, o povo está pagando o preço, sabe? Que a gente nem sempre tem todo o total controle",
+      "motivo": "Relação causal genérica entre privatização e conta de luz, declarada como juízo, sem medida identificável."
+    },
+    {
+      "inicio_s": 2422.7,
+      "fim_s": 2453.6,
+      "falante": "Lula",
+      "frase": "a perspectiva de receber pelo menos uns 500 bilhões de reais de investimento",
+      "motivo": "Previsão de investimento em data centers (perspectiva), não fato ocorrido; a fala diz que o governo está trabalhando nisso, sem nomear medida conferível."
+    },
+    {
+      "inicio_s": 2453.7,
+      "fim_s": 2460.3,
+      "falante": "Lula",
+      "frase": "Nós estamos trabalhando também na questão da economia verde. Estamos trabalhando na economia criativa. Estamos trabalhando na economia digital",
+      "motivo": "Declaração genérica de trabalho em andamento, sem programa, número ou ato que se possa conferir."
+    },
+    {
+      "inicio_s": 2523.7,
+      "fim_s": 2530.8,
+      "falante": "Lula",
+      "frase": "não só temos plano, como nós estamos colocando em prática. É que isso estava tudo desmontado",
+      "motivo": "Afirmação genérica de plano e juízo sobre o estado anterior (tudo desmontado); os fatos concretos da resposta estão nas A039 a A044."
+    },
+    {
+      "inicio_s": 2543.3,
+      "fim_s": 2544.7,
+      "falante": "Lula",
+      "frase": "para ir para 28 médicos",
+      "motivo": "Meta futura, e a transcrição registra '28 médicos' sem a unidade (mil); citar número incerto num card é o defeito que o projeto combate."
+    },
+    {
+      "inicio_s": 2556.0,
+      "fim_s": 2570.8,
+      "falante": "Lula",
+      "frase": "nós vamos ter ainda esse ano 150 carretas andando pelo Brasil",
+      "motivo": "Meta para o restante do ano (vamos ter), promessa e não fato ocorrido."
+    },
+    {
+      "inicio_s": 2571.2,
+      "fim_s": 2573.0,
+      "falante": "Lula",
+      "frase": "É uma revolução que está acontecendo",
+      "motivo": "Juízo de valor sobre a política de saúde, sem fato registrável."
+    },
+    {
+      "inicio_s": 2577.4,
+      "fim_s": 2589.3,
+      "falante": "Lula",
+      "frase": "Nós estamos trabalhando para que o Brasil, dentro de algum tempo, a gente possa ser o país que mais tem evoluído no tratamento de câncer no mundo. Porque estamos investindo muito",
+      "motivo": "Objetivo futuro (dentro de algum tempo) e investimento qualificado só como 'muito', sem valor, período ou programa que se possa conferir."
+    },
+    {
+      "inicio_s": 2592.9,
+      "fim_s": 2598.2,
+      "falante": "Lula",
+      "frase": "10 mil bulanças se renovaram, nós vamos comprar 10 mil",
+      "motivo": "A transcrição não se resolve ('você tinha o país, 10 mil bulanças se renovaram'): não dá para saber o que foi dito sobre as ambulâncias encontradas; a compra de 10 mil é promessa."
+    }
+  ]
+}

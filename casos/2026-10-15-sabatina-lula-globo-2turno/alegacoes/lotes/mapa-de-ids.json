@@ -1,0 +1,967 @@
+[
+  {
+    "final": "A001",
+    "lote": 1,
+    "id_local": "A001"
+  },
+  {
+    "final": "A002",
+    "lote": 1,
+    "id_local": "A002"
+  },
+  {
+    "final": "A003",
+    "lote": 1,
+    "id_local": "A003"
+  },
+  {
+    "final": "A004",
+    "lote": 1,
+    "id_local": "A004"
+  },
+  {
+    "final": "A005",
+    "lote": 1,
+    "id_local": "A005"
+  },
+  {
+    "final": "A006",
+    "lote": 1,
+    "id_local": "A006"
+  },
+  {
+    "final": "A007",
+    "lote": 1,
+    "id_local": "A007"
+  },
+  {
+    "final": "A008",
+    "lote": 1,
+    "id_local": "A008"
+  },
+  {
+    "final": "A009",
+    "lote": 1,
+    "id_local": "A009"
+  },
+  {
+    "final": "A010",
+    "lote": 1,
+    "id_local": "A010"
+  },
+  {
+    "final": "A011",
+    "lote": 1,
+    "id_local": "A011"
+  },
+  {
+    "final": "A012",
+    "lote": 1,
+    "id_local": "A012"
+  },
+  {
+    "final": "A013",
+    "lote": 1,
+    "id_local": "A013"
+  },
+  {
+    "final": "A014",
+    "lote": 1,
+    "id_local": "A014"
+  },
+  {
+    "final": "A015",
+    "lote": 1,
+    "id_local": "A015"
+  },
+  {
+    "final": "A016",
+    "lote": 1,
+    "id_local": "A016"
+  },
+  {
+    "final": "A017",
+    "lote": 1,
+    "id_local": "A017"
+  },
+  {
+    "final": "A018",
+    "lote": 1,
+    "id_local": "A018"
+  },
+  {
+    "final": "A019",
+    "lote": 1,
+    "id_local": "A019"
+  },
+  {
+    "final": "A020",
+    "lote": 1,
+    "id_local": "A020"
+  },
+  {
+    "final": "A021",
+    "lote": 1,
+    "id_local": "A021"
+  },
+  {
+    "final": "A022",
+    "lote": 1,
+    "id_local": "A022"
+  },
+  {
+    "final": "A023",
+    "lote": 1,
+    "id_local": "A023"
+  },
+  {
+    "final": "A024",
+    "lote": 1,
+    "id_local": "A024"
+  },
+  {
+    "final": "A025",
+    "lote": 1,
+    "id_local": "A025"
+  },
+  {
+    "final": "A026",
+    "lote": 1,
+    "id_local": "A026"
+  },
+  {
+    "final": "A027",
+    "lote": 1,
+    "id_local": "A027"
+  },
+  {
+    "final": "A028",
+    "lote": 1,
+    "id_local": "A028"
+  },
+  {
+    "final": "A029",
+    "lote": 1,
+    "id_local": "A029"
+  },
+  {
+    "final": "A030",
+    "lote": 1,
+    "id_local": "A030"
+  },
+  {
+    "final": "A031",
+    "lote": 1,
+    "id_local": "A031"
+  },
+  {
+    "final": "A032",
+    "lote": 1,
+    "id_local": "A032"
+  },
+  {
+    "final": "A033",
+    "lote": 1,
+    "id_local": "A033"
+  },
+  {
+    "final": "A034",
+    "lote": 1,
+    "id_local": "A034"
+  },
+  {
+    "final": "A035",
+    "lote": 1,
+    "id_local": "A035"
+  },
+  {
+    "final": "A036",
+    "lote": 1,
+    "id_local": "A036"
+  },
+  {
+    "final": "A037",
+    "lote": 1,
+    "id_local": "A037"
+  },
+  {
+    "final": "A038",
+    "lote": 1,
+    "id_local": "A038"
+  },
+  {
+    "final": "A039",
+    "lote": 1,
+    "id_local": "A039"
+  },
+  {
+    "final": "A040",
+    "lote": 1,
+    "id_local": "A040"
+  },
+  {
+    "final": "A041",
+    "lote": 1,
+    "id_local": "A041"
+  },
+  {
+    "final": "A042",
+    "lote": 1,
+    "id_local": "A042"
+  },
+  {
+    "final": "A043",
+    "lote": 2,
+    "id_local": "A001"
+  },
+  {
+    "final": "A044",
+    "lote": 2,
+    "id_local": "A002"
+  },
+  {
+    "final": "A045",
+    "lote": 2,
+    "id_local": "A003"
+  },
+  {
+    "final": "A046",
+    "lote": 2,
+    "id_local": "A004"
+  },
+  {
+    "final": "A047",
+    "lote": 2,
+    "id_local": "A005"
+  },
+  {
+    "final": "A048",
+    "lote": 2,
+    "id_local": "A006"
+  },
+  {
+    "final": "A049",
+    "lote": 2,
+    "id_local": "A007"
+  },
+  {
+    "final": "A050",
+    "lote": 2,
+    "id_local": "A008"
+  },
+  {
+    "final": "A051",
+    "lote": 2,
+    "id_local": "A009"
+  },
+  {
+    "final": "A052",
+    "lote": 2,
+    "id_local": "A010"
+  },
+  {
+    "final": "A053",
+    "lote": 2,
+    "id_local": "A011"
+  },
+  {
+    "final": "A054",
+    "lote": 2,
+    "id_local": "A012"
+  },
+  {
+    "final": "A055",
+    "lote": 2,
+    "id_local": "A013"
+  },
+  {
+    "final": "A056",
+    "lote": 2,
+    "id_local": "A014"
+  },
+  {
+    "final": "A057",
+    "lote": 2,
+    "id_local": "A015"
+  },
+  {
+    "final": "A058",
+    "lote": 2,
+    "id_local": "A016"
+  },
+  {
+    "final": "A059",
+    "lote": 2,
+    "id_local": "A017"
+  },
+  {
+    "final": "A060",
+    "lote": 2,
+    "id_local": "A018"
+  },
+  {
+    "final": "A061",
+    "lote": 2,
+    "id_local": "A019"
+  },
+  {
+    "final": "A062",
+    "lote": 2,
+    "id_local": "A020"
+  },
+  {
+    "final": "A063",
+    "lote": 2,
+    "id_local": "A021"
+  },
+  {
+    "final": "A064",
+    "lote": 2,
+    "id_local": "A022"
+  },
+  {
+    "final": "A065",
+    "lote": 2,
+    "id_local": "A023"
+  },
+  {
+    "final": "A066",
+    "lote": 2,
+    "id_local": "A024"
+  },
+  {
+    "final": "A067",
+    "lote": 2,
+    "id_local": "A025"
+  },
+  {
+    "final": "A068",
+    "lote": 2,
+    "id_local": "A026"
+  },
+  {
+    "final": "A069",
+    "lote": 2,
+    "id_local": "A027"
+  },
+  {
+    "final": "A070",
+    "lote": 2,
+    "id_local": "A028"
+  },
+  {
+    "final": "A071",
+    "lote": 2,
+    "id_local": "A029"
+  },
+  {
+    "final": "A072",
+    "lote": 2,
+    "id_local": "A030"
+  },
+  {
+    "final": "A073",
+    "lote": 2,
+    "id_local": "A031"
+  },
+  {
+    "final": "A074",
+    "lote": 3,
+    "id_local": "A001"
+  },
+  {
+    "final": "A075",
+    "lote": 3,
+    "id_local": "A002"
+  },
+  {
+    "final": "A076",
+    "lote": 3,
+    "id_local": "A003"
+  },
+  {
+    "final": "A077",
+    "lote": 3,
+    "id_local": "A004"
+  },
+  {
+    "final": "A078",
+    "lote": 3,
+    "id_local": "A005"
+  },
+  {
+    "final": "A079",
+    "lote": 3,
+    "id_local": "A006"
+  },
+  {
+    "final": "A080",
+    "lote": 3,
+    "id_local": "A007"
+  },
+  {
+    "final": "A081",
+    "lote": 3,
+    "id_local": "A008"
+  },
+  {
+    "final": "A082",
+    "lote": 3,
+    "id_local": "A009"
+  },
+  {
+    "final": "A083",
+    "lote": 3,
+    "id_local": "A010"
+  },
+  {
+    "final": "A084",
+    "lote": 3,
+    "id_local": "A011"
+  },
+  {
+    "final": "A085",
+    "lote": 3,
+    "id_local": "A012"
+  },
+  {
+    "final": "A086",
+    "lote": 3,
+    "id_local": "A013"
+  },
+  {
+    "final": "A087",
+    "lote": 3,
+    "id_local": "A014"
+  },
+  {
+    "final": "A088",
+    "lote": 3,
+    "id_local": "A015"
+  },
+  {
+    "final": "A089",
+    "lote": 3,
+    "id_local": "A016"
+  },
+  {
+    "final": "A090",
+    "lote": 3,
+    "id_local": "A017"
+  },
+  {
+    "final": "A091",
+    "lote": 3,
+    "id_local": "A018"
+  },
+  {
+    "final": "A092",
+    "lote": 3,
+    "id_local": "A019"
+  },
+  {
+    "final": "A093",
+    "lote": 3,
+    "id_local": "A020"
+  },
+  {
+    "final": "A094",
+    "lote": 3,
+    "id_local": "A021"
+  },
+  {
+    "final": "A095",
+    "lote": 3,
+    "id_local": "A022"
+  },
+  {
+    "final": "A096",
+    "lote": 3,
+    "id_local": "A023"
+  },
+  {
+    "final": "A097",
+    "lote": 3,
+    "id_local": "A024"
+  },
+  {
+    "final": "A098",
+    "lote": 3,
+    "id_local": "A025"
+  },
+  {
+    "final": "A099",
+    "lote": 3,
+    "id_local": "A026"
+  },
+  {
+    "final": "A100",
+    "lote": 3,
+    "id_local": "A027"
+  },
+  {
+    "final": "A101",
+    "lote": 3,
+    "id_local": "A028"
+  },
+  {
+    "final": "A102",
+    "lote": 3,
+    "id_local": "A029"
+  },
+  {
+    "final": "A103",
+    "lote": 3,
+    "id_local": "A030"
+  },
+  {
+    "final": "A104",
+    "lote": 3,
+    "id_local": "A031"
+  },
+  {
+    "final": "A105",
+    "lote": 3,
+    "id_local": "A032"
+  },
+  {
+    "final": "A106",
+    "lote": 3,
+    "id_local": "A033"
+  },
+  {
+    "final": "A107",
+    "lote": 3,
+    "id_local": "A034"
+  },
+  {
+    "final": "A108",
+    "lote": 3,
+    "id_local": "A035"
+  },
+  {
+    "final": "A109",
+    "lote": 3,
+    "id_local": "A036"
+  },
+  {
+    "final": "A110",
+    "lote": 3,
+    "id_local": "A037"
+  },
+  {
+    "final": "A111",
+    "lote": 3,
+    "id_local": "A038"
+  },
+  {
+    "final": "A112",
+    "lote": 3,
+    "id_local": "A039"
+  },
+  {
+    "final": "A113",
+    "lote": 3,
+    "id_local": "A040"
+  },
+  {
+    "final": "A114",
+    "lote": 3,
+    "id_local": "A041"
+  },
+  {
+    "final": "A115",
+    "lote": 3,
+    "id_local": "A042"
+  },
+  {
+    "final": "A116",
+    "lote": 4,
+    "id_local": "A001"
+  },
+  {
+    "final": "A117",
+    "lote": 4,
+    "id_local": "A002"
+  },
+  {
+    "final": "A118",
+    "lote": 4,
+    "id_local": "A003"
+  },
+  {
+    "final": "A119",
+    "lote": 4,
+    "id_local": "A004"
+  },
+  {
+    "final": "A120",
+    "lote": 4,
+    "id_local": "A005"
+  },
+  {
+    "final": "A121",
+    "lote": 4,
+    "id_local": "A006"
+  },
+  {
+    "final": "A122",
+    "lote": 4,
+    "id_local": "A007"
+  },
+  {
+    "final": "A123",
+    "lote": 4,
+    "id_local": "A008"
+  },
+  {
+    "final": "A124",
+    "lote": 4,
+    "id_local": "A009"
+  },
+  {
+    "final": "A125",
+    "lote": 4,
+    "id_local": "A010"
+  },
+  {
+    "final": "A126",
+    "lote": 4,
+    "id_local": "A011"
+  },
+  {
+    "final": "A127",
+    "lote": 4,
+    "id_local": "A012"
+  },
+  {
+    "final": "A128",
+    "lote": 4,
+    "id_local": "A013"
+  },
+  {
+    "final": "A129",
+    "lote": 4,
+    "id_local": "A014"
+  },
+  {
+    "final": "A130",
+    "lote": 4,
+    "id_local": "A015"
+  },
+  {
+    "final": "A131",
+    "lote": 4,
+    "id_local": "A016"
+  },
+  {
+    "final": "A132",
+    "lote": 4,
+    "id_local": "A017"
+  },
+  {
+    "final": "A133",
+    "lote": 4,
+    "id_local": "A018"
+  },
+  {
+    "final": "A134",
+    "lote": 4,
+    "id_local": "A019"
+  },
+  {
+    "final": "A135",
+    "lote": 4,
+    "id_local": "A020"
+  },
+  {
+    "final": "A136",
+    "lote": 4,
+    "id_local": "A021"
+  },
+  {
+    "final": "A137",
+    "lote": 4,
+    "id_local": "A022"
+  },
+  {
+    "final": "A138",
+    "lote": 4,
+    "id_local": "A023"
+  },
+  {
+    "final": "A139",
+    "lote": 4,
+    "id_local": "A024"
+  },
+  {
+    "final": "A140",
+    "lote": 5,
+    "id_local": "A001"
+  },
+  {
+    "final": "A141",
+    "lote": 5,
+    "id_local": "A002"
+  },
+  {
+    "final": "A142",
+    "lote": 5,
+    "id_local": "A003"
+  },
+  {
+    "final": "A143",
+    "lote": 5,
+    "id_local": "A004"
+  },
+  {
+    "final": "A144",
+    "lote": 5,
+    "id_local": "A005"
+  },
+  {
+    "final": "A145",
+    "lote": 5,
+    "id_local": "A006"
+  },
+  {
+    "final": "A146",
+    "lote": 5,
+    "id_local": "A007"
+  },
+  {
+    "final": "A147",
+    "lote": 5,
+    "id_local": "A008"
+  },
+  {
+    "final": "A148",
+    "lote": 5,
+    "id_local": "A009"
+  },
+  {
+    "final": "A149",
+    "lote": 5,
+    "id_local": "A010"
+  },
+  {
+    "final": "A150",
+    "lote": 5,
+    "id_local": "A011"
+  },
+  {
+    "final": "A151",
+    "lote": 5,
+    "id_local": "A012"
+  },
+  {
+    "final": "A152",
+    "lote": 5,
+    "id_local": "A013"
+  },
+  {
+    "final": "A153",
+    "lote": 5,
+    "id_local": "A014"
+  },
+  {
+    "final": "A154",
+    "lote": 5,
+    "id_local": "A015"
+  },
+  {
+    "final": "A155",
+    "lote": 5,
+    "id_local": "A016"
+  },
+  {
+    "final": "A156",
+    "lote": 5,
+    "id_local": "A017"
+  },
+  {
+    "final": "A157",
+    "lote": 5,
+    "id_local": "A018"
+  },
+  {
+    "final": "A158",
+    "lote": 5,
+    "id_local": "A019"
+  },
+  {
+    "final": "A159",
+    "lote": 5,
+    "id_local": "A020"
+  },
+  {
+    "final": "A160",
+    "lote": 5,
+    "id_local": "A021"
+  },
+  {
+    "final": "A161",
+    "lote": 5,
+    "id_local": "A022"
+  },
+  {
+    "final": "A162",
+    "lote": 5,
+    "id_local": "A023"
+  },
+  {
+    "final": "A163",
+    "lote": 5,
+    "id_local": "A024"
+  },
+  {
+    "final": "A164",
+    "lote": 5,
+    "id_local": "A025"
+  },
+  {
+    "final": "A165",
+    "lote": 5,
+    "id_local": "A026"
+  },
+  {
+    "final": "A166",
+    "lote": 5,
+    "id_local": "A027"
+  },
+  {
+    "final": "A167",
+    "lote": 5,
+    "id_local": "A028"
+  },
+  {
+    "final": "A168",
+    "lote": 5,
+    "id_local": "A029"
+  },
+  {
+    "final": "A169",
+    "lote": 5,
+    "id_local": "A030"
+  },
+  {
+    "final": "A170",
+    "lote": 5,
+    "id_local": "A031"
+  },
+  {
+    "final": "A171",
+    "lote": 5,
+    "id_local": "A032"
+  },
+  {
+    "final": "A172",
+    "lote": 5,
+    "id_local": "A033"
+  },
+  {
+    "final": "A173",
+    "lote": 5,
+    "id_local": "A034"
+  },
+  {
+    "final": "A174",
+    "lote": 5,
+    "id_local": "A035"
+  },
+  {
+    "final": "A175",
+    "lote": 5,
+    "id_local": "A036"
+  },
+  {
+    "final": "A176",
+    "lote": 5,
+    "id_local": "A037"
+  },
+  {
+    "final": "A177",
+    "lote": 5,
+    "id_local": "A038"
+  },
+  {
+    "final": "A178",
+    "lote": 5,
+    "id_local": "A039"
+  },
+  {
+    "final": "A179",
+    "lote": 5,
+    "id_local": "A040"
+  },
+  {
+    "final": "A180",
+    "lote": 5,
+    "id_local": "A041"
+  },
+  {
+    "final": "A181",
+    "lote": 5,
+    "id_local": "A042"
+  },
+  {
+    "final": "A182",
+    "lote": 5,
+    "id_local": "A043"
+  },
+  {
+    "final": "A183",
+    "lote": 5,
+    "id_local": "A044"
+  },
+  {
+    "final": "A184",
+    "lote": 6,
+    "id_local": "A001"
+  },
+  {
+    "final": "A185",
+    "lote": 6,
+    "id_local": "A002"
+  },
+  {
+    "final": "A186",
+    "lote": 6,
+    "id_local": "A003"
+  },
+  {
+    "final": "A187",
+    "lote": 6,
+    "id_local": "A004"
+  },
+  {
+    "final": "A188",
+    "lote": 6,
+    "id_local": "A005"
+  },
+  {
+    "final": "A189",
+    "lote": 6,
+    "id_local": "A006"
+  },
+  {
+    "final": "A190",
+    "lote": 6,
+    "id_local": "A007"
+  },
+  {
+    "final": "A191",
+    "lote": 6,
+    "id_local": "A008"
+  },
+  {
+    "final": "A192",
+    "lote": 6,
+    "id_local": "A009"
+  },
+  {
+    "final": "A193",
+    "lote": 6,
+    "id_local": "A010"
+  }
+]

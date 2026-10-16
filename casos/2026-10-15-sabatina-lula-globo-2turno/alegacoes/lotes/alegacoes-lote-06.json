@@ -1,0 +1,241 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": { "inicio_s": 2604.4, "fim_s": 2867.1 },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 2608.7,
+      "fim_s": 2612.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o programa a que eu me referi é o Mais Especialistas, que ampliou o atendimento,",
+      "afirmacao": "O programa federal de atendimento especializado do SUS citado na pergunta (chamado de Mais Especialistas) ampliou o atendimento",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "A entrevistadora esclarece a que programa se referia na pergunta sobre o tempo de espera por especialistas no SUS",
+      "o_que_conferir": [
+        "nome oficial do programa (Mais Acesso a Especialistas ou Agora Tem Especialistas) e se é este o programa da pergunta, no Ministério da Saúde",
+        "série de consultas, exames e procedimentos especializados realizados antes e depois do início do programa, Ministério da Saúde/DATASUS (SIA e SIH), até a data da fala"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 2612.9,
+      "fim_s": 2619.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas, segundo uma auditoria do próprio Tribunal de Contas da União, ainda não conseguiu resolver o problema do tempo de espera.",
+      "citacao_card": "segundo uma auditoria do [...] Tribunal de Contas da União, ainda não conseguiu resolver o problema do tempo de espera",
+      "afirmacao": "Uma auditoria do TCU concluiu que o programa de atendimento especializado ainda não resolveu o problema do tempo de espera no SUS",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Mesma fala da entrevistadora, que pondera a resposta do candidato sobre filas no SUS",
+      "o_que_conferir": [
+        "acórdão ou relatório de auditoria do TCU sobre o programa de especialistas do SUS (número do processo, data e conclusão sobre tempo de espera)",
+        "se a conclusão do TCU fala de tempo de espera em si ou de outro ponto (monitoramento, dados, metas), no texto do acórdão"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 2623.3,
+      "fim_s": 2631.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós fizemos um convênio com hospitais particulares que estão pagando parte da dívida que tem com o Estado para atender pelo SUS.",
+      "citacao_card": "Nós fizemos um convênio com hospitais particulares que estão pagando parte da dívida [...] para atender pelo SUS",
+      "afirmacao": "O governo federal fez acordo com hospitais privados para que paguem parte de suas dívidas com a União prestando atendimento pelo SUS",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre o tempo de espera por atendimento especializado no SUS",
+      "o_que_conferir": [
+        "norma que criou a troca de dívida de hospitais privados por atendimento ao SUS (lei ou medida provisória, portarias do Ministério da Saúde e da PGFN) e sua vigência",
+        "se há hospitais particulares com adesão efetiva e atendimentos já prestados, segundo Ministério da Saúde ou PGFN, até a data da fala"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 2631.7,
+      "fim_s": 2634.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós estamos fazendo um convênio com todas as Santas Casas.",
+      "afirmacao": "O governo federal está firmando convênio com todas as Santas Casas do país",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Continuação da resposta sobre filas no SUS",
+      "o_que_conferir": [
+        "existência de convênio, acordo ou adesão das Santas Casas e hospitais filantrópicos (CMB) com o Ministério da Saúde, na data da fala",
+        "se o acordo abrange todas as Santas Casas ou só as que aderiram, com o número de adesões informado pelo Ministério da Saúde ou pela CMB"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 2634.9,
+      "fim_s": 2639.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Em 2025, nós fizemos 15 milhões de cirurgias eletivas.",
+      "afirmacao": "O SUS realizou 15 milhões de cirurgias eletivas em 2025",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Continuação da resposta sobre filas no SUS",
+      "o_que_conferir": [
+        "total de cirurgias eletivas realizadas pelo SUS em 2025, Ministério da Saúde/DATASUS (SIH/SUS e SIA/SUS) ou balanço oficial do programa de redução de filas",
+        "qual definição de cirurgia eletiva a fonte usa (só procedimentos hospitalares ou também ambulatoriais), porque a soma muda muito"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 2648.2,
+      "fim_s": 2650.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "As pessoas esperavam dois anos, três anos.",
+      "afirmacao": "Antes das medidas do governo, pacientes do SUS esperavam de dois a três anos na fila por cirurgia ou atendimento especializado",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "O candidato diz que ainda falta muito e descreve o tempo de espera na fila do SUS",
+      "o_que_conferir": [
+        "tempo médio ou mediano de espera por cirurgia eletiva e consulta especializada no SUS no início de 2023, em levantamento do Ministério da Saúde, CFM, TCU ou secretarias estaduais",
+        "se dois a três anos é a média ou só casos extremos de algumas especialidades e estados"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 2685.1,
+      "fim_s": 2692.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós encontramos 6 mil obras paralisadas entre creches, hospitais, postos de atendimento médico e escolas.",
+      "citacao_card": "nós encontramos 6 mil obras paralisadas entre creches, hospitais, [...] e escolas",
+      "afirmacao": "No início do governo, em 2023, havia cerca de 6 mil obras paralisadas de creches, hospitais, postos de saúde e escolas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "número de obras paralisadas de educação e saúde financiadas pela União no início de 2023, em levantamento do TCU (painel de obras paralisadas), do FNDE/MEC, do Ministério da Saúde ou do Pacto pela Retomada de Obras",
+        "se o total de cerca de 6 mil se refere só a creches, escolas e unidades de saúde ou inclui outros tipos de obra"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 2726.6,
+      "fim_s": 2732.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "como nós fizemos com a energia elétrica. quem consome até 80 não paga e quem consome até 120 paga apenas uma diferença,",
+      "citacao_card": "quem consome até 80 não paga e quem consome até 120 paga apenas uma diferença",
+      "afirmacao": "Pela regra criada no governo, famílias de baixa renda que consomem até 80 kWh por mês não pagam a conta de luz e quem consome até 120 kWh paga só a diferença",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Considerações finais; o candidato compara uma proposta de transporte com programas já feitos",
+      "o_que_conferir": [
+        "norma da tarifa social de energia elétrica e do desconto social (medida provisória ou lei e resolução da ANEEL) e se ela está em vigor na data da fala",
+        "quais são as faixas de consumo e o público de cada uma (isenção até 80 kWh; o que acontece na faixa até 120 kWh), no texto da norma e na ANEEL"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 2734.6,
+      "fim_s": 2737.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós estamos distribuindo o gás para 17 milhões de pessoas",
+      "afirmacao": "O programa federal de gás de cozinha atende 17 milhões de pessoas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Considerações finais, na comparação com programas já feitos",
+      "o_que_conferir": [
+        "número de beneficiários do programa de gás (Gás do Povo ou Auxílio Gás), Ministério do Desenvolvimento Social ou Ministério de Minas e Energia, no mês da fala",
+        "se o número da fonte é de famílias ou de pessoas, porque a fala diz pessoas"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 2737.7,
+      "fim_s": 2739.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "sabendo que nós pagamos o gás.",
+      "afirmacao": "No programa federal de gás de cozinha, o governo paga o botijão para o beneficiário",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Mesma frase sobre a distribuição de gás",
+      "o_que_conferir": [
+        "regra do programa (lei, decreto ou portaria) sobre quem paga o botijão: recarga gratuita paga pela União à revenda ou auxílio em dinheiro à família",
+        "se a regra está em vigor na data da fala"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 2639.6,
+      "fim_s": 2644.7,
+      "falante": "Lula",
+      "frase": "Esse ano, vamos fazer 16 milhões de cirurgias eletivas.",
+      "motivo": "Previsão para o ano em curso (vamos fazer); o resultado de 2026 ainda não fechou, então não há registro que confirme ou desminta. O número de 2025 entrou como A005."
+    },
+    {
+      "inicio_s": 2665.3,
+      "fim_s": 2671.7,
+      "falante": "Lula",
+      "frase": "que não é fácil você fazer as coisas acontecer em um país que estava destruído como o nosso.",
+      "motivo": "Juízo de valor (país destruído) sem número ou fato específico que se confira; o fato concreto que ele dá logo depois (6 mil obras paralisadas) entrou como A007."
+    },
+    {
+      "inicio_s": 2672.0,
+      "fim_s": 2677.5,
+      "falante": "Lula",
+      "frase": "E eu acho que nós fizemos milagres nesse país. Na área da educação, na área da saúde.",
+      "motivo": "Opinião declarada como opinião (eu acho) e juízo de valor (milagres), sem fato conferível embutido."
+    },
+    {
+      "inicio_s": 2702.9,
+      "fim_s": 2706.1,
+      "falante": "Lula",
+      "frase": "é que eu tenho certeza absoluta que o país está no rumo certo.",
+      "motivo": "Opinião e juízo de valor (rumo certo); não há registro contra o qual conferir."
+    },
+    {
+      "inicio_s": 2706.7,
+      "fim_s": 2709.3,
+      "falante": "Lula",
+      "frase": "Eu tenho certeza que a aprovação da escala 6 por 1.",
+      "motivo": "Frase interrompida, sem predicado: não afirma se a mudança na escala 6 por 1 foi aprovada, por quem ou quando, e completar a frase seria inventar aspas."
+    },
+    {
+      "inicio_s": 2709.6,
+      "fim_s": 2712.2,
+      "falante": "Lula",
+      "frase": "Eu tenho certeza que a política que nós fizemos por meio.",
+      "motivo": "Frase interrompida e com final incerto na transcrição (por meio); não se sabe de que política se trata, e citar palavra incerta num card é o defeito que o projeto combate."
+    },
+    {
+      "inicio_s": 2713.3,
+      "fim_s": 2724.1,
+      "falante": "Lula",
+      "frase": "essa coisa que eu estou pensando de fazer programa de governo, não é? Agora não. De dar transporte gratuito para as pessoas no final de semana, já que vai ter dois dias de descanso,",
+      "motivo": "Promessa e plano de governo (transporte gratuito no fim de semana) e previsão (vai ter dois dias de descanso); não há fato passado ou vigente a conferir."
+    },
+    {
+      "inicio_s": 2750.7,
+      "fim_s": 2753.7,
+      "falante": "Renata Lo Prete",
+      "frase": "Amanhã é a vez de Flávio Bolsonaro do PL.",
+      "motivo": "Transição de encerramento com a programação da própria emissora (a entrevista do outro candidato no dia seguinte), já registrada no CASO.json; não é afirmação em disputa na sabatina."
+    }
+  ]
+}

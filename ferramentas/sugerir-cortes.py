@@ -174,6 +174,8 @@ def main() -> int:
     p.add_argument("--fixar", nargs=2, action="append", default=[], metavar=("INICIO-FIM", "MOTIVO"),
                    help="trecho que o autor quer de qualquer jeito, com o motivo dele")
     p.add_argument("--mostrar", type=int, default=15, help="quantas candidatas listar no relatório")
+    p.add_argument("--caixa", default=None, metavar="X,Y,W,H",
+                   help="caixa declarada no CASO.json (imagem dentro de moldura); vai nos comandos de recorte")
     a = p.parse_args()
     a.recorte = a.recorte or cfg.recorte_da_peca_inteira_do_caso(a.slug)
     if a.max > cfg.CORTE_MAX_S:
@@ -241,7 +243,8 @@ def main() -> int:
             L.append(f"- `{i}` {x['falante']}: \"{x['frase']}\"")
         L += ["", "```bash",
               f"python -m checagem midia {a.slug} recortar {c['id']} --inicio {c['inicio_s']} "
-              f"--duracao {c['duracao_s']} --motivo \"{c['motivo']}\"",
+              f"--duracao {c['duracao_s']} --motivo \"{c['motivo']}\""
+              + (f" --caixa {a.caixa}" if a.caixa else ""),
               f"python ferramentas/derivar-recorte.py {a.slug} --de {a.recorte} --para {c['id']} "
               f"--inicio {c['inicio_s']} --fim {c['fim_s']}",
               "```", ""]

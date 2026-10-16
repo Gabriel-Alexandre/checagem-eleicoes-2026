@@ -1,0 +1,514 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 1600.5,
+    "fim_s": 2082.4
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 1612.6,
+      "fim_s": 1618.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o reajuste do Bolsa Família, o primeiro no seu atual mandato",
+      "afirmacao": "O reajuste do Bolsa Família anunciado em 2026 foi o primeiro do valor do benefício no mandato de Lula iniciado em 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "histórico dos valores do benefício do Bolsa Família (base e adicionais) desde jan/2023, em portarias e decretos do MDS",
+        "se houve alguma correção do valor-base ou dos adicionais entre 2023 e o anúncio de 2026, e como a fonte define 'reajuste'"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 1619.3,
+      "fim_s": 1626.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "por que o principal programa social do governo só foi reajustado 17 dias antes do primeiro turno",
+      "afirmacao": "O reajuste do Bolsa Família foi anunciado 17 dias antes do 1º turno de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "data do anúncio oficial do reajuste do Bolsa Família (Planalto, MDS, Agência Gov)",
+        "data do 1º turno de 2026 no calendário do TSE e a contagem de dias entre as duas"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 1626.6,
+      "fim_s": 1634.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu fiquei sabendo que o Bolsa Família não tinha sido reajustado",
+      "afirmacao": "Até a decisão de 2026, o valor do Bolsa Família não tinha sido reajustado no atual mandato de Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "histórico dos valores do benefício do Bolsa Família desde jan/2023, em portarias e decretos do MDS",
+        "se houve correção anterior de algum componente do benefício (valor-base ou adicionais)"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 1652.2,
+      "fim_s": 1656.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A gente vai dar e vai dar tudo o que a gente não deu",
+      "afirmacao": "O reajuste do Bolsa Família decidido em 2026 repõe toda a perda de valor acumulada desde a última fixação do valor do benefício",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Pergunta sobre o reajuste do Bolsa Família anunciado perto do 1º turno",
+      "o_que_conferir": [
+        "percentual do reajuste anunciado e a data de vigência, no ato oficial do MDS",
+        "inflação acumulada (IPCA, IBGE) desde a última fixação do valor do benefício até o anúncio",
+        "se a reposição vale para o valor-base e para os adicionais ou só para parte deles"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 1663.8,
+      "fim_s": 1671.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No dia 31 de agosto, duas semanas antes do anúncio, o seu governo mandou para o Congresso a proposta de orçamento de 2027",
+      "citacao_card": "No dia 31 de agosto [...] o seu governo mandou para o Congresso a proposta de orçamento de 2027",
+      "afirmacao": "O governo enviou ao Congresso o projeto de lei orçamentária de 2027 em 31 de agosto de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "data de envio do PLOA 2027 ao Congresso (mensagem presidencial, Ministério do Planejamento, página do Congresso)",
+        "intervalo entre o envio e a data do anúncio do reajuste do Bolsa Família"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 1672.1,
+      "fim_s": 1674.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E ali não tinha correção do Bolsa Família",
+      "afirmacao": "O projeto de lei orçamentária de 2027 enviado em 31 de agosto não previa correção do valor do Bolsa Família",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "dotação do Bolsa Família no PLOA 2027 e as premissas de valor do benefício usadas no cálculo",
+        "se a mensagem ou a nota técnica do PLOA 2027 menciona reajuste do benefício"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 1687.9,
+      "fim_s": 1698.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Se tem espaço fiscal para aumentar, por que não aumentaram? [...] tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal",
+      "citacao_card": "Se tem espaço fiscal para aumentar [...] tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal",
+      "afirmacao": "Havia espaço fiscal para reajustar o Bolsa Família dentro das regras fiscais vigentes",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "custo anual estimado do reajuste do Bolsa Família, no ato ou na nota do governo",
+        "margem sob o limite de despesas do arcabouço fiscal (LC 200/2023) e a meta de resultado primário, nos relatórios bimestrais de 2026 e no PLOA 2027",
+        "se o reajuste exigiu corte, bloqueio ou remanejamento de outras despesas"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 1699.1,
+      "fim_s": 1710.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós apresentamos um orçamento com superávit primário. 0,1%",
+      "afirmacao": "A proposta de orçamento de 2027 prevê superávit primário de 0,1% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "meta e resultado primário projetado no PLOA 2027 e na LDO 2027, em % do PIB",
+        "se o 0,1% é a meta do governo central ou o resultado estimado, e se considera as exclusões permitidas"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 1705.8,
+      "fim_s": 1710.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu peguei com um déficit de 2,8%",
+      "afirmacao": "Quando Lula tomou posse, em 2023, o país tinha déficit de 2,8% do PIB",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "resultado primário do governo central e do setor público em 2022 (Tesouro Nacional e Banco Central), em % do PIB",
+        "déficit previsto no orçamento de 2023 aprovado no fim de 2022",
+        "qual medida dá 2,8%: primária, nominal, realizada ou projetada"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 1715.1,
+      "fim_s": 1723.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "tem muita gente séria, instituição fiscal independente, achando que as receitas estão superestimadas para chegar aí nesse superávit",
+      "citacao_card": "instituição fiscal independente, achando que as receitas estão superestimadas",
+      "afirmacao": "A Instituição Fiscal Independente avaliou que as receitas da proposta de orçamento de 2027 estão superestimadas para atingir o superávit previsto",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre o calendário do reajuste do Bolsa Família e a proposta de orçamento de 2027",
+      "o_que_conferir": [
+        "Relatório de Acompanhamento Fiscal ou nota técnica da IFI (Senado) sobre o PLOA 2027, set/out de 2026",
+        "se a IFI fala em receitas superestimadas e em risco à meta de resultado primário"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 1907.8,
+      "fim_s": 1918.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Um estudo recente da Fundação Getúlio Vargas mostra que um em cada quatro brasileiros está contraindo dívida ou sacando de poupança para pagar contas básicas como água, luz e gás",
+      "citacao_card": "Fundação Getúlio Vargas mostra que um em cada quatro brasileiros está contraindo dívida ou sacando de poupança",
+      "afirmacao": "Estudo recente da FGV mostra que um em cada quatro brasileiros contrai dívida ou saca da poupança para pagar contas básicas como água, luz e gás",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "estudo ou sondagem da FGV (FGV Ibre) de 2026 sobre como os consumidores pagam contas básicas",
+        "percentual exato, universo (brasileiros, consumidores, famílias) e data da pesquisa"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 1919.5,
+      "fim_s": 1925.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Em agosto, o senhor deve conhecer bem esse número, eram 84 milhões de pessoas negativadas no Serasa",
+      "citacao_card": "Em agosto [...] eram 84 milhões de pessoas negativadas no Serasa",
+      "afirmacao": "Em agosto de 2026 havia 84 milhões de pessoas inadimplentes registradas no Serasa",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "Mapa da Inadimplência da Serasa, edição de agosto de 2026",
+        "número de pessoas inadimplentes no mês e a definição usada pela Serasa"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 1925.8,
+      "fim_s": 1928.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo já lançou três edições do programa Desenrola",
+      "afirmacao": "O governo Lula lançou três edições do programa Desenrola",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "atos de criação de cada edição do Desenrola (medidas provisórias, leis, portarias) de 2023 a 2026, no Ministério da Fazenda e no Planalto",
+        "se a contagem de três edições é a que o próprio governo usa"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 1934.6,
+      "fim_s": 1938.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas o que acontece é que logo depois a inadimplência volta a subir",
+      "afirmacao": "Depois das edições do Desenrola, a inadimplência voltou a subir",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre endividamento das famílias e os programas Desenrola",
+      "o_que_conferir": [
+        "série mensal de inadimplência de pessoas físicas (Banco Central e Mapa da Inadimplência da Serasa) de 2023 a 2026",
+        "o comportamento da série logo depois do fim de cada edição do Desenrola"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 1950.9,
+      "fim_s": 1957.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando eu tomei posse, nós tínhamos 78% da população endividada",
+      "afirmacao": "Quando Lula tomou posse, em janeiro de 2023, 78% das famílias brasileiras estavam endividadas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "Pesquisa de Endividamento e Inadimplência do Consumidor (Peic/CNC) de dez/2022 e jan/2023",
+        "se o percentual é de famílias ou de população, e o conceito de endividamento usado"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 1958.1,
+      "fim_s": 1963.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós criamos o Desenrola 1. Depois, nós atendemos por volta de 15 milhões de pessoas",
+      "afirmacao": "A primeira edição do Desenrola atendeu cerca de 15 milhões de pessoas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "balanço final do Desenrola Brasil (2023-2024) do Ministério da Fazenda",
+        "se o número é de pessoas atendidas, de pessoas que renegociaram ou de pessoas retiradas do cadastro de negativados"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 1969.2,
+      "fim_s": 1974.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "esse Desenrola 3, nós fizemos uma medida provisória. Ele está na Câmara",
+      "afirmacao": "O Desenrola 3 foi criado por medida provisória que está em tramitação na Câmara dos Deputados",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "número e data da medida provisória do Desenrola 3, no Diário Oficial da União",
+        "situação da tramitação da MP no Congresso na data da sabatina (comissão mista ou plenário da Câmara)"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 1974.0,
+      "fim_s": 2001.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós vamos fazer um leilão da dívida das pessoas [...] A União vai comprar essa dívida",
+      "afirmacao": "A medida provisória do Desenrola 3 prevê um leilão em que a União compra dívidas de pessoas físicas",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "texto da medida provisória do Desenrola 3: mecanismo de leilão e quem compra as dívidas (a União ou um fundo)",
+        "nota do Ministério da Fazenda que descreve o mecanismo"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 1989.7,
+      "fim_s": 1996.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós estamos comprando a dívida de todas as pessoas que devem, acima de dois anos, até R$ 4 mil",
+      "afirmacao": "O Desenrola 3 compra dívidas de pessoas com atraso acima de dois anos e valor de até R$ 4 mil",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "critérios de elegibilidade no texto da MP do Desenrola 3: tempo de atraso, teto de valor por dívida ou por pessoa",
+        "se o critério alcança 'todas as pessoas' ou depende de adesão dos credores ao leilão"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 2007.6,
+      "fim_s": 2009.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Essa dívida existe hoje, R$ 150 bilhões",
+      "afirmacao": "O estoque de dívidas de pessoas físicas elegíveis ao Desenrola 3 soma R$ 150 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "estimativa do Ministério da Fazenda, na exposição de motivos da MP, do estoque de dívidas elegíveis",
+        "dados do Banco Central ou da Serasa sobre dívidas em atraso há mais de dois anos de até R$ 4 mil"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 2018.7,
+      "fim_s": 2022.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós fizemos o perdão do MEI",
+      "afirmacao": "O governo concedeu perdão de dívidas de microempreendedores individuais",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "ato que concedeu o perdão ou a remissão de dívidas do MEI (lei, MP ou portaria da PGFN) e sua data",
+        "se o ato já está em vigor ou ainda é proposta, já que a fala segue com 'eu sugeri que a gente estudasse a possibilidade de anistiar'"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 2022.7,
+      "fim_s": 2027.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós descobrimos que tinha R$ 12,7 bilhões de dívida ativa da União",
+      "afirmacao": "A dívida ativa da União de microempreendedores individuais somava R$ 12,7 bilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "estoque da dívida ativa da União de MEIs na PGFN (painel da dívida ativa ou nota do governo) em 2026",
+        "se o valor é de MEIs só ou de todo o Simples Nacional"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 2032.6,
+      "fim_s": 2038.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "essas pessoas não conseguem fazer novo negócio porque estão no Serasa",
+      "afirmacao": "MEIs com dívida inscrita na dívida ativa da União ficam com o nome negativado no Serasa",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: dívidas de MEI na dívida ativa da União",
+      "o_que_conferir": [
+        "regras da PGFN sobre protesto e envio de inscrições em dívida ativa aos birôs de crédito (Serasa)",
+        "se há convênio da PGFN com a Serasa que inclui dívidas de MEI"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 2073.4,
+      "fim_s": 2078.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Estamos fazendo isso com muita, com muita coisa, sem mexer no espaço fiscal",
+      "afirmacao": "As medidas de renegociação de dívidas do Desenrola 3 não afetam o espaço fiscal do governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre endividamento: Desenrola 3 e compra de dívidas pela União",
+      "o_que_conferir": [
+        "impacto no resultado primário e no limite de despesas indicado na exposição de motivos da MP do Desenrola 3",
+        "fonte dos recursos para comprar as dívidas (fundo, operação financeira ou despesa primária) e o tratamento na meta fiscal"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 1606.7,
+      "fim_s": 1612.2,
+      "falante": "Renata Lo Prete",
+      "frase": "que foram objeto de anúncios do governo neste ano eleitoral, alguns já bem próximos da eleição",
+      "motivo": "Moldura genérica da pergunta, sem anúncio identificado; o anúncio concreto e a data vêm nas frases seguintes, que viraram A001 e A002."
+    },
+    {
+      "inicio_s": 1612.6,
+      "fim_s": 1618.9,
+      "falante": "Renata Lo Prete",
+      "frase": "Eu acho que o de maior alcance talvez tenha sido",
+      "motivo": "Opinião declarada da entrevistadora ('eu acho', 'talvez') sobre qual anúncio teve maior alcance; a parte factual da frase virou A001."
+    },
+    {
+      "inicio_s": 1635.7,
+      "fim_s": 1647.9,
+      "falante": "Lula",
+      "frase": "Eu não sabia, porque é inexplicável, Renata",
+      "motivo": "Afirma o que o candidato sabia ou não sabia: é estado mental próprio, sem registro público contra o qual conferir. O fato de o benefício não ter sido reajustado virou A003."
+    },
+    {
+      "inicio_s": 1677.5,
+      "fim_s": 1681.2,
+      "falante": "Renata Lo Prete",
+      "frase": "Apareceu um espaço fiscal que a equipe econômica não tinha chegado antes?",
+      "motivo": "Pergunta hipotética, sem afirmar fato: levanta uma possibilidade para o candidato responder."
+    },
+    {
+      "inicio_s": 1931.1,
+      "fim_s": 1934.1,
+      "falante": "Renata Lo Prete",
+      "frase": "porque as pessoas e as empresas estão, de fato, encalacradas",
+      "motivo": "Caracterização genérica sem número nem período; os dados concretos da mesma pergunta viraram A011, A012 e A014."
+    },
+    {
+      "inicio_s": 1979.4,
+      "fim_s": 1987.1,
+      "falante": "Lula",
+      "frase": "Nós trabalhamos com a expectativa de que os bancos vão vender a dívida descontando 90%, 92%, 93%",
+      "motivo": "Previsão declarada como expectativa sobre o resultado do leilão, que ainda não aconteceu; não há registro passado contra o qual conferir."
+    },
+    {
+      "inicio_s": 2001.4,
+      "fim_s": 2007.0,
+      "falante": "Lula",
+      "frase": "Nós estamos achando que é possível a gente colocar uns R$ 150 bilhões para comprar essa dívida",
+      "motivo": "Estimativa futura do valor a ser usado na compra ('estamos achando que é possível'); o estoque atual da dívida, afirmado logo depois, virou A020."
+    },
+    {
+      "inicio_s": 2009.8,
+      "fim_s": 2018.0,
+      "falante": "Lula",
+      "frase": "Se a gente compra ela por 5% do valor dela, a gente está fazendo um favor extraordinário",
+      "motivo": "Hipótese condicional ('se a gente compra') seguida de juízo de valor ('favor extraordinário'), sem fato passado a conferir."
+    },
+    {
+      "inicio_s": 2028.4,
+      "fim_s": 2032.2,
+      "falante": "Lula",
+      "frase": "Dívida que a União não vai receber mais",
+      "motivo": "Previsão sobre a recuperação futura da dívida; o estoque citado da dívida ativa de MEI virou A022."
+    },
+    {
+      "inicio_s": 2039.8,
+      "fim_s": 2047.9,
+      "falante": "Lula",
+      "frase": "eu sugeri que a gente estudasse a possibilidade de anistiar essa dívida das pessoas",
+      "motivo": "Relato de sugestão interna do candidato ao governo, sem ato público identificado; o perdão das dívidas de MEI afirmado antes virou A021, cujo o_que_conferir já cobre se é ato ou proposta."
+    },
+    {
+      "inicio_s": 2047.9,
+      "fim_s": 2059.7,
+      "falante": "Lula",
+      "frase": "nós vamos disponibilizar uma espécie de crédito e um aval de R$ 5 mil para essas pessoas que zerarem a sua dívida",
+      "motivo": "Promessa no futuro ('vamos disponibilizar'), sem norma citada que já a preveja; promessa não entra como alegação checável."
+    },
+    {
+      "inicio_s": 2067.0,
+      "fim_s": 2073.0,
+      "falante": "Lula",
+      "frase": "É o jeito que nós encontramos de reativar a economia",
+      "motivo": "Juízo sobre a finalidade e o efeito esperado da medida, sem fato passado a conferir."
+    }
+  ]
+}

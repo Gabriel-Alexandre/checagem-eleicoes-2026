@@ -1,0 +1,636 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": { "inicio_s": 522.0, "fim_s": 1012.7 },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 524.4,
+      "fim_s": 530.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "outra que está no topo das preocupações dos brasileiros, que é a questão da segurança pública",
+      "afirmacao": "A segurança pública está no topo das preocupações dos brasileiros",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Transição da entrevistadora do tema Estados Unidos para o tema segurança pública",
+      "o_que_conferir": [
+        "pesquisas de opinião de 2026 com a pergunta de principal problema do país (Datafolha, Quaest, AtlasIntel, Ipec), posição da segurança pública ou violência na mais recente antes de 15/out/2026",
+        "se 'no topo' corresponde ao 1º lugar ou só a estar entre os primeiros, e se a pergunta é espontânea ou estimulada"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 530.6,
+      "fim_s": 540.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a decisão do governo americano que classificou como organizações terroristas, facções criminosas, entre elas, PCC e Comando Vermelho",
+      "citacao_card": "governo americano que classificou como organizações terroristas, facções criminosas, entre elas, PCC e Comando Vermelho",
+      "afirmacao": "O governo dos Estados Unidos classificou o PCC e o Comando Vermelho como organizações terroristas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a posição do governo brasileiro diante da designação americana das facções",
+      "o_que_conferir": [
+        "ato do Departamento de Estado ou do Tesouro dos EUA publicado no Federal Register designando PCC e Comando Vermelho, com a data",
+        "qual designação foi usada (Foreign Terrorist Organization ou Specially Designated Global Terrorist) e se alcança as duas facções"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 530.6,
+      "fim_s": 547.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu governo é contra a decisão do governo americano [...] É contra por considerar que isso não resolve o problema e ainda abre caminho para a ingerência americana aqui.",
+      "citacao_card": "O seu governo é contra a decisão do governo americano [...] abre caminho para a ingerência americana aqui",
+      "afirmacao": "O governo Lula se opõe à designação americana das facções como terroristas, alegando que ela não resolve o problema e abre caminho para ingerência dos EUA",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "notas oficiais do Itamaraty, do Ministério da Justiça ou declarações do presidente sobre a designação, com data",
+        "se as duas razões citadas (não resolve o problema; abre caminho para ingerência) aparecem nessas manifestações oficiais"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 547.9,
+      "fim_s": 560.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Mas a população é a favor. A população brasileira, uma pesquisa de junho do Datafolha, aponta que dois terços, aproximadamente, concorda total ou parcialmente com essa designação.",
+      "citacao_card": "uma pesquisa de junho do Datafolha, aponta que dois terços, aproximadamente, concorda total ou parcialmente",
+      "afirmacao": "Pesquisa Datafolha de junho apontou que cerca de dois terços dos brasileiros concordam total ou parcialmente com a designação das facções como terroristas",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "relatório Datafolha de junho de 2026 com a pergunta sobre classificar facções como terroristas: soma de 'concorda totalmente' e 'concorda em parte'",
+        "se a pergunta da pesquisa trata da designação pelos EUA ou de classificar facções como terroristas em geral (lei brasileira)"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 574.2,
+      "fim_s": 584.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "quando os Estados Unidos falam em terrorismo, ele fala em terrorismo de Estado. Ele fala em terrorismo como aqueles que atentaram contra as duas torres americanas",
+      "citacao_card": "quando os Estados Unidos falam em terrorismo, ele fala em terrorismo de Estado",
+      "afirmacao": "A classificação de terrorismo usada pelos EUA se refere a terrorismo de Estado e a ataques como os de 11 de setembro, e não a grupos criminosos com fim financeiro",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre por que o governo é contra a designação americana de PCC e Comando Vermelho",
+      "o_que_conferir": [
+        "critérios legais da designação de organização terrorista estrangeira nos EUA (8 U.S.C. §1189 e a Ordem Executiva 13224), em vigor em 2026",
+        "se a lista americana já inclui organizações criminosas de motivação financeira (cartéis, facções) e desde quando"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 608.8,
+      "fim_s": 623.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Nós oferecemos ao presidente Trump uma proposta de combater o crime organizado, combater o narcotráfico, fazendo tudo aquilo que nós já temos feito de experiência com a Polícia Federal brasileira, levamos por escrito para ele",
+      "citacao_card": "Nós oferecemos ao presidente Trump uma proposta de combater o crime organizado [...] levamos por escrito para ele",
+      "afirmacao": "O governo brasileiro entregou por escrito ao presidente Trump uma proposta de cooperação no combate ao crime organizado e ao narcotráfico",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre a designação americana de PCC e Comando Vermelho como organizações terroristas",
+      "o_que_conferir": [
+        "registro do Planalto, do Itamaraty ou do Ministério da Justiça de proposta escrita entregue ao governo Trump sobre crime organizado e narcotráfico, com data e ocasião",
+        "confirmação do lado americano (Casa Branca, Departamento de Estado) ou de cobertura jornalística do encontro"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 623.4,
+      "fim_s": 629.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "nós criamos, aprovamos a lei contra a lei anti-facção, que aumenta a pena dos bandidos.",
+      "afirmacao": "O governo Lula propôs e conseguiu aprovar a lei antifacção, que aumenta as penas para integrantes de facções",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o que o governo faz contra o crime organizado",
+      "o_que_conferir": [
+        "tramitação do projeto de lei antifacção na Câmara e no Senado: autor (Executivo ou parlamentar), data de aprovação e de sanção, número da lei",
+        "texto da lei sancionada: se aumenta penas e para quais crimes, em comparação com a legislação anterior"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 631.3,
+      "fim_s": 636.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a Constituição brasileira nunca permitiu que a União se metesse na segurança pública, é a questão do Estado.",
+      "afirmacao": "A Constituição atribui a segurança pública aos estados e não dá à União papel nela",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o combate ao crime organizado e a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "artigo 144 da Constituição de 1988 e as competências que ele dá à União (Polícia Federal, Polícia Rodoviária Federal, Polícia Penal federal) e aos estados",
+        "se alguma emenda anterior a 15/out/2026 já alterou a divisão de competências na segurança pública"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 636.8,
+      "fim_s": 639.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu agora quero me meter, por isso que nós mandamos a PEC.",
+      "afirmacao": "O governo Lula enviou ao Congresso uma PEC da Segurança Pública",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre o papel da União na segurança pública",
+      "o_que_conferir": [
+        "registro da PEC da Segurança Pública na Câmara: autor (Poder Executivo), número e data de envio"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 672.6,
+      "fim_s": 687.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E eu cito aqui um dado do Fórum Brasileiro de Segurança Pública. Quase 80% dos brasileiros têm medo de serem roubados na rua, principalmente celular, inclusive a mão armada. Medo também de serem mortos em assalto ou de serem vítimas de golpe digital.",
+      "citacao_card": "um dado do Fórum Brasileiro de Segurança Pública. Quase 80% dos brasileiros têm medo de serem roubados na rua",
+      "afirmacao": "Segundo o Fórum Brasileiro de Segurança Pública, quase 80% dos brasileiros têm medo de ser roubados na rua, e há medo também de ser morto em assalto e de golpe digital",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o que o governo faria contra a violência como ela é sentida no cotidiano",
+      "o_que_conferir": [
+        "a pesquisa de percepção de medo publicada pelo Fórum Brasileiro de Segurança Pública mais recente antes de 15/out/2026: o percentual com medo de roubo na rua (celular, à mão armada)",
+        "se a mesma pesquisa traz os itens medo de ser morto em assalto e medo de golpe digital"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 688.7,
+      "fim_s": 695.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor tem falado bastante na importância de atacar o que o senhor chama de andar de cima do crime, de asfixiar financeiramente as facções.",
+      "citacao_card": "O senhor tem falado bastante na importância de atacar o que o senhor chama de andar de cima do crime",
+      "afirmacao": "Lula tem falado com frequência em atacar o 'andar de cima do crime' e asfixiar financeiramente as facções",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o que o governo faria contra a violência como ela é sentida no cotidiano",
+      "o_que_conferir": [
+        "discursos e entrevistas de Lula em 2025 e 2026 com a expressão 'andar de cima do crime' ou equivalente sobre asfixia financeira das facções (biblioteca da Presidência, cobertura jornalística)"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 757.7,
+      "fim_s": 764.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "de dono de rua, de pessoas que interferem na compra de gás, que interferem no recebimento do Bolsa Família.",
+      "afirmacao": "Grupos criminosos que dominam territórios interferem na venda de gás de cozinha e no recebimento do Bolsa Família pelos moradores",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre libertar territórios dominados pelo crime organizado",
+      "o_que_conferir": [
+        "investigações policiais, do Ministério Público ou relatórios (Fórum Brasileiro de Segurança Pública, Geni/UFF) sobre controle da venda de gás por facções e milícias",
+        "registros do Ministério do Desenvolvimento Social ou de investigações sobre interferência de grupos criminosos no Bolsa Família (cobrança, cadastro, saque)"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 774.3,
+      "fim_s": 780.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "ela reorganiza o papel de cada um nesse assunto, ampliando o raio de ação do governo federal.",
+      "afirmacao": "A PEC da Segurança Pública reorganiza as competências na segurança pública e amplia a atuação do governo federal",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "texto da PEC da Segurança Pública na versão em discussão no Senado em out/2026: dispositivos que dão novas competências à União (diretrizes nacionais, Polícia Federal, PRF)"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 783.4,
+      "fim_s": 790.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Foi discutida hoje, inclusive, enquanto a gente está conversando aqui e ainda está pendente de votação no Senado.",
+      "afirmacao": "A PEC da Segurança Pública foi discutida no Senado em 15/out/2026 e ainda não tinha sido votada pela Casa",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a PEC da Segurança Pública",
+      "o_que_conferir": [
+        "página de tramitação da PEC no Senado: sessão ou reunião de comissão em 15/out/2026 e situação da votação nessa data",
+        "se a pendência é na CCJ ou no plenário do Senado"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 795.3,
+      "fim_s": 805.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu ex-ministro da Educação, o senador Camilo Santana, apareceu com a ideia de redução da maioridade penal de 18 para 16 anos, no caso de crimes hediondos.",
+      "citacao_card": "o senador Camilo Santana, apareceu com a ideia de redução da maioridade penal de 18 para 16 anos",
+      "afirmacao": "O senador Camilo Santana, ex-ministro da Educação de Lula, propôs reduzir a maioridade penal de 18 para 16 anos em crimes hediondos",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a discussão da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "emenda ou proposta apresentada por Camilo Santana no Senado sobre maioridade penal em out/2026: idade, alcance (crimes hediondos) e data",
+        "se Camilo Santana estava no exercício do mandato de senador nessa data e o período em que foi ministro da Educação"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 806.2,
+      "fim_s": 811.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Essa ideia, ela causou oposição em parte da bancada do PT no Senado",
+      "afirmacao": "A proposta de Camilo Santana sobre maioridade penal enfrentou oposição de parte da bancada do PT no Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a proposta de redução da maioridade penal de Camilo Santana",
+      "o_que_conferir": [
+        "declarações públicas de senadores do PT contra a proposta, ou registro de votação ou orientação da bancada, em out/2026"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 811.5,
+      "fim_s": 814.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "historicamente, o PT foi contra a redução da maioridade penal.",
+      "afirmacao": "O PT historicamente se posicionou contra a redução da maioridade penal",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a proposta de redução da maioridade penal de Camilo Santana",
+      "o_que_conferir": [
+        "orientação e votos da bancada do PT na PEC 171/1993 na Câmara (2015) e em outras votações sobre maioridade penal",
+        "resoluções ou documentos partidários do PT sobre o tema"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 835.9,
+      "fim_s": 838.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Era que a PEC não estava discutindo isso.",
+      "afirmacao": "O texto da PEC da Segurança Pública não tratava de maioridade penal",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre a proposta de redução da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "texto da PEC enviado pelo Executivo e texto aprovado na Câmara: se algum dispositivo trata de maioridade penal",
+        "se a maioridade penal entrou só por emenda no Senado"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 838.9,
+      "fim_s": 847.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "A direita do PL tentou apresentar uma proposta reduzindo para 14 anos. E aí, o Camilo apresentou a proposta para 16.",
+      "citacao_card": "A direita do PL tentou apresentar uma proposta reduzindo para 14 anos",
+      "afirmacao": "Parlamentares do PL tentaram incluir na PEC a redução da maioridade penal para 14 anos, e a proposta de Camilo Santana para 16 veio depois",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre a proposta de redução da maioridade penal na PEC da Segurança Pública",
+      "o_que_conferir": [
+        "emendas apresentadas à PEC no Senado sobre maioridade penal: autor, partido, idade proposta e data de cada uma",
+        "a ordem cronológica entre a emenda do PL (14 anos) e a proposta de Camilo Santana (16 anos)"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 889.8,
+      "fim_s": 894.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E essas dificuldades, eu lembro, somadas à tentativa de golpe na transição",
+      "afirmacao": "Houve uma tentativa de golpe de Estado na transição de governo de 2022 para 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o uso do STF pelo governo e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "julgamento do STF na ação penal da trama golpista (núcleo central), com data e tipificação dos crimes",
+        "relatório da Polícia Federal e denúncia da PGR sobre a tentativa de golpe"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 895.4,
+      "fim_s": 899.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "fizeram com que o senhor se valesse bastante do Supremo neste seu terceiro mandato",
+      "afirmacao": "O governo Lula recorreu com frequência ao STF no terceiro mandato",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o uso do STF pelo governo e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "número de ações de controle concentrado (ADI, ADC, ADPF) ajuizadas pela Presidência ou pela AGU no STF de 2023 a 2026, comparado com os governos anteriores",
+        "casos em que o governo levou ao STF disputas com o Congresso (emendas, desoneração, IOF)"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 900.0,
+      "fim_s": 915.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Supremo que está às voltas agora [...] por causa do caso Master. [...] as suspeitas que pairam sobre vários ministros.",
+      "citacao_card": "Supremo que está às voltas agora [...] por causa do caso Master",
+      "afirmacao": "O STF enfrenta uma crise ligada ao caso Banco Master, com suspeitas envolvendo vários de seus ministros",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a relação do governo com o STF e a crise do tribunal",
+      "o_que_conferir": [
+        "investigações e reportagens sobre ligações de ministros do STF com o Banco Master e Daniel Vorcaro: quantos ministros, quais suspeitas e se há procedimento formal",
+        "pesquisas de confiança no STF em 2026, para situar a crise"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 909.4,
+      "fim_s": 923.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "demorou a comentar mais com clareza as suspeitas que pairam sobre vários ministros. E só agora, depois do primeiro turno, o senhor usou uma palavra mais dura, promiscuidade, para se referir ao que acontece no tribunal.",
+      "citacao_card": "só agora, depois do primeiro turno, o senhor usou uma palavra mais dura, promiscuidade",
+      "afirmacao": "Lula só usou a palavra 'promiscuidade' para se referir ao que acontece no STF depois do primeiro turno, e antes evitou comentar com clareza as suspeitas sobre ministros",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a relação do governo com o STF e a crise do tribunal com o caso Master",
+      "o_que_conferir": [
+        "data e ocasião em que Lula usou a palavra 'promiscuidade' sobre o STF (entrevista, discurso), e se é posterior à data do primeiro turno",
+        "declarações anteriores de Lula sobre as suspeitas envolvendo ministros do STF no caso Master"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 940.4,
+      "fim_s": 946.1,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eles querem caçar o Alexandre de Moraes, não é por conta do Banco Master apenas",
+      "afirmacao": "Setores da direita buscam a cassação ou o impeachment do ministro Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "pedidos de impeachment contra Alexandre de Moraes protocolados no Senado: autores, partidos e datas, incluindo os que citam o Banco Master",
+        "declarações de lideranças da oposição pedindo o afastamento de Moraes em 2026"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 946.6,
+      "fim_s": 950.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o Alexandre de Moraes prendeu o pai do Flávio Bolsonaro.",
+      "afirmacao": "Alexandre de Moraes determinou a prisão de Jair Bolsonaro, pai de Flávio Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "decisões de Alexandre de Moraes que determinaram prisão (domiciliar, preventiva ou para cumprimento de pena) de Jair Bolsonaro, com datas",
+        "se a ordem foi decisão individual do relator ou da Primeira Turma"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 954.6,
+      "fim_s": 970.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E hoje a Política Federal esteve no Rio de Janeiro interferindo numa das pessoas importantes do clã do Bolsonaro, o Canelas, que foi preso",
+      "citacao_card": "hoje a Política Federal esteve no Rio de Janeiro [...] o Canelas, que foi preso",
+      "afirmacao": "A Polícia Federal fez operação no Rio de Janeiro em 15/out/2026 que prendeu uma pessoa conhecida como Canelas, ligada à família Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "nota da Polícia Federal sobre operação no Rio de Janeiro em 15/out/2026: alvos, mandados e se houve prisão",
+        "quem é 'Canelas' (nome completo, cargo ou candidatura) e qual o vínculo com a família Bolsonaro"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 962.0,
+      "fim_s": 970.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e que a mãe do Flávio ia ser suplente dele no Senado.",
+      "afirmacao": "A mãe de Flávio Bolsonaro seria suplente na candidatura ao Senado da pessoa conhecida como Canelas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre se a crise do STF afetou seu desempenho no primeiro turno",
+      "o_que_conferir": [
+        "registro de candidatura no TSE (DivulgaCand 2026) da chapa ao Senado de 'Canelas': titular e suplentes",
+        "se a suplência foi registrada ou só anunciada, e se a pessoa citada é a mãe de Flávio Bolsonaro"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 982.2,
+      "fim_s": 986.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor tem defendido mesmo que se apurem todas as responsabilidades.",
+      "afirmacao": "Lula tem defendido publicamente que se apurem todas as responsabilidades no caso Master",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta complementar sobre o STF, Alexandre de Moraes e o caso Master",
+      "o_que_conferir": [
+        "declarações de Lula sobre o caso Master pedindo apuração, com datas e fontes (Presidência, entrevistas)"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 992.7,
+      "fim_s": 999.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "um ministro como Flávio Dino, que foi indicado pelo senhor",
+      "afirmacao": "Flávio Dino foi indicado ao STF por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o pedido de vista de Flávio Dino num processo que envolve Alexandre de Moraes",
+      "o_que_conferir": [
+        "mensagem presidencial de indicação de Flávio Dino ao STF e a data da aprovação no Senado"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 999.7,
+      "fim_s": 1006.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "chega lá e faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes",
+      "citacao_card": "faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes",
+      "afirmacao": "Flávio Dino fez um pedido de vista que impediu a abertura de uma investigação sobre a conduta de Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta feita em forma condicional ('se de repente'), mas descrevendo um episódio: o pedido de vista de Dino",
+      "o_que_conferir": [
+        "processo no STF (número, órgão julgador e data) em que Flávio Dino pediu vista, e o que estava sendo julgado (abertura de investigação, arquivamento, suspeição)",
+        "efeito do pedido de vista pelo regimento: se suspende o julgamento por prazo definido ou impede a investigação"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 1007.1,
+      "fim_s": 1012.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que de fato, candidato, é o ministro até aqui mais implicado com o Daniel Vorcaro.",
+      "afirmacao": "Alexandre de Moraes é, até agora, o ministro do STF mais implicado com Daniel Vorcaro",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o pedido de vista de Flávio Dino num processo que envolve Alexandre de Moraes",
+      "o_que_conferir": [
+        "o que as investigações e reportagens registram sobre a relação de cada ministro do STF com Daniel Vorcaro e o Banco Master até 15/out/2026 (contratos, mensagens, encontros)",
+        "qual critério sustenta 'mais implicado': número de menções, existência de contrato ou pedido formal de investigação"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 586.0,
+      "fim_s": 590.5,
+      "falante": "Lula",
+      "frase": "Não é o caso da facção de do crime organizado no Brasil, que ele só quer o dinheiro.",
+      "motivo": "Caracterização da motivação das facções (só querem dinheiro): juízo sobre intenção de terceiros, sem registro que confirme ou desminta. A parte checável da fala (o critério americano de terrorismo) entrou como A005."
+    },
+    {
+      "inicio_s": 595.4,
+      "fim_s": 602.4,
+      "falante": "Lula",
+      "frase": "tanto o PCC e o Comando Vermelho são terroristas para a comunidade brasileira",
+      "motivo": "Juízo de valor sobre como as facções são vistas pela comunidade, sem dado declarado contra o qual conferir."
+    },
+    {
+      "inicio_s": 661.3,
+      "fim_s": 664.2,
+      "falante": "Lula",
+      "frase": "porque os Estados não tiveram competência de fazer.",
+      "motivo": "Juízo sobre o desempenho dos estados na segurança pública (não tiveram competência), sem métrica declarada."
+    },
+    {
+      "inicio_s": 711.3,
+      "fim_s": 722.3,
+      "falante": "Lula",
+      "frase": "eu vou criar o Ministério da Segurança Pública",
+      "motivo": "Promessa condicionada à aprovação da PEC (criar ministério, definir orçamento e papéis das polícias): futuro, não fato."
+    },
+    {
+      "inicio_s": 725.6,
+      "fim_s": 731.3,
+      "falante": "Lula",
+      "frase": "Nós vamos financiar 138 presídios em todo o território nacional.",
+      "motivo": "Promessa no futuro (vamos financiar). O número 138 é de um plano anunciado, não de algo feito; fica registrado aqui para o passo 5 não perder o número se ele aparecer como fato em outra fala."
+    },
+    {
+      "inicio_s": 822.6,
+      "fim_s": 828.4,
+      "falante": "Lula",
+      "frase": "todo e qualquer crime hediondo, eu estou favorável a diminuir a penalidade.",
+      "motivo": "Posição pessoal declarada como opinião ('meu pensamento, enquanto cidadão'), não afirmação sobre o mundo."
+    },
+    {
+      "inicio_s": 851.8,
+      "fim_s": 856.7,
+      "falante": "Lula",
+      "frase": "Eu sou favorável a reduzir para 16, mas não discutindo nessa PEC.",
+      "motivo": "Posição pessoal sobre a redução da maioridade penal e sobre onde discuti-la: opinião, não fato. O fato sobre o conteúdo da PEC entrou como A018."
+    },
+    {
+      "inicio_s": 866.9,
+      "fim_s": 875.7,
+      "falante": "Lula",
+      "frase": "Eu acho que a sociedade brasileira inteira, sabe, é favorável à punição de qualquer crime hediondo.",
+      "motivo": "Opinião declarada como opinião ('eu acho') sobre o que a sociedade pensa, sem pesquisa citada."
+    },
+    {
+      "inicio_s": 900.0,
+      "fim_s": 903.6,
+      "falante": "Renata Lo Prete",
+      "frase": "com a maior crise de reputação da sua história",
+      "motivo": "Superlativo sem métrica declarada (maior crise de reputação da história): juízo. O fato embutido, a crise do STF ligada ao caso Master, entrou como A022."
+    },
+    {
+      "inicio_s": 935.1,
+      "fim_s": 940.4,
+      "falante": "Lula",
+      "frase": "a extrema-direita tenta jogar a Suprema Corte nas minhas costas",
+      "motivo": "Juízo sobre a intenção de adversários, sem registro que confirme ou desminta."
+    },
+    {
+      "inicio_s": 946.6,
+      "fim_s": 950.7,
+      "falante": "Lula",
+      "frase": "eles querem caçar o Alexandre de Moraes, porque o Alexandre de Moraes prendeu o pai do Flávio Bolsonaro.",
+      "motivo": "O nexo causal (querem afastar Moraes porque ele prendeu Bolsonaro) é juízo sobre motivação de terceiros. Os dois fatos embutidos entraram separados: A024 (os pedidos de afastamento) e A025 (a prisão)."
+    },
+    {
+      "inicio_s": 954.6,
+      "fim_s": 962.0,
+      "falante": "Lula",
+      "frase": "numa das pessoas importantes do clã do Bolsonaro",
+      "motivo": "Caracterização (pessoa importante do clã) sem critério verificável; o vínculo concreto com a família Bolsonaro está no o_que_conferir de A026 e em A027."
+    },
+    {
+      "inicio_s": 992.7,
+      "fim_s": 999.2,
+      "falante": "Renata Lo Prete",
+      "frase": "é seu aliado histórico",
+      "motivo": "Caracterização da relação política (aliado histórico) sem critério único; o fato verificável, a indicação de Dino ao STF por Lula, entrou como A029."
+    }
+  ]
+}

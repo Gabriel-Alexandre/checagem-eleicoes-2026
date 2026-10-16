@@ -1,0 +1,907 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 1012.7,
+    "fim_s": 1600.5
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o Toffoli também está implicado",
+      "afirmacao": "O ministro do STF Dias Toffoli está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem Dias Toffoli em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "o André Mendonça também está implicado",
+      "afirmacao": "O ministro do STF André Mendonça está implicado no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "inquéritos, decisões ou reportagens com documento que citem André Mendonça em relação ao Banco Master ou a Daniel Vorcaro, publicados até 15/out/2026",
+        "o que 'implicado' quer dizer na fonte: investigado formalmente, citado em mensagens ou em relação relatada pela imprensa"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 1020.6,
+      "fim_s": 1023.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "e o Castro está implicado",
+      "afirmacao": "Uma pessoa de sobrenome Castro está implicada no caso do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "identificar a quem a fala se refere: o trecho diz só 'o Castro', sem nome completo nem cargo",
+        "registros de investigação ou reportagens com documento que liguem essa pessoa ao Banco Master ou a Daniel Vorcaro"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 1028.5,
+      "fim_s": 1032.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu não tenho como interferir na decisão de um ministro da Suprema Corte.",
+      "afirmacao": "O presidente da República não tem instrumento legal para interferir na decisão de um ministro do STF",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "Constituição Federal: separação dos Poderes e garantias da magistratura",
+        "se existe algum instrumento do Executivo capaz de alterar ou suspender decisão de ministro do STF"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 1033.2,
+      "fim_s": 1036.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eles pedem vista quando querem pedir vista e não pedem vista.",
+      "afirmacao": "O pedido de vista no STF é prerrogativa de cada ministro, que pede quando quer",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "regras do pedido de vista no Regimento Interno do STF, na versão vigente em out/2026",
+        "se há requisito, prazo ou devolução automática que limite o pedido"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 1036.1,
+      "fim_s": 1040.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Por que o Flávio Dino pediu vista? Porque o Flávio Dino queria que todos fossem jogados na mesma sessão.",
+      "afirmacao": "Flávio Dino pediu vista para que todos os casos fossem julgados na mesma sessão",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "a justificativa registrada por Flávio Dino no pedido de vista (despacho, voto ou declaração pública dele)",
+        "se os outros casos a que a fala se refere estavam pautados ou tramitavam no mesmo colegiado"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 1054.6,
+      "fim_s": 1056.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Todo dia se pede vista alguma coisa lá.",
+      "afirmacao": "No STF há pedido de vista todos os dias",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "estatística oficial de pedidos de vista no STF (Corte Aberta ou relatório de atividades) em 2025 e 2026",
+        "média de pedidos por dia útil e por sessão"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 1057.6,
+      "fim_s": 1075.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "eu vou dizer o que eu já disse na outra entrevista que eu fiz aqui, que eu disse o seguinte, não é possível imaginar que a sociedade brasileira vai aceitar que não seja apurado tudo",
+      "citacao_card": "eu vou dizer o que eu já disse na outra entrevista [...] não é possível imaginar que a sociedade brasileira vai aceitar que não seja apurado tudo",
+      "afirmacao": "Na entrevista anterior à TV Globo, Lula disse que a sociedade não aceitaria que o caso não fosse todo apurado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Renata Lo Prete perguntou sobre o pedido de vista de Flávio Dino que impediu investigação sobre a conduta de Alexandre de Moraes, apontado por ela como o ministro mais implicado com Daniel Vorcaro.",
+      "o_que_conferir": [
+        "transcrição da sabatina de Lula na TV Globo de 27/ago/2026 (caso 2026-08-27-sabatina-lula-globo deste repositório)",
+        "se houve outra entrevista dele na Globo antes desta e se o trecho sobre apuração existe nela e de que assunto tratava"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 1089.7,
+      "fim_s": 1098.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "a gente vai ter que discutir a necessidade de uma reforma do Poder Judiciário, que, aliás, a primeira foi eu que fiz.",
+      "citacao_card": "uma reforma do Poder Judiciário, que, aliás, a primeira foi eu que fiz",
+      "afirmacao": "A primeira reforma do Poder Judiciário foi feita no governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "a emenda constitucional da Reforma do Judiciário: data de promulgação e governo em que tramitou",
+        "se houve reforma do Judiciário anterior que a fonte reconheça como tal"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 1099.1,
+      "fim_s": 1105.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu, o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça, nós fizemos a primeira reforma.",
+      "citacao_card": "o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça",
+      "afirmacao": "Quando a reforma do Judiciário foi feita, Nelson Jobim presidia o STF e Márcio Thomaz Bastos era ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "período de Nelson Jobim na presidência do STF e de Márcio Thomaz Bastos no Ministério da Justiça",
+        "data de promulgação da emenda da Reforma do Judiciário, para ver se cai dentro dos dois períodos"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 1146.4,
+      "fim_s": 1154.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "não é possível que apareça na Suprema Corte tantas e tantas denúncias, tantas coisas de orgia, de mulher, de dinheiro.",
+      "citacao_card": "apareça na Suprema Corte tantas e tantas denúncias, tantas coisas de orgia, de mulher, de dinheiro",
+      "afirmacao": "Surgiram denúncias envolvendo o STF que relatam festas com mulheres e dinheiro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "reportagens ou documentos de investigação publicados até 15/out/2026 que relatem festas, mulheres e pagamentos envolvendo ministros do STF",
+        "separar denúncia formal (inquérito, representação, delação) de relato da imprensa"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 1160.2,
+      "fim_s": 1170.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E que eu já conversei três vezes com o presidente Fachin, dizendo que é importante que ele, enquanto for presidente, faça a apuração que tiver que fazer e que julgue.",
+      "citacao_card": "eu já conversei três vezes com o presidente Fachin",
+      "afirmacao": "Lula conversou três vezes com o presidente do STF, Edson Fachin, pedindo apuração e julgamento",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, ainda sobre o STF e o caso Master, falou da necessidade de uma reforma do Poder Judiciário.",
+      "o_que_conferir": [
+        "agenda oficial da Presidência e do STF com encontros entre Lula e Fachin desde que Fachin assumiu a presidência do tribunal",
+        "relatos públicos do conteúdo desses encontros; confirmar que Fachin é o presidente do STF na data da fala"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 1195.6,
+      "fim_s": 1200.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Muitos dos seus adversários apontam uma proximidade grande dele com o senhor,",
+      "afirmacao": "Adversários de Lula apontam proximidade entre ele e o diretor-geral da PF, Andrei Rodrigues",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declarações públicas de adversários de Lula (parlamentares, candidatos, partidos) apontando essa proximidade",
+        "o histórico que essas declarações citam como prova da proximidade"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 1205.3,
+      "fim_s": 1208.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ele esteve numa festa do Daniel Vorcaro em Londres,",
+      "afirmacao": "Andrei Rodrigues esteve numa festa de Daniel Vorcaro em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "reportagens com registro da presença do diretor-geral da PF em evento de Vorcaro em Londres, e a data do evento",
+        "nota oficial da PF ou do próprio Andrei Rodrigues sobre a viagem"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 1208.9,
+      "fim_s": 1213.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "quando o Banco Central já apurava irregularidades no Master",
+      "afirmacao": "Na data da festa em Londres, o Banco Central já apurava irregularidades no Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "data de abertura dos procedimentos de supervisão ou apuração do Banco Central sobre o Banco Master",
+        "comparar com a data da festa em Londres"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 1213.3,
+      "fim_s": 1217.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e já havia inquérito na PF de São Paulo sobre o Master.",
+      "afirmacao": "Na data da festa em Londres, já havia inquérito da PF em São Paulo sobre o Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "data de instauração do inquérito da Polícia Federal em São Paulo sobre o Banco Master",
+        "comparar com a data da festa em Londres"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 1223.4,
+      "fim_s": 1225.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Primeiro, ele não é ligado a mim.",
+      "afirmacao": "Andrei Rodrigues não tem vínculo pessoal ou político com Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "histórico profissional de Andrei Rodrigues antes da nomeação: cargos ou funções exercidos junto a Lula, em campanha ou no governo",
+        "o que a fonte entende por vínculo, para não comparar coisas diferentes"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 1226.1,
+      "fim_s": 1229.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Ele é o diretor-geral da Polícia Federal que eu escolhi.",
+      "afirmacao": "Andrei Rodrigues é o diretor-geral da Polícia Federal e foi escolhido por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "ato de nomeação do diretor-geral da PF no Diário Oficial da União: data e quem assinou",
+        "se ele continua no cargo na data da fala"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 1233.4,
+      "fim_s": 1240.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E quando eu fiquei sabendo que ele tinha ido a Londres, eu chamei ele a atenção",
+      "afirmacao": "Lula repreendeu Andrei Rodrigues por ter ido à festa em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declarações anteriores de Lula, nota do Planalto ou reportagem com fonte identificada sobre a repreensão",
+        "quando a repreensão teria ocorrido em relação à data em que a viagem se tornou pública"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 1257.7,
+      "fim_s": 1262.6,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "ele sabe que eu o reprendi, ele alertei o ministro da Justiça.",
+      "afirmacao": "Lula alertou o ministro da Justiça sobre a ida do diretor-geral da PF à festa em Londres",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o diretor-geral da Polícia Federal, Andrei Rodrigues, e se ele seria mantido no cargo num novo mandato.",
+      "o_que_conferir": [
+        "declaração pública do ministro da Justiça ou do Planalto sobre o alerta",
+        "quem era o ministro da Justiça na data do alerta"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 1305.7,
+      "fim_s": 1311.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "para lembrar do momento em que o senhor recebeu o Vorcaro no Palácio do Planalto. Era dezembro de 2024.",
+      "afirmacao": "Lula recebeu Daniel Vorcaro no Palácio do Planalto em dezembro de 2024",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "agenda oficial do presidente em dezembro de 2024",
+        "reportagens com a data do encontro e se ele constou ou não da agenda pública"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 1311.4,
+      "fim_s": 1316.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ele foi levado ao senhor pelo seu ex-ministro da Fazenda, Guido Mântega,",
+      "afirmacao": "Daniel Vorcaro foi levado a Lula por Guido Mantega",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "relatos do encontro que indiquem quem o intermediou e quem estava presente",
+        "registro de entrada no Planalto, se divulgado"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 1311.4,
+      "fim_s": 1317.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Guido Mântega, que naquela altura trabalhava para o máster.",
+      "afirmacao": "Em dezembro de 2024, Guido Mantega trabalhava para o Banco Master",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "contrato ou vínculo de Guido Mantega com o Banco Master e o período dele (início e fim)",
+        "comparar com a data do encontro no Planalto"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 1318.2,
+      "fim_s": 1323.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Vorcaro já era alvo naquela ocasião, como eu disse, de procedimentos formais no Banco Central",
+      "afirmacao": "Em dezembro de 2024, Vorcaro já era alvo de procedimentos formais no Banco Central",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "procedimentos de supervisão ou administrativos do Banco Central contra o Banco Master ou Vorcaro abertos antes de dezembro de 2024",
+        "o que a fonte chama de procedimento formal, para não confundir com acompanhamento de rotina"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 1323.7,
+      "fim_s": 1329.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e também naquele mesmo ano de um inquérito da Polícia Federal. Ocorria em São Paulo esse inquérito.",
+      "afirmacao": "Em 2024, Vorcaro era alvo de um inquérito da Polícia Federal em São Paulo",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "data de instauração do inquérito da PF em São Paulo e se Vorcaro era investigado nele",
+        "comparar com a data do encontro no Planalto"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 1346.0,
+      "fim_s": 1351.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha que o Silvio Santos fez quando o Banco Pan-Americano deu problema? Foi me procurar.",
+      "afirmacao": "Silvio Santos procurou Lula quando o Banco PanAmericano teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "agenda presidencial e reportagens da época da crise do PanAmericano sobre encontro de Silvio Santos com Lula"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 1352.0,
+      "fim_s": 1354.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha que o Banco de Santos fez? Foi me procurar.",
+      "afirmacao": "O controlador do Banco Santos procurou Lula quando o banco teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "quem controlava o Banco Santos e se procurou Lula antes da intervenção do Banco Central",
+        "agenda presidencial e reportagens da época"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 1355.1,
+      "fim_s": 1358.7,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O que você acha do Banco da Igreja de Macedo fez? Foi me procurar.",
+      "afirmacao": "Um banco ligado à igreja de Edir Macedo procurou Lula quando teve problemas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "identificar a instituição a que a fala se refere (banco ligado a Edir Macedo ou à igreja dele)",
+        "registro de encontro de representantes desse banco com Lula quando o banco teve problemas"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 1378.2,
+      "fim_s": 1384.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E foi assim que o Galipo se posicionou",
+      "afirmacao": "Gabriel Galípolo se posicionou dizendo que o Banco Central trataria o caso Master de forma técnica, sem critério político",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "declarações públicas do presidente do Banco Central, Gabriel Galípolo, sobre o caso Master",
+        "se ele defendeu critério técnico e não político, e quando"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 1378.2,
+      "fim_s": 1387.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "foi assim que eu pedi para ele comunicar ao Procurador-Geral da República",
+      "afirmacao": "Lula pediu a Galípolo que comunicasse o caso Master ao Procurador-Geral da República",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "comunicação formal do Banco Central ao MPF ou à PGR sobre o Banco Master, e a data",
+        "registro público de que a comunicação foi a pedido do presidente"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 1384.4,
+      "fim_s": 1387.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "foi assim que o Haddad se posicionou.",
+      "afirmacao": "Fernando Haddad se posicionou dizendo que o caso Master seria tratado de forma técnica, sem critério político",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "declarações públicas de Fernando Haddad sobre o Banco Master e a atuação do Banco Central",
+        "se ele defendeu critério técnico e não político, e quando"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 1390.3,
+      "fim_s": 1396.0,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "O cidadão me procurou, porque eu estou me perseguindo politicamente. Até disse o nome das pessoas que estavam perseguindo.",
+      "afirmacao": "No encontro, Vorcaro disse a Lula que estava sendo perseguido politicamente e nomeou quem o perseguia",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "relatos públicos do conteúdo do encontro: declarações de participantes, de Vorcaro, ou depoimentos em inquérito",
+        "se existe registro além da palavra do próprio Lula"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 1399.5,
+      "fim_s": 1402.4,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "E um mês depois o banco fechou, porque ele estava errado.",
+      "afirmacao": "O Banco Master foi fechado cerca de um mês depois do encontro de Vorcaro com Lula",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o encontro de Lula com Daniel Vorcaro no Palácio do Planalto e se a PF deveria tê-lo avisado do que havia contra Vorcaro.",
+      "o_que_conferir": [
+        "data do ato do Banco Central que fechou (liquidou) o Banco Master",
+        "comparar com a data do encontro no Planalto e ler o fundamento declarado no ato"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 1419.6,
+      "fim_s": 1429.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eu falo de Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado do Daniel Vorcaro, quando o senhor chamou ele para ser ministro da Justiça.",
+      "citacao_card": "Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado do Daniel Vorcaro",
+      "afirmacao": "Ricardo Lewandowski era conselheiro e advogado de Daniel Vorcaro quando foi convidado para ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "contrato ou registro de prestação de serviço de Lewandowski ao Banco Master ou a Vorcaro, e o período",
+        "data do convite e da nomeação de Lewandowski como ministro da Justiça"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 1430.4,
+      "fim_s": 1435.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A família dele manteve o contrato que ele tinha com o Daniel Vorcaro.",
+      "afirmacao": "A família de Lewandowski manteve o contrato que ele tinha com Daniel Vorcaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "quem assumiu o contrato (escritório de familiares) e o período de vigência",
+        "documento ou reportagem com documento que mostre o contrato ativo durante a gestão dele no Ministério da Justiça"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 1435.9,
+      "fim_s": 1441.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o ministro da Justiça, que comanda a PF",
+      "afirmacao": "A Polícia Federal é subordinada ao Ministério da Justiça",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "estrutura regimental do Ministério da Justiça e Segurança Pública vigente e a posição da PF nela"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 1442.0,
+      "fim_s": 1447.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mantendo o contrato com o Daniel Vorcaro, que já era um personagem investigado pela Polícia Federal.",
+      "afirmacao": "Enquanto o escritório da família de Lewandowski mantinha o contrato, Vorcaro já era investigado pela Polícia Federal",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "data de abertura de investigação da PF que tinha Vorcaro como alvo",
+        "comparar com o período do contrato e com o período de Lewandowski no Ministério da Justiça"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 1466.1,
+      "fim_s": 1470.8,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando ele deixou o ministério, quando ele deixou a Suprema Corte, ele foi trabalhar por conta dele.",
+      "afirmacao": "Depois de deixar o STF, Lewandowski passou a trabalhar na iniciativa privada por conta própria",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "data da aposentadoria de Lewandowski no STF",
+        "atividade registrada depois dela: escritório, inscrição na OAB, consultoria"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 1475.6,
+      "fim_s": 1480.3,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eu resolvi indicar o ministério da Justiça, eu o convidei. Ele largou a assessoria e veio.",
+      "citacao_card": "eu o convidei. Ele largou a assessoria e veio",
+      "afirmacao": "Ao aceitar o convite para o Ministério da Justiça, Lewandowski deixou a assessoria privada que prestava",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "registro do encerramento ou da transferência dos contratos de Lewandowski ao tomar posse, inclusive declarações à Comissão de Ética Pública",
+        "o que aconteceu com o contrato com Vorcaro, que a pergunta diz ter sido mantido pela família"
+      ]
+    },
+    {
+      "id": "A040",
+      "inicio_s": 1507.2,
+      "fim_s": 1510.9,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "As pessoas têm uma quarentena, cumprem a quarentena e depois vão cuidar das suas vidas.",
+      "afirmacao": "Quem deixa cargo público cumpre uma quarentena antes de atuar no setor privado",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Pergunta sobre Ricardo Lewandowski, ex-ministro do STF e ex-ministro da Justiça, e regras de conduta para quem vai e volta entre o setor público e o privado.",
+      "o_que_conferir": [
+        "Lei 12.813/2013 (conflito de interesses e quarentena de ex-ocupantes de cargo no Executivo federal)",
+        "Constituição, art. 95, sobre o impedimento de ex-magistrado advogar no tribunal de onde saiu, e os prazos de cada regra"
+      ]
+    },
+    {
+      "id": "A041",
+      "inicio_s": 1563.3,
+      "fim_s": 1567.2,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Quando eles tomam a decisão, ninguém pode mais tomar decisão, ninguém pode voltar atrás.",
+      "afirmacao": "Decisão do STF não pode ser revista por nenhuma outra instância",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Lula, na resposta sobre Lewandowski, voltou às denúncias envolvendo o STF e à proposta de mandato para ministros.",
+      "o_que_conferir": [
+        "Constituição Federal: competência do STF como última instância",
+        "recursos internos cabíveis contra decisão do STF e a possibilidade de o Congresso mudar os efeitos por emenda ou lei"
+      ]
+    },
+    {
+      "id": "A042",
+      "inicio_s": 1577.5,
+      "fim_s": 1581.5,
+      "falante": "Lula",
+      "papel": "entrevistado",
+      "frase": "Eu já disse uma vez, quem quiser ser rico não pode ser ministro da Suprema Corte.",
+      "afirmacao": "Lula já havia dito publicamente que quem quer ser rico não pode ser ministro do STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Lula, na resposta sobre Lewandowski, voltou às denúncias envolvendo o STF e à proposta de mandato para ministros.",
+      "o_que_conferir": [
+        "declaração pública anterior de Lula com essa frase ou equivalente, com data e veículo"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 1012.7,
+      "fim_s": 1020.6,
+      "falante": "Lula",
+      "frase": "Era o mais implicado, era o mais implicado",
+      "motivo": "comparação sem medida ('o mais implicado') que repete a premissa da pergunta, cujo fato fica no lote anterior; os fatos novos da frase (Toffoli e André Mendonça) viraram alegação"
+    },
+    {
+      "inicio_s": 1020.6,
+      "fim_s": 1023.2,
+      "falante": "Lula",
+      "frase": "agora está todo mundo implicado.",
+      "motivo": "generalização sem referente identificável, não há registro único contra o qual conferir 'todo mundo'"
+    },
+    {
+      "inicio_s": 1025.1,
+      "fim_s": 1028.5,
+      "falante": "Renata Lo Prete",
+      "frase": "parece que a gente está tratando casos diferentes de maneira igual.",
+      "motivo": "juízo da entrevistadora sobre a resposta, sem fato afirmado"
+    },
+    {
+      "inicio_s": 1042.4,
+      "fim_s": 1046.8,
+      "falante": "Lula",
+      "frase": "Porque a denúncia paira sobre todos. Hoje a denúncia paira sobre todos.",
+      "motivo": "afirmação genérica sem dizer qual denúncia nem quem são 'todos'; o fato concreto do trecho (a razão do pedido de vista) virou alegação"
+    },
+    {
+      "inicio_s": 1046.8,
+      "fim_s": 1049.1,
+      "falante": "Lula",
+      "frase": "Então, o Flávio Dino fez aquilo que é de direito dele.",
+      "motivo": "resolve-se no mesmo dado da alegação sobre o pedido de vista como prerrogativa do ministro (Regimento Interno do STF); fica uma só"
+    },
+    {
+      "inicio_s": 1108.4,
+      "fim_s": 1121.8,
+      "falante": "Lula",
+      "frase": "Nós temos que discutir mandato para as pessoas.",
+      "motivo": "proposta para o futuro (critério de escolha, mandato e advocacia na Corte), promessa não entra como checável"
+    },
+    {
+      "inicio_s": 1122.4,
+      "fim_s": 1129.9,
+      "falante": "Lula",
+      "frase": "essa confusão toda trouxe um debate que será irreversível, será irreversível no próximo ano.",
+      "motivo": "previsão sobre o debate no próximo ano, não há registro para conferir"
+    },
+    {
+      "inicio_s": 1133.6,
+      "fim_s": 1138.6,
+      "falante": "Lula",
+      "frase": "ninguém está acima da lei, nem os ministros da Suprema Corte.",
+      "motivo": "princípio geral enunciado como valor, sem fato específico a conferir"
+    },
+    {
+      "inicio_s": 1172.0,
+      "fim_s": 1174.3,
+      "falante": "Lula",
+      "frase": "Que julgue, porque senão o Congresso vai fazer.",
+      "motivo": "previsão sobre o que o Congresso faria, hipótese sem registro"
+    },
+    {
+      "inicio_s": 1181.6,
+      "fim_s": 1189.2,
+      "falante": "Renata Lo Prete",
+      "frase": "Tem suspeitas de corrupção mesmo e tem também uma politização do tribunal.",
+      "motivo": "caracterização geral do momento do STF ('suspeitas', 'politização', 'aliados de um lado e de outro') sem caso nem número que se confira numa fonte"
+    },
+    {
+      "inicio_s": 1189.2,
+      "fim_s": 1195.2,
+      "falante": "Renata Lo Prete",
+      "frase": "o diretor-geral da Polícia Federal, Andrei Rodrigues.",
+      "motivo": "resolve-se no mesmo ato de nomeação da alegação de Lula sobre Andrei Rodrigues ser o diretor-geral que ele escolheu; fica uma só"
+    },
+    {
+      "inicio_s": 1200.5,
+      "fim_s": 1204.9,
+      "falante": "Renata Lo Prete",
+      "frase": "sendo que ele comanda uma das corporações mais bem informadas da República.",
+      "motivo": "juízo sobre a corporação ('mais bem informadas'), sem medida nem ranking conferível"
+    },
+    {
+      "inicio_s": 1230.6,
+      "fim_s": 1232.5,
+      "falante": "Lula",
+      "frase": "E está fazendo um extraordinário trabalho.",
+      "motivo": "juízo de valor sobre o desempenho do diretor-geral, repetido em 1262.9 s ('trabalho excepcional')"
+    },
+    {
+      "inicio_s": 1236.4,
+      "fim_s": 1243.0,
+      "falante": "Lula",
+      "frase": "o papel do diretor da Polícia Federal não permite que ele estivesse a Londres.",
+      "motivo": "avaliação de conduta sem citar norma; o fato verificável do trecho (a repreensão) virou alegação"
+    },
+    {
+      "inicio_s": 1245.5,
+      "fim_s": 1249.2,
+      "falante": "Lula",
+      "frase": "Ele me deu uma explicação, sabe? Não foi convincente para mim.",
+      "motivo": "conversa privada sem registro público e avaliação pessoal de Lula sobre a explicação"
+    },
+    {
+      "inicio_s": 1254.7,
+      "fim_s": 1256.5,
+      "falante": "Lula",
+      "frase": "Aliás, ninguém precisava ter ido para aquela festa.",
+      "motivo": "opinião sobre a conduta de quem foi à festa"
+    },
+    {
+      "inicio_s": 1286.8,
+      "fim_s": 1289.4,
+      "falante": "Lula",
+      "frase": "Você não tem noção da quantidade de gente que manda cartão para mim.",
+      "motivo": "sem quantidade afirmada e sobre correspondência privada, sem registro contra o qual conferir"
+    },
+    {
+      "inicio_s": 1361.0,
+      "fim_s": 1368.6,
+      "falante": "Lula",
+      "frase": "o Banco Central não investiga politicamente. O Banco Central vai investigar tecnicamente.",
+      "motivo": "caracterização do modo de agir do Banco Central, sem caso nem norma citada; as atribuições a Galípolo e Haddad no mesmo trecho viraram alegação"
+    },
+    {
+      "inicio_s": 1396.4,
+      "fim_s": 1399.0,
+      "falante": "Lula",
+      "frase": "E eu disse o seguinte, você não vai ter perseguido, você vai ter investigado.",
+      "motivo": "resposta dada na mesma conversa privada da alegação sobre o que Vorcaro disse a Lula; resolve-se no mesmo relato do encontro"
+    },
+    {
+      "inicio_s": 1461.3,
+      "fim_s": 1465.4,
+      "falante": "Lula",
+      "frase": "O Lewandowski foi o extraordinário ministro da Suprema Corte brasileira.",
+      "motivo": "juízo de valor sobre Lewandowski, repetido sobre a gestão dele no Ministério da Justiça"
+    },
+    {
+      "inicio_s": 1471.6,
+      "fim_s": 1475.0,
+      "falante": "Lula",
+      "frase": "Eu não tenho emprego para oferecer para ele e também não sei onde ele foi trabalhar.",
+      "motivo": "declaração sobre o próprio conhecimento de Lula, sem registro externo que confirme ou desminta"
+    },
+    {
+      "inicio_s": 1493.4,
+      "fim_s": 1499.2,
+      "falante": "Lula",
+      "frase": "Não tem como o presidente da República ficar acompanhando a vida das pessoas.",
+      "motivo": "opinião sobre o papel do presidente, sem fato conferível"
+    },
+    {
+      "inicio_s": 1538.2,
+      "fim_s": 1541.7,
+      "falante": "Lula",
+      "frase": "Não há possibilidade nenhuma das coisas serem acobertadas.",
+      "motivo": "previsão sobre o resultado das investigações, não há registro para conferir"
+    },
+    {
+      "inicio_s": 1542.7,
+      "fim_s": 1562.7,
+      "falante": "Lula",
+      "frase": "As festas noturnas, a quantidade de mulheres, a quantidade de pessoas envolvidas.",
+      "motivo": "resolve-se no mesmo dado da alegação sobre denúncias envolvendo o STF com festas, mulheres e dinheiro; fica uma só"
+    },
+    {
+      "inicio_s": 1588.8,
+      "fim_s": 1590.8,
+      "falante": "Lula",
+      "frase": "E é por isso que eu estou defendendo o mandato.",
+      "motivo": "posição declarada na própria entrevista (mandato para ministros do STF), confirmada pela fala dele no mesmo bloco"
+    }
+  ]
+}

@@ -28,9 +28,22 @@ def test_sem_faixa_nao_perde_nenhum_pixel():
     assert caixa_sem_faixas(1920, 1080, 0, 1919, 0, 1079) == {"x": 0, "y": 0, "w": 1920, "h": 1080}
 
 
+def test_caixa_da_gravacao_de_15_out_e_par_e_16_por_9():
+    """🔴 O caso real de 16/out: a imagem da emissora dentro de uma moldura vermelha (x 84 a 1193,
+    y 56 a 680, num quadro de 1280x720). A versão anterior devolvia altura 617, ímpar."""
+    c = caixa_sem_faixas(1280, 720, 84, 1193, 56, 680)
+    assert c == {"x": 94, "y": 62, "w": 1088, "h": 612}
+    assert c["w"] * 9 == c["h"] * 16
+    assert c["x"] >= 84 + 4 and c["x"] + c["w"] - 1 <= 1193 - 4
+    assert c["y"] >= 56 + 4 and c["y"] + c["h"] - 1 <= 680 - 4
+
+
 def test_caixa_e_sempre_par():
     for x1, x2 in ((101, 1180), (99, 1178), (7, 1270)):
         c = caixa_sem_faixas(1280, 720, x1, x2, 0, 719)
+        assert all(v % 2 == 0 for v in c.values()), c
+    for y1, y2 in ((56, 680), (31, 690), (3, 716)):
+        c = caixa_sem_faixas(1280, 720, 84, 1193, y1, y2)
         assert all(v % 2 == 0 for v in c.values()), c
 
 

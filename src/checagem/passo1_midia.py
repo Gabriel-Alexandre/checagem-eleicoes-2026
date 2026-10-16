@@ -171,16 +171,15 @@ def caixa_sem_faixas(largura: int, altura: int, x1: int, x2: int, y1: int, y2: i
     base = margem if y2 < altura - 1 else 0
     x, y = x1 + esq, y1 + topo
     w, h = (x2 - dir_) - x + 1, (y2 - base) - y + 1
-    # 16:9 exato, centrado e par (yuv420p exige dimensão par)
-    if w * 9 > h * 16:
-        novo_w = (h * 16 // 9) // 2 * 2
-        x += (w - novo_w) // 2
-        w = novo_w
-    else:
-        novo_h = (w * 9 // 16) // 2 * 2
-        y += (h - novo_h) // 2
-        h = novo_h
-    return {"x": x // 2 * 2, "y": y // 2 * 2, "w": w, "h": h}
+    # 16:9 exato, centrado e par nas DUAS dimensões (yuv420p exige dimensão par): 16k x 9k com k par.
+    # 🔧 16/out/2026: a versão anterior só deixava par a dimensão ajustada, e uma caixa de 1102x617
+    # (a da gravação da sabatina de 15/out) saía com altura ímpar.
+    k = min(w // 16, h // 9)
+    k -= k % 2
+    novo_w, novo_h = 16 * k, 9 * k
+    x += (w - novo_w) // 2
+    y += (h - novo_h) // 2
+    return {"x": x // 2 * 2, "y": y // 2 * 2, "w": novo_w, "h": novo_h}
 
 
 def medir_faixas(video: Path, amostras: int = AMOSTRAS_DE_FAIXA) -> dict:
@@ -219,7 +218,7 @@ def _filtro_de_faixas(corte: dict[str, int]) -> str:
 
 def recortar(slug: str, identificador: str, inicio_s: float, duracao_s: float,
              *, motivo: str = "", enquadrar: bool = False,
-             cortar_faixas: bool = False) -> Path:
+             cortar_faixas: bool = False, caixa: dict[str, int] | None = None) -> Path:
     """Corta um trecho do vídeo de origem, sem reencodar o que não precisa.
 
     O corte é reencodado no vídeo (para o primeiro frame ser exato) e copiado no áudio.
@@ -231,10 +230,16 @@ def recortar(slug: str, identificador: str, inicio_s: float, duracao_s: float,
     Com `cortar_faixas`, as faixas pretas do arquivo são medidas (`medir_faixas`) e cortadas, e a
     imagem útil, que é 16:9, vai a 1920x1080 sem deformar. É o caminho de uma peça horizontal
     que veio com barras: a moldura e o card ficam sobre a imagem, não sobre o preto.
+
+    Com `caixa` ({"x", "y", "w", "h"}, em pixels do arquivo de origem), corta uma caixa DECLARADA e a
+    leva a 1920x1080. É o caminho de uma gravação em que a imagem da emissora está dentro de uma
+    moldura que não é preta (uma retransmissão de terceiro gravada da tela, 16/out/2026): o
+    `cropdetect` não vê moldura colorida, então a caixa é medida antes, em vários quadros, e
+    declarada no `CASO.json`. Nenhum pixel da moldura entra no corte.
     """
     exigir_binario("ffmpeg", "scoop install ffmpeg")
-    if enquadrar and cortar_faixas:
-        raise ErroDeExecucao("--enquadrar e --cortar-faixas são caminhos diferentes: escolha um")
+    if sum(bool(x) for x in (enquadrar, cortar_faixas, caixa)) > 1:
+        raise ErroDeExecucao("--enquadrar, --cortar-faixas e --caixa são caminhos diferentes: escolha um")
     caso = cfg.pasta_do_caso(slug)
     origem = _video_de_origem(caso)
     saida = caso / "recortes" / f"{identificador}.mp4"
@@ -243,11 +248,17 @@ def recortar(slug: str, identificador: str, inicio_s: float, duracao_s: float,
     passo(f"PASSO 1 · recortar · {identificador} · {hms(inicio_s)} + {duracao_s:.0f}s")
     original = sondar(origem)
     faixas = medir_faixas(origem) if cortar_faixas else None
+    if caixa:
+        faixas = {"original": f"{original['largura']}x{original['altura']}", "corte": dict(caixa),
+                  "declarada": True}
     filtro = _filtro_de_enquadramento(original["largura"], original["altura"]) if enquadrar else None
     if filtro:
         info(f"enquadrando {original['largura']}x{original['altura']} em {cfg.LARGURA}x{cfg.ALTURA}, "
              "sem cortar a imagem original")
-    if faixas:
+    if faixas and faixas.get("declarada"):
+        c = faixas["corte"]
+        info(f"caixa declarada: imagem útil {c['w']}x{c['h']} em x={c['x']} y={c['y']}")
+    elif faixas:
         c = faixas["corte"]
         info(f"faixas pretas: imagem útil {c['w']}x{c['h']} em x={c['x']} y={c['y']} "
              f"(margem de {faixas['margem_px']}px para dentro da borda mole)")
@@ -281,7 +292,15 @@ def recortar(slug: str, identificador: str, inicio_s: float, duracao_s: float,
                     "cópia desfocada e escurecida do próprio vídeo",
             "filtro": filtro,
         }
-    if faixas:
+    if faixas and faixas.get("declarada"):
+        registro["enquadramento"] = {
+            "original": faixas["original"],
+            "como": "caixa declarada: só a imagem da emissora, sem a moldura da gravação, escalada a "
+                    "1920x1080 sem deformar (a caixa foi medida antes, em vários quadros, e está no CASO.json)",
+            "corte": faixas["corte"],
+            "filtro": _filtro_de_faixas(faixas["corte"]),
+        }
+    elif faixas:
         registro["enquadramento"] = {
             "original": faixas["original"],
             "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem "
@@ -325,6 +344,8 @@ def main(argv: list[str] | None = None) -> int:
 
     c.add_argument("--cortar-faixas", action="store_true",
                    help="mede e corta as faixas pretas, e leva a imagem útil a 1920x1080")
+    c.add_argument("--caixa", default=None, metavar="X,Y,W,H",
+                   help="corta uma caixa declarada (imagem dentro de moldura colorida) e leva a 1920x1080")
 
     args = p.parse_args(argv)
     if args.acao == "registrar":
@@ -339,7 +360,9 @@ def main(argv: list[str] | None = None) -> int:
         extrair_audio(args.slug, recorte=args.recorte)
     else:
         recortar(args.slug, args.id, args.inicio, args.duracao, motivo=args.motivo,
-                 enquadrar=args.enquadrar, cortar_faixas=args.cortar_faixas)
+                 enquadrar=args.enquadrar, cortar_faixas=args.cortar_faixas,
+                 caixa=dict(zip("xywh", (int(v) for v in args.caixa.split(",")), strict=True))
+                 if args.caixa else None)
     return 0
 
 
