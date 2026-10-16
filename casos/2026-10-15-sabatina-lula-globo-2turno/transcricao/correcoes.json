@@ -1,0 +1,105 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "escopo": "A peça inteira (transcricao/transcricao.json).",
+  "como_foram_conferidas": "Em 16/out/2026, a IA leu a transcrição inteira procurando nome próprio, número, ano e sigla trocados e transcreveu de novo, em janelas isoladas, os 24 segmentos suspeitos (feixe 8, sem e com prompt de contexto). Só entrou o que as passadas sustentam. ⚠️ O prompt puxa a leitura para os nomes que ele contém: correção que só a passada com prompt escreve está marcada como tal. ⚠️ Nenhuma passada substitui ouvir o áudio. NÃO RESOLVIDAS (ficam como o motor escreveu, e a extração não apoia veredito nelas): 'governo confins' (2:06; com prompt 'governo confio'); 'e o Castro está implicado' (17:00; sem prompt 'Castro', com prompt 'Kasso', puxado pelo nome 'Kassio' do prompt); 'que ademogue na própria Suprema Corte' (18:38; as duas passadas: 'a devolve'); 'a ideia da pobreidade' (18:59); 'o Galipo se posicionou' (22:58; as duas passadas mantêm 'Galipo', provavelmente o nome de Gabriel Galípolo dito de forma curta); 'a Política Federal esteve no Rio' (15:55; as duas mantêm); 'passando por uma outra vez' (38:23; as duas mantêm; o contexto é a fome); 'para ir para 28 médicos' (42:23; as duas mantêm; o contexto é 12 mil mais 16 mil); '10 mil bulanças' (43:15; as duas: 'bolanças'); 'retornada magnética' (42:49; as duas: 'retornando a magnética'). E 17:05 'Mas, Lili, parece que...': as duas passadas isoladas não escrevem 'Mas, Lili' e emendam a frase na fala de Lula; a atribuição dessa frase está declarada em falantes.json.",
+  "correcoes": [
+    {
+      "inicio_s": 551.12,
+      "de": "uma pesquisa de junho do Datacolha,",
+      "para": "uma pesquisa de junho do Datafolha,",
+      "motivo": "nome do instituto: 'Datacolha' por 'Datafolha'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'Datacolha', com prompt 'Datafolha'. O instituto citado é o Datafolha (pesquisa de junho sobre facções como terroristas)."
+    },
+    {
+      "inicio_s": 595.38,
+      "de": "tanto o PCC e o Comandante Vermelho",
+      "para": "tanto o PCC e o Comando Vermelho",
+      "motivo": "nome da facção: 'Comandante Vermelho' por 'Comando Vermelho', que a pergunta acabou de citar",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'Comandante Vermelho', com prompt 'Comando Vermelho'."
+    },
+    {
+      "inicio_s": 619.84,
+      "de": "com a política federal brasileira,",
+      "para": "com a Polícia Federal brasileira,",
+      "motivo": "'política federal' por 'Polícia Federal' (a experiência de combate ao narcotráfico de que ele fala)",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'política federal', com prompt 'Polícia Federal'."
+    },
+    {
+      "inicio_s": 1012.7,
+      "de": "Era o mais implicado, era o mais implicado, o Toffoli também está implicado, o André Mendoza também está implicado,",
+      "para": "Era o mais implicado, era o mais implicado, o Toffoli também está implicado, o André Mendonça também está implicado,",
+      "motivo": "nome do ministro do STF: 'Mendoza' por 'Mendonça'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: nesta janela as duas passadas escrevem 'Mendoza'; na janela seguinte (1017,6 a 1026,2 s), que repete o nome, a passada com prompt escreve 'André Mendonça'. Não há ministro do STF chamado Mendoza; a correção se apoia no nome, não numa passada unânime."
+    },
+    {
+      "inicio_s": 1042.36,
+      "de": "Porque a denúncia palha sobre todos.",
+      "para": "Porque a denúncia paira sobre todos.",
+      "motivo": "'a denúncia palha sobre todos' por 'a denúncia paira sobre todos'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: as duas passadas escrevem 'parha', que é a mesma pronúncia de 'paira'; 'palha' não tem sentido na frase."
+    },
+    {
+      "inicio_s": 1045.16,
+      "de": "Hoje a denúncia palha sobre todos.",
+      "para": "Hoje a denúncia paira sobre todos.",
+      "motivo": "o mesmo da frase anterior",
+      "conferido_como": "mesma janela da correção anterior: as duas passadas escrevem 'parha'."
+    },
+    {
+      "inicio_s": 1099.1,
+      "de": "Eu, o Jobim, quando era presidente da Suprema Corte, e o Márcio Tomás Batos, que era ministro da Justiça,",
+      "para": "Eu, o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça,",
+      "motivo": "nome do ex-ministro da Justiça: 'Tomás Batos' por 'Thomaz Bastos'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'Márcio Tomás Batos', com prompt 'Márcio Tomás Bastos'. A grafia do sobrenome segue o nome da pessoa citada (ministro da Justiça na reforma do Judiciário que ele cita)."
+    },
+    {
+      "inicio_s": 1205.3,
+      "de": "Ele esteve numa festa do Daniel Vorcário em Londres,",
+      "para": "Ele esteve numa festa do Daniel Vorcaro em Londres,",
+      "motivo": "nome: 'Vorcário' por 'Vorcaro', grafia usada no resto da transcrição",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'Vorcário', com prompt 'Vorcaro'."
+    },
+    {
+      "inicio_s": 1413.68,
+      "de": "e que a gente está falando de Caus Master, para eu colocar aqui um outro personagem,",
+      "para": "e que a gente está falando de caso Master, para eu colocar aqui um outro personagem,",
+      "motivo": "'Caus Master' por 'caso Master'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'Caus Master', com prompt 'Causa Master'; a frase anterior e a seguinte falam do 'caso Master'."
+    },
+    {
+      "inicio_s": 761.76,
+      "de": "que interferem no recebimento do bom da família.",
+      "para": "que interferem no recebimento do Bolsa Família.",
+      "motivo": "'bom da família' por 'Bolsa Família'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: as duas passadas escrevem 'Bolsa Família'."
+    },
+    {
+      "inicio_s": 494.64,
+      "de": "E outra vez, nós batemos récitos, sabe,",
+      "para": "E outra vez, nós batemos recordes, sabe,",
+      "motivo": "'récitos' por 'recordes'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: as duas passadas escrevem 'recordes'."
+    },
+    {
+      "inicio_s": 2037.14,
+      "de": "porque estão no cerava.",
+      "para": "porque estão no Serasa.",
+      "motivo": "'cerava' por 'Serasa' (cadastro de inadimplentes citado na pergunta)",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'cerava', com prompt 'Serasa'."
+    },
+    {
+      "inicio_s": 2285.28,
+      "de": "Eu cansei de brigar com Guido Mantel e com Meirelles.",
+      "para": "Eu cansei de brigar com Guido Mantega e com Meirelles.",
+      "motivo": "nome do ex-ministro da Fazenda: 'Mantel' por 'Mantega'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: sem prompt 'Mantel', com prompt 'Mantega'."
+    },
+    {
+      "inicio_s": 2602.66,
+      "de": "o farmáter popular",
+      "para": "o Farmácia Popular",
+      "motivo": "nome do programa: 'farmáter' por 'Farmácia'",
+      "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: as duas passadas escrevem 'farmácia popular'."
+    }
+  ]
+}

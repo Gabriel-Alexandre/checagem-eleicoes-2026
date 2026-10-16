@@ -1,0 +1,147 @@
+LOTE 01 de 06 · janela a EXTRAIR: 00:00:00 a 00:08:41 (0.0 s a 521.7 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-01.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 0.0, "fim_s": 521.7}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+[00:00:00 · 0.0s → 2.8s] Fora da sabatina: Sou o Preti, beijo, boa noite para você e até amanhã.
+[00:00:30 · 30.0s → 49.5s] Fora da sabatina: Boa noite.
+[00:00:50 · 50.0s → 57.0s] Renata Lo Prete: A TV Globo começa hoje a entrevistar os candidatos à presidência que passaram ao segundo turno da eleição presidencial.
+[00:00:57 · 57.0s → 65.2s] Renata Lo Prete: A ordem das entrevistas foi definida por sorteio e isso nos levou a entrevistar hoje o presidente Luiz Inácio Lula da Silva,
+[00:01:05 · 65.4s → 67.3s] Renata Lo Prete: que concorre à reeleição pelo PT.
+[00:01:08 · 68.1s → 71.4s] Renata Lo Prete: Presidente, boa noite. Muito obrigada por aceitar o nosso convite.
+[00:01:11 · 72.0s → 72.7s] Lula: Boa noite, Renata.
+[00:01:12 · 72.8s → 78.0s] Renata Lo Prete: Eu, a partir de agora, vou chamá-lo de candidato, porque o contexto da nossa entrevista é a campanha eleitoral
+[00:01:17 · 78.0s → 81.2s] Renata Lo Prete: e o tempo começa a ser contado a partir desse instante. Tudo bem?
+[00:01:21 · 81.5s → 81.9s] Lula: Tudo bem.
+[00:01:22 · 82.1s → 82.6s] Renata Lo Prete: Então, vamos lá.
+[00:01:22 · 82.6s → 91.2s] Renata Lo Prete: O senhor busca o quarto mandato em situação mais adversa do que aquela de quando conseguiu os dois anteriores e o atual.
+[00:01:31 · 91.7s → 96.0s] Renata Lo Prete: Eu não me refiro só à desvantagem na votação do segundo turno, do primeiro turno.
+[00:01:36 · 96.4s → 104.6s] Renata Lo Prete: Eu falo também do fato de que, desde o início do ano, quase que o tempo inteiro, os brasileiros rejeitaram majoritariamente o seu governo.
+[00:01:44 · 104.6s → 112.4s] Renata Lo Prete: O senhor já atribuiu esse quadro às situações de conjuntura e também disse recentemente que a sua campanha foi desorganizada.
+[00:01:53 · 113.0s → 116.3s] Renata Lo Prete: Tem alguma coisa que o senhor considere responsabilidade sua?
+[00:01:56 · 116.6s → 120.3s] Renata Lo Prete: Alguma coisa que o senhor olhe para trás e hoje teria feito de maneira diferente?
+[00:02:00 · 120.4s → 123.3s] Lula: Eu acho que tudo é responsabilidade minha, Renata.
+[00:02:04 · 124.5s → 125.6s] Lula: Veja, eu sou o governo.
+[00:02:06 · 126.2s → 133.3s] Lula: Então, se eu não conseguir ser compreendido pela sociedade brasileira sobre o governo confins, eu não posso ficar jogando a culpa em ninguém.
+[00:02:13 · 133.4s → 134.4s] Lula: Eu tenho que jogar a culpa em mim.
+[00:02:15 · 135.1s → 140.0s] Lula: Porque se quando as coisas dão certo, sou eu que ganho, quando elas não dão certo, sou eu que perco.
+[00:02:20 · 140.4s → 142.0s] Lula: Então, a responsabilidade é toda minha.
+[00:02:22 · 142.1s → 145.4s] Lula: Eu acho que nós tivemos alguma dificuldade.
+[00:02:25 · 145.5s → 148.7s] Lula: Veja, foram dois anos e meio para tentar recuperar o país.
+[00:02:28 · 148.9s → 156.4s] Lula: Eu tenho clareza que quando o povo votou em mim, Renata, ele votou em mim com a cabeça no final do meu mandato de 2010,
+[00:02:36 · 156.9s → 158.9s] Lula: em que a gente estava vivendo um momento de ouro.
+[00:02:38 · 159.0s → 160.5s] Lula: A gente era a sétima economia do mundo.
+[00:02:40 · 161.0s → 167.5s] Lula: A economia crescia a 7,5% ao ano e tínhamos criado 22 milhões de empregos em oito anos.
+[00:02:48 · 168.0s → 169.8s] Lula: Ora, a situação hoje é diversa.
+[00:02:50 · 170.1s → 173.3s] Lula: Nós passamos dois anos tentando recuperar esse país.
+[00:02:53 · 173.7s → 175.7s] Lula: Foram dez ministérios desmontados.
+[00:02:56 · 176.2s → 178.3s] Lula: Quase tudo estava desmontado nesse país.
+[00:02:58 · 178.3s → 185.7s] Lula: A economia, você lembra, que nós tivemos que fazer uma PEC da transição para começar governando antes de eu tomar posse,
+[00:03:06 · 186.1s → 187.7s] Lula: porque não tinha dinheiro para nada.
+[00:03:08 · 188.2s → 192.4s] Lula: O orçamento não tinha deixado dinheiro para o Bolsa Família, para a educação, para a saúde.
+[00:03:12 · 192.7s → 193.5s] Lula: Nós tivemos que construir.
+[00:03:13 · 193.8s → 198.6s] Lula: Nós passamos dois anos, ou seja, eu acho que nós fizemos muita coisa, muita coisa.
+[00:03:19 · 199.0s → 203.2s] Lula: Eu só lamento que eu não tenha tido a capacidade de fazer o povo compreender as coisas que eu fiz,
+[00:03:23 · 203.5s → 204.7s] Lula: porque foram muitas coisas.
+[00:03:24 · 204.7s → 209.0s] Lula: E por mais que a gente faça aqui no Brasil, sempre tem que fazer mais.
+[00:03:29 · 209.4s → 213.1s] Lula: Mas eu estou consciente que vou ganhar as eleições dia 25 de outubro.
+[00:03:33 · 213.2s → 217.7s] Renata Lo Prete: Deixa eu retomar esse momento que o senhor mesmo menciona, de quando o senhor ganha a eleição quatro anos atrás.
+[00:03:37 · 217.8s → 222.5s] Renata Lo Prete: O senhor venceu naquela altura com o apoio de forças políticas mais ao centro,
+[00:03:42 · 222.9s → 224.7s] Renata Lo Prete: que acabaram não tendo lugar no seu governo.
+[00:03:45 · 225.3s → 231.0s] Renata Lo Prete: Agora, se o senhor venceu, o senhor vai enfrentar um congresso eleito mais hostil do que o atual,
+[00:03:51 · 231.1s → 233.7s] Renata Lo Prete: e o atual já não facilitou a sua vida.
+[00:03:53 · 233.7s → 240.5s] Renata Lo Prete: O senhor acha que, diante desse contexto, seria sustentável um novo governo do PT
+[00:04:00 · 240.5s → 245.1s] Renata Lo Prete: que não tivesse essa característica de uma frente mais ampla de apoios,
+[00:04:05 · 245.4s → 249.0s] Renata Lo Prete: justamente essa frente que não vingou no mandato que está acabando agora?
+[00:04:08 · 249.0s → 251.6s] Lula: Renata, não é verdade isso, Renata.
+[00:04:12 · 252.2s → 253.3s] Lula: Deixa eu lhe falar alguma coisa.
+[00:04:14 · 254.0s → 260.4s] Lula: Eu fui eleito tendo 70 deputados no meu partido de 513 e tendo 9 senadores de 81.
+[00:04:20 · 260.9s → 266.3s] Lula: E nós aprovamos 99% de tudo que a gente fez aqui no Congresso Nacional, tudo,
+[00:04:26 · 266.9s → 270.8s] Lula: até uma reforma tributária que havia há 40 anos que nós queríamos aprovar.
+[00:04:31 · 271.4s → 276.1s] Lula: E, mais importante, todos os partidos, com exceção do PL, participaram do meu governo.
+[00:04:36 · 276.6s → 277.0s] Lula: Todos.
+[00:04:38 · 278.2s → 278.7s] Lula: Todos.
+[00:04:39 · 279.1s → 281.5s] Lula: Todos participaram do ministério do meu governo.
+[00:04:41 · 281.5s → 290.2s] Lula: O PP participou, o União Brasil participou, o PSD participou, o PMDB participou.
+[00:04:50 · 290.8s → 294.0s] Lula: Ou seja, nós tivemos uma grande participação das pessoas no governo.
+[00:04:54 · 294.4s → 296.4s] Lula: É por isso que nós conseguimos aprovar tudo.
+[00:04:56 · 296.9s → 299.0s] Lula: E, se não for assim, você não governa o país.
+[00:05:00 · 300.2s → 303.5s] Lula: Ou seja, uma coisa é as eleições que você disputa, mas, quando você ganha,
+[00:05:03 · 303.9s → 308.4s] Lula: você precisa pensar na governabilidade e você precisa construir um bloco
+[00:05:08 · 308.4s → 310.9s] Lula: que dê sustentação no Congresso Nacional.
+[00:05:10 · 310.9s → 317.0s] Lula: E nós fizemos isso e aprovamos 99% de tudo que a gente queria aprovar, Renata.
+[00:05:17 · 317.1s → 321.1s] Renata Lo Prete: Deixa eu só fazer duas ponderações, presidente, se o senhor julgar pertinentes.
+[00:05:21 · 321.3s → 325.3s] Renata Lo Prete: Primeiro, que esses partidos que participaram do seu governo com ministérios
+[00:05:25 · 325.3s → 327.3s] Renata Lo Prete: não estão com o senhor na reeleição.
+[00:05:27 · 327.9s → 330.0s] Renata Lo Prete: E o senhor, de fato, aprovou coisas importantes.
+[00:05:30 · 330.2s → 331.5s] Renata Lo Prete: O senhor citou a reforma tributária.
+[00:05:32 · 332.0s → 334.2s] Renata Lo Prete: Mas eu lembro também que o senhor teve revéses importantes.
+[00:05:34 · 334.2s → 338.3s] Renata Lo Prete: O governo viu um desmonte grande de legislação ambiental.
+[00:05:38 · 338.6s → 341.0s] Renata Lo Prete: As emendas foram uma dureza de negociar.
+[00:05:41 · 341.4s → 346.7s] Renata Lo Prete: E o senhor teve essa situação praticamente inédita de ver um ministro indicado pelo senhor
+[00:05:46 · 346.7s → 348.8s] Renata Lo Prete: para o Supremo ser rejeitado pelo Senado.
+[00:05:49 · 349.1s → 350.0s] Renata Lo Prete: É por isso que eu estou dizendo isso.
+[00:05:50 · 350.0s → 353.7s] Renata Lo Prete: Mas não quero estender muito essa discussão, porque tem um assunto correlato aqui,
+[00:05:53 · 353.8s → 356.7s] Renata Lo Prete: que é a pressão sobre o seu governo vinda dos Estados Unidos.
+[00:05:56 · 356.9s → 358.7s] Renata Lo Prete: Achei esse um tema importante para colocar aqui.
+[00:05:59 · 359.3s → 363.5s] Renata Lo Prete: O seu governo vive sob essa pressão praticamente desde que Donald Trump voltou à Casa Branca.
+[00:06:04 · 364.2s → 369.2s] Renata Lo Prete: As suas interações com ele transcorreram sem incidentes, às vezes em tom até amigável.
+[00:06:09 · 369.8s → 376.0s] Renata Lo Prete: Mas, de concreto, a gente teve duas rodadas de tarifaço e uma clara preferência do governo americano
+[00:06:16 · 376.0s → 377.6s] Renata Lo Prete: pela vitória do seu adversário.
+[00:06:18 · 378.0s → 383.6s] Renata Lo Prete: A minha pergunta é, se o senhor prevalecer nas urnas, como é que o senhor pretende lidar com essa realidade
+[00:06:23 · 383.6s → 391.4s] Renata Lo Prete: e com uma vizinhança aqui na América do Sul, quase toda colocada já na órbita dos interesses dos Estados Unidos?
+[00:06:31 · 391.9s → 396.8s] Lula: Renata, só para te dar uma informação, nem em 2006, quando eu fui candidato à reeleição,
+[00:06:37 · 397.4s → 399.7s] Lula: eu pedo para os meus ministros fazerem campanha para mim.
+[00:06:40 · 400.4s → 405.2s] Lula: Ou seja, eu chamei os ministros para participar do meu governo, para me dar governabilidade.
+[00:06:45 · 405.3s → 408.7s] Lula: Mas no processo eleitoral, cada um vai cuidar do seu partido.
+[00:06:49 · 409.6s → 411.8s] Lula: Isso não é o meu problema, não é o meu drama.
+[00:06:53 · 413.1s → 416.2s] Lula: Eu nunca procurei os partidos para me apoiar nessa campanha.
+[00:06:56 · 416.8s → 418.5s] Lula: Cada um apoia quem quiser.
+[00:06:58 · 418.9s → 426.5s] Lula: Agora, com relação ao presidente Trump, veja, eu acho que a minha relação com o Trump foi a relação mais civilizada
+[00:07:06 · 426.5s → 428.8s] Lula: que eu acho que ele já teve com o outro presidente da República.
+[00:07:09 · 429.5s → 430.8s] Lula: Ela começou muito tensa.
+[00:07:12 · 432.0s → 436.5s] Lula: Eu disse ao Trump que era importante que dois homens de 80 anos, sabe,
+[00:07:16 · 436.6s → 442.5s] Lula: tivessem juízo e se entendesse, porque não era possível a gente ficar passando desavença
+[00:07:22 · 442.5s → 447.2s] Lula: entre as duas maiores democracias do Ocidente.
+[00:07:27 · 447.9s → 449.0s] Lula: Ele concordou comigo.
+[00:07:29 · 449.1s → 450.7s] Lula: Nós tivemos três reuniões.
+[00:07:31 · 451.2s → 455.6s] Lula: A última foi quase uma hora e meia por telefone que eu liguei para ele para reclamar do comportamento
+[00:07:35 · 455.6s → 457.1s] Lula: do Conselho de Segurança da ONU.
+[00:07:37 · 457.6s → 458.8s] Lula: E nós estamos negociando.
+[00:07:38 · 458.9s → 461.3s] Lula: Essa semana mesmo, o meu ministro da Indústria do Comércio,
+[00:07:41 · 461.3s → 465.0s] Lula: o meu ministro das Relações Exteriores,
+[00:07:45 · 465.4s → 469.0s] Lula: e estiveram negociando com os Estados Unidos.
+[00:07:49 · 469.4s → 471.2s] Lula: Eu acho que nós vamos chegar no acordo.
+[00:07:51 · 471.6s → 472.9s] Lula: Agora, qual é o meu problema?
+[00:07:53 · 473.3s → 475.8s] Lula: Qual é a minha coisa que me deixa tranquilo?
+[00:07:56 · 476.3s → 481.0s] Lula: É que, embora a gente tenha perdido 9% na relação comercial com os Estados Unidos,
+[00:08:01 · 481.5s → 483.3s] Lula: nós crescemos 20% com a China,
+[00:08:04 · 484.1s → 485.8s] Lula: crescemos 15% com a Indonésia,
+[00:08:05 · 485.9s → 487.3s] Lula: 16% com a Alemanha,
+[00:08:07 · 487.8s → 489.2s] Lula: 13% com o Vietnã,
+[00:08:09 · 489.7s → 492.5s] Lula: e crescemos em 50 países que nós visitamos,
+[00:08:12 · 492.6s → 494.3s] Lula: em média 10,5% a mais.
+[00:08:14 · 494.6s → 497.6s] Lula: E outra vez, nós batemos recordes, sabe,
+[00:08:17 · 497.9s → 499.8s] Lula: de superávit comercial, sabe?
+[00:08:19 · 499.9s → 504.0s] Lula: Então, quem deve estar preocupado conosco nesse momento é os Estados Unidos.
+[00:08:25 · 505.1s → 507.1s] Lula: Porque, veja, eu não fiz a lei da reciprocidade,
+[00:08:27 · 507.5s → 508.4s] Lula: não quero fazer,
+[00:08:28 · 508.7s → 510.0s] Lula: eu quero continuar negociando.
+[00:08:30 · 510.6s → 512.4s] Lula: Mas, se for necessário fazer, nós vamos fazer,
+[00:08:32 · 512.8s → 514.8s] Lula: e eu acho que eles vão ter problema conosco.
+[00:08:34 · 514.8s → 515.8s] Lula: Por quê?
+[00:08:36 · 516.1s → 518.2s] Lula: Porque nós temos coisas que eles precisam
+[00:08:38 · 518.2s → 521.7s] Lula: mais do que coisas que eu preciso dele.

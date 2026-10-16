@@ -1,0 +1,1026 @@
+# 2026-10-15-sabatina-lula-globo-2turno: transcrição
+# motor whisper.cpp · modelo ggml-large-v3-turbo.bin · idioma pt
+# tempos em HH:MM:SS na peça inteira · gerado em 2026-10-16
+
+
+[FALANTE NÃO ATRIBUÍDO]
+00:00:00  Sou o Preti, beijo, boa noite para você e até amanhã.
+00:00:30  Boa noite.
+00:00:50  A TV Globo começa hoje a entrevistar os candidatos à presidência que passaram ao segundo turno da eleição presidencial.
+00:00:57  A ordem das entrevistas foi definida por sorteio e isso nos levou a entrevistar hoje o presidente Luiz Inácio Lula da Silva,
+00:01:05  que concorre à reeleição pelo PT.
+00:01:08  Presidente, boa noite. Muito obrigada por aceitar o nosso convite.
+00:01:12  Boa noite, Renata.
+00:01:13  Eu, a partir de agora, vou chamá-lo de candidato, porque o contexto da nossa entrevista é a campanha eleitoral
+00:01:18  e o tempo começa a ser contado a partir desse instante. Tudo bem?
+00:01:21  Tudo bem.
+00:01:22  Então, vamos lá.
+00:01:23  O senhor busca o quarto mandato em situação mais adversa do que aquela de quando conseguiu os dois anteriores e o atual.
+00:01:32  Eu não me refiro só à desvantagem na votação do segundo turno, do primeiro turno.
+00:01:36  Eu falo também do fato de que, desde o início do ano, quase que o tempo inteiro, os brasileiros rejeitaram majoritariamente o seu governo.
+00:01:45  O senhor já atribuiu esse quadro às situações de conjuntura e também disse recentemente que a sua campanha foi desorganizada.
+00:01:53  Tem alguma coisa que o senhor considere responsabilidade sua?
+00:01:57  Alguma coisa que o senhor olhe para trás e hoje teria feito de maneira diferente?
+00:02:00  Eu acho que tudo é responsabilidade minha, Renata.
+00:02:04  Veja, eu sou o governo.
+00:02:06  Então, se eu não conseguir ser compreendido pela sociedade brasileira sobre o governo confins, eu não posso ficar jogando a culpa em ninguém.
+00:02:13  Eu tenho que jogar a culpa em mim.
+00:02:15  Porque se quando as coisas dão certo, sou eu que ganho, quando elas não dão certo, sou eu que perco.
+00:02:20  Então, a responsabilidade é toda minha.
+00:02:22  Eu acho que nós tivemos alguma dificuldade.
+00:02:26  Veja, foram dois anos e meio para tentar recuperar o país.
+00:02:29  Eu tenho clareza que quando o povo votou em mim, Renata, ele votou em mim com a cabeça no final do meu mandato de 2010,
+00:02:37  em que a gente estava vivendo um momento de ouro.
+00:02:39  A gente era a sétima economia do mundo.
+00:02:41  A economia crescia a 7,5% ao ano e tínhamos criado 22 milhões de empregos em oito anos.
+00:02:48  Ora, a situação hoje é diversa.
+00:02:50  Nós passamos dois anos tentando recuperar esse país.
+00:02:54  Foram dez ministérios desmontados.
+00:02:56  Quase tudo estava desmontado nesse país.
+00:02:58  A economia, você lembra, que nós tivemos que fazer uma PEC da transição para começar governando antes de eu tomar posse,
+00:03:06  porque não tinha dinheiro para nada.
+00:03:08  O orçamento não tinha deixado dinheiro para o Bolsa Família, para a educação, para a saúde.
+00:03:13  Nós tivemos que construir.
+00:03:14  Nós passamos dois anos, ou seja, eu acho que nós fizemos muita coisa, muita coisa.
+00:03:19  Eu só lamento que eu não tenha tido a capacidade de fazer o povo compreender as coisas que eu fiz,
+00:03:24  porque foram muitas coisas.
+00:03:25  E por mais que a gente faça aqui no Brasil, sempre tem que fazer mais.
+00:03:29  Mas eu estou consciente que vou ganhar as eleições dia 25 de outubro.
+00:03:33  Deixa eu retomar esse momento que o senhor mesmo menciona, de quando o senhor ganha a eleição quatro anos atrás.
+00:03:38  O senhor venceu naquela altura com o apoio de forças políticas mais ao centro,
+00:03:43  que acabaram não tendo lugar no seu governo.
+00:03:45  Agora, se o senhor venceu, o senhor vai enfrentar um congresso eleito mais hostil do que o atual,
+00:03:51  e o atual já não facilitou a sua vida.
+00:03:54  O senhor acha que, diante desse contexto, seria sustentável um novo governo do PT
+00:04:00  que não tivesse essa característica de uma frente mais ampla de apoios,
+00:04:05  justamente essa frente que não vingou no mandato que está acabando agora?
+00:04:09  Renata, não é verdade isso, Renata.
+00:04:12  Deixa eu lhe falar alguma coisa.
+00:04:14  Eu fui eleito tendo 70 deputados no meu partido de 513 e tendo 9 senadores de 81.
+00:04:21  E nós aprovamos 99% de tudo que a gente fez aqui no Congresso Nacional, tudo,
+00:04:27  até uma reforma tributária que havia há 40 anos que nós queríamos aprovar.
+00:04:31  E, mais importante, todos os partidos, com exceção do PL, participaram do meu governo.
+00:04:37  Todos.
+00:04:38  Todos.
+00:04:39  Todos participaram do ministério do meu governo.
+00:04:42  O PP participou, o União Brasil participou, o PSD participou, o PMDB participou.
+00:04:51  Ou seja, nós tivemos uma grande participação das pessoas no governo.
+00:04:54  É por isso que nós conseguimos aprovar tudo.
+00:04:57  E, se não for assim, você não governa o país.
+00:05:00  Ou seja, uma coisa é as eleições que você disputa, mas, quando você ganha,
+00:05:04  você precisa pensar na governabilidade e você precisa construir um bloco
+00:05:08  que dê sustentação no Congresso Nacional.
+00:05:11  E nós fizemos isso e aprovamos 99% de tudo que a gente queria aprovar, Renata.
+00:05:17  Deixa eu só fazer duas ponderações, presidente, se o senhor julgar pertinentes.
+00:05:21  Primeiro, que esses partidos que participaram do seu governo com ministérios
+00:05:25  não estão com o senhor na reeleição.
+00:05:28  E o senhor, de fato, aprovou coisas importantes.
+00:05:30  O senhor citou a reforma tributária.
+00:05:32  Mas eu lembro também que o senhor teve revéses importantes.
+00:05:34  O governo viu um desmonte grande de legislação ambiental.
+00:05:39  As emendas foram uma dureza de negociar.
+00:05:41  E o senhor teve essa situação praticamente inédita de ver um ministro indicado pelo senhor
+00:05:47  para o Supremo ser rejeitado pelo Senado.
+00:05:49  É por isso que eu estou dizendo isso.
+00:05:50  Mas não quero estender muito essa discussão, porque tem um assunto correlato aqui,
+00:05:54  que é a pressão sobre o seu governo vinda dos Estados Unidos.
+00:05:57  Achei esse um tema importante para colocar aqui.
+00:05:59  O seu governo vive sob essa pressão praticamente desde que Donald Trump voltou à Casa Branca.
+00:06:04  As suas interações com ele transcorreram sem incidentes, às vezes em tom até amigável.
+00:06:10  Mas, de concreto, a gente teve duas rodadas de tarifaço e uma clara preferência do governo americano
+00:06:16  pela vitória do seu adversário.
+00:06:18  A minha pergunta é, se o senhor prevalecer nas urnas, como é que o senhor pretende lidar com essa realidade
+00:06:24  e com uma vizinhança aqui na América do Sul, quase toda colocada já na órbita dos interesses dos Estados Unidos?
+00:06:32  Renata, só para te dar uma informação, nem em 2006, quando eu fui candidato à reeleição,
+00:06:37  eu pedo para os meus ministros fazerem campanha para mim.
+00:06:40  Ou seja, eu chamei os ministros para participar do meu governo, para me dar governabilidade.
+00:06:45  Mas no processo eleitoral, cada um vai cuidar do seu partido.
+00:06:50  Isso não é o meu problema, não é o meu drama.
+00:06:53  Eu nunca procurei os partidos para me apoiar nessa campanha.
+00:06:57  Cada um apoia quem quiser.
+00:06:59  Agora, com relação ao presidente Trump, veja, eu acho que a minha relação com o Trump foi a relação mais civilizada
+00:07:07  que eu acho que ele já teve com o outro presidente da República.
+00:07:10  Ela começou muito tensa.
+00:07:12  Eu disse ao Trump que era importante que dois homens de 80 anos, sabe,
+00:07:17  tivessem juízo e se entendesse, porque não era possível a gente ficar passando desavença
+00:07:22  entre as duas maiores democracias do Ocidente.
+00:07:28  Ele concordou comigo.
+00:07:29  Nós tivemos três reuniões.
+00:07:31  A última foi quase uma hora e meia por telefone que eu liguei para ele para reclamar do comportamento
+00:07:36  do Conselho de Segurança da ONU.
+00:07:38  E nós estamos negociando.
+00:07:39  Essa semana mesmo, o meu ministro da Indústria do Comércio,
+00:07:41  o meu ministro das Relações Exteriores,
+00:07:45  e estiveram negociando com os Estados Unidos.
+00:07:49  Eu acho que nós vamos chegar no acordo.
+00:07:52  Agora, qual é o meu problema?
+00:07:53  Qual é a minha coisa que me deixa tranquilo?
+00:07:56  É que, embora a gente tenha perdido 9% na relação comercial com os Estados Unidos,
+00:08:02  nós crescemos 20% com a China,
+00:08:04  crescemos 15% com a Indonésia,
+00:08:06  16% com a Alemanha,
+00:08:08  13% com o Vietnã,
+00:08:10  e crescemos em 50 países que nós visitamos,
+00:08:13  em média 10,5% a mais.
+00:08:15  E outra vez, nós batemos récitos, sabe,
+00:08:18  de superávit comercial, sabe?
+00:08:20  Então, quem deve estar preocupado conosco nesse momento é os Estados Unidos.
+00:08:25  Porque, veja, eu não fiz a lei da reciprocidade,
+00:08:27  não quero fazer,
+00:08:29  eu quero continuar negociando.
+00:08:31  Mas, se for necessário fazer, nós vamos fazer,
+00:08:33  e eu acho que eles vão ter problema conosco.
+00:08:35  Por quê?
+00:08:36  Porque nós temos coisas que eles precisam
+00:08:38  mais do que coisas que eu preciso dele.
+00:08:42  Ok.
+00:08:42  Vamos aproveitar essa questão dos Estados Unidos
+00:08:44  para tratar de outra que está no topo das preocupações dos brasileiros,
+00:08:49  que é a questão da segurança pública.
+00:08:51  O seu governo é contra a decisão do governo americano
+00:08:54  que classificou como organizações terroristas,
+00:08:57  facções criminosas,
+00:08:59  entre elas, PCC e Comando Vermelho.
+00:09:01  É contra por considerar que isso não resolve o problema
+00:09:04  e ainda abre caminho para a ingerência americana aqui.
+00:09:08  Mas a população é a favor.
+00:09:10  A população brasileira,
+00:09:11  uma pesquisa de junho do Datacolha,
+00:09:13  aponta que dois terços, aproximadamente,
+00:09:17  concorda total ou parcialmente com essa designação.
+00:09:21  O senhor acha que esse é um caso
+00:09:23  em que o governo falhou em explicar ao público as suas razões
+00:09:27  ou que o eleitor pode ter um ponto que o governo ainda não entendeu?
+00:09:31  Não, veja, é um ponto que os Estados Unidos não entendem.
+00:09:34  Porque quando os Estados Unidos falam em terrorismo,
+00:09:37  ele fala em terrorismo de Estado.
+00:09:39  Ele fala em terrorismo como aqueles que atentaram contra as duas torres americanas,
+00:09:44  quando aquele que quer dar o golpe de Estado.
+00:09:46  Não é o caso da facção de do crime organizado no Brasil,
+00:09:50  que ele só quer o dinheiro.
+00:09:51  Então, o que nós temos consciência de que aqui no Brasil,
+00:09:55  tanto o PCC e o Comandante Vermelho
+00:09:57  são terroristas para a comunidade brasileira
+00:10:00  e para os bairros brasileiros e para as cidades.
+00:10:03  Mas não é o terrorismo de Estado que os Estados Unidos quer que seja.
+00:10:07  Então, o que nós estamos fazendo?
+00:10:09  Nós oferecemos ao presidente Trump
+00:10:11  uma proposta de combater o crime organizado,
+00:10:15  combater o narcotráfico,
+00:10:17  fazendo tudo aquilo que nós já temos feito de experiência
+00:10:20  com a política federal brasileira,
+00:10:22  levamos por escrito para ele
+00:10:23  e nós criamos, aprovamos a lei contra a lei anti-facção,
+00:10:28  que aumenta a pena dos bandidos.
+00:10:30  Porque o meu lema agora é o seguinte,
+00:10:31  a Constituição brasileira nunca permitiu
+00:10:34  que a União se metesse na segurança pública,
+00:10:36  é a questão do Estado.
+00:10:37  Eu agora quero me meter, por isso que nós mandamos a PEC.
+00:10:40  Porque eu quero definir o seguinte,
+00:10:41  eu quero definir para o trabalhador,
+00:10:43  para a comunidade, para o território,
+00:10:46  o que nós queremos é tranquilidade, segurança e proteção.
+00:10:50  Para os bandidos, a gente vai querer prisão.
+00:10:52  Por isso que eu mandei a PEC,
+00:10:54  porque eu quero aprovar ela que realmente é da segurança pública
+00:10:56  e definir o papel da União no combate ao crime organizado,
+00:11:01  porque os Estados não tiveram competência de fazer.
+00:11:05  Eu já vou fazer para o senhor uma pergunta relativa à PEC,
+00:11:07  mas antes eu quero pegar essa questão da violência
+00:11:09  do jeito que ela é mais sentida pela população.
+00:11:13  E eu cito aqui um dado do Fórum Brasileiro de Segurança Pública.
+00:11:16  Quase 80% dos brasileiros têm medo de serem roubados na rua,
+00:11:20  principalmente celular, inclusive a mão armada.
+00:11:23  Medo também de serem mortos em assalto
+00:11:26  ou de serem vítimas de golpe digital.
+00:11:29  O senhor tem falado bastante na importância de atacar
+00:11:31  o que o senhor chama de andar de cima do crime,
+00:11:34  de asfixiar financeiramente as facções.
+00:11:36  Mas o senhor tem também ideia do que fazer na ponta
+00:11:40  para atacar o problema do jeito que ele é vivido
+00:11:44  pelo cidadão no seu cotidiano?
+00:11:45  É por isso que eu quero participar da segurança pública
+00:11:48  com muita força, porque aprovada a PEC,
+00:11:51  eu vou criar o Ministério da Segurança Pública,
+00:11:54  eu vou definir o orçamento que a gente vai colocar
+00:11:56  e definir qual é o papel da Polícia Federal,
+00:11:59  qual é o papel da Polícia Rodoviária Federal,
+00:12:01  qual é o papel da Polícia Penal.
+00:12:03  E nós vamos fazer uma coisa mais forte ainda.
+00:12:06  Nós vamos financiar 138 presídios em todo o território nacional.
+00:12:12  Sabe que são presídios de um dos bandidos comando o crime
+00:12:14  em cadeia de segurança máxima financiada pelo governo federal
+00:12:19  para que a gente possa evitar que os bandidos
+00:12:22  continuem sendo bandidos de dentro da cadeia.
+00:12:25  Foi preso, não é para telefonar.
+00:12:27  E a coisa mais importante é que nós precisamos
+00:12:28  dar segurança às pessoas.
+00:12:30  O que nós queremos é asfixiar o crime organizado
+00:12:33  e libertar os territórios para que o povo não seja vítima
+00:12:38  de dono de rua, de pessoas que interferem na compra de gás,
+00:12:42  que interferem no recebimento do bom da família.
+00:12:45  Ou seja, nós queremos libertar os territórios dos bandidos nesse país.
+00:12:49  Não apenas no Rio, no Brasil inteiro.
+00:12:51  Deixa eu aproveitar que o senhor falou dessa proposta de emenda à Constituição
+00:12:54  que, resumidamente, ela reorganiza o papel de cada um nesse assunto,
+00:12:58  ampliando o raio de ação do governo federal.
+00:13:01  Ela está sendo discutida, quase que...
+00:13:03  Foi discutida hoje, inclusive, enquanto a gente está conversando aqui
+00:13:06  e ainda está pendente de votação no Senado.
+00:13:11  E surgiu uma discussão agora de última hora, sobre a qual eu quero lhe ouvir.
+00:13:15  O seu ex-ministro da Educação, o senador Camilo Santana,
+00:13:19  apareceu com a ideia de redução da maioridade penal de 18 para 16 anos,
+00:13:24  no caso de crimes hediondos.
+00:13:26  Essa ideia, ela causou oposição em parte da bancada do PT no Senado,
+00:13:32  porque, historicamente, o PT foi contra a redução da maioridade penal.
+00:13:35  Acho uma boa oportunidade para o senhor me dizer qual é o seu pensamento sobre isso.
+00:13:38  O meu pensamento...
+00:13:39  O senhor é a favor da redução?
+00:13:41  O meu pensamento, enquanto cidadão brasileiro,
+00:13:43  todo e qualquer crime hediondo, eu estou favorável a diminuir a penalidade.
+00:13:49  Então, para crimes hediondos, o senhor é a favor de reduzir a maioridade penal?
+00:13:54  Agora, qual era o problema que estava?
+00:13:56  Era que a PEC não estava discutindo isso.
+00:13:59  A direita do PL tentou apresentar uma proposta reduzindo para 14 anos.
+00:14:06  E aí, o Camilo apresentou a proposta para 16.
+00:14:08  Então, só para a gente deixar bem claro, o senhor é a favor de reduzir para 16?
+00:14:12  Eu sou favorável a reduzir para 16, mas não discutindo nessa PEC.
+00:14:15  Porque essa PEC não é para discutir isso.
+00:14:17  Primeiro, você discuta a PEC, aprova a PEC,
+00:14:20  e aí você pode discutir a maioridade penal ou não.
+00:14:24  E eu acho que não apenas eu como cidadão, como ser humano.
+00:14:27  Eu acho que a sociedade brasileira inteira, sabe, é favorável à punição de qualquer crime hediondo.
+00:14:36  Ok, presidente, acho que a sua posição ficou clara.
+00:14:39  Eu agora quero retomar a questão das dificuldades que eu apontei, o senhor não concordou muito comigo,
+00:14:45  as dificuldades na relação com o Congresso, depois a gente pode continuar a falar sobre isso.
+00:14:50  E essas dificuldades, eu lembro, somadas à tentativa de golpe na transição,
+00:14:55  fizeram com que o senhor se valesse bastante do Supremo neste seu terceiro mandato,
+00:15:00  Supremo que está às voltas agora, com a maior crise de reputação da sua história,
+00:15:04  por causa do caso Master.
+00:15:06  O senhor fez várias observações sobre o Supremo,
+00:15:09  mas demorou a comentar mais com clareza as suspeitas que pairam sobre vários ministros.
+00:15:15  E só agora, depois do primeiro turno, o senhor usou uma palavra mais dura,
+00:15:20  promiscuidade, para se referir ao que acontece no tribunal.
+00:15:24  O senhor diria que o seu desempenho nas urnas no primeiro turno foi afetado pela crise do Supremo?
+00:15:31  Não tenho uma avaliação disso, Renata, sinceramente eu não tenho.
+00:15:35  Obviamente que a extrema-direita tenta jogar a Suprema Corte nas minhas costas,
+00:15:40  porque eles querem caçar o Alexandre de Moraes, não é por conta do Banco Master apenas,
+00:15:47  eles querem caçar o Alexandre de Moraes, porque o Alexandre de Moraes prendeu o pai do Flávio Bolsonaro.
+00:15:52  Essa que é a questão que está em jogo.
+00:15:54  Essa que é a questão.
+00:15:55  E hoje a Política Federal esteve no Rio de Janeiro interferindo numa das pessoas importantes do clã do Bolsonaro,
+00:16:02  o Canelas, que foi preso, e que a mãe do Flávio ia ser suplente dele no Senado.
+00:16:10  Deixa eu não perder um pouco o assunto aqui, porque o senhor estava falando do Supremo,
+00:16:15  o senhor mencionou o ministro Alexandre, e eu tenho uma outra pergunta complementar sobre isso.
+00:16:19  Acho que vai dar uma possibilidade do senhor esclarecer.
+00:16:22  O senhor tem defendido mesmo que se apurem todas as responsabilidades.
+00:16:27  Mas eu me pergunto se não fica difícil para a população considerar que é esse mesmo o propósito do governo,
+00:16:33  se de repente um ministro como Flávio Dino, que foi indicado pelo senhor, é seu aliado histórico,
+00:16:40  chega lá e faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes,
+00:16:47  que de fato, candidato, é o ministro até aqui mais implicado com o Daniel Vorcaro.
+00:16:53  Era o mais implicado, era o mais implicado, o Toffoli também está implicado, o André Mendoza também está implicado,
+00:17:01  e o Castro está implicado, agora está todo mundo implicado.
+00:17:04  Então, o que nós queremos?
+00:17:05  Mas, Lili, parece que a gente está tratando casos diferentes de maneira igual.
+00:17:09  Eu não tenho como interferir na decisão de um ministro da Suprema Corte.
+00:17:13  Eles pedem vista quando querem pedir vista e não pedem vista.
+00:17:16  Por que o Flávio Dino pediu vista?
+00:17:17  Porque o Flávio Dino queria que todos fossem jogados na mesma sessão.
+00:17:21  Na mesma sessão.
+00:17:22  Porque a denúncia palha sobre todos.
+00:17:25  Hoje a denúncia palha sobre todos.
+00:17:27  Então, o Flávio Dino fez aquilo que é de direito dele.
+00:17:30  Eu não tenho nenhum conhecimento jurídico, mas também se o Flávio Dino estava certo ou não, de pedir vista.
+00:17:35  Todo dia se pede vista alguma coisa lá.
+00:17:38  O dado concreto, o dado concreto é que eu vou dizer o que eu já disse na outra entrevista que eu fiz aqui,
+00:17:42  que eu disse o seguinte, não é possível imaginar que a sociedade brasileira vai aceitar
+00:17:48  que não seja apurado tudo e sobretudo, e que não fique pedra sobre pedra,
+00:17:55  e que se puna quem precisar punir.
+00:18:00  Não tem como imaginar que a sociedade vai aceitar que se coloque um tapete
+00:18:04  em cima disso e se esqueça o que aconteceu.
+00:18:07  não, é muito grave.
+00:18:10  Inclusive, a partir do que aconteceu, a gente vai ter que discutir a necessidade de uma reforma do Poder Judiciário,
+00:18:17  que, aliás, a primeira foi eu que fiz.
+00:18:18  Você está lembrado?
+00:18:19  Eu, o Jobim, quando era presidente da Suprema Corte, e o Márcio Tomás Batos, que era ministro da Justiça,
+00:18:24  nós fizemos a primeira reforma.
+00:18:26  E agora vai ter que fazer uma outra reforma.
+00:18:28  Nós temos que começar a discutir critério para escolher as pessoas.
+00:18:32  Nós temos que discutir mandato para as pessoas.
+00:18:34  Nós temos que discutir se uma pessoa que quer ser ministro da Suprema Corte,
+00:18:38  ele pode ser um cara que tem um escritório que ademogue na própria Suprema Corte.
+00:18:42  Sabe, essa confusão toda trouxe um debate que será irreversível, será irreversível no próximo ano.
+00:18:51  Irreversível.
+00:18:52  A sociedade está a exigir, Renata.
+00:18:54  Então, é o seguinte, ninguém está acima da lei, nem os ministros da Suprema Corte.
+00:18:59  Nem os ministros da Suprema Corte, que têm que passar para a sociedade a ideia ética, a ideia da pobreidade.
+00:19:06  Ou seja, não é possível que apareça na Suprema Corte tantas e tantas denúncias,
+00:19:12  tantas coisas de orgia, de mulher, de dinheiro.
+00:19:15  Não é possível, Renata.
+00:19:17  A sociedade brasileira, ela precisa que seja por água.
+00:19:20  E que eu já conversei três vezes com o presidente Fachin,
+00:19:24  dizendo que é importante que ele, enquanto for presidente, faça a apuração que tiver que fazer e que julgue.
+00:19:32  Que julgue, porque senão o Congresso vai fazer.
+00:19:35  Deixa eu aproveitar que o senhor fez essa observação de que são vários ministros.
+00:19:40  E ali nós temos várias coisas, né?
+00:19:42  Tem suspeitas de corrupção mesmo e tem também uma politização do tribunal.
+00:19:46  Ministros aliados de um lado, ministros aliados de outro.
+00:19:49  Isso me leva a um outro personagem, candidato, que é o diretor-geral da Polícia Federal, Andrei Rodrigues.
+00:19:56  Muitos dos seus adversários apontam uma proximidade grande dele com o senhor,
+00:20:00  sendo que ele comanda uma das corporações mais bem informadas da República.
+00:20:05  Ele esteve numa festa do Daniel Vorcário em Londres,
+00:20:09  quando o Banco Central já apurava irregularidades no Master
+00:20:13  e já havia inquérito na PF de São Paulo sobre o Master.
+00:20:18  O senhor, se reeleito, vai manter Andrei Rodrigues no comando da Polícia Federal?
+00:20:23  Primeiro, ele não é ligado a mim.
+00:20:26  Ele é o diretor-geral da Polícia Federal que eu escolhi.
+00:20:31  E está fazendo um extraordinário trabalho.
+00:20:33  E quando eu fiquei sabendo que ele tinha ido a Londres,
+00:20:36  eu chamei ele a atenção de que o papel do diretor da Polícia Federal
+00:20:40  não permite que ele estivesse a Londres.
+00:20:44  Não permite.
+00:20:46  Ele me deu uma explicação, sabe?
+00:20:48  Não foi convincente para mim.
+00:20:50  Não foi convincente?
+00:20:50  Não foi convincente para mim.
+00:20:52  Ele não precisava ter ido.
+00:20:53  Não precisava ter ido.
+00:20:55  Aliás, ninguém precisava ter ido para aquela festa.
+00:20:57  Ninguém.
+00:20:58  Agora, sabe, ele sabe que eu o reprendi, ele alertei o ministro da Justiça.
+00:21:03  Agora, ele é um extraordinário delegado que tem feito um trabalho excepcional.
+00:21:07  E só para a gente encerrar esse assunto, eu volto à minha primeira pergunta.
+00:21:10  O senhor pretende mantê-lo no comando da Polícia Federal se o senhor for reeleito?
+00:21:14  Primeiro, eu preciso ganhar as eleições.
+00:21:16  Primeiro, eu preciso ganhar as eleições.
+00:21:17  Se eu ganhar as eleições, eu vou escolher as pessoas como eu escolhi outra vez.
+00:21:21  Eu não vou dizer aqui que eu vou escolher quem que vai ficar, quem que vai sair.
+00:21:25  Eu vou escolher ministro.
+00:21:27  Você não tem noção da quantidade de gente que manda cartão para mim.
+00:21:29  Não indica o ministro tal.
+00:21:31  Indica fulano para o ministro.
+00:21:32  Indica a mulher para a Suprema Corte.
+00:21:34  Não.
+00:21:35  Eu primeiro tenho que ganhar as eleições.
+00:21:37  Quando eu ganhar as eleições, eu vou sentar e vou montar o time outra vez.
+00:21:42  Deixa eu aproveitar que a gente está tratando de caso máster e que nós falamos de Polícia Federal
+00:21:46  para lembrar do momento em que o senhor recebeu o Vorcaro no Palácio do Planalto.
+00:21:50  Era dezembro de 2024.
+00:21:51  Ele foi levado ao senhor pelo seu ex-ministro da Fazenda, Guido Mântega, que naquela altura
+00:21:56  trabalhava para o máster.
+00:21:58  Vorcaro já era alvo naquela ocasião, como eu disse, de procedimentos formais no Banco
+00:22:04  Central e também naquele mesmo ano de um inquérito da Polícia Federal.
+00:22:08  Ocorria em São Paulo esse inquérito.
+00:22:10  Não era o caso da PF ter avisado o senhor sobre o que pesava contra Daniel Vorcaro no momento
+00:22:18  em que o senhor recebe ele no Planalto?
+00:22:19  Ô, Renata, veja, ele foi me procurar como todos que estão com problema vão me procurar.
+00:22:26  O que você acha que o Silvio Santos fez quando o Banco Pan-Americano deu problema?
+00:22:31  Foi me procurar.
+00:22:32  O que você acha que o Banco de Santos fez?
+00:22:34  Foi me procurar.
+00:22:35  O que você acha do Banco da Igreja de Macedo fez?
+00:22:38  Foi me procurar.
+00:22:39  Todos vão me procurar.
+00:22:41  E o que eu falo é o seguinte, o Banco Central não investiga politicamente.
+00:22:46  O Banco Central vai investigar tecnicamente.
+00:22:49  Se tiver problema técnico e for necessário fechar, o banco fecha.
+00:22:53  Se não tiver problema técnico e for preciso que o banco continue funcionando, vai continuar
+00:22:58  funcionando.
+00:22:58  E foi assim que o Galipo se posicionou, foi assim que eu pedi para ele comunicar ao Procurador-Geral
+00:23:04  da República, foi assim que o Haddad se posicionou.
+00:23:08  Ou seja, ninguém é condenado a prior.
+00:23:10  O cidadão me procurou, porque eu estou me perseguindo politicamente.
+00:23:14  Até disse o nome das pessoas que estavam perseguindo.
+00:23:16  E eu disse o seguinte, você não vai ter perseguido, você vai ter investigado.
+00:23:20  E um mês depois o banco fechou, porque ele estava errado.
+00:23:23  É assim que as coisas acontecem.
+00:23:26  É assim que as coisas acontecem.
+00:23:27  Deixa eu aproveitar que o senhor falou da necessidade de reformas.
+00:23:30  O senhor estava se referindo ao Judiciário, ao Supremo Tribunal Federal,
+00:23:34  e que a gente está falando de Caus Master, para eu colocar aqui um outro personagem,
+00:23:38  para ele perguntar sobre um outro tipo de reforma.
+00:23:40  Eu falo de Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado
+00:23:45  do Daniel Vorcaro, quando o senhor chamou ele para ser ministro da Justiça.
+00:23:50  Aí aconteceu o quê?
+00:23:50  A família dele manteve o contrato que ele tinha com o Daniel Vorcaro.
+00:23:56  E daí nós tivemos o ministro da Justiça, que comanda a PF, o escritório da família,
+00:24:02  mantendo o contrato com o Daniel Vorcaro, que já era um personagem investigado pela Polícia Federal.
+00:24:08  O senhor entende que aí cabe um outro tipo de reforma, presidente?
+00:24:11  De conduta na administração pública, regras éticas para ir e vir do setor privado.
+00:24:17  O senhor acha que isso?
+00:24:18  Acho, Renata, que nós temos que mudar muitas coisas.
+00:24:21  O Lewandowski foi o extraordinário ministro da Suprema Corte brasileira.
+00:24:26  Quando ele deixou o ministério, quando ele deixou a Suprema Corte, ele foi trabalhar por conta dele.
+00:24:32  Eu não tenho emprego para oferecer para ele e também não sei onde ele foi trabalhar.
+00:24:36  Quando eu resolvi indicar o ministério da Justiça, eu o convidei.
+00:24:39  Ele largou a assessoria e veio.
+00:24:41  E foi um belo ministro da Justiça para mim, um belíssimo ministro.
+00:24:45  Tenho saudade deles, porque foi um belíssimo ministro da Justiça.
+00:24:49  Agora cada um segue a sua vida.
+00:24:51  Quem errou e aparecer vai ser apurado.
+00:24:53  Não tem como o presidente da República ficar acompanhando a vida das pessoas.
+00:24:57  Não existe possibilidade de acompanhar.
+00:25:00  O que existe é o seguinte, eu acho, acho, que não cabe ao presidente proibir ninguém.
+00:25:05  Ninguém.
+00:25:06  Trabalhar onde quer que seja.
+00:25:07  As pessoas têm uma quarentena, cumprem a quarentena e depois vão cuidar das suas vidas.
+00:25:11  É assim que funciona a máquina pública.
+00:25:14  Agora, o que eu penso claramente é o seguinte, nós vamos fazer um levantamento.
+00:25:17  A partir de tudo isso que aconteceu, que é uma coisa muito importante para o Brasil,
+00:25:23  parece uma coisa grave, demais grave, mas é importante a gente ter aproveito do que aconteceu
+00:25:29  para que a gente tente moralizar muitas coisas no país.
+00:25:33  E essa é a minha determinação.
+00:25:35  Nós vamos trabalhar para investigar tudo.
+00:25:38  Não há possibilidade nenhuma das coisas serem acobertadas.
+00:25:42  Não há.
+00:25:43  Cada dia eu vejo a notícia, cada dia eu vejo uma coisa que é inacreditável você imaginar.
+00:25:51  As festas noturnas, a quantidade de mulheres, a quantidade de pessoas envolvidas.
+00:25:56  Ou seja, da República, envolvendo o ministro da Suprema Corte, que é a estança maior desse país.
+00:26:03  Quando eles tomam a decisão, ninguém pode mais tomar decisão, ninguém pode voltar atrás.
+00:26:08  Então, nós temos que aproveitar esse acontecimento para colocar um fim e criar um comportamento ético mais adequado.
+00:26:18  Eu já disse uma vez, quem quiser ser rico não pode ser ministro da Suprema Corte.
+00:26:22  Ali é um sacerdócio.
+00:26:23  Alguém vai aproveitar o serviço à nação brasileira e cumprir a nossa Constituição.
+00:26:29  E é por isso que eu estou defendendo o mandato.
+00:26:31  Agora, eu não sou jurista.
+00:26:33  Eu não tenho como eu fazer um projeto.
+00:26:34  Eu vou ter que montar uma comissão de especialistas e discutir que reforma a gente vai propor ao Brasil.
+00:26:40  Deixa eu passar agora para assuntos importantes de interesse do país, de interesse dos brasileiros
+00:26:47  e que foram objeto de anúncios do governo neste ano eleitoral, alguns já bem próximos da eleição.
+00:26:53  Eu acho que o de maior alcance talvez tenha sido o reajuste do Bolsa Família, o primeiro no seu atual mandato.
+00:26:59  O que levanta a questão, por que o principal programa social do governo só foi reajustado 17 dias antes do primeiro turno?
+00:27:07  Eu não quero que você ouça a reunião que eu tive com meus ministros quando eu fiquei sabendo que o Bolsa Família não tinha sido reajustado.
+00:27:15  O senhor não sabia?
+00:27:16  Eu não sabia, porque é inexplicável, Renata, é inexplicável que no governo do Lula alguém pense não reajustar, sabe, a inflação no salário das pessoas.
+00:27:28  É impensável.
+00:27:30  Mas aconteceu.
+00:27:32  Aconteceu e eu tomei a decisão.
+00:27:34  A gente vai dar e vai dar tudo o que a gente não deu.
+00:27:37  A gente está perdendo nunca mais.
+00:27:38  Deixa eu fazer uma última pergunta sobre esse assunto.
+00:27:41  Porque a questão do calendário, eu acho importante da gente entender.
+00:27:44  No dia 31 de agosto, duas semanas antes do anúncio, o seu governo mandou para o Congresso a proposta de orçamento de 2027.
+00:27:52  E ali não tinha correção do Bolsa Família.
+00:27:55  O que aconteceu, além dessa reunião aí com o senhor?
+00:27:58  Apareceu um espaço fiscal que a equipe econômica não tinha chegado antes?
+00:28:01  Não, aconteceu que eu fiquei sabendo que não tinha sido aumentado o Bolsa Família.
+00:28:05  E eu fui perguntar por que não aumentaram o Bolsa Família.
+00:28:08  Se tem espaço fiscal para aumentar, por que não aumentaram?
+00:28:12  Aí tomei a decisão de mandar dar o Bolsa Família.
+00:28:15  Mantei, tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal.
+00:28:19  É importante lembrar, Renata, que nós apresentamos um orçamento com superávit primário.
+00:28:26  0,1%, é pouco, mas é importante lembrar que eu peguei com um déficit de 2,8%.
+00:28:31  É importante lembrar.
+00:28:32  Eu prometo que eu não vou iniciar aqui uma discussão sobre orçamento,
+00:28:35  mas a gente precisa lembrar que tem muita gente séria, instituição fiscal independente,
+00:28:40  achando que as receitas estão superestimadas para chegar aí nesse superávit.
+00:28:43  Mas a gente volta já já.
+00:28:45  Presidente, eu vou lhe pedir licença, a gente tem que fazer um intervalo.
+00:28:48  Voltamos já já com a entrevista do candidato Luiz Inácio Lula da Silva.
+00:29:09  Em uma hora, pessoas serão forçadas a fugir de suas casas às pressas.
+00:29:18  Em duas horas, o desespero da multidão irá separar crianças de suas famílias.
+00:29:30  Em três horas, uma família terá perdido tudo.
+00:29:37  Não pode deixar, Renata, levar agora.
+00:29:40  Foi muito bom quando se falou do Supremo,
+00:29:43  quando fez a demarcação em relação às ações do seu governo.
+00:29:52  Agora a gente tem que falar mais da vida do povo e confrontar com o Flávio Bolsonaro.
+00:29:56  Nós estamos num confronto direto com ele.
+00:29:59  Até nos Estados Unidos, quando perguntaram do Trump,
+00:30:03  tem que falar que o papel deles é o tempo inteiro o papel de prejudicar o Brasil,
+00:30:09  de conspirar com o Trump para impor sanções ao nosso país.
+00:30:15  Ou seja, você perguntar se o presidente está indo bem, está.
+00:30:18  Só tem que ser mais incisivo.
+00:30:21  Eu vou parar agora, vou voltar.
+00:30:22  E tem que falar o nome do Flávio Bolsonaro.
+00:30:25  E tem que falar da pobreza que existe no país, da fila do osso.
+00:30:29  Vamos com tudo, pessoal.
+00:30:30  Nós vamos ganhar essa eleição.
+00:30:32  Eu estou aqui assistindo, torcendo,
+00:30:34  mas eu acho que a chave do segundo bloco
+00:30:36  é centrar na vida das pessoas.
+00:30:40  Vamos lá.
+00:30:41  A gente tem um estado crítico e gravemente desnutrido.
+00:30:45  Ela temia estar perdendo seu filho.
+00:30:48  Mas com o tratamento, Bará ganhou 3 quilos em dois meses.
+00:30:53  Por favor, doe agora.
+00:30:55  Nenhuma criança deveria morrer de fome ou desnutrição
+00:30:58  quando algo tão pequeno pode fazer uma diferença tão grande.
+00:31:03  Dê um pacotinho de esperança hoje.
+00:31:06  Aponte a câmera do seu celular para ler o QR Code
+00:31:08  ou acesse doiunicef.org.br
+00:31:12  Obrigado.
+00:31:25  Estamos de volta para o segundo e último bloco da entrevista
+00:31:28  com Luiz Inácio Lula da Silva,
+00:31:30  que disputa a reeleição pelo PT.
+00:31:32  E o tempo, candidato, volta a contar agora.
+00:31:34  Vamos lá?
+00:31:35  A gente estava falando de assuntos importantes
+00:31:38  que foram temas de anúncio do governo.
+00:31:40  E eu queria falar agora de endividamento,
+00:31:42  que talvez não exista outro mais presente
+00:31:45  na vida dos brasileiros atualmente.
+00:31:48  Um estudo recente da Fundação Getúlio Vargas
+00:31:50  mostra que um em cada quatro brasileiros
+00:31:52  está contraindo dívida ou sacando de poupança
+00:31:55  para pagar contas básicas como água, luz e gás.
+00:31:59  Em agosto, o senhor deve conhecer bem esse número,
+00:32:02  eram 84 milhões de pessoas negativadas no Serasa.
+00:32:06  O seu governo já lançou três edições do programa Desenrola
+00:32:09  e elas são bem recebidas,
+00:32:11  porque as pessoas e as empresas estão, de fato, encalacradas.
+00:32:15  Mas o que acontece é que logo depois a inadimplência volta a subir.
+00:32:20  O seu governo, a sua equipe, tem remédio para curar e não só para baixar a febre desse mal
+00:32:28  que compromete a perspectiva de tantas famílias brasileiras?
+00:32:31  Renato, veja, quando eu tomei posse, nós tínhamos 78% da população endividada.
+00:32:38  Nós criamos o Desenrola 1.
+00:32:40  Depois, nós atendemos por volta de 15 milhões de pessoas.
+00:32:43  Não resolveu o problema.
+00:32:45  Nós criamos o Desenrola 2.
+00:32:47  Agora, nós criamos o Desenrola 3.
+00:32:49  E esse Desenrola 3, nós fizemos uma medida provisória.
+00:32:52  Ele está na Câmara, que é o seguinte,
+00:32:54  nós vamos fazer um leilão da dívida das pessoas.
+00:32:59  Nós trabalhamos com a expectativa de que os bancos vão vender a dívida
+00:33:03  descontando 90%, 92%, 93%.
+00:33:07  Nós achamos que vai acontecer isso.
+00:33:10  Então, nós estamos comprando a dívida de todas as pessoas
+00:33:13  que devem, acima de dois anos, até R$ 4 mil.
+00:33:17  Nós vamos comprar essa dívida.
+00:33:20  A União vai comprar essa dívida.
+00:33:21  Nós estamos achando que é possível a gente colocar uns R$ 150 bilhões
+00:33:26  para comprar essa dívida.
+00:33:28  Essa dívida existe hoje, R$ 150 bilhões.
+00:33:30  Se a gente compra ela por 5% do valor dela,
+00:33:33  a gente está fazendo um favor extraordinário
+00:33:36  a todo mundo que deve nesse país.
+00:33:39  Ao mesmo tempo, nós fizemos o perdão do MEI, que você viu.
+00:33:43  Nós descobrimos que tinha R$ 12,7 bilhões de dívida ativa da União.
+00:33:48  Dívida que a União não vai receber mais.
+00:33:51  Dívida que a União não vai receber mais.
+00:33:53  Mas que essas pessoas que estão devendo,
+00:33:55  essas pessoas não conseguem fazer novo negócio
+00:33:57  porque estão no cerava.
+00:34:00  Então, eu sugeri que a gente estudasse a possibilidade
+00:34:03  de anistiar essa dívida das pessoas,
+00:34:06  para as pessoas começarem uma vida nova.
+00:34:08  E, ao mesmo tempo, nós vamos disponibilizar
+00:34:12  uma espécie de crédito e um aval de R$ 5 mil
+00:34:16  para essas pessoas que zerarem a sua dívida começar uma vida nova.
+00:34:20  Ou seja, um recomeçar para que a gente coloque as pessoas,
+00:34:24  a economia, sabe, para andar a todo vapor.
+00:34:27  É o jeito que nós encontramos de reativar a economia,
+00:34:30  sobretudo para o pequeno e médio empreendedor brasileiro.
+00:34:33  Estamos fazendo isso com muita, com muita coisa,
+00:34:36  sem mexer no espaço fiscal.
+00:34:39  Como você entende de fiscal, então é importante você acompanhar.
+00:34:42  Deixa eu ouvir o senhor sobre uma questão de fundo,
+00:34:45  que é a questão dos juros,
+00:34:47  que o senhor também menciona muito
+00:34:48  quando a gente vai debater endividamento.
+00:34:51  No comando do Banco Central, que define a taxa básica,
+00:34:54  o senhor tem já há um ano e nove meses,
+00:34:56  a pessoa que o senhor escolheu, Gabriel Galípolo,
+00:34:59  e ele não só não viu espaço para reduzir de maneira significativa os juros,
+00:35:05  como num evento recente,
+00:35:07  ele disse que o modelo de crescimento,
+00:35:09  baseado no estímulo ao consumo, está esgotado.
+00:35:12  Ou seja, que se não cortar gasto,
+00:35:14  não tem como baixar juros e trazer mais crescimento.
+00:35:17  O senhor discorda dessa posição do seu presidente,
+00:35:19  indicado pelo senhor do Banco Central?
+00:35:21  Exatamente, deixa eu lhe falar.
+00:35:23  O jeito de você resolver o problema fiscal
+00:35:26  é fazer a economia ficar crescendo.
+00:35:29  É fazer a economia crescer, Renata.
+00:35:31  Eu estou com 80 anos de idade.
+00:35:33  Eu vivo isso há 50 anos, essa briga.
+00:35:36  Ou seja, toda vez que alguém quer resolver o problema fiscal,
+00:35:40  o povo pobre paga.
+00:35:41  Toda vez o povo pobre.
+00:35:42  E eu não quero que o povo pobre pague.
+00:35:44  Eu vou lhe contar um pequeno caso.
+00:35:45  Quando eu assumi a presidência em 2003,
+00:35:48  o Brasil era a 12ª economia do mundo.
+00:35:52  Devia 30 bilhões para o FMI e não estava crescendo.
+00:35:56  O que aconteceu?
+00:35:57  Quando eu deixei a presidência,
+00:35:58  o Brasil era a 7ª economia do mundo.
+00:36:00  Fizemos uma reserva de 270 bilhões de dólares,
+00:36:03  paguei os 30 bilhões do FMI
+00:36:05  e aí emprestei 15 bilhões depois da crise do subprime ao FMI.
+00:36:09  Agora, a mesma coisa.
+00:36:10  Eu peguei a economia outra vez, a 12ª.
+00:36:14  Hoje já é a 10ª.
+00:36:16  E nós, o ano que vem, vamos ter economia
+00:36:18  entre as 8ª economia do mundo.
+00:36:20  Porque é o único jeito de você fazer
+00:36:23  o déficit com relação à dívida diminuir
+00:36:25  é crescer a economia.
+00:36:27  Não é cortar do pobre.
+00:36:28  Quando o senhor fala isso, muitos economistas,
+00:36:31  inclusive economistas que apoiam o senhor até hoje
+00:36:34  ou já apoiaram o senhor,
+00:36:36  reclamam do fato que o senhor parece estar dizendo
+00:36:39  que quem se preocupa com os fundamentos da macroeconomia
+00:36:42  não está se preocupando com os mais pobres.
+00:36:45  Mas tem algumas realidades aí para colocar nessa discussão.
+00:36:47  Por exemplo, o fato da dívida pública ter crescido
+00:36:50  10 pontos percentuais no seu governo
+00:36:52  e de boa parte dos economistas considerar
+00:36:55  que a trajetória da dívida,
+00:36:56  mais até do que o valor dela,
+00:36:58  a trajetória da dívida é insustentável.
+00:37:00  Isso são realidades.
+00:37:01  E você acha que eu não estou preocupado?
+00:37:03  O senhor está preocupado com isso.
+00:37:04  Lógico que eu estou preocupado.
+00:37:05  Sou cogita.
+00:37:05  Não estou preocupado.
+00:37:06  Eu criei uma família com cinco filhos,
+00:37:08  eu sei o que é dívida.
+00:37:10  Sou cogita.
+00:37:10  Eu sei que se a gente perder o controle do nosso orçamento,
+00:37:15  eu sei que a coisa quebra e vai quebrar do lado mais pobre.
+00:37:18  Mas agora vamos falar da grande dívida,
+00:37:19  que é a dívida pública.
+00:37:21  Caso o senhor se reeleja,
+00:37:22  o senhor cogita tratar essa questão de uma outra maneira ou não?
+00:37:26  Eu posso te falar uma coisa, Renato,
+00:37:28  com todo o respeito.
+00:37:30  Veja, eu tenho divergência de muitos economistas,
+00:37:34  porque eu tenho uma tese econômica.
+00:37:36  A minha tese é o seguinte,
+00:37:37  muito dinheiro na mão de poucos é pobreza
+00:37:40  e pouco dinheiro na mão de muitos é riqueza.
+00:37:44  E é por isso que eu aposto muito na microeconomia.
+00:37:47  É por isso que eu aposto muito no microcredito.
+00:37:49  É por isso que eu aposto muito no MEI.
+00:37:51  É por isso que eu aposto muito no pequeno empreendedor.
+00:37:53  É por isso que nós fazemos a maior política de crédito
+00:37:56  que esse país já conheceu,
+00:37:57  fazendo com que as pessoas peguem dois, três, um, mil reais
+00:38:02  para eles fazerem as coisas crescerem.
+00:38:04  E as coisas dão certo.
+00:38:05  Eu cansei de brigar com Guido Mantel e com Meirelles.
+00:38:09  O que faz a economia do Brasil crescer é a chamada microeconomia,
+00:38:13  é fazer o dinheiro rodar na mão do povo.
+00:38:16  Se o dinheiro fica concentrado em meia dúzia de pessoas,
+00:38:19  o Brasil vai continuar pobre.
+00:38:21  Eu tinha acabado com a fome em 2014,
+00:38:23  quando eu voltei tinha 33 milhões de pessoas
+00:38:25  passando por uma outra vez, Renata.
+00:38:27  Não vou insistir nisso.
+00:38:28  Eu trato com muito respeito essa questão da dívida.
+00:38:32  Eu não quero que a dívida cresça.
+00:38:33  Agora, ao mesmo tempo, você tem que levar em conta, Renato,
+00:38:36  que se você fizer uma dívida e essa dívida for para contrair
+00:38:40  ou construir um ativo produtivo para o país,
+00:38:44  uma ferrovia, uma hidrelétrica, um porto que tenha recebíveis,
+00:38:49  é importante que você até tenha uma dívida.
+00:38:52  Candidata, essa é uma discussão longa
+00:38:53  e eu pretendo não seguir com ela aqui
+00:38:55  para a gente poder abordar outros assuntos,
+00:38:57  porque eu acho que o senhor já deixou claro
+00:38:58  que nessa matéria o senhor não está propondo uma correção de rumo.
+00:39:01  O senhor está propondo em seguir com a sua linha.
+00:39:03  Eu estou propondo não gastar,
+00:39:07  não cortar dinheiro dos pobres.
+00:39:08  Ok, vamos lá.
+00:39:10  Alguém está anunciando como meu adversário
+00:39:12  que não tem aumento do salário mínimo acima da inflação.
+00:39:15  No meu caso, tem.
+00:39:15  Deixa eu aproveitar para falar com o senhor de energia,
+00:39:19  aproveitando que a gente falou de conta de luz,
+00:39:21  porque esse é um assunto, o senhor sabe,
+00:39:22  que tem muito a ver com a questão do custo de vida.
+00:39:25  Eu quero ouvir o senhor sobre energia elétrica,
+00:39:26  porque é o principal insumo
+00:39:28  e é o maior fator de competitividade da nossa indústria.
+00:39:31  O Brasil tem uma matriz energética limpa,
+00:39:33  das mais limpas do mundo,
+00:39:35  produz energia a custo baixo,
+00:39:38  mas só este ano a tarifa já subiu o dobro da inflação.
+00:39:42  O seu governo fez um programa
+00:39:44  para ajudar os mais pobres,
+00:39:46  ampliou a tarifa social,
+00:39:48  mas tem uma parcela grande da população
+00:39:50  que está pagando mais.
+00:39:53  O senhor tem um plano,
+00:39:54  a sua equipe tem um plano
+00:39:55  para responder a essa situação dessas pessoas
+00:39:59  num eventual novo mandato?
+00:40:00  É importante lembrar que a grande parte da energia brasileira
+00:40:03  é privada hoje,
+00:40:05  porque fizeram o favor de vender tudo.
+00:40:09  Fizeram o favor de privatizar a Eletrobras
+00:40:12  a troco de banana.
+00:40:14  Então, o povo está pagando o preço,
+00:40:17  sabe?
+00:40:18  Que a gente nem sempre tem todo o total controle.
+00:40:21  Agora, o que vai acontecer?
+00:40:23  Nós estamos utilizando a questão energética
+00:40:25  para fazer, possivelmente,
+00:40:27  um dos polos de desenvolvimento desse país.
+00:40:30  porque através da produção de energia barata
+00:40:32  é que a gente vai fazer, sabe?
+00:40:35  A possibilidade de trazer data center para o Brasil
+00:40:37  para que a gente tenha a perspectiva
+00:40:40  de receber pelo menos uns 500 bilhões
+00:40:42  de reais de investimento
+00:40:44  em novas marquinhas energéticas
+00:40:45  para que a gente possa fazer os data centers
+00:40:47  e a gente pegar uma parte desse banco de dados
+00:40:51  para o governo brasileiro.
+00:40:52  Nós estamos trabalhando nisso.
+00:40:54  Nós estamos trabalhando também
+00:40:55  na questão da economia verde.
+00:40:57  Estamos trabalhando na economia criativa.
+00:40:59  Estamos trabalhando na economia digital
+00:41:00  para que a gente faça com que
+00:41:03  esse país absorva a energia
+00:41:07  e os ricos pagam um pouco mais
+00:41:08  como nós fizemos agora.
+00:41:10  Você está lembrado que o pobre
+00:41:11  pagava muita energia
+00:41:13  porque o pobre comprava do Estado
+00:41:15  e o rico comprava no mercado livre
+00:41:18  mais barato.
+00:41:19  Nós agora estamos permitindo
+00:41:21  que todo e qualquer cidadão
+00:41:23  possa ir para o mercado livre.
+00:41:25  Candidato, deixa eu dar uma acelerada aqui
+00:41:26  para que a gente consiga encaixar
+00:41:28  pelo menos mais um tema muito importante
+00:41:30  para a população, que é o tema da saúde.
+00:41:32  A principal queixa hoje
+00:41:34  é o tempo de espera
+00:41:35  para consultas especializadas,
+00:41:37  determinados exames, cirurgias eletivas.
+00:41:40  Um programa lançado pelo seu governo
+00:41:42  conseguiu ampliar o atendimento para isso.
+00:41:45  Mas o tempo de espera não diminuiu significativamente.
+00:41:48  Quem estuda a saúde pública
+00:41:50  vê esse seu programa como um paliativo,
+00:41:53  um paliativo necessário,
+00:41:54  mas não como uma mudança estruturante.
+00:41:57  Vocês têm plano de uma mudança
+00:41:59  que atenda essa demanda central
+00:42:01  dos usuários do SUS,
+00:42:03  que é o tempo de espera?
+00:42:04  Nós estamos, não só temos plano,
+00:42:06  como nós estamos colocando em prática.
+00:42:09  É que isso estava tudo desmontado, Renata.
+00:42:12  Só para você ter um dado,
+00:42:13  a gente tinha 20 e poucos mil médicos.
+00:42:18  Quando eu voltei para a presidência,
+00:42:19  tinha apenas 12 mil.
+00:42:20  Nós já contratamos 16 mil
+00:42:23  para ir para 28 médicos.
+00:42:25  Nós agora estamos criando mais especialistas
+00:42:27  para fazer com que todas as pessoas
+00:42:29  tenham direito ao segundo médico,
+00:42:32  ao segundo a consulta.
+00:42:33  Então, as coisas estão andando.
+00:42:35  É difícil, é.
+00:42:36  Mas nós vamos ter ainda esse ano
+00:42:37  150 carretas andando pelo Brasil,
+00:42:40  fazendo todos os exames que as mulheres precisam,
+00:42:43  sobretudo câncer de mama de mulher,
+00:42:45  câncer de útero, ou seja,
+00:42:46  e fazendo outras máquinas,
+00:42:48  retornada magnética,
+00:42:49  todas as imagens que as mulheres precisam.
+00:42:51  É uma revolução que está acontecendo.
+00:42:54  Sabe?
+00:42:55  Nós estamos, por exemplo,
+00:42:56  tratamento do câncer.
+00:42:57  Nós estamos trabalhando
+00:42:58  para que o Brasil,
+00:43:00  dentro de algum tempo,
+00:43:02  a gente possa ser o país
+00:43:03  que mais tem evoluído
+00:43:05  no tratamento de câncer no mundo.
+00:43:08  Porque estamos investindo muito.
+00:43:10  Ora, você não consegue resolver isso
+00:43:11  num mês ou num dois meses.
+00:43:13  Eu cheguei no governo,
+00:43:14  você tinha o país,
+00:43:15  10 mil bulanças se renovaram,
+00:43:17  nós vamos comprar 10 mil.
+00:43:18  nós precisamos fazer o Brasil sorridente
+00:43:21  voltar a funcionar,
+00:43:22  nós precisamos botar
+00:43:23  o farmáter popular
+00:43:24  voltar a funcionar.
+00:43:24  Só para ponderar...
+00:43:25  Agora, falta muito.
+00:43:26  Falta muito.
+00:43:27  Só para ponderar
+00:43:28  porque eu fiz essa pergunta,
+00:43:29  o programa a que eu me referi
+00:43:30  é o Mais Especialistas,
+00:43:32  que ampliou o atendimento,
+00:43:33  mas, segundo uma auditoria
+00:43:34  do próprio Tribunal de Contas da União,
+00:43:36  ainda não conseguiu
+00:43:37  resolver o problema
+00:43:39  do tempo de espera.
+00:43:40  Mas eu agradeço ao senhor...
+00:43:41  Mas veja um milagre
+00:43:42  que nós fizemos.
+00:43:43  Nós fizemos um convênio
+00:43:44  com hospitais particulares
+00:43:46  que estão pagando
+00:43:47  parte da dívida
+00:43:48  que tem com o Estado
+00:43:50  para atender pelo SUS.
+00:43:52  Nós estamos fazendo um convênio
+00:43:53  com todas as Santas Casas.
+00:43:55  Em 2025,
+00:43:56  nós fizemos 15 milhões
+00:43:58  de cirurgias eletivas.
+00:44:00  Esse ano,
+00:44:00  vamos fazer 16 milhões
+00:44:02  de cirurgias eletivas.
+00:44:05  Olha, ainda falta muito
+00:44:06  porque a filha é muito tempo.
+00:44:08  As pessoas esperavam
+00:44:09  dois anos, três anos.
+00:44:10  Agora, o que eu posso te dizer
+00:44:12  é que nós estamos andando.
+00:44:12  Eu vou ter que pedir.
+00:44:13  Eu gostaria muito de continuar.
+00:44:15  Eu tenho várias outras perguntas.
+00:44:16  A mão está levando o programa.
+00:44:17  Mas nosso tempo acabou.
+00:44:19  Eu agora lhe dou um minuto
+00:44:20  para as suas considerações finais.
+00:44:22  Eu queria só aproveitar
+00:44:23  e dizer para você
+00:44:24  nesse minuto, Renata,
+00:44:25  que não é fácil
+00:44:28  você fazer as coisas
+00:44:29  acontecer em um país
+00:44:30  que estava destruído
+00:44:31  como o nosso.
+00:44:32  E eu acho que nós fizemos
+00:44:34  milagres nesse país.
+00:44:36  Na área da educação,
+00:44:37  na área da saúde.
+00:44:38  Atendeu tudo?
+00:44:39  Não.
+00:44:39  Não atendeu tudo
+00:44:40  porque tem muita coisa
+00:44:41  em atraso nesse país.
+00:44:43  Muita coisa.
+00:44:44  Só para você ter ideia,
+00:44:45  nós encontramos
+00:44:46  6 mil obras paralisadas
+00:44:47  entre creches,
+00:44:49  hospitais,
+00:44:50  postos de atendimento médico
+00:44:51  e escolas.
+00:44:53  6 mil obras paralisadas.
+00:44:56  E nós levamos tempo
+00:44:59  para reconstruir isso.
+00:45:00  Então, o que eu queria dizer,
+00:45:02  Renata,
+00:45:02  é o seguinte,
+00:45:03  é que eu tenho certeza absoluta
+00:45:05  que o país está no rumo certo.
+00:45:07  Eu tenho certeza
+00:45:07  que a aprovação
+00:45:08  da escala 6 por 1.
+00:45:10  Eu tenho certeza
+00:45:10  que a política
+00:45:11  que nós fizemos
+00:45:12  por meio.
+00:45:13  Eu tenho certeza
+00:45:13  que essa coisa
+00:45:14  que eu estou pensando
+00:45:15  de fazer programa
+00:45:16  de governo,
+00:45:16  não é?
+00:45:17  Agora não.
+00:45:18  De dar transporte
+00:45:20  gratuito
+00:45:20  para as pessoas
+00:45:21  no final de semana,
+00:45:22  já que vai ter
+00:45:23  dois dias de descanso,
+00:45:24  é uma coisa maravilhosa
+00:45:26  para as pessoas,
+00:45:27  como nós fizemos
+00:45:27  com a energia elétrica.
+00:45:28  quem consome até 80
+00:45:29  não paga
+00:45:30  e quem consome até 120
+00:45:31  paga apenas uma diferença,
+00:45:33  como nós fizemos
+00:45:34  com o gás.
+00:45:35  Nós estamos distribuindo
+00:45:35  o gás
+00:45:36  para 17 milhões
+00:45:37  de pessoas
+00:45:38  sabendo que nós
+00:45:39  pagamos o gás.
+00:45:40  Candidato,
+00:45:41  o tempo acabou.
+00:45:42  Eu agradeço demais
+00:45:43  pela sua disponibilidade
+00:45:44  de conversar,
+00:45:45  de fazer essa entrevista.
+00:45:46  Muito obrigada.
+00:45:46  Obrigado a você, Renata.
+00:45:48  E até a próxima.
+00:45:49  Até a próxima.
+00:45:51  Amanhã é a vez
+00:45:52  de Flávio Bolsonaro
+00:45:53  do PL.
+00:45:54  A gente te espera.
+00:45:55  Boa noite para você.
+00:46:08  Bora, pessoal.
+00:46:10  Olha, o Lula,
+00:46:11  nesse bloco,
+00:46:12  conseguiu falar
+00:46:12  de temas importantes
+00:46:13  que estavam me angustiando.
+00:46:15  Fim da escala 6x1.
+00:46:18  Falou da vida do povo.
+00:46:21  Falou do gás,
+00:46:22  falou do MEI.
+00:46:25  Eu acho que ele foi muito bem.
+00:46:27  O presidente saiu muito bem.
+00:46:29  O presidente vai ter
+00:46:30  um embate direto
+00:46:31  com o Flávio Bolsonaro.
+00:46:33  Eu ficava torcendo
+00:46:34  que ele batesse
+00:46:34  no Flávio Bolsonaro aqui,
+00:46:36  cara.
+00:46:36  Mostrasse
+00:46:37  que era o Flávio Bolsonaro.
+00:46:39  Mas ele é sempre
+00:46:40  um estadista.
+00:46:41  É a característica
+00:46:41  do presidente.
+00:46:42  Eu acho que ele vai
+00:46:43  deixar isso para o debate.
+00:46:44  A minha preocupação
+00:46:46  era entrar
+00:46:46  no debate
+00:46:47  da vida do povo.
+00:46:49  Finalmente,
+00:46:50  no final,
+00:46:51  a gente conseguiu fazer isso.
+00:46:52  Ele conseguiu entrar
+00:46:53  em temas concretos
+00:46:55  que tocam
+00:46:56  na vida das pessoas.
+00:46:57  Faltou alguns?
+00:46:58  Faltou.
+00:46:59  Faltou falar das bets.
+00:47:01  Foi uma posição corajosa.
+00:47:03  Mas no último minuto
+00:47:04  ele falou
+00:47:05  agora
+00:47:06  da tarifa zero
+00:47:08  no final de semana.
+00:47:10  Falou do fim
+00:47:10  da escala
+00:47:11  seis por um.
+00:47:12  Então,
+00:47:12  o presidente,
+00:47:13  eu acho que o presidente Lula
+00:47:15  saiu bem.
+00:47:16  A gente ganhou.
+00:47:16  Não foi nocaute total,
+00:47:18  mas ganhou por pontos.
+00:47:19  Foi um bom desempenho
+00:47:21  do presidente Lula.
+00:47:22  E vamos esperar
+00:47:23  um embate direto
+00:47:24  com o Flávio Bolsonaro.
+00:47:26  Né?
+00:47:27  Isso foi um ponto
+00:47:27  que me incomodou
+00:47:28  porque eu achei
+00:47:29  que tinha que ter batido
+00:47:30  nesse cara
+00:47:30  desmascarado
+00:47:32  do Flávio Bolsonaro
+00:47:33  quando falou do Trump
+00:47:34  dos Estados Unidos.
+00:47:36  Mas olha,
+00:47:37  eu gostei.
+00:47:37  Esse bloco
+00:47:38  foi muito melhor
+00:47:39  porque a pauta
+00:47:40  da vida do povo
+00:47:41  entrou.
+00:47:42  Vamos firme, pessoal.
+00:47:43  Nós vamos ganhar
+00:47:44  essa eleição.
+00:47:45  Bora, Lula.
+00:47:46  A gente pode...

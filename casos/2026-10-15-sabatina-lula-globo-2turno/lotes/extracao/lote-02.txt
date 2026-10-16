@@ -1,0 +1,183 @@
+LOTE 02 de 06 · janela a EXTRAIR: 00:08:41 a 00:16:52 (522.0 s a 1012.7 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-02.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 522.0, "fim_s": 1012.7}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+(contexto, NÃO extrair) [00:07:56 · 476.3s] Lula: É que, embora a gente tenha perdido 9% na relação comercial com os Estados Unidos,
+(contexto, NÃO extrair) [00:08:01 · 481.5s] Lula: nós crescemos 20% com a China,
+(contexto, NÃO extrair) [00:08:04 · 484.1s] Lula: crescemos 15% com a Indonésia,
+(contexto, NÃO extrair) [00:08:05 · 485.9s] Lula: 16% com a Alemanha,
+(contexto, NÃO extrair) [00:08:07 · 487.8s] Lula: 13% com o Vietnã,
+(contexto, NÃO extrair) [00:08:09 · 489.7s] Lula: e crescemos em 50 países que nós visitamos,
+(contexto, NÃO extrair) [00:08:12 · 492.6s] Lula: em média 10,5% a mais.
+(contexto, NÃO extrair) [00:08:14 · 494.6s] Lula: E outra vez, nós batemos recordes, sabe,
+(contexto, NÃO extrair) [00:08:17 · 497.9s] Lula: de superávit comercial, sabe?
+(contexto, NÃO extrair) [00:08:19 · 499.9s] Lula: Então, quem deve estar preocupado conosco nesse momento é os Estados Unidos.
+(contexto, NÃO extrair) [00:08:25 · 505.1s] Lula: Porque, veja, eu não fiz a lei da reciprocidade,
+(contexto, NÃO extrair) [00:08:27 · 507.5s] Lula: não quero fazer,
+(contexto, NÃO extrair) [00:08:28 · 508.7s] Lula: eu quero continuar negociando.
+(contexto, NÃO extrair) [00:08:30 · 510.6s] Lula: Mas, se for necessário fazer, nós vamos fazer,
+(contexto, NÃO extrair) [00:08:32 · 512.8s] Lula: e eu acho que eles vão ter problema conosco.
+(contexto, NÃO extrair) [00:08:34 · 514.8s] Lula: Por quê?
+(contexto, NÃO extrair) [00:08:36 · 516.1s] Lula: Porque nós temos coisas que eles precisam
+(contexto, NÃO extrair) [00:08:38 · 518.2s] Lula: mais do que coisas que eu preciso dele.
+─── a janela começa aqui ───
+[00:08:41 · 522.0s → 522.2s] Renata Lo Prete: Ok.
+[00:08:42 · 522.4s → 524.4s] Renata Lo Prete: Vamos aproveitar essa questão dos Estados Unidos
+[00:08:44 · 524.4s → 528.1s] Renata Lo Prete: para tratar de outra que está no topo das preocupações dos brasileiros,
+[00:08:48 · 528.5s → 530.0s] Renata Lo Prete: que é a questão da segurança pública.
+[00:08:50 · 530.6s → 533.6s] Renata Lo Prete: O seu governo é contra a decisão do governo americano
+[00:08:53 · 533.6s → 536.9s] Renata Lo Prete: que classificou como organizações terroristas,
+[00:08:57 · 537.3s → 538.3s] Renata Lo Prete: facções criminosas,
+[00:08:58 · 538.6s → 540.8s] Renata Lo Prete: entre elas, PCC e Comando Vermelho.
+[00:09:00 · 540.8s → 543.8s] Renata Lo Prete: É contra por considerar que isso não resolve o problema
+[00:09:03 · 543.8s → 547.1s] Renata Lo Prete: e ainda abre caminho para a ingerência americana aqui.
+[00:09:07 · 547.9s → 549.7s] Renata Lo Prete: Mas a população é a favor.
+[00:09:09 · 549.9s → 551.0s] Renata Lo Prete: A população brasileira,
+[00:09:11 · 551.1s → 553.1s] Renata Lo Prete: uma pesquisa de junho do Datafolha,
+[00:09:13 · 553.5s → 556.8s] Renata Lo Prete: aponta que dois terços, aproximadamente,
+[00:09:17 · 557.4s → 560.7s] Renata Lo Prete: concorda total ou parcialmente com essa designação.
+[00:09:21 · 561.2s → 562.6s] Renata Lo Prete: O senhor acha que esse é um caso
+[00:09:22 · 562.6s → 566.6s] Renata Lo Prete: em que o governo falhou em explicar ao público as suas razões
+[00:09:26 · 566.6s → 570.9s] Renata Lo Prete: ou que o eleitor pode ter um ponto que o governo ainda não entendeu?
+[00:09:31 · 571.0s → 573.7s] Lula: Não, veja, é um ponto que os Estados Unidos não entendem.
+[00:09:34 · 574.2s → 576.6s] Lula: Porque quando os Estados Unidos falam em terrorismo,
+[00:09:36 · 576.7s → 577.9s] Lula: ele fala em terrorismo de Estado.
+[00:09:38 · 578.9s → 584.0s] Lula: Ele fala em terrorismo como aqueles que atentaram contra as duas torres americanas,
+[00:09:44 · 584.4s → 585.9s] Lula: quando aquele que quer dar o golpe de Estado.
+[00:09:45 · 586.0s → 589.1s] Lula: Não é o caso da facção de do crime organizado no Brasil,
+[00:09:49 · 589.5s → 590.5s] Lula: que ele só quer o dinheiro.
+[00:09:51 · 591.1s → 594.8s] Lula: Então, o que nós temos consciência de que aqui no Brasil,
+[00:09:55 · 595.4s → 597.2s] Lula: tanto o PCC e o Comando Vermelho
+[00:09:57 · 597.2s → 599.7s] Lula: são terroristas para a comunidade brasileira
+[00:09:59 · 599.7s → 602.4s] Lula: e para os bairros brasileiros e para as cidades.
+[00:10:02 · 602.8s → 606.1s] Lula: Mas não é o terrorismo de Estado que os Estados Unidos quer que seja.
+[00:10:06 · 606.9s → 608.6s] Lula: Então, o que nós estamos fazendo?
+[00:10:08 · 608.8s → 611.4s] Lula: Nós oferecemos ao presidente Trump
+[00:10:11 · 611.4s → 614.3s] Lula: uma proposta de combater o crime organizado,
+[00:10:14 · 614.7s → 616.4s] Lula: combater o narcotráfico,
+[00:10:16 · 617.0s → 619.8s] Lula: fazendo tudo aquilo que nós já temos feito de experiência
+[00:10:19 · 619.8s → 621.3s] Lula: com a Polícia Federal brasileira,
+[00:10:21 · 621.8s → 623.4s] Lula: levamos por escrito para ele
+[00:10:23 · 623.4s → 627.4s] Lula: e nós criamos, aprovamos a lei contra a lei anti-facção,
+[00:10:27 · 627.7s → 629.3s] Lula: que aumenta a pena dos bandidos.
+[00:10:29 · 629.8s → 631.2s] Lula: Porque o meu lema agora é o seguinte,
+[00:10:31 · 631.3s → 633.6s] Lula: a Constituição brasileira nunca permitiu
+[00:10:33 · 633.6s → 635.5s] Lula: que a União se metesse na segurança pública,
+[00:10:35 · 635.5s → 636.4s] Lula: é a questão do Estado.
+[00:10:36 · 636.8s → 639.3s] Lula: Eu agora quero me meter, por isso que nós mandamos a PEC.
+[00:10:39 · 639.8s → 641.3s] Lula: Porque eu quero definir o seguinte,
+[00:10:41 · 641.3s → 643.1s] Lula: eu quero definir para o trabalhador,
+[00:10:43 · 643.4s → 645.2s] Lula: para a comunidade, para o território,
+[00:10:45 · 645.6s → 649.4s] Lula: o que nós queremos é tranquilidade, segurança e proteção.
+[00:10:49 · 649.7s → 651.9s] Lula: Para os bandidos, a gente vai querer prisão.
+[00:10:52 · 652.2s → 653.3s] Lula: Por isso que eu mandei a PEC,
+[00:10:53 · 653.5s → 656.4s] Lula: porque eu quero aprovar ela que realmente é da segurança pública
+[00:10:56 · 656.4s → 661.1s] Lula: e definir o papel da União no combate ao crime organizado,
+[00:11:01 · 661.3s → 664.2s] Lula: porque os Estados não tiveram competência de fazer.
+[00:11:04 · 664.6s → 667.1s] Renata Lo Prete: Eu já vou fazer para o senhor uma pergunta relativa à PEC,
+[00:11:07 · 667.2s → 669.5s] Renata Lo Prete: mas antes eu quero pegar essa questão da violência
+[00:11:09 · 669.5s → 672.2s] Renata Lo Prete: do jeito que ela é mais sentida pela população.
+[00:11:12 · 672.6s → 675.5s] Renata Lo Prete: E eu cito aqui um dado do Fórum Brasileiro de Segurança Pública.
+[00:11:16 · 676.1s → 679.7s] Renata Lo Prete: Quase 80% dos brasileiros têm medo de serem roubados na rua,
+[00:11:20 · 680.2s → 682.8s] Renata Lo Prete: principalmente celular, inclusive a mão armada.
+[00:11:23 · 683.3s → 685.6s] Renata Lo Prete: Medo também de serem mortos em assalto
+[00:11:25 · 685.6s → 687.9s] Renata Lo Prete: ou de serem vítimas de golpe digital.
+[00:11:28 · 688.7s → 691.3s] Renata Lo Prete: O senhor tem falado bastante na importância de atacar
+[00:11:31 · 691.3s → 693.2s] Renata Lo Prete: o que o senhor chama de andar de cima do crime,
+[00:11:33 · 693.5s → 695.7s] Renata Lo Prete: de asfixiar financeiramente as facções.
+[00:11:36 · 696.4s → 700.1s] Renata Lo Prete: Mas o senhor tem também ideia do que fazer na ponta
+[00:11:40 · 700.1s → 703.9s] Renata Lo Prete: para atacar o problema do jeito que ele é vivido
+[00:11:43 · 703.9s → 705.4s] Renata Lo Prete: pelo cidadão no seu cotidiano?
+[00:11:45 · 705.4s → 708.3s] Lula: É por isso que eu quero participar da segurança pública
+[00:11:48 · 708.3s → 710.8s] Lula: com muita força, porque aprovada a PEC,
+[00:11:51 · 711.3s → 713.1s] Lula: eu vou criar o Ministério da Segurança Pública,
+[00:11:53 · 713.6s → 715.9s] Lula: eu vou definir o orçamento que a gente vai colocar
+[00:11:55 · 715.9s → 718.4s] Lula: e definir qual é o papel da Polícia Federal,
+[00:11:58 · 718.9s → 720.7s] Lula: qual é o papel da Polícia Rodoviária Federal,
+[00:12:00 · 720.9s → 722.3s] Lula: qual é o papel da Polícia Penal.
+[00:12:02 · 722.9s → 725.0s] Lula: E nós vamos fazer uma coisa mais forte ainda.
+[00:12:05 · 725.6s → 731.3s] Lula: Nós vamos financiar 138 presídios em todo o território nacional.
+[00:12:11 · 731.8s → 734.4s] Lula: Sabe que são presídios de um dos bandidos comando o crime
+[00:12:14 · 734.4s → 739.0s] Lula: em cadeia de segurança máxima financiada pelo governo federal
+[00:12:19 · 739.0s → 742.2s] Lula: para que a gente possa evitar que os bandidos
+[00:12:22 · 742.2s → 744.5s] Lula: continuem sendo bandidos de dentro da cadeia.
+[00:12:24 · 744.6s → 746.1s] Lula: Foi preso, não é para telefonar.
+[00:12:26 · 746.6s → 748.4s] Lula: E a coisa mais importante é que nós precisamos
+[00:12:28 · 748.4s → 749.6s] Lula: dar segurança às pessoas.
+[00:12:30 · 750.4s → 753.4s] Lula: O que nós queremos é asfixiar o crime organizado
+[00:12:33 · 753.4s → 757.7s] Lula: e libertar os territórios para que o povo não seja vítima
+[00:12:37 · 757.7s → 761.4s] Lula: de dono de rua, de pessoas que interferem na compra de gás,
+[00:12:41 · 761.8s → 764.2s] Lula: que interferem no recebimento do Bolsa Família.
+[00:12:44 · 764.6s → 768.9s] Lula: Ou seja, nós queremos libertar os territórios dos bandidos nesse país.
+[00:12:49 · 769.5s → 771.0s] Lula: Não apenas no Rio, no Brasil inteiro.
+[00:12:51 · 771.2s → 774.3s] Renata Lo Prete: Deixa eu aproveitar que o senhor falou dessa proposta de emenda à Constituição
+[00:12:54 · 774.3s → 777.7s] Renata Lo Prete: que, resumidamente, ela reorganiza o papel de cada um nesse assunto,
+[00:12:58 · 778.1s → 780.4s] Renata Lo Prete: ampliando o raio de ação do governo federal.
+[00:13:00 · 780.7s → 783.4s] Renata Lo Prete: Ela está sendo discutida, quase que...
+[00:13:03 · 783.4s → 786.4s] Renata Lo Prete: Foi discutida hoje, inclusive, enquanto a gente está conversando aqui
+[00:13:06 · 786.4s → 790.7s] Renata Lo Prete: e ainda está pendente de votação no Senado.
+[00:13:11 · 791.1s → 794.8s] Renata Lo Prete: E surgiu uma discussão agora de última hora, sobre a qual eu quero lhe ouvir.
+[00:13:15 · 795.3s → 798.1s] Renata Lo Prete: O seu ex-ministro da Educação, o senador Camilo Santana,
+[00:13:18 · 798.5s → 803.9s] Renata Lo Prete: apareceu com a ideia de redução da maioridade penal de 18 para 16 anos,
+[00:13:24 · 804.2s → 805.7s] Renata Lo Prete: no caso de crimes hediondos.
+[00:13:26 · 806.2s → 811.4s] Renata Lo Prete: Essa ideia, ela causou oposição em parte da bancada do PT no Senado,
+[00:13:31 · 811.5s → 814.7s] Renata Lo Prete: porque, historicamente, o PT foi contra a redução da maioridade penal.
+[00:13:35 · 815.1s → 818.5s] Renata Lo Prete: Acho uma boa oportunidade para o senhor me dizer qual é o seu pensamento sobre isso.
+[00:13:38 · 818.5s → 819.4s] Lula: O meu pensamento...
+[00:13:39 · 819.4s → 820.5s] Renata Lo Prete: O senhor é a favor da redução?
+[00:13:40 · 820.5s → 821.7s] Lula: O meu pensamento, enquanto cidadão brasileiro,
+[00:13:42 · 822.6s → 828.4s] Lula: todo e qualquer crime hediondo, eu estou favorável a diminuir a penalidade.
+[00:13:48 · 828.6s → 833.8s] Renata Lo Prete: Então, para crimes hediondos, o senhor é a favor de reduzir a maioridade penal?
+[00:13:54 · 834.2s → 835.9s] Lula: Agora, qual era o problema que estava?
+[00:13:55 · 835.9s → 838.0s] Lula: Era que a PEC não estava discutindo isso.
+[00:13:58 · 838.9s → 844.5s] Lula: A direita do PL tentou apresentar uma proposta reduzindo para 14 anos.
+[00:14:05 · 845.6s → 847.9s] Lula: E aí, o Camilo apresentou a proposta para 16.
+[00:14:08 · 848.3s → 851.8s] Renata Lo Prete: Então, só para a gente deixar bem claro, o senhor é a favor de reduzir para 16?
+[00:14:11 · 851.8s → 855.3s] Lula: Eu sou favorável a reduzir para 16, mas não discutindo nessa PEC.
+[00:14:15 · 855.4s → 856.7s] Lula: Porque essa PEC não é para discutir isso.
+[00:14:17 · 857.2s → 859.2s] Lula: Primeiro, você discuta a PEC, aprova a PEC,
+[00:14:19 · 859.8s → 862.7s] Lula: e aí você pode discutir a maioridade penal ou não.
+[00:14:23 · 863.7s → 866.9s] Lula: E eu acho que não apenas eu como cidadão, como ser humano.
+[00:14:26 · 866.9s → 875.7s] Lula: Eu acho que a sociedade brasileira inteira, sabe, é favorável à punição de qualquer crime hediondo.
+[00:14:36 · 876.4s → 878.5s] Renata Lo Prete: Ok, presidente, acho que a sua posição ficou clara.
+[00:14:39 · 879.2s → 884.9s] Renata Lo Prete: Eu agora quero retomar a questão das dificuldades que eu apontei, o senhor não concordou muito comigo,
+[00:14:45 · 885.0s → 888.8s] Renata Lo Prete: as dificuldades na relação com o Congresso, depois a gente pode continuar a falar sobre isso.
+[00:14:49 · 889.8s → 894.6s] Renata Lo Prete: E essas dificuldades, eu lembro, somadas à tentativa de golpe na transição,
+[00:14:55 · 895.4s → 899.5s] Renata Lo Prete: fizeram com que o senhor se valesse bastante do Supremo neste seu terceiro mandato,
+[00:14:59 · 900.0s → 903.6s] Renata Lo Prete: Supremo que está às voltas agora, com a maior crise de reputação da sua história,
+[00:15:03 · 903.9s → 905.5s] Renata Lo Prete: por causa do caso Master.
+[00:15:05 · 905.9s → 909.3s] Renata Lo Prete: O senhor fez várias observações sobre o Supremo,
+[00:15:09 · 909.4s → 915.0s] Renata Lo Prete: mas demorou a comentar mais com clareza as suspeitas que pairam sobre vários ministros.
+[00:15:14 · 915.0s → 919.3s] Renata Lo Prete: E só agora, depois do primeiro turno, o senhor usou uma palavra mais dura,
+[00:15:19 · 919.7s → 923.4s] Renata Lo Prete: promiscuidade, para se referir ao que acontece no tribunal.
+[00:15:24 · 924.3s → 930.1s] Renata Lo Prete: O senhor diria que o seu desempenho nas urnas no primeiro turno foi afetado pela crise do Supremo?
+[00:15:30 · 930.6s → 934.4s] Lula: Não tenho uma avaliação disso, Renata, sinceramente eu não tenho.
+[00:15:35 · 935.1s → 940.4s] Lula: Obviamente que a extrema-direita tenta jogar a Suprema Corte nas minhas costas,
+[00:15:40 · 940.4s → 946.1s] Lula: porque eles querem caçar o Alexandre de Moraes, não é por conta do Banco Master apenas,
+[00:15:46 · 946.6s → 950.7s] Lula: eles querem caçar o Alexandre de Moraes, porque o Alexandre de Moraes prendeu o pai do Flávio Bolsonaro.
+[00:15:51 · 951.6s → 952.9s] Lula: Essa que é a questão que está em jogo.
+[00:15:53 · 953.8s → 954.5s] Lula: Essa que é a questão.
+[00:15:54 · 954.6s → 962.0s] Lula: E hoje a Política Federal esteve no Rio de Janeiro interferindo numa das pessoas importantes do clã do Bolsonaro,
+[00:16:02 · 962.0s → 970.2s] Lula: o Canelas, que foi preso, e que a mãe do Flávio ia ser suplente dele no Senado.
+[00:16:10 · 970.2s → 975.1s] Renata Lo Prete: Deixa eu não perder um pouco o assunto aqui, porque o senhor estava falando do Supremo,
+[00:16:15 · 975.2s → 979.1s] Renata Lo Prete: o senhor mencionou o ministro Alexandre, e eu tenho uma outra pergunta complementar sobre isso.
+[00:16:19 · 979.3s → 981.7s] Renata Lo Prete: Acho que vai dar uma possibilidade do senhor esclarecer.
+[00:16:22 · 982.2s → 986.0s] Renata Lo Prete: O senhor tem defendido mesmo que se apurem todas as responsabilidades.
+[00:16:26 · 986.7s → 992.7s] Renata Lo Prete: Mas eu me pergunto se não fica difícil para a população considerar que é esse mesmo o propósito do governo,
+[00:16:32 · 992.7s → 999.2s] Renata Lo Prete: se de repente um ministro como Flávio Dino, que foi indicado pelo senhor, é seu aliado histórico,
+[00:16:39 · 999.7s → 1006.9s] Renata Lo Prete: chega lá e faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes,
+[00:16:47 · 1007.1s → 1012.7s] Renata Lo Prete: que de fato, candidato, é o ministro até aqui mais implicado com o Daniel Vorcaro.

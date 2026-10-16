@@ -1,0 +1,259 @@
+LOTE 06 de 06 · janela a EXTRAIR: 00:43:24 a 00:47:47 (2604.4 s a 2867.1 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-06.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 2604.4, "fim_s": 2867.1}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+(contexto, NÃO extrair) [00:42:37 · 2557.2s] Lula: 150 carretas andando pelo Brasil,
+(contexto, NÃO extrair) [00:42:40 · 2560.3s] Lula: fazendo todos os exames que as mulheres precisam,
+(contexto, NÃO extrair) [00:42:42 · 2562.6s] Lula: sobretudo câncer de mama de mulher,
+(contexto, NÃO extrair) [00:42:44 · 2564.7s] Lula: câncer de útero, ou seja,
+(contexto, NÃO extrair) [00:42:46 · 2566.1s] Lula: e fazendo outras máquinas,
+(contexto, NÃO extrair) [00:42:47 · 2567.6s] Lula: retornada magnética,
+(contexto, NÃO extrair) [00:42:49 · 2569.2s] Lula: todas as imagens que as mulheres precisam.
+(contexto, NÃO extrair) [00:42:51 · 2571.2s] Lula: É uma revolução que está acontecendo.
+(contexto, NÃO extrair) [00:42:53 · 2573.6s] Lula: Sabe?
+(contexto, NÃO extrair) [00:42:55 · 2575.1s] Lula: Nós estamos, por exemplo,
+(contexto, NÃO extrair) [00:42:56 · 2576.1s] Lula: tratamento do câncer.
+(contexto, NÃO extrair) [00:42:57 · 2577.4s] Lula: Nós estamos trabalhando
+(contexto, NÃO extrair) [00:42:58 · 2578.5s] Lula: para que o Brasil,
+(contexto, NÃO extrair) [00:42:59 · 2579.9s] Lula: dentro de algum tempo,
+(contexto, NÃO extrair) [00:43:01 · 2581.5s] Lula: a gente possa ser o país
+(contexto, NÃO extrair) [00:43:02 · 2583.0s] Lula: que mais tem evoluído
+(contexto, NÃO extrair) [00:43:04 · 2584.8s] Lula: no tratamento de câncer no mundo.
+(contexto, NÃO extrair) [00:43:07 · 2587.8s] Lula: Porque estamos investindo muito.
+(contexto, NÃO extrair) [00:43:09 · 2589.6s] Lula: Ora, você não consegue resolver isso
+(contexto, NÃO extrair) [00:43:11 · 2591.2s] Lula: num mês ou num dois meses.
+(contexto, NÃO extrair) [00:43:12 · 2592.9s] Lula: Eu cheguei no governo,
+(contexto, NÃO extrair) [00:43:13 · 2594.0s] Lula: você tinha o país,
+(contexto, NÃO extrair) [00:43:15 · 2595.2s] Lula: 10 mil bulanças se renovaram,
+(contexto, NÃO extrair) [00:43:17 · 2597.2s] Lula: nós vamos comprar 10 mil.
+(contexto, NÃO extrair) [00:43:18 · 2598.3s] Lula: nós precisamos fazer o Brasil sorridente
+(contexto, NÃO extrair) [00:43:20 · 2600.7s] Lula: voltar a funcionar,
+(contexto, NÃO extrair) [00:43:21 · 2601.9s] Lula: nós precisamos botar
+(contexto, NÃO extrair) [00:43:22 · 2602.7s] Lula: o Farmácia Popular
+(contexto, NÃO extrair) [00:43:23 · 2603.6s] Lula: voltar a funcionar.
+─── a janela começa aqui ───
+[00:43:24 · 2604.4s → 2605.0s] Renata Lo Prete: Só para ponderar...
+[00:43:25 · 2605.0s → 2606.1s] Lula: Agora, falta muito.
+[00:43:26 · 2606.3s → 2606.8s] Lula: Falta muito.
+[00:43:26 · 2607.0s → 2607.5s] Renata Lo Prete: Só para ponderar
+[00:43:27 · 2607.5s → 2608.5s] Renata Lo Prete: porque eu fiz essa pergunta,
+[00:43:28 · 2608.7s → 2610.0s] Renata Lo Prete: o programa a que eu me referi
+[00:43:29 · 2610.0s → 2611.3s] Renata Lo Prete: é o Mais Especialistas,
+[00:43:31 · 2611.5s → 2612.7s] Renata Lo Prete: que ampliou o atendimento,
+[00:43:32 · 2612.9s → 2614.0s] Renata Lo Prete: mas, segundo uma auditoria
+[00:43:34 · 2614.0s → 2615.8s] Renata Lo Prete: do próprio Tribunal de Contas da União,
+[00:43:36 · 2616.1s → 2617.1s] Renata Lo Prete: ainda não conseguiu
+[00:43:37 · 2617.1s → 2618.6s] Renata Lo Prete: resolver o problema
+[00:43:38 · 2618.6s → 2619.5s] Renata Lo Prete: do tempo de espera.
+[00:43:40 · 2620.0s → 2621.4s] Renata Lo Prete: Mas eu agradeço ao senhor...
+[00:43:41 · 2621.4s → 2622.2s] Lula: Mas veja um milagre
+[00:43:42 · 2622.2s → 2623.0s] Lula: que nós fizemos.
+[00:43:43 · 2623.3s → 2624.1s] Lula: Nós fizemos um convênio
+[00:43:44 · 2624.1s → 2625.5s] Lula: com hospitais particulares
+[00:43:45 · 2625.5s → 2627.4s] Lula: que estão pagando
+[00:43:47 · 2627.4s → 2628.2s] Lula: parte da dívida
+[00:43:48 · 2628.2s → 2629.5s] Lula: que tem com o Estado
+[00:43:49 · 2629.5s → 2631.5s] Lula: para atender pelo SUS.
+[00:43:51 · 2631.7s → 2633.0s] Lula: Nós estamos fazendo um convênio
+[00:43:53 · 2633.0s → 2634.5s] Lula: com todas as Santas Casas.
+[00:43:54 · 2634.9s → 2635.5s] Lula: Em 2025,
+[00:43:55 · 2635.8s → 2637.8s] Lula: nós fizemos 15 milhões
+[00:43:57 · 2637.8s → 2639.3s] Lula: de cirurgias eletivas.
+[00:43:59 · 2639.6s → 2640.2s] Lula: Esse ano,
+[00:44:00 · 2640.2s → 2642.0s] Lula: vamos fazer 16 milhões
+[00:44:02 · 2642.0s → 2644.7s] Lula: de cirurgias eletivas.
+[00:44:05 · 2645.1s → 2646.4s] Lula: Olha, ainda falta muito
+[00:44:06 · 2646.4s → 2647.8s] Lula: porque a filha é muito tempo.
+[00:44:08 · 2648.2s → 2649.0s] Lula: As pessoas esperavam
+[00:44:09 · 2649.0s → 2650.1s] Lula: dois anos, três anos.
+[00:44:10 · 2650.3s → 2651.6s] Lula: Agora, o que eu posso te dizer
+[00:44:11 · 2651.6s → 2652.3s] Lula: é que nós estamos andando.
+[00:44:12 · 2652.5s → 2653.2s] Renata Lo Prete: Eu vou ter que pedir.
+[00:44:13 · 2653.3s → 2654.8s] Renata Lo Prete: Eu gostaria muito de continuar.
+[00:44:15 · 2655.1s → 2656.4s] Renata Lo Prete: Eu tenho várias outras perguntas.
+[00:44:16 · 2656.4s → 2657.0s] Renata Lo Prete: A mão está levando o programa.
+[00:44:17 · 2657.2s → 2658.7s] Renata Lo Prete: Mas nosso tempo acabou.
+[00:44:19 · 2659.2s → 2660.3s] Renata Lo Prete: Eu agora lhe dou um minuto
+[00:44:20 · 2660.3s → 2661.7s] Renata Lo Prete: para as suas considerações finais.
+[00:44:21 · 2661.7s → 2663.0s] Lula: Eu queria só aproveitar
+[00:44:22 · 2663.0s → 2664.1s] Lula: e dizer para você
+[00:44:24 · 2664.1s → 2665.1s] Lula: nesse minuto, Renata,
+[00:44:25 · 2665.3s → 2667.5s] Lula: que não é fácil
+[00:44:27 · 2667.5s → 2669.1s] Lula: você fazer as coisas
+[00:44:29 · 2669.1s → 2670.1s] Lula: acontecer em um país
+[00:44:30 · 2670.1s → 2671.1s] Lula: que estava destruído
+[00:44:31 · 2671.1s → 2671.7s] Lula: como o nosso.
+[00:44:32 · 2672.0s → 2673.9s] Lula: E eu acho que nós fizemos
+[00:44:33 · 2673.9s → 2675.3s] Lula: milagres nesse país.
+[00:44:35 · 2675.7s → 2676.6s] Lula: Na área da educação,
+[00:44:36 · 2676.7s → 2677.5s] Lula: na área da saúde.
+[00:44:37 · 2678.0s → 2678.7s] Lula: Atendeu tudo?
+[00:44:38 · 2678.8s → 2679.0s] Lula: Não.
+[00:44:39 · 2679.4s → 2680.0s] Lula: Não atendeu tudo
+[00:44:40 · 2680.0s → 2681.4s] Lula: porque tem muita coisa
+[00:44:41 · 2681.4s → 2682.5s] Lula: em atraso nesse país.
+[00:44:43 · 2683.0s → 2683.7s] Lula: Muita coisa.
+[00:44:43 · 2683.8s → 2684.6s] Lula: Só para você ter ideia,
+[00:44:45 · 2685.1s → 2685.7s] Lula: nós encontramos
+[00:44:45 · 2685.7s → 2687.4s] Lula: 6 mil obras paralisadas
+[00:44:47 · 2687.4s → 2688.3s] Lula: entre creches,
+[00:44:48 · 2688.7s → 2689.4s] Lula: hospitais,
+[00:44:49 · 2689.7s → 2690.9s] Lula: postos de atendimento médico
+[00:44:50 · 2690.9s → 2692.7s] Lula: e escolas.
+[00:44:53 · 2693.1s → 2694.9s] Lula: 6 mil obras paralisadas.
+[00:44:55 · 2696.0s → 2698.9s] Lula: E nós levamos tempo
+[00:44:58 · 2698.9s → 2699.8s] Lula: para reconstruir isso.
+[00:44:59 · 2699.8s → 2701.3s] Lula: Então, o que eu queria dizer,
+[00:45:01 · 2701.8s → 2702.2s] Lula: Renata,
+[00:45:02 · 2702.2s → 2702.6s] Lula: é o seguinte,
+[00:45:02 · 2702.9s → 2704.8s] Lula: é que eu tenho certeza absoluta
+[00:45:04 · 2704.8s → 2706.1s] Lula: que o país está no rumo certo.
+[00:45:06 · 2706.7s → 2707.5s] Lula: Eu tenho certeza
+[00:45:07 · 2707.5s → 2708.2s] Lula: que a aprovação
+[00:45:08 · 2708.2s → 2709.3s] Lula: da escala 6 por 1.
+[00:45:09 · 2709.6s → 2710.3s] Lula: Eu tenho certeza
+[00:45:10 · 2710.3s → 2711.1s] Lula: que a política
+[00:45:11 · 2711.1s → 2711.7s] Lula: que nós fizemos
+[00:45:11 · 2711.7s → 2712.2s] Lula: por meio.
+[00:45:12 · 2712.6s → 2713.3s] Lula: Eu tenho certeza
+[00:45:13 · 2713.3s → 2714.1s] Lula: que essa coisa
+[00:45:14 · 2714.1s → 2714.8s] Lula: que eu estou pensando
+[00:45:14 · 2714.8s → 2715.6s] Lula: de fazer programa
+[00:45:15 · 2715.6s → 2716.1s] Lula: de governo,
+[00:45:16 · 2716.2s → 2716.4s] Lula: não é?
+[00:45:17 · 2717.1s → 2717.8s] Lula: Agora não.
+[00:45:18 · 2718.4s → 2719.5s] Lula: De dar transporte
+[00:45:19 · 2719.5s → 2720.1s] Lula: gratuito
+[00:45:20 · 2720.1s → 2720.7s] Lula: para as pessoas
+[00:45:20 · 2720.7s → 2721.6s] Lula: no final de semana,
+[00:45:22 · 2722.0s → 2723.2s] Lula: já que vai ter
+[00:45:23 · 2723.2s → 2724.1s] Lula: dois dias de descanso,
+[00:45:24 · 2724.5s → 2725.6s] Lula: é uma coisa maravilhosa
+[00:45:25 · 2725.6s → 2726.1s] Lula: para as pessoas,
+[00:45:26 · 2726.6s → 2727.2s] Lula: como nós fizemos
+[00:45:27 · 2727.2s → 2728.0s] Lula: com a energia elétrica.
+[00:45:28 · 2728.1s → 2729.1s] Lula: quem consome até 80
+[00:45:29 · 2729.1s → 2729.6s] Lula: não paga
+[00:45:29 · 2729.6s → 2730.9s] Lula: e quem consome até 120
+[00:45:30 · 2730.9s → 2732.6s] Lula: paga apenas uma diferença,
+[00:45:33 · 2733.1s → 2733.7s] Lula: como nós fizemos
+[00:45:33 · 2733.7s → 2734.2s] Lula: com o gás.
+[00:45:34 · 2734.6s → 2735.4s] Lula: Nós estamos distribuindo
+[00:45:35 · 2735.4s → 2735.6s] Lula: o gás
+[00:45:35 · 2735.6s → 2737.0s] Lula: para 17 milhões
+[00:45:36 · 2737.0s → 2737.7s] Lula: de pessoas
+[00:45:37 · 2737.7s → 2738.8s] Lula: sabendo que nós
+[00:45:38 · 2738.8s → 2739.6s] Lula: pagamos o gás.
+[00:45:40 · 2740.1s → 2740.5s] Renata Lo Prete: Candidato,
+[00:45:40 · 2740.7s → 2741.5s] Renata Lo Prete: o tempo acabou.
+[00:45:41 · 2741.8s → 2742.7s] Renata Lo Prete: Eu agradeço demais
+[00:45:42 · 2742.7s → 2743.7s] Renata Lo Prete: pela sua disponibilidade
+[00:45:43 · 2743.7s → 2744.5s] Renata Lo Prete: de conversar,
+[00:45:44 · 2744.6s → 2745.6s] Renata Lo Prete: de fazer essa entrevista.
+[00:45:45 · 2745.9s → 2746.3s] Renata Lo Prete: Muito obrigada.
+[00:45:46 · 2746.4s → 2747.4s] Lula: Obrigado a você, Renata.
+[00:45:48 · 2748.2s → 2749.0s] Lula: E até a próxima.
+[00:45:49 · 2749.1s → 2749.7s] Renata Lo Prete: Até a próxima.
+[00:45:50 · 2750.7s → 2751.8s] Renata Lo Prete: Amanhã é a vez
+[00:45:51 · 2751.8s → 2752.8s] Renata Lo Prete: de Flávio Bolsonaro
+[00:45:52 · 2752.8s → 2753.7s] Renata Lo Prete: do PL.
+[00:45:53 · 2753.9s → 2754.8s] Renata Lo Prete: A gente te espera.
+[00:45:55 · 2755.0s → 2755.8s] Renata Lo Prete: Boa noite para você.
+[00:46:07 · 2767.8s → 2768.7s] Fora da sabatina: Bora, pessoal.
+[00:46:09 · 2769.9s → 2770.5s] Fora da sabatina: Olha, o Lula,
+[00:46:10 · 2770.9s → 2771.5s] Fora da sabatina: nesse bloco,
+[00:46:11 · 2771.6s → 2772.3s] Fora da sabatina: conseguiu falar
+[00:46:12 · 2772.3s → 2773.4s] Fora da sabatina: de temas importantes
+[00:46:13 · 2773.4s → 2774.6s] Fora da sabatina: que estavam me angustiando.
+[00:46:15 · 2775.3s → 2776.7s] Fora da sabatina: Fim da escala 6x1.
+[00:46:18 · 2778.5s → 2780.2s] Fora da sabatina: Falou da vida do povo.
+[00:46:21 · 2781.4s → 2782.3s] Fora da sabatina: Falou do gás,
+[00:46:22 · 2782.4s → 2783.3s] Fora da sabatina: falou do MEI.
+[00:46:24 · 2784.9s → 2786.7s] Fora da sabatina: Eu acho que ele foi muito bem.
+[00:46:27 · 2787.2s → 2788.5s] Fora da sabatina: O presidente saiu muito bem.
+[00:46:29 · 2789.3s → 2790.0s] Fora da sabatina: O presidente vai ter
+[00:46:30 · 2790.0s → 2791.0s] Fora da sabatina: um embate direto
+[00:46:30 · 2791.0s → 2791.9s] Fora da sabatina: com o Flávio Bolsonaro.
+[00:46:32 · 2792.5s → 2793.5s] Fora da sabatina: Eu ficava torcendo
+[00:46:33 · 2793.5s → 2794.2s] Fora da sabatina: que ele batesse
+[00:46:34 · 2794.2s → 2795.4s] Fora da sabatina: no Flávio Bolsonaro aqui,
+[00:46:35 · 2795.6s → 2795.7s] Fora da sabatina: cara.
+[00:46:36 · 2796.1s → 2796.6s] Fora da sabatina: Mostrasse
+[00:46:36 · 2796.6s → 2797.7s] Fora da sabatina: que era o Flávio Bolsonaro.
+[00:46:38 · 2798.7s → 2799.8s] Fora da sabatina: Mas ele é sempre
+[00:46:39 · 2799.8s → 2800.5s] Fora da sabatina: um estadista.
+[00:46:40 · 2800.6s → 2801.3s] Fora da sabatina: É a característica
+[00:46:41 · 2801.3s → 2801.8s] Fora da sabatina: do presidente.
+[00:46:42 · 2802.1s → 2802.5s] Fora da sabatina: Eu acho que ele vai
+[00:46:42 · 2802.5s → 2803.7s] Fora da sabatina: deixar isso para o debate.
+[00:46:44 · 2804.5s → 2805.6s] Fora da sabatina: A minha preocupação
+[00:46:45 · 2805.6s → 2806.3s] Fora da sabatina: era entrar
+[00:46:46 · 2806.3s → 2807.2s] Fora da sabatina: no debate
+[00:46:47 · 2807.2s → 2808.2s] Fora da sabatina: da vida do povo.
+[00:46:49 · 2809.0s → 2809.5s] Fora da sabatina: Finalmente,
+[00:46:49 · 2809.6s → 2810.1s] Fora da sabatina: no final,
+[00:46:50 · 2810.6s → 2812.1s] Fora da sabatina: a gente conseguiu fazer isso.
+[00:46:52 · 2812.1s → 2813.2s] Fora da sabatina: Ele conseguiu entrar
+[00:46:53 · 2813.2s → 2815.3s] Fora da sabatina: em temas concretos
+[00:46:55 · 2815.3s → 2816.4s] Fora da sabatina: que tocam
+[00:46:56 · 2816.4s → 2817.2s] Fora da sabatina: na vida das pessoas.
+[00:46:57 · 2817.3s → 2818.0s] Fora da sabatina: Faltou alguns?
+[00:46:58 · 2818.1s → 2818.5s] Fora da sabatina: Faltou.
+[00:46:59 · 2819.0s → 2820.4s] Fora da sabatina: Faltou falar das bets.
+[00:47:00 · 2820.9s → 2822.3s] Fora da sabatina: Foi uma posição corajosa.
+[00:47:02 · 2822.7s → 2824.0s] Fora da sabatina: Mas no último minuto
+[00:47:03 · 2824.0s → 2825.1s] Fora da sabatina: ele falou
+[00:47:05 · 2825.1s → 2826.3s] Fora da sabatina: agora
+[00:47:06 · 2826.3s → 2827.8s] Fora da sabatina: da tarifa zero
+[00:47:07 · 2827.8s → 2828.9s] Fora da sabatina: no final de semana.
+[00:47:09 · 2829.5s → 2830.2s] Fora da sabatina: Falou do fim
+[00:47:10 · 2830.2s → 2830.7s] Fora da sabatina: da escala
+[00:47:10 · 2830.7s → 2831.5s] Fora da sabatina: seis por um.
+[00:47:12 · 2832.2s → 2832.4s] Fora da sabatina: Então,
+[00:47:12 · 2832.5s → 2832.8s] Fora da sabatina: o presidente,
+[00:47:13 · 2833.4s → 2834.7s] Fora da sabatina: eu acho que o presidente Lula
+[00:47:14 · 2834.7s → 2835.4s] Fora da sabatina: saiu bem.
+[00:47:15 · 2835.9s → 2836.4s] Fora da sabatina: A gente ganhou.
+[00:47:16 · 2836.5s → 2837.7s] Fora da sabatina: Não foi nocaute total,
+[00:47:17 · 2837.8s → 2838.9s] Fora da sabatina: mas ganhou por pontos.
+[00:47:19 · 2839.3s → 2840.6s] Fora da sabatina: Foi um bom desempenho
+[00:47:20 · 2840.6s → 2841.5s] Fora da sabatina: do presidente Lula.
+[00:47:21 · 2841.9s → 2842.9s] Fora da sabatina: E vamos esperar
+[00:47:22 · 2842.9s → 2844.0s] Fora da sabatina: um embate direto
+[00:47:24 · 2844.0s → 2845.0s] Fora da sabatina: com o Flávio Bolsonaro.
+[00:47:25 · 2845.9s → 2846.1s] Fora da sabatina: Né?
+[00:47:26 · 2846.6s → 2847.3s] Fora da sabatina: Isso foi um ponto
+[00:47:27 · 2847.3s → 2848.0s] Fora da sabatina: que me incomodou
+[00:47:28 · 2848.0s → 2849.1s] Fora da sabatina: porque eu achei
+[00:47:29 · 2849.1s → 2849.8s] Fora da sabatina: que tinha que ter batido
+[00:47:29 · 2849.8s → 2850.4s] Fora da sabatina: nesse cara
+[00:47:30 · 2850.4s → 2851.9s] Fora da sabatina: desmascarado
+[00:47:31 · 2851.9s → 2852.7s] Fora da sabatina: do Flávio Bolsonaro
+[00:47:32 · 2852.7s → 2854.4s] Fora da sabatina: quando falou do Trump
+[00:47:34 · 2854.4s → 2855.6s] Fora da sabatina: dos Estados Unidos.
+[00:47:35 · 2855.8s → 2856.2s] Fora da sabatina: Mas olha,
+[00:47:36 · 2856.8s → 2857.4s] Fora da sabatina: eu gostei.
+[00:47:37 · 2857.5s → 2858.0s] Fora da sabatina: Esse bloco
+[00:47:38 · 2858.0s → 2858.7s] Fora da sabatina: foi muito melhor
+[00:47:38 · 2858.7s → 2859.7s] Fora da sabatina: porque a pauta
+[00:47:39 · 2859.7s → 2860.6s] Fora da sabatina: da vida do povo
+[00:47:40 · 2860.6s → 2861.5s] Fora da sabatina: entrou.
+[00:47:41 · 2861.9s → 2862.9s] Fora da sabatina: Vamos firme, pessoal.
+[00:47:42 · 2863.0s → 2863.6s] Fora da sabatina: Nós vamos ganhar
+[00:47:43 · 2863.6s → 2864.3s] Fora da sabatina: essa eleição.
+[00:47:44 · 2864.8s → 2865.5s] Fora da sabatina: Bora, Lula.
+[00:47:46 · 2866.3s → 2867.1s] Fora da sabatina: A gente pode...

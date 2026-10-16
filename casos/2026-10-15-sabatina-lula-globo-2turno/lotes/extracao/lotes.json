@@ -1,0 +1,62 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "gerado_em": "2026-10-16",
+  "minutos_alvo": 8.0,
+  "contexto_s": 45.0,
+  "lotes": [
+    {
+      "n": 1,
+      "inicio_s": 0.0,
+      "fim_s": 521.68,
+      "segmentos": 129,
+      "palavras": 1354,
+      "entrada": "casos/2026-10-15-sabatina-lula-globo-2turno/lotes/extracao/lote-01.txt",
+      "saida": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-01.json"
+    },
+    {
+      "n": 2,
+      "inicio_s": 521.96,
+      "fim_s": 1012.7,
+      "segmentos": 146,
+      "palavras": 1404,
+      "entrada": "casos/2026-10-15-sabatina-lula-globo-2turno/lotes/extracao/lote-02.txt",
+      "saida": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-02.json"
+    },
+    {
+      "n": 3,
+      "inicio_s": 1012.7,
+      "fim_s": 1600.48,
+      "segmentos": 167,
+      "palavras": 1714,
+      "entrada": "casos/2026-10-15-sabatina-lula-globo-2turno/lotes/extracao/lote-03.txt",
+      "saida": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-03.json"
+    },
+    {
+      "n": 4,
+      "inicio_s": 1600.48,
+      "fim_s": 2082.36,
+      "segmentos": 128,
+      "palavras": 1172,
+      "entrada": "casos/2026-10-15-sabatina-lula-globo-2turno/lotes/extracao/lote-04.txt",
+      "saida": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-04.json"
+    },
+    {
+      "n": 5,
+      "inicio_s": 2082.5,
+      "fim_s": 2604.42,
+      "segmentos": 239,
+      "palavras": 1541,
+      "entrada": "casos/2026-10-15-sabatina-lula-globo-2turno/lotes/extracao/lote-05.txt",
+      "saida": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-05.json"
+    },
+    {
+      "n": 6,
+      "inicio_s": 2604.42,
+      "fim_s": 2867.08,
+      "segmentos": 211,
+      "palavras": 706,
+      "entrada": "casos/2026-10-15-sabatina-lula-globo-2turno/lotes/extracao/lote-06.txt",
+      "saida": "casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-06.json"
+    }
+  ]
+}

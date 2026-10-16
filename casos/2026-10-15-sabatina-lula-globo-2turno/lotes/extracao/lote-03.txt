@@ -1,0 +1,195 @@
+LOTE 03 de 06 · janela a EXTRAIR: 00:16:52 a 00:26:40 (1012.7 s a 1600.5 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-03.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 1012.7, "fim_s": 1600.5}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+(contexto, NÃO extrair) [00:16:02 · 962.0s] Lula: o Canelas, que foi preso, e que a mãe do Flávio ia ser suplente dele no Senado.
+(contexto, NÃO extrair) [00:16:10 · 970.2s] Renata Lo Prete: Deixa eu não perder um pouco o assunto aqui, porque o senhor estava falando do Supremo,
+(contexto, NÃO extrair) [00:16:15 · 975.2s] Renata Lo Prete: o senhor mencionou o ministro Alexandre, e eu tenho uma outra pergunta complementar sobre isso.
+(contexto, NÃO extrair) [00:16:19 · 979.3s] Renata Lo Prete: Acho que vai dar uma possibilidade do senhor esclarecer.
+(contexto, NÃO extrair) [00:16:22 · 982.2s] Renata Lo Prete: O senhor tem defendido mesmo que se apurem todas as responsabilidades.
+(contexto, NÃO extrair) [00:16:26 · 986.7s] Renata Lo Prete: Mas eu me pergunto se não fica difícil para a população considerar que é esse mesmo o propósito do governo,
+(contexto, NÃO extrair) [00:16:32 · 992.7s] Renata Lo Prete: se de repente um ministro como Flávio Dino, que foi indicado pelo senhor, é seu aliado histórico,
+(contexto, NÃO extrair) [00:16:39 · 999.7s] Renata Lo Prete: chega lá e faz um pedido de vista que impede que exista uma investigação sobre a conduta do Alexandre de Moraes,
+(contexto, NÃO extrair) [00:16:47 · 1007.1s] Renata Lo Prete: que de fato, candidato, é o ministro até aqui mais implicado com o Daniel Vorcaro.
+─── a janela começa aqui ───
+[00:16:52 · 1012.7s → 1020.6s] Lula: Era o mais implicado, era o mais implicado, o Toffoli também está implicado, o André Mendonça também está implicado,
+[00:17:00 · 1020.6s → 1023.2s] Lula: e o Castro está implicado, agora está todo mundo implicado.
+[00:17:03 · 1023.8s → 1025.1s] Lula: Então, o que nós queremos?
+[00:17:05 · 1025.1s → 1028.5s] Renata Lo Prete: Mas, Lili, parece que a gente está tratando casos diferentes de maneira igual.
+[00:17:08 · 1028.5s → 1032.2s] Lula: Eu não tenho como interferir na decisão de um ministro da Suprema Corte.
+[00:17:13 · 1033.2s → 1036.0s] Lula: Eles pedem vista quando querem pedir vista e não pedem vista.
+[00:17:16 · 1036.1s → 1037.2s] Lula: Por que o Flávio Dino pediu vista?
+[00:17:17 · 1037.3s → 1040.8s] Lula: Porque o Flávio Dino queria que todos fossem jogados na mesma sessão.
+[00:17:21 · 1041.3s → 1042.1s] Lula: Na mesma sessão.
+[00:17:22 · 1042.4s → 1044.3s] Lula: Porque a denúncia paira sobre todos.
+[00:17:25 · 1045.2s → 1046.8s] Lula: Hoje a denúncia paira sobre todos.
+[00:17:26 · 1046.8s → 1049.1s] Lula: Então, o Flávio Dino fez aquilo que é de direito dele.
+[00:17:29 · 1049.7s → 1054.1s] Lula: Eu não tenho nenhum conhecimento jurídico, mas também se o Flávio Dino estava certo ou não, de pedir vista.
+[00:17:34 · 1054.6s → 1056.7s] Lula: Todo dia se pede vista alguma coisa lá.
+[00:17:37 · 1057.6s → 1062.2s] Lula: O dado concreto, o dado concreto é que eu vou dizer o que eu já disse na outra entrevista que eu fiz aqui,
+[00:17:42 · 1062.3s → 1068.1s] Lula: que eu disse o seguinte, não é possível imaginar que a sociedade brasileira vai aceitar
+[00:17:48 · 1068.1s → 1075.4s] Lula: que não seja apurado tudo e sobretudo, e que não fique pedra sobre pedra,
+[00:17:55 · 1075.4s → 1078.4s] Lula: e que se puna quem precisar punir.
+[00:17:59 · 1079.6s → 1084.2s] Lula: Não tem como imaginar que a sociedade vai aceitar que se coloque um tapete
+[00:18:04 · 1084.2s → 1086.7s] Lula: em cima disso e se esqueça o que aconteceu.
+[00:18:07 · 1087.2s → 1088.9s] Lula: não, é muito grave.
+[00:18:09 · 1089.7s → 1096.5s] Lula: Inclusive, a partir do que aconteceu, a gente vai ter que discutir a necessidade de uma reforma do Poder Judiciário,
+[00:18:16 · 1096.9s → 1098.3s] Lula: que, aliás, a primeira foi eu que fiz.
+[00:18:18 · 1098.4s → 1099.0s] Lula: Você está lembrado?
+[00:18:19 · 1099.1s → 1103.6s] Lula: Eu, o Jobim, quando era presidente da Suprema Corte, e o Márcio Thomaz Bastos, que era ministro da Justiça,
+[00:18:24 · 1104.0s → 1105.5s] Lula: nós fizemos a primeira reforma.
+[00:18:25 · 1105.8s → 1108.2s] Lula: E agora vai ter que fazer uma outra reforma.
+[00:18:28 · 1108.4s → 1111.3s] Lula: Nós temos que começar a discutir critério para escolher as pessoas.
+[00:18:31 · 1111.7s → 1113.8s] Lula: Nós temos que discutir mandato para as pessoas.
+[00:18:34 · 1114.3s → 1117.5s] Lula: Nós temos que discutir se uma pessoa que quer ser ministro da Suprema Corte,
+[00:18:37 · 1117.9s → 1121.8s] Lula: ele pode ser um cara que tem um escritório que ademogue na própria Suprema Corte.
+[00:18:42 · 1122.4s → 1129.9s] Lula: Sabe, essa confusão toda trouxe um debate que será irreversível, será irreversível no próximo ano.
+[00:18:50 · 1130.7s → 1131.3s] Lula: Irreversível.
+[00:18:51 · 1131.7s → 1133.5s] Lula: A sociedade está a exigir, Renata.
+[00:18:53 · 1133.6s → 1138.6s] Lula: Então, é o seguinte, ninguém está acima da lei, nem os ministros da Suprema Corte.
+[00:18:59 · 1139.4s → 1146.3s] Lula: Nem os ministros da Suprema Corte, que têm que passar para a sociedade a ideia ética, a ideia da pobreidade.
+[00:19:06 · 1146.4s → 1151.4s] Lula: Ou seja, não é possível que apareça na Suprema Corte tantas e tantas denúncias,
+[00:19:11 · 1151.7s → 1154.4s] Lula: tantas coisas de orgia, de mulher, de dinheiro.
+[00:19:14 · 1154.9s → 1156.2s] Lula: Não é possível, Renata.
+[00:19:16 · 1156.6s → 1160.2s] Lula: A sociedade brasileira, ela precisa que seja por água.
+[00:19:20 · 1160.2s → 1163.7s] Lula: E que eu já conversei três vezes com o presidente Fachin,
+[00:19:24 · 1164.3s → 1170.9s] Lula: dizendo que é importante que ele, enquanto for presidente, faça a apuração que tiver que fazer e que julgue.
+[00:19:31 · 1172.0s → 1174.3s] Lula: Que julgue, porque senão o Congresso vai fazer.
+[00:19:34 · 1174.8s → 1179.6s] Renata Lo Prete: Deixa eu aproveitar que o senhor fez essa observação de que são vários ministros.
+[00:19:40 · 1180.1s → 1181.6s] Renata Lo Prete: E ali nós temos várias coisas, né?
+[00:19:41 · 1181.6s → 1185.9s] Renata Lo Prete: Tem suspeitas de corrupção mesmo e tem também uma politização do tribunal.
+[00:19:46 · 1186.3s → 1189.2s] Renata Lo Prete: Ministros aliados de um lado, ministros aliados de outro.
+[00:19:49 · 1189.2s → 1195.2s] Renata Lo Prete: Isso me leva a um outro personagem, candidato, que é o diretor-geral da Polícia Federal, Andrei Rodrigues.
+[00:19:55 · 1195.6s → 1200.1s] Renata Lo Prete: Muitos dos seus adversários apontam uma proximidade grande dele com o senhor,
+[00:20:00 · 1200.5s → 1204.9s] Renata Lo Prete: sendo que ele comanda uma das corporações mais bem informadas da República.
+[00:20:05 · 1205.3s → 1208.5s] Renata Lo Prete: Ele esteve numa festa do Daniel Vorcaro em Londres,
+[00:20:08 · 1208.9s → 1213.3s] Renata Lo Prete: quando o Banco Central já apurava irregularidades no Master
+[00:20:13 · 1213.3s → 1217.5s] Renata Lo Prete: e já havia inquérito na PF de São Paulo sobre o Master.
+[00:20:18 · 1218.2s → 1222.9s] Renata Lo Prete: O senhor, se reeleito, vai manter Andrei Rodrigues no comando da Polícia Federal?
+[00:20:23 · 1223.4s → 1225.2s] Lula: Primeiro, ele não é ligado a mim.
+[00:20:26 · 1226.1s → 1229.6s] Lula: Ele é o diretor-geral da Polícia Federal que eu escolhi.
+[00:20:30 · 1230.6s → 1232.5s] Lula: E está fazendo um extraordinário trabalho.
+[00:20:33 · 1233.4s → 1235.9s] Lula: E quando eu fiquei sabendo que ele tinha ido a Londres,
+[00:20:36 · 1236.4s → 1240.3s] Lula: eu chamei ele a atenção de que o papel do diretor da Polícia Federal
+[00:20:40 · 1240.3s → 1243.0s] Lula: não permite que ele estivesse a Londres.
+[00:20:44 · 1244.1s → 1244.7s] Lula: Não permite.
+[00:20:45 · 1245.5s → 1247.5s] Lula: Ele me deu uma explicação, sabe?
+[00:20:47 · 1247.6s → 1249.2s] Lula: Não foi convincente para mim.
+[00:20:49 · 1249.9s → 1250.5s] Renata Lo Prete: Não foi convincente?
+[00:20:50 · 1250.5s → 1251.7s] Lula: Não foi convincente para mim.
+[00:20:51 · 1251.8s → 1252.7s] Lula: Ele não precisava ter ido.
+[00:20:53 · 1253.4s → 1254.5s] Lula: Não precisava ter ido.
+[00:20:54 · 1254.7s → 1256.5s] Lula: Aliás, ninguém precisava ter ido para aquela festa.
+[00:20:56 · 1256.9s → 1257.2s] Lula: Ninguém.
+[00:20:57 · 1257.7s → 1262.6s] Lula: Agora, sabe, ele sabe que eu o reprendi, ele alertei o ministro da Justiça.
+[00:21:02 · 1262.9s → 1266.7s] Lula: Agora, ele é um extraordinário delegado que tem feito um trabalho excepcional.
+[00:21:07 · 1267.3s → 1270.1s] Renata Lo Prete: E só para a gente encerrar esse assunto, eu volto à minha primeira pergunta.
+[00:21:10 · 1270.4s → 1273.7s] Renata Lo Prete: O senhor pretende mantê-lo no comando da Polícia Federal se o senhor for reeleito?
+[00:21:13 · 1273.7s → 1275.0s] Lula: Primeiro, eu preciso ganhar as eleições.
+[00:21:16 · 1276.1s → 1277.1s] Lula: Primeiro, eu preciso ganhar as eleições.
+[00:21:17 · 1277.1s → 1280.4s] Lula: Se eu ganhar as eleições, eu vou escolher as pessoas como eu escolhi outra vez.
+[00:21:21 · 1281.4s → 1285.2s] Lula: Eu não vou dizer aqui que eu vou escolher quem que vai ficar, quem que vai sair.
+[00:21:25 · 1285.4s → 1286.5s] Lula: Eu vou escolher ministro.
+[00:21:26 · 1286.8s → 1289.4s] Lula: Você não tem noção da quantidade de gente que manda cartão para mim.
+[00:21:29 · 1289.5s → 1290.7s] Lula: Não indica o ministro tal.
+[00:21:31 · 1291.1s → 1292.2s] Lula: Indica fulano para o ministro.
+[00:21:32 · 1292.3s → 1293.7s] Lula: Indica a mulher para a Suprema Corte.
+[00:21:34 · 1294.1s → 1294.2s] Lula: Não.
+[00:21:34 · 1294.5s → 1296.6s] Lula: Eu primeiro tenho que ganhar as eleições.
+[00:21:37 · 1297.1s → 1301.4s] Lula: Quando eu ganhar as eleições, eu vou sentar e vou montar o time outra vez.
+[00:21:41 · 1301.7s → 1305.7s] Renata Lo Prete: Deixa eu aproveitar que a gente está tratando de caso máster e que nós falamos de Polícia Federal
+[00:21:45 · 1305.7s → 1309.6s] Renata Lo Prete: para lembrar do momento em que o senhor recebeu o Vorcaro no Palácio do Planalto.
+[00:21:49 · 1309.7s → 1311.4s] Renata Lo Prete: Era dezembro de 2024.
+[00:21:51 · 1311.4s → 1316.1s] Renata Lo Prete: Ele foi levado ao senhor pelo seu ex-ministro da Fazenda, Guido Mântega, que naquela altura
+[00:21:56 · 1316.1s → 1317.5s] Renata Lo Prete: trabalhava para o máster.
+[00:21:58 · 1318.2s → 1323.7s] Renata Lo Prete: Vorcaro já era alvo naquela ocasião, como eu disse, de procedimentos formais no Banco
+[00:22:03 · 1323.7s → 1327.5s] Renata Lo Prete: Central e também naquele mesmo ano de um inquérito da Polícia Federal.
+[00:22:07 · 1327.7s → 1329.1s] Renata Lo Prete: Ocorria em São Paulo esse inquérito.
+[00:22:10 · 1330.2s → 1337.9s] Renata Lo Prete: Não era o caso da PF ter avisado o senhor sobre o que pesava contra Daniel Vorcaro no momento
+[00:22:17 · 1337.9s → 1339.2s] Renata Lo Prete: em que o senhor recebe ele no Planalto?
+[00:22:19 · 1339.3s → 1345.3s] Lula: Ô, Renata, veja, ele foi me procurar como todos que estão com problema vão me procurar.
+[00:22:25 · 1346.0s → 1350.5s] Lula: O que você acha que o Silvio Santos fez quando o Banco Pan-Americano deu problema?
+[00:22:30 · 1350.9s → 1351.5s] Lula: Foi me procurar.
+[00:22:31 · 1352.0s → 1353.8s] Lula: O que você acha que o Banco de Santos fez?
+[00:22:34 · 1354.1s → 1354.7s] Lula: Foi me procurar.
+[00:22:35 · 1355.1s → 1358.0s] Lula: O que você acha do Banco da Igreja de Macedo fez?
+[00:22:38 · 1358.1s → 1358.7s] Lula: Foi me procurar.
+[00:22:39 · 1359.3s → 1360.3s] Lula: Todos vão me procurar.
+[00:22:40 · 1361.0s → 1365.1s] Lula: E o que eu falo é o seguinte, o Banco Central não investiga politicamente.
+[00:22:45 · 1365.9s → 1368.6s] Lula: O Banco Central vai investigar tecnicamente.
+[00:22:49 · 1369.0s → 1372.7s] Lula: Se tiver problema técnico e for necessário fechar, o banco fecha.
+[00:22:53 · 1373.1s → 1377.6s] Lula: Se não tiver problema técnico e for preciso que o banco continue funcionando, vai continuar
+[00:22:57 · 1377.6s → 1378.2s] Lula: funcionando.
+[00:22:58 · 1378.2s → 1384.4s] Lula: E foi assim que o Galipo se posicionou, foi assim que eu pedi para ele comunicar ao Procurador-Geral
+[00:23:04 · 1384.4s → 1387.3s] Lula: da República, foi assim que o Haddad se posicionou.
+[00:23:07 · 1387.8s → 1389.9s] Lula: Ou seja, ninguém é condenado a prior.
+[00:23:10 · 1390.3s → 1393.3s] Lula: O cidadão me procurou, porque eu estou me perseguindo politicamente.
+[00:23:13 · 1393.8s → 1396.0s] Lula: Até disse o nome das pessoas que estavam perseguindo.
+[00:23:16 · 1396.4s → 1399.0s] Lula: E eu disse o seguinte, você não vai ter perseguido, você vai ter investigado.
+[00:23:19 · 1399.5s → 1402.4s] Lula: E um mês depois o banco fechou, porque ele estava errado.
+[00:23:23 · 1403.3s → 1405.0s] Lula: É assim que as coisas acontecem.
+[00:23:25 · 1405.7s → 1407.1s] Lula: É assim que as coisas acontecem.
+[00:23:27 · 1407.1s → 1410.0s] Renata Lo Prete: Deixa eu aproveitar que o senhor falou da necessidade de reformas.
+[00:23:30 · 1410.1s → 1413.0s] Renata Lo Prete: O senhor estava se referindo ao Judiciário, ao Supremo Tribunal Federal,
+[00:23:33 · 1413.7s → 1417.1s] Renata Lo Prete: e que a gente está falando de caso Master, para eu colocar aqui um outro personagem,
+[00:23:37 · 1417.5s → 1419.6s] Renata Lo Prete: para ele perguntar sobre um outro tipo de reforma.
+[00:23:39 · 1419.6s → 1425.2s] Renata Lo Prete: Eu falo de Ricardo Lewandowski, ex-ministro do Supremo, que era conselheiro e advogado
+[00:23:45 · 1425.2s → 1429.1s] Renata Lo Prete: do Daniel Vorcaro, quando o senhor chamou ele para ser ministro da Justiça.
+[00:23:49 · 1429.6s → 1430.4s] Renata Lo Prete: Aí aconteceu o quê?
+[00:23:50 · 1430.4s → 1435.3s] Renata Lo Prete: A família dele manteve o contrato que ele tinha com o Daniel Vorcaro.
+[00:23:55 · 1435.9s → 1441.6s] Renata Lo Prete: E daí nós tivemos o ministro da Justiça, que comanda a PF, o escritório da família,
+[00:24:01 · 1442.0s → 1447.5s] Renata Lo Prete: mantendo o contrato com o Daniel Vorcaro, que já era um personagem investigado pela Polícia Federal.
+[00:24:08 · 1448.3s → 1451.2s] Renata Lo Prete: O senhor entende que aí cabe um outro tipo de reforma, presidente?
+[00:24:11 · 1451.2s → 1457.0s] Renata Lo Prete: De conduta na administração pública, regras éticas para ir e vir do setor privado.
+[00:24:17 · 1457.1s → 1457.6s] Renata Lo Prete: O senhor acha que isso?
+[00:24:17 · 1457.6s → 1460.4s] Lula: Acho, Renata, que nós temos que mudar muitas coisas.
+[00:24:21 · 1461.3s → 1465.4s] Lula: O Lewandowski foi o extraordinário ministro da Suprema Corte brasileira.
+[00:24:26 · 1466.1s → 1470.8s] Lula: Quando ele deixou o ministério, quando ele deixou a Suprema Corte, ele foi trabalhar por conta dele.
+[00:24:31 · 1471.6s → 1475.0s] Lula: Eu não tenho emprego para oferecer para ele e também não sei onde ele foi trabalhar.
+[00:24:35 · 1475.6s → 1478.4s] Lula: Quando eu resolvi indicar o ministério da Justiça, eu o convidei.
+[00:24:38 · 1478.7s → 1480.3s] Lula: Ele largou a assessoria e veio.
+[00:24:40 · 1480.6s → 1484.1s] Lula: E foi um belo ministro da Justiça para mim, um belíssimo ministro.
+[00:24:44 · 1484.5s → 1488.1s] Lula: Tenho saudade deles, porque foi um belíssimo ministro da Justiça.
+[00:24:48 · 1488.7s → 1490.2s] Lula: Agora cada um segue a sua vida.
+[00:24:50 · 1490.8s → 1492.9s] Lula: Quem errou e aparecer vai ser apurado.
+[00:24:53 · 1493.4s → 1496.5s] Lula: Não tem como o presidente da República ficar acompanhando a vida das pessoas.
+[00:24:57 · 1497.4s → 1499.2s] Lula: Não existe possibilidade de acompanhar.
+[00:24:59 · 1499.7s → 1504.5s] Lula: O que existe é o seguinte, eu acho, acho, que não cabe ao presidente proibir ninguém.
+[00:25:04 · 1504.8s → 1505.2s] Lula: Ninguém.
+[00:25:05 · 1505.6s → 1506.6s] Lula: Trabalhar onde quer que seja.
+[00:25:07 · 1507.2s → 1510.9s] Lula: As pessoas têm uma quarentena, cumprem a quarentena e depois vão cuidar das suas vidas.
+[00:25:11 · 1511.4s → 1513.0s] Lula: É assim que funciona a máquina pública.
+[00:25:13 · 1513.7s → 1517.4s] Lula: Agora, o que eu penso claramente é o seguinte, nós vamos fazer um levantamento.
+[00:25:17 · 1517.4s → 1522.6s] Lula: A partir de tudo isso que aconteceu, que é uma coisa muito importante para o Brasil,
+[00:25:23 · 1523.1s → 1528.5s] Lula: parece uma coisa grave, demais grave, mas é importante a gente ter aproveito do que aconteceu
+[00:25:28 · 1528.5s → 1532.1s] Lula: para que a gente tente moralizar muitas coisas no país.
+[00:25:33 · 1533.1s → 1534.8s] Lula: E essa é a minha determinação.
+[00:25:35 · 1535.2s → 1537.6s] Lula: Nós vamos trabalhar para investigar tudo.
+[00:25:38 · 1538.2s → 1541.7s] Lula: Não há possibilidade nenhuma das coisas serem acobertadas.
+[00:25:41 · 1541.9s → 1542.2s] Lula: Não há.
+[00:25:42 · 1542.7s → 1550.9s] Lula: Cada dia eu vejo a notícia, cada dia eu vejo uma coisa que é inacreditável você imaginar.
+[00:25:51 · 1551.3s → 1556.0s] Lula: As festas noturnas, a quantidade de mulheres, a quantidade de pessoas envolvidas.
+[00:25:56 · 1556.4s → 1562.7s] Lula: Ou seja, da República, envolvendo o ministro da Suprema Corte, que é a estança maior desse país.
+[00:26:03 · 1563.3s → 1567.2s] Lula: Quando eles tomam a decisão, ninguém pode mais tomar decisão, ninguém pode voltar atrás.
+[00:26:08 · 1568.1s → 1577.5s] Lula: Então, nós temos que aproveitar esse acontecimento para colocar um fim e criar um comportamento ético mais adequado.
+[00:26:17 · 1577.5s → 1581.5s] Lula: Eu já disse uma vez, quem quiser ser rico não pode ser ministro da Suprema Corte.
+[00:26:21 · 1581.9s → 1583.1s] Lula: Ali é um sacerdócio.
+[00:26:23 · 1583.5s → 1588.3s] Lula: Alguém vai aproveitar o serviço à nação brasileira e cumprir a nossa Constituição.
+[00:26:28 · 1588.8s → 1590.8s] Lula: E é por isso que eu estou defendendo o mandato.
+[00:26:31 · 1591.1s → 1592.3s] Lula: Agora, eu não sou jurista.
+[00:26:32 · 1592.6s → 1594.2s] Lula: Eu não tenho como eu fazer um projeto.
+[00:26:34 · 1594.3s → 1600.5s] Lula: Eu vou ter que montar uma comissão de especialistas e discutir que reforma a gente vai propor ao Brasil.

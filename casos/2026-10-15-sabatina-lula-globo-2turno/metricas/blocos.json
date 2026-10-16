@@ -1,0 +1,72 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "como": "Um bloco por tema perguntado: a virada é a pergunta nova de Renata Lo Prete, lida na transcrição (16/out/2026). O intervalo comercial (29:09 a 31:25) fica fora de qualquer bloco.",
+  "blocos": [
+    {
+      "id": "b01",
+      "titulo": "Responsabilidade pelo cenário da eleição",
+      "inicio_s": 50.04,
+      "fim_s": 213.16
+    },
+    {
+      "id": "b02",
+      "titulo": "Congresso e governabilidade",
+      "inicio_s": 213.16,
+      "fim_s": 350.0
+    },
+    {
+      "id": "b03",
+      "titulo": "Estados Unidos, Trump e tarifas",
+      "inicio_s": 350.0,
+      "fim_s": 521.96
+    },
+    {
+      "id": "b04",
+      "titulo": "Segurança pública: facções, PEC e maioridade penal",
+      "inicio_s": 521.96,
+      "fim_s": 876.4
+    },
+    {
+      "id": "b05",
+      "titulo": "Supremo, caso Master e Polícia Federal",
+      "inicio_s": 876.4,
+      "fim_s": 1600.48
+    },
+    {
+      "id": "b06",
+      "titulo": "Bolsa Família e orçamento",
+      "inicio_s": 1600.48,
+      "fim_s": 1749.4
+    },
+    {
+      "id": "b07",
+      "titulo": "Endividamento das famílias",
+      "inicio_s": 1884.74,
+      "fim_s": 2082.5
+    },
+    {
+      "id": "b08",
+      "titulo": "Juros, Banco Central e dívida pública",
+      "inicio_s": 2082.5,
+      "fim_s": 2355.48
+    },
+    {
+      "id": "b09",
+      "titulo": "Energia elétrica",
+      "inicio_s": 2355.48,
+      "fim_s": 2484.6
+    },
+    {
+      "id": "b10",
+      "titulo": "Saúde e tempo de espera no SUS",
+      "inicio_s": 2484.6,
+      "fim_s": 2652.5
+    },
+    {
+      "id": "b11",
+      "titulo": "Considerações finais",
+      "inicio_s": 2652.5,
+      "fim_s": 2767.82
+    }
+  ]
+}

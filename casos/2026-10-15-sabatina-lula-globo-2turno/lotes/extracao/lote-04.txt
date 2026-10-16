@@ -1,0 +1,158 @@
+LOTE 04 de 06 · janela a EXTRAIR: 00:26:40 a 00:34:42 (1600.5 s a 2082.4 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-15-sabatina-lula-globo-2turno/alegacoes/lotes/alegacoes-lote-04.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 1600.5, "fim_s": 2082.4}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+(contexto, NÃO extrair) [00:25:51 · 1551.3s] Lula: As festas noturnas, a quantidade de mulheres, a quantidade de pessoas envolvidas.
+(contexto, NÃO extrair) [00:25:56 · 1556.4s] Lula: Ou seja, da República, envolvendo o ministro da Suprema Corte, que é a estança maior desse país.
+(contexto, NÃO extrair) [00:26:03 · 1563.3s] Lula: Quando eles tomam a decisão, ninguém pode mais tomar decisão, ninguém pode voltar atrás.
+(contexto, NÃO extrair) [00:26:08 · 1568.1s] Lula: Então, nós temos que aproveitar esse acontecimento para colocar um fim e criar um comportamento ético mais adequado.
+(contexto, NÃO extrair) [00:26:17 · 1577.5s] Lula: Eu já disse uma vez, quem quiser ser rico não pode ser ministro da Suprema Corte.
+(contexto, NÃO extrair) [00:26:21 · 1581.9s] Lula: Ali é um sacerdócio.
+(contexto, NÃO extrair) [00:26:23 · 1583.5s] Lula: Alguém vai aproveitar o serviço à nação brasileira e cumprir a nossa Constituição.
+(contexto, NÃO extrair) [00:26:28 · 1588.8s] Lula: E é por isso que eu estou defendendo o mandato.
+(contexto, NÃO extrair) [00:26:31 · 1591.1s] Lula: Agora, eu não sou jurista.
+(contexto, NÃO extrair) [00:26:32 · 1592.6s] Lula: Eu não tenho como eu fazer um projeto.
+(contexto, NÃO extrair) [00:26:34 · 1594.3s] Lula: Eu vou ter que montar uma comissão de especialistas e discutir que reforma a gente vai propor ao Brasil.
+─── a janela começa aqui ───
+[00:26:40 · 1600.5s → 1606.7s] Renata Lo Prete: Deixa eu passar agora para assuntos importantes de interesse do país, de interesse dos brasileiros
+[00:26:46 · 1606.7s → 1612.2s] Renata Lo Prete: e que foram objeto de anúncios do governo neste ano eleitoral, alguns já bem próximos da eleição.
+[00:26:52 · 1612.6s → 1618.9s] Renata Lo Prete: Eu acho que o de maior alcance talvez tenha sido o reajuste do Bolsa Família, o primeiro no seu atual mandato.
+[00:26:59 · 1619.3s → 1626.6s] Renata Lo Prete: O que levanta a questão, por que o principal programa social do governo só foi reajustado 17 dias antes do primeiro turno?
+[00:27:06 · 1626.6s → 1634.7s] Lula: Eu não quero que você ouça a reunião que eu tive com meus ministros quando eu fiquei sabendo que o Bolsa Família não tinha sido reajustado.
+[00:27:14 · 1635.0s → 1635.6s] Renata Lo Prete: O senhor não sabia?
+[00:27:15 · 1635.7s → 1647.9s] Lula: Eu não sabia, porque é inexplicável, Renata, é inexplicável que no governo do Lula alguém pense não reajustar, sabe, a inflação no salário das pessoas.
+[00:27:28 · 1648.2s → 1649.2s] Lula: É impensável.
+[00:27:30 · 1650.3s → 1651.0s] Lula: Mas aconteceu.
+[00:27:32 · 1652.2s → 1654.0s] Lula: Aconteceu e eu tomei a decisão.
+[00:27:34 · 1654.1s → 1656.2s] Lula: A gente vai dar e vai dar tudo o que a gente não deu.
+[00:27:36 · 1656.8s → 1658.2s] Lula: A gente está perdendo nunca mais.
+[00:27:38 · 1658.5s → 1660.6s] Renata Lo Prete: Deixa eu fazer uma última pergunta sobre esse assunto.
+[00:27:40 · 1660.8s → 1663.7s] Renata Lo Prete: Porque a questão do calendário, eu acho importante da gente entender.
+[00:27:43 · 1663.8s → 1671.7s] Renata Lo Prete: No dia 31 de agosto, duas semanas antes do anúncio, o seu governo mandou para o Congresso a proposta de orçamento de 2027.
+[00:27:52 · 1672.1s → 1674.1s] Renata Lo Prete: E ali não tinha correção do Bolsa Família.
+[00:27:54 · 1674.8s → 1677.2s] Renata Lo Prete: O que aconteceu, além dessa reunião aí com o senhor?
+[00:27:57 · 1677.5s → 1681.2s] Renata Lo Prete: Apareceu um espaço fiscal que a equipe econômica não tinha chegado antes?
+[00:28:01 · 1681.3s → 1685.4s] Lula: Não, aconteceu que eu fiquei sabendo que não tinha sido aumentado o Bolsa Família.
+[00:28:05 · 1685.5s → 1687.5s] Lula: E eu fui perguntar por que não aumentaram o Bolsa Família.
+[00:28:07 · 1687.9s → 1690.2s] Lula: Se tem espaço fiscal para aumentar, por que não aumentaram?
+[00:28:11 · 1691.6s → 1694.2s] Lula: Aí tomei a decisão de mandar dar o Bolsa Família.
+[00:28:15 · 1695.0s → 1698.7s] Lula: Mantei, tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal.
+[00:28:19 · 1699.1s → 1704.7s] Lula: É importante lembrar, Renata, que nós apresentamos um orçamento com superávit primário.
+[00:28:25 · 1705.8s → 1710.7s] Lula: 0,1%, é pouco, mas é importante lembrar que eu peguei com um déficit de 2,8%.
+[00:28:30 · 1710.7s → 1711.8s] Lula: É importante lembrar.
+[00:28:31 · 1711.9s → 1714.9s] Renata Lo Prete: Eu prometo que eu não vou iniciar aqui uma discussão sobre orçamento,
+[00:28:35 · 1715.1s → 1719.3s] Renata Lo Prete: mas a gente precisa lembrar que tem muita gente séria, instituição fiscal independente,
+[00:28:39 · 1719.7s → 1723.2s] Renata Lo Prete: achando que as receitas estão superestimadas para chegar aí nesse superávit.
+[00:28:43 · 1723.5s → 1724.7s] Renata Lo Prete: Mas a gente volta já já.
+[00:28:45 · 1725.0s → 1727.7s] Renata Lo Prete: Presidente, eu vou lhe pedir licença, a gente tem que fazer um intervalo.
+[00:28:47 · 1727.8s → 1731.3s] Renata Lo Prete: Voltamos já já com a entrevista do candidato Luiz Inácio Lula da Silva.
+[00:29:09 · 1749.4s → 1754.8s] Fora da sabatina: Em uma hora, pessoas serão forçadas a fugir de suas casas às pressas.
+[00:29:17 · 1757.8s → 1764.1s] Fora da sabatina: Em duas horas, o desespero da multidão irá separar crianças de suas famílias.
+[00:29:29 · 1769.7s → 1773.7s] Fora da sabatina: Em três horas, uma família terá perdido tudo.
+[00:29:36 · 1776.9s → 1780.0s] Fora da sabatina: Não pode deixar, Renata, levar agora.
+[00:29:40 · 1780.0s → 1782.2s] Fora da sabatina: Foi muito bom quando se falou do Supremo,
+[00:29:43 · 1783.4s → 1791.9s] Fora da sabatina: quando fez a demarcação em relação às ações do seu governo.
+[00:29:52 · 1792.0s → 1795.7s] Fora da sabatina: Agora a gente tem que falar mais da vida do povo e confrontar com o Flávio Bolsonaro.
+[00:29:56 · 1796.3s → 1799.0s] Fora da sabatina: Nós estamos num confronto direto com ele.
+[00:29:59 · 1799.5s → 1802.1s] Fora da sabatina: Até nos Estados Unidos, quando perguntaram do Trump,
+[00:30:02 · 1802.7s → 1809.1s] Fora da sabatina: tem que falar que o papel deles é o tempo inteiro o papel de prejudicar o Brasil,
+[00:30:09 · 1809.1s → 1814.4s] Fora da sabatina: de conspirar com o Trump para impor sanções ao nosso país.
+[00:30:14 · 1814.8s → 1817.8s] Fora da sabatina: Ou seja, você perguntar se o presidente está indo bem, está.
+[00:30:18 · 1818.4s → 1820.4s] Fora da sabatina: Só tem que ser mais incisivo.
+[00:30:20 · 1820.7s → 1822.0s] Fora da sabatina: Eu vou parar agora, vou voltar.
+[00:30:22 · 1822.4s → 1824.2s] Fora da sabatina: E tem que falar o nome do Flávio Bolsonaro.
+[00:30:24 · 1824.6s → 1827.9s] Fora da sabatina: E tem que falar da pobreza que existe no país, da fila do osso.
+[00:30:28 · 1828.7s → 1829.5s] Fora da sabatina: Vamos com tudo, pessoal.
+[00:30:29 · 1829.6s → 1830.8s] Fora da sabatina: Nós vamos ganhar essa eleição.
+[00:30:31 · 1831.5s → 1833.6s] Fora da sabatina: Eu estou aqui assistindo, torcendo,
+[00:30:34 · 1834.4s → 1836.4s] Fora da sabatina: mas eu acho que a chave do segundo bloco
+[00:30:36 · 1836.4s → 1839.5s] Fora da sabatina: é centrar na vida das pessoas.
+[00:30:39 · 1839.6s → 1839.9s] Fora da sabatina: Vamos lá.
+[00:30:40 · 1840.9s → 1844.8s] Fora da sabatina: A gente tem um estado crítico e gravemente desnutrido.
+[00:30:45 · 1845.3s → 1847.5s] Fora da sabatina: Ela temia estar perdendo seu filho.
+[00:30:48 · 1848.2s → 1851.9s] Fora da sabatina: Mas com o tratamento, Bará ganhou 3 quilos em dois meses.
+[00:30:53 · 1853.1s → 1854.6s] Fora da sabatina: Por favor, doe agora.
+[00:30:55 · 1855.3s → 1858.3s] Fora da sabatina: Nenhuma criança deveria morrer de fome ou desnutrição
+[00:30:58 · 1858.3s → 1861.8s] Fora da sabatina: quando algo tão pequeno pode fazer uma diferença tão grande.
+[00:31:02 · 1862.9s → 1864.7s] Fora da sabatina: Dê um pacotinho de esperança hoje.
+[00:31:05 · 1865.7s → 1868.5s] Fora da sabatina: Aponte a câmera do seu celular para ler o QR Code
+[00:31:08 · 1868.5s → 1871.7s] Fora da sabatina: ou acesse doiunicef.org.br
+[00:31:11 · 1871.7s → 1873.7s] Fora da sabatina: Obrigado.
+[00:31:24 · 1884.7s → 1888.2s] Renata Lo Prete: Estamos de volta para o segundo e último bloco da entrevista
+[00:31:28 · 1888.2s → 1889.9s] Renata Lo Prete: com Luiz Inácio Lula da Silva,
+[00:31:30 · 1890.1s → 1891.7s] Renata Lo Prete: que disputa a reeleição pelo PT.
+[00:31:32 · 1892.1s → 1894.3s] Renata Lo Prete: E o tempo, candidato, volta a contar agora.
+[00:31:34 · 1894.4s → 1894.6s] Renata Lo Prete: Vamos lá?
+[00:31:35 · 1895.3s → 1898.2s] Renata Lo Prete: A gente estava falando de assuntos importantes
+[00:31:38 · 1898.2s → 1899.8s] Renata Lo Prete: que foram temas de anúncio do governo.
+[00:31:40 · 1900.3s → 1902.1s] Renata Lo Prete: E eu queria falar agora de endividamento,
+[00:31:42 · 1902.2s → 1904.7s] Renata Lo Prete: que talvez não exista outro mais presente
+[00:31:44 · 1904.7s → 1907.2s] Renata Lo Prete: na vida dos brasileiros atualmente.
+[00:31:47 · 1907.8s → 1910.1s] Renata Lo Prete: Um estudo recente da Fundação Getúlio Vargas
+[00:31:50 · 1910.1s → 1912.4s] Renata Lo Prete: mostra que um em cada quatro brasileiros
+[00:31:52 · 1912.4s → 1915.4s] Renata Lo Prete: está contraindo dívida ou sacando de poupança
+[00:31:55 · 1915.4s → 1918.9s] Renata Lo Prete: para pagar contas básicas como água, luz e gás.
+[00:31:59 · 1919.5s → 1921.5s] Renata Lo Prete: Em agosto, o senhor deve conhecer bem esse número,
+[00:32:01 · 1921.7s → 1925.7s] Renata Lo Prete: eram 84 milhões de pessoas negativadas no Serasa.
+[00:32:05 · 1925.8s → 1928.6s] Renata Lo Prete: O seu governo já lançou três edições do programa Desenrola
+[00:32:08 · 1928.6s → 1931.0s] Renata Lo Prete: e elas são bem recebidas,
+[00:32:11 · 1931.1s → 1934.1s] Renata Lo Prete: porque as pessoas e as empresas estão, de fato, encalacradas.
+[00:32:14 · 1934.6s → 1938.5s] Renata Lo Prete: Mas o que acontece é que logo depois a inadimplência volta a subir.
+[00:32:19 · 1939.6s → 1947.9s] Renata Lo Prete: O seu governo, a sua equipe, tem remédio para curar e não só para baixar a febre desse mal
+[00:32:27 · 1947.9s → 1950.8s] Renata Lo Prete: que compromete a perspectiva de tantas famílias brasileiras?
+[00:32:30 · 1950.9s → 1957.5s] Lula: Renato, veja, quando eu tomei posse, nós tínhamos 78% da população endividada.
+[00:32:38 · 1958.1s → 1959.4s] Lula: Nós criamos o Desenrola 1.
+[00:32:40 · 1960.3s → 1963.2s] Lula: Depois, nós atendemos por volta de 15 milhões de pessoas.
+[00:32:43 · 1963.4s → 1964.4s] Lula: Não resolveu o problema.
+[00:32:44 · 1965.0s → 1966.2s] Lula: Nós criamos o Desenrola 2.
+[00:32:46 · 1966.7s → 1968.6s] Lula: Agora, nós criamos o Desenrola 3.
+[00:32:49 · 1969.2s → 1971.5s] Lula: E esse Desenrola 3, nós fizemos uma medida provisória.
+[00:32:52 · 1972.2s → 1974.0s] Lula: Ele está na Câmara, que é o seguinte,
+[00:32:53 · 1974.0s → 1978.6s] Lula: nós vamos fazer um leilão da dívida das pessoas.
+[00:32:59 · 1979.4s → 1983.3s] Lula: Nós trabalhamos com a expectativa de que os bancos vão vender a dívida
+[00:33:03 · 1983.3s → 1987.1s] Lula: descontando 90%, 92%, 93%.
+[00:33:07 · 1987.1s → 1989.2s] Lula: Nós achamos que vai acontecer isso.
+[00:33:09 · 1989.7s → 1992.9s] Lula: Então, nós estamos comprando a dívida de todas as pessoas
+[00:33:12 · 1992.9s → 1996.3s] Lula: que devem, acima de dois anos, até R$ 4 mil.
+[00:33:16 · 1996.8s → 1998.9s] Lula: Nós vamos comprar essa dívida.
+[00:33:20 · 2000.0s → 2001.4s] Lula: A União vai comprar essa dívida.
+[00:33:21 · 2001.4s → 2005.6s] Lula: Nós estamos achando que é possível a gente colocar uns R$ 150 bilhões
+[00:33:25 · 2005.6s → 2007.0s] Lula: para comprar essa dívida.
+[00:33:27 · 2007.6s → 2009.4s] Lula: Essa dívida existe hoje, R$ 150 bilhões.
+[00:33:29 · 2009.8s → 2012.6s] Lula: Se a gente compra ela por 5% do valor dela,
+[00:33:33 · 2013.2s → 2016.3s] Lula: a gente está fazendo um favor extraordinário
+[00:33:36 · 2016.3s → 2018.0s] Lula: a todo mundo que deve nesse país.
+[00:33:38 · 2018.7s → 2022.2s] Lula: Ao mesmo tempo, nós fizemos o perdão do MEI, que você viu.
+[00:33:42 · 2022.7s → 2027.8s] Lula: Nós descobrimos que tinha R$ 12,7 bilhões de dívida ativa da União.
+[00:33:48 · 2028.4s → 2030.1s] Lula: Dívida que a União não vai receber mais.
+[00:33:50 · 2030.7s → 2032.2s] Lula: Dívida que a União não vai receber mais.
+[00:33:52 · 2032.6s → 2034.5s] Lula: Mas que essas pessoas que estão devendo,
+[00:33:54 · 2034.6s → 2037.1s] Lula: essas pessoas não conseguem fazer novo negócio
+[00:33:57 · 2037.1s → 2038.8s] Lula: porque estão no Serasa.
+[00:33:59 · 2039.8s → 2042.6s] Lula: Então, eu sugeri que a gente estudasse a possibilidade
+[00:34:02 · 2042.6s → 2046.1s] Lula: de anistiar essa dívida das pessoas,
+[00:34:06 · 2046.2s → 2047.9s] Lula: para as pessoas começarem uma vida nova.
+[00:34:07 · 2047.9s → 2051.9s] Lula: E, ao mesmo tempo, nós vamos disponibilizar
+[00:34:11 · 2051.9s → 2055.9s] Lula: uma espécie de crédito e um aval de R$ 5 mil
+[00:34:15 · 2055.9s → 2059.7s] Lula: para essas pessoas que zerarem a sua dívida começar uma vida nova.
+[00:34:20 · 2060.3s → 2063.7s] Lula: Ou seja, um recomeçar para que a gente coloque as pessoas,
+[00:34:23 · 2063.9s → 2066.6s] Lula: a economia, sabe, para andar a todo vapor.
+[00:34:27 · 2067.0s → 2069.6s] Lula: É o jeito que nós encontramos de reativar a economia,
+[00:34:29 · 2069.7s → 2073.0s] Lula: sobretudo para o pequeno e médio empreendedor brasileiro.
+[00:34:33 · 2073.4s → 2076.0s] Lula: Estamos fazendo isso com muita, com muita coisa,
+[00:34:36 · 2076.4s → 2078.0s] Lula: sem mexer no espaço fiscal.
+[00:34:39 · 2079.3s → 2082.4s] Lula: Como você entende de fiscal, então é importante você acompanhar.

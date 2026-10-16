@@ -1,0 +1,657 @@
+{
+  "caso": "2026-10-15-sabatina-lula-globo-2turno",
+  "metodo": "RASCUNHO de ferramentas/rascunho-de-turnos.py (plano + texto + VT declarado). ⛔ Não é o falantes.json: conferir cada turno no vídeo antes de copiar.",
+  "turnos": [
+    {
+      "inicio_s": 0.0,
+      "fim_s": 50.04,
+      "falante": "Fora da sabatina",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 50.04,
+      "fim_s": 71.98,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 71.98,
+      "fim_s": 77.96,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'"
+      ]
+    },
+    {
+      "inicio_s": 77.96,
+      "fim_s": 120.36,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 120.36,
+      "fim_s": 217.84,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 217.84,
+      "fim_s": 248.98,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 248.98,
+      "fim_s": 330.16,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 330.16,
+      "fim_s": 391.92,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 391.92,
+      "fim_s": 471.58,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 471.58,
+      "fim_s": 578.86,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 578.86,
+      "fim_s": 606.94,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 606.94,
+      "fim_s": 739.0,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 739.0,
+      "fim_s": 771.18,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 771.18,
+      "fim_s": 815.14,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 815.14,
+      "fim_s": 819.44,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 819.44,
+      "fim_s": 822.56,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 822.56,
+      "fim_s": 828.62,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 828.62,
+      "fim_s": 835.9,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 835.9,
+      "fim_s": 889.76,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 889.76,
+      "fim_s": 930.6,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 930.6,
+      "fim_s": 975.22,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 975.22,
+      "fim_s": 1007.12,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1007.12,
+      "fim_s": 1180.06,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1180.06,
+      "fim_s": 1316.06,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1316.06,
+      "fim_s": 1327.74,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1327.74,
+      "fim_s": 1339.32,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1339.32,
+      "fim_s": 1345.98,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'"
+      ]
+    },
+    {
+      "inicio_s": 1345.98,
+      "fim_s": 1384.4,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 1384.4,
+      "fim_s": 1410.08,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1410.08,
+      "fim_s": 1429.58,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1429.58,
+      "fim_s": 1441.98,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1441.98,
+      "fim_s": 1448.32,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1448.32,
+      "fim_s": 1457.14,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1457.14,
+      "fim_s": 1457.64,
+      "falante": "Renata Lo Prete",
+      "confianca": "duvida",
+      "pistas": [
+        "pergunta",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1457.64,
+      "fim_s": 1619.26,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1619.26,
+      "fim_s": 1634.96,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1634.96,
+      "fim_s": 1663.78,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1663.78,
+      "fim_s": 1685.48,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1685.48,
+      "fim_s": 1723.48,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1723.48,
+      "fim_s": 1749.4,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1749.4,
+      "fim_s": 1884.74,
+      "falante": "Fora da sabatina",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1884.74,
+      "fim_s": 1888.16,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1888.16,
+      "fim_s": 1892.14,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1892.14,
+      "fim_s": 1958.14,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1958.14,
+      "fim_s": 2091.22,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2091.22,
+      "fim_s": 2123.14,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2123.14,
+      "fim_s": 2199.38,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2199.38,
+      "fim_s": 2204.64,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2204.64,
+      "fim_s": 2220.34,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2220.34,
+      "fim_s": 2223.06,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2223.06,
+      "fim_s": 2242.22,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2242.22,
+      "fim_s": 2246.16,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2246.16,
+      "fim_s": 2333.48,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2333.48,
+      "fim_s": 2343.38,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2343.38,
+      "fim_s": 2366.24,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2366.24,
+      "fim_s": 2388.14,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2388.14,
+      "fim_s": 2392.56,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2392.56,
+      "fim_s": 2403.44,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2403.44,
+      "fim_s": 2493.62,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2493.62,
+      "fim_s": 2523.68,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2523.68,
+      "fim_s": 2607.54,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2607.54,
+      "fim_s": 2620.0,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2620.0,
+      "fim_s": 2660.3,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2660.3,
+      "fim_s": 2662.98,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2662.98,
+      "fim_s": 2741.78,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2741.78,
+      "fim_s": 2746.36,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2746.36,
+      "fim_s": 2750.7,
+      "falante": "Lula",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2750.7,
+      "fim_s": 2767.82,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2767.82,
+      "fim_s": 2867.08,
+      "falante": "Fora da sabatina",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    }
+  ]
+}
