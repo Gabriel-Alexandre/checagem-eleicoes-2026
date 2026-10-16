@@ -6,7 +6,7 @@
   "duracao_s": 158.926,
   "largura": 1920,
   "altura": 1080,
-  "gerado_em": "2026-09-27",
+  "gerado_em": "2026-10-16",
   "selo": {
     "arquivo": "overlay/cartelas-trecho-g1-golpe/_selo.png",
     "entra_s": 0.0,
@@ -40,6 +40,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 8.52,
+      "tempo_no_card_s": 8.52,
       "cortado_na_tela": []
     },
     {
@@ -51,6 +52,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 22.44,
+      "tempo_no_card_s": 22.44,
       "cortado_na_tela": []
     },
     {
@@ -62,6 +64,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 36.2,
+      "tempo_no_card_s": 36.2,
       "cortado_na_tela": []
     },
     {
@@ -73,6 +76,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "NAO_CHECAVEL",
       "tempo_na_peca_s": 58.44,
+      "tempo_no_card_s": 58.44,
       "cortado_na_tela": []
     },
     {
@@ -84,6 +88,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "NAO_CHECAVEL",
       "tempo_na_peca_s": 68.4,
+      "tempo_no_card_s": 68.4,
       "cortado_na_tela": []
     },
     {
@@ -95,6 +100,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "NAO_CHECAVEL",
       "tempo_na_peca_s": 77.86,
+      "tempo_no_card_s": 77.86,
       "cortado_na_tela": []
     },
     {
@@ -106,6 +112,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 92.56,
+      "tempo_no_card_s": 92.56,
       "cortado_na_tela": []
     },
     {
@@ -117,6 +124,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "INSUSTENTAVEL",
       "tempo_na_peca_s": 96.62,
+      "tempo_no_card_s": 96.62,
       "cortado_na_tela": []
     },
     {
@@ -128,6 +136,7 @@
       "atraso_do_fim_s": 1.86,
       "veredito": "FALSO",
       "tempo_na_peca_s": 101.82,
+      "tempo_no_card_s": 101.82,
       "cortado_na_tela": []
     },
     {
@@ -139,6 +148,7 @@
       "atraso_do_fim_s": 0.26,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 104.4,
+      "tempo_no_card_s": 104.4,
       "cortado_na_tela": []
     },
     {
@@ -150,6 +160,7 @@
       "atraso_do_fim_s": 5.06,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 104.4,
+      "tempo_no_card_s": 104.4,
       "cortado_na_tela": []
     },
     {
@@ -161,6 +172,7 @@
       "atraso_do_fim_s": 10.26,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 104.4,
+      "tempo_no_card_s": 104.4,
       "cortado_na_tela": []
     },
     {
@@ -172,6 +184,7 @@
       "atraso_do_fim_s": 3.72,
       "veredito": "FALSO",
       "tempo_na_peca_s": 121.0,
+      "tempo_no_card_s": 121.0,
       "cortado_na_tela": []
     },
     {
@@ -183,6 +196,7 @@
       "atraso_do_fim_s": 6.36,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 130.8,
+      "tempo_no_card_s": 130.8,
       "cortado_na_tela": []
     },
     {
@@ -194,6 +208,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 136.76,
+      "tempo_no_card_s": 136.76,
       "cortado_na_tela": []
     },
     {
@@ -205,6 +220,7 @@
       "atraso_do_fim_s": 6.92,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 142.22,
+      "tempo_no_card_s": 142.22,
       "cortado_na_tela": []
     },
     {
@@ -216,6 +232,7 @@
       "atraso_do_fim_s": 6.3,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 142.22,
+      "tempo_no_card_s": 142.22,
       "cortado_na_tela": []
     },
     {
@@ -227,6 +244,7 @@
       "atraso_do_fim_s": 12.5,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 146.44,
+      "tempo_no_card_s": 146.44,
       "cortado_na_tela": []
     },
     {
@@ -238,6 +256,7 @@
       "atraso_do_fim_s": 17.26,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 153.26,
+      "tempo_no_card_s": 153.26,
       "cortado_na_tela": []
     }
   ]

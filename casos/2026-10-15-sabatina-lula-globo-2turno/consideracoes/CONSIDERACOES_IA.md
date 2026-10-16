@@ -150,15 +150,15 @@ Se a contestação estava certa é o C3, e não entra aqui.
 
 ## 3 · C3 · O que foi dito como fato e se sustentou
 
-*Fonte:* só as métricas finais da checagem (`metricas/`), depois da revisão adversarial (108 vereditos mantidos, 85 alterados, contando a auditoria final por amostra) e com o validador aprovado sem erro. As passadas não fizeram este critério.
+*Fonte:* só as métricas finais da checagem (`metricas/`), depois da revisão adversarial (107 vereditos mantidos, 86 alterados, contando a auditoria final por amostra e a validação final) e com o validador aprovado sem erro. As passadas não fizeram este critério.
 
 **193 afirmações de fato** foram conferidas na sabatina, e **todas** eram checáveis (0 não checáveis).
 
 | Lado da mesa | Tempo de fala | Afirmações (denominador) | Verdadeiro | Impreciso | Sem comprovação | Falso | Por minuto de fala |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Lula (entrevistado) | 23:49 | **119** | 67 · 56,3% | 24 · 20,2% | 25 · 21,0% | 3 · 2,5% | 5,0 |
+| Lula (entrevistado) | 23:49 | **119** | 66 · 55,5% | 25 · 21,0% | 25 · 21,0% | 3 · 2,5% | 5,0 |
 | Renata Lo Prete (entrevistadora) | 14:12 | **74** | 62 · 83,8% | 6 · 8,1% | 6 · 8,1% | 0 · 0,0% | 5,21 |
-| total | 38:01 | **193** | 129 · 66,8% | 30 · 15,5% | 31 · 16,1% | 3 · 1,6% | |
+| total | 38:01 | **193** | 128 · 66,3% | 31 · 16,1% | 31 · 16,1% | 3 · 1,6% | |
 
 As três afirmações classificadas como `FALSO` estão nos blocos de segurança pública, de Bolsa Família e orçamento, e de juros e dívida pública (uma em cada).
 
@@ -245,7 +245,7 @@ Os três textos usam porcentagem redonda e as contagens em que as duas passadas 
 >
 > O segundo critério olha as propostas. A IA contou quantas vinham com pelo menos duas coisas entre meta, prazo, jeito de fazer, de onde sai o dinheiro e quem faz. Deu perto de 40% das propostas, e o prazo quase não apareceu.
 >
-> O terceiro critério vem da checagem. Das 119 frases de Lula que foram conferidas, 67 se confirmaram. Uns 20% estavam imprecisos, outros 20% ficaram sem fonte que sustentasse, e três foram classificadas como falsas. A entrevistadora fez 74 afirmações nas perguntas, e 62 se confirmaram. Esses números ficam lado a lado, sem comparação direta, porque quem responde fala mais e afirma mais, e eles não viram placar.
+> O terceiro critério vem da checagem. Das 119 frases de Lula que foram conferidas, 66 se confirmaram. Uns 20% estavam imprecisos, outros 20% ficaram sem fonte que sustentasse, e três foram classificadas como falsas. A entrevistadora fez 74 afirmações nas perguntas, e 62 se confirmaram. Esses números ficam lado a lado, sem comparação direta, porque quem responde fala mais e afirma mais, e eles não viram placar.
 >
 > No tempo, Lula ficou com uns 60% da fala, que é o desenho de uma sabatina. Em duas vezes a entrevistadora entrou com a frase dele cortada, e ele começou a falar com a frase dela pela metade entre duas e quatro vezes, conforme a regra usada para contar.
 >

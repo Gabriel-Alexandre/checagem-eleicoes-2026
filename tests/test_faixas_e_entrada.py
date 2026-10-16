@@ -127,3 +127,19 @@ def test_canto_esquerdo_do_card_nao_tem_quina_reta():
     # a faixa é arredondada e o corpo ali é reto (corners só à direita): o corpo não pode
     # começar acima da faixa
     assert topo >= topo_barra - 1
+
+
+def test_minuto_do_card_conta_do_inicio_da_entrevista():
+    """🔴 16/out/2026: a gravação de 15/out começa 50 s antes da entrevista (fim do telejornal).
+
+    O card mostra o minuto da ENTREVISTA, como nos casos em que o arquivo já começava nela. O
+    início declarado no CASO.json tem que cair na primeira palavra da entrevista na transcrição.
+    """
+    import json
+    caso = cfg.pasta_do_caso("2026-10-15-sabatina-lula-globo-2turno")
+    meta = json.loads((caso / "CASO.json").read_text(encoding="utf-8"))
+    zero = float(meta["inicio_da_entrevista_s"])
+    segs = json.loads((caso / "transcricao" / "transcricao.json").read_text(encoding="utf-8"))["segmentos"]
+    primeiro = min((s for s in segs if s["inicio_s"] >= zero - 0.5), key=lambda s: s["inicio_s"])
+    assert abs(primeiro["inicio_s"] - zero) < 0.5
+    assert primeiro["texto"].startswith("A TV Globo começa hoje a entrevistar")

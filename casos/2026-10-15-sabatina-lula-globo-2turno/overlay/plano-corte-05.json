@@ -2,8 +2,8 @@
   "caso": "2026-10-15-sabatina-lula-globo-2turno",
   "recorte": "corte-05",
   "alvo": "recortes/corte-05.mp4",
-  "base_s": 2598.18,
-  "duracao_s": 14.733,
+  "base_s": 2598.23,
+  "duracao_s": 14.6,
   "largura": 1920,
   "altura": 1080,
   "gerado_em": "2026-10-16",
@@ -18,9 +18,9 @@
     "sai_s": 7.5
   },
   "congelamento": {
-    "entra_s": 14.733,
+    "entra_s": 14.6,
     "sai_s": 35.8,
-    "duracao_s": 21.067
+    "duracao_s": 21.2
   },
   "encerramento": null,
   "contagem_por_veredito": {
@@ -34,10 +34,11 @@
       "arquivo": "overlay/cartelas-corte-05/A182.png",
       "entra_s": 7.7,
       "sai_s": 17.4,
-      "atraso_s": 7.58,
-      "atraso_do_fim_s": 4.28,
+      "atraso_s": 7.01,
+      "atraso_do_fim_s": 4.33,
       "veredito": "INSUSTENTAVEL",
-      "tempo_na_peca_s": 2598.3,
+      "tempo_na_peca_s": 2598.92,
+      "tempo_no_card_s": 2548.92,
       "cortado_na_tela": []
     },
     {
@@ -45,10 +46,11 @@
       "arquivo": "overlay/cartelas-corte-05/A183.png",
       "entra_s": 17.6,
       "sai_s": 26.6,
-      "atraso_s": 13.88,
-      "atraso_do_fim_s": 11.38,
+      "atraso_s": 13.93,
+      "atraso_do_fim_s": 11.43,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2601.9,
+      "tempo_no_card_s": 2551.9,
       "cortado_na_tela": []
     },
     {
@@ -56,10 +58,11 @@
       "arquivo": "overlay/cartelas-corte-05/A184.png",
       "entra_s": 26.8,
       "sai_s": 35.8,
-      "atraso_s": 16.28,
-      "atraso_do_fim_s": 12.28,
+      "atraso_s": 16.33,
+      "atraso_do_fim_s": 12.33,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2608.7,
+      "tempo_no_card_s": 2558.7,
       "cortado_na_tela": []
     }
   ]

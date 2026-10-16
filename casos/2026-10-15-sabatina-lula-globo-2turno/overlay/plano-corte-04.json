@@ -3,7 +3,7 @@
   "recorte": "corte-04",
   "alvo": "recortes/corte-04.mp4",
   "base_s": 2152.13,
-  "duracao_s": 12.5,
+  "duracao_s": 12.8,
   "largura": 1920,
   "altura": 1080,
   "gerado_em": "2026-10-16",
@@ -18,9 +18,9 @@
     "sai_s": 7.5
   },
   "congelamento": {
-    "entra_s": 12.5,
+    "entra_s": 12.8,
     "sai_s": 50.9,
-    "duracao_s": 38.4
+    "duracao_s": 38.1
   },
   "encerramento": null,
   "contagem_por_veredito": {
@@ -35,9 +35,10 @@
       "entra_s": 7.7,
       "sai_s": 19.1,
       "atraso_s": 7.43,
-      "atraso_do_fim_s": 4.73,
+      "atraso_do_fim_s": 5.89,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2152.4,
+      "tempo_no_card_s": 2102.4,
       "cortado_na_tela": []
     },
     {
@@ -49,6 +50,7 @@
       "atraso_do_fim_s": 16.33,
       "veredito": "FALSO",
       "tempo_na_peca_s": 2152.4,
+      "tempo_no_card_s": 2102.4,
       "cortado_na_tela": []
     },
     {
@@ -57,9 +59,10 @@
       "entra_s": 24.9,
       "sai_s": 31.0,
       "atraso_s": 20.33,
-      "atraso_do_fim_s": 17.53,
+      "atraso_do_fim_s": 17.19,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2156.7,
+      "tempo_no_card_s": 2106.7,
       "cortado_na_tela": []
     },
     {
@@ -68,9 +71,10 @@
       "entra_s": 31.2,
       "sai_s": 40.6,
       "atraso_s": 23.13,
-      "atraso_do_fim_s": 20.73,
+      "atraso_do_fim_s": 20.44,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2160.2,
+      "tempo_no_card_s": 2110.2,
       "cortado_na_tela": []
     },
     {
@@ -79,9 +83,10 @@
       "entra_s": 40.8,
       "sai_s": 50.9,
       "atraso_s": 29.93,
-      "atraso_do_fim_s": 28.33,
+      "atraso_do_fim_s": 28.27,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2163.0,
+      "tempo_no_card_s": 2113.0,
       "cortado_na_tela": []
     }
   ]

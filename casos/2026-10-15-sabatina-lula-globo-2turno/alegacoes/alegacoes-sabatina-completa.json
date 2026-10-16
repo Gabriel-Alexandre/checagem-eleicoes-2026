@@ -46,8 +46,8 @@
     },
     {
       "id": "A003",
-      "inicio_s": 96.4,
-      "fim_s": 104.6,
+      "inicio_s": 98.3,
+      "fim_s": 104.89,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "desde o início do ano, quase que o tempo inteiro, os brasileiros rejeitaram majoritariamente o seu governo",
@@ -63,8 +63,8 @@
     },
     {
       "id": "A004",
-      "inicio_s": 104.6,
-      "fim_s": 110.0,
+      "inicio_s": 105.06,
+      "fim_s": 108.26,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "O senhor já atribuiu esse quadro às situações de conjuntura",
@@ -80,7 +80,7 @@
     },
     {
       "id": "A005",
-      "inicio_s": 108.0,
+      "inicio_s": 108.28,
       "fim_s": 112.4,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -115,7 +115,7 @@
     {
       "id": "A007",
       "inicio_s": 161.0,
-      "fim_s": 164.5,
+      "fim_s": 163.59,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "A economia crescia a 7,5% ao ano",
@@ -131,7 +131,7 @@
     },
     {
       "id": "A008",
-      "inicio_s": 164.0,
+      "inicio_s": 163.73,
       "fim_s": 167.5,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -165,7 +165,7 @@
     },
     {
       "id": "A010",
-      "inicio_s": 178.3,
+      "inicio_s": 180.12,
       "fim_s": 185.7,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -183,7 +183,7 @@
     {
       "id": "A011",
       "inicio_s": 188.2,
-      "fim_s": 192.4,
+      "fim_s": 191.02,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "O orçamento não tinha deixado dinheiro para o Bolsa Família",
@@ -250,7 +250,7 @@
     },
     {
       "id": "A015",
-      "inicio_s": 225.3,
+      "inicio_s": 226.8,
       "fim_s": 231.0,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -284,8 +284,8 @@
     },
     {
       "id": "A017",
-      "inicio_s": 257.0,
-      "fim_s": 260.4,
+      "inicio_s": 257.8,
+      "fim_s": 260.74,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "e tendo 9 senadores de 81",
@@ -302,7 +302,7 @@
     {
       "id": "A018",
       "inicio_s": 260.9,
-      "fim_s": 266.3,
+      "fim_s": 265.84,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "E nós aprovamos 99% de tudo que a gente fez aqui no Congresso Nacional",
@@ -335,8 +335,8 @@
     },
     {
       "id": "A020",
-      "inicio_s": 271.4,
-      "fim_s": 276.1,
+      "inicio_s": 272.13,
+      "fim_s": 276.4,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "todos os partidos, com exceção do PL, participaram do meu governo",
@@ -352,7 +352,7 @@
     },
     {
       "id": "A021",
-      "inicio_s": 321.3,
+      "inicio_s": 321.85,
       "fim_s": 327.3,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -369,7 +369,7 @@
     },
     {
       "id": "A022",
-      "inicio_s": 334.2,
+      "inicio_s": 335.06,
       "fim_s": 338.3,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -386,8 +386,8 @@
     },
     {
       "id": "A023",
-      "inicio_s": 341.4,
-      "fim_s": 346.7,
+      "inicio_s": 341.09,
+      "fim_s": 344.2,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "E o senhor teve essa situação praticamente inédita",
@@ -403,8 +403,8 @@
     },
     {
       "id": "A024",
-      "inicio_s": 341.4,
-      "fim_s": 348.8,
+      "inicio_s": 344.42,
+      "fim_s": 348.22,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "ver um ministro indicado pelo senhor para o Supremo ser rejeitado pelo Senado",
@@ -437,7 +437,7 @@
     {
       "id": "A026",
       "inicio_s": 369.8,
-      "fim_s": 376.0,
+      "fim_s": 372.98,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "de concreto, a gente teve duas rodadas de tarifaço",
@@ -453,7 +453,7 @@
     },
     {
       "id": "A027",
-      "inicio_s": 369.8,
+      "inicio_s": 372.98,
       "fim_s": 377.6,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -470,7 +470,7 @@
     },
     {
       "id": "A028",
-      "inicio_s": 391.9,
+      "inicio_s": 394.0,
       "fim_s": 399.7,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -505,8 +505,8 @@
     },
     {
       "id": "A030",
-      "inicio_s": 432.0,
-      "fim_s": 442.5,
+      "inicio_s": 433.35,
+      "fim_s": 437.8,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "era importante que dois homens de 80 anos, sabe, tivessem juízo",
@@ -521,7 +521,7 @@
     },
     {
       "id": "A031",
-      "inicio_s": 436.6,
+      "inicio_s": 439.96,
       "fim_s": 447.2,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -591,7 +591,7 @@
     },
     {
       "id": "A035",
-      "inicio_s": 476.3,
+      "inicio_s": 476.94,
       "fim_s": 481.0,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -609,7 +609,7 @@
     {
       "id": "A036",
       "inicio_s": 481.5,
-      "fim_s": 483.3,
+      "fim_s": 483.62,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "nós crescemos 20% com a China",
@@ -689,8 +689,8 @@
     },
     {
       "id": "A041",
-      "inicio_s": 494.6,
-      "fim_s": 499.8,
+      "inicio_s": 495.69,
+      "fim_s": 499.34,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "nós batemos recordes, sabe, de superávit comercial",
@@ -706,7 +706,7 @@
     },
     {
       "id": "A042",
-      "inicio_s": 505.1,
+      "inicio_s": 505.62,
       "fim_s": 508.4,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -724,7 +724,7 @@
     },
     {
       "id": "A043",
-      "inicio_s": 524.4,
+      "inicio_s": 525.19,
       "fim_s": 530.0,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -831,7 +831,7 @@
     },
     {
       "id": "A049",
-      "inicio_s": 623.4,
+      "inicio_s": 623.72,
       "fim_s": 629.3,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -917,7 +917,7 @@
     {
       "id": "A054",
       "inicio_s": 757.7,
-      "fim_s": 764.2,
+      "fim_s": 764.56,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "de dono de rua, de pessoas que interferem na compra de gás, que interferem no recebimento do Bolsa Família.",
@@ -933,7 +933,7 @@
     },
     {
       "id": "A055",
-      "inicio_s": 774.3,
+      "inicio_s": 775.26,
       "fim_s": 780.4,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "A066",
-      "inicio_s": 940.4,
+      "inicio_s": 941.02,
       "fim_s": 946.1,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1139,7 +1139,7 @@
     },
     {
       "id": "A067",
-      "inicio_s": 946.6,
+      "inicio_s": 947.5,
       "fim_s": 950.7,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1157,7 +1157,7 @@
     {
       "id": "A068",
       "inicio_s": 954.6,
-      "fim_s": 970.2,
+      "fim_s": 965.17,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "E hoje a Política Federal esteve no Rio de Janeiro interferindo numa das pessoas importantes do clã do Bolsonaro, o Canelas, que foi preso",
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "A069",
-      "inicio_s": 962.0,
+      "inicio_s": 965.46,
       "fim_s": 970.2,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1207,8 +1207,8 @@
     },
     {
       "id": "A071",
-      "inicio_s": 992.7,
-      "fim_s": 999.2,
+      "inicio_s": 994.16,
+      "fim_s": 997.96,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "um ministro como Flávio Dino, que foi indicado pelo senhor",
@@ -1258,8 +1258,8 @@
     },
     {
       "id": "A074",
-      "inicio_s": 1012.7,
-      "fim_s": 1020.6,
+      "inicio_s": 1016.3,
+      "fim_s": 1018.96,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "o Toffoli também está implicado",
@@ -1275,8 +1275,8 @@
     },
     {
       "id": "A075",
-      "inicio_s": 1012.7,
-      "fim_s": 1020.6,
+      "inicio_s": 1018.9,
+      "fim_s": 1020.72,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "o André Mendonça também está implicado",
@@ -1292,7 +1292,7 @@
     },
     {
       "id": "A076",
-      "inicio_s": 1020.6,
+      "inicio_s": 1020.76,
       "fim_s": 1023.2,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1377,8 +1377,8 @@
     },
     {
       "id": "A081",
-      "inicio_s": 1057.6,
-      "fim_s": 1075.4,
+      "inicio_s": 1059.6,
+      "fim_s": 1070.94,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "eu vou dizer o que eu já disse na outra entrevista que eu fiz aqui, que eu disse o seguinte, não é possível imaginar que a sociedade brasileira vai aceitar que não seja apurado tudo",
@@ -1395,7 +1395,7 @@
     },
     {
       "id": "A082",
-      "inicio_s": 1089.7,
+      "inicio_s": 1091.32,
       "fim_s": 1098.3,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1431,7 +1431,7 @@
     },
     {
       "id": "A084",
-      "inicio_s": 1146.4,
+      "inicio_s": 1147.04,
       "fim_s": 1154.4,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1449,7 +1449,7 @@
     },
     {
       "id": "A085",
-      "inicio_s": 1160.2,
+      "inicio_s": 1160.76,
       "fim_s": 1170.9,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1468,7 +1468,7 @@
     {
       "id": "A086",
       "inicio_s": 1195.6,
-      "fim_s": 1200.1,
+      "fim_s": 1200.36,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "Muitos dos seus adversários apontam uma proximidade grande dele com o senhor,",
@@ -1501,7 +1501,7 @@
     },
     {
       "id": "A088",
-      "inicio_s": 1208.9,
+      "inicio_s": 1208.52,
       "fim_s": 1213.3,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -1570,7 +1570,7 @@
     {
       "id": "A092",
       "inicio_s": 1233.4,
-      "fim_s": 1240.3,
+      "fim_s": 1237.56,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "E quando eu fiquei sabendo que ele tinha ido a Londres, eu chamei ele a atenção",
@@ -1586,7 +1586,7 @@
     },
     {
       "id": "A093",
-      "inicio_s": 1257.7,
+      "inicio_s": 1258.96,
       "fim_s": 1262.6,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1620,8 +1620,8 @@
     },
     {
       "id": "A095",
-      "inicio_s": 1311.4,
-      "fim_s": 1316.1,
+      "inicio_s": 1311.69,
+      "fim_s": 1315.0,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "Ele foi levado ao senhor pelo seu ex-ministro da Fazenda, Guido Mântega,",
@@ -1637,7 +1637,7 @@
     },
     {
       "id": "A096",
-      "inicio_s": 1311.4,
+      "inicio_s": 1314.38,
       "fim_s": 1317.5,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -1671,7 +1671,7 @@
     },
     {
       "id": "A098",
-      "inicio_s": 1323.7,
+      "inicio_s": 1324.16,
       "fim_s": 1329.1,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -1705,7 +1705,7 @@
     {
       "id": "A100",
       "inicio_s": 1352.0,
-      "fim_s": 1354.7,
+      "fim_s": 1355.01,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "O que você acha que o Banco de Santos fez? Foi me procurar.",
@@ -1738,8 +1738,8 @@
     },
     {
       "id": "A102",
-      "inicio_s": 1378.2,
-      "fim_s": 1384.4,
+      "inicio_s": 1378.56,
+      "fim_s": 1381.11,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "E foi assim que o Galipo se posicionou",
@@ -1755,8 +1755,8 @@
     },
     {
       "id": "A103",
-      "inicio_s": 1378.2,
-      "fim_s": 1387.3,
+      "inicio_s": 1381.13,
+      "fim_s": 1385.31,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "foi assim que eu pedi para ele comunicar ao Procurador-Geral da República",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "A104",
-      "inicio_s": 1384.4,
+      "inicio_s": 1385.34,
       "fim_s": 1387.3,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -1823,7 +1823,7 @@
     },
     {
       "id": "A107",
-      "inicio_s": 1419.6,
+      "inicio_s": 1419.86,
       "fim_s": 1429.1,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -1858,8 +1858,8 @@
     },
     {
       "id": "A109",
-      "inicio_s": 1435.9,
-      "fim_s": 1441.6,
+      "inicio_s": 1437.43,
+      "fim_s": 1440.02,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "o ministro da Justiça, que comanda a PF",
@@ -1874,7 +1874,7 @@
     },
     {
       "id": "A110",
-      "inicio_s": 1442.0,
+      "inicio_s": 1441.64,
       "fim_s": 1447.5,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -1892,7 +1892,7 @@
     {
       "id": "A111",
       "inicio_s": 1466.1,
-      "fim_s": 1470.8,
+      "fim_s": 1471.13,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Quando ele deixou o ministério, quando ele deixou a Suprema Corte, ele foi trabalhar por conta dele.",
@@ -1944,7 +1944,7 @@
     {
       "id": "A114",
       "inicio_s": 1563.3,
-      "fim_s": 1567.2,
+      "fim_s": 1567.54,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Quando eles tomam a decisão, ninguém pode mais tomar decisão, ninguém pode voltar atrás.",
@@ -1976,7 +1976,7 @@
     },
     {
       "id": "A116",
-      "inicio_s": 1612.6,
+      "inicio_s": 1614.72,
       "fim_s": 1618.9,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -1993,7 +1993,7 @@
     },
     {
       "id": "A117",
-      "inicio_s": 1619.3,
+      "inicio_s": 1620.4,
       "fim_s": 1626.6,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -2010,7 +2010,7 @@
     },
     {
       "id": "A118",
-      "inicio_s": 1626.6,
+      "inicio_s": 1631.02,
       "fim_s": 1634.7,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -2027,7 +2027,7 @@
     },
     {
       "id": "A119",
-      "inicio_s": 1652.2,
+      "inicio_s": 1654.0,
       "fim_s": 1656.2,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -2063,7 +2063,7 @@
     },
     {
       "id": "A121",
-      "inicio_s": 1672.1,
+      "inicio_s": 1671.7,
       "fim_s": 1674.1,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -2081,7 +2081,7 @@
     {
       "id": "A122",
       "inicio_s": 1687.9,
-      "fim_s": 1698.7,
+      "fim_s": 1698.98,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Se tem espaço fiscal para aumentar, por que não aumentaram? [...] tomei a decisão de mandar aumentar as pessoas porque tem espaço fiscal",
@@ -2099,8 +2099,8 @@
     },
     {
       "id": "A123",
-      "inicio_s": 1699.1,
-      "fim_s": 1710.7,
+      "inicio_s": 1700.96,
+      "fim_s": 1706.08,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "nós apresentamos um orçamento com superávit primário. 0,1%",
@@ -2116,7 +2116,7 @@
     },
     {
       "id": "A124",
-      "inicio_s": 1705.8,
+      "inicio_s": 1708.38,
       "fim_s": 1710.7,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -2134,7 +2134,7 @@
     },
     {
       "id": "A125",
-      "inicio_s": 1715.1,
+      "inicio_s": 1716.46,
       "fim_s": 1723.2,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -2152,7 +2152,7 @@
     },
     {
       "id": "A126",
-      "inicio_s": 1907.8,
+      "inicio_s": 1907.46,
       "fim_s": 1918.9,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -2222,8 +2222,8 @@
     },
     {
       "id": "A130",
-      "inicio_s": 1950.9,
-      "fim_s": 1957.5,
+      "inicio_s": 1951.61,
+      "fim_s": 1957.04,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "quando eu tomei posse, nós tínhamos 78% da população endividada",
@@ -2257,7 +2257,7 @@
     {
       "id": "A132",
       "inicio_s": 1969.2,
-      "fim_s": 1974.0,
+      "fim_s": 1973.34,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "esse Desenrola 3, nós fizemos uma medida provisória. Ele está na Câmara",
@@ -2324,8 +2324,8 @@
     },
     {
       "id": "A136",
-      "inicio_s": 2018.7,
-      "fim_s": 2022.2,
+      "inicio_s": 2019.54,
+      "fim_s": 2021.18,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "nós fizemos o perdão do MEI",
@@ -2358,7 +2358,7 @@
     },
     {
       "id": "A138",
-      "inicio_s": 2032.6,
+      "inicio_s": 2034.54,
       "fim_s": 2038.8,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -2429,7 +2429,7 @@
     {
       "id": "A142",
       "inicio_s": 2104.9,
-      "fim_s": 2111.8,
+      "fim_s": 2112.06,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "como num evento recente, ele disse que o modelo de crescimento, baseado no estímulo ao consumo, está esgotado",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": "A143",
-      "inicio_s": 2131.1,
+      "inicio_s": 2130.76,
       "fim_s": 2132.8,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -2462,8 +2462,8 @@
     },
     {
       "id": "A144",
-      "inicio_s": 2145.5,
-      "fim_s": 2151.8,
+      "inicio_s": 2145.96,
+      "fim_s": 2152.09,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Quando eu assumi a presidência em 2003, o Brasil era a 12ª economia do mundo",
@@ -2480,7 +2480,7 @@
     {
       "id": "A145",
       "inicio_s": 2152.4,
-      "fim_s": 2155.1,
+      "fim_s": 2153.94,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Devia 30 bilhões para o FMI",
@@ -2515,7 +2515,7 @@
     {
       "id": "A147",
       "inicio_s": 2156.7,
-      "fim_s": 2159.5,
+      "fim_s": 2159.84,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Quando eu deixei a presidência, o Brasil era a 7ª economia do mundo",
@@ -2532,7 +2532,7 @@
     {
       "id": "A148",
       "inicio_s": 2160.2,
-      "fim_s": 2162.6,
+      "fim_s": 2162.89,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Fizemos uma reserva de 270 bilhões de dólares",
@@ -2549,7 +2549,7 @@
     {
       "id": "A149",
       "inicio_s": 2163.0,
-      "fim_s": 2164.6,
+      "fim_s": 2164.66,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "paguei os 30 bilhões do FMI",
@@ -2565,7 +2565,7 @@
     },
     {
       "id": "A150",
-      "inicio_s": 2164.6,
+      "inicio_s": 2164.94,
       "fim_s": 2168.5,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -2616,7 +2616,7 @@
     },
     {
       "id": "A153",
-      "inicio_s": 2188.5,
+      "inicio_s": 2189.98,
       "fim_s": 2204.6,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -2634,7 +2634,7 @@
     },
     {
       "id": "A154",
-      "inicio_s": 2207.2,
+      "inicio_s": 2207.81,
       "fim_s": 2211.7,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -2670,7 +2670,7 @@
     {
       "id": "A156",
       "inicio_s": 2226.2,
-      "fim_s": 2228.0,
+      "fim_s": 2227.74,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Eu criei uma família com cinco filhos",
@@ -2703,8 +2703,8 @@
     },
     {
       "id": "A158",
-      "inicio_s": 2285.3,
-      "fim_s": 2288.2,
+      "inicio_s": 2285.7,
+      "fim_s": 2287.74,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Eu cansei de brigar com Guido Mantega e com Meirelles",
@@ -2825,8 +2825,8 @@
     },
     {
       "id": "A165",
-      "inicio_s": 2374.8,
-      "fim_s": 2377.2,
+      "inicio_s": 2374.48,
+      "fim_s": 2377.48,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "produz energia a custo baixo",
@@ -2980,8 +2980,8 @@
     },
     {
       "id": "A174",
-      "inicio_s": 2491.8,
-      "fim_s": 2499.6,
+      "inicio_s": 2492.08,
+      "fim_s": 2499.85,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
       "frase": "A principal queixa hoje é o tempo de espera para consultas especializadas, determinados exames, cirurgias eletivas",
@@ -3014,7 +3014,7 @@
     },
     {
       "id": "A176",
-      "inicio_s": 2504.8,
+      "inicio_s": 2504.52,
       "fim_s": 2508.1,
       "falante": "Renata Lo Prete",
       "papel": "entrevistador",
@@ -3067,7 +3067,7 @@
     {
       "id": "A179",
       "inicio_s": 2537.6,
-      "fim_s": 2540.1,
+      "fim_s": 2540.38,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Quando eu voltei para a presidência, tinha apenas 12 mil",
@@ -3082,7 +3082,7 @@
     },
     {
       "id": "A180",
-      "inicio_s": 2540.1,
+      "inicio_s": 2540.46,
       "fim_s": 2543.3,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -3100,7 +3100,7 @@
     {
       "id": "A181",
       "inicio_s": 2545.1,
-      "fim_s": 2552.8,
+      "fim_s": 2551.25,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Nós agora estamos criando mais especialistas para fazer com que todas as pessoas tenham direito ao segundo médico",
@@ -3116,7 +3116,7 @@
     },
     {
       "id": "A182",
-      "inicio_s": 2598.3,
+      "inicio_s": 2598.92,
       "fim_s": 2601.6,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -3146,7 +3146,8 @@
       "o_que_conferir": [
         "orçamento executado e número de farmácias credenciadas e de beneficiários do Farmácia Popular, 2019 a 2022, Ministério da Saúde",
         "se o programa foi extinto ou só teve redução"
-      ]
+      ],
+      "citacao_card": "nós precisamos [...] o Farmácia Popular voltar a funcionar"
     },
     {
       "id": "A184",
@@ -3185,7 +3186,7 @@
     },
     {
       "id": "A186",
-      "inicio_s": 2623.3,
+      "inicio_s": 2622.98,
       "fim_s": 2631.5,
       "falante": "Lula",
       "papel": "entrevistado",

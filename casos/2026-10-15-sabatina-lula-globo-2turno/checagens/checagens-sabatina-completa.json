@@ -2199,13 +2199,13 @@
     },
     {
       "id": "A033",
-      "veredito": "VERDADEIRO",
-      "resumo": "Lula ligou para Trump em 21 de agosto; a conversa durou uma hora e 20 minutos e tratou também do Conselho de Segurança",
-      "explicacao": "O último contato registrado entre os dois presidentes é o telefonema de 21 de agosto de 2026, que a nota conjunta do Itamaraty e do MDIC de 30/set ainda cita como o ponto de partida do diálogo. Segundo a Secom, a conversa durou uma hora e 20 minutos, o que cabe em 'quase uma hora e meia'. A ligação partiu de Lula ('o telefonema que fez esta semana ao presidente dos Estados Unidos'), e a reclamação sobre o Conselho de Segurança da ONU esteve na conversa, ao lado do tarifaço e do crime organizado. Não foi achado contato posterior. VERDADEIRO; a ressalva registra que o tema principal da nota oficial foi o tarifaço.",
+      "veredito": "IMPRECISO",
+      "resumo": "A ligação foi de Lula e tocou no Conselho de Segurança, mas durou uma hora e 20 minutos e tratou mais do tarifaço",
+      "explicacao": "O último contato registrado entre os dois presidentes é o telefonema de 21 de agosto de 2026, que a nota conjunta do Itamaraty e do MDIC de 30/set ainda cita como o ponto de partida do diálogo. A ligação partiu de Lula ('o telefonema que fez esta semana ao presidente dos Estados Unidos'), e o Conselho de Segurança da ONU esteve na conversa, então a essência confere. Duas partes da frase exageram o registro: a Secom informou que a conversa durou uma hora e 20 minutos, dez minutos a menos que a 'quase uma hora e meia' dita, cerca de 11% abaixo; e o motivo dito ('liguei para ele para reclamar do comportamento do Conselho de Segurança') não é o que a nota oficial dá como tema principal, que foi o tarifaço, com o crime organizado e a ONU entre os outros assuntos. É a régua aplicada à entrevistadora na A003 (essência certa, forma exagerada) e na A154 (número a mais de 10% do registrado): IMPRECISO, e não FALSO. 🔧 Até a validação final (16/out/2026) o veredito era VERDADEIRO, lendo os 80 minutos como dentro de 'quase uma hora e meia'; a releitura com a mesma régua das frases da entrevistadora mudou o veredito. Ver CORRECOES.md §5.",
       "numero_dito": "quase uma hora e meia",
       "numero_apurado": "uma hora e 20 minutos",
       "data_de_referencia": "telefonema de 21 de agosto de 2026",
-      "ressalva": "A Presidência informou uma hora e 20 minutos; o tarifaço foi o tema principal, e a ONU um dos assuntos.",
+      "ressalva": "A Presidência informou uma hora e 20 minutos; a ONU foi um dos assuntos, não o principal",
       "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
@@ -2250,8 +2250,8 @@
       "revisao_ia": {
         "revisor": "Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado)",
         "data": "2026-10-16",
-        "decisao": "mantido",
-        "nota": "Conferidos na captura p03 os quatro trechos: Secom via Estadão (1 hora e 20 minutos, reclamação sobre o Conselho de Segurança), Diario de Pernambuco ('o telefonema que fez'), nota conjunta MRE/MDIC de 30/09 (telefonema de 21/08 como início do diálogo) e SBT News. Melhor argumento contra: Lula diz que ligou 'para reclamar' do Conselho de Segurança, e o tema principal registrado foi o tarifaço, o que seria IMPRECISO no propósito. Cai: o Conselho de Segurança esteve na conversa, quem ligou foi Lula, e 80 minutos cabem em 'quase uma hora e meia'; o propósito é ornamento, e a ressalva diz qual foi o tema principal. Não foi achado contato posterior a 21/08 nas capturas. VERDADEIRO com confiança média bem posto.",
+        "decisao": "alterado",
+        "nota": "Validação final (16/out): com a régua aplicada à entrevistadora na A003 (essência certa, forma exagerada) e na A154 (desvio acima de 10%), a frase de Lula exagera duas coisas: a duração (uma hora e 20 minutos contra quase uma hora e meia, cerca de 11% abaixo) e o motivo (a nota oficial dá o tarifaço como tema principal, e a ONU como um dos assuntos). VERDADEIRO passou a IMPRECISO. · Conferidos na captura p03 os quatro trechos: Secom via Estadão (1 hora e 20 minutos, reclamação sobre o Conselho de Segurança), Diario de Pernambuco ('o telefonema que fez'), nota conjunta MRE/MDIC de 30/09 (telefonema de 21/08 como início do diálogo) e SBT News. Melhor argumento contra: Lula diz que ligou 'para reclamar' do Conselho de Segurança, e o tema principal registrado foi o tarifaço, o que seria IMPRECISO no propósito. Cai: o Conselho de Segurança esteve na conversa, quem ligou foi Lula, e 80 minutos cabem em 'quase uma hora e meia'; o propósito é ornamento, e a ressalva diz qual foi o tema principal. Não foi achado contato posterior a 21/08 nas capturas. VERDADEIRO com confiança média bem posto.",
         "verificacoes": [
           "1",
           "3",

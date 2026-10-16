@@ -15,6 +15,11 @@
     "formato": { "type": "string", "enum": ["sabatina", "debate", "entrevista", "pronunciamento", "comicio", "outro"] },
     "eleicao": { "type": ["string", "null"], "description": "ex.: Eleições gerais 2026 — Presidência da República" },
     "duracao_s": { "type": "number", "minimum": 1 },
+    "inicio_da_entrevista_s": {
+      "type": "number", "minimum": 0,
+      "description": "Segundo do arquivo em que a entrevista começa (primeira palavra). Os cards contam o minuto daqui, quando a gravação traz coisa antes (fim de telejornal, vinheta)."
+    },
+    "inicio_da_entrevista_nota": { "type": "string", "minLength": 20 },
     "falantes": {
       "type": "array",
       "minItems": 1,

@@ -4,8 +4,8 @@
   "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
   "recorte": "corte-03",
   "cobertura": {
-    "inicio_s": 1006.87,
-    "fim_s": 1020.62
+    "inicio_s": 1006.97,
+    "fim_s": 1020.74
   },
   "alegacoes": [
     {
@@ -27,8 +27,8 @@
     },
     {
       "id": "A074",
-      "inicio_s": 1012.7,
-      "fim_s": 1020.6,
+      "inicio_s": 1016.3,
+      "fim_s": 1018.96,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "o Toffoli também está implicado",
@@ -44,8 +44,8 @@
     },
     {
       "id": "A075",
-      "inicio_s": 1012.7,
-      "fim_s": 1020.6,
+      "inicio_s": 1018.9,
+      "fim_s": 1020.72,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "o André Mendonça também está implicado",

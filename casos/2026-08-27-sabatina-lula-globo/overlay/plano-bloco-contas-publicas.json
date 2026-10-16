@@ -6,7 +6,7 @@
   "duracao_s": 292.0,
   "largura": 1920,
   "altura": 1080,
-  "gerado_em": "2026-09-27",
+  "gerado_em": "2026-10-16",
   "selo": {
     "arquivo": "overlay/cartelas-bloco-contas-publicas/_selo.png",
     "entra_s": 0.0,
@@ -39,6 +39,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1360.32,
+      "tempo_no_card_s": 1360.32,
       "cortado_na_tela": []
     },
     {
@@ -50,6 +51,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1370.32,
+      "tempo_no_card_s": 1370.32,
       "cortado_na_tela": []
     },
     {
@@ -61,6 +63,7 @@
       "atraso_do_fim_s": 3.5,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1370.32,
+      "tempo_no_card_s": 1370.32,
       "cortado_na_tela": []
     },
     {
@@ -72,6 +75,7 @@
       "atraso_do_fim_s": 4.7,
       "veredito": "NAO_CHECAVEL",
       "tempo_na_peca_s": 1376.32,
+      "tempo_no_card_s": 1376.32,
       "cortado_na_tela": []
     },
     {
@@ -83,6 +87,7 @@
       "atraso_do_fim_s": 1.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1384.32,
+      "tempo_no_card_s": 1384.32,
       "cortado_na_tela": []
     },
     {
@@ -94,6 +99,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1409.32,
+      "tempo_no_card_s": 1409.32,
       "cortado_na_tela": []
     },
     {
@@ -105,6 +111,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1422.32,
+      "tempo_no_card_s": 1422.32,
       "cortado_na_tela": []
     },
     {
@@ -116,6 +123,7 @@
       "atraso_do_fim_s": 3.0,
       "veredito": "NAO_CHECAVEL",
       "tempo_na_peca_s": 1427.32,
+      "tempo_no_card_s": 1427.32,
       "cortado_na_tela": []
     },
     {
@@ -127,6 +135,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 1436.32,
+      "tempo_no_card_s": 1436.32,
       "cortado_na_tela": []
     },
     {
@@ -138,6 +147,7 @@
       "atraso_do_fim_s": 1.8,
       "veredito": "FALSO",
       "tempo_na_peca_s": 1438.32,
+      "tempo_no_card_s": 1438.32,
       "cortado_na_tela": []
     },
     {
@@ -149,6 +159,7 @@
       "atraso_do_fim_s": 2.4,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1445.32,
+      "tempo_no_card_s": 1445.32,
       "cortado_na_tela": []
     },
     {
@@ -160,6 +171,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "FALSO",
       "tempo_na_peca_s": 1450.32,
+      "tempo_no_card_s": 1450.32,
       "cortado_na_tela": []
     },
     {
@@ -171,6 +183,7 @@
       "atraso_do_fim_s": 9.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 1450.32,
+      "tempo_no_card_s": 1450.32,
       "cortado_na_tela": []
     },
     {
@@ -182,6 +195,7 @@
       "atraso_do_fim_s": 1.2,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1473.32,
+      "tempo_no_card_s": 1473.32,
       "cortado_na_tela": []
     },
     {
@@ -193,6 +207,7 @@
       "atraso_do_fim_s": 4.6,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1480.32,
+      "tempo_no_card_s": 1480.32,
       "cortado_na_tela": []
     },
     {
@@ -204,6 +219,7 @@
       "atraso_do_fim_s": 13.1,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1480.32,
+      "tempo_no_card_s": 1480.32,
       "cortado_na_tela": []
     },
     {
@@ -215,6 +231,7 @@
       "atraso_do_fim_s": 3.9,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 1499.32,
+      "tempo_no_card_s": 1499.32,
       "cortado_na_tela": []
     },
     {
@@ -226,6 +243,7 @@
       "atraso_do_fim_s": 7.4,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1503.32,
+      "tempo_no_card_s": 1503.32,
       "cortado_na_tela": []
     },
     {
@@ -237,6 +255,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "FALSO",
       "tempo_na_peca_s": 1515.32,
+      "tempo_no_card_s": 1515.32,
       "cortado_na_tela": []
     },
     {
@@ -248,6 +267,7 @@
       "atraso_do_fim_s": 1.3,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 1523.32,
+      "tempo_no_card_s": 1523.32,
       "cortado_na_tela": []
     },
     {
@@ -259,6 +279,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1557.32,
+      "tempo_no_card_s": 1557.32,
       "cortado_na_tela": []
     },
     {
@@ -270,6 +291,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1592.32,
+      "tempo_no_card_s": 1592.32,
       "cortado_na_tela": []
     },
     {
@@ -281,6 +303,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1635.32,
+      "tempo_no_card_s": 1635.32,
       "cortado_na_tela": []
     }
   ]

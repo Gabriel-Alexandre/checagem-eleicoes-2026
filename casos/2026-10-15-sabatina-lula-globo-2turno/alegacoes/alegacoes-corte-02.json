@@ -5,13 +5,13 @@
   "recorte": "corte-02",
   "cobertura": {
     "inicio_s": 481.29,
-    "fim_s": 494.51
+    "fim_s": 494.34
   },
   "alegacoes": [
     {
       "id": "A036",
       "inicio_s": 481.5,
-      "fim_s": 483.3,
+      "fim_s": 483.62,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "nós crescemos 20% com a China",

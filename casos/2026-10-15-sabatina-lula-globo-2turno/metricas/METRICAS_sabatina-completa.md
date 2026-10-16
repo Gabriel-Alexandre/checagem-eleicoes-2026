@@ -8,15 +8,15 @@ Gerado em 2026-10-16 por `python -m checagem metricas`. ⚠️ **Leia as ressalv
 
 | Veredito | Alegações | % dos checáveis |
 |---|---:|---:|
-| VERDADEIRO | 129 | 66.8% |
-| IMPRECISO | 30 | 15.5% |
+| VERDADEIRO | 128 | 66.3% |
+| IMPRECISO | 31 | 16.1% |
 | SEM COMPROVAÇÃO | 31 | 16.1% |
 | FALSO | 3 | 1.6% |
 | NÃO CHECÁVEL | 0 | · |
 
 **Por papel:**
 
-- entrevistado: 119 alegações (67 verdadeiro · 24 impreciso · 25 sem comprovação · 3 falso · 0 não checável)
+- entrevistado: 119 alegações (66 verdadeiro · 25 impreciso · 25 sem comprovação · 3 falso · 0 não checável)
 - entrevistador: 74 alegações (62 verdadeiro · 6 impreciso · 6 sem comprovação · 0 falso · 0 não checável)
 
 ## Por falante (na ordem da primeira fala, nunca por resultado)
@@ -25,7 +25,7 @@ Gerado em 2026-10-16 por `python -m checagem metricas`. ⚠️ **Leia as ressalv
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Fora da sabatina | 00:03:18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
 | Renata Lo Prete | 00:14:12 | 74 | 74 | 62 | 6 | 6 | 0 | 0 | 5.21 |
-| Lula | 00:23:49 | 119 | 119 | 67 | 24 | 25 | 3 | 0 | 5.0 |
+| Lula | 00:23:49 | 119 | 119 | 66 | 25 | 25 | 3 | 0 | 5.0 |
 
 ### Percentual dos checáveis, por falante
 
@@ -33,7 +33,7 @@ Gerado em 2026-10-16 por `python -m checagem metricas`. ⚠️ **Leia as ressalv
 |---|---:|---:|---:|---:|---:|
 | Fora da sabatina | 0 | · | · | · | · |
 | Renata Lo Prete | 74 | 83.8% | 8.1% | 8.1% | 0.0% |
-| Lula | 119 | 56.3% | 20.2% | 21.0% | 2.5% |
+| Lula | 119 | 55.5% | 21.0% | 21.0% | 2.5% |
 
 ## Por assunto
 
@@ -45,7 +45,7 @@ Gerado em 2026-10-16 por `python -m checagem metricas`. ⚠️ **Leia as ressalv
 | saude | 16 | 16 | 9 | 2 | 5 | 0 |
 | contas-publicas | 15 | 15 | 7 | 5 | 2 | 1 |
 | seguranca-publica | 14 | 14 | 12 | 2 | 0 | 0 |
-| relacoes-exteriores | 12 | 12 | 9 | 0 | 2 | 1 |
+| relacoes-exteriores | 12 | 12 | 8 | 1 | 2 | 1 |
 | energia | 11 | 11 | 9 | 2 | 0 | 0 |
 | programas-sociais | 7 | 7 | 6 | 1 | 0 | 0 |
 | administracao-publica | 5 | 5 | 4 | 1 | 0 | 0 |
@@ -61,7 +61,7 @@ Gerado em 2026-10-16 por `python -m checagem metricas`. ⚠️ **Leia as ressalv
 |---|---|---:|---:|---:|---:|---:|---:|
 | Responsabilidade pelo cenário da eleição | 00:00:50 a 00:03:33 | 12 | 8 | 4 | 0 | 0 | 0 |
 | Congresso e governabilidade | 00:03:33 a 00:05:50 | 12 | 9 | 2 | 1 | 0 | 0 |
-| Estados Unidos, Trump e tarifas | 00:05:50 a 00:08:42 | 18 | 10 | 3 | 5 | 0 | 0 |
+| Estados Unidos, Trump e tarifas | 00:05:50 a 00:08:42 | 18 | 9 | 4 | 5 | 0 | 0 |
 | Segurança pública: facções, PEC e maioridade penal | 00:08:42 a 00:14:36 | 19 | 16 | 2 | 0 | 1 | 0 |
 | Supremo, caso Master e Polícia Federal | 00:14:36 a 00:26:40 | 54 | 36 | 4 | 14 | 0 | 0 |
 | Bolsa Família e orçamento | 00:26:40 a 00:29:09 | 10 | 8 | 0 | 1 | 1 | 0 |
@@ -73,7 +73,7 @@ Gerado em 2026-10-16 por `python -m checagem metricas`. ⚠️ **Leia as ressalv
 
 ## Como o trabalho foi conferido
 
-- Revisão adversarial por IA: mantido 108, alterado 85
+- Revisão adversarial por IA: mantido 107, alterado 86
 - Confiança: alta 61, media 131, baixa 1
 - Fontes: 704 citações, 524 URLs, 267 instituições
 
@@ -83,22 +83,22 @@ Gerado em 2026-10-16 por `python -m checagem metricas`. ⚠️ **Leia as ressalv
 N_ALEG = 193
 N_CHEC = 193
 N_NC = 0
-N_V = 129
-N_I = 30
+N_V = 128
+N_I = 31
 N_S = 31
 N_F = 3
 DURACAO = 00:47:47
-PALAVRAS = 7891
+PALAVRAS = 7892
 DURACAO_PECA = 00:42:32
-PALAVRAS_PECA = 7359
-N_PV = 66.8
-N_PI = 15.5
+PALAVRAS_PECA = 7360
+N_PV = 66.3
+N_PI = 16.1
 N_PS = 16.1
 N_PF = 1.6
 P_ENTREVISTADO_ALEG = 119
 P_ENTREVISTADO_CHEC = 119
-P_ENTREVISTADO_V = 67
-P_ENTREVISTADO_I = 24
+P_ENTREVISTADO_V = 66
+P_ENTREVISTADO_I = 25
 P_ENTREVISTADO_S = 25
 P_ENTREVISTADO_F = 3
 P_ENTREVISTADO_NC = 0
@@ -114,13 +114,13 @@ C1_PARTIDO = PT, candidato à reeleição
 C1_FALA = 00:23:49
 C1_ALEG = 119
 C1_CHEC = 119
-C1_V = 67
-C1_I = 24
+C1_V = 66
+C1_I = 25
 C1_S = 25
 C1_F = 3
 C1_NC = 0
-C1_PV = 56.3
-C1_PI = 20.2
+C1_PV = 55.5
+C1_PI = 21.0
 C1_PS = 21.0
 C1_PF = 2.5
 J1_NOME = Renata Lo Prete
@@ -148,8 +148,8 @@ B2_F = 0
 B2_NC = 0
 B3_TITULO = Estados Unidos, Trump e tarifas
 B3_ALEG = 18
-B3_V = 10
-B3_I = 3
+B3_V = 9
+B3_I = 4
 B3_S = 5
 B3_F = 0
 B3_NC = 0

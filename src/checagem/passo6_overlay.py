@@ -490,6 +490,10 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
         aviso(f"a fila passa {congelamento_s:.1f}s do fim do trecho: o último quadro fica congelado "
               "esse tempo, sem áudio, antes do encerramento (registrado no plano)")
     por_id_alegacao = {a["id"]: a for a in alegacoes["alegacoes"]}
+    # O minuto do card é o da ENTREVISTA, não o do arquivo. Quando a gravação começa antes
+    # (fim do telejornal, vinheta), o CASO.json declara `inicio_da_entrevista_s` e o card conta
+    # dali, como nos casos em que o arquivo já começava na primeira palavra da entrevista.
+    zero_s = float(meta.get("inicio_da_entrevista_s") or 0.0)
 
     itens = []
     contagem: dict[str, int] = {}
@@ -499,7 +503,7 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
         img = desenhar_cartela(
             veredito_chave=c["veredito"],
             falante=a["falante"],
-            tempo_s=a["inicio_s"],
+            tempo_s=max(0.0, a["inicio_s"] - zero_s),
             id_alegacao=a["id"],
             frase=citacao_do_card(a),
             resumo=c["resumo"],
@@ -519,6 +523,7 @@ def montar(slug: str, *, recorte: str | None = None, com_legenda: bool = True) -
             "atraso_do_fim_s": j["atraso_do_fim_s"],
             "veredito": c["veredito"],
             "tempo_na_peca_s": a["inicio_s"],
+            "tempo_no_card_s": round(max(0.0, a["inicio_s"] - zero_s), 3),
             "cortado_na_tela": cortados,
         })
         if cortados:

@@ -699,3 +699,44 @@ Depois da validação, um agente de IA que não extraiu, não checou e não revi
 
 **A A145** usa a mesma equivalência de 2002 para o saldo da posse. O auditor, com a cotação do FMI de 31/12/2002, chegou a perto de US$ 20,8 bilhões; essa página veio sem a tabela na captura e o número não entrou no caso. O resumo ("cerca de US$ 20 bi") continua de pé nas duas contas, e a A145 não mudou.
 
+## 5. A validação final (16/out, tarde)
+
+Pedida pelo autor depois da auditoria: conferir de novo as informações, o tempo, a forma como cada coisa foi dita, a mesma régua nos dois lados e os cortes. Feita pela IA que conduziu o caso, com medidas de script e uma segunda transcrição independente; cada achado abaixo tem a prova.
+
+**1. O nome da entrevistadora.** Renata Lo Prete, confirmado na tarja da própria transmissão em 0:53 da gravação (`transcricao/tarja-apresentadora-0053.jpg`), no áudio (o candidato a chama de "Renata" em 23 momentos, três deles transcritos como "Renato") e no anúncio da Globo de antes da entrevista. Nada mudou.
+
+**2. O minuto dos cards.** A gravação começa 50 s antes da entrevista (fim do Jornal Nacional e vinheta), e o card mostrava o minuto do arquivo: a A036 aparecia como 08:02, e na entrevista ela está em 07:12. Nos casos anteriores o arquivo já começava na primeira palavra da entrevista, então card e entrevista coincidiam. Entrou o campo `inicio_da_entrevista_s` no `CASO.json` (50,0 s, a primeira palavra "A TV Globo começa hoje a entrevistar"), o esquema que o aceita, o overlay que desconta esse início e um teste que amarra o campo à transcrição. Transcrição, alegações, relatório e cortes seguem no horário do arquivo, e o relatório diz isso no topo.
+
+**3. As bordas dos cortes.** Medida a energia da voz nos primeiros e últimos 40 ms de cada corte, contra a fala mediana do próprio corte: o corte-03, o corte-04 e o corte-05 **terminavam com a voz no nível da fala** (+2,6, +1,7 e −1,5 dB), porque a borda caía no começo da palavra seguinte ("e o Castro", "e aí emprestei", "mas, segundo"), e o corte-05 começava com voz (−8,9 dB). A borda de cada corte foi para a pausa mais funda perto dela, conferida numa transcrição da janela (a fala fica inteira e nada da palavra seguinte entra). Agora todas as bordas ficam de 12 a 53 dB abaixo da fala. A escolha dos trechos não mudou: os mesmos seis, com as mesmas alegações.
+
+| Corte | Antes | Depois |
+|---|---|---|
+| corte-01 | 253,75 a 266,62 s | 253,75 a 266,43 s |
+| corte-02 | 481,29 a 494,52 s | 481,29 a 494,34 s |
+| corte-03 | 1006,87 a 1020,64 s | 1006,97 a 1020,74 s |
+| corte-04 | 2152,13 a 2164,63 s | 2152,13 a 2164,91 s |
+| corte-05 | 2598,18 a 2612,91 s | 2598,23 a 2612,82 s |
+| corte-06 | 2726,31 a 2740,71 s | 2726,53 a 2740,71 s |
+
+Sincronia de som de cada corte contra a gravação, por correlação: 0,0 ms nos seis. Nenhum pixel da moldura vermelha nas bordas da imagem. Os 22 cards foram lidos no vídeo renderizado.
+
+**4. O tempo de cada alegação.** O tempo vinha do segmento da transcrição (a frase inteira), então uma alegação que começa no meio do segmento herdava o começo dele: a A075 ("o André Mendonça também está implicado") aparecia em 16:03 e é dita em 16:09. Uma segunda transcrição, palavra por palavra, de uma janela em volta de cada uma das 193 alegações deu o começo e o fim medidos; o ajuste só foi aceito quando o ponto medido cai dentro da frase de origem (44 medidas recusadas por isso, a maioria desalinhamento da janela). Resultado: 90 alegações com o tempo ajustado, 86 pela medida palavra por palavra (mediana de 0,55 s, máximo de 4,4 s) e quatro pela energia da voz nas bordas dos cortes e pela leitura das palavras (A075, que começa em 1018,9 s e termina em 1020,72 s; A076 início; A149 fim; A150 início). A A044 ficou com o começo de 530,6 s, igual ao da A045, que a contém, para a ordem dos identificadores continuar cronológica.
+
+**5. A forma como cada coisa foi dita.** A segunda transcrição foi comparada palavra a palavra com a frase de cada uma das 193 alegações. A maior parte das diferenças é ruído da segunda passada (número por extenso contra algarismo, "Vorcário"). As que podiam mudar o que está na tela foram ouvidas de novo em várias janelas:
+
+| Alegação | O que se conferiu | Resultado |
+|---|---|---|
+| A135 (Lula) | "R$ 150 bilhões" ou "150 milhões" | **bilhões** em 4 de 6 passadas, todas as de janela larga ("colocar uns 150 bilhões para comprar essa dívida"); a frase fica |
+| A183 (Lula, corte-05) | "botar o Farmácia Popular" | o verbo não se confirma (botar em 2 passadas, voltar ao em 3, votar o em 1; o sentido é o mesmo). O card passou a citar *"nós precisamos [...] o Farmácia Popular voltar a funcionar"* (`citacao_card`), sem pôr na tela palavra que o áudio não confirma |
+| 17:05 (Renata Lo Prete) | "Mas, Lili, parece que..." | é **"Mas não lhe parece que a gente está tratando casos diferentes de maneira igual?"**; corrigido na transcrição (15ª correção, `CORRECOES_DE_TRANSCRICAO.md`). O falante não muda, e não há alegação no trecho |
+| A156, A081 | "cinco filhos"; "o que eu já disse na outra entrevista" | confirmadas |
+| A131, A160, A189, A028 | "criamos o Desenrola 1"; "passando por uma outra vez" (provavelmente "passando fome outra vez"); "as pessoas esperavam"; "eu pedo" | ⚠️ **não resolvidas**: as passadas divergem entre si numa palavra que não muda o número checado. Ficam como a primeira transcrição, registradas aqui. Nenhuma está em corte |
+
+**6. A mesma régua.** Conferido por script todo veredito com desvio declarado (VERDADEIRO tem que ficar abaixo de 10%, IMPRECISO acima, ou ter outro motivo escrito) e todo VERDADEIRO com número dito contra o apurado. Mantidos com a conta conferida: A166 (Renata: o dobro da inflação seria 7,90%, contra 6,50%, desvio de 21%), A178 (Lula: "20 e poucos mil" passa de 10% sobre 18.240 em qualquer leitura acima de 20.064, como a ressalva diz), A052, A127, A140, A117, A026, A128 e A032. **Um veredito mudou:**
+
+| Id | Quem fala | Antes | Depois | Por quê |
+|---|---|---|---|---|
+| A033 | Lula | VERDADEIRO | IMPRECISO | "a última foi quase uma hora e meia por telefone que eu liguei para ele para reclamar do comportamento do Conselho de Segurança da ONU": a ligação partiu dele e a ONU esteve na conversa, mas durou uma hora e 20 minutos (cerca de 11% abaixo de uma hora e meia) e o tema principal na nota oficial foi o tarifaço. É a régua aplicada à entrevistadora na A003 (essência certa, forma exagerada) e na A154 (desvio acima de 10%) |
+
+**O que mudou no resultado:** 128 verdadeiro, 31 impreciso, 31 sem comprovação, 3 falso. Lula: 66 · 25 · 25 · 3. Renata Lo Prete: 62 · 6 · 6 · 0 (sem mudança). Métricas, relatório e considerações refeitos; os seis cortes recortados, renderizados, validados e copiados de novo para a pasta de entrega.
+

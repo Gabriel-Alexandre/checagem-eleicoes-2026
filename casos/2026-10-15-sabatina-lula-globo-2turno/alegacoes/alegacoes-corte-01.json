@@ -5,7 +5,7 @@
   "recorte": "corte-01",
   "cobertura": {
     "inicio_s": 253.75,
-    "fim_s": 266.59
+    "fim_s": 266.43
   },
   "alegacoes": [
     {
@@ -27,8 +27,8 @@
     },
     {
       "id": "A017",
-      "inicio_s": 257.0,
-      "fim_s": 260.4,
+      "inicio_s": 257.8,
+      "fim_s": 260.74,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "e tendo 9 senadores de 81",
@@ -45,7 +45,7 @@
     {
       "id": "A018",
       "inicio_s": 260.9,
-      "fim_s": 266.3,
+      "fim_s": 265.84,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "E nós aprovamos 99% de tudo que a gente fez aqui no Congresso Nacional",

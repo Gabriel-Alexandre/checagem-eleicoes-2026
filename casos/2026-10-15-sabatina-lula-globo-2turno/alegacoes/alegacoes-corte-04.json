@@ -5,13 +5,13 @@
   "recorte": "corte-04",
   "cobertura": {
     "inicio_s": 2152.13,
-    "fim_s": 2164.6
+    "fim_s": 2164.91
   },
   "alegacoes": [
     {
       "id": "A145",
       "inicio_s": 2152.4,
-      "fim_s": 2155.1,
+      "fim_s": 2153.94,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Devia 30 bilhões para o FMI",
@@ -46,7 +46,7 @@
     {
       "id": "A147",
       "inicio_s": 2156.7,
-      "fim_s": 2159.5,
+      "fim_s": 2159.84,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Quando eu deixei a presidência, o Brasil era a 7ª economia do mundo",
@@ -63,7 +63,7 @@
     {
       "id": "A148",
       "inicio_s": 2160.2,
-      "fim_s": 2162.6,
+      "fim_s": 2162.89,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "Fizemos uma reserva de 270 bilhões de dólares",
@@ -80,7 +80,7 @@
     {
       "id": "A149",
       "inicio_s": 2163.0,
-      "fim_s": 2164.6,
+      "fim_s": 2164.66,
       "falante": "Lula",
       "papel": "entrevistado",
       "frase": "paguei os 30 bilhões do FMI",

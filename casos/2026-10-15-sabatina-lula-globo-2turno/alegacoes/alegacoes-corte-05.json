@@ -4,13 +4,13 @@
   "fonte_transcricao": "casos/2026-10-15-sabatina-lula-globo-2turno/transcricao/transcricao.json",
   "recorte": "corte-05",
   "cobertura": {
-    "inicio_s": 2598.18,
-    "fim_s": 2612.91
+    "inicio_s": 2598.23,
+    "fim_s": 2612.82
   },
   "alegacoes": [
     {
       "id": "A182",
-      "inicio_s": 2598.3,
+      "inicio_s": 2598.92,
       "fim_s": 2601.6,
       "falante": "Lula",
       "papel": "entrevistado",
@@ -40,7 +40,8 @@
       "o_que_conferir": [
         "orçamento executado e número de farmácias credenciadas e de beneficiários do Farmácia Popular, 2019 a 2022, Ministério da Saúde",
         "se o programa foi extinto ou só teve redução"
-      ]
+      ],
+      "citacao_card": "nós precisamos [...] o Farmácia Popular voltar a funcionar"
     },
     {
       "id": "A184",

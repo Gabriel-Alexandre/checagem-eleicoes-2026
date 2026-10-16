@@ -3,6 +3,7 @@
 **Peça:** TV Globo · Sabatina com os candidatos do 2º turno, exibida após o Jornal Nacional · sabatina · 15/out/2026  
 **Duração:** 00:47:52  
 **Trecho checado:** a peça inteira (`sabatina-completa`), de 00:00:00 a 00:47:47, sem escolha de trecho  
+**Os horários:** neste relatório, os do arquivo de gravação; a entrevista começa em 00:00:50 dele. Nos cards do vídeo, o minuto conta do começo da entrevista (horário do arquivo menos 00:00:50)  
 **Relatório gerado em:** 2026-10-16  
 **Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  
 **Assinatura da mídia (sha256):** `f0028186d9afe356d5fce82f572e659ccd2d6838f20792c37ac532cd9cf73d15`
@@ -31,8 +32,8 @@
 
 | Veredito | Total | entrevistado | entrevistador |
 |---|---:|---:|---:|
-| 🟢 VERDADEIRO | 129 | 67 | 62 |
-| 🟡 IMPRECISO | 30 | 24 | 6 |
+| 🟢 VERDADEIRO | 128 | 66 | 62 |
+| 🟡 IMPRECISO | 31 | 25 | 6 |
 | 🟠 SEM COMPROVAÇÃO | 31 | 25 | 6 |
 | 🔴 FALSO | 3 | 3 | 0 |
 
@@ -52,7 +53,7 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Fora da sabatina | outro | 00:03:18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Renata Lo Prete | entrevistador | 00:14:12 | 74 | 74 | 62 | 6 | 6 | 0 | 0 |
-| Lula | entrevistado | 00:23:49 | 119 | 119 | 67 | 24 | 25 | 3 | 0 |
+| Lula | entrevistado | 00:23:49 | 119 | 119 | 66 | 25 | 25 | 3 | 0 |
 
 ## Os cortes que viraram vídeo
 
@@ -60,12 +61,12 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 | Corte | Janela | Alegações | Por que este trecho |
 |---|---|---|---|
-| `corte-01` | 00:04:14 a 00:04:27 (13 s) | A016, A017, A018 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 13 s, assunto politica |
-| `corte-02` | 00:08:01 a 00:08:15 (13 s) | A036, A037, A038, A039, A040 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 13 s, assunto economia |
-| `corte-03` | 00:16:47 a 00:17:01 (14 s) | A073, A074, A075 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto justica; confronto jornalista x entrevistado em justica; 1 troca de turno |
-| `corte-04` | 00:35:52 a 00:36:05 (12 s) | A145, A146, A147, A148, A149 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 12 s, assunto economia-internacional |
-| `corte-05` | 00:43:18 a 00:43:33 (15 s) | A182, A183, A184 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 15 s, assunto saude; confronto jornalista x entrevistado em saude; 3 trocas de turno |
-| `corte-06` | 00:45:26 a 00:45:41 (14 s) | A191, A192, A193 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto programas-sociais; 1 troca de turno |
+| `corte-01` | 00:04:14 a 00:04:26 (13 s) | A016, A017, A018 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 13 s, assunto politica; bordas na pausa medida da voz (validação final, 16/out) |
+| `corte-02` | 00:08:01 a 00:08:14 (13 s) | A036, A037, A038, A039, A040 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 13 s, assunto economia; bordas na pausa medida da voz (validação final, 16/out) |
+| `corte-03` | 00:16:47 a 00:17:01 (14 s) | A073, A074, A075 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto justica; confronto jornalista x entrevistado em justica; 1 troca de turno; bordas na pausa medida da voz (validação final, 16/out) |
+| `corte-04` | 00:35:52 a 00:36:05 (13 s) | A145, A146, A147, A148, A149 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 12 s, assunto economia-internacional; bordas na pausa medida da voz (validação final, 16/out) |
+| `corte-05` | 00:43:18 a 00:43:33 (15 s) | A182, A183, A184 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 15 s, assunto saude; confronto jornalista x entrevistado em saude; 3 trocas de turno; bordas na pausa medida da voz (validação final, 16/out) |
+| `corte-06` | 00:45:27 a 00:45:41 (14 s) | A191, A192, A193 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto programas-sociais; 1 troca de turno; bordas na pausa medida da voz (validação final, 16/out) |
 
 ## Alegação por alegação
 
@@ -149,7 +150,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A003 · 🟡 IMPRECISO · 00:01:36
+### A003 · 🟡 IMPRECISO · 00:01:38
 
 **Renata Lo Prete** (entrevistador) · assunto: `politica` · tipo: `serie_historica`
 
@@ -499,7 +500,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A010 · 🟢 VERDADEIRO · 00:02:58
+### A010 · 🟢 VERDADEIRO · 00:03:00
 
 **Lula** (entrevistado) · assunto: `contas-publicas` · tipo: `evento_passado`
 
@@ -730,7 +731,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A015 · 🟢 VERDADEIRO · 00:03:45
+### A015 · 🟢 VERDADEIRO · 00:03:47
 
 **Renata Lo Prete** (entrevistador) · assunto: `politica` · tipo: `comparacao`
 
@@ -859,7 +860,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A017 · 🟢 VERDADEIRO · 00:04:17
+### A017 · 🟢 VERDADEIRO · 00:04:18
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `numero`
 
@@ -1026,7 +1027,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A020 · 🟡 IMPRECISO · 00:04:31
+### A020 · 🟡 IMPRECISO · 00:04:32
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `evento_passado`
 
@@ -1070,7 +1071,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A021 · 🟢 VERDADEIRO · 00:05:21
+### A021 · 🟢 VERDADEIRO · 00:05:22
 
 **Renata Lo Prete** (entrevistador) · assunto: `politica` · tipo: `evento_passado`
 
@@ -1109,7 +1110,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A022 · 🟢 VERDADEIRO · 00:05:34
+### A022 · 🟢 VERDADEIRO · 00:05:35
 
 **Renata Lo Prete** (entrevistador) · assunto: `meio-ambiente` · tipo: `evento_passado`
 
@@ -1190,7 +1191,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A024 · 🟢 VERDADEIRO · 00:05:41
+### A024 · 🟢 VERDADEIRO · 00:05:44
 
 **Renata Lo Prete** (entrevistador) · assunto: `justica` · tipo: `evento_passado`
 
@@ -1326,7 +1327,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A027 · 🟠 SEM COMPROVAÇÃO · 00:06:10
+### A027 · 🟠 SEM COMPROVAÇÃO · 00:06:13
 
 **Renata Lo Prete** (entrevistador) · assunto: `relacoes-exteriores` · tipo: `evento_passado`
 
@@ -1363,7 +1364,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A028 · 🟠 SEM COMPROVAÇÃO · 00:06:32
+### A028 · 🟠 SEM COMPROVAÇÃO · 00:06:34
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `evento_passado`
 
@@ -1452,7 +1453,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A030 · 🟢 VERDADEIRO · 00:07:12
+### A030 · 🟢 VERDADEIRO · 00:07:13
 
 **Lula** (entrevistado) · assunto: `relacoes-exteriores` · tipo: `numero`
 
@@ -1513,7 +1514,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A031 · 🟢 VERDADEIRO · 00:07:17
+### A031 · 🟢 VERDADEIRO · 00:07:20
 
 **Lula** (entrevistado) · assunto: `relacoes-exteriores` · tipo: `ranking`
 
@@ -1622,7 +1623,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A033 · 🟢 VERDADEIRO · 00:07:31
+### A033 · 🟡 IMPRECISO · 00:07:31
 
 **Lula** (entrevistado) · assunto: `relacoes-exteriores` · tipo: `evento_passado`
 
@@ -1632,7 +1633,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Resposta às ponderações sobre os partidos que saíram e sobre os Estados Unidos
 
-**Resumo (o que aparece no vídeo):** Lula ligou para Trump em 21 de agosto; a conversa durou uma hora e 20 minutos e tratou também do Conselho de Segurança
+**Resumo (o que aparece no vídeo):** A ligação foi de Lula e tocou no Conselho de Segurança, mas durou uma hora e 20 minutos e tratou mais do tarifaço
 
 | | |
 |---|---|
@@ -1640,13 +1641,13 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 | Apurado | uma hora e 20 minutos |
 | Data de referência | telefonema de 21 de agosto de 2026 |
 
-**Análise:** O último contato registrado entre os dois presidentes é o telefonema de 21 de agosto de 2026, que a nota conjunta do Itamaraty e do MDIC de 30/set ainda cita como o ponto de partida do diálogo. Segundo a Secom, a conversa durou uma hora e 20 minutos, o que cabe em 'quase uma hora e meia'. A ligação partiu de Lula ('o telefonema que fez esta semana ao presidente dos Estados Unidos'), e a reclamação sobre o Conselho de Segurança da ONU esteve na conversa, ao lado do tarifaço e do crime organizado. Não foi achado contato posterior. VERDADEIRO; a ressalva registra que o tema principal da nota oficial foi o tarifaço.
+**Análise:** O último contato registrado entre os dois presidentes é o telefonema de 21 de agosto de 2026, que a nota conjunta do Itamaraty e do MDIC de 30/set ainda cita como o ponto de partida do diálogo. A ligação partiu de Lula ('o telefonema que fez esta semana ao presidente dos Estados Unidos'), e o Conselho de Segurança da ONU esteve na conversa, então a essência confere. Duas partes da frase exageram o registro: a Secom informou que a conversa durou uma hora e 20 minutos, dez minutos a menos que a 'quase uma hora e meia' dita, cerca de 11% abaixo; e o motivo dito ('liguei para ele para reclamar do comportamento do Conselho de Segurança') não é o que a nota oficial dá como tema principal, que foi o tarifaço, com o crime organizado e a ONU entre os outros assuntos. É a régua aplicada à entrevistadora na A003 (essência certa, forma exagerada) e na A154 (número a mais de 10% do registrado): IMPRECISO, e não FALSO. 🔧 Até a validação final (16/out/2026) o veredito era VERDADEIRO, lendo os 80 minutos como dentro de 'quase uma hora e meia'; a releitura com a mesma régua das frases da entrevistadora mudou o veredito. Ver CORRECOES.md §5.
 
-**Ressalva:** A Presidência informou uma hora e 20 minutos; o tarifaço foi o tema principal, e a ONU um dos assuntos.
+**Ressalva:** A Presidência informou uma hora e 20 minutos; a ONU foi um dos assuntos, não o principal
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: mantido. Conferidos na captura p03 os quatro trechos: Secom via Estadão (1 hora e 20 minutos, reclamação sobre o Conselho de Segurança), Diario de Pernambuco ('o telefonema que fez'), nota conjunta MRE/MDIC de 30/09 (telefonema de 21/08 como início do diálogo) e SBT News. Melhor argumento contra: Lula diz que ligou 'para reclamar' do Conselho de Segurança, e o tema principal registrado foi o tarifaço, o que seria IMPRECISO no propósito. Cai: o Conselho de Segurança esteve na conversa, quem ligou foi Lula, e 80 minutos cabem em 'quase uma hora e meia'; o propósito é ornamento, e a ressalva diz qual foi o tema principal. Não foi achado contato posterior a 21/08 nas capturas. VERDADEIRO com confiança média bem posto.
+**Revisão por IA:** Claude (revisão adversarial por IA, passada separada: 8 revisores por lote, coerência entre lotes e revisão da rodada 2, todos sem ter checado) em 2026-10-16: alterado. Validação final (16/out): com a régua aplicada à entrevistadora na A003 (essência certa, forma exagerada) e na A154 (desvio acima de 10%), a frase de Lula exagera duas coisas: a duração (uma hora e 20 minutos contra quase uma hora e meia, cerca de 11% abaixo) e o motivo (a nota oficial dá o tarifaço como tema principal, e a ONU como um dos assuntos). VERDADEIRO passou a IMPRECISO. · Conferidos na captura p03 os quatro trechos: Secom via Estadão (1 hora e 20 minutos, reclamação sobre o Conselho de Segurança), Diario de Pernambuco ('o telefonema que fez'), nota conjunta MRE/MDIC de 30/09 (telefonema de 21/08 como início do diálogo) e SBT News. Melhor argumento contra: Lula diz que ligou 'para reclamar' do Conselho de Segurança, e o tema principal registrado foi o tarifaço, o que seria IMPRECISO no propósito. Cai: o Conselho de Segurança esteve na conversa, quem ligou foi Lula, e 80 minutos cabem em 'quase uma hora e meia'; o propósito é ornamento, e a ressalva diz qual foi o tema principal. Não foi achado contato posterior a 21/08 nas capturas. VERDADEIRO com confiança média bem posto.
 
 **Fontes:**
 
@@ -1724,7 +1725,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A035 · 🟡 IMPRECISO · 00:07:56
+### A035 · 🟡 IMPRECISO · 00:07:57
 
 **Lula** (entrevistado) · assunto: `economia` · tipo: `numero`
 
@@ -2176,7 +2177,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A041 · 🟢 VERDADEIRO · 00:08:15
+### A041 · 🟢 VERDADEIRO · 00:08:16
 
 **Lula** (entrevistado) · assunto: `economia` · tipo: `serie_historica`
 
@@ -2221,7 +2222,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A042 · 🟢 VERDADEIRO · 00:08:25
+### A042 · 🟢 VERDADEIRO · 00:08:26
 
 **Lula** (entrevistado) · assunto: `relacoes-exteriores` · tipo: `evento_passado`
 
@@ -2270,7 +2271,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A043 · 🟢 VERDADEIRO · 00:08:44
+### A043 · 🟢 VERDADEIRO · 00:08:45
 
 **Renata Lo Prete** (entrevistador) · assunto: `seguranca-publica` · tipo: `ranking`
 
@@ -2519,7 +2520,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A049 · 🟢 VERDADEIRO · 00:10:23
+### A049 · 🟢 VERDADEIRO · 00:10:24
 
 **Lula** (entrevistado) · assunto: `seguranca-publica` · tipo: `evento_passado`
 
@@ -2774,7 +2775,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A055 · 🟢 VERDADEIRO · 00:12:54
+### A055 · 🟢 VERDADEIRO · 00:12:55
 
 **Renata Lo Prete** (entrevistador) · assunto: `seguranca-publica` · tipo: `evento_passado`
 
@@ -3218,7 +3219,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A066 · 🟢 VERDADEIRO · 00:15:40
+### A066 · 🟢 VERDADEIRO · 00:15:41
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -3262,7 +3263,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A067 · 🟢 VERDADEIRO · 00:15:47
+### A067 · 🟢 VERDADEIRO · 00:15:48
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -3335,7 +3336,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A069 · 🟢 VERDADEIRO · 00:16:02
+### A069 · 🟢 VERDADEIRO · 00:16:05
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `evento_passado`
 
@@ -3416,7 +3417,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A071 · 🟢 VERDADEIRO · 00:16:33
+### A071 · 🟢 VERDADEIRO · 00:16:34
 
 **Renata Lo Prete** (entrevistador) · assunto: `justica` · tipo: `evento_passado`
 
@@ -3539,7 +3540,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A074 · 🟠 SEM COMPROVAÇÃO · 00:16:53
+### A074 · 🟠 SEM COMPROVAÇÃO · 00:16:56
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -3576,7 +3577,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A075 · 🟠 SEM COMPROVAÇÃO · 00:16:53
+### A075 · 🟠 SEM COMPROVAÇÃO · 00:16:59
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -3823,7 +3824,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A081 · 🟡 IMPRECISO · 00:17:38
+### A081 · 🟡 IMPRECISO · 00:17:40
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `evento_passado`
 
@@ -3862,7 +3863,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A082 · 🟡 IMPRECISO · 00:18:10
+### A082 · 🟡 IMPRECISO · 00:18:11
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -3943,7 +3944,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A084 · 🟠 SEM COMPROVAÇÃO · 00:19:06
+### A084 · 🟠 SEM COMPROVAÇÃO · 00:19:07
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -3982,7 +3983,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A085 · 🟢 VERDADEIRO · 00:19:20
+### A085 · 🟢 VERDADEIRO · 00:19:21
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -4322,7 +4323,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A093 · 🟠 SEM COMPROVAÇÃO · 00:20:58
+### A093 · 🟠 SEM COMPROVAÇÃO · 00:20:59
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `evento_passado`
 
@@ -4405,7 +4406,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A095 · 🟢 VERDADEIRO · 00:21:51
+### A095 · 🟢 VERDADEIRO · 00:21:52
 
 **Renata Lo Prete** (entrevistador) · assunto: `politica` · tipo: `evento_passado`
 
@@ -4442,7 +4443,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A096 · 🟢 VERDADEIRO · 00:21:51
+### A096 · 🟢 VERDADEIRO · 00:21:54
 
 **Renata Lo Prete** (entrevistador) · assunto: `politica` · tipo: `data_ou_prazo`
 
@@ -4673,7 +4674,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A102 · 🟢 VERDADEIRO · 00:22:58
+### A102 · 🟢 VERDADEIRO · 00:22:59
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `atribuicao_a_terceiro`
 
@@ -4712,7 +4713,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A103 · 🟠 SEM COMPROVAÇÃO · 00:22:58
+### A103 · 🟠 SEM COMPROVAÇÃO · 00:23:01
 
 **Lula** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -4759,7 +4760,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A104 · 🟢 VERDADEIRO · 00:23:04
+### A104 · 🟢 VERDADEIRO · 00:23:05
 
 **Lula** (entrevistado) · assunto: `politica` · tipo: `atribuicao_a_terceiro`
 
@@ -4961,7 +4962,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A109 · 🟢 VERDADEIRO · 00:23:56
+### A109 · 🟢 VERDADEIRO · 00:23:57
 
 **Renata Lo Prete** (entrevistador) · assunto: `administracao-publica` · tipo: `norma_vigente`
 
@@ -5210,7 +5211,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A116 · 🟢 VERDADEIRO · 00:26:53
+### A116 · 🟢 VERDADEIRO · 00:26:55
 
 **Renata Lo Prete** (entrevistador) · assunto: `programas-sociais` · tipo: `evento_passado`
 
@@ -5263,7 +5264,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A117 · 🟢 VERDADEIRO · 00:26:59
+### A117 · 🟢 VERDADEIRO · 00:27:00
 
 **Renata Lo Prete** (entrevistador) · assunto: `programas-sociais` · tipo: `data_ou_prazo`
 
@@ -5312,7 +5313,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A118 · 🟢 VERDADEIRO · 00:27:07
+### A118 · 🟢 VERDADEIRO · 00:27:11
 
 **Lula** (entrevistado) · assunto: `programas-sociais` · tipo: `evento_passado`
 
@@ -5354,7 +5355,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A119 · 🟢 VERDADEIRO · 00:27:32
+### A119 · 🟢 VERDADEIRO · 00:27:34
 
 **Lula** (entrevistado) · assunto: `programas-sociais` · tipo: `comparacao`
 
@@ -5547,7 +5548,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A123 · 🟢 VERDADEIRO · 00:28:19
+### A123 · 🟢 VERDADEIRO · 00:28:21
 
 **Lula** (entrevistado) · assunto: `contas-publicas` · tipo: `numero`
 
@@ -5592,7 +5593,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A124 · 🔴 FALSO · 00:28:26
+### A124 · 🔴 FALSO · 00:28:28
 
 **Lula** (entrevistado) · assunto: `contas-publicas` · tipo: `numero`
 
@@ -5639,7 +5640,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A125 · 🟢 VERDADEIRO · 00:28:35
+### A125 · 🟢 VERDADEIRO · 00:28:36
 
 **Renata Lo Prete** (entrevistador) · assunto: `contas-publicas` · tipo: `atribuicao_a_terceiro`
 
@@ -5684,7 +5685,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A126 · 🟠 SEM COMPROVAÇÃO · 00:31:48
+### A126 · 🟠 SEM COMPROVAÇÃO · 00:31:47
 
 **Renata Lo Prete** (entrevistador) · assunto: `economia` · tipo: `atribuicao_a_terceiro`
 
@@ -5862,7 +5863,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A130 · 🟢 VERDADEIRO · 00:32:31
+### A130 · 🟢 VERDADEIRO · 00:32:32
 
 **Lula** (entrevistado) · assunto: `economia` · tipo: `numero`
 
@@ -6129,7 +6130,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A136 · 🟡 IMPRECISO · 00:33:39
+### A136 · 🟡 IMPRECISO · 00:33:40
 
 **Lula** (entrevistado) · assunto: `contas-publicas` · tipo: `evento_passado`
 
@@ -6221,7 +6222,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A138 · 🟢 VERDADEIRO · 00:33:53
+### A138 · 🟢 VERDADEIRO · 00:33:55
 
 **Lula** (entrevistado) · assunto: `contas-publicas` · tipo: `norma_vigente`
 
@@ -6965,7 +6966,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A153 · 🟢 VERDADEIRO · 00:36:28
+### A153 · 🟢 VERDADEIRO · 00:36:30
 
 **Renata Lo Prete** (entrevistador) · assunto: `politica-economica` · tipo: `atribuicao_a_terceiro`
 
@@ -7014,7 +7015,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A154 · 🟡 IMPRECISO · 00:36:47
+### A154 · 🟡 IMPRECISO · 00:36:48
 
 **Renata Lo Prete** (entrevistador) · assunto: `contas-publicas` · tipo: `numero`
 
@@ -7216,7 +7217,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A158 · 🟠 SEM COMPROVAÇÃO · 00:38:05
+### A158 · 🟠 SEM COMPROVAÇÃO · 00:38:06
 
 **Lula** (entrevistado) · assunto: `politica-economica` · tipo: `evento_passado`
 
@@ -7542,7 +7543,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A165 · 🟢 VERDADEIRO · 00:39:35
+### A165 · 🟢 VERDADEIRO · 00:39:34
 
 **Renata Lo Prete** (entrevistador) · assunto: `energia` · tipo: `comparacao`
 
@@ -8372,7 +8373,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A182 · 🟠 SEM COMPROVAÇÃO · 00:43:18
+### A182 · 🟠 SEM COMPROVAÇÃO · 00:43:19
 
 **Lula** (entrevistado) · assunto: `saude` · tipo: `evento_passado`
 

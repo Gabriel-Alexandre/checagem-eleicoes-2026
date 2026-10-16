@@ -100,6 +100,13 @@
       "para": "o Farmácia Popular",
       "motivo": "nome do programa: 'farmáter' por 'Farmácia'",
       "conferido_como": "2ª passada do whisper.cpp (large-v3-turbo, feixe 8) na janela isolada de ±3 s em volta do segmento, sem e com prompt de contexto (nomes da mesa, dos ministros, das instituições e dos programas citados), em 16/out/2026: as duas passadas escrevem 'farmácia popular'."
+    },
+    {
+      "inicio_s": 1025.1,
+      "de": "Mas, Lili, parece que a gente está tratando casos diferentes de maneira igual.",
+      "para": "Mas não lhe parece que a gente está tratando casos diferentes de maneira igual?",
+      "motivo": "erro de reconhecimento: 'Mas, Lili, parece' por 'Mas não lhe parece', pergunta da entrevistadora",
+      "conferido_como": "validação final, 16/out/2026: whisper.cpp (large-v3-turbo) sem prompt, por palavra, nas janelas 1024,9-1026,4 s ('Mas não lhe parece que a gente está tratando?') e 1024,6-1028,6 s ('Mas não parece que a gente está tratando casos diferentes de maneira igual?'); nenhuma passada ouve 'Lili'. O falante (Renata Lo Prete) não muda: é pergunta dirigida ao candidato ('lhe'). Nenhuma alegação neste segmento."
     }
   ]
 }

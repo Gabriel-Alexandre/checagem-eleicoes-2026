@@ -7,6 +7,8 @@
   "formato": "sabatina",
   "eleicao": "Eleições gerais 2026, Presidência da República, 2º turno",
   "duracao_s": 2872.03,
+  "inicio_da_entrevista_s": 50.0,
+  "inicio_da_entrevista_nota": "A gravação começa no fim do Jornal Nacional e na vinheta; a primeira palavra da entrevista ('A TV Globo começa hoje a entrevistar...') está em 50,0 s do arquivo, e a tarja RENATA LO PRETE aparece em 0:53 (transcricao/tarja-apresentadora-0053.jpg). Os cards contam o minuto a partir daqui, como nos casos em que o arquivo já começava na entrevista; transcrição, alegações, relatório e cortes seguem no horário do arquivo. Entrou em 16/out/2026, na validação final.",
   "falantes": [
     {
       "nome": "Renata Lo Prete",

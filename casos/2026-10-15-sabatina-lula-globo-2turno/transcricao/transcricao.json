@@ -2240,7 +2240,7 @@
       "i": 278,
       "inicio_s": 1025.1,
       "fim_s": 1028.5,
-      "texto": "Mas, Lili, parece que a gente está tratando casos diferentes de maneira igual.",
+      "texto": "Mas não lhe parece que a gente está tratando casos diferentes de maneira igual?",
       "falante": "Renata Lo Prete",
       "papel": "entrevistador"
     },
@@ -8173,5 +8173,5 @@
       "papel": "outro"
     }
   ],
-  "correcoes_aplicadas": 14
+  "correcoes_aplicadas": 15
 }

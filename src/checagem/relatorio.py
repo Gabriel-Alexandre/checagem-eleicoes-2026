@@ -114,6 +114,11 @@ def gerar(slug: str, *, recorte: str | None = None) -> Path:
         cob = doc_alegacoes.get("cobertura") or {"inicio_s": 0.0, "fim_s": float(meta["duracao_s"])}
         add(f"**Trecho checado:** a peça inteira (`{recorte}`), de {hms(cob['inicio_s'])} a "
             f"{hms(cob['fim_s'])}, sem escolha de trecho  ")
+    if meta.get("inicio_da_entrevista_s"):
+        zero = float(meta["inicio_da_entrevista_s"])
+        add(f"**Os horários:** neste relatório, os do arquivo de gravação; a entrevista começa em "
+            f"{hms(zero)} dele. Nos cards do vídeo, o minuto conta do começo da entrevista "
+            f"(horário do arquivo menos {hms(zero)})  ")
     add(f"**Relatório gerado em:** {date.today().isoformat()}  ")
     add("**Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  ")
     add(f"**Assinatura da mídia (sha256):** `{meta['midia']['sha256']}`")

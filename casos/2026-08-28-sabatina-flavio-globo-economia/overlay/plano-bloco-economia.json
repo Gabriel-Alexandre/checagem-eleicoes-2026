@@ -6,7 +6,7 @@
   "duracao_s": 338.167,
   "largura": 1920,
   "altura": 1080,
-  "gerado_em": "2026-09-30",
+  "gerado_em": "2026-10-16",
   "selo": {
     "arquivo": "overlay/cartelas-bloco-economia/_selo.png",
     "entra_s": 0.0,
@@ -38,6 +38,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2047.7,
+      "tempo_no_card_s": 2047.7,
       "cortado_na_tela": []
     },
     {
@@ -49,6 +50,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2047.7,
+      "tempo_no_card_s": 2047.7,
       "cortado_na_tela": []
     },
     {
@@ -60,6 +62,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "INSUSTENTAVEL",
       "tempo_na_peca_s": 2096.16,
+      "tempo_no_card_s": 2096.16,
       "cortado_na_tela": []
     },
     {
@@ -71,6 +74,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2100.16,
+      "tempo_no_card_s": 2100.16,
       "cortado_na_tela": []
     },
     {
@@ -82,6 +86,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2106.62,
+      "tempo_no_card_s": 2106.62,
       "cortado_na_tela": []
     },
     {
@@ -93,6 +98,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2112.16,
+      "tempo_no_card_s": 2112.16,
       "cortado_na_tela": []
     },
     {
@@ -104,6 +110,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2122.34,
+      "tempo_no_card_s": 2122.34,
       "cortado_na_tela": []
     },
     {
@@ -115,6 +122,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2191.32,
+      "tempo_no_card_s": 2191.32,
       "cortado_na_tela": []
     },
     {
@@ -126,6 +134,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2198.26,
+      "tempo_no_card_s": 2198.26,
       "cortado_na_tela": []
     },
     {
@@ -137,6 +146,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2211.6,
+      "tempo_no_card_s": 2211.6,
       "cortado_na_tela": []
     },
     {
@@ -148,6 +158,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "INSUSTENTAVEL",
       "tempo_na_peca_s": 2232.44,
+      "tempo_no_card_s": 2232.44,
       "cortado_na_tela": []
     },
     {
@@ -159,6 +170,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2239.74,
+      "tempo_no_card_s": 2239.74,
       "cortado_na_tela": []
     },
     {
@@ -170,6 +182,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2256.64,
+      "tempo_no_card_s": 2256.64,
       "cortado_na_tela": []
     },
     {
@@ -181,6 +194,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "INSUSTENTAVEL",
       "tempo_na_peca_s": 2260.26,
+      "tempo_no_card_s": 2260.26,
       "cortado_na_tela": []
     },
     {
@@ -192,6 +206,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2265.04,
+      "tempo_no_card_s": 2265.04,
       "cortado_na_tela": []
     },
     {
@@ -203,6 +218,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2276.82,
+      "tempo_no_card_s": 2276.82,
       "cortado_na_tela": []
     },
     {
@@ -214,6 +230,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2285.48,
+      "tempo_no_card_s": 2285.48,
       "cortado_na_tela": []
     },
     {
@@ -225,6 +242,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 2291.02,
+      "tempo_no_card_s": 2291.02,
       "cortado_na_tela": []
     },
     {
@@ -236,6 +254,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2305.58,
+      "tempo_no_card_s": 2305.58,
       "cortado_na_tela": []
     },
     {
@@ -247,6 +266,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2321.82,
+      "tempo_no_card_s": 2321.82,
       "cortado_na_tela": []
     },
     {
@@ -258,6 +278,7 @@
       "atraso_do_fim_s": 0.0,
       "veredito": "IMPRECISO",
       "tempo_na_peca_s": 2365.34,
+      "tempo_no_card_s": 2365.34,
       "cortado_na_tela": []
     }
   ]
