@@ -210,16 +210,43 @@
     {
       "id": "A095",
       "veredito": "VERDADEIRO",
-      "resumo": "Os Princípios Editoriais da Globo mandam tratar anunciantes com os mesmos critérios editoriais dos demais",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: A frase descreve uma norma interna: patrocínio na programação segue regras de transparência e não interfere na linha editorial. Os Princípios Editoriais do Grupo Globo, documento público da própria empresa, determinam que as decisões editoriais sobre reportagens envolvendo anunciantes sejam tomadas pelos mesmos critérios usados para quem não é anunciante, e o comunicado de 15/out/2026 reafirma a absoluta independência editorial do jornalismo. Como se trata de norma de empresa privada, a fonte primária é a própria empresa; as duas fontes são documentos do Grupo Globo, e isso está declarado aqui. A separação entre área comercial e editorial confere, por isso VERDADEIRO. A ressalva: as regras comerciais de transparência para compra de patrocínio (tabela de preços, identificação de patrocinador) não foram localizadas em documento público dentro do limite de buscas, e o veredito não avalia se a norma é cumprida na prática. Nenhum caso anterior checou este dado. Falta: a metade da frase que o card cita, as regras de transparência para a compra de patrocínio na programação da TV Globo (política comercial publicada, tabela de preços, identificação de patrocinador), não foi buscada até o fim; sem ela, decidir entre manter VERDADEIRO com ressalva ou rebaixar a parte não sustentada.",
+      "resumo": "Regras do setor exigem lista de preços pública, e os princípios da Globo separam anunciante de decisão editorial",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (busca retomada). A frase descreve duas normas: a compra de patrocínio na TV Globo obedece a regras de transparência e não tem relação com a linha editorial. Primeira metade, que faltava na rodada 1: a regra de transparência comercial que vale para a TV Globo, como para todo veículo, é a lista de preços única e pública. A Lei 4.680/1965 (N1) manda calcular comissões e descontos sobre os preços de tabela fixados pelos veículos; as Normas-Padrão do CENP (N2), que regem a compra de mídia, registram a obrigação legal de 'manter lista única e pública de preços' oferecida a todo o mercado; e o Meio & Mensagem, fonte independente do CENP, registra que o decreto que regulamenta a lei exige de todo veículo uma lista de preços única e pública (o texto do decreto no Planalto não abriu na captura, e por isso ele não é citado direto). Segunda metade: os Princípios Editoriais do Grupo Globo, documento público da empresa, mandam tomar as decisões editoriais sobre anunciantes pelos mesmos critérios usados para os demais, e o comunicado de 15/10/2026 reafirma a independência editorial; estas duas fontes são da própria empresa, o que se declara aqui, e é a primária natural de uma norma interna. As duas normas existem e se aplicam à TV Globo, por isso VERDADEIRO. A ressalva vai para a tela: não foi consultada a lista de preços da própria Globo (o banco de listas do CENP é restrito a associados), e o veredito não avalia se as normas são cumpridas na prática. Nenhum caso anterior checou este dado. Na rodada 1 o veredito era VERDADEIRO provisório (marcador posto pelo revisor r4) porque a primeira metade da frase não tinha fonte.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "Princípios Editoriais vigentes em outubro de 2026",
-      "ressalva": "As regras comerciais de transparência para patrocínio não foram localizadas em documento público",
-      "confianca": "baixa",
+      "data_de_referencia": "Lei 4.680/1965, Normas-Padrão do CENP e Princípios Editoriais vigentes em outubro de 2026",
+      "ressalva": "A lista de preços da própria Globo não foi consultada, e o card não avalia se as regras são cumpridas na prática",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto), Lei nº 4.680/1965",
+          "titulo": "Lei nº 4.680, de 18 de junho de 1965 (exercício da profissão de publicitário e de agenciador de propaganda)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4680.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art 11. A comissão, que constitui a remuneração dos Agenciadores de Propaganda, bem como o desconto devido às Agências de Propaganda serão fixados pelos veículos de divulgação sôbre os preços estabelecidos em tabela.",
+          "prova": "Na lei, a venda de espaço pelos veículos se faz sobre preços de tabela, base da regra de lista de preços."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Conselho Executivo das Normas-Padrão (CENP), documento publicado pela Abap",
+          "titulo": "Documentos CENP 1: Legislação e normas da publicidade no Brasil",
+          "url": "https://www.abap.com.br/wp-content/uploads/2017/07/legislacaonormas.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Os veículos quando pactuam as Normas-Padrão [...] asseguram que vão cumprir as obrigações legais [...] de (i) manter lista única e pública de preços a ser [...] oferecida, para negociação, a todo o mercado, sem",
+          "prova": "A regra de transparência do setor: o veículo mantém lista de preços única e pública, oferecida a todo o mercado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Meio & Mensagem",
+          "titulo": "Cenp cria banco único de preços",
+          "url": "https://www.meioemensagem.com.br/comunicacao/cenp-cria-banco-unico-de-precos",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo o presidente da entidade, Caio Barsotti, o objetivo principal é o de atender decreto que regulamenta a Lei 4.680, segundo o qual todo veículo de comunicação tem que ter uma lista de preços única e pública.",
+          "prova": "Fonte independente do CENP para a obrigação legal: todo veículo, a TV Globo incluída, tem de ter lista de preços única e pública."
+        },
         {
           "nivel": "N1",
           "instituicao": "Grupo Globo (Princípios Editoriais)",

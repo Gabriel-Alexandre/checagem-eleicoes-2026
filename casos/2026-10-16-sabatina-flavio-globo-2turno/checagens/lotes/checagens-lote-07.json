@@ -48,23 +48,41 @@
     {
       "id": "A062",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Estimativas achadas: R$ 20 bi por ano (Fazenda, todas as esferas) e R$ 17 bi (Judiciário e MP); R$ 24 bi não aparece",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: uma busca e a captura das páginas acharam duas estimativas de gasto anual com verbas acima do teto, ambas por imprensa que reproduz a primária (regra 2 da METODOLOGIA §3.1, declarada aqui). O InfoMoney (26/02/2026) registra o ministro da Fazenda, Fernando Haddad, dizendo que os supersalários custam R$ 20 bilhões por ano para os Três Poderes de União, estados e municípios; a Band e O Liberal (24/03/2026), que reproduzem o mesmo relatório, informam que a comissão técnica dos Três Poderes entregou ao STF estimativa de R$ 17 bilhões por ano só para magistratura (R$ 9,8 bilhões) e Ministério Público (R$ 7,2 bilhões). Nenhuma fonte achada dá R$ 24 bilhões. Se a estimativa de R$ 20 bilhões for a referência, o número dito fica 20% acima, o que pela régua do §2.2 seria IMPRECISO; mas falta a fonte N1 ou N2 que o validador exige para valor monetário (o relatório da comissão, dado do CNJ ou do Tesouro) e falta procurar a origem dos R$ 24 bilhões (algum estudo independente pode usar esse número). Sem isso, o veredito provisório é SEM COMPROVAÇÃO. Também falta conferir o efeito das novas regras aprovadas pelo STF em 25/03/2026, que o ministro Alexandre de Moraes estimou em economia de R$ 7,3 bilhões por ano no Judiciário, sobre o gasto vigente em outubro.",
+      "resumo": "Estudo estima ao menos R$ 20 bi por ano pagos acima do teto nos três Poderes; R$ 24 bi não aparece em fonte",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (busca retomada) e alterada na revisão adversarial da rodada 2, no mesmo dia. O critério era achar estimativas do gasto anual com verbas acima do teto e saber de que Poderes, esferas e ano. A estimativa de referência é a do estudo do Movimento Pessoas à Frente e da República.org (N2, método público, novembro de 2025): R$ 20,01 bilhões pagos acima do teto em 12 meses, de agosto de 2024 a julho de 2025, somando Judiciário, Ministério Público, Executivo e Legislativo. O próprio estudo trata esse valor como mínimo: diz que o gasto do Brasil com supersalários 'é de pelo menos 8 bilhões de dólares ao ano' (em paridade de poder de compra, o equivalente aos cerca de R$ 20 bilhões) e que analisa 'um subgrupo do universo de servidores'; a Rádio Itatiaia e a nota da Coalizão de Combate aos Supersalários, que reproduzem o estudo, falam em 'ao menos' R$ 20 bilhões. O ministro da Fazenda citou R$ 20 bilhões em fevereiro de 2026 (InfoMoney), e a comissão técnica dos Três Poderes estimou R$ 17 bilhões só para magistratura e Ministério Público (Band), com outro recorte. Nenhuma fonte chega a R$ 24 bilhões, e a busca pela origem desse número (duas buscas, incluindo a frase exata) não achou estudo que o use. Para outubro de 2026 não há conta nova: o STF estimou economia de R$ 7,3 bilhões por ano no Judiciário com as regras de 25/03/2026 (Itatiaia), e nenhuma fonte produz um total atualizado. Os 24 ficam 20% acima dos 20, mas desvio medido contra um piso não prova erro, porque o valor real pode ser maior que o contado; é a mesma leitura de piso aplicada a 'mais de 15 milhões' na A192 do caso 2026-10-15-sabatina-lula-globo-2turno. Por isso INSUSTENTAVEL, e não IMPRECISO: o número dito não aparece em fonte nenhuma (régua do §2.2), e a melhor estimativa é um mínimo que não o confirma nem o contradiz. Não é FALSO porque nenhuma fonte dá valor que o contradiga. Os casos anteriores (Flávio de 28/ago, economia) não checaram este número. Histórico: INSUSTENTAVEL provisório na rodada 1; IMPRECISO na rodada 2, pelos 20% de desvio; INSUSTENTAVEL na revisão, porque a fonte N2 declara o valor como piso.",
       "numero_dito": "R$ 24 bilhões por ano",
-      "numero_apurado": "R$ 20 bilhões por ano (estimativa citada pelo ministro da Fazenda, Três Poderes de União, estados e municípios); R$ 17 bilhões por ano só na magistratura e no Ministério Público",
-      "data_de_referencia": "estimativas divulgadas em fevereiro e março de 2026",
+      "numero_apurado": "ao menos R$ 20 bilhões por ano pagos acima do teto nos três Poderes (R$ 20,01 bilhões de agosto de 2024 a julho de 2025, piso declarado pelo próprio estudo); R$ 17 bilhões só na magistratura e no Ministério Público (comissão técnica)",
+      "data_de_referencia": "agosto de 2024 a julho de 2025 (estudo de novembro de 2025, ainda a referência em maio de 2026)",
       "derivacoes": [
         {
           "valor": "20%",
           "de": "24 contra 20",
-          "como": "desvio do número dito em relação à estimativa de R$ 20 bilhões: (24 menos 20) dividido por 20"
+          "como": "distância do número dito ao piso de R$ 20 bilhões do estudo: (24 menos 20) dividido por 20"
         }
       ],
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "As duas estimativas têm recortes diferentes: R$ 20 bilhões para os Três Poderes de todas as esferas (Fazenda) e R$ 17 bilhões só para magistratura e Ministério Público (comissão técnica). Não são contraditórias, mas nenhuma chega a R$ 24 bilhões.",
+      "ressalva": "O estudo trata os R$ 20 bi como piso e cobre agosto de 2024 a julho de 2025, antes das regras do STF de março de 2026",
+      "confianca": "media",
+      "divergencia_entre_fontes": "As estimativas têm recortes diferentes: R$ 20 bilhões para todos os Poderes (estudo do Movimento Pessoas à Frente e da República.org, citado também pelo ministro da Fazenda) e R$ 17 bilhões só para magistratura e Ministério Público (comissão técnica entregue ao STF). Nenhuma chega a R$ 24 bilhões.",
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Movimento Pessoas à Frente e República.org",
+          "titulo": "Estudo sobre supersalários no funcionalismo, com comparação internacional (novembro de 2025)",
+          "url": "https://static.poder360.com.br/2025/11/estudo-funcionalismo-supersalarios-movimento-pessoas-a-frente-republica-nov-2025-ver-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "dispêndio extra-teto de cerca de 20 bilhões de reais nos [...] últimos 12 meses — equivalente a 8 bilhões de dólares [...] com pagamentos acima do teto. Dos R$20,01 bilhões pagos [...] o gasto do Brasil com supersalários é de pelo menos 8 bilhões de dólares ao ano [...] estudo aborda um subgrupo do universo de servidores [...] difícil dimensionar a subnotificação",
+          "prova": "Estimativa com método público do valor pago acima do teto em 12 meses, somando Judiciário, Ministério Público, Executivo e Legislativo: R$ 20,01 bilhões, que o próprio estudo trata como mínimo ('pelo menos') de um subgrupo de servidores."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Projetos contra penduricalhos e supersalários ficam paralisados no Congresso",
+          "url": "https://www.itatiaia.com.br/politica/projetos-contra-penduricalhos-e-supersalarios-ficam-paralisados-no-congresso/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Os chamados “penduricalhos” — verbas adicionais que elevam salários acima do teto constitucional — custaram ao menos R$ 20 bilhões ao Brasil entre agosto de 2024 e julho de 2025.",
+          "prova": "Liga o estudo ao termo da fala: o que custou R$ 20 bilhões em 12 meses foram os penduricalhos, e dá o período."
+        },
         {
           "nivel": "N4",
           "instituicao": "InfoMoney",
@@ -75,6 +93,15 @@
           "prova": "Estimativa de autoridade para o mesmo recorte da fala (os três Poderes), em todas as esferas: R$ 20 bilhões, não 24."
         },
         {
+          "nivel": "N2",
+          "instituicao": "Coalizão de Combate aos Supersalários (nota pública publicada pela Transparência Brasil)",
+          "titulo": "Coalizão de organizações da sociedade civil alerta para multiplicação de penduricalhos (08/05/2026)",
+          "url": "https://backend.transparencia.org.br/wp-content/uploads/2026/05/202605_Advocacy_-Nota-multiplicacao-penduricalhos-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "É fato público que, desde a tese de repercussão geral fixada pelo STF em 25 de março de [...] remuneratória. Entre agosto de 2024 e julho de 2025, foram pagos ao menos R$ 20 [...] bilhões acima do teto constitucional, segundo estudo da República.org e do Movimento",
+          "prova": "Em maio de 2026, depois das regras do STF, o mesmo estudo ainda era a referência do gasto anual; reproduz o estudo e não é fonte independente dele."
+        },
+        {
           "nivel": "N4",
           "instituicao": "Band Jornalismo",
           "titulo": "Gastos com 'penduricalhos' no MP e Judiciário somam R$ 17 bilhões por ano (24/03/2026)",
@@ -82,15 +109,6 @@
           "consultada_em": "2026-10-17",
           "trecho": "Dados entregues ao Supremo Tribunal Federal (STF) por uma comissão técnica formada por representantes dos Três Poderes indicam que os gastos anuais com pagamentos extras a magistrados e membros do Ministério Público somam R$ 17 bilhões, segundo relatório que servirá de subsídio ao julgamento sobre o teto remuneratório marcado para esta quarta-feira (25), em Brasília.",
           "prova": "Estimativa da comissão técnica dos Três Poderes para a parte do Judiciário e do MP: R$ 17 bilhões."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "O Liberal",
-          "titulo": "Dados entregues ao STF indicam que gastos com penduricalhos no MP e Judiciário somam R$ 17 bi (março de 2026)",
-          "url": "https://www.oliberal.com/politica/dados-entregues-ao-stf-indicam-que-gastos-com-penduricalhos-no-mp-e-judiciario-somam-r-17-bi-1.1101191",
-          "consultada_em": "2026-10-17",
-          "trecho": "A comissão estima que o valor gasto com parcelas que excedem o teto do funcionalismo público na magistratura é de R$ 9,8 bilhões. No MP, esse gasto seria de R$ 7,2 bilhões.",
-          "prova": "Reproduz o mesmo relatório da Band (não é fonte independente dela) e detalha a divisão entre magistratura e MP."
         },
         {
           "nivel": "N4",

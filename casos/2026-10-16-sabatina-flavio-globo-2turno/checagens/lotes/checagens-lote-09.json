@@ -245,59 +245,102 @@
       ]
     },
     {
-      "id": "A086",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Mensagens reveladas pelo Intercept citam acerto de US$ 24 milhões, cerca de R$ 134 milhões; falta fonte oficial",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas buscas e capturas de imprensa que reproduzem as mensagens e documentos revelados pelo The Intercept Brasil; todas dizem que Flávio Bolsonaro negociou com Vorcaro US$ 24 milhões, cerca de R$ 134 milhões na cotação da época, em parcelas, e que o repasse efetivo foi de US$ 10,6 milhões, cerca de R$ 61 milhões. A essência da pergunta tem apoio amplo, mas a alegação é de valor monetário e todas as fontes são imprensa (N4) que reproduz a mesma primária (regra 2 da §3.1); falta localizar um documento N1, como a decisão do STF ou a representação da PF, com o valor. Há ainda uma nuance de leitura: o A Tarde diz que um dos fluxos de pagamento de US$ 24 milhões aparece em diálogos de Vorcaro com o cunhado e com Thiago Miranda, e o Correio da Manhã fala em áudios em que Flávio pede R$ 61 milhões. Sem a primária oficial, o veredito provisório é INSUSTENTAVEL; com ela, a tendência é VERDADEIRO com ressalva sobre pedido contra negociado. A razão 134 sobre 75 dá 1,79, o que sustentaria o 'quase o dobro' da pergunta.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Mensagens registram acordo de US$ 24 milhões com Vorcaro, cerca de R$ 134 milhões no câmbio da época",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (busca retomada). A afirmação é que Flávio Bolsonaro pediu R$ 134 milhões a Daniel Vorcaro para o filme sobre o pai. O critério era achar o valor pedido nos documentos e entender moeda e câmbio. O valor é em dólares: a reportagem original do The Intercept Brasil, com as mensagens e a planilha de desembolsos, registra uma negociação em que Vorcaro se comprometeu a repassar US$ 24 milhões (US$ 23,9 milhões na planilha 'Funding Schedule'), em 14 parcelas, 'na época equivalentes a cerca de R$ 134 milhões'. O próprio Flávio admitiu a conversa sobre os US$ 24 milhões (Correio da Manhã) e, na sabatina, não contestou o número: chamou-o de 'pedido de um patrocínio privado' e disse que 'era um contrato que não foi cumprido'. A conversão para reais, que é onde as fontes divergem, foi refeita com a cotação oficial do Banco Central (N1): US$ 24 milhões dão R$ 145,1 milhões no dólar de 21/01/2025, quando o fluxo de pagamentos foi tratado nas mensagens; R$ 134,0 milhões na média das cotações de 2025, o ano do cronograma; e R$ 122,0 milhões no dólar do dia da fala. O número dito fica 7,6% abaixo da conversão de janeiro de 2025, 2,3% acima da do relatório da PF citado pelo O Povo (R$ 131 milhões) e 9,8% acima da de 122: todas abaixo da régua de 10% do §2.2, por isso VERDADEIRO, com a ressalva do câmbio, e não IMPRECISO. Fontes: a reportagem original e as que a reproduzem (Correio da Manhã, O Povo e TVT News, estas duas com o relatório da PF) são imprensa sobre a mesma primária, o material da investigação, o que se declara pela regra 2 da METODOLOGIA §3.1; a fonte N1 é a série de câmbio do Banco Central, que resolve a parte divergente (a conversão). O pedido e o valor estão documentados e admitidos; a investigação da PF sobre o financiamento do filme, autorizada pelo STF em julho, segue em curso e sob sigilo (Aos Fatos), e nada aqui afirma irregularidade (etica-e-risco §5). A A072 e a A086 são a mesma afirmação ('134') e saem com o mesmo veredito e as mesmas fontes. Na rodada 1 o veredito era INSUSTENTAVEL provisório porque faltava a fonte N1. A razão entre os R$ 134 milhões e o custo de R$ 75 milhões declarado pela perícia (A085) é 1,79; o 'quase o dobro' da pergunta não é parte desta afirmação. A nota do revisor r3 foi atendida: o valor repassado não entra mais aqui com os US$ 10,6 milhões de maio de 2025; o repassado na data da fala (US$ 12,3 milhões em 7 parcelas) está na A071 e na A087.",
       "numero_dito": "R$ 134 milhões",
-      "numero_apurado": "US$ 24 milhões, cerca de R$ 134 milhões negociados; US$ 10,6 milhões, cerca de R$ 61 milhões repassados",
-      "data_de_referencia": "negociação de 2025 revelada pelo Intercept em 13/mai/2026",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "A maioria das matérias diz que Flávio negociou R$ 134 milhões; o Correio da Manhã descreve áudios em que Flávio aparece pedindo R$ 61 milhões, o valor efetivamente repassado.",
+      "numero_apurado": "R$ 134,0 milhões na média do dólar de 2025 (US$ 24 milhões negociados, US$ 23,9 milhões na planilha), entre R$ 122,0 milhões e R$ 145,1 milhões conforme a data do câmbio",
+      "data_de_referencia": "negociação do início de 2025, revelada em 13/05/2026; câmbio de 2025 e do dia da fala (16/10/2026)",
+      "ressalva": "Acerto em dólares: a conversão vai de R$ 122 milhões, no câmbio do dia da fala, a R$ 145,1 milhões, no de janeiro de 2025",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O valor em dólares é o mesmo em todas as fontes (US$ 24 milhões; US$ 23,9 milhões na planilha). A conversão varia com a data do câmbio: R$ 134 milhões (Intercept, Correio da Manhã), R$ 131 milhões (relatório da PF citado pelo O Povo) e cerca de R$ 122 milhões (TVT News, com o relatório da PF).",
+      "revisao_humana": null,
       "derivacoes": [
+        {
+          "valor": "R$ 145,1 milhões",
+          "de": "24 vezes 6,0440",
+          "como": "US$ 24 milhões convertidos pelo dólar de venda do Banco Central de 21/01/2025, dia em que o fluxo de pagamentos do filme foi tratado nas mensagens"
+        },
+        {
+          "valor": "R$ 134,0 milhões",
+          "de": "24 vezes a média das cotações de 2025 da série 1 do Banco Central, que vão de 6,2086 (02/01/2025) a 5,2729 (11/11/2025)",
+          "como": "média das 252 cotações diárias de 2025 na série capturada (5,5855) multiplicada por 24; 2025 é o ano do cronograma de 14 parcelas"
+        },
+        {
+          "valor": "R$ 122,0 milhões",
+          "de": "24 vezes 5,0826",
+          "como": "US$ 24 milhões no dólar de venda do Banco Central de 16/10/2026, dia da fala"
+        },
+        {
+          "valor": "2,3%",
+          "de": "134 dividido por 131",
+          "como": "desvio do valor dito sobre a conversão do relatório da PF citada pelo O Povo"
+        },
+        {
+          "valor": "9,8%",
+          "de": "134 dividido por 122",
+          "como": "desvio do valor dito sobre a conversão citada pela TVT News, igual à do dólar do dia da fala"
+        },
         {
           "valor": "1,79",
           "de": "134 dividido por 75",
-          "como": "razão entre o valor negociado e o custo declarado pela perícia, para o 'quase o dobro'"
+          "como": "razão entre o valor negociado e o custo declarado pela perícia, para o 'quase o dobro' da pergunta"
         }
       ],
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "Folha Vitória",
-          "titulo": "André Mendonça autoriza inquérito sobre repasses para Dark Horse",
-          "url": "https://www.folhavitoria.com.br/politica/andre-mendonca-autoriza-inquerito-sobre-repasses-para-dark-horse-filme-sobre-jair-bolsonaro/",
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS, série 1: dólar, taxa de venda, diária)",
+          "titulo": "Taxa de câmbio livre, dólar americano (venda), diária, de 01/01/2025 a 16/10/2026",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/01/2025&dataFinal=16/10/2026",
           "consultada_em": "2026-10-17",
-          "trecho": "Segundo revelou o site Intercept Brasil, o senador negociou diretamente com Vorcaro um total de US$ 24 milhões, o equivalente a R$ 134 milhões para financiar o filme . O repasse efetivo, segundo documentos, foi de ao menos US$ 10,6 milhões, cerca de R$ 61 milhões na cotação da época, foram destinados ao projeto até maio de 2025.",
-          "prova": "Dá o valor negociado e o repassado, citando a primária (Intercept)"
+          "trecho": "{\"data\":\"02/01/2025\",\"valor\":\"6.2086\"}, {\"data\":\"21/01/2025\",\"valor\":\"6.0440\"}, {\"data\":\"11/11/2025\",\"valor\":\"5.2729\"}, {\"data\":\"16/10/2026\",\"valor\":\"5.0826\"}",
+          "prova": "Cotações oficiais para converter os US$ 24 milhões: 6,0440 no dia em que o fluxo de pagamentos foi tratado nas mensagens (21/01/2025), a maior e a menor de 2025 e a do dia da fala."
         },
         {
           "nivel": "N4",
-          "instituicao": "Jovem Pan",
-          "titulo": "Valor pedido por Flávio para filme de Bolsonaro supera o orçamento de vencedores do Oscar (13/05/2026)",
-          "url": "https://jovempan.com.br/politica/valor-pedido-por-flavio-para-filme-de-bolsonaro-supera-o-orcamento-de-vencedores-do-oscar/",
+          "instituicao": "The Intercept Brasil (reportagem original, com mensagens e documentos)",
+          "titulo": "ÁUDIO: Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair (13/05/2026)",
+          "url": "https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/",
           "consultada_em": "2026-10-17",
-          "trecho": "As mensagens indicam uma negociação na qual Vorcaro se comprometeu a repassar 24 milhões de dólares (cerca de R$ 134 milhões na época) para o financiamento de “Dark Horse”.",
-          "prova": "Segunda reprodução da mesma primária, com o mesmo valor"
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "A Tarde",
-          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
-          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
-          "consultada_em": "2026-10-17",
-          "trecho": "Um deles previa o pagamento de 12 parcelas de US$ 1,6 milhão e duas de US$ 2 milhões, totalizando US$ 24 milhões (R$ 134 milhões).",
-          "prova": "Mostra que o valor é a soma de parcelas de um fluxo de pagamento discutido, e não um pagamento único"
+          "trecho": "A frase escrita pelo hoje pré-candidato à Presidência da República é parte de uma série de registros que indicam a existência de uma negociação em que Vorcaro se comprometeu a repassar um total de 24 milhões de dólares (na época equivalentes a cerca de R$ 134 milhões) para financiar a produção de “ Dark Horse ”, o filme biográfico sobre Jair Bolsonaro . [...] 14 parcelas – 12 delas de 1,666 milhão de dólares e duas de 2 milhões de dólares. [...] segundo a qual 10,6 milhões de dólares já haviam sido transferidos de um total previsto de 23,9 milhões de dólares.",
+          "prova": "Fonte original das mensagens e da planilha: o acordo era de US$ 24 milhões (US$ 23,9 milhões na planilha), em 14 parcelas, e a conversão de R$ 134 milhões é a do próprio Intercept."
         },
         {
           "nivel": "N4",
           "instituicao": "Correio da Manhã",
-          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
-          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "titulo": "Flávio Bolsonaro negociou com dono do banco Master repasse de R$ 134 milhões para custear Dark Horse (maio/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/05/amp/285516-filme-sobre-bolsonaro-seria-financiado-por-daniel-vorcaro.html",
           "consultada_em": "2026-10-17",
-          "trecho": "Em maio, após a divulgação de áudios em que Flávio aparece pedindo R$ 61 milhões ao banqueiro Daniel Vorcaro , então controlador do Banco Master, para a produção do longa",
-          "prova": "Registra a leitura divergente sobre o valor pedido"
+          "trecho": "Na tarde de quarta-feira, Flávio Bolsonaro admitiu ter tido uma conversa com Daniel Vorcaro, o dono do Banco Master, para que ele repassasse US$ 24 milhões (o equivalente a R$ 134 milhões na época) para a produção de Dark Horse.",
+          "prova": "O próprio Flávio admitiu a conversa sobre o repasse de US$ 24 milhões, convertidos em R$ 134 milhões."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (com relatórios da Polícia Federal)",
+          "titulo": "PF aponta cobranças de Flávio a Vorcaro e detalha relação sobre Dark Horse (13/09/2026)",
+          "url": "https://mais.opovo.com.br/jornal/dom/2026/09/13/pf-aponta-cobrancas-de-flavio-a-vorcaro-e-detalha-relacao-sobre-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a PF, Flávio pediu R$ 131 milhões a Vorcaro para a produção do filme, dos quais R$ 60 milhões teriam sido pagos .",
+          "prova": "Conversão em reais segundo o relatório da PF reproduzido pelo jornal."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News (com relatório da Polícia Federal)",
+          "titulo": "PF diz que Eduardo Bolsonaro orientou como dinheiro de Dark Horse seria gerido nos EUA (11/09/2026)",
+          "url": "https://tvtnews.com.br/pf-eduardo-bolsonaro-gestao-122-milhoes-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com a PF, o fundo poderia receber US$ 24 milhões , cerca de R$ 122 milhões , provenientes do ex-banqueiro Daniel Vorcaro.",
+          "prova": "Mesmo valor em dólares, com outra conversão para reais."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "É falso que Mendonça descartou inquérito contra Flávio Bolsonaro por ‘Dark Horse’ (11/09/2026)",
+          "url": "https://www.aosfatos.org/noticias/mendonca-inquerito-flavio-bolsonaro-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em julho, o magistrado autorizou investigação da PF contra o senador. A apuração continua e está sob sigilo.",
+          "prova": "Registra que a investigação sobre o financiamento do filme está em curso na data da fala."
         },
         {
           "nivel": "N4",
@@ -308,7 +351,8 @@
           "trecho": "Documentos apontam custo declarado superior a R$ 75 milhões , enquanto a negociação com Vorcaro previa aproximadamente R$ 134 milhões.",
           "prova": "Põe lado a lado o custo declarado e o valor negociado, base da razão da pergunta"
         }
-      ]
+      ],
+      "id": "A086"
     },
     {
       "id": "A087",

@@ -1,0 +1,138 @@
+{
+  "revisor": "Claude (revisão adversarial por IA da rodada 2, passada separada)",
+  "A008": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: o Investidor10 resume a leitura do ministro do TSE como alegação de que Flávio 'acabaria com' aposentadorias, o que daria VERDADEIRO. Não derruba: é paráfrase de uma reportagem; Mais Goiás e A Crítica descrevem a mesma peça de Lula como 'consequências negativas' e 'efeitos sobre o reajuste', e o próprio Flávio, em 8/out, falou em 'acabar com o reajuste'. O que Lula disse de fato é o vídeo 'Se o Flávio vence, você perde' (perdas na aposentadoria); o que os aliados disseram está na íntegra da decisão do TSE (N1): 'reduzir o valor da aposentadoria'. Essência certa, alcance ampliado. A liminar trata da legalidade da peça, não da existência dela, e por isso não é fato em apuração. Cinco trechos achados (r2parte1 e p13 do caso de 15/out).",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A009": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: tratar como FALSO, já que as quatro decisões do TSE contra peças de Lula, Janja e aliados não falam de servidores. Não fecha: ausência de registro não prova que não foi dito, e a busca não cobriu a íntegra de todos os programas de rádio e TV, o que a explicação declara. BBC (A Gazeta) e IstoÉ registram a especulação 'nas redes sociais', sem autor. Mesma régua da A010 por outro lado: lá há autor (aliados) e há registro; aqui não há autor. Quatro trechos achados (p01, p01-r3, r2parte1).",
+    "verificacoes": ["1", "3", "4", "6"]
+  },
+  "A010": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: a frase atribui a 'meu concorrente', e o registro é de deputados aliados (Janones, Rede, e Lindbergh, PT), só para a Petrobras; pela régua da A161 do caso de 15/out (equipe do adversário não é o adversário), daria INSUSTENTAVEL. Fica de pé por pouco: na A161 de 15/out não havia anúncio nenhum, só estudo interno relatado; aqui a fala pública existe, está transcrita na decisão do TSE (N1) e é do campo político de Lula (Janones administra o canal 'Exército do Lula'). O card diz o recorte certo (aliados, só Petrobras). Seis trechos achados. Ponto para a passada de coerência: A010 contra A161 de 15/out.",
+    "verificacoes": ["1", "3", "4", "6", "8"]
+  },
+  "A015": {
+    "decisao": "mantido",
+    "nota": "Pergunta da entrevistadora. Melhor argumento contra o INSUSTENTAVEL: a Folha relata economistas que estimam ajuste mínimo de cerca de R$ 250 bi e a própria equipe do candidato estudou mexer em aposentadorias, BPC e pisos, o que daria base ao 'consenso'. Não basta: são avaliações isoladas e um relato sobre a equipe, sem medida do conjunto nem declaração nominal de economista apoiador. Mesma régua da A155 do caso de 15/out, aplicada à mesma entrevistadora. Cinco trechos achados (p02-r2, p02-r4, r2parte1).",
+    "verificacoes": ["1", "3", "4", "6"]
+  },
+  "A020": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o IMPRECISO: 'mais de 30 mil' é literalmente verdadeiro para 761 mil, e o validador até trata 'mais de' com apurado maior como coerente. Não derruba: a frase dá ordem de grandeza cerca de 25 vezes menor (761 dividido por 30, conta refeita), e esse erro de magnitude muda a leitura do patrimônio; nem o recorte de uso especial (56.375) corresponde. É diferente do piso da A062, onde 24 contra ao menos 20 não prova erro. Total igual ao da A021 (761 mil, TCU, Lista de Alto Risco), como pediu a revisão r1. Dado da SPU de nov/2024, o vigente na data da fala. Quatro trechos achados (p03).",
+    "verificacoes": ["1", "3", "4", "5", "6"]
+  },
+  "A023": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o VERDADEIRO: o estoque é de 2024, o de 2025 não foi achado e deve ser maior, e 'quase 3' poderia ficar longe dele. Não derruba: o último estoque publicado na data da fala é R$ 3 trilhões (PGFN em Números 2025, N1), e 'quase 3' contra 3 fica dentro da régua de 10%; a análise do JOTA sobre a LDO ('praticamente R$ 3 trilhões') é fonte independente da publicação anual. A divergência com os R$ 2,1 trilhões (parcela em cobrança) está explicada, e a ressalva diz que só 6,6% tem maior chance de recuperação. Cinco trechos achados.",
+    "verificacoes": ["3", "4", "5", "6", "7"]
+  },
+  "A047": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o Gastômetro dava R$ 354 bi em 14/10, desvio de 1,1% (conta refeita), o que pediria VERDADEIRO ou IMPRECISO. Não derruba: o número é soma de um jornal, reproduzida só por imprensa, sem N1 ou N2 (regra 1 da §3.1), e o próprio painel diz que não é só dinheiro desembolsado, o que contradiz o 'já gastou'. Esta é a régua aplicada às A173 e A174 da entrevistadora nesta revisão. O aviso do validador sobre '09' no numero_apurado vem da data 17/09/2026 e não é número sem lastro. Seis trechos achados.",
+    "verificacoes": ["3", "4", "5", "6"]
+  },
+  "A062": {
+    "decisao": "alterado",
+    "nota": "IMPRECISO passou a INSUSTENTAVEL. O IMPRECISO media 24 contra 20 como se 20 fosse o total, mas a fonte N2 trata o valor como mínimo: 'pelo menos 8 bilhões de dólares ao ano' (os cerca de R$ 20 bi), estudo de 'um subgrupo do universo de servidores', com subnotificação; Itatiaia e Coalizão escrevem 'ao menos'. Desvio contra piso não prova erro (mesma leitura da A192 do caso de 15/out). 24 não aparece em fonte e nada o contradiz: INSUSTENTAVEL pela régua do §2.2. Trechos novos conferidos na captura r2parte2. Ver correcoes-rodada2.md.",
+    "verificacoes": ["3", "4", "6", "7", "8"]
+  },
+  "A071": {
+    "decisao": "mantido",
+    "nota": "Pergunta da entrevistadora. Melhor argumento contra o VERDADEIRO: a conversão escolhida favorece a frase; no dólar do dia da fala (5,0826) os US$ 12,333 milhões dão R$ 62,7 milhões, e 'quase 70' ficaria 11,7% acima (contas minhas), IMPRECISO; e Flávio disse que o último repasse foi em maio de 2025. Não derruba: para dinheiro já transferido, a medida certa em reais é o dólar de cada repasse, e o método se prova porque a mesma conta até maio dá R$ 61,0 milhões, o valor publicado pelo Intercept; refiz com a série do BC capturada: R$ 69,83 milhões. A sétima parcela tem duas fontes independentes (relatório do Coaf pela piauí; total de US$ 12,333 milhões pela delação, na Gazeta do Povo). A piauí diz 'mais de 65', compatível. O valor dos repasses está documentado; o que está em apuração é a irregularidade e o destino, e o card não fala disso. Mesma prática da A087 deste caso. Oito trechos achados.",
+    "verificacoes": ["1", "3", "4", "5", "6"]
+  },
+  "A072": {
+    "decisao": "mantido",
+    "nota": "Pergunta da entrevistadora. Contas refeitas com a série do BC capturada: média de 2025 = 5,5855 (252 cotações), 24 vezes isso = R$ 134,05 milhões; 24 vezes 6,0440 = R$ 145,1 milhões; 24 vezes 5,0826 = R$ 122,0 milhões. Desvios do 134: 7,6% contra 145,1, 2,3% contra 131 (PF) e 9,8% contra 122. Melhor argumento contra: 9,8% está colado na régua. Não derruba: nenhuma conversão razoável passa de 10%, e o valor em dólares (US$ 24 milhões) foi admitido pelo próprio Flávio (Correio da Manhã). Igual à A086, como pediu a revisão r3. Ponto para a coerência: aqui a régua é 'todas as conversões dentro de 10%', na A071 é 'o dólar de cada repasse'; a diferença tem motivo (compromisso sem data única contra repasse com data) e está escrita. Seis trechos achados.",
+    "verificacoes": ["3", "4", "5", "6", "7"]
+  },
+  "A086": {
+    "decisao": "mantido",
+    "nota": "Mesma afirmação, fontes e contas da A072 (conferidas lá); veredito igual, como pedia a revisão r3. A nota do r3 sobre os US$ 10,6 milhões foi atendida: o repassado vigente (US$ 12,3 milhões) fica na A071 e na A087. Razão 134 dividido por 75 = 1,79 conferida e fora do veredito. Sete trechos achados (r2parte2, p08, p08-r2, p09).",
+    "verificacoes": ["3", "5", "6", "7"]
+  },
+  "A095": {
+    "decisao": "mantido",
+    "nota": "Fala da entrevistadora sobre a própria emissora. Melhor argumento contra o VERDADEIRO: as fontes provam que as regras existem, não que a Globo as cumpre, e a separação editorial só tem fonte da própria empresa, que na véspera desligou um diretor por 'relação inadequada' com o anunciante Vorcaro; a mesma régua deu INSUSTENTAVEL ao 'foi tudo legal' de Flávio (A094). Fica de pé: a frase descreve norma vigente (§4.1), e a norma tem fonte N1 (Lei 4.680), N2 (CENP) e N4 independente; o desligamento foi na Editora Globo, não na TV, e a A094 é fato sob inquérito, o que aqui não há. A ressalva de tela diz que o cumprimento não foi avaliado. Ponto para a coerência: A095 contra A094. Cinco trechos achados.",
+    "verificacoes": ["1", "2", "3", "4", "6", "8"]
+  },
+  "A113": {
+    "decisao": "mantido",
+    "nota": "Provisório: a explicação começa pelo marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' e a confiança é baixa, conferidos. Não refeito. Achado ao conferir: os lotes 07 a 12 tinham voltado à rodada 1 às 14:15; esta checagem foi restaurada com a versão da parte 2 (ver correcoes-rodada2.md). Falta: Diário Oficial de 18/01/2023 ou o levantamento original dos '26 das 27'. Quatro trechos achados (p12).",
+    "verificacoes": ["3"]
+  },
+  "A142": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o UNODC só lista quatro portos e nenhuma fonte põe Santos em segundo, o que daria FALSO. Não fecha: lista sem ordem não contradiz posição nenhuma; a análise EUDA e Europol, pedida pelo critério, classifica países e não portos. A essência (Santos entre as grandes saídas) tem apoio N2. Quatro trechos achados (p15, r2parte3-r2).",
+    "verificacoes": ["3", "4", "6"]
+  },
+  "A144": {
+    "decisao": "mantido",
+    "nota": "Contas refeitas: 120.519,4 vezes 1,0462 vezes 1,0483 vezes 1,0426 = 137.808; 132.024,8 dividido por isso = queda real de 4,2%; 2019 a 2022, queda de 11,6%. Banco Mundial: 1,05% do PIB em 2022 e 2025. Melhor argumento contra o IMPRECISO: houve queda real no governo atual, o que pediria VERDADEIRO para 'reduzido'. Não derruba: a queda é pequena, menor que a anterior, e a proporção do PIB voltou ao nível de 2022; o núcleo 'sucateadas' não se sustenta, e o card mostra os dois números. Capacidade não medida, declarado. Versão da série de 30/09/2026, vigente na data da fala. Seis trechos achados.",
+    "verificacoes": ["3", "4", "5", "6", "7"]
+  },
+  "A151": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra: FALSO, porque o governo atual autorizou e prorrogou a Faixa Azul. Não fecha: a autorização venceu em 31/03/2026 e nenhuma das portarias de 2026 abertas trata de São Paulo; a situação na data da fala não tem registro. Quatro trechos achados (p16, p16-r2).",
+    "verificacoes": ["3", "5", "6"]
+  },
+  "A152": {
+    "decisao": "mantido",
+    "nota": "Aval concedido antes da fala: conferido no PRS 35/2026 (13/08) e na garantia de 25/08. Melhor argumento contra o IMPRECISO: 'não dava', no imperfeito, descreve o período de abril a agosto, em que o pedido de fato ficou parado, e daria VERDADEIRO. Não derruba: com 'tentou pegar' e sem dizer que o aval saiu, a frase deixa a impressão de negativa, e o aval foi concedido quase dois meses antes da fala; a causa da demora é disputada e o card diz isso. Quatro trechos achados (r2parte3-r2, r2parte3-r5).",
+    "verificacoes": ["1", "3", "5", "6", "8"]
+  },
+  "A153": {
+    "decisao": "mantido",
+    "nota": "Veredito mantido, trecho completado. Melhor argumento contra: o pedido ao STJ existiu e a garantia saiu horas depois, o que sustentaria 'teve que entrar na justiça'. Não basta: a ação está numa só fonte, sem número do processo nem decisão, e a garantia foi assinada pela própria Fazenda; 'teve que' não se prova. A data '25 de agosto' do resumo não estava em trecho desta checagem; entrou o trecho da mesma página do Diário do Transporte (conferido na captura r2parte3-r2). Coerente com a A152.",
+    "verificacoes": ["3", "4", "6", "7"]
+  },
+  "A161": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' no início da explicação e confiança baixa, conferidos. Não refeito. Derivação 973.330 contra 854.150 (alta de cerca de 14%) refeita; a divergência com o Diário do Comércio está declarada. Seis trechos achados.",
+    "verificacoes": ["3"]
+  },
+  "A162": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o INSUSTENTAVEL: o Paraguai teve recorde de programas de maquila em 2024 e as brasileiras são cerca de 70% do regime, o que daria IMPRECISO. Não derruba: o recorde é de programas de todas as origens, programa não é empresa nova, e o único corte de brasileiras por período (40 de 2023 a maio de 2026 contra 26 em 2021 e 2022) não mostra pico; Aos Fatos mostra que as empresas não deixam o Brasil. Base do país parceiro capturada. Seis trechos achados.",
+    "verificacoes": ["3", "4", "6"]
+  },
+  "A173": {
+    "decisao": "alterado",
+    "nota": "VERDADEIRO passou a INSUSTENTAVEL. As quatro fontes são reportagens (N4) que reproduzem o mesmo relatório da Quaest, não localizado: a regra 2 da §3.1 exige a primária conferida, e a regra 1 pede N1 ou N2 para número ('a maioria'). A A043 de 15/out, citada como régua, tinha o Datafolha como N2; todas as outras checagens de pesquisa com veredito colorido nos dois casos têm o relatório. Mesma régua aplicada ao candidato (A047, A113). Nada contradiz a frase; com o relatório capturado volta a VERDADEIRO. Ver correcoes-rodada2.md.",
+    "verificacoes": ["3", "4", "6", "8"]
+  },
+  "A174": {
+    "decisao": "alterado",
+    "nota": "VERDADEIRO passou a INSUSTENTAVEL, pelo motivo da A173 e porque a alegação é 'comparacao': o validador reprova veredito colorido desse tipo sem N1 ou N2 (regra 1 da §3.1), e a validação do caso tinha esse erro. Derivação de 4 pontos (62 menos 58) conferida. Ver correcoes-rodada2.md.",
+    "verificacoes": ["3", "4", "6"]
+  },
+  "A191": {
+    "decisao": "mantido",
+    "nota": "Pergunta da entrevistadora. Melhor argumento contra: 'na fase anterior da campanha' poderia ser o 1º turno, e os vídeos achados são da pré-campanha ao Senado. Não derruba: a pré-campanha é fase anterior, e a ressalva diz que os vídeos são da pré-candidatura de que Canella desistiu. Duas fontes independentes (Poder360 com data, Estadão Conteúdo), afirmação sem número. Três trechos achados.",
+    "verificacoes": ["1", "3", "4", "8"]
+  },
+  "A194": {
+    "decisao": "mantido",
+    "nota": "Pergunta da entrevistadora. Melhor argumento contra: a prisão e a caracterização da PF estão documentadas, o que daria VERDADEIRO ou, pelo fundamento diferente da ordem (vazamento e obstrução), IMPRECISO. Não fecha: é investigação e denúncia sem julgamento, com a defesa negando, e pela §5 de etica-e-risco fato em apuração não recebe VERDADEIRO nem IMPRECISO. Mesma régua usada para o candidato (A082, Flávio investigado no STF) e para Castro (A196). A prisão na data da fala vem de cobertura de 16 e 17/out, declarado. Cinco trechos achados.",
+    "verificacoes": ["3", "5", "6"]
+  },
+  "A199": {
+    "decisao": "mantido",
+    "nota": "Pergunta da entrevistadora. Melhor argumento contra: a Folha diz que Lottenberg 'pode ser' o ministro, o que enfraqueceria 'anunciou'. Não derruba: o BP Money traz a fala do anúncio ('vai ser o meu ministro da Saúde') e diz que foi o primeiro nome; a Folha, independente, confirma que em 13/10 os outros ainda estavam em estudo. Sem número. Três trechos achados.",
+    "verificacoes": ["1", "3", "4", "5"]
+  },
+  "A200": {
+    "decisao": "mantido",
+    "nota": "Pergunta da entrevistadora. Melhor argumento contra: nos trechos ele nem sempre nomeia o governo federal, e 'demora para comprar' poderia ser leitura forçada. Não derruba: 'a tal da diplomacia da vacina aconteceu tarde' e a falta de compromisso 'na busca das vacinas' tratam da obtenção de doses, que era do governo federal, e a CartaCapital registra a crítica dele ao governo federal na pandemia; a ressalva de tela avisa. Fontes de 2021, em três veículos. Quatro trechos achados.",
+    "verificacoes": ["1", "3", "4", "8"]
+  },
+  "A201": {
+    "decisao": "mantido",
+    "nota": "Citação entre aspas da entrevistadora. Melhor argumento contra o INSUSTENTAVEL: o teor da citação está documentado (A200), o que daria VERDADEIRO com ressalva. Não derruba: a alegação é a citação literal, e veículo, data e redação não foram achados; a Gazeta do Povo, sem fonte, foi corretamente descartada. Mesma régua aplicada a frases atribuídas sem registro dos dois lados. Três trechos achados.",
+    "verificacoes": ["1", "3", "6"]
+  }
+}
