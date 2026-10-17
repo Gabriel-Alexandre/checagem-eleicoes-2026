@@ -1,0 +1,481 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A131",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em entrevista exibida em 10 de outubro, Eduardo disse que as nomeações de ministros vão passar por Jair Bolsonaro",
+      "explicacao": "A pergunta da entrevistadora atribui a Eduardo Bolsonaro, numa entrevista de dias antes, a ideia de que quem decide sobre a ida dele para o Itamaraty é o pai. O Diário do Grande ABC e o Times Brasil, ambos a partir de texto do Estadão Conteúdo, reproduzem a fala de Eduardo ao SBT News, exibida no sábado, 10 de outubro, seis dias antes da sabatina: 'As nomeações de ministros vão passar pelo presidente Jair Bolsonaro'. O Correio da Manhã, com apuração própria baseada na CNN Brasil, confirma que o cargo de chanceler para Eduardo estava em discussão naquela semana. Pela regra 2 da §3.1, as matérias que reproduzem a entrevista contam como apoio, e declaramos isso: a primária (a entrevista em vídeo do SBT News) não foi capturada, e as duas matérias que trazem a fala vêm do mesmo serviço de agência, por isso a confiança é média. A paráfrase 'quem vai decidir é o pai' corresponde ao essencial da fala (as nomeações passam pela aprovação de Jair). VERDADEIRO e não IMPRECISO porque o sentido e a época batem; a ressalva registra que, sobre a própria indicação, Eduardo disse depender da vontade de Flávio.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "entrevista ao SBT News exibida em 10/out/2026",
+      "ressalva": "Sobre a própria ida ao Itamaraty, Eduardo disse que depende da vontade de Flávio",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Eduardo Bolsonaro diz que nomeações de ministros vão passar por Jair Bolsonaro (11/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4352153/eduardo-bolsonaro-diz-que-nomeacoes-de-ministros-vao-passar-pelo-presidente-jair-bolsonaro",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"As nomeações de ministros vão passar pelo presidente Jair Bolsonaro. Neste momento há uma dificuldade muito grande de ter contato com ele. No momento estamos preocupados com a eleição do Flávio\", afirmou em entrevista ao SBT News, exibida no sábado (10).",
+          "prova": "Traz a fala literal de Eduardo, a data de exibição da entrevista (sábado, 10 de outubro) e o veículo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil / CNBC (com Estadão Conteúdo)",
+          "titulo": "Eduardo diz que Jair Bolsonaro dará aval sobre ministros de eventual governo Flávio (11/10/2026)",
+          "url": "https://timesbrasil.com.br/eleicoes-2026/eduardo-bolsonaro-aprovara-ministros-de-eventual-governo-flavio/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Isso é assunto pra depois da eleição, mas se for da vontade de Flávio me ter em um Ministério, estou à disposição”, afirmou Eduardo durante a entrevista.",
+          "prova": "Mostra que, sobre a própria indicação, Eduardo condicionou a ida ao ministério à vontade de Flávio, o que entra na ressalva."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Eduardo Bolsonaro quer ser chanceler em eventual governo de Flávio (08/10/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/325849-eduardo-bolsonaro-quer-ser-chanceler-em-eventual-governo-de-flavio.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em caso de vitória de Flávio Bolsonaro (PL) nas eleições presidenciais deste ano, Eduardo Bolsonaro espera assumir o comando do Ministério das Relações Exteriores ou a embaixada do Brasil nos Estados Unidos .",
+          "prova": "Confirma, por apuração separada (baseada na CNN Brasil), que o cargo de chanceler para Eduardo estava em discussão na semana da sabatina."
+        }
+      ]
+    },
+    {
+      "id": "A132",
+      "veredito": "VERDADEIRO",
+      "resumo": "Eduardo mora nos EUA desde 2025 e atua de lá contra decisões do STF, atuação que o Supremo julgou como coação",
+      "explicacao": "A parte checável da frase é que Eduardo Bolsonaro está fora do Brasil e faz campanha no exterior contra decisões da Justiça brasileira. O Poder360 registra que ele está nos Estados Unidos desde o fim de fevereiro de 2025 e anunciou em março a licença do mandato para ficar no país e atuar contra o que chamava de perseguição; o Times Brasil e o Diário do Grande ABC confirmam, em outubro de 2026, que ele mora nos EUA. O Jornal Opção registra que, no início de outubro, ele defendeu em entrevista a prisão de Moraes e a retomada das sanções da Lei Magnitsky. A qualificação 'arbitrariedades' é juízo de valor do candidato e não é checada; o STF, ao contrário, julgou essa atuação como coação no curso do processo (ver A136). VERDADEIRO no fato (onde ele vive e o que faz no exterior), com confiança média porque a frase mistura fato e juízo.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "residência nos EUA desde 2025; situação em out/2026",
+      "ressalva": "Chamar de arbitrariedades é juízo do candidato; o STF condenou essa atuação como coação no curso do processo",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Poder360 dá a chegada aos EUA no fim de fevereiro de 2025 e o Congresso em Foco fala em abril de 2025; a diferença não muda o veredito.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "STF condena Eduardo Bolsonaro a 4 anos e 2 meses em regime semiaberto (16/06/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/stf-condena-eduardo-a-4-anos-e-2-meses/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Eduardo Bolsonaro está nos Estados Unidos desde o fim de fevereiro de 2025. Ele anunciou em março daquele ano que se licenciaria do mandato de deputado federal para permanecer no país e atuar contra o que chamava de perseguição política à família Bolsonaro.",
+          "prova": "Data a saída do país e o motivo declarado por ele para ficar nos EUA."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil / CNBC",
+          "titulo": "Moraes determina prisão de Eduardo Bolsonaro e manda cancelar passaportes (out/2026)",
+          "url": "https://timesbrasil.com.br/brasil/moraes-determina-prisao-de-eduardo-bolsonaro-e-manda-cancelar-passaportes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além da ordem de prisão, Moraes determinou que todos os passaportes brasileiros de Eduardo sejam cancelados e deixem de ter validade. O ex-deputado mora nos Estados Unidos desde 2025.",
+          "prova": "Registra o cancelamento dos passaportes brasileiros por ordem de Moraes e que Eduardo mora nos Estados Unidos desde 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Moraes manda prender Eduardo Bolsonaro e cancelar passaportes do ex-deputado (08/10/2026)",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/moraes-manda-prender-eduardo-bolsonaro-e-cancelar-passaportes-do-ex-deputado-877159/",
+          "consultada_em": "2026-10-17",
+          "trecho": "No início de outubro, em entrevista ao UOL , Eduardo também defendeu a prisão de Alexandre de Moraes e a retomada de sanções previstas na Lei Magnitsky.",
+          "prova": "Mostra a atuação pública de Eduardo, do exterior, contra o ministro do STF às vésperas da fala."
+        }
+      ]
+    },
+    {
+      "id": "A133",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Moraes mandou prender Eduardo e cancelar seus passaportes, mas nenhuma fonte lista países que o impeçam de entrar",
+      "explicacao": "O que está documentado: depois do trânsito em julgado da condenação, em 3 de outubro de 2026, Moraes mandou expedir mandado de prisão, incluir Eduardo no Banco Nacional de Monitoramento de Prisões e cancelar todos os passaportes brasileiros em nome dele (Times Brasil, Congresso em Foco, Diário do Grande ABC, que diz que a medida 'invalida os documentos'). Isso restringe as viagens dele com documento brasileiro. Mas a frase afirma que ele 'não pode pisar em um monte de países', e nenhuma das fontes consultadas registra difusão vermelha da Interpol, acordo de extradição acionado ou país que tenha barrado sua entrada; o próprio Eduardo disse que os EUA, onde mora, não cumprem a ordem. Não é FALSO porque não há prova de que ele possa entrar livremente em outros países; não é VERDADEIRO porque o alcance afirmado ('um monte de países') não está em fonte nenhuma. A condenação é definitiva, então não se trata de apuração em curso. 'Persegue a todo momento' é juízo de valor e não é checado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "decisão de Moraes de 7 e 8/out/2026",
+      "ressalva": "A condenação de Eduardo é definitiva desde 3 de outubro, e a ordem de prisão vem dela",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil / CNBC",
+          "titulo": "Moraes determina prisão de Eduardo Bolsonaro e manda cancelar passaportes (out/2026)",
+          "url": "https://timesbrasil.com.br/brasil/moraes-determina-prisao-de-eduardo-bolsonaro-e-manda-cancelar-passaportes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além da ordem de prisão, Moraes determinou que todos os passaportes brasileiros de Eduardo sejam cancelados e deixem de ter validade. O ex-deputado mora nos Estados Unidos desde 2025.",
+          "prova": "Registra o cancelamento dos passaportes brasileiros por ordem de Moraes e que Eduardo mora nos Estados Unidos desde 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Moraes manda prender Eduardo e cancelar passaportes do ex-deputado (08/10/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/123111/moraes-manda-prender-eduardo-e-cancelar-passaportes-do-ex-deputado",
+          "consultada_em": "2026-10-17",
+          "trecho": "O processo foi considerado definitivamente encerrado em 3 de outubro, data do trânsito em julgado certificada pela Secretaria Judiciária do Supremo. Com isso, não cabem mais recursos contra a condenação nessa ação penal, permitindo o início da execução da pena.",
+          "prova": "Mostra que a condenação de Eduardo é definitiva desde 3 de outubro de 2026, antes da fala; não é processo em apuração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Eduardo Bolsonaro é incluído no banco nacional de mandados de prisão por ordem de Moraes (09/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4351856/eduardo-bolsonaro-e-incluido-no-banco-nacional-de-mandados-de-prisao-por-ordem-de-moraes",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além da expedição do mandado, Moraes determinou o cancelamento de todos os passaportes brasileiros emitidos em nome do ex-parlamentar, medida que invalida os documentos. Eduardo Bolsonaro reside nos Estados Unidos desde 2025.",
+          "prova": "Confirma de forma independente o mandado de prisão, o cancelamento dos passaportes e a residência nos EUA."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Moraes manda prender Eduardo Bolsonaro e cancelar passaportes do ex-deputado (08/10/2026)",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/moraes-manda-prender-eduardo-bolsonaro-e-cancelar-passaportes-do-ex-deputado-877159/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Mesmo após o claro recado de basta dado pelas urnas, Alexandre de Moraes mais uma vez tumultua o país com uma decisão arbitrária, inoportuna e inócua, uma vez que os Estados Unidos já deixaram claro que não cumprem decisões delirantes dessa natureza”, afirmou.",
+          "prova": "Fala do próprio Eduardo: ele diz que os EUA, onde mora, não cumprem a ordem, o que não indica quais países o impediriam de entrar."
+        }
+      ]
+    },
+    {
+      "id": "A134",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Tesouro dos EUA sancionou Moraes com base na Lei Global Magnitsky em 30 de julho de 2025",
+      "explicacao": "O registro oficial do OFAC, o escritório de controle de ativos estrangeiros do Tesouro dos EUA, mostra a inclusão de Alexandre de Moraes na lista de sancionados do programa Global Magnitsky (GLOMAG) com data de 30/07/2025. Bloomberg Línea e InfoMoney reproduzem o registro (regra 2 da §3.1: imprensa que reproduz a primária conta como apoio). A frase descreve a sanção como punição do governo americano com base na lei americana, o que confere. VERDADEIRO. A ressalva é necessária porque o próprio OFAC registra a retirada de Moraes da lista em 12/12/2025: na data da fala, a sanção já não estava em vigor, embora a frase não afirme que ela continue.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "inclusão em 30/07/2025; retirada em 12/12/2025",
+      "ressalva": "A sanção foi retirada em 12 de dezembro de 2025 e não estava em vigor na data da fala",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Departamento do Tesouro dos EUA (OFAC)",
+          "titulo": "Global Magnitsky Designation (Recent Actions, 30/07/2025)",
+          "url": "https://ofac.treasury.gov/recent-actions/20250730",
+          "consultada_em": "2026-10-17",
+          "trecho": "Global Magnitsky Designation Release Date 07/30/2025 Press Release Link Treasury Sanctions Alexandre de Moraes Recent Actions Body Specially Designated Nationals List Update The following individual has been added to OFAC's SDN List: DE MORAES, Alexandre, Brazil;",
+          "prova": "Registro oficial da inclusão de Moraes na lista de sancionados do programa Global Magnitsky em 30 de julho de 2025."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Departamento do Tesouro dos EUA (OFAC)",
+          "titulo": "Global Magnitsky Designations Removals (Recent Actions, 12/12/2025)",
+          "url": "https://ofac.treasury.gov/recent-actions/20251212",
+          "consultada_em": "2026-10-17",
+          "trecho": "Global Magnitsky Designations Removals Release Date 12/12/2025 Recent Actions Body Specially Designated Nationals List Update The following deletions have been made to OFAC's SDN List: DE MORAES, Alexandre, Brazil;",
+          "prova": "Registro oficial da retirada de Moraes da lista em 12 de dezembro de 2025, antes da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bloomberg Línea",
+          "titulo": "EUA retiram Alexandre de Moraes e sua mulher, Viviane, de lista de sanções da Magnitsky (12/12/2025)",
+          "url": "https://www.bloomberglinea.com.br/brasil/eua-retiram-alexandre-de-moraes-e-sua-mulher-viviane-de-lista-de-sancoes-da-magnitsky/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Moraes era alvo de sanções com base na Lei Magnitsky desde o dia 30 de julho, e sua mulher, Viviane, desde 22 de setembro.",
+          "prova": "Apoio de imprensa que reproduz o registro do Tesouro: a sanção vigorou de 30 de julho até a retirada em dezembro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "EUA retiram Alexandre de Moraes da lista de sancionados pela Lei Magnitsky (12/12/2025)",
+          "url": "https://www.infomoney.com.br/politica/eua-retiram-alexandre-de-moraes-da-lista-de-sancionados-pela-lei-magnitsky/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes deixou, nesta sexta-feira (12), a lista de sancionados pela Lei Global Magnitsky mantida pelo governo dos Estados Unidos.",
+          "prova": "Apoio de imprensa que reproduz o registro do Tesouro sobre a retirada da sanção."
+        }
+      ]
+    },
+    {
+      "id": "A135",
+      "veredito": "VERDADEIRO",
+      "resumo": "No voto que condenou Eduardo, Moraes atribuiu a ele a articulação com autoridades dos EUA por sanções contra o STF",
+      "explicacao": "A parte checável é que Moraes atribuiu a Eduardo responsabilidade pelas sanções americanas. A Itatiaia (texto da CNN Brasil) registra que o relator Moraes afirmou, no julgamento de 16/06/2026, que as articulações de Eduardo com autoridades dos EUA, inclusive Trump, e a defesa de sanções contra integrantes do STF configuraram grave ameaça; o Correio da Manhã diz que a decisão confirmou que ele atuou pela aplicação de sanções dos EUA a autoridades brasileiras; o Jornal Opção registra que a denúncia acolhida incluía as sanções da Lei Magnitsky contra Moraes. O STF, na notícia oficial, confirma a condenação com Moraes como relator. A ironia 'como se ele tivesse condições de manipular o presidente dos Estados Unidos' é juízo do candidato e não é checada. VERDADEIRO; confiança média porque o inteiro teor do acórdão não foi consultado e o voto é conhecido pelas reportagens.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "julgamento da AP 2782 em 16/jun/2026",
+      "ressalva": "A condenação foi da Primeira Turma, por unanimidade, com o voto de Moraes como relator",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia (CNN Brasil)",
+          "titulo": "Eduardo Bolsonaro diz que qualquer condenação contra ele no STF é 'nula' (16/06/2026)",
+          "url": "https://www.itatiaia.com.br/politica/eduardo-bolsonaro-condenado-stf-coacao-4-anos-prisao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Relator da ação, o ministro Alexandre de Moraes afirmou que as articulações de Eduardo com autoridades nos EUA, incluindo o próprio presidente Donald Trump, e a defesa de sanções contra integrantes do STF e contra o Brasil extrapolaram os limites da atuação política e configuraram grave ameaça às instituições judiciárias e ao governo brasileiro.",
+          "prova": "Mostra que, no voto, Moraes atribuiu a Eduardo a articulação com Trump e a defesa de sanções contra ministros do STF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Moraes manda prender Eduardo Bolsonaro para cumprimento de pena de 4 anos (08/10/2026)",
+          "url": "https://correiodamanha.com.br/politica/2026/10/325660-moraes-manda-prender-eduardo-bolsonaro-para-cumprimento-de-pena-de-4-anos.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A decisão confirmou que o ex-deputado atuou pela aplicação de sanções, pelos EUA, a autoridades brasileiras na tentativa de intimidar a atuação do STF no julgamento da trama golpista. A Primeira Turma rejeitou por unanimidade os embargos de declaração apresentados pela defesa em setembro. O voto de Moraes foi acompanhado pelos ministros Flávio Dino, Cármen Lúcia e Cristiano Zanin.",
+          "prova": "Confirma por apuração separada que a condenação liga Eduardo às sanções dos EUA contra autoridades brasileiras e que o voto condutor foi o de Moraes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Moraes manda prender Eduardo Bolsonaro e cancelar passaportes do ex-deputado (08/10/2026)",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/moraes-manda-prender-eduardo-bolsonaro-e-cancelar-passaportes-do-ex-deputado-877159/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a denúncia apresentada pela Procuradoria-Geral da República (PGR), o ex-deputado articulou medidas do governo norte-americano contra o Brasil, incluindo tarifas de 50% sobre produtos brasileiros, restrições de vistos a ministros do STF e sanções com base na Lei Magnitsky contra Alexandre de Moraes.",
+          "prova": "Mostra que a acusação acolhida na condenação inclui a sanção Magnitsky contra Moraes entre as medidas articuladas por Eduardo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (Notícias STF)",
+          "titulo": "STF condena Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe (16/06/2026)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Por unanimidade, a Primeira Turma do Supremo Tribunal Federal (STF) condenou, nesta terça-feira (16), o ex-deputado federal Eduardo Bolsonaro (PL-SP) pelo crime de coação no curso do processo. De acordo com o colegiado, ficou comprovado que ele atuou para interferir no julgamento da ação penal em que seu pai, o ex-presidente Jair Bolsonaro, foi condenado por tentativa de golpe de Estado. O ministro Cristiano Zanin, a ministra Cármen Lúcia e o presidente da Turma, ministro Flávio Dino, seguiram o voto do relator da Ação Penal (AP) 2782 , ministro Alexandre de Moraes.",
+          "prova": "Registro oficial: condenação por coação no curso do processo, por interferir no julgamento de Jair Bolsonaro, com Moraes como relator da AP 2782."
+        }
+      ]
+    },
+    {
+      "id": "A136",
+      "veredito": "VERDADEIRO",
+      "resumo": "O STF condenou Eduardo por coação no curso do processo do pai; a decisão é definitiva desde 3 de outubro",
+      "explicacao": "A notícia oficial do STF registra que a Primeira Turma, por unanimidade, condenou Eduardo Bolsonaro em 16/06/2026 pelo crime de coação no curso do processo, por ter atuado para interferir no julgamento da ação penal em que Jair Bolsonaro foi condenado. O Poder360 traz a pena (4 anos e 2 meses, regime semiaberto) e o Congresso em Foco registra o trânsito em julgado em 3 de outubro de 2026. Coação no curso do processo é exatamente o crime de usar grave ameaça para influenciar quem atua num processo, o que corresponde a 'atrapalhar, ser uma ameaça ao andamento do processo'. Como a condenação é definitiva, o fato não está em apuração. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "condenação em 16/jun/2026; trânsito em julgado em 3/out/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (Notícias STF)",
+          "titulo": "STF condena Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe (16/06/2026)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Por unanimidade, a Primeira Turma do Supremo Tribunal Federal (STF) condenou, nesta terça-feira (16), o ex-deputado federal Eduardo Bolsonaro (PL-SP) pelo crime de coação no curso do processo. De acordo com o colegiado, ficou comprovado que ele atuou para interferir no julgamento da ação penal em que seu pai, o ex-presidente Jair Bolsonaro, foi condenado por tentativa de golpe de Estado. O ministro Cristiano Zanin, a ministra Cármen Lúcia e o presidente da Turma, ministro Flávio Dino, seguiram o voto do relator da Ação Penal (AP) 2782 , ministro Alexandre de Moraes.",
+          "prova": "Registro oficial: condenação por coação no curso do processo, por interferir no julgamento de Jair Bolsonaro, com Moraes como relator da AP 2782."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "STF condena Eduardo Bolsonaro a 4 anos e 2 meses em regime semiaberto (16/06/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/stf-condena-eduardo-a-4-anos-e-2-meses/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A 1ª Turma do STF ( Supremo Tribunal Federal ) condenou, nesta 3ª feira (16.jun.2026), Eduardo Bolsonaro a 4 anos e 2 meses de reclusão, em regime inicial semiaberto, pelo crime de coação no curso do processo de julgamento do ex-presidente Jair Bolsonaro . A pena também inclui pagamento de 50 dias-multa, cada um no valor de 2 salários mínimos, o equivalente a R$ 162,1 mil. Os ministros acompanharam o voto do relator, Alexandre de Moraes.",
+          "prova": "Registra a condenação, o crime, a pena, a data e que Moraes foi o relator seguido pelos demais."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Moraes manda prender Eduardo e cancelar passaportes do ex-deputado (08/10/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/123111/moraes-manda-prender-eduardo-e-cancelar-passaportes-do-ex-deputado",
+          "consultada_em": "2026-10-17",
+          "trecho": "O processo foi considerado definitivamente encerrado em 3 de outubro, data do trânsito em julgado certificada pela Secretaria Judiciária do Supremo. Com isso, não cabem mais recursos contra a condenação nessa ação penal, permitindo o início da execução da pena.",
+          "prova": "Mostra que a condenação de Eduardo é definitiva desde 3 de outubro de 2026, antes da fala; não é processo em apuração."
+        }
+      ]
+    },
+    {
+      "id": "A137",
+      "veredito": "VERDADEIRO",
+      "resumo": "Moraes, alvo da sanção Magnitsky, foi o relator da ação contra Eduardo e votou pela condenação",
+      "explicacao": "A notícia oficial do STF registra que Moraes foi o relator da Ação Penal 2782, contra Eduardo Bolsonaro, e que os ministros Zanin, Cármen Lúcia e Dino seguiram o voto dele; o Poder360 confirma. O OFAC registra que Moraes foi incluído na lista da Global Magnitsky em 30/07/2025. Logo, o mesmo ministro sancionado relatou e julgou o processo, como diz a frase. Não encontramos, nas fontes capturadas, decisão sobre pedido formal de impedimento ou suspeição; o que está registrado é a objeção pública do próprio Eduardo de que Moraes seria 'vítima e juiz do mesmo caso'. A ressalva registra que a sanção já tinha sido retirada (12/12/2025) antes do julgamento de junho de 2026. 'Se está se sentindo lesado' é juízo sobre o estado do ministro e não é checado. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "sanção de 30/07/2025 a 12/12/2025; julgamento em 16/jun/2026",
+      "ressalva": "A sanção a Moraes foi retirada em 12 de dezembro de 2025, antes do julgamento de junho de 2026",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (Notícias STF)",
+          "titulo": "STF condena Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe (16/06/2026)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Por unanimidade, a Primeira Turma do Supremo Tribunal Federal (STF) condenou, nesta terça-feira (16), o ex-deputado federal Eduardo Bolsonaro (PL-SP) pelo crime de coação no curso do processo. De acordo com o colegiado, ficou comprovado que ele atuou para interferir no julgamento da ação penal em que seu pai, o ex-presidente Jair Bolsonaro, foi condenado por tentativa de golpe de Estado. O ministro Cristiano Zanin, a ministra Cármen Lúcia e o presidente da Turma, ministro Flávio Dino, seguiram o voto do relator da Ação Penal (AP) 2782 , ministro Alexandre de Moraes.",
+          "prova": "Registro oficial: condenação por coação no curso do processo, por interferir no julgamento de Jair Bolsonaro, com Moraes como relator da AP 2782."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "STF condena Eduardo Bolsonaro a 4 anos e 2 meses em regime semiaberto (16/06/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/stf-condena-eduardo-a-4-anos-e-2-meses/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A 1ª Turma do STF ( Supremo Tribunal Federal ) condenou, nesta 3ª feira (16.jun.2026), Eduardo Bolsonaro a 4 anos e 2 meses de reclusão, em regime inicial semiaberto, pelo crime de coação no curso do processo de julgamento do ex-presidente Jair Bolsonaro . A pena também inclui pagamento de 50 dias-multa, cada um no valor de 2 salários mínimos, o equivalente a R$ 162,1 mil. Os ministros acompanharam o voto do relator, Alexandre de Moraes.",
+          "prova": "Registra a condenação, o crime, a pena, a data e que Moraes foi o relator seguido pelos demais."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Departamento do Tesouro dos EUA (OFAC)",
+          "titulo": "Global Magnitsky Designation (Recent Actions, 30/07/2025)",
+          "url": "https://ofac.treasury.gov/recent-actions/20250730",
+          "consultada_em": "2026-10-17",
+          "trecho": "Global Magnitsky Designation Release Date 07/30/2025 Press Release Link Treasury Sanctions Alexandre de Moraes Recent Actions Body Specially Designated Nationals List Update The following individual has been added to OFAC's SDN List: DE MORAES, Alexandre, Brazil;",
+          "prova": "Registro oficial da inclusão de Moraes na lista de sancionados do programa Global Magnitsky em 30 de julho de 2025."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Departamento do Tesouro dos EUA (OFAC)",
+          "titulo": "Global Magnitsky Designations Removals (Recent Actions, 12/12/2025)",
+          "url": "https://ofac.treasury.gov/recent-actions/20251212",
+          "consultada_em": "2026-10-17",
+          "trecho": "Global Magnitsky Designations Removals Release Date 12/12/2025 Recent Actions Body Specially Designated Nationals List Update The following deletions have been made to OFAC's SDN List: DE MORAES, Alexandre, Brazil;",
+          "prova": "Registro oficial da retirada de Moraes da lista em 12 de dezembro de 2025, antes da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia (CNN Brasil)",
+          "titulo": "Eduardo Bolsonaro diz que qualquer condenação contra ele no STF é 'nula' (16/06/2026)",
+          "url": "https://www.itatiaia.com.br/politica/eduardo-bolsonaro-condenado-stf-coacao-4-anos-prisao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Eduardo acrescentou que \"Moraes pode não gostar, mas não pode escolher quando segui-los. Mais uma vez, é vítima e juiz do mesmo caso, e é por isso que o Brasil passa vergonha internacional de forma recorrente\".",
+          "prova": "Registra a mesma objeção feita por Eduardo na época: Moraes seria vítima e juiz no mesmo caso."
+        }
+      ]
+    },
+    {
+      "id": "A138",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Os contatos de Eduardo com conservadores estrangeiros registrados nas fontes começam em 2017 e 2018",
+      "explicacao": "A frase diz que Eduardo construiu 'ao longo de mais de 10 anos' relações com líderes conservadores de outros países, o que exigiria contatos anteriores a outubro de 2016. As fontes encontradas datam o início dessa rede em 2017 e 2018: o Agora RN diz que a construção da rede com aliados de Trump começou com a viagem de 2018; o levantamento da Agência Pública lista como contato mais antigo o encontro com Donald Trump Jr. em janeiro de 2018 e apresentações a conservadores americanos negociadas em 2017; o IHU (reproduzindo o El País) registra os encontros com Ted Cruz, Marco Rubio e Steve Bannon em novembro de 2018. Nenhuma fonte mostra contato anterior a 2016. Não é IMPRECISO nem FALSO porque as fontes tratam sobretudo da rede americana e não excluem contatos mais antigos com conservadores de outros países; é INSUSTENTAVEL porque o prazo afirmado não está sustentado por fonte nenhuma. Foram feitas duas buscas para este ponto; uma busca em registros de missões oficiais da Câmara de 2015 e 2016 poderia mudar o veredito.",
+      "numero_dito": "mais de 10 anos",
+      "numero_apurado": "registros a partir de 2017 e 2018",
+      "data_de_referencia": "contatos documentados de 2017 e 2018 em diante",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Agora RN situa o início da rede em 2018; a Agência Pública menciona apresentações negociadas já em 2017. Nenhuma das duas chega a 2016.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Agora RN",
+          "titulo": "Rede de Eduardo abriu portas nos EUA",
+          "url": "https://agorarn.com.br/mundo/rede-de-eduardo-abriu-portas-nos-eua/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A construção dessa rede começou ainda antes da posse de Bolsonaro. A viagem de 2018 foi organizada pelo cientista político Márcio Coimbra, profissional com passagem por campanhas do Partido Republicano e pelo Leadership Institute, organização dedicada à formação de candidatos conservadores nos Estados Unidos.",
+          "prova": "Data em 2018 o início da rede de Eduardo com conservadores americanos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Pública",
+          "titulo": "Levantamento dos encontros de Eduardo Bolsonaro com a direita dos EUA (2022)",
+          "url": "https://apublica.org/?p=110777",
+          "consultada_em": "2026-10-17",
+          "trecho": "Donald Trump Jr , filho de Donald Trump, viria a Brasília no CPAC em setembro de 2021, mas cancelou sua vinda por causa do mau tempo. Diz que Eduardo Bolsonaro é seu amigo. Os dois se conheceram em janeiro de 2018 na feira de armas Shot Show. [...] Brant negociou apresentações com líderes empresariais dos EUA, think tanks como o Council on Foreign Relations e figuras políticas conservadoras, incluindo Bannon, ainda antes da eleição de Bolsonaro, em 2017.",
+          "prova": "O contato pessoal mais antigo de Eduardo no levantamento da Pública é de janeiro de 2018, e as apresentações a conservadores dos EUA mais antigas citadas são de 2017."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Instituto Humanitas Unisinos (reproduz El País)",
+          "titulo": "Viagem de Eduardo Bolsonaro aos EUA após a eleição de 2018 (30/11/2018)",
+          "url": "https://ihu.unisinos.br/585103",
+          "consultada_em": "2026-10-17",
+          "trecho": "Eduardo Bolsonaro visitou o Senado norte-americano na terça-feira e se reuniu com pesos-pesados do Partido Republicano , como Ted Cruz e Marco Rubio . Mais tarde, foi convidado para a festa de aniversário do ex-estrategista de Trump , Steve Bannon",
+          "prova": "Registra na época os contatos de Eduardo com líderes republicanos em novembro de 2018."
+        }
+      ]
+    },
+    {
+      "id": "A139",
+      "veredito": "VERDADEIRO",
+      "resumo": "Houve medidas de despolitização desde 2023, e as licenças de militares para disputar eleição caíram de 61 para 17",
+      "explicacao": "A pergunta afirma que, nos últimos quatro anos, as Forças Armadas passaram por um processo de afastamento da política em resposta ao desgaste com o envolvimento de militares na trama golpista. As fontes registram esse processo: os comandos deram prazo para militares da ativa se desfiliarem de partidos (Bahia Notícias, com Folha; CartaCapital); o governo e os comandantes formularam a PEC que manda o militar candidato para a reserva, apresentada em 2023 como PEC 42/2023; e as licenças de militares da ativa para disputar eleições caíram de 61 em 2022 para 17 em 2026 (Revista Sociedade Militar, com dados do Estadão). A CartaCapital liga o esforço à suspeita de omissão e participação de militares no 8 de Janeiro. VERDADEIRO, com a ressalva de que a principal mudança legal, a PEC, não foi votada pelo Senado. Confiança média: as fontes são de imprensa (N4) e 'processo de afastamento' é uma caracterização, sustentada pelos indicadores citados.",
+      "numero_dito": "quatro anos",
+      "numero_apurado": "medidas desde 2023; licenças eleitorais de 61 (2022) para 17 (2026)",
+      "data_de_referencia": "2023 a 2026",
+      "ressalva": "A PEC que mandaria o militar candidato para a reserva, apresentada em 2023, não foi votada pelo Senado",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Sociedade Militar (com dados do Estadão)",
+          "titulo": "De 61 para apenas 17: militares se afastam da política, mas PEC segue travada (ago/2026)",
+          "url": "https://www.sociedademilitar.com.br/2026/08/de-61-para-apenas-17-militares-se-afastam-da-politica-mas-pec-criada-para-separar-quarteis-das-eleicoes-segue-travada-desde-2024-afch.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O número de integrantes de Exército, Marinha e Aeronáutica que solicitaram licença para disputar as eleições caiu de 61 em 2022 para apenas 17 neste ano , redução de aproximadamente 72%. Enquanto esse movimento ocorre dentro das próprias Forças, a PEC 42/2023 , que alteraria as regras para militares da ativa interessados em cargos eletivos, continua sem votação definitiva pelo Senado.",
+          "prova": "Mede o afastamento (licenças para disputar eleição caíram de 61 para 17) e registra que a PEC de 2023 não foi votada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias (Folha de S.Paulo)",
+          "titulo": "Governo finaliza proposta para proibir militar em cargo político e diz mirar neutralidade das Forças (2023)",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/241247-governo-finaliza-proposta-para-proibir-militar-em-cargo-politico-e-diz-mirar-neutralidade-das-forcas",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nesse mesmo caminho, os comandantes das Forças fizeram um pente-fino para identificar militares da ativa que estavam filiados a partidos políticos --infração prevista na Constituição.",
+          "prova": "Registra medida adotada pelos próprios comandos para afastar militares da ativa da filiação partidária."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "'Atividade político-partidária anda longe dos quartéis', diz Múcio na Câmara",
+          "url": "https://www.cartacapital.com.br/?p=345519",
+          "consultada_em": "2026-10-17",
+          "trecho": "As declarações ocorrem na esteira da tentativa do governo federal de afastar militares do Planalto. A intenção já era anunciada em campanha, mas foi acelerada após a suspeita de omissão e até participação de integrantes das Forças Armadas nos atos golpistas de 8 de Janeiro .",
+          "prova": "Liga o esforço de afastamento ao desgaste causado pela suspeita de envolvimento militar no 8 de Janeiro, como diz a pergunta."
+        }
+      ]
+    },
+    {
+      "id": "A140",
+      "veredito": "VERDADEIRO",
+      "resumo": "O STF condenou generais, um almirante e outros oficiais pela trama golpista, em decisões já definitivas",
+      "explicacao": "A notícia oficial do STF sobre a AP 2668 lista entre os oito réus do núcleo central o almirante Almir Garnier, os generais Augusto Heleno, Paulo Sérgio Nogueira e Walter Braga Netto e o tenente-coronel Mauro Cid, todos condenados. A notícia de conclusão dos julgamentos registra que militares com pena superior a dois anos terão o caso enviado ao Superior Tribunal Militar, e lista outros oficiais condenados nas demais ações. O STF declarou o trânsito em julgado das condenações do núcleo central em novembro de 2025, então não há apuração em curso sobre esses réus. O mesmo julgamento foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A062, VERDADEIRO) e no caso 2026-08-28-sabatina-flavio-globo (A001 e A003, VERDADEIRO), com as mesmas fontes do STF. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "julgamento de set/2025; trânsito em julgado do núcleo central em nov/2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (Notícias STF)",
+          "titulo": "STF condena os oito réus do Núcleo 1 da ação por tentativa de golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A AP 2668 tem como réus os oito integrantes do Núcleo 1 da tentativa de golpe, ou “Núcleo Crucial”, segundo a Procuradoria-Geral da República (PGR): o deputado federal Alexandre Ramagem, ex-diretor da Agência Brasileira de Inteligência (Abin); o almirante Almir Garnier, ex-comandante da Marinha; Anderson Torres, ex-ministro da Justiça e ex-secretário de Segurança Pública do DF; o general Augusto Heleno, ex-chefe do Gabinete de Segurança Institucional (GSI); o tenente-coronel Mauro Cid, ex-ajudante de ordens de Bolsonaro (réu-colaborador); o ex-presidente da República Jair Bolsonaro; o general Paulo Sérgio Nogueira, ex-ministro da Defesa; e o general da reserva Walter Braga Netto, ex-ministro da Casa Civil e da Defesa.",
+          "prova": "Lista os réus do núcleo central: um almirante, três generais e um tenente-coronel entre os oito."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (Notícias STF)",
+          "titulo": "STF concluiu julgamento de ações contra réus que planejaram golpe de Estado",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Os condenados que eram servidores públicos tiveram decretada a perda do cargo. Em relação aos militares com pena superior a dois anos, o Superior Tribunal Militar (STM) será comunicado para analisar a Declaração de Indignidade para o Oficialato, que pode levar à perda do posto e da patente.",
+          "prova": "Mostra que havia militares entre os condenados das ações da trama golpista, a ponto de o STM ser acionado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (Notícias STF)",
+          "titulo": "AP 2668: STF determina cumprimento da pena de condenados do Núcleo 1 (25/11/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-stf-determina-cumprimento-imediato-da-pena-dos-sete-reus-do-nucleo-1-da-tentativa-de-golpe/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na decisão, o ministro rejeitou o trâmite (não conheceu) dos novos recursos (embargos de declaração) apresentados nos autos e declarou o trânsito em julgado das condenações (fim da possibilidade de recursos).",
+          "prova": "Mostra que as condenações do núcleo central, que inclui os militares, são definitivas desde antes da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Moraes vota para condenar Bolsonaro e mais sete por golpe de Estado (09/09/2025)",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-vota-para-condenar-bolsonaro-e-mais-sete-por-golpe-de-estado",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro ressaltou ainda a “sofisticação” da organização criminosa, “visto que os réus utilizaram a estrutura do Estado brasileiro para se reunir de modo estável e permanente , com a intenção de permanecer no poder independentemente de eleições”.",
+          "prova": "Apoio de imprensa pública sobre o voto do relator no julgamento do núcleo que inclui os militares."
+        }
+      ]
+    }
+  ]
+}

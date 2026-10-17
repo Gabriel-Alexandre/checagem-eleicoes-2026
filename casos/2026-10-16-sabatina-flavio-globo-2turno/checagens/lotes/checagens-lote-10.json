@@ -1,0 +1,517 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A091",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Globo desligou o diretor Frederic Kachar por relação inadequada com um anunciante, Daniel Vorcaro",
+      "explicacao": "O comunicado do Grupo Globo de 15/out/2026 informa o desligamento do diretor-geral de Mídia Impressa e Rádio, Frederic Kachar, porque as conversas com Daniel Vorcaro revelam uma relação inadequada do executivo com um anunciante, e reforça o compromisso com a ética. Propmark e Gazeta de São Paulo, com texto próprio, descrevem a mesma decisão (apoio de imprensa que reproduz a nota da empresa, declarado aqui). O essencial da frase confere: um diretor da Globo foi desligado dias antes da fala por conduta que a empresa considerou inadequada. Por isso VERDADEIRO e não IMPRECISO. A ressalva: a nota não cita nominalmente um código de ética (fala em relação inadequada com anunciante e em compromisso com a ética), e o termo correto é desligamento, não exoneração, que é ato do serviço público. Nenhum caso anterior checou este dado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "comunicado de 15/out/2026",
+      "ressalva": "A nota da Globo fala em relação inadequada com um anunciante; não cita nominalmente um código de ética",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Grupo Globo (comunicado oficial, cópia em PDF publicada pelo Poder360)",
+          "titulo": "Grupo Globo comunica desligamento de Frederic Kachar e reforça independência editorial de seus veículos (15/10/2026)",
+          "url": "https://static.poder360.com.br/uploads/2026/10/comunicado-grupo-globo-demissao-frederic-kachar-15out2026.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Grupo Globo comunicou hoje o desligamento do diretor-geral de Mídia Impressa e Rádio, Frederic Kachar. O conteúdo das conversas privadas mantidas com Daniel Vorcaro entre outubro de 2023 e julho de 2025, às quais a empresa teve acesso ontem, revela uma relação inadequada do executivo com um anunciante. A Editora Globo reforça seu compromisso com a ética e a transparência e reafirma a absoluta independência editorial do jornalismo de seus veículos, premissa essencial de sua atuação.",
+          "prova": "Registro da própria empresa: o diretor foi desligado por relação inadequada com um anunciante, com menção a ética, sem citar código de ética."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Propmark",
+          "titulo": "Grupo Globo demite Frederic Kachar após vazarem conversas do executivo com Daniel Vorcaro (15/10/2026)",
+          "url": "https://propmark.com.br/?p=134643",
+          "consultada_em": "2026-10-17",
+          "trecho": "Empresa aponta conduta inadequada de diretor-geral de mídia impressa e rádio e reforça independência editorial",
+          "prova": "Imprensa especializada descreve o motivo do desligamento como conduta inadequada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta de São Paulo",
+          "titulo": "Grupo Globo demite diretor-geral após ter acesso a conversas privadas com Daniel Vorcaro (15/10/2026)",
+          "url": "https://www.gazetasp.com.br/cotidiano/grupo-globo-demite-diretor-geral-apos-ter-acesso-a-conversas-privadas-com-daniel-vorcaro-do-banco-master/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Frederic Kachar foi desligado após empresa identificar relação considerada inadequada com anunciante; substituto ainda não foi anunciado",
+          "prova": "Confirma o desligamento e o motivo declarado pela empresa."
+        }
+      ]
+    },
+    {
+      "id": "A092",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Banco Master foi o principal patrocinador de um fórum do Valor em Nova York, em maio de 2024, na gestão de Kachar",
+      "explicacao": "A frase diz que o diretor desligado promovia eventos do Valor Econômico em Nova York bancados por Vorcaro. Mais Goiás e BP Money relatam que o Banco Master foi o principal patrocinador do Summit Valor Econômico Brazil-USA, promovido pelo Grupo Globo em maio de 2024 no Hotel Plaza, em Nova York, organizado sob a gestão de Kachar, com discurso de Vorcaro na abertura; os dois textos parecem partir da mesma apuração, por isso contam como uma fonte de imprensa. A Agência Pública, com apuração própria sobre as mensagens apreendidas pela PF, registra que Vorcaro ameaçou retirar o patrocínio de um evento do Valor em abril de 2024, e o DCI confirma que Kachar comandava o Valor Econômico. O essencial confere, por isso VERDADEIRO e não IMPRECISO. Ressalvas: o patrocinador documentado é o Banco Master, controlado por Vorcaro, não ele como pessoa física; as fontes documentam um evento em Nova York, não uma série; e o comunicado da Globo não cita o evento como motivo do desligamento. Nenhum caso anterior checou este dado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Summit Valor Econômico Brazil-USA, maio de 2024",
+      "ressalva": "O patrocínio documentado é do Banco Master, num evento em Nova York; a Globo não citou o evento como motivo da saída",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Mais Goiás",
+          "titulo": "Grupo Globo demite executivo Frederic Kachar depois de vazamento de conversas com Vorcaro (15/10/2026)",
+          "url": "https://www.maisgoias.com.br/brasil/grupo-globo-demite-executivo-frederic-kachar-depois-de-conversas-com-vorcaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Banco Master figurou como o principal patrocinador do Summit Valor Econômico Brazil-USA, fórum promovido pelo Grupo Globo em maio de 2024 no Hotel Plaza, em Nova York. No evento, organizado sob a gestão de Kachar, Vorcaro discursou na abertura para apresentar produtos da instituição financeira.",
+          "prova": "Documenta o evento do Valor em Nova York, o patrocínio do Master e o papel de Kachar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Grupo Globo demite diretor após mensagens com dono do Banco Master (15/10/2026)",
+          "url": "https://bpmoney.com.br/brasil/grupo-globo-demite-frederic-kachar-mensagens-vorcaro-banco-master/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em maio de 2024, o Banco Master patrocinou o Summit Valor Econômico Brazil-USA, realizado no Hotel Plaza, em Nova York, nos Estados Unidos.",
+          "prova": "Confirma data, local e patrocinador do evento (mesma apuração de origem que a Mais Goiás)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Pública",
+          "titulo": "Reportagem sobre as mensagens entre Frederic Kachar e Daniel Vorcaro (outubro de 2026)",
+          "url": "https://apublica.org/?p=267999",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nas mensagens apreendidas pela PF, datadas de 29 de abril de 2024, este foi o primeiro grande embate e desgaste registrado entre o banqueiro e Kachar. “Chega a ser inacreditável”, disse Vorcaro, seguido de um grande texto que incluía uma ameaça velada a retirar patrocínio a um evento do Valor.",
+          "prova": "Apuração independente que mostra o Master como patrocinador de evento do Valor tratado com Kachar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "DCI",
+          "titulo": "Globo demite diretor após conversas com Vorcaro revelarem pedidos por capas de revistas (15/10/2026)",
+          "url": "https://www.dci.com.br/dci-mais/cinema-e-tv/globo-demite-diretor-apos-conversas-com-vorcaro-revelarem-pedidos-por-capas-de-revistas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Kachar, conhecido como Fred, estava à frente das operações de veículos como os jornais O Globo, Extra e Valor Econômico, além de revistas da Editora Globo, entre elas Vogue e Marie Claire.",
+          "prova": "Mostra que o Valor Econômico estava sob a direção de Kachar."
+        }
+      ]
+    },
+    {
+      "id": "A093",
+      "veredito": "IMPRECISO",
+      "resumo": "Um advogado de Vorcaro disse que a voz parece ser dele; a nota oficial da defesa não reconhece a autenticidade do áudio",
+      "explicacao": "A frase diz que a própria defesa confirmou que a voz era de Vorcaro. O SBT News ouviu o advogado Daniel Bialski, que disse não ser perito e que um dos áudios realmente parece ele falando, ressalvando que só o cliente pode confirmar o conteúdo; O Povo e o Correio da Manhã relatam que Bialski confirmou que a voz é do ex-banqueiro. Mas o mesmo SBT reproduz a nota oficial da defesa, assinada por outros advogados, que não confirma o conteúdo e diz que a origem, a autenticidade e a integridade do material não são reconhecidas, e O Povo registra que Sérgio Leonardo, advogado desde o início do caso, divulgou nota nesse sentido. A essência (um integrante da defesa atribuiu a voz a Vorcaro) confere, mas apresentar isso como confirmação da defesa omite que a nota oficial da defesa recusou reconhecer o áudio; por isso IMPRECISO e não VERDADEIRO. Não é FALSO porque a declaração de Bialski existe. A autenticidade do áudio em si segue em apuração (a campanha de Lula pediu perícia à PF), e este veredito trata só do que a defesa declarou, não da autenticidade. Nenhum caso anterior checou este dado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de 9 e 10/out/2026",
+      "ressalva": "A nota oficial da defesa diz que a origem e a autenticidade do material não são reconhecidas",
+      "confianca": "media",
+      "divergencia_entre_fontes": "SBT News registra que Bialski disse que a voz parece ser de Vorcaro, com a ressalva de não ser perito; O Povo e Correio da Manhã escrevem que ele confirmou a voz. A nota oficial da defesa não reconhece a autenticidade.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Em áudio, Vorcaro diz ter financiado filme sobre Lula (09/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"Eu não era advogado dele quando das tratativas de colaboração premiada. E, não sou perito, mas pelo convívio esses meses com ele, um dos áudios realmente parece ele falando. Porém, o conteúdo dos fatos só o cliente pode confirmar ou não. [...] \"A defesa de Daniel Vorcaro repudia a divulgação de supostos anexos que estariam relacionados a tratativas de colaboração premiada que não foi celebrada. A defesa não confirma o conteúdo de qualquer material divulgado, cuja origem, autenticidade e integridade não são reconhecidas.",
+          "prova": "Traz as duas posições dentro da defesa: a do advogado que reconhece a voz e a nota oficial que não reconhece o material."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (com Estadão)",
+          "titulo": "Áudio de Vorcaro fala de dinheiro em filme de Lula; PF e PGR negam que esteja em delação (10/10/2026)",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/10/10/audio-de-vorcaro-fala-de-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A origem do áudio levantou dúvidas após o advogado que acompanha o banqueiro desde o início da investigação e das negociações de delação premiada, Sérgio Leonardo , divulgar uma nota dizendo que não reconhecia a autenticidade do material. Outro integrante da equipe de advogados de Vorcaro, Daniel Bialski , confirmou que a voz é do ex-banqueiro na gravação, mas disse não saber em quais circunstâncias foi feita.",
+          "prova": "Confirma a divisão dentro da defesa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "PF e PGR negam áudios de Vorcaro sobre filme de Lula (outubro de 2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/326097-pf-e-pgr-negam-audios-de-vorcaro-sobre-filme-de-lula.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Um dos advogados da equipe de Vorcaro, o criminalista Daniel Bialski confirmou que a voz no áudio divulgado na reportagem era a de Vorcaro. Contudo, ele reafirmou que não tem conhecimento de quando a gravação foi feita e que nunca foi comunicado da informação do áudio.",
+          "prova": "Terceira fonte sobre a declaração de Bialski."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Procuradores suspeitam que áudio de Vorcaro sobre Lula foi gravado ilegalmente para uso eleitoral (outubro de 2026)",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/procuradores-suspeitam-que-audio-de-vorcaro-sobre-lula-foi-gravado-ilegalmente-para-uso-eleitoral-877515/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A campanha de Lula, por sua vez, questiona a autenticidade do áudio, não descarta adulteração e acionou a Polícia Federal (PF) para investigar a origem da gravação.",
+          "prova": "Mostra que a autenticidade do áudio está em apuração."
+        }
+      ]
+    },
+    {
+      "id": "A094",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Áudio publicado pela Veja cita os dois filmes e relato de R$ 30 milhões; autenticidade e pagamento sem confirmação",
+      "explicacao": "A frase atribui a Vorcaro, no áudio, a afirmação de que o patrocínio ao filme sobre Bolsonaro foi legal e que no filme sobre Lula ele pôs R$ 30 milhões por fora, via Instituto Lula. Está documentado que o áudio publicado pela Veja contém fala nesse sentido: o SBT News transcreve que o do Lula foi por fora, foi errado, e que o do Flávio foi patrocínio normal; O Povo e o Correio da Manhã registram o relato de cerca de R$ 30 milhões em espécie ao Instituto Lula (o valor aparece no relato e nos documentos citados pela revista, não no trecho transcrito do áudio). Mas o fato está em apuração em três frentes: a autenticidade do áudio não é reconhecida pela nota oficial da defesa e a campanha de Lula pediu perícia à PF; a PF e a PGR negam ter recebido esse relato e o Jornal Opção registra que não há confirmação pública do financiamento; e os repasses de Vorcaro ao filme Dark Horse são objeto de inquérito autorizado pelo ministro André Mendonça. Pela regra de ética e risco (§5), fato em apuração não recebe VERDADEIRO nem FALSO; por isso INSUSTENTAVEL. Nenhum caso anterior checou este dado.",
+      "numero_dito": "R$ 30 milhões",
+      "numero_apurado": "cerca de R$ 30 milhões, segundo o relato atribuído a Vorcaro e divulgado pela Veja",
+      "data_de_referencia": "reportagem da Veja de 9/out/2026",
+      "ressalva": "A fala sobre os filmes consta do áudio publicado; o pagamento e a legalidade do patrocínio ao Dark Horse seguem em apuração",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A transcrição do trecho varia entre veículos: SBT News registra que foi patrocínio normal; O Povo registra porque pediu patrocínio.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Em áudio, Vorcaro diz ter financiado filme sobre Lula (09/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "“O filme do Lula eu coloquei acho que até mais [do que no filme de Bolsonaro], eu acho que dá até mais. Só que o do Lula foi por fora, foi errado. O do Flávio não foi porque foi patrocínio, foi patrocínio normal”, diz.",
+          "prova": "Transcrição do trecho do áudio sobre os dois filmes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (com Estadão)",
+          "titulo": "Áudio de Vorcaro fala de dinheiro em filme de Lula; PF e PGR negam que esteja em delação (10/10/2026)",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/10/10/audio-de-vorcaro-fala-de-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na gravação, Vorcaro alega ter negociado com o ex-tesoureiro do PT , João Vaccari Neto , um repasse de aproximadamente R$ 30 milhões em espécie ao Instituto Lula, gerido por Paulo Okamotto.",
+          "prova": "Registra o valor de R$ 30 milhões no relato atribuído a Vorcaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "PF e PGR negam áudios de Vorcaro sobre filme de Lula (outubro de 2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/326097-pf-e-pgr-negam-audios-de-vorcaro-sobre-filme-de-lula.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na mesma linha, a PF informou que Vorcaro “não prestou depoimento com o teor relatado na matéria, tampouco entregou à instituição anexos, documentos ou informações com o conteúdo ali descrito”.",
+          "prova": "Mostra que a PF não tem registro do relato."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Procuradores suspeitam que áudio de Vorcaro sobre Lula foi gravado ilegalmente para uso eleitoral (outubro de 2026)",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/procuradores-suspeitam-que-audio-de-vorcaro-sobre-lula-foi-gravado-ilegalmente-para-uso-eleitoral-877515/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Até o momento, não há confirmação pública de que Vorcaro tenha financiado a produção nem de que o áudio tenha sido gravado ilegalmente. A origem e a autenticidade do material são pontos que dependem de apuração.",
+          "prova": "Registra que o financiamento e a autenticidade seguem em apuração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "André Mendonça autoriza inquérito sobre repasses para 'Dark Horse', filme sobre Jair Bolsonaro (23/07/2026)",
+          "url": "https://www.opovo.com.br/noticias/politica/2026/07/23/amp/andre-mendonca-autoriza-inquerito-sobre-repasses-para-dark-horse-filme-sobre-jair-bolsonaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "autorizou a abertura de um inquérito pela Polícia Federal para apurar repasses do dono do Banco Master, Daniel Vorcaro, para o filme \"Dark Horse\", sobre a vida do ex-presidente Jair Bolsonaro (PL).",
+          "prova": "Mostra que a legalidade dos repasses ao filme sobre Bolsonaro está sob inquérito."
+        }
+      ]
+    },
+    {
+      "id": "A095",
+      "veredito": "VERDADEIRO",
+      "resumo": "Os Princípios Editoriais da Globo mandam tratar anunciantes com os mesmos critérios editoriais dos demais",
+      "explicacao": "A frase descreve uma norma interna: patrocínio na programação segue regras de transparência e não interfere na linha editorial. Os Princípios Editoriais do Grupo Globo, documento público da própria empresa, determinam que as decisões editoriais sobre reportagens envolvendo anunciantes sejam tomadas pelos mesmos critérios usados para quem não é anunciante, e o comunicado de 15/out/2026 reafirma a absoluta independência editorial do jornalismo. Como se trata de norma de empresa privada, a fonte primária é a própria empresa; as duas fontes são documentos do Grupo Globo, e isso está declarado aqui. A separação entre área comercial e editorial confere, por isso VERDADEIRO. A ressalva: as regras comerciais de transparência para compra de patrocínio (tabela de preços, identificação de patrocinador) não foram localizadas em documento público dentro do limite de buscas, e o veredito não avalia se a norma é cumprida na prática. Nenhum caso anterior checou este dado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Princípios Editoriais vigentes em outubro de 2026",
+      "ressalva": "As regras comerciais de transparência para patrocínio não foram localizadas em documento público",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Grupo Globo (Princípios Editoriais)",
+          "titulo": "Princípios Editoriais do Grupo Globo",
+          "url": "https://g1.globo.com/principios-editoriais-do-grupo-globo.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "m) O Grupo Globo é independente de grupos econômicos, e os seus veículos devem se esforçar para assim ser percebidos. Por esse motivo, as decisões editoriais sobre reportagens envolvendo anunciantes serão tomadas a partir dos mesmos critérios usados em relação aos que não sejam anunciantes;",
+          "prova": "Norma publicada que separa a relação com anunciantes das decisões editoriais."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Grupo Globo (comunicado oficial, cópia em PDF publicada pelo Poder360)",
+          "titulo": "Grupo Globo comunica desligamento de Frederic Kachar e reforça independência editorial de seus veículos (15/10/2026)",
+          "url": "https://static.poder360.com.br/uploads/2026/10/comunicado-grupo-globo-demissao-frederic-kachar-15out2026.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Editora Globo reforça seu compromisso com a ética e a transparência e reafirma a absoluta independência editorial do jornalismo de seus veículos, premissa essencial de sua atuação.",
+          "prova": "Declaração da empresa, na semana da fala, sobre independência editorial."
+        }
+      ]
+    },
+    {
+      "id": "A096",
+      "veredito": "VERDADEIRO",
+      "resumo": "As mensagens vieram a público na quarta (14) e a Globo anunciou o desligamento na quinta (15)",
+      "explicacao": "A entrevistadora diz que as conversas foram reveladas anteontem (14/out/2026) e que o diretor foi desligado ontem (15/out/2026). O comunicado da Globo, datado de 15/out/2026, informa o desligamento e diz que a empresa teve acesso às conversas no dia anterior; o Poder360 registra que a Globo informou a demissão nesta quinta-feira, 15/out/2026. A Agência Pública diz que o vazamento das mensagens ganhou força na quarta-feira (14), e a Gazeta de São Paulo, que o conteúdo chegou ao conhecimento do grupo em 14/10. As datas conferem, por isso VERDADEIRO. Ressalva: a Pública indica que o material já circulava nos bastidores antes de ganhar força no dia 14. Nenhum caso anterior checou este dado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "14 e 15/out/2026",
+      "ressalva": "Segundo a Agência Pública, o vazamento ganhou força no dia 14, e o material já era conhecido nos bastidores",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Grupo Globo (comunicado oficial, cópia em PDF publicada pelo Poder360)",
+          "titulo": "Grupo Globo comunica desligamento de Frederic Kachar e reforça independência editorial de seus veículos (15/10/2026)",
+          "url": "https://static.poder360.com.br/uploads/2026/10/comunicado-grupo-globo-demissao-frederic-kachar-15out2026.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Grupo Globo comunicou hoje o desligamento do diretor-geral de Mídia Impressa e Rádio, Frederic Kachar. O conteúdo das conversas privadas mantidas com Daniel Vorcaro entre outubro de 2023 e julho de 2025, às quais a empresa teve acesso ontem, revela uma relação inadequada do executivo com um anunciante.",
+          "prova": "Comunicado de 15/out: desligamento nesse dia e acesso às conversas no dia anterior."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Pública",
+          "titulo": "Reportagem sobre as mensagens entre Frederic Kachar e Daniel Vorcaro (outubro de 2026)",
+          "url": "https://apublica.org/?p=267999",
+          "consultada_em": "2026-10-17",
+          "trecho": "O vazamento das mensagens ganhou força nesta quarta-feira (14), momento delicado para a própria Globo.",
+          "prova": "Data em que as mensagens vieram a público."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta de São Paulo",
+          "titulo": "Grupo Globo demite diretor-geral após ter acesso a conversas privadas com Daniel Vorcaro (15/10/2026)",
+          "url": "https://www.gazetasp.com.br/cotidiano/grupo-globo-demite-diretor-geral-apos-ter-acesso-a-conversas-privadas-com-daniel-vorcaro-do-banco-master/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O conteúdo das mensagens chegou ao conhecimento do grupo na quarta-feira (14/10).",
+          "prova": "Confirma o dia 14 como data de acesso às mensagens."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Globo demite executivo após vazamento de conversas com Vorcaro (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-midia/globo-demite-executivo-apos-vazamento-de-conversas-com-vorcaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Grupo Globo informou nesta 5ª feira (15.out.2026) que demitiu o diretor-geral de Mídia Impressa e Rádio, Frederic Kachar.",
+          "prova": "Confirma a data do desligamento."
+        }
+      ]
+    },
+    {
+      "id": "A097",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em maio de 2026 o BC contava 1.654 instituições, sem as administradoras de consórcio, e 167 bancos",
+      "explicacao": "O dado oficial é o Quadro 01 da Evolução do SFN, do Banco Central, para o qual o próprio BC remete desde que a série SGS 24868 foi descontinuada. O quadro mais recente disponível na consulta é o de maio de 2026 (os de junho a setembro de 2026 não estavam publicados no mesmo endereço). Lendo a coluna Mai/2026 (última de cada linha do PDF, cujas linhas vêm deslocadas em relação aos rótulos): bancos múltiplos 131, comerciais 19, de desenvolvimento 4, Caixa Econômica 1 e bancos de investimento 12, total de 167 bancos (171 com os 4 bancos de câmbio); instituições autorizadas somam 888 não cooperativas e 766 cooperativas de crédito, subtotal de 1654, e 1785 com as 131 administradoras de consórcio. 'Cerca de 1.600' fica a 3,3% do subtotal sem consórcios e 'quase 170' fica a menos de 2% de 167, dentro da régua de 10%. Se o recorte incluir as administradoras de consórcio (1785), o desvio passa de 10%; elas não são instituições financeiras em sentido estrito, por isso o recorte de 1654 é o que corresponde à frase. As duas fontes numéricas são edições mensais distintas do mesmo quadro do BC (dezembro de 2025 e maio de 2026, com 1666 e 1798 em dezembro); não foi localizada fonte de imprensa independente dentro do limite de buscas, o que está declarado aqui. Nenhum caso anterior checou este dado.",
+      "numero_dito": "cerca de 1.600 instituições financeiras; quase 170 bancos",
+      "numero_apurado": "1.654 instituições (1.785 com administradoras de consórcio); 167 bancos (171 com bancos de câmbio)",
+      "data_de_referencia": "maio de 2026 (último Quadro 01 publicado na consulta)",
+      "ressalva": "Com as administradoras de consórcio, o total chega a 1.785; com os bancos de câmbio, a 171 bancos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "167",
+          "de": "131 mais 19 mais 4 mais 1 mais 12",
+          "como": "soma dos bancos múltiplos, comerciais, de desenvolvimento, Caixa e de investimento em Mai/2026"
+        },
+        {
+          "valor": "171",
+          "de": "167 mais 4",
+          "como": "soma dos 167 bancos com os 4 bancos de câmbio em Mai/2026"
+        },
+        {
+          "valor": "1.654",
+          "de": "888 mais 766",
+          "como": "subtotal de instituições sem cooperativas mais cooperativas de crédito, igual ao 1654 do quadro"
+        },
+        {
+          "valor": "1.785",
+          "de": "1654 mais 131",
+          "como": "subtotal mais administradoras de consórcio, igual ao total 1785 do quadro"
+        },
+        {
+          "valor": "3,3%",
+          "de": "1654 menos 1.600, dividido por 1654",
+          "como": "desvio relativo entre o número dito e o subtotal apurado"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (Deorf, Unicad)",
+          "titulo": "Evolução do SFN, Quadro 01: quantitativo de instituições autorizadas por segmento, maio de 2026",
+          "url": "https://www.bcb.gov.br/content/estabilidadefinanceira/evolucaosfnmes/202605%20-%20Quadro%2001%20-%20Quantitativo%20de%20institui%C3%A7%C3%B5es%20por%20segmento.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Quadro 1 - Quantitativo de instituições autorizadas3/ por segmento Segmento Sigla 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 Dez Dez Dez Dez Dez Dez Dez Dez Dez Mai 131 132 137 137 137 135 135 134 131 Banco Múltiplo BM 132 20 20 20 20 19 19 19 18 19 Banco Comercial1/ Banco de Desenvolvimento BC 21 4 4 4 4 4 4 4 4 4 1 1 1 1 1 1 1 1 1 BD 4 12 11 10 10 10 10 12 12 12 4 5 5 5 5 5 4 5 4 Caixas Econômicas Estaduais/Federal CE 1 58 59 60 61 64 65 72 80 79 1 11 41 64 98 116 134 142 141 Banco de Investimento BI 13 4 9 10 11 12 12 12 12 68 67 64 66 62 66 62 60 60 Banco de Câmbio B Camb 3 63 55 53 54 55 55 54 53 51 94 94 96 99 102 106 106 107 106 Sociedade de Crédito, Financiamento e Investimento CFI 56 21 21 19 18 18 17 18 18 18 Sociedade de Crédito Direto SCD 3 3 3 2 2 2 1 1 1 Sociedade de Empréstimo entre Pessoas SEP 36 33 31 30 26 26 23 22 22 Sociedade Corretora de Títulos e Valores Mobiliários CTVM 75 16 16 16 16 16 16 16 16 16 6 6 6 5 6 5 5 5 5 Sociedade Corretora de Câmbio CC 61 10 19 26 37 74 115 173 202 206 548 561 601 639 710 775 851 892 888 Sociedade Distribuidora de Títulos e Valores Mobiliários DTVM 95 973 920 886 860 834 803 783 774 766 1521 1481 1487 1499 1544 1578 1634 1666 1654 Sociedade de Arrendamento Mercantil SAM 24 152 148 144 142 141 136 131 132 131 1673 1629 1631 1641 1685 1714 1765 1798 1785 [...] Cooperativa de Crédito COOP 1023 subtotal 1578 Sociedade Administradora de Consórcio CONS 156 Total 1734 Fonte: Unicad 1/ Inclui os bancos estrangeiros (filiais no país).",
+          "prova": "Coluna Mai/2026 (último valor de cada linha): 131, 19, 4, 1 e 12 bancos; subtotal 888, cooperativas 766, subtotal 1654, consórcios 131, total 1785."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (Deorf, Unicad)",
+          "titulo": "Evolução do SFN, Quadro 01: quantitativo de instituições autorizadas por segmento, dezembro de 2025",
+          "url": "https://www.bcb.gov.br/content/estabilidadefinanceira/evolucaosfnmes/202512%20-%20Quadro%2001%20-%20Quantitativo%20de%20institui%C3%A7%C3%B5es%20por%20segmento.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Sociedade Corretora de Câmbio CC 63 555 10 19 26 37 74 115 173 202 1023 548 561 601 639 710 775 851 892 Sociedade Distribuidora de Títulos e Valores Mobiliários DTVM 101 1578 973 920 886 860 834 803 783 774 156 1521 1481 1487 1499 1544 1578 1634 1666 Sociedade de Arrendamento Mercantil SAM 25 1734 152 148 144 142 141 136 131 132 1673 1629 1631 1641 1685 1714 1765 1798",
+          "prova": "Edição anterior do quadro: subtotal 1666 e total 1798 em dez/2025, mesma ordem de grandeza do dado de maio de 2026."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (Portal de Dados Abertos)",
+          "titulo": "Quantidade de bancos autorizados a funcionar no Sistema Financeiro Nacional (metadados da série 24868)",
+          "url": "https://dadosabertos.bcb.gov.br/pt_BR/dataset/24868-quantidade-de-bancos-autorizados-a-funcionar-no-sistema-financeiro-nacional",
+          "consultada_em": "2026-10-17",
+          "trecho": "A série do SGS 24868 - Quantidade de bancos autorizados a funcionar no Sistema Financeiro Nacional - foi descontinuada em 2022 e não será mais atualizada. As informações sobre instituições autorizadas a funcionar podem ser encontradas nas estatísticas do sistema financeiro, diretamente no site do Banco Central:",
+          "prova": "Indica o Quadro 01 da Evolução do SFN como a fonte oficial vigente do dado."
+        }
+      ]
+    },
+    {
+      "id": "A098",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A PF já tinha inquéritos sobre o Master e o BC o advertiu em novembro de 2024, antes do acordo; o caso segue em apuração",
+      "explicacao": "A frase diz que, quando Vorcaro topou patrocinar o filme, não havia nada de errado com ele. A data do acordo não é pública com precisão: Flávio diz ter conhecido Vorcaro em dezembro de 2024 (Band), e os repasses ocorreram entre fevereiro e maio do ano seguinte (Correio da Manhã). Antes disso, segundo o SBT News, a PF de São Paulo havia aberto desde 2023 dois inquéritos sobre o Master e fundos usados por Vorcaro, e em novembro de 2024 o banqueiro assinou termo com o BC para corrigir a gestão do banco; o presidente do BC, Gabriel Galípolo, disse que o Master enfrentava problemas de credibilidade e captação no final de 2024 e foi convocado pela Fiscalização naquele mês. Esses procedimentos eram sigilosos na época, e a frase sobre suspeita pública não é contrariada diretamente; além disso, as irregularidades atribuídas a Vorcaro seguem em apuração, sem decisão definitiva. Por isso o veredito não é FALSO nem VERDADEIRO (etica-e-risco §5): as fontes não sustentam que não havia nada de errado, e a apuração está em curso. Nenhum caso anterior checou este dado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "acordo entre dezembro de 2024 e o início de 2025",
+      "ressalva": "Os inquéritos e a advertência do BC eram sigilosos na época; as suspeitas sobre o Master seguem em apuração",
+      "confianca": "media",
+      "divergencia_entre_fontes": "SBT News diz que a PF de São Paulo tinha dois inquéritos sobre o Master desde 2023; a CNN Brasil diz que as investigações que levaram à Operação Compliance Zero começaram em 2024. Podem ser procedimentos diferentes; ambos são anteriores ao acordo.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News (coluna Nathalia Fruet)",
+          "titulo": "Exclusivo: Banco Central recebeu alerta da PF sobre Master em 2024, mas disse não ter encontrado ilegalidades (19/03/2026)",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-nathalia-fruet/exclusivo-banco-central-recebeu-alerta-da-pf-sobre-master-em-2024-mas-disse-nao-ter-encontrado-ilegalidades",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Delegacia de Repressão e Crimes Financeiros da PF de São Paulo havia aberto desde 2023 dois inquéritos sobre o Master e fundos de investimentos usados por Vorcaro. A resposta do BC à PF foi dada quatro meses antes de o banqueiro assinar um termo de compromisso com o Banco Central, em novembro de 2024, para fazer correções na gestão do Master.",
+          "prova": "Mostra inquéritos e termo com o BC anteriores ao acordo do filme."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Finsiders Brasil (declaração pública do presidente do Banco Central)",
+          "titulo": "Galípolo detalha cronologia do caso Master e defende atuação do BC (09/02/2026)",
+          "url": "https://finsidersbrasil.com.br/?p=359378",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com o presidente do BC, o Master começou a enfrentar dificuldades de credibilidade e problemas de captação no final de 2024. Isso gerou restrições de liquidez . Ainda em novembro daquele ano, a diretoria de Fiscalização convocou o banco de Daniel Vorcaro para um termo de comparecimento.",
+          "prova": "Cronologia do BC: advertência formal em novembro de 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Investigações contra Banco Master e Vorcaro tiveram início em 2024 (18/11/2025)",
+          "url": "https://www.cnnbrasil.com.br/economia/investigacoes-contra-banco-master-e-vorcaro-tiveram-inicio-em-2024/",
+          "consultada_em": "2026-10-17",
+          "trecho": "As investigações tiveram início em 2024 , após solicitação do Ministério Público Federal para apurar a possível fabricação de carteiras de crédito insubsistentes por uma instituição financeira.",
+          "prova": "Investigação iniciada em 2024, antes do acordo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band",
+          "titulo": "Pagamentos de Vorcaro ao filme de Bolsonaro superam orçamento de indicados ao Oscar (13/05/2026)",
+          "url": "https://www.band.com.br/noticias/pagamentos-de-vorcaro-ao-filme-de-bolsonaro-superam-orcamento-de-indicados-ao-oscar-202605132118",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador admite que conheceu Daniel Vorcaro em dezembro de 2024, \"quando não existiam acusações nem suspeitas públicas sobre o banqueiro\".",
+          "prova": "Data do primeiro contato, segundo Flávio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Filme sobre Bolsonaro seria financiado por Daniel Vorcaro (maio de 2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/05/285516-filme-sobre-bolsonaro-seria-financiado-por-daniel-vorcaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a reportagem, Vorcaro já teria repassado R$ 61 milhões entre fevereiro e maio do ano passado.",
+          "prova": "Período dos repasses ao filme."
+        }
+      ]
+    },
+    {
+      "id": "A099",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "No relato atribuído a Vorcaro, R$ 1 bi seria comissão ao PT sobre R$ 10 bi captados; nada foi comprovado",
+      "explicacao": "A frase diz que Vaccari ofereceu a Vorcaro R$ 1 bilhão dos fundos de pensão de Caixa, Banco do Brasil e Petrobras. A única base é o relato atribuído a Vorcaro e publicado pela Veja (reproduzido pelo TNH1): Vaccari teria exigido taxa de 10% do que o banco captasse nos fundos de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios, e o petismo embolsaria R$ 1 bilhão, enquanto Vorcaro faturaria R$ 9 bilhões. BP Money e NC News descrevem o mesmo: R$ 10 bilhões em operações e até R$ 1 bilhão em comissões, projeções do próprio Vorcaro. Ou seja, no relato o R$ 1 bilhão é a comissão que iria ao PT, não o valor oferecido a Vorcaro, e o relato não tem prova: a PF diz que não recebeu esse conteúdo e a PGR rejeitou as propostas de delação. Como as acusações seguem sem confirmação e em apuração, o veredito é INSUSTENTAVEL, e não FALSO (etica-e-risco §5). Nenhum caso anterior checou este dado.",
+      "numero_dito": "R$ 1 bilhão",
+      "numero_apurado": "R$ 1 bilhão seria a comissão de 10% sobre R$ 10 bilhões captados, segundo o relato atribuído a Vorcaro",
+      "data_de_referencia": "relato divulgado pela Veja em 9/out/2026",
+      "ressalva": "No relato, os R$ 10 bilhões seriam captados pelo Master e o R$ 1 bilhão iria ao PT; nada disso foi comprovado",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução da reportagem da Veja)",
+          "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo (outubro de 2026)",
+          "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação.",
+          "prova": "Texto da Veja: o R$ 1 bilhão seria a comissão do PT, não um valor oferecido a Vorcaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Reportagem sobre o relato de Vorcaro a respeito de Vaccari e dos fundos de pensão (outubro de 2026)",
+          "url": "https://bpmoney.com.br/?p=425871",
+          "consultada_em": "2026-10-17",
+          "trecho": "O empresário estimou que o banco poderia movimentar R$ 10 bilhões nessas operações. Desse total, R$ 1 bilhão teria como destino o suposto esquema de pagamentos, enquanto R$ 9 bilhões ficariam com a instituição financeira.",
+          "prova": "Confirma a divisão dos valores no relato."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "NC News",
+          "titulo": "Vorcaro: negócio com fundos do governo Lula não avançou (outubro de 2026)",
+          "url": "https://ncnews.com.br/?p=59915",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ex-banqueiro estimou que as operações poderiam chegar a R$ 10 bilhões, o que representaria até R$ 1 bilhão em comissões. Esses números são projeções do próprio Vorcaro, não valores comprovadamente investidos ou pagos.",
+          "prova": "Registra que os valores são projeções sem comprovação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "PF e PGR negam áudios de Vorcaro sobre filme de Lula (outubro de 2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/326097-pf-e-pgr-negam-audios-de-vorcaro-sobre-filme-de-lula.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na mesma linha, a PF informou que Vorcaro “não prestou depoimento com o teor relatado na matéria, tampouco entregou à instituição anexos, documentos ou informações com o conteúdo ali descrito”.",
+          "prova": "Mostra que a PF não tem registro do relato."
+        }
+      ]
+    },
+    {
+      "id": "A100",
+      "veredito": "FALSO",
+      "resumo": "O Instituto Lula é dirigido por Ivone Silva e Paulo Okamotto; Vaccari, ex-tesoureiro do PT, não aparece na diretoria",
+      "explicacao": "A frase diz que João Vaccari Neto toca o Instituto Lula. A página oficial do instituto lista como presidenta Ivone Silva e, na diretoria, Paulo Okamotto e outros nomes, em todos os triênios desde a fundação, sem Vaccari. A imprensa que cobriu o relato de Vorcaro descreve o instituto como presidido ou gerido por Paulo Okamotto (SBT News, BP Money) e Vaccari como ex-tesoureiro do PT. As fontes contradizem diretamente a afirmação, e não há apuração em curso sobre quem dirige o instituto; por isso FALSO e não INSUSTENTAVEL. O juízo de que Vaccari é braço direito de Lula não foi checado. Nenhum caso anterior checou este dado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "diretoria do triênio em curso na página do instituto, consultada em 17/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A página do instituto lista Ivone Silva como presidenta e Okamotto como diretor; SBT News chama Okamotto de presidente e BP Money diz que ele administra o instituto. Nenhuma fonte cita Vaccari.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Instituto Lula (página oficial)",
+          "titulo": "Quem somos: diretoria",
+          "url": "https://institutolula.org/o-instituto/quem-somos",
+          "consultada_em": "2026-10-17",
+          "trecho": "PRESIDENTA Ivone Silva Triênio 2023/2026 DIRETORIA Wellington Messias Damasceno Triênio 2023/2026 DIRETORIA Ana Flávia Marques Triênio 2023/2026 DIRETORIA Tarcisio Secoli Triênio 2023/2026 PRESIDENTE Márcio Pochmann Triênio 2020/2023 DIRETORIA Paulo Tarciso Okamotto Triênios 2011/2014, 2014/2017, 2017/2020, 2020/2023 e 2023/2026",
+          "prova": "Registro da própria entidade sobre quem a dirige; Vaccari não consta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Em áudio, Vorcaro diz ter financiado filme sobre Lula (09/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "Essa negociação, conforme mensagens relatadas pela revista, teria sido feita pelo ex-tesoureiro do partido, João Vaccari Neto, e pelo advogado Augusto Lima, que prestava serviços jurídicos ao Master. [...] No mesmo áudio, o então banqueiro relata que Augusto Lima teria adiantado um pagamento a Paulo Okamotto, presidente do Instituto Lula,",
+          "prova": "Identifica Vaccari como ex-tesoureiro do PT e Okamotto como dirigente do instituto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Reportagem sobre o relato de Vorcaro a respeito de Vaccari e dos fundos de pensão (outubro de 2026)",
+          "url": "https://bpmoney.com.br/?p=425871",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além disso, Vorcaro afirmou que parte das negociações envolvia repasses ao Instituto Lula, administrado por Paulo Okamotto.",
+          "prova": "Segunda fonte de imprensa: o instituto é administrado por Okamotto."
+        }
+      ]
+    }
+  ]
+}

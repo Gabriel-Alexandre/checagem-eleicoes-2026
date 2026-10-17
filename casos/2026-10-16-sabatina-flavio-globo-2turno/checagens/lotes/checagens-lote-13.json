@@ -1,0 +1,479 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A121",
+      "veredito": "VERDADEIRO",
+      "resumo": "Moraes, relator da ação do golpe, votou pela condenação de Bolsonaro; a Primeira Turma o seguiu por quatro a um",
+      "explicacao": "A parte checável da frase é o voto de Alexandre de Moraes; 'golpe da Disney' é rótulo do candidato e não é checado. Moraes foi o relator da AP 2668 no STF e, em 9 de setembro de 2025, votou pela condenação de todos os réus do núcleo principal, Jair Bolsonaro entre eles (notícia do STF e Agência Brasil). A Primeira Turma acompanhou o relator e condenou por quatro a um. O mesmo voto foi tratado no caso 2026-08-28-sabatina-flavio-globo (A001 e A015, VERDADEIRO), com as mesmas fontes. Não há número nem recorte a ajustar, por isso VERDADEIRO e não IMPRECISO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "voto do relator em 09/09/2025; condenação em 11/09/2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O placar que definiu a condenação do Núcleo 1 foi de quatro a um. A ministra Cármen Lúcia e o ministro Cristiano Zanin, presidente da Turma, foram os dois últimos a votar. Eles acompanharam o relator, ministro Alexandre de Moraes, e o ministro Flávio Dino, que proferiram votos na última terça (9). [...] 9/9/2025 – AP 2668: relator vota pela condenação de todos os réus do Núcleo 1",
+          "prova": "Moraes é o relator, votou pela condenação de todos os réus do núcleo 1 e foi acompanhado pela maioria."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Moraes vota para condenar Bolsonaro e mais sete por golpe de Estado",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-vota-para-condenar-bolsonaro-e-mais-sete-por-golpe-de-estado",
+          "consultada_em": "2026-10-17",
+          "trecho": "Moraes, do Supremo Tribunal Federal (STF), votou nesta terça-feira (9) para que Jair Bolsonaro se torne o primeiro ex-presidente da história do Brasil a ser condenado pelo crime de golpe de Estado.",
+          "prova": "Confirma, em texto independente, o sentido do voto de Moraes em relação a Jair Bolsonaro."
+        }
+      ]
+    },
+    {
+      "id": "A122",
+      "veredito": "VERDADEIRO",
+      "resumo": "Bolsonaro foi condenado por organização criminosa armada, dano qualificado e deterioração de patrimônio tombado",
+      "explicacao": "A Primeira Turma do STF condenou Jair Bolsonaro em setembro de 2025 por cinco crimes: tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado (notícia do STF; a Agência Brasil repete a lista em janeiro de 2026). Os dois crimes de dano correspondem à depredação dos prédios dos Três Poderes em 8 de janeiro de 2023 (CNN Brasil). 'Depredar patrimônio público' é a descrição leiga de dano qualificado e deterioração de patrimônio tombado, e a fala diz 'acusado', mas houve condenação definitiva. Mesmo dado checado no caso 2026-08-28-sabatina-flavio-globo (A007 e A010, VERDADEIRO). As fontes confirmam o que foi dito, por isso VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "condenação em 11/09/2025",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Sete réus foram condenados pelos crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado.",
+          "prova": "Os crimes da condenação, em fonte primária: organização criminosa armada e os dois crimes de dano estão na lista."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "STF condenou 1.399 pessoas por atos golpistas; 179 estão presas",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-01/stf-condenou-1399-pessoas-por-atos-golpistas-179-estao-presas",
+          "consultada_em": "2026-10-17",
+          "trecho": "As condenações ocorreram pelos crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado.",
+          "prova": "Repete a lista de crimes em reportagem posterior (a imprensa reproduz aqui a decisão do STF)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A condenação também relaciona Bolsonaro aos atos de 8 de janeiro de 2023, quando as sedes dos Três Poderes foram invadidas e depredadas por milhares de pessoas em Brasília.",
+          "prova": "Liga os crimes de dano à depredação de 8 de janeiro, o 'patrimônio público' da fala."
+        }
+      ]
+    },
+    {
+      "id": "A123",
+      "veredito": "FALSO",
+      "resumo": "Houve armas: facas e porretes descritos nos processos, e armas levadas do GSI, parte recuperada pela PM",
+      "explicacao": "A frase diz que não foi encontrada arma 'em lugar nenhum' no caso que levou à condenação por organização criminosa armada. Os registros contradizem isso. Os processos do 8 de janeiro descrevem facas, porretes, barras de ferro, estilingues e bolas de gude (Gazeta do Povo, veículo crítico ao STF, e Aos Fatos, que cita imagens das câmeras da Câmara). Invasores levaram armas e munição de uma sala do GSI no Planalto (Poder360 e CNN Brasil, no dia seguinte), e segundo o Aos Fatos parte dessas armas foi recuperada depois pela PM do DF. No processo de Bolsonaro, a CNN Brasil registra que o agravante pelo emprego de armas veio do plano de matar Lula, Alckmin e Moraes. O que a fala acerta, se 'arma' for lida só como arma de fogo em poder dos manifestantes: nenhuma foi apreendida com eles (Gazeta do Povo), o que vai na ressalva e é a razão da confiança média. É o mesmo dado e a mesma régua do caso 2026-08-28-sabatina-flavio-globo (A009, FALSO). A condenação é definitiva, então não se aplica a cautela de etica-e-risco §5. ⚠️ Veredito pesado sobre a fala de um candidato: exige leitura humana antes de publicar.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "atos de 8 de janeiro de 2023; condenação em 11/09/2025",
+      "ressalva": "Segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com os manifestantes",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Sobre as armas levadas do GSI: no dia 8/1/2023, o então ministro da Secom disse que foram levadas armas letais e não letais (CNN Brasil); segundo o Diário do Poder, o Palácio do Planalto informou depois que as armas levadas não eram letais. O veredito não depende de qual versão está certa, porque as duas confirmam que armas foram levadas.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Imagens do circuito interno da Câmara mostram que os manifestantes usaram sinalizadores, porretes, barras de ferro e estilingues com balas metálicas. [...] Também foram registradas pelas câmeras de segurança cenas de manifestantes invadindo salas do GSI (Gabinete de Segurança Institucional) e roubando caixas de armas e munições. Algumas das armas foram recuperadas posteriormente pela PM-DF.",
+          "prova": "Objetos usados como armas registrados em imagens oficiais, e armas do GSI levadas e parte recuperada: houve arma encontrada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Facas e bolas de gude: como o STF tenta sustentar que multidão do 8/1 estava armada",
+          "url": "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
+          "consultada_em": "2026-10-17",
+          "trecho": "na prática os processos descrevem o \"armamento\" como facas, porretes, barras de ferro, estilingues e bolas de gude. Também falam de pessoas que poderiam ter acesso a armas de fogo - embora nenhuma tenha sido apreendida pelas forças policiais.",
+          "prova": "Fonte crítica ao STF que confirma os objetos descritos nos processos, e base da ressalva sobre arma de fogo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Houve agravante na condenação do ex-presidente por causa do emprego de armas, já que o plano de golpe incluía planos para matar Lula, Geraldo Alckmin (PSB) e Moraes.",
+          "prova": "O fundamento do agravante de armas no processo de Bolsonaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
+          "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Os extremistas, roubaram armas e munição de uma sala do GSI (Gabinete de Segurança Institucional).",
+          "prova": "Armas e munição levadas do GSI, registradas no dia seguinte."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil (texto da Agência Brasil)",
+          "titulo": "Criminosos roubaram armas do GSI no Planalto, diz ministro",
+          "url": "https://www.cnnbrasil.com.br/politica/criminosos-roubaram-armas-do-gsi-no-planalto-diz-ministro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"Armas letais e não-letais foram roubadas pelos criminosos dentro do Palácio do Planalto. Este é mais um crime a ser apurado\", disse o ministro.",
+          "prova": "A versão oficial do dia, uma das duas da divergência registrada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Poder",
+          "titulo": "Vândalos roubaram armas da sala do GSI no Planalto (25/abr/2023)",
+          "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/vandalos-roubaram-armas-da-sala-do-gsi-no-palacio-do-planalto",
+          "consultada_em": "2026-10-17",
+          "trecho": "Caixas contendo armas teriam sido levadas pelos invasores. [...] De acordo com o Palácio do Planalto, as armas levadas não eram letais.",
+          "prova": "A versão oficial posterior, a outra parte da divergência registrada."
+        }
+      ]
+    },
+    {
+      "id": "A124",
+      "veredito": "IMPRECISO",
+      "resumo": "Orlando, onde Bolsonaro estava no 8 de janeiro, fica a cerca de 6,1 mil km de Brasília em linha reta, não a 10 mil",
+      "explicacao": "Os crimes de dano da condenação se referem ao 8 de janeiro de 2023 (CNN Brasil), e nesse dia Jair Bolsonaro estava em Orlando, na Flórida (NPR e CNBC). A distância em linha reta entre os pontos de referência oficiais dos aeroportos de Orlando (FAA, governo dos EUA) e de Brasília (DECEA, Força Aérea) é de cerca de 6,1 mil km; a conta está em `derivacoes`. A essência da fala (ele estava longe, em outro país) está certa; o número não: 10 mil km fica cerca de 64% acima da distância real, muito além da régua de 10% da METODOLOGIA §2.2, por isso IMPRECISO e não VERDADEIRO com ressalva. Mesmo dado, mesma conta e mesmo veredito do caso 2026-08-28-sabatina-flavio-globo (A012, IMPRECISO, onde a fala era 'mais de 10 mil'). A casa onde ele estava fica perto da Disney, a poucos quilômetros do aeroporto, o que não muda a ordem de grandeza.",
+      "numero_dito": "10 mil quilômetros",
+      "numero_apurado": "cerca de 6,1 mil km em linha reta",
+      "data_de_referencia": "8 de janeiro de 2023 (onde ele estava); coordenadas oficiais consultadas em out/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "6,1 mil km",
+          "de": "28-25-45.817 N / 81-18-32.373 W e 15 52 16S/047 55 07W",
+          "como": "distância de grande círculo (haversine, raio médio da Terra de 6.371,0088 km) entre o ponto de referência do aeroporto de Orlando (FAA) e o do aeroporto de Brasília (DECEA): 6.096 km, arredondado para 6,1 mil km"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "NPR",
+          "titulo": "Jair Bolsonaro left Brazil for Florida. This could be why (9/jan/2023)",
+          "url": "https://www.npr.org/2023/01/09/1147812986/why-did-jair-bolsonaro-leave-brazil-for-florida",
+          "consultada_em": "2026-10-17",
+          "trecho": "Brazil's far-right ex-president was lying low in Orlando, Fla., as a mob of his supporters stormed government buildings this weekend.",
+          "prova": "Onde ele estava no dia dos atos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNBC",
+          "titulo": "As Brazil reels from riots, Bolsonaro finds home near Florida (9/jan/2023)",
+          "url": "https://www.cnbc.com/2023/01/09/as-brazil-reels-from-riots-bolsonaro-finds-home-in-florida-.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Former Brazil leader Jair Bolsonaro has decamped to Encore Resort at Reunion near Walt Disney World in Orlando, Florida.",
+          "prova": "Confirma o local em apuração independente."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Federal Aviation Administration (FAA)",
+          "titulo": "Airport Data: MCO, Orlando International",
+          "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/airportDisplay.jsp?airportId=MCO",
+          "consultada_em": "2026-10-17",
+          "trecho": "Latitude/Longitude 28-25-45.817 N / 81-18-32.373 W",
+          "prova": "Coordenada oficial de Orlando, primeira parcela da conta."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "DECEA (Comando da Aeronáutica)",
+          "titulo": "AISWEB, ROTAER: Brasília, Presidente Juscelino Kubitschek (SBBR)",
+          "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBBR",
+          "consultada_em": "2026-10-17",
+          "trecho": "Presidente Juscelino Kubitschek ( SBBR ) / BRASÍLIA , DF 15 52 16S/047 55 07W",
+          "prova": "Coordenada oficial de Brasília, segunda parcela da conta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A condenação também relaciona Bolsonaro aos atos de 8 de janeiro de 2023, quando as sedes dos Três Poderes foram invadidas e depredadas por milhares de pessoas em Brasília.",
+          "prova": "A depredação da condenação é a do 8 de janeiro em Brasília, o ponto de chegada da distância."
+        }
+      ]
+    },
+    {
+      "id": "A125",
+      "veredito": "VERDADEIRO",
+      "resumo": "Dino e Zanin estavam na Primeira Turma e votaram pela condenação; a turma tinha também Moraes, Cármen Lúcia e Fux",
+      "explicacao": "A Primeira Turma do STF, que julgou Bolsonaro na AP 2668, era formada por Alexandre de Moraes (relator), Flávio Dino, Cristiano Zanin (presidente da turma), Cármen Lúcia e Luiz Fux (Poder360). Dino e Zanin votaram, e votaram pela condenação; o placar foi de quatro a um, com divergência só de Fux (STF). A fala confere. O que ela não diz, e vai na ressalva, é que a turma tinha cinco ministros e que Cármen Lúcia também votou pela condenação. Mesmo dado checado no caso 2026-08-28-sabatina-flavio-globo (A015, VERDADEIRO).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "julgamento de 9 a 11 de setembro de 2025",
+      "ressalva": "A turma tinha cinco ministros: Cármen Lúcia também votou pela condenação, e Luiz Fux divergiu",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O placar que definiu a condenação do Núcleo 1 foi de quatro a um. A ministra Cármen Lúcia e o ministro Cristiano Zanin, presidente da Turma, foram os dois últimos a votar. Eles acompanharam o relator, ministro Alexandre de Moraes, e o ministro Flávio Dino, que proferiram votos na última terça (9). A única divergência foi do ministro Luiz Fux, que votou na quarta (10) pela condenação de dois réus em apenas um dos crimes pelos quais respondiam e pela absolvição dos demais.",
+          "prova": "Quem votou e como: Dino e Zanin pela condenação, Fux divergente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Dino rejeita impedimento para julgar denúncia contra Bolsonaro",
+          "url": "https://www.poder360.com.br/poder-justica/dino-rejeita-impedimento-para-julgar-denuncia-contra-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O colegiado é composto pelo relator do caso, Alexandre de Moraes, além de Dino, Zanin, Cármen Lúcia e Luiz Fux.",
+          "prova": "A composição da turma, em texto independente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Moraes vota para condenar Bolsonaro e mais sete por golpe de Estado",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/moraes-vota-para-condenar-bolsonaro-e-mais-sete-por-golpe-de-estado",
+          "consultada_em": "2026-10-17",
+          "trecho": "Depois de Moraes, deve votar o ministro Flávio Dino, ainda na tarde desta terça. Também foram reservadas sessões nos dias 10, 11 e 12 de setembro para finalização do julgamento.",
+          "prova": "Dino entre os votantes do julgamento, em outra fonte."
+        }
+      ]
+    },
+    {
+      "id": "A126",
+      "veredito": "VERDADEIRO",
+      "resumo": "Dino era ministro da Justiça de Lula quando o Senado o aprovou para o STF e saiu do cargo no fim de janeiro de 2024",
+      "explicacao": "Flávio Dino era ministro da Justiça do governo Lula quando o Senado aprovou sua indicação ao STF, em 13 de dezembro de 2023 (Agência Senado). Ele deixou o ministério no fim de janeiro de 2024, quando Ricardo Lewandowski assumiu (Congresso em Foco e Poder360), e tomou posse no STF em 22 de fevereiro (InfoMoney; o Poder360 dava a data prevista). O fato confere: ele chegou ao STF vindo do Ministério da Justiça de Lula. 'Até ontem' é figura de linguagem, porque o julgamento de Bolsonaro foi em setembro de 2025, mais de um ano e meio depois da saída; isso vai na ressalva, como no caso 2026-08-28-sabatina-flavio-globo (A019, mesma régua para o 'até ontem' de Zanin). 'Ministério da Injustiça' é juízo e não é checado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "aprovação no Senado em 13/12/2023; saída do ministério no fim de jan/2024; posse no STF em 22/02/2024",
+      "ressalva": "Dino saiu do ministério no fim de janeiro de 2024; o julgamento de Bolsonaro foi em setembro de 2025",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Com 47 votos favoráveis, Senado aprova Dino para o STF (13/12/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/12/13/com-47-votos-favoraveis-senado-aprova-dino-para-o-stf",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Plenário do Senado aprovou nesta quarta-feira (13) a indicação do senador licenciado e atual ministro da Justiça Flávio Dino para o cargo de ministro do Supremo Tribunal Federal (STF).",
+          "prova": "Dino era ministro da Justiça quando foi aprovado para o STF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Dino e Lewandowski iniciam transição na Justiça (23/01/2024)",
+          "url": "https://www.poder360.com.br/governo/dino-e-lewandowski-iniciam-transicao-na-justica/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro da Justiça e Segurança, Flávio Dino, recebeu nesta 3ª feira (23.jan.2024) o ministro aposentado do STF (Supremo Tribunal Federal) Ricardo Lewandowski para iniciar a transição de comando do ministério. Dino vai para o STF em 22 de fevereiro e no seu lugar ficará Lewandowski, nomeado pelo presidente Luiz Inácio Lula da Silva (PT) na 2ª feira (22.jan) no Diário Oficial da União .",
+          "prova": "Dino seguia ministro em janeiro de 2024 e saiu do ministério para ir ao STF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Lewandowski toma posse como novo ministro da Justiça",
+          "url": "https://www.congressoemfoco.com.br/noticia/8822/lewandowski-toma-posse-como-novo-ministro-da-justica",
+          "consultada_em": "2026-10-17",
+          "trecho": "Durante o período, o cargo ficou com o ministro Flávio Dino, que deixa o governo Lula para ocupar uma cadeira no STF. A posse do indicado de Lula para a Suprema Corte deve ser realizada em 22 de fevereiro.",
+          "prova": "A saída do ministério do governo Lula direto para o STF, em fonte independente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Indicado por Lula, Flávio Dino toma posse como ministro do STF e pode ficar até 2043",
+          "url": "https://www.infomoney.com.br/?p=2382788",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ex-ministro da Justiça e da Segurança Pública Flávio Dino tomou posse nesta quinta-feira (22) como novo ministro do Supremo Tribunal Federal (STF) [...] Depois que deixou o comando do Ministério da Justiça, no fim de janeiro, Dino reassumiu sua cadeira no Senado",
+          "prova": "A posse no STF e a saída do ministério no fim de janeiro."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "9/9/2025 – AP 2668: relator vota pela condenação de todos os réus do Núcleo 1",
+          "prova": "A data do julgamento de Bolsonaro, para medir o 'até ontem'."
+        }
+      ]
+    },
+    {
+      "id": "A127",
+      "veredito": "VERDADEIRO",
+      "resumo": "Dino disse em 2022 que Bolsonaro é 'o próprio demônio'; a expressão 'demônio na Terra' não aparece",
+      "explicacao": "Em entrevista ao UOL News em 8 de abril de 2022, Flávio Dino, então ex-governador do Maranhão, disse sobre Jair Bolsonaro: 'para mim ele é o próprio demônio' (Brasil 247). Em entrevista ao Valor, reproduzida pelo Imirante dias depois, disse esperar 'que o demônio volte para o inferno', falando do bolsonarismo. A atribuição confere no essencial; as palavras exatas não são 'demônio na Terra', o que vai na ressalva: certo no fato, errado no ornamento (METODOLOGIA §2.2). Confiança média porque as duas fontes são veículos que reproduzem as entrevistas, não a gravação. Mesma frase checada no caso 2026-08-28-sabatina-flavio-globo (A018, VERDADEIRO com ressalva), com as mesmas fontes.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "entrevistas de 8 e de 18 de abril de 2022",
+      "ressalva": "As palavras registradas são 'ele é o próprio demônio' (UOL News, abril de 2022), não 'demônio na Terra'",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil 247",
+          "titulo": "'Bolsonaro é o próprio demônio', diz Flávio Dino (8/abr/2022)",
+          "url": "https://www.brasil247.com/brasil/bolsonaro-e-o-proprio-demonio-diz-flavio-dino/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Publicado em 8 de abril de 2022 às 14:17 [...] que não é apenas um seguidor do demônio, para mim ele é o próprio demônio”, disse Dino durante entrevista ao UOL News nesta sexta-feira (8).",
+          "prova": "A frase de Dino sobre Bolsonaro, com data e veículo da entrevista."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Imirante (com entrevista ao Valor)",
+          "titulo": "Flávio Dino defende campanha judicializada contra Bolsonaro em 2022 (18/abr/2022)",
+          "url": "https://imirante.com/noticias/sao-luis/2022/04/18/ipolitica-flavio-dino-defende-campanha-judicializada-contra-bolsonaro-em-2022",
+          "consultada_em": "2026-10-17",
+          "trecho": "nós precisamos que também o bolsonarismo volte para a sua casinha. [Precisamos] que o demônio volte para o inferno”, opinou.",
+          "prova": "Outra fala de Dino, em outra entrevista e outro veículo, com a mesma imagem."
+        }
+      ]
+    },
+    {
+      "id": "A128",
+      "veredito": "VERDADEIRO",
+      "resumo": "Zanin foi indicado ao STF por Lula em junho de 2023 e aprovado pelo Senado por 58 votos a 18",
+      "explicacao": "Cristiano Zanin foi indicado ao STF pelo presidente Lula em 1º de junho de 2023 e aprovado pelo plenário do Senado em 21 de junho, por 58 votos a 18 (Agência Senado e Gazeta do Povo). 'Colocado lá' por Lula confere com a indicação presidencial. 'Amigo do Lula' é qualificação e não é checada; a relação de advogado está em A129. Mesmo dado checado no caso 2026-08-28-sabatina-flavio-globo (A019, VERDADEIRO).",
+      "numero_dito": null,
+      "numero_apurado": "aprovação por 58 votos a 18",
+      "data_de_referencia": "indicação em 01/06/2023; aprovação no Senado em 21/06/2023",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Por 58 votos a 18, Senado aprova Zanin para o STF (21/06/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/06/21/senado-aprova-zanin-para-o-stf-com-58-votos-a-favor-e-18-contrarios",
+          "consultada_em": "2026-10-17",
+          "trecho": "A votação secreta terminou com 58 votos a favor e 18 contrários. [...] Na votação no Plenário, muitos senadores elogiaram a indicação feita pelo presidente Luiz Inácio Lula da Silva",
+          "prova": "A indicação por Lula e a aprovação, na fonte do próprio Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "De advogado de Lula a ministro do STF: confira a trajetória de Cristiano Zanin (11/09/2025)",
+          "url": "https://www.gazetadopovo.com.br/republica/de-advogado-de-lula-a-ministro-do-stf-confira-a-trajetoria-de-cristiano-zanin/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 1º de junho de 2023, Lula anunciou a indicação de Zanin ao STF para a vaga deixada pelo ministro Ricardo Lewandowski . O nome foi aprovado no Senado em 21 de junho, com 58 votos favoráveis e 18 contrários.",
+          "prova": "Data da indicação e placar, em fonte de outra linha editorial."
+        }
+      ]
+    },
+    {
+      "id": "A129",
+      "veredito": "VERDADEIRO",
+      "resumo": "Zanin foi advogado de Lula na Lava Jato e na campanha de 2022, até ser indicado ao STF em 2023",
+      "explicacao": "Antes da indicação ao STF, Cristiano Zanin foi advogado de Lula nos processos da Lava Jato (Agência Brasil), atuou na campanha eleitoral de 2022 e fez parte do gabinete de transição (Gazeta do Povo); nos documentos entregues ao Senado, ele aparecia como defensor do presidente em processos dos cinco anos anteriores (Agência Senado). A indicação foi em junho de 2023, então ele passou da advocacia de Lula ao STF. 'Até ontem' é figura de linguagem: o julgamento de Bolsonaro foi em setembro de 2025, e isso vai na ressalva. Mesma régua e mesmas fontes do caso 2026-08-28-sabatina-flavio-globo (A019, VERDADEIRO com ressalva).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "indicação em 01/06/2023; julgamento de Bolsonaro em setembro de 2025",
+      "ressalva": "A advocacia para Lula terminou com a indicação, em 2023; o julgamento de Bolsonaro foi em 2025",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Por 58 votos a 18, Senado aprova Zanin para o STF (21/06/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/06/21/senado-aprova-zanin-para-o-stf-com-58-votos-a-favor-e-18-contrarios",
+          "consultada_em": "2026-10-17",
+          "trecho": "além dos processos em que atuou como advogado nos últimos cinco anos. Em alguns desses casos, Zanin é defensor do presidente Lula.",
+          "prova": "A advocacia para Lula, nos documentos entregues ao Senado para a sabatina."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Saiba quem é Cristiano Zanin, ex-advogado de Lula indicado ao STF (01/06/2023)",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2023-06/saiba-quem-e-cristiano-zanin-ex-advogado-de-lula-indicado-ao-stf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Foi advogado do presidente Lula nos processos da Operação Lava-Jato.",
+          "prova": "A advocacia na Lava Jato, em texto independente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "De advogado de Lula a ministro do STF: confira a trajetória de Cristiano Zanin (11/09/2025)",
+          "url": "https://www.gazetadopovo.com.br/republica/de-advogado-de-lula-a-ministro-do-stf-confira-a-trajetoria-de-cristiano-zanin/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 1º de junho de 2023, Lula anunciou a indicação de Zanin ao STF [...] Além da defesa pessoal, Zanin atuou na campanha eleitoral de Lula em 2022 e fez parte do gabinete de transição depois da vitória.",
+          "prova": "A atuação para Lula até a transição e a data da indicação."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF condena os oito réus da ação por golpe de Estado (11/09/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-os-oito-reus-da-acao-por-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "9/9/2025 – AP 2668: relator vota pela condenação de todos os réus do Núcleo 1",
+          "prova": "A data do julgamento de Bolsonaro, para medir o 'até ontem'."
+        }
+      ]
+    },
+    {
+      "id": "A130",
+      "veredito": "VERDADEIRO",
+      "resumo": "Reportagem de 13/01/2026 registra Flávio chamando Eduardo de craque em relações internacionais e falando em privilégio",
+      "explicacao": "A InfoMoney publicou em 13/01/2026 que, numa transmissão, Flávio Bolsonaro chamou o irmão Eduardo de 'um craque nas relações internacionais' e disse: 'É um privilégio poder contar com o próprio irmão', no contexto de contar com ele para o Itamaraty caso fosse eleito. A Folha de Pernambuco traz o mesmo texto (as duas reproduzem a mesma apuração e contam como uma fonte). A CartaCapital, em 19/02/2026, registra a mesma fala em outra versão ('Graças a Deus temos um craque em casa nessa parte de relações internacionais'). Isso confirma 'craque' e 'privilégio' e a época, começo de 2026. 'Tê-lo falando em seu nome' é paráfrase de contar com ele no Itamaraty. A terceira expressão da pergunta, não conhecer 'ninguém no Brasil com mais qualidades', não foi localizada nas reportagens consultadas nem na busca; não se achou prova contra ela, só falta de registro. Como as duas expressões do card estão documentadas, o veredito é VERDADEIRO com ressalva, e não INSUSTENTAVEL; confiança média porque nenhuma fonte traz a íntegra ou a data exata da transmissão.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "fala registrada em reportagens de 13/01/2026 e 19/02/2026",
+      "ressalva": "A frase sobre não conhecer ninguém com mais qualidades não foi localizada nas reportagens consultadas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Flávio leva recado de Bolsonaro a Eduardo para moderar discurso contra o Centrão (13/01/2026)",
+          "url": "https://www.infomoney.com.br/?p=3170159",
+          "consultada_em": "2026-10-17",
+          "trecho": "13/01/2026 06h26 [...] Em uma transmissão, Flávio definiu Eduardo como “um craque nas relações internacionais” e disse ser uma honra poder contar com ele para o Itamaraty, caso seja eleito. [...] “Temos um craque em casa, nessa parte de relações internacionais. É um privilégio poder contar com o próprio irmão, ou seja, a lealdade é 100%, é sangue do meu sangue”, declarou Flávio.",
+          "prova": "As expressões 'craque' e 'privilégio', a data da reportagem e o contexto (Eduardo no Itamaraty)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Política externa ganha peso inesperado nas eleições presidenciais de 2026 (19/02/2026)",
+          "url": "https://www.cartacapital.com.br/?p=584717",
+          "consultada_em": "2026-10-17",
+          "trecho": "19.02.2026 16h42 [...] “Graças a Deus temos um craque em casa nessa parte de relações internacionais”, disse Flávio sobre o irmão",
+          "prova": "A fala do 'craque', em apuração de outro veículo, no começo de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Folha de Pernambuco",
+          "titulo": "Centrão avalia que Flávio se precipitou ao cogitar Eduardo para o Itamaraty",
+          "url": "https://www.folhape.com.br/politica/centrao-avalia-que-flavio-se-precipitou-ao-cogitar-eduardo-para-o/460169/",
+          "consultada_em": "2026-10-17",
+          "trecho": "— Temos um craque em casa, nessa parte de relações internacionais. É um privilégio poder contar com o próprio irmão, ou seja, a lealdade é 100%, é sangue do meu sangue — declarou Flávio.",
+          "prova": "Mesmo texto da InfoMoney (reproduz a mesma apuração; apoio, não fonte independente)."
+        }
+      ]
+    }
+  ]
+}

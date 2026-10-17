@@ -1,0 +1,490 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A101",
+      "veredito": "IMPRECISO",
+      "resumo": "Vaccari foi preso em 2015 na Lava Jato, por corrupção ligada à Petrobras, não por fraude em fundos de pensão",
+      "explicacao": "A frase tem duas partes: que Vaccari já foi preso, e que a prisão foi 'exatamente por fraude em fundos de pensão'. A primeira se confirma: o Congresso em Foco e a Exame (Estadão Conteúdo) registram que ele estava preso na Operação Lava Jato desde abril de 2015, com condenações por corrupção passiva, lavagem de dinheiro e organização criminosa, e o próprio TRF-4 descreve o crime como propina do grupo Keppel Fels aceita por funcionários da Petrobras. A segunda não: a Tribuna do Paraná (Estadão) mostra que, nos fundos de pensão, o nome de Vaccari apareceu na CPI da Câmara de 2016, convocado após citações em depoimentos (Youssef disse ter 'ouvido falar' que ele operava fundos como Petros e Funcef), sem prisão por isso. Nas buscas feitas não apareceu prisão de Vaccari por fraude em fundos de pensão. O essencial (já foi preso) está certo e o motivo está errado; pela árvore da METODOLOGIA §2.1, é IMPRECISO, e não FALSO, porque a prisão existiu. Confiança média porque a ausência de outra prisão foi inferida das fontes da Lava Jato, não de certidão. Não há checagem anterior deste dado nos casos de 15/out e 28/ago.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "prisão de abril de 2015 (Lava Jato); CPI dos Fundos de Pensão de 2016",
+      "ressalva": "A prisão existiu, mas pela Lava Jato; fundos de pensão aparecem só em citações na CPI de 2016",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Vaccari tem pena de prisão elevada de dez para 24 anos na Lava Jato (07/11/2017)",
+          "url": "https://congressoemfoco.com.br/noticia/29032/vaccari-tem-pena-de-prisao-elevada-de-dez-para-24-anos-na-lava-jato",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Vaccari, direta ou indiretamente, em unidade de desígnios e de modo consciente e voluntário, em razão de sua posição no núcleo político por ele integrado, solicitou, aceitou e recebeu para si e para o Partido dos Trabalhadores os valores espúrios oferecidos pelo Grupo Keppel Fels e aceitos também pelos funcionários da Petrobras, agindo assim como beneficiário da corrupção”, diz trecho do despacho.",
+          "prova": "Mostra que a condenação mantida pelo TRF-4 é por corrupção ligada à Petrobras, não a fundos de pensão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Exame (Estadão Conteúdo)",
+          "titulo": "Ex-tesoureiro do PT fica na cadeia da Lava Jato (05/07/2017)",
+          "url": "https://exame.com/brasil/ex-tesoureiro-do-pt-fica-na-cadeia-da-lava-jato/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Tribunal Regional Federal da 4ª Região (TRF-4) negou liberdade para o ex-tesoureiro do PT João Vaccari Neto - preso na Operação Lava Jato desde abril de 2015.",
+          "prova": "Data e operação da prisão: Lava Jato, abril de 2015."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna do Paraná (Estadão Conteúdo)",
+          "titulo": "Vaccari permanecerá calado em depoimento à CPI dos Fundos de Pensão (03/02/2016)",
+          "url": "https://www.tribunapr.com.br/noticias/politica/vaccari-permanecera-calado-em-depoimento-a-cpi-dos-fundos-de-pensao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ex-tesoureiro do PT está preso em Curitiba pelo seu envolvimento na Lava Jato. Ele já foi condenado em primeira instância a 15 anos e quatro meses de prisão pelos crimes de corrupção passiva, lavagem de dinheiro e associação criminosa. Além disso, terá de pagar multa de R$ 4,3 milhões. Na CPI dos Fundos de Pensão, Vaccari foi convocado após seu nome aparecer em depoimentos de pessoas envolvidas em suposta manipulação na gestão dessas instituições.",
+          "prova": "Separa as duas frentes: preso pela Lava Jato; nos fundos de pensão, apenas convocado pela CPI após citações em depoimentos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna do Paraná (Estadão Conteúdo)",
+          "titulo": "Justiça abre ação contra Vaccari, Renato Duque e 25 investigados na Lava Jato (23/03/2015)",
+          "url": "https://www.tribunapr.com.br/noticias/politica/justica-abre-acao-contra-vaccari-renato-duque-e-25-investigados-na-lava-jato/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Justiça Federal no Paraná abriu ação penal contra o tesoureiro do PT João Vaccari Neto e o ex-diretor de Serviços da Petrobras, Renato Duque, por corrupção e lavagem de dinheiro.",
+          "prova": "A primeira ação penal contra Vaccari, às vésperas da prisão, trata de corrupção na Petrobras."
+        }
+      ]
+    },
+    {
+      "id": "A102",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Os 10% são relato de Vorcaro em delação rejeitada, sem prova; R$ 1 bi seria a comissão, não o valor a investir",
+      "explicacao": "O que está documentado: a revista Veja publicou em 9/out/2026 relato atribuído a Daniel Vorcaro, num anexo de delação rejeitada, segundo o qual Vaccari teria exigido 10% de tudo o que o Banco Master captasse nos fundos de pensão das estatais (reprodução da Veja no TNH1; NC News e Jornal Correio como apoio, que também reproduzem a reportagem, o que se declara aqui). A PGR não deu andamento por falta de prova dos pagamentos, a PF disse não ter recebido material com esse conteúdo, e o caso está em apuração a partir de uma notícia-crime (etica-e-risco §5): por isso o veredito não pode ser VERDADEIRO nem FALSO e fica INSUSTENTAVEL. Há ainda um descompasso de número mesmo dentro do relato de Vorcaro: R$ 1 bilhão não era o valor que Vaccari ofereceria para investir no Master, mas a comissão projetada de 10% sobre até R$ 10 bilhões captados. Nada aqui afirma que a cobrança ocorreu ou não ocorreu.",
+      "numero_dito": "R$ 1 bilhão oferecidos para investir e propina de 10%",
+      "numero_apurado": "no relato de Vorcaro, 10% sobre o captado, com até R$ 1 bilhão de comissão sobre até R$ 10 bilhões; sem comprovação",
+      "data_de_referencia": "relato atribuído a Vorcaro, divulgado em 9/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Veja diz que mensagens no celular de Vorcaro ajudam a corroborar o relato; a PF diz não ter recebido depoimento nem anexos com esse conteúdo, e a PGR não viu prova dos pagamentos.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução da reportagem da revista Veja)",
+          "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo (09/10/2026)",
+          "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação.",
+          "prova": "É a origem do número: na versão de Vorcaro, R$ 1 bilhão seria a comissão de 10% sobre o que o banco captasse, e não o valor oferecido para investir."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "NC News",
+          "titulo": "Vorcaro financiou filme de Lula com dinheiro ilegal? O que a PF diz sobre a denúncia (09/10/2026)",
+          "url": "https://ncnews.com.br/?p=59915",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ex-banqueiro estimou que as operações poderiam chegar a R$ 10 bilhões, o que representaria até R$ 1 bilhão em comissões. Esses números são projeções do próprio Vorcaro, não valores comprovadamente investidos ou pagos.",
+          "prova": "Confirma, por outra redação, que R$ 1 bilhão é a comissão projetada sobre até R$ 10 bilhões, e que são números do próprio Vorcaro, sem comprovação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Correio (Salvador)",
+          "titulo": "Vorcaro afirma que pagou R$ 30 milhões para filme sobre Lula para obter negócios com fundos de pensão, diz revista (09/10/2026)",
+          "url": "https://www.correio24horas.com.br/brasil/vorcaro-afirma-que-pagou-r-30-milhoes-para-filme-sobre-lula-para-obter-negocios-com-fundos-de-pensao-diz-revista-1026",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com a publicação, a PGR não deu andamento às acusações por considerar que não havia provas dos pagamentos, supostamente feitos em dinheiro vivo.",
+          "prova": "Mostra que a acusação vem de anexo de delação rejeitada e que a PGR não lhe deu andamento por falta de prova dos pagamentos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco (íntegra da nota da Polícia Federal)",
+          "titulo": "PF nega que Vorcaro tenha deposto sobre dinheiro a filme de Lula (09/10/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/123145/pf-nega-que-vorcaro-tenha-deposto-sobre-dinheiro-a-filme-de-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "que Daniel Vorcaro não prestou depoimento com o teor relatado na matéria, tampouco entregou à instituição anexos, documentos ou informações com o conteúdo ali descrito. As propostas de colaboração premiada que foram apresentadas à PF pela defesa do investigado não foram acolhidas em razão do não atendimento aos requisitos legais, conforme decisão fundamentada de conhecimento da defesa. Por fim, a Polícia Federal informa que recebeu, nesta sexta-feira (9/10), notícia-crime com pedido de providências urgentes para apuração de fatos relacionados à publicação mencionada.",
+          "prova": "Íntegra da nota oficial da PF: a corporação diz que não recebeu relato nem anexos com esse conteúdo e que a notícia-crime sobre os fatos só agora seguiu para apuração."
+        }
+      ]
+    },
+    {
+      "id": "A103",
+      "veredito": "FALSO",
+      "resumo": "A PF negou ter recebido de Vorcaro depoimento ou anexos com esse relato e só agora recebeu pedido de apuração",
+      "explicacao": "A alegação é sobre a posição da Polícia Federal, não sobre o mérito da acusação. Em nota oficial de 9/out/2026 (íntegra no Congresso em Foco; reproduzida também pela Revista Oeste e pelo Muita Informação, que dependem da mesma nota, o que se declara), a PF afirmou que Vorcaro não prestou depoimento com o teor relatado pela Veja, não entregou anexos com aquele conteúdo, teve as propostas de delação rejeitadas e que a notícia-crime sobre os fatos acabava de ser encaminhada para apuração. A própria Veja (reproduzida no TNH1) só diz que mensagens obtidas pela PF registram contatos para reuniões com dirigentes de fundos, o que é diferente de a PF confirmar a oferta e a propina atribuídas a Vaccari. Como a fonte oficial contradiz diretamente a frase 'está confirmado pela Polícia Federal', o veredito é FALSO e não INSUSTENTAVEL. Ele não julga se a cobrança aconteceu: esse ponto segue em apuração (etica-e-risco §5). Nas buscas da rodada não apareceu manifestação posterior da PF, até 16/out, que confirmasse o relato.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "nota da PF de 9/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco (íntegra da nota da Polícia Federal)",
+          "titulo": "PF nega que Vorcaro tenha deposto sobre dinheiro a filme de Lula (09/10/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/123145/pf-nega-que-vorcaro-tenha-deposto-sobre-dinheiro-a-filme-de-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "que Daniel Vorcaro não prestou depoimento com o teor relatado na matéria, tampouco entregou à instituição anexos, documentos ou informações com o conteúdo ali descrito. As propostas de colaboração premiada que foram apresentadas à PF pela defesa do investigado não foram acolhidas em razão do não atendimento aos requisitos legais, conforme decisão fundamentada de conhecimento da defesa. Por fim, a Polícia Federal informa que recebeu, nesta sexta-feira (9/10), notícia-crime com pedido de providências urgentes para apuração de fatos relacionados à publicação mencionada.",
+          "prova": "Íntegra da nota oficial da PF: a corporação diz que não recebeu relato nem anexos com esse conteúdo e que a notícia-crime sobre os fatos só agora seguiu para apuração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste",
+          "titulo": "PF diz que Vorcaro não prestou depoimento sobre pagamentos a filme de Lula (09/10/2026)",
+          "url": "https://www.revistaoeste.com/politica/relato-de-vorcaro-filme-lula-pf/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A publicação também atribui a Vorcaro acusações de cobrança de propina de 10% sobre os valores captados e cita Alexandre Padilha e Olavo Noleto. Veja sustenta que um anexo sobre o assunto foi levado à Procuradoria-Geral da República (PGR) — órgão distinto da PF, que informou não ter recebido material com esse conteúdo.",
+          "prova": "Mostra que a acusação dos 10% é atribuída a Vorcaro pela Veja e que a PF informou não ter recebido material com esse conteúdo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Muita Informação",
+          "titulo": "PF desmente suposto depoimento de Vorcaro sobre repasse de R$ 30 milhões a filme sobre Lula (09/10/2026)",
+          "url": "https://muitainformacao.com.br/politica/pf-desmente-suposto-depoimento-de-vorcaro-sobre-repasse-de-r-30-milhoes-a-filme-sobre-lula/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Federal negou que o ex-banqueiro Daniel Vorcaro tenha deposto sobre supostos repasses para um filme de Lula. A corporação afirmou não ter recebido documentos ou informações da defesa do empresário com esse conteúdo. A PF recebeu uma notícia-crime sobre o caso e encaminhou a solicitação à área técnica",
+          "prova": "Segunda reprodução da nota da PF (com informação da CNN Brasil): a PF nega ter recebido o material e trata o caso como pedido de apuração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução da reportagem da revista Veja)",
+          "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo (09/10/2026)",
+          "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação.",
+          "prova": "É a origem do número: na versão de Vorcaro, R$ 1 bilhão seria a comissão de 10% sobre o que o banco captasse, e não o valor oferecido para investir."
+        }
+      ]
+    },
+    {
+      "id": "A104",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PF disse não ter recebido de Vorcaro relato ou anexos com esse teor; o caso entrou em pedido de apuração",
+      "explicacao": "A frase da apresentadora é a negação da A103 e passa pela mesma régua e pelas mesmas fontes. A nota oficial da PF de 9/out/2026 (íntegra no Congresso em Foco; reproduzida pela Revista Oeste e pelo Muita Informação, que dependem da mesma nota, o que se declara) diz que Vorcaro não prestou depoimento com o teor relatado nem entregou anexos com aquele conteúdo, e que a notícia-crime sobre os fatos foi encaminhada para apuração. Logo, a PF não confirmou a oferta nem a propina atribuídas a Vaccari, e o veredito é VERDADEIRO. Ele não diz que a cobrança não aconteceu: o mérito segue em apuração (etica-e-risco §5). A ressalva registra que, segundo a Veja, mensagens obtidas pela PF mostram contatos com dirigentes de fundos.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "nota da PF de 9/out/2026",
+      "ressalva": "Segundo a Veja, mensagens no celular de Vorcaro obtidas pela PF mostram contatos com dirigentes de fundos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco (íntegra da nota da Polícia Federal)",
+          "titulo": "PF nega que Vorcaro tenha deposto sobre dinheiro a filme de Lula (09/10/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/123145/pf-nega-que-vorcaro-tenha-deposto-sobre-dinheiro-a-filme-de-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "que Daniel Vorcaro não prestou depoimento com o teor relatado na matéria, tampouco entregou à instituição anexos, documentos ou informações com o conteúdo ali descrito. As propostas de colaboração premiada que foram apresentadas à PF pela defesa do investigado não foram acolhidas em razão do não atendimento aos requisitos legais, conforme decisão fundamentada de conhecimento da defesa. Por fim, a Polícia Federal informa que recebeu, nesta sexta-feira (9/10), notícia-crime com pedido de providências urgentes para apuração de fatos relacionados à publicação mencionada.",
+          "prova": "Íntegra da nota oficial da PF: a corporação diz que não recebeu relato nem anexos com esse conteúdo e que a notícia-crime sobre os fatos só agora seguiu para apuração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste",
+          "titulo": "PF diz que Vorcaro não prestou depoimento sobre pagamentos a filme de Lula (09/10/2026)",
+          "url": "https://www.revistaoeste.com/politica/relato-de-vorcaro-filme-lula-pf/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A publicação também atribui a Vorcaro acusações de cobrança de propina de 10% sobre os valores captados e cita Alexandre Padilha e Olavo Noleto. Veja sustenta que um anexo sobre o assunto foi levado à Procuradoria-Geral da República (PGR) — órgão distinto da PF, que informou não ter recebido material com esse conteúdo.",
+          "prova": "Mostra que a acusação dos 10% é atribuída a Vorcaro pela Veja e que a PF informou não ter recebido material com esse conteúdo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Muita Informação",
+          "titulo": "PF desmente suposto depoimento de Vorcaro sobre repasse de R$ 30 milhões a filme sobre Lula (09/10/2026)",
+          "url": "https://muitainformacao.com.br/politica/pf-desmente-suposto-depoimento-de-vorcaro-sobre-repasse-de-r-30-milhoes-a-filme-sobre-lula/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Federal negou que o ex-banqueiro Daniel Vorcaro tenha deposto sobre supostos repasses para um filme de Lula. A corporação afirmou não ter recebido documentos ou informações da defesa do empresário com esse conteúdo. A PF recebeu uma notícia-crime sobre o caso e encaminhou a solicitação à área técnica",
+          "prova": "Segunda reprodução da nota da PF (com informação da CNN Brasil): a PF nega ter recebido o material e trata o caso como pedido de apuração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução da reportagem da revista Veja)",
+          "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo (09/10/2026)",
+          "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação.",
+          "prova": "É a origem do número: na versão de Vorcaro, R$ 1 bilhão seria a comissão de 10% sobre o que o banco captasse, e não o valor oferecido para investir."
+        }
+      ]
+    },
+    {
+      "id": "A105",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio acusou o governo Lula de aparelhar a PF em maio, agosto e outubro, segundo a imprensa",
+      "explicacao": "A pergunta afirma que o candidato critica com frequência o aparelhamento da PF. Há registro em pelo menos três momentos da pré-campanha e da campanha: em 16/mai, em Sorocaba, ele disse que o governo 'aparelharam até a Polícia Federal' (Agência O Globo, na Folha PE); em 4/ago, na sabatina do G4 e O Antagonista, falou em 'interferência' da PF na investigação do filho de Lula (Diário do Grande ABC); em 3/out, em Americana, disse que o PT aparelhou as instituições e pôs parte da PF para perseguir adversários (Estadão Conteúdo no O Liberal e AFP no Jornal do Comércio, duas agências distintas). 'Constantemente' não tem métrica; três ocasiões espalhadas por cinco meses, com a mesma acusação, sustentam a leitura de crítica recorrente, por isso VERDADEIRO. Confiança média porque frequência é inferida de registros de imprensa, não de levantamento completo.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de 16/mai, 4/ago e 3/out de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Folha PE (Agência O Globo)",
+          "titulo": "Em evento da direita em SP sem Tarcísio, Flávio diz que estão tentando 'enterrá-lo vivo' (16/05/2026)",
+          "url": "https://www.folhape.com.br/noticia/amp/487848/em-evento-da-direita-em-sp-sem-tarcisio-flavio-diz-que-estao-tentando/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Um governo corrupto, um governo que persegue adversários políticos, vocês acabaram de ver. Eles aparelharam até a Polícia Federal, trocaram o delegado que quebrou o sigilo do Lulinha para tentar manipular as investigações – falou.",
+          "prova": "Registro de maio da acusação de aparelhamento da PF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Flávio Bolsonaro acusa PF de tentar burlar relatoria escolhida para investigações de Lulinha (04/08/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4339254/flavio-bolsonaro-acusa-pf-de-tentar-burlar-relatoria-escolhida-para-investigacoes-de-lulinha",
+          "consultada_em": "2026-10-17",
+          "trecho": "Alguém concorda que o que está acontecendo na investigação do filho do Lula, essa interferência que existe por parte da própria Polícia Federal nas investigações, é uma coisa normal?",
+          "prova": "Registro de agosto da mesma linha de crítica à PF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Flávio Bolsonaro acusa PT de aparelhar instituições e PF de perseguir adversários, sem provas (03/10/2026)",
+          "url": "https://www.oliberal.com/politica/flavio-bolsonaro-acusa-pt-de-aparelhar-instituicoes-e-pf-de-perseguir-adversarios-sem-provas-1.1176432",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao tratar sobre dificuldades na campanha, afirmou: \"Eles aparelharam as instituições e botaram uma parte da Polícia Federal, por exemplo, para perseguir adversários políticos em vários Estados\", disse, sem apresentar provas.",
+          "prova": "Registro de outubro, já na campanha do 2º turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Comércio (AFP)",
+          "titulo": "Flávio Bolsonaro acusa PT de aparelhar instituições e PF de perseguir adversários, sem provas (03/10/2026)",
+          "url": "https://www.jornaldocomercio.com/politica/2026/10/1265568-flavio-bolsonaro-acusa-pt-de-aparelhar-instituicoes-e-pf-de-perseguir-adversarios-sem-provas.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O candidato à Presidência Flávio Bolsonaro (PL) acusou neste sábado (3) sem apresentar provas, o Partido dos Trabalhadores de aparelhar instituições e colocar parte da Polícia Federal para perseguir adversários políticos .",
+          "prova": "Segunda agência registrando a mesma declaração de outubro."
+        }
+      ]
+    },
+    {
+      "id": "A106",
+      "veredito": "VERDADEIRO",
+      "resumo": "A transcrição da reunião registra: se não puder trocar, troca o chefe dele; não pode, troca o ministro",
+      "explicacao": "A citação da apresentadora foi conferida contra a transcrição da reunião ministerial de 22/abr/2020, liberada pelo STF e publicada na íntegra pelo Poder360 e pela CNN Brasil (dois veículos que transcrevem o mesmo registro oficial, o que se declara). O trecho tem as três partes citadas: a menção à família ('Eu não vou esperar foder a minha família toda'), a impossibilidade de trocar 'alguém da segurança na ponta da linha' e a sequência 'Se não puder trocar, troca o chefe dele! Não pode trocar o chefe dele? Troca o ministro!'. A apresentadora suprimiu o palavrão e encurtou a frase, sem mudar o sentido; por isso VERDADEIRO. O Diário do Nordeste registra a mesma fala.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "reunião ministerial de 22/abr/2020",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (transcrição divulgada por decisão do STF)",
+          "titulo": "Leia a íntegra da transcrição da reunião ministerial de 22 de abril",
+          "url": "https://poder360.com.br/governo/leia-a-transcricao-dos-trechos-da-reuniao-ministerial-destacados-pelo-stf/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Eu não vou esperar foder a minha família toda, de sacanagem, ou amigos meu, porque eu não posso trocar alguém da segurança na ponta da linha que pertence a estrutura nossa. Vai trocar! Se não puder trocar, troca o chefe dele! Não pode trocar o chefe dele? Troca o ministro! E ponto final!",
+          "prova": "É a fala literal de Jair Bolsonaro na reunião, com as mesmas três partes citadas pela apresentadora: a família, a troca na ponta da linha e a troca do chefe ou do ministro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Reunião ministerial de Bolsonaro: assista ao vídeo na íntegra e leia transcrição",
+          "url": "https://www.cnnbrasil.com.br/politica/assista-ao-video-da-reuniao-ministerial-com-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Já tentei trocar gente da segurança nossa no Rio de Janeiro, oficialmente, e não consegui! E isso acabou. Eu não vou esperar foder a minha família toda, de sacanagem, ou amigos meu, porque eu não posso trocar alguém da segurança na ponta da linha que pertence a estrutura nossa",
+          "prova": "Segunda transcrição publicada, por outro veículo, do mesmo trecho da reunião."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Nordeste",
+          "titulo": "Veja principais trechos de reunião ministerial de Bolsonaro",
+          "url": "https://diariodonordeste.verdesmares.com.br/politica/veja-principais-trechos-de-reuniao-ministerial-de-bolsonaro-1.2248477",
+          "consultada_em": "2026-10-17",
+          "trecho": "Bolsonaro afirmou que, se não conseguisse mudar os comandos da \"segurança\" no Rio de Janeiro, onde reside parte de sua família, poderia trocar de ministro para evitar que seus parentes se tornassem alvos de investigações. Em 23 de abril, o então ministro da Justiça, Sérgio Moro pediu demissão. Em seu lugar, assumiu André Mendonça.",
+          "prova": "Registra a saída de Moro do Ministério da Justiça e a posse de André Mendonça em seu lugar, depois da reunião."
+        }
+      ]
+    },
+    {
+      "id": "A107",
+      "veredito": "VERDADEIRO",
+      "resumo": "Depois da reunião, Moro deixou o Ministério da Justiça e André Mendonça assumiu em seu lugar",
+      "explicacao": "A frase diz que o presidente 'de fato trocou o ministro'. O ministro da Justiça mudou: o Diário do Nordeste registra que Moro pediu demissão e que André Mendonça assumiu em seu lugar, e A Gazeta (Estadão) registra que Moro anunciou a demissão acusando o presidente de querer trocar a chefia da PF e superintendentes como o do Rio; o Congresso em Foco liga a superintendência do Rio à saída de Moro e registra que Bolsonaro nega o motivo. O essencial, a troca do titular da pasta, confere; a forma (Moro pediu para sair, não foi demitido) vai na ressalva, porque 'trocou' não afirma demissão. Por isso VERDADEIRO com ressalva, e não IMPRECISO. A data exata da saída não entra no card porque o Diário do Nordeste traz 23 de abril e não foi capturada uma segunda fonte com a data.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "abril de 2020",
+      "ressalva": "Moro pediu demissão; não foi demitido pelo presidente",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Nordeste",
+          "titulo": "Veja principais trechos de reunião ministerial de Bolsonaro",
+          "url": "https://diariodonordeste.verdesmares.com.br/politica/veja-principais-trechos-de-reuniao-ministerial-de-bolsonaro-1.2248477",
+          "consultada_em": "2026-10-17",
+          "trecho": "Bolsonaro afirmou que, se não conseguisse mudar os comandos da \"segurança\" no Rio de Janeiro, onde reside parte de sua família, poderia trocar de ministro para evitar que seus parentes se tornassem alvos de investigações. Em 23 de abril, o então ministro da Justiça, Sérgio Moro pediu demissão. Em seu lugar, assumiu André Mendonça.",
+          "prova": "Registra a saída de Moro do Ministério da Justiça e a posse de André Mendonça em seu lugar, depois da reunião."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (com Estadão)",
+          "titulo": "Novo diretor da PF muda chefe no Rio, área que interessa a Bolsonaro e filhos (04/05/2020)",
+          "url": "https://www.agazeta.com.br/brasil/novo-diretor-da-pf-muda-chefe-no-rio-area-que-interessa-a-bolsonaro-e-filhos-0520",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao anunciar demissão do governo Bolsonaro, o ex-ministro Sergio Moro afirmou que Bolsonaro havia expressado não apenas o desejo de trocar a chefia da PF, como o de superintendentes, como o do Rio de Janeiro .",
+          "prova": "Confirma que Moro deixou o governo pedindo demissão e o motivo que ele alegou."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Polícia Federal troca superintendente da PF no Rio e outros cinco estados (26/05/2020)",
+          "url": "https://www.congressoemfoco.com.br/noticia/23493/policia-federal-troca-superintendente-da-pf-no-rio-e-outros-cinco-estados",
+          "consultada_em": "2026-10-17",
+          "trecho": "Entre os nomeados está o delegado Tácio Muzzi, oficializado como superintendente estadual da PF no Rio de Janeiro. O cargo foi pivô da saída do ex-diretor-geral Maurício Valeixo e do ex-ministro Sergio Moro . O presidente Jair Bolsonaro queria trocar o chefe da PF no estado para, segundo Moro, tentar proteger sua família. Bolsonaro nega.",
+          "prova": "Confirma a troca no Rio em 2020 e liga o cargo à saída de Moro, registrando que Bolsonaro nega o motivo apontado pelo ex-ministro."
+        }
+      ]
+    },
+    {
+      "id": "A108",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2020, o MP do Rio denunciou Flávio no caso das rachadinhas, investigação aberta a partir de relatório do Coaf",
+      "explicacao": "A pergunta afirma apenas que havia casos envolvendo o candidato na época; não afirma culpa, e esta checagem também não. Está documentado: em novembro de 2020 o MP-RJ ofereceu denúncia contra Flávio Bolsonaro no caso das 'rachadinhas' na Alerj (Correio Braziliense; Folhapress no DOL), e em maio de 2020 A Gazeta (Estadão) o descrevia como 'investigado pela prática'. A palavra 'fachadinhas' da transcrição não foi usada como apoio, como pede o o_que_conferir. A existência das investigações confere com as fontes, por isso VERDADEIRO; o mérito da acusação não é objeto deste veredito.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "maio e novembro de 2020",
+      "ressalva": "O veredito trata da existência da investigação, não do mérito da acusação",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "MP denuncia Flávio Bolsonaro e Queiroz por esquema de rachadinha (04/11/2020)",
+          "url": "https://www.correiobraziliense.com.br/politica/2020/11/4886510-mp-denuncia-flavio-bolsonaro-e-queiroz-por-esquema-de-rachadinha.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Ministério Público do Estado do Rio de Janeiro (MP-RJ) ofereceu denúncia ao Órgão Especial do Tribunal de Justiça (TJ) do Rio contra o senador Flávio Bolsonaro (Republicanos) no caso das \"rachadinhas\" na Assembleia Legislativa do Estado (Alerj).",
+          "prova": "Registra a denúncia de 2020 contra o candidato."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "DOL (Folhapress)",
+          "titulo": "Flávio Bolsonaro é denunciado por organização criminosa, peculato, lavagem e apropriação (04/11/2020)",
+          "url": "https://dol.com.br/noticias/brasil/614084/flavio-bolsonaro-e-denunciado-por-organizacao-criminosa-peculato-lavagem-e-apropriacao",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Ministério Público do Rio de Janeiro denunciou o senador Flávio Bolsonaro (Republicanos-RJ), o ex-assessor Fabrício Queiroz e outros 15 investigados pela prática dos crimes de organização criminosa, peculato, lavagem de dinheiro e apropriação indébita no caso de suposta \"rachadinha\" na Assembleia Legislativa fluminense.",
+          "prova": "Segunda agência registrando a mesma denúncia."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (com Estadão)",
+          "titulo": "Novo diretor da PF muda chefe no Rio, área que interessa a Bolsonaro e filhos (04/05/2020)",
+          "url": "https://www.agazeta.com.br/brasil/novo-diretor-da-pf-muda-chefe-no-rio-area-que-interessa-a-bolsonaro-e-filhos-0520",
+          "consultada_em": "2026-10-17",
+          "trecho": "A operação não mirou Flávio Bolsonaro (PSL-RJ), senador e filho do presidente investigado pela prática, mas levou à produção de relatório do Conselho de Controle de Atividades Financeiras (Coaf) que detectou a movimentação atípica de R$ 1,2 milhão na conta do ex-assessor parlamentar Fabrício Queiroz.",
+          "prova": "Mostra que em maio de 2020, mês seguinte à reunião, o candidato já era descrito como investigado."
+        }
+      ]
+    },
+    {
+      "id": "A109",
+      "veredito": "VERDADEIRO",
+      "resumo": "O chefe da PF no Rio foi trocado em 2019, após anúncio de Bolsonaro, e de novo em 2020",
+      "explicacao": "A frase diz que o presidente trocou o superintendente da PF no Rio 'na época'. Houve duas trocas: em agosto de 2019 Bolsonaro anunciou a saída de Ricardo Saadi, exonerado no fim do mês (IstoÉ Dinheiro, Estadão Conteúdo); em maio de 2020, depois da saída de Moro, o novo diretor-geral nomeado pelo presidente trocou Carlos Henrique Oliveira por Tácio Muzzi (Metrópoles; Congresso em Foco). Qualquer que seja a troca a que o candidato se refere, ela ocorreu, por isso VERDADEIRO. A ressalva registra que formalmente a escolha cabe ao diretor-geral da PF e a portaria foi do Ministério da Justiça. O motivo alegado é checado à parte, na A110.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "agosto de 2019 e maio de 2020",
+      "ressalva": "Formalmente, a escolha cabe ao diretor-geral da PF, e a nomeação saiu em portaria do Ministério da Justiça",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "IstoÉ Dinheiro (Estadão Conteúdo)",
+          "titulo": "Superintendente da PF no Rio é exonerado (30/08/2019)",
+          "url": "https://istoedinheiro.com.br/superintendente-da-pf-no-rio-e-exonerado",
+          "consultada_em": "2026-10-17",
+          "trecho": "A troca do superintendente do Rio foi antecipada por Bolsonaro, em entrevista a jornalistas, no dia 15, quando alegou “questão de produtividade”. A declaração surpreendeu a cúpula da PF que, horas depois, em nota, contradisse o presidente ao afirmar que a substituição já estava planejada e não tinha “qualquer relação com desempenho”.",
+          "prova": "Registra a troca de 2019, anunciada por Bolsonaro com a justificativa de produtividade, e a nota da PF que a contradisse."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Tácio Muzzi é nomeado superintendente da Polícia Federal no Rio de Janeiro (26/05/2020)",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/tacio-muzzi-e-nomeado-superintendente-da-policia-federal-no-rio-de-janeiro",
+          "consultada_em": "2026-10-17",
+          "trecho": "No Rio, Muzzi substitui Carlos Henrique Oliveira, que foi confirmado no dia 5 de maio como o novo diretor-executivo da PF, segundo cargo mais importante da corporação.",
+          "prova": "Registra a troca do superintendente da PF no Rio em maio de 2020, depois da saída de Moro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Polícia Federal troca superintendente da PF no Rio e outros cinco estados (26/05/2020)",
+          "url": "https://www.congressoemfoco.com.br/noticia/23493/policia-federal-troca-superintendente-da-pf-no-rio-e-outros-cinco-estados",
+          "consultada_em": "2026-10-17",
+          "trecho": "Entre os nomeados está o delegado Tácio Muzzi, oficializado como superintendente estadual da PF no Rio de Janeiro. O cargo foi pivô da saída do ex-diretor-geral Maurício Valeixo e do ex-ministro Sergio Moro . O presidente Jair Bolsonaro queria trocar o chefe da PF no estado para, segundo Moro, tentar proteger sua família. Bolsonaro nega.",
+          "prova": "Confirma a troca no Rio em 2020 e liga o cargo à saída de Moro, registrando que Bolsonaro nega o motivo apontado pelo ex-ministro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília (Estadão Conteúdo)",
+          "titulo": "PF contraria Bolsonaro e diz que troca de chefia no Rio não é por desempenho (15/08/2019)",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pf-contraria-bolsonaro-e-diz-que-troca-de-chefia-no-rio-nao-e-por-desempenho/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A definição dos superintendentes regionais é de responsabilidade apenas do diretor-geral da Polícia Federal, Maurício Valeixo.",
+          "prova": "Base da ressalva: formalmente, quem escolhe o superintendente é o diretor-geral da PF."
+        }
+      ]
+    },
+    {
+      "id": "A110",
+      "veredito": "FALSO",
+      "resumo": "Em nota, a PF disse que a troca no Rio não tinha relação com o desempenho do superintendente",
+      "explicacao": "O motivo 'maus resultados' é o que Bolsonaro disse em agosto de 2019, ao anunciar a troca de Ricardo Saadi por 'questão de produtividade'. A Polícia Federal, responsável pela superintendência, respondeu em nota oficial (íntegra no Poder360; também registrada pela IstoÉ Dinheiro, Estadão Conteúdo) que a troca estava planejada havia meses por desejo do próprio superintendente e não guardava 'qualquer relação com o desempenho'; no dia seguinte o próprio presidente disse 'Eu não falei falta de produtividade' (Gazeta de S.Paulo). Se a referência for à troca de 2020, não foi achada justificativa de maus resultados, e Moro disse que nenhuma razão aceitável lhe foi apresentada. Há prova do contrário vinda da instituição, e não apenas falta de prova, por isso FALSO e não INSUSTENTAVEL. Não se apura aqui nenhuma conduta: o veredito é sobre o motivo declarado da troca.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "agosto de 2019",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "O presidente atribuiu a troca à produtividade em 15/ago/2019; a PF negou no mesmo dia, e o presidente recuou da expressão no dia seguinte.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (íntegra da nota da Polícia Federal)",
+          "titulo": "PF anuncia novo superintendente no Rio; Bolsonaro critica, mas recua (16/08/2019)",
+          "url": "https://www.poder360.com.br/governo/pf-anuncia-novo-superintendente-no-rio-bolsonaro-critica-mas-recua/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“A Polícia Federal informa, em relação à substituição do Superintendente Regional no Estado do Rio de Janeiro, que a troca da autoridade máxima do órgão no estado já estava sendo planejada há alguns meses e o motivo da providência é o desejo manifestado, pelo próprio policial, de vir trabalhar em Brasília, não guardando qualquer relação com o desempenho do atual ocupante do cargo.",
+          "prova": "Íntegra da nota oficial da PF: a troca no Rio foi por pedido do próprio superintendente e não tinha relação com desempenho."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IstoÉ Dinheiro (Estadão Conteúdo)",
+          "titulo": "Superintendente da PF no Rio é exonerado (30/08/2019)",
+          "url": "https://istoedinheiro.com.br/superintendente-da-pf-no-rio-e-exonerado",
+          "consultada_em": "2026-10-17",
+          "trecho": "A troca do superintendente do Rio foi antecipada por Bolsonaro, em entrevista a jornalistas, no dia 15, quando alegou “questão de produtividade”. A declaração surpreendeu a cúpula da PF que, horas depois, em nota, contradisse o presidente ao afirmar que a substituição já estava planejada e não tinha “qualquer relação com desempenho”.",
+          "prova": "Registra a troca de 2019, anunciada por Bolsonaro com a justificativa de produtividade, e a nota da PF que a contradisse."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta de S.Paulo",
+          "titulo": "'Quem manda sou eu. Ou serei um presidente banana?' diz Bolsonaro sobre troca na PF (16/08/2019)",
+          "url": "https://www.gazetasp.com.br/cotidiano/55114-quem-manda-sou-eu-ou-serei-um-presidente-banana-diz-bols/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Questionado sobre a divergência, o presidente relativizou o que quis dizer com produtividade. Continua após a publicidade “Ele vai produzir mais aqui. Eu não falei falta de produtividade.",
+          "prova": "O próprio presidente, no dia seguinte, disse que não tinha falado em falta de produtividade."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (com Estadão)",
+          "titulo": "Novo diretor da PF muda chefe no Rio, área que interessa a Bolsonaro e filhos (04/05/2020)",
+          "url": "https://www.agazeta.com.br/brasil/novo-diretor-da-pf-muda-chefe-no-rio-area-que-interessa-a-bolsonaro-e-filhos-0520",
+          "consultada_em": "2026-10-17",
+          "trecho": "Haveria intenção de trocar superintendentes, novamente o do Rio, outros provavelmente viriam em seguida, como o de Pernambuco, sem que fosse me apresentado uma razão para realizar esses tipos de substituições que fossem aceitáveis",
+          "prova": "Para a troca de 2020: o então ministro disse que não lhe foi apresentada razão aceitável, sem menção a maus resultados."
+        }
+      ]
+    }
+  ]
+}

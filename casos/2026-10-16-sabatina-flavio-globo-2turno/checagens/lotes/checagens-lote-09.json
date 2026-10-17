@@ -1,0 +1,503 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A081",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Perícia da produtora diz que o dinheiro do filme é privado; PF e STF ainda apuram se houve verba pública",
+      "explicacao": "A frase descreve o pedido a Vorcaro como patrocínio privado a um filme privado, sem recurso público. O que está documentado: uma perícia contratada pela produtora Go Up afirma que os ingressos do projeto têm origem privada; o dinheiro de Vorcaro chegou por uma empresa (Entrepay, segundo a perícia), e não como pessoa física; a Ancine deu ao filme registro de obra estrangeira, e nenhuma fonte achada registra incentivo da Ancine ou da Lei Rouanet. Mas o ponto central, a ausência de dinheiro público, está em apuração: a PF pediu à Ancine dados sobre eventual uso de recursos públicos no filme, há inquérito autorizado por Flávio Dino sobre emendas destinadas a entidade da dona da produtora, e o inquérito relatado por André Mendonça apura se os repasses foram de fato privados ou serviram como vantagem indevida. A produtora e o deputado Mario Frias negam uso de verba pública. Como as apurações estão em curso e nenhuma tem decisão, o veredito não pode ser VERDADEIRO nem FALSO (etica-e-risco §5): é INSUSTENTAVEL. As fontes são imprensa (N4) que reproduz a perícia e os atos da PF e do STF; o laudo e os autos não são públicos.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação das apurações até 16/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Quanto à origem dos recursos financeiros, a perícia constatou que os ingressos vinculados ao projeto possuem origem privada, comprovada por contratos de investimento, extratos bancários, documentos de remessa e demais registros financeiros disponibilizados para análise”, afirma a perícia realizada pelo Instituto de Perícia Investigativa (IPI).",
+          "prova": "É a conclusão da perícia contratada pela produtora sobre a origem privada do dinheiro, a base documental da versão do candidato"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "PF pede informações à Ancine sobre filme de Bolsonaro (21/08/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/pf-pede-informacoes-a-ancine-sobre-filme-de-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A PF também quer saber se o filme recebeu incentivos fiscais, recursos públicos federais ou outros benefícios previstos nas políticas de financiamento do setor audiovisual.",
+          "prova": "Mostra que a existência ou não de recurso público no filme é objeto de apuração da PF, ainda sem resposta pública"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "PF abre investigação sobre uso de emendas parlamentares em filme de Bolsonaro",
+          "url": "https://www.infomoney.com.br/?p=3395698",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Federal abriu uma investigação para apurar se recursos públicos provenientes de emendas parlamentares foram utilizados de forma irregular na produção do filme Dark Horse",
+          "prova": "Registra o segundo inquérito, sobre emendas, que apura justamente a hipótese de dinheiro público na produção"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Ancine registra filme sobre Bolsonaro; veja o que falta para a estreia",
+          "url": "https://www.congressoemfoco.com.br/noticia/121633/ancine-registra-filme-sobre-bolsonaro-veja-o-que-falta-para-a-estreia",
+          "consultada_em": "2026-10-17",
+          "trecho": "Mario Frias (PL-SP), produtor-executivo de Dark Horse, destinou R$ 2 milhões ao Instituto Conhecer Brasil em 2024 e afirma que os recursos não financiaram o longa. Karina também nega uso de dinheiro público ou de empresas brasileiras no filme.",
+          "prova": "Traz a negativa da produção e de Mario Frias, e o fato apurado (emenda a entidade ligada à produtora), sem conclusão"
+        }
+      ]
+    },
+    {
+      "id": "A082",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Flávio é investigado no STF por suspeita de corrupção no caso; a apuração sobre contrapartida não terminou",
+      "explicacao": "A frase nega qualquer contrapartida do senador ao patrocínio de Vorcaro. Não há decisão que confirme nem que negue isso. O que está documentado: o ministro André Mendonça autorizou em julho de 2026 inquérito da PF que tem Flávio Bolsonaro como investigado por suspeita de corrupção, lavagem de dinheiro e evasão de divisas no financiamento do filme; a PGR, ao concordar, pediu que a PF mapeie projetos legislativos de Flávio e de Mario Frias de interesse do Banco Master. Nenhuma fonte achada aponta um ato concreto do senador em troca do dinheiro, e Flávio sustenta que não houve contrapartida. Como a hipótese de contrapartida é exatamente o que o inquérito apura, e ele não tem conclusão, o veredito é INSUSTENTAVEL, nunca VERDADEIRO nem FALSO (etica-e-risco §5). Fontes N4 que relatam atos do STF, da PF e da PGR cujo inteiro teor não foi localizado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "inquérito autorizado em julho de 2026, sem conclusão até 16/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Flávio Bolsonaro é alvo de inquérito da PF no STF no caso Dark Horse",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723630-flavio-bolsonaro-e-alvo-de-inquerito-da-pf-no-stf-no-caso-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em parecer de 21 de julho, a Procuradoria-Geral da República (PGR) se manifestou favoravelmente à investigação e solicitou à Polícia Federal que mapeie projetos legislativos de Flávio Bolsonaro e do deputado Mário Frias (PL-SP) que tenham sido de interesse do Banco Master e de empresas ligadas a Vorcaro no Congresso.",
+          "prova": "Mostra que a eventual contrapartida legislativa está sendo levantada pela investigação, ainda sem resultado"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Mendonça incluiu Flávio Bolsonaro como investigado no caso Dark Horse (11/09/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4346305/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“A Polícia Federal requer a instauração de PET sigilosa em apartado, vinculada ao INQ 5026, para apurar a possível prática dos crimes de lavagem de dinheiro, evasão de divisas, corrupção e outros delitos correlatos, que teriam sido praticados, em tese, pelo Senador da República Flávio Nantes Bolsonaro",
+          "prova": "Cita o pedido da PF: a suspeita de corrupção é apurada em tese, sem conclusão"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Flávio é investigado no STF em inquérito de Dark Horse",
+          "url": "https://sbtnews.sbt.com.br/noticia/brasil/flavio-e-investigado-no-stf-em-inquerito-de-dark-horse",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Procuradoria-Geral da República (PGR) foi consultada e não se opôs à abertura da investigação . Diante da representação da PF e da concordância da PGR, Mendonça autorizou, em 22 de julho de 2026, a instauração do procedimento investigatório .",
+          "prova": "Confirma, por apuração independente, que o procedimento foi aberto e está em curso"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio Bolsonaro reconheceu a veracidade do áudio divulgado, mas disse que os pagamentos feitos por Vorcaro foram legais porque não envolveram nenhuma contrapartida.",
+          "prova": "Registra a versão do candidato, que a frase repete, contra a qual ainda não há decisão"
+        }
+      ]
+    },
+    {
+      "id": "A083",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Relato atribuído a Vorcaro pela Veja cita pedido de Vaccari para filme de Lula; PF e PGR negam ter recebido o relato",
+      "explicacao": "A frase afirma que articuladores próximos de Lula tiveram relações com Vorcaro e ofereceram contrapartidas para que ele patrocinasse o filme sobre Lula. O que está documentado: a revista Veja publicou em 9/out/2026 relato e áudio atribuídos a Vorcaro em que ele diz que João Vaccari Neto, ex-tesoureiro do PT, pediu dinheiro para o filme do Lula ligado ao acesso do Master a fundos de pensão de estatais, e cita Alexandre Padilha e Olavo Noleto; segundo a Veja, mensagens no celular de Vorcaro mostram contatos com Noleto. Mas a contrapartida não está comprovada: a PF diz que Vorcaro não prestou depoimento nem entregou anexo com esse teor, a PGR diz que não houve depoimento oral, a equipe de Oliver Stone nega ter pedido ou recebido dinheiro, a campanha de Lula nega e pediu à PF perícia no áudio, e investigadores dizem ao Estadão que o celular de Vorcaro não menciona o patrocínio do filme de Lula. Relato não comprovado e sob contestação, com apuração pedida e não concluída: INSUSTENTAVEL, não VERDADEIRO nem FALSO (etica-e-risco §5). O texto da Veja foi lido na reprodução do TNH1, que conta como apoio da mesma primária (regra 2 da §3.1); Estadão e SBT News são apurações próprias.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "reportagem da Veja de 9/out/2026 e reações até 10/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Veja diz que o relato estava em anexo levado à PGR; PF, PGR e advogados ouvidos pelo Estadão dizem que o filme de Lula não foi objeto de anexo nem de depoimento.",
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução de reportagem da Veja)",
+          "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo",
+          "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Banco do Brasil a gente estruturou isso com ele (Vaccari). É… O Augusto adianta ali para o Okamotto do Instituto Lula… E aí tem o negócio do filme também. O cara (Vaccari) pede para colocar dinheiro no filme do Lula”, explica Vorcaro num áudio sobre a negociação.",
+          "prova": "É a origem da afirmação: o relato atribuído a Vorcaro liga o pedido de Vaccari ao negócio com os fundos de pensão"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Em áudio, Vorcaro diz ter financiado filme sobre Lula (09/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "A contrapartida de Vorcaro seria ter acesso a fundos de pensão controlados pelo governo. Essa negociação, conforme mensagens relatadas pela revista, teria sido feita pelo ex-tesoureiro do partido, João Vaccari Neto, e pelo advogado Augusto Lima, que prestava serviços jurídicos ao Master. A PGR, porém, não teria avançado no processo por falta de provas, já que os pagamentos seriam feitos em dinheiro vivo.",
+          "prova": "Confirma o conteúdo do relato e registra que a PGR não avançou por falta de provas"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Áudio de Vorcaro fala de dinheiro em filme de Lula; PF e PGR negam que esteja em delação (09/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4351963/audio-de-vorcaro-fala-de-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com os investigadores, o celular do banqueiro, que abrange o período de julho de 2012 até a data da primeira prisão, em novembro de 2025, não traz menções ao patrocínio do filme de Lula.",
+          "prova": "Apuração independente que contradiz parte do relato e mostra que ele não está corroborado"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Procuradores suspeitam que áudio de Vorcaro sobre Lula foi gravado ilegalmente para uso eleitoral",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/procuradores-suspeitam-que-audio-de-vorcaro-sobre-lula-foi-gravado-ilegalmente-para-uso-eleitoral-877515/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A equipe do diretor, porém, nega ter solicitado ou recebido dinheiro de Vorcaro. Também afirma que não foi informada sobre a suposta solicitação de recursos.",
+          "prova": "Traz a negativa da equipe do filme, parte essencial da contestação"
+        }
+      ]
+    },
+    {
+      "id": "A084",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Veja atribui a Vorcaro relato de R$ 30 milhões por fora; o trecho de áudio divulgado não cita valor",
+      "explicacao": "A frase diz que os 30 milhões por fora estão num áudio de Vorcaro. O que está documentado: a Veja publicou em 9/out/2026 um áudio em que Vorcaro diz que o dinheiro do filme do Lula foi por fora e foi errado, e, segundo a revista, o valor de 30 milhões de reais em espécie aparece no relato do banqueiro em áudio e em documentos. O Estadão, porém, registra que na gravação ele não menciona valores; o número aparece no relato escrito atribuído a ele. A autenticidade é contestada: um advogado de Vorcaro diz que a voz é dele, outro não reconhece o material, a campanha de Lula pediu perícia à PF, e procuradores suspeitam de gravação ilegal na prisão. O pagamento em si não está comprovado e PF e PGR negam ter recebido esse relato. A existência do áudio é fato documentado, mas a atribuição do valor ao áudio diverge entre as fontes e o conteúdo está sob apuração, por isso INSUSTENTAVEL, e não VERDADEIRO nem FALSO (etica-e-risco §5).",
+      "numero_dito": "R$ 30 milhões por fora",
+      "numero_apurado": "R$ 30 milhões no relato atribuído a Vorcaro pela Veja; sem valor no trecho de áudio, segundo o Estadão",
+      "data_de_referencia": "reportagem da Veja de 9/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Veja diz que o valor está no áudio e em documentos; o Estadão diz que na gravação Vorcaro não menciona valores.",
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução de reportagem da Veja)",
+          "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo",
+          "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo conta o banqueiro em um áudio e em documentos obtidos por VEJA, seriam 30 milhões de reais em espécie, pagos por fora ao Instituto Lula, gerenciado pelo diretor e amigo do presidente, Paulo Oka­motto, destinados a financiar a produção de um documentário sobre Lula no exterior",
+          "prova": "É a fonte do número: a Veja atribui os 30 milhões por fora ao áudio e aos documentos de Vorcaro"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Áudio de Vorcaro fala de dinheiro em filme de Lula; PF e PGR negam que esteja em delação (09/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4351963/audio-de-vorcaro-fala-de-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na gravação, ele não indica os elementos de corroboração nem menciona valores, mas afirma ter sido maior do que os US$ 10 milhões pagos a um filme sobre Jair Bolsonaro após pedido do senador e candidato à Presidência Flávio Bolsonaro.",
+          "prova": "Apuração independente que diverge: o trecho de áudio não traz o valor"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Em áudio, Vorcaro diz ter financiado filme sobre Lula (09/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula",
+          "consultada_em": "2026-10-17",
+          "trecho": "“O filme do Lula eu coloquei acho que até mais [do que no filme de Bolsonaro], eu acho que dá até mais. Só que o do Lula foi por fora, foi errado. O do Flávio não foi porque foi patrocínio, foi patrocínio normal”, diz.",
+          "prova": "Confirma o que o áudio diz: dinheiro por fora no filme sobre Lula, sem citar o valor"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Procuradores suspeitam que áudio de Vorcaro sobre Lula foi gravado ilegalmente para uso eleitoral",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/procuradores-suspeitam-que-audio-de-vorcaro-sobre-lula-foi-gravado-ilegalmente-para-uso-eleitoral-877515/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Até o momento, não há confirmação pública de que Vorcaro tenha financiado a produção nem de que o áudio tenha sido gravado ilegalmente. A origem e a autenticidade do material são pontos que dependem de apuração.",
+          "prova": "Registra que o conteúdo e a autenticidade do áudio estão em apuração"
+        }
+      ]
+    },
+    {
+      "id": "A085",
+      "veredito": "VERDADEIRO",
+      "resumo": "Perícia contratada pela produtora Go Up declarou custo de US$ 13,3 milhões, pouco mais de R$ 75 milhões",
+      "explicacao": "A pergunta atribui à perícia da própria produtora o custo de 75 milhões de reais. A reportagem do Metrópoles, reproduzida pelo A Tarde, diz que a perícia privada foi contratada pela própria Go Up e declarou US$ 13,3 milhões, o equivalente a pouco mais de R$ 75 milhões; o Correio da Manhã, com texto próprio, dá R$ 75,1 milhões e diz que o laudo foi feito a pedido da defesa de Karina Ferreira da Gama, dona da produtora; o BNews repete o valor. O valor e a autoria batem com a pergunta, por isso VERDADEIRO. O laudo não é público e só foi lido pela imprensa (regra 2 da §3.1: as matérias reproduzem a mesma primária, o documento anexado ao inquérito, e contam como apoio). A ressalva registra que o laudo não trouxe notas fiscais.",
+      "numero_dito": "R$ 75 milhões",
+      "numero_apurado": "US$ 13,3 milhões, pouco mais de R$ 75 milhões (R$ 75,1 milhões no Correio da Manhã)",
+      "data_de_referencia": "perícia anexada ao inquérito e divulgada em junho de 2026",
+      "ressalva": "O laudo foi contratado pela produtora e não apresentou recibos ou notas fiscais das despesas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "O filme Dark Horse, cinebiografia do ex-presidente Jair Bolsonaro (PL), custou cerca de US$ 13,3 milhões, o equivalente a pouco mais de R$ 75 milhões , de acordo com informação revelada pela Go Up Entertainment, produtora do filme. A informação consta de uma perícia privada contratada pela própria Go Up",
+          "prova": "Confirma o valor e que a perícia foi contratada pela própria produtora"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Um documento produzido a pedido da defesa de Karina Ferreira da Gama , responsável pela Go Up Entertainment, aponta que o filme teria custado aproximadamente R$ 75,1 milhões .",
+          "prova": "Segunda leitura do mesmo laudo, com o valor de R$ 75,1 milhões e a autoria ligada à dona da produtora"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna de Jundiaí",
+          "titulo": "Em SP, Flávio Bolsonaro diz que 'Dark Horse' é página virada",
+          "url": "https://tribunadejundiai.com.br/politica/flavio-bolsonaro-dark-horse-lula-lulinha/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ele se referia a uma perícia contratada pela própria produtora do longa, Karina Gama, e anexada ao inquérito que tramita na Polícia Civil de São Paulo. O relatório pericial declarou um gasto total de R$ 75 milhões na obra, porém não apresentou recibos ou notas fiscais que comprovassem as despesas.",
+          "prova": "Confirma o valor e sustenta a ressalva sobre a falta de notas fiscais"
+        }
+      ]
+    },
+    {
+      "id": "A086",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Mensagens reveladas pelo Intercept citam acerto de US$ 24 milhões, cerca de R$ 134 milhões; falta fonte oficial",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas buscas e capturas de imprensa que reproduzem as mensagens e documentos revelados pelo The Intercept Brasil; todas dizem que Flávio Bolsonaro negociou com Vorcaro US$ 24 milhões, cerca de R$ 134 milhões na cotação da época, em parcelas, e que o repasse efetivo foi de US$ 10,6 milhões, cerca de R$ 61 milhões. A essência da pergunta tem apoio amplo, mas a alegação é de valor monetário e todas as fontes são imprensa (N4) que reproduz a mesma primária (regra 2 da §3.1); falta localizar um documento N1, como a decisão do STF ou a representação da PF, com o valor. Há ainda uma nuance de leitura: o A Tarde diz que um dos fluxos de pagamento de US$ 24 milhões aparece em diálogos de Vorcaro com o cunhado e com Thiago Miranda, e o Correio da Manhã fala em áudios em que Flávio pede R$ 61 milhões. Sem a primária oficial, o veredito provisório é INSUSTENTAVEL; com ela, a tendência é VERDADEIRO com ressalva sobre pedido contra negociado. A razão 134 sobre 75 dá 1,79, o que sustentaria o 'quase o dobro' da pergunta.",
+      "numero_dito": "R$ 134 milhões",
+      "numero_apurado": "US$ 24 milhões, cerca de R$ 134 milhões negociados; US$ 10,6 milhões, cerca de R$ 61 milhões repassados",
+      "data_de_referencia": "negociação de 2025 revelada pelo Intercept em 13/mai/2026",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "A maioria das matérias diz que Flávio negociou R$ 134 milhões; o Correio da Manhã descreve áudios em que Flávio aparece pedindo R$ 61 milhões, o valor efetivamente repassado.",
+      "derivacoes": [
+        {
+          "valor": "1,79",
+          "de": "134 dividido por 75",
+          "como": "razão entre o valor negociado e o custo declarado pela perícia, para o 'quase o dobro'"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Folha Vitória",
+          "titulo": "André Mendonça autoriza inquérito sobre repasses para Dark Horse",
+          "url": "https://www.folhavitoria.com.br/politica/andre-mendonca-autoriza-inquerito-sobre-repasses-para-dark-horse-filme-sobre-jair-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo revelou o site Intercept Brasil, o senador negociou diretamente com Vorcaro um total de US$ 24 milhões, o equivalente a R$ 134 milhões para financiar o filme . O repasse efetivo, segundo documentos, foi de ao menos US$ 10,6 milhões, cerca de R$ 61 milhões na cotação da época, foram destinados ao projeto até maio de 2025.",
+          "prova": "Dá o valor negociado e o repassado, citando a primária (Intercept)"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Valor pedido por Flávio para filme de Bolsonaro supera o orçamento de vencedores do Oscar (13/05/2026)",
+          "url": "https://jovempan.com.br/politica/valor-pedido-por-flavio-para-filme-de-bolsonaro-supera-o-orcamento-de-vencedores-do-oscar/",
+          "consultada_em": "2026-10-17",
+          "trecho": "As mensagens indicam uma negociação na qual Vorcaro se comprometeu a repassar 24 milhões de dólares (cerca de R$ 134 milhões na época) para o financiamento de “Dark Horse”.",
+          "prova": "Segunda reprodução da mesma primária, com o mesmo valor"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "Um deles previa o pagamento de 12 parcelas de US$ 1,6 milhão e duas de US$ 2 milhões, totalizando US$ 24 milhões (R$ 134 milhões).",
+          "prova": "Mostra que o valor é a soma de parcelas de um fluxo de pagamento discutido, e não um pagamento único"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em maio, após a divulgação de áudios em que Flávio aparece pedindo R$ 61 milhões ao banqueiro Daniel Vorcaro , então controlador do Banco Master, para a produção do longa",
+          "prova": "Registra a leitura divergente sobre o valor pedido"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News",
+          "titulo": "TVT News não esquece: 100 dias do escândalo dos áudios de Flávio Bolsonaro para Vorcaro",
+          "url": "https://tvtnews.com.br/flavio-bolsonaro-e-vorcaro-3-meses-de-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Documentos apontam custo declarado superior a R$ 75 milhões , enquanto a negociação com Vorcaro previa aproximadamente R$ 134 milhões.",
+          "prova": "Põe lado a lado o custo declarado e o valor negociado, base da razão da pergunta"
+        }
+      ]
+    },
+    {
+      "id": "A087",
+      "veredito": "VERDADEIRO",
+      "resumo": "Negociação previa US$ 24 milhões; repasse foi de US$ 10,6 milhões, com parcelas atrasadas cobradas por Flávio",
+      "explicacao": "A frase diz que o contrato de Vorcaro com o filme não foi cumprido. As fontes mostram que o acerto previa US$ 24 milhões em parcelas e que o repassado foi US$ 10,6 milhões, cerca de R$ 61 milhões, de fevereiro a maio de 2025; em áudio que reconheceu como autêntico, Flávio cobrou Vorcaro por parcelas atrasadas; e Karina da Gama disse que, com a prisão do banqueiro, a produção buscou novos investidores. O essencial (o combinado não foi pago por inteiro) é confirmado por fontes independentes, por isso VERDADEIRO. A ressalva: o contrato em si não foi divulgado, e o que se conhece do acordo vem de mensagens e documentos revelados pela imprensa (N4; a alegação não é de número, e o fato do pagamento parcial não está em disputa entre as partes).",
+      "numero_dito": null,
+      "numero_apurado": "US$ 10,6 milhões repassados de US$ 24 milhões negociados",
+      "data_de_referencia": "repasses de fevereiro a maio de 2025",
+      "ressalva": "O contrato não foi divulgado; o acordo é conhecido por mensagens e documentos publicados pela imprensa",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "PF pede informações à Ancine sobre filme de Bolsonaro (21/08/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/pf-pede-informacoes-a-ancine-sobre-filme-de-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O filme passou a ser alvo de atenção da Justiça depois que o jornal Intercept Brasil revelou documentos e conversas que mostram um acordo de quase US$ 24 milhões para financiar o filme. Segundo os documentos, US$ 10,6 milhões (R$ 61 milhões) foram repassados de fevereiro a maio de 2025 ao Havengate Development Fund LP, nos Estados Unidos.",
+          "prova": "Mostra o acordo e o valor efetivamente repassado, bem abaixo do combinado"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio Bolsonaro chegou a enviar um áudio a Vorcaro dizendo que estava muito preocupado com parcelas atrasadas do patrocínio do Master ao filme:",
+          "prova": "Registra a cobrança de parcelas atrasadas pelo próprio candidato"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a empresária, quando o banqueiro foi preso, a equipe responsável pelo filme precisou buscar novos investidores para manter a produção.",
+          "prova": "A produtora confirma que o dinheiro de Vorcaro parou antes do previsto"
+        }
+      ]
+    },
+    {
+      "id": "A088",
+      "veredito": "VERDADEIRO",
+      "resumo": "Distribuidora diz que o filme está finalizado; a produtora buscou novos investidores após a prisão de Vorcaro",
+      "explicacao": "A frase diz que o filme foi concluído com o dinheiro de Vorcaro e de outros investidores. Sobre a conclusão: o diretor da Europa Filmes, distribuidora, disse em setembro que o filme está finalizado; a Ancine concedeu o Registro de Obra Estrangeira em agosto, com duração registrada; e o filme teve uma primeira exibição em Las Vegas. Sobre os outros investidores: Karina da Gama, dona da produtora, disse que buscou novos investidores após a prisão de Vorcaro, e a perícia da produtora registra que o fundo usado na captação enviou US$ 13,3 milhões, acima dos US$ 10,6 milhões atribuídos a Vorcaro. O essencial confere, por isso VERDADEIRO. Ressalva: os outros investidores não foram identificados publicamente, e a origem dos recursos do filme é objeto de inquéritos em curso; o veredito não se estende a essa origem.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação do filme entre agosto e setembro de 2026",
+      "ressalva": "Os outros investidores não foram identificados, e a origem do dinheiro do filme segue sob investigação",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Correio da Manhã de 25/ago dizia que o filme seguia em pós-produção; em 23/set a distribuidora o deu como finalizado.",
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Viva (Broadcast Político/Estadão)",
+          "titulo": "'Dark Horse' não tem previsão de estreia, segundo distribuidora do filme",
+          "url": "https://viva.com.br/politica/dark-horse-nao-tem-previsao-de-estreia-segundo-distribuidora-do-filme.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Feitosa afirma que o filme está finalizado, mas seu lançamento dependerá de uma estrutura que só deve ser organizada até 2027",
+          "prova": "A distribuidora declara o filme concluído"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Ancine registra filme sobre Bolsonaro; veja o que falta para a estreia",
+          "url": "https://www.congressoemfoco.com.br/noticia/121633/ancine-registra-filme-sobre-bolsonaro-veja-o-que-falta-para-a-estreia",
+          "consultada_em": "2026-10-17",
+          "trecho": "Protagonizado pelo ator norte-americano Jim Caviezel no papel de Bolsonaro, Dark Horse tem 1h40 de duração e foi classificado pela Ancine como obra de ficção.",
+          "prova": "O registro na Ancine com duração definida indica obra acabada"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a empresária, quando o banqueiro foi preso, a equipe responsável pelo filme precisou buscar novos investidores para manter a produção.",
+          "prova": "Sustenta a parte dos outros investidores, na versão da produtora"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a perícia, até o dia 10 de junho, o fundo Heavengate Development Fundp LP, usado para a captação de recursos, havia enviado US$ 13,3 milhões para o filme.",
+          "prova": "O total enviado ao filme supera o atribuído a Vorcaro, o que é compatível com outros aportes"
+        }
+      ]
+    },
+    {
+      "id": "A089",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A produtora diz que o dinheiro é privado; inquéritos no STF apuram corrupção e possível uso de verba pública",
+      "explicacao": "A frase define o patrocínio de Vorcaro como relação privada, sem dinheiro público. Mesmo enquadramento da A081 deste lote, com a mesma régua. Documentado: a perícia contratada pela produtora diz que os recursos têm origem privada, e o dinheiro de Vorcaro saiu por empresa dele (Entrepay, segundo a perícia; Entre Investimentos, segundo Flávio), não do Banco Master como instituição. Em apuração: o inquérito relatado por André Mendonça investiga se os repasses, apresentados como privados, serviram para beneficiar a estrutura política do senador (corrupção), e outro inquérito, de Flávio Dino, apura uso de emendas na produção. Sem decisão em nenhum deles, o veredito é INSUSTENTAVEL, nunca VERDADEIRO nem FALSO (etica-e-risco §5). Fontes N4 que relatam atos de investigação cujo inteiro teor não foi localizado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação das apurações até 16/out/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Flávio Bolsonaro é alvo de inquérito da PF no STF no caso Dark Horse",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723630-flavio-bolsonaro-e-alvo-de-inquerito-da-pf-no-stf-no-caso-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "No inquérito sob relatoria de Mendonça, a PF investiga se os repasses de Vorcaro à produção de “Dark Horse” - que, segundo a campanha de Flávio, seriam recursos privados - foram usados, na realidade, para beneficiar a campanha ou a estrutura política do senador",
+          "prova": "Mostra que o caráter privado da relação é justamente o que o inquérito apura"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Filme sobre trajetória política de Bolsonaro recebe registro da Ancine",
+          "url": "https://www.gazetadopovo.com.br/republica/filme-trajetoria-politica-bolsonaro-registro-ancine/",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com a versão apresentada pelo senador Flávio Bolsonaro (PL-RJ), a Entre Investimentos foi a empresa utilizada por Daniel Vorcaro para enviar recursos destinados ao financiamento do filme.",
+          "prova": "Registra que o dinheiro saiu por empresa de Vorcaro, não do Banco Master como instituição"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "PF abre investigação sobre uso de emendas parlamentares em filme de Bolsonaro",
+          "url": "https://www.infomoney.com.br/?p=3395698",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Federal abriu uma investigação para apurar se recursos públicos provenientes de emendas parlamentares foram utilizados de forma irregular na produção do filme Dark Horse",
+          "prova": "Apuração sobre dinheiro público na produção, ainda sem conclusão"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A produtora, por sua vez, já havia afirmado que o filme recebeu financiamento privado e negado o uso de recursos públicos na produção. Uma perícia particular contratada pela defesa também apontou que não teria identificado entradas de recursos públicos no projeto.",
+          "prova": "Traz a versão da produtora, que coincide com a do candidato, ainda não confirmada pelas investigações"
+        }
+      ]
+    },
+    {
+      "id": "A090",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Mensagens citam R$ 83 milhões em mídia para a Globo e R$ 26 milhões a Huck; 160 milhões não aparece",
+      "explicacao": "A frase diz que o programa de Luciano Huck recebeu mais de 100 milhões de reais, talvez 160 milhões, para fazer propaganda do banco de Vorcaro. As fontes achadas vêm de mensagens do celular de Vorcaro: o Poder360, que teve acesso próprio ao acervo, e a Veja, reproduzida por outros veículos, registram que Huck citou R$ 83 milhões investidos pelo Will Bank, banco do grupo de Vorcaro, em mídia na TV Globo, e R$ 26 milhões num contrato pessoal dele. Somados dão R$ 109 milhões, acima dos 100 milhões, mas a soma junta mídia comprada da emissora e um contrato pessoal do apresentador, e não é um valor recebido pelo programa. O valor de 160 milhões não aparece em fonte nenhuma, e o desvio para 109 passa de 10%. O número vem de mensagem relatada pela imprensa (N4); não há documento N1 ou N2 do contrato, e a Globo não divulgou valores. Sem fonte qualificada para o valor e com o número principal sem lastro, o veredito é INSUSTENTAVEL, e não IMPRECISO, que exigiria fonte N1 ou N2. A assessoria de Huck diz que o contrato foi assinado, com notas e impostos, e a Veja diz não haver indício de ilegalidade.",
+      "numero_dito": "mais de R$ 100 milhões, R$ 160 milhões",
+      "numero_apurado": "R$ 83 milhões em mídia na Globo e R$ 26 milhões em contrato pessoal, R$ 109 milhões somados",
+      "data_de_referencia": "patrocínio do Will Bank fechado em dezembro de 2024; valores citados em mensagem de 28/out/2025",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "derivacoes": [
+        {
+          "valor": "R$ 109 milhões",
+          "de": "83 mais 26",
+          "como": "soma da mídia na Globo com o contrato pessoal citados nas mensagens"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Mensagens mostram proximidade de Luciano Huck com Vorcaro",
+          "url": "https://www.poder360.com.br/poder-gente/mensagens-mostram-proximidade-de-luciano-huck-com-vorcaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Quase 1 ano depois, em 28 de outubro de 2025, o apresentador citou investimento de R$ 83 milhões do banco de Vorcaro e outros R$ 26 milhões do que chamou de “contrato pessoal” .",
+          "prova": "Apuração própria sobre o acervo de mensagens: dá os dois valores e a data"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Luciano Huck mantinha relação de amizade e negócios com Daniel Vorcaro",
+          "url": "https://www.diariodepernambuco.com.br/brasil/2026/09/11725367-luciano-huck-mantinha-relacao-de-amizade-e-negocios-com-daniel-vorcaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ainda nas mensagens, o apresentador chega a mencionar os valores da parceria: R$ 83 milhões em mídia para a Globo e R$ 26 milhões para um “contrato pessoal”.",
+          "prova": "Reprodução da reportagem da Veja, independente do Poder360, com os mesmos valores"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Mensagens da PF revelam relação de negócios e amizade entre Luciano Huck e Daniel Vorcaro",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/mensagens-da-pf-revelam-relacao-de-negocios-e-amizade-entre-luciano-huck-e-daniel-vorcaro-873635/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A aproximação entre os dois também envolveu uma parceria comercial entre o Will Bank, empresa ligada a Vorcaro, e o programa Domingão com Huck , da TV Globo.",
+          "prova": "Mostra que o patrocínio foi do Will Bank ao Domingão com Huck"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A111",
+      "veredito": "VERDADEIRO",
+      "resumo": "Andrei foi nomeado diretor-geral da PF em 2 de janeiro de 2023; ele coordenava a segurança de Lula desde a campanha",
+      "explicacao": "A frase diz que a primeira coisa de Lula na Presidência foi pôr o 'amigo' Andrei no comando da PF. O critério escrito antes da busca era a data da nomeação e o vínculo anterior com Lula. A Folhapress (no Diário do Pará) registra que na segunda-feira, 2, um dia depois da posse, o governo exonerou a cúpula da PF indicada por Bolsonaro e nomeou Andrei Rodrigues diretor-geral, com publicação no Diário Oficial; o Poder360 confirma que ele está no cargo desde janeiro de 2023. O vínculo anterior está documentado por três veículos: ele coordenou a equipe de segurança de Lula na campanha de 2022 (CartaCapital, Poder360) e, segundo a Itatiaia, o presidente levou em conta a relação de confiança construída na campanha. O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A091, VERDADEIRO, nomeação no início do governo; A090, INSUSTENTAVEL para a negativa de vínculo feita por Lula), com as mesmas fontes e a mesma régua: o vínculo registrado é funcional, de segurança de campanha, e nenhuma fonte descreve amizade pessoal. Por isso VERDADEIRO no essencial (nomeação logo no início do governo, de pessoa da confiança de Lula), com a ressalva de que 'amigo' é a caracterização do candidato. A Folhapress e o Poder360 são imprensa com apuração própria que reproduz o ato do Diário Oficial (regra 2 da §3.1); o Poder360 diz que a escolha foi anunciada pelo então ministro Flávio Dino, o que não muda a autoria do ato do governo.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "nomeação de janeiro de 2023; vínculo da campanha de 2022",
+      "ressalva": "O vínculo registrado é o de coordenador da segurança da campanha de 2022; amizade pessoal não aparece nas fontes",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Poder360 diz que Andrei foi escolhido pelo então ministro da Justiça, Flávio Dino; a Itatiaia diz que o presidente levou em conta a relação de confiança da campanha.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Pará (Folhapress)",
+          "titulo": "Lula nomeia novos chefes da Polícia Federal e da PRF (02/01/2023)",
+          "url": "https://diariodopara.com.br/noticias/brasil/lula-nomeia-novos-chefes-da-policia-federal-e-da-prf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O governo Lula (PT) exonerou nesta segunda (2) a cúpula da Polícia Federal indicada por Jair Bolsonaro (PL) e nomeou o novo diretor-geral da corporação, o delegado Andrei Rodrigues. [...] As mudanças foram publicadas no Diário Oficial da União e são assinadas pelo ministro Rui Costa, da Casa Civil. [...] Andrei ocupava até está segunda (2) a função de coordenador da segurança de Lula.",
+          "prova": "Data da nomeação (dia 2, logo após a posse), publicação no Diário Oficial e a função anterior de Andrei junto a Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Andrei Rodrigues, que foi segurança de Lula em 2022",
+          "url": "https://www.poder360.com.br/poder-justica/saiba-quem-e-andrei-rodrigues-ex-seguranca-de-lula-em-2022/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Rodrigues está à frente da corporação desde janeiro de 2023, quando foi escolhido para o cargo pelo então ministro da Justiça, Flávio Dino. [...] integrou a equipe responsável pela segurança de Luiz Inácio Lula da Silva (PT) durante a campanha de 2022.",
+          "prova": "Confirma o mês e o ano da posse no comando da PF e o vínculo anterior na segurança da campanha de Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Do entorno de presidenciáveis a grandes investigações na PF: a trajetória de Andrei Rodrigues",
+          "url": "https://www.itatiaia.com.br/politica/do-entorno-de-presidenciaveis-a-grandes-investigacoes-na-pf-a-trajetoria-de-andrei-rodrigues/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Após a vitória de Lula, Andrei saiu da chefia da Divisão de Relações Internacionais da instituição e foi escolhido para a direção-geral da corporação. O presidente levou em consideração a experiência dentro da PF e a relação de confiança construída durante a campanha presidencial.",
+          "prova": "Mostra que a escolha levou em conta a relação de confiança com Lula, o que sustenta 'pessoa próxima' no sentido funcional."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Conheça Andrei Rodrigues, o diretor-geral da Polícia Federal no governo Lula (09/12/2022)",
+          "url": "https://www.cartacapital.com.br/?p=314527",
+          "consultada_em": "2026-10-16",
+          "trecho": "Rodrigues coordenou a equipe de segurança de Luiz Inácio Lula da Silva na campanha eleitoral e se manterá no posto até a posse, em 1º de janeiro.",
+          "prova": "Registro independente, anterior à posse, de que Andrei coordenava a segurança de Lula."
+        }
+      ]
+    },
+    {
+      "id": "A112",
+      "veredito": "VERDADEIRO",
+      "resumo": "Andrei esteve na degustação de uísque paga por Vorcaro em Londres, em abril de 2024; Vorcaro é investigado pela PF",
+      "explicacao": "O critério era achar o registro do encontro de Andrei Rodrigues com Daniel Vorcaro (data, local, presentes) e saber se havia investigados pela PF entre os presentes. A Gazeta do Povo registra a degustação de uísque Macallan em Londres, em 25 de abril de 2024, reunindo Vorcaro e autoridades, entre elas o diretor-geral da PF; o Poder360, com dados obtidos por Lei de Acesso à Informação, confirma a confraternização oferecida por Vorcaro com o diretor da PF entre os presentes. Vorcaro é investigado pela PF: a Gazeta do Povo, em outra reportagem, diz que ele aparece em diversos inquéritos derivados da Operação Compliance Zero. O mesmo encontro foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A087, VERDADEIRO), com as mesmas fontes. Por isso VERDADEIRO no essencial: Andrei esteve num encontro social bancado por Vorcaro, e Vorcaro é investigado pela PF. A ressalva cobre o plural 'pessoas': a Gazeta do Povo diz que nenhuma das autoridades citadas é investigada, e as fontes só apontam Vorcaro como investigado. O tempo verbal da fala ('está tomando') descreve um evento de abril de 2024. A palavra transcrita 'jaruto' não entra na checagem; o registro de degustação de charutos achado (Diario de Pernambuco) mostra Vorcaro com o procurador-geral Paulo Gonet, não com Andrei. A presença no evento não é, por si, prova de irregularidade, e as apurações do caso Master seguem abertas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "evento de 25 de abril de 2024; investigação em curso na data da fala",
+      "ressalva": "O encontro foi em abril de 2024; segundo a Gazeta do Povo, nenhuma das autoridades presentes é investigada",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Moraes, Toffoli, Gonet: quem participou de degustação de uísque bancada por Vorcaro em Londres",
+          "url": "https://www.gazetadopovo.com.br/republica/moraes-toffoli-gonet-quem-participou-de-degustacao-de-uisque-bancada-por-vorcaro-em-londres/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Uma degustação exclusiva do seleto uísque escocês Macallan, realizada em Londres em 25 de abril de 2024 e que custou quase US$ 641 mil (pouco mais de R$ 3 milhões no câmbio da época), reuniu o ex-controlador do Banco Master, Daniel Vorcaro, e autoridades brasileiras. [...] o diretor-geral da Polícia Federal, Andrei Rodrigues, [...] Nenhuma das autoridades citadas é investigada e não há irregularidades nem crimes identificados.",
+          "prova": "Data, local e natureza do encontro, a presença de Andrei e a informação de que as autoridades presentes não são investigadas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Master bancou viagem de diretor-geral da PF para Londres (08/04/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/master-bancou-viagem-de-diretor-geral-da-pf-para-londres/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Cerca de 40 pessoas participaram da confraternização oferecida por Vorcaro. Além do diretor da PF, estiveram presentes ministros do STF, do STJ, um ministro de Estado, o procurador-geral da República e congressistas.",
+          "prova": "Registro independente, com dados obtidos por Lei de Acesso à Informação, de que o diretor da PF esteve na confraternização oferecida por Vorcaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Adiamentos em série frustram expectativa da PF de concluir inquérito do Master",
+          "url": "https://www.gazetadopovo.com.br/republica/adiamentos-em-serie-frustram-expectativa-da-pf-de-concluir-inquerito-do-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Foi em setembro que os adiamentos passaram a ter impacto mais direto sobre o cronograma, envolvendo diretamente Vorcaro. Ele aparece em diversos inquéritos derivados da Compliance Zero, e cada oitiva tem objeto próprio.",
+          "prova": "Mostra que Vorcaro é investigado pela PF em inquéritos da Compliance Zero, na época da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Vídeo mostra festa de 2024 em Londres com Vorcaro, Andrei, Lewandowski, Ciro Nogueira e Fábio Faria",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11724463-video-mostra-festa-de-2024-em-londres-com-vorcaro-andrei-lewandowski-ciro-nogueira-e-fabio-faria.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Outro registro feito em Londres mostra Vorcaro ao lado do procurador-geral da República, Paulo Gonet, e do advogado Ciro Soares durante uma degustação de charutos.",
+          "prova": "O registro de charutos achado é de Vorcaro com Gonet, e não sustenta nem derruba a parte da fala sobre Andrei; por isso ela fica fora do veredito."
+        }
+      ]
+    },
+    {
+      "id": "A113",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Duas fontes registram 18 superintendências da PF trocadas num só ato em 2023; o total de 27 não foi confirmado",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o critério era contar quantas das 27 superintendências tiveram o titular trocado na gestão Andrei Rodrigues e em que período. Duas fontes independentes registram 18 superintendentes regionais trocados num só ato, publicado em edição extra do Diário Oficial na noite de 18/01/2023 (Congresso em Foco e Jornal de Brasília), e o Jornal de Brasília acrescenta a troca anterior no Distrito Federal, no dia seguinte aos atos de 8 de janeiro. Uma única fonte, o Portal Tela (texto gerado por ferramenta e revisado pela redação, que resume reportagem de terceiros), diz que desde janeiro de 2023 houve mudança em 26 das 27 superintendências, com a do Rio Grande do Sul como única exceção, e 21 trocas nos três primeiros meses. Se esse dado se confirmar, '27' contra 26 fica abaixo de 10% e o veredito seria VERDADEIRO com ressalva (todas menos uma); se a conta for a do início do governo (18 ou 19 em janeiro, 21 em três meses), o desvio passa de 10% e o veredito seria IMPRECISO. A sétima e última busca permitida não achou segunda fonte para o '26 das 27', e a página do Conjur que pode trazer o levantamento original recusou o robô (403). Falta: achar a reportagem original do levantamento de 26 das 27 superintendências (ou portarias de 2023 a 2025) e decidir entre VERDADEIRO com ressalva e IMPRECISO. Não há contradição direta, por isso não é FALSO.",
+      "numero_dito": "27 superintendentes",
+      "numero_apurado": "18 superintendências num só ato de janeiro de 2023; 26 das 27 até 2025 segundo uma única fonte, a confirmar",
+      "data_de_referencia": "janeiro de 2023 (ato de 18/01) e gestão Andrei Rodrigues até 2025",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "As fontes não divergem entre si, mas medem períodos diferentes: 18 num só ato de janeiro de 2023 (Congresso em Foco, Jornal de Brasília), 21 nos três primeiros meses e 26 das 27 ao longo da gestão (Portal Tela, fonte única).",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Flávio Dino exonera 26 chefes regionais da PRF e troca direção da PF em 18 estados",
+          "url": "https://www.congressoemfoco.com.br/area/governo/dino-exonera-26-chefes-regionais-da-prf-e-troca-direcao-da-pf-em-18-estados",
+          "consultada_em": "2026-10-17",
+          "trecho": "O governo Lula trocou os superintendentes da Polícia Federal em 18 estados e exonerou 26 chefes estaduais da Polícia Rodoviária Federal (PRF). As decisões, assinadas pelos ministros Flávio Dino (Justiça e Segurança Pública) e Rui Costa (Casa Civil) foram publicadas em edição extra do Diário Oficial da União nessa quarta-feira (18).",
+          "prova": "Número de superintendências da PF trocadas no ato de janeiro de 2023, com base no Diário Oficial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília",
+          "titulo": "Lula troca comando da PF em 18 estados e dispensa 26 superintendentes da PRF",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-troca-comando-da-pf-em-18-estados-e-dispensa-26-superintendentes-da-prf/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O governo do presidente Luiz Inácio Lula da Silva (PT) promoveu nesta quinta-feira (19) uma grande mudança no comando da Polícia Federal nos estados, trocando 18 superintendentes regionais. [...] Lula já havia promovido a troca do superintendente da Polícia Federal no Distrito Federal, no dia seguinte aos atos golpistas,",
+          "prova": "Confirma, com texto próprio, os 18 superintendentes do ato e a troca anterior no Distrito Federal."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Portal Tela",
+          "titulo": "Polícia Federal passa por intensa reestruturação com 39 trocas de comando em 2023",
+          "url": "https://www.portaltela.com/noticias/politica/2025/06/02/policia-federal-passa-por-intensa-reestruturacao-com-39-trocas-de-comando-em-2023/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Federal (PF) passou por uma reestruturação significativa desde janeiro de 2023, sob a direção de Andrei Rodrigues. Mudanças ocorreram em quase todos os postos de comando , incluindo 13 das 14 diretorias e 26 das 27 superintendências regionais. A única exceção foi a superintendência do Rio Grande do Sul, estado de origem do diretor-geral. [...] Rodrigues promoveu 21 trocas de superintendentes regionais nos primeiros três meses de sua gestão, seguidas por outras 18.",
+          "prova": "Única fonte achada para a contagem ao longo da gestão: 26 das 27, e não todas; fonte fraca, a confirmar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News",
+          "titulo": "Diretores da PF colocam cargos à disposição em apoio a Andrei Rodrigues",
+          "url": "https://tvtnews.com.br/superintendentes-pf-entrega-coletiva-cargos/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a apuração, a iniciativa é defendida por integrantes das 27 superintendências da PF como forma de demonstrar insatisfação com o afastamento de Rodrigues,",
+          "prova": "Confirma que a PF tem 27 superintendências, o denominador da frase."
+        }
+      ]
+    },
+    {
+      "id": "A114",
+      "veredito": "IMPRECISO",
+      "resumo": "Em maio de 2020 o novo diretor da PF trocou seis superintendentes num só ato, entre eles o do Rio, o mais questionado",
+      "explicacao": "A frase diz que Bolsonaro trocou um superintendente e isso gerou questionamento. O critério era ver as trocas de superintendentes em 2020, depois da saída de Moro, e se a comparação 'um contra 27' vale no mesmo cargo. O questionamento existiu e se concentrou no Rio: Moro disse ao sair que havia intenção de trocar superintendentes, 'novamente o do Rio' e depois o de Pernambuco (A Gazeta, com Estadão), e o Poder360 registra que, em 4 de maio de 2020, o primeiro ato do novo diretor-geral, Rolando de Souza, nomeado por Bolsonaro, foi trocar o comando no Rio. Mas a troca não foi de um só: o Congresso em Foco registra que a edição extra do Diário Oficial de 25 de maio de 2020 oficializou a troca de seis superintendentes regionais (Rio, Goiás, Paraíba, Rio Grande do Norte, Rio Grande do Sul e Tocantins). Por isso IMPRECISO: o essencial (houve questionamento, centrado na troca do Rio) confere, mas o número 'um' está errado na mesma régua de cargo usada para Lula. Não é FALSO porque a direção da comparação se mantém: o ato de Lula de janeiro de 2023 trocou 18 superintendentes (ver A113), mais que os seis de maio de 2020. A troca, como no caso de Lula, foi feita pelo diretor-geral escolhido pelo presidente, e não pelo presidente em pessoa.",
+      "numero_dito": "1 superintendente",
+      "numero_apurado": "seis superintendentes regionais trocados num só ato, em maio de 2020",
+      "data_de_referencia": "maio de 2020",
+      "ressalva": "O Metrópoles fala em mudanças de 26 superintendentes no período, número que as outras fontes não repetem",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Metrópoles, sobre o mesmo ato de 25 de maio de 2020, diz que 'a PF soma mudanças de 26 superintendentes regionais', sem detalhar o período; o Congresso em Foco lista seis superintendentes trocados naquele ato. A contagem de seis é a que tem lista nominal.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Polícia Federal troca superintendente da PF no Rio e outros cinco estados (maio de 2020)",
+          "url": "https://www.congressoemfoco.com.br/noticia/23493/policia-federal-troca-superintendente-da-pf-no-rio-e-outros-cinco-estados",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Federal oficializou a troca de seis superintendentes regionais e de outros cargos de chefia. Os nomes foram publicados (veja lista mais abaixo) em edição extra do Diário Oficial da União dessa segunda-feira (25). [...] Também foram trocados os superintendentes de Goiás, Paraíba, Rio Grande do Norte, Rio Grande do Sul e Tocantins.",
+          "prova": "Mostra que, no ato de maio de 2020, foram trocados seis superintendentes, e não um."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Novo diretor-geral da PF troca chefe da corporação no Rio (04/05/2020)",
+          "url": "https://www.poder360.com.br/justica/novo-diretor-da-pf-troca-chefe-da-corporacao-no-rio/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O recém-empossado diretor-geral da PF (Polícia Federal), Rolando Alexandre de Souza , determinou nesta 2ª feira (4.mai.2020) a troca no comando da corporação no Rio de Janeiro. [...] A mudança no comando da PF fluminense é 1 desejo antigo do presidente Jair Bolsonaro.",
+          "prova": "Data e foco da troca questionada: a superintendência do Rio, em maio de 2020."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (com Estadão)",
+          "titulo": "Novo diretor da PF muda chefe no Rio, área que interessa a Bolsonaro e filhos",
+          "url": "https://www.agazeta.com.br/brasil/novo-diretor-da-pf-muda-chefe-no-rio-area-que-interessa-a-bolsonaro-e-filhos-0520",
+          "consultada_em": "2026-10-17",
+          "trecho": "O problema é que nas conversas com o presidente e isso ele me disse expressamente, que o problema não é só a troca do diretor-geral. Haveria intenção de trocar superintendentes, novamente o do Rio, outros provavelmente viriam em seguida, como o de Pernambuco,",
+          "prova": "O questionamento de Moro tratava da troca do diretor-geral e de superintendentes, com o Rio no centro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Tácio Muzzi é nomeado superintendente da Polícia Federal no Rio de Janeiro",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/tacio-muzzi-e-nomeado-superintendente-da-policia-federal-no-rio-de-janeiro",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com a troca no Rio, a PF soma mudanças de 26 superintendentes regionais da corporação nos estados, além de ao menos outros oito cargos de chefia.",
+          "prova": "Registro que diverge na contagem e, de todo modo, também não sustenta a troca de um só superintendente."
+        }
+      ]
+    },
+    {
+      "id": "A115",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhum registro mostra um grupo do Lula dentro da PF; a expressão é do candidato, e a apuração sobre a PF segue aberta",
+      "explicacao": "O critério era achar, na estrutura da PF ou nos registros públicos, um grupo, núcleo ou unidade ligado a Lula. Nenhuma fonte achada descreve tal grupo. A expressão 'grupo especial de Lula na Polícia Federal' aparece na publicação do próprio candidato no X, em 08/09/2026, depois que o ministro André Mendonça afastou o diretor-geral Andrei Rodrigues e o diretor de Inteligência Leandro Almada (Itatiaia; Diario de Pernambuco com Estadão Conteúdo). O que está documentado é a apuração: Mendonça mandou a Corregedoria da PF abrir procedimentos penal e disciplinar sobre a produção de relatórios de inteligência, e o presidente do STF, Edson Fachin, suspendeu os efeitos do afastamento (O Povo). Essa apuração está em curso e não tem conclusão; ela não afirma a existência de um grupo ligado a Lula. Por isso INSUSTENTAVEL, e não FALSO: as fontes não sustentam a afirmação, mas também não há decisão que a desminta, e o caso segue em apuração (etica-e-risco §5). O caso 2026-10-15-sabatina-lula-globo-2turno (A086) usou as mesmas publicações para registrar que o candidato fez essa afirmação em público.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação na data da fala, 16/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Flávio Bolsonaro: afastamento de Andrei 'desmascara' grupo de Lula na PF (08/09/2026)",
+          "url": "https://www.itatiaia.com.br/politica/flavio-bolsonaro-afastamento-de-andrei-desmascara-grupo-de-lula-na-pf/",
+          "consultada_em": "2026-10-16",
+          "trecho": "acusado de investigações clandestinas contra um ministro do STF. Grupo especial de Lula na Polícia Federal desmascarado oficialmente.",
+          "prova": "Mostra que a expressão 'grupo especial de Lula' é do próprio candidato, numa publicação, e não de um registro oficial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Flávio sobre afastamento de diretor: \"Grupo especial de Lula na PF desmascarado\" (08/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723372-flavio-sobre-afastamento-de-diretor-grupo-especial-de-lula-na-pf-desmascarado.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Além de afastar Andrei, o ministro do Supremo Tribunal Federal André Mendonça ordenou que a Polícia Federal, por meio de sua Corregedoria, abra procedimentos investigatórios de natureza penal e administrativo-disciplinar para apurar os \"graves fatos identificados\" na produção de relatórios de inteligência.",
+          "prova": "O que está documentado é a abertura de apuração sobre relatórios de inteligência, sem conclusão, e não um grupo ligado a Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Fachin suspende decisões de Mendonça e Dino e mantém Andrei Rodrigues na chefia da PF (09/09/2026)",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/09/09/fachin-suspende-decisoes-de-mendonca-e-dino-e-mantem-andrei-rodrigues-na-chefia-da-pf.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Supremo Tribunal Federal (STF) , Edson Fachin, suspendeu nesta quarta-feira, 9, as decisões dos ministros André Mendonça e Flávio Dino relacionadas ao comando da Polícia Federal. Com a medida, ficam interrompidos os efeitos tanto do afastamento de Andrei Rodrigues e Leandro Almada quanto da decisão posterior que havia determinado o retorno dos dois aos cargos.",
+          "prova": "Mostra que a disputa judicial sobre a direção da PF não tem decisão final, o que impede tratar a acusação como fato estabelecido."
+        }
+      ]
+    },
+    {
+      "id": "A116",
+      "veredito": "VERDADEIRO",
+      "resumo": "Moro pediu demissão em 24 de abril de 2020, depois que Bolsonaro exonerou o diretor-geral da PF, Maurício Valeixo",
+      "explicacao": "A frase responde que Moro pediu para sair, em vez de ter sido demitido. O critério era o pronunciamento de saída e a sequência com a exoneração do diretor-geral da PF. Três registros independentes dizem que a saída foi iniciativa de Moro: a InfoMoney diz que ele pediu demissão na sexta-feira, 24, após a exoneração de Valeixo publicada no Diário Oficial; o Poder360 registra que ele confirmou o desembarque em pronunciamento em 24 de abril de 2020; e A Gazeta (com apuração da Folha) diz que ele pediu demissão a Bolsonaro na manhã de 23, ao ser informado da troca de Valeixo. Nenhuma fonte diz que Bolsonaro o demitiu. Por isso VERDADEIRO. A ressalva registra o contexto: ele saiu em reação à exoneração de Valeixo e acusou o presidente de tentar interferir na PF, o que Bolsonaro negou. O texto da Folha também foi reproduzido pelo Diário do Nordeste, que por isso não entra como fonte separada (regra 3 da §3.1). O ato de exoneração de Moro no Diário Oficial não foi capturado nesta rodada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "23 e 24 de abril de 2020",
+      "ressalva": "Ele saiu depois da exoneração de Valeixo, acusando Bolsonaro de tentar interferir na PF; Bolsonaro negou",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Sérgio Moro pede demissão do Ministério da Justiça (24/04/2020)",
+          "url": "https://www.infomoney.com.br/?p=1437750",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ex-juiz Sérgio Moro pediu demissão, nesta sexta-feira (24), do comando do Ministério da Justiça e Segurança Pública do governo Jair Bolsonaro. O movimento ocorreu após a exoneração do diretor-geral da Polícia Federal, Maurício Valeixo, ser publicada nesta madrugada no Diário Oficial da União,",
+          "prova": "Registra que a saída foi pedido de demissão de Moro, depois da exoneração de Valeixo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Sergio Moro sai e acusa Bolsonaro de crime de responsabilidade (24/04/2020)",
+          "url": "https://www.poder360.com.br/governo/sergio-moro-deixa-o-governo-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ex-juiz federal Sergio Moro deixou o cargo de ministro da Justiça e Segurança Pública do governo do presidente Jair Bolsonaro. Ele confirmou oficialmente o desembarque em pronunciamento nesta 6ª feira (24.abr.2020), no auditório do próprio Ministério,",
+          "prova": "Data e forma da saída: anúncio do próprio Moro em pronunciamento."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (com Folhapress)",
+          "titulo": "Sergio Moro, o juiz da Lava Jato, anuncia sua demissão do governo Bolsonaro",
+          "url": "https://www.agazeta.com.br/brasil/sergio-moro-o-juiz-da-lava-jato-anuncia-sua-demissao-do-governo-bolsonaro-0420",
+          "consultada_em": "2026-10-17",
+          "trecho": "Moro pediu demissão a Jair Bolsonaro  na manhã desta quinta (23) quando foi informado pelo presidente da decisão de trocar Valeixo. O ministro avisou o presidente que não ficaria no governo com a saída do diretor-geral, escolhido por Moro para comandar a PF.",
+          "prova": "Confirma, com apuração da Folha, que o pedido de saída partiu de Moro, ao saber da troca do diretor-geral."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Andrei Rodrigues, que foi segurança de Lula em 2022",
+          "url": "https://www.poder360.com.br/poder-justica/saiba-quem-e-andrei-rodrigues-ex-seguranca-de-lula-em-2022/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A indicação havia sido feita em meio à crise que levou à saída de Sergio Moro do Ministério da Justiça. Ao deixar o governo, Moro acusou Bolsonaro de tentar interferir politicamente na PF e afirmou que o então presidente queria ter contato pessoal com o diretor-geral da corporação. Bolsonaro negou as acusações.",
+          "prova": "Sustenta a ressalva: Moro saiu acusando interferência na PF, e Bolsonaro negou."
+        }
+      ]
+    },
+    {
+      "id": "A117",
+      "veredito": "VERDADEIRO",
+      "resumo": "Moro se filiou ao PL, partido de Flávio, teve o apoio dele no Paraná e o apoia na disputa presidencial",
+      "explicacao": "O critério era achar apoio declarado de Moro à candidatura de Flávio Bolsonaro em 2026, ou acordo entre os partidos dos dois. O Poder360 registra que Moro deixou o União Brasil e se filiou ao PL em março de 2026, que teve o apoio de Flávio Bolsonaro (PL) na disputa pelo governo do Paraná e que, durante a campanha, apoiou Flávio na disputa pela Presidência. O arquivo oficial de resultados do TSE confirma que Moro concorreu pelo PL, na coligação PODE / PL / NOVO, e o Diario de Pernambuco (Estadão Conteúdo) identifica Flávio como candidato do PL. Apoio recíproco e o mesmo partido sustentam 'aliados'. Por isso VERDADEIRO. O apoio de Moro a Flávio aparece no texto do Poder360; a forma exata desse apoio (ato, nota ou palanque) não foi detalhada nas fontes capturadas, e por isso a confiança é média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "campanha de 2026; situação em 16/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Sergio Moro é eleito governador do Paraná (04/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/sergio-moro-e-eleito-governador-do-parana/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Moro teve o apoio de Flávio Bolsonaro (PL) na disputa. [...] Em março de 2026, deixou o União Brasil e se filiou ao PL. Durante a campanha, aproximou-se novamente do grupo Bolsonaro e apoiou Flávio na disputa pela Presidência.",
+          "prova": "Apoio nos dois sentidos e filiação ao mesmo partido em 2026."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, governador, Paraná (arquivo de divulgação)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pr/pr-c0003-e006259-u.json",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"nm\" : \"FORTALEZA PARANÁ\", \"tp\" : \"c\", \"com\" : \"PODE / PL / NOVO\" [...] \"n\" : \"22\", \"sg\" : \"PL\", \"nm\" : \"PARTIDO LIBERAL\" [...] \"nm\" : \"SERGIO FERNANDO MORO\", \"nmu\" : \"SERGIO MORO\"",
+          "prova": "Registro oficial de que Moro concorreu pelo PL em 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Flávio sobre afastamento de diretor: \"Grupo especial de Lula na PF desmascarado\" (08/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723372-flavio-sobre-afastamento-de-diretor-grupo-especial-de-lula-na-pf-desmascarado.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O candidato à Presidência Flávio Bolsonaro (PL) comentou nesta terça-feira (8) o afastamento do diretor-geral da Polícia Federal (PF), Andrei Rodrigues,",
+          "prova": "Identifica Flávio Bolsonaro como candidato do PL, o mesmo partido de Moro."
+        }
+      ]
+    },
+    {
+      "id": "A118",
+      "veredito": "VERDADEIRO",
+      "resumo": "O TSE registra Moro eleito governador do Paraná no 1º turno, com 50,10% dos votos válidos",
+      "explicacao": "O critério era o resultado oficial do TSE para governador do Paraná em 4/out/2026 e se Moro passou de 50% dos votos válidos. O arquivo oficial de resultados do TSE marca Sergio Moro como 'Eleito' no 1º turno, com 50,10% dos votos válidos; o Poder360, com 100% das urnas apuradas, dá o mesmo percentual, e o Correio da Manhã registra a vitória no primeiro turno. Por isso VERDADEIRO. A margem acima de 50% é estreita, mas o resultado oficial é de eleito. O Correio da Manhã publicou um número parcial (50,18% com 99,19% das urnas), que não muda o resultado.",
+      "numero_dito": null,
+      "numero_apurado": "50,10% dos votos válidos",
+      "data_de_referencia": "1º turno de 4/out/2026, totalização do TSE",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": "O Correio da Manhã traz 50,18% com 99,19% das urnas apuradas; o número final do TSE e do Poder360, com 100% apurado, é 50,10%.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, governador, Paraná (arquivo de divulgação)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/pr/pr-c0003-e006259-u.json",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"cd\" : \"3\", \"nmn\" : \"Governador\" [...] \"nm\" : \"SERGIO FERNANDO MORO\", \"nmu\" : \"SERGIO MORO\", \"dt\" : \"01/08/1972\", \"dvt\" : \"Válido\", \"seq\" : \"1\", \"e\" : \"s\", \"st\" : \"Eleito\", \"vap\" : \"3127911\", \"pvap\" : \"50,10\"",
+          "prova": "Resultado oficial: Moro eleito governador, com 50,10% dos votos válidos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Sergio Moro é eleito governador do Paraná (04/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/sergio-moro-e-eleito-governador-do-parana/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Sergio Moro (PL) venceu no 1º turno a disputa pelo governo do Paraná neste domingo (4.out.2026). Com 100% das urnas apuradas, ele recebeu 50,10% dos votos, e o candidato Sandro Alex (PSD), 25,37%.",
+          "prova": "Confirma vitória no 1º turno e o percentual final."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Sergio Moro é eleito governador do Paraná no primeiro turno",
+          "url": "https://www.correiodamanha.com.br/nacional/sul/2026/10/324289-sergio-moro-e-eleito-governador-do-parana-no-primeiro-turno.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O candidato Sergio Moro (PL) foi eleito governador do Paraná no primeiro turno neste domingo (4). Com 99,19% das urnas apuradas, o senador somava 50,18% dos votos válidos e superava Sandro Alex (PSD), que tinha 25,9%.",
+          "prova": "Registro independente da eleição no primeiro turno."
+        }
+      ]
+    },
+    {
+      "id": "A119",
+      "veredito": "VERDADEIRO",
+      "resumo": "A defesa de Bolsonaro pediu ao STF revisão criminal para anular a condenação; o relator analisa após o segundo turno",
+      "explicacao": "A pergunta afirma que há movimentações no Judiciário para tentar anular ainda este ano a condenação de Jair Bolsonaro. O critério era achar pedidos em tramitação e notícias sobre o calendário. A defesa protocolou no STF, numa sexta-feira 8 (maio), pedido de revisão criminal para anular a condenação (Diario de Pernambuco; Congresso em Foco registra o sorteio de Nunes Marques como relator). Na semana anterior à fala, a assessoria do relator informou que ele só analisará o caso depois do segundo turno e pretende levá-lo ao plenário (O Liberal), e a Folha, citada pelo Diário do Grande ABC, apurou que ele avalia uma liminar que poderia libertar Bolsonaro depois do segundo turno, marcado para 25 de outubro. O essencial (há pedido em curso para anular a condenação, com análise prevista para depois da eleição, dentro deste ano) está documentado; por isso VERDADEIRO. O veredito trata só da existência do pedido e do calendário anunciado: o pedido não tem decisão, a PGR se manifestou contra, e nada aqui antecipa o resultado (etica-e-risco §5). A ressalva registra que não há data de julgamento: a nota do relator diz que 'após o segundo turno' não significa imediatamente depois.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "pedido protocolado em maio de 2026; situação em 16/10/2026",
+      "ressalva": "Não há data de julgamento; o relator diz que analisar após o segundo turno não significa imediatamente depois",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Bolsonaro entra com revisão criminal no STF para anular condenação (maio de 2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/05/11713866-bolsonaro-entra-com-revisao-criminal-no-stf-para-anular-condenacao.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A defesa do ex-presidente Jair Bolsonaro protocolou nesta sexta-feira (8), no Supremo Tribunal Federal (STF), um pedido de revisão criminal para anular a condenação a 27 anos e 3 meses de prisão no processo da trama golpista.",
+          "prova": "Existência do pedido judicial para anular a condenação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal",
+          "titulo": "Nunes Marques diz que levará revisão criminal de Bolsonaro ao plenário do STF após 2º turno (07/10/2026)",
+          "url": "https://www.oliberal.com/politica/nunes-marques-diz-que-levara-revisao-criminal-de-bolsonaro-ao-plenario-do-stf-apos-2-turno-1.1178288",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro Kassio Nunes Marques, do Supremo Tribunal Federal (STF), disse que só vai analisar a revisão criminal do ex-presidente Jair Bolsonaro (PL) após o segundo turno das eleições. [...] Isso deve ser avaliado somente após o segundo turno, que não significa imediatamente depois, é preciso aguardar o processo estar concluso",
+          "prova": "Calendário anunciado pelo relator: análise depois do segundo turno, sem data marcada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (com apuração da Folha de S.Paulo)",
+          "titulo": "Nunes Marques cogita libertar Jair Bolsonaro após segundo turno das eleições (06/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4351191/nunes-marques-cogita-libertar-jair-bolsonaro-apos-segundo-turno-das-eleicoes",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo apuração da Folha de S.Paulo , Nunes Marques avalia a possibilidade de conceder uma liminar que poderia resultar na libertação de Bolsonaro, mas ainda não há decisão tomada. [...] O segundo turno está marcado para 25 de outubro. [...] A PGR se posicionou contra o pedido.",
+          "prova": "Mostra a movimentação com horizonte ainda em 2026 e que não há decisão tomada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Nunes Marques é sorteado relator da revisão criminal de Bolsonaro",
+          "url": "https://www.congressoemfoco.com.br/noticia/118778/nunes-marques-e-sorteado-relator-da-revisao-criminal-de-bolsonaro",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro Nunes Marques foi sorteado para assumir a relatoria da ação de revisão criminal apresentada na última sexta-feira (8) pela defesa do ex-presidente Jair Bolsonaro. Os advogados pedem a anulação da condenação a 27 anos e três meses de prisão, conforme definido no julgamento da 1ª Turma do STF.",
+          "prova": "Registro independente da tramitação do pedido no STF."
+        }
+      ]
+    },
+    {
+      "id": "A120",
+      "veredito": "VERDADEIRO",
+      "resumo": "O STF condenou Bolsonaro por tentativa de golpe e outros crimes; a pena é de 27 anos e 3 meses",
+      "explicacao": "O critério era a pena total fixada pela Primeira Turma do STF na AP 2668 e se ela é de 27 anos exatos. O STF informa que a pena de Jair Bolsonaro é de 27 anos e três meses de prisão, em regime inicial fechado, a mais alta entre os réus, e o acórdão publicado lista os crimes: tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, organização criminosa armada, dano qualificado e deterioração de patrimônio tombado. A Jovem Pan confirma a pena. '27 anos' para 27 anos e 3 meses é um desvio de 0,9%, abaixo da régua de 10% da §2.2: VERDADEIRO, com a ressalva do número exato. A condenação é definitiva (o STF declarou o trânsito em julgado na decisão que mandou cumprir a pena), por isso não há a cautela de processo em curso; o pedido de revisão criminal (A119) não suspende a condenação. O mesmo dado foi checado no caso 2026-08-28-sabatina-flavio-globo (A002, VERDADEIRO) e no caso 2026-10-15-sabatina-lula-globo-2turno (A062, VERDADEIRO), com as mesmas fontes do STF.",
+      "numero_dito": "27 anos",
+      "numero_apurado": "27 anos e 3 meses",
+      "data_de_referencia": "pena fixada pela Primeira Turma do STF na AP 2668, definitiva na data da fala",
+      "ressalva": "A pena exata é de 27 anos e 3 meses",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "0,9%",
+          "de": "3 meses sobre 27 anos e 3 meses",
+          "como": "desvio do número dito: 3 meses divididos por 327 meses da pena"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "STF concluiu julgamento de ações contra réus que planejaram golpe de Estado",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A pena mais alta foi imposta ao ex-presidente da República Jair Bolsonaro, 27 anos e três meses de prisão, e a menor, de 1 ano e 11 meses, ao tenente-coronel Ronald Ferreira de Araújo. [...] Jair Bolsonaro  (ex-presidente da República) – 27 anos e 3 meses de prisão – regime inicial fechado.",
+          "prova": "Pena total oficial: 27 anos e 3 meses, e não 27 anos exatos."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "AP 2668: publicado acórdão da condenação do ex-presidente Bolsonaro e outros sete réus por tentativa de golpe (22/10/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-publicado-acordao-que-condenou-o-ex-presidente-bolsonaro-e-outros-sete-reus-por-tentativa-de-golpe/",
+          "consultada_em": "2026-10-16",
+          "trecho": "A condenação envolve os crimes de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, participação em organização criminosa armada, dano qualificado e deterioração de patrimônio tombado.",
+          "prova": "Os crimes da condenação, entre eles golpe de Estado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Trânsito em julgado: entenda o conceito jurídico que selou o destino de Bolsonaro e aliados",
+          "url": "https://jovempan.com.br/noticias/politica/transito-em-julgado-entenda-o-conceito-juridico-que-selou-o-destino-de-bolsonaro-e-aliados.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-presidente recebeu uma pena de 27 anos e 3 meses de reclusão, em regime inicial fechado,",
+          "prova": "Confirmação independente da pena exata."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal",
+          "titulo": "AP 2668: STF determina cumprimento imediato da pena dos réus do Núcleo 1 (25/11/2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-stf-determina-cumprimento-imediato-da-pena-dos-sete-reus-do-nucleo-1-da-tentativa-de-golpe/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na decisão, o ministro rejeitou o trâmite (não conheceu) dos novos recursos (embargos de declaração) apresentados nos autos e declarou o trânsito em julgado das condenações (fim da possibilidade de recursos).",
+          "prova": "A condenação é definitiva, o que afasta a cautela de processo em curso."
+        }
+      ]
+    }
+  ]
+}
