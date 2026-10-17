@@ -1,0 +1,427 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A041",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PEC 12/2026, do senador Rogério Marinho (PL), prevê férias e décimo terceiro proporcionais às horas trabalhadas",
+      "explicacao": "A frase da entrevistadora descreve uma proposta do PL que prevê salário, férias e 13º proporcionais às horas trabalhadas. Existe registro formal dela: a PEC 12/2026, apresentada no Senado em 28/05/2026 pelo senador Rogério Marinho (PL-RN), com assinatura de Flávio Bolsonaro entre os coautores, cria um regime flexível por hora trabalhada em que o valor mínimo da hora é proporcional ao salário mínimo ou ao piso, com a mesma proporcionalidade para férias, décimo terceiro e FGTS. Antes disso, em 19/05/2026, Flávio apresentou a ideia à bancada do PL com as mesmas palavras, segundo a Agência Brasil, e em outubro o líder do partido na Câmara disse ao Correio da Manhã que o PL pretende retomar a proposta em 2027. Texto oficial e imprensa batem no conteúdo descrito, por isso VERDADEIRO. A ressalva registra que a PEC não foi votada: está na CCJ do Senado aguardando relator. A Agência Brasil e o Correio da Manhã apuraram separadamente (falas de Flávio em maio e de Sóstenes Cavalcante em outubro) e não reproduzem a mesma primária; a primária é o texto da PEC no Senado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "PEC 12/2026, apresentada em 28/05/2026; situação na data da fala (16/10/2026)",
+      "ressalva": "A PEC 12/2026 está na CCJ do Senado desde 28/05/2026, aguardando relator; não foi votada",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "PEC 12/2026, texto inicial (Gabinete do Senador Rogério Marinho)",
+          "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/f28f4b55-c84d-4b3d-9ca3-94133c169319",
+          "consultada_em": "2026-10-17",
+          "trecho": "§ 3º Na hipótese de redução da jornada de trabalho prevista no inciso XIII deste art. 7º, o valor mínimo da hora trabalhada será proporcional ao salário mínimo nacional ou ao piso da categoria, calculado com base na jornada máxima de que trata o inciso XIII, observada a mesma proporcionalidade no cálculo dos demais direitos trabalhistas, incluindo férias, décimo terceiro salário, FGTS e outros benefícios legais, de acordo a carga horária efetivamente trabalhada.",
+          "prova": "É o texto da proposta: remuneração e férias, 13º e FGTS proporcionais à carga horária trabalhada."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Proposta de Emenda à Constituição nº 12, de 2026: página da matéria",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174362",
+          "consultada_em": "2026-10-17",
+          "trecho": "Proposta de Emenda à Constituição n° 12, de 2026 [...] Situação Atual Em tramitação --> --> Último local: 28/05/2026 - Comissão de Constituição, Justiça e Cidadania Último estado: 28/05/2026 - AGUARDANDO DESIGNAÇÃO DO RELATOR",
+          "prova": "Data de apresentação e situação: a PEC existe formalmente e ainda não foi votada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Flávio Bolsonaro sugere pagamento por hora em alternativa à escala 6x1 (19/05/2026)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/flavio-bolsonaro-sugere-pagamento-por-hora-em-alternativa-escala-6x1",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Foi passada para nossa bancada essa sugestão, essa alternativa, que seria o trabalho remunerado pelas horas de trabalho, com a garantia de todos os direitos trabalhistas, como décimo terceiro, Fundo de Garantia [do Tempo de Serviço – FGTS], férias. Obviamente, proporcionais às horas de trabalho”, explicou o senador.",
+          "prova": "Mostra que a proposta foi apresentada à bancada do PL pelo próprio candidato, com o mesmo conteúdo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Mesmo após apoiar fim da escala 6x1, PL prepara proposta para flexibilizar CLT e pagar direitos por hora trabalhada (15/10/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/326854-mesmo-apos-apoiar-fim-da-escala-6x1-pl-prepara-proposta-para-flexibilizar-clt-e-pagar-direitos-por-hora-trabalhada.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A alternativa defendida por Marinho prevê a possibilidade de acordos individuais sobre jornada e remuneração, com pagamento proporcional de férias, décimo terceiro salário e Fundo de Garantia do Tempo de Serviço (FGTS).",
+          "prova": "Confirma que é a proposta do PL e que o partido pretende retomá-la."
+        }
+      ]
+    },
+    {
+      "id": "A042",
+      "veredito": "VERDADEIRO",
+      "resumo": "O fim da escala 6x1 virou a Emenda Constitucional 141, promulgada em 16 de outubro, dia da entrevista",
+      "explicacao": "A pergunta pressupõe que o fim da escala 6x1 já foi aprovado. A PEC 221/2019 passou na Câmara em 27/05/2026 e no Senado em 14/10/2026 (75 votos a 1 nos dois turnos), e a tramitação oficial da Câmara registra que ela foi transformada na Emenda Constitucional 141/2026, publicada no Diário Oficial de 16/10/2026 em edição extra. O Planalto publica o texto da EC 141, de 16 de outubro, com dois dias de repouso semanal e jornada de 40 horas. Na data da fala o fim da 6x1 estava aprovado e promulgado, por isso VERDADEIRO. A ressalva registra a transição: o texto fixa 42 horas dois meses após a publicação e 40 horas um ano depois. Congresso em Foco e Folha Vitória apuraram a votação no Senado e servem de apoio à primária.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "promulgação e publicação da EC 141 em 16/10/2026",
+      "ressalva": "A redução é gradual: 42 horas dois meses após a publicação e 40 horas um ano depois",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "PEC 221/2019: tramitações a partir de 27/05/2026",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2233802/tramitacoes?dataInicio=2026-05-27",
+          "consultada_em": "2026-10-17",
+          "trecho": "Transformado na Emenda Constitucional 141/2026. DOU 16/10/2026 PÁG 02 COL 02 - Edição Extra A.",
+          "prova": "Registro oficial de que a PEC do fim da 6x1 virou emenda constitucional publicada no dia da entrevista."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Emenda Constitucional nº 141, de 16 de outubro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "EMENDA CONSTITUCIONAL Nº 141, DE 16 DE OUTUBRO [...] XV - repouso semanal remunerado de 2 (dois) dias, um dos quais preferencialmente aos domingos; [...] (dois) meses após a publicação desta Emenda Constitucional, a duração do trabalho normal não excederá a 42 (quarenta e duas) horas semanais; [...] 1 (um) ano após o decurso do prazo de que trata o inciso I deste artigo, a duração do trabalho normal não excederá a 40 (quarenta) horas semanais.",
+          "prova": "Texto promulgado: duas folgas semanais e a transição de 42 para 40 horas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Veja como cada senador votou na PEC do fim da escala 6x1 (14/10/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/123263/veja-como-cada-senador-votou-na-pec-do-fim-da-escala-6x1",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Senado aprovou nesta quarta-feira (14), em dois turnos, a proposta de emenda à Constituição que acaba com a escala de trabalho 6x1, de seis dias de trabalho para um de descanso. A PEC 221/2019 recebeu 75 votos favoráveis e apenas um contrário em cada uma das votações. O texto segue para promulgação.",
+          "prova": "Aprovação final no Senado antes da data da fala."
+        }
+      ]
+    },
+    {
+      "id": "A043",
+      "veredito": "VERDADEIRO",
+      "resumo": "O fim da 6x1 veio por emenda constitucional aprovada na Câmara e no Senado e promulgada pelo Congresso",
+      "explicacao": "O candidato diz que o fim da escala 6x1 foi decisão do Congresso. A mudança veio pela PEC 221/2019, de iniciativa de deputado, aprovada na Câmara em dois turnos em 27/05/2026 (472 a 22 e 461 a 19, segundo a tramitação oficial) e no Senado em 14/10/2026 (75 a 1 nos dois turnos). Emenda constitucional não passa por sanção: o texto da EC 141 diz que as Mesas da Câmara e do Senado a promulgam. As fontes confirmam o essencial, por isso VERDADEIRO. DOL e Congresso em Foco registram o placar do Senado e servem de apoio.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "votações de 27/05/2026 (Câmara) e 14/10/2026 (Senado); EC 141 de 16/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "PEC 221/2019: tramitações a partir de 27/05/2026",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2233802/tramitacoes?dataInicio=2026-05-27",
+          "consultada_em": "2026-10-17",
+          "trecho": "Aprovada, em primeiro turno, a Proposta de Emenda à Constituição nº 221, de 2019. Sim: 472; Não: 22; Total: 494. [...] Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 221, de 2019. . Sim: 461; Não: 19; Total: 480.",
+          "prova": "Placar das duas votações na Câmara."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Emenda Constitucional nº 141, de 16 de outubro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:",
+          "prova": "Mostra que a emenda foi promulgada pelas Mesas do Congresso, sem sanção presidencial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário Online (DOL)",
+          "titulo": "Fim da escala 6x1: veja como votaram os senadores (14/10/2026)",
+          "url": "https://dol.com.br/noticias/brasil/965565/fim-da-escala-6x1-veja-como-votaram-os-senadores",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Senado Federal aprovou, nesta quarta-feira (14), a Proposta de Emenda à Constituição (PEC) que prevê o fim da escala de trabalho 6x1 no Brasil. [...] O resultado foi o mesmo nos dois turnos: 75 votos a favor e um contra. Com a aprovação sem alterações em relação ao texto que passou pela Câmara dos Deputados, a proposta não precisará retornar para uma nova votação entre os deputados. O próximo passo será a promulgação da emenda constitucional pelo Congresso Nacional, seguida da publicação oficial.",
+          "prova": "Votação no Senado e promulgação pelo Congresso."
+        }
+      ]
+    },
+    {
+      "id": "A044",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio disse em outubro que o fim da reeleição poderia levar o mandato dele a quatro ou cinco anos",
+      "explicacao": "A entrevistadora diz que o candidato chegou a ventilar estender o próprio mandato de 4 para 5 anos. Em 8/10/2026, após receber o apoio do Podemos, Flávio disse que o fim da reeleição deveria valer já para o mandato dele e que 'se vai ser quatro, cinco anos' o processo legislativo diria; o Correio (Salvador) resumiu que a PEC 'poderá estender de quatro para cinco anos o próprio mandato'. O Liberal registra a mesma declaração em outra transcrição. 'Ventilar' corresponde ao que está documentado: ele levantou a hipótese dos cinco anos para o próprio mandato sem se comprometer com ela. Por isso VERDADEIRO, com a ressalva de que ele atribuiu a decisão ao Congresso. As duas reportagens trazem transcrições diferentes da fala e por isso contam como apurações separadas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declaração de 08/10/2026",
+      "ressalva": "Ele disse que caberia ao Congresso definir se o mandato teria quatro ou cinco anos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador)",
+          "titulo": "Flávio diz que PEC do fim da reeleição pode levar seu mandato a cinco anos se for eleito (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/eleicoes/flavio-diz-que-pec-do-fim-da-reeleicao-pode-levar-seu-mandato-a-cinco-anos-se-for-eleito-1026",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Muito mais do que um compromisso, eu assinei a PEC, eu sou autor da PEC, e eu vou usar o capital político que um presidente recém-eleito tem também para conseguir aprovar isso no Congresso, para que sirva para mim já, para mim já, no meu mandato. E aí se vai ser quatro, cinco anos. Se vai valer para governador, prefeito, é o processo legislativo que vai dizer”",
+          "prova": "Fala do candidato que associa o próprio mandato à hipótese de cinco anos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal",
+          "titulo": "Flávio diz que fim da reeleição deve valer já em eventual mandato (08/10/2026)",
+          "url": "https://www.oliberal.com/eleicoes/flavio-diz-que-fim-da-reeleicao-deve-valer-ja-em-eventual-mandato-1.1179036",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Não tem que valer só para o futuro. Para mim, tem que valer já no meu mandato. Se serão quatro ou cinco anos, se também vai valer para governador e prefeito, isso o processo legislativo é que vai definir”, afirmou.",
+          "prova": "Segunda transcrição da mesma declaração, em outra apuração."
+        }
+      ]
+    },
+    {
+      "id": "A045",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio disse em fevereiro que o presidente deve ter um só mandato e, em outubro, que não disputaria 2030",
+      "explicacao": "A entrevistadora diz que o candidato tem dito que quer ser presidente de um mandato só. Em 25/02/2026, ao coletar assinaturas para a PEC do fim da reeleição, Flávio disse que 'o presidente da República deve ter apenas um mandato', frase registrada pelo InfoMoney e pelo Jornal de Brasília. Em 8/10/2026, segundo O Liberal, ele declarou que, se vencer, não pretende disputar um segundo mandato em 2030. A frase descreve declarações repetidas, e as fontes as documentam em datas diferentes, por isso VERDADEIRO. InfoMoney e O Liberal são apurações independentes, de meses diferentes.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de 25/02/2026 e 08/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Flávio Bolsonaro coleta assinaturas para PEC do fim da reeleição (25/02/2026)",
+          "url": "https://www.infomoney.com.br/?p=3226892",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Escolhi apresentar uma proposta de emenda à Constituição para confirmar aquilo que eu já havia dito: que o presidente da República deve ter apenas um mandato”, declarou.",
+          "prova": "Declaração do candidato a favor de um mandato único."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal",
+          "titulo": "Flávio diz que fim da reeleição deve valer já em eventual mandato (08/10/2026)",
+          "url": "https://www.oliberal.com/eleicoes/flavio-diz-que-fim-da-reeleicao-deve-valer-ja-em-eventual-mandato-1.1179036",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ele declarou ainda que, se vencer a eleição, não pretende disputar um segundo mandato em 2030.",
+          "prova": "A mesma posição repetida na campanha do 2º turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília",
+          "titulo": "Flávio Bolsonaro protocola PEC pelo fim da reeleição à Presidência (02/03/2026)",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-protocola-pec-pelo-fim-da-reeleicao-a-presidencia/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na última quarta-feira, 25, após uma reunião com deputados e senadores do PL para coletar as assinaturas para o projeto, Flávio defendeu a proposta. “O presidente da República deve ter apenas um mandato”, disse.",
+          "prova": "Confirma a data e o teor da declaração de fevereiro."
+        }
+      ]
+    },
+    {
+      "id": "A046",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio é o primeiro autor da PEC 4/2026, que torna o presidente inelegível para o mandato seguinte",
+      "explicacao": "O candidato diz que apresentou uma PEC que acaba com a reeleição para presidente. A PEC 4/2026 foi autuada no Senado em 02/03/2026 com Flávio Bolsonaro como primeiro autor, e o texto acrescenta ao art. 14 da Constituição que o Presidente da República é inelegível para o mesmo cargo no período subsequente. O Jornal de Brasília e o SBT News registram a apresentação e o conteúdo. Por isso VERDADEIRO. A ressalva registra o que a fonte mostra: a vedação é para o período seguinte (reeleição consecutiva), e a PEC está aguardando despacho desde a autuação, sem votação.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "PEC 4/2026, autuada em 02/03/2026; situação na data da fala",
+      "ressalva": "A PEC veda a reeleição consecutiva e aguarda despacho no Senado desde 02/03/2026, sem votação",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "PEC 4/2026, texto inicial (Gabinete do Senador Flávio Bolsonaro, 02/03/2026)",
+          "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/d4b3fd05-1d9f-46e8-a8d4-52b210c5b176",
+          "consultada_em": "2026-10-17",
+          "trecho": "§ 5º Os Governadores de Estado e do Distrito Federal e os Prefeitos, bem como aqueles que os houverem sucedido ou substituído no curso do mandato, poderão ser reeleitos para um único período subsequente. § 5º-A O Presidente da República e quem o houver sucedido, ou substituído nos seis meses anteriores ao pleito, é inelegível para o mesmo cargo, no período subsequente.",
+          "prova": "Texto da PEC: o presidente fica inelegível para o mandato seguinte."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Proposta de Emenda à Constituição nº 4, de 2026: página da matéria e tramitação",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172830",
+          "consultada_em": "2026-10-17",
+          "trecho": "Proposta de Emenda à Constituição n° 4, de 2026 [...] Senador Flávio Bolsonaro (PL/RJ) , e outros [...] Último local: 02/03/2026 - Plenário do Senado Federal (Secretaria Legislativa do Senado Federal) Último estado: 02/03/2026 - AGUARDANDO DESPACHO",
+          "prova": "Autoria de Flávio e situação da PEC na data da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília (Estadão Conteúdo)",
+          "titulo": "Flávio Bolsonaro protocola PEC pelo fim da reeleição à Presidência (02/03/2026)",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-protocola-pec-pelo-fim-da-reeleicao-a-presidencia/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador Flávio Bolsonaro (PL-RJ), pré-candidato ao Planalto, protocolou nesta segunda-feira, 2, uma proposta de emenda à Constituição (PEC) que proíbe a reeleição para o cargo de presidente da República.",
+          "prova": "Registra a apresentação da PEC pelo candidato."
+        }
+      ]
+    },
+    {
+      "id": "A047",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não há fonte para R$ 350 bi; o levantamento da Folha somou R$ 193,8 bi em medidas, a maior parte crédito",
+      "explicacao": "O candidato diz que Lula gastou quase R$ 350 bilhões para tentar se reeleger. Duas buscas dirigidas e a leitura das reportagens sobre o pacote de medidas do ano eleitoral não acharam fonte (governo, TCU, IFI ou estudo) com R$ 350 bilhões; o Correio (Salvador) registra que Flávio já usou esse valor em 8/10/2026, sem indicar a origem. O levantamento mais citado, da Folha de S.Paulo, somou 20 medidas que mobilizam R$ 193,8 bilhões até 17/09/2026, e o próprio levantamento diz que só nove delas têm impacto primário: o total inclui linhas de crédito, garantias e renúncias, e não é gasto efetivo. O editorial do Agora RN, que critica o pacote, repete o mesmo valor. O número dito não existe nas fontes encontradas, e o critério ('gastou') não corresponde ao que o levantamento mede; por isso INSUSTENTAVEL, e não FALSO: não há prova de que outro cálculo não chegue a 350, apenas nenhuma fonte o sustenta. Bahia Notícias reproduz a reportagem da Folha (é apoio à mesma apuração), e o Agora RN cita o levantamento.",
+      "numero_dito": "quase R$ 350 bilhões",
+      "numero_apurado": "R$ 193,8 bilhões em 20 medidas, em recursos mobilizados e não em gasto (levantamento da Folha)",
+      "data_de_referencia": "levantamento de 17/09/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias (reprodução da Folha de S.Paulo)",
+          "titulo": "Pacote de Lula em ano eleitoral já mobiliza quase R$ 200 bilhões em bondades (17/09/2026)",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/409293-pacote-de-lula-em-ano-eleitoral-ja-mobiliza-quase-r-200-bilhoes-em-bondades",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em maio, segundo cálculo da reportagem com base em informações do governo e auxílio de especialistas, o pacote até então de 11 medidas envolvia recursos na ordem de R$ 144 bilhões. Ao final de junho, antes do defeso eleitoral, o montante chegou a R$ 180 bilhões, em 16 medidas. As 20 ações selecionadas até esta quinta-feira (17) totalizam R$ 193,8 bilhões. [...] Das 20 medidas, nove podem ter impactos primários, seja por renúncia de receitas ou por despesas diretas da União",
+          "prova": "É o levantamento de referência sobre o pacote do ano eleitoral: R$ 193,8 bi, e só parte com impacto primário."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agora RN (editorial)",
+          "titulo": "Editorial: a conta da reeleição",
+          "url": "https://agorarn.com.br/politica/editorial-a-conta-da-reeleicao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Um levantamento recente identificou 20 medidas que, juntas, mobilizam aproximadamente R$ 193,8 bilhões. Esse valor não corresponde integralmente a despesas diretas: inclui renúncias de receitas, subsídios, recursos de fundos públicos, garantias oferecidas a instituições financeiras e linhas de crédito.",
+          "prova": "Mesmo crítico do pacote usa R$ 193,8 bi e diz que não é tudo despesa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador)",
+          "titulo": "Flávio diz que PEC do fim da reeleição pode levar seu mandato a cinco anos se for eleito (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/eleicoes/flavio-diz-que-pec-do-fim-da-reeleicao-pode-levar-seu-mandato-a-cinco-anos-se-for-eleito-1026",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao criticar Lula, o candidato afirmou que o presidente teria destinado R$ 350 bilhões a ações relacionadas à tentativa de permanecer no cargo.",
+          "prova": "Mostra que o valor é do candidato, sem fonte indicada na reportagem."
+        }
+      ]
+    },
+    {
+      "id": "A048",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula concorreu em 1989, 1994, 1998, 2002, 2006 e 2022; 2026 é a sétima disputa presidencial dele",
+      "explicacao": "O candidato diz que Lula tenta a Presidência pela sétima vez. A Agência Brasil lista as candidaturas de 1989, 1994 e 1998, a vitória de 2002, a reeleição de 2006 e a volta em 2022, e diz que em 2026 ele disputa pela sétima vez. O Jornal da Paraíba, ao noticiar a convenção do PT, faz a mesma contagem. O arquivo oficial do TSE do 1º turno de 2026 mostra Lula como candidato a presidente, o que confirma que a sétima disputa está em curso. Seis candidaturas anteriores mais a de 2026 somam sete, por isso VERDADEIRO. Agência Brasil e Jornal da Paraíba apuraram separadamente; a fonte oficial confere a candidatura de 2026.",
+      "numero_dito": "sétima vez",
+      "numero_apurado": "sétima candidatura (1989, 1994, 1998, 2002, 2006, 2022 e 2026)",
+      "data_de_referencia": "candidaturas de 1989 a 2026; 1º turno de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Sindicalista disputa a presidência pela sétima vez, com três vitórias (ago/2026)",
+          "url": "https://agenciabrasil.ebc.com.br/es/node/1700017",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lula, com 80 anos, disputa a presidência pela sétima vez, tendo vencido três eleições anteriores. [...] Foi candidato à presidência da República em 1989, 1994 e 1998, mas somente em 2002 conseguiu chegar ao Palácio do Planalto. Foi reeleito em 2006, [...] Lula retomou a disputa em 2022, venceu novamente as eleições",
+          "prova": "Lista as seis candidaturas anteriores e chama a de 2026 de sétima."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal da Paraíba",
+          "titulo": "PT oficializa candidatura de Lula, que disputará a Presidência pela sétima vez (02/08/2026)",
+          "url": "https://jornaldaparaiba.com.br/_/219955",
+          "consultada_em": "2026-10-17",
+          "trecho": "O petista, que concorre à reeleição, disputará o cargo pela sétima vez, buscando o seu quarto mandato.",
+          "prova": "Contagem feita em apuração separada."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, cargo de presidente, Brasil (arquivo de divulgação)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"nm\" : \"LUIZ INÁCIO LULA DA SILVA\", \"nmu\" : \"LULA\", \"dt\" : \"06/10/1945\", \"dvt\" : \"Válido\", \"seq\" : \"2\", \"e\" : \"s\", \"st\" : \"2º turno\" [...] \"dt\" : \"05/10/2026\"",
+          "prova": "Confirma a candidatura de 2026, a sétima da lista."
+        }
+      ]
+    },
+    {
+      "id": "A049",
+      "veredito": "VERDADEIRO",
+      "resumo": "O texto da PEC 4/2026 só veda a reeleição do presidente; não trata da duração do mandato",
+      "explicacao": "A entrevistadora diz que a PEC do candidato não prevê extensão de mandato. O texto inicial da PEC 4/2026 tem dois artigos: o 1º muda o § 5º do art. 14 (reeleição de governadores e prefeitos) e cria o § 5º-A (inelegibilidade do presidente no período subsequente); o 2º trata da vigência. Não há dispositivo sobre a duração do mandato. A página da matéria no Senado mostra a PEC aguardando despacho desde 02/03/2026, sem emenda ou substitutivo registrado. O próprio candidato, em 8/10/2026, disse que a duração (quatro ou cinco anos) ficaria para o processo legislativo, o que é coerente com um texto que não a fixa. Por isso VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto inicial de 02/03/2026; tramitação na data da fala",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "PEC 4/2026, texto inicial (Gabinete do Senador Flávio Bolsonaro, 02/03/2026)",
+          "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/d4b3fd05-1d9f-46e8-a8d4-52b210c5b176",
+          "consultada_em": "2026-10-17",
+          "trecho": "§ 5º Os Governadores de Estado e do Distrito Federal e os Prefeitos, bem como aqueles que os houverem sucedido ou substituído no curso do mandato, poderão ser reeleitos para um único período subsequente. § 5º-A O Presidente da República e quem o houver sucedido, ou substituído nos seis meses anteriores ao pleito, é inelegível para o mesmo cargo, no período subsequente. [...] Art. 2º Esta Emenda Constitucional entra em vigor na data de sua promulgação, aplicando-se inclusive ao Presidente da República eleito em",
+          "prova": "Os dois artigos do texto: nenhum trata da duração do mandato."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Proposta de Emenda à Constituição nº 4, de 2026: página da matéria e tramitação",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172830",
+          "consultada_em": "2026-10-17",
+          "trecho": "Proposta de Emenda à Constituição n° 4, de 2026 [...] Último local: 02/03/2026 - Plenário do Senado Federal (Secretaria Legislativa do Senado Federal) Último estado: 02/03/2026 - AGUARDANDO DESPACHO",
+          "prova": "Sem tramitação posterior, não há substitutivo que tenha mudado o texto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador)",
+          "titulo": "Flávio diz que PEC do fim da reeleição pode levar seu mandato a cinco anos se for eleito (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/eleicoes/flavio-diz-que-pec-do-fim-da-reeleicao-pode-levar-seu-mandato-a-cinco-anos-se-for-eleito-1026",
+          "consultada_em": "2026-10-17",
+          "trecho": "Autor da proposta apresentada no Senado, Flávio defendeu que a mudança passe a valer já a partir de 2027. Ele ressaltou, porém, que a definição sobre a duração do mandato caberá ao Congresso Nacional.",
+          "prova": "O próprio autor diz que a duração ainda seria definida, o que confirma que o texto não a fixa."
+        }
+      ]
+    },
+    {
+      "id": "A050",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PEC de Flávio sobre reeleição veda só a do presidente e mantém a de governadores e prefeitos",
+      "explicacao": "O candidato diz que a PEC dele vale para presidente da República. O texto da PEC 4/2026 mantém, no § 5º do art. 14, que governadores e prefeitos podem ser reeleitos para um único período subsequente, e cria o § 5º-A só para o presidente. O Jornal de Brasília e o SBT News descrevem o mesmo recorte. As fontes confirmam o enunciado, por isso VERDADEIRO. SBT News e Jornal de Brasília (Estadão Conteúdo) são apurações separadas, de datas diferentes.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto inicial de 02/03/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "PEC 4/2026, texto inicial (Gabinete do Senador Flávio Bolsonaro, 02/03/2026)",
+          "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/d4b3fd05-1d9f-46e8-a8d4-52b210c5b176",
+          "consultada_em": "2026-10-17",
+          "trecho": "§ 5º Os Governadores de Estado e do Distrito Federal e os Prefeitos, bem como aqueles que os houverem sucedido ou substituído no curso do mandato, poderão ser reeleitos para um único período subsequente. § 5º-A O Presidente da República e quem o houver sucedido, ou substituído nos seis meses anteriores ao pleito, é inelegível para o mesmo cargo, no período subsequente.",
+          "prova": "Governadores e prefeitos mantêm a reeleição; a vedação é só para o presidente."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Flávio Bolsonaro propõe PEC que acaba com reeleição para presidente da República (26/02/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-bolsonaro-propoe-pec-que-acaba-com-reeleicao-para-presidente-da-republica",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em documento curto, de apenas três páginas, o pré-candidato à Presidência propõe o fim da reeleição somente para o cargo máximo do Poder Executivo, poupando governadores e prefeitos , que poderiam seguir concorrendo a um segundo mandato.",
+          "prova": "Descreve o mesmo recorte do texto."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília (Estadão Conteúdo)",
+          "titulo": "Flávio Bolsonaro protocola PEC pelo fim da reeleição à Presidência (02/03/2026)",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-protocola-pec-pelo-fim-da-reeleicao-a-presidencia/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A proposta mantém a possibilidade de reeleição para os demais cargos, incluindo governadores e prefeitos.",
+          "prova": "Confirma que a PEC protocolada preserva a reeleição de governadores e prefeitos."
+        }
+      ]
+    }
+  ]
+}

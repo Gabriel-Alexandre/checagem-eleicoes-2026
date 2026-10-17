@@ -1,0 +1,497 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A061",
+      "veredito": "VERDADEIRO",
+      "resumo": "O plano registrado propõe impedir parentes de até terceiro grau de magistrados de atuar no tribunal deles",
+      "explicacao": "A pergunta da entrevistadora atribui ao plano de governo a proposta de restringir a atuação de familiares de ministros em causas no tribunal. O próprio programa ('Para o Brasil Vencer o Atraso', o mesmo documento usado como programa registrado na checagem A009 do caso 2026-08-28-sabatina-flavio-globo-economia), na seção 'Reforma do Judiciário: o STF como Corte Constitucional', lista o impedimento de parentes de até terceiro grau, e do respectivo escritório, para atuar no tribunal do respectivo magistrado. Duas coberturas independentes do plano, publicadas em 13/08/2026 (Diário do Grande ABC e A Crítica), descrevem a mesma medida. A frase confere no essencial; a única diferença é de alcance: o texto fala de magistrados em geral, não só de ministros do STF, o que inclui o caso citado. Por isso VERDADEIRO, e não IMPRECISO: o recorte da pergunta está contido na proposta.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "programa de governo divulgado em agosto de 2026, vigente na data da fala (16/10/2026)",
+      "ressalva": "A proposta vale para parentes de magistrados em geral, não só de ministros do STF",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Programa de governo de Flávio Bolsonaro (documento registrado)",
+          "titulo": "Para o Brasil Vencer o Atraso (PDF publicado pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Reforma do Judiciário: o STF como Corte Constitucional [...] Impedimento de parentes de até terceiro grau, e respectivo escritório, para atuar no tribunal do respectivo magistrado.",
+          "prova": "É a redação da proposta no próprio plano: restringe a atuação de parentes de magistrados, e de seus escritórios, no tribunal do magistrado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC",
+          "titulo": "Flávio Bolsonaro defende que parlamentares possam ser julgados por instâncias inferiores (13/08/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4341073/flavio-bolsonaro-defende-que-parlamentares-possam-ser-julgados-por-instancias-inferiores",
+          "consultada_em": "2026-10-17",
+          "trecho": "Outra medida prevista é o impedimento de parentes de até terceiro grau de magistrados, assim como dos respectivos escritórios, de atuar no tribunal do familiar.",
+          "prova": "Leitura independente do plano registra a mesma medida entre as propostas para o Judiciário."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande",
+          "titulo": "Plano de Flávio Bolsonaro prevê mudanças no STF, prisões e redução da maioridade penal (13/08/2026)",
+          "url": "https://acritica.net/eleicoes-2026/plano-de-flavio-bolsonaro-preve-mudancas-no-stf-prisoes-e-reducao-da-maioridade-penal/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Outras medidas incluem uma quarentena de um ano para que ministros de Estado possam ser indicados ao Supremo, revisão do alcance das Arguições de Descumprimento de Preceito Fundamental e restrições à atuação de parentes de magistrados em tribunais onde familiares exercem a função.",
+          "prova": "Terceira leitura do plano com a mesma restrição a parentes de magistrados."
+        }
+      ]
+    },
+    {
+      "id": "A062",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Estimativas achadas: R$ 20 bi por ano (Fazenda, todas as esferas) e R$ 17 bi (Judiciário e MP); R$ 24 bi não aparece",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: uma busca e a captura das páginas acharam duas estimativas de gasto anual com verbas acima do teto, ambas por imprensa que reproduz a primária (regra 2 da METODOLOGIA §3.1, declarada aqui). O InfoMoney (26/02/2026) registra o ministro da Fazenda, Fernando Haddad, dizendo que os supersalários custam R$ 20 bilhões por ano para os Três Poderes de União, estados e municípios; a Band e O Liberal (24/03/2026), que reproduzem o mesmo relatório, informam que a comissão técnica dos Três Poderes entregou ao STF estimativa de R$ 17 bilhões por ano só para magistratura (R$ 9,8 bilhões) e Ministério Público (R$ 7,2 bilhões). Nenhuma fonte achada dá R$ 24 bilhões. Se a estimativa de R$ 20 bilhões for a referência, o número dito fica 20% acima, o que pela régua do §2.2 seria IMPRECISO; mas falta a fonte N1 ou N2 que o validador exige para valor monetário (o relatório da comissão, dado do CNJ ou do Tesouro) e falta procurar a origem dos R$ 24 bilhões (algum estudo independente pode usar esse número). Sem isso, o veredito provisório é SEM COMPROVAÇÃO. Também falta conferir o efeito das novas regras aprovadas pelo STF em 25/03/2026, que o ministro Alexandre de Moraes estimou em economia de R$ 7,3 bilhões por ano no Judiciário, sobre o gasto vigente em outubro.",
+      "numero_dito": "R$ 24 bilhões por ano",
+      "numero_apurado": "R$ 20 bilhões por ano (estimativa citada pelo ministro da Fazenda, Três Poderes de União, estados e municípios); R$ 17 bilhões por ano só na magistratura e no Ministério Público",
+      "data_de_referencia": "estimativas divulgadas em fevereiro e março de 2026",
+      "derivacoes": [
+        {
+          "valor": "20%",
+          "de": "24 contra 20",
+          "como": "desvio do número dito em relação à estimativa de R$ 20 bilhões: (24 menos 20) dividido por 20"
+        }
+      ],
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "As duas estimativas têm recortes diferentes: R$ 20 bilhões para os Três Poderes de todas as esferas (Fazenda) e R$ 17 bilhões só para magistratura e Ministério Público (comissão técnica). Não são contraditórias, mas nenhuma chega a R$ 24 bilhões.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Haddad diz que supersalários custam R$ 20 bi ao ano para União, estados e municípios (26/02/2026)",
+          "url": "https://www.infomoney.com.br/?p=3227054",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro da Fazenda, Fernando Haddad, disse que os supersalários custam R$ 20 bilhões por ano para os Três Poderes de União, estados e municípios.",
+          "prova": "Estimativa de autoridade para o mesmo recorte da fala (os três Poderes), em todas as esferas: R$ 20 bilhões, não 24."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Band Jornalismo",
+          "titulo": "Gastos com 'penduricalhos' no MP e Judiciário somam R$ 17 bilhões por ano (24/03/2026)",
+          "url": "https://www.band.com.br/noticias/dados-entregues-ao-stf-indicam-que-gastos-com-penduricalhos-no-mp-e-judiciario-somam-r-17-bi-202603241530",
+          "consultada_em": "2026-10-17",
+          "trecho": "Dados entregues ao Supremo Tribunal Federal (STF) por uma comissão técnica formada por representantes dos Três Poderes indicam que os gastos anuais com pagamentos extras a magistrados e membros do Ministério Público somam R$ 17 bilhões, segundo relatório que servirá de subsídio ao julgamento sobre o teto remuneratório marcado para esta quarta-feira (25), em Brasília.",
+          "prova": "Estimativa da comissão técnica dos Três Poderes para a parte do Judiciário e do MP: R$ 17 bilhões."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal",
+          "titulo": "Dados entregues ao STF indicam que gastos com penduricalhos no MP e Judiciário somam R$ 17 bi (março de 2026)",
+          "url": "https://www.oliberal.com/politica/dados-entregues-ao-stf-indicam-que-gastos-com-penduricalhos-no-mp-e-judiciario-somam-r-17-bi-1.1101191",
+          "consultada_em": "2026-10-17",
+          "trecho": "A comissão estima que o valor gasto com parcelas que excedem o teto do funcionalismo público na magistratura é de R$ 9,8 bilhões. No MP, esse gasto seria de R$ 7,2 bilhões.",
+          "prova": "Reproduz o mesmo relatório da Band (não é fonte independente dela) e detalha a divisão entre magistratura e MP."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Regras para 'penduricalhos' têm economia de 7 bilhões por ano, diz Moraes (25/03/2026)",
+          "url": "https://www.itatiaia.com.br/politica/regras-para-penduricalhos-tem-economia-de-7-bilhoes-por-ano-diz-moraes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Isso acarretaria, somados todos os ramos da Justiça, cerca de R$ 7,3 bilhões por ano de economia aos cofres públicos”, afirmou o ministro.",
+          "prova": "Mostra que o gasto mudou depois das estimativas de fevereiro e março, o que ainda precisa ser conferido para a data da fala."
+        }
+      ]
+    },
+    {
+      "id": "A063",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 1º/9, na tribuna do Senado, Flávio cobrou a abertura imediata de impeachment de Moraes pelas mensagens de Vorcaro",
+      "explicacao": "Três coberturas independentes registram que, em 1º/09/2026, o senador Flávio Bolsonaro subiu à tribuna e cobrou do presidente do Senado a abertura, 'de ofício', de um processo de impeachment contra Alexandre de Moraes, por causa das mensagens encontradas pela PF no celular de Daniel Vorcaro (Congresso em Foco, Diario de Pernambuco, Gazeta do Povo). A BP Money o inclui entre os senadores que, no mesmo dia, cobraram o afastamento de Moraes ou mais esclarecimentos sobre a relação com Vorcaro. A parte central da frase (defesa do impeachment, ligada ao caso Master) confere. A parte 'não só a investigação' tem apoio mais fraco: as fontes mostram Flávio cobrando esclarecimentos e falando em crimes, mas o pedido formal de investigação à PGR e ao STF aparece como iniciativa das lideranças da oposição (SBT News, checagem A066 do caso de 15/out), sem o nome dele. Como o essencial é o impeachment, VERDADEIRO com ressalva. O mesmo episódio aparece na checagem A066 do caso 2026-10-15-sabatina-lula-globo-2turno (VERDADEIRO), que registrou os pedidos de impeachment da oposição.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "discurso de 1º/09/2026 no Senado",
+      "ressalva": "O pedido formal de investigação na PGR e no STF aparece nas fontes como iniciativa das lideranças da oposição",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Flávio cobra impeachment de Moraes por conversas com Daniel Vorcaro (01/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/121872/flavio-cobra-impeachment-de-moraes-por-conversas-com-daniel-vorcaro",
+          "consultada_em": "2026-10-17",
+          "trecho": "Durante a sessão plenária desta terça-feira (1º), o senador e candidato ao Planalto Flávio Bolsonaro (PL-RJ) cobrou dos pares e da Mesa Diretora da Casa mobilização pela abertura de um processo de impeachment contra o ministro Alexandre de Moraes, do STF, em razão do conteúdo das mensagens encontradas pela Polícia Federal no celular de Daniel Vorcaro, controlador do Banco Master.",
+          "prova": "Registra a defesa do impeachment e a ligação com as mensagens de Vorcaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Flávio Bolsonaro cobra impeachment \"imediato\" de Alexandre de Moraes e diz haver \"anestesia\" do Senado (01/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722841-flavio-bolsonaro-cobra-impeachment-imediato-de-alexandre-de-moraes-e-diz-haver-anestesia-do-senado.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio defendeu que o presidente do Senado, Davi Alcolumbre (União-AP), autorize, de ofício, a abertura de um processo de impeachment contra Moraes.",
+          "prova": "Segunda cobertura independente da mesma defesa do impeachment."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Flávio sobe à tribuna do Senado e cobra impeachment de Moraes imediatamente (02/09/2026)",
+          "url": "https://www.gazetadopovo.com.br/republica/flavio-sobe-a-tribuna-do-senado-e-cobra-impeachment-de-moraes-imediatamente/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Não dá para fingir que ele não cometeu crime de responsabilidade”, disse. “O Alexandre de Moraes precisa ter o processo de impeachment imediatamente iniciado. Imediatamente iniciado. Hoje. De ofício.”",
+          "prova": "A fala do próprio Flávio defendendo o impeachment."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Alexandre de Moraes: senadores pedem impeachment após mensagens de Vorcaro (02/09/2026)",
+          "url": "https://bpmoney.com.br/politica/alexandre-de-moraes-senadores-pedem-impeachment-apos-mensagens-de-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Nesta terça-feira (1º) , os senadores Alessandro Vieira, Carlos Viana, Cleitinho, Damares Alves, Esperidião Amin, Flávio Bolsonaro, Izalci Lucas, Luis Carlos Heinze e Magno Malta fizeram discursos no Senado cobrando o afastamento de Moraes ou mais esclarecimentos sobre sua relação com Vorcaro.",
+          "prova": "Mostra Flávio também cobrando esclarecimentos, que é o mais perto de 'investigação' que as fontes registram."
+        }
+      ]
+    },
+    {
+      "id": "A064",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Há contrato do Master com o escritório da esposa de Moraes e mensagens de Vorcaro a ele; a apuração não concluiu",
+      "explicacao": "O que está documentado: o escritório de Viviane Barci de Moraes, esposa do ministro, fechou contrato com o Banco Master (Agência Pública, com base no material tornado público em 1º/09/2026), e o relatório da PF sobre o celular de Daniel Vorcaro registra pedidos reiterados do banqueiro ao ministro (Diario de Pernambuco, com base no Estadão). Mas o próprio material só recupera as mensagens de Vorcaro, não as respostas de Moraes; a PF ressalvou que não fez diligências contra magistrados e não concluiu que Moraes tenha cometido crime ou atendido a pedidos (Congresso em Foco); o ministro negou em notas qualquer relação com Vorcaro; e o plenário do STF ainda não decidiu se abre investigação (pedido de vista de 15/09). A natureza da relação é fato em apuração, sem conclusão, e pela regra de ética §5 o veredito não pode ser VERDADEIRO nem FALSO. É a mesma régua da checagem A064 do caso 2026-10-15-sabatina-lula-globo-2turno (INSUSTENTAVEL), aplicada aqui à pergunta da entrevistadora: o resumo diz o que está documentado e que a apuração segue.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação em 16/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Pública",
+          "titulo": "Análise: as revelações sobre Master, Vorcaro, Moraes e Mendonça (setembro de 2026)",
+          "url": "https://apublica.org/2026/09/analise-as-revelacoes-sobre-master-vorcaro-moraes-e-mendonca/",
+          "consultada_em": "2026-10-16",
+          "trecho": "mostra que o escritório de Viviane Barci de Moraes fechou com o Master um contrato de R$ 131 milhões [...] Entre fevereiro e março passados, quando vazou o contrato do escritório da esposa de Moraes com o Master, o próprio ministro publicou ao menos cinco notas para negar qualquer relação com Vorcaro.",
+          "prova": "O vínculo documentado (contrato do escritório da esposa) e a negativa do ministro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Mensagens indicam que Vorcaro pediu a Moraes freio em investigação (setembro de 2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722803-mensagens-indicam-que-vorcaro-pediu-a-moraes-freio-em-investigacao.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dessa maneira, os investigadores conseguiram recuperar as imagens enviadas pelo banqueiro, mas não as respostas de Moraes. O material, portanto, registra os pedidos e comentários de Vorcaro, mas não permite, segundo as informações fornecidas, reconstruir o teor das manifestações do ministro.",
+          "prova": "As mensagens existem, mas só de um lado; o teor da relação não está reconstruído."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Flávio cobra impeachment de Moraes por conversas com Daniel Vorcaro (01/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/121872/flavio-cobra-impeachment-de-moraes-por-conversas-com-daniel-vorcaro",
+          "consultada_em": "2026-10-17",
+          "trecho": "A PF ressalva, porém, que não realizou diligências investigativas contra magistrados ou integrantes do Ministério Público e não concluiu que Moraes tenha cometido crime, interferido em apurações ou atendido a pedidos de Vorcaro.",
+          "prova": "A própria PF não concluiu nada sobre a conduta do ministro: a apuração está em aberto."
+        }
+      ]
+    },
+    {
+      "id": "A065",
+      "veredito": "VERDADEIRO",
+      "resumo": "Kassio Nunes Marques foi o primeiro indicado de Bolsonaro ao STF, aprovado pelo Senado em outubro de 2020",
+      "explicacao": "Três veículos independentes registram, na data da votação, que o Senado aprovou em 21/10/2020 a indicação de Kassio Nunes Marques, desembargador do TRF-1, para a vaga de Celso de Mello, e que ele foi o primeiro indicado do presidente Jair Bolsonaro ao STF (InfoMoney, A Gazeta, Extra Classe). A frase da entrevistadora confere sem ressalva.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "indicação e aprovação no Senado em outubro de 2020",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Senado aprova indicação de Kassio Nunes Marques para o STF, por 57 votos a 10 (21/10/2020)",
+          "url": "https://www.infomoney.com.br/?p=1535536",
+          "consultada_em": "2026-10-17",
+          "trecho": "Primeiro indicado pelo presidente Jair Bolsonaro (sem partido) para o órgão máximo do Poder Judiciário brasileiro, Kassio Nunes é natural de Teresina (PI)",
+          "prova": "Registra que a indicação ao STF foi de Jair Bolsonaro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta",
+          "titulo": "Senado aprova Kassio Nunes, 1º indicado de Bolsonaro, para vaga no STF (21/10/2020)",
+          "url": "https://www.agazeta.com.br/brasil/senado-aprova-kassio-nunes-1-indicado-de-bolsonaro-para-vaga-no-stf-1020",
+          "consultada_em": "2026-10-17",
+          "trecho": "Publicado em 21 de Outubro de 2020 às 19:54 [...] Kassio Nunes é o primeiro ministro indicado ao STF pelo presidente Jair Bolsonaro.",
+          "prova": "Segunda cobertura independente, com a data da aprovação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Extra Classe",
+          "titulo": "Senado aprova indicação de Kassio Nunes Marques para o STF (22/10/2020)",
+          "url": "https://www.extraclasse.org.br/?p=60161",
+          "consultada_em": "2026-10-17",
+          "trecho": "Indicado por Bolsonaro, desembargador Kassio Nunes Marques substituirá o ministro Celso de Mello na mais alta corte do país",
+          "prova": "Terceira cobertura com a mesma autoria da indicação."
+        }
+      ]
+    },
+    {
+      "id": "A066",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Mensagens citam casa no Rio para \"KN\" sem dizer quem pagou; o voo do ministro foi pago por advogada, diz o gabinete",
+      "explicacao": "O critério pedia o relatório ou documento que cite mensagens de Vorcaro sobre despesas de Kassio Nunes Marques. O que as fontes registram até a data da fala: segundo a representação de deputados do PT ao STF (Times Brasil, 12/10/2026), mensagens indicariam que uma mansão no Joá, no Rio, no Carnaval de 2025, ficaria à disposição de um ministro identificado como 'KN', mas não demonstram quem custeou a locação; e a viagem do ministro de Brasília a Maceió, em aeronave operada por empresa ligada à administração de bens de Vorcaro, foi paga, segundo o gabinete, pela advogada Camilla Ewerton Ramos, que atua em processos do Master (Correio da Manhã). Nenhuma fonte achada mostra mensagem indicando que Vorcaro bancou despesas do ministro, e Nunes Marques nega ter recebido recursos de Vorcaro. O tema é objeto de pedido de investigação, sem decisão: pela regra de ética §5 o veredito não pode ser FALSO, e as fontes não sustentam a afirmação. Por isso INSUSTENTAVEL.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "reportagens e representação de setembro e outubro de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Deputados do PT pedem investigação de Nunes Marques por possíveis vínculos com Master (12/10/2026)",
+          "url": "https://timesbrasil.com.br/brasil/deputados-pedem-investigacao-sobre-nunes-marques-e-master/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A representação menciona o aluguel de uma mansão no Joá, no Rio de Janeiro , durante o Carnaval de 2025. Mensagens indicariam que o imóvel ficaria à disposição de um ministro identificado como “KN” , mas não demonstram quem custeou a locação. O documento ainda cita uma viagem de Brasília a Maceió , confirmada pelo gabinete de Nunes Marques, cujas despesas teriam sido pagas por Camilla Ramos.",
+          "prova": "O que as mensagens dizem sobre despesas: não mostram quem pagou a casa, e o voo é atribuído a outra pessoa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Mensagens de Vorcaro associam filho de Nunes Marques a valor de R$ 500 mil mensais (15/09/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/09/319124-mensagens-de-vorcaro-associam-filho-de-nunes-marques-a-valor-de-rs-500-mil-mensais.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em novembro de 2025, o ministro e a esposa viajaram de Brasília para Maceió em uma aeronave operada por empresa ligada à administração de bens de Vorcaro. O gabinete do ministro confirmou a viagem e informou que o convite e os custos do voo ficaram a cargo da advogada Camilla Ewerton Ramos, que atua em processos relacionados ao Banco Master.",
+          "prova": "Cobertura independente do episódio do voo, com a versão do gabinete sobre quem pagou."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Nunes Marques diz que filho nunca prestou serviço ao Master (15/09/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/nunes-marques-diz-que-filho-nunca-prestou-servico-ao-master/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“ Em relação às mensagens que circulam de ontem, de hoje e que sempre vão rondar autoridades no Brasil, eu nunca julguei nenhum processo relacionado ao Master. Meu filho nunca prestou nenhum serviço ao banco e nunca foi remunerado pelo banco.",
+          "prova": "A negativa do ministro, registrada no plenário do STF."
+        }
+      ]
+    },
+    {
+      "id": "A067",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Mensagens ligam o filho de Nunes Marques a R$ 500 mil por mês via consultoria; ele admite R$ 281,6 mil e nega o resto",
+      "explicacao": "O que está documentado: mensagens do celular de Vorcaro, reveladas em 15/09/2026, mostram o então diretor jurídico do Master, Luiz Rennó, enviando os contatos do advogado Kevin Marques, filho de Kassio Nunes Marques, em conversas sobre pagamentos de R$ 500 mil por mês ligados à Consult Inteligência Tributária (Times Brasil, Bahia Notícias); fontes da investigação ouvidas pela Gazeta do Povo dizem que os pagamentos teriam passado pela consultoria antes de chegar ao filho; e o Coaf registrou que o escritório de Kevin recebeu R$ 281 mil da Consult, que recebeu dinheiro do Master (Metrópoles). Do outro lado, as próprias reportagens dizem que as mensagens não comprovam que os R$ 500 mil tenham sido pagos nem que o dinheiro da Consult ao advogado tenha origem no Master (Correio da Manhã), e Kevin e o ministro negam. É fato em apuração, sem conclusão: pela regra de ética §5 não cabe VERDADEIRO nem FALSO. Mesma régua das checagens do caso Master no caso de 15/out (A064, A073), onde 'suspeita' e 'indica' dependem da apuração.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "mensagens reveladas em 15/09/2026; situação em 16/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Gazeta do Povo, com fontes da investigação, fala em pagamento de R$ 500 mil que teria chegado ao filho por meio da consultoria; o Correio da Manhã e o Times Brasil dizem que as mensagens não comprovam o pagamento desse valor. O valor registrado pelo Coaf é R$ 281 mil (Metrópoles) ou R$ 281,6 mil (nota da defesa).",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Mensagens de Vorcaro citam filho de Nunes Marques em conversa sobre pagamentos de R$ 500 mil mensais (15/09/2026)",
+          "url": "https://timesbrasil.com.br/brasil/mensagens-de-vorcaro-citam-filho-de-nunes-marques-em-conversa-sobre-pagamentos-de-r-500-mil-mensais/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Mensagens extraídas do celular de Daniel Vorcaro citam o advogado Kevin Marques, filho do ministro do Supremo Tribunal Federal (STF) Kassio Nunes Marques, em conversas sobre pagamentos mensais de R$ 500 mil relacionados à Consult Inteligência Tributária. [...] As mensagens, porém, não comprovam que Kevin Marques tenha recebido R$ 500 mil por mês. A assessoria do advogado afirma que ele recebeu R$ 281,6 mil da Consult por serviços prestados à própria empresa.",
+          "prova": "O que as mensagens dizem, o limite delas e a versão do advogado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Filho de Nunes Marques teria recebido R$ 500 mil do Master, aponta PF (setembro de 2026)",
+          "url": "https://www.gazetadopovo.com.br/republica/filho-nunes-marques-teria-recebido-500-mil-master-aponta-pf/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a investigação, os pagamentos teriam sido feitos através de uma consultoria para, posteriormente, enviar ao filho de Nunes Marques, em uma espécie de triangulação para se evitar a descoberta da origem do dinheiro.",
+          "prova": "A leitura dos investigadores sobre a consultoria como intermediária, ainda como suspeita."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Mensagens de Vorcaro associam filho de Nunes Marques a valor de R$ 500 mil mensais (15/09/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/09/319124-mensagens-de-vorcaro-associam-filho-de-nunes-marques-a-valor-de-rs-500-mil-mensais.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "As mensagens, porém, não demonstram por si só que R$ 500 mil tenham sido efetivamente pagos ao advogado nem identificam de forma conclusiva a origem ou a finalidade da quantia citada.",
+          "prova": "O ponto que mantém o tema em apuração: as mensagens não fecham o pagamento."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Consultoria ligada ao Master e à JBS contratou filho de Nunes Marques",
+          "url": "https://www.metropoles.com/brasil/consultoria-ligada-ao-master-e-a-jbs-contratou-filho-de-nunes-marques",
+          "consultada_em": "2026-10-17",
+          "trecho": "Relatório de Inteligência Financeira (RIF) emitido pelo Conselho de Controle de Atividades Financeiras (Coaf) indica que o escritório de advocacia de Kevin de Carvalho Marques, filho do ministro do Supremo Tribunal Federal (STF) Kassio Nunes Marques, recebeu R$ 281 mil em 10 parcelas da empresa de consultoria contratada pelo Master e pela JBS.",
+          "prova": "O pagamento documentado da consultoria ao filho, por um registro financeiro e não por mensagem."
+        }
+      ]
+    },
+    {
+      "id": "A068",
+      "veredito": "VERDADEIRO",
+      "resumo": "O art. 39 da Lei 1.079 lista como crime de ministro do STF julgar quando suspeito e atuar em política partidária",
+      "explicacao": "O art. 39 da Lei 1.079/1950, no texto compilado do Planalto, define os crimes de responsabilidade dos ministros do STF, e entre eles estão 'proferir julgamento, quando, por lei, seja suspeito na causa' (item 2) e 'exercer atividade político-partidária' (item 3). A petição inicial da ADPF 1.259 transcreve o mesmo artigo. A liminar do ministro Gilmar Mendes de 3/12/2025 nas ADPFs 1.259 e 1.260 mexeu nos itens 4 e 5 do art. 39 (proibindo enquadrar o mérito de decisões judiciais), não nos dois exemplos citados por Flávio. A descrição da norma confere.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 1.079/1950, texto vigente em 16/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 1.079, de 10 de abril de 1950 (texto compilado)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 39. São crimes de responsabilidade dos Ministros do Supremo Tribunal Federal: [...] 2 - proferir julgamento, quando, por lei, seja suspeito na causa; 3 - exercer atividade político-partidária;",
+          "prova": "O texto da lei com os dois crimes citados na fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (decisão do ministro Gilmar Mendes)",
+          "titulo": "Medida cautelar na ADPF 1.259/DF (03/12/2025)",
+          "url": "https://correiosabia.com.br/content/files/2025/12/ADPF-1259-MC.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "(vii) excluir qualquer interpretação do art. 39, 4 e 5, da Lei 1.079/1950, que autorize enquadrar o mérito de decisões judiciais como conduta típica para efeito de crime de responsabilidade.",
+          "prova": "A liminar do STF sobre o art. 39 atinge só os itens 4 e 5; os itens 2 e 3 citados seguem intactos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Solidariedade (petição inicial da ADPF 1.259, PDF publicado pelo Poder360)",
+          "titulo": "ADPF 1.259: petição sobre a Lei do Impeachment e ministros do STF (setembro de 2025)",
+          "url": "https://static.poder360.com.br/2025/09/adpf-1259-solidariedade-impeachment-ministros-stf-gilmar.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 39. São crimes de responsabilidade dos Ministros do Supremo Tribunal Federal: 1- altera, por qualquer forma, exceto por via de recurso, a decisão ou voto já proferido em sessão do Tribunal; 2 - proferir julgamento, quando, por lei, seja suspeito na causa; 3 - exercer atividade político-partidária;",
+          "prova": "Transcrição independente do mesmo artigo, feita na ação ao STF."
+        }
+      ]
+    },
+    {
+      "id": "A069",
+      "veredito": "FALSO",
+      "resumo": "A Lei 1.079 manda o Senado votar se a denúncia segue, e o presidente da Casa pode arquivá-la; abrir não é obrigatório",
+      "explicacao": "A frase descreve a norma: se um ministro do STF incorre num dos crimes do art. 39, o Senado seria obrigado a iniciar o impeachment. A lei diz outra coisa. Pela Lei 1.079/1950, a denúncia precisa ser recebida pela Mesa do Senado, vai a uma comissão especial que opina se ela deve ser objeto de deliberação, o plenário vota esse parecer e, se o Senado resolver que não, os papéis são arquivados (arts. 44 a 48). Na prática, cabe exclusivamente ao presidente do Senado decidir se o pedido é arquivado ou segue (Poder360; BP Money registra que Alcolumbre tinha 109 pedidos contra ministros do STF sem indicar andamento), e a decisão do STF na ADPF 1.259 registra que o presidente do Senado rejeitou uma denúncia em 2020. Há juízo prévio e votação, não obrigação de abrir o processo. As fontes contradizem o essencial da frase (a obrigação), por isso FALSO e não IMPRECISO. A mesma regra foi registrada na checagem A077 do caso 2026-10-15-sabatina-lula-globo-2turno ('cabe exclusivamente ao presidente do Senado decidir'). Nota: a liminar de 3/12/2025 nas ADPFs 1.259 e 1.260 também elevou para 2/3 o quórum de aprovação do parecer e, depois, teve suspensa a parte que dava só à PGR o poder de denunciar; não foi conferido aqui o estado do julgamento de mérito em outubro de 2026, o que não muda o ponto: em nenhuma das versões a abertura é automática.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 1.079/1950 e decisões do STF vigentes em 16/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 1.079, de 10 de abril de 1950 (texto compilado)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "LEI Nº 1.079, DE 10 DE ABRIL DE 1950. [...] Art. 44. Recebida a denúncia pela Mesa do Senado, será lida no expediente da sessão seguinte e despachada a uma comissão especial, eleita para opinar sobre a mesma. [...] Art. 48. Se o Senado resolver que a denúncia não deve constituir objeto de deliberação, serão os papeis arquivados.",
+          "prova": "O rito legal tem recebimento e deliberação, e prevê o arquivamento: não há abertura obrigatória."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Supremo Tribunal Federal (decisão do ministro Gilmar Mendes)",
+          "titulo": "Medida cautelar na ADPF 1.259/DF (03/12/2025)",
+          "url": "https://correiosabia.com.br/content/files/2025/12/ADPF-1259-MC.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Presidente do Senado Federal, Senador Davi Alcolumbre, em 17.12.2020, rejeitou a denúncia, consignando expressamente que as alegações eram direcionadas ao mérito de decisão jurisdicional exarada pelo STF",
+          "prova": "Caso concreto, registrado pelo STF, em que o presidente do Senado rejeitou denúncia contra ministro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Oposição apresenta novo pedido de impeachment contra Moraes",
+          "url": "https://www.poder360.com.br/poder-congresso/oposicao-apresenta-novo-pedido-de-impeachment-contra-moraes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Após protocolado, cabe exclusivamente ao presidente do Senado decidir se o pedido será arquivado ou se terá andamento.",
+          "prova": "Descreve o filtro do presidente do Senado sobre o pedido de impeachment."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Alexandre de Moraes: senadores pedem impeachment após mensagens de Vorcaro (02/09/2026)",
+          "url": "https://bpmoney.com.br/politica/alexandre-de-moraes-senadores-pedem-impeachment-apos-mensagens-de-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Senado, Davi Alcolumbre, informou que a Casa já recebeu 109 pedidos de impeachment contra ministros do STF. Para que um processo de impeachment avance, o presidente do Senado precisa decidir sobre o recebimento da denúncia.",
+          "prova": "Mostra o volume de pedidos parados e o juízo prévio do presidente do Senado."
+        }
+      ]
+    },
+    {
+      "id": "A070",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lula e Alcolumbre, afastados desde abril, se reencontraram em jantar na casa de Moraes, organizado por ele e por Zanin",
+      "explicacao": "Lula e o presidente do Senado, Davi Alcolumbre, estavam rompidos desde a rejeição de Jorge Messias ao STF pelo Senado, no fim de abril de 2026. Em 4/8, os dois se reuniram em jantar na casa de Alexandre de Moraes, e SBT News, Itatiaia, Correio da Manhã e Estado de Minas atribuem a organização da reaproximação a Moraes e a Cristiano Zanin. A frase confere no essencial: Moraes promoveu a reaproximação. Duas ressalvas impedem ler a frase como mérito exclusivo dele: o encontro foi organizado com Zanin (a Revista Oeste atribui a articulação principalmente a Zanin, com ajuda de Dino), e senadores ouvidos pelo Estado de Minas dizem que o encontro reduziu o afastamento, mas não selou uma reconciliação. Na data da fala, Alcolumbre presidia o Senado (BP Money, 02/09/2026). Pela divergência sobre quem articulou, confiança média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "jantar de 4 de agosto de 2026",
+      "ressalva": "Moraes organizou o encontro com Zanin, e senadores dizem que ele não selou uma reconciliação",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Revista Oeste atribui a articulação ao ministro Cristiano Zanin, com ajuda de Flávio Dino, e cita Moraes como anfitrião; o Jornal de Brasília diz que o encontro resultou de apelos de líderes do PT e do ministro de Relações Institucionais. SBT News, Itatiaia, Correio da Manhã e Estado de Minas dizem que Moraes e Zanin organizaram a reaproximação.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula e Alcolumbre retomam diálogo após meses de crise (05/08/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-e-alcolumbre-retomam-dialogo-apos-meses-de-crise",
+          "consultada_em": "2026-10-17",
+          "trecho": "Também participaram do encontro os ministros do Supremo Tribunal Federal (STF) Alexandre de Moraes e Cristiano Zanin . A dupla foi a responsável por organizar o movimento da reaproximação, sob o argumento de ser irrazoável que chefes de Poder não conversem por mais de 100 dias. [...] O rompimento ocorreu no fim de abril, quando o plenário do Senado rejeitou a indicação do então advogado-geral da União, Jorge Messias, para uma vaga no STF.",
+          "prova": "Moraes e Zanin organizaram a reaproximação, depois do rompimento de abril."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Rádio Itatiaia",
+          "titulo": "Após afastamento, Lula e Alcolumbre se reúnem em encontro mediado pelo STF (agosto de 2026)",
+          "url": "https://www.itatiaia.com.br/politica/apos-afastamento-lula-e-alcolumbre-se-reunem-em-encontro-mediado-pelo-stf/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Os presidentes Luiz Inácio Lula da Silva (PT) e Davi Alcolumbre (União-AP), do Senado Federal, se reuniram na noite desta terça-feira (4) em um encontro intermediado pelos ministros Alexandre de Moraes e Cristiano Zanin, do STF (Supremo Tribunal Federal).",
+          "prova": "Segunda cobertura com a intermediação de Moraes."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã (coluna de Tales Faria)",
+          "titulo": "Lula e Alcolumbre se encontram e reconstroem pontes (agosto de 2026)",
+          "url": "https://www.correiodamanha.com.br/colunistas/tales-faria/2026/08/308228-lula-e-alcolumbre-se-encontram-e-reconstroem-pontes.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro e seu colega, Cristiano Zanin, também presente ao encontro, foram os responsáveis pela reaproximação.",
+          "prova": "Terceira cobertura que credita a Moraes, com Zanin, a reaproximação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estado de Minas (coluna PlatôBR)",
+          "titulo": "'Segredo' na casa de Moraes: o que intriga no reencontro entre Lula e Alcolumbre (agosto de 2026)",
+          "url": "https://www.em.com.br/politica/platobr/2026/08/7474458-segredo-na-casa-de-moraes-o-que-intriga-no-reencontro-entre-lula-e-alcolumbre.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Apesar do gesto, senadores ouvidos pela coluna afirmam não enxergar uma reconciliação entre Lula e Alcolumbre. Na avaliação deles, o encontro serviu para reduzir o afastamento que durava meses, mas está longe de encerrar as divergências entre os dois.",
+          "prova": "Sustenta a ressalva: o encontro reaproximou, mas não é tido como reconciliação completa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste",
+          "titulo": "Em encontro articulado pelo STF, Lula e Alcolumbre se reúnem; Messias volta à pauta (agosto de 2026)",
+          "url": "https://revistaoeste.com/no-ponto/em-encontro-articulado-pelo-stf-lula-e-alcolumbre-se-reunem-messias-volta-a-pauta/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo apurou Oeste , quem articulou o encontro entre Lula e Alcolumbre foi o ministro Cristiano Zanin, do Supremo Tribunal Federal (STF) – que foi advogado de Lula e indicado pelo petista para a Corte.",
+          "prova": "A versão divergente sobre quem articulou, registrada na divergência."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Alexandre de Moraes: senadores pedem impeachment após mensagens de Vorcaro (02/09/2026)",
+          "url": "https://bpmoney.com.br/politica/alexandre-de-moraes-senadores-pedem-impeachment-apos-mensagens-de-vorcaro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O presidente do Senado, Davi Alcolumbre (União-AP) , afirmou que a Casa já recebeu 109 pedidos de impeachment contra ministros do STF .",
+          "prova": "Alcolumbre seguia como presidente do Senado no período da fala."
+        }
+      ]
+    }
+  ]
+}

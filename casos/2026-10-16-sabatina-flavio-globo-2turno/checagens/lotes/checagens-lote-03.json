@@ -1,0 +1,426 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A021",
+      "veredito": "IMPRECISO",
+      "resumo": "A União tem cerca de 761 mil imóveis; o TCU aponta cerca de dez mil desocupados, longe de grande parte deles",
+      "explicacao": "A frase tem duas partes: o tamanho do patrimônio ('mais de 30 mil imóveis') e a proporção abandonada ('grande parte deles'). O TCU, na Lista de Alto Risco, registra cerca de 761 mil imóveis da União, com cerca de dez mil desocupados, além de casos de abandono e depredação. No levantamento que gerou o Acórdão 160/2024, a carteira de bens de uso especial tinha 56.375 imóveis, dos quais 2.487 (4%) vagos para uso e 342 (1%) invadidos. O problema existe e é registrado pelo próprio TCU, então a essência (há imóveis da União ociosos e abandonados) se confirma; mas 'grande parte' não encontra apoio em nenhum número oficial achado: os desocupados são cerca de dez mil em 761 mil, e 4% na carteira de uso especial. Não é FALSO porque o TCU e a imprensa (InfoMoney, que reproduz o relatório do TCU) registram que o cadastro não é confiável e que o volume real de imóveis ociosos pode ser maior, o que impede afirmar o contrário com precisão; é IMPRECISO porque a proporção dita está materialmente acima da registrada. O 'mais de 30 mil' é literalmente verdadeiro, mas o total é de cerca de 761 mil. Nenhum caso anterior (Lula 15/out e Flávio 28/ago) checou este dado.",
+      "numero_dito": "mais de 30 mil imóveis, grande parte abandonados",
+      "numero_apurado": "cerca de 761 mil imóveis, com cerca de dez mil desocupados; na carteira de uso especial, 2.487 vagos (4%) de 56.375",
+      "data_de_referencia": "Lista de Alto Risco do TCU (dados da SPU consultados em nov/2024) e levantamento do TCU de 2023 (Acórdão 160/2024)",
+      "ressalva": "Nos imóveis de uso especial, o TCU contou 2.487 vagos, 4% do total; o tribunal diz que o cadastro não é confiável",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O total varia entre as fontes: 761 mil imóveis na Lista de Alto Risco do TCU, cerca de 742 mil no levantamento do Acórdão 160/2024 e 764 mil na reportagem do InfoMoney. Nenhuma delas se aproxima de 'mais de 30 mil' como total, e nenhuma mede abandono em 'grande parte'.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Lista de Alto Risco, item 29: Gestão do patrimônio imobiliário da União",
+          "url": "https://sites.tcu.gov.br/listadealtorisco/gestao_do_patrimonio_imobiliario_da_uniao.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O patrimônio imobiliário da União abrange cerca de 761 mil imóveis e está avaliado em, aproximadamente, R$ 1,72 trilhão [...] Entre os problemas identificados pelo TCU ao longo dos últimos anos, encontram-se falta de ocupação (cerca de dez mil imóveis estão desocupados), abandono e depredação, além do custo de manutenção dos imóveis.",
+          "prova": "Dá o total de imóveis da União (cerca de 761 mil) e o número de desocupados (cerca de dez mil), que é a proporção a comparar com 'grande parte'."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Acórdão do levantamento na SPU, TC 021.510/2023-7 (íntegra reproduzida pelo Poder360)",
+          "url": "https://static.poder360.com.br/2024/02/acordao-tcu-levantamento-spu.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "66.A carteira de bens especiais da União, gerida pelo Spiunet, possui 56.375 imóveis ativos [...] 70.Destaca-se, ainda, que 3.255 bens (5%) estão locados para terceiros, 2.487 (4%) vagos para uso, 1.291 (3%) estão disponíveis ou em processo de alienação e 342 (1%) invadidos.",
+          "prova": "Mede a fatia vaga na carteira de uso especial: 4%, o que não sustenta 'grande parte'."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Venda de imóveis da União trava com Lula e, em 2 anos, rendem 98% menos que em 2022",
+          "url": "https://www.infomoney.com.br/politica/venda-de-imoveis-da-uniao-trava-com-lula-e-em-2-anos-rendem-98-menos-que-em-2022/",
+          "consultada_em": "2026-10-17",
+          "trecho": "com 764 mil imóveis . Desses, o Estado usa 49,7 mil e cede a maioria dos demais para diferentes usos, podendo cobrar taxas mensais ou anuais. [...] E o volume real do patrimônio ocioso pode ser muito superior a isso.",
+          "prova": "Apoio que reproduz o relatório do TCU: confirma a ordem de grandeza do total e registra que o ocioso pode ser maior que o contado, o que impede o veredito FALSO."
+        }
+      ]
+    },
+    {
+      "id": "A022",
+      "veredito": "VERDADEIRO",
+      "resumo": "O TCU registra imóveis da União avaliados em cerca de R$ 1,72 trilhão e aponta provável desatualização dos valores",
+      "explicacao": "O dado que resolve é o valor de avaliação do patrimônio imobiliário da União. A Lista de Alto Risco do TCU registra 761 mil imóveis avaliados em R$ 1,72 trilhão, com base no portal de transparência da SPU, e aponta sistemas com tecnologia desatualizada e a necessidade de avaliações que reflitam o valor real. O InfoMoney, reproduzindo o relatório do TCU, informa que a SPU fala em R$ 1,77 trilhão e que o TCU vê 'provável desatualização dos valores dos imóveis'. 'À beira de 1,7 trilhão' contra R$ 1,72 trilhão é desvio de cerca de 1,2%, abaixo da régua de 10% do §2.2; e a qualificação 'desatualizado' é a do próprio TCU. Por isso VERDADEIRO, com ressalva: o levantamento anterior do TCU (notícia do Acórdão 160/2024) usava R$ 1,35 trilhão para cerca de 742 mil imóveis, número 21% menor, o que mostra quanto a avaliação oscila entre bases.",
+      "numero_dito": "cerca de R$ 1,7 trilhão",
+      "numero_apurado": "R$ 1,72 trilhão (TCU, Lista de Alto Risco); R$ 1,77 trilhão (SPU, segundo o InfoMoney)",
+      "data_de_referencia": "dados da SPU consultados pelo TCU em nov/2024 (Lista de Alto Risco); sem atualização achada até a data da fala, 16/out/2026",
+      "ressalva": "A SPU fala em R$ 1,77 trilhão, e um levantamento anterior do TCU, em R$ 1,35 trilhão",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O próprio TCU traz dois valores: R$ 1,72 trilhão (Lista de Alto Risco, com dados da SPU) e R$ 1,35 trilhão (notícia do levantamento do Acórdão 160/2024, com cerca de 742 mil imóveis). A SPU, segundo o InfoMoney, fala em R$ 1,77 trilhão.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "1,2%",
+          "de": "1,72 e 1,7 (número dito)",
+          "como": "desvio relativo do número dito sobre o valor do TCU: (1,72 menos 1,7) dividido por 1,72"
+        },
+        {
+          "valor": "21%",
+          "de": "1,35 e 1,72",
+          "como": "diferença relativa entre os dois valores do TCU: (1,72 menos 1,35) dividido por 1,72"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Lista de Alto Risco, item 29: Gestão do patrimônio imobiliário da União",
+          "url": "https://sites.tcu.gov.br/listadealtorisco/gestao_do_patrimonio_imobiliario_da_uniao.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Os sistemas informacionais de gestão imobiliária adotam tecnologia desatualizada e comprometem a qualidade dos dados cadastrais . [...] A SPU administra um patrimônio de 761 mil imóveis avaliados em R$ 1,72 trilhão, mas carece de sistemas modernos, servidores especializados e estratégias eficazes",
+          "prova": "Dá o valor de avaliação (R$ 1,72 trilhão) e registra a desatualização dos sistemas de gestão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Venda de imóveis da União trava com Lula e, em 2 anos, rendem 98% menos que em 2022",
+          "url": "https://www.infomoney.com.br/politica/venda-de-imoveis-da-uniao-trava-com-lula-e-em-2-anos-rendem-98-menos-que-em-2022/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A SPU avalia que os imóveis sob sua gestão valem R$ 1,77 trilhão. Mas os técnicos do TCU dizem que os números podem ser completamente diferentes disso. [...] Ainda conforme o TCU, há provável desatualização dos valores dos imóveis.",
+          "prova": "Apoio que reproduz o relatório do TCU e a SPU: confirma a ordem de R$ 1,7 trilhão e a desatualização da avaliação."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Gestão do patrimônio imobiliário federal gerido pela SPU é ineficiente, diz TCU",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/gestao-do-patrimonio-imobiliario-federal-gerido-pela-spu-e-ineficiente-diz-tcu",
+          "consultada_em": "2026-10-17",
+          "trecho": "A SPU é responsável pela gestão de cerca de 742 mil imóveis, avaliados em, aproximadamente, R$ 1,35 trilhão.",
+          "prova": "Registra o valor menor do levantamento anterior, que entra como divergência entre bases."
+        }
+      ]
+    },
+    {
+      "id": "A023",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O último estoque achado, R$ 2,1 trilhões, é anterior; o dado da PGFN vigente em outubro não foi localizado",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foi feita uma busca pelo estoque da Dívida Ativa da União e capturado o relatório oficial PGFN em Números 2026 (dados de 2025), que traz a recuperação do ano (R$ 66,1 bilhões) mas não traz, no texto capturado, o estoque total inscrito. O único estoque com trecho capturado é o de R$ 2,1 trilhões, divulgado pela PGFN em edição anterior e reproduzido pelo portal ABC do ABC; ele fica cerca de 30% abaixo de 'quase 3 trilhões', mas não é o dado vigente na data da fala. O resumo do buscador mencionou cobertura de 2025 com estoque acima de R$ 3 trilhões, sem página capturada que o sustente, por isso não entra. Falta: o estoque oficial mais recente (painel da PGFN ou Lista de Devedores) e a parcela classificada como de difícil recuperação (rating C e D). Sem esse dado, a frase não pode ser dada como certa nem como errada: INSUSTENTAVEL provisório, não FALSO.",
+      "numero_dito": "quase R$ 3 trilhões",
+      "numero_apurado": null,
+      "data_de_referencia": "estoque vigente em 16/out/2026 (não apurado nesta rodada); o R$ 2,1 trilhões é de divulgação anterior da PGFN",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "O dado capturado (R$ 2,1 trilhões, divulgação anterior) diverge do número dito; o resumo do buscador citou estoque acima de R$ 3 trilhões em cobertura de 2025, sem página capturada. A divergência fica em aberto até a próxima rodada.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "cerca de 30%",
+          "de": "2,1 e 3 (número dito)",
+          "como": "diferença relativa do número dito sobre o estoque achado: (3 menos 2,1) dividido por 3"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+          "titulo": "PGFN em Números 2026 (dados de 2025)",
+          "url": "https://www.gov.br/pgfn/pt-br/acesso-a-informacao/institucional/pgfn-em-numeros/pgfn_em_numeros_2026.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "A PGFN EM 2025 RECUPERAÇÃO DA DÍVIDA ATIVA R$ 66,1 bilhões",
+          "prova": "Relatório oficial mais recente: traz a recuperação de 2025, mas o texto capturado não traz o estoque total, que é o que a frase afirma."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "ABC do ABC (reproduzindo a PGFN)",
+          "titulo": "Dívida ativa da União atinge R$ 2,1 trilhões e recuperação fiscal é reforçada por novas iniciativas",
+          "url": "https://abcdoabc.com.br/divida-ativa-da-uniao-atinge-r-21-trilhoes-e-recuperacao-fiscal-e-reforcada-por-novas-iniciativas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Procuradoria-Geral da Fazenda Nacional (PGFN) divulgou recentemente que a dívida ativa da União, composta por débitos de pessoas físicas e jurídicas junto à Fazenda Pública , atingiu o montante de R$ 2,1 trilhões .",
+          "prova": "Único estoque com trecho capturado, de divulgação anterior; não serve como dado da data da fala."
+        }
+      ]
+    },
+    {
+      "id": "A024",
+      "veredito": "FALSO",
+      "resumo": "O plano de governo de Bolsonaro registrado em 2022, de 48 páginas, não menciona a margem equatorial",
+      "explicacao": "O que resolve é o texto do plano de governo de Jair Bolsonaro registrado no TSE em 2022. Foi capturada a íntegra do documento ('Pelo bem do Brasil, Plano de Governo 2023-2026'), na cópia do Internet Archive, com 48 páginas, o mesmo número informado pela Gazeta do Povo, que obteve a versão final registrada no TSE. O texto inteiro foi varrido: não há menção a 'margem equatorial', Amapá ou Foz do Amazonas. O petróleo aparece só de forma genérica (recursos energéticos abundantes) e, na seção de energia, o plano fala em reduzir o uso de fontes baseadas em óleo e carvão, com eólica offshore e hidrogênio verde; a Gazeta resume a proposta como substituição dos combustíveis fósseis. Como o documento existe e foi lido por inteiro, não se trata de falta de prova (INSUSTENTAVEL), mas de prova do contrário: FALSO. Confiança média porque a cópia lida é a do Internet Archive, não o PDF baixado do portal do TSE, e porque 'proposta de governo' poderia, em tese, referir-se a outro documento, que não foi apresentado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "plano de governo registrado no TSE em agosto de 2022",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Coligação Pelo Bem do Brasil (cópia no Internet Archive do plano registrado no TSE)",
+          "titulo": "Plano de Governo 2023-2026, Jair Bolsonaro",
+          "url": "https://archive.org/download/plano-de-governo-eleicoes-2022/Plano%20de%20Governo%202023-2026%20-%20Bolsonaro.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "diminuirão sobremaneira a utilização [...] pelo país de fontes energéticas baseadas em óleo e [...] carvão, sem comprometer as demandas e o crescimento [...] PLANO DE GOVERNO 2023 2026 48",
+          "prova": "Íntegra do plano, de 48 páginas, varrida sem nenhuma menção à margem equatorial; na energia, propõe reduzir o uso de óleo e carvão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "O que diz o plano de governo de Bolsonaro; confira os principais pontos",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2022/o-que-diz-plano-governo-bolsonaro-principais-pontos/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Gazeta do Povo obteve a versão final do plano de governo que será registrado junto. O documento contém 48 páginas [...] para um próximo mandato, o objetivo é acelerar o desenvolvimento de ações de redução e mitigação de gases de efeito estufa e uso racional de recursos naturais, como avanços das eólicas offshore, do biogás e biometano, em substituição aos combustíveis fósseis.",
+          "prova": "Confirma que o documento registrado tem 48 páginas e que a proposta de energia ia na direção de substituir combustíveis fósseis, sem citar a margem equatorial."
+        }
+      ]
+    },
+    {
+      "id": "A025",
+      "veredito": "IMPRECISO",
+      "resumo": "A produção não começou, mas o Ibama liberou a perfuração em 2025 e a Petrobras achou hidrocarbonetos em 2026",
+      "explicacao": "O critério escrito antes da busca manda separar 'exploração' no sentido técnico (pesquisa com perfuração) da produção comercial. Na margem equatorial, o Ibama concedeu à Petrobras, em 20 de outubro de 2025, a licença para perfurar o poço do bloco FZA-M-59, na costa do Amapá (InfoAmazonia); em agosto de 2026 a Petrobras anunciou ter achado hidrocarbonetos no poço exploratório em perfuração (InfoMoney e CNN Brasil). A produção comercial não começou: a Exame registra que nessa fase não há produção, e a Petrobras estima produzir em cerca de sete anos. A essência da frase (não há petróleo sendo extraído na margem equatorial) está certa; mas 'não conseguiu iniciar a exploração' está errado no sentido técnico, porque a fase exploratória começou durante o governo Lula, com licença e perfuração. Daí IMPRECISO, e não VERDADEIRO nem FALSO. A mesma régua foi aplicada à frase da entrevistadora sobre 2033 (A027). Fontes N4 com apuração própria e datas distintas; não se capturou a licença no site do Ibama, por isso confiança média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "licença de 20/out/2025; anúncio de hidrocarbonetos em 14/ago/2026; situação na data da fala, 16/out/2026",
+      "ressalva": "Exploração no sentido técnico, a pesquisa com perfuração, já começou; o que não começou é a extração comercial",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "InfoAmazonia",
+          "titulo": "Licença do Ibama para bloco 59 abre caminho para nova corrida do petróleo na Amazônia",
+          "url": "https://infoamazonia.org/2025/10/20/licenca-do-ibama-para-bloco-59-abre-caminho-para-nova-corrida-do-petroleo-na-amazonia/",
+          "consultada_em": "2026-10-17",
+          "trecho": "20 outubro 2025 at 16:20 [...] O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis ( Ibama ) concedeu à Petrobras nesta segunda-feira (20) a licença para perfuração de um poço no bloco 59 (FZA-M-59), na bacia da Foz do Amazonas, a cerca de 500 quilômetros da foz do rio e 175 km da costa do Amapá.",
+          "prova": "Data e objeto da licença de perfuração exploratória, concedida durante o governo Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Novo marco? Petrobras avança na Margem Equatorial, mas há caminho longo até 1º óleo",
+          "url": "https://www.infomoney.com.br/mercados/novo-marco-petrobras-avanca-na-margem-equatorial-mas-ha-caminho-longo-ate-1o-oleo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "17/08/2026 11h17 [...] A Petrobras ( PETR4 ; PETR3 ) anunciou na última sexta-feira (14) a identificação de hidrocarbonetos em um poço exploratório atualmente em perfuração no bloco FZA-M-59, localizado no Amapá, na Bacia da Foz do Amazonas, na Margem Equatorial brasileira .",
+          "prova": "Mostra que a perfuração exploratória estava em curso em 2026, antes da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Exame",
+          "titulo": "Margem Equatorial: o que acontece agora e quando a produção de petróleo pode começar",
+          "url": "https://exame.com/brasil/margem-equatorial-o-que-acontece-agora-e-quando-a-producao-de-petroleo-pode-comecar/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na prática, a autorização permite a perfuração imediata para uma pesquisa exploratória . Nessa fase, a petroleira buscará informações geológicas e avaliará se há petróleo e gás na área em escala econômica. Não há produção de petróleo nesse momento.",
+          "prova": "Separa a fase exploratória (que começou) da produção (que não começou), a distinção que decide o veredito."
+        }
+      ]
+    },
+    {
+      "id": "A026",
+      "veredito": "VERDADEIRO",
+      "resumo": "No orçamento de 2027, a Previdência leva R$ 1.215,1 bi de R$ 2.830,1 bi; saúde e educação têm pisos próprios",
+      "explicacao": "A parte checável é a composição da despesa primária federal; o 'consenso entre os economistas' é juízo e não foi julgado. Pela tabela da Instituição Fiscal Independente (IFI) do Senado com os números do PLOA 2027, os benefícios previdenciários somam R$ 1.215,1 bilhões de uma despesa primária total de R$ 2.830,1 bilhões, cerca de 42,9%, a maior rubrica; o piso da saúde é de R$ 272,2 bilhões e a dotação do piso da educação, de R$ 141,2 bilhões. O Canal Rural, reproduzindo a apresentação do PLOA pelo governo (a primária), confirma a Previdência como a principal despesa. A frase é VERDADEIRO porque a Previdência (cujos benefícios têm o salário mínimo como piso) é de longe a maior despesa e saúde e educação têm pisos constitucionais que estão entre os grandes blocos; a ressalva é que pessoal e encargos (R$ 474,1 bilhões) também é uma das maiores despesas e não foi citado, e que a educação tem valor menor que pessoal e BPC. Não chega a IMPRECISO porque a jornalista não disse que eram as únicas grandes despesas. Nenhum caso anterior checou esta composição.",
+      "numero_dito": null,
+      "numero_apurado": "benefícios previdenciários R$ 1.215,1 bilhões de R$ 2.830,1 bilhões (cerca de 42,9%); piso da saúde R$ 272,2 bilhões; piso da educação R$ 141,2 bilhões (PLOA 2027)",
+      "data_de_referencia": "PLOA 2027 (ago/2026), analisado pela IFI em 17/set/2026",
+      "ressalva": "Pessoal, com R$ 474,1 bi, também está entre as maiores despesas e não foi citado",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Os valores do PLOA por rubrica diferem entre a tabela de despesa total (R$ 1.215,1 bi de Previdência) e a de despesas sujeitas ao limite (R$ 1,169 trilhão, citada pelo Canal Rural), porque a segunda exclui parcelas como sentenças judiciais; a ordem das rubricas é a mesma.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "cerca de 42,9%",
+          "de": "1.215,1 dividido por 2.830,1",
+          "como": "participação dos benefícios previdenciários na despesa primária total do PLOA 2027"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Instituição Fiscal Independente (IFI), Senado Federal",
+          "titulo": "Relatório de Acompanhamento Fiscal nº 116, setembro de 2026",
+          "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Despesa primária total 2.760,2 18,9 2.830,1 19,1 2.806,9 19,3 23,2 -0,2 Benefícios previdenciários 1.204,6 8,2 1.215,1 8,2 1.239,2 8,5 -24,1 -0,3 Pessoal e encargos sociais 459,3 3,1 474,1 3,2 457,1 3,1 17,0 0,1 [...] o valor calculado foi de R$ 272,2 bilhões, mesmo montante alocado para a respectiva dotação. [...] A dotação alocada para o piso, no entanto, foi de R$ 141,2 bilhões, gerando uma folga de R$ 2,4 bilhões.",
+          "prova": "Dá o tamanho de cada bloco no PLOA 2027: Previdência, pessoal, piso da saúde e piso da educação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Canal Rural (reproduzindo a apresentação do PLOA 2027)",
+          "titulo": "PLOA de 2027 prevê superávit primário de R$ 18,6 bilhões",
+          "url": "https://www.canalrural.com.br/economia/ploa-de-2027-preve-superavit-primario-de-r-186-bilhoes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Entre as principais despesas previstas para 2027 estão R$ 1,169 trilhão em benefícios previdenciários, R$ 440,7 bilhões em gastos com pessoal, R$ 157,1 bilhões para o Bolsa Família, R$ 145,1 bilhões para o Benefício de Prestação Continuada (BPC) e R$ 104,7 bilhões para abono e seguro-desemprego.",
+          "prova": "Apoio que reproduz a primária (o PLOA do governo), independente da análise da IFI: Previdência é a maior despesa e pessoal vem em segundo."
+        }
+      ]
+    },
+    {
+      "id": "A027",
+      "veredito": "IMPRECISO",
+      "resumo": "A Petrobras fala em produzir em cerca de sete anos; a perfuração exploratória já começou em 2025",
+      "explicacao": "O critério escrito antes da busca pede saber se o marco de 2033 é de produção ou de exploração. Em agosto de 2026, ao anunciar hidrocarbonetos no poço exploratório do bloco FZA-M-59, a Petrobras disse que poderá estar produzindo em cerca de sete anos (CNN Brasil), o que leva a algo perto de 2033; analistas do Bradesco BBI estimam o primeiro óleo entre 2032 e 2036 (InfoMoney). O marco da Petrobras, portanto, é de produção. 'Exploração', no sentido técnico, já começou: o Ibama licenciou a perfuração em outubro de 2025 e o poço estava em perfuração em 2026. A essência da frase (não haverá petróleo produzido ali antes de cerca de 2033, segundo a Petrobras) se confirma; a palavra 'exploração' troca a fase. É a mesma régua aplicada à frase do candidato (A025), que também usou 'exploração' para falar de extração: IMPRECISO nos dois casos. Não é VERDADEIRO porque a fase exploratória já está em curso; não é FALSO porque o prazo de produção atribuído à Petrobras confere. Fontes N4 com apuração própria; não se capturou o comunicado da própria Petrobras.",
+      "numero_dito": "2033",
+      "numero_apurado": "produção em cerca de sete anos a partir de agosto de 2026, segundo a Petrobras; primeiro óleo entre 2032 e 2036, segundo o Bradesco BBI",
+      "data_de_referencia": "anúncio da Petrobras de 14/ago/2026; licença de perfuração de 20/out/2025",
+      "ressalva": "O marco de 2033 se refere ao início da produção, não à exploração",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Petrobras fala em cerca de sete anos; o Bradesco BBI estima o primeiro óleo entre 2032 e 2036. As duas leituras são compatíveis com a produção por volta de 2033.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Petrobras estima começar a extrair petróleo da Margem Equatorial em 7 anos",
+          "url": "https://www.cnnbrasil.com.br/politica/petrobras-estima-comecar-a-extrair-petroleo-da-margem-equatorial-em-7-anos/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Petrobras avalia que em sete anos poderá estar produzindo petróleo em águas ultraprofundas na Margem Equatorial. A empresa divulgou nesta sexta-feira (14) que encontrou hidrocarbonetos em um poço exploratório na bacia da Foz do Rio Amazonas na costa do Amapá.",
+          "prova": "Atribui à Petrobras o prazo de cerca de sete anos para produzir, o que é um marco de produção, não de exploração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Novo marco? Petrobras avança na Margem Equatorial, mas há caminho longo até 1º óleo",
+          "url": "https://www.infomoney.com.br/mercados/novo-marco-petrobras-avanca-na-margem-equatorial-mas-ha-caminho-longo-ate-1o-oleo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "a identificação de hidrocarbonetos em um poço exploratório atualmente em perfuração no bloco FZA-M-59 [...] “Assim, o primeiro óleo provavelmente seria um evento entre 2032 e 2036.”",
+          "prova": "Mostra a perfuração exploratória em curso e uma estimativa independente do primeiro óleo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoAmazonia",
+          "titulo": "Licença do Ibama para bloco 59 abre caminho para nova corrida do petróleo na Amazônia",
+          "url": "https://infoamazonia.org/2025/10/20/licenca-do-ibama-para-bloco-59-abre-caminho-para-nova-corrida-do-petroleo-na-amazonia/",
+          "consultada_em": "2026-10-17",
+          "trecho": "20 outubro 2025 at 16:20 [...] O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis ( Ibama ) concedeu à Petrobras nesta segunda-feira (20) a licença para perfuração de um poço no bloco 59 (FZA-M-59)",
+          "prova": "Data da licença de perfuração exploratória, anterior à fala."
+        }
+      ]
+    },
+    {
+      "id": "A028",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Senado aprovou a PEC do fim da escala 6x1 na quarta-feira, dia 14, por 75 votos a 1 em dois turnos",
+      "explicacao": "A Agência Senado registra que a PEC 221/2019, que deu origem à Emenda Constitucional 141, foi aprovada em dois turnos na quarta-feira (14), por 75 votos a 1 em cada votação. Itatiaia e Correio da Manhã, com apuração própria, confirmam a data e o placar. A quarta-feira anterior à entrevista (16/out) é o dia 14. Dia, Casa e resultado conferem: VERDADEIRO. Nenhum caso anterior checou este fato.",
+      "numero_dito": null,
+      "numero_apurado": "75 votos a 1, em dois turnos, em 14/out/2026",
+      "data_de_referencia": "14/out/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Congresso promulga o fim da escala 6x1 e aposentadoria de agentes de saúde (16/10/2026)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/10/16/congresso-promulga-o-fim-da-escala-6x1-e-aposentadoria-de-agentes-de-saude",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Emenda Constitucional 141, originada da PEC 221/2019 , estabelece a substituição da escala 6x1 pela jornada de cinco dias de trabalho e dois de descanso (5x2), sem redução salarial. [...] No Senado, recebeu parecer favorável do senador Omar Aziz (PSD-AM) e foi aprovada em dois turnos na quarta-feira (14), por 75 votos a 1 em cada votação.",
+          "prova": "Registro oficial do dia e do placar da aprovação no Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Itatiaia",
+          "titulo": "Senado aprova o fim da escala 6x1 em dois turnos",
+          "url": "https://www.itatiaia.com.br/politica/senado-aprova-o-fim-da-escala-6x1-em-dois-turnos/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Senado Federal aprovou nesta quarta-feira (14), em dois turnos , a proposta que prevê o fim da escala de trabalho 6x1 , modelo em que o trabalhador atua por seis dias consecutivos e tem um dia de descanso. A sessão foi semipresencial, com mais de 5 horas de debate. Foram 75 votos sim e apenas 1 contrário.",
+          "prova": "Confirma, com cobertura do dia, a data (quarta-feira) e o placar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Fim da escala 6x1 depende apenas de promulgação; veja quando novas regras começam a valer",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/327169-fim-da-escala-6x1-depende-apenas-de-promulgacao-veja-quando-novas-regras-comecam-a-valer.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Após a aprovação da Proposta de Emenda à Constituição (PEC) 221/2019 pelo Senado , na noite de quarta-feira (14), resta apenas a promulgação pelo Congresso Nacional para oficializar a mudança.",
+          "prova": "Terceira confirmação da data da votação no Senado."
+        }
+      ]
+    },
+    {
+      "id": "A029",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Câmara aprovou a PEC em dois turnos em maio, por 472 a 22 e 461 a 19, antes do Senado",
+      "explicacao": "A tramitação oficial da PEC 221/2019 nos dados abertos da Câmara registra, em 27/05/2026, a aprovação em primeiro turno (472 a 22) e em segundo turno (461 a 19), com redação final aprovada. O O Povo noticiou a aprovação no dia seguinte, com o mesmo placar, e o Correio da Manhã registra que o Senado manteve o texto aprovado pela Câmara em maio. A Câmara aprovou antes do Senado (14/out), como dito: VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": "472 a 22 no primeiro turno e 461 a 19 no segundo, em maio",
+      "data_de_referencia": "27/05/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "Tramitações da PEC 221/2019 (id 2233802)",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2233802/tramitacoes",
+          "consultada_em": "2026-10-17",
+          "trecho": "Aprovada, em primeiro turno, a Proposta de Emenda à Constituição nº 221, de 2019. Sim: 472; Não: 22; Total: 494. [...] Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 221, de 2019. . Sim: 461; Não: 19; Total: 480.",
+          "prova": "Registro oficial das duas votações em plenário na Câmara, em 27/05/2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo",
+          "titulo": "Fim da escala 6x1 é aprovado na Câmara Federal (28/05/2026)",
+          "url": "https://mais.opovo.com.br/jornal/reportagem/2026/05/28/fim-da-escala-6x1-e-aprovado-na-camara-federal.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "No primeiro turno, foram 472 votos a favor e 22 contra . Já no segundo turno, foram 461 votos favoráveis e 19 votos contrários.",
+          "prova": "Confirma o placar e a época da aprovação na Câmara."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Fim da escala 6x1 depende apenas de promulgação; veja quando novas regras começam a valer",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/327169-fim-da-escala-6x1-depende-apenas-de-promulgacao-veja-quando-novas-regras-comecam-a-valer.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Como o Senado manteve o texto aprovado pela Câmara dos Deputados em maio, a PEC não precisará retornar aos parlamentares.",
+          "prova": "Confirma a ordem: a Câmara aprovou antes do Senado."
+        }
+      ]
+    },
+    {
+      "id": "A030",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Emenda Constitucional 141, do fim da escala 6x1, foi promulgada em 16 de outubro, dia da entrevista",
+      "explicacao": "O texto oficial no Planalto é a Emenda Constitucional nº 141, de 16 de outubro de 2026, promulgada pelas Mesas da Câmara e do Senado, que altera o art. 7º da Constituição para jornada de 40 horas e dois dias de repouso semanal. A Agência Senado registra a promulgação em sessão solene na sexta-feira (16), e o Poder360 informou na véspera que a sessão seria às 9h. A sabatina foi exibida à noite, após o Jornal Nacional, no mesmo dia; a emenda já estava promulgada. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": "Emenda Constitucional nº 141, de 16 de outubro de 2026",
+      "data_de_referencia": "16/out/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Emenda Constitucional nº 141, de 16 de outubro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "EMENDA CONSTITUCIONAL Nº 141, DE 16 DE OUTUBRO DE 2026 Altera o art. 7º da Constituição Federal para reduzir a duração máxima semanal do trabalho e prever 2 (dois) dias de repouso semanal remunerado, sem qualquer redução salarial.",
+          "prova": "Texto oficial da emenda, com número e data da promulgação."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Congresso promulga o fim da escala 6x1 e aposentadoria de agentes de saúde (16/10/2026)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/10/16/congresso-promulga-o-fim-da-escala-6x1-e-aposentadoria-de-agentes-de-saude",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Congresso Nacional promulgou nesta sexta-feira (16), em sessão solene, duas emendas à Constituição que ampliam direitos dos trabalhadores. A Emenda Constitucional 141 acaba com a escala de seis dias de trabalho por um de descanso (6x1) e garante dois dias de repouso semanal remunerado.",
+          "prova": "Registro da sessão de promulgação no dia da entrevista."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Congresso promulgará fim da escala 6 X 1 na 6ª feira (16.out)",
+          "url": "https://www.poder360.com.br/poder-congresso/congresso-promulgara-fim-da-escala-6-x-1-na-6a-feira-16-out/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O presidente do Senado e do Congresso Nacional, Davi Alcolumbre (União Brasil-AP), anunciou nesta 5ª feira (15.out.2026) que promulgará na 6ª feira (16.out), às 9h, a PEC (Proposta de Emenda à Constituição) que extingue a escala de trabalho 6 X 1.",
+          "prova": "Mostra que a sessão foi marcada para a manhã, antes da exibição da sabatina à noite."
+        }
+      ]
+    }
+  ]
+}

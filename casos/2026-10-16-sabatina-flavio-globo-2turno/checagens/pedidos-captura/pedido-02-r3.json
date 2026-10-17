@@ -1,0 +1,9 @@
+{
+ "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+ "rodada": 3,
+ "urls": [
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4646/dados?formato=json&dataInicial=01/01/2019&dataFinal=16/10/2026",
+  "https://dadosabertos.bcb.gov.br/tr/dataset/4646-nfsp-sem-desvalorizacao-cambial---fluxo-mensal-corrente---resultado-primario---total---empresa",
+  "https://www.poder360.com.br/poder-economia/divida-bruta-atinge-819-do-pib-em-junho-diz-banco-central/"
+ ]
+}

@@ -1,0 +1,450 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A051",
+      "veredito": "IMPRECISO",
+      "resumo": "A PEC 4/2026 só barra a reeleição do presidente; a Constituição já barra parentes até o segundo grau, não o terceiro",
+      "explicacao": "O texto integral da PEC 4/2026, de autoria de Flávio, muda só o art. 14 para tornar o presidente inelegível no período seguinte; não há nele nenhuma linha sobre cônjuge ou parentes, e a página de tramitação mostra a proposta parada desde 02/03/2026, sem emenda. O efeito sobre parentes existe, mas vem da regra que já vale: pela Constituição (art. 14, § 7º) e pela leitura do TSE na Consulta 117/2016, cônjuge e parentes até o segundo grau só podem suceder o titular quando ele é reelegível; com a PEC, o presidente deixaria de ser reelegível, e esses parentes ficariam barrados. O terceiro grau (tios e sobrinhos) não aparece nem na PEC nem na regra vigente. O próprio Flávio, em 6 de outubro, falou do dispositivo sobre parentes como algo que o texto 'terá', a ser definido pelo Congresso (Diário do Grande ABC, texto do Estadão Conteúdo; a SBT News relata a mesma declaração de outra entrevista). É IMPRECISO e não FALSO porque a essência, a de que o fim da reeleição também alcançaria parentes, se sustenta pela combinação com a regra vigente; o que está errado é o grau de parentesco e a atribuição dessa regra ao texto da PEC. Não é VERDADEIRO porque o terceiro grau não tem respaldo em fonte nenhuma.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto da PEC 4/2026 protocolado em 02/03/2026, sem alteração até a fala de 16/out/2026",
+      "ressalva": "Em 6 de outubro, Flávio disse que o texto ainda terá um dispositivo sobre parentes, com redação a cargo do Congresso",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Proposta de Emenda à Constituição nº 4, de 2026 (avulso do texto inicial)",
+          "url": "https://legis.senado.leg.br/sdleg-getter/documento?dm=10165103&ts=1781784878693&disposition=inline",
+          "consultada_em": "2026-10-17",
+          "trecho": "§ 5º-A O Presidente da República e quem o houver sucedido, ou substituído nos seis meses anteriores ao pleito, é inelegível para o mesmo cargo, no período subsequente. [...] Art. 2º Esta Emenda Constitucional entra em vigor na data de sua promulgação, aplicando-se inclusive ao Presidente da República eleito em 2026.",
+          "prova": "É o texto integral da PEC de Flávio: a única regra nova é a inelegibilidade do próprio presidente no período seguinte, sem dispositivo sobre cônjuge ou parentes."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Página de tramitação da PEC 4/2026",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172830",
+          "consultada_em": "2026-10-17",
+          "trecho": "Situação Atual Em tramitação --> --> Último local: 02/03/2026 - Plenário do Senado Federal (Secretaria Legislativa do Senado Federal) Último estado: 02/03/2026 - AGUARDANDO DESPACHO",
+          "prova": "Mostra que a PEC segue parada desde o protocolo, sem emenda ou substitutivo que tivesse acrescentado regra sobre parentes até a data da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (acórdão reproduzido no clipping de jurisprudência do TRE-SC)",
+          "titulo": "Consulta nº 117-26.2016.6.00.0000, relator ministro Luiz Fux",
+          "url": "https://apps.tre-sc.jus.br/site/fileadmin/arquivos/jurisprudencia/clipping/16_16/02.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "afastar a inelegibilidade do cônjuge e dos parentes consanguíneos ou afins, até o segundo grau, de Presidente da República, de Governador de Estado ou Território, do Distrito Federal e de Prefeito, para o mesmo cargo, quando o titular for reelegível e (ii) estender para o cônjuge e os parentes consanguíneos ou afins, até o segundo grau, dos ocupantes dos cargos ora ventilados, a vedação do exercício de terceiro mandato consecutivo nos mesmos cargos dos titulares.",
+          "prova": "É a leitura do TSE: o parente até o segundo grau só pode suceder quando o titular é reelegível, e a sucessão pelo parente entra na conta dos mandatos seguidos, como se fosse reeleição."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Flávio Bolsonaro repete compromisso com não reeleição (06/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4351340/flavio-bolsonaro-repete-compromisso-com-nao-reeleicao",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador e candidato à Presidência da República, Flávio Bolsonaro (PL), reiterou nesta terça-feira, 6, seu compromisso em acabar com a reeleição para o Executivo federal, defendida por ele em uma Proposta de Emenda à Constituição (PEC) protocolada em março. [...] É o Congresso que vai definir qual vai ser a redação que vai ser dada a ela. [...] Flávio disse que o texto terá um dispositivo proibindo que parentes até terceiro grau do presidente possam concorrer ao Planalto.",
+          "prova": "Registra que, dez dias antes da sabatina, a regra sobre parentes de terceiro grau era descrita pelo próprio autor como algo a incluir no texto, e não como algo que a PEC já diz."
+        }
+      ]
+    },
+    {
+      "id": "A052",
+      "veredito": "IMPRECISO",
+      "resumo": "A regra vigente alcança cônjuge e parentes até o segundo grau, não o terceiro; o TSE veda terceiro mandato da família",
+      "explicacao": "A Constituição (art. 14, § 7º) torna inelegíveis, para a sucessão, o cônjuge e os parentes consanguíneos ou afins 'até o segundo grau' do presidente. O TSE, na Consulta 117/2016 (relator Luiz Fux), lê os §§ 5º e 7º juntos: o parente só pode suceder quando o titular é reelegível, e a vedação de terceiro mandato consecutivo se estende ao cônjuge e aos parentes até o segundo grau; a revista do TRE-RJ resume a mesma jurisprudência. Logo, a ideia de que a candidatura do parente conta como reeleição está correta. O grau é que está errado: a regra vai até o segundo grau (pais, filhos, irmãos, avós, netos, sogros, cunhados), e não alcança o terceiro (tios, sobrinhos). É IMPRECISO, e não FALSO, porque a essência confere e o erro está no recorte do grau; não é VERDADEIRO porque o recorte errado amplia a regra a parentes que ela não atinge.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Constituição vigente em 16/out/2026 e jurisprudência do TSE (Consulta 117/2016)",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Constituição Federal)",
+          "titulo": "Constituição Federal, art. 14, § 7º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "§ 7º São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consangüíneos ou afins, até o segundo grau ou por adoção, do Presidente da República, de Governador de Estado ou Território, do Distrito Federal, de Prefeito ou de quem os haja substituído dentro dos seis meses anteriores ao pleito, salvo se já titular de mandato eletivo e candidato à reeleição.",
+          "prova": "É a regra vigente: a inelegibilidade de parentes do presidente alcança o segundo grau, não o terceiro."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (acórdão reproduzido no clipping de jurisprudência do TRE-SC)",
+          "titulo": "Consulta nº 117-26.2016.6.00.0000, relator ministro Luiz Fux",
+          "url": "https://apps.tre-sc.jus.br/site/fileadmin/arquivos/jurisprudencia/clipping/16_16/02.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "afastar a inelegibilidade do cônjuge e dos parentes consanguíneos ou afins, até o segundo grau, de Presidente da República, de Governador de Estado ou Território, do Distrito Federal e de Prefeito, para o mesmo cargo, quando o titular for reelegível e (ii) estender para o cônjuge e os parentes consanguíneos ou afins, até o segundo grau, dos ocupantes dos cargos ora ventilados, a vedação do exercício de terceiro mandato consecutivo nos mesmos cargos dos titulares.",
+          "prova": "É a leitura do TSE: o parente até o segundo grau só pode suceder quando o titular é reelegível, e a sucessão pelo parente entra na conta dos mandatos seguidos, como se fosse reeleição."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Tribunal Regional Eleitoral do Rio de Janeiro (Revista Justiça Eleitoral em Debate)",
+          "titulo": "O Parentesco nas Eleições: Legislação e Jurisprudência diante da Perpetuação de Grupos Familiares no Poder",
+          "url": "https://revista.tre-rj.jus.br/rjed/article/download/189/184/365",
+          "consultada_em": "2026-10-17",
+          "trecho": "Parentes até o segundo grau de titulares reeleitos para cargos de chefia do Poder Executivo são inelegíveis para sucessão a fim de evitar mandatos sucessivos de núcleos familiares conforme o art. 14, §§5º e 7º, da Constituição Federal",
+          "prova": "Confirma, em publicação técnica da Justiça Eleitoral, que a inelegibilidade reflexa vai até o segundo grau e serve para impedir mandatos sucessivos da mesma família."
+        }
+      ]
+    },
+    {
+      "id": "A053",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio nasceu em 30 de abril de 1981 e tinha 45 anos na data da fala, segundo o TSE e o Senado",
+      "explicacao": "O arquivo oficial de resultados do TSE do 1º turno de 2026 registra Flávio Nantes Bolsonaro com data de nascimento 30/04/1981, a mesma do perfil oficial no Senado e da base de dados abertos do Senado. Em 16/10/2026, data da fala, ele já tinha feito aniversário no ano, logo tinha 45 anos completos. A idade dita confere exatamente; por isso VERDADEIRO, sem ressalva.",
+      "numero_dito": "45 anos",
+      "numero_apurado": "45 anos na data da fala",
+      "data_de_referencia": "16/out/2026, data da fala",
+      "ressalva": null,
+      "derivacoes": [
+        {
+          "valor": "45 anos",
+          "de": "30/04/1981",
+          "como": "idade completa em 16/10/2026 contada a partir da data de nascimento"
+        }
+      ],
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, cargo de presidente, Brasil (arquivo de divulgação)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+          "consultada_em": "2026-10-16",
+          "trecho": "\"nm\" : \"FLAVIO NANTES BOLSONARO\", \"nmu\" : \"FLAVIO BOLSONARO\", \"dt\" : \"30/04/1981\"",
+          "prova": "Data de nascimento do candidato no registro oficial da eleição."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal",
+          "titulo": "Perfil do senador Flávio Bolsonaro",
+          "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nome civil: Flávio Nantes Bolsonaro Data de Nascimento: 30/04/1981 Naturalidade: Resende (RJ)",
+          "prova": "Confirma a mesma data de nascimento no cadastro do Senado, fonte independente da Justiça Eleitoral."
+        }
+      ]
+    },
+    {
+      "id": "A054",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio é formado em Direito e tem inscrição na OAB no Rio e no DF; em 2026 atuou como advogado do pai",
+      "explicacao": "Diplomas apresentados pela campanha mostram graduação em Direito em 2006 (Congresso em Foco). A Folha, em reportagem reproduzida pela Gazeta SP, registrou que o senador tem inscrição válida na OAB no Rio e no Distrito Federal; em julho de 2026, a Folha (reproduzida pelo Bahia Notícias) descreveu Flávio como advogado inscrito na defesa do pai, com pedido da própria OAB ao STF para que ele falasse com o cliente. O relato do STJ (Sedep) mostra que a inscrição, obtida em 2006, foi cancelada em 2010 e depois restabelecida por decisão administrativa da OAB. Não foi feita consulta direta ao Cadastro Nacional dos Advogados, por isso a confiança é média; as reportagens são de datas e apurações diferentes, ainda que duas venham da Folha. Fica VERDADEIRO porque formação e inscrição estão documentadas e nenhuma fonte indica inscrição cancelada na data da fala.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação na OAB descrita em julho de 2026",
+      "ressalva": "A inscrição foi cancelada em 2010 e depois restabelecida pela própria OAB",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias (Folha de S.Paulo)",
+          "titulo": "OAB pede a Moraes que Flávio possa falar com Bolsonaro como advogado (14/07/2026)",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/400713-oab-pede-a-moraes-que-flavio-possa-falar-com-bolsonaro-como-advogado",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio, que é advogado e está inscrito na defesa do pai para ter mais acesso a ele, acionou a Procuradoria Nacional de Defesa das Prerrogativas da OAB para assegurar o direito de manter contato com Bolsonaro.",
+          "prova": "Mostra Flávio atuando como advogado, inscrito numa defesa, três meses antes da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta SP (Folha de S.Paulo)",
+          "titulo": "Flávio Bolsonaro diz que renda como advogado ajudou a pagar mansão",
+          "url": "https://www.gazetasp.com.br/brasil/flavio-bolsonaro-diz-que-renda-como-advogado-ajudou-a-pagar-mansao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Não há, porém, registros de processos nos quais Flávio atue como advogado no Distrito Federal e no Rio, as duas unidades federativas onde o senador tem inscrição válida na OAB (Ordem dos Advogados do Brasil).",
+          "prova": "Registra a inscrição válida na OAB em duas seccionais; a falta de processos não muda a condição de advogado inscrito."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Sedep (notícia sobre decisão do STJ)",
+          "titulo": "STJ nega recurso de Flávio Bolsonaro que buscava indenização pelo cancelamento de inscrição na OAB",
+          "url": "https://www.sedep.com.br/noticias/stj-nega-recurso-de-flavio-bolsonaro-que-buscava-indenizacao-pelo-cancelamento-de-inscricao-na-oab/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Entretanto, no julgamento de segunda instância do mandado de segurança, em 2010, a decisão judicial foi reformada em razão da não comprovação da graduação em direito. Por consequência, foi determinado o cancelamento de sua inscrição, com retroação à data de concessão. [...] tendo em vista decisão administrativa favorável da OAB ao restabelecimento da inscrição.",
+          "prova": "Explica o cancelamento de 2010 e o restabelecimento da inscrição pela OAB, o que sustenta a ressalva."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "UFRJ nega que Flávio tenha feito pós; campanha admite equívoco",
+          "url": "https://www.congressoemfoco.com.br/noticia/121223/ufrj-nega-que-flavio-tenha-feito-pos-campanha-admite-equivoco",
+          "consultada_em": "2026-10-17",
+          "trecho": "Documentos apresentados pela equipe indicam que ele concluiu a graduação em Direito em 2006, a especialização em Políticas Públicas em 2012 e o MBA em 2015.",
+          "prova": "Confirma a graduação em Direito, requisito da advocacia, pelos documentos apresentados."
+        }
+      ]
+    },
+    {
+      "id": "A055",
+      "veredito": "VERDADEIRO",
+      "resumo": "Ao TSE, Flávio declarou R$ 56 mil em participações em duas empresas; ele também é o único sócio de um escritório",
+      "explicacao": "Na declaração de bens entregue ao TSE no registro da candidatura, Flávio informou R$ 56 mil em participações em duas empresas (Diário do Grande ABC, texto do Estadão Conteúdo); em 2018 declarara 50% de uma franquia de chocolates. O Diario de Pernambuco registra que ele é o único sócio de um escritório (de advocacia), e em ação judicial de 2022 ele se descreveu como advogado, 'empresário e empreendedor' (Congresso em Foco). Ter participação societária documentada sustenta a autodescrição de empresário, termo sem definição legal estrita. Fica VERDADEIRO; a confiança é média porque as fontes são de imprensa e as empresas declaradas não são nomeadas nelas, e não houve consulta direta à Receita Federal.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declaração de bens ao TSE em agosto de 2026",
+      "ressalva": "As participações declaradas somam R$ 56 mil, e as reportagens não informam quais são as duas empresas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Flávio Bolsonaro registra candidatura a presidente e declara R$ 8,1 milhões em bens",
+          "url": "https://www.dgabc.com.br/Noticia/4341093/flavio-bolsonaro-registra-candidatura-a-presidente-e-declara-r-8-1-milhoes-em-bens",
+          "consultada_em": "2026-10-17",
+          "trecho": "Também R$ 56 mil em participações em duas empresas, entre outros bens. [...] R$ 50 mil pela participação de 50% em uma empresa de franquia de chocolates.",
+          "prova": "Registra, pela declaração de bens ao TSE, participação societária em duas empresas em 2026 e numa franquia em 2018."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Flávio Bolsonaro nega irregularidades de seu escritório com empresa ligada a Vorcaro",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/07/11719364-flavio-bolsonaro-nega-irregularidades-de-seu-escritorio-com-empresa-ligada-a-vorcaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "o escritório de Flávio, do qual ele é o único sócio",
+          "prova": "Mostra, por apuração independente, que Flávio é titular de uma sociedade, seu escritório."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Flávio Bolsonaro diz que mansão de R$ 6 milhões foi paga com renda de advogado",
+          "url": "https://congressoemfoco.com.br/noticia/20550/flavio-bolsonaro-diz-que-mansao-de-r-6-milhoes-foi-paga-com-renda-de-advogado",
+          "consultada_em": "2026-10-17",
+          "trecho": "visto que o mesmo atua como advogado, além de empresário e empreendedor, por muitos anos.",
+          "prova": "Registra a autodescrição como empresário em documento entregue à Justiça, anterior à campanha."
+        }
+      ]
+    },
+    {
+      "id": "A056",
+      "veredito": "VERDADEIRO",
+      "resumo": "Certificado mostra especialização em Políticas Públicas pelo Iuperj e Escola de Políticas Públicas e Governo, de 2012",
+      "explicacao": "Em agosto de 2026, Flávio divulgou o certificado de especialista em políticas públicas pelo Instituto Universitário de Pesquisas do Rio de Janeiro (Iuperj, ligado à Universidade Candido Mendes) e pela Escola de Políticas Públicas e Governo, mostrado pelo Poder360 e descrito pela Agora RN; o Congresso em Foco registra a conclusão em 2012. A pós-graduação dita na sabatina é essa. As reportagens reproduzem documentos divulgados pelo próprio candidato, e não houve consulta à instituição, por isso a confiança é média. O que foi contestado em agosto foi outro curso, uma pós em Ciências Políticas na UFRJ que constava por erro em perfis oficiais e que a universidade diz não ter registro; ele não é o curso citado nesta frase. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "certificado divulgado em agosto de 2026; curso concluído em 2012",
+      "ressalva": "Perfis oficiais citavam também uma pós em Ciências Políticas na UFRJ, que a universidade diz não ter registro",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio divulga diplomas para mostrar formação acadêmica",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-divulga-diplomas-para-mostrar-formacao-academica/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Eis o certificado de Flávio como especialista em políticas públicas pelo Instituto Universitário de Pesquisas do Rio de Janeiro – Universidade Candido Mendes e pela Escola de Políticas Públicas e Governo:",
+          "prova": "Mostra o certificado do curso citado, com o nome da escola de 'Políticas Públicas e Governo'."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "UFRJ nega que Flávio tenha feito pós; campanha admite equívoco",
+          "url": "https://www.congressoemfoco.com.br/noticia/121223/ufrj-nega-que-flavio-tenha-feito-pos-campanha-admite-equivoco",
+          "consultada_em": "2026-10-17",
+          "trecho": "Documentos apresentados pela equipe indicam que ele concluiu a graduação em Direito em 2006, a especialização em Políticas Públicas em 2012 e o MBA em 2015. Não foi apresentado diploma referente a uma pós-graduação em Ciências Políticas na UFRJ.",
+          "prova": "Dá o ano de conclusão da especialização e separa este curso do que foi contestado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias",
+          "titulo": "Universidade nega que Flávio Bolsonaro cursou pós-graduação mencionada em biografia mantida pelo candidato",
+          "url": "https://www.bahianoticias.com.br/noticia/319935-universidade-nega-que-flavio-bolsonaro-cursou-pos-graduacao-mencionada-em-biografia-mantida-pelo-candidato",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nesta quarta, a assessoria de Flávio Bolsonaro enviou ao G1 diplomas digitalizados que mostram que ele se formou em Direito em 2006, concluiu a especialização em Políticas Públicas em 2012 e o MBA em Empreendedorismo em 2015.",
+          "prova": "Confirma, por outra apuração (G1), o diploma da especialização em Políticas Públicas."
+        }
+      ]
+    },
+    {
+      "id": "A057",
+      "veredito": "VERDADEIRO",
+      "resumo": "Diploma divulgado mostra MBA em Empreendedorismo e Desenvolvimento de Novos Negócios pela FGV, concluído em 2015",
+      "explicacao": "O Poder360 mostra o diploma de MBA em empreendedorismo e desenvolvimento de novos negócios pela Fundação Getulio Vargas, divulgado por Flávio em agosto de 2026; a Agora RN descreve o mesmo certificado, e a assessoria enviou ao G1 o diploma com conclusão em 2015 (Bahia Notícias). O nome do curso confere com o que foi dito. As fontes reproduzem documentos divulgados pelo próprio candidato, sem consulta à FGV, por isso a confiança é média. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "diploma divulgado em agosto de 2026; curso concluído em 2015",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio divulga diplomas para mostrar formação acadêmica",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-divulga-diplomas-para-mostrar-formacao-academica/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio tem MBA em empreendedorismo e desenvolvimento de novos negócios pela Fundação Getúlio Vargas:",
+          "prova": "Mostra o diploma do MBA com o nome completo do curso citado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agora RN",
+          "titulo": "Flávio Bolsonaro publica diplomas após revelação sobre curso de pós que ele não fez",
+          "url": "https://agorarn.com.br/politica/flavio-bolsonaro-publica-diplomas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O terceiro certificado corresponde a um MBA em Empreendedorismo e Desenvolvimento de Novos Negócios pela Fundação Getulio Vargas (FGV).",
+          "prova": "Descreve o mesmo certificado, em outra reportagem."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Bahia Notícias",
+          "titulo": "Universidade nega que Flávio Bolsonaro cursou pós-graduação mencionada em biografia mantida pelo candidato",
+          "url": "https://www.bahianoticias.com.br/noticia/319935-universidade-nega-que-flavio-bolsonaro-cursou-pos-graduacao-mencionada-em-biografia-mantida-pelo-candidato",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nesta quarta, a assessoria de Flávio Bolsonaro enviou ao G1 diplomas digitalizados que mostram que ele se formou em Direito em 2006, concluiu a especialização em Políticas Públicas em 2012 e o MBA em Empreendedorismo em 2015.",
+          "prova": "Dá o ano de conclusão do MBA, pelos diplomas enviados ao G1."
+        }
+      ]
+    },
+    {
+      "id": "A058",
+      "veredito": "VERDADEIRO",
+      "resumo": "A seção de reforma do Judiciário do programa registrado no TSE lista seis propostas",
+      "explicacao": "O programa 'Para o Brasil Vencer o Atraso', registrado no TSE em 13 de agosto (Congresso em Foco), tem a seção 'Reforma do Judiciário: o STF como Corte Constitucional', e sob 'Propomos:' lista seis itens: fim das competências criminais originárias do STF; limitação das decisões monocráticas; revisão do escopo das ADPFs e dos legitimados; quarentena de 1 ano para ministros de Estado indicados ao STF; impedimento de parentes até o terceiro grau de atuar no tribunal do magistrado; e mudanças no CNJ e no CNMP. O Diário do Grande ABC (Estadão Conteúdo) e o Congresso em Foco descrevem os mesmos itens. A contagem confere exatamente: VERDADEIRO.",
+      "numero_dito": "seis propostas",
+      "numero_apurado": "seis propostas",
+      "data_de_referencia": "programa registrado no TSE em 13/08/2026, vigente na data da fala",
+      "ressalva": null,
+      "derivacoes": [
+        {
+          "valor": "seis propostas",
+          "de": "itens sob 'Propomos:': fim das competências criminais; limitação das monocráticas; revisão das ADPFs; quarentena de 1 ano; impedimento de parentes; CNJ e CNMP",
+          "como": "contagem dos marcadores da seção de reforma do Judiciário do programa"
+        }
+      ],
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Programa de governo de Flávio Bolsonaro (documento registrado)",
+          "titulo": "Para o Brasil Vencer o Atraso (PDF publicado pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Propomos: • Fim das competências criminais originárias do STF, permitindo que parlamentares sejam julgados por instâncias inferiores, como o STJ ou os TRFs, para que exerçam seus mandatos com mais altivez, sem que isso represente qualquer contrapartida de impunidade. • Limitação das decisões monocráticas do STF, privilegiando as decisões colegiadas e presumindo a constitucionalidade do processo legislativo, para que a caneta de um só ministro não se sobreponha ao trabalho de todo o Congresso. • Revisão do escopo das ADPFs e dos legitimados ativos para a proposição de ADPFs, ADIs e ADCs. • Quarentena de 1 ano para que Ministros de Estado possam ser indicados ao STF. [...] • Impedimento de parentes de até terceiro grau, e respectivo escritório, para atuar no tribunal do respectivo magistrado. • Ampliação da participação da sociedade civil no CNJ e CNMP, e redefinição de suas competências para limitar sua atuação de natureza legislativa.",
+          "prova": "É o texto do próprio programa: os seis itens da reforma do Judiciário."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Flávio propõe tirar processos criminais e reduzir competências do STF",
+          "url": "https://www.congressoemfoco.com.br/noticia/121269/flavio-propoe-tirar-processos-criminais-e-reduzir-competencias-do-stf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Reduzir competências do Supremo Tribunal Federal (STF), limitar decisões individuais de ministros e alterar o funcionamento do Conselho Nacional de Justiça (CNJ) e do Conselho Nacional do Ministério Público (CNMP) estão entre as propostas de Flávio Bolsonaro para o Judiciário em seu plano de governo , registrado no Tribunal Superior Eleitoral (TSE) nessa quinta-feira (13).",
+          "prova": "Confirma que o documento com essas propostas é o plano registrado no TSE."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Flávio propõe reformar Judiciário e criar modelo prisional inspirado no de El Salvador",
+          "url": "https://www.dgabc.com.br/Noticia/4341070/flavio-propoe-reformar-judiciario-e-criar-modelo-prisional-inspirado-no-de-el-salvador",
+          "consultada_em": "2026-10-17",
+          "trecho": "O PL quer o fim das competências criminais originárias do STF, para permitir que parlamentares sejam julgados por instâncias, como o Superior Tribunal de Justiça (STJ) e os Tribunais Regionais Federais (TRFs). Propõe revisar o escopo das ADPFs (Arguição de Descumprimento de Preceito Fundamental) e quarentena de um ano para que ministros de Estado possam ser indicados ao STF.",
+          "prova": "Descreve, em outra apuração, os mesmos itens da lista do programa."
+        }
+      ]
+    },
+    {
+      "id": "A059",
+      "veredito": "VERDADEIRO",
+      "resumo": "O programa propõe tirar do STF os processos criminais de parlamentares, que iriam ao STJ ou aos TRFs",
+      "explicacao": "O primeiro item da reforma do Judiciário no programa registrado é o 'fim das competências criminais originárias do STF, permitindo que parlamentares sejam julgados por instâncias inferiores, como o STJ ou os TRFs'. O Congresso em Foco e a Space Money descrevem a mesma proposta. A frase da entrevistadora reproduz o conteúdo do programa; VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "programa registrado no TSE em agosto de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Programa de governo de Flávio Bolsonaro (documento registrado)",
+          "titulo": "Para o Brasil Vencer o Atraso (PDF publicado pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Fim das competências criminais originárias do STF, permitindo que parlamentares sejam julgados por instâncias inferiores, como o STJ ou os TRFs, para que exerçam seus mandatos com mais altivez, sem que isso represente qualquer contrapartida de impunidade.",
+          "prova": "É a redação da proposta no programa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Flávio propõe tirar processos criminais e reduzir competências do STF",
+          "url": "https://www.congressoemfoco.com.br/noticia/121269/flavio-propoe-tirar-processos-criminais-e-reduzir-competencias-do-stf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio propõe o fim das competências criminais originárias do Supremo. A ideia é transferir para outras instâncias, como o Superior Tribunal de Justiça (STJ) ou os Tribunais Regionais Federais (TRFs), processos contra autoridades que hoje, em determinadas situações, são julgadas diretamente pelo STF.",
+          "prova": "Descreve a mesma proposta a partir do plano registrado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Space Money",
+          "titulo": "Plano de Flávio propõe fim de foro no STF para deputados",
+          "url": "https://www.spacemoney.com.br/politica/flavio-bolsonaro-stf-foro-parlamentares/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Pelo desenho apresentado no programa, a competência criminal do STF para parlamentares seria transferida às instâncias inferiores da Justiça.",
+          "prova": "Confirma que a proposta alcança os processos criminais de parlamentares."
+        }
+      ]
+    },
+    {
+      "id": "A060",
+      "veredito": "VERDADEIRO",
+      "resumo": "O programa propõe limitar as decisões monocráticas do STF, dando preferência às decisões colegiadas",
+      "explicacao": "O segundo item da reforma do Judiciário no programa é a 'limitação das decisões monocráticas do STF, privilegiando as decisões colegiadas'. 'Reduzir o número de decisões individuais', como disse a entrevistadora, é a mesma proposta; o Congresso em Foco a descreve como restringir decisões tomadas individualmente por ministros, e o Diário do Grande ABC (Estadão Conteúdo) como limitar o poder das monocráticas. VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "programa registrado no TSE em agosto de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": "O índice temático do próprio programa e a reportagem da Band falam em 'fim das decisões monocráticas'; o texto da proposta diz 'limitação'. A frase da entrevistadora segue o texto da proposta.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Programa de governo de Flávio Bolsonaro (documento registrado)",
+          "titulo": "Para o Brasil Vencer o Atraso (PDF publicado pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Limitação das decisões monocráticas do STF, privilegiando as decisões colegiadas e presumindo a constitucionalidade do processo legislativo, para que a caneta de um só ministro não se sobreponha ao trabalho de todo o Congresso.",
+          "prova": "É a redação da proposta no programa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Flávio propõe tirar processos criminais e reduzir competências do STF",
+          "url": "https://www.congressoemfoco.com.br/noticia/121269/flavio-propoe-tirar-processos-criminais-e-reduzir-competencias-do-stf",
+          "consultada_em": "2026-10-17",
+          "trecho": "O plano pretende restringir as chamadas decisões monocráticas, tomadas individualmente por ministros, e privilegiar julgamentos colegiados.",
+          "prova": "Descreve a mesma proposta como restrição às decisões individuais de ministros."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Flávio propõe reformar Judiciário e criar modelo prisional inspirado no de El Salvador",
+          "url": "https://www.dgabc.com.br/Noticia/4341070/flavio-propoe-reformar-judiciario-e-criar-modelo-prisional-inspirado-no-de-el-salvador",
+          "consultada_em": "2026-10-17",
+          "trecho": "Também propõe limitar o poder das decisões monocráticas do Supremo, privilegiando decisões colegiadas",
+          "prova": "Confirma a proposta em outra apuração."
+        }
+      ]
+    }
+  ]
+}

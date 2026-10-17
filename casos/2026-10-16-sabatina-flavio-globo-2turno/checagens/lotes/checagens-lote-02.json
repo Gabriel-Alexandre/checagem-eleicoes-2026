@@ -1,0 +1,481 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "casos/2026-10-16-sabatina-flavio-globo-2turno/lotes/checagem/pedido-02.json",
+  "checagens": [
+    {
+      "id": "A011",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Focus de outubro de 2022 previa Selic de 7,75% para o fim de 2026, perto dos 7% citados",
+      "explicacao": "O Boletim Focus de 28 de outubro de 2022, a pesquisa do Banco Central com o mercado feita dois dias antes do segundo turno, trazia mediana de 7,75% ao ano para a Selic no fim de 2026 (e também no fim de 2025), segundo a base de dados de expectativas do próprio Banco Central; o relatório em PDF da mesma data confirma a coleta. A fala diz 'em torno de 7%' para 'este momento' (outubro de 2026): o desvio é de 9,7% sobre o valor apurado, abaixo da régua de 10% do §2.2, por isso VERDADEIRO com ressalva e não IMPRECISO. O mesmo dado, com as mesmas duas publicações do Banco Central e a mesma régua, foi checado no caso 2026-08-28-sabatina-flavio-globo-economia (A006, VERDADEIRO). A projeção foi feita antes do resultado da eleição e não dependia de quem vencesse; a ligação com o governo da época é leitura da fala, não dado.",
+      "numero_dito": "em torno de 7%",
+      "numero_apurado": "7,75% ao ano (mediana do Focus de 28/10/2022 para o fim de 2026)",
+      "data_de_referencia": "Focus de 28/10/2022, projeção para o fim de 2026",
+      "ressalva": "A mediana era 7,75%, e a projeção valia para qualquer vencedor da eleição",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "derivacoes": [
+        {
+          "valor": "9,7%",
+          "de": "7 e 7.7500",
+          "como": "7,75 menos 7, dividido por 7,75: desvio do dito sobre o apurado"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (base Expectativas, Olinda)",
+          "titulo": "Expectativas de mercado anuais: Selic, coleta de 28/10/2022",
+          "url": "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoAnuais?$top=200&$filter=Indicador%20eq%20'Selic'%20and%20Data%20ge%20'2022-10-24'%20and%20Data%20le%20'2022-10-31'&$format=json",
+          "consultada_em": "2026-10-17",
+          "trecho": "{\"Indicador\":\"Selic\",\"IndicadorDetalhe\":null,\"Data\":\"2022-10-28\",\"DataReferencia\":\"2025\",\"Media\":7.7528,\"Mediana\":7.7500,\"DesvioPadrao\":0.6593,\"Minimo\":6.0000,\"Maximo\":10.0000,\"numeroRespondentes\":91,\"baseCalculo\":0},{\"Indicador\":\"Selic\",\"IndicadorDetalhe\":null,\"Data\":\"2022-10-28\",\"DataReferencia\":\"2026\",\"Media\":7.6609,\"Mediana\":7.7500,\"DesvioPadrao\":0.7628,\"Minimo\":5.0000,\"Maximo\":10.0000,\"numeroRespondentes\":87,\"baseCalculo\":0}",
+          "prova": "A mediana de 7,75% para o fim de 2025 e de 2026, na coleta de 28/10/2022."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (Focus)",
+          "titulo": "Focus: Relatório de Mercado, 28 de outubro de 2022",
+          "url": "https://www.bcb.gov.br/content/focus/focus/R20221028.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Expectativas de Mercado 28 de outubro de 2022 [...] Selic (% a.a) 13,75 13,75 [...] 7,75 7,75 [...] 7,75 (4) 91",
+          "prova": "O relatório publicado na data, com 7,75% nas colunas de longo prazo (a camada de texto do PDF embaralha as colunas; a base Olinda dá os valores por ano)."
+        }
+      ]
+    },
+    {
+      "id": "A012",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Selic estava em 13,75% ao ano na data da fala, segundo o Banco Central",
+      "explicacao": "Pela série oficial da meta Selic do Banco Central (SGS 432), a taxa caiu de 14% para 13,75% ao ano em 17 de setembro de 2026 e seguia em 13,75% em 16 de outubro, dia da fala. O Jornal do Comércio, em 11 de outubro, registra o mesmo valor. A fala diz 14%: desvio de 1,8% sobre o apurado, abaixo da régua de 10% do §2.2, por isso VERDADEIRO com ressalva. Coerente com a sabatina de Lula de 15/out (caso 2026-10-15-sabatina-lula-globo-2turno, A141, VERDADEIRO, 13,75% na data) e com a sabatina de Flávio de 28/ago (caso 2026-08-28-sabatina-flavio-globo-economia, A004, VERDADEIRO), quando a taxa ainda era 14%.",
+      "numero_dito": "14%",
+      "numero_apurado": "13,75% ao ano",
+      "data_de_referencia": "meta Selic vigente em 16/10/2026",
+      "ressalva": "O valor exato era 13,75%, depois do corte de setembro",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "derivacoes": [
+        {
+          "valor": "1,8%",
+          "de": "14 e 13.75",
+          "como": "14 menos 13,75, dividido por 13,75: desvio do dito sobre o apurado"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 432)",
+          "titulo": "Meta Selic definida pelo Copom, % ao ano",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/09/2026&dataFinal=16/10/2026",
+          "consultada_em": "2026-10-17",
+          "trecho": "{\"data\":\"16/09/2026\",\"valor\":\"14.00\"},{\"data\":\"17/09/2026\",\"valor\":\"13.75\"} [...] {\"data\":\"16/10/2026\",\"valor\":\"13.75\"}",
+          "prova": "O corte de setembro e a taxa vigente no dia da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Comércio (com agências)",
+          "titulo": "Flávio repete que manterá reajuste do salário mínimo e Bolsa Família caso eleito (11/10/2026)",
+          "url": "https://www.jornaldocomercio.com/politica/2026/10/1266542-flavio-repete-que-mantera-reajuste-do-salario-minimo-e-bolsa-familia-caso-eleito.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Atualmente, a Selic está em 13,75% ao ano. A definição da taxa é realizada de maneira autônoma pelo Comitê de Política Monetária (Copom) do Banco Central.",
+          "prova": "O valor vigente cinco dias antes da fala, em reportagem."
+        }
+      ]
+    },
+    {
+      "id": "A013",
+      "veredito": "VERDADEIRO",
+      "resumo": "A dívida bruta do governo geral era de R$ 11,1 trilhões em agosto, último dado antes da fala",
+      "explicacao": "A nota de estatísticas fiscais do Banco Central de 30/09/2026, a última divulgada antes da fala, registra a Dívida Bruta do Governo Geral (DBGG) em R$ 11,1 trilhões (82,9% do PIB) em agosto de 2026; a Dívida Líquida do Setor Público estava em R$ 9,2 trilhões. O número dito, R$ 11 trilhões, corresponde ao conceito de dívida bruta e fica 0,9% abaixo do apurado, dentro da régua. A nota de 31/08 (R$ 10,9 trilhões em julho) e o Poder360, que reproduziu a nota de junho (R$ 10,8 trilhões), confirmam a ordem de grandeza; pela regra 2 da §3.1, a reportagem conta como apoio por reproduzir a primária. O mesmo dado (DBGG de agosto, nota de 30/09) foi usado no caso 2026-10-15-sabatina-lula-globo-2turno, A154.",
+      "numero_dito": "11 trilhões de reais",
+      "numero_apurado": "R$ 11,1 trilhões (Dívida Bruta do Governo Geral)",
+      "data_de_referencia": "agosto de 2026 (nota do Banco Central de 30/09/2026)",
+      "ressalva": "O número é o da dívida bruta; a líquida era de R$ 9,2 trilhões",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Nota para a imprensa de estatísticas fiscais, 30/09/2026",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "A DLSP atingiu 69,3% do PIB (R$9,2 trilhões) em agosto, elevando-se 0,1 p.p. do PIB no mês. [...] PIB (R$11,1 trilhões) em agosto de 2026, aumento de 0,3 p.p. do PIB em relação ao mês anterior.",
+          "prova": "O estoque da dívida líquida e da bruta (a DBGG, que compreende Governo Federal, INSS, estados e municípios) no último mês divulgado antes da fala."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Nota para a imprensa de estatísticas fiscais, 31/08/2026",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202608_Texto_de_estatisticas_fiscais.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "A DBGG – que compreende Governo Federal, INSS e governos estaduais e municipais – atingiu 82,5% do PIB (R$10,9 trilhões) em julho de 2026,",
+          "prova": "O mês anterior, na mesma ordem de grandeza."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Dívida bruta atinge 81,9% do PIB em junho, diz Banco Central (31/07/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/divida-bruta-atinge-819-do-pib-em-junho-diz-banco-central/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Setor público consolidado registrou alta de R$ 55,3 bilhões em junho e dívida total é de R$ 10,8 trilhões",
+          "prova": "Reportagem que reproduz a nota do Banco Central de junho: apoio, não fonte independente."
+        }
+      ]
+    },
+    {
+      "id": "A014",
+      "veredito": "IMPRECISO",
+      "resumo": "Pela sensibilidade do Banco Central, 7 pontos de Selic por 4 anos somam cerca de R$ 1,85 trilhão, quase o dobro",
+      "explicacao": "O Banco Central publica a sensibilidade da dívida à Selic: na nota de 31/07/2026 (a última cuja tabela de elasticidades está na camada de texto capturada), 1 ponto percentual a menos na Selic, mantido por 12 meses, reduz a dívida líquida em R$ 66,1 bilhões e a bruta em R$ 60,6 bilhões; o Jornal do Brasil, reproduzindo a nota de 31/08, cita R$ 68,9 bilhões. A 'conta básica' de 7 pontos durante 4 anos dá, com esses números, de R$ 1,70 trilhão (bruta) a R$ 1,93 trilhão (atualização de agosto), e R$ 1,85 trilhão pela dívida líquida. A fala diz 'quase um trilhão', de 41% a 48% abaixo. A essência (juro mais alto custa centenas de bilhões por ano) confere; o número, não. O desvio é para menos, contra o próprio argumento de quem fala, mas a régua do §2.2 não distingue o sentido: é o mesmo critério do caso 2026-08-28-sabatina-flavio-globo-economia, A007 e A021 (IMPRECISO), que usou a mesma tabela do Banco Central. A conta é linear e aplica o estoque de dívida de 2026 aos quatro anos, por isso confiança média.",
+      "numero_dito": "quase R$ 1 trilhão em 4 anos",
+      "numero_apurado": "cerca de R$ 1,70 trilhão a R$ 1,93 trilhão (7 pontos por 4 anos, pela sensibilidade do Banco Central)",
+      "data_de_referencia": "elasticidades das notas do Banco Central de 31/07/2026 e 31/08/2026",
+      "ressalva": "A diferença é para menos: a conta oficial dá valor maior que o dito",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "derivacoes": [
+        {
+          "valor": "R$ 1,85 trilhão (1.850,8 bilhões)",
+          "de": "7 vezes 66,1 vezes 4",
+          "como": "sensibilidade de 1 ponto por 12 meses na dívida líquida, vezes 7 pontos, vezes 4 anos, em R$ bilhões"
+        },
+        {
+          "valor": "R$ 1,70 trilhão (1.696,8 bilhões)",
+          "de": "7 vezes 60,6 vezes 4",
+          "como": "sensibilidade de 1 ponto por 12 meses na dívida bruta, vezes 7 pontos, vezes 4 anos, em R$ bilhões"
+        },
+        {
+          "valor": "R$ 1,93 trilhão (1.929,2 bilhões)",
+          "de": "7 vezes 68,9 vezes 4",
+          "como": "sensibilidade atualizada em agosto, vezes 7 pontos, vezes 4 anos, em R$ bilhões"
+        },
+        {
+          "valor": "41% a 48%",
+          "de": "1 trilhão contra 7 vezes 60,6 vezes 4 e 7 vezes 68,9 vezes 4",
+          "como": "1 menos 1.000 dividido pelo resultado de cada conta, em R$ bilhões"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Estatísticas fiscais, nota para a imprensa de 31/07/2026: elasticidades da DLSP e da DBGG",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202607_Texto_de_estatisticas_fiscais.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Redução de 1 p.p. na taxa Selic2/ 3/ -66,1 -0,50 -60,6 -0,46 [...] 3/ Variação mantida por doze meses.",
+          "prova": "A sensibilidade oficial da dívida a 1 ponto de Selic, base de qualquer conta de juros sobre a dívida."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Brasil (coluna O Outro Lado da Moeda)",
+          "titulo": "Cada ponto na Selic custa R$ 68,9 bilhões (31/08/2026)",
+          "url": "https://www.jb.com.br/colunistas/o-outro-lado-da-moeda/2026/08/1060756-cada-ponto-na-selic-custa-rs-689-bilhoes.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "o Banco Central, ao divulgar, hoje, os dados consolidados do setor público de julho, indicou que cada ponto para mais ou para menos na Selic impacta em R$ 68,9 bilhões",
+          "prova": "A atualização de agosto da mesma sensibilidade, em coluna que reproduz a nota do Banco Central (apoio, não fonte independente)."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Nota para a imprensa de estatísticas fiscais, 30/09/2026",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "No acumulado em doze meses até agosto, os juros nominais alcançaram R$1.182,2 bilhões (8,86% do PIB)",
+          "prova": "Ordem de grandeza da conta de juros anual na data da fala, coerente com a sensibilidade usada."
+        }
+      ]
+    },
+    {
+      "id": "A015",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Há economistas céticos sobre o corte de R$ 200 bi sem mexer em gasto obrigatório, mas não há registro de consenso",
+      "explicacao": "A pergunta afirma um 'consenso dos economistas, inclusive muitos que apoiam' o candidato. O que se encontrou: economistas de universidades (Pedro Paulo Zahluth Bastos, da Unicamp, e Maria Lourdes Mollo, da UnB) dizem que um corte de R$ 200 bilhões alcança a área social; economistas de mercado (Tatiana Pinheiro, da FGV, Felipe Salto, Carla Argenta, André Perfeito) dizem que não está claro de onde viria o corte e que medidas cosméticas não bastam; a Folha, reproduzida pelo ES Hoje, informou que a própria equipe da campanha estudou conter despesas obrigatórias e que as medidas anunciadas, sozinhas, não bastam; o Correio Braziliense registrou em abril que a equipe estudou desvincular os pisos de saúde e educação. Não se encontrou, porém, registro nominal de economistas apoiadores do candidato dizendo que sem mexer nesses gastos não se chega a R$ 200 bilhões, nem levantamento que mostre consenso. A essência (há ceticismo amplo sobre o corte) tem apoio; a afirmação de consenso que inclui apoiadores, não. Por isso INSUSTENTAVEL, e não FALSO: nenhuma fonte contradiz a pergunta. A busca nesta rodada foi limitada a duas consultas sobre o tema.",
+      "numero_dito": "200 bilhões de reais",
+      "numero_apurado": null,
+      "data_de_referencia": "declarações publicadas de abril a outubro de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Mercado&Consumo",
+          "titulo": "Corte amplo de gastos públicos afetaria área social, dizem economistas (14/10/2026)",
+          "url": "https://mercadoeconsumo.com.br/14/10/2026/economia/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O professor Pedro Paulo Zahluth Bastos, do Instituto de Economia da Universidade Estadual de Campinas (Unicamp), afirmou que cortes expressivos, como os de cerca de R$ 200 bilhões discutidos durante a campanha presidencial, tendem a alcançar as áreas sociais.",
+          "prova": "Economista que afirma o ponto da pergunta, sem ligação declarada com a campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Euforia do mercado esbarra na falta de detalhes do ajuste de Flávio (out/2026)",
+          "url": "https://bpmoney.com.br/?p=426104",
+          "consultada_em": "2026-10-17",
+          "trecho": "Fala-se em um ajuste entre R$ 200 bilhões e R$ 250 bilhões, mas não está claro quais despesas seriam reduzidas, como e em qual horizonte.",
+          "prova": "Economista da FGV aponta a lacuna, sem afirmar que o ajuste é inviável."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "ES Hoje (com Folha de S.Paulo)",
+          "titulo": "Contradições do discurso econômico de Flávio expõem dúvidas no ajuste fiscal prometido pelo candidato",
+          "url": "https://eshoje.com.br/?p=901378",
+          "consultada_em": "2026-10-17",
+          "trecho": "Até agora, porém, a campanha fala oficialmente em corte de cargos e ministérios, venda de imóveis da União e combate a fraudes em benefícios — medidas que, sozinhas, não são suficientes para colocar de pé um ajuste dessa envergadura.",
+          "prova": "A avaliação de que as medidas anunciadas não bastam é da reportagem, não de economistas apoiadores identificados."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (abr/2026)",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Entre as principais medidas em estudo está a desvinculação dos pisos constitucionais de saúde e educação.",
+          "prova": "A própria equipe estudou mexer nos pisos, o que indica a dimensão do ajuste, mas não é declaração de economistas apoiadores."
+        }
+      ]
+    },
+    {
+      "id": "A016",
+      "veredito": "VERDADEIRO",
+      "resumo": "A coordenadora econômica de Flávio falou em ajuste de 1,5% do PIB, cerca de R$ 190 bi; a campanha fala em R$ 200 bi",
+      "explicacao": "Em agosto, a coordenadora da equipe econômica, Daniella Marques, disse à GloboNews que o plano inclui ajuste de 1,5% do PIB, cerca de R$ 190 bilhões (Mercado&Consumo). O SBT News registrou que integrantes da campanha evitam cravar o tamanho, mas o discurso é de corte em torno de R$ 200 bilhões em gastos primários; o Poder360 registra que a equipe discute reduzir despesas em R$ 200 bilhões a R$ 250 bilhões; e a imprensa econômica relata que a coordenadora tem reiterado a promessa de ajuste diante da reação do mercado ao primeiro turno. O valor de R$ 200 bilhões circula como o tamanho do ajuste prometido, com a ressalva de que a campanha não o formalizou em documento. VERDADEIRO com ressalva; confiança média porque 'prometido ao mercado' é a leitura que a imprensa faz das falas da equipe, sem compromisso escrito.",
+      "numero_dito": "200 bilhões de reais",
+      "numero_apurado": "1,5% do PIB, cerca de R$ 190 bilhões (Daniella Marques); discurso de corte em torno de R$ 200 bilhões",
+      "data_de_referencia": "declarações de agosto a outubro de 2026",
+      "ressalva": "A campanha evita cravar o valor; a coordenadora falou em 1,5% do PIB, cerca de R$ 190 bilhões",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Mercado&Consumo",
+          "titulo": "Corte amplo de gastos públicos afetaria área social, dizem economistas (14/10/2026)",
+          "url": "https://mercadoeconsumo.com.br/14/10/2026/economia/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em agosto deste ano em entrevista à Globo News, a coordenadora da equipe econômica de Flávio Bolsonaro, Daniella Marques, afirmou que o plano prevê mudanças nas regras fiscais para controlar a dívida pública, o que inclui um ajuste de 1,5% do Produto Interno Bruto, algo em torno de R$ 190 bilhões, considerado o PIB de 2025.",
+          "prova": "O tamanho do ajuste dito pela coordenadora econômica da campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News (Coluna da Carla)",
+          "titulo": "Flávio é sondado sobre Fazenda e discute corte de R$ 200 bi (09/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-carla/flavio-e-sondado-sobre-fazenda-e-discute-corte-de-r-200-bi",
+          "consultada_em": "2026-10-17",
+          "trecho": "Integrantes da campanha evitam cravar o tamanho do ajuste que a PEC poderia gerar, mas o discurso é de um corte em torno de R$ 200 bilhões em gastos primários.",
+          "prova": "Apuração independente do valor de R$ 200 bilhões no discurso da campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio promete manter Bolsa Família: Bolsonaro triplicou (11/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-promete-manter-bolsa-familia-bolsonaro-triplicou/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Integrantes do grupo discutem reduzir despesas em cerca de R$ 200 bilhões a R$ 250 bilhões, mas ainda não há um plano completo com a discriminação dos gastos que seriam cortados.",
+          "prova": "Terceira apuração do tamanho discutido pela equipe."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Estadão Conteúdo)",
+          "titulo": "Euforia do mercado com Flávio esbarra na falta de compromissos concretos com cenário fiscal",
+          "url": "https://www.diariodepernambuco.com.br/economia/2026/10/11726342-euforia-do-mercado-com-flavio-esbarra-na-falta-de-compromissos-concretos-com-cenario-fiscal.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Daniella Marques, ex-presidente da Caixa e coordenadora do plano de governo de Flávio, também tem reiterado a promessa de ajuste fiscal, mas sem se comprometer com medidas sensíveis",
+          "prova": "A promessa de ajuste reiterada pela equipe no contexto da reação do mercado."
+        }
+      ]
+    },
+    {
+      "id": "A017",
+      "veredito": "VERDADEIRO",
+      "resumo": "O Ministério da Gestão falou em 39 pastas em dezembro; a imprensa contava 38 ministérios em março",
+      "explicacao": "Em nota à CNN Brasil (15/12/2025), o Ministério da Gestão e da Inovação disse que a reestruturação levou a Esplanada 'de 23 ministérios para 38 e posteriormente, 39'. O Poder360, em 31/03/2026, contou 38 ministérios na última reunião ministerial antes da saída dos candidatos. A Lei 14.600/2023, no texto compilado do Planalto capturado em outubro de 2026, lista 31 incisos e o XII-A (Empreendedorismo) no art. 17, mais seis titulares de órgãos com status de ministro no art. 18 (Casa Civil, Secretaria-Geral, Relações Institucionais, Secom, GSI e AGU), o que soma 38. A fala diz 39, o número do próprio governo; a diferença para 38 é de 2,6%, dentro da régua de 10% do §2.2, por isso VERDADEIRO com ressalva e não IMPRECISO. Confiança média pela divergência de contagem entre as fontes.",
+      "numero_dito": "39 ministérios",
+      "numero_apurado": "38 a 39 pastas com status de ministério",
+      "data_de_referencia": "dezembro de 2025 a março de 2026; lei compilada vigente em outubro de 2026",
+      "ressalva": "A contagem varia entre 38 e 39 pastas conforme a fonte",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Ministério da Gestão fala em 39 pastas; o Poder360 e a contagem do texto compilado da Lei 14.600 dão 38.",
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil (nota do Ministério da Gestão e da Inovação)",
+          "titulo": "Em 3 anos, Lula criou 3 vezes mais cargos comissionados do que Bolsonaro (15/12/2025)",
+          "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/em-3-anos-lula-criou-3-vezes-mais-cargos-comissionados-do-que-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em nota, o Ministério da Gestão e Inovação informou que a reestruturação ministerial planejada ainda durante a transição resultou no desmembramento e na recriação de pastas (de 23 ministérios para 38 e posteriormente, 39)",
+          "prova": "A contagem do próprio governo: 39 pastas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.600, de 19 de junho de 2023 (texto compilado)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 17. Os Ministérios são os seguintes: [...] XII-A - Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte; [...] XXX - Ministério do Turismo; e XXXI - Controladoria-Geral da União. Art. 18. São Ministros de Estado: I - os titulares dos Ministérios; II - o titular da Casa Civil da Presidência da República; [...] VII - o Advogado-Geral da União.",
+          "prova": "A lei vigente: 32 ministérios no art. 17 e seis órgãos com ministro no art. 18."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Com 38 ministérios, Lula diz que montou o país para funcionar (31/03/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/com-38-ministerios-lula-diz-que-montou-o-pais-para-funcionar/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com 38 ministérios, Lula diz que montou o país para funcionar Presidente deu a declaração ao falar sobre a criação de novas pastas ao assumir o governo para um 3º mandato",
+          "prova": "Contagem independente da imprensa em 2026: 38."
+        }
+      ]
+    },
+    {
+      "id": "A018",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pelo Banco Central, as estatais federais tiveram superávit primário de R$ 17,5 bilhões de 2019 a 2022",
+      "explicacao": "A série do Banco Central de resultado primário das empresas estatais federais (SGS 4646, NFSP em R$ milhões, em que valor positivo é déficit e negativo é superávit; a NFSP exclui Petrobras e Eletrobras, e a imprensa registra que os bancos públicos também ficam fora) soma, de janeiro de 2019 a dezembro de 2022, R$ 17.461,86 milhões negativos, ou seja, superávit de R$ 17,5 bilhões. Só 2020 teve pequeno déficit (cerca de R$ 0,6 bilhão). A Folhapress (via Diário do Comércio) confirma o superávit de R$ 4,75 bilhões em 2022 e a exceção de 2020; o Money Times cita R$ 2,5 bilhões em 2021, abaixo dos cerca de R$ 3,0 bilhões que a série dá hoje (ver divergência). A fala diz R$ 18 bilhões 'de superávit ou de lucro': o superávit primário bate, com desvio de 3,1%, abaixo da régua de 10%; o lucro contábil é outro conceito e não foi medido aqui. VERDADEIRO com ressalva. Confiança média porque o total sai de uma soma de 48 meses feita nesta checagem.",
+      "numero_dito": "18 bilhões de reais",
+      "numero_apurado": "superávit primário de R$ 17,5 bilhões (2019 a 2022)",
+      "data_de_referencia": "janeiro de 2019 a dezembro de 2022",
+      "ressalva": "O valor é de R$ 17,5 bilhões e mede o resultado primário, não o lucro",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Para 2021, a série atual do Banco Central dá superávit de cerca de R$ 3,0 bilhões; o Money Times cita R$ 2,5 bilhões. A diferença não muda o total de forma relevante.",
+      "derivacoes": [
+        {
+          "valor": "R$ 17,5 bilhões (17.461,86 milhões)",
+          "de": "377.72 + 113.01 + 36.92 + 318.98 + 98.83 + 152.68 + -611.11 + -217.98 + -136.82 + -491.52 + -311.16 + -9621.38 + 369.86 + 45.19 + -4.60 + -150.57 + -182.15 + -107.29 + -124.07 + 70.46 + 336.28 + -53.31 + -0.40 + 414.96 + 437.60 + 608.13 + -505.79 + 86.44 + -309.63 + -369.72 + -335.80 + -709.89 + -1338.56 + -396.36 + -411.95 + 215.06 + -3652.92 + -2349.98 + -595.93 + 537.77 + 972.83 + -1366.10 + 565.91 + -854.69 + 676.58 + 807.40 + 708.33 + -203.12",
+          "como": "soma dos 48 fluxos mensais de 2019 a 2022, em R$ milhões; o sinal negativo da NFSP é superávit"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 4646)",
+          "titulo": "NFSP sem desvalorização cambial, fluxo mensal, resultado primário, empresas estatais federais (R$ milhões)",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4646/dados?formato=json&dataInicial=01/01/2019&dataFinal=16/10/2026",
+          "consultada_em": "2026-10-17",
+          "trecho": "{\"data\":\"01/01/2019\",\"valor\":\"377.72\"},{\"data\":\"01/02/2019\",\"valor\":\"113.01\"},{\"data\":\"01/03/2019\",\"valor\":\"36.92\"},{\"data\":\"01/04/2019\",\"valor\":\"318.98\"},{\"data\":\"01/05/2019\",\"valor\":\"98.83\"},{\"data\":\"01/06/2019\",\"valor\":\"152.68\"},{\"data\":\"01/07/2019\",\"valor\":\"-611.11\"},{\"data\":\"01/08/2019\",\"valor\":\"-217.98\"},{\"data\":\"01/09/2019\",\"valor\":\"-136.82\"},{\"data\":\"01/10/2019\",\"valor\":\"-491.52\"},{\"data\":\"01/11/2019\",\"valor\":\"-311.16\"},{\"data\":\"01/12/2019\",\"valor\":\"-9621.38\"},{\"data\":\"01/01/2020\",\"valor\":\"369.86\"},{\"data\":\"01/02/2020\",\"valor\":\"45.19\"},{\"data\":\"01/03/2020\",\"valor\":\"-4.60\"},{\"data\":\"01/04/2020\",\"valor\":\"-150.57\"},{\"data\":\"01/05/2020\",\"valor\":\"-182.15\"},{\"data\":\"01/06/2020\",\"valor\":\"-107.29\"},{\"data\":\"01/07/2020\",\"valor\":\"-124.07\"},{\"data\":\"01/08/2020\",\"valor\":\"70.46\"},{\"data\":\"01/09/2020\",\"valor\":\"336.28\"},{\"data\":\"01/10/2020\",\"valor\":\"-53.31\"},{\"data\":\"01/11/2020\",\"valor\":\"-0.40\"},{\"data\":\"01/12/2020\",\"valor\":\"414.96\"},{\"data\":\"01/01/2021\",\"valor\":\"437.60\"},{\"data\":\"01/02/2021\",\"valor\":\"608.13\"},{\"data\":\"01/03/2021\",\"valor\":\"-505.79\"},{\"data\":\"01/04/2021\",\"valor\":\"86.44\"},{\"data\":\"01/05/2021\",\"valor\":\"-309.63\"},{\"data\":\"01/06/2021\",\"valor\":\"-369.72\"},{\"data\":\"01/07/2021\",\"valor\":\"-335.80\"},{\"data\":\"01/08/2021\",\"valor\":\"-709.89\"},{\"data\":\"01/09/2021\",\"valor\":\"-1338.56\"},{\"data\":\"01/10/2021\",\"valor\":\"-396.36\"},{\"data\":\"01/11/2021\",\"valor\":\"-411.95\"},{\"data\":\"01/12/2021\",\"valor\":\"215.06\"},{\"data\":\"01/01/2022\",\"valor\":\"-3652.92\"},{\"data\":\"01/02/2022\",\"valor\":\"-2349.98\"},{\"data\":\"01/03/2022\",\"valor\":\"-595.93\"},{\"data\":\"01/04/2022\",\"valor\":\"537.77\"},{\"data\":\"01/05/2022\",\"valor\":\"972.83\"},{\"data\":\"01/06/2022\",\"valor\":\"-1366.10\"},{\"data\":\"01/07/2022\",\"valor\":\"565.91\"},{\"data\":\"01/08/2022\",\"valor\":\"-854.69\"},{\"data\":\"01/09/2022\",\"valor\":\"676.58\"},{\"data\":\"01/10/2022\",\"valor\":\"807.40\"},{\"data\":\"01/11/2022\",\"valor\":\"708.33\"},{\"data\":\"01/12/2022\",\"valor\":\"-203.12\"}",
+          "prova": "Os 48 meses do governo Bolsonaro, cuja soma dá o superávit acumulado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (Portal de Dados Abertos)",
+          "titulo": "Metadados da série 4646",
+          "url": "https://dadosabertos.bcb.gov.br/tr/dataset/4646-nfsp-sem-desvalorizacao-cambial---fluxo-mensal-corrente---resultado-primario---total---empresa",
+          "consultada_em": "2026-10-17",
+          "trecho": "NFSP sem desvalorização cambial - Fluxo mensal corrente - Resultado primário - Total - Empresas estatais federais Conceito: As Necessidades de Financiamento do Setor Público incluem o Governo Federal (Tesouro Nacional e Sistema de Previdência Social), os governos estaduais e municipais, as empresas estatais das três esferas de governo (exceto Petrobras e Eletrobras) e o Banco Central do Brasil.",
+          "prova": "O que a série mede e o que exclui."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (Folhapress)",
+          "titulo": "Estatais federais voltam a ter déficit (23/11/2023)",
+          "url": "https://diariodocomercio.com.br/economia/estatais-federais-voltam-ter-deficit/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O superávit voltou em 2018 e se manteve até o ano passado, exceção feita ao ano atípico de 2020, quando houve o impacto da pandemia de Covid-19 sobre a atividade econômica e as contas públicas. No ano passado, o saldo positivo foi de R$ 4,75 bilhões.",
+          "prova": "Apuração independente: superávits no período, exceto 2020, e o valor de 2022 igual ao da série."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Money Times",
+          "titulo": "Rombo das estatais federais bate recorde e já supera total de 2025 em apenas quatro meses (03/06/2026)",
+          "url": "https://www.moneytimes.com.br/rombo-das-estatais-federais-bate-recorde-e-ja-supera-total-de-2025-em-apenas-quatro-meses/",
+          "consultada_em": "2026-10-17",
+          "trecho": "As estatais federais registraram superávits sucessivos, como o saldo positivo de R$ 2,5 bilhões em 2021 e de R$ 4,8 bilhões em 2022.",
+          "prova": "Os superávits de 2021 e 2022 em outra reportagem."
+        }
+      ]
+    },
+    {
+      "id": "A019",
+      "veredito": "IMPRECISO",
+      "resumo": "O Banco Central registra déficit primário de R$ 19 bilhões nas estatais federais de 2023 a agosto de 2026, não R$ 36 bi",
+      "explicacao": "Na mesma série do Banco Central usada para o período anterior (SGS 4646, resultado primário das estatais federais, sem Petrobras, Eletrobras e bancos; valor positivo é déficit), a soma de janeiro de 2023 a agosto de 2026, último mês divulgado antes da fala, dá déficit de R$ 19.044,25 milhões, cerca de R$ 19 bilhões. A imprensa confirma os pedaços: déficit de R$ 656 milhões em 2023 e R$ 6,73 bilhões em 2024 (Guia do Investidor), R$ 5,1 bilhões em 2025 (Times Brasil, com nota do Ministério da Gestão) e R$ 5,93 bilhões de janeiro a abril de 2026 (Money Times). A fala diz R$ 36 bilhões de prejuízo, 89% acima do déficit apurado. A essência (as estatais federais passaram a ter resultado negativo no governo Lula) confere; o número, não, por isso IMPRECISO e não FALSO. O prejuízo contábil de empresas como os Correios é outro conceito e não foi somado aqui; não se achou fonte para R$ 36 bilhões.",
+      "numero_dito": "36 bilhões",
+      "numero_apurado": "déficit primário de R$ 19 bilhões (jan/2023 a ago/2026)",
+      "data_de_referencia": "janeiro de 2023 a agosto de 2026",
+      "ressalva": "A série mede resultado primário, sem Petrobras e bancos públicos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "derivacoes": [
+        {
+          "valor": "R$ 19 bilhões (19.044,25 milhões)",
+          "de": "601.01 + -415.24 + 792.57 + 863.64 + 317.32 + -546.32 + -216.26 + -1391.88 + 258.62 + 22.60 + 56.71 + 313.46 + 1198.75 + 170.42 + 95.80 + 212.98 + 1742.48 + -529.56 + 537.68 + -54.06 + 804.49 + 273.05 + 1589.21 + 693.05 + 545.29 + 443.87 + 764.73 + 977.66 + 744.44 + 430.58 + 1618.15 + 44.34 + 751.48 + 30.69 + -60.67 + -1154.76 + 3330.11 + 828.51 + 247.87 + 1530.57 + 26.59 + 1837.19 + 476.39 + -1759.30",
+          "como": "soma dos 44 fluxos mensais de janeiro de 2023 a agosto de 2026, em R$ milhões; o sinal positivo da NFSP é déficit"
+        },
+        {
+          "valor": "89%",
+          "de": "36 contra a soma dos fluxos mensais da derivação anterior",
+          "como": "36 dividido pela soma em R$ bilhões, menos 1"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS 4646)",
+          "titulo": "NFSP sem desvalorização cambial, fluxo mensal, resultado primário, empresas estatais federais (R$ milhões)",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4646/dados?formato=json&dataInicial=01/01/2019&dataFinal=16/10/2026",
+          "consultada_em": "2026-10-17",
+          "trecho": "{\"data\":\"01/01/2023\",\"valor\":\"601.01\"},{\"data\":\"01/02/2023\",\"valor\":\"-415.24\"},{\"data\":\"01/03/2023\",\"valor\":\"792.57\"},{\"data\":\"01/04/2023\",\"valor\":\"863.64\"},{\"data\":\"01/05/2023\",\"valor\":\"317.32\"},{\"data\":\"01/06/2023\",\"valor\":\"-546.32\"},{\"data\":\"01/07/2023\",\"valor\":\"-216.26\"},{\"data\":\"01/08/2023\",\"valor\":\"-1391.88\"},{\"data\":\"01/09/2023\",\"valor\":\"258.62\"},{\"data\":\"01/10/2023\",\"valor\":\"22.60\"},{\"data\":\"01/11/2023\",\"valor\":\"56.71\"},{\"data\":\"01/12/2023\",\"valor\":\"313.46\"},{\"data\":\"01/01/2024\",\"valor\":\"1198.75\"},{\"data\":\"01/02/2024\",\"valor\":\"170.42\"},{\"data\":\"01/03/2024\",\"valor\":\"95.80\"},{\"data\":\"01/04/2024\",\"valor\":\"212.98\"},{\"data\":\"01/05/2024\",\"valor\":\"1742.48\"},{\"data\":\"01/06/2024\",\"valor\":\"-529.56\"},{\"data\":\"01/07/2024\",\"valor\":\"537.68\"},{\"data\":\"01/08/2024\",\"valor\":\"-54.06\"},{\"data\":\"01/09/2024\",\"valor\":\"804.49\"},{\"data\":\"01/10/2024\",\"valor\":\"273.05\"},{\"data\":\"01/11/2024\",\"valor\":\"1589.21\"},{\"data\":\"01/12/2024\",\"valor\":\"693.05\"},{\"data\":\"01/01/2025\",\"valor\":\"545.29\"},{\"data\":\"01/02/2025\",\"valor\":\"443.87\"},{\"data\":\"01/03/2025\",\"valor\":\"764.73\"},{\"data\":\"01/04/2025\",\"valor\":\"977.66\"},{\"data\":\"01/05/2025\",\"valor\":\"744.44\"},{\"data\":\"01/06/2025\",\"valor\":\"430.58\"},{\"data\":\"01/07/2025\",\"valor\":\"1618.15\"},{\"data\":\"01/08/2025\",\"valor\":\"44.34\"},{\"data\":\"01/09/2025\",\"valor\":\"751.48\"},{\"data\":\"01/10/2025\",\"valor\":\"30.69\"},{\"data\":\"01/11/2025\",\"valor\":\"-60.67\"},{\"data\":\"01/12/2025\",\"valor\":\"-1154.76\"},{\"data\":\"01/01/2026\",\"valor\":\"3330.11\"},{\"data\":\"01/02/2026\",\"valor\":\"828.51\"},{\"data\":\"01/03/2026\",\"valor\":\"247.87\"},{\"data\":\"01/04/2026\",\"valor\":\"1530.57\"},{\"data\":\"01/05/2026\",\"valor\":\"26.59\"},{\"data\":\"01/06/2026\",\"valor\":\"1837.19\"},{\"data\":\"01/07/2026\",\"valor\":\"476.39\"},{\"data\":\"01/08/2026\",\"valor\":\"-1759.30\"}",
+          "prova": "Os meses do governo Lula até o último dado anterior à fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Guia do Investidor",
+          "titulo": "Sob Lula, estatais têm déficit recorde em 2024 (31/01/2025)",
+          "url": "https://guiadoinvestidor.com.br/?p=331605",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além das estatais, os estados federais também registraram um déficit recorde em 2024, com saldo negativo de R$6,73 bilhões, o maior da série histórica. No ano anterior, o déficit havia sido de R$ 656 milhões.",
+          "prova": "Os anos de 2023 e 2024 das estatais federais (a reportagem as chama de 'estados federais'), iguais aos da série."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Estatais têm déficit primário de R$ 5,1 bilhões em 2025",
+          "url": "https://timesbrasil.com.br/brasil/economia-brasileira/estatais-tem-deficit-primario-de-r-51-bilhoes-em-2025/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo o MGI, “o déficit está em linha com o resultado primário das estatais federais apurado pelo Banco Central, que somou R$ 5,1 bilhões e que considera 20 empresas (as mesmas 19 acompanhadas pelo governo e mais ENBPar)”.",
+          "prova": "O ano de 2025, com a confirmação do Ministério da Gestão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Money Times",
+          "titulo": "Rombo das estatais federais bate recorde e já supera total de 2025 em apenas quatro meses (03/06/2026)",
+          "url": "https://www.moneytimes.com.br/rombo-das-estatais-federais-bate-recorde-e-ja-supera-total-de-2025-em-apenas-quatro-meses/",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com o balanço mais recente do Banco Central, divulgado na última semana, as empresas acumularam um déficit primário de R$ 5,93 bilhões entre janeiro e abril deste ano.",
+          "prova": "O começo de 2026, igual à soma dos quatro meses da série."
+        }
+      ]
+    },
+    {
+      "id": "A020",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Dado oficial atual não foi conferido; em 2018 a Secretaria do Patrimônio informava 655 mil imóveis da União",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a fonte oficial atual (painel de indicadores da Secretaria do Patrimônio da União, SPU) não foi capturada: a apresentação do governo achada na busca recusou o robô (erro 401), o repositório da Enap devolveu erro 429 e as páginas da SPU e do dados.gov.br capturadas não trazem o total. O que há são reportagens antigas que citam a SPU: 655 mil imóveis de propriedade e uso da União em 2018 (Poder360) e 636 mil imóveis dominiais cadastrados (Agência Brasil, via Money Times, nov/2018). Se o dado atual da SPU estiver na mesma ordem de grandeza, 'mais de 30 mil' é verdadeiro em sentido literal, mas fica muito abaixo do total, o que pede leitura de régua (a cifra pode se referir a um subconjunto, como imóveis de uso especial ou ociosos). Falta: capturar o painel de indicadores ou o relatório de gestão da SPU com o total vigente em 2026 e decidir entre VERDADEIRO com ressalva e IMPRECISO.",
+      "numero_dito": "mais de 30 mil",
+      "numero_apurado": null,
+      "data_de_referencia": "dados da SPU citados em 2018; dado de 2026 não capturado",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Governo promete fazer levantamento de prédios da União inativos e ocupados (06/05/2018)",
+          "url": "https://www.poder360.com.br/governo/governo-fara-levantamento-de-predios-da-uniao-inativos-e-ocupados/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a SPU, hoje há 655 mil imóveis de propriedade e uso da União cadastrados em 2 sistemas: o Siapa (Sistema Integrado de Administração Patrimonial) e SPIUnet (Sistema de Gerenciamento do Patrimônio Imobiliário de uso especial da União).",
+          "prova": "Ordem de grandeza do patrimônio imobiliário da União segundo a SPU, em 2018."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Money Times (Agência Brasil)",
+          "titulo": "Governo vai cadastrar imóveis da União explorados de forma irregular (23/11/2018)",
+          "url": "https://www.moneytimes.com.br/governo-vai-cadastrar-imoveis-da-uniao-explorados-de-forma-irregular/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a Secretaria do Patrimônio da União (SPU), do Ministério do Planejamento, Desenvolvimento e Gestão, o último cadastramento ocorreu há dez anos, constando na base de dados 636 mil imóveis dominiais.",
+          "prova": "Outra cifra da SPU, só de imóveis dominiais, também muito acima de 30 mil."
+        }
+      ]
+    }
+  ]
+}

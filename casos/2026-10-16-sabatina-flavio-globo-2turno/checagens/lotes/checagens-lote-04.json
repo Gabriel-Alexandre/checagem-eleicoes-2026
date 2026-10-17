@@ -1,0 +1,472 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A031",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio criticou a PEC desde maio, antes de ela chegar ao Senado, até anunciar o voto a favor na véspera",
+      "explicacao": "A frase da entrevistadora diz que Flávio foi contrário à PEC do fim da escala 6x1 desde o início. Na tramitação em que ele votou, a do Senado, a PEC 221/2019 foi apresentada em 28/05/2026, segundo os dados abertos do Senado. A Crítica (MS) registra que em 19 de maio, ao propor o pagamento por hora como alternativa, ele disse que a proposta 'vai gerar desemprego em massa'; o InfoMoney registra a mesma crítica na semana da aprovação na Câmara; o Times Brasil (CNBC) diz que ele criticou a proposta ao longo do 2º turno e defendeu votar só depois da eleição, até mudar de posição. As fontes são de imprensa com apuração própria, de grupos diferentes, e o dado de data é N1. Não há registro, nas fontes encontradas, de apoio de Flávio à PEC antes de 13/out. Por isso VERDADEIRO, e não IMPRECISO: o 'desde o início' vale para a tramitação no Senado. A ressalva diz que não foi achado registro da posição dele antes de maio de 2026. A decisão do TSE citada abaixo proibiu anúncios da campanha de Lula que diziam que Flávio era contra o fim da 6x1; é uma decisão sobre propaganda, e não um registro de posição favorável dele, e vai em divergência para não ser silenciada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "maio a 13 de outubro de 2026",
+      "ressalva": "Não foi achado registro da posição de Flávio antes de maio de 2026, quando a PEC passou na Câmara",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A Crítica registra que um ministro do TSE proibiu a campanha de Lula de impulsionar anúncios que diziam que Flávio era contra o fim da 6x1. É decisão sobre propaganda, sem juízo sobre o histórico de declarações dele, que as reportagens registram como críticas.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Dados Abertos, votações)",
+          "titulo": "Votações nominais do Plenário em 14/10/2026",
+          "url": "https://legis.senado.leg.br/dadosabertos/votacao?dataInicio=2026-10-14&dataFim=2026-10-14",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"dataApresentacao\":\"2026-05-28\",\"dataSessao\":\"2026-10-14\",\"descricaoVotacao\":\"Votação nominal da Proposta de Emenda à Constituição nº 221, de 2019, em primeiro turno.\"",
+          "prova": "Data em que a PEC chegou ao Senado, o início da tramitação em que Flávio votou."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande",
+          "titulo": "Flávio Bolsonaro vota a favor do fim da escala 6x1, mas PL defende contrato por hora",
+          "url": "https://acritica.net/nacional/flavio-vota-fim-escala-6x1-pl-trabalho-flexivel/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A resistência de Flávio ao tema é antiga. Em 19 de maio, ao propor o pagamento por hora como alternativa, ele disse que a proposta do governo federal “vai gerar desemprego em massa” . Em 6 de outubro, criticou o momento escolhido para a votação e defendeu que cada trabalhador pudesse definir a própria carga horária. [...] No domingo (11), o ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), proibiu a campanha de Luiz Inácio Lula da Silva (PT) de impulsionar anúncios que afirmavam que Flávio era contra o fim da escala 6×1.",
+          "prova": "Crítica de Flávio à PEC já em maio, antes da chegada ao Senado, e de novo em outubro; e a decisão do TSE sobre propaganda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "InfoMoney",
+          "titulo": "Cálculo eleitoral leva PL a ‘bater cabeça’ em aprovação da escala 6×1 na Câmara",
+          "url": "https://www.infomoney.com.br/?p=3352062",
+          "consultada_em": "2026-10-17",
+          "trecho": "O movimento foi na contramão do posicionamento de Flávio Bolsonaro, pré-candidato da legenda ao Planalto. Antes de embarcar para os Estados Unidos, ele acusou o governo de “tentar vender uma solução fácil para a população” e afirmou que a proposição geraria “desemprego em massa”, “aumentaria o custo de vida” e “prejudicaria mais os trabalhadores do que ajudaria”.",
+          "prova": "Posição contrária de Flávio na semana da votação da Câmara, em apuração de outro grupo de imprensa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Flávio muda posição e anuncia voto pelo fim da escala 6x1",
+          "url": "https://timesbrasil.com.br/brasil/decisao-2026-flavio-muda-posicao-e-anuncia-voto-pelo-fim-da-escala-6x1-lula-atribui-virada-do-rival-a-pressao-popular-veja-o-dia-dos-candidatos-ao-planalto/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A mudança ocorre depois de Flávio criticar a proposta ao longo do segundo turno, acusar Lula de usar a pauta por interesse eleitoral e defender que a votação fosse realizada somente depois da eleição.",
+          "prova": "Posição contrária mantida até a mudança, já com a PEC no plenário do Senado."
+        }
+      ]
+    },
+    {
+      "id": "A032",
+      "veredito": "VERDADEIRO",
+      "resumo": "A imprensa registra que Flávio chamou o fim da 6x1 de oportunista e a discussão da medida de eleitoreira",
+      "explicacao": "A frase diz que Flávio chamou a proposta de eleitoreira e de oportunista. O Estadão (publicado pelo Diário do Grande ABC) escreve que o senador 'já classificou o fim da escala 6x1 de hipocrisia e medida oportunista'; O Liberal escreve que ele se manifestava contra o texto 'chamando-o de oportunista'; o Poder360 escreve que ele havia classificado a discussão da medida como 'inoportuna e eleitoreira'. A fala literal capturada pelo Poder360 em 6/out usa 'oportunista' para a iniciativa de Lula de votar a PEC no meio do 2º turno. As duas palavras estão documentadas como críticas de Flávio ao fim da 6x1, por veículos diferentes (o texto de O Liberal pode ter origem no Estadão; o Poder360 é apuração independente). Por isso VERDADEIRO, e não IMPRECISO: a ressalva registra que os adjetivos miravam sobretudo o momento da votação e a iniciativa de Lula, e que 'eleitoreira' aparece em resumo da imprensa, não em citação direta.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações anteriores a 13 de outubro de 2026",
+      "ressalva": "Os adjetivos miravam o momento da votação e a iniciativa de Lula; 'eleitoreira' aparece em resumo da imprensa",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Em dia de votação da 6x1, líder do PL diz que tentará votar PEC por hora trabalhada em 2027 (14/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4352715/em-dia-de-votacao-da-6x1-lider-do-pl-diz-que-tentara-votar-pec-por-hora-trabalhada-em-2027",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador, que já classificou o fim da escala 6x1 de hipocrisia e medida oportunista, afirmou que tomou a decisão para atender \"a maioria da população\".",
+          "prova": "Registro de que Flávio chamou o fim da 6x1 de medida oportunista."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal",
+          "titulo": "Após mudar de ideia, Flávio Bolsonaro vota a favor da PEC do fim da escala 6X1 (14/10/2026)",
+          "url": "https://www.oliberal.com/politica/apos-mudar-de-ideia-flavio-bolsonaro-vota-a-favor-da-pec-do-fim-da-escala-6x1-1.1182711",
+          "consultada_em": "2026-10-17",
+          "trecho": "Antes de recuar, o presidenciável se manifestava contra o texto, chamando-o de oportunista dada a proximidade com o período eleitoral.",
+          "prova": "Mesmo adjetivo, ligado à proximidade da eleição."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Governistas festejam 6 X 1 e chamam proposta de Flávio de escravidão (14/10/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/governistas-festejam-6-x-1-e-chamam-proposta-de-flavio-de-escravidao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio anunciou apoio ao fim da escala 6 x 1 depois de ter criticado a proposta durante a campanha. O senador votou a favor da PEC de forma remota, enquanto estava em Porto Alegre (RS). Antes, havia classificado a discussão da medida como inoportuna e eleitoreira.",
+          "prova": "Registro de que Flávio chamou a discussão da medida de eleitoreira."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio critica fim da escala 6 X 1 e defende jornada flexível (06/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-critica-fim-da-escala-6-x-1-e-defende-jornada-flexivel/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio também criticou o presidente Luiz Inácio Lula da Silva (PT) pela discussão sobre a escala 6 X 1 durante o 2º turno. Segundo ele, a iniciativa seria “oportunista” .",
+          "prova": "A fala literal: 'oportunista' dirigido à iniciativa de Lula de votar a PEC no 2º turno."
+        }
+      ]
+    },
+    {
+      "id": "A033",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio anunciou o voto a favor em 13 de outubro, e o Senado votou a PEC no dia seguinte, 14",
+      "explicacao": "A frase diz que Flávio mudou de posição na véspera da votação. Os dados abertos do Senado registram as duas votações nominais da PEC 221/2019 em 14/10/2026. O Times Brasil (CNBC) e O Liberal registram que Flávio anunciou na terça-feira, 13, que votaria a favor, e o Poder360 confirma o anúncio na 3ª feira (13.out). O anúncio público foi no dia anterior à votação, o que é a véspera. O Poder360 já tinha publicado, antes do anúncio, que a campanha concluíra que ele não votaria contra; isso é relato de bastidor, e a mudança pública é a de 13/out. Por isso VERDADEIRO, sem ressalva de data.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "anúncio em 13/10/2026; votação em 14/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Dados Abertos, votações)",
+          "titulo": "Votações nominais do Plenário em 14/10/2026",
+          "url": "https://legis.senado.leg.br/dadosabertos/votacao?dataInicio=2026-10-14&dataFim=2026-10-14",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"dataApresentacao\":\"2026-05-28\",\"dataSessao\":\"2026-10-14\",\"descricaoVotacao\":\"Votação nominal da Proposta de Emenda à Constituição nº 221, de 2019, em primeiro turno.\"",
+          "prova": "Data da votação da PEC no plenário do Senado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Flávio muda posição e anuncia voto pelo fim da escala 6x1",
+          "url": "https://timesbrasil.com.br/brasil/decisao-2026-flavio-muda-posicao-e-anuncia-voto-pelo-fim-da-escala-6x1-lula-atribui-virada-do-rival-a-pressao-popular-veja-o-dia-dos-candidatos-ao-planalto/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio Bolsonaro (PL) mudou nesta terça-feira (13) sua posição sobre a PEC que acaba com a escala de trabalho 6×1 e anunciou que votará a favor da proposta no Senado.",
+          "prova": "Data do anúncio da mudança de posição."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal",
+          "titulo": "Após mudar de ideia, Flávio Bolsonaro vota a favor da PEC do fim da escala 6X1 (14/10/2026)",
+          "url": "https://www.oliberal.com/politica/apos-mudar-de-ideia-flavio-bolsonaro-vota-a-favor-da-pec-do-fim-da-escala-6x1-1.1182711",
+          "consultada_em": "2026-10-17",
+          "trecho": "A 12 dias do segundo turno e sob o temor de impacto nas urnas, Flávio mudou sua posição e anunciou ontem, 13, que votaria a favor da PEC.",
+          "prova": "Mesma data do anúncio, em outro veículo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio vota pelo fim da 6 X 1 após assinar PEC do Trabalho Flexível (14/10/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/flavio-vota-a-favor-do-fim-da-6-x-1-apos-assinar-pec-do-trabalho-flexivel/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na 3ª feira (13.out), o senador afirmou que votaria a favor da PEC , embora considere o texto mal formulado e prejudicial à economia.",
+          "prova": "Confirma o anúncio em 13/out, dia anterior à votação."
+        }
+      ]
+    },
+    {
+      "id": "A034",
+      "veredito": "VERDADEIRO",
+      "resumo": "O registro do Senado mostra voto Sim de Flávio nos dois turnos da PEC 221/2019, em 14 de outubro",
+      "explicacao": "A frase diz que Flávio votou a favor da emenda. O registro nominal das votações do Senado (dados abertos) mostra, nas votações em primeiro e em segundo turno da PEC 221/2019 em 14/10/2026, o voto 'Sim' do senador Flávio Bolsonaro (PL-RJ). Poder360 e A Crítica registram que ele votou a favor de forma remota, de Porto Alegre. A fonte N1 é direta e inequívoca; por isso VERDADEIRO, com confiança alta.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "14/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Dados Abertos, votações)",
+          "titulo": "Votações nominais do Plenário em 14/10/2026",
+          "url": "https://legis.senado.leg.br/dadosabertos/votacao?dataInicio=2026-10-14&dataFim=2026-10-14",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"descricaoVotacao\":\"Votação nominal da Proposta de Emenda à Constituição nº 221, de 2019, em segundo turno.\" [...] \"nomeParlamentar\":\"Flávio Bolsonaro\",\"sexoParlamentar\":\"M\",\"siglaPartidoParlamentar\":\"PL\",\"siglaUFParlamentar\":\"RJ\",\"siglaVotoParlamentar\":\"Sim\"",
+          "prova": "Voto Sim de Flávio no registro oficial; o mesmo registro aparece na votação do primeiro turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio vota pelo fim da 6 X 1 após assinar PEC do Trabalho Flexível (14/10/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/flavio-vota-a-favor-do-fim-da-6-x-1-apos-assinar-pec-do-trabalho-flexivel/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador Flávio Bolsonaro (PL-RJ), candidato à Presidência, votou a favor da PEC (Proposta de Emenda à Constituição) que acaba com a escala 6 X 1 nesta 4ª feira (14.out.2026). O congressista não estava presente no plenário e registrou o voto remotamente.",
+          "prova": "Confirma o voto favorável, registrado de forma remota."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande",
+          "titulo": "Flávio Bolsonaro vota a favor do fim da escala 6x1, mas PL defende contrato por hora",
+          "url": "https://acritica.net/nacional/flavio-vota-fim-escala-6x1-pl-trabalho-flexivel/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador registrou seu voto remotamente de Porto Alegre, onde cumpria agenda de campanha para a Presidência.",
+          "prova": "Mesmo fato em outro veículo."
+        }
+      ]
+    },
+    {
+      "id": "A035",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Emenda 141 fixa 40 horas semanais e 2 dias de repouso remunerado, sem qualquer redução salarial",
+      "explicacao": "A frase descreve a emenda como redução de jornada com dois dias de descanso sem redução de salário. A Emenda Constitucional nº 141, de 16/10/2026 (texto no Planalto), dá ao art. 7º a jornada de 8 horas diárias e 40 horas semanais e o repouso semanal remunerado de 2 dias, e diz que a mudança será implementada sem qualquer redução salarial nominal, proporcional ou de qualquer outra espécie. A ementa da PEC no registro do Senado diz o mesmo, e o Poder360 resume o texto aprovado da mesma forma. A emenda foi promulgada no dia da entrevista. Por isso VERDADEIRO; a ressalva registra a transição gradual prevista no próprio texto.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Emenda Constitucional nº 141, de 16/10/2026",
+      "ressalva": "A redução é gradual: até 42 horas semanais 2 meses após a publicação e 40 horas 1 ano depois disso",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Emenda Constitucional nº 141, de 16 de outubro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc141.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "EMENDA CONSTITUCIONAL Nº 141, DE 16 DE OUTUBRO [...] XIII - duração do trabalho normal não superior a 8 (oito) horas diárias e 40 (quarenta) horas semanais [...] XV - repouso semanal remunerado de 2 (dois) dias, um dos quais preferencialmente aos domingos; [...] serão implementados sem qualquer redução salarial nominal, proporcional ou de qualquer outra espécie. [...] I - 2 (dois) meses após a publicação desta Emenda Constitucional, a duração do trabalho normal não excederá a 42 (quarenta e duas) horas semanais; [...] II - 1 (um) ano após o decurso do prazo de que trata o inciso I deste artigo, a duração do trabalho normal não excederá a 40 (quarenta) horas semanais.",
+          "prova": "O texto promulgado: jornada, dois dias de repouso, irredutibilidade salarial e transição."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Dados Abertos, votações)",
+          "titulo": "Votações nominais do Plenário em 14/10/2026",
+          "url": "https://legis.senado.leg.br/dadosabertos/votacao?dataInicio=2026-10-14&dataFim=2026-10-14",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"ementa\":\"Altera o art. 7º da Constituição Federal para reduzir a duração máxima semanal do trabalho e prever 2 (dois) dias de repouso semanal remunerado, sem qualquer redução salarial; e dá outras providências.\"",
+          "prova": "Ementa oficial da PEC votada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Senado aprova fim da escala 6 X 1 e fortalece campanha de Lula (14/10/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/senado-aprova-fim-da-escala-6-x-1-e-fortalece-campanha-de-lula/",
+          "consultada_em": "2026-10-17",
+          "trecho": "2 dias de descanso remunerado: estabelece 2 dias de repouso semanal, com 1 dia preferencialmente aos domingos; sem redução salarial: proíbe cortes nos salários e preserva os pisos salariais;",
+          "prova": "Resumo do texto aprovado em apuração de imprensa."
+        }
+      ]
+    },
+    {
+      "id": "A036",
+      "veredito": "IMPRECISO",
+      "resumo": "O decreto de 2019 extinguiu 21 mil cargos, funções e gratificações, não só cargos em comissão",
+      "explicacao": "O mesmo dado foi checado no caso 2026-08-28-sabatina-flavio-globo-economia (A013), com veredito IMPRECISO; aplica-se a mesma régua e as mesmas fontes, recapturadas. O Decreto 9.725, de 12/03/2019, extingue cargos em comissão e funções de confiança e limita gratificações; o art. 1º lista, entre os extintos, Funções Comissionadas Técnicas e Funções Gratificadas. O total divulgado foi de 21 mil cargos, funções de confiança e gratificações (Estadão, pela MEON), com economia estimada de R$ 194,9 milhões por ano. O número da fala está na ordem certa, mas a categoria não: os 21 mil somam cargos em comissão, funções e gratificações. Pela régua do §2.2 (unidade errada), IMPRECISO, e não VERDADEIRO.",
+      "numero_dito": "mais de 20 mil cargos em comissão",
+      "numero_apurado": "21 mil cargos, funções de confiança e gratificações",
+      "data_de_referencia": "Decreto 9.725, de 12/03/2019",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Poder360 de 2019 escreve '21.000 cargos comissionados' no corpo da matéria, mas no mesmo texto diz que entre os extintos estão funções comissionadas técnicas e gratificadas e cargos de direção, e o título fala em 'cargos e gratificações'. O decreto e o Estadão separam cargos, funções e gratificações.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto nº 9.725, de 12 de março de 2019",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D9725.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Extingue cargos em comissão e funções de confiança e limita a ocupação, a concessão ou a utilização de gratificações. [...] Art. 1º Ficam extintos os seguintes cargos em comissão e funções de confiança no âmbito do Poder Executivo federal:",
+          "prova": "O que o decreto extinguiu: cargos, funções e gratificações."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "MEON (Conteúdo Estadão)",
+          "titulo": "Governo extingue 21 mil cargos com economia estimada de R$ 194,9 milhões por ano (13/03/2019)",
+          "url": "https://www.meon.com.br/noticias/brasil/governo-extingue-21-mil-cargos-com-economia-estimada-de-r-194-9-milhoes-por-ano",
+          "consultada_em": "2026-10-17",
+          "trecho": "O presidente da República, Jair Bolsonaro, editou o Decreto 9.725/2019, que extingue 21 mil cargos, funções de confiança e gratificações no Poder Executivo federal, o que deve gerar uma economia anual de R$ 194,9 milhões, segundo cálculos do governo.",
+          "prova": "O total de 21 mil e a composição."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Governo corta 21.000 cargos e gratificações (13/03/2019)",
+          "url": "https://www.poder360.com.br/governo/governo-corta-21-000-cargos-e-gratificacoes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O presidente Jair Bolsonaro decretou nesta 4ª feira (13.mar.2019) a extinção de 21.000 cargos comissionados no serviço público federal. [...] Entre as atribuições dos cargos extintos estão funções comissionadas técnicas e gratificadas e cargos de direção.",
+          "prova": "Confirma o total em apuração independente e a mistura de funções e cargos."
+        }
+      ]
+    },
+    {
+      "id": "A037",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Nenhuma fonte sustenta 22.500; a imprensa, com dados do governo, apurou cerca de 4,4 mil cargos comissionados criados",
+      "explicacao": "O dado foi checado no caso 2026-08-28-sabatina-flavio-globo-economia (A014), então com '22 mil', e o veredito foi INSUSTENTAVEL; aplica-se a mesma régua e as mesmas fontes, recapturadas. Nesta rodada houve busca específica pelo número '22.500' e por '22,5 mil' cargos comissionados criados pelo governo Lula, sem resultado: nenhuma fonte encontrada traz essa cifra. Duas apurações de linhas editoriais diferentes (CNN Brasil e Revista Oeste), ambas com base no Painel Estatístico de Pessoal do Ministério da Gestão, chegam a cerca de 4,4 mil novos cargos comissionados desde janeiro de 2023. O painel oficial é dinâmico e não foi capturado para conferência direta, e as contagens variam conforme incluam funções comissionadas; por isso, pela regra de fontes da metodologia, o veredito é INSUSTENTAVEL, e não FALSO, embora o número apurado seja cerca de cinco vezes menor que o da fala.",
+      "numero_dito": "mais de 22.500 cargos em comissão",
+      "numero_apurado": "cerca de 4,4 mil cargos comissionados criados desde janeiro de 2023",
+      "data_de_referencia": "janeiro de 2023 a dezembro de 2025 (levantamento mais recente encontrado)",
+      "ressalva": "O levantamento mais recente encontrado cobre os três primeiros anos do governo",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "Em 3 anos, Lula criou 3 vezes mais cargos comissionados do que Bolsonaro (15/12/2025)",
+          "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/em-3-anos-lula-criou-3-vezes-mais-cargos-comissionados-do-que-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O governo do presidente Luiz Inácio Lula da Silva (PT) criou 4.417 mil novos cargos comissionados desde janeiro de 2023. O número é cerca de três vezes maior do que o número de ocupações desse tipo criadas nos três primeiros anos",
+          "prova": "O número de cargos comissionados criados, com base no painel oficial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste (com Estadão e MGI)",
+          "titulo": "Governo Lula totaliza mais de 50 mil cargos comissionados em 2025",
+          "url": "https://revistaoeste.com/politica/governo-lula-totaliza-mais-de-50-mil-cargos-comissionados-em-2025/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Desde janeiro de 2023, o governo Lula criou 4,4 mil novos postos desse tipo, destinados a funções de direção, chefia e assessoramento em órgãos públicos.",
+          "prova": "O mesmo número, em veículo de outra linha editorial."
+        }
+      ]
+    },
+    {
+      "id": "A038",
+      "veredito": "VERDADEIRO",
+      "resumo": "Desde maio Flávio defendia publicamente que o trabalhador pudesse escolher a própria carga horária",
+      "explicacao": "A frase diz que Flávio sempre defendeu liberdade para o trabalhador montar a própria jornada. Há registros públicos, antes da votação de 14/out, em veículos diferentes: A Crítica registra que em 19 de maio ele propôs o pagamento por hora como alternativa; o Jornal Opção registra, na Marcha dos Prefeitos, quando ainda era pré-candidato, a frase 'A gente quer dar liberdade para as pessoas escolherem'; a CartaCapital registra entrevista à Record, no domingo 30 (de agosto, pela data da matéria, que cita o relatório na CCJ em 2 de setembro), em que disse que o trabalhador poderia definir quanto quer trabalhar; e o Poder360 registra, em 6/out, a frase 'dar liberdade para o trabalhador escolher sua própria carga horária', que ele chamou de posicionamento 'já público'. O Poder360 também registra que ele assinou, em maio, a PEC do Trabalho Flexível. O conteúdo da frase confere; o 'sempre' só pode ser conferido a partir de maio de 2026, e isso vai na ressalva. Por isso VERDADEIRO com ressalva, e não INSUSTENTAVEL.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "maio a outubro de 2026",
+      "ressalva": "Os registros achados vão de maio até a véspera da votação; não há registro anterior a maio",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Flávio critica fim da escala 6 X 1 e defende jornada flexível (06/10/2026)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-critica-fim-da-escala-6-x-1-e-defende-jornada-flexivel/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Meu posicionamento é o que já é público, é que eu tenho uma proposta infinitamente melhor do que essa proposta que está na mesa, que é dar liberdade para o trabalhador escolher sua própria carga horária”, declarou.",
+          "prova": "Defesa pública da jornada escolhida pelo trabalhador antes da votação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande",
+          "titulo": "Flávio Bolsonaro vota a favor do fim da escala 6x1, mas PL defende contrato por hora",
+          "url": "https://acritica.net/nacional/flavio-vota-fim-escala-6x1-pl-trabalho-flexivel/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A resistência de Flávio ao tema é antiga. Em 19 de maio, ao propor o pagamento por hora como alternativa, ele disse que a proposta do governo federal “vai gerar desemprego em massa” .",
+          "prova": "Registro mais antigo encontrado da proposta alternativa, em maio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Flávio Bolsonaro interrompe campanha presidencial para tentar barrar a PEC da 6x1",
+          "url": "https://www.cartacapital.com.br/?p=636106",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio tenta apresentar a ideia como uma defesa da “liberdade de escolha”. Em entrevista à Record , no domingo 30, afirmou que o trabalhador poderia definir quanto quer trabalhar e receber proporcionalmente às horas trabalhadas.",
+          "prova": "Mesma defesa em entrevista anterior, registrada por veículo de outra linha editorial."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Entre vaias e aplausos, Flávio Bolsonaro defende fim da escala 6×1, redução de impostos e combate ao crime",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/entre-vaias-e-aplausos-flavio-bolsonaro-defende-fim-da-escala-6x1-reducao-de-impostos-e-combate-ao-crime-827589/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Muitas pessoas querem trabalhar mais e a PEC vai engessar isso. A gente quer dar liberdade para as pessoas escolherem”, afirmou.",
+          "prova": "Mesma defesa na pré-campanha, na Marcha dos Prefeitos."
+        }
+      ]
+    },
+    {
+      "id": "A039",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pesquisas Quaest e Datafolha mostram de 68% a 71% dos entrevistados a favor do fim da escala 6x1",
+      "explicacao": "A afirmação extraída é que a grande maioria dos trabalhadores é favorável ao fim da escala 6x1. A pesquisa Genial/Quaest de maio de 2026 (registro BR-03598/2026; o PDF do instituto foi capturado, mas os percentuais estão em gráficos sem texto, e por isso o número vem do Poder360, que reproduz a primária, o que se declara aqui) mostra 68% a favor e 22% contra. A CartaCapital cita Quaest de 15 de julho com 69% a favor. O Datafolha de março de 2025 tinha 71% a favor (Times Brasil, que reproduz o instituto). Dois institutos diferentes, em datas diferentes, dão entre dois terços e sete em cada dez a favor, o que sustenta 'grande maioria'. Por isso VERDADEIRO, e não IMPRECISO; a ressalva registra que as pesquisas medem eleitores ou a população adulta, e não só trabalhadores, e a Quaest mostra que, com corte de salário, 56% ficam contra o fim da escala.",
+      "numero_dito": "grande maioria dos trabalhadores",
+      "numero_apurado": "68% a favor (Quaest, maio de 2026); 69% (Quaest, julho); 71% (Datafolha, março de 2025)",
+      "data_de_referencia": "Quaest de maio e julho de 2026; Datafolha de março de 2025",
+      "ressalva": "As pesquisas medem eleitores, não só trabalhadores; com corte de salário, 56% ficam contra o fim da escala",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Genial/Quaest (PDF publicado pelo Poder360)",
+          "titulo": "Escala 6 por 1, pesquisa nacional, 25ª rodada, maio de 2026",
+          "url": "https://static.poder360.com.br/2026/05/quaest-6-x-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "BRASIL | MAIO DE 2026 ESPECIFICAÇÕES TÉCNICAS PESQUISA REGISTRADA SOB O NÚMERO BR-03598/2026",
+          "prova": "Identifica a pesquisa primária, com registro e mês; os percentuais estão em gráficos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "68% são a favor do fim da escala 6 X 1, diz pesquisa Quaest (18/05/2026)",
+          "url": "https://www.poder360.com.br/poder-pesquisas/68-sao-a-favor-do-fim-da-escala-6-x-1-diz-pesquisa-quaest/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Levantamento da Genial/Quaest divulgado nesta 2ª feira (18.mai.2026) mostra que 68% dos eleitores brasileiros são favoráveis ao fim da escala 6 X 1 . Os que se declaram contra somam 22%, enquanto 7% não souberam responder e 3% não são nem a favor nem contra. [...] Quando questionados sobre o fim da escala com possível corte de salário, o percentual muda: 56% se dizem contra o fim da jornada e 39% a favor.",
+          "prova": "Reproduz os percentuais da Quaest, inclusive o recorte com corte de salário."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Flávio Bolsonaro interrompe campanha presidencial para tentar barrar a PEC da 6x1",
+          "url": "https://www.cartacapital.com.br/?p=636106",
+          "consultada_em": "2026-10-17",
+          "trecho": "Pesquisa Quaest, divulgada em 15 de julho, aponta que 69% dos brasileiros são favoráveis ao fim da escala, enquanto 22% são contrários.",
+          "prova": "Rodada posterior da Quaest, com o mesmo patamar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "Apoio ao fim da escala 6x1 sobe a 71% e pressiona o Congresso, aponta Datafolha",
+          "url": "https://timesbrasil.com.br/brasil/escala-6x1-apoio-sobe-71-por-cento-datafolha-congresso/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Pesquisa Datafolha mostra que o apoio ao fim da escala 6x1 subiu de 64% para 71% entre dezembro de 2024 e março de 2025.",
+          "prova": "Outro instituto, independente da Quaest, com maioria semelhante."
+        }
+      ]
+    },
+    {
+      "id": "A040",
+      "veredito": "VERDADEIRO",
+      "resumo": "O líder do PL na Câmara disse em 14 de outubro que o partido vai defender em 2027 a PEC das horas trabalhadas",
+      "explicacao": "A frase diz que aliados de Flávio no Congresso falam em trabalhar no ano que vem pela proposta original do PL. O Estadão (publicado pelo Diário do Grande ABC) registra que o líder do PL na Câmara, Sóstenes Cavalcante, disse em 14/10 que o partido tentará votar em 2027 a PEC do pagamento por hora trabalhada, protocolada pelo senador Rogério Marinho (PL-RN); o Canal Rural, com entrevista ao UOL, e o Poder360 registram a mesma declaração. O Broadcast (Estadão) acrescenta que parlamentares aliados sinalizavam revisão da medida a partir de 2027. A 'proposta original do PL' é a PEC de Marinho, que o próprio Estadão descreve como a alternativa defendida pela oposição e por Flávio. As fontes, de grupos diferentes, confirmam a atribuição; por isso VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de 14 e 15/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Em dia de votação da 6x1, líder do PL diz que tentará votar PEC por hora trabalhada em 2027 (14/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4352715/em-dia-de-votacao-da-6x1-lider-do-pl-diz-que-tentara-votar-pec-por-hora-trabalhada-em-2027",
+          "consultada_em": "2026-10-17",
+          "trecho": "O líder do PL na Câmara, Sóstenes Cavalcante (RJ), afirmou nesta quarta-feira, 14 - dia em que o Senado deve votar o fim da escala 6x1 - que o partido tentará votar em 2027 a Proposta de Emenda à Constituição (PEC) que estabelece o pagamento por hora trabalhada. Protocolada pelo senador Rogério Marinho (PL-RN), o texto era defendido pela oposição ao governo como uma alternativa à PEC do fim do 6X1.",
+          "prova": "A declaração do líder do PL e a identificação da proposta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Canal Rural (com UOL)",
+          "titulo": "Líder do PL diz que partido defenderá a PEC das Horas Trabalhadas em 2027",
+          "url": "https://www.canalrural.com.br/politica/lider-do-pl-diz-que-partido-defendera-a-pec-das-horas-trabalhadas-em-2027/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O líder do Partido Liberal (PL) na Câmara, deputado federal Sóstenes Cavalcante, afirmou nesta quarta-feira (14) que os senadores da sigla apoiarão a proposta do fim da escala 6×1, mas ressaltou que o partido defenderá, a partir de 2027, a aprovação da PEC das Horas Trabalhadas.",
+          "prova": "Mesma declaração, em apuração de outro grupo (UOL)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "PL confirma apoio a 5 X 2, mas defende pautar PEC alternativa em 2027 (14/10/2026)",
+          "url": "https://www.poder360.com.br/poder-congresso/pl-confirma-apoio-a-5-x-2-mas-defende-pautar-pec-alternativa-em-2027/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O congressista disse, contudo, que a sigla defenderá, em 2027, a aprovação da chamada PEC das Horas Trabalhadas.",
+          "prova": "Terceiro registro da mesma declaração."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo, Broadcast)",
+          "titulo": "A empresários, Flávio Bolsonaro sinaliza revisão da PEC do fim da 6x1 se eleito (15/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4352809/a-empresarios-flavio-bolsonaro-sinaliza-revisao-da-pec-do-fim-da-6x1-se-eleito",
+          "consultada_em": "2026-10-17",
+          "trecho": "Parlamentares aliados ao senador afirmaram que o objetivo foi tirar a pauta da frente e evitar desgaste eleitoral ao candidato, bem como que o seu adversário, o presidente Lula \"capitalizasse\" o tema nas urnas. Mas já sinalizavam revisão da medida a partir de 2027, caso o senador seja eleito.",
+          "prova": "Outros aliados com a mesma sinalização para 2027."
+        }
+      ]
+    }
+  ]
+}

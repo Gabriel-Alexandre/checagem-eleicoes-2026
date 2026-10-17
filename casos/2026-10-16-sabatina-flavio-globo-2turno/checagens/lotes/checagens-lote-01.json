@@ -1,0 +1,508 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A001",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio é senador pelo PL e foi ao 2º turno com 47,03% dos votos válidos no 1º turno, segundo o TSE",
+      "explicacao": "A apresentação afirma três coisas: que Flávio Bolsonaro é senador, que concorre pelo PL e que disputa o 2º turno. O arquivo oficial de resultado do TSE do 1º turno de 2026 lista FLAVIO NANTES BOLSONARO na legenda do PL (número 22) com situação '2º turno' e 47,03% dos votos válidos. A lista de senadores em exercício dos dados abertos do Senado o registra como senador do PL pelo RJ, com mandato até janeiro de 2027. A Reuters (no Diário do Comércio) o descreve, em 10/out, como 'o senador Flávio Bolsonaro, candidato do PL à Presidência'. O mesmo arquivo do TSE foi usado na A002 do caso 2026-10-15-sabatina-lula-globo-2turno (VERDADEIRO). Nada a ajustar, por isso VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "1º turno de 04/10/2026 (totalização de 05/10/2026) e mandato de senador 2019 a 2027",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, cargo de presidente, Brasil (arquivo de divulgação, 05/10/2026)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+          "consultada_em": "2026-10-16",
+          "trecho": "{ \"n\" : \"22\", \"sg\" : \"PL\", \"nm\" : \"PARTIDO LIBERAL\", \"nfed\" : \"\", \"tvtn\" : \"56104503\", \"tvan\" : \"56104503\", \"cand\" : [ { \"n\" : \"22\", \"sqcand\" : \"280002551544\", \"nm\" : \"FLAVIO NANTES BOLSONARO\", \"nmu\" : \"FLAVIO BOLSONARO\", \"dt\" : \"30/04/1981\", \"dvt\" : \"Válido\", \"seq\" : \"1\", \"e\" : \"s\", \"st\" : \"2º turno\", \"vap\" : \"56104503\", \"pvap\" : \"47,03\"",
+          "prova": "Registro oficial: Flávio Bolsonaro concorre pelo PL e a situação dele no 1º turno é '2º turno', com 47,03% dos votos válidos."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Dados Abertos)",
+          "titulo": "Lista de senadores em exercício (dados abertos)",
+          "url": "https://legis.senado.leg.br/dadosabertos/senador/lista/atual.json",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"NomeParlamentar\":\"Flávio Bolsonaro\",\"NomeCompletoParlamentar\":\"Flávio Nantes Bolsonaro\",\"SexoParlamentar\":\"Masculino\",\"FormaTratamento\":\"Senador \" [...] \"SiglaPartidoParlamentar\":\"PL\",\"UfParlamentar\":\"RJ\" [...] \"SegundaLegislaturaDoMandato\":{\"NumeroLegislatura\":\"57\",\"DataInicio\":\"2023-02-01\",\"DataFim\":\"2027-01-31\"}",
+          "prova": "Flávio Bolsonaro é senador em exercício, do PL, com mandato que vai até janeiro de 2027."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (Reuters)",
+          "titulo": "Flávio Bolsonaro descarta privatização da Petrobras como 'boataria' (10/10/2026)",
+          "url": "https://diariodocomercio.com.br/politica/flavio-bolsonaro-descarta-privatizacao-petrobras/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador Flávio Bolsonaro, candidato do PL à Presidência, negou na sexta-feira (9) rumores de que, se for eleito, tentará privatizar a Petrobras e outras empresas estatais.",
+          "prova": "Confirmação independente: senador e candidato do PL à Presidência no 2º turno."
+        }
+      ]
+    },
+    {
+      "id": "A002",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio criticou os juros altos em junho e na sabatina de agosto; o coordenador Marinho fala em Selic de 12% a 13%",
+      "explicacao": "A frase atribui à campanha de Flávio Bolsonaro a ênfase nos juros altos. Os registros confirmam: em 25 de junho, o senador criticou a taxa básica de juros e atribuiu ao governo Lula a Selic elevada (Correio da Manhã); na sabatina da TV Globo de 28 de agosto, responsabilizou o governo Lula pelo patamar dos juros (BNews; o mesmo trecho da sabatina foi checado no caso 2026-08-28-sabatina-flavio-globo-economia, A004 e A005); em 31 de agosto, o coordenador da campanha, Rogério Marinho, disse que uma vitória de Flávio levaria a Selic a 12% ou 13% (EQI); e em outubro, já no 2º turno, a Folha, relatada pelo Correio de Salvador, registrou integrantes da equipe defendendo o ajuste fiscal para reduzir a pressão sobre os juros. São falas de quatro momentos e de duas pessoas da campanha, todas sobre os juros. 'Bastante' não tem medida, mas a recorrência está documentada, por isso VERDADEIRO. As fontes são de imprensa (N4), com apuração própria em cada caso; não há base oficial de falas de campanha, e por isso a confiança é média.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "falas de 25/06, 28/08, 31/08 e relato de 08/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã (coluna Paulo Cappelli)",
+          "titulo": "Flávio Bolsonaro critica taxa de juros elevada do Banco Central (25/06/2026)",
+          "url": "https://www.correiodamanha.com.br/colunistas/paulo-cappelli/2026/06/296846-flavio-bolsonaro-critica-taxa-de-juros-elevada-do-banco-central.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador Flávio Bolsonaro (PL) criticou a atual taxa básica de juros do país e atribuiu ao governo do presidente Lula (PT) a manutenção da Selic em patamar elevado.",
+          "prova": "O próprio candidato critica os juros altos, em entrevista de junho."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BNews",
+          "titulo": "Flávio prevê risco de 'falência' sem ajuste fiscal e culpa 'gastança' do governo Lula (28/08/2026)",
+          "url": "https://www.bnews.com.br/noticias/politica/flavio-preve-risco-de-falencia-sem-ajuste-fiscal-e-culpa-gastanca-do-governo-lula.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O candidato à Presidência Flávio Bolsonaro (PL) defendeu a realização de um forte ajuste fiscal no país e responsabilizou o governo Lula (PT) pelo atual patamar dos juros e pelo aumento da carga tributária.",
+          "prova": "Na sabatina de agosto, como candidato, ele volta aos juros."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "EQI (Eu Quero Investir)",
+          "titulo": "Marinho diz que juros podem cair até 12% com Flávio Bolsonaro (31/08/2026)",
+          "url": "https://euqueroinvestir.com/economia/marinho-diz-que-juros-podem-cair-ate-12-com-flavio-bolsonaro",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador Rogério Marinho (PL-RN), coordenador da campanha presidencial de Flávio Bolsonaro (PL), afirmou nesta segunda-feira que uma eventual vitória do senador poderia levar a taxa básica de juros para a faixa de 12% a 13% ao ano.",
+          "prova": "O coordenador da campanha também faz dos juros um tema, com promessa de queda."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador), relatando a Folha de S.Paulo",
+          "titulo": "Flávio Bolsonaro avalia limitar reajuste de aposentadorias e BPC, diz jornal (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/brasil/flavio-bolsonaro-avalia-limitar-reajuste-de-aposentadorias-e-bpc-diz-jornal-1026",
+          "consultada_em": "2026-10-16",
+          "trecho": "Integrantes da equipe de Flávio avaliam que o ajuste ajudaria a frear o avanço da dívida pública, diminuir a percepção de risco entre investidores e reduzir a pressão sobre os juros.",
+          "prova": "No 2º turno, a equipe da campanha justifica o ajuste com a pressão sobre os juros."
+        }
+      ]
+    },
+    {
+      "id": "A003",
+      "veredito": "IMPRECISO",
+      "resumo": "Juros de R$ 1,18 trilhão em 12 meses são 2,3 vezes os R$ 505 bi de saúde e educação: mais que o dobro",
+      "explicacao": "A nota do Banco Central de 30/09/2026, a última antes da fala, dá juros nominais do setor público consolidado de R$ 1.182,2 bilhões em 12 meses até agosto. A Lei Orçamentária de 2026, segundo nota do Planalto reproduzida pela Gazeta do Povo e pelo Diário do Comércio (regra 2 da §3.1: imprensa que reproduz a primária, declarada aqui como apoio), reserva R$ 271,3 bilhões à saúde e R$ 233,7 bilhões à educação: R$ 505 bilhões somados. Os juros equivalem a cerca de 2,3 vezes essa soma. 'Quase o dobro' lido com rigor é um pouco menos de 2 vezes; o apurado é mais que o dobro, e 2 fica cerca de 15% abaixo de 2,34. Pela régua do §2.2, desvio de 10% ou mais é IMPRECISO, mesmo quando o erro é para menos, contra o próprio argumento: é a mesma régua da A007 do caso 2026-08-28-sabatina-flavio-globo-economia, em que 'um trilhão' para R$ 1,16 trilhão de juros ficou IMPRECISO. A essência (juros muito acima de saúde e educação somadas) está certa; o número não. Ressalvas de recorte: os juros são do setor público consolidado (União, estados, municípios e estatais), apropriados por competência, e saúde e educação são as dotações federais do Orçamento, não o executado; a nota capturada não separa os juros só do governo central, que dariam uma razão menor e não foram conferidos. Por isso a confiança é média. Uma análise do BPMoney de janeiro de 2026 também diz que os juros superavam o dobro de saúde e educação somadas.",
+      "numero_dito": "quase o dobro do que gasta em educação e saúde somadas",
+      "numero_apurado": "cerca de 2,3 vezes: R$ 1.182,2 bilhões de juros contra R$ 505 bilhões de saúde e educação",
+      "data_de_referencia": "juros em 12 meses até agosto de 2026; dotações da Lei Orçamentária de 2026",
+      "ressalva": "Os juros são do setor público consolidado; saúde e educação, a verba federal prevista no Orçamento de 2026",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "R$ 505 bi",
+          "de": "271,3 233,7",
+          "como": "soma das dotações de saúde e de educação da Lei Orçamentária de 2026, em R$ bilhões"
+        },
+        {
+          "valor": "R$ 505 bilhões",
+          "de": "271,3 233,7",
+          "como": "soma das dotações de saúde e de educação da Lei Orçamentária de 2026, em R$ bilhões"
+        },
+        {
+          "valor": "R$ 1,18 trilhão",
+          "de": "1.182,2",
+          "como": "R$ bilhões para R$ trilhões, com arredondamento de duas casas"
+        },
+        {
+          "valor": "2,3 vezes",
+          "de": "1.182,2 271,3 233,7",
+          "como": "1.182,2 dividido pela soma de 271,3 e 233,7 (505,0), igual a 2,34"
+        },
+        {
+          "valor": "15%",
+          "de": "1.182,2 271,3 233,7",
+          "como": "1 menos 2 dividido por 2,34 (a razão apurada): quanto 'o dobro' fica abaixo do apurado"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil",
+          "titulo": "Nota para a imprensa de estatísticas fiscais, 30/09/2026",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+          "consultada_em": "2026-10-16",
+          "trecho": "No acumulado em doze meses até agosto, os juros nominais alcançaram R$1.182,2 bilhões (8,86% do PIB), comparativamente a R$946,5 bilhões (7,61% do PIB) nos doze meses até agosto de 2025.",
+          "prova": "O gasto com juros em 12 meses disponível na data da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo (nota do Palácio do Planalto)",
+          "titulo": "Lula sanciona Orçamento 2026 com vetos a cerca de R$ 400 milhões em emendas",
+          "url": "https://www.gazetadopovo.com.br/economia/lula-sanciona-orcamento-2026-com-vetos-a-cerca-de-r-400-milhoes-em-emendas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em nota, o Palácio do Planalto informou que, apesar dos vetos, “as áreas sociais receberão investimentos robustos em 2026”, com aumento no orçamento da educação de R$ 206,1 bilhões (em 2025) para R$ 233,7 bilhões. “Já a Saúde contará com R$ 271,3 bilhões para custear exames, cirurgias, medicamentos e o funcionamento do SUS",
+          "prova": "As verbas federais de saúde e educação de 2026, na nota oficial do Planalto reproduzida pelo jornal."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio",
+          "titulo": "Lula sanciona Orçamento 2026 e veta R$ 400 milhões em emendas",
+          "url": "https://diariodocomercio.com.br/economia/lula-sanciona-orcamento-2026-veta-400-milhoes-emendas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "As áreas de Saúde e Educação contarão com recursos totais de R$ 271,3 bilhões e R$ 233,7 bilhões, respectivamente.",
+          "prova": "Os mesmos valores do Orçamento de 2026, em outro veículo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BPMoney",
+          "titulo": "Juros da dívida superam R$ 1 trilhão no Brasil (30/01/2026)",
+          "url": "https://bpmoney.com.br/?p=391747",
+          "consultada_em": "2026-10-17",
+          "trecho": "Pela primeira vez, os juros da dívida pública chegaram a R$ 1 trilhão em 12 meses. Os dados foram divulgados hoje pelo Banco Central . Eles mostram uma tendência alarmante para a economia nacional. Dimensão do problema Para entender a gravidade, vamos comparar. Esse valor supera o dobro de todo o orçamento anual de Saúde e Educação somados .",
+          "prova": "Leitura independente, de janeiro, que já punha os juros acima do dobro de saúde e educação."
+        }
+      ]
+    },
+    {
+      "id": "A004",
+      "veredito": "VERDADEIRO",
+      "resumo": "Jornais relataram em abril e outubro o ajuste estudado pela equipe; a campanha diz que não é proposta oficial",
+      "explicacao": "A frase diz que propostas de ajuste fiscal 'ventiladas' pela equipe econômica vieram a público. Vieram: em 22 de abril, o Correio Braziliense relatou, com aliados e integrantes da pré-campanha, que a equipe estudava corrigir aposentadorias e as despesas de saúde e educação só pela inflação, num plano 'ainda não oficialmente apresentado'; em outubro, a Folha de S.Paulo, relatada pelo Correio (Salvador) e pela BBC News Brasil (em A Gazeta), informou que o assessor econômico Luiz Felipe Trevisan apresentou o plano à consultoria Eurasia Group em setembro. O relato de abril usa fontes sem nome; o de outubro nomeia o assessor. A campanha afirma que essas propostas não estão no plano de governo e não representam a posição oficial, o que é coerente com a frase ('ventiladas', não 'anunciadas'). É o mesmo estudo descrito na A161 do caso 2026-10-15-sabatina-lula-globo-2turno, onde serviu de base parcial a uma fala de Lula. Por isso VERDADEIRO, com a negativa da campanha na ressalva.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "reportagens de 22/04/2026 e de outubro de 2026",
+      "ressalva": "A campanha nega que as medidas estejam no plano de governo ou sejam posição oficial do candidato",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (22/04/2026)",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A equipe econômica do pré-candidato à Presidência Flávio Bolsonaro (PL) estuda um pacote de ajuste fiscal que prevê a correção de aposentadorias, além de despesas com saúde e educação, apenas pela inflação. [...] O plano ainda não foi oficialmente apresentado. Integrantes da pré-campanha afirmam que a divulgação foi adiada por estratégia política",
+          "prova": "Primeiro relato público do pacote, atribuído à equipe econômica por integrantes da pré-campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador), relatando a Folha de S.Paulo",
+          "titulo": "Flávio Bolsonaro avalia limitar reajuste de aposentadorias e BPC, diz jornal (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/brasil/flavio-bolsonaro-avalia-limitar-reajuste-de-aposentadorias-e-bpc-diz-jornal-1026",
+          "consultada_em": "2026-10-16",
+          "trecho": "Segundo a Folha de S.Paulo, a equipe econômica do candidato à Presidência estuda corrigir esses pagamentos apenas pela inflação, como parte de um pacote para conter despesas obrigatórias da União. [...] A campanha nega que as propostas representem compromissos oficiais da candidatura e afirma que elas não estão no plano de governo. [...] De acordo com a reportagem, o assessor econômico Luiz Felipe Trevisan apresentou o plano a integrantes do Eurasia Group no início de setembro.",
+          "prova": "O relato de outubro, com o assessor nomeado, e a negativa da campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (BBC News Brasil)",
+          "titulo": "O que Flávio Bolsonaro e Lula propõem sobre o funcionalismo público (12/10/2026)",
+          "url": "https://www.agazeta.com.br/mundo/o-que-flavio-bolsonaro-e-lula-propoem-sobre-o-funcionalismo-publico--1026",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a reportagem, a proposta foi apresentada pelo economista Luiz Felipe Trevisan, integrante da equipe econômica, à consultoria Eurasia Group em setembro. A campanha, no entanto, afirmou que essas propostas discutidas em conversas informais não representam a posição oficial de Flávio.",
+          "prova": "Outra leitura do mesmo relato, com a posição da campanha."
+        }
+      ]
+    },
+    {
+      "id": "A005",
+      "veredito": "VERDADEIRO",
+      "resumo": "A lei soma ao INPC o crescimento do PIB de dois anos antes; desde 2025, o ganho real vai de 0,6% a 2,5%",
+      "explicacao": "A pergunta pressupõe que os reajustes atuais do salário mínimo ficam acima da inflação. A Lei 14.663/2023 manda somar a inflação do INPC ao crescimento real do PIB de dois anos antes, 'para fins de aumento real'. A Lei 15.077/2024 limitou esse aumento real, de 2025 a 2030, aos índices do arcabouço fiscal (LC 200/2023), e a IstoÉ descreve a faixa resultante: ganho real de 0,6% a 2,5%. O decreto de 2026 fixou o mínimo em R$ 1.621, reajuste de 6,79% sobre os R$ 1.518 de 2025 (IstoÉ); o caso 2026-08-28-sabatina-flavio-globo-economia (A010) mediu ganho de cerca de 2,6% acima do INPC em 12 meses até julho. A mesma regra foi checada na A162 do caso 2026-10-15-sabatina-lula-globo-2turno (VERDADEIRO). A regra concede ganho real, com teto, por isso VERDADEIRO. A exceção do PIB negativo vai na ressalva. Os reajustes de 2023 a 2025 não foram conferidos um a um nesta rodada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Lei 14.663/2023 e Lei 15.077/2024, vigentes em outubro de 2026",
+      "ressalva": "Se o PIB de dois anos antes cair, a lei manda reajustar o mínimo só pela inflação",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.663, de 28 de agosto de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14663.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Ficam estabelecidas as diretrizes para a política de valorização do salário mínimo a vigorar a partir de 2024, inclusive, a serem aplicadas em 1º de janeiro do respectivo ano, considerado que o valor decorrerá da soma do índice de medida da inflação do ano anterior, para a preservação do poder aquisitivo, com o índice correspondente ao crescimento real do Produto Interno Bruto (PIB) de 2 (dois) anos anteriores, para fins de aumento real [...] Em caso de taxa de crescimento real negativa do PIB, o salário mínimo será reajustado apenas pelo índice previsto no § 1º deste artigo vigente à época.",
+          "prova": "A regra vigente soma inflação e crescimento do PIB para dar aumento real; exceção do PIB negativo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 15.077, de 27 de dezembro de 2024",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15077.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 4º Entre 2025 e 2030, o aumento real de que trata o § 4º do art. 3º da Lei nº 14.663, de 28 de agosto de 2023 , não será inferior ao índice mínimo nem superior ao índice efetivamente apurado nos termos do art. 5º da Lei Complementar nº 200, de 30 de agosto de 2023 (Novo Arcabouço Fiscal).",
+          "prova": "O aumento real continua, mas limitado aos índices do arcabouço de 2025 a 2030."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IstoÉ",
+          "titulo": "INSS: entenda como Flávio Bolsonaro pode mudar reajuste das aposentadorias (08/10/2026)",
+          "url": "https://istoe.com.br/flavio-bolsonaro-reajuste-aposentadorias-inss",
+          "consultada_em": "2026-10-16",
+          "trecho": "Pelas regras atuais, o ganho real, ou seja, o aumento acima da inflação, está limitado a uma faixa de 0,6% a 2,5%. [...] O valor representa um reajuste de 6,79% em relação a 2025, quando o piso era de R$ 1.518.",
+          "prova": "A faixa de ganho real em vigor e o reajuste de 2026."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto nº 12.797, de 23 de dezembro de 2025",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12797.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 1º A partir de 1º de janeiro de 2026, o valor do salário mínimo será de R$ 1.621,00 (mil seiscentos e vinte e um reais).",
+          "prova": "O valor do mínimo vigente na data da fala, fixado com base nas duas leis."
+        }
+      ]
+    },
+    {
+      "id": "A006",
+      "veredito": "VERDADEIRO",
+      "resumo": "O piso dos benefícios é o salário mínimo, e os de um mínimo sobem com ele; os demais são corrigidos pelo INPC",
+      "explicacao": "A pergunta pressupõe que o reajuste do mínimo e o das aposentadorias estão hoje vinculados. A Constituição (art. 201, § 2º) proíbe benefício que substitua o salário com valor abaixo do salário mínimo, e por isso quem recebe o piso tem o mesmo reajuste do mínimo, com o ganho real. A Lei 8.213 (art. 41-A) manda reajustar os demais benefícios na mesma data, mas pelo INPC, sem ganho real. Segundo o Correio (Salvador), cerca de 70% dos mais de 41 milhões de benefícios do INSS correspondem ao piso. A vinculação existe, e é ela que a proposta relatada pretendia separar; vale para os benefícios de um salário mínimo, precisão que vai na ressalva. É a mesma régua da A015 do caso 2026-08-28-sabatina-flavio-globo-economia (VERDADEIRO, com a mesma ressalva).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Constituição e Lei 8.213 vigentes em outubro de 2026",
+      "ressalva": "Vale para cerca de 70% dos benefícios do INSS, os de um salário mínimo; os acima do piso seguem o INPC",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Constituição Federal)",
+          "titulo": "Constituição, art. 201, § 2º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "§ 2º Nenhum benefício que substitua o salário de contribuição ou o rendimento do trabalho do segurado terá valor mensal inferior ao salário mínimo.",
+          "prova": "O piso dos benefícios é o salário mínimo: quem recebe o piso sobe junto com ele."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Lei 8.213)",
+          "titulo": "Lei 8.213/1991, art. 41-A",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "O valor dos benefícios em manutenção será reajustado, anualmente, na mesma data do reajuste do salário mínimo, pro rata , de acordo com suas respectivas datas de início ou do último reajustamento, com base no Índice Nacional de Preços ao Consumidor - INPC, apurado pela Fundação Instituto Brasileiro de Geografia e Estatística - IBGE.",
+          "prova": "Os benefícios acima do piso são corrigidos pelo INPC, não pelo percentual do mínimo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador), relatando a Folha de S.Paulo",
+          "titulo": "Flávio Bolsonaro avalia limitar reajuste de aposentadorias e BPC, diz jornal (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/brasil/flavio-bolsonaro-avalia-limitar-reajuste-de-aposentadorias-e-bpc-diz-jornal-1026",
+          "consultada_em": "2026-10-16",
+          "trecho": "Hoje, aproximadamente 70% dos mais de 41 milhões de benefícios pagos pelo Instituto Nacional do Seguro Social (INSS) correspondem ao piso nacional.",
+          "prova": "A parcela dos benefícios em que a vinculação vale."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IstoÉ",
+          "titulo": "INSS: entenda como Flávio Bolsonaro pode mudar reajuste das aposentadorias (08/10/2026)",
+          "url": "https://istoe.com.br/flavio-bolsonaro-reajuste-aposentadorias-inss",
+          "consultada_em": "2026-10-16",
+          "trecho": "Quem ganha o equivalente a um salário mínimo acompanha a política nacional de valorização do piso salarial, que atualmente prevê correção pela inflação e um percentual adicional relacionado ao crescimento da economia. Já os aposentados e pensionistas que recebem acima do salário mínimo têm seus benefícios corrigidos pelo Índice Nacional de Preços ao Consumidor (INPC)",
+          "prova": "Leitura independente das duas regras: vínculo no piso, INPC acima dele."
+        }
+      ]
+    },
+    {
+      "id": "A007",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Constituição manda a União aplicar ao menos 15% da receita corrente líquida em saúde e 18% dos impostos em educação",
+      "explicacao": "A pergunta pressupõe que os pisos de gasto com saúde e educação estão na Constituição. Estão: o art. 198, § 2º, inciso I, fixa para a União ao menos 15% da receita corrente líquida em ações e serviços públicos de saúde, e o art. 212 manda a União aplicar nunca menos de dezoito por cento da receita de impostos no ensino. O Correio (Salvador), em outubro de 2026, descreve os mesmos pisos (15% da receita corrente líquida e 18% da receita líquida de impostos), e o Correio Braziliense informa que o estudo da equipe previa a desvinculação desses 'pisos constitucionais', o que exigiria emenda. Por isso VERDADEIRO. A interação dos pisos com o arcabouço fiscal (LC 200/2023) não foi conferida nesta rodada e não muda o fato de que os pisos estão na Constituição.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "Constituição vigente em outubro de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Constituição Federal)",
+          "titulo": "Constituição, art. 198, § 2º, e art. 212",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "§ 2º A União, os Estados, o Distrito Federal e os Municípios aplicarão, anualmente, em ações e serviços públicos de saúde recursos mínimos derivados da aplicação de percentuais calculados sobre: [...] I - no caso da União, a receita corrente líquida do respectivo exercício financeiro, não podendo ser inferior a 15% (quinze por cento); [...] Art. 212. A União aplicará, anualmente, nunca menos de dezoito, e os Estados, o Distrito Federal e os Municípios vinte e cinco por cento, no mínimo, da receita resultante de impostos, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino.",
+          "prova": "O texto constitucional dos dois pisos da União."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador), relatando a Folha de S.Paulo",
+          "titulo": "Flávio Bolsonaro avalia limitar reajuste de aposentadorias e BPC, diz jornal (08/10/2026)",
+          "url": "https://www.correio24horas.com.br/brasil/flavio-bolsonaro-avalia-limitar-reajuste-de-aposentadorias-e-bpc-diz-jornal-1026",
+          "consultada_em": "2026-10-16",
+          "trecho": "Outra frente do pacote envolve as regras que estabelecem valores mínimos para os investimentos federais em saúde e educação. Atualmente, a União deve aplicar pelo menos 15% da Receita Corrente Líquida em saúde e 18% da Receita Líquida de Impostos em educação.",
+          "prova": "Os mesmos pisos descritos em reportagem de outubro de 2026, na data da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (22/04/2026)",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Entre as principais medidas em estudo está a desvinculação dos pisos constitucionais de saúde e educação. Atualmente, a Constituição determina percentuais mínimos de aplicação nessas áreas",
+          "prova": "Confirma que os pisos são constitucionais e que mudá-los exigiria emenda."
+        }
+      ]
+    },
+    {
+      "id": "A008",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi achado registro de Lula dizendo que Flávio acabaria com aposentadorias; a propaganda fala em corte de benefícios",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas quatro buscas sobre falas de Lula e da campanha petista no 2º turno (aposentadorias, servidores, privatizações), e capturadas as reportagens achadas. O que está documentado: no primeiro programa do 2º turno (9/out), Lula disse que Flávio, eleito, poderá fazer cortes em programas sociais como o Farmácia Popular e no orçamento da educação, e que 'é um erro' eleger quem vai cortar benefícios (O Liberal, com Estadão Conteúdo); nas redes, chamou o 'tesouraço' de 'aberração' e disse que comprometeria Farmácia Popular e Pé-de-Meia (BBC News Brasil, em A Gazeta). Em 8/out, o próprio Flávio falou em 'fake news do PT dizendo que eu vou acabar com o reajuste da aposentadoria' (Agora RN), resposta à reportagem da Folha sobre o estudo da equipe para corrigir aposentadorias só pela inflação (BPMoney). Não foi achada peça ou fala de Lula ou da campanha dizendo que Flávio 'acabaria com as aposentadorias': o que aparece é corte de benefícios e, na versão do próprio Flávio, do reajuste. Não é FALSO porque não há prova de que a campanha não disse isso; é INSUSTENTAVEL porque as fontes não sustentam a atribuição. Falta: conferir as peças de rádio e TV de Lula de 9 a 16 de outubro e as falas em comícios.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "propaganda de 9/out e declarações de 8 a 12/out/2026",
+      "ressalva": "Flávio disse em 8 de outubro que o PT o acusava de acabar com o reajuste da aposentadoria",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Na volta da propaganda eleitoral, Flávio exalta apoios; Lula cita riscos do adversário (09/10/2026)",
+          "url": "https://www.oliberal.com/politica/na-volta-da-propaganda-eleitoral-flavio-exalta-apoios-lula-cita-riscos-do-adversario-1.1179350",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao dizer que é hora de \"virar voto\" neste segundo turno, Lula falou na propaganda que o senador do PL, caso eleito, poderá fazer em cortes em programas sociais, como o Farmácia Popular e no orçamento da educação, por exemplo. [...] No início do programa, o petista trouxe notícias de cortes de programas sociais na gestão Bolsonaro e disse que \"é um erro\" eleger quem vai cortar benefícios da população.",
+          "prova": "O que a propaganda de Lula disse no 2º turno: cortes em programas e benefícios, sem falar em fim das aposentadorias."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agora RN",
+          "titulo": "Flávio Bolsonaro nega corte em aposentadorias e promete reajuste acima da inflação (08/10/2026)",
+          "url": "https://agorarn.com.br/politica/flavio-nega-corte-em-aposentadorias/",
+          "consultada_em": "2026-10-16",
+          "trecho": "“Não caia nessa fake news do PT dizendo que eu vou acabar com o reajuste da aposentadoria. Pelo contrário”, afirmou Flávio ao ser questionado por jornalistas em Brasília.",
+          "prova": "A versão do próprio Flávio em 8/out fala em reajuste, não em fim das aposentadorias."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BPMoney",
+          "titulo": "Flávio Bolsonaro promete reajuste da aposentadoria acima da inflação no 2º turno (08/10/2026)",
+          "url": "https://bpmoney.com.br/?p=425693",
+          "consultada_em": "2026-10-17",
+          "trecho": "Senador respondeu após reportagem apontar que equipe econômica estudaria alterar a correção de aposentadorias, BPC, saúde e educação",
+          "prova": "A origem da discussão foi a reportagem sobre o estudo da equipe, não uma peça de Lula."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (BBC News Brasil)",
+          "titulo": "O que Flávio Bolsonaro e Lula propõem sobre o funcionalismo público (12/10/2026)",
+          "url": "https://www.agazeta.com.br/mundo/o-que-flavio-bolsonaro-e-lula-propoem-sobre-o-funcionalismo-publico--1026",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na quinta-feira da semana passada, o presidente Lula chamou o \"tesouraço\" defendido pelo senador Flávio Bolsonaro de \"aberração\". Em uma manifestação nas redes sociais, o petista disse que a proposta de Flávio comprometeria programas como o Farmácia Popular e Pé-de-Meia",
+          "prova": "A crítica de Lula registrada fala de programas sociais, não de aposentadorias."
+        }
+      ]
+    },
+    {
+      "id": "A009",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi achado registro de Lula dizendo que Flávio acabaria com servidores; ele chamou o tesouraço de aberração",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas quatro buscas sobre falas de Lula e da campanha petista no 2º turno, uma delas sobre servidores públicos, e capturadas as reportagens achadas. A BBC News Brasil (em A Gazeta, 12/out) fez um levantamento do que os dois candidatos disseram sobre o funcionalismo: registra que as propostas de ajuste de Flávio geraram 'especulações, principalmente nas redes sociais', sobre servidores e concursos, que Flávio negou acabar com concursos e falou em 'fake news', e que Lula chamou o 'tesouraço' de 'aberração' e disse que ele comprometeria Farmácia Popular e Pé-de-Meia. A mesma reportagem relata o estudo de 'Super PEC' com corte de cargos e revisão das curvas salariais do funcionalismo. Não aparece fala de Lula ou da campanha dizendo que Flávio 'acabaria com servidores públicos'; a propaganda de 9/out falou em cortes de programas sociais (O Liberal). Não é FALSO porque a ausência de registro não prova que a frase não foi dita; é INSUSTENTAVEL porque as fontes não sustentam a atribuição. Falta: conferir as peças de rádio e TV de Lula de 9 a 16 de outubro e falas em atos com servidores.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações e propaganda de 7 a 12/out/2026",
+      "ressalva": "A BBC relata especulação sobre servidores nas redes e um estudo da equipe com corte de cargos",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "A Gazeta (BBC News Brasil)",
+          "titulo": "O que Flávio Bolsonaro e Lula propõem sobre o funcionalismo público (12/10/2026)",
+          "url": "https://www.agazeta.com.br/mundo/o-que-flavio-bolsonaro-e-lula-propoem-sobre-o-funcionalismo-publico--1026",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nos últimos dias, suas propostas de ajuste fiscal geraram especulações, principalmente nas redes sociais , sobre o futuro dos servidores e dos concursos públicos caso ele seja eleito presidente. [...] Do outro lado, Lula tem chamado de \"aberração\" o tesouraço proposto pelo adversário. [...] Em uma publicação no Instagram na última quarta-feira (7/10), Flávio Bolsonaro negou que pretenda acabar com os concursos públicos e disse estar sendo alvo de \"fake news\". [...] A proposta teria como objetivo reduzir despesas obrigatórias e incluiria medidas como corte de cargos e revisão das curvas salariais do funcionalismo.",
+          "prova": "O levantamento sobre funcionalismo atribui a Lula a crítica ao tesouraço, não a frase de que Flávio acabaria com servidores."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Na volta da propaganda eleitoral, Flávio exalta apoios; Lula cita riscos do adversário (09/10/2026)",
+          "url": "https://www.oliberal.com/politica/na-volta-da-propaganda-eleitoral-flavio-exalta-apoios-lula-cita-riscos-do-adversario-1.1179350",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao dizer que é hora de \"virar voto\" neste segundo turno, Lula falou na propaganda que o senador do PL, caso eleito, poderá fazer em cortes em programas sociais, como o Farmácia Popular e no orçamento da educação, por exemplo.",
+          "prova": "O primeiro programa de Lula no 2º turno não fala de servidores."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BPMoney",
+          "titulo": "Campanha de Flávio Bolsonaro descarta privatizar BB, Caixa e Petrobras e promete reforçar programas sociais (08/10/2026)",
+          "url": "https://bpmoney.com.br/?p=425564",
+          "consultada_em": "2026-10-17",
+          "trecho": "Adolfo Sachsida diz que ajuste fiscal mira 'excessos' do governo, como salários de R$ 200 mil e número de ministérios",
+          "prova": "A campanha respondeu a dúvidas sobre o funcionalismo falando de supersalários, sem citar acusação de Lula."
+        }
+      ]
+    },
+    {
+      "id": "A010",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi achado registro de Lula dizendo que Flávio privatizaria BB, Caixa e Petrobras; Flávio fala em boataria",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas duas buscas específicas sobre falas de Lula a respeito de privatização de Banco do Brasil, Caixa e Petrobras no 2º turno, e capturadas as reportagens achadas. O que está documentado: em 8/out, o economista Adolfo Sachsida, da campanha, gravou vídeo para 'esclarecer alguns rumores' e disse que as três empresas não serão privatizadas (Investidor10); em 9/out, Flávio chamou de 'boataria' os rumores de que privatizaria a Petrobras e outras estatais, sem atribuí-los nominalmente a Lula (Reuters, no Diário do Comércio); em setembro, a coordenadora Daniella Marques disse que servidores da Caixa relatavam que 'eles' diziam que a campanha ia privatizar o banco, sem dizer quem. Há também base para a dúvida: o Correio Braziliense registrou em abril que Flávio declarou a intenção de um amplo programa de privatizações, e a mesma Daniella levantou a possibilidade de privatizar o Banco do Brasil (Investidor10). Não foi achada fala ou peça de Lula ou da campanha dizendo que Flávio privatizaria as três empresas. Não é FALSO porque a ausência de registro não prova que não foi dito; é INSUSTENTAVEL porque as fontes não sustentam a atribuição. Falta: conferir as peças de rádio e TV de Lula de 9 a 16 de outubro e falas em comícios.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações de 21/09 a 10/10/2026",
+      "ressalva": "A própria coordenadora econômica da campanha levantou a hipótese de privatizar o Banco do Brasil",
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (Reuters)",
+          "titulo": "Flávio Bolsonaro descarta privatização da Petrobras como 'boataria' (10/10/2026)",
+          "url": "https://diariodocomercio.com.br/politica/flavio-bolsonaro-descarta-privatizacao-petrobras/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O senador Flávio Bolsonaro, candidato do PL à Presidência, negou na sexta-feira (9) rumores de que, se for eleito, tentará privatizar a Petrobras e outras empresas estatais. Segundo ele, existe uma onda de boatos contra a sua candidatura para tentar reverter a liderança que teve no primeiro turno da eleição presidencial. “Isso é uma boataria, é uma boataria atrás da outra”, disse Flávio",
+          "prova": "Flávio fala em rumores e boatos, sem que a reportagem registre fala de Lula sobre o tema."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Investidor10",
+          "titulo": "Banco do Brasil e Petrobras não serão privatizados, diz campanha de Flávio (09/10/2026)",
+          "url": "https://investidor10.com.br/noticias/banco-do-brasil-e-petrobras-nao-serao-privatizados-diz-campanha-de-flavio-123157/",
+          "consultada_em": "2026-10-17",
+          "trecho": "o economista Adolfo Sachsida publicou um vídeo nas redes sociais nesta quinta-feira (8) com o objetivo de esclarecer alguns rumores sobre o plano do candidato do PL para a economia. [...] Na ocasião, Daniella ainda levantou a possibilidade de privatização do Banco do Brasil, dizendo que o banco negocia menos de uma vez seu patrimônio, o que foi descartado por Sachsida agora.",
+          "prova": "A campanha respondeu a 'rumores', sem autor identificado; e a hipótese sobre o BB partiu da própria coordenadora."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Viva (Broadcast)",
+          "titulo": "Coordenadora econômica nega que Flávio Bolsonaro queira privatizar Caixa (21/09/2026)",
+          "url": "https://viva.com.br/politica/coordenadora-economica-nega-que-flavio-bolsonaro-queira-privatizar-caixa.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nessa confusão da greve, tenho recebido várias mensagens, e como fui presidente do banco, muita gente me segue nas redes sociais, dizendo que eles estão aterrorizando, dizendo que vamos mandar todo mundo embora e privatizar a Caixa.",
+          "prova": "A versão de que a campanha privatizaria a Caixa circulava, mas sem autor identificado como Lula ou sua campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense",
+          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (22/04/2026)",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "Além do ajuste fiscal, o pré-candidato já declarou publicamente a intenção de promover um amplo programa de privatizações, com a possibilidade de venda de até 95% das estatais.",
+          "prova": "Contexto: a hipótese de privatizações partiu de declaração do próprio candidato em abril."
+        }
+      ]
+    }
+  ]
+}
