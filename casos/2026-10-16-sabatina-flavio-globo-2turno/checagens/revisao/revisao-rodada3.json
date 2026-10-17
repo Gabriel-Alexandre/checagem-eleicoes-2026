@@ -1,0 +1,13 @@
+{
+  "revisor": "Claude (revisão adversarial por IA da rodada 3, passada separada)",
+  "A161": {
+    "decisao": "mantido",
+    "nota": "Mantido VERDADEIRO. Ataque: o pico de 2018 é rótulo de gráfico. O rótulo 2,43Mi está no texto capturado (regra 5), e a ligação com 2018 foi conferida renderizando as páginas: 2,43 em 2018 e 2,44 em 2024 no boletim de 2024; 2,42 em 2018 no de 2020. Faltava provar que o gráfico arredonda: com truncamento, 2018 poderia passar 2.436.190. O rótulo do próprio 2024 (2,44) prova o arredondamento, e a frase entrou na explicação. O Sebrae cobre só 2019 a 2024; para 2018 a fonte é uma (Mapa de Empresas, N1, duas edições), mas a regra 1 vale para a alegação: N1 mais N2 independentes, ambas com 2024 no topo. O resumo mostra os dois números, então o quase empate não fica escondido; a ressalva cobre número absoluto, MEI, baixas de ofício e saldo. Divergência acrescentada: os percentuais do boletim de 2025 mostram revisão da série, sem mudar a conclusão. Oito trechos achados.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A113": {
+    "decisao": "alterado",
+    "nota": "VERDADEIRO passou a IMPRECISO. O Diário Oficial (N1) documenta 22 trocas: 18 em 18/01/2023, mais DF, BA e RR até 07/03/2023, mais RS em 12/11/2025. Conferido estado por estado nas capturas r6 e r8. As outras cinco (AC, AP, CE, ES, PI) só têm o Portal Tela, fonte única de imprensa, com o texto marcado como 'Gerado por Telinha'. A matéria não cita ato e erra a exceção do RS. Pelas regras 1 a 3 da §3.1, não fecha o 27. Recorte: a frase segue 'a primeira coisa que [...] fez quando sentou na cadeira', e a extração leu 'no início do governo Lula'. Nessa leitura são 21 contra 27 (22%). A leitura da gestão inteira foi escolhida depois do resultado (§5) e mesmo assim dá 22 documentadas (19%); a troca do RS veio quase três anos depois. Desvio acima de 10% nas duas leituras, com o essencial certo (troca em massa, muito acima de 'um'). Régua da A036. Não é INSUSTENTAVEL: há N1 para o número apurado, ao contrário da A114 e da A037. Não é FALSO: nada inverte a frase. Onze trechos achados. Pendente: a explicação da A114 ainda descreve a A113 como 'só com imprensa'.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  }
+}

@@ -5,41 +5,78 @@
  "checagens": [
   {
    "id": "A161",
-   "veredito": "INSUSTENTAVEL",
-   "resumo": "Fechamentos de empresas subiram em 2024 e 2025 nos quadrimestres conferidos; o total anual que diria o recorde falta",
-   "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: refeita na rodada 2 de 17/out/2026 (parte 3), com três buscas e cerca de 40 endereços de boletim tentados, e ainda incompleta. A frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério é a série do Mapa de Empresas (Ministério do Empreendedorismo), em número absoluto e com MEI. O que está conferido, por quadrimestre: 854.150 fechamentos no 1º quadrimestre de 2024 (alta de 15,5% sobre 2023), 830.525 no 2º de 2024 (alta de 11,7%), 973.330 no 1º de 2025 e 942.049 no 2º de 2025 (alta de 12,9%). No 2º quadrimestre, o gráfico do boletim de 2024 (série de 2014 a 2024) e o de 2025 (2020 a 2025) mostram cada ano do governo atual acima do anterior, o que é recorde nesse recorte. No 1º quadrimestre não é: em 2023 os 737 mil fechamentos foram 'o maior número desde 2018' (Gazeta do Povo, reproduzindo o boletim), porque 2018 teve o cancelamento em massa de MEIs inadimplentes (Resolução CGSIM nº 44, citada no boletim anual de 2023). No ano, o último total conferido é o de 2023: 2.153.840 fechamentos, alta de 25,7%. Faltam os boletins anuais de 2024 e 2025 (3º quadrimestre) e o do 1º quadrimestre de 2026, vigentes na data da fala: os endereços do gov.br deram 404 (pastas p17-r3, r2parte3 e r2parte3-r6), a cópia do Poder360 não existe para eles, e três buscas não acharam o total anual de 2024 nem o de 2025 (só o recorde de aberturas de 2025, do Sebrae). Sem o total anual não se diz se 2024 ou 2025 superaram 2018 em número absoluto; por isso o veredito segue INSUSTENTAVEL provisório, e não VERDADEIRO nem FALSO. Contexto que vale para qualquer veredito final: no mesmo período as aberturas superaram os fechamentos (saldo de 726.704 no 2º quadrimestre de 2025), e o número absoluto cresce com o estoque de empresas ativas. Nota: Diário do Comércio e Gazeta do Povo reproduzem o Mapa de Empresas e contam como apoio (regra 2 da §3.1). A refazer: boletim do 3º quadrimestre de 2024 e de 2025 e total anual de 2018 com o mesmo método.",
+   "veredito": "VERDADEIRO",
+   "resumo": "Mapa de Empresas: 2.436.190 empresas fechadas em 2024, o maior número da série; 2018 teve 2,43 milhões",
+   "explicacao": "Refeita na rodada 2 de 17/out/2026 (terceira tentativa, parte rodada3), depois de duas tentativas que não acharam o total anual. A frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério, escrito antes da busca, é a série do Mapa de Empresas (governo federal), em número absoluto e com MEI, olhando também o saldo. Achado nesta rodada o boletim do 3º quadrimestre de 2024 (resumo do ano), num endereço com nome diferente dos tentados antes ('boletim-do-mapa-de-empresas-3o-quad-2024', citado num repositório público que reúne a série): em 2024 foram fechadas 2.436.190 empresas, alta de 12,1% sobre 2023. O gráfico do mesmo boletim (2014 a 2024) põe 2024 no topo dos fechamentos, com 2,44 milhões, acima de 2018, o pico anterior, com 2,43 milhões; o boletim de 2020 (série de 2010 a 2020) mostra que nenhum ano antes de 2018 chegou perto (2018 aparece ali com 2,42 milhões). Os rótulos do gráfico foram lidos na página renderizada do PDF. 2.436.190 fica acima de qualquer valor que arredonde para 2,43 milhões, então 2024 é o maior ano da série, ainda que por pouco. Os rótulos do gráfico são arredondados, não truncados: o próprio 2024 (2.436.190) aparece como 2,44 milhões; por isso o 2,43 milhões de 2018 fica abaixo de 2.435.000, e a ordem entre os dois anos está no mesmo gráfico, na mesma revisão da série. A atribuição de cada rótulo ao ano foi conferida de novo na página renderizada, na revisão adversarial da rodada 3. Segunda fonte, independente no método: o Sebrae, com a base de CNPJ da Receita Federal, registra 2.395.523 pequenos negócios baixados em 2024, o maior número de 2019 a 2024 (o dobro de 2019). O ano de 2025 não muda o veredito: o boletim anual de 2025 não foi achado (os endereços deram 404), mas de janeiro a agosto foram 1.915.379 fechamentos (973.330 mais 942.049), 13,7% acima do mesmo período de 2024 (854.150 mais 830.525); se 2025 superou 2024, o recorde continua no governo atual, e se não superou, o recorde é 2024. Por que VERDADEIRO e não IMPRECISO: o número absoluto, com MEI, que é o critério, confere, e o recorte não inverte nada; o contexto vai na ressalva. O recorde é de número absoluto, que cresce com o estoque de empresas (22.004.843 ativas no fim de 2024); parte dos fechamentos são baixas de ofício de MEI pela Receita Federal (o Sebrae aponta ago-set/2024), como em 2018 (cancelamento em massa de MEIs, Resolução CGSIM nº 44); e as aberturas também cresceram, com saldo positivo de 1.818.713 empresas em 2024. Confiança média: a margem sobre 2018 é pequena e lida em rótulo de gráfico, e o total de 2025 não foi conferido. Nota: o Diário do Comércio reproduz o Mapa de Empresas e conta como apoio (regra 2 da §3.1).",
    "numero_dito": null,
-   "numero_apurado": "fechamentos: 854.150 e 830.525 (primeiro e segundo quadrimestres de 2024); 973.330 e 942.049 (primeiro e segundo de 2025); 2.153.840 no ano de 2023",
-   "data_de_referencia": "Mapa de Empresas: quadrimestres de 2024 e 2025 e ano de 2023; totais anuais de 2024 e 2025 não localizados",
-   "ressalva": null,
-   "confianca": "baixa",
-   "divergencia_entre_fontes": "O Diário do Comércio diz que os 973.330 fechamentos do 1º quadrimestre de 2025 foram 'queda de 13,4%' sobre o ano anterior; o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%.",
+   "numero_apurado": "2.436.190 empresas fechadas em 2024, contra 2,43 milhões em 2018, o maior ano anterior, e 2.153.840 em 2023; 1.915.379 de janeiro a agosto de 2025",
+   "data_de_referencia": "Mapa de Empresas: ano de 2024 (boletim do 3º quadrimestre de 2024) e série desde 2010; 2025 até agosto",
+   "ressalva": "Recorde em número absoluto, com MEI e baixas de ofício; o saldo de 2024 foi positivo, de 1.818.713 empresas",
+   "confianca": "media",
+   "divergencia_entre_fontes": "O Diário do Comércio diz que os 973.330 fechamentos do 1º quadrimestre de 2025 foram 'queda de 13,4%' sobre o ano anterior; o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%. O total de 2018 aparece como 2,42 milhões no boletim de 2020 e como 2,43 milhões no de 2024 (revisão da série); nos dois, abaixo de 2024. O Sebrae (2.395.523) conta só pequenos negócios, com outra base, e não diverge no sentido. O boletim do 2º quadrimestre de 2025 diz que os 942.049 fechamentos foram queda de 4,5% sobre o quadrimestre anterior, o que não fecha com os 973.330 do Diário do Comércio (daria cerca de 3%), e alta de 12,9% sobre o mesmo período de 2024, que não fecha com os 830.525 do boletim de 2024: a série é revista a cada edição, e a soma de janeiro a agosto pode variar alguns milhares, sem mudar a conclusão.",
    "revisao_humana": null,
    "derivacoes": [
     {
      "valor": "alta de cerca de 14%",
      "de": "973.330 e 854.150",
      "como": "variação entre o 1º quadrimestre de 2025 e o de 2024: 973.330 dividido por 854.150, menos 1"
+    },
+    {
+     "valor": "1.915.379 fechamentos de janeiro a agosto de 2025",
+     "de": "973.330 mais 942.049",
+     "como": "soma do 1º e do 2º quadrimestres de 2025"
+    },
+    {
+     "valor": "13,7% acima de janeiro a agosto de 2024",
+     "de": "973.330 mais 942.049, contra 854.150 mais 830.525",
+     "como": "a soma de 2025 (1.915.379) dividida pela soma dos dois primeiros quadrimestres de 2024 (1.684.675), menos 1"
     }
    ],
    "fontes": [
     {
      "nivel": "N1",
-     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)",
+     "titulo": "Boletim do Mapa de Empresas, 3º quadrimestre de 2024 (resumo do ano)",
+     "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/boletim-do-mapa-de-empresas-3o-quad-2024.pdf/@@download/file",
+     "consultada_em": "2026-10-17",
+     "trecho": "No mesmo período foram fechadas 2.436.190 empresas, aumento de 12,1% quando comparado com 2023. [...] Os resultados revelam um saldo anual positivo de 1.818.713 empresas abertas em 2024, com um número total de 22.004.843 empresas ativas. [...] Histórico de abertura e fechamento de empresas (2014 a 2024). [...] 2,44Mi [...] 2,43Mi [...] Já em 2018, um dos fatores determinantes para o expressivo número de empresas fechadas foi a aprovação da Resolução CGSIM nº 44",
+     "prova": "Total oficial de fechamentos de 2024 e o gráfico da série de 2014 a 2024, em que 2024 (2,44 milhões) fica acima de 2018 (2,43 milhões), o pico anterior, explicado pelo próprio boletim como cancelamento em massa de MEIs; dá também o saldo positivo e o estoque de empresas ativas."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas); edição do Ministério da Economia",
+     "titulo": "Mapa de Empresas, boletim do 3º quadrimestre de 2020 (série de 2010 a 2020)",
+     "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2020.pdf/@@download/file",
+     "consultada_em": "2026-10-17",
+     "trecho": "Histórico de abertura e fechamento de empresas (2010 a 2020). [...] 2,42Mi [...] Por outro lado, foram fechadas 1.044.696 empresas",
+     "prova": "Estende a série para trás: de 2010 a 2020 o maior número de fechamentos é o de 2018 (2,42 milhões no gráfico lido na página renderizada), abaixo dos 2.436.190 de 2024."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Sebrae Nacional (base de CNPJ da Receita Federal)",
+     "titulo": "Análise de Abertura e Fechamento de Empresas por Setor e CNAE no Brasil (2019-2024)",
+     "url": "https://sebraepr.com.br/wp-content/uploads/2025/09/PUB_Analise-de-Abertura-e-Fechamento-de-Empresas-por-Setor-e-CNAE-no-Brasil-2019-2024.pdf",
+     "consultada_em": "2026-10-17",
+     "trecho": "O total de PN com CNPJ baixado dobrou entre 2019 e 2024, passando de 1,2 milhão para 2,4 milhões. [...] Ago-Set/2024: Realização de medidas para redução de MEI ativos com pendências, intensificando baixas de ofício [...] Fechamentos [...] Total (PN) 1.160.101 1.043.052 1.418.214 1.676.183 2.131.117 2.395.523",
+     "prova": "Fonte independente no método (cadastro de CNPJ da Receita, só pequenos negócios): 2024 é o ano com mais baixas de 2019 a 2024, e parte delas foi baixa de ofício de MEI."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas); cópia hospedada pelo Poder360",
      "titulo": "Mapa de Empresas, boletim do 2º quadrimestre de 2025",
      "url": "https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf",
      "consultada_em": "2026-10-17",
      "trecho": "No mesmo período foram fechadas 942.049 empresas, queda de 4,5% quando comparado com o quadrimestre anterior e aumento de 12,9% em relação ao mesmo período em 2024. [...] Saldo positivo: 726.704 empresas",
-     "prova": "Dá o número de fechamentos mais recente da série oficial e mostra que, no mesmo período, as aberturas superaram os fechamentos."
+     "prova": "Fechamentos do 2º quadrimestre de 2025, o dado mais recente da série oficial achado; mostra 2025 acima de 2024 no mesmo período."
     },
     {
      "nivel": "N1",
-     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas); cópia hospedada pelo Poder360",
      "titulo": "Mapa de Empresas, boletim do 1º quadrimestre de 2024",
      "url": "https://static.poder360.com.br/2024/08/Mapa-de-empresas-boletim-1o-quadrimestre-2024.pdf",
      "consultada_em": "2026-10-17",
      "trecho": "Por outro lado, foram fechadas 854.150 empresas, representando aumento de 24,4% nos números de fechamento de empresas em relação ao terceiro quadrimestre de 2023, além de aumento de 15,5% em relação ao primeiro quadrimestre de 2023.",
-     "prova": "Fechamentos do 1º quadrimestre de 2024, base para medir a variação de 2025."
+     "prova": "Fechamentos do 1º quadrimestre de 2024, base para comparar janeiro a agosto de 2025 com 2024."
     },
     {
      "nivel": "N1",
@@ -47,8 +84,8 @@
      "titulo": "Mapa de Empresas, boletim do 2º quadrimestre de 2024",
      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2024.pdf/@@download/file",
      "consultada_em": "2026-10-17",
-     "trecho": "Histórico de abertura e fechamento de empresas no segundo quadrimestre (2014 a 2024). [...] Por outro lado, foram fechadas 830.525 empresas, representando queda de 3,0% nos números de fechamento de empresas em relação ao primeiro quadrimestre de 2024, além de aumento de 11,7% em relação ao segundo quadrimestre de 2023.",
-     "prova": "Fechamentos do 2º quadrimestre de 2024, maiores que os do mesmo quadrimestre de 2023, na série que o boletim mostra desde 2014."
+     "trecho": "Por outro lado, foram fechadas 830.525 empresas, representando queda de 3,0% nos números de fechamento de empresas em relação ao primeiro quadrimestre de 2024, além de aumento de 11,7% em relação ao segundo quadrimestre de 2023.",
+     "prova": "Fechamentos do 2º quadrimestre de 2024, a outra parcela da comparação de janeiro a agosto."
     },
     {
      "nivel": "N1",
@@ -56,17 +93,8 @@
      "titulo": "Mapa de Empresas, boletim do 3º quadrimestre de 2023 (resumo do ano)",
      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf/@@download/file",
      "consultada_em": "2026-10-17",
-     "trecho": "No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022. [...] Já em 2018, um dos fatores determinantes para o expressivo número de empresas fechadas foi a aprovação da Resolução CGSIM nº 44, de 29 de janeiro de 2018",
-     "prova": "Total anual de 2023, o último ano fechado que foi possível conferir, e o aviso do próprio boletim de que 2018 teve fechamentos expressivos por cancelamento de MEIs; não basta para dizer se 2024 ou 2025 bateram recorde."
-    },
-    {
-     "nivel": "N4",
-     "instituicao": "Gazeta do Povo (com dados do Mapa de Empresas)",
-     "titulo": "Saldo de abertura de empresas no Brasil é o menor em cinco anos (30/05/2023)",
-     "url": "https://www.gazetadopovo.com.br/economia/saldo-abertura-empresas-brasil-menor-desde-2018/",
-     "consultada_em": "2026-10-17",
-     "trecho": "De janeiro a abril, país registrou fechamento de 737 mil empresas, maior número desde 2018.",
-     "prova": "Mostra que no 1º quadrimestre o pico da série é de 2018, ano do cancelamento em massa de MEIs, e não do governo atual."
+     "trecho": "No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022.",
+     "prova": "Total de 2023, abaixo do de 2024 e de 2018: o recorde do governo atual é o de 2024, não o de 2023."
     },
     {
      "nivel": "N4",
@@ -75,7 +103,7 @@
      "url": "https://diariodocomercio.com.br/economia/mg-foi-segundo-estado-maior-fechamento-empresas/",
      "consultada_em": "2026-10-17",
      "trecho": "No mesmo período foram fechadas 973.330 empresas, queda de 13,4% quando comparado com o ano anterior.",
-     "prova": "Dá o fechamento do 1º quadrimestre de 2025 (973.330). A matéria diz 'queda de 13,4%', mas o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%, e os números estaduais da própria matéria sobem: a variação está lida como alta, com a divergência declarada."
+     "prova": "Dá o fechamento do 1º quadrimestre de 2025 (973.330), cujo boletim oficial não foi achado. A matéria diz 'queda de 13,4%', mas o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%: a variação está lida como alta, com a divergência declarada."
     }
    ]
   },

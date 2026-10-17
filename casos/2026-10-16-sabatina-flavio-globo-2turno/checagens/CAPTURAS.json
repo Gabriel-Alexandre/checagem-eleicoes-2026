@@ -2281,6 +2281,18 @@
       }
     },
     {
+      "url": "https://sebraepr.com.br/wp-content/uploads/2025/09/PUB_Analise-de-Abertura-e-Fechamento-de-Empresas-por-Setor-e-CNAE-no-Brasil-2019-2024.pdf",
+      "capturada_em": "2026-10-17T18:11:32+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 2524888,
+      "sha256": "ddf8f83ccfe8e4584077275268e64ea64754a32956d9e2118a29d1f2efa86c44",
+      "trechos": {
+        "A161": "encontrado"
+      }
+    },
+    {
       "url": "https://sites.tcu.gov.br/listadealtorisco/gestao_do_patrimonio_imobiliario_da_uniao.html",
       "capturada_em": "2026-10-17T15:49:25+00:00",
       "status": 200,
@@ -4214,18 +4226,6 @@
       }
     },
     {
-      "url": "https://www.gazetadopovo.com.br/economia/saldo-abertura-empresas-brasil-menor-desde-2018/",
-      "capturada_em": "2026-10-17T17:02:11+00:00",
-      "status": 200,
-      "tipo": "text/html; charset=utf-8",
-      "caminho": "direto",
-      "bytes": 248680,
-      "sha256": "ec839305c076a594caef9099d6780f4632c9f4f5d0dd841b4802fb05f4164b1c",
-      "trechos": {
-        "A161": "encontrado"
-      }
-    },
-    {
       "url": "https://www.gazetadopovo.com.br/eleicoes/2022/o-que-diz-plano-governo-bolsonaro-principais-pontos/",
       "capturada_em": "2026-10-17T15:49:59+00:00",
       "status": 200,
@@ -4426,6 +4426,18 @@
       }
     },
     {
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/boletim-do-mapa-de-empresas-3o-quad-2024.pdf/@@download/file",
+      "capturada_em": "2026-10-17T18:10:35+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 1002869,
+      "sha256": "1a9be3ab669479eae30038af7b4fd5616f53210f056fb4167d62890c28882740",
+      "trechos": {
+        "A161": "encontrado"
+      }
+    },
+    {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2024.pdf/@@download/file",
       "capturada_em": "2026-10-17T16:19:15+00:00",
       "status": 200,
@@ -4433,6 +4445,18 @@
       "caminho": "direto",
       "bytes": 859115,
       "sha256": "882c51d7e3a8625ad529b5528a925b232bdb0dbbdc570a2c2bdebe12530edadb",
+      "trechos": {
+        "A161": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2020.pdf/@@download/file",
+      "capturada_em": "2026-10-17T18:11:29+00:00",
+      "status": 200,
+      "tipo": "application/pdf",
+      "caminho": "direto",
+      "bytes": 1003866,
+      "sha256": "72cd3f736a8b19c968fb147ddd550eb8d324e373cb0b864fb644631e7d88cf5f",
       "trechos": {
         "A161": "encontrado"
       }
@@ -4519,6 +4543,90 @@
       "sha256": "b7901ae46bf7ed13339591ea29ed640615f2b30b9ae7aad80e668fe0235ee946",
       "trechos": {
         "A023": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-1.692-de-12-de-novembro-de-2025-668984125",
+      "capturada_em": "2026-10-17T18:15:09+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 84766,
+      "sha256": "7ade2b19e5bbb7b266637cedf5d72b73c3b0fedca0b6e0d9022ec94a16f024e6",
+      "trechos": {
+        "A113": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-334-de-24-de-janeiro-de-2023-459786672",
+      "capturada_em": "2026-10-17T18:14:14+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 84661,
+      "sha256": "a5d3cdf2ee04c35011112308d3210fd3efe46e45627a3a0c232d831514004886",
+      "trechos": {
+        "A113": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-508-de-2-de-abril-de-2024-551455355",
+      "capturada_em": "2026-10-17T18:15:10+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 85645,
+      "sha256": "e6be4f22cf1734f42553b65dcff307416612f58db39cd05e46e780e77298d97b",
+      "trechos": {
+        "A113": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-883-de-7-de-marco-de-2023-469474347",
+      "capturada_em": "2026-10-17T18:14:14+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 84528,
+      "sha256": "c69e0562de48bb66432a0901f3d79ea539f18243fcd917807b66a43c105f6fb4",
+      "trechos": {
+        "A113": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.in.gov.br/web/dou/-/portarias-de-18-de-janeiro-de-2023-458729429",
+      "capturada_em": "2026-10-17T18:14:11+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 108906,
+      "sha256": "9fa5b00455f4c7c0452d5dfcf56867531e6d0483eac5927f6074ad883b54aba1",
+      "trechos": {
+        "A113": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.in.gov.br/web/dou/-/portarias-de-19-de-janeiro-de-2023-458981514",
+      "capturada_em": "2026-10-17T18:14:12+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 88441,
+      "sha256": "49820315a4618afed9f6b4ddc0826613b6ba6f4e5dc7001dfde949cf11afb64f",
+      "trechos": {
+        "A113": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.in.gov.br/web/dou/-/portarias-de-pessoal-se/mjsp-de-12-de-novembro-de-2025-668994831",
+      "capturada_em": "2026-10-17T18:15:09+00:00",
+      "status": 200,
+      "tipo": "text/html;charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 86393,
+      "sha256": "c1d53b4bb9a32465a9532178c450c81558a91d3856ea836153ca5fd1f3988e47",
+      "trechos": {
+        "A113": "encontrado"
       }
     },
     {

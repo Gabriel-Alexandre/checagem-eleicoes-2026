@@ -12,16 +12,16 @@
     "checaveis": 207,
     "nao_checaveis": 0,
     "por_veredito": {
-      "VERDADEIRO": 133,
-      "IMPRECISO": 26,
-      "INSUSTENTAVEL": 37,
+      "VERDADEIRO": 134,
+      "IMPRECISO": 27,
+      "INSUSTENTAVEL": 35,
       "FALSO": 11,
       "NAO_CHECAVEL": 0
     },
     "percentual_dos_checaveis": {
-      "VERDADEIRO": 64.3,
-      "IMPRECISO": 12.6,
-      "INSUSTENTAVEL": 17.9,
+      "VERDADEIRO": 64.7,
+      "IMPRECISO": 13.0,
+      "INSUSTENTAVEL": 16.9,
       "FALSO": 5.3
     },
     "por_papel": {
@@ -30,16 +30,16 @@
         "checaveis": 124,
         "nao_checaveis": 0,
         "por_veredito": {
-          "VERDADEIRO": 65,
-          "IMPRECISO": 22,
-          "INSUSTENTAVEL": 26,
+          "VERDADEIRO": 66,
+          "IMPRECISO": 23,
+          "INSUSTENTAVEL": 24,
           "FALSO": 11,
           "NAO_CHECAVEL": 0
         },
         "percentual_dos_checaveis": {
-          "VERDADEIRO": 52.4,
-          "IMPRECISO": 17.7,
-          "INSUSTENTAVEL": 21.0,
+          "VERDADEIRO": 53.2,
+          "IMPRECISO": 18.5,
+          "INSUSTENTAVEL": 19.4,
           "FALSO": 8.9
         }
       },
@@ -118,16 +118,16 @@
       "checaveis": 124,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 65,
-        "IMPRECISO": 22,
-        "INSUSTENTAVEL": 26,
+        "VERDADEIRO": 66,
+        "IMPRECISO": 23,
+        "INSUSTENTAVEL": 24,
         "FALSO": 11,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 52.4,
-        "IMPRECISO": 17.7,
-        "INSUSTENTAVEL": 21.0,
+        "VERDADEIRO": 53.2,
+        "IMPRECISO": 18.5,
+        "INSUSTENTAVEL": 19.4,
         "FALSO": 8.9
       },
       "nome": "Flávio Bolsonaro",
@@ -171,15 +171,15 @@
       "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 42,
-        "IMPRECISO": 8,
-        "INSUSTENTAVEL": 18,
+        "IMPRECISO": 9,
+        "INSUSTENTAVEL": 17,
         "FALSO": 4,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 58.3,
-        "IMPRECISO": 11.1,
-        "INSUSTENTAVEL": 25.0,
+        "IMPRECISO": 12.5,
+        "INSUSTENTAVEL": 23.6,
         "FALSO": 5.6
       },
       "assunto": "justica",
@@ -285,16 +285,16 @@
       "checaveis": 8,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 6,
+        "VERDADEIRO": 7,
         "IMPRECISO": 0,
-        "INSUSTENTAVEL": 2,
+        "INSUSTENTAVEL": 1,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 75.0,
+        "VERDADEIRO": 87.5,
         "IMPRECISO": 0.0,
-        "INSUSTENTAVEL": 25.0,
+        "INSUSTENTAVEL": 12.5,
         "FALSO": 0.0
       },
       "assunto": "economia",
@@ -768,15 +768,15 @@
       "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 11,
-        "IMPRECISO": 0,
-        "INSUSTENTAVEL": 3,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 2,
         "FALSO": 1,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 73.3,
-        "IMPRECISO": 0.0,
-        "INSUSTENTAVEL": 20.0,
+        "IMPRECISO": 6.7,
+        "INSUSTENTAVEL": 13.3,
         "FALSO": 6.7
       },
       "id": "b06",
@@ -808,15 +808,15 @@
           "nao_checaveis": 0,
           "por_veredito": {
             "VERDADEIRO": 6,
-            "IMPRECISO": 0,
-            "INSUSTENTAVEL": 3,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 2,
             "FALSO": 1,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
             "VERDADEIRO": 60.0,
-            "IMPRECISO": 0.0,
-            "INSUSTENTAVEL": 30.0,
+            "IMPRECISO": 10.0,
+            "INSUSTENTAVEL": 20.0,
             "FALSO": 10.0
           }
         }
@@ -1067,16 +1067,16 @@
       "checaveis": 9,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 4,
+        "VERDADEIRO": 5,
         "IMPRECISO": 3,
-        "INSUSTENTAVEL": 2,
+        "INSUSTENTAVEL": 1,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 44.4,
+        "VERDADEIRO": 55.6,
         "IMPRECISO": 33.3,
-        "INSUSTENTAVEL": 22.2,
+        "INSUSTENTAVEL": 11.1,
         "FALSO": 0.0
       },
       "id": "b11",
@@ -1089,16 +1089,16 @@
           "checaveis": 9,
           "nao_checaveis": 0,
           "por_veredito": {
-            "VERDADEIRO": 4,
+            "VERDADEIRO": 5,
             "IMPRECISO": 3,
-            "INSUSTENTAVEL": 2,
+            "INSUSTENTAVEL": 1,
             "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 44.4,
+            "VERDADEIRO": 55.6,
             "IMPRECISO": 33.3,
-            "INSUSTENTAVEL": 22.2,
+            "INSUSTENTAVEL": 11.1,
             "FALSO": 0.0
           }
         }
@@ -1310,18 +1310,17 @@
     }
   ],
   "revisao_ia": {
-    "mantido": 149,
-    "alterado": 58
+    "mantido": 148,
+    "alterado": 59
   },
   "confianca": {
     "alta": 56,
-    "media": 149,
-    "baixa": 2
+    "media": 151
   },
   "fontes": {
-    "citacoes": 756,
-    "urls_distintas": 517,
-    "instituicoes": 274
+    "citacoes": 765,
+    "urls_distintas": 526,
+    "instituicoes": 278
   },
   "avisos": [],
   "ressalvas": [
@@ -1334,23 +1333,23 @@
     "N_ALEG": 207,
     "N_CHEC": 207,
     "N_NC": 0,
-    "N_V": 133,
-    "N_I": 26,
-    "N_S": 37,
+    "N_V": 134,
+    "N_I": 27,
+    "N_S": 35,
     "N_F": 11,
     "DURACAO": "00:42:47",
     "PALAVRAS": 8322,
     "DURACAO_PECA": "00:42:47",
     "PALAVRAS_PECA": 8322,
-    "N_PV": 64.3,
-    "N_PI": 12.6,
-    "N_PS": 17.9,
+    "N_PV": 64.7,
+    "N_PI": 13.0,
+    "N_PS": 16.9,
     "N_PF": 5.3,
     "P_ENTREVISTADO_ALEG": 124,
     "P_ENTREVISTADO_CHEC": 124,
-    "P_ENTREVISTADO_V": 65,
-    "P_ENTREVISTADO_I": 22,
-    "P_ENTREVISTADO_S": 26,
+    "P_ENTREVISTADO_V": 66,
+    "P_ENTREVISTADO_I": 23,
+    "P_ENTREVISTADO_S": 24,
     "P_ENTREVISTADO_F": 11,
     "P_ENTREVISTADO_NC": 0,
     "P_ENTREVISTADOR_ALEG": 83,
@@ -1365,14 +1364,14 @@
     "C1_FALA": "00:25:00",
     "C1_ALEG": 124,
     "C1_CHEC": 124,
-    "C1_V": 65,
-    "C1_I": 22,
-    "C1_S": 26,
+    "C1_V": 66,
+    "C1_I": 23,
+    "C1_S": 24,
     "C1_F": 11,
     "C1_NC": 0,
-    "C1_PV": 52.4,
-    "C1_PI": 17.7,
-    "C1_PS": 21.0,
+    "C1_PV": 53.2,
+    "C1_PI": 18.5,
+    "C1_PS": 19.4,
     "C1_PF": 8.9,
     "J1_NOME": "Renata Lo Prete",
     "J1_FALA": "00:14:09",
@@ -1421,8 +1420,8 @@
     "B6_TITULO": "Polícia Federal e a reunião ministerial de 2020",
     "B6_ALEG": 15,
     "B6_V": 11,
-    "B6_I": 0,
-    "B6_S": 3,
+    "B6_I": 1,
+    "B6_S": 2,
     "B6_F": 1,
     "B6_NC": 0,
     "B7_TITULO": "Jair Bolsonaro: condenação e cargo no governo",
@@ -1455,9 +1454,9 @@
     "B10_NC": 0,
     "B11_TITULO": "Respeito ao resultado das urnas",
     "B11_ALEG": 9,
-    "B11_V": 4,
+    "B11_V": 5,
     "B11_I": 3,
-    "B11_S": 2,
+    "B11_S": 1,
     "B11_F": 0,
     "B11_NC": 0,
     "B12_TITULO": "Armas e segurança pública",

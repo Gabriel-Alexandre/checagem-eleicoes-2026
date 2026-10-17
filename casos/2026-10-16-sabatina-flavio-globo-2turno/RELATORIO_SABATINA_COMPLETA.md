@@ -30,9 +30,9 @@
 
 | Veredito | Total | entrevistado | entrevistador |
 |---|---:|---:|---:|
-| 🟢 VERDADEIRO | 133 | 65 | 68 |
-| 🟡 IMPRECISO | 26 | 22 | 4 |
-| 🟠 SEM COMPROVAÇÃO | 37 | 26 | 11 |
+| 🟢 VERDADEIRO | 134 | 66 | 68 |
+| 🟡 IMPRECISO | 27 | 23 | 4 |
+| 🟠 SEM COMPROVAÇÃO | 35 | 24 | 11 |
 | 🔴 FALSO | 11 | 11 | 0 |
 
 ### Como ler esta contagem
@@ -50,7 +50,20 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 | Falante | Papel | Fala | Alegações | Checáveis | 🟢 | 🟡 | 🟠 | 🔴 | ⚪ |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Renata Lo Prete | entrevistador | 00:14:09 | 83 | 83 | 68 | 4 | 11 | 0 | 0 |
-| Flávio Bolsonaro | entrevistado | 00:25:00 | 124 | 124 | 65 | 22 | 26 | 11 | 0 |
+| Flávio Bolsonaro | entrevistado | 00:25:00 | 124 | 124 | 66 | 23 | 24 | 11 | 0 |
+
+## Os cortes que viraram vídeo
+
+Cada corte herda as checagens desta peça, com os mesmos ids. O critério de escolha foi registrado antes dos vereditos ([`recortes/SELECAO_DE_CORTES.md`](recortes/SELECAO_DE_CORTES.md)).
+
+| Corte | Janela | Alegações | Por que este trecho |
+|---|---|---|---|
+| `corte-01` | 00:16:03 a 00:16:18 (14 s) | A075, A076, A077, A078 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 14 s, assunto justica; confronto jornalista x entrevistado em justica; 3 trocas de turno; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 12.8 dB e fim 38.7 dB abaixo da fala) |
+| `corte-02` | 00:18:10 a 00:18:23 (14 s) | A085, A086, A087 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto politica; confronto jornalista x entrevistado em politica; 1 troca de turno; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 14.9 dB e fim 13.0 dB abaixo da fala) |
+| `corte-03` | 00:25:47 a 00:26:02 (14 s) | A131, A132 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 2 alegações checáveis em 14 s, assunto relacoes-exteriores; confronto jornalista x entrevistado em relacoes-exteriores; 1 troca de turno; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 23.1 dB e fim 22.4 dB abaixo da fala) |
+| `corte-04` | 00:31:50 a 00:32:05 (15 s) | A158, A159, A160, A161, A162 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 15 s, assunto economia; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 15.2 dB e fim 22.2 dB abaixo da fala) |
+| `corte-05` | 00:37:46 a 00:38:01 (16 s) | A185, A186, A187, A188 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 15 s, assunto programas-sociais; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 25.4 dB e fim 18.6 dB abaixo da fala) |
+| `corte-06` | 00:40:09 a 00:40:24 (15 s) | A202, A203, A204 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto saude; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 18.3 dB e fim 36.3 dB abaixo da fala) |
 
 ## Alegação por alegação
 
@@ -5151,7 +5164,7 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 
 ---
 
-### A113 · 🟠 SEM COMPROVAÇÃO · 00:22:49
+### A113 · 🟡 IMPRECISO · 00:22:49
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `justica` · tipo: `numero`
 
@@ -5161,40 +5174,86 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 
 **Contexto:** Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula
 
-**Resumo (o que aparece no vídeo):** Duas fontes registram 18 superintendências da PF trocadas num só ato em 2023; o total de 27 não foi confirmado
+**Resumo (o que aparece no vídeo):** O Diário Oficial registra 21 das 27 superintendências da PF trocadas até março de 2023, não as 27
 
 | | |
 |---|---|
 | Dito | 27 superintendentes |
-| Apurado | 18 superintendências num só ato de janeiro de 2023; 26 das 27 até 2025 segundo uma única fonte, a confirmar |
-| Data de referência | janeiro de 2023 (ato de 18/01) e gestão Andrei Rodrigues até 2025 |
+| Apurado | 21 superintendências trocadas até março de 2023 (18 delas num só ato, em 18 de janeiro) e 22 até novembro de 2025, no Diário Oficial |
+| Data de referência | janeiro a março de 2023 (atos no Diário Oficial, início da gestão Andrei Rodrigues) e 12/11/2025 (Rio Grande do Sul) |
 
-**Análise:** Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a rodada 2 de 17/out/2026 refez a busca e ela de novo não terminou. Cinco das nove buscas desta rodada foram para esta alegação: a frase exata '26 das 27 superintendências', as trocas de Andrei Rodrigues com a exceção do Rio Grande do Sul, o levantamento das '39 trocas' de comando citado pelo Portal Tela, as notas de apoio a Andrei Rodrigues de agosto e setembro de 2026 (que falam em 27 superintendentes signatários, não em 27 trocados) e a edição extra do Diário Oficial de 18/01/2023. Nenhuma achou a reportagem original do '26 das 27' nem o Diário Oficial, e a página do Conjur que pode trazer o levantamento recusou o robô de novo (403). O que está documentado continua igual: duas fontes independentes registram 18 superintendentes trocados num só ato, publicado em edição extra do Diário Oficial na noite de 18/01/2023 (Congresso em Foco e Jornal de Brasília), e o Jornal de Brasília acrescenta a troca anterior no Distrito Federal; uma única fonte fraca, o Portal Tela (texto gerado por ferramenta e revisado pela redação, que resume reportagem de terceiros), diz que desde janeiro de 2023 houve mudança em 26 das 27 superintendências, com a do Rio Grande do Sul como única exceção. Nenhuma fonte dá as 27. A tendência é IMPRECISO (o essencial, a troca em massa no início do governo, confere; o número 27 não), mas a alegação é numérica e o veredito amarelo exige fonte N1 ou N2 (o Diário Oficial ou portarias de 2023 a 2025), que não foi alcançada no limite de buscas. Falta: o Diário Oficial com as nomeações, ou o levantamento original, para fixar o número e decidir entre IMPRECISO e VERDADEIRO com ressalva. Não há contradição direta de sentido, por isso não é FALSO.
+**Análise:** Refeita na rodada 2 de 17/out/2026 (terceira tentativa, parte rodada3) com o Diário Oficial da União (N1), consultado pela busca do próprio portal da Imprensa Nacional, e revista na passada adversarial da rodada 3, que trocou VERDADEIRO por IMPRECISO. A frase ('ele trocou os 27 superintendentes de toda a federação') vem logo depois de 'a primeira coisa que o meu adversário fez quando sentou na cadeira de presidente da República foi botar o amigo dele, Andrei', e é a ponta da comparação com Bolsonaro, que 'troca um'; a extração, feita antes da checagem, leu 'no início do governo Lula'. O critério era contar quantas das 27 superintendências tiveram o titular trocado na gestão Andrei Rodrigues, e em que período. O Diário Oficial registra: o ato de 18/01/2023 da Casa Civil dispensa e designa superintendentes em 18 estados (Rio Grande do Norte, Mato Grosso do Sul, Rondônia, Santa Catarina, Rio de Janeiro, Goiás, Sergipe, Pernambuco, Maranhão, Mato Grosso, Tocantins, Paraíba, Alagoas, São Paulo, Paraná, Pará, Amazonas e Minas Gerais), o mesmo número de Congresso em Foco e Jornal de Brasília; a do Distrito Federal foi trocada antes (Jornal de Brasília; nomeação do novo superintendente nas portarias de 19/01/2023); a da Bahia em 24/01/2023 e a de Roraima em 07/03/2023. São 21 nos três primeiros meses, o mesmo número que o Portal Tela dá para o período. Depois disso, o único ato conferido é o do Rio Grande do Sul: em abril de 2024 o superintendente era Thiago Machado Delabary, e em 12/11/2025 foram dispensado Aldronei Antonio Pacheco Rodrigues e designado Alessandro Maciel Lopes. Com ele, 22 superintendências têm troca registrada no Diário Oficial. As outras cinco (Acre, Amapá, Ceará, Espírito Santo e Piauí) só entram na conta pelo Portal Tela: fonte única, de imprensa, com o texto marcado como gerado por ferramenta ('Gerado por Telinha', revisado pela redação), sem citar ato oficial, e cuja 'única exceção' do Rio Grande do Sul o próprio Diário Oficial desmente. Pelas regras 1 a 3 da §3.1, ela não fecha o número sozinha. Por que IMPRECISO: na leitura da frase como o que foi feito ao assumir, a do contexto e a da extração, o registro oficial dá 21 (18 num único ato), não 27, desvio de 22%; na leitura da gestão inteira, adotada na rodada 2 depois de ver o resultado (METODOLOGIA §5), o que está documentado chega a 22, desvio de 19%, e o 27 depende da fonte única. Nas duas leituras o número dito fica mais de 10% acima do registrado (régua do §2.2), e o essencial confere: a troca em massa dos superintendentes no início da gestão Andrei, muito acima de uma troca só. Não é INSUSTENTAVEL porque há fonte N1 para o essencial e para o número apurado (a A114 e a A037 só tinham imprensa); é a régua da A036, em que o registro oficial confirma a ordem de grandeza e corrige o número. Não é FALSO: nenhuma fonte inverte a frase, e as cinco superintendências sem ato conferido podem ter sido trocadas. O que falta para a leitura da gestão inteira: os atos do Diário Oficial do Acre, Amapá, Ceará, Espírito Santo e Piauí. Nota: Congresso em Foco e Jornal de Brasília reproduzem o ato do Diário Oficial, conferido aqui, e contam como apoio (regra 2 da §3.1). A A114 (Bolsonaro 'troca um') usa os 18 de janeiro de 2023 e segue coerente com esta.
 
-**⚠️ Divergência entre fontes:** As fontes não divergem entre si, mas medem períodos diferentes: 18 num só ato de janeiro de 2023 (Congresso em Foco, Jornal de Brasília), 21 nos três primeiros meses e 26 das 27 ao longo da gestão (Portal Tela, fonte única).
+**Ressalva:** Até 2025 o Diário Oficial soma 22 trocas; outras cinco só aparecem numa fonte de imprensa, sem ato conferido
 
-**Confiança:** baixa
+**⚠️ Divergência entre fontes:** O Portal Tela (junho de 2025) diz que o Rio Grande do Sul foi a única superintendência não trocada; o Diário Oficial mostra Thiago Machado Delabary no cargo em abril de 2024 e a dispensa de Aldronei Antonio Pacheco Rodrigues com a designação de Alessandro Maciel Lopes em 12/11/2025, o que contradiz ou desatualiza a exceção. O mesmo texto do Portal Tela tem no título '39 trocas de comando em 2023' e no corpo a contagem até 2025. As demais fontes medem períodos diferentes (18 num ato, 21 em três meses) e não divergem entre si.
 
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: mantido. Revisão r4: Provisório conferido: a explicação começa pelo marcador exato e a confiança é baixa. Não refeito. O que falta à rodada 2: achar o levantamento original de '26 das 27 superintendências' (o Portal Tela é texto gerado por ferramenta e fonte única; o Conjur deu 403) ou as portarias de 2023 a 2025, e decidir entre VERDADEIRO com ressalva (26 contra 27, 3,7%) e IMPRECISO (18 num só ato, 21 em três meses). Atenção para a A114, cuja explicação usa os 18 de janeiro de 2023 para dizer que a direção da comparação se mantém. Trechos achados (p12). · Revisão da rodada 2: Provisório: a explicação começa pelo marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' e a confiança é baixa, conferidos. Não refeito. Achado ao conferir: os lotes 07 a 12 tinham voltado à rodada 1 às 14:15; esta checagem foi restaurada com a versão da parte 2 (ver correcoes-rodada2.md). Falta: Diário Oficial de 18/01/2023 ou o levantamento original dos '26 das 27'. Quatro trechos achados (p12).
+**Confiança:** media
+
+**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: alterado. Revisão r4: Provisório conferido: a explicação começa pelo marcador exato e a confiança é baixa. Não refeito. O que falta à rodada 2: achar o levantamento original de '26 das 27 superintendências' (o Portal Tela é texto gerado por ferramenta e fonte única; o Conjur deu 403) ou as portarias de 2023 a 2025, e decidir entre VERDADEIRO com ressalva (26 contra 27, 3,7%) e IMPRECISO (18 num só ato, 21 em três meses). Atenção para a A114, cuja explicação usa os 18 de janeiro de 2023 para dizer que a direção da comparação se mantém. Trechos achados (p12). · Revisão da rodada 2: Provisório: a explicação começa pelo marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' e a confiança é baixa, conferidos. Não refeito. Achado ao conferir: os lotes 07 a 12 tinham voltado à rodada 1 às 14:15; esta checagem foi restaurada com a versão da parte 2 (ver correcoes-rodada2.md). Falta: Diário Oficial de 18/01/2023 ou o levantamento original dos '26 das 27'. Quatro trechos achados (p12). · Rodada 3 (17/out, com busca) e revisão da rodada 3: VERDADEIRO passou a IMPRECISO. O Diário Oficial (N1) documenta 22 trocas: 18 em 18/01/2023, mais DF, BA e RR até 07/03/2023, mais RS em 12/11/2025. Conferido estado por estado nas capturas r6 e r8. As outras cinco (AC, AP, CE, ES, PI) só têm o Portal Tela, fonte única de imprensa, com o texto marcado como 'Gerado por Telinha'. A matéria não cita ato e erra a exceção do RS. Pelas regras 1 a 3 da §3.1, não fecha o 27. Recorte: a frase segue 'a primeira coisa que [...] fez quando sentou na cadeira', e a extração leu 'no início do governo Lula'. Nessa leitura são 21 contra 27 (22%). A leitura da gestão inteira foi escolhida depois do resultado (§5) e mesmo assim dá 22 documentadas (19%); a troca do RS veio quase três anos depois. Desvio acima de 10% nas duas leituras, com o essencial certo (troca em massa, muito acima de 'um'). Régua da A036. Não é INSUSTENTAVEL: há N1 para o número apurado, ao contrário da A114 e da A037. Não é FALSO: nada inverte a frase. Onze trechos achados. Pendente: a explicação da A114 ainda descreve a A113 como 'só com imprensa'.
+
+**Números derivados por cálculo:**
+
+| Valor | De | Como |
+|---|---|---|
+| 21 superintendências trocadas até 7 de março de 2023 | `18 mais 3` | as 18 do ato de 18/01/2023 mais Distrito Federal (19/01), Bahia (24/01) e Roraima (07/03), todas em atos do Diário Oficial |
+| 22 superintendências com troca registrada no Diário Oficial até novembro de 2025 | `21 mais 1` | as 21 até março de 2023 mais a do Rio Grande do Sul, em 12/11/2025 |
+| desvio de 22% | `27 contra 21` | 27 (número dito) menos 21 (registro oficial no início da gestão), dividido por 27 |
+| desvio de 19% | `27 contra 21 mais 1` | 27 (número dito) menos 22 (as 21 do início mais a do Rio Grande do Sul, registro oficial na gestão inteira), dividido por 27, arredondado |
 
 **Fontes:**
 
-1. `N4` **Congresso em Foco**: [Flávio Dino exonera 26 chefes regionais da PRF e troca direção da PF em 18 estados](https://www.congressoemfoco.com.br/area/governo/dino-exonera-26-chefes-regionais-da-prf-e-troca-direcao-da-pf-em-18-estados) · consultada em 2026-10-17 · captura sha256 `197430da5c7668b8…`
+1. `N1` **Diário Oficial da União (Imprensa Nacional), atos da Casa Civil**: [Portarias de 18 de janeiro de 2023 (Seção 2)](https://www.in.gov.br/web/dou/-/portarias-de-18-de-janeiro-de-2023-458729429) · consultada em 2026-10-17 · captura sha256 `9fa5b00455f4c7c0…`
+   > Nº 751 - DISPENSAR LUIZ CARLOS NOBREGA NELSON da função de Superintendente Regional de Polícia Federal do Rio Grande do Norte da Polícia Federal do Ministério da Justiça e Segurança Pública, código FCE 1.13. [...] UMBERTO RAMOS RODRIGUES, para exercer a função e Superintendente Regional de Polícia Federal no Amazonas [...] Nº 786 - DISPENSAR MARCELO SALVIO REZENDE VIEIRAS da função de Superintendente Regional de Polícia Federal em Minas Gerais da Polícia Federal do Ministério da Justiça e Segurança Pública, código FCE 1.13.
+
+   *O que prova:* O ato que troca os superintendentes da PF em 18 estados (entre os nº 751 e 786, ao lado de dispensas da PRF; um dispensado e um designado por estado), conferido no texto oficial.
+
+2. `N1` **Diário Oficial da União (Imprensa Nacional)**: [Portarias de 19 de janeiro de 2023 (Seção 2)](https://www.in.gov.br/web/dou/-/portarias-de-19-de-janeiro-de-2023-458981514) · consultada em 2026-10-17 · captura sha256 `49820315a4618afe…`
+   > CEZAR LUIZ BUSTO DE SOUZA, para exercer a função de Superintendente Regional de Polícia Federal no Distrito Federal da Polícia Federal do Ministério da Justiça e Segurança Pública, código FCE 1.13.
+
+   *O que prova:* Nomeação do novo superintendente no Distrito Federal, a 19ª troca.
+
+3. `N1` **Diário Oficial da União (Imprensa Nacional), Ministério da Justiça**: [Portaria de Pessoal SE/MJSP nº 334, de 24 de janeiro de 2023](https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-334-de-24-de-janeiro-de-2023-459786672) · consultada em 2026-10-17 · captura sha256 `a5d3cdf2ee04c350…`
+   > Designar o Delegado de Polícia Federal FLAVIO MARCIO ALBERGARIA SILVA para exercer a função de Superintendente Regional de Polícia Federal na Bahia da Polícia Federal, código FCE 1.13.
+
+   *O que prova:* Novo superintendente na Bahia em janeiro de 2023.
+
+4. `N1` **Diário Oficial da União (Imprensa Nacional), Ministério da Justiça**: [Portaria de Pessoal SE/MJSP nº 883, de 7 de março de 2023](https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-883-de-7-de-marco-de-2023-469474347) · consultada em 2026-10-17 · captura sha256 `c69e0562de48bb66…`
+   > Designar o Delegado de Polícia Federal RONALDO GUILHERME CAMPOS para exercer a função de Superintendente Regional de Polícia Federal em Roraima, código FCE 1.13.
+
+   *O que prova:* Novo superintendente em Roraima em março de 2023, o que fecha 21 trocas nos três primeiros meses.
+
+5. `N1` **Diário Oficial da União (Imprensa Nacional), Ministério da Justiça**: [Portaria de Pessoal SE/MJSP nº 508, de 2 de abril de 2024](https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-508-de-2-de-abril-de-2024-551455355) · consultada em 2026-10-17 · captura sha256 `e6be4f22cf1734f4…`
+   > THIAGO MACHADO DELABARY, Superintendente Regional da Polícia Federal no Rio Grande do Sul
+
+   *O que prova:* Quem chefiava a superintendência do Rio Grande do Sul em abril de 2024.
+
+6. `N1` **Diário Oficial da União (Imprensa Nacional), Ministério da Justiça**: [Portarias de Pessoal SE/MJSP de 12 de novembro de 2025](https://www.in.gov.br/web/dou/-/portarias-de-pessoal-se/mjsp-de-12-de-novembro-de-2025-668994831) · consultada em 2026-10-17 · captura sha256 `c1d53b4bb9a32465…`
+   > Nº 1.691 - Dispensar o Delegado de Polícia Federal ALDRONEI ANTONIO PACHECO RODRIGUES da função de Superintendente Regional de Polícia Federal no Rio Grande do Sul, código FCE 1.13.
+
+   *O que prova:* Troca no Rio Grande do Sul em novembro de 2025, a superintendência que o Portal Tela dava como exceção.
+
+7. `N1` **Diário Oficial da União (Imprensa Nacional), Ministério da Justiça**: [Portaria de Pessoal SE/MJSP nº 1.692, de 12 de novembro de 2025](https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-1.692-de-12-de-novembro-de-2025-668984125) · consultada em 2026-10-17 · captura sha256 `7ade2b19e5bbb7b2…`
+   > Designar o Delegado de Polícia Federal ALESSANDRO MACIEL LOPES para exercer a função de Superintendente Regional de Polícia Federal no Rio Grande do Sul, código FCE 1.13, ficando dispensado da que atualmente ocupa.
+
+   *O que prova:* Novo superintendente no Rio Grande do Sul, designado na gestão Andrei Rodrigues.
+
+8. `N4` **Congresso em Foco**: [Flávio Dino exonera 26 chefes regionais da PRF e troca direção da PF em 18 estados](https://www.congressoemfoco.com.br/area/governo/dino-exonera-26-chefes-regionais-da-prf-e-troca-direcao-da-pf-em-18-estados) · consultada em 2026-10-17 · captura sha256 `197430da5c7668b8…`
    > O governo Lula trocou os superintendentes da Polícia Federal em 18 estados e exonerou 26 chefes estaduais da Polícia Rodoviária Federal (PRF). As decisões, assinadas pelos ministros Flávio Dino (Justiça e Segurança Pública) e Rui Costa (Casa Civil) foram publicadas em edição extra do Diário Oficial da União nessa quarta-feira (18).
 
-   *O que prova:* Número de superintendências da PF trocadas no ato de janeiro de 2023, com base no Diário Oficial.
+   *O que prova:* Apoio ao ato de 18/01/2023: dá o total de 18 estados que o Diário Oficial lista um a um.
 
-2. `N4` **Jornal de Brasília**: [Lula troca comando da PF em 18 estados e dispensa 26 superintendentes da PRF](https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-troca-comando-da-pf-em-18-estados-e-dispensa-26-superintendentes-da-prf/) · consultada em 2026-10-17 · captura sha256 `828e0950d4a1ff50…`
+9. `N4` **Jornal de Brasília**: [Lula troca comando da PF em 18 estados e dispensa 26 superintendentes da PRF](https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-troca-comando-da-pf-em-18-estados-e-dispensa-26-superintendentes-da-prf/) · consultada em 2026-10-17 · captura sha256 `828e0950d4a1ff50…`
    > O governo do presidente Luiz Inácio Lula da Silva (PT) promoveu nesta quinta-feira (19) uma grande mudança no comando da Polícia Federal nos estados, trocando 18 superintendentes regionais. [...] Lula já havia promovido a troca do superintendente da Polícia Federal no Distrito Federal, no dia seguinte aos atos golpistas,
 
-   *O que prova:* Confirma, com texto próprio, os 18 superintendentes do ato e a troca anterior no Distrito Federal.
+   *O que prova:* Apoio: os 18 do ato e a troca anterior no Distrito Federal.
 
-3. `N4` **Portal Tela**: [Polícia Federal passa por intensa reestruturação com 39 trocas de comando em 2023](https://www.portaltela.com/noticias/politica/2025/06/02/policia-federal-passa-por-intensa-reestruturacao-com-39-trocas-de-comando-em-2023/) · consultada em 2026-10-17 · captura sha256 `3dbde5984dea37d1…`
+10. `N4` **Portal Tela**: [Polícia Federal passa por intensa reestruturação com 39 trocas de comando em 2023](https://www.portaltela.com/noticias/politica/2025/06/02/policia-federal-passa-por-intensa-reestruturacao-com-39-trocas-de-comando-em-2023/) · consultada em 2026-10-17 · captura sha256 `3dbde5984dea37d1…`
    > A Polícia Federal (PF) passou por uma reestruturação significativa desde janeiro de 2023, sob a direção de Andrei Rodrigues. Mudanças ocorreram em quase todos os postos de comando , incluindo 13 das 14 diretorias e 26 das 27 superintendências regionais. A única exceção foi a superintendência do Rio Grande do Sul, estado de origem do diretor-geral. [...] Rodrigues promoveu 21 trocas de superintendentes regionais nos primeiros três meses de sua gestão, seguidas por outras 18.
 
-   *O que prova:* Única fonte achada para a contagem ao longo da gestão: 26 das 27, e não todas; fonte fraca, a confirmar.
+   *O que prova:* Única fonte para a contagem ao longo da gestão (26 das 27 até junho de 2025) e para as cinco superintendências cujos atos não foram abertos; os 21 dos três primeiros meses batem com o Diário Oficial.
 
-4. `N4` **TVT News**: [Diretores da PF colocam cargos à disposição em apoio a Andrei Rodrigues](https://tvtnews.com.br/superintendentes-pf-entrega-coletiva-cargos/) · consultada em 2026-10-17 · captura sha256 `5b67bbac6fa78e9f…`
+11. `N4` **TVT News**: [Diretores da PF colocam cargos à disposição em apoio a Andrei Rodrigues](https://tvtnews.com.br/superintendentes-pf-entrega-coletiva-cargos/) · consultada em 2026-10-17 · captura sha256 `5b67bbac6fa78e9f…`
    > Segundo a apuração, a iniciativa é defendida por integrantes das 27 superintendências da PF como forma de demonstrar insatisfação com o afastamento de Rodrigues,
 
    *O que prova:* Confirma que a PF tem 27 superintendências, o denominador da frase.
@@ -5219,7 +5278,7 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 | Apurado | seis superintendentes regionais trocados num só ato, em maio de 2020, segundo o Congresso em Foco |
 | Data de referência | maio de 2020 |
 
-**Análise:** A frase diz que Bolsonaro trocou um superintendente e isso gerou questionamento. O critério era ver as trocas de superintendentes em 2020, depois da saída de Moro, e se a comparação 'um contra 27' vale no mesmo cargo. O questionamento existiu e se concentrou no Rio: Moro disse ao sair que havia intenção de trocar superintendentes, 'novamente o do Rio' e depois o de Pernambuco (A Gazeta, com Estadão), e o Poder360 registra que, em 4 de maio de 2020, o primeiro ato do novo diretor-geral, Rolando de Souza, nomeado por Bolsonaro, foi trocar o comando no Rio. Mas a troca não foi de um só: o Congresso em Foco registra que a edição extra do Diário Oficial de 25 de maio de 2020 oficializou a troca de seis superintendentes regionais (Rio, Goiás, Paraíba, Rio Grande do Norte, Rio Grande do Sul e Tocantins), e o Metrópoles fala em mudanças de 26 superintendentes no período. A leitura das fontes aponta IMPRECISO (o essencial, o questionamento centrado no Rio, confere; o número 'um', não), mas a alegação é numérica e as quatro fontes são imprensa (N4): o Diário Oficial de 25/05/2020, que fixaria o número, não foi capturado. Pela regra 1 da METODOLOGIA §3.1, sem fonte N1 ou N2 o veredito é INSUSTENTAVEL, e não IMPRECISO. Não é FALSO: nenhuma fonte inverte a comparação. O que falta: o Diário Oficial de 25/05/2020 com as nomeações. A troca, como no caso de Lula, foi feita pelo diretor-geral escolhido pelo presidente, e não pelo presidente em pessoa. Passada de coerência de 17/out/2026: o veredito era IMPRECISO e o validador o reprovava por falta de fonte N1 ou N2; passou a INSUSTENTAVEL pela mesma régua da A113 (as 27 trocas atribuídas a Lula, só com imprensa), da A037 e das A018 e A040 do caso 2026-10-15-sabatina-lula-globo-2turno.
+**Análise:** A frase diz que Bolsonaro trocou um superintendente e isso gerou questionamento. O critério era ver as trocas de superintendentes em 2020, depois da saída de Moro, e se a comparação 'um contra 27' vale no mesmo cargo. O questionamento existiu e se concentrou no Rio: Moro disse ao sair que havia intenção de trocar superintendentes, 'novamente o do Rio' e depois o de Pernambuco (A Gazeta, com Estadão), e o Poder360 registra que, em 4 de maio de 2020, o primeiro ato do novo diretor-geral, Rolando de Souza, nomeado por Bolsonaro, foi trocar o comando no Rio. Mas a troca não foi de um só: o Congresso em Foco registra que a edição extra do Diário Oficial de 25 de maio de 2020 oficializou a troca de seis superintendentes regionais (Rio, Goiás, Paraíba, Rio Grande do Norte, Rio Grande do Sul e Tocantins), e o Metrópoles fala em mudanças de 26 superintendentes no período. A leitura das fontes aponta IMPRECISO (o essencial, o questionamento centrado no Rio, confere; o número 'um', não), mas a alegação é numérica e as quatro fontes são imprensa (N4): o Diário Oficial de 25/05/2020, que fixaria o número, não foi capturado. Pela regra 1 da METODOLOGIA §3.1, sem fonte N1 ou N2 o veredito é INSUSTENTAVEL, e não IMPRECISO. Não é FALSO: nenhuma fonte inverte a comparação. O que falta: o Diário Oficial de 25/05/2020 com as nomeações. A troca, como no caso de Lula, foi feita pelo diretor-geral escolhido pelo presidente, e não pelo presidente em pessoa. Passada de coerência de 17/out/2026: o veredito era IMPRECISO e o validador o reprovava por falta de fonte N1 ou N2; passou a INSUSTENTAVEL pela mesma régua da A037 e das A018 e A040 do caso 2026-10-15-sabatina-lula-globo-2turno (número de comparação sem fonte N1 ou N2). A A113, que na passada de coerência estava na mesma situação, ganhou o Diário Oficial na rodada 3 (21 trocas no início do governo) e passou a IMPRECISO; a parte desta comparação que fala de 2020 ("o Bolsonaro troca um") continua sem fonte N1 ou N2, e por isso esta alegação não muda.
 
 **Ressalva:** O Metrópoles fala em mudanças de 26 superintendentes no período, número que as outras fontes não repetem
 
@@ -5227,7 +5286,7 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: alterado. Revisão r4: Contra (pelo VERDADEIRO): 'troca um' pode ser o superintendente do Rio, o único questionado. Cai: a frase é a ponta de uma comparação numérica ('troca um [...] troca 27'), e o ato de 25/05/2020 trocou seis superintendentes (Congresso em Foco, com lista). Contra (pelo FALSO): o Metrópoles diz que, com a troca no Rio, a PF somava 26 superintendentes trocados, o que inverteria a comparação. Não derruba: o Metrópoles não diz o período, e mesmo com 6 ou 26 o número dito é outro no mesmo sentido, não oposto; pela §2.2, IMPRECISO. A ressalva da tela mostra o 26. Ponto para a rodada 2: a frase 'a direção da comparação se mantém' depende dos 18 da A113 contra os 6 de 2020, e cairia se o 26 do Metrópoles for do mesmo período curto. Trechos achados (p11/p12). · Coerência entre lotes e entre casos: Porta do validador (tipo comparacao sem N1 ou N2) e par A113. Seis superintendentes em maio de 2020 só na imprensa; o Diário Oficial de 25/05/2020 não está capturado (varri as capturas dos dois casos). Pela regra 1 da §3.1, IMPRECISO passou a INSUSTENTAVEL, a mesma régua da A113 (27 trocas de Lula), da A037 e das A018 e A040 de 15/out. A explicação diz o que falta e por que não é FALSO.
+**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: alterado. Revisão r4: Contra (pelo VERDADEIRO): 'troca um' pode ser o superintendente do Rio, o único questionado. Cai: a frase é a ponta de uma comparação numérica ('troca um [...] troca 27'), e o ato de 25/05/2020 trocou seis superintendentes (Congresso em Foco, com lista). Contra (pelo FALSO): o Metrópoles diz que, com a troca no Rio, a PF somava 26 superintendentes trocados, o que inverteria a comparação. Não derruba: o Metrópoles não diz o período, e mesmo com 6 ou 26 o número dito é outro no mesmo sentido, não oposto; pela §2.2, IMPRECISO. A ressalva da tela mostra o 26. Ponto para a rodada 2: a frase 'a direção da comparação se mantém' depende dos 18 da A113 contra os 6 de 2020, e cairia se o 26 do Metrópoles for do mesmo período curto. Trechos achados (p11/p12). · Coerência entre lotes e entre casos: Porta do validador (tipo comparacao sem N1 ou N2) e par A113. Seis superintendentes em maio de 2020 só na imprensa; o Diário Oficial de 25/05/2020 não está capturado (varri as capturas dos dois casos). Pela regra 1 da §3.1, IMPRECISO passou a INSUSTENTAVEL, a mesma régua da A113 (27 trocas de Lula), da A037 e das A018 e A040 de 15/out. A explicação diz o que falta e por que não é FALSO. · Rodada 3: a explicação passou a dizer que a A113 ganhou o Diário Oficial e virou IMPRECISO; o veredito da A114 não muda (a parte de 2020 segue sem N1 ou N2).
 
 **Fontes:**
 
@@ -7345,7 +7404,7 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 
 ---
 
-### A161 · 🟠 SEM COMPROVAÇÃO · 00:31:59
+### A161 · 🟢 VERDADEIRO · 00:31:59
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `economia` · tipo: `serie_historica`
 
@@ -7355,59 +7414,73 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 
 **Contexto:** Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula
 
-**Resumo (o que aparece no vídeo):** Fechamentos de empresas subiram em 2024 e 2025 nos quadrimestres conferidos; o total anual que diria o recorde falta
+**Resumo (o que aparece no vídeo):** Mapa de Empresas: 2.436.190 empresas fechadas em 2024, o maior número da série; 2018 teve 2,43 milhões
 
 | | |
 |---|---|
 | Dito | não se aplica |
-| Apurado | fechamentos: 854.150 e 830.525 (primeiro e segundo quadrimestres de 2024); 973.330 e 942.049 (primeiro e segundo de 2025); 2.153.840 no ano de 2023 |
-| Data de referência | Mapa de Empresas: quadrimestres de 2024 e 2025 e ano de 2023; totais anuais de 2024 e 2025 não localizados |
+| Apurado | 2.436.190 empresas fechadas em 2024, contra 2,43 milhões em 2018, o maior ano anterior, e 2.153.840 em 2023; 1.915.379 de janeiro a agosto de 2025 |
+| Data de referência | Mapa de Empresas: ano de 2024 (boletim do 3º quadrimestre de 2024) e série desde 2010; 2025 até agosto |
 
-**Análise:** Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: refeita na rodada 2 de 17/out/2026 (parte 3), com três buscas e cerca de 40 endereços de boletim tentados, e ainda incompleta. A frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério é a série do Mapa de Empresas (Ministério do Empreendedorismo), em número absoluto e com MEI. O que está conferido, por quadrimestre: 854.150 fechamentos no 1º quadrimestre de 2024 (alta de 15,5% sobre 2023), 830.525 no 2º de 2024 (alta de 11,7%), 973.330 no 1º de 2025 e 942.049 no 2º de 2025 (alta de 12,9%). No 2º quadrimestre, o gráfico do boletim de 2024 (série de 2014 a 2024) e o de 2025 (2020 a 2025) mostram cada ano do governo atual acima do anterior, o que é recorde nesse recorte. No 1º quadrimestre não é: em 2023 os 737 mil fechamentos foram 'o maior número desde 2018' (Gazeta do Povo, reproduzindo o boletim), porque 2018 teve o cancelamento em massa de MEIs inadimplentes (Resolução CGSIM nº 44, citada no boletim anual de 2023). No ano, o último total conferido é o de 2023: 2.153.840 fechamentos, alta de 25,7%. Faltam os boletins anuais de 2024 e 2025 (3º quadrimestre) e o do 1º quadrimestre de 2026, vigentes na data da fala: os endereços do gov.br deram 404 (pastas p17-r3, r2parte3 e r2parte3-r6), a cópia do Poder360 não existe para eles, e três buscas não acharam o total anual de 2024 nem o de 2025 (só o recorde de aberturas de 2025, do Sebrae). Sem o total anual não se diz se 2024 ou 2025 superaram 2018 em número absoluto; por isso o veredito segue INSUSTENTAVEL provisório, e não VERDADEIRO nem FALSO. Contexto que vale para qualquer veredito final: no mesmo período as aberturas superaram os fechamentos (saldo de 726.704 no 2º quadrimestre de 2025), e o número absoluto cresce com o estoque de empresas ativas. Nota: Diário do Comércio e Gazeta do Povo reproduzem o Mapa de Empresas e contam como apoio (regra 2 da §3.1). A refazer: boletim do 3º quadrimestre de 2024 e de 2025 e total anual de 2018 com o mesmo método.
+**Análise:** Refeita na rodada 2 de 17/out/2026 (terceira tentativa, parte rodada3), depois de duas tentativas que não acharam o total anual. A frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério, escrito antes da busca, é a série do Mapa de Empresas (governo federal), em número absoluto e com MEI, olhando também o saldo. Achado nesta rodada o boletim do 3º quadrimestre de 2024 (resumo do ano), num endereço com nome diferente dos tentados antes ('boletim-do-mapa-de-empresas-3o-quad-2024', citado num repositório público que reúne a série): em 2024 foram fechadas 2.436.190 empresas, alta de 12,1% sobre 2023. O gráfico do mesmo boletim (2014 a 2024) põe 2024 no topo dos fechamentos, com 2,44 milhões, acima de 2018, o pico anterior, com 2,43 milhões; o boletim de 2020 (série de 2010 a 2020) mostra que nenhum ano antes de 2018 chegou perto (2018 aparece ali com 2,42 milhões). Os rótulos do gráfico foram lidos na página renderizada do PDF. 2.436.190 fica acima de qualquer valor que arredonde para 2,43 milhões, então 2024 é o maior ano da série, ainda que por pouco. Os rótulos do gráfico são arredondados, não truncados: o próprio 2024 (2.436.190) aparece como 2,44 milhões; por isso o 2,43 milhões de 2018 fica abaixo de 2.435.000, e a ordem entre os dois anos está no mesmo gráfico, na mesma revisão da série. A atribuição de cada rótulo ao ano foi conferida de novo na página renderizada, na revisão adversarial da rodada 3. Segunda fonte, independente no método: o Sebrae, com a base de CNPJ da Receita Federal, registra 2.395.523 pequenos negócios baixados em 2024, o maior número de 2019 a 2024 (o dobro de 2019). O ano de 2025 não muda o veredito: o boletim anual de 2025 não foi achado (os endereços deram 404), mas de janeiro a agosto foram 1.915.379 fechamentos (973.330 mais 942.049), 13,7% acima do mesmo período de 2024 (854.150 mais 830.525); se 2025 superou 2024, o recorde continua no governo atual, e se não superou, o recorde é 2024. Por que VERDADEIRO e não IMPRECISO: o número absoluto, com MEI, que é o critério, confere, e o recorte não inverte nada; o contexto vai na ressalva. O recorde é de número absoluto, que cresce com o estoque de empresas (22.004.843 ativas no fim de 2024); parte dos fechamentos são baixas de ofício de MEI pela Receita Federal (o Sebrae aponta ago-set/2024), como em 2018 (cancelamento em massa de MEIs, Resolução CGSIM nº 44); e as aberturas também cresceram, com saldo positivo de 1.818.713 empresas em 2024. Confiança média: a margem sobre 2018 é pequena e lida em rótulo de gráfico, e o total de 2025 não foi conferido. Nota: o Diário do Comércio reproduz o Mapa de Empresas e conta como apoio (regra 2 da §3.1).
 
-**⚠️ Divergência entre fontes:** O Diário do Comércio diz que os 973.330 fechamentos do 1º quadrimestre de 2025 foram 'queda de 13,4%' sobre o ano anterior; o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%.
+**Ressalva:** Recorde em número absoluto, com MEI e baixas de ofício; o saldo de 2024 foi positivo, de 1.818.713 empresas
 
-**Confiança:** baixa
+**⚠️ Divergência entre fontes:** O Diário do Comércio diz que os 973.330 fechamentos do 1º quadrimestre de 2025 foram 'queda de 13,4%' sobre o ano anterior; o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%. O total de 2018 aparece como 2,42 milhões no boletim de 2020 e como 2,43 milhões no de 2024 (revisão da série); nos dois, abaixo de 2024. O Sebrae (2.395.523) conta só pequenos negócios, com outra base, e não diverge no sentido. O boletim do 2º quadrimestre de 2025 diz que os 942.049 fechamentos foram queda de 4,5% sobre o quadrimestre anterior, o que não fecha com os 973.330 do Diário do Comércio (daria cerca de 3%), e alta de 12,9% sobre o mesmo período de 2024, que não fecha com os 830.525 do boletim de 2024: a série é revista a cada edição, e a soma de janeiro a agosto pode variar alguns milhares, sem mudar a conclusão.
 
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: mantido. Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. O resumo traz o número do 2º quadrimestre e diz que a série anual não foi conferida; lido sozinho, o laranja não sugere recorde. O que falta para a rodada 2: boletins anuais de 2024 e 2025 e o do 1º quadrimestre de 2026 do Mapa de Empresas, com e sem MEI, e os anos de 2015 e 2018 que o próprio boletim cita. Trechos achados na p17 e p17-r2. · Revisão da rodada 2: Provisório: marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' no início da explicação e confiança baixa, conferidos. Não refeito. Derivação 973.330 contra 854.150 (alta de cerca de 14%) refeita; a divergência com o Diário do Comércio está declarada. Seis trechos achados.
+**Confiança:** media
+
+**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: mantido. Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. O resumo traz o número do 2º quadrimestre e diz que a série anual não foi conferida; lido sozinho, o laranja não sugere recorde. O que falta para a rodada 2: boletins anuais de 2024 e 2025 e o do 1º quadrimestre de 2026 do Mapa de Empresas, com e sem MEI, e os anos de 2015 e 2018 que o próprio boletim cita. Trechos achados na p17 e p17-r2. · Revisão da rodada 2: Provisório: marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' no início da explicação e confiança baixa, conferidos. Não refeito. Derivação 973.330 contra 854.150 (alta de cerca de 14%) refeita; a divergência com o Diário do Comércio está declarada. Seis trechos achados. · Rodada 3 (17/out, com busca) e revisão da rodada 3: Mantido VERDADEIRO. Ataque: o pico de 2018 é rótulo de gráfico. O rótulo 2,43Mi está no texto capturado (regra 5), e a ligação com 2018 foi conferida renderizando as páginas: 2,43 em 2018 e 2,44 em 2024 no boletim de 2024; 2,42 em 2018 no de 2020. Faltava provar que o gráfico arredonda: com truncamento, 2018 poderia passar 2.436.190. O rótulo do próprio 2024 (2,44) prova o arredondamento, e a frase entrou na explicação. O Sebrae cobre só 2019 a 2024; para 2018 a fonte é uma (Mapa de Empresas, N1, duas edições), mas a regra 1 vale para a alegação: N1 mais N2 independentes, ambas com 2024 no topo. O resumo mostra os dois números, então o quase empate não fica escondido; a ressalva cobre número absoluto, MEI, baixas de ofício e saldo. Divergência acrescentada: os percentuais do boletim de 2025 mostram revisão da série, sem mudar a conclusão. Oito trechos achados.
 
 **Números derivados por cálculo:**
 
 | Valor | De | Como |
 |---|---|---|
 | alta de cerca de 14% | `973.330 e 854.150` | variação entre o 1º quadrimestre de 2025 e o de 2024: 973.330 dividido por 854.150, menos 1 |
+| 1.915.379 fechamentos de janeiro a agosto de 2025 | `973.330 mais 942.049` | soma do 1º e do 2º quadrimestres de 2025 |
+| 13,7% acima de janeiro a agosto de 2024 | `973.330 mais 942.049, contra 854.150 mais 830.525` | a soma de 2025 (1.915.379) dividida pela soma dos dois primeiros quadrimestres de 2024 (1.684.675), menos 1 |
 
 **Fontes:**
 
-1. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)**: [Mapa de Empresas, boletim do 2º quadrimestre de 2025](https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf) · consultada em 2026-10-17 · captura sha256 `dcba621d6339596a…`
+1. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)**: [Boletim do Mapa de Empresas, 3º quadrimestre de 2024 (resumo do ano)](https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/boletim-do-mapa-de-empresas-3o-quad-2024.pdf/@@download/file) · consultada em 2026-10-17 · captura sha256 `1a9be3ab669479ea…`
+   > No mesmo período foram fechadas 2.436.190 empresas, aumento de 12,1% quando comparado com 2023. [...] Os resultados revelam um saldo anual positivo de 1.818.713 empresas abertas em 2024, com um número total de 22.004.843 empresas ativas. [...] Histórico de abertura e fechamento de empresas (2014 a 2024). [...] 2,44Mi [...] 2,43Mi [...] Já em 2018, um dos fatores determinantes para o expressivo número de empresas fechadas foi a aprovação da Resolução CGSIM nº 44
+
+   *O que prova:* Total oficial de fechamentos de 2024 e o gráfico da série de 2014 a 2024, em que 2024 (2,44 milhões) fica acima de 2018 (2,43 milhões), o pico anterior, explicado pelo próprio boletim como cancelamento em massa de MEIs; dá também o saldo positivo e o estoque de empresas ativas.
+
+2. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas); edição do Ministério da Economia**: [Mapa de Empresas, boletim do 3º quadrimestre de 2020 (série de 2010 a 2020)](https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2020.pdf/@@download/file) · consultada em 2026-10-17 · captura sha256 `72cd3f736a8b19c9…`
+   > Histórico de abertura e fechamento de empresas (2010 a 2020). [...] 2,42Mi [...] Por outro lado, foram fechadas 1.044.696 empresas
+
+   *O que prova:* Estende a série para trás: de 2010 a 2020 o maior número de fechamentos é o de 2018 (2,42 milhões no gráfico lido na página renderizada), abaixo dos 2.436.190 de 2024.
+
+3. `N2` **Sebrae Nacional (base de CNPJ da Receita Federal)**: [Análise de Abertura e Fechamento de Empresas por Setor e CNAE no Brasil (2019-2024)](https://sebraepr.com.br/wp-content/uploads/2025/09/PUB_Analise-de-Abertura-e-Fechamento-de-Empresas-por-Setor-e-CNAE-no-Brasil-2019-2024.pdf) · consultada em 2026-10-17 · captura sha256 `ddf8f83ccfe8e458…`
+   > O total de PN com CNPJ baixado dobrou entre 2019 e 2024, passando de 1,2 milhão para 2,4 milhões. [...] Ago-Set/2024: Realização de medidas para redução de MEI ativos com pendências, intensificando baixas de ofício [...] Fechamentos [...] Total (PN) 1.160.101 1.043.052 1.418.214 1.676.183 2.131.117 2.395.523
+
+   *O que prova:* Fonte independente no método (cadastro de CNPJ da Receita, só pequenos negócios): 2024 é o ano com mais baixas de 2019 a 2024, e parte delas foi baixa de ofício de MEI.
+
+4. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas); cópia hospedada pelo Poder360**: [Mapa de Empresas, boletim do 2º quadrimestre de 2025](https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf) · consultada em 2026-10-17 · captura sha256 `dcba621d6339596a…`
    > No mesmo período foram fechadas 942.049 empresas, queda de 4,5% quando comparado com o quadrimestre anterior e aumento de 12,9% em relação ao mesmo período em 2024. [...] Saldo positivo: 726.704 empresas
 
-   *O que prova:* Dá o número de fechamentos mais recente da série oficial e mostra que, no mesmo período, as aberturas superaram os fechamentos.
+   *O que prova:* Fechamentos do 2º quadrimestre de 2025, o dado mais recente da série oficial achado; mostra 2025 acima de 2024 no mesmo período.
 
-2. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)**: [Mapa de Empresas, boletim do 1º quadrimestre de 2024](https://static.poder360.com.br/2024/08/Mapa-de-empresas-boletim-1o-quadrimestre-2024.pdf) · consultada em 2026-10-17 · captura sha256 `a72c32ed1ee04f2e…`
+5. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas); cópia hospedada pelo Poder360**: [Mapa de Empresas, boletim do 1º quadrimestre de 2024](https://static.poder360.com.br/2024/08/Mapa-de-empresas-boletim-1o-quadrimestre-2024.pdf) · consultada em 2026-10-17 · captura sha256 `a72c32ed1ee04f2e…`
    > Por outro lado, foram fechadas 854.150 empresas, representando aumento de 24,4% nos números de fechamento de empresas em relação ao terceiro quadrimestre de 2023, além de aumento de 15,5% em relação ao primeiro quadrimestre de 2023.
 
-   *O que prova:* Fechamentos do 1º quadrimestre de 2024, base para medir a variação de 2025.
+   *O que prova:* Fechamentos do 1º quadrimestre de 2024, base para comparar janeiro a agosto de 2025 com 2024.
 
-3. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)**: [Mapa de Empresas, boletim do 2º quadrimestre de 2024](https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2024.pdf/@@download/file) · consultada em 2026-10-17 · captura sha256 `882c51d7e3a8625a…`
-   > Histórico de abertura e fechamento de empresas no segundo quadrimestre (2014 a 2024). [...] Por outro lado, foram fechadas 830.525 empresas, representando queda de 3,0% nos números de fechamento de empresas em relação ao primeiro quadrimestre de 2024, além de aumento de 11,7% em relação ao segundo quadrimestre de 2023.
+6. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)**: [Mapa de Empresas, boletim do 2º quadrimestre de 2024](https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2024.pdf/@@download/file) · consultada em 2026-10-17 · captura sha256 `882c51d7e3a8625a…`
+   > Por outro lado, foram fechadas 830.525 empresas, representando queda de 3,0% nos números de fechamento de empresas em relação ao primeiro quadrimestre de 2024, além de aumento de 11,7% em relação ao segundo quadrimestre de 2023.
 
-   *O que prova:* Fechamentos do 2º quadrimestre de 2024, maiores que os do mesmo quadrimestre de 2023, na série que o boletim mostra desde 2014.
+   *O que prova:* Fechamentos do 2º quadrimestre de 2024, a outra parcela da comparação de janeiro a agosto.
 
-4. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)**: [Mapa de Empresas, boletim do 3º quadrimestre de 2023 (resumo do ano)](https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf/@@download/file) · consultada em 2026-10-17 · captura sha256 `227f2cdad22ab6c4…`
-   > No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022. [...] Já em 2018, um dos fatores determinantes para o expressivo número de empresas fechadas foi a aprovação da Resolução CGSIM nº 44, de 29 de janeiro de 2018
+7. `N1` **Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)**: [Mapa de Empresas, boletim do 3º quadrimestre de 2023 (resumo do ano)](https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf/@@download/file) · consultada em 2026-10-17 · captura sha256 `227f2cdad22ab6c4…`
+   > No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022.
 
-   *O que prova:* Total anual de 2023, o último ano fechado que foi possível conferir, e o aviso do próprio boletim de que 2018 teve fechamentos expressivos por cancelamento de MEIs; não basta para dizer se 2024 ou 2025 bateram recorde.
+   *O que prova:* Total de 2023, abaixo do de 2024 e de 2018: o recorde do governo atual é o de 2024, não o de 2023.
 
-5. `N4` **Gazeta do Povo (com dados do Mapa de Empresas)**: [Saldo de abertura de empresas no Brasil é o menor em cinco anos (30/05/2023)](https://www.gazetadopovo.com.br/economia/saldo-abertura-empresas-brasil-menor-desde-2018/) · consultada em 2026-10-17 · captura sha256 `ec839305c076a594…`
-   > De janeiro a abril, país registrou fechamento de 737 mil empresas, maior número desde 2018.
-
-   *O que prova:* Mostra que no 1º quadrimestre o pico da série é de 2018, ano do cancelamento em massa de MEIs, e não do governo atual.
-
-6. `N4` **Diário do Comércio (MG), citando o Mapa de Empresas**: [Minas Gerais é o segundo estado com mais empresas fechadas no País no 1º quadrimestre (28/05/2025)](https://diariodocomercio.com.br/economia/mg-foi-segundo-estado-maior-fechamento-empresas/) · consultada em 2026-10-17 · captura sha256 `4de26f9db9120e66…`
+8. `N4` **Diário do Comércio (MG), citando o Mapa de Empresas**: [Minas Gerais é o segundo estado com mais empresas fechadas no País no 1º quadrimestre (28/05/2025)](https://diariodocomercio.com.br/economia/mg-foi-segundo-estado-maior-fechamento-empresas/) · consultada em 2026-10-17 · captura sha256 `4de26f9db9120e66…`
    > No mesmo período foram fechadas 973.330 empresas, queda de 13,4% quando comparado com o ano anterior.
 
-   *O que prova:* Dá o fechamento do 1º quadrimestre de 2025 (973.330). A matéria diz 'queda de 13,4%', mas o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%, e os números estaduais da própria matéria sobem: a variação está lida como alta, com a divergência declarada.
+   *O que prova:* Dá o fechamento do 1º quadrimestre de 2025 (973.330), cujo boletim oficial não foi achado. A matéria diz 'queda de 13,4%', mas o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%: a variação está lida como alta, com a divergência declarada.
 
 ---
 

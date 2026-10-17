@@ -107,17 +107,102 @@
     },
     {
       "id": "A113",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Duas fontes registram 18 superintendências da PF trocadas num só ato em 2023; o total de 27 não foi confirmado",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a rodada 2 de 17/out/2026 refez a busca e ela de novo não terminou. Cinco das nove buscas desta rodada foram para esta alegação: a frase exata '26 das 27 superintendências', as trocas de Andrei Rodrigues com a exceção do Rio Grande do Sul, o levantamento das '39 trocas' de comando citado pelo Portal Tela, as notas de apoio a Andrei Rodrigues de agosto e setembro de 2026 (que falam em 27 superintendentes signatários, não em 27 trocados) e a edição extra do Diário Oficial de 18/01/2023. Nenhuma achou a reportagem original do '26 das 27' nem o Diário Oficial, e a página do Conjur que pode trazer o levantamento recusou o robô de novo (403). O que está documentado continua igual: duas fontes independentes registram 18 superintendentes trocados num só ato, publicado em edição extra do Diário Oficial na noite de 18/01/2023 (Congresso em Foco e Jornal de Brasília), e o Jornal de Brasília acrescenta a troca anterior no Distrito Federal; uma única fonte fraca, o Portal Tela (texto gerado por ferramenta e revisado pela redação, que resume reportagem de terceiros), diz que desde janeiro de 2023 houve mudança em 26 das 27 superintendências, com a do Rio Grande do Sul como única exceção. Nenhuma fonte dá as 27. A tendência é IMPRECISO (o essencial, a troca em massa no início do governo, confere; o número 27 não), mas a alegação é numérica e o veredito amarelo exige fonte N1 ou N2 (o Diário Oficial ou portarias de 2023 a 2025), que não foi alcançada no limite de buscas. Falta: o Diário Oficial com as nomeações, ou o levantamento original, para fixar o número e decidir entre IMPRECISO e VERDADEIRO com ressalva. Não há contradição direta de sentido, por isso não é FALSO.",
+      "veredito": "IMPRECISO",
+      "resumo": "O Diário Oficial registra 21 das 27 superintendências da PF trocadas até março de 2023, não as 27",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (terceira tentativa, parte rodada3) com o Diário Oficial da União (N1), consultado pela busca do próprio portal da Imprensa Nacional, e revista na passada adversarial da rodada 3, que trocou VERDADEIRO por IMPRECISO. A frase ('ele trocou os 27 superintendentes de toda a federação') vem logo depois de 'a primeira coisa que o meu adversário fez quando sentou na cadeira de presidente da República foi botar o amigo dele, Andrei', e é a ponta da comparação com Bolsonaro, que 'troca um'; a extração, feita antes da checagem, leu 'no início do governo Lula'. O critério era contar quantas das 27 superintendências tiveram o titular trocado na gestão Andrei Rodrigues, e em que período. O Diário Oficial registra: o ato de 18/01/2023 da Casa Civil dispensa e designa superintendentes em 18 estados (Rio Grande do Norte, Mato Grosso do Sul, Rondônia, Santa Catarina, Rio de Janeiro, Goiás, Sergipe, Pernambuco, Maranhão, Mato Grosso, Tocantins, Paraíba, Alagoas, São Paulo, Paraná, Pará, Amazonas e Minas Gerais), o mesmo número de Congresso em Foco e Jornal de Brasília; a do Distrito Federal foi trocada antes (Jornal de Brasília; nomeação do novo superintendente nas portarias de 19/01/2023); a da Bahia em 24/01/2023 e a de Roraima em 07/03/2023. São 21 nos três primeiros meses, o mesmo número que o Portal Tela dá para o período. Depois disso, o único ato conferido é o do Rio Grande do Sul: em abril de 2024 o superintendente era Thiago Machado Delabary, e em 12/11/2025 foram dispensado Aldronei Antonio Pacheco Rodrigues e designado Alessandro Maciel Lopes. Com ele, 22 superintendências têm troca registrada no Diário Oficial. As outras cinco (Acre, Amapá, Ceará, Espírito Santo e Piauí) só entram na conta pelo Portal Tela: fonte única, de imprensa, com o texto marcado como gerado por ferramenta ('Gerado por Telinha', revisado pela redação), sem citar ato oficial, e cuja 'única exceção' do Rio Grande do Sul o próprio Diário Oficial desmente. Pelas regras 1 a 3 da §3.1, ela não fecha o número sozinha. Por que IMPRECISO: na leitura da frase como o que foi feito ao assumir, a do contexto e a da extração, o registro oficial dá 21 (18 num único ato), não 27, desvio de 22%; na leitura da gestão inteira, adotada na rodada 2 depois de ver o resultado (METODOLOGIA §5), o que está documentado chega a 22, desvio de 19%, e o 27 depende da fonte única. Nas duas leituras o número dito fica mais de 10% acima do registrado (régua do §2.2), e o essencial confere: a troca em massa dos superintendentes no início da gestão Andrei, muito acima de uma troca só. Não é INSUSTENTAVEL porque há fonte N1 para o essencial e para o número apurado (a A114 e a A037 só tinham imprensa); é a régua da A036, em que o registro oficial confirma a ordem de grandeza e corrige o número. Não é FALSO: nenhuma fonte inverte a frase, e as cinco superintendências sem ato conferido podem ter sido trocadas. O que falta para a leitura da gestão inteira: os atos do Diário Oficial do Acre, Amapá, Ceará, Espírito Santo e Piauí. Nota: Congresso em Foco e Jornal de Brasília reproduzem o ato do Diário Oficial, conferido aqui, e contam como apoio (regra 2 da §3.1). A A114 (Bolsonaro 'troca um') usa os 18 de janeiro de 2023 e segue coerente com esta.",
       "numero_dito": "27 superintendentes",
-      "numero_apurado": "18 superintendências num só ato de janeiro de 2023; 26 das 27 até 2025 segundo uma única fonte, a confirmar",
-      "data_de_referencia": "janeiro de 2023 (ato de 18/01) e gestão Andrei Rodrigues até 2025",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "As fontes não divergem entre si, mas medem períodos diferentes: 18 num só ato de janeiro de 2023 (Congresso em Foco, Jornal de Brasília), 21 nos três primeiros meses e 26 das 27 ao longo da gestão (Portal Tela, fonte única).",
+      "numero_apurado": "21 superintendências trocadas até março de 2023 (18 delas num só ato, em 18 de janeiro) e 22 até novembro de 2025, no Diário Oficial",
+      "data_de_referencia": "janeiro a março de 2023 (atos no Diário Oficial, início da gestão Andrei Rodrigues) e 12/11/2025 (Rio Grande do Sul)",
+      "ressalva": "Até 2025 o Diário Oficial soma 22 trocas; outras cinco só aparecem numa fonte de imprensa, sem ato conferido",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Portal Tela (junho de 2025) diz que o Rio Grande do Sul foi a única superintendência não trocada; o Diário Oficial mostra Thiago Machado Delabary no cargo em abril de 2024 e a dispensa de Aldronei Antonio Pacheco Rodrigues com a designação de Alessandro Maciel Lopes em 12/11/2025, o que contradiz ou desatualiza a exceção. O mesmo texto do Portal Tela tem no título '39 trocas de comando em 2023' e no corpo a contagem até 2025. As demais fontes medem períodos diferentes (18 num ato, 21 em três meses) e não divergem entre si.",
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "21 superintendências trocadas até 7 de março de 2023",
+          "de": "18 mais 3",
+          "como": "as 18 do ato de 18/01/2023 mais Distrito Federal (19/01), Bahia (24/01) e Roraima (07/03), todas em atos do Diário Oficial"
+        },
+        {
+          "valor": "22 superintendências com troca registrada no Diário Oficial até novembro de 2025",
+          "de": "21 mais 1",
+          "como": "as 21 até março de 2023 mais a do Rio Grande do Sul, em 12/11/2025"
+        },
+        {
+          "valor": "desvio de 22%",
+          "de": "27 contra 21",
+          "como": "27 (número dito) menos 21 (registro oficial no início da gestão), dividido por 27"
+        },
+        {
+          "valor": "desvio de 19%",
+          "de": "27 contra 21 mais 1",
+          "como": "27 (número dito) menos 22 (as 21 do início mais a do Rio Grande do Sul, registro oficial na gestão inteira), dividido por 27, arredondado"
+        }
+      ],
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Diário Oficial da União (Imprensa Nacional), atos da Casa Civil",
+          "titulo": "Portarias de 18 de janeiro de 2023 (Seção 2)",
+          "url": "https://www.in.gov.br/web/dou/-/portarias-de-18-de-janeiro-de-2023-458729429",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nº 751 - DISPENSAR LUIZ CARLOS NOBREGA NELSON da função de Superintendente Regional de Polícia Federal do Rio Grande do Norte da Polícia Federal do Ministério da Justiça e Segurança Pública, código FCE 1.13. [...] UMBERTO RAMOS RODRIGUES, para exercer a função e Superintendente Regional de Polícia Federal no Amazonas [...] Nº 786 - DISPENSAR MARCELO SALVIO REZENDE VIEIRAS da função de Superintendente Regional de Polícia Federal em Minas Gerais da Polícia Federal do Ministério da Justiça e Segurança Pública, código FCE 1.13.",
+          "prova": "O ato que troca os superintendentes da PF em 18 estados (entre os nº 751 e 786, ao lado de dispensas da PRF; um dispensado e um designado por estado), conferido no texto oficial."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Diário Oficial da União (Imprensa Nacional)",
+          "titulo": "Portarias de 19 de janeiro de 2023 (Seção 2)",
+          "url": "https://www.in.gov.br/web/dou/-/portarias-de-19-de-janeiro-de-2023-458981514",
+          "consultada_em": "2026-10-17",
+          "trecho": "CEZAR LUIZ BUSTO DE SOUZA, para exercer a função de Superintendente Regional de Polícia Federal no Distrito Federal da Polícia Federal do Ministério da Justiça e Segurança Pública, código FCE 1.13.",
+          "prova": "Nomeação do novo superintendente no Distrito Federal, a 19ª troca."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Diário Oficial da União (Imprensa Nacional), Ministério da Justiça",
+          "titulo": "Portaria de Pessoal SE/MJSP nº 334, de 24 de janeiro de 2023",
+          "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-334-de-24-de-janeiro-de-2023-459786672",
+          "consultada_em": "2026-10-17",
+          "trecho": "Designar o Delegado de Polícia Federal FLAVIO MARCIO ALBERGARIA SILVA para exercer a função de Superintendente Regional de Polícia Federal na Bahia da Polícia Federal, código FCE 1.13.",
+          "prova": "Novo superintendente na Bahia em janeiro de 2023."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Diário Oficial da União (Imprensa Nacional), Ministério da Justiça",
+          "titulo": "Portaria de Pessoal SE/MJSP nº 883, de 7 de março de 2023",
+          "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-883-de-7-de-marco-de-2023-469474347",
+          "consultada_em": "2026-10-17",
+          "trecho": "Designar o Delegado de Polícia Federal RONALDO GUILHERME CAMPOS para exercer a função de Superintendente Regional de Polícia Federal em Roraima, código FCE 1.13.",
+          "prova": "Novo superintendente em Roraima em março de 2023, o que fecha 21 trocas nos três primeiros meses."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Diário Oficial da União (Imprensa Nacional), Ministério da Justiça",
+          "titulo": "Portaria de Pessoal SE/MJSP nº 508, de 2 de abril de 2024",
+          "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-508-de-2-de-abril-de-2024-551455355",
+          "consultada_em": "2026-10-17",
+          "trecho": "THIAGO MACHADO DELABARY, Superintendente Regional da Polícia Federal no Rio Grande do Sul",
+          "prova": "Quem chefiava a superintendência do Rio Grande do Sul em abril de 2024."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Diário Oficial da União (Imprensa Nacional), Ministério da Justiça",
+          "titulo": "Portarias de Pessoal SE/MJSP de 12 de novembro de 2025",
+          "url": "https://www.in.gov.br/web/dou/-/portarias-de-pessoal-se/mjsp-de-12-de-novembro-de-2025-668994831",
+          "consultada_em": "2026-10-17",
+          "trecho": "Nº 1.691 - Dispensar o Delegado de Polícia Federal ALDRONEI ANTONIO PACHECO RODRIGUES da função de Superintendente Regional de Polícia Federal no Rio Grande do Sul, código FCE 1.13.",
+          "prova": "Troca no Rio Grande do Sul em novembro de 2025, a superintendência que o Portal Tela dava como exceção."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Diário Oficial da União (Imprensa Nacional), Ministério da Justiça",
+          "titulo": "Portaria de Pessoal SE/MJSP nº 1.692, de 12 de novembro de 2025",
+          "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-se/mjsp-n-1.692-de-12-de-novembro-de-2025-668984125",
+          "consultada_em": "2026-10-17",
+          "trecho": "Designar o Delegado de Polícia Federal ALESSANDRO MACIEL LOPES para exercer a função de Superintendente Regional de Polícia Federal no Rio Grande do Sul, código FCE 1.13, ficando dispensado da que atualmente ocupa.",
+          "prova": "Novo superintendente no Rio Grande do Sul, designado na gestão Andrei Rodrigues."
+        },
         {
           "nivel": "N4",
           "instituicao": "Congresso em Foco",
@@ -125,7 +210,7 @@
           "url": "https://www.congressoemfoco.com.br/area/governo/dino-exonera-26-chefes-regionais-da-prf-e-troca-direcao-da-pf-em-18-estados",
           "consultada_em": "2026-10-17",
           "trecho": "O governo Lula trocou os superintendentes da Polícia Federal em 18 estados e exonerou 26 chefes estaduais da Polícia Rodoviária Federal (PRF). As decisões, assinadas pelos ministros Flávio Dino (Justiça e Segurança Pública) e Rui Costa (Casa Civil) foram publicadas em edição extra do Diário Oficial da União nessa quarta-feira (18).",
-          "prova": "Número de superintendências da PF trocadas no ato de janeiro de 2023, com base no Diário Oficial."
+          "prova": "Apoio ao ato de 18/01/2023: dá o total de 18 estados que o Diário Oficial lista um a um."
         },
         {
           "nivel": "N4",
@@ -134,7 +219,7 @@
           "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-troca-comando-da-pf-em-18-estados-e-dispensa-26-superintendentes-da-prf/",
           "consultada_em": "2026-10-17",
           "trecho": "O governo do presidente Luiz Inácio Lula da Silva (PT) promoveu nesta quinta-feira (19) uma grande mudança no comando da Polícia Federal nos estados, trocando 18 superintendentes regionais. [...] Lula já havia promovido a troca do superintendente da Polícia Federal no Distrito Federal, no dia seguinte aos atos golpistas,",
-          "prova": "Confirma, com texto próprio, os 18 superintendentes do ato e a troca anterior no Distrito Federal."
+          "prova": "Apoio: os 18 do ato e a troca anterior no Distrito Federal."
         },
         {
           "nivel": "N4",
@@ -143,7 +228,7 @@
           "url": "https://www.portaltela.com/noticias/politica/2025/06/02/policia-federal-passa-por-intensa-reestruturacao-com-39-trocas-de-comando-em-2023/",
           "consultada_em": "2026-10-17",
           "trecho": "A Polícia Federal (PF) passou por uma reestruturação significativa desde janeiro de 2023, sob a direção de Andrei Rodrigues. Mudanças ocorreram em quase todos os postos de comando , incluindo 13 das 14 diretorias e 26 das 27 superintendências regionais. A única exceção foi a superintendência do Rio Grande do Sul, estado de origem do diretor-geral. [...] Rodrigues promoveu 21 trocas de superintendentes regionais nos primeiros três meses de sua gestão, seguidas por outras 18.",
-          "prova": "Única fonte achada para a contagem ao longo da gestão: 26 das 27, e não todas; fonte fraca, a confirmar."
+          "prova": "Única fonte para a contagem ao longo da gestão (26 das 27 até junho de 2025) e para as cinco superintendências cujos atos não foram abertos; os 21 dos três primeiros meses batem com o Diário Oficial."
         },
         {
           "nivel": "N4",
@@ -160,7 +245,7 @@
       "id": "A114",
       "veredito": "INSUSTENTAVEL",
       "resumo": "Imprensa registra seis superintendentes da PF trocados num só ato em maio de 2020; o Diário Oficial não foi conferido",
-      "explicacao": "A frase diz que Bolsonaro trocou um superintendente e isso gerou questionamento. O critério era ver as trocas de superintendentes em 2020, depois da saída de Moro, e se a comparação 'um contra 27' vale no mesmo cargo. O questionamento existiu e se concentrou no Rio: Moro disse ao sair que havia intenção de trocar superintendentes, 'novamente o do Rio' e depois o de Pernambuco (A Gazeta, com Estadão), e o Poder360 registra que, em 4 de maio de 2020, o primeiro ato do novo diretor-geral, Rolando de Souza, nomeado por Bolsonaro, foi trocar o comando no Rio. Mas a troca não foi de um só: o Congresso em Foco registra que a edição extra do Diário Oficial de 25 de maio de 2020 oficializou a troca de seis superintendentes regionais (Rio, Goiás, Paraíba, Rio Grande do Norte, Rio Grande do Sul e Tocantins), e o Metrópoles fala em mudanças de 26 superintendentes no período. A leitura das fontes aponta IMPRECISO (o essencial, o questionamento centrado no Rio, confere; o número 'um', não), mas a alegação é numérica e as quatro fontes são imprensa (N4): o Diário Oficial de 25/05/2020, que fixaria o número, não foi capturado. Pela regra 1 da METODOLOGIA §3.1, sem fonte N1 ou N2 o veredito é INSUSTENTAVEL, e não IMPRECISO. Não é FALSO: nenhuma fonte inverte a comparação. O que falta: o Diário Oficial de 25/05/2020 com as nomeações. A troca, como no caso de Lula, foi feita pelo diretor-geral escolhido pelo presidente, e não pelo presidente em pessoa. Passada de coerência de 17/out/2026: o veredito era IMPRECISO e o validador o reprovava por falta de fonte N1 ou N2; passou a INSUSTENTAVEL pela mesma régua da A113 (as 27 trocas atribuídas a Lula, só com imprensa), da A037 e das A018 e A040 do caso 2026-10-15-sabatina-lula-globo-2turno.",
+      "explicacao": "A frase diz que Bolsonaro trocou um superintendente e isso gerou questionamento. O critério era ver as trocas de superintendentes em 2020, depois da saída de Moro, e se a comparação 'um contra 27' vale no mesmo cargo. O questionamento existiu e se concentrou no Rio: Moro disse ao sair que havia intenção de trocar superintendentes, 'novamente o do Rio' e depois o de Pernambuco (A Gazeta, com Estadão), e o Poder360 registra que, em 4 de maio de 2020, o primeiro ato do novo diretor-geral, Rolando de Souza, nomeado por Bolsonaro, foi trocar o comando no Rio. Mas a troca não foi de um só: o Congresso em Foco registra que a edição extra do Diário Oficial de 25 de maio de 2020 oficializou a troca de seis superintendentes regionais (Rio, Goiás, Paraíba, Rio Grande do Norte, Rio Grande do Sul e Tocantins), e o Metrópoles fala em mudanças de 26 superintendentes no período. A leitura das fontes aponta IMPRECISO (o essencial, o questionamento centrado no Rio, confere; o número 'um', não), mas a alegação é numérica e as quatro fontes são imprensa (N4): o Diário Oficial de 25/05/2020, que fixaria o número, não foi capturado. Pela regra 1 da METODOLOGIA §3.1, sem fonte N1 ou N2 o veredito é INSUSTENTAVEL, e não IMPRECISO. Não é FALSO: nenhuma fonte inverte a comparação. O que falta: o Diário Oficial de 25/05/2020 com as nomeações. A troca, como no caso de Lula, foi feita pelo diretor-geral escolhido pelo presidente, e não pelo presidente em pessoa. Passada de coerência de 17/out/2026: o veredito era IMPRECISO e o validador o reprovava por falta de fonte N1 ou N2; passou a INSUSTENTAVEL pela mesma régua da A037 e das A018 e A040 do caso 2026-10-15-sabatina-lula-globo-2turno (número de comparação sem fonte N1 ou N2). A A113, que na passada de coerência estava na mesma situação, ganhou o Diário Oficial na rodada 3 (21 trocas no início do governo) e passou a IMPRECISO; a parte desta comparação que fala de 2020 (\"o Bolsonaro troca um\") continua sem fonte N1 ou N2, e por isso esta alegação não muda.",
       "numero_dito": "1 superintendente",
       "numero_apurado": "seis superintendentes regionais trocados num só ato, em maio de 2020, segundo o Congresso em Foco",
       "data_de_referencia": "maio de 2020",

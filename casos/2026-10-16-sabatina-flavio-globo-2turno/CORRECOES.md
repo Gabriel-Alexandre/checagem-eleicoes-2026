@@ -4,7 +4,7 @@ Registro de tudo o que mudou na checagem DEPOIS do primeiro veredito, antes de q
 
 ## 1. O limite de buscas web e a rodada 2 (17/out)
 
-A checagem das 207 alegações rodou em três ondas de 7 agentes, cada um com no máximo 7 buscas web, dentro do limite de 200 buscas por turno somadas entre todos os agentes (a lição da §1 do caso de 15/out, em que 15 agentes ao mesmo tempo esgotaram a busca). Onde a busca não foi exaustiva, o veredito saiu INSUSTENTAVEL com confiança baixa e a explicação começando por "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:". Saíram 23 assim da rodada 1, e os revisores marcaram mais 4 que eram provisórios de fato e não tinham o marcador (A015, A047, A095, A142; o caso da A155 de 15/out). Na rodada 2, com busca, outros 4 agentes refizeram os 27, e um quinto revisou a rodada 2.
+A checagem das 207 alegações rodou em três ondas de 7 agentes, cada um com no máximo 7 buscas web, dentro do limite de 200 buscas por turno somadas entre todos os agentes (a lição da §1 do caso de 15/out, em que 15 agentes ao mesmo tempo esgotaram a busca). Onde a busca não foi exaustiva, o veredito saiu INSUSTENTAVEL com confiança baixa e a explicação começando por "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:". Saíram 23 assim da rodada 1, e os revisores marcaram mais 4 que eram provisórios de fato e não tinham o marcador (A015, A047, A095, A142; o caso da A155 de 15/out). Na rodada 2, com busca, outros 4 agentes refizeram os 27, e um quinto revisou a rodada 2. Ficaram duas (A113 e A161), refeitas numa rodada 3 com as últimas 7 buscas do turno e revisadas por outro agente: A161 VERDADEIRO, A113 IMPRECISO. Nenhuma ficou provisória.
 
 | id | rodada 1 | rodada 2 | depois da revisão da rodada 2 e da coerência (atual) |
 |---|---|---|---|
@@ -20,13 +20,13 @@ A checagem das 207 alegações rodou em três ondas de 7 agentes, cada um com no
 | A072 | INSUSTENTAVEL (provisório) | VERDADEIRO | VERDADEIRO |
 | A086 | INSUSTENTAVEL (provisório) | VERDADEIRO | VERDADEIRO |
 | A095 | VERDADEIRO (provisório) | VERDADEIRO | VERDADEIRO |
-| A113 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL (provisório) | INSUSTENTAVEL (provisório) |
+| A113 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL | IMPRECISO |
 | A142 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL | INSUSTENTAVEL |
 | A144 | INSUSTENTAVEL (provisório) | IMPRECISO | IMPRECISO |
 | A151 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL | INSUSTENTAVEL |
 | A152 | INSUSTENTAVEL (provisório) | IMPRECISO | IMPRECISO |
 | A153 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL | INSUSTENTAVEL |
-| A161 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL (provisório) | INSUSTENTAVEL (provisório) |
+| A161 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL | VERDADEIRO |
 | A162 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL | INSUSTENTAVEL |
 | A173 | INSUSTENTAVEL (provisório) | VERDADEIRO | INSUSTENTAVEL |
 | A174 | INSUSTENTAVEL (provisório) | VERDADEIRO | INSUSTENTAVEL |
@@ -36,11 +36,11 @@ A checagem das 207 alegações rodou em três ondas de 7 agentes, cada um com no
 | A200 | INSUSTENTAVEL (provisório) | VERDADEIRO | VERDADEIRO |
 | A201 | INSUSTENTAVEL (provisório) | INSUSTENTAVEL | INSUSTENTAVEL |
 
-As que seguem provisórias no fim deste turno estão marcadas acima e no `ESTADO.md` do repositório, com o que falta.
+Na coluna da rodada 2, "(provisório)" marca as duas que só se resolveram na rodada 3. Nenhuma checagem do caso segue provisória.
 
 ## 2. A revisão adversarial, lote a lote, a rodada 2 e a coerência entre lotes e entre casos
 
-**Os vereditos que a revisão mudou** (fora os provisórios da §1, que têm tabela própria):
+**Os vereditos que a revisão mudou** (fora os provisórios da §1, que têm tabela própria). A A138 foi de INSUSTENTAVEL a VERDADEIRO na revisão r5 e voltou a INSUSTENTAVEL na coerência, pela regra 1 da §3.1; as duas passagens estão abaixo.
 
 | id | quem fala | rodada 1 | depois da revisão (atual) | onde está o porquê |
 |---|---|---|---|---|
@@ -48,7 +48,7 @@ As que seguem provisórias no fim deste turno estão marcadas acima e no `ESTADO
 | A085 | Renata Lo Prete | VERDADEIRO | INSUSTENTAVEL | correcoes-coerencia |
 | A114 | Flávio Bolsonaro | IMPRECISO | INSUSTENTAVEL | correcoes-coerencia |
 
-🔧 **Um incidente, corrigido:** às 14h15 o agente da rodada 2 parte 3, que só devia mexer nos lotes 15 a 17, regravou os lotes 07 a 12 a partir de uma cópia antiga. O revisor da rodada 2 percebeu e restaurou os seis ids da parte 2; a IA que conduz o caso conferiu, id a id, cada lote contra o histórico do git e achou a revisão r4 do lote 11 perdida (A101 a A110 tinham voltado à rodada 1), restaurada do commit `b57c27b`. Nenhuma outra edição de revisão faltou nos 21 lotes, e a passada de coerência recebeu a instrução de ler o lote do disco imediatamente antes de gravar e conferir o `git diff --stat` no fim.
+🔧 **Um incidente, corrigido:** às 14h15 o agente da rodada 2 parte 3, que só devia mexer nos lotes 15 a 17, regravou os lotes 07 a 12 a partir de uma cópia antiga. O revisor da rodada 2 percebeu e restaurou os seis ids da parte 2; a IA que conduz o caso conferiu, id a id, cada lote contra o histórico do git e achou a revisão r4 do lote 11 perdida (A101 a A110 tinham voltado à rodada 1), restaurada do commit `b57c27b`. Nenhuma outra edição de revisão faltou nos 21 lotes, e os agentes seguintes receberam a instrução de ler o lote do disco imediatamente antes de gravar e conferir o `git diff --stat` no fim.
 
 As notas completas estão no campo `revisao_ia` de cada checagem. As mudanças, uma por uma, com o antes e o depois:
 
@@ -646,6 +646,59 @@ Depois da junção, o validador reprova só por A113 e A161 (confiança baixa se
 5. **A081 e A089** (e, em parte, A084 e A094) são quase a mesma afirmação e pesam duas vezes na contagem do candidato. É decisão de extração. A r3 também pediu para ouvir o "ilícito" da transcrição em 1112,6 s, perto da A089.
 6. **A009 do caso de 28/ago** (`FALSO`, "nenhuma arma") não tem revisão adversarial registrada; a A123 daqui, com o mesmo veredito, tem (r5).
 7. O validador acusa **5 URLs citadas sem captura assinada** em `CAPTURAS.json` (Agenda do Poder, duas; Banco Mundial; IBGE/SIDRA; Diário do Transporte). Já estavam antes desta passada e não são dos lotes.
+
+### checagens/revisao/rodada2-rodada3.md
+
+#### Rodada 2, terceira tentativa (parte rodada3, 17/out/2026)
+
+Refeitas, com busca, as duas checagens que seguiam provisórias depois da rodada 1 e da rodada 2 (partes 2 e 3): A161 (lote 17, corte 04), primeiro, e A113 (lote 12). As duas fecharam: o marcador saiu do início da explicação, a explicação diz que a checagem foi refeita na rodada 2 de 17/out/2026 (terceira tentativa) e a confiança passou de baixa a média.
+
+- Buscas usadas: 7 (limite: 7). A161: 4 WebSearch. A113: 1 WebSearch e 2 consultas à busca do próprio Diário Oficial (in.gov.br/consulta), capturadas por `capturar-fontes.py` e contadas aqui como busca, por serem consulta a buscador.
+- Captura: pedidos `checagens/pedidos-captura/rodada3.json` e `rodada3-r2.json` a `rodada3-r8.json`; saídas em `capturas/2026-10-16-sabatina-flavio-globo-2turno-r2rodada3` e `-r2rodada3-r2` a `-r2rodada3-r8`. As fontes que já vinham das rodadas anteriores saem das pastas `-p12`, `-p17`, `-p17-r3`, `-r2parte3-r4`.
+- Conferência: os lotes 12 e 17 validam contra `esquemas/checagens.schema.json`; cada `trecho` foi achado, por palavra inteira e com espaços normalizados (pedaço a pedaço quando há `[...]`), no texto capturado da própria URL, com a função `conferir` de `ferramentas/conferir-trechos.py`; todo número e ano do `resumo`, da `ressalva` e do `numero_apurado` está num trecho, numa derivação, na fala ou na data de referência; as parcelas das derivações estão nos trechos. Só A161 e A113 mudaram nos lotes (comparado com o HEAD).
+- Rótulos de gráfico (2,44 e 2,43 milhões no boletim de 2024; 2,42 milhões no de 2020) foram lidos na página renderizada do PDF e estão no texto capturado como rótulos soltos; a atribuição de cada rótulo ao ano é leitura do gráfico, declarada na explicação.
+
+| id | rodada 1 | rodada 2 | por quê |
+|---|---|---|---|
+| A161 | INSUSTENTAVEL (provisório) | VERDADEIRO | Achado o boletim anual de 2024 do Mapa de Empresas, com nome de arquivo diferente dos cerca de 40 tentados antes (`boletim-do-mapa-de-empresas-3o-quad-2024.pdf`, apontado por um repositório público que reúne a série): 2.436.190 empresas fechadas em 2024, o maior número da série de 2010 a 2024, acima de 2018 (2,43 milhões, cancelamento em massa de MEIs). Fonte independente: Sebrae com a base de CNPJ da Receita, 2.395.523 pequenos negócios baixados em 2024, o maior de 2019 a 2024. 2025 até agosto está 13,7% acima do mesmo período de 2024, e o total anual de 2025 não foi achado; qualquer que seja, o recorde fica no governo atual. Ressalva: número absoluto, com MEI e baixas de ofício, e saldo positivo de 1.818.713 em 2024. Confiança média (margem pequena sobre 2018, lida em rótulo de gráfico). |
+| A113 | INSUSTENTAVEL (provisório) | VERDADEIRO | Diário Oficial (N1): 18 superintendências trocadas no ato de 18/01/2023, mais Distrito Federal, Bahia e Roraima até 07/03/2023, 21 no total (o número do Portal Tela para os três primeiros meses). O Rio Grande do Sul, que o Portal Tela dava como única exceção (26 das 27 até junho de 2025), também trocou: Thiago Machado Delabary no cargo em abril de 2024, dispensa de Aldronei Antonio Pacheco Rodrigues e designação de Alessandro Maciel Lopes em 12/11/2025. A conta chega a 27 na gestão Andrei, antes da fala; a frase não diz "no início", e a ressalva diz que foi em etapas. Limite declarado: Acre, Amapá, Ceará, Espírito Santo e Piauí só entram pela fonte única do Portal Tela. Confiança média. A A114 (que usa os 18 de janeiro de 2023) segue coerente. |
+
+### checagens/revisao/correcoes-rodada3.md
+
+#### Correções da revisão adversarial da rodada 3 (17/out/2026)
+
+Passada separada sobre as duas checagens fechadas na rodada 2, parte rodada3 (`rodada2-rodada3.md`): A161 (lote 17, corte 04) e A113 (lote 12). O revisor não checou essas alegações antes. Sem busca web (zero chamadas) e sem fonte nova: só o que está nas pastas `capturas/2026-10-16-sabatina-flavio-globo-2turno-r2rodada3*` e nas capturas das rodadas anteriores. Depois das mudanças, os lotes 12 e 17 validam contra `esquemas/checagens.schema.json`. Todos os trechos das duas checagens (8 da A161, 11 da A113) foram achados no texto capturado da própria URL com a função `conferir` de `ferramentas/conferir-trechos.py`. Número e ano do resumo, da ressalva e do `numero_apurado` têm lastro, as parcelas das derivações estão nos trechos ou na fala, e não há travessão nem leitura de intenção. Os arquivos juntados (`checagens-sabatina-completa.json`, `checagens-corte-04.json`) não foram regerados aqui.
+
+##### A113 · Estava · Passou a valer · Por quê
+
+- **Estava:** VERDADEIRO. Resumo: "As 27 superintendências da PF trocaram de chefe no governo atual, em etapas: 21 até março de 2023 e o RS em 2025". Confiança média.
+- **Passou a valer:** IMPRECISO. Resumo: "O Diário Oficial registra 21 das 27 superintendências da PF trocadas até março de 2023, não as 27". Ressalva: "Até 2025 o Diário Oficial soma 22 trocas; outras cinco só aparecem numa fonte de imprensa, sem ato conferido". O número apurado, a explicação, a divergência e as derivações também mudaram: entram 22 = 21 mais 1, o desvio de 22% e o de 19%. Confiança média.
+- **Por quê:** o Diário Oficial (N1) documenta 22 trocas: 18 no ato de 18/01/2023, mais Distrito Federal, Bahia e Roraima até 07/03/2023, mais o Rio Grande do Sul em 12/11/2025. Isso foi conferido de novo nas capturas `-r2rodada3-r6` e `-r8`, estado por estado. As outras cinco (Acre, Amapá, Ceará, Espírito Santo e Piauí) só entram pelo Portal Tela, que é fonte única e de imprensa, e o texto vem marcado na página como "Gerado por Telinha" e revisado pela redação. A matéria não cita ato oficial, e o próprio Diário Oficial desmente a "única exceção" do Rio Grande do Sul que ela aponta. Pelas regras 1 a 3 da §3.1, ela não fecha o número 27.
+  - **O recorte de tempo:** a frase vem logo depois de "a primeira coisa que o meu adversário fez quando sentou na cadeira [...] foi botar o amigo dele, Andrei", e a extração, feita antes da checagem, leu "no início do governo Lula". Nessa leitura, o registro dá 21, não 27 (desvio de 22%). A rodada 2 adotou a leitura da gestão inteira depois de ver o resultado (§5). Mesmo nessa leitura, o documentado chega a 22 (desvio de 19%), e a troca do Rio Grande do Sul é de quase três anos depois da posse.
+  - **A régua:** nas duas leituras, o desvio passa de 10% (§2.2), e o essencial confere: houve troca em massa no início da gestão Andrei, muito acima de "um". É a régua da A036 (o registro oficial confirma a ordem de grandeza e corrige o número).
+  - **Por que não INSUSTENTAVEL:** a A114 e a A037 ficaram INSUSTENTAVEL porque só tinham imprensa. Aqui há N1 para o essencial e para o número apurado.
+  - **Por que não FALSO:** nada inverte a frase, e as cinco superintendências sem ato conferido podem ter sido trocadas.
+  - **O que falta:** com os atos dessas cinco no Diário Oficial, a leitura da gestão inteira daria 27.
+- **Pendente fora do escopo desta passada:** a explicação da A114 ainda diz "a mesma régua da A113 (as 27 trocas atribuídas a Lula, só com imprensa)". Isso descreve a A113 da rodada 1 e precisa ser atualizado por quem puder editar a A114. O veredito da A114 não muda.
+
+##### A161 · Estava · Passou a valer · Por quê
+
+- **Estava:** VERDADEIRO, com confiança média e o mesmo resumo e a mesma ressalva.
+- **Passou a valer:** continua VERDADEIRO, sem mudança no resumo, na ressalva, nas fontes nem na confiança. Entram duas frases na explicação e uma na divergência:
+  - **Na explicação:** os rótulos do gráfico são arredondados, não truncados, porque o próprio 2024 (2.436.190) aparece como 2,44 milhões. Logo, os 2,43 milhões de 2018 ficam abaixo de 2.435.000. A atribuição dos rótulos aos anos foi conferida de novo na página renderizada.
+  - **Na divergência:** o boletim do 2º quadrimestre de 2025 dá percentuais (queda de 4,5% sobre o quadrimestre anterior, alta de 12,9% sobre 2024) que não fecham com 973.330 e 830.525. Isso mostra que a série é revista a cada edição, sem mudar a conclusão.
+- **Por quê:**
+  - **O ataque principal:** o valor de 2018 é um rótulo de gráfico. O rótulo "2,43Mi" está no texto capturado do PDF (o trecho existe, regra 5). A ligação entre o rótulo e o ano 2018 foi conferida aqui, renderizando as páginas dos dois boletins: no gráfico de 2014 a 2024, a linha de fechadas marca 2,43 em 2018 e 2,44 em 2024, e no de 2010 a 2020, 2,42 em 2018.
+  - **O furo que havia:** a explicação dizia que 2.436.190 "fica acima de qualquer valor que arredonde para 2,43 milhões", mas não mostrava que o gráfico arredonda. Se os rótulos fossem truncados, 2018 poderia chegar a 2.439.999 e passar 2024. O rótulo do próprio 2024 (2,44 para 2.436.190) prova que o gráfico arredonda, e a ordem entre 2024 e 2018 sai do mesmo gráfico, na mesma revisão da série. A frase entrou na explicação.
+  - **As fontes:** o Sebrae (N2, independente) cobre só de 2019 a 2024. Para o pico de 2018 a fonte é uma só, o Mapa de Empresas, em duas edições. A regra 1 fica atendida para a alegação (N1 mais N2 independentes, as duas com 2024 no topo do que cobrem), e a comparação com 2018 está no registro primário.
+  - **A margem e a ressalva:** a margem é pequena e o resumo mostra os dois números (2.436.190 contra 2,43 milhões), então o card não esconde o quase empate. A ressalva cobre o número absoluto, o MEI, as baixas de ofício e o saldo positivo.
+  - **O ano de 2025:** janeiro a agosto de 2025 está acima do mesmo período de 2024 mesmo com as revisões da série. Se o total de 2025 tiver passado o de 2024, o recorde continua no governo atual.
+
+##### A114 (lote 12), explicação · par A113
+
+- **Estava:** "passou a INSUSTENTAVEL pela mesma régua da A113 (as 27 trocas atribuídas a Lula, só com imprensa), [...]"
+- **Passou a valer:** a explicação diz que a A113 ganhou o Diário Oficial na rodada 3 e passou a IMPRECISO, e que a parte de 2020 desta comparação continua sem fonte N1 ou N2; o veredito da A114 não muda.
+- **Por quê:** o revisor da rodada 3 apontou que a explicação descrevia a A113 de antes da rodada 3. Feito pela IA que conduz o caso.
 
 
 ## 3. Transcrição
