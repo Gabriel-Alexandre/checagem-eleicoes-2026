@@ -3381,6 +3381,18 @@
       }
     },
     {
+      "url": "https://www.congressoemfoco.com.br/noticia/121850/moraes-determina-que-comando-do-exercito-destrua-armas-de-bolsonaro",
+      "capturada_em": "2026-10-17T18:58:30+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 180850,
+      "sha256": "1a17159d87a6ff98e55c74ed2fd4140b9e42533f490b25309370cccdf4a3a96e",
+      "trechos": {
+        "A123": "encontrado"
+      }
+    },
+    {
       "url": "https://www.congressoemfoco.com.br/noticia/121872/flavio-cobra-impeachment-de-moraes-por-conversas-com-daniel-vorcaro",
       "capturada_em": "2026-10-17T15:48:52+00:00",
       "status": 200,
@@ -4348,6 +4360,18 @@
       "sha256": "ec575bec01c4fc1bcb4d344f40c053ec78d22c8cc585308e63750131da2b402a",
       "trechos": {
         "A063": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.gazetadopovo.com.br/republica/moraes-manda-exercito-destruir-7-armas-de-bolsonaro/",
+      "capturada_em": "2026-10-17T18:58:30+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=utf-8",
+      "caminho": "direto",
+      "bytes": 303668,
+      "sha256": "07fc5cca271740eb2556531b42db36d85441b4d1da1f82686c30f987008fadad",
+      "trechos": {
+        "A123": "encontrado"
       }
     },
     {
@@ -5412,7 +5436,6 @@
       "sha256": "159749caf249d19b7849e5ab8074d96b4004c44a8757a0c7b0c121f06a705819",
       "trechos": {
         "A182": "encontrado",
-        "A183": "encontrado",
         "A184": "encontrado"
       }
     },
@@ -5591,7 +5614,6 @@
       "sha256": "6e023438851a2b516c592abe21438e73609fea5505e44eca76db2561bd3cc093",
       "trechos": {
         "A182": "encontrado",
-        "A183": "encontrado",
         "A184": "encontrado"
       }
     },
@@ -5694,6 +5716,18 @@
       }
     },
     {
+      "url": "https://www.poder360.com.br/governo/bolsonaro-diz-em-depoimento-que-nunca-buscou-informacoes-sigilosas-na-pf/",
+      "capturada_em": "2026-10-17T18:58:35+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 260302,
+      "sha256": "856116915e252f8e2cac8935bbabaf9a60855ddc33195b268d46c33afa28e2a7",
+      "trechos": {
+        "A110": "encontrado"
+      }
+    },
+    {
       "url": "https://www.poder360.com.br/governo/dino-e-lewandowski-iniciam-transicao-na-justica/",
       "capturada_em": "2026-10-17T16:04:25+00:00",
       "status": 200,
@@ -5779,6 +5813,18 @@
       "sha256": "bf11c516f128b7575e9775e1a0f43df46ce6b2ab806c86c22a2c842f96ee2149",
       "trechos": {
         "A116": "encontrado"
+      }
+    },
+    {
+      "url": "https://www.poder360.com.br/justica/bolsonaro-diz-que-sugeriu-mudanca-na-pf-do-rio-porque-estado-e-complicado/",
+      "capturada_em": "2026-10-17T18:58:35+00:00",
+      "status": 200,
+      "tipo": "text/html; charset=UTF-8",
+      "caminho": "direto",
+      "bytes": 259936,
+      "sha256": "c917b7241e66e8d781a14aa2b836da968b7f6fec1c3566014dc604e73fd7e36e",
+      "trechos": {
+        "A110": "encontrado"
       }
     },
     {

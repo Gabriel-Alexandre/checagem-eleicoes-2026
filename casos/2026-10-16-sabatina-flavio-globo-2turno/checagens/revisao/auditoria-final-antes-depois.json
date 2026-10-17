@@ -1,0 +1,42 @@
+{
+ "A131": {
+  "antes": "VERDADEIRO · Em entrevista exibida em 10 de outubro, Eduardo disse que as nomeações de ministros vão passar por Jair Bolsonaro",
+  "depois": "INSUSTENTAVEL · Pelo Estadão Conteúdo, Eduardo disse que nomeações passam por Jair e que ir a um ministério depende de Flávio"
+ },
+ "A039": {
+  "antes": "VERDADEIRO · Pesquisas Quaest e Datafolha mostram de 68% a 71% dos entrevistados a favor do fim da escala 6x1",
+  "depois": "VERDADEIRO · Pesquisas Quaest e Datafolha mostram de 68% a 71% dos entrevistados a favor do fim da escala 6x1"
+ },
+ "A110": {
+  "antes": "FALSO · Em nota, a PF disse que a troca no Rio não tinha relação com o desempenho do superintendente",
+  "depois": "INSUSTENTAVEL · A PF negou em 2019 relação com desempenho; em depoimento de 2021, Bolsonaro atribuiu a troca à gestão local"
+ },
+ "A071": {
+  "antes": "VERDADEIRO · Os 7 repasses documentados somam US$ 12,3 milhões; no dólar de cada data, R$ 69,8 milhões",
+  "depois": "INSUSTENTAVEL · Reportagens com planilha e relatório do Coaf somam US$ 12,3 milhões em 7 repasses, R$ 69,8 milhões; a PF apura"
+ },
+ "A072": {
+  "antes": "VERDADEIRO · Mensagens registram acordo de US$ 24 milhões com Vorcaro, cerca de R$ 134 milhões no câmbio da época",
+  "depois": "INSUSTENTAVEL · Reportagens com mensagens e relatório da PF dão acordo de US$ 24 milhões, cerca de R$ 134 milhões; a PF apura"
+ },
+ "A085": {
+  "antes": "INSUSTENTAVEL · Reportagens dão US$ 13,3 milhões, pouco mais de R$ 75 milhões, no laudo da produtora; o laudo não é público",
+  "depois": "INSUSTENTAVEL · Reportagens dão US$ 13,3 milhões, pouco mais de R$ 75 milhões, em laudo da produtora anexado a inquérito em curso"
+ },
+ "A086": {
+  "antes": "VERDADEIRO · Mensagens registram acordo de US$ 24 milhões com Vorcaro, cerca de R$ 134 milhões no câmbio da época",
+  "depois": "INSUSTENTAVEL · Reportagens com mensagens e relatório da PF dão acordo de US$ 24 milhões, cerca de R$ 134 milhões; a PF apura"
+ },
+ "A074": {
+  "antes": "IMPRECISO · O fundo nasceu para um projeto imobiliário que não saiu do papel e nunca teve terreno; depois recebeu verba do filme",
+  "depois": "VERDADEIRO · Registros do Texas e relatório da PF: o fundo foi criado em 2020 para um empreendimento imobiliário"
+ },
+ "A183": {
+  "antes": "FALSO · O Estatuto exige antecedentes limpos para comprar arma e pune com até 6 anos a arma de uso restrito sem autorização",
+  "depois": "NAO_CHECAVEL · Figura de linguagem: a própria frase diz que a causa é a falta de fiscalização, checada em separado"
+ },
+ "A123": {
+  "antes": "FALSO · Houve armas: facas e porretes descritos nos processos, e armas levadas do GSI, parte recuperada pela PM",
+  "depois": "FALSO · Houve armas: facas e porretes descritos nos processos, e armas levadas do GSI, parte recuperada pela PM"
+ }
+}

@@ -82,10 +82,10 @@
       "id": "A123",
       "veredito": "FALSO",
       "resumo": "Houve armas: facas e porretes descritos nos processos, e armas levadas do GSI, parte recuperada pela PM",
-      "explicacao": "A frase diz que não foi encontrada arma 'em lugar nenhum' no caso que levou à condenação por organização criminosa armada. Os registros contradizem isso. Os processos do 8 de janeiro descrevem facas, porretes, barras de ferro, estilingues e bolas de gude (Gazeta do Povo, veículo crítico ao STF, e Aos Fatos, que cita imagens das câmeras da Câmara). Invasores levaram armas e munição de uma sala do GSI no Planalto (Poder360 e CNN Brasil, no dia seguinte), e segundo o Aos Fatos parte dessas armas foi recuperada depois pela PM do DF. No processo de Bolsonaro, a CNN Brasil registra que o agravante pelo emprego de armas veio do plano de matar Lula, Alckmin e Moraes. O que a fala acerta, se 'arma' for lida só como arma de fogo em poder dos manifestantes: nenhuma foi apreendida com eles (Gazeta do Povo), o que vai na ressalva e é a razão da confiança média. É o mesmo dado e a mesma régua do caso 2026-08-28-sabatina-flavio-globo (A009, FALSO). A condenação é definitiva, então não se aplica a cautela de etica-e-risco §5. ⚠️ Veredito pesado sobre a fala de um candidato: exige leitura humana antes de publicar.",
+      "explicacao": "Auditoria final de 17/out/2026: o veredito fica FALSO, e entrou a fonte que responde à leitura 'arma de fogo', que a revisão r5 chamou de forte. Em decisão assinada em 28/08/2026 e publicada em 01/09/2026, antes da fala, o ministro Alexandre de Moraes mandou o Exército destruir sete armas de fogo apreendidas de Bolsonaro e as qualificou como instrumentos do crime: 'os armamentos apreendidos, empregados ou destinados à atuação da associação criminosa armada qualificam-se como instrumentos do crime e sujeitam-se ao confisco como efeito da condenação' (Congresso em Foco e Gazeta do Povo). As duas reportagens citam o mesmo texto da decisão, que não foi capturada no portal do STF; pela regra 2 da METODOLOGIA §3.1 isso se declara aqui, e elas entram como reprodução da mesma primária. A nuance: segundo a Gazeta do Povo, as armas foram apreendidas depois de um episódio envolvendo um agente de segurança de Bolsonaro, não no curso da investigação do golpe; o que as liga à organização armada é a qualificação da decisão ('empregados ou destinados'). Ainda assim, é registro judicial, sobre a condenação definitiva, de armas de fogo ligadas pelo STF à associação criminosa armada, e contradiz o 'em lugar nenhum' também na leitura estrita. A frase diz que não foi encontrada arma 'em lugar nenhum' no caso que levou à condenação por organização criminosa armada. Os registros contradizem isso. Os processos do 8 de janeiro descrevem facas, porretes, barras de ferro, estilingues e bolas de gude (Gazeta do Povo, veículo crítico ao STF, e Aos Fatos, que cita imagens das câmeras da Câmara). Invasores levaram armas e munição de uma sala do GSI no Planalto (Poder360 e CNN Brasil, no dia seguinte), e segundo o Aos Fatos parte dessas armas foi recuperada depois pela PM do DF. No processo de Bolsonaro, a CNN Brasil registra que o agravante pelo emprego de armas veio do plano de matar Lula, Alckmin e Moraes. O que a fala acerta, se 'arma' for lida só como arma de fogo em poder dos manifestantes: nenhuma foi apreendida com eles (Gazeta do Povo), o que vai na ressalva e é a razão da confiança média; a decisão de Moraes acima responde à leitura de arma de fogo ligada à organização. É o mesmo dado e a mesma régua do caso 2026-08-28-sabatina-flavio-globo (A009, FALSO). A condenação é definitiva, então não se aplica a cautela de etica-e-risco §5. ⚠️ Veredito pesado sobre a fala de um candidato: exige leitura humana antes de publicar.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "atos de 8 de janeiro de 2023; condenação em 11/09/2025",
+      "data_de_referencia": "atos de 8 de janeiro de 2023; condenação em 11/09/2025; decisão sobre as armas de 28/08/2026, publicada em 01/09/2026",
       "ressalva": "Segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com os manifestantes",
       "confianca": "media",
       "divergencia_entre_fontes": "Sobre as armas levadas do GSI: no dia 8/1/2023, o então ministro da Secom disse que foram levadas armas letais e não letais (CNN Brasil); segundo o Diário do Poder, o Palácio do Planalto informou depois que as armas levadas não eram letais. O veredito não depende de qual versão está certa, porque as duas confirmam que armas foram levadas.",
@@ -144,6 +144,24 @@
           "consultada_em": "2026-10-17",
           "trecho": "Caixas contendo armas teriam sido levadas pelos invasores. [...] De acordo com o Palácio do Planalto, as armas levadas não eram letais.",
           "prova": "A versão oficial posterior, a outra parte da divergência registrada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco (decisão do ministro Alexandre de Moraes)",
+          "titulo": "Moraes determina que Comando do Exército destrua armas de Bolsonaro (01/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/121850/moraes-determina-que-comando-do-exercito-destrua-armas-de-bolsonaro",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro Alexandre de Moraes, do STF, determinou nesta terça-feira (1º) o envio de sete armas apreendidas de Jair Bolsonaro ao Comando de Operações Especiais do Exército para destruição, após a elaboração dos respectivos laudos periciais. Na decisão, assinada em 28 de agosto, o ministro considerou os armamentos instrumentos relacionados aos crimes pelos quais o ex-presidente foi condenado [...] \"Nessa perspectiva, os armamentos apreendidos, empregados ou destinados à atuação da associação criminosa armada qualificam-se como instrumentos do crime e sujeitam-se ao confisco como efeito da condenação.\"",
+          "prova": "Decisão do STF, anterior à fala, que trata armas de fogo apreendidas de Bolsonaro como instrumentos da associação criminosa armada pela qual ele foi condenado: responde à leitura 'arma de fogo' do 'não foi encontrado uma arma em lugar nenhum'."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo (decisão do ministro Alexandre de Moraes)",
+          "titulo": "Moraes manda Exército destruir 7 armas de Bolsonaro (01/09/2026)",
+          "url": "https://www.gazetadopovo.com.br/republica/moraes-manda-exercito-destruir-7-armas-de-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes determinou que o Exército destrua sete armas do ex-presidente Jair Bolsonaro (PL) que foram apreendidas após o episódio envolvendo um de seus agentes de segurança. A decisão foi publicada nesta terça-feira (1º) [...] Nesse caso, como um dos crimes imputados é o de organização criminosa armada, haveria a aplicação do dispositivo. \"Nessa perspectiva, os armamentos apreendidos, empregados ou destinados à atuação da associação criminosa armada qualificam-se como instrumentos do crime e sujeitam-se ao confisco como efeito da condenação\"",
+          "prova": "Mesmo trecho da decisão, em veículo de outra linha editorial, e a nuance: as armas foram apreendidas depois de um episódio com um agente de segurança de Bolsonaro, não no curso da investigação do golpe."
         }
       ]
     },

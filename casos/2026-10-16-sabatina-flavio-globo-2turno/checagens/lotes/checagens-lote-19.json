@@ -98,36 +98,17 @@
     },
     {
       "id": "A183",
-      "veredito": "FALSO",
-      "resumo": "O Estatuto exige antecedentes limpos para comprar arma e pune com até 6 anos a arma de uso restrito sem autorização",
-      "explicacao": "A frase diz que o Estatuto do Desarmamento autoriza criminosos a comprar armas de guerra. O texto da Lei 10.826/2003 faz o contrário: o art. 4º exige, para comprar até arma de uso permitido, certidões negativas de antecedentes criminais e não estar respondendo a inquérito ou processo criminal; o art. 16 tipifica como crime, com reclusão de 3 a 6 anos, possuir, adquirir ou portar arma de uso restrito sem autorização. O Decreto 11.615/2023 repete a exigência de idoneidade e de inexistência de inquérito ou processo, com autorização prévia da Polícia Federal. Não há dispositivo que permita a compra por quem tem antecedentes. Que criminosos obtêm armas pelo mercado ilegal é outra afirmação (sobre crime, não sobre o que a lei autoriza). As fontes contradizem o enunciado, por isso FALSO e não INSUSTENTAVEL.",
+      "veredito": "NAO_CHECAVEL",
+      "resumo": "Figura de linguagem: a própria frase diz que a causa é a falta de fiscalização, checada em separado",
+      "explicacao": "Auditoria final de 17/out/2026: o veredito passou de FALSO a NAO_CHECAVEL, e a alegação passou a checavel false, tipo juizo_de_valor. A oração inteira é 'e autoriza os marginais a comprarem armas de guerra porque não tem fiscalização nenhuma': 'autoriza' é figura cuja causa a própria oração dá ('porque não tem fiscalização nenhuma'), e não uma descrição do texto da lei. A lei não autoriza criminoso a comprar arma, e ninguém na fala diz que autoriza legalmente; checar o 'autoriza' ao pé da letra refutaria o que não foi afirmado. A parte checável da oração é a da A184 ('não tem fiscalização nenhuma'), já FALSO, e contar as duas como FALSO seria contar a mesma afirmação duas vezes. Por isso NAO_CHECAVEL, com o porquê escrito, como exige a METODOLOGIA §2 (NAO_CHECAVEL é classificação positiva) e §5 (justificativa de por que a frase não tem valor de verdade). Até a auditoria o veredito era FALSO pela leitura literal, com a Lei 10.826/2003 e o Decreto 11.615/2023 como fontes; as duas normas continuam como fontes da A184.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "texto vigente em outubro de 2026",
+      "data_de_referencia": null,
       "ressalva": null,
       "confianca": "alta",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N1",
-          "instituicao": "Presidência da República (Planalto)",
-          "titulo": "Lei 10.826/2003, arts. 4º e 16, texto compilado",
-          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-          "consultada_em": "2026-10-17",
-          "trecho": "Art. 4 o Para adquirir arma de fogo de uso permitido o interessado deverá, além de declarar a efetiva necessidade, atender aos seguintes requisitos: I - comprovação de idoneidade, com a apresentação de certidões negativas de antecedentes criminais fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral e de não estar respondendo a inquérito policial ou a processo criminal, [...] Art. 16. Possuir, deter, portar, adquirir, fornecer, receber, ter em depósito, transportar, ceder, ainda que gratuitamente, emprestar, remeter, empregar, manter sob sua guarda ou ocultar arma de fogo, acessório ou munição de uso restrito, sem autorização e em desacordo com determinação legal ou regulamentar: (Redação dada pela Lei nº 13.964, de 2019) Pena – reclusão, de 3 (três) a 6 (seis) anos, e multa.",
-          "prova": "A lei exige antecedentes limpos para comprar e criminaliza a arma de uso restrito sem autorização."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Presidência da República (Planalto)",
-          "titulo": "Decreto 11.615/2023, art. 15",
-          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11615.htm",
-          "consultada_em": "2026-10-17",
-          "trecho": "Art. 15. A aquisição de arma de fogo de uso permitido dependerá de autorização prévia da Polícia Federal e o interessado deverá: I - ter, no mínimo, vinte e cinco anos de idade; II - apresentar documentação de identificação pessoal; III - comprovar a efetiva necessidade da posse ou do porte de arma de fogo; IV - comprovar idoneidade e inexistência de inquérito policial ou processo criminal, por meio de certidões de antecedentes criminais das Justiças Federal, Estadual ou Distrital, Militar e Eleitoral;",
-          "prova": "O regulamento exige autorização prévia da PF e ausência de inquérito ou processo criminal para a compra."
-        }
-      ]
+      "fontes": []
     },
     {
       "id": "A184",

@@ -5,13 +5,13 @@
   "checagens": [
     {
       "id": "A131",
-      "veredito": "VERDADEIRO",
-      "resumo": "Em entrevista exibida em 10 de outubro, Eduardo disse que as nomeações de ministros vão passar por Jair Bolsonaro",
-      "explicacao": "A pergunta da entrevistadora atribui a Eduardo Bolsonaro, numa entrevista de dias antes, a ideia de que quem decide sobre a ida dele para o Itamaraty é o pai. O Diário do Grande ABC e o Times Brasil, ambos a partir de texto do Estadão Conteúdo, reproduzem a fala de Eduardo ao SBT News, exibida no sábado, 10 de outubro, seis dias antes da sabatina: 'As nomeações de ministros vão passar pelo presidente Jair Bolsonaro'. O Correio da Manhã, com apuração própria baseada na CNN Brasil, confirma que o cargo de chanceler para Eduardo estava em discussão naquela semana. Pela regra 2 da §3.1, as matérias que reproduzem a entrevista contam como apoio, e declaramos isso: a primária (a entrevista em vídeo do SBT News) não foi capturada, e as duas matérias que trazem a fala vêm do mesmo serviço de agência, por isso a confiança é média. A paráfrase 'quem vai decidir é o pai' corresponde ao essencial da fala (as nomeações passam pela aprovação de Jair). VERDADEIRO e não IMPRECISO porque o sentido e a época batem; a ressalva registra que, sobre a própria indicação, Eduardo disse depender da vontade de Flávio.",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Pelo Estadão Conteúdo, Eduardo disse que nomeações passam por Jair e que ir a um ministério depende de Flávio",
+      "explicacao": "Auditoria final de 17/out/2026: o veredito passou de VERDADEIRO a INSUSTENTAVEL. As duas fontes que trazem a fala de Eduardo (Diário do Grande ABC e Times Brasil) são o mesmo texto do Estadão Conteúdo, e pela regra 3 da METODOLOGIA §3.1 contam como uma fonte só; a entrevista original ao SBT News, exibida em 10/10/2026, não foi achada, nem pela busca da auditoria nem por uma busca de 17/out, que só acharam outras reproduções do mesmo texto de agência. Sem duas fontes independentes, a árvore do §2.1 dá INSUSTENTAVEL. A pergunta da entrevistadora atribui a Eduardo Bolsonaro, numa entrevista de dias antes, a ideia de que quem decide sobre a ida dele para o Itamaraty é o pai. O que a agência registrou tem duas partes: a fala geral 'As nomeações de ministros vão passar pelo presidente Jair Bolsonaro' (Diário do Grande ABC) e, sobre a própria ida a um ministério, 'se for da vontade de Flávio me ter em um Ministério, estou à disposição' (Times Brasil). A primeira se aproxima da paráfrase da pergunta; a segunda, que trata do 'isso' da pergunta (a ida dele ao cargo), aponta para a vontade de Flávio, e por isso o resumo traz as duas. O Correio da Manhã, com apuração própria baseada na CNN Brasil, confirma só que o cargo de chanceler para Eduardo estava em discussão naquela semana, não a fala. Não é FALSO porque nada contradiz a entrevista nem a fala geral: o que falta é uma segunda origem. Se aparecer uma apuração independente da entrevista (o vídeo do SBT News), a parte geral confere e a parte específica está trocada, o que levaria a IMPRECISO, e não a VERDADEIRO.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "entrevista ao SBT News exibida em 10/out/2026",
-      "ressalva": "Sobre a própria ida ao Itamaraty, Eduardo disse que depende da vontade de Flávio",
+      "ressalva": "A fala só aparece em textos de um mesmo serviço de agência; a entrevista original não foi achada",
       "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,

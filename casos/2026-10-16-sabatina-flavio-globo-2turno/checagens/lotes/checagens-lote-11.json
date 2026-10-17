@@ -446,15 +446,15 @@
     },
     {
       "id": "A110",
-      "veredito": "FALSO",
-      "resumo": "Em nota, a PF disse que a troca no Rio não tinha relação com o desempenho do superintendente",
-      "explicacao": "O motivo 'maus resultados' é o que Bolsonaro disse em agosto de 2019, ao anunciar a troca de Ricardo Saadi por 'questão de produtividade'. A Polícia Federal, responsável pela superintendência, respondeu em nota oficial (íntegra no Poder360; também registrada pela IstoÉ Dinheiro, Estadão Conteúdo) que a troca estava planejada havia meses por desejo do próprio superintendente e não guardava 'qualquer relação com o desempenho'; no dia seguinte o próprio presidente disse 'Eu não falei falta de produtividade' (Gazeta de S.Paulo). Se a referência for à troca de 2020, não foi achada justificativa de maus resultados: o superintendente que saiu, Carlos Henrique Oliveira, foi promovido a diretor-executivo, segundo cargo mais importante da PF (Metrópoles), e Moro disse que nenhuma razão aceitável lhe foi apresentada. Há prova do contrário vinda da instituição, e não apenas falta de prova, por isso FALSO e não INSUSTENTAVEL. Não se apura aqui nenhuma conduta: o veredito é sobre o motivo declarado da troca.",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A PF negou em 2019 relação com desempenho; em depoimento de 2021, Bolsonaro atribuiu a troca à gestão local",
+      "explicacao": "Auditoria final de 17/out/2026: o veredito passou de FALSO a INSUSTENTAVEL. Entrou o registro do depoimento de Bolsonaro à PF, colhido em 3/nov/2021 no inquérito que apurou justamente a interferência na corporação (Poder360, 4/nov/2021, em duas páginas com o mesmo texto, que contam como uma fonte): ele disse que sugeriu a mudança porque o Estado do Rio 'é muito complicado' e precisava de um dirigente 'com maior liberdade de trabalho', e que Ricardo Saadi, o superintendente, não tinha independência 'para tomar as medidas necessárias para melhorar a gestão local'. Há, portanto, duas versões oficiais do motivo da troca de 2019: a da PF, que negou relação com desempenho, e a do presidente, que a atribuiu à gestão local; as duas estão em divergencia_entre_fontes. Por que não é FALSO: as fontes divergem sobre o motivo de um terceiro, e não contradizem um dado; nenhuma fonte mede o desempenho da superintendência do Rio. 'Maus resultados' não é o mesmo que 'melhorar a gestão local', mas a distância é de ornamento (METODOLOGIA §2.2), e o que a nota da PF contradiz é a versão do presidente, não um registro. Sem fonte que sustente ou derrube o motivo, a árvore do §2.1 dá INSUSTENTAVEL, a régua do caso para falas sobre motivo e envolvimento (A081, A089, A196). O histórico: o motivo 'maus resultados' se aproxima do que Bolsonaro disse em agosto de 2019, ao anunciar a troca por 'questão de produtividade'; a PF respondeu em nota oficial (íntegra no Poder360; também registrada pela IstoÉ Dinheiro, Estadão Conteúdo) que a troca estava planejada havia meses por desejo do próprio superintendente e não guardava 'qualquer relação com o desempenho'; no dia seguinte o presidente disse 'Eu não falei falta de produtividade' (Gazeta de S.Paulo). Se a referência for à troca de 2020, não foi achada justificativa de maus resultados: o superintendente que saiu, Carlos Henrique Oliveira, foi promovido a diretor-executivo, segundo cargo mais importante da PF (Metrópoles), o que é indício contra a fala, não contradição, e Moro disse que nenhuma razão aceitável lhe foi apresentada. Não se apura aqui nenhuma conduta: o veredito é sobre o motivo declarado da troca.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "agosto de 2019 e maio de 2020",
-      "ressalva": null,
+      "data_de_referencia": "troca de agosto de 2019; troca de maio de 2020; depoimento de Bolsonaro à PF em 3/nov/2021",
+      "ressalva": "Nenhuma fonte mede o desempenho da superintendência do Rio na época da troca",
       "confianca": "media",
-      "divergencia_entre_fontes": "O presidente atribuiu a troca à produtividade em 15/ago/2019; a PF negou no mesmo dia, e o presidente recuou da expressão no dia seguinte.",
+      "divergencia_entre_fontes": "Há duas versões oficiais do motivo da troca de 2019. A PF, em nota do mesmo dia em que Bolsonaro anunciou a troca por 'questão de produtividade', disse que ela estava planejada havia meses, a pedido do próprio superintendente, e não guardava 'qualquer relação com o desempenho'; no dia seguinte o presidente disse 'Eu não falei falta de produtividade'. Em depoimento à PF de 3/nov/2021, Bolsonaro disse que sugeriu a mudança porque o Rio 'é muito complicado' e o superintendente não tinha independência 'para melhorar a gestão local'.",
       "revisao_humana": null,
       "fontes": [
         {
@@ -501,6 +501,24 @@
           "consultada_em": "2026-10-17",
           "trecho": "No Rio, Muzzi substitui Carlos Henrique Oliveira, que foi confirmado no dia 5 de maio como o novo diretor-executivo da PF, segundo cargo mais importante da corporação.",
           "prova": "Para a troca de 2020: o superintendente que saiu do Rio foi promovido ao segundo cargo mais importante da PF, o que não combina com troca por maus resultados."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (depoimento de Bolsonaro à Polícia Federal)",
+          "titulo": "Bolsonaro diz em depoimento que nunca buscou informações sigilosas na PF (04/11/2021)",
+          "url": "https://www.poder360.com.br/governo/bolsonaro-diz-em-depoimento-que-nunca-buscou-informacoes-sigilosas-na-pf/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Bolsonaro foi ouvido na noite de 4ª feira (3.nov.2021) no Palácio do Planalto como investigado e respondeu a todas as perguntas. [...] Um dos pontos do depoimento tratou da substituição do comando da superintendência no Rio em 2019. [...] Que sugeriu a mudança porque o Estado do Rio de Janeiro é muito complicado e entendia que necessitava de um dirigente da Polícia Federal local com maior liberdade de trabalho [...] O posto era então ocupado por Ricardo Saadi, a quem Bolsonaro disse que “ não tinha a completa independência para tomar as medidas necessárias para melhorar a gestão local”",
+          "prova": "A versão do próprio autor da troca, em depoimento à PF no inquérito sobre interferência na corporação: a mudança no Rio, em 2019, foi atribuída à necessidade de melhorar a gestão local, não a desempenho medido."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (depoimento de Bolsonaro à Polícia Federal)",
+          "titulo": "Bolsonaro diz que sugeriu mudança na PF do Rio porque Estado é \"complicado\" (04/11/2021)",
+          "url": "https://www.poder360.com.br/justica/bolsonaro-diz-que-sugeriu-mudanca-na-pf-do-rio-porque-estado-e-complicado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Um dos pontos da investigação foi a substituição do comando da superintendência no Rio em 2019. [...] Que sugeriu a mudança porque o Estado do Rio de Janeiro é muito complicado e entendia que necessitava de um dirigente da Polícia Federal local com maior liberdade de trabalho [...] O posto era então ocupado pelo delegado Ricardo Saadi, a quem Bolsonaro disse que “ não tinha a completa independência para tomar as medidas necessárias para melhorar a gestão local”",
+          "prova": "Mesmo depoimento, no mesmo veículo: pela regra 3 da METODOLOGIA §3.1 conta como uma fonte só com a anterior, e entra como registro da versão do presidente."
         }
       ]
     }

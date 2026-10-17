@@ -10,7 +10,7 @@
   "selo": {
     "arquivo": "overlay/cartelas-corte-03/_selo.png",
     "entra_s": 0.0,
-    "sai_s": 25.9
+    "sai_s": 26.8
   },
   "legenda": {
     "arquivo": "overlay/cartelas-corte-03/_legenda.png",
@@ -19,22 +19,23 @@
   },
   "congelamento": {
     "entra_s": 14.333,
-    "sai_s": 25.9,
-    "duracao_s": 11.567
+    "sai_s": 26.8,
+    "duracao_s": 12.467
   },
   "encerramento": null,
   "contagem_por_veredito": {
-    "VERDADEIRO": 2
+    "INSUSTENTAVEL": 1,
+    "VERDADEIRO": 1
   },
   "cartelas": [
     {
       "id": "A131",
       "arquivo": "overlay/cartelas-corte-03/A131.png",
       "entra_s": 7.7,
-      "sai_s": 16.0,
+      "sai_s": 16.9,
       "atraso_s": 6.46,
       "atraso_do_fim_s": 0.96,
-      "veredito": "VERDADEIRO",
+      "veredito": "INSUSTENTAVEL",
       "tempo_na_peca_s": 1548.64,
       "tempo_no_card_s": 1548.64,
       "cortado_na_tela": []
@@ -42,10 +43,10 @@
     {
       "id": "A132",
       "arquivo": "overlay/cartelas-corte-03/A132.png",
-      "entra_s": 16.2,
-      "sai_s": 25.9,
-      "atraso_s": 6.08,
-      "atraso_do_fim_s": 2.48,
+      "entra_s": 17.1,
+      "sai_s": 26.8,
+      "atraso_s": 6.98,
+      "atraso_do_fim_s": 3.38,
       "veredito": "VERDADEIRO",
       "tempo_na_peca_s": 1557.52,
       "tempo_no_card_s": 1557.52,

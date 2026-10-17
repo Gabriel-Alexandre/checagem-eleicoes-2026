@@ -9,38 +9,38 @@
   },
   "geral": {
     "alegacoes": 207,
-    "checaveis": 207,
-    "nao_checaveis": 0,
+    "checaveis": 206,
+    "nao_checaveis": 1,
     "por_veredito": {
-      "VERDADEIRO": 134,
-      "IMPRECISO": 27,
-      "INSUSTENTAVEL": 35,
-      "FALSO": 11,
-      "NAO_CHECAVEL": 0
+      "VERDADEIRO": 131,
+      "IMPRECISO": 26,
+      "INSUSTENTAVEL": 40,
+      "FALSO": 9,
+      "NAO_CHECAVEL": 1
     },
     "percentual_dos_checaveis": {
-      "VERDADEIRO": 64.7,
-      "IMPRECISO": 13.0,
-      "INSUSTENTAVEL": 16.9,
-      "FALSO": 5.3
+      "VERDADEIRO": 63.6,
+      "IMPRECISO": 12.6,
+      "INSUSTENTAVEL": 19.4,
+      "FALSO": 4.4
     },
     "por_papel": {
       "entrevistado": {
         "alegacoes": 124,
-        "checaveis": 124,
-        "nao_checaveis": 0,
+        "checaveis": 123,
+        "nao_checaveis": 1,
         "por_veredito": {
           "VERDADEIRO": 66,
           "IMPRECISO": 23,
-          "INSUSTENTAVEL": 24,
-          "FALSO": 11,
-          "NAO_CHECAVEL": 0
+          "INSUSTENTAVEL": 25,
+          "FALSO": 9,
+          "NAO_CHECAVEL": 1
         },
         "percentual_dos_checaveis": {
-          "VERDADEIRO": 53.2,
-          "IMPRECISO": 18.5,
-          "INSUSTENTAVEL": 19.4,
-          "FALSO": 8.9
+          "VERDADEIRO": 53.7,
+          "IMPRECISO": 18.7,
+          "INSUSTENTAVEL": 20.3,
+          "FALSO": 7.3
         }
       },
       "entrevistador": {
@@ -48,16 +48,16 @@
         "checaveis": 83,
         "nao_checaveis": 0,
         "por_veredito": {
-          "VERDADEIRO": 68,
-          "IMPRECISO": 4,
-          "INSUSTENTAVEL": 11,
+          "VERDADEIRO": 65,
+          "IMPRECISO": 3,
+          "INSUSTENTAVEL": 15,
           "FALSO": 0,
           "NAO_CHECAVEL": 0
         },
         "percentual_dos_checaveis": {
-          "VERDADEIRO": 81.9,
-          "IMPRECISO": 4.8,
-          "INSUSTENTAVEL": 13.3,
+          "VERDADEIRO": 78.3,
+          "IMPRECISO": 3.6,
+          "INSUSTENTAVEL": 18.1,
           "FALSO": 0.0
         }
       }
@@ -70,16 +70,16 @@
       "checaveis": 83,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 68,
-        "IMPRECISO": 4,
-        "INSUSTENTAVEL": 11,
+        "VERDADEIRO": 65,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 15,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 81.9,
-        "IMPRECISO": 4.8,
-        "INSUSTENTAVEL": 13.3,
+        "VERDADEIRO": 78.3,
+        "IMPRECISO": 3.6,
+        "INSUSTENTAVEL": 18.1,
         "FALSO": 0.0
       },
       "nome": "Renata Lo Prete",
@@ -115,20 +115,20 @@
     },
     {
       "alegacoes": 124,
-      "checaveis": 124,
-      "nao_checaveis": 0,
+      "checaveis": 123,
+      "nao_checaveis": 1,
       "por_veredito": {
         "VERDADEIRO": 66,
         "IMPRECISO": 23,
-        "INSUSTENTAVEL": 24,
-        "FALSO": 11,
-        "NAO_CHECAVEL": 0
+        "INSUSTENTAVEL": 25,
+        "FALSO": 9,
+        "NAO_CHECAVEL": 1
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 53.2,
-        "IMPRECISO": 18.5,
-        "INSUSTENTAVEL": 19.4,
-        "FALSO": 8.9
+        "VERDADEIRO": 53.7,
+        "IMPRECISO": 18.7,
+        "INSUSTENTAVEL": 20.3,
+        "FALSO": 7.3
       },
       "nome": "Flávio Bolsonaro",
       "chave": "flavio-bolsonaro",
@@ -154,13 +154,14 @@
       "tipos": {
         "evento_passado": 57,
         "numero": 13,
-        "norma_vigente": 13,
         "serie_historica": 13,
+        "norma_vigente": 12,
         "atribuicao_a_terceiro": 10,
         "valor_monetario": 10,
         "data_ou_prazo": 3,
         "ranking": 3,
-        "comparacao": 2
+        "comparacao": 2,
+        "juizo_de_valor": 1
       }
     }
   ],
@@ -170,17 +171,17 @@
       "checaveis": 72,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 42,
-        "IMPRECISO": 9,
-        "INSUSTENTAVEL": 17,
-        "FALSO": 4,
+        "VERDADEIRO": 41,
+        "IMPRECISO": 8,
+        "INSUSTENTAVEL": 20,
+        "FALSO": 3,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 58.3,
-        "IMPRECISO": 12.5,
-        "INSUSTENTAVEL": 23.6,
-        "FALSO": 5.6
+        "VERDADEIRO": 56.9,
+        "IMPRECISO": 11.1,
+        "INSUSTENTAVEL": 27.8,
+        "FALSO": 4.2
       },
       "assunto": "justica",
       "por_falante": {
@@ -193,16 +194,16 @@
       "checaveis": 42,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 32,
+        "VERDADEIRO": 31,
         "IMPRECISO": 4,
-        "INSUSTENTAVEL": 5,
+        "INSUSTENTAVEL": 6,
         "FALSO": 1,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 76.2,
+        "VERDADEIRO": 73.8,
         "IMPRECISO": 9.5,
-        "INSUSTENTAVEL": 11.9,
+        "INSUSTENTAVEL": 14.3,
         "FALSO": 2.4
       },
       "assunto": "politica",
@@ -213,20 +214,20 @@
     },
     {
       "alegacoes": 23,
-      "checaveis": 23,
-      "nao_checaveis": 0,
+      "checaveis": 22,
+      "nao_checaveis": 1,
       "por_veredito": {
         "VERDADEIRO": 11,
         "IMPRECISO": 3,
         "INSUSTENTAVEL": 4,
-        "FALSO": 5,
-        "NAO_CHECAVEL": 0
+        "FALSO": 4,
+        "NAO_CHECAVEL": 1
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 47.8,
-        "IMPRECISO": 13.0,
-        "INSUSTENTAVEL": 17.4,
-        "FALSO": 21.7
+        "VERDADEIRO": 50.0,
+        "IMPRECISO": 13.6,
+        "INSUSTENTAVEL": 18.2,
+        "FALSO": 18.2
       },
       "assunto": "seguranca-publica",
       "por_falante": {
@@ -330,16 +331,16 @@
       "checaveis": 8,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 6,
+        "VERDADEIRO": 5,
         "IMPRECISO": 0,
-        "INSUSTENTAVEL": 2,
+        "INSUSTENTAVEL": 3,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 75.0,
+        "VERDADEIRO": 62.5,
         "IMPRECISO": 0.0,
-        "INSUSTENTAVEL": 25.0,
+        "INSUSTENTAVEL": 37.5,
         "FALSO": 0.0
       },
       "assunto": "relacoes-exteriores",
@@ -707,16 +708,16 @@
       "checaveis": 33,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 14,
-        "IMPRECISO": 3,
-        "INSUSTENTAVEL": 14,
+        "VERDADEIRO": 12,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 17,
         "FALSO": 2,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 42.4,
-        "IMPRECISO": 9.1,
-        "INSUSTENTAVEL": 42.4,
+        "VERDADEIRO": 36.4,
+        "IMPRECISO": 6.1,
+        "INSUSTENTAVEL": 51.5,
         "FALSO": 6.1
       },
       "id": "b05",
@@ -729,16 +730,16 @@
           "checaveis": 12,
           "nao_checaveis": 0,
           "por_veredito": {
-            "VERDADEIRO": 9,
-            "IMPRECISO": 1,
-            "INSUSTENTAVEL": 2,
+            "VERDADEIRO": 7,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 5,
             "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 75.0,
-            "IMPRECISO": 8.3,
-            "INSUSTENTAVEL": 16.7,
+            "VERDADEIRO": 58.3,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 41.7,
             "FALSO": 0.0
           }
         },
@@ -769,15 +770,15 @@
       "por_veredito": {
         "VERDADEIRO": 11,
         "IMPRECISO": 1,
-        "INSUSTENTAVEL": 2,
-        "FALSO": 1,
+        "INSUSTENTAVEL": 3,
+        "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 73.3,
         "IMPRECISO": 6.7,
-        "INSUSTENTAVEL": 13.3,
-        "FALSO": 6.7
+        "INSUSTENTAVEL": 20.0,
+        "FALSO": 0.0
       },
       "id": "b06",
       "titulo": "Polícia Federal e a reunião ministerial de 2020",
@@ -809,15 +810,15 @@
           "por_veredito": {
             "VERDADEIRO": 6,
             "IMPRECISO": 1,
-            "INSUSTENTAVEL": 2,
-            "FALSO": 1,
+            "INSUSTENTAVEL": 3,
+            "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
             "VERDADEIRO": 60.0,
             "IMPRECISO": 10.0,
-            "INSUSTENTAVEL": 20.0,
-            "FALSO": 10.0
+            "INSUSTENTAVEL": 30.0,
+            "FALSO": 0.0
           }
         }
       }
@@ -887,16 +888,16 @@
       "checaveis": 9,
       "nao_checaveis": 0,
       "por_veredito": {
-        "VERDADEIRO": 7,
+        "VERDADEIRO": 6,
         "IMPRECISO": 0,
-        "INSUSTENTAVEL": 2,
+        "INSUSTENTAVEL": 3,
         "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 77.8,
+        "VERDADEIRO": 66.7,
         "IMPRECISO": 0.0,
-        "INSUSTENTAVEL": 22.2,
+        "INSUSTENTAVEL": 33.3,
         "FALSO": 0.0
       },
       "id": "b08",
@@ -909,16 +910,16 @@
           "checaveis": 2,
           "nao_checaveis": 0,
           "por_veredito": {
-            "VERDADEIRO": 2,
+            "VERDADEIRO": 1,
             "IMPRECISO": 0,
-            "INSUSTENTAVEL": 0,
+            "INSUSTENTAVEL": 1,
             "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 100.0,
+            "VERDADEIRO": 50.0,
             "IMPRECISO": 0.0,
-            "INSUSTENTAVEL": 0.0,
+            "INSUSTENTAVEL": 50.0,
             "FALSO": 0.0
           }
         },
@@ -1106,20 +1107,20 @@
     },
     {
       "alegacoes": 26,
-      "checaveis": 26,
-      "nao_checaveis": 0,
+      "checaveis": 25,
+      "nao_checaveis": 1,
       "por_veredito": {
         "VERDADEIRO": 15,
         "IMPRECISO": 3,
         "INSUSTENTAVEL": 3,
-        "FALSO": 5,
-        "NAO_CHECAVEL": 0
+        "FALSO": 4,
+        "NAO_CHECAVEL": 1
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 57.7,
-        "IMPRECISO": 11.5,
-        "INSUSTENTAVEL": 11.5,
-        "FALSO": 19.2
+        "VERDADEIRO": 60.0,
+        "IMPRECISO": 12.0,
+        "INSUSTENTAVEL": 12.0,
+        "FALSO": 16.0
       },
       "id": "b12",
       "titulo": "Armas e segurança pública",
@@ -1146,20 +1147,20 @@
         },
         "Flávio Bolsonaro": {
           "alegacoes": 17,
-          "checaveis": 17,
-          "nao_checaveis": 0,
+          "checaveis": 16,
+          "nao_checaveis": 1,
           "por_veredito": {
             "VERDADEIRO": 9,
             "IMPRECISO": 3,
             "INSUSTENTAVEL": 0,
-            "FALSO": 5,
-            "NAO_CHECAVEL": 0
+            "FALSO": 4,
+            "NAO_CHECAVEL": 1
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 52.9,
-            "IMPRECISO": 17.6,
+            "VERDADEIRO": 56.2,
+            "IMPRECISO": 18.8,
             "INSUSTENTAVEL": 0.0,
-            "FALSO": 29.4
+            "FALSO": 25.0
           }
         }
       }
@@ -1310,17 +1311,17 @@
     }
   ],
   "revisao_ia": {
-    "mantido": 148,
-    "alterado": 59
+    "mantido": 143,
+    "alterado": 64
   },
   "confianca": {
     "alta": 56,
     "media": 151
   },
   "fontes": {
-    "citacoes": 765,
-    "urls_distintas": 526,
-    "instituicoes": 278
+    "citacoes": 767,
+    "urls_distintas": 530,
+    "instituicoes": 281
   },
   "avisos": [],
   "ressalvas": [
@@ -1331,55 +1332,55 @@
   ],
   "para_roteiro": {
     "N_ALEG": 207,
-    "N_CHEC": 207,
-    "N_NC": 0,
-    "N_V": 134,
-    "N_I": 27,
-    "N_S": 35,
-    "N_F": 11,
+    "N_CHEC": 206,
+    "N_NC": 1,
+    "N_V": 131,
+    "N_I": 26,
+    "N_S": 40,
+    "N_F": 9,
     "DURACAO": "00:42:47",
     "PALAVRAS": 8322,
     "DURACAO_PECA": "00:42:47",
     "PALAVRAS_PECA": 8322,
-    "N_PV": 64.7,
-    "N_PI": 13.0,
-    "N_PS": 16.9,
-    "N_PF": 5.3,
+    "N_PV": 63.6,
+    "N_PI": 12.6,
+    "N_PS": 19.4,
+    "N_PF": 4.4,
     "P_ENTREVISTADO_ALEG": 124,
-    "P_ENTREVISTADO_CHEC": 124,
+    "P_ENTREVISTADO_CHEC": 123,
     "P_ENTREVISTADO_V": 66,
     "P_ENTREVISTADO_I": 23,
-    "P_ENTREVISTADO_S": 24,
-    "P_ENTREVISTADO_F": 11,
-    "P_ENTREVISTADO_NC": 0,
+    "P_ENTREVISTADO_S": 25,
+    "P_ENTREVISTADO_F": 9,
+    "P_ENTREVISTADO_NC": 1,
     "P_ENTREVISTADOR_ALEG": 83,
     "P_ENTREVISTADOR_CHEC": 83,
-    "P_ENTREVISTADOR_V": 68,
-    "P_ENTREVISTADOR_I": 4,
-    "P_ENTREVISTADOR_S": 11,
+    "P_ENTREVISTADOR_V": 65,
+    "P_ENTREVISTADOR_I": 3,
+    "P_ENTREVISTADOR_S": 15,
     "P_ENTREVISTADOR_F": 0,
     "P_ENTREVISTADOR_NC": 0,
     "C1_NOME": "Flávio Bolsonaro",
     "C1_PARTIDO": "PL, senador e candidato no 2º turno",
     "C1_FALA": "00:25:00",
     "C1_ALEG": 124,
-    "C1_CHEC": 124,
+    "C1_CHEC": 123,
     "C1_V": 66,
     "C1_I": 23,
-    "C1_S": 24,
-    "C1_F": 11,
-    "C1_NC": 0,
-    "C1_PV": 53.2,
-    "C1_PI": 18.5,
-    "C1_PS": 19.4,
-    "C1_PF": 8.9,
+    "C1_S": 25,
+    "C1_F": 9,
+    "C1_NC": 1,
+    "C1_PV": 53.7,
+    "C1_PI": 18.7,
+    "C1_PS": 20.3,
+    "C1_PF": 7.3,
     "J1_NOME": "Renata Lo Prete",
     "J1_FALA": "00:14:09",
     "J1_ALEG": 83,
     "J1_CHEC": 83,
-    "J1_V": 68,
-    "J1_I": 4,
-    "J1_S": 11,
+    "J1_V": 65,
+    "J1_I": 3,
+    "J1_S": 15,
     "J1_F": 0,
     "J1_NC": 0,
     "B1_TITULO": "Ajuste fiscal, juros e salário mínimo",
@@ -1412,17 +1413,17 @@
     "B4_NC": 0,
     "B5_TITULO": "Caso Master: o dinheiro de Vorcaro para o filme",
     "B5_ALEG": 33,
-    "B5_V": 14,
-    "B5_I": 3,
-    "B5_S": 14,
+    "B5_V": 12,
+    "B5_I": 2,
+    "B5_S": 17,
     "B5_F": 2,
     "B5_NC": 0,
     "B6_TITULO": "Polícia Federal e a reunião ministerial de 2020",
     "B6_ALEG": 15,
     "B6_V": 11,
     "B6_I": 1,
-    "B6_S": 2,
-    "B6_F": 1,
+    "B6_S": 3,
+    "B6_F": 0,
     "B6_NC": 0,
     "B7_TITULO": "Jair Bolsonaro: condenação e cargo no governo",
     "B7_ALEG": 11,
@@ -1433,9 +1434,9 @@
     "B7_NC": 0,
     "B8_TITULO": "Eduardo Bolsonaro e o Itamaraty",
     "B8_ALEG": 9,
-    "B8_V": 7,
+    "B8_V": 6,
     "B8_I": 0,
-    "B8_S": 2,
+    "B8_S": 3,
     "B8_F": 0,
     "B8_NC": 0,
     "B9_TITULO": "Forças Armadas e narcotráfico",
@@ -1464,8 +1465,8 @@
     "B12_V": 15,
     "B12_I": 3,
     "B12_S": 3,
-    "B12_F": 5,
-    "B12_NC": 0,
+    "B12_F": 4,
+    "B12_NC": 1,
     "B13_TITULO": "Rio de Janeiro: aliados presos e investigados",
     "B13_ALEG": 8,
     "B13_V": 6,

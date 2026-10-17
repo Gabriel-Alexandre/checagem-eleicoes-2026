@@ -187,8 +187,8 @@
       "papel": "entrevistado",
       "frase": "e autoriza os marginais a comprarem armas de guerra",
       "afirmacao": "O Estatuto do Desarmamento autoriza criminosos a comprar armas de guerra",
-      "tipo": "norma_vigente",
-      "checavel": true,
+      "tipo": "juizo_de_valor",
+      "checavel": false,
       "assunto": "seguranca-publica",
       "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
       "o_que_conferir": [
