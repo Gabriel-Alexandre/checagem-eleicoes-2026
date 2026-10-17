@@ -1,0 +1,493 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A181",
+      "veredito": "IMPRECISO",
+      "resumo": "A legítima defesa está no Código Penal; a Constituição não a menciona, e uma PEC quer incluí-la no artigo 5º",
+      "explicacao": "A frase diz que o direito à legítima defesa 'está na Constituição'. A expressão não aparece no texto da Constituição de 1988 (conferido na íntegra capturada do Planalto); o artigo 5º garante a inviolabilidade do direito à vida e à segurança, mas não fala em legítima defesa. O instituto está no Código Penal: o art. 23 diz que não há crime quando o agente age em legítima defesa, e o art. 25 a define. A prova mais direta de que o texto constitucional não a prevê é a PEC 100/2019, na Câmara, cuja ementa propõe acrescentar o inciso LXXIX ao art. 5º 'para introduzir como direito fundamental o exercício da legítima defesa'; pelos dados abertos da Câmara ela continua aguardando a criação de comissão especial, ou seja, não foi promulgada. O Jornal Opção registra ainda a nota técnica da Procuradoria Federal dos Direitos do Cidadão de que a Constituição não inclui a autodefesa entre os direitos fundamentais (posição de uma das partes do debate, não decisão). Por que não FALSO: o direito à legítima defesa existe no ordenamento (Código Penal) e a Constituição garante vida e segurança; o erro está no lugar onde o direito está escrito. Por que não VERDADEIRO: a Constituição não traz o dispositivo, e a própria existência da PEC mostra isso.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto vigente em outubro de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição Federal, art. 5º, caput",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:",
+          "prova": "O artigo dos direitos fundamentais garante vida e segurança, sem mencionar legítima defesa; a busca pela expressão no texto inteiro não a encontra."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Código Penal (Decreto-Lei 2.848/1940), arts. 23 e 25, texto compilado",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 23 - Não há crime quando o agente pratica o fato: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - em estado de necessidade; (Incluído pela Lei nº 7.209, de 11.7.1984) II - em legítima defesa; [...] Art. 25 - Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem.",
+          "prova": "Mostra onde a legítima defesa está prevista: no Código Penal, como excludente de ilicitude."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "PEC 100/2019, situação da proposição",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2209764",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"siglaTipo\":\"PEC\",\"codTipo\":136,\"numero\":100,\"ano\":2019,\"ementa\":\"Acrescenta o inciso LXXIX ao art. 5º da Constituição Federal, para introduzir como direito fundamental o exercício da legítima defesa e os meios a tanto necessários.\",\"dataApresentacao\":\"2019-06-27T11:07\",\"uriOrgaoNumerador\":\"https://dadosabertos.camara.leg.br/api/v2/orgaos/2003\",\"statusProposicao\":{\"dataHora\":\"2019-09-30T00:00\",\"sequencia\":69,\"siglaOrgao\":\"CCP\",\"uriOrgao\":\"https://dadosabertos.camara.leg.br/api/v2/orgaos/186\",\"uriUltimoRelator\":\"https://dadosabertos.camara.leg.br/api/v2/deputados/204395\",\"regime\":\"Especial (Art. 202 c/c 191, I, RICD)\",\"descricaoTramitacao\":\"Publicação de Proposição\",\"codTipoTramitacao\":\"604\",\"descricaoSituacao\":\"Aguardando Criação de Comissão Temporária\"",
+          "prova": "A PEC propõe introduzir a legítima defesa como direito fundamental no art. 5º e não foi aprovada: o texto atual não a prevê."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Para MPF, legítima defesa é ilegal (coluna Opção Jurídica)",
+          "url": "https://www.jornalopcao.com.br/colunas-e-blogs/opcao-juridica/para-mpf-legitima-defesa-e-ilegal-215293/",
+          "consultada_em": "2026-10-17",
+          "trecho": "a PFDC destaca que a Constituição Federal de 1988 não admite “autodefesa” no rol dos chamados direitos fundamentais, visto que o uso da força legítima é um atributo do Estado",
+          "prova": "Registra a posição da PFDC sobre a PEC 100/2019: a Constituição de 1988 não inclui a autodefesa no rol de direitos fundamentais."
+        }
+      ]
+    },
+    {
+      "id": "A182",
+      "veredito": "FALSO",
+      "resumo": "O Estatuto permite ter arma em casa com requisitos, e decreto admite até duas armas para defesa pessoal",
+      "explicacao": "A frase diz que o Estatuto do Desarmamento proíbe o cidadão de se defender. A Lei 10.826/2003, no texto compilado vigente, não proíbe: o art. 4º permite adquirir arma de uso permitido a quem declarar efetiva necessidade e cumprir requisitos (antecedentes, ocupação lícita, capacidade técnica e aptidão psicológica), e o art. 5º autoriza o dono a manter a arma em casa ou no local de trabalho. O decreto que regulamenta a lei em 2026 (Decreto 11.615/2023) diz que o interessado pode adquirir até duas armas de fogo para defesa pessoal. O porte (andar armado) é proibido como regra pelo art. 6º, com exceções e autorização excepcional da Polícia Federal (art. 10), e esse é o ponto restritivo real da lei. A legítima defesa em si é excludente de crime no Código Penal (art. 25). As fontes contradizem a proibição afirmada; a lei condiciona, não proíbe. Por que não IMPRECISO: não há essência certa a salvar, porque a posse para defesa pessoal é expressamente prevista. Lei e decreto são atos normativos distintos, ambos lidos na íntegra.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto vigente em outubro de 2026",
+      "ressalva": "O porte, andar armado, é a exceção na lei e depende de autorização excepcional da Polícia Federal",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei 10.826/2003 (Estatuto do Desarmamento), arts. 4º e 5º, texto compilado",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 4 o Para adquirir arma de fogo de uso permitido o interessado deverá, além de declarar a efetiva necessidade, atender aos seguintes requisitos: I - comprovação de idoneidade, com a apresentação de certidões negativas de antecedentes criminais fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral e de não estar respondendo a inquérito policial ou a processo criminal, [...] Art. 5 o O certificado de Registro de Arma de Fogo, com validade em todo o território nacional, autoriza o seu proprietário a manter a arma de fogo exclusivamente no interior de sua residência ou domicílio,",
+          "prova": "A lei permite a compra e a posse de arma em casa a quem cumpre requisitos; não proíbe."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto 11.615/2023, art. 15, § 2º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11615.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "§ 2º O interessado poderá adquirir até duas armas de fogo para defesa pessoal, desde que comprove a efetiva necessidade de que trata o inciso III do caput para cada aquisição, e até cinquenta munições por arma, por ano.",
+          "prova": "O regulamento vigente prevê expressamente a compra de armas para defesa pessoal."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Código Penal, arts. 23 e 25",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 23 - Não há crime quando o agente pratica o fato: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - em estado de necessidade; (Incluído pela Lei nº 7.209, de 11.7.1984) II - em legítima defesa; [...] Art. 25 - Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem.",
+          "prova": "A legítima defesa é excludente de crime: defender-se não é proibido."
+        }
+      ]
+    },
+    {
+      "id": "A183",
+      "veredito": "FALSO",
+      "resumo": "O Estatuto exige antecedentes limpos para comprar arma e pune com até 6 anos a arma de uso restrito sem autorização",
+      "explicacao": "A frase diz que o Estatuto do Desarmamento autoriza criminosos a comprar armas de guerra. O texto da Lei 10.826/2003 faz o contrário: o art. 4º exige, para comprar até arma de uso permitido, certidões negativas de antecedentes criminais e não estar respondendo a inquérito ou processo criminal; o art. 16 tipifica como crime, com reclusão de 3 a 6 anos, possuir, adquirir ou portar arma de uso restrito sem autorização. O Decreto 11.615/2023 repete a exigência de idoneidade e de inexistência de inquérito ou processo, com autorização prévia da Polícia Federal. Não há dispositivo que permita a compra por quem tem antecedentes. Que criminosos obtêm armas pelo mercado ilegal é outra afirmação (sobre crime, não sobre o que a lei autoriza). As fontes contradizem o enunciado, por isso FALSO e não INSUSTENTAVEL.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto vigente em outubro de 2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei 10.826/2003, arts. 4º e 16, texto compilado",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 4 o Para adquirir arma de fogo de uso permitido o interessado deverá, além de declarar a efetiva necessidade, atender aos seguintes requisitos: I - comprovação de idoneidade, com a apresentação de certidões negativas de antecedentes criminais fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral e de não estar respondendo a inquérito policial ou a processo criminal, [...] Art. 16. Possuir, deter, portar, adquirir, fornecer, receber, ter em depósito, transportar, ceder, ainda que gratuitamente, emprestar, remeter, empregar, manter sob sua guarda ou ocultar arma de fogo, acessório ou munição de uso restrito, sem autorização e em desacordo com determinação legal ou regulamentar: (Redação dada pela Lei nº 13.964, de 2019) Pena – reclusão, de 3 (três) a 6 (seis) anos, e multa.",
+          "prova": "A lei exige antecedentes limpos para comprar e criminaliza a arma de uso restrito sem autorização."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto 11.615/2023, art. 15",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11615.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 15. A aquisição de arma de fogo de uso permitido dependerá de autorização prévia da Polícia Federal e o interessado deverá: I - ter, no mínimo, vinte e cinco anos de idade; II - apresentar documentação de identificação pessoal; III - comprovar a efetiva necessidade da posse ou do porte de arma de fogo; IV - comprovar idoneidade e inexistência de inquérito policial ou processo criminal, por meio de certidões de antecedentes criminais das Justiças Federal, Estadual ou Distrital, Militar e Eleitoral;",
+          "prova": "O regulamento exige autorização prévia da PF e ausência de inquérito ou processo criminal para a compra."
+        }
+      ]
+    },
+    {
+      "id": "A184",
+      "veredito": "FALSO",
+      "resumo": "Lei dá à Polícia Federal e ao Exército a fiscalização de armas, e polícias apreenderam dezenas de fuzis em 2025",
+      "explicacao": "A frase diz que não há fiscalização nenhuma. A Lei 10.826/2003 cria o Sinarm no âmbito da Polícia Federal, encarregado inclusive de cadastrar as apreensões de armas, e dá ao Comando do Exército a competência de autorizar e fiscalizar a produção, a importação e o comércio de armas; o Decreto 11.615/2023 atribui à Polícia Federal fiscalizar registro e porte. Há fiscalização em funcionamento: o Poder360 registra que a PM do Rio apreendeu 84 fuzis em janeiro de 2025, recorde da série desde 2015, e que a PF apreendeu 11 fuzis numa operação no mesmo mês; o Correio, com dados do Sinesp, registra 37 fuzis apreendidos na Bahia no 1º semestre de 2025 e uma apreensão da PRF de sete fuzis a caminho de uma facção. As fontes contradizem o 'nenhuma'. Se a fiscalização é suficiente ou eficaz é juízo que este veredito não mede. Por que FALSO e não IMPRECISO: o enunciado é absoluto e o registro mostra o oposto.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "lei vigente em outubro de 2026; apreensões de 2025",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei 10.826/2003, arts. 1º, 2º e 24, texto compilado",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 1 o O Sistema Nacional de Armas – Sinarm, instituído no Ministério da Justiça, no âmbito da Polícia Federal, tem circunscrição em todo o território nacional. [...] VII – cadastrar as apreensões de armas de fogo, inclusive as vinculadas a procedimentos policiais e judiciais; [...] Art. 24. Excetuadas as atribuições a que se refere o art. 2º desta Lei, compete ao Comando do Exército autorizar e fiscalizar a produção, exportação, importação, desembaraço alfandegário e o comércio de armas de fogo e demais produtos controlados,",
+          "prova": "A lei atribui a fiscalização de armas à Polícia Federal (Sinarm) e ao Exército."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto 11.615/2023, art. 4º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11615.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 4º Compete à Polícia Federal: I - definir, padronizar, sistematizar, normatizar e fiscalizar os seguintes procedimentos e as seguintes atividades: a) registro de armas de fogo e cadastro de munições e acessórios, exceto as armas, as munições e os acessórios das instituições a que se refere o § 1º do art. 3º; b) concessão de porte de arma de fogo pessoal e de suas renovações;",
+          "prova": "O regulamento atribui à Polícia Federal fiscalizar registro e porte de armas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "PM do Rio apreendeu 84 fuzis do crime organizado em janeiro (04/02/2025)",
+          "url": "https://www.poder360.com.br/seguranca-publica/pm-do-rio-apreendeu-em-janeiro-84-fuzis-do-crime-organizado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em janeiro deste ano, a Polícia Militar do Rio de Janeiro confiscou 410 armas de fogo em posse do crime organizado. Dentre elas, 84 são fuzis — o maior número registrado desde o início da série histórica em 2015. [...] a Polícia Federal apreendeu 11 fuzis durante uma operação na RJ-127, na altura de Paracambi, região metropolitana do Rio de Janeiro.",
+          "prova": "Apreensões de armas de guerra em poder do crime, pela PM e pela PF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio (Salvador)",
+          "titulo": "Mais de 200 fuzis foram apreendidos na Bahia desde 2023, aponta Sinesp (06/08/2025)",
+          "url": "https://www.correio24horas.com.br/minha-bahia/mais-de-200-fuzis-foram-apreendidos-na-bahia-desde-2023-aponta-sinesp-0825",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Rodoviária Federal (PRF) apreendeu, na última segunda-feira (4), sete fuzis e 12 carregadores que tinham como destino a cidade de Porto Seguro, no extremo-sul baiano. [...] Dados do Sistema Nacional de Informações de Segurança Pública (Sinesp), ligado ao Ministério da Justiça e Segurança Pública apontam que 37 fuzis foram apreendidos na Bahia no primeiro semestre de 2025.",
+          "prova": "Apreensões pela PRF e série do Sinesp: a repressão ao tráfico de fuzis existe."
+        }
+      ]
+    },
+    {
+      "id": "A185",
+      "veredito": "VERDADEIRO",
+      "resumo": "O piso de R$ 600 de 2023 só foi reajustado em 17 de setembro de 2026, quando subiu para R$ 691",
+      "explicacao": "A frase diz que Lula passou o mandato sem reajustar o Bolsa Família e só o fez perto da eleição. A Lei 14.601/2023 fixou R$ 142 por integrante e o piso de R$ 600 por família; o Decreto 13.120, de 17 de setembro de 2026, é a primeira correção, pela inflação acumulada desde março de 2023; o Congresso em Foco registra que os valores-base não tinham sido corrigidos desde o relançamento, e o SBT reproduz o próprio Lula: 'A gente estava há quatro anos sem dar reajuste'. O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A116 e A118, VERDADEIRO), com as mesmas fontes. Régua de 'quatro anos': do início do mandato (1º/01/2023) ao anúncio (17/09/2026) são cerca de 3 anos e 8 meses, desvio de cerca de 7% sobre quatro anos, abaixo dos 10% da régua, por isso VERDADEIRO com ressalva e não IMPRECISO. 'Não deu reajuste para ninguém' segue a mesma leitura do caso de 15/out: os adicionais criados em 2023 são componentes do novo desenho, não correção de valor.",
+      "numero_dito": "quatro anos",
+      "numero_apurado": "cerca de 3 anos e 8 meses sem reajuste, de janeiro de 2023 a 17 de setembro de 2026",
+      "data_de_referencia": "de 1º de janeiro de 2023 a 17 de setembro de 2026",
+      "ressalva": "O reajuste veio no quarto ano do mandato, em 17 de setembro de 2026, e não depois de quatro anos completos",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "3 anos e 8 meses",
+          "de": "01/01/2023 e 17 de setembro de 2026",
+          "como": "contagem no calendário da posse ao anúncio do reajuste: 44,5 meses contra 48, desvio de cerca de 7%"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.601, de 19 de junho de 2023 (Programa Bolsa Família)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "I - Benefício de Renda de Cidadania, no valor de R$ 142,00 (cento e quarenta e dois reais) por integrante, destinado a todas as famílias beneficiárias do Programa Bolsa Família; II - Benefício Complementar, destinado às famílias beneficiárias do Programa Bolsa Família cuja soma dos valores relativos aos benefícios financeiros de que trata o inciso I deste parágrafo seja inferior a R$ 600,00 (seiscentos reais), calculado pela diferença entre este valor e a referida soma;",
+          "prova": "Os valores fixados em 2023, ponto de partida do mandato."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Decreto nº 13.120, de 17 de setembro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13120.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dispõe sobre a correção do valor dos benefícios financeiros do Programa Bolsa Família pela variação acumulada do Índice Nacional de Preços ao Consumidor – INPC entre março de 2023 e agosto de 2026.",
+          "prova": "O ato de 2026 corrige a inflação desde março de 2023: os valores estavam parados desde então."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Lula anuncia primeiro reajuste no Bolsa Família desde março de 2023 (17/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/122353/lula-anuncia-primeiro-reajuste-no-bolsa-familia-desde-marco-de-2023",
+          "consultada_em": "2026-10-16",
+          "trecho": "O último reajuste estrutural do Bolsa Família havia ocorrido no relançamento do programa, em março de 2023. Desde então, os valores-base não tinham sido corrigidos até o anúncio de Lula nesta quinta-feira.",
+          "prova": "Leitura independente da imprensa: nenhuma correção entre 2023 e o anúncio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que não sabia de falta de reajuste no Bolsa Família (16/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-nao-sabia-de-falta-de-reajuste-no-bolsa-familia",
+          "consultada_em": "2026-10-16",
+          "trecho": "Anunciado em 17 de setembro, o reajuste elevou o valor mínimo do benefício de R$ 600 para R$ 69 1. O novo valor começou a ser pago em outubro. [...] A gente estava há quatro anos sem dar reajuste do Bolsa Família, e eu fiquei puto com meus ministros da área econômica. Como é possível a gente não dar reajuste da inflação?",
+          "prova": "Data do anúncio e o próprio presidente reconhecendo o período sem reajuste."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Congresso empossa Lula e Alckmin na Presidência da República (01/01/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
+          "consultada_em": "2026-10-16",
+          "trecho": "Da Agência Senado | 01/01/2023, 17h41 O Congresso Nacional deu posse neste domingo (1º) a Luiz Inácio Lula da Silva, 39º presidente do Brasil",
+          "prova": "Data de início do mandato, usada na conta do período sem reajuste."
+        }
+      ]
+    },
+    {
+      "id": "A186",
+      "veredito": "VERDADEIRO",
+      "resumo": "O reajuste foi anunciado em 17 de setembro, 17 dias antes do 1º turno, no primeiro domingo de outubro",
+      "explicacao": "O Poder360 e o SBT News datam o anúncio do reajuste do Bolsa Família em 17 de setembro de 2026; a Constituição (art. 77) marca o 1º turno para o primeiro domingo de outubro, que em 2026 foi o dia 4. De 17/9 a 4/10 são 17 dias, como dito. O Poder360 e a Tribuna de Jundiaí usam a mesma conta no título ('a 17 dias do 1º turno', 'a 17 dias das eleições'). A conta fecha com o 1º turno, não com o 2º (25 de outubro). O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A117, VERDADEIRO), com a mesma régua.",
+      "numero_dito": "17 dias",
+      "numero_apurado": "17 dias, de 17 de setembro ao 1º turno de 2026",
+      "data_de_referencia": "17 de setembro de 2026 (anúncio) e primeiro domingo de outubro de 2026 (1º turno)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "17 dias",
+          "de": "17 de setembro e primeiro domingo de outubro de 2026",
+          "como": "contagem no calendário: o primeiro domingo de outubro de 2026 é o dia 4, e de 17/9 a 4/10 são 17 dias"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição Federal, art. 77",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 77. A eleição do Presidente e do Vice-Presidente da República realizar-se-á, simultaneamente, no primeiro domingo de outubro, em primeiro turno,",
+          "prova": "A data do 1º turno: o primeiro domingo de outubro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula aumenta Bolsa Família; piso chega a R$ 691 a 17 dias do 1º turno (17/09/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/lula-aumenta-bolsa-familia-para-r-691-a-17-dias-do-1o-turno/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula aumenta Bolsa Família; piso chega a R$ 691 a 17 dias do 1º turno [...] Publicado em: 17 de setembro de 2026",
+          "prova": "Data do anúncio e a mesma contagem de 17 dias até o 1º turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que não sabia de falta de reajuste no Bolsa Família (16/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-nao-sabia-de-falta-de-reajuste-no-bolsa-familia",
+          "consultada_em": "2026-10-16",
+          "trecho": "Anunciado em 17 de setembro, o reajuste elevou o valor mínimo do benefício de R$ 600 para R$ 69 1. O novo valor começou a ser pago em outubro. [...] A gente estava há quatro anos sem dar reajuste do Bolsa Família, e eu fiquei puto com meus ministros da área econômica. Como é possível a gente não dar reajuste da inflação?",
+          "prova": "Confirmação independente da data do anúncio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna de Jundiaí",
+          "titulo": "Lula aumenta Bolsa Família a 17 dias das eleições (18/09/2026)",
+          "url": "https://tribunadejundiai.com.br/politica/lula-aumenta-bolsa-familia-a-17-dias-das-eleicoes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula aumenta Bolsa Família a 17 dias das eleições: valor sobe para R$ 691 e medida chega ao TSE - Tribuna de Jundiaí Pular para o conteúdo Pular para o menu Menu Cidades da Região Jundiaí Política Eleições 2026 Polícia Esportes Vagas de Empregos Cultura Últimas Notícias Cidades Voltar Todas as notícias Cabreúva Campo Limpo Paulista Itupeva Jarinu Jundiaí Louveira Várzea Paulista Política Voltar Todas as notícias No Plenário Eleições 2026 Coluna Esplanada Economia Voltar Todas as notícias Empreenda Empregos Concursos Gastronomia Voltar Todas as notícias Especial da Pizza Especial do Churrasco Especial do Hambúrguer Cultura Voltar Todas as notícias Séries e Filmes Festa da Uva 2026 Educação Voltar Todas as notícias Saúde Voltar Todas as notícias Bem-estar ESG Especiais Voltar Todas as notícias Bairro a Bairro Dia Mundial da Água Horóscopo Polícia Mais Voltar Horta e Jardim Brasil Entrevistão Esportes Fato ou Boato Inovação & Tecnologia Meio Ambiente Falecimentos Mundo Mundo Pet Opinião Sextou com S de Saudade Turismo Vídeos Fechar Início Política Política Lula aumenta Bolsa Família a 17 dias das eleições: valor sobe para R$ 691 e medida chega ao TSE Reajuste de 15,04% eleva o piso do benefício de R$ 600 para R$ 691;",
+          "prova": "Terceira apuração com a mesma contagem."
+        }
+      ]
+    },
+    {
+      "id": "A187",
+      "veredito": "VERDADEIRO",
+      "resumo": "O valor médio foi de R$ 189 em 2021 para R$ 607,88 em agosto de 2022, mais que o triplo, no governo Bolsonaro",
+      "explicacao": "A frase diz que no governo Bolsonaro o benefício passou de 190 para, em média, 600 reais, o triplo. A Agência Câmara registra o valor médio do Bolsa Família em R$ 189 em agosto de 2021, antes do Auxílio Brasil. Em agosto de 2022, o Ministério da Cidadania informou valor médio de R$ 607,88 (reproduzido pela Agência Brasil e pelo Poder360, que contam como apoio por repetirem o número do ministério). 607,88 dividido por 189 dá cerca de 3,2 vezes: 'triplicou' confere em termos nominais, e o R$ 600 era de fato a média. A Emenda Constitucional 123/2022 (N1) mostra a origem: acréscimo extraordinário de R$ 200 por cinco meses, de 1º de agosto a 31 de dezembro de 2022, sobre o piso de R$ 400; o FGV/IBRE descreve a mesma trajetória (média de R$ 200 para R$ 400 e depois R$ 600). A ressalva diz o que a frase não diz: o R$ 600 era temporário e vigorou nos últimos cinco meses do mandato, e a comparação é nominal, sem descontar a inflação. Por que não IMPRECISO: o número e o período (governo Bolsonaro) estão certos; o caráter temporário não inverte o dado.",
+      "numero_dito": "de 190 para 600 reais em média, o triplo",
+      "numero_apurado": "de R$ 189 (agosto de 2021) para R$ 607,88 (agosto de 2022), cerca de 3,2 vezes",
+      "data_de_referencia": "agosto de 2021 e agosto de 2022",
+      "ressalva": "Os R$ 200 que levaram a média a R$ 600 eram temporários, de agosto a dezembro de 2022, e a conta é nominal",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "3,2 vezes",
+          "de": "607,88 dividido por 189",
+          "como": "razão entre o valor médio de agosto de 2022 e o de agosto de 2021"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara)",
+          "titulo": "Câmara analisa Medida Provisória do novo Bolsa Família, batizado de Auxílio Brasil (10/08/2021)",
+          "url": "https://www.camara.leg.br/noticias/791886-camara-analisa-medida-provisoria-do-novo-bolsa-familia-batizado-de-auxilio-brasil/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Da Agência Câmara - 10/08/2021 [...] O presidente Jair Bolsonaro prometeu um aumento de, no mínimo, 50% no valor médio do Bolsa Família, que atualmente é de R$ 189.",
+          "prova": "O valor médio do Bolsa Família antes do aumento: R$ 189."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Auxílio Brasil chega a 20,2 milhões de beneficiários este mês (04/08/2022)",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/auxilio-brasil-chega-202-milhoes-de-beneficiarios-este-mes",
+          "consultada_em": "2026-10-17",
+          "trecho": "Até setembro, o valor pago era de R$ 400, mas um complemento de R$ 200, aprovado pelo Congresso em julho , reajustou o benefício - em caráter emergencial - até 31 de dezembro deste ano. [...] “O investimento total do Ministério da Cidadania para o pagamento do Auxílio Brasil, em agosto de 2022, é superior a R$ 12,1 bilhões. O valor médio é de R$ 607,88”, informou a pasta.",
+          "prova": "Reproduz o Ministério da Cidadania: valor médio de R$ 607,88 em agosto de 2022, com o complemento temporário de R$ 200."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Auxílio de R$ 600 é distribuído a 2 milhões de famílias nesta 2ª (ago/2022)",
+          "url": "https://www.poder360.com.br/brasil/auxilio-de-r-600-e-distribuido-a-2-milhoes-de-familias-nesta-2a/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O valor médio será de R$ 607,88. A parcela com R$ 200 extra será paga até dezembro.",
+          "prova": "Segunda reprodução do valor médio informado pelo ministério e do prazo do extra."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Emenda Constitucional nº 123, de 14 de julho de 2022, art. 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "assegurará a extensão do Programa Auxílio Brasil, de que trata a Lei nº 14.284, de 29 de dezembro de 2021, às famílias elegíveis na data de promulgação desta Emenda Constitucional, e concederá às famílias beneficiárias desse programa acréscimo mensal extraordinário, durante 5 (cinco) meses, de R$ 200,00 (duzentos reais), no período de 1º de agosto a 31 de dezembro de 2022,",
+          "prova": "O R$ 200 extra foi extraordinário, por cinco meses, até 31 de dezembro de 2022."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "FGV/IBRE (Blog do IBRE)",
+          "titulo": "Expansão do Bolsa Família desencoraja participação no mercado de trabalho de vulneráveis",
+          "url": "https://blogdoibre.fgv.br/posts/expansao-do-bolsa-familia-desencoraja-participacao-no-mercado-de-trabalho-de-vulneraveis",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com um aumento significativo das transferências às famílias, passando de um valor médio de R$ 200 para um benefício básico de R$ 400 e depois para R$ 600,",
+          "prova": "Leitura de instituição de referência sobre a trajetória do benefício: média de R$ 200, piso de R$ 400 e depois R$ 600."
+        }
+      ]
+    },
+    {
+      "id": "A188",
+      "veredito": "VERDADEIRO",
+      "resumo": "O valor médio do Bolsa Família era de R$ 189 a R$ 190,57 em 2021, antes do Auxílio Brasil",
+      "explicacao": "A frase diz que o valor era 190 antes do aumento do governo Bolsonaro. A Agência Câmara registra, em agosto de 2021, que o valor médio do Bolsa Família era de R$ 189; o FGV/IBRE, em estudo sobre o programa, diz que o benefício médio era 'em torno de R$ 190 por família' até 2021; o Jornal de Brasília, com dado do Ministério da Cidadania, dá R$ 190,57 em janeiro de 2021. São três registros independentes que batem com o número dito, com desvio abaixo de 1%. A página do próprio ministério (gov.br) recusou a captura automática, por isso o dado oficial entra pela Câmara e pela reprodução da imprensa.",
+      "numero_dito": "190",
+      "numero_apurado": "R$ 189 (agosto de 2021) a R$ 190,57 (janeiro de 2021)",
+      "data_de_referencia": "janeiro e agosto de 2021, antes da criação do Auxílio Brasil",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara)",
+          "titulo": "Câmara analisa Medida Provisória do novo Bolsa Família, batizado de Auxílio Brasil (10/08/2021)",
+          "url": "https://www.camara.leg.br/noticias/791886-camara-analisa-medida-provisoria-do-novo-bolsa-familia-batizado-de-auxilio-brasil/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Da Agência Câmara - 10/08/2021 [...] O presidente Jair Bolsonaro prometeu um aumento de, no mínimo, 50% no valor médio do Bolsa Família, que atualmente é de R$ 189.",
+          "prova": "Valor médio do programa em agosto de 2021: R$ 189."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "FGV/IBRE (Blog do IBRE)",
+          "titulo": "Expansão do Bolsa Família desencoraja participação no mercado de trabalho de vulneráveis",
+          "url": "https://blogdoibre.fgv.br/posts/expansao-do-bolsa-familia-desencoraja-participacao-no-mercado-de-trabalho-de-vulneraveis",
+          "consultada_em": "2026-10-17",
+          "trecho": "Esses componentes resultavam em benefícios variando de R$ 89 a aproximadamente R$ 1000, com o benefício médio sendo em torno de R$ 190 por família.",
+          "prova": "Instituição de referência: benefício médio em torno de R$ 190 por família até 2021."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília",
+          "titulo": "Bolsa Família começa calendário 2021 sem auxílio emergencial (18/01/2021)",
+          "url": "https://jornaldebrasilia.com.br/noticias/economia/bolsa-familia-comeca-calendario-2021-sem-auxilio-emergencial/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Redação Jornal de Brasília 18/01/2021 [...] Segundo o Ministério da Cidadania, o número representa um repasse de R$ 2,7 bilhões. O valor médio será de R$ 190, 57, em janeiro.",
+          "prova": "Reproduz o Ministério da Cidadania: R$ 190,57 em janeiro de 2021."
+        }
+      ]
+    },
+    {
+      "id": "A189",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Polícia Federal prendeu Márcio Canella na manhã de 15 de outubro, véspera da sabatina",
+      "explicacao": "Duas reportagens independentes registram que Márcio Canella (União Brasil) foi preso pela Polícia Federal na manhã de quinta-feira, 15/10/2026, na 8ª fase da Operação Unha e Carne, que apura lavagem de dinheiro com postos de combustíveis no Rio (Poder360 e Jovem Pan). A sabatina foi em 16/10, então 'ontem' confere. O mesmo fato foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A068, VERDADEIRO), com as mesmas fontes; a nota da própria PF não foi capturada. A investigação da Operação Unha e Carne está em curso e não há decisão definitiva sobre culpa; o que se checa aqui é só o fato documentado da prisão (etica-e-risco §5).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "15/10/2026",
+      "ressalva": "A investigação está em curso e não há decisão definitiva sobre culpa",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Márcio Canella, preso em operação contra lavagem de dinheiro (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/saiba-quem-e-marcio-canella-preso-em-operacao-contra-lavagem-de-dinheiro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Márcio Canella (União Brasil), 2º deputado estadual mais votado do Rio de Janeiro, foi preso na manhã desta 5ª feira (15.out.2026) durante a 8ª fase da operação Unha e Carne, da Polícia Federal. A ação mira uma organização criminosa suspeita de usar postos de combustíveis na Região Metropolitana do Rio para lavar dinheiro.",
+          "prova": "Registra a prisão pela PF na manhã de 15/10/2026 e a fase da operação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Quem é Márcio Canella, deputado eleito e ex-prefeito preso pela PF no Rio (15/10/2026)",
+          "url": "https://jovempan.com.br/politica/quem-e-marcio-canella-deputado-eleito-e-ex-prefeito-preso-pela-pf-no-rio/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-prefeito de Belford Roxo e deputado estadual eleito Márcio Canella (União Brasil) , preso pela Polícia Federal nesta quinta-feira (15) , foi o segundo candidato mais votado para a Assembleia Legislativa do Rio de Janeiro (Alerj) nas eleições de 2026 , com 197.178 votos.",
+          "prova": "Segunda apuração da prisão pela PF na quinta-feira (15)."
+        }
+      ]
+    },
+    {
+      "id": "A190",
+      "veredito": "VERDADEIRO",
+      "resumo": "Márcio Canella foi eleito deputado estadual no Rio em 2026, com 197.178 votos, segundo o TSE",
+      "explicacao": "O arquivo oficial de resultado do TSE para deputado estadual no Rio de Janeiro (eleição de 2026, totalização de 10/10/2026) traz Márcio Correia de Oliveira, nome de urna Márcio Canella, com 197.178 votos e situação 'Eleito por QP', o segundo da lista. Poder360 e Jovem Pan descrevem o mesmo: deputado estadual eleito, segundo mais votado para a Alerj. O mesmo fato aparece no caso 2026-10-15-sabatina-lula-globo-2turno (A068). A eleição confere; a prisão não altera o resultado oficial.",
+      "numero_dito": null,
+      "numero_apurado": "197.178 votos, eleito por quociente partidário",
+      "data_de_referencia": "1º turno de 2026, totalização de 10/10/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial de 2026, deputado estadual, Rio de Janeiro (arquivo de divulgação)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/rj/rj-c0007-e006259-u.json",
+          "consultada_em": "2026-10-17",
+          "trecho": "{ \"cd\" : \"7\", \"nmn\" : \"Deputado Estadual\" [...] \"nm\" : \"MÁRCIO CORREIA DE OLIVEIRA\", \"nmu\" : \"MÁRCIO CANELLA\", \"dt\" : \"25/06/1977\", \"dvt\" : \"Válido\", \"seq\" : \"2\", \"e\" : \"s\", \"st\" : \"Eleito por QP\", \"vap\" : \"197178\"",
+          "prova": "Registro oficial: Márcio Canella eleito deputado estadual pelo Rio, com 197.178 votos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Quem é Márcio Canella, deputado eleito e ex-prefeito preso pela PF no Rio (15/10/2026)",
+          "url": "https://jovempan.com.br/politica/quem-e-marcio-canella-deputado-eleito-e-ex-prefeito-preso-pela-pf-no-rio/",
+          "consultada_em": "2026-10-16",
+          "trecho": "O ex-prefeito de Belford Roxo e deputado estadual eleito Márcio Canella (União Brasil) , preso pela Polícia Federal nesta quinta-feira (15) , foi o segundo candidato mais votado para a Assembleia Legislativa do Rio de Janeiro (Alerj) nas eleições de 2026 , com 197.178 votos.",
+          "prova": "Confirmação independente: deputado estadual eleito, segundo mais votado para a Alerj em 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Márcio Canella, preso em operação contra lavagem de dinheiro (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/saiba-quem-e-marcio-canella-preso-em-operacao-contra-lavagem-de-dinheiro/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Márcio Canella (União Brasil), 2º deputado estadual mais votado do Rio de Janeiro, foi preso na manhã desta 5ª feira (15.out.2026) durante a 8ª fase da operação Unha e Carne, da Polícia Federal. A ação mira uma organização criminosa suspeita de usar postos de combustíveis na Região Metropolitana do Rio para lavar dinheiro.",
+          "prova": "Terceira apuração: 2º deputado estadual mais votado do Rio."
+        }
+      ]
+    }
+  ]
+}

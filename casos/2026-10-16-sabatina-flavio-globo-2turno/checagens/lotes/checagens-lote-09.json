@@ -313,11 +313,11 @@
     {
       "id": "A087",
       "veredito": "VERDADEIRO",
-      "resumo": "Negociação previa US$ 24 milhões; repasse foi de US$ 10,6 milhões, com parcelas atrasadas cobradas por Flávio",
-      "explicacao": "A frase diz que o contrato de Vorcaro com o filme não foi cumprido. As fontes mostram que o acerto previa US$ 24 milhões em parcelas e que o repassado foi US$ 10,6 milhões, cerca de R$ 61 milhões, de fevereiro a maio de 2025; em áudio que reconheceu como autêntico, Flávio cobrou Vorcaro por parcelas atrasadas; e Karina da Gama disse que, com a prisão do banqueiro, a produção buscou novos investidores. O essencial (o combinado não foi pago por inteiro) é confirmado por fontes independentes, por isso VERDADEIRO. A ressalva: o contrato em si não foi divulgado, e o que se conhece do acordo vem de mensagens e documentos revelados pela imprensa (N4; a alegação não é de número, e o fato do pagamento parcial não está em disputa entre as partes).",
+      "resumo": "Negociação previa US$ 24 milhões; os repasses documentados somam US$ 12,3 milhões, e Flávio cobrou parcelas atrasadas",
+      "explicacao": "A frase diz que o contrato de Vorcaro com o filme não foi cumprido. As fontes mostram que o acerto previa US$ 24 milhões em parcelas; até maio de 2025 tinham sido repassados US$ 10,6 milhões, cerca de R$ 61 milhões, e, com a parcela de US$ 1,6 milhão de 16 de setembro de 2025 registrada pelo Coaf, o total pago chegou a US$ 12,3 milhões em 7 parcelas (Poder360, com a piauí), cerca de metade do combinado; em áudio que reconheceu como autêntico, Flávio cobrou Vorcaro por parcelas atrasadas; e Karina da Gama disse que, com a prisão do banqueiro, a produção buscou novos investidores. O essencial (o combinado não foi pago por inteiro) é confirmado por fontes independentes, por isso VERDADEIRO. A ressalva: o contrato em si não foi divulgado, e o que se conhece do acordo vem de mensagens e documentos revelados pela imprensa (N4; a alegação não é de número, e o fato do pagamento parcial não está em disputa entre as partes).",
       "numero_dito": null,
-      "numero_apurado": "US$ 10,6 milhões repassados de US$ 24 milhões negociados",
-      "data_de_referencia": "repasses de fevereiro a maio de 2025",
+      "numero_apurado": "US$ 12,3 milhões repassados em 7 parcelas (US$ 10,6 milhões até maio de 2025), de US$ 24 milhões negociados",
+      "data_de_referencia": "repasses de fevereiro a setembro de 2025, somados pelo Coaf e noticiados em 01/09/2026",
       "ressalva": "O contrato não foi divulgado; o acordo é conhecido por mensagens e documentos publicados pela imprensa",
       "confianca": "media",
       "divergencia_entre_fontes": null,
@@ -348,6 +348,15 @@
           "consultada_em": "2026-10-17",
           "trecho": "Segundo a empresária, quando o banqueiro foi preso, a equipe responsável pelo filme precisou buscar novos investidores para manter a produção.",
           "prova": "A produtora confirma que o dinheiro de Vorcaro parou antes do previsto"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (com dados do Coaf publicados pela revista piauí)",
+          "titulo": "Filme Dark Horse recebeu R$ 65 milhões de Daniel Vorcaro (01/09/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/filme-dark-horse-recebeu-r-65-milhoes-de-daniel-vorcaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Relatório do Coaf (Conselho de Controle de Atividades Financeiras) mostra que Daniel Vorcaro enviou, em 16 de setembro de 2025, uma parcela de US$ 1,6 milhão ao fundo Havengate Development, dos Estados Unidos, que financiou o filme “Dark Horse” . [...] Com o pagamento feito em setembro, chega a 7 o total de parcelas reconhecidamente pagas por Vorcaro ao filme. O valor total investido no longa-metragem de Bolsonaro chegaria a US$ 12,3 milhões , o equivalente a R$ 65 milhões na cotação da época.",
+          "prova": "Total pago por Vorcaro na data da fala (7 parcelas, US$ 12,3 milhões, com a de setembro de 2025): cerca de metade dos US$ 24 milhões negociados."
         }
       ]
     },
@@ -355,7 +364,7 @@
       "id": "A088",
       "veredito": "VERDADEIRO",
       "resumo": "Distribuidora diz que o filme está finalizado; a produtora buscou novos investidores após a prisão de Vorcaro",
-      "explicacao": "A frase diz que o filme foi concluído com o dinheiro de Vorcaro e de outros investidores. Sobre a conclusão: o diretor da Europa Filmes, distribuidora, disse em setembro que o filme está finalizado; a Ancine concedeu o Registro de Obra Estrangeira em agosto, com duração registrada; e o filme teve uma primeira exibição em Las Vegas. Sobre os outros investidores: Karina da Gama, dona da produtora, disse que buscou novos investidores após a prisão de Vorcaro, e a perícia da produtora registra que o fundo usado na captação enviou US$ 13,3 milhões, acima dos US$ 10,6 milhões atribuídos a Vorcaro. O essencial confere, por isso VERDADEIRO. Ressalva: os outros investidores não foram identificados publicamente, e a origem dos recursos do filme é objeto de inquéritos em curso; o veredito não se estende a essa origem.",
+      "explicacao": "A frase diz que o filme foi concluído com o dinheiro de Vorcaro e de outros investidores. Sobre a conclusão: o diretor da Europa Filmes, distribuidora, disse em setembro que o filme está finalizado; a Ancine concedeu o Registro de Obra Estrangeira em agosto, com duração registrada; e o filme teve uma primeira exibição em Las Vegas. Sobre os outros investidores: Karina da Gama, dona da produtora, disse que buscou novos investidores após a prisão de Vorcaro, e a perícia da produtora registra que o fundo usado na captação enviou US$ 13,3 milhões, acima dos US$ 12,3 milhões que o Coaf atribui a Vorcaro em 7 parcelas (Poder360, com a piauí). O essencial confere, por isso VERDADEIRO. Ressalva: os outros investidores não foram identificados publicamente, e a origem dos recursos do filme é objeto de inquéritos em curso; o veredito não se estende a essa origem.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "situação do filme entre agosto e setembro de 2026",
@@ -398,6 +407,15 @@
           "consultada_em": "2026-10-17",
           "trecho": "Segundo a perícia, até o dia 10 de junho, o fundo Heavengate Development Fundp LP, usado para a captação de recursos, havia enviado US$ 13,3 milhões para o filme.",
           "prova": "O total enviado ao filme supera o atribuído a Vorcaro, o que é compatível com outros aportes"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (com dados do Coaf publicados pela revista piauí)",
+          "titulo": "Filme Dark Horse recebeu R$ 65 milhões de Daniel Vorcaro (01/09/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/filme-dark-horse-recebeu-r-65-milhoes-de-daniel-vorcaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Relatório do Coaf (Conselho de Controle de Atividades Financeiras) mostra que Daniel Vorcaro enviou, em 16 de setembro de 2025, uma parcela de US$ 1,6 milhão ao fundo Havengate Development, dos Estados Unidos, que financiou o filme “Dark Horse” . [...] Com o pagamento feito em setembro, chega a 7 o total de parcelas reconhecidamente pagas por Vorcaro ao filme. O valor total investido no longa-metragem de Bolsonaro chegaria a US$ 12,3 milhões , o equivalente a R$ 65 milhões na cotação da época.",
+          "prova": "Total atribuído a Vorcaro (US$ 12,3 milhões), menor que os US$ 13,3 milhões que o fundo enviou ao filme segundo a perícia, o que é compatível com outros aportes."
         }
       ]
     },

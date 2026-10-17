@@ -1,0 +1,5 @@
+{"caso": "2026-10-16-sabatina-flavio-globo-2turno", "rodada": 5, "urls": [
+"https://dadosabertos.camara.leg.br/api/v2/proposicoes?idDeputadoAutor=220547&siglaTipo=PL&ano=2023&itens=100",
+"https://dadosabertos.camara.leg.br/api/v2/proposicoes?idDeputadoAutor=220547&siglaTipo=PL&ano=2025&itens=100",
+"https://dadosabertos.camara.leg.br/api/v2/proposicoes?idDeputadoAutor=220547&siglaTipo=PL&ano=2026&itens=100"
+]}

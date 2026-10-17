@@ -7,7 +7,7 @@
       "id": "A041",
       "veredito": "VERDADEIRO",
       "resumo": "A PEC 12/2026, do senador Rogério Marinho (PL), prevê férias e décimo terceiro proporcionais às horas trabalhadas",
-      "explicacao": "A frase da entrevistadora descreve uma proposta do PL que prevê salário, férias e 13º proporcionais às horas trabalhadas. Existe registro formal dela: a PEC 12/2026, apresentada no Senado em 28/05/2026 pelo senador Rogério Marinho (PL-RN), com assinatura de Flávio Bolsonaro entre os coautores, cria um regime flexível por hora trabalhada em que o valor mínimo da hora é proporcional ao salário mínimo ou ao piso, com a mesma proporcionalidade para férias, décimo terceiro e FGTS. Antes disso, em 19/05/2026, Flávio apresentou a ideia à bancada do PL com as mesmas palavras, segundo a Agência Brasil, e em outubro o líder do partido na Câmara disse ao Correio da Manhã que o PL pretende retomar a proposta em 2027. Texto oficial e imprensa batem no conteúdo descrito, por isso VERDADEIRO. A ressalva registra que a PEC não foi votada: está na CCJ do Senado aguardando relator. A Agência Brasil e o Correio da Manhã apuraram separadamente (falas de Flávio em maio e de Sóstenes Cavalcante em outubro) e não reproduzem a mesma primária; a primária é o texto da PEC no Senado.",
+      "explicacao": "A frase da entrevistadora descreve uma proposta do PL que prevê salário, férias e 13º proporcionais às horas trabalhadas. Existe registro formal dela: a PEC 12/2026, do senador Rogério Marinho (PL-RN), com Flávio Bolsonaro entre os coautores e na CCJ do Senado desde 28/05/2026, cria um regime flexível por hora trabalhada em que o valor mínimo da hora é proporcional ao salário mínimo ou ao piso, com a mesma proporcionalidade para férias, décimo terceiro e FGTS. Antes disso, em 19/05/2026, Flávio apresentou a ideia à bancada do PL com as mesmas palavras, segundo a Agência Brasil, e em outubro o líder do partido na Câmara disse ao Correio da Manhã que o PL pretende retomar a proposta em 2027. Texto oficial e imprensa batem no conteúdo descrito, por isso VERDADEIRO. A ressalva registra que a PEC não foi votada: está na CCJ do Senado aguardando relator. A Agência Brasil e o Correio da Manhã apuraram separadamente (falas de Flávio em maio e de Sóstenes Cavalcante em outubro) e não reproduzem a mesma primária; a primária é o texto da PEC no Senado.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "PEC 12/2026, apresentada em 28/05/2026; situação na data da fala (16/10/2026)",
@@ -31,8 +31,8 @@
           "titulo": "Proposta de Emenda à Constituição nº 12, de 2026: página da matéria",
           "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174362",
           "consultada_em": "2026-10-17",
-          "trecho": "Proposta de Emenda à Constituição n° 12, de 2026 [...] Situação Atual Em tramitação --> --> Último local: 28/05/2026 - Comissão de Constituição, Justiça e Cidadania Último estado: 28/05/2026 - AGUARDANDO DESIGNAÇÃO DO RELATOR",
-          "prova": "Data de apresentação e situação: a PEC existe formalmente e ainda não foi votada."
+          "trecho": "Proposta de Emenda à Constituição n° 12, de 2026 [...] Senador Rogerio Marinho (PL/RN) , e outros [...] Senador Flávio Bolsonaro (PL/RJ) [...] Situação Atual Em tramitação --> --> Último local: 28/05/2026 - Comissão de Constituição, Justiça e Cidadania Último estado: 28/05/2026 - AGUARDANDO DESIGNAÇÃO DO RELATOR",
+          "prova": "Autoria de Rogério Marinho, com Flávio Bolsonaro entre os coautores, e situação: a PEC existe formalmente, está na CCJ desde 28/05/2026 e ainda não foi votada."
         },
         {
           "nivel": "N4",
@@ -217,7 +217,7 @@
       "id": "A046",
       "veredito": "VERDADEIRO",
       "resumo": "Flávio é o primeiro autor da PEC 4/2026, que torna o presidente inelegível para o mandato seguinte",
-      "explicacao": "O candidato diz que apresentou uma PEC que acaba com a reeleição para presidente. A PEC 4/2026 foi autuada no Senado em 02/03/2026 com Flávio Bolsonaro como primeiro autor, e o texto acrescenta ao art. 14 da Constituição que o Presidente da República é inelegível para o mesmo cargo no período subsequente. O Jornal de Brasília e o SBT News registram a apresentação e o conteúdo. Por isso VERDADEIRO. A ressalva registra o que a fonte mostra: a vedação é para o período seguinte (reeleição consecutiva), e a PEC está aguardando despacho desde a autuação, sem votação.",
+      "explicacao": "O candidato diz que apresentou uma PEC que acaba com a reeleição para presidente. A PEC 4/2026 foi autuada no Senado em 02/03/2026 com Flávio Bolsonaro como primeiro autor, e o texto acrescenta ao art. 14 da Constituição que o Presidente da República é inelegível para o mesmo cargo no período subsequente. O Jornal de Brasília (Estadão Conteúdo) registra a apresentação e o conteúdo. Por isso VERDADEIRO. A ressalva registra o que a fonte mostra: a vedação é para o período seguinte (reeleição consecutiva), e a PEC está aguardando despacho desde a autuação, sem votação.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "PEC 4/2026, autuada em 02/03/2026; situação na data da fala",
@@ -258,13 +258,13 @@
     {
       "id": "A047",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Não há fonte para R$ 350 bi; o levantamento da Folha somou R$ 193,8 bi em medidas, a maior parte crédito",
-      "explicacao": "O candidato diz que Lula gastou quase R$ 350 bilhões para tentar se reeleger. Duas buscas dirigidas e a leitura das reportagens sobre o pacote de medidas do ano eleitoral não acharam fonte (governo, TCU, IFI ou estudo) com R$ 350 bilhões; o Correio (Salvador) registra que Flávio já usou esse valor em 8/10/2026, sem indicar a origem. O levantamento mais citado, da Folha de S.Paulo, somou 20 medidas que mobilizam R$ 193,8 bilhões até 17/09/2026, e o próprio levantamento diz que só nove delas têm impacto primário: o total inclui linhas de crédito, garantias e renúncias, e não é gasto efetivo. O editorial do Agora RN, que critica o pacote, repete o mesmo valor. O número dito não existe nas fontes encontradas, e o critério ('gastou') não corresponde ao que o levantamento mede; por isso INSUSTENTAVEL, e não FALSO: não há prova de que outro cálculo não chegue a 350, apenas nenhuma fonte o sustenta. Bahia Notícias reproduz a reportagem da Folha (é apoio à mesma apuração), e o Agora RN cita o levantamento.",
+      "resumo": "O Gastômetro do Estadão somava R$ 278,3 bi em 18 de agosto, com alta prevista; o valor de outubro não foi conferido",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o candidato diz que Lula 'já gastou quase 350 bilhões de reais para tentar se reeleger'. A revisão r2 achou o levantamento cujo conceito é o da frase e que a checagem não tinha usado: o Gastômetro do Estadão, que monitora os desembolsos do governo federal em ano eleitoral e, segundo a reportagem de 18/08/2026 reproduzida pelo TNH1, somava R$ 278,3 bilhões em 'gastos de Lula para se reeleger', com a observação de que o valor deveria aumentar durante o ano; a maior parte é crédito e subsídio, não despesa direta. Contra o valor de agosto, o dito fica 25,8% acima, mas julgar uma fala de 16/10 com um painel de agosto que ainda crescia seria anacronismo (METODOLOGIA §5), e o valor do painel na data da fala não foi capturado. O levantamento da Folha, com outro critério, somou 20 medidas e R$ 193,8 bilhões até 17/09/2026; só nove têm impacto primário, e as outras 11 são majoritariamente linhas de crédito (o Bahia Notícias reproduz a Folha; o editorial do Agora RN repete o valor). O Correio (Salvador) registra que Flávio já usou R$ 350 bilhões em 8/10/2026, sem indicar a origem. Nenhuma fonte capturada traz R$ 350 bilhões, e nenhuma o contradiz na data da fala; por isso INSUSTENTAVEL, e não FALSO nem IMPRECISO. Falta para a rodada 2: o valor do Gastômetro do Estadão mais próximo de 16/10/2026, em página capturada, e a régua de 10% aplicada a ele.",
       "numero_dito": "quase R$ 350 bilhões",
-      "numero_apurado": "R$ 193,8 bilhões em 20 medidas, em recursos mobilizados e não em gasto (levantamento da Folha)",
-      "data_de_referencia": "levantamento de 17/09/2026",
-      "ressalva": null,
-      "confianca": "media",
+      "numero_apurado": "R$ 278,3 bilhões no Gastômetro do Estadão em 18 de agosto de 2026, com alta prevista; R$ 193,8 bilhões em 20 medidas no levantamento da Folha até 17 de setembro de 2026",
+      "data_de_referencia": "Gastômetro de 18/08/2026; levantamento da Folha de 17/09/2026; o valor na data da fala (16/10/2026) não foi conferido",
+      "ressalva": "A Folha somou R$ 193,8 bi em 20 medidas até 17 de setembro, 11 delas sobretudo linhas de crédito",
+      "confianca": "baixa",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -274,8 +274,8 @@
           "titulo": "Pacote de Lula em ano eleitoral já mobiliza quase R$ 200 bilhões em bondades (17/09/2026)",
           "url": "https://www.bahianoticias.com.br/folha/noticia/409293-pacote-de-lula-em-ano-eleitoral-ja-mobiliza-quase-r-200-bilhoes-em-bondades",
           "consultada_em": "2026-10-17",
-          "trecho": "Em maio, segundo cálculo da reportagem com base em informações do governo e auxílio de especialistas, o pacote até então de 11 medidas envolvia recursos na ordem de R$ 144 bilhões. Ao final de junho, antes do defeso eleitoral, o montante chegou a R$ 180 bilhões, em 16 medidas. As 20 ações selecionadas até esta quinta-feira (17) totalizam R$ 193,8 bilhões. [...] Das 20 medidas, nove podem ter impactos primários, seja por renúncia de receitas ou por despesas diretas da União",
-          "prova": "É o levantamento de referência sobre o pacote do ano eleitoral: R$ 193,8 bi, e só parte com impacto primário."
+          "trecho": "Em maio, segundo cálculo da reportagem com base em informações do governo e auxílio de especialistas, o pacote até então de 11 medidas envolvia recursos na ordem de R$ 144 bilhões. Ao final de junho, antes do defeso eleitoral, o montante chegou a R$ 180 bilhões, em 16 medidas. As 20 ações selecionadas até esta quinta-feira (17) totalizam R$ 193,8 bilhões. [...] Das 20 medidas, nove podem ter impactos primários, seja por renúncia de receitas ou por despesas diretas da União [...] As outras 11 se referem majoritariamente a linhas de crédito com juros mais baixos do que os de mercado",
+          "prova": "É um levantamento sobre o pacote do ano eleitoral: R$ 193,8 bi em 20 medidas, só nove com impacto primário e 11 majoritariamente de crédito."
         },
         {
           "nivel": "N4",
@@ -294,6 +294,22 @@
           "consultada_em": "2026-10-17",
           "trecho": "Ao criticar Lula, o candidato afirmou que o presidente teria destinado R$ 350 bilhões a ações relacionadas à tentativa de permanecer no cargo.",
           "prova": "Mostra que o valor é do candidato, sem fonte indicada na reportagem."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução de reportagem do Estadão)",
+          "titulo": "Lula já gastou R$ 278,3 bilhões para tentar se manter na Presidência (18/08/2026)",
+          "url": "https://www.tnh1.com.br/noticia/nid/lula-ja-gastou-r-2783-bilhoes-para-tentar-reeleicao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 18 de Agosto de 2026 às 18:00 [...] Neste terceiro mandato, os gastos de Lula para se reeleger já somam R$ 278,3 bilhões, conforme o Gastômetro, ferramenta inédita no Estadão que monitora os desembolsos do governo federal em ano eleitoral. A maior parte do gasto se refere a programas de crédito e subsídios para setores da economia e categorias específicas [...] O valor do Gastômetro deve aumentar durante o ano (e a ferramenta vai acompanhar esta evolução)",
+          "prova": "É o painel que mede o mesmo conceito da frase ('gastos para se reeleger'): R$ 278,3 bi em agosto, com alta prevista; o valor de outubro não está na página."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "25,8%",
+          "de": "350 menos 278,3, dividido por 278,3",
+          "como": "desvio do valor dito sobre o do Gastômetro em 18/08/2026; não decide o veredito, porque o painel crescia e a fala é de outubro"
         }
       ]
     },

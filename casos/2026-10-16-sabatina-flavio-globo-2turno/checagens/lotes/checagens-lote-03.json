@@ -42,6 +42,15 @@
           "consultada_em": "2026-10-17",
           "trecho": "com 764 mil imóveis . Desses, o Estado usa 49,7 mil e cede a maioria dos demais para diferentes usos, podendo cobrar taxas mensais ou anuais. [...] E o volume real do patrimônio ocioso pode ser muito superior a isso.",
           "prova": "Apoio que reproduz o relatório do TCU: confirma a ordem de grandeza do total e registra que o ocioso pode ser maior que o contado, o que impede o veredito FALSO."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Gestão do patrimônio imobiliário federal gerido pela SPU é ineficiente, diz TCU",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/gestao-do-patrimonio-imobiliario-federal-gerido-pela-spu-e-ineficiente-diz-tcu",
+          "consultada_em": "2026-10-17",
+          "trecho": "A SPU é responsável pela gestão de cerca de 742 mil imóveis, avaliados em, aproximadamente, R$ 1,35 trilhão.",
+          "prova": "O total do levantamento anterior do TCU (cerca de 742 mil imóveis), citado na divergência entre fontes."
         }
       ]
     },
@@ -217,7 +226,7 @@
     {
       "id": "A026",
       "veredito": "VERDADEIRO",
-      "resumo": "No orçamento de 2027, a Previdência leva R$ 1.215,1 bi de R$ 2.830,1 bi; saúde e educação têm pisos próprios",
+      "resumo": "No projeto de orçamento de 2027, a Previdência leva R$ 1.215,1 bi de R$ 2.830,1 bi; saúde e educação têm pisos próprios",
       "explicacao": "A parte checável é a composição da despesa primária federal; o 'consenso entre os economistas' é juízo e não foi julgado. Pela tabela da Instituição Fiscal Independente (IFI) do Senado com os números do PLOA 2027, os benefícios previdenciários somam R$ 1.215,1 bilhões de uma despesa primária total de R$ 2.830,1 bilhões, cerca de 42,9%, a maior rubrica; o piso da saúde é de R$ 272,2 bilhões e a dotação do piso da educação, de R$ 141,2 bilhões. O Canal Rural, reproduzindo a apresentação do PLOA pelo governo (a primária), confirma a Previdência como a principal despesa. A frase é VERDADEIRO porque a Previdência (cujos benefícios têm o salário mínimo como piso) é de longe a maior despesa e saúde e educação têm pisos constitucionais que estão entre os grandes blocos; a ressalva é que pessoal e encargos (R$ 474,1 bilhões) também é uma das maiores despesas e não foi citado, e que a educação tem valor menor que pessoal e BPC. Não chega a IMPRECISO porque a jornalista não disse que eram as únicas grandes despesas. Nenhum caso anterior checou esta composição.",
       "numero_dito": null,
       "numero_apurado": "benefícios previdenciários R$ 1.215,1 bilhões de R$ 2.830,1 bilhões (cerca de 42,9%); piso da saúde R$ 272,2 bilhões; piso da educação R$ 141,2 bilhões (PLOA 2027)",
@@ -257,7 +266,7 @@
     {
       "id": "A027",
       "veredito": "IMPRECISO",
-      "resumo": "A Petrobras fala em produzir em cerca de sete anos; a perfuração exploratória já começou em 2025",
+      "resumo": "A Petrobras fala em produzir em cerca de sete anos; a perfuração exploratória foi licenciada em 2025",
       "explicacao": "O critério escrito antes da busca pede saber se o marco de 2033 é de produção ou de exploração. Em agosto de 2026, ao anunciar hidrocarbonetos no poço exploratório do bloco FZA-M-59, a Petrobras disse que poderá estar produzindo em cerca de sete anos (CNN Brasil), o que leva a algo perto de 2033; analistas do Bradesco BBI estimam o primeiro óleo entre 2032 e 2036 (InfoMoney). O marco da Petrobras, portanto, é de produção. 'Exploração', no sentido técnico, já começou: o Ibama licenciou a perfuração em outubro de 2025 e o poço estava em perfuração em 2026. A essência da frase (não haverá petróleo produzido ali antes de cerca de 2033, segundo a Petrobras) se confirma; a palavra 'exploração' troca a fase. É a mesma régua aplicada à frase do candidato (A025), que também usou 'exploração' para falar de extração: IMPRECISO nos dois casos. Não é VERDADEIRO porque a fase exploratória já está em curso; não é FALSO porque o prazo de produção atribuído à Petrobras confere. Fontes N4 com apuração própria; não se capturou o comunicado da própria Petrobras.",
       "numero_dito": "2033",
       "numero_apurado": "produção em cerca de sete anos a partir de agosto de 2026, segundo a Petrobras; primeiro óleo entre 2032 e 2036, segundo o Bradesco BBI",

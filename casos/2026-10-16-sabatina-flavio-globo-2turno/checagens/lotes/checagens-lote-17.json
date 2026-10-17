@@ -1,0 +1,409 @@
+{
+ "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+ "gerado_em": "2026-10-17",
+ "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+ "checagens": [
+  {
+   "id": "A161",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Fecharam 942.049 empresas no 2º quadrimestre de 2025, alta de 12,9%; a série anual de recorde não foi conferida",
+   "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério era a série do Mapa de Empresas (Ministério do Empreendedorismo). Foi conferido: o boletim do 2º quadrimestre de 2025 registra 942.049 empresas fechadas, aumento de 12,9% sobre o mesmo período de 2024, e o gráfico do boletim que compara o 2º quadrimestre de 2020 a 2025 traz esse valor como o maior entre os seis anos (leitura do gráfico, não de tabela). Mas o mesmo boletim mostra 1.668.753 aberturas e saldo positivo de 726.704 empresas no período; o 1º quadrimestre de 2025 teve 973.330 fechamentos, queda de 13,4% sobre o ano anterior (Diário do Comércio, citando o Mapa de Empresas); e o boletim anual de 2023 registra 2.153.840 fechamentos naquele ano, alta de 25,7% sobre 2022, mas o próprio boletim lembra que 2015 e 2018 tiveram fechamentos expressivos por mudanças de regra. Falta a série anual completa (boletins anuais de 2024 e 2025 e o do 1º quadrimestre de 2026, vigentes na data da fala), que não abriu pelos endereços conhecidos, para dizer se há recorde em número absoluto e em qual recorte (com ou sem MEI). Sem ela, a fonte não sustenta nem desmente o 'recorde'; por isso INSUSTENTAVEL provisório, e não FALSO nem IMPRECISO. Nota: a Diário do Comércio é imprensa que reproduz a primária (Mapa de Empresas), e conta como apoio.",
+   "numero_dito": null,
+   "numero_apurado": "942.049 empresas fechadas no 2º quadrimestre de 2025 (+12,9% sobre 2024); 2.153.840 no ano de 2023",
+   "data_de_referencia": "Mapa de Empresas: 2º quadrimestre de 2025, 1º quadrimestre de 2025 e ano de 2023; série anual de 2024 a 2026 não conferida",
+   "ressalva": null,
+   "confianca": "baixa",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)",
+     "titulo": "Mapa de Empresas, boletim do 2º quadrimestre de 2025",
+     "url": "https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf",
+     "consultada_em": "2026-10-17",
+     "trecho": "No mesmo período foram fechadas 942.049 empresas, queda de 4,5% quando comparado com o quadrimestre anterior e aumento de 12,9% em relação ao mesmo período em 2024. [...] Saldo positivo: 726.704 empresas",
+     "prova": "Dá o número de fechamentos mais recente da série oficial e mostra que, no mesmo período, as aberturas superaram os fechamentos."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)",
+     "titulo": "Mapa de Empresas, boletim do 3º quadrimestre de 2023 (resumo do ano)",
+     "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf/@@download/file",
+     "consultada_em": "2026-10-17",
+     "trecho": "No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022.",
+     "prova": "Único total anual de fechamentos do governo atual que foi possível conferir; não basta para dizer se há recorde na série."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Comércio (MG), citando o Mapa de Empresas",
+     "titulo": "Minas Gerais é o segundo estado com mais empresas fechadas no País no 1º quadrimestre (28/05/2025)",
+     "url": "https://diariodocomercio.com.br/economia/mg-foi-segundo-estado-maior-fechamento-empresas/",
+     "consultada_em": "2026-10-17",
+     "trecho": "No mesmo período foram fechadas 973.330 empresas, queda de 13,4% quando comparado com o ano anterior.",
+     "prova": "Mostra que no 1º quadrimestre de 2025 os fechamentos caíram em relação a 2024, o que impede ler 2025 inteiro como recorde sem a série anual."
+    }
+   ]
+  },
+  {
+   "id": "A162",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Paraguai soma 232 maquiladoras brasileiras desde 2007; 40 começaram a partir de 2023, sem série anual de recorde",
+   "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a frase diz que o governo Lula é 'recordista em indústrias que deixam o Brasil e vão para o Paraguai'. O critério era a série oficial do Ministério de Indústria e Comércio do Paraguai (MIC/CEMAP) por ano de instalação, que não foi capturada (falta a N1 para uma alegação de série histórica). O que as fontes capturadas mostram: o Poder360, com dados do governo paraguaio e da Câmara de Empresários Brasileiros no Paraguai, conta 232 empresas brasileiras no regime de maquila desde 2007, das quais 40 iniciaram operação a partir de 2023 e 26 nos anos de 2021 e 2022, o que não indica ritmo recorde no período atual; o Aos Fatos (checagem) diz que o número se refere a empresas que expandiram a produção e mantêm operação no Brasil, não a mudanças de sede; e A Crítica cita 223 indústrias brasileiras pelo MIC. Os recordes documentados do regime são de exportação (Migalhas e Infonegocios), não de chegada de empresas brasileiras. Sem a série anual, a fonte não sustenta o 'recorde'; não há base para FALSO. Provisório até capturar a série do MIC.",
+   "numero_dito": null,
+   "numero_apurado": "232 maquiladoras brasileiras desde 2007; 40 a partir de 2023; 26 em 2021 e 2022",
+   "data_de_referencia": "levantamento publicado em 23/05/2026 (operações de 2007 a 2026)",
+   "ressalva": null,
+   "confianca": "baixa",
+   "divergencia_entre_fontes": "Poder360 fala em 232 empresas brasileiras (70% de mais de 320 estrangeiras); A Crítica, citando o MIC, em 223 (69% de 332). Nenhuma das duas traz série anual.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360 (com dados do governo paraguaio e da Cebras-PY)",
+     "titulo": "Mais de 230 empresas brasileiras já produzem no Paraguai (23/05/2026)",
+     "url": "https://www.poder360.com.br/poder-economia/mais-de-230-empresas-brasileiras-ja-produzem-no-paraguai/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O Paraguai atraiu 232 empresas brasileiras desde 2007 para atuar dentro da Lei de Maquila [...] Das maquiladoras com origem no Brasil, 40 (17,2%) iniciaram a operação a partir de 2023 —e 26 delas se mudaram no período de 2021 e 2022.",
+     "prova": "Dá o estoque e a distribuição por período de início, que não mostra pico de chegadas a partir de 2023."
+    },
+    {
+     "nivel": "N3",
+     "instituicao": "Aos Fatos",
+     "titulo": "É enganoso que 232 empresas brasileiras tenham ido para o Paraguai no governo Lula",
+     "url": "https://www.aosfatos.org/noticias/falso-232-empresas-paraguai-governo-lula/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O número representa o total de companhias que expandiram a produção no país vizinho entre 2007 e 2026, mas que ainda mantêm operações em solo brasileiro.",
+     "prova": "Checagem que trata do mesmo dado: é um acumulado desde 2007, de empresas que abriram produção lá e seguem no Brasil."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "A Crítica de Campo Grande (citando o Ministério da Indústria e Comércio do Paraguai)",
+     "titulo": "Avanço de empresas no Paraguai acende alerta para reformas no Brasil, diz Reinaldo (31/07/2026)",
+     "url": "https://acritica.net/politica/reinaldo-azambuja-industrias-paraguai-reformas-brasil/",
+     "consultada_em": "2026-10-17",
+     "trecho": "indicam que 223 indústrias brasileiras operam no país pelo regime de maquila. O número representaria 69% de um total de 332 empresas estrangeiras instaladas nesse modelo.",
+     "prova": "Outra contagem do estoque, sem série por ano; mostra que os números circulam sem recorte anual."
+    }
+   ]
+  },
+  {
+   "id": "A163",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "Projeto do governo Bolsonaro tirava a marcação, mas a ficha no Senado não registra ação de Flávio por ele",
+   "explicacao": "A pergunta afirma que, no governo Jair Bolsonaro, Flávio atuou no Senado para tentar aprovar um projeto que retiraria a marcação das munições de forças de segurança. A parte do projeto está documentada: o PL 3.723/2019, de autoria da Presidência da República, revogaria o art. 23 do Estatuto do Desarmamento e eliminaria a marcação de munições, 'inclusive as de forças de segurança pública' (Agência Pública). A parte sobre Flávio não foi encontrada: a ficha do projeto no Senado registra a relatoria do senador Marcos do Val na CCJ, nenhuma votação, e lista as emendas e requerimentos com autores de Alessandro Vieira a Humberto Costa, sem nenhuma de Flávio Bolsonaro; a Pública também não o cita. A busca com o nome dele e o tema não achou registro de atuação (fala, emenda, requerimento ou relatoria). Como não há prova do contrário (ele pode ter defendido o texto fora dos registros conferidos), o veredito é INSUSTENTAVEL, e não FALSO.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "tramitação do PL 3.723/2019 no Senado, 2019 a 2022",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Senado Federal",
+     "titulo": "Projeto de Lei n° 3723, de 2019 (ficha de tramitação)",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/140042",
+     "consultada_em": "2026-10-17",
+     "trecho": "Projeto de Lei n° 3723, de 2019 Autoria: Presidência da República [...] Relatoria: CCJ - (Comissão de Constituição, Justiça e Cidadania) : Senador Marcos do Val (encerrado em 21/12/2022 - Fim de Legislatura)",
+     "prova": "Registro oficial: projeto do Executivo de Bolsonaro, relatado por Marcos do Val; a ficha não traz Flávio como relator nem como autor de emenda ou requerimento."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Agência Pública",
+     "titulo": "Senado pode liberar porte de arma com munição para meio milhão de caçadores e atiradores (23/02/2022)",
+     "url": "https://apublica.org/2022/02/senado-pode-liberar-porte-de-arma-com-municao-para-meio-milhao-de-cacadores-e-atiradores/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Outro efeito do PL 3.723/2019 é eliminar a marcação de munições, inclusive as de forças de segurança pública, e das embalagens de munições.",
+     "prova": "Confirma o conteúdo do projeto citado na pergunta; a reportagem sobre a tramitação no Senado não menciona Flávio."
+    }
+   ]
+  },
+  {
+   "id": "A164",
+   "veredito": "VERDADEIRO",
+   "resumo": "O Estatuto do Desarmamento exige lote e comprador gravados na munição vendida às forças de segurança",
+   "explicacao": "A pergunta pressupõe que a munição comprada pelas forças de segurança tem marcação. O art. 23, § 2º, da Lei 10.826/2003 (Estatuto do Desarmamento), no texto do Planalto, diz que, para os órgãos do art. 6º (forças de segurança), só se autoriza compra de munição com identificação do lote e do adquirente no culote (a base do estojo, a 'cápsula' da fala). A Agência Pública descreve o mesmo artigo como o que estabelece a obrigatoriedade da marcação. A regra estava em vigor na data da fala: o projeto que a revogaria (PL 3.723/2019) segue no Senado aguardando relator, segundo a ficha da Casa. VERDADEIRO; 'cápsula' é o nome popular do estojo, o que não muda o fato.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "texto vigente em 16/10/2026",
+   "ressalva": null,
+   "confianca": "alta",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Presidência da República (Planalto)",
+     "titulo": "Lei nº 10.826, de 22 de dezembro de 2003 (Estatuto do Desarmamento), texto compilado",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm",
+     "consultada_em": "2026-10-17",
+     "trecho": "§ 2 o Para os órgãos referidos no art. 6 o , somente serão expedidas autorizações de compra de munição com identificação do lote e do adquirente no culote dos projéteis, na forma do regulamento desta Lei.",
+     "prova": "É a norma que obriga a marcação da munição comprada pelos órgãos de segurança."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Agência Pública",
+     "titulo": "Senado pode liberar porte de arma com munição para meio milhão de caçadores e atiradores (23/02/2022)",
+     "url": "https://apublica.org/2022/02/senado-pode-liberar-porte-de-arma-com-municao-para-meio-milhao-de-cacadores-e-atiradores/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O projeto revoga o artigo 23º do Estatuto do Desarmamento, de 2003, que estabelece a obrigatoriedade da marcação de munições a serem comercializadas após a publicação da lei.",
+     "prova": "Fonte independente que descreve o mesmo artigo como a obrigação de marcar munições."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Senado Federal",
+     "titulo": "Projeto de Lei n° 3723, de 2019 (ficha de tramitação)",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/140042",
+     "consultada_em": "2026-10-17",
+     "trecho": "Situação Atual Em tramitação --> --> Último local: 07/11/2019 - Comissão de Constituição, Justiça e Cidadania Último estado: 02/02/2023 - AGUARDANDO DESIGNAÇÃO DO RELATOR",
+     "prova": "Mostra que o projeto que revogaria a marcação não foi aprovado, logo a regra seguia vigente na data da fala."
+    }
+   ]
+  },
+  {
+   "id": "A165",
+   "veredito": "FALSO",
+   "resumo": "PF e PRF informaram ter feito a segurança de Dino na visita à Maré, com policiais à paisana ao lado dele",
+   "explicacao": "O ex-ministro a que a frase se refere é Flávio Dino, que foi ao Complexo da Maré em 13 de março de 2023, a convite da ONG Redes da Maré. A frase diz que ele entrou 'sem nenhum policial, sem nenhum de segurança'. O Projeto Comprova (publicado pelo Poder360) apurou com os órgãos: a PF confirmou ter feito a segurança do ministro, 'inclusive na sua agenda realizada na comunidade da Maré', e a PRF disse que policiais à paisana estiveram ao lado dele durante toda a visita; o Comprova classificou como enganoso o post que dizia que ele foi sem suporte policial. Na sabatina do Senado, em 13/12/2023, Dino disse que a visita foi comunicada à PRF, à PF e às polícias do Rio e que havia segurança desses órgãos (Poder360). As fontes contradizem diretamente a ausência de qualquer policial ou segurança, por isso FALSO. A Revista Oeste escreveu na época que ele entrou 'aparentemente' sem escolta, sem citar fonte oficial; ver divergência.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "visita de 13/03/2023",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": "A Revista Oeste escreveu que Dino entrou 'aparentemente, sem escolta policial', sem fonte oficial; PF e PRF, ouvidas pelo Comprova, afirmaram ter feito a segurança dele.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N3",
+     "instituicao": "Projeto Comprova (publicado pelo Poder360)",
+     "titulo": "Dino não se encontrou com criminosos no Complexo da Maré (25/03/2023)",
+     "url": "https://www.poder360.com.br/governo/dino-nao-se-encontrou-com-criminosos-no-complexo-da-mare/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Também contactada pela reportagem, a PF confirmou ter feito a segurança do ministro durante sua visita ao Rio de Janeiro, “inclusive na sua agenda realizada na comunidade da Maré” . A PRF esclareceu que o suporte policial a Dino ocorreu por meio de policiais à paisana, que estiveram ao lado do representante da pasta da Justiça durante toda a visita.",
+     "prova": "Checagem com resposta da PF e da PRF: havia segurança policial na visita."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Dino nega ter entrado no Complexo da Maré sem proteção (13/12/2023)",
+     "url": "https://www.poder360.com.br/congresso/dino-nega-ter-subido-complexo-da-mare-sem-protecao/",
+     "consultada_em": "2026-10-17",
+     "trecho": "a sua visita ao Complexo da Maré foi comunicada à PRF (Polícia Rodoviária Federal), à PF (Polícia Federal) e à Polícia Civil, à Polícia Militar e ao Corpo de Bombeiros do Rio de Janeiro .",
+     "prova": "Registro da explicação dada por Dino no Senado, coerente com o que PF e PRF disseram ao Comprova."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Revista Oeste",
+     "titulo": "Dino pode ser convocado para explicar visita ao Complexo da Maré (16/03/2023)",
+     "url": "https://revistaoeste.com/no-ponto/dino-pode-ser-convocado-para-explicar-visita-ao-complexo-da-mare/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Na quarta-feira 15, Dino entrou na Favela Nova Holanda, mais conhecida como Complexo da Maré, aparentemente, sem escolta policial",
+     "prova": "Registra a versão contrária, com a ressalva 'aparentemente' e sem fonte oficial; é a origem da divergência."
+    }
+   ]
+  },
+  {
+   "id": "A166",
+   "veredito": "VERDADEIRO",
+   "resumo": "Na PM do Rio, 95% dos fuzis apreendidos em 2024 foram fabricados no exterior, em grande parte contrabandeados",
+   "explicacao": "A frase diz que os fuzis usados por criminosos não foram comprados em loja. O dado disponível é da Subsecretaria de Inteligência da PM do Rio, reproduzido pela imprensa (que conta como apoio): 95% dos fuzis apreendidos em 2024 (604 de 638) foram fabricados fora do país, em grande parte contrabandeados por países vizinhos, e muitos chegam em peças e são montados no Brasil; em 2023, mais de 90% eram estrangeiros e 194 de 492 não tinham marca, montados por armeiros do crime (Super Rádio Tupi); em 2026 a PM ainda aponta os EUA como principal origem (Diário do Rio). Isso sustenta o essencial: o fuzil do crime vem do contrabando, não da loja brasileira. VERDADEIRO, com ressalva: o dado é de um estado, parte das apreensões é de fabricação nacional cuja origem (inclusive desvio de comprador legal) não foi rastreada nessas fontes, e algumas peças são compradas legalmente nos EUA.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "apreensões da PM do RJ em 2023, 2024 e até maio de 2026",
+   "ressalva": "O dado é da PM do Rio; parte dos fuzis é de fabricação nacional, sem origem rastreada nessas fontes.",
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Super Rádio Tupi (levantamento da Subsecretaria de Inteligência da PM do RJ)",
+     "titulo": "Estudo revela que a maioria dos fuzis apreendidos no RJ são importados dos EUA (23/05/2025)",
+     "url": "https://www.tupi.fm/?p=2052099",
+     "consultada_em": "2026-10-17",
+     "trecho": "Um levantamento inédito da Polícia Militar do Rio de Janeiro revela que 95% dos fuzis apreendidos em 2024 foram fabricados no exterior. Dos 638 armamentos confiscados pela corporação, 604 tiveram origem fora do país, segundo dados da Subsecretaria de Inteligência (SSI). [...] Esses armamentos são, em grande parte, contrabandeados para o Brasil por rotas clandestinas que atravessam países vizinhos como Paraguai, Bolívia e Colômbia.",
+     "prova": "Origem dos fuzis apreendidos: exterior e contrabando, não compra legal no Brasil."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Super Rádio Tupi (estudo da SSI da PM do RJ)",
+     "titulo": "Maioria dos fuzis apreendidos pela PM do Rio são de fabricação estrangeira (21/04/2024)",
+     "url": "https://www.tupi.fm/?p=1780031",
+     "consultada_em": "2026-10-17",
+     "trecho": "Mais de 90% dos fuzis foram fabricados em outros países. O estudo analisou um conjunto de variáveis em relação à apreensão de 492 fuzis durante o ano passado. [...] Também foram registrados no estudo 194 fuzis sem marca, ou seja, armas que entram no país ou no estado separadas por peças e montadas por armeiros envolvidos com as organizações criminosas.",
+     "prova": "O mesmo padrão no ano anterior, com fuzis montados ilegalmente."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Rio (levantamento da PM do RJ)",
+     "titulo": "Polícia Militar apreende 316 fuzis no Rio até maio (2026)",
+     "url": "https://diariodorio.com/policia-militar-apreende-316-fuzis-no-rio-ate-maio-90-estavam-com-faccoes-criminosas/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O restante do levantamento identificou modelos fabricados na Alemanha , em Israel , na República Tcheca e também no mercado nacional.",
+     "prova": "Mostra que há também fuzis de fabricação nacional, base da ressalva."
+    }
+   ]
+  },
+  {
+   "id": "A167",
+   "veredito": "FALSO",
+   "resumo": "Em 2025 a PF fez 482 operações nas fronteiras, e a PRF recolheu 1.134 armas e 719 toneladas de maconha",
+   "explicacao": "A frase diz que o governo 'deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas'. O balanço de 2025 apresentado pela PF e pela PRF em fevereiro de 2026, reproduzido pela imprensa (que conta como apoio à primária), registra 482 operações da PF nas fronteiras, com 663 presos e 1.512 indiciados, 2.471 armas e 73,1 toneladas de cocaína apreendidas pela PF, e 1.134 armas, 719 toneladas de maconha e 44,3 toneladas de cocaína pela PRF; a PF informou recorde na apreensão de drogas. Há fiscalização registrada, o que contradiz diretamente 'não fiscaliza'; por isso FALSO e não INSUSTENTAVEL. A frase pode ser lida como crítica à eficácia da fiscalização, e isso é juízo que as fontes não medem; o que se checa é a afirmação de que não há fiscalização.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "balanço de 2025 da PF e da PRF, divulgado em fevereiro de 2026",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "O Liberal (balanço oficial da Polícia Federal)",
+     "titulo": "PF tem 47 mil inquéritos em aberto e tirou R$ 9,5 bi do crime organizado em 2025",
+     "url": "https://www.oliberal.com/variedades/pf-tem-47-mil-inqueritos-em-aberto-e-tirou-r-9-5-bi-do-crime-organizado-em-2025-1.1083446",
+     "consultada_em": "2026-10-17",
+     "trecho": "Foram apreendidas 2.471 armas, além de 198.113 munições. Nas fronteiras, a PF fez 482 operações, cumpriu 81 mandados de buscas e prendeu 663 alvos. Indiciou 1.512 suspeitos.",
+     "prova": "Operações e apreensões da PF nas fronteiras em 2025."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Pará (balanço do MJSP, PF e PRF)",
+     "titulo": "PF e PRF retiraram R$ 9,5 bilhões do crime organizado",
+     "url": "https://diariodopara.com.br/noticias/brasil/pf-e-prf-retiraram-r-95-bilhoes-do-crime-organizado/",
+     "consultada_em": "2026-10-17",
+     "trecho": "No balanço operacional, a PRF informou a apreensão de 719 toneladas de maconha, 44,3 toneladas de cocaína e 48,3 milhões de maços de cigarros ilegais. A corporação também recolheu 1.134 armas de fogo, mais de 59 mil munições e recuperou 7.924 veículos.",
+     "prova": "Apreensões de drogas e armas pela PRF em 2025."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Bahia Notícias (coletiva do diretor-geral da PF)",
+     "titulo": "Diretor da PF afirma que corporação apreendeu R$ 9,5 bilhões do crime organizado no ano de 2025, um recorde (10/02/2026)",
+     "url": "https://www.bahianoticias.com.br/noticia/313563-diretor-da-pf-afirma-que-corporacao-apreendeu-r-95-bilhoes-do-crime-organizado-no-ano-de-2025-um-recorde",
+     "consultada_em": "2026-10-17",
+     "trecho": "A corporação também contabilizou em 2025 apreensões de 73.181 quilos de cocaína e de 721.163 quilos de maconha, além de 1.171 operações contra crimes cibernéticos e 482 ações nas fronteiras do país.",
+     "prova": "Outro veículo com o mesmo balanço, confirmando as ações de fronteira."
+    }
+   ]
+  },
+  {
+   "id": "A168",
+   "veredito": "VERDADEIRO",
+   "resumo": "Sou da Paz e Igarapé dizem que tirar a marcação fragiliza o rastreio de munição desviada de órgãos públicos",
+   "explicacao": "A jornalista atribui a um entendimento corrente a ideia de que eliminar a marcação dificulta a investigação. Em nota técnica sobre o PL 3.723/2019, o Instituto Sou da Paz e o Instituto Igarapé disseram que a mudança 'fragiliza a rastreabilidade' e 'impede a rastreabilidade de munições roubadas ou desviadas de instituições públicas'; a Agência Pública lembra que foi esse rastreio que mostrou que a munição do assassinato de Marielle Franco era de lote comprado pela PF. Em outubro de 2026, pesquisa do Sou da Paz sobre munições do Comando Vermelho recomendou ampliar a marcação rastreável para toda munição nacional (O Povo). Não se achou especialista ou órgão defendendo o contrário. VERDADEIRO; a ressalva é que as vozes documentadas são de institutos da sociedade civil, não um parecer oficial da PF.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "nota técnica de dezembro de 2021 e pesquisa de outubro de 2026",
+   "ressalva": "As posições documentadas são de institutos da sociedade civil, não de parecer oficial da PF.",
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Agência Pública (citando nota técnica do Instituto Sou da Paz e do Instituto Igarapé)",
+     "titulo": "Senado pode liberar porte de arma com munição para meio milhão de caçadores e atiradores (23/02/2022)",
+     "url": "https://apublica.org/2022/02/senado-pode-liberar-porte-de-arma-com-municao-para-meio-milhao-de-cacadores-e-atiradores/",
+     "consultada_em": "2026-10-17",
+     "trecho": "o Instituto Sou da Paz e o Instituto Igarapé afirmaram que “esta alteração fragiliza a rastreabilidade das armas de fogo, beneficiando apenas quem pratica atividades ilegais. Também impede a rastreabilidade de munições roubadas ou desviadas de instituições públicas, material comprado com recurso público e que passa a ser utilizado no cometimento de crimes”. Mecanismos de rastreio de armas e munições são cruciais para a elucidação de crimes.",
+     "prova": "Especialistas dizem que acabar com a marcação prejudica o rastreio usado em investigações."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "O Povo (pesquisa do Instituto Sou da Paz)",
+     "titulo": "51,9% das munições do CV analisadas em pesquisa vieram de órgãos estatais (13/10/2026)",
+     "url": "https://mais.opovo.com.br/jornal/cidades/2026/10/13/519-das-municoes-do-cv-analisadas-em-pesquisa-vieram-de-orgaos-estatais.html",
+     "consultada_em": "2026-10-17",
+     "trecho": "Entre as medidas prioritárias estão a ampliação da marcação rastreável para toda munição nacional , inclusive destinada ao mercado civil",
+     "prova": "Estudo independente e recente que trata a marcação como ferramenta de investigação e pede sua ampliação."
+    }
+   ]
+  },
+  {
+   "id": "A169",
+   "veredito": "VERDADEIRO",
+   "resumo": "O registro do Senado mostra voto Sim de Flávio no PL Antifacção, aprovado com 64 votos e nenhum contra em 2025",
+   "explicacao": "Os dados abertos do Senado da votação nominal de 10/12/2025 do substitutivo ao PL 5.582/2025 (PL Antifacção) registram o voto 'Sim' de Flávio Bolsonaro (PL-RJ). Metrópoles e Jornal de Brasília informam a aprovação por 64 votos a favor e nenhum contrário. O PL Antifacção virou a Lei 15.358/2026, como já registrado no caso 2026-10-15-sabatina-lula-globo-2turno (A049, VERDADEIRO). As fontes confirmam o voto; VERDADEIRO.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "votação no Senado em 10/12/2025",
+   "ressalva": null,
+   "confianca": "alta",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Senado Federal (dados abertos)",
+     "titulo": "Votação nominal do PL 5.582/2025 em 10/12/2025",
+     "url": "https://legis.senado.leg.br/dadosabertos/votacao?codigoMateria=171725",
+     "consultada_em": "2026-10-17",
+     "trecho": "\"dataSessao\":\"2025-12-10\",\"descricaoVotacao\":\"Votação nominal da Emenda nº 117 (Substitutivo) ao Projeto de Lei nº 5.582, de 2025, nos termos do parecer.\" [...] \"nomeParlamentar\":\"Flávio Bolsonaro\",\"sexoParlamentar\":\"M\",\"siglaPartidoParlamentar\":\"PL\",\"siglaUFParlamentar\":\"RJ\",\"siglaVotoParlamentar\":\"Sim\"",
+     "prova": "Registro oficial do voto Sim de Flávio na votação do PL Antifacção."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Metrópoles",
+     "titulo": "Senado aprova PL Antifacção por unanimidade (10/12/2025)",
+     "url": "https://www.metropoles.com/brasil/senado-aprova-texto-base-do-pl-antifaccao-por-unanimidade",
+     "consultada_em": "2026-10-17",
+     "trecho": "O Senado Federal aprovou por unanimidade, nesta quarta-feira (10/12), o Projeto de Lei 5.582/2025 , conhecido como “PL Antifacção”. [...] No Senado, foram 64 votos a favor e nenhum contrário.",
+     "prova": "Confirma a votação e o placar sem votos contrários."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Jornal de Brasília",
+     "titulo": "Senado aprova projeto antifacção, muda texto de Derrite, atende governo e tem apoio da oposição",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/senado-aprova-projeto-antifaccao-muda-texto-de-derrite-atende-governo-e-tem-apoio-da-oposicao/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O texto foi aprovado por 64 votos a favor e nenhum contra, mas como houve mudanças, ele volta para a Câmara",
+     "prova": "Segundo veículo com o mesmo placar."
+    }
+   ]
+  },
+  {
+   "id": "A170",
+   "veredito": "IMPRECISO",
+   "resumo": "A lei antifacção não exige pena integral: endurece a progressão, que passa a pedir de 70% a 85% da pena",
+   "explicacao": "A frase diz que o PL Antifacção faz os integrantes de facções 'cumprirem integralmente a sua pena'. O texto sancionado (Lei 15.358/2026) torna hediondos os crimes de domínio social estruturado, veda livramento condicional, anistia, graça, indulto e fiança, e muda a Lei de Execução Penal para exigir de 70% a 85% da pena antes da progressão de regime, conforme o caso. A progressão continua existindo; não há cumprimento integral. O Brasil de Fato resume que a progressão 'fica mais restrita' e chega a exigir 85%, e o Jornal de Brasília diz que o texto do Senado 'limita as possibilidades de progressão'. A essência (pena mais dura, menos benefícios) confere, mas o 'integralmente' está materialmente errado; por isso IMPRECISO, e não FALSO. A mesma lei foi checada no caso 2026-10-15-sabatina-lula-globo-2turno (A049, VERDADEIRO, sobre autoria e penas), com as mesmas fontes do Planalto e do Brasil de Fato.",
+   "numero_dito": null,
+   "numero_apurado": "progressão após 70% a 85% da pena",
+   "data_de_referencia": "Lei 15.358, de 24/03/2026, vigente na data da fala",
+   "ressalva": null,
+   "confianca": "alta",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Presidência da República (Planalto)",
+     "titulo": "Lei nº 15.358, de 24 de março de 2026",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15358.htm",
+     "consultada_em": "2026-10-17",
+     "trecho": "V - 70% (setenta por cento) da pena, se o apenado for condenado pela prática de crime hediondo ou equiparado, se for primário; [...] VIII - 85% (oitenta e cinco por cento) da pena, se o apenado for reincidente em crime hediondo ou equiparado com resultado morte, vedado o livramento condicional. [...] VIII - os crimes de domínio social estruturado e de favorecimento ao domínio social estruturado",
+     "prova": "O texto da lei: progressão mantida, com frações de 70% a 85%, e os novos crimes incluídos entre os hediondos."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Brasil de Fato",
+     "titulo": "Lula sanciona lei antifacção e ressalta prisão de magnatas do crime (24/03/2026)",
+     "url": "https://www.brasildefato.com.br/2026/03/24/lula-sanciona-lei-antifaccao-e-ressalta-prisao-de-magnatas-do-crime/",
+     "consultada_em": "2026-10-17",
+     "trecho": "A progressão de pena fica mais restrita. Em alguns casos, exige-se até 85% do cumprimento em regime fechado.",
+     "prova": "Leitura independente da lei: a progressão é restringida, não abolida."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Jornal de Brasília",
+     "titulo": "Senado aprova projeto antifacção, muda texto de Derrite, atende governo e tem apoio da oposição",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/senado-aprova-projeto-antifaccao-muda-texto-de-derrite-atende-governo-e-tem-apoio-da-oposicao/",
+     "consultada_em": "2026-10-17",
+     "trecho": "cria regras específicas para a integração entre as forças federais e estaduais e limita as possibilidades de progressão de pena.",
+     "prova": "Sobre o texto aprovado no Senado, que Flávio votou: limita a progressão, não a elimina."
+    }
+   ]
+  }
+ ]
+}

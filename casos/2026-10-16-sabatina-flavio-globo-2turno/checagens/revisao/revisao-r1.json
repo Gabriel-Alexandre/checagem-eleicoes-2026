@@ -1,0 +1,355 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada, revisor r1)",
+  "A001": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase é só apresentação e poderia ser tratada como cortesia, fora da extração. Cai: afirma cargo, partido e disputa, três fatos com registro. JSON do TSE (situação '2º turno', PL, 47,03%), lista de senadores em exercício do Senado (PL-RJ, mandato até 2027) e Reuters conferidos na captura, palavra por palavra. Resumo só com o número do TSE.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A002": {
+    "decisao": "alterado",
+    "nota": "Contra: 'bastante' não tem medida e as fontes são todas N4. Cai: a frase é atribuição de ênfase, não número; quatro falas de dois porta-vozes da campanha em datas diferentes (junho, 28/08, 31/08, outubro), cada trecho achado na captura. Achado: a explicação dizia que Marinho afirmou que uma vitória 'levaria' a Selic a 12% ou 13%; o trecho do EQI diz 'poderia levar' à faixa de 12% a 13%. Corrigida a explicação. Veredito, resumo e confiança média mantidos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A003": {
+    "decisao": "mantido",
+    "nota": "Contra, e é o mais forte do lote: 'o governo' é o federal, e a checagem divide os juros do setor público consolidado (R$ 1.182,2 bi, com estados, municípios e estatais) pelas dotações só federais de saúde e educação (R$ 505 bi). Com juros só do governo central a razão cairia; o veredito só continua IMPRECISO se esses juros passarem de cerca de R$ 1.122 bi (2,22 vezes 505), 95% do consolidado. Fiz uma busca atrás desse número (juros nominais do governo central em 12 meses até agosto) e capturei a nota do BC na cópia do Poder360 e o Raio X da Dívida da Câmara (pasta rv1): nenhuma separa o governo central. Fica de pé por ora: a explicação declara o recorte e a lacuna, a BPMoney independente também põe os juros acima do dobro, e é a mesma medida de juros usada contra o candidato na A007 do caso de 28/08 (IMPRECISO). Desvio conferido: 2 contra 2,34 dá 14,5% sobre o apurado (17% sobre o dito); IMPRECISO nas duas bases. Pergunta de régua para a coerência: que juros representa 'o governo paga', e se o denominador precisa ser da mesma esfera.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A004": {
+    "decisao": "mantido",
+    "nota": "Contra: 'ventiladas pelo seu time' supõe autoria da equipe, e o relato de abril usa fontes anônimas. Cai: o de outubro (Folha, via Correio e BBC/A Gazeta) nomeia o assessor Luiz Felipe Trevisan e a apresentação à Eurasia; a campanha nega que seja posição oficial, o que a ressalva diz e não contradiz 'ventiladas'. Três trechos achados nas capturas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A005": {
+    "decisao": "mantido",
+    "nota": "Contra: a Lei 15.077 limita o ganho real e, com PIB negativo, não há ganho; 'acima da inflação' seria promessa, não regra. Cai: a pergunta pressupõe a regra vigente, e as leis 14.663 e 15.077 (N1, trechos achados) dão aumento real com piso e teto; a exceção do PIB negativo está na ressalva. O 2,6% acima do INPC citado na explicação vem da A010 do caso de 28/08, onde tem trecho; os números da tela (0,6% a 2,5%) estão no trecho da IstoÉ.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A006": {
+    "decisao": "mantido",
+    "nota": "Contra: a vinculação vale só para cerca de 70% dos benefícios; para os demais o índice é o INPC, então a premissa 'o percentual é o mesmo' seria parcial e mereceria IMPRECISO. Cai: a pergunta trata do vínculo que a proposta relatada queria desfazer, e ele existe para a maioria (Constituição art. 201 § 2º e Lei 8.213 art. 41-A, trechos achados); a parte que não segue o mínimo vai na ressalva. Mesma régua da A015 do caso de 28/08 (VERDADEIRO com a mesma ressalva).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A007": {
+    "decisao": "mantido",
+    "nota": "Contra: depois do arcabouço (LC 200/2023) os pisos poderiam estar em lei complementar, não na Constituição. Cai: o trecho capturado da Constituição traz o art. 198 § 2º, I (15% da RCL) e o art. 212 (18% dos impostos), em vigor; Correio e Correio Braziliense descrevem os mesmos pisos como constitucionais. Sem número fora de trecho.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A008": {
+    "decisao": "mantido",
+    "nota": "Provisório: o marcador está no início da explicação, exato, e a confiança é baixa. Não refeito. Falta, como a própria explicação diz: as peças de rádio e TV de Lula de 9 a 16/out e falas em comícios. Para a rodada 2: a fala de Flávio de 8/out ('fake news do PT dizendo que eu vou acabar com o reajuste da aposentadoria') indica que algo circulou; se achar peça que diga 'acabar com o reajuste', decidir se é IMPRECISO (reajuste no lugar de aposentadoria). Os quatro trechos foram achados nas capturas.",
+    "verificacoes": [
+      "3",
+      "6"
+    ]
+  },
+  "A009": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Não refeito. Falta: peças de rádio e TV de Lula de 9 a 16/out e falas a servidores; a BBC registra especulação 'nas redes', sem autor, que não basta para atribuir a Lula. Trechos achados nas capturas.",
+    "verificacoes": [
+      "3",
+      "6"
+    ]
+  },
+  "A010": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Não refeito. Falta: peças e falas de Lula de 9 a 16/out sobre privatização de BB, Caixa e Petrobras. A ressalva (hipótese de privatizar o BB levantada pela própria coordenadora) tem trecho no Investidor10. Trechos achados.",
+    "verificacoes": [
+      "3",
+      "6"
+    ]
+  },
+  "A011": {
+    "decisao": "mantido",
+    "nota": "Contra: com 7 contra 7,75 o desvio é 9,7% sobre o apurado, mas 10,7% sobre o dito; a base escolhida decide entre VERDADEIRO e IMPRECISO. Cai por ora: o projeto mede sobre o apurado (A007 do caso de 28/08: 'um trilhão' contra 1,16 = 14%; A149 do caso de 15/out), a fala diz 'em torno de', e o mesmo dado teve o mesmo veredito na A006 de 28/08. Conferidos na captura os valores da base Olinda (mediana 7,75 para 2025 e 2026 na coleta de 28/10/2022) e do PDF do Focus. Pergunta de régua para a coerência: a base do desvio (o caso de 15/out mediu sobre o dito na A033).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A012": {
+    "decisao": "mantido",
+    "nota": "Contra: 14% não é 13,75%. Cai: desvio de 1,8%, abaixo da régua, e a ressalva dá o valor exato; SGS 432 conferida na captura (13,75 de 17/09 a 16/10) e Jornal do Comércio. Coerente com a A141 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A013": {
+    "decisao": "mantido",
+    "nota": "Contra: 'a dívida do Brasil' pode ser a líquida (R$ 9,2 tri), 16% abaixo. Cai: a fala retoma o que a entrevistadora disse, e o número dito corresponde ao conceito de dívida bruta, o indicador de referência; a ressalva traz a líquida. Conferi na captura da nota de 30/09 que o R$ 11,1 trilhões é a DBGG de agosto (o trecho usa [...] e a frase completa está na página). Desvio de 0,9%.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A014": {
+    "decisao": "mantido",
+    "nota": "Contra: a 'conta básica' poderia ser 7 pontos sobre a parcela da dívida atrelada à Selic, ou ser um contrafactual sem valor de verdade. Não derruba: a sensibilidade oficial do BC (R$ 60,6 a 68,9 bi por ponto em 12 meses) já mede o efeito da Selic sobre a dívida, e qualquer leitura com o estoque de R$ 11 trilhões dá mais. Contas refeitas: 7 x 66,1 x 4 = 1.850,8; 7 x 60,6 x 4 = 1.696,8; 7 x 68,9 x 4 = 1.929,2; desvio de 41% a 48%. Mesma régua da A007 e A021 do caso de 28/08. Erro para menos não muda a régua.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A015": {
+    "decisao": "alterado",
+    "nota": "Contra: o veredito já é INSUSTENTAVEL, e a auditoria do caso de 15/out chegou a INSUSTENTAVEL na frase simétrica da mesma entrevistadora (A155). Mas a própria explicação dizia que 'a busca nesta rodada foi limitada a duas consultas sobre o tema': pela árvore do §2.1, INSUSTENTAVEL pede busca exaustiva, e é o mesmo defeito da A155 (provisório sem marcador). Pus o marcador exato no início, a confiança baixa e o que falta no fim. O resto ficou como estava, para a rodada 2. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ]
+  },
+  "A016": {
+    "decisao": "alterado",
+    "nota": "Contra: a coordenadora falou em 1,5% do PIB, cerca de R$ 190 bi, e a campanha evita cravar valor; 'prometido ao mercado' seria leitura da imprensa. Não derruba: 190 contra 200 é 5%, o SBT registra o discurso de corte em torno de R$ 200 bi, o Poder360 a faixa de 200 a 250 e a Folha a apresentação do plano à Eurasia. Achado: o resumo dizia 'a campanha fala em R$ 200 bi' e a ressalva 'a campanha evita cravar o valor', e a ressalva repetia o R$ 190 bi do resumo. Resumo passou a 'o discurso da campanha é de R$ 200 bi' (palavras do SBT), e a ressalva traz o que falta: valor não cravado e plano incompleto (SBT e Poder360). Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A017": {
+    "decisao": "mantido",
+    "nota": "Contra: a lei compilada de out/2026 dá 38 (32 incisos do art. 17, contando o XII-A, mais 6 do art. 18; contei na captura), e o Poder360 de março também 38; o 39 só aparece na nota do MGI de dez/2025. Cai: 39 contra 38 é 2,6%, abaixo da régua, e a divergência e a ressalva estão escritas. Confiança média adequada.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A018": {
+    "decisao": "alterado",
+    "nota": "Contra: 'superávit ou lucro' mistura conceitos, e a série exclui Petrobras e bancos, onde estaria o lucro. Cai: o resultado primário bate (refiz a soma dos 48 meses da captura: -17.461,86 milhões, superávit; desvio de 3,1%), e a ressalva diz que é primário, não lucro. Achado: a explicação afirmava que 'a imprensa registra que os bancos públicos também ficam fora' sem trecho; o Money Times capturado diz isso, e o trecho dele foi ampliado. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A019": {
+    "decisao": "alterado",
+    "nota": "Contra: o R$ 36 bi poderia ser outro conceito (prejuízo contábil, resultado nominal), e aí o IMPRECISO cairia. Fiz uma busca atrás de fonte para R$ 36 bi: não achou; o que apareceu fala em cerca de R$ 18,5 bi de déficit desde 2023, perto dos R$ 19 bi da série. Refiz a soma dos 44 meses na captura: 19.044,25 milhões de déficit; 36 fica 89% acima. Não é FALSO porque o sentido (déficit no governo Lula) confere. Achado: a ressalva diz 'sem Petrobras e bancos públicos', e nenhum trecho da A019 trazia os bancos; o trecho do Money Times foi ampliado com a frase que diz isso. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A020": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Não refeito. Para a rodada 2: o dado que falta já está capturado e é usado na A021, a Lista de Alto Risco do TCU (cerca de 761 mil imóveis, dados da SPU de nov/2024), além do InfoMoney (764 mil) e do levantamento do Acórdão 160/2024 (56.375 imóveis de uso especial). Hoje o resumo da A020 cita 655 mil de 2018 e o da A021 cita 761 mil: no mesmo vídeo, os dois cards precisam usar o mesmo total.",
+    "verificacoes": [
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  "A021": {
+    "decisao": "alterado",
+    "nota": "Contra 1: a fala pode usar o próprio denominador ('30 mil'), e dez mil desocupados seriam um terço disso. Cai: o total oficial é de cerca de 761 mil, e mesmo na carteira de uso especial (56.375) os vagos são 4%. Contra 2: se as fontes dão 1% a 4%, 'grande parte' seria contradito, e o veredito seria FALSO. Cai: o TCU e o InfoMoney dizem que o cadastro não é confiável e que o ocioso pode ser muito maior, então não há prova firme do contrário; essência certa (há imóveis ociosos e abandonados, apontados pelo TCU) e quantificador exagerado é IMPRECISO, a régua da A003 do caso de 15/out. Achado: a divergência entre fontes cita 'cerca de 742 mil' sem trecho nesta checagem; entrou a notícia do TCU já capturada e usada na A022. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A022": {
+    "decisao": "mantido",
+    "nota": "Contra: o número é de nov/2024 e a fala é de out/2026; a avaliação pode ter mudado. Cai: é o dado mais recente achado, a data está na data_de_referencia, e a própria fala diz que a avaliação está desatualizada. 1,72 contra 1,7: 1,2%. A divergência com o R$ 1,35 tri do levantamento anterior está escrita e na ressalva, com trecho.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A023": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Não refeito. Falta: o estoque oficial da Dívida Ativa da União vigente em out/2026 (PGFN em Números ou painel) e a parcela de difícil recuperação. O resumo já diz que o R$ 2,1 tri é anterior; a rodada 2 deve conferir a data dessa divulgação.",
+    "verificacoes": [
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  "A024": {
+    "decisao": "mantido",
+    "nota": "Contra: 'proposta de governo' pode não ser o plano registrado, e sim a agenda do governo Bolsonaro para o petróleo; e 'RODs' (talvez 'royalties') pode ser o que estaria no plano. Não derruba: a fala diz 'proposta de governo [...] lá em 2022', em contexto de campanha. Varri o texto capturado do plano (322 mil caracteres): sem 'margem equatorial', 'Amapá', 'Foz' nem 'royalties'; o petróleo aparece só como recurso energético abundante e na redução do uso de óleo e carvão. A Gazeta do Povo confirma as 48 páginas. Documento lido por inteiro é prova do contrário: FALSO. Confiança média adequada (cópia do Internet Archive, N4).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A025": {
+    "decisao": "mantido",
+    "nota": "Contra: no português comum 'exploração do petróleo' é extração, e o contexto da fala é receita ('poderia trazer mais de 100 bilhões'); lida assim a frase é verdadeira, porque a produção não começou. Não derruba sozinho: o critério escrito antes da busca manda separar exploração técnica de produção, e 'não conseguiu iniciar' é contradito pela licença do Ibama de 20/10/2025 e pelo poço em perfuração em 2026 (trechos achados). Mesma régua na A027, da entrevistadora: IMPRECISO nos dois. Pergunta de régua para a coerência: se o autor preferir a leitura comum, A025 e A027 mudam juntas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A026": {
+    "decisao": "alterado",
+    "nota": "Contra: educação (piso de R$ 141,2 bi) é menor que pessoal, Bolsa Família e BPC, e o dado é do projeto de 2027, não do gasto vigente. Cai: a frase não diz que são as únicas grandes despesas, a Previdência é de longe a maior (42,9%, conta refeita), a ordem das rubricas é a mesma nas colunas da IFI, e a omissão de pessoal está na ressalva. Achado: o resumo dizia 'No orçamento de 2027', e o dado é do PLOA, projeto ainda não aprovado; passou a 'No projeto de orçamento de 2027'. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A027": {
+    "decisao": "alterado",
+    "nota": "Contra: a entrevistadora usa 'exploração' no sentido comum, e o prazo de sete anos da Petrobras (ago/2026) dá cerca de 2033, então seria VERDADEIRO. É a mesma régua da A025 e fica junto com ela (ver nota da A025). Achado: o resumo dizia 'a perfuração exploratória já começou em 2025'; nenhum trecho dá a data do início da perfuração (InfoAmazonia dá a licença de 20/10/2025; Exame, que ela permite perfuração imediata; InfoMoney, poço em perfuração em ago/2026). Resumo passou a 'foi licenciada em 2025'. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A028": {
+    "decisao": "mantido",
+    "nota": "Contra: 'emenda constitucional' em vez de PEC, antes da promulgação. Cai: forma comum de falar, sem efeito na leitura. Agência Senado (N1), Itatiaia e Correio da Manhã com data (quarta, 14) e placar (75 a 1, dois turnos), trechos achados; 16/out foi sexta-feira, segundo a própria Agência Senado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A029": {
+    "decisao": "mantido",
+    "nota": "Contra: nenhum relevante. Dados abertos da Câmara (472 a 22 e 461 a 19, trecho achado na resposta JSON) e O Povo de 28/05; Correio da Manhã confirma que o Senado manteve o texto de maio.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A030": {
+    "decisao": "mantido",
+    "nota": "Contra: se a entrevista foi gravada antes das 9h, a emenda ainda não estava promulgada. Cai: a sessão foi às 9h (Poder360) e a entrevista foi ao ar à noite, depois do Jornal Nacional; a EC 141 tem a data de 16/10/2026 no texto do Planalto (N1). Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  }
+}

@@ -151,7 +151,7 @@
       "id": "A094",
       "veredito": "INSUSTENTAVEL",
       "resumo": "Áudio publicado pela Veja cita os dois filmes e relato de R$ 30 milhões; autenticidade e pagamento sem confirmação",
-      "explicacao": "A frase atribui a Vorcaro, no áudio, a afirmação de que o patrocínio ao filme sobre Bolsonaro foi legal e que no filme sobre Lula ele pôs R$ 30 milhões por fora, via Instituto Lula. Está documentado que o áudio publicado pela Veja contém fala nesse sentido: o SBT News transcreve que o do Lula foi por fora, foi errado, e que o do Flávio foi patrocínio normal; O Povo e o Correio da Manhã registram o relato de cerca de R$ 30 milhões em espécie ao Instituto Lula (o valor aparece no relato e nos documentos citados pela revista, não no trecho transcrito do áudio). Mas o fato está em apuração em três frentes: a autenticidade do áudio não é reconhecida pela nota oficial da defesa e a campanha de Lula pediu perícia à PF; a PF e a PGR negam ter recebido esse relato e o Jornal Opção registra que não há confirmação pública do financiamento; e os repasses de Vorcaro ao filme Dark Horse são objeto de inquérito autorizado pelo ministro André Mendonça. Pela regra de ética e risco (§5), fato em apuração não recebe VERDADEIRO nem FALSO; por isso INSUSTENTAVEL. Nenhum caso anterior checou este dado.",
+      "explicacao": "A frase atribui a Vorcaro, no áudio, a afirmação de que o patrocínio ao filme sobre Bolsonaro foi legal e que no filme sobre Lula ele pôs R$ 30 milhões por fora, via Instituto Lula. Está documentado que o áudio publicado pela Veja contém fala nesse sentido: o SBT News transcreve que o do Lula foi por fora, foi errado, e que o do Flávio foi patrocínio normal; O Povo e o Correio da Manhã registram o relato de cerca de R$ 30 milhões em espécie ao Instituto Lula (O Povo atribui o valor à própria gravação; o trecho do áudio transcrito pelo SBT News não traz o número). Mas o fato está em apuração em três frentes: a autenticidade do áudio não é reconhecida pela nota oficial da defesa e a campanha de Lula pediu perícia à PF; a PF e a PGR negam ter recebido esse relato e o Jornal Opção registra que não há confirmação pública do financiamento; e os repasses de Vorcaro ao filme Dark Horse são objeto de inquérito autorizado pelo ministro André Mendonça. Pela regra de ética e risco (§5), fato em apuração não recebe VERDADEIRO nem FALSO; por isso INSUSTENTAVEL. Nenhum caso anterior checou este dado.",
       "numero_dito": "R$ 30 milhões",
       "numero_apurado": "cerca de R$ 30 milhões, segundo o relato atribuído a Vorcaro e divulgado pela Veja",
       "data_de_referencia": "reportagem da Veja de 9/out/2026",
@@ -211,12 +211,12 @@
       "id": "A095",
       "veredito": "VERDADEIRO",
       "resumo": "Os Princípios Editoriais da Globo mandam tratar anunciantes com os mesmos critérios editoriais dos demais",
-      "explicacao": "A frase descreve uma norma interna: patrocínio na programação segue regras de transparência e não interfere na linha editorial. Os Princípios Editoriais do Grupo Globo, documento público da própria empresa, determinam que as decisões editoriais sobre reportagens envolvendo anunciantes sejam tomadas pelos mesmos critérios usados para quem não é anunciante, e o comunicado de 15/out/2026 reafirma a absoluta independência editorial do jornalismo. Como se trata de norma de empresa privada, a fonte primária é a própria empresa; as duas fontes são documentos do Grupo Globo, e isso está declarado aqui. A separação entre área comercial e editorial confere, por isso VERDADEIRO. A ressalva: as regras comerciais de transparência para compra de patrocínio (tabela de preços, identificação de patrocinador) não foram localizadas em documento público dentro do limite de buscas, e o veredito não avalia se a norma é cumprida na prática. Nenhum caso anterior checou este dado.",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: A frase descreve uma norma interna: patrocínio na programação segue regras de transparência e não interfere na linha editorial. Os Princípios Editoriais do Grupo Globo, documento público da própria empresa, determinam que as decisões editoriais sobre reportagens envolvendo anunciantes sejam tomadas pelos mesmos critérios usados para quem não é anunciante, e o comunicado de 15/out/2026 reafirma a absoluta independência editorial do jornalismo. Como se trata de norma de empresa privada, a fonte primária é a própria empresa; as duas fontes são documentos do Grupo Globo, e isso está declarado aqui. A separação entre área comercial e editorial confere, por isso VERDADEIRO. A ressalva: as regras comerciais de transparência para compra de patrocínio (tabela de preços, identificação de patrocinador) não foram localizadas em documento público dentro do limite de buscas, e o veredito não avalia se a norma é cumprida na prática. Nenhum caso anterior checou este dado. Falta: a metade da frase que o card cita, as regras de transparência para a compra de patrocínio na programação da TV Globo (política comercial publicada, tabela de preços, identificação de patrocinador), não foi buscada até o fim; sem ela, decidir entre manter VERDADEIRO com ressalva ou rebaixar a parte não sustentada.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "Princípios Editoriais vigentes em outubro de 2026",
       "ressalva": "As regras comerciais de transparência para patrocínio não foram localizadas em documento público",
-      "confianca": "media",
+      "confianca": "baixa",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -363,7 +363,7 @@
     {
       "id": "A098",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "A PF já tinha inquéritos sobre o Master e o BC o advertiu em novembro de 2024, antes do acordo; o caso segue em apuração",
+      "resumo": "A PF já tinha inquéritos sobre o Master e o BC o convocou em novembro de 2024, antes do acordo; o caso segue em apuração",
       "explicacao": "A frase diz que, quando Vorcaro topou patrocinar o filme, não havia nada de errado com ele. A data do acordo não é pública com precisão: Flávio diz ter conhecido Vorcaro em dezembro de 2024 (Band), e os repasses ocorreram entre fevereiro e maio do ano seguinte (Correio da Manhã). Antes disso, segundo o SBT News, a PF de São Paulo havia aberto desde 2023 dois inquéritos sobre o Master e fundos usados por Vorcaro, e em novembro de 2024 o banqueiro assinou termo com o BC para corrigir a gestão do banco; o presidente do BC, Gabriel Galípolo, disse que o Master enfrentava problemas de credibilidade e captação no final de 2024 e foi convocado pela Fiscalização naquele mês. Esses procedimentos eram sigilosos na época, e a frase sobre suspeita pública não é contrariada diretamente; além disso, as irregularidades atribuídas a Vorcaro seguem em apuração, sem decisão definitiva. Por isso o veredito não é FALSO nem VERDADEIRO (etica-e-risco §5): as fontes não sustentam que não havia nada de errado, e a apuração está em curso. Nenhum caso anterior checou este dado.",
       "numero_dito": null,
       "numero_apurado": null,
@@ -389,7 +389,7 @@
           "url": "https://finsidersbrasil.com.br/?p=359378",
           "consultada_em": "2026-10-17",
           "trecho": "De acordo com o presidente do BC, o Master começou a enfrentar dificuldades de credibilidade e problemas de captação no final de 2024. Isso gerou restrições de liquidez . Ainda em novembro daquele ano, a diretoria de Fiscalização convocou o banco de Daniel Vorcaro para um termo de comparecimento.",
-          "prova": "Cronologia do BC: advertência formal em novembro de 2024."
+          "prova": "Cronologia do BC: o banco foi convocado pela Fiscalização para um termo de comparecimento em novembro de 2024."
         },
         {
           "nivel": "N4",

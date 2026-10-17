@@ -1,0 +1,260 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada, revisor r5)",
+  "A121": {
+    "decisao": "mantido",
+    "nota": "Contra: 'golpe da Disney' poderia ser lido como parte da afirmação e tornar o card enganoso ao confirmar a frase inteira. Cai: a explicação isola o voto e trata o rótulo como juízo, e o resumo só fala do voto. Conferi na transcrição (1423,7 s a 1426,2 s) e na captura p13 da notícia do STF que Moraes era o relator, votou em 9/9/2025 pela condenação de todos os réus do núcleo 1 e foi seguido por quatro a um; a Agência Brasil confirma o sentido do voto em texto próprio. Resumo com 111 caracteres, sem número sem lastro.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A122": {
+    "decisao": "mantido",
+    "nota": "Contra: a fala diz 'acusado' de depredar, e a Agência Brasil de jan/2026 trata da lista de crimes dos 1.399 condenados, não só de Bolsonaro. Cai: na página capturada a lista vem logo depois de 'Somente os réus do Núcleo 1, formado pelo ex-presidente Jair Bolsonaro e mais sete réus', e a notícia do STF (N1) já traz a lista para os sete condenados; a CNN liga os dois crimes de dano ao 8 de janeiro. 'Acusado' contra 'condenado' só deixa a fala mais branda que o fato. A frase junta dois trechos (1427,9 s e 1440,9 s) com [...], corretamente marcado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A123": {
+    "decisao": "mantido",
+    "nota": "Contra, e é forte: no contexto da fala ('condenado por organização criminosa armada e não foi encontrado uma arma'), 'arma' pode ser lida como arma de fogo, que é o que a qualificadora da organização criminosa mira; a Gazeta do Povo diz que nenhuma arma de fogo foi apreendida com os manifestantes, o Planalto disse depois que as armas levadas do GSI não eram letais, e o agravante citado pela CNN vem de um plano, não de arma apreendida. Fica de pé com confiança média: a frase é absoluta ('em lugar nenhum'), e os registros capturados contradizem a forma absoluta: armas e munição levadas do GSI e parte delas recuperada pela PM-DF (Aos Fatos, Poder360, CNN), e facas, porretes e barras de ferro descritos nos processos (Gazeta do Povo, fonte crítica ao STF). A leitura de arma de fogo está na ressalva, e a divergência sobre armas letais está declarada. Os seis trechos foram achados nas capturas. Ponto para a coerência: o precedente A009 do caso de 28/ago nunca passou por revisão adversarial, então não serve de lastro por si.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A124": {
+    "decisao": "mantido",
+    "nota": "Contra: '10 mil quilômetros' é hipérbole de linguagem oral, e o essencial (ele não estava em Brasília) está certo. Não derruba o IMPRECISO: a régua do §2.2 vale para número dito, e refiz a conta (haversine, coordenadas FAA e DECEA dos trechos): 6.096 km, então 10 mil fica 64% acima, muito além de 10%. É a mesma régua da A033 do caso Lula (11% virou IMPRECISO). O local em 8/1/2023 confere em NPR e CNBC (capturas p13). Resumo de 114 caracteres; o '10' do resumo é o número dito.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A125": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase junta 'O Flávio Dino' (1447,8 s) e 'Foi julgado pelo Zanin' (1454,7 s), com uma oração no meio, e pode sugerir que Dino e Zanin decidiram sozinhos. Cai: o [...] está marcado, a afirmação extraída é que os dois estavam entre os julgadores, e a ressalva diz que a turma tinha cinco ministros e que Fux divergiu. Composição e votos conferidos nas capturas do STF, do Poder360 e da Agência Brasil.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A126": {
+    "decisao": "mantido",
+    "nota": "Contra: 'até ontem' é falso ao pé da letra, porque Dino saiu do ministério em jan/2024 e o julgamento foi em set/2025. Cai: é figura de linguagem; o fato checável (ele chegou ao STF vindo do Ministério da Justiça de Lula) confere na Agência Senado, no Poder360, no Congresso em Foco e na InfoMoney, e a ressalva traz as duas datas. É a mesma régua aplicada ao 'até ontem' de Zanin (A129).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A127": {
+    "decisao": "mantido",
+    "nota": "Contra: a expressão citada, 'demônio na Terra', não existe nas fontes, e o Brasil 247 é veículo de opinião, perto do limite do N5. Fica de pé com confiança média: a captura do Brasil 247 traz a fala com veículo e data (UOL News, 8/4/2022) e diz expressamente que o sujeito é Jair Bolsonaro; o Imirante, com entrevista ao Valor, traz outra fala com a mesma imagem. Certo no fato, errado no ornamento (§2.2), e a ressalva traz as palavras registradas. A gravação original não foi capturada; vale a passada de coerência olhar se o Brasil 247 entra como N4 nos outros casos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A128": {
+    "decisao": "mantido",
+    "nota": "Contra: 'amigo do Lula' é o núcleo da frase e não foi checado. Cai: é qualificação, a explicação diz isso, e o checável ('colocado lá' por Lula) confere na Agência Senado (N1) e na Gazeta do Povo: indicação em 1º/6/2023, aprovação por 58 a 18. Números do resumo nos dois trechos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A129": {
+    "decisao": "mantido",
+    "nota": "Contra: 'até ontem era advogado' sugere que ele advogava para Lula às vésperas do julgamento de Bolsonaro. Cai: figura de linguagem, com a mesma régua da A126; as fontes (Agência Senado, Agência Brasil, Gazeta do Povo) mostram a advocacia para Lula até a indicação em 2023, e a ressalva traz 2023 e 2025, ambos em trecho.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A130": {
+    "decisao": "mantido",
+    "nota": "Contra: a entrevistadora atribui três coisas ao candidato e só duas têm registro; com a régua aplicada aos dois lados da mesa, uma atribuição de três partes com uma sem lastro poderia ser IMPRECISO. Fica de pé: a parte sem registro não foi contradita, só não foi achada, e as duas que vão para o card ('craque', 'privilégio') e a época ('começo desse ano') conferem na InfoMoney de 13/01/2026 e na CartaCapital de 19/02/2026, apurações distintas; a Folha de Pernambuco foi corretamente declarada como reprodução. A ressalva diz o que faltou. Ponto para a coerência entre lotes: conferir se atribuições parciais de Flávio a terceiros recebem o mesmo tratamento.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A131": {
+    "decisao": "mantido",
+    "nota": "Contra: 'quem vai decidir isso é o pai' estica a fala ('as nomeações de ministros vão passar pelo presidente Jair Bolsonaro'), e sobre a própria indicação Eduardo disse depender da vontade de Flávio; além disso, DGABC, Times Brasil e O Liberal (também capturado na p14) reproduzem o mesmo texto do Estadão Conteúdo, e a entrevista do SBT News não foi capturada, então a regra 2 da §3.1 não se cumpre por inteiro. Fica de pé com confiança média: o Times Brasil traduz a fala como 'passarão pela aprovação do ex-presidente', o que é poder de decisão; a época (10/10, seis dias antes) confere; a ressalva registra a vontade de Flávio; e a explicação declara que as duas matérias são uma apuração só. Não achei captura independente do Estadão Conteúdo.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A132": {
+    "decisao": "mantido",
+    "nota": "Contra: 'denunciando as arbitrariedades' é juízo, e o card poderia estar confirmando o juízo. Cai: o resumo só afirma onde ele mora e que atua do exterior contra decisões do STF, e acrescenta que o STF julgou essa atuação como coação; a ressalva separa o juízo. Residência nos EUA desde 2025 (Poder360, Times Brasil) e atuação contra Moraes no início de out/2026 (Jornal Opção) conferidas nas capturas. A divergência sobre a data de chegada (fev ou abr/2025) está declarada.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A133": {
+    "decisao": "mantido",
+    "nota": "Contra: com todos os passaportes brasileiros cancelados e mandado de prisão expedido, ele de fato não pode viajar legalmente para quase nenhum país, o que faria a frase VERDADEIRA. Fica de pé como INSUSTENTAVEL: as fontes registram a medida (Times Brasil; DGABC: 'invalida os documentos'), mas nenhuma diz que ele está impedido de entrar em países, nem que haja difusão vermelha. Usei uma busca atrás do que contradiria o veredito (difusão vermelha, proibição de viagem), e os resultados não trouxeram isso: a Bloomberg Línea diz que o cancelamento 'pode complicar' as viagens, e a Tribuna de Jundiaí, que a difusão vermelha não é o instrumento em análise porque o endereço dele nos EUA é conhecido. Nada disso foi capturado nem entrou no caso. O alcance 'um monte de países' segue sem fonte. A condenação é definitiva (Congresso em Foco), então não é caso de apuração em curso.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A134": {
+    "decisao": "mantido",
+    "nota": "Contra: 'toma uma Magnitsky' no presente pode sugerir sanção em vigor, e ela foi retirada em 12/12/2025. Cai: a ressalva diz isso com as datas dos dois registros oficiais do OFAC (N1, capturados), e a frase descreve a sanção, não a vigência. Bloomberg Línea e InfoMoney declaradas como reprodução da primária.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A135": {
+    "decisao": "mantido",
+    "nota": "Contra: 'bota a culpa' sugere acusação de Moraes pela sanção contra ele próprio, e as fontes falam de articulação de sanções contra integrantes do STF e contra o Brasil. Cai: o Jornal Opção traz a denúncia acolhida com as sanções Magnitsky contra Moraes entre as medidas articuladas, a Itatiaia traz o voto do relator ligando Eduardo a Trump e às sanções, e o STF (N1) confirma Moraes como relator da condenação. A ironia final é juízo. Confiança média porque o acórdão não foi lido. Trechos conferidos na p14.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A136": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase põe a condenação na boca de Moraes ('aqui condena ele'), e quem condenou foi a Primeira Turma. Cai: Moraes foi o relator e o voto condutor, a turma o seguiu por unanimidade (STF, N1), e a frase é sobre o motivo da condenação, que confere: coação no curso do processo do pai. Pena e trânsito em julgado (3/10/2026) conferidos no Poder360 e no Congresso em Foco.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A137": {
+    "decisao": "mantido",
+    "nota": "Contra: em junho de 2026, quando Moraes julgou Eduardo, a sanção já tinha sido retirada, então 'se ele está se sentindo lesado com a Magnitsky' descreveria uma situação passada. Cai: o fato checável é que o ministro alvo da sanção relatou e julgou a ação contra Eduardo, e isso confere no STF e no Poder360; a ressalva traz a retirada antes do julgamento, com o registro do OFAC. A explicação declara que não se achou decisão sobre pedido formal de impedimento.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A138": {
+    "decisao": "alterado",
+    "nota": "Contra o INSUSTENTAVEL original: a própria explicação dizia que a busca não tinha olhado 2015 e 2016 e que isso 'poderia mudar o veredito', ou seja, a busca não era exaustiva. Usei uma busca atrás do que contradiria o veredito, e apareceu: em maio de 2016 Eduardo foi a Israel em visita parlamentar (Times of Israel), e a comitiva se reuniu com o presidente do Knesset (reportagem da Folha reproduzida pelo ABC do ABC, com o relato do próprio Eduardo). As duas páginas foram capturadas (rv5) e os trechos conferidos. Com isso o resumo antigo ('começam em 2017 e 2018') ficou contradito por fonte, e o 'mais de 10 anos' (maio de 2016 a outubro de 2026) tem lastro. Melhor argumento contra o novo VERDADEIRO: uma visita de comitiva não é um 'relacionamento', e o presidente do Knesset não está qualificado como conservador em trecho nenhum. Por isso a confiança é média e a ressalva diz que a rede com a direita dos EUA começa em 2018. Detalhe em correcoes-r5.md.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A139": {
+    "decisao": "mantido",
+    "nota": "Contra: 'processo de afastamento' é caracterização, a principal medida (a PEC 42/2023) não foi votada, as fontes são todas N4 e a Sociedade Militar é site de nicho. Fica de pé com confiança média: os trechos capturados mostram medidas concretas (prazo de 90 dias para desfiliação dado pelos comandos, em comunicado da Marinha obtido pela Folha e na CartaCapital; PEC formulada com os comandantes), o indicador de licenças eleitorais (61 em 2022, 17 em 2026, com dados do Estadão) e a ligação com o 8 de Janeiro (CartaCapital). A ressalva diz que a PEC não foi votada. A leitura de caracterização é a mesma que se aplica às falas do candidato.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A140": {
+    "decisao": "alterado",
+    "nota": "Contra: o resumo dizia 'generais, um almirante e outros oficiais [...] em decisões já definitivas', mas o trânsito em julgado registrado nas fontes (STF, 25/11/2025) é o do núcleo central, e a Agência Brasil de jan/2026 (capturada para a A122) diz que os demais núcleos ainda estavam em fase de recurso; 'outros oficiais' puxava para o card condenados de ações sem trânsito registrado. O veredito fica (militares envolvidos e condenados está documentado em N1), e o resumo passou a falar só dos generais e do almirante do núcleo central, cuja condenação é definitiva. Detalhe em correcoes-r5.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  }
+}

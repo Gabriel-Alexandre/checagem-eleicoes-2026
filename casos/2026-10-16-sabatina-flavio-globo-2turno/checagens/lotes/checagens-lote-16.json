@@ -1,0 +1,479 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "lotes/checagem/pedido-16.json",
+  "checagens": [
+    {
+      "id": "A151",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "A Senatran autorizou a Faixa Azul em São Paulo até 31 de março de 2026; o que houve depois não foi confirmado",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a alegação diz que o governo federal, por um ato ('uma canetada'), deixou de autorizar a Prefeitura de São Paulo a fazer a Faixa Azul. O que está documentado contradiz a ideia de que a autorização nunca veio: a Faixa Azul depende de autorização da Senatran (Secretaria Nacional de Trânsito, do Ministério dos Transportes) para estudo experimental, e a Senatran a concedeu e ampliou durante o governo Lula; em outubro de 2023 o Portal do Trânsito registrou a autorização em mais de dez avenidas, e a Portaria Senatran nº 217, de 10/03/2025 (DOU de 13/03/2025), prorrogou a autorização da CET/SP até 31 de março de 2026, com a lista de vias, o que a Agência iNFRA confirma de forma independente. Em 2026 a Senatran continuou autorizando a Faixa Azul em outras cidades (Portaria nº 292, de 27/04/2026, para Belo Horizonte até 31/12/2028). O que falta: não foi achado ato posterior a 31/03/2026 sobre São Paulo, nem renovação nem negativa; a lista de portarias de 2026 da Senatran foi capturada (pastas p16-r3 a p16-r5) e as portarias de março e abril abertas não tratam de São Paulo, mas a lista do site não é completa. Se a autorização de São Paulo venceu sem renovação ou foi negada depois de março, a frase pode ter base; se foi renovada, ela é contrariada. Sem esse ato, as fontes não sustentam nem derrubam a frase na data da fala: INSUSTENTAVEL provisório. A refazer: buscar no DOU ou no site da Senatran portaria de 2026 sobre a Faixa Azul da CET/SP e notícia da Prefeitura sobre o tema.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "autorização vigente até 31/03/2026; situação em 16/10/2026 não confirmada",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério dos Transportes, Secretaria Nacional de Trânsito (Senatran)",
+          "titulo": "Portaria nº 217, de 10 de março de 2025 (DOU de 13/03/2025)",
+          "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/portarias/2025/Portaria2172025.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 1º Esta Portaria prorroga até 31 de março de 2026 a autorização concedida à Companhia de Engenharia de Tráfego do Município de São Paulo (CET/SP) para o estudo experimental com sinalização voltada para a circulação de motociclistas, denominada Faixa Azul, nas seguintes vias:",
+          "prova": "O ato federal que autoriza a Faixa Azul de São Paulo e o prazo da autorização, até 31 de março de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência iNFRA",
+          "titulo": "Senatran estende faixa exclusiva de motos em SP até 2026 e permite em Santos e Recife (13/03/2025)",
+          "url": "https://agenciainfra.com/blog/?p=20527",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Senatran (Secretaria Nacional de Trânsito) prorrogou, até o dia 31 de março de 2026, a autorização concedida à CET-SP (Companhia de Engenharia de Tráfego do Município de São Paulo) para o estudo experimental com sinalização voltada para a circulação de motociclistas, denominada Faixa Azul. São 212 km de extensão de Faixa Azul na capital paulista.",
+          "prova": "Confirmação independente da prorrogação e da extensão da Faixa Azul autorizada."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Portal do Trânsito",
+          "titulo": "Faixa azul para motocicletas em São Paulo (17/10/2023)",
+          "url": "https://www.portaldotransito.com.br/?p=40522",
+          "consultada_em": "2026-10-17",
+          "trecho": "Publicado 17/10/2023 às 13h30 [...] A Secretaria Nacional de Trânsito (Senatran) autorizou a instalação da Faixa Azul para motociclista em mais de dez avenidas na cidade de São Paulo/SP.",
+          "prova": "Autorização federal para a ampliação da Faixa Azul já no governo Lula, em 2023."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério dos Transportes, Secretaria Nacional de Trânsito (Senatran)",
+          "titulo": "Portaria Senatran nº 292, de 27 de abril de 2026 (DOU de 29/04/2026)",
+          "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/portarias/2026/Portaria2922026.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Art. 1º Esta Portaria autoriza, até 31 de dezembro de 2028, a Empresa de Transportes e Trânsito do Município de Belo Horizonte/MG (BHTrans) a conduzir estudo experimental com sinalização voltada para a circulação de motociclistas",
+          "prova": "Mostra que em 2026 a Senatran seguia autorizando a Faixa Azul em outra capital; não trata de São Paulo."
+        }
+      ]
+    },
+    {
+      "id": "A152",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi localizado registro de aval da União negado a empréstimo da Prefeitura de São Paulo para a saúde",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a alegação é que o governo Lula negou o aval (garantia) da União a um empréstimo que a Prefeitura de São Paulo pediu para investir em saúde. O que foi conferido: a concessão de garantia da União a operações de crédito de estados e municípios é feita pelo Tesouro Nacional e pelo Ministério da Fazenda, com limites e condições da LRF e de resoluções do Senado (página do Tesouro); e há precedente de garantia da União concedida ao Município de São Paulo para a saúde, a operação de US$ 100 milhões com o BID para o projeto Avança Saúde SP, encaminhada ao Senado em dezembro de 2018, antes do governo atual. Duas buscas na web (termos sobre Ricardo Nunes, aval da União, saúde, Tesouro e Justiça) não acharam pedido de garantia da Prefeitura recusado ou parado no governo Lula, nem valor, data ou fundamento de uma negativa. Sem esse registro, as fontes não sustentam nem contradizem a frase: INSUSTENTAVEL provisório, e não FALSO, porque não se achou prova do contrário. A refazer: buscar o pedido de verificação de limites (PVL) do Município de São Paulo no Sadipem/Tesouro e notícias de 2023 a 2026 sobre a garantia negada.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tesouro Nacional",
+          "titulo": "Concessão de Garantias pela União",
+          "url": "https://www.gov.br/tesouronacional/pt-br/divida-publica-federal/garantias-da-uniao/concessao-de-garantias-pela-uniao",
+          "consultada_em": "2026-10-17",
+          "trecho": "Para a concessão da garantia da União, além do atendimento dos limites e das condições para contratação de operações de crédito, conforme art. 32 da LRF e Resolução do Senado Federal (RSF) nº 43, de 2001, é necessária, ainda, a observância do disposto na RSF nº 48, de 2007, além de outros dispositivos legais, em que estão definidos limites e condições para que a União conceda garantia a operações de crédito.",
+          "prova": "Mostra que o aval da União depende de condições legais analisadas pelo Tesouro; não registra pedido de São Paulo negado."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Mensagem nº 113, de 2018, da Presidência da República)",
+          "titulo": "MSF 113/2018: garantia da União a operação de crédito do Município de São Paulo com o BID (Avança Saúde SP)",
+          "url": "https://legis.senado.leg.br/sdleg-getter/documento?dm=7891674",
+          "consultada_em": "2026-10-17",
+          "trecho": "Propõe, nos termos do art. 52, incisos V, VII e VIII, da Constituição, seja autorizada a contratação de operação de crédito externo, com a garantia da República Federativa do Brasil, no valor de até US$ 100,000,000.00 (cem milhões de dólares dos Estados Unidos da América), de principal, entre o Município de São Paulo, no Estado de São Paulo e o Banco Interamericano de Desenvolvimento – BID, cujos recursos destinam-se ao financiamento parcial do “Projeto de Reestruturação e Qualificação das Redes Assistenciais da Cidade de São Paulo - Avança Saúde SP.\"",
+          "prova": "Precedente de garantia da União a empréstimo da Prefeitura para a saúde, de 2018; não é o pedido citado na fala."
+        }
+      ]
+    },
+    {
+      "id": "A153",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi localizada ação da Prefeitura de São Paulo na Justiça para obter o aval da União a empréstimo",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a alegação é que a Prefeitura de São Paulo teve de recorrer à Justiça para conseguir o aval da União ao empréstimo para a saúde. A busca dedicada (Prefeitura de São Paulo, Justiça, garantia da União, empréstimo, saúde, liminar) não achou ação, tribunal, número de processo nem decisão. O que foi conferido é só o mecanismo: a garantia da União é concedida pelo Tesouro e pelo Ministério da Fazenda sob condições legais (página do Tesouro), e a única garantia à Prefeitura para a saúde localizada é a do BID em 2018, pela via administrativa e com autorização do Senado, sem processo judicial. Sem o registro da ação, as fontes não sustentam nem contradizem a frase: INSUSTENTAVEL provisório. Se a ação for achada e estiver sem decisão definitiva, o veredito continua INSUSTENTAVEL ou NAO_CHECAVEL quanto ao mérito (etica-e-risco §5), mas a existência da ação pode ser confirmada. A refazer: buscar no STF (ação cível originária) e na Justiça Federal processo do Município de São Paulo contra a União sobre garantia a operação de crédito.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tesouro Nacional",
+          "titulo": "Concessão de Garantias pela União",
+          "url": "https://www.gov.br/tesouronacional/pt-br/divida-publica-federal/garantias-da-uniao/concessao-de-garantias-pela-uniao",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Ministro da Fazenda detém a competência de firmar os contratos de garantia em nome da União, os quais deverão ser avaliados, do ponto de vista jurídico, pela Procuradoria-Geral da Fazenda Nacional (PGFN)",
+          "prova": "Quem decide o aval é a Fazenda, pela via administrativa; não registra disputa judicial com São Paulo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Mensagem nº 113, de 2018, da Presidência da República)",
+          "titulo": "MSF 113/2018: garantia da União a operação de crédito do Município de São Paulo com o BID (Avança Saúde SP)",
+          "url": "https://legis.senado.leg.br/sdleg-getter/documento?dm=7891674",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Excelentíssimo Senhor Prefeito do Município de São Paulo - SP requereu a este Ministério a garantia da República Federativa do Brasil para contratação de operação de crédito externo a ser celebrada com o Banco Interamericano de Desenvolvimento-BID",
+          "prova": "Mostra o caminho administrativo de um pedido de garantia da Prefeitura para a saúde, em 2018; não há ação judicial nele."
+        }
+      ]
+    },
+    {
+      "id": "A154",
+      "veredito": "VERDADEIRO",
+      "resumo": "No 1º turno, Lula teve 45,16% dos votos válidos e os demais candidatos somaram 54,84%, segundo o TSE",
+      "explicacao": "O núcleo factual de 'o Brasil já escolheu a mudança' é que a maioria dos votos válidos do 1º turno não foi para o presidente que tenta a reeleição; a interpretação política fica de fora. O arquivo oficial de resultado do TSE (4/10/2026, totalização de 5/10) dá a Lula 53.879.538 votos, 45,16% dos válidos, e a Flávio Bolsonaro 56.104.503, 47,03%, em primeiro lugar; o total de válidos é 119.300.788 (100,00%). Os demais candidatos, somados, tiveram 54,84% dos válidos. O SBT News registra o próprio Lula dizendo que estranhou não ter terminado em primeiro. O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A002, VERDADEIRO), com as mesmas fontes. A fala confere com o resultado, por isso VERDADEIRO; a ressalva é que nenhum candidato teve maioria absoluta, e foi por isso que houve 2º turno.",
+      "numero_dito": null,
+      "numero_apurado": "Lula 45,16% dos válidos; Flávio Bolsonaro 47,03%; demais candidatos somados 54,84%",
+      "data_de_referencia": "1º turno de 04/10/2026, totalização de 05/10/2026",
+      "ressalva": "Nenhum candidato teve maioria: Flávio ficou em primeiro, com 47,03% dos válidos",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "54,84%",
+          "de": "100,00 menos 45,16",
+          "como": "total de votos válidos menos o percentual de Lula"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE)",
+          "titulo": "Resultado oficial do 1º turno de 2026, cargo de presidente, Brasil (arquivo de divulgação, 05/10/2026)",
+          "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"nm\" : \"FLAVIO NANTES BOLSONARO\", \"nmu\" : \"FLAVIO BOLSONARO\", \"dt\" : \"30/04/1981\", \"dvt\" : \"Válido\", \"seq\" : \"1\", \"e\" : \"s\", \"st\" : \"2º turno\", \"vap\" : \"56104503\", \"pvap\" : \"47,03\" [...] \"nm\" : \"LUIZ INÁCIO LULA DA SILVA\", \"nmu\" : \"LULA\", \"dt\" : \"06/10/1945\", \"dvt\" : \"Válido\", \"seq\" : \"2\", \"e\" : \"s\", \"st\" : \"2º turno\", \"vap\" : \"53879538\", \"pvap\" : \"45,16\" [...] \"vv\" : \"119300788\", \"pvv\" : \"100,00\"",
+          "prova": "Percentual de votos válidos de Lula e de Flávio e o total de válidos, de onde sai a soma dos demais."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que campanha foi a menos organizada desde 1989 (07/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-campanha-foi-a-menos-organizada-desde-1989",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na ocasião, o presidente também disse ter estranhado não ter vencido no primeiro turno, realizado no último domingo (4).",
+          "prova": "Confirmação independente de que Lula não venceu o 1º turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Comércio",
+          "titulo": "Lula diz que campanha à Presidência é a mais desorganizada desde a 1ª que disputou, em 1989 (out/2026)",
+          "url": "https://www.jornaldocomercio.com/politica/2026/10/1266131-lula-diz-que-campanha-a-presidencia-e-a-mais-desorganizada-desde-a-1-que-disputou-em-1989.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O presidente disse também que \"estranhou\" o fato de não ter terminado o primeiro turno à frente do senador Flávio Bolsonaro (PL)",
+          "prova": "Confirma que Flávio terminou o 1º turno à frente de Lula."
+        }
+      ]
+    },
+    {
+      "id": "A155",
+      "veredito": "IMPRECISO",
+      "resumo": "Feminicídios bateram recorde em 2025, com 1.571, mas o total de mulheres assassinadas caiu 5,5%, para 3.539",
+      "explicacao": "A frase fala em 'assassinatos de mulheres', e o 20º Anuário Brasileiro de Segurança Pública (FBSP, 23/07/2026) separa duas medidas. Os feminicídios chegaram a 1.571 em 2025, alta de 4% e o maior número desde a tipificação, em 2015: quarto recorde seguido, três deles no governo atual. Já os homicídios de mulheres (incluindo feminicídios) caíram de 3.728 em 2024 para 3.539 em 2025 (-5,5%), o menor valor do gráfico do Anuário para 2016 a 2025, cujo pico passa de 4,5 mil. Ou seja, o recorde vale para o recorte de feminicídio, e o total de mulheres mortas está no ponto mais baixo da série. O próprio Anuário e a Gazeta do Povo registram que a fatia de assassinatos de mulheres classificados como feminicídio subiu ao longo da década, o que explica parte do aumento. Pela régua da §2.2, recorte que inverte a tendência do dado completo é IMPRECISO: não é VERDADEIRO porque o total caiu, e não é FALSO porque a medida específica de feminicídio de fato bateu recorde. Imprensa (Portal de Prefeitura, TNH1) reproduz o Anuário e entra como apoio.",
+      "numero_dito": null,
+      "numero_apurado": "feminicídios: 1.571 em 2025 (recorde); homicídios de mulheres: 3.539 em 2025, queda de 5,5%",
+      "data_de_referencia": "2025 (Anuário Brasileiro de Segurança Pública 2026), série 2016 a 2025",
+      "ressalva": "Parte da alta reflete mais mortes de mulheres classificadas como feminicídio: 44,4% em 2025",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2026, Tabela 21 e Gráfico 35 (íntegra publicada pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/07/anuario-seguranca-publica-23jul26.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Brasil 3.728 3.539 3,4 3,2 -5,5 1.504 1.571 1,4 1,4 4,0 40,3 44,4 [...] Homicídios de mulheres e feminicídios Brasil, 2016-2025 5.000 4.556 4.340 4.245 3.966 3.999 3.869 3.934 3.937 3.728 4.000 3.539",
+          "prova": "Na tabela, homicídios de mulheres caem 5,5% e feminicídios sobem 4%; no gráfico de 2016 a 2025, 3.539 é o menor valor de homicídios de mulheres."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Portal de Prefeitura",
+          "titulo": "Pernambuco reduz em 17,6% os homicídios de mulheres em 2025, aponta Anuário (23/07/2026)",
+          "url": "https://portaldeprefeitura.com.br/pernambuco/pernambuco-reduz-homicidios-de-mulheres-2025-anuario-seguranca/627759/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em todo o país, o Anuário contabilizou 3.539 homicídios de mulheres em 2025, uma redução de 5,5% em relação às 3.728 vítimas registradas no ano anterior. Por outro lado, os feminicídios cresceram 4% no Brasil, passando de 1.504 para 1.571 casos , o maior número da série histórica do Fórum Brasileiro de Segurança Pública.",
+          "prova": "Reprodução do Anuário com as duas medidas lado a lado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (CNN Brasil)",
+          "titulo": "Brasil bate recorde de feminicídios pelo quarto ano seguido",
+          "url": "https://www.tnh1.com.br/noticia/nid/brasil-bate-recorde-de-feminicidios-pelo-quarto-ano-seguido/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 2025, 44,4% de todas as mulheres assassinadas no Brasil morreram por razões de gênero, o maior percentual desde 2015, quando o feminicídio passou a integrar o Código Penal brasileiro.",
+          "prova": "A fatia classificada como feminicídio entre as mulheres assassinadas, que sustenta a ressalva."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Feminicídios batem recorde pelo quarto ano consecutivo, aponta estudo (23/07/2026)",
+          "url": "https://www.gazetadopovo.com.br/brasil/feminicidios-batem-recorde-pelo-quarto-ano-consecutivo-aponta-estudo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Anuário Brasileiro de Segurança Pública de 2026 registrou o quarto recorde consecutivo no número de feminicídios. [...] Em 2015, 9,4% dos assassinatos de mulheres eram atribuídos à condição do sexo feminino. Ao longo dos anos, a fatia foi crescendo, até chegar, em 2025, a 44,4%.",
+          "prova": "O recorde de feminicídios e a mudança na classificação ao longo da década."
+        }
+      ]
+    },
+    {
+      "id": "A156",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lesões corporais contra mulheres em violência doméstica somaram 286.270 em 2025, o maior registro entre 2018 e 2025",
+      "explicacao": "A medida pública de 'mulheres espancadas' é o registro policial de lesão corporal dolosa em contexto de violência doméstica (art. 129, §9º do Código Penal), com vítimas mulheres, compilado pelo FBSP no Anuário Brasileiro de Segurança Pública. A edição de 2026 traz 286.270 registros em 2025, alta de 2,6% sobre 2024 e taxa de 261,7 por 100 mil mulheres. Nas edições de 2020 a 2025 do Anuário, os totais nacionais de 2018 a 2024 ficam entre cerca de 228 mil e 278 mil; o maior anterior a 2023 é 266.310, em 2019 (taxa de 253,6). O valor de 2025 é o maior do período conferido, em número e em taxa, e 2023 e 2024 também superaram os anos de 2020 a 2022. Por isso VERDADEIRO. O Poder360 reproduz o Anuário (alta de 2,6% nas agressões de violência doméstica) e entra como apoio. Ressalvas: são registros policiais, que também crescem quando aumenta a denúncia; anos anteriores a 2018 não foram conferidos; e cada edição revisa o ano anterior (2024 aparece como 257.659 na edição de 2025 e 277.916 na de 2026), o que não muda o topo da série.",
+      "numero_dito": null,
+      "numero_apurado": "286.270 registros em 2025 (taxa de 261,7 por 100 mil mulheres)",
+      "data_de_referencia": "2025, comparado com 2018 a 2024 (Anuários de 2020 a 2026)",
+      "ressalva": "São registros policiais, que também sobem com mais denúncias; anos antes de 2018 não foram conferidos",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O total de 2024 aparece como 257.659 no Anuário de 2025 e como 277.916 no Anuário de 2026 (revisão); o de 2019 aparece como 266.310 na edição de 2020 e 246.664 na de 2021. Em nenhuma versão um ano supera 2025.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2026, Tabela 24 (íntegra publicada pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/07/anuario-seguranca-publica-23jul26.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Registros de Lesão corporal dolosa - violência doméstica - vítimas mulheres (1) Brasil e Unidades da Federação – 2024-2025 [...] Brasil 277.916 286.270 255,2 261,7 2,6",
+          "prova": "O número e a taxa de 2025, os mais altos do período conferido."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2025, Tabela 28",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2025/07/anuario-2025.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lesão corporal dolosa - violência doméstica - vítimas mulheres (1) Brasil e Unidades da Federação – 2023-2024 [...] Brasil 256.584 257.659 236,6 236,6 0,0",
+          "prova": "Valores de 2023 e 2024, abaixo de 2025."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2024, Tabela 25",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2024/07/anuario-2024.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lesão corporal dolosa - violência doméstica (1) Brasil e Unidades da Federação – 2022-2023 [...] Brasil 235.915 258.941 225,7 247,7 9,8",
+          "prova": "Valores de 2022 e 2023, abaixo de 2025."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2023",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2023/07/anuario-2023.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lesão corporal dolosa - violência doméstica (1) Brasil e Unidades da Federação – 2021-2022 [...] Brasil 237.596 245.713 230,1 236,7 2,9",
+          "prova": "Valores de 2021 e 2022, abaixo de 2025."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2022",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2022/06/anuario-2022.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lesão corporal dolosa - violência doméstica (1) Brasil e Unidades da Federação – 2020-2021 [...] Brasil 227.753 230.861 220,1 221,4 0,6",
+          "prova": "Valores de 2020 e 2021, abaixo de 2025."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2021",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2021/07/anuario-2021-completo-v4-bx.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lesão corporal dolosa - violência doméstica (1) Brasil e Unidades da Federação – 2019-2020 [...] Brasil 246.664 230.160 229,7 212,7 -7,4",
+          "prova": "Valores de 2019 (revisado) e 2020, abaixo de 2025."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2020, Tabela 38",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2020/10/anuario-14-2020-v1-interativo.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lesão corporal dolosa - violência doméstica (1) Brasil e Unidades da Federação – 2018-2019 [...] Brasil 248.439 266.310 241,0 253,6 5,2",
+          "prova": "Valores de 2018 e 2019, o maior anterior ao governo atual, abaixo de 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Brasil registra maior número de feminicídios em 10 anos (23/07/2026)",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/brasil-registra-maior-numero-de-feminicidios-em-10-anos/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A anuário também mostra que houve alta em outros indicadores de violência contra as mulheres: [...] agressões decorrentes de violência doméstica – 2,6%;",
+          "prova": "Reprodução do Anuário: alta das agressões em violência doméstica em 2025."
+        }
+      ]
+    },
+    {
+      "id": "A157",
+      "veredito": "VERDADEIRO",
+      "resumo": "Segundo o MapBiomas, a Amazônia teve 15,6 milhões de hectares queimados em 2024, a maior área da série",
+      "explicacao": "Há duas métricas públicas para queimadas: área queimada (MapBiomas Fogo, série desde 1985) e focos de calor (Inpe, desde 1998). Na área queimada, o relatório anual do MapBiomas registrou 15,6 milhões de hectares queimados na Amazônia em 2024, o maior volume do bioma em toda a série, e o descreveu como recorde de incêndios florestais; o dado é reproduzido por Diário do Comércio e Extra Classe, que entram como apoio (o relatório do MapBiomas não foi capturado; o site devolveu página de erro na URL tentada). Em focos de calor, o Inpe teve recordes mensais em 2024 (fevereiro e os cinco primeiros meses do ano, segundo a Amazônia Real), mas o recorde anual do bioma segue sendo 2004, com 218.637 focos (Revista Oeste, com dados do Inpe). Como a métrica de área, que mede o tamanho do fogo, dá recorde em 2024, a frase confere: VERDADEIRO, com a ressalva da métrica de focos. Não é IMPRECISO porque a fala não cita número nem métrica, e uma das duas medidas oficiais confirma o recorde.",
+      "numero_dito": null,
+      "numero_apurado": "15,6 milhões de hectares queimados na Amazônia em 2024 (maior da série do MapBiomas)",
+      "data_de_referencia": "2024 (MapBiomas Fogo, série desde 1985; Inpe, focos desde 1998)",
+      "ressalva": "Em focos de calor do Inpe, o recorde anual do bioma é de 2004, com 218.637 focos",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Área queimada (MapBiomas) dá recorde em 2024; focos de calor (Inpe) dão recorde anual em 2004. As duas medem coisas diferentes.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (dados do MapBiomas)",
+          "titulo": "Queimadas atingiram 30 milhões de hectares no País em 2024",
+          "url": "https://diariodocomercio.com.br/?p=499055",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com os estudos, a Amazônia foi o bioma mais afetado em 2024. Foram 15,6 milhões de hectares queimados, o maior volume afetado no bioma em toda a série histórica.",
+          "prova": "Reprodução do MapBiomas: área queimada recorde na Amazônia em 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Extra Classe (dados do MapBiomas, Relatório Anual do Fogo)",
+          "titulo": "Área queimada no Brasil em 2024 supera média histórica em 62%",
+          "url": "https://www.extraclasse.org.br/?p=116419",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao lado da Amazônia, que bateu recorde de incêndios florestais em 2024, e da Mata Atlântica, que teve a maior área afetada por fogo nas últimas quatro décadas,",
+          "prova": "Segunda reprodução do relatório do MapBiomas, com o recorde da Amazônia."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Revista Oeste (dados do Inpe)",
+          "titulo": "Amazônia já tem mais queimadas em 2024 do que em todo o ano passado (27/09/2024)",
+          "url": "https://revistaoeste.com/brasil/amazonia-ja-tem-mais-queimadas-em-2024-do-que-em-todo-o-ano-passado/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O recorde histórico ocorreu em 2004, com 218.637 incidentes. O monitoramento das queimadas pelo Inpe começou em junho de 1998.",
+          "prova": "Na métrica de focos do Inpe, o recorde anual da Amazônia não é de 2024."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Instituto Humanitas Unisinos (reportagem da Amazônia Real)",
+          "titulo": "Por que a Amazônia bate recordes de queimadas (12/06/2024)",
+          "url": "https://ihu.unisinos.br/640271-por-que-a-amazonia-bate-recordes-de-queimadas",
+          "consultada_em": "2026-10-17",
+          "trecho": "O resultado é um número de queimadas sem precedentes na Amazônia para os cinco primeiros meses deste ano.",
+          "prova": "Recordes parciais de focos em 2024, com dados do Inpe."
+        }
+      ]
+    },
+    {
+      "id": "A158",
+      "veredito": "IMPRECISO",
+      "resumo": "Em 2024 o fogo atingiu 30 milhões de hectares no país, a segunda maior área em 40 anos; o recorde foi na Amazônia",
+      "explicacao": "A frase afirma a maior queimada da história do Brasil no governo Lula. Na série nacional de área queimada do MapBiomas (1985 a 2024), 2024 teve 30 milhões de hectares queimados, 62% acima da média, mas foi a segunda maior extensão em 40 anos, não a maior (Diário do Comércio e Extra Classe, que reproduzem o relatório do MapBiomas e entram como apoio; o relatório em si não foi capturado). O recorde de 2024 existe em recortes: a Amazônia teve a maior área queimada do bioma na série, e a Mata Atlântica a maior em quatro décadas. Atribuir ao país inteiro o recorde que vale para biomas é recorte errado, e a §2.2 manda IMPRECISO: não é VERDADEIRO porque no total nacional 2024 ficou em segundo; não é FALSO porque 2024 foi de fato um dos maiores anos de fogo e bateu recorde nos dois biomas. A frase não depende do mês citado antes dela.",
+      "numero_dito": null,
+      "numero_apurado": "30 milhões de hectares queimados no Brasil em 2024, segunda maior área em 40 anos",
+      "data_de_referencia": "2024 (MapBiomas Fogo, série de 1985 a 2024)",
+      "ressalva": "A área de 2024 ficou 62% acima da média histórica",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (dados do MapBiomas)",
+          "titulo": "Queimadas atingiram 30 milhões de hectares no País em 2024",
+          "url": "https://diariodocomercio.com.br/?p=499055",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ano de 2024 registrou 30 milhões de hectares do território nacional atingidos por queimadas. Essa foi a segunda maior extensão que o fogo alcançou nos últimos 40 anos, ficando 62% acima da média para o período entre 1985 e 2024, como aponta o Mapbiomas.",
+          "prova": "No total nacional, 2024 foi a segunda maior área queimada da série, não a maior."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Extra Classe (dados do MapBiomas, Relatório Anual do Fogo)",
+          "titulo": "Área queimada no Brasil em 2024 supera média histórica em 62%",
+          "url": "https://www.extraclasse.org.br/?p=116419",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao lado da Amazônia, que bateu recorde de incêndios florestais em 2024, e da Mata Atlântica, que teve a maior área afetada por fogo nas últimas quatro décadas, [...] Os dados também ressaltam a extensão da área queimada em 2024, quando 30 milhões de hectares foram afetados – uma área 62% acima da média histórica de 18,5 milhões de hectares por ano.",
+          "prova": "Os recordes de 2024 valem para biomas; o total nacional fica acima da média, sem ser recorde."
+        }
+      ]
+    },
+    {
+      "id": "A159",
+      "veredito": "IMPRECISO",
+      "resumo": "Mortes violentas tiveram em 2025 a menor taxa desde 2012; estelionatos e feminicídios cresceram",
+      "explicacao": "'Criminalidade' não tem um índice único; o retrato nacional é o Anuário Brasileiro de Segurança Pública 2026 (FBSP). No indicador principal, as mortes violentas intencionais, 2025 teve 40.775 casos e taxa de 19,1 por 100 mil, queda de 8,2% e a menor taxa desde 2012, início da série; roubos caíram e o total de ocorrências patrimoniais segue em queda, segundo o Anuário. Ao mesmo tempo, alguns crimes bateram recorde ou cresceram muito no governo atual: estelionatos (alta de mais de 400% desde 2018), feminicídios (recorde em 2025) e mortes por intervenção policial. A frase generaliza para 'criminalidade' um recorde que só vale para alguns tipos, enquanto os indicadores tradicionais de violência caem: pela §2.2, recorte que inverte a tendência do dado completo é IMPRECISO. Não é FALSO porque há recordes reais em crimes específicos; não é VERDADEIRO porque o crime violento, a medida usual de criminalidade, está no ponto mais baixo da série. A TNH1 reproduz o Anuário e entra como apoio.",
+      "numero_dito": null,
+      "numero_apurado": "MVI: 40.775 casos e taxa de 19,1 por 100 mil em 2025, menor desde 2012",
+      "data_de_referencia": "2025 (Anuário Brasileiro de Segurança Pública 2026)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2026 (íntegra publicada pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/07/anuario-seguranca-publica-23jul26.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com isso, o Brasil registrou 40.775 casos de MVI em 2025, o que equivale a uma taxa de 19,1 mortes por 100 mil habitantes, queda de 8,2% em relação ao ano de 2024 [...] o Brasil teve 19,1 casos por 100 mil habitantes, apresentando a menor taxa desde 2012. [...] Os estelionatos consolidam-se como o principal crime patrimonial do país. [...] Embora o número total de ocorrências continue em queda, [...] Enquanto os indicadores tradicionais de violência letal continuam em trajetória de redução, novas formas de criminalidade",
+          "prova": "Violência letal no menor nível da série e crimes patrimoniais em queda, com estelionato em alta."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (CNN Brasil)",
+          "titulo": "Brasil bate recorde de feminicídios pelo quarto ano seguido",
+          "url": "https://www.tnh1.com.br/noticia/nid/brasil-bate-recorde-de-feminicidios-pelo-quarto-ano-seguido/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 2025, o Brasil registrou 40.775 Mortes Violentas Intencionais, queda de 8,2% em relação ao ano anterior e a menor taxa da série histórica: 19,1 mortes por 100 mil habitantes. [...] Ainda assim, os feminicídios e as mortes decorrentes de intervenção policial foram as únicas modalidades de mortes violentas que cresceram no período.",
+          "prova": "Reprodução do Anuário: queda geral e as exceções que bateram recorde."
+        }
+      ]
+    },
+    {
+      "id": "A160",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pesquisa da CNC: 82% das famílias tinham dívidas em julho de 2026, recorde da série histórica",
+      "explicacao": "O indicador de referência para 'pessoas endividadas' é a Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), da CNC. Em julho de 2026, 82,0% das famílias tinham dívidas a vencer, o sexto recorde consecutivo da série, segundo a Fecomércio-SC (que integra o sistema da CNC e publica a Peic) e reportagens da Gazeta do Povo e do Metrópoles que reproduzem a divulgação de 6/8. Em janeiro de 2023, mês da posse, a Peic marcava 78,0%; o recorde anterior, de 79,5%, foi alcançado em outubro de 2025 e repetido em janeiro de 2026 (Monitor Mercantil). O pico da série cai no governo atual, por isso VERDADEIRO. A ressalva é a do caso 2026-10-15-sabatina-lula-globo-2turno (A130, VERDADEIRO, mesma pesquisa e mesma fonte de janeiro de 2023): a Peic mede famílias com qualquer dívida a vencer, inclusive no cartão, e não pessoas nem dívida em atraso; a inadimplência (contas em atraso) caiu para 29,8% em julho.",
+      "numero_dito": null,
+      "numero_apurado": "82,0% das famílias endividadas em julho de 2026 (recorde da Peic)",
+      "data_de_referencia": "julho de 2026 (Peic divulgada em 06/08/2026)",
+      "ressalva": "A Peic mede famílias com dívida a vencer, inclusive no cartão; as com contas em atraso eram 29,8%",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fecomércio SC (Núcleo de Inteligência Estratégica, Peic)",
+          "titulo": "Pesquisa de Endividamento e Inadimplência do Consumidor, julho de 2026",
+          "url": "https://www.fecomercio-sc.com.br/wp-content/uploads/2026/08/202607_PEIC.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "mas ainda 5,1 pontos percentuais abaixo da média nacional, de 82,0%, que atingiu o sexto recorde consecutivo da série histórica. Já o percentual de famílias inadimplentes recuou para 23,6%, ante 25,4% em junho (-1,8 p.p.), patamar bem inferior aos 29,8% observados no país como um todo.",
+          "prova": "O resultado nacional da Peic de julho de 2026 e o recorde da série."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Endividamento das famílias bate recorde em julho mesmo com Desenrola 2.0",
+          "url": "https://www.gazetadopovo.com.br/economia/endividamento-familias-bate-recorde-julho-mesmo-com-desenrola-2-0/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A proporção de famílias brasileiras com dívidas a vencer subiu para 82% em julho de 2026 e atingiu o maior patamar da série histórica da Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), divulgada pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) nesta quinta-feira (6).",
+          "prova": "Reprodução da divulgação da CNC: recorde em julho de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Monitor Mercantil",
+          "titulo": "Endividamento em janeiro repete recorde, mas inadimplência cai",
+          "url": "https://monitormercantil.com.br/endividamento-repete-recorde-historico-em-janeiro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O percentual de famílias brasileiras com dívidas voltou a atingir 79,5% em janeiro de 2026, repetindo o maior patamar da série histórica da Pesquisa de Endividamento e Inadimplência do Consumidor (Peic) , alcançado pela primeira vez em outubro de 2025.",
+          "prova": "Os recordes anteriores também caem no governo atual."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC)",
+          "titulo": "Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), janeiro de 2023",
+          "url": "https://portal-bucket.azureedge.net/wp-content/2023/10/f235030f6efcefc2fb8fbe6dde45b12e.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "ENDIVIDAMENTO COMEÇA 2023 ESTÁVEL [...] jan/23 78,0% 29,9% 11,6%",
+          "prova": "Nível no mês da posse, abaixo do recorde de 2026."
+        }
+      ]
+    }
+  ]
+}

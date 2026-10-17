@@ -1,0 +1,418 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A191",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Flávio anunciou apoio a Canella ao Senado em fevereiro; vídeos de apoio gravados por ele não foram achados",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a frase diz que Flávio gravou vídeos de apoio a Márcio Canella na fase anterior da campanha. Está documentado o apoio político: em fevereiro de 2026 Flávio anunciou apoio à pré-candidatura de Canella ao Senado (BP Money), Canella estava na chapa de Flávio no Rio (SBT News, 29/07) e era apontado como nome apoiado pelo senador para o Senado (Jovem Pan). Uma busca específica por vídeo de Flávio pedindo voto ou declarando apoio a Canella não achou registro em imprensa; achou só o vídeo do próprio Canella anunciando a desistência do Senado em 3/08. Falta procurar reportagem que descreva vídeos gravados por Flávio (por exemplo, no anúncio de fevereiro) ou a propaganda registrada. Sem fonte para os vídeos, o veredito provisório é INSUSTENTAVEL; o apoio em si não está em dúvida. O mesmo vínculo foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A068 e A069, VERDADEIRO).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "pré-campanha de 2026 (anúncio de apoio em fevereiro; desistência do Senado em agosto)",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "PF aponta Márcio Canella, aliado de Flávio Bolsonaro, como \"patrono político\" de grupo ligado ao CV (15/10/2026)",
+          "url": "https://bpmoney.com.br/?p=427331",
+          "consultada_em": "2026-10-17",
+          "trecho": "Canella foi apoiado por Flávio Bolsonaro para disputar o Senado A relação política entre Canella e Flávio Bolsonaro ganhou destaque em fevereiro, quando o senador anunciou o apoio à pré-candidatura do ex-prefeito ao Senado pelo Rio de Janeiro.",
+          "prova": "Registra o apoio público de Flávio à pré-candidatura de Canella ao Senado, em fevereiro de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Flávio veta suplência de Canella e lança mãe a deputada (29/07/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-veta-suplencia-de-canella-e-lanca-mae-a-deputada",
+          "consultada_em": "2026-10-16",
+          "trecho": "Flávio veta suplência de Canella e lança mãe a deputada Senador toma distância de ex-prefeito de Belford Roxo alvo da PF, mas o mantém na chapa no Rio",
+          "prova": "Apuração independente: Canella estava na chapa de Flávio no Rio na fase de pré-campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Quem é Márcio Canella, deputado eleito e ex-prefeito preso pela PF no Rio (15/10/2026)",
+          "url": "https://jovempan.com.br/politica/quem-e-marcio-canella-deputado-eleito-e-ex-prefeito-preso-pela-pf-no-rio/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Presidente do União Brasil no Rio de Janeiro, Canella mantém uma relação política com Flávio Bolsonaro , candidato do PL à Presidência da República. Antes de decidir disputar a Alerj, o ex-prefeito era apontado como um dos nomes apoiados pelo senador para a eleição ao Senado pelo estado.",
+          "prova": "Terceira leitura do apoio de Flávio a Canella antes da troca de candidatura."
+        }
+      ]
+    },
+    {
+      "id": "A192",
+      "veredito": "VERDADEIRO",
+      "resumo": "A PF suspeita que grupo ligado a Canella lavou dinheiro com postos e fez pontes com milícias e tráfico",
+      "explicacao": "A frase descreve o conteúdo das suspeitas, não afirma culpa. A representação da PF que embasou a prisão de Canella, em 15/10/2026, na oitava fase da Operação Unha e Carne, descreve-o como 'patrono político' de organização ligada ao Comando Vermelho que lava dinheiro por uma rede de postos de combustíveis e que teria 'pontes operacionais com milícias e com o tráfico de drogas'; aponta ainda proximidade com o líder de um grupo miliciano da Baixada (SBT News). O Times Brasil (CNBC), em apuração própria, registra os mesmos três elementos. As duas reportagens reproduzem o mesmo documento da PF, que não foi capturado; isso vai declarado (regra 2 da §3.1). As suspeitas existem nos termos ditos, por isso VERDADEIRO sobre o enunciado; o mérito está em apuração, sem denúncia nem julgamento, e nada aqui diz que as suspeitas procedem (etica-e-risco §5). Mesma régua do caso 2026-10-15-sabatina-lula-globo-2turno, A068 (VERDADEIRO para a prisão e o objeto da operação).",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "representação da PF na 8ª fase da Operação Unha e Carne, 15/10/2026",
+      "ressalva": "São suspeitas da PF em investigação, sem denúncia nem julgamento; a defesa não respondeu",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Canella é 'patrono político' de grupo ligado ao CV, diz PF (15/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/canella-e-patrono-politico-de-grupo-ligado-ao-cv-diz-pf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Preso nesta quinta-feira (15) na oitava fase da operação Unha e Carne, o deputado estadual reeleito Márcio Canella (União Brasil-RJ) é descrito pela Polícia Federal como “patrono político” e “articulador de alto escalão” de uma organização criminosa ligada à facção Comando Vermelho . A investigação da PF afirma que o grupo lava dinheiro por meio de uma rede de postos de combustíveis no Rio de Janeiro. [...] A corporação afirma que o grupo estabeleceu “pontes operacionais com milícias e com o tráfico de drogas para fins de perenidade territorial e blindagem política”. [...] A investigação também aponta proximidade entre Canella e Juracy Alves Prudêncio, conhecido como Jura, identificado pela PF como principal liderança do grupo miliciano Somos Comunidade, que atua na Baixada Fluminense.",
+          "prova": "Reproduz a representação da PF que embasou a prisão: lavagem por postos de combustíveis e pontes com milícias e tráfico."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil (CNBC)",
+          "titulo": "PF atribui a Márcio Canella articulação política de grupo ligado ao Comando Vermelho (15/10/2026)",
+          "url": "https://timesbrasil.com.br/brasil/pf-atribui-a-canella-articulacao-politica-de-grupo-ligado-ao-cv/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A investigação descreve uma estrutura que teria usado postos de combustíveis para lavar dinheiro e manter relações com milícias e grupos de traficantes . Na avaliação dos investigadores, essas conexões serviriam para assegurar influência sobre territórios e obter proteção política.",
+          "prova": "Segunda apuração das suspeitas da PF, com os mesmos três elementos da frase."
+        }
+      ]
+    },
+    {
+      "id": "A193",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2025, Jair Bolsonaro fechou apoio a Bacellar para governador do Rio, com Flávio indicado ao Senado na chapa",
+      "explicacao": "A Jovem Pan registrou, em 27/05/2025, o acordo pelo qual Jair Bolsonaro apoiaria Rodrigo Bacellar ao governo do Rio em 2026, com o PL indicando os dois nomes ao Senado na chapa, Flávio Bolsonaro e Cláudio Castro. O Jornal do Brasil diz que Bacellar 'seria o candidato de Jair Bolsonaro ao governo do RJ', e a RTP (Lusa) que ele era o nome de Castro para a sucessão. Depois da prisão de Bacellar, Flávio passou a buscar nomes do PL para o governo (Diário do Rio), o que confirma o 'originalmente'. A essência confere: Bacellar foi o candidato do grupo de Flávio, que estaria na mesma chapa. O acordo registrado é de Jair Bolsonaro, não de Flávio pessoalmente, e isso vai na ressalva; não é IMPRECISO porque Flávio integrava o acordo como candidato ao Senado na chapa de Bacellar. A afirmação de Renan Santos de que Flávio 'apoiava' Bacellar foi vista, mas não entra como fonte por ser fala de adversário.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "acordo de maio de 2025; prisão de Bacellar em dezembro de 2025",
+      "ressalva": "O acordo foi anunciado com Jair Bolsonaro; Flávio seria o candidato ao Senado na mesma chapa",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Jair Bolsonaro apoiará a candidatura de Bacellar ao governo do Rio de Janeiro em 2026 (27/05/2025)",
+          "url": "https://jovempan.com.br/?p=22420",
+          "consultada_em": "2026-10-17",
+          "trecho": "Jair Bolsonaro apoiará a candidatura de Bacellar ao governo do Rio de Janeiro em 2026 Em troca, ex-presidente indicará o candidato a vice; além disso, o PL terá direito às duas vagas ao Senado na chapa Luisa Cardoso 27/05/2025 às 09h10 [...] Os nomes escolhidos para o Senado são o senador Flávio Bolsonaro, que tem boa avaliação nas pesquisas, e o atual governador do estado, Cláudio Castro.",
+          "prova": "Registra o acordo de 2025: Bacellar candidato ao governo, com Flávio indicado ao Senado na mesma chapa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Brasil (com Revista Fórum)",
+          "titulo": "Bolsonarista Bacellar atua como 'liderança do núcleo político' do Comando Vermelho, diz Polícia Federal (28/02/2026)",
+          "url": "https://www.jb.com.br/rio/policia/2026/02/1058815-bolsonarista-bacellar-atua-como-lideranca-do-nucleo-politico-do-comando-vermelho-diz-policia-federal.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ex-presidente da Alerj, que seria o candidato de Jair Bolsonaro ao governo do RJ, foi indiciado ao lado de TH Joias por ligação com o CV [...] Relatório final da PF enviado ao Supremo Tribunal Federal (STF) afirma que Bacellar exercia “a liderança do núcleo político” da facção criminosa.",
+          "prova": "Registra Bacellar como candidato do bolsonarismo ao governo e a descrição da PF como líder do núcleo político do CV."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "RTP (agência Lusa)",
+          "titulo": "Polícia indicia presidente da Assembleia do Rio de Janeiro por ligação ao Comando Vermelho",
+          "url": "https://www.rtp.pt/noticias/mundo/policia-indicia-presidente-da-assembleia-do-rio-de-janeiro-por-ligacao-ao-comando-vermelho_n1722065",
+          "consultada_em": "2026-10-17",
+          "trecho": "Bacellar, cuja defesa nega as acusações, é aliado do ex-presidente Jair Bolsonaro e do atual governador do Rio de Janeiro, Cláudio Castro, que queria que o deputado lhe sucedesse no cargo.",
+          "prova": "Imprensa estrangeira, independente das brasileiras: Bacellar era o nome do grupo para a sucessão no governo, e a defesa nega as acusações."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Rio",
+          "titulo": "Flávio Bolsonaro quer testar nomes do PL para o governo do Rio antes da saída de Cláudio Castro",
+          "url": "https://diariodorio.com/flavio-bolsonaro-quer-testar-nomes-do-pl-para-o-governo-do-rio-antes-da-saida-de-claudio-castro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ele vai levar ao PL sugestões de quatro nomes para serem testados, já em janeiro, em pesquisas de intenção de voto para o governo do estado. [...] depois da prisão e do afastamento de Rodrigo Bacellar , do União Brasil.",
+          "prova": "Mostra que, depois da prisão de Bacellar, Flávio passou a buscar outro nome do PL; a candidatura de Bacellar ficou no plano original."
+        }
+      ]
+    },
+    {
+      "id": "A194",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Bacellar foi preso em março por ordem de Moraes; a PF o descreve como líder do núcleo político do CV",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o documentado: a PF, em relatório final enviado ao STF em fevereiro de 2026, afirma que Bacellar exercia 'a liderança do núcleo político' do Comando Vermelho (Jornal do Brasil); em 27/03/2026 ele foi preso de novo por ordem de Alexandre de Moraes, na Operação Unha e Carne III, que investiga o vazamento de uma ação contra o CV, e a prisão foi mantida em audiência de custódia (O Antagonista); a RTP registra a prisão anterior, de dezembro de 2025, e que a defesa nega as acusações. Falta confirmar que ele seguia preso em 16/10/2026: nenhuma fonte capturada é posterior a março. Além disso, o fundamento formal da prisão é o vazamento e a obstrução; 'comandar o braço político' é a caracterização do relatório da PF. É apuração sem julgamento (etica-e-risco §5), e o veredito não pode afirmar a suspeita como fato.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "relatório da PF de fevereiro de 2026; prisão de 27/03/2026",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal do Brasil (com Revista Fórum)",
+          "titulo": "Bolsonarista Bacellar atua como 'liderança do núcleo político' do Comando Vermelho, diz Polícia Federal (28/02/2026)",
+          "url": "https://www.jb.com.br/rio/policia/2026/02/1058815-bolsonarista-bacellar-atua-como-lideranca-do-nucleo-politico-do-comando-vermelho-diz-policia-federal.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ex-presidente da Alerj, que seria o candidato de Jair Bolsonaro ao governo do RJ, foi indiciado ao lado de TH Joias por ligação com o CV [...] Relatório final da PF enviado ao Supremo Tribunal Federal (STF) afirma que Bacellar exercia “a liderança do núcleo político” da facção criminosa.",
+          "prova": "Registra Bacellar como candidato do bolsonarismo ao governo e a descrição da PF como líder do núcleo político do CV."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Antagonista",
+          "titulo": "Rodrigo Bacellar continua preso (28/03/2026)",
+          "url": "https://oantagonista.com.br/brasil/rodrigo-bacellar-continua-preso/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Justiça manteve a prisão de Rodrigo Bacellar (foto), ex-presidente da Assembleia Legislativa do Rio de Janeiro (Alerj), após audiência de custódia realizada neste sábado, 28. Ele foi detido na sexta-feira, em Teresópolis, por ordem do ministro Alexandre de Moraes , do Supremo Tribunal Federal, e encaminhado ao Presídio Pedrolino Werling de Oliveira, no Complexo de Gericinó, em Bangu. [...] A detenção foi realizada pela Polícia Federal no âmbito da Operação Unha e Carne III, que investiga o vazamento de informações de uma ação contra o Comando Vermelho .",
+          "prova": "Registra a prisão preventiva de março de 2026 e o objeto formal da investigação (vazamento de ação contra o CV)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "RTP (agência Lusa)",
+          "titulo": "Polícia indicia presidente da Assembleia do Rio de Janeiro por ligação ao Comando Vermelho",
+          "url": "https://www.rtp.pt/noticias/mundo/policia-indicia-presidente-da-assembleia-do-rio-de-janeiro-por-ligacao-ao-comando-vermelho_n1722065",
+          "consultada_em": "2026-10-17",
+          "trecho": "Bacellar, cuja defesa nega as acusações, é aliado do ex-presidente Jair Bolsonaro e do atual governador do Rio de Janeiro, Cláudio Castro, que queria que o deputado lhe sucedesse no cargo.",
+          "prova": "Imprensa estrangeira, independente das brasileiras: Bacellar era o nome do grupo para a sucessão no governo, e a defesa nega as acusações."
+        }
+      ]
+    },
+    {
+      "id": "A195",
+      "veredito": "VERDADEIRO",
+      "resumo": "O TSE declarou Cláudio Castro inelegível até 2030 por abuso de poder em 2022 e manteve a decisão em junho",
+      "explicacao": "Em 24/03/2026, por 5 votos a 2, o TSE condenou Cláudio Castro por abuso de poder político e econômico na campanha de 2022 e o declarou inelegível por oito anos, até 2030 (Agência Brasil, reproduzida pelo Diario de Pernambuco, e CNN Brasil). Ele havia renunciado ao governo na véspera, o que faz dele ex-governador na data da fala. Em 2/06/2026, o TSE rejeitou por unanimidade o recurso de Castro e manteve a inelegibilidade (Congresso em Foco). A frase confere; a página de notícias do TSE sobre os embargos recusou o robô e não entrou como fonte. Não foi achado registro de recurso ao STF pendente; se houver, não suspende a inelegibilidade já declarada pelo colegiado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "decisão do TSE de 24/03/2026; embargos rejeitados em 02/06/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (Agência Brasil)",
+          "titulo": "TSE condena Cláudio Castro e ex-governador fica inelegível até 2030 (24/03/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/03/11710690-tse-condena-claudio-castro-e-ex-governador-fica-inelegivel-ate-2030.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com a decisão, Castro ficará inelegível pelo prazo de oito anos, a contar do pleito de 2022. Dessa forma, o ex-governador deve ser impedido de disputar eleições até 2030. Ontem (23), ele renunciou ao mandato e anunciou que é pré-candidato ao Senado nas eleições de outubro.",
+          "prova": "Registra a declaração de inelegibilidade pelo TSE e a renúncia ao governo na véspera."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "CNN Brasil",
+          "titulo": "TSE condena Cláudio Castro à inelegibilidade (24/03/2026)",
+          "url": "https://www.cnnbrasil.com.br/politica/tse-condena-claudio-castro-a-inegibilidade/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O TSE (Tribunal Superior Eleitoral) condenou nesta terça-feira (24) o ex-governador do Rio de Janeiro Cláudio Castro (PL) à inelegibilidade por oito anos. A decisão do tribunal o deixa inelegível até 2030 .",
+          "prova": "Segunda apuração independente da mesma decisão."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "TSE mantém Cláudio Castro inelegível e nega cassação de diploma (02/06/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/119389/tse-mantem-claudio-castro-inelegivel-e-nega-cassacao-de-diploma",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Tribunal Superior Eleitoral (TSE) rejeitou nesta terça-feira (2), em decisão unânime, o recurso apresentado pelo ex-governador do Rio de Janeiro Cláudio Castro (PL) e manteve sua condenação por abuso de poder político e econômico nas eleições de 2022. Com isso, o ex-chefe do Executivo fluminense seguirá inelegível até 2030.",
+          "prova": "Mostra que o recurso de Castro no próprio TSE foi rejeitado antes da data da fala."
+        }
+      ]
+    },
+    {
+      "id": "A196",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Cláudio Castro foi alvo de busca da PF no caso Master, por aportes do Rioprevidência; a apuração não concluiu",
+      "explicacao": "O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A076, INSUSTENTAVEL), com as mesmas fontes e a mesma régua. As fontes registram que Castro foi alvo de busca e apreensão na oitava fase da Operação Compliance Zero, autorizada por André Mendonça, que apura aportes do Rioprevidência em fundos ligados ao Banco Master, e que a PF lhe atribui 'vínculo próximo' e 'alinhamento político' com Vorcaro (Money Times, Gazeta do Povo, O Liberal). Ser alvo de busca é fato documentado; 'enrolado' qualifica envolvimento que depende de apuração sem denúncia nem julgamento, e pela regra de ética §5 o veredito é INSUSTENTAVEL, não VERDADEIRO nem FALSO. A defesa não se manifestou.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "operação da PF de maio de 2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Money Times",
+          "titulo": "PF: Castro tinha 'vínculo próximo' e 'alinhamento político' com Vorcaro para investir no Banco Master",
+          "url": "https://www.moneytimes.com.br/pf-castro-tinha-vinculo-proximo-e-alinhamento-politico-com-vorcaro-para-investir-no-master-gaep/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Na manhã desta terça-feira (26) Castro foi alvo de mandado de busca e apreensão na oitava fase da Operação Compliance Zero sob suspeita de manter “vínculo próximo” e “alinhamento político” com o banqueiro Daniel Vorcaro , termos usados pela PF no pedido feito ao Supremo Tribunal Federal (STF) para autorizar a operação.",
+          "prova": "Registra que Castro foi alvo de busca no caso Master, nos termos da PF."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Cláudio Castro é alvo novamente da PF por aplicar R$ 3 bi da Riopreviência no Master",
+          "url": "https://www.gazetadopovo.com.br/republica/castro-alvo-pf-aplicar-3-bi-riopreviencia-master/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Os mandados contra Castro fazem parte da 8ª fase da Operação Compliance Zero e foram autorizados pelo ministro André Mendonça, do Supremo Tribunal Federal (STF), relator dos processos referentes ao Master na Corte.",
+          "prova": "Segunda apuração: a busca foi autorizada no STF dentro do caso Master."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Cláudio Castro é alvo da PF em operação sobre aportes do Rioprevidência no Master",
+          "url": "https://www.oliberal.com/politica/claudio-castro-e-alvo-da-pf-em-operacao-sobre-aportes-do-rioprevidencia-no-master-1.1126017",
+          "consultada_em": "2026-10-16",
+          "trecho": "A Polícia Federal (PF) deflagrou nesta terça-feira (26) uma operação contra o ex-governador do Rio de Janeiro, Cláudio Castro (PL). A ação investiga investimentos de recursos públicos estaduais, oriundos do Rioprevidência, em fundos vinculados ao Banco Master . A defesa do ex-governador foi procurada, mas não se manifestou até o momento.",
+          "prova": "Terceira leitura, com o registro de que a defesa não se manifestou."
+        }
+      ]
+    },
+    {
+      "id": "A197",
+      "veredito": "VERDADEIRO",
+      "resumo": "Saúde lidera no Datafolha de março, com 21%, e aparece em terceiro na Quaest de setembro, com 14%",
+      "explicacao": "'No alto da lista' lê-se como entre os primeiros. No Datafolha (pergunta espontânea restrita a áreas de responsabilidade federal), a saúde é o principal problema citado em março de 2026 (21%) e em dezembro de 2025 (20%). Na Quaest de 30/08 a 1º/09/2026, a saúde aparece empatada em terceiro com a corrupção (14%), atrás da violência (31%) e da economia (16%), e tinha os mesmos 14% na rodada anterior; a Quaest/Pax de setembro a lista entre as principais preocupações. Em todas as rodadas achadas a saúde está entre as três primeiras, por isso VERDADEIRO; a ressalva diz que na Quaest ela não lidera. As mesmas pesquisas foram usadas no caso 2026-10-15-sabatina-lula-globo-2turno (A043, VERDADEIRO, para a segurança no topo). Os números da Quaest vêm de reportagem (N4); o do Datafolha, do site do instituto (N2).",
+      "numero_dito": null,
+      "numero_apurado": "21% (Datafolha, primeiro lugar, março de 2026); 14% (Quaest, terceiro lugar empatado, setembro de 2026)",
+      "data_de_referencia": "Datafolha de dezembro de 2025 e março de 2026; rodada anterior da Quaest e a de 30/08 a 01/09/2026",
+      "ressalva": "Na Quaest a saúde fica atrás da violência e da economia; lidera só no Datafolha",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Datafolha põe a saúde em 1º lugar; a Quaest põe a violência em 1º e a saúde empatada em 3º. As perguntas não são iguais (o Datafolha restringe a áreas de responsabilidade federal).",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Datafolha",
+          "titulo": "Saúde (21%) e segurança pública (19%) são áreas de responsabilidade federal mais problemáticas (12/03/2026)",
+          "url": "https://datafolha.folha.uol.com.br/opiniao-e-sociedade/2026/03/saude-21-e-seguranca-publica-19-sao-areas-de-responsabilidade-federal-mais-problematicas.shtml",
+          "consultada_em": "2026-10-16",
+          "trecho": "Considerando as áreas que são de responsabilidade do Governo Federal, 21% citam espontaneamente a saúde como o principal problema do país atualmente, índice similar ao registrado em dezembro de 2025 (20%). No mesmo patamar, 19% citam a segurança pública/ violência (ante 16% no levantamento anterior)",
+          "prova": "Divulgação do instituto: a saúde em primeiro lugar em duas rodadas seguidas, dezembro de 2025 e março de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (pesquisa Quaest)",
+          "titulo": "Quaest: violência é a maior preocupação para 31% dos eleitores",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722889-quaest-violencia-e-a-maior-preocupacao-para-31-dos-eleitores.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "A economia aparece em segundo lugar, mencionada por 16% dos eleitores. Saúde e corrupção são apontadas por 14% cada, seguidas por problemas sociais, com 13%, e educação, com 7%. Na rodada anterior, a violência era considerada o principal problema do país por 33% dos entrevistados. A economia tinha 15% a saúde e a corrupção registravam 14% cada",
+          "prova": "Outra série, de outro instituto: a saúde atrás da violência e da economia, empatada em terceiro, em duas rodadas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BNews (pesquisa Quaest/Pax)",
+          "titulo": "Violência supera corrupção e economia entre principais problemas do Brasil, aponta Quaest",
+          "url": "https://www.bnews.com.br/noticias/policia/violencia-supera-corrupcao-e-economia-entre-principais-problemas-do-brasil-aponta-quaest.html",
+          "consultada_em": "2026-10-16",
+          "trecho": "O tema aparece à frente de corrupção , economia e saúde entre as principais preocupações citadas pelos entrevistados.",
+          "prova": "Terceira medição, de setembro: a saúde está entre as principais preocupações citadas."
+        }
+      ]
+    },
+    {
+      "id": "A198",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio anunciou Claudio Lottenberg como seu ministro da Saúde em 28 de agosto, no Jornal Nacional",
+      "explicacao": "Três reportagens registram que Flávio Bolsonaro anunciou o médico Claudio Lottenberg, presidente do conselho do Hospital Albert Einstein, como seu ministro da Saúde em caso de vitória, na entrevista ao Jornal Nacional de 28/08/2026 (NSC Total, Futuro da Saúde, BP Money, este com a fala literal 'vai ser o meu ministro da Saúde'). A transcrição não resolveu o cargo na fala da entrevistadora ('medir em história da saúde'); pelas fontes, o cargo é ministro da Saúde, e a grafia correta é Lottenberg. A essência e o cargo conferem.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "anúncio de 28/08/2026",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "NSC Total",
+          "titulo": "Flávio anuncia médico do Albert Einstein para Ministério da Saúde se eleito; saiba quem é (28/08/2026)",
+          "url": "https://www.nsctotal.com.br/?p=8023803",
+          "consultada_em": "2026-10-17",
+          "trecho": "Anúnciou foi feito por Flávio Bolsonaro durante entrevista ao Jornal Nacional, da rede Globo, na noite desta sexta-feira (28) 28/08/2026 22:41",
+          "prova": "Registra a data e o meio do anúncio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Claudio Lottenberg se licencia do Einstein após ser indicado ministro da Saúde por Flávio Bolsonaro",
+          "url": "https://futurodasaude.com.br/?p=50230",
+          "consultada_em": "2026-10-17",
+          "trecho": "O afastamento ocorre após Flávio Bolsonaro (PL) anunciar que Lottenberg será o ministro da Saúde em um eventual mandato. [...] Na sexta-feira, durante a entrevista ao Jornal Nacional, o candidato já havia antecipado o nome de Lottenberg, acrescentando que o convite tinha sido aceito.",
+          "prova": "Apuração independente do anúncio e do cargo: ministro da Saúde."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Flávio Bolsonaro anuncia Claudio Lottenberg para Ministério da Saúde, se vencer eleição (29/08/2026)",
+          "url": "https://bpmoney.com.br/?p=419459",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Conversei com uma pessoa muito importante, uma pessoa que trabalhou por muito tempo na iniciativa privada, alguém que está pronto para dar sua contribuição na parte da saúde, Claudio Lottenberg, que vai ser o meu ministro da Saúde”, afirmou o candidato. Lottenberg é o primeiro nome anunciado por Flávio Bolsonaro para integrar um eventual governo .",
+          "prova": "Traz a fala do anúncio e diz que Lottenberg foi o primeiro nome anunciado para o eventual governo."
+        }
+      ]
+    },
+    {
+      "id": "A199",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Uma reportagem diz que Lottenberg foi o primeiro nome anunciado por Flávio; falta segunda fonte",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o BP Money, em 29/08/2026, afirma que Lottenberg 'é o primeiro nome anunciado por Flávio Bolsonaro para integrar um eventual governo', e o Futuro da Saúde registra o anúncio na entrevista ao Jornal Nacional de 28/08. Falta uma segunda fonte independente que confirme a precedência, ou a lista com as datas dos anúncios posteriores (a frase da entrevistadora é de 16/out). Nenhuma fonte contradiz a afirmação; com uma só fonte para o ponto checável, o veredito provisório é INSUSTENTAVEL.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "anúncio de 28/08/2026",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Flávio Bolsonaro anuncia Claudio Lottenberg para Ministério da Saúde, se vencer eleição (29/08/2026)",
+          "url": "https://bpmoney.com.br/?p=419459",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Conversei com uma pessoa muito importante, uma pessoa que trabalhou por muito tempo na iniciativa privada, alguém que está pronto para dar sua contribuição na parte da saúde, Claudio Lottenberg, que vai ser o meu ministro da Saúde”, afirmou o candidato. Lottenberg é o primeiro nome anunciado por Flávio Bolsonaro para integrar um eventual governo .",
+          "prova": "Traz a fala do anúncio e diz que Lottenberg foi o primeiro nome anunciado para o eventual governo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Claudio Lottenberg se licencia do Einstein após ser indicado ministro da Saúde por Flávio Bolsonaro",
+          "url": "https://futurodasaude.com.br/?p=50230",
+          "consultada_em": "2026-10-17",
+          "trecho": "O afastamento ocorre após Flávio Bolsonaro (PL) anunciar que Lottenberg será o ministro da Saúde em um eventual mandato. [...] Na sexta-feira, durante a entrevista ao Jornal Nacional, o candidato já havia antecipado o nome de Lottenberg, acrescentando que o convite tinha sido aceito.",
+          "prova": "Apuração independente do anúncio e do cargo: ministro da Saúde."
+        }
+      ]
+    },
+    {
+      "id": "A200",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Lottenberg criticou a condução da pandemia pelo governo em 2021; crítica à compra de vacinas não foi achada",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: as fontes capturadas registram que Lottenberg criticou o governo Jair Bolsonaro na pandemia: em entrevista ao O Globo de março de 2021, criticou a falta de coordenação do governo federal e a ausência de lideranças como exemplo no uso de máscara (CartaCapital); o BP Money e o Investidor10 registram as críticas à condução da pandemia. Nenhuma delas menciona a demora na compra de vacinas, que é o ponto específico da frase. Uma busca por 'Lottenberg' com 'demora' e 'vacinas' não achou registro. Falta procurar entrevistas e artigos dele de 2020 e 2021 sobre vacinação (por exemplo, no O Globo, na Folha e no Estadão). A crítica geral está documentada; a específica, não, e por isso o veredito provisório é INSUSTENTAVEL, e não VERDADEIRO nem FALSO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "pandemia de covid-19, 2020 e 2021",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "CartaCapital",
+          "titulo": "Lottenberg, anunciado por Flávio para a Saúde, criticou o governo Bolsonaro na pandemia",
+          "url": "https://www.cartacapital.com.br/?p=636332",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em entrevista ao jornal O Globo publicada em março de 2021, quando o Brasil registrava mais de 2 mil mortes por Covid-19 em 24 horas, Lottenberg criticou a falta de coordenação do governo federal no combate à doença e a ausência de lideranças políticas como exemplo no cumprimento de medidas sanitárias.",
+          "prova": "Registra crítica de Lottenberg ao governo federal na pandemia, sobre coordenação e medidas sanitárias, sem menção a compra de vacinas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "BP Money",
+          "titulo": "Flávio Bolsonaro anuncia Claudio Lottenberg para Ministério da Saúde, se vencer eleição (29/08/2026)",
+          "url": "https://bpmoney.com.br/?p=419459",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lottenberg criticou governo de Jair Bolsonaro na pandemia Apesar da indicação feita pelo filho do ex-presidente, Lottenberg adotou posições críticas em relação à condução da pandemia de Covid-19 pelo governo de Jair Bolsonaro (PL).",
+          "prova": "Segunda apuração da crítica à condução da pandemia; não cita vacinas como objeto da crítica."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Investidor10",
+          "titulo": "Flávio Bolsonaro faz motociata no RJ e anuncia ministro da Saúde",
+          "url": "https://investidor10.com.br/noticias/flavio-bolsonaro-faz-motociata-no-rj-e-anuncia-ministro-da-saude-122341/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Questionado sobre críticas que Lottenberg já fez ao ex-presidente Jair Bolsonaro em relação à condução da pandemia de coronavírus, Flávio preferiu não entrar na polêmica.",
+          "prova": "Terceira leitura: as críticas existem e foram sobre a condução da pandemia em geral."
+        }
+      ]
+    }
+  ]
+}

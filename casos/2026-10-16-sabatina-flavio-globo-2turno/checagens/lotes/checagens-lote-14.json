@@ -344,17 +344,35 @@
     },
     {
       "id": "A138",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Os contatos de Eduardo com conservadores estrangeiros registrados nas fontes começam em 2017 e 2018",
-      "explicacao": "A frase diz que Eduardo construiu 'ao longo de mais de 10 anos' relações com líderes conservadores de outros países, o que exigiria contatos anteriores a outubro de 2016. As fontes encontradas datam o início dessa rede em 2017 e 2018: o Agora RN diz que a construção da rede com aliados de Trump começou com a viagem de 2018; o levantamento da Agência Pública lista como contato mais antigo o encontro com Donald Trump Jr. em janeiro de 2018 e apresentações a conservadores americanos negociadas em 2017; o IHU (reproduzindo o El País) registra os encontros com Ted Cruz, Marco Rubio e Steve Bannon em novembro de 2018. Nenhuma fonte mostra contato anterior a 2016. Não é IMPRECISO nem FALSO porque as fontes tratam sobretudo da rede americana e não excluem contatos mais antigos com conservadores de outros países; é INSUSTENTAVEL porque o prazo afirmado não está sustentado por fonte nenhuma. Foram feitas duas buscas para este ponto; uma busca em registros de missões oficiais da Câmara de 2015 e 2016 poderia mudar o veredito.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Eduardo esteve com o presidente do Parlamento de Israel em maio de 2016; os contatos com a direita dos EUA vêm de 2018",
+      "explicacao": "A frase diz que Eduardo construiu 'ao longo de mais de 10 anos' relações com líderes políticos conservadores de outros países, o que exige contato anterior a outubro de 2016. Esse registro existe: em maio de 2016, Eduardo foi a Israel com o pai e os irmãos numa visita parlamentar (Times of Israel), e a comitiva se reuniu com o presidente do Knesset, o Parlamento israelense, Yuli-Yoel Edelstein, segundo reportagem da Folha reproduzida pelo ABC do ABC, que cita o relato do próprio Eduardo sobre o encontro. O Times of Israel diz que foi nessa viagem que ele passou a admirar Israel. Depois vêm os contatos com a direita americana, documentados a partir de 2018: o encontro com Donald Trump Jr. em janeiro de 2018 (Agência Pública), a viagem de 2018 organizada por Márcio Coimbra (Agora RN) e as reuniões com Ted Cruz, Marco Rubio e Steve Bannon em novembro de 2018 (IHU, reproduzindo o El País). De maio de 2016 a outubro de 2026 passam pouco mais de 10 anos, o que confere com 'mais de 10 anos'. VERDADEIRO, com confiança média: o registro de 2016 é uma visita de comitiva, não uma relação acompanhada ano a ano, e 'vários líderes conservadores' se apoia sobretudo na rede americana posterior; isso vai na ressalva. 'Trabalho brilhante' e 'mérito' são juízo e não são checados. Na primeira versão o veredito era INSUSTENTAVEL, porque as fontes achadas começavam em 2017 e 2018; a viagem de 2016 entrou na revisão r5 (correcoes-r5.md).",
       "numero_dito": "mais de 10 anos",
-      "numero_apurado": "registros a partir de 2017 e 2018",
-      "data_de_referencia": "contatos documentados de 2017 e 2018 em diante",
-      "ressalva": null,
+      "numero_apurado": "primeiro contato registrado em maio de 2016",
+      "data_de_referencia": "visita a Israel em maio de 2016; contatos nos EUA a partir de 2018",
+      "ressalva": "O registro de 2016 é uma visita de comitiva ao Parlamento de Israel; a rede com a direita dos EUA começa em 2018",
       "confianca": "media",
-      "divergencia_entre_fontes": "O Agora RN situa o início da rede em 2018; a Agência Pública menciona apresentações negociadas já em 2017. Nenhuma das duas chega a 2016.",
+      "divergencia_entre_fontes": "O Agora RN situa o início da rede americana em 2018 e a Agência Pública menciona apresentações negociadas já em 2017. Sobre a viagem de 2016, o Times of Israel fala em membros do Partido Social Liberal e a reportagem da Folha (via ABC do ABC) em comitiva do PSC; a diferença não muda o veredito.",
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "The Times of Israel",
+          "titulo": "Brazil's other Bolsonaro sees elusive embassy move as start of pro-Israel shift",
+          "url": "https://www.timesofisrael.com/brazils-other-bolsonaro-sees-elusive-embassy-move-as-start-of-pro-israel-shift/",
+          "consultada_em": "2026-10-17",
+          "trecho": "In May 2016, Eduardo Bolsonaro and his brothers with their father and a few other members of their Social Liberal Party came on a little-noticed parliamentary visit to Israel. It was at that moment he became a fan, he recalled.",
+          "prova": "Data em maio de 2016 a visita parlamentar de Eduardo a Israel, mais de 10 anos antes da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "ABC do ABC (reportagem da Folha de S.Paulo)",
+          "titulo": "Bolsonaro mirou evangélicos e versão 'amigo de Israel' quando se batizou no Jordão (18/10/2023)",
+          "url": "https://abcdoabc.com.br/bolsonaro-mirou-evangelicos-e-versao-amigo-de-israel-quando-se-batizou-no-jordao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao lado dos filhos, o então deputado usou viagem em 2016 para fortalecer elos com nação do Oriente Médio [...] E foi numa comitiva liderada por Everaldo que ele, acompanhado dos filhos Flávio, Eduardo e Carlos , embarcou para Israel em maio. [...] O comboio brasileiro também se reuniu com o presidente do Knesset, o Parlamento israelense. Eduardo Bolsonaro disse, em registro nas redes sociais, que Yuli-Yoel Edelstein aproveitou a ocasião para expressar “seu desapontamento com o governo do Brasil que, sem motivo plausível, negou a credencial do embaixador de Israel no Brasil”.",
+          "prova": "Em apuração independente da do Times of Israel, confirma a viagem de 2016 com Eduardo e o encontro da comitiva com o presidente do Parlamento israelense."
+        },
         {
           "nivel": "N4",
           "instituicao": "Agora RN",
@@ -429,8 +447,8 @@
     {
       "id": "A140",
       "veredito": "VERDADEIRO",
-      "resumo": "O STF condenou generais, um almirante e outros oficiais pela trama golpista, em decisões já definitivas",
-      "explicacao": "A notícia oficial do STF sobre a AP 2668 lista entre os oito réus do núcleo central o almirante Almir Garnier, os generais Augusto Heleno, Paulo Sérgio Nogueira e Walter Braga Netto e o tenente-coronel Mauro Cid, todos condenados. A notícia de conclusão dos julgamentos registra que militares com pena superior a dois anos terão o caso enviado ao Superior Tribunal Militar, e lista outros oficiais condenados nas demais ações. O STF declarou o trânsito em julgado das condenações do núcleo central em novembro de 2025, então não há apuração em curso sobre esses réus. O mesmo julgamento foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A062, VERDADEIRO) e no caso 2026-08-28-sabatina-flavio-globo (A001 e A003, VERDADEIRO), com as mesmas fontes do STF. VERDADEIRO.",
+      "resumo": "O STF condenou generais e um almirante no núcleo central da trama golpista, em decisão já definitiva",
+      "explicacao": "A notícia oficial do STF sobre a AP 2668 lista entre os oito réus do núcleo central o almirante Almir Garnier, os generais Augusto Heleno, Paulo Sérgio Nogueira e Walter Braga Netto e o tenente-coronel Mauro Cid, todos condenados. A notícia de conclusão dos julgamentos registra que militares com pena superior a dois anos terão o caso enviado ao Superior Tribunal Militar, e lista outros oficiais condenados nas demais ações. O STF declarou o trânsito em julgado das condenações do núcleo central em novembro de 2025, então não há apuração em curso sobre esses réus. O resumo fala só do núcleo central, porque é dele o trânsito em julgado registrado; o tenente-coronel Mauro Cid, réu-colaborador, e os oficiais das demais ações não entram no resumo. O mesmo julgamento foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A062, VERDADEIRO) e no caso 2026-08-28-sabatina-flavio-globo (A001 e A003, VERDADEIRO), com as mesmas fontes do STF. VERDADEIRO.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "julgamento de set/2025; trânsito em julgado do núcleo central em nov/2025",

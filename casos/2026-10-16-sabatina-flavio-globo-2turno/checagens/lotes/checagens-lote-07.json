@@ -112,7 +112,7 @@
       "numero_apurado": null,
       "data_de_referencia": "discurso de 1º/09/2026 no Senado",
       "ressalva": "O pedido formal de investigação na PGR e no STF aparece nas fontes como iniciativa das lideranças da oposição",
-      "confianca": "alta",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -283,7 +283,7 @@
     {
       "id": "A067",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Mensagens ligam o filho de Nunes Marques a R$ 500 mil por mês via consultoria; ele admite R$ 281,6 mil e nega o resto",
+      "resumo": "Mensagens ligam filho de Nunes Marques a R$ 500 mil mensais; ele diz que recebeu R$ 281,6 mil da consultoria por serviço",
       "explicacao": "O que está documentado: mensagens do celular de Vorcaro, reveladas em 15/09/2026, mostram o então diretor jurídico do Master, Luiz Rennó, enviando os contatos do advogado Kevin Marques, filho de Kassio Nunes Marques, em conversas sobre pagamentos de R$ 500 mil por mês ligados à Consult Inteligência Tributária (Times Brasil, Bahia Notícias); fontes da investigação ouvidas pela Gazeta do Povo dizem que os pagamentos teriam passado pela consultoria antes de chegar ao filho; e o Coaf registrou que o escritório de Kevin recebeu R$ 281 mil da Consult, que recebeu dinheiro do Master (Metrópoles). Do outro lado, as próprias reportagens dizem que as mensagens não comprovam que os R$ 500 mil tenham sido pagos nem que o dinheiro da Consult ao advogado tenha origem no Master (Correio da Manhã), e Kevin e o ministro negam. É fato em apuração, sem conclusão: pela regra de ética §5 não cabe VERDADEIRO nem FALSO. Mesma régua das checagens do caso Master no caso de 15/out (A064, A073), onde 'suspeita' e 'indica' dependem da apuração.",
       "numero_dito": null,
       "numero_apurado": null,
@@ -490,6 +490,15 @@
           "consultada_em": "2026-10-16",
           "trecho": "O presidente do Senado, Davi Alcolumbre (União-AP) , afirmou que a Casa já recebeu 109 pedidos de impeachment contra ministros do STF .",
           "prova": "Alcolumbre seguia como presidente do Senado no período da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília",
+          "titulo": "Lula tem encontro Alcolumbre, em gesto de aproximação três meses após rejeição de Messias (agosto de 2026)",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-tem-encontro-alcolumbre-em-gesto-de-aproximacao-tres-meses-apos-rejeicao-de-messias/",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com aliados de Lula, o encontro foi resultado de sequenciais apelos dos líderes do PT e do governo no Senado, Camilo Santana (CE) e Teresa Leitão (PE), respectivamente. Eles reforçaram um esforço do ministro de Relações Institucionais, José Guimarães (PT), que vinha insistindo sem sucesso junto ao presidente da República por uma agenda com Alcolumbre. [...] Segundo interlocutores, o encontro aconteceu na casa do ministro Alexandre de Moraes, acompanhado também por Cristiano Zanin, indicado por Lula à corte.",
+          "prova": "A versão divergente sobre a origem do encontro, citada na divergência: aliados de Lula o atribuem aos apelos de líderes do PT e do ministro de Relações Institucionais; a mesma matéria registra que ele aconteceu na casa de Moraes, com Zanin."
         }
       ]
     }

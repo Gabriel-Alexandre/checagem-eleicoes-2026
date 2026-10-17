@@ -1,0 +1,341 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada, revisor r2)",
+  "A031": {
+    "decisao": "mantido",
+    "nota": "Contra: 'desde o início' pode remeter ao começo do debate da 6x1 (a PEC 221 é de 2019) e não à chegada ao Senado; sem registro anterior a maio de 2026, o 'desde o início' não estaria provado. Além disso, o título do Jornal Opção de 19/05 diz que Flávio 'defende fim da escala 6×1'. Cai: o corpo daquela matéria diz que ele criticou a PEC; a crítica mais antiga achada (19/05, A Crítica e Jornal Opção) é anterior à chegada ao Senado (28/05, dados abertos) e nada registra apoio antes de 13/10. Uma das buscas desta revisão foi atrás de posição favorável anterior e não achou. É a mesma régua da A038 (o 'sempre' de Flávio, também VERDADEIRO com ressalva sobre o período anterior a maio). Quatro trechos achados nas capturas p04-r3/r4; resumo de 103 caracteres sem número sem lastro.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A032": {
+    "decisao": "mantido",
+    "nota": "Contra: a citação literal capturada (Poder360, 06/10) usa 'oportunista' para a iniciativa de Lula, e 'eleitoreira' só aparece em paráfrase do Poder360; a frase diria mais do que a fala dele. Cai como VERDADEIRO com ressalva: três veículos (Estadão via DGABC, O Liberal, Poder360) atribuem os dois adjetivos à crítica dele ao fim da 6x1 ou à discussão dela, e a ressalva diz que o alvo era o momento e que 'eleitoreira' vem de resumo da imprensa. Independência: a explicação já declara que O Liberal pode vir do Estadão. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A033": {
+    "decisao": "mantido",
+    "nota": "Contra: o Poder360 publicou antes de 13/10 que a campanha concluíra que ele não votaria contra, então a mudança poderia ser anterior à véspera. Cai: é relato de bastidor; o anúncio público é de 13/10 (Times Brasil, O Liberal, Poder360) e a votação de 14/10 está nos dados abertos do Senado. Trechos achados nas capturas p04-r3/r4.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A034": {
+    "decisao": "mantido",
+    "nota": "Contra: o trecho N1 junta a descrição do 2º turno com um voto 'Sim' que poderia ser do 1º. Cai: conferi no JSON capturado (p04-r3) que o voto Sim de Flávio aparece nos dois blocos, depois do 1º turno e depois do 2º. Voto remoto confirmado por Poder360 e A Crítica.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A035": {
+    "decisao": "mantido",
+    "nota": "Contra: na hora da fala a emenda talvez não estivesse promulgada, e a redução é gradual, então 'reduz a jornada' seria antecipado. Cai: a EC 141 é de 16/10/2026, a Câmara registra a publicação no DOU de 16/10 (edição extra), e a frase descreve o conteúdo da emenda, que o texto do Planalto confirma; a transição está na ressalva com os números do próprio texto. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A036": {
+    "decisao": "mantido",
+    "nota": "Contra: 'cargos em comissão' é o uso corrente para comissionados, o Poder360 de 2019 escreve '21.000 cargos comissionados', e 21 mil é 'mais de 20 mil'; seria VERDADEIRO. Fica de pé o IMPRECISO: o decreto (N1) e o Estadão separam cargos, funções de confiança e gratificações, e a fala atribui o total só a cargos em comissão; é a categoria trocada do §2.2 e o mesmo veredito da A013 do caso de 28/08. A divergência do Poder360 está escrita. Trechos achados na p04.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A037": {
+    "decisao": "mantido",
+    "nota": "Contra: há número apurado (cerca de 4,4 mil, CNN e Oeste) cinco vezes menor, no mesmo sentido; pela régua do §2.2 isso seria IMPRECISO (desvio de 10% ou mais), e não INSUSTENTAVEL, e falta N1/N2 para um número. Fica de pé com hesitação: as duas fontes N4 leem um painel dinâmico não capturado, a contagem muda se entram as funções comissionadas, e '22.500' não existe em fonte nenhuma, que é a linha 'número que não existe' da régua; é o veredito da A014 do caso de 28/08. Trechos achados (p02 e p04). Pergunta para a coerência: a A036 (Bolsonaro) foi rebaixada por categoria trocada com fonte; aqui, sem a primária, o lado de Lula fica INSUSTENTAVEL e não IMPRECISO.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A038": {
+    "decisao": "alterado",
+    "nota": "Contra: 'sempre' é absoluto e só há registro a partir de maio de 2026; e o Jornal Opção, citado como fonte, tem título dizendo que ele 'defende fim da escala 6×1', o que parece contradizer o próprio trecho. Cai o primeiro: a ressalva diz que não há registro anterior a maio, a mesma régua do 'desde o início' de Renata Lo Prete (A031), e a busca desta revisão não achou fala anterior em sentido contrário. O segundo é ruído do título: o corpo da matéria diz que ele criticou a PEC e traz a frase citada. Como divergência aparente não pode ficar calada, entrou nota em divergencia_entre_fontes. Veredito mantido; trechos achados nas capturas p04-r3/r4.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A039": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase é sobre o que ele 'ouviu' dos trabalhadores, quase anedota, e as pesquisas medem eleitores, não trabalhadores; o Datafolha é de março de 2025. Cai: a extração tomou como afirmação de que a maioria é favorável, e Quaest de maio e julho de 2026 (68% e 69%) e Datafolha (71%) sustentam 'grande maioria'; a ressalva diz o recorte de eleitores e os 56% contra com corte de salário. A regra 2 da §3.1 está declarada (Poder360 reproduz a Quaest, cujo PDF capturado tem os números só em gráfico). Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A040": {
+    "decisao": "mantido",
+    "nota": "Contra: quem falou foi o líder do PL na Câmara, uma pessoa, e não 'aliados no Congresso' em geral; e a proposta é PEC de Marinho, não 'do partido'. Cai: o Broadcast (Estadão) registra outros parlamentares aliados sinalizando revisão a partir de 2027, e a PEC é de senador do PL, apresentada como alternativa do partido. Três apurações diferentes (Estadão, UOL via Canal Rural, Poder360). Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A041": {
+    "decisao": "alterado",
+    "nota": "Contra: a PEC 12/2026 é de Rogério Marinho com coautores de vários partidos, não 'do PL'; e a explicação afirmava a coautoria de Flávio e a data de apresentação sem trecho. Cai a primeira: o autor é do PL, o líder do PL a trata como proposta do partido e o próprio Flávio a levou à bancada em 19/05 (Agência Brasil). A segunda era defeito: a página capturada (p05-r2) lista Flávio entre os coautores, e o trecho passou a incluir isso; 'apresentada em 28/05' virou 'na CCJ desde 28/05', que é o que a página mostra. Veredito mantido. O 'salário proporcional' da frase confere: o valor mínimo da hora é proporcional ao salário mínimo ou ao piso.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A042": {
+    "decisao": "mantido",
+    "nota": "Contra: a pergunta não afirma nada, só pergunta se ele reverteria. Cai: a pergunta pressupõe a aprovação, e a pressuposição é checável (METODOLOGIA §4.1); a Câmara registra a EC 141/2026 publicada no DOU de 16/10, o Planalto publica o texto, e o Congresso em Foco dá 75 a 1 no Senado. Ressalva com números do trecho do Planalto. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A043": {
+    "decisao": "mantido",
+    "nota": "Contra: o governo patrocinou a PEC e a campanha de Lula reivindica a medida, então 'decisão do Congresso' omitiria o Executivo. Cai: a frase só diz quem decidiu, e emenda constitucional é votada e promulgada pelas Mesas, sem sanção (texto da EC 141 no Planalto, placares da Câmara nos dados abertos, Senado no DOL). Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A044": {
+    "decisao": "mantido",
+    "nota": "Contra: Flávio não propôs cinco anos; disse que o processo legislativo decidiria se seriam 'quatro, cinco anos', e na própria sabatina disse que ficaria com quatro se o Congresso assim decidisse. Cai: 'ventilar' é levantar a hipótese, e as duas transcrições de 8/10 (Correio, O Liberal) mostram que ele ligou o próprio mandato à hipótese de cinco anos; a ressalva diz que ele deixou a decisão ao Congresso. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A045": {
+    "decisao": "mantido",
+    "nota": "Contra: 'tem dito que quer ser presidente de um mandato só' pode ser lido como compromisso pessoal, e a fala de fevereiro é sobre a regra geral ('o presidente deve ter apenas um mandato'). Cai: em 8/10 (O Liberal) ele disse que não pretende disputar 2030, o compromisso pessoal; com a declaração de fevereiro (InfoMoney e Jornal de Brasília, mesma fala), são declarações repetidas. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A046": {
+    "decisao": "alterado",
+    "nota": "Contra: a PEC veda só a reeleição consecutiva (inelegível 'no período subsequente'), então não 'acaba' com a reeleição, que continuaria possível depois de um intervalo. Cai como VERDADEIRO com ressalva: 'reeleição', no sentido do art. 14 § 5º, é a consecutiva, e a ressalva diz isso. Defeito achado: a explicação citava o SBT News, que não está entre as fontes desta checagem (está na A050); corrigido para citar só o Jornal de Brasília. Veredito mantido. Trechos achados (p05-r2, p06-r2, p06-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A047": {
+    "decisao": "alterado",
+    "nota": "Contra: o INSUSTENTAVEL dizia que não há fonte e usava como referência o levantamento da Folha (R$ 193,8 bi), argumentando que 'gastou' não corresponde ao critério. Fica de pé o argumento contra a checagem: uma das duas buscas desta revisão achou o Gastômetro do Estadão, que mede 'gastos de Lula para se reeleger', no vocabulário da frase, e somava R$ 278,3 bi em 18/08/2026, com alta prevista (TNH1 reproduz a reportagem; capturado em -rv2). A busca da checagem não foi exaustiva, então o veredito é provisório de fato e estava sem o marcador: o marcador entrou, a confiança foi a baixa, o resumo passou a dar o dado do Gastômetro e a ressalva o da Folha (com o trecho estendido às 11 medidas de crédito; 'a maior parte crédito' do resumo antigo falava de valor, e o trecho só fala de número de medidas). O veredito fica INSUSTENTAVEL: o dito fica 25,8% acima do valor de agosto, mas medir uma fala de 16/10 com um painel que crescia seria anacronismo (lição da A180 do caso de 15/10). O resumo do buscador citou valor maior do Gastômetro no fim de setembro, sem página capturada; não entra. Falta para a rodada 2: o valor do Gastômetro mais próximo de 16/10 e a régua de 10% sobre ele.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A048": {
+    "decisao": "mantido",
+    "nota": "Contra: a contagem de 'tentativas' poderia excluir 2006 (reeleição) ou incluir 2018 (candidatura registrada e indeferida). Cai: 2006 foi disputa por mandato; Agência Brasil e Jornal da Paraíba, separadamente, contam sete com 2026 (1989, 1994, 1998, 2002, 2006, 2022, 2026), e o arquivo do TSE confirma a candidatura de 2026. Se 2018 entrasse, seriam oito; nenhuma fonte capturada conta 2018, então fica como pergunta para a coerência, não como mudança. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A049": {
+    "decisao": "mantido",
+    "nota": "Contra: o art. 2º aplica a PEC 'inclusive ao Presidente da República eleito em 2026', o que poderia mexer no mandato em curso. Cai: aplicar a inelegibilidade ao eleito em 2026 não muda a duração do mandato; o texto capturado (p05-r2) tem só os dois artigos, e a página do Senado mostra a PEC aguardando despacho, sem substitutivo. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A050": {
+    "decisao": "mantido",
+    "nota": "Contra: a extração ('acaba só para presidente, não para governadores e prefeitos') vai além da frase curta 'eu apresentei para a presidente da República'. Cai: no contexto da transcrição (670 a 685 s) ele diz que o Congresso decidiria sobre governadores e prefeitos, o que a extração resume; o texto N1 mantém a reeleição de governadores e prefeitos no § 5º e cria o § 5º-A só para o presidente. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A051": {
+    "decisao": "mantido",
+    "nota": "Contra (para FALSO): o texto da PEC não tem uma linha sobre parentes, e a frase atribui a ela uma regra que não existe; a fonte N1 contradiz o que foi dito. Contra (para VERDADEIRO): logo depois (A052) o próprio Flávio diz que é 'como está hoje na regra que vale', e o efeito sobre o pai e os irmãos, objeto da pergunta, existe. Fica o IMPRECISO: pela regra vigente (art. 14, § 7º, e Consulta 117/2016 do TSE), sem reeleição do titular os parentes até o segundo grau também ficam barrados, então a essência se sustenta; erram o grau e a atribuição ao texto da PEC. Trechos achados (p06-r2 a r4).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A052": {
+    "decisao": "mantido",
+    "nota": "Contra: a pergunta era sobre o pai e os irmãos, parentes de 1º e 2º grau, que a regra de fato alcança; o 'terceiro grau' seria ornamento, e o card deveria ser VERDADEIRO. Fica o IMPRECISO: a frase descreve a regra vigente com um recorte (terceiro grau) que a Constituição e o TSE não têm, e esse recorte amplia a regra a tios e sobrinhos; é recorte errado do §2.2, a mesma régua da A051. Constituição (captura do caso de 15/10, p09), TSE e TRE-RJ achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A053": {
+    "decisao": "mantido",
+    "nota": "Contra: nenhum relevante; a idade é aritmética. Conferido: 30/04/1981 no TSE e no Senado, 45 anos completos em 16/10/2026, derivação declarada. Trechos achados.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A054": {
+    "decisao": "mantido",
+    "nota": "Contra: a inscrição na OAB foi cancelada em 2010 por falta de comprovação da graduação, e não houve consulta ao Cadastro Nacional dos Advogados. Cai: a Folha (julho de 2026) o descreve como advogado inscrito na defesa do pai, com pedido da própria OAB ao STF, e registra inscrição válida no Rio e no DF; o cancelamento e o restabelecimento estão na ressalva, e a confiança é média. Trechos achados (p06-r3, p06-r5).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A055": {
+    "decisao": "mantido",
+    "nota": "Contra: 'empresário' é mais autodescrição que fato; escritório de advocacia é sociedade simples, não empresa, e R$ 56 mil em duas empresas é participação pequena. Cai: o termo não tem definição legal estrita, e há participação societária declarada ao TSE em 2026 (DGABC/Estadão) e sociedade da qual ele é o único sócio (Diario de Pernambuco); a ressalva diz que as empresas não são nomeadas. Confiança média adequada. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A056": {
+    "decisao": "mantido",
+    "nota": "Contra: a pós em Ciências Políticas da UFRJ que constava dos perfis oficiais não existe, e as fontes reproduzem documentos do próprio candidato. Cai: o curso citado na fala é outro, 'políticas públicas e governo', e o certificado mostrado (Poder360) e o ano de 2012 (Congresso em Foco e G1 via Bahia Notícias) o sustentam; a ressalva registra a pós inexistente. Pequeno defeito não corrigido: a explicação cita a Agora RN, que não está entre as fontes desta checagem, só da A057; nada muda na tela. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A057": {
+    "decisao": "mantido",
+    "nota": "Contra: a fala diz 'MBA e empreendedorismo em novos negócios', e o curso é 'Empreendedorismo e Desenvolvimento de Novos Negócios'. Cai: diferença de nome sem efeito no fato; o diploma da FGV (Poder360, Agora RN) e o ano de 2015 (G1 via Bahia Notícias) estão nos trechos. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A058": {
+    "decisao": "mantido",
+    "nota": "Contra: o trecho N1 tem um corte '[...]' entre a quarentena e o impedimento de parentes, onde poderia haver um sétimo item. Cai: conferi no PDF capturado (p04-r4) que o corte é só o número da página (65); a seção 'Propomos:' tem exatamente seis marcadores. Registro no TSE em 13/08 pelo Congresso em Foco. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A059": {
+    "decisao": "mantido",
+    "nota": "Contra: a proposta é 'fim das competências criminais originárias do STF', que alcança outras autoridades, não só parlamentares. Cai: o próprio texto diz 'permitindo que parlamentares sejam julgados por instâncias inferiores', e a frase não diz que só parlamentares seriam alcançados. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A060": {
+    "decisao": "mantido",
+    "nota": "Contra: 'limitação das decisões monocráticas' não é o mesmo que 'reduzir o número' delas; limitar pode ser restringir o alcance, não a quantidade. Cai: privilegiar decisões colegiadas reduz as individuais, e Congresso em Foco e Estadão descrevem como restringir decisões individuais; a divergência com o índice ('fim das monocráticas') está escrita. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  }
+}

@@ -7,11 +7,11 @@
       "id": "A101",
       "veredito": "IMPRECISO",
       "resumo": "Vaccari foi preso em 2015 na Lava Jato, por corrupção ligada à Petrobras, não por fraude em fundos de pensão",
-      "explicacao": "A frase tem duas partes: que Vaccari já foi preso, e que a prisão foi 'exatamente por fraude em fundos de pensão'. A primeira se confirma: o Congresso em Foco e a Exame (Estadão Conteúdo) registram que ele estava preso na Operação Lava Jato desde abril de 2015, com condenações por corrupção passiva, lavagem de dinheiro e organização criminosa, e o próprio TRF-4 descreve o crime como propina do grupo Keppel Fels aceita por funcionários da Petrobras. A segunda não: a Tribuna do Paraná (Estadão) mostra que, nos fundos de pensão, o nome de Vaccari apareceu na CPI da Câmara de 2016, convocado após citações em depoimentos (Youssef disse ter 'ouvido falar' que ele operava fundos como Petros e Funcef), sem prisão por isso. Nas buscas feitas não apareceu prisão de Vaccari por fraude em fundos de pensão. O essencial (já foi preso) está certo e o motivo está errado; pela árvore da METODOLOGIA §2.1, é IMPRECISO, e não FALSO, porque a prisão existiu. Confiança média porque a ausência de outra prisão foi inferida das fontes da Lava Jato, não de certidão. Não há checagem anterior deste dado nos casos de 15/out e 28/ago.",
+      "explicacao": "A frase tem duas partes: que Vaccari já foi preso, e que a prisão foi 'exatamente por fraude em fundos de pensão'. A primeira se confirma: o Congresso em Foco e a Exame (Estadão Conteúdo) registram que ele estava preso na Operação Lava Jato desde abril de 2015, com condenações por corrupção passiva, lavagem de dinheiro e organização criminosa, e o próprio TRF-4 descreve o crime como propina do grupo Keppel Fels aceita por funcionários da Petrobras. A segunda não: a Tribuna do Paraná (Estadão) mostra que, nos fundos de pensão, o nome de Vaccari apareceu na CPI da Câmara de 2016, convocado após citações em depoimentos (Youssef disse ter 'ouvido falar' que ele operava fundos como Petros e Funcef), sem prisão por isso; e o Estado de Minas (com Agência Brasil) registra que em maio de 2017 a Justiça Federal do DF aceitou denúncia da Operação Greenfield que tornou Vaccari réu por gestão fraudulenta e outros crimes ligados à Funcef, o fundo de pensão da Caixa. Ou seja, a acusação de fraude em fundo de pensão existe, mas como ação penal, não como motivo de prisão. Nas buscas feitas (inclusive a da revisão) não apareceu prisão de Vaccari por fraude em fundos de pensão. O essencial (já foi preso) está certo e o motivo está errado; pela árvore da METODOLOGIA §2.1, é IMPRECISO, e não FALSO, porque a prisão existiu. Confiança média porque a ausência de outra prisão foi inferida das fontes da Lava Jato, não de certidão. Não há checagem anterior deste dado nos casos de 15/out e 28/ago.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "prisão de abril de 2015 (Lava Jato); CPI dos Fundos de Pensão de 2016",
-      "ressalva": "A prisão existiu, mas pela Lava Jato; fundos de pensão aparecem só em citações na CPI de 2016",
+      "data_de_referencia": "prisão de abril de 2015 (Lava Jato); CPI dos Fundos de Pensão de 2016; denúncia da Greenfield aceita em maio de 2017",
+      "ressalva": "A prisão foi pela Lava Jato; por fraude na Funcef, fundo de pensão da Caixa, ele virou réu em 2017 na Operação Greenfield",
       "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
@@ -51,13 +51,22 @@
           "consultada_em": "2026-10-17",
           "trecho": "A Justiça Federal no Paraná abriu ação penal contra o tesoureiro do PT João Vaccari Neto e o ex-diretor de Serviços da Petrobras, Renato Duque, por corrupção e lavagem de dinheiro.",
           "prova": "A primeira ação penal contra Vaccari, às vésperas da prisão, trata de corrupção na Petrobras."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estado de Minas (com Agência Brasil)",
+          "titulo": "Vaccari e mais 13 ex-diretores da Funcef se tornam réus na Operação Greenfield (29/05/2017)",
+          "url": "https://www.em.com.br/app/noticia/politica/2017/05/29/interna_politica,872596/vaccari-e-mais-13-ex-diretores-da-funcef-se-tornam-reus-na-operacao-gr.shtml",
+          "consultada_em": "2026-10-17",
+          "trecho": "postado em 29/05/2017 16:35 [...] A Justiça Federal do Distrito Federal aceitou nesta segunda-feira a primeira denúncia apresentada pelo Ministério Público Federal (MPF) no âmbito da Operação Greenfield. Ao todo, 14 indivíduos se tornaram réus, incluído o ex-tesoureiro do PT, João Vaccari Neto, e Guilherme Lacerda, ex-diretor-presidente da Fundação dos Economiários Federais (Funcef), fundo de pensão dos funcionários da Caixa Econômica Federal (Funcef). [...] Os envolvidos são acusados de crimes contra o sistema financeiro, gestão fraudulenta e temerária, lavagem de dinheiro e tráfico de influência.",
+          "prova": "Vaccari virou réu por fraude num fundo de pensão (Funcef) em 2017, na Operação Greenfield; a fonte trata de ação penal, não de prisão por esse caso."
         }
       ]
     },
     {
       "id": "A102",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Os 10% são relato de Vorcaro em delação rejeitada, sem prova; R$ 1 bi seria a comissão, não o valor a investir",
+      "resumo": "Os 10% são relato de Vorcaro em delação rejeitada, sem comprovação; R$ 1 bi seria a comissão, não o valor a investir",
       "explicacao": "O que está documentado: a revista Veja publicou em 9/out/2026 relato atribuído a Daniel Vorcaro, num anexo de delação rejeitada, segundo o qual Vaccari teria exigido 10% de tudo o que o Banco Master captasse nos fundos de pensão das estatais (reprodução da Veja no TNH1; NC News e Jornal Correio como apoio, que também reproduzem a reportagem, o que se declara aqui). A PGR não deu andamento por falta de prova dos pagamentos, a PF disse não ter recebido material com esse conteúdo, e o caso está em apuração a partir de uma notícia-crime (etica-e-risco §5): por isso o veredito não pode ser VERDADEIRO nem FALSO e fica INSUSTENTAVEL. Há ainda um descompasso de número mesmo dentro do relato de Vorcaro: R$ 1 bilhão não era o valor que Vaccari ofereceria para investir no Master, mas a comissão projetada de 10% sobre até R$ 10 bilhões captados. Nada aqui afirma que a cobrança ocorreu ou não ocorreu.",
       "numero_dito": "R$ 1 bilhão oferecidos para investir e propina de 10%",
       "numero_apurado": "no relato de Vorcaro, 10% sobre o captado, com até R$ 1 bilhão de comissão sobre até R$ 10 bilhões; sem comprovação",
@@ -109,7 +118,7 @@
       "id": "A103",
       "veredito": "FALSO",
       "resumo": "A PF negou ter recebido de Vorcaro depoimento ou anexos com esse relato e só agora recebeu pedido de apuração",
-      "explicacao": "A alegação é sobre a posição da Polícia Federal, não sobre o mérito da acusação. Em nota oficial de 9/out/2026 (íntegra no Congresso em Foco; reproduzida também pela Revista Oeste e pelo Muita Informação, que dependem da mesma nota, o que se declara), a PF afirmou que Vorcaro não prestou depoimento com o teor relatado pela Veja, não entregou anexos com aquele conteúdo, teve as propostas de delação rejeitadas e que a notícia-crime sobre os fatos acabava de ser encaminhada para apuração. A própria Veja (reproduzida no TNH1) só diz que mensagens obtidas pela PF registram contatos para reuniões com dirigentes de fundos, o que é diferente de a PF confirmar a oferta e a propina atribuídas a Vaccari. Como a fonte oficial contradiz diretamente a frase 'está confirmado pela Polícia Federal', o veredito é FALSO e não INSUSTENTAVEL. Ele não julga se a cobrança aconteceu: esse ponto segue em apuração (etica-e-risco §5). Nas buscas da rodada não apareceu manifestação posterior da PF, até 16/out, que confirmasse o relato.",
+      "explicacao": "A alegação é sobre a posição da Polícia Federal, não sobre o mérito da acusação. Em nota oficial de 9/out/2026 (íntegra no Congresso em Foco; reproduzida também pela Revista Oeste e pelo Muita Informação, que dependem da mesma nota, o que se declara), a PF afirmou que Vorcaro não prestou depoimento com o teor relatado pela Veja, não entregou anexos com aquele conteúdo, teve as propostas de delação rejeitadas e que a notícia-crime sobre os fatos acabava de ser encaminhada para apuração. O melhor argumento a favor da frase está na própria Veja (reproduzida no TNH1): mensagens encontradas pela PF no celular de Vorcaro 'ajudaram a corroborar o relato' e mostram reuniões com Postalis, Petros e Previ. Mas essa é a leitura da revista sobre material apreendido, não uma posição da PF, e as mensagens descritas tratam de contatos com dirigentes de fundos, não da oferta e da propina atribuídas a Vaccari; a única manifestação da PF é a nota que nega ter o relato. Como a fonte oficial contradiz diretamente a frase 'está confirmado pela Polícia Federal', o veredito é FALSO e não INSUSTENTAVEL. Ele não julga se a cobrança aconteceu: esse ponto segue em apuração (etica-e-risco §5). Nas buscas da rodada não apareceu manifestação posterior da PF, até 16/out, que confirmasse o relato.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "nota da PF de 9/out/2026",
@@ -151,8 +160,8 @@
           "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo (09/10/2026)",
           "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
           "consultada_em": "2026-10-17",
-          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação.",
-          "prova": "É a origem do número: na versão de Vorcaro, R$ 1 bilhão seria a comissão de 10% sobre o que o banco captasse, e não o valor oferecido para investir."
+          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação. [...] Mensagens encontradas pela Polícia Federal no celular de Vorcaro ajudaram a corroborar o relato de Vorcaro. [...] Mensagens no celular mostram que o banqueiro foi pessoalmente ao Postalis, em Brasília, se reunir com a cúpula do fundo e também conseguiu reuniões com Petros e Previ",
+          "prova": "É a origem do número: na versão de Vorcaro, R$ 1 bilhão seria a comissão de 10% sobre o que o banco captasse, e não o valor oferecido para investir. O mesmo texto diz que mensagens achadas pela PF no celular de Vorcaro ajudaram a corroborar o relato e mostram reuniões com Postalis, Petros e Previ: é a leitura da revista sobre mensagens apreendidas, não uma manifestação da PF."
         }
       ]
     },
@@ -202,8 +211,8 @@
           "titulo": "Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo (09/10/2026)",
           "url": "https://www.tnh1.com.br/noticia/nid/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/",
           "consultada_em": "2026-10-17",
-          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação.",
-          "prova": "É a origem do número: na versão de Vorcaro, R$ 1 bilhão seria a comissão de 10% sobre o que o banco captasse, e não o valor oferecido para investir."
+          "trecho": "Além dessa primeira quantia, Vorcaro conta que Vaccari exigiu uma taxa de 10% de tudo o que o banco captasse junto aos fundos de previdência de servidores da Caixa, do Banco do Brasil, da Petrobras e dos Correios. Se tudo tivesse dado certo, o petismo embolsaria 1 bilhão de reais. Vorcaro, por sua vez, faturaria 9 bilhões de reais na mesma operação. [...] Mensagens encontradas pela Polícia Federal no celular de Vorcaro ajudaram a corroborar o relato de Vorcaro. [...] Mensagens no celular mostram que o banqueiro foi pessoalmente ao Postalis, em Brasília, se reunir com a cúpula do fundo e também conseguiu reuniões com Petros e Previ",
+          "prova": "É a origem do número: na versão de Vorcaro, R$ 1 bilhão seria a comissão de 10% sobre o que o banco captasse, e não o valor oferecido para investir. O mesmo texto diz que mensagens achadas pela PF no celular de Vorcaro ajudaram a corroborar o relato e mostram reuniões com Postalis, Petros e Previ: é a leitura da revista sobre mensagens apreendidas, não uma manifestação da PF."
         }
       ]
     },
@@ -262,11 +271,11 @@
       "id": "A106",
       "veredito": "VERDADEIRO",
       "resumo": "A transcrição da reunião registra: se não puder trocar, troca o chefe dele; não pode, troca o ministro",
-      "explicacao": "A citação da apresentadora foi conferida contra a transcrição da reunião ministerial de 22/abr/2020, liberada pelo STF e publicada na íntegra pelo Poder360 e pela CNN Brasil (dois veículos que transcrevem o mesmo registro oficial, o que se declara). O trecho tem as três partes citadas: a menção à família ('Eu não vou esperar foder a minha família toda'), a impossibilidade de trocar 'alguém da segurança na ponta da linha' e a sequência 'Se não puder trocar, troca o chefe dele! Não pode trocar o chefe dele? Troca o ministro!'. A apresentadora suprimiu o palavrão e encurtou a frase, sem mudar o sentido; por isso VERDADEIRO. O Diário do Nordeste registra a mesma fala.",
+      "explicacao": "A citação da apresentadora foi conferida contra a transcrição da reunião ministerial de 22/abr/2020, liberada pelo STF e publicada na íntegra pelo Poder360 e pela CNN Brasil (dois veículos que transcrevem o mesmo registro oficial, o que se declara). O trecho tem as três partes citadas: a menção à família ('Eu não vou esperar foder a minha família toda'), a impossibilidade de trocar 'alguém da segurança na ponta da linha' e a sequência 'Se não puder trocar, troca o chefe dele! Não pode trocar o chefe dele? Troca o ministro!'. A apresentadora suprimiu o palavrão, trocou 'esperar' por 'deixar' e encurtou a frase, omitindo 'da segurança' em 'alguém da segurança na ponta da linha'. A omissão vai na ressalva, porque é nessa palavra que se apoia a leitura de que a fala tratava da segurança pessoal e não da PF; a sequência citada (trocar o chefe, trocar o ministro) está literal na transcrição, por isso VERDADEIRO. O Diário do Nordeste registra a mesma fala.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "reunião ministerial de 22/abr/2020",
-      "ressalva": null,
+      "ressalva": "Na transcrição, a frase é sobre trocar alguém da segurança na ponta da linha; a citação omitiu da segurança",
       "confianca": "alta",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
@@ -304,7 +313,7 @@
       "id": "A107",
       "veredito": "VERDADEIRO",
       "resumo": "Depois da reunião, Moro deixou o Ministério da Justiça e André Mendonça assumiu em seu lugar",
-      "explicacao": "A frase diz que o presidente 'de fato trocou o ministro'. O ministro da Justiça mudou: o Diário do Nordeste registra que Moro pediu demissão e que André Mendonça assumiu em seu lugar, e A Gazeta (Estadão) registra que Moro anunciou a demissão acusando o presidente de querer trocar a chefia da PF e superintendentes como o do Rio; o Congresso em Foco liga a superintendência do Rio à saída de Moro e registra que Bolsonaro nega o motivo. O essencial, a troca do titular da pasta, confere; a forma (Moro pediu para sair, não foi demitido) vai na ressalva, porque 'trocou' não afirma demissão. Por isso VERDADEIRO com ressalva, e não IMPRECISO. A data exata da saída não entra no card porque o Diário do Nordeste traz 23 de abril e não foi capturada uma segunda fonte com a data.",
+      "explicacao": "A frase diz que o presidente 'de fato trocou o ministro'. O ministro da Justiça mudou: o Diário do Nordeste registra que Moro pediu demissão e que André Mendonça assumiu em seu lugar, e A Gazeta (Estadão) registra que Moro anunciou a demissão acusando o presidente de querer trocar a chefia da PF e superintendentes como o do Rio; o Congresso em Foco liga a superintendência do Rio à saída de Moro e registra que Bolsonaro nega o motivo. O essencial, a troca do titular da pasta, confere; a forma (Moro pediu para sair, não foi demitido) vai na ressalva, porque 'trocou' não afirma demissão. Por isso VERDADEIRO com ressalva, e não IMPRECISO. A data exata da saída não entra no card: o Diário do Nordeste traz 23 de abril, e as fontes da A116 situam o pedido de demissão na manhã de 23 (A Gazeta, com Folhapress) e o anúncio em 24 de abril de 2020 (InfoMoney, Poder360).",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "abril de 2020",
@@ -439,10 +448,10 @@
       "id": "A110",
       "veredito": "FALSO",
       "resumo": "Em nota, a PF disse que a troca no Rio não tinha relação com o desempenho do superintendente",
-      "explicacao": "O motivo 'maus resultados' é o que Bolsonaro disse em agosto de 2019, ao anunciar a troca de Ricardo Saadi por 'questão de produtividade'. A Polícia Federal, responsável pela superintendência, respondeu em nota oficial (íntegra no Poder360; também registrada pela IstoÉ Dinheiro, Estadão Conteúdo) que a troca estava planejada havia meses por desejo do próprio superintendente e não guardava 'qualquer relação com o desempenho'; no dia seguinte o próprio presidente disse 'Eu não falei falta de produtividade' (Gazeta de S.Paulo). Se a referência for à troca de 2020, não foi achada justificativa de maus resultados, e Moro disse que nenhuma razão aceitável lhe foi apresentada. Há prova do contrário vinda da instituição, e não apenas falta de prova, por isso FALSO e não INSUSTENTAVEL. Não se apura aqui nenhuma conduta: o veredito é sobre o motivo declarado da troca.",
+      "explicacao": "O motivo 'maus resultados' é o que Bolsonaro disse em agosto de 2019, ao anunciar a troca de Ricardo Saadi por 'questão de produtividade'. A Polícia Federal, responsável pela superintendência, respondeu em nota oficial (íntegra no Poder360; também registrada pela IstoÉ Dinheiro, Estadão Conteúdo) que a troca estava planejada havia meses por desejo do próprio superintendente e não guardava 'qualquer relação com o desempenho'; no dia seguinte o próprio presidente disse 'Eu não falei falta de produtividade' (Gazeta de S.Paulo). Se a referência for à troca de 2020, não foi achada justificativa de maus resultados: o superintendente que saiu, Carlos Henrique Oliveira, foi promovido a diretor-executivo, segundo cargo mais importante da PF (Metrópoles), e Moro disse que nenhuma razão aceitável lhe foi apresentada. Há prova do contrário vinda da instituição, e não apenas falta de prova, por isso FALSO e não INSUSTENTAVEL. Não se apura aqui nenhuma conduta: o veredito é sobre o motivo declarado da troca.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "agosto de 2019",
+      "data_de_referencia": "agosto de 2019 e maio de 2020",
       "ressalva": null,
       "confianca": "media",
       "divergencia_entre_fontes": "O presidente atribuiu a troca à produtividade em 15/ago/2019; a PF negou no mesmo dia, e o presidente recuou da expressão no dia seguinte.",
@@ -483,6 +492,15 @@
           "consultada_em": "2026-10-17",
           "trecho": "Haveria intenção de trocar superintendentes, novamente o do Rio, outros provavelmente viriam em seguida, como o de Pernambuco, sem que fosse me apresentado uma razão para realizar esses tipos de substituições que fossem aceitáveis",
           "prova": "Para a troca de 2020: o então ministro disse que não lhe foi apresentada razão aceitável, sem menção a maus resultados."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles",
+          "titulo": "Tácio Muzzi é nomeado superintendente da Polícia Federal no Rio de Janeiro (26/05/2020)",
+          "url": "https://www.metropoles.com/brasil/politica-brasil/tacio-muzzi-e-nomeado-superintendente-da-policia-federal-no-rio-de-janeiro",
+          "consultada_em": "2026-10-17",
+          "trecho": "No Rio, Muzzi substitui Carlos Henrique Oliveira, que foi confirmado no dia 5 de maio como o novo diretor-executivo da PF, segundo cargo mais importante da corporação.",
+          "prova": "Para a troca de 2020: o superintendente que saiu do Rio foi promovido ao segundo cargo mais importante da PF, o que não combina com troca por maus resultados."
         }
       ]
     }

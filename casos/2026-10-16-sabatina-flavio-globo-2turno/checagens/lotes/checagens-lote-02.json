@@ -189,12 +189,12 @@
       "id": "A015",
       "veredito": "INSUSTENTAVEL",
       "resumo": "Há economistas céticos sobre o corte de R$ 200 bi sem mexer em gasto obrigatório, mas não há registro de consenso",
-      "explicacao": "A pergunta afirma um 'consenso dos economistas, inclusive muitos que apoiam' o candidato. O que se encontrou: economistas de universidades (Pedro Paulo Zahluth Bastos, da Unicamp, e Maria Lourdes Mollo, da UnB) dizem que um corte de R$ 200 bilhões alcança a área social; economistas de mercado (Tatiana Pinheiro, da FGV, Felipe Salto, Carla Argenta, André Perfeito) dizem que não está claro de onde viria o corte e que medidas cosméticas não bastam; a Folha, reproduzida pelo ES Hoje, informou que a própria equipe da campanha estudou conter despesas obrigatórias e que as medidas anunciadas, sozinhas, não bastam; o Correio Braziliense registrou em abril que a equipe estudou desvincular os pisos de saúde e educação. Não se encontrou, porém, registro nominal de economistas apoiadores do candidato dizendo que sem mexer nesses gastos não se chega a R$ 200 bilhões, nem levantamento que mostre consenso. A essência (há ceticismo amplo sobre o corte) tem apoio; a afirmação de consenso que inclui apoiadores, não. Por isso INSUSTENTAVEL, e não FALSO: nenhuma fonte contradiz a pergunta. A busca nesta rodada foi limitada a duas consultas sobre o tema.",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: A pergunta afirma um 'consenso dos economistas, inclusive muitos que apoiam' o candidato. O que se encontrou: economistas de universidades (Pedro Paulo Zahluth Bastos, da Unicamp, e Maria Lourdes Mollo, da UnB) dizem que um corte de R$ 200 bilhões alcança a área social; economistas de mercado (Tatiana Pinheiro, da FGV, Felipe Salto, Carla Argenta, André Perfeito) dizem que não está claro de onde viria o corte e que medidas cosméticas não bastam; a Folha, reproduzida pelo ES Hoje, informou que a própria equipe da campanha estudou conter despesas obrigatórias e que as medidas anunciadas, sozinhas, não bastam; o Correio Braziliense registrou em abril que a equipe estudou desvincular os pisos de saúde e educação. Não se encontrou, porém, registro nominal de economistas apoiadores do candidato dizendo que sem mexer nesses gastos não se chega a R$ 200 bilhões, nem levantamento que mostre consenso. A essência (há ceticismo amplo sobre o corte) tem apoio; a afirmação de consenso que inclui apoiadores, não. Por isso INSUSTENTAVEL, e não FALSO: nenhuma fonte contradiz a pergunta. A busca nesta rodada foi limitada a duas consultas sobre o tema. Falta: procurar declarações nominais de economistas ligados à campanha ou que declararam apoio ao candidato sobre o ajuste de R$ 200 bilhões sem mexer nas despesas obrigatórias, e algum levantamento de opinião de economistas que permita falar ou não em consenso.",
       "numero_dito": "200 bilhões de reais",
       "numero_apurado": null,
       "data_de_referencia": "declarações publicadas de abril a outubro de 2026",
       "ressalva": null,
-      "confianca": "media",
+      "confianca": "baixa",
       "divergencia_entre_fontes": null,
       "fontes": [
         {
@@ -238,12 +238,12 @@
     {
       "id": "A016",
       "veredito": "VERDADEIRO",
-      "resumo": "A coordenadora econômica de Flávio falou em ajuste de 1,5% do PIB, cerca de R$ 190 bi; a campanha fala em R$ 200 bi",
+      "resumo": "A coordenadora econômica falou em ajuste de 1,5% do PIB, cerca de R$ 190 bi; o discurso da campanha é de R$ 200 bi",
       "explicacao": "Em agosto, a coordenadora da equipe econômica, Daniella Marques, disse à GloboNews que o plano inclui ajuste de 1,5% do PIB, cerca de R$ 190 bilhões (Mercado&Consumo). O SBT News registrou que integrantes da campanha evitam cravar o tamanho, mas o discurso é de corte em torno de R$ 200 bilhões em gastos primários; o Poder360 registra que a equipe discute reduzir despesas em R$ 200 bilhões a R$ 250 bilhões; e a imprensa econômica relata que a coordenadora tem reiterado a promessa de ajuste diante da reação do mercado ao primeiro turno. O valor de R$ 200 bilhões circula como o tamanho do ajuste prometido, com a ressalva de que a campanha não o formalizou em documento. VERDADEIRO com ressalva; confiança média porque 'prometido ao mercado' é a leitura que a imprensa faz das falas da equipe, sem compromisso escrito.",
       "numero_dito": "200 bilhões de reais",
       "numero_apurado": "1,5% do PIB, cerca de R$ 190 bilhões (Daniella Marques); discurso de corte em torno de R$ 200 bilhões",
       "data_de_referencia": "declarações de agosto a outubro de 2026",
-      "ressalva": "A campanha evita cravar o valor; a coordenadora falou em 1,5% do PIB, cerca de R$ 190 bilhões",
+      "ressalva": "Integrantes da campanha evitam cravar o valor, e ainda não há plano completo com os gastos a cortar",
       "confianca": "media",
       "divergencia_entre_fontes": null,
       "fontes": [
@@ -378,8 +378,8 @@
           "titulo": "Rombo das estatais federais bate recorde e já supera total de 2025 em apenas quatro meses (03/06/2026)",
           "url": "https://www.moneytimes.com.br/rombo-das-estatais-federais-bate-recorde-e-ja-supera-total-de-2025-em-apenas-quatro-meses/",
           "consultada_em": "2026-10-17",
-          "trecho": "As estatais federais registraram superávits sucessivos, como o saldo positivo de R$ 2,5 bilhões em 2021 e de R$ 4,8 bilhões em 2022.",
-          "prova": "Os superávits de 2021 e 2022 em outra reportagem."
+          "trecho": "Vale lembrar que a série do Banco Central não considera a Petrobras, a Eletrobras, nem as empresas do setor financeiro (os bancos públicos). [...] As estatais federais registraram superávits sucessivos, como o saldo positivo de R$ 2,5 bilhões em 2021 e de R$ 4,8 bilhões em 2022.",
+          "prova": "Os superávits de 2021 e 2022 em outra reportagem, que registra também que a série do Banco Central deixa de fora Petrobras, Eletrobras e bancos públicos."
         }
       ]
     },
@@ -440,8 +440,8 @@
           "titulo": "Rombo das estatais federais bate recorde e já supera total de 2025 em apenas quatro meses (03/06/2026)",
           "url": "https://www.moneytimes.com.br/rombo-das-estatais-federais-bate-recorde-e-ja-supera-total-de-2025-em-apenas-quatro-meses/",
           "consultada_em": "2026-10-17",
-          "trecho": "De acordo com o balanço mais recente do Banco Central, divulgado na última semana, as empresas acumularam um déficit primário de R$ 5,93 bilhões entre janeiro e abril deste ano.",
-          "prova": "O começo de 2026, igual à soma dos quatro meses da série."
+          "trecho": "De acordo com o balanço mais recente do Banco Central, divulgado na última semana, as empresas acumularam um déficit primário de R$ 5,93 bilhões entre janeiro e abril deste ano. [...] Vale lembrar que a série do Banco Central não considera a Petrobras, a Eletrobras, nem as empresas do setor financeiro (os bancos públicos).",
+          "prova": "O começo de 2026, igual à soma dos quatro meses da série, e o que a série exclui: Petrobras, Eletrobras e bancos públicos, como diz a ressalva."
         }
       ]
     },

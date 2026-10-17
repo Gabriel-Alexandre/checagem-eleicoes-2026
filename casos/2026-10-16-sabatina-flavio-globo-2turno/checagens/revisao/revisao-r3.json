@@ -1,0 +1,326 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada, revisor r3)",
+  "A061": {
+    "decisao": "mantido",
+    "nota": "Contra: a pergunta fala de familiares de ministros do STF, e o plano fala de parentes de magistrados em geral; e a fonte N1 é uma cópia do PDF do programa publicada pelo Poder360, não a página do TSE. Cai: o recorte da pergunta está contido na proposta (ministro do STF é magistrado), a ressalva diz o alcance maior, e DGABC e A Crítica, leituras independentes do plano, trazem a mesma medida. Frase conferida na transcrição (764,4 s; 'familiares deles' retoma 'ministros'). Os três trechos achados nas capturas p07 e p07-r3.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A062": {
+    "decisao": "mantido",
+    "nota": "Provisório: o marcador 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' está exato e a confiança é baixa. Contra o provisório: R$ 20 bi (Haddad) daria IMPRECISO a 20% de desvio. Fica: falta N1 ou N2 (relatório da comissão técnica entregue ao STF, CNJ ou Tesouro), falta procurar a origem dos R$ 24 bi e falta medir o gasto depois das regras do STF de 25/03/2026 (economia de R$ 7,3 bi estimada por Moraes). Derivação 24 contra 20 = 20% conferida. Quatro trechos achados na p07-r2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A063": {
+    "decisao": "alterado",
+    "nota": "Contra: 'não só a investigação' não tem fonte com Flávio pedindo investigação formal; o pedido à PGR e ao STF é da liderança da oposição. Não derruba o veredito: o essencial é a defesa do impeachment ligada às mensagens de Vorcaro, com três coberturas independentes do discurso de 1º/09 (Congresso em Foco, Diario de Pernambuco, Gazeta do Povo) e a BP Money o pondo entre os que cobraram esclarecimentos; a ressalva já diz o limite. Mudou a confiança, de alta para media: só há N4 e a parte da investigação exige interpretação (skill checar-alegacao, campo confianca). Trechos achados nas capturas p07-r3 e na p06 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A064": {
+    "decisao": "mantido",
+    "nota": "Contra: 'relações' não afirma ilícito, e as relações estão documentadas (contrato de R$ 131 milhões do escritório da esposa com o Master, mensagens de Vorcaro ao ministro), o que daria VERDADEIRO com ressalva. Fica: é a mesma régua da A064 do caso de 15/out, mantida pela auditoria final daquele caso contra a mesma sugestão (fato em apuração, etica-e-risco §5), e o resumo diz o que está documentado e que a apuração não concluiu, sem puxar para um lado. Trechos achados (Pública e Diario de Pernambuco nas capturas de 15/out, Congresso em Foco na p07-r3).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A065": {
+    "decisao": "mantido",
+    "nota": "Contra: só N4 para um fato de 2020 com confiança alta, e o critério pedia a mensagem presidencial e a votação no Senado. Não derruba o veredito: três coberturas independentes da data da votação dizem que Kassio foi o primeiro indicado de Jair Bolsonaro, e nada diverge. Fica a pergunta para a coerência: confiança alta só com N4 contraria a definição da skill (alta = N1 direta), mas é prática comum nos dois casos (A005, A024, A066 de 15/out; A040, A045 deste). Trechos achados na p07-r3.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A066": {
+    "decisao": "mantido",
+    "nota": "Contra: o voo de novembro de 2025 foi em aeronave operada por empresa ligada a bens de Vorcaro, o que pode ser lido como 'bancar despesa'. Cai: o gabinete diz que o convite e o custo foram da advogada Camilla Ramos, e a representação do PT diz que as mensagens sobre a casa do Joá não mostram quem pagou; nenhuma fonte mostra mensagem de Vorcaro pagando despesa do ministro. Pedido de investigação sem decisão: INSUSTENTAVEL, não FALSO (etica-e-risco §5). Trechos achados na p07-r2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A067": {
+    "decisao": "alterado",
+    "nota": "Contra: o Coaf registra R$ 281 mil da Consult, contratada pelo Master, ao escritório do filho, o que confirmaria a triangulação. Não derruba: as reportagens dizem que as mensagens não comprovam os R$ 500 mil nem a origem do dinheiro da Consult, e a apuração não concluiu (etica-e-risco §5, mesma régua da A064). Mudou o resumo: 'ele admite R$ 281,6 mil e nega o resto' podia ser lido como confissão de parte de um pagamento de Vorcaro; o trecho do Times Brasil diz que o advogado afirma ter recebido R$ 281,6 mil da Consult por serviços prestados à própria empresa (pergunta 8). Trechos achados na p07-r2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A068": {
+    "decisao": "mantido",
+    "nota": "Contra: a liminar de Gilmar Mendes nas ADPFs 1.259 e 1.260 mexeu no art. 39. Cai: o trecho da decisão (captura p07-r3) atinge só os itens 4 e 5; os itens 2 (julgar quando suspeito) e 3 (atividade político-partidária), os dois exemplos da fala, estão no texto compilado do Planalto e na petição da ADPF. Frase conferida na transcrição (878,6 a 904,5 s, com os cortes marcados). A fonte da decisão é PDF hospedado em correiosabia.com.br, não no portal do STF; o texto é o da decisão.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A069": {
+    "decisao": "mantido",
+    "nota": "Melhor argumento contra o FALSO: o art. 44 da Lei 1.079 usa linguagem imperativa (recebida a denúncia, 'será lida' e despachada à comissão), então a lei impõe ao Senado processar a denúncia; e 'é obrigação' pode ser dever político, não descrição do rito. Não derruba: a fala diz 'iniciar um processo de impeachment', e a lei põe entre a denúncia e o processo um parecer e uma votação do plenário que pode arquivar (art. 48, no trecho do Planalto); na prática o presidente do Senado filtra os pedidos (Poder360; BP Money: 109 pedidos) e a decisão do STF registra uma rejeição de 2020. O essencial da frase (obrigação de abrir) é contradito, não só o ornamento: FALSO, como a A077 de 15/out. O '2/3' citado na explicação está na captura da decisão (p07-r3), fora do trecho. Frase conferida na transcrição (883,7 a 893,1 s).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A070": {
+    "decisao": "alterado",
+    "nota": "Contra: 'Ele que fez as pazes' credita só a Moraes uma reaproximação organizada com Zanin, que a Oeste atribui sobretudo a Zanin e o Jornal de Brasília a apelos de líderes do PT; e senadores dizem que não houve reconciliação. Não derruba o VERDADEIRO: quatro coberturas independentes dizem que Moraes e Zanin organizaram ou intermediaram o encontro, na casa de Moraes; a frase não diz 'sozinho', e a ressalva leva Zanin e o limite da reconciliação para a tela. Mudou: a divergência citava o Jornal de Brasília sem fonte; entrou a matéria, já capturada (p07-r2 a00f3d530923), com o trecho dos apelos e o de que o encontro foi na casa de Moraes, com Zanin.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A071": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. O que falta, conferido: fonte N1 ou N2 com o total pago e a conversão (relatório da PF tornado público ou decisão de Mendonça); o veredito depende da conversão (70 contra 65 = 7,7%; contra 62,8 = 11,5%; contra 61 = 14,8%, contas refeitas). Nota para a rodada 2: o total de US$ 12,3 milhões (7 parcelas, a última de 16/09/2025) é o vigente na data da fala; os US$ 10,6 milhões são só até maio de 2025. Trechos achados (p08-r2, p08-r3, p09).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A072": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Contas refeitas: 134 contra 131 = 2,3%; contra 122 = 9,8%. O Correio da Manhã traz o próprio Flávio admitindo a conversa sobre US$ 24 milhões, 'o equivalente a R$ 134 milhões na época'; falta só a fonte N1 ou N2. Para a rodada 2: a A086 é a mesma afirmação da entrevistadora ('134') e precisa sair com o mesmo veredito. Trechos achados (p08, p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  "A073": {
+    "decisao": "mantido",
+    "nota": "Contra: o dinheiro chegou ao filme, então dizer que 'foi parar num fundo' sugere desvio. Cai: a frase só afirma o caminho (fundo nos EUA em vez da produtora), e esse caminho é registrado pela piauí via Poder360, pelo comprovante publicado pelo Intercept e pela própria produtora no laudo (InfoMoney). Nada no card afirma desvio. Trechos achados (p08, p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A074": {
+    "decisao": "mantido",
+    "nota": "Contra o IMPRECISO: o Havengate Development Fund foi criado para vender um projeto imobiliário (Intercept, PF via TVT News), então 'um fundo imobiliário' descreve o que ele é no registro, e o veredito pune uma implicação. Fica, com confiança media: o fundo nunca teve terreno nem imóvel e a única atividade conhecida desde 2025 é receber e repassar dinheiro do filme; o rótulo sem mais é recorte que muda a leitura (§2.2). A espelho é a A075 (Flávio), INSUSTENTAVEL porque a segunda metade ('só a gestão do filme') está em apuração; as duas usam as mesmas fontes. Trechos achados (p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A075": {
+    "decisao": "mantido",
+    "nota": "Contra: as fontes dão razão a Flávio quanto à atividade (nunca houve imóvel; desde 2025 o fundo só aparece ligado ao filme), o que puxaria para IMPRECISO como a A074. Não derruba: 'só faz a gestão do filme' é exatamente o que a PF rastreia (pedido de cooperação aos EUA em 9/10) e investiga (se parte custeou despesas de Eduardo), e a origem imobiliária contradiz o 'não é imobiliário'. Fato em apuração: INSUSTENTAVEL, não FALSO. Trechos achados (p08, p08-r2, p08-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A076": {
+    "decisao": "mantido",
+    "nota": "Contra: a amizade é 'segundo relatos' e não registro. Cai: BBC (com registros do Texas), Poder360 (com a piauí) e Folha via Bahia Notícias ligam Calixto à gestão do fundo; BBC e piauí o descrevem como amigo de Eduardo, e na sabatina Flávio não negou ('Por um advogado experiente nisso'; Renata: 'Mas que é amigo dele'). A ressalva registra a gestão dividida com Santana. Trechos achados (p08, p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A077": {
+    "decisao": "mantido",
+    "nota": "Contra: a afirmação extraída ('o gestor é advogado') encolhe a frase, que diz 'experiente nisso'. Fica: a parte checável forte é a profissão, confirmada por BBC, Intercept e Poder360; 'experiente nisso' tem leitura fraca e foi para a ressalva, com o trecho do Intercept (a Calixsan abriu mão do registro no Texas em 2021). Falta o registro na ordem dos advogados, por isso confiança media. Trechos achados (p08, p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A078": {
+    "decisao": "mantido",
+    "nota": "Contra: do registro (24/11/2020) à primeira remessa (13/02/2025) são mais de quatro anos, e as fontes falam em 'quase quatro'; 'inativo' também não é o termo do registro. Cai: 'quatro anos' fica dentro da régua contra 'quase quatro' ou pouco mais de quatro, e a ressalva diz que o fundo seguia ativo no registro. A data de 24/11/2020 está na mesma captura do Intercept (p08-r2), fora do trecho. Duas das três fontes reproduzem o relatório da PF, que cita o Intercept; a explicação declara. Tipo data_ou_prazo, só N4.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A079": {
+    "decisao": "mantido",
+    "nota": "Contra: ausência é difícil de provar, e o laudo da produtora diz que o gasto do filme saiu do fundo, o que é informação sobre o destino. Cai: o laudo é da produtora, não do fundo, e o perito diz não seguir o dinheiro depois dos pagamentos; os gestores não responderam à BBC; a produtora americana negou documentos à PF; e em 9/10 a PF ainda pedia cooperação aos EUA para rastrear o destino. Não é busca interrompida. A ressalva leva o laudo para a tela. Trechos achados (p08, p08-r2, p08-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A080": {
+    "decisao": "mantido",
+    "nota": "Contra: a produtora apresentou de fato um laudo de R$ 75 milhões dizendo que tudo saiu do fundo, o que é uma prestação de contas. Não derruba: a perícia não teve acesso ao fundo nem trouxe notas fiscais (Congresso em Foco), o perito não segue o dinheiro e a PF pediu mais dados (BP Money), e 'todo gasto com autorização do fundo' não aparece em fonte nenhuma; o destino segue em apuração. Detalhe: a explicação cita Folha Vitória e Diario de Pernambuco, que não estão entre as fontes desta checagem; o ponto que sustentam está nos trechos da TVT News e do InfoMoney. Trechos achados (p08, p08-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A081": {
+    "decisao": "mantido",
+    "nota": "Contra: o dinheiro de Vorcaro saiu de empresas privadas dele, o filme é privado e nenhuma fonte achou incentivo da Ancine ou da Rouanet; 'sem recurso público' é acréscimo da extração. Não derruba: o que a frase opõe ('patrocínio' privado contra vantagem indevida) é o objeto do inquérito de Mendonça, e há inquérito sobre emendas na produção; fato em apuração, INSUSTENTAVEL (etica-e-risco §5). Para a coerência: A081 e A089 são quase a mesma afirmação ('patrocínio privado' e 'relação privada, sem dinheiro público'), contadas duas vezes do lado do candidato. Trechos achados (p09).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A082": {
+    "decisao": "mantido",
+    "nota": "Contra: nenhuma fonte aponta ato do senador em troca do dinheiro, o que favoreceria a frase. Não derruba: a contrapartida é o que o inquérito autorizado em 22/07/2026 apura (a PGR pediu mapear projetos de interesse do Master), sem conclusão: INSUSTENTAVEL, nunca FALSO. O resumo diz que ele é investigado 'por suspeita de corrupção', o que está no trecho do DGABC (pedido da PF, 'em tese'), sem afirmar culpa. Trechos achados (p09).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A083": {
+    "decisao": "mantido",
+    "nota": "Contra: a Veja publicou áudio de Vorcaro dizendo que Vaccari pediu dinheiro para o filme de Lula ligado a negócio com fundos de pensão, o que é a contrapartida que a frase descreve. Não derruba: PF e PGR negam ter recebido o relato, investigadores dizem que o celular não menciona o patrocínio, a equipe de Oliver Stone nega e a autenticidade é contestada; relato sob apuração, INSUSTENTAVEL. Mesma régua da A064 e A066 (entrevistadora). Trechos achados (p09, p10, p11).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A084": {
+    "decisao": "mantido",
+    "nota": "Contra: Flávio diz o que a Veja publicou (30 milhões por fora no relato de Vorcaro em áudio e documentos), o que faria uma atribuição VERDADEIRA, como a A085 da entrevistadora. Não derruba: as fontes divergem sobre o ponto exato da frase ('É o áudio do Vorcaro'): o Estadão (DGABC) diz que na gravação ele não menciona valores, e o trecho do SBT News só traz 'por fora'; a autenticidade está sob apuração. A diferença para a A085 é a divergência entre fontes, não o lado da mesa. Trechos achados (p09, p10, p11).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A085": {
+    "decisao": "mantido",
+    "nota": "Contra: é valor, todas as fontes são N4, e o laudo (a primária) não foi conferido; na A126 e na A153 do caso de 15/out, número da entrevistadora nessa situação virou INSUSTENTAVEL. Fica, com a pergunta para a coerência: lá a primária era pública e capturável; aqui o laudo está anexado a inquérito e não é público, e há leituras independentes (Metrópoles via A Tarde, Correio da Manhã com texto próprio, Tribuna de Jundiaí; InfoMoney na A080) mais a divulgação pela própria produtora. A explicação invoca a regra 2 da §3.1, mas a primária não foi conferida, então a regra não se cumpre ao pé da letra. O tipo (atribuicao_a_terceiro) não exige N1/N2 no validador; a A090 (Flávio), tipo valor_monetario, ficou INSUSTENTAVEL por falta de N1/N2 com fontes do mesmo nível. Trechos achados (p09).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A086": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Falta a fonte N1 (representação da PF ou decisão do STF com o valor). É a mesma afirmação da A072 ('134'), e as duas devem sair iguais na rodada 2. O numero_apurado usa US$ 10,6 milhões repassados, dado só até maio de 2025; na data da fala o total documentado era US$ 12,3 milhões (Poder360, já capturado). Derivação 134/75 = 1,79 conferida. Trechos achados (p09).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A087": {
+    "decisao": "alterado",
+    "nota": "Contra: o contrato não foi divulgado, e 'não foi cumprido' pode ser lido como quebra unilateral, quando a prisão de Vorcaro interrompeu os pagamentos. Não derruba: o essencial (o combinado não foi pago por inteiro) tem fontes independentes, inclusive a cobrança de parcelas atrasadas pelo próprio Flávio. Mudou o dado: o resumo e o numero_apurado davam US$ 10,6 milhões repassados, que é o total até maio de 2025; na data da fala o Coaf, via Poder360 com a piauí (captura p08-r2 063167ccf3af), somava 7 parcelas e US$ 12,3 milhões, com a de 16/09/2025 (pergunta 5, anacronismo). Entraram a fonte, o resumo, o numero_apurado, a data de referência e a explicação novos; o veredito fica.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A088": {
+    "decisao": "alterado",
+    "nota": "Contra: os outros investidores não foram identificados, e a conclusão do filme vem só da distribuidora. Fica: a distribuidora declara o filme finalizado, a Ancine registrou a obra com duração, e a produtora diz que buscou novos investidores; o fundo enviou US$ 13,3 milhões ao filme (perícia), acima do que o Coaf atribui a Vorcaro. Mudou a explicação: comparava com US$ 10,6 milhões (total até maio de 2025); passou a usar US$ 12,3 milhões, o total na data da fala, com a fonte do Poder360 (captura p08-r2). A conclusão não muda.",
+    "verificacoes": [
+      "1",
+      "3",
+      "5",
+      "7"
+    ]
+  },
+  "A089": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase seguinte da transcrição é 'um dinheiro totalmente ilícito', provável erro do motor por 'lícito', que a extração não usou; e a afirmação acrescenta 'sem dinheiro público' a 'uma relação privada'. Fica INSUSTENTAVEL pela mesma régua da A081: o caráter privado do repasse é objeto do inquérito de Mendonça e o uso de emendas, de outro inquérito, sem decisão. Para a coerência: é quase duplicata da A081 e pesa duas vezes na contagem do candidato; e o 'ilícito' da transcrição em 1112,6 s merece ser ouvido. Trechos achados (p09).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ]
+  },
+  "A090": {
+    "decisao": "mantido",
+    "nota": "Contra: R$ 83 milhões em mídia na Globo mais R$ 26 milhões de contrato pessoal somam R$ 109 milhões, o que sustenta 'mais de 100 milhões'; pela régua da A085 (N4 com leitura independente de documento não público) seria IMPRECISO (160 contra 109 = 47%). Fica INSUSTENTAVEL: o tipo é valor_monetario, a §3.1, regra 1, exige N1 ou N2 para VERDADEIRO, IMPRECISO ou FALSO, e o validador reprova sem ela; os 160 milhões não aparecem em fonte nenhuma, e a soma junta mídia comprada da emissora com contrato do apresentador. Uma busca web atrás de fonte com os 160 milhões ou com o contrato não achou nenhuma (só os mesmos 83 e 26, e a auditoria interna aberta pela Globo em outubro). Trechos achados (p09).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  }
+}

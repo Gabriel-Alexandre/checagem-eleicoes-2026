@@ -1,0 +1,153 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada, revisor r4)",
+  "A091": {
+    "decisao": "mantido",
+    "nota": "Contra: o candidato diz que o diretor 'feriu o código de ética' e foi 'exonerado', e a nota da Globo não cita código de ética nem fala em exoneração. Cai: o essencial (diretor desligado dias antes por conduta que a empresa julgou inadequada, com menção expressa à ética) está no comunicado de 15/10 (N1, trecho achado no PDF capturado p10), e Propmark e Gazeta de SP confirmam; o termo e o 'código' vão na explicação e na ressalva, que são ornamento e não essência. Conferi a frase na transcrição (1127,8 a 1141,3 s). Resumo de 99 caracteres, sem intenção.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A092": {
+    "decisao": "mantido",
+    "nota": "Contra 1: a frase é causal ('exonerado porque ele promovia eventos bancados pelo Vorcaro') e o comunicado não cita evento nenhum. Contra 2: 'eventos', no plural, e 'bancados', quando as fontes documentam um fórum com o Master como principal patrocinador. Ficam de pé só como ressalva: a afirmação extraída é a de que ele promovia eventos do Valor em NY bancados por Vorcaro, e isso confere no essencial (Mais Goiás e BP Money, mesma apuração, declarada; Agência Pública independente sobre patrocínio de evento do Valor tratado com Kachar; DCI para o comando do Valor). A ressalva da tela diz 'um evento' e que a Globo não citou o evento como motivo. Trechos achados (p10). É a mesma leniência com plural dada à entrevistadora na A108 ('e outros'); vale a passada de coerência olhar as duas juntas.",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A093": {
+    "decisao": "mantido",
+    "nota": "Contra: O Povo e Correio da Manhã dizem que o advogado Daniel Bialski 'confirmou que a voz é do ex-banqueiro', e a frase fala só de voz, não de autenticidade; então seria VERDADEIRO. Não derruba: a fala direta de Bialski no SBT é 'não sou perito, mas [...] um dos áudios realmente parece ele falando', e a nota oficial da defesa (SBT; Sérgio Leonardo no O Povo) diz que a autenticidade do material não é reconhecida. 'A própria defesa confirmou' transforma a impressão de um advogado em posição da defesa; essência certa, forma exagerada, IMPRECISO, a régua da A003 e A033 do caso de 15/out. Divergência entre fontes escrita. Trechos achados (p09/p10).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A094": {
+    "decisao": "alterado",
+    "nota": "Contra: a frase é atribuição ('o que ele fala nesse áudio') e o conteúdo está documentado (SBT transcreve 'o do Lula foi por fora [...] o do Flávio [...] foi patrocínio normal'; O Povo diz que 'na gravação' Vorcaro fala de R$ 30 milhões ao Instituto Lula), então seria VERDADEIRO com ressalva. Não derruba: a atribuição a Vorcaro depende da autenticidade do áudio, que a nota oficial da defesa não reconhece e que está sob pedido de perícia na PF; fato em apuração fica INSUSTENTAVEL (etica-e-risco §5), a mesma régua da A064 e A074 do caso de 15/out. 'Tudo legal dentro da lei' também estica 'patrocínio normal'. Achado: a explicação dizia que o valor não estava no áudio, o contrário do trecho do O Povo ('Na gravação...'); corrigido. Veredito mantido.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A095": {
+    "decisao": "alterado",
+    "nota": "Contra: as duas fontes são do próprio Grupo Globo, e metade da frase (compras de patrocínio 'obedecem a regras de transparência') não tem fonte nenhuma; a explicação admite que essas regras 'não foram localizadas [...] dentro do limite de buscas'. Fica de pé, e é o problema: a citacao_card mostra exatamente a metade não buscada, e o card verde se apoia na outra metade (Princípios Editoriais, item m). É provisório de fato sem o marcador, o caso da A155 de 15/out. Pus o marcador exato no começo da explicação, a confiança em baixa e o que falta no fim. Não refiz a busca (seria busca de confirmação). Falta à rodada 2: a política comercial pública da TV Globo para patrocínio (tabela, identificação de patrocinador) e, sem ela, decidir entre VERDADEIRO com ressalva e rebaixar; considerar também trocar a citacao_card para a parte da independência editorial. Trechos achados (p10).",
+    "verificacoes": ["1", "2", "3", "4", "6", "8"]
+  },
+  "A096": {
+    "decisao": "mantido",
+    "nota": "Contra: a Agência Pública diz que o vazamento 'ganhou força' no dia 14, e o material já circulava antes, então 'revelado anteontem' poderia estar errado. Cai: o comunicado da Globo (N1) diz que a empresa teve acesso às conversas 'ontem' (14) e anunciou o desligamento no dia 15, o Poder360 data a demissão em 15/10 e a Gazeta de SP também data o acesso em 14/10; a ressalva registra os bastidores. Datas conferidas contra a data da fala (16/10). Trechos achados (p10).",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A097": {
+    "decisao": "mantido",
+    "nota": "Contra 1: incluídas as administradoras de consórcio (1785), 'cerca de 1.600' fica 10,4% abaixo e o veredito seria IMPRECISO. Cai: consórcio não é instituição financeira em sentido estrito, e o subtotal do próprio quadro do BC (1654) separa as duas coisas; 1600 contra 1654 = 3,3%, e 'quase 170' contra 167 = 1,8%. Refiz a leitura das linhas deslocadas do PDF: a última coluna (Mai/2026) dá 131, 19, 4, 1, 12 e 4 bancos, 888 + 766 = 1654, 1654 + 131 = 1785, e em dez/2025 1666 e 1798; as contas das derivações batem. Contra 2: as três fontes são do BC. Cai pela regra 1 da §3.1: há fonte N1 decisiva, e as duas edições do quadro não reproduzem uma à outra; mais busca não mudaria o veredito, por isso não é provisório. Trechos achados (p10, p10-r3, p10-r4).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A098": {
+    "decisao": "alterado",
+    "nota": "Contra (pelo FALSO): já havia dois inquéritos da PF sobre o Master desde 2023 e termo de compromisso com o BC em novembro de 2024, antes do primeiro contato (dezembro de 2024) e dos repasses (fevereiro a maio de 2025); 'absolutamente nada de errado' estaria contradito. Não derruba: os procedimentos eram sigilosos, e dizer FALSO afirmaria que Vorcaro tinha algo de errado, o que segue em apuração sem decisão (etica-e-risco §5); INSUSTENTAVEL com a apuração dita na explicação é o caminho da régua. Contra (pelo VERDADEIRO): não havia suspeita pública; cai porque a afirmação inclui investigação, e ela existia. Achado: o resumo dizia que o BC 'advertiu' o Master; advertência é sanção formal que nenhuma fonte registra. Passou a 'convocou', que é o que o trecho do Finsiders diz. Trechos achados (p08, p10).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A099": {
+    "decisao": "mantido",
+    "nota": "Contra: o número dito existe no relato com outro papel (R$ 1 bi de comissão, não de oferta), o que pela régua do §2.2 daria IMPRECISO ou FALSO. Não derruba: o relato inteiro é de Vorcaro, publicado pela Veja a partir de anexo de delação não acolhida, e está sob notícia-crime na PF; com fato em apuração o veredito é INSUSTENTAVEL (§5), e o resumo já mostra o descompasso de número. Mesma régua da A102. Detalhe menor: a explicação atribui à PGR a rejeição das propostas de delação, mas o trecho que fala em propostas não acolhidas é da nota da PF (Congresso em Foco, na A102); não vai para a tela. Trechos achados (p09/p10/p11).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A100": {
+    "decisao": "mantido",
+    "nota": "Contra 1: 'quem toca o Instituto Lula' pode se referir a Lula, e não a Vaccari, na sintaxe da fala. Não salva a frase: nem Lula nem Vaccari dirigem o instituto, segundo a página oficial (presidenta Ivone Silva; Okamotto na diretoria desde 2011), e a leitura mais natural, a da extração, é Vaccari. Contra 2: Vaccari aparece no relato de Vorcaro negociando repasse ao instituto, o que daria uma ligação. Não é dirigir. A fonte N1 contradiz diretamente o essencial e não há apuração sobre quem dirige o instituto, então FALSO e não INSUSTENTAVEL. O juízo 'braço direito' ficou fora. Trechos achados (p09/p10/p10-r3).",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "8"]
+  },
+  "A101": {
+    "decisao": "alterado",
+    "nota": "Contra (pelo FALSO): o 'exatamente' faz do motivo o essencial, e o motivo está errado. Contra (pelo VERDADEIRO): Vaccari tem, sim, processo por fraude em fundo de pensão. Fiz uma busca para tentar derrubar o IMPRECISO: achou que em maio de 2017 a Justiça Federal do DF aceitou denúncia da Operação Greenfield que o tornou réu por gestão fraudulenta ligada à Funcef (Estado de Minas com Agência Brasil, capturado em rv4). Isso reforça a ligação, mas não a prisão: ele estava preso pela Lava Jato desde abril de 2015, por corrupção ligada à Petrobras, e nenhuma fonte registra prisão pela Greenfield. Essência (já foi preso; há acusação de fraude em fundo) certa, motivo da prisão errado: IMPRECISO fica. A ressalva da tela dizia que fundos de pensão apareciam 'só em citações na CPI', o que diminuía o registro contra o candidato; passou a citar a Greenfield. Trechos achados (p11, rv4).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A102": {
+    "decisao": "alterado",
+    "nota": "Contra: a Veja diz que mensagens apreendidas ajudam a corroborar o relato, então 'sem prova' no resumo seria afirmação demais contra o relato. Fica de pé contra a palavra, não contra o veredito: o relato é de anexo de delação não acolhida, a PGR não viu prova dos pagamentos e a PF abriu apuração por notícia-crime; INSUSTENTAVEL pelo §5. O resumo passou de 'sem prova' a 'sem comprovação', a forma da A099, e a divergência entre fontes já estava escrita. O descompasso de número (R$ 1 bi era a comissão, não o valor oferecido) está no resumo. Trechos achados (p09/p10/p11).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A103": {
+    "decisao": "alterado",
+    "nota": "Contra: segundo a Veja, mensagens 'encontradas pela Polícia Federal no celular de Vorcaro ajudaram a corroborar o relato'; o candidato pode ter querido dizer isso, e então seria INSUSTENTAVEL e não FALSO. Não derruba: a alegação é sobre a posição da PF, e a única manifestação da PF é a nota de 9/10 que nega ter recebido depoimento ou anexos com aquele teor e diz que só então recebeu notícia-crime; as mensagens descritas pela revista tratam de contatos com dirigentes de fundos, não da oferta e da propina atribuídas a Vaccari. Fiz uma busca atrás de manifestação da PF entre 9 e 16/10 que confirmasse o relato: não há. FALSO fica, e não sugere culpa nem inocência de ninguém. Achado: a explicação encolhia o texto da Veja ('só diz que [...] registram contatos'); passou a expor o argumento contrário e por que cai, e o trecho do TNH1 ganhou as duas frases sobre as mensagens (mesma captura p10). Revista Oeste e Muita Informação reproduzem a mesma nota, o que a explicação declara.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A104": {
+    "decisao": "alterado",
+    "nota": "Contra: é o espelho da A103, e se a PF tivesse confirmado algo depois de 9/10 a frase da entrevistadora cairia. A mesma busca da A103 não achou confirmação; a nota da PF sustenta a frase, VERDADEIRO, com a mesma régua e as mesmas fontes do candidato. Achado: a ressalva (texto de tela) cita mensagens obtidas pela PF com contatos com dirigentes de fundos, e nenhum trecho trazia isso; o trecho do TNH1 ganhou as duas frases da Veja sobre as mensagens (captura p10, achadas por palavra inteira). Veredito mantido.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A105": {
+    "decisao": "mantido",
+    "nota": "Contra: 'constantemente' lido com rigor exigiria mais do que três registros em cinco meses, e o de agosto (DGABC) fala em 'interferência' da PF numa investigação, não em aparelhamento pelo governo. Cai em parte: maio (Folha PE, 'aparelharam até a Polícia Federal') e outubro (Estadão Conteúdo e AFP, duas agências) são a mesma acusação, e a própria entrevista registra o candidato dizendo 'é óbvio que a Polícia Federal está aparelhada' (1376 a 1380 s); 'constantemente' não tem métrica, e os registros achados são piso, não teto. Confiança média declarada. Vale a passada de coerência comparar com a leitura de palavras de frequência ('sempre', 'toda vez') nas falas do candidato. Trechos achados (p11).",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A106": {
+    "decisao": "alterado",
+    "nota": "Contra: a citação da entrevistadora omite 'da segurança' em 'alguém da segurança na ponta da linha', e é nessa palavra que se apoia a leitura de que Jair Bolsonaro falava da segurança pessoal e não da PF; também troca 'esperar' por 'deixar'. Não derruba o VERDADEIRO: a sequência citada ('se não puder trocar, troca o chefe dele [...] troca o ministro') está literal nas transcrições do Poder360 e da CNN, e ela abriu aspas avisando do palavrão. Mas a omissão precisava ir para a tela, pela mesma régua de literalidade usada para as falas do candidato: entrou a ressalva, e a explicação diz o que foi trocado e omitido. Poder360 e CNN transcrevem o mesmo registro oficial, o que está declarado. Trechos achados (p11).",
+    "verificacoes": ["1", "3", "4", "6", "7", "8"]
+  },
+  "A107": {
+    "decisao": "alterado",
+    "nota": "Contra: no contexto da citação ('troca o ministro'), 'de fato trocou o ministro' sugere que Bolsonaro tirou Moro, e Moro pediu demissão (o candidato diz isso na A116, VERDADEIRO); seria IMPRECISO pela régua da A003. Cai: 'trocou' é literal (Mendonça assumiu no lugar de Moro, nomeado pelo presidente), e a saída foi reação à troca do diretor-geral pelo presidente, o 'chefe' da citação; a ressalva da tela diz que Moro pediu demissão. As duas checagens (A107 e A116) são compatíveis. Achado: a explicação dizia que não havia segunda fonte capturada com a data da saída, mas a A116 tem InfoMoney, Poder360 e A Gazeta com 23 e 24 de abril (p12); corrigido. Veredito mantido.",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A108": {
+    "decisao": "mantido",
+    "nota": "Contra 1: 'e outros' no plural, e só o caso das rachadinhas está documentado. Contra 2: o card diz que o MP denunciou Flávio sem dizer o desfecho, o que pode sugerir culpa. Caem: a frase só afirma que havia casos envolvendo o candidato em 2020, e o de maior peso está em três fontes (Correio Braziliense, Folhapress no DOL, A Gazeta); a ressalva diz que o veredito trata da existência da investigação, não do mérito. O desfecho posterior do caso não tem trecho capturado e não entrou; a passada de coerência pode avaliar se o card precisa dele (etica-e-risco §5). 'Fachadinhas' não foi usada como apoio. Mesma leniência com plural da A092.",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A109": {
+    "decisao": "mantido",
+    "nota": "Contra: quem trocou formalmente o superintendente foi o diretor-geral da PF (e a portaria saiu do Ministério da Justiça), não o presidente. Cai: em 2019 o próprio Bolsonaro anunciou a troca (IstoÉ Dinheiro, Estadão Conteúdo), e em 2020 a troca foi a primeira providência do diretor-geral nomeado por ele; a ressalva da tela registra a formalidade. É a mesma leniência de autoria dada à fala sobre Lula na A111 (a nomeação de Andrei, assinada por Rui Costa e escolhida por Dino segundo o Poder360). 'Na época' cobre as duas trocas. Trechos achados (p11/p12).",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A110": {
+    "decisao": "alterado",
+    "nota": "Contra 1: o motivo de uma troca é intenção, difícil de checar, e a fala tem 'se não me engano'. Contra 2: há duas versões oficiais em 2019 (presidente: produtividade; PF: pedido do próprio superintendente). Cai: o presidente recuou no dia seguinte ('Eu não falei falta de produtividade', Gazeta de SP), e a nota da PF, íntegra no Poder360, diz que a troca não guardava 'qualquer relação com o desempenho'; é prova do contrário, não falta de prova. Contra 3: se 'na época' for 2020, o FALSO se apoiava só na palavra de Moro, parte na disputa. Esse ficava de pé; entrou o Metrópoles (já capturado, p11/p12): o superintendente que saiu em 2020 foi promovido a diretor-executivo, o segundo cargo da PF, o que contradiz 'maus resultados' por registro de fato. O veredito não apura conduta nem o objeto do Inq 4831; trata só do motivo dito.",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "8"]
+  },
+  "A111": {
+    "decisao": "mantido",
+    "nota": "Contra: Andrei foi escolhido por Flávio Dino (Poder360) e o ato foi assinado por Rui Costa, e 'amigo' não tem lastro. Cai: a nomeação saiu em 2/01/2023, um dia depois da posse (Folhapress no Diário do Pará), e o vínculo de confiança da campanha está em três veículos (CartaCapital antes da posse, Poder360, Itatiaia); a ressalva da tela diz que amizade pessoal não aparece nas fontes. Coerente com o caso de 15/out (A090 e A091). Folhapress e Poder360 reproduzem o ato do DOU, o que está declarado. Trechos achados (p07).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A112": {
+    "decisao": "mantido",
+    "nota": "Contra 1: 'fumando charuto' não tem registro com Andrei (o de charuto é Vorcaro com Gonet). Contra 2: 'pessoas que a PF está investigando' no plural, e a Gazeta do Povo diz que nenhuma das autoridades presentes é investigada. Contra 3: 'está tomando' põe no presente um evento de abril de 2024. Caem como ressalva, não como veredito: o essencial (Andrei na degustação de uísque bancada por Vorcaro, e Vorcaro investigado pela PF) está em fontes independentes (Gazeta do Povo, Poder360 com dados de LAI), a citacao_card não mostra o charuto, e a ressalva da tela dá a data e diz que as autoridades não são investigadas. Coerente com a A087 do caso de 15/out. Trechos achados (p07/p08).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A113": {
+    "decisao": "mantido",
+    "nota": "Provisório conferido: a explicação começa pelo marcador exato e a confiança é baixa. Não refeito. O que falta à rodada 2: achar o levantamento original de '26 das 27 superintendências' (o Portal Tela é texto gerado por ferramenta e fonte única; o Conjur deu 403) ou as portarias de 2023 a 2025, e decidir entre VERDADEIRO com ressalva (26 contra 27, 3,7%) e IMPRECISO (18 num só ato, 21 em três meses). Atenção para a A114, cuja explicação usa os 18 de janeiro de 2023 para dizer que a direção da comparação se mantém. Trechos achados (p12).",
+    "verificacoes": ["3", "4", "6"]
+  },
+  "A114": {
+    "decisao": "mantido",
+    "nota": "Contra (pelo VERDADEIRO): 'troca um' pode ser o superintendente do Rio, o único questionado. Cai: a frase é a ponta de uma comparação numérica ('troca um [...] troca 27'), e o ato de 25/05/2020 trocou seis superintendentes (Congresso em Foco, com lista). Contra (pelo FALSO): o Metrópoles diz que, com a troca no Rio, a PF somava 26 superintendentes trocados, o que inverteria a comparação. Não derruba: o Metrópoles não diz o período, e mesmo com 6 ou 26 o número dito é outro no mesmo sentido, não oposto; pela §2.2, IMPRECISO. A ressalva da tela mostra o 26. Ponto para a rodada 2: a frase 'a direção da comparação se mantém' depende dos 18 da A113 contra os 6 de 2020, e cairia se o 26 do Metrópoles for do mesmo período curto. Trechos achados (p11/p12).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A115": {
+    "decisao": "mantido",
+    "nota": "Contra 1: é juízo ('é óbvio que a PF está aparelhada'), e seria NAO_CHECAVEL. Cai: 'tem um grupo especial do Lula dentro da PF' é dito como fato, e checável em princípio. Contra 2: o afastamento de Andrei e Almada por Mendonça seria a confirmação. Cai: a decisão mandou apurar relatórios de inteligência e não fala em grupo ligado a Lula, e Fachin suspendeu seus efeitos; a expressão é do próprio candidato no X. Apuração em curso, INSUSTENTAVEL e não FALSO (§5), e o resumo diz o que faltou. Coerente com a A086 do caso de 15/out. Trechos achados (r2p2 do caso de 15/out, p07).",
+    "verificacoes": ["1", "2", "3", "4", "5", "6", "8"]
+  },
+  "A116": {
+    "decisao": "mantido",
+    "nota": "Contra: Moro saiu porque o presidente trocou o diretor-geral escolhido por ele, então 'pediu para sair' esconde que a saída foi provocada. Cai como ressalva: a frase responde se ele foi demitido, e três registros (InfoMoney, Poder360, A Gazeta com Folhapress) dizem que o pedido partiu dele; a ressalva da tela dá o contexto da exoneração de Valeixo e da acusação de interferência, com a negativa de Bolsonaro. O Diário do Nordeste reproduz a Folha e não conta como fonte separada, o que está declarado. Compatível com a A107. Trechos achados (p07, p12).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A117": {
+    "decisao": "mantido",
+    "nota": "Contra: 'aliados' depende de uma única reportagem (Poder360) para o apoio de Moro a Flávio. Cai: o mesmo partido em 2026 está no arquivo oficial do TSE (Moro pelo PL, coligação PODE / PL / NOVO) e no Diario de Pernambuco (Flávio pelo PL), e o Poder360 registra apoio nos dois sentidos; a forma do apoio não detalhada justifica a confiança média, já declarada. Trechos achados (p12; o JSON do TSE conferido por número).",
+    "verificacoes": ["1", "3", "4", "5", "8"]
+  },
+  "A118": {
+    "decisao": "mantido",
+    "nota": "Contra: 50,10% é margem estreita, e uma apuração parcial dava 50,18%. Cai: o arquivo oficial do TSE marca 'Eleito' com pvap 50,10, e o Poder360 com 100% das urnas dá o mesmo; a divergência com o número parcial do Correio da Manhã está escrita. Trechos achados (p12).",
+    "verificacoes": ["1", "3", "4", "5", "6", "8"]
+  },
+  "A119": {
+    "decisao": "mantido",
+    "nota": "Contra: 'ainda este ano', lido com rigor, não tem fonte; o relator diz que analisar após o segundo turno 'não significa imediatamente depois', e a possível liminar seria para soltar, não para anular. Fica de pé só em parte: o essencial (pedido de revisão criminal para anular a condenação em tramitação, com análise anunciada para depois de 25/10, dentro do ano) está em fontes independentes (Diario de Pernambuco, Congresso em Foco, O Liberal, DGABC com Folha), e a ressalva da tela diz que não há data. É a régua mais branda possível para a entrevistadora; a passada de coerência deve comparar com frases do candidato que tenham prazo não confirmado. Nada antecipa o resultado (§5). Trechos achados (p12).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  },
+  "A120": {
+    "decisao": "mantido",
+    "nota": "Contra: a pena é de 27 anos e 3 meses, não 27, e a condenação inclui outros crimes além do golpe. Cai: 3 meses sobre 327 = 0,9%, abaixo da régua de 10%, e a ressalva da tela dá o número exato; golpe de Estado está entre os crimes do acórdão (STF, N1). A condenação transitou em julgado (STF, 25/11/2025), então não há a cautela de processo em curso. Coerente com a A002 de 28/ago e a A062 de 15/out. Trechos achados (p05, p12/p13/p14).",
+    "verificacoes": ["1", "3", "4", "5", "6", "7", "8"]
+  }
+}

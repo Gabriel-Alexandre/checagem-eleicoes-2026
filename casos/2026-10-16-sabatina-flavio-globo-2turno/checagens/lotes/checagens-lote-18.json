@@ -1,0 +1,457 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+  "checagens": [
+    {
+      "id": "A171",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Câmara aprovou um substitutivo com diversas alterações ao texto do governo; o Senado ainda não havia votado",
+      "explicacao": "O fato checável é a alteração do texto da PEC 18/2025 pelo Congresso; o juízo 'melhoramos' fica de fora. A Agência Câmara (via Diario de Pernambuco) registra que o texto aprovado pela Câmara em março de 2026 é um substitutivo do relator Mendonça Filho, que fez 'diversas alterações na versão original' enviada pelo governo; o Estadão Conteúdo (Diário do Grande ABC) detalha mudanças, como a retirada da Polícia Viária Federal e da competência privativa da União, e diz que o relator 'desfez várias das mudanças do governo Lula'. Na data da fala, a CCJ do Senado havia concluído a análise (Agência Senado, 14/10) e o presidente do Senado retirou a PEC da pauta do plenário em 15/10 (Agenda do Poder), com a base governista querendo manter o texto da Câmara. O texto foi alterado no Congresso, por isso VERDADEIRO. Coerência: o caso 2026-10-15-sabatina-lula-globo-2turno checou a mesma PEC (A051, VERDADEIRO, com a ressalva da reformulação na Câmara; A060, VERDADEIRO), com as mesmas fontes. As duas matérias de imprensa reproduzem apuração própria e a Agência Câmara; a Agência Senado é a primária da fase no Senado.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto aprovado pela Câmara em março de 2026; situação no Senado em 15/10/2026",
+      "ressalva": "As alterações foram feitas na Câmara; no Senado, a PEC ainda aguardava votação no plenário",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (texto da Agência Câmara)",
+          "titulo": "Câmara aprova PEC da Segurança Pública; texto vai ao Senado (04/03/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/03/11709138-camara-aprova-pec-da-seguranca-publica-texto-vai-ao-senado.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O texto aprovado é um substitutivo do relator, deputado Mendonça Filho (União-PE), que fez diversas alterações na versão original da proposta, encaminhada pelo governo ao Congresso.",
+          "prova": "Registra que o texto aprovado pela Câmara não é o do Executivo, e sim um substitutivo com alterações."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "PEC da Segurança é aprovada sem redução da maioridade (05/03/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4288739/pec-da-seguranca-e-aprovada-sem-reducao-da-maioridade",
+          "consultada_em": "2026-10-17",
+          "trecho": "O projeto retira a previsão de criação da Polícia Viária Federal (uma reformulação da Polícia Rodoviária Federal proposta pelo governo Lula) e a competência privativa da União sobre segurança pública e defesa social, só restando ao governo federal legislar sobre atividade de inteligência. [...] Mendonça Filho desfez várias das mudanças do governo Lula e entrou numa seara sobre a qual o projeto original não versava.",
+          "prova": "Apuração independente que lista mudanças concretas feitas pela Câmara no texto do governo."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Senado",
+          "titulo": "PEC da Segurança Pública está na pauta do Plenário nesta quinta-feira (14/10/2026)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/10/14/pec-da-seguranca-publica-esta-na-pauta-do-plenario-nesta-quinta-feira",
+          "consultada_em": "2026-10-17",
+          "trecho": "Apresentado pelo senador Eduardo Braga (MDB-AM) e outros líderes partidários, o requerimento ( RQS 713/2026 ) permite acelerar a tramitação da PEC, que teve sua análise concluída pela Comissão de Constituição e Justiça (CCJ) nesta quarta-feira , com relatoria do senador Rogério Carvalho (PT-SE).",
+          "prova": "Fase da tramitação no Senado às vésperas da fala: CCJ concluída, plenário a votar."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agenda do Poder",
+          "titulo": "PEC da Segurança: Alcolumbre adia votação após impasse entre PT e PL (15/10/2026)",
+          "url": "https://agendadopoder.com.br/pec-da-seguranca-alcolumbre-adia-votacao-apos-impasse-entre-pt-e-pl/",
+          "consultada_em": "2026-10-17",
+          "trecho": "o presidente do Senado, Davi Alcolumbre (União Brasil-AP), decidiu retirar a proposta da pauta do plenário nesta quinta-feira (15). [...] A intenção da base governista era concluir a tramitação sem alterações no texto aprovado pela Câmara dos Deputados.",
+          "prova": "Na véspera da fala, a PEC não tinha sido votada no Senado, e o texto em jogo era o da Câmara."
+        }
+      ]
+    },
+    {
+      "id": "A172",
+      "veredito": "IMPRECISO",
+      "resumo": "O texto do governo previa corregedorias autônomas e ouvidorias, mas seu eixo era integração e crime organizado",
+      "explicacao": "O texto original do Executivo tem dispositivos de controle das polícias: a Agência Câmara registra que a PEC 18/25 'garante ainda a autonomia para as corregedorias das polícias' e obriga União, estados, DF e municípios com guardas a instituir ouvidorias com autonomia. Mas a mesma fonte descreve o desenho da proposta como um tripé (Susp na Constituição, mais competências para órgãos como a PF e papel maior da União na coordenação) e diz que, segundo o Ministério da Justiça, a PEC é 'uma resposta constitucional ao problema crescente do crime organizado'; também afirma que estados e municípios continuariam responsáveis pelo comando de suas forças. O Estadão Conteúdo diz que o texto do ministério reforçava a garantia de autonomia dos estados, e a Agência Câmara (via Diario de Pernambuco) resume o objetivo como melhorar a integração dos órgãos de segurança. Não é FALSO porque há, de fato, dispositivos de controle (corregedorias e ouvidorias); não é VERDADEIRO porque apresentar a PEC como uma proposta de controle de policiais toma um item acessório pelo todo, o recorte que a régua do §2.2 rebaixa a IMPRECISO. Coerência: no caso 2026-10-15-sabatina-lula-globo-2turno, A055 (VERDADEIRO) usou a mesma descrição da Agência Câmara sobre o tripé da PEC.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "texto enviado pelo Executivo em abril de 2025",
+      "ressalva": "O texto original garantia autonomia às corregedorias das polícias e criava ouvidorias",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Câmara de Notícias",
+          "titulo": "Proposta do governo muda estrutura da segurança pública em busca de maior integração na área (28/04/2025)",
+          "url": "https://www.camara.leg.br/noticias/1153668-PROPOSTA-DO-GOVERNO-MUDA-ESTRUTURA-DA-SEGURANCA-PUBLICA-EM-BUSCA-DE-MAIOR-INTEGRACAO-NA-AREA",
+          "consultada_em": "2026-10-17",
+          "trecho": "A proposta está baseada em um tripé: constitucionaliza o Sistema Único de Segurança Pública (Susp), hoje amparado por lei ordinária ( Lei 13.675/18 ); amplia competências de órgãos de segurança, como a Polícia Federal (PF); e fortalece o papel da União no planejamento e coordenação da segurança pública. [...] De acordo com o Ministério da Justiça e Segurança Pública, a PEC é uma resposta constitucional ao problema crescente do crime organizado e à necessidade de coordenação nacional. [...] A PEC 18/25 garante ainda a autonomia para as corregedorias das polícias e guardas municipais. Além disso, a União, os estados, o Distrito Federal e os municípios com guardas municipais deverão instituir ouvidorias, também com autonomia, para receber reclamações e sugestões dos cidadãos.",
+          "prova": "Mostra o eixo do texto original e, ao mesmo tempo, os dispositivos de controle (corregedorias e ouvidorias) que ele continha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "PEC da Segurança é aprovada sem redução da maioridade (05/03/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4288739/pec-da-seguranca-e-aprovada-sem-reducao-da-maioridade",
+          "consultada_em": "2026-10-17",
+          "trecho": "O texto apresentado pelo Ministério da Justiça um ano atrás reforçava a garantia de que Estados não perderiam autonomia no combate ao crime, para se precaver das críticas de governadores contrários à iniciativa.",
+          "prova": "Leitura independente do texto do ministério, centrada na autonomia dos estados e no combate ao crime."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco (texto da Agência Câmara)",
+          "titulo": "Câmara aprova PEC da Segurança Pública; texto vai ao Senado (04/03/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/03/11709138-camara-aprova-pec-da-seguranca-publica-texto-vai-ao-senado.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Enviada pelo Executivo na tentativa de melhorar a integração entre os vários órgãos de segurança pública, a PEC da Segurança Pública prevê dinheiro arrecadado com as bets para o Fundo Nacional de Segurança Pública (FNSP) e o Fundo Penitenciário Nacional (Funpen).",
+          "prova": "Resume o objetivo do envio pelo Executivo como integração dos órgãos, não controle de policiais."
+        }
+      ]
+    },
+    {
+      "id": "A173",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi localizado o dado da Quaest de setembro sobre limitar o acesso a armas",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas três buscas pela pesquisa Quaest de setembro de 2026 com pergunta sobre acesso a armas e segurança pública, sem resultado. Estão documentadas duas pesquisas Quaest de setembro: a eleitoral contratada pela TV Globo e O Globo (campo de 30/08 a 1º/09, registro BR-07065/2026), que mediu a violência como principal preocupação (o mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno, A043, VERDADEIRO), e a Pesquisa Nacional de Segurança e Tecnologia, Quaest com a Pax (campo de 12 a 15/09), cuja cobertura capturada não traz pergunta sobre armas. Falta localizar o relatório da Quaest com a pergunta sobre limitar o acesso a armas, a redação exata e o percentual, para saber se passa de 50%. Sem isso, as fontes não sustentam nem contradizem a atribuição; não é FALSO porque não há dado em sentido contrário.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "BNews",
+          "titulo": "Violência supera corrupção e economia entre principais problemas do Brasil, aponta Quaest",
+          "url": "https://www.bnews.com.br/noticias/policia/violencia-supera-corrupcao-e-economia-entre-principais-problemas-do-brasil-aponta-quaest.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A violência é apontada como o principal problema enfrentado pelo Brasil por 28% dos brasileiros, segundo a Pesquisa Nacional de Segurança e Tecnologia, realizada pela Quaest em parceria com a Pax e divulgada nesta sexta-feira (18). [...] O levantamento foi realizado entre os dias 12 e 15 de setembro, com 2.004 brasileiros de 16 anos ou mais entrevistados presencialmente.",
+          "prova": "Documenta uma pesquisa Quaest de setembro sobre segurança; a cobertura capturada não traz a pergunta sobre armas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Quaest: violência é a maior preocupação para 31% dos eleitores (02/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722889-quaest-violencia-e-a-maior-preocupacao-para-31-dos-eleitores.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A pesquisa Quaest, contratada pela TV Globo e pelo jornal O Globo, ouviu 2.004 eleitores entre os dias 30 de agosto e 1º de setembro. A margem de erro é de dois pontos porcentuais, para mais ou para menos, com nível de confiança de 95%. O levantamento foi registrado no Tribunal Superior Eleitoral (TSE) sob o protocolo BR-07065/2026.",
+          "prova": "A outra pesquisa Quaest de setembro documentada; a cobertura capturada não traz a pergunta sobre armas."
+        }
+      ]
+    },
+    {
+      "id": "A174",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Não foi localizado o recorte por sexo da Quaest de setembro sobre limitar o acesso a armas",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: depende do mesmo relatório da A173, que três buscas não localizaram. A Pesquisa Nacional de Segurança e Tecnologia da Quaest de setembro traz recortes por sexo em outras perguntas (por exemplo, a percepção de aumento da violência é maior entre as mulheres), mas a cobertura capturada não traz a pergunta sobre armas nem o seu recorte por sexo. Falta localizar o percentual entre as mulheres e o total na pergunta sobre limitar o acesso a armas, e conferir se a diferença supera a margem de erro do recorte. Não é FALSO porque não há dado em sentido contrário.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": null,
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "BNews",
+          "titulo": "Violência supera corrupção e economia entre principais problemas do Brasil, aponta Quaest",
+          "url": "https://www.bnews.com.br/noticias/policia/violencia-supera-corrupcao-e-economia-entre-principais-problemas-do-brasil-aponta-quaest.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A percepção de aumento é maior entre as mulheres. Enquanto 76% delas afirmaram que a violência aumentou muito, o índice entre os homens foi de 63%.",
+          "prova": "Mostra que a pesquisa de setembro tem recorte por sexo, mas em outra pergunta, não na de acesso a armas."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diario de Pernambuco",
+          "titulo": "Quaest: violência é a maior preocupação para 31% dos eleitores (02/09/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722889-quaest-violencia-e-a-maior-preocupacao-para-31-dos-eleitores.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "A pesquisa Quaest, contratada pela TV Globo e pelo jornal O Globo, ouviu 2.004 eleitores entre os dias 30 de agosto e 1º de setembro.",
+          "prova": "A outra pesquisa Quaest de setembro documentada; a cobertura capturada não traz recorte sobre armas."
+        }
+      ]
+    },
+    {
+      "id": "A175",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pollon, escalado por Flávio para a área de armas, defende facilitar o acesso; Flávio assina PDL contra decreto de Lula",
+      "explicacao": "A Gazeta do Povo registra que o deputado Marcos Pollon (PL-MS) foi anunciado por Flávio Bolsonaro como integrante da equipe de transição para a área de legítima defesa e que 'o compromisso com a facilitação do acesso da população civil às armas é verbalizado' por ele. Na Câmara, Pollon é autor de projetos que afrouxam o Estatuto, como o PL 4396/2025, que cria presunção de efetiva necessidade para porte em municípios com muitos homicídios. No Senado, o próprio Flávio é coautor do PDL 193/2023, que pede a sustação integral do Decreto 11.615, o decreto de Lula que restringiu registro, posse e porte, segundo a Agência Senado. A frase confere, por isso VERDADEIRO. Ressalva: perguntado sobre a volta da ampliação do porte, Pollon disse que o foco 'não é necessariamente ampliar o acesso', e sim criar regras objetivas.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações e projetos de 2023 a 2026, situação em 16/10/2026",
+      "ressalva": "Sobre o porte, Pollon disse que o foco não é necessariamente ampliar o acesso, e sim criar regras objetivas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Flávio planeja nova legislação sobre armas com fim do Estatuto do Desarmamento",
+          "url": "https://www.gazetadopovo.com.br/republica/flavio-planeja-nova-legislacao-sobre-armas-com-fim-do-estatuto-do-desarmamento/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O compromisso com a facilitação do acesso da população civil às armas é verbalizado pelo deputado federal Marcos Pollon (PL-MS). Pollon foi anunciado por Flávio Bolsonaro como integrante da equipe de transição responsável pela elaboração das propostas para a área de legítima defesa. [...] Questionado sobre um eventual retorno da ampliação do porte de armas adotada durante o governo Jair Bolsonaro, Pollon afirmou que o foco não é necessariamente ampliar o acesso, mas criar regras permanentes e objetivas.",
+          "prova": "Liga Pollon à campanha e registra a defesa de facilitar o acesso, com a nuance dita por ele sobre o porte."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Senado",
+          "titulo": "CSP vota projetos para derrubar decreto que restringiu acesso a armas (20/02/2026)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/02/20/csp-vota-projetos-para-derrubar-decreto-que-restringiu-acesso-a-armas",
+          "consultada_em": "2026-10-17",
+          "trecho": "Tramitam em conjunto três projetos que buscam a sustação integral do Decreto 11.615 , editado pelo presidente Luiz Inácio Lula da Silva em julho de 2023. [...] O decreto é contestado nos Projetos de Decreto Legislativo (PDLs) 190/2023 , do senador Luis Carlos Heinze (PP-RS); 193/2023 , do senador Flávio Bolsonaro (PL-RJ) e outros; e 213/2023 , do senador Jorge Seif (PL-SC).",
+          "prova": "O próprio candidato é autor de proposta para derrubar o decreto que restringiu o acesso a armas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "Projetos de lei de autoria do deputado Marcos Pollon (id 220547) apresentados em 2025",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?idDeputadoAutor=220547&siglaTipo=PL&ano=2025&itens=100",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"numero\":4396,\"ano\":2025,\"ementa\":\"Altera a Lei nº 10.826, de 22 de dezembro de 2003, para dispor sobre a presunção de efetiva necessidade para concessão de porte de arma de fogo a residentes em municípios com índices elevados de homicídios.\"",
+          "prova": "Proposta concreta do deputado da equipe de Flávio para facilitar o porte."
+        }
+      ]
+    },
+    {
+      "id": "A176",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pollon, da equipe de Flávio, diz que o primeiro passo é reverter as mudanças de Lula na política de armas",
+      "explicacao": "As medidas de armas do governo Jair Bolsonaro foram revogadas pelo governo Lula (ver A177). Marcos Pollon, anunciado por Flávio como responsável pelas propostas de legítima defesa, disse à Gazeta do Povo que 'o primeiro passo será reverter os retrocessos promovidos pelo governo Lula na política de armas'; a mesma reportagem lembra que os decretos de Bolsonaro facilitaram a posse e o porte e que Lula reverteu essa política. No Senado, Flávio é coautor do PDL 193/2023, que pede a sustação do Decreto 11.615 de Lula (Agência Senado). Desfazer as restrições de Lula é, na substância, voltar ao regime que vigorou no governo anterior, por isso VERDADEIRO. A ressalva: Pollon diz que o plano vai além dos decretos, com a substituição do Estatuto, e que ampliar o porte não é necessariamente o foco.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "declarações e projetos de 2023 a 2026, situação em 16/10/2026",
+      "ressalva": "Pollon fala em reverter as mudanças de Lula e ir além, com uma nova lei no lugar do Estatuto",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Flávio planeja nova legislação sobre armas com fim do Estatuto do Desarmamento",
+          "url": "https://www.gazetadopovo.com.br/republica/flavio-planeja-nova-legislacao-sobre-armas-com-fim-do-estatuto-do-desarmamento/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Minha principal missão é trabalhar pela revogação do Estatuto do Desarmamento. Esse é o objetivo maior. Até chegarmos lá, o primeiro passo será reverter os retrocessos promovidos pelo governo Lula na política de armas e reconstruir uma política que respeite o direito do cidadão à legítima defesa”, afirma Pollon, que milita na área, em entrevista à Gazeta do Povo . [...] Durante o governo do ex-presidente Jair Bolsonaro (PL), uma série de decretos e portarias facilitou a posse, principalmente pela presunção de veracidade da declaração de necessidade pelo interessado.",
+          "prova": "Declaração do deputado ligado à campanha sobre desfazer as mudanças de Lula, que revogaram as de Bolsonaro."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Agência Senado",
+          "titulo": "CSP vota projetos para derrubar decreto que restringiu acesso a armas (20/02/2026)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/02/20/csp-vota-projetos-para-derrubar-decreto-que-restringiu-acesso-a-armas",
+          "consultada_em": "2026-10-17",
+          "trecho": "O decreto é contestado nos Projetos de Decreto Legislativo (PDLs) 190/2023 , do senador Luis Carlos Heinze (PP-RS); 193/2023 , do senador Flávio Bolsonaro (PL-RJ) e outros; e 213/2023 , do senador Jorge Seif (PL-SC).",
+          "prova": "Proposta formal, assinada pelo próprio candidato, para derrubar a regulamentação restritiva de Lula."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto nº 11.366, de 1º de janeiro de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11366.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "Suspende os registros para a aquisição e transferência de armas e de munições de uso restrito por caçadores, colecionadores, atiradores e particulares, restringe os quantitativos de aquisição de armas e de munições de uso permitido, suspende a concessão de novos registros de clubes e de escolas de tiro, suspende a concessão de novos registros de colecionadores, de atiradores e de caçadores",
+          "prova": "Mostra que as mudanças de Lula que se quer reverter foram a suspensão e a restrição do regime anterior."
+        }
+      ]
+    },
+    {
+      "id": "A177",
+      "veredito": "VERDADEIRO",
+      "resumo": "Decretos de 2019 facilitaram a compra e a posse de armas e vigoraram até serem revogados em 2023",
+      "explicacao": "O Decreto 9.845, de 25 de junho de 2019, regulamentou a aquisição, o registro e a posse de armas e foi revogado pelo Decreto 11.366, de 1º de janeiro de 2023 (Planalto). O Anuário Brasileiro de Segurança Pública de 2023 (FBSP) diz que, a partir de 2019, foram editadas dezenas de medidas para facilitar a aquisição de armas e munições e que decretos do primeiro semestre de 2019 tornaram de fácil acesso calibres antes restritos. O decreto de Lula de 2023 suspendeu registros e restringiu quantitativos, o que confirma que o regime anterior era mais permissivo e esteve em vigor até então. A frase confere, por isso VERDADEIRO.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "decretos de 2019 a 2022, revogados em 1º/01/2023",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto nº 9.845, de 25 de junho de 2019",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D9845.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "DECRETO Nº 9.845, DE 25 DE JUNHO DE 2019 (Revogado pelo Decreto nº 11.366, de 2023) Texto para impressão Regulamenta a Lei nº 10.826, de 22 de dezembro de 2003, para dispor sobre a aquisição, o cadastro, o registro e a posse de armas de fogo e de munição.",
+          "prova": "Norma do governo Bolsonaro sobre aquisição e posse, e a data em que deixou de vigorar."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (Anuário 2023)",
+          "titulo": "A herança de meia década de descontrole sobre as armas de fogo no Brasil",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2023/08/anuario-2023-texto-11-a-heranaa-de-meia-decada-de-descontrole-sobre-as-armas-de-fogo-no-brasil.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em decretos editados ainda no primeiro semestre, em 2019, o governo modificou a classificação de calibres para permitir que a população pudesse adquirir armas que eram de uso restrito a forças de segurança e militares, pistolas calibre 9mm e revólveres calibre 357 passaram a ser de fácil acesso, incluindo alguns modelos de fuzis.",
+          "prova": "Análise independente de que as medidas de 2019 ampliaram o acesso a armas."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Decreto nº 11.366, de 1º de janeiro de 2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11366.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "DECRETO Nº 11.366, DE 1º DE JANEIRO DE 2023 (Vide ADC 85) (Revogado pelo Decreto nº 11.615, de 2023) Texto para impressão Suspende os registros para a aquisição e transferência de armas e de munições de uso restrito por caçadores, colecionadores, atiradores e particulares, restringe os quantitativos de aquisição de armas e de munições de uso permitido",
+          "prova": "Marca o fim da vigência do regime de 2019 a 2022, com suspensão de registros e redução de quantitativos."
+        }
+      ]
+    },
+    {
+      "id": "A178",
+      "veredito": "VERDADEIRO",
+      "resumo": "Marcos Pollon, da equipe de Flávio, defende revogar o Estatuto e é autor do PL 3931/2025, que revoga a lei",
+      "explicacao": "Marcos Pollon (PL-MS), anunciado por Flávio Bolsonaro como responsável pelas propostas de legítima defesa, disse à Gazeta do Povo que sua 'principal missão é trabalhar pela revogação do Estatuto do Desarmamento'. Na Câmara, a base de dados abertos registra, entre os projetos de autoria de Pollon (id 220547) em 2025, o PL 3931/2025, cuja ementa é 'Revoga a Lei nº 10.826, de 22 de dezembro de 2003', o Estatuto do Desarmamento. A Gazeta afirma ainda que Flávio terá a revogação como prioridade se vencer. As fontes confirmam a frase, por isso VERDADEIRO. A ressalva: a defesa documentada é de um deputado, não de vários.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "PL apresentado em 2025; declarações publicadas até 16/10/2026",
+      "ressalva": "A defesa documentada é do deputado Marcos Pollon; não foram conferidos outros deputados",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Flávio planeja nova legislação sobre armas com fim do Estatuto do Desarmamento",
+          "url": "https://www.gazetadopovo.com.br/republica/flavio-planeja-nova-legislacao-sobre-armas-com-fim-do-estatuto-do-desarmamento/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Se vencer a disputa presidencial, o senador Flávio Bolsonaro (PL-RJ) terá como uma das prioridades a revogação do Estatuto do Desarmamento, para dar mais segurança jurídica aos proprietários de armas no país. [...] “Minha principal missão é trabalhar pela revogação do Estatuto do Desarmamento. Esse é o objetivo maior.",
+          "prova": "Declaração do deputado da equipe da campanha defendendo a revogação."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "Projetos de lei de autoria do deputado Marcos Pollon (id 220547) apresentados em 2025",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?idDeputadoAutor=220547&siglaTipo=PL&ano=2025&itens=100",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"siglaTipo\":\"PL\",\"codTipo\":139,\"numero\":3931,\"ano\":2025,\"ementa\":\"Revoga a Lei nº 10.826, de 22 de dezembro de 2003 e dá outras providências.\"",
+          "prova": "Projeto formal de revogação do Estatuto, de autoria de Pollon (consulta filtrada pelo autor)."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Dados Abertos)",
+          "titulo": "Deputado Marcos Pollon: identificador na API",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?nome=Pollon",
+          "consultada_em": "2026-10-17",
+          "trecho": "{\"dados\":[{\"id\":220547,\"uri\":\"https://dadosabertos.camara.leg.br/api/v2/deputados/220547\",\"nome\":\"Marcos Pollon\",\"siglaPartido\":\"PL\"",
+          "prova": "Confirma que o id de autor 220547 usado na consulta de projetos é o de Marcos Pollon (PL)."
+        }
+      ]
+    },
+    {
+      "id": "A179",
+      "veredito": "VERDADEIRO",
+      "resumo": "A taxa de mortes violentas caiu de 27,6 para 22,7 por 100 mil em 2019, queda de 17,8%, segundo o Fórum",
+      "explicacao": "O Anuário Brasileiro de Segurança Pública (FBSP, edição de 2021, com registros policiais) dá a taxa de mortes violentas intencionais (MVI) do Brasil em 27,6 por 100 mil em 2018 e 22,7 em 2019, uma queda de 17,8%, a 4,5% dos 17% ditos, abaixo da régua de 10% do §2.2. Pelos dados de saúde (SIM, Atlas da Violência 2021), reportados pela Folha via TNH1, os homicídios caíram 21% no mesmo período, de 57.956 para 45.503, mas o Atlas alerta que as mortes violentas de causa indeterminada saltaram 35%, o que indica subnotificação. As duas bases confirmam a queda em 2019 na ordem de grandeza dita, por isso VERDADEIRO. A ressalva: o indicador que dá 17% é a taxa de MVI, que inclui latrocínios e mortes por intervenção policial, e não só homicídios.",
+      "numero_dito": "17%",
+      "numero_apurado": "queda de 17,8% na taxa de MVI, de 27,6 para 22,7 por 100 mil",
+      "data_de_referencia": "2018 a 2019",
+      "ressalva": "Pelos dados de saúde, os homicídios caíram 21%, com alerta de subnotificação em 2019",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "17,8%",
+          "de": "27,6 e 22,7",
+          "como": "variação da taxa de MVI de 2018 para 2019: (27,6 menos 22,7) dividido por 27,6, arredondado a uma casa"
+        },
+        {
+          "valor": "4,5%",
+          "de": "17 (dito) contra a variação de 27,6 para 22,7",
+          "como": "desvio do número dito (17%) em relação à variação apurada (17,8%): diferença de 0,8 ponto dividida por 17,8"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (Anuário 2021)",
+          "titulo": "Evolução das mortes violentas intencionais no Brasil",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2021/07/1-evolucao-das-mortes-violentas-intencionais-no-brasil.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 Brasil 24,5 28,2 27,8 29,5 28,6 29,9 30,9 27,6 22,7 23,6",
+          "prova": "Série nacional da taxa de MVI por 100 mil: 27,6 em 2018 e 22,7 em 2019."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (texto da Folha de S.Paulo sobre o Atlas da Violência 2021)",
+          "titulo": "Atlas da Violência: Brasil não sabe a causa de 17 mil mortes violentas em 2019",
+          "url": "https://www.tnh1.com.br/noticia/nid/atlas-da-violencia-brasil-nao-sabe-a-causa-de-17-mil-mortes-violentas-em-2019/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O estudo calculou que os óbitos classificados como \"morte violenta por causa indeterminada\" (MVCI) sofreram um salto de 12.310 para 16.648 entre os anos de 2018 e 2019, um aumento de 35%. [...] O crescimento vai na contramão dos homicídios, que caíram 21% no mesmo período, de 57.956 para 45.503",
+          "prova": "Base independente (SIM, Ministério da Saúde) que confirma a queda em 2019 e traz o alerta de subnotificação."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (Fonte Segura)",
+          "titulo": "Evolução das mortes violentas intencionais no Brasil (21/07/2021, mesmo texto do Anuário)",
+          "url": "https://fontesegura.forumseguranca.org.br/wp-content/uploads/sites/2/2021/07/97-Multiplas-vozes-Evolucao-das-mortes-violentas-intencionais-no-Brasil.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Após o Brasil ter atingido o ápice de Mortes Violentas Intencionais (MVI) em 2017, quando a taxa de MVI chegou a 30,9 para cada grupo de 100 mil habitantes, os anos de 2018 e 2019 foram marcados por reduções sucessivas dessas mortes.",
+          "prova": "Mesmo texto do Anuário (não conta como fonte independente): define a unidade da taxa, por 100 mil habitantes, e a queda em 2019."
+        }
+      ]
+    },
+    {
+      "id": "A180",
+      "veredito": "VERDADEIRO",
+      "resumo": "CRs ativos de CACs subiram de 117.467 para 197.390 em 2019, alta recorde até então; depois o ritmo foi maior",
+      "explicacao": "A série do Exército publicada no Anuário Brasileiro de Segurança Pública de 2023 (FBSP) mede Certificados de Registro (CR) ativos de CACs, não emissões por ano. Ela passou de 117.467 em 2018 para 197.390 em 2019, um acréscimo de 79.923, o maior da série desde 2005 até então (o de 2018 foi de 54.330). Em 2019, portanto, houve recorde. Mas o recorde foi superado nos anos seguintes: o acréscimo foi de 89.511 em 2020, 284.820 em 2021 e 211.664 em 2022; o Poder360, com o Anuário de 2025, informa 329.493 CRs concedidos a pessoas físicas em 2022, e dados do Exército obtidos pelo Brasil de Fato via LAI mostram, na 1ª Região Militar, emissões em 2021 47,4% acima de 2019. A frase sobre 2019 confere, por isso VERDADEIRO, com a ressalva de que a série é de estoque e de que 2019 não foi o pico do governo. A CNN reproduz o mesmo Anuário e não conta como fonte independente.",
+      "numero_dito": null,
+      "numero_apurado": "CRs ativos de 117.467 (2018) para 197.390 (2019), acréscimo de 79.923",
+      "data_de_referencia": "série de CRs ativos de CACs de 2005 a 2022; comparação entre 2017, 2018 e 2019",
+      "ressalva": "A série do Exército é de CRs ativos; o acréscimo foi maior em 2020, 2021 e 2022",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Poder360 traz dois números para 2022: o subtítulo fala em 78.143 novos CRs e o corpo do texto em 329.493 CRs a pessoas físicas; a checagem usa o do corpo, atribuído ao Anuário, e o veredito não depende dele.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "79.923",
+          "de": "197.390 menos 117.467",
+          "como": "acréscimo de CRs ativos em 2019, diferença entre o estoque de 2019 e o de 2018"
+        },
+        {
+          "valor": "54.330",
+          "de": "117.467 menos 63.137",
+          "como": "acréscimo de CRs ativos em 2018, diferença entre o estoque de 2018 e o de 2017"
+        },
+        {
+          "valor": "89.511",
+          "de": "286.901 menos 197.390",
+          "como": "acréscimo de CRs ativos em 2020"
+        },
+        {
+          "valor": "284.820",
+          "de": "571.721 menos 286.901",
+          "como": "acréscimo de CRs ativos em 2021"
+        },
+        {
+          "valor": "211.664",
+          "de": "783.385 menos 571.721",
+          "como": "acréscimo de CRs ativos em 2022"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (Anuário 2023)",
+          "titulo": "A herança de meia década de descontrole sobre as armas de fogo no Brasil (Gráfico 63)",
+          "url": "https://forumseguranca.org.br/wp-content/uploads/2023/08/anuario-2023-texto-11-a-heranaa-de-meia-decada-de-descontrole-sobre-as-armas-de-fogo-no-brasil.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "GRÁFICO 63 783.385 Número de Certificados de Registros (CR) ativos de Caçadores, Atiradores e Colecionadores (CAC) no SIGMA/Exército Brasileiro Brasil - 2005-2022 800.000 700.000 571.721 600.000 500.000 400.000 300.000 286.901 200.000 197.390 117.467 100.000 13.378 17.817 21.802 25.927 30.648 37.974 40.973 41.803 41.935 40.481 42.397 55.306 63.137",
+          "prova": "Série anual de CRs ativos de 2005 a 2022: 117.467 em 2018, 197.390 em 2019, 286.901 em 2020, 571.721 em 2021 e 783.385 em 2022."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil de Fato (dados do Comando do Exército via LAI)",
+          "titulo": "Como o acesso facilitado a armas de fogo beneficia as milícias no Rio (02/12/2021)",
+          "url": "https://www.brasildefato.com.br/2021/12/02/como-a-acesso-facilitado-a-armas-de-fogo-beneficia-as-milicias-no-rio/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao todo, 4.076 certificados de registros foram expedidos até agosto de 2021, um número 21,4% maior do que todo o ano de 2020 e 47,4% maior do que em 2019.",
+          "prova": "Dado de emissões (não de estoque), regional, que mostra 2019 superado em 2021."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (19º Anuário Brasileiro de Segurança Pública)",
+          "titulo": "Concessões para CACs caem 79,4% desde fim do governo Bolsonaro (24/07/2025)",
+          "url": "https://www.poder360.com.br/brasil/concessoes-para-cacs-caem-79-desde-fim-do-governo-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 2022, último ano da gestão de Jair Bolsonaro (PL), o Exército concedeu 329.493 CRs a pessoas físicas.",
+          "prova": "Emissões de 2022 muito acima do acréscimo de 2019, o que mostra que o pico veio depois."
+        }
+      ]
+    }
+  ]
+}
