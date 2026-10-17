@@ -1,0 +1,432 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada, revisor r7)",
+  "A171": {
+    "decisao": "mantido",
+    "nota": "Contra: Flávio é senador e diz 'nós, no Congresso Nacional, melhoramos', mas o Senado não tinha votado; a alteração foi da Câmara. Cai: o Congresso inclui a Câmara, o juízo 'melhoramos' ficou fora, e o resumo e a ressalva dizem que o Senado ainda não havia votado. Conferi a fala na transcrição (2060,8 s a 2064,7 s) e os quatro trechos nas capturas p05 do caso de 15/out (substitutivo com 'diversas alterações', mudanças listadas pelo Estadão, CCJ concluída em 14/10, retirada de pauta em 15/10). Resumo com 113 caracteres.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A172": {
+    "decisao": "mantido",
+    "nota": "Contra: 'era uma PEC que controlava policiais' é caracterização política (juízo), e caberia NAO_CHECAVEL; ou, ao contrário, há corregedorias autônomas e ouvidorias no texto, e caberia VERDADEIRO. Fica de pé o IMPRECISO: a frase descreve o conteúdo de um texto normativo, que se confere; a Agência Câmara (captura p04 do caso de 15/out) traz no mesmo trecho o tripé (Susp, competências da PF, coordenação da União) e os dispositivos de corregedoria e ouvidoria, e a sequência da fala ('e a gente mudou pra PEC que tem que controlar os bandidos', 2071 s) mostra que ele apresenta o controle como o eixo, o que toma o acessório pelo todo. Resumo e ressalva sem número e sem intenção.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A173": {
+    "decisao": "mantido",
+    "nota": "Provisório: a explicação começa pelo marcador exato e a confiança é baixa. Contra: a busca não exaustiva poderia ter achado a pergunta; é exatamente o que o marcador declara. Falta para a rodada 2: o relatório da Quaest com a pergunta sobre limitar o acesso a armas (redação, percentual, se passa de 50%), e saber se é da Quaest eleitoral (30/08 a 1º/09) ou da Quaest/Pax (12 a 15/09). Os dois trechos foram achados nas capturas p04 do caso de 15/out. Não é FALSO sem dado contrário, a mesma régua dos dois lados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6"
+    ]
+  },
+  "A174": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Depende do mesmo relatório da A173. Falta para a rodada 2: o percentual entre as mulheres e o total na pergunta de armas e se a diferença supera a margem do recorte. O trecho do BNews (76% contra 63%, em outra pergunta) foi achado e a prova diz corretamente que é outra pergunta.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6"
+    ]
+  },
+  "A175": {
+    "decisao": "mantido",
+    "nota": "Contra: Renata fala de 'vários deputados' do 'seu time', e a prova é de um deputado (Pollon), que ainda disse que 'o foco não é necessariamente ampliar o acesso'. Cai: Pollon foi anunciado por Flávio para a área, a Gazeta registra que ele verbaliza a facilitação do acesso, o PL 4396/2025 facilita o porte, e o próprio candidato assina o PDL 193/2023 contra o decreto restritivo de Lula (Agência Senado, N1); a ressalva leva a fala de Pollon sobre o porte. Há ainda, na captura p18, outra página da Gazeta (07/08/2026, não citada) dizendo que Flávio e sua equipe trabalham num plano que facilite o acesso de civis a armas. Trechos achados (p18-r2, p18-r5).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A176": {
+    "decisao": "mantido",
+    "nota": "Contra: Pollon diz que o plano vai além de restaurar as medidas antigas e que ampliar o porte não é o foco; 'resgatar medidas' seria esticar. Cai: 'o primeiro passo será reverter os retrocessos promovidos pelo governo Lula na política de armas' é, na substância, desfazer o Decreto 11.366, que suspendeu o regime de 2019 a 2022, e o PDL de Flávio pede a sustação do decreto de Lula. A ressalva diz que o plano vai além. O plural 'eles' tem um deputado e o próprio candidato documentados; pergunta de régua anotada para a coerência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A177": {
+    "decisao": "mantido",
+    "nota": "Contra: 'vigoraram' poderia ser contestado porque trechos dos decretos foram suspensos pelo STF antes de 2023. Cai: a frase só diz que medidas de ampliação vigoraram no governo Bolsonaro, e a página do Planalto (captura p18) traz o Decreto 9.845 de 25/06/2019, 'Revogado pelo Decreto nº 11.366, de 2023'; o FBSP (N2) documenta a ampliação dos calibres em 2019. Resumo sem número fora dos trechos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A178": {
+    "decisao": "mantido",
+    "nota": "Contra: 'vários deputados... falam em revogar o Estatuto' e só um deputado está documentado. Fica de pé: a essência (aliados da campanha falam em revogar) está provada por Pollon, autor do PL 3931/2025 ('Revoga a Lei nº 10.826', dados abertos da Câmara, com o id do autor conferido em outra consulta), e a Gazeta diz que o próprio Flávio terá a revogação como prioridade; a ressalva declara que só Pollon foi conferido. O plural não é contradito, só não foi contado, e não há número a medir pela régua de 10%. Anotado para a coerência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A179": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase diz 'taxa de homicídio', e pelos dados de saúde (SIM) os homicídios caíram 21%, desvio de cerca de 19% sobre o apurado, acima da régua; o checador teria escolhido o indicador que dá 17. Cai: o o_que_conferir, escrito antes, já perguntava qual indicador dá 17%; a taxa de MVI do Anuário (27,6 para 22,7, queda de 17,8%, desvio de 4,5% sobre o apurado, conta refeita) é o indicador nacional de mortes violentas, e nas duas bases a queda em 2019 existe na ordem dita; a ressalva traz os 21% e o alerta de subnotificação. Trechos achados na captura p18; a terceira fonte é declarada como não independente.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A180": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase fala de 'emissões' de certificados, e a série do Exército no Anuário é de CRs ativos (estoque); acréscimo líquido não é emissão. Não derruba: o acréscimo líquido de 2019 (79.923) é um piso das emissões do ano e supera o de todos os anos anteriores da série (o maior antes era 54.330, em 2018), e a ressalva diz que a série é de estoque e que 2020 a 2022 tiveram acréscimo maior. A única busca da revisão, atrás do que contradiria, achou reportagem de 2019 segundo a qual o Exército concedeu 18,5 mil registros só de janeiro a maio de 2019, 39,4% do total de 2018, com alta de 42% no período; não contradiz e não foi capturada, então não entrou como fonte. Contas das derivações conferidas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A181": {
+    "decisao": "mantido",
+    "nota": "Contra (o mais forte do lote): 'isso aí é o que está na Constituição, o direito à legítima defesa' é contradito no essencial, porque a Constituição não menciona legítima defesa (conferi: nenhuma ocorrência no texto integral capturado) e a PEC 100/2019, que quer incluí-la no art. 5º, não foi aprovada; seria FALSO, como a A182. Fica de pé o IMPRECISO com confiança média: na transcrição (2205 s a 2216 s) o 'isso aí' é o direito de quem cumpre os requisitos ter arma para defender família e propriedade; o direito à legítima defesa existe no ordenamento (Código Penal, arts. 23 e 25) e a Constituição garante vida e segurança; a posição contrária citada (PFDC) é de uma das partes do debate. O erro é o lugar onde o direito está escrito, não a existência do direito. Pergunta de régua anotada para a coerência.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A182": {
+    "decisao": "mantido",
+    "nota": "Contra: é hipérbole política, e o essencial (o Estatuto é restritivo) estaria certo; o porte é proibido como regra (art. 6º), e uma página capturada na p18 (Gazeta do Povo Lab, 07/08/2026, não citada) chega a dizer que a lei proíbe 'o porte e a posse como regra geral'. Não derruba: a fonte primária ganha (pergunta 4), e o texto vigente da Lei 10.826 (arts. 4º e 5º) autoriza compra e posse a quem cumpre requisitos, e o Decreto 11.615 diz que se pode adquirir 'até duas armas de fogo para defesa pessoal'; a frase diz 'proíbe o cidadão de se defender', e o registro prevê o contrário. A ressalva leva o ponto restritivo real (porte). Trechos achados na captura p19.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A183": {
+    "decisao": "mantido",
+    "nota": "Contra: a frase quer dizer que o crime se arma porque a lei não funciona, e checá-la ao pé da letra seria injusto. Cai: a frase afirma o que a lei 'autoriza', e a lei exige antecedentes limpos para comprar (art. 4º) e pune com 3 a 6 anos a arma de uso restrito sem autorização (art. 16); a explicação separa a afirmação sobre o mercado ilegal, que não foi checada. Resumo sem leitura de intenção, com números dos trechos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A184": {
+    "decisao": "mantido",
+    "nota": "Contra: 'não tem fiscalização nenhuma' é juízo sobre eficácia, não fato. Cai: o enunciado é absoluto, e o registro mostra fiscalização em funcionamento (Sinarm e Exército na lei, PF no decreto, apreensões de fuzis pela PM, pela PF e pela PRF em 2025); a explicação declara que a suficiência não é medida. Confiança média adequada: as apreensões vêm de N4. Trechos achados (p19, p19-r8).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A185": {
+    "decisao": "alterado",
+    "nota": "Contra: a Lei 14.601 de 2023 criou adicionais para crianças, então 'não deu reajuste para ninguém' seria falso para famílias com filhos; e, contado do relançamento (março de 2023), o período é de 3 anos e 6 meses, desvio acima de 10%. Não derruba: o caso de 15/out (A116, A118) leu os adicionais como desenho novo, não reajuste, e o piso de R$ 600 vigorou desde janeiro de 2023, então a conta da posse é a que corresponde a 'esqueceu por quatro anos'. Achado: o desvio estava medido sobre o número dito (7%), e este caso e o de 15/out medem sobre o apurado; refeita a conta, 3,5 meses sobre 44,5 dá cerca de 8%, ainda abaixo de 10%. Explicação e derivação corrigidas; veredito mantido. Detalhe em correcoes-r7.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A186": {
+    "decisao": "mantido",
+    "nota": "Contra: numa sabatina de 2º turno, 'para a eleição' poderia ser lido como o dia 25/10, e seriam 38 dias. Cai: a frase fala do momento do anúncio ('faltando 17 dias para a eleição, ele lembra'), e de 17/9 ao 1º turno, em 4/10, são 17 dias (conferi que 4/10/2026 é domingo); Poder360 e Tribuna de Jundiaí usam a mesma conta. O trecho da Tribuna arrasta o menu do site, mas foi achado e contém o título com a contagem.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A187": {
+    "decisao": "alterado",
+    "nota": "Contra: o R$ 600 foi temporário, de agosto a dezembro de 2022, e a comparação é nominal; 'foi o Bolsonaro que triplicou' daria impressão de aumento permanente. Não derruba o VERDADEIRO: a frase diz que passou a R$ 600 em média no governo Bolsonaro, e isso ocorreu (R$ 607,88 em agosto de 2022, número do ministério reproduzido por duas redações, mais a EC 123 como N1 do acréscimo); a ressalva leva o caráter temporário e a conta nominal. Achado: a régua não estava escrita; 'o triplo' contra 3,2 vezes dá desvio de cerca de 7% sobre o apurado, e 600 contra 607,88, cerca de 1%. Entraram a conta na explicação e uma derivação; veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A188": {
+    "decisao": "mantido",
+    "nota": "Contra: a Agência Câmara está marcada como N1, mas é agência de notícias que repete o valor do programa. Não muda nada: há o FGV/IBRE (N2), com 'em torno de R$ 190', e a reprodução do ministério pelo Jornal de Brasília (R$ 190,57); desvio abaixo de 1% nas duas pontas. Trechos achados nas capturas p19-r4 e p19-r7.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A189": {
+    "decisao": "mantido",
+    "nota": "Contra: prisão é fato de investigação em curso (etica §5). Cai: o que se checa é o fato documentado da prisão em 15/10 (quinta-feira, conferido no calendário), não culpa, e a ressalva diz que não há decisão definitiva. Confiança alta só com N4 é o padrão dos dois casos para fato noticiado por duas redações (A068 do caso de 15/out); anotado para a coerência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A190": {
+    "decisao": "mantido",
+    "nota": "Contra: nenhum relevante. O JSON do TSE (captura p19) traz MÁRCIO CANELLA, 197178 votos, 'Eleito por QP', conferido no texto capturado em volta do nome, e não só pelos números.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A191": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. O apoio político está documentado, e a explicação diz que não está em dúvida. Falta para a rodada 2: reportagem ou propaganda registrada com vídeo gravado por Flávio para Canella (por exemplo, no anúncio de fevereiro de 2026).",
+    "verificacoes": [
+      "1",
+      "3",
+      "6"
+    ]
+  },
+  "A192": {
+    "decisao": "mantido",
+    "nota": "Contra: pela regra de ética §5 e pelo precedente da A064 do caso de 15/out (Renata, 'suspeitas que pairam sobre vários ministros', INSUSTENTAVEL), fala sobre suspeitas de investigação em curso não poderia ser VERDADEIRO; e as duas fontes reproduzem o mesmo documento da PF, não capturado. Não derruba: a frase descreve o conteúdo de uma representação formal da PF que embasou uma prisão, e não afirma culpa; é a régua da A110 do caso de 15/out e da A112 deste caso ('investigado pela PF', VERDADEIRO). A A064 tratava de suspeitas difusas sobre ministros, sem peça formal. Para a independência, entrou o Poder360 (apuração própria do dia da prisão, já usado na A189, trecho achado) com o objeto da operação. Anotado para a coerência.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A193": {
+    "decisao": "alterado",
+    "nota": "Contra: o acordo documentado é de Jair Bolsonaro, não de Flávio; 'o seu candidato' atribuiria a Flávio uma escolha do pai. Não derruba: Flávio estava indicado ao Senado na chapa de Bacellar (Jovem Pan, 27/05/2025), e a ressalva diz que o acordo foi de Jair. Achado: uma página já capturada na p20 e não usada, a Gazeta do Povo de 04/08/2026, descreve a escolha de Douglas Ruas como 'troca no grupo de Flávio' depois que Bacellar deixou a corrida; entrou como fonte e na explicação. Veredito mantido. A fala de Renan Santos foi corretamente deixada de fora.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A194": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Conferido no texto capturado do O Antagonista (28/03/2026): a prisão de março é da Operação Unha e Carne III, por vazamento, depois de o TSE cassar o mandato, e ele já tinha sido preso em 03/12/2025. Falta para a rodada 2: registro de que ele seguia preso em 16/10/2026 e o fundamento formal da prisão; 'comandar o braço político' é a caracterização do relatório da PF.",
+    "verificacoes": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  "A195": {
+    "decisao": "mantido",
+    "nota": "Contra: Castro poderia ter recurso ao STF ou liminar; e as três fontes são N4. Cai: 'tornado inelegível' é verdadeiro pelo ato do TSE de 24/03/2026, mantido em 02/06/2026; recurso posterior não desfaz que ele foi tornado inelegível, e não é fato em apuração. Confiança alta só com N4 é o padrão do caso; anotado para a coerência. Há na captura p20 páginas do SBT News, da Exame e da Gazeta sobre a mesma decisão, não usadas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A196": {
+    "decisao": "mantido",
+    "nota": "Contra: ser alvo de busca autorizada pelo STF já seria estar 'enrolado', e o card poderia ser VERDADEIRO. Cai: 'enrolado' afirma envolvimento que depende de apuração sem denúncia, e etica §5 manda INSUSTENTAVEL; é a mesma régua da A076 do caso de 15/out (Lula, 'o Castro está implicado'), com as mesmas fontes: os dois lados da mesa recebem o mesmo veredito para a mesma afirmação.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A197": {
+    "decisao": "mantido",
+    "nota": "Contra: 'sempre ali no alto da lista', lido com rigor, exige todas as rodadas, e só quatro foram achadas; na Quaest a saúde está empatada em 3º, com 14% contra 31% da violência. Fica de pé: 'no alto da lista' não é 'em primeiro', e em todas as rodadas achadas, de dois institutos, ela está entre as três primeiras; a divergência entre institutos está escrita, e a ressalva diz que ela só lidera no Datafolha. Nenhuma rodada contrária foi achada. Pergunta de régua ('sempre' com quatro rodadas) anotada para a coerência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A198": {
+    "decisao": "mantido",
+    "nota": "Contra: a transcrição não resolve o cargo ('medir em história da saúde'). Cai: três redações registram o anúncio de Lottenberg como ministro da Saúde em 28/08/2026, uma com a fala literal; o card não cita a palavra duvidosa.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A199": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Falta para a rodada 2: segunda fonte independente para a precedência, ou a lista datada dos nomes anunciados depois. O resumo diz que falta a segunda fonte.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6"
+    ]
+  },
+  "A200": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. Os trechos documentam crítica à condução da pandemia, não à compra de vacinas. Falta para a rodada 2: entrevistas e artigos de 2020 e 2021; os trechos da A201 (Jovem Pan e O Povo, atraso e lentidão da vacinação) podem servir aqui.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6"
+    ]
+  },
+  "A201": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa. O teor (crítica ao atraso da vacinação) está nos três trechos, achados na captura p21; a citação entre aspas não. Falta para a rodada 2: a entrevista original com a redação lida.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6"
+    ]
+  },
+  "A202": {
+    "decisao": "mantido",
+    "nota": "Contra: duas das três fontes remontam ao próprio hospital (conteúdo de marca e nota), e confiança alta só com N4 seria generosa; e o cargo era o da sociedade mantenedora. Cai: a explicação declara a dependência, a Medicina S/A traz o mesmo dado em texto próprio, e a ressalva leva a nuance do cargo; 'foi o presidente' bate com 2001 a 2016. Confiança alta com N4 é o padrão do caso; anotado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A203": {
+    "decisao": "mantido",
+    "nota": "Contra: 'melhor hospital do Brasil' é juízo de valor. Cai: a frase se ancora num ranking conferível, e a lista Brasil da Newsweek/Statista 2026 (captura p21) põe o Einstein em 1º, com 92,30%; a ressalva diz que outros rankings não foram conferidos, e a confiança é média.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A204": {
+    "decisao": "mantido",
+    "nota": "Contra: a Newsweek não tem lista regional da América Latina. Cai: as 15 posições acima do Einstein na lista mundial (trecho achado) não têm hospital latino-americano, e 'um dos melhores' é mais modesto que o dado; a ressalva diz que o ranking regional não foi conferido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A205": {
+    "decisao": "mantido",
+    "nota": "Contra: nenhum relevante. 25 menos 16 dá 9; data do 2º turno em duas redações e na Constituição; data da sabatina no Poder360. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A206": {
+    "decisao": "mantido",
+    "nota": "Contra: nenhum relevante. O JSON do TSE (captura p01 do caso de 15/out) traz FLAVIO NANTES BOLSONARO com o número 22 e a situação '2º turno', conferido no texto em volta do nome.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A207": {
+    "decisao": "mantido",
+    "nota": "Contra: 'ninguém vai saber qual é o seu voto' é promessa, não norma. Cai: a alegação checada é a norma, e a Constituição (arts. 14 e 60), o Código Eleitoral (arts. 103 e 312) e a Lei 9.504 (art. 61) a confirmam; trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ]
+  }
+}

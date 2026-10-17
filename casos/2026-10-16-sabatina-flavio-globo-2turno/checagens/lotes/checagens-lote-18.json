@@ -98,67 +98,101 @@
     },
     {
       "id": "A173",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Não foi localizado o dado da Quaest de setembro sobre limitar o acesso a armas",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas três buscas pela pesquisa Quaest de setembro de 2026 com pergunta sobre acesso a armas e segurança pública, sem resultado. Estão documentadas duas pesquisas Quaest de setembro: a eleitoral contratada pela TV Globo e O Globo (campo de 30/08 a 1º/09, registro BR-07065/2026), que mediu a violência como principal preocupação (o mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno, A043, VERDADEIRO), e a Pesquisa Nacional de Segurança e Tecnologia, Quaest com a Pax (campo de 12 a 15/09), cuja cobertura capturada não traz pergunta sobre armas. Falta localizar o relatório da Quaest com a pergunta sobre limitar o acesso a armas, a redação exata e o percentual, para saber se passa de 50%. Sem isso, as fontes não sustentam nem contradizem a atribuição; não é FALSO porque não há dado em sentido contrário.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": null,
-      "ressalva": null,
-      "confianca": "baixa",
+      "veredito": "VERDADEIRO",
+      "resumo": "Na Quaest com a Pax de setembro, 58% apoiam restringir o acesso a armas como medida para a segurança; 39% rejeitam",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). A pesquisa que resolve é a Pesquisa Nacional de Segurança e Tecnologia, da Quaest com a Pax (campo de 12 a 15/09/2026, 2.004 entrevistas, margem de dois pontos), e não a Quaest eleitoral de 30/08 a 1º/09, que a rodada 1 também tinha listado. Nela, numa bateria sobre as medidas consideradas efetivas para melhorar a segurança pública (Agenda do Poder) ou sobre soluções para o aumento da criminalidade (Exame), restringir o acesso da população a armas de fogo teve 58% de aprovação e 39% de reprovação (Exame; 58% também no Brasil em Folhas e no Agenda do Poder). 58% passa de 50%, e a pergunta é sobre a restrição como medida de segurança, que é o que a frase diz ('limitar o acesso melhora a segurança pública'). Fontes: as quatro reportagens reproduzem o mesmo relatório da Quaest, que não foi localizado no site do instituto (a captura de quaest.com.br não traz o relatório); pela regra 2 da §3.1, elas contam como apoio da mesma primária, e por isso a confiança é média, a mesma régua da A043 do caso 2026-10-15-sabatina-lula-globo-2turno, que usou a mesma pesquisa por reportagens (N4). Não é IMPRECISO: a redação exata da pergunta não foi conferida no questionário, mas as duas descrições independentes da bateria (medida efetiva para a segurança, solução para a criminalidade) sustentam a leitura da frase, e a restrição é, ainda assim, a medida menos aprovada da lista.",
+      "numero_dito": "a maioria dos brasileiros",
+      "numero_apurado": "58% de aprovação e 39% de reprovação à restrição do acesso da população a armas de fogo",
+      "data_de_referencia": "Pesquisa Nacional de Segurança e Tecnologia, Quaest com a Pax, campo de 12 a 15/09/2026, divulgada em 18/09/2026",
+      "ressalva": "É a pesquisa da Quaest com a Pax, não a eleitoral; foi a medida menos aprovada da lista, com 39% contra",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Exame",
+          "titulo": "Pax/Quaest: 70% dos eleitores dizem que violência aumentou muito nos últimos dois anos",
+          "url": "https://exame.com/brasil/pax-quaest-70-dos-eleitores-dizem-que-violencia-aumentou-muito-nos-ultimos-dois-anos/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A pesquisa também foi questionada sobre algumas soluções para o aumento da criminalidade, muitas propostas por candidatos nas Eleições Gerais de 2026 . [...] Entre elas, a medida que menos agrada os eleitores é a restrição de armas de fogo pela população, que possui aprovação de 58% dos entrevistados e reprovação de 39%.",
+          "prova": "Dá o percentual (58% a favor, 39% contra) e mostra que a pergunta era sobre soluções para a criminalidade: a maioria aprova a restrição."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agenda do Poder",
+          "titulo": "Quaest: violência lidera problemas do Brasil e 91% querem tecnologia nos planos de governo",
+          "url": "https://agendadopoder.com.br/quaest-violencia-lidera-problemas-do-brasil-e-91-querem-tecnologia-nos-planos-de-governo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O levantamento também perguntou quais medidas são consideradas efetivas para melhorar a segurança pública. [...] A criação de um Ministério da Segurança Pública recebe concordância de 78%, enquanto 58% apoiam restringir o acesso da população a armas de fogo.",
+          "prova": "Descreve a bateria como medidas efetivas para melhorar a segurança pública, que é a leitura da frase, e repete os 58%."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil em Folhas",
+          "titulo": "Maioria dos brasileiros apoia restrição ao acesso de armas (18/09/2026)",
+          "url": "https://www.brasilemfolhas.com.br/2026/09/maioria-dos-brasileiros-apoia-restricao-ao-acesso-de-armas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Cerca de 58% dos brasileiros são favoráveis à restrição do acesso a armas de fogo para a população, segundo a Pesquisa Nacional de Segurança e Tecnologia, divulgada nesta sexta-feira (18). O levantamento, realizado pela Quaest em parceria com a Pax, aponta que a segurança pública é a principal preocupação de 28% dos entrevistados.",
+          "prova": "Terceira reprodução do mesmo dado, e identifica a pesquisa (Quaest com a Pax, divulgada em setembro)."
+        },
         {
           "nivel": "N4",
           "instituicao": "BNews",
           "titulo": "Violência supera corrupção e economia entre principais problemas do Brasil, aponta Quaest",
           "url": "https://www.bnews.com.br/noticias/policia/violencia-supera-corrupcao-e-economia-entre-principais-problemas-do-brasil-aponta-quaest.html",
           "consultada_em": "2026-10-17",
-          "trecho": "A violência é apontada como o principal problema enfrentado pelo Brasil por 28% dos brasileiros, segundo a Pesquisa Nacional de Segurança e Tecnologia, realizada pela Quaest em parceria com a Pax e divulgada nesta sexta-feira (18). [...] O levantamento foi realizado entre os dias 12 e 15 de setembro, com 2.004 brasileiros de 16 anos ou mais entrevistados presencialmente.",
-          "prova": "Documenta uma pesquisa Quaest de setembro sobre segurança; a cobertura capturada não traz a pergunta sobre armas."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Diario de Pernambuco",
-          "titulo": "Quaest: violência é a maior preocupação para 31% dos eleitores (02/09/2026)",
-          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722889-quaest-violencia-e-a-maior-preocupacao-para-31-dos-eleitores.html",
-          "consultada_em": "2026-10-17",
-          "trecho": "A pesquisa Quaest, contratada pela TV Globo e pelo jornal O Globo, ouviu 2.004 eleitores entre os dias 30 de agosto e 1º de setembro. A margem de erro é de dois pontos porcentuais, para mais ou para menos, com nível de confiança de 95%. O levantamento foi registrado no Tribunal Superior Eleitoral (TSE) sob o protocolo BR-07065/2026.",
-          "prova": "A outra pesquisa Quaest de setembro documentada; a cobertura capturada não traz a pergunta sobre armas."
+          "trecho": "O levantamento foi realizado entre os dias 12 e 15 de setembro, com 2.004 brasileiros de 16 anos ou mais entrevistados presencialmente. A margem de erro é de dois pontos percentuais, com nível de confiança de 95%.",
+          "prova": "Data de campo (setembro) e margem de erro da pesquisa: 58% fica acima de 50% mesmo descontada a margem."
         }
       ]
     },
     {
       "id": "A174",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Não foi localizado o recorte por sexo da Quaest de setembro sobre limitar o acesso a armas",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: depende do mesmo relatório da A173, que três buscas não localizaram. A Pesquisa Nacional de Segurança e Tecnologia da Quaest de setembro traz recortes por sexo em outras perguntas (por exemplo, a percepção de aumento da violência é maior entre as mulheres), mas a cobertura capturada não traz a pergunta sobre armas nem o seu recorte por sexo. Falta localizar o percentual entre as mulheres e o total na pergunta sobre limitar o acesso a armas, e conferir se a diferença supera a margem de erro do recorte. Não é FALSO porque não há dado em sentido contrário.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": null,
-      "ressalva": null,
-      "confianca": "baixa",
+      "veredito": "VERDADEIRO",
+      "resumo": "Entre as mulheres, 62% apoiam restringir o acesso a armas, contra 58% no total e 55% entre os homens",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). Na mesma pergunta da A173 (Pesquisa Nacional de Segurança e Tecnologia, Quaest com a Pax, campo de 12 a 15/09/2026), a restrição do acesso a armas tem 62% de aprovação entre as mulheres, 58% no total e 55% entre os homens (Exame e Brasil em Folhas). A margem é de dois pontos para o total e de três para cada sexo (Metrópoles). A diferença entre as mulheres e o total é de 4 pontos (derivação), acima da margem de três pontos do recorte por sexo, e a diferença entre mulheres e homens (62% contra 55%) fica fora das margens dos dois recortes. Fontes: as reportagens reproduzem o mesmo relatório da Quaest, não localizado no site do instituto; pela regra 2 da §3.1 contam como apoio da mesma primária, e a confiança é média, como na A173. VERDADEIRO, e não IMPRECISO, porque o recorte confere com o que a frase diz ('ainda maior entre as mulheres').",
+      "numero_dito": "ainda maior entre as mulheres",
+      "numero_apurado": "62% entre as mulheres, 58% no total e 55% entre os homens",
+      "data_de_referencia": "Pesquisa Nacional de Segurança e Tecnologia, Quaest com a Pax, campo de 12 a 15/09/2026",
+      "ressalva": "A diferença para o total é de 4 pontos, pouco acima da margem de 3 pontos do recorte por sexo",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "4 pontos",
+          "de": "62% menos 58%",
+          "como": "diferença entre o percentual das mulheres e o do total na mesma pergunta"
+        }
+      ],
       "fontes": [
         {
           "nivel": "N4",
-          "instituicao": "BNews",
-          "titulo": "Violência supera corrupção e economia entre principais problemas do Brasil, aponta Quaest",
-          "url": "https://www.bnews.com.br/noticias/policia/violencia-supera-corrupcao-e-economia-entre-principais-problemas-do-brasil-aponta-quaest.html",
+          "instituicao": "Exame",
+          "titulo": "Pax/Quaest: 70% dos eleitores dizem que violência aumentou muito nos últimos dois anos",
+          "url": "https://exame.com/brasil/pax-quaest-70-dos-eleitores-dizem-que-violencia-aumentou-muito-nos-ultimos-dois-anos/",
           "consultada_em": "2026-10-17",
-          "trecho": "A percepção de aumento é maior entre as mulheres. Enquanto 76% delas afirmaram que a violência aumentou muito, o índice entre os homens foi de 63%.",
-          "prova": "Mostra que a pesquisa de setembro tem recorte por sexo, mas em outra pergunta, não na de acesso a armas."
+          "trecho": "Entre elas, a medida que menos agrada os eleitores é a restrição de armas de fogo pela população, que possui aprovação de 58% dos entrevistados e reprovação de 39%. Essa restrição é melhor aceita entre as mulheres (62%) do que entre os homens (55%).",
+          "prova": "Dá o recorte por sexo da mesma pergunta: 62% entre as mulheres contra 58% no total."
         },
         {
           "nivel": "N4",
-          "instituicao": "Diario de Pernambuco",
-          "titulo": "Quaest: violência é a maior preocupação para 31% dos eleitores (02/09/2026)",
-          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722889-quaest-violencia-e-a-maior-preocupacao-para-31-dos-eleitores.html",
+          "instituicao": "Brasil em Folhas",
+          "titulo": "Maioria dos brasileiros apoia restrição ao acesso de armas (18/09/2026)",
+          "url": "https://www.brasilemfolhas.com.br/2026/09/maioria-dos-brasileiros-apoia-restricao-ao-acesso-de-armas/",
           "consultada_em": "2026-10-17",
-          "trecho": "A pesquisa Quaest, contratada pela TV Globo e pelo jornal O Globo, ouviu 2.004 eleitores entre os dias 30 de agosto e 1º de setembro.",
-          "prova": "A outra pesquisa Quaest de setembro documentada; a cobertura capturada não traz recorte sobre armas."
+          "trecho": "A concordância com a limitação do armamento é maior entre mulheres (62%) e pessoas pretas (67%) do que entre homens (55%) e brancos (54%).",
+          "prova": "Segunda reprodução do recorte: maior entre as mulheres."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Metrópoles (coluna de Matheus Leitão)",
+          "titulo": "Mulheres querem mais tecnologia no combate ao feminicídio, aponta pesquisa",
+          "url": "https://www.metropoles.com/colunas/matheus-leitao/mulheres-querem-mais-tecnologia-no-combate-ao-feminicidio-aponta-pesquisa",
+          "consultada_em": "2026-10-17",
+          "trecho": "O levantamento entrevistou presencialmente 2.004 brasileiros com 16 anos ou mais entre 12 e 15 de setembro. A margem de erro é de 2 pontos percentuais para o total e de 3 pontos para cada sexo, com nível de confiança de 95%.",
+          "prova": "Margem do recorte por sexo (3 pontos), para saber se a diferença de 4 pontos passa da margem."
         }
       ]
     },

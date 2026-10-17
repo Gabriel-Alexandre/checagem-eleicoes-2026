@@ -6,15 +6,22 @@
   {
    "id": "A161",
    "veredito": "INSUSTENTAVEL",
-   "resumo": "Fecharam 942.049 empresas no 2º quadrimestre de 2025, alta de 12,9%; a série anual de recorde não foi conferida",
-   "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério era a série do Mapa de Empresas (Ministério do Empreendedorismo). Foi conferido: o boletim do 2º quadrimestre de 2025 registra 942.049 empresas fechadas, aumento de 12,9% sobre o mesmo período de 2024, e o gráfico do boletim que compara o 2º quadrimestre de 2020 a 2025 traz esse valor como o maior entre os seis anos (leitura do gráfico, não de tabela). Mas o mesmo boletim mostra 1.668.753 aberturas e saldo positivo de 726.704 empresas no período; o 1º quadrimestre de 2025 teve 973.330 fechamentos, queda de 13,4% sobre o ano anterior (Diário do Comércio, citando o Mapa de Empresas); e o boletim anual de 2023 registra 2.153.840 fechamentos naquele ano, alta de 25,7% sobre 2022, mas o próprio boletim lembra que 2015 e 2018 tiveram fechamentos expressivos por mudanças de regra. Falta a série anual completa (boletins anuais de 2024 e 2025 e o do 1º quadrimestre de 2026, vigentes na data da fala), que não abriu pelos endereços conhecidos, para dizer se há recorde em número absoluto e em qual recorte (com ou sem MEI). Sem ela, a fonte não sustenta nem desmente o 'recorde'; por isso INSUSTENTAVEL provisório, e não FALSO nem IMPRECISO. Nota: a Diário do Comércio é imprensa que reproduz a primária (Mapa de Empresas), e conta como apoio.",
+   "resumo": "Fechamentos de empresas subiram em 2024 e 2025 nos quadrimestres conferidos; o total anual que diria o recorde falta",
+   "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: refeita na rodada 2 de 17/out/2026 (parte 3), com três buscas e cerca de 40 endereços de boletim tentados, e ainda incompleta. A frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério é a série do Mapa de Empresas (Ministério do Empreendedorismo), em número absoluto e com MEI. O que está conferido, por quadrimestre: 854.150 fechamentos no 1º quadrimestre de 2024 (alta de 15,5% sobre 2023), 830.525 no 2º de 2024 (alta de 11,7%), 973.330 no 1º de 2025 e 942.049 no 2º de 2025 (alta de 12,9%). No 2º quadrimestre, o gráfico do boletim de 2024 (série de 2014 a 2024) e o de 2025 (2020 a 2025) mostram cada ano do governo atual acima do anterior, o que é recorde nesse recorte. No 1º quadrimestre não é: em 2023 os 737 mil fechamentos foram 'o maior número desde 2018' (Gazeta do Povo, reproduzindo o boletim), porque 2018 teve o cancelamento em massa de MEIs inadimplentes (Resolução CGSIM nº 44, citada no boletim anual de 2023). No ano, o último total conferido é o de 2023: 2.153.840 fechamentos, alta de 25,7%. Faltam os boletins anuais de 2024 e 2025 (3º quadrimestre) e o do 1º quadrimestre de 2026, vigentes na data da fala: os endereços do gov.br deram 404 (pastas p17-r3, r2parte3 e r2parte3-r6), a cópia do Poder360 não existe para eles, e três buscas não acharam o total anual de 2024 nem o de 2025 (só o recorde de aberturas de 2025, do Sebrae). Sem o total anual não se diz se 2024 ou 2025 superaram 2018 em número absoluto; por isso o veredito segue INSUSTENTAVEL provisório, e não VERDADEIRO nem FALSO. Contexto que vale para qualquer veredito final: no mesmo período as aberturas superaram os fechamentos (saldo de 726.704 no 2º quadrimestre de 2025), e o número absoluto cresce com o estoque de empresas ativas. Nota: Diário do Comércio e Gazeta do Povo reproduzem o Mapa de Empresas e contam como apoio (regra 2 da §3.1). A refazer: boletim do 3º quadrimestre de 2024 e de 2025 e total anual de 2018 com o mesmo método.",
    "numero_dito": null,
-   "numero_apurado": "942.049 empresas fechadas no 2º quadrimestre de 2025 (+12,9% sobre 2024); 2.153.840 no ano de 2023",
-   "data_de_referencia": "Mapa de Empresas: 2º quadrimestre de 2025, 1º quadrimestre de 2025 e ano de 2023; série anual de 2024 a 2026 não conferida",
+   "numero_apurado": "fechamentos: 854.150 e 830.525 (primeiro e segundo quadrimestres de 2024); 973.330 e 942.049 (primeiro e segundo de 2025); 2.153.840 no ano de 2023",
+   "data_de_referencia": "Mapa de Empresas: quadrimestres de 2024 e 2025 e ano de 2023; totais anuais de 2024 e 2025 não localizados",
    "ressalva": null,
    "confianca": "baixa",
-   "divergencia_entre_fontes": null,
+   "divergencia_entre_fontes": "O Diário do Comércio diz que os 973.330 fechamentos do 1º quadrimestre de 2025 foram 'queda de 13,4%' sobre o ano anterior; o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%.",
    "revisao_humana": null,
+   "derivacoes": [
+    {
+     "valor": "alta de cerca de 14%",
+     "de": "973.330 e 854.150",
+     "como": "variação entre o 1º quadrimestre de 2025 e o de 2024: 973.330 dividido por 854.150, menos 1"
+    }
+   ],
    "fontes": [
     {
      "nivel": "N1",
@@ -27,12 +34,39 @@
     },
     {
      "nivel": "N1",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)",
+     "titulo": "Mapa de Empresas, boletim do 1º quadrimestre de 2024",
+     "url": "https://static.poder360.com.br/2024/08/Mapa-de-empresas-boletim-1o-quadrimestre-2024.pdf",
+     "consultada_em": "2026-10-17",
+     "trecho": "Por outro lado, foram fechadas 854.150 empresas, representando aumento de 24,4% nos números de fechamento de empresas em relação ao terceiro quadrimestre de 2023, além de aumento de 15,5% em relação ao primeiro quadrimestre de 2023.",
+     "prova": "Fechamentos do 1º quadrimestre de 2024, base para medir a variação de 2025."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)",
+     "titulo": "Mapa de Empresas, boletim do 2º quadrimestre de 2024",
+     "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2024.pdf/@@download/file",
+     "consultada_em": "2026-10-17",
+     "trecho": "Histórico de abertura e fechamento de empresas no segundo quadrimestre (2014 a 2024). [...] Por outro lado, foram fechadas 830.525 empresas, representando queda de 3,0% nos números de fechamento de empresas em relação ao primeiro quadrimestre de 2024, além de aumento de 11,7% em relação ao segundo quadrimestre de 2023.",
+     "prova": "Fechamentos do 2º quadrimestre de 2024, maiores que os do mesmo quadrimestre de 2023, na série que o boletim mostra desde 2014."
+    },
+    {
+     "nivel": "N1",
      "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)",
      "titulo": "Mapa de Empresas, boletim do 3º quadrimestre de 2023 (resumo do ano)",
      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf/@@download/file",
      "consultada_em": "2026-10-17",
-     "trecho": "No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022.",
-     "prova": "Único total anual de fechamentos do governo atual que foi possível conferir; não basta para dizer se há recorde na série."
+     "trecho": "No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022. [...] Já em 2018, um dos fatores determinantes para o expressivo número de empresas fechadas foi a aprovação da Resolução CGSIM nº 44, de 29 de janeiro de 2018",
+     "prova": "Total anual de 2023, o último ano fechado que foi possível conferir, e o aviso do próprio boletim de que 2018 teve fechamentos expressivos por cancelamento de MEIs; não basta para dizer se 2024 ou 2025 bateram recorde."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Gazeta do Povo (com dados do Mapa de Empresas)",
+     "titulo": "Saldo de abertura de empresas no Brasil é o menor em cinco anos (30/05/2023)",
+     "url": "https://www.gazetadopovo.com.br/economia/saldo-abertura-empresas-brasil-menor-desde-2018/",
+     "consultada_em": "2026-10-17",
+     "trecho": "De janeiro a abril, país registrou fechamento de 737 mil empresas, maior número desde 2018.",
+     "prova": "Mostra que no 1º quadrimestre o pico da série é de 2018, ano do cancelamento em massa de MEIs, e não do governo atual."
     },
     {
      "nivel": "N4",
@@ -41,23 +75,50 @@
      "url": "https://diariodocomercio.com.br/economia/mg-foi-segundo-estado-maior-fechamento-empresas/",
      "consultada_em": "2026-10-17",
      "trecho": "No mesmo período foram fechadas 973.330 empresas, queda de 13,4% quando comparado com o ano anterior.",
-     "prova": "Mostra que no 1º quadrimestre de 2025 os fechamentos caíram em relação a 2024, o que impede ler 2025 inteiro como recorde sem a série anual."
+     "prova": "Dá o fechamento do 1º quadrimestre de 2025 (973.330). A matéria diz 'queda de 13,4%', mas o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%, e os números estaduais da própria matéria sobem: a variação está lida como alta, com a divergência declarada."
     }
    ]
   },
   {
    "id": "A162",
    "veredito": "INSUSTENTAVEL",
-   "resumo": "Paraguai soma 232 maquiladoras brasileiras desde 2007; 40 começaram a partir de 2023, sem série anual de recorde",
-   "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a frase diz que o governo Lula é 'recordista em indústrias que deixam o Brasil e vão para o Paraguai'. O critério era a série oficial do Ministério de Indústria e Comércio do Paraguai (MIC/CEMAP) por ano de instalação, que não foi capturada (falta a N1 para uma alegação de série histórica). O que as fontes capturadas mostram: o Poder360, com dados do governo paraguaio e da Câmara de Empresários Brasileiros no Paraguai, conta 232 empresas brasileiras no regime de maquila desde 2007, das quais 40 iniciaram operação a partir de 2023 e 26 nos anos de 2021 e 2022, o que não indica ritmo recorde no período atual; o Aos Fatos (checagem) diz que o número se refere a empresas que expandiram a produção e mantêm operação no Brasil, não a mudanças de sede; e A Crítica cita 223 indústrias brasileiras pelo MIC. Os recordes documentados do regime são de exportação (Migalhas e Infonegocios), não de chegada de empresas brasileiras. Sem a série anual, a fonte não sustenta o 'recorde'; não há base para FALSO. Provisório até capturar a série do MIC.",
+   "resumo": "Paraguai aprovou 36 programas de maquila em 2024, recorde, mas de todas as origens; não há série de saídas do Brasil",
+   "explicacao": "Refeita na rodada 2 de 17/out/2026 (parte 3), com duas buscas e a captura dos informes oficiais do Ministério de Indústria e Comércio do Paraguai (MIC). A frase diz que o governo Lula é 'recordista em indústrias que deixam o Brasil e vão para o Paraguai'. O critério era a série do governo paraguaio por ano de instalação e origem do capital. O que existe: o recorde documentado é de programas de maquila aprovados, de todas as origens. O CNIME (conselho paraguaio da maquila) aprovou 36 programas em 2024, 'la cifra más alta en un solo año desde la creación del régimen' (Infonegocios, imprensa paraguaia citando o CNIME), e o informe oficial do MIC de dezembro de 2025 registra 22 programas aprovados em 2025. Empresas brasileiras respondem por cerca de 70% do regime (71% das 292 indústrias com programa em 2024, pelo MIC, segundo a Última Hora; 232 de mais de 320, pelo Poder360). Mas a série por ano de origem brasileira não é publicada nos informes do MIC, e o único corte por período que existe não mostra pico no governo atual: o Poder360, com dados do governo paraguaio e da Cebras-PY, conta 40 maquiladoras brasileiras que iniciaram operação a partir de 2023 (de 2023 a maio de 2026) e 26 em 2021 e 2022, ritmo anual parecido; a Folha, citada pela Última Hora, diz que as aberturas 'se ha disparado desde 2014'. Programa aprovado também não é empresa nova: uma maquiladora já instalada pode aprovar outro programa. E o 'deixam o Brasil' não se sustenta: o Aos Fatos mostra que as empresas expandiram a produção e mantêm operação no Brasil, e a secretária-executiva do CNIME disse que o objetivo não é tirar indústrias do Brasil. Por isso INSUSTENTAVEL: há um recorde no ano de 2024, mas é de programas de todas as origens, e as fontes não sustentam um recorde de indústrias brasileiras saindo do país; não é IMPRECISO porque o recorte dito (indústrias brasileiras que deixam o Brasil) não tem série que o confirme, e não é FALSO porque também não há série que o desminta. Fontes do país parceiro (MIC, Infonegocios, Última Hora) contam como independentes (regra da §3.1 para base do país parceiro); a Última Hora reproduz a Folha e o MIC e conta como apoio.",
    "numero_dito": null,
-   "numero_apurado": "232 maquiladoras brasileiras desde 2007; 40 a partir de 2023; 26 em 2021 e 2022",
-   "data_de_referencia": "levantamento publicado em 23/05/2026 (operações de 2007 a 2026)",
+   "numero_apurado": "36 programas de maquila aprovados em 2024 (recorde, todas as origens) e 22 em 2025; 40 maquiladoras brasileiras iniciaram operação a partir de 2023 e 26 em 2021 e 2022",
+   "data_de_referencia": "programas aprovados em 2024 e 2025 (MIC/CNIME); levantamento de maquiladoras brasileiras publicado em 23/05/2026",
    "ressalva": null,
-   "confianca": "baixa",
-   "divergencia_entre_fontes": "Poder360 fala em 232 empresas brasileiras (70% de mais de 320 estrangeiras); A Crítica, citando o MIC, em 223 (69% de 332). Nenhuma das duas traz série anual.",
+   "confianca": "media",
+   "divergencia_entre_fontes": "As contagens de empresas brasileiras não batem: 232 desde 2007 (Poder360), 223 de 332 (A Crítica, citando o MIC) e 71% de 292 indústrias com programa em 2024 (Última Hora, citando o MIC). Nenhuma traz série anual por origem.",
    "revisao_humana": null,
    "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Ministerio de Industria y Comercio del Paraguay (MIC/SSEI, com dados da SE-CNIME)",
+     "titulo": "Informe Maquila, diciembre 2025",
+     "url": "https://www.mic.gov.py/wp-content/uploads/2026/01/Informe-MAQUILA-DIC25oficial-13.01.pdf",
+     "consultada_em": "2026-10-17",
+     "trecho": "MAQUILA 2025 [...] 22 PROGRAMAS APROBADOS [...] Industria maquiladora: Empresa establecida especialmente para llevar a cabo Programas de Maquila de Exportación o aquella ya establecida y orientada al mercado nacional",
+     "prova": "Base oficial do país parceiro: dá os programas aprovados em 2025 e mostra que a contagem é de programas, que uma empresa já instalada também pode ter, e não de empresas que mudaram de país."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Infonegocios (Paraguai), citando o CNIME",
+     "titulo": "Maquila rompe récord con US$ 127 millones en agosto y demuestra un crecimiento interanual del 24%",
+     "url": "https://infonegocios.com.py/plus/maquila-rompe-record-con-us-127-millones-en-agosto-y-demuestra-un-crecimiento-interanual-del-24",
+     "consultada_em": "2026-10-17",
+     "trecho": "En 2024, el CNIME aprobó 36 nuevos programas de maquila, la cifra más alta en un solo año desde la creación del régimen.",
+     "prova": "O recorde que existe: programas de maquila aprovados em 2024, de todas as origens."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Última Hora (Paraguai), reproduzindo a Folha de S.Paulo e o MIC",
+     "titulo": "Medio brasileño se hace eco de la expansión de empresas brasileñas a Paraguay en últimas décadas (04/12/2025)",
+     "url": "https://www.ultimahora.com/medio-brasileno-se-hace-eco-de-la-expansion-de-empresas-brasilenas-a-paraguay-en-ultimas-decadas",
+     "consultada_em": "2026-10-17",
+     "trecho": "El número de aperturas de empresas con sede en Brasil y expandidas al lado paraguayo de la frontera se ha disparado desde 2014, con 182 unidades en la última década. [...] las empresas brasileñas abrieron el 71% de las 292 industrias con programas de maquila en el vecino país, según información del Ministerio de Industria y Comercio de Paraguay. [...] “El objetivo no es sacar industrias de Brasil, sino ayudar a mejorar su competitividad”, resaltó al medio.",
+     "prova": "Imprensa do país parceiro: a participação brasileira é alta e a expansão vem desde 2014, sem série anual; e o próprio CNIME diz que não se trata de tirar indústrias do Brasil."
+    },
     {
      "nivel": "N4",
      "instituicao": "Poder360 (com dados do governo paraguaio e da Cebras-PY)",
@@ -250,7 +311,7 @@
    "id": "A167",
    "veredito": "FALSO",
    "resumo": "Em 2025 a PF fez 482 operações nas fronteiras, e a PRF recolheu 1.134 armas e 719 toneladas de maconha",
-   "explicacao": "A frase diz que o governo 'deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas'. O balanço de 2025 apresentado pela PF e pela PRF em fevereiro de 2026, reproduzido pela imprensa (que conta como apoio à primária), registra 482 operações da PF nas fronteiras, com 663 presos e 1.512 indiciados, 2.471 armas e 73,1 toneladas de cocaína apreendidas pela PF, e 1.134 armas, 719 toneladas de maconha e 44,3 toneladas de cocaína pela PRF; a PF informou recorde na apreensão de drogas. Há fiscalização registrada, o que contradiz diretamente 'não fiscaliza'; por isso FALSO e não INSUSTENTAVEL. A frase pode ser lida como crítica à eficácia da fiscalização, e isso é juízo que as fontes não medem; o que se checa é a afirmação de que não há fiscalização.",
+   "explicacao": "A frase diz que o governo 'deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas'. O balanço de 2025 apresentado pela PF e pela PRF em fevereiro de 2026 registra 482 operações da PF nas fronteiras, com 663 presos e 1.512 indiciados, 2.471 armas e 73,1 toneladas de cocaína apreendidas pela PF, e 1.134 armas, 719 toneladas de maconha e 44,3 toneladas de cocaína pela PRF; a PF informou recorde na apreensão de drogas. O Liberal, o Diário do Pará e o Bahia Notícias reproduzem o mesmo balanço oficial, que não foi capturado na fonte: pela regra 2 da §3.1, as três contam como uma fonte. A segunda fonte, independente, é a página de notícias da própria Polícia Federal, capturada na madrugada do dia da fala, que registra no dia 15/10/2026 apreensões de maconha em ação com o BPFron, no Paraná, e de quatro pistolas em Cascavel (PR), com destino ao Rio de Janeiro (fonte já capturada no caso 2026-10-15-sabatina-lula-globo-2turno, pasta p06). Há fiscalização registrada, o que contradiz diretamente 'não fiscaliza'; por isso FALSO e não INSUSTENTAVEL. A frase pode ser lida como crítica à eficácia da fiscalização, e isso é juízo que as fontes não medem; o que se checa é a afirmação de que não há fiscalização.",
    "numero_dito": null,
    "numero_apurado": null,
    "data_de_referencia": "balanço de 2025 da PF e da PRF, divulgado em fevereiro de 2026",
@@ -285,6 +346,15 @@
      "consultada_em": "2026-10-17",
      "trecho": "A corporação também contabilizou em 2025 apreensões de 73.181 quilos de cocaína e de 721.163 quilos de maconha, além de 1.171 operações contra crimes cibernéticos e 482 ações nas fronteiras do país.",
      "prova": "Outro veículo com o mesmo balanço, confirmando as ações de fronteira."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "Polícia Federal (gov.br)",
+     "titulo": "Notícias da Polícia Federal (página capturada em 16/10/2026)",
+     "url": "https://www.gov.br/pf/pt-br/assuntos/noticias",
+     "consultada_em": "2026-10-16",
+     "trecho": "PF e BPFRON apreendem mais de 500 kg de maconha no Paraná [...] PF apreende quatro pistolas ocultas em caixas de som em Cascavel/PR Armas tinham como destino a cidade do Rio de Janeiro",
+     "prova": "Registro da própria PF, na véspera da fala, de apreensões de drogas e armas no Paraná, independente do balanço anual reproduzido pela imprensa."
     }
    ]
   },

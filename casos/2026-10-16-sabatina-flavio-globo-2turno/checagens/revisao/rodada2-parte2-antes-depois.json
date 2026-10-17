@@ -1,0 +1,8 @@
+{
+  "A062": {"antes": "INSUSTENTAVEL", "depois": "IMPRECISO"},
+  "A071": {"antes": "INSUSTENTAVEL", "depois": "VERDADEIRO"},
+  "A072": {"antes": "INSUSTENTAVEL", "depois": "VERDADEIRO"},
+  "A086": {"antes": "INSUSTENTAVEL", "depois": "VERDADEIRO"},
+  "A095": {"antes": "VERDADEIRO", "depois": "VERDADEIRO"},
+  "A113": {"antes": "INSUSTENTAVEL", "depois": "INSUSTENTAVEL"}
+}

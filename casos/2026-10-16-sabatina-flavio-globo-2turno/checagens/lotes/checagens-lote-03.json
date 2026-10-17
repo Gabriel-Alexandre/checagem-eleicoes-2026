@@ -110,24 +110,35 @@
     },
     {
       "id": "A023",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "O último estoque achado, R$ 2,1 trilhões, é anterior; o dado da PGFN vigente em outubro não foi localizado",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foi feita uma busca pelo estoque da Dívida Ativa da União e capturado o relatório oficial PGFN em Números 2026 (dados de 2025), que traz a recuperação do ano (R$ 66,1 bilhões) mas não traz, no texto capturado, o estoque total inscrito. O único estoque com trecho capturado é o de R$ 2,1 trilhões, divulgado pela PGFN em edição anterior e reproduzido pelo portal ABC do ABC; ele fica cerca de 30% abaixo de 'quase 3 trilhões', mas não é o dado vigente na data da fala. O resumo do buscador mencionou cobertura de 2025 com estoque acima de R$ 3 trilhões, sem página capturada que o sustente, por isso não entra. Falta: o estoque oficial mais recente (painel da PGFN ou Lista de Devedores) e a parcela classificada como de difícil recuperação (rating C e D). Sem esse dado, a frase não pode ser dada como certa nem como errada: INSUSTENTAVEL provisório, não FALSO.",
+      "veredito": "VERDADEIRO",
+      "resumo": "A Procuradoria da Fazenda registrou R$ 3 trilhões em dívida ativa da União em 2024, último estoque publicado",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). O dado que resolve é o estoque da Dívida Ativa da União, da Procuradoria-Geral da Fazenda Nacional (PGFN). O PGFN em Números 2025 (N1) diz que em 2024 a dívida ativa atingiu R$ 3 trilhões, dos quais R$ 1 trilhão em situação regular (negociado, garantido ou suspenso) e R$ 2 trilhões em cobrança. Fonte independente da publicação anual, a análise do JOTA (reproduzida pelo IBET) sobre os dados do projeto de LDO enviado em abril de 2025 fala em estoque a receber de 'praticamente R$ 3 trilhões'. A edição seguinte, PGFN em Números 2026 (dados de 2025), a mais recente antes da fala, não traz o estoque no texto capturado; o último estoque oficial publicado na data da fala é, portanto, o de R$ 3 trilhões. 'Quase 3 trilhões' contra R$ 3 trilhões fica dentro da régua de 10% do §2.2, por isso VERDADEIRO. A divergência com os R$ 2,1 trilhões divulgados em março de 2025 (ABC do ABC) se explica pela parcela: bate com o que está 'em cobrança', não com o total. Ressalvas: o estoque cresce (era R$ 2,7 trilhões em 2023, segundo a PGFN reproduzida pela Fenacon), e o de 2025 não foi achado, o que dá confiança média; e 'a União tem a receber' não quer dizer recuperável: R$ 1 trilhão está negociado, garantido ou suspenso, e só 6,6% (sem a previdência) tem classificação de maior chance de recuperação, segundo a LDO. A rodada 1 tinha só o R$ 2,1 trilhões; o estoque total foi achado na rodada 2, na edição anterior do relatório.",
       "numero_dito": "quase R$ 3 trilhões",
-      "numero_apurado": null,
-      "data_de_referencia": "estoque vigente em 16/out/2026 (não apurado nesta rodada); o R$ 2,1 trilhões é de divulgação anterior da PGFN",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "O dado capturado (R$ 2,1 trilhões, divulgação anterior) diverge do número dito; o resumo do buscador citou estoque acima de R$ 3 trilhões em cobertura de 2025, sem página capturada. A divergência fica em aberto até a próxima rodada.",
+      "numero_apurado": "R$ 3 trilhões em 2024 (PGFN), dos quais R$ 1 trilhão em situação regular e R$ 2 tri em cobrança",
+      "data_de_referencia": "estoque do fim de 2024 (PGFN em Números 2025), último publicado antes da fala de 16/out/2026; a edição de 2026 não traz o estoque",
+      "ressalva": "R$ 1 trilhão estava negociado, garantido ou suspenso; os créditos de maior chance de recuperação eram 6,6%",
+      "confianca": "media",
+      "divergencia_entre_fontes": "A PGFN divulgou em março de 2025 R$ 2,1 trilhões (ABC do ABC), contra R$ 3 trilhões no PGFN em Números 2025; a diferença corresponde à parcela em situação regular (R$ 1 trilhão), e o R$ 2,1 trilhões bate com o que está em cobrança (R$ 2 tri).",
       "revisao_humana": null,
-      "derivacoes": [
-        {
-          "valor": "cerca de 30%",
-          "de": "2,1 e 3 (número dito)",
-          "como": "diferença relativa do número dito sobre o estoque achado: (3 menos 2,1) dividido por 3"
-        }
-      ],
       "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+          "titulo": "PGFN em Números 2025 (dados de 2024)",
+          "url": "https://www.gov.br/pgfn/pt-br/acesso-a-informacao/institucional/pgfn-em-numeros/pgfn_2025_1303_10h19_corrigido_final_2.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 2024, a dívida ativa da União atingiu o valor de R$ 3 trilhões, dos quais R$ 1 trilhão estão em situação regular [...] R$ 2 tri estão em cobrança",
+          "prova": "Estoque oficial da Dívida Ativa da União no fim de 2024, o mais recente publicado: R$ 3 trilhões, dos quais R$ 1 trilhão negociado, garantido ou suspenso."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IBET (reproduzindo análise de Fabio Graner, JOTA)",
+          "titulo": "Receita com dívida ativa tem pico em 2025 e oscila entre R$ 50 e 60 bi/ano a partir de 2026 (23/04/2025)",
+          "url": "https://www.ibet.com.br/receita-com-divida-ativa-tem-pico-em-2025-e-oscila-entre-r-50-e-60-bi-ano-a-partir-de-2026/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com um estoque de créditos a receber de praticamente R$ 3 trilhões, a Procuradoria-Geral da Fazenda Nacional (PGFN) vê a arrecadação com a recuperação da Dívida Ativa da União ter um pico neste ano [...] Os créditos de maior possibilidade de recuperação representaram 6,6% do total da Dívida Ativa, sem considerar a previdência, segundo a LDO.",
+          "prova": "Fonte independente da publicação da PGFN (dados do projeto de LDO): 'praticamente R$ 3 trilhões' a receber, com só 6,6% classificado como de maior chance de recuperação."
+        },
         {
           "nivel": "N1",
           "instituicao": "Procuradoria-Geral da Fazenda Nacional (PGFN)",
@@ -135,16 +146,25 @@
           "url": "https://www.gov.br/pgfn/pt-br/acesso-a-informacao/institucional/pgfn-em-numeros/pgfn_em_numeros_2026.pdf",
           "consultada_em": "2026-10-17",
           "trecho": "A PGFN EM 2025 RECUPERAÇÃO DA DÍVIDA ATIVA R$ 66,1 bilhões",
-          "prova": "Relatório oficial mais recente: traz a recuperação de 2025, mas o texto capturado não traz o estoque total, que é o que a frase afirma."
+          "prova": "Edição mais recente antes da fala: traz a recuperação de 2025, mas o texto não traz o estoque total; por isso o estoque vigente é o da edição anterior."
         },
         {
           "nivel": "N4",
           "instituicao": "ABC do ABC (reproduzindo a PGFN)",
-          "titulo": "Dívida ativa da União atinge R$ 2,1 trilhões e recuperação fiscal é reforçada por novas iniciativas",
+          "titulo": "Dívida ativa da União atinge R$ 2,1 trilhões e recuperação fiscal é reforçada por novas iniciativas (19/03/2025)",
           "url": "https://abcdoabc.com.br/divida-ativa-da-uniao-atinge-r-21-trilhoes-e-recuperacao-fiscal-e-reforcada-por-novas-iniciativas/",
           "consultada_em": "2026-10-17",
           "trecho": "A Procuradoria-Geral da Fazenda Nacional (PGFN) divulgou recentemente que a dívida ativa da União, composta por débitos de pessoas físicas e jurídicas junto à Fazenda Pública , atingiu o montante de R$ 2,1 trilhões .",
-          "prova": "Único estoque com trecho capturado, de divulgação anterior; não serve como dado da data da fala."
+          "prova": "Cifra divergente divulgada na mesma época; bate com a parcela 'em cobrança' (R$ 2 tri) da PGFN, não com o estoque total."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Fenacon (reproduzindo a PGFN)",
+          "titulo": "PGFN alcança R$ 21,9 bilhões em valor recuperado no primeiro semestre (24/07/2023)",
+          "url": "https://fenacon.org.br/noticias/pgfn-alcanca-r-219-bilhoes-em-valor-recuperado-no-primeiro-semestre/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O estoque atual da dívida ativa da União é de R$ 2,7 trilhões.",
+          "prova": "Ponto anterior da série (2023): o estoque cresce de um ano para o outro."
         }
       ]
     },

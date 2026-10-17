@@ -258,33 +258,67 @@
     {
       "id": "A047",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "O Gastômetro do Estadão somava R$ 278,3 bi em 18 de agosto, com alta prevista; o valor de outubro não foi conferido",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o candidato diz que Lula 'já gastou quase 350 bilhões de reais para tentar se reeleger'. A revisão r2 achou o levantamento cujo conceito é o da frase e que a checagem não tinha usado: o Gastômetro do Estadão, que monitora os desembolsos do governo federal em ano eleitoral e, segundo a reportagem de 18/08/2026 reproduzida pelo TNH1, somava R$ 278,3 bilhões em 'gastos de Lula para se reeleger', com a observação de que o valor deveria aumentar durante o ano; a maior parte é crédito e subsídio, não despesa direta. Contra o valor de agosto, o dito fica 25,8% acima, mas julgar uma fala de 16/10 com um painel de agosto que ainda crescia seria anacronismo (METODOLOGIA §5), e o valor do painel na data da fala não foi capturado. O levantamento da Folha, com outro critério, somou 20 medidas e R$ 193,8 bilhões até 17/09/2026; só nove têm impacto primário, e as outras 11 são majoritariamente linhas de crédito (o Bahia Notícias reproduz a Folha; o editorial do Agora RN repete o valor). O Correio (Salvador) registra que Flávio já usou R$ 350 bilhões em 8/10/2026, sem indicar a origem. Nenhuma fonte capturada traz R$ 350 bilhões, e nenhuma o contradiz na data da fala; por isso INSUSTENTAVEL, e não FALSO nem IMPRECISO. Falta para a rodada 2: o valor do Gastômetro do Estadão mais próximo de 16/10/2026, em página capturada, e a régua de 10% aplicada a ele.",
+      "resumo": "Painel do Estadão somava R$ 354 bi antes da fala, com crédito e renúncia; não há soma oficial desse gasto",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). O candidato diz que Lula 'já gastou quase 350 bilhões de reais para tentar se reeleger'. A rodada 2 achou o valor do Gastômetro do Estadão, painel que soma as medidas do governo em ano eleitoral sob o rótulo de 'gastos de Lula para se reeleger', mais próximo da fala: R$ 354 bilhões em 14/10/2026 (Brasil Paralelo, que reproduz o painel), depois de R$ 278,3 bi em 18/08, R$ 327 bi em 28/09 e R$ 328,9 bi em 01/10 (TNH1 e Agora RN). O número dito fica a 1,1% desse valor. Mas o veredito não é VERDADEIRO por dois motivos. Primeiro, o próprio painel não sustenta o 'já gastou': ele soma 'gastos, subsídios, linhas de crédito, renúncias de receitas', o maior grupo é crédito e subvenção (R$ 173,1 bi de R$ 327 bi em setembro), e os R$ 354 bilhões 'não representam apenas dinheiro já desembolsado'. Segundo, a soma e o critério 'para se reeleger' são de um jornal, sem registro oficial (N1 ou N2) que a sustente (§3.1, regra 1); com outro critério, a Folha somou R$ 193,8 bilhões em 20 medidas até 17/09, só nove com impacto primário. Não é FALSO, porque nenhuma fonte contradiz que as medidas somem esse valor pelo critério do Estadão; não é IMPRECISO, porque não há fonte qualificada que confirme a essência ('gastou'). As fontes são de imprensa que reproduz o painel (regra 2 da §3.1); o painel do Estadão não foi capturado diretamente.",
       "numero_dito": "quase R$ 350 bilhões",
-      "numero_apurado": "R$ 278,3 bilhões no Gastômetro do Estadão em 18 de agosto de 2026, com alta prevista; R$ 193,8 bilhões em 20 medidas no levantamento da Folha até 17 de setembro de 2026",
-      "data_de_referencia": "Gastômetro de 18/08/2026; levantamento da Folha de 17/09/2026; o valor na data da fala (16/10/2026) não foi conferido",
-      "ressalva": "A Folha somou R$ 193,8 bi em 20 medidas até 17 de setembro, 11 delas sobretudo linhas de crédito",
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "numero_apurado": "R$ 354 bilhões no Gastômetro do Estadão em 14/10/2026, somando crédito, subsídio, renúncia e despesa; R$ 193,8 bilhões em 20 medidas no levantamento da Folha até 17/09/2026",
+      "data_de_referencia": "Gastômetro de 14/10/2026 (dois dias antes da fala); levantamento da Folha de 17/09/2026",
+      "ressalva": "Pelo critério da Folha, o pacote somava R$ 193,8 bi até 17 de setembro, só nove medidas com impacto primário",
+      "confianca": "media",
+      "divergencia_entre_fontes": "Os dois levantamentos de imprensa usam critérios diferentes: o Gastômetro do Estadão somava R$ 354 bi em 14/10 (incluindo crédito e renúncia), e a Folha somava R$ 193,8 bi em 20 medidas até 17/09.",
       "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "1,1%",
+          "de": "354 e 350 (número dito)",
+          "como": "desvio do número dito sobre o valor do Gastômetro em 14/10: (354 menos 350) dividido por 354"
+        }
+      ],
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Brasil Paralelo (reproduzindo o Gastômetro do Estadão)",
+          "titulo": "Gastômetro do governo Lula chega a R$ 354 bilhões após pacote para MEIs na reta final da eleição (14/10/2026)",
+          "url": "https://www.brasilparalelo.com.br/noticias/gastometro-do-governo-lula-chega-a-r-354-bilhoes",
+          "consultada_em": "2026-10-17",
+          "trecho": "Publicado em 14/10/2026 [...] Com a inclusão das novas medidas, o Gastômetro , ferramenta criada pelo Estadão , chegou a R$354 bilhões . O número reúne gastos, subsídios, linhas de crédito, renúncias de receitas e outros incentivos adotados pelo governo federal ao longo do ano eleitoral. Isso significa que os R$354 bilhões não representam apenas dinheiro já desembolsado diretamente pelo Tesouro.",
+          "prova": "Valor do Gastômetro dois dias antes da fala (R$ 354 bi) e o aviso de que ele não é só dinheiro desembolsado."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução de reportagem do Estadão)",
+          "titulo": "Gastança de Lula para tentar a reeleição: R$ 328,9 bilhões (01/10/2026)",
+          "url": "https://www.tnh1.com.br/noticia/nid/gastanca-de-lula-para-tentar-a-reeleicao-r-3289-bilhoes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 1 de Outubro de 2026 às 18:00 [...] Com as novas medidas, os gastos de Lula para tentar se reeleger atingiram R$ 328,9 bilhões no terceiro mandato, conforme o Gastômetro, ferramenta inédita no Estadão que monitora em tempo real os desembolsos do governo federal em ano eleitoral.",
+          "prova": "Ponto da série do Gastômetro em 1º de outubro (R$ 328,9 bi): o painel crescia rumo ao valor de meados de outubro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agora RN (coluna)",
+          "titulo": "“Gastômetro” de Lula chega a R$ 327 bi (28/09/2026)",
+          "url": "https://agorarn.com.br/?p=2404014",
+          "consultada_em": "2026-10-17",
+          "trecho": "O “Gastômetro” criado pelo jornal O Estadão de S. Paulo calcula em R$ 327 bilhões o valor das medidas reunidas neste ano eleitoral. A cifra inclui linhas de crédito e renúncias de receita, além de despesas públicas. O levantamento reúne 42 iniciativas em cinco grupos: R$ 173,1 bilhões em créditos e subvenções",
+          "prova": "Composição do painel: o maior grupo é crédito e subvenção, não despesa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (reprodução de reportagem do Estadão)",
+          "titulo": "Lula já gastou R$ 278,3 bilhões para tentar se manter na Presidência (18/08/2026)",
+          "url": "https://www.tnh1.com.br/noticia/nid/lula-ja-gastou-r-2783-bilhoes-para-tentar-reeleicao/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 18 de Agosto de 2026 às 18:00 [...] Neste terceiro mandato, os gastos de Lula para se reeleger já somam R$ 278,3 bilhões, conforme o Gastômetro, ferramenta inédita no Estadão que monitora os desembolsos do governo federal em ano eleitoral. A maior parte do gasto se refere a programas de crédito e subsídios para setores da economia e categorias específicas",
+          "prova": "Mostra que o conceito do painel é o da frase ('gastos de Lula para se reeleger') e que a maior parte é crédito e subsídio."
+        },
         {
           "nivel": "N4",
           "instituicao": "Bahia Notícias (reprodução da Folha de S.Paulo)",
           "titulo": "Pacote de Lula em ano eleitoral já mobiliza quase R$ 200 bilhões em bondades (17/09/2026)",
           "url": "https://www.bahianoticias.com.br/folha/noticia/409293-pacote-de-lula-em-ano-eleitoral-ja-mobiliza-quase-r-200-bilhoes-em-bondades",
           "consultada_em": "2026-10-17",
-          "trecho": "Em maio, segundo cálculo da reportagem com base em informações do governo e auxílio de especialistas, o pacote até então de 11 medidas envolvia recursos na ordem de R$ 144 bilhões. Ao final de junho, antes do defeso eleitoral, o montante chegou a R$ 180 bilhões, em 16 medidas. As 20 ações selecionadas até esta quinta-feira (17) totalizam R$ 193,8 bilhões. [...] Das 20 medidas, nove podem ter impactos primários, seja por renúncia de receitas ou por despesas diretas da União [...] As outras 11 se referem majoritariamente a linhas de crédito com juros mais baixos do que os de mercado",
-          "prova": "É um levantamento sobre o pacote do ano eleitoral: R$ 193,8 bi em 20 medidas, só nove com impacto primário e 11 majoritariamente de crédito."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Agora RN (editorial)",
-          "titulo": "Editorial: a conta da reeleição",
-          "url": "https://agorarn.com.br/politica/editorial-a-conta-da-reeleicao/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Um levantamento recente identificou 20 medidas que, juntas, mobilizam aproximadamente R$ 193,8 bilhões. Esse valor não corresponde integralmente a despesas diretas: inclui renúncias de receitas, subsídios, recursos de fundos públicos, garantias oferecidas a instituições financeiras e linhas de crédito.",
-          "prova": "Mesmo crítico do pacote usa R$ 193,8 bi e diz que não é tudo despesa."
+          "trecho": "As 20 ações selecionadas até esta quinta-feira (17) totalizam R$ 193,8 bilhões. [...] Das 20 medidas, nove podem ter impactos primários, seja por renúncia de receitas ou por despesas diretas da União",
+          "prova": "Outro levantamento de imprensa, com outro critério: R$ 193,8 bi, só nove medidas com impacto primário."
         },
         {
           "nivel": "N4",
@@ -293,23 +327,7 @@
           "url": "https://www.correio24horas.com.br/eleicoes/flavio-diz-que-pec-do-fim-da-reeleicao-pode-levar-seu-mandato-a-cinco-anos-se-for-eleito-1026",
           "consultada_em": "2026-10-17",
           "trecho": "Ao criticar Lula, o candidato afirmou que o presidente teria destinado R$ 350 bilhões a ações relacionadas à tentativa de permanecer no cargo.",
-          "prova": "Mostra que o valor é do candidato, sem fonte indicada na reportagem."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "TNH1 (reprodução de reportagem do Estadão)",
-          "titulo": "Lula já gastou R$ 278,3 bilhões para tentar se manter na Presidência (18/08/2026)",
-          "url": "https://www.tnh1.com.br/noticia/nid/lula-ja-gastou-r-2783-bilhoes-para-tentar-reeleicao/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Em 18 de Agosto de 2026 às 18:00 [...] Neste terceiro mandato, os gastos de Lula para se reeleger já somam R$ 278,3 bilhões, conforme o Gastômetro, ferramenta inédita no Estadão que monitora os desembolsos do governo federal em ano eleitoral. A maior parte do gasto se refere a programas de crédito e subsídios para setores da economia e categorias específicas [...] O valor do Gastômetro deve aumentar durante o ano (e a ferramenta vai acompanhar esta evolução)",
-          "prova": "É o painel que mede o mesmo conceito da frase ('gastos para se reeleger'): R$ 278,3 bi em agosto, com alta prevista; o valor de outubro não está na página."
-        }
-      ],
-      "derivacoes": [
-        {
-          "valor": "25,8%",
-          "de": "350 menos 278,3, dividido por 278,3",
-          "como": "desvio do valor dito sobre o do Gastômetro em 18/08/2026; não decide o veredito, porque o painel crescia e a fala é de outubro"
+          "prova": "O candidato já usava o valor em 8/out, sem fonte indicada na reportagem."
         }
       ]
     },

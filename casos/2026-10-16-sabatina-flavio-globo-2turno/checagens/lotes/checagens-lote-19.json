@@ -184,7 +184,7 @@
       "id": "A185",
       "veredito": "VERDADEIRO",
       "resumo": "O piso de R$ 600 de 2023 só foi reajustado em 17 de setembro de 2026, quando subiu para R$ 691",
-      "explicacao": "A frase diz que Lula passou o mandato sem reajustar o Bolsa Família e só o fez perto da eleição. A Lei 14.601/2023 fixou R$ 142 por integrante e o piso de R$ 600 por família; o Decreto 13.120, de 17 de setembro de 2026, é a primeira correção, pela inflação acumulada desde março de 2023; o Congresso em Foco registra que os valores-base não tinham sido corrigidos desde o relançamento, e o SBT reproduz o próprio Lula: 'A gente estava há quatro anos sem dar reajuste'. O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A116 e A118, VERDADEIRO), com as mesmas fontes. Régua de 'quatro anos': do início do mandato (1º/01/2023) ao anúncio (17/09/2026) são cerca de 3 anos e 8 meses, desvio de cerca de 7% sobre quatro anos, abaixo dos 10% da régua, por isso VERDADEIRO com ressalva e não IMPRECISO. 'Não deu reajuste para ninguém' segue a mesma leitura do caso de 15/out: os adicionais criados em 2023 são componentes do novo desenho, não correção de valor.",
+      "explicacao": "A frase diz que Lula passou o mandato sem reajustar o Bolsa Família e só o fez perto da eleição. A Lei 14.601/2023 fixou R$ 142 por integrante e o piso de R$ 600 por família; o Decreto 13.120, de 17 de setembro de 2026, é a primeira correção, pela inflação acumulada desde março de 2023; o Congresso em Foco registra que os valores-base não tinham sido corrigidos desde o relançamento, e o SBT reproduz o próprio Lula: 'A gente estava há quatro anos sem dar reajuste'. O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A116 e A118, VERDADEIRO), com as mesmas fontes. Régua de 'quatro anos': do início do mandato (1º/01/2023) ao anúncio (17/09/2026) são cerca de 3 anos e 8 meses, desvio de cerca de 8% medido sobre o período apurado (3,5 meses sobre 44,5), abaixo dos 10% da régua, por isso VERDADEIRO com ressalva e não IMPRECISO. 'Não deu reajuste para ninguém' segue a mesma leitura do caso de 15/out: os adicionais criados em 2023 são componentes do novo desenho, não correção de valor.",
       "numero_dito": "quatro anos",
       "numero_apurado": "cerca de 3 anos e 8 meses sem reajuste, de janeiro de 2023 a 17 de setembro de 2026",
       "data_de_referencia": "de 1º de janeiro de 2023 a 17 de setembro de 2026",
@@ -196,7 +196,7 @@
         {
           "valor": "3 anos e 8 meses",
           "de": "01/01/2023 e 17 de setembro de 2026",
-          "como": "contagem no calendário da posse ao anúncio do reajuste: 44,5 meses contra 48, desvio de cerca de 7%"
+          "como": "contagem no calendário da posse ao anúncio do reajuste: 44,5 meses contra 48 ditos, desvio de cerca de 8% medido sobre o apurado (3,5 dividido por 44,5)"
         }
       ],
       "fontes": [
@@ -309,7 +309,7 @@
       "id": "A187",
       "veredito": "VERDADEIRO",
       "resumo": "O valor médio foi de R$ 189 em 2021 para R$ 607,88 em agosto de 2022, mais que o triplo, no governo Bolsonaro",
-      "explicacao": "A frase diz que no governo Bolsonaro o benefício passou de 190 para, em média, 600 reais, o triplo. A Agência Câmara registra o valor médio do Bolsa Família em R$ 189 em agosto de 2021, antes do Auxílio Brasil. Em agosto de 2022, o Ministério da Cidadania informou valor médio de R$ 607,88 (reproduzido pela Agência Brasil e pelo Poder360, que contam como apoio por repetirem o número do ministério). 607,88 dividido por 189 dá cerca de 3,2 vezes: 'triplicou' confere em termos nominais, e o R$ 600 era de fato a média. A Emenda Constitucional 123/2022 (N1) mostra a origem: acréscimo extraordinário de R$ 200 por cinco meses, de 1º de agosto a 31 de dezembro de 2022, sobre o piso de R$ 400; o FGV/IBRE descreve a mesma trajetória (média de R$ 200 para R$ 400 e depois R$ 600). A ressalva diz o que a frase não diz: o R$ 600 era temporário e vigorou nos últimos cinco meses do mandato, e a comparação é nominal, sem descontar a inflação. Por que não IMPRECISO: o número e o período (governo Bolsonaro) estão certos; o caráter temporário não inverte o dado.",
+      "explicacao": "A frase diz que no governo Bolsonaro o benefício passou de 190 para, em média, 600 reais, o triplo. A Agência Câmara registra o valor médio do Bolsa Família em R$ 189 em agosto de 2021, antes do Auxílio Brasil. Em agosto de 2022, o Ministério da Cidadania informou valor médio de R$ 607,88 (reproduzido pela Agência Brasil e pelo Poder360, que contam como apoio por repetirem o número do ministério). 607,88 dividido por 189 dá cerca de 3,2 vezes; 'o triplo' contra 3,2 vezes é desvio de cerca de 7% sobre o apurado, e 600 contra 607,88, de cerca de 1%, os dois abaixo da régua de 10% do §2.2: 'triplicou' confere em termos nominais, e o R$ 600 era de fato a média. A Emenda Constitucional 123/2022 (N1) mostra a origem: acréscimo extraordinário de R$ 200 por cinco meses, de 1º de agosto a 31 de dezembro de 2022, sobre o piso de R$ 400; o FGV/IBRE descreve a mesma trajetória (média de R$ 200 para R$ 400 e depois R$ 600). A ressalva diz o que a frase não diz: o R$ 600 era temporário e vigorou nos últimos cinco meses do mandato, e a comparação é nominal, sem descontar a inflação. Por que não IMPRECISO: o número e o período (governo Bolsonaro) estão certos; o caráter temporário não inverte o dado.",
       "numero_dito": "de 190 para 600 reais em média, o triplo",
       "numero_apurado": "de R$ 189 (agosto de 2021) para R$ 607,88 (agosto de 2022), cerca de 3,2 vezes",
       "data_de_referencia": "agosto de 2021 e agosto de 2022",
@@ -322,6 +322,11 @@
           "valor": "3,2 vezes",
           "de": "607,88 dividido por 189",
           "como": "razão entre o valor médio de agosto de 2022 e o de agosto de 2021"
+        },
+        {
+          "valor": "cerca de 7%",
+          "de": "607,88 dividido por 189, contra o triplo dito",
+          "como": "desvio do número dito (3 vezes) sobre a razão apurada (cerca de 3,2 vezes), medido sobre o apurado: (3,22 menos 3) dividido por 3,22"
         }
       ],
       "fontes": [

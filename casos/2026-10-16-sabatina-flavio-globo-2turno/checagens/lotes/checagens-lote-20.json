@@ -5,17 +5,35 @@
   "checagens": [
     {
       "id": "A191",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Flávio anunciou apoio a Canella ao Senado em fevereiro; vídeos de apoio gravados por ele não foram achados",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a frase diz que Flávio gravou vídeos de apoio a Márcio Canella na fase anterior da campanha. Está documentado o apoio político: em fevereiro de 2026 Flávio anunciou apoio à pré-candidatura de Canella ao Senado (BP Money), Canella estava na chapa de Flávio no Rio (SBT News, 29/07) e era apontado como nome apoiado pelo senador para o Senado (Jovem Pan). Uma busca específica por vídeo de Flávio pedindo voto ou declarando apoio a Canella não achou registro em imprensa; achou só o vídeo do próprio Canella anunciando a desistência do Senado em 3/08. Falta procurar reportagem que descreva vídeos gravados por Flávio (por exemplo, no anúncio de fevereiro) ou a propaganda registrada. Sem fonte para os vídeos, o veredito provisório é INSUSTENTAVEL; o apoio em si não está em dúvida. O mesmo vínculo foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A068 e A069, VERDADEIRO).",
+      "veredito": "VERDADEIRO",
+      "resumo": "Flávio gravou vídeos de apoio a Canella na pré-campanha; um deles saiu em abril no Instagram dos dois",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). O que faltava na rodada 1 era registro dos vídeos. Há dois, independentes: o Poder360 registra que em 22 de abril de 2026 Flávio publicou, em colaboração com Canella no Instagram, um vídeo em apoio à pré-candidatura dele ao Senado; e o Estadão Conteúdo (no O Liberal, 15/10) registra que, quando Canella era pré-candidato ao Senado, Flávio 'chegou a gravar vídeos' chamando o aliado de 'competente' e 'amigo'. O apoio político, anunciado em fevereiro, também está documentado (BP Money). 'Na fase anterior da campanha' corresponde à pré-campanha, antes de Canella desistir do Senado em agosto. O mesmo vínculo foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A068 e A069, VERDADEIRO). VERDADEIRO, com confiança média: os vídeos não foram vistos diretamente, só pelas duas reportagens.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "pré-campanha de 2026 (anúncio de apoio em fevereiro; desistência do Senado em agosto)",
-      "ressalva": null,
-      "confianca": "baixa",
+      "data_de_referencia": "pré-campanha de 2026 (apoio anunciado em fevereiro; vídeo publicado em 22/04/2026)",
+      "ressalva": "Os vídeos são da pré-candidatura de Canella ao Senado, da qual ele desistiu em agosto",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula liga Flávio a Canella, preso pela PF, durante sabatina na \"Globo\"",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-liga-flavio-a-canella-preso-pela-pf-durante-sabatina-na-globo/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 22 de abril de 2026, Flávio publicou, em colaboração com Canella no Instagram, um vídeo em apoio à pré-candidatura ao Senado.",
+          "prova": "Registra um vídeo de apoio de Flávio a Canella publicado na pré-campanha, com data."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Liberal (Estadão Conteúdo)",
+          "titulo": "Quem é Márcio Canella, um dos mais votados do RJ que foi preso pela PF (15/10/2026)",
+          "url": "https://www.oliberal.com/politica/quem-e-marcio-canella-um-dos-mais-votados-do-rj-que-foi-preso-pela-pf-1.1182942",
+          "consultada_em": "2026-10-17",
+          "trecho": "No início de 2026, Márcio Canella renunciou à prefeitura de Belford Roxo para se lançar como pré-candidato ao Senado Federal pelo Rio de Janeiro. Ele contava com o apoio público e direto de Flávio Bolsonaro, que chegou a gravar vídeos chamando o aliado de \"competente\", \"amigo\" e afirmando que ele \"sabia trabalhar\".",
+          "prova": "Apuração independente da do Poder360: Flávio gravou vídeos (no plural) de apoio a Canella na pré-candidatura ao Senado."
+        },
         {
           "nivel": "N4",
           "instituicao": "BP Money",
@@ -24,24 +42,6 @@
           "consultada_em": "2026-10-17",
           "trecho": "Canella foi apoiado por Flávio Bolsonaro para disputar o Senado A relação política entre Canella e Flávio Bolsonaro ganhou destaque em fevereiro, quando o senador anunciou o apoio à pré-candidatura do ex-prefeito ao Senado pelo Rio de Janeiro.",
           "prova": "Registra o apoio público de Flávio à pré-candidatura de Canella ao Senado, em fevereiro de 2026."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "SBT News",
-          "titulo": "Flávio veta suplência de Canella e lança mãe a deputada (29/07/2026)",
-          "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-veta-suplencia-de-canella-e-lanca-mae-a-deputada",
-          "consultada_em": "2026-10-16",
-          "trecho": "Flávio veta suplência de Canella e lança mãe a deputada Senador toma distância de ex-prefeito de Belford Roxo alvo da PF, mas o mantém na chapa no Rio",
-          "prova": "Apuração independente: Canella estava na chapa de Flávio no Rio na fase de pré-campanha."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Jovem Pan",
-          "titulo": "Quem é Márcio Canella, deputado eleito e ex-prefeito preso pela PF no Rio (15/10/2026)",
-          "url": "https://jovempan.com.br/politica/quem-e-marcio-canella-deputado-eleito-e-ex-prefeito-preso-pela-pf-no-rio/",
-          "consultada_em": "2026-10-16",
-          "trecho": "Presidente do União Brasil no Rio de Janeiro, Canella mantém uma relação política com Flávio Bolsonaro , candidato do PL à Presidência da República. Antes de decidir disputar a Alerj, o ex-prefeito era apontado como um dos nomes apoiados pelo senador para a eleição ao Senado pelo estado.",
-          "prova": "Terceira leitura do apoio de Flávio a Canella antes da troca de candidatura."
         }
       ]
     },
@@ -49,7 +49,7 @@
       "id": "A192",
       "veredito": "VERDADEIRO",
       "resumo": "A PF suspeita que grupo ligado a Canella lavou dinheiro com postos e fez pontes com milícias e tráfico",
-      "explicacao": "A frase descreve o conteúdo das suspeitas, não afirma culpa. A representação da PF que embasou a prisão de Canella, em 15/10/2026, na oitava fase da Operação Unha e Carne, descreve-o como 'patrono político' de organização ligada ao Comando Vermelho que lava dinheiro por uma rede de postos de combustíveis e que teria 'pontes operacionais com milícias e com o tráfico de drogas'; aponta ainda proximidade com o líder de um grupo miliciano da Baixada (SBT News). O Times Brasil (CNBC), em apuração própria, registra os mesmos três elementos. As duas reportagens reproduzem o mesmo documento da PF, que não foi capturado; isso vai declarado (regra 2 da §3.1). As suspeitas existem nos termos ditos, por isso VERDADEIRO sobre o enunciado; o mérito está em apuração, sem denúncia nem julgamento, e nada aqui diz que as suspeitas procedem (etica-e-risco §5). Mesma régua do caso 2026-10-15-sabatina-lula-globo-2turno, A068 (VERDADEIRO para a prisão e o objeto da operação).",
+      "explicacao": "A frase descreve o conteúdo das suspeitas, não afirma culpa. A representação da PF que embasou a prisão de Canella, em 15/10/2026, na oitava fase da Operação Unha e Carne, descreve-o como 'patrono político' de organização ligada ao Comando Vermelho que lava dinheiro por uma rede de postos de combustíveis e que teria 'pontes operacionais com milícias e com o tráfico de drogas'; aponta ainda proximidade com o líder de um grupo miliciano da Baixada (SBT News). O Times Brasil (CNBC), em apuração própria, registra os mesmos três elementos. As duas reportagens reproduzem o mesmo documento da PF, que não foi capturado; isso vai declarado (regra 2 da §3.1). O Poder360, em apuração própria do dia da prisão (a mesma fonte da A189), registra o objeto da operação, lavagem de dinheiro com postos de combustíveis, sem depender da representação. As suspeitas existem nos termos ditos, por isso VERDADEIRO sobre o enunciado; o mérito está em apuração, sem denúncia nem julgamento, e nada aqui diz que as suspeitas procedem (etica-e-risco §5). Mesma régua do caso 2026-10-15-sabatina-lula-globo-2turno, A068 (VERDADEIRO para a prisão e o objeto da operação).",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "representação da PF na 8ª fase da Operação Unha e Carne, 15/10/2026",
@@ -75,6 +75,15 @@
           "consultada_em": "2026-10-17",
           "trecho": "A investigação descreve uma estrutura que teria usado postos de combustíveis para lavar dinheiro e manter relações com milícias e grupos de traficantes . Na avaliação dos investigadores, essas conexões serviriam para assegurar influência sobre territórios e obter proteção política.",
           "prova": "Segunda apuração das suspeitas da PF, com os mesmos três elementos da frase."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Saiba quem é Márcio Canella, preso em operação contra lavagem de dinheiro (15/10/2026)",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/saiba-quem-e-marcio-canella-preso-em-operacao-contra-lavagem-de-dinheiro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A ação mira uma organização criminosa suspeita de usar postos de combustíveis na Região Metropolitana do Rio para lavar dinheiro.",
+          "prova": "Terceira apuração, sem citar o documento da PF: o objeto da operação que prendeu Canella é lavagem de dinheiro com postos de combustíveis."
         }
       ]
     },
@@ -82,7 +91,7 @@
       "id": "A193",
       "veredito": "VERDADEIRO",
       "resumo": "Em 2025, Jair Bolsonaro fechou apoio a Bacellar para governador do Rio, com Flávio indicado ao Senado na chapa",
-      "explicacao": "A Jovem Pan registrou, em 27/05/2025, o acordo pelo qual Jair Bolsonaro apoiaria Rodrigo Bacellar ao governo do Rio em 2026, com o PL indicando os dois nomes ao Senado na chapa, Flávio Bolsonaro e Cláudio Castro. O Jornal do Brasil diz que Bacellar 'seria o candidato de Jair Bolsonaro ao governo do RJ', e a RTP (Lusa) que ele era o nome de Castro para a sucessão. Depois da prisão de Bacellar, Flávio passou a buscar nomes do PL para o governo (Diário do Rio), o que confirma o 'originalmente'. A essência confere: Bacellar foi o candidato do grupo de Flávio, que estaria na mesma chapa. O acordo registrado é de Jair Bolsonaro, não de Flávio pessoalmente, e isso vai na ressalva; não é IMPRECISO porque Flávio integrava o acordo como candidato ao Senado na chapa de Bacellar. A afirmação de Renan Santos de que Flávio 'apoiava' Bacellar foi vista, mas não entra como fonte por ser fala de adversário.",
+      "explicacao": "A Jovem Pan registrou, em 27/05/2025, o acordo pelo qual Jair Bolsonaro apoiaria Rodrigo Bacellar ao governo do Rio em 2026, com o PL indicando os dois nomes ao Senado na chapa, Flávio Bolsonaro e Cláudio Castro. O Jornal do Brasil diz que Bacellar 'seria o candidato de Jair Bolsonaro ao governo do RJ', e a RTP (Lusa) que ele era o nome de Castro para a sucessão. Depois da prisão de Bacellar, Flávio passou a buscar nomes do PL para o governo (Diário do Rio), e a Gazeta do Povo, em agosto de 2026, descreve a escolha de Douglas Ruas como 'troca no grupo de Flávio' depois que Bacellar deixou a corrida, o que confirma o 'originalmente'. A essência confere: Bacellar foi o candidato do grupo de Flávio, que estaria na mesma chapa. O acordo registrado é de Jair Bolsonaro, não de Flávio pessoalmente, e isso vai na ressalva; não é IMPRECISO porque Flávio integrava o acordo como candidato ao Senado na chapa de Bacellar. A afirmação de Renan Santos de que Flávio 'apoiava' Bacellar foi vista, mas não entra como fonte por ser fala de adversário.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "acordo de maio de 2025; prisão de Bacellar em dezembro de 2025",
@@ -126,22 +135,49 @@
           "consultada_em": "2026-10-17",
           "trecho": "Ele vai levar ao PL sugestões de quatro nomes para serem testados, já em janeiro, em pesquisas de intenção de voto para o governo do estado. [...] depois da prisão e do afastamento de Rodrigo Bacellar , do União Brasil.",
           "prova": "Mostra que, depois da prisão de Bacellar, Flávio passou a buscar outro nome do PL; a candidatura de Bacellar ficou no plano original."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "PL define chapa pura no Rio de Janeiro após desembarque de aliados (04/08/2026)",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pl-define-chapa-pura-no-rio-de-janeiro-apos-desembarque-de-aliados/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Douglas Ruas assume candidatura após troca no grupo de Flávio Douglas Ruas passou a ser o nome do PL para disputar o governo do Rio depois que Rodrigo Bacellar deixou a corrida eleitoral após ser preso em operações da Polícia Federal.",
+          "prova": "Apuração independente que trata Bacellar como o nome original do grupo de Flávio para o governo do Rio, trocado depois da prisão: sustenta o 'originalmente o seu candidato'."
         }
       ]
     },
     {
       "id": "A194",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Bacellar foi preso em março por ordem de Moraes; a PF o descreve como líder do núcleo político do CV",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o documentado: a PF, em relatório final enviado ao STF em fevereiro de 2026, afirma que Bacellar exercia 'a liderança do núcleo político' do Comando Vermelho (Jornal do Brasil); em 27/03/2026 ele foi preso de novo por ordem de Alexandre de Moraes, na Operação Unha e Carne III, que investiga o vazamento de uma ação contra o CV, e a prisão foi mantida em audiência de custódia (O Antagonista); a RTP registra a prisão anterior, de dezembro de 2025, e que a defesa nega as acusações. Falta confirmar que ele seguia preso em 16/10/2026: nenhuma fonte capturada é posterior a março. Além disso, o fundamento formal da prisão é o vazamento e a obstrução; 'comandar o braço político' é a caracterização do relatório da PF. É apuração sem julgamento (etica-e-risco §5), e o veredito não pode afirmar a suspeita como fato.",
+      "resumo": "Bacellar segue preso desde março por suspeita de vazar operação contra o CV; a PF o descreve como líder político",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). Dois pontos estão documentados. (1) A prisão: Bacellar foi preso de novo em 27/03/2026, por ordem de Alexandre de Moraes (SBT News; BBC News Brasil, no O Povo), e a cobertura da sabatina, de 16 e 17/out, trata Canella e Bacellar como aliados presos (SBT News: 'Flávio se diz surpreso com aliados presos no RJ'; Agenda do Poder: 'dois deles presos'); não foi achada notícia de soltura. (2) A suspeita: o relatório final da PF enviado ao STF afirma que ele exercia 'a liderança do núcleo político' do Comando Vermelho (Jornal do Brasil). Mas o fundamento da prisão de março, segundo a decisão descrita pelo SBT News e pelo STF citado pela BBC, é outro: indícios de participação num esquema de vazamento para atrapalhar uma operação da PF contra o CV, na Operação Unha e Carne III, e a denúncia da PGR de 16/03 é por obstrução. A frase junta a prisão (que é por vazamento e obstrução) à caracterização do relatório (liderança do núcleo político). Tudo isso é investigação e denúncia sem julgamento, e a defesa nega as acusações (RTP): pela §5 de etica-e-risco, fato em apuração não recebe VERDADEIRO nem FALSO, e por isso INSUSTENTAVEL, agora como veredito final. Confiança média: a permanência na prisão em 16/out vem de cobertura de imprensa, não de decisão judicial.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "relatório da PF de fevereiro de 2026; prisão de 27/03/2026",
-      "ressalva": null,
-      "confianca": "baixa",
+      "data_de_referencia": "relatório da PF de fevereiro de 2026; prisão de 27/03/2026; cobertura de 16 e 17/10/2026",
+      "ressalva": "A ordem de prisão cita vazamento de operação contra o CV; a liderança do núcleo político é a descrição do relatório da PF",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Flávio se diz surpreso com aliados presos no RJ (17/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/flavio-se-diz-surpreso-com-aliados-presos-no-rj",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio se diz surpreso com aliados presos no RJ Candidato comentou as prisões de Márcio Canella e Rodrigo Bacellar e defendeu o direito de defesa [...] Rodrigo Bacellar foi preso pela PF pela segunda vez em 27 de março , em Teresópolis. A ordem foi expedida pelo ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF). Na decisão, Moraes mencionou a perda do mandato parlamentar e apontou indícios de que Bacellar teria participado de um esquema de vazamento de dados para atrapalhar uma operação da PF contra o Comando Vermelho.",
+          "prova": "Reportagem do dia seguinte à fala: trata Bacellar como aliado preso e dá o fundamento da ordem de março (vazamento para atrapalhar operação contra o CV)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agenda do Poder",
+          "titulo": "Flávio diz que foi pego de surpresa por suspeitas contra Castro, Bacellar e Canella (16/10/2026)",
+          "url": "https://agendadopoder.com.br/flavio-diz-que-foi-pego-de-surpresa-por-suspeitas-contra-castro-bacellar-e-canella/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em entrevista à TV Globo, candidato do PL afirma desconhecer suspeitas envolvendo aliados políticos no Rio, dois deles presos, e defende punição para quem tiver ligação com o crime organizado",
+          "prova": "Segunda cobertura de 16/out, independente da do SBT: dois aliados presos (Canella e Bacellar) na data da fala."
+        },
         {
           "nivel": "N4",
           "instituicao": "Jornal do Brasil (com Revista Fórum)",
@@ -149,16 +185,16 @@
           "url": "https://www.jb.com.br/rio/policia/2026/02/1058815-bolsonarista-bacellar-atua-como-lideranca-do-nucleo-politico-do-comando-vermelho-diz-policia-federal.html",
           "consultada_em": "2026-10-17",
           "trecho": "Ex-presidente da Alerj, que seria o candidato de Jair Bolsonaro ao governo do RJ, foi indiciado ao lado de TH Joias por ligação com o CV [...] Relatório final da PF enviado ao Supremo Tribunal Federal (STF) afirma que Bacellar exercia “a liderança do núcleo político” da facção criminosa.",
-          "prova": "Registra Bacellar como candidato do bolsonarismo ao governo e a descrição da PF como líder do núcleo político do CV."
+          "prova": "A caracterização da PF (liderança do núcleo político do CV), que é a que a frase usa."
         },
         {
           "nivel": "N4",
-          "instituicao": "O Antagonista",
-          "titulo": "Rodrigo Bacellar continua preso (28/03/2026)",
-          "url": "https://oantagonista.com.br/brasil/rodrigo-bacellar-continua-preso/",
+          "instituicao": "O Povo (BBC News Brasil)",
+          "titulo": "Rodrigo Bacellar é preso novamente: os tentáculos do Comando Vermelho na política do Rio, segundo investigações (01/04/2026)",
+          "url": "https://www.opovo.com.br/agencia/bbc/2026/04/01/amp/rodrigo-bacellar-e-preso-novamente-os-tentaculos-do-comando-vermelho-na-politica-do-rio-segundo-investigacoes.html",
           "consultada_em": "2026-10-17",
-          "trecho": "A Justiça manteve a prisão de Rodrigo Bacellar (foto), ex-presidente da Assembleia Legislativa do Rio de Janeiro (Alerj), após audiência de custódia realizada neste sábado, 28. Ele foi detido na sexta-feira, em Teresópolis, por ordem do ministro Alexandre de Moraes , do Supremo Tribunal Federal, e encaminhado ao Presídio Pedrolino Werling de Oliveira, no Complexo de Gericinó, em Bangu. [...] A detenção foi realizada pela Polícia Federal no âmbito da Operação Unha e Carne III, que investiga o vazamento de informações de uma ação contra o Comando Vermelho .",
-          "prova": "Registra a prisão preventiva de março de 2026 e o objeto formal da investigação (vazamento de ação contra o CV)."
+          "trecho": "Segundo o STF, o mandado desta sexta-feira foi cumprido pela Polícia Federal no âmbito da Operação Unha e Carne III, que apura indícios de vazamento de informações sigilosas e obstrução de investigações envolvendo organizações criminosas no Estado do Rio de Janeiro. [...] No dia 16 de março, a Procuradoria Geral da União (PGR) denunciou os três por obstrução de investigação relacionada ao vazamento de informações sigilosas para o Comando Vermelho.",
+          "prova": "O objeto formal da operação e da denúncia: vazamento e obstrução, não a liderança do núcleo político."
         },
         {
           "nivel": "N4",
@@ -167,7 +203,7 @@
           "url": "https://www.rtp.pt/noticias/mundo/policia-indicia-presidente-da-assembleia-do-rio-de-janeiro-por-ligacao-ao-comando-vermelho_n1722065",
           "consultada_em": "2026-10-17",
           "trecho": "Bacellar, cuja defesa nega as acusações, é aliado do ex-presidente Jair Bolsonaro e do atual governador do Rio de Janeiro, Cláudio Castro, que queria que o deputado lhe sucedesse no cargo.",
-          "prova": "Imprensa estrangeira, independente das brasileiras: Bacellar era o nome do grupo para a sucessão no governo, e a defesa nega as acusações."
+          "prova": "Imprensa estrangeira, independente das brasileiras: a defesa nega as acusações."
         }
       ]
     },
@@ -341,14 +377,14 @@
     },
     {
       "id": "A199",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Uma reportagem diz que Lottenberg foi o primeiro nome anunciado por Flávio; falta segunda fonte",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o BP Money, em 29/08/2026, afirma que Lottenberg 'é o primeiro nome anunciado por Flávio Bolsonaro para integrar um eventual governo', e o Futuro da Saúde registra o anúncio na entrevista ao Jornal Nacional de 28/08. Falta uma segunda fonte independente que confirme a precedência, ou a lista com as datas dos anúncios posteriores (a frase da entrevistadora é de 16/out). Nenhuma fonte contradiz a afirmação; com uma só fonte para o ponto checável, o veredito provisório é INSUSTENTAVEL.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lottenberg, anunciado em agosto, foi o primeiro nome; em outubro Flávio ainda estudava anunciar outros ministros",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). Faltava uma segunda fonte para a precedência. O BP Money (29/08) diz que Lottenberg 'é o primeiro nome anunciado por Flávio Bolsonaro para integrar um eventual governo', e o Futuro da Saúde registra o anúncio no Jornal Nacional de 28/08. A segunda fonte, independente, é a Folha (Folhapress, no Bahia Notícias, 13/10): Flávio 'já anunciou durante a eleição' Lottenberg para a Saúde e 'estuda divulgar mais dois ou três ministros antes do segundo turno', ou seja, até três dias antes da fala ele era o único nome anunciado. Mesmo que outro nome tivesse saído entre 13 e 16/out, Lottenberg continuaria sendo o primeiro, porque foi anunciado em agosto. O anúncio foi checado na A198 deste caso (VERDADEIRO). VERDADEIRO, com confiança média: nenhuma lista oficial da campanha foi consultada.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "anúncio de 28/08/2026",
+      "data_de_referencia": "anúncio de 28/08/2026; situação dos anúncios em 13/10/2026",
       "ressalva": null,
-      "confianca": "baixa",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -363,6 +399,15 @@
         },
         {
           "nivel": "N4",
+          "instituicao": "Bahia Notícias (Folhapress)",
+          "titulo": "Apoio do centrão deflagra corrida por possível ministério de Flávio, que avalia antecipar nomes (13/10/2026)",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/412419-apoio-do-centrao-deflagra-corrida-por-possivel-ministerio-de-flavio-que-avalia-antecipar-nomes",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio já anunciou durante a eleição que o médico Claudio Lottenberg, presidente licenciado do Hospital Israelita Albert Einstein, pode ser o ministro da Saúde. [...] Flávio estuda divulgar mais dois ou três ministros antes do segundo turno, para mostrar o compromisso com nomes técnicos.",
+          "prova": "Apuração independente (Folha): em outubro Lottenberg era o nome já anunciado e os outros ministros ainda estavam em estudo."
+        },
+        {
+          "nivel": "N4",
           "instituicao": "Futuro da Saúde",
           "titulo": "Claudio Lottenberg se licencia do Einstein após ser indicado ministro da Saúde por Flávio Bolsonaro",
           "url": "https://futurodasaude.com.br/?p=50230",
@@ -374,17 +419,44 @@
     },
     {
       "id": "A200",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Lottenberg criticou a condução da pandemia pelo governo em 2021; crítica à compra de vacinas não foi achada",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: as fontes capturadas registram que Lottenberg criticou o governo Jair Bolsonaro na pandemia: em entrevista ao O Globo de março de 2021, criticou a falta de coordenação do governo federal e a ausência de lideranças como exemplo no uso de máscara (CartaCapital); o BP Money e o Investidor10 registram as críticas à condução da pandemia. Nenhuma delas menciona a demora na compra de vacinas, que é o ponto específico da frase. Uma busca por 'Lottenberg' com 'demora' e 'vacinas' não achou registro. Falta procurar entrevistas e artigos dele de 2020 e 2021 sobre vacinação (por exemplo, no O Globo, na Folha e no Estadão). A crítica geral está documentada; a específica, não, e por isso o veredito provisório é INSUSTENTAVEL, e não VERDADEIRO nem FALSO.",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em 2021, Lottenberg disse que a busca de vacinas veio tarde e que a vacinação estava atrasada e lenta",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). Faltavam entrevistas de 2020 e 2021 sobre a compra de vacinas. Há três falas dele, em veículos diferentes: ao CB.Poder (Correio Braziliense, junho de 2021), apontou 'falta de entendimento e compromisso' na 'busca das vacinas' e disse que 'a tal da diplomacia da vacina aconteceu tarde' e veio 'com muito negacionismo', criticando também a falta de discurso uniforme entre o plano federal e o estadual; à Jovem Pan, em janeiro de 2021, defendeu 'o início da vacinação, que está lento e prejudicando o país', e em abril de 2021 disse que o processo estava atrasado, entre outros motivos, pela 'própria obtenção de novas doses'. A crítica geral à condução da pandemia pelo governo Jair Bolsonaro está registrada pela CartaCapital (entrevista ao O Globo de março de 2021). Juntas, sustentam que ele criticou a demora em obter vacinas no governo do pai do candidato. A cobertura da sabatina na Gazeta do Povo repete a mesma descrição, mas sem citar fonte, e por isso não foi contada. VERDADEIRO, com confiança média: nos trechos achados ele fala em atraso na busca e na obtenção de doses e em negacionismo, sem nomear o governo federal como responsável em todas as frases; a citação literal lida em seguida pela entrevistadora é a A201.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "pandemia de covid-19, 2020 e 2021",
-      "ressalva": null,
-      "confianca": "baixa",
+      "data_de_referencia": "entrevistas de janeiro, abril e junho de 2021",
+      "ressalva": "Nos trechos achados ele fala em atraso na busca e na obtenção de doses, sem nomear o governo em todas as frases",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Correio Braziliense (entrevista ao CB.Poder)",
+          "titulo": "Politização da pandemia preocupa (09/06/2021)",
+          "url": "https://www.correiobraziliense.com.br/cidades-df/2021/06/4930186-politizacao-da-pandemia-preocupa.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "postado em 09/06/2021 21:25 [...] Temos uma falta de entendimento e compromisso na busca de soluções que, neste momento, efetivamente, seriam as buscas das vacinas. A tal da diplomacia da vacina aconteceu tarde e, quando veio, não veio de maneira própria, ainda veio com muito negacionismo. Temos também uma falta de um discurso uniforme, ou seja, aquilo que acontece no plano federal não conversa com aquilo que está acontecendo no estadual.",
+          "prova": "Fala do próprio Lottenberg, em 2021, criticando o atraso na busca de vacinas (diplomacia da vacina tardia e com negacionismo)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "Entrevista de Claudio Lottenberg sobre compra de vacinas por clínicas privadas (11/01/2021)",
+          "url": "https://jovempan.com.br/?p=118324",
+          "consultada_em": "2026-10-17",
+          "trecho": "Não estou aqui para defender o privado, estou pra defender o início da vacinação, que está lento e prejudicando o país, isso que estou para defender.",
+          "prova": "Outra entrevista, em outro veículo e em outro mês: a demora em começar a vacinação prejudica o país."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "'Aquisição de vacinas pelo setor privado deve ser facilitador', afirma Claudio Lottenberg (08/04/2021)",
+          "url": "https://jovempan.com.br/?p=111586",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lottenberg afirmou que todo o processo de vacinação está atrasado por motivos diversos, entre eles a própria obtenção de novas doses.",
+          "prova": "Atribui o atraso da vacinação, entre outros motivos, à obtenção de doses, que é o ponto da compra."
+        },
         {
           "nivel": "N4",
           "instituicao": "CartaCapital",
@@ -392,25 +464,7 @@
           "url": "https://www.cartacapital.com.br/?p=636332",
           "consultada_em": "2026-10-17",
           "trecho": "Em entrevista ao jornal O Globo publicada em março de 2021, quando o Brasil registrava mais de 2 mil mortes por Covid-19 em 24 horas, Lottenberg criticou a falta de coordenação do governo federal no combate à doença e a ausência de lideranças políticas como exemplo no cumprimento de medidas sanitárias.",
-          "prova": "Registra crítica de Lottenberg ao governo federal na pandemia, sobre coordenação e medidas sanitárias, sem menção a compra de vacinas."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "BP Money",
-          "titulo": "Flávio Bolsonaro anuncia Claudio Lottenberg para Ministério da Saúde, se vencer eleição (29/08/2026)",
-          "url": "https://bpmoney.com.br/?p=419459",
-          "consultada_em": "2026-10-17",
-          "trecho": "Lottenberg criticou governo de Jair Bolsonaro na pandemia Apesar da indicação feita pelo filho do ex-presidente, Lottenberg adotou posições críticas em relação à condução da pandemia de Covid-19 pelo governo de Jair Bolsonaro (PL).",
-          "prova": "Segunda apuração da crítica à condução da pandemia; não cita vacinas como objeto da crítica."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Investidor10",
-          "titulo": "Flávio Bolsonaro faz motociata no RJ e anuncia ministro da Saúde",
-          "url": "https://investidor10.com.br/noticias/flavio-bolsonaro-faz-motociata-no-rj-e-anuncia-ministro-da-saude-122341/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Questionado sobre críticas que Lottenberg já fez ao ex-presidente Jair Bolsonaro em relação à condução da pandemia de coronavírus, Flávio preferiu não entrar na polêmica.",
-          "prova": "Terceira leitura: as críticas existem e foram sobre a condução da pandemia em geral."
+          "prova": "Registra que as críticas dele na pandemia eram dirigidas ao governo federal."
         }
       ]
     }

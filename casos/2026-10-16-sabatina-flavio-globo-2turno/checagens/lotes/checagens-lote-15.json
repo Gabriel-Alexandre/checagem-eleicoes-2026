@@ -1,499 +1,548 @@
 {
-  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
-  "gerado_em": "2026-10-17",
-  "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
-  "checagens": [
+ "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+ "gerado_em": "2026-10-17",
+ "fonte_alegacoes": "alegacoes/alegacoes-sabatina-completa.json",
+ "checagens": [
+  {
+   "id": "A141",
+   "veredito": "VERDADEIRO",
+   "resumo": "A Lei dos Portos trata o porto organizado como bem público explorado pela União; a autoridade de Santos segue pública",
+   "explicacao": "A frase diz que o Porto de Santos é área da União, do governo federal. A Lei 12.815/2013 (Lei dos Portos) regula a exploração pela União, direta ou indiretamente, dos portos, define o porto organizado como bem público sob jurisdição de autoridade portuária e diz que a administração do porto é exercida pela União, pela delegatária ou pela concessionária. No caso de Santos, a autoridade portuária é a Autoridade Portuária de Santos S.A., e a privatização dela, decidida no governo Bolsonaro, foi abandonada: em outubro de 2023 o Ministério de Portos e Aeroportos anunciou a retirada do porto do programa de desestatização (Jornal de Brasília), o CPPI retirou a previsão de transferir o controle acionário (IstoÉ Dinheiro, texto do Estadão Conteúdo) e o Decreto 11.152/2022, na redação vigente dada pelo Decreto 11.909/2024 e conferida no texto atualizado da Câmara, admite só a concessão parcial dos acessos, 'mantendo-se uma autoridade portuária pública'. O texto atualizado não registra alteração posterior a 2024, o que vale para a data da fala. Por isso VERDADEIRO, e não IMPRECISO: a ressalva é que as operações dos terminais são em grande parte privadas, o que não muda a natureza pública do porto organizado.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "Lei 12.815/2013 e Decreto 11.152/2022 na redação de fevereiro de 2024, vigente em outubro de 2026",
+   "ressalva": "As operações dos terminais são em grande parte privadas; o porto organizado e a autoridade portuária são públicos",
+   "confianca": "alta",
+   "divergencia_entre_fontes": "O Jornal de Brasília descreve a retirada do porto do Programa Nacional de Desestatização em outubro de 2023, mas o decreto na redação vigente ainda mantém a Autoridade Portuária de Santos S.A. qualificada no PPI e incluída no PND, agora só para a concessão parcial dos acessos, com autoridade portuária pública. As duas fontes concordam no que importa aqui: a autoridade não foi privatizada.",
+   "revisao_humana": null,
+   "fontes": [
     {
-      "id": "A141",
-      "veredito": "VERDADEIRO",
-      "resumo": "A Lei dos Portos trata o porto organizado como bem público explorado pela União; a autoridade de Santos segue pública",
-      "explicacao": "A frase diz que o Porto de Santos é área da União, do governo federal. A Lei 12.815/2013 (Lei dos Portos) regula a exploração pela União, direta ou indiretamente, dos portos, define o porto organizado como bem público sob jurisdição de autoridade portuária e diz que a administração do porto é exercida pela União, pela delegatária ou pela concessionária. No caso de Santos, a autoridade portuária é a Autoridade Portuária de Santos S.A., e a privatização dela, decidida no governo Bolsonaro, foi abandonada: em outubro de 2023 o Ministério de Portos e Aeroportos anunciou a retirada do porto do programa de desestatização (Jornal de Brasília), o CPPI retirou a previsão de transferir o controle acionário (IstoÉ Dinheiro, texto do Estadão Conteúdo) e o Decreto 11.152/2022, na redação vigente dada pelo Decreto 11.909/2024 e conferida no texto atualizado da Câmara, admite só a concessão parcial dos acessos, 'mantendo-se uma autoridade portuária pública'. O texto atualizado não registra alteração posterior a 2024, o que vale para a data da fala. Por isso VERDADEIRO, e não IMPRECISO: a ressalva é que as operações dos terminais são em grande parte privadas, o que não muda a natureza pública do porto organizado.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "Lei 12.815/2013 e Decreto 11.152/2022 na redação de fevereiro de 2024, vigente em outubro de 2026",
-      "ressalva": "As operações dos terminais são em grande parte privadas; o porto organizado e a autoridade portuária são públicos",
-      "confianca": "alta",
-      "divergencia_entre_fontes": "O Jornal de Brasília descreve a retirada do porto do Programa Nacional de Desestatização em outubro de 2023, mas o decreto na redação vigente ainda mantém a Autoridade Portuária de Santos S.A. qualificada no PPI e incluída no PND, agora só para a concessão parcial dos acessos, com autoridade portuária pública. As duas fontes concordam no que importa aqui: a autoridade não foi privatizada.",
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N1",
-          "instituicao": "Presidência da República (Planalto)",
-          "titulo": "Lei nº 12.815, de 5 de junho de 2013 (Lei dos Portos)",
-          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12815.htm",
-          "consultada_em": "2026-10-17",
-          "trecho": "Art. 1º Esta Lei regula a exploração pela União, direta ou indiretamente, dos portos e instalações portuárias e as atividades desempenhadas pelos operadores portuários. [...] I - porto organizado: bem público construído e aparelhado para atender a necessidades de navegação, de movimentação de passageiros ou de movimentação e armazenagem de mercadorias, e cujo tráfego e operações portuárias estejam sob jurisdição de autoridade portuária; [...] Art. 17. A administração do porto é exercida diretamente pela União, pela delegatária ou pela entidade concessionária do porto organizado.",
-          "prova": "Define o porto organizado como bem público explorado pela União, que é a natureza jurídica afirmada na frase."
-        },
-        {
-          "nivel": "N1",
-          "instituicao": "Câmara dos Deputados (Centro de Documentação e Informação), texto atualizado",
-          "titulo": "Decreto nº 11.152, de 27 de julho de 2022, norma atualizada",
-          "url": "https://www2.camara.leg.br/legin/fed/decret/2022/decreto-11152-27-julho-2022-793045-normaatualizada-pe.html",
-          "consultada_em": "2026-10-17",
-          "trecho": "§ 1º A qualificação de que trata o caput poderá incluir a concessão parcial dos acessos do Porto Organizado de Santos, inclusive da ligação seca entre Santos e Guarujá via túnel sob o canal aquaviário, mantendo-se uma autoridade portuária pública. (Parágrafo acrescido pelo Decreto nº 11.909, de 6/2/2024)",
-          "prova": "Mostra que, na redação vigente, a autoridade portuária de Santos continua pública e só os acessos podem ser concedidos."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Jornal de Brasília",
-          "titulo": "Governo federal retira Porto de Santos do programa de privatização (27/10/2023)",
-          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/governo-federal-retira-porto-de-santos-do-programa-de-privatizacao/",
-          "consultada_em": "2026-10-17",
-          "trecho": "O ministro de Portos e Aeroportos, Silvio Costa Filho, assinou nesta sexta, 27, medida que a retira o Porto de Santos do Programa Nacional de Desestatização (PND), pondo fim às discussões sobre a concessão ou não do principal terminal portuário do País à iniciativa privada. [...] “O Porto de Santos já é quase todo privatizado, as operações são privadas, o porto mantém a autoridade pública.",
-          "prova": "Registra o abandono da privatização da autoridade portuária e a distinção entre operação privada e autoridade pública."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "IstoÉ Dinheiro (Estadão Conteúdo)",
-          "titulo": "CPPI recomenda concessão parcial de Porto de Santos e Codeba (05/12/2023)",
-          "url": "https://istoedinheiro.com.br/cppi-recomenda-concessao-parcial-de-porto-de-santos-e-codeba-e-exclusao-de-sao-sebastiao-do-pnd",
-          "consultada_em": "2026-10-17",
-          "trecho": "Foi retirado, porém, dispositivo da recomendação anterior que previa que a concessão do serviço público de administração do Porto Organizado de Santos seria feita de forma associada à transferência do controle acionário da Autoridade Portuária de Santos S.A.",
-          "prova": "Confirma que a venda do controle da autoridade portuária saiu da recomendação do CPPI."
-        }
-      ]
+     "nivel": "N1",
+     "instituicao": "Presidência da República (Planalto)",
+     "titulo": "Lei nº 12.815, de 5 de junho de 2013 (Lei dos Portos)",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12815.htm",
+     "consultada_em": "2026-10-17",
+     "trecho": "Art. 1º Esta Lei regula a exploração pela União, direta ou indiretamente, dos portos e instalações portuárias e as atividades desempenhadas pelos operadores portuários. [...] I - porto organizado: bem público construído e aparelhado para atender a necessidades de navegação, de movimentação de passageiros ou de movimentação e armazenagem de mercadorias, e cujo tráfego e operações portuárias estejam sob jurisdição de autoridade portuária; [...] Art. 17. A administração do porto é exercida diretamente pela União, pela delegatária ou pela entidade concessionária do porto organizado.",
+     "prova": "Define o porto organizado como bem público explorado pela União, que é a natureza jurídica afirmada na frase."
     },
     {
-      "id": "A142",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "A ONU lista Santos entre os principais portos de saída de cocaína, mas nenhuma fonte o põe em 2º lugar no mundo",
-      "explicacao": "A frase afirma um ranking: Santos seria o segundo maior porto exportador de cocaína do mundo. O critério pedia a fonte do ranking e a métrica. O World Drug Report 2022 do UNODC (ONU) cita o Porto de Santos entre os pontos importantes de saída de cocaína da América do Sul por mar, ao lado de Buenaventura, Guayaquil e Cartagena, sem ordenar os portos nem dar volumes por porto de origem; a reportagem da Agência Brasil sobre o relatório, reproduzida pelo Diario de Pernambuco (é a mesma primária, conta como apoio), descreve Santos como um dos principais pontos de distribuição de cocaína por via marítima no mundo, numa lista de quatro. Dados da Polícia Federal noticiados pelo O Povo mostram Santos como o porto brasileiro com mais apreensões na década. Nenhuma das fontes classifica Santos como o segundo do mundo, e tampouco o põe em outra posição: por isso INSUSTENTAVEL, e não FALSO. A essência (Santos é um dos grandes pontos de saída de cocaína) tem respaldo; a posição no ranking, não. Nesta rodada foi feita uma busca dirigida à frase do ranking; Europol e relatórios de apreensão nos portos europeus por origem não foram consultados.",
-      "numero_dito": "2º maior porto exportador de cocaína do mundo",
-      "numero_apurado": "sem ranking mundial; Santos aparece entre os principais portos de saída citados pelo UNODC",
-      "data_de_referencia": "World Drug Report 2022 (UNODC) e dados da PF da década até 2018",
-      "ressalva": null,
-      "confianca": "media",
-      "divergencia_entre_fontes": null,
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N2",
-          "instituicao": "Escritório das Nações Unidas sobre Drogas e Crime (UNODC)",
-          "titulo": "World Drug Report 2022, Booklet 4 (Drug market trends: cocaine, amphetamine-type stimulants)",
-          "url": "https://www.unodc.org/res/wdr2022/MS/WDR22_Booklet_4.pdf",
-          "consultada_em": "2026-10-17",
-          "trecho": "Important departure points for shipping cocaine out [...] of Buenaventura, Colombia, and Guayaquil, Ecuador, [...] and the Atlantic seaports of Cartagena, Colombia, and [...] the Port of Santos in the State of Sao Paulo, Brazil",
-          "prova": "A referência internacional lista Santos entre os principais portos de saída de cocaína, sem ranking que o ponha em segundo."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Diario de Pernambuco (reportagem sobre o relatório do UNODC, com base na Agência Brasil)",
-          "titulo": "Traficantes recorrem a portos do Nordeste para distribuição de cocaína (jul/2022)",
-          "url": "https://www.diariodepernambuco.com.br/noticia/vidaurbana/2022/07/amp/traficantes-recorrem-a-portos-do-nordeste-para-distribuicao-de-cocaina.html",
-          "consultada_em": "2026-10-17",
-          "trecho": "Santos é considerado um dos principais pontos de distribuição de cocaína, por via marítima, no mundo. Localizado no litoral de São Paulo, o porto aparece em uma lista de quatro locais que se destacam no comércio marítimo global da droga, junto com Buenaventura e Cartagena, na Colômbia, e com Guayaquil, no Equador.",
-          "prova": "Leitura jornalística do mesmo relatório: Santos aparece numa lista de quatro portos, não numa classificação por posição."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "O Povo (dados da Polícia Federal)",
-          "titulo": "Em 4 anos, cocaína que sairia pelo mar cresceu 18 vezes (jan/2019)",
-          "url": "https://mais.opovo.com.br/jornal/2019/01/26555-em-4-anos--cocaina-que-sairia-pelo-mar-cresceu-18-vezes.html",
-          "consultada_em": "2026-10-17",
-          "trecho": "O píer de Santos aparece como o mais acionado pelas quadrilhas. Na década, foram mais de 48,6 toneladas de cocaína tomadas dos criminosos.",
-          "prova": "Dados da PF mostram Santos como o principal porto de saída no Brasil, recorte nacional e não mundial."
-        }
-      ]
+     "nivel": "N1",
+     "instituicao": "Câmara dos Deputados (Centro de Documentação e Informação), texto atualizado",
+     "titulo": "Decreto nº 11.152, de 27 de julho de 2022, norma atualizada",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/2022/decreto-11152-27-julho-2022-793045-normaatualizada-pe.html",
+     "consultada_em": "2026-10-17",
+     "trecho": "§ 1º A qualificação de que trata o caput poderá incluir a concessão parcial dos acessos do Porto Organizado de Santos, inclusive da ligação seca entre Santos e Guarujá via túnel sob o canal aquaviário, mantendo-se uma autoridade portuária pública. (Parágrafo acrescido pelo Decreto nº 11.909, de 6/2/2024)",
+     "prova": "Mostra que, na redação vigente, a autoridade portuária de Santos continua pública e só os acessos podem ser concedidos."
     },
     {
-      "id": "A143",
-      "veredito": "VERDADEIRO",
-      "resumo": "O Brasil não está entre os 14 países do Escudo das Américas, coalizão dos EUA contra cartéis com apoio de inteligência",
-      "explicacao": "A frase promete que o Brasil 'vai fazer parte' do Escudo das Américas, e pressupõe que hoje não faz. O Escudo das Américas foi lançado em março de 2026 numa cúpula convocada por Donald Trump em Doral, na Flórida, com governos aliados da região (El Heraldo, de Honduras, país membro; Portal de Prefeitura). Representantes de Brasil e México não participaram do encontro, e em setembro de 2026, no comunicado conjunto da Assembleia Geral da ONU, a Agência Pública registrou que os 14 países do Escudo não incluem Brasil e México. A descrição da iniciativa como intercâmbio de informação e inteligência também tem respaldo: o governo dos EUA pôs à disposição dos aliados militares e inteligência (El Heraldo), e a coalizão foi apresentada como cooperação contra o narcotráfico. Nenhuma fonte registra adesão brasileira entre setembro e a data da fala. Por isso VERDADEIRO; a ressalva é que a iniciativa é descrita sobretudo como coalizão militar.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "lançamento em março de 2026; composição registrada em setembro de 2026",
-      "ressalva": "A iniciativa é apresentada pelos EUA como coalizão militar contra cartéis, com oferta de inteligência aos aliados",
-      "confianca": "media",
-      "divergencia_entre_fontes": "Em março, El Heraldo pôs a Colômbia fora do Escudo; em setembro, a Agência Pública a lista entre os 14 países do comunicado conjunto. A divergência não envolve o Brasil, ausente nas duas.",
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "Agência Pública",
-          "titulo": "Escudo das Américas: iniciativa de Trump e de 14 países inclui cartel que não existe (set/2026)",
-          "url": "https://apublica.org/2026/09/escudo-das-americas-iniciativa-de-trump-e-de-14-paises-inclui-cartel-que-nao-existe/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Os 14 países que fazem parte do Escudo das Américas, iniciativa lançada em março deste ano, são todos governados por aliados de Trump na direita continental. [...] México e Brasil, os dois maiores e mais ricos países do continente, não fazem parte do Escudo.",
-          "prova": "Registra, um mês antes da fala, que o Brasil não integra o Escudo das Américas."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "El Heraldo (Honduras, país membro)",
-          "titulo": "Lo que debes saber del 'Escudo de las Américas' (07/03/2026)",
-          "url": "https://www.elheraldo.hn/fotogalerias/mundo/lo-que-debes-saber-escudo-americas-alianza-narcotrafico-crimen-organizado-CP29623515",
-          "consultada_em": "2026-10-17",
-          "trecho": "El gobierno de Trump pondrá a disposición de las naciones aliadas, y que forman parte del \"Escudo de las Américas\" a militares e inteligencia estadounidense [...] México, Brasil y Colombia quedaron fuera del \"Escudo de las Américas\", por el choque de la visión político con la Casa Blanca.",
-          "prova": "Imprensa de país membro confirma que o Brasil ficou de fora e que a iniciativa oferece inteligência aos aliados."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Portal de Prefeitura",
-          "titulo": "Sem Brasil e México, Trump anuncia aliança com países da América Latina para 'destruir' narcotráfico (mar/2026)",
-          "url": "https://portaldeprefeitura.com.br/mundo/trump-anuncia-alianca-paises-da-america-latina-narcotrafico/616684/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Representantes do Brasil e México, maiores países da região, não participaram do encontro. [...] o republicano anunciou a criação de uma aliança militar chamada “Coalizão das Américas contra os Cartéis”, com o objetivo de ampliar a cooperação entre países alinhados a Washington para combater o narcotráfico na região.",
-          "prova": "Confirma a ausência do Brasil na cúpula de lançamento e o objetivo de cooperação contra o narcotráfico."
-        }
-      ]
+     "nivel": "N4",
+     "instituicao": "Jornal de Brasília",
+     "titulo": "Governo federal retira Porto de Santos do programa de privatização (27/10/2023)",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/governo-federal-retira-porto-de-santos-do-programa-de-privatizacao/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O ministro de Portos e Aeroportos, Silvio Costa Filho, assinou nesta sexta, 27, medida que a retira o Porto de Santos do Programa Nacional de Desestatização (PND), pondo fim às discussões sobre a concessão ou não do principal terminal portuário do País à iniciativa privada. [...] “O Porto de Santos já é quase todo privatizado, as operações são privadas, o porto mantém a autoridade pública.",
+     "prova": "Registra o abandono da privatização da autoridade portuária e a distinção entre operação privada e autoridade pública."
     },
     {
-      "id": "A144",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Fontes mostram orçamento nominal maior e mais investimento em 2023, mas cortes no custeio; falta a série real",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: o critério pedia a série do orçamento da Defesa de 2019 a 2026 (despesa discricionária e investimento, em valores reais, no SIOP ou no Portal da Transparência) e a situação dos programas estratégicos e do efetivo. Nesta rodada só se obteve imprensa, e ela aponta em direções diferentes. A favor de aumento: a coluna Esplanada (Tribuna de Minas) dá R$ 124,53 bi para Exército, Marinha e Aeronáutica em 2023, acima de 2019 a 2022, mas em valores nominais; a Folha, reproduzida pelo Congresso em Foco, diz que a fatia de investimento subiu de 6,8% em 2022 para 7,4% no ano seguinte, R$ 9,2 bilhões corrigidos pela inflação. A favor de aperto: a Folha, reproduzida pelo Defesa Aérea & Naval, registra corte de quase 70% na verba de custeio administrativo do ministério em 2024 e queda do PAC da Defesa de R$ 6 bilhões para R$ 5,6 bilhões; o ministro José Múcio disse que o orçamento de R$ 133 bilhões para 2025 é insuficiente e que há 10 anos se põe menos na Defesa, o que não atribui a queda a este governo. Sem a série oficial deflacionada não dá para sustentar nem negar a redução de orçamento e capacidade no governo Lula: por isso INSUSTENTAVEL, e não FALSO. Falta: série SIOP/Siga Brasil 2019-2026 deflacionada pelo IPCA, execução dos programas estratégicos (Gripen, submarinos, blindados) e efetivo das Forças.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "orçamento da Defesa de 2019 a 2025 (valores nominais e fatia de investimento); série real não obtida",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": "As fontes não batem no sentido: o orçamento nominal das Forças e a fatia de investimento subiram em 2023, mas houve corte de quase 70% no custeio administrativo e queda do PAC da Defesa em 2024, e o ministro da Defesa chama o orçamento de 2025 de insuficiente.",
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "Tribuna de Minas (coluna Esplanada)",
-          "titulo": "Orçamento turbinado (09/01/2024)",
-          "url": "https://tribunademinas.com.br/colunas/esplanada/09-01-2024/orcamento-turbinado.html?amp=1",
-          "consultada_em": "2026-10-17",
-          "trecho": "O valor destinado ao Exército, Marinha e Aeronáutica, em 2023 – de R$ 124,53 bi -, foi superior aos últimos quatro anos: 2022 (R$ 122,52 bi), 2021 (R$ 117,06 bi), 2020 (R$ 115,76 bi) e 2019 (R$ 115,11 bi).",
-          "prova": "Série nominal do orçamento das Forças de 2019 a 2023; não está deflacionada, por isso não resolve a comparação real."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Congresso em Foco (com base na Folha de S.Paulo)",
-          "titulo": "Gasto militar sob Lula tem mais investimento, mas distorções persistem",
-          "url": "https://www.congressoemfoco.com.br/noticia/106260/gasto-militar-sob-lula-tem-mais-investimento-mas-distorcoes-persistem",
-          "consultada_em": "2026-10-17",
-          "trecho": "Em 2022, último ano do governo Jair Bolsonaro (PL), 6,8% do orçamento da Defesa foi direcionado a investimentos. No ano passado, esse percentual subiu para 7,4%, totalizando R$ 9,2 bilhões em valores corrigidos pela inflação.",
-          "prova": "Indica alta da fatia de investimento no início do governo, em valores reais, contra a ideia de redução."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Defesa Aérea & Naval (reportagem da Folha de S.Paulo)",
-          "titulo": "Defesa perde 70% de verba interna para Lula turbinar PAC, e militares temem paralisia",
-          "url": "https://defesaaereanaval.com.br/ministerio-da-defesa/defesa-perde-70-de-verba-interna-para-lula-turbinar-pac-e-militares-temem-paralisia",
-          "consultada_em": "2026-10-17",
-          "trecho": "O Ministério da Defesa sofreu um corte de quase 70% na verba usada para custos administrativos , como conta de água, luz e café. [...] os investimentos destinados pela iniciativa ao Ministério da Defesa e às Forças Armadas caíram de R$ 6 bilhões para R$ 5,6 bilhões em 2024.",
-          "prova": "Registra cortes no custeio e no PAC da Defesa em 2024, a favor da ideia de aperto."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Portal de Prefeitura (entrevista de José Múcio ao Estadão/Broadcast)",
-          "titulo": "Orçamento Forças Armadas 2025: 'Não estou cortando na carne, eu estou raspando o osso', diz Múcio",
-          "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/orcamento-forcas-armadas-2025-nao-estou-cortando-na-carne-eu/579918/",
-          "consultada_em": "2026-10-17",
-          "trecho": "O ministro afirmou que as Forças Armadas estão trabalhando para que haja uma solução e confirmou que o orçamento de R$ 133 bilhões para 2025 é insuficiente. [...] “Sabe que isso foi acumulado? Há 10 anos que se vem colocando menos na Defesa.",
-          "prova": "O próprio ministro descreve aperto, mas o atribui a uma década, não só ao atual governo."
-        }
-      ]
-    },
-    {
-      "id": "A145",
-      "veredito": "VERDADEIRO",
-      "resumo": "Congresso, Palácio do Planalto e STF foram invadidos e depredados em 8 de janeiro de 2023",
-      "explicacao": "A pergunta afirma que as sedes dos três Poderes foram invadidas. O Poder360 relatou no dia seguinte a sequência: os extremistas invadiram primeiro o Congresso, chegando ao Salão Verde da Câmara, e depois o Palácio do Planalto e o STF, onde chegaram até o plenário. O Aos Fatos, com base em imagens oficiais e depoimentos, registra que milhares de pessoas invadiram e depredaram o Congresso, o STF e o Palácio do Planalto, e a cobertura da condenação de Bolsonaro (CNN Brasil) descreve o mesmo fato. Os três prédios tiveram área interna invadida; não há número nem recorte a ajustar. Por isso VERDADEIRO. O mesmo episódio foi tratado no caso 2026-08-28-sabatina-flavio-globo (A010), com as mesmas fontes de cobertura.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "8 de janeiro de 2023",
-      "ressalva": null,
-      "confianca": "media",
-      "divergencia_entre_fontes": null,
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "Poder360",
-          "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
-          "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
-          "consultada_em": "2026-10-17",
-          "trecho": "O Palácio do Planalto, sede do governo federal, foi invadido por extremistas de direita às 15h50 de domingo (8.jan.2023). [...] A sede do governo e o STF (Supremo Tribunal Federal) foram invadidos quase de forma simultânea. A ação se deu logo depois de os extremistas invadiram o Congresso Nacional.",
-          "prova": "Registra a invasão das três sedes no mesmo dia, com horário e ordem."
-        },
-        {
-          "nivel": "N3",
-          "instituicao": "Aos Fatos",
-          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
-          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Na tarde daquele domingo, milhares de pessoas invadiram e depredaram o Congresso, o STF e o Palácio do Planalto.",
-          "prova": "Checagem profissional que confirma a invasão dos três prédios."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "CNN Brasil",
-          "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
-          "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "A condenação também relaciona Bolsonaro aos atos de 8 de janeiro de 2023, quando as sedes dos Três Poderes foram invadidas e depredadas por milhares de pessoas em Brasília.",
-          "prova": "Fonte independente que descreve as sedes dos três Poderes como invadidas."
-        }
-      ]
-    },
-    {
-      "id": "A146",
-      "veredito": "VERDADEIRO",
-      "resumo": "Houve vidros quebrados, salas depredadas e obras de arte danificadas; o Planalto listou 24 obras atingidas",
-      "explicacao": "A pergunta descreve vidros quebrados, salas invadidas e depredadas e objetos de arte danificados. O Poder360 registrou no Planalto destruição de gabinetes, obras de arte, janelas e móveis, salas depredadas e, no STF, vidros da fachada quebrados. O Aos Fatos cita registros de pessoas quebrando vidraças, destruindo obras de arte e vandalizando gabinetes. O levantamento da Presidência enviado à CPI (Jornal de Brasília) identificou 24 obras de arte danificadas no Planalto, e o balanço da CNN Brasil registra 68 bens do acervo cultural da Câmara danificados e 951 itens furtados, quebrados ou destruídos no STF. O relatório preliminar do Iphan (Poder360) avaliou danos em vidros, portas, pisos e forros. Os quatro elementos da frase têm registro; por isso VERDADEIRO.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "8 de janeiro de 2023; levantamentos de 2023 e de janeiro de 2024",
-      "ressalva": null,
-      "confianca": "media",
-      "divergencia_entre_fontes": null,
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "Poder360",
-          "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
-          "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Houve roubo de armas , destruição de gabinetes, obras de artes, equipamentos eletrônicos, janelas, mesas e armários, além de móveis da sala da primeira-dama, Janja Lula da Silva . [...] Em seguida, invasores se dirigiram ao Palácio do Planalto e depredaram diversas salas na sede do Poder Executivo. Por fim, os radicais invadiram o STF (Supremo Tribunal Federal). Quebraram vidros da fachada e chegaram até o plenário.",
-          "prova": "Registro do dia seguinte com salas depredadas, obras de arte destruídas e vidros quebrados."
-        },
-        {
-          "nivel": "N3",
-          "instituicao": "Aos Fatos",
-          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
-          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Há registros de pessoas quebrando vidraças e jogando itens para fora dos prédios, destruindo obras de arte e vandalizando gabinetes de autoridades.",
-          "prova": "Checagem profissional que confirma vidraças quebradas, obras de arte destruídas e gabinetes vandalizados."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Jornal de Brasília (com dados da Presidência à CPI)",
-          "titulo": "Prejuízo após ataques de 8/1 chegou a R$ 4,3 milhões",
-          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/prejuizo-apos-ataques-de-8-1-chegou-a-r-43-milhoes/",
-          "consultada_em": "2026-10-17",
-          "trecho": "O maior valor foi de obras de arte depredadas por vândalos. O relatório completo feito pelo Planalto sobre bens danificados ou extraviados pelos vândalos foi enviado à CPI do 8 de janeiro ontem (27). A Coordenação-Geral de Gestão Patrimonial da Presidência identificou 24 obras de arte danificadas.",
-          "prova": "Inventário da Presidência com o número de obras de arte danificadas no Planalto."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "CNN Brasil",
-          "titulo": "Quanto custou e quem pagou pelos prejuízos dos Três Poderes após ataques de 8 de janeiro (06/01/2024)",
-          "url": "https://www.cnnbrasil.com.br/politica/quanto-custou-e-quem-pagou-pelos-prejuizos-dos-tres-poderes-apos-ataques-de-8-de-janeiro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "No Supremo Tribunal Federal (STF), a destruição do edifício causou um prejuízo de R$ 8,6 milhões. Foram 951 itens furtados, quebrados ou completamente destruídos. [...] No Centro de Documentação e Informação, 68 bens do acervo cultural da Câmara, como pinturas, esculturas, presentes, painéis, foram danificados",
-          "prova": "Balanço dos danos no STF e no acervo artístico da Câmara, confirmando o dano a objetos de arte fora do Planalto."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Poder360 (relatório preliminar do Iphan)",
-          "titulo": "Iphan entrega relatório sobre danos nos atos em Brasília",
-          "url": "https://www.poder360.com.br/governo/iphan-entrega-relatorio-sobre-danos-nos-atos-em-brasilia/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Nessa 1ª leva, avaliamos piso, parede e teto, o que abrange vidros, portas, arrombamentos, pisos, forros.",
-          "prova": "O órgão do patrimônio registra danos em vidros e portas dos prédios tombados."
-        }
-      ]
-    },
-    {
-      "id": "A147",
-      "veredito": "VERDADEIRO",
-      "resumo": "Policiais relatam ataques com pedras, barras de ferro e coquetéis molotov; o interventor contou 44 feridos",
-      "explicacao": "A pergunta diz que os invasores atacaram policiais com pedras, coquetéis molotov e barras de ferro. Os documentos do Batalhão de Choque da PM do DF obtidos pela Agência Pública registram que os policiais foram atacados com coquetéis molotov, pedras, paus, fogos de artifício e estilingues, e contam 19 policiais feridos no Choque. O Aos Fatos cita o interventor federal Ricardo Capelli (44 policiais feridos), uma agente atacada com barras de ferro e pedras, o depoimento à CPMI de uma policial sobre granadas e coquetéis molotov e marcas de molotov no jardim interno da Câmara. Até a Gazeta do Povo, em reportagem crítica às condenações, registra que os processos descrevem barras de ferro, porretes e estilingues como o armamento usado. Os três objetos citados têm registro, por isso VERDADEIRO; a ressalva é que a origem dos registros são relatos de policiais e imagens, e que os números de feridos variam conforme o recorte. A mesma lista de objetos sustentou o veredito de A009 no caso 2026-08-28-sabatina-flavio-globo (FALSO para 'nenhuma arma').",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "8 de janeiro de 2023",
-      "ressalva": "Os registros vêm de relatos de policiais e imagens; o Choque da PM contou 19 feridos, e o interventor, 44",
-      "confianca": "media",
-      "divergencia_entre_fontes": "O número de policiais feridos varia com o recorte: 19 no Batalhão de Choque, segundo os documentos da tropa, e 44 no total, segundo o interventor federal.",
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "Agência Pública",
-          "titulo": "O 8 de janeiro nos relatos da tropa de choque da Polícia Militar do DF (set/2023)",
-          "url": "https://apublica.org/2023/09/o-8-de-janeiro-nos-relatos-da-tropa-de-choque-da-policia-militar-do-distrito-federal/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Durante o confronto, disseram ter sido atacados com “coquetéis molotov, pedras, paus, fogos de artifício e estilingues”. [...] No total, o Choque da PMDF aponta que 19 policiais ficaram feridos, dos quais 9 precisaram de dispensa médica.",
-          "prova": "Documentos da própria tropa de choque registram molotov e pedras contra policiais, e o número de feridos do batalhão."
-        },
-        {
-          "nivel": "N3",
-          "instituicao": "Aos Fatos",
-          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
-          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "a policial militar Marcela da Silva Morais Pinno, que atuou na repressão aos atos, afirmou que manifestantes portavam granadas e coquetéis molotov [...] de acordo com o interventor federal da Segurança Pública do Distrito Federal, Ricardo Capelli, 44 policiais foram feridos pelos manifestantes. Uma das agentes disse ter sido atacada com barras de ferro e pedras.",
-          "prova": "Checagem profissional que registra barras de ferro, pedras e molotov contra policiais e o total de feridos do interventor."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Gazeta do Povo",
-          "titulo": "Facas e bolas de gude: como o STF tenta sustentar que multidão do 8/1 estava armada (27/03/2025)",
-          "url": "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
-          "consultada_em": "2026-10-17",
-          "trecho": "na prática os processos descrevem o \"armamento\" como facas, porretes, barras de ferro, estilingues e bolas de gude.",
-          "prova": "Fonte de linha editorial crítica às condenações confirma barras de ferro entre os objetos usados."
-        }
-      ]
-    },
-    {
-      "id": "A148",
-      "veredito": "VERDADEIRO",
-      "resumo": "Invasores levaram armas e munição de uma sala do GSI no Planalto; parte foi recuperada depois pela PM do DF",
-      "explicacao": "A pergunta diz que os invasores chegaram a roubar armas do Gabinete de Segurança Institucional. O Poder360 registrou no dia seguinte que os extremistas roubaram armas e munição de uma sala do GSI; o ministro da Secom, Paulo Pimenta, mostrou a sala com estojos vazios (CNN Brasil, texto da Agência Brasil); as imagens de segurança do Planalto, liberadas por decisão de Alexandre de Moraes, mostram os invasores saindo da sala do GSI com caixas de armas (Diário do Poder); e o Aos Fatos registra que parte das armas foi recuperada depois pela PM do DF. O fato foi checado com as mesmas fontes no caso 2026-08-28-sabatina-flavio-globo (A009, FALSO para 'nenhuma arma'), e o veredito aqui é coerente com aquele. Por isso VERDADEIRO; a ressalva é a divergência sobre o tipo de arma.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "8 de janeiro de 2023",
-      "ressalva": "No dia, o governo falou em armas letais e não letais; depois, o Planalto disse que as armas levadas não eram letais",
-      "confianca": "media",
-      "divergencia_entre_fontes": "O ministro Paulo Pimenta falou em armas letais e não letais em 8/1/2023; em abril de 2023, segundo o Diário do Poder, o Planalto disse que as armas levadas não eram letais. A divergência é sobre o tipo de arma, não sobre o roubo.",
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "Poder360",
-          "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
-          "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Os extremistas, roubaram armas e munição de uma sala do GSI (Gabinete de Segurança Institucional).",
-          "prova": "Registro do dia seguinte do roubo de armas e munição da sala do GSI."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "CNN Brasil (texto da Agência Brasil)",
-          "titulo": "Criminosos roubaram armas do GSI no Planalto, diz ministro (08/01/2023)",
-          "url": "https://www.cnnbrasil.com.br/politica/criminosos-roubaram-armas-do-gsi-no-planalto-diz-ministro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "\"Armas letais e não-letais foram roubadas pelos criminosos dentro do Palácio do Planalto. Este é mais um crime a ser apurado\", disse o ministro.",
-          "prova": "Declaração do governo no próprio dia sobre armas subtraídas no Planalto."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Diário do Poder",
-          "titulo": "Vândalos roubaram armas da sala do GSI no Planalto (25/abr/2023)",
-          "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/vandalos-roubaram-armas-da-sala-do-gsi-no-palacio-do-planalto",
-          "consultada_em": "2026-10-17",
-          "trecho": "As câmeras de segurança do Palácio do Planalto captaram imagens de vândalos saindo de dentro da sala do Gabinete de Segurança Institucional (GSI) após furtarem itens do local. Caixas contendo armas teriam sido levadas pelos invasores. [...] De acordo com o Palácio do Planalto, as armas levadas não eram letais.",
-          "prova": "As imagens de segurança, liberadas pelo STF, mostram a saída da sala do GSI com caixas de armas."
-        },
-        {
-          "nivel": "N3",
-          "instituicao": "Aos Fatos",
-          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
-          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "Também foram registradas pelas câmeras de segurança cenas de manifestantes invadindo salas do GSI (Gabinete de Segurança Institucional) e roubando caixas de armas e munições. Algumas das armas foram recuperadas posteriormente pela PM-DF.",
-          "prova": "Checagem profissional confirma o roubo pelas imagens e registra a recuperação de parte das armas."
-        }
-      ]
-    },
-    {
-      "id": "A149",
-      "veredito": "IMPRECISO",
-      "resumo": "Era domingo e as autoridades estavam fora, mas havia policiais e seguranças nos prédios, e houve feridos",
-      "explicacao": "A frase descreve os prédios dos três Poderes como vazios. A parte que confere: o 8 de janeiro de 2023 caiu num domingo (Poder360), Lula estava em Araraquara (Poder360) e, nas palavras de um advogado ouvido pela Gazeta do Povo, era um domingo de recesso com as autoridades fora. A parte que não confere é o 'vazios': havia gente dentro dos prédios. Os documentos da tropa de choque (Agência Pública) registram o Comandante Geral da PM do DF e outros policiais encurralados dentro do Congresso; as imagens do Planalto mostram agentes da segurança presidencial na área da sala do GSI (Diário do Poder); o interventor contou 44 policiais feridos (Aos Fatos); e Alexandre de Moraes, no voto citado pela Gazeta do Povo, menciona servidores feridos gravemente. IMPRECISO, e não FALSO: a essência (sem autoridades, em dia sem expediente) está certa, mas a palavra 'vazios' apaga os policiais e seguranças que estavam nos prédios. Não é VERDADEIRO porque a presença de pessoas dentro dos prédios está documentada.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "8 de janeiro de 2023",
-      "ressalva": "A ausência de autoridades confere; o que não confere é dizer que não havia ninguém nos prédios",
-      "confianca": "media",
-      "divergencia_entre_fontes": null,
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "Poder360",
-          "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
-          "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
-          "consultada_em": "2026-10-17",
-          "trecho": "O Palácio do Planalto, sede do governo federal, foi invadido por extremistas de direita às 15h50 de domingo (8.jan.2023). [...] Diante do caos instalado em Brasília, Lula, que estava em Araraquara , no interior de São Paulo,",
-          "prova": "Confirma que era domingo e que o presidente não estava em Brasília."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Gazeta do Povo",
-          "titulo": "Facas e bolas de gude: como o STF tenta sustentar que multidão do 8/1 estava armada (27/03/2025)",
-          "url": "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
-          "consultada_em": "2026-10-17",
-          "trecho": "“Era um domingo de recesso com todas as autoridades fora. Cada um estava num canto do mundo. [...] Destruição de processos sigilosos físicos, servidores feridos gravemente.",
-          "prova": "Traz as duas faces: a ausência de autoridades, na fala de um advogado crítico às condenações, e servidores feridos, no voto de Moraes."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Agência Pública",
-          "titulo": "O 8 de janeiro nos relatos da tropa de choque da Polícia Militar do DF (set/2023)",
-          "url": "https://apublica.org/2023/09/o-8-de-janeiro-nos-relatos-da-tropa-de-choque-da-policia-militar-do-distrito-federal/",
-          "consultada_em": "2026-10-17",
-          "trecho": "a saída do choque do local ocorreu para socorrer outros policiais, entre eles o Comandante Geral da PMDF, que estavam encurralados e em perigo dentro do Congresso.",
-          "prova": "Documenta policiais dentro do Congresso durante a invasão, contra a ideia de prédio vazio."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Diário do Poder",
-          "titulo": "Vândalos roubaram armas da sala do GSI no Planalto (25/abr/2023)",
-          "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/vandalos-roubaram-armas-da-sala-do-gsi-no-palacio-do-planalto",
-          "consultada_em": "2026-10-17",
-          "trecho": "Os vândalos chegaram à sala do GSI por volta das 15h10, cerca de 1h e 20 min antes dos primeiros agentes da segurança presidencial aparecerem nas imagens.",
-          "prova": "Registra agentes da segurança presidencial no Planalto durante a invasão."
-        },
-        {
-          "nivel": "N3",
-          "instituicao": "Aos Fatos",
-          "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
-          "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
-          "consultada_em": "2026-10-17",
-          "trecho": "de acordo com o interventor federal da Segurança Pública do Distrito Federal, Ricardo Capelli, 44 policiais foram feridos pelos manifestantes.",
-          "prova": "Mostra que houve pessoas atingidas no confronto, o que a ideia de prédios vazios omite."
-        }
-      ]
-    },
-    {
-      "id": "A150",
-      "veredito": "VERDADEIRO",
-      "resumo": "Nunes (MDB) declarou apoio a Flávio e articula votos para ele no 2º turno contra Lula; em 2024, Lula apoiou o rival dele",
-      "explicacao": "A frase chama Ricardo Nunes de opositor de Lula. Em dezembro de 2025, o prefeito de São Paulo, do MDB, declarou apoio à candidatura de Flávio Bolsonaro à Presidência e disse ser muito possível ganhar de Lula (CNN Brasil). Na semana anterior à fala, ele organizou um almoço com prefeitos da região metropolitana para ampliar o apoio a Flávio no 2º turno (Correio da Manhã) e disse que o MDB formalizaria o apoio a Flávio (BNews SP). Na eleição municipal de 2024, Lula apoiou Guilherme Boulos contra Nunes, e Bolsonaro apoiou Nunes (SBT News). Nunes é, portanto, adversário político de Lula na disputa de 2026. Por isso VERDADEIRO.",
-      "numero_dito": null,
-      "numero_apurado": null,
-      "data_de_referencia": "apoio declarado em dezembro de 2025 e campanha de outubro de 2026; eleição municipal de 2024",
-      "ressalva": null,
-      "confianca": "media",
-      "divergencia_entre_fontes": null,
-      "revisao_humana": null,
-      "fontes": [
-        {
-          "nivel": "N4",
-          "instituicao": "CNN Brasil",
-          "titulo": "Nunes declara apoio à candidatura de Flávio Bolsonaro em 2026 (16/12/2025)",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/nunes-declara-apoio-a-candidatura-de-flavio-bolsonaro-em-2026/",
-          "consultada_em": "2026-10-17",
-          "trecho": "O prefeito da cidade de São Paulo, Ricardo Nunes (MDB), declarou apoio à candidatura do senador Flávio Bolsonaro (PL-RJ) à Presidência da República em 2026. [...] “ É muito possível ganhar do Lula ”, afirmou,",
-          "prova": "Registra o apoio declarado de Nunes ao adversário de Lula."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "Correio da Manhã",
-          "titulo": "Nunes articula apoio dos prefeitos a Flávio no segundo turno (08/10/2026)",
-          "url": "https://www.correiodamanha.com.br/nacional/sao-paulo/2026/10/325490-nunes-articula-apoio-dos-prefeitos-a-flavio-no-segundo-turno.html",
-          "consultada_em": "2026-10-17",
-          "trecho": "O prefeito de São Paulo, Ricardo Nunes (MDB), organiza um almoço com prefeitos da região metropolitana no domingo (11) para ampliar o apoio a Flávio Bolsonaro (PL) no segundo turno presidencial.",
-          "prova": "Mostra Nunes em campanha contra Lula no 2º turno, dias antes da fala."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "BNews SP",
-          "titulo": "Nunes aposta em apoio do MDB a Flávio Bolsonaro nos próximos dias (08/10/2026)",
-          "url": "https://www.bnewssaopaulo.com.br/amp/noticias/politica/nunes-aposta-em-apoio-do-mdb-a-flavio-bolsonaro-nos-proximos-dias.html",
-          "consultada_em": "2026-10-17",
-          "trecho": "O prefeito de São Paulo , Ricardo Nunes (MDB), afirmou nesta quinta-feira (8) acreditar que o partido formalizará, nos próximos dias, apoio à candidatura de Flávio Bolsonaro (PL) no segundo turno da eleição presidencial.",
-          "prova": "Confirma o alinhamento de Nunes com a candidatura adversária de Lula na data da fala."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "SBT News",
-          "titulo": "Confira quem apoia Nunes e quem apoia Boulos neste 2º turno em São Paulo (09/10/2024)",
-          "url": "https://sbtnews.sbt.com.br/noticia/pol%C3%ADtica/confira-quem-apoia-nunes-e-quem-apoia-boulos-neste-2-turno-em-sao-paulo",
-          "consultada_em": "2026-10-17",
-          "trecho": "Presidente Lula está com Boulos, enquanto Bolsonaro defende Nunes.",
-          "prova": "Mostra que em 2024 Lula apoiou o adversário de Nunes."
-        }
-      ]
+     "nivel": "N4",
+     "instituicao": "IstoÉ Dinheiro (Estadão Conteúdo)",
+     "titulo": "CPPI recomenda concessão parcial de Porto de Santos e Codeba (05/12/2023)",
+     "url": "https://istoedinheiro.com.br/cppi-recomenda-concessao-parcial-de-porto-de-santos-e-codeba-e-exclusao-de-sao-sebastiao-do-pnd",
+     "consultada_em": "2026-10-17",
+     "trecho": "Foi retirado, porém, dispositivo da recomendação anterior que previa que a concessão do serviço público de administração do Porto Organizado de Santos seria feita de forma associada à transferência do controle acionário da Autoridade Portuária de Santos S.A.",
+     "prova": "Confirma que a venda do controle da autoridade portuária saiu da recomendação do CPPI."
     }
-  ]
+   ]
+  },
+  {
+   "id": "A142",
+   "veredito": "INSUSTENTAVEL",
+   "resumo": "ONU e Europol põem Santos e o Brasil entre as principais saídas de cocaína, sem ranking que o ponha em segundo",
+   "explicacao": "Refeita na rodada 2 de 17/out/2026 (parte 3). A frase afirma um ranking: Santos seria o segundo maior porto exportador de cocaína do mundo. O critério pedia a fonte do ranking e a métrica. Nenhuma fonte ordena portos de saída no mundo. O World Drug Report 2022 do UNODC (ONU) cita o Porto de Santos entre os pontos importantes de saída de cocaína da América do Sul por mar, ao lado de Buenaventura, Guayaquil e Cartagena, sem ordem nem volume por porto; a reportagem da Agência Brasil sobre o relatório, reproduzida pelo Diario de Pernambuco (mesma primária, conta como apoio), fala de uma lista de quatro. A análise conjunta da EMCDDA (hoje EUDA) e da Europol sobre o mercado de cocaína, consultada nesta rodada como pedia o critério, diz que Brasil, Equador e Colômbia foram os principais pontos de partida da cocaína apreendida na Europa ou destinada a portos europeus, em nível de país, sem classificar portos. Dados da Polícia Federal noticiados pelo O Povo mostram Santos como o porto brasileiro com mais apreensões, recorte nacional. A página do World Drug Report 2025 foi capturada e não traz classificação de portos; uma busca dirigida a Santos, Europol, EUDA e ranking de portos não achou fonte que ponha Santos em segundo nem em outra posição. Por isso INSUSTENTAVEL, e não FALSO: a essência (Santos é um dos grandes portos de saída de cocaína) tem respaldo, e a posição no ranking não tem fonte, nem a favor nem contra.",
+   "numero_dito": "2º maior porto exportador de cocaína do mundo",
+   "numero_apurado": "sem ranking mundial; Santos aparece entre os principais portos de saída citados pelo UNODC, e o Brasil entre os principais países de saída para a Europa (EUDA e Europol)",
+   "data_de_referencia": "World Drug Report 2022 (UNODC), análise EUDA e Europol com dados de 2020 e dados da PF da década até 2018",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N2",
+     "instituicao": "Escritório das Nações Unidas sobre Drogas e Crime (UNODC)",
+     "titulo": "World Drug Report 2022, Booklet 4 (Drug market trends: cocaine, amphetamine-type stimulants)",
+     "url": "https://www.unodc.org/res/wdr2022/MS/WDR22_Booklet_4.pdf",
+     "consultada_em": "2026-10-17",
+     "trecho": "Important departure points for shipping cocaine out [...] of Buenaventura, Colombia, and Guayaquil, Ecuador, [...] and the Atlantic seaports of Cartagena, Colombia, and [...] the Port of Santos in the State of Sao Paulo, Brazil",
+     "prova": "A referência internacional lista Santos entre os principais portos de saída de cocaína, sem ranking que o ponha em segundo."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Agência da União Europeia sobre Drogas (EUDA, ex-EMCDDA) e Europol",
+     "titulo": "EU Drug Market: Cocaine (análise conjunta EMCDDA e Europol)",
+     "url": "https://www.euda.europa.eu/publications/eu-drug-markets/cocaine_en",
+     "consultada_em": "2026-10-17",
+     "trecho": "Brazil, Ecuador and Colombia were the main departure points in 2020 for cocaine seized in or destined for European ports. [...] This EU Drug Market analysis was produced by the EMCDDA and Europol with the support of the EU Member States",
+     "prova": "A análise europeia que o critério pedia dá os países de saída da cocaína apreendida na Europa, sem ordenar portos de origem; não põe Santos em segundo no mundo."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diario de Pernambuco (reportagem sobre o relatório do UNODC, com base na Agência Brasil)",
+     "titulo": "Traficantes recorrem a portos do Nordeste para distribuição de cocaína (jul/2022)",
+     "url": "https://www.diariodepernambuco.com.br/noticia/vidaurbana/2022/07/amp/traficantes-recorrem-a-portos-do-nordeste-para-distribuicao-de-cocaina.html",
+     "consultada_em": "2026-10-17",
+     "trecho": "Santos é considerado um dos principais pontos de distribuição de cocaína, por via marítima, no mundo. Localizado no litoral de São Paulo, o porto aparece em uma lista de quatro locais que se destacam no comércio marítimo global da droga, junto com Buenaventura e Cartagena, na Colômbia, e com Guayaquil, no Equador.",
+     "prova": "Leitura jornalística do mesmo relatório: Santos aparece numa lista de quatro portos, não numa classificação por posição."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "O Povo (dados da Polícia Federal)",
+     "titulo": "Em 4 anos, cocaína que sairia pelo mar cresceu 18 vezes (jan/2019)",
+     "url": "https://mais.opovo.com.br/jornal/2019/01/26555-em-4-anos--cocaina-que-sairia-pelo-mar-cresceu-18-vezes.html",
+     "consultada_em": "2026-10-17",
+     "trecho": "O píer de Santos aparece como o mais acionado pelas quadrilhas. Na década, foram mais de 48,6 toneladas de cocaína tomadas dos criminosos.",
+     "prova": "Dados da PF mostram Santos como o principal porto de saída no Brasil, recorte nacional e não mundial."
+    }
+   ]
+  },
+  {
+   "id": "A143",
+   "veredito": "VERDADEIRO",
+   "resumo": "O Brasil não está entre os 14 países do Escudo das Américas, coalizão dos EUA contra cartéis com apoio de inteligência",
+   "explicacao": "A frase promete que o Brasil 'vai fazer parte' do Escudo das Américas, e pressupõe que hoje não faz. O Escudo das Américas foi lançado em março de 2026 numa cúpula convocada por Donald Trump em Doral, na Flórida, com governos aliados da região (El Heraldo, de Honduras, país membro; Portal de Prefeitura). Representantes de Brasil e México não participaram do encontro, e em setembro de 2026, no comunicado conjunto da Assembleia Geral da ONU, a Agência Pública registrou que os 14 países do Escudo não incluem Brasil e México. A descrição da iniciativa como intercâmbio de informação e inteligência também tem respaldo: o governo dos EUA pôs à disposição dos aliados militares e inteligência (El Heraldo), e a coalizão foi apresentada como cooperação contra o narcotráfico. Nenhuma fonte registra adesão brasileira entre setembro e a data da fala. Por isso VERDADEIRO; a ressalva é que a iniciativa é descrita sobretudo como coalizão militar.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "lançamento em março de 2026; composição registrada em setembro de 2026",
+   "ressalva": "A iniciativa é apresentada pelos EUA como coalizão militar contra cartéis, com oferta de inteligência aos aliados",
+   "confianca": "media",
+   "divergencia_entre_fontes": "Em março, El Heraldo pôs a Colômbia fora do Escudo; em setembro, a Agência Pública a lista entre os 14 países do comunicado conjunto. A divergência não envolve o Brasil, ausente nas duas.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Agência Pública",
+     "titulo": "Escudo das Américas: iniciativa de Trump e de 14 países inclui cartel que não existe (set/2026)",
+     "url": "https://apublica.org/2026/09/escudo-das-americas-iniciativa-de-trump-e-de-14-paises-inclui-cartel-que-nao-existe/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Os 14 países que fazem parte do Escudo das Américas, iniciativa lançada em março deste ano, são todos governados por aliados de Trump na direita continental. [...] México e Brasil, os dois maiores e mais ricos países do continente, não fazem parte do Escudo.",
+     "prova": "Registra, um mês antes da fala, que o Brasil não integra o Escudo das Américas."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "El Heraldo (Honduras, país membro)",
+     "titulo": "Lo que debes saber del 'Escudo de las Américas' (07/03/2026)",
+     "url": "https://www.elheraldo.hn/fotogalerias/mundo/lo-que-debes-saber-escudo-americas-alianza-narcotrafico-crimen-organizado-CP29623515",
+     "consultada_em": "2026-10-17",
+     "trecho": "El gobierno de Trump pondrá a disposición de las naciones aliadas, y que forman parte del \"Escudo de las Américas\" a militares e inteligencia estadounidense [...] México, Brasil y Colombia quedaron fuera del \"Escudo de las Américas\", por el choque de la visión político con la Casa Blanca.",
+     "prova": "Imprensa de país membro confirma que o Brasil ficou de fora e que a iniciativa oferece inteligência aos aliados."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Portal de Prefeitura",
+     "titulo": "Sem Brasil e México, Trump anuncia aliança com países da América Latina para 'destruir' narcotráfico (mar/2026)",
+     "url": "https://portaldeprefeitura.com.br/mundo/trump-anuncia-alianca-paises-da-america-latina-narcotrafico/616684/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Representantes do Brasil e México, maiores países da região, não participaram do encontro. [...] o republicano anunciou a criação de uma aliança militar chamada “Coalizão das Américas contra os Cartéis”, com o objetivo de ampliar a cooperação entre países alinhados a Washington para combater o narcotráfico na região.",
+     "prova": "Confirma a ausência do Brasil na cúpula de lançamento e o objetivo de cooperação contra o narcotráfico."
+    }
+   ]
+  },
+  {
+   "id": "A144",
+   "veredito": "IMPRECISO",
+   "resumo": "Gasto da Defesa caiu 4,2% em termos reais de 2022 a 2025, menos que a queda de 11,6% de 2019 a 2022",
+   "explicacao": "Refeita na rodada 2 de 17/out/2026 (parte 3), com a série oficial que faltava. A frase diz que as Forças Armadas foram sucateadas no governo atual; o núcleo checável é se o orçamento e a capacidade caíram de 2023 a 2026. A série do Ministério da Defesa (total empenhado, R$ milhões correntes, versão de 30/09/2026) dá 111.998,3 em 2019, 120.519,4 em 2022 e 132.024,8 em 2025: subiu em valores nominais. Corrigida pelo IPCA de dezembro a dezembro (IBGE), a despesa de 2022 vale cerca de R$ 137,8 bilhões a preços de 2025, e a de 2025 ficou 4,2% abaixo disso; de 2019 a 2022, a queda real tinha sido de 11,6%. Em proporção do PIB (Banco Mundial, com dados do SIPRI), o gasto militar caiu de 1,38% em 2019 para 1,05% em 2022, desceu a 0,99% em 2023 e 0,96% em 2024 e voltou a 1,05% em 2025. No detalhe, a imprensa registra os dois lados: alta da fatia de investimento em 2024 (7,4%, R$ 9,2 bilhões corrigidos, Folha reproduzida pelo Congresso em Foco) e corte de quase 70% no custeio administrativo e queda do PAC da Defesa no mesmo ano (Folha reproduzida pelo Defesa Aérea & Naval); o ministro José Múcio chamou o orçamento de 2025 de insuficiente, mas disse que há dez anos se põe menos na Defesa. Por isso IMPRECISO: houve redução real pequena no governo atual, mas a maior parte da queda veio antes dele, e em 2025 a proporção do PIB voltou ao nível de 2022; atribuir o aperto ao governo atual erra o período. Não é VERDADEIRO porque a série não mostra o corte que a palavra 'sucateadas' descreve, e não é FALSO porque o valor real de 2025 está, sim, abaixo do de 2022. A capacidade (Gripen, submarinos, blindados, efetivo) não foi medida. Nota de método: a correção usa o IPCA acumulado em 12 meses de dezembro, uma aproximação para valores empenhados ao longo do ano; o total inclui pessoal, a maior parte da despesa. As matérias da Folha entram pelas reproduções (regra 2 da §3.1), como apoio.",
+   "numero_dito": null,
+   "numero_apurado": "total empenhado: R$ 111.998,3 milhões (2019), R$ 120.519,4 milhões (2022) e R$ 132.024,8 milhões (2025), em valores correntes; queda real de 4,2% de 2022 a 2025 e de 11,6% de 2019 a 2022",
+   "data_de_referencia": "execução orçamentária da Defesa de 2017 a 2025, versão de 30/09/2026; IPCA de dezembro de 2019 a 2025",
+   "ressalva": "Em proporção do PIB, o gasto de 2025 voltou ao de 2022; a capacidade das Forças não foi medida",
+   "confianca": "media",
+   "divergencia_entre_fontes": "A imprensa aponta em direções diferentes para 2024: alta da fatia de investimento e, ao mesmo tempo, corte de quase 70% no custeio administrativo e queda do PAC da Defesa.",
+   "revisao_humana": null,
+   "derivacoes": [
+    {
+     "valor": "4,2%",
+     "de": "132.024,8 e 120.519,4, com IPCA de 4.62, 4.83 e 4.26",
+     "como": "120.519,4 vezes 1,0462 vezes 1,0483 vezes 1,0426 dá 137.808 a preços de 2025; 132.024,8 dividido por 137.808, menos 1, dá queda de 4,2%"
+    },
+    {
+     "valor": "11,6%",
+     "de": "120.519,4 e 111.998,3, com IPCA de 4.52, 10.06 e 5.79",
+     "como": "111.998,3 vezes 1,0452 vezes 1,1006 vezes 1,0579 dá 136.297 a preços de 2022; 120.519,4 dividido por 136.297, menos 1, dá queda de 11,6%"
+    },
+    {
+     "valor": "R$ 137,8 bilhões",
+     "de": "120.519,4, com IPCA de 4.62, 4.83 e 4.26",
+     "como": "120.519,4 milhões vezes 1,0462 vezes 1,0483 vezes 1,0426, em bilhões"
+    },
+    {
+     "valor": "1,38%, 1,05%, 0,99% e 0,96%",
+     "de": "1.3827972464, 1.0524008385, 1.0544932096, 0.9943852629 e 0.9590737136",
+     "como": "arredondamento a duas casas da série do Banco Mundial"
+    }
+   ],
+   "fontes": [
+    {
+     "nivel": "N1",
+     "instituicao": "Ministério da Defesa (Secretaria de Orçamento e Organização Institucional)",
+     "titulo": "Execução orçamentária do Ministério da Defesa, consolidado 2017 a 2026, atualizado até 30/09/2026",
+     "url": "https://www.gov.br/defesa/pt-br/assuntos/orcamento-e-financas-1/arquivos/09-atualiza-consolidado-2017-a-2026-v-ascom-dot-atualizada-e-empenhadas-setembro.pdf",
+     "consultada_em": "2026-10-17",
+     "trecho": "Atualizado até 30/09/2026. [...] Empenhado - Valores Correntes [...] 2017 2018 2019 2020 2021 2022 2023 2024 2025 * 2026 2026 MINISTÉRIO DA DEFESA TOTAL 93.120,1 102.938,3 111.998,3 111.142,2 114.536,2 120.519,4 121.172,3 125.315,1 132.024,8",
+     "prova": "Série oficial do total empenhado pela Defesa, em R$ milhões correntes, de 2017 a 2025, na versão vigente na data da fala."
+    },
+    {
+     "nivel": "N1",
+     "instituicao": "IBGE (SIDRA, tabela 1737)",
+     "titulo": "IPCA, variação acumulada em 12 meses, dezembro de 2019 a 2025",
+     "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/201912,202012,202112,202212,202312,202412,202512",
+     "consultada_em": "2026-10-17",
+     "trecho": "\"V\": \"4.52\", \"D3N\": \"dezembro 2020\" [...] \"V\": \"10.06\", \"D3N\": \"dezembro 2021\" [...] \"V\": \"5.79\", \"D3N\": \"dezembro 2022\" [...] \"V\": \"4.62\", \"D3N\": \"dezembro 2023\" [...] \"V\": \"4.83\", \"D3N\": \"dezembro 2024\" [...] \"V\": \"4.26\", \"D3N\": \"dezembro 2025\"",
+     "prova": "Inflação anual usada para levar os valores correntes da Defesa a preços de 2025."
+    },
+    {
+     "nivel": "N2",
+     "instituicao": "Banco Mundial (World Development Indicators, com dados do SIPRI)",
+     "titulo": "Military expenditure (% of GDP), Brasil, 2019 a 2025",
+     "url": "https://api.worldbank.org/v2/country/BRA/indicator/MS.MIL.XPND.GD.ZS?format=json&date=2015:2025",
+     "consultada_em": "2026-10-17",
+     "trecho": "\"date\":\"2025\",\"value\":1.0544932096 [...] \"date\":\"2024\",\"value\":0.9590737136 [...] \"date\":\"2023\",\"value\":0.9943852629 [...] \"date\":\"2022\",\"value\":1.0524008385 [...] \"date\":\"2019\",\"value\":1.3827972464",
+     "prova": "Gasto militar em proporção do PIB: caiu de 2019 a 2022, caiu mais em 2023 e 2024 e voltou em 2025 ao nível de 2022."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Congresso em Foco (com base na Folha de S.Paulo)",
+     "titulo": "Gasto militar sob Lula tem mais investimento, mas distorções persistem",
+     "url": "https://www.congressoemfoco.com.br/noticia/106260/gasto-militar-sob-lula-tem-mais-investimento-mas-distorcoes-persistem",
+     "consultada_em": "2026-10-17",
+     "trecho": "Em 2022, último ano do governo Jair Bolsonaro (PL), 6,8% do orçamento da Defesa foi direcionado a investimentos. No ano passado, esse percentual subiu para 7,4%, totalizando R$ 9,2 bilhões em valores corrigidos pela inflação.",
+     "prova": "Indica alta da fatia de investimento em 2024 (o ano anterior ao da reportagem), em valores reais, contra a ideia de redução."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Defesa Aérea & Naval (reportagem da Folha de S.Paulo)",
+     "titulo": "Defesa perde 70% de verba interna para Lula turbinar PAC, e militares temem paralisia",
+     "url": "https://defesaaereanaval.com.br/ministerio-da-defesa/defesa-perde-70-de-verba-interna-para-lula-turbinar-pac-e-militares-temem-paralisia",
+     "consultada_em": "2026-10-17",
+     "trecho": "O Ministério da Defesa sofreu um corte de quase 70% na verba usada para custos administrativos , como conta de água, luz e café. [...] os investimentos destinados pela iniciativa ao Ministério da Defesa e às Forças Armadas caíram de R$ 6 bilhões para R$ 5,6 bilhões em 2024.",
+     "prova": "Registra cortes no custeio e no PAC da Defesa em 2024, a favor da ideia de aperto."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Portal de Prefeitura (entrevista de José Múcio ao Estadão/Broadcast)",
+     "titulo": "Orçamento Forças Armadas 2025: 'Não estou cortando na carne, eu estou raspando o osso', diz Múcio",
+     "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/orcamento-forcas-armadas-2025-nao-estou-cortando-na-carne-eu/579918/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O ministro afirmou que as Forças Armadas estão trabalhando para que haja uma solução e confirmou que o orçamento de R$ 133 bilhões para 2025 é insuficiente. [...] “Sabe que isso foi acumulado? Há 10 anos que se vem colocando menos na Defesa.",
+     "prova": "O próprio ministro descreve aperto, mas o atribui a uma década, não só ao atual governo."
+    }
+   ]
+  },
+  {
+   "id": "A145",
+   "veredito": "VERDADEIRO",
+   "resumo": "Congresso, Palácio do Planalto e STF foram invadidos e depredados em 8 de janeiro de 2023",
+   "explicacao": "A pergunta afirma que as sedes dos três Poderes foram invadidas. O Poder360 relatou no dia seguinte a sequência: os extremistas invadiram primeiro o Congresso, chegando ao Salão Verde da Câmara, e depois o Palácio do Planalto e o STF, onde chegaram até o plenário. O Aos Fatos, com base em imagens oficiais e depoimentos, registra que milhares de pessoas invadiram e depredaram o Congresso, o STF e o Palácio do Planalto, e a cobertura da condenação de Bolsonaro (CNN Brasil) descreve o mesmo fato. Os três prédios tiveram área interna invadida; não há número nem recorte a ajustar. Por isso VERDADEIRO. O mesmo episódio foi tratado no caso 2026-08-28-sabatina-flavio-globo (A010), com as mesmas fontes de cobertura.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "8 de janeiro de 2023",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
+     "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O Palácio do Planalto, sede do governo federal, foi invadido por extremistas de direita às 15h50 de domingo (8.jan.2023). [...] A sede do governo e o STF (Supremo Tribunal Federal) foram invadidos quase de forma simultânea. A ação se deu logo depois de os extremistas invadiram o Congresso Nacional.",
+     "prova": "Registra a invasão das três sedes no mesmo dia, com horário e ordem."
+    },
+    {
+     "nivel": "N3",
+     "instituicao": "Aos Fatos",
+     "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+     "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Na tarde daquele domingo, milhares de pessoas invadiram e depredaram o Congresso, o STF e o Palácio do Planalto.",
+     "prova": "Checagem profissional que confirma a invasão dos três prédios."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "CNN Brasil",
+     "titulo": "Saiba os crimes que sustentaram a condenação e a prisão de Bolsonaro",
+     "url": "https://www.cnnbrasil.com.br/politica/saiba-os-crimes-que-sustentaram-a-condenacao-e-a-prisao-de-bolsonaro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "A condenação também relaciona Bolsonaro aos atos de 8 de janeiro de 2023, quando as sedes dos Três Poderes foram invadidas e depredadas por milhares de pessoas em Brasília.",
+     "prova": "Fonte independente que descreve as sedes dos três Poderes como invadidas."
+    }
+   ]
+  },
+  {
+   "id": "A146",
+   "veredito": "VERDADEIRO",
+   "resumo": "Houve vidros quebrados, salas depredadas e obras de arte danificadas; o Planalto listou 24 obras atingidas",
+   "explicacao": "A pergunta descreve vidros quebrados, salas invadidas e depredadas e objetos de arte danificados. O Poder360 registrou no Planalto destruição de gabinetes, obras de arte, janelas e móveis, salas depredadas e, no STF, vidros da fachada quebrados. O Aos Fatos cita registros de pessoas quebrando vidraças, destruindo obras de arte e vandalizando gabinetes. O levantamento da Presidência enviado à CPI (Jornal de Brasília) identificou 24 obras de arte danificadas no Planalto, e o balanço da CNN Brasil registra 68 bens do acervo cultural da Câmara danificados e 951 itens furtados, quebrados ou destruídos no STF. O relatório preliminar do Iphan (Poder360) avaliou danos em vidros, portas, pisos e forros. Os quatro elementos da frase têm registro; por isso VERDADEIRO.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "8 de janeiro de 2023; levantamentos de 2023 e de janeiro de 2024",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
+     "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Houve roubo de armas , destruição de gabinetes, obras de artes, equipamentos eletrônicos, janelas, mesas e armários, além de móveis da sala da primeira-dama, Janja Lula da Silva . [...] Em seguida, invasores se dirigiram ao Palácio do Planalto e depredaram diversas salas na sede do Poder Executivo. Por fim, os radicais invadiram o STF (Supremo Tribunal Federal). Quebraram vidros da fachada e chegaram até o plenário.",
+     "prova": "Registro do dia seguinte com salas depredadas, obras de arte destruídas e vidros quebrados."
+    },
+    {
+     "nivel": "N3",
+     "instituicao": "Aos Fatos",
+     "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+     "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Há registros de pessoas quebrando vidraças e jogando itens para fora dos prédios, destruindo obras de arte e vandalizando gabinetes de autoridades.",
+     "prova": "Checagem profissional que confirma vidraças quebradas, obras de arte destruídas e gabinetes vandalizados."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Jornal de Brasília (com dados da Presidência à CPI)",
+     "titulo": "Prejuízo após ataques de 8/1 chegou a R$ 4,3 milhões",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/prejuizo-apos-ataques-de-8-1-chegou-a-r-43-milhoes/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O maior valor foi de obras de arte depredadas por vândalos. O relatório completo feito pelo Planalto sobre bens danificados ou extraviados pelos vândalos foi enviado à CPI do 8 de janeiro ontem (27). A Coordenação-Geral de Gestão Patrimonial da Presidência identificou 24 obras de arte danificadas.",
+     "prova": "Inventário da Presidência com o número de obras de arte danificadas no Planalto."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "CNN Brasil",
+     "titulo": "Quanto custou e quem pagou pelos prejuízos dos Três Poderes após ataques de 8 de janeiro (06/01/2024)",
+     "url": "https://www.cnnbrasil.com.br/politica/quanto-custou-e-quem-pagou-pelos-prejuizos-dos-tres-poderes-apos-ataques-de-8-de-janeiro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "No Supremo Tribunal Federal (STF), a destruição do edifício causou um prejuízo de R$ 8,6 milhões. Foram 951 itens furtados, quebrados ou completamente destruídos. [...] No Centro de Documentação e Informação, 68 bens do acervo cultural da Câmara, como pinturas, esculturas, presentes, painéis, foram danificados",
+     "prova": "Balanço dos danos no STF e no acervo artístico da Câmara, confirmando o dano a objetos de arte fora do Planalto."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360 (relatório preliminar do Iphan)",
+     "titulo": "Iphan entrega relatório sobre danos nos atos em Brasília",
+     "url": "https://www.poder360.com.br/governo/iphan-entrega-relatorio-sobre-danos-nos-atos-em-brasilia/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Nessa 1ª leva, avaliamos piso, parede e teto, o que abrange vidros, portas, arrombamentos, pisos, forros.",
+     "prova": "O órgão do patrimônio registra danos em vidros e portas dos prédios tombados."
+    }
+   ]
+  },
+  {
+   "id": "A147",
+   "veredito": "VERDADEIRO",
+   "resumo": "Policiais relatam ataques com pedras, barras de ferro e coquetéis molotov; o interventor contou 44 feridos",
+   "explicacao": "A pergunta diz que os invasores atacaram policiais com pedras, coquetéis molotov e barras de ferro. Os documentos do Batalhão de Choque da PM do DF obtidos pela Agência Pública registram que os policiais foram atacados com coquetéis molotov, pedras, paus, fogos de artifício e estilingues, e contam 19 policiais feridos no Choque. O Aos Fatos cita o interventor federal Ricardo Capelli (44 policiais feridos), uma agente atacada com barras de ferro e pedras, o depoimento à CPMI de uma policial sobre granadas e coquetéis molotov e marcas de molotov no jardim interno da Câmara. Até a Gazeta do Povo, em reportagem crítica às condenações, registra que os processos descrevem barras de ferro, porretes e estilingues como o armamento usado. Os três objetos citados têm registro, por isso VERDADEIRO; a ressalva é que a origem dos registros são relatos de policiais e imagens, e que os números de feridos variam conforme o recorte. A mesma lista de objetos sustentou o veredito de A009 no caso 2026-08-28-sabatina-flavio-globo (FALSO para 'nenhuma arma').",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "8 de janeiro de 2023",
+   "ressalva": "Os registros vêm de relatos de policiais e imagens; o Choque da PM contou 19 feridos, e o interventor, 44",
+   "confianca": "media",
+   "divergencia_entre_fontes": "O número de policiais feridos varia com o recorte: 19 no Batalhão de Choque, segundo os documentos da tropa, e 44 no total, segundo o interventor federal.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Agência Pública",
+     "titulo": "O 8 de janeiro nos relatos da tropa de choque da Polícia Militar do DF (set/2023)",
+     "url": "https://apublica.org/2023/09/o-8-de-janeiro-nos-relatos-da-tropa-de-choque-da-policia-militar-do-distrito-federal/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Durante o confronto, disseram ter sido atacados com “coquetéis molotov, pedras, paus, fogos de artifício e estilingues”. [...] No total, o Choque da PMDF aponta que 19 policiais ficaram feridos, dos quais 9 precisaram de dispensa médica.",
+     "prova": "Documentos da própria tropa de choque registram molotov e pedras contra policiais, e o número de feridos do batalhão."
+    },
+    {
+     "nivel": "N3",
+     "instituicao": "Aos Fatos",
+     "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+     "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "a policial militar Marcela da Silva Morais Pinno, que atuou na repressão aos atos, afirmou que manifestantes portavam granadas e coquetéis molotov [...] de acordo com o interventor federal da Segurança Pública do Distrito Federal, Ricardo Capelli, 44 policiais foram feridos pelos manifestantes. Uma das agentes disse ter sido atacada com barras de ferro e pedras.",
+     "prova": "Checagem profissional que registra barras de ferro, pedras e molotov contra policiais e o total de feridos do interventor."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Gazeta do Povo",
+     "titulo": "Facas e bolas de gude: como o STF tenta sustentar que multidão do 8/1 estava armada (27/03/2025)",
+     "url": "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
+     "consultada_em": "2026-10-17",
+     "trecho": "na prática os processos descrevem o \"armamento\" como facas, porretes, barras de ferro, estilingues e bolas de gude.",
+     "prova": "Fonte de linha editorial crítica às condenações confirma barras de ferro entre os objetos usados."
+    }
+   ]
+  },
+  {
+   "id": "A148",
+   "veredito": "VERDADEIRO",
+   "resumo": "Invasores levaram armas e munição de uma sala do GSI no Planalto; parte foi recuperada depois pela PM do DF",
+   "explicacao": "A pergunta diz que os invasores chegaram a roubar armas do Gabinete de Segurança Institucional. O Poder360 registrou no dia seguinte que os extremistas roubaram armas e munição de uma sala do GSI; o ministro da Secom, Paulo Pimenta, mostrou a sala com estojos vazios (CNN Brasil, texto da Agência Brasil); as imagens de segurança do Planalto, liberadas por decisão de Alexandre de Moraes, mostram os invasores saindo da sala do GSI com caixas de armas (Diário do Poder); e o Aos Fatos registra que parte das armas foi recuperada depois pela PM do DF. O fato foi checado com as mesmas fontes no caso 2026-08-28-sabatina-flavio-globo (A009, FALSO para 'nenhuma arma'), e o veredito aqui é coerente com aquele. Por isso VERDADEIRO; a ressalva é a divergência sobre o tipo de arma.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "8 de janeiro de 2023",
+   "ressalva": "No dia, o governo falou em armas letais e não letais; depois, o Planalto disse que as armas levadas não eram letais",
+   "confianca": "media",
+   "divergencia_entre_fontes": "O ministro Paulo Pimenta falou em armas letais e não letais em 8/1/2023; em abril de 2023, segundo o Diário do Poder, o Planalto disse que as armas levadas não eram letais. A divergência é sobre o tipo de arma, não sobre o roubo.",
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
+     "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Os extremistas, roubaram armas e munição de uma sala do GSI (Gabinete de Segurança Institucional).",
+     "prova": "Registro do dia seguinte do roubo de armas e munição da sala do GSI."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "CNN Brasil (texto da Agência Brasil)",
+     "titulo": "Criminosos roubaram armas do GSI no Planalto, diz ministro (08/01/2023)",
+     "url": "https://www.cnnbrasil.com.br/politica/criminosos-roubaram-armas-do-gsi-no-planalto-diz-ministro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "\"Armas letais e não-letais foram roubadas pelos criminosos dentro do Palácio do Planalto. Este é mais um crime a ser apurado\", disse o ministro.",
+     "prova": "Declaração do governo no próprio dia sobre armas subtraídas no Planalto."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Poder",
+     "titulo": "Vândalos roubaram armas da sala do GSI no Planalto (25/abr/2023)",
+     "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/vandalos-roubaram-armas-da-sala-do-gsi-no-palacio-do-planalto",
+     "consultada_em": "2026-10-17",
+     "trecho": "As câmeras de segurança do Palácio do Planalto captaram imagens de vândalos saindo de dentro da sala do Gabinete de Segurança Institucional (GSI) após furtarem itens do local. Caixas contendo armas teriam sido levadas pelos invasores. [...] De acordo com o Palácio do Planalto, as armas levadas não eram letais.",
+     "prova": "As imagens de segurança, liberadas pelo STF, mostram a saída da sala do GSI com caixas de armas."
+    },
+    {
+     "nivel": "N3",
+     "instituicao": "Aos Fatos",
+     "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+     "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "Também foram registradas pelas câmeras de segurança cenas de manifestantes invadindo salas do GSI (Gabinete de Segurança Institucional) e roubando caixas de armas e munições. Algumas das armas foram recuperadas posteriormente pela PM-DF.",
+     "prova": "Checagem profissional confirma o roubo pelas imagens e registra a recuperação de parte das armas."
+    }
+   ]
+  },
+  {
+   "id": "A149",
+   "veredito": "IMPRECISO",
+   "resumo": "Era domingo e as autoridades estavam fora, mas havia policiais e seguranças nos prédios, e houve feridos",
+   "explicacao": "A frase descreve os prédios dos três Poderes como vazios. A parte que confere: o 8 de janeiro de 2023 caiu num domingo (Poder360), Lula estava em Araraquara (Poder360) e, nas palavras de um advogado ouvido pela Gazeta do Povo, era um domingo de recesso com as autoridades fora. A parte que não confere é o 'vazios': havia gente dentro dos prédios. Os documentos da tropa de choque (Agência Pública) registram o Comandante Geral da PM do DF e outros policiais encurralados dentro do Congresso; as imagens do Planalto mostram agentes da segurança presidencial na área da sala do GSI (Diário do Poder); o interventor contou 44 policiais feridos (Aos Fatos); e Alexandre de Moraes, no voto citado pela Gazeta do Povo, menciona servidores feridos gravemente. IMPRECISO, e não FALSO: a essência (sem autoridades, em dia sem expediente) está certa, mas a palavra 'vazios' apaga os policiais e seguranças que estavam nos prédios. Não é VERDADEIRO porque a presença de pessoas dentro dos prédios está documentada.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "8 de janeiro de 2023",
+   "ressalva": "A ausência de autoridades confere; o que não confere é dizer que não havia ninguém nos prédios",
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "Poder360",
+     "titulo": "Planalto teve equipamentos destruídos e armas roubadas (9/jan/2023)",
+     "url": "https://www.poder360.com.br/governo/planalto-teve-equipamentos-destruidos-e-armas-roubadas/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O Palácio do Planalto, sede do governo federal, foi invadido por extremistas de direita às 15h50 de domingo (8.jan.2023). [...] Diante do caos instalado em Brasília, Lula, que estava em Araraquara , no interior de São Paulo,",
+     "prova": "Confirma que era domingo e que o presidente não estava em Brasília."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Gazeta do Povo",
+     "titulo": "Facas e bolas de gude: como o STF tenta sustentar que multidão do 8/1 estava armada (27/03/2025)",
+     "url": "https://www.gazetadopovo.com.br/republica/facas-e-bolas-de-gude-como-o-stf-tenta-sustentar-que-multidao-do-8-1-estava-armada-e-daria-um-golpe/",
+     "consultada_em": "2026-10-17",
+     "trecho": "“Era um domingo de recesso com todas as autoridades fora. Cada um estava num canto do mundo. [...] Destruição de processos sigilosos físicos, servidores feridos gravemente.",
+     "prova": "Traz as duas faces: a ausência de autoridades, na fala de um advogado crítico às condenações, e servidores feridos, no voto de Moraes."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Agência Pública",
+     "titulo": "O 8 de janeiro nos relatos da tropa de choque da Polícia Militar do DF (set/2023)",
+     "url": "https://apublica.org/2023/09/o-8-de-janeiro-nos-relatos-da-tropa-de-choque-da-policia-militar-do-distrito-federal/",
+     "consultada_em": "2026-10-17",
+     "trecho": "a saída do choque do local ocorreu para socorrer outros policiais, entre eles o Comandante Geral da PMDF, que estavam encurralados e em perigo dentro do Congresso.",
+     "prova": "Documenta policiais dentro do Congresso durante a invasão, contra a ideia de prédio vazio."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Diário do Poder",
+     "titulo": "Vândalos roubaram armas da sala do GSI no Planalto (25/abr/2023)",
+     "url": "https://diariodopoder.com.br/brasil-e-regioes/xwk-brasil/vandalos-roubaram-armas-da-sala-do-gsi-no-palacio-do-planalto",
+     "consultada_em": "2026-10-17",
+     "trecho": "Os vândalos chegaram à sala do GSI por volta das 15h10, cerca de 1h e 20 min antes dos primeiros agentes da segurança presidencial aparecerem nas imagens.",
+     "prova": "Registra agentes da segurança presidencial no Planalto durante a invasão."
+    },
+    {
+     "nivel": "N3",
+     "instituicao": "Aos Fatos",
+     "titulo": "'Sem armas' e 'com senhorinhas orando': em vídeo, parlamentares negam provas do 8 de Janeiro",
+     "url": "https://www.aosfatos.org/noticias/parlamentares-negam-provas-8-de-janeiro/",
+     "consultada_em": "2026-10-17",
+     "trecho": "de acordo com o interventor federal da Segurança Pública do Distrito Federal, Ricardo Capelli, 44 policiais foram feridos pelos manifestantes.",
+     "prova": "Mostra que houve pessoas atingidas no confronto, o que a ideia de prédios vazios omite."
+    }
+   ]
+  },
+  {
+   "id": "A150",
+   "veredito": "VERDADEIRO",
+   "resumo": "Nunes (MDB) declarou apoio a Flávio e articula votos para ele no 2º turno contra Lula; em 2024, Lula apoiou o rival dele",
+   "explicacao": "A frase chama Ricardo Nunes de opositor de Lula. Em dezembro de 2025, o prefeito de São Paulo, do MDB, declarou apoio à candidatura de Flávio Bolsonaro à Presidência e disse ser muito possível ganhar de Lula (CNN Brasil). Na semana anterior à fala, ele organizou um almoço com prefeitos da região metropolitana para ampliar o apoio a Flávio no 2º turno (Correio da Manhã) e disse que o MDB formalizaria o apoio a Flávio (BNews SP). Na eleição municipal de 2024, Lula apoiou Guilherme Boulos contra Nunes, e Bolsonaro apoiou Nunes (SBT News). Nunes é, portanto, adversário político de Lula na disputa de 2026. Por isso VERDADEIRO.",
+   "numero_dito": null,
+   "numero_apurado": null,
+   "data_de_referencia": "apoio declarado em dezembro de 2025 e campanha de outubro de 2026; eleição municipal de 2024",
+   "ressalva": null,
+   "confianca": "media",
+   "divergencia_entre_fontes": null,
+   "revisao_humana": null,
+   "fontes": [
+    {
+     "nivel": "N4",
+     "instituicao": "CNN Brasil",
+     "titulo": "Nunes declara apoio à candidatura de Flávio Bolsonaro em 2026 (16/12/2025)",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/nunes-declara-apoio-a-candidatura-de-flavio-bolsonaro-em-2026/",
+     "consultada_em": "2026-10-17",
+     "trecho": "O prefeito da cidade de São Paulo, Ricardo Nunes (MDB), declarou apoio à candidatura do senador Flávio Bolsonaro (PL-RJ) à Presidência da República em 2026. [...] “ É muito possível ganhar do Lula ”, afirmou,",
+     "prova": "Registra o apoio declarado de Nunes ao adversário de Lula."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "Correio da Manhã",
+     "titulo": "Nunes articula apoio dos prefeitos a Flávio no segundo turno (08/10/2026)",
+     "url": "https://www.correiodamanha.com.br/nacional/sao-paulo/2026/10/325490-nunes-articula-apoio-dos-prefeitos-a-flavio-no-segundo-turno.html",
+     "consultada_em": "2026-10-17",
+     "trecho": "O prefeito de São Paulo, Ricardo Nunes (MDB), organiza um almoço com prefeitos da região metropolitana no domingo (11) para ampliar o apoio a Flávio Bolsonaro (PL) no segundo turno presidencial.",
+     "prova": "Mostra Nunes em campanha contra Lula no 2º turno, dias antes da fala."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "BNews SP",
+     "titulo": "Nunes aposta em apoio do MDB a Flávio Bolsonaro nos próximos dias (08/10/2026)",
+     "url": "https://www.bnewssaopaulo.com.br/amp/noticias/politica/nunes-aposta-em-apoio-do-mdb-a-flavio-bolsonaro-nos-proximos-dias.html",
+     "consultada_em": "2026-10-17",
+     "trecho": "O prefeito de São Paulo , Ricardo Nunes (MDB), afirmou nesta quinta-feira (8) acreditar que o partido formalizará, nos próximos dias, apoio à candidatura de Flávio Bolsonaro (PL) no segundo turno da eleição presidencial.",
+     "prova": "Confirma o alinhamento de Nunes com a candidatura adversária de Lula na data da fala."
+    },
+    {
+     "nivel": "N4",
+     "instituicao": "SBT News",
+     "titulo": "Confira quem apoia Nunes e quem apoia Boulos neste 2º turno em São Paulo (09/10/2024)",
+     "url": "https://sbtnews.sbt.com.br/noticia/pol%C3%ADtica/confira-quem-apoia-nunes-e-quem-apoia-boulos-neste-2-turno-em-sao-paulo",
+     "consultada_em": "2026-10-17",
+     "trecho": "Presidente Lula está com Boulos, enquanto Bolsonaro defende Nunes.",
+     "prova": "Mostra que em 2024 Lula apoiou o adversário de Nunes."
+    }
+   ]
+  }
+ ]
 }

@@ -362,65 +362,74 @@
     },
     {
       "id": "A008",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Não foi achado registro de Lula dizendo que Flávio acabaria com aposentadorias; a propaganda fala em corte de benefícios",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas quatro buscas sobre falas de Lula e da campanha petista no 2º turno (aposentadorias, servidores, privatizações), e capturadas as reportagens achadas. O que está documentado: no primeiro programa do 2º turno (9/out), Lula disse que Flávio, eleito, poderá fazer cortes em programas sociais como o Farmácia Popular e no orçamento da educação, e que 'é um erro' eleger quem vai cortar benefícios (O Liberal, com Estadão Conteúdo); nas redes, chamou o 'tesouraço' de 'aberração' e disse que comprometeria Farmácia Popular e Pé-de-Meia (BBC News Brasil, em A Gazeta). Em 8/out, o próprio Flávio falou em 'fake news do PT dizendo que eu vou acabar com o reajuste da aposentadoria' (Agora RN), resposta à reportagem da Folha sobre o estudo da equipe para corrigir aposentadorias só pela inflação (BPMoney). Não foi achada peça ou fala de Lula ou da campanha dizendo que Flávio 'acabaria com as aposentadorias': o que aparece é corte de benefícios e, na versão do próprio Flávio, do reajuste. Não é FALSO porque não há prova de que a campanha não disse isso; é INSUSTENTAVEL porque as fontes não sustentam a atribuição. Falta: conferir as peças de rádio e TV de Lula de 9 a 16 de outubro e as falas em comícios.",
+      "veredito": "IMPRECISO",
+      "resumo": "Vídeo de Lula ligou a vitória de Flávio a perdas na aposentadoria e no reajuste, não ao fim das aposentadorias",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). O que resolve é o que Lula e sua campanha disseram sobre aposentadorias no 2º turno. Está documentado: um vídeo publicado nos perfis de Lula, com o mote 'Se o Flávio vence, você perde', relacionava a vitória de Flávio a perdas em aposentadoria, salário mínimo, remédios gratuitos e casa própria (Investidor10, Mais Goiás e A Crítica, que relatam a decisão do ministro André Mendonça, do TSE, de 8/out, que mandou retirar a peça); outro vídeo de Lula falava do risco de os reajustes do mínimo deixarem de superar a inflação, afetando aposentados. Dois deputados aliados, Janones (Rede) e Lindbergh Farias (PT), disseram em vídeo que Flávio queria 'massacrar trabalhador e aposentado' e 'reduzir o valor da aposentadoria' (transcrição na decisão do TSE, N1). E o próprio Flávio, em 8/out, falou em 'fake news do PT dizendo que eu vou acabar com o reajuste da aposentadoria' (Agora RN). A essência confere: a campanha de Lula associou a vitória de Flávio a perdas para aposentados. Mas o registrado é perda, redução e fim do reajuste real, não fim das aposentadorias; só uma reportagem (Investidor10) resume a leitura do ministro como alegação de que Flávio 'acabaria com' aposentadorias, e as outras duas descrevem a mesma peça como 'consequências negativas' e 'efeitos sobre o reajuste'. Por isso IMPRECISO, e não VERDADEIRO (a fala amplia o que foi dito) nem INSUSTENTAVEL (há registro de peça da própria campanha sobre aposentadoria). As três reportagens relatam a mesma decisão, que não foi capturada na íntegra: contam como apoio (regra 2 da §3.1), e a íntegra capturada é a do processo contra os deputados. As decisões são liminares e ainda vão ao plenário do TSE; isso diz respeito à legalidade das peças, não à existência delas, que está documentada. Busca da rodada 2: cinco consultas sobre propaganda, comícios e decisões do TSE de 9 a 16/out.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "propaganda de 9/out e declarações de 8 a 12/out/2026",
-      "ressalva": "Flávio disse em 8 de outubro que o PT o acusava de acabar com o reajuste da aposentadoria",
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "data_de_referencia": "peças e decisões do TSE de 8 a 11/out/2026; vídeo dos deputados de 11/set/2026",
+      "ressalva": "Aliados de Lula disseram em vídeo que Flávio queria reduzir o valor da aposentadoria",
+      "confianca": "media",
+      "divergencia_entre_fontes": "As reportagens descrevem a mesma peça de Lula de modos diferentes: 'perdas' e 'consequências negativas' para aposentadorias (Investidor10, Mais Goiás), 'efeitos sobre o reajuste' de aposentados (A Crítica) e, na leitura atribuída ao ministro, alegação de que Flávio 'acabaria com' aposentadorias (Investidor10).",
       "revisao_humana": null,
       "fontes": [
         {
           "nivel": "N4",
-          "instituicao": "O Liberal (Estadão Conteúdo)",
-          "titulo": "Na volta da propaganda eleitoral, Flávio exalta apoios; Lula cita riscos do adversário (09/10/2026)",
-          "url": "https://www.oliberal.com/politica/na-volta-da-propaganda-eleitoral-flavio-exalta-apoios-lula-cita-riscos-do-adversario-1.1179350",
+          "instituicao": "Investidor10",
+          "titulo": "TSE manda apagar vídeos de Lula e Janja com ataques a Flávio Bolsonaro (09/10/2026)",
+          "url": "https://investidor10.com.br/noticias/tse-manda-apagar-videos-de-lula-e-janja-com-ataques-a-flavio-bolsonaro-123167/",
           "consultada_em": "2026-10-17",
-          "trecho": "Ao dizer que é hora de \"virar voto\" neste segundo turno, Lula falou na propaganda que o senador do PL, caso eleito, poderá fazer em cortes em programas sociais, como o Farmácia Popular e no orçamento da educação, por exemplo. [...] No início do programa, o petista trouxe notícias de cortes de programas sociais na gestão Bolsonaro e disse que \"é um erro\" eleger quem vai cortar benefícios da população.",
-          "prova": "O que a propaganda de Lula disse no 2º turno: cortes em programas e benefícios, sem falar em fim das aposentadorias."
+          "trecho": "Mendonça também mandou retirar outro vídeo de Lula que trazia a frase \"Se Flávio vence, você perde\". A peça relacionava uma eventual vitória do senador a perdas em áreas como acesso a medicamentos gratuitos, aposentadoria, salário mínimo e compra da casa própria [...] Mendonça afirmou não ter encontrado elementos concretos que sustentassem as alegações de que o senador acabaria com medicamentos gratuitos, aposentadorias, salário mínimo ou políticas habitacionais.",
+          "prova": "Vídeo publicado nos perfis de Lula ligou a vitória de Flávio a perdas na aposentadoria; a reportagem resume a leitura do ministro como alegação de que ele 'acabaria com' aposentadorias."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Mais Goiás",
+          "titulo": "TSE manda Lula, Janja e aliados apagarem publicações contra Flávio Bolsonaro (09/10/2026)",
+          "url": "https://www.maisgoias.com.br/politica/tse-manda-lula-janja-e-aliados-apagarem-publicacoes-contra-flavio-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Entre os conteúdos questionados estão vídeos que associavam uma possível eleição de Flávio Bolsonaro ao fim de programas sociais, mudanças nas regras de aposentadoria, aumento da jornada de trabalho e crescimento da atuação do crime organizado. [...] Em outra publicação, que utilizava o bordão “Se Flávio vence, você perde”, eram apresentadas possíveis consequências negativas para aposentadorias, salário mínimo, medicamentos gratuitos e políticas habitacionais.",
+          "prova": "Descreve a mesma peça de Lula como 'consequências negativas para aposentadorias', e lista o que os vídeos removidos diziam: nada sobre servidores públicos."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande",
+          "titulo": "TSE manda Lula e Janja retirarem vídeos contra Flávio Bolsonaro (09/10/2026)",
+          "url": "https://acritica.net/eleicoes-2026/tse-lula-janja-videos-flavio-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A outra decisão envolve uma propaganda publicada nos perfis de Lula com o mote “Se o Flávio vence, você perde”. [...] A peça também mencionava possíveis efeitos sobre o reajuste do salário mínimo de trabalhadores e aposentados.",
+          "prova": "Outra descrição da peça de Lula: fala em efeitos sobre o reajuste de aposentados, não em fim das aposentadorias."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE), cópia publicada pelo Poder360",
+          "titulo": "Decisão do ministro André Mendonça na Representação nº 0602693-88.2026.6.00.0000 (Flávio Bolsonaro contra Lindbergh Farias e André Janones)",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-mendonca-Janones-Lindbergh.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "REPRESENTADO: LUIZ LINDBERGH FARIAS FILHO, ANDRE LUIS GASPAR JANONES [...] \"Pessoal, hoje, gente, Lindbergh e eu estamos saindo agora aqui do Ministério da Fazenda com três, três bombas que o Flávio Bolsonaro quer jogar no colo de vocês. Eles querem massacrar trabalhador e aposentado.\" [...] \"Proposta número dois: desvincular a aposentadoria do salário mínimo. Sabe o que isso quer dizer, gente? Que eles vão reduzir o valor da aposentadoria. [...] Ao final, anunciam a privatização da Petrobras e concluem: \"Esse é o programa do Flávio Bolsonaro.\"",
+          "prova": "Transcrição, na decisão do TSE, do vídeo de dois deputados aliados de Lula: dizem que Flávio reduziria a aposentadoria e privatizaria a Petrobras; não citam Banco do Brasil nem Caixa."
         },
         {
           "nivel": "N4",
           "instituicao": "Agora RN",
           "titulo": "Flávio Bolsonaro nega corte em aposentadorias e promete reajuste acima da inflação (08/10/2026)",
           "url": "https://agorarn.com.br/politica/flavio-nega-corte-em-aposentadorias/",
-          "consultada_em": "2026-10-16",
+          "consultada_em": "2026-10-17",
           "trecho": "“Não caia nessa fake news do PT dizendo que eu vou acabar com o reajuste da aposentadoria. Pelo contrário”, afirmou Flávio ao ser questionado por jornalistas em Brasília.",
-          "prova": "A versão do próprio Flávio em 8/out fala em reajuste, não em fim das aposentadorias."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "BPMoney",
-          "titulo": "Flávio Bolsonaro promete reajuste da aposentadoria acima da inflação no 2º turno (08/10/2026)",
-          "url": "https://bpmoney.com.br/?p=425693",
-          "consultada_em": "2026-10-17",
-          "trecho": "Senador respondeu após reportagem apontar que equipe econômica estudaria alterar a correção de aposentadorias, BPC, saúde e educação",
-          "prova": "A origem da discussão foi a reportagem sobre o estudo da equipe, não uma peça de Lula."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "A Gazeta (BBC News Brasil)",
-          "titulo": "O que Flávio Bolsonaro e Lula propõem sobre o funcionalismo público (12/10/2026)",
-          "url": "https://www.agazeta.com.br/mundo/o-que-flavio-bolsonaro-e-lula-propoem-sobre-o-funcionalismo-publico--1026",
-          "consultada_em": "2026-10-17",
-          "trecho": "Na quinta-feira da semana passada, o presidente Lula chamou o \"tesouraço\" defendido pelo senador Flávio Bolsonaro de \"aberração\". Em uma manifestação nas redes sociais, o petista disse que a proposta de Flávio comprometeria programas como o Farmácia Popular e Pé-de-Meia",
-          "prova": "A crítica de Lula registrada fala de programas sociais, não de aposentadorias."
+          "prova": "A versão do próprio Flávio em 8/out: o PT diria que ele acabaria com o reajuste, não com as aposentadorias."
         }
       ]
     },
     {
       "id": "A009",
       "veredito": "INSUSTENTAVEL",
-      "resumo": "Não foi achado registro de Lula dizendo que Flávio acabaria com servidores; ele chamou o tesouraço de aberração",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas quatro buscas sobre falas de Lula e da campanha petista no 2º turno, uma delas sobre servidores públicos, e capturadas as reportagens achadas. A BBC News Brasil (em A Gazeta, 12/out) fez um levantamento do que os dois candidatos disseram sobre o funcionalismo: registra que as propostas de ajuste de Flávio geraram 'especulações, principalmente nas redes sociais', sobre servidores e concursos, que Flávio negou acabar com concursos e falou em 'fake news', e que Lula chamou o 'tesouraço' de 'aberração' e disse que ele comprometeria Farmácia Popular e Pé-de-Meia. A mesma reportagem relata o estudo de 'Super PEC' com corte de cargos e revisão das curvas salariais do funcionalismo. Não aparece fala de Lula ou da campanha dizendo que Flávio 'acabaria com servidores públicos'; a propaganda de 9/out falou em cortes de programas sociais (O Liberal). Não é FALSO porque a ausência de registro não prova que a frase não foi dita; é INSUSTENTAVEL porque as fontes não sustentam a atribuição. Falta: conferir as peças de rádio e TV de Lula de 9 a 16 de outubro e falas em atos com servidores.",
+      "resumo": "Não há registro de Lula dizendo que Flávio acabaria com servidores; o boato sobre concursos circulou sem autor",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). A rodada 2 procurou o que faltava: peças de rádio, TV e redes de Lula e falas em atos de 9 a 16/out. Os quatro processos em que o TSE mandou retirar publicações de Lula, de Janja e dos deputados Janones e Lindbergh contra Flávio (8/out) tratavam de programas sociais, aposentadoria, jornada de trabalho, crime organizado e privatização da Petrobras (Mais Goiás); nenhum fala de servidores públicos. O primeiro programa de TV de Lula no 2º turno falou de cortes em programas sociais (O Liberal). Sobre servidores e concursos, as duas reportagens que fizeram levantamento do tema (BBC News Brasil, em A Gazeta, e IstoÉ) registram que a especulação circulou 'nas redes sociais', que Flávio negou em 7/out acabar com concursos e chamou as publicações de falsas, e que o que Lula disse foi chamar o 'tesouraço' de 'aberração'. Não foi achada fala de Lula ou de sua campanha dizendo que Flávio 'acabaria com servidores públicos'. Não é FALSO porque a ausência de registro não prova que não foi dito; é INSUSTENTAVEL porque nenhuma fonte sustenta a atribuição. Confiança média: a busca cobriu as peças contestadas no TSE e os levantamentos de imprensa sobre o funcionalismo, mas não a íntegra de todos os programas de rádio e TV.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "declarações e propaganda de 7 a 12/out/2026",
-      "ressalva": "A BBC relata especulação sobre servidores nas redes e um estudo da equipe com corte de cargos",
-      "confianca": "baixa",
+      "data_de_referencia": "declarações, propaganda e decisões do TSE de 7 a 12/out/2026",
+      "ressalva": "Flávio negou em 7 de outubro acabar com concursos, citando publicações nas redes sem autor identificado",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -430,8 +439,26 @@
           "titulo": "O que Flávio Bolsonaro e Lula propõem sobre o funcionalismo público (12/10/2026)",
           "url": "https://www.agazeta.com.br/mundo/o-que-flavio-bolsonaro-e-lula-propoem-sobre-o-funcionalismo-publico--1026",
           "consultada_em": "2026-10-17",
-          "trecho": "Nos últimos dias, suas propostas de ajuste fiscal geraram especulações, principalmente nas redes sociais , sobre o futuro dos servidores e dos concursos públicos caso ele seja eleito presidente. [...] Do outro lado, Lula tem chamado de \"aberração\" o tesouraço proposto pelo adversário. [...] Em uma publicação no Instagram na última quarta-feira (7/10), Flávio Bolsonaro negou que pretenda acabar com os concursos públicos e disse estar sendo alvo de \"fake news\". [...] A proposta teria como objetivo reduzir despesas obrigatórias e incluiria medidas como corte de cargos e revisão das curvas salariais do funcionalismo.",
-          "prova": "O levantamento sobre funcionalismo atribui a Lula a crítica ao tesouraço, não a frase de que Flávio acabaria com servidores."
+          "trecho": "Nos últimos dias, suas propostas de ajuste fiscal geraram especulações, principalmente nas redes sociais , sobre o futuro dos servidores e dos concursos públicos caso ele seja eleito presidente. [...] Do outro lado, Lula tem chamado de \"aberração\" o tesouraço proposto pelo adversário. [...] Em uma publicação no Instagram na última quarta-feira (7/10), Flávio Bolsonaro negou que pretenda acabar com os concursos públicos e disse estar sendo alvo de \"fake news\".",
+          "prova": "O levantamento sobre funcionalismo atribui a Lula a crítica ao tesouraço; a especulação sobre servidores aparece 'nas redes sociais', sem autor."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IstoÉ",
+          "titulo": "Lula e Flávio Bolsonaro: o que muda para servidores e concursos públicos? (out/2026)",
+          "url": "https://istoe.com.br/lula-flavio-bolsonaro-concursos-publicos-servidores",
+          "consultada_em": "2026-10-17",
+          "trecho": "Diante da repercussão do tema nas redes sociais, Flávio afirmou, em 7 de outubro, que não pretende extinguir os concursos e classificou como falsas as publicações que atribuíam essa intenção à sua candidatura.",
+          "prova": "Segunda reportagem sobre o tema dos servidores: a atribuição circulou 'nas redes sociais', sem autor identificado como Lula ou a campanha."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Mais Goiás",
+          "titulo": "TSE manda Lula, Janja e aliados apagarem publicações contra Flávio Bolsonaro (09/10/2026)",
+          "url": "https://www.maisgoias.com.br/politica/tse-manda-lula-janja-e-aliados-apagarem-publicacoes-contra-flavio-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Entre os conteúdos questionados estão vídeos que associavam uma possível eleição de Flávio Bolsonaro ao fim de programas sociais, mudanças nas regras de aposentadoria, aumento da jornada de trabalho e crescimento da atuação do crime organizado. [...] Em outra publicação, que utilizava o bordão “Se Flávio vence, você perde”, eram apresentadas possíveis consequências negativas para aposentadorias, salário mínimo, medicamentos gratuitos e políticas habitacionais.",
+          "prova": "Descreve a mesma peça de Lula como 'consequências negativas para aposentadorias', e lista o que os vídeos removidos diziam: nada sobre servidores públicos."
         },
         {
           "nivel": "N4",
@@ -440,49 +467,58 @@
           "url": "https://www.oliberal.com/politica/na-volta-da-propaganda-eleitoral-flavio-exalta-apoios-lula-cita-riscos-do-adversario-1.1179350",
           "consultada_em": "2026-10-17",
           "trecho": "Ao dizer que é hora de \"virar voto\" neste segundo turno, Lula falou na propaganda que o senador do PL, caso eleito, poderá fazer em cortes em programas sociais, como o Farmácia Popular e no orçamento da educação, por exemplo.",
-          "prova": "O primeiro programa de Lula no 2º turno não fala de servidores."
-        },
-        {
-          "nivel": "N4",
-          "instituicao": "BPMoney",
-          "titulo": "Campanha de Flávio Bolsonaro descarta privatizar BB, Caixa e Petrobras e promete reforçar programas sociais (08/10/2026)",
-          "url": "https://bpmoney.com.br/?p=425564",
-          "consultada_em": "2026-10-17",
-          "trecho": "Adolfo Sachsida diz que ajuste fiscal mira 'excessos' do governo, como salários de R$ 200 mil e número de ministérios",
-          "prova": "A campanha respondeu a dúvidas sobre o funcionalismo falando de supersalários, sem citar acusação de Lula."
+          "prova": "O primeiro programa de TV de Lula no 2º turno fala de cortes em programas sociais, não de servidores."
         }
       ]
     },
     {
       "id": "A010",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Não foi achado registro de Lula dizendo que Flávio privatizaria BB, Caixa e Petrobras; Flávio fala em boataria",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: foram feitas duas buscas específicas sobre falas de Lula a respeito de privatização de Banco do Brasil, Caixa e Petrobras no 2º turno, e capturadas as reportagens achadas. O que está documentado: em 8/out, o economista Adolfo Sachsida, da campanha, gravou vídeo para 'esclarecer alguns rumores' e disse que as três empresas não serão privatizadas (Investidor10); em 9/out, Flávio chamou de 'boataria' os rumores de que privatizaria a Petrobras e outras estatais, sem atribuí-los nominalmente a Lula (Reuters, no Diário do Comércio); em setembro, a coordenadora Daniella Marques disse que servidores da Caixa relatavam que 'eles' diziam que a campanha ia privatizar o banco, sem dizer quem. Há também base para a dúvida: o Correio Braziliense registrou em abril que Flávio declarou a intenção de um amplo programa de privatizações, e a mesma Daniella levantou a possibilidade de privatizar o Banco do Brasil (Investidor10). Não foi achada fala ou peça de Lula ou da campanha dizendo que Flávio privatizaria as três empresas. Não é FALSO porque a ausência de registro não prova que não foi dito; é INSUSTENTAVEL porque as fontes não sustentam a atribuição. Falta: conferir as peças de rádio e TV de Lula de 9 a 16 de outubro e falas em comícios.",
+      "veredito": "IMPRECISO",
+      "resumo": "Deputados aliados de Lula disseram que Flávio privatizaria a Petrobras; Banco do Brasil e Caixa não aparecem",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). O que resolve é quem disse que Flávio privatizaria Banco do Brasil, Caixa e Petrobras. Está documentado: os deputados André Janones (Rede) e Lindbergh Farias (PT) publicaram vídeo dizendo que Flávio defendia a privatização da Petrobras, retirado do ar por decisão do ministro André Mendonça, do TSE, em 8/out (íntegra da decisão, N1, com a transcrição do vídeo; Poder360 e Investidor10 relatam a mesma decisão e ligam os 'rumores' que Flávio chamou de 'boataria' a esse vídeo). Janones administra o canal 'Exército do Lula' (Bem Paraná). Já Banco do Brasil e Caixa não aparecem em peça com autor: o coordenador Adolfo Sachsida respondeu em 8/out a quem 'é do Banco do Brasil, da Caixa Econômica, da Petrobras' (eixos), e a coordenadora Daniella Marques disse em setembro que 'eles' diziam a funcionários da Caixa que ela seria privatizada, sem dizer quem (Viva). Nas peças do próprio Lula contestadas no TSE, o tema é corte de programas e aposentadoria, não privatização. A essência confere: o campo de Lula atribuiu a Flávio a privatização de estatal. Mas o autor documentado são deputados aliados, não Lula nem sua campanha oficial, e só a Petrobras foi citada. Por isso IMPRECISO, e não VERDADEIRO (recorte de autor e de empresas errado) nem INSUSTENTAVEL (há registro com autor, aliado, para a Petrobras). A decisão do TSE é liminar e vai ao plenário; isso não muda o que o vídeo disse, que está transcrito nela. Busca da rodada 2: três consultas sobre privatização e as decisões do TSE.",
       "numero_dito": null,
       "numero_apurado": null,
-      "data_de_referencia": "declarações de 21/09 a 10/10/2026",
-      "ressalva": "A própria coordenadora econômica da campanha levantou a hipótese de privatizar o Banco do Brasil",
-      "confianca": "baixa",
+      "data_de_referencia": "vídeo dos deputados de 11/set/2026, decisão do TSE de 8/out/2026 e declarações de 21/09 a 11/10/2026",
+      "ressalva": "O vídeo de Janones e Lindbergh foi retirado pelo TSE; não há registro de Lula dizendo isso",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "Diário do Comércio (Reuters)",
-          "titulo": "Flávio Bolsonaro descarta privatização da Petrobras como 'boataria' (10/10/2026)",
-          "url": "https://diariodocomercio.com.br/politica/flavio-bolsonaro-descarta-privatizacao-petrobras/",
+          "nivel": "N1",
+          "instituicao": "Tribunal Superior Eleitoral (TSE), cópia publicada pelo Poder360",
+          "titulo": "Decisão do ministro André Mendonça na Representação nº 0602693-88.2026.6.00.0000 (Flávio Bolsonaro contra Lindbergh Farias e André Janones)",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-mendonca-Janones-Lindbergh.pdf",
           "consultada_em": "2026-10-17",
-          "trecho": "O senador Flávio Bolsonaro, candidato do PL à Presidência, negou na sexta-feira (9) rumores de que, se for eleito, tentará privatizar a Petrobras e outras empresas estatais. Segundo ele, existe uma onda de boatos contra a sua candidatura para tentar reverter a liderança que teve no primeiro turno da eleição presidencial. “Isso é uma boataria, é uma boataria atrás da outra”, disse Flávio",
-          "prova": "Flávio fala em rumores e boatos, sem que a reportagem registre fala de Lula sobre o tema."
+          "trecho": "REPRESENTADO: LUIZ LINDBERGH FARIAS FILHO, ANDRE LUIS GASPAR JANONES [...] \"Pessoal, hoje, gente, Lindbergh e eu estamos saindo agora aqui do Ministério da Fazenda com três, três bombas que o Flávio Bolsonaro quer jogar no colo de vocês. Eles querem massacrar trabalhador e aposentado.\" [...] \"Proposta número dois: desvincular a aposentadoria do salário mínimo. Sabe o que isso quer dizer, gente? Que eles vão reduzir o valor da aposentadoria. [...] Ao final, anunciam a privatização da Petrobras e concluem: \"Esse é o programa do Flávio Bolsonaro.\"",
+          "prova": "Transcrição, na decisão do TSE, do vídeo de dois deputados aliados de Lula: dizem que Flávio reduziria a aposentadoria e privatizaria a Petrobras; não citam Banco do Brasil nem Caixa."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Mendonça manda remover vídeo de Janones e Lindbergh contra Flávio (08/10/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/mendonca-manda-remover-video-de-janones-e-lindbergh-contra-flavio/",
+          "consultada_em": "2026-10-17",
+          "trecho": "No vídeo, Janones e Lindbergh apresentaram o que chamaram de “3 bombas que Flávio Bolsonaro” pretenderia propor ao eleitorado. As medidas listadas eram o aumento da idade de aposentadoria para 70 anos para homens e 65 para mulheres; a desvinculação das aposentadorias do salário mínimo; e a ampliação da jornada de trabalho para 12 horas, em escala de 7 por 0. Os deputados também afirmaram que o candidato defenderia a privatização da Petrobras.",
+          "prova": "Reportagem própria sobre o mesmo vídeo: a única estatal citada é a Petrobras."
         },
         {
           "nivel": "N4",
           "instituicao": "Investidor10",
-          "titulo": "Banco do Brasil e Petrobras não serão privatizados, diz campanha de Flávio (09/10/2026)",
-          "url": "https://investidor10.com.br/noticias/banco-do-brasil-e-petrobras-nao-serao-privatizados-diz-campanha-de-flavio-123157/",
+          "titulo": "Flávio Bolsonaro nega privatizar a Petrobras e chama rumores de \"boataria\" (09/10/2026)",
+          "url": "https://investidor10.com.br/noticias/flavio-bolsonaro-nega-privatizar-a-petrobras-e-chama-rumores-de-boataria-123168/",
           "consultada_em": "2026-10-17",
-          "trecho": "o economista Adolfo Sachsida publicou um vídeo nas redes sociais nesta quinta-feira (8) com o objetivo de esclarecer alguns rumores sobre o plano do candidato do PL para a economia. [...] Na ocasião, Daniella ainda levantou a possibilidade de privatização do Banco do Brasil, dizendo que o banco negocia menos de uma vez seu patrimônio, o que foi descartado por Sachsida agora.",
-          "prova": "A campanha respondeu a 'rumores', sem autor identificado; e a hipótese sobre o BB partiu da própria coordenadora."
+          "trecho": "Na quinta-feira (8), o ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), determinou a retirada de vídeos publicados pelos deputados André Janones (Rede) e Lindbergh Farias (PT) que atribuíam ao senador, entre outras propostas, a privatização da Petrobras.",
+          "prova": "Liga os 'rumores' que Flávio chamou de boataria ao vídeo de Janones (Rede) e Lindbergh (PT)."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "eixos",
+          "titulo": "Sachsida diz que Flávio Bolsonaro não vai privatizar a Petrobras (08/10/2026)",
+          "url": "https://eixos.com.br/politica/eleicoes/eleicoes-2026/sachsida-diz-que-flavio-bolsonaro-nao-vai-privatizar-a-petrobras/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Se você que está ouvindo esse vídeo é do Banco do Brasil, da Caixa Econômica, da Petrobras, saiba de uma coisa: não existirão privatizações de empresas. Nenhuma dessas empresas será tocada”, disse Sachsida em um vídeo publicado na rede social X nesta quinta-feira (8/10).",
+          "prova": "A campanha respondeu sobre as três empresas, sem dizer quem atribuía a privatização de Banco do Brasil e Caixa."
         },
         {
           "nivel": "N4",
@@ -491,16 +527,16 @@
           "url": "https://viva.com.br/politica/coordenadora-economica-nega-que-flavio-bolsonaro-queira-privatizar-caixa.html",
           "consultada_em": "2026-10-17",
           "trecho": "Nessa confusão da greve, tenho recebido várias mensagens, e como fui presidente do banco, muita gente me segue nas redes sociais, dizendo que eles estão aterrorizando, dizendo que vamos mandar todo mundo embora e privatizar a Caixa.",
-          "prova": "A versão de que a campanha privatizaria a Caixa circulava, mas sem autor identificado como Lula ou sua campanha."
+          "prova": "A versão de que a campanha privatizaria a Caixa circulava em setembro, mas 'eles' não tem autor identificado."
         },
         {
           "nivel": "N4",
-          "instituicao": "Correio Braziliense",
-          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (22/04/2026)",
-          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
-          "consultada_em": "2026-10-16",
-          "trecho": "Além do ajuste fiscal, o pré-candidato já declarou publicamente a intenção de promover um amplo programa de privatizações, com a possibilidade de venda de até 95% das estatais.",
-          "prova": "Contexto: a hipótese de privatizações partiu de declaração do próprio candidato em abril."
+          "instituicao": "Bem Paraná (Folhapress)",
+          "titulo": "Flávio Bolsonaro diz esperar Justiça Eleitoral mais ágil contra fake news (11/10/2026)",
+          "url": "https://www.bemparana.com.br/eleicoes-2026/flavio-bolsonaro-diz-esperar-justica-eleitoral-mais-agil-contra-fake-news/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Neste domingo, o presidente do TSE, Kassio Nunes Marques, determinou a suspensão do canal “Exército do Lula”, administrado pelo deputado federal André Janones (Rede-MG), a pedido da campanha de Flávio. [...] Flávio negou que pretenda extinguir benefícios sociais ou acabar com o reajuste do salário mínimo, como, segundo ele, afirmam seus adversários.",
+          "prova": "Janones, autor do vídeo, administra o canal 'Exército do Lula': é aliado, não a campanha oficial; e a versão de Flávio fala em reajuste do mínimo."
         }
       ]
     }

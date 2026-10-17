@@ -189,12 +189,12 @@
       "id": "A015",
       "veredito": "INSUSTENTAVEL",
       "resumo": "Há economistas céticos sobre o corte de R$ 200 bi sem mexer em gasto obrigatório, mas não há registro de consenso",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: A pergunta afirma um 'consenso dos economistas, inclusive muitos que apoiam' o candidato. O que se encontrou: economistas de universidades (Pedro Paulo Zahluth Bastos, da Unicamp, e Maria Lourdes Mollo, da UnB) dizem que um corte de R$ 200 bilhões alcança a área social; economistas de mercado (Tatiana Pinheiro, da FGV, Felipe Salto, Carla Argenta, André Perfeito) dizem que não está claro de onde viria o corte e que medidas cosméticas não bastam; a Folha, reproduzida pelo ES Hoje, informou que a própria equipe da campanha estudou conter despesas obrigatórias e que as medidas anunciadas, sozinhas, não bastam; o Correio Braziliense registrou em abril que a equipe estudou desvincular os pisos de saúde e educação. Não se encontrou, porém, registro nominal de economistas apoiadores do candidato dizendo que sem mexer nesses gastos não se chega a R$ 200 bilhões, nem levantamento que mostre consenso. A essência (há ceticismo amplo sobre o corte) tem apoio; a afirmação de consenso que inclui apoiadores, não. Por isso INSUSTENTAVEL, e não FALSO: nenhuma fonte contradiz a pergunta. A busca nesta rodada foi limitada a duas consultas sobre o tema. Falta: procurar declarações nominais de economistas ligados à campanha ou que declararam apoio ao candidato sobre o ajuste de R$ 200 bilhões sem mexer nas despesas obrigatórias, e algum levantamento de opinião de economistas que permita falar ou não em consenso.",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). A pergunta afirma um 'consenso dos economistas, inclusive muitos que apoiam' o candidato. O que se encontrou: economistas de universidades (Pedro Paulo Zahluth Bastos, da Unicamp) dizem que um corte de R$ 200 bilhões alcança a área social; economistas de mercado (Tatiana Pinheiro, da FGV, e outros) dizem que não está claro de onde viria o corte; a Folha, reproduzida pelo ES Hoje e pelo Jornal Grande Bahia, diz que as medidas anunciadas, sozinhas, não bastam e que economistas ouvidos estimam um ajuste mínimo próximo de R$ 250 bilhões. A própria equipe econômica do candidato, segundo a Folha (Diario de Pernambuco), estudou limitar à inflação o reajuste de aposentadorias e BPC e mexer nos pisos de saúde e educação para chegar a cerca de R$ 250 bilhões; isso é apoio indireto à lógica da pergunta, mas não é declaração de economistas apoiadores. A rodada 2 procurou declarações nominais de economistas que apoiam o candidato e algum levantamento de opinião que permitisse falar em consenso, e não achou nenhum dos dois. A essência (há ceticismo amplo) tem apoio; o consenso que inclui apoiadores, não. É a mesma régua da A155 do caso de Lula de 15/out (frase simétrica da mesma entrevistadora sobre 'boa parte dos economistas', INSUSTENTAVEL por falta de medida do conjunto). Não é FALSO porque nenhuma fonte contradiz a pergunta.",
       "numero_dito": "200 bilhões de reais",
       "numero_apurado": null,
       "data_de_referencia": "declarações publicadas de abril a outubro de 2026",
-      "ressalva": null,
-      "confianca": "baixa",
+      "ressalva": "A própria equipe do candidato estudou limitar aposentadorias e BPC para cortar R$ 250 bi, segundo a Folha",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "fontes": [
         {
@@ -226,12 +226,21 @@
         },
         {
           "nivel": "N4",
-          "instituicao": "Correio Braziliense",
-          "titulo": "Flávio avalia reajuste de gastos sociais pela inflação e mais privatizações (abr/2026)",
-          "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403233-flavio-avalia-reajuste-de-gastos-sociais-pela-inflacao-e-mais-privatizacoes.html",
+          "instituicao": "Diario de Pernambuco (com Folha de S.Paulo)",
+          "titulo": "Flávio considera limitar reajuste de aposentadorias e BPC (08/10/2026)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11726164-flavio-considera-limitar-reajuste-de-aposentadorias-e-bpc.html",
           "consultada_em": "2026-10-17",
-          "trecho": "Entre as principais medidas em estudo está a desvinculação dos pisos constitucionais de saúde e educação.",
-          "prova": "A própria equipe estudou mexer nos pisos, o que indica a dimensão do ajuste, mas não é declaração de economistas apoiadores."
+          "trecho": "A equipe econômica do senador Flávio Bolsonaro (PL), candidato à Presidência da República, avalia limitar os reajustes de aposentadorias e do Benefício de Prestação Continuada (BPC) à inflação, sem repassar os aumentos reais do salário mínimo. A medida integra um conjunto de propostas em estudo para reduzir as despesas obrigatórias do governo federal em cerca de R$ 250 bilhões",
+          "prova": "A própria equipe do candidato, segundo a Folha, chegou às despesas obrigatórias para um ajuste dessa escala: apoio indireto à pergunta, mas não é declaração de economistas apoiadores."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Grande Bahia",
+          "titulo": "Análise sobre o ajuste fiscal proposto pela equipe de Flávio Bolsonaro (out/2026)",
+          "url": "https://jornalgrandebahia.com.br/?p=1392644",
+          "consultada_em": "2026-10-17",
+          "trecho": "Economistas ouvidos pela Folha estimam que estabilizar a dívida brasileira exigirá ajuste mínimo próximo de R$ 250 bilhões nos próximos quatro anos , podendo alcançar R$ 400 bilhões em cenários mais adversos.",
+          "prova": "Relata economistas ouvidos pela Folha sobre o tamanho do ajuste, sem medir consenso nem identificar apoiadores do candidato."
         }
       ]
     },
@@ -447,33 +456,58 @@
     },
     {
       "id": "A020",
-      "veredito": "INSUSTENTAVEL",
-      "resumo": "Dado oficial atual não foi conferido; em 2018 a Secretaria do Patrimônio informava 655 mil imóveis da União",
-      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: a fonte oficial atual (painel de indicadores da Secretaria do Patrimônio da União, SPU) não foi capturada: a apresentação do governo achada na busca recusou o robô (erro 401), o repositório da Enap devolveu erro 429 e as páginas da SPU e do dados.gov.br capturadas não trazem o total. O que há são reportagens antigas que citam a SPU: 655 mil imóveis de propriedade e uso da União em 2018 (Poder360) e 636 mil imóveis dominiais cadastrados (Agência Brasil, via Money Times, nov/2018). Se o dado atual da SPU estiver na mesma ordem de grandeza, 'mais de 30 mil' é verdadeiro em sentido literal, mas fica muito abaixo do total, o que pede leitura de régua (a cifra pode se referir a um subconjunto, como imóveis de uso especial ou ociosos). Falta: capturar o painel de indicadores ou o relatório de gestão da SPU com o total vigente em 2026 e decidir entre VERDADEIRO com ressalva e IMPRECISO.",
-      "numero_dito": "mais de 30 mil",
-      "numero_apurado": null,
-      "data_de_referencia": "dados da SPU citados em 2018; dado de 2026 não capturado",
-      "ressalva": null,
-      "confianca": "baixa",
-      "divergencia_entre_fontes": null,
+      "veredito": "IMPRECISO",
+      "resumo": "O TCU registra cerca de 761 mil imóveis da União, número muito acima dos mais de 30 mil citados",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). O dado que resolve é o total de imóveis da União. O TCU, na Lista de Alto Risco (com dados da SPU consultados em nov/2024), registra cerca de 761 mil; o levantamento anterior do tribunal falava em cerca de 742 mil, e o InfoMoney, reproduzindo o relatório do TCU, em 764 mil. É o mesmo total usado na A021 deste caso, para os dois cards baterem. 'Mais de 30 mil' é verdadeiro em sentido literal (761 mil é mais que 30 mil), mas 'mais de X' se lê com rigor, como 'quase X' (no caso de 15/out, 'quase uma hora e meia' para 1h20 virou IMPRECISO): a frase dá uma ordem de grandeza cerca de 25 vezes menor que a registrada, desvio muito acima da régua de 10% do §2.2. Nem o recorte dos imóveis de uso especial (56.375, no levantamento do Acórdão 160/2024) corresponde a 'mais de 30 mil' como medida do patrimônio. A essência (a União tem muitos imóveis que poderiam ser vendidos) confere, e o número não. Por isso IMPRECISO, e não FALSO: o número não tem sentido oposto ao registrado, só está muito abaixo. A rodada 1 usava cifras de 2018 (655 mil, Poder360); foram trocadas pelo dado do TCU, mais recente.",
+      "numero_dito": "mais de 30 mil imóveis",
+      "numero_apurado": "cerca de 761 mil imóveis (TCU, Lista de Alto Risco); cerca de 742 mil em levantamento anterior do TCU",
+      "data_de_referencia": "Lista de Alto Risco do TCU, com dados da SPU consultados em nov/2024; sem atualização achada até a data da fala, 16/out/2026",
+      "ressalva": "O TCU usa dados da SPU de 2024; um levantamento anterior do tribunal falava em 742 mil imóveis",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O total varia entre as fontes: cerca de 761 mil (TCU, Lista de Alto Risco), cerca de 742 mil (levantamento anterior do TCU) e 764 mil (InfoMoney, reproduzindo o TCU). Todas ficam muito acima de 30 mil.",
+      "derivacoes": [
+        {
+          "valor": "cerca de 25 vezes",
+          "de": "761 e 30 (número dito)",
+          "como": "razão entre o total do TCU (761 mil) e o número dito (30 mil): 761 dividido por 30"
+        }
+      ],
       "fontes": [
         {
-          "nivel": "N4",
-          "instituicao": "Poder360",
-          "titulo": "Governo promete fazer levantamento de prédios da União inativos e ocupados (06/05/2018)",
-          "url": "https://www.poder360.com.br/governo/governo-fara-levantamento-de-predios-da-uniao-inativos-e-ocupados/",
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Lista de Alto Risco, item 29: Gestão do patrimônio imobiliário da União",
+          "url": "https://sites.tcu.gov.br/listadealtorisco/gestao_do_patrimonio_imobiliario_da_uniao.html",
           "consultada_em": "2026-10-17",
-          "trecho": "Segundo a SPU, hoje há 655 mil imóveis de propriedade e uso da União cadastrados em 2 sistemas: o Siapa (Sistema Integrado de Administração Patrimonial) e SPIUnet (Sistema de Gerenciamento do Patrimônio Imobiliário de uso especial da União).",
-          "prova": "Ordem de grandeza do patrimônio imobiliário da União segundo a SPU, em 2018."
+          "trecho": "O patrimônio imobiliário da União abrange cerca de 761 mil imóveis e está avaliado em, aproximadamente, R$ 1,72 trilhão",
+          "prova": "Total de imóveis da União segundo o TCU, com dados da SPU: cerca de 761 mil."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Gestão do patrimônio imobiliário federal gerido pela SPU é ineficiente, diz TCU",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/gestao-do-patrimonio-imobiliario-federal-gerido-pela-spu-e-ineficiente-diz-tcu",
+          "consultada_em": "2026-10-17",
+          "trecho": "A SPU é responsável pela gestão de cerca de 742 mil imóveis, avaliados em, aproximadamente, R$ 1,35 trilhão.",
+          "prova": "Total do levantamento anterior do TCU (cerca de 742 mil), na mesma ordem de grandeza."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Tribunal de Contas da União (TCU)",
+          "titulo": "Acórdão do levantamento na SPU, TC 021.510/2023-7 (íntegra reproduzida pelo Poder360)",
+          "url": "https://static.poder360.com.br/2024/02/acordao-tcu-levantamento-spu.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "66.A carteira de bens especiais da União, gerida pelo Spiunet, possui 56.375 imóveis ativos",
+          "prova": "Nem o recorte dos imóveis de uso especial (56.375) se aproxima de 'mais de 30 mil' como medida do patrimônio total."
         },
         {
           "nivel": "N4",
-          "instituicao": "Money Times (Agência Brasil)",
-          "titulo": "Governo vai cadastrar imóveis da União explorados de forma irregular (23/11/2018)",
-          "url": "https://www.moneytimes.com.br/governo-vai-cadastrar-imoveis-da-uniao-explorados-de-forma-irregular/",
+          "instituicao": "InfoMoney",
+          "titulo": "Venda de imóveis da União trava com Lula e, em 2 anos, rendem 98% menos que em 2022",
+          "url": "https://www.infomoney.com.br/politica/venda-de-imoveis-da-uniao-trava-com-lula-e-em-2-anos-rendem-98-menos-que-em-2022/",
           "consultada_em": "2026-10-17",
-          "trecho": "Segundo a Secretaria do Patrimônio da União (SPU), do Ministério do Planejamento, Desenvolvimento e Gestão, o último cadastramento ocorreu há dez anos, constando na base de dados 636 mil imóveis dominiais.",
-          "prova": "Outra cifra da SPU, só de imóveis dominiais, também muito acima de 30 mil."
+          "trecho": "com 764 mil imóveis . Desses, o Estado usa 49,7 mil e cede a maioria dos demais para diferentes usos",
+          "prova": "Apoio que reproduz o relatório do TCU (regra 2 da §3.1): confirma a ordem de grandeza do total."
         }
       ]
     }

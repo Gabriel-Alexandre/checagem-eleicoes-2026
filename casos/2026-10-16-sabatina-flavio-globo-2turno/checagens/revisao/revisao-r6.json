@@ -1,0 +1,338 @@
+{
+  "revisor": "Claude (revisão adversarial por IA, passada separada, revisor r6)",
+  "A141": {
+    "decisao": "mantido",
+    "nota": "Contra: o porto é operado por terminais privados e a privatização da autoridade portuária chegou a ser decidida, então 'área da União' seria impreciso. Cai: a Lei 12.815/2013 define o porto organizado como bem público explorado pela União, e o Decreto 11.152/2022 na redação de 2024 (texto atualizado da Câmara) mantém 'uma autoridade portuária pública'; a retirada do PND em 2023 está em duas redações independentes. A ressalva já separa operação privada de autoridade pública. Os quatro trechos foram achados na captura p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A142": {
+    "decisao": "alterado",
+    "nota": "Contra: o ranking pode existir em fonte que não foi lida, e então o veredito seria VERDADEIRO; ou, ao contrário, FALSO se alguma fonte puser Santos em outra posição. Nenhuma das duas leituras cai com o que está no arquivo: o UNODC de 2022 lista quatro portos sem ordem e a PF dá recorte nacional. Mas a própria explicação diz que Europol/EMCDDA e apreensões europeias por origem, pedidas no o_que_conferir, não foram consultadas, e o World Drug Report é de 2022, não o vigente na data da fala. É provisório de fato, sem o marcador (o caso da A155 de 15/out). Pus o marcador exato, a confiança baixa e a lista do que falta, e o resumo passou de 'nenhuma fonte o põe' para 'não foi achada fonte que o ponha'. Veredito INSUSTENTAVEL mantido. Trechos achados na p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A143": {
+    "decisao": "mantido",
+    "nota": "Contra: as três fontes são imprensa, uma delas um portal agregador, e a de setembro é um mês anterior à fala. Fica de pé com confiança média: a alegação não tem número, a Agência Pública (set/2026) e o El Heraldo, de Honduras, país membro, são independentes e dizem que o Brasil está fora; a divergência sobre a Colômbia está declarada e não toca o Brasil. A frase da fala é promessa; a alegação extraída é o pressuposto, e o card diz só isso. '14 países' está no trecho da Pública.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A144": {
+    "decisao": "alterado",
+    "nota": "Provisório: marcador exato no começo da explicação e confiança baixa, conferidos. Achado: a reportagem do Congresso em Foco é de 16/02/2025 (data no texto capturado da p15) e fala do 'ano passado', então a fatia de investimento de 7,4% é de 2024, não de 2023 como diziam o resumo, a explicação e a divergência. Corrigidos os três e a prova. O que falta para a rodada 2: série SIOP/Siga Brasil 2019-2026 deflacionada, execução dos programas estratégicos e efetivo, como a explicação já lista.",
+    "verificacoes": [
+      "3",
+      "5",
+      "7"
+    ]
+  },
+  "A145": {
+    "decisao": "mantido",
+    "nota": "Contra: só imprensa e checagem, sem relatório oficial das Casas. Cai: é evento sem número, amplamente documentado; Poder360 do dia seguinte, Aos Fatos e CNN Brasil são redações independentes e os três trechos estão nas capturas p13 e p15. Mesma régua do caso de 28/08 (A010).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A146": {
+    "decisao": "mantido",
+    "nota": "Contra: 'objetos de arte' pode ser exagero se só houve danos materiais nos prédios. Cai: o levantamento da Presidência à CPI identificou 24 obras de arte danificadas (Jornal de Brasília) e a CNN registra 68 bens do acervo cultural da Câmara danificados; vidros e salas estão no Poder360 e no Iphan. Os números do resumo estão nos trechos. Trechos achados na p13 e p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A147": {
+    "decisao": "mantido",
+    "nota": "Contra: os coquetéis molotov aparecem em relatos de policiais, não em perícia, e a Gazeta do Povo, crítica às condenações, fala em 'armamento' entre aspas. Fica de pé: documentos da tropa de choque (Pública), o interventor e uma policial ouvida pela CPMI (Aos Fatos) e até a Gazeta registram pedras, barras de ferro e molotov; a ressalva já diz que a origem são relatos e imagens e declara os dois números de feridos (19 e 44). A frase da jornalista é descrição de fatos e passa pela mesma régua que as do candidato.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A148": {
+    "decisao": "mantido",
+    "nota": "Contra: o Planalto disse depois que as armas levadas não eram letais, e 'roubar armas' poderia sugerir armas de fogo. Cai: a jornalista não diz 'letais', a subtração de armas e munição da sala do GSI está no Poder360, na Agência Brasil (CNN), nas imagens liberadas pelo STF (Diário do Poder) e no Aos Fatos, e a ressalva põe o tipo de arma na tela. Coerente com a A009 do caso de 28/08.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A149": {
+    "decisao": "mantido",
+    "nota": "Contra, pelos dois lados: (a) 'prédios vazios' é força de expressão para 'sem autoridades num domingo', e então seria VERDADEIRO; (b) havia policiais e seguranças dentro dos prédios e servidores feridos, e então seria FALSO. Nenhum derruba IMPRECISO: no contexto ('quer sentar uma senhorinha na cadeira de presidente'), o essencial é a ausência de quem governa, que confere (domingo, Lula em Araraquara), e o 'vazios' literal é contrariado por policiais encurralados no Congresso (Pública) e agentes do GSI no Planalto (Diário do Poder). Essência certa, ornamento errado: a régua do §2.2 e da A003 do caso de 15/out. Trechos achados na p13 e p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A150": {
+    "decisao": "mantido",
+    "nota": "Contra: o MDB de Nunes tem ministérios no governo Lula, então 'opositor' seria discutível. Cai: a frase é sobre Nunes, não sobre o partido, e ele declarou apoio a Flávio em dez/2025 e articulava votos para Flávio no 2º turno na semana da fala (Correio da Manhã, BNews SP, CNN); em 2024 Lula apoiou o rival dele (SBT News). Fontes independentes, trechos na p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A151": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa, conferidos. O resumo não afirma ausência, diz o que está documentado (autorização até 31/03/2026, trecho N1 da Portaria 217/2025) e que o depois não foi confirmado. O que falta para a rodada 2: ato da Senatran posterior a 31/03/2026 sobre a CET/SP (renovação ou negativa) e notícia da Prefeitura. Trechos achados na p16 e p16-r2.",
+    "verificacoes": [
+      "3",
+      "5",
+      "7"
+    ]
+  },
+  "A152": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa, conferidos. Resumo no padrão 'não foi localizado'. O que falta para a rodada 2: PVL do Município de São Paulo no Sadipem/Tesouro de 2023 a 2026 e notícia da negativa (valor, data, fundamento). Trechos achados na p16 e p16-r9.",
+    "verificacoes": [
+      "3",
+      "7"
+    ]
+  },
+  "A153": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa, conferidos. O que falta para a rodada 2: ação do Município contra a União (ACO no STF ou Justiça Federal) sobre garantia a operação de crédito; se achada sem decisão definitiva, a explicação já prevê o tratamento do etica-e-risco §5. Trechos achados na p16 e p16-r9.",
+    "verificacoes": [
+      "3",
+      "7"
+    ]
+  },
+  "A154": {
+    "decisao": "mantido",
+    "nota": "Contra: 'o Brasil escolheu a mudança' soma a Flávio todos os votos não dados a Lula, inclusive de candidatos que não são oposição a ele. Cai: a interpretação política ficou fora da alegação, que é só 'a maioria dos válidos não foi para Lula', e o resumo diz exatamente isso, com os números do JSON oficial do TSE (conferidos por número na captura p01) e a derivação 100,00 menos 45,16 declarada. Mesmo dado da A002 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A155": {
+    "decisao": "mantido",
+    "nota": "Contra: o candidato pode ter querido dizer feminicídio, que bateu recorde em 2025, e então seria VERDADEIRO. Não derruba: a frase diz 'assassinatos de mulheres', e no Anuário 2026 os homicídios de mulheres caíram 5,5%, para 3.539, o menor valor de 2016 a 2025 (tabela e gráfico conferidos na p16-r6); o recorde vale para o recorte. É recorte que inverte a tendência do total, IMPRECISO pela §2.2; a ressalva sobre a classificação crescente como feminicídio (44,4%) tem trecho. A mesma régua de recorte foi usada na A159.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A156": {
+    "decisao": "alterado",
+    "nota": "Contra: 'recordista' pede a série inteira e só 2018 a 2025 foi conferida; além disso, as edições até 2024 não dizem 'vítimas mulheres' no título da tabela. Fica de pé: a ressalva já diz que antes de 2018 não foi conferido e o resumo fala em 'maior registro entre 2018 e 2025'; se as edições antigas incluírem homens, os valores antigos estão superestimados, o que só reforça o topo de 2025. As sete tabelas do FBSP foram achadas nas capturas p16-r6 a p16-r8. Ajuste: o numero_apurado dizia 'por 100 mil mulheres' e o 100 não está em trecho (aviso do validador); passou a 'por cem mil mulheres'. Veredito mantido.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A157": {
+    "decisao": "alterado",
+    "nota": "Contra: (a) os recordes de focos do Inpe são de 2004, então 'recordista em queimadas' seria IMPRECISO, como a A155; (b) as fontes eram só imprensa reproduzindo o MapBiomas, sem a primária, numa série histórica (regra 1 e 2 da §3.1); (c) o dado era da coleção de 2025, não da vigente na fala. (a) cai: área queimada e focos são métricas diferentes, não total e recorte, e a de área, que mede o tamanho do fogo, dá recorde. (b) e (c) procediam: capturei pela revisão r6 a ficha técnica do MapBiomas Fogo, Coleção 5 (versão 15/07/2026), linkada na página do Monitor do Fogo já capturada na p16-r10, que dá à Amazônia 'a maior área queimada (15,8Mha)' em 2024. Entrou como N2; resumo e numero_apurado passaram de 15,6 para 15,8 milhões de hectares, e a explicação registra a revisão entre coleções. Veredito mantido.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A158": {
+    "decisao": "alterado",
+    "nota": "Contra: na Coleção 5 do MapBiomas, vigente na data da fala, 2024 (30,2 milhões de hectares) fica só 1,6% abaixo de 2007 (30,7 milhões), desvio abaixo da régua de 10%, e então seria VERDADEIRO. Não derruba: a frase afirma uma posição ('maior queimada na história'), e a posição está errada; a régua de 10% mede valor, não troca o primeiro pelo segundo lugar. O recorde de 2024 vale para a Amazônia, não para o país. Mantido IMPRECISO, e a ressalva passou a dar a diferença de 1,6% (derivação declarada) e o recorde na Amazônia, para o card não exagerar o erro. Entrou o Relatório Anual do Fogo 2025 (N2, Coleção 5, capturado na r6), que faltava como primária; resumo, numero_apurado e explicação atualizados (30,2 milhões; 'desde 1985', não '40 anos'). Ver pergunta de régua para a passada de coerência.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A159": {
+    "decisao": "alterado",
+    "nota": "Contra, pelos dois lados: (a) há recordes reais (estelionato, feminicídio, mortes por intervenção policial), então seria VERDADEIRO; (b) o indicador usual de criminalidade, as mortes violentas, está na menor taxa desde 2012, então seria FALSO. Nenhum derruba IMPRECISO: a frase generaliza um recorde de tipos específicos enquanto o total cai, a mesma régua de recorte da A155. Achado: a explicação dava 'alta de mais de 400% desde 2018' dos estelionatos sem trecho; a frase está no mesmo parágrafo capturado do Anuário (p16-r6) e o trecho foi estendido. 'Roubos caíram' não estava em trecho e saiu da explicação (o Anuário diz que o total de ocorrências patrimoniais cai e os furtos superaram os roubos).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A160": {
+    "decisao": "alterado",
+    "nota": "Contra: a Peic mede famílias com qualquer dívida a vencer, inclusive cartão, e não 'pessoas endividadas' nem inadimplência, que caiu. Cai pela mesma régua da A130 do caso de 15/out (VERDADEIRO, mesma pesquisa): é a medida pública de endividamento, o recorde de 82,0% é de julho de 2026 e os recordes anteriores (79,5%) também caem no governo atual; a ressalva põe a inadimplência de 29,8% na tela. Achado: a explicação citava reportagem do Metrópoles que não está nas fontes nem nas capturas; a menção saiu. Trechos achados na p16 e na captura reaproveitada do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A161": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa, conferidos. O resumo traz o número do 2º quadrimestre e diz que a série anual não foi conferida; lido sozinho, o laranja não sugere recorde. O que falta para a rodada 2: boletins anuais de 2024 e 2025 e o do 1º quadrimestre de 2026 do Mapa de Empresas, com e sem MEI, e os anos de 2015 e 2018 que o próprio boletim cita. Trechos achados na p17 e p17-r2.",
+    "verificacoes": [
+      "3",
+      "5",
+      "7"
+    ]
+  },
+  "A162": {
+    "decisao": "mantido",
+    "nota": "Provisório: marcador exato e confiança baixa, conferidos. Os números do resumo (232, 40) estão no trecho do Poder360. O que falta para a rodada 2: série oficial do MIC/CEMAP do Paraguai por ano de instalação e origem do capital; a divergência 232 contra 223 está declarada. Trechos achados na p17.",
+    "verificacoes": [
+      "3",
+      "4",
+      "7"
+    ]
+  },
+  "A163": {
+    "decisao": "mantido",
+    "nota": "Contra: a pergunta da jornalista pode se apoiar em atuação pública de Flávio pelo PL 3.723/2019 fora da ficha do Senado (declarações, articulação), e então seria VERDADEIRO; não registrar seria injusto com a entrevistadora. Fiz 1 busca web atrás disso (Flávio Bolsonaro, PL 3.723, marcação de munição, Senado): os resultados tratam o projeto como do governo, com relatoria de Marcos do Val, emendas de outros senadores e notas do Igarapé e do PT, sem nenhuma menção a Flávio. Na resposta, Flávio não confirma nem nega. Fica INSUSTENTAVEL: o projeto e o conteúdo estão documentados (ficha N1 e Pública), a atuação dele não. Confiança média coerente com busca dirigida feita. Trechos achados na p17 e p17-r5.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A164": {
+    "decisao": "mantido",
+    "nota": "Contra: a lei fala em 'culote dos projéteis', não em 'cápsulas', e a regra depende de regulamento. Cai: cápsula é o nome popular do estojo, o art. 23, §2º, do Estatuto (texto do Planalto) só autoriza compra pelos órgãos do art. 6º com identificação do lote e do adquirente, e a ficha do Senado mostra o PL que a revogaria aguardando relator desde 2023, logo a regra vigia na data da fala. Trechos achados na p17 e p17-r5.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A165": {
+    "decisao": "mantido",
+    "nota": "Contra: o candidato não diz o nome, e outro ex-ministro poderia ter ido à Maré; e a Revista Oeste escreveu que Dino entrou sem escolta. Cai: a visita de Dino em 13 de março de 2023 é a documentada (data conferida no texto capturado do Comprova e do Poder360), a PF e a PRF, ouvidas pelo Comprova, disseram que fizeram a segurança com policiais à paisana durante toda a visita, e a Oeste diz 'aparentemente', sem fonte oficial, o que está na divergência. 'Sem nenhum policial, sem nenhum de segurança' é contradito no essencial: FALSO, não IMPRECISO. Nota menor: a Oeste data a entrada numa quarta-feira 15, o que não muda nada.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A166": {
+    "decisao": "mantido",
+    "nota": "Contra: fabricado no exterior não quer dizer não comprado em loja (pode ter sido comprado legalmente nos EUA ou importado por CAC), e o o_que_conferir pedia estudos de desvio de armas de CACs, que não foram lidos; pela régua literal da A167 ('não fiscaliza'), a frase absoluta poderia cair para IMPRECISO. Fica de pé, com confiança média: lida no contexto ('não passaram exame psicológico, não compraram arma em loja'), a frase é sobre o próprio criminoso não ter comprado o fuzil no comércio legal, e nenhuma fonte capturada mostra o contrário; o dado da PM do Rio (95% estrangeiros em 2024, em grande parte contrabandeados, 194 sem marca em 2023) sustenta o essencial e a ressalva diz que parte é de fabricação nacional sem origem rastreada. As três reportagens reproduzem levantamentos da mesma PM, de anos diferentes, sem a primária capturada. Fica para a passada de coerência (ver perguntas de régua).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A167": {
+    "decisao": "alterado",
+    "nota": "Contra: (a) a frase é hipérbole política sobre a eficácia da fiscalização e não deveria ser FALSO; (b) as três fontes reproduzem o mesmo balanço oficial de fevereiro de 2026, que não foi capturado, e pela regra 2/3 da §3.1 contam como uma fonte, abaixo do mínimo de duas para um FALSO. (a) cai: 'não fiscaliza a entrada de armas e drogas' é afirmação absoluta, contradita por registro de operações e apreensões, a mesma régua do 'nenhuma arma' do caso de 28/08 (A009); a explicação já separa o juízo de eficácia. (b) procedia: entrou como N1 a página de notícias da própria PF, capturada em 16/10/2026 no caso de 15/out (p06), com apreensões de maconha em ação com o BPFron e de pistolas em Cascavel (PR) em 15/10/2026, independente do balanço; a explicação declara a regra 2 para as três reportagens. Veredito mantido.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A168": {
+    "decisao": "mantido",
+    "nota": "Contra: as vozes documentadas são de institutos da sociedade civil (Sou da Paz duas vezes, Igarapé), não um 'entendimento' oficial, e o governo que propôs o PL defendia o contrário. Fica de pé: a jornalista atribui um entendimento corrente, e a nota técnica (via Pública) e a pesquisa de out/2026 (via O Povo) são documentos e redações diferentes; a Pública lembra o caso Marielle, rastreado pelo lote. A ressalva já diz que não é parecer da PF. Mesma régua de atribuição usada para o candidato. Trechos achados na p17.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A169": {
+    "decisao": "mantido",
+    "nota": "Contra: o voto pode ter sido em outra votação (texto-base contra destaque) ou na Câmara. Cai: os dados abertos do Senado (N1, captura p17) registram 'Sim' de Flávio na votação nominal da Emenda 117 (substitutivo) ao PL 5.582/2025 em 10/12/2025, e Metrópoles e Jornal de Brasília dão o placar de 64 a 0 que está no resumo.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A170": {
+    "decisao": "mantido",
+    "nota": "Contra: Flávio fala do projeto que votou no Senado, não da lei sancionada, e o texto do Senado poderia prever cumprimento integral; ou o essencial (pena mais dura) bastaria para VERDADEIRO. Cai: procurei 'integral' no texto da Lei 15.358/2026 capturado (p04 do caso de 15/out) e não há; o art. 112 da LEP mantém a progressão com frações de 70% a 85% (75% para o comando de organização ultraviolenta), e o Jornal de Brasília diz que o texto do Senado 'limita as possibilidades de progressão'. 'Integralmente' é materialmente errado, a essência confere: IMPRECISO pela mesma régua da A003 e da A033 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  }
+}
