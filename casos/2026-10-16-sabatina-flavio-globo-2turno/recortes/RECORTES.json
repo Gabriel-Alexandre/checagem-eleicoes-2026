@@ -151,11 +151,11 @@
       "arquivo": "corte-06.mp4",
       "origem": "sabatina-flavio-globo-2026-10-16.mp4",
       "origem_inicio_s": 2409.09,
-      "duracao_s": 14.6,
+      "duracao_s": 14.5,
       "largura": 1920,
       "altura": 1080,
       "fps": 30.0,
-      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto saude; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 18.3 dB e fim 36.3 dB abaixo da fala)",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto saude; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 18.3 dB e fim 28.1 dB abaixo da fala)",
       "criado_em": "2026-10-17",
       "enquadramento": {
         "original": "1280x720",

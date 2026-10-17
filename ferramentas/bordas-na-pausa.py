@@ -20,7 +20,8 @@ Para cada corte escolhido em `recortes/SUGESTAO_DE_CORTES.json` (campo `escolhid
    fica inteira e nada da palavra seguinte entra.
 
 Saída: `recortes/BORDAS_NA_PAUSA.json` (antes, depois, dB de cada borda, o nível da fala) e a tela.
-`--so-medir` só mede as bordas que já estão lá (é o que a validação final roda nos cortes prontos).
+`--so-medir` só mede as bordas que já estão lá (é o que a validação final roda nos cortes prontos):
+as de `recortes/RECORTES.json`, isto é, as do corte entregue; sem ele, as da sugestão.
 """
 
 from __future__ import annotations
@@ -138,6 +139,19 @@ def transcrever(wav: Path, ini: float, fim: float) -> str:
         shutil.rmtree(d, ignore_errors=True)
 
 
+def bordas_entregues(caso: Path) -> dict[str, tuple[float, float]]:
+    """As bordas dos cortes como foram recortados (`recortes/RECORTES.json`), não as da sugestão.
+
+    🔑 Validação final de 17/out: o `--so-medir` lia a SUGESTAO_DE_CORTES.json, e media as bordas de
+    antes da pausa, não as do corte entregue."""
+    arq = caso / "recortes" / "RECORTES.json"
+    if not arq.exists():
+        return {}
+    dados = json.loads(arq.read_text(encoding="utf-8"))
+    return {r["id"]: (r["origem_inicio_s"], round(r["origem_inicio_s"] + r["duracao_s"], 2))
+            for r in dados.get("recortes", []) if "origem_inicio_s" in r and "duracao_s" in r}
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     p.add_argument("slug")
@@ -154,9 +168,10 @@ def main() -> int:
     aleg = json.loads((caso / "alegacoes" / f"alegacoes-{a.recorte}.json").read_text(encoding="utf-8"))
     por_id = {x["id"]: x for x in aleg["alegacoes"]}
 
+    entregues = bordas_entregues(caso) if a.so_medir else {}
     saida = []
     for c in sug["escolhidos"]:
-        ini, fim = c["inicio_s"], c["fim_s"]
+        ini, fim = entregues.get(c["id"], (c["inicio_s"], c["fim_s"]))
         ids = c.get("ids") or [x["id"] for x in aleg["alegacoes"] if x["inicio_s"] >= ini - 0.05 and x["fim_s"] <= fim + 0.05]
         primeira = min(por_id[i]["inicio_s"] for i in ids)
         ultima = max(por_id[i]["fim_s"] for i in ids)

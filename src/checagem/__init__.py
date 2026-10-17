@@ -1,3 +1,3 @@
 """checagem — pipeline aberto de checagem de fatos em vídeo."""
 
-__version__ = "0.5.1"
+__version__ = "0.5.2"

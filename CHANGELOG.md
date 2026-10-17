@@ -5,6 +5,26 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.5.2] · 17/out/2026
+
+A sabatina de Flávio Bolsonaro na TV Globo do 2º turno (16/out, Renata Lo Prete), **checada inteira** com o mesmo passo a passo, a mesma régua e os mesmos critérios do caso de Lula de 15/out.
+
+### O caso `2026-10-16-sabatina-flavio-globo-2turno`
+- **Procedência:** o sinal da TV Globo em tela cheia, sem moldura nem terceiro; 42min48s contra 40 min anunciados no ar; o intervalo comercial foi tirado na origem (o cronômetro da emissora marca 31:37 antes e depois da emenda); `inicio_da_entrevista_s` = 0,0. A gravação foi movida para `Videos/youtube/video-longo/video-11/gravacao-sabatina/` e ligada por hardlink em `fonte/`.
+- **Transcrição** sem prompt, com 22 correções conferidas em leituras alternativas; **91 turnos à mão**, conferidos nos quadros (Flávio Bolsonaro 25:00 de fala, Renata Lo Prete 14:09).
+- **207 alegações** (Renata Lo Prete 83, Flávio Bolsonaro 124) em 5 lotes de internet fechada; a sugestão dos 6 cortes foi commitada às 12h43 de 17/out (`b5b1b59`), antes do primeiro veredito. Critérios copiados sem mudança (`37cdb3f`, `5812ef4`).
+- **Checagem em ondas** dentro do limite de 200 buscas web por turno (três ondas de 7 agentes, até 7 buscas cada; rodadas 2 e 3 para os provisórios), revisão adversarial por lote, coerência com os casos de 15/out e 28/ago, **auditoria final por amostra** (51 checagens, 7 vereditos mudados) e **validação final** (nenhum veredito mudou). Resultado: **131 verdadeiro, 26 impreciso, 40 sem comprovação, 9 falso, 1 não checável**. Tudo o que mudou em `CORRECOES.md` §1 a §5.
+- **6 cortes curtos** (87,6 s de emissora), bordas na pausa da voz, sincronia 0,0 ms, entregues em `Videos/youtube/video-longo/video-11/cortes-checados/`.
+- **Considerações da IA**: duas passadas (com nomes e espelho), percepção pública atribuída e o documento final.
+
+### Adicionado
+- **`ferramentas/medir-tempo-das-alegacoes.py`**: o começo e o fim de cada alegação medidos palavra por palavra numa segunda transcrição em fila, aceitos só dentro da frase de origem, com a ordem dos ids acertada.
+- **`ferramentas/bordas-na-pausa.py`**: leva a borda de cada corte para a pausa da voz (12 dB ou mais abaixo da fala, janelas de 40 ms) sem cortar alegação; `--conferir` transcreve a janela final; `--so-medir` mede o corte pronto.
+- `tests/test_tempo_e_bordas.py` (18 testes).
+
+### Corrigido
+- `bordas-na-pausa.py --so-medir` media as bordas da sugestão, não as do corte entregue: agora lê `recortes/RECORTES.json` (`bordas_entregues`). Teste novo.
+
 ## [0.5.1] · 16/out/2026
 
 A sabatina de Lula na TV Globo do 2º turno, **checada inteira** com a gravação que o autor entregou às 23h48 de 15/out.

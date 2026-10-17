@@ -159,3 +159,13 @@ def test_par_de_palavras_repetido_na_janela_nao_alinha():
     pal = [(w, t, t + 0.2) for w, t in [("o", 362.95), ("senhor", 363.21), ("chamou", 363.36),
                                          ("o", 367.03), ("senhor", 367.11), ("mudô", 367.60)]]
     assert mt.alinhar(pal, ["o", "senhor", "mudou", "de"], perto_de=365.4) is None
+
+
+def test_so_medir_mede_o_corte_entregue_e_nao_a_sugestao(tmp_path):
+    """Validação final de 17/out: o --so-medir lia a sugestão e media bordas de antes da pausa."""
+    (tmp_path / "recortes").mkdir()
+    (tmp_path / "recortes" / "RECORTES.json").write_text(
+        '{"recortes": [{"id": "corte-01", "origem_inicio_s": 963.38, "duracao_s": 14.19}, {"id": "x"}]}',
+        encoding="utf-8")
+    assert bp.bordas_entregues(tmp_path) == {"corte-01": (963.38, 977.57)}
+    assert bp.bordas_entregues(tmp_path / "sem-recortes") == {}

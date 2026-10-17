@@ -3,7 +3,7 @@
   "recorte": "corte-06",
   "alvo": "recortes/corte-06.mp4",
   "base_s": 2409.09,
-  "duracao_s": 14.6,
+  "duracao_s": 14.5,
   "largura": 1920,
   "altura": 1080,
   "gerado_em": "2026-10-17",
@@ -18,9 +18,9 @@
     "sai_s": 7.5
   },
   "congelamento": {
-    "entra_s": 14.6,
+    "entra_s": 14.5,
     "sai_s": 32.6,
-    "duracao_s": 18.0
+    "duracao_s": 18.1
   },
   "encerramento": null,
   "contagem_por_veredito": {

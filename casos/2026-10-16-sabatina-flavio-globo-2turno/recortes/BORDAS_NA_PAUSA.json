@@ -144,9 +144,10 @@
       "fim": {
         "antes": 2423.22,
         "antes_db_abaixo_da_fala": -2.8,
-        "depois": 2423.67,
-        "depois_db_abaixo_da_fala": 36.3,
-        "movida": true
+        "depois": 2423.59,
+        "depois_db_abaixo_da_fala": 28.1,
+        "movida": true,
+        "nota": "validação final de 17/out: o áudio do recorte terminava em 2423,67 s (36,3 dB abaixo da fala), mas a palavra seguinte começa por volta de 2423,68 s, e o vídeo, arredondado ao quadro (14,60 s), ia até 2423,69 s: folga de menos de um quadro. Levado para 2423,59 s, no fundo da mesma pausa, com duração múltipla do quadro (14,50 s, 435 quadros)"
       },
       "texto_da_janela": "Dr. Cláudio Lutenberg, vamos lembrar, ele foi o presidente do melhor hospital do Brasil, que é o Albert Einstein, que fica ali em São Paulo. E qual a ideia? É ele trazer essas boas práticas que existem nesse melhor hospital do Brasil e até um dos melhores da América Latina,"
     }

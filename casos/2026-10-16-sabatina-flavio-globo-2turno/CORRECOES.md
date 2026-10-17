@@ -729,3 +729,45 @@ Depois da revisão, da rodada 2, da rodada 3 e da coerência, um agente de IA qu
 **Novas capturas:** `capturas/2026-10-16-sabatina-flavio-globo-2turno-aud` (o depoimento de Bolsonaro no Poder360, a decisão de Moraes em três veículos). Pedido em `checagens/pedidos-captura/auditoria-final.json`.
 
 **O que mudou no resultado:** **131 verdadeiro, 26 impreciso, 40 sem comprovação, 9 falso, 1 não checável** (207). Flávio Bolsonaro: 66 · 23 · 25 · 9 · 1 (124). Renata Lo Prete: 65 · 3 · 15 · 0 (83). Métricas e relatório refeitos; o corte-02 e o corte-03 renderizados, validados (sincronia 0,0 ms) e copiados de novo para a pasta de entrega.
+
+## 5. A validação final (17/out, noite)
+
+Os dez itens do pedido do autor, com a §5 do caso de 15/out como modelo, feitos pela IA que conduz o caso depois da auditoria, com medidas de script e a segunda transcrição independente. Cada item tem a prova.
+
+**1. O nome da entrevistadora.** Renata Lo Prete, na tarja da própria transmissão em 0:13 (`transcricao/tarja-apresentadora-0013.jpg`), no áudio (o candidato a chama pelo nome 40 vezes: 31 transcritas como "Renata" e 9 como "Renato", todas na fala dele, dirigidas a ela; a transcrição fica como está e nenhuma alegação traz o nome) e na imprensa do dia seguinte (O Povo, 17/out, "a jornalista Renata Lo Prete", captura `p13-r2`). Nada mudou.
+
+**2. O minuto dos cards.** Aqui a gravação começa na primeira palavra da entrevista (`inicio_da_entrevista_s` = 0,0 no `CASO.json`, com a nota), então o minuto do arquivo é o minuto da entrevista. Conferido por script nos 21 cards dos 6 planos de overlay: o tempo do card é igual ao começo medido da alegação, diferença de 0,00 s em todos.
+
+**3. As bordas dos cortes, a sincronia e a moldura.** A medida de borda (`ferramentas/bordas-na-pausa.py --so-medir`) **lia as bordas da sugestão, e não as do corte entregue**: mediu o corte-01 começando em 963,94 s, quando ele começa em 963,38 s. Corrigido na ferramenta (`bordas_entregues`, que lê `recortes/RECORTES.json`), com teste novo em `tests/test_tempo_e_bordas.py`. Medidas de novo nos cortes entregues, em janelas de 10 a 20 ms, achou-se um ponto: o **corte-06** terminava em 2423,67 s, com o áudio na pausa (36,3 dB abaixo da fala), mas a palavra seguinte começa por volta de 2423,68 s e o vídeo, arredondado ao quadro, ia até 2423,69 s. O fim foi para 2423,59 s, no fundo da mesma pausa, com duração múltipla do quadro (14,50 s); o corte-06 foi recortado, renderizado, validado (0 erros) e copiado de novo, e os 3 cards lidos em quadros do meio de cada um. Os mesmos três identificadores, os mesmos vereditos.
+
+| Corte | Início | Fim | Abaixo da fala (início / fim) |
+|---|---|---|---|
+| corte-01 | 963,38 s | 977,58 s | 12,9 / 37,9 dB |
+| corte-02 | 1089,51 s | 1103,44 s | 14,9 / 13,0 dB |
+| corte-03 | 1547,40 s | 1561,73 s | 21,3 / 13,0 dB |
+| corte-04 | 1909,85 s | 1924,82 s | 15,2 / 23,8 dB |
+| corte-05 | 2265,70 s | 2281,50 s | 18,2 / 20,8 dB |
+| corte-06 | 2409,09 s | 2423,59 s (era 2423,67) | 18,2 / 28,0 dB |
+
+Todas as bordas ficam 12,9 dB ou mais abaixo da fala. Sincronia do som de cada corte renderizado contra a gravação, por correlação: **0,0 ms nos seis** (correlação 1,000). Luma mínima das três linhas e colunas da borda da imagem acima de 33 nos seis: nenhuma faixa preta nem linha da gravação no quadro. Soma dos trechos da emissora: **87,6 s** (era 87,7 s).
+
+**4. A segunda transcrição.** Uma transcrição independente, palavra por palavra (whisper.cpp, outra passada, sem prompt), foi comparada com a frase de cada uma das 207 alegações: **185 idênticas palavra por palavra**, 22 com alguma diferença. As diferenças que tocam número ou palavra da tela são de dois tipos: a janela pegou a alegação vizinha (A009, A010, A068, A091, A106, A122, A179: sobra na ponta, não diferença) ou é a grafia que a transcrição principal já corrigiu com leitura alternativa na E2 (Vorcaro, Magnitsky, CACs, "vieram à tona", "retirar do Supremo", "aliado"). Duas pediram decisão:
+
+| Alegação | O que se conferiu | Resultado |
+|---|---|---|
+| A086 (Renata Lo Prete, corte-02) | "e o senhor pediu 134 ao Vorcaro" ou "alvor caro" | homofonia que as leituras não resolvem. O card cita só *"e o senhor pediu 134"* (`citacao_card`); a palavra em dúvida não vai para a tela |
+| A181 (Flávio Bolsonaro) | "à legítima defesa" ou "a lei de defesa" | **"à legítima defesa"** pela maioria das leituras da E2 e pelo contexto (a frase seguinte fala do cidadão que se defende); a frase fica. Não está em corte |
+
+**5. O tempo de cada alegação.** Medido palavra por palavra na E3 (`alegacoes/TEMPOS_MEDIDOS.json`: 200 ajustadas, mediana 0,06 s, máximo 24,7 s). Conferido agora: as 207 em ordem cronológica, nenhuma com fim antes do começo, da primeira em 12,78 s ao fim da última em 2558,80 s.
+
+**6. A régua de 10%, por script.** Todo veredito com número dito e número apurado foi recalculado (desvio sobre o apurado). Dois pedem leitura e passam, cada um com outro motivo escrito: A027 (Renata Lo Prete, IMPRECISO com desvio de 0,3%: o marco de 2033 é de produção, e a frase diz exploração, que já começou) e A036 (Flávio Bolsonaro, IMPRECISO com 4,8%: os 21 mil do decreto somam cargos, funções e gratificações, e a frase diz cargos em comissão; mesma régua da A013 de 28/ago). Os desvios grandes estão todos fora do VERDADEIRO (A014, A019, A020, A021, A113 e A124 em IMPRECISO, com a essência escrita; A037, A062, A090, A114 e A138 em sem comprovação, com o motivo de fonte escrito). Nenhum veredito mudou.
+
+**7. "Quase" e exagero nos dois lados.** Lidas, lado a lado, as 39 alegações com quantificador (quase, mais de, cerca de, nunca, ninguém, todo, nenhum, recorde, maior, a maioria). A mesma régua dos dois lados: "quase" que fica abaixo do apurado por mais de 10% é IMPRECISO para a entrevistadora (A003, "quase o dobro" contra 2,3 vezes) e para o candidato (A014, "quase um trilhão" contra R$ 1,7 a 1,9 trilhão); "quase" dentro da régua e com fonte primária é VERDADEIRO dos dois lados (A023 de Flávio Bolsonaro, A097 de Renata Lo Prete); "quatro anos" contra cerca de 3 anos e 8 meses é VERDADEIRO com ressalva quando há fonte primária (A185, decreto e lei) e sem comprovação quando o prazo só tem uma origem de imprensa (A078, regra 1 e regra 3 da §3.1, escritas na explicação). Nenhuma divergência sem motivo.
+
+**8. Fato em apuração.** Lidas as 34 checagens VERDADEIRO, IMPRECISO ou FALSO cuja explicação fala de inquérito, investigação, denúncia, delação, relatório da PF ou processo em curso. Em todas, o veredito é sobre um fato verificável em volta da apuração (a prisão, a nota oficial da PF, o laudo da própria produtora, a existência da suspeita, a posição da defesa), e a explicação diz que não se estende ao fato apurado (A073, A079, A088, A103, A192, A194, entre outras). Os valores que só existem em material de investigação não público ficaram sem comprovação na auditoria (A071, A072, A085, A086, A090). Nenhum fato em apuração está como VERDADEIRO ou FALSO.
+
+**9. Os números iguais em todos os documentos.** Conferidos por busca nos dois repositórios (o do projeto e o do canal) os números finais (131 · 26 · 40 · 9 · 1; Flávio Bolsonaro 66 · 23 · 25 · 9 · 1; Renata Lo Prete 65 · 3 · 15 · 0; 87,6 s) e os antigos (134 · 27 · 35 · 11 e 133 · 26 · 37 · 11, que só podem aparecer como histórico datado). A varredura completa é a da E11 (depois do roteiro e da publicação), registrada no `ESTADO.md`; até aqui, os números antigos só aparecem como histórico datado.
+
+**10. A gravação.** Mora em `C:/Users/Gabriel/Videos/youtube/video-longo/video-11/gravacao-sabatina/sabatina-flavio-globo-2026-10-16.mp4` e em `fonte/` do caso, que é o mesmo arquivo (hardlink: duas ligações, 257.288.382 bytes, sha256 `cffad1d8…` igual ao do `CASO.json`). Nenhum `.mp4` na raiz de Downloads. A busca recursiva por `.mp4` do mesmo tamanho em Downloads e em Vídeos (a pasta Área de Trabalho não existe) achou exatamente os dois caminhos acima, que são o mesmo arquivo. Nenhuma cópia.
+
+**O que mudou no resultado:** nada nos vereditos. **131 verdadeiro, 26 impreciso, 40 sem comprovação, 9 falso, 1 não checável** (207). Flávio Bolsonaro: 66 · 23 · 25 · 9 · 1. Renata Lo Prete: 65 · 3 · 15 · 0. Mudou o fim do corte-06 (e a soma dos trechos, de 87,7 para 87,6 s) e a ferramenta de medir borda.
