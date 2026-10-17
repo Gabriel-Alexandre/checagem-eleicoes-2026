@@ -1,0 +1,161 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "escopo": "A peça inteira (transcricao/transcricao.json).",
+  "como_foram_conferidas": "Em 17/out/2026, a IA leu a transcrição inteira procurando nome próprio, número, ano, sigla e palavra que muda o sentido, e transcreveu de novo as janelas suspeitas em três leituras alternativas. 1ª leitura alternativa: whisper.cpp large-v3-turbo, feixe 8, na janela isolada de t-3 a t+5 s, uma janela por chamada, sem e com prompt de contexto (nomes da mesa e dos citados) (9 janelas; interrompida por lentidão). 2ª leitura alternativa: as janelas suspeitas (t-3 a t+5 s) recortadas do áudio, postas em fila com 2 s de silêncio, transcritas numa chamada só (feixe 8, -mc 0, que descarta o texto anterior e também o prompt: é uma leitura SEM prompt) (64 janelas). 3ª leitura alternativa: a mesma fila, sem o -mc 0, sem e com prompt de contexto (22 janelas). Só entrou o que as leituras sustentam. ⚠️ Nenhuma passada substitui ouvir o áudio, e nenhuma pessoa ouviu. TODOS OS NÚMEROS conferidos na 2ª leitura saíram iguais aos da transcrição principal: 7% e 14% de juros, 11 trilhões, quase um trilhão, 200 bilhões, 100 bilhões, 39 ministérios, 20 mil e 22.500 cargos, 350 bilhões, 24 bilhões, lei 1079, quase 70 milhões de 134, 75 milhões, 100 e 160 milhões, 1.600 instituições e 170 bancos, um bilhão, 10%, 27 anos, 10 mil quilômetros, um milhão de câmeras, 17%, 17 dias. NÃO RESOLVIDAS (ficam como o motor escreveu; a extração não apoia veredito nelas e nenhuma vai para a tela sem '[...]'): 'um dinheiro totalmente ilícito' (18:32; as quatro leituras escrevem 'ilícito'; o contexto, 'uma relação privada [...] como era o dinheiro também aqui na Globo', pede 'lícito', e a junção 'totalmente lícito' soa como 'totalmente ilícito'); 'ao caso das fachadinhas' (22:04; todas mantêm; o contexto pede 'rachadinhas'); 'fumando jaruto' (22:42; todas mantêm; 'charuto'); 'ter direito ao marmo' e 'ter o marmo' (36:43 e 36:47; todas mantêm); 'com as áreas que estão aí' (31:26; todas mantêm; o contexto pede 'urnas'); 'com a gente de CDM' (37:10; as leituras divergem e nenhuma resolve); 'para medir em história da saúde' (39:29; as leituras dizem 'medir a história' ou 'medir em história'; o contexto pede 'ministro da Saúde'); 'ministra ação exteriores' (26:59; 'Ações Exteriores', 'ações teóricas'); 'nunca tratou de carro' (25:07; as duas leituras mantêm, embora a segunda ocorrência, em 25:20, tenha saído 'cargo'); 'Podemos votar para seis por um?' (6:57; 'voltar'); 'vigilidade' (35:42); 'saraivara' (33:29); 'MBA e empreendedorismo' (12:00). GRAFIA DE NOME, sem mudança (as leituras não distinguem pela pronúncia e o motor escreve de ouvido): 'Cássio Nunes Marques' (Kassio), 'Vacari' (Vaccari), 'Bacelar' (Bacellar), 'Lothenberg' (Lottenberg), 'Quest' (Quaest), 'PEG' (PEC) e 'Renato' por 'Renata' no vocativo (como no caso de 15/out). A alegação usa a frase literal e escreve o nome certo na `afirmacao`.",
+  "correcoes": [
+    {
+      "inicio_s": 56.36,
+      "de": "saúde somadas. Na esteira disso, vieram a tomada algumas propostas de ajuste fiscal",
+      "para": "saúde somadas. Na esteira disso, vieram à tona algumas propostas de ajuste fiscal",
+      "motivo": "expressão: 'vieram a tomada' por 'vieram à tona'",
+      "conferido_como": "2ª leitura 'vieram a tona'; 3ª com prompt 'vieram à tona'; 1ª e 3ª sem prompt 'vieram a tomar' e 'a toma'. Fica 'à tona'; não há alegação no trecho"
+    },
+    {
+      "inicio_s": 313.6,
+      "de": "as águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largar. Então, olha só como é que tem muitas receitas novas a serem feitas e tem despesas para serem cortadas, principalmente",
+      "para": "as águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largada. Então, olha só como é que tem muitas receitas novas a serem feitas e tem despesas para serem cortadas, principalmente",
+      "motivo": "'de largar' por 'de largada'",
+      "conferido_como": "1ª leitura (sem e com prompt) e 2ª leitura: 'de largada'"
+    },
+    {
+      "inicio_s": 379.68,
+      "de": "Renata, o maior prazer, vou explicar isso, é bom esclarecer que também tem muita fequinha jodando sobre isso, mas só para fechar o assunto anterior,",
+      "para": "Renata, o maior prazer, vou explicar isso, é bom esclarecer que também tem muita fake news rodando sobre isso, mas só para fechar o assunto anterior,",
+      "motivo": "'fequinha jodando' por 'fake news rodando'",
+      "conferido_como": "1ª leitura, sem e com prompt: 'fake news rodando'; 2ª: 'fequinha rodando'. 'rodando' em todas; 'fake news' nas duas da 1ª, a que isola a janela"
+    },
+    {
+      "inicio_s": 605.06,
+      "de": "é que vai decidir qual vai ser o tamanho do mandato, se vai continuar de 4 para o ano, se não vai.",
+      "para": "é que vai decidir qual vai ser o tamanho do mandato, se vai continuar de quatro anos, se não vai.",
+      "motivo": "'de 4 para o ano' por 'de quatro anos'",
+      "conferido_como": "2ª leitura: 'se vai continuar de quatro anos'"
+    },
+    {
+      "inicio_s": 680.62,
+      "de": "governadores e pretéritos.",
+      "para": "governadores e prefeitos.",
+      "motivo": "'pretéritos' por 'prefeitos'",
+      "conferido_como": "2ª leitura: 'governadores e prefeitos'"
+    },
+    {
+      "inicio_s": 756.78,
+      "de": "Retirado Supremo, o julgamento de processos criminais contra parlamentares,",
+      "para": "Retirar do Supremo, o julgamento de processos criminais contra parlamentares,",
+      "motivo": "'Retirado Supremo' por 'Retirar do Supremo'",
+      "conferido_como": "2ª leitura: 'retirar do Supremo o julgamento de processos criminais contra parlamentares'"
+    },
+    {
+      "inicio_s": 1032.04,
+      "de": "com o Borcaro.",
+      "para": "com o Vorcaro.",
+      "motivo": "nome: 'Borcaro' por 'Vorcaro' (Daniel Vorcaro, citado pelo nome na pergunta de 15:50)",
+      "conferido_como": "2ª e 3ª leituras, sem e com prompt: 'Vorcaro'"
+    },
+    {
+      "inicio_s": 1040.96,
+      "de": "com o Borcaro",
+      "para": "com o Vorcaro",
+      "motivo": "nome: 'Borcaro' por 'Vorcaro'",
+      "conferido_como": "3ª leitura, sem e com prompt: 'com o Vorcaro'"
+    },
+    {
+      "inicio_s": 1050.02,
+      "de": "É o áudio do Borcaro.",
+      "para": "É o áudio do Vorcaro.",
+      "motivo": "nome: 'Borcaro' por 'Vorcaro'",
+      "conferido_como": "2ª e 3ª leituras, sem e com prompt: 'é o áudio do Vorcaro'"
+    },
+    {
+      "inicio_s": 1051.04,
+      "de": "do filme do Borcaro.",
+      "para": "do filme do Vorcaro.",
+      "motivo": "nome: 'Borcaro' por 'Vorcaro'",
+      "conferido_como": "2ª e 3ª leituras, sem e com prompt: 'do filme do Vorcaro'"
+    },
+    {
+      "inicio_s": 1095.56,
+      "de": "134 alvor caro.",
+      "para": "134 ao Vorcaro.",
+      "motivo": "'alvor caro' por 'ao Vorcaro'",
+      "conferido_como": "2ª leitura, em duas janelas (1092 e 1095 s): 'E o senhor pediu 134 ao Vorcaro'"
+    },
+    {
+      "inicio_s": 1198.54,
+      "de": "reveladas com Daniel Vurcaro,",
+      "para": "reveladas com Daniel Vorcaro,",
+      "motivo": "nome: 'Vurcaro' por 'Vorcaro'",
+      "conferido_como": "3ª leitura, sem e com prompt: 'Daniel Vorcaro'"
+    },
+    {
+      "inicio_s": 1210.48,
+      "de": "da Koss,",
+      "para": "Dark Horse,",
+      "motivo": "nome: 'caso da Koss' por 'caso Dark Horse' (o nome do filme sobre Jair Bolsonaro, assunto da pergunta)",
+      "conferido_como": "3ª leitura sem prompt: 'sobre o caso Dark Horse'; 2ª e 3ª com prompt: 'Dak Ross' (a mesma pronúncia). O nome do filme não estava no prompt: a leitura sem prompt chegou a ele sozinha"
+    },
+    {
+      "inicio_s": 1223.22,
+      "de": "justo do Daniel Vurcaro?",
+      "para": "justo do Daniel Vorcaro?",
+      "motivo": "nome: 'Vurcaro' por 'Vorcaro'",
+      "conferido_como": "3ª leitura, sem e com prompt: 'Daniel Vorcaro'"
+    },
+    {
+      "inicio_s": 1236.3,
+      "de": "é o Vurcaro",
+      "para": "é o Vorcaro",
+      "motivo": "nome: 'Vurcaro' por 'Vorcaro'",
+      "conferido_como": "2ª e 3ª leituras: 'o Vorcaro ser beneficiado'"
+    },
+    {
+      "inicio_s": 1520.92,
+      "de": "de carro comigo, Renata.",
+      "para": "de cargo comigo, Renata.",
+      "motivo": "'carro' por 'cargo' (a pergunta é sobre cargo no governo)",
+      "conferido_como": "2ª leitura: 'nunca tratou de cargo comigo, Renata'. A primeira ocorrência, em 25:07, fica 'carro': as duas leituras dela mantêm"
+    },
+    {
+      "inicio_s": 1578.52,
+      "de": "toma uma magnínsia",
+      "para": "toma uma Magnitsky",
+      "motivo": "nome: 'magnínsia' por 'Magnitsky' (a lei americana de sanções)",
+      "conferido_como": "2ª leitura, sem prompt: 'tomou a Magnitsky, uma punição do governo americano'"
+    },
+    {
+      "inicio_s": 1598.5,
+      "de": "com a magnínsia",
+      "para": "com a Magnitsky",
+      "motivo": "nome: 'magnínsia' por 'Magnitsky'",
+      "conferido_como": "2ª leitura, sem prompt: 'lesado com a Magnitsky'"
+    },
+    {
+      "inicio_s": 1933.54,
+      "de": "o resultado das outras.",
+      "para": "o resultado das urnas.",
+      "motivo": "'das outras' por 'das urnas'",
+      "conferido_como": "2ª leitura: 'se vai respeitar o resultado das urnas'"
+    },
+    {
+      "inicio_s": 2189.62,
+      "de": "dos CAATs,",
+      "para": "dos CACs,",
+      "motivo": "sigla: 'CAATs' por 'CACs' (caçadores, atiradores e colecionadores)",
+      "conferido_como": "2ª leitura, em duas janelas: 'dos CACs'"
+    },
+    {
+      "inicio_s": 2216.4,
+      "de": "a lei de defesa.",
+      "para": "à legítima defesa.",
+      "motivo": "'a lei de defesa' por 'à legítima defesa'",
+      "conferido_como": "2ª leitura: 'o direito à lítima e defesa' (a pronúncia de 'legítima defesa')"
+    },
+    {
+      "inicio_s": 2301.46,
+      "de": "e aluado seu.",
+      "para": "e aliado seu.",
+      "motivo": "'aluado' por 'aliado'",
+      "conferido_como": "2ª leitura: 'deputado estadual eleito e aliado seu'"
+    }
+  ]
+}

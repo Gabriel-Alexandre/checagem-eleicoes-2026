@@ -1,0 +1,2051 @@
+# 2026-10-16-sabatina-flavio-globo-2turno: transcrição
+# motor whisper.cpp · modelo ggml-large-v3-turbo.bin · idioma pt
+# tempos em HH:MM:SS na peça inteira · gerado em 2026-10-17
+
+
+[Renata Lo Prete]
+00:00:01  Boa noite. A TV Globo está entrevistando esta semana os candidatos à presidência da República
+00:00:06  que passaram ao segundo turno. A ordem das entrevistas foi definida por sorteio e seguindo
+00:00:12  o resultado, hoje recebemos aqui no estúdio o senador Flávio Bolsonaro, que concorre
+00:00:17  pelo PL. A entrevista terá 40 minutos de duração, com dois blocos e as considerações
+00:00:23  finais do candidato. Senador, boa noite. Obrigada pela sua presença.
+
+[Flávio Bolsonaro]
+00:00:27  Renata, boa noite. Grande honra estar sendo entrevistado por você pela primeira vez.
+00:00:31  Agradecer à Globo pela oportunidade e também desejar uma boa noite à senhora, ao senhor
+00:00:35  que está nos assistindo.
+
+[Renata Lo Prete]
+00:00:36  Bom, eu a partir de agora passo a chamar o senhor de candidato, porque esse é o contexto
+00:00:40  da nossa entrevista e o tempo começa a contar a partir de agora. Tudo bem?
+
+[Flávio Bolsonaro]
+00:00:44  Tudo bem.
+
+[Renata Lo Prete]
+00:00:44  Então vamos lá. A sua campanha tem falado bastante dos juros altos no Brasil e lembrando que
+00:00:49  o governo hoje paga em juros da dívida pública quase o dobro do que gasta em educação e
+00:00:56  saúde somadas. Na esteira disso, vieram à tona algumas propostas de ajuste fiscal
+00:01:02  ventiladas pelo seu time de assessores econômicos. Então, para separar, a gente conseguir separar
+00:01:08  o que é só especulação daquilo que o senhor de fato pretende fazer, eu tenho três perguntas
+00:01:13  bem objetivas. A primeira delas, o senhor vai manter os reajustes do salário mínimo acima
+00:01:18  da inflação?
+
+[Flávio Bolsonaro]
+00:01:19  Sim.
+
+[Renata Lo Prete]
+00:01:20  Posso ir para a próxima?
+
+[Flávio Bolsonaro]
+00:01:21  Pode ir para a próxima.
+
+[Renata Lo Prete]
+00:01:22  O senhor vai desvincular o percentual de reajuste do mínimo daquele usado para corrigir o valor
+00:01:27  das aposentadorias?
+
+[Flávio Bolsonaro]
+00:01:28  Não.
+
+[Renata Lo Prete]
+00:01:29  E o senhor pretende mudar a Constituição para eliminar os pisos de gasto com saúde e educação?
+
+[Flávio Bolsonaro]
+00:01:35  Também não. Renata.
+00:01:36  Vamos lá.
+00:01:38  Pode seguir.
+00:01:38  Posso prosseguir?
+00:01:39  É importante suas perguntas porque tem circulado de fato muitas fake news e esse é um importante
+00:01:44  momento para esclarecê-las. Porque o meu concorrente está promovendo um verdadeiro terrorismo
+00:01:50  em cima de servidores públicos, em cima de estatais, dizendo que eu acabaria com as aposentadorias,
+00:01:57  que eu acabaria com servidores públicos, que eu privatizaria Banco do Brasil, Caixa,
+00:02:02  Petrobras, enfim, um monte de coisa. Que eu acabaria com a luz do sol, que eu ia acabar
+00:02:06  com direitos dos alienígenas e por aí vai. E eu estou concorrendo à eleição para presidente
+00:02:12  da república. Que é coisa muito séria, Renata. E o maior ajuste fiscal que o Brasil pode
+00:02:16  fazer é tirar o Lula. Ele hoje é o maior problema para esse desencontro de contas, Renata.
+00:02:22  Se você pegar o boletim Focus de outubro de 2022, a última eleição, o presidente ainda
+00:02:28  era Jair Bolsonaro. A estimativa de taxa de juros era para estar, neste momento, em torno
+00:02:32  de 7%. Hoje, a taxa de juros está em 14%. São 7 pontos percentuais a mais na taxa de juros.
+00:02:40  Como você bem colocou, Renata, hoje a dívida do Brasil está em 11 trilhões de reais.
+00:02:45  Se fizer uma conta básica, 7 pontos, a gente está falando de quase um trilhão de reais
+00:02:51  a mais em 4 anos, que o Brasil poderia estar economizando ao invés de pagar juros. Está
+00:02:56  investindo de verdade um monte de coisa que a gente vai conversar aqui.
+
+[Renata Lo Prete]
+00:02:58  Deixa eu retomar a questão da sua proposta de ajuste fiscal, porque sem mexer em nenhum
+00:03:03  desses grandes núcleos da despesa pública, e eu falo principalmente da desvinculação do
+00:03:08  mínimo das aposentadorias e de mexer nos pisos de saúde e educação, há o consenso
+00:03:14  dos economistas, inclusive muitos que apoiam o senhor, dizem assim você não mexe no
+00:03:19  gasto público e você principalmente não chega aos 200 bilhões de reais de ajuste que
+00:03:24  a sua equipe tem prometido ao mercado. Então, estou querendo entender como é que é possível
+00:03:28  fazer esse ajuste sem mexer nas principais despesas.
+
+[Flávio Bolsonaro]
+00:03:31  Vou sintetizar, Renata, vamos lá. A gente tem que atacar sim, combater despesas. Vou
+00:03:36  te dar aqui alguns exemplos de despesas que a gente pode cortar e também de receitas novas
+00:03:40  que o meu governo vai ter. Então, vamos lá, vamos por partes. Hoje, vocês sabem que o atual
+00:03:46  governo tem 39 ministérios. A gente vai cortar pelo menos 10. É óbvio que isso não gera um grande
+00:03:52  impacto nas contas, não geram uma economia na proporção de 200 bilhões de reais por ano. Agora, vamos lá. Só com a corrupção e a má gestão das estatais. Com o presidente Bolsonaro, as estatais deram 18 bilhões de reais de superávit ou de lucro. Com o Lula já são 36 bilhões de prejuízo dessas estatais. Só aqui, Renata, é um gap de 54 bilhões de reais. O Brasil tem mais de 30 mil imóveis, grande parte deles que estão abandonados.
+00:04:21  A gente vai pegar esse imóvel, vai colocar num fundo de gestão. A avaliação desses imóveis que está desatualizado, à beira, 1,7 trilhão de reais, Renata. Isso pode ser colocado num fundo, pode ser securitizado e já conseguimos aí, em função da situação que estão os imóveis, cerca de 200 bilhões de receita nova que hoje nós não temos. Se a gente pegar os quase 3 trilhões de reais de dívidas que a União tem a receber, isso também pode ser securitizado, trazemos mais 200 bilhões a mais de receita
+00:04:50  para esse orçamento por ano. A cada ano é possível alcançar essa cifra. Tem a questão também da margem equatorial, os RODs do petróleo, que já estavam na proposta de governo
+00:05:02  do presidente Bolsonaro lá em 2022. Renata, passaram-se quatro anos e o presidente Lula não fez, não conseguiu iniciar a exploração do petróleo na margem equatorial, lá na região do Amapá,
+00:05:14  as águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largada. Então, olha só como é que tem muitas receitas novas a serem feitas e tem despesas para serem cortadas, principalmente
+00:05:24  combatendo a corrupção e fazendo uma gestão com inteligência artificial, que é o que eu vou propor.
+
+[Renata Lo Prete]
+00:05:29  Candidato, eu não quero que a gente fique só nesse assunto, porque eu tenho muitos com o senhor, mas só para relembrar que isso é praticamente um consenso entre os economistas,
+00:05:37  as grandes despesas são essas que eu citei aqui, margem equatorial, segundo a própria Petrobras, antes de 2033 não tem exploração ali,
+00:05:45  então é um pouco a gente entender como é que essas contas fecham. Mas vamos para um outro tema econômico importante, escala 6x1.
+00:05:52  Na quarta-feira, o Senado aprovou a emenda constitucional que acaba com essa escala de trabalho e a Câmara já tinha aprovado, agora a emenda já está promulgada.
+00:06:00  O senhor foi, desde o início, contrário a essa proposta e o senhor chamou de eleitoreira, de oportunista.
+00:06:05  Na véspera da votação, o senhor mudou de posição e votou a favor dessa emenda, que reduz a jornada de trabalho e prevê dois dias de descanso sem redução de salário.
+00:06:16  O senhor pode explicar o que orientou essa sua mudança de posição?
+
+[Flávio Bolsonaro]
+00:06:20  Renata, o maior prazer, vou explicar isso, é bom esclarecer que também tem muita fake news rodando sobre isso, mas só para fechar o assunto anterior,
+00:06:26  eu quero aqui assumir o compromisso. Eu não vou fazer economia com as pessoas que mais precisam do governo, as pessoas mais pobres.
+00:06:34  Tem de onde tirar, tem muito corte de despesa, em especial no combate à corrupção.
+00:06:38  O presidente Bolsonaro, ele extinguiu mais de 20 mil cargos em comissão.
+00:06:42  Você que é servidor público de carreira de Estado, você fique tranquilo, a sua profissão está garantida, ninguém vai atacar isso.
+00:06:49  E o Lula já criou mais de 22.500 cargos em comissão.
+00:06:52  Só um exemplo de como é que o governo usa a sua estrutura para entregar os seus companheiros, os seus cabos eleitorais.
+
+[Renata Lo Prete]
+00:06:57  Podemos votar para seis por um?
+
+[Flávio Bolsonaro]
+00:06:58  Com relação a seis por um.
+00:07:00  Eu sempre defendi mais liberdade para que os trabalhadores pudessem, inclusive, montar a sua própria jornada de trabalho.
+00:07:06  Eu sempre citava o exemplo daquela mãe solo que sustenta o seu filho sozinho, que às vezes não tem com quem deixar a sua criança.
+00:07:12  E com essa escala seis por um engessada, ela não conseguiu um emprego.
+00:07:16  Então, eu sou a favor de mais liberdade, portanto, isso também pressupõe o que a escala seis por um seja extinta.
+00:07:23  E uma outra acontecesse, então, no meu governo eu vou garantir creche para as mães, que pode deixar as suas filhas, seus filhos.
+00:07:29  Onde eu não tiver vaga na rede pública, você vai ter um voucher que o governo vai bancar para você colocar a sua criança numa creche privada.
+00:07:37  E eu estava defendendo, por exemplo, uma mãe que só pode trabalhar de manhã, Renata.
+00:07:40  Só pode trabalhar quatro horas por dia.
+00:07:42  Ela tinha que ter esse direito.
+
+[Renata Lo Prete]
+00:07:43  Mas a mudança de posição foi por quê?
+
+[Flávio Bolsonaro]
+00:07:45  Eu rodei o Brasil inteiro.
+00:07:46  Eu ouvi muitos trabalhadores.
+00:07:48  E eu votei conforme o que eu ouvi nas ruas.
+00:07:50  Como eu ouvi da grande maioria dos trabalhadores, que eles estavam favoráveis ao fim da escala seis por um,
+00:07:56  eu resolvi seguir a vontade da maioria dos trabalhadores brasileiros.
+00:07:59  E digo mais, Renata, não pode ficar só nessa folga extra, que todo mundo tem direito de ter essa folga extra.
+00:08:03  Todo mundo quer trabalhar menos e ganhar mais.
+00:08:06  O problema é, durante essa sua folga, com mais um dia de folga, você vai continuar andando de ônibus e sendo assaltado.
+00:08:14  Com um dia a mais de folga, você vai continuar indo dormir preocupado porque você está devendo.
+00:08:20  E o seu salário não está durando até o dia 30, está durando só até o dia 20.
+00:08:24  Então, eu vou ser um presidente da República que, além de respeitar e garantir essa folga a mais para os trabalhadores,
+00:08:30  eu vou fazer de tudo também para devolver o poder de compra do povo brasileiro
+00:08:33  e devolver a segurança nas ruas para que todos possam andar com mais segurança.
+
+[Renata Lo Prete]
+00:08:38  Antes de dizer que o senhor mudou de posição porque ouviu as pessoas, o senhor se referiu à proposta que o senhor preferia.
+00:08:43  Então, eu lembro aqui que seus aliados no Congresso estão dizendo que no ano que vem
+00:08:46  vão trabalhar para aprovar aquela proposta original do seu partido, o PL,
+00:08:52  aquela que tinha apresentado e prevê pagamentos de salário, férias, décimo terceiro, proporcionais às horas trabalhadas.
+00:08:58  Se o senhor chegar à presidência, vai se empenhar para reverter o fim da escala 6x1?
+
+[Flávio Bolsonaro]
+00:09:03  Não vou, Renata. É importante a sua pergunta.
+00:09:05  Todos os leis trabalhistas estão garantidos.
+00:09:08  Cada um pode ter a sua opinião individual.
+00:09:10  Mas, da minha parte, isso aqui está respeitado.
+00:09:12  Foi uma decisão do Congresso Nacional.
+00:09:14  Então, da minha parte, nenhum questionamento com relação a isso.
+
+[Renata Lo Prete]
+00:09:18  Agora, eu vou para um assunto de que o senhor tem falado bastante, que é o tamanho do mandato presidencial.
+00:09:23  Ao defender o fim da reeleição, o senhor chegou a ventilar a ideia de ter, em caso de vitória,
+00:09:28  estendido o seu próprio mandato dos atuais 4 para 5 anos.
+00:09:33  Eu tenho duas dúvidas sobre isso.
+00:09:34  Primeiro, o senhor tem dito que quer ser presidente de um mandato só.
+00:09:38  Se o Congresso não aprovar essas mudanças na Constituição, o senhor abriria a mão, voluntariamente, de buscar um novo mandato?
+
+[Flávio Bolsonaro]
+00:09:45  Sim.
+00:09:46  Abriria a mão porque eu, inclusive, quando a minha equipe trouxe esse assunto, Renata, partiu de mim.
+00:09:51  Eles vieram conversar comigo, o que eu achava, partiu de mim apresentar uma PEC para dar o exemplo.
+00:09:56  E a minha PEC diz o seguinte.
+00:09:58  Acaba a reeleição para presidente da República.
+00:10:01  E no processo legislativo, que aí vai depender de como é que o Senado e a Câmara vão se posicionar,
+00:10:05  é que vai decidir qual vai ser o tamanho do mandato, se vai continuar de quatro anos, se não vai.
+00:10:09  Os detalhes vão ser no processo legislativo.
+00:10:11  E eu estou aqui me comprometendo.
+00:10:13  Eu só preciso de um mandato.
+00:10:15  Eu só quero um mandato para começar a consertar o nosso país de verdade.
+00:10:19  Porque não dá para continuar essa loucura que o atual presidente da República está fazendo.
+00:10:24  Já gastou quase 350 bilhões de reais para tentar se reeleger.
+00:10:28  Ele está disputando o poder.
+00:10:30  É a sétima vez que ele tenta um mandato de presidente da República.
+00:10:33  Eu não estou disputando o poder.
+00:10:35  Eu estou disputando o futuro da nossa nação.
+00:10:38  Eu estou aqui me comprometendo.
+00:10:39  Eu só preciso de um mandato.
+00:10:40  Porque o centro do meu governo vai ser você.
+00:10:43  Vai ser o trabalhador brasileiro.
+00:10:45  O centro do meu governo vai ser defender você.
+00:10:48  E perdeu a soberania hoje sobre o seu celular, sobre a sua bolsa, sobre a sua casa, sobre a sua família.
+00:10:52  O centro do meu governo vai ser devolver o seu poder de compra.
+00:10:55  É assim que eu vou trabalhar.
+00:10:56  Eu só preciso de um mandato.
+00:10:58  Porque eu não quero começar o mandato já pensando na reeleição.
+00:11:01  Eu quero fazer o que precisa ser feito para o Brasil melhorar.
+
+[Renata Lo Prete]
+00:11:03  A propósito dessa sua proposta de emenda constitucional, só lembrando que ela não prevê extensão de mandato.
+00:11:09  Não tem isso no texto da PEG.
+
+[Flávio Bolsonaro]
+00:11:10  Ela acaba com a reeleição.
+00:11:11  Outro detalhe importante de falar.
+00:11:12  Ela acaba com a reeleição.
+00:11:13  Eu estou falando só para a presidente da República.
+00:11:15  Então, o Congresso é que vai resolver se os demais esferas do Poder Executivo também vão ser abrangidas,
+00:11:21  governadores e prefeitos.
+00:11:22  Na minha opinião, teriam que ser também, mas eu apresentei para a presidente da República.
+00:11:25  E vale não só para mim.
+00:11:27  Vale para parentes até terceiro grau também.
+
+[Renata Lo Prete]
+00:11:29  Tá.
+00:11:29  Então, o senhor não apoiaria uma mudança na regra que passasse a permitir que seu pai e os seus irmãos concorressem à sua eventual sucessão?
+
+[Flávio Bolsonaro]
+00:11:38  Não.
+00:11:38  É como está hoje na regra que vale.
+00:11:39  O parentes até terceiro grau também é considerado uma reeleição.
+
+[Renata Lo Prete]
+00:11:44  Sobre essa história de estender para cinco anos, o senhor tem uma posição?
+
+[Flávio Bolsonaro]
+00:11:47  Eu vou ficar com o processo legislativo e se ficar em quatro anos, o meu mandato vai durar quatro anos.
+00:11:50  Isso é para mostrar, Renata, que eu tenho um desapego ao poder.
+00:11:53  Não tem projeto de poder da minha parte.
+00:11:55  Eu tenho 45 anos de idade, eu sou advogado, eu sou empresário.
+00:11:58  Eu tenho pós-graduação em políticas públicas e governo.
+00:12:01  Eu tenho MBA e empreendedorismo em novos negócios.
+00:12:03  Eu estou mais do que preparado para ser presidente da República e para mim é projeto de Deus.
+00:12:07  E eu sei que eu vou fazer um mandato para corresponder às expectativas do povo brasileiro.
+00:12:11  Eu vou dar minha contribuição e na direita não faltam novas lideranças para dar continuidade a esse projeto de nação.
+00:12:19  Não é um projeto de poder.
+
+[Renata Lo Prete]
+00:12:20  Deixa eu falar de um outro ponto que o senhor tem reafirmado, tem mencionado, inclusive depois do primeiro turno.
+00:12:26  O seu plano de governo registrado no TSE apresenta seis propostas de reforma do judiciário,
+00:12:33  algo que o senhor tem colocado como prioritário.
+00:12:35  Eu cito três aqui.
+00:12:37  Retirar do Supremo, o julgamento de processos criminais contra parlamentares,
+00:12:41  reduzir o número de decisões individuais dos ministros
+00:12:44  e restringir a possibilidade de familiares deles advogarem causas que correm no tribunal.
+00:12:51  Bem, eu lhe pergunto, no caso do judiciário, quando o senhor fala de reforma,
+00:12:55  o senhor está falando desses itens apresentados no seu plano de governo
+00:12:58  ou tem algo que não está aí que o senhor também gostaria de fazer?
+
+[Flávio Bolsonaro]
+00:13:02  Eu acho que o judiciário também tem que entrar junto com o legislativo e com o executivo,
+00:13:06  cada um dando a sua parcela de sacrifício, inclusive,
+00:13:09  para combater os penduricalhos, para combater os privilégios,
+00:13:13  que hoje são algo assim, é o astronômico.
+00:13:16  Só os penduricalhos dos três poderes, se você for botar na ponta do lápis,
+00:13:19  são 24 bilhões de reais por ano.
+00:13:21  Quer dizer, todo mundo tem que colaborar para a redução de despesas,
+00:13:25  Renata, mas sempre de forma muito respeitosa.
+00:13:27  O que eu tenho dito é o seguinte, do jeito que está hoje, de fato,
+00:13:32  nós temos que proteger a instituição Supremo Tribunal Federal.
+00:13:35  Não dá para um juiz como é o Alexandre de Moraes continuar dando canetado,
+00:13:39  interferindo em um monte de coisa,
+00:13:40  perseguindo adversários políticos do atual governo,
+00:13:44  os amigos do Lula no Supremo Tribunal Federal se protegendo
+00:13:48  para que investigações não avancem sobre eles.
+00:13:51  Isso aqui não dá mais.
+00:13:52  Eles já acabaram com a credibilidade do Poder Judiciário
+00:13:54  e essa reforma do Judiciário também tem que caminhar
+00:13:57  para o resgate dessa credibilidade.
+00:14:00  Porque a magistratura toda, Renata, não é Alexandre de Moraes.
+00:14:02  O Supremo não é Alexandre de Moraes, né?
+
+[Renata Lo Prete]
+00:14:04  Deixa eu aproveitar que o senhor falou nele,
+00:14:05  porque o senhor tem defendido não só a investigação,
+00:14:07  mas impeachment do ministro Alexandre de Moraes
+00:14:09  por causa das relações dele com o dono do Banco Master.
+00:14:13  Daí eu pergunto, mas e o ministro Cássio Nunes Marques?
+00:14:16  Porque ele foi indicado pelo seu pai
+00:14:18  e mensagens apreendidas no celular do Daniel Vorcaro
+00:14:21  indicam que ele, além de bancar despesas do ministro,
+00:14:24  pagou a um filho dele por meio de uma empresa de consultoria.
+00:14:29  Nunes Marques também precisa ser investigado?
+
+[Flávio Bolsonaro]
+00:14:31  Tem que estar abaixo da lei.
+00:14:33  Esse é o problema do Brasil hoje, Renata.
+00:14:35  Qual o problema do Brasil?
+00:14:36  As pessoas acham que estão acima da lei.
+00:14:37  A lei tem que valer para todo mundo.
+00:14:39  A lei 1079, que é a lei de impeachment,
+00:14:41  estabelece lá quais são os crimes de responsabilidade
+00:14:44  que o senhor ministro do Supremo Tribunal Federal
+00:14:46  incorrer em uma daquelas hipóteses
+00:14:49  é obrigação do Senado Federal
+00:14:51  iniciar um processo de impeachment.
+00:14:53  Por exemplo, a atuação político-partidária
+00:14:55  é o que nós vemos em alguns ministros do Supremo.
+00:14:58  Por exemplo, tomar decisões
+00:15:01  quando, obviamente, deveria se declarar suspeito
+00:15:04  para tomar essas decisões.
+00:15:06  Foi o que mais o Alexandre de Moraes fez,
+00:15:07  tomou decisão,
+00:15:08  perseguindo adversários que ele predeterminava.
+00:15:11  E hoje, o que está acontecendo?
+00:15:12  Renato Alexandre de Moraes
+00:15:13  virou o articulador político do Lula em Brasília.
+00:15:17  Ele que fez as pazes do Davi Alcolumbre,
+00:15:19  o presidente do Senado,
+00:15:21  junto ao presidente Lula.
+00:15:23  E hoje estão todos unidos aí
+00:15:24  a favor da reeleição do Lula.
+00:15:26  Então, não dá para admitir um ministro do Supremo
+00:15:29  tendo uma atuação político-partidária.
+00:15:30  Então, qualquer pessoa,
+00:15:32  qualquer ministro do Supremo
+00:15:33  que infringe a lei
+00:15:34  tem que, obviamente, responder por isso.
+
+[Renata Lo Prete]
+00:15:35  Candidato, eu quero evitar
+00:15:36  fazer uma discussão maior sobre isso
+00:15:38  porque essa questão de partidarização do Supremo
+00:15:40  ela vai para vários lados,
+00:15:42  como o senhor sabe,
+00:15:43  para diferentes lados.
+00:15:44  Então, vamos seguir aqui.
+00:15:45  Já que a gente falou de caso Master,
+00:15:47  eu quero falar do dinheiro
+00:15:48  que o senhor pediu a Daniel Vorcaro
+00:15:50  e foi atendido.
+00:15:51  Foram quase 70 milhões de reais
+00:15:53  de um total de 134 que o senhor pediu.
+00:15:56  E esse dinheiro,
+00:15:57  em vez de ir direto
+00:15:58  para a produtora do filme
+00:15:59  sobre o seu pai,
+00:16:00  foi parar num fundo nos Estados Unidos,
+00:16:02  um fundo imobiliário
+00:16:03  gerido por um amigo do seu...
+
+[Flávio Bolsonaro]
+00:16:04  Não, não é um fundo imobiliário, Renata.
+00:16:05  Só para corrigir.
+00:16:06  É um fundo que faz só a gestão do filme.
+
+[Renata Lo Prete]
+00:16:08  Muito bem.
+00:16:08  Gerido por um amigo do seu irmão Eduardo.
+
+[Flávio Bolsonaro]
+00:16:11  Por um advogado experiente nisso.
+
+[Renata Lo Prete]
+00:16:13  Mas que é amigo dele.
+00:16:14  Esse fundo estava inativo.
+00:16:16  havia quatro anos.
+00:16:18  E até hoje,
+00:16:19  esse fundo não deu informações
+00:16:20  sobre onde é que foi parar
+00:16:22  esse dinheiro.
+00:16:23  Bem, eu lhe pergunto.
+00:16:24  Não parece...
+00:16:25  É um ponto importante
+00:16:26  para esclarecer.
+00:16:26  Se não há nada a esconder,
+00:16:29  por que não trabalhar
+00:16:29  para que essas informações
+00:16:31  cheguem ao conhecimento
+00:16:32  do eleitor?
+
+[Flávio Bolsonaro]
+00:16:33  Mas já vieram a público.
+00:16:34  A produtora do filme
+00:16:36  aqui no Brasil,
+00:16:36  ela prestou conta de tudo.
+00:16:38  Não tinha um centavo
+00:16:39  que a produtora não usava
+00:16:40  e que não tivesse autorização do fundo.
+00:16:42  Renato,
+00:16:42  vamos separar as coisas
+00:16:43  que é muito importante
+00:16:43  a sua pergunta.
+00:16:44  Mais uma vez,
+00:16:45  eu vou esclarecer
+00:16:46  quantas vezes forem necessárias.
+00:16:48  Eu estou falando
+00:16:48  de um pedido
+00:16:50  de um patrocínio privado
+00:16:51  para um filme privado
+00:16:53  sem absolutamente
+00:16:54  nenhuma contrapartida
+00:16:55  pelo fato
+00:16:56  de eu ser senador da República
+00:16:56  para fazer um filme
+00:16:57  do Jair Bolsonaro.
+00:16:59  E que diga-se de passagem,
+00:17:00  muito em breve,
+00:17:01  se Deus quiser,
+00:17:02  todos virão
+00:17:02  uma obra-prima maravilhosa,
+00:17:04  um filme muito emocionante,
+00:17:06  em homenagem
+00:17:06  ao melhor presidente do Brasil
+00:17:07  que esse país já teve.
+00:17:09  O que é bem diferente
+00:17:10  do que fez o Lula
+00:17:12  na relação
+00:17:12  com o Vorcaro.
+00:17:14  Os seus principais
+00:17:15  articuladores políticos
+00:17:17  que frequentam ali
+00:17:18  a casa,
+00:17:19  a cozinha do Lula,
+00:17:20  tiveram relações
+00:17:21  com o Vorcaro
+00:17:22  e ofereciam contrapartidas
+00:17:23  para que houvesse
+00:17:26  esse patrocínio
+00:17:26  no filme do Lula.
+00:17:29  30 milhões por fora.
+00:17:30  É o áudio do Vorcaro.
+00:17:31  A gente está falando
+00:17:31  do filme do Vorcaro.
+
+[Renata Lo Prete]
+00:17:32  Candidato,
+00:17:32  já que o senhor mencionou
+00:17:33  esse áudio,
+00:17:34  eu preciso fazer
+00:17:34  uma coisa importante aqui.
+00:17:36  Eu tenho procurado
+00:17:37  pautar essas entrevistas
+00:17:38  por fatos estabelecidos,
+00:17:40  respaldados
+00:17:42  ou nas investigações
+00:17:43  dos órgãos competentes
+00:17:44  ou de apurações jornalísticas
+00:17:46  da TV Globo.
+00:17:47  Só com base nisso
+00:17:48  estou lhe fazendo perguntas.
+00:17:49  Então eu sugiro
+00:17:50  que a gente não traga
+00:17:51  essa história aqui
+00:17:51  porque ela mistura coisas
+00:17:53  que a gente não tem
+00:17:54  um terreno firme
+00:17:54  para pisar.
+00:17:55  Eu estou fazendo
+00:17:56  essas perguntas
+00:17:56  sobre o financiamento
+00:17:57  do filme
+00:17:58  porque o seu pai
+00:17:58  não é qualquer pai,
+00:18:00  ele é ex-presidente
+00:18:00  da República
+00:18:01  e o senhor não é qualquer filho,
+00:18:02  o senhor é candidato
+00:18:04  a presidente da República.
+00:18:05  E já que o senhor falou
+00:18:06  da produtora,
+00:18:07  eu aproveito
+00:18:07  para lhe fazer
+00:18:08  uma pergunta.
+00:18:10  A perícia
+00:18:10  da própria produtora
+00:18:12  disse que o filme
+00:18:12  custou 75 milhões de reais
+00:18:15  e o senhor pediu
+00:18:16  134 ao Vorcaro.
+00:18:17  O senhor pode explicar
+00:18:18  para a gente
+00:18:18  para quê,
+00:18:19  por que essa diferença,
+00:18:21  quase o dobro?
+
+[Flávio Bolsonaro]
+00:18:22  era um contrato
+00:18:22  que não foi cumprido
+00:18:23  e com os recursos
+00:18:26  que foram aportados
+00:18:27  por ele
+00:18:28  e mais outros investidores
+00:18:29  nós conseguimos
+00:18:29  concluir o filme.
+00:18:31  Simples assim,
+00:18:31  uma relação privada,
+00:18:33  um dinheiro totalmente ilícito,
+00:18:34  como era o dinheiro
+00:18:35  também aqui na Globo.
+00:18:35  A Globo,
+00:18:36  o programa Luciano Huck
+00:18:37  recebeu
+00:18:38  mais de 100 milhões de reais,
+00:18:41  160 milhões de reais,
+00:18:42  se não me engano,
+00:18:43  para fazer uma propaganda
+00:18:44  no banco do Vorcaro.
+00:18:46  E o que tem de errado nisso?
+00:18:47  Nada.
+00:18:48  Um diretor da Globo
+00:18:49  acabou de ser exonerado
+00:18:50  porque ele promovia
+00:18:52  eventos bancados
+00:18:53  pelo Vorcaro
+00:18:54  do valor econômico
+00:18:55  lá em Nova York,
+00:18:56  os áudios,
+00:18:57  que tem uma coisa de errado.
+00:18:58  Eu acho que não,
+00:18:59  mas ele feriu a ética,
+00:19:00  o código de ética
+00:19:01  da empresa
+00:19:01  e sofreu as consequências.
+00:19:03  Então, na minha parte,
+00:19:04  não tem nada de errado.
+00:19:05  Mais uma vez,
+00:19:06  Renato,
+00:19:06  esse áudio que eu sei
+00:19:07  que a Globo não considera
+00:19:10  porque eu não sei
+00:19:11  qual o critério,
+00:19:11  mas a própria defesa
+00:19:12  confirmou que a voz
+00:19:13  era dele.
+00:19:13  O que ele fala nesse áudio?
+00:19:14  Que o filme do Bolsonaro
+00:19:15  foi tudo legal dentro da lei
+00:19:17  e que o filme do Lula
+00:19:18  onde ele botou
+00:19:18  30 milhões de reais
+00:19:19  por fora do Instituto Lula.
+00:19:21  Isso precisa ser investigado.
+
+[Renata Lo Prete]
+00:19:22  E eu preciso fazer
+00:19:23  dois esclarecimentos aqui.
+00:19:24  Eu não queria tomar o tempo
+00:19:25  com esses esclarecimentos,
+00:19:26  mas vou procurar
+00:19:26  fazer rapidamente.
+00:19:27  Primeiro,
+00:19:28  a questão dos patrocínios.
+00:19:29  Importante a gente esclarecer
+00:19:31  que compra de espaço comercial
+00:19:32  de patrocínios
+00:19:33  não é igual
+00:19:34  ao financiamento de filme.
+00:19:36  As compras de patrocínio
+00:19:37  na programação da TV Globo
+00:19:38  obedecem a regras
+00:19:40  de transparência,
+00:19:41  são ditadas pelo mercado
+00:19:42  e, mais importante,
+00:19:43  até para a nossa conversa
+00:19:44  aqui ficar claro,
+00:19:45  elas não têm nada a ver
+00:19:46  com a linha editorial
+00:19:48  e com a independência editorial
+00:19:49  do jornalismo da Globo.
+00:19:52  A outra questão
+00:19:53  é a questão
+00:19:54  do diretor,
+00:19:55  do então diretor
+00:19:56  do Grupo Globo,
+00:19:57  que teve conversas
+00:19:59  reveladas com Daniel Vorcaro,
+00:20:01  isso foi revelado
+00:20:01  anteontem,
+00:20:03  e ontem
+00:20:03  ele foi desligado
+00:20:04  da empresa.
+00:20:05  Então,
+00:20:05  são coisas bem diferentes.
+00:20:07  Eu queria lhe fazer
+00:20:07  ainda uma pergunta
+00:20:08  sobre o caso Master,
+00:20:10  sobre o caso
+00:20:10  Dark Horse,
+00:20:11  que é o seguinte,
+00:20:12  o Brasil tem cerca
+00:20:13  de 1.600
+00:20:15  instituições financeiras,
+00:20:17  tem quase
+00:20:18  170 bancos.
+00:20:20  Por que
+00:20:20  que de todas
+00:20:21  essas empresas,
+00:20:22  o senhor foi
+00:20:22  bater na porta
+00:20:23  justo do Daniel Vorcaro?
+
+[Flávio Bolsonaro]
+00:20:25  Olha,
+00:20:25  eu conversei com
+00:20:25  vários possíveis
+00:20:27  investidores
+00:20:27  e ele topou fazer
+00:20:29  numa época
+00:20:29  que ele não tinha
+00:20:30  absolutamente nada
+00:20:31  de errado.
+00:20:31  Sabe o que está
+00:20:32  de errado,
+00:20:32  é até importante
+00:20:33  para a gente
+00:20:33  dar continuidade
+00:20:34  aqui na entrevista?
+00:20:35  O que está errado
+00:20:36  é o Vorcaro
+00:20:38  ser beneficiado
+00:20:39  pelo Vacari,
+00:20:41  que é um braço direito
+00:20:42  do Lula,
+00:20:42  quem toca o Instituto Lula,
+00:20:44  e oferecer
+00:20:45  um bilhão de reais
+00:20:46  nos fundos de pensão
+00:20:47  da Caixa,
+00:20:48  do Banco do Brasil,
+00:20:49  da Petrobras.
+00:20:50  O mesmo Vacari
+00:20:51  que já foi preso
+00:20:52  exatamente por fraude
+00:20:54  em fundos de pensão.
+00:20:55  Então, você
+00:20:55  que é aposentado
+00:20:57  do Banco do Brasil,
+00:20:57  da Caixa,
+00:20:58  da Petrobras,
+00:20:59  o Vacari,
+00:20:59  ligado ao Lula,
+00:21:00  estava oferecendo
+00:21:01  um bilhão de reais
+00:21:02  para que fossem
+00:21:04  investidos em fundos podres
+00:21:05  do Banco Master
+00:21:06  e cobrou uma propina
+00:21:08  de 10% em cima disso.
+00:21:10  Isso é que está errado,
+00:21:10  essa contrapartida
+00:21:11  que é crime
+00:21:12  que é legal
+00:21:12  e tem que ser investigado.
+00:21:13  Está bem diferente
+00:21:14  do investimento privado
+00:21:15  no fundo privado.
+
+[Renata Lo Prete]
+00:21:16  Eu vou insistir
+00:21:16  com o senhor
+00:21:17  em dois pontos.
+00:21:18  Eu não vou me referir
+00:21:19  aqui a informações
+00:21:20  que não estão confirmadas
+00:21:22  pelo jornalismo
+00:21:22  da TV Globo
+00:21:23  porque a gente
+00:21:23  não faz isso.
+
+[Flávio Bolsonaro]
+00:21:24  Está confirmado
+00:21:25  pela Polícia Federal.
+
+[Renata Lo Prete]
+00:21:27  E depois eu quero
+00:21:28  voltar com o senhor,
+00:21:29  não está confirmado
+00:21:30  pela Polícia Federal,
+00:21:30  depois eu quero voltar
+00:21:31  com o senhor
+00:21:32  no caso Master
+00:21:32  para examinar
+00:21:33  uma outra crítica
+00:21:34  que o senhor tem feito
+00:21:35  constantemente
+00:21:35  ao seu adversário
+00:21:36  que é a questão
+00:21:37  do aparelhamento
+00:21:38  da Polícia Federal.
+00:21:40  E a esse propósito
+00:21:41  eu me lembro
+00:21:41  da famosa reunião
+00:21:42  ministerial de 2020
+00:21:44  na qual seu pai disse
+00:21:45  e eu vou abrir aspas
+00:21:46  aqui.
+00:21:47  Eu não vou deixar,
+00:21:48  daí vem um verbo
+00:21:49  que é um palavrão,
+00:21:50  a minha família
+00:21:51  porque eu não posso
+00:21:52  trocar alguém
+00:21:53  na ponta da linha.
+00:21:54  se não puder trocar,
+00:21:56  troca o chefe dele.
+00:21:57  Não pode trocar o chefe,
+00:21:59  troca o ministro,
+00:22:00  fecha aspas.
+00:22:01  E seu pai, de fato,
+00:22:02  trocou o ministro.
+00:22:03  A minha pergunta
+00:22:04  não diz respeito
+00:22:05  ao caso das fachadinhas
+00:22:06  e outros que envolviam
+00:22:07  o senhor na época,
+00:22:08  diz respeito
+00:22:09  à sua campanha
+00:22:10  neste ano.
+00:22:11  O senhor se sente
+00:22:11  à vontade
+00:22:12  para cobrar
+00:22:13  uma atitude republicana
+00:22:14  nessa matéria,
+00:22:16  considerando que seu pai
+00:22:17  avisava todo mundo
+00:22:18  que iria agir
+00:22:20  e agiu
+00:22:20  para proteger o filho?
+
+[Flávio Bolsonaro]
+00:22:22  Isso não é verdade, Renata.
+00:22:23  Por quê?
+00:22:23  É, na verdade,
+00:22:24  ele trocou o superintendente
+00:22:25  do Rio de Janeiro
+00:22:26  na época,
+00:22:26  se não me engano,
+00:22:27  porque estava apresentando
+00:22:28  maus resultados.
+00:22:29  E ele queria
+00:22:30  uma pessoa que entregasse
+00:22:31  resultados melhores,
+00:22:32  o que é bem diferente
+00:22:32  de hoje.
+
+[Renata Lo Prete]
+00:22:33  E ele trocou o ministro
+00:22:34  também, né?
+
+[Flávio Bolsonaro]
+00:22:34  Mas hoje,
+00:22:35  a primeira coisa
+00:22:36  que o meu adversário
+00:22:37  fez quando sentou
+00:22:37  na cadeira de presidente
+00:22:38  da República
+00:22:38  foi botar o amigo dele,
+00:22:40  Andrei,
+00:22:40  inclusive esse que está
+00:22:41  tomando uísque
+00:22:42  com o Vorcaro,
+00:22:43  fumando jaruto,
+00:22:44  com pessoas que ele,
+00:22:46  que a Polícia Federal
+00:22:47  está investigando,
+00:22:48  então ele não tem
+00:22:48  nenhuma isenção,
+00:22:49  ele trocou os 27
+00:22:50  superintendentes
+00:22:50  de toda a federação.
+00:22:52  Aí o Bolsonaro troca um,
+00:22:54  tem esse questionamento.
+00:22:55  Ele troca 27
+00:22:55  e não tem questionamento nenhum.
+00:22:56  Hoje em dia,
+00:22:57  é óbvio que a Polícia Federal
+00:22:58  está aparelhada,
+00:22:58  tem um grupo especial
+00:22:59  do Lula
+00:23:00  dentro da Polícia Federal.
+
+[Renata Lo Prete]
+00:23:01  O seu pai trocou
+00:23:02  o ministro, o candidato?
+
+[Flávio Bolsonaro]
+00:23:03  Não, ele pediu para sair.
+00:23:04  E hoje somos aliados,
+00:23:06  inclusive, parabéns
+00:23:06  ao Sérgio Moro,
+00:23:07  eleito governador
+00:23:08  no primeiro turno
+00:23:09  no Paraná.
+00:23:10  Estamos fazendo
+00:23:10  um grande trabalho
+00:23:11  e se Deus quiser,
+00:23:12  vai ter Flávio Bolsonaro
+00:23:13  na presidente da República
+00:23:14  para ajudar muitos
+00:23:14  paranaenses.
+
+[Renata Lo Prete]
+00:23:15  Por falar que o senhor
+00:23:16  falou agora
+00:23:17  do Jair Bolsonaro,
+00:23:19  existem movimentações
+00:23:20  no judiciário
+00:23:21  para tentar anular
+00:23:22  ainda este ano
+00:23:23  a condenação
+00:23:24  do ex-presidente
+00:23:25  a 27 anos de prisão
+00:23:26  por tentativa de golpe.
+00:23:28  Se isso acontecer
+00:23:29  e se o senhor vencer
+00:23:30  a eleição,
+00:23:31  seu pai terá cargo
+00:23:32  no seu governo?
+00:23:33  Qual, candidato?
+
+[Flávio Bolsonaro]
+00:23:34  Bom, primeiro é importante
+00:23:35  a gente só contextualizar,
+00:23:36  Renato,
+00:23:37  que o presidente Bolsonaro
+00:23:38  foi condenado
+00:23:39  numa farsa.
+00:23:41  Foi condenado
+00:23:41  pelos seus inimigos.
+00:23:43  Vamos lembrar aqui,
+00:23:44  Alexandre de Moraes
+00:23:45  votou para condenar
+00:23:45  o presidente Bolsonaro
+00:23:46  pelo golpe da Disney.
+00:23:48  Ele foi condenado
+00:23:49  por organização criminosa armada
+00:23:50  e não foi encontrado
+00:23:51  uma arma em lugar nenhum.
+00:23:53  Depredação de patrimônio público,
+00:23:55  ele é a 10 mil quilômetros
+00:23:56  de distância.
+00:23:56  Patrimônio público,
+00:23:57  para eu quebrar um copo,
+00:23:58  eu tenho que pegar ele na mão,
+00:23:59  fisicamente,
+00:24:00  tacar no chão e quebrar.
+00:24:01  Ele foi acusado
+00:24:02  de depredar patrimônio público
+00:24:03  por Wi-Fi à distância.
+00:24:04  Então, quem foi
+00:24:05  que julgou ele, Renato?
+00:24:06  O Alexandre de Moraes,
+00:24:06  o inimigo declarado dele.
+00:24:08  O Flávio Dino,
+00:24:09  até ontem,
+00:24:09  era ministro da Justiça
+00:24:10  ou da Injustiça de Lula,
+00:24:12  que já disse que Bolsonaro
+00:24:13  era o demônio na Terra.
+00:24:15  Foi julgado pelo Zanin,
+00:24:16  o outro ministro,
+00:24:17  outro amigo do Lula
+00:24:18  colocado lá,
+00:24:18  que até ontem
+00:24:19  era advogado do Lula.
+00:24:21  Então, o julgamento
+00:24:22  que, obviamente,
+00:24:23  muito antes de começar,
+00:24:25  todo mundo já sabia
+00:24:26  que era o final.
+00:24:27  E eu quero falar para você,
+00:24:28  Renata, você,
+00:24:28  quem está nos assistindo,
+00:24:30  nunca queiram ser julgados
+00:24:31  pelos seus inimigos,
+00:24:32  porque já sabe
+00:24:32  que a injustiça é certa.
+00:24:33  Agora,
+00:24:34  são vários os vícios
+00:24:35  que existem nesse processo,
+00:24:37  mas vários.
+00:24:38  Eu acho que está demorando
+00:24:39  para cancelar
+00:24:40  a condenação dele.
+
+[Renata Lo Prete]
+00:24:41  Só para a gente
+00:24:42  não perder o fio da meada aqui,
+00:24:43  a gente pode falar
+00:24:44  da tentativa de golpe
+00:24:44  mais adiante,
+00:24:45  mas eu estava fazendo
+00:24:46  uma outra pergunta
+00:24:47  para o senhor.
+00:24:48  Eu quero saber
+00:24:49  se o senhor vencer,
+00:24:51  seu pai vai ter cargo
+00:24:52  no seu governo, qual?
+
+[Flávio Bolsonaro]
+00:24:53  uma coisa é o seguinte,
+00:24:54  o Flávio Bolsonaro,
+00:24:56  quem é o pai dele?
+00:24:56  É o Jair Bolsonaro.
+00:24:58  A instituição,
+00:24:59  presidência da República,
+00:25:00  o Flávio presidente
+00:25:01  da República,
+00:25:02  o meu pai vai ser você,
+00:25:03  meu pai vai ser o povo brasileiro,
+00:25:05  é para você
+00:25:05  que eu vou trabalhar.
+00:25:06  E o presidente Bolsonaro
+00:25:07  nunca tratou de carro
+00:25:09  comigo,
+00:25:09  nunca sugeriu
+00:25:10  que gostaria
+00:25:11  de trabalhar no governo.
+00:25:12  Eu tenho o privilégio
+00:25:13  de a hora que eu precisar
+00:25:14  consultar um ex-presidente
+00:25:16  da República,
+00:25:17  eu tenho dentro
+00:25:17  de casa de confiança.
+00:25:18  Então, assim,
+00:25:19  eu sou um privilegiado
+00:25:20  por isso,
+00:25:20  mas nunca tratou
+00:25:21  de cargo comigo, Renata.
+
+[Renata Lo Prete]
+00:25:22  Tá, mas o senhor cogita
+00:25:23  nomeá-lo,
+00:25:24  o senhor daria um cargo
+00:25:25  para o seu pai do governo?
+
+[Flávio Bolsonaro]
+00:25:25  Ele nunca tratou disso comigo.
+
+[Renata Lo Prete]
+00:25:27  Entendi.
+
+[Flávio Bolsonaro]
+00:25:27  Então, assim,
+00:25:28  não está no radar.
+
+[Renata Lo Prete]
+00:25:28  Na mesma linha,
+00:25:29  eu quero ouvi-lo
+00:25:30  sobre seu irmão Eduardo.
+00:25:32  No começo desse ano,
+00:25:33  o senhor disse
+00:25:33  que ele é um craque
+00:25:34  em relações internacionais,
+00:25:36  que seria um privilégio
+00:25:37  tê-lo falando em seu nome,
+00:25:39  e que o senhor não conhece
+00:25:40  ninguém no Brasil
+00:25:41  com mais qualidades
+00:25:43  do que ele.
+00:25:44  Se o senhor se eleger,
+00:25:45  Eduardo será chanceler?
+00:25:47  Eu faço essa pergunta
+00:25:48  especificamente
+00:25:49  porque dias atrás
+00:25:50  ele deu uma entrevista
+00:25:51  dizendo que quem vai decidir isso
+00:25:53  é o pai de vocês.
+
+[Flávio Bolsonaro]
+00:25:55  Não, ele não vai ser
+00:25:55  meu chanceler.
+00:25:56  O Eduardo é um perseguido político
+00:25:58  que está lá fora
+00:25:58  denunciando
+00:25:59  as arbitrariedades
+00:26:00  que existem aqui no Brasil.
+00:26:01  Algum dia a história
+00:26:02  ainda vai reconhecê-lo
+00:26:03  como alguém
+00:26:04  que se sacrificou
+00:26:06  para defender a democracia
+00:26:07  no nosso país.
+00:26:08  Hoje ele não pode
+00:26:09  pisar em um monte de países
+00:26:10  porque o Alexandre de Moraes
+00:26:12  persegue ele a todo momento.
+00:26:13  Você veja como é que é
+00:26:14  o julgamento,
+00:26:15  como é que está acontecendo hoje,
+00:26:16  Renata.
+00:26:17  O Alexandre de Moraes
+00:26:19  toma uma Magnitsky
+00:26:19  que é uma punição
+00:26:20  do governo americano
+00:26:21  com base na lei americana
+00:26:22  e ele bota a culpa
+00:26:25  no Eduardo
+00:26:25  como se ele tivesse
+00:26:26  condições de manipular
+00:26:27  o presidente dos Estados Unidos,
+00:26:28  o Donald Trump,
+00:26:30  e aqui condena ele
+00:26:31  por estar atrapalhando
+00:26:32  ser uma ameaça
+00:26:34  ao andamento do processo
+00:26:35  e vai condenando
+00:26:36  Eduardo a alguém
+00:26:36  que se ele está
+00:26:37  se sentindo lesado
+00:26:38  com a Magnitsky
+00:26:39  e o culpado Eduardo
+00:26:41  como é que ele próprio
+00:26:42  julga o Eduardo.
+00:26:43  Quer dizer,
+00:26:43  é um processo totalmente
+00:26:44  viciado e nulo.
+00:26:46  Então,
+00:26:46  o Eduardo faz sim
+00:26:47  um trabalho brilhante.
+00:26:48  Ele construiu ao longo
+00:26:50  de mais de 10 anos
+00:26:51  um relacionamento internacional
+00:26:52  com vários líderes políticos
+00:26:54  conservadores
+00:26:54  que são de direita
+00:26:56  e ele tem
+00:26:57  o mérito dele.
+00:26:58  Agora,
+00:26:58  a questão de ser chanceler,
+00:26:59  ser o ministro
+00:27:00  ação exteriores
+00:27:00  aqui no Brasil
+00:27:01  é um outro assunto.
+
+[Renata Lo Prete]
+00:27:02  Sim,
+00:27:02  então,
+00:27:03  só para a gente
+00:27:03  não perder o fio da meada,
+00:27:04  o senhor disse
+00:27:05  que seu irmão
+00:27:05  não será chanceler.
+
+[Flávio Bolsonaro]
+00:27:07  Não será chanceler.
+
+[Renata Lo Prete]
+00:27:08  Então,
+00:27:08  tá bom.
+00:27:08  Ainda falando sobre escolhas,
+00:27:10  eu quero lhe ouvir
+00:27:11  sobre as Forças Armadas
+00:27:12  porque elas passaram
+00:27:13  nos últimos quatro anos
+00:27:14  por um processo
+00:27:15  de afastamento
+00:27:16  dos quartéis
+00:27:17  da política
+00:27:18  como resposta
+00:27:19  ao dano de reputação
+00:27:20  por envolvimentos
+00:27:21  de militares
+00:27:22  na tentativa de golpe.
+00:27:23  Se o senhor vencer,
+00:27:25  o senhor vai exigir
+00:27:26  dos próximos presidentes
+00:27:27  do Exército,
+00:27:28  da Marinha
+00:27:29  e da Aeronáutica
+00:27:30  que endossem
+00:27:31  a sua visão
+00:27:32  dos eventos
+00:27:36  da transição
+00:27:37  de 2022
+00:27:37  e do 8 de janeiro
+00:27:39  de 2023?
+
+[Flávio Bolsonaro]
+00:27:40  Olha,
+00:27:40  essa farsa
+00:27:40  a história vai mostrar
+00:27:41  que foi algo
+00:27:42  totalmente armado
+00:27:43  para tentar tirar
+00:27:44  Bolsonaro
+00:27:45  da vida pública.
+00:27:46  Só que para desespero
+00:27:47  de quem tentou fazer isso
+00:27:48  achando que ia acabar
+00:27:49  com o bolsonarismo,
+00:27:50  tá que o Flávio Bolsonaro
+00:27:51  em nome de Jesus
+00:27:52  vai ser o próximo
+00:27:53  presidente da república.
+00:27:54  Agora,
+00:27:54  no meu governo,
+00:27:55  Renato,
+00:27:55  as Forças Armadas
+00:27:56  vão tomar conta
+00:27:57  das fronteiras.
+00:27:58  Um dos meus primeiros atos
+00:28:00  como presidente
+00:28:00  da república
+00:28:01  vai ser juntar
+00:28:02  os comandantes
+00:28:02  do Exército,
+00:28:03  Marinha Aeronáutica,
+00:28:05  os chefes
+00:28:06  das polícias
+00:28:07  estaduais.
+00:28:08  Vou fazer uma grande
+00:28:09  reunião
+00:28:09  para a gente iniciar,
+00:28:11  vamos declarar guerra
+00:28:12  ao narcotráfico
+00:28:13  aqui no Brasil
+00:28:14  a partir de janeiro
+00:28:15  do ano que vem.
+00:28:15  eu vou declarar
+00:28:16  comando vermelho,
+00:28:17  PCC e milícias
+00:28:18  como organizações
+00:28:19  narcoterroristas
+00:28:21  que é o que eles são.
+00:28:22  Porque não dá
+00:28:22  para admitir aqui
+00:28:23  no Porto de Santos
+00:28:24  mais um recorde
+00:28:25  negativo do Lula,
+00:28:27  o Porto de Santos
+00:28:28  que é uma área
+00:28:28  da União,
+00:28:29  do governo federal,
+00:28:30  é o segundo maior
+00:28:31  porto exportador
+00:28:32  de cocaína do mundo.
+00:28:34  Então,
+00:28:34  a Marinha vai ter
+00:28:35  uma tropa de elite
+00:28:36  ali tomando conta
+00:28:37  do Porto de Santos
+00:28:38  para combater
+00:28:38  o tráfico internacional
+00:28:39  de drogas.
+00:28:40  Como o Exército
+00:28:41  e a Força Aérea
+00:28:42  vão fazer também
+00:28:43  na região amazônica,
+00:28:44  na fronteira
+00:28:45  com a Bolívia.
+00:28:46  Eu vou assinar,
+00:28:47  o Brasil vai fazer
+00:28:48  parte do escudo
+00:28:49  das Américas
+00:28:49  para ter intercâmbio
+00:28:50  de informação
+00:28:51  e de inteligência
+00:28:52  para a gente combater
+00:28:53  o terrorismo
+00:28:53  aqui na Tríplice Fronteira,
+00:28:55  na região de Foz do Iguaçu.
+00:28:57  E as Forças Armadas
+00:28:58  vão trabalhar
+00:28:58  para resgatar
+00:29:00  a nossa soberania,
+00:29:01  vão trabalhar
+00:29:02  para tomar conta
+00:29:02  das nossas fronteiras.
+00:29:03  As Forças Armadas
+00:29:04  foram completamente
+00:29:05  sucateadas
+00:29:06  durante o atual governo
+00:29:07  e eles vão voltar
+00:29:08  a ser valorizados,
+00:29:10  motivados
+00:29:10  e vão ter
+00:29:11  esse trabalho
+00:29:11  muito nobre
+00:29:12  em parceria
+00:29:13  com as Forças
+00:29:14  de Segurança Estaduais.
+
+[Renata Lo Prete]
+00:29:15  Deixa eu lhe fazer
+00:29:15  uma pergunta
+00:29:16  sobre um assunto
+00:29:17  correlato
+00:29:17  que é o 8 de janeiro
+00:29:18  e eu vou ficar
+00:29:19  só nos fatos
+00:29:20  do 8 de janeiro.
+00:29:21  As sedes
+00:29:21  dos três poderes
+00:29:22  foram invadidas,
+00:29:24  os invasores
+00:29:24  quebraram vidros,
+00:29:26  invadiram salas,
+00:29:27  depredaram salas,
+00:29:28  objetos de arte,
+00:29:30  atacaram policiais
+00:29:31  com pedras,
+00:29:32  coquetails molotov,
+00:29:33  barras de ferro
+00:29:34  e chegaram a roubar
+00:29:35  armas do gabinete
+00:29:36  de segurança institucional.
+00:29:38  O senhor considera
+00:29:39  que pessoas
+00:29:40  que fazem isso
+00:29:41  devem ser punidas
+00:29:42  de que forma?
+
+[Flávio Bolsonaro]
+00:29:43  Dentro da lei,
+00:29:45  conforme na proporção
+00:29:46  dos crimes
+00:29:47  que eles cometeram,
+00:29:48  depredação de patrimônio público,
+00:29:50  agredir um policial
+00:29:50  é inaceitável,
+00:29:51  não tem justificativa
+00:29:52  para isso.
+00:29:53  Agora,
+00:29:53  não dá para você
+00:29:54  querer dizer
+00:29:55  que uma senhorinha
+00:29:55  com bíblia,
+00:29:56  um cara vendendo
+00:29:57  pão,
+00:29:57  pão,
+00:29:58  pão,
+00:30:00  algodão doce
+00:30:01  no meio da manifestação
+00:30:02  está tentando
+00:30:03  dar um golpe.
+00:30:03  Vocês acham o quê?
+00:30:04  Quer sentar
+00:30:04  uma senhorinha lá
+00:30:05  na cadeira de presidente
+00:30:06  da república
+00:30:07  e dar ordem
+00:30:07  e todo mundo
+00:30:08  começar a cumprir
+00:30:09  uma tentativa de golpe
+00:30:11  em prédios vazios.
+00:30:13  Hoje,
+00:30:13  o golpe que está acontecendo
+00:30:14  é o do atual presidente.
+00:30:17  O golpe que ele
+00:30:17  se vinga,
+00:30:18  por exemplo,
+00:30:19  dos moradores,
+00:30:21  que os motoboys
+00:30:22  de São Paulo,
+00:30:23  por causa do prefeito
+00:30:23  Ricardo Nunes
+00:30:24  que é opositor a ele.
+00:30:26  O que acontece?
+00:30:26  Uma canetada,
+00:30:27  ao invés dele autorizar
+00:30:28  a prefeitura
+00:30:29  a fazer a faixa azul
+00:30:30  para proteger os motoboys
+00:30:31  a andarem com segurança
+00:30:32  nas ruas,
+00:30:33  ele, por birra
+00:30:34  com o Ricardo Nunes,
+00:30:36  ele fica punindo
+00:30:37  os motoboys
+00:30:39  que merecem
+00:30:40  trabalhar dignamente.
+00:30:42  Uma série de coisas
+00:30:42  que podem ser feitas
+00:30:43  para essa categoria
+00:30:44  e esse governo
+00:30:44  está se vingando
+00:30:45  por causa
+00:30:46  da sua contrariedade política,
+00:30:49  da coloração partidária
+00:30:50  de quem é o prefeito.
+00:30:51  Mais uma vez,
+00:30:52  o prefeito Ricardo Nunes
+00:30:53  tentou pegar,
+00:30:53  o Renato,
+00:30:54  um empréstimo
+00:30:54  com o aval da União
+00:30:56  para investir
+00:30:56  na saúde
+00:30:57  do povo paulistano
+00:30:58  e o Lula não dava,
+00:30:59  teve que entrar na justiça
+00:31:00  para poder botar
+00:31:01  mais dinheiro
+00:31:01  na saúde de São Paulo.
+00:31:02  Esse aqui é o golpe
+00:31:03  que o Lula está dando.
+
+[Renata Lo Prete]
+00:31:04  Só para a gente
+00:31:04  não se perder de assunto,
+00:31:06  eu acho que eu fui
+00:31:06  bastante explícita.
+00:31:07  Eu estava falando
+00:31:08  de gente que depredou
+00:31:09  patrimônio,
+00:31:10  que destruiu prédios,
+00:31:11  que atacou policiais,
+00:31:12  é desse tipo de conduta
+00:31:13  que eu estava querendo saber
+00:31:14  o que o senhor
+00:31:16  acha que precisa ser feito
+00:31:18  com pessoas
+00:31:18  que fazem esse tipo de coisa.
+00:31:20  Uma última pergunta,
+00:31:21  nesse bloco,
+00:31:22  se o senhor perder candidato,
+00:31:23  o senhor vai respeitar
+00:31:24  o resultado das urnas?
+
+[Flávio Bolsonaro]
+00:31:25  Eu vou disputar as eleições
+00:31:26  com as áreas que estão aí.
+00:31:29  Independente de qual for o resultado,
+00:31:30  eu vou respeitar.
+00:31:30  Só que eu tenho a convicção
+00:31:31  que o Brasil já escolheu
+00:31:33  a mudança.
+00:31:34  E no primeiro turno
+00:31:34  foi assim.
+00:31:35  No primeiro turno,
+00:31:35  o Brasil já escolheu
+00:31:36  a mudança.
+00:31:37  E no segundo,
+00:31:38  vai continuar escolhendo
+00:31:39  a mudança.
+00:31:40  Porque ninguém aguenta mais
+00:31:41  um governo
+00:31:42  um governo que é recordista
+00:31:42  em assassinatos de mulheres,
+00:31:45  um governo que é recordista
+00:31:46  em mulheres que são espancadas,
+00:31:47  um governo que é recordista
+00:31:48  em queimadas na Amazônia,
+00:31:49  esse foi em outubro,
+00:31:50  com maior queimada
+00:31:51  na história
+00:31:52  da nação brasileira,
+00:31:54  um governo que é recordista
+00:31:55  em criminalidade,
+00:31:57  um governo que é recordista
+00:31:58  em pessoas endividadas,
+00:31:59  um governo que é recordista
+00:32:00  em empresas que são fechadas,
+00:32:02  um governo que é recordista
+00:32:03  em indústrias que deixam o Brasil
+00:32:04  e vão para o Paraguai,
+00:32:05  um governo que é um caos,
+00:32:06  o Brasil está sem presidente.
+00:32:08  Mas calma que é por pouco tempo
+00:32:09  que o Flávio Bolsonaro
+00:32:10  está chegando.
+
+[Renata Lo Prete]
+00:32:10  Candidato,
+00:32:11  estou entendendo então
+00:32:11  que o senhor respondeu
+00:32:12  a pergunta de se vai respeitar
+00:32:14  o resultado das urnas.
+
+[Flávio Bolsonaro]
+00:32:14  Eu já aproveitei
+00:32:15  para falar mais das coisas.
+
+[Renata Lo Prete]
+00:32:16  É, eu percebi.
+00:32:16  Agora eu vou pedir para o senhor
+00:32:17  um instante,
+00:32:18  a gente vai fazer
+00:32:19  um rápido intervalo
+00:32:20  e volta já já
+00:32:21  com a entrevista
+00:32:21  com o Flávio Bolsonaro.
+00:32:24  Estamos de volta
+00:32:25  para o segundo e último bloco
+00:32:27  da entrevista
+00:32:27  com o Flávio Bolsonaro
+00:32:28  que concorre
+00:32:29  à presidência pelo PL.
+00:32:31  E o tempo volta a ser contado
+00:32:32  a partir de agora, candidato.
+00:32:34  Quero ouvir o senhor
+00:32:35  sobre um tema
+00:32:36  a respeito do qual
+00:32:37  assessores seus
+00:32:38  têm falado bastante.
+00:32:39  Armas.
+00:32:41  No governo do seu pai,
+00:32:42  o senhor atuou
+00:32:42  para tentar aprovar
+00:32:43  no Senado
+00:32:44  um projeto
+00:32:45  que retiraria
+00:32:46  a marca,
+00:32:47  a marcação
+00:32:48  das cápsulas
+00:32:49  de balas
+00:32:50  compradas
+00:32:51  para uso
+00:32:51  da força de segurança.
+00:32:53  Queria entender
+00:32:54  qual é o sentido
+00:32:55  dessa medida
+00:32:55  porque a eliminação
+00:32:57  desse registro
+00:32:58  compromete
+00:32:58  tanto a investigação
+00:33:00  de autoria de crimes
+00:33:01  quanto a possibilidade
+00:33:03  de descobrir
+00:33:04  como é que armas legais
+00:33:05  vão parar na mão
+00:33:06  do crime organizado.
+00:33:08  O senhor pode explicar
+00:33:09  essa posição?
+
+[Flávio Bolsonaro]
+00:33:10  Olha, o que eu sei
+00:33:11  hoje, Renata,
+00:33:12  é que quem está
+00:33:12  autorizado
+00:33:13  a usar armas de guerra,
+00:33:14  inclusive,
+00:33:15  são os bandidos.
+00:33:16  Olha o local
+00:33:18  onde o ex-ministro
+00:33:19  da Justiça de Lula
+00:33:20  entrou sem nenhum
+00:33:21  policial,
+00:33:22  sem nenhum de segurança,
+00:33:23  numa favela
+00:33:24  aqui no Rio de Janeiro
+00:33:24  chamada
+00:33:25  Complexo da Maré.
+00:33:27  Ali, se um policial
+00:33:28  bota a viatura
+00:33:29  naquela rua,
+00:33:30  é uma saraivara
+00:33:31  de tiro,
+00:33:31  leva duas horas
+00:33:32  até conseguir progredir
+00:33:33  dentro de um blindado
+00:33:34  pra dentro
+00:33:35  daquela favela.
+00:33:35  Aqueles marginais
+00:33:36  que usam fuzis,
+00:33:37  armas de guerra
+00:33:38  pesadas,
+00:33:39  eles não passaram
+00:33:40  exame psicológico,
+00:33:41  não compraram arma
+00:33:41  em loja.
+00:33:42  Como é que essas armas
+00:33:42  estão entrando
+00:33:43  aqui no Brasil?
+00:33:44  Elas estão entrando
+00:33:45  porque o atual governo
+00:33:46  simplesmente deixa
+00:33:47  as fronteiras abertas
+00:33:48  e não fiscaliza
+00:33:49  a entrada de armas
+00:33:50  e drogas
+00:33:51  no nosso país.
+
+[Renata Lo Prete]
+00:33:51  Deixa eu tentar ouvi-lo
+00:33:52  sobre o mérito
+00:33:53  da proposta.
+00:33:54  Em que retirar
+00:33:55  a marcação
+00:33:56  das cápsulas,
+00:33:57  das balas,
+00:33:58  ajudaria a combater
+00:33:59  o crime organizado,
+00:34:01  ajudaria a coibir
+00:34:02  os bandidos?
+00:34:02  Porque, pelo contrário,
+00:34:04  o entendimento que se tem
+00:34:05  é que eliminar isso
+00:34:06  dificulta a investigação.
+
+[Flávio Bolsonaro]
+00:34:08  Olha, Renato,
+00:34:09  o que a gente tem
+00:34:09  que trabalhar aqui
+00:34:10  é pra acabar
+00:34:10  com a impunidade
+00:34:11  de verdade.
+00:34:12  É por isso que eu votei
+00:34:13  a favor aqui
+00:34:13  do projeto de lei
+00:34:14  antifacção,
+00:34:15  pra que esses marginais
+00:34:16  usam essas armas
+00:34:17  de guerra,
+00:34:18  eles possam cumprir
+00:34:19  integralmente a sua pena.
+00:34:21  É a PEC da Segurança Pública
+00:34:22  que nós,
+00:34:23  no Congresso Nacional,
+00:34:25  melhoramos,
+00:34:25  porque a PEC da Segurança Pública
+00:34:27  que foi enviada
+00:34:27  pelo Lula
+00:34:28  era uma PEC
+00:34:29  que controlava policiais.
+00:34:31  E a gente mudou
+00:34:32  pra PEC
+00:34:33  que tem que controlar
+00:34:33  os bandidos.
+00:34:35  No meu governo,
+00:34:36  a legislação penal
+00:34:36  vai ser atualizada,
+00:34:38  vai ser aprimorada
+00:34:39  pra defender as vítimas
+00:34:41  e não os bandidos.
+00:34:42  Esses caras vão ficar presos.
+00:34:43  Mais uma vez,
+00:34:43  eu vou tratar
+00:34:44  esses chefes
+00:34:45  de organizações criminosas
+00:34:46  de comando vermelho,
+00:34:46  PCC e milícias
+00:34:47  como narcoterroristas.
+00:34:49  Vão ficar,
+00:34:50  vão morrer presos
+00:34:51  na cadeia
+00:34:52  ou vão ser neutralizados
+00:34:53  pela polícia enfrentarem.
+00:34:54  Isso é muito maior
+00:34:55  do que qualquer detalhezinho
+00:34:56  desse
+00:34:57  em cima de uma cápsula.
+00:34:58  A polícia tem que investigar.
+00:34:59  Eu vou investir
+00:35:00  em tecnologia,
+00:35:01  eu vou investir
+00:35:01  em inteligência artificial,
+00:35:05  eu vou comprar
+00:35:05  mais de um milhão
+00:35:06  de câmeras
+00:35:06  com inteligência artificial
+00:35:07  e eu vou conectar
+00:35:08  essas câmeras
+00:35:09  junto com as câmeras
+00:35:10  que já existem
+00:35:11  das polícias municipais,
+00:35:12  dos governos de Estado,
+00:35:14  inclusive também
+00:35:15  com as câmeras privadas.
+00:35:17  Isso vai estar tudo
+00:35:17  numa grande nuvem
+00:35:18  ligado com o cadastro
+00:35:20  de emissão
+00:35:21  de mandados de prisão.
+
+[Renata Lo Prete]
+00:35:22  Candidato...
+
+[Flávio Bolsonaro]
+00:35:23  Alguém que der um tiro,
+00:35:24  Renata,
+00:35:25  usando uma arma ilegal
+00:35:26  no Rio de Janeiro
+00:35:26  e matar alguém,
+00:35:28  se ele estiver em Minas Gerais
+00:35:29  ou no Acre,
+00:35:30  com esse sistema interligado,
+00:35:31  ele vai ser preso
+00:35:32  pela polícia
+00:35:33  sem disparar um tiro.
+
+[Renata Lo Prete]
+00:35:34  Eu entendi que fiquei
+00:35:36  sem resposta
+00:35:37  sobre a questão
+00:35:38  de retirar
+00:35:38  a marcação das munições.
+
+[Flávio Bolsonaro]
+00:35:39  Eu acho que isso é uma coisa
+00:35:39  muito menor
+00:35:40  ante o problema que o Brasil tem
+00:35:41  e eu estou falando
+00:35:42  do problema que interessa
+00:35:42  para a vigilidade.
+
+[Renata Lo Prete]
+00:35:43  Vamos conversar
+00:35:44  mais um pouco
+00:35:44  sobre as armas
+00:35:45  porque segundo
+00:35:46  a pesquisa Quest
+00:35:47  de setembro,
+00:35:49  a maioria dos brasileiros
+00:35:50  considera que limitar
+00:35:51  o acesso
+00:35:52  melhora a segurança pública.
+00:35:55  Esse percentual
+00:35:55  é ainda maior
+00:35:56  entre as mulheres
+00:35:57  e o seu time
+00:35:59  vem falando pelo contrário
+00:36:00  em ampliar o acesso
+00:36:01  resgatando medidas
+00:36:03  que vigoraram...
+00:36:03  Vários deputados,
+00:36:05  especialmente deputados
+00:36:06  no Congresso,
+00:36:07  ligados à sua campanha
+00:36:09  e que defendem
+00:36:10  esse tipo de pauta.
+00:36:11  Eles falam
+00:36:12  em resgatar medidas
+00:36:13  que vigoraram
+00:36:14  durante o governo
+00:36:14  do seu pai
+00:36:15  e falam, inclusive,
+00:36:16  em revogar
+00:36:17  o Estatuto do Desarmamento.
+00:36:19  O senhor pode explicar
+00:36:20  o que de tudo isso
+00:36:21  está nos seus planos?
+
+[Flávio Bolsonaro]
+00:36:22  Olha, o que eu sei
+00:36:23  é o seguinte,
+00:36:23  como presidente Bolsonaro,
+00:36:25  no primeiro ano
+00:36:25  de governo,
+00:36:26  onde houve um recorde,
+00:36:27  inclusive,
+00:36:28  de emissões
+00:36:28  de certificáveis
+00:36:30  dos CACs,
+00:36:31  a taxa de homicídio
+00:36:31  caiu 17%
+00:36:33  no primeiro ano.
+00:36:34  O que botou
+00:36:35  por água abaixo
+00:36:37  essas teses aí malucas
+00:36:38  de que mais armas
+00:36:40  nas mãos
+00:36:40  de cidadãos ordeiros
+00:36:41  causam mais violência.
+00:36:43  Então, assim,
+00:36:43  se você não quer ter direito
+00:36:44  ao marmo,
+00:36:44  tudo bem,
+00:36:45  é um direito seu.
+00:36:45  Agora,
+00:36:46  quem atender
+00:36:46  os requisitos legais
+00:36:47  tem direito
+00:36:48  a ter o marmo
+00:36:48  para defender
+00:36:49  a sua família,
+00:36:49  defender a sua casa,
+00:36:50  defender a sua propriedade rural,
+00:36:52  defender a sua fazenda
+00:36:53  de invasão de MST.
+00:36:54  Então, assim,
+00:36:54  isso aí
+00:36:55  é o que está
+00:36:55  na Constituição,
+00:36:56  o direito,
+00:36:56  à legítima defesa.
+00:36:57  Ninguém está defendendo
+00:36:58  o bang-bang,
+00:36:59  não é isso que vai resolver
+00:36:59  o problema da segurança pública.
+00:37:01  Agora,
+00:37:01  essa é uma questão
+00:37:02  que, comprovadamente,
+00:37:03  essa tese é furada, Renata.
+
+[Renata Lo Prete]
+00:37:05  Candidato,
+00:37:05  primeiro,
+00:37:06  eu não estava falando
+00:37:07  de nenhuma ideia maluca,
+00:37:08  eu estava falando
+00:37:08  da opinião dos brasileiros
+00:37:10  numa pesquisa
+00:37:10  com a gente de CDM.
+00:37:11  e depois eu estava
+00:37:14  querendo ouvir
+00:37:14  a sua opinião
+00:37:15  sobre se o senhor
+00:37:16  vai ou não trabalhar
+00:37:17  para revogar
+00:37:17  o Estatuto do Desarmamento.
+00:37:18  Mas vamos para a próxima pergunta.
+
+[Flávio Bolsonaro]
+00:37:19  Mas é importante falar,
+00:37:21  ele tem que ser melhorado.
+00:37:22  Hoje,
+00:37:22  o Estatuto do Desarmamento,
+00:37:23  ele proíbe o cidadão
+00:37:24  de se defender
+00:37:25  e autoriza
+00:37:27  os marginais
+00:37:28  a comprarem armas de guerra
+00:37:29  porque não tem fiscalização nenhuma.
+00:37:30  O problema está nas armas
+00:37:31  na mão das pessoas erradas.
+00:37:33  Esse é o problema,
+00:37:34  a gente tem que ser bem claro.
+00:37:34  E eu aqui, Renata,
+00:37:35  é importante,
+00:37:36  deixa eu dar só
+00:37:36  uma esticadinha
+00:37:38  nessa resposta
+00:37:39  porque eu trabalho
+00:37:40  com a verdade.
+00:37:41  você vai votar
+00:37:43  em Flávio Bolsonaro
+00:37:44  e você sabe exatamente
+00:37:45  o que é que você levou para cá.
+00:37:47  Diferente do Lula,
+00:37:48  que esqueceu
+00:37:48  por quatro anos
+00:37:50  de quem recebeu
+00:37:50  o Bolsa Família,
+00:37:51  não deu reajuste para ninguém,
+00:37:52  faltando 17 dias
+00:37:53  para a eleição,
+00:37:54  ele lembra
+00:37:55  que tem que reajustar
+00:37:56  o Bolsa Família,
+00:37:57  que foi o Bolsonaro
+00:37:58  que triplicou o valor
+00:37:59  que era 190
+00:38:00  e em média
+00:38:00  passou para 600 reais.
+00:38:02  Eu vou lembrar de você
+00:38:03  todos os dias
+00:38:04  do meu governo.
+00:38:05  Não é só em época de eleição
+00:38:06  como está fazendo
+00:38:07  o Lula, não.
+00:38:07  Então, assim,
+00:38:08  ele engana as pessoas
+00:38:10  para conseguir voto.
+00:38:11  Eu não,
+00:38:11  eu trabalho com a verdade.
+
+[Renata Lo Prete]
+00:38:12  Candidato,
+00:38:13  eu não quero deixar
+00:38:14  de ouvir o senhor
+00:38:15  sobre o Rio de Janeiro,
+00:38:16  que é o seu berço político,
+00:38:17  onde a PF
+00:38:18  prendeu ontem
+00:38:19  Márcio Canella,
+00:38:20  deputado estadual eleito
+00:38:21  e aliado seu.
+00:38:23  Na fase anterior da campanha,
+00:38:24  o senhor chegou a gravar
+00:38:25  vídeos de apoio a ele.
+00:38:26  As suspeitas contra ele
+00:38:28  são de lavagem de dinheiro,
+00:38:29  via postos de combustíveis
+00:38:31  e de relações,
+00:38:32  de ligações com a milícia
+00:38:33  e com o tráfico.
+00:38:34  Um outro personagem,
+00:38:35  Rodrigo Bacelar,
+00:38:36  que chegou a ser originalmente
+00:38:38  o seu candidato
+00:38:38  com governador aqui no Rio,
+00:38:40  hoje está preso
+00:38:41  por suspeita
+00:38:41  de comandar
+00:38:42  o braço político
+00:38:42  do Comando Vermelho.
+00:38:44  E tem ainda
+00:38:44  o ex-governador
+00:38:45  Cláudio Castro,
+00:38:46  tornado inelegível
+00:38:47  e enrolado
+00:38:48  no caso Master.
+00:38:49  Essas revelações
+00:38:50  sobre políticos
+00:38:52  com os quais
+00:38:52  o senhor conviveu
+00:38:53  de perto,
+00:38:54  surpreenderam o senhor?
+
+[Flávio Bolsonaro]
+00:38:56  Surpreenderam
+00:38:56  e eu acho que as pessoas
+00:38:57  têm o direito
+00:38:58  de se defenderem
+00:38:59  e provar a sua inocência
+00:39:00  que é o que eu espero
+00:39:01  que todos eles façam.
+00:39:03  Agora não tem que passar
+00:39:03  a mão na cabeça
+00:39:04  de ninguém, não,
+00:39:05  o Renato.
+00:39:05  Se a pessoa cometeu
+00:39:06  algo de errado,
+00:39:07  ela vai ter que responder
+00:39:08  por isso.
+00:39:08  Ainda mais quem comprovadamente
+00:39:11  tem envolvimento
+00:39:12  com coisa errada,
+00:39:13  com PCC,
+00:39:14  com Comando Vermelho,
+00:39:15  tem que pagar
+00:39:16  dentro da lei
+00:39:16  e no meu governo
+00:39:17  vai ter a pena mais dura,
+00:39:18  vai ficar mais tempo preso.
+00:39:19  Não tem essa história.
+
+[Renata Lo Prete]
+00:39:20  Candidato,
+00:39:21  eu não quero deixar
+00:39:21  de perguntar
+00:39:22  para o senhor
+00:39:22  sobre saúde
+00:39:23  que o senhor sabe
+00:39:24  está sempre ali
+00:39:25  no alto da lista
+00:39:26  das preocupações
+00:39:27  com os brasileiros.
+00:39:28  O senhor escolheu
+00:39:29  para medir
+00:39:30  em história da saúde,
+00:39:30  aliás,
+00:39:31  foi a primeira escolha
+00:39:31  que o senhor anunciou,
+00:39:33  um médico renomado,
+00:39:34  Cláudio Lothenberg,
+00:39:35  que na pandemia
+00:39:36  ocorrida durante
+00:39:37  o governo do seu pai,
+00:39:38  criticou a demora
+00:39:39  do governo
+00:39:40  para comprar vacinas.
+00:39:41  Numa entrevista,
+00:39:42  ele disse,
+00:39:43  e eu cito aqui
+00:39:44  entre aspas,
+00:39:45  o Brasil vai pagar
+00:39:46  um preço caro
+00:39:47  por essa demora,
+00:39:49  a gente está ouvindo
+00:39:49  várias desculpas
+00:39:51  e nenhuma é adequada,
+00:39:53  fecha aspas.
+00:39:54  Minha pergunta
+00:39:54  para o senhor
+00:39:55  é sobre o futuro.
+00:39:56  como o seu ministro,
+00:39:58  ele teria liberdade
+00:39:59  para tomar as medidas
+00:40:00  necessárias
+00:40:01  numa situação
+00:40:02  de emergência
+00:40:02  de saúde pública?
+
+[Flávio Bolsonaro]
+00:40:03  Com certeza,
+00:40:04  Renata,
+00:40:04  inclusive na minha conversa
+00:40:05  com ele
+00:40:05  quando eu fiz esse convite,
+00:40:07  foi exatamente isso.
+00:40:07  Vamos olhar
+00:40:08  para a frente.
+00:40:09  Doutor Cláudio Lothenberg,
+00:40:10  vamos lembrar,
+00:40:11  ele foi o presidente
+00:40:12  do melhor hospital do Brasil
+00:40:14  que é o Albert Einstein,
+00:40:15  que fica ali em São Paulo.
+00:40:16  E qual a ideia?
+00:40:16  É ele trazer
+00:40:17  essas boas práticas
+00:40:18  que existem
+00:40:19  nesse melhor hospital
+00:40:20  do Brasil
+00:40:21  e até um dos melhores
+00:40:22  da América Latina
+00:40:23  para dentro do SUS.
+00:40:24  É para o SUS
+00:40:25  ter padrão Einstein.
+00:40:27  Eu quero que você
+00:40:27  tenha acesso
+00:40:28  à tecnologia
+00:40:29  que os ricos
+00:40:30  têm lá no Albert Einstein,
+00:40:31  você que precisa
+00:40:31  de serviço público.
+00:40:33  Telemedicina,
+00:40:33  você,
+00:40:34  quando precisar
+00:40:34  de um médico,
+00:40:35  na palma da sua mão,
+00:40:36  você ter uma consulta
+00:40:38  ali rapidamente.
+00:40:39  se precisar
+00:40:39  de ir para o posto
+00:40:40  de saúde,
+00:40:41  na palma da sua mão também,
+00:40:42  você vai saber
+00:40:43  onde é que você
+00:40:44  vai ser atendido
+00:40:45  mais rápido
+00:40:45  e sem fila.
+00:40:46  Eu vou criar
+00:40:47  o Prontuário Único
+00:40:48  Eletrônico
+00:40:49  para conectar
+00:40:50  todas as informações,
+00:40:51  Renata,
+00:40:52  das redes municipais
+00:40:52  de saúde,
+00:40:53  estaduais,
+00:40:54  a federal
+00:40:54  e a privada também,
+00:40:55  porque às vezes
+00:40:56  uma pessoa está esperando
+00:40:57  para fazer uma cirurgia
+00:40:57  de catarata
+00:40:58  há três,
+00:40:58  quatro meses,
+00:40:59  ela não sabe,
+00:41:00  mas o governo federal
+00:41:01  pode pagar
+00:41:02  para ela fazer
+00:41:03  essa cirurgia
+00:41:04  na mesma semana
+00:41:06  numa vaga
+00:41:08  que está ociosa
+00:41:09  na rede privada
+00:41:09  de saúde.
+00:41:10  Então é assim
+00:41:11  que eu vou fazer
+00:41:11  o Brasil sem filas,
+00:41:13  usando as melhores práticas
+00:41:13  do setor privado
+00:41:15  no setor público.
+
+[Renata Lo Prete]
+00:41:16  O tempo acabou,
+00:41:17  o senhor tem agora
+00:41:18  um minuto e vinte segundos
+00:41:19  para fazer
+00:41:20  as suas considerações finais,
+00:41:22  mesmo tempo
+00:41:22  que o seu adversário
+00:41:23  teve ontem.
+
+[Flávio Bolsonaro]
+00:41:25  Bom, quero agradecer
+00:41:26  aqui a todos vocês
+00:41:27  do Brasil
+00:41:28  por onde eu passo,
+00:41:28  eu tenho rodado
+00:41:29  esse país,
+00:41:30  eu sou recebido
+00:41:31  com muito carinho,
+00:41:32  com muita esperança
+00:41:33  e de coração
+00:41:34  isso tem me dado
+00:41:35  muita energia,
+00:41:36  faltam apenas nove dias
+00:41:38  para as eleições
+00:41:39  e para a gente
+00:41:39  virar essa página triste
+00:41:40  da história
+00:41:41  que é a era Lula
+00:41:42  que vai chegar ao fim.
+00:41:43  Muitas pessoas
+00:41:44  vêm dizendo para mim,
+00:41:45  Flávio,
+00:41:46  o Lula está mentindo
+00:41:47  para caramba,
+00:41:48  prometendo um monte
+00:41:49  de coisa que se ele sabe
+00:41:50  que não vai entregar,
+00:41:51  você tem que fazer isso também,
+00:41:52  você tem que prometer
+00:41:52  uma picanha.
+00:41:54  Eu não,
+00:41:54  eu vou trabalhar
+00:41:55  com a verdade
+00:41:55  e não vou ser igual
+00:41:56  a esse cara.
+00:41:57  Agora eu quero fazer
+00:41:58  três compromissos com você.
+00:41:59  O primeiro,
+00:42:00  eu nunca vou prometer
+00:42:01  aquilo que eu não vou poder
+00:42:02  cumprir e entregar.
+00:42:03  O segundo,
+00:42:04  eu vou arrumar
+00:42:05  essa economia,
+00:42:05  eu vou devolver
+00:42:06  o seu poder de compra,
+00:42:07  você vai ter dinheiro
+00:42:08  no bolso de novo.
+00:42:09  Em terceiro,
+00:42:10  eu vou me dedicar
+00:42:10  com todas as forças
+00:42:12  para devolver a segurança
+00:42:14  para você,
+00:42:14  para mim,
+00:42:15  para Renata,
+00:42:15  para todos nós
+00:42:16  andarmos nas ruas
+00:42:17  em segurança novamente.
+00:42:20  E eu quero de coração aqui,
+00:42:21  pedir a cada um de vocês,
+00:42:22  a oportunidade
+00:42:23  de votar na mudança
+00:42:24  de novo.
+00:42:25  Consegue mais um votinho
+00:42:26  para mim,
+00:42:26  alguém que não foi votar,
+00:42:28  alguém que está indeciso
+00:42:28  e agora,
+00:42:29  no dia 25,
+00:42:31  sem ser esse domingo,
+00:42:31  agora o outro,
+00:42:32  compareça e vote
+00:42:33  em Flávio Bolsonaro 22.
+00:42:35  O voto é secreto,
+00:42:36  não deixe ninguém te ameaçar
+00:42:37  porque ninguém vai saber
+00:42:38  qual é o seu voto.
+00:42:39  Vote em Flávio Bolsonaro
+00:42:40  presidente 22
+00:42:41  e vamos mudar
+00:42:42  o nosso Brasil
+00:42:43  para muito melhor.
+00:42:44  Obrigado,
+00:42:45  boa noite, Renata.
+
+[Renata Lo Prete]
+00:42:45  Presidente,
+00:42:45  muito obrigada
+00:42:46  pela presença,
+00:42:47  pela convicção.

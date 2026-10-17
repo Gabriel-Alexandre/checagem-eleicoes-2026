@@ -1,0 +1,36 @@
+== 56.36
+  sem: quase o dobro do que gasta em educação e saúde somadas. Na esteira disso, vieram a tomar algumas propostas de ajuste fiscal
+  com: quase o dobro do que gasta em educação e saúde somadas. Na esteira disso vieram a tomar algumas propostas de ajuste fiscal.
+== 152.34
+  sem: de taxa de juro era para estar neste momento em torno de 7%. Hoje, a taxa de juro está em 14%, são 7%.
+  com: de taxa de juro era pra estar, neste momento, em torno de 7%. Hoje, a taxa de juro tá em 14%, são 7%.
+== 160.1
+  sem: pontos percentuais a mais na taxa de juros. Como você bem colocou, Renata, hoje a dívida do Brasil está em 11 trilhões de reais.
+  com: 7 pontos percentuais a mais na taxa de juros. Como você bem colocou, Renata, hoje a dívida do Brasil está em 11 trilhões de reais.
+== 166.0
+  sem: está em 11 trilhões de reais. Se a gente fizer uma conta básica, sete pontos, a gente está falando de quase um trilhão de reais
+  com: está em 11 trilhões de reais. Se a gente fizer uma conta básica, 7 pontos, a gente está falando de quase 1 trilhão de reais
+== 290.5
+  sem: Temos mais de 200 bilhões a mais de receita para esse orçamento por ano. A cada ano é possível alcançar essa cifra.
+  com: Temos mais de 200 bilhões a mais de receita para esse orçamento por ano. A cada ano é possível alcançar essa cifra.
+== 314.0
+  sem: do petróleo na margem equatorial lá na região do Amapá, as águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largada. Então, olha só como é que
+  com: do petróleo na margem equatorial lá na região do Amapá, as águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largada. Então olha só como é que tem
+== 336.66
+  sem: que isso é praticamente um consenso entre os economistas. As grandes despesas são essas que eu citei aqui. Margem equatorial, segundo a própria Petrobras,
+  com: que isso é praticamente um consenso entre os economistas, as grandes despesas são essas que eu citei aqui, margem equatorial, segundo a própria Petrobras,
+== 380.5
+  sem: orientou a sua mudança de posição? Renata, o maior prazer te vou explicar isso, é bom esclarecer que também tem muita fake news rodando sobre isso, mas só pra fechar o assunto
+  com: Como você se orientou a sua mudança de posição? Renata, o maior prazer, vou explicar isso, é bom esclarecer que também tem muita fake news rodando sobre isso, mas só pra fechar o assunto,
+== 398.32
+  sem: muito corte de despesa, em especial no combate à corrupção. O presidente Bolsonaro extinguiu mais de 20 mil cargos em comissão. Você que é servidor público
+  com: Tem muito corte de despesa especial no combate à corrupção. O presidente Bolsonaro, ele extinguiu mais de 20 mil cargos em comissão. Você que é servidor público,
+Traceback (most recent call last):
+  File "C:\Users\Gabriel\AppData\Local\Temp\claude\v11\segunda_passada.py", line 27, in <module>
+    a = rodar(ini, fim, False); b = rodar(ini, fim, True)
+                                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Temp\claude\v11\segunda_passada.py", line 19, in rodar
+    subprocess.run(cmd, check=True, capture_output=True)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['whisper-cli', '-m', 'C:\\Users\\Gabriel\\.cache\\whisper-models\\ggml-large-v3-turbo.bin', '-f', 'C:\\Users\\Gabriel\\AppData\\Local\\Temp\\tmpz23dsc0_\\j.wav', '-l', 'pt', '-bs', '8', '-bo', '8', '-oj', '-of', 'C:\\Users\\Gabriel\\AppData\\Local\\Temp\\tmpz23dsc0_\\o', '-np', '-t', '10', '--prompt', 'Sabatina da TV Globo com Renata Lo Prete e o candidato Flávio Bolsonaro, do PL. Nomes citados: Lula, Jair Bolsonaro, Daniel Vorcaro, Banco Master, Kassio Nunes Marques, Alexandre de Moraes, João Vaccari Neto, Andrei Rodrigues, Davi Alcolumbre, Sérgio Moro, Eduardo Bolsonaro, Magnitsky, Flávio Dino, Zanin, Ricardo Nunes, Márcio Canella, Rodrigo Bacellar, Cláudio Castro, Claudio Lottenberg, Albert Einstein, Quaest, CACs, PEC, Petrobras, margem equatorial, royalties, rachadinhas, Luciano Huck.']' returned non-zero exit status 1.

@@ -1,0 +1,96 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "como": "Um bloco por tema perguntado: a virada é a pergunta nova de Renata Lo Prete, lida na transcrição (17/out/2026). A abertura (0:00 a 0:43) fica no primeiro bloco, como no caso de 15/out. A emenda do intervalo comercial (32:22,3 a 32:24,2, só a vinheta, sem fala) fica fora de qualquer bloco.",
+  "blocos": [
+    {
+      "id": "b01",
+      "titulo": "Ajuste fiscal, juros e salário mínimo",
+      "inicio_s": 0.0,
+      "fim_s": 344.68
+    },
+    {
+      "id": "b02",
+      "titulo": "Fim da escala 6x1",
+      "inicio_s": 344.68,
+      "fim_s": 558.06
+    },
+    {
+      "id": "b03",
+      "titulo": "Reeleição e tamanho do mandato",
+      "inicio_s": 558.06,
+      "fim_s": 739.9
+    },
+    {
+      "id": "b04",
+      "titulo": "Reforma do Judiciário, Moraes e Nunes Marques",
+      "inicio_s": 739.9,
+      "fim_s": 943.82
+    },
+    {
+      "id": "b05",
+      "titulo": "Caso Master: o dinheiro de Vorcaro para o filme",
+      "inicio_s": 943.82,
+      "fim_s": 1286.62
+    },
+    {
+      "id": "b06",
+      "titulo": "Polícia Federal e a reunião ministerial de 2020",
+      "inicio_s": 1286.62,
+      "fim_s": 1395.34
+    },
+    {
+      "id": "b07",
+      "titulo": "Jair Bolsonaro: condenação e cargo no governo",
+      "inicio_s": 1395.34,
+      "fim_s": 1528.44
+    },
+    {
+      "id": "b08",
+      "titulo": "Eduardo Bolsonaro e o Itamaraty",
+      "inicio_s": 1528.44,
+      "fim_s": 1628.14
+    },
+    {
+      "id": "b09",
+      "titulo": "Forças Armadas e narcotráfico",
+      "inicio_s": 1628.14,
+      "fim_s": 1754.76
+    },
+    {
+      "id": "b10",
+      "titulo": "8 de janeiro",
+      "inicio_s": 1754.76,
+      "fim_s": 1880.08
+    },
+    {
+      "id": "b11",
+      "titulo": "Respeito ao resultado das urnas",
+      "inicio_s": 1880.08,
+      "fim_s": 1942.28
+    },
+    {
+      "id": "b12",
+      "titulo": "Armas e segurança pública",
+      "inicio_s": 1944.16,
+      "fim_s": 2292.48
+    },
+    {
+      "id": "b13",
+      "titulo": "Rio de Janeiro: aliados presos e investigados",
+      "inicio_s": 2292.48,
+      "fim_s": 2360.28
+    },
+    {
+      "id": "b14",
+      "titulo": "Saúde e o ministro anunciado",
+      "inicio_s": 2360.28,
+      "fim_s": 2475.78
+    },
+    {
+      "id": "b15",
+      "titulo": "Considerações finais",
+      "inicio_s": 2475.78,
+      "fim_s": 2567.52
+    }
+  ]
+}

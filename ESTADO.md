@@ -28,7 +28,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 |---|---|---|
 | E0 | preparo: gravação movida e ligada, branch atualizado, testes verdes, caso aberto, critérios copiados | ✅ 17/out |
 | E1 | mídia e procedência: sinal da Globo em tela cheia (não é retransmissão, sem moldura nem terceiro), 42min48s contra 40 min anunciados no ar, `inicio_da_entrevista_s` = 0,0, tarja em 0:13, o intervalo comercial tirado na origem (o cronômetro da emissora prova que nada da entrevista saiu), o fim corta a despedida da apresentadora; caixa dos cortes por `--cortar-faixas` | ✅ 17/out |
-| E2 | transcrição (sem nomes no prompt), correções por script, turnos à mão conferidos nos quadros | ⬜ |
+| E2 | transcrição sem prompt (1.865 segmentos, 8.323 palavras), 22 correções por script com três leituras alternativas (todos os números iguais; o que não se resolveu, listado), 91 turnos à mão conferidos nos quadros; tempo de fala: Flávio Bolsonaro 25:00 (63,9%), Renata Lo Prete 14:09 (36,1%) | ✅ 17/out |
 | E3 | blocos, extração em lotes de internet fechada, tempo de cada alegação palavra por palavra, sugestão de cortes com bordas na pausa da voz, **commit antes do 1º veredito** | ⬜ |
 | E4 | checagem em ondas (limite de 200 buscas por turno, somadas), capturas, trechos | ⬜ |
 | E5 | revisão adversarial por lote, coerência entre lotes, coerência cruzada com os casos de Lula (15/out) e de Flávio (28/ago), "a frase que voltou", rodada 2 dos provisórios | ⬜ |

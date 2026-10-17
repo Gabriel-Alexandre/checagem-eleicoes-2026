@@ -1,0 +1,517 @@
+{
+ "metodo": "Segunda passada em lote: cada janela suspeita (de t-3 a t+5 s) é recortada do WAV, as janelas são postas\nem fila com 2 s de silêncio entre elas, e o whisper.cpp (large-v3-turbo, feixe 8, -mc 0: sem texto anterior\ncomo contexto) transcreve a fila numa chamada só, sem e com prompt. Cada trecho volta para a janela dele\npelo tempo. Grava JSON com as duas leituras por janela.",
+ "janelas": {
+  "56.36": {
+   "janela_no_arquivo": [
+    53.36,
+    61.36
+   ],
+   "sem_prompt": "quase o dobro do que gasta em educação e saúde somadas. Na esteira disso, vieram a tona em algumas propostas de ajuste fiscal.",
+   "com_prompt": "quase o dobro do que gasta em educação e saúde somadas. Na esteira disso, vieram a tona em algumas propostas de ajuste fiscal."
+  },
+  "152.34": {
+   "janela_no_arquivo": [
+    149.34,
+    157.34
+   ],
+   "sem_prompt": "A taxa de juros era para estar, neste momento, em torno de 7%. Hoje, a taxa de juros está em 14%.",
+   "com_prompt": "A taxa de juros era para estar, neste momento, em torno de 7%. Hoje, a taxa de juros está em 14%."
+  },
+  "160.1": {
+   "janela_no_arquivo": [
+    157.1,
+    165.1
+   ],
+   "sem_prompt": "São 7 pontos percentuais a mais na taxa de juros. Como você bem colocou, Renata, hoje a dívida do Brasil está em 11 trilhões de reais.",
+   "com_prompt": "São 7 pontos percentuais a mais na taxa de juros. Como você bem colocou, Renata, hoje a dívida do Brasil está em 11 trilhões de reais."
+  },
+  "166.0": {
+   "janela_no_arquivo": [
+    163.0,
+    171.0
+   ],
+   "sem_prompt": "está em 11 trilhões de reais. Se fizer uma conta básica, sete pontos, a gente está falando de quase um trilhão de reais.",
+   "com_prompt": "está em 11 trilhões de reais. Se fizer uma conta básica, sete pontos, a gente está falando de quase um trilhão de reais."
+  },
+  "290.5": {
+   "janela_no_arquivo": [
+    287.5,
+    295.5
+   ],
+   "sem_prompt": "Temos mais de 200 bilhões a mais de receita para esse orçamento por ano. A cada ano é possível alcançar essa cifra",
+   "com_prompt": "Temos mais de 200 bilhões a mais de receita para esse orçamento por ano. A cada ano é possível alcançar essa cifra"
+  },
+  "314.0": {
+   "janela_no_arquivo": [
+    311.0,
+    319.0
+   ],
+   "sem_prompt": "do petróleo na margem equatorial, lá na região do Amapá, às águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largada. Então, olha só como é que tem",
+   "com_prompt": "do petróleo na margem equatorial, lá na região do Amapá, às águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largada. Então, olha só como é que tem"
+  },
+  "336.66": {
+   "janela_no_arquivo": [
+    333.66,
+    341.66
+   ],
+   "sem_prompt": "que isso é praticamente um consenso entre os economistas, as grandes despesas são essas que eu citei aqui, margem equatorial, segundo a própria Petrobras,",
+   "com_prompt": "que isso é praticamente um consenso entre os economistas, as grandes despesas são essas que eu citei aqui, margem equatorial, segundo a própria Petrobras,"
+  },
+  "380.5": {
+   "janela_no_arquivo": [
+    377.5,
+    385.5
+   ],
+   "sem_prompt": "que orientou a sua mudança de posição? Renata, o maior prazer, vou explicar isso, é bom esclarecer que também tem muita fequinha rodando sobre isso, mas só pra fechar o assunto,",
+   "com_prompt": "que orientou a sua mudança de posição? Renata, o maior prazer, vou explicar isso, é bom esclarecer que também tem muita fequinha rodando sobre isso, mas só pra fechar o assunto,"
+  },
+  "398.32": {
+   "janela_no_arquivo": [
+    395.32,
+    403.32
+   ],
+   "sem_prompt": "tem muito corte de despesa, em especial no combate à corrupção, o presidente Bolsonaro ele extinguiu mais de 20 mil cargos em comissão, você que é servidor público,",
+   "com_prompt": "tem muito corte de despesa, em especial no combate à corrupção, o presidente Bolsonaro ele extinguiu mais de 20 mil cargos em comissão, você que é servidor público,"
+  },
+  "408.74": {
+   "janela_no_arquivo": [
+    405.74,
+    413.74
+   ],
+   "sem_prompt": "a sua profissão está garantida. Ninguém vai atacar isso. E o Lula já criou mais de 22.500 cargos em comissão. Só um exemplo de como é que o governo usa a sua...",
+   "com_prompt": "a sua profissão está garantida. Ninguém vai atacar isso. E o Lula já criou mais de 22.500 cargos em comissão. Só um exemplo de como é que o governo usa a sua..."
+  },
+  "417.04": {
+   "janela_no_arquivo": [
+    414.04,
+    422.04
+   ],
+   "sem_prompt": "...para entregar os seus companheiros, os seus cargos eleitorais. Podemos votar para seis por um? Com relação a seis por um. Eu sempre defendi mais liberdade.",
+   "com_prompt": "...para entregar os seus companheiros, os seus cargos eleitorais. Podemos votar para seis por um? Com relação a seis por um. Eu sempre defendi mais liberdade."
+  },
+  "443.04": {
+   "janela_no_arquivo": [
+    440.04,
+    448.04
+   ],
+   "sem_prompt": "O que a escala seis por um seja extinta e uma outra acontecesse. Então, no meu governo, eu vou garantir creche para as mães que pode deixar as suas filhas, seus filhos...",
+   "com_prompt": "O que a escala seis por um seja extinta e uma outra acontecesse. Então, no meu governo, eu vou garantir creche para as mães que pode deixar as suas filhas, seus filhos..."
+  },
+  "605.06": {
+   "janela_no_arquivo": [
+    602.06,
+    610.06
+   ],
+   "sem_prompt": "vai depender de como é que o Senado e a Câmara vão se posicionar, é que vai decidir qual vai ser o tamanho do mandato, se vai continuar de quatro anos, se não vai, os detalhes vão",
+   "com_prompt": "vai depender de como é que o Senado e a Câmara vão se posicionar, é que vai decidir qual vai ser o tamanho do mandato, se vai continuar de quatro anos, se não vai, os detalhes vão"
+  },
+  "623.5": {
+   "janela_no_arquivo": [
+    620.5,
+    628.5
+   ],
+   "sem_prompt": "a procura que o atual presidente da República está fazendo, já gastou quase 350 bilhões de reais para tentar se reeleger, ele está",
+   "com_prompt": "a procura que o atual presidente da República está fazendo, já gastou quase 350 bilhões de reais para tentar se reeleger, ele está"
+  },
+  "668.76": {
+   "janela_no_arquivo": [
+    665.76,
+    673.76
+   ],
+   "sem_prompt": "só lembrando que ela não prevê extensão de mandato, não tem isso no texto da PEG ela acaba com a reeleição, outro detalhe importante de falar ela acaba com a reeleição, eu estou falando só para a",
+   "com_prompt": "só lembrando que ela não prevê extensão de mandato, não tem isso no texto da PEG ela acaba com a reeleição, outro detalhe importante de falar ela acaba com a reeleição, eu estou falando só para a"
+  },
+  "680.62": {
+   "janela_no_arquivo": [
+    677.62,
+    685.62
+   ],
+   "sem_prompt": "as demais esferas do Poder Executivo também vão ser abrangidas, governadores e prefeitos na minha opinião teriam que ser também mas eu apresentei para a Presidente da República",
+   "com_prompt": "as demais esferas do Poder Executivo também vão ser abrangidas, governadores e prefeitos na minha opinião teriam que ser também mas eu apresentei para a Presidente da República"
+  },
+  "720.84": {
+   "janela_no_arquivo": [
+    717.84,
+    725.84
+   ],
+   "sem_prompt": "em Políticas Públicas e Governo, eu tenho MBA e empreendedorismo em novos negócios eu tomado que preparado para ser Presidente da República",
+   "com_prompt": "em Políticas Públicas e Governo, eu tenho MBA e empreendedorismo em novos negócios eu tomado que preparado para ser Presidente da República"
+  },
+  "756.78": {
+   "janela_no_arquivo": [
+    753.78,
+    761.78
+   ],
+   "sem_prompt": "eu cito três aqui, retirar do Supremo o julgamento de processos criminais contra parlamentares, reduzir",
+   "com_prompt": "eu cito três aqui, retirar do Supremo o julgamento de processos criminais contra parlamentares, reduzir"
+  },
+  "799.2": {
+   "janela_no_arquivo": [
+    796.2,
+    804.2
+   ],
+   "sem_prompt": "penuricalhos dos três poderes, se você for botar na ponta do lápis, são 24 bilhões de reais por ano. Quer dizer, todo mundo tem que colaborar para a redução de",
+   "com_prompt": "penuricalhos dos três poderes, se você for botar na ponta do lápis, são 24 bilhões de reais por ano. Quer dizer, todo mundo tem que colaborar para a redução de"
+  },
+  "852.74": {
+   "janela_no_arquivo": [
+    849.74,
+    857.74
+   ],
+   "sem_prompt": "Banco Master. Daí ele eu pergunto, mas e o ministro Cássio Nunes Marques? Por que ele foi indicado pelo seu pai?",
+   "com_prompt": "Banco Master. Daí ele eu pergunto, mas e o ministro Cássio Nunes Marques? Por que ele foi indicado pelo seu pai?"
+  },
+  "878.58": {
+   "janela_no_arquivo": [
+    875.58,
+    883.58
+   ],
+   "sem_prompt": "As pessoas acham que estão acima da lei, a lei tem que valer para todo mundo. A lei 1079, que é a lei de impeachment, estabelece lá quais são os crimes de responsabilidade",
+   "com_prompt": "As pessoas acham que estão acima da lei, a lei tem que valer para todo mundo. A lei 1079, que é a lei de impeachment, estabelece lá quais são os crimes de responsabilidade"
+  },
+  "912.34": {
+   "janela_no_arquivo": [
+    909.34,
+    917.34
+   ],
+   "sem_prompt": "adversários que ele pré-determinava. E hoje o que está acontecendo? Renato Alexandre de Moraes virou o articulador político do Lula em Brasília. Ele que fez",
+   "com_prompt": "adversários que ele pré-determinava. E hoje o que está acontecendo? Renato Alexandre de Moraes virou o articulador político do Lula em Brasília. Ele que fez"
+  },
+  "950.66": {
+   "janela_no_arquivo": [
+    947.66,
+    955.66
+   ],
+   "sem_prompt": "o dinheiro que o senhor pediu a Daniel Vorcaro e foi atendido. Foram quase 70 milhões de reais, de um total de 134 que o senhor pediu.",
+   "com_prompt": "o dinheiro que o senhor pediu a Daniel Vorcaro e foi atendido. Foram quase 70 milhões de reais, de um total de 134 que o senhor pediu."
+  },
+  "1032.04": {
+   "janela_no_arquivo": [
+    1029.04,
+    1037.04
+   ],
+   "sem_prompt": "Indiferente do que fez o Lula na relação com o Vorcaro. Os seus principais articuladores políticos que",
+   "com_prompt": "Indiferente do que fez o Lula na relação com o Vorcaro. Os seus principais articuladores políticos que"
+  },
+  "1048.96": {
+   "janela_no_arquivo": [
+    1045.96,
+    1053.96
+   ],
+   "sem_prompt": "Candidato, candidato aqui, eu vou pedir... No filme do Lula, 30 milhões por fora, é o áudio do Vorcaro, a gente está falando do filme do Vorcaro. Candidato, já que o senhor mencionou esse áudio...",
+   "com_prompt": "Candidato, candidato aqui, eu vou pedir... No filme do Lula, 30 milhões por fora, é o áudio do Vorcaro, a gente está falando do filme do Vorcaro. Candidato, já que o senhor mencionou esse áudio..."
+  },
+  "1092.42": {
+   "janela_no_arquivo": [
+    1089.42,
+    1097.42
+   ],
+   "sem_prompt": "A perícia da própria produtora disse que o filme custou 75 milhões de reais. E o senhor pediu 134 ao Vorcaro.",
+   "com_prompt": "A perícia da própria produtora disse que o filme custou 75 milhões de reais. E o senhor pediu 134 ao Vorcaro."
+  },
+  "1095.56": {
+   "janela_no_arquivo": [
+    1092.56,
+    1100.56
+   ],
+   "sem_prompt": "Custou 75 milhões de reais. E o senhor pediu 134 ao Vorcaro. O senhor pode explicar pra gente pra quê, por que essa diferença?",
+   "com_prompt": "Custou 75 milhões de reais. E o senhor pediu 134 ao Vorcaro. O senhor pode explicar pra gente pra quê, por que essa diferença?"
+  },
+  "1112.58": {
+   "janela_no_arquivo": [
+    1109.58,
+    1117.58
+   ],
+   "sem_prompt": "o filme. Simples assim, uma relação privada, um dinheiro totalmente ilícito, como era o dinheiro também aqui na Globo. A Globo, o programa Luciano Huck, recebeu",
+   "com_prompt": "o filme. Simples assim, uma relação privada, um dinheiro totalmente ilícito, como era o dinheiro também aqui na Globo. A Globo, o programa Luciano Huck, recebeu"
+  },
+  "1118.18": {
+   "janela_no_arquivo": [
+    1115.18,
+    1123.18
+   ],
+   "sem_prompt": "a Globo, o programa Luciano Huck recebeu mais de 100 milhões de reais, 160 milhões de reais, se não me engano, pra fazer",
+   "com_prompt": "a Globo, o programa Luciano Huck recebeu mais de 100 milhões de reais, 160 milhões de reais, se não me engano, pra fazer"
+  },
+  "1121.1": {
+   "janela_no_arquivo": [
+    1118.1,
+    1126.1
+   ],
+   "sem_prompt": "Mais de 100 milhões de reais, 160 milhões de reais, se não me engano, pra fazer uma propaganda do banco do Vorcaro. E tem",
+   "com_prompt": "Mais de 100 milhões de reais, 160 milhões de reais, se não me engano, pra fazer uma propaganda do banco do Vorcaro. E tem"
+  },
+  "1210.48": {
+   "janela_no_arquivo": [
+    1207.48,
+    1215.48
+   ],
+   "sem_prompt": "ainda uma pergunta sobre o caso Master, sobre o caso Dak Ross, que é o seguinte, o Brasil tem cerca de 1.600...",
+   "com_prompt": "ainda uma pergunta sobre o caso Master, sobre o caso Dak Ross, que é o seguinte, o Brasil tem cerca de 1.600..."
+  },
+  "1213.26": {
+   "janela_no_arquivo": [
+    1210.26,
+    1218.26
+   ],
+   "sem_prompt": "Brasil tem cerca de 1.600 instituições financeiras, tem quase",
+   "com_prompt": "Brasil tem cerca de 1.600 instituições financeiras, tem quase"
+  },
+  "1218.06": {
+   "janela_no_arquivo": [
+    1215.06,
+    1223.06
+   ],
+   "sem_prompt": "instituições financeiras, tem quase 170 bancos. Por que que de todas essas empresas, o senhor foi bater na",
+   "com_prompt": "instituições financeiras, tem quase 170 bancos. Por que que de todas essas empresas, o senhor foi bater na"
+  },
+  "1239.38": {
+   "janela_no_arquivo": [
+    1236.38,
+    1244.38
+   ],
+   "sem_prompt": "o Vorcaro ser beneficiado pelo Vacari que é um braço direito do Lula, quem toca o Instituto Lula e",
+   "com_prompt": "o Vorcaro ser beneficiado pelo Vacari que é um braço direito do Lula, quem toca o Instituto Lula e"
+  },
+  "1245.16": {
+   "janela_no_arquivo": [
+    1242.16,
+    1250.16
+   ],
+   "sem_prompt": "e oferecer um bilhão de reais nos fundos de pensão da Caixa, do Banco do Brasil da Petrobras",
+   "com_prompt": "e oferecer um bilhão de reais nos fundos de pensão da Caixa, do Banco do Brasil da Petrobras"
+  },
+  "1267.9": {
+   "janela_no_arquivo": [
+    1264.9,
+    1272.9
+   ],
+   "sem_prompt": "do Banco Master e cobrou uma propina de 10% em cima disso isso é que está errado, essa contrapartida que é crime que ele tem que ser investigado",
+   "com_prompt": "do Banco Master e cobrou uma propina de 10% em cima disso isso é que está errado, essa contrapartida que é crime que ele tem que ser investigado"
+  },
+  "1324.58": {
+   "janela_no_arquivo": [
+    1321.58,
+    1329.58
+   ],
+   "sem_prompt": "trocou um ministro. A minha pergunta não diz respeito ao caso das fachadinhas e outros que envolviam o senhor na época diz respeito à sua campanha",
+   "com_prompt": "trocou um ministro. A minha pergunta não diz respeito ao caso das fachadinhas e outros que envolviam o senhor na época diz respeito à sua campanha"
+  },
+  "1362.86": {
+   "janela_no_arquivo": [
+    1359.86,
+    1367.86
+   ],
+   "sem_prompt": "Inclusive esse que está tomando uísque com o Borcaro, fumando jaruto com pessoas que ele que a Polícia Federal está investigando",
+   "com_prompt": "Inclusive esse que está tomando uísque com o Borcaro, fumando jaruto com pessoas que ele que a Polícia Federal está investigando"
+  },
+  "1404.88": {
+   "janela_no_arquivo": [
+    1401.88,
+    1409.88
+   ],
+   "sem_prompt": "Ainda este ano, a condenação do ex-presidente a 27 anos de prisão por tentativa de golpe Se isso acontecer e se o senhor vencer a",
+   "com_prompt": "Ainda este ano, a condenação do ex-presidente a 27 anos de prisão por tentativa de golpe Se isso acontecer e se o senhor vencer a"
+  },
+  "1426.18": {
+   "janela_no_arquivo": [
+    1423.18,
+    1431.18
+   ],
+   "sem_prompt": "Para quê? Alexandre de Moraes votou para condenar o presidente Bolsonaro pelo golpe da Disney. Ele foi condenado por organização criminosa armada e não foi encontrado uma arma.",
+   "com_prompt": "Para quê? Alexandre de Moraes votou para condenar o presidente Bolsonaro pelo golpe da Disney. Ele foi condenado por organização criminosa armada e não foi encontrado uma arma."
+  },
+  "1434.84": {
+   "janela_no_arquivo": [
+    1431.84,
+    1439.84
+   ],
+   "sem_prompt": "Depredação de patrimônio público. Ele é a 10 mil quilômetros de distância. Patrimônio público, para eu quebrar um copo, eu tenho que pegar ele na mão, fisicamente,",
+   "com_prompt": "Depredação de patrimônio público. Ele é a 10 mil quilômetros de distância. Patrimônio público, para eu quebrar um copo, eu tenho que pegar ele na mão, fisicamente,"
+  },
+  "1520.92": {
+   "janela_no_arquivo": [
+    1517.92,
+    1525.92
+   ],
+   "sem_prompt": "Então, assim, eu sou um privilegiado por isso. Mas nunca tratou de cargo comigo, Renata. Tá, mas o senhor cogita nomeá-lo? O senhor daria um cargo para o seu pai do governo? Ele nunca tratou disso comigo.",
+   "com_prompt": "Então, assim, eu sou um privilegiado por isso. Mas nunca tratou de cargo comigo, Renata. Tá, mas o senhor cogita nomeá-lo? O senhor daria um cargo para o seu pai do governo? Ele nunca tratou disso comigo."
+  },
+  "1578.52": {
+   "janela_no_arquivo": [
+    1575.52,
+    1583.52
+   ],
+   "sem_prompt": "acontecendo hoje, Renata, o Alexandre de Moraes tomou a Magnitsky, uma punição do governo americano, com base na lei americana, e ele",
+   "com_prompt": "acontecendo hoje, Renata, o Alexandre de Moraes tomou a Magnitsky, uma punição do governo americano, com base na lei americana, e ele"
+  },
+  "1598.5": {
+   "janela_no_arquivo": [
+    1595.5,
+    1603.5
+   ],
+   "sem_prompt": "a alguém que, se ele está se sentindo lesado com a Magnitsky e a culpa do Eduardo, como é que ele próprio julga o Eduardo? Quer dizer, é um processo",
+   "com_prompt": "a alguém que, se ele está se sentindo lesado com a Magnitsky e a culpa do Eduardo, como é que ele próprio julga o Eduardo? Quer dizer, é um processo"
+  },
+  "1619.78": {
+   "janela_no_arquivo": [
+    1616.78,
+    1624.78
+   ],
+   "sem_prompt": "Ele tem o mérito dele. Agora, a questão de ser chanceler, ser o ministro da Ações Exteriores aqui no Brasil é um outro assunto. Sim, então, só para a gente não perder o fio da merda, o senhor D",
+   "com_prompt": "Ele tem o mérito dele. Agora, a questão de ser chanceler, ser o ministro da Ações Exteriores aqui no Brasil é um outro assunto. Sim, então, só para a gente não perder o fio da merda, o senhor D"
+  },
+  "1886.42": {
+   "janela_no_arquivo": [
+    1883.42,
+    1891.42
+   ],
+   "sem_prompt": "O senhor vai respeitar o resultado das urnas? Eu vou disputar as eleições com as áreas que estão aí. Independente de qual for o resultado, eu vou respeitar. Só que eu tenho a convicção...",
+   "com_prompt": "O senhor vai respeitar o resultado das urnas? Eu vou disputar as eleições com as áreas que estão aí. Independente de qual for o resultado, eu vou respeitar. Só que eu tenho a convicção..."
+  },
+  "1909.2": {
+   "janela_no_arquivo": [
+    1906.2,
+    1914.2
+   ],
+   "sem_prompt": "...espancadas. Um governo que é recordista em queimadas na Amazônia. Esse foi outubro com maior queimada na história da nação brasileira.",
+   "com_prompt": "...espancadas. Um governo que é recordista em queimadas na Amazônia. Esse foi outubro com maior queimada na história da nação brasileira."
+  },
+  "1933.54": {
+   "janela_no_arquivo": [
+    1930.54,
+    1938.54
+   ],
+   "sem_prompt": "Estou entendendo, então, que o senhor respondeu a pergunta de se vai respeitar o resultado das urnas. Eu já aproveitei para falar mais umas coisas. É, eu percebi. Agora, eu vou pedir para o senhor um instante.",
+   "com_prompt": "Estou entendendo, então, que o senhor respondeu a pergunta de se vai respeitar o resultado das urnas. Eu já aproveitei para falar mais umas coisas. É, eu percebi. Agora, eu vou pedir para o senhor um instante."
+  },
+  "2009.94": {
+   "janela_no_arquivo": [
+    2006.94,
+    2014.94
+   ],
+   "sem_prompt": "E se um policial bota a viatura naquela rua É uma saraivara de tiro Leva duas horas até conseguir progredir Dentro de um blindado Pra dentro daquela faixa",
+   "com_prompt": "E se um policial bota a viatura naquela rua É uma saraivara de tiro Leva duas horas até conseguir progredir Dentro de um blindado Pra dentro daquela faixa"
+  },
+  "2105.06": {
+   "janela_no_arquivo": [
+    2102.06,
+    2110.06
+   ],
+   "sem_prompt": "Eu vou investir em inteligência artificial Eu vou comprar mais de um milhão de câmeras Com inteligência artificial E eu vou conectar essas câmeras Junto com as câmeras que",
+   "com_prompt": "Eu vou investir em inteligência artificial Eu vou comprar mais de um milhão de câmeras Com inteligência artificial E eu vou conectar essas câmeras Junto com as câmeras que"
+  },
+  "2142.44": {
+   "janela_no_arquivo": [
+    2139.44,
+    2147.44
+   ],
+   "sem_prompt": "Eu tô falando do problema que interessa Vamos conversar mais um pouco sobre as armas Porque segundo a pesquisa Quest disse",
+   "com_prompt": "Eu tô falando do problema que interessa Vamos conversar mais um pouco sobre as armas Porque segundo a pesquisa Quest disse"
+  },
+  "2145.84": {
+   "janela_no_arquivo": [
+    2142.84,
+    2150.84
+   ],
+   "sem_prompt": "Vamos conversar mais um pouco sobre as armas, porque, segundo a pesquisa Quest de setembro, a maioria dos brasileiros considera...",
+   "com_prompt": "Vamos conversar mais um pouco sobre as armas, porque, segundo a pesquisa Quest de setembro, a maioria dos brasileiros considera..."
+  },
+  "2188.26": {
+   "janela_no_arquivo": [
+    2185.26,
+    2193.26
+   ],
+   "sem_prompt": "...o ano de governo, onde houve um recorde, inclusive, de emissões de insertificáveis dos CACs, a taxa de homicídio caiu 17% no primeiro ano.",
+   "com_prompt": "...o ano de governo, onde houve um recorde, inclusive, de emissões de insertificáveis dos CACs, a taxa de homicídio caiu 17% no primeiro ano."
+  },
+  "2191.46": {
+   "janela_no_arquivo": [
+    2188.46,
+    2196.46
+   ],
+   "sem_prompt": "...de insertificáveis dos CACs, a taxa de homicídio caiu 17% no primeiro ano. O que botou, por água básica,",
+   "com_prompt": "...de insertificáveis dos CACs, a taxa de homicídio caiu 17% no primeiro ano. O que botou, por água básica,"
+  },
+  "2203.82": {
+   "janela_no_arquivo": [
+    2200.82,
+    2208.82
+   ],
+   "sem_prompt": "causam mais violência. Então, assim, se você não quer ter direito ao marmo, tudo bem, é um direito seu. Agora, quem atender os requisitos legais tem direito a ter o marmo pra defender a sua família.",
+   "com_prompt": "causam mais violência. Então, assim, se você não quer ter direito ao marmo, tudo bem, é um direito seu. Agora, quem atender os requisitos legais tem direito a ter o marmo pra defender a sua família."
+  },
+  "2207.88": {
+   "janela_no_arquivo": [
+    2204.88,
+    2212.88
+   ],
+   "sem_prompt": "Agora, quem atender os requisitos legais tem direito a ter o marmo pra defender a sua família, defender a sua casa, defender a sua propriedade rural, defender a sua fazenda de invasão.",
+   "com_prompt": "Agora, quem atender os requisitos legais tem direito a ter o marmo pra defender a sua família, defender a sua casa, defender a sua propriedade rural, defender a sua fazenda de invasão."
+  },
+  "2216.4": {
+   "janela_no_arquivo": [
+    2213.4,
+    2221.4
+   ],
+   "sem_prompt": "Então, assim, isso aí é o que está na Constituição, o direito à lítima e defesa. Ninguém está defendendo o bang-bang, não é isso que vai resolver o problema da segurança pública. Agora, essa é",
+   "com_prompt": "Então, assim, isso aí é o que está na Constituição, o direito à lítima e defesa. Ninguém está defendendo o bang-bang, não é isso que vai resolver o problema da segurança pública. Agora, essa é"
+  },
+  "2230.36": {
+   "janela_no_arquivo": [
+    2227.36,
+    2235.36
+   ],
+   "sem_prompt": "Uma ideia maluca, eu estava falando da opinião dos brasileiros numa pesquisa... Mas esses brasileiros aí que estão fazendo esse estudo, está... E depois eu estava querendo ouvir a sua opinião sobre...",
+   "com_prompt": "Uma ideia maluca, eu estava falando da opinião dos brasileiros numa pesquisa... Mas esses brasileiros aí que estão fazendo esse estudo, está... E depois eu estava querendo ouvir a sua opinião sobre..."
+  },
+  "2272.32": {
+   "janela_no_arquivo": [
+    2269.32,
+    2277.32
+   ],
+   "sem_prompt": "...4 anos de quem recebeu o Bolsa Família, não deu reajustes para ninguém, faltando 17 dias para a eleição, ele lembra que tem que reajustar o Bolsa Família, que foi o...",
+   "com_prompt": "...4 anos de quem recebeu o Bolsa Família, não deu reajustes para ninguém, faltando 17 dias para a eleição, ele lembra que tem que reajustar o Bolsa Família, que foi o..."
+  },
+  "2301.46": {
+   "janela_no_arquivo": [
+    2298.46,
+    2306.46
+   ],
+   "sem_prompt": "...prendeu ontem Márcio Canela, deputado estadual eleito e aliado seu. Na fase anterior da campanha, o senhor chegou a gravar vídeos de apoio a ele.",
+   "com_prompt": "...prendeu ontem Márcio Canela, deputado estadual eleito e aliado seu. Na fase anterior da campanha, o senhor chegou a gravar vídeos de apoio a ele."
+  },
+  "2315.44": {
+   "janela_no_arquivo": [
+    2312.44,
+    2320.44
+   ],
+   "sem_prompt": "milícia e com o tráfico. Um outro personagem, Rodrigo Bacelar, que chegou a ser, originalmente, o seu candidato como governador aqui no Rio, hoje está preso",
+   "com_prompt": "milícia e com o tráfico. Um outro personagem, Rodrigo Bacelar, que chegou a ser, originalmente, o seu candidato como governador aqui no Rio, hoje está preso"
+  },
+  "2369.1": {
+   "janela_no_arquivo": [
+    2366.1,
+    2374.1
+   ],
+   "sem_prompt": "das preocupações com os brasileiros. O senhor escolheu para medir a história da saúde, aliás, foi a primeira escolha que o senhor anunciou, um médico renomado, Claudio Lothenberg,",
+   "com_prompt": "das preocupações com os brasileiros. O senhor escolheu para medir a história da saúde, aliás, foi a primeira escolha que o senhor anunciou, um médico renomado, Claudio Lothenberg,"
+  },
+  "2373.66": {
+   "janela_no_arquivo": [
+    2370.66,
+    2378.66
+   ],
+   "sem_prompt": "foi a primeira escolha que o senhor anunciou, um médico renomado, Claudio Lothenberg, que na pandemia ocorrida durante o governo do seu pai, criticou",
+   "com_prompt": "foi a primeira escolha que o senhor anunciou, um médico renomado, Claudio Lothenberg, que na pandemia ocorrida durante o governo do seu pai, criticou"
+  },
+  "2567.2": {
+   "janela_no_arquivo": [
+    2564.2,
+    2572.2
+   ],
+   "sem_prompt": "Obrigado, boa noite.",
+   "com_prompt": "Obrigado, boa noite."
+  }
+ }
+}

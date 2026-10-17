@@ -1,0 +1,181 @@
+{
+ "metodo": "Segunda passada em lote: cada janela suspeita (de t-3 a t+5 s) é recortada do WAV, as janelas são postas\nem fila com 2 s de silêncio entre elas, e o whisper.cpp (large-v3-turbo, feixe 8, -mc 0: sem texto anterior\ncomo contexto) transcreve a fila numa chamada só, sem e com prompt. Cada trecho volta para a janela dele\npelo tempo. Grava JSON com as duas leituras por janela.",
+ "janelas": {
+  "1040.96": {
+   "janela_no_arquivo": [
+    1037.96,
+    1045.96
+   ],
+   "sem_prompt": "ali, a casa, a cozinha do Lula tiveram relações com o Vorcaro e ofereciam contrapartidas pra que houvesse esse patrocínio",
+   "com_prompt": "Ali a casa, a cozinha do Lula, tiveram relações com o Vorcaro e ofereciam contrapartidas pra que houvesse esse patro..."
+  },
+  "1198.54": {
+   "janela_no_arquivo": [
+    1195.54,
+    1203.54
+   ],
+   "sem_prompt": "que teve conversas reveladas com Daniel Vorcaro, isso foi revelado anteontem e ontem ele foi",
+   "com_prompt": "...diretor do Grupo Globo, que teve conversas reveladas com Daniel Vorcaro, isso foi revelado anteontem, e ontem ele foi..."
+  },
+  "1223.22": {
+   "janela_no_arquivo": [
+    1220.22,
+    1228.22
+   ],
+   "sem_prompt": "o senhor foi bater na porta justo do Daniel Vorcaro. Olha, eu conversei com vários possíveis investidores e",
+   "com_prompt": "...de todas essas empresas, o senhor foi bater na porta justo do Daniel Vorcaro. Olha, eu conversei com vários possíveis investidores."
+  },
+  "1507.36": {
+   "janela_no_arquivo": [
+    1504.36,
+    1512.36
+   ],
+   "sem_prompt": "brasileiros, é pra você que eu vou trabalhar e o presidente Bolsonaro nunca tratou de carro comigo, nunca sugeriu que gostaria de trabalhar no governo",
+   "com_prompt": "É pra você que eu vou trabalhar. E o presidente Bolsonaro nunca tratou de carro comigo. Nunca sugeriu que gostaria de trabalhar no governo."
+  },
+  "1112.58": {
+   "janela_no_arquivo": [
+    1109.58,
+    1117.58
+   ],
+   "sem_prompt": "privada, um dinheiro totalmente ilícito, como era o dinheiro também aqui na Globo a Globo, o programa Luciano Huck recebeu",
+   "com_prompt": "Simples assim, uma relação privada. Um dinheiro totalmente ilícito, como era o dinheiro também aqui na Globo. A Globo, o programa Luciano Huck, recebeu."
+  },
+  "1324.58": {
+   "janela_no_arquivo": [
+    1321.58,
+    1329.58
+   ],
+   "sem_prompt": "Trocou um ministro, a minha pergunta não diz respeito ao caso das fachadinhas e outros que envolviam o senhor na época, diz respeito a sua campanha",
+   "com_prompt": "Trocou um ministro. A minha pergunta, não diz respeito ao caso das fachadinhas e outros que envolviam o senhor na época, diz respeito à sua campanha"
+  },
+  "1362.86": {
+   "janela_no_arquivo": [
+    1359.86,
+    1367.86
+   ],
+   "sem_prompt": "inclusive esse que tá tomando uísque com Vorcaro, fumando jaruto com pessoas que ele que a polícia federal tá investigando",
+   "com_prompt": "inclusive esse que tá tomando uísque com Vorcaro, fumando jaruto, com pessoas que ele... que a Polícia Federal tá investigando."
+  },
+  "2203.82": {
+   "janela_no_arquivo": [
+    2200.82,
+    2208.82
+   ],
+   "sem_prompt": "assim, se você não quer ter direito ao marmo, tudo bem, é um direito seu agora, quem atender os requisitos legais tem direito a ter o marmo pra defender a sua família",
+   "com_prompt": "...causam mais violência. Assim, se você não quer ter direito ao marmo, tudo bem, é um direito seu. Agora, quem atender os requisitos legais tem direito a ter o marmo pra defender a sua família."
+  },
+  "1886.42": {
+   "janela_no_arquivo": [
+    1883.42,
+    1891.42
+   ],
+   "sem_prompt": "O senhor vai respeitar o resultado das urnas? Eu vou disputar as eleições com as áreas que estão aí independente de qual for o resultado eu vou respeitar, só que eu tenho a convicção",
+   "com_prompt": "O senhor vai respeitar o resultado das urnas? Eu vou disputar as eleições com as áreas que estão aí. Independente de qual for o resultado, eu vou respeitar. Só que eu tenho a convicção."
+  },
+  "1210.48": {
+   "janela_no_arquivo": [
+    1207.48,
+    1215.48
+   ],
+   "sem_prompt": "Ainda uma pergunta sobre o caso Master sobre o caso Dark Horse que é a seguinte o Brasil tem cerca de 1.600",
+   "com_prompt": "Ainda uma pergunta sobre o caso Master, sobre o caso Dak Ross, que é a seguinte: O Brasil tem cerca de 1.600..."
+  },
+  "2230.36": {
+   "janela_no_arquivo": [
+    2227.36,
+    2235.36
+   ],
+   "sem_prompt": "eu tava falando da opinião dos brasileiros mas esses brasileiros aí que tão fazendo esse estudo tá e depois eu tava querendo ouvir a sua opinião sobre",
+   "com_prompt": "...deia maluca. Eu tava falando da opinião dos brasileiros numa pesquisa... Mas esses brasileiros aí que tão fazendo esse estudo tá... E depois eu tava querendo ouvir a sua opinião sobre..."
+  },
+  "2369.1": {
+   "janela_no_arquivo": [
+    2366.1,
+    2374.1
+   ],
+   "sem_prompt": "com os brasileiros o senhor escolheu pra medir a história da saúde aliás, foi a primeira escolha que o senhor anunciou um médico renomado Cláudio Loten",
+   "com_prompt": "...das preocupações com os brasileiros. O senhor escolheu pra medir em história da saúde, aliás, foi a primeira escolha que o senhor anunciou, um médico renomado, Cláudio Loten..."
+  },
+  "1619.78": {
+   "janela_no_arquivo": [
+    1616.78,
+    1624.78
+   ],
+   "sem_prompt": "agora a questão de ser chanceler ser o ministro de ações teóricas aqui no Brasil é um outro assunto sim, então só pra gente não perder o fio da merda o senhor disse",
+   "com_prompt": "Ele tem o mérito dele. Agora, a questão de ser chanceler, ser o Ministro das Ações Exteriores aqui no Brasil, é um outro assunto. Sim. Então, só pra gente não perder o fio da merda..."
+  },
+  "56.36": {
+   "janela_no_arquivo": [
+    53.36,
+    61.36
+   ],
+   "sem_prompt": "quase o dobro do que gasta em educação e saúde somadas na esteira disso vieram a toma em algumas propostas de ajuste fiscal",
+   "com_prompt": "...quase o dobro do que gasta em educação e saúde somadas. Na esteira disso, vieram à tona algumas propostas de ajuste fiscal..."
+  },
+  "2142.44": {
+   "janela_no_arquivo": [
+    2139.44,
+    2147.44
+   ],
+   "sem_prompt": "antes do problema que o Brasil tem eu tô falando do problema que interessa mas vamos vamos conversar mais um pouco sobre as armas porque segunda pesquisa Quest de",
+   "com_prompt": "...muito menor ante o problema que o Brasil tem. Eu tô falando do problema que interessa... Vamos conversar mais um pouco sobre as armas? Porque, segundo a pesquisa Quest diz..."
+  },
+  "852.74": {
+   "janela_no_arquivo": [
+    849.74,
+    857.74
+   ],
+   "sem_prompt": "com o dono do Banco Master daí ele eu pergunto mas e o ministro Cássio Nunes Marques porque ele foi indicado pelo seu pai",
+   "com_prompt": "...das relações dele com o dono do Banco Master. Daí, eu pergunto: \"Mas e o ministro Cássio Nunes Marques? Por que ele foi indicado pelo seu pai?\""
+  },
+  "2145.84": {
+   "janela_no_arquivo": [
+    2142.84,
+    2150.84
+   ],
+   "sem_prompt": "sobre as armas porque segunda pesquisa Quest de setembro a maioria dos brasileiros considera",
+   "com_prompt": "É verdade. Vamos conversar mais um pouco sobre as armas? Porque, segundo a pesquisa Quest de setembro, a maioria dos brasileiros considera..."
+  },
+  "2373.66": {
+   "janela_no_arquivo": [
+    2370.66,
+    2378.66
+   ],
+   "sem_prompt": "que o senhor anunciou um médico renomado Cláudio Lothenberg que na pandemia ocorrida durante o governo do seu pai criticou",
+   "com_prompt": "...a primeira escolha que o senhor anunciou, um médico renomado, Cláudio Lotenberg, que, na pandemia ocorrida durante o governo do seu pai, criticou..."
+  },
+  "1239.38": {
+   "janela_no_arquivo": [
+    1236.38,
+    1244.38
+   ],
+   "sem_prompt": "o Vorcaro ser beneficiado pelo Vacari que é um braço direito do Lula quem toca o Instituto Lula e",
+   "com_prompt": "...o Vorcaro ser beneficiado pelo Vacari, que é um braço direito do Lula, quem toca o Instituto Lula e..."
+  },
+  "668.76": {
+   "janela_no_arquivo": [
+    665.76,
+    673.76
+   ],
+   "sem_prompt": "ela não prevê extensão de mandato não tem isso no texto da PEG ela acaba com a reeleição outro detalhe importante de falar ela acaba com a reeleição eu tô falando só pra",
+   "com_prompt": "Só lembrando que ela não prevê a extensão de mandato, né? Não tem isso no texto da PEG. Ela acaba com a reeleição... Outro detalhe importante de falar. Ela acaba com a reeleição... Eu tô falando só pra..."
+  },
+  "1032.04": {
+   "janela_no_arquivo": [
+    1029.04,
+    1037.04
+   ],
+   "sem_prompt": "do que fez o Lula na relação com o Vorcaro os seus principais articuladores políticos",
+   "com_prompt": "...indiferente do que fez o Lula na relação com o Vorcaro. Os seus principais articuladores políticos..."
+  },
+  "1050.02": {
+   "janela_no_arquivo": [
+    1047.02,
+    1055.02
+   ],
+   "sem_prompt": "no filme do Lula 30 milhões por fora é o áudio do Vorcaro a gente tá falando do filme do Vorcaro candidato já que o senhor mencionou esse áudio eu preciso fazer uma coisa importante",
+   "com_prompt": "Que eu vou pedir... E no filme do Lula, 30 milhões por fora. É o áudio do Vorcaro, né? A gente tá falando do filme do Vorcaro. Candidato, já que o senhor mencionou esse áudio, eu preciso fazer uma coisa importante."
+  }
+ }
+}

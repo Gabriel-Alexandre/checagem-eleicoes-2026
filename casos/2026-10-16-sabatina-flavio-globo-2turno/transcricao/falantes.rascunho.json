@@ -1,0 +1,998 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "metodo": "RASCUNHO de ferramentas/rascunho-de-turnos.py (plano + texto + VT declarado). ⛔ Não é o falantes.json: conferir cada turno no vídeo antes de copiar.",
+  "turnos": [
+    {
+      "inicio_s": 0.9,
+      "fim_s": 26.68,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 26.68,
+      "fim_s": 39.56,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 39.56,
+      "fim_s": 80.76,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 80.76,
+      "fim_s": 81.72,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "duvida",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 81.72,
+      "fim_s": 94.76,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 94.76,
+      "fim_s": 204.1,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 204.1,
+      "fim_s": 211.4,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 211.4,
+      "fim_s": 328.6,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 328.6,
+      "fim_s": 379.68,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 379.68,
+      "fim_s": 463.06,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 463.06,
+      "fim_s": 467.56,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 467.56,
+      "fim_s": 517.58,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 517.58,
+      "fim_s": 531.64,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 531.64,
+      "fim_s": 538.44,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 538.44,
+      "fim_s": 543.1,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 543.1,
+      "fim_s": 558.06,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 558.06,
+      "fim_s": 572.54,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 572.54,
+      "fim_s": 577.62,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 577.62,
+      "fim_s": 585.04,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 585.04,
+      "fim_s": 689.44,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 689.44,
+      "fim_s": 697.78,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 697.78,
+      "fim_s": 703.68,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 703.68,
+      "fim_s": 709.92,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 709.92,
+      "fim_s": 764.4,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 764.4,
+      "fim_s": 781.58,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 781.58,
+      "fim_s": 842.14,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 842.14,
+      "fim_s": 852.74,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 852.74,
+      "fim_s": 855.54,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "duvida",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 855.54,
+      "fim_s": 864.24,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 864.24,
+      "fim_s": 868.92,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 868.92,
+      "fim_s": 870.56,
+      "falante": "Renata Lo Prete",
+      "confianca": "duvida",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 870.56,
+      "fim_s": 911.28,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 911.28,
+      "fim_s": 912.34,
+      "falante": "Renata Lo Prete",
+      "confianca": "duvida",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 912.34,
+      "fim_s": 936.32,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 936.32,
+      "fim_s": 945.18,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 945.18,
+      "fim_s": 955.9,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 955.9,
+      "fim_s": 963.94,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 963.94,
+      "fim_s": 974.34,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 974.34,
+      "fim_s": 992.66,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 992.66,
+      "fim_s": 1053.16,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1053.16,
+      "fim_s": 1073.74,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1073.74,
+      "fim_s": 1076.4,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1076.4,
+      "fim_s": 1101.72,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1101.72,
+      "fim_s": 1153.24,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1153.24,
+      "fim_s": 1156.56,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 1156.56,
+      "fim_s": 1167.24,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1167.24,
+      "fim_s": 1179.54,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1179.54,
+      "fim_s": 1181.98,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1181.98,
+      "fim_s": 1192.4,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1192.4,
+      "fim_s": 1201.34,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1201.34,
+      "fim_s": 1226.8,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1226.8,
+      "fim_s": 1234.28,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1234.28,
+      "fim_s": 1239.38,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 1239.38,
+      "fim_s": 1278.08,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1278.08,
+      "fim_s": 1318.52,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1318.52,
+      "fim_s": 1327.02,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1327.02,
+      "fim_s": 1338.1,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1338.1,
+      "fim_s": 1381.72,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1381.72,
+      "fim_s": 1386.26,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 1386.26,
+      "fim_s": 1396.3,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1396.3,
+      "fim_s": 1409.7,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1409.7,
+      "fim_s": 1411.88,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1411.88,
+      "fim_s": 1414.78,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1414.78,
+      "fim_s": 1481.62,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1481.62,
+      "fim_s": 1492.88,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1492.88,
+      "fim_s": 1523.78,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1523.78,
+      "fim_s": 1524.98,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1524.98,
+      "fim_s": 1529.48,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1529.48,
+      "fim_s": 1540.18,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1540.18,
+      "fim_s": 1545.26,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1545.26,
+      "fim_s": 1554.54,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1554.54,
+      "fim_s": 1624.46,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1624.46,
+      "fim_s": 1627.56,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1627.56,
+      "fim_s": 1628.14,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1628.14,
+      "fim_s": 1648.14,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1648.14,
+      "fim_s": 1649.78,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1649.78,
+      "fim_s": 1659.6,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1659.6,
+      "fim_s": 1754.76,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1754.76,
+      "fim_s": 1783.04,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1783.04,
+      "fim_s": 1864.14,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1864.14,
+      "fim_s": 1873.94,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1873.94,
+      "fim_s": 1876.42,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "duvida",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1876.42,
+      "fim_s": 1886.42,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "pergunta",
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 1886.42,
+      "fim_s": 1938.08,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1938.08,
+      "fim_s": 1985.8,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1985.8,
+      "fim_s": 1988.8,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1988.8,
+      "fim_s": 1990.94,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 1990.94,
+      "fim_s": 2030.24,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2030.24,
+      "fim_s": 2048.7,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2048.7,
+      "fim_s": 2136.02,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2136.02,
+      "fim_s": 2139.22,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2139.22,
+      "fim_s": 2142.44,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2142.44,
+      "fim_s": 2182.66,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2182.66,
+      "fim_s": 2224.9,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "chama 'renata'",
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2224.9,
+      "fim_s": 2241.68,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2241.68,
+      "fim_s": 2292.48,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2292.48,
+      "fim_s": 2316.34,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano",
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2316.34,
+      "fim_s": 2319.74,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2319.74,
+      "fim_s": 2336.06,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2336.06,
+      "fim_s": 2368.38,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2368.38,
+      "fim_s": 2389.42,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2389.42,
+      "fim_s": 2402.18,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2402.18,
+      "fim_s": 2403.1,
+      "falante": "Renata Lo Prete",
+      "confianca": "duvida",
+      "pistas": [
+        "pergunta"
+      ]
+    },
+    {
+      "inicio_s": 2403.1,
+      "fim_s": 2477.02,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2477.02,
+      "fim_s": 2484.88,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "vocativo"
+      ]
+    },
+    {
+      "inicio_s": 2484.88,
+      "fim_s": 2565.24,
+      "falante": "Flávio Bolsonaro",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    },
+    {
+      "inicio_s": 2565.24,
+      "fim_s": 2567.52,
+      "falante": "Renata Lo Prete",
+      "confianca": "rascunho",
+      "pistas": [
+        "plano"
+      ]
+    }
+  ]
+}

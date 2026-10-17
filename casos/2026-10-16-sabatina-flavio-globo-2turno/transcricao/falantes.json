@@ -1,0 +1,461 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "metodo": "Escrito à mão pela IA (Claude), em 17/out/2026, lendo a transcrição inteira, em ordem, e conferindo no vídeo. Ponto de partida: o rascunho de ferramentas/rascunho-de-turnos.py (enquadramento + texto, 107 turnos, 6 em dúvida), que errou a primeira frase de quase toda resposta, como o método já previa; cada virada foi refeita pela leitura (pergunta, vocativo 'candidato', resposta que chama 'Renata') e ancorada no começo do segmento em que a fala muda (91 turnos). Conferidas nos quadros (folha em transcricao/folha-de-planos.jpg e folhas avulsas): 1:16 a 1:40 (as três perguntas rápidas do começo; 'Também não. Renata. Vamos lá. Pode seguir. Posso prosseguir?' fica com Flávio Bolsonaro, que está em close de 1:34,5 a 1:40); 17:24 a 17:37 ('A gente está falando do filme do Borcaro' é dele, em close até 17:32; ela entra em 17:32,5); 18:38 a 18:49 ('E o que tem de errado nisso? Nada.' é dele, em close, uma pergunta que ele mesmo responde); 21:12 a 21:30 ('Está confirmado pela Polícia Federal' é dele, no plano por cima do ombro, com a mão em movimento; 'não está confirmado pela Polícia Federal' é dela, em close desde 21:27); 25:20 a 25:29 ('Ele nunca tratou disso comigo' e 'Então, assim, não está no radar' com ele, em close; o 'Entendi' entre os dois, de 0,5 s, com ela, pela leitura; nenhum dos três tem alegação); 35:50 a 36:10 ('Vários deputados, especialmente deputados no Congresso, ligados à sua campanha' é dela, no plano aberto, com o gesto dela). Fala sobreposta curta, sem alegação: 35:22 ('Candidato...', dela, dentro da resposta dele). A emenda do intervalo comercial (32:22,3 a 32:24,2, só a vinheta 'ELEIÇÕES', sem fala) fica dentro do turno dela, entre 'volta já já' e 'Estamos de volta'. Não há 'Fora da sabatina': a gravação não traz fala de terceiro (CASO.json, procedência).",
+  "turnos": [
+    {
+      "inicio_s": 0.0,
+      "fim_s": 26.68,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 26.68,
+      "fim_s": 35.74,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 35.74,
+      "fim_s": 43.54,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 43.54,
+      "fim_s": 44.14,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 44.14,
+      "fim_s": 78.92,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 78.92,
+      "fim_s": 79.64,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 79.64,
+      "fim_s": 80.76,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 80.76,
+      "fim_s": 81.72,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 81.72,
+      "fim_s": 88.22,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 88.22,
+      "fim_s": 88.98,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 88.98,
+      "fim_s": 94.76,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 94.76,
+      "fim_s": 178.28,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 178.28,
+      "fim_s": 211.4,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 211.4,
+      "fim_s": 328.6,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 328.6,
+      "fim_s": 379.68,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 379.68,
+      "fim_s": 417.04,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 417.04,
+      "fim_s": 418.26,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 418.26,
+      "fim_s": 463.06,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 463.06,
+      "fim_s": 464.74,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 464.74,
+      "fim_s": 517.58,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 517.58,
+      "fim_s": 543.1,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 543.1,
+      "fim_s": 558.06,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 558.06,
+      "fim_s": 585.04,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 585.04,
+      "fim_s": 663.24,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 663.24,
+      "fim_s": 669.78,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 669.78,
+      "fim_s": 689.26,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 689.26,
+      "fim_s": 697.56,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 697.56,
+      "fim_s": 703.68,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 703.68,
+      "fim_s": 706.6,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 706.6,
+      "fim_s": 739.9,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 739.9,
+      "fim_s": 781.58,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 781.58,
+      "fim_s": 844.02,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 844.02,
+      "fim_s": 870.56,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 870.56,
+      "fim_s": 935.36,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 935.36,
+      "fim_s": 963.94,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 963.94,
+      "fim_s": 967.68,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 967.68,
+      "fim_s": 971.38,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 971.38,
+      "fim_s": 972.9,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 972.9,
+      "fim_s": 992.66,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 992.66,
+      "fim_s": 1051.8,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1051.8,
+      "fim_s": 1101.72,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1101.72,
+      "fim_s": 1161.78,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1161.78,
+      "fim_s": 1224.56,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1224.56,
+      "fim_s": 1275.78,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1275.78,
+      "fim_s": 1284.38,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1284.38,
+      "fim_s": 1286.62,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1286.62,
+      "fim_s": 1341.56,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1341.56,
+      "fim_s": 1353.0,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1353.0,
+      "fim_s": 1354.2,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1354.2,
+      "fim_s": 1381.0,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1381.0,
+      "fim_s": 1382.8,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1382.8,
+      "fim_s": 1395.34,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1395.34,
+      "fim_s": 1413.94,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1413.94,
+      "fim_s": 1481.0,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1481.0,
+      "fim_s": 1492.88,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1492.88,
+      "fim_s": 1522.0,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1522.0,
+      "fim_s": 1524.98,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1524.98,
+      "fim_s": 1526.66,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1526.66,
+      "fim_s": 1527.14,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1527.14,
+      "fim_s": 1528.44,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1528.44,
+      "fim_s": 1554.54,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1554.54,
+      "fim_s": 1622.06,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1622.06,
+      "fim_s": 1626.66,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1626.66,
+      "fim_s": 1627.56,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1627.56,
+      "fim_s": 1659.6,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1659.6,
+      "fim_s": 1754.76,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1754.76,
+      "fim_s": 1783.04,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1783.04,
+      "fim_s": 1864.14,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1864.14,
+      "fim_s": 1885.02,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1885.02,
+      "fim_s": 1930.24,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1930.24,
+      "fim_s": 1934.26,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1934.26,
+      "fim_s": 1935.58,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 1935.58,
+      "fim_s": 1990.16,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 1990.16,
+      "fim_s": 2031.22,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2031.22,
+      "fim_s": 2048.2,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2048.2,
+      "fim_s": 2122.32,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2122.32,
+      "fim_s": 2122.72,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2122.72,
+      "fim_s": 2133.78,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2133.78,
+      "fim_s": 2138.64,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2138.64,
+      "fim_s": 2143.3,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2143.3,
+      "fim_s": 2182.18,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2182.18,
+      "fim_s": 2224.9,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2224.9,
+      "fim_s": 2239.42,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2239.42,
+      "fim_s": 2292.48,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2292.48,
+      "fim_s": 2336.06,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2336.06,
+      "fim_s": 2360.28,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2360.28,
+      "fim_s": 2403.1,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2403.1,
+      "fim_s": 2475.78,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2475.78,
+      "fim_s": 2484.88,
+      "falante": "Renata Lo Prete"
+    },
+    {
+      "inicio_s": 2484.88,
+      "fim_s": 2565.24,
+      "falante": "Flávio Bolsonaro"
+    },
+    {
+      "inicio_s": 2565.24,
+      "fim_s": 2567.52,
+      "falante": "Renata Lo Prete"
+    }
+  ]
+}
