@@ -7,18 +7,20 @@
   "formato": "sabatina",
   "eleicao": "Eleições gerais 2026, Presidência da República, 2º turno",
   "duracao_s": 2567.616,
+  "inicio_da_entrevista_s": 0.0,
+  "inicio_da_entrevista_nota": "A gravação já começa na primeira palavra da entrevista: a voz de Renata Lo Prete aparece nos primeiros 50 ms do arquivo ('Boa noite. A TV Globo está entrevistando esta semana os candidatos à presidência da República que passaram ao segundo turno'), sem telejornal nem vinheta antes; a primeira sílaba pode ter sido aparada na origem. O minuto do card é, portanto, o minuto do arquivo. A tarja RENATA LO PRETE aparece de 0:12 a 0:14 (transcricao/tarja-apresentadora-0013.jpg). Medido em 17/out/2026 (E1), pela energia da voz e por uma passada do whisper.cpp palavra por palavra na janela de 0 a 6 s.",
   "falantes": [
     {
       "nome": "Renata Lo Prete",
       "papel": "entrevistador",
       "cargo_ou_partido": "TV Globo",
-      "descricao": "Jornalista que conduz a entrevista."
+      "descricao": "Jornalista da TV Globo que conduz as sabatinas do 2º turno (a mesma da sabatina de Lula de 15/out/2026). O nome está na tarja da transmissão em 0:12 a 0:14 e o candidato a chama de 'Renata' na entrevista."
     },
     {
       "nome": "Flávio Bolsonaro",
       "papel": "entrevistado",
-      "cargo_ou_partido": "PL",
-      "descricao": "Candidato à Presidência da República, entrevistado."
+      "cargo_ou_partido": "PL, senador e candidato no 2º turno",
+      "descricao": "Flávio Bolsonaro, senador pelo Rio de Janeiro e candidato do PL à Presidência da República no 2º turno de 2026."
     },
     {
       "nome": "Narração (VT)",
@@ -40,7 +42,7 @@
   "procedencia": {
     "como_foi_obtido": "Arquivo fornecido pelo autor do projeto em 17/out/2026, às 11h10, anexado à conversa, como `sabatina-flavio-16-10.mp4` (1280x720, 30 fps, 42min48s, 257,3 MB), chegado na pasta Downloads. A pedido dele, o arquivo foi MOVIDO (não copiado) para a pasta do vídeo longo 11, `C:/Users/Gabriel/Videos/youtube/video-longo/video-11/gravacao-sabatina/sabatina-flavio-globo-2026-10-16.mp4`, e ligado em `fonte/` deste caso por hardlink (o mesmo arquivo, sem segunda cópia; `fsutil hardlink list` mostra os dois caminhos). sha256 conferido antes e depois de mover: cffad1d88f189bdaa1ad470fc1b309573ccb816b5997d7d61ebfae13bbae051a, o mesmo de `fonte/MIDIA.json` e do bloco `midia` abaixo. Nenhuma cópia ficou em Downloads. O canal ou endereço de onde a gravação veio NÃO foi informado. ⛔ Não se contornou trava de país com proxy ou rede de anonimato para obtê-la.",
     "url_oficial": null,
-    "integralidade": "desconhecido",
-    "observacoes": "Peça checada INTEIRA (recorte `sabatina-completa`, sem vídeo renderizado); só cortes curtos viram vídeo (docs/PECA_INTEIRA.md). A pergunta do jornalista que afirma fato entra na checagem, com a mesma régua da resposta."
+    "integralidade": "integral",
+    "observacoes": "Peça checada INTEIRA (recorte `sabatina-completa`, sem vídeo renderizado); só cortes curtos viram vídeo (docs/PECA_INTEIRA.md). A pergunta da jornalista que afirma fato entra na checagem, com a mesma régua da resposta. A DATA, conferida em 17/out/2026: no próprio vídeo, a apresentadora diz 'hoje recebemos aqui no estúdio o senador Flávio Bolsonaro' e, nas considerações finais, 'mesmo tempo que o seu adversário teve ontem' (a sabatina de Lula foi em 15/out, caso 2026-10-15-sabatina-lula-globo-2turno), e o candidato diz 'faltam apenas nove dias para as eleições' (o 2º turno é em 25/out); na imprensa, a entrevista de Flávio Bolsonaro estava marcada para a sexta-feira, 16/out, depois do Jornal Nacional, às 21h15, ao vivo dos Estúdios Globo, conduzida por Renata Lo Prete (https://muitainformacao.com.br/eleicoes/lula-e-entrevistado-pela-globo-nesta-quinta-e-flavio-bolsonaro-na-sexta-veja-horarios-e-onde-assistir/ e https://diariodonordeste.verdesmares.com.br/pontopoder/entrevista-de-lula-na-globo-nesta-quinta-feira-10-que-horas-comeca-e-como-assistir-1.3798782; o blog Jamildo, citado no caso de 15/out, já dizia que Flávio seria entrevistado no dia seguinte ao de Lula). A DURAÇÃO: a imprensa consultada não informou a duração desta entrevista; a própria apresentadora anuncia no começo 'A entrevista terá 40 minutos de duração, com dois blocos e as considerações finais do candidato'. O arquivo tem 42min48s. O QUE O ARQUIVO É, conferido em 17/out/2026 (E1): o sinal da TV Globo em tela cheia, 1280x720, com a marca da Globo e o selo 'AO VIVO' (e 'CLOSED CAPTIONS' nos primeiros segundos) no canto, sem moldura, sem janela de programa e sem fala de terceiro. NÃO é a captura de uma retransmissão como a gravação de 15/out: não há 'Fora da sabatina' neste caso. Só há uma linha preta de 2 px no alto do quadro (`midia faixas`: conteúdo em y 2 a 719, 24 amostras). O RELÓGIO DA EMISSORA: um cronômetro da própria transmissão aparece no canto inferior esquerdo em alguns momentos; ele começa quando a apresentadora diz 'o tempo começa a contar a partir de agora' (00:01 em cerca de 0:44 do arquivo) e corre junto com o arquivo até 40:04 (cerca de 41:00 do arquivo), quando ela diz 'O tempo acabou'. O INTERVALO COMERCIAL FOI TIRADO DO ARQUIVO, na origem: em 32:20 ela anuncia 'a gente vai fazer um rápido intervalo e volta já já', e em 32:22,3 a imagem pula do close dela (cronômetro em 31:37) para o plano aberto da volta (vinheta 'ELEIÇÕES') e, em 32:24,2, 'Estamos de volta para o segundo e último bloco'. O cronômetro marca 31:37 antes e depois do salto e só volta a correr quando ela diz 'E o tempo volta a ser contado a partir de agora' (31:38 em cerca de 32:34): nada da entrevista ficou de fora, só o intervalo. O FIM: o arquivo acaba em 42:47,6 no plano aberto, com a despedida da apresentadora ainda em curso ('...muito obrigada pela presença, pela [...]'); as considerações finais do candidato estão inteiras ('Obrigado, boa noite, Renata.' em 42:44,4). Fala da entrevista no arquivo: de 0:00 a 42:47,6, com cerca de 2 s de vinheta na emenda do intervalo. CAIXA DOS CORTES: como não há moldura, os cortes usam `--cortar-faixas`, que mede a imagem útil e devolve a caixa 16:9 segura x=16, y=12, w=1248, h=702 (fora da linha preta do alto), levada a 1920x1080 (ampliação de cerca de 1,54 vez)."
   }
 }

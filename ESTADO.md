@@ -27,7 +27,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 | Etapa | O que é | Estado |
 |---|---|---|
 | E0 | preparo: gravação movida e ligada, branch atualizado, testes verdes, caso aberto, critérios copiados | ✅ 17/out |
-| E1 | mídia e procedência: duração, retransmissão ou não, `inicio_da_entrevista_s`, tarja, intervalo, começo e fim | ⬜ |
+| E1 | mídia e procedência: sinal da Globo em tela cheia (não é retransmissão, sem moldura nem terceiro), 42min48s contra 40 min anunciados no ar, `inicio_da_entrevista_s` = 0,0, tarja em 0:13, o intervalo comercial tirado na origem (o cronômetro da emissora prova que nada da entrevista saiu), o fim corta a despedida da apresentadora; caixa dos cortes por `--cortar-faixas` | ✅ 17/out |
 | E2 | transcrição (sem nomes no prompt), correções por script, turnos à mão conferidos nos quadros | ⬜ |
 | E3 | blocos, extração em lotes de internet fechada, tempo de cada alegação palavra por palavra, sugestão de cortes com bordas na pausa da voz, **commit antes do 1º veredito** | ⬜ |
 | E4 | checagem em ondas (limite de 200 buscas por turno, somadas), capturas, trechos | ⬜ |
