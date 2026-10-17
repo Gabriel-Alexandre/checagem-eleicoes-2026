@@ -180,7 +180,7 @@
       "numero_apurado": null,
       "data_de_referencia": "declarações de 25/02/2026 e 08/10/2026",
       "ressalva": null,
-      "confianca": "alta",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -261,7 +261,7 @@
       "resumo": "Painel do Estadão somava R$ 354 bi antes da fala, com crédito e renúncia; não há soma oficial desse gasto",
       "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). O candidato diz que Lula 'já gastou quase 350 bilhões de reais para tentar se reeleger'. A rodada 2 achou o valor do Gastômetro do Estadão, painel que soma as medidas do governo em ano eleitoral sob o rótulo de 'gastos de Lula para se reeleger', mais próximo da fala: R$ 354 bilhões em 14/10/2026 (Brasil Paralelo, que reproduz o painel), depois de R$ 278,3 bi em 18/08, R$ 327 bi em 28/09 e R$ 328,9 bi em 01/10 (TNH1 e Agora RN). O número dito fica a 1,1% desse valor. Mas o veredito não é VERDADEIRO por dois motivos. Primeiro, o próprio painel não sustenta o 'já gastou': ele soma 'gastos, subsídios, linhas de crédito, renúncias de receitas', o maior grupo é crédito e subvenção (R$ 173,1 bi de R$ 327 bi em setembro), e os R$ 354 bilhões 'não representam apenas dinheiro já desembolsado'. Segundo, a soma e o critério 'para se reeleger' são de um jornal, sem registro oficial (N1 ou N2) que a sustente (§3.1, regra 1); com outro critério, a Folha somou R$ 193,8 bilhões em 20 medidas até 17/09, só nove com impacto primário. Não é FALSO, porque nenhuma fonte contradiz que as medidas somem esse valor pelo critério do Estadão; não é IMPRECISO, porque não há fonte qualificada que confirme a essência ('gastou'). As fontes são de imprensa que reproduz o painel (regra 2 da §3.1); o painel do Estadão não foi capturado diretamente.",
       "numero_dito": "quase R$ 350 bilhões",
-      "numero_apurado": "R$ 354 bilhões no Gastômetro do Estadão em 14/10/2026, somando crédito, subsídio, renúncia e despesa; R$ 193,8 bilhões em 20 medidas no levantamento da Folha até 17/09/2026",
+      "numero_apurado": "R$ 354 bilhões no Gastômetro do Estadão em 14/10/2026, somando crédito, subsídio, renúncia e despesa; R$ 193,8 bilhões em 20 medidas no levantamento da Folha até 17 de setembro de 2026",
       "data_de_referencia": "Gastômetro de 14/10/2026 (dois dias antes da fala); levantamento da Folha de 17/09/2026",
       "ressalva": "Pelo critério da Folha, o pacote somava R$ 193,8 bi até 17 de setembro, só nove medidas com impacto primário",
       "confianca": "media",

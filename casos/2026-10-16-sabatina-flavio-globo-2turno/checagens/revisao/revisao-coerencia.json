@@ -1,0 +1,203 @@
+{
+  "revisor": "Claude (passada de coerência entre lotes e entre casos, passada separada)",
+  "A114": {
+    "decisao": "alterado",
+    "nota": "Porta do validador (tipo comparacao sem N1 ou N2) e par A113. Seis superintendentes em maio de 2020 só na imprensa; o Diário Oficial de 25/05/2020 não está capturado (varri as capturas dos dois casos). Pela regra 1 da §3.1, IMPRECISO passou a INSUSTENTAVEL, a mesma régua da A113 (27 trocas de Lula), da A037 e das A018 e A040 de 15/out. A explicação diz o que falta e por que não é FALSO.",
+    "verificacoes": ["4", "6", "7"]
+  },
+  "A138": {
+    "decisao": "alterado",
+    "nota": "Porta do validador (tipo serie_historica sem N1 ou N2). A viagem de maio de 2016 está em duas reportagens independentes, mas não há registro oficial capturado (Câmara ou Knesset). VERDADEIRO passou a INSUSTENTAVEL pela regra 1; a explicação diz que nada contradiz o prazo e o que falta. A A078 da entrevistadora recebeu a mesma régua. Para o autor: se prazo e data ficarem fora da regra 1, como a A140 de 15/out sugere, A138 e A078 voltam juntas.",
+    "verificacoes": ["4", "6", "7"]
+  },
+  "A078": {
+    "decisao": "alterado",
+    "nota": "Par A138 do lado da entrevistadora: prazo em anos só com imprensa, e as três fontes têm uma origem só (o relatório da PF cita o Intercept; regra 3 da §3.1). VERDADEIRO passou a INSUSTENTAVEL pela regra 1, para que o mesmo tipo de afirmação não tenha réguas diferentes nos dois lados da mesa. O número apurado perdeu o '24/11' sem trecho (aviso do validador). Ressalva mantida.",
+    "verificacoes": ["3", "4", "6", "7"]
+  },
+  "A085": {
+    "decisao": "alterado",
+    "nota": "Par A090 (candidato, valor de documento não público lido pela imprensa, INSUSTENTAVEL 'e não IMPRECISO, que exigiria fonte N1 ou N2'), A173 e A174 (a própria entrevistadora, percentuais só em reportagens) e A126 de 15/out. O laudo não é público e não foi conferido; a regra 2 não se cumpre (a r3 já apontava) e a regra 1 vale para afirmação que envolve valor, qualquer que seja o tipo da extração. VERDADEIRO passou a INSUSTENTAVEL; o número apurado passou a começar em reais (aviso do validador). Trechos conferidos.",
+    "verificacoes": ["3", "4", "6", "8"]
+  },
+  "A090": {
+    "decisao": "mantido",
+    "nota": "Par A085. Fica INSUSTENTAVEL: valor de mensagens lidas pela imprensa num inquérito não público, sem N1 ou N2, e os 160 milhões não estão em fonte nenhuma. A A085 foi alinhada a esta.",
+    "verificacoes": ["6"]
+  },
+  "A173": {
+    "decisao": "mantido",
+    "nota": "Par A085: número da entrevistadora atribuído a documento só conhecido pela imprensa, INSUSTENTAVEL pela regra 1. Serviu de régua para a A085.",
+    "verificacoes": ["6"]
+  },
+  "A174": {
+    "decisao": "mantido",
+    "nota": "Mesma régua da A173; par A085.",
+    "verificacoes": ["6"]
+  },
+  "A194": {
+    "decisao": "alterado",
+    "nota": "Par A192 (mesma entrevistadora, mesmo bloco: descrição de suspeitas em representação formal da PF, VERDADEIRO sobre o enunciado) e A089, A098 e A110 de 15/out. A frase descreve atos formais: a prisão e o relatório da PF estão documentados, e o fundamento formal da prisão é outro (vazamento). INSUSTENTAVEL passou a IMPRECISO; a explicação diz que o mérito segue em apuração e que nada afirma culpa. Resumo e ressalva já diziam isso.",
+    "verificacoes": ["6", "8"]
+  },
+  "A192": {
+    "decisao": "mantido",
+    "nota": "Par A194 (alinhada a esta) e A064 de 15/out. Peça formal da PF que embasou prisão, descrita sem afirmar culpa; a A064 de 15/out tratava de suspeitas sem peça formal contra os ministros. Registrado para o autor.",
+    "verificacoes": ["6"]
+  },
+  "A196": {
+    "decisao": "mantido",
+    "nota": "Mesmo dado e mesmo veredito da A076 de 15/out ('implicado'): 'enrolado' qualifica o envolvimento, que é o mérito. Diferente da A194, que trata do fundamento formal da prisão.",
+    "verificacoes": ["6"]
+  },
+  "A094": {
+    "decisao": "alterado",
+    "nota": "Par A095 (norma, não cumprimento), A084 e A093. A frase é atribuição ao áudio; a explicação apoiava o INSUSTENTAVEL também na apuração do pagamento e da legalidade, que é o conteúdo. Resumo, ressalva e explicação passaram a tratar só do que o áudio diz (os dois filmes, o valor fora do trecho transcrito) e da autoria em apuração. Veredito mantido; trechos conferidos.",
+    "verificacoes": ["1", "6", "7", "8"]
+  },
+  "A095": {
+    "decisao": "mantido",
+    "nota": "Par A094: checada como norma vigente, com a ressalva de que o card não avalia o cumprimento; a A094 passou a usar o mesmo critério (o que o registro diz).",
+    "verificacoes": ["6"]
+  },
+  "A084": {
+    "decisao": "mantido",
+    "nota": "Mesmo valor da A094, mesma divergência (O Povo contra Estadão sobre o valor estar na gravação) e mesmo veredito.",
+    "verificacoes": ["6"]
+  },
+  "A010": {
+    "decisao": "mantido",
+    "nota": "Par A161 de 15/out. Fala pública do campo do adversário que confere em parte (deputados aliados, só Petrobras, transcrita em decisão do TSE) dá IMPRECISO, como a A008; sem fala pública nenhuma, INSUSTENTAVEL, como a A009 e a A161 de 15/out (só estudo interno relatado). Mesma régua.",
+    "verificacoes": ["6"]
+  },
+  "A071": {
+    "decisao": "mantido",
+    "nota": "Par A072 e A086. Objetos diferentes: dinheiro transferido, com datas conhecidas, pelo dólar de cada repasse; valor negociado pela média do ano, com a faixa na ressalva. Desvios medidos sobre o apurado nas três.",
+    "verificacoes": ["6"]
+  },
+  "A072": {
+    "decisao": "mantido",
+    "nota": "Mesma afirmação, veredito e fontes da A086; critério de câmbio coerente com a A071.",
+    "verificacoes": ["6"]
+  },
+  "A086": {
+    "decisao": "alterado",
+    "nota": "Só a conta lateral da explicação: o custo de R$ 75 milhões passou a 'atribuído à perícia pelas reportagens', por causa da A085. Veredito, resumo e ressalva iguais aos da A072.",
+    "verificacoes": ["6"]
+  },
+  "A036": {
+    "decisao": "mantido",
+    "nota": "Par A037 e A013 de 28/ago. Decreto N1, número certo com categoria trocada: IMPRECISO, igual a 28/ago.",
+    "verificacoes": ["6"]
+  },
+  "A037": {
+    "decisao": "mantido",
+    "nota": "Par A036 e A014 de 28/ago. Sem N1 e sem fonte nenhuma com 22.500; apurado da imprensa cinco vezes menor: INSUSTENTAVEL, igual a 28/ago. A diferença para a A036 vem da fonte, não do lado.",
+    "verificacoes": ["6"]
+  },
+  "A031": {
+    "decisao": "mantido",
+    "nota": "Par A038: 'desde o início' e 'sempre' com a mesma régua (VERDADEIRO, ressalva de que não há registro antes de maio de 2026).",
+    "verificacoes": ["6"]
+  },
+  "A038": {
+    "decisao": "mantido",
+    "nota": "Par A031; ver nota da A031.",
+    "verificacoes": ["6"]
+  },
+  "A081": {
+    "decisao": "mantido",
+    "nota": "Quase a mesma afirmação da A089, mesmo veredito e mesmo critério. A dupla contagem vai para o autor.",
+    "verificacoes": ["6"]
+  },
+  "A089": {
+    "decisao": "mantido",
+    "nota": "Ver A081.",
+    "verificacoes": ["6"]
+  },
+  "A181": {
+    "decisao": "mantido",
+    "nota": "Par A182. Fato certo (a legítima defesa existe, no Código Penal) com o lugar errado (a Constituição): IMPRECISO. A A182 é contradita no essencial pelo texto vigente: FALSO. Réguas coerentes.",
+    "verificacoes": ["6"]
+  },
+  "A182": {
+    "decisao": "mantido",
+    "nota": "Ver A181.",
+    "verificacoes": ["6"]
+  },
+  "A123": {
+    "decisao": "mantido",
+    "nota": "Mesmo dado e veredito da A009 de 28/ago, que não tem revisão adversarial registrada; aqui a r5 fez essa revisão e testou a leitura 'arma de fogo', que está na ressalva. Coerente com as A147 e A148 da entrevistadora.",
+    "verificacoes": ["6"]
+  },
+  "A011": {
+    "decisao": "mantido",
+    "nota": "Base do desvio: todas as contas do caso medem sobre o apurado; 7 contra 7,75 dá 9,7%, VERDADEIRO, como a A006 de 28/ago. A A033 de 15/out, que mede sobre o dito, vai para o autor.",
+    "verificacoes": ["6"]
+  },
+  "A016": {
+    "decisao": "alterado",
+    "nota": "Aviso do validador: o número apurado passou a começar em reais (R$ 190 bilhões) e a ressalva mostra o valor apurado, como o §2.2 pede. Fala pública da campanha, cujo registro é a própria fala relatada pela imprensa; por isso não recebeu a régua da A085 (documento não público). Veredito mantido.",
+    "verificacoes": ["6", "7"]
+  },
+  "A097": {
+    "decisao": "alterado",
+    "nota": "Aviso do validador: a ressalva passou a mostrar os 1.654 e os 167 apurados, além dos recortes alternativos. Veredito mantido.",
+    "verificacoes": ["7"]
+  },
+  "A179": {
+    "decisao": "alterado",
+    "nota": "Aviso do validador: a ressalva passou a mostrar a queda de 17,8%, mantidos os 21% dos dados de saúde e o alerta de subnotificação. Veredito mantido.",
+    "verificacoes": ["7"]
+  },
+  "A047": {
+    "decisao": "alterado",
+    "nota": "Aviso do validador: a data 17/09/2026 do número apurado passou a ser escrita por extenso. Nada mais mudou.",
+    "verificacoes": ["7"]
+  },
+  "A040": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só fontes N4; o esquema define alta como fonte N1 direta. Passou a média, veredito mantido.",
+    "verificacoes": ["4"]
+  },
+  "A045": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": ["4"]
+  },
+  "A065": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média. A A071 de 15/out (Dino indicado por Lula) tem N1; esta não.",
+    "verificacoes": ["4"]
+  },
+  "A106": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": ["4"]
+  },
+  "A108": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": ["4"]
+  },
+  "A189": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média. Mesmo fato da A068 de 15/out, que tem alta com só N4 (registrado para o autor).",
+    "verificacoes": ["4"]
+  },
+  "A195": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": ["4"]
+  },
+  "A198": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": ["4"]
+  },
+  "A202": {
+    "decisao": "alterado",
+    "nota": "Confiança alta com só N4 passou a média, como as oito da entrevistadora (A040, A045, A065, A106, A108, A189, A195, A198).",
+    "verificacoes": ["4"]
+  }
+}

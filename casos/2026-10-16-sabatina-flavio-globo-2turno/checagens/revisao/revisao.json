@@ -1,0 +1,2452 @@
+{
+  "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+  "A001": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: a frase é só apresentação e poderia ser tratada como cortesia, fora da extração. Cai: afirma cargo, partido e disputa, três fatos com registro. JSON do TSE (situação '2º turno', PL, 47,03%), lista de senadores em exercício do Senado (PL-RJ, mandato até 2027) e Reuters conferidos na captura, palavra por palavra. Resumo só com o número do TSE.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A002": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra: 'bastante' não tem medida e as fontes são todas N4. Cai: a frase é atribuição de ênfase, não número; quatro falas de dois porta-vozes da campanha em datas diferentes (junho, 28/08, 31/08, outubro), cada trecho achado na captura. Achado: a explicação dizia que Marinho afirmou que uma vitória 'levaria' a Selic a 12% ou 13%; o trecho do EQI diz 'poderia levar' à faixa de 12% a 13%. Corrigida a explicação. Veredito, resumo e confiança média mantidos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A003": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra, e é o mais forte do lote: 'o governo' é o federal, e a checagem divide os juros do setor público consolidado (R$ 1.182,2 bi, com estados, municípios e estatais) pelas dotações só federais de saúde e educação (R$ 505 bi). Com juros só do governo central a razão cairia; o veredito só continua IMPRECISO se esses juros passarem de cerca de R$ 1.122 bi (2,22 vezes 505), 95% do consolidado. Fiz uma busca atrás desse número (juros nominais do governo central em 12 meses até agosto) e capturei a nota do BC na cópia do Poder360 e o Raio X da Dívida da Câmara (pasta rv1): nenhuma separa o governo central. Fica de pé por ora: a explicação declara o recorte e a lacuna, a BPMoney independente também põe os juros acima do dobro, e é a mesma medida de juros usada contra o candidato na A007 do caso de 28/08 (IMPRECISO). Desvio conferido: 2 contra 2,34 dá 14,5% sobre o apurado (17% sobre o dito); IMPRECISO nas duas bases. Pergunta de régua para a coerência: que juros representa 'o governo paga', e se o denominador precisa ser da mesma esfera.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A004": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: 'ventiladas pelo seu time' supõe autoria da equipe, e o relato de abril usa fontes anônimas. Cai: o de outubro (Folha, via Correio e BBC/A Gazeta) nomeia o assessor Luiz Felipe Trevisan e a apresentação à Eurasia; a campanha nega que seja posição oficial, o que a ressalva diz e não contradiz 'ventiladas'. Três trechos achados nas capturas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A005": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: a Lei 15.077 limita o ganho real e, com PIB negativo, não há ganho; 'acima da inflação' seria promessa, não regra. Cai: a pergunta pressupõe a regra vigente, e as leis 14.663 e 15.077 (N1, trechos achados) dão aumento real com piso e teto; a exceção do PIB negativo está na ressalva. O 2,6% acima do INPC citado na explicação vem da A010 do caso de 28/08, onde tem trecho; os números da tela (0,6% a 2,5%) estão no trecho da IstoÉ.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A006": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: a vinculação vale só para cerca de 70% dos benefícios; para os demais o índice é o INPC, então a premissa 'o percentual é o mesmo' seria parcial e mereceria IMPRECISO. Cai: a pergunta trata do vínculo que a proposta relatada queria desfazer, e ele existe para a maioria (Constituição art. 201 § 2º e Lei 8.213 art. 41-A, trechos achados); a parte que não segue o mínimo vai na ressalva. Mesma régua da A015 do caso de 28/08 (VERDADEIRO com a mesma ressalva).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A007": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: depois do arcabouço (LC 200/2023) os pisos poderiam estar em lei complementar, não na Constituição. Cai: o trecho capturado da Constituição traz o art. 198 § 2º, I (15% da RCL) e o art. 212 (18% dos impostos), em vigor; Correio e Correio Braziliense descrevem os mesmos pisos como constitucionais. Sem número fora de trecho.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A008": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Provisório: o marcador está no início da explicação, exato, e a confiança é baixa. Não refeito. Falta, como a própria explicação diz: as peças de rádio e TV de Lula de 9 a 16/out e falas em comícios. Para a rodada 2: a fala de Flávio de 8/out ('fake news do PT dizendo que eu vou acabar com o reajuste da aposentadoria') indica que algo circulou; se achar peça que diga 'acabar com o reajuste', decidir se é IMPRECISO (reajuste no lugar de aposentadoria). Os quatro trechos foram achados nas capturas. · Revisão da rodada 2: Melhor argumento contra o IMPRECISO: o Investidor10 resume a leitura do ministro do TSE como alegação de que Flávio 'acabaria com' aposentadorias, o que daria VERDADEIRO. Não derruba: é paráfrase de uma reportagem; Mais Goiás e A Crítica descrevem a mesma peça de Lula como 'consequências negativas' e 'efeitos sobre o reajuste', e o próprio Flávio, em 8/out, falou em 'acabar com o reajuste'. O que Lula disse de fato é o vídeo 'Se o Flávio vence, você perde' (perdas na aposentadoria); o que os aliados disseram está na íntegra da decisão do TSE (N1): 'reduzir o valor da aposentadoria'. Essência certa, alcance ampliado. A liminar trata da legalidade da peça, não da existência dela, e por isso não é fato em apuração. Cinco trechos achados (r2parte1 e p13 do caso de 15/out).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A009": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Provisório: marcador exato e confiança baixa. Não refeito. Falta: peças de rádio e TV de Lula de 9 a 16/out e falas a servidores; a BBC registra especulação 'nas redes', sem autor, que não basta para atribuir a Lula. Trechos achados nas capturas. · Revisão da rodada 2: Melhor argumento contra: tratar como FALSO, já que as quatro decisões do TSE contra peças de Lula, Janja e aliados não falam de servidores. Não fecha: ausência de registro não prova que não foi dito, e a busca não cobriu a íntegra de todos os programas de rádio e TV, o que a explicação declara. BBC (A Gazeta) e IstoÉ registram a especulação 'nas redes sociais', sem autor. Mesma régua da A010 por outro lado: lá há autor (aliados) e há registro; aqui não há autor. Quatro trechos achados (p01, p01-r3, r2parte1).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  "A010": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Provisório: marcador exato e confiança baixa. Não refeito. Falta: peças e falas de Lula de 9 a 16/out sobre privatização de BB, Caixa e Petrobras. A ressalva (hipótese de privatizar o BB levantada pela própria coordenadora) tem trecho no Investidor10. Trechos achados. · Revisão da rodada 2: Melhor argumento contra o IMPRECISO: a frase atribui a 'meu concorrente', e o registro é de deputados aliados (Janones, Rede, e Lindbergh, PT), só para a Petrobras; pela régua da A161 do caso de 15/out (equipe do adversário não é o adversário), daria INSUSTENTAVEL. Fica de pé por pouco: na A161 de 15/out não havia anúncio nenhum, só estudo interno relatado; aqui a fala pública existe, está transcrita na decisão do TSE (N1) e é do campo político de Lula (Janones administra o canal 'Exército do Lula'). O card diz o recorte certo (aliados, só Petrobras). Seis trechos achados. Ponto para a passada de coerência: A010 contra A161 de 15/out. · Coerência entre lotes e entre casos: Par A161 de 15/out. Fala pública do campo do adversário que confere em parte (deputados aliados, só Petrobras, transcrita em decisão do TSE) dá IMPRECISO, como a A008; sem fala pública nenhuma, INSUSTENTAVEL, como a A009 e a A161 de 15/out (só estudo interno relatado). Mesma régua.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A011": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: com 7 contra 7,75 o desvio é 9,7% sobre o apurado, mas 10,7% sobre o dito; a base escolhida decide entre VERDADEIRO e IMPRECISO. Cai por ora: o projeto mede sobre o apurado (A007 do caso de 28/08: 'um trilhão' contra 1,16 = 14%; A149 do caso de 15/out), a fala diz 'em torno de', e o mesmo dado teve o mesmo veredito na A006 de 28/08. Conferidos na captura os valores da base Olinda (mediana 7,75 para 2025 e 2026 na coleta de 28/10/2022) e do PDF do Focus. Pergunta de régua para a coerência: a base do desvio (o caso de 15/out mediu sobre o dito na A033). · Coerência entre lotes e entre casos: Base do desvio: todas as contas do caso medem sobre o apurado; 7 contra 7,75 dá 9,7%, VERDADEIRO, como a A006 de 28/ago. A A033 de 15/out, que mede sobre o dito, vai para o autor.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A012": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: 14% não é 13,75%. Cai: desvio de 1,8%, abaixo da régua, e a ressalva dá o valor exato; SGS 432 conferida na captura (13,75 de 17/09 a 16/10) e Jornal do Comércio. Coerente com a A141 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A013": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: 'a dívida do Brasil' pode ser a líquida (R$ 9,2 tri), 16% abaixo. Cai: a fala retoma o que a entrevistadora disse, e o número dito corresponde ao conceito de dívida bruta, o indicador de referência; a ressalva traz a líquida. Conferi na captura da nota de 30/09 que o R$ 11,1 trilhões é a DBGG de agosto (o trecho usa [...] e a frase completa está na página). Desvio de 0,9%.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A014": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: a 'conta básica' poderia ser 7 pontos sobre a parcela da dívida atrelada à Selic, ou ser um contrafactual sem valor de verdade. Não derruba: a sensibilidade oficial do BC (R$ 60,6 a 68,9 bi por ponto em 12 meses) já mede o efeito da Selic sobre a dívida, e qualquer leitura com o estoque de R$ 11 trilhões dá mais. Contas refeitas: 7 x 66,1 x 4 = 1.850,8; 7 x 60,6 x 4 = 1.696,8; 7 x 68,9 x 4 = 1.929,2; desvio de 41% a 48%. Mesma régua da A007 e A021 do caso de 28/08. Erro para menos não muda a régua.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A015": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra: o veredito já é INSUSTENTAVEL, e a auditoria do caso de 15/out chegou a INSUSTENTAVEL na frase simétrica da mesma entrevistadora (A155). Mas a própria explicação dizia que 'a busca nesta rodada foi limitada a duas consultas sobre o tema': pela árvore do §2.1, INSUSTENTAVEL pede busca exaustiva, e é o mesmo defeito da A155 (provisório sem marcador). Pus o marcador exato no início, a confiança baixa e o que falta no fim. O resto ficou como estava, para a rodada 2. Trechos achados. · Revisão da rodada 2: Pergunta da entrevistadora. Melhor argumento contra o INSUSTENTAVEL: a Folha relata economistas que estimam ajuste mínimo de cerca de R$ 250 bi e a própria equipe do candidato estudou mexer em aposentadorias, BPC e pisos, o que daria base ao 'consenso'. Não basta: são avaliações isoladas e um relato sobre a equipe, sem medida do conjunto nem declaração nominal de economista apoiador. Mesma régua da A155 do caso de 15/out, aplicada à mesma entrevistadora. Cinco trechos achados (p02-r2, p02-r4, r2parte1).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  "A016": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra: a coordenadora falou em 1,5% do PIB, cerca de R$ 190 bi, e a campanha evita cravar valor; 'prometido ao mercado' seria leitura da imprensa. Não derruba: 190 contra 200 é 5%, o SBT registra o discurso de corte em torno de R$ 200 bi, o Poder360 a faixa de 200 a 250 e a Folha a apresentação do plano à Eurasia. Achado: o resumo dizia 'a campanha fala em R$ 200 bi' e a ressalva 'a campanha evita cravar o valor', e a ressalva repetia o R$ 190 bi do resumo. Resumo passou a 'o discurso da campanha é de R$ 200 bi' (palavras do SBT), e a ressalva traz o que falta: valor não cravado e plano incompleto (SBT e Poder360). Veredito mantido. · Coerência entre lotes e entre casos: Aviso do validador: o número apurado passou a começar em reais (R$ 190 bilhões) e a ressalva mostra o valor apurado, como o §2.2 pede. Fala pública da campanha, cujo registro é a própria fala relatada pela imprensa; por isso não recebeu a régua da A085 (documento não público). Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A017": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: a lei compilada de out/2026 dá 38 (32 incisos do art. 17, contando o XII-A, mais 6 do art. 18; contei na captura), e o Poder360 de março também 38; o 39 só aparece na nota do MGI de dez/2025. Cai: 39 contra 38 é 2,6%, abaixo da régua, e a divergência e a ressalva estão escritas. Confiança média adequada.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A018": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra: 'superávit ou lucro' mistura conceitos, e a série exclui Petrobras e bancos, onde estaria o lucro. Cai: o resultado primário bate (refiz a soma dos 48 meses da captura: -17.461,86 milhões, superávit; desvio de 3,1%), e a ressalva diz que é primário, não lucro. Achado: a explicação afirmava que 'a imprensa registra que os bancos públicos também ficam fora' sem trecho; o Money Times capturado diz isso, e o trecho dele foi ampliado. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A019": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra: o R$ 36 bi poderia ser outro conceito (prejuízo contábil, resultado nominal), e aí o IMPRECISO cairia. Fiz uma busca atrás de fonte para R$ 36 bi: não achou; o que apareceu fala em cerca de R$ 18,5 bi de déficit desde 2023, perto dos R$ 19 bi da série. Refiz a soma dos 44 meses na captura: 19.044,25 milhões de déficit; 36 fica 89% acima. Não é FALSO porque o sentido (déficit no governo Lula) confere. Achado: a ressalva diz 'sem Petrobras e bancos públicos', e nenhum trecho da A019 trazia os bancos; o trecho do Money Times foi ampliado com a frase que diz isso. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A020": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Provisório: marcador exato e confiança baixa. Não refeito. Para a rodada 2: o dado que falta já está capturado e é usado na A021, a Lista de Alto Risco do TCU (cerca de 761 mil imóveis, dados da SPU de nov/2024), além do InfoMoney (764 mil) e do levantamento do Acórdão 160/2024 (56.375 imóveis de uso especial). Hoje o resumo da A020 cita 655 mil de 2018 e o da A021 cita 761 mil: no mesmo vídeo, os dois cards precisam usar o mesmo total. · Revisão da rodada 2: Melhor argumento contra o IMPRECISO: 'mais de 30 mil' é literalmente verdadeiro para 761 mil, e o validador até trata 'mais de' com apurado maior como coerente. Não derruba: a frase dá ordem de grandeza cerca de 25 vezes menor (761 dividido por 30, conta refeita), e esse erro de magnitude muda a leitura do patrimônio; nem o recorte de uso especial (56.375) corresponde. É diferente do piso da A062, onde 24 contra ao menos 20 não prova erro. Total igual ao da A021 (761 mil, TCU, Lista de Alto Risco), como pediu a revisão r1. Dado da SPU de nov/2024, o vigente na data da fala. Quatro trechos achados (p03).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A021": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra 1: a fala pode usar o próprio denominador ('30 mil'), e dez mil desocupados seriam um terço disso. Cai: o total oficial é de cerca de 761 mil, e mesmo na carteira de uso especial (56.375) os vagos são 4%. Contra 2: se as fontes dão 1% a 4%, 'grande parte' seria contradito, e o veredito seria FALSO. Cai: o TCU e o InfoMoney dizem que o cadastro não é confiável e que o ocioso pode ser muito maior, então não há prova firme do contrário; essência certa (há imóveis ociosos e abandonados, apontados pelo TCU) e quantificador exagerado é IMPRECISO, a régua da A003 do caso de 15/out. Achado: a divergência entre fontes cita 'cerca de 742 mil' sem trecho nesta checagem; entrou a notícia do TCU já capturada e usada na A022. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A022": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: o número é de nov/2024 e a fala é de out/2026; a avaliação pode ter mudado. Cai: é o dado mais recente achado, a data está na data_de_referencia, e a própria fala diz que a avaliação está desatualizada. 1,72 contra 1,7: 1,2%. A divergência com o R$ 1,35 tri do levantamento anterior está escrita e na ressalva, com trecho.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A023": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Provisório: marcador exato e confiança baixa. Não refeito. Falta: o estoque oficial da Dívida Ativa da União vigente em out/2026 (PGFN em Números ou painel) e a parcela de difícil recuperação. O resumo já diz que o R$ 2,1 tri é anterior; a rodada 2 deve conferir a data dessa divulgação. · Revisão da rodada 2: Melhor argumento contra o VERDADEIRO: o estoque é de 2024, o de 2025 não foi achado e deve ser maior, e 'quase 3' poderia ficar longe dele. Não derruba: o último estoque publicado na data da fala é R$ 3 trilhões (PGFN em Números 2025, N1), e 'quase 3' contra 3 fica dentro da régua de 10%; a análise do JOTA sobre a LDO ('praticamente R$ 3 trilhões') é fonte independente da publicação anual. A divergência com os R$ 2,1 trilhões (parcela em cobrança) está explicada, e a ressalva diz que só 6,6% tem maior chance de recuperação. Cinco trechos achados.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A024": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: 'proposta de governo' pode não ser o plano registrado, e sim a agenda do governo Bolsonaro para o petróleo; e 'RODs' (talvez 'royalties') pode ser o que estaria no plano. Não derruba: a fala diz 'proposta de governo [...] lá em 2022', em contexto de campanha. Varri o texto capturado do plano (322 mil caracteres): sem 'margem equatorial', 'Amapá', 'Foz' nem 'royalties'; o petróleo aparece só como recurso energético abundante e na redução do uso de óleo e carvão. A Gazeta do Povo confirma as 48 páginas. Documento lido por inteiro é prova do contrário: FALSO. Confiança média adequada (cópia do Internet Archive, N4).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A025": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: no português comum 'exploração do petróleo' é extração, e o contexto da fala é receita ('poderia trazer mais de 100 bilhões'); lida assim a frase é verdadeira, porque a produção não começou. Não derruba sozinho: o critério escrito antes da busca manda separar exploração técnica de produção, e 'não conseguiu iniciar' é contradito pela licença do Ibama de 20/10/2025 e pelo poço em perfuração em 2026 (trechos achados). Mesma régua na A027, da entrevistadora: IMPRECISO nos dois. Pergunta de régua para a coerência: se o autor preferir a leitura comum, A025 e A027 mudam juntas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A026": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra: educação (piso de R$ 141,2 bi) é menor que pessoal, Bolsa Família e BPC, e o dado é do projeto de 2027, não do gasto vigente. Cai: a frase não diz que são as únicas grandes despesas, a Previdência é de longe a maior (42,9%, conta refeita), a ordem das rubricas é a mesma nas colunas da IFI, e a omissão de pessoal está na ressalva. Achado: o resumo dizia 'No orçamento de 2027', e o dado é do PLOA, projeto ainda não aprovado; passou a 'No projeto de orçamento de 2027'. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A027": {
+    "decisao": "alterado",
+    "nota": "Revisão r1: Contra: a entrevistadora usa 'exploração' no sentido comum, e o prazo de sete anos da Petrobras (ago/2026) dá cerca de 2033, então seria VERDADEIRO. É a mesma régua da A025 e fica junto com ela (ver nota da A025). Achado: o resumo dizia 'a perfuração exploratória já começou em 2025'; nenhum trecho dá a data do início da perfuração (InfoAmazonia dá a licença de 20/10/2025; Exame, que ela permite perfuração imediata; InfoMoney, poço em perfuração em ago/2026). Resumo passou a 'foi licenciada em 2025'. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A028": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: 'emenda constitucional' em vez de PEC, antes da promulgação. Cai: forma comum de falar, sem efeito na leitura. Agência Senado (N1), Itatiaia e Correio da Manhã com data (quarta, 14) e placar (75 a 1, dois turnos), trechos achados; 16/out foi sexta-feira, segundo a própria Agência Senado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A029": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: nenhum relevante. Dados abertos da Câmara (472 a 22 e 461 a 19, trecho achado na resposta JSON) e O Povo de 28/05; Correio da Manhã confirma que o Senado manteve o texto de maio.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A030": {
+    "decisao": "mantido",
+    "nota": "Revisão r1: Contra: se a entrevista foi gravada antes das 9h, a emenda ainda não estava promulgada. Cai: a sessão foi às 9h (Poder360) e a entrevista foi ao ar à noite, depois do Jornal Nacional; a EC 141 tem a data de 16/10/2026 no texto do Planalto (N1). Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A031": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: 'desde o início' pode remeter ao começo do debate da 6x1 (a PEC 221 é de 2019) e não à chegada ao Senado; sem registro anterior a maio de 2026, o 'desde o início' não estaria provado. Além disso, o título do Jornal Opção de 19/05 diz que Flávio 'defende fim da escala 6×1'. Cai: o corpo daquela matéria diz que ele criticou a PEC; a crítica mais antiga achada (19/05, A Crítica e Jornal Opção) é anterior à chegada ao Senado (28/05, dados abertos) e nada registra apoio antes de 13/10. Uma das buscas desta revisão foi atrás de posição favorável anterior e não achou. É a mesma régua da A038 (o 'sempre' de Flávio, também VERDADEIRO com ressalva sobre o período anterior a maio). Quatro trechos achados nas capturas p04-r3/r4; resumo de 103 caracteres sem número sem lastro. · Coerência entre lotes e entre casos: Par A038: 'desde o início' e 'sempre' com a mesma régua (VERDADEIRO, ressalva de que não há registro antes de maio de 2026).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A032": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a citação literal capturada (Poder360, 06/10) usa 'oportunista' para a iniciativa de Lula, e 'eleitoreira' só aparece em paráfrase do Poder360; a frase diria mais do que a fala dele. Cai como VERDADEIRO com ressalva: três veículos (Estadão via DGABC, O Liberal, Poder360) atribuem os dois adjetivos à crítica dele ao fim da 6x1 ou à discussão dela, e a ressalva diz que o alvo era o momento e que 'eleitoreira' vem de resumo da imprensa. Independência: a explicação já declara que O Liberal pode vir do Estadão. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A033": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: o Poder360 publicou antes de 13/10 que a campanha concluíra que ele não votaria contra, então a mudança poderia ser anterior à véspera. Cai: é relato de bastidor; o anúncio público é de 13/10 (Times Brasil, O Liberal, Poder360) e a votação de 14/10 está nos dados abertos do Senado. Trechos achados nas capturas p04-r3/r4.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A034": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: o trecho N1 junta a descrição do 2º turno com um voto 'Sim' que poderia ser do 1º. Cai: conferi no JSON capturado (p04-r3) que o voto Sim de Flávio aparece nos dois blocos, depois do 1º turno e depois do 2º. Voto remoto confirmado por Poder360 e A Crítica.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A035": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: na hora da fala a emenda talvez não estivesse promulgada, e a redução é gradual, então 'reduz a jornada' seria antecipado. Cai: a EC 141 é de 16/10/2026, a Câmara registra a publicação no DOU de 16/10 (edição extra), e a frase descreve o conteúdo da emenda, que o texto do Planalto confirma; a transição está na ressalva com os números do próprio texto. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A036": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: 'cargos em comissão' é o uso corrente para comissionados, o Poder360 de 2019 escreve '21.000 cargos comissionados', e 21 mil é 'mais de 20 mil'; seria VERDADEIRO. Fica de pé o IMPRECISO: o decreto (N1) e o Estadão separam cargos, funções de confiança e gratificações, e a fala atribui o total só a cargos em comissão; é a categoria trocada do §2.2 e o mesmo veredito da A013 do caso de 28/08. A divergência do Poder360 está escrita. Trechos achados na p04. · Coerência entre lotes e entre casos: Par A037 e A013 de 28/ago. Decreto N1, número certo com categoria trocada: IMPRECISO, igual a 28/ago.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A037": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: há número apurado (cerca de 4,4 mil, CNN e Oeste) cinco vezes menor, no mesmo sentido; pela régua do §2.2 isso seria IMPRECISO (desvio de 10% ou mais), e não INSUSTENTAVEL, e falta N1/N2 para um número. Fica de pé com hesitação: as duas fontes N4 leem um painel dinâmico não capturado, a contagem muda se entram as funções comissionadas, e '22.500' não existe em fonte nenhuma, que é a linha 'número que não existe' da régua; é o veredito da A014 do caso de 28/08. Trechos achados (p02 e p04). Pergunta para a coerência: a A036 (Bolsonaro) foi rebaixada por categoria trocada com fonte; aqui, sem a primária, o lado de Lula fica INSUSTENTAVEL e não IMPRECISO. · Coerência entre lotes e entre casos: Par A036 e A014 de 28/ago. Sem N1 e sem fonte nenhuma com 22.500; apurado da imprensa cinco vezes menor: INSUSTENTAVEL, igual a 28/ago. A diferença para a A036 vem da fonte, não do lado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A038": {
+    "decisao": "alterado",
+    "nota": "Revisão r2: Contra: 'sempre' é absoluto e só há registro a partir de maio de 2026; e o Jornal Opção, citado como fonte, tem título dizendo que ele 'defende fim da escala 6×1', o que parece contradizer o próprio trecho. Cai o primeiro: a ressalva diz que não há registro anterior a maio, a mesma régua do 'desde o início' de Renata Lo Prete (A031), e a busca desta revisão não achou fala anterior em sentido contrário. O segundo é ruído do título: o corpo da matéria diz que ele criticou a PEC e traz a frase citada. Como divergência aparente não pode ficar calada, entrou nota em divergencia_entre_fontes. Veredito mantido; trechos achados nas capturas p04-r3/r4. · Coerência entre lotes e entre casos: Par A031; ver nota da A031.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A039": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a frase é sobre o que ele 'ouviu' dos trabalhadores, quase anedota, e as pesquisas medem eleitores, não trabalhadores; o Datafolha é de março de 2025. Cai: a extração tomou como afirmação de que a maioria é favorável, e Quaest de maio e julho de 2026 (68% e 69%) e Datafolha (71%) sustentam 'grande maioria'; a ressalva diz o recorte de eleitores e os 56% contra com corte de salário. A regra 2 da §3.1 está declarada (Poder360 reproduz a Quaest, cujo PDF capturado tem os números só em gráfico). Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A040": {
+    "decisao": "alterado",
+    "nota": "Revisão r2: Contra: quem falou foi o líder do PL na Câmara, uma pessoa, e não 'aliados no Congresso' em geral; e a proposta é PEC de Marinho, não 'do partido'. Cai: o Broadcast (Estadão) registra outros parlamentares aliados sinalizando revisão a partir de 2027, e a PEC é de senador do PL, apresentada como alternativa do partido. Três apurações diferentes (Estadão, UOL via Canal Rural, Poder360). Trechos achados. · Coerência entre lotes e entre casos: Confiança alta com só fontes N4; o esquema define alta como fonte N1 direta. Passou a média, veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A041": {
+    "decisao": "alterado",
+    "nota": "Revisão r2: Contra: a PEC 12/2026 é de Rogério Marinho com coautores de vários partidos, não 'do PL'; e a explicação afirmava a coautoria de Flávio e a data de apresentação sem trecho. Cai a primeira: o autor é do PL, o líder do PL a trata como proposta do partido e o próprio Flávio a levou à bancada em 19/05 (Agência Brasil). A segunda era defeito: a página capturada (p05-r2) lista Flávio entre os coautores, e o trecho passou a incluir isso; 'apresentada em 28/05' virou 'na CCJ desde 28/05', que é o que a página mostra. Veredito mantido. O 'salário proporcional' da frase confere: o valor mínimo da hora é proporcional ao salário mínimo ou ao piso.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A042": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a pergunta não afirma nada, só pergunta se ele reverteria. Cai: a pergunta pressupõe a aprovação, e a pressuposição é checável (METODOLOGIA §4.1); a Câmara registra a EC 141/2026 publicada no DOU de 16/10, o Planalto publica o texto, e o Congresso em Foco dá 75 a 1 no Senado. Ressalva com números do trecho do Planalto. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A043": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: o governo patrocinou a PEC e a campanha de Lula reivindica a medida, então 'decisão do Congresso' omitiria o Executivo. Cai: a frase só diz quem decidiu, e emenda constitucional é votada e promulgada pelas Mesas, sem sanção (texto da EC 141 no Planalto, placares da Câmara nos dados abertos, Senado no DOL). Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A044": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: Flávio não propôs cinco anos; disse que o processo legislativo decidiria se seriam 'quatro, cinco anos', e na própria sabatina disse que ficaria com quatro se o Congresso assim decidisse. Cai: 'ventilar' é levantar a hipótese, e as duas transcrições de 8/10 (Correio, O Liberal) mostram que ele ligou o próprio mandato à hipótese de cinco anos; a ressalva diz que ele deixou a decisão ao Congresso. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A045": {
+    "decisao": "alterado",
+    "nota": "Revisão r2: Contra: 'tem dito que quer ser presidente de um mandato só' pode ser lido como compromisso pessoal, e a fala de fevereiro é sobre a regra geral ('o presidente deve ter apenas um mandato'). Cai: em 8/10 (O Liberal) ele disse que não pretende disputar 2030, o compromisso pessoal; com a declaração de fevereiro (InfoMoney e Jornal de Brasília, mesma fala), são declarações repetidas. Trechos achados. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A046": {
+    "decisao": "alterado",
+    "nota": "Revisão r2: Contra: a PEC veda só a reeleição consecutiva (inelegível 'no período subsequente'), então não 'acaba' com a reeleição, que continuaria possível depois de um intervalo. Cai como VERDADEIRO com ressalva: 'reeleição', no sentido do art. 14 § 5º, é a consecutiva, e a ressalva diz isso. Defeito achado: a explicação citava o SBT News, que não está entre as fontes desta checagem (está na A050); corrigido para citar só o Jornal de Brasília. Veredito mantido. Trechos achados (p05-r2, p06-r2, p06-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A047": {
+    "decisao": "alterado",
+    "nota": "Revisão r2: Contra: o INSUSTENTAVEL dizia que não há fonte e usava como referência o levantamento da Folha (R$ 193,8 bi), argumentando que 'gastou' não corresponde ao critério. Fica de pé o argumento contra a checagem: uma das duas buscas desta revisão achou o Gastômetro do Estadão, que mede 'gastos de Lula para se reeleger', no vocabulário da frase, e somava R$ 278,3 bi em 18/08/2026, com alta prevista (TNH1 reproduz a reportagem; capturado em -rv2). A busca da checagem não foi exaustiva, então o veredito é provisório de fato e estava sem o marcador: o marcador entrou, a confiança foi a baixa, o resumo passou a dar o dado do Gastômetro e a ressalva o da Folha (com o trecho estendido às 11 medidas de crédito; 'a maior parte crédito' do resumo antigo falava de valor, e o trecho só fala de número de medidas). O veredito fica INSUSTENTAVEL: o dito fica 25,8% acima do valor de agosto, mas medir uma fala de 16/10 com um painel que crescia seria anacronismo (lição da A180 do caso de 15/10). O resumo do buscador citou valor maior do Gastômetro no fim de setembro, sem página capturada; não entra. Falta para a rodada 2: o valor do Gastômetro mais próximo de 16/10 e a régua de 10% sobre ele. · Revisão da rodada 2: Melhor argumento contra o INSUSTENTAVEL: o Gastômetro dava R$ 354 bi em 14/10, desvio de 1,1% (conta refeita), o que pediria VERDADEIRO ou IMPRECISO. Não derruba: o número é soma de um jornal, reproduzida só por imprensa, sem N1 ou N2 (regra 1 da §3.1), e o próprio painel diz que não é só dinheiro desembolsado, o que contradiz o 'já gastou'. Esta é a régua aplicada às A173 e A174 da entrevistadora nesta revisão. O aviso do validador sobre '09' no numero_apurado vem da data 17/09/2026 e não é número sem lastro. Seis trechos achados. · Coerência entre lotes e entre casos: Aviso do validador: a data 17/09/2026 do número apurado passou a ser escrita por extenso. Nada mais mudou.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A048": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a contagem de 'tentativas' poderia excluir 2006 (reeleição) ou incluir 2018 (candidatura registrada e indeferida). Cai: 2006 foi disputa por mandato; Agência Brasil e Jornal da Paraíba, separadamente, contam sete com 2026 (1989, 1994, 1998, 2002, 2006, 2022, 2026), e o arquivo do TSE confirma a candidatura de 2026. Se 2018 entrasse, seriam oito; nenhuma fonte capturada conta 2018, então fica como pergunta para a coerência, não como mudança. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A049": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: o art. 2º aplica a PEC 'inclusive ao Presidente da República eleito em 2026', o que poderia mexer no mandato em curso. Cai: aplicar a inelegibilidade ao eleito em 2026 não muda a duração do mandato; o texto capturado (p05-r2) tem só os dois artigos, e a página do Senado mostra a PEC aguardando despacho, sem substitutivo. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A050": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a extração ('acaba só para presidente, não para governadores e prefeitos') vai além da frase curta 'eu apresentei para a presidente da República'. Cai: no contexto da transcrição (670 a 685 s) ele diz que o Congresso decidiria sobre governadores e prefeitos, o que a extração resume; o texto N1 mantém a reeleição de governadores e prefeitos no § 5º e cria o § 5º-A só para o presidente. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A051": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra (para FALSO): o texto da PEC não tem uma linha sobre parentes, e a frase atribui a ela uma regra que não existe; a fonte N1 contradiz o que foi dito. Contra (para VERDADEIRO): logo depois (A052) o próprio Flávio diz que é 'como está hoje na regra que vale', e o efeito sobre o pai e os irmãos, objeto da pergunta, existe. Fica o IMPRECISO: pela regra vigente (art. 14, § 7º, e Consulta 117/2016 do TSE), sem reeleição do titular os parentes até o segundo grau também ficam barrados, então a essência se sustenta; erram o grau e a atribuição ao texto da PEC. Trechos achados (p06-r2 a r4).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A052": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a pergunta era sobre o pai e os irmãos, parentes de 1º e 2º grau, que a regra de fato alcança; o 'terceiro grau' seria ornamento, e o card deveria ser VERDADEIRO. Fica o IMPRECISO: a frase descreve a regra vigente com um recorte (terceiro grau) que a Constituição e o TSE não têm, e esse recorte amplia a regra a tios e sobrinhos; é recorte errado do §2.2, a mesma régua da A051. Constituição (captura do caso de 15/10, p09), TSE e TRE-RJ achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A053": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: nenhum relevante; a idade é aritmética. Conferido: 30/04/1981 no TSE e no Senado, 45 anos completos em 16/10/2026, derivação declarada. Trechos achados.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A054": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a inscrição na OAB foi cancelada em 2010 por falta de comprovação da graduação, e não houve consulta ao Cadastro Nacional dos Advogados. Cai: a Folha (julho de 2026) o descreve como advogado inscrito na defesa do pai, com pedido da própria OAB ao STF, e registra inscrição válida no Rio e no DF; o cancelamento e o restabelecimento estão na ressalva, e a confiança é média. Trechos achados (p06-r3, p06-r5).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A055": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: 'empresário' é mais autodescrição que fato; escritório de advocacia é sociedade simples, não empresa, e R$ 56 mil em duas empresas é participação pequena. Cai: o termo não tem definição legal estrita, e há participação societária declarada ao TSE em 2026 (DGABC/Estadão) e sociedade da qual ele é o único sócio (Diario de Pernambuco); a ressalva diz que as empresas não são nomeadas. Confiança média adequada. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A056": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a pós em Ciências Políticas da UFRJ que constava dos perfis oficiais não existe, e as fontes reproduzem documentos do próprio candidato. Cai: o curso citado na fala é outro, 'políticas públicas e governo', e o certificado mostrado (Poder360) e o ano de 2012 (Congresso em Foco e G1 via Bahia Notícias) o sustentam; a ressalva registra a pós inexistente. Pequeno defeito não corrigido: a explicação cita a Agora RN, que não está entre as fontes desta checagem, só da A057; nada muda na tela. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A057": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a fala diz 'MBA e empreendedorismo em novos negócios', e o curso é 'Empreendedorismo e Desenvolvimento de Novos Negócios'. Cai: diferença de nome sem efeito no fato; o diploma da FGV (Poder360, Agora RN) e o ano de 2015 (G1 via Bahia Notícias) estão nos trechos. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A058": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: o trecho N1 tem um corte '[...]' entre a quarentena e o impedimento de parentes, onde poderia haver um sétimo item. Cai: conferi no PDF capturado (p04-r4) que o corte é só o número da página (65); a seção 'Propomos:' tem exatamente seis marcadores. Registro no TSE em 13/08 pelo Congresso em Foco. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A059": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: a proposta é 'fim das competências criminais originárias do STF', que alcança outras autoridades, não só parlamentares. Cai: o próprio texto diz 'permitindo que parlamentares sejam julgados por instâncias inferiores', e a frase não diz que só parlamentares seriam alcançados. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A060": {
+    "decisao": "mantido",
+    "nota": "Revisão r2: Contra: 'limitação das decisões monocráticas' não é o mesmo que 'reduzir o número' delas; limitar pode ser restringir o alcance, não a quantidade. Cai: privilegiar decisões colegiadas reduz as individuais, e Congresso em Foco e Estadão descrevem como restringir decisões individuais; a divergência com o índice ('fim das monocráticas') está escrita. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A061": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: a pergunta fala de familiares de ministros do STF, e o plano fala de parentes de magistrados em geral; e a fonte N1 é uma cópia do PDF do programa publicada pelo Poder360, não a página do TSE. Cai: o recorte da pergunta está contido na proposta (ministro do STF é magistrado), a ressalva diz o alcance maior, e DGABC e A Crítica, leituras independentes do plano, trazem a mesma medida. Frase conferida na transcrição (764,4 s; 'familiares deles' retoma 'ministros'). Os três trechos achados nas capturas p07 e p07-r3.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A062": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Provisório: o marcador 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' está exato e a confiança é baixa. Contra o provisório: R$ 20 bi (Haddad) daria IMPRECISO a 20% de desvio. Fica: falta N1 ou N2 (relatório da comissão técnica entregue ao STF, CNJ ou Tesouro), falta procurar a origem dos R$ 24 bi e falta medir o gasto depois das regras do STF de 25/03/2026 (economia de R$ 7,3 bi estimada por Moraes). Derivação 24 contra 20 = 20% conferida. Quatro trechos achados na p07-r2. · Revisão da rodada 2: IMPRECISO passou a INSUSTENTAVEL. O IMPRECISO media 24 contra 20 como se 20 fosse o total, mas a fonte N2 trata o valor como mínimo: 'pelo menos 8 bilhões de dólares ao ano' (os cerca de R$ 20 bi), estudo de 'um subgrupo do universo de servidores', com subnotificação; Itatiaia e Coalizão escrevem 'ao menos'. Desvio contra piso não prova erro (mesma leitura da A192 do caso de 15/out). 24 não aparece em fonte e nada o contradiz: INSUSTENTAVEL pela régua do §2.2. Trechos novos conferidos na captura r2parte2. Ver correcoes-rodada2.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A063": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: 'não só a investigação' não tem fonte com Flávio pedindo investigação formal; o pedido à PGR e ao STF é da liderança da oposição. Não derruba o veredito: o essencial é a defesa do impeachment ligada às mensagens de Vorcaro, com três coberturas independentes do discurso de 1º/09 (Congresso em Foco, Diario de Pernambuco, Gazeta do Povo) e a BP Money o pondo entre os que cobraram esclarecimentos; a ressalva já diz o limite. Mudou a confiança, de alta para media: só há N4 e a parte da investigação exige interpretação (skill checar-alegacao, campo confianca). Trechos achados nas capturas p07-r3 e na p06 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A064": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: 'relações' não afirma ilícito, e as relações estão documentadas (contrato de R$ 131 milhões do escritório da esposa com o Master, mensagens de Vorcaro ao ministro), o que daria VERDADEIRO com ressalva. Fica: é a mesma régua da A064 do caso de 15/out, mantida pela auditoria final daquele caso contra a mesma sugestão (fato em apuração, etica-e-risco §5), e o resumo diz o que está documentado e que a apuração não concluiu, sem puxar para um lado. Trechos achados (Pública e Diario de Pernambuco nas capturas de 15/out, Congresso em Foco na p07-r3).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A065": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: só N4 para um fato de 2020 com confiança alta, e o critério pedia a mensagem presidencial e a votação no Senado. Não derruba o veredito: três coberturas independentes da data da votação dizem que Kassio foi o primeiro indicado de Jair Bolsonaro, e nada diverge. Fica a pergunta para a coerência: confiança alta só com N4 contraria a definição da skill (alta = N1 direta), mas é prática comum nos dois casos (A005, A024, A066 de 15/out; A040, A045 deste). Trechos achados na p07-r3. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média. A A071 de 15/out (Dino indicado por Lula) tem N1; esta não.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A066": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: o voo de novembro de 2025 foi em aeronave operada por empresa ligada a bens de Vorcaro, o que pode ser lido como 'bancar despesa'. Cai: o gabinete diz que o convite e o custo foram da advogada Camilla Ramos, e a representação do PT diz que as mensagens sobre a casa do Joá não mostram quem pagou; nenhuma fonte mostra mensagem de Vorcaro pagando despesa do ministro. Pedido de investigação sem decisão: INSUSTENTAVEL, não FALSO (etica-e-risco §5). Trechos achados na p07-r2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A067": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: o Coaf registra R$ 281 mil da Consult, contratada pelo Master, ao escritório do filho, o que confirmaria a triangulação. Não derruba: as reportagens dizem que as mensagens não comprovam os R$ 500 mil nem a origem do dinheiro da Consult, e a apuração não concluiu (etica-e-risco §5, mesma régua da A064). Mudou o resumo: 'ele admite R$ 281,6 mil e nega o resto' podia ser lido como confissão de parte de um pagamento de Vorcaro; o trecho do Times Brasil diz que o advogado afirma ter recebido R$ 281,6 mil da Consult por serviços prestados à própria empresa (pergunta 8). Trechos achados na p07-r2.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A068": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: a liminar de Gilmar Mendes nas ADPFs 1.259 e 1.260 mexeu no art. 39. Cai: o trecho da decisão (captura p07-r3) atinge só os itens 4 e 5; os itens 2 (julgar quando suspeito) e 3 (atividade político-partidária), os dois exemplos da fala, estão no texto compilado do Planalto e na petição da ADPF. Frase conferida na transcrição (878,6 a 904,5 s, com os cortes marcados). A fonte da decisão é PDF hospedado em correiosabia.com.br, não no portal do STF; o texto é o da decisão.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A069": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Melhor argumento contra o FALSO: o art. 44 da Lei 1.079 usa linguagem imperativa (recebida a denúncia, 'será lida' e despachada à comissão), então a lei impõe ao Senado processar a denúncia; e 'é obrigação' pode ser dever político, não descrição do rito. Não derruba: a fala diz 'iniciar um processo de impeachment', e a lei põe entre a denúncia e o processo um parecer e uma votação do plenário que pode arquivar (art. 48, no trecho do Planalto); na prática o presidente do Senado filtra os pedidos (Poder360; BP Money: 109 pedidos) e a decisão do STF registra uma rejeição de 2020. O essencial da frase (obrigação de abrir) é contradito, não só o ornamento: FALSO, como a A077 de 15/out. O '2/3' citado na explicação está na captura da decisão (p07-r3), fora do trecho. Frase conferida na transcrição (883,7 a 893,1 s).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A070": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: 'Ele que fez as pazes' credita só a Moraes uma reaproximação organizada com Zanin, que a Oeste atribui sobretudo a Zanin e o Jornal de Brasília a apelos de líderes do PT; e senadores dizem que não houve reconciliação. Não derruba o VERDADEIRO: quatro coberturas independentes dizem que Moraes e Zanin organizaram ou intermediaram o encontro, na casa de Moraes; a frase não diz 'sozinho', e a ressalva leva Zanin e o limite da reconciliação para a tela. Mudou: a divergência citava o Jornal de Brasília sem fonte; entrou a matéria, já capturada (p07-r2 a00f3d530923), com o trecho dos apelos e o de que o encontro foi na casa de Moraes, com Zanin.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A071": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Provisório: marcador exato e confiança baixa. O que falta, conferido: fonte N1 ou N2 com o total pago e a conversão (relatório da PF tornado público ou decisão de Mendonça); o veredito depende da conversão (70 contra 65 = 7,7%; contra 62,8 = 11,5%; contra 61 = 14,8%, contas refeitas). Nota para a rodada 2: o total de US$ 12,3 milhões (7 parcelas, a última de 16/09/2025) é o vigente na data da fala; os US$ 10,6 milhões são só até maio de 2025. Trechos achados (p08-r2, p08-r3, p09). · Revisão da rodada 2: Pergunta da entrevistadora. Melhor argumento contra o VERDADEIRO: a conversão escolhida favorece a frase; no dólar do dia da fala (5,0826) os US$ 12,333 milhões dão R$ 62,7 milhões, e 'quase 70' ficaria 11,7% acima (contas minhas), IMPRECISO; e Flávio disse que o último repasse foi em maio de 2025. Não derruba: para dinheiro já transferido, a medida certa em reais é o dólar de cada repasse, e o método se prova porque a mesma conta até maio dá R$ 61,0 milhões, o valor publicado pelo Intercept; refiz com a série do BC capturada: R$ 69,83 milhões. A sétima parcela tem duas fontes independentes (relatório do Coaf pela piauí; total de US$ 12,333 milhões pela delação, na Gazeta do Povo). A piauí diz 'mais de 65', compatível. O valor dos repasses está documentado; o que está em apuração é a irregularidade e o destino, e o card não fala disso. Mesma prática da A087 deste caso. Oito trechos achados. · Coerência entre lotes e entre casos: Par A072 e A086. Objetos diferentes: dinheiro transferido, com datas conhecidas, pelo dólar de cada repasse; valor negociado pela média do ano, com a faixa na ressalva. Desvios medidos sobre o apurado nas três.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A072": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Provisório: marcador exato e confiança baixa. Contas refeitas: 134 contra 131 = 2,3%; contra 122 = 9,8%. O Correio da Manhã traz o próprio Flávio admitindo a conversa sobre US$ 24 milhões, 'o equivalente a R$ 134 milhões na época'; falta só a fonte N1 ou N2. Para a rodada 2: a A086 é a mesma afirmação da entrevistadora ('134') e precisa sair com o mesmo veredito. Trechos achados (p08, p08-r2). · Revisão da rodada 2: Pergunta da entrevistadora. Contas refeitas com a série do BC capturada: média de 2025 = 5,5855 (252 cotações), 24 vezes isso = R$ 134,05 milhões; 24 vezes 6,0440 = R$ 145,1 milhões; 24 vezes 5,0826 = R$ 122,0 milhões. Desvios do 134: 7,6% contra 145,1, 2,3% contra 131 (PF) e 9,8% contra 122. Melhor argumento contra: 9,8% está colado na régua. Não derruba: nenhuma conversão razoável passa de 10%, e o valor em dólares (US$ 24 milhões) foi admitido pelo próprio Flávio (Correio da Manhã). Igual à A086, como pediu a revisão r3. Ponto para a coerência: aqui a régua é 'todas as conversões dentro de 10%', na A071 é 'o dólar de cada repasse'; a diferença tem motivo (compromisso sem data única contra repasse com data) e está escrita. Seis trechos achados. · Coerência entre lotes e entre casos: Mesma afirmação, veredito e fontes da A086; critério de câmbio coerente com a A071.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A073": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: o dinheiro chegou ao filme, então dizer que 'foi parar num fundo' sugere desvio. Cai: a frase só afirma o caminho (fundo nos EUA em vez da produtora), e esse caminho é registrado pela piauí via Poder360, pelo comprovante publicado pelo Intercept e pela própria produtora no laudo (InfoMoney). Nada no card afirma desvio. Trechos achados (p08, p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A074": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra o IMPRECISO: o Havengate Development Fund foi criado para vender um projeto imobiliário (Intercept, PF via TVT News), então 'um fundo imobiliário' descreve o que ele é no registro, e o veredito pune uma implicação. Fica, com confiança media: o fundo nunca teve terreno nem imóvel e a única atividade conhecida desde 2025 é receber e repassar dinheiro do filme; o rótulo sem mais é recorte que muda a leitura (§2.2). A espelho é a A075 (Flávio), INSUSTENTAVEL porque a segunda metade ('só a gestão do filme') está em apuração; as duas usam as mesmas fontes. Trechos achados (p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A075": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: as fontes dão razão a Flávio quanto à atividade (nunca houve imóvel; desde 2025 o fundo só aparece ligado ao filme), o que puxaria para IMPRECISO como a A074. Não derruba: 'só faz a gestão do filme' é exatamente o que a PF rastreia (pedido de cooperação aos EUA em 9/10) e investiga (se parte custeou despesas de Eduardo), e a origem imobiliária contradiz o 'não é imobiliário'. Fato em apuração: INSUSTENTAVEL, não FALSO. Trechos achados (p08, p08-r2, p08-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A076": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: a amizade é 'segundo relatos' e não registro. Cai: BBC (com registros do Texas), Poder360 (com a piauí) e Folha via Bahia Notícias ligam Calixto à gestão do fundo; BBC e piauí o descrevem como amigo de Eduardo, e na sabatina Flávio não negou ('Por um advogado experiente nisso'; Renata: 'Mas que é amigo dele'). A ressalva registra a gestão dividida com Santana. Trechos achados (p08, p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A077": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: a afirmação extraída ('o gestor é advogado') encolhe a frase, que diz 'experiente nisso'. Fica: a parte checável forte é a profissão, confirmada por BBC, Intercept e Poder360; 'experiente nisso' tem leitura fraca e foi para a ressalva, com o trecho do Intercept (a Calixsan abriu mão do registro no Texas em 2021). Falta o registro na ordem dos advogados, por isso confiança media. Trechos achados (p08, p08-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A078": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: do registro (24/11/2020) à primeira remessa (13/02/2025) são mais de quatro anos, e as fontes falam em 'quase quatro'; 'inativo' também não é o termo do registro. Cai: 'quatro anos' fica dentro da régua contra 'quase quatro' ou pouco mais de quatro, e a ressalva diz que o fundo seguia ativo no registro. A data de 24/11/2020 está na mesma captura do Intercept (p08-r2), fora do trecho. Duas das três fontes reproduzem o relatório da PF, que cita o Intercept; a explicação declara. Tipo data_ou_prazo, só N4. · Coerência entre lotes e entre casos: Par A138 do lado da entrevistadora: prazo em anos só com imprensa, e as três fontes têm uma origem só (o relatório da PF cita o Intercept; regra 3 da §3.1). VERDADEIRO passou a INSUSTENTAVEL pela regra 1, para que o mesmo tipo de afirmação não tenha réguas diferentes nos dois lados da mesa. O número apurado perdeu o '24/11' sem trecho (aviso do validador). Ressalva mantida.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A079": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: ausência é difícil de provar, e o laudo da produtora diz que o gasto do filme saiu do fundo, o que é informação sobre o destino. Cai: o laudo é da produtora, não do fundo, e o perito diz não seguir o dinheiro depois dos pagamentos; os gestores não responderam à BBC; a produtora americana negou documentos à PF; e em 9/10 a PF ainda pedia cooperação aos EUA para rastrear o destino. Não é busca interrompida. A ressalva leva o laudo para a tela. Trechos achados (p08, p08-r2, p08-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A080": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: a produtora apresentou de fato um laudo de R$ 75 milhões dizendo que tudo saiu do fundo, o que é uma prestação de contas. Não derruba: a perícia não teve acesso ao fundo nem trouxe notas fiscais (Congresso em Foco), o perito não segue o dinheiro e a PF pediu mais dados (BP Money), e 'todo gasto com autorização do fundo' não aparece em fonte nenhuma; o destino segue em apuração. Detalhe: a explicação cita Folha Vitória e Diario de Pernambuco, que não estão entre as fontes desta checagem; o ponto que sustentam está nos trechos da TVT News e do InfoMoney. Trechos achados (p08, p08-r3).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A081": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: o dinheiro de Vorcaro saiu de empresas privadas dele, o filme é privado e nenhuma fonte achou incentivo da Ancine ou da Rouanet; 'sem recurso público' é acréscimo da extração. Não derruba: o que a frase opõe ('patrocínio' privado contra vantagem indevida) é o objeto do inquérito de Mendonça, e há inquérito sobre emendas na produção; fato em apuração, INSUSTENTAVEL (etica-e-risco §5). Para a coerência: A081 e A089 são quase a mesma afirmação ('patrocínio privado' e 'relação privada, sem dinheiro público'), contadas duas vezes do lado do candidato. Trechos achados (p09). · Coerência entre lotes e entre casos: Quase a mesma afirmação da A089, mesmo veredito e mesmo critério. A dupla contagem vai para o autor.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  "A082": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: nenhuma fonte aponta ato do senador em troca do dinheiro, o que favoreceria a frase. Não derruba: a contrapartida é o que o inquérito autorizado em 22/07/2026 apura (a PGR pediu mapear projetos de interesse do Master), sem conclusão: INSUSTENTAVEL, nunca FALSO. O resumo diz que ele é investigado 'por suspeita de corrupção', o que está no trecho do DGABC (pedido da PF, 'em tese'), sem afirmar culpa. Trechos achados (p09).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A083": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: a Veja publicou áudio de Vorcaro dizendo que Vaccari pediu dinheiro para o filme de Lula ligado a negócio com fundos de pensão, o que é a contrapartida que a frase descreve. Não derruba: PF e PGR negam ter recebido o relato, investigadores dizem que o celular não menciona o patrocínio, a equipe de Oliver Stone nega e a autenticidade é contestada; relato sob apuração, INSUSTENTAVEL. Mesma régua da A064 e A066 (entrevistadora). Trechos achados (p09, p10, p11).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A084": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: Flávio diz o que a Veja publicou (30 milhões por fora no relato de Vorcaro em áudio e documentos), o que faria uma atribuição VERDADEIRA, como a A085 da entrevistadora. Não derruba: as fontes divergem sobre o ponto exato da frase ('É o áudio do Vorcaro'): o Estadão (DGABC) diz que na gravação ele não menciona valores, e o trecho do SBT News só traz 'por fora'; a autenticidade está sob apuração. A diferença para a A085 é a divergência entre fontes, não o lado da mesa. Trechos achados (p09, p10, p11). · Coerência entre lotes e entre casos: Mesmo valor da A094, mesma divergência (O Povo contra Estadão sobre o valor estar na gravação) e mesmo veredito.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A085": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: é valor, todas as fontes são N4, e o laudo (a primária) não foi conferido; na A126 e na A153 do caso de 15/out, número da entrevistadora nessa situação virou INSUSTENTAVEL. Fica, com a pergunta para a coerência: lá a primária era pública e capturável; aqui o laudo está anexado a inquérito e não é público, e há leituras independentes (Metrópoles via A Tarde, Correio da Manhã com texto próprio, Tribuna de Jundiaí; InfoMoney na A080) mais a divulgação pela própria produtora. A explicação invoca a regra 2 da §3.1, mas a primária não foi conferida, então a regra não se cumpre ao pé da letra. O tipo (atribuicao_a_terceiro) não exige N1/N2 no validador; a A090 (Flávio), tipo valor_monetario, ficou INSUSTENTAVEL por falta de N1/N2 com fontes do mesmo nível. Trechos achados (p09). · Coerência entre lotes e entre casos: Par A090 (candidato, valor de documento não público lido pela imprensa, INSUSTENTAVEL 'e não IMPRECISO, que exigiria fonte N1 ou N2'), A173 e A174 (a própria entrevistadora, percentuais só em reportagens) e A126 de 15/out. O laudo não é público e não foi conferido; a regra 2 não se cumpre (a r3 já apontava) e a regra 1 vale para afirmação que envolve valor, qualquer que seja o tipo da extração. VERDADEIRO passou a INSUSTENTAVEL; o número apurado passou a começar em reais (aviso do validador). Trechos conferidos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A086": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Provisório: marcador exato e confiança baixa. Falta a fonte N1 (representação da PF ou decisão do STF com o valor). É a mesma afirmação da A072 ('134'), e as duas devem sair iguais na rodada 2. O numero_apurado usa US$ 10,6 milhões repassados, dado só até maio de 2025; na data da fala o total documentado era US$ 12,3 milhões (Poder360, já capturado). Derivação 134/75 = 1,79 conferida. Trechos achados (p09). · Revisão da rodada 2: Mesma afirmação, fontes e contas da A072 (conferidas lá); veredito igual, como pedia a revisão r3. A nota do r3 sobre os US$ 10,6 milhões foi atendida: o repassado vigente (US$ 12,3 milhões) fica na A071 e na A087. Razão 134 dividido por 75 = 1,79 conferida e fora do veredito. Sete trechos achados (r2parte2, p08, p08-r2, p09). · Coerência entre lotes e entre casos: Só a conta lateral da explicação: o custo de R$ 75 milhões passou a 'atribuído à perícia pelas reportagens', por causa da A085. Veredito, resumo e ressalva iguais aos da A072.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A087": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: o contrato não foi divulgado, e 'não foi cumprido' pode ser lido como quebra unilateral, quando a prisão de Vorcaro interrompeu os pagamentos. Não derruba: o essencial (o combinado não foi pago por inteiro) tem fontes independentes, inclusive a cobrança de parcelas atrasadas pelo próprio Flávio. Mudou o dado: o resumo e o numero_apurado davam US$ 10,6 milhões repassados, que é o total até maio de 2025; na data da fala o Coaf, via Poder360 com a piauí (captura p08-r2 063167ccf3af), somava 7 parcelas e US$ 12,3 milhões, com a de 16/09/2025 (pergunta 5, anacronismo). Entraram a fonte, o resumo, o numero_apurado, a data de referência e a explicação novos; o veredito fica.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A088": {
+    "decisao": "alterado",
+    "nota": "Revisão r3: Contra: os outros investidores não foram identificados, e a conclusão do filme vem só da distribuidora. Fica: a distribuidora declara o filme finalizado, a Ancine registrou a obra com duração, e a produtora diz que buscou novos investidores; o fundo enviou US$ 13,3 milhões ao filme (perícia), acima do que o Coaf atribui a Vorcaro. Mudou a explicação: comparava com US$ 10,6 milhões (total até maio de 2025); passou a usar US$ 12,3 milhões, o total na data da fala, com a fonte do Poder360 (captura p08-r2). A conclusão não muda.",
+    "verificacoes": [
+      "1",
+      "3",
+      "5",
+      "7"
+    ]
+  },
+  "A089": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: a frase seguinte da transcrição é 'um dinheiro totalmente ilícito', provável erro do motor por 'lícito', que a extração não usou; e a afirmação acrescenta 'sem dinheiro público' a 'uma relação privada'. Fica INSUSTENTAVEL pela mesma régua da A081: o caráter privado do repasse é objeto do inquérito de Mendonça e o uso de emendas, de outro inquérito, sem decisão. Para a coerência: é quase duplicata da A081 e pesa duas vezes na contagem do candidato; e o 'ilícito' da transcrição em 1112,6 s merece ser ouvido. Trechos achados (p09). · Coerência entre lotes e entre casos: Ver A081.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ]
+  },
+  "A090": {
+    "decisao": "mantido",
+    "nota": "Revisão r3: Contra: R$ 83 milhões em mídia na Globo mais R$ 26 milhões de contrato pessoal somam R$ 109 milhões, o que sustenta 'mais de 100 milhões'; pela régua da A085 (N4 com leitura independente de documento não público) seria IMPRECISO (160 contra 109 = 47%). Fica INSUSTENTAVEL: o tipo é valor_monetario, a §3.1, regra 1, exige N1 ou N2 para VERDADEIRO, IMPRECISO ou FALSO, e o validador reprova sem ela; os 160 milhões não aparecem em fonte nenhuma, e a soma junta mídia comprada da emissora com contrato do apresentador. Uma busca web atrás de fonte com os 160 milhões ou com o contrato não achou nenhuma (só os mesmos 83 e 26, e a auditoria interna aberta pela Globo em outubro). Trechos achados (p09). · Coerência entre lotes e entre casos: Par A085. Fica INSUSTENTAVEL: valor de mensagens lidas pela imprensa num inquérito não público, sem N1 ou N2, e os 160 milhões não estão em fonte nenhuma. A A085 foi alinhada a esta.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A091": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: o candidato diz que o diretor 'feriu o código de ética' e foi 'exonerado', e a nota da Globo não cita código de ética nem fala em exoneração. Cai: o essencial (diretor desligado dias antes por conduta que a empresa julgou inadequada, com menção expressa à ética) está no comunicado de 15/10 (N1, trecho achado no PDF capturado p10), e Propmark e Gazeta de SP confirmam; o termo e o 'código' vão na explicação e na ressalva, que são ornamento e não essência. Conferi a frase na transcrição (1127,8 a 1141,3 s). Resumo de 99 caracteres, sem intenção.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A092": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra 1: a frase é causal ('exonerado porque ele promovia eventos bancados pelo Vorcaro') e o comunicado não cita evento nenhum. Contra 2: 'eventos', no plural, e 'bancados', quando as fontes documentam um fórum com o Master como principal patrocinador. Ficam de pé só como ressalva: a afirmação extraída é a de que ele promovia eventos do Valor em NY bancados por Vorcaro, e isso confere no essencial (Mais Goiás e BP Money, mesma apuração, declarada; Agência Pública independente sobre patrocínio de evento do Valor tratado com Kachar; DCI para o comando do Valor). A ressalva da tela diz 'um evento' e que a Globo não citou o evento como motivo. Trechos achados (p10). É a mesma leniência com plural dada à entrevistadora na A108 ('e outros'); vale a passada de coerência olhar as duas juntas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A093": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: O Povo e Correio da Manhã dizem que o advogado Daniel Bialski 'confirmou que a voz é do ex-banqueiro', e a frase fala só de voz, não de autenticidade; então seria VERDADEIRO. Não derruba: a fala direta de Bialski no SBT é 'não sou perito, mas [...] um dos áudios realmente parece ele falando', e a nota oficial da defesa (SBT; Sérgio Leonardo no O Povo) diz que a autenticidade do material não é reconhecida. 'A própria defesa confirmou' transforma a impressão de um advogado em posição da defesa; essência certa, forma exagerada, IMPRECISO, a régua da A003 e A033 do caso de 15/out. Divergência entre fontes escrita. Trechos achados (p09/p10).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A094": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra: a frase é atribuição ('o que ele fala nesse áudio') e o conteúdo está documentado (SBT transcreve 'o do Lula foi por fora [...] o do Flávio [...] foi patrocínio normal'; O Povo diz que 'na gravação' Vorcaro fala de R$ 30 milhões ao Instituto Lula), então seria VERDADEIRO com ressalva. Não derruba: a atribuição a Vorcaro depende da autenticidade do áudio, que a nota oficial da defesa não reconhece e que está sob pedido de perícia na PF; fato em apuração fica INSUSTENTAVEL (etica-e-risco §5), a mesma régua da A064 e A074 do caso de 15/out. 'Tudo legal dentro da lei' também estica 'patrocínio normal'. Achado: a explicação dizia que o valor não estava no áudio, o contrário do trecho do O Povo ('Na gravação...'); corrigido. Veredito mantido. · Coerência entre lotes e entre casos: Par A095 (norma, não cumprimento), A084 e A093. A frase é atribuição ao áudio; a explicação apoiava o INSUSTENTAVEL também na apuração do pagamento e da legalidade, que é o conteúdo. Resumo, ressalva e explicação passaram a tratar só do que o áudio diz (os dois filmes, o valor fora do trecho transcrito) e da autoria em apuração. Veredito mantido; trechos conferidos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A095": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra: as duas fontes são do próprio Grupo Globo, e metade da frase (compras de patrocínio 'obedecem a regras de transparência') não tem fonte nenhuma; a explicação admite que essas regras 'não foram localizadas [...] dentro do limite de buscas'. Fica de pé, e é o problema: a citacao_card mostra exatamente a metade não buscada, e o card verde se apoia na outra metade (Princípios Editoriais, item m). É provisório de fato sem o marcador, o caso da A155 de 15/out. Pus o marcador exato no começo da explicação, a confiança em baixa e o que falta no fim. Não refiz a busca (seria busca de confirmação). Falta à rodada 2: a política comercial pública da TV Globo para patrocínio (tabela, identificação de patrocinador) e, sem ela, decidir entre VERDADEIRO com ressalva e rebaixar; considerar também trocar a citacao_card para a parte da independência editorial. Trechos achados (p10). · Revisão da rodada 2: Fala da entrevistadora sobre a própria emissora. Melhor argumento contra o VERDADEIRO: as fontes provam que as regras existem, não que a Globo as cumpre, e a separação editorial só tem fonte da própria empresa, que na véspera desligou um diretor por 'relação inadequada' com o anunciante Vorcaro; a mesma régua deu INSUSTENTAVEL ao 'foi tudo legal' de Flávio (A094). Fica de pé: a frase descreve norma vigente (§4.1), e a norma tem fonte N1 (Lei 4.680), N2 (CENP) e N4 independente; o desligamento foi na Editora Globo, não na TV, e a A094 é fato sob inquérito, o que aqui não há. A ressalva de tela diz que o cumprimento não foi avaliado. Ponto para a coerência: A095 contra A094. Cinco trechos achados. · Coerência entre lotes e entre casos: Par A094: checada como norma vigente, com a ressalva de que o card não avalia o cumprimento; a A094 passou a usar o mesmo critério (o que o registro diz).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A096": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: a Agência Pública diz que o vazamento 'ganhou força' no dia 14, e o material já circulava antes, então 'revelado anteontem' poderia estar errado. Cai: o comunicado da Globo (N1) diz que a empresa teve acesso às conversas 'ontem' (14) e anunciou o desligamento no dia 15, o Poder360 data a demissão em 15/10 e a Gazeta de SP também data o acesso em 14/10; a ressalva registra os bastidores. Datas conferidas contra a data da fala (16/10). Trechos achados (p10).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A097": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra 1: incluídas as administradoras de consórcio (1785), 'cerca de 1.600' fica 10,4% abaixo e o veredito seria IMPRECISO. Cai: consórcio não é instituição financeira em sentido estrito, e o subtotal do próprio quadro do BC (1654) separa as duas coisas; 1600 contra 1654 = 3,3%, e 'quase 170' contra 167 = 1,8%. Refiz a leitura das linhas deslocadas do PDF: a última coluna (Mai/2026) dá 131, 19, 4, 1, 12 e 4 bancos, 888 + 766 = 1654, 1654 + 131 = 1785, e em dez/2025 1666 e 1798; as contas das derivações batem. Contra 2: as três fontes são do BC. Cai pela regra 1 da §3.1: há fonte N1 decisiva, e as duas edições do quadro não reproduzem uma à outra; mais busca não mudaria o veredito, por isso não é provisório. Trechos achados (p10, p10-r3, p10-r4). · Coerência entre lotes e entre casos: Aviso do validador: a ressalva passou a mostrar os 1.654 e os 167 apurados, além dos recortes alternativos. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A098": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra (pelo FALSO): já havia dois inquéritos da PF sobre o Master desde 2023 e termo de compromisso com o BC em novembro de 2024, antes do primeiro contato (dezembro de 2024) e dos repasses (fevereiro a maio de 2025); 'absolutamente nada de errado' estaria contradito. Não derruba: os procedimentos eram sigilosos, e dizer FALSO afirmaria que Vorcaro tinha algo de errado, o que segue em apuração sem decisão (etica-e-risco §5); INSUSTENTAVEL com a apuração dita na explicação é o caminho da régua. Contra (pelo VERDADEIRO): não havia suspeita pública; cai porque a afirmação inclui investigação, e ela existia. Achado: o resumo dizia que o BC 'advertiu' o Master; advertência é sanção formal que nenhuma fonte registra. Passou a 'convocou', que é o que o trecho do Finsiders diz. Trechos achados (p08, p10).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A099": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: o número dito existe no relato com outro papel (R$ 1 bi de comissão, não de oferta), o que pela régua do §2.2 daria IMPRECISO ou FALSO. Não derruba: o relato inteiro é de Vorcaro, publicado pela Veja a partir de anexo de delação não acolhida, e está sob notícia-crime na PF; com fato em apuração o veredito é INSUSTENTAVEL (§5), e o resumo já mostra o descompasso de número. Mesma régua da A102. Detalhe menor: a explicação atribui à PGR a rejeição das propostas de delação, mas o trecho que fala em propostas não acolhidas é da nota da PF (Congresso em Foco, na A102); não vai para a tela. Trechos achados (p09/p10/p11).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A100": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra 1: 'quem toca o Instituto Lula' pode se referir a Lula, e não a Vaccari, na sintaxe da fala. Não salva a frase: nem Lula nem Vaccari dirigem o instituto, segundo a página oficial (presidenta Ivone Silva; Okamotto na diretoria desde 2011), e a leitura mais natural, a da extração, é Vaccari. Contra 2: Vaccari aparece no relato de Vorcaro negociando repasse ao instituto, o que daria uma ligação. Não é dirigir. A fonte N1 contradiz diretamente o essencial e não há apuração sobre quem dirige o instituto, então FALSO e não INSUSTENTAVEL. O juízo 'braço direito' ficou fora. Trechos achados (p09/p10/p10-r3).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A101": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra (pelo FALSO): o 'exatamente' faz do motivo o essencial, e o motivo está errado. Contra (pelo VERDADEIRO): Vaccari tem, sim, processo por fraude em fundo de pensão. Fiz uma busca para tentar derrubar o IMPRECISO: achou que em maio de 2017 a Justiça Federal do DF aceitou denúncia da Operação Greenfield que o tornou réu por gestão fraudulenta ligada à Funcef (Estado de Minas com Agência Brasil, capturado em rv4). Isso reforça a ligação, mas não a prisão: ele estava preso pela Lava Jato desde abril de 2015, por corrupção ligada à Petrobras, e nenhuma fonte registra prisão pela Greenfield. Essência (já foi preso; há acusação de fraude em fundo) certa, motivo da prisão errado: IMPRECISO fica. A ressalva da tela dizia que fundos de pensão apareciam 'só em citações na CPI', o que diminuía o registro contra o candidato; passou a citar a Greenfield. Trechos achados (p11, rv4).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A102": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra: a Veja diz que mensagens apreendidas ajudam a corroborar o relato, então 'sem prova' no resumo seria afirmação demais contra o relato. Fica de pé contra a palavra, não contra o veredito: o relato é de anexo de delação não acolhida, a PGR não viu prova dos pagamentos e a PF abriu apuração por notícia-crime; INSUSTENTAVEL pelo §5. O resumo passou de 'sem prova' a 'sem comprovação', a forma da A099, e a divergência entre fontes já estava escrita. O descompasso de número (R$ 1 bi era a comissão, não o valor oferecido) está no resumo. Trechos achados (p09/p10/p11).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A103": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra: segundo a Veja, mensagens 'encontradas pela Polícia Federal no celular de Vorcaro ajudaram a corroborar o relato'; o candidato pode ter querido dizer isso, e então seria INSUSTENTAVEL e não FALSO. Não derruba: a alegação é sobre a posição da PF, e a única manifestação da PF é a nota de 9/10 que nega ter recebido depoimento ou anexos com aquele teor e diz que só então recebeu notícia-crime; as mensagens descritas pela revista tratam de contatos com dirigentes de fundos, não da oferta e da propina atribuídas a Vaccari. Fiz uma busca atrás de manifestação da PF entre 9 e 16/10 que confirmasse o relato: não há. FALSO fica, e não sugere culpa nem inocência de ninguém. Achado: a explicação encolhia o texto da Veja ('só diz que [...] registram contatos'); passou a expor o argumento contrário e por que cai, e o trecho do TNH1 ganhou as duas frases sobre as mensagens (mesma captura p10). Revista Oeste e Muita Informação reproduzem a mesma nota, o que a explicação declara.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A104": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra: é o espelho da A103, e se a PF tivesse confirmado algo depois de 9/10 a frase da entrevistadora cairia. A mesma busca da A103 não achou confirmação; a nota da PF sustenta a frase, VERDADEIRO, com a mesma régua e as mesmas fontes do candidato. Achado: a ressalva (texto de tela) cita mensagens obtidas pela PF com contatos com dirigentes de fundos, e nenhum trecho trazia isso; o trecho do TNH1 ganhou as duas frases da Veja sobre as mensagens (captura p10, achadas por palavra inteira). Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A105": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: 'constantemente' lido com rigor exigiria mais do que três registros em cinco meses, e o de agosto (DGABC) fala em 'interferência' da PF numa investigação, não em aparelhamento pelo governo. Cai em parte: maio (Folha PE, 'aparelharam até a Polícia Federal') e outubro (Estadão Conteúdo e AFP, duas agências) são a mesma acusação, e a própria entrevista registra o candidato dizendo 'é óbvio que a Polícia Federal está aparelhada' (1376 a 1380 s); 'constantemente' não tem métrica, e os registros achados são piso, não teto. Confiança média declarada. Vale a passada de coerência comparar com a leitura de palavras de frequência ('sempre', 'toda vez') nas falas do candidato. Trechos achados (p11).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A106": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra: a citação da entrevistadora omite 'da segurança' em 'alguém da segurança na ponta da linha', e é nessa palavra que se apoia a leitura de que Jair Bolsonaro falava da segurança pessoal e não da PF; também troca 'esperar' por 'deixar'. Não derruba o VERDADEIRO: a sequência citada ('se não puder trocar, troca o chefe dele [...] troca o ministro') está literal nas transcrições do Poder360 e da CNN, e ela abriu aspas avisando do palavrão. Mas a omissão precisava ir para a tela, pela mesma régua de literalidade usada para as falas do candidato: entrou a ressalva, e a explicação diz o que foi trocado e omitido. Poder360 e CNN transcrevem o mesmo registro oficial, o que está declarado. Trechos achados (p11). · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A107": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra: no contexto da citação ('troca o ministro'), 'de fato trocou o ministro' sugere que Bolsonaro tirou Moro, e Moro pediu demissão (o candidato diz isso na A116, VERDADEIRO); seria IMPRECISO pela régua da A003. Cai: 'trocou' é literal (Mendonça assumiu no lugar de Moro, nomeado pelo presidente), e a saída foi reação à troca do diretor-geral pelo presidente, o 'chefe' da citação; a ressalva da tela diz que Moro pediu demissão. As duas checagens (A107 e A116) são compatíveis. Achado: a explicação dizia que não havia segunda fonte capturada com a data da saída, mas a A116 tem InfoMoney, Poder360 e A Gazeta com 23 e 24 de abril (p12); corrigido. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A108": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra 1: 'e outros' no plural, e só o caso das rachadinhas está documentado. Contra 2: o card diz que o MP denunciou Flávio sem dizer o desfecho, o que pode sugerir culpa. Caem: a frase só afirma que havia casos envolvendo o candidato em 2020, e o de maior peso está em três fontes (Correio Braziliense, Folhapress no DOL, A Gazeta); a ressalva diz que o veredito trata da existência da investigação, não do mérito. O desfecho posterior do caso não tem trecho capturado e não entrou; a passada de coerência pode avaliar se o card precisa dele (etica-e-risco §5). 'Fachadinhas' não foi usada como apoio. Mesma leniência com plural da A092. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A109": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: quem trocou formalmente o superintendente foi o diretor-geral da PF (e a portaria saiu do Ministério da Justiça), não o presidente. Cai: em 2019 o próprio Bolsonaro anunciou a troca (IstoÉ Dinheiro, Estadão Conteúdo), e em 2020 a troca foi a primeira providência do diretor-geral nomeado por ele; a ressalva da tela registra a formalidade. É a mesma leniência de autoria dada à fala sobre Lula na A111 (a nomeação de Andrei, assinada por Rui Costa e escolhida por Dino segundo o Poder360). 'Na época' cobre as duas trocas. Trechos achados (p11/p12).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A110": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra 1: o motivo de uma troca é intenção, difícil de checar, e a fala tem 'se não me engano'. Contra 2: há duas versões oficiais em 2019 (presidente: produtividade; PF: pedido do próprio superintendente). Cai: o presidente recuou no dia seguinte ('Eu não falei falta de produtividade', Gazeta de SP), e a nota da PF, íntegra no Poder360, diz que a troca não guardava 'qualquer relação com o desempenho'; é prova do contrário, não falta de prova. Contra 3: se 'na época' for 2020, o FALSO se apoiava só na palavra de Moro, parte na disputa. Esse ficava de pé; entrou o Metrópoles (já capturado, p11/p12): o superintendente que saiu em 2020 foi promovido a diretor-executivo, o segundo cargo da PF, o que contradiz 'maus resultados' por registro de fato. O veredito não apura conduta nem o objeto do Inq 4831; trata só do motivo dito.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A111": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: Andrei foi escolhido por Flávio Dino (Poder360) e o ato foi assinado por Rui Costa, e 'amigo' não tem lastro. Cai: a nomeação saiu em 2/01/2023, um dia depois da posse (Folhapress no Diário do Pará), e o vínculo de confiança da campanha está em três veículos (CartaCapital antes da posse, Poder360, Itatiaia); a ressalva da tela diz que amizade pessoal não aparece nas fontes. Coerente com o caso de 15/out (A090 e A091). Folhapress e Poder360 reproduzem o ato do DOU, o que está declarado. Trechos achados (p07).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A112": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra 1: 'fumando charuto' não tem registro com Andrei (o de charuto é Vorcaro com Gonet). Contra 2: 'pessoas que a PF está investigando' no plural, e a Gazeta do Povo diz que nenhuma das autoridades presentes é investigada. Contra 3: 'está tomando' põe no presente um evento de abril de 2024. Caem como ressalva, não como veredito: o essencial (Andrei na degustação de uísque bancada por Vorcaro, e Vorcaro investigado pela PF) está em fontes independentes (Gazeta do Povo, Poder360 com dados de LAI), a citacao_card não mostra o charuto, e a ressalva da tela dá a data e diz que as autoridades não são investigadas. Coerente com a A087 do caso de 15/out. Trechos achados (p07/p08).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A113": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Provisório conferido: a explicação começa pelo marcador exato e a confiança é baixa. Não refeito. O que falta à rodada 2: achar o levantamento original de '26 das 27 superintendências' (o Portal Tela é texto gerado por ferramenta e fonte única; o Conjur deu 403) ou as portarias de 2023 a 2025, e decidir entre VERDADEIRO com ressalva (26 contra 27, 3,7%) e IMPRECISO (18 num só ato, 21 em três meses). Atenção para a A114, cuja explicação usa os 18 de janeiro de 2023 para dizer que a direção da comparação se mantém. Trechos achados (p12). · Revisão da rodada 2: Provisório: a explicação começa pelo marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' e a confiança é baixa, conferidos. Não refeito. Achado ao conferir: os lotes 07 a 12 tinham voltado à rodada 1 às 14:15; esta checagem foi restaurada com a versão da parte 2 (ver correcoes-rodada2.md). Falta: Diário Oficial de 18/01/2023 ou o levantamento original dos '26 das 27'. Quatro trechos achados (p12).",
+    "verificacoes": [
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  "A114": {
+    "decisao": "alterado",
+    "nota": "Revisão r4: Contra (pelo VERDADEIRO): 'troca um' pode ser o superintendente do Rio, o único questionado. Cai: a frase é a ponta de uma comparação numérica ('troca um [...] troca 27'), e o ato de 25/05/2020 trocou seis superintendentes (Congresso em Foco, com lista). Contra (pelo FALSO): o Metrópoles diz que, com a troca no Rio, a PF somava 26 superintendentes trocados, o que inverteria a comparação. Não derruba: o Metrópoles não diz o período, e mesmo com 6 ou 26 o número dito é outro no mesmo sentido, não oposto; pela §2.2, IMPRECISO. A ressalva da tela mostra o 26. Ponto para a rodada 2: a frase 'a direção da comparação se mantém' depende dos 18 da A113 contra os 6 de 2020, e cairia se o 26 do Metrópoles for do mesmo período curto. Trechos achados (p11/p12). · Coerência entre lotes e entre casos: Porta do validador (tipo comparacao sem N1 ou N2) e par A113. Seis superintendentes em maio de 2020 só na imprensa; o Diário Oficial de 25/05/2020 não está capturado (varri as capturas dos dois casos). Pela regra 1 da §3.1, IMPRECISO passou a INSUSTENTAVEL, a mesma régua da A113 (27 trocas de Lula), da A037 e das A018 e A040 de 15/out. A explicação diz o que falta e por que não é FALSO.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A115": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra 1: é juízo ('é óbvio que a PF está aparelhada'), e seria NAO_CHECAVEL. Cai: 'tem um grupo especial do Lula dentro da PF' é dito como fato, e checável em princípio. Contra 2: o afastamento de Andrei e Almada por Mendonça seria a confirmação. Cai: a decisão mandou apurar relatórios de inteligência e não fala em grupo ligado a Lula, e Fachin suspendeu seus efeitos; a expressão é do próprio candidato no X. Apuração em curso, INSUSTENTAVEL e não FALSO (§5), e o resumo diz o que faltou. Coerente com a A086 do caso de 15/out. Trechos achados (r2p2 do caso de 15/out, p07).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A116": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: Moro saiu porque o presidente trocou o diretor-geral escolhido por ele, então 'pediu para sair' esconde que a saída foi provocada. Cai como ressalva: a frase responde se ele foi demitido, e três registros (InfoMoney, Poder360, A Gazeta com Folhapress) dizem que o pedido partiu dele; a ressalva da tela dá o contexto da exoneração de Valeixo e da acusação de interferência, com a negativa de Bolsonaro. O Diário do Nordeste reproduz a Folha e não conta como fonte separada, o que está declarado. Compatível com a A107. Trechos achados (p07, p12).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A117": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: 'aliados' depende de uma única reportagem (Poder360) para o apoio de Moro a Flávio. Cai: o mesmo partido em 2026 está no arquivo oficial do TSE (Moro pelo PL, coligação PODE / PL / NOVO) e no Diario de Pernambuco (Flávio pelo PL), e o Poder360 registra apoio nos dois sentidos; a forma do apoio não detalhada justifica a confiança média, já declarada. Trechos achados (p12; o JSON do TSE conferido por número).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A118": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: 50,10% é margem estreita, e uma apuração parcial dava 50,18%. Cai: o arquivo oficial do TSE marca 'Eleito' com pvap 50,10, e o Poder360 com 100% das urnas dá o mesmo; a divergência com o número parcial do Correio da Manhã está escrita. Trechos achados (p12).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A119": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: 'ainda este ano', lido com rigor, não tem fonte; o relator diz que analisar após o segundo turno 'não significa imediatamente depois', e a possível liminar seria para soltar, não para anular. Fica de pé só em parte: o essencial (pedido de revisão criminal para anular a condenação em tramitação, com análise anunciada para depois de 25/10, dentro do ano) está em fontes independentes (Diario de Pernambuco, Congresso em Foco, O Liberal, DGABC com Folha), e a ressalva da tela diz que não há data. É a régua mais branda possível para a entrevistadora; a passada de coerência deve comparar com frases do candidato que tenham prazo não confirmado. Nada antecipa o resultado (§5). Trechos achados (p12).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A120": {
+    "decisao": "mantido",
+    "nota": "Revisão r4: Contra: a pena é de 27 anos e 3 meses, não 27, e a condenação inclui outros crimes além do golpe. Cai: 3 meses sobre 327 = 0,9%, abaixo da régua de 10%, e a ressalva da tela dá o número exato; golpe de Estado está entre os crimes do acórdão (STF, N1). A condenação transitou em julgado (STF, 25/11/2025), então não há a cautela de processo em curso. Coerente com a A002 de 28/ago e a A062 de 15/out. Trechos achados (p05, p12/p13/p14).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A121": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'golpe da Disney' poderia ser lido como parte da afirmação e tornar o card enganoso ao confirmar a frase inteira. Cai: a explicação isola o voto e trata o rótulo como juízo, e o resumo só fala do voto. Conferi na transcrição (1423,7 s a 1426,2 s) e na captura p13 da notícia do STF que Moraes era o relator, votou em 9/9/2025 pela condenação de todos os réus do núcleo 1 e foi seguido por quatro a um; a Agência Brasil confirma o sentido do voto em texto próprio. Resumo com 111 caracteres, sem número sem lastro.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A122": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: a fala diz 'acusado' de depredar, e a Agência Brasil de jan/2026 trata da lista de crimes dos 1.399 condenados, não só de Bolsonaro. Cai: na página capturada a lista vem logo depois de 'Somente os réus do Núcleo 1, formado pelo ex-presidente Jair Bolsonaro e mais sete réus', e a notícia do STF (N1) já traz a lista para os sete condenados; a CNN liga os dois crimes de dano ao 8 de janeiro. 'Acusado' contra 'condenado' só deixa a fala mais branda que o fato. A frase junta dois trechos (1427,9 s e 1440,9 s) com [...], corretamente marcado.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A123": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra, e é forte: no contexto da fala ('condenado por organização criminosa armada e não foi encontrado uma arma'), 'arma' pode ser lida como arma de fogo, que é o que a qualificadora da organização criminosa mira; a Gazeta do Povo diz que nenhuma arma de fogo foi apreendida com os manifestantes, o Planalto disse depois que as armas levadas do GSI não eram letais, e o agravante citado pela CNN vem de um plano, não de arma apreendida. Fica de pé com confiança média: a frase é absoluta ('em lugar nenhum'), e os registros capturados contradizem a forma absoluta: armas e munição levadas do GSI e parte delas recuperada pela PM-DF (Aos Fatos, Poder360, CNN), e facas, porretes e barras de ferro descritos nos processos (Gazeta do Povo, fonte crítica ao STF). A leitura de arma de fogo está na ressalva, e a divergência sobre armas letais está declarada. Os seis trechos foram achados nas capturas. Ponto para a coerência: o precedente A009 do caso de 28/ago nunca passou por revisão adversarial, então não serve de lastro por si. · Coerência entre lotes e entre casos: Mesmo dado e veredito da A009 de 28/ago, que não tem revisão adversarial registrada; aqui a r5 fez essa revisão e testou a leitura 'arma de fogo', que está na ressalva. Coerente com as A147 e A148 da entrevistadora.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A124": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: '10 mil quilômetros' é hipérbole de linguagem oral, e o essencial (ele não estava em Brasília) está certo. Não derruba o IMPRECISO: a régua do §2.2 vale para número dito, e refiz a conta (haversine, coordenadas FAA e DECEA dos trechos): 6.096 km, então 10 mil fica 64% acima, muito além de 10%. É a mesma régua da A033 do caso Lula (11% virou IMPRECISO). O local em 8/1/2023 confere em NPR e CNBC (capturas p13). Resumo de 114 caracteres; o '10' do resumo é o número dito.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A125": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: a frase junta 'O Flávio Dino' (1447,8 s) e 'Foi julgado pelo Zanin' (1454,7 s), com uma oração no meio, e pode sugerir que Dino e Zanin decidiram sozinhos. Cai: o [...] está marcado, a afirmação extraída é que os dois estavam entre os julgadores, e a ressalva diz que a turma tinha cinco ministros e que Fux divergiu. Composição e votos conferidos nas capturas do STF, do Poder360 e da Agência Brasil.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A126": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'até ontem' é falso ao pé da letra, porque Dino saiu do ministério em jan/2024 e o julgamento foi em set/2025. Cai: é figura de linguagem; o fato checável (ele chegou ao STF vindo do Ministério da Justiça de Lula) confere na Agência Senado, no Poder360, no Congresso em Foco e na InfoMoney, e a ressalva traz as duas datas. É a mesma régua aplicada ao 'até ontem' de Zanin (A129).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A127": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: a expressão citada, 'demônio na Terra', não existe nas fontes, e o Brasil 247 é veículo de opinião, perto do limite do N5. Fica de pé com confiança média: a captura do Brasil 247 traz a fala com veículo e data (UOL News, 8/4/2022) e diz expressamente que o sujeito é Jair Bolsonaro; o Imirante, com entrevista ao Valor, traz outra fala com a mesma imagem. Certo no fato, errado no ornamento (§2.2), e a ressalva traz as palavras registradas. A gravação original não foi capturada; vale a passada de coerência olhar se o Brasil 247 entra como N4 nos outros casos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A128": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'amigo do Lula' é o núcleo da frase e não foi checado. Cai: é qualificação, a explicação diz isso, e o checável ('colocado lá' por Lula) confere na Agência Senado (N1) e na Gazeta do Povo: indicação em 1º/6/2023, aprovação por 58 a 18. Números do resumo nos dois trechos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A129": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'até ontem era advogado' sugere que ele advogava para Lula às vésperas do julgamento de Bolsonaro. Cai: figura de linguagem, com a mesma régua da A126; as fontes (Agência Senado, Agência Brasil, Gazeta do Povo) mostram a advocacia para Lula até a indicação em 2023, e a ressalva traz 2023 e 2025, ambos em trecho.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A130": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: a entrevistadora atribui três coisas ao candidato e só duas têm registro; com a régua aplicada aos dois lados da mesa, uma atribuição de três partes com uma sem lastro poderia ser IMPRECISO. Fica de pé: a parte sem registro não foi contradita, só não foi achada, e as duas que vão para o card ('craque', 'privilégio') e a época ('começo desse ano') conferem na InfoMoney de 13/01/2026 e na CartaCapital de 19/02/2026, apurações distintas; a Folha de Pernambuco foi corretamente declarada como reprodução. A ressalva diz o que faltou. Ponto para a coerência entre lotes: conferir se atribuições parciais de Flávio a terceiros recebem o mesmo tratamento.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A131": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'quem vai decidir isso é o pai' estica a fala ('as nomeações de ministros vão passar pelo presidente Jair Bolsonaro'), e sobre a própria indicação Eduardo disse depender da vontade de Flávio; além disso, DGABC, Times Brasil e O Liberal (também capturado na p14) reproduzem o mesmo texto do Estadão Conteúdo, e a entrevista do SBT News não foi capturada, então a regra 2 da §3.1 não se cumpre por inteiro. Fica de pé com confiança média: o Times Brasil traduz a fala como 'passarão pela aprovação do ex-presidente', o que é poder de decisão; a época (10/10, seis dias antes) confere; a ressalva registra a vontade de Flávio; e a explicação declara que as duas matérias são uma apuração só. Não achei captura independente do Estadão Conteúdo.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A132": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'denunciando as arbitrariedades' é juízo, e o card poderia estar confirmando o juízo. Cai: o resumo só afirma onde ele mora e que atua do exterior contra decisões do STF, e acrescenta que o STF julgou essa atuação como coação; a ressalva separa o juízo. Residência nos EUA desde 2025 (Poder360, Times Brasil) e atuação contra Moraes no início de out/2026 (Jornal Opção) conferidas nas capturas. A divergência sobre a data de chegada (fev ou abr/2025) está declarada.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A133": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: com todos os passaportes brasileiros cancelados e mandado de prisão expedido, ele de fato não pode viajar legalmente para quase nenhum país, o que faria a frase VERDADEIRA. Fica de pé como INSUSTENTAVEL: as fontes registram a medida (Times Brasil; DGABC: 'invalida os documentos'), mas nenhuma diz que ele está impedido de entrar em países, nem que haja difusão vermelha. Usei uma busca atrás do que contradiria o veredito (difusão vermelha, proibição de viagem), e os resultados não trouxeram isso: a Bloomberg Línea diz que o cancelamento 'pode complicar' as viagens, e a Tribuna de Jundiaí, que a difusão vermelha não é o instrumento em análise porque o endereço dele nos EUA é conhecido. Nada disso foi capturado nem entrou no caso. O alcance 'um monte de países' segue sem fonte. A condenação é definitiva (Congresso em Foco), então não é caso de apuração em curso.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A134": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'toma uma Magnitsky' no presente pode sugerir sanção em vigor, e ela foi retirada em 12/12/2025. Cai: a ressalva diz isso com as datas dos dois registros oficiais do OFAC (N1, capturados), e a frase descreve a sanção, não a vigência. Bloomberg Línea e InfoMoney declaradas como reprodução da primária.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A135": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'bota a culpa' sugere acusação de Moraes pela sanção contra ele próprio, e as fontes falam de articulação de sanções contra integrantes do STF e contra o Brasil. Cai: o Jornal Opção traz a denúncia acolhida com as sanções Magnitsky contra Moraes entre as medidas articuladas, a Itatiaia traz o voto do relator ligando Eduardo a Trump e às sanções, e o STF (N1) confirma Moraes como relator da condenação. A ironia final é juízo. Confiança média porque o acórdão não foi lido. Trechos conferidos na p14.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A136": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: a frase põe a condenação na boca de Moraes ('aqui condena ele'), e quem condenou foi a Primeira Turma. Cai: Moraes foi o relator e o voto condutor, a turma o seguiu por unanimidade (STF, N1), e a frase é sobre o motivo da condenação, que confere: coação no curso do processo do pai. Pena e trânsito em julgado (3/10/2026) conferidos no Poder360 e no Congresso em Foco.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A137": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: em junho de 2026, quando Moraes julgou Eduardo, a sanção já tinha sido retirada, então 'se ele está se sentindo lesado com a Magnitsky' descreveria uma situação passada. Cai: o fato checável é que o ministro alvo da sanção relatou e julgou a ação contra Eduardo, e isso confere no STF e no Poder360; a ressalva traz a retirada antes do julgamento, com o registro do OFAC. A explicação declara que não se achou decisão sobre pedido formal de impedimento.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A138": {
+    "decisao": "alterado",
+    "nota": "Revisão r5: Contra o INSUSTENTAVEL original: a própria explicação dizia que a busca não tinha olhado 2015 e 2016 e que isso 'poderia mudar o veredito', ou seja, a busca não era exaustiva. Usei uma busca atrás do que contradiria o veredito, e apareceu: em maio de 2016 Eduardo foi a Israel em visita parlamentar (Times of Israel), e a comitiva se reuniu com o presidente do Knesset (reportagem da Folha reproduzida pelo ABC do ABC, com o relato do próprio Eduardo). As duas páginas foram capturadas (rv5) e os trechos conferidos. Com isso o resumo antigo ('começam em 2017 e 2018') ficou contradito por fonte, e o 'mais de 10 anos' (maio de 2016 a outubro de 2026) tem lastro. Melhor argumento contra o novo VERDADEIRO: uma visita de comitiva não é um 'relacionamento', e o presidente do Knesset não está qualificado como conservador em trecho nenhum. Por isso a confiança é média e a ressalva diz que a rede com a direita dos EUA começa em 2018. Detalhe em correcoes-r5.md. · Coerência entre lotes e entre casos: Porta do validador (tipo serie_historica sem N1 ou N2). A viagem de maio de 2016 está em duas reportagens independentes, mas não há registro oficial capturado (Câmara ou Knesset). VERDADEIRO passou a INSUSTENTAVEL pela regra 1; a explicação diz que nada contradiz o prazo e o que falta. A A078 da entrevistadora recebeu a mesma régua. Para o autor: se prazo e data ficarem fora da regra 1, como a A140 de 15/out sugere, A138 e A078 voltam juntas.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A139": {
+    "decisao": "mantido",
+    "nota": "Revisão r5: Contra: 'processo de afastamento' é caracterização, a principal medida (a PEC 42/2023) não foi votada, as fontes são todas N4 e a Sociedade Militar é site de nicho. Fica de pé com confiança média: os trechos capturados mostram medidas concretas (prazo de 90 dias para desfiliação dado pelos comandos, em comunicado da Marinha obtido pela Folha e na CartaCapital; PEC formulada com os comandantes), o indicador de licenças eleitorais (61 em 2022, 17 em 2026, com dados do Estadão) e a ligação com o 8 de Janeiro (CartaCapital). A ressalva diz que a PEC não foi votada. A leitura de caracterização é a mesma que se aplica às falas do candidato.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A140": {
+    "decisao": "alterado",
+    "nota": "Revisão r5: Contra: o resumo dizia 'generais, um almirante e outros oficiais [...] em decisões já definitivas', mas o trânsito em julgado registrado nas fontes (STF, 25/11/2025) é o do núcleo central, e a Agência Brasil de jan/2026 (capturada para a A122) diz que os demais núcleos ainda estavam em fase de recurso; 'outros oficiais' puxava para o card condenados de ações sem trânsito registrado. O veredito fica (militares envolvidos e condenados está documentado em N1), e o resumo passou a falar só dos generais e do almirante do núcleo central, cuja condenação é definitiva. Detalhe em correcoes-r5.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A141": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: o porto é operado por terminais privados e a privatização da autoridade portuária chegou a ser decidida, então 'área da União' seria impreciso. Cai: a Lei 12.815/2013 define o porto organizado como bem público explorado pela União, e o Decreto 11.152/2022 na redação de 2024 (texto atualizado da Câmara) mantém 'uma autoridade portuária pública'; a retirada do PND em 2023 está em duas redações independentes. A ressalva já separa operação privada de autoridade pública. Os quatro trechos foram achados na captura p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A142": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Contra: o ranking pode existir em fonte que não foi lida, e então o veredito seria VERDADEIRO; ou, ao contrário, FALSO se alguma fonte puser Santos em outra posição. Nenhuma das duas leituras cai com o que está no arquivo: o UNODC de 2022 lista quatro portos sem ordem e a PF dá recorte nacional. Mas a própria explicação diz que Europol/EMCDDA e apreensões europeias por origem, pedidas no o_que_conferir, não foram consultadas, e o World Drug Report é de 2022, não o vigente na data da fala. É provisório de fato, sem o marcador (o caso da A155 de 15/out). Pus o marcador exato, a confiança baixa e a lista do que falta, e o resumo passou de 'nenhuma fonte o põe' para 'não foi achada fonte que o ponha'. Veredito INSUSTENTAVEL mantido. Trechos achados na p15. · Revisão da rodada 2: Melhor argumento contra o INSUSTENTAVEL: o UNODC só lista quatro portos e nenhuma fonte põe Santos em segundo, o que daria FALSO. Não fecha: lista sem ordem não contradiz posição nenhuma; a análise EUDA e Europol, pedida pelo critério, classifica países e não portos. A essência (Santos entre as grandes saídas) tem apoio N2. Quatro trechos achados (p15, r2parte3-r2).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A143": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: as três fontes são imprensa, uma delas um portal agregador, e a de setembro é um mês anterior à fala. Fica de pé com confiança média: a alegação não tem número, a Agência Pública (set/2026) e o El Heraldo, de Honduras, país membro, são independentes e dizem que o Brasil está fora; a divergência sobre a Colômbia está declarada e não toca o Brasil. A frase da fala é promessa; a alegação extraída é o pressuposto, e o card diz só isso. '14 países' está no trecho da Pública.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A144": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Provisório: marcador exato no começo da explicação e confiança baixa, conferidos. Achado: a reportagem do Congresso em Foco é de 16/02/2025 (data no texto capturado da p15) e fala do 'ano passado', então a fatia de investimento de 7,4% é de 2024, não de 2023 como diziam o resumo, a explicação e a divergência. Corrigidos os três e a prova. O que falta para a rodada 2: série SIOP/Siga Brasil 2019-2026 deflacionada, execução dos programas estratégicos e efetivo, como a explicação já lista. · Revisão da rodada 2: Contas refeitas: 120.519,4 vezes 1,0462 vezes 1,0483 vezes 1,0426 = 137.808; 132.024,8 dividido por isso = queda real de 4,2%; 2019 a 2022, queda de 11,6%. Banco Mundial: 1,05% do PIB em 2022 e 2025. Melhor argumento contra o IMPRECISO: houve queda real no governo atual, o que pediria VERDADEIRO para 'reduzido'. Não derruba: a queda é pequena, menor que a anterior, e a proporção do PIB voltou ao nível de 2022; o núcleo 'sucateadas' não se sustenta, e o card mostra os dois números. Capacidade não medida, declarado. Versão da série de 30/09/2026, vigente na data da fala. Seis trechos achados.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A145": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: só imprensa e checagem, sem relatório oficial das Casas. Cai: é evento sem número, amplamente documentado; Poder360 do dia seguinte, Aos Fatos e CNN Brasil são redações independentes e os três trechos estão nas capturas p13 e p15. Mesma régua do caso de 28/08 (A010).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "A146": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: 'objetos de arte' pode ser exagero se só houve danos materiais nos prédios. Cai: o levantamento da Presidência à CPI identificou 24 obras de arte danificadas (Jornal de Brasília) e a CNN registra 68 bens do acervo cultural da Câmara danificados; vidros e salas estão no Poder360 e no Iphan. Os números do resumo estão nos trechos. Trechos achados na p13 e p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ]
+  },
+  "A147": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: os coquetéis molotov aparecem em relatos de policiais, não em perícia, e a Gazeta do Povo, crítica às condenações, fala em 'armamento' entre aspas. Fica de pé: documentos da tropa de choque (Pública), o interventor e uma policial ouvida pela CPMI (Aos Fatos) e até a Gazeta registram pedras, barras de ferro e molotov; a ressalva já diz que a origem são relatos e imagens e declara os dois números de feridos (19 e 44). A frase da jornalista é descrição de fatos e passa pela mesma régua que as do candidato.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A148": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: o Planalto disse depois que as armas levadas não eram letais, e 'roubar armas' poderia sugerir armas de fogo. Cai: a jornalista não diz 'letais', a subtração de armas e munição da sala do GSI está no Poder360, na Agência Brasil (CNN), nas imagens liberadas pelo STF (Diário do Poder) e no Aos Fatos, e a ressalva põe o tipo de arma na tela. Coerente com a A009 do caso de 28/08.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A149": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra, pelos dois lados: (a) 'prédios vazios' é força de expressão para 'sem autoridades num domingo', e então seria VERDADEIRO; (b) havia policiais e seguranças dentro dos prédios e servidores feridos, e então seria FALSO. Nenhum derruba IMPRECISO: no contexto ('quer sentar uma senhorinha na cadeira de presidente'), o essencial é a ausência de quem governa, que confere (domingo, Lula em Araraquara), e o 'vazios' literal é contrariado por policiais encurralados no Congresso (Pública) e agentes do GSI no Planalto (Diário do Poder). Essência certa, ornamento errado: a régua do §2.2 e da A003 do caso de 15/out. Trechos achados na p13 e p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A150": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: o MDB de Nunes tem ministérios no governo Lula, então 'opositor' seria discutível. Cai: a frase é sobre Nunes, não sobre o partido, e ele declarou apoio a Flávio em dez/2025 e articulava votos para Flávio no 2º turno na semana da fala (Correio da Manhã, BNews SP, CNN); em 2024 Lula apoiou o rival dele (SBT News). Fontes independentes, trechos na p15.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A151": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. O resumo não afirma ausência, diz o que está documentado (autorização até 31/03/2026, trecho N1 da Portaria 217/2025) e que o depois não foi confirmado. O que falta para a rodada 2: ato da Senatran posterior a 31/03/2026 sobre a CET/SP (renovação ou negativa) e notícia da Prefeitura. Trechos achados na p16 e p16-r2. · Revisão da rodada 2: Melhor argumento contra: FALSO, porque o governo atual autorizou e prorrogou a Faixa Azul. Não fecha: a autorização venceu em 31/03/2026 e nenhuma das portarias de 2026 abertas trata de São Paulo; a situação na data da fala não tem registro. Quatro trechos achados (p16, p16-r2).",
+    "verificacoes": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "A152": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. Resumo no padrão 'não foi localizado'. O que falta para a rodada 2: PVL do Município de São Paulo no Sadipem/Tesouro de 2023 a 2026 e notícia da negativa (valor, data, fundamento). Trechos achados na p16 e p16-r9. · Revisão da rodada 2: Aval concedido antes da fala: conferido no PRS 35/2026 (13/08) e na garantia de 25/08. Melhor argumento contra o IMPRECISO: 'não dava', no imperfeito, descreve o período de abril a agosto, em que o pedido de fato ficou parado, e daria VERDADEIRO. Não derruba: com 'tentou pegar' e sem dizer que o aval saiu, a frase deixa a impressão de negativa, e o aval foi concedido quase dois meses antes da fala; a causa da demora é disputada e o card diz isso. Quatro trechos achados (r2parte3-r2, r2parte3-r5).",
+    "verificacoes": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A153": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. O que falta para a rodada 2: ação do Município contra a União (ACO no STF ou Justiça Federal) sobre garantia a operação de crédito; se achada sem decisão definitiva, a explicação já prevê o tratamento do etica-e-risco §5. Trechos achados na p16 e p16-r9. · Revisão da rodada 2: Veredito mantido, trecho completado. Melhor argumento contra: o pedido ao STJ existiu e a garantia saiu horas depois, o que sustentaria 'teve que entrar na justiça'. Não basta: a ação está numa só fonte, sem número do processo nem decisão, e a garantia foi assinada pela própria Fazenda; 'teve que' não se prova. A data '25 de agosto' do resumo não estava em trecho desta checagem; entrou o trecho da mesma página do Diário do Transporte (conferido na captura r2parte3-r2). Coerente com a A152.",
+    "verificacoes": [
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A154": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: 'o Brasil escolheu a mudança' soma a Flávio todos os votos não dados a Lula, inclusive de candidatos que não são oposição a ele. Cai: a interpretação política ficou fora da alegação, que é só 'a maioria dos válidos não foi para Lula', e o resumo diz exatamente isso, com os números do JSON oficial do TSE (conferidos por número na captura p01) e a derivação 100,00 menos 45,16 declarada. Mesmo dado da A002 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A155": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: o candidato pode ter querido dizer feminicídio, que bateu recorde em 2025, e então seria VERDADEIRO. Não derruba: a frase diz 'assassinatos de mulheres', e no Anuário 2026 os homicídios de mulheres caíram 5,5%, para 3.539, o menor valor de 2016 a 2025 (tabela e gráfico conferidos na p16-r6); o recorde vale para o recorte. É recorte que inverte a tendência do total, IMPRECISO pela §2.2; a ressalva sobre a classificação crescente como feminicídio (44,4%) tem trecho. A mesma régua de recorte foi usada na A159.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A156": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Contra: 'recordista' pede a série inteira e só 2018 a 2025 foi conferida; além disso, as edições até 2024 não dizem 'vítimas mulheres' no título da tabela. Fica de pé: a ressalva já diz que antes de 2018 não foi conferido e o resumo fala em 'maior registro entre 2018 e 2025'; se as edições antigas incluírem homens, os valores antigos estão superestimados, o que só reforça o topo de 2025. As sete tabelas do FBSP foram achadas nas capturas p16-r6 a p16-r8. Ajuste: o numero_apurado dizia 'por 100 mil mulheres' e o 100 não está em trecho (aviso do validador); passou a 'por cem mil mulheres'. Veredito mantido.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A157": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Contra: (a) os recordes de focos do Inpe são de 2004, então 'recordista em queimadas' seria IMPRECISO, como a A155; (b) as fontes eram só imprensa reproduzindo o MapBiomas, sem a primária, numa série histórica (regra 1 e 2 da §3.1); (c) o dado era da coleção de 2025, não da vigente na fala. (a) cai: área queimada e focos são métricas diferentes, não total e recorte, e a de área, que mede o tamanho do fogo, dá recorde. (b) e (c) procediam: capturei pela revisão r6 a ficha técnica do MapBiomas Fogo, Coleção 5 (versão 15/07/2026), linkada na página do Monitor do Fogo já capturada na p16-r10, que dá à Amazônia 'a maior área queimada (15,8Mha)' em 2024. Entrou como N2; resumo e numero_apurado passaram de 15,6 para 15,8 milhões de hectares, e a explicação registra a revisão entre coleções. Veredito mantido.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A158": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Contra: na Coleção 5 do MapBiomas, vigente na data da fala, 2024 (30,2 milhões de hectares) fica só 1,6% abaixo de 2007 (30,7 milhões), desvio abaixo da régua de 10%, e então seria VERDADEIRO. Não derruba: a frase afirma uma posição ('maior queimada na história'), e a posição está errada; a régua de 10% mede valor, não troca o primeiro pelo segundo lugar. O recorde de 2024 vale para a Amazônia, não para o país. Mantido IMPRECISO, e a ressalva passou a dar a diferença de 1,6% (derivação declarada) e o recorde na Amazônia, para o card não exagerar o erro. Entrou o Relatório Anual do Fogo 2025 (N2, Coleção 5, capturado na r6), que faltava como primária; resumo, numero_apurado e explicação atualizados (30,2 milhões; 'desde 1985', não '40 anos'). Ver pergunta de régua para a passada de coerência.",
+    "verificacoes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A159": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Contra, pelos dois lados: (a) há recordes reais (estelionato, feminicídio, mortes por intervenção policial), então seria VERDADEIRO; (b) o indicador usual de criminalidade, as mortes violentas, está na menor taxa desde 2012, então seria FALSO. Nenhum derruba IMPRECISO: a frase generaliza um recorde de tipos específicos enquanto o total cai, a mesma régua de recorte da A155. Achado: a explicação dava 'alta de mais de 400% desde 2018' dos estelionatos sem trecho; a frase está no mesmo parágrafo capturado do Anuário (p16-r6) e o trecho foi estendido. 'Roubos caíram' não estava em trecho e saiu da explicação (o Anuário diz que o total de ocorrências patrimoniais cai e os furtos superaram os roubos).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A160": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Contra: a Peic mede famílias com qualquer dívida a vencer, inclusive cartão, e não 'pessoas endividadas' nem inadimplência, que caiu. Cai pela mesma régua da A130 do caso de 15/out (VERDADEIRO, mesma pesquisa): é a medida pública de endividamento, o recorde de 82,0% é de julho de 2026 e os recordes anteriores (79,5%) também caem no governo atual; a ressalva põe a inadimplência de 29,8% na tela. Achado: a explicação citava reportagem do Metrópoles que não está nas fontes nem nas capturas; a menção saiu. Trechos achados na p16 e na captura reaproveitada do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A161": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. O resumo traz o número do 2º quadrimestre e diz que a série anual não foi conferida; lido sozinho, o laranja não sugere recorde. O que falta para a rodada 2: boletins anuais de 2024 e 2025 e o do 1º quadrimestre de 2026 do Mapa de Empresas, com e sem MEI, e os anos de 2015 e 2018 que o próprio boletim cita. Trechos achados na p17 e p17-r2. · Revisão da rodada 2: Provisório: marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' no início da explicação e confiança baixa, conferidos. Não refeito. Derivação 973.330 contra 854.150 (alta de cerca de 14%) refeita; a divergência com o Diário do Comércio está declarada. Seis trechos achados.",
+    "verificacoes": [
+      "3",
+      "5",
+      "7"
+    ]
+  },
+  "A162": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. Os números do resumo (232, 40) estão no trecho do Poder360. O que falta para a rodada 2: série oficial do MIC/CEMAP do Paraguai por ano de instalação e origem do capital; a divergência 232 contra 223 está declarada. Trechos achados na p17. · Revisão da rodada 2: Melhor argumento contra o INSUSTENTAVEL: o Paraguai teve recorde de programas de maquila em 2024 e as brasileiras são cerca de 70% do regime, o que daria IMPRECISO. Não derruba: o recorde é de programas de todas as origens, programa não é empresa nova, e o único corte de brasileiras por período (40 de 2023 a maio de 2026 contra 26 em 2021 e 2022) não mostra pico; Aos Fatos mostra que as empresas não deixam o Brasil. Base do país parceiro capturada. Seis trechos achados.",
+    "verificacoes": [
+      "3",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  "A163": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: a pergunta da jornalista pode se apoiar em atuação pública de Flávio pelo PL 3.723/2019 fora da ficha do Senado (declarações, articulação), e então seria VERDADEIRO; não registrar seria injusto com a entrevistadora. Fiz 1 busca web atrás disso (Flávio Bolsonaro, PL 3.723, marcação de munição, Senado): os resultados tratam o projeto como do governo, com relatoria de Marcos do Val, emendas de outros senadores e notas do Igarapé e do PT, sem nenhuma menção a Flávio. Na resposta, Flávio não confirma nem nega. Fica INSUSTENTAVEL: o projeto e o conteúdo estão documentados (ficha N1 e Pública), a atuação dele não. Confiança média coerente com busca dirigida feita. Trechos achados na p17 e p17-r5.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A164": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: a lei fala em 'culote dos projéteis', não em 'cápsulas', e a regra depende de regulamento. Cai: cápsula é o nome popular do estojo, o art. 23, §2º, do Estatuto (texto do Planalto) só autoriza compra pelos órgãos do art. 6º com identificação do lote e do adquirente, e a ficha do Senado mostra o PL que a revogaria aguardando relator desde 2023, logo a regra vigia na data da fala. Trechos achados na p17 e p17-r5.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A165": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: o candidato não diz o nome, e outro ex-ministro poderia ter ido à Maré; e a Revista Oeste escreveu que Dino entrou sem escolta. Cai: a visita de Dino em 13 de março de 2023 é a documentada (data conferida no texto capturado do Comprova e do Poder360), a PF e a PRF, ouvidas pelo Comprova, disseram que fizeram a segurança com policiais à paisana durante toda a visita, e a Oeste diz 'aparentemente', sem fonte oficial, o que está na divergência. 'Sem nenhum policial, sem nenhum de segurança' é contradito no essencial: FALSO, não IMPRECISO. Nota menor: a Oeste data a entrada numa quarta-feira 15, o que não muda nada.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A166": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: fabricado no exterior não quer dizer não comprado em loja (pode ter sido comprado legalmente nos EUA ou importado por CAC), e o o_que_conferir pedia estudos de desvio de armas de CACs, que não foram lidos; pela régua literal da A167 ('não fiscaliza'), a frase absoluta poderia cair para IMPRECISO. Fica de pé, com confiança média: lida no contexto ('não passaram exame psicológico, não compraram arma em loja'), a frase é sobre o próprio criminoso não ter comprado o fuzil no comércio legal, e nenhuma fonte capturada mostra o contrário; o dado da PM do Rio (95% estrangeiros em 2024, em grande parte contrabandeados, 194 sem marca em 2023) sustenta o essencial e a ressalva diz que parte é de fabricação nacional sem origem rastreada. As três reportagens reproduzem levantamentos da mesma PM, de anos diferentes, sem a primária capturada. Fica para a passada de coerência (ver perguntas de régua).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A167": {
+    "decisao": "alterado",
+    "nota": "Revisão r6: Contra: (a) a frase é hipérbole política sobre a eficácia da fiscalização e não deveria ser FALSO; (b) as três fontes reproduzem o mesmo balanço oficial de fevereiro de 2026, que não foi capturado, e pela regra 2/3 da §3.1 contam como uma fonte, abaixo do mínimo de duas para um FALSO. (a) cai: 'não fiscaliza a entrada de armas e drogas' é afirmação absoluta, contradita por registro de operações e apreensões, a mesma régua do 'nenhuma arma' do caso de 28/08 (A009); a explicação já separa o juízo de eficácia. (b) procedia: entrou como N1 a página de notícias da própria PF, capturada em 16/10/2026 no caso de 15/out (p06), com apreensões de maconha em ação com o BPFron e de pistolas em Cascavel (PR) em 15/10/2026, independente do balanço; a explicação declara a regra 2 para as três reportagens. Veredito mantido.",
+    "verificacoes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A168": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: as vozes documentadas são de institutos da sociedade civil (Sou da Paz duas vezes, Igarapé), não um 'entendimento' oficial, e o governo que propôs o PL defendia o contrário. Fica de pé: a jornalista atribui um entendimento corrente, e a nota técnica (via Pública) e a pesquisa de out/2026 (via O Povo) são documentos e redações diferentes; a Pública lembra o caso Marielle, rastreado pelo lote. A ressalva já diz que não é parecer da PF. Mesma régua de atribuição usada para o candidato. Trechos achados na p17.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A169": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: o voto pode ter sido em outra votação (texto-base contra destaque) ou na Câmara. Cai: os dados abertos do Senado (N1, captura p17) registram 'Sim' de Flávio na votação nominal da Emenda 117 (substitutivo) ao PL 5.582/2025 em 10/12/2025, e Metrópoles e Jornal de Brasília dão o placar de 64 a 0 que está no resumo.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A170": {
+    "decisao": "mantido",
+    "nota": "Revisão r6: Contra: Flávio fala do projeto que votou no Senado, não da lei sancionada, e o texto do Senado poderia prever cumprimento integral; ou o essencial (pena mais dura) bastaria para VERDADEIRO. Cai: procurei 'integral' no texto da Lei 15.358/2026 capturado (p04 do caso de 15/out) e não há; o art. 112 da LEP mantém a progressão com frações de 70% a 85% (75% para o comando de organização ultraviolenta), e o Jornal de Brasília diz que o texto do Senado 'limita as possibilidades de progressão'. 'Integralmente' é materialmente errado, a essência confere: IMPRECISO pela mesma régua da A003 e da A033 do caso de 15/out.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A171": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: Flávio é senador e diz 'nós, no Congresso Nacional, melhoramos', mas o Senado não tinha votado; a alteração foi da Câmara. Cai: o Congresso inclui a Câmara, o juízo 'melhoramos' ficou fora, e o resumo e a ressalva dizem que o Senado ainda não havia votado. Conferi a fala na transcrição (2060,8 s a 2064,7 s) e os quatro trechos nas capturas p05 do caso de 15/out (substitutivo com 'diversas alterações', mudanças listadas pelo Estadão, CCJ concluída em 14/10, retirada de pauta em 15/10). Resumo com 113 caracteres.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  "A172": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: 'era uma PEC que controlava policiais' é caracterização política (juízo), e caberia NAO_CHECAVEL; ou, ao contrário, há corregedorias autônomas e ouvidorias no texto, e caberia VERDADEIRO. Fica de pé o IMPRECISO: a frase descreve o conteúdo de um texto normativo, que se confere; a Agência Câmara (captura p04 do caso de 15/out) traz no mesmo trecho o tripé (Susp, competências da PF, coordenação da União) e os dispositivos de corregedoria e ouvidoria, e a sequência da fala ('e a gente mudou pra PEC que tem que controlar os bandidos', 2071 s) mostra que ele apresenta o controle como o eixo, o que toma o acessório pelo todo. Resumo e ressalva sem número e sem intenção.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A173": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Provisório: a explicação começa pelo marcador exato e a confiança é baixa. Contra: a busca não exaustiva poderia ter achado a pergunta; é exatamente o que o marcador declara. Falta para a rodada 2: o relatório da Quaest com a pergunta sobre limitar o acesso a armas (redação, percentual, se passa de 50%), e saber se é da Quaest eleitoral (30/08 a 1º/09) ou da Quaest/Pax (12 a 15/09). Os dois trechos foram achados nas capturas p04 do caso de 15/out. Não é FALSO sem dado contrário, a mesma régua dos dois lados. · Revisão da rodada 2: VERDADEIRO passou a INSUSTENTAVEL. As quatro fontes são reportagens (N4) que reproduzem o mesmo relatório da Quaest, não localizado: a regra 2 da §3.1 exige a primária conferida, e a regra 1 pede N1 ou N2 para número ('a maioria'). A A043 de 15/out, citada como régua, tinha o Datafolha como N2; todas as outras checagens de pesquisa com veredito colorido nos dois casos têm o relatório. Mesma régua aplicada ao candidato (A047, A113). Nada contradiz a frase; com o relatório capturado volta a VERDADEIRO. Ver correcoes-rodada2.md. · Coerência entre lotes e entre casos: Par A085: número da entrevistadora atribuído a documento só conhecido pela imprensa, INSUSTENTAVEL pela regra 1. Serviu de régua para a A085.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A174": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Provisório: marcador exato e confiança baixa. Depende do mesmo relatório da A173. Falta para a rodada 2: o percentual entre as mulheres e o total na pergunta de armas e se a diferença supera a margem do recorte. O trecho do BNews (76% contra 63%, em outra pergunta) foi achado e a prova diz corretamente que é outra pergunta. · Revisão da rodada 2: VERDADEIRO passou a INSUSTENTAVEL, pelo motivo da A173 e porque a alegação é 'comparacao': o validador reprova veredito colorido desse tipo sem N1 ou N2 (regra 1 da §3.1), e a validação do caso tinha esse erro. Derivação de 4 pontos (62 menos 58) conferida. Ver correcoes-rodada2.md. · Coerência entre lotes e entre casos: Mesma régua da A173; par A085.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  "A175": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: Renata fala de 'vários deputados' do 'seu time', e a prova é de um deputado (Pollon), que ainda disse que 'o foco não é necessariamente ampliar o acesso'. Cai: Pollon foi anunciado por Flávio para a área, a Gazeta registra que ele verbaliza a facilitação do acesso, o PL 4396/2025 facilita o porte, e o próprio candidato assina o PDL 193/2023 contra o decreto restritivo de Lula (Agência Senado, N1); a ressalva leva a fala de Pollon sobre o porte. Há ainda, na captura p18, outra página da Gazeta (07/08/2026, não citada) dizendo que Flávio e sua equipe trabalham num plano que facilite o acesso de civis a armas. Trechos achados (p18-r2, p18-r5).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A176": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: Pollon diz que o plano vai além de restaurar as medidas antigas e que ampliar o porte não é o foco; 'resgatar medidas' seria esticar. Cai: 'o primeiro passo será reverter os retrocessos promovidos pelo governo Lula na política de armas' é, na substância, desfazer o Decreto 11.366, que suspendeu o regime de 2019 a 2022, e o PDL de Flávio pede a sustação do decreto de Lula. A ressalva diz que o plano vai além. O plural 'eles' tem um deputado e o próprio candidato documentados; pergunta de régua anotada para a coerência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A177": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: 'vigoraram' poderia ser contestado porque trechos dos decretos foram suspensos pelo STF antes de 2023. Cai: a frase só diz que medidas de ampliação vigoraram no governo Bolsonaro, e a página do Planalto (captura p18) traz o Decreto 9.845 de 25/06/2019, 'Revogado pelo Decreto nº 11.366, de 2023'; o FBSP (N2) documenta a ampliação dos calibres em 2019. Resumo sem número fora dos trechos.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A178": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: 'vários deputados... falam em revogar o Estatuto' e só um deputado está documentado. Fica de pé: a essência (aliados da campanha falam em revogar) está provada por Pollon, autor do PL 3931/2025 ('Revoga a Lei nº 10.826', dados abertos da Câmara, com o id do autor conferido em outra consulta), e a Gazeta diz que o próprio Flávio terá a revogação como prioridade; a ressalva declara que só Pollon foi conferido. O plural não é contradito, só não foi contado, e não há número a medir pela régua de 10%. Anotado para a coerência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A179": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: a frase diz 'taxa de homicídio', e pelos dados de saúde (SIM) os homicídios caíram 21%, desvio de cerca de 19% sobre o apurado, acima da régua; o checador teria escolhido o indicador que dá 17. Cai: o o_que_conferir, escrito antes, já perguntava qual indicador dá 17%; a taxa de MVI do Anuário (27,6 para 22,7, queda de 17,8%, desvio de 4,5% sobre o apurado, conta refeita) é o indicador nacional de mortes violentas, e nas duas bases a queda em 2019 existe na ordem dita; a ressalva traz os 21% e o alerta de subnotificação. Trechos achados na captura p18; a terceira fonte é declarada como não independente. · Coerência entre lotes e entre casos: Aviso do validador: a ressalva passou a mostrar a queda de 17,8%, mantidos os 21% dos dados de saúde e o alerta de subnotificação. Veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A180": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: a frase fala de 'emissões' de certificados, e a série do Exército no Anuário é de CRs ativos (estoque); acréscimo líquido não é emissão. Não derruba: o acréscimo líquido de 2019 (79.923) é um piso das emissões do ano e supera o de todos os anos anteriores da série (o maior antes era 54.330, em 2018), e a ressalva diz que a série é de estoque e que 2020 a 2022 tiveram acréscimo maior. A única busca da revisão, atrás do que contradiria, achou reportagem de 2019 segundo a qual o Exército concedeu 18,5 mil registros só de janeiro a maio de 2019, 39,4% do total de 2018, com alta de 42% no período; não contradiz e não foi capturada, então não entrou como fonte. Contas das derivações conferidas.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A181": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra (o mais forte do lote): 'isso aí é o que está na Constituição, o direito à legítima defesa' é contradito no essencial, porque a Constituição não menciona legítima defesa (conferi: nenhuma ocorrência no texto integral capturado) e a PEC 100/2019, que quer incluí-la no art. 5º, não foi aprovada; seria FALSO, como a A182. Fica de pé o IMPRECISO com confiança média: na transcrição (2205 s a 2216 s) o 'isso aí' é o direito de quem cumpre os requisitos ter arma para defender família e propriedade; o direito à legítima defesa existe no ordenamento (Código Penal, arts. 23 e 25) e a Constituição garante vida e segurança; a posição contrária citada (PFDC) é de uma das partes do debate. O erro é o lugar onde o direito está escrito, não a existência do direito. Pergunta de régua anotada para a coerência. · Coerência entre lotes e entre casos: Par A182. Fato certo (a legítima defesa existe, no Código Penal) com o lugar errado (a Constituição): IMPRECISO. A A182 é contradita no essencial pelo texto vigente: FALSO. Réguas coerentes.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A182": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: é hipérbole política, e o essencial (o Estatuto é restritivo) estaria certo; o porte é proibido como regra (art. 6º), e uma página capturada na p18 (Gazeta do Povo Lab, 07/08/2026, não citada) chega a dizer que a lei proíbe 'o porte e a posse como regra geral'. Não derruba: a fonte primária ganha (pergunta 4), e o texto vigente da Lei 10.826 (arts. 4º e 5º) autoriza compra e posse a quem cumpre requisitos, e o Decreto 11.615 diz que se pode adquirir 'até duas armas de fogo para defesa pessoal'; a frase diz 'proíbe o cidadão de se defender', e o registro prevê o contrário. A ressalva leva o ponto restritivo real (porte). Trechos achados na captura p19. · Coerência entre lotes e entre casos: Ver A181.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A183": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: a frase quer dizer que o crime se arma porque a lei não funciona, e checá-la ao pé da letra seria injusto. Cai: a frase afirma o que a lei 'autoriza', e a lei exige antecedentes limpos para comprar (art. 4º) e pune com 3 a 6 anos a arma de uso restrito sem autorização (art. 16); a explicação separa a afirmação sobre o mercado ilegal, que não foi checada. Resumo sem leitura de intenção, com números dos trechos.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A184": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: 'não tem fiscalização nenhuma' é juízo sobre eficácia, não fato. Cai: o enunciado é absoluto, e o registro mostra fiscalização em funcionamento (Sinarm e Exército na lei, PF no decreto, apreensões de fuzis pela PM, pela PF e pela PRF em 2025); a explicação declara que a suficiência não é medida. Confiança média adequada: as apreensões vêm de N4. Trechos achados (p19, p19-r8).",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A185": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: a Lei 14.601 de 2023 criou adicionais para crianças, então 'não deu reajuste para ninguém' seria falso para famílias com filhos; e, contado do relançamento (março de 2023), o período é de 3 anos e 6 meses, desvio acima de 10%. Não derruba: o caso de 15/out (A116, A118) leu os adicionais como desenho novo, não reajuste, e o piso de R$ 600 vigorou desde janeiro de 2023, então a conta da posse é a que corresponde a 'esqueceu por quatro anos'. Achado: o desvio estava medido sobre o número dito (7%), e este caso e o de 15/out medem sobre o apurado; refeita a conta, 3,5 meses sobre 44,5 dá cerca de 8%, ainda abaixo de 10%. Explicação e derivação corrigidas; veredito mantido. Detalhe em correcoes-r7.md.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A186": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: numa sabatina de 2º turno, 'para a eleição' poderia ser lido como o dia 25/10, e seriam 38 dias. Cai: a frase fala do momento do anúncio ('faltando 17 dias para a eleição, ele lembra'), e de 17/9 ao 1º turno, em 4/10, são 17 dias (conferi que 4/10/2026 é domingo); Poder360 e Tribuna de Jundiaí usam a mesma conta. O trecho da Tribuna arrasta o menu do site, mas foi achado e contém o título com a contagem.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A187": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: o R$ 600 foi temporário, de agosto a dezembro de 2022, e a comparação é nominal; 'foi o Bolsonaro que triplicou' daria impressão de aumento permanente. Não derruba o VERDADEIRO: a frase diz que passou a R$ 600 em média no governo Bolsonaro, e isso ocorreu (R$ 607,88 em agosto de 2022, número do ministério reproduzido por duas redações, mais a EC 123 como N1 do acréscimo); a ressalva leva o caráter temporário e a conta nominal. Achado: a régua não estava escrita; 'o triplo' contra 3,2 vezes dá desvio de cerca de 7% sobre o apurado, e 600 contra 607,88, cerca de 1%. Entraram a conta na explicação e uma derivação; veredito mantido.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A188": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: a Agência Câmara está marcada como N1, mas é agência de notícias que repete o valor do programa. Não muda nada: há o FGV/IBRE (N2), com 'em torno de R$ 190', e a reprodução do ministério pelo Jornal de Brasília (R$ 190,57); desvio abaixo de 1% nas duas pontas. Trechos achados nas capturas p19-r4 e p19-r7.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A189": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: prisão é fato de investigação em curso (etica §5). Cai: o que se checa é o fato documentado da prisão em 15/10 (quinta-feira, conferido no calendário), não culpa, e a ressalva diz que não há decisão definitiva. Confiança alta só com N4 é o padrão dos dois casos para fato noticiado por duas redações (A068 do caso de 15/out); anotado para a coerência. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média. Mesmo fato da A068 de 15/out, que tem alta com só N4 (registrado para o autor).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A190": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: nenhum relevante. O JSON do TSE (captura p19) traz MÁRCIO CANELLA, 197178 votos, 'Eleito por QP', conferido no texto capturado em volta do nome, e não só pelos números.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A191": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Provisório: marcador exato e confiança baixa. O apoio político está documentado, e a explicação diz que não está em dúvida. Falta para a rodada 2: reportagem ou propaganda registrada com vídeo gravado por Flávio para Canella (por exemplo, no anúncio de fevereiro de 2026). · Revisão da rodada 2: Pergunta da entrevistadora. Melhor argumento contra: 'na fase anterior da campanha' poderia ser o 1º turno, e os vídeos achados são da pré-campanha ao Senado. Não derruba: a pré-campanha é fase anterior, e a ressalva diz que os vídeos são da pré-candidatura de que Canella desistiu. Duas fontes independentes (Poder360 com data, Estadão Conteúdo), afirmação sem número. Três trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A192": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: pela regra de ética §5 e pelo precedente da A064 do caso de 15/out (Renata, 'suspeitas que pairam sobre vários ministros', INSUSTENTAVEL), fala sobre suspeitas de investigação em curso não poderia ser VERDADEIRO; e as duas fontes reproduzem o mesmo documento da PF, não capturado. Não derruba: a frase descreve o conteúdo de uma representação formal da PF que embasou uma prisão, e não afirma culpa; é a régua da A110 do caso de 15/out e da A112 deste caso ('investigado pela PF', VERDADEIRO). A A064 tratava de suspeitas difusas sobre ministros, sem peça formal. Para a independência, entrou o Poder360 (apuração própria do dia da prisão, já usado na A189, trecho achado) com o objeto da operação. Anotado para a coerência. · Coerência entre lotes e entre casos: Par A194 (alinhada a esta) e A064 de 15/out. Peça formal da PF que embasou prisão, descrita sem afirmar culpa; a A064 de 15/out tratava de suspeitas sem peça formal contra os ministros. Registrado para o autor.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A193": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: o acordo documentado é de Jair Bolsonaro, não de Flávio; 'o seu candidato' atribuiria a Flávio uma escolha do pai. Não derruba: Flávio estava indicado ao Senado na chapa de Bacellar (Jovem Pan, 27/05/2025), e a ressalva diz que o acordo foi de Jair. Achado: uma página já capturada na p20 e não usada, a Gazeta do Povo de 04/08/2026, descreve a escolha de Douglas Ruas como 'troca no grupo de Flávio' depois que Bacellar deixou a corrida; entrou como fonte e na explicação. Veredito mantido. A fala de Renan Santos foi corretamente deixada de fora.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A194": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Provisório: marcador exato e confiança baixa. Conferido no texto capturado do O Antagonista (28/03/2026): a prisão de março é da Operação Unha e Carne III, por vazamento, depois de o TSE cassar o mandato, e ele já tinha sido preso em 03/12/2025. Falta para a rodada 2: registro de que ele seguia preso em 16/10/2026 e o fundamento formal da prisão; 'comandar o braço político' é a caracterização do relatório da PF. · Revisão da rodada 2: Pergunta da entrevistadora. Melhor argumento contra: a prisão e a caracterização da PF estão documentadas, o que daria VERDADEIRO ou, pelo fundamento diferente da ordem (vazamento e obstrução), IMPRECISO. Não fecha: é investigação e denúncia sem julgamento, com a defesa negando, e pela §5 de etica-e-risco fato em apuração não recebe VERDADEIRO nem IMPRECISO. Mesma régua usada para o candidato (A082, Flávio investigado no STF) e para Castro (A196). A prisão na data da fala vem de cobertura de 16 e 17/out, declarado. Cinco trechos achados. · Coerência entre lotes e entre casos: Par A192 (mesma entrevistadora, mesmo bloco: descrição de suspeitas em representação formal da PF, VERDADEIRO sobre o enunciado) e A089, A098 e A110 de 15/out. A frase descreve atos formais: a prisão e o relatório da PF estão documentados, e o fundamento formal da prisão é outro (vazamento). INSUSTENTAVEL passou a IMPRECISO; a explicação diz que o mérito segue em apuração e que nada afirma culpa. Resumo e ressalva já diziam isso.",
+    "verificacoes": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A195": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: Castro poderia ter recurso ao STF ou liminar; e as três fontes são N4. Cai: 'tornado inelegível' é verdadeiro pelo ato do TSE de 24/03/2026, mantido em 02/06/2026; recurso posterior não desfaz que ele foi tornado inelegível, e não é fato em apuração. Confiança alta só com N4 é o padrão do caso; anotado para a coerência. Há na captura p20 páginas do SBT News, da Exame e da Gazeta sobre a mesma decisão, não usadas. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A196": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: ser alvo de busca autorizada pelo STF já seria estar 'enrolado', e o card poderia ser VERDADEIRO. Cai: 'enrolado' afirma envolvimento que depende de apuração sem denúncia, e etica §5 manda INSUSTENTAVEL; é a mesma régua da A076 do caso de 15/out (Lula, 'o Castro está implicado'), com as mesmas fontes: os dois lados da mesa recebem o mesmo veredito para a mesma afirmação. · Coerência entre lotes e entre casos: Mesmo dado e mesmo veredito da A076 de 15/out ('implicado'): 'enrolado' qualifica o envolvimento, que é o mérito. Diferente da A194, que trata do fundamento formal da prisão.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  "A197": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: 'sempre ali no alto da lista', lido com rigor, exige todas as rodadas, e só quatro foram achadas; na Quaest a saúde está empatada em 3º, com 14% contra 31% da violência. Fica de pé: 'no alto da lista' não é 'em primeiro', e em todas as rodadas achadas, de dois institutos, ela está entre as três primeiras; a divergência entre institutos está escrita, e a ressalva diz que ela só lidera no Datafolha. Nenhuma rodada contrária foi achada. Pergunta de régua ('sempre' com quatro rodadas) anotada para a coerência.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "A198": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: a transcrição não resolve o cargo ('medir em história da saúde'). Cai: três redações registram o anúncio de Lottenberg como ministro da Saúde em 28/08/2026, uma com a fala literal; o card não cita a palavra duvidosa. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média, como a A040.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A199": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Provisório: marcador exato e confiança baixa. Falta para a rodada 2: segunda fonte independente para a precedência, ou a lista datada dos nomes anunciados depois. O resumo diz que falta a segunda fonte. · Revisão da rodada 2: Pergunta da entrevistadora. Melhor argumento contra: a Folha diz que Lottenberg 'pode ser' o ministro, o que enfraqueceria 'anunciou'. Não derruba: o BP Money traz a fala do anúncio ('vai ser o meu ministro da Saúde') e diz que foi o primeiro nome; a Folha, independente, confirma que em 13/10 os outros ainda estavam em estudo. Sem número. Três trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "A200": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Provisório: marcador exato e confiança baixa. Os trechos documentam crítica à condução da pandemia, não à compra de vacinas. Falta para a rodada 2: entrevistas e artigos de 2020 e 2021; os trechos da A201 (Jovem Pan e O Povo, atraso e lentidão da vacinação) podem servir aqui. · Revisão da rodada 2: Pergunta da entrevistadora. Melhor argumento contra: nos trechos ele nem sempre nomeia o governo federal, e 'demora para comprar' poderia ser leitura forçada. Não derruba: 'a tal da diplomacia da vacina aconteceu tarde' e a falta de compromisso 'na busca das vacinas' tratam da obtenção de doses, que era do governo federal, e a CartaCapital registra a crítica dele ao governo federal na pandemia; a ressalva de tela avisa. Fontes de 2021, em três veículos. Quatro trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "8"
+    ]
+  },
+  "A201": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Provisório: marcador exato e confiança baixa. O teor (crítica ao atraso da vacinação) está nos três trechos, achados na captura p21; a citação entre aspas não. Falta para a rodada 2: a entrevista original com a redação lida. · Revisão da rodada 2: Citação entre aspas da entrevistadora. Melhor argumento contra o INSUSTENTAVEL: o teor da citação está documentado (A200), o que daria VERDADEIRO com ressalva. Não derruba: a alegação é a citação literal, e veículo, data e redação não foram achados; a Gazeta do Povo, sem fonte, foi corretamente descartada. Mesma régua aplicada a frases atribuídas sem registro dos dois lados. Três trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "6"
+    ]
+  },
+  "A202": {
+    "decisao": "alterado",
+    "nota": "Revisão r7: Contra: duas das três fontes remontam ao próprio hospital (conteúdo de marca e nota), e confiança alta só com N4 seria generosa; e o cargo era o da sociedade mantenedora. Cai: a explicação declara a dependência, a Medicina S/A traz o mesmo dado em texto próprio, e a ressalva leva a nuance do cargo; 'foi o presidente' bate com 2001 a 2016. Confiança alta com N4 é o padrão do caso; anotado. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média, como as oito da entrevistadora (A040, A045, A065, A106, A108, A189, A195, A198).",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A203": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: 'melhor hospital do Brasil' é juízo de valor. Cai: a frase se ancora num ranking conferível, e a lista Brasil da Newsweek/Statista 2026 (captura p21) põe o Einstein em 1º, com 92,30%; a ressalva diz que outros rankings não foram conferidos, e a confiança é média.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A204": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: a Newsweek não tem lista regional da América Latina. Cai: as 15 posições acima do Einstein na lista mundial (trecho achado) não têm hospital latino-americano, e 'um dos melhores' é mais modesto que o dado; a ressalva diz que o ranking regional não foi conferido.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A205": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: nenhum relevante. 25 menos 16 dá 9; data do 2º turno em duas redações e na Constituição; data da sabatina no Poder360. Trechos achados.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A206": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: nenhum relevante. O JSON do TSE (captura p01 do caso de 15/out) traz FLAVIO NANTES BOLSONARO com o número 22 e a situação '2º turno', conferido no texto em volta do nome.",
+    "verificacoes": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  "A207": {
+    "decisao": "mantido",
+    "nota": "Revisão r7: Contra: 'ninguém vai saber qual é o seu voto' é promessa, não norma. Cai: a alegação checada é a norma, e a Constituição (arts. 14 e 60), o Código Eleitoral (arts. 103 e 312) e a Lei 9.504 (art. 61) a confirmam; trechos achados.",
+    "verificacoes": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ]
+  }
+}

@@ -149,9 +149,9 @@
     },
     {
       "id": "A194",
-      "veredito": "INSUSTENTAVEL",
+      "veredito": "IMPRECISO",
       "resumo": "Bacellar segue preso desde março por suspeita de vazar operação contra o CV; a PF o descreve como líder político",
-      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). Dois pontos estão documentados. (1) A prisão: Bacellar foi preso de novo em 27/03/2026, por ordem de Alexandre de Moraes (SBT News; BBC News Brasil, no O Povo), e a cobertura da sabatina, de 16 e 17/out, trata Canella e Bacellar como aliados presos (SBT News: 'Flávio se diz surpreso com aliados presos no RJ'; Agenda do Poder: 'dois deles presos'); não foi achada notícia de soltura. (2) A suspeita: o relatório final da PF enviado ao STF afirma que ele exercia 'a liderança do núcleo político' do Comando Vermelho (Jornal do Brasil). Mas o fundamento da prisão de março, segundo a decisão descrita pelo SBT News e pelo STF citado pela BBC, é outro: indícios de participação num esquema de vazamento para atrapalhar uma operação da PF contra o CV, na Operação Unha e Carne III, e a denúncia da PGR de 16/03 é por obstrução. A frase junta a prisão (que é por vazamento e obstrução) à caracterização do relatório (liderança do núcleo político). Tudo isso é investigação e denúncia sem julgamento, e a defesa nega as acusações (RTP): pela §5 de etica-e-risco, fato em apuração não recebe VERDADEIRO nem FALSO, e por isso INSUSTENTAVEL, agora como veredito final. Confiança média: a permanência na prisão em 16/out vem de cobertura de imprensa, não de decisão judicial.",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (a rodada 1 tinha saído provisória pelo limite de buscas). Dois pontos estão documentados. (1) A prisão: Bacellar foi preso de novo em 27/03/2026, por ordem de Alexandre de Moraes (SBT News; BBC News Brasil, no O Povo), e a cobertura da sabatina, de 16 e 17/out, trata Canella e Bacellar como aliados presos (SBT News: 'Flávio se diz surpreso com aliados presos no RJ'; Agenda do Poder: 'dois deles presos'); não foi achada notícia de soltura. (2) A suspeita: o relatório final da PF enviado ao STF afirma que ele exercia 'a liderança do núcleo político' do Comando Vermelho (Jornal do Brasil). Mas o fundamento da prisão de março, segundo a decisão descrita pelo SBT News e pelo STF citado pela BBC, é outro: indícios de participação num esquema de vazamento para atrapalhar uma operação da PF contra o CV, na Operação Unha e Carne III, e a denúncia da PGR de 16/03 é por obstrução. A frase junta a prisão (que é por vazamento e obstrução) à caracterização do relatório (liderança do núcleo político). Ela descreve atos formais, a prisão e o relatório da PF, e não afirma culpa; o veredito trata desses atos: a prisão e a suspeita estão documentadas, e o fundamento formal da prisão é outro. Por isso IMPRECISO, e não VERDADEIRO nem INSUSTENTAVEL. O mérito está em apuração, sem julgamento, e a defesa nega as acusações (RTP); nada aqui diz que as suspeitas procedem (etica-e-risco §5). Confiança média: a permanência na prisão em 16/out vem de cobertura de imprensa, não de decisão judicial. Passada de coerência de 17/out/2026: o veredito era INSUSTENTAVEL pela §5 de etica-e-risco; passou a IMPRECISO pela régua da A192, da mesma entrevistadora e do mesmo bloco, em que a descrição das suspeitas de uma representação formal da PF teve veredito sobre o enunciado (VERDADEIRO), e das A089, A098 e A110 do caso 2026-10-15-sabatina-lula-globo-2turno (existência e data de inquéritos, VERDADEIRO). A A196 (Castro 'enrolado') e a A082 seguem INSUSTENTAVEL porque qualificam o envolvimento, que é o mérito.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "relatório da PF de fevereiro de 2026; prisão de 27/03/2026; cobertura de 16 e 17/10/2026",
@@ -216,7 +216,7 @@
       "numero_apurado": null,
       "data_de_referencia": "decisão do TSE de 24/03/2026; embargos rejeitados em 02/06/2026",
       "ressalva": null,
-      "confianca": "alta",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
@@ -342,7 +342,7 @@
       "numero_apurado": null,
       "data_de_referencia": "anúncio de 28/08/2026",
       "ressalva": null,
-      "confianca": "alta",
+      "confianca": "media",
       "divergencia_entre_fontes": null,
       "revisao_humana": null,
       "fontes": [
