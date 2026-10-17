@@ -1,0 +1,189 @@
+PEDIDO DE CHECAGEM 19 de 21 · alegações A181 a A190
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-19.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A181",
+      "inicio_s": 2214.16,
+      "fim_s": 2216.33,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "isso aí é o que está na Constituição, o direito, à legítima defesa.",
+      "afirmacao": "A Constituição Federal prevê o direito à legítima defesa",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre armas e revogação do Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "texto da Constituição Federal de 1988: se há dispositivo que trata da legítima defesa",
+        "onde a legítima defesa está prevista no ordenamento (Código Penal, art. 25) e se o STF a trata como direito constitucional"
+      ]
+    },
+    {
+      "id": "A182",
+      "inicio_s": 2241.68,
+      "fim_s": 2245.34,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje, o Estatuto do Desarmamento, ele proíbe o cidadão de se defender",
+      "afirmacao": "O Estatuto do Desarmamento proíbe o cidadão de ter arma para se defender",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "texto vigente da Lei 10.826/2003 e de seus decretos regulamentadores em 2026: requisitos para posse e porte de arma por civis",
+        "se a lei proíbe a posse para defesa pessoal ou a condiciona a requisitos"
+      ]
+    },
+    {
+      "id": "A183",
+      "inicio_s": 2245.34,
+      "fim_s": 2249.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e autoriza os marginais a comprarem armas de guerra",
+      "afirmacao": "O Estatuto do Desarmamento autoriza criminosos a comprar armas de guerra",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "texto da Lei 10.826/2003: regras sobre armas de uso restrito e proibido e requisitos de antecedentes criminais para compra",
+        "se algum dispositivo permite a compra de armas de uso restrito por pessoas com antecedentes"
+      ]
+    },
+    {
+      "id": "A184",
+      "inicio_s": 2249.26,
+      "fim_s": 2250.22,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "porque não tem fiscalização nenhuma.",
+      "afirmacao": "Não existe nenhuma fiscalização sobre a circulação de armas que chegam a criminosos",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "órgãos com competência legal de fiscalizar armas e munições (Exército/DFPC, Polícia Federal/Sinarm) e de reprimir o tráfico de armas",
+        "dados de apreensões e operações contra tráfico de armas que mostrem se há fiscalização em funcionamento"
+      ]
+    },
+    {
+      "id": "A185",
+      "inicio_s": 2266.62,
+      "fim_s": 2272.18,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Diferente do Lula, que esqueceu por quatro anos de quem recebeu o Bolsa Família, não deu reajuste para ninguém,",
+      "citacao_card": "Diferente do Lula, que esqueceu por quatro anos [...] o Bolsa Família, não deu reajuste para ninguém",
+      "afirmacao": "O governo Lula não reajustou o Bolsa Família ao longo dos quatro anos do mandato (2023-2026)",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "valores do benefício mínimo e dos adicionais do Bolsa Família de 2023 a 2026 (MDS, Lei 14.601/2023 e decretos)",
+        "se houve reajuste do valor base ou só criação de adicionais, e o valor médio pago mês a mês"
+      ]
+    },
+    {
+      "id": "A186",
+      "inicio_s": 2272.52,
+      "fim_s": 2276.58,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "faltando 17 dias para a eleição, ele lembra que tem que reajustar o Bolsa Família,",
+      "afirmacao": "O governo Lula anunciou reajuste do Bolsa Família cerca de 17 dias antes da eleição de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "data do anúncio ou do ato de reajuste do Bolsa Família em 2026 (MDS, Diário Oficial da União)",
+        "a qual eleição os 17 dias se referem (1º turno em 4/out ou 2º turno em 25/out) e se a conta fecha com a data do anúncio"
+      ]
+    },
+    {
+      "id": "A187",
+      "inicio_s": 2276.9,
+      "fim_s": 2280.38,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que foi o Bolsonaro que triplicou o valor que era 190 e em média passou para 600 reais.",
+      "afirmacao": "No governo Jair Bolsonaro o valor médio do benefício passou a R$ 600, cerca do triplo do valor anterior",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "valor do Auxílio Brasil em 2022 (piso de R$ 400 e adicional temporário de R$ 200, Lei 14.284/2021 e EC 123/2022) e benefício médio pago",
+        "se o R$ 600 era valor médio ou mínimo, e por quanto tempo vigorou no governo Bolsonaro"
+      ]
+    },
+    {
+      "id": "A188",
+      "inicio_s": 2277.79,
+      "fim_s": 2279.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "triplicou o valor que era 190",
+      "afirmacao": "O valor médio do Bolsa Família era de cerca de R$ 190 antes do aumento feito no governo Jair Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "benefício médio do Bolsa Família em 2018-2021, antes da criação do Auxílio Brasil (MDS/Ministério da Cidadania, VIS Data)",
+        "em que mês o valor médio estava em R$ 190"
+      ]
+    },
+    {
+      "id": "A189",
+      "inicio_s": 2297.14,
+      "fim_s": 2299.92,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "onde a PF prendeu ontem Márcio Canella,",
+      "afirmacao": "A Polícia Federal prendeu Márcio Canella em 15 de outubro de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "nota da Polícia Federal e noticiário sobre a prisão de Márcio Canella: data e tipo de prisão",
+        "se a prisão foi em 15/out/2026, véspera da sabatina"
+      ]
+    },
+    {
+      "id": "A190",
+      "inicio_s": 2298.56,
+      "fim_s": 2301.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Márcio Canella, deputado estadual eleito",
+      "afirmacao": "Márcio Canella foi eleito deputado estadual no Rio de Janeiro em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "resultado da eleição para a Alerj em 2026, TSE: se Márcio Canella está entre os eleitos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "casos/2026-10-16-sabatina-flavio-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-03",
+  "cobertura": {
+    "inicio_s": 1547.4,
+    "fim_s": 1561.71
+  },
+  "alegacoes": [
+    {
+      "id": "A131",
+      "inicio_s": 1548.64,
+      "fim_s": 1554.14,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "porque dias atrás ele deu uma entrevista dizendo que quem vai decidir isso é o pai de vocês.",
+      "afirmacao": "Dias antes da sabatina, Eduardo Bolsonaro disse em entrevista que quem vai decidir se ele será chanceler é Jair Bolsonaro",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre se Eduardo Bolsonaro seria chanceler num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "entrevista de Eduardo Bolsonaro em out/2026 sobre o cargo de chanceler: data, veículo e fala literal"
+      ]
+    },
+    {
+      "id": "A132",
+      "inicio_s": 1557.52,
+      "fim_s": 1561.12,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que está lá fora denunciando as arbitrariedades que existem aqui no Brasil.",
+      "afirmacao": "Eduardo Bolsonaro vive fora do Brasil e faz campanha no exterior contra decisões da Justiça brasileira",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "onde Eduardo Bolsonaro reside em out/2026 e desde quando (saída do país, licença ou perda do mandato de deputado)",
+        "atividade pública dele no exterior (reuniões com autoridades estrangeiras, declarações sobre o Judiciário brasileiro)"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 1556.0,
+      "fim_s": 1557.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "O Eduardo é um perseguido político",
+      "motivo": "Juízo de valor ('perseguido político'); os fatos que o candidato apresenta a seguir (vida no exterior, decisões de Moraes) viraram alegações separadas."
+    }
+  ]
+}

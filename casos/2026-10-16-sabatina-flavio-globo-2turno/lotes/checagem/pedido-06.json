@@ -1,0 +1,182 @@
+PEDIDO DE CHECAGEM 06 de 21 · alegações A051 a A060
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-06.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A051",
+      "inicio_s": 685.24,
+      "fim_s": 688.82,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E vale não só para mim. Vale para parentes até terceiro grau também.",
+      "afirmacao": "A PEC de Flávio Bolsonaro estende a proibição de reeleição a parentes do presidente até o terceiro grau",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "texto da PEC de Flávio Bolsonaro: regra para cônjuge e parentes do presidente e grau de parentesco alcançado"
+      ]
+    },
+    {
+      "id": "A052",
+      "inicio_s": 697.83,
+      "fim_s": 703.54,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É como está hoje na regra que vale. O parentes até terceiro grau também é considerado uma reeleição.",
+      "afirmacao": "Pela regra vigente, a candidatura de parentes do presidente até o terceiro grau é tratada como reeleição",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre se o pai e os irmãos do candidato poderiam concorrer à sucessão",
+      "o_que_conferir": [
+        "Constituição Federal, art. 14, §§ 5º e 7º: inelegibilidade de cônjuge e parentes do chefe do Executivo e até que grau",
+        "jurisprudência do TSE sobre parente na sucessão contar como terceiro mandato"
+      ]
+    },
+    {
+      "id": "A053",
+      "inicio_s": 715.3,
+      "fim_s": 716.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu tenho 45 anos de idade,",
+      "afirmacao": "Flávio Bolsonaro tem 45 anos de idade",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "data de nascimento de Flávio Bolsonaro no registro de candidatura do TSE; idade em 16/out/2026"
+      ]
+    },
+    {
+      "id": "A054",
+      "inicio_s": 716.1,
+      "fim_s": 717.02,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "eu sou advogado,",
+      "afirmacao": "Flávio Bolsonaro é advogado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "formação e inscrição na OAB de Flávio Bolsonaro (Cadastro Nacional dos Advogados)",
+        "ocupação declarada no registro de candidatura do TSE"
+      ]
+    },
+    {
+      "id": "A055",
+      "inicio_s": 717.02,
+      "fim_s": 718.18,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "eu sou empresário.",
+      "afirmacao": "Flávio Bolsonaro é empresário",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "participação societária de Flávio Bolsonaro em empresas ativas (Receita Federal, juntas comerciais)",
+        "bens declarados ao TSE em 2026"
+      ]
+    },
+    {
+      "id": "A056",
+      "inicio_s": 718.52,
+      "fim_s": 720.72,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu tenho pós-graduação em políticas públicas e governo.",
+      "afirmacao": "Flávio Bolsonaro tem pós-graduação em políticas públicas e governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "currículo oficial no site do Senado e registro de candidatura: curso, instituição e ano"
+      ]
+    },
+    {
+      "id": "A057",
+      "inicio_s": 720.82,
+      "fim_s": 722.96,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu tenho MBA e empreendedorismo em novos negócios.",
+      "afirmacao": "Flávio Bolsonaro tem MBA em empreendedorismo em novos negócios",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "currículo oficial no site do Senado e registro de candidatura: curso, instituição e ano"
+      ]
+    },
+    {
+      "id": "A058",
+      "inicio_s": 746.1,
+      "fim_s": 753.02,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu plano de governo registrado no TSE apresenta seis propostas de reforma do judiciário,",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro registrado no TSE tem seis propostas de reforma do Judiciário",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no DivulgaCandContas/TSE: seção do Judiciário e quantas propostas lista"
+      ]
+    },
+    {
+      "id": "A059",
+      "inicio_s": 756.78,
+      "fim_s": 760.78,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Retirar do Supremo, o julgamento de processos criminais contra parlamentares,",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro propõe tirar do STF o julgamento de processos criminais contra parlamentares",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE: se a proposta consta do texto e com que redação"
+      ]
+    },
+    {
+      "id": "A060",
+      "inicio_s": 761.2,
+      "fim_s": 764.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "reduzir o número de decisões individuais dos ministros",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro propõe reduzir o número de decisões individuais (monocráticas) dos ministros do STF",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE: se a proposta consta do texto e com que redação"
+      ]
+    }
+  ]
+}

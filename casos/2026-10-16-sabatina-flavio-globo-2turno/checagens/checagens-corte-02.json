@@ -1,0 +1,249 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/alegacoes-corte-02.json",
+  "checagens": [
+    {
+      "id": "A085",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Reportagens dão US$ 13,3 milhões, pouco mais de R$ 75 milhões, no laudo da produtora; o laudo não é público",
+      "explicacao": "A pergunta atribui à perícia da própria produtora o custo de 75 milhões de reais. As reportagens que leram o laudo batem com isso: o Metrópoles, reproduzido pelo A Tarde, diz que a perícia privada foi contratada pela própria Go Up e declarou US$ 13,3 milhões, o equivalente a pouco mais de R$ 75 milhões; o Correio da Manhã, com texto próprio, dá R$ 75,1 milhões e diz que o laudo foi feito a pedido da defesa de Karina Ferreira da Gama, dona da produtora; a Tribuna de Jundiaí registra R$ 75 milhões e que o laudo não trouxe recibos nem notas fiscais. Mas a afirmação é de valor, e o laudo, anexado a inquérito, não é público e não foi conferido: as três fontes são imprensa (N4), e a regra 2 da METODOLOGIA §3.1 só aceita imprensa no lugar da primária quando a primária foi conferida. Sem fonte N1 ou N2, a regra 1 da §3.1 não se cumpre, e o veredito é INSUSTENTAVEL, e não VERDADEIRO. Nada contradiz o valor: o que falta é o laudo ou peça oficial do inquérito que o reproduza. Passada de coerência de 17/out/2026: o veredito era VERDADEIRO, e a revisão r3 já apontava que a regra 2 não se cumpria ao pé da letra. É a régua aplicada à A090 do candidato (valores de mensagens de Vorcaro lidas pela imprensa num inquérito não público: INSUSTENTAVEL, 'e não IMPRECISO, que exigiria fonte N1 ou N2'), às A173 e A174 da própria entrevistadora (percentuais da Quaest só em reportagens) e à A126 do caso 2026-10-15-sabatina-lula-globo-2turno (número de estudo da FGV só na imprensa). O tipo da alegação (atribuição) não muda a régua: a regra 1 vale para afirmação que envolve valor.",
+      "numero_dito": "R$ 75 milhões",
+      "numero_apurado": "R$ 75,1 milhões no Correio da Manhã; US$ 13,3 milhões, pouco mais de R$ 75 milhões, no Metrópoles (via A Tarde); laudo não conferido",
+      "data_de_referencia": "perícia anexada ao inquérito e divulgada em junho de 2026",
+      "ressalva": "O laudo foi contratado pela produtora e não apresentou recibos ou notas fiscais das despesas",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "O filme Dark Horse, cinebiografia do ex-presidente Jair Bolsonaro (PL), custou cerca de US$ 13,3 milhões, o equivalente a pouco mais de R$ 75 milhões , de acordo com informação revelada pela Go Up Entertainment, produtora do filme. A informação consta de uma perícia privada contratada pela própria Go Up",
+          "prova": "Confirma o valor e que a perícia foi contratada pela própria produtora"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Um documento produzido a pedido da defesa de Karina Ferreira da Gama , responsável pela Go Up Entertainment, aponta que o filme teria custado aproximadamente R$ 75,1 milhões .",
+          "prova": "Segunda leitura do mesmo laudo, com o valor de R$ 75,1 milhões e a autoria ligada à dona da produtora"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna de Jundiaí",
+          "titulo": "Em SP, Flávio Bolsonaro diz que 'Dark Horse' é página virada",
+          "url": "https://tribunadejundiai.com.br/politica/flavio-bolsonaro-dark-horse-lula-lulinha/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ele se referia a uma perícia contratada pela própria produtora do longa, Karina Gama, e anexada ao inquérito que tramita na Polícia Civil de São Paulo. O relatório pericial declarou um gasto total de R$ 75 milhões na obra, porém não apresentou recibos ou notas fiscais que comprovassem as despesas.",
+          "prova": "Confirma o valor e sustenta a ressalva sobre a falta de notas fiscais"
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r3: Contra: é valor, todas as fontes são N4, e o laudo (a primária) não foi conferido; na A126 e na A153 do caso de 15/out, número da entrevistadora nessa situação virou INSUSTENTAVEL. Fica, com a pergunta para a coerência: lá a primária era pública e capturável; aqui o laudo está anexado a inquérito e não é público, e há leituras independentes (Metrópoles via A Tarde, Correio da Manhã com texto próprio, Tribuna de Jundiaí; InfoMoney na A080) mais a divulgação pela própria produtora. A explicação invoca a regra 2 da §3.1, mas a primária não foi conferida, então a regra não se cumpre ao pé da letra. O tipo (atribuicao_a_terceiro) não exige N1/N2 no validador; a A090 (Flávio), tipo valor_monetario, ficou INSUSTENTAVEL por falta de N1/N2 com fontes do mesmo nível. Trechos achados (p09). · Coerência entre lotes e entre casos: Par A090 (candidato, valor de documento não público lido pela imprensa, INSUSTENTAVEL 'e não IMPRECISO, que exigiria fonte N1 ou N2'), A173 e A174 (a própria entrevistadora, percentuais só em reportagens) e A126 de 15/out. O laudo não é público e não foi conferido; a regra 2 não se cumpre (a r3 já apontava) e a regra 1 vale para afirmação que envolve valor, qualquer que seja o tipo da extração. VERDADEIRO passou a INSUSTENTAVEL; o número apurado passou a começar em reais (aviso do validador). Trechos conferidos.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "6",
+          "8"
+        ]
+      }
+    },
+    {
+      "veredito": "VERDADEIRO",
+      "resumo": "Mensagens registram acordo de US$ 24 milhões com Vorcaro, cerca de R$ 134 milhões no câmbio da época",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (busca retomada). A afirmação é que Flávio Bolsonaro pediu R$ 134 milhões a Daniel Vorcaro para o filme sobre o pai. O critério era achar o valor pedido nos documentos e entender moeda e câmbio. O valor é em dólares: a reportagem original do The Intercept Brasil, com as mensagens e a planilha de desembolsos, registra uma negociação em que Vorcaro se comprometeu a repassar US$ 24 milhões (US$ 23,9 milhões na planilha 'Funding Schedule'), em 14 parcelas, 'na época equivalentes a cerca de R$ 134 milhões'. O próprio Flávio admitiu a conversa sobre os US$ 24 milhões (Correio da Manhã) e, na sabatina, não contestou o número: chamou-o de 'pedido de um patrocínio privado' e disse que 'era um contrato que não foi cumprido'. A conversão para reais, que é onde as fontes divergem, foi refeita com a cotação oficial do Banco Central (N1): US$ 24 milhões dão R$ 145,1 milhões no dólar de 21/01/2025, quando o fluxo de pagamentos foi tratado nas mensagens; R$ 134,0 milhões na média das cotações de 2025, o ano do cronograma; e R$ 122,0 milhões no dólar do dia da fala. O número dito fica 7,6% abaixo da conversão de janeiro de 2025, 2,3% acima da do relatório da PF citado pelo O Povo (R$ 131 milhões) e 9,8% acima da de 122: todas abaixo da régua de 10% do §2.2, por isso VERDADEIRO, com a ressalva do câmbio, e não IMPRECISO. Fontes: a reportagem original e as que a reproduzem (Correio da Manhã, O Povo e TVT News, estas duas com o relatório da PF) são imprensa sobre a mesma primária, o material da investigação, o que se declara pela regra 2 da METODOLOGIA §3.1; a fonte N1 é a série de câmbio do Banco Central, que resolve a parte divergente (a conversão). O pedido e o valor estão documentados e admitidos; a investigação da PF sobre o financiamento do filme, autorizada pelo STF em julho, segue em curso e sob sigilo (Aos Fatos), e nada aqui afirma irregularidade (etica-e-risco §5). A A072 e a A086 são a mesma afirmação ('134') e saem com o mesmo veredito e as mesmas fontes. Na rodada 1 o veredito era INSUSTENTAVEL provisório porque faltava a fonte N1. A razão entre os R$ 134 milhões e o custo de R$ 75 milhões atribuído à perícia pelas reportagens (A085, INSUSTENTAVEL por falta da primária) é 1,79; o 'quase o dobro' da pergunta não é parte desta afirmação. A nota do revisor r3 foi atendida: o valor repassado não entra mais aqui com os US$ 10,6 milhões de maio de 2025; o repassado na data da fala (US$ 12,3 milhões em 7 parcelas) está na A071 e na A087.",
+      "numero_dito": "R$ 134 milhões",
+      "numero_apurado": "R$ 134,0 milhões na média do dólar de 2025 (US$ 24 milhões negociados, US$ 23,9 milhões na planilha), entre R$ 122,0 milhões e R$ 145,1 milhões conforme a data do câmbio",
+      "data_de_referencia": "negociação do início de 2025, revelada em 13/05/2026; câmbio de 2025 e do dia da fala (16/10/2026)",
+      "ressalva": "Acerto em dólares: a conversão vai de R$ 122 milhões, no câmbio do dia da fala, a R$ 145,1 milhões, no de janeiro de 2025",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O valor em dólares é o mesmo em todas as fontes (US$ 24 milhões; US$ 23,9 milhões na planilha). A conversão varia com a data do câmbio: R$ 134 milhões (Intercept, Correio da Manhã), R$ 131 milhões (relatório da PF citado pelo O Povo) e cerca de R$ 122 milhões (TVT News, com o relatório da PF).",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "R$ 145,1 milhões",
+          "de": "24 vezes 6,0440",
+          "como": "US$ 24 milhões convertidos pelo dólar de venda do Banco Central de 21/01/2025, dia em que o fluxo de pagamentos do filme foi tratado nas mensagens"
+        },
+        {
+          "valor": "R$ 134,0 milhões",
+          "de": "24 vezes a média das cotações de 2025 da série 1 do Banco Central, que vão de 6,2086 (02/01/2025) a 5,2729 (11/11/2025)",
+          "como": "média das 252 cotações diárias de 2025 na série capturada (5,5855) multiplicada por 24; 2025 é o ano do cronograma de 14 parcelas"
+        },
+        {
+          "valor": "R$ 122,0 milhões",
+          "de": "24 vezes 5,0826",
+          "como": "US$ 24 milhões no dólar de venda do Banco Central de 16/10/2026, dia da fala"
+        },
+        {
+          "valor": "2,3%",
+          "de": "134 dividido por 131",
+          "como": "desvio do valor dito sobre a conversão do relatório da PF citada pelo O Povo"
+        },
+        {
+          "valor": "9,8%",
+          "de": "134 dividido por 122",
+          "como": "desvio do valor dito sobre a conversão citada pela TVT News, igual à do dólar do dia da fala"
+        },
+        {
+          "valor": "1,79",
+          "de": "134 dividido por 75",
+          "como": "razão entre o valor negociado e o custo declarado pela perícia, para o 'quase o dobro' da pergunta"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Banco Central do Brasil (SGS, série 1: dólar, taxa de venda, diária)",
+          "titulo": "Taxa de câmbio livre, dólar americano (venda), diária, de 01/01/2025 a 16/10/2026",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/01/2025&dataFinal=16/10/2026",
+          "consultada_em": "2026-10-17",
+          "trecho": "{\"data\":\"02/01/2025\",\"valor\":\"6.2086\"}, {\"data\":\"21/01/2025\",\"valor\":\"6.0440\"}, {\"data\":\"11/11/2025\",\"valor\":\"5.2729\"}, {\"data\":\"16/10/2026\",\"valor\":\"5.0826\"}",
+          "prova": "Cotações oficiais para converter os US$ 24 milhões: 6,0440 no dia em que o fluxo de pagamentos foi tratado nas mensagens (21/01/2025), a maior e a menor de 2025 e a do dia da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "The Intercept Brasil (reportagem original, com mensagens e documentos)",
+          "titulo": "ÁUDIO: Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair (13/05/2026)",
+          "url": "https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A frase escrita pelo hoje pré-candidato à Presidência da República é parte de uma série de registros que indicam a existência de uma negociação em que Vorcaro se comprometeu a repassar um total de 24 milhões de dólares (na época equivalentes a cerca de R$ 134 milhões) para financiar a produção de “ Dark Horse ”, o filme biográfico sobre Jair Bolsonaro . [...] 14 parcelas – 12 delas de 1,666 milhão de dólares e duas de 2 milhões de dólares. [...] segundo a qual 10,6 milhões de dólares já haviam sido transferidos de um total previsto de 23,9 milhões de dólares.",
+          "prova": "Fonte original das mensagens e da planilha: o acordo era de US$ 24 milhões (US$ 23,9 milhões na planilha), em 14 parcelas, e a conversão de R$ 134 milhões é a do próprio Intercept."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio Bolsonaro negociou com dono do banco Master repasse de R$ 134 milhões para custear Dark Horse (maio/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/05/amp/285516-filme-sobre-bolsonaro-seria-financiado-por-daniel-vorcaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Na tarde de quarta-feira, Flávio Bolsonaro admitiu ter tido uma conversa com Daniel Vorcaro, o dono do Banco Master, para que ele repassasse US$ 24 milhões (o equivalente a R$ 134 milhões na época) para a produção de Dark Horse.",
+          "prova": "O próprio Flávio admitiu a conversa sobre o repasse de US$ 24 milhões, convertidos em R$ 134 milhões."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (com relatórios da Polícia Federal)",
+          "titulo": "PF aponta cobranças de Flávio a Vorcaro e detalha relação sobre Dark Horse (13/09/2026)",
+          "url": "https://mais.opovo.com.br/jornal/dom/2026/09/13/pf-aponta-cobrancas-de-flavio-a-vorcaro-e-detalha-relacao-sobre-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a PF, Flávio pediu R$ 131 milhões a Vorcaro para a produção do filme, dos quais R$ 60 milhões teriam sido pagos .",
+          "prova": "Conversão em reais segundo o relatório da PF reproduzido pelo jornal."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News (com relatório da Polícia Federal)",
+          "titulo": "PF diz que Eduardo Bolsonaro orientou como dinheiro de Dark Horse seria gerido nos EUA (11/09/2026)",
+          "url": "https://tvtnews.com.br/pf-eduardo-bolsonaro-gestao-122-milhoes-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "De acordo com a PF, o fundo poderia receber US$ 24 milhões , cerca de R$ 122 milhões , provenientes do ex-banqueiro Daniel Vorcaro.",
+          "prova": "Mesmo valor em dólares, com outra conversão para reais."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "É falso que Mendonça descartou inquérito contra Flávio Bolsonaro por ‘Dark Horse’ (11/09/2026)",
+          "url": "https://www.aosfatos.org/noticias/mendonca-inquerito-flavio-bolsonaro-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em julho, o magistrado autorizou investigação da PF contra o senador. A apuração continua e está sob sigilo.",
+          "prova": "Registra que a investigação sobre o financiamento do filme está em curso na data da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News",
+          "titulo": "TVT News não esquece: 100 dias do escândalo dos áudios de Flávio Bolsonaro para Vorcaro",
+          "url": "https://tvtnews.com.br/flavio-bolsonaro-e-vorcaro-3-meses-de-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Documentos apontam custo declarado superior a R$ 75 milhões , enquanto a negociação com Vorcaro previa aproximadamente R$ 134 milhões.",
+          "prova": "Põe lado a lado o custo declarado e o valor negociado, base da razão da pergunta"
+        }
+      ],
+      "id": "A086",
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r3: Provisório: marcador exato e confiança baixa. Falta a fonte N1 (representação da PF ou decisão do STF com o valor). É a mesma afirmação da A072 ('134'), e as duas devem sair iguais na rodada 2. O numero_apurado usa US$ 10,6 milhões repassados, dado só até maio de 2025; na data da fala o total documentado era US$ 12,3 milhões (Poder360, já capturado). Derivação 134/75 = 1,79 conferida. Trechos achados (p09). · Revisão da rodada 2: Mesma afirmação, fontes e contas da A072 (conferidas lá); veredito igual, como pedia a revisão r3. A nota do r3 sobre os US$ 10,6 milhões foi atendida: o repassado vigente (US$ 12,3 milhões) fica na A071 e na A087. Razão 134 dividido por 75 = 1,79 conferida e fora do veredito. Sete trechos achados (r2parte2, p08, p08-r2, p09). · Coerência entre lotes e entre casos: Só a conta lateral da explicação: o custo de R$ 75 milhões passou a 'atribuído à perícia pelas reportagens', por causa da A085. Veredito, resumo e ressalva iguais aos da A072.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "id": "A087",
+      "veredito": "VERDADEIRO",
+      "resumo": "Negociação previa US$ 24 milhões; os repasses documentados somam US$ 12,3 milhões, e Flávio cobrou parcelas atrasadas",
+      "explicacao": "A frase diz que o contrato de Vorcaro com o filme não foi cumprido. As fontes mostram que o acerto previa US$ 24 milhões em parcelas; até maio de 2025 tinham sido repassados US$ 10,6 milhões, cerca de R$ 61 milhões, e, com a parcela de US$ 1,6 milhão de 16 de setembro de 2025 registrada pelo Coaf, o total pago chegou a US$ 12,3 milhões em 7 parcelas (Poder360, com a piauí), cerca de metade do combinado; em áudio que reconheceu como autêntico, Flávio cobrou Vorcaro por parcelas atrasadas; e Karina da Gama disse que, com a prisão do banqueiro, a produção buscou novos investidores. O essencial (o combinado não foi pago por inteiro) é confirmado por fontes independentes, por isso VERDADEIRO. A ressalva: o contrato em si não foi divulgado, e o que se conhece do acordo vem de mensagens e documentos revelados pela imprensa (N4; a alegação não é de número, e o fato do pagamento parcial não está em disputa entre as partes).",
+      "numero_dito": null,
+      "numero_apurado": "US$ 12,3 milhões repassados em 7 parcelas (US$ 10,6 milhões até maio de 2025), de US$ 24 milhões negociados",
+      "data_de_referencia": "repasses de fevereiro a setembro de 2025, somados pelo Coaf e noticiados em 01/09/2026",
+      "ressalva": "O contrato não foi divulgado; o acordo é conhecido por mensagens e documentos publicados pela imprensa",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "PF pede informações à Ancine sobre filme de Bolsonaro (21/08/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/pf-pede-informacoes-a-ancine-sobre-filme-de-bolsonaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O filme passou a ser alvo de atenção da Justiça depois que o jornal Intercept Brasil revelou documentos e conversas que mostram um acordo de quase US$ 24 milhões para financiar o filme. Segundo os documentos, US$ 10,6 milhões (R$ 61 milhões) foram repassados de fevereiro a maio de 2025 ao Havengate Development Fund LP, nos Estados Unidos.",
+          "prova": "Mostra o acordo e o valor efetivamente repassado, bem abaixo do combinado"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Tarde",
+          "titulo": "Filme Dark Horse: perícia revela custo milionário e origem de recursos (12/06/2026)",
+          "url": "https://atarde.com.br/politica/produtora-revela-valor-gasto-com-dark-horse-filme-de-bolsonaro-veja-1391974",
+          "consultada_em": "2026-10-17",
+          "trecho": "Flávio Bolsonaro chegou a enviar um áudio a Vorcaro dizendo que estava muito preocupado com parcelas atrasadas do patrocínio do Master ao filme:",
+          "prova": "Registra a cobrança de parcelas atrasadas pelo próprio candidato"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Flávio se irrita ao ser cobrado por contrato de 'Dark Horse' (25/08/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/08/313827-flavio-se-irrita-ao-ser-cobrado-por-contrato-de-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a empresária, quando o banqueiro foi preso, a equipe responsável pelo filme precisou buscar novos investidores para manter a produção.",
+          "prova": "A produtora confirma que o dinheiro de Vorcaro parou antes do previsto"
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (com dados do Coaf publicados pela revista piauí)",
+          "titulo": "Filme Dark Horse recebeu R$ 65 milhões de Daniel Vorcaro (01/09/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/filme-dark-horse-recebeu-r-65-milhoes-de-daniel-vorcaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Relatório do Coaf (Conselho de Controle de Atividades Financeiras) mostra que Daniel Vorcaro enviou, em 16 de setembro de 2025, uma parcela de US$ 1,6 milhão ao fundo Havengate Development, dos Estados Unidos, que financiou o filme “Dark Horse” . [...] Com o pagamento feito em setembro, chega a 7 o total de parcelas reconhecidamente pagas por Vorcaro ao filme. O valor total investido no longa-metragem de Bolsonaro chegaria a US$ 12,3 milhões , o equivalente a R$ 65 milhões na cotação da época.",
+          "prova": "Total pago por Vorcaro na data da fala (7 parcelas, US$ 12,3 milhões, com a de setembro de 2025): cerca de metade dos US$ 24 milhões negociados."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r3: Contra: o contrato não foi divulgado, e 'não foi cumprido' pode ser lido como quebra unilateral, quando a prisão de Vorcaro interrompeu os pagamentos. Não derruba: o essencial (o combinado não foi pago por inteiro) tem fontes independentes, inclusive a cobrança de parcelas atrasadas pelo próprio Flávio. Mudou o dado: o resumo e o numero_apurado davam US$ 10,6 milhões repassados, que é o total até maio de 2025; na data da fala o Coaf, via Poder360 com a piauí (captura p08-r2 063167ccf3af), somava 7 parcelas e US$ 12,3 milhões, com a de 16/09/2025 (pergunta 5, anacronismo). Entraram a fonte, o resumo, o numero_apurado, a data de referência e a explicação novos; o veredito fica.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ]
+}

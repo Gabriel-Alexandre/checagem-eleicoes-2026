@@ -1,0 +1,235 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/alegacoes-corte-01.json",
+  "checagens": [
+    {
+      "id": "A075",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "O fundo foi criado para um projeto imobiliário; se ele só cuida do filme é o que a PF ainda apura",
+      "explicacao": "A frase tem duas partes. 'Não é um fundo imobiliário': o Intercept e o relatório da PF (reproduzido pela TVT News) registram que o Havengate foi criado para um empreendimento imobiliário, o que contraria a frase quanto à origem; ao mesmo tempo, o projeto nunca saiu do papel e não há imóvel em nome do fundo, o que dá razão a Flávio quanto à atividade. 'Faz só a gestão do filme': é exatamente o que está em apuração. A Gazeta do Povo registra que em 9 de outubro, uma semana antes da fala, a PF pediu cooperação aos EUA para rastrear o destino do dinheiro do fundo, e a TVT News registra que a PF investiga se parte dos recursos custeou despesas de Eduardo Bolsonaro, sem conclusão pública. Eduardo diz que o escritório cuida só da gestão burocrática, financeira e legal dos recursos (Jovem Pan). Como a parte central depende de investigação em curso, o veredito é INSUSTENTAVEL, e não FALSO (etica-e-risco §5); nada aqui sugere irregularidade.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "situação do fundo até 16/10/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Intercept Brasil",
+          "titulo": "Fundo Havengate abandonou projeto imobiliário antes de receber milhões de Vorcaro para Dark Horse (jun/2026)",
+          "url": "https://www.intercept.com.br/?p=444049",
+          "consultada_em": "2026-10-17",
+          "trecho": "foi criado originalmente para vender a investidores, inclusive brasileiros, a Havengate Community, um projeto imobiliário de 21,1 milhões de dólares no Texas.",
+          "prova": "Origem imobiliária do fundo, contra a primeira parte da frase."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News (com relatório da Polícia Federal)",
+          "titulo": "PF diz que Eduardo Bolsonaro orientou como dinheiro de Dark Horse seria gerido nos EUA (11/09/2026)",
+          "url": "https://tvtnews.com.br/pf-eduardo-bolsonaro-gestao-122-milhoes-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Segundo a PF, a utilização de um fundo originalmente criado para outro tipo de empreendimento, que teria permanecido sem atividade operacional durante anos, é uma circunstância que precisa ser investigada.",
+          "prova": "A PF trata o uso do fundo como ponto sob investigação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "PF pede cooperação aos EUA para rastrear dinheiro do fundo de Dark Horse (09/10/2026)",
+          "url": "https://www.gazetadopovo.com.br/republica/pf-cooperacao-eua-rastrear-dinheiro-fundo-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A Polícia Federal (PF) pediu nesta sexta-feira (9) a cooperação formal aos Estados Unidos para rastrear o destino do dinheiro do fundo Havengate, utilizado no financiamento do filme “Dark Horse”, cinebiografia sobre a trajetória política do ex-presidente Jair Bolsonaro (PL).",
+          "prova": "O destino do dinheiro do fundo ainda estava sendo rastreado na semana da fala."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "História tosca: Eduardo Bolsonaro nega ter recebido recursos ligados a Vorcaro (14/05/2026)",
+          "url": "https://jovempan.com.br/noticias/politica/historia-tosca-eduardo-bolsonaro-nega-ter-recebido-recursos-vorcaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O escritório cuida apenas da gestão burocrática, financeira e legal dos recursos.",
+          "prova": "Versão de Eduardo Bolsonaro sobre o papel do escritório que administra o fundo."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r3: Contra: as fontes dão razão a Flávio quanto à atividade (nunca houve imóvel; desde 2025 o fundo só aparece ligado ao filme), o que puxaria para IMPRECISO como a A074. Não derruba: 'só faz a gestão do filme' é exatamente o que a PF rastreia (pedido de cooperação aos EUA em 9/10) e investiga (se parte custeou despesas de Eduardo), e a origem imobiliária contradiz o 'não é imobiliário'. Fato em apuração: INSUSTENTAVEL, não FALSO. Trechos achados (p08, p08-r2, p08-r3).",
+        "verificacoes": [
+          "1",
+          "3",
+          "6",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A076",
+      "veredito": "VERDADEIRO",
+      "resumo": "Registros do Texas ligam o fundo ao advogado Paulo Calixto, descrito como amigo próximo de Eduardo Bolsonaro",
+      "explicacao": "O critério pedia o nome do gestor no registro e a relação dele com Eduardo. A BBC News Brasil, com os registros do Controlador de Contas Públicas do Texas, mostra que o Havengate tem como agente legal o escritório de Paulo Calixto e pertence a uma LLC cujos sócios são Calixto e o corretor Altieris Santana; a mesma reportagem cita a piauí de setembro de 2025, que chama Calixto de amigo de Eduardo, e o próprio Flávio dizendo que o advogado é gestor do fundo. O Poder360, com outra reportagem da piauí, descreve o Havengate como administrado por Calixto, amigo de Eduardo. A Folha (via Bahia Notícias) registra Santana e Calixto como controladores do fundo e Calixto como responsável pelo processo imigratório de Eduardo. VERDADEIRO. A ressalva é que a gestão é dividida com Santana, e que a amizade é relato de imprensa, sem registro formal.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "registros do fundo no Texas, noticiados de maio a setembro de 2026",
+      "ressalva": "O fundo é controlado por Calixto e pelo corretor de imóveis Altieris Santana",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "BBC News Brasil (republicada pelo O Povo)",
+          "titulo": "Havengate: o fundo na mira da PF que conecta Vorcaro, Flávio e Eduardo Bolsonaro (16/05/2026)",
+          "url": "https://www.opovo.com.br/agencia/bbc/2026/05/16/havengate-o-fundo-na-mira-da-pf-que-conecta-vorcaro-flavio-e-eduardo-bolsonaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Os documentos mostram que o Havengate tem como agente legal o escritório Law Offices of Paulo Calixto PLLC, de Paulo Calixto, advogado de Eduardo Bolsonaro nos EUA. [...] A Havengate Development Fund GP LLC, por sua vez, tem como membros do quadro societário Paulo Calixto e o corretor de imóveis Altieris Santana. [...] Calixto vive nos Estados Unidos há mais de 20 anos e, segundo relatos, se tornou um amigo próximo de Eduardo Bolsonaro, ajudando o deputado cassado em seu processo de visto. [...] O advogado é gestor do fundo também\", disse o senador.",
+          "prova": "Registro do Texas com Calixto à frente do fundo, a relação de amizade com Eduardo e a confirmação de Flávio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (com dados do Coaf publicados pela revista piauí)",
+          "titulo": "Filme Dark Horse recebeu R$ 65 milhões de Daniel Vorcaro (01/09/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/filme-dark-horse-recebeu-r-65-milhoes-de-daniel-vorcaro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O destino era o Havengate, o fundo sediado no Texas e administrado por Paulo Calixto, advogado especializado em imigração",
+          "prova": "Segunda apuração que aponta Calixto como administrador do fundo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Folha de S.Paulo (republicada pelo Bahia Notícias)",
+          "titulo": "Eduardo Bolsonaro pediu envio do máximo possível de recursos para Dark Horse, diz site (27/05/2026)",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/394352-eduardo-bolsonaro-pediu-envio-do-maximo-possivel-de-recursos-para-dark-horse-diz-site",
+          "consultada_em": "2026-10-17",
+          "trecho": "Santana é um dos controladores do fundo Havengate Development Fund LP, sediado no Texas, ao lado do advogado Paulo Calixto -responsável pelo processo imigratório de Eduardo nos Estados Unidos.",
+          "prova": "Controladores do fundo e o vínculo profissional de Calixto com Eduardo."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r3: Contra: a amizade é 'segundo relatos' e não registro. Cai: BBC (com registros do Texas), Poder360 (com a piauí) e Folha via Bahia Notícias ligam Calixto à gestão do fundo; BBC e piauí o descrevem como amigo de Eduardo, e na sabatina Flávio não negou ('Por um advogado experiente nisso'; Renata: 'Mas que é amigo dele'). A ressalva registra a gestão dividida com Santana. Trechos achados (p08, p08-r2).",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A077",
+      "veredito": "VERDADEIRO",
+      "resumo": "Paulo Calixto, que administra o fundo, é advogado; as fontes o descrevem como especialista em imigração",
+      "explicacao": "A afirmação checável é que o gestor do fundo é advogado. A BBC News Brasil descreve Paulo Calixto como advogado especialista em imigração, formado em Direito pelo Mackenzie e com mestrado em Direito pela SMU, no Texas; o Intercept o chama de advogado de imigração de Eduardo e registra o escritório dele como agente legal do fundo; o Poder360, com a piauí, o descreve como advogado especializado em imigração. Não foi capturado o registro dele na ordem dos advogados, que o critério pedia; as fontes de imprensa são concordantes e independentes, por isso VERDADEIRO com confiança média. 'Experiente nisso' tem leitura mais fraca: Eduardo diz que o escritório atua com gestão de patrimônio e fundos há mais de uma década (Jovem Pan), mas o Intercept registra que a gestora de Calixto abriu mão do registro de gestora regulada no Texas em 2021. Isso vai na ressalva.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "perfil profissional noticiado de maio a setembro de 2026",
+      "ressalva": "A gestora ligada a Calixto deixou o registro de gestora regulada no Texas em 2021",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "BBC News Brasil (republicada pelo O Povo)",
+          "titulo": "Havengate: o fundo na mira da PF que conecta Vorcaro, Flávio e Eduardo Bolsonaro (16/05/2026)",
+          "url": "https://www.opovo.com.br/agencia/bbc/2026/05/16/havengate-o-fundo-na-mira-da-pf-que-conecta-vorcaro-flavio-e-eduardo-bolsonaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Paulo Calixto, por sua vez, é um advogado especialista em imigração, focado principalmente em visto EB-5, modalidade que concede o visto americano a estrangeiros que invistam nos Estados Unidos.",
+          "prova": "Confirma que o administrador do fundo é advogado e qual a especialidade dele."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Intercept Brasil",
+          "titulo": "Fundo Havengate abandonou projeto imobiliário antes de receber milhões de Vorcaro para Dark Horse (jun/2026)",
+          "url": "https://www.intercept.com.br/?p=444049",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 5 de maio de 2021, a Calixsan abriu mão desse registro no Texas. Quatro meses depois, fez o mesmo na Flórida .",
+          "prova": "Mostra que a gestora de Calixto deixou o registro de gestora regulada, o que pesa sobre 'experiente nisso'."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jovem Pan",
+          "titulo": "História tosca: Eduardo Bolsonaro nega ter recebido recursos ligados a Vorcaro (14/05/2026)",
+          "url": "https://jovempan.com.br/noticias/politica/historia-tosca-eduardo-bolsonaro-nega-ter-recebido-recursos-vorcaro.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O advogado tem mais de 40 anos de experiência, mestrado e doutorado. Seu escritório atua em gestão de patrimônio e fundo de investimento há mais de uma década.",
+          "prova": "Versão de Eduardo Bolsonaro sobre a experiência do advogado com fundos."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r3: Contra: a afirmação extraída ('o gestor é advogado') encolhe a frase, que diz 'experiente nisso'. Fica: a parte checável forte é a profissão, confirmada por BBC, Intercept e Poder360; 'experiente nisso' tem leitura fraca e foi para a ressalva, com o trecho do Intercept (a Calixsan abriu mão do registro no Texas em 2021). Falta o registro na ordem dos advogados, por isso confiança media. Trechos achados (p08, p08-r2).",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A078",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Intercept e relatório da PF falam em quase quatro anos sem atividade; o registro do fundo não foi conferido",
+      "explicacao": "O critério pedia o histórico do registro do fundo. O Intercept, com consulta aos registros do Texas e da SEC, diz que o fundo foi registrado em 24 de novembro de 2020 e que, durante quase quatro anos, permaneceu juridicamente ativo, mas sem qualquer atividade pública, até receber a primeira ordem de pagamento em fevereiro de 2025. O relatório da PF, citado entre aspas pelo O Povo e reproduzido pela TVT News, usa a mesma medida (operacionalmente inerte por quase quatro anos até a remessa de 13/02/2025), mas cita a própria reportagem do Intercept: as três fontes são imprensa (N4) e, para o prazo, têm uma origem só (regra 3 da METODOLOGIA §3.1). 'Quatro anos' contra 'quase quatro anos' ficaria dentro da régua do §2.2, mas a afirmação é numérica (um prazo em anos) e o registro primário, o do fundo no Texas ou o relatório da PF, não foi conferido. Pela regra 1 da §3.1, sem fonte N1 ou N2 o veredito é INSUSTENTAVEL, e não VERDADEIRO. Nada contradiz o prazo. O que falta: o registro do fundo no Texas ou peça oficial do inquérito com as datas. A ressalva continua: o fundo nunca deixou de existir no registro; o que faltava era atividade. Passada de coerência de 17/out/2026: o veredito era VERDADEIRO; passou a INSUSTENTAVEL pela mesma régua aplicada à A138 do candidato ('mais de 10 anos' de relações de Eduardo Bolsonaro, só com imprensa) e às A113 e A114.",
+      "numero_dito": "quatro anos",
+      "numero_apurado": "quase quatro anos sem atividade pública (registro em novembro de 2020; primeira remessa em 13/02/2025), segundo o Intercept e o relatório da PF",
+      "data_de_referencia": "de 24/11/2020 a 13/02/2025",
+      "ressalva": "O fundo seguia ativo no registro do Texas; o que faltava era atividade pública",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Intercept Brasil",
+          "titulo": "Fundo Havengate abandonou projeto imobiliário antes de receber milhões de Vorcaro para Dark Horse (jun/2026)",
+          "url": "https://www.intercept.com.br/?p=444049",
+          "consultada_em": "2026-10-17",
+          "trecho": "Durante quase quatro anos, esse fundo permaneceu juridicamente ativo nos Estados Unidos, mas sem qualquer atividade pública. Não houve atualização na página do Facebook, comunicação aos órgãos reguladores, registro de propriedade, registro de obra, depósito de Form D na SEC. Nenhum sinal de vida operacional.",
+          "prova": "Período de inatividade apurado em registros oficiais."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "O Povo (com relatórios da Polícia Federal)",
+          "titulo": "PF aponta cobranças de Flávio a Vorcaro e detalha relação sobre Dark Horse (13/09/2026)",
+          "url": "https://mais.opovo.com.br/jornal/dom/2026/09/13/pf-aponta-cobrancas-de-flavio-a-vorcaro-e-detalha-relacao-sobre-dark-horse.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "O fundo permaneceu juridicamente ativo, mas operacionalmente inerte por quase quatro anos, sem qualquer atividade pública registrada — até receber, em 13/02/2025, a primeira remessa de US$ 2 milhões proveniente da Entre Investimentos para o financiamento do filme",
+          "prova": "O relatório da PF, citado entre aspas, dá o mesmo prazo e a data da reativação."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TVT News (com relatório da Polícia Federal)",
+          "titulo": "PF diz que Eduardo Bolsonaro orientou como dinheiro de Dark Horse seria gerido nos EUA (11/09/2026)",
+          "url": "https://tvtnews.com.br/pf-eduardo-bolsonaro-gestao-122-milhoes-dark-horse/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O relatório afirma que o fundo permaneceu formalmente ativo, mas sem atividade pública registrada durante quase quatro anos.",
+          "prova": "Terceira reprodução do relatório da PF com o mesmo prazo."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r3: Contra: do registro (24/11/2020) à primeira remessa (13/02/2025) são mais de quatro anos, e as fontes falam em 'quase quatro'; 'inativo' também não é o termo do registro. Cai: 'quatro anos' fica dentro da régua contra 'quase quatro' ou pouco mais de quatro, e a ressalva diz que o fundo seguia ativo no registro. A data de 24/11/2020 está na mesma captura do Intercept (p08-r2), fora do trecho. Duas das três fontes reproduzem o relatório da PF, que cita o Intercept; a explicação declara. Tipo data_ou_prazo, só N4. · Coerência entre lotes e entre casos: Par A138 do lado da entrevistadora: prazo em anos só com imprensa, e as três fontes têm uma origem só (o relatório da PF cita o Intercept; regra 3 da §3.1). VERDADEIRO passou a INSUSTENTAVEL pela regra 1, para que o mesmo tipo de afirmação não tenha réguas diferentes nos dois lados da mesa. O número apurado perdeu o '24/11' sem trecho (aviso do validador). Ressalva mantida.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ]
+}

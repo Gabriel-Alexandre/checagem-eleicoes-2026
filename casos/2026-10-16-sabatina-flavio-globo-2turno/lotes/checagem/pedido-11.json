@@ -1,0 +1,193 @@
+PEDIDO DE CHECAGEM 11 de 21 · alegações A101 a A110
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-11.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A101",
+      "inicio_s": 1249.86,
+      "fim_s": 1254.72,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O mesmo Vacari que já foi preso exatamente por fraude em fundos de pensão.",
+      "afirmacao": "João Vaccari Neto já foi preso por fraude em fundos de pensão",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "histórico de prisões de João Vaccari Neto (Lava Jato e outras operações): datas e motivo de cada prisão",
+        "se alguma prisão ou condenação foi por fraude em fundos de pensão, ou por outros crimes (corrupção, lavagem)"
+      ]
+    },
+    {
+      "id": "A102",
+      "inicio_s": 1258.6,
+      "fim_s": 1269.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Vacari, ligado ao Lula, estava oferecendo um bilhão de reais para que fossem investidos em fundos podres do Banco Master e cobrou uma propina de 10% em cima disso.",
+      "citacao_card": "estava oferecendo um bilhão de reais [...] e cobrou uma propina de 10% em cima disso",
+      "afirmacao": "João Vaccari Neto cobrou propina de 10% sobre o R$ 1 bilhão que ofereceu para investir em fundos do Banco Master",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "investigação da PF, decisão judicial ou reportagem com acesso aos autos sobre pedido de propina de 10% ligado a aportes de fundos de pensão no Banco Master",
+        "quem teria cobrado o percentual, segundo a fonte"
+      ]
+    },
+    {
+      "id": "A103",
+      "inicio_s": 1284.38,
+      "fim_s": 1286.04,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Está confirmado pela Polícia Federal.",
+      "afirmacao": "A Polícia Federal confirmou a oferta de João Vaccari Neto a Daniel Vorcaro e a cobrança de propina",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Réplica do candidato quando a apresentadora diz que não vai tratar de informações não confirmadas pelo jornalismo da TV Globo",
+      "o_que_conferir": [
+        "relatório, representação ou nota da PF que trate da oferta e da propina atribuídas a Vaccari",
+        "se a PF afirma o fato, apenas investiga ou apenas transcreve uma mensagem de terceiro"
+      ]
+    },
+    {
+      "id": "A104",
+      "inicio_s": 1288.52,
+      "fim_s": 1290.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "não está confirmado pela Polícia Federal",
+      "afirmacao": "A Polícia Federal não confirmou a oferta e a propina atribuídas por Flávio Bolsonaro a João Vaccari Neto",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta da apresentadora à afirmação do candidato de que a PF confirmou a acusação contra Vaccari",
+      "o_que_conferir": [
+        "relatório, representação ou nota da PF que trate da oferta e da propina atribuídas a Vaccari",
+        "se a PF afirma o fato, apenas investiga ou apenas transcreve uma mensagem de terceiro"
+      ]
+    },
+    {
+      "id": "A105",
+      "inicio_s": 1292.89,
+      "fim_s": 1299.06,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "uma outra crítica que o senhor tem feito constantemente ao seu adversário que é a questão do aparelhamento da Polícia Federal.",
+      "citacao_card": "uma outra crítica que o senhor tem feito constantemente [...] do aparelhamento da Polícia Federal",
+      "afirmacao": "Flávio Bolsonaro tem acusado Lula, com frequência, de aparelhar a Polícia Federal",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Bolsonaro em 2026 (redes, entrevistas, debates) sobre aparelhamento da PF pelo governo Lula",
+        "frequência dessas declarações na campanha"
+      ]
+    },
+    {
+      "id": "A106",
+      "inicio_s": 1300.71,
+      "fim_s": 1319.44,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "da famosa reunião ministerial de 2020 na qual seu pai disse [...] Eu não vou deixar, [...] a minha família porque eu não posso trocar alguém na ponta da linha. se não puder trocar, troca o chefe dele. Não pode trocar o chefe, troca o ministro,",
+      "citacao_card": "reunião ministerial de 2020 na qual seu pai disse [...] Não pode trocar o chefe, troca o ministro",
+      "afirmacao": "Na reunião ministerial de 2020, Jair Bolsonaro disse que não deixaria prejudicarem sua família e que, se não pudesse trocar alguém 'na ponta da linha', trocaria o chefe ou o ministro",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "vídeo e transcrição oficial da reunião ministerial de 22/abr/2020, divulgados por decisão do STF (Inq 4831)",
+        "a fala literal de Jair Bolsonaro no trecho e se a citação da apresentadora corresponde a ela"
+      ]
+    },
+    {
+      "id": "A107",
+      "inicio_s": 1320.82,
+      "fim_s": 1322.64,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E seu pai, de fato, trocou o ministro.",
+      "afirmacao": "Depois da reunião ministerial de 2020, Jair Bolsonaro trocou o ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "data e forma da saída de Sergio Moro do Ministério da Justiça em 2020 (exoneração a pedido ou de ofício, Diário Oficial)",
+        "quem assumiu o ministério e quando"
+      ]
+    },
+    {
+      "id": "A108",
+      "inicio_s": 1322.98,
+      "fim_s": 1327.76,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A minha pergunta não diz respeito ao caso das fachadinhas e outros que envolviam o senhor na época,",
+      "citacao_card": "não diz respeito ao caso das [...] e outros que envolviam o senhor na época",
+      "afirmacao": "Em 2020, Flávio Bolsonaro era alvo de investigações",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "inquéritos e processos envolvendo Flávio Bolsonaro em 2020 (MP-RJ, PF, STJ, STF): objeto e situação",
+        "a transcrição registrou 'fachadinhas' (provável 'rachadinhas'); conferir só a existência de casos envolvendo o candidato na época, sem apoiar a checagem nessa palavra"
+      ]
+    },
+    {
+      "id": "A109",
+      "inicio_s": 1343.86,
+      "fim_s": 1346.26,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "ele trocou o superintendente do Rio de Janeiro na época,",
+      "afirmacao": "Em 2020, Jair Bolsonaro trocou o superintendente da Polícia Federal no Rio de Janeiro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "portarias e reportagens sobre a troca do superintendente da PF no RJ em 2020: datas, nomes e quem decidiu",
+        "se houve troca no RJ também em 2019 e qual delas o candidato cita"
+      ]
+    },
+    {
+      "id": "A110",
+      "inicio_s": 1346.94,
+      "fim_s": 1348.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "porque estava apresentando maus resultados.",
+      "afirmacao": "A troca do superintendente da PF no Rio de Janeiro em 2020 foi motivada por maus resultados da superintendência",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "justificativa oficial dada pelo governo ou pela PF para a troca do superintendente no RJ",
+        "dados de produtividade da superintendência do RJ no período (operações, inquéritos) e o depoimento de Sergio Moro e de delegados no Inq 4831"
+      ]
+    }
+  ]
+}

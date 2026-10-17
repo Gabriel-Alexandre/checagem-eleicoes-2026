@@ -1,0 +1,138 @@
+PEDIDO DE CHECAGEM 21 de 21 · alegações A201 a A207
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-21.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A201",
+      "inicio_s": 2380.96,
+      "fim_s": 2392.36,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Numa entrevista, ele disse, e eu cito aqui entre aspas, o Brasil vai pagar um preço caro por essa demora, a gente está ouvindo várias desculpas e nenhuma é adequada,",
+      "citacao_card": "o Brasil vai pagar um preço caro por essa demora, a gente está ouvindo várias desculpas e nenhuma é adequada",
+      "afirmacao": "Claudio Lottenberg disse em entrevista que o Brasil pagaria um preço caro pela demora na compra de vacinas e que nenhuma das desculpas era adequada",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "a entrevista original de Lottenberg com essa frase: veículo, data e redação exata",
+        "se a citação lida pela entrevistadora corresponde ao texto publicado"
+      ]
+    },
+    {
+      "id": "A202",
+      "inicio_s": 2409.34,
+      "fim_s": 2414.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Doutor Cláudio Lothenberg, vamos lembrar, ele foi o presidente do melhor hospital do Brasil que é o Albert Einstein,",
+      "citacao_card": "ele foi o presidente do melhor hospital do Brasil que é o Albert Einstein",
+      "afirmacao": "Claudio Lottenberg foi presidente do Hospital Israelita Albert Einstein",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "histórico da presidência da Sociedade Beneficente Israelita Brasileira Albert Einstein: períodos de Claudio Lottenberg no cargo",
+        "se o cargo era de presidente da sociedade mantenedora ou do conselho"
+      ]
+    },
+    {
+      "id": "A203",
+      "inicio_s": 2412.19,
+      "fim_s": 2416.02,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "do melhor hospital do Brasil que é o Albert Einstein, que fica ali em São Paulo.",
+      "afirmacao": "O Hospital Israelita Albert Einstein é o hospital mais bem colocado do Brasil nos rankings",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "rankings de hospitais com recorte por país (Newsweek World's Best Hospitals e outros) em 2025-2026: posição do Einstein no Brasil",
+        "qual ranking sustenta 'melhor do Brasil' e se há outros em que ele não é o primeiro"
+      ]
+    },
+    {
+      "id": "A204",
+      "inicio_s": 2419.26,
+      "fim_s": 2423.22,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "nesse melhor hospital do Brasil e até um dos melhores da América Latina",
+      "afirmacao": "O Hospital Israelita Albert Einstein está entre os melhores hospitais da América Latina nos rankings",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "rankings de hospitais da América Latina (por exemplo, América Economía) em 2025-2026: posição do Einstein"
+      ]
+    },
+    {
+      "id": "A205",
+      "inicio_s": 2496.32,
+      "fim_s": 2497.57,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "faltam apenas nove dias para as eleições",
+      "afirmacao": "O 2º turno da eleição de 2026 ocorre em 25 de outubro, nove dias depois da sabatina de 16 de outubro",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "calendário eleitoral de 2026, TSE: data do 2º turno",
+        "contagem de dias entre 16/out e 25/out/2026; o candidato repete a data em 'no dia 25' (2549.3 s)"
+      ]
+    },
+    {
+      "id": "A206",
+      "inicio_s": 2552.3,
+      "fim_s": 2554.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "compareça e vote em Flávio Bolsonaro 22.",
+      "afirmacao": "O número de Flávio Bolsonaro na urna para presidente em 2026 é 22",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "registro de candidatura de Flávio Bolsonaro no TSE (DivulgaCand 2026): número na urna"
+      ]
+    },
+    {
+      "id": "A207",
+      "inicio_s": 2555.54,
+      "fim_s": 2558.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O voto é secreto, não deixe ninguém te ameaçar porque ninguém vai saber qual é o seu voto.",
+      "afirmacao": "O voto no Brasil é secreto",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "Constituição Federal, art. 14 e art. 60 §4º, II, e Código Eleitoral sobre o sigilo do voto",
+        "regras do TSE que garantem o sigilo na urna eletrônica"
+      ]
+    }
+  ]
+}

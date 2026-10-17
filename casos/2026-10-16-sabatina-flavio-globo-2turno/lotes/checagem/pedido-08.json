@@ -1,0 +1,187 @@
+PEDIDO DE CHECAGEM 08 de 21 · alegações A071 a A080
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-08.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A071",
+      "inicio_s": 947.24,
+      "fim_s": 952.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "eu quero falar do dinheiro que o senhor pediu a Daniel Vorcaro e foi atendido. Foram quase 70 milhões de reais",
+      "citacao_card": "dinheiro que o senhor pediu a Daniel Vorcaro e foi atendido. Foram quase 70 milhões de reais",
+      "afirmacao": "Daniel Vorcaro repassou quase R$ 70 milhões a pedido de Flávio Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "valor efetivamente transferido por Vorcaro ou empresas ligadas a ele para o projeto do filme, segundo PF, documentos ou reportagem com documento",
+        "se o valor é em reais ou convertido de dólares, e em que câmbio"
+      ]
+    },
+    {
+      "id": "A072",
+      "inicio_s": 952.7,
+      "fim_s": 955.42,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "de um total de 134 que o senhor pediu.",
+      "afirmacao": "Flávio Bolsonaro pediu a Daniel Vorcaro um total de R$ 134 milhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "mensagens ou documentos do inquérito com o valor total pedido por Flávio Bolsonaro a Vorcaro",
+        "moeda e câmbio usados para chegar a 134 milhões"
+      ]
+    },
+    {
+      "id": "A073",
+      "inicio_s": 955.88,
+      "fim_s": 961.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E esse dinheiro, em vez de ir direto para a produtora do filme sobre o seu pai, foi parar num fundo nos Estados Unidos,",
+      "citacao_card": "esse dinheiro, em vez de ir direto para a produtora do filme [...] foi parar num fundo nos Estados Unidos",
+      "afirmacao": "O dinheiro de Vorcaro foi para um fundo nos Estados Unidos, e não direto para a produtora do filme sobre Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "destino das transferências: documentos da investigação ou do próprio fundo e da produtora",
+        "nome e sede do fundo"
+      ]
+    },
+    {
+      "id": "A074",
+      "inicio_s": 959.76,
+      "fim_s": 962.64,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "foi parar num fundo nos Estados Unidos, um fundo imobiliário",
+      "afirmacao": "O fundo nos Estados Unidos que recebeu o dinheiro é um fundo imobiliário",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "registro do fundo nos EUA (estado de registro, SEC ou registro estadual): objeto social declarado"
+      ]
+    },
+    {
+      "id": "A075",
+      "inicio_s": 963.96,
+      "fim_s": 967.66,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Não, não é um fundo imobiliário, Renata. Só para corrigir. É um fundo que faz só a gestão do filme.",
+      "afirmacao": "O fundo nos Estados Unidos não é imobiliário e só faz a gestão do filme",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "registro do fundo nos EUA: objeto social declarado e outras atividades",
+        "se o fundo tem outros investimentos além do filme"
+      ]
+    },
+    {
+      "id": "A076",
+      "inicio_s": 968.7,
+      "fim_s": 971.18,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Gerido por um amigo do seu irmão Eduardo.",
+      "afirmacao": "O fundo é gerido por um amigo de Eduardo Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "nome do gestor do fundo no registro e relação documentada dele com Eduardo Bolsonaro"
+      ]
+    },
+    {
+      "id": "A077",
+      "inicio_s": 971.4,
+      "fim_s": 972.82,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Por um advogado experiente nisso.",
+      "afirmacao": "O gestor do fundo é advogado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "identidade do gestor do fundo e registro profissional dele como advogado (ordem dos advogados do estado nos EUA ou OAB)"
+      ]
+    },
+    {
+      "id": "A078",
+      "inicio_s": 974.56,
+      "fim_s": 977.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Esse fundo estava inativo. havia quatro anos.",
+      "afirmacao": "O fundo que recebeu o dinheiro estava inativo havia quatro anos",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "histórico do registro do fundo nos EUA: data de criação, períodos de inatividade e reativação"
+      ]
+    },
+    {
+      "id": "A079",
+      "inicio_s": 977.98,
+      "fim_s": 982.52,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E até hoje, esse fundo não deu informações sobre onde é que foi parar esse dinheiro.",
+      "afirmacao": "Até 16/out/2026, o fundo não informou o destino do dinheiro recebido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "notas e documentos divulgados pelo fundo ou pelo gestor até 16/out/2026 sobre a aplicação do dinheiro"
+      ]
+    },
+    {
+      "id": "A080",
+      "inicio_s": 994.3,
+      "fim_s": 1001.58,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A produtora do filme aqui no Brasil, ela prestou conta de tudo. Não tinha um centavo que a produtora não usava e que não tivesse autorização do fundo.",
+      "citacao_card": "ela prestou conta de tudo. Não tinha um centavo que a produtora não usava e que não tivesse autorização do fundo",
+      "afirmacao": "A produtora do filme no Brasil prestou contas de todo o dinheiro, e todo gasto teve autorização do fundo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre a falta de informação sobre o destino do dinheiro",
+      "o_que_conferir": [
+        "prestação de contas divulgada pela produtora brasileira: data, valores e onde foi publicada",
+        "se o total prestado bate com o valor que saiu do fundo"
+      ]
+    }
+  ]
+}

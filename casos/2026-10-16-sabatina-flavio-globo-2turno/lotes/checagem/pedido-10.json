@@ -1,0 +1,194 @@
+PEDIDO DE CHECAGEM 10 de 21 · alegações A091 a A100
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-10.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A091",
+      "inicio_s": 1127.78,
+      "fim_s": 1142.94,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Um diretor da Globo acabou de ser exonerado [...] mas ele feriu a ética, o código de ética da empresa e sofreu as consequências.",
+      "citacao_card": "Um diretor da Globo acabou de ser exonerado [...] ele feriu [...] o código de ética da empresa",
+      "afirmacao": "Um diretor do Grupo Globo foi desligado recentemente por ter violado o código de ética da empresa",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre o financiamento do filme, em que o candidato cita o desligamento de um diretor da Globo ligado a Vorcaro",
+      "o_que_conferir": [
+        "nota do Grupo Globo sobre o desligamento do diretor: data e motivo declarado",
+        "se a empresa citou violação do código de ética ou de conduta"
+      ]
+    },
+    {
+      "id": "A092",
+      "inicio_s": 1130.08,
+      "fim_s": 1136.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "porque ele promovia eventos bancados pelo Vorcaro do valor econômico lá em Nova York",
+      "afirmacao": "O diretor desligado do Grupo Globo promovia eventos do jornal Valor Econômico em Nova York bancados por Daniel Vorcaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre o financiamento do filme, em que o candidato cita o desligamento de um diretor da Globo ligado a Vorcaro",
+      "o_que_conferir": [
+        "reportagens e nota do Grupo Globo sobre eventos do Valor Econômico em Nova York e seus patrocinadores",
+        "se Vorcaro ou o Banco Master patrocinaram esses eventos e qual era o papel do diretor neles"
+      ]
+    },
+    {
+      "id": "A093",
+      "inicio_s": 1151.2,
+      "fim_s": 1153.18,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "mas a própria defesa confirmou que a voz era dele.",
+      "afirmacao": "A defesa de Daniel Vorcaro confirmou que a voz no áudio citado pelo candidato é dele",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre o áudio de Vorcaro que o candidato citou e a apresentadora pediu para não trazer à entrevista",
+      "o_que_conferir": [
+        "nota ou declaração da defesa de Daniel Vorcaro sobre a autenticidade do áudio: data e teor",
+        "se a confirmação foi da voz, do conteúdo ou de ambos"
+      ]
+    },
+    {
+      "id": "A094",
+      "inicio_s": 1154.4,
+      "fim_s": 1159.58,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Que o filme do Bolsonaro foi tudo legal dentro da lei e que o filme do Lula onde ele botou 30 milhões de reais por fora do Instituto Lula.",
+      "citacao_card": "o filme do Bolsonaro foi tudo legal [...] o filme do Lula onde ele botou 30 milhões de reais por fora",
+      "afirmacao": "No áudio, Daniel Vorcaro diz que o patrocínio ao filme sobre Bolsonaro foi legal e que pôs R$ 30 milhões 'por fora', via Instituto Lula, num filme sobre Lula",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre o áudio de Vorcaro que o candidato citou e a apresentadora pediu para não trazer à entrevista",
+      "o_que_conferir": [
+        "íntegra ou transcrição publicada do áudio de Vorcaro: o que ele diz sobre cada um dos dois filmes",
+        "se o áudio cita valor de R$ 30 milhões, pagamento 'por fora' e o Instituto Lula, ou se isso é leitura do candidato"
+      ]
+    },
+    {
+      "id": "A095",
+      "inicio_s": 1175.78,
+      "fim_s": 1191.84,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As compras de patrocínio na programação da TV Globo obedecem a regras de transparência, [...] elas não têm nada a ver com a linha editorial e com a independência editorial do jornalismo da Globo.",
+      "citacao_card": "As compras de patrocínio na programação da TV Globo obedecem a regras de transparência [...]",
+      "afirmacao": "As compras de patrocínio na TV Globo seguem regras de transparência e são separadas da linha editorial do jornalismo da emissora",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Esclarecimento da apresentadora depois de o candidato citar patrocínios do Banco Master na Globo e o desligamento de um diretor",
+      "o_que_conferir": [
+        "política comercial e Princípios Editoriais publicados do Grupo Globo: regra de separação entre área comercial e jornalismo",
+        "quais regras de transparência a Globo declara para patrocínio (tabela pública de preços, identificação de patrocinador)"
+      ]
+    },
+    {
+      "id": "A096",
+      "inicio_s": 1194.69,
+      "fim_s": 1204.44,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "do então diretor do Grupo Globo, que teve conversas reveladas com Daniel Vorcaro, isso foi revelado anteontem, e ontem ele foi desligado da empresa.",
+      "citacao_card": "conversas reveladas com Daniel Vorcaro, isso foi revelado anteontem, e ontem ele foi desligado da empresa",
+      "afirmacao": "As conversas de um diretor do Grupo Globo com Daniel Vorcaro foram reveladas em 14/out/2026, e ele foi desligado da empresa em 15/out/2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Esclarecimento da apresentadora depois de o candidato citar patrocínios do Banco Master na Globo e o desligamento de um diretor",
+      "o_que_conferir": [
+        "data da primeira reportagem que revelou as conversas do diretor com Vorcaro",
+        "data do comunicado do Grupo Globo sobre o desligamento do diretor"
+      ]
+    },
+    {
+      "id": "A097",
+      "inicio_s": 1211.66,
+      "fim_s": 1219.62,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o Brasil tem cerca de 1.600 instituições financeiras, tem quase 170 bancos.",
+      "afirmacao": "O Brasil tem cerca de 1.600 instituições financeiras autorizadas, das quais quase 170 são bancos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre por que, entre tantos bancos, o candidato procurou justamente Daniel Vorcaro",
+      "o_que_conferir": [
+        "relação de instituições autorizadas a funcionar pelo Banco Central (BCB, Sisbacen/estatísticas do sistema financeiro), no mês mais recente antes da fala",
+        "qual recorte dá 'bancos' (múltiplos, comerciais, de investimento, Caixa) e se inclui cooperativas e administradoras de consórcio nas 1.600"
+      ]
+    },
+    {
+      "id": "A098",
+      "inicio_s": 1227.4,
+      "fim_s": 1230.88,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e ele topou fazer numa época que ele não tinha absolutamente nada de errado.",
+      "afirmacao": "Quando Daniel Vorcaro aceitou patrocinar o filme, não havia investigação nem suspeita pública contra ele ou o Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre por que, entre tantos bancos, o candidato procurou Daniel Vorcaro",
+      "o_que_conferir": [
+        "data do acordo ou do primeiro aporte de Vorcaro ao filme",
+        "cronologia pública do caso Master: primeiros alertas do Banco Central, reportagens, inquéritos e liquidação, comparada à data do acordo"
+      ]
+    },
+    {
+      "id": "A099",
+      "inicio_s": 1235.5,
+      "fim_s": 1249.78,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O que está errado é o Vorcaro ser beneficiado pelo Vacari, que é um braço direito do Lula, quem toca o Instituto Lula, e oferecer um bilhão de reais nos fundos de pensão da Caixa, do Banco do Brasil, da Petrobras.",
+      "citacao_card": "o Vorcaro ser beneficiado pelo Vacari [...] e oferecer um bilhão de reais nos fundos de pensão",
+      "afirmacao": "João Vaccari Neto ofereceu a Daniel Vorcaro R$ 1 bilhão dos fundos de pensão de Caixa, Banco do Brasil e Petrobras",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "investigação da PF ou reportagens sobre oferta de recursos de Funcef, Previ e Petros ao Banco Master: quem ofereceu, valor e data",
+        "se João Vaccari Neto é citado nesses documentos e em que papel"
+      ]
+    },
+    {
+      "id": "A100",
+      "inicio_s": 1238.92,
+      "fim_s": 1243.58,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "pelo Vacari, que é um braço direito do Lula, quem toca o Instituto Lula,",
+      "afirmacao": "João Vaccari Neto comanda o Instituto Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "diretoria e cargos do Instituto Lula (site, estatuto, registros) na data da fala",
+        "se João Vaccari Neto ocupa ou ocupou cargo no instituto, e qual"
+      ]
+    }
+  ]
+}

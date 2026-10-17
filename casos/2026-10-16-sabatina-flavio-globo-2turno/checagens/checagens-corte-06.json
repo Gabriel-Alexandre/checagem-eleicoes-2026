@@ -1,0 +1,183 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/alegacoes-corte-06.json",
+  "checagens": [
+    {
+      "id": "A202",
+      "veredito": "VERDADEIRO",
+      "resumo": "Lottenberg presidiu a sociedade que mantém o Einstein de 2001 a 2016 e depois o conselho deliberativo",
+      "explicacao": "A alegação é que Lottenberg 'foi o presidente' do Einstein. O Brazil Journal o identifica como ex-presidente da Sociedade Beneficente Israelita Brasileira Albert Einstein, mantenedora do hospital, de 2001 a 2016, e presidente do Conselho Deliberativo; o Futuro da Saúde, em notícia de 01/09/2026 com nota do hospital, diz que ele foi presidente executivo por 15 anos, entre 2001 e 2016, comandava o Conselho desde 2017 e entrou de licença do conselho deliberativo durante o período eleitoral; a Medicina S/A, em texto de 2022 sobre outro assunto, confirma os 15 anos como presidente executivo. As fontes confirmam o cargo e o período, por isso VERDADEIRO e não IMPRECISO: o tempo verbal 'foi' está correto, e a única nuance (presidência da sociedade mantenedora, depois do conselho) vai na ressalva. O Brazil Journal Brands é conteúdo de marca e o Futuro da Saúde reproduz nota do hospital, então as duas remontam à instituição; a Medicina S/A traz o mesmo dado em texto próprio.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "presidência de 2001 a 2016; conselho desde 2017, licenciado em 2026",
+      "ressalva": "O cargo foi o de presidente da sociedade mantenedora; desde 2017 ele preside o conselho, hoje de licença",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Brazil Journal (Brands)",
+          "titulo": "Einstein aos 50: as raízes e os frutos de um hospital",
+          "url": "https://braziljournal.com/brands/einstein-aos-50-as-raizes-e-os-frutos-de-um-hospital",
+          "consultada_em": "2026-10-17",
+          "trecho": "disse Claudio Lottenberg, ex-presidente da Sociedade Beneficente Israelita Brasileira Albert Einstein (de 2001 a 2016) e presidente do Conselho Deliberativo.",
+          "prova": "Dá o cargo (presidente da sociedade mantenedora do hospital) e o período em que ele o ocupou."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Futuro da Saúde",
+          "titulo": "Claudio Lottenberg se licencia do Einstein após ser indicado ministro da Saúde por Flávio Bolsonaro (01/09/2026)",
+          "url": "https://futurodasaude.com.br/?p=50230",
+          "consultada_em": "2026-10-17",
+          "trecho": "Lottenberg é oftalmologista, presidente da Conib (Confederação Israelita do Brasil) e comandava o Conselho do Einstein desde 2017. Anteriormente, ele atuou como presidente executivo da instituição por 15 anos, entre 2001 e 2016.",
+          "prova": "Confirma, com base em nota do hospital, a presidência executiva de 2001 a 2016 e a presidência do conselho a partir de 2017."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Medicina S/A",
+          "titulo": "Claudio Lottenberg é o novo presidente do Conselho da Biomm (05/01/2022)",
+          "url": "https://medicinasa.com.br/claudio-lottenberg-biomm",
+          "consultada_em": "2026-10-17",
+          "trecho": "o especialista faz parte do corpo clínico do Hospital Israelita Albert Einstein desde 1987, onde fundou o banco de córneas e foi presidente executivo por 15 anos.",
+          "prova": "Terceira fonte, em texto sobre outro tema, com o mesmo cargo e a mesma duração."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r7: Contra: duas das três fontes remontam ao próprio hospital (conteúdo de marca e nota), e confiança alta só com N4 seria generosa; e o cargo era o da sociedade mantenedora. Cai: a explicação declara a dependência, a Medicina S/A traz o mesmo dado em texto próprio, e a ressalva leva a nuance do cargo; 'foi o presidente' bate com 2001 a 2016. Confiança alta com N4 é o padrão do caso; anotado. · Coerência entre lotes e entre casos: Confiança alta com só N4 passou a média, como as oito da entrevistadora (A040, A045, A065, A106, A108, A189, A195, A198).",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A203",
+      "veredito": "VERDADEIRO",
+      "resumo": "No ranking da Newsweek de 2026, o Einstein é o 1º do Brasil e o 16º do mundo",
+      "explicacao": "A alegação de ranking é que o Einstein é o hospital mais bem colocado do Brasil. No World's Best Hospitals 2026, da Newsweek com a Statista, o Einstein aparece em 1º na lista do Brasil (nota 92.30%, à frente do Sírio-Libanês) e em 16º na lista mundial; a imprensa (IstoÉ, com Estadão Conteúdo, e Estratégia MED) reproduz o resultado e diz que ele é o hospital brasileiro mais bem posicionado. Pela regra 2 da §3.1, essas matérias contam como apoio porque reproduzem a primária, que foi capturada. 'Melhor' é juízo, mas a frase se ancora no ranking internacional mais citado, e nele o Einstein é o primeiro do país, por isso VERDADEIRO. Não foi conferido, por limite de busca, se em outros rankings ele também lidera; isso vai na ressalva e deixa a confiança em média.",
+      "numero_dito": null,
+      "numero_apurado": "1º no Brasil e 16º no mundo (Newsweek 2026)",
+      "data_de_referencia": "World's Best Hospitals 2026, Newsweek/Statista, divulgado em fevereiro de 2026",
+      "ressalva": "Vale para o ranking da Newsweek; outros rankings não foram conferidos",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Newsweek e Statista",
+          "titulo": "World's Best Hospitals 2026: Brazil",
+          "url": "https://www.newsweek.com/rankings/worlds-best-hospitals-2026/brazil",
+          "consultada_em": "2026-10-17",
+          "trecho": "Brazil Rank Hospital Name Score City Footnote PROMs Ribbons 1 Einstein Hospital Israelita 92.30% São Paulo 2 Hospital Sirio-Libanês 84.61% São Paulo",
+          "prova": "É o próprio ranking: o Einstein é o primeiro da lista brasileira."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Newsweek e Statista",
+          "titulo": "World's Best Hospitals 2026",
+          "url": "https://www.newsweek.com/rankings/worlds-best-hospitals-2026",
+          "consultada_em": "2026-10-17",
+          "trecho": "15 Rigshospitalet - Copenhagen University Hospital Denmark Copenhagen 16 Einstein Hospital Israelita Brazil São Paulo 17 LMU Klinikum Germany Munich",
+          "prova": "Posição do Einstein na lista mundial, a melhor entre os hospitais brasileiros."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "IstoÉ (com Estadão Conteúdo)",
+          "titulo": "Veja quais são os 7 hospitais brasileiros que estão entre os melhores do mundo (26/02/2026)",
+          "url": "https://istoe.com.br/hospitais-brasileiros-melhores-do-mundo-ranking",
+          "consultada_em": "2026-10-17",
+          "trecho": "Confira os hospitais brasileiros presentes na lista: – Einstein Hospital Israelita Albert Einstein – 16º lugar – Hospital Sírio Libanês – 79º lugar",
+          "prova": "Reproduz a primária (Newsweek) e mostra o Einstein à frente dos demais brasileiros."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Estratégia MED",
+          "titulo": "Sete hospitais brasileiros aparecem entre os melhores do mundo em ranking internacional (02/03/2026)",
+          "url": "https://med.estrategia.com/portal/noticias/sete-hospitais-brasileiros-aparecem-entre-os-melhores-do-mundo-em-ranking-internacional/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O hospital mais bem posicionado do país é o Hospital Israelita Albert Einstein , que ocupa a 16ª colocação mundial.",
+          "prova": "Segunda reprodução da primária, com a mesma conclusão."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r7: Contra: 'melhor hospital do Brasil' é juízo de valor. Cai: a frase se ancora num ranking conferível, e a lista Brasil da Newsweek/Statista 2026 (captura p21) põe o Einstein em 1º, com 92,30%; a ressalva diz que outros rankings não foram conferidos, e a confiança é média.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A204",
+      "veredito": "VERDADEIRO",
+      "resumo": "Na Newsweek de 2026, o Einstein é o 16º do mundo e nenhum hospital latino-americano aparece acima dele",
+      "explicacao": "A alegação é que o Einstein está entre os melhores da América Latina. No World's Best Hospitals 2026, da Newsweek com a Statista, que avalia hospitais de Brasil, Chile, Colômbia e México, entre outros países, o Einstein é o 16º do mundo, e as 15 posições acima dele são de hospitais dos Estados Unidos, Canadá, Suécia, Israel, Alemanha, Suíça, Singapura, França, Japão e Dinamarca, nenhum latino-americano. A Medicina S/A, reproduzindo a divulgação do hospital, diz que ele reafirma pelo sétimo ano a liderança na América Latina. A frase dita ('um dos melhores') é mais modesta que isso, por isso VERDADEIRO. O ranking regional da América Economía, citado no o_que_conferir, não foi conferido por limite de busca; vai na ressalva e deixa a confiança em média.",
+      "numero_dito": null,
+      "numero_apurado": "16º no mundo, primeiro latino-americano da lista (Newsweek 2026)",
+      "data_de_referencia": "World's Best Hospitals 2026, Newsweek/Statista",
+      "ressalva": "Vale para o ranking da Newsweek; o ranking regional da América Economía não foi conferido",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Newsweek e Statista",
+          "titulo": "World's Best Hospitals 2026",
+          "url": "https://www.newsweek.com/rankings/worlds-best-hospitals-2026",
+          "consultada_em": "2026-10-17",
+          "trecho": "World’s Best Hospitals 2026 – Top 250 Rank Hospital Name Country City State (US only) PROMs Ribbons 1 Mayo Clinic - Rochester United States Rochester Minnesota 2 University Health Network - Toronto General Hospital” Canada Toronto 3 Cleveland Clinic United States Cleveland Ohio 4 Karolinska Universitetssjukhuset Sweden Stockholm 5 Massachusetts General Hospital United States Boston Massachusetts 6 The Johns Hopkins Hospital United States Baltimore Maryland 7 Sheba Medical Center Israel Ramat Gan 8 Charité - Universitätsmedizin Berlin Germany Berlin 9 Universitätsspital Zürich Switzerland Zurich 10 Singapore General Hospital (SGH) Singapore Singapore 11 AP-HP - Hôpital Universitaire Pitié Salpêtrière France Paris 12 Universitätsklinikum Heidelberg Germany Heidelberg 13 The University of Tokyo Hospital Japan Bunkyo 14 Ronald Reagan UCLA Medical Center United States Los Angeles California 15 Rigshospitalet - Copenhagen University Hospital Denmark Copenhagen 16 Einstein Hospital Israelita Brazil São Paulo",
+          "prova": "Lista mundial: as 15 posições acima do Einstein não têm nenhum hospital da América Latina."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Newsweek e Statista",
+          "titulo": "World's Best Hospitals 2026: Brazil",
+          "url": "https://www.newsweek.com/rankings/worlds-best-hospitals-2026/brazil",
+          "consultada_em": "2026-10-17",
+          "trecho": "Brazil Rank Hospital Name Score City Footnote PROMs Ribbons 1 Einstein Hospital Israelita 92.30% São Paulo",
+          "prova": "Confirma que ele lidera a lista do Brasil, o maior país latino-americano do ranking."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Medicina S/A (com informações do hospital)",
+          "titulo": "Ranking Newsweek 2026 (edição digital)",
+          "url": "https://medicinasa.com.br/ranking-newsweek-ed33/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Einstein Hospital Israelita é o 16º melhor hospital do mundo, segundo o ranking The World’s Best Hospitals 2026 . O avanço de seis posições em relação ao ano anterior evidencia o alinhamento da organização aos mais altos padrões internacionais de excelência, ao mesmo tempo em que reafirma, pelo sétimo ano consecutivo, sua posição de liderança no Hemisfério Sul e na América Latina.",
+          "prova": "Reproduz a primária e a leitura do hospital de que lidera a América Latina nesse ranking."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r7: Contra: a Newsweek não tem lista regional da América Latina. Cai: as 15 posições acima do Einstein na lista mundial (trecho achado) não têm hospital latino-americano, e 'um dos melhores' é mais modesto que o dado; a ressalva diz que o ranking regional não foi conferido.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "8"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/alegacoes-corte-03.json",
+  "checagens": [
+    {
+      "id": "A131",
+      "veredito": "VERDADEIRO",
+      "resumo": "Em entrevista exibida em 10 de outubro, Eduardo disse que as nomeações de ministros vão passar por Jair Bolsonaro",
+      "explicacao": "A pergunta da entrevistadora atribui a Eduardo Bolsonaro, numa entrevista de dias antes, a ideia de que quem decide sobre a ida dele para o Itamaraty é o pai. O Diário do Grande ABC e o Times Brasil, ambos a partir de texto do Estadão Conteúdo, reproduzem a fala de Eduardo ao SBT News, exibida no sábado, 10 de outubro, seis dias antes da sabatina: 'As nomeações de ministros vão passar pelo presidente Jair Bolsonaro'. O Correio da Manhã, com apuração própria baseada na CNN Brasil, confirma que o cargo de chanceler para Eduardo estava em discussão naquela semana. Pela regra 2 da §3.1, as matérias que reproduzem a entrevista contam como apoio, e declaramos isso: a primária (a entrevista em vídeo do SBT News) não foi capturada, e as duas matérias que trazem a fala vêm do mesmo serviço de agência, por isso a confiança é média. A paráfrase 'quem vai decidir é o pai' corresponde ao essencial da fala (as nomeações passam pela aprovação de Jair). VERDADEIRO e não IMPRECISO porque o sentido e a época batem; a ressalva registra que, sobre a própria indicação, Eduardo disse depender da vontade de Flávio.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "entrevista ao SBT News exibida em 10/out/2026",
+      "ressalva": "Sobre a própria ida ao Itamaraty, Eduardo disse que depende da vontade de Flávio",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Grande ABC (Estadão Conteúdo)",
+          "titulo": "Eduardo Bolsonaro diz que nomeações de ministros vão passar por Jair Bolsonaro (11/10/2026)",
+          "url": "https://www.dgabc.com.br/Noticia/4352153/eduardo-bolsonaro-diz-que-nomeacoes-de-ministros-vao-passar-pelo-presidente-jair-bolsonaro",
+          "consultada_em": "2026-10-17",
+          "trecho": "\"As nomeações de ministros vão passar pelo presidente Jair Bolsonaro. Neste momento há uma dificuldade muito grande de ter contato com ele. No momento estamos preocupados com a eleição do Flávio\", afirmou em entrevista ao SBT News, exibida no sábado (10).",
+          "prova": "Traz a fala literal de Eduardo, a data de exibição da entrevista (sábado, 10 de outubro) e o veículo."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil / CNBC (com Estadão Conteúdo)",
+          "titulo": "Eduardo diz que Jair Bolsonaro dará aval sobre ministros de eventual governo Flávio (11/10/2026)",
+          "url": "https://timesbrasil.com.br/eleicoes-2026/eduardo-bolsonaro-aprovara-ministros-de-eventual-governo-flavio/",
+          "consultada_em": "2026-10-17",
+          "trecho": "“Isso é assunto pra depois da eleição, mas se for da vontade de Flávio me ter em um Ministério, estou à disposição”, afirmou Eduardo durante a entrevista.",
+          "prova": "Mostra que, sobre a própria indicação, Eduardo condicionou a ida ao ministério à vontade de Flávio, o que entra na ressalva."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Correio da Manhã",
+          "titulo": "Eduardo Bolsonaro quer ser chanceler em eventual governo de Flávio (08/10/2026)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/325849-eduardo-bolsonaro-quer-ser-chanceler-em-eventual-governo-de-flavio.html",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em caso de vitória de Flávio Bolsonaro (PL) nas eleições presidenciais deste ano, Eduardo Bolsonaro espera assumir o comando do Ministério das Relações Exteriores ou a embaixada do Brasil nos Estados Unidos .",
+          "prova": "Confirma, por apuração separada (baseada na CNN Brasil), que o cargo de chanceler para Eduardo estava em discussão na semana da sabatina."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r5: Contra: 'quem vai decidir isso é o pai' estica a fala ('as nomeações de ministros vão passar pelo presidente Jair Bolsonaro'), e sobre a própria indicação Eduardo disse depender da vontade de Flávio; além disso, DGABC, Times Brasil e O Liberal (também capturado na p14) reproduzem o mesmo texto do Estadão Conteúdo, e a entrevista do SBT News não foi capturada, então a regra 2 da §3.1 não se cumpre por inteiro. Fica de pé com confiança média: o Times Brasil traduz a fala como 'passarão pela aprovação do ex-presidente', o que é poder de decisão; a época (10/10, seis dias antes) confere; a ressalva registra a vontade de Flávio; e a explicação declara que as duas matérias são uma apuração só. Não achei captura independente do Estadão Conteúdo.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A132",
+      "veredito": "VERDADEIRO",
+      "resumo": "Eduardo mora nos EUA desde 2025 e atua de lá contra decisões do STF, atuação que o Supremo julgou como coação",
+      "explicacao": "A parte checável da frase é que Eduardo Bolsonaro está fora do Brasil e faz campanha no exterior contra decisões da Justiça brasileira. O Poder360 registra que ele está nos Estados Unidos desde o fim de fevereiro de 2025 e anunciou em março a licença do mandato para ficar no país e atuar contra o que chamava de perseguição; o Times Brasil e o Diário do Grande ABC confirmam, em outubro de 2026, que ele mora nos EUA. O Jornal Opção registra que, no início de outubro, ele defendeu em entrevista a prisão de Moraes e a retomada das sanções da Lei Magnitsky. A qualificação 'arbitrariedades' é juízo de valor do candidato e não é checada; o STF, ao contrário, julgou essa atuação como coação no curso do processo (ver A136). VERDADEIRO no fato (onde ele vive e o que faz no exterior), com confiança média porque a frase mistura fato e juízo.",
+      "numero_dito": null,
+      "numero_apurado": null,
+      "data_de_referencia": "residência nos EUA desde 2025; situação em out/2026",
+      "ressalva": "Chamar de arbitrariedades é juízo do candidato; o STF condenou essa atuação como coação no curso do processo",
+      "confianca": "media",
+      "divergencia_entre_fontes": "O Poder360 dá a chegada aos EUA no fim de fevereiro de 2025 e o Congresso em Foco fala em abril de 2025; a diferença não muda o veredito.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "STF condena Eduardo Bolsonaro a 4 anos e 2 meses em regime semiaberto (16/06/2026)",
+          "url": "https://www.poder360.com.br/poder-justica/stf-condena-eduardo-a-4-anos-e-2-meses/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Eduardo Bolsonaro está nos Estados Unidos desde o fim de fevereiro de 2025. Ele anunciou em março daquele ano que se licenciaria do mandato de deputado federal para permanecer no país e atuar contra o que chamava de perseguição política à família Bolsonaro.",
+          "prova": "Data a saída do país e o motivo declarado por ele para ficar nos EUA."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Times Brasil / CNBC",
+          "titulo": "Moraes determina prisão de Eduardo Bolsonaro e manda cancelar passaportes (out/2026)",
+          "url": "https://timesbrasil.com.br/brasil/moraes-determina-prisao-de-eduardo-bolsonaro-e-manda-cancelar-passaportes/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Além da ordem de prisão, Moraes determinou que todos os passaportes brasileiros de Eduardo sejam cancelados e deixem de ter validade. O ex-deputado mora nos Estados Unidos desde 2025.",
+          "prova": "Registra o cancelamento dos passaportes brasileiros por ordem de Moraes e que Eduardo mora nos Estados Unidos desde 2025."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal Opção",
+          "titulo": "Moraes manda prender Eduardo Bolsonaro e cancelar passaportes do ex-deputado (08/10/2026)",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/moraes-manda-prender-eduardo-bolsonaro-e-cancelar-passaportes-do-ex-deputado-877159/",
+          "consultada_em": "2026-10-17",
+          "trecho": "No início de outubro, em entrevista ao UOL , Eduardo também defendeu a prisão de Alexandre de Moraes e a retomada de sanções previstas na Lei Magnitsky.",
+          "prova": "Mostra a atuação pública de Eduardo, do exterior, contra o ministro do STF às vésperas da fala."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r5: Contra: 'denunciando as arbitrariedades' é juízo, e o card poderia estar confirmando o juízo. Cai: o resumo só afirma onde ele mora e que atua do exterior contra decisões do STF, e acrescenta que o STF julgou essa atuação como coação; a ressalva separa o juízo. Residência nos EUA desde 2025 (Poder360, Times Brasil) e atuação contra Moraes no início de out/2026 (Jornal Opção) conferidas nas capturas. A divergência sobre a data de chegada (fev ou abr/2025) está declarada.",
+        "verificacoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ]
+}

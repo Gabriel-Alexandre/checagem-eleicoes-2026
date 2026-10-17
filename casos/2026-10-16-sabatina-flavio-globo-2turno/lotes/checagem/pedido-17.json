@@ -1,0 +1,193 @@
+PEDIDO DE CHECAGEM 17 de 21 · alegações A161 a A170
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-17.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A161",
+      "inicio_s": 1919.46,
+      "fim_s": 1921.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em empresas que são fechadas,",
+      "afirmacao": "No governo Lula, o fechamento de empresas atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "Mapa de Empresas (MDIC/Receita Federal): empresas fechadas por ano/quadrimestre, série histórica",
+        "se o recorde vale em números absolutos e se inclui MEIs; conferir também o saldo (abertas menos fechadas)"
+      ]
+    },
+    {
+      "id": "A162",
+      "inicio_s": 1921.98,
+      "fim_s": 1924.54,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em indústrias que deixam o Brasil e vão para o Paraguai,",
+      "afirmacao": "No governo Lula, o número de indústrias brasileiras que se mudaram para o Paraguai atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "dados do governo paraguaio sobre empresas sob o regime de maquila e de capital brasileiro (MIC/CEMAP), por ano de instalação",
+        "se existe série que permita falar em recorde e se as empresas 'deixaram' o Brasil ou abriram filial"
+      ]
+    },
+    {
+      "id": "A163",
+      "inicio_s": 1960.58,
+      "fim_s": 1972.44,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No governo do seu pai, o senhor atuou para tentar aprovar no Senado um projeto que retiraria a marca, a marcação das cápsulas de balas compradas para uso da força de segurança.",
+      "citacao_card": "o senhor atuou para tentar aprovar no Senado um projeto que retiraria [...] a marcação das cápsulas de balas",
+      "afirmacao": "No governo Jair Bolsonaro, Flávio Bolsonaro atuou no Senado pela aprovação de projeto que retiraria a marcação das munições compradas por forças de segurança",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o projeto que retiraria a marcação das munições compradas por forças de segurança",
+      "o_que_conferir": [
+        "projetos no Senado (2019-2022) que alterariam a exigência de marcação de munição para órgãos de segurança: autoria, relatoria, votos e manifestações de Flávio Bolsonaro",
+        "o que o projeto dizia exatamente sobre a marcação dos estojos"
+      ]
+    },
+    {
+      "id": "A164",
+      "inicio_s": 1966.98,
+      "fim_s": 1972.44,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a marcação das cápsulas de balas compradas para uso da força de segurança.",
+      "afirmacao": "As munições compradas para uso das forças de segurança têm, por norma, marcação nas cápsulas (estojos)",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o projeto que retiraria a marcação das munições compradas por forças de segurança. A alegação é o que a pergunta pressupõe: que a marcação existe",
+      "o_que_conferir": [
+        "Estatuto do Desarmamento (Lei 10.826/2003, art. 23) e regulamentação do Exército sobre marcação de munição vendida a órgãos públicos",
+        "se a exigência estava em vigor na data da fala"
+      ]
+    },
+    {
+      "id": "A165",
+      "inicio_s": 1998.18,
+      "fim_s": 2006.06,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o ex-ministro da Justiça de Lula entrou sem nenhum policial, sem nenhum de segurança, numa favela aqui no Rio de Janeiro chamada Complexo da Maré.",
+      "citacao_card": "o ex-ministro da Justiça de Lula entrou sem nenhum policial [...] numa favela [...] chamada Complexo da Maré",
+      "afirmacao": "Um ex-ministro da Justiça do governo Lula entrou no Complexo da Maré, no Rio, sem policiais nem seguranças",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras. O candidato não diz o nome do ex-ministro",
+      "o_que_conferir": [
+        "qual ministro da Justiça de Lula visitou o Complexo da Maré e quando (agenda oficial do MJSP)",
+        "relatos da imprensa e do ministério sobre a escolta na visita"
+      ]
+    },
+    {
+      "id": "A166",
+      "inicio_s": 2015.18,
+      "fim_s": 2021.88,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Aqueles marginais que usam fuzis, armas de guerra pesadas, eles não passaram exame psicológico, não compraram arma em loja.",
+      "citacao_card": "Aqueles marginais que usam fuzis [...] não compraram arma em loja",
+      "afirmacao": "Os fuzis usados por criminosos no Brasil não têm origem em compra legal em loja",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras",
+      "o_que_conferir": [
+        "estudos de rastreamento de armas apreendidas (Instituto Sou da Paz, PF, polícias estaduais): proporção de fuzis de origem legal desviada versus contrabando",
+        "desvios de armas de CACs e de lojas para o crime organizado"
+      ]
+    },
+    {
+      "id": "A167",
+      "inicio_s": 2023.98,
+      "fim_s": 2031.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Elas estão entrando porque o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas no nosso país.",
+      "citacao_card": "o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas",
+      "afirmacao": "O governo Lula não fiscaliza a entrada de armas e drogas pelas fronteiras",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras",
+      "o_que_conferir": [
+        "apreensões de armas e drogas nas fronteiras pela PF, PRF e Receita, 2019-2026",
+        "operações e programas federais de fronteira em vigor (ex.: Programa de Proteção Integrada de Fronteiras) e seu orçamento"
+      ]
+    },
+    {
+      "id": "A168",
+      "inicio_s": 2042.16,
+      "fim_s": 2047.78,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Porque, pelo contrário, o entendimento que se tem é que eliminar isso dificulta a investigação.",
+      "afirmacao": "O entendimento corrente (de especialistas e investigadores) é que eliminar a marcação das munições dificulta a investigação",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o projeto que retiraria a marcação das munições compradas por forças de segurança. A mesma ideia aparece antes, em 32:55, sem atribuição; extrai-se aqui",
+      "o_que_conferir": [
+        "manifestações da PF, de peritos e de entidades (ex.: Instituto Sou da Paz) sobre o papel da marcação de munição em investigações",
+        "casos em que a marcação permitiu identificar o lote e o órgão de origem da munição (ex.: munição da PF no caso Marielle)"
+      ]
+    },
+    {
+      "id": "A169",
+      "inicio_s": 2052.0,
+      "fim_s": 2054.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É por isso que eu votei a favor aqui do projeto de lei antifacção,",
+      "afirmacao": "Flávio Bolsonaro votou a favor do projeto de lei Antifacção no Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições",
+      "o_que_conferir": [
+        "registro nominal da votação do PL Antifacção no Senado Federal: voto de Flávio Bolsonaro"
+      ]
+    },
+    {
+      "id": "A170",
+      "inicio_s": 2052.97,
+      "fim_s": 2060.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "do projeto de lei antifacção, pra que esses marginais usam essas armas de guerra, eles possam cumprir integralmente a sua pena.",
+      "citacao_card": "do projeto de lei antifacção, pra que esses marginais [...] possam cumprir integralmente a sua pena",
+      "afirmacao": "O PL Antifacção prevê que membros de facções criminosas cumpram a pena integralmente",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições",
+      "o_que_conferir": [
+        "texto aprovado do PL Antifacção (e da lei, se sancionada): regras de progressão de regime e cumprimento de pena para integrantes de facções",
+        "se o texto proíbe a progressão (cumprimento integral) ou só aumenta a fração exigida"
+      ]
+    }
+  ]
+}

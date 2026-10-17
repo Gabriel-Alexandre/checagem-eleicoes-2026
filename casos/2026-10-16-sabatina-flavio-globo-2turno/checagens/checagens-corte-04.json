@@ -1,0 +1,352 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/alegacoes-corte-04.json",
+  "checagens": [
+    {
+      "id": "A158",
+      "veredito": "IMPRECISO",
+      "resumo": "O fogo atingiu 30,2 milhões de hectares no país em 2024, a 2ª maior área desde 1985, atrás de 2007, segundo o MapBiomas",
+      "explicacao": "A frase afirma a maior queimada da história do Brasil no governo Lula. Na série nacional de área queimada do MapBiomas, Coleção 5 (1985 a 2025, publicada em julho de 2026 e vigente na data da fala), o maior registro é de 2007, com cerca de 30,7 milhões de hectares, seguido por 2024, com 30,2 milhões, e 2010, com 28,4 milhões (Relatório Anual do Fogo, capturado na revisão r6). A coleção anterior já punha 2024, com 30 milhões de hectares, como a segunda maior extensão em 40 anos (Diário do Comércio e Extra Classe, que reproduzem o relatório de 2025 e entram como apoio). O recorde de 2024 existe em recortes: a Amazônia teve a maior área queimada do bioma na série, e a Mata Atlântica a maior em quatro décadas. Atribuir ao país inteiro o recorde que vale para um bioma é recorte errado, e a §2.2 manda IMPRECISO: não é VERDADEIRO porque no total nacional 2024 ficou em segundo; não é FALSO porque a diferença para 2007 é de 1,6% (30,2 contra 30,7 milhões de hectares) e 2024 bateu recorde na Amazônia. A frase não depende do mês citado antes dela.",
+      "numero_dito": null,
+      "numero_apurado": "30,2 milhões de hectares queimados no Brasil em 2024, segunda maior área da série, atrás de 2007 (30,7 milhões)",
+      "data_de_referencia": "2024 (MapBiomas Fogo, Coleção 5, série de 1985 a 2025, publicada em julho de 2026)",
+      "ressalva": "Na Amazônia, 2024 teve a maior área queimada da série; no país, ficou 1,6% abaixo de 2007",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "MapBiomas (MapBiomas Fogo, Coleção 5)",
+          "titulo": "Relatório Anual do Fogo (RAF 2025), área queimada no Brasil de 1985 a 2025 (17/07/2026)",
+          "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/RAF2025_17.07.26_v2-1.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "A série histórica evidencia que os picos de área queimada se concentraram em 2007, 2024 e 2010, [...] O maior registro ocorreu em 2007, com cerca de 30,7 milhões de hectares, seguido por [...] 2024, com 30,2 milhões de hectares, e 2010, com 28,4 milhões de hectares.",
+          "prova": "Na série nacional vigente na data da fala, 2024 é a segunda maior área queimada, atrás de 2007."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (dados do MapBiomas)",
+          "titulo": "Queimadas atingiram 30 milhões de hectares no País em 2024",
+          "url": "https://diariodocomercio.com.br/?p=499055",
+          "consultada_em": "2026-10-17",
+          "trecho": "O ano de 2024 registrou 30 milhões de hectares do território nacional atingidos por queimadas. Essa foi a segunda maior extensão que o fogo alcançou nos últimos 40 anos, ficando 62% acima da média para o período entre 1985 e 2024, como aponta o Mapbiomas.",
+          "prova": "No total nacional, 2024 foi a segunda maior área queimada da série, não a maior."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Extra Classe (dados do MapBiomas, Relatório Anual do Fogo)",
+          "titulo": "Área queimada no Brasil em 2024 supera média histórica em 62%",
+          "url": "https://www.extraclasse.org.br/?p=116419",
+          "consultada_em": "2026-10-17",
+          "trecho": "Ao lado da Amazônia, que bateu recorde de incêndios florestais em 2024, e da Mata Atlântica, que teve a maior área afetada por fogo nas últimas quatro décadas, [...] Os dados também ressaltam a extensão da área queimada em 2024, quando 30 milhões de hectares foram afetados – uma área 62% acima da média histórica de 18,5 milhões de hectares por ano.",
+          "prova": "Os recordes de 2024 valem para biomas; o total nacional fica acima da média, sem ser recorde."
+        }
+      ],
+      "derivacoes": [
+        {
+          "valor": "1,6%",
+          "de": "30,7 menos 30,2, dividido por 30,7",
+          "como": "diferença entre a área queimada de 2007 e a de 2024, sobre a de 2007"
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r6: Contra: na Coleção 5 do MapBiomas, vigente na data da fala, 2024 (30,2 milhões de hectares) fica só 1,6% abaixo de 2007 (30,7 milhões), desvio abaixo da régua de 10%, e então seria VERDADEIRO. Não derruba: a frase afirma uma posição ('maior queimada na história'), e a posição está errada; a régua de 10% mede valor, não troca o primeiro pelo segundo lugar. O recorde de 2024 vale para a Amazônia, não para o país. Mantido IMPRECISO, e a ressalva passou a dar a diferença de 1,6% (derivação declarada) e o recorde na Amazônia, para o card não exagerar o erro. Entrou o Relatório Anual do Fogo 2025 (N2, Coleção 5, capturado na r6), que faltava como primária; resumo, numero_apurado e explicação atualizados (30,2 milhões; 'desde 1985', não '40 anos'). Ver pergunta de régua para a passada de coerência.",
+        "verificacoes": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A159",
+      "veredito": "IMPRECISO",
+      "resumo": "Mortes violentas tiveram em 2025 a menor taxa desde 2012; estelionatos e feminicídios cresceram",
+      "explicacao": "'Criminalidade' não tem um índice único; o retrato nacional é o Anuário Brasileiro de Segurança Pública 2026 (FBSP). No indicador principal, as mortes violentas intencionais, 2025 teve 40.775 casos e taxa de 19,1 por 100 mil, queda de 8,2% e a menor taxa desde 2012, início da série; o total de ocorrências patrimoniais segue em queda, segundo o Anuário. Ao mesmo tempo, alguns crimes bateram recorde ou cresceram muito no governo atual: estelionatos (alta de mais de 400% desde 2018), feminicídios (recorde em 2025) e mortes por intervenção policial. A frase generaliza para 'criminalidade' um recorde que só vale para alguns tipos, enquanto os indicadores tradicionais de violência caem: pela §2.2, recorte que inverte a tendência do dado completo é IMPRECISO. Não é FALSO porque há recordes reais em crimes específicos; não é VERDADEIRO porque o crime violento, a medida usual de criminalidade, está no ponto mais baixo da série. A TNH1 reproduz o Anuário e entra como apoio.",
+      "numero_dito": null,
+      "numero_apurado": "MVI: 40.775 casos e taxa de 19,1 por 100 mil em 2025, menor desde 2012",
+      "data_de_referencia": "2025 (Anuário Brasileiro de Segurança Pública 2026)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+          "titulo": "Anuário Brasileiro de Segurança Pública 2026 (íntegra publicada pelo Poder360)",
+          "url": "https://static.poder360.com.br/uploads/2026/07/anuario-seguranca-publica-23jul26.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com isso, o Brasil registrou 40.775 casos de MVI em 2025, o que equivale a uma taxa de 19,1 mortes por 100 mil habitantes, queda de 8,2% em relação ao ano de 2024 [...] o Brasil teve 19,1 casos por 100 mil habitantes, apresentando a menor taxa desde 2012. [...] Os estelionatos consolidam-se como o principal crime patrimonial do país. O crescimento superior a 400% desde 2018 evidencia uma profunda transformação das dinâmicas [...] Embora o número total de ocorrências continue em queda, [...] Enquanto os indicadores tradicionais de violência letal continuam em trajetória de redução, novas formas de criminalidade",
+          "prova": "Violência letal no menor nível da série, total de ocorrências patrimoniais em queda e estelionato com alta de mais de 400% desde 2018."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "TNH1 (CNN Brasil)",
+          "titulo": "Brasil bate recorde de feminicídios pelo quarto ano seguido",
+          "url": "https://www.tnh1.com.br/noticia/nid/brasil-bate-recorde-de-feminicidios-pelo-quarto-ano-seguido/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Em 2025, o Brasil registrou 40.775 Mortes Violentas Intencionais, queda de 8,2% em relação ao ano anterior e a menor taxa da série histórica: 19,1 mortes por 100 mil habitantes. [...] Ainda assim, os feminicídios e as mortes decorrentes de intervenção policial foram as únicas modalidades de mortes violentas que cresceram no período.",
+          "prova": "Reprodução do Anuário: queda geral e as exceções que bateram recorde."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r6: Contra, pelos dois lados: (a) há recordes reais (estelionato, feminicídio, mortes por intervenção policial), então seria VERDADEIRO; (b) o indicador usual de criminalidade, as mortes violentas, está na menor taxa desde 2012, então seria FALSO. Nenhum derruba IMPRECISO: a frase generaliza um recorde de tipos específicos enquanto o total cai, a mesma régua de recorte da A155. Achado: a explicação dava 'alta de mais de 400% desde 2018' dos estelionatos sem trecho; a frase está no mesmo parágrafo capturado do Anuário (p16-r6) e o trecho foi estendido. 'Roubos caíram' não estava em trecho e saiu da explicação (o Anuário diz que o total de ocorrências patrimoniais cai e os furtos superaram os roubos).",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A160",
+      "veredito": "VERDADEIRO",
+      "resumo": "Pesquisa da CNC: 82% das famílias tinham dívidas em julho de 2026, recorde da série histórica",
+      "explicacao": "O indicador de referência para 'pessoas endividadas' é a Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), da CNC. Em julho de 2026, 82,0% das famílias tinham dívidas a vencer, o sexto recorde consecutivo da série, segundo a Fecomércio-SC (que integra o sistema da CNC e publica a Peic) e a reportagem da Gazeta do Povo, que reproduz a divulgação de 6/8. Em janeiro de 2023, mês da posse, a Peic marcava 78,0%; o recorde anterior, de 79,5%, foi alcançado em outubro de 2025 e repetido em janeiro de 2026 (Monitor Mercantil). O pico da série cai no governo atual, por isso VERDADEIRO. A ressalva é a do caso 2026-10-15-sabatina-lula-globo-2turno (A130, VERDADEIRO, mesma pesquisa e mesma fonte de janeiro de 2023): a Peic mede famílias com qualquer dívida a vencer, inclusive no cartão, e não pessoas nem dívida em atraso; a inadimplência (contas em atraso) caiu para 29,8% em julho.",
+      "numero_dito": null,
+      "numero_apurado": "82,0% das famílias endividadas em julho de 2026 (recorde da Peic)",
+      "data_de_referencia": "julho de 2026 (Peic divulgada em 06/08/2026)",
+      "ressalva": "A Peic mede famílias com dívida a vencer, inclusive no cartão; as com contas em atraso eram 29,8%",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N2",
+          "instituicao": "Fecomércio SC (Núcleo de Inteligência Estratégica, Peic)",
+          "titulo": "Pesquisa de Endividamento e Inadimplência do Consumidor, julho de 2026",
+          "url": "https://www.fecomercio-sc.com.br/wp-content/uploads/2026/08/202607_PEIC.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "mas ainda 5,1 pontos percentuais abaixo da média nacional, de 82,0%, que atingiu o sexto recorde consecutivo da série histórica. Já o percentual de famílias inadimplentes recuou para 23,6%, ante 25,4% em junho (-1,8 p.p.), patamar bem inferior aos 29,8% observados no país como um todo.",
+          "prova": "O resultado nacional da Peic de julho de 2026 e o recorde da série."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo",
+          "titulo": "Endividamento das famílias bate recorde em julho mesmo com Desenrola 2.0",
+          "url": "https://www.gazetadopovo.com.br/economia/endividamento-familias-bate-recorde-julho-mesmo-com-desenrola-2-0/",
+          "consultada_em": "2026-10-17",
+          "trecho": "A proporção de famílias brasileiras com dívidas a vencer subiu para 82% em julho de 2026 e atingiu o maior patamar da série histórica da Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), divulgada pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) nesta quinta-feira (6).",
+          "prova": "Reprodução da divulgação da CNC: recorde em julho de 2026."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Monitor Mercantil",
+          "titulo": "Endividamento em janeiro repete recorde, mas inadimplência cai",
+          "url": "https://monitormercantil.com.br/endividamento-repete-recorde-historico-em-janeiro/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O percentual de famílias brasileiras com dívidas voltou a atingir 79,5% em janeiro de 2026, repetindo o maior patamar da série histórica da Pesquisa de Endividamento e Inadimplência do Consumidor (Peic) , alcançado pela primeira vez em outubro de 2025.",
+          "prova": "Os recordes anteriores também caem no governo atual."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC)",
+          "titulo": "Pesquisa de Endividamento e Inadimplência do Consumidor (Peic), janeiro de 2023",
+          "url": "https://portal-bucket.azureedge.net/wp-content/2023/10/f235030f6efcefc2fb8fbe6dde45b12e.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "ENDIVIDAMENTO COMEÇA 2023 ESTÁVEL [...] jan/23 78,0% 29,9% 11,6%",
+          "prova": "Nível no mês da posse, abaixo do recorde de 2026."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r6: Contra: a Peic mede famílias com qualquer dívida a vencer, inclusive cartão, e não 'pessoas endividadas' nem inadimplência, que caiu. Cai pela mesma régua da A130 do caso de 15/out (VERDADEIRO, mesma pesquisa): é a medida pública de endividamento, o recorde de 82,0% é de julho de 2026 e os recordes anteriores (79,5%) também caem no governo atual; a ressalva põe a inadimplência de 29,8% na tela. Achado: a explicação citava reportagem do Metrópoles que não está nas fontes nem nas capturas; a menção saiu. Trechos achados na p16 e na captura reaproveitada do caso de 15/out.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A161",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Fechamentos de empresas subiram em 2024 e 2025 nos quadrimestres conferidos; o total anual que diria o recorde falta",
+      "explicacao": "Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer: refeita na rodada 2 de 17/out/2026 (parte 3), com três buscas e cerca de 40 endereços de boletim tentados, e ainda incompleta. A frase diz que o governo Lula é 'recordista em empresas que são fechadas'. O critério é a série do Mapa de Empresas (Ministério do Empreendedorismo), em número absoluto e com MEI. O que está conferido, por quadrimestre: 854.150 fechamentos no 1º quadrimestre de 2024 (alta de 15,5% sobre 2023), 830.525 no 2º de 2024 (alta de 11,7%), 973.330 no 1º de 2025 e 942.049 no 2º de 2025 (alta de 12,9%). No 2º quadrimestre, o gráfico do boletim de 2024 (série de 2014 a 2024) e o de 2025 (2020 a 2025) mostram cada ano do governo atual acima do anterior, o que é recorde nesse recorte. No 1º quadrimestre não é: em 2023 os 737 mil fechamentos foram 'o maior número desde 2018' (Gazeta do Povo, reproduzindo o boletim), porque 2018 teve o cancelamento em massa de MEIs inadimplentes (Resolução CGSIM nº 44, citada no boletim anual de 2023). No ano, o último total conferido é o de 2023: 2.153.840 fechamentos, alta de 25,7%. Faltam os boletins anuais de 2024 e 2025 (3º quadrimestre) e o do 1º quadrimestre de 2026, vigentes na data da fala: os endereços do gov.br deram 404 (pastas p17-r3, r2parte3 e r2parte3-r6), a cópia do Poder360 não existe para eles, e três buscas não acharam o total anual de 2024 nem o de 2025 (só o recorde de aberturas de 2025, do Sebrae). Sem o total anual não se diz se 2024 ou 2025 superaram 2018 em número absoluto; por isso o veredito segue INSUSTENTAVEL provisório, e não VERDADEIRO nem FALSO. Contexto que vale para qualquer veredito final: no mesmo período as aberturas superaram os fechamentos (saldo de 726.704 no 2º quadrimestre de 2025), e o número absoluto cresce com o estoque de empresas ativas. Nota: Diário do Comércio e Gazeta do Povo reproduzem o Mapa de Empresas e contam como apoio (regra 2 da §3.1). A refazer: boletim do 3º quadrimestre de 2024 e de 2025 e total anual de 2018 com o mesmo método.",
+      "numero_dito": null,
+      "numero_apurado": "fechamentos: 854.150 e 830.525 (primeiro e segundo quadrimestres de 2024); 973.330 e 942.049 (primeiro e segundo de 2025); 2.153.840 no ano de 2023",
+      "data_de_referencia": "Mapa de Empresas: quadrimestres de 2024 e 2025 e ano de 2023; totais anuais de 2024 e 2025 não localizados",
+      "ressalva": null,
+      "confianca": "baixa",
+      "divergencia_entre_fontes": "O Diário do Comércio diz que os 973.330 fechamentos do 1º quadrimestre de 2025 foram 'queda de 13,4%' sobre o ano anterior; o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%.",
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "alta de cerca de 14%",
+          "de": "973.330 e 854.150",
+          "como": "variação entre o 1º quadrimestre de 2025 e o de 2024: 973.330 dividido por 854.150, menos 1"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)",
+          "titulo": "Mapa de Empresas, boletim do 2º quadrimestre de 2025",
+          "url": "https://static.poder360.com.br/2025/10/mapa-de-empresas-boletim-2o-quadrimestre-2025.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "No mesmo período foram fechadas 942.049 empresas, queda de 4,5% quando comparado com o quadrimestre anterior e aumento de 12,9% em relação ao mesmo período em 2024. [...] Saldo positivo: 726.704 empresas",
+          "prova": "Dá o número de fechamentos mais recente da série oficial e mostra que, no mesmo período, as aberturas superaram os fechamentos."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas; cópia hospedada pelo Poder360)",
+          "titulo": "Mapa de Empresas, boletim do 1º quadrimestre de 2024",
+          "url": "https://static.poder360.com.br/2024/08/Mapa-de-empresas-boletim-1o-quadrimestre-2024.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "Por outro lado, foram fechadas 854.150 empresas, representando aumento de 24,4% nos números de fechamento de empresas em relação ao terceiro quadrimestre de 2023, além de aumento de 15,5% em relação ao primeiro quadrimestre de 2023.",
+          "prova": "Fechamentos do 1º quadrimestre de 2024, base para medir a variação de 2025."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)",
+          "titulo": "Mapa de Empresas, boletim do 2º quadrimestre de 2024",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-2o-quadrimestre-2024.pdf/@@download/file",
+          "consultada_em": "2026-10-17",
+          "trecho": "Histórico de abertura e fechamento de empresas no segundo quadrimestre (2014 a 2024). [...] Por outro lado, foram fechadas 830.525 empresas, representando queda de 3,0% nos números de fechamento de empresas em relação ao primeiro quadrimestre de 2024, além de aumento de 11,7% em relação ao segundo quadrimestre de 2023.",
+          "prova": "Fechamentos do 2º quadrimestre de 2024, maiores que os do mesmo quadrimestre de 2023, na série que o boletim mostra desde 2014."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (Mapa de Empresas)",
+          "titulo": "Mapa de Empresas, boletim do 3º quadrimestre de 2023 (resumo do ano)",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf/@@download/file",
+          "consultada_em": "2026-10-17",
+          "trecho": "No mesmo período foram fechadas 2.153.840 empresas, aumento de 25,7% quando comparado com 2022. [...] Já em 2018, um dos fatores determinantes para o expressivo número de empresas fechadas foi a aprovação da Resolução CGSIM nº 44, de 29 de janeiro de 2018",
+          "prova": "Total anual de 2023, o último ano fechado que foi possível conferir, e o aviso do próprio boletim de que 2018 teve fechamentos expressivos por cancelamento de MEIs; não basta para dizer se 2024 ou 2025 bateram recorde."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Gazeta do Povo (com dados do Mapa de Empresas)",
+          "titulo": "Saldo de abertura de empresas no Brasil é o menor em cinco anos (30/05/2023)",
+          "url": "https://www.gazetadopovo.com.br/economia/saldo-abertura-empresas-brasil-menor-desde-2018/",
+          "consultada_em": "2026-10-17",
+          "trecho": "De janeiro a abril, país registrou fechamento de 737 mil empresas, maior número desde 2018.",
+          "prova": "Mostra que no 1º quadrimestre o pico da série é de 2018, ano do cancelamento em massa de MEIs, e não do governo atual."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Diário do Comércio (MG), citando o Mapa de Empresas",
+          "titulo": "Minas Gerais é o segundo estado com mais empresas fechadas no País no 1º quadrimestre (28/05/2025)",
+          "url": "https://diariodocomercio.com.br/economia/mg-foi-segundo-estado-maior-fechamento-empresas/",
+          "consultada_em": "2026-10-17",
+          "trecho": "No mesmo período foram fechadas 973.330 empresas, queda de 13,4% quando comparado com o ano anterior.",
+          "prova": "Dá o fechamento do 1º quadrimestre de 2025 (973.330). A matéria diz 'queda de 13,4%', mas o boletim do 1º quadrimestre de 2024 registra 854.150, o que dá alta de cerca de 14%, e os números estaduais da própria matéria sobem: a variação está lida como alta, com a divergência declarada."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. O resumo traz o número do 2º quadrimestre e diz que a série anual não foi conferida; lido sozinho, o laranja não sugere recorde. O que falta para a rodada 2: boletins anuais de 2024 e 2025 e o do 1º quadrimestre de 2026 do Mapa de Empresas, com e sem MEI, e os anos de 2015 e 2018 que o próprio boletim cita. Trechos achados na p17 e p17-r2. · Revisão da rodada 2: Provisório: marcador exato 'Busca interrompida pelo limite de buscas da rodada de 17/out/2026; veredito provisório, a refazer:' no início da explicação e confiança baixa, conferidos. Não refeito. Derivação 973.330 contra 854.150 (alta de cerca de 14%) refeita; a divergência com o Diário do Comércio está declarada. Seis trechos achados.",
+        "verificacoes": [
+          "3",
+          "5",
+          "7"
+        ]
+      }
+    },
+    {
+      "id": "A162",
+      "veredito": "INSUSTENTAVEL",
+      "resumo": "Paraguai aprovou 36 programas de maquila em 2024, recorde, mas de todas as origens; não há série de saídas do Brasil",
+      "explicacao": "Refeita na rodada 2 de 17/out/2026 (parte 3), com duas buscas e a captura dos informes oficiais do Ministério de Indústria e Comércio do Paraguai (MIC). A frase diz que o governo Lula é 'recordista em indústrias que deixam o Brasil e vão para o Paraguai'. O critério era a série do governo paraguaio por ano de instalação e origem do capital. O que existe: o recorde documentado é de programas de maquila aprovados, de todas as origens. O CNIME (conselho paraguaio da maquila) aprovou 36 programas em 2024, 'la cifra más alta en un solo año desde la creación del régimen' (Infonegocios, imprensa paraguaia citando o CNIME), e o informe oficial do MIC de dezembro de 2025 registra 22 programas aprovados em 2025. Empresas brasileiras respondem por cerca de 70% do regime (71% das 292 indústrias com programa em 2024, pelo MIC, segundo a Última Hora; 232 de mais de 320, pelo Poder360). Mas a série por ano de origem brasileira não é publicada nos informes do MIC, e o único corte por período que existe não mostra pico no governo atual: o Poder360, com dados do governo paraguaio e da Cebras-PY, conta 40 maquiladoras brasileiras que iniciaram operação a partir de 2023 (de 2023 a maio de 2026) e 26 em 2021 e 2022, ritmo anual parecido; a Folha, citada pela Última Hora, diz que as aberturas 'se ha disparado desde 2014'. Programa aprovado também não é empresa nova: uma maquiladora já instalada pode aprovar outro programa. E o 'deixam o Brasil' não se sustenta: o Aos Fatos mostra que as empresas expandiram a produção e mantêm operação no Brasil, e a secretária-executiva do CNIME disse que o objetivo não é tirar indústrias do Brasil. Por isso INSUSTENTAVEL: há um recorde no ano de 2024, mas é de programas de todas as origens, e as fontes não sustentam um recorde de indústrias brasileiras saindo do país; não é IMPRECISO porque o recorte dito (indústrias brasileiras que deixam o Brasil) não tem série que o confirme, e não é FALSO porque também não há série que o desminta. Fontes do país parceiro (MIC, Infonegocios, Última Hora) contam como independentes (regra da §3.1 para base do país parceiro); a Última Hora reproduz a Folha e o MIC e conta como apoio.",
+      "numero_dito": null,
+      "numero_apurado": "36 programas de maquila aprovados em 2024 (recorde, todas as origens) e 22 em 2025; 40 maquiladoras brasileiras iniciaram operação a partir de 2023 e 26 em 2021 e 2022",
+      "data_de_referencia": "programas aprovados em 2024 e 2025 (MIC/CNIME); levantamento de maquiladoras brasileiras publicado em 23/05/2026",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": "As contagens de empresas brasileiras não batem: 232 desde 2007 (Poder360), 223 de 332 (A Crítica, citando o MIC) e 71% de 292 indústrias com programa em 2024 (Última Hora, citando o MIC). Nenhuma traz série anual por origem.",
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Ministerio de Industria y Comercio del Paraguay (MIC/SSEI, com dados da SE-CNIME)",
+          "titulo": "Informe Maquila, diciembre 2025",
+          "url": "https://www.mic.gov.py/wp-content/uploads/2026/01/Informe-MAQUILA-DIC25oficial-13.01.pdf",
+          "consultada_em": "2026-10-17",
+          "trecho": "MAQUILA 2025 [...] 22 PROGRAMAS APROBADOS [...] Industria maquiladora: Empresa establecida especialmente para llevar a cabo Programas de Maquila de Exportación o aquella ya establecida y orientada al mercado nacional",
+          "prova": "Base oficial do país parceiro: dá os programas aprovados em 2025 e mostra que a contagem é de programas, que uma empresa já instalada também pode ter, e não de empresas que mudaram de país."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Infonegocios (Paraguai), citando o CNIME",
+          "titulo": "Maquila rompe récord con US$ 127 millones en agosto y demuestra un crecimiento interanual del 24%",
+          "url": "https://infonegocios.com.py/plus/maquila-rompe-record-con-us-127-millones-en-agosto-y-demuestra-un-crecimiento-interanual-del-24",
+          "consultada_em": "2026-10-17",
+          "trecho": "En 2024, el CNIME aprobó 36 nuevos programas de maquila, la cifra más alta en un solo año desde la creación del régimen.",
+          "prova": "O recorde que existe: programas de maquila aprovados em 2024, de todas as origens."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Última Hora (Paraguai), reproduzindo a Folha de S.Paulo e o MIC",
+          "titulo": "Medio brasileño se hace eco de la expansión de empresas brasileñas a Paraguay en últimas décadas (04/12/2025)",
+          "url": "https://www.ultimahora.com/medio-brasileno-se-hace-eco-de-la-expansion-de-empresas-brasilenas-a-paraguay-en-ultimas-decadas",
+          "consultada_em": "2026-10-17",
+          "trecho": "El número de aperturas de empresas con sede en Brasil y expandidas al lado paraguayo de la frontera se ha disparado desde 2014, con 182 unidades en la última década. [...] las empresas brasileñas abrieron el 71% de las 292 industrias con programas de maquila en el vecino país, según información del Ministerio de Industria y Comercio de Paraguay. [...] “El objetivo no es sacar industrias de Brasil, sino ayudar a mejorar su competitividad”, resaltó al medio.",
+          "prova": "Imprensa do país parceiro: a participação brasileira é alta e a expansão vem desde 2014, sem série anual; e o próprio CNIME diz que não se trata de tirar indústrias do Brasil."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360 (com dados do governo paraguaio e da Cebras-PY)",
+          "titulo": "Mais de 230 empresas brasileiras já produzem no Paraguai (23/05/2026)",
+          "url": "https://www.poder360.com.br/poder-economia/mais-de-230-empresas-brasileiras-ja-produzem-no-paraguai/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O Paraguai atraiu 232 empresas brasileiras desde 2007 para atuar dentro da Lei de Maquila [...] Das maquiladoras com origem no Brasil, 40 (17,2%) iniciaram a operação a partir de 2023 —e 26 delas se mudaram no período de 2021 e 2022.",
+          "prova": "Dá o estoque e a distribuição por período de início, que não mostra pico de chegadas a partir de 2023."
+        },
+        {
+          "nivel": "N3",
+          "instituicao": "Aos Fatos",
+          "titulo": "É enganoso que 232 empresas brasileiras tenham ido para o Paraguai no governo Lula",
+          "url": "https://www.aosfatos.org/noticias/falso-232-empresas-paraguai-governo-lula/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O número representa o total de companhias que expandiram a produção no país vizinho entre 2007 e 2026, mas que ainda mantêm operações em solo brasileiro.",
+          "prova": "Checagem que trata do mesmo dado: é um acumulado desde 2007, de empresas que abriram produção lá e seguem no Brasil."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "A Crítica de Campo Grande (citando o Ministério da Indústria e Comércio do Paraguai)",
+          "titulo": "Avanço de empresas no Paraguai acende alerta para reformas no Brasil, diz Reinaldo (31/07/2026)",
+          "url": "https://acritica.net/politica/reinaldo-azambuja-industrias-paraguai-reformas-brasil/",
+          "consultada_em": "2026-10-17",
+          "trecho": "indicam que 223 indústrias brasileiras operam no país pelo regime de maquila. O número representaria 69% de um total de 332 empresas estrangeiras instaladas nesse modelo.",
+          "prova": "Outra contagem do estoque, sem série por ano; mostra que os números circulam sem recorte anual."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r6: Provisório: marcador exato e confiança baixa, conferidos. Os números do resumo (232, 40) estão no trecho do Poder360. O que falta para a rodada 2: série oficial do MIC/CEMAP do Paraguai por ano de instalação e origem do capital; a divergência 232 contra 223 está declarada. Trechos achados na p17. · Revisão da rodada 2: Melhor argumento contra o INSUSTENTAVEL: o Paraguai teve recorde de programas de maquila em 2024 e as brasileiras são cerca de 70% do regime, o que daria IMPRECISO. Não derruba: o recorde é de programas de todas as origens, programa não é empresa nova, e o único corte de brasileiras por período (40 de 2023 a maio de 2026 contra 26 em 2021 e 2022) não mostra pico; Aos Fatos mostra que as empresas não deixam o Brasil. Base do país parceiro capturada. Seis trechos achados.",
+        "verificacoes": [
+          "3",
+          "4",
+          "6",
+          "7"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "casos/2026-10-16-sabatina-flavio-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-06",
+  "cobertura": {
+    "inicio_s": 2409.09,
+    "fim_s": 2423.67
+  },
+  "alegacoes": [
+    {
+      "id": "A202",
+      "inicio_s": 2409.34,
+      "fim_s": 2414.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Doutor Cláudio Lothenberg, vamos lembrar, ele foi o presidente do melhor hospital do Brasil que é o Albert Einstein,",
+      "citacao_card": "ele foi o presidente do melhor hospital do Brasil que é o Albert Einstein",
+      "afirmacao": "Claudio Lottenberg foi presidente do Hospital Israelita Albert Einstein",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "histórico da presidência da Sociedade Beneficente Israelita Brasileira Albert Einstein: períodos de Claudio Lottenberg no cargo",
+        "se o cargo era de presidente da sociedade mantenedora ou do conselho"
+      ]
+    },
+    {
+      "id": "A203",
+      "inicio_s": 2412.19,
+      "fim_s": 2416.02,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "do melhor hospital do Brasil que é o Albert Einstein, que fica ali em São Paulo.",
+      "afirmacao": "O Hospital Israelita Albert Einstein é o hospital mais bem colocado do Brasil nos rankings",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "rankings de hospitais com recorte por país (Newsweek World's Best Hospitals e outros) em 2025-2026: posição do Einstein no Brasil",
+        "qual ranking sustenta 'melhor do Brasil' e se há outros em que ele não é o primeiro"
+      ]
+    },
+    {
+      "id": "A204",
+      "inicio_s": 2419.26,
+      "fim_s": 2423.22,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "nesse melhor hospital do Brasil e até um dos melhores da América Latina",
+      "afirmacao": "O Hospital Israelita Albert Einstein está entre os melhores hospitais da América Latina nos rankings",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "rankings de hospitais da América Latina (por exemplo, América Economía) em 2025-2026: posição do Einstein"
+      ]
+    }
+  ]
+}

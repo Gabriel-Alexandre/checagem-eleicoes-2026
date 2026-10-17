@@ -1,0 +1,190 @@
+PEDIDO DE CHECAGEM 02 de 21 · alegações A011 a A020
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-02.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A011",
+      "inicio_s": 142.46,
+      "fim_s": 153.36,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Se você pegar o boletim Focus de outubro de 2022, a última eleição, o presidente ainda era Jair Bolsonaro. A estimativa de taxa de juros era para estar, neste momento, em torno de 7%.",
+      "citacao_card": "o boletim Focus de outubro de 2022 [...] era para estar, neste momento, em torno de 7%",
+      "afirmacao": "O boletim Focus de outubro de 2022 projetava a taxa Selic em torno de 7% para outubro de 2026",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "boletins Focus do Banco Central de outubro de 2022: mediana da Selic para o fim de 2025 e de 2026 (horizontes mais longos publicados)",
+        "se o Focus de então tinha projeção para 2026 e qual era"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 153.36,
+      "fim_s": 156.58,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje, a taxa de juros está em 14%.",
+      "afirmacao": "A taxa básica de juros (Selic) está em 14% ao ano em outubro de 2026",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "meta da Selic vigente em 16/out/2026, Copom/Banco Central",
+        "se o valor exato difere (por exemplo 14,25% ou 15%) e qual foi a última decisão do Copom antes da fala"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 161.78,
+      "fim_s": 164.94,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "hoje a dívida do Brasil está em 11 trilhões de reais",
+      "afirmacao": "A dívida pública do Brasil está em R$ 11 trilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "Dívida Bruta do Governo Geral e Dívida Líquida do Setor Público, Banco Central, último dado antes de 16/out/2026",
+        "Dívida Pública Federal, Tesouro Nacional, no mesmo mês, para ver a que conceito o número corresponde"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 165.35,
+      "fim_s": 171.81,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Se fizer uma conta básica, 7 pontos, a gente está falando de quase um trilhão de reais a mais em 4 anos",
+      "afirmacao": "Sete pontos percentuais a mais de juros sobre a dívida pública equivalem a quase R$ 1 trilhão a mais de despesa com juros em quatro anos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "a conta: 7 pontos percentuais sobre a parcela da dívida indexada à Selic (ou sobre o estoque citado), em quatro anos",
+        "parcela da dívida pública federal atrelada à Selic, Tesouro Nacional, e juros nominais anuais do Banco Central"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 192.9,
+      "fim_s": 203.74,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "há o consenso dos economistas, inclusive muitos que apoiam o senhor, dizem assim você não mexe no gasto público e você principalmente não chega aos 200 bilhões de reais de ajuste",
+      "citacao_card": "há o consenso dos economistas, inclusive muitos que apoiam o senhor [...] não chega aos 200 bilhões de reais de ajuste",
+      "afirmacao": "Economistas, inclusive apoiadores de Flávio Bolsonaro, avaliam que sem desvincular o mínimo das aposentadorias e sem mexer nos pisos de saúde e educação não se chega ao ajuste de R$ 200 bilhões",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "declarações e análises publicadas em 2026 por economistas sobre o ajuste de R$ 200 bilhões, incluindo os ligados à campanha de Flávio",
+        "se há de fato convergência entre economistas de linhas diferentes ou só manifestações isoladas"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 201.15,
+      "fim_s": 206.02,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "aos 200 bilhões de reais de ajuste que a sua equipe tem prometido ao mercado",
+      "afirmacao": "A equipe econômica de Flávio Bolsonaro tem prometido ao mercado um ajuste fiscal de R$ 200 bilhões",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "declarações de assessores econômicos da campanha em 2026 sobre o tamanho do ajuste, com data e veículo",
+        "se o valor é anual e se foi apresentado a investidores ou ao mercado financeiro"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 224.72,
+      "fim_s": 228.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje, vocês sabem que o atual governo tem 39 ministérios.",
+      "afirmacao": "O governo Lula tem 39 ministérios",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "estrutura da Presidência e dos ministérios em vigor em outubro de 2026 (Lei 14.600/2023 e alterações)",
+        "se a contagem inclui órgãos com status de ministério (AGU, CGU, Casa Civil, BC etc.)"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 242.64,
+      "fim_s": 248.08,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Com o presidente Bolsonaro, as estatais deram 18 bilhões de reais de superávit ou de lucro.",
+      "afirmacao": "No governo Jair Bolsonaro, as estatais federais tiveram R$ 18 bilhões de superávit ou lucro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "resultado primário das empresas estatais federais, Banco Central, somado de 2019 a 2022",
+        "lucro contábil das estatais federais no mesmo período, SEST/Ministério da Gestão, para ver qual conceito dá R$ 18 bilhões"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 248.22,
+      "fim_s": 252.78,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Com o Lula já são 36 bilhões de prejuízo dessas estatais.",
+      "afirmacao": "No governo Lula, as estatais federais acumulam R$ 36 bilhões de prejuízo",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "resultado primário das empresas estatais federais, Banco Central, somado de 2023 até o dado mais recente de 2026",
+        "se a cifra é déficit primário ou prejuízo contábil, e se inclui ou exclui Petrobras e bancos públicos"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 256.32,
+      "fim_s": 258.98,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Brasil tem mais de 30 mil imóveis",
+      "afirmacao": "A União tem mais de 30 mil imóveis",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "número de imóveis da União cadastrados na Secretaria do Patrimônio da União (SPU), dado mais recente"
+      ]
+    }
+  ]
+}

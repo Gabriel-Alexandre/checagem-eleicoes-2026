@@ -1,0 +1,78 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "casos/2026-10-16-sabatina-flavio-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-01",
+  "cobertura": {
+    "inicio_s": 963.38,
+    "fim_s": 977.57
+  },
+  "alegacoes": [
+    {
+      "id": "A075",
+      "inicio_s": 963.96,
+      "fim_s": 967.66,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Não, não é um fundo imobiliário, Renata. Só para corrigir. É um fundo que faz só a gestão do filme.",
+      "afirmacao": "O fundo nos Estados Unidos não é imobiliário e só faz a gestão do filme",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "registro do fundo nos EUA: objeto social declarado e outras atividades",
+        "se o fundo tem outros investimentos além do filme"
+      ]
+    },
+    {
+      "id": "A076",
+      "inicio_s": 968.7,
+      "fim_s": 971.18,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Gerido por um amigo do seu irmão Eduardo.",
+      "afirmacao": "O fundo é gerido por um amigo de Eduardo Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "nome do gestor do fundo no registro e relação documentada dele com Eduardo Bolsonaro"
+      ]
+    },
+    {
+      "id": "A077",
+      "inicio_s": 971.4,
+      "fim_s": 972.82,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Por um advogado experiente nisso.",
+      "afirmacao": "O gestor do fundo é advogado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "identidade do gestor do fundo e registro profissional dele como advogado (ordem dos advogados do estado nos EUA ou OAB)"
+      ]
+    },
+    {
+      "id": "A078",
+      "inicio_s": 974.56,
+      "fim_s": 977.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Esse fundo estava inativo. havia quatro anos.",
+      "afirmacao": "O fundo que recebeu o dinheiro estava inativo havia quatro anos",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "histórico do registro do fundo nos EUA: data de criação, períodos de inatividade e reativação"
+      ],
+      "citacao_card": "Esse fundo estava inativo havia quatro anos"
+    }
+  ]
+}

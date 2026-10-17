@@ -1,0 +1,186 @@
+PEDIDO DE CHECAGEM 04 de 21 · alegações A031 a A040
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-04.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A031",
+      "inicio_s": 360.3,
+      "fim_s": 362.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor foi, desde o início, contrário a essa proposta",
+      "afirmacao": "Flávio Bolsonaro se opôs à PEC do fim da escala 6x1 desde o início da tramitação",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Bolsonaro sobre a PEC do fim da 6x1, em ordem de data",
+        "votos ou manifestações dele em comissões do Senado durante a tramitação"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 362.76,
+      "fim_s": 365.42,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor chamou de eleitoreira, de oportunista",
+      "afirmacao": "Flávio Bolsonaro chamou a proposta do fim da escala 6x1 de eleitoreira e oportunista",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "falas e postagens de Flávio Bolsonaro com as palavras 'eleitoreira' e 'oportunista' sobre a PEC, com data e veículo"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 365.7,
+      "fim_s": 368.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Na véspera da votação, o senhor mudou de posição",
+      "afirmacao": "Flávio Bolsonaro mudou de posição sobre a PEC do fim da escala 6x1 na véspera da votação no Senado",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "data do primeiro anúncio público de Flávio Bolsonaro a favor da PEC e data da votação no Senado"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 367.44,
+      "fim_s": 370.72,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor mudou de posição e votou a favor dessa emenda",
+      "afirmacao": "Flávio Bolsonaro votou a favor da PEC do fim da escala 6x1 no Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "painel nominal da votação da PEC no plenário do Senado (todos os turnos)"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 369.64,
+      "fim_s": 375.82,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "dessa emenda, que reduz a jornada de trabalho e prevê dois dias de descanso sem redução de salário",
+      "afirmacao": "A emenda do fim da escala 6x1 reduz a jornada de trabalho e prevê dois dias de descanso semanal sem redução de salário",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "texto final promulgado da emenda: nova jornada semanal máxima, descanso semanal e cláusula sobre salário",
+        "regras de transição, se houver"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 398.3,
+      "fim_s": 401.72,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O presidente Bolsonaro, ele extinguiu mais de 20 mil cargos em comissão.",
+      "afirmacao": "O governo Jair Bolsonaro extinguiu mais de 20 mil cargos em comissão",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta, voltando ao tema fiscal, sobre corte de despesas",
+      "o_que_conferir": [
+        "decretos de extinção de cargos e funções de 2019 a 2022 (por exemplo Decreto 9.725/2019) e balanços do Ministério da Economia",
+        "se a cifra conta cargos em comissão (DAS) ou também funções gratificadas e cargos vagos"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 408.78,
+      "fim_s": 411.54,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E o Lula já criou mais de 22.500 cargos em comissão.",
+      "afirmacao": "O governo Lula criou mais de 22.500 cargos em comissão",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta, voltando ao tema fiscal, sobre corte de despesas",
+      "o_que_conferir": [
+        "leis e decretos de criação de cargos em comissão e funções de confiança de 2023 a 2026; Painel Estatístico de Pessoal",
+        "se o número é criação bruta ou saldo, e se inclui as funções comissionadas (FCE/CCE) da reestruturação de 2023"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 419.82,
+      "fim_s": 425.28,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu sempre defendi mais liberdade para que os trabalhadores pudessem, inclusive, montar a sua própria jornada de trabalho.",
+      "citacao_card": "Eu sempre defendi mais liberdade para que os trabalhadores pudessem [...] montar a sua própria jornada de trabalho",
+      "afirmacao": "Flávio Bolsonaro defendeu publicamente, antes da votação, que os trabalhadores pudessem montar a própria jornada de trabalho",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Resposta sobre o voto do candidato na PEC do fim da escala 6x1",
+      "o_que_conferir": [
+        "falas, postagens e projetos de Flávio Bolsonaro sobre jornada flexível e escala 6x1 antes da votação no Senado"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 469.78,
+      "fim_s": 475.14,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Como eu ouvi da grande maioria dos trabalhadores, que eles estavam favoráveis ao fim da escala seis por um",
+      "afirmacao": "A grande maioria dos trabalhadores brasileiros é favorável ao fim da escala 6x1",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Resposta sobre o voto do candidato na PEC do fim da escala 6x1",
+      "o_que_conferir": [
+        "pesquisas de opinião de 2025 e 2026 sobre o fim da escala 6x1 (Datafolha, Quaest e outros institutos), com recorte de trabalhadores quando houver"
+      ]
+    },
+    {
+      "id": "A040",
+      "inicio_s": 524.12,
+      "fim_s": 530.95,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "seus aliados no Congresso estão dizendo que no ano que vem vão trabalhar para aprovar aquela proposta original do seu partido, o PL,",
+      "citacao_card": "seus aliados no Congresso [...] vão trabalhar para aprovar aquela proposta original do seu partido, o PL",
+      "afirmacao": "Aliados de Flávio Bolsonaro no Congresso têm dito que vão trabalhar, no ano que vem, para aprovar a proposta original do PL sobre a jornada de trabalho",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a posição do candidato quanto ao fim da escala 6x1",
+      "o_que_conferir": [
+        "declarações públicas de parlamentares do PL ou aliados, na imprensa ou em plenário, nas semanas anteriores a 16/out/2026",
+        "se a intenção declarada é aprovar a proposta original do PL em 2027"
+      ]
+    }
+  ]
+}

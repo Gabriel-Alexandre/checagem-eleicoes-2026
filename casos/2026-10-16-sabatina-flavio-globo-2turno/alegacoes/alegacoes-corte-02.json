@@ -1,0 +1,63 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "casos/2026-10-16-sabatina-flavio-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-02",
+  "cobertura": {
+    "inicio_s": 1089.51,
+    "fim_s": 1103.44
+  },
+  "alegacoes": [
+    {
+      "id": "A085",
+      "inicio_s": 1089.76,
+      "fim_s": 1094.64,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A perícia da própria produtora disse que o filme custou 75 milhões de reais",
+      "afirmacao": "Uma perícia contratada pela própria produtora do filme sobre Jair Bolsonaro concluiu que o filme custou R$ 75 milhões",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o financiamento do filme sobre Jair Bolsonaro e o pedido de recursos a Daniel Vorcaro",
+      "o_que_conferir": [
+        "laudo ou perícia apresentado pela produtora do filme (em processo, investigação ou nota pública): valor total de custo apurado",
+        "se o laudo é da própria produtora ou de terceiro contratado por ela, e a data em que veio a público"
+      ]
+    },
+    {
+      "id": "A086",
+      "inicio_s": 1095.06,
+      "fim_s": 1096.31,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e o senhor pediu 134 ao Vorcaro",
+      "afirmacao": "Flávio Bolsonaro pediu R$ 134 milhões a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o financiamento do filme sobre Jair Bolsonaro e o pedido de recursos a Daniel Vorcaro",
+      "o_que_conferir": [
+        "mensagens, contrato ou documentos do caso Master (PF, STF, reportagens com acesso aos autos) com o valor pedido por Flávio Bolsonaro a Vorcaro",
+        "se R$ 134 milhões é o valor pedido, o contratado ou o somado de parcelas; a razão 134/75 sustenta o 'quase o dobro' da pergunta"
+      ]
+    },
+    {
+      "id": "A087",
+      "inicio_s": 1101.7,
+      "fim_s": 1103.46,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "era um contrato que não foi cumprido",
+      "afirmacao": "O contrato de patrocínio de Daniel Vorcaro ao filme sobre Jair Bolsonaro não foi cumprido integralmente",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre a diferença entre o custo do filme sobre Jair Bolsonaro e o valor pedido a Daniel Vorcaro",
+      "o_que_conferir": [
+        "contrato de patrocínio entre Vorcaro (ou empresa dele) e a produtora: valor previsto e valor efetivamente pago",
+        "declarações da produtora, da defesa de Vorcaro ou documentos da investigação sobre interrupção dos pagamentos"
+      ]
+    }
+  ]
+}

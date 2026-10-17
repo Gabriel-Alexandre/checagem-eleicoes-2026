@@ -1,0 +1,190 @@
+PEDIDO DE CHECAGEM 14 de 21 · alegações A131 a A140
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-14.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A131",
+      "inicio_s": 1548.64,
+      "fim_s": 1554.14,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "porque dias atrás ele deu uma entrevista dizendo que quem vai decidir isso é o pai de vocês.",
+      "afirmacao": "Dias antes da sabatina, Eduardo Bolsonaro disse em entrevista que quem vai decidir se ele será chanceler é Jair Bolsonaro",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre se Eduardo Bolsonaro seria chanceler num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "entrevista de Eduardo Bolsonaro em out/2026 sobre o cargo de chanceler: data, veículo e fala literal"
+      ]
+    },
+    {
+      "id": "A132",
+      "inicio_s": 1557.52,
+      "fim_s": 1561.12,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que está lá fora denunciando as arbitrariedades que existem aqui no Brasil.",
+      "afirmacao": "Eduardo Bolsonaro vive fora do Brasil e faz campanha no exterior contra decisões da Justiça brasileira",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "onde Eduardo Bolsonaro reside em out/2026 e desde quando (saída do país, licença ou perda do mandato de deputado)",
+        "atividade pública dele no exterior (reuniões com autoridades estrangeiras, declarações sobre o Judiciário brasileiro)"
+      ]
+    },
+    {
+      "id": "A133",
+      "inicio_s": 1568.32,
+      "fim_s": 1573.06,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje ele não pode pisar em um monte de países porque o Alexandre de Moraes persegue ele a todo momento.",
+      "afirmacao": "Eduardo Bolsonaro está impedido de entrar em vários países por causa de decisões de Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "decisões do STF contra Eduardo Bolsonaro: mandado de prisão, cancelamento de passaporte, difusão na Interpol",
+        "se alguma dessas medidas impede de fato a entrada dele em outros países, e em quais"
+      ]
+    },
+    {
+      "id": "A134",
+      "inicio_s": 1577.48,
+      "fim_s": 1582.22,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Alexandre de Moraes toma uma Magnitsky que é uma punição do governo americano com base na lei americana",
+      "afirmacao": "Alexandre de Moraes foi sancionado pelo governo dos Estados Unidos com base na Lei Magnitsky",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "ato do Departamento do Tesouro dos EUA (OFAC) que inclui Alexandre de Moraes na lista da Global Magnitsky: data",
+        "se a sanção segue em vigor na data da fala"
+      ]
+    },
+    {
+      "id": "A135",
+      "inicio_s": 1582.44,
+      "fim_s": 1588.04,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e ele bota a culpa no Eduardo como se ele tivesse condições de manipular o presidente dos Estados Unidos,",
+      "afirmacao": "Alexandre de Moraes atribuiu a Eduardo Bolsonaro responsabilidade pela sanção dos Estados Unidos contra ele",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "decisões de Alexandre de Moraes em inquérito ou ação contra Eduardo Bolsonaro: se mencionam a atuação dele junto ao governo americano pelas sanções",
+        "declarações públicas de Moraes sobre a sanção"
+      ]
+    },
+    {
+      "id": "A136",
+      "inicio_s": 1589.76,
+      "fim_s": 1594.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e aqui condena ele por estar atrapalhando ser uma ameaça ao andamento do processo",
+      "afirmacao": "Eduardo Bolsonaro foi condenado no STF por ameaçar ou atrapalhar o andamento do processo contra Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "situação do processo contra Eduardo Bolsonaro no STF em out/2026: denúncia, recebimento, julgamento",
+        "se houve condenação, por qual crime (por exemplo, coação no curso do processo) e com que pena"
+      ]
+    },
+    {
+      "id": "A137",
+      "inicio_s": 1596.86,
+      "fim_s": 1602.34,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "se ele está se sentindo lesado com a Magnitsky e o culpado Eduardo como é que ele próprio julga o Eduardo.",
+      "afirmacao": "Alexandre de Moraes, atingido pela sanção Magnitsky, é quem relata ou julga o processo contra Eduardo Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "relatoria do inquérito ou ação penal contra Eduardo Bolsonaro no STF e composição do colegiado que o julga",
+        "se a defesa pediu impedimento ou suspeição de Moraes e o que foi decidido"
+      ]
+    },
+    {
+      "id": "A138",
+      "inicio_s": 1608.14,
+      "fim_s": 1616.28,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Ele construiu ao longo de mais de 10 anos um relacionamento internacional com vários líderes políticos conservadores que são de direita",
+      "citacao_card": "construiu ao longo de mais de 10 anos um relacionamento internacional com vários líderes políticos conservadores",
+      "afirmacao": "Eduardo Bolsonaro mantém há mais de dez anos relações com líderes políticos conservadores de outros países",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "primeiros registros públicos de contatos internacionais de Eduardo Bolsonaro com líderes conservadores (eventos, viagens, CPAC Brasil)",
+        "se o início desses contatos é anterior a 2016"
+      ]
+    },
+    {
+      "id": "A139",
+      "inicio_s": 1630.57,
+      "fim_s": 1637.56,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "sobre as Forças Armadas porque elas passaram nos últimos quatro anos por um processo de afastamento dos quartéis da política",
+      "citacao_card": "as Forças Armadas [...] passaram nos últimos quatro anos por um processo de afastamento [...] da política",
+      "afirmacao": "Nos últimos quatro anos (2023-2026), as Forças Armadas passaram por um processo de afastamento da política",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre as Forças Armadas e se o candidato exigirá dos comandantes que endossem sua visão da transição de 2022 e do 8 de janeiro",
+      "o_que_conferir": [
+        "medidas adotadas desde 2023 para afastar militares da política: normas do Ministério da Defesa e dos comandos, PEC sobre militares da ativa em cargos eletivos, trocas de comando",
+        "se as medidas citadas foram de fato adotadas e em que período (2023 a out/2026)"
+      ]
+    },
+    {
+      "id": "A140",
+      "inicio_s": 1637.56,
+      "fim_s": 1642.86,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "como resposta ao dano de reputação por envolvimentos de militares na tentativa de golpe.",
+      "afirmacao": "Militares estiveram envolvidos na tentativa de golpe de Estado de 2022-2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as Forças Armadas e se o candidato exigirá dos comandantes que endossem sua visão da transição de 2022 e do 8 de janeiro",
+      "o_que_conferir": [
+        "denúncia da PGR e julgamento no STF da trama golpista: quantos réus e condenados eram militares (ativa e reserva) e com que patente",
+        "situação processual na data da fala (16/out/2026)"
+      ]
+    }
+  ]
+}

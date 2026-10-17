@@ -1,0 +1,93 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recorte": "corte-04",
+  "alvo": "recortes/corte-04.mp4",
+  "base_s": 1909.85,
+  "duracao_s": 14.967,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-17",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-04/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 42.0
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-04/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 14.967,
+    "sai_s": 42.0,
+    "duracao_s": 27.033
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "IMPRECISO": 2,
+    "VERDADEIRO": 1,
+    "INSUSTENTAVEL": 2
+  },
+  "cartelas": [
+    {
+      "id": "A158",
+      "arquivo": "overlay/cartelas-corte-04/A158.png",
+      "entra_s": 7.7,
+      "sai_s": 17.6,
+      "atraso_s": 7.42,
+      "atraso_do_fim_s": 3.95,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 1910.13,
+      "tempo_no_card_s": 1910.13,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A159",
+      "arquivo": "overlay/cartelas-corte-04/A159.png",
+      "entra_s": 17.8,
+      "sai_s": 21.9,
+      "atraso_s": 13.79,
+      "atraso_do_fim_s": 11.21,
+      "veredito": "IMPRECISO",
+      "tempo_na_peca_s": 1913.86,
+      "tempo_no_card_s": 1913.86,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A160",
+      "arquivo": "overlay/cartelas-corte-04/A160.png",
+      "entra_s": 22.1,
+      "sai_s": 30.7,
+      "atraso_s": 15.23,
+      "atraso_do_fim_s": 12.79,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1916.72,
+      "tempo_no_card_s": 1916.72,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A161",
+      "arquivo": "overlay/cartelas-corte-04/A161.png",
+      "entra_s": 30.9,
+      "sai_s": 36.1,
+      "atraso_s": 21.29,
+      "atraso_do_fim_s": 19.05,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 1919.46,
+      "tempo_no_card_s": 1919.46,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A162",
+      "arquivo": "overlay/cartelas-corte-04/A162.png",
+      "entra_s": 36.3,
+      "sai_s": 42.0,
+      "atraso_s": 24.17,
+      "atraso_do_fim_s": 21.61,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 1921.98,
+      "tempo_no_card_s": 1921.98,
+      "cortado_na_tela": []
+    }
+  ]
+}

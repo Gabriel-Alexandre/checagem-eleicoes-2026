@@ -1,0 +1,81 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "casos/2026-10-16-sabatina-flavio-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-05",
+  "cobertura": {
+    "inicio_s": 2265.7,
+    "fim_s": 2281.47
+  },
+  "alegacoes": [
+    {
+      "id": "A185",
+      "inicio_s": 2266.62,
+      "fim_s": 2272.18,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Diferente do Lula, que esqueceu por quatro anos de quem recebeu o Bolsa Família, não deu reajuste para ninguém,",
+      "citacao_card": "Diferente do Lula, que esqueceu por quatro anos [...] o Bolsa Família, não deu reajuste para ninguém",
+      "afirmacao": "O governo Lula não reajustou o Bolsa Família ao longo dos quatro anos do mandato (2023-2026)",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "valores do benefício mínimo e dos adicionais do Bolsa Família de 2023 a 2026 (MDS, Lei 14.601/2023 e decretos)",
+        "se houve reajuste do valor base ou só criação de adicionais, e o valor médio pago mês a mês"
+      ]
+    },
+    {
+      "id": "A186",
+      "inicio_s": 2272.52,
+      "fim_s": 2276.58,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "faltando 17 dias para a eleição, ele lembra que tem que reajustar o Bolsa Família,",
+      "afirmacao": "O governo Lula anunciou reajuste do Bolsa Família cerca de 17 dias antes da eleição de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "data do anúncio ou do ato de reajuste do Bolsa Família em 2026 (MDS, Diário Oficial da União)",
+        "a qual eleição os 17 dias se referem (1º turno em 4/out ou 2º turno em 25/out) e se a conta fecha com a data do anúncio"
+      ]
+    },
+    {
+      "id": "A187",
+      "inicio_s": 2276.9,
+      "fim_s": 2280.38,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que foi o Bolsonaro que triplicou o valor que era 190 e em média passou para 600 reais.",
+      "afirmacao": "No governo Jair Bolsonaro o valor médio do benefício passou a R$ 600, cerca do triplo do valor anterior",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "valor do Auxílio Brasil em 2022 (piso de R$ 400 e adicional temporário de R$ 200, Lei 14.284/2021 e EC 123/2022) e benefício médio pago",
+        "se o R$ 600 era valor médio ou mínimo, e por quanto tempo vigorou no governo Bolsonaro"
+      ]
+    },
+    {
+      "id": "A188",
+      "inicio_s": 2277.79,
+      "fim_s": 2279.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "triplicou o valor que era 190",
+      "afirmacao": "O valor médio do Bolsa Família era de cerca de R$ 190 antes do aumento feito no governo Jair Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "benefício médio do Bolsa Família em 2018-2021, antes da criação do Auxílio Brasil (MDS/Ministério da Cidadania, VIS Data)",
+        "em que mês o valor médio estava em R$ 190"
+      ]
+    }
+  ]
+}

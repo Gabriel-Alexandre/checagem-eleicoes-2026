@@ -1,0 +1,179 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recortes": [
+    {
+      "id": "corte-01",
+      "arquivo": "corte-01.mp4",
+      "origem": "sabatina-flavio-globo-2026-10-16.mp4",
+      "origem_inicio_s": 963.38,
+      "duracao_s": 14.2,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 14 s, assunto justica; confronto jornalista x entrevistado em justica; 3 trocas de turno; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 12.8 dB e fim 38.7 dB abaixo da fala)",
+      "criado_em": "2026-10-17",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem para dentro da borda mole) e a imagem útil, 16:9, escalada a 1920x1080 sem deformar; nenhum pixel de faixa fica no quadro",
+        "corte": {
+          "x": 16,
+          "y": 12,
+          "w": 1248,
+          "h": 702
+        },
+        "conteudo_medido": {
+          "x1": 0,
+          "x2": 1279,
+          "y1": 2,
+          "y2": 719
+        },
+        "filtro": "crop=1248:702:16:12,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-02",
+      "arquivo": "corte-02.mp4",
+      "origem": "sabatina-flavio-globo-2026-10-16.mp4",
+      "origem_inicio_s": 1089.51,
+      "duracao_s": 13.933,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto politica; confronto jornalista x entrevistado em politica; 1 troca de turno; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 14.9 dB e fim 13.0 dB abaixo da fala)",
+      "criado_em": "2026-10-17",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem para dentro da borda mole) e a imagem útil, 16:9, escalada a 1920x1080 sem deformar; nenhum pixel de faixa fica no quadro",
+        "corte": {
+          "x": 16,
+          "y": 12,
+          "w": 1248,
+          "h": 702
+        },
+        "conteudo_medido": {
+          "x1": 0,
+          "x2": 1279,
+          "y1": 2,
+          "y2": 719
+        },
+        "filtro": "crop=1248:702:16:12,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-03",
+      "arquivo": "corte-03.mp4",
+      "origem": "sabatina-flavio-globo-2026-10-16.mp4",
+      "origem_inicio_s": 1547.4,
+      "duracao_s": 14.333,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 2 alegações checáveis em 14 s, assunto relacoes-exteriores; confronto jornalista x entrevistado em relacoes-exteriores; 1 troca de turno; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 23.1 dB e fim 22.4 dB abaixo da fala)",
+      "criado_em": "2026-10-17",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem para dentro da borda mole) e a imagem útil, 16:9, escalada a 1920x1080 sem deformar; nenhum pixel de faixa fica no quadro",
+        "corte": {
+          "x": 16,
+          "y": 12,
+          "w": 1248,
+          "h": 702
+        },
+        "conteudo_medido": {
+          "x1": 0,
+          "x2": 1279,
+          "y1": 2,
+          "y2": 719
+        },
+        "filtro": "crop=1248:702:16:12,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-04",
+      "arquivo": "corte-04.mp4",
+      "origem": "sabatina-flavio-globo-2026-10-16.mp4",
+      "origem_inicio_s": 1909.85,
+      "duracao_s": 14.967,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 15 s, assunto economia; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 15.2 dB e fim 22.2 dB abaixo da fala)",
+      "criado_em": "2026-10-17",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem para dentro da borda mole) e a imagem útil, 16:9, escalada a 1920x1080 sem deformar; nenhum pixel de faixa fica no quadro",
+        "corte": {
+          "x": 16,
+          "y": 12,
+          "w": 1248,
+          "h": 702
+        },
+        "conteudo_medido": {
+          "x1": 0,
+          "x2": 1279,
+          "y1": 2,
+          "y2": 719
+        },
+        "filtro": "crop=1248:702:16:12,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-05",
+      "arquivo": "corte-05.mp4",
+      "origem": "sabatina-flavio-globo-2026-10-16.mp4",
+      "origem_inicio_s": 2265.7,
+      "duracao_s": 15.8,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 15 s, assunto programas-sociais; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 25.4 dB e fim 18.6 dB abaixo da fala)",
+      "criado_em": "2026-10-17",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem para dentro da borda mole) e a imagem útil, 16:9, escalada a 1920x1080 sem deformar; nenhum pixel de faixa fica no quadro",
+        "corte": {
+          "x": 16,
+          "y": 12,
+          "w": 1248,
+          "h": 702
+        },
+        "conteudo_medido": {
+          "x1": 0,
+          "x2": 1279,
+          "y1": 2,
+          "y2": 719
+        },
+        "filtro": "crop=1248:702:16:12,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    },
+    {
+      "id": "corte-06",
+      "arquivo": "corte-06.mp4",
+      "origem": "sabatina-flavio-globo-2026-10-16.mp4",
+      "origem_inicio_s": 2409.09,
+      "duracao_s": 14.6,
+      "largura": 1920,
+      "altura": 1080,
+      "fps": 30.0,
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto saude; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 18.3 dB e fim 36.3 dB abaixo da fala)",
+      "criado_em": "2026-10-17",
+      "enquadramento": {
+        "original": "1280x720",
+        "como": "faixas pretas cortadas (medidas por cropdetect em várias cenas, com margem para dentro da borda mole) e a imagem útil, 16:9, escalada a 1920x1080 sem deformar; nenhum pixel de faixa fica no quadro",
+        "corte": {
+          "x": 16,
+          "y": 12,
+          "w": 1248,
+          "h": 702
+        },
+        "conteudo_medido": {
+          "x1": 0,
+          "x2": 1279,
+          "y1": 2,
+          "y2": 719
+        },
+        "filtro": "crop=1248:702:16:12,scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p"
+      }
+    }
+  ]
+}

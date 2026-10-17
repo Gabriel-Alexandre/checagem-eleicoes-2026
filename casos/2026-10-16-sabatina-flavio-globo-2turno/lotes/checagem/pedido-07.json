@@ -1,0 +1,192 @@
+PEDIDO DE CHECAGEM 07 de 21 · alegações A061 a A070
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-07.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A061",
+      "inicio_s": 764.4,
+      "fim_s": 770.28,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e restringir a possibilidade de familiares deles advogarem causas que correm no tribunal.",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro propõe restringir a advocacia de familiares de ministros em causas que correm no STF",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE: se a proposta consta do texto e com que redação"
+      ]
+    },
+    {
+      "id": "A062",
+      "inicio_s": 795.82,
+      "fim_s": 800.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Só os penduricalhos dos três poderes, se você for botar na ponta do lápis, são 24 bilhões de reais por ano.",
+      "citacao_card": "Só os penduricalhos dos três poderes [...] são 24 bilhões de reais por ano",
+      "afirmacao": "Os penduricalhos pagos nos três Poderes somam R$ 24 bilhões por ano",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "estimativas de gasto anual com verbas acima do teto (penduricalhos): CNJ, TCU, Tesouro, estudos de Movimento Pessoas à Frente ou similares",
+        "se o número é dos três Poderes, de que esfera (União ou também estados) e de que ano"
+      ]
+    },
+    {
+      "id": "A063",
+      "inicio_s": 845.47,
+      "fim_s": 849.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor tem defendido não só a investigação, mas impeachment do ministro Alexandre de Moraes",
+      "afirmacao": "Flávio Bolsonaro tem defendido a investigação e o impeachment do ministro Alexandre de Moraes",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "declarações públicas e pedidos de Flávio Bolsonaro sobre investigação e impeachment de Alexandre de Moraes, com data",
+        "se a defesa está ligada ao caso Master"
+      ]
+    },
+    {
+      "id": "A064",
+      "inicio_s": 849.4,
+      "fim_s": 852.08,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "por causa das relações dele com o dono do Banco Master.",
+      "afirmacao": "Alexandre de Moraes tem relações com Daniel Vorcaro, dono do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "que relações entre Alexandre de Moraes (ou familiares) e Daniel Vorcaro estão documentadas em investigação ou reportagem",
+        "fonte primária: PF, STF, PGR ou documentos publicados"
+      ]
+    },
+    {
+      "id": "A065",
+      "inicio_s": 853.06,
+      "fim_s": 857.54,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas e o ministro Cássio Nunes Marques? Porque ele foi indicado pelo seu pai",
+      "afirmacao": "Kassio Nunes Marques foi indicado ao STF por Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "mensagem presidencial de indicação ao STF e aprovação no Senado, 2020"
+      ]
+    },
+    {
+      "id": "A066",
+      "inicio_s": 857.54,
+      "fim_s": 863.78,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e mensagens apreendidas no celular do Daniel Vorcaro indicam que ele, além de bancar despesas do ministro,",
+      "citacao_card": "mensagens apreendidas no celular do Daniel Vorcaro indicam que ele, além de bancar despesas do ministro",
+      "afirmacao": "Mensagens apreendidas no celular de Daniel Vorcaro indicam que ele bancou despesas do ministro Kassio Nunes Marques",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "relatório da PF ou documento do inquérito do caso Master que cita mensagens sobre despesas de Kassio Nunes Marques",
+        "o que exatamente as mensagens dizem e quem as tornou públicas"
+      ]
+    },
+    {
+      "id": "A067",
+      "inicio_s": 857.54,
+      "fim_s": 868.48,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e mensagens apreendidas no celular do Daniel Vorcaro indicam que ele, além de bancar despesas do ministro, pagou a um filho dele por meio de uma empresa de consultoria.",
+      "citacao_card": "mensagens [...] indicam que ele [...] pagou a um filho dele por meio de uma empresa de consultoria",
+      "afirmacao": "Mensagens apreendidas no celular de Daniel Vorcaro indicam que ele pagou a um filho de Kassio Nunes Marques por meio de uma empresa de consultoria",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "relatório da PF ou documento do inquérito do caso Master sobre pagamento a filho de Kassio Nunes Marques",
+        "nome da empresa de consultoria e valor, se divulgados"
+      ]
+    },
+    {
+      "id": "A068",
+      "inicio_s": 878.56,
+      "fim_s": 904.48,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A lei 1079, que é a lei de impeachment, estabelece lá quais são os crimes de responsabilidade [...] Por exemplo, a atuação político-partidária [...] Por exemplo, tomar decisões quando, obviamente, deveria se declarar suspeito",
+      "citacao_card": "A lei 1079 [...] estabelece [...] os crimes de responsabilidade [...] Por exemplo, a atuação político-partidária",
+      "afirmacao": "A Lei 1.079/1950 define os crimes de responsabilidade de ministros do STF, entre eles exercer atividade político-partidária e julgar causa em que seja suspeito",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "Lei 1.079/1950, art. 39: lista de crimes de responsabilidade dos ministros do STF",
+        "se atividade político-partidária e julgar quando suspeito constam da lista"
+      ]
+    },
+    {
+      "id": "A069",
+      "inicio_s": 884.12,
+      "fim_s": 893.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que o senhor ministro do Supremo Tribunal Federal incorrer em uma daquelas hipóteses é obrigação do Senado Federal iniciar um processo de impeachment.",
+      "citacao_card": "incorrer em uma daquelas hipóteses é obrigação do Senado Federal iniciar um processo de impeachment",
+      "afirmacao": "Se um ministro do STF incorre em crime de responsabilidade, o Senado é obrigado a iniciar processo de impeachment",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "Lei 1.079/1950, arts. 41 a 46, e Regimento Interno do Senado: quem recebe a denúncia e se há juízo prévio do presidente do Senado",
+        "decisões do STF sobre o poder do presidente do Senado de arquivar denúncia contra ministro"
+      ]
+    },
+    {
+      "id": "A070",
+      "inicio_s": 916.8,
+      "fim_s": 922.38,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Ele que fez as pazes do Davi Alcolumbre, o presidente do Senado, junto ao presidente Lula.",
+      "afirmacao": "Alexandre de Moraes promoveu a reaproximação entre o presidente do Senado, Davi Alcolumbre, e Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "reportagens e registros de encontros entre Moraes, Alcolumbre e Lula em 2025-2026: quem mediou",
+        "se houve rompimento público entre Alcolumbre e Lula antes, e quando; e se Alcolumbre preside o Senado na data da fala"
+      ]
+    }
+  ]
+}

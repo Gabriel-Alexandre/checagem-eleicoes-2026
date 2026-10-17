@@ -1,0 +1,68 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recorte": "corte-02",
+  "alvo": "recortes/corte-02.mp4",
+  "base_s": 1089.51,
+  "duracao_s": 13.933,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-17",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-02/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 35.8
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-02/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 13.933,
+    "sai_s": 35.8,
+    "duracao_s": 21.867
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "INSUSTENTAVEL": 1,
+    "VERDADEIRO": 2
+  },
+  "cartelas": [
+    {
+      "id": "A085",
+      "arquivo": "overlay/cartelas-corte-02/A085.png",
+      "entra_s": 7.7,
+      "sai_s": 16.5,
+      "atraso_s": 7.45,
+      "atraso_do_fim_s": 2.57,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 1089.76,
+      "tempo_no_card_s": 1089.76,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A086",
+      "arquivo": "overlay/cartelas-corte-02/A086.png",
+      "entra_s": 16.7,
+      "sai_s": 27.3,
+      "atraso_s": 11.15,
+      "atraso_do_fim_s": 9.9,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1095.06,
+      "tempo_no_card_s": 1095.06,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A087",
+      "arquivo": "overlay/cartelas-corte-02/A087.png",
+      "entra_s": 27.5,
+      "sai_s": 35.8,
+      "atraso_s": 15.31,
+      "atraso_do_fim_s": 13.55,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 1101.7,
+      "tempo_no_card_s": 1101.7,
+      "cortado_na_tela": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recorte": "corte-05",
+  "alvo": "recortes/corte-05.mp4",
+  "base_s": 2265.7,
+  "duracao_s": 15.8,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-17",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-05/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 40.2
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-05/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 15.8,
+    "sai_s": 40.2,
+    "duracao_s": 24.4
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "VERDADEIRO": 4
+  },
+  "cartelas": [
+    {
+      "id": "A185",
+      "arquivo": "overlay/cartelas-corte-05/A185.png",
+      "entra_s": 7.7,
+      "sai_s": 18.0,
+      "atraso_s": 6.78,
+      "atraso_do_fim_s": 1.22,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 2266.62,
+      "tempo_no_card_s": 2266.62,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A186",
+      "arquivo": "overlay/cartelas-corte-05/A186.png",
+      "entra_s": 18.2,
+      "sai_s": 23.4,
+      "atraso_s": 11.38,
+      "atraso_do_fim_s": 7.32,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 2272.52,
+      "tempo_no_card_s": 2272.52,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A187",
+      "arquivo": "overlay/cartelas-corte-05/A187.png",
+      "entra_s": 23.6,
+      "sai_s": 34.8,
+      "atraso_s": 12.4,
+      "atraso_do_fim_s": 8.92,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 2276.9,
+      "tempo_no_card_s": 2276.9,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A188",
+      "arquivo": "overlay/cartelas-corte-05/A188.png",
+      "entra_s": 35.0,
+      "sai_s": 40.2,
+      "atraso_s": 22.91,
+      "atraso_do_fim_s": 21.6,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 2277.79,
+      "tempo_no_card_s": 2277.79,
+      "cortado_na_tela": []
+    }
+  ]
+}

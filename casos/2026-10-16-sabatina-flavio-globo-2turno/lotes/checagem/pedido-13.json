@@ -1,0 +1,189 @@
+PEDIDO DE CHECAGEM 13 de 21 · alegações A121 a A130
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-13.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A121",
+      "inicio_s": 1423.6,
+      "fim_s": 1427.26,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Alexandre de Moraes votou para condenar o presidente Bolsonaro pelo golpe da Disney.",
+      "afirmacao": "Alexandre de Moraes votou pela condenação de Jair Bolsonaro no julgamento da trama golpista",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "voto de Alexandre de Moraes no julgamento da AP 2668 no STF: sentido do voto e papel (relator ou vogal)",
+        "'golpe da Disney' é rótulo irônico do candidato; conferir só o voto"
+      ]
+    },
+    {
+      "id": "A122",
+      "inicio_s": 1427.88,
+      "fim_s": 1442.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Ele foi condenado por organização criminosa armada [...] Ele foi acusado de depredar patrimônio público",
+      "afirmacao": "Jair Bolsonaro foi condenado por organização criminosa armada e por dano ao patrimônio público",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "acórdão da AP 2668 no STF: lista dos crimes pelos quais Jair Bolsonaro foi condenado",
+        "se dano qualificado e deterioração de patrimônio tombado estão entre eles"
+      ]
+    },
+    {
+      "id": "A123",
+      "inicio_s": 1430.1,
+      "fim_s": 1431.84,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e não foi encontrado uma arma em lugar nenhum.",
+      "afirmacao": "Nenhuma arma foi apreendida ou apresentada como prova no processo da trama golpista contra Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "denúncia da PGR e acórdão da AP 2668: o que fundamentou a qualificadora 'armada' da organização criminosa",
+        "se o processo cita apreensão de armas ou só o uso de armas por integrantes (militares, forças de segurança)"
+      ]
+    },
+    {
+      "id": "A124",
+      "inicio_s": 1433.3,
+      "fim_s": 1436.31,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Depredação de patrimônio público, ele é a 10 mil quilômetros de distância.",
+      "afirmacao": "Jair Bolsonaro estava a cerca de 10 mil quilômetros de Brasília quando houve a depredação de patrimônio público pela qual foi condenado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "onde Jair Bolsonaro estava em 8/jan/2023 (Estados Unidos) e a distância em linha reta até Brasília",
+        "se a condenação por dano se refere aos atos de 8/jan/2023"
+      ]
+    },
+    {
+      "id": "A125",
+      "inicio_s": 1447.82,
+      "fim_s": 1455.81,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Flávio Dino, [...] Foi julgado pelo Zanin,",
+      "afirmacao": "Flávio Dino e Cristiano Zanin estavam entre os ministros do STF que julgaram Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "composição da Primeira Turma do STF no julgamento da AP 2668 e votos de cada ministro",
+        "se Flávio Dino e Cristiano Zanin votaram e em que sentido"
+      ]
+    },
+    {
+      "id": "A126",
+      "inicio_s": 1447.82,
+      "fim_s": 1452.06,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Flávio Dino, até ontem, era ministro da Justiça ou da Injustiça de Lula,",
+      "afirmacao": "Flávio Dino foi ministro da Justiça do governo Lula pouco antes de chegar ao STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "período de Flávio Dino como ministro da Justiça e Segurança Pública (Diário Oficial) e data da posse no STF",
+        "intervalo entre a saída do ministério e o julgamento de Jair Bolsonaro"
+      ]
+    },
+    {
+      "id": "A127",
+      "inicio_s": 1452.06,
+      "fim_s": 1454.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que já disse que Bolsonaro era o demônio na Terra.",
+      "afirmacao": "Flávio Dino já disse que Jair Bolsonaro era 'o demônio na Terra'",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Dino sobre Jair Bolsonaro (discursos, redes, entrevistas) com essa expressão ou equivalente",
+        "data e contexto da fala, se existir"
+      ]
+    },
+    {
+      "id": "A128",
+      "inicio_s": 1456.82,
+      "fim_s": 1458.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "outro amigo do Lula colocado lá,",
+      "afirmacao": "Cristiano Zanin foi indicado ao STF por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "mensagem de indicação de Cristiano Zanin ao STF, aprovação no Senado e posse: datas"
+      ]
+    },
+    {
+      "id": "A129",
+      "inicio_s": 1458.58,
+      "fim_s": 1460.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que até ontem era advogado do Lula.",
+      "afirmacao": "Cristiano Zanin era advogado de Lula pouco antes de virar ministro do STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "atuação de Cristiano Zanin como advogado de Lula (processos da Lava Jato e campanha de 2022) e data em que deixou a defesa",
+        "intervalo até a indicação ao STF"
+      ]
+    },
+    {
+      "id": "A130",
+      "inicio_s": 1531.72,
+      "fim_s": 1543.34,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No começo desse ano, o senhor disse que ele é um craque em relações internacionais, que seria um privilégio tê-lo falando em seu nome, e que o senhor não conhece ninguém no Brasil com mais qualidades do que ele.",
+      "citacao_card": "o senhor disse que ele é um craque em relações internacionais, que seria um privilégio tê-lo falando em seu nome",
+      "afirmacao": "No início de 2026, Flávio Bolsonaro disse que Eduardo Bolsonaro é um craque em relações internacionais e que seria um privilégio tê-lo falando em seu nome",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre se Eduardo Bolsonaro seria chanceler num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "entrevista ou declaração de Flávio Bolsonaro no início de 2026 sobre Eduardo Bolsonaro: data, veículo e falas",
+        "se as três expressões citadas (craque, privilégio, ninguém com mais qualidades) aparecem na mesma fala"
+      ]
+    }
+  ]
+}

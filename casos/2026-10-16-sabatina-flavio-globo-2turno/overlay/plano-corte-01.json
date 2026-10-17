@@ -1,0 +1,80 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recorte": "corte-01",
+  "alvo": "recortes/corte-01.mp4",
+  "base_s": 963.38,
+  "duracao_s": 14.2,
+  "largura": 1920,
+  "altura": 1080,
+  "gerado_em": "2026-10-17",
+  "selo": {
+    "arquivo": "overlay/cartelas-corte-01/_selo.png",
+    "entra_s": 0.0,
+    "sai_s": 37.9
+  },
+  "legenda": {
+    "arquivo": "overlay/cartelas-corte-01/_legenda.png",
+    "entra_s": 0.5,
+    "sai_s": 7.5
+  },
+  "congelamento": {
+    "entra_s": 14.2,
+    "sai_s": 37.9,
+    "duracao_s": 23.7
+  },
+  "encerramento": null,
+  "contagem_por_veredito": {
+    "INSUSTENTAVEL": 2,
+    "VERDADEIRO": 2
+  },
+  "cartelas": [
+    {
+      "id": "A075",
+      "arquivo": "overlay/cartelas-corte-01/A075.png",
+      "entra_s": 7.7,
+      "sai_s": 13.4,
+      "atraso_s": 7.12,
+      "atraso_do_fim_s": 3.42,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 963.96,
+      "tempo_no_card_s": 963.96,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A076",
+      "arquivo": "overlay/cartelas-corte-01/A076.png",
+      "entra_s": 13.6,
+      "sai_s": 21.3,
+      "atraso_s": 8.28,
+      "atraso_do_fim_s": 5.8,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 968.7,
+      "tempo_no_card_s": 968.7,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A077",
+      "arquivo": "overlay/cartelas-corte-01/A077.png",
+      "entra_s": 21.5,
+      "sai_s": 29.4,
+      "atraso_s": 13.48,
+      "atraso_do_fim_s": 12.06,
+      "veredito": "VERDADEIRO",
+      "tempo_na_peca_s": 971.4,
+      "tempo_no_card_s": 971.4,
+      "cortado_na_tela": []
+    },
+    {
+      "id": "A078",
+      "arquivo": "overlay/cartelas-corte-01/A078.png",
+      "entra_s": 29.6,
+      "sai_s": 37.9,
+      "atraso_s": 18.42,
+      "atraso_do_fim_s": 15.68,
+      "veredito": "INSUSTENTAVEL",
+      "tempo_na_peca_s": 974.56,
+      "tempo_no_card_s": 974.56,
+      "cortado_na_tela": []
+    }
+  ]
+}

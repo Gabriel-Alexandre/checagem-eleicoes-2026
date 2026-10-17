@@ -1,0 +1,190 @@
+PEDIDO DE CHECAGEM 20 de 21 · alegações A191 a A200
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-20.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A191",
+      "inicio_s": 2302.12,
+      "fim_s": 2306.02,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e aliado seu. Na fase anterior da campanha, o senhor chegou a gravar vídeos de apoio a ele.",
+      "afirmacao": "Flávio Bolsonaro gravou vídeos de apoio à candidatura de Márcio Canella na campanha de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "vídeos publicados nas redes de Márcio Canella ou de Flávio Bolsonaro no 1º turno de 2026 com apoio do senador",
+        "propaganda eleitoral registrada de Canella com participação de Flávio"
+      ]
+    },
+    {
+      "id": "A192",
+      "inicio_s": 2306.5,
+      "fim_s": 2314.04,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As suspeitas contra ele são de lavagem de dinheiro, via postos de combustíveis e de relações, de ligações com a milícia e com o tráfico.",
+      "citacao_card": "As suspeitas contra ele são de lavagem de dinheiro, via postos de combustíveis [...] de ligações com a milícia e com o tráfico",
+      "afirmacao": "A investigação contra Márcio Canella apura lavagem de dinheiro por meio de postos de combustíveis e ligações com milícia e tráfico",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "nota da Polícia Federal, decisão judicial ou denúncia que fundamentou a prisão de Canella: crimes investigados",
+        "se a investigação cita postos de combustíveis, milícia e tráfico, ou só parte disso"
+      ]
+    },
+    {
+      "id": "A193",
+      "inicio_s": 2315.22,
+      "fim_s": 2319.38,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Rodrigo Bacelar, que chegou a ser originalmente o seu candidato com governador aqui no Rio,",
+      "afirmacao": "Rodrigo Bacellar chegou a ser o candidato apoiado por Flávio Bolsonaro ao governo do Rio de Janeiro em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "declarações de Flávio Bolsonaro e do PL em 2025-2026 lançando ou apoiando Rodrigo Bacellar ao governo do RJ",
+        "se a pré-candidatura foi retirada e quando"
+      ]
+    },
+    {
+      "id": "A194",
+      "inicio_s": 2319.74,
+      "fim_s": 2323.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "hoje está preso por suspeita de comandar o braço político do Comando Vermelho.",
+      "afirmacao": "Rodrigo Bacellar está preso sob suspeita de comandar o braço político do Comando Vermelho",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "decisão de prisão de Rodrigo Bacellar e nota da PF ou do MP: se ele estava preso em 16/out/2026",
+        "qual a suspeita formal descrita na investigação e se ela fala em braço político do Comando Vermelho"
+      ]
+    },
+    {
+      "id": "A195",
+      "inicio_s": 2323.99,
+      "fim_s": 2327.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o ex-governador Cláudio Castro, tornado inelegível",
+      "afirmacao": "O ex-governador do Rio de Janeiro Cláudio Castro foi declarado inelegível",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "decisão do TRE-RJ ou do TSE que declarou Cláudio Castro inelegível: data, motivo e se há recurso pendente",
+        "se Castro já tinha deixado o cargo de governador na data da fala"
+      ]
+    },
+    {
+      "id": "A196",
+      "inicio_s": 2327.0,
+      "fim_s": 2328.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e enrolado no caso Master.",
+      "afirmacao": "Cláudio Castro é investigado ou citado no caso Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "investigações da PF ou do MP sobre o Banco Master que mencionem Cláudio Castro ou o governo do RJ (por exemplo, aplicações do Rioprevidência)",
+        "em que condição Castro aparece: investigado, citado ou alvo de busca"
+      ]
+    },
+    {
+      "id": "A197",
+      "inicio_s": 2362.36,
+      "fim_s": 2368.26,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "sobre saúde que o senhor sabe está sempre ali no alto da lista das preocupações com os brasileiros.",
+      "afirmacao": "A saúde aparece sempre entre as principais preocupações dos brasileiros nas pesquisas",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "série de pesquisas sobre principal problema do país (Datafolha, Quaest, Ipec) em 2025-2026",
+        "se a saúde está no topo ou entre os primeiros em todas as rodadas"
+      ]
+    },
+    {
+      "id": "A198",
+      "inicio_s": 2368.34,
+      "fim_s": 2374.48,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor escolheu para medir em história da saúde, [...] um médico renomado, Cláudio Lothenberg,",
+      "citacao_card": "O senhor escolheu [...] um médico renomado, Cláudio [...]",
+      "afirmacao": "Flávio Bolsonaro anunciou o médico Claudio Lottenberg como seu escolhido para o Ministério da Saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "anúncio público de Flávio Bolsonaro indicando Claudio Lottenberg para a Saúde: data e cargo",
+        "a transcrição não resolveu o trecho do cargo ('medir em história da saúde'); o contexto ('como o seu ministro') pede 'ministro da Saúde', conferir no vídeo"
+      ]
+    },
+    {
+      "id": "A199",
+      "inicio_s": 2370.42,
+      "fim_s": 2372.14,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "aliás, foi a primeira escolha que o senhor anunciou,",
+      "afirmacao": "Claudio Lottenberg foi o primeiro nome de futuro ministério anunciado por Flávio Bolsonaro",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "datas dos anúncios de nomes para ministérios feitos por Flávio Bolsonaro em 2026",
+        "se algum outro nome foi anunciado antes de Lottenberg"
+      ]
+    },
+    {
+      "id": "A200",
+      "inicio_s": 2374.68,
+      "fim_s": 2380.96,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que na pandemia ocorrida durante o governo do seu pai, criticou a demora do governo para comprar vacinas.",
+      "afirmacao": "Durante a pandemia de covid-19, Claudio Lottenberg criticou a demora do governo Jair Bolsonaro para comprar vacinas",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "entrevistas e artigos de Claudio Lottenberg em 2020-2021 sobre a compra de vacinas pelo governo federal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+PEDIDO DE CHECAGEM 15 de 21 · alegações A141 a A150
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-15.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A141",
+      "inicio_s": 1707.07,
+      "fim_s": 1709.84,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Porto de Santos que é uma área da União, do governo federal,",
+      "afirmacao": "O Porto de Santos é um porto público da União, sob responsabilidade do governo federal",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras",
+      "o_que_conferir": [
+        "natureza jurídica do Porto Organizado de Santos e de sua autoridade portuária (Santos Port Authority/APS), Lei 12.815/2013 e atos do Ministério de Portos e Aeroportos",
+        "se houve concessão ou desestatização da autoridade portuária até out/2026"
+      ]
+    },
+    {
+      "id": "A142",
+      "inicio_s": 1707.07,
+      "fim_s": 1713.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Porto de Santos que é uma área da União, do governo federal, é o segundo maior porto exportador de cocaína do mundo.",
+      "citacao_card": "o Porto de Santos [...] é o segundo maior porto exportador de cocaína do mundo",
+      "afirmacao": "O Porto de Santos é o segundo maior porto exportador de cocaína do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras",
+      "o_que_conferir": [
+        "relatórios do UNODC (World Drug Report), da Europol/EMCDDA e da PF/Receita sobre apreensões e origem da cocaína por porto",
+        "que métrica sustenta o ranking (apreensões na origem ou no destino) e de que ano é o dado",
+        "se alguma fonte classifica Santos como 2º porto do mundo, ou só como principal porto de saída do Brasil/América do Sul"
+      ]
+    },
+    {
+      "id": "A143",
+      "inicio_s": 1726.78,
+      "fim_s": 1731.98,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Brasil vai fazer parte do escudo das Américas para ter intercâmbio de informação e de inteligência",
+      "afirmacao": "O Brasil não integra hoje o Escudo das Américas, iniciativa de intercâmbio de informação e inteligência",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras. A alegação é o que a promessa pressupõe: que o Brasil está fora do Escudo das Américas",
+      "o_que_conferir": [
+        "o que é o Escudo das Américas, quem o criou e quais países aderiram, segundo os governos participantes",
+        "se o Brasil aderiu ou foi convidado até 16/out/2026",
+        "se a iniciativa trata de intercâmbio de informação e inteligência, como dito"
+      ]
+    },
+    {
+      "id": "A144",
+      "inicio_s": 1743.48,
+      "fim_s": 1747.38,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "As Forças Armadas foram completamente sucateadas durante o atual governo",
+      "afirmacao": "O orçamento e a capacidade das Forças Armadas foram reduzidos durante o governo Lula (2023-2026)",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras. Fica de fora o juízo 'completamente'; extrai-se o núcleo factual do 'sucateamento'",
+      "o_que_conferir": [
+        "série do orçamento do Ministério da Defesa, SIOP/Portal da Transparência, 2019-2026: despesa discricionária e investimento, em valores reais",
+        "comparar com o governo anterior e com o início do mandato; conferir programas estratégicos (Gripen, submarinos, blindados) e efetivo"
+      ]
+    },
+    {
+      "id": "A145",
+      "inicio_s": 1760.92,
+      "fim_s": 1763.38,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As sedes dos três poderes foram invadidas,",
+      "afirmacao": "Em 8 de janeiro de 2023, as sedes dos três Poderes (Planalto, Congresso e STF) foram invadidas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "relatórios da PF, do STF e das Casas sobre o 8 de janeiro de 2023: quais prédios foram invadidos",
+        "se os três prédios (Palácio do Planalto, Congresso Nacional e STF) tiveram área interna invadida"
+      ]
+    },
+    {
+      "id": "A146",
+      "inicio_s": 1763.76,
+      "fim_s": 1769.08,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "os invasores quebraram vidros, invadiram salas, depredaram salas, objetos de arte,",
+      "afirmacao": "Os invasores do 8 de janeiro quebraram vidros, invadiram e depredaram salas e danificaram objetos de arte",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "levantamento de danos dos três Poderes e do Iphan sobre o 8 de janeiro: vidros, salas e obras de arte danificadas",
+        "inventário de obras de arte atingidas (Planalto, Congresso e STF)"
+      ]
+    },
+    {
+      "id": "A147",
+      "inicio_s": 1769.36,
+      "fim_s": 1773.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "atacaram policiais com pedras, coquetails molotov, barras de ferro",
+      "afirmacao": "Os invasores do 8 de janeiro atacaram policiais com pedras, coquetéis molotov e barras de ferro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "relatórios da PMDF, da PF e denúncias da PGR sobre o 8 de janeiro: registro de policiais feridos e dos objetos usados nas agressões",
+        "se há registro específico de coquetéis molotov e barras de ferro, além de pedras"
+      ]
+    },
+    {
+      "id": "A148",
+      "inicio_s": 1773.7,
+      "fim_s": 1777.58,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e chegaram a roubar armas do gabinete de segurança institucional.",
+      "afirmacao": "Os invasores do 8 de janeiro roubaram armas do Gabinete de Segurança Institucional (GSI)",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "registro do GSI e inquéritos da PF sobre armas e munições subtraídas no Palácio do Planalto em 8/jan/2023",
+        "quais armas, quantas e se foram recuperadas"
+      ]
+    },
+    {
+      "id": "A149",
+      "inicio_s": 1809.31,
+      "fim_s": 1812.16,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "uma tentativa de golpe em prédios vazios.",
+      "afirmacao": "Os prédios dos três Poderes estavam vazios quando foram invadidos em 8 de janeiro de 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "dia da semana e presença de autoridades e servidores nos prédios em 8/jan/2023 (domingo), segundo relatórios da PF e das Casas",
+        "se havia seguranças e servidores de plantão dentro dos prédios"
+      ]
+    },
+    {
+      "id": "A150",
+      "inicio_s": 1822.43,
+      "fim_s": 1825.28,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "por causa do prefeito Ricardo Nunes que é opositor a ele.",
+      "afirmacao": "O prefeito de São Paulo, Ricardo Nunes, é opositor político de Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "partido e alianças de Ricardo Nunes nas eleições de 2024 e 2026; apoio declarado a candidatos contra Lula"
+      ]
+    }
+  ]
+}

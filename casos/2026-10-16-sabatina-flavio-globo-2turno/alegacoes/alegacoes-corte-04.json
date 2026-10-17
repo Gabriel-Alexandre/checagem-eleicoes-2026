@@ -1,0 +1,97 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "casos/2026-10-16-sabatina-flavio-globo-2turno/transcricao/transcricao.json",
+  "recorte": "corte-04",
+  "cobertura": {
+    "inicio_s": 1909.85,
+    "fim_s": 1924.79
+  },
+  "alegacoes": [
+    {
+      "id": "A158",
+      "inicio_s": 1910.13,
+      "fim_s": 1913.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "com maior queimada na história da nação brasileira,",
+      "afirmacao": "Durante o governo Lula ocorreu a maior queimada da história do Brasil",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "meio-ambiente",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula. A frase vem depois de 'esse foi em outubro', trecho de leitura divergente: a alegação não depende do mês",
+      "o_que_conferir": [
+        "série nacional de área queimada (MapBiomas Fogo, Inpe) e de focos (Inpe) desde o início da medição",
+        "qual ano/período do governo Lula teria o maior valor da série e se é o maior de todos os anos"
+      ]
+    },
+    {
+      "id": "A159",
+      "inicio_s": 1913.86,
+      "fim_s": 1916.44,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em criminalidade,",
+      "afirmacao": "No governo Lula, a criminalidade no Brasil atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "séries de mortes violentas intencionais, roubos e furtos, Anuário do FBSP e Sinesp, desde 2011",
+        "qual indicador de 'criminalidade' teria recorde em 2023-2025, se algum"
+      ]
+    },
+    {
+      "id": "A160",
+      "inicio_s": 1916.72,
+      "fim_s": 1919.16,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em pessoas endividadas,",
+      "afirmacao": "No governo Lula, o número de pessoas endividadas atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "Peic/CNC (famílias endividadas e inadimplentes) e Mapa da Inadimplência Serasa (número de inadimplentes), séries completas",
+        "diferenciar endividadas (têm dívida) de inadimplentes (dívida atrasada) e ver se o pico cai no governo atual"
+      ]
+    },
+    {
+      "id": "A161",
+      "inicio_s": 1919.46,
+      "fim_s": 1921.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em empresas que são fechadas,",
+      "afirmacao": "No governo Lula, o fechamento de empresas atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "Mapa de Empresas (MDIC/Receita Federal): empresas fechadas por ano/quadrimestre, série histórica",
+        "se o recorde vale em números absolutos e se inclui MEIs; conferir também o saldo (abertas menos fechadas)"
+      ]
+    },
+    {
+      "id": "A162",
+      "inicio_s": 1921.98,
+      "fim_s": 1924.54,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em indústrias que deixam o Brasil e vão para o Paraguai,",
+      "afirmacao": "No governo Lula, o número de indústrias brasileiras que se mudaram para o Paraguai atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "dados do governo paraguaio sobre empresas sob o regime de maquila e de capital brasileiro (MIC/CEMAP), por ano de instalação",
+        "se existe série que permita falar em recorde e se as empresas 'deixaram' o Brasil ou abriram filial"
+      ]
+    }
+  ]
+}

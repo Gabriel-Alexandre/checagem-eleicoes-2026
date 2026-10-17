@@ -1,0 +1,188 @@
+PEDIDO DE CHECAGEM 03 de 21 · alegações A021 a A030
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-03.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A021",
+      "inicio_s": 256.32,
+      "fim_s": 261.56,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Brasil tem mais de 30 mil imóveis, grande parte deles que estão abandonados.",
+      "afirmacao": "Grande parte dos imóveis da União está abandonada ou sem uso",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "levantamentos da SPU, CGU ou TCU sobre imóveis da União vagos, ociosos ou sem destinação",
+        "a proporção dos imóveis em situação de abandono no total"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 264.84,
+      "fim_s": 268.42,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A avaliação desses imóveis que está desatualizado, à beira, 1,7 trilhão de reais",
+      "afirmacao": "Os imóveis da União têm avaliação, desatualizada, de cerca de R$ 1,7 trilhão",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "valor contábil dos imóveis da União no Balanço Geral da União (BGU) ou na SPU, exercício mais recente",
+        "data da última reavaliação desses imóveis"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 280.85,
+      "fim_s": 284.86,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "os quase 3 trilhões de reais de dívidas que a União tem a receber",
+      "afirmacao": "A União tem quase R$ 3 trilhões em dívidas a receber",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "estoque da Dívida Ativa da União, PGFN (relatório PGFN em Números), dado mais recente",
+        "quanto desse estoque é classificado como de difícil recuperação"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 296.06,
+      "fim_s": 303.44,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Tem a questão também da margem equatorial, os RODs do petróleo, que já estavam na proposta de governo do presidente Bolsonaro lá em 2022",
+      "citacao_card": "da margem equatorial, [...] que já estavam na proposta de governo do presidente Bolsonaro lá em 2022",
+      "afirmacao": "A exploração de petróleo na margem equatorial constava da proposta de governo de Jair Bolsonaro em 2022",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "plano de governo de Jair Bolsonaro registrado no TSE em 2022: menção à margem equatorial ou à exploração de petróleo nessa região"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 304.05,
+      "fim_s": 313.32,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "passaram-se quatro anos e o presidente Lula não fez, não conseguiu iniciar a exploração do petróleo na margem equatorial, lá na região do Amapá",
+      "citacao_card": "o presidente Lula não fez, não conseguiu iniciar a exploração do petróleo na margem equatorial",
+      "afirmacao": "Em quatro anos de governo Lula, não foi iniciada a exploração de petróleo na margem equatorial, na região do Amapá",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "licenças do Ibama para perfuração na Foz do Amazonas (bloco FZA-M-59) e datas, 2023 a 2026",
+        "se houve perfuração exploratória ou produção na margem equatorial até out/2026, segundo Petrobras e ANP",
+        "distinguir 'exploração' no sentido técnico (pesquisa e perfuração) de produção comercial"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 333.36,
+      "fim_s": 339.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "isso é praticamente um consenso entre os economistas, as grandes despesas são essas que eu citei aqui",
+      "afirmacao": "As maiores despesas do orçamento federal são as aposentadorias vinculadas ao salário mínimo e os gastos com saúde e educação",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da jornalista à resposta sobre receitas novas e cortes de despesa",
+      "o_que_conferir": [
+        "composição da despesa primária federal por função ou por item, Tesouro Nacional (RTN), último exercício fechado e 2026",
+        "peso dos benefícios previdenciários e assistenciais vinculados ao mínimo e dos pisos de saúde e educação no total"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 339.6,
+      "fim_s": 344.22,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "margem equatorial, segundo a própria Petrobras, antes de 2033 não tem exploração ali",
+      "afirmacao": "Segundo a Petrobras, não haverá exploração de petróleo na margem equatorial antes de 2033",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Réplica da jornalista à menção do candidato às receitas da margem equatorial",
+      "o_que_conferir": [
+        "Plano de Negócios da Petrobras e declarações da empresa sobre o cronograma da margem equatorial",
+        "se o marco de 2033 se refere ao início de produção comercial ou de exploração"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 352.18,
+      "fim_s": 356.74,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Na quarta-feira, o Senado aprovou a emenda constitucional que acaba com essa escala de trabalho",
+      "afirmacao": "O Senado aprovou, na quarta-feira anterior à entrevista (14/out/2026), a PEC que acaba com a escala 6x1",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "tramitação da PEC no portal do Senado: data e resultado da votação em plenário"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 357.04,
+      "fim_s": 358.06,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a Câmara já tinha aprovado",
+      "afirmacao": "A Câmara dos Deputados aprovou a PEC do fim da escala 6x1 antes do Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "tramitação da PEC no portal da Câmara: data da aprovação em dois turnos"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 358.06,
+      "fim_s": 359.82,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "agora a emenda já está promulgada",
+      "afirmacao": "A emenda constitucional que acaba com a escala 6x1 já foi promulgada",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "sessão de promulgação no Congresso e publicação da emenda no Diário Oficial da União, com número e data"
+      ]
+    }
+  ]
+}

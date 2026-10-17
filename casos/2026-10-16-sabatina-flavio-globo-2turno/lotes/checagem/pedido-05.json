@@ -1,0 +1,191 @@
+PEDIDO DE CHECAGEM 05 de 21 · alegações A041 a A050
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-05.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A041",
+      "inicio_s": 528.32,
+      "fim_s": 538.18,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "aquela proposta original do seu partido, o PL, aquela que tinha apresentado e prevê pagamentos de salário, férias, décimo terceiro, proporcionais às horas trabalhadas.",
+      "citacao_card": "o PL, [...] prevê pagamentos de salário, férias, décimo terceiro, proporcionais às horas trabalhadas",
+      "afirmacao": "O PL apresentou uma proposta sobre jornada de trabalho que prevê pagamento de salário, férias e 13º proporcionais às horas trabalhadas",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a posição do candidato quanto ao fim da escala 6x1",
+      "o_que_conferir": [
+        "texto da proposta apresentada pelo PL (Câmara ou Senado) no debate sobre a escala 6x1: número, autoria e data",
+        "se o texto prevê remuneração, férias e 13º proporcionais às horas trabalhadas"
+      ]
+    },
+    {
+      "id": "A042",
+      "inicio_s": 538.42,
+      "fim_s": 543.04,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Se o senhor chegar à presidência, vai se empenhar para reverter o fim da escala 6x1?",
+      "afirmacao": "O fim da escala 6x1 já foi aprovado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a posição do candidato quanto ao fim da escala 6x1",
+      "o_que_conferir": [
+        "tramitação da PEC ou do projeto que acaba com a escala 6x1, Câmara e Senado: aprovação e promulgação até 16/out/2026",
+        "se o fim da escala já está em vigor ou só aprovado, e com que regra de transição"
+      ]
+    },
+    {
+      "id": "A043",
+      "inicio_s": 551.98,
+      "fim_s": 553.84,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Foi uma decisão do Congresso Nacional.",
+      "afirmacao": "O fim da escala 6x1 foi decidido pelo Congresso Nacional",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Resposta sobre reverter o fim da escala 6x1",
+      "o_que_conferir": [
+        "votações na Câmara e no Senado da proposta que acaba com a escala 6x1, com datas e placares",
+        "se a mudança veio de emenda constitucional, lei ou outra via"
+      ]
+    },
+    {
+      "id": "A044",
+      "inicio_s": 563.04,
+      "fim_s": 572.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ao defender o fim da reeleição, o senhor chegou a ventilar a ideia de ter, em caso de vitória, estendido o seu próprio mandato dos atuais 4 para 5 anos.",
+      "citacao_card": "o senhor chegou a ventilar a ideia de [...] estendido o seu próprio mandato dos atuais 4 para 5 anos",
+      "afirmacao": "Flávio Bolsonaro chegou a ventilar estender o próprio mandato, em caso de vitória, de 4 para 5 anos",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "declarações de Flávio Bolsonaro na campanha de 2026 sobre mandato de 5 anos, em entrevistas e redes, com data",
+        "se a extensão mencionada valeria para o mandato dele próprio ou só para os seguintes"
+      ]
+    },
+    {
+      "id": "A045",
+      "inicio_s": 573.92,
+      "fim_s": 577.16,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Primeiro, o senhor tem dito que quer ser presidente de um mandato só.",
+      "afirmacao": "Flávio Bolsonaro tem dito que quer ser presidente por um mandato só",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Bolsonaro na campanha de 2026 sobre cumprir um único mandato"
+      ]
+    },
+    {
+      "id": "A046",
+      "inicio_s": 592.26,
+      "fim_s": 600.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "partiu de mim apresentar uma PEC para dar o exemplo. E a minha PEC diz o seguinte. Acaba a reeleição para presidente da República.",
+      "citacao_card": "apresentar uma PEC [...] E a minha PEC diz o seguinte. Acaba a reeleição para presidente da República",
+      "afirmacao": "Flávio Bolsonaro apresentou uma PEC que acaba com a reeleição para presidente da República",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "PEC de autoria de Flávio Bolsonaro no Senado sobre reeleição: número, data de apresentação e texto",
+        "se o texto acaba com a reeleição para presidente"
+      ]
+    },
+    {
+      "id": "A047",
+      "inicio_s": 623.5,
+      "fim_s": 627.84,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Já gastou quase 350 bilhões de reais para tentar se reeleger.",
+      "afirmacao": "O governo Lula gastou quase R$ 350 bilhões em medidas apontadas como eleitorais",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Ataque ao atual presidente ao defender o mandato único",
+      "o_que_conferir": [
+        "qual conjunto de medidas soma cerca de R$ 350 bilhões (fonte que a campanha usa: Tesouro, TCU, IFI ou estudo privado)",
+        "período e critério da soma: gasto efetivo, impacto fiscal estimado ou renúncia de receita"
+      ]
+    },
+    {
+      "id": "A048",
+      "inicio_s": 629.41,
+      "fim_s": 633.14,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É a sétima vez que ele tenta um mandato de presidente da República.",
+      "afirmacao": "Lula disputa a Presidência da República pela sétima vez em 2026",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Ataque ao atual presidente ao defender o mandato único",
+      "o_que_conferir": [
+        "candidaturas presidenciais de Lula registradas no TSE desde 1989, com os anos",
+        "se a contagem inclui 2026"
+      ]
+    },
+    {
+      "id": "A049",
+      "inicio_s": 663.22,
+      "fim_s": 669.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A propósito dessa sua proposta de emenda constitucional, só lembrando que ela não prevê extensão de mandato. Não tem isso no texto da PEG.",
+      "citacao_card": "sua proposta de emenda constitucional, só lembrando que ela não prevê extensão de mandato",
+      "afirmacao": "A PEC de Flávio Bolsonaro sobre reeleição não prevê extensão do mandato presidencial",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "texto integral da PEC de autoria de Flávio Bolsonaro no Senado sobre o fim da reeleição",
+        "se há dispositivo sobre duração do mandato, inclusive em emendas ou substitutivo"
+      ]
+    },
+    {
+      "id": "A050",
+      "inicio_s": 683.38,
+      "fim_s": 684.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "mas eu apresentei para a presidente da República.",
+      "afirmacao": "A PEC de Flávio Bolsonaro acaba com a reeleição só para presidente da República, não para governadores e prefeitos",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "texto da PEC de Flávio Bolsonaro: quais cargos do Executivo ficam sem reeleição"
+      ]
+    }
+  ]
+}

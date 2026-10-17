@@ -1,0 +1,191 @@
+PEDIDO DE CHECAGEM 12 de 21 · alegações A111 a A120
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-12.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A111",
+      "inicio_s": 1354.76,
+      "fim_s": 1359.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "a primeira coisa que o meu adversário fez quando sentou na cadeira de presidente da República foi botar o amigo dele, Andrei,",
+      "citacao_card": "a primeira coisa que o meu adversário fez [...] foi botar o amigo dele, Andrei",
+      "afirmacao": "Logo ao assumir em 2023, Lula nomeou Andrei Rodrigues, pessoa próxima a ele, diretor-geral da Polícia Federal",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "data da nomeação de Andrei Rodrigues como diretor-geral da PF (Diário Oficial) comparada à posse de Lula em 1º/jan/2023",
+        "vínculo anterior entre Andrei Rodrigues e Lula (por exemplo, função na campanha de 2022)"
+      ]
+    },
+    {
+      "id": "A112",
+      "inicio_s": 1360.2,
+      "fim_s": 1367.68,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "inclusive esse que está tomando uísque com o Vorcaro, fumando jaruto, com pessoas que ele, que a Polícia Federal está investigando,",
+      "citacao_card": "esse que está tomando uísque com o Vorcaro, [...] com pessoas que ele, que a Polícia Federal está investigando",
+      "afirmacao": "Andrei Rodrigues, diretor-geral da PF, esteve em encontro social com Daniel Vorcaro, bebendo uísque, com pessoas investigadas pela PF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "foto, vídeo ou reportagem de encontro de Andrei Rodrigues com Daniel Vorcaro: data, local e quem estava presente",
+        "se os presentes eram investigados pela PF na data do encontro; a transcrição registrou 'jaruto' (provável 'charuto'), e a checagem não se apoia nessa palavra"
+      ]
+    },
+    {
+      "id": "A113",
+      "inicio_s": 1368.6,
+      "fim_s": 1371.56,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "ele trocou os 27 superintendentes de toda a federação.",
+      "afirmacao": "No início do governo Lula, os 27 superintendentes regionais da Polícia Federal foram trocados",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "portarias de nomeação dos superintendentes regionais da PF em 2023 e reportagens sobre a troca",
+        "quantas das 27 superintendências tiveram o titular trocado na gestão Andrei Rodrigues, e em que período"
+      ]
+    },
+    {
+      "id": "A114",
+      "inicio_s": 1372.32,
+      "fim_s": 1373.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Aí o Bolsonaro troca um, tem esse questionamento.",
+      "afirmacao": "No episódio de 2020, Jair Bolsonaro trocou só um superintendente da Polícia Federal",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "trocas de superintendentes regionais da PF em 2020, depois da saída de Sergio Moro, e de diretores-gerais no governo Bolsonaro",
+        "se a comparação 'um contra 27' se sustenta no mesmo tipo de cargo e em período comparável"
+      ]
+    },
+    {
+      "id": "A115",
+      "inicio_s": 1378.74,
+      "fim_s": 1380.76,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "tem um grupo especial do Lula dentro da Polícia Federal.",
+      "afirmacao": "Existe dentro da Polícia Federal um grupo especial ligado a Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "estrutura da PF: existência de grupo, núcleo ou unidade especial vinculada à Presidência ou criada por Lula",
+        "a que grupo o candidato se refere (por exemplo, segurança presidencial ou grupo de inquéritos sensíveis) e o que os registros dizem dele"
+      ]
+    },
+    {
+      "id": "A116",
+      "inicio_s": 1382.82,
+      "fim_s": 1383.19,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Não, ele pediu para sair.",
+      "afirmacao": "Sergio Moro pediu demissão do Ministério da Justiça em 2020, em vez de ser demitido por Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre se Jair Bolsonaro trocou o ministro da Justiça depois da reunião de 2020",
+      "o_que_conferir": [
+        "pronunciamento de Sergio Moro ao deixar o cargo em abr/2020 e ato de exoneração no Diário Oficial (a pedido ou não)",
+        "a sequência: exoneração do diretor-geral da PF e anúncio da saída do ministro"
+      ]
+    },
+    {
+      "id": "A117",
+      "inicio_s": 1384.04,
+      "fim_s": 1385.42,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E hoje somos aliados,",
+      "afirmacao": "Sergio Moro e Flávio Bolsonaro são aliados políticos em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a saída de Sergio Moro do governo Jair Bolsonaro",
+      "o_que_conferir": [
+        "apoio declarado de Sergio Moro à candidatura de Flávio Bolsonaro em 2026, ou coligação/acordo entre os partidos dos dois",
+        "data e forma desse apoio (ato, nota, palanque)"
+      ]
+    },
+    {
+      "id": "A118",
+      "inicio_s": 1385.42,
+      "fim_s": 1389.36,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "inclusive, parabéns ao Sérgio Moro, eleito governador no primeiro turno no Paraná.",
+      "afirmacao": "Sergio Moro foi eleito governador do Paraná no 1º turno de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a saída de Sergio Moro do governo Jair Bolsonaro",
+      "o_que_conferir": [
+        "resultado oficial da eleição para governador do Paraná em 4/out/2026, TSE: votos válidos de Sergio Moro",
+        "se ele passou de 50% dos votos válidos no 1º turno"
+      ]
+    },
+    {
+      "id": "A119",
+      "inicio_s": 1398.5,
+      "fim_s": 1403.76,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "existem movimentações no judiciário para tentar anular ainda este ano a condenação",
+      "afirmacao": "Há iniciativas em curso no Judiciário para tentar anular, ainda em 2026, a condenação de Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre se Jair Bolsonaro teria cargo num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "pedidos de revisão criminal, habeas corpus ou outros recursos contra a condenação de Jair Bolsonaro em tramitação em 2026",
+        "reportagens sobre articulação para julgar esses pedidos ainda em 2026"
+      ]
+    },
+    {
+      "id": "A120",
+      "inicio_s": 1402.98,
+      "fim_s": 1407.36,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a condenação do ex-presidente a 27 anos de prisão por tentativa de golpe.",
+      "afirmacao": "Jair Bolsonaro foi condenado a 27 anos de prisão por tentativa de golpe de Estado",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre se Jair Bolsonaro teria cargo num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "acórdão da Primeira Turma do STF na AP 2668: pena total fixada para Jair Bolsonaro",
+        "crimes pelos quais foi condenado e se a pena é de 27 anos exatos ou 27 anos e meses"
+      ]
+    }
+  ]
+}

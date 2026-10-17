@@ -1,0 +1,190 @@
+PEDIDO DE CHECAGEM 18 de 21 · alegações A171 a A180
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-18.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A171",
+      "inicio_s": 2060.6,
+      "fim_s": 2064.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É a PEC da Segurança Pública que nós, no Congresso Nacional, melhoramos,",
+      "afirmacao": "O Congresso Nacional alterou o texto da PEC da Segurança Pública enviada pelo governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições. Fica de fora o juízo 'melhoramos'; o fato é a alteração do texto",
+      "o_que_conferir": [
+        "tramitação da PEC da Segurança Pública na Câmara e no Senado: texto original do Executivo versus substitutivos aprovados",
+        "fase da tramitação na data da fala"
+      ]
+    },
+    {
+      "id": "A172",
+      "inicio_s": 2065.4,
+      "fim_s": 2070.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "a PEC da Segurança Pública que foi enviada pelo Lula era uma PEC que controlava policiais.",
+      "afirmacao": "A PEC da Segurança Pública enviada pelo governo Lula tinha como foco o controle das polícias",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições",
+      "o_que_conferir": [
+        "texto original da PEC da Segurança Pública enviada pelo Executivo: dispositivos sobre corregedorias, ouvidorias e controle das polícias versus dispositivos sobre crime organizado",
+        "o que a exposição de motivos do MJSP diz ser o objetivo da PEC"
+      ]
+    },
+    {
+      "id": "A173",
+      "inicio_s": 2145.24,
+      "fim_s": 2154.14,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "porque segundo a pesquisa Quest de setembro, a maioria dos brasileiros considera que limitar o acesso melhora a segurança pública.",
+      "citacao_card": "segundo a pesquisa [...] de setembro, a maioria dos brasileiros considera que limitar o acesso melhora a segurança pública",
+      "afirmacao": "Pesquisa Quaest de setembro de 2026 mostrou que a maioria dos brasileiros considera que limitar o acesso a armas melhora a segurança pública",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "relatório da pesquisa Quaest divulgada em setembro de 2026 com pergunta sobre acesso a armas e segurança pública",
+        "se o percentual dos que dizem que limitar o acesso melhora a segurança passa de 50% e qual é a redação exata da pergunta"
+      ]
+    },
+    {
+      "id": "A174",
+      "inicio_s": 2154.58,
+      "fim_s": 2157.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Esse percentual é ainda maior entre as mulheres",
+      "afirmacao": "Na mesma pesquisa Quaest, o percentual dos que acham que limitar o acesso a armas melhora a segurança é maior entre as mulheres do que no total",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "recorte por sexo da mesma pergunta da pesquisa Quaest de setembro de 2026",
+        "se a diferença entre mulheres e total está fora da margem de erro do recorte"
+      ]
+    },
+    {
+      "id": "A175",
+      "inicio_s": 2157.1,
+      "fim_s": 2161.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e o seu time vem falando pelo contrário em ampliar o acesso",
+      "afirmacao": "Integrantes da campanha de Flávio Bolsonaro e deputados aliados defendem ampliar o acesso da população a armas",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "declarações públicas, projetos de lei e programa de governo registrado no TSE pela campanha de Flávio Bolsonaro sobre acesso a armas, em 2026",
+        "quem fez as declarações: membros da coordenação da campanha ou deputados aliados"
+      ]
+    },
+    {
+      "id": "A176",
+      "inicio_s": 2171.22,
+      "fim_s": 2174.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eles falam em resgatar medidas que vigoraram durante o governo do seu pai",
+      "afirmacao": "Deputados ligados à campanha de Flávio Bolsonaro defendem retomar as medidas sobre armas que vigoraram no governo Jair Bolsonaro",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "projetos de decreto legislativo, projetos de lei e declarações de deputados aliados em 2025-2026 propondo restaurar os decretos de armas de 2019-2022",
+        "se os deputados citados estão ligados à campanha de Flávio Bolsonaro"
+      ]
+    },
+    {
+      "id": "A177",
+      "inicio_s": 2172.36,
+      "fim_s": 2174.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "medidas que vigoraram durante o governo do seu pai",
+      "afirmacao": "Durante o governo Jair Bolsonaro (2019-2022) vigoraram medidas que ampliaram o acesso a armas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "decretos e portarias sobre posse, porte e CACs editados de 2019 a 2022 (Planalto, Diário Oficial da União)",
+        "se essas normas estiveram em vigor e quando foram revogadas"
+      ]
+    },
+    {
+      "id": "A178",
+      "inicio_s": 2174.9,
+      "fim_s": 2178.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e falam, inclusive, em revogar o Estatuto do Desarmamento.",
+      "afirmacao": "Deputados ligados à campanha de Flávio Bolsonaro defendem revogar o Estatuto do Desarmamento",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "projetos de lei na Câmara e no Senado que revogam a Lei 10.826/2003 e seus autores",
+        "declarações de deputados aliados à campanha defendendo a revogação, em 2026"
+      ]
+    },
+    {
+      "id": "A179",
+      "inicio_s": 2183.24,
+      "fim_s": 2193.22,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "como presidente Bolsonaro, no primeiro ano de governo, [...] a taxa de homicídio caiu 17% no primeiro ano.",
+      "afirmacao": "A taxa de homicídios no Brasil caiu 17% no primeiro ano do governo Jair Bolsonaro (2019)",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre armas e revogação do Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "variação da taxa de homicídios ou de mortes violentas intencionais de 2018 para 2019: Atlas da Violência (Ipea/FBSP, dados do SIM/DataSUS) e Anuário Brasileiro de Segurança Pública",
+        "qual indicador dá 17%: homicídios do SIM, MVI do Anuário ou dados do Sinesp; e se é taxa ou número absoluto"
+      ]
+    },
+    {
+      "id": "A180",
+      "inicio_s": 2184.56,
+      "fim_s": 2190.24,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "no primeiro ano de governo, onde houve um recorde, inclusive, de emissões de certificáveis dos CACs,",
+      "afirmacao": "No primeiro ano do governo Jair Bolsonaro (2019) houve recorde de emissão de certificados de registro de CACs",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre armas e revogação do Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "série anual de certificados de registro (CR) de CACs emitidos pelo Exército (SFPC/DFPC), de anos anteriores até 2022",
+        "se 2019 foi o ano de maior emissão da série ou se o recorde veio em anos posteriores"
+      ]
+    }
+  ]
+}

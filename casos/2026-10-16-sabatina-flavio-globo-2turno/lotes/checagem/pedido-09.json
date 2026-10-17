@@ -1,0 +1,192 @@
+PEDIDO DE CHECAGEM 09 de 21 · alegações A081 a A090
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-09.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A081",
+      "inicio_s": 1007.7,
+      "fim_s": 1012.71,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu estou falando de um pedido de um patrocínio privado para um filme privado",
+      "afirmacao": "O dinheiro pedido a Vorcaro foi patrocínio privado para um filme privado, sem recurso público",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre a falta de informação sobre o destino do dinheiro",
+      "o_que_conferir": [
+        "se o filme recebeu recurso público ou incentivo fiscal (Ancine, Lei do Audiovisual, Lei Rouanet)",
+        "se o dinheiro veio de Vorcaro pessoa física, de empresas privadas dele ou do Banco Master"
+      ]
+    },
+    {
+      "id": "A082",
+      "inicio_s": 1009.8,
+      "fim_s": 1016.67,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "de um patrocínio privado para um filme privado sem absolutamente nenhuma contrapartida pelo fato de eu ser senador da República",
+      "citacao_card": "um patrocínio privado para um filme privado sem absolutamente nenhuma contrapartida pelo fato de eu ser senador",
+      "afirmacao": "Não houve contrapartida de Flávio Bolsonaro, como senador, ao patrocínio de Vorcaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre a falta de informação sobre o destino do dinheiro",
+      "o_que_conferir": [
+        "atos de Flávio Bolsonaro no Senado ligados ao Banco Master ou a Vorcaro (projetos, emendas, votos, requerimentos), no período dos pedidos",
+        "o que a investigação da PF ou da PGR diz sobre contrapartida"
+      ]
+    },
+    {
+      "id": "A083",
+      "inicio_s": 1033.66,
+      "fim_s": 1048.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Os seus principais articuladores políticos que frequentam ali a casa, a cozinha do Lula, tiveram relações com o Vorcaro e ofereciam contrapartidas para que houvesse esse patrocínio no filme do Lula.",
+      "citacao_card": "articuladores políticos [...] ofereciam contrapartidas para que houvesse esse patrocínio no filme do Lula",
+      "afirmacao": "Articuladores políticos próximos de Lula tiveram relações com Vorcaro e ofereceram contrapartidas para que ele patrocinasse um filme sobre Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Comparação feita pelo candidato com a relação de aliados de Lula com Vorcaro",
+      "o_que_conferir": [
+        "quem são os aliados citados e o que a investigação ou reportagem com documento mostra sobre pedido de patrocínio para filme sobre Lula",
+        "se há registro de contrapartida oferecida"
+      ]
+    },
+    {
+      "id": "A084",
+      "inicio_s": 1049.0,
+      "fim_s": 1050.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "30 milhões por fora. É o áudio do Vorcaro.",
+      "afirmacao": "Um áudio de Daniel Vorcaro menciona R$ 30 milhões por fora ligados ao patrocínio de um filme sobre Lula",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Comparação feita pelo candidato com a relação de aliados de Lula com Vorcaro",
+      "o_que_conferir": [
+        "áudio de Vorcaro divulgado (por quem e quando): fala literal sobre 30 milhões e a que se refere",
+        "se o áudio trata de filme sobre Lula"
+      ]
+    },
+    {
+      "id": "A085",
+      "inicio_s": 1089.76,
+      "fim_s": 1094.64,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A perícia da própria produtora disse que o filme custou 75 milhões de reais",
+      "afirmacao": "Uma perícia contratada pela própria produtora do filme sobre Jair Bolsonaro concluiu que o filme custou R$ 75 milhões",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o financiamento do filme sobre Jair Bolsonaro e o pedido de recursos a Daniel Vorcaro",
+      "o_que_conferir": [
+        "laudo ou perícia apresentado pela produtora do filme (em processo, investigação ou nota pública): valor total de custo apurado",
+        "se o laudo é da própria produtora ou de terceiro contratado por ela, e a data em que veio a público"
+      ]
+    },
+    {
+      "id": "A086",
+      "inicio_s": 1095.06,
+      "fim_s": 1096.31,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e o senhor pediu 134 ao Vorcaro",
+      "afirmacao": "Flávio Bolsonaro pediu R$ 134 milhões a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o financiamento do filme sobre Jair Bolsonaro e o pedido de recursos a Daniel Vorcaro",
+      "o_que_conferir": [
+        "mensagens, contrato ou documentos do caso Master (PF, STF, reportagens com acesso aos autos) com o valor pedido por Flávio Bolsonaro a Vorcaro",
+        "se R$ 134 milhões é o valor pedido, o contratado ou o somado de parcelas; a razão 134/75 sustenta o 'quase o dobro' da pergunta"
+      ]
+    },
+    {
+      "id": "A087",
+      "inicio_s": 1101.7,
+      "fim_s": 1103.46,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "era um contrato que não foi cumprido",
+      "afirmacao": "O contrato de patrocínio de Daniel Vorcaro ao filme sobre Jair Bolsonaro não foi cumprido integralmente",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre a diferença entre o custo do filme sobre Jair Bolsonaro e o valor pedido a Daniel Vorcaro",
+      "o_que_conferir": [
+        "contrato de patrocínio entre Vorcaro (ou empresa dele) e a produtora: valor previsto e valor efetivamente pago",
+        "declarações da produtora, da defesa de Vorcaro ou documentos da investigação sobre interrupção dos pagamentos"
+      ]
+    },
+    {
+      "id": "A088",
+      "inicio_s": 1103.46,
+      "fim_s": 1109.94,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e com os recursos que foram aportados por ele e mais outros investidores nós conseguimos concluir o filme.",
+      "afirmacao": "O filme sobre Jair Bolsonaro foi concluído com recursos de Daniel Vorcaro e de outros investidores",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre a diferença entre o custo do filme sobre Jair Bolsonaro e o valor pedido a Daniel Vorcaro",
+      "o_que_conferir": [
+        "situação de produção do filme (concluído, em pós-produção, com data de lançamento) segundo a produtora ou registro na Ancine",
+        "se houve outros investidores além de Vorcaro e quem são, segundo a produtora ou a investigação"
+      ]
+    },
+    {
+      "id": "A089",
+      "inicio_s": 1110.84,
+      "fim_s": 1112.26,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Simples assim, uma relação privada",
+      "afirmacao": "O patrocínio de Daniel Vorcaro ao filme sobre Jair Bolsonaro foi uma relação privada, sem dinheiro público",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre a diferença entre o custo do filme sobre Jair Bolsonaro e o valor pedido a Daniel Vorcaro",
+      "o_que_conferir": [
+        "origem dos recursos do filme: se houve captação por lei de incentivo, fundo público ou estatal (Ancine, Lei Rouanet, FSA)",
+        "se os aportes de Vorcaro saíram de recursos pessoais, de empresa dele ou do Banco Master, segundo a investigação"
+      ]
+    },
+    {
+      "id": "A090",
+      "inicio_s": 1115.46,
+      "fim_s": 1125.74,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A Globo, o programa Luciano Huck recebeu mais de 100 milhões de reais, 160 milhões de reais, se não me engano, para fazer uma propaganda no banco do Vorcaro.",
+      "citacao_card": "o programa Luciano Huck recebeu mais de 100 milhões de reais, 160 milhões de reais [...] para fazer uma propaganda",
+      "afirmacao": "O programa de Luciano Huck na TV Globo recebeu mais de R$ 100 milhões (cerca de R$ 160 milhões, segundo o candidato) para fazer publicidade do Banco Master",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre o financiamento do filme, em que o candidato compara com patrocínios do Banco Master na Globo",
+      "o_que_conferir": [
+        "contratos de patrocínio ou publicidade do Banco Master com a TV Globo e com o programa de Luciano Huck: valores e período",
+        "se o valor citado (100 ou 160 milhões) aparece em documento da investigação, em reportagem ou em nota da Globo, e se é do programa ou da emissora inteira"
+      ]
+    }
+  ]
+}

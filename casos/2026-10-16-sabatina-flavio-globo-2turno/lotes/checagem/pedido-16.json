@@ -1,0 +1,189 @@
+PEDIDO DE CHECAGEM 16 de 21 · alegações A151 a A160
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-16.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A151",
+      "inicio_s": 1826.2,
+      "fim_s": 1831.23,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Uma canetada, ao invés dele autorizar a prefeitura a fazer a faixa azul para proteger os motoboys",
+      "afirmacao": "O governo Lula, por ato federal, deixou de autorizar a Prefeitura de São Paulo a implantar a Faixa Azul para motociclistas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "atos da Senatran/Contran e do Ministério dos Transportes sobre a Faixa Azul de São Paulo: autorização em caráter experimental, prazos e negativas",
+        "se a Faixa Azul depende de autorização federal e qual foi a decisão vigente na data da fala"
+      ]
+    },
+    {
+      "id": "A152",
+      "inicio_s": 1851.21,
+      "fim_s": 1859.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o prefeito Ricardo Nunes tentou pegar, o Renato, um empréstimo com o aval da União para investir na saúde do povo paulistano e o Lula não dava,",
+      "citacao_card": "Ricardo Nunes tentou pegar [...] um empréstimo com o aval da União [...] e o Lula não dava",
+      "afirmacao": "O governo Lula negou o aval da União a um empréstimo pedido pela Prefeitura de São Paulo para investir em saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "pedido da Prefeitura de São Paulo de garantia da União a operação de crédito (STN/PVL, Sadipem): valor, finalidade e decisão",
+        "se a negativa ou demora foi do Tesouro e por qual fundamento (capacidade de pagamento, CAPAG)"
+      ]
+    },
+    {
+      "id": "A153",
+      "inicio_s": 1859.44,
+      "fim_s": 1862.24,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "teve que entrar na justiça para poder botar mais dinheiro na saúde de São Paulo.",
+      "afirmacao": "A Prefeitura de São Paulo recorreu à Justiça para obter o aval da União ao empréstimo para a saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "ação judicial da Prefeitura de São Paulo contra a União sobre garantia a operação de crédito: tribunal, número e decisão"
+      ]
+    },
+    {
+      "id": "A154",
+      "inicio_s": 1894.98,
+      "fim_s": 1896.76,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "No primeiro turno, o Brasil já escolheu a mudança.",
+      "afirmacao": "No 1º turno de 2026, a maioria dos votos válidos não foi para Lula (oposição somou mais votos)",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta se o candidato respeitará o resultado das urnas caso perca. Fica de fora a interpretação 'escolheu a mudança'; o núcleo factual é o resultado do 1º turno",
+      "o_que_conferir": [
+        "resultado oficial do 1º turno presidencial de 2026, TSE: votos válidos de Lula, de Flávio Bolsonaro e dos demais",
+        "quem ficou em primeiro lugar e se Lula teve menos da metade dos votos válidos"
+      ]
+    },
+    {
+      "id": "A155",
+      "inicio_s": 1901.1,
+      "fim_s": 1904.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em assassinatos de mulheres,",
+      "afirmacao": "No governo Lula, os assassinatos de mulheres (homicídios e feminicídios) atingiram recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "série de feminicídios e homicídios de mulheres, Anuário do Fórum Brasileiro de Segurança Pública e Sinesp/MJSP, anos disponíveis até 2025",
+        "se o recorde vale para feminicídio, para homicídio de mulheres ou para os dois, e em números absolutos ou taxa"
+      ]
+    },
+    {
+      "id": "A156",
+      "inicio_s": 1904.58,
+      "fim_s": 1906.78,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em mulheres que são espancadas,",
+      "afirmacao": "No governo Lula, a violência física contra mulheres (agressões e lesões corporais) atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "série de lesão corporal dolosa em violência doméstica e agressões a mulheres, Anuário do FBSP e Sinesp, anos disponíveis",
+        "se o pico da série cai em 2023-2025"
+      ]
+    },
+    {
+      "id": "A157",
+      "inicio_s": 1907.1,
+      "fim_s": 1909.14,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em queimadas na Amazônia,",
+      "afirmacao": "No governo Lula, as queimadas na Amazônia atingiram recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "meio-ambiente",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "série de focos de calor no bioma Amazônia (Programa Queimadas/Inpe) e de área queimada (MapBiomas Fogo, Inpe AQ1km), desde 1998",
+        "se o recorde vale para a série inteira ou só para um mês/ano (ex.: 2024) e para que métrica"
+      ]
+    },
+    {
+      "id": "A158",
+      "inicio_s": 1910.13,
+      "fim_s": 1913.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "com maior queimada na história da nação brasileira,",
+      "afirmacao": "Durante o governo Lula ocorreu a maior queimada da história do Brasil",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "meio-ambiente",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula. A frase vem depois de 'esse foi em outubro', trecho de leitura divergente: a alegação não depende do mês",
+      "o_que_conferir": [
+        "série nacional de área queimada (MapBiomas Fogo, Inpe) e de focos (Inpe) desde o início da medição",
+        "qual ano/período do governo Lula teria o maior valor da série e se é o maior de todos os anos"
+      ]
+    },
+    {
+      "id": "A159",
+      "inicio_s": 1913.86,
+      "fim_s": 1916.44,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em criminalidade,",
+      "afirmacao": "No governo Lula, a criminalidade no Brasil atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "séries de mortes violentas intencionais, roubos e furtos, Anuário do FBSP e Sinesp, desde 2011",
+        "qual indicador de 'criminalidade' teria recorde em 2023-2025, se algum"
+      ]
+    },
+    {
+      "id": "A160",
+      "inicio_s": 1916.72,
+      "fim_s": 1919.16,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em pessoas endividadas,",
+      "afirmacao": "No governo Lula, o número de pessoas endividadas atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "Peic/CNC (famílias endividadas e inadimplentes) e Mapa da Inadimplência Serasa (número de inadimplentes), séries completas",
+        "diferenciar endividadas (têm dívida) de inadimplentes (dívida atrasada) e ver se o pico cai no governo atual"
+      ]
+    }
+  ]
+}

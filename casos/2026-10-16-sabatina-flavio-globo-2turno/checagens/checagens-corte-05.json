@@ -1,0 +1,304 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_alegacoes": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/alegacoes-corte-05.json",
+  "checagens": [
+    {
+      "id": "A185",
+      "veredito": "VERDADEIRO",
+      "resumo": "O piso de R$ 600 de 2023 só foi reajustado em 17 de setembro de 2026, quando subiu para R$ 691",
+      "explicacao": "A frase diz que Lula passou o mandato sem reajustar o Bolsa Família e só o fez perto da eleição. A Lei 14.601/2023 fixou R$ 142 por integrante e o piso de R$ 600 por família; o Decreto 13.120, de 17 de setembro de 2026, é a primeira correção, pela inflação acumulada desde março de 2023; o Congresso em Foco registra que os valores-base não tinham sido corrigidos desde o relançamento, e o SBT reproduz o próprio Lula: 'A gente estava há quatro anos sem dar reajuste'. O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A116 e A118, VERDADEIRO), com as mesmas fontes. Régua de 'quatro anos': do início do mandato (1º/01/2023) ao anúncio (17/09/2026) são cerca de 3 anos e 8 meses, desvio de cerca de 8% medido sobre o período apurado (3,5 meses sobre 44,5), abaixo dos 10% da régua, por isso VERDADEIRO com ressalva e não IMPRECISO. 'Não deu reajuste para ninguém' segue a mesma leitura do caso de 15/out: os adicionais criados em 2023 são componentes do novo desenho, não correção de valor.",
+      "numero_dito": "quatro anos",
+      "numero_apurado": "cerca de 3 anos e 8 meses sem reajuste, de janeiro de 2023 a 17 de setembro de 2026",
+      "data_de_referencia": "de 1º de janeiro de 2023 a 17 de setembro de 2026",
+      "ressalva": "O reajuste veio no quarto ano do mandato, em 17 de setembro de 2026, e não depois de quatro anos completos",
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "3 anos e 8 meses",
+          "de": "01/01/2023 e 17 de setembro de 2026",
+          "como": "contagem no calendário da posse ao anúncio do reajuste: 44,5 meses contra 48 ditos, desvio de cerca de 8% medido sobre o apurado (3,5 dividido por 44,5)"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Lei nº 14.601, de 19 de junho de 2023 (Programa Bolsa Família)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "I - Benefício de Renda de Cidadania, no valor de R$ 142,00 (cento e quarenta e dois reais) por integrante, destinado a todas as famílias beneficiárias do Programa Bolsa Família; II - Benefício Complementar, destinado às famílias beneficiárias do Programa Bolsa Família cuja soma dos valores relativos aos benefícios financeiros de que trata o inciso I deste parágrafo seja inferior a R$ 600,00 (seiscentos reais), calculado pela diferença entre este valor e a referida soma;",
+          "prova": "Os valores fixados em 2023, ponto de partida do mandato."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Casa Civil)",
+          "titulo": "Decreto nº 13.120, de 17 de setembro de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13120.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Dispõe sobre a correção do valor dos benefícios financeiros do Programa Bolsa Família pela variação acumulada do Índice Nacional de Preços ao Consumidor – INPC entre março de 2023 e agosto de 2026.",
+          "prova": "O ato de 2026 corrige a inflação desde março de 2023: os valores estavam parados desde então."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Congresso em Foco",
+          "titulo": "Lula anuncia primeiro reajuste no Bolsa Família desde março de 2023 (17/09/2026)",
+          "url": "https://www.congressoemfoco.com.br/noticia/122353/lula-anuncia-primeiro-reajuste-no-bolsa-familia-desde-marco-de-2023",
+          "consultada_em": "2026-10-16",
+          "trecho": "O último reajuste estrutural do Bolsa Família havia ocorrido no relançamento do programa, em março de 2023. Desde então, os valores-base não tinham sido corrigidos até o anúncio de Lula nesta quinta-feira.",
+          "prova": "Leitura independente da imprensa: nenhuma correção entre 2023 e o anúncio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que não sabia de falta de reajuste no Bolsa Família (16/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-nao-sabia-de-falta-de-reajuste-no-bolsa-familia",
+          "consultada_em": "2026-10-16",
+          "trecho": "Anunciado em 17 de setembro, o reajuste elevou o valor mínimo do benefício de R$ 600 para R$ 69 1. O novo valor começou a ser pago em outubro. [...] A gente estava há quatro anos sem dar reajuste do Bolsa Família, e eu fiquei puto com meus ministros da área econômica. Como é possível a gente não dar reajuste da inflação?",
+          "prova": "Data do anúncio e o próprio presidente reconhecendo o período sem reajuste."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Senado Federal (Agência Senado)",
+          "titulo": "Congresso empossa Lula e Alckmin na Presidência da República (01/01/2023)",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/01/01/congresso-empossa-lula-e-alckmin-na-presidencia-da-republica",
+          "consultada_em": "2026-10-16",
+          "trecho": "Da Agência Senado | 01/01/2023, 17h41 O Congresso Nacional deu posse neste domingo (1º) a Luiz Inácio Lula da Silva, 39º presidente do Brasil",
+          "prova": "Data de início do mandato, usada na conta do período sem reajuste."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r7: Contra: a Lei 14.601 de 2023 criou adicionais para crianças, então 'não deu reajuste para ninguém' seria falso para famílias com filhos; e, contado do relançamento (março de 2023), o período é de 3 anos e 6 meses, desvio acima de 10%. Não derruba: o caso de 15/out (A116, A118) leu os adicionais como desenho novo, não reajuste, e o piso de R$ 600 vigorou desde janeiro de 2023, então a conta da posse é a que corresponde a 'esqueceu por quatro anos'. Achado: o desvio estava medido sobre o número dito (7%), e este caso e o de 15/out medem sobre o apurado; refeita a conta, 3,5 meses sobre 44,5 dá cerca de 8%, ainda abaixo de 10%. Explicação e derivação corrigidas; veredito mantido. Detalhe em correcoes-r7.md.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A186",
+      "veredito": "VERDADEIRO",
+      "resumo": "O reajuste foi anunciado em 17 de setembro, 17 dias antes do 1º turno, no primeiro domingo de outubro",
+      "explicacao": "O Poder360 e o SBT News datam o anúncio do reajuste do Bolsa Família em 17 de setembro de 2026; a Constituição (art. 77) marca o 1º turno para o primeiro domingo de outubro, que em 2026 foi o dia 4. De 17/9 a 4/10 são 17 dias, como dito. O Poder360 e a Tribuna de Jundiaí usam a mesma conta no título ('a 17 dias do 1º turno', 'a 17 dias das eleições'). A conta fecha com o 1º turno, não com o 2º (25 de outubro). O mesmo dado foi checado no caso 2026-10-15-sabatina-lula-globo-2turno (A117, VERDADEIRO), com a mesma régua.",
+      "numero_dito": "17 dias",
+      "numero_apurado": "17 dias, de 17 de setembro ao 1º turno de 2026",
+      "data_de_referencia": "17 de setembro de 2026 (anúncio) e primeiro domingo de outubro de 2026 (1º turno)",
+      "ressalva": null,
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "17 dias",
+          "de": "17 de setembro e primeiro domingo de outubro de 2026",
+          "como": "contagem no calendário: o primeiro domingo de outubro de 2026 é o dia 4, e de 17/9 a 4/10 são 17 dias"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Constituição Federal, art. 77",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "consultada_em": "2026-10-16",
+          "trecho": "Art. 77. A eleição do Presidente e do Vice-Presidente da República realizar-se-á, simultaneamente, no primeiro domingo de outubro, em primeiro turno,",
+          "prova": "A data do 1º turno: o primeiro domingo de outubro."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Lula aumenta Bolsa Família; piso chega a R$ 691 a 17 dias do 1º turno (17/09/2026)",
+          "url": "https://www.poder360.com.br/poder-governo/lula-aumenta-bolsa-familia-para-r-691-a-17-dias-do-1o-turno/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula aumenta Bolsa Família; piso chega a R$ 691 a 17 dias do 1º turno [...] Publicado em: 17 de setembro de 2026",
+          "prova": "Data do anúncio e a mesma contagem de 17 dias até o 1º turno."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "SBT News",
+          "titulo": "Lula diz que não sabia de falta de reajuste no Bolsa Família (16/10/2026)",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-nao-sabia-de-falta-de-reajuste-no-bolsa-familia",
+          "consultada_em": "2026-10-16",
+          "trecho": "Anunciado em 17 de setembro, o reajuste elevou o valor mínimo do benefício de R$ 600 para R$ 69 1. O novo valor começou a ser pago em outubro. [...] A gente estava há quatro anos sem dar reajuste do Bolsa Família, e eu fiquei puto com meus ministros da área econômica. Como é possível a gente não dar reajuste da inflação?",
+          "prova": "Confirmação independente da data do anúncio."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Tribuna de Jundiaí",
+          "titulo": "Lula aumenta Bolsa Família a 17 dias das eleições (18/09/2026)",
+          "url": "https://tribunadejundiai.com.br/politica/lula-aumenta-bolsa-familia-a-17-dias-das-eleicoes/",
+          "consultada_em": "2026-10-16",
+          "trecho": "Lula aumenta Bolsa Família a 17 dias das eleições: valor sobe para R$ 691 e medida chega ao TSE - Tribuna de Jundiaí Pular para o conteúdo Pular para o menu Menu Cidades da Região Jundiaí Política Eleições 2026 Polícia Esportes Vagas de Empregos Cultura Últimas Notícias Cidades Voltar Todas as notícias Cabreúva Campo Limpo Paulista Itupeva Jarinu Jundiaí Louveira Várzea Paulista Política Voltar Todas as notícias No Plenário Eleições 2026 Coluna Esplanada Economia Voltar Todas as notícias Empreenda Empregos Concursos Gastronomia Voltar Todas as notícias Especial da Pizza Especial do Churrasco Especial do Hambúrguer Cultura Voltar Todas as notícias Séries e Filmes Festa da Uva 2026 Educação Voltar Todas as notícias Saúde Voltar Todas as notícias Bem-estar ESG Especiais Voltar Todas as notícias Bairro a Bairro Dia Mundial da Água Horóscopo Polícia Mais Voltar Horta e Jardim Brasil Entrevistão Esportes Fato ou Boato Inovação & Tecnologia Meio Ambiente Falecimentos Mundo Mundo Pet Opinião Sextou com S de Saudade Turismo Vídeos Fechar Início Política Política Lula aumenta Bolsa Família a 17 dias das eleições: valor sobe para R$ 691 e medida chega ao TSE Reajuste de 15,04% eleva o piso do benefício de R$ 600 para R$ 691;",
+          "prova": "Terceira apuração com a mesma contagem."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r7: Contra: numa sabatina de 2º turno, 'para a eleição' poderia ser lido como o dia 25/10, e seriam 38 dias. Cai: a frase fala do momento do anúncio ('faltando 17 dias para a eleição, ele lembra'), e de 17/9 ao 1º turno, em 4/10, são 17 dias (conferi que 4/10/2026 é domingo); Poder360 e Tribuna de Jundiaí usam a mesma conta. O trecho da Tribuna arrasta o menu do site, mas foi achado e contém o título com a contagem.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A187",
+      "veredito": "VERDADEIRO",
+      "resumo": "O valor médio foi de R$ 189 em 2021 para R$ 607,88 em agosto de 2022, mais que o triplo, no governo Bolsonaro",
+      "explicacao": "A frase diz que no governo Bolsonaro o benefício passou de 190 para, em média, 600 reais, o triplo. A Agência Câmara registra o valor médio do Bolsa Família em R$ 189 em agosto de 2021, antes do Auxílio Brasil. Em agosto de 2022, o Ministério da Cidadania informou valor médio de R$ 607,88 (reproduzido pela Agência Brasil e pelo Poder360, que contam como apoio por repetirem o número do ministério). 607,88 dividido por 189 dá cerca de 3,2 vezes; 'o triplo' contra 3,2 vezes é desvio de cerca de 7% sobre o apurado, e 600 contra 607,88, de cerca de 1%, os dois abaixo da régua de 10% do §2.2: 'triplicou' confere em termos nominais, e o R$ 600 era de fato a média. A Emenda Constitucional 123/2022 (N1) mostra a origem: acréscimo extraordinário de R$ 200 por cinco meses, de 1º de agosto a 31 de dezembro de 2022, sobre o piso de R$ 400; o FGV/IBRE descreve a mesma trajetória (média de R$ 200 para R$ 400 e depois R$ 600). A ressalva diz o que a frase não diz: o R$ 600 era temporário e vigorou nos últimos cinco meses do mandato, e a comparação é nominal, sem descontar a inflação. Por que não IMPRECISO: o número e o período (governo Bolsonaro) estão certos; o caráter temporário não inverte o dado.",
+      "numero_dito": "de 190 para 600 reais em média, o triplo",
+      "numero_apurado": "de R$ 189 (agosto de 2021) para R$ 607,88 (agosto de 2022), cerca de 3,2 vezes",
+      "data_de_referencia": "agosto de 2021 e agosto de 2022",
+      "ressalva": "Os R$ 200 que levaram a média a R$ 600 eram temporários, de agosto a dezembro de 2022, e a conta é nominal",
+      "confianca": "media",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "derivacoes": [
+        {
+          "valor": "3,2 vezes",
+          "de": "607,88 dividido por 189",
+          "como": "razão entre o valor médio de agosto de 2022 e o de agosto de 2021"
+        },
+        {
+          "valor": "cerca de 7%",
+          "de": "607,88 dividido por 189, contra o triplo dito",
+          "como": "desvio do número dito (3 vezes) sobre a razão apurada (cerca de 3,2 vezes), medido sobre o apurado: (3,22 menos 3) dividido por 3,22"
+        }
+      ],
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara)",
+          "titulo": "Câmara analisa Medida Provisória do novo Bolsa Família, batizado de Auxílio Brasil (10/08/2021)",
+          "url": "https://www.camara.leg.br/noticias/791886-camara-analisa-medida-provisoria-do-novo-bolsa-familia-batizado-de-auxilio-brasil/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Da Agência Câmara - 10/08/2021 [...] O presidente Jair Bolsonaro prometeu um aumento de, no mínimo, 50% no valor médio do Bolsa Família, que atualmente é de R$ 189.",
+          "prova": "O valor médio do Bolsa Família antes do aumento: R$ 189."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Agência Brasil",
+          "titulo": "Auxílio Brasil chega a 20,2 milhões de beneficiários este mês (04/08/2022)",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/auxilio-brasil-chega-202-milhoes-de-beneficiarios-este-mes",
+          "consultada_em": "2026-10-17",
+          "trecho": "Até setembro, o valor pago era de R$ 400, mas um complemento de R$ 200, aprovado pelo Congresso em julho , reajustou o benefício - em caráter emergencial - até 31 de dezembro deste ano. [...] “O investimento total do Ministério da Cidadania para o pagamento do Auxílio Brasil, em agosto de 2022, é superior a R$ 12,1 bilhões. O valor médio é de R$ 607,88”, informou a pasta.",
+          "prova": "Reproduz o Ministério da Cidadania: valor médio de R$ 607,88 em agosto de 2022, com o complemento temporário de R$ 200."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Poder360",
+          "titulo": "Auxílio de R$ 600 é distribuído a 2 milhões de famílias nesta 2ª (ago/2022)",
+          "url": "https://www.poder360.com.br/brasil/auxilio-de-r-600-e-distribuido-a-2-milhoes-de-familias-nesta-2a/",
+          "consultada_em": "2026-10-17",
+          "trecho": "O valor médio será de R$ 607,88. A parcela com R$ 200 extra será paga até dezembro.",
+          "prova": "Segunda reprodução do valor médio informado pelo ministério e do prazo do extra."
+        },
+        {
+          "nivel": "N1",
+          "instituicao": "Presidência da República (Planalto)",
+          "titulo": "Emenda Constitucional nº 123, de 14 de julho de 2022, art. 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm",
+          "consultada_em": "2026-10-17",
+          "trecho": "assegurará a extensão do Programa Auxílio Brasil, de que trata a Lei nº 14.284, de 29 de dezembro de 2021, às famílias elegíveis na data de promulgação desta Emenda Constitucional, e concederá às famílias beneficiárias desse programa acréscimo mensal extraordinário, durante 5 (cinco) meses, de R$ 200,00 (duzentos reais), no período de 1º de agosto a 31 de dezembro de 2022,",
+          "prova": "O R$ 200 extra foi extraordinário, por cinco meses, até 31 de dezembro de 2022."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "FGV/IBRE (Blog do IBRE)",
+          "titulo": "Expansão do Bolsa Família desencoraja participação no mercado de trabalho de vulneráveis",
+          "url": "https://blogdoibre.fgv.br/posts/expansao-do-bolsa-familia-desencoraja-participacao-no-mercado-de-trabalho-de-vulneraveis",
+          "consultada_em": "2026-10-17",
+          "trecho": "Com um aumento significativo das transferências às famílias, passando de um valor médio de R$ 200 para um benefício básico de R$ 400 e depois para R$ 600,",
+          "prova": "Leitura de instituição de referência sobre a trajetória do benefício: média de R$ 200, piso de R$ 400 e depois R$ 600."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "alterado",
+        "nota": "Revisão r7: Contra: o R$ 600 foi temporário, de agosto a dezembro de 2022, e a comparação é nominal; 'foi o Bolsonaro que triplicou' daria impressão de aumento permanente. Não derruba o VERDADEIRO: a frase diz que passou a R$ 600 em média no governo Bolsonaro, e isso ocorreu (R$ 607,88 em agosto de 2022, número do ministério reproduzido por duas redações, mais a EC 123 como N1 do acréscimo); a ressalva leva o caráter temporário e a conta nominal. Achado: a régua não estava escrita; 'o triplo' contra 3,2 vezes dá desvio de cerca de 7% sobre o apurado, e 600 contra 607,88, cerca de 1%. Entraram a conta na explicação e uma derivação; veredito mantido.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "A188",
+      "veredito": "VERDADEIRO",
+      "resumo": "O valor médio do Bolsa Família era de R$ 189 a R$ 190,57 em 2021, antes do Auxílio Brasil",
+      "explicacao": "A frase diz que o valor era 190 antes do aumento do governo Bolsonaro. A Agência Câmara registra, em agosto de 2021, que o valor médio do Bolsa Família era de R$ 189; o FGV/IBRE, em estudo sobre o programa, diz que o benefício médio era 'em torno de R$ 190 por família' até 2021; o Jornal de Brasília, com dado do Ministério da Cidadania, dá R$ 190,57 em janeiro de 2021. São três registros independentes que batem com o número dito, com desvio abaixo de 1%. A página do próprio ministério (gov.br) recusou a captura automática, por isso o dado oficial entra pela Câmara e pela reprodução da imprensa.",
+      "numero_dito": "190",
+      "numero_apurado": "R$ 189 (agosto de 2021) a R$ 190,57 (janeiro de 2021)",
+      "data_de_referencia": "janeiro e agosto de 2021, antes da criação do Auxílio Brasil",
+      "ressalva": null,
+      "confianca": "alta",
+      "divergencia_entre_fontes": null,
+      "revisao_humana": null,
+      "fontes": [
+        {
+          "nivel": "N1",
+          "instituicao": "Câmara dos Deputados (Agência Câmara)",
+          "titulo": "Câmara analisa Medida Provisória do novo Bolsa Família, batizado de Auxílio Brasil (10/08/2021)",
+          "url": "https://www.camara.leg.br/noticias/791886-camara-analisa-medida-provisoria-do-novo-bolsa-familia-batizado-de-auxilio-brasil/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Da Agência Câmara - 10/08/2021 [...] O presidente Jair Bolsonaro prometeu um aumento de, no mínimo, 50% no valor médio do Bolsa Família, que atualmente é de R$ 189.",
+          "prova": "Valor médio do programa em agosto de 2021: R$ 189."
+        },
+        {
+          "nivel": "N2",
+          "instituicao": "FGV/IBRE (Blog do IBRE)",
+          "titulo": "Expansão do Bolsa Família desencoraja participação no mercado de trabalho de vulneráveis",
+          "url": "https://blogdoibre.fgv.br/posts/expansao-do-bolsa-familia-desencoraja-participacao-no-mercado-de-trabalho-de-vulneraveis",
+          "consultada_em": "2026-10-17",
+          "trecho": "Esses componentes resultavam em benefícios variando de R$ 89 a aproximadamente R$ 1000, com o benefício médio sendo em torno de R$ 190 por família.",
+          "prova": "Instituição de referência: benefício médio em torno de R$ 190 por família até 2021."
+        },
+        {
+          "nivel": "N4",
+          "instituicao": "Jornal de Brasília",
+          "titulo": "Bolsa Família começa calendário 2021 sem auxílio emergencial (18/01/2021)",
+          "url": "https://jornaldebrasilia.com.br/noticias/economia/bolsa-familia-comeca-calendario-2021-sem-auxilio-emergencial/",
+          "consultada_em": "2026-10-17",
+          "trecho": "Redação Jornal de Brasília 18/01/2021 [...] Segundo o Ministério da Cidadania, o número representa um repasse de R$ 2,7 bilhões. O valor médio será de R$ 190, 57, em janeiro.",
+          "prova": "Reproduz o Ministério da Cidadania: R$ 190,57 em janeiro de 2021."
+        }
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou)",
+        "data": "2026-10-17",
+        "decisao": "mantido",
+        "nota": "Revisão r7: Contra: a Agência Câmara está marcada como N1, mas é agência de notícias que repete o valor do programa. Não muda nada: há o FGV/IBRE (N2), com 'em torno de R$ 190', e a reprodução do ministério pelo Jornal de Brasília (R$ 190,57); desvio abaixo de 1% nas duas pontas. Trechos achados nas capturas p19-r4 e p19-r7.",
+        "verificacoes": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      }
+    }
+  ]
+}

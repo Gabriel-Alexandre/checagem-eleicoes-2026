@@ -1,0 +1,1492 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recorte": "sabatina-completa",
+  "gerado_em": "2026-10-17",
+  "formato": "sabatina",
+  "cobertura": {
+    "inicio_s": 0.9,
+    "fim_s": 2567.52
+  },
+  "geral": {
+    "alegacoes": 207,
+    "checaveis": 207,
+    "nao_checaveis": 0,
+    "por_veredito": {
+      "VERDADEIRO": 133,
+      "IMPRECISO": 26,
+      "INSUSTENTAVEL": 37,
+      "FALSO": 11,
+      "NAO_CHECAVEL": 0
+    },
+    "percentual_dos_checaveis": {
+      "VERDADEIRO": 64.3,
+      "IMPRECISO": 12.6,
+      "INSUSTENTAVEL": 17.9,
+      "FALSO": 5.3
+    },
+    "por_papel": {
+      "entrevistado": {
+        "alegacoes": 124,
+        "checaveis": 124,
+        "nao_checaveis": 0,
+        "por_veredito": {
+          "VERDADEIRO": 65,
+          "IMPRECISO": 22,
+          "INSUSTENTAVEL": 26,
+          "FALSO": 11,
+          "NAO_CHECAVEL": 0
+        },
+        "percentual_dos_checaveis": {
+          "VERDADEIRO": 52.4,
+          "IMPRECISO": 17.7,
+          "INSUSTENTAVEL": 21.0,
+          "FALSO": 8.9
+        }
+      },
+      "entrevistador": {
+        "alegacoes": 83,
+        "checaveis": 83,
+        "nao_checaveis": 0,
+        "por_veredito": {
+          "VERDADEIRO": 68,
+          "IMPRECISO": 4,
+          "INSUSTENTAVEL": 11,
+          "FALSO": 0,
+          "NAO_CHECAVEL": 0
+        },
+        "percentual_dos_checaveis": {
+          "VERDADEIRO": 81.9,
+          "IMPRECISO": 4.8,
+          "INSUSTENTAVEL": 13.3,
+          "FALSO": 0.0
+        }
+      }
+    },
+    "janela_s": 2566.6
+  },
+  "por_falante": [
+    {
+      "alegacoes": 83,
+      "checaveis": 83,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 68,
+        "IMPRECISO": 4,
+        "INSUSTENTAVEL": 11,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 81.9,
+        "IMPRECISO": 4.8,
+        "INSUSTENTAVEL": 13.3,
+        "FALSO": 0.0
+      },
+      "nome": "Renata Lo Prete",
+      "chave": "renata-lo-prete",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "fala_s": 848.6,
+      "fala_hms": "00:14:09",
+      "alegacoes_por_minuto_de_fala": 5.87,
+      "assuntos": {
+        "justica": 33,
+        "politica": 13,
+        "trabalho": 11,
+        "seguranca-publica": 9,
+        "contas-publicas": 6,
+        "saude": 4,
+        "economia": 3,
+        "relacoes-exteriores": 2,
+        "inss": 1,
+        "energia": 1
+      },
+      "tipos": {
+        "evento_passado": 35,
+        "atribuicao_a_terceiro": 23,
+        "norma_vigente": 11,
+        "data_ou_prazo": 4,
+        "numero": 3,
+        "valor_monetario": 3,
+        "comparacao": 2,
+        "ranking": 1,
+        "serie_historica": 1
+      }
+    },
+    {
+      "alegacoes": 124,
+      "checaveis": 124,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 65,
+        "IMPRECISO": 22,
+        "INSUSTENTAVEL": 26,
+        "FALSO": 11,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 52.4,
+        "IMPRECISO": 17.7,
+        "INSUSTENTAVEL": 21.0,
+        "FALSO": 8.9
+      },
+      "nome": "Flávio Bolsonaro",
+      "chave": "flavio-bolsonaro",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PL, senador e candidato no 2º turno",
+      "fala_s": 1500.5,
+      "fala_hms": "00:25:00",
+      "alegacoes_por_minuto_de_fala": 4.96,
+      "assuntos": {
+        "justica": 39,
+        "politica": 29,
+        "seguranca-publica": 14,
+        "contas-publicas": 9,
+        "administracao-publica": 8,
+        "relacoes-exteriores": 6,
+        "economia": 5,
+        "programas-sociais": 4,
+        "trabalho": 3,
+        "saude": 3,
+        "energia": 2,
+        "meio-ambiente": 2
+      },
+      "tipos": {
+        "evento_passado": 57,
+        "numero": 13,
+        "norma_vigente": 13,
+        "serie_historica": 13,
+        "atribuicao_a_terceiro": 10,
+        "valor_monetario": 10,
+        "data_ou_prazo": 3,
+        "ranking": 3,
+        "comparacao": 2
+      }
+    }
+  ],
+  "por_assunto": [
+    {
+      "alegacoes": 72,
+      "checaveis": 72,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 42,
+        "IMPRECISO": 8,
+        "INSUSTENTAVEL": 18,
+        "FALSO": 4,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 58.3,
+        "IMPRECISO": 11.1,
+        "INSUSTENTAVEL": 25.0,
+        "FALSO": 5.6
+      },
+      "assunto": "justica",
+      "por_falante": {
+        "Flávio Bolsonaro": 39,
+        "Renata Lo Prete": 33
+      }
+    },
+    {
+      "alegacoes": 42,
+      "checaveis": 42,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 32,
+        "IMPRECISO": 4,
+        "INSUSTENTAVEL": 5,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 76.2,
+        "IMPRECISO": 9.5,
+        "INSUSTENTAVEL": 11.9,
+        "FALSO": 2.4
+      },
+      "assunto": "politica",
+      "por_falante": {
+        "Flávio Bolsonaro": 29,
+        "Renata Lo Prete": 13
+      }
+    },
+    {
+      "alegacoes": 23,
+      "checaveis": 23,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 11,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 4,
+        "FALSO": 5,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 47.8,
+        "IMPRECISO": 13.0,
+        "INSUSTENTAVEL": 17.4,
+        "FALSO": 21.7
+      },
+      "assunto": "seguranca-publica",
+      "por_falante": {
+        "Flávio Bolsonaro": 14,
+        "Renata Lo Prete": 9
+      }
+    },
+    {
+      "alegacoes": 15,
+      "checaveis": 15,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 7,
+        "IMPRECISO": 5,
+        "INSUSTENTAVEL": 3,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 46.7,
+        "IMPRECISO": 33.3,
+        "INSUSTENTAVEL": 20.0,
+        "FALSO": 0.0
+      },
+      "assunto": "contas-publicas",
+      "por_falante": {
+        "Flávio Bolsonaro": 9,
+        "Renata Lo Prete": 6
+      }
+    },
+    {
+      "alegacoes": 14,
+      "checaveis": 14,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 14,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 100.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "trabalho",
+      "por_falante": {
+        "Renata Lo Prete": 11,
+        "Flávio Bolsonaro": 3
+      }
+    },
+    {
+      "alegacoes": 8,
+      "checaveis": 8,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 6,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 75.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 25.0,
+        "FALSO": 0.0
+      },
+      "assunto": "economia",
+      "por_falante": {
+        "Flávio Bolsonaro": 5,
+        "Renata Lo Prete": 3
+      }
+    },
+    {
+      "alegacoes": 8,
+      "checaveis": 8,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 3,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 37.5,
+        "IMPRECISO": 37.5,
+        "INSUSTENTAVEL": 25.0,
+        "FALSO": 0.0
+      },
+      "assunto": "administracao-publica",
+      "por_falante": {
+        "Flávio Bolsonaro": 8
+      }
+    },
+    {
+      "alegacoes": 8,
+      "checaveis": 8,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 6,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 75.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 25.0,
+        "FALSO": 0.0
+      },
+      "assunto": "relacoes-exteriores",
+      "por_falante": {
+        "Flávio Bolsonaro": 6,
+        "Renata Lo Prete": 2
+      }
+    },
+    {
+      "alegacoes": 7,
+      "checaveis": 7,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 6,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 85.7,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 14.3,
+        "FALSO": 0.0
+      },
+      "assunto": "saude",
+      "por_falante": {
+        "Renata Lo Prete": 4,
+        "Flávio Bolsonaro": 3
+      }
+    },
+    {
+      "alegacoes": 4,
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 4,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 100.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "programas-sociais",
+      "por_falante": {
+        "Flávio Bolsonaro": 4
+      }
+    },
+    {
+      "alegacoes": 3,
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 0,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 0.0,
+        "IMPRECISO": 66.7,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 33.3
+      },
+      "assunto": "energia",
+      "por_falante": {
+        "Flávio Bolsonaro": 2,
+        "Renata Lo Prete": 1
+      }
+    },
+    {
+      "alegacoes": 2,
+      "checaveis": 2,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 1,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 50.0,
+        "IMPRECISO": 50.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "meio-ambiente",
+      "por_falante": {
+        "Flávio Bolsonaro": 2
+      }
+    },
+    {
+      "alegacoes": 1,
+      "checaveis": 1,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 1,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 100.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "assunto": "inss",
+      "por_falante": {
+        "Renata Lo Prete": 1
+      }
+    }
+  ],
+  "por_bloco": [
+    {
+      "alegacoes": 27,
+      "checaveis": 27,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 15,
+        "IMPRECISO": 9,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 55.6,
+        "IMPRECISO": 33.3,
+        "INSUSTENTAVEL": 7.4,
+        "FALSO": 3.7
+      },
+      "id": "b01",
+      "titulo": "Ajuste fiscal, juros e salário mínimo",
+      "inicio_s": 0.0,
+      "fim_s": 344.68,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 11,
+          "checaveis": 11,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 8,
+            "IMPRECISO": 2,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 72.7,
+            "IMPRECISO": 18.2,
+            "INSUSTENTAVEL": 9.1,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 16,
+          "checaveis": 16,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 7,
+            "IMPRECISO": 7,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 43.8,
+            "IMPRECISO": 43.8,
+            "INSUSTENTAVEL": 6.2,
+            "FALSO": 6.2
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 16,
+      "checaveis": 16,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 14,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 87.5,
+        "IMPRECISO": 6.2,
+        "INSUSTENTAVEL": 6.2,
+        "FALSO": 0.0
+      },
+      "id": "b02",
+      "titulo": "Fim da escala 6x1",
+      "inicio_s": 344.68,
+      "fim_s": 558.06,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 11,
+          "checaveis": 11,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 11,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 3,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 60.0,
+            "IMPRECISO": 20.0,
+            "INSUSTENTAVEL": 20.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 14,
+      "checaveis": 14,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 11,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 78.6,
+        "IMPRECISO": 14.3,
+        "INSUSTENTAVEL": 7.1,
+        "FALSO": 0.0
+      },
+      "id": "b03",
+      "titulo": "Reeleição e tamanho do mandato",
+      "inicio_s": 558.06,
+      "fim_s": 739.9,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 3,
+          "checaveis": 3,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 3,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 11,
+          "checaveis": 11,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 8,
+            "IMPRECISO": 2,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 72.7,
+            "IMPRECISO": 18.2,
+            "INSUSTENTAVEL": 9.1,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 13,
+      "checaveis": 13,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 8,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 4,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 61.5,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 30.8,
+        "FALSO": 7.7
+      },
+      "id": "b04",
+      "titulo": "Reforma do Judiciário, Moraes e Nunes Marques",
+      "inicio_s": 739.9,
+      "fim_s": 943.82,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 9,
+          "checaveis": 9,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 6,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 3,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 66.7,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 33.3,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 4,
+          "checaveis": 4,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 2,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 50.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 25.0,
+            "FALSO": 25.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 33,
+      "checaveis": 33,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 14,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 14,
+        "FALSO": 2,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 42.4,
+        "IMPRECISO": 9.1,
+        "INSUSTENTAVEL": 42.4,
+        "FALSO": 6.1
+      },
+      "id": "b05",
+      "titulo": "Caso Master: o dinheiro de Vorcaro para o filme",
+      "inicio_s": 943.82,
+      "fim_s": 1286.62,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 12,
+          "checaveis": 12,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 9,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 2,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 75.0,
+            "IMPRECISO": 8.3,
+            "INSUSTENTAVEL": 16.7,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 21,
+          "checaveis": 21,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 5,
+            "IMPRECISO": 2,
+            "INSUSTENTAVEL": 12,
+            "FALSO": 2,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 23.8,
+            "IMPRECISO": 9.5,
+            "INSUSTENTAVEL": 57.1,
+            "FALSO": 9.5
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 15,
+      "checaveis": 15,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 11,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 3,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 73.3,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 20.0,
+        "FALSO": 6.7
+      },
+      "id": "b06",
+      "titulo": "Polícia Federal e a reunião ministerial de 2020",
+      "inicio_s": 1286.62,
+      "fim_s": 1395.34,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 5,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 10,
+          "checaveis": 10,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 6,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 3,
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 60.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 30.0,
+            "FALSO": 10.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 11,
+      "checaveis": 11,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 9,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 81.8,
+        "IMPRECISO": 9.1,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 9.1
+      },
+      "id": "b07",
+      "titulo": "Jair Bolsonaro: condenação e cargo no governo",
+      "inicio_s": 1395.34,
+      "fim_s": 1528.44,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 2,
+          "checaveis": 2,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 2,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 9,
+          "checaveis": 9,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 7,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 77.8,
+            "IMPRECISO": 11.1,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 11.1
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 9,
+      "checaveis": 9,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 7,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 77.8,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 22.2,
+        "FALSO": 0.0
+      },
+      "id": "b08",
+      "titulo": "Eduardo Bolsonaro e o Itamaraty",
+      "inicio_s": 1528.44,
+      "fim_s": 1628.14,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 2,
+          "checaveis": 2,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 2,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 7,
+          "checaveis": 7,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 5,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 2,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 71.4,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 28.6,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 6,
+      "checaveis": 6,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 4,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 66.7,
+        "IMPRECISO": 16.7,
+        "INSUSTENTAVEL": 16.7,
+        "FALSO": 0.0
+      },
+      "id": "b09",
+      "titulo": "Forças Armadas e narcotráfico",
+      "inicio_s": 1628.14,
+      "fim_s": 1754.76,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 2,
+          "checaveis": 2,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 2,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 4,
+          "checaveis": 4,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 2,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 50.0,
+            "IMPRECISO": 25.0,
+            "INSUSTENTAVEL": 25.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 9,
+      "checaveis": 9,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 5,
+        "IMPRECISO": 2,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 55.6,
+        "IMPRECISO": 22.2,
+        "INSUSTENTAVEL": 22.2,
+        "FALSO": 0.0
+      },
+      "id": "b10",
+      "titulo": "8 de janeiro",
+      "inicio_s": 1754.76,
+      "fim_s": 1880.08,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 4,
+          "checaveis": 4,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 4,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 1,
+            "IMPRECISO": 2,
+            "INSUSTENTAVEL": 2,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 20.0,
+            "IMPRECISO": 40.0,
+            "INSUSTENTAVEL": 40.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 9,
+      "checaveis": 9,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 4,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 2,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 44.4,
+        "IMPRECISO": 33.3,
+        "INSUSTENTAVEL": 22.2,
+        "FALSO": 0.0
+      },
+      "id": "b11",
+      "titulo": "Respeito ao resultado das urnas",
+      "inicio_s": 1880.08,
+      "fim_s": 1942.28,
+      "por_falante": {
+        "Flávio Bolsonaro": {
+          "alegacoes": 9,
+          "checaveis": 9,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 4,
+            "IMPRECISO": 3,
+            "INSUSTENTAVEL": 2,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 44.4,
+            "IMPRECISO": 33.3,
+            "INSUSTENTAVEL": 22.2,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 26,
+      "checaveis": 26,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 15,
+        "IMPRECISO": 3,
+        "INSUSTENTAVEL": 3,
+        "FALSO": 5,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 57.7,
+        "IMPRECISO": 11.5,
+        "INSUSTENTAVEL": 11.5,
+        "FALSO": 19.2
+      },
+      "id": "b12",
+      "titulo": "Armas e segurança pública",
+      "inicio_s": 1944.16,
+      "fim_s": 2292.48,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 9,
+          "checaveis": 9,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 6,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 3,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 66.7,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 33.3,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 17,
+          "checaveis": 17,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 9,
+            "IMPRECISO": 3,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 5,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 52.9,
+            "IMPRECISO": 17.6,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 29.4
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 8,
+      "checaveis": 8,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 6,
+        "IMPRECISO": 1,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 75.0,
+        "IMPRECISO": 12.5,
+        "INSUSTENTAVEL": 12.5,
+        "FALSO": 0.0
+      },
+      "id": "b13",
+      "titulo": "Rio de Janeiro: aliados presos e investigados",
+      "inicio_s": 2292.48,
+      "fim_s": 2360.28,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 8,
+          "checaveis": 8,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 6,
+            "IMPRECISO": 1,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 75.0,
+            "IMPRECISO": 12.5,
+            "INSUSTENTAVEL": 12.5,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 8,
+      "checaveis": 8,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 7,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 1,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 87.5,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 12.5,
+        "FALSO": 0.0
+      },
+      "id": "b14",
+      "titulo": "Saúde e o ministro anunciado",
+      "inicio_s": 2360.28,
+      "fim_s": 2475.78,
+      "por_falante": {
+        "Renata Lo Prete": {
+          "alegacoes": 5,
+          "checaveis": 5,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 4,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 1,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 80.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 20.0,
+            "FALSO": 0.0
+          }
+        },
+        "Flávio Bolsonaro": {
+          "alegacoes": 3,
+          "checaveis": 3,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 3,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alegacoes": 3,
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "por_veredito": {
+        "VERDADEIRO": 3,
+        "IMPRECISO": 0,
+        "INSUSTENTAVEL": 0,
+        "FALSO": 0,
+        "NAO_CHECAVEL": 0
+      },
+      "percentual_dos_checaveis": {
+        "VERDADEIRO": 100.0,
+        "IMPRECISO": 0.0,
+        "INSUSTENTAVEL": 0.0,
+        "FALSO": 0.0
+      },
+      "id": "b15",
+      "titulo": "Considerações finais",
+      "inicio_s": 2475.78,
+      "fim_s": 2567.52,
+      "por_falante": {
+        "Flávio Bolsonaro": {
+          "alegacoes": 3,
+          "checaveis": 3,
+          "nao_checaveis": 0,
+          "por_veredito": {
+            "VERDADEIRO": 3,
+            "IMPRECISO": 0,
+            "INSUSTENTAVEL": 0,
+            "FALSO": 0,
+            "NAO_CHECAVEL": 0
+          },
+          "percentual_dos_checaveis": {
+            "VERDADEIRO": 100.0,
+            "IMPRECISO": 0.0,
+            "INSUSTENTAVEL": 0.0,
+            "FALSO": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "revisao_ia": {
+    "mantido": 149,
+    "alterado": 58
+  },
+  "confianca": {
+    "alta": 56,
+    "media": 149,
+    "baixa": 2
+  },
+  "fontes": {
+    "citacoes": 756,
+    "urls_distintas": 517,
+    "instituicoes": 274
+  },
+  "avisos": [],
+  "ressalvas": [
+    "A contagem é dado **deste** evento, com o denominador à vista. Ela não é nota nem placar, e não serve para dizer quem mente mais ou quem se saiu melhor.",
+    "Quem fala mais tempo, ou é perguntado sobre assunto com fonte pública melhor (economia tem série oficial; promessa e opinião não têm), tem mais alegações checáveis. Um percentual menor de `VERDADEIRO` pode vir só disso: leia o tempo de fala e o assunto antes de comparar.",
+    "`INSUSTENTAVEL` (SEM COMPROVAÇÃO) quer dizer que **a busca não achou fonte que sustente**, e não que alguém provou o contrário. É diferente de `FALSO`.",
+    "Alegação **não checável** (opinião, promessa, previsão) não entra nos percentuais, mas entra na contagem de alegações, porque o autor decide o que é fato pela metodologia, não pelo resultado."
+  ],
+  "para_roteiro": {
+    "N_ALEG": 207,
+    "N_CHEC": 207,
+    "N_NC": 0,
+    "N_V": 133,
+    "N_I": 26,
+    "N_S": 37,
+    "N_F": 11,
+    "DURACAO": "00:42:47",
+    "PALAVRAS": 8322,
+    "DURACAO_PECA": "00:42:47",
+    "PALAVRAS_PECA": 8322,
+    "N_PV": 64.3,
+    "N_PI": 12.6,
+    "N_PS": 17.9,
+    "N_PF": 5.3,
+    "P_ENTREVISTADO_ALEG": 124,
+    "P_ENTREVISTADO_CHEC": 124,
+    "P_ENTREVISTADO_V": 65,
+    "P_ENTREVISTADO_I": 22,
+    "P_ENTREVISTADO_S": 26,
+    "P_ENTREVISTADO_F": 11,
+    "P_ENTREVISTADO_NC": 0,
+    "P_ENTREVISTADOR_ALEG": 83,
+    "P_ENTREVISTADOR_CHEC": 83,
+    "P_ENTREVISTADOR_V": 68,
+    "P_ENTREVISTADOR_I": 4,
+    "P_ENTREVISTADOR_S": 11,
+    "P_ENTREVISTADOR_F": 0,
+    "P_ENTREVISTADOR_NC": 0,
+    "C1_NOME": "Flávio Bolsonaro",
+    "C1_PARTIDO": "PL, senador e candidato no 2º turno",
+    "C1_FALA": "00:25:00",
+    "C1_ALEG": 124,
+    "C1_CHEC": 124,
+    "C1_V": 65,
+    "C1_I": 22,
+    "C1_S": 26,
+    "C1_F": 11,
+    "C1_NC": 0,
+    "C1_PV": 52.4,
+    "C1_PI": 17.7,
+    "C1_PS": 21.0,
+    "C1_PF": 8.9,
+    "J1_NOME": "Renata Lo Prete",
+    "J1_FALA": "00:14:09",
+    "J1_ALEG": 83,
+    "J1_CHEC": 83,
+    "J1_V": 68,
+    "J1_I": 4,
+    "J1_S": 11,
+    "J1_F": 0,
+    "J1_NC": 0,
+    "B1_TITULO": "Ajuste fiscal, juros e salário mínimo",
+    "B1_ALEG": 27,
+    "B1_V": 15,
+    "B1_I": 9,
+    "B1_S": 2,
+    "B1_F": 1,
+    "B1_NC": 0,
+    "B2_TITULO": "Fim da escala 6x1",
+    "B2_ALEG": 16,
+    "B2_V": 14,
+    "B2_I": 1,
+    "B2_S": 1,
+    "B2_F": 0,
+    "B2_NC": 0,
+    "B3_TITULO": "Reeleição e tamanho do mandato",
+    "B3_ALEG": 14,
+    "B3_V": 11,
+    "B3_I": 2,
+    "B3_S": 1,
+    "B3_F": 0,
+    "B3_NC": 0,
+    "B4_TITULO": "Reforma do Judiciário, Moraes e Nunes Marques",
+    "B4_ALEG": 13,
+    "B4_V": 8,
+    "B4_I": 0,
+    "B4_S": 4,
+    "B4_F": 1,
+    "B4_NC": 0,
+    "B5_TITULO": "Caso Master: o dinheiro de Vorcaro para o filme",
+    "B5_ALEG": 33,
+    "B5_V": 14,
+    "B5_I": 3,
+    "B5_S": 14,
+    "B5_F": 2,
+    "B5_NC": 0,
+    "B6_TITULO": "Polícia Federal e a reunião ministerial de 2020",
+    "B6_ALEG": 15,
+    "B6_V": 11,
+    "B6_I": 0,
+    "B6_S": 3,
+    "B6_F": 1,
+    "B6_NC": 0,
+    "B7_TITULO": "Jair Bolsonaro: condenação e cargo no governo",
+    "B7_ALEG": 11,
+    "B7_V": 9,
+    "B7_I": 1,
+    "B7_S": 0,
+    "B7_F": 1,
+    "B7_NC": 0,
+    "B8_TITULO": "Eduardo Bolsonaro e o Itamaraty",
+    "B8_ALEG": 9,
+    "B8_V": 7,
+    "B8_I": 0,
+    "B8_S": 2,
+    "B8_F": 0,
+    "B8_NC": 0,
+    "B9_TITULO": "Forças Armadas e narcotráfico",
+    "B9_ALEG": 6,
+    "B9_V": 4,
+    "B9_I": 1,
+    "B9_S": 1,
+    "B9_F": 0,
+    "B9_NC": 0,
+    "B10_TITULO": "8 de janeiro",
+    "B10_ALEG": 9,
+    "B10_V": 5,
+    "B10_I": 2,
+    "B10_S": 2,
+    "B10_F": 0,
+    "B10_NC": 0,
+    "B11_TITULO": "Respeito ao resultado das urnas",
+    "B11_ALEG": 9,
+    "B11_V": 4,
+    "B11_I": 3,
+    "B11_S": 2,
+    "B11_F": 0,
+    "B11_NC": 0,
+    "B12_TITULO": "Armas e segurança pública",
+    "B12_ALEG": 26,
+    "B12_V": 15,
+    "B12_I": 3,
+    "B12_S": 3,
+    "B12_F": 5,
+    "B12_NC": 0,
+    "B13_TITULO": "Rio de Janeiro: aliados presos e investigados",
+    "B13_ALEG": 8,
+    "B13_V": 6,
+    "B13_I": 1,
+    "B13_S": 1,
+    "B13_F": 0,
+    "B13_NC": 0,
+    "B14_TITULO": "Saúde e o ministro anunciado",
+    "B14_ALEG": 8,
+    "B14_V": 7,
+    "B14_I": 0,
+    "B14_S": 1,
+    "B14_F": 0,
+    "B14_NC": 0,
+    "B15_TITULO": "Considerações finais",
+    "B15_ALEG": 3,
+    "B15_V": 3,
+    "B15_I": 0,
+    "B15_S": 0,
+    "B15_F": 0,
+    "B15_NC": 0
+  }
+}

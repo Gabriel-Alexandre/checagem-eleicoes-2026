@@ -1,0 +1,191 @@
+PEDIDO DE CHECAGEM 01 de 21 · alegações A001 a A010
+
+Siga skills/checar-alegacao.md do começo ao fim, uma alegação por vez.
+⛔ Nenhum fato da memória do modelo: URL consultada, trecho copiado, no mínimo duas fontes independentes.
+⛔ A mesma régua para todos. Alegação não checável passa direto (veredito NAO_CHECAVEL, sem fonte).
+⛔ Fato em apuração (inquérito aberto, processo sem trânsito, dado com revisão pendente): o veredito é
+   INSUSTENTAVEL ou NAO_CHECAVEL, nunca FALSO (etica-e-risco §5).
+⛔ Nunca leia intenção. O `resumo` fala do enunciado, cabe em duas linhas, sem travessão.
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/checagens/lotes/checagens-lote-01.json
+  {"checagens": [ {"id": "A001", "veredito": ..., "resumo": ..., "explicacao": ..., "fontes": [...],
+                      "confianca": ...}, ... ]}   (esquema: esquemas/checagens.schema.json)
+
+Alegações deste pedido:
+────────────────────────────────────────────────────────────────────────────
+{
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 12.78,
+      "fim_s": 17.36,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "hoje recebemos aqui no estúdio o senador Flávio Bolsonaro, que concorre pelo PL",
+      "afirmacao": "Flávio Bolsonaro, senador, disputa o 2º turno da eleição presidencial de 2026 pelo PL",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Abertura da entrevista, apresentação do candidato",
+      "o_que_conferir": [
+        "registro de candidatura no TSE (DivulgaCandContas): partido e cargo de Flávio Bolsonaro em 2026",
+        "resultado do 1º turno, TSE: se ele passou ao 2º turno"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 45.04,
+      "fim_s": 48.24,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A sua campanha tem falado bastante dos juros altos no Brasil",
+      "afirmacao": "A campanha de Flávio Bolsonaro tem destacado os juros altos no Brasil",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "propaganda eleitoral, plano de governo e falas públicas do candidato e da campanha em 2026 sobre juros"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 49.2,
+      "fim_s": 57.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o governo hoje paga em juros da dívida pública quase o dobro do que gasta em educação e saúde somadas",
+      "afirmacao": "O governo federal gasta hoje com juros da dívida pública quase o dobro da soma das despesas com educação e saúde",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a frase pode estar atribuindo o dado à campanha ('lembrando que'), mas é a jornalista quem o enuncia",
+      "o_que_conferir": [
+        "juros nominais do setor público em 12 meses, Banco Central (Estatísticas Fiscais), no mês mais recente antes da fala",
+        "despesa federal com saúde e com educação no mesmo período, Tesouro (RTN) ou Siafi/Portal da Transparência",
+        "se a comparação é com o governo federal ou com o setor público consolidado, e se usa juros nominais ou pagos"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 58.7,
+      "fim_s": 64.96,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "vieram à tona algumas propostas de ajuste fiscal ventiladas pelo seu time de assessores econômicos",
+      "afirmacao": "Propostas de ajuste fiscal atribuídas aos assessores econômicos de Flávio Bolsonaro vieram a público durante a campanha",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "reportagens de 2026 sobre propostas de ajuste fiscal atribuídas à equipe econômica da campanha, com nome do assessor e data",
+        "se as propostas foram ditas por assessores identificados ou apenas atribuídas a fontes anônimas"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 74.88,
+      "fim_s": 78.78,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor vai manter os reajustes do salário mínimo acima da inflação",
+      "afirmacao": "A regra atual de reajuste do salário mínimo concede aumentos acima da inflação",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a pergunta pressupõe que os reajustes atuais superam a inflação",
+      "o_que_conferir": [
+        "lei vigente da política de valorização do salário mínimo (Lei 14.663/2023 e alterações posteriores)",
+        "reajustes concedidos de 2023 a 2026 comparados ao INPC do período"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 81.7,
+      "fim_s": 87.42,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor vai desvincular o percentual de reajuste do mínimo daquele usado para corrigir o valor das aposentadorias?",
+      "citacao_card": "desvincular o percentual de reajuste do mínimo daquele usado para corrigir o valor das aposentadorias",
+      "afirmacao": "Hoje o percentual de reajuste do salário mínimo é o mesmo usado para corrigir o valor das aposentadorias",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "inss",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a pergunta pressupõe a vinculação atual",
+      "o_que_conferir": [
+        "Constituição (art. 201, §2º) e Lei 8.213/1991: piso dos benefícios igual ao salário mínimo e índice de correção dos benefícios acima do piso",
+        "se a vinculação vale para todas as aposentadorias ou só para as de um salário mínimo"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 88.98,
+      "fim_s": 94.38,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E o senhor pretende mudar a Constituição para eliminar os pisos de gasto com saúde e educação?",
+      "afirmacao": "A Constituição fixa pisos mínimos de gasto com saúde e com educação",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a pergunta pressupõe que os pisos estão na Constituição",
+      "o_que_conferir": [
+        "Constituição Federal, art. 198 (saúde) e art. 212 (educação), na redação vigente em outubro de 2026",
+        "regra de cálculo dos pisos depois do arcabouço fiscal (LC 200/2023)"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 106.34,
+      "fim_s": 117.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o meu concorrente está promovendo um verdadeiro terrorismo em cima de servidores públicos, em cima de estatais, dizendo que eu acabaria com as aposentadorias",
+      "citacao_card": "o meu concorrente [...] dizendo que eu acabaria com as aposentadorias",
+      "afirmacao": "Lula ou sua campanha afirmou que Flávio Bolsonaro acabaria com as aposentadorias",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "propaganda eleitoral de rádio e TV e redes de Lula no 2º turno de 2026: peças que digam que Flávio acabaria com aposentadorias",
+        "falas públicas de Lula sobre o tema, com data"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 106.34,
+      "fim_s": 119.12,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o meu concorrente [...] dizendo [...] que eu acabaria com servidores públicos",
+      "afirmacao": "Lula ou sua campanha afirmou que Flávio Bolsonaro acabaria com os servidores públicos",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "propaganda eleitoral e falas de Lula no 2º turno de 2026 sobre servidores públicos e o adversário",
+        "se a peça diz 'acabar com servidores' ou fala de reforma administrativa, estabilidade ou concursos"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 106.34,
+      "fim_s": 122.46,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o meu concorrente [...] dizendo [...] que eu privatizaria Banco do Brasil, Caixa, Petrobras",
+      "afirmacao": "Lula ou sua campanha afirmou que Flávio Bolsonaro privatizaria o Banco do Brasil, a Caixa e a Petrobras",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "propaganda eleitoral e falas de Lula no 2º turno de 2026 sobre privatização de Banco do Brasil, Caixa e Petrobras",
+        "se as três empresas são citadas, ou só alguma delas"
+      ]
+    }
+  ]
+}
