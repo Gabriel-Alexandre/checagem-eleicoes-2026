@@ -1,0 +1,592 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recorte_de_origem": "sabatina-completa",
+  "gerado_em": "2026-10-17T12:41-03:00",
+  "leu_checagens": false,
+  "parametros": {
+    "quantos": 6,
+    "min_s": 8.0,
+    "max_s": 15.0,
+    "intervalo_min_s": 60.0,
+    "total_max_s": 120.0
+  },
+  "escolhidos": [
+    {
+      "inicio_s": 963.94,
+      "fim_s": 977.57,
+      "duracao_s": 13.63,
+      "pontos": 5.9,
+      "densidade": 0.293,
+      "fato": 3.2,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 3,
+      "assunto": "justica",
+      "ids": [
+        "A075",
+        "A076",
+        "A077",
+        "A078"
+      ],
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ],
+      "id": "corte-01",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 14 s, assunto justica; confronto jornalista x entrevistado em justica; 3 trocas de turno"
+    },
+    {
+      "inicio_s": 1089.51,
+      "fim_s": 1103.44,
+      "duracao_s": 13.93,
+      "pontos": 4.5,
+      "densidade": 0.215,
+      "fato": 2.6,
+      "confronto": [
+        "politica"
+      ],
+      "mesmo_assunto": [
+        "politica"
+      ],
+      "trocas_de_turno": 1,
+      "assunto": "politica",
+      "ids": [
+        "A085",
+        "A086",
+        "A087"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ],
+      "id": "corte-02",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto politica; confronto jornalista x entrevistado em politica; 1 troca de turno"
+    },
+    {
+      "inicio_s": 1547.74,
+      "fim_s": 1561.24,
+      "duracao_s": 13.5,
+      "pontos": 3.5,
+      "densidade": 0.148,
+      "fato": 1.6,
+      "confronto": [
+        "relacoes-exteriores"
+      ],
+      "mesmo_assunto": [
+        "relacoes-exteriores"
+      ],
+      "trocas_de_turno": 1,
+      "assunto": "relacoes-exteriores",
+      "ids": [
+        "A131",
+        "A132"
+      ],
+      "checaveis": 2,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ],
+      "id": "corte-03",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 2 alegações checáveis em 14 s, assunto relacoes-exteriores; confronto jornalista x entrevistado em relacoes-exteriores; 1 troca de turno"
+    },
+    {
+      "inicio_s": 1909.85,
+      "fim_s": 1924.79,
+      "duracao_s": 14.94,
+      "pontos": 5.0,
+      "densidade": 0.335,
+      "fato": 5.0,
+      "confronto": [],
+      "mesmo_assunto": [],
+      "trocas_de_turno": 0,
+      "assunto": "economia",
+      "ids": [
+        "A158",
+        "A159",
+        "A160",
+        "A161",
+        "A162"
+      ],
+      "checaveis": 5,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro"
+      ],
+      "id": "corte-04",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 15 s, assunto economia"
+    },
+    {
+      "inicio_s": 2266.48,
+      "fim_s": 2281.47,
+      "duracao_s": 14.99,
+      "pontos": 3.8,
+      "densidade": 0.267,
+      "fato": 3.8,
+      "confronto": [],
+      "mesmo_assunto": [],
+      "trocas_de_turno": 0,
+      "assunto": "programas-sociais",
+      "ids": [
+        "A185",
+        "A186",
+        "A187",
+        "A188"
+      ],
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro"
+      ],
+      "id": "corte-05",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 15 s, assunto programas-sociais"
+    },
+    {
+      "inicio_s": 2409.09,
+      "fim_s": 2423.22,
+      "duracao_s": 14.13,
+      "pontos": 2.8,
+      "densidade": 0.212,
+      "fato": 2.8,
+      "confronto": [],
+      "mesmo_assunto": [],
+      "trocas_de_turno": 0,
+      "assunto": "saude",
+      "ids": [
+        "A202",
+        "A203",
+        "A204"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro"
+      ],
+      "id": "corte-06",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto saude"
+    }
+  ],
+  "total_s": 85.12,
+  "candidatas": [
+    {
+      "inicio_s": 963.94,
+      "fim_s": 977.57,
+      "duracao_s": 13.63,
+      "pontos": 5.9,
+      "densidade": 0.293,
+      "fato": 3.2,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 3,
+      "assunto": "justica",
+      "ids": [
+        "A075",
+        "A076",
+        "A077",
+        "A078"
+      ],
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ],
+      "id": "corte-01",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 14 s, assunto justica; confronto jornalista x entrevistado em justica; 3 trocas de turno"
+    },
+    {
+      "inicio_s": 962.64,
+      "fim_s": 977.57,
+      "duracao_s": 14.93,
+      "pontos": 5.9,
+      "densidade": 0.268,
+      "fato": 3.2,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 4,
+      "assunto": "justica",
+      "ids": [
+        "A075",
+        "A076",
+        "A077",
+        "A078"
+      ],
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ]
+    },
+    {
+      "inicio_s": 968.02,
+      "fim_s": 982.77,
+      "duracao_s": 14.75,
+      "pontos": 5.5,
+      "densidade": 0.271,
+      "fato": 3.2,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 2,
+      "assunto": "justica",
+      "ids": [
+        "A076",
+        "A077",
+        "A078",
+        "A079"
+      ],
+      "checaveis": 4,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ]
+    },
+    {
+      "inicio_s": 962.64,
+      "fim_s": 972.9,
+      "duracao_s": 10.26,
+      "pontos": 5.1,
+      "densidade": 0.292,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 3,
+      "assunto": "justica",
+      "ids": [
+        "A075",
+        "A076",
+        "A077"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ]
+    },
+    {
+      "inicio_s": 963.94,
+      "fim_s": 974.27,
+      "duracao_s": 10.33,
+      "pontos": 5.1,
+      "densidade": 0.29,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 3,
+      "assunto": "justica",
+      "ids": [
+        "A075",
+        "A076",
+        "A077"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ]
+    },
+    {
+      "inicio_s": 962.64,
+      "fim_s": 974.27,
+      "duracao_s": 11.63,
+      "pontos": 5.1,
+      "densidade": 0.258,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 4,
+      "assunto": "justica",
+      "ids": [
+        "A075",
+        "A076",
+        "A077"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ]
+    },
+    {
+      "inicio_s": 1909.85,
+      "fim_s": 1924.79,
+      "duracao_s": 14.94,
+      "pontos": 5.0,
+      "densidade": 0.335,
+      "fato": 5.0,
+      "confronto": [],
+      "mesmo_assunto": [],
+      "trocas_de_turno": 0,
+      "assunto": "economia",
+      "ids": [
+        "A158",
+        "A159",
+        "A160",
+        "A161",
+        "A162"
+      ],
+      "checaveis": 5,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro"
+      ],
+      "id": "corte-04",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 15 s, assunto economia"
+    },
+    {
+      "inicio_s": 963.94,
+      "fim_s": 972.9,
+      "duracao_s": 8.96,
+      "pontos": 4.7,
+      "densidade": 0.335,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 2,
+      "assunto": "justica",
+      "ids": [
+        "A075",
+        "A076",
+        "A077"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ]
+    },
+    {
+      "inicio_s": 968.02,
+      "fim_s": 977.57,
+      "duracao_s": 9.55,
+      "pontos": 4.7,
+      "densidade": 0.314,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 2,
+      "assunto": "justica",
+      "ids": [
+        "A076",
+        "A077",
+        "A078"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ]
+    },
+    {
+      "inicio_s": 967.66,
+      "fim_s": 977.57,
+      "duracao_s": 9.91,
+      "pontos": 4.7,
+      "densidade": 0.303,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 2,
+      "assunto": "justica",
+      "ids": [
+        "A076",
+        "A077",
+        "A078"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ]
+    },
+    {
+      "inicio_s": 955.65,
+      "fim_s": 968.22,
+      "duracao_s": 12.57,
+      "pontos": 4.7,
+      "densidade": 0.239,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 2,
+      "assunto": "justica",
+      "ids": [
+        "A073",
+        "A074",
+        "A075"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ]
+    },
+    {
+      "inicio_s": 1089.51,
+      "fim_s": 1103.44,
+      "duracao_s": 13.93,
+      "pontos": 4.5,
+      "densidade": 0.215,
+      "fato": 2.6,
+      "confronto": [
+        "politica"
+      ],
+      "mesmo_assunto": [
+        "politica"
+      ],
+      "trocas_de_turno": 1,
+      "assunto": "politica",
+      "ids": [
+        "A085",
+        "A086",
+        "A087"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ],
+      "id": "corte-02",
+      "motivo": "critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto politica; confronto jornalista x entrevistado em politica; 1 troca de turno"
+    },
+    {
+      "inicio_s": 971.16,
+      "fim_s": 982.77,
+      "duracao_s": 11.61,
+      "pontos": 4.3,
+      "densidade": 0.258,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 1,
+      "assunto": "justica",
+      "ids": [
+        "A077",
+        "A078",
+        "A079"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ]
+    },
+    {
+      "inicio_s": 955.65,
+      "fim_s": 967.68,
+      "duracao_s": 12.03,
+      "pontos": 4.3,
+      "densidade": 0.249,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 1,
+      "assunto": "justica",
+      "ids": [
+        "A073",
+        "A074",
+        "A075"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Renata Lo Prete",
+        "Flávio Bolsonaro"
+      ]
+    },
+    {
+      "inicio_s": 971.16,
+      "fim_s": 984.11,
+      "duracao_s": 12.95,
+      "pontos": 4.3,
+      "densidade": 0.232,
+      "fato": 2.4,
+      "confronto": [
+        "justica"
+      ],
+      "mesmo_assunto": [
+        "justica"
+      ],
+      "trocas_de_turno": 1,
+      "assunto": "justica",
+      "ids": [
+        "A077",
+        "A078",
+        "A079"
+      ],
+      "checaveis": 3,
+      "nao_checaveis": 0,
+      "falantes": [
+        "Flávio Bolsonaro",
+        "Renata Lo Prete"
+      ]
+    }
+  ],
+  "candidatas_avaliadas": 636
+}

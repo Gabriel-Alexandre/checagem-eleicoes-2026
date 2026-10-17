@@ -1,0 +1,1119 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 1051.8,
+    "fim_s": 1621.8
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 1089.8,
+      "fim_s": 1094.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A perícia da própria produtora disse que o filme custou 75 milhões de reais",
+      "afirmacao": "Uma perícia contratada pela própria produtora do filme sobre Jair Bolsonaro concluiu que o filme custou R$ 75 milhões",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o financiamento do filme sobre Jair Bolsonaro e o pedido de recursos a Daniel Vorcaro",
+      "o_que_conferir": [
+        "laudo ou perícia apresentado pela produtora do filme (em processo, investigação ou nota pública): valor total de custo apurado",
+        "se o laudo é da própria produtora ou de terceiro contratado por ela, e a data em que veio a público"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 1094.6,
+      "fim_s": 1097.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e o senhor pediu 134 ao Vorcaro",
+      "afirmacao": "Flávio Bolsonaro pediu R$ 134 milhões a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o financiamento do filme sobre Jair Bolsonaro e o pedido de recursos a Daniel Vorcaro",
+      "o_que_conferir": [
+        "mensagens, contrato ou documentos do caso Master (PF, STF, reportagens com acesso aos autos) com o valor pedido por Flávio Bolsonaro a Vorcaro",
+        "se R$ 134 milhões é o valor pedido, o contratado ou o somado de parcelas; a razão 134/75 sustenta o 'quase o dobro' da pergunta"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 1101.7,
+      "fim_s": 1103.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "era um contrato que não foi cumprido",
+      "afirmacao": "O contrato de patrocínio de Daniel Vorcaro ao filme sobre Jair Bolsonaro não foi cumprido integralmente",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre a diferença entre o custo do filme sobre Jair Bolsonaro e o valor pedido a Daniel Vorcaro",
+      "o_que_conferir": [
+        "contrato de patrocínio entre Vorcaro (ou empresa dele) e a produtora: valor previsto e valor efetivamente pago",
+        "declarações da produtora, da defesa de Vorcaro ou documentos da investigação sobre interrupção dos pagamentos"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 1103.4,
+      "fim_s": 1109.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e com os recursos que foram aportados por ele e mais outros investidores nós conseguimos concluir o filme.",
+      "afirmacao": "O filme sobre Jair Bolsonaro foi concluído com recursos de Daniel Vorcaro e de outros investidores",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre a diferença entre o custo do filme sobre Jair Bolsonaro e o valor pedido a Daniel Vorcaro",
+      "o_que_conferir": [
+        "situação de produção do filme (concluído, em pós-produção, com data de lançamento) segundo a produtora ou registro na Ancine",
+        "se houve outros investidores além de Vorcaro e quem são, segundo a produtora ou a investigação"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 1110.8,
+      "fim_s": 1112.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Simples assim, uma relação privada",
+      "afirmacao": "O patrocínio de Daniel Vorcaro ao filme sobre Jair Bolsonaro foi uma relação privada, sem dinheiro público",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre a diferença entre o custo do filme sobre Jair Bolsonaro e o valor pedido a Daniel Vorcaro",
+      "o_que_conferir": [
+        "origem dos recursos do filme: se houve captação por lei de incentivo, fundo público ou estatal (Ancine, Lei Rouanet, FSA)",
+        "se os aportes de Vorcaro saíram de recursos pessoais, de empresa dele ou do Banco Master, segundo a investigação"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 1115.5,
+      "fim_s": 1125.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A Globo, o programa Luciano Huck recebeu mais de 100 milhões de reais, 160 milhões de reais, se não me engano, para fazer uma propaganda no banco do Vorcaro.",
+      "citacao_card": "o programa Luciano Huck recebeu mais de 100 milhões de reais, 160 milhões de reais [...] para fazer uma propaganda",
+      "afirmacao": "O programa de Luciano Huck na TV Globo recebeu mais de R$ 100 milhões (cerca de R$ 160 milhões, segundo o candidato) para fazer publicidade do Banco Master",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre o financiamento do filme, em que o candidato compara com patrocínios do Banco Master na Globo",
+      "o_que_conferir": [
+        "contratos de patrocínio ou publicidade do Banco Master com a TV Globo e com o programa de Luciano Huck: valores e período",
+        "se o valor citado (100 ou 160 milhões) aparece em documento da investigação, em reportagem ou em nota da Globo, e se é do programa ou da emissora inteira"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 1127.8,
+      "fim_s": 1142.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Um diretor da Globo acabou de ser exonerado [...] mas ele feriu a ética, o código de ética da empresa e sofreu as consequências.",
+      "citacao_card": "Um diretor da Globo acabou de ser exonerado [...] ele feriu [...] o código de ética da empresa",
+      "afirmacao": "Um diretor do Grupo Globo foi desligado recentemente por ter violado o código de ética da empresa",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre o financiamento do filme, em que o candidato cita o desligamento de um diretor da Globo ligado a Vorcaro",
+      "o_que_conferir": [
+        "nota do Grupo Globo sobre o desligamento do diretor: data e motivo declarado",
+        "se a empresa citou violação do código de ética ou de conduta"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 1130.1,
+      "fim_s": 1136.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "porque ele promovia eventos bancados pelo Vorcaro do valor econômico lá em Nova York",
+      "afirmacao": "O diretor desligado do Grupo Globo promovia eventos do jornal Valor Econômico em Nova York bancados por Daniel Vorcaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta sobre o financiamento do filme, em que o candidato cita o desligamento de um diretor da Globo ligado a Vorcaro",
+      "o_que_conferir": [
+        "reportagens e nota do Grupo Globo sobre eventos do Valor Econômico em Nova York e seus patrocinadores",
+        "se Vorcaro ou o Banco Master patrocinaram esses eventos e qual era o papel do diretor neles"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 1151.2,
+      "fim_s": 1153.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "mas a própria defesa confirmou que a voz era dele.",
+      "afirmacao": "A defesa de Daniel Vorcaro confirmou que a voz no áudio citado pelo candidato é dele",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre o áudio de Vorcaro que o candidato citou e a apresentadora pediu para não trazer à entrevista",
+      "o_que_conferir": [
+        "nota ou declaração da defesa de Daniel Vorcaro sobre a autenticidade do áudio: data e teor",
+        "se a confirmação foi da voz, do conteúdo ou de ambos"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 1154.4,
+      "fim_s": 1160.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Que o filme do Bolsonaro foi tudo legal dentro da lei e que o filme do Lula onde ele botou 30 milhões de reais por fora do Instituto Lula.",
+      "citacao_card": "o filme do Bolsonaro foi tudo legal [...] o filme do Lula onde ele botou 30 milhões de reais por fora",
+      "afirmacao": "No áudio, Daniel Vorcaro diz que o patrocínio ao filme sobre Bolsonaro foi legal e que pôs R$ 30 milhões 'por fora', via Instituto Lula, num filme sobre Lula",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre o áudio de Vorcaro que o candidato citou e a apresentadora pediu para não trazer à entrevista",
+      "o_que_conferir": [
+        "íntegra ou transcrição publicada do áudio de Vorcaro: o que ele diz sobre cada um dos dois filmes",
+        "se o áudio cita valor de R$ 30 milhões, pagamento 'por fora' e o Instituto Lula, ou se isso é leitura do candidato"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 1175.8,
+      "fim_s": 1192.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As compras de patrocínio na programação da TV Globo obedecem a regras de transparência, [...] elas não têm nada a ver com a linha editorial e com a independência editorial do jornalismo da Globo.",
+      "citacao_card": "As compras de patrocínio na programação da TV Globo obedecem a regras de transparência [...]",
+      "afirmacao": "As compras de patrocínio na TV Globo seguem regras de transparência e são separadas da linha editorial do jornalismo da emissora",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Esclarecimento da apresentadora depois de o candidato citar patrocínios do Banco Master na Globo e o desligamento de um diretor",
+      "o_que_conferir": [
+        "política comercial e Princípios Editoriais publicados do Grupo Globo: regra de separação entre área comercial e jornalismo",
+        "quais regras de transparência a Globo declara para patrocínio (tabela pública de preços, identificação de patrocinador)"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 1192.4,
+      "fim_s": 1204.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "do então diretor do Grupo Globo, que teve conversas reveladas com Daniel Vorcaro, isso foi revelado anteontem, e ontem ele foi desligado da empresa.",
+      "citacao_card": "conversas reveladas com Daniel Vorcaro, isso foi revelado anteontem, e ontem ele foi desligado da empresa",
+      "afirmacao": "As conversas de um diretor do Grupo Globo com Daniel Vorcaro foram reveladas em 14/out/2026, e ele foi desligado da empresa em 15/out/2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Esclarecimento da apresentadora depois de o candidato citar patrocínios do Banco Master na Globo e o desligamento de um diretor",
+      "o_que_conferir": [
+        "data da primeira reportagem que revelou as conversas do diretor com Vorcaro",
+        "data do comunicado do Grupo Globo sobre o desligamento do diretor"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 1211.7,
+      "fim_s": 1219.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o Brasil tem cerca de 1.600 instituições financeiras, tem quase 170 bancos.",
+      "afirmacao": "O Brasil tem cerca de 1.600 instituições financeiras autorizadas, das quais quase 170 são bancos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Pergunta sobre por que, entre tantos bancos, o candidato procurou justamente Daniel Vorcaro",
+      "o_que_conferir": [
+        "relação de instituições autorizadas a funcionar pelo Banco Central (BCB, Sisbacen/estatísticas do sistema financeiro), no mês mais recente antes da fala",
+        "qual recorte dá 'bancos' (múltiplos, comerciais, de investimento, Caixa) e se inclui cooperativas e administradoras de consórcio nas 1.600"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 1227.4,
+      "fim_s": 1230.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e ele topou fazer numa época que ele não tinha absolutamente nada de errado.",
+      "afirmacao": "Quando Daniel Vorcaro aceitou patrocinar o filme, não havia investigação nem suspeita pública contra ele ou o Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre por que, entre tantos bancos, o candidato procurou Daniel Vorcaro",
+      "o_que_conferir": [
+        "data do acordo ou do primeiro aporte de Vorcaro ao filme",
+        "cronologia pública do caso Master: primeiros alertas do Banco Central, reportagens, inquéritos e liquidação, comparada à data do acordo"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 1235.5,
+      "fim_s": 1249.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O que está errado é o Vorcaro ser beneficiado pelo Vacari, que é um braço direito do Lula, quem toca o Instituto Lula, e oferecer um bilhão de reais nos fundos de pensão da Caixa, do Banco do Brasil, da Petrobras.",
+      "citacao_card": "o Vorcaro ser beneficiado pelo Vacari [...] e oferecer um bilhão de reais nos fundos de pensão",
+      "afirmacao": "João Vaccari Neto ofereceu a Daniel Vorcaro R$ 1 bilhão dos fundos de pensão de Caixa, Banco do Brasil e Petrobras",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "investigação da PF ou reportagens sobre oferta de recursos de Funcef, Previ e Petros ao Banco Master: quem ofereceu, valor e data",
+        "se João Vaccari Neto é citado nesses documentos e em que papel"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 1239.4,
+      "fim_s": 1243.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "pelo Vacari, que é um braço direito do Lula, quem toca o Instituto Lula,",
+      "afirmacao": "João Vaccari Neto comanda o Instituto Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "diretoria e cargos do Instituto Lula (site, estatuto, registros) na data da fala",
+        "se João Vaccari Neto ocupa ou ocupou cargo no instituto, e qual"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 1249.9,
+      "fim_s": 1254.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O mesmo Vacari que já foi preso exatamente por fraude em fundos de pensão.",
+      "afirmacao": "João Vaccari Neto já foi preso por fraude em fundos de pensão",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "histórico de prisões de João Vaccari Neto (Lava Jato e outras operações): datas e motivo de cada prisão",
+        "se alguma prisão ou condenação foi por fraude em fundos de pensão, ou por outros crimes (corrupção, lavagem)"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 1258.6,
+      "fim_s": 1269.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Vacari, ligado ao Lula, estava oferecendo um bilhão de reais para que fossem investidos em fundos podres do Banco Master e cobrou uma propina de 10% em cima disso.",
+      "citacao_card": "estava oferecendo um bilhão de reais [...] e cobrou uma propina de 10% em cima disso",
+      "afirmacao": "João Vaccari Neto cobrou propina de 10% sobre o R$ 1 bilhão que ofereceu para investir em fundos do Banco Master",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a procura por Vorcaro, em que o candidato acusa um aliado de Lula",
+      "o_que_conferir": [
+        "investigação da PF, decisão judicial ou reportagem com acesso aos autos sobre pedido de propina de 10% ligado a aportes de fundos de pensão no Banco Master",
+        "quem teria cobrado o percentual, segundo a fonte"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 1284.4,
+      "fim_s": 1286.0,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Está confirmado pela Polícia Federal.",
+      "afirmacao": "A Polícia Federal confirmou a oferta de João Vaccari Neto a Daniel Vorcaro e a cobrança de propina",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Réplica do candidato quando a apresentadora diz que não vai tratar de informações não confirmadas pelo jornalismo da TV Globo",
+      "o_que_conferir": [
+        "relatório, representação ou nota da PF que trate da oferta e da propina atribuídas a Vaccari",
+        "se a PF afirma o fato, apenas investiga ou apenas transcreve uma mensagem de terceiro"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 1288.8,
+      "fim_s": 1290.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "não está confirmado pela Polícia Federal",
+      "afirmacao": "A Polícia Federal não confirmou a oferta e a propina atribuídas por Flávio Bolsonaro a João Vaccari Neto",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta da apresentadora à afirmação do candidato de que a PF confirmou a acusação contra Vaccari",
+      "o_que_conferir": [
+        "relatório, representação ou nota da PF que trate da oferta e da propina atribuídas a Vaccari",
+        "se a PF afirma o fato, apenas investiga ou apenas transcreve uma mensagem de terceiro"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 1292.9,
+      "fim_s": 1299.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "uma outra crítica que o senhor tem feito constantemente ao seu adversário que é a questão do aparelhamento da Polícia Federal.",
+      "citacao_card": "uma outra crítica que o senhor tem feito constantemente [...] do aparelhamento da Polícia Federal",
+      "afirmacao": "Flávio Bolsonaro tem acusado Lula, com frequência, de aparelhar a Polícia Federal",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Bolsonaro em 2026 (redes, entrevistas, debates) sobre aparelhamento da PF pelo governo Lula",
+        "frequência dessas declarações na campanha"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 1301.1,
+      "fim_s": 1320.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "da famosa reunião ministerial de 2020 na qual seu pai disse [...] Eu não vou deixar, [...] a minha família porque eu não posso trocar alguém na ponta da linha. se não puder trocar, troca o chefe dele. Não pode trocar o chefe, troca o ministro,",
+      "citacao_card": "reunião ministerial de 2020 na qual seu pai disse [...] Não pode trocar o chefe, troca o ministro",
+      "afirmacao": "Na reunião ministerial de 2020, Jair Bolsonaro disse que não deixaria prejudicarem sua família e que, se não pudesse trocar alguém 'na ponta da linha', trocaria o chefe ou o ministro",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "vídeo e transcrição oficial da reunião ministerial de 22/abr/2020, divulgados por decisão do STF (Inq 4831)",
+        "a fala literal de Jair Bolsonaro no trecho e se a citação da apresentadora corresponde a ela"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 1320.8,
+      "fim_s": 1322.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E seu pai, de fato, trocou o ministro.",
+      "afirmacao": "Depois da reunião ministerial de 2020, Jair Bolsonaro trocou o ministro da Justiça",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "data e forma da saída de Sergio Moro do Ministério da Justiça em 2020 (exoneração a pedido ou de ofício, Diário Oficial)",
+        "quem assumiu o ministério e quando"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 1323.0,
+      "fim_s": 1327.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A minha pergunta não diz respeito ao caso das fachadinhas e outros que envolviam o senhor na época,",
+      "citacao_card": "não diz respeito ao caso das [...] e outros que envolviam o senhor na época",
+      "afirmacao": "Em 2020, Flávio Bolsonaro era alvo de investigações",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a crítica do candidato ao aparelhamento da Polícia Federal, lembrando a reunião ministerial de 2020",
+      "o_que_conferir": [
+        "inquéritos e processos envolvendo Flávio Bolsonaro em 2020 (MP-RJ, PF, STJ, STF): objeto e situação",
+        "a transcrição registrou 'fachadinhas' (provável 'rachadinhas'); conferir só a existência de casos envolvendo o candidato na época, sem apoiar a checagem nessa palavra"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 1344.0,
+      "fim_s": 1346.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "ele trocou o superintendente do Rio de Janeiro na época,",
+      "afirmacao": "Em 2020, Jair Bolsonaro trocou o superintendente da Polícia Federal no Rio de Janeiro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "portarias e reportagens sobre a troca do superintendente da PF no RJ em 2020: datas, nomes e quem decidiu",
+        "se houve troca no RJ também em 2019 e qual delas o candidato cita"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 1346.9,
+      "fim_s": 1348.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "porque estava apresentando maus resultados.",
+      "afirmacao": "A troca do superintendente da PF no Rio de Janeiro em 2020 foi motivada por maus resultados da superintendência",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "justificativa oficial dada pelo governo ou pela PF para a troca do superintendente no RJ",
+        "dados de produtividade da superintendência do RJ no período (operações, inquéritos) e o depoimento de Sergio Moro e de delegados no Inq 4831"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 1354.2,
+      "fim_s": 1359.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "a primeira coisa que o meu adversário fez quando sentou na cadeira de presidente da República foi botar o amigo dele, Andrei,",
+      "citacao_card": "a primeira coisa que o meu adversário fez [...] foi botar o amigo dele, Andrei",
+      "afirmacao": "Logo ao assumir em 2023, Lula nomeou Andrei Rodrigues, pessoa próxima a ele, diretor-geral da Polícia Federal",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "data da nomeação de Andrei Rodrigues como diretor-geral da PF (Diário Oficial) comparada à posse de Lula em 1º/jan/2023",
+        "vínculo anterior entre Andrei Rodrigues e Lula (por exemplo, função na campanha de 2022)"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 1360.2,
+      "fim_s": 1367.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "inclusive esse que está tomando uísque com o Vorcaro, fumando jaruto, com pessoas que ele, que a Polícia Federal está investigando,",
+      "citacao_card": "esse que está tomando uísque com o Vorcaro, [...] com pessoas que ele, que a Polícia Federal está investigando",
+      "afirmacao": "Andrei Rodrigues, diretor-geral da PF, esteve em encontro social com Daniel Vorcaro, bebendo uísque, com pessoas investigadas pela PF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "foto, vídeo ou reportagem de encontro de Andrei Rodrigues com Daniel Vorcaro: data, local e quem estava presente",
+        "se os presentes eram investigados pela PF na data do encontro; a transcrição registrou 'jaruto' (provável 'charuto'), e a checagem não se apoia nessa palavra"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 1368.6,
+      "fim_s": 1371.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "ele trocou os 27 superintendentes de toda a federação.",
+      "afirmacao": "No início do governo Lula, os 27 superintendentes regionais da Polícia Federal foram trocados",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "portarias de nomeação dos superintendentes regionais da PF em 2023 e reportagens sobre a troca",
+        "quantas das 27 superintendências tiveram o titular trocado na gestão Andrei Rodrigues, e em que período"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 1372.3,
+      "fim_s": 1373.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Aí o Bolsonaro troca um, tem esse questionamento.",
+      "afirmacao": "No episódio de 2020, Jair Bolsonaro trocou só um superintendente da Polícia Federal",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "trocas de superintendentes regionais da PF em 2020, depois da saída de Sergio Moro, e de diretores-gerais no governo Bolsonaro",
+        "se a comparação 'um contra 27' se sustenta no mesmo tipo de cargo e em período comparável"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 1378.5,
+      "fim_s": 1380.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "tem um grupo especial do Lula dentro da Polícia Federal.",
+      "afirmacao": "Existe dentro da Polícia Federal um grupo especial ligado a Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre as trocas no comando da Polícia Federal no governo Jair Bolsonaro e no governo Lula",
+      "o_que_conferir": [
+        "estrutura da PF: existência de grupo, núcleo ou unidade especial vinculada à Presidência ou criada por Lula",
+        "a que grupo o candidato se refere (por exemplo, segurança presidencial ou grupo de inquéritos sensíveis) e o que os registros dizem dele"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 1382.8,
+      "fim_s": 1383.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Não, ele pediu para sair.",
+      "afirmacao": "Sergio Moro pediu demissão do Ministério da Justiça em 2020, em vez de ser demitido por Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre se Jair Bolsonaro trocou o ministro da Justiça depois da reunião de 2020",
+      "o_que_conferir": [
+        "pronunciamento de Sergio Moro ao deixar o cargo em abr/2020 e ato de exoneração no Diário Oficial (a pedido ou não)",
+        "a sequência: exoneração do diretor-geral da PF e anúncio da saída do ministro"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 1384.0,
+      "fim_s": 1385.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E hoje somos aliados,",
+      "afirmacao": "Sergio Moro e Flávio Bolsonaro são aliados políticos em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a saída de Sergio Moro do governo Jair Bolsonaro",
+      "o_que_conferir": [
+        "apoio declarado de Sergio Moro à candidatura de Flávio Bolsonaro em 2026, ou coligação/acordo entre os partidos dos dois",
+        "data e forma desse apoio (ato, nota, palanque)"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 1385.5,
+      "fim_s": 1389.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "inclusive, parabéns ao Sérgio Moro, eleito governador no primeiro turno no Paraná.",
+      "afirmacao": "Sergio Moro foi eleito governador do Paraná no 1º turno de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a saída de Sergio Moro do governo Jair Bolsonaro",
+      "o_que_conferir": [
+        "resultado oficial da eleição para governador do Paraná em 4/out/2026, TSE: votos válidos de Sergio Moro",
+        "se ele passou de 50% dos votos válidos no 1º turno"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 1398.5,
+      "fim_s": 1403.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "existem movimentações no judiciário para tentar anular ainda este ano a condenação",
+      "afirmacao": "Há iniciativas em curso no Judiciário para tentar anular, ainda em 2026, a condenação de Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre se Jair Bolsonaro teria cargo num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "pedidos de revisão criminal, habeas corpus ou outros recursos contra a condenação de Jair Bolsonaro em tramitação em 2026",
+        "reportagens sobre articulação para julgar esses pedidos ainda em 2026"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 1403.0,
+      "fim_s": 1407.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a condenação do ex-presidente a 27 anos de prisão por tentativa de golpe.",
+      "afirmacao": "Jair Bolsonaro foi condenado a 27 anos de prisão por tentativa de golpe de Estado",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre se Jair Bolsonaro teria cargo num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "acórdão da Primeira Turma do STF na AP 2668: pena total fixada para Jair Bolsonaro",
+        "crimes pelos quais foi condenado e se a pena é de 27 anos exatos ou 27 anos e meses"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 1423.7,
+      "fim_s": 1427.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Alexandre de Moraes votou para condenar o presidente Bolsonaro pelo golpe da Disney.",
+      "afirmacao": "Alexandre de Moraes votou pela condenação de Jair Bolsonaro no julgamento da trama golpista",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "voto de Alexandre de Moraes no julgamento da AP 2668 no STF: sentido do voto e papel (relator ou vogal)",
+        "'golpe da Disney' é rótulo irônico do candidato; conferir só o voto"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 1427.9,
+      "fim_s": 1442.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Ele foi condenado por organização criminosa armada [...] Ele foi acusado de depredar patrimônio público",
+      "afirmacao": "Jair Bolsonaro foi condenado por organização criminosa armada e por dano ao patrimônio público",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "acórdão da AP 2668 no STF: lista dos crimes pelos quais Jair Bolsonaro foi condenado",
+        "se dano qualificado e deterioração de patrimônio tombado estão entre eles"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 1430.3,
+      "fim_s": 1431.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e não foi encontrado uma arma em lugar nenhum.",
+      "afirmacao": "Nenhuma arma foi apreendida ou apresentada como prova no processo da trama golpista contra Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "denúncia da PGR e acórdão da AP 2668: o que fundamentou a qualificadora 'armada' da organização criminosa",
+        "se o processo cita apreensão de armas ou só o uso de armas por integrantes (militares, forças de segurança)"
+      ]
+    },
+    {
+      "id": "A040",
+      "inicio_s": 1433.4,
+      "fim_s": 1436.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Depredação de patrimônio público, ele é a 10 mil quilômetros de distância.",
+      "afirmacao": "Jair Bolsonaro estava a cerca de 10 mil quilômetros de Brasília quando houve a depredação de patrimônio público pela qual foi condenado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "onde Jair Bolsonaro estava em 8/jan/2023 (Estados Unidos) e a distância em linha reta até Brasília",
+        "se a condenação por dano se refere aos atos de 8/jan/2023"
+      ]
+    },
+    {
+      "id": "A041",
+      "inicio_s": 1447.8,
+      "fim_s": 1458.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Flávio Dino, [...] Foi julgado pelo Zanin,",
+      "afirmacao": "Flávio Dino e Cristiano Zanin estavam entre os ministros do STF que julgaram Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "composição da Primeira Turma do STF no julgamento da AP 2668 e votos de cada ministro",
+        "se Flávio Dino e Cristiano Zanin votaram e em que sentido"
+      ]
+    },
+    {
+      "id": "A042",
+      "inicio_s": 1447.8,
+      "fim_s": 1452.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Flávio Dino, até ontem, era ministro da Justiça ou da Injustiça de Lula,",
+      "afirmacao": "Flávio Dino foi ministro da Justiça do governo Lula pouco antes de chegar ao STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "período de Flávio Dino como ministro da Justiça e Segurança Pública (Diário Oficial) e data da posse no STF",
+        "intervalo entre a saída do ministério e o julgamento de Jair Bolsonaro"
+      ]
+    },
+    {
+      "id": "A043",
+      "inicio_s": 1452.3,
+      "fim_s": 1454.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que já disse que Bolsonaro era o demônio na Terra.",
+      "afirmacao": "Flávio Dino já disse que Jair Bolsonaro era 'o demônio na Terra'",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Dino sobre Jair Bolsonaro (discursos, redes, entrevistas) com essa expressão ou equivalente",
+        "data e contexto da fala, se existir"
+      ]
+    },
+    {
+      "id": "A044",
+      "inicio_s": 1456.8,
+      "fim_s": 1458.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "outro amigo do Lula colocado lá,",
+      "afirmacao": "Cristiano Zanin foi indicado ao STF por Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "mensagem de indicação de Cristiano Zanin ao STF, aprovação no Senado e posse: datas"
+      ]
+    },
+    {
+      "id": "A045",
+      "inicio_s": 1458.3,
+      "fim_s": 1460.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que até ontem era advogado do Lula.",
+      "afirmacao": "Cristiano Zanin era advogado de Lula pouco antes de virar ministro do STF",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai",
+      "o_que_conferir": [
+        "atuação de Cristiano Zanin como advogado de Lula (processos da Lava Jato e campanha de 2022) e data em que deixou a defesa",
+        "intervalo até a indicação ao STF"
+      ]
+    },
+    {
+      "id": "A046",
+      "inicio_s": 1531.7,
+      "fim_s": 1543.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No começo desse ano, o senhor disse que ele é um craque em relações internacionais, que seria um privilégio tê-lo falando em seu nome, e que o senhor não conhece ninguém no Brasil com mais qualidades do que ele.",
+      "citacao_card": "o senhor disse que ele é um craque em relações internacionais, que seria um privilégio tê-lo falando em seu nome",
+      "afirmacao": "No início de 2026, Flávio Bolsonaro disse que Eduardo Bolsonaro é um craque em relações internacionais e que seria um privilégio tê-lo falando em seu nome",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre se Eduardo Bolsonaro seria chanceler num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "entrevista ou declaração de Flávio Bolsonaro no início de 2026 sobre Eduardo Bolsonaro: data, veículo e falas",
+        "se as três expressões citadas (craque, privilégio, ninguém com mais qualidades) aparecem na mesma fala"
+      ]
+    },
+    {
+      "id": "A047",
+      "inicio_s": 1548.7,
+      "fim_s": 1554.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "porque dias atrás ele deu uma entrevista dizendo que quem vai decidir isso é o pai de vocês.",
+      "afirmacao": "Dias antes da sabatina, Eduardo Bolsonaro disse em entrevista que quem vai decidir se ele será chanceler é Jair Bolsonaro",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Pergunta sobre se Eduardo Bolsonaro seria chanceler num eventual governo de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "entrevista de Eduardo Bolsonaro em out/2026 sobre o cargo de chanceler: data, veículo e fala literal"
+      ]
+    },
+    {
+      "id": "A048",
+      "inicio_s": 1557.5,
+      "fim_s": 1561.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que está lá fora denunciando as arbitrariedades que existem aqui no Brasil.",
+      "afirmacao": "Eduardo Bolsonaro vive fora do Brasil e faz campanha no exterior contra decisões da Justiça brasileira",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "onde Eduardo Bolsonaro reside em out/2026 e desde quando (saída do país, licença ou perda do mandato de deputado)",
+        "atividade pública dele no exterior (reuniões com autoridades estrangeiras, declarações sobre o Judiciário brasileiro)"
+      ]
+    },
+    {
+      "id": "A049",
+      "inicio_s": 1568.3,
+      "fim_s": 1573.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje ele não pode pisar em um monte de países porque o Alexandre de Moraes persegue ele a todo momento.",
+      "afirmacao": "Eduardo Bolsonaro está impedido de entrar em vários países por causa de decisões de Alexandre de Moraes",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "decisões do STF contra Eduardo Bolsonaro: mandado de prisão, cancelamento de passaporte, difusão na Interpol",
+        "se alguma dessas medidas impede de fato a entrada dele em outros países, e em quais"
+      ]
+    },
+    {
+      "id": "A050",
+      "inicio_s": 1577.0,
+      "fim_s": 1582.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Alexandre de Moraes toma uma Magnitsky que é uma punição do governo americano com base na lei americana",
+      "afirmacao": "Alexandre de Moraes foi sancionado pelo governo dos Estados Unidos com base na Lei Magnitsky",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "ato do Departamento do Tesouro dos EUA (OFAC) que inclui Alexandre de Moraes na lista da Global Magnitsky: data",
+        "se a sanção segue em vigor na data da fala"
+      ]
+    },
+    {
+      "id": "A051",
+      "inicio_s": 1582.2,
+      "fim_s": 1588.0,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e ele bota a culpa no Eduardo como se ele tivesse condições de manipular o presidente dos Estados Unidos,",
+      "afirmacao": "Alexandre de Moraes atribuiu a Eduardo Bolsonaro responsabilidade pela sanção dos Estados Unidos contra ele",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "decisões de Alexandre de Moraes em inquérito ou ação contra Eduardo Bolsonaro: se mencionam a atuação dele junto ao governo americano pelas sanções",
+        "declarações públicas de Moraes sobre a sanção"
+      ]
+    },
+    {
+      "id": "A052",
+      "inicio_s": 1589.8,
+      "fim_s": 1594.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e aqui condena ele por estar atrapalhando ser uma ameaça ao andamento do processo",
+      "afirmacao": "Eduardo Bolsonaro foi condenado no STF por ameaçar ou atrapalhar o andamento do processo contra Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "situação do processo contra Eduardo Bolsonaro no STF em out/2026: denúncia, recebimento, julgamento",
+        "se houve condenação, por qual crime (por exemplo, coação no curso do processo) e com que pena"
+      ]
+    },
+    {
+      "id": "A053",
+      "inicio_s": 1596.1,
+      "fim_s": 1602.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "se ele está se sentindo lesado com a Magnitsky e o culpado Eduardo como é que ele próprio julga o Eduardo.",
+      "afirmacao": "Alexandre de Moraes, atingido pela sanção Magnitsky, é quem relata ou julga o processo contra Eduardo Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "relatoria do inquérito ou ação penal contra Eduardo Bolsonaro no STF e composição do colegiado que o julga",
+        "se a defesa pediu impedimento ou suspeição de Moraes e o que foi decidido"
+      ]
+    },
+    {
+      "id": "A054",
+      "inicio_s": 1608.3,
+      "fim_s": 1616.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Ele construiu ao longo de mais de 10 anos um relacionamento internacional com vários líderes políticos conservadores que são de direita",
+      "citacao_card": "construiu ao longo de mais de 10 anos um relacionamento internacional com vários líderes políticos conservadores",
+      "afirmacao": "Eduardo Bolsonaro mantém há mais de dez anos relações com líderes políticos conservadores de outros países",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta sobre Eduardo Bolsonaro e o cargo de chanceler",
+      "o_que_conferir": [
+        "primeiros registros públicos de contatos internacionais de Eduardo Bolsonaro com líderes conservadores (eventos, viagens, CPAC Brasil)",
+        "se o início desses contatos é anterior a 2016"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 1056.0,
+      "fim_s": 1068.7,
+      "falante": "Renata Lo Prete",
+      "frase": "Eu tenho procurado pautar essas entrevistas por fatos estabelecidos, respaldados ou nas investigações dos órgãos competentes ou de apurações jornalísticas da TV Globo.",
+      "motivo": "Critério editorial da própria entrevista, dito pela apresentadora; não é afirmação sobre o candidato nem sobre o país."
+    },
+    {
+      "inicio_s": 1069.0,
+      "fim_s": 1075.0,
+      "falante": "Renata Lo Prete",
+      "frase": "Então eu sugiro que a gente não traga essa história aqui porque ela mistura coisas que a gente não tem um terreno firme para pisar.",
+      "motivo": "Juízo editorial sobre o áudio citado pelo candidato; não há fato conferível além da avaliação da emissora."
+    },
+    {
+      "inicio_s": 1079.7,
+      "fim_s": 1084.5,
+      "falante": "Renata Lo Prete",
+      "frase": "ele é ex-presidente da República e o senhor não é qualquer filho, o senhor é candidato a presidente da República.",
+      "motivo": "Identificação notória dos dois, usada como premissa da pergunta; a candidatura e o vínculo já estão registrados no CASO.json e não estão em disputa."
+    },
+    {
+      "inicio_s": 1112.6,
+      "fim_s": 1115.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "um dinheiro totalmente ilícito, como era o dinheiro também aqui na Globo.",
+      "motivo": "A transcrição registrou 'ilícito' onde o contexto pede 'lícito'; a palavra decide o sentido da frase, e citar palavra incerta num card é o defeito que o projeto combate."
+    },
+    {
+      "inicio_s": 1146.0,
+      "fim_s": 1150.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "esse áudio que eu sei que a Globo não considera",
+      "motivo": "Refere-se ao que a apresentadora acabou de dizer na própria entrevista sobre não usar o áudio; não é fato externo a conferir."
+    },
+    {
+      "inicio_s": 1169.5,
+      "fim_s": 1175.4,
+      "falante": "Renata Lo Prete",
+      "frase": "Importante a gente esclarecer que compra de espaço comercial de patrocínios não é igual ao financiamento de filme.",
+      "motivo": "Distinção conceitual entre dois tipos de negócio, juízo da apresentadora; a parte conferível do esclarecimento (regras da Globo) virou alegação."
+    },
+    {
+      "inicio_s": 1180.7,
+      "fim_s": 1182.0,
+      "falante": "Renata Lo Prete",
+      "frase": "são ditadas pelo mercado",
+      "motivo": "Afirmação genérica sobre formação de preço do patrocínio, sem dado delimitado; a parte conferível do mesmo trecho (transparência e separação editorial) virou alegação."
+    },
+    {
+      "inicio_s": 1219.9,
+      "fim_s": 1224.5,
+      "falante": "Renata Lo Prete",
+      "frase": "Por que que de todas essas empresas, o senhor foi bater na porta justo do Daniel Vorcaro?",
+      "motivo": "O fato embutido (o candidato procurou Vorcaro para o filme) é o mesmo do pedido de R$ 134 milhões, já extraído; contá-lo de novo seria fatiar o mesmo dado."
+    },
+    {
+      "inicio_s": 1224.8,
+      "fim_s": 1227.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "eu conversei com vários possíveis investidores",
+      "motivo": "Relato de conversa privada, sem registro público previsível do que foi dito; é a régua aplicada no caso de 15/out à frase de Lula 'Ele concordou comigo' (exclusão do lote 01 daquele caso). Movida para cá pela IA que conduz o caso, na revisão da extração, antes de qualquer checagem."
+    },
+    {
+      "inicio_s": 1269.6,
+      "fim_s": 1272.9,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Isso é que está errado, essa contrapartida que é crime que é legal e tem que ser investigado.",
+      "motivo": "Juízo sobre a conduta atribuída a Vaccari ('crime', 'tem que ser investigado'); o fato da contrapartida já está nas alegações sobre a oferta e a propina."
+    },
+    {
+      "inicio_s": 1278.1,
+      "fim_s": 1284.3,
+      "falante": "Renata Lo Prete",
+      "frase": "Eu não vou me referir aqui a informações que não estão confirmadas pelo jornalismo da TV Globo porque a gente não faz isso.",
+      "motivo": "Regra editorial da própria emissora sobre a entrevista; a disputa factual que se segue (se a PF confirmou) virou duas alegações, uma de cada falante."
+    },
+    {
+      "inicio_s": 1335.7,
+      "fim_s": 1341.4,
+      "falante": "Renata Lo Prete",
+      "frase": "considerando que seu pai avisava todo mundo que iria agir e agiu para proteger o filho?",
+      "motivo": "O aviso (a fala na reunião de 2020) e a ação (a troca do ministro) já viraram alegações; 'para proteger o filho' é inferência de intenção, sem registro que a confirme ou desminta."
+    },
+    {
+      "inicio_s": 1341.6,
+      "fim_s": 1342.6,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Isso não é verdade, Renata.",
+      "motivo": "Negação genérica da inferência de intenção excluída acima; as partes factuais da resposta (troca no RJ e motivo) viraram alegações."
+    },
+    {
+      "inicio_s": 1353.0,
+      "fim_s": 1354.2,
+      "falante": "Renata Lo Prete",
+      "frase": "E ele trocou o ministro também, né?",
+      "motivo": "Repete a afirmação 'E seu pai, de fato, trocou o ministro', já extraída da mesma apresentadora segundos antes."
+    },
+    {
+      "inicio_s": 1374.6,
+      "fim_s": 1376.3,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Ele troca 27 e não tem questionamento nenhum.",
+      "motivo": "Repete os 27 superintendentes, já extraídos; 'não tem questionamento nenhum' é hipérbole retórica de contraste, sem registro delimitado de 'questionamento' contra o qual conferir."
+    },
+    {
+      "inicio_s": 1377.1,
+      "fim_s": 1378.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "é óbvio que a Polícia Federal está aparelhada,",
+      "motivo": "Juízo de valor ('aparelhada'); o fato que o candidato apresenta como prova (um grupo especial ligado a Lula na PF) virou alegação separada."
+    },
+    {
+      "inicio_s": 1381.0,
+      "fim_s": 1382.8,
+      "falante": "Renata Lo Prete",
+      "frase": "O seu pai trocou o ministro, o candidato?",
+      "motivo": "Pergunta que repete a afirmação sobre a troca do ministro, já extraída da mesma apresentadora."
+    },
+    {
+      "inicio_s": 1416.8,
+      "fim_s": 1422.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "que o presidente Bolsonaro foi condenado numa farsa. Foi condenado pelos seus inimigos.",
+      "motivo": "Juízo de valor sobre o julgamento ('farsa', 'inimigos'); a parte factual (quem julgou e por quais crimes) virou alegações separadas."
+    },
+    {
+      "inicio_s": 1445.5,
+      "fim_s": 1447.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "O Alexandre de Moraes, o inimigo declarado dele.",
+      "motivo": "Caracterização ('inimigo declarado') sem registro delimitado; o papel de Moraes no julgamento já está na alegação sobre o voto dele."
+    },
+    {
+      "inicio_s": 1460.9,
+      "fim_s": 1466.7,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Então, o julgamento que, obviamente, muito antes de começar, todo mundo já sabia que era o final.",
+      "motivo": "Juízo sobre a previsibilidade do julgamento ('todo mundo já sabia'), sem fato conferível."
+    },
+    {
+      "inicio_s": 1474.1,
+      "fim_s": 1477.2,
+      "falante": "Flávio Bolsonaro",
+      "frase": "são vários os vícios que existem nesse processo, mas vários.",
+      "motivo": "Juízo jurídico genérico, sem apontar nenhum vício específico que pudesse ser conferido."
+    },
+    {
+      "inicio_s": 1506.5,
+      "fim_s": 1508.9,
+      "falante": "Flávio Bolsonaro",
+      "frase": "E o presidente Bolsonaro nunca tratou de carro comigo,",
+      "motivo": "A transcrição registrou 'carro' onde o contexto pede 'cargo'; o mesmo conteúdo aparece de novo, sem a palavra incerta, em 'mas nunca tratou de cargo comigo', que virou alegação."
+    },
+    {
+      "inicio_s": 1509.4,
+      "fim_s": 1521.8,
+      "falante": "Flávio Bolsonaro",
+      "frase": "nunca sugeriu que gostaria de trabalhar no governo. [...] mas nunca tratou de cargo comigo, Renata.",
+      "motivo": "Relato de conversa privada, sem registro público previsível do que foi dito; é a régua aplicada no caso de 15/out à frase de Lula 'Ele concordou comigo' (exclusão do lote 01 daquele caso). Movida para cá pela IA que conduz o caso, na revisão da extração, antes de qualquer checagem."
+    },
+    {
+      "inicio_s": 1556.0,
+      "fim_s": 1557.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "O Eduardo é um perseguido político",
+      "motivo": "Juízo de valor ('perseguido político'); os fatos que o candidato apresenta a seguir (vida no exterior, decisões de Moraes) viraram alegações separadas."
+    },
+    {
+      "inicio_s": 1602.9,
+      "fim_s": 1605.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "é um processo totalmente viciado e nulo.",
+      "motivo": "Juízo jurídico sobre o processo contra Eduardo Bolsonaro; o fato em que ele se apoia (Moraes, sancionado, julga Eduardo) virou alegação."
+    }
+  ]
+}

@@ -98,6 +98,8 @@ python -m checagem metricas <slug> --recorte debate-completo   # geral, por fala
 python ferramentas/novo-caso-debate.py <slug> --formato sabatina --entrevistador "Nome" --candidato "Nome (PARTIDO)" --narracao ...
 python ferramentas/rascunho-de-turnos.py planos|turnos <slug> ...   # rascunho de turnos por enquadramento, com folha para conferir
 python ferramentas/sugerir-cortes.py <slug>                         # cortes pelo critério pré-registrado, sem ler veredito
+python ferramentas/medir-tempo-das-alegacoes.py <slug> --aplicar     # 🆕 tempo de cada alegação palavra por palavra (antes da sugestão)
+python ferramentas/bordas-na-pausa.py <slug> --conferir             # 🆕 bordas dos cortes na pausa da voz, medida em dB
 python -m checagem relatorio <slug> --recorte sabatina-completa     # relatório da peça inteira, com métricas e cortes
 ```
 

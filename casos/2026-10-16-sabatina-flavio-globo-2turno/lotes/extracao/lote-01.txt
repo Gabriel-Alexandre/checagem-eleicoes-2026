@@ -1,0 +1,118 @@
+LOTE 01 de 05 · janela a EXTRAIR: 00:00:00 a 00:08:37 (0.9 s a 517.4 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-01.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 0.9, "fim_s": 517.4}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+[00:00:00 · 0.9s → 6.1s] Renata Lo Prete: Boa noite. A TV Globo está entrevistando esta semana os candidatos à presidência da República
+[00:00:06 · 6.1s → 11.8s] Renata Lo Prete: que passaram ao segundo turno. A ordem das entrevistas foi definida por sorteio e seguindo
+[00:00:11 · 11.8s → 16.6s] Renata Lo Prete: o resultado, hoje recebemos aqui no estúdio o senador Flávio Bolsonaro, que concorre
+[00:00:16 · 16.6s → 22.5s] Renata Lo Prete: pelo PL. A entrevista terá 40 minutos de duração, com dois blocos e as considerações
+[00:00:22 · 22.5s → 26.1s] Renata Lo Prete: finais do candidato. Senador, boa noite. Obrigada pela sua presença.
+[00:00:26 · 26.7s → 30.6s] Flávio Bolsonaro: Renata, boa noite. Grande honra estar sendo entrevistado por você pela primeira vez.
+[00:00:30 · 30.8s → 34.6s] Flávio Bolsonaro: Agradecer à Globo pela oportunidade e também desejar uma boa noite à senhora, ao senhor
+[00:00:34 · 34.6s → 35.3s] Flávio Bolsonaro: que está nos assistindo.
+[00:00:35 · 35.7s → 39.6s] Renata Lo Prete: Bom, eu a partir de agora passo a chamar o senhor de candidato, porque esse é o contexto
+[00:00:39 · 39.6s → 43.4s] Renata Lo Prete: da nossa entrevista e o tempo começa a contar a partir de agora. Tudo bem?
+[00:00:43 · 43.5s → 43.9s] Flávio Bolsonaro: Tudo bem.
+[00:00:44 · 44.1s → 49.3s] Renata Lo Prete: Então vamos lá. A sua campanha tem falado bastante dos juros altos no Brasil e lembrando que
+[00:00:49 · 49.3s → 56.4s] Renata Lo Prete: o governo hoje paga em juros da dívida pública quase o dobro do que gasta em educação e
+[00:00:56 · 56.4s → 61.6s] Renata Lo Prete: saúde somadas. Na esteira disso, vieram à tona algumas propostas de ajuste fiscal
+[00:01:01 · 61.6s → 68.5s] Renata Lo Prete: ventiladas pelo seu time de assessores econômicos. Então, para separar, a gente conseguir separar
+[00:01:08 · 68.5s → 72.7s] Renata Lo Prete: o que é só especulação daquilo que o senhor de fato pretende fazer, eu tenho três perguntas
+[00:01:12 · 72.7s → 78.3s] Renata Lo Prete: bem objetivas. A primeira delas, o senhor vai manter os reajustes do salário mínimo acima
+[00:01:18 · 78.3s → 78.8s] Renata Lo Prete: da inflação?
+[00:01:18 · 78.9s → 79.2s] Flávio Bolsonaro: Sim.
+[00:01:19 · 79.6s → 80.7s] Renata Lo Prete: Posso ir para a próxima?
+[00:01:20 · 80.8s → 81.4s] Flávio Bolsonaro: Pode ir para a próxima.
+[00:01:21 · 81.7s → 86.9s] Renata Lo Prete: O senhor vai desvincular o percentual de reajuste do mínimo daquele usado para corrigir o valor
+[00:01:26 · 86.9s → 87.9s] Renata Lo Prete: das aposentadorias?
+[00:01:28 · 88.2s → 88.4s] Flávio Bolsonaro: Não.
+[00:01:28 · 89.0s → 94.4s] Renata Lo Prete: E o senhor pretende mudar a Constituição para eliminar os pisos de gasto com saúde e educação?
+[00:01:34 · 94.8s → 95.7s] Flávio Bolsonaro: Também não. Renata.
+[00:01:36 · 96.2s → 97.0s] Flávio Bolsonaro: Vamos lá.
+[00:01:37 · 97.5s → 97.9s] Flávio Bolsonaro: Pode seguir.
+[00:01:37 · 98.0s → 98.6s] Flávio Bolsonaro: Posso prosseguir?
+[00:01:39 · 99.0s → 104.4s] Flávio Bolsonaro: É importante suas perguntas porque tem circulado de fato muitas fake news e esse é um importante
+[00:01:44 · 104.4s → 110.4s] Flávio Bolsonaro: momento para esclarecê-las. Porque o meu concorrente está promovendo um verdadeiro terrorismo
+[00:01:50 · 110.4s → 117.3s] Flávio Bolsonaro: em cima de servidores públicos, em cima de estatais, dizendo que eu acabaria com as aposentadorias,
+[00:01:57 · 117.4s → 121.6s] Flávio Bolsonaro: que eu acabaria com servidores públicos, que eu privatizaria Banco do Brasil, Caixa,
+[00:02:01 · 121.7s → 126.2s] Flávio Bolsonaro: Petrobras, enfim, um monte de coisa. Que eu acabaria com a luz do sol, que eu ia acabar
+[00:02:06 · 126.2s → 131.5s] Flávio Bolsonaro: com direitos dos alienígenas e por aí vai. E eu estou concorrendo à eleição para presidente
+[00:02:11 · 131.5s → 136.5s] Flávio Bolsonaro: da república. Que é coisa muito séria, Renata. E o maior ajuste fiscal que o Brasil pode
+[00:02:16 · 136.5s → 142.0s] Flávio Bolsonaro: fazer é tirar o Lula. Ele hoje é o maior problema para esse desencontro de contas, Renata.
+[00:02:22 · 142.5s → 147.7s] Flávio Bolsonaro: Se você pegar o boletim Focus de outubro de 2022, a última eleição, o presidente ainda
+[00:02:27 · 147.7s → 152.3s] Flávio Bolsonaro: era Jair Bolsonaro. A estimativa de taxa de juros era para estar, neste momento, em torno
+[00:02:32 · 152.3s → 159.8s] Flávio Bolsonaro: de 7%. Hoje, a taxa de juros está em 14%. São 7 pontos percentuais a mais na taxa de juros.
+[00:02:40 · 160.1s → 164.9s] Flávio Bolsonaro: Como você bem colocou, Renata, hoje a dívida do Brasil está em 11 trilhões de reais.
+[00:02:44 · 164.9s → 171.1s] Flávio Bolsonaro: Se fizer uma conta básica, 7 pontos, a gente está falando de quase um trilhão de reais
+[00:02:51 · 171.1s → 175.6s] Flávio Bolsonaro: a mais em 4 anos, que o Brasil poderia estar economizando ao invés de pagar juros. Está
+[00:02:55 · 175.6s → 178.1s] Flávio Bolsonaro: investindo de verdade um monte de coisa que a gente vai conversar aqui.
+[00:02:58 · 178.3s → 183.4s] Renata Lo Prete: Deixa eu retomar a questão da sua proposta de ajuste fiscal, porque sem mexer em nenhum
+[00:03:03 · 183.4s → 188.0s] Renata Lo Prete: desses grandes núcleos da despesa pública, e eu falo principalmente da desvinculação do
+[00:03:07 · 188.0s → 193.9s] Renata Lo Prete: mínimo das aposentadorias e de mexer nos pisos de saúde e educação, há o consenso
+[00:03:13 · 193.9s → 198.8s] Renata Lo Prete: dos economistas, inclusive muitos que apoiam o senhor, dizem assim você não mexe no
+[00:03:18 · 198.8s → 204.1s] Renata Lo Prete: gasto público e você principalmente não chega aos 200 bilhões de reais de ajuste que
+[00:03:24 · 204.1s → 208.0s] Renata Lo Prete: a sua equipe tem prometido ao mercado. Então, estou querendo entender como é que é possível
+[00:03:28 · 208.0s → 211.3s] Renata Lo Prete: fazer esse ajuste sem mexer nas principais despesas.
+[00:03:31 · 211.4s → 215.7s] Flávio Bolsonaro: Vou sintetizar, Renata, vamos lá. A gente tem que atacar sim, combater despesas. Vou
+[00:03:35 · 215.7s → 220.3s] Flávio Bolsonaro: te dar aqui alguns exemplos de despesas que a gente pode cortar e também de receitas novas
+[00:03:40 · 220.3s → 226.1s] Flávio Bolsonaro: que o meu governo vai ter. Então, vamos lá, vamos por partes. Hoje, vocês sabem que o atual
+[00:03:46 · 226.1s → 231.6s] Flávio Bolsonaro: governo tem 39 ministérios. A gente vai cortar pelo menos 10. É óbvio que isso não gera um grande
+[00:03:51 · 231.6s → 260.6s] Flávio Bolsonaro: impacto nas contas, não geram uma economia na proporção de 200 bilhões de reais por ano. Agora, vamos lá. Só com a corrupção e a má gestão das estatais. Com o presidente Bolsonaro, as estatais deram 18 bilhões de reais de superávit ou de lucro. Com o Lula já são 36 bilhões de prejuízo dessas estatais. Só aqui, Renata, é um gap de 54 bilhões de reais. O Brasil tem mais de 30 mil imóveis, grande parte deles que estão abandonados.
+[00:04:20 · 260.6s → 289.6s] Flávio Bolsonaro: A gente vai pegar esse imóvel, vai colocar num fundo de gestão. A avaliação desses imóveis que está desatualizado, à beira, 1,7 trilhão de reais, Renata. Isso pode ser colocado num fundo, pode ser securitizado e já conseguimos aí, em função da situação que estão os imóveis, cerca de 200 bilhões de receita nova que hoje nós não temos. Se a gente pegar os quase 3 trilhões de reais de dívidas que a União tem a receber, isso também pode ser securitizado, trazemos mais 200 bilhões a mais de receita
+[00:04:49 · 289.6s → 301.6s] Flávio Bolsonaro: para esse orçamento por ano. A cada ano é possível alcançar essa cifra. Tem a questão também da margem equatorial, os RODs do petróleo, que já estavam na proposta de governo
+[00:05:01 · 301.6s → 313.3s] Flávio Bolsonaro: do presidente Bolsonaro lá em 2022. Renata, passaram-se quatro anos e o presidente Lula não fez, não conseguiu iniciar a exploração do petróleo na margem equatorial, lá na região do Amapá,
+[00:05:13 · 313.6s → 323.6s] Flávio Bolsonaro: as águas profundas. Isso poderia trazer mais de 100 bilhões de reais também de largada. Então, olha só como é que tem muitas receitas novas a serem feitas e tem despesas para serem cortadas, principalmente
+[00:05:23 · 323.6s → 328.3s] Flávio Bolsonaro: combatendo a corrupção e fazendo uma gestão com inteligência artificial, que é o que eu vou propor.
+[00:05:28 · 328.6s → 336.3s] Renata Lo Prete: Candidato, eu não quero que a gente fique só nesse assunto, porque eu tenho muitos com o senhor, mas só para relembrar que isso é praticamente um consenso entre os economistas,
+[00:05:36 · 336.7s → 344.2s] Renata Lo Prete: as grandes despesas são essas que eu citei aqui, margem equatorial, segundo a própria Petrobras, antes de 2033 não tem exploração ali,
+[00:05:44 · 344.7s → 351.7s] Renata Lo Prete: então é um pouco a gente entender como é que essas contas fecham. Mas vamos para um outro tema econômico importante, escala 6x1.
+[00:05:52 · 352.2s → 359.8s] Renata Lo Prete: Na quarta-feira, o Senado aprovou a emenda constitucional que acaba com essa escala de trabalho e a Câmara já tinha aprovado, agora a emenda já está promulgada.
+[00:06:00 · 360.3s → 365.4s] Renata Lo Prete: O senhor foi, desde o início, contrário a essa proposta e o senhor chamou de eleitoreira, de oportunista.
+[00:06:05 · 365.4s → 376.1s] Renata Lo Prete: Na véspera da votação, o senhor mudou de posição e votou a favor dessa emenda, que reduz a jornada de trabalho e prevê dois dias de descanso sem redução de salário.
+[00:06:16 · 376.4s → 379.3s] Renata Lo Prete: O senhor pode explicar o que orientou essa sua mudança de posição?
+[00:06:19 · 379.7s → 385.9s] Flávio Bolsonaro: Renata, o maior prazer, vou explicar isso, é bom esclarecer que também tem muita fake news rodando sobre isso, mas só para fechar o assunto anterior,
+[00:06:26 · 386.4s → 393.2s] Flávio Bolsonaro: eu quero aqui assumir o compromisso. Eu não vou fazer economia com as pessoas que mais precisam do governo, as pessoas mais pobres.
+[00:06:33 · 393.7s → 398.0s] Flávio Bolsonaro: Tem de onde tirar, tem muito corte de despesa, em especial no combate à corrupção.
+[00:06:38 · 398.3s → 401.7s] Flávio Bolsonaro: O presidente Bolsonaro, ele extinguiu mais de 20 mil cargos em comissão.
+[00:06:42 · 402.2s → 408.4s] Flávio Bolsonaro: Você que é servidor público de carreira de Estado, você fique tranquilo, a sua profissão está garantida, ninguém vai atacar isso.
+[00:06:48 · 408.7s → 411.5s] Flávio Bolsonaro: E o Lula já criou mais de 22.500 cargos em comissão.
+[00:06:51 · 411.5s → 417.0s] Flávio Bolsonaro: Só um exemplo de como é que o governo usa a sua estrutura para entregar os seus companheiros, os seus cabos eleitorais.
+[00:06:57 · 417.0s → 418.1s] Renata Lo Prete: Podemos votar para seis por um?
+[00:06:58 · 418.3s → 419.3s] Flávio Bolsonaro: Com relação a seis por um.
+[00:06:59 · 419.9s → 425.3s] Flávio Bolsonaro: Eu sempre defendi mais liberdade para que os trabalhadores pudessem, inclusive, montar a sua própria jornada de trabalho.
+[00:07:05 · 425.7s → 431.3s] Flávio Bolsonaro: Eu sempre citava o exemplo daquela mãe solo que sustenta o seu filho sozinho, que às vezes não tem com quem deixar a sua criança.
+[00:07:11 · 431.9s → 435.1s] Flávio Bolsonaro: E com essa escala seis por um engessada, ela não conseguiu um emprego.
+[00:07:15 · 435.6s → 443.0s] Flávio Bolsonaro: Então, eu sou a favor de mais liberdade, portanto, isso também pressupõe o que a escala seis por um seja extinta.
+[00:07:23 · 443.0s → 448.3s] Flávio Bolsonaro: E uma outra acontecesse, então, no meu governo eu vou garantir creche para as mães, que pode deixar as suas filhas, seus filhos.
+[00:07:28 · 448.7s → 457.1s] Flávio Bolsonaro: Onde eu não tiver vaga na rede pública, você vai ter um voucher que o governo vai bancar para você colocar a sua criança numa creche privada.
+[00:07:37 · 457.3s → 460.1s] Flávio Bolsonaro: E eu estava defendendo, por exemplo, uma mãe que só pode trabalhar de manhã, Renata.
+[00:07:40 · 460.2s → 461.8s] Flávio Bolsonaro: Só pode trabalhar quatro horas por dia.
+[00:07:41 · 461.9s → 462.8s] Flávio Bolsonaro: Ela tinha que ter esse direito.
+[00:07:43 · 463.1s → 464.7s] Renata Lo Prete: Mas a mudança de posição foi por quê?
+[00:07:44 · 464.7s → 466.1s] Flávio Bolsonaro: Eu rodei o Brasil inteiro.
+[00:07:46 · 466.2s → 467.4s] Flávio Bolsonaro: Eu ouvi muitos trabalhadores.
+[00:07:47 · 467.6s → 469.4s] Flávio Bolsonaro: E eu votei conforme o que eu ouvi nas ruas.
+[00:07:49 · 469.8s → 475.6s] Flávio Bolsonaro: Como eu ouvi da grande maioria dos trabalhadores, que eles estavam favoráveis ao fim da escala seis por um,
+[00:07:55 · 475.8s → 478.5s] Flávio Bolsonaro: eu resolvi seguir a vontade da maioria dos trabalhadores brasileiros.
+[00:07:58 · 478.5s → 483.3s] Flávio Bolsonaro: E digo mais, Renata, não pode ficar só nessa folga extra, que todo mundo tem direito de ter essa folga extra.
+[00:08:03 · 483.4s → 485.6s] Flávio Bolsonaro: Todo mundo quer trabalhar menos e ganhar mais.
+[00:08:05 · 485.7s → 493.8s] Flávio Bolsonaro: O problema é, durante essa sua folga, com mais um dia de folga, você vai continuar andando de ônibus e sendo assaltado.
+[00:08:14 · 494.2s → 499.5s] Flávio Bolsonaro: Com um dia a mais de folga, você vai continuar indo dormir preocupado porque você está devendo.
+[00:08:19 · 499.5s → 503.1s] Flávio Bolsonaro: E o seu salário não está durando até o dia 30, está durando só até o dia 20.
+[00:08:23 · 503.5s → 510.0s] Flávio Bolsonaro: Então, eu vou ser um presidente da República que, além de respeitar e garantir essa folga a mais para os trabalhadores,
+[00:08:30 · 510.3s → 513.4s] Flávio Bolsonaro: eu vou fazer de tudo também para devolver o poder de compra do povo brasileiro
+[00:08:33 · 513.4s → 517.4s] Flávio Bolsonaro: e devolver a segurança nas ruas para que todos possam andar com mais segurança.

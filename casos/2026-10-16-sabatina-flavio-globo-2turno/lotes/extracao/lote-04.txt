@@ -1,0 +1,582 @@
+LOTE 04 de 05 · janela a EXTRAIR: 00:27:02 a 00:35:38 (1622.1 s a 2138.6 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-04.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 1622.1, "fim_s": 2138.6}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+(contexto, NÃO extrair) [00:26:17 · 1577.0s] Flávio Bolsonaro: O Alexandre de Moraes
+(contexto, NÃO extrair) [00:26:18 · 1578.5s] Flávio Bolsonaro: toma uma Magnitsky
+(contexto, NÃO extrair) [00:26:19 · 1579.4s] Flávio Bolsonaro: que é uma punição
+(contexto, NÃO extrair) [00:26:20 · 1580.1s] Flávio Bolsonaro: do governo americano
+(contexto, NÃO extrair) [00:26:21 · 1581.1s] Flávio Bolsonaro: com base na lei americana
+(contexto, NÃO extrair) [00:26:22 · 1582.2s] Flávio Bolsonaro: e ele bota a culpa
+(contexto, NÃO extrair) [00:26:24 · 1584.7s] Flávio Bolsonaro: no Eduardo
+(contexto, NÃO extrair) [00:26:25 · 1585.1s] Flávio Bolsonaro: como se ele tivesse
+(contexto, NÃO extrair) [00:26:25 · 1585.5s] Flávio Bolsonaro: condições de manipular
+(contexto, NÃO extrair) [00:26:26 · 1586.7s] Flávio Bolsonaro: o presidente dos Estados Unidos,
+(contexto, NÃO extrair) [00:26:28 · 1588.4s] Flávio Bolsonaro: o Donald Trump,
+(contexto, NÃO extrair) [00:26:29 · 1589.8s] Flávio Bolsonaro: e aqui condena ele
+(contexto, NÃO extrair) [00:26:30 · 1590.5s] Flávio Bolsonaro: por estar atrapalhando
+(contexto, NÃO extrair) [00:26:31 · 1592.0s] Flávio Bolsonaro: ser uma ameaça
+(contexto, NÃO extrair) [00:26:33 · 1593.5s] Flávio Bolsonaro: ao andamento do processo
+(contexto, NÃO extrair) [00:26:34 · 1594.8s] Flávio Bolsonaro: e vai condenando
+(contexto, NÃO extrair) [00:26:35 · 1595.5s] Flávio Bolsonaro: Eduardo a alguém
+(contexto, NÃO extrair) [00:26:36 · 1596.1s] Flávio Bolsonaro: que se ele está
+(contexto, NÃO extrair) [00:26:37 · 1597.3s] Flávio Bolsonaro: se sentindo lesado
+(contexto, NÃO extrair) [00:26:38 · 1598.5s] Flávio Bolsonaro: com a Magnitsky
+(contexto, NÃO extrair) [00:26:39 · 1599.2s] Flávio Bolsonaro: e o culpado Eduardo
+(contexto, NÃO extrair) [00:26:40 · 1600.9s] Flávio Bolsonaro: como é que ele próprio
+(contexto, NÃO extrair) [00:26:41 · 1601.6s] Flávio Bolsonaro: julga o Eduardo.
+(contexto, NÃO extrair) [00:26:42 · 1602.9s] Flávio Bolsonaro: Quer dizer,
+(contexto, NÃO extrair) [00:26:43 · 1603.0s] Flávio Bolsonaro: é um processo totalmente
+(contexto, NÃO extrair) [00:26:43 · 1603.7s] Flávio Bolsonaro: viciado e nulo.
+(contexto, NÃO extrair) [00:26:45 · 1605.9s] Flávio Bolsonaro: Então,
+(contexto, NÃO extrair) [00:26:46 · 1606.3s] Flávio Bolsonaro: o Eduardo faz sim
+(contexto, NÃO extrair) [00:26:47 · 1607.3s] Flávio Bolsonaro: um trabalho brilhante.
+(contexto, NÃO extrair) [00:26:48 · 1608.3s] Flávio Bolsonaro: Ele construiu ao longo
+(contexto, NÃO extrair) [00:26:49 · 1609.7s] Flávio Bolsonaro: de mais de 10 anos
+(contexto, NÃO extrair) [00:26:50 · 1610.9s] Flávio Bolsonaro: um relacionamento internacional
+(contexto, NÃO extrair) [00:26:52 · 1612.3s] Flávio Bolsonaro: com vários líderes políticos
+(contexto, NÃO extrair) [00:26:53 · 1613.7s] Flávio Bolsonaro: conservadores
+(contexto, NÃO extrair) [00:26:54 · 1614.4s] Flávio Bolsonaro: que são de direita
+(contexto, NÃO extrair) [00:26:56 · 1616.3s] Flávio Bolsonaro: e ele tem
+(contexto, NÃO extrair) [00:26:57 · 1617.1s] Flávio Bolsonaro: o mérito dele.
+(contexto, NÃO extrair) [00:26:58 · 1618.0s] Flávio Bolsonaro: Agora,
+(contexto, NÃO extrair) [00:26:58 · 1618.3s] Flávio Bolsonaro: a questão de ser chanceler,
+(contexto, NÃO extrair) [00:26:59 · 1619.4s] Flávio Bolsonaro: ser o ministro
+(contexto, NÃO extrair) [00:26:59 · 1619.8s] Flávio Bolsonaro: ação exteriores
+(contexto, NÃO extrair) [00:27:00 · 1620.3s] Flávio Bolsonaro: aqui no Brasil
+(contexto, NÃO extrair) [00:27:00 · 1620.8s] Flávio Bolsonaro: é um outro assunto.
+─── a janela começa aqui ───
+[00:27:02 · 1622.1s → 1622.3s] Renata Lo Prete: Sim,
+[00:27:02 · 1622.5s → 1622.6s] Renata Lo Prete: então,
+[00:27:02 · 1622.8s → 1623.1s] Renata Lo Prete: só para a gente
+[00:27:03 · 1623.1s → 1624.3s] Renata Lo Prete: não perder o fio da meada,
+[00:27:04 · 1624.5s → 1624.9s] Renata Lo Prete: o senhor disse
+[00:27:04 · 1624.9s → 1625.5s] Renata Lo Prete: que seu irmão
+[00:27:05 · 1625.5s → 1626.5s] Renata Lo Prete: não será chanceler.
+[00:27:06 · 1626.7s → 1627.4s] Flávio Bolsonaro: Não será chanceler.
+[00:27:07 · 1627.6s → 1627.8s] Renata Lo Prete: Então,
+[00:27:07 · 1627.8s → 1628.1s] Renata Lo Prete: tá bom.
+[00:27:08 · 1628.1s → 1629.6s] Renata Lo Prete: Ainda falando sobre escolhas,
+[00:27:10 · 1630.2s → 1630.7s] Renata Lo Prete: eu quero lhe ouvir
+[00:27:10 · 1630.7s → 1631.9s] Renata Lo Prete: sobre as Forças Armadas
+[00:27:11 · 1631.9s → 1632.9s] Renata Lo Prete: porque elas passaram
+[00:27:12 · 1632.9s → 1634.1s] Renata Lo Prete: nos últimos quatro anos
+[00:27:14 · 1634.1s → 1635.1s] Renata Lo Prete: por um processo
+[00:27:15 · 1635.1s → 1636.2s] Renata Lo Prete: de afastamento
+[00:27:16 · 1636.2s → 1636.9s] Renata Lo Prete: dos quartéis
+[00:27:16 · 1636.9s → 1637.6s] Renata Lo Prete: da política
+[00:27:17 · 1637.6s → 1638.8s] Renata Lo Prete: como resposta
+[00:27:18 · 1638.8s → 1640.0s] Renata Lo Prete: ao dano de reputação
+[00:27:20 · 1640.0s → 1641.1s] Renata Lo Prete: por envolvimentos
+[00:27:21 · 1641.1s → 1641.9s] Renata Lo Prete: de militares
+[00:27:21 · 1641.9s → 1642.9s] Renata Lo Prete: na tentativa de golpe.
+[00:27:23 · 1643.3s → 1644.1s] Renata Lo Prete: Se o senhor vencer,
+[00:27:24 · 1644.6s → 1645.6s] Renata Lo Prete: o senhor vai exigir
+[00:27:25 · 1645.6s → 1647.1s] Renata Lo Prete: dos próximos presidentes
+[00:27:27 · 1647.1s → 1647.9s] Renata Lo Prete: do Exército,
+[00:27:28 · 1648.1s → 1648.8s] Renata Lo Prete: da Marinha
+[00:27:28 · 1648.8s → 1649.8s] Renata Lo Prete: e da Aeronáutica
+[00:27:29 · 1649.8s → 1651.2s] Renata Lo Prete: que endossem
+[00:27:31 · 1651.2s → 1652.4s] Renata Lo Prete: a sua visão
+[00:27:32 · 1652.4s → 1655.8s] Renata Lo Prete: dos eventos
+[00:27:35 · 1655.8s → 1656.6s] Renata Lo Prete: da transição
+[00:27:36 · 1656.6s → 1657.4s] Renata Lo Prete: de 2022
+[00:27:37 · 1657.4s → 1658.7s] Renata Lo Prete: e do 8 de janeiro
+[00:27:38 · 1658.7s → 1659.4s] Renata Lo Prete: de 2023?
+[00:27:39 · 1659.6s → 1659.8s] Flávio Bolsonaro: Olha,
+[00:27:39 · 1659.8s → 1660.4s] Flávio Bolsonaro: essa farsa
+[00:27:40 · 1660.4s → 1661.3s] Flávio Bolsonaro: a história vai mostrar
+[00:27:41 · 1661.3s → 1662.2s] Flávio Bolsonaro: que foi algo
+[00:27:42 · 1662.2s → 1663.2s] Flávio Bolsonaro: totalmente armado
+[00:27:43 · 1663.2s → 1664.5s] Flávio Bolsonaro: para tentar tirar
+[00:27:44 · 1664.5s → 1665.0s] Flávio Bolsonaro: Bolsonaro
+[00:27:44 · 1665.0s → 1665.8s] Flávio Bolsonaro: da vida pública.
+[00:27:46 · 1666.3s → 1667.2s] Flávio Bolsonaro: Só que para desespero
+[00:27:47 · 1667.2s → 1668.3s] Flávio Bolsonaro: de quem tentou fazer isso
+[00:27:48 · 1668.3s → 1668.9s] Flávio Bolsonaro: achando que ia acabar
+[00:27:48 · 1668.9s → 1670.0s] Flávio Bolsonaro: com o bolsonarismo,
+[00:27:50 · 1670.3s → 1671.4s] Flávio Bolsonaro: tá que o Flávio Bolsonaro
+[00:27:51 · 1671.4s → 1672.3s] Flávio Bolsonaro: em nome de Jesus
+[00:27:52 · 1672.3s → 1672.9s] Flávio Bolsonaro: vai ser o próximo
+[00:27:52 · 1672.9s → 1673.8s] Flávio Bolsonaro: presidente da república.
+[00:27:53 · 1673.9s → 1674.0s] Flávio Bolsonaro: Agora,
+[00:27:54 · 1674.1s → 1674.6s] Flávio Bolsonaro: no meu governo,
+[00:27:54 · 1674.7s → 1674.9s] Flávio Bolsonaro: Renato,
+[00:27:55 · 1675.3s → 1676.2s] Flávio Bolsonaro: as Forças Armadas
+[00:27:56 · 1676.2s → 1676.8s] Flávio Bolsonaro: vão tomar conta
+[00:27:56 · 1676.8s → 1677.7s] Flávio Bolsonaro: das fronteiras.
+[00:27:58 · 1678.4s → 1679.5s] Flávio Bolsonaro: Um dos meus primeiros atos
+[00:27:59 · 1679.5s → 1680.2s] Flávio Bolsonaro: como presidente
+[00:28:00 · 1680.2s → 1680.7s] Flávio Bolsonaro: da república
+[00:28:00 · 1680.7s → 1681.6s] Flávio Bolsonaro: vai ser juntar
+[00:28:01 · 1681.6s → 1682.4s] Flávio Bolsonaro: os comandantes
+[00:28:02 · 1682.4s → 1683.1s] Flávio Bolsonaro: do Exército,
+[00:28:03 · 1683.2s → 1684.0s] Flávio Bolsonaro: Marinha Aeronáutica,
+[00:28:04 · 1684.7s → 1686.5s] Flávio Bolsonaro: os chefes
+[00:28:06 · 1686.5s → 1687.0s] Flávio Bolsonaro: das polícias
+[00:28:07 · 1687.0s → 1687.7s] Flávio Bolsonaro: estaduais.
+[00:28:07 · 1687.8s → 1688.7s] Flávio Bolsonaro: Vou fazer uma grande
+[00:28:08 · 1688.7s → 1689.2s] Flávio Bolsonaro: reunião
+[00:28:09 · 1689.2s → 1690.6s] Flávio Bolsonaro: para a gente iniciar,
+[00:28:10 · 1690.6s → 1691.8s] Flávio Bolsonaro: vamos declarar guerra
+[00:28:11 · 1691.8s → 1693.3s] Flávio Bolsonaro: ao narcotráfico
+[00:28:13 · 1693.3s → 1694.0s] Flávio Bolsonaro: aqui no Brasil
+[00:28:13 · 1694.0s → 1694.8s] Flávio Bolsonaro: a partir de janeiro
+[00:28:14 · 1694.8s → 1695.4s] Flávio Bolsonaro: do ano que vem.
+[00:28:15 · 1695.5s → 1696.4s] Flávio Bolsonaro: eu vou declarar
+[00:28:16 · 1696.4s → 1697.1s] Flávio Bolsonaro: comando vermelho,
+[00:28:17 · 1697.2s → 1698.1s] Flávio Bolsonaro: PCC e milícias
+[00:28:18 · 1698.1s → 1699.4s] Flávio Bolsonaro: como organizações
+[00:28:19 · 1699.4s → 1700.6s] Flávio Bolsonaro: narcoterroristas
+[00:28:20 · 1700.6s → 1701.4s] Flávio Bolsonaro: que é o que eles são.
+[00:28:21 · 1701.9s → 1702.4s] Flávio Bolsonaro: Porque não dá
+[00:28:22 · 1702.4s → 1703.1s] Flávio Bolsonaro: para admitir aqui
+[00:28:23 · 1703.1s → 1704.0s] Flávio Bolsonaro: no Porto de Santos
+[00:28:23 · 1704.0s → 1705.5s] Flávio Bolsonaro: mais um recorde
+[00:28:25 · 1705.5s → 1706.4s] Flávio Bolsonaro: negativo do Lula,
+[00:28:26 · 1706.7s → 1707.6s] Flávio Bolsonaro: o Porto de Santos
+[00:28:27 · 1707.6s → 1708.1s] Flávio Bolsonaro: que é uma área
+[00:28:28 · 1708.1s → 1709.0s] Flávio Bolsonaro: da União,
+[00:28:29 · 1709.1s → 1709.8s] Flávio Bolsonaro: do governo federal,
+[00:28:30 · 1710.4s → 1711.3s] Flávio Bolsonaro: é o segundo maior
+[00:28:31 · 1711.3s → 1712.4s] Flávio Bolsonaro: porto exportador
+[00:28:32 · 1712.4s → 1713.4s] Flávio Bolsonaro: de cocaína do mundo.
+[00:28:33 · 1713.7s → 1713.9s] Flávio Bolsonaro: Então,
+[00:28:34 · 1714.0s → 1714.8s] Flávio Bolsonaro: a Marinha vai ter
+[00:28:34 · 1714.8s → 1715.9s] Flávio Bolsonaro: uma tropa de elite
+[00:28:35 · 1715.9s → 1716.9s] Flávio Bolsonaro: ali tomando conta
+[00:28:36 · 1716.9s → 1717.6s] Flávio Bolsonaro: do Porto de Santos
+[00:28:37 · 1717.6s → 1718.2s] Flávio Bolsonaro: para combater
+[00:28:38 · 1718.2s → 1719.1s] Flávio Bolsonaro: o tráfico internacional
+[00:28:39 · 1719.1s → 1720.2s] Flávio Bolsonaro: de drogas.
+[00:28:40 · 1720.3s → 1720.8s] Flávio Bolsonaro: Como o Exército
+[00:28:40 · 1720.8s → 1721.9s] Flávio Bolsonaro: e a Força Aérea
+[00:28:41 · 1721.9s → 1722.6s] Flávio Bolsonaro: vão fazer também
+[00:28:42 · 1722.6s → 1723.9s] Flávio Bolsonaro: na região amazônica,
+[00:28:43 · 1723.9s → 1724.5s] Flávio Bolsonaro: na fronteira
+[00:28:44 · 1724.5s → 1725.2s] Flávio Bolsonaro: com a Bolívia.
+[00:28:45 · 1725.6s → 1726.8s] Flávio Bolsonaro: Eu vou assinar,
+[00:28:46 · 1726.9s → 1727.7s] Flávio Bolsonaro: o Brasil vai fazer
+[00:28:47 · 1727.7s → 1728.6s] Flávio Bolsonaro: parte do escudo
+[00:28:48 · 1728.6s → 1729.3s] Flávio Bolsonaro: das Américas
+[00:28:49 · 1729.3s → 1730.3s] Flávio Bolsonaro: para ter intercâmbio
+[00:28:50 · 1730.3s → 1731.1s] Flávio Bolsonaro: de informação
+[00:28:51 · 1731.1s → 1732.0s] Flávio Bolsonaro: e de inteligência
+[00:28:51 · 1732.0s → 1732.7s] Flávio Bolsonaro: para a gente combater
+[00:28:52 · 1732.7s → 1733.4s] Flávio Bolsonaro: o terrorismo
+[00:28:53 · 1733.4s → 1734.9s] Flávio Bolsonaro: aqui na Tríplice Fronteira,
+[00:28:55 · 1735.2s → 1736.7s] Flávio Bolsonaro: na região de Foz do Iguaçu.
+[00:28:56 · 1737.0s → 1737.7s] Flávio Bolsonaro: E as Forças Armadas
+[00:28:57 · 1737.7s → 1738.3s] Flávio Bolsonaro: vão trabalhar
+[00:28:58 · 1738.3s → 1739.5s] Flávio Bolsonaro: para resgatar
+[00:28:59 · 1739.5s → 1740.8s] Flávio Bolsonaro: a nossa soberania,
+[00:29:01 · 1741.3s → 1741.7s] Flávio Bolsonaro: vão trabalhar
+[00:29:01 · 1741.7s → 1742.4s] Flávio Bolsonaro: para tomar conta
+[00:29:02 · 1742.4s → 1743.3s] Flávio Bolsonaro: das nossas fronteiras.
+[00:29:03 · 1743.5s → 1744.1s] Flávio Bolsonaro: As Forças Armadas
+[00:29:04 · 1744.1s → 1744.8s] Flávio Bolsonaro: foram completamente
+[00:29:04 · 1744.8s → 1745.9s] Flávio Bolsonaro: sucateadas
+[00:29:05 · 1745.9s → 1747.4s] Flávio Bolsonaro: durante o atual governo
+[00:29:07 · 1747.4s → 1748.4s] Flávio Bolsonaro: e eles vão voltar
+[00:29:08 · 1748.4s → 1749.5s] Flávio Bolsonaro: a ser valorizados,
+[00:29:09 · 1749.7s → 1750.3s] Flávio Bolsonaro: motivados
+[00:29:10 · 1750.3s → 1751.0s] Flávio Bolsonaro: e vão ter
+[00:29:11 · 1751.0s → 1751.4s] Flávio Bolsonaro: esse trabalho
+[00:29:11 · 1751.4s → 1752.4s] Flávio Bolsonaro: muito nobre
+[00:29:12 · 1752.4s → 1753.3s] Flávio Bolsonaro: em parceria
+[00:29:13 · 1753.3s → 1753.8s] Flávio Bolsonaro: com as Forças
+[00:29:13 · 1753.8s → 1754.6s] Flávio Bolsonaro: de Segurança Estaduais.
+[00:29:14 · 1754.8s → 1755.3s] Renata Lo Prete: Deixa eu lhe fazer
+[00:29:15 · 1755.3s → 1755.9s] Renata Lo Prete: uma pergunta
+[00:29:15 · 1755.9s → 1756.6s] Renata Lo Prete: sobre um assunto
+[00:29:16 · 1756.6s → 1757.1s] Renata Lo Prete: correlato
+[00:29:17 · 1757.1s → 1758.2s] Renata Lo Prete: que é o 8 de janeiro
+[00:29:18 · 1758.2s → 1758.7s] Renata Lo Prete: e eu vou ficar
+[00:29:18 · 1758.7s → 1759.7s] Renata Lo Prete: só nos fatos
+[00:29:19 · 1759.7s → 1760.7s] Renata Lo Prete: do 8 de janeiro.
+[00:29:20 · 1760.9s → 1761.4s] Renata Lo Prete: As sedes
+[00:29:21 · 1761.4s → 1762.2s] Renata Lo Prete: dos três poderes
+[00:29:22 · 1762.2s → 1763.4s] Renata Lo Prete: foram invadidas,
+[00:29:23 · 1763.8s → 1764.5s] Renata Lo Prete: os invasores
+[00:29:24 · 1764.5s → 1765.8s] Renata Lo Prete: quebraram vidros,
+[00:29:25 · 1765.9s → 1766.9s] Renata Lo Prete: invadiram salas,
+[00:29:26 · 1767.0s → 1768.0s] Renata Lo Prete: depredaram salas,
+[00:29:28 · 1768.1s → 1769.1s] Renata Lo Prete: objetos de arte,
+[00:29:29 · 1769.5s → 1770.7s] Renata Lo Prete: atacaram policiais
+[00:29:30 · 1770.7s → 1771.4s] Renata Lo Prete: com pedras,
+[00:29:31 · 1771.6s → 1772.7s] Renata Lo Prete: coquetails molotov,
+[00:29:32 · 1772.8s → 1773.7s] Renata Lo Prete: barras de ferro
+[00:29:33 · 1773.7s → 1774.8s] Renata Lo Prete: e chegaram a roubar
+[00:29:34 · 1774.8s → 1776.1s] Renata Lo Prete: armas do gabinete
+[00:29:36 · 1776.1s → 1777.6s] Renata Lo Prete: de segurança institucional.
+[00:29:37 · 1777.7s → 1779.1s] Renata Lo Prete: O senhor considera
+[00:29:39 · 1779.1s → 1779.6s] Renata Lo Prete: que pessoas
+[00:29:39 · 1779.6s → 1780.6s] Renata Lo Prete: que fazem isso
+[00:29:40 · 1780.6s → 1781.5s] Renata Lo Prete: devem ser punidas
+[00:29:41 · 1781.5s → 1782.2s] Renata Lo Prete: de que forma?
+[00:29:43 · 1783.0s → 1783.8s] Flávio Bolsonaro: Dentro da lei,
+[00:29:44 · 1784.7s → 1785.9s] Flávio Bolsonaro: conforme na proporção
+[00:29:45 · 1785.9s → 1786.8s] Flávio Bolsonaro: dos crimes
+[00:29:46 · 1786.8s → 1787.5s] Flávio Bolsonaro: que eles cometeram,
+[00:29:47 · 1787.6s → 1789.1s] Flávio Bolsonaro: depredação de patrimônio público,
+[00:29:49 · 1789.5s → 1790.4s] Flávio Bolsonaro: agredir um policial
+[00:29:50 · 1790.4s → 1791.2s] Flávio Bolsonaro: é inaceitável,
+[00:29:51 · 1791.2s → 1792.1s] Flávio Bolsonaro: não tem justificativa
+[00:29:52 · 1792.1s → 1792.5s] Flávio Bolsonaro: para isso.
+[00:29:52 · 1792.9s → 1793.1s] Flávio Bolsonaro: Agora,
+[00:29:53 · 1793.2s → 1793.8s] Flávio Bolsonaro: não dá para você
+[00:29:53 · 1793.8s → 1794.6s] Flávio Bolsonaro: querer dizer
+[00:29:54 · 1794.6s → 1795.3s] Flávio Bolsonaro: que uma senhorinha
+[00:29:55 · 1795.3s → 1795.9s] Flávio Bolsonaro: com bíblia,
+[00:29:56 · 1796.0s → 1796.7s] Flávio Bolsonaro: um cara vendendo
+[00:29:56 · 1796.7s → 1797.1s] Flávio Bolsonaro: pão,
+[00:29:57 · 1797.3s → 1798.3s] Flávio Bolsonaro: pão,
+[00:29:58 · 1798.3s → 1798.7s] Flávio Bolsonaro: pão,
+[00:29:59 · 1799.5s → 1801.2s] Flávio Bolsonaro: algodão doce
+[00:30:01 · 1801.2s → 1802.4s] Flávio Bolsonaro: no meio da manifestação
+[00:30:02 · 1802.4s → 1802.9s] Flávio Bolsonaro: está tentando
+[00:30:02 · 1802.9s → 1803.3s] Flávio Bolsonaro: dar um golpe.
+[00:30:03 · 1803.4s → 1803.7s] Flávio Bolsonaro: Vocês acham o quê?
+[00:30:03 · 1803.8s → 1804.4s] Flávio Bolsonaro: Quer sentar
+[00:30:04 · 1804.4s → 1805.5s] Flávio Bolsonaro: uma senhorinha lá
+[00:30:05 · 1805.5s → 1806.3s] Flávio Bolsonaro: na cadeira de presidente
+[00:30:06 · 1806.3s → 1806.8s] Flávio Bolsonaro: da república
+[00:30:06 · 1806.8s → 1807.4s] Flávio Bolsonaro: e dar ordem
+[00:30:07 · 1807.4s → 1807.7s] Flávio Bolsonaro: e todo mundo
+[00:30:07 · 1807.7s → 1808.5s] Flávio Bolsonaro: começar a cumprir
+[00:30:08 · 1808.5s → 1811.1s] Flávio Bolsonaro: uma tentativa de golpe
+[00:30:11 · 1811.1s → 1812.2s] Flávio Bolsonaro: em prédios vazios.
+[00:30:12 · 1812.6s → 1812.9s] Flávio Bolsonaro: Hoje,
+[00:30:13 · 1813.0s → 1814.3s] Flávio Bolsonaro: o golpe que está acontecendo
+[00:30:14 · 1814.3s → 1815.9s] Flávio Bolsonaro: é o do atual presidente.
+[00:30:16 · 1816.6s → 1817.4s] Flávio Bolsonaro: O golpe que ele
+[00:30:17 · 1817.4s → 1818.3s] Flávio Bolsonaro: se vinga,
+[00:30:18 · 1818.4s → 1818.8s] Flávio Bolsonaro: por exemplo,
+[00:30:19 · 1819.3s → 1820.3s] Flávio Bolsonaro: dos moradores,
+[00:30:20 · 1820.8s → 1821.7s] Flávio Bolsonaro: que os motoboys
+[00:30:21 · 1821.7s → 1822.3s] Flávio Bolsonaro: de São Paulo,
+[00:30:22 · 1822.6s → 1823.4s] Flávio Bolsonaro: por causa do prefeito
+[00:30:23 · 1823.4s → 1824.1s] Flávio Bolsonaro: Ricardo Nunes
+[00:30:24 · 1824.1s → 1825.3s] Flávio Bolsonaro: que é opositor a ele.
+[00:30:25 · 1825.5s → 1825.9s] Flávio Bolsonaro: O que acontece?
+[00:30:26 · 1826.0s → 1826.8s] Flávio Bolsonaro: Uma canetada,
+[00:30:27 · 1827.1s → 1828.1s] Flávio Bolsonaro: ao invés dele autorizar
+[00:30:28 · 1828.1s → 1829.1s] Flávio Bolsonaro: a prefeitura
+[00:30:29 · 1829.1s → 1830.1s] Flávio Bolsonaro: a fazer a faixa azul
+[00:30:30 · 1830.1s → 1831.4s] Flávio Bolsonaro: para proteger os motoboys
+[00:30:31 · 1831.4s → 1832.2s] Flávio Bolsonaro: a andarem com segurança
+[00:30:32 · 1832.2s → 1832.9s] Flávio Bolsonaro: nas ruas,
+[00:30:33 · 1833.3s → 1834.2s] Flávio Bolsonaro: ele, por birra
+[00:30:34 · 1834.2s → 1835.5s] Flávio Bolsonaro: com o Ricardo Nunes,
+[00:30:35 · 1835.8s → 1837.1s] Flávio Bolsonaro: ele fica punindo
+[00:30:37 · 1837.1s → 1839.4s] Flávio Bolsonaro: os motoboys
+[00:30:39 · 1839.4s → 1840.0s] Flávio Bolsonaro: que merecem
+[00:30:40 · 1840.0s → 1841.1s] Flávio Bolsonaro: trabalhar dignamente.
+[00:30:41 · 1841.5s → 1842.4s] Flávio Bolsonaro: Uma série de coisas
+[00:30:42 · 1842.4s → 1843.2s] Flávio Bolsonaro: que podem ser feitas
+[00:30:43 · 1843.2s → 1843.9s] Flávio Bolsonaro: para essa categoria
+[00:30:43 · 1843.9s → 1844.4s] Flávio Bolsonaro: e esse governo
+[00:30:44 · 1844.4s → 1845.2s] Flávio Bolsonaro: está se vingando
+[00:30:45 · 1845.2s → 1846.1s] Flávio Bolsonaro: por causa
+[00:30:46 · 1846.1s → 1848.5s] Flávio Bolsonaro: da sua contrariedade política,
+[00:30:48 · 1848.9s → 1849.9s] Flávio Bolsonaro: da coloração partidária
+[00:30:49 · 1849.9s → 1850.6s] Flávio Bolsonaro: de quem é o prefeito.
+[00:30:51 · 1851.1s → 1851.8s] Flávio Bolsonaro: Mais uma vez,
+[00:30:51 · 1851.8s → 1852.6s] Flávio Bolsonaro: o prefeito Ricardo Nunes
+[00:30:52 · 1852.6s → 1853.2s] Flávio Bolsonaro: tentou pegar,
+[00:30:53 · 1853.2s → 1853.5s] Flávio Bolsonaro: o Renato,
+[00:30:53 · 1853.6s → 1854.2s] Flávio Bolsonaro: um empréstimo
+[00:30:54 · 1854.2s → 1855.7s] Flávio Bolsonaro: com o aval da União
+[00:30:55 · 1855.7s → 1856.4s] Flávio Bolsonaro: para investir
+[00:30:56 · 1856.4s → 1857.1s] Flávio Bolsonaro: na saúde
+[00:30:57 · 1857.1s → 1858.1s] Flávio Bolsonaro: do povo paulistano
+[00:30:58 · 1858.1s → 1859.2s] Flávio Bolsonaro: e o Lula não dava,
+[00:30:59 · 1859.3s → 1860.2s] Flávio Bolsonaro: teve que entrar na justiça
+[00:31:00 · 1860.2s → 1860.9s] Flávio Bolsonaro: para poder botar
+[00:31:00 · 1860.9s → 1861.4s] Flávio Bolsonaro: mais dinheiro
+[00:31:01 · 1861.4s → 1862.2s] Flávio Bolsonaro: na saúde de São Paulo.
+[00:31:02 · 1862.5s → 1863.4s] Flávio Bolsonaro: Esse aqui é o golpe
+[00:31:03 · 1863.4s → 1864.1s] Flávio Bolsonaro: que o Lula está dando.
+[00:31:04 · 1864.1s → 1864.5s] Renata Lo Prete: Só para a gente
+[00:31:04 · 1864.5s → 1865.5s] Renata Lo Prete: não se perder de assunto,
+[00:31:05 · 1865.8s → 1866.2s] Renata Lo Prete: eu acho que eu fui
+[00:31:06 · 1866.2s → 1867.0s] Renata Lo Prete: bastante explícita.
+[00:31:07 · 1867.1s → 1867.6s] Renata Lo Prete: Eu estava falando
+[00:31:07 · 1867.6s → 1868.6s] Renata Lo Prete: de gente que depredou
+[00:31:08 · 1868.6s → 1869.4s] Renata Lo Prete: patrimônio,
+[00:31:09 · 1869.5s → 1870.6s] Renata Lo Prete: que destruiu prédios,
+[00:31:10 · 1870.7s → 1871.8s] Renata Lo Prete: que atacou policiais,
+[00:31:11 · 1871.9s → 1873.0s] Renata Lo Prete: é desse tipo de conduta
+[00:31:13 · 1873.0s → 1873.9s] Renata Lo Prete: que eu estava querendo saber
+[00:31:13 · 1873.9s → 1876.4s] Renata Lo Prete: o que o senhor
+[00:31:16 · 1876.4s → 1878.0s] Renata Lo Prete: acha que precisa ser feito
+[00:31:17 · 1878.0s → 1878.4s] Renata Lo Prete: com pessoas
+[00:31:18 · 1878.4s → 1879.4s] Renata Lo Prete: que fazem esse tipo de coisa.
+[00:31:20 · 1880.1s → 1880.9s] Renata Lo Prete: Uma última pergunta,
+[00:31:21 · 1881.1s → 1881.7s] Renata Lo Prete: nesse bloco,
+[00:31:21 · 1881.8s → 1883.2s] Renata Lo Prete: se o senhor perder candidato,
+[00:31:23 · 1883.3s → 1884.1s] Renata Lo Prete: o senhor vai respeitar
+[00:31:24 · 1884.1s → 1885.0s] Renata Lo Prete: o resultado das urnas?
+[00:31:25 · 1885.0s → 1886.4s] Flávio Bolsonaro: Eu vou disputar as eleições
+[00:31:26 · 1886.4s → 1887.5s] Flávio Bolsonaro: com as áreas que estão aí.
+[00:31:28 · 1888.6s → 1889.6s] Flávio Bolsonaro: Independente de qual for o resultado,
+[00:31:29 · 1889.6s → 1890.1s] Flávio Bolsonaro: eu vou respeitar.
+[00:31:30 · 1890.2s → 1891.1s] Flávio Bolsonaro: Só que eu tenho a convicção
+[00:31:31 · 1891.1s → 1892.6s] Flávio Bolsonaro: que o Brasil já escolheu
+[00:31:32 · 1892.6s → 1893.0s] Flávio Bolsonaro: a mudança.
+[00:31:33 · 1893.6s → 1894.3s] Flávio Bolsonaro: E no primeiro turno
+[00:31:34 · 1894.3s → 1894.9s] Flávio Bolsonaro: foi assim.
+[00:31:34 · 1895.0s → 1895.4s] Flávio Bolsonaro: No primeiro turno,
+[00:31:35 · 1895.5s → 1896.4s] Flávio Bolsonaro: o Brasil já escolheu
+[00:31:36 · 1896.4s → 1896.7s] Flávio Bolsonaro: a mudança.
+[00:31:36 · 1896.8s → 1897.3s] Flávio Bolsonaro: E no segundo,
+[00:31:37 · 1897.7s → 1898.8s] Flávio Bolsonaro: vai continuar escolhendo
+[00:31:38 · 1898.8s → 1899.2s] Flávio Bolsonaro: a mudança.
+[00:31:39 · 1899.6s → 1901.1s] Flávio Bolsonaro: Porque ninguém aguenta mais
+[00:31:41 · 1901.1s → 1901.5s] Flávio Bolsonaro: um governo
+[00:31:41 · 1901.5s → 1902.3s] Flávio Bolsonaro: um governo que é recordista
+[00:31:42 · 1902.3s → 1904.2s] Flávio Bolsonaro: em assassinatos de mulheres,
+[00:31:44 · 1904.6s → 1905.5s] Flávio Bolsonaro: um governo que é recordista
+[00:31:45 · 1905.5s → 1906.8s] Flávio Bolsonaro: em mulheres que são espancadas,
+[00:31:47 · 1907.1s → 1908.1s] Flávio Bolsonaro: um governo que é recordista
+[00:31:48 · 1908.1s → 1909.1s] Flávio Bolsonaro: em queimadas na Amazônia,
+[00:31:49 · 1909.2s → 1909.7s] Flávio Bolsonaro: esse foi em outubro,
+[00:31:50 · 1910.1s → 1911.3s] Flávio Bolsonaro: com maior queimada
+[00:31:51 · 1911.3s → 1912.1s] Flávio Bolsonaro: na história
+[00:31:52 · 1912.1s → 1913.6s] Flávio Bolsonaro: da nação brasileira,
+[00:31:53 · 1913.9s → 1915.4s] Flávio Bolsonaro: um governo que é recordista
+[00:31:55 · 1915.4s → 1916.4s] Flávio Bolsonaro: em criminalidade,
+[00:31:56 · 1916.7s → 1917.8s] Flávio Bolsonaro: um governo que é recordista
+[00:31:57 · 1917.8s → 1919.2s] Flávio Bolsonaro: em pessoas endividadas,
+[00:31:59 · 1919.5s → 1920.4s] Flávio Bolsonaro: um governo que é recordista
+[00:32:00 · 1920.4s → 1921.7s] Flávio Bolsonaro: em empresas que são fechadas,
+[00:32:01 · 1922.0s → 1922.9s] Flávio Bolsonaro: um governo que é recordista
+[00:32:02 · 1922.9s → 1923.8s] Flávio Bolsonaro: em indústrias que deixam o Brasil
+[00:32:03 · 1923.8s → 1924.5s] Flávio Bolsonaro: e vão para o Paraguai,
+[00:32:04 · 1924.8s → 1925.9s] Flávio Bolsonaro: um governo que é um caos,
+[00:32:06 · 1926.0s → 1927.3s] Flávio Bolsonaro: o Brasil está sem presidente.
+[00:32:07 · 1927.7s → 1928.9s] Flávio Bolsonaro: Mas calma que é por pouco tempo
+[00:32:08 · 1928.9s → 1929.6s] Flávio Bolsonaro: que o Flávio Bolsonaro
+[00:32:09 · 1929.6s → 1930.1s] Flávio Bolsonaro: está chegando.
+[00:32:10 · 1930.2s → 1930.6s] Renata Lo Prete: Candidato,
+[00:32:10 · 1930.7s → 1931.3s] Renata Lo Prete: estou entendendo então
+[00:32:11 · 1931.3s → 1932.1s] Renata Lo Prete: que o senhor respondeu
+[00:32:12 · 1932.1s → 1933.5s] Renata Lo Prete: a pergunta de se vai respeitar
+[00:32:13 · 1933.5s → 1934.3s] Renata Lo Prete: o resultado das urnas.
+[00:32:14 · 1934.3s → 1934.7s] Flávio Bolsonaro: Eu já aproveitei
+[00:32:14 · 1934.7s → 1935.4s] Flávio Bolsonaro: para falar mais das coisas.
+[00:32:15 · 1935.6s → 1936.2s] Renata Lo Prete: É, eu percebi.
+[00:32:16 · 1936.3s → 1937.1s] Renata Lo Prete: Agora eu vou pedir para o senhor
+[00:32:17 · 1937.1s → 1937.8s] Renata Lo Prete: um instante,
+[00:32:18 · 1938.1s → 1938.7s] Renata Lo Prete: a gente vai fazer
+[00:32:18 · 1938.7s → 1939.8s] Renata Lo Prete: um rápido intervalo
+[00:32:19 · 1939.8s → 1940.8s] Renata Lo Prete: e volta já já
+[00:32:20 · 1940.8s → 1941.5s] Renata Lo Prete: com a entrevista
+[00:32:21 · 1941.5s → 1942.3s] Renata Lo Prete: com o Flávio Bolsonaro.
+[00:32:24 · 1944.2s → 1945.0s] Renata Lo Prete: Estamos de volta
+[00:32:25 · 1945.0s → 1946.5s] Renata Lo Prete: para o segundo e último bloco
+[00:32:26 · 1946.5s → 1947.1s] Renata Lo Prete: da entrevista
+[00:32:27 · 1947.1s → 1948.1s] Renata Lo Prete: com o Flávio Bolsonaro
+[00:32:28 · 1948.1s → 1949.0s] Renata Lo Prete: que concorre
+[00:32:28 · 1949.0s → 1950.4s] Renata Lo Prete: à presidência pelo PL.
+[00:32:30 · 1950.7s → 1952.4s] Renata Lo Prete: E o tempo volta a ser contado
+[00:32:32 · 1952.4s → 1954.1s] Renata Lo Prete: a partir de agora, candidato.
+[00:32:34 · 1954.5s → 1955.1s] Renata Lo Prete: Quero ouvir o senhor
+[00:32:35 · 1955.1s → 1955.9s] Renata Lo Prete: sobre um tema
+[00:32:35 · 1955.9s → 1957.0s] Renata Lo Prete: a respeito do qual
+[00:32:36 · 1957.0s → 1957.9s] Renata Lo Prete: assessores seus
+[00:32:37 · 1957.9s → 1959.0s] Renata Lo Prete: têm falado bastante.
+[00:32:39 · 1959.5s → 1959.9s] Renata Lo Prete: Armas.
+[00:32:40 · 1960.6s → 1961.6s] Renata Lo Prete: No governo do seu pai,
+[00:32:41 · 1961.7s → 1962.4s] Renata Lo Prete: o senhor atuou
+[00:32:42 · 1962.4s → 1963.4s] Renata Lo Prete: para tentar aprovar
+[00:32:43 · 1963.4s → 1964.1s] Renata Lo Prete: no Senado
+[00:32:44 · 1964.1s → 1965.0s] Renata Lo Prete: um projeto
+[00:32:45 · 1965.0s → 1966.0s] Renata Lo Prete: que retiraria
+[00:32:46 · 1966.0s → 1967.0s] Renata Lo Prete: a marca,
+[00:32:47 · 1967.1s → 1968.0s] Renata Lo Prete: a marcação
+[00:32:48 · 1968.0s → 1969.3s] Renata Lo Prete: das cápsulas
+[00:32:49 · 1969.3s → 1970.2s] Renata Lo Prete: de balas
+[00:32:50 · 1970.2s → 1970.8s] Renata Lo Prete: compradas
+[00:32:50 · 1970.8s → 1971.4s] Renata Lo Prete: para uso
+[00:32:51 · 1971.4s → 1972.4s] Renata Lo Prete: da força de segurança.
+[00:32:53 · 1973.0s → 1973.6s] Renata Lo Prete: Queria entender
+[00:32:53 · 1973.6s → 1974.7s] Renata Lo Prete: qual é o sentido
+[00:32:54 · 1974.7s → 1975.5s] Renata Lo Prete: dessa medida
+[00:32:55 · 1975.5s → 1976.6s] Renata Lo Prete: porque a eliminação
+[00:32:56 · 1976.6s → 1977.5s] Renata Lo Prete: desse registro
+[00:32:57 · 1977.5s → 1978.4s] Renata Lo Prete: compromete
+[00:32:58 · 1978.4s → 1980.1s] Renata Lo Prete: tanto a investigação
+[00:33:00 · 1980.1s → 1981.2s] Renata Lo Prete: de autoria de crimes
+[00:33:01 · 1981.2s → 1983.1s] Renata Lo Prete: quanto a possibilidade
+[00:33:03 · 1983.1s → 1983.7s] Renata Lo Prete: de descobrir
+[00:33:03 · 1983.7s → 1985.0s] Renata Lo Prete: como é que armas legais
+[00:33:04 · 1985.0s → 1985.8s] Renata Lo Prete: vão parar na mão
+[00:33:05 · 1985.8s → 1986.9s] Renata Lo Prete: do crime organizado.
+[00:33:07 · 1987.5s → 1988.8s] Renata Lo Prete: O senhor pode explicar
+[00:33:08 · 1988.8s → 1989.3s] Renata Lo Prete: essa posição?
+[00:33:10 · 1990.2s → 1990.9s] Flávio Bolsonaro: Olha, o que eu sei
+[00:33:10 · 1990.9s → 1991.5s] Flávio Bolsonaro: hoje, Renata,
+[00:33:11 · 1991.5s → 1992.4s] Flávio Bolsonaro: é que quem está
+[00:33:12 · 1992.4s → 1993.3s] Flávio Bolsonaro: autorizado
+[00:33:13 · 1993.3s → 1994.3s] Flávio Bolsonaro: a usar armas de guerra,
+[00:33:14 · 1994.4s → 1994.7s] Flávio Bolsonaro: inclusive,
+[00:33:14 · 1994.8s → 1995.4s] Flávio Bolsonaro: são os bandidos.
+[00:33:16 · 1996.3s → 1997.9s] Flávio Bolsonaro: Olha o local
+[00:33:17 · 1997.9s → 1999.2s] Flávio Bolsonaro: onde o ex-ministro
+[00:33:19 · 1999.2s → 2000.1s] Flávio Bolsonaro: da Justiça de Lula
+[00:33:20 · 2000.1s → 2001.4s] Flávio Bolsonaro: entrou sem nenhum
+[00:33:21 · 2001.4s → 2002.2s] Flávio Bolsonaro: policial,
+[00:33:22 · 2002.3s → 2002.9s] Flávio Bolsonaro: sem nenhum de segurança,
+[00:33:23 · 2003.0s → 2003.6s] Flávio Bolsonaro: numa favela
+[00:33:23 · 2003.6s → 2004.2s] Flávio Bolsonaro: aqui no Rio de Janeiro
+[00:33:24 · 2004.2s → 2005.1s] Flávio Bolsonaro: chamada
+[00:33:25 · 2005.1s → 2006.1s] Flávio Bolsonaro: Complexo da Maré.
+[00:33:26 · 2006.7s → 2007.7s] Flávio Bolsonaro: Ali, se um policial
+[00:33:27 · 2007.7s → 2008.9s] Flávio Bolsonaro: bota a viatura
+[00:33:28 · 2008.9s → 2009.9s] Flávio Bolsonaro: naquela rua,
+[00:33:29 · 2009.9s → 2010.9s] Flávio Bolsonaro: é uma saraivara
+[00:33:30 · 2010.9s → 2011.3s] Flávio Bolsonaro: de tiro,
+[00:33:31 · 2011.4s → 2012.0s] Flávio Bolsonaro: leva duas horas
+[00:33:32 · 2012.0s → 2013.0s] Flávio Bolsonaro: até conseguir progredir
+[00:33:32 · 2013.0s → 2013.7s] Flávio Bolsonaro: dentro de um blindado
+[00:33:33 · 2013.7s → 2014.6s] Flávio Bolsonaro: pra dentro
+[00:33:34 · 2014.6s → 2015.1s] Flávio Bolsonaro: daquela favela.
+[00:33:35 · 2015.2s → 2016.0s] Flávio Bolsonaro: Aqueles marginais
+[00:33:35 · 2016.0s → 2016.9s] Flávio Bolsonaro: que usam fuzis,
+[00:33:37 · 2017.1s → 2017.7s] Flávio Bolsonaro: armas de guerra
+[00:33:37 · 2017.7s → 2018.5s] Flávio Bolsonaro: pesadas,
+[00:33:38 · 2018.9s → 2019.6s] Flávio Bolsonaro: eles não passaram
+[00:33:39 · 2019.6s → 2020.6s] Flávio Bolsonaro: exame psicológico,
+[00:33:40 · 2020.7s → 2021.5s] Flávio Bolsonaro: não compraram arma
+[00:33:41 · 2021.5s → 2021.9s] Flávio Bolsonaro: em loja.
+[00:33:41 · 2021.9s → 2022.5s] Flávio Bolsonaro: Como é que essas armas
+[00:33:42 · 2022.5s → 2023.0s] Flávio Bolsonaro: estão entrando
+[00:33:43 · 2023.0s → 2023.6s] Flávio Bolsonaro: aqui no Brasil?
+[00:33:43 · 2024.0s → 2024.5s] Flávio Bolsonaro: Elas estão entrando
+[00:33:44 · 2024.5s → 2025.9s] Flávio Bolsonaro: porque o atual governo
+[00:33:45 · 2025.9s → 2026.8s] Flávio Bolsonaro: simplesmente deixa
+[00:33:46 · 2026.8s → 2027.8s] Flávio Bolsonaro: as fronteiras abertas
+[00:33:47 · 2027.8s → 2029.1s] Flávio Bolsonaro: e não fiscaliza
+[00:33:49 · 2029.1s → 2030.2s] Flávio Bolsonaro: a entrada de armas
+[00:33:50 · 2030.2s → 2030.6s] Flávio Bolsonaro: e drogas
+[00:33:50 · 2030.6s → 2031.1s] Flávio Bolsonaro: no nosso país.
+[00:33:51 · 2031.2s → 2031.9s] Renata Lo Prete: Deixa eu tentar ouvi-lo
+[00:33:51 · 2031.9s → 2032.6s] Renata Lo Prete: sobre o mérito
+[00:33:52 · 2032.6s → 2033.3s] Renata Lo Prete: da proposta.
+[00:33:53 · 2033.6s → 2034.9s] Renata Lo Prete: Em que retirar
+[00:33:54 · 2034.9s → 2035.9s] Renata Lo Prete: a marcação
+[00:33:55 · 2035.9s → 2036.8s] Renata Lo Prete: das cápsulas,
+[00:33:56 · 2037.0s → 2037.8s] Renata Lo Prete: das balas,
+[00:33:58 · 2038.3s → 2039.5s] Renata Lo Prete: ajudaria a combater
+[00:33:59 · 2039.5s → 2040.5s] Renata Lo Prete: o crime organizado,
+[00:34:00 · 2040.6s → 2041.6s] Renata Lo Prete: ajudaria a coibir
+[00:34:01 · 2041.6s → 2042.1s] Renata Lo Prete: os bandidos?
+[00:34:02 · 2042.2s → 2043.2s] Renata Lo Prete: Porque, pelo contrário,
+[00:34:03 · 2043.6s → 2044.9s] Renata Lo Prete: o entendimento que se tem
+[00:34:04 · 2044.9s → 2046.0s] Renata Lo Prete: é que eliminar isso
+[00:34:06 · 2046.0s → 2047.8s] Renata Lo Prete: dificulta a investigação.
+[00:34:08 · 2048.2s → 2048.7s] Flávio Bolsonaro: Olha, Renato,
+[00:34:08 · 2048.7s → 2049.1s] Flávio Bolsonaro: o que a gente tem
+[00:34:09 · 2049.1s → 2049.9s] Flávio Bolsonaro: que trabalhar aqui
+[00:34:09 · 2049.9s → 2050.3s] Flávio Bolsonaro: é pra acabar
+[00:34:10 · 2050.3s → 2050.9s] Flávio Bolsonaro: com a impunidade
+[00:34:10 · 2050.9s → 2051.5s] Flávio Bolsonaro: de verdade.
+[00:34:12 · 2052.0s → 2052.7s] Flávio Bolsonaro: É por isso que eu votei
+[00:34:12 · 2052.7s → 2053.1s] Flávio Bolsonaro: a favor aqui
+[00:34:13 · 2053.1s → 2053.8s] Flávio Bolsonaro: do projeto de lei
+[00:34:13 · 2053.8s → 2054.4s] Flávio Bolsonaro: antifacção,
+[00:34:14 · 2054.7s → 2055.7s] Flávio Bolsonaro: pra que esses marginais
+[00:34:15 · 2055.7s → 2056.6s] Flávio Bolsonaro: usam essas armas
+[00:34:16 · 2056.6s → 2057.7s] Flávio Bolsonaro: de guerra,
+[00:34:18 · 2058.1s → 2059.0s] Flávio Bolsonaro: eles possam cumprir
+[00:34:19 · 2059.0s → 2060.6s] Flávio Bolsonaro: integralmente a sua pena.
+[00:34:20 · 2060.8s → 2062.0s] Flávio Bolsonaro: É a PEC da Segurança Pública
+[00:34:22 · 2062.0s → 2062.8s] Flávio Bolsonaro: que nós,
+[00:34:23 · 2063.2s → 2064.1s] Flávio Bolsonaro: no Congresso Nacional,
+[00:34:24 · 2064.7s → 2065.3s] Flávio Bolsonaro: melhoramos,
+[00:34:25 · 2065.4s → 2066.8s] Flávio Bolsonaro: porque a PEC da Segurança Pública
+[00:34:26 · 2066.8s → 2067.4s] Flávio Bolsonaro: que foi enviada
+[00:34:27 · 2067.4s → 2068.0s] Flávio Bolsonaro: pelo Lula
+[00:34:27 · 2068.0s → 2069.0s] Flávio Bolsonaro: era uma PEC
+[00:34:29 · 2069.0s → 2070.6s] Flávio Bolsonaro: que controlava policiais.
+[00:34:31 · 2071.2s → 2072.1s] Flávio Bolsonaro: E a gente mudou
+[00:34:32 · 2072.1s → 2072.6s] Flávio Bolsonaro: pra PEC
+[00:34:32 · 2072.6s → 2073.3s] Flávio Bolsonaro: que tem que controlar
+[00:34:33 · 2073.3s → 2074.2s] Flávio Bolsonaro: os bandidos.
+[00:34:34 · 2074.9s → 2075.6s] Flávio Bolsonaro: No meu governo,
+[00:34:35 · 2075.7s → 2076.4s] Flávio Bolsonaro: a legislação penal
+[00:34:36 · 2076.4s → 2077.8s] Flávio Bolsonaro: vai ser atualizada,
+[00:34:38 · 2078.2s → 2079.1s] Flávio Bolsonaro: vai ser aprimorada
+[00:34:39 · 2079.1s → 2080.8s] Flávio Bolsonaro: pra defender as vítimas
+[00:34:40 · 2080.8s → 2081.9s] Flávio Bolsonaro: e não os bandidos.
+[00:34:41 · 2081.9s → 2082.8s] Flávio Bolsonaro: Esses caras vão ficar presos.
+[00:34:42 · 2082.9s → 2083.3s] Flávio Bolsonaro: Mais uma vez,
+[00:34:43 · 2083.3s → 2083.8s] Flávio Bolsonaro: eu vou tratar
+[00:34:43 · 2083.8s → 2084.8s] Flávio Bolsonaro: esses chefes
+[00:34:44 · 2084.8s → 2085.6s] Flávio Bolsonaro: de organizações criminosas
+[00:34:45 · 2085.6s → 2086.4s] Flávio Bolsonaro: de comando vermelho,
+[00:34:46 · 2086.5s → 2087.4s] Flávio Bolsonaro: PCC e milícias
+[00:34:47 · 2087.4s → 2089.3s] Flávio Bolsonaro: como narcoterroristas.
+[00:34:49 · 2089.4s → 2089.8s] Flávio Bolsonaro: Vão ficar,
+[00:34:50 · 2090.1s → 2091.1s] Flávio Bolsonaro: vão morrer presos
+[00:34:51 · 2091.1s → 2092.0s] Flávio Bolsonaro: na cadeia
+[00:34:52 · 2092.0s → 2093.1s] Flávio Bolsonaro: ou vão ser neutralizados
+[00:34:53 · 2093.1s → 2094.0s] Flávio Bolsonaro: pela polícia enfrentarem.
+[00:34:54 · 2094.2s → 2095.2s] Flávio Bolsonaro: Isso é muito maior
+[00:34:55 · 2095.2s → 2096.3s] Flávio Bolsonaro: do que qualquer detalhezinho
+[00:34:56 · 2096.3s → 2096.6s] Flávio Bolsonaro: desse
+[00:34:56 · 2096.6s → 2098.3s] Flávio Bolsonaro: em cima de uma cápsula.
+[00:34:58 · 2098.4s → 2099.2s] Flávio Bolsonaro: A polícia tem que investigar.
+[00:34:59 · 2099.3s → 2099.6s] Flávio Bolsonaro: Eu vou investir
+[00:34:59 · 2099.6s → 2100.3s] Flávio Bolsonaro: em tecnologia,
+[00:35:00 · 2100.8s → 2101.3s] Flávio Bolsonaro: eu vou investir
+[00:35:01 · 2101.3s → 2104.1s] Flávio Bolsonaro: em inteligência artificial,
+[00:35:04 · 2104.6s → 2105.1s] Flávio Bolsonaro: eu vou comprar
+[00:35:05 · 2105.1s → 2105.8s] Flávio Bolsonaro: mais de um milhão
+[00:35:05 · 2105.8s → 2106.4s] Flávio Bolsonaro: de câmeras
+[00:35:06 · 2106.4s → 2107.2s] Flávio Bolsonaro: com inteligência artificial
+[00:35:07 · 2107.2s → 2108.2s] Flávio Bolsonaro: e eu vou conectar
+[00:35:08 · 2108.2s → 2108.8s] Flávio Bolsonaro: essas câmeras
+[00:35:08 · 2108.8s → 2110.0s] Flávio Bolsonaro: junto com as câmeras
+[00:35:09 · 2110.0s → 2110.6s] Flávio Bolsonaro: que já existem
+[00:35:10 · 2110.6s → 2112.0s] Flávio Bolsonaro: das polícias municipais,
+[00:35:12 · 2112.4s → 2113.4s] Flávio Bolsonaro: dos governos de Estado,
+[00:35:13 · 2113.8s → 2115.3s] Flávio Bolsonaro: inclusive também
+[00:35:15 · 2115.3s → 2116.6s] Flávio Bolsonaro: com as câmeras privadas.
+[00:35:16 · 2116.7s → 2117.4s] Flávio Bolsonaro: Isso vai estar tudo
+[00:35:17 · 2117.4s → 2118.1s] Flávio Bolsonaro: numa grande nuvem
+[00:35:18 · 2118.1s → 2120.5s] Flávio Bolsonaro: ligado com o cadastro
+[00:35:20 · 2120.5s → 2121.0s] Flávio Bolsonaro: de emissão
+[00:35:21 · 2121.0s → 2122.3s] Flávio Bolsonaro: de mandados de prisão.
+[00:35:22 · 2122.3s → 2122.7s] Renata Lo Prete: Candidato...
+[00:35:22 · 2122.7s → 2124.0s] Flávio Bolsonaro: Alguém que der um tiro,
+[00:35:24 · 2124.1s → 2124.5s] Flávio Bolsonaro: Renata,
+[00:35:24 · 2124.6s → 2125.5s] Flávio Bolsonaro: usando uma arma ilegal
+[00:35:25 · 2125.5s → 2126.5s] Flávio Bolsonaro: no Rio de Janeiro
+[00:35:26 · 2126.5s → 2127.6s] Flávio Bolsonaro: e matar alguém,
+[00:35:27 · 2127.8s → 2129.0s] Flávio Bolsonaro: se ele estiver em Minas Gerais
+[00:35:29 · 2129.0s → 2129.7s] Flávio Bolsonaro: ou no Acre,
+[00:35:30 · 2130.1s → 2131.1s] Flávio Bolsonaro: com esse sistema interligado,
+[00:35:31 · 2131.2s → 2132.2s] Flávio Bolsonaro: ele vai ser preso
+[00:35:32 · 2132.2s → 2132.8s] Flávio Bolsonaro: pela polícia
+[00:35:32 · 2132.8s → 2133.6s] Flávio Bolsonaro: sem disparar um tiro.
+[00:35:33 · 2133.8s → 2136.0s] Renata Lo Prete: Eu entendi que fiquei
+[00:35:36 · 2136.0s → 2136.8s] Renata Lo Prete: sem resposta
+[00:35:36 · 2136.8s → 2137.5s] Renata Lo Prete: sobre a questão
+[00:35:37 · 2137.5s → 2138.1s] Renata Lo Prete: de retirar
+[00:35:38 · 2138.1s → 2138.6s] Renata Lo Prete: a marcação das munições.

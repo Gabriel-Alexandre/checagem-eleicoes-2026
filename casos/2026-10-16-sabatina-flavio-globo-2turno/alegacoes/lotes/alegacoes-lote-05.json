@@ -1,0 +1,702 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 2138.6,
+    "fim_s": 2567.5
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 2145.2,
+      "fim_s": 2154.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "porque segundo a pesquisa Quest de setembro, a maioria dos brasileiros considera que limitar o acesso melhora a segurança pública.",
+      "citacao_card": "segundo a pesquisa [...] de setembro, a maioria dos brasileiros considera que limitar o acesso melhora a segurança pública",
+      "afirmacao": "Pesquisa Quaest de setembro de 2026 mostrou que a maioria dos brasileiros considera que limitar o acesso a armas melhora a segurança pública",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "relatório da pesquisa Quaest divulgada em setembro de 2026 com pergunta sobre acesso a armas e segurança pública",
+        "se o percentual dos que dizem que limitar o acesso melhora a segurança passa de 50% e qual é a redação exata da pergunta"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 2154.6,
+      "fim_s": 2157.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Esse percentual é ainda maior entre as mulheres",
+      "afirmacao": "Na mesma pesquisa Quaest, o percentual dos que acham que limitar o acesso a armas melhora a segurança é maior entre as mulheres do que no total",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "recorte por sexo da mesma pergunta da pesquisa Quaest de setembro de 2026",
+        "se a diferença entre mulheres e total está fora da margem de erro do recorte"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 2157.1,
+      "fim_s": 2161.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e o seu time vem falando pelo contrário em ampliar o acesso",
+      "afirmacao": "Integrantes da campanha de Flávio Bolsonaro e deputados aliados defendem ampliar o acesso da população a armas",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "declarações públicas, projetos de lei e programa de governo registrado no TSE pela campanha de Flávio Bolsonaro sobre acesso a armas, em 2026",
+        "quem fez as declarações: membros da coordenação da campanha ou deputados aliados"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 2171.2,
+      "fim_s": 2174.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Eles falam em resgatar medidas que vigoraram durante o governo do seu pai",
+      "afirmacao": "Deputados ligados à campanha de Flávio Bolsonaro defendem retomar as medidas sobre armas que vigoraram no governo Jair Bolsonaro",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "projetos de decreto legislativo, projetos de lei e declarações de deputados aliados em 2025-2026 propondo restaurar os decretos de armas de 2019-2022",
+        "se os deputados citados estão ligados à campanha de Flávio Bolsonaro"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 2171.2,
+      "fim_s": 2174.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "medidas que vigoraram durante o governo do seu pai",
+      "afirmacao": "Durante o governo Jair Bolsonaro (2019-2022) vigoraram medidas que ampliaram o acesso a armas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "decretos e portarias sobre posse, porte e CACs editados de 2019 a 2022 (Planalto, Diário Oficial da União)",
+        "se essas normas estiveram em vigor e quando foram revogadas"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 2174.9,
+      "fim_s": 2178.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e falam, inclusive, em revogar o Estatuto do Desarmamento.",
+      "afirmacao": "Deputados ligados à campanha de Flávio Bolsonaro defendem revogar o Estatuto do Desarmamento",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre a política de armas da campanha de Flávio Bolsonaro",
+      "o_que_conferir": [
+        "projetos de lei na Câmara e no Senado que revogam a Lei 10.826/2003 e seus autores",
+        "declarações de deputados aliados à campanha defendendo a revogação, em 2026"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 2183.2,
+      "fim_s": 2193.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "como presidente Bolsonaro, no primeiro ano de governo, [...] a taxa de homicídio caiu 17% no primeiro ano.",
+      "afirmacao": "A taxa de homicídios no Brasil caiu 17% no primeiro ano do governo Jair Bolsonaro (2019)",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre armas e revogação do Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "variação da taxa de homicídios ou de mortes violentas intencionais de 2018 para 2019: Atlas da Violência (Ipea/FBSP, dados do SIM/DataSUS) e Anuário Brasileiro de Segurança Pública",
+        "qual indicador dá 17%: homicídios do SIM, MVI do Anuário ou dados do Sinesp; e se é taxa ou número absoluto"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 2184.8,
+      "fim_s": 2190.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "no primeiro ano de governo, onde houve um recorde, inclusive, de emissões de certificáveis dos CACs,",
+      "afirmacao": "No primeiro ano do governo Jair Bolsonaro (2019) houve recorde de emissão de certificados de registro de CACs",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre armas e revogação do Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "série anual de certificados de registro (CR) de CACs emitidos pelo Exército (SFPC/DFPC), de anos anteriores até 2022",
+        "se 2019 foi o ano de maior emissão da série ou se o recorde veio em anos posteriores"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 2214.3,
+      "fim_s": 2217.0,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "isso aí é o que está na Constituição, o direito, à legítima defesa.",
+      "afirmacao": "A Constituição Federal prevê o direito à legítima defesa",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre armas e revogação do Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "texto da Constituição Federal de 1988: se há dispositivo que trata da legítima defesa",
+        "onde a legítima defesa está prevista no ordenamento (Código Penal, art. 25) e se o STF a trata como direito constitucional"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 2241.7,
+      "fim_s": 2246.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje, o Estatuto do Desarmamento, ele proíbe o cidadão de se defender",
+      "afirmacao": "O Estatuto do Desarmamento proíbe o cidadão de ter arma para se defender",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "texto vigente da Lei 10.826/2003 e de seus decretos regulamentadores em 2026: requisitos para posse e porte de arma por civis",
+        "se a lei proíbe a posse para defesa pessoal ou a condiciona a requisitos"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 2245.4,
+      "fim_s": 2249.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "e autoriza os marginais a comprarem armas de guerra",
+      "afirmacao": "O Estatuto do Desarmamento autoriza criminosos a comprar armas de guerra",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "texto da Lei 10.826/2003: regras sobre armas de uso restrito e proibido e requisitos de antecedentes criminais para compra",
+        "se algum dispositivo permite a compra de armas de uso restrito por pessoas com antecedentes"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 2249.2,
+      "fim_s": 2250.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "porque não tem fiscalização nenhuma.",
+      "afirmacao": "Não existe nenhuma fiscalização sobre a circulação de armas que chegam a criminosos",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
+      "o_que_conferir": [
+        "órgãos com competência legal de fiscalizar armas e munições (Exército/DFPC, Polícia Federal/Sinarm) e de reprimir o tráfico de armas",
+        "dados de apreensões e operações contra tráfico de armas que mostrem se há fiscalização em funcionamento"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 2266.6,
+      "fim_s": 2272.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Diferente do Lula, que esqueceu por quatro anos de quem recebeu o Bolsa Família, não deu reajuste para ninguém,",
+      "citacao_card": "Diferente do Lula, que esqueceu por quatro anos [...] o Bolsa Família, não deu reajuste para ninguém",
+      "afirmacao": "O governo Lula não reajustou o Bolsa Família ao longo dos quatro anos do mandato (2023-2026)",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "valores do benefício mínimo e dos adicionais do Bolsa Família de 2023 a 2026 (MDS, Lei 14.601/2023 e decretos)",
+        "se houve reajuste do valor base ou só criação de adicionais, e o valor médio pago mês a mês"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 2272.3,
+      "fim_s": 2276.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "faltando 17 dias para a eleição, ele lembra que tem que reajustar o Bolsa Família,",
+      "afirmacao": "O governo Lula anunciou reajuste do Bolsa Família cerca de 17 dias antes da eleição de 2026",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "data do anúncio ou do ato de reajuste do Bolsa Família em 2026 (MDS, Diário Oficial da União)",
+        "a qual eleição os 17 dias se referem (1º turno em 4/out ou 2º turno em 25/out) e se a conta fecha com a data do anúncio"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 2276.9,
+      "fim_s": 2281.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que foi o Bolsonaro que triplicou o valor que era 190 e em média passou para 600 reais.",
+      "afirmacao": "No governo Jair Bolsonaro o valor médio do benefício passou a R$ 600, cerca do triplo do valor anterior",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "valor do Auxílio Brasil em 2022 (piso de R$ 400 e adicional temporário de R$ 200, Lei 14.284/2021 e EC 123/2022) e benefício médio pago",
+        "se o R$ 600 era valor médio ou mínimo, e por quanto tempo vigorou no governo Bolsonaro"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 2277.7,
+      "fim_s": 2279.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "triplicou o valor que era 190",
+      "afirmacao": "O valor médio do Bolsa Família era de cerca de R$ 190 antes do aumento feito no governo Jair Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "programas-sociais",
+      "contexto": "Resposta em que o candidato compara Lula e Bolsonaro sobre o Bolsa Família",
+      "o_que_conferir": [
+        "benefício médio do Bolsa Família em 2018-2021, antes da criação do Auxílio Brasil (MDS/Ministério da Cidadania, VIS Data)",
+        "em que mês o valor médio estava em R$ 190"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 2297.2,
+      "fim_s": 2299.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "onde a PF prendeu ontem Márcio Canella,",
+      "afirmacao": "A Polícia Federal prendeu Márcio Canella em 15 de outubro de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "nota da Polícia Federal e noticiário sobre a prisão de Márcio Canella: data e tipo de prisão",
+        "se a prisão foi em 15/out/2026, véspera da sabatina"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 2299.1,
+      "fim_s": 2301.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Márcio Canella, deputado estadual eleito",
+      "afirmacao": "Márcio Canella foi eleito deputado estadual no Rio de Janeiro em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "resultado da eleição para a Alerj em 2026, TSE: se Márcio Canella está entre os eleitos"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 2301.5,
+      "fim_s": 2306.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e aliado seu. Na fase anterior da campanha, o senhor chegou a gravar vídeos de apoio a ele.",
+      "afirmacao": "Flávio Bolsonaro gravou vídeos de apoio à candidatura de Márcio Canella na campanha de 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "vídeos publicados nas redes de Márcio Canella ou de Flávio Bolsonaro no 1º turno de 2026 com apoio do senador",
+        "propaganda eleitoral registrada de Canella com participação de Flávio"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 2306.5,
+      "fim_s": 2314.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As suspeitas contra ele são de lavagem de dinheiro, via postos de combustíveis e de relações, de ligações com a milícia e com o tráfico.",
+      "citacao_card": "As suspeitas contra ele são de lavagem de dinheiro, via postos de combustíveis [...] de ligações com a milícia e com o tráfico",
+      "afirmacao": "A investigação contra Márcio Canella apura lavagem de dinheiro por meio de postos de combustíveis e ligações com milícia e tráfico",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "nota da Polícia Federal, decisão judicial ou denúncia que fundamentou a prisão de Canella: crimes investigados",
+        "se a investigação cita postos de combustíveis, milícia e tráfico, ou só parte disso"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 2314.3,
+      "fim_s": 2319.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Rodrigo Bacelar, que chegou a ser originalmente o seu candidato com governador aqui no Rio,",
+      "afirmacao": "Rodrigo Bacellar chegou a ser o candidato apoiado por Flávio Bolsonaro ao governo do Rio de Janeiro em 2026",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "declarações de Flávio Bolsonaro e do PL em 2025-2026 lançando ou apoiando Rodrigo Bacellar ao governo do RJ",
+        "se a pré-candidatura foi retirada e quando"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 2319.7,
+      "fim_s": 2323.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "hoje está preso por suspeita de comandar o braço político do Comando Vermelho.",
+      "afirmacao": "Rodrigo Bacellar está preso sob suspeita de comandar o braço político do Comando Vermelho",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "decisão de prisão de Rodrigo Bacellar e nota da PF ou do MP: se ele estava preso em 16/out/2026",
+        "qual a suspeita formal descrita na investigação e se ela fala em braço político do Comando Vermelho"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 2324.2,
+      "fim_s": 2327.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o ex-governador Cláudio Castro, tornado inelegível",
+      "afirmacao": "O ex-governador do Rio de Janeiro Cláudio Castro foi declarado inelegível",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "decisão do TRE-RJ ou do TSE que declarou Cláudio Castro inelegível: data, motivo e se há recurso pendente",
+        "se Castro já tinha deixado o cargo de governador na data da fala"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 2327.2,
+      "fim_s": 2328.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e enrolado no caso Master.",
+      "afirmacao": "Cláudio Castro é investigado ou citado no caso Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre aliados de Flávio Bolsonaro no Rio de Janeiro presos ou investigados",
+      "o_que_conferir": [
+        "investigações da PF ou do MP sobre o Banco Master que mencionem Cláudio Castro ou o governo do RJ (por exemplo, aplicações do Rioprevidência)",
+        "em que condição Castro aparece: investigado, citado ou alvo de busca"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 2362.4,
+      "fim_s": 2368.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "sobre saúde que o senhor sabe está sempre ali no alto da lista das preocupações com os brasileiros.",
+      "afirmacao": "A saúde aparece sempre entre as principais preocupações dos brasileiros nas pesquisas",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "série de pesquisas sobre principal problema do país (Datafolha, Quaest, Ipec) em 2025-2026",
+        "se a saúde está no topo ou entre os primeiros em todas as rodadas"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 2368.4,
+      "fim_s": 2374.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor escolheu para medir em história da saúde, [...] um médico renomado, Cláudio Lothenberg,",
+      "citacao_card": "O senhor escolheu [...] um médico renomado, Cláudio [...]",
+      "afirmacao": "Flávio Bolsonaro anunciou o médico Claudio Lottenberg como seu escolhido para o Ministério da Saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "anúncio público de Flávio Bolsonaro indicando Claudio Lottenberg para a Saúde: data e cargo",
+        "a transcrição não resolveu o trecho do cargo ('medir em história da saúde'); o contexto ('como o seu ministro') pede 'ministro da Saúde', conferir no vídeo"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 2370.4,
+      "fim_s": 2372.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "aliás, foi a primeira escolha que o senhor anunciou,",
+      "afirmacao": "Claudio Lottenberg foi o primeiro nome de futuro ministério anunciado por Flávio Bolsonaro",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "datas dos anúncios de nomes para ministérios feitos por Flávio Bolsonaro em 2026",
+        "se algum outro nome foi anunciado antes de Lottenberg"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 2374.7,
+      "fim_s": 2381.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "que na pandemia ocorrida durante o governo do seu pai, criticou a demora do governo para comprar vacinas.",
+      "afirmacao": "Durante a pandemia de covid-19, Claudio Lottenberg criticou a demora do governo Jair Bolsonaro para comprar vacinas",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "entrevistas e artigos de Claudio Lottenberg em 2020-2021 sobre a compra de vacinas pelo governo federal"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 2381.2,
+      "fim_s": 2392.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Numa entrevista, ele disse, e eu cito aqui entre aspas, o Brasil vai pagar um preço caro por essa demora, a gente está ouvindo várias desculpas e nenhuma é adequada,",
+      "citacao_card": "o Brasil vai pagar um preço caro por essa demora, a gente está ouvindo várias desculpas e nenhuma é adequada",
+      "afirmacao": "Claudio Lottenberg disse em entrevista que o Brasil pagaria um preço caro pela demora na compra de vacinas e que nenhuma das desculpas era adequada",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Pergunta sobre a escolha do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "a entrevista original de Lottenberg com essa frase: veículo, data e redação exata",
+        "se a citação lida pela entrevistadora corresponde ao texto publicado"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 2409.3,
+      "fim_s": 2414.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Doutor Cláudio Lothenberg, vamos lembrar, ele foi o presidente do melhor hospital do Brasil que é o Albert Einstein,",
+      "citacao_card": "ele foi o presidente do melhor hospital do Brasil que é o Albert Einstein",
+      "afirmacao": "Claudio Lottenberg foi presidente do Hospital Israelita Albert Einstein",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "histórico da presidência da Sociedade Beneficente Israelita Brasileira Albert Einstein: períodos de Claudio Lottenberg no cargo",
+        "se o cargo era de presidente da sociedade mantenedora ou do conselho"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 2412.1,
+      "fim_s": 2415.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "do melhor hospital do Brasil que é o Albert Einstein, que fica ali em São Paulo.",
+      "afirmacao": "O Hospital Israelita Albert Einstein é o hospital mais bem colocado do Brasil nos rankings",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "rankings de hospitais com recorte por país (Newsweek World's Best Hospitals e outros) em 2025-2026: posição do Einstein no Brasil",
+        "qual ranking sustenta 'melhor do Brasil' e se há outros em que ele não é o primeiro"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 2419.3,
+      "fim_s": 2423.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "nesse melhor hospital do Brasil e até um dos melhores da América Latina",
+      "afirmacao": "O Hospital Israelita Albert Einstein está entre os melhores hospitais da América Latina nos rankings",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "saude",
+      "contexto": "Resposta sobre a autonomia do futuro ministro da Saúde",
+      "o_que_conferir": [
+        "rankings de hospitais da América Latina (por exemplo, América Economía) em 2025-2026: posição do Einstein"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 2496.4,
+      "fim_s": 2498.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "faltam apenas nove dias para as eleições",
+      "afirmacao": "O 2º turno da eleição de 2026 ocorre em 25 de outubro, nove dias depois da sabatina de 16 de outubro",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "calendário eleitoral de 2026, TSE: data do 2º turno",
+        "contagem de dias entre 16/out e 25/out/2026; o candidato repete a data em 'no dia 25' (2549.3 s)"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 2552.3,
+      "fim_s": 2554.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "compareça e vote em Flávio Bolsonaro 22.",
+      "afirmacao": "O número de Flávio Bolsonaro na urna para presidente em 2026 é 22",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "registro de candidatura de Flávio Bolsonaro no TSE (DivulgaCand 2026): número na urna"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 2554.8,
+      "fim_s": 2558.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O voto é secreto, não deixe ninguém te ameaçar porque ninguém vai saber qual é o seu voto.",
+      "afirmacao": "O voto no Brasil é secreto",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Considerações finais do candidato",
+      "o_que_conferir": [
+        "Constituição Federal, art. 14 e art. 60 §4º, II, e Código Eleitoral sobre o sigilo do voto",
+        "regras do TSE que garantem o sigilo na urna eletrônica"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 2138.6,
+      "fim_s": 2143.2,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Eu acho que isso é uma coisa muito menor ante o problema que o Brasil tem",
+      "motivo": "Opinião declarada ('eu acho') sobre a marcação de munições; o trecho seguinte tem palavra não resolvida ('vigilidade')."
+    },
+    {
+      "inicio_s": 2194.1,
+      "fim_s": 2201.7,
+      "falante": "Flávio Bolsonaro",
+      "frase": "O que botou por água abaixo essas teses aí malucas de que mais armas nas mãos de cidadãos ordeiros causam mais violência.",
+      "motivo": "Juízo e inferência causal sobre teses de terceiros; a parte factual (queda de 17% dos homicídios e recorde de CACs) já está em A007 e A008."
+    },
+    {
+      "inicio_s": 2205.3,
+      "fim_s": 2213.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Agora, quem atender os requisitos legais tem direito a ter o marmo para defender a sua família,",
+      "motivo": "Descrição de norma cujo objeto é a palavra não resolvida 'marmo' (provavelmente 'arma'); a proposição depende dela, e citar palavra incerta num card é o defeito que o projeto combate."
+    },
+    {
+      "inicio_s": 2220.8,
+      "fim_s": 2224.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "essa é uma questão que, comprovadamente, essa tese é furada, Renata.",
+      "motivo": "Juízo sobre a tese de que mais armas causam mais violência; o dado em que ele se apoia já é A007."
+    },
+    {
+      "inicio_s": 2224.9,
+      "fim_s": 2231.3,
+      "falante": "Renata Lo Prete",
+      "frase": "eu estava falando da opinião dos brasileiros numa pesquisa com a gente de CDM.",
+      "motivo": "Reitera a atribuição à pesquisa já extraída em A001, com trecho não resolvido pela transcrição ('com a gente de CDM')."
+    },
+    {
+      "inicio_s": 2240.8,
+      "fim_s": 2241.6,
+      "falante": "Flávio Bolsonaro",
+      "frase": "ele tem que ser melhorado.",
+      "motivo": "Juízo e plano sobre o Estatuto do Desarmamento, sem fato verificável."
+    },
+    {
+      "inicio_s": 2284.8,
+      "fim_s": 2290.7,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Não é só em época de eleição como está fazendo o Lula, não. Então, assim, ele engana as pessoas para conseguir voto.",
+      "motivo": "Repete o fato já extraído em A014 (reajuste perto da eleição) e acrescenta juízo ('engana as pessoas') sem registro próprio."
+    },
+    {
+      "inicio_s": 2295.7,
+      "fim_s": 2296.9,
+      "falante": "Renata Lo Prete",
+      "frase": "que é o seu berço político,",
+      "motivo": "Caracterização figurada do Rio de Janeiro como base política do candidato, sem proposição precisa a conferir."
+    },
+    {
+      "inicio_s": 2404.2,
+      "fim_s": 2407.3,
+      "falante": "Flávio Bolsonaro",
+      "frase": "inclusive na minha conversa com ele quando eu fiz esse convite, foi exatamente isso.",
+      "motivo": "Relato do conteúdo de conversa privada entre o candidato e Lottenberg; não há registro público contra o qual conferir."
+    },
+    {
+      "inicio_s": 2455.0,
+      "fim_s": 2470.3,
+      "falante": "Flávio Bolsonaro",
+      "frase": "porque às vezes uma pessoa está esperando para fazer uma cirurgia de catarata há três, quatro meses, ela não sabe, mas o governo federal pode pagar para ela fazer essa cirurgia na mesma semana numa vaga que está ociosa na rede privada de saúde.",
+      "motivo": "Exemplo hipotético que ilustra a proposta de prontuário eletrônico (plano de governo); não descreve caso, dado nem norma determinados."
+    },
+    {
+      "inicio_s": 2476.9,
+      "fim_s": 2484.0,
+      "falante": "Renata Lo Prete",
+      "frase": "o senhor tem agora um minuto e vinte segundos para fazer as suas considerações finais, mesmo tempo que o seu adversário teve ontem.",
+      "motivo": "Condução do formato da própria entrevista pela emissora; não é afirmação sobre o debate público nem sobre o candidato."
+    },
+    {
+      "inicio_s": 2503.4,
+      "fim_s": 2513.0,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Muitas pessoas vêm dizendo para mim, Flávio, o Lula está mentindo para caramba, prometendo um monte de coisa que se ele sabe que não vai entregar,",
+      "motivo": "Relato de conversas privadas não identificadas e juízo atribuído a terceiros ('está mentindo'); sem registro verificável."
+    },
+    {
+      "inicio_s": 2549.3,
+      "fim_s": 2552.0,
+      "falante": "Flávio Bolsonaro",
+      "frase": "no dia 25, sem ser esse domingo, agora o outro,",
+      "motivo": "Mesma data do 2º turno já extraída em A033; resolve-se no mesmo dado do calendário do TSE."
+    }
+  ]
+}

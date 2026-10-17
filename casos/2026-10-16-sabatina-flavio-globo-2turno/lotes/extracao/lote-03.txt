@@ -1,0 +1,615 @@
+LOTE 03 de 05 · janela a EXTRAIR: 00:17:31 a 00:27:01 (1051.8 s a 1621.8 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-03.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 1051.8, "fim_s": 1621.8}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+(contexto, NÃO extrair) [00:16:45 · 1005.6s] Flávio Bolsonaro: quantas vezes forem necessárias.
+(contexto, NÃO extrair) [00:16:47 · 1007.7s] Flávio Bolsonaro: Eu estou falando
+(contexto, NÃO extrair) [00:16:48 · 1008.3s] Flávio Bolsonaro: de um pedido
+(contexto, NÃO extrair) [00:16:49 · 1009.8s] Flávio Bolsonaro: de um patrocínio privado
+(contexto, NÃO extrair) [00:16:51 · 1011.3s] Flávio Bolsonaro: para um filme privado
+(contexto, NÃO extrair) [00:16:52 · 1012.6s] Flávio Bolsonaro: sem absolutamente
+(contexto, NÃO extrair) [00:16:53 · 1013.7s] Flávio Bolsonaro: nenhuma contrapartida
+(contexto, NÃO extrair) [00:16:55 · 1015.1s] Flávio Bolsonaro: pelo fato
+(contexto, NÃO extrair) [00:16:55 · 1015.5s] Flávio Bolsonaro: de eu ser senador da República
+(contexto, NÃO extrair) [00:16:56 · 1016.5s] Flávio Bolsonaro: para fazer um filme
+(contexto, NÃO extrair) [00:16:57 · 1017.4s] Flávio Bolsonaro: do Jair Bolsonaro.
+(contexto, NÃO extrair) [00:16:59 · 1019.1s] Flávio Bolsonaro: E que diga-se de passagem,
+(contexto, NÃO extrair) [00:17:00 · 1020.3s] Flávio Bolsonaro: muito em breve,
+(contexto, NÃO extrair) [00:17:01 · 1021.0s] Flávio Bolsonaro: se Deus quiser,
+(contexto, NÃO extrair) [00:17:01 · 1021.8s] Flávio Bolsonaro: todos virão
+(contexto, NÃO extrair) [00:17:02 · 1022.3s] Flávio Bolsonaro: uma obra-prima maravilhosa,
+(contexto, NÃO extrair) [00:17:04 · 1024.3s] Flávio Bolsonaro: um filme muito emocionante,
+(contexto, NÃO extrair) [00:17:05 · 1025.7s] Flávio Bolsonaro: em homenagem
+(contexto, NÃO extrair) [00:17:06 · 1026.0s] Flávio Bolsonaro: ao melhor presidente do Brasil
+(contexto, NÃO extrair) [00:17:07 · 1027.2s] Flávio Bolsonaro: que esse país já teve.
+(contexto, NÃO extrair) [00:17:08 · 1028.5s] Flávio Bolsonaro: O que é bem diferente
+(contexto, NÃO extrair) [00:17:09 · 1030.0s] Flávio Bolsonaro: do que fez o Lula
+(contexto, NÃO extrair) [00:17:11 · 1031.5s] Flávio Bolsonaro: na relação
+(contexto, NÃO extrair) [00:17:12 · 1032.0s] Flávio Bolsonaro: com o Vorcaro.
+(contexto, NÃO extrair) [00:17:13 · 1033.7s] Flávio Bolsonaro: Os seus principais
+(contexto, NÃO extrair) [00:17:15 · 1035.1s] Flávio Bolsonaro: articuladores políticos
+(contexto, NÃO extrair) [00:17:16 · 1036.6s] Flávio Bolsonaro: que frequentam ali
+(contexto, NÃO extrair) [00:17:18 · 1038.2s] Flávio Bolsonaro: a casa,
+(contexto, NÃO extrair) [00:17:18 · 1038.8s] Flávio Bolsonaro: a cozinha do Lula,
+(contexto, NÃO extrair) [00:17:20 · 1040.2s] Flávio Bolsonaro: tiveram relações
+(contexto, NÃO extrair) [00:17:20 · 1041.0s] Flávio Bolsonaro: com o Vorcaro
+(contexto, NÃO extrair) [00:17:21 · 1041.6s] Flávio Bolsonaro: e ofereciam contrapartidas
+(contexto, NÃO extrair) [00:17:23 · 1043.3s] Flávio Bolsonaro: para que houvesse
+(contexto, NÃO extrair) [00:17:25 · 1045.5s] Flávio Bolsonaro: esse patrocínio
+(contexto, NÃO extrair) [00:17:26 · 1046.4s] Flávio Bolsonaro: no filme do Lula.
+(contexto, NÃO extrair) [00:17:28 · 1049.0s] Flávio Bolsonaro: 30 milhões por fora.
+(contexto, NÃO extrair) [00:17:30 · 1050.0s] Flávio Bolsonaro: É o áudio do Vorcaro.
+(contexto, NÃO extrair) [00:17:30 · 1050.8s] Flávio Bolsonaro: A gente está falando
+(contexto, NÃO extrair) [00:17:31 · 1051.0s] Flávio Bolsonaro: do filme do Vorcaro.
+─── a janela começa aqui ───
+[00:17:31 · 1051.8s → 1052.2s] Renata Lo Prete: Candidato,
+[00:17:32 · 1052.3s → 1053.2s] Renata Lo Prete: já que o senhor mencionou
+[00:17:33 · 1053.2s → 1053.7s] Renata Lo Prete: esse áudio,
+[00:17:33 · 1053.8s → 1054.3s] Renata Lo Prete: eu preciso fazer
+[00:17:34 · 1054.3s → 1055.5s] Renata Lo Prete: uma coisa importante aqui.
+[00:17:35 · 1056.0s → 1056.8s] Renata Lo Prete: Eu tenho procurado
+[00:17:36 · 1056.8s → 1058.2s] Renata Lo Prete: pautar essas entrevistas
+[00:17:38 · 1058.2s → 1060.1s] Renata Lo Prete: por fatos estabelecidos,
+[00:17:40 · 1060.5s → 1061.5s] Renata Lo Prete: respaldados
+[00:17:41 · 1061.5s → 1062.6s] Renata Lo Prete: ou nas investigações
+[00:17:42 · 1062.6s → 1063.9s] Renata Lo Prete: dos órgãos competentes
+[00:17:43 · 1063.9s → 1065.6s] Renata Lo Prete: ou de apurações jornalísticas
+[00:17:45 · 1065.6s → 1066.4s] Renata Lo Prete: da TV Globo.
+[00:17:46 · 1066.6s → 1067.7s] Renata Lo Prete: Só com base nisso
+[00:17:47 · 1067.7s → 1068.7s] Renata Lo Prete: estou lhe fazendo perguntas.
+[00:17:49 · 1069.0s → 1069.6s] Renata Lo Prete: Então eu sugiro
+[00:17:49 · 1069.6s → 1070.5s] Renata Lo Prete: que a gente não traga
+[00:17:50 · 1070.5s → 1071.3s] Renata Lo Prete: essa história aqui
+[00:17:51 · 1071.3s → 1072.6s] Renata Lo Prete: porque ela mistura coisas
+[00:17:52 · 1072.6s → 1073.7s] Renata Lo Prete: que a gente não tem
+[00:17:53 · 1073.7s → 1074.4s] Renata Lo Prete: um terreno firme
+[00:17:54 · 1074.4s → 1075.0s] Renata Lo Prete: para pisar.
+[00:17:55 · 1075.4s → 1075.8s] Renata Lo Prete: Eu estou fazendo
+[00:17:55 · 1075.8s → 1076.4s] Renata Lo Prete: essas perguntas
+[00:17:56 · 1076.4s → 1077.1s] Renata Lo Prete: sobre o financiamento
+[00:17:57 · 1077.1s → 1077.6s] Renata Lo Prete: do filme
+[00:17:57 · 1077.6s → 1078.5s] Renata Lo Prete: porque o seu pai
+[00:17:58 · 1078.5s → 1079.5s] Renata Lo Prete: não é qualquer pai,
+[00:17:59 · 1079.7s → 1080.3s] Renata Lo Prete: ele é ex-presidente
+[00:18:00 · 1080.3s → 1080.8s] Renata Lo Prete: da República
+[00:18:00 · 1080.8s → 1082.4s] Renata Lo Prete: e o senhor não é qualquer filho,
+[00:18:02 · 1082.4s → 1083.6s] Renata Lo Prete: o senhor é candidato
+[00:18:03 · 1083.6s → 1084.5s] Renata Lo Prete: a presidente da República.
+[00:18:05 · 1085.3s → 1085.9s] Renata Lo Prete: E já que o senhor falou
+[00:18:05 · 1085.9s → 1086.6s] Renata Lo Prete: da produtora,
+[00:18:07 · 1087.1s → 1087.5s] Renata Lo Prete: eu aproveito
+[00:18:07 · 1087.5s → 1088.1s] Renata Lo Prete: para lhe fazer
+[00:18:08 · 1088.1s → 1089.4s] Renata Lo Prete: uma pergunta.
+[00:18:09 · 1089.8s → 1090.3s] Renata Lo Prete: A perícia
+[00:18:10 · 1090.3s → 1091.6s] Renata Lo Prete: da própria produtora
+[00:18:11 · 1091.6s → 1092.4s] Renata Lo Prete: disse que o filme
+[00:18:12 · 1092.4s → 1094.6s] Renata Lo Prete: custou 75 milhões de reais
+[00:18:14 · 1094.6s → 1095.6s] Renata Lo Prete: e o senhor pediu
+[00:18:15 · 1095.6s → 1097.4s] Renata Lo Prete: 134 ao Vorcaro.
+[00:18:17 · 1097.4s → 1098.0s] Renata Lo Prete: O senhor pode explicar
+[00:18:18 · 1098.0s → 1098.5s] Renata Lo Prete: para a gente
+[00:18:18 · 1098.5s → 1099.0s] Renata Lo Prete: para quê,
+[00:18:19 · 1099.2s → 1100.7s] Renata Lo Prete: por que essa diferença,
+[00:18:20 · 1100.8s → 1101.5s] Renata Lo Prete: quase o dobro?
+[00:18:21 · 1101.7s → 1102.5s] Flávio Bolsonaro: era um contrato
+[00:18:22 · 1102.5s → 1103.4s] Flávio Bolsonaro: que não foi cumprido
+[00:18:23 · 1103.4s → 1105.5s] Flávio Bolsonaro: e com os recursos
+[00:18:25 · 1105.5s → 1107.1s] Flávio Bolsonaro: que foram aportados
+[00:18:27 · 1107.1s → 1107.5s] Flávio Bolsonaro: por ele
+[00:18:27 · 1107.5s → 1108.8s] Flávio Bolsonaro: e mais outros investidores
+[00:18:28 · 1108.8s → 1109.3s] Flávio Bolsonaro: nós conseguimos
+[00:18:29 · 1109.3s → 1109.9s] Flávio Bolsonaro: concluir o filme.
+[00:18:30 · 1110.8s → 1111.3s] Flávio Bolsonaro: Simples assim,
+[00:18:31 · 1111.4s → 1112.3s] Flávio Bolsonaro: uma relação privada,
+[00:18:32 · 1112.6s → 1113.9s] Flávio Bolsonaro: um dinheiro totalmente ilícito,
+[00:18:34 · 1114.2s → 1114.6s] Flávio Bolsonaro: como era o dinheiro
+[00:18:34 · 1114.6s → 1115.4s] Flávio Bolsonaro: também aqui na Globo.
+[00:18:35 · 1115.5s → 1115.8s] Flávio Bolsonaro: A Globo,
+[00:18:36 · 1116.0s → 1117.0s] Flávio Bolsonaro: o programa Luciano Huck
+[00:18:36 · 1117.0s → 1118.2s] Flávio Bolsonaro: recebeu
+[00:18:38 · 1118.2s → 1120.8s] Flávio Bolsonaro: mais de 100 milhões de reais,
+[00:18:41 · 1121.1s → 1122.2s] Flávio Bolsonaro: 160 milhões de reais,
+[00:18:42 · 1122.2s → 1122.6s] Flávio Bolsonaro: se não me engano,
+[00:18:42 · 1122.7s → 1123.9s] Flávio Bolsonaro: para fazer uma propaganda
+[00:18:43 · 1123.9s → 1125.8s] Flávio Bolsonaro: no banco do Vorcaro.
+[00:18:45 · 1125.9s → 1126.8s] Flávio Bolsonaro: E o que tem de errado nisso?
+[00:18:46 · 1127.0s → 1127.2s] Flávio Bolsonaro: Nada.
+[00:18:47 · 1127.8s → 1128.6s] Flávio Bolsonaro: Um diretor da Globo
+[00:18:48 · 1128.6s → 1130.1s] Flávio Bolsonaro: acabou de ser exonerado
+[00:18:50 · 1130.1s → 1132.3s] Flávio Bolsonaro: porque ele promovia
+[00:18:52 · 1132.3s → 1133.3s] Flávio Bolsonaro: eventos bancados
+[00:18:53 · 1133.3s → 1134.1s] Flávio Bolsonaro: pelo Vorcaro
+[00:18:54 · 1134.1s → 1135.4s] Flávio Bolsonaro: do valor econômico
+[00:18:55 · 1135.4s → 1136.2s] Flávio Bolsonaro: lá em Nova York,
+[00:18:56 · 1136.3s → 1136.6s] Flávio Bolsonaro: os áudios,
+[00:18:56 · 1136.8s → 1137.6s] Flávio Bolsonaro: que tem uma coisa de errado.
+[00:18:57 · 1138.0s → 1138.5s] Flávio Bolsonaro: Eu acho que não,
+[00:18:58 · 1138.6s → 1139.7s] Flávio Bolsonaro: mas ele feriu a ética,
+[00:19:00 · 1140.1s → 1140.8s] Flávio Bolsonaro: o código de ética
+[00:19:00 · 1140.8s → 1141.3s] Flávio Bolsonaro: da empresa
+[00:19:01 · 1141.3s → 1142.9s] Flávio Bolsonaro: e sofreu as consequências.
+[00:19:03 · 1143.1s → 1144.2s] Flávio Bolsonaro: Então, na minha parte,
+[00:19:04 · 1144.3s → 1145.0s] Flávio Bolsonaro: não tem nada de errado.
+[00:19:05 · 1145.4s → 1145.8s] Flávio Bolsonaro: Mais uma vez,
+[00:19:05 · 1145.8s → 1146.0s] Flávio Bolsonaro: Renato,
+[00:19:05 · 1146.0s → 1146.9s] Flávio Bolsonaro: esse áudio que eu sei
+[00:19:06 · 1146.9s → 1149.6s] Flávio Bolsonaro: que a Globo não considera
+[00:19:09 · 1149.6s → 1150.5s] Flávio Bolsonaro: porque eu não sei
+[00:19:10 · 1150.5s → 1151.1s] Flávio Bolsonaro: qual o critério,
+[00:19:11 · 1151.2s → 1152.2s] Flávio Bolsonaro: mas a própria defesa
+[00:19:12 · 1152.2s → 1152.9s] Flávio Bolsonaro: confirmou que a voz
+[00:19:12 · 1152.9s → 1153.2s] Flávio Bolsonaro: era dele.
+[00:19:13 · 1153.2s → 1154.1s] Flávio Bolsonaro: O que ele fala nesse áudio?
+[00:19:14 · 1154.4s → 1155.3s] Flávio Bolsonaro: Que o filme do Bolsonaro
+[00:19:15 · 1155.3s → 1156.6s] Flávio Bolsonaro: foi tudo legal dentro da lei
+[00:19:16 · 1156.6s → 1157.6s] Flávio Bolsonaro: e que o filme do Lula
+[00:19:17 · 1157.6s → 1158.2s] Flávio Bolsonaro: onde ele botou
+[00:19:18 · 1158.2s → 1159.1s] Flávio Bolsonaro: 30 milhões de reais
+[00:19:19 · 1159.1s → 1160.3s] Flávio Bolsonaro: por fora do Instituto Lula.
+[00:19:20 · 1160.6s → 1161.7s] Flávio Bolsonaro: Isso precisa ser investigado.
+[00:19:21 · 1161.8s → 1162.6s] Renata Lo Prete: E eu preciso fazer
+[00:19:22 · 1162.6s → 1163.8s] Renata Lo Prete: dois esclarecimentos aqui.
+[00:19:23 · 1163.9s → 1164.9s] Renata Lo Prete: Eu não queria tomar o tempo
+[00:19:24 · 1164.9s → 1165.7s] Renata Lo Prete: com esses esclarecimentos,
+[00:19:25 · 1165.8s → 1166.3s] Renata Lo Prete: mas vou procurar
+[00:19:26 · 1166.3s → 1167.1s] Renata Lo Prete: fazer rapidamente.
+[00:19:27 · 1167.2s → 1167.5s] Renata Lo Prete: Primeiro,
+[00:19:27 · 1167.5s → 1169.0s] Renata Lo Prete: a questão dos patrocínios.
+[00:19:29 · 1169.5s → 1170.9s] Renata Lo Prete: Importante a gente esclarecer
+[00:19:30 · 1170.9s → 1172.4s] Renata Lo Prete: que compra de espaço comercial
+[00:19:32 · 1172.4s → 1173.4s] Renata Lo Prete: de patrocínios
+[00:19:33 · 1173.4s → 1174.2s] Renata Lo Prete: não é igual
+[00:19:34 · 1174.2s → 1175.4s] Renata Lo Prete: ao financiamento de filme.
+[00:19:35 · 1175.8s → 1176.9s] Renata Lo Prete: As compras de patrocínio
+[00:19:36 · 1176.9s → 1178.3s] Renata Lo Prete: na programação da TV Globo
+[00:19:38 · 1178.3s → 1179.5s] Renata Lo Prete: obedecem a regras
+[00:19:39 · 1179.5s → 1180.4s] Renata Lo Prete: de transparência,
+[00:19:40 · 1180.7s → 1182.0s] Renata Lo Prete: são ditadas pelo mercado
+[00:19:41 · 1182.0s → 1183.3s] Renata Lo Prete: e, mais importante,
+[00:19:43 · 1183.4s → 1184.4s] Renata Lo Prete: até para a nossa conversa
+[00:19:44 · 1184.4s → 1185.1s] Renata Lo Prete: aqui ficar claro,
+[00:19:45 · 1185.3s → 1186.4s] Renata Lo Prete: elas não têm nada a ver
+[00:19:46 · 1186.4s → 1187.6s] Renata Lo Prete: com a linha editorial
+[00:19:47 · 1187.6s → 1189.2s] Renata Lo Prete: e com a independência editorial
+[00:19:49 · 1189.2s → 1192.2s] Renata Lo Prete: do jornalismo da Globo.
+[00:19:52 · 1192.4s → 1193.4s] Renata Lo Prete: A outra questão
+[00:19:53 · 1193.4s → 1194.2s] Renata Lo Prete: é a questão
+[00:19:54 · 1194.2s → 1195.2s] Renata Lo Prete: do diretor,
+[00:19:55 · 1195.2s → 1196.0s] Renata Lo Prete: do então diretor
+[00:19:56 · 1196.0s → 1196.8s] Renata Lo Prete: do Grupo Globo,
+[00:19:57 · 1197.2s → 1198.5s] Renata Lo Prete: que teve conversas
+[00:19:58 · 1198.5s → 1200.3s] Renata Lo Prete: reveladas com Daniel Vorcaro,
+[00:20:00 · 1200.5s → 1201.3s] Renata Lo Prete: isso foi revelado
+[00:20:01 · 1201.3s → 1202.3s] Renata Lo Prete: anteontem,
+[00:20:02 · 1202.5s → 1203.1s] Renata Lo Prete: e ontem
+[00:20:03 · 1203.1s → 1203.9s] Renata Lo Prete: ele foi desligado
+[00:20:03 · 1203.9s → 1204.4s] Renata Lo Prete: da empresa.
+[00:20:04 · 1204.7s → 1204.9s] Renata Lo Prete: Então,
+[00:20:04 · 1204.9s → 1206.3s] Renata Lo Prete: são coisas bem diferentes.
+[00:20:06 · 1206.7s → 1207.4s] Renata Lo Prete: Eu queria lhe fazer
+[00:20:07 · 1207.4s → 1208.5s] Renata Lo Prete: ainda uma pergunta
+[00:20:08 · 1208.5s → 1209.5s] Renata Lo Prete: sobre o caso Master,
+[00:20:09 · 1209.9s → 1210.5s] Renata Lo Prete: sobre o caso
+[00:20:10 · 1210.5s → 1211.1s] Renata Lo Prete: Dark Horse,
+[00:20:11 · 1211.2s → 1211.5s] Renata Lo Prete: que é o seguinte,
+[00:20:11 · 1211.7s → 1213.3s] Renata Lo Prete: o Brasil tem cerca
+[00:20:13 · 1213.3s → 1214.8s] Renata Lo Prete: de 1.600
+[00:20:14 · 1214.8s → 1216.9s] Renata Lo Prete: instituições financeiras,
+[00:20:17 · 1217.3s → 1218.1s] Renata Lo Prete: tem quase
+[00:20:18 · 1218.1s → 1219.6s] Renata Lo Prete: 170 bancos.
+[00:20:19 · 1219.9s → 1220.1s] Renata Lo Prete: Por que
+[00:20:20 · 1220.1s → 1220.7s] Renata Lo Prete: que de todas
+[00:20:20 · 1220.7s → 1221.6s] Renata Lo Prete: essas empresas,
+[00:20:22 · 1222.1s → 1222.5s] Renata Lo Prete: o senhor foi
+[00:20:22 · 1222.5s → 1223.2s] Renata Lo Prete: bater na porta
+[00:20:23 · 1223.2s → 1224.5s] Renata Lo Prete: justo do Daniel Vorcaro?
+[00:20:24 · 1224.6s → 1224.8s] Flávio Bolsonaro: Olha,
+[00:20:24 · 1224.8s → 1225.5s] Flávio Bolsonaro: eu conversei com
+[00:20:25 · 1225.5s → 1226.8s] Flávio Bolsonaro: vários possíveis
+[00:20:26 · 1226.8s → 1227.4s] Flávio Bolsonaro: investidores
+[00:20:27 · 1227.4s → 1228.9s] Flávio Bolsonaro: e ele topou fazer
+[00:20:28 · 1228.9s → 1229.2s] Flávio Bolsonaro: numa época
+[00:20:29 · 1229.2s → 1229.9s] Flávio Bolsonaro: que ele não tinha
+[00:20:29 · 1229.9s → 1230.5s] Flávio Bolsonaro: absolutamente nada
+[00:20:30 · 1230.5s → 1230.9s] Flávio Bolsonaro: de errado.
+[00:20:31 · 1231.3s → 1231.7s] Flávio Bolsonaro: Sabe o que está
+[00:20:31 · 1231.7s → 1232.0s] Flávio Bolsonaro: de errado,
+[00:20:32 · 1232.1s → 1232.5s] Flávio Bolsonaro: é até importante
+[00:20:32 · 1232.5s → 1232.8s] Flávio Bolsonaro: para a gente
+[00:20:32 · 1232.8s → 1234.3s] Flávio Bolsonaro: dar continuidade
+[00:20:34 · 1234.3s → 1235.0s] Flávio Bolsonaro: aqui na entrevista?
+[00:20:35 · 1235.5s → 1236.3s] Flávio Bolsonaro: O que está errado
+[00:20:36 · 1236.3s → 1237.6s] Flávio Bolsonaro: é o Vorcaro
+[00:20:37 · 1237.6s → 1239.4s] Flávio Bolsonaro: ser beneficiado
+[00:20:39 · 1239.4s → 1240.6s] Flávio Bolsonaro: pelo Vacari,
+[00:20:40 · 1240.9s → 1241.9s] Flávio Bolsonaro: que é um braço direito
+[00:20:41 · 1241.9s → 1242.2s] Flávio Bolsonaro: do Lula,
+[00:20:42 · 1242.3s → 1243.6s] Flávio Bolsonaro: quem toca o Instituto Lula,
+[00:20:44 · 1244.1s → 1245.2s] Flávio Bolsonaro: e oferecer
+[00:20:45 · 1245.2s → 1246.2s] Flávio Bolsonaro: um bilhão de reais
+[00:20:46 · 1246.2s → 1247.2s] Flávio Bolsonaro: nos fundos de pensão
+[00:20:47 · 1247.2s → 1247.7s] Flávio Bolsonaro: da Caixa,
+[00:20:48 · 1248.0s → 1248.9s] Flávio Bolsonaro: do Banco do Brasil,
+[00:20:49 · 1249.3s → 1249.8s] Flávio Bolsonaro: da Petrobras.
+[00:20:49 · 1249.9s → 1250.8s] Flávio Bolsonaro: O mesmo Vacari
+[00:20:50 · 1250.8s → 1252.4s] Flávio Bolsonaro: que já foi preso
+[00:20:52 · 1252.4s → 1253.9s] Flávio Bolsonaro: exatamente por fraude
+[00:20:53 · 1253.9s → 1254.7s] Flávio Bolsonaro: em fundos de pensão.
+[00:20:54 · 1254.8s → 1255.2s] Flávio Bolsonaro: Então, você
+[00:20:55 · 1255.2s → 1256.7s] Flávio Bolsonaro: que é aposentado
+[00:20:56 · 1256.7s → 1257.3s] Flávio Bolsonaro: do Banco do Brasil,
+[00:20:57 · 1257.4s → 1257.7s] Flávio Bolsonaro: da Caixa,
+[00:20:57 · 1257.8s → 1258.3s] Flávio Bolsonaro: da Petrobras,
+[00:20:58 · 1258.6s → 1259.2s] Flávio Bolsonaro: o Vacari,
+[00:20:59 · 1259.4s → 1260.2s] Flávio Bolsonaro: ligado ao Lula,
+[00:21:00 · 1260.5s → 1261.1s] Flávio Bolsonaro: estava oferecendo
+[00:21:01 · 1261.1s → 1262.3s] Flávio Bolsonaro: um bilhão de reais
+[00:21:02 · 1262.3s → 1263.7s] Flávio Bolsonaro: para que fossem
+[00:21:03 · 1263.7s → 1265.1s] Flávio Bolsonaro: investidos em fundos podres
+[00:21:05 · 1265.1s → 1266.4s] Flávio Bolsonaro: do Banco Master
+[00:21:06 · 1266.4s → 1267.9s] Flávio Bolsonaro: e cobrou uma propina
+[00:21:07 · 1267.9s → 1269.5s] Flávio Bolsonaro: de 10% em cima disso.
+[00:21:09 · 1269.6s → 1270.4s] Flávio Bolsonaro: Isso é que está errado,
+[00:21:10 · 1270.5s → 1271.4s] Flávio Bolsonaro: essa contrapartida
+[00:21:11 · 1271.4s → 1271.8s] Flávio Bolsonaro: que é crime
+[00:21:11 · 1271.8s → 1272.2s] Flávio Bolsonaro: que é legal
+[00:21:12 · 1272.2s → 1272.9s] Flávio Bolsonaro: e tem que ser investigado.
+[00:21:12 · 1272.9s → 1273.6s] Flávio Bolsonaro: Está bem diferente
+[00:21:13 · 1273.6s → 1274.9s] Flávio Bolsonaro: do investimento privado
+[00:21:14 · 1274.9s → 1275.7s] Flávio Bolsonaro: no fundo privado.
+[00:21:15 · 1275.8s → 1276.5s] Renata Lo Prete: Eu vou insistir
+[00:21:16 · 1276.5s → 1276.8s] Renata Lo Prete: com o senhor
+[00:21:16 · 1276.8s → 1277.7s] Renata Lo Prete: em dois pontos.
+[00:21:18 · 1278.1s → 1279.1s] Renata Lo Prete: Eu não vou me referir
+[00:21:19 · 1279.1s → 1280.1s] Renata Lo Prete: aqui a informações
+[00:21:20 · 1280.1s → 1281.6s] Renata Lo Prete: que não estão confirmadas
+[00:21:21 · 1281.6s → 1282.3s] Renata Lo Prete: pelo jornalismo
+[00:21:22 · 1282.3s → 1282.9s] Renata Lo Prete: da TV Globo
+[00:21:22 · 1282.9s → 1283.4s] Renata Lo Prete: porque a gente
+[00:21:23 · 1283.4s → 1284.3s] Renata Lo Prete: não faz isso.
+[00:21:24 · 1284.4s → 1285.3s] Flávio Bolsonaro: Está confirmado
+[00:21:25 · 1285.3s → 1286.0s] Flávio Bolsonaro: pela Polícia Federal.
+[00:21:26 · 1286.6s → 1287.6s] Renata Lo Prete: E depois eu quero
+[00:21:27 · 1287.6s → 1288.5s] Renata Lo Prete: voltar com o senhor,
+[00:21:28 · 1288.8s → 1289.5s] Renata Lo Prete: não está confirmado
+[00:21:29 · 1289.5s → 1290.3s] Renata Lo Prete: pela Polícia Federal,
+[00:21:30 · 1290.4s → 1291.2s] Renata Lo Prete: depois eu quero voltar
+[00:21:31 · 1291.2s → 1291.6s] Renata Lo Prete: com o senhor
+[00:21:31 · 1291.6s → 1292.3s] Renata Lo Prete: no caso Master
+[00:21:32 · 1292.3s → 1292.9s] Renata Lo Prete: para examinar
+[00:21:32 · 1292.9s → 1293.8s] Renata Lo Prete: uma outra crítica
+[00:21:33 · 1293.8s → 1294.6s] Renata Lo Prete: que o senhor tem feito
+[00:21:34 · 1294.6s → 1295.2s] Renata Lo Prete: constantemente
+[00:21:35 · 1295.2s → 1296.5s] Renata Lo Prete: ao seu adversário
+[00:21:36 · 1296.5s → 1297.3s] Renata Lo Prete: que é a questão
+[00:21:37 · 1297.3s → 1298.2s] Renata Lo Prete: do aparelhamento
+[00:21:38 · 1298.2s → 1299.1s] Renata Lo Prete: da Polícia Federal.
+[00:21:39 · 1299.8s → 1300.6s] Renata Lo Prete: E a esse propósito
+[00:21:40 · 1300.6s → 1301.1s] Renata Lo Prete: eu me lembro
+[00:21:41 · 1301.1s → 1302.1s] Renata Lo Prete: da famosa reunião
+[00:21:42 · 1302.1s → 1303.6s] Renata Lo Prete: ministerial de 2020
+[00:21:43 · 1303.6s → 1305.3s] Renata Lo Prete: na qual seu pai disse
+[00:21:45 · 1305.3s → 1306.4s] Renata Lo Prete: e eu vou abrir aspas
+[00:21:46 · 1306.4s → 1306.7s] Renata Lo Prete: aqui.
+[00:21:47 · 1307.2s → 1308.1s] Renata Lo Prete: Eu não vou deixar,
+[00:21:48 · 1308.4s → 1309.1s] Renata Lo Prete: daí vem um verbo
+[00:21:49 · 1309.1s → 1309.9s] Renata Lo Prete: que é um palavrão,
+[00:21:50 · 1310.3s → 1311.2s] Renata Lo Prete: a minha família
+[00:21:51 · 1311.2s → 1312.3s] Renata Lo Prete: porque eu não posso
+[00:21:52 · 1312.3s → 1312.9s] Renata Lo Prete: trocar alguém
+[00:21:52 · 1312.9s → 1313.8s] Renata Lo Prete: na ponta da linha.
+[00:21:54 · 1314.2s → 1315.2s] Renata Lo Prete: se não puder trocar,
+[00:21:55 · 1315.6s → 1316.6s] Renata Lo Prete: troca o chefe dele.
+[00:21:56 · 1317.0s → 1318.2s] Renata Lo Prete: Não pode trocar o chefe,
+[00:21:58 · 1318.5s → 1319.5s] Renata Lo Prete: troca o ministro,
+[00:21:59 · 1319.8s → 1320.6s] Renata Lo Prete: fecha aspas.
+[00:22:00 · 1320.8s → 1321.7s] Renata Lo Prete: E seu pai, de fato,
+[00:22:01 · 1321.8s → 1322.6s] Renata Lo Prete: trocou o ministro.
+[00:22:02 · 1323.0s → 1323.7s] Renata Lo Prete: A minha pergunta
+[00:22:03 · 1323.7s → 1324.6s] Renata Lo Prete: não diz respeito
+[00:22:04 · 1324.6s → 1326.0s] Renata Lo Prete: ao caso das fachadinhas
+[00:22:05 · 1326.0s → 1327.0s] Renata Lo Prete: e outros que envolviam
+[00:22:07 · 1327.0s → 1327.8s] Renata Lo Prete: o senhor na época,
+[00:22:08 · 1328.1s → 1328.5s] Renata Lo Prete: diz respeito
+[00:22:08 · 1328.5s → 1329.5s] Renata Lo Prete: à sua campanha
+[00:22:09 · 1329.5s → 1330.5s] Renata Lo Prete: neste ano.
+[00:22:10 · 1330.9s → 1331.5s] Renata Lo Prete: O senhor se sente
+[00:22:11 · 1331.5s → 1332.0s] Renata Lo Prete: à vontade
+[00:22:11 · 1332.0s → 1332.6s] Renata Lo Prete: para cobrar
+[00:22:12 · 1332.6s → 1334.1s] Renata Lo Prete: uma atitude republicana
+[00:22:14 · 1334.1s → 1335.2s] Renata Lo Prete: nessa matéria,
+[00:22:15 · 1335.7s → 1336.8s] Renata Lo Prete: considerando que seu pai
+[00:22:16 · 1336.8s → 1338.1s] Renata Lo Prete: avisava todo mundo
+[00:22:18 · 1338.1s → 1339.6s] Renata Lo Prete: que iria agir
+[00:22:19 · 1339.6s → 1340.2s] Renata Lo Prete: e agiu
+[00:22:20 · 1340.2s → 1341.4s] Renata Lo Prete: para proteger o filho?
+[00:22:21 · 1341.6s → 1342.6s] Flávio Bolsonaro: Isso não é verdade, Renata.
+[00:22:22 · 1342.7s → 1343.1s] Flávio Bolsonaro: Por quê?
+[00:22:23 · 1343.2s → 1343.9s] Flávio Bolsonaro: É, na verdade,
+[00:22:23 · 1344.0s → 1345.4s] Flávio Bolsonaro: ele trocou o superintendente
+[00:22:25 · 1345.4s → 1345.9s] Flávio Bolsonaro: do Rio de Janeiro
+[00:22:25 · 1345.9s → 1346.3s] Flávio Bolsonaro: na época,
+[00:22:26 · 1346.4s → 1346.8s] Flávio Bolsonaro: se não me engano,
+[00:22:26 · 1346.9s → 1347.8s] Flávio Bolsonaro: porque estava apresentando
+[00:22:27 · 1347.8s → 1348.4s] Flávio Bolsonaro: maus resultados.
+[00:22:29 · 1349.2s → 1349.8s] Flávio Bolsonaro: E ele queria
+[00:22:29 · 1349.8s → 1351.2s] Flávio Bolsonaro: uma pessoa que entregasse
+[00:22:31 · 1351.2s → 1351.9s] Flávio Bolsonaro: resultados melhores,
+[00:22:31 · 1352.0s → 1352.5s] Flávio Bolsonaro: o que é bem diferente
+[00:22:32 · 1352.5s → 1352.9s] Flávio Bolsonaro: de hoje.
+[00:22:33 · 1353.0s → 1353.8s] Renata Lo Prete: E ele trocou o ministro
+[00:22:33 · 1353.8s → 1354.2s] Renata Lo Prete: também, né?
+[00:22:34 · 1354.2s → 1354.9s] Flávio Bolsonaro: Mas hoje,
+[00:22:34 · 1354.9s → 1355.7s] Flávio Bolsonaro: a primeira coisa
+[00:22:35 · 1355.7s → 1356.7s] Flávio Bolsonaro: que o meu adversário
+[00:22:36 · 1356.7s → 1357.4s] Flávio Bolsonaro: fez quando sentou
+[00:22:37 · 1357.4s → 1358.1s] Flávio Bolsonaro: na cadeira de presidente
+[00:22:38 · 1358.1s → 1358.4s] Flávio Bolsonaro: da República
+[00:22:38 · 1358.4s → 1359.6s] Flávio Bolsonaro: foi botar o amigo dele,
+[00:22:39 · 1359.7s → 1359.9s] Flávio Bolsonaro: Andrei,
+[00:22:40 · 1360.2s → 1361.2s] Flávio Bolsonaro: inclusive esse que está
+[00:22:41 · 1361.2s → 1362.1s] Flávio Bolsonaro: tomando uísque
+[00:22:42 · 1362.1s → 1362.8s] Flávio Bolsonaro: com o Vorcaro,
+[00:22:42 · 1362.9s → 1363.6s] Flávio Bolsonaro: fumando jaruto,
+[00:22:44 · 1364.2s → 1365.0s] Flávio Bolsonaro: com pessoas que ele,
+[00:22:45 · 1365.7s → 1367.1s] Flávio Bolsonaro: que a Polícia Federal
+[00:22:47 · 1367.1s → 1367.7s] Flávio Bolsonaro: está investigando,
+[00:22:47 · 1367.8s → 1368.1s] Flávio Bolsonaro: então ele não tem
+[00:22:48 · 1368.1s → 1368.5s] Flávio Bolsonaro: nenhuma isenção,
+[00:22:48 · 1368.6s → 1369.7s] Flávio Bolsonaro: ele trocou os 27
+[00:22:49 · 1369.7s → 1370.4s] Flávio Bolsonaro: superintendentes
+[00:22:50 · 1370.4s → 1371.6s] Flávio Bolsonaro: de toda a federação.
+[00:22:52 · 1372.3s → 1373.3s] Flávio Bolsonaro: Aí o Bolsonaro troca um,
+[00:22:53 · 1373.7s → 1374.5s] Flávio Bolsonaro: tem esse questionamento.
+[00:22:54 · 1374.6s → 1375.4s] Flávio Bolsonaro: Ele troca 27
+[00:22:55 · 1375.4s → 1376.3s] Flávio Bolsonaro: e não tem questionamento nenhum.
+[00:22:56 · 1376.4s → 1377.0s] Flávio Bolsonaro: Hoje em dia,
+[00:22:57 · 1377.1s → 1377.9s] Flávio Bolsonaro: é óbvio que a Polícia Federal
+[00:22:57 · 1377.9s → 1378.4s] Flávio Bolsonaro: está aparelhada,
+[00:22:58 · 1378.5s → 1379.3s] Flávio Bolsonaro: tem um grupo especial
+[00:22:59 · 1379.3s → 1379.7s] Flávio Bolsonaro: do Lula
+[00:22:59 · 1379.7s → 1380.8s] Flávio Bolsonaro: dentro da Polícia Federal.
+[00:23:01 · 1381.0s → 1381.7s] Renata Lo Prete: O seu pai trocou
+[00:23:01 · 1381.7s → 1382.8s] Renata Lo Prete: o ministro, o candidato?
+[00:23:02 · 1382.8s → 1383.6s] Flávio Bolsonaro: Não, ele pediu para sair.
+[00:23:04 · 1384.0s → 1385.4s] Flávio Bolsonaro: E hoje somos aliados,
+[00:23:05 · 1385.5s → 1386.3s] Flávio Bolsonaro: inclusive, parabéns
+[00:23:06 · 1386.3s → 1386.9s] Flávio Bolsonaro: ao Sérgio Moro,
+[00:23:07 · 1387.3s → 1387.9s] Flávio Bolsonaro: eleito governador
+[00:23:07 · 1387.9s → 1388.8s] Flávio Bolsonaro: no primeiro turno
+[00:23:08 · 1388.8s → 1389.4s] Flávio Bolsonaro: no Paraná.
+[00:23:09 · 1389.8s → 1390.2s] Flávio Bolsonaro: Estamos fazendo
+[00:23:10 · 1390.2s → 1390.9s] Flávio Bolsonaro: um grande trabalho
+[00:23:10 · 1390.9s → 1391.6s] Flávio Bolsonaro: e se Deus quiser,
+[00:23:11 · 1391.7s → 1392.7s] Flávio Bolsonaro: vai ter Flávio Bolsonaro
+[00:23:12 · 1392.7s → 1393.7s] Flávio Bolsonaro: na presidente da República
+[00:23:13 · 1393.7s → 1394.4s] Flávio Bolsonaro: para ajudar muitos
+[00:23:14 · 1394.4s → 1395.0s] Flávio Bolsonaro: paranaenses.
+[00:23:15 · 1395.3s → 1396.3s] Renata Lo Prete: Por falar que o senhor
+[00:23:16 · 1396.3s → 1397.2s] Renata Lo Prete: falou agora
+[00:23:17 · 1397.2s → 1398.3s] Renata Lo Prete: do Jair Bolsonaro,
+[00:23:18 · 1398.5s → 1399.6s] Renata Lo Prete: existem movimentações
+[00:23:19 · 1399.6s → 1400.6s] Renata Lo Prete: no judiciário
+[00:23:20 · 1400.6s → 1401.7s] Renata Lo Prete: para tentar anular
+[00:23:21 · 1401.7s → 1403.0s] Renata Lo Prete: ainda este ano
+[00:23:22 · 1403.0s → 1404.0s] Renata Lo Prete: a condenação
+[00:23:24 · 1404.0s → 1404.9s] Renata Lo Prete: do ex-presidente
+[00:23:24 · 1404.9s → 1406.2s] Renata Lo Prete: a 27 anos de prisão
+[00:23:26 · 1406.2s → 1407.3s] Renata Lo Prete: por tentativa de golpe.
+[00:23:27 · 1407.8s → 1408.6s] Renata Lo Prete: Se isso acontecer
+[00:23:28 · 1408.6s → 1409.7s] Renata Lo Prete: e se o senhor vencer
+[00:23:29 · 1409.7s → 1410.3s] Renata Lo Prete: a eleição,
+[00:23:30 · 1410.7s → 1411.9s] Renata Lo Prete: seu pai terá cargo
+[00:23:31 · 1411.9s → 1412.7s] Renata Lo Prete: no seu governo?
+[00:23:33 · 1413.0s → 1413.9s] Renata Lo Prete: Qual, candidato?
+[00:23:33 · 1413.9s → 1414.8s] Flávio Bolsonaro: Bom, primeiro é importante
+[00:23:34 · 1414.8s → 1415.9s] Flávio Bolsonaro: a gente só contextualizar,
+[00:23:36 · 1416.0s → 1416.3s] Flávio Bolsonaro: Renato,
+[00:23:36 · 1416.8s → 1418.4s] Flávio Bolsonaro: que o presidente Bolsonaro
+[00:23:38 · 1418.4s → 1419.3s] Flávio Bolsonaro: foi condenado
+[00:23:39 · 1419.3s → 1420.3s] Flávio Bolsonaro: numa farsa.
+[00:23:40 · 1420.9s → 1421.2s] Flávio Bolsonaro: Foi condenado
+[00:23:41 · 1421.2s → 1422.5s] Flávio Bolsonaro: pelos seus inimigos.
+[00:23:42 · 1422.8s → 1423.5s] Flávio Bolsonaro: Vamos lembrar aqui,
+[00:23:43 · 1423.7s → 1424.7s] Flávio Bolsonaro: Alexandre de Moraes
+[00:23:44 · 1424.7s → 1425.4s] Flávio Bolsonaro: votou para condenar
+[00:23:45 · 1425.4s → 1426.2s] Flávio Bolsonaro: o presidente Bolsonaro
+[00:23:46 · 1426.2s → 1427.3s] Flávio Bolsonaro: pelo golpe da Disney.
+[00:23:47 · 1427.9s → 1428.7s] Flávio Bolsonaro: Ele foi condenado
+[00:23:48 · 1428.7s → 1430.3s] Flávio Bolsonaro: por organização criminosa armada
+[00:23:50 · 1430.3s → 1430.9s] Flávio Bolsonaro: e não foi encontrado
+[00:23:50 · 1430.9s → 1431.8s] Flávio Bolsonaro: uma arma em lugar nenhum.
+[00:23:53 · 1433.4s → 1434.7s] Flávio Bolsonaro: Depredação de patrimônio público,
+[00:23:54 · 1434.8s → 1435.6s] Flávio Bolsonaro: ele é a 10 mil quilômetros
+[00:23:55 · 1435.6s → 1436.2s] Flávio Bolsonaro: de distância.
+[00:23:56 · 1436.4s → 1437.1s] Flávio Bolsonaro: Patrimônio público,
+[00:23:57 · 1437.3s → 1438.0s] Flávio Bolsonaro: para eu quebrar um copo,
+[00:23:58 · 1438.1s → 1438.9s] Flávio Bolsonaro: eu tenho que pegar ele na mão,
+[00:23:59 · 1439.1s → 1439.4s] Flávio Bolsonaro: fisicamente,
+[00:23:59 · 1439.6s → 1440.4s] Flávio Bolsonaro: tacar no chão e quebrar.
+[00:24:00 · 1440.9s → 1441.6s] Flávio Bolsonaro: Ele foi acusado
+[00:24:01 · 1441.6s → 1442.8s] Flávio Bolsonaro: de depredar patrimônio público
+[00:24:02 · 1442.8s → 1444.0s] Flávio Bolsonaro: por Wi-Fi à distância.
+[00:24:04 · 1444.1s → 1444.5s] Flávio Bolsonaro: Então, quem foi
+[00:24:04 · 1444.5s → 1445.2s] Flávio Bolsonaro: que julgou ele, Renato?
+[00:24:05 · 1445.5s → 1446.4s] Flávio Bolsonaro: O Alexandre de Moraes,
+[00:24:06 · 1446.5s → 1447.4s] Flávio Bolsonaro: o inimigo declarado dele.
+[00:24:07 · 1447.8s → 1448.6s] Flávio Bolsonaro: O Flávio Dino,
+[00:24:08 · 1449.0s → 1449.4s] Flávio Bolsonaro: até ontem,
+[00:24:09 · 1449.4s → 1450.5s] Flávio Bolsonaro: era ministro da Justiça
+[00:24:10 · 1450.5s → 1452.3s] Flávio Bolsonaro: ou da Injustiça de Lula,
+[00:24:12 · 1452.3s → 1453.2s] Flávio Bolsonaro: que já disse que Bolsonaro
+[00:24:13 · 1453.2s → 1454.3s] Flávio Bolsonaro: era o demônio na Terra.
+[00:24:14 · 1454.7s → 1455.8s] Flávio Bolsonaro: Foi julgado pelo Zanin,
+[00:24:15 · 1455.9s → 1456.7s] Flávio Bolsonaro: o outro ministro,
+[00:24:16 · 1456.8s → 1457.6s] Flávio Bolsonaro: outro amigo do Lula
+[00:24:17 · 1457.6s → 1458.2s] Flávio Bolsonaro: colocado lá,
+[00:24:18 · 1458.3s → 1458.8s] Flávio Bolsonaro: que até ontem
+[00:24:18 · 1458.8s → 1460.8s] Flávio Bolsonaro: era advogado do Lula.
+[00:24:20 · 1460.9s → 1461.8s] Flávio Bolsonaro: Então, o julgamento
+[00:24:21 · 1461.8s → 1463.0s] Flávio Bolsonaro: que, obviamente,
+[00:24:23 · 1463.4s → 1464.8s] Flávio Bolsonaro: muito antes de começar,
+[00:24:25 · 1465.4s → 1466.2s] Flávio Bolsonaro: todo mundo já sabia
+[00:24:26 · 1466.2s → 1466.7s] Flávio Bolsonaro: que era o final.
+[00:24:26 · 1466.8s → 1467.6s] Flávio Bolsonaro: E eu quero falar para você,
+[00:24:27 · 1467.7s → 1468.2s] Flávio Bolsonaro: Renata, você,
+[00:24:28 · 1468.3s → 1469.1s] Flávio Bolsonaro: quem está nos assistindo,
+[00:24:29 · 1469.6s → 1470.9s] Flávio Bolsonaro: nunca queiram ser julgados
+[00:24:30 · 1470.9s → 1471.6s] Flávio Bolsonaro: pelos seus inimigos,
+[00:24:31 · 1471.7s → 1472.3s] Flávio Bolsonaro: porque já sabe
+[00:24:32 · 1472.3s → 1473.1s] Flávio Bolsonaro: que a injustiça é certa.
+[00:24:33 · 1473.2s → 1473.4s] Flávio Bolsonaro: Agora,
+[00:24:34 · 1474.1s → 1475.4s] Flávio Bolsonaro: são vários os vícios
+[00:24:35 · 1475.4s → 1476.4s] Flávio Bolsonaro: que existem nesse processo,
+[00:24:36 · 1476.6s → 1477.2s] Flávio Bolsonaro: mas vários.
+[00:24:37 · 1477.9s → 1479.0s] Flávio Bolsonaro: Eu acho que está demorando
+[00:24:39 · 1479.0s → 1480.0s] Flávio Bolsonaro: para cancelar
+[00:24:39 · 1480.0s → 1480.8s] Flávio Bolsonaro: a condenação dele.
+[00:24:41 · 1481.0s → 1481.6s] Renata Lo Prete: Só para a gente
+[00:24:41 · 1481.6s → 1482.8s] Renata Lo Prete: não perder o fio da meada aqui,
+[00:24:42 · 1482.8s → 1483.5s] Renata Lo Prete: a gente pode falar
+[00:24:43 · 1483.5s → 1484.4s] Renata Lo Prete: da tentativa de golpe
+[00:24:44 · 1484.4s → 1485.0s] Renata Lo Prete: mais adiante,
+[00:24:45 · 1485.1s → 1485.8s] Renata Lo Prete: mas eu estava fazendo
+[00:24:45 · 1485.8s → 1486.5s] Renata Lo Prete: uma outra pergunta
+[00:24:46 · 1486.5s → 1486.9s] Renata Lo Prete: para o senhor.
+[00:24:47 · 1487.7s → 1489.0s] Renata Lo Prete: Eu quero saber
+[00:24:49 · 1489.0s → 1490.4s] Renata Lo Prete: se o senhor vencer,
+[00:24:50 · 1490.6s → 1491.8s] Renata Lo Prete: seu pai vai ter cargo
+[00:24:51 · 1491.8s → 1492.7s] Renata Lo Prete: no seu governo, qual?
+[00:24:52 · 1492.9s → 1493.5s] Flávio Bolsonaro: uma coisa é o seguinte,
+[00:24:54 · 1494.0s → 1495.6s] Flávio Bolsonaro: o Flávio Bolsonaro,
+[00:24:55 · 1495.7s → 1496.3s] Flávio Bolsonaro: quem é o pai dele?
+[00:24:56 · 1496.4s → 1497.1s] Flávio Bolsonaro: É o Jair Bolsonaro.
+[00:24:57 · 1497.6s → 1498.4s] Flávio Bolsonaro: A instituição,
+[00:24:58 · 1498.6s → 1499.8s] Flávio Bolsonaro: presidência da República,
+[00:24:59 · 1499.9s → 1500.7s] Flávio Bolsonaro: o Flávio presidente
+[00:25:00 · 1500.7s → 1501.5s] Flávio Bolsonaro: da República,
+[00:25:01 · 1501.9s → 1503.2s] Flávio Bolsonaro: o meu pai vai ser você,
+[00:25:03 · 1503.3s → 1504.8s] Flávio Bolsonaro: meu pai vai ser o povo brasileiro,
+[00:25:04 · 1504.8s → 1505.3s] Flávio Bolsonaro: é para você
+[00:25:05 · 1505.3s → 1506.0s] Flávio Bolsonaro: que eu vou trabalhar.
+[00:25:06 · 1506.5s → 1507.4s] Flávio Bolsonaro: E o presidente Bolsonaro
+[00:25:07 · 1507.4s → 1508.7s] Flávio Bolsonaro: nunca tratou de carro
+[00:25:08 · 1508.7s → 1508.9s] Flávio Bolsonaro: comigo,
+[00:25:09 · 1509.4s → 1510.1s] Flávio Bolsonaro: nunca sugeriu
+[00:25:10 · 1510.1s → 1510.6s] Flávio Bolsonaro: que gostaria
+[00:25:10 · 1510.6s → 1511.4s] Flávio Bolsonaro: de trabalhar no governo.
+[00:25:11 · 1511.7s → 1512.9s] Flávio Bolsonaro: Eu tenho o privilégio
+[00:25:12 · 1512.9s → 1514.2s] Flávio Bolsonaro: de a hora que eu precisar
+[00:25:14 · 1514.2s → 1516.1s] Flávio Bolsonaro: consultar um ex-presidente
+[00:25:16 · 1516.1s → 1516.7s] Flávio Bolsonaro: da República,
+[00:25:16 · 1516.8s → 1517.4s] Flávio Bolsonaro: eu tenho dentro
+[00:25:17 · 1517.4s → 1518.3s] Flávio Bolsonaro: de casa de confiança.
+[00:25:18 · 1518.5s → 1518.8s] Flávio Bolsonaro: Então, assim,
+[00:25:18 · 1518.8s → 1519.7s] Flávio Bolsonaro: eu sou um privilegiado
+[00:25:19 · 1519.7s → 1520.0s] Flávio Bolsonaro: por isso,
+[00:25:20 · 1520.3s → 1520.9s] Flávio Bolsonaro: mas nunca tratou
+[00:25:20 · 1520.9s → 1521.8s] Flávio Bolsonaro: de cargo comigo, Renata.
+[00:25:22 · 1522.0s → 1523.1s] Renata Lo Prete: Tá, mas o senhor cogita
+[00:25:23 · 1523.1s → 1523.7s] Renata Lo Prete: nomeá-lo,
+[00:25:23 · 1523.8s → 1524.5s] Renata Lo Prete: o senhor daria um cargo
+[00:25:24 · 1524.5s → 1525.0s] Renata Lo Prete: para o seu pai do governo?
+[00:25:24 · 1525.0s → 1526.2s] Flávio Bolsonaro: Ele nunca tratou disso comigo.
+[00:25:26 · 1526.7s → 1527.0s] Renata Lo Prete: Entendi.
+[00:25:27 · 1527.1s → 1527.6s] Flávio Bolsonaro: Então, assim,
+[00:25:27 · 1527.6s → 1528.3s] Flávio Bolsonaro: não está no radar.
+[00:25:28 · 1528.4s → 1529.3s] Renata Lo Prete: Na mesma linha,
+[00:25:29 · 1529.5s → 1530.2s] Renata Lo Prete: eu quero ouvi-lo
+[00:25:30 · 1530.2s → 1531.5s] Renata Lo Prete: sobre seu irmão Eduardo.
+[00:25:31 · 1531.7s → 1532.8s] Renata Lo Prete: No começo desse ano,
+[00:25:32 · 1532.9s → 1533.4s] Renata Lo Prete: o senhor disse
+[00:25:33 · 1533.4s → 1534.2s] Renata Lo Prete: que ele é um craque
+[00:25:34 · 1534.2s → 1535.6s] Renata Lo Prete: em relações internacionais,
+[00:25:35 · 1535.8s → 1537.4s] Renata Lo Prete: que seria um privilégio
+[00:25:37 · 1537.4s → 1539.0s] Renata Lo Prete: tê-lo falando em seu nome,
+[00:25:39 · 1539.4s → 1540.2s] Renata Lo Prete: e que o senhor não conhece
+[00:25:40 · 1540.2s → 1541.3s] Renata Lo Prete: ninguém no Brasil
+[00:25:41 · 1541.3s → 1542.7s] Renata Lo Prete: com mais qualidades
+[00:25:42 · 1542.7s → 1543.3s] Renata Lo Prete: do que ele.
+[00:25:43 · 1543.7s → 1544.8s] Renata Lo Prete: Se o senhor se eleger,
+[00:25:45 · 1545.3s → 1546.6s] Renata Lo Prete: Eduardo será chanceler?
+[00:25:46 · 1546.8s → 1547.7s] Renata Lo Prete: Eu faço essa pergunta
+[00:25:47 · 1547.7s → 1548.7s] Renata Lo Prete: especificamente
+[00:25:48 · 1548.7s → 1549.7s] Renata Lo Prete: porque dias atrás
+[00:25:49 · 1549.7s → 1550.9s] Renata Lo Prete: ele deu uma entrevista
+[00:25:50 · 1550.9s → 1553.0s] Renata Lo Prete: dizendo que quem vai decidir isso
+[00:25:52 · 1553.0s → 1554.1s] Renata Lo Prete: é o pai de vocês.
+[00:25:54 · 1554.5s → 1555.3s] Flávio Bolsonaro: Não, ele não vai ser
+[00:25:55 · 1555.3s → 1555.8s] Flávio Bolsonaro: meu chanceler.
+[00:25:55 · 1556.0s → 1557.5s] Flávio Bolsonaro: O Eduardo é um perseguido político
+[00:25:57 · 1557.5s → 1558.1s] Flávio Bolsonaro: que está lá fora
+[00:25:58 · 1558.1s → 1559.0s] Flávio Bolsonaro: denunciando
+[00:25:59 · 1559.0s → 1560.3s] Flávio Bolsonaro: as arbitrariedades
+[00:26:00 · 1560.3s → 1561.1s] Flávio Bolsonaro: que existem aqui no Brasil.
+[00:26:01 · 1561.2s → 1561.9s] Flávio Bolsonaro: Algum dia a história
+[00:26:01 · 1561.9s → 1563.5s] Flávio Bolsonaro: ainda vai reconhecê-lo
+[00:26:03 · 1563.5s → 1564.4s] Flávio Bolsonaro: como alguém
+[00:26:04 · 1564.4s → 1565.5s] Flávio Bolsonaro: que se sacrificou
+[00:26:05 · 1565.5s → 1567.1s] Flávio Bolsonaro: para defender a democracia
+[00:26:07 · 1567.1s → 1568.3s] Flávio Bolsonaro: no nosso país.
+[00:26:08 · 1568.3s → 1569.0s] Flávio Bolsonaro: Hoje ele não pode
+[00:26:09 · 1569.0s → 1570.3s] Flávio Bolsonaro: pisar em um monte de países
+[00:26:10 · 1570.3s → 1571.5s] Flávio Bolsonaro: porque o Alexandre de Moraes
+[00:26:11 · 1571.5s → 1573.1s] Flávio Bolsonaro: persegue ele a todo momento.
+[00:26:13 · 1573.2s → 1573.7s] Flávio Bolsonaro: Você veja como é que é
+[00:26:13 · 1573.7s → 1575.0s] Flávio Bolsonaro: o julgamento,
+[00:26:15 · 1575.1s → 1576.3s] Flávio Bolsonaro: como é que está acontecendo hoje,
+[00:26:16 · 1576.3s → 1576.7s] Flávio Bolsonaro: Renata.
+[00:26:17 · 1577.0s → 1578.5s] Flávio Bolsonaro: O Alexandre de Moraes
+[00:26:18 · 1578.5s → 1579.4s] Flávio Bolsonaro: toma uma Magnitsky
+[00:26:19 · 1579.4s → 1580.1s] Flávio Bolsonaro: que é uma punição
+[00:26:20 · 1580.1s → 1581.1s] Flávio Bolsonaro: do governo americano
+[00:26:21 · 1581.1s → 1582.2s] Flávio Bolsonaro: com base na lei americana
+[00:26:22 · 1582.2s → 1584.7s] Flávio Bolsonaro: e ele bota a culpa
+[00:26:24 · 1584.7s → 1585.1s] Flávio Bolsonaro: no Eduardo
+[00:26:25 · 1585.1s → 1585.5s] Flávio Bolsonaro: como se ele tivesse
+[00:26:25 · 1585.5s → 1586.7s] Flávio Bolsonaro: condições de manipular
+[00:26:26 · 1586.7s → 1588.0s] Flávio Bolsonaro: o presidente dos Estados Unidos,
+[00:26:28 · 1588.4s → 1589.3s] Flávio Bolsonaro: o Donald Trump,
+[00:26:29 · 1589.8s → 1590.5s] Flávio Bolsonaro: e aqui condena ele
+[00:26:30 · 1590.5s → 1592.0s] Flávio Bolsonaro: por estar atrapalhando
+[00:26:31 · 1592.0s → 1593.5s] Flávio Bolsonaro: ser uma ameaça
+[00:26:33 · 1593.5s → 1594.8s] Flávio Bolsonaro: ao andamento do processo
+[00:26:34 · 1594.8s → 1595.5s] Flávio Bolsonaro: e vai condenando
+[00:26:35 · 1595.5s → 1596.1s] Flávio Bolsonaro: Eduardo a alguém
+[00:26:36 · 1596.1s → 1597.3s] Flávio Bolsonaro: que se ele está
+[00:26:37 · 1597.3s → 1598.5s] Flávio Bolsonaro: se sentindo lesado
+[00:26:38 · 1598.5s → 1599.2s] Flávio Bolsonaro: com a Magnitsky
+[00:26:39 · 1599.2s → 1600.9s] Flávio Bolsonaro: e o culpado Eduardo
+[00:26:40 · 1600.9s → 1601.6s] Flávio Bolsonaro: como é que ele próprio
+[00:26:41 · 1601.6s → 1602.4s] Flávio Bolsonaro: julga o Eduardo.
+[00:26:42 · 1602.9s → 1603.0s] Flávio Bolsonaro: Quer dizer,
+[00:26:43 · 1603.0s → 1603.7s] Flávio Bolsonaro: é um processo totalmente
+[00:26:43 · 1603.7s → 1605.5s] Flávio Bolsonaro: viciado e nulo.
+[00:26:45 · 1605.9s → 1606.2s] Flávio Bolsonaro: Então,
+[00:26:46 · 1606.3s → 1607.3s] Flávio Bolsonaro: o Eduardo faz sim
+[00:26:47 · 1607.3s → 1608.1s] Flávio Bolsonaro: um trabalho brilhante.
+[00:26:48 · 1608.3s → 1609.7s] Flávio Bolsonaro: Ele construiu ao longo
+[00:26:49 · 1609.7s → 1610.9s] Flávio Bolsonaro: de mais de 10 anos
+[00:26:50 · 1610.9s → 1612.3s] Flávio Bolsonaro: um relacionamento internacional
+[00:26:52 · 1612.3s → 1613.7s] Flávio Bolsonaro: com vários líderes políticos
+[00:26:53 · 1613.7s → 1614.4s] Flávio Bolsonaro: conservadores
+[00:26:54 · 1614.4s → 1616.3s] Flávio Bolsonaro: que são de direita
+[00:26:56 · 1616.3s → 1617.1s] Flávio Bolsonaro: e ele tem
+[00:26:57 · 1617.1s → 1617.9s] Flávio Bolsonaro: o mérito dele.
+[00:26:58 · 1618.0s → 1618.2s] Flávio Bolsonaro: Agora,
+[00:26:58 · 1618.3s → 1619.2s] Flávio Bolsonaro: a questão de ser chanceler,
+[00:26:59 · 1619.4s → 1619.8s] Flávio Bolsonaro: ser o ministro
+[00:26:59 · 1619.8s → 1620.3s] Flávio Bolsonaro: ação exteriores
+[00:27:00 · 1620.3s → 1620.8s] Flávio Bolsonaro: aqui no Brasil
+[00:27:00 · 1620.8s → 1621.8s] Flávio Bolsonaro: é um outro assunto.

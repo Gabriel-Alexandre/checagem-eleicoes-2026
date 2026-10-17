@@ -1,0 +1,269 @@
+LOTE 02 de 05 · janela a EXTRAIR: 00:08:37 a 00:17:31 (517.6 s a 1051.6 s)
+
+⛔ INTERNET FECHADA. Não pesquise nada, nem para "entender melhor" uma frase. Quem já sabe a resposta
+   escolhe as perguntas (skills/extrair-alegacoes.md, trava 2).
+⛔ NENHUM veredito. O arquivo de saída não tem esse campo.
+⛔ Extraia SÓ da janela acima. As linhas marcadas (contexto) existem para a frase não ser lida fora
+   de contexto, e NÃO viram alegação.
+⛔ Mesma régua para todos os falantes: candidato, jornalista, mediador, e a pergunta que um candidato
+   faz ao outro (pergunta que afirma fato entra). Nada de pular quem "fala difícil".
+
+Saída: casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-02.json
+  · ids locais A001, A002... na ordem da fala (o script renumera depois)
+  · `cobertura`: {"inicio_s": 517.6, "fim_s": 1051.6}
+  · `exclusoes` para o que atravessou o filtro e não virou alegação, com motivo
+  · `frase` é cópia LITERAL da transcrição (o validador confere palavra inteira)
+
+────────────────────────────────────────────────────────────────────────────
+
+(contexto, NÃO extrair) [00:07:49 · 469.8s] Flávio Bolsonaro: Como eu ouvi da grande maioria dos trabalhadores, que eles estavam favoráveis ao fim da escala seis por um,
+(contexto, NÃO extrair) [00:07:55 · 475.8s] Flávio Bolsonaro: eu resolvi seguir a vontade da maioria dos trabalhadores brasileiros.
+(contexto, NÃO extrair) [00:07:58 · 478.5s] Flávio Bolsonaro: E digo mais, Renata, não pode ficar só nessa folga extra, que todo mundo tem direito de ter essa folga extra.
+(contexto, NÃO extrair) [00:08:03 · 483.4s] Flávio Bolsonaro: Todo mundo quer trabalhar menos e ganhar mais.
+(contexto, NÃO extrair) [00:08:05 · 485.7s] Flávio Bolsonaro: O problema é, durante essa sua folga, com mais um dia de folga, você vai continuar andando de ônibus e sendo assaltado.
+(contexto, NÃO extrair) [00:08:14 · 494.2s] Flávio Bolsonaro: Com um dia a mais de folga, você vai continuar indo dormir preocupado porque você está devendo.
+(contexto, NÃO extrair) [00:08:19 · 499.5s] Flávio Bolsonaro: E o seu salário não está durando até o dia 30, está durando só até o dia 20.
+(contexto, NÃO extrair) [00:08:23 · 503.5s] Flávio Bolsonaro: Então, eu vou ser um presidente da República que, além de respeitar e garantir essa folga a mais para os trabalhadores,
+(contexto, NÃO extrair) [00:08:30 · 510.3s] Flávio Bolsonaro: eu vou fazer de tudo também para devolver o poder de compra do povo brasileiro
+(contexto, NÃO extrair) [00:08:33 · 513.4s] Flávio Bolsonaro: e devolver a segurança nas ruas para que todos possam andar com mais segurança.
+─── a janela começa aqui ───
+[00:08:37 · 517.6s → 522.9s] Renata Lo Prete: Antes de dizer que o senhor mudou de posição porque ouviu as pessoas, o senhor se referiu à proposta que o senhor preferia.
+[00:08:43 · 523.3s → 526.3s] Renata Lo Prete: Então, eu lembro aqui que seus aliados no Congresso estão dizendo que no ano que vem
+[00:08:46 · 526.3s → 531.3s] Renata Lo Prete: vão trabalhar para aprovar aquela proposta original do seu partido, o PL,
+[00:08:51 · 531.6s → 538.2s] Renata Lo Prete: aquela que tinha apresentado e prevê pagamentos de salário, férias, décimo terceiro, proporcionais às horas trabalhadas.
+[00:08:58 · 538.4s → 543.0s] Renata Lo Prete: Se o senhor chegar à presidência, vai se empenhar para reverter o fim da escala 6x1?
+[00:09:03 · 543.1s → 545.0s] Flávio Bolsonaro: Não vou, Renata. É importante a sua pergunta.
+[00:09:05 · 545.3s → 547.7s] Flávio Bolsonaro: Todos os leis trabalhistas estão garantidos.
+[00:09:07 · 547.9s → 549.3s] Flávio Bolsonaro: Cada um pode ter a sua opinião individual.
+[00:09:09 · 550.0s → 551.8s] Flávio Bolsonaro: Mas, da minha parte, isso aqui está respeitado.
+[00:09:11 · 552.0s → 553.8s] Flávio Bolsonaro: Foi uma decisão do Congresso Nacional.
+[00:09:14 · 554.0s → 558.1s] Flávio Bolsonaro: Então, da minha parte, nenhum questionamento com relação a isso.
+[00:09:18 · 558.1s → 562.6s] Renata Lo Prete: Agora, eu vou para um assunto de que o senhor tem falado bastante, que é o tamanho do mandato presidencial.
+[00:09:23 · 563.0s → 567.7s] Renata Lo Prete: Ao defender o fim da reeleição, o senhor chegou a ventilar a ideia de ter, em caso de vitória,
+[00:09:28 · 568.3s → 572.2s] Renata Lo Prete: estendido o seu próprio mandato dos atuais 4 para 5 anos.
+[00:09:32 · 572.5s → 573.9s] Renata Lo Prete: Eu tenho duas dúvidas sobre isso.
+[00:09:34 · 574.0s → 577.2s] Renata Lo Prete: Primeiro, o senhor tem dito que quer ser presidente de um mandato só.
+[00:09:37 · 577.6s → 584.9s] Renata Lo Prete: Se o Congresso não aprovar essas mudanças na Constituição, o senhor abriria a mão, voluntariamente, de buscar um novo mandato?
+[00:09:45 · 585.0s → 585.3s] Flávio Bolsonaro: Sim.
+[00:09:46 · 586.0s → 590.5s] Flávio Bolsonaro: Abriria a mão porque eu, inclusive, quando a minha equipe trouxe esse assunto, Renata, partiu de mim.
+[00:09:50 · 590.8s → 595.3s] Flávio Bolsonaro: Eles vieram conversar comigo, o que eu achava, partiu de mim apresentar uma PEC para dar o exemplo.
+[00:09:55 · 595.7s → 597.0s] Flávio Bolsonaro: E a minha PEC diz o seguinte.
+[00:09:58 · 598.1s → 600.4s] Flávio Bolsonaro: Acaba a reeleição para presidente da República.
+[00:10:00 · 600.6s → 605.1s] Flávio Bolsonaro: E no processo legislativo, que aí vai depender de como é que o Senado e a Câmara vão se posicionar,
+[00:10:05 · 605.1s → 609.0s] Flávio Bolsonaro: é que vai decidir qual vai ser o tamanho do mandato, se vai continuar de quatro anos, se não vai.
+[00:10:09 · 609.4s → 611.1s] Flávio Bolsonaro: Os detalhes vão ser no processo legislativo.
+[00:10:11 · 611.2s → 612.3s] Flávio Bolsonaro: E eu estou aqui me comprometendo.
+[00:10:12 · 612.7s → 614.1s] Flávio Bolsonaro: Eu só preciso de um mandato.
+[00:10:14 · 614.5s → 618.4s] Flávio Bolsonaro: Eu só quero um mandato para começar a consertar o nosso país de verdade.
+[00:10:18 · 618.9s → 623.1s] Flávio Bolsonaro: Porque não dá para continuar essa loucura que o atual presidente da República está fazendo.
+[00:10:23 · 623.5s → 627.8s] Flávio Bolsonaro: Já gastou quase 350 bilhões de reais para tentar se reeleger.
+[00:10:28 · 628.1s → 629.5s] Flávio Bolsonaro: Ele está disputando o poder.
+[00:10:29 · 629.6s → 633.1s] Flávio Bolsonaro: É a sétima vez que ele tenta um mandato de presidente da República.
+[00:10:33 · 633.1s → 634.9s] Flávio Bolsonaro: Eu não estou disputando o poder.
+[00:10:35 · 635.0s → 637.3s] Flávio Bolsonaro: Eu estou disputando o futuro da nossa nação.
+[00:10:37 · 637.6s → 638.6s] Flávio Bolsonaro: Eu estou aqui me comprometendo.
+[00:10:38 · 638.7s → 639.6s] Flávio Bolsonaro: Eu só preciso de um mandato.
+[00:10:39 · 639.7s → 642.5s] Flávio Bolsonaro: Porque o centro do meu governo vai ser você.
+[00:10:42 · 642.9s → 644.6s] Flávio Bolsonaro: Vai ser o trabalhador brasileiro.
+[00:10:44 · 644.6s → 647.5s] Flávio Bolsonaro: O centro do meu governo vai ser defender você.
+[00:10:48 · 648.1s → 652.0s] Flávio Bolsonaro: E perdeu a soberania hoje sobre o seu celular, sobre a sua bolsa, sobre a sua casa, sobre a sua família.
+[00:10:52 · 652.3s → 655.3s] Flávio Bolsonaro: O centro do meu governo vai ser devolver o seu poder de compra.
+[00:10:55 · 655.3s → 656.1s] Flávio Bolsonaro: É assim que eu vou trabalhar.
+[00:10:56 · 656.5s → 657.9s] Flávio Bolsonaro: Eu só preciso de um mandato.
+[00:10:57 · 658.0s → 660.6s] Flávio Bolsonaro: Porque eu não quero começar o mandato já pensando na reeleição.
+[00:11:00 · 660.6s → 663.2s] Flávio Bolsonaro: Eu quero fazer o que precisa ser feito para o Brasil melhorar.
+[00:11:03 · 663.2s → 668.6s] Renata Lo Prete: A propósito dessa sua proposta de emenda constitucional, só lembrando que ela não prevê extensão de mandato.
+[00:11:08 · 668.8s → 669.8s] Renata Lo Prete: Não tem isso no texto da PEG.
+[00:11:09 · 669.8s → 670.4s] Flávio Bolsonaro: Ela acaba com a reeleição.
+[00:11:10 · 670.5s → 671.8s] Flávio Bolsonaro: Outro detalhe importante de falar.
+[00:11:11 · 671.9s → 672.9s] Flávio Bolsonaro: Ela acaba com a reeleição.
+[00:11:13 · 673.0s → 674.5s] Flávio Bolsonaro: Eu estou falando só para a presidente da República.
+[00:11:14 · 674.9s → 680.5s] Flávio Bolsonaro: Então, o Congresso é que vai resolver se os demais esferas do Poder Executivo também vão ser abrangidas,
+[00:11:20 · 680.6s → 681.7s] Flávio Bolsonaro: governadores e prefeitos.
+[00:11:21 · 681.9s → 684.8s] Flávio Bolsonaro: Na minha opinião, teriam que ser também, mas eu apresentei para a presidente da República.
+[00:11:25 · 685.3s → 686.4s] Flávio Bolsonaro: E vale não só para mim.
+[00:11:26 · 686.9s → 688.8s] Flávio Bolsonaro: Vale para parentes até terceiro grau também.
+[00:11:29 · 689.3s → 689.4s] Renata Lo Prete: Tá.
+[00:11:29 · 689.4s → 697.3s] Renata Lo Prete: Então, o senhor não apoiaria uma mudança na regra que passasse a permitir que seu pai e os seus irmãos concorressem à sua eventual sucessão?
+[00:11:37 · 697.6s → 697.7s] Flávio Bolsonaro: Não.
+[00:11:37 · 697.8s → 699.2s] Flávio Bolsonaro: É como está hoje na regra que vale.
+[00:11:39 · 699.4s → 703.5s] Flávio Bolsonaro: O parentes até terceiro grau também é considerado uma reeleição.
+[00:11:43 · 703.7s → 706.5s] Renata Lo Prete: Sobre essa história de estender para cinco anos, o senhor tem uma posição?
+[00:11:46 · 706.6s → 709.6s] Flávio Bolsonaro: Eu vou ficar com o processo legislativo e se ficar em quatro anos, o meu mandato vai durar quatro anos.
+[00:11:49 · 709.9s → 711.9s] Flávio Bolsonaro: Isso é para mostrar, Renata, que eu tenho um desapego ao poder.
+[00:11:52 · 712.7s → 714.5s] Flávio Bolsonaro: Não tem projeto de poder da minha parte.
+[00:11:55 · 715.3s → 718.2s] Flávio Bolsonaro: Eu tenho 45 anos de idade, eu sou advogado, eu sou empresário.
+[00:11:58 · 718.5s → 720.7s] Flávio Bolsonaro: Eu tenho pós-graduação em políticas públicas e governo.
+[00:12:00 · 720.8s → 723.0s] Flávio Bolsonaro: Eu tenho MBA e empreendedorismo em novos negócios.
+[00:12:03 · 723.4s → 726.7s] Flávio Bolsonaro: Eu estou mais do que preparado para ser presidente da República e para mim é projeto de Deus.
+[00:12:06 · 726.9s → 731.3s] Flávio Bolsonaro: E eu sei que eu vou fazer um mandato para corresponder às expectativas do povo brasileiro.
+[00:12:11 · 731.3s → 738.3s] Flávio Bolsonaro: Eu vou dar minha contribuição e na direita não faltam novas lideranças para dar continuidade a esse projeto de nação.
+[00:12:18 · 738.7s → 739.6s] Flávio Bolsonaro: Não é um projeto de poder.
+[00:12:19 · 739.9s → 745.8s] Renata Lo Prete: Deixa eu falar de um outro ponto que o senhor tem reafirmado, tem mencionado, inclusive depois do primeiro turno.
+[00:12:26 · 746.1s → 753.0s] Renata Lo Prete: O seu plano de governo registrado no TSE apresenta seis propostas de reforma do judiciário,
+[00:12:33 · 753.3s → 755.3s] Renata Lo Prete: algo que o senhor tem colocado como prioritário.
+[00:12:35 · 755.3s → 756.6s] Renata Lo Prete: Eu cito três aqui.
+[00:12:36 · 756.8s → 760.8s] Renata Lo Prete: Retirar do Supremo, o julgamento de processos criminais contra parlamentares,
+[00:12:41 · 761.2s → 764.4s] Renata Lo Prete: reduzir o número de decisões individuais dos ministros
+[00:12:44 · 764.4s → 770.3s] Renata Lo Prete: e restringir a possibilidade de familiares deles advogarem causas que correm no tribunal.
+[00:12:51 · 771.2s → 774.7s] Renata Lo Prete: Bem, eu lhe pergunto, no caso do judiciário, quando o senhor fala de reforma,
+[00:12:54 · 774.8s → 778.1s] Renata Lo Prete: o senhor está falando desses itens apresentados no seu plano de governo
+[00:12:58 · 778.1s → 781.3s] Renata Lo Prete: ou tem algo que não está aí que o senhor também gostaria de fazer?
+[00:13:01 · 781.6s → 786.0s] Flávio Bolsonaro: Eu acho que o judiciário também tem que entrar junto com o legislativo e com o executivo,
+[00:13:06 · 786.1s → 789.4s] Flávio Bolsonaro: cada um dando a sua parcela de sacrifício, inclusive,
+[00:13:09 · 789.4s → 793.0s] Flávio Bolsonaro: para combater os penduricalhos, para combater os privilégios,
+[00:13:13 · 793.4s → 795.7s] Flávio Bolsonaro: que hoje são algo assim, é o astronômico.
+[00:13:15 · 795.8s → 799.2s] Flávio Bolsonaro: Só os penduricalhos dos três poderes, se você for botar na ponta do lápis,
+[00:13:19 · 799.2s → 800.7s] Flávio Bolsonaro: são 24 bilhões de reais por ano.
+[00:13:21 · 801.4s → 804.6s] Flávio Bolsonaro: Quer dizer, todo mundo tem que colaborar para a redução de despesas,
+[00:13:24 · 805.0s → 806.9s] Flávio Bolsonaro: Renata, mas sempre de forma muito respeitosa.
+[00:13:27 · 807.3s → 810.1s] Flávio Bolsonaro: O que eu tenho dito é o seguinte, do jeito que está hoje, de fato,
+[00:13:31 · 811.7s → 814.6s] Flávio Bolsonaro: nós temos que proteger a instituição Supremo Tribunal Federal.
+[00:13:35 · 815.1s → 818.7s] Flávio Bolsonaro: Não dá para um juiz como é o Alexandre de Moraes continuar dando canetado,
+[00:13:38 · 818.8s → 820.0s] Flávio Bolsonaro: interferindo em um monte de coisa,
+[00:13:40 · 820.5s → 823.2s] Flávio Bolsonaro: perseguindo adversários políticos do atual governo,
+[00:13:43 · 823.8s → 828.2s] Flávio Bolsonaro: os amigos do Lula no Supremo Tribunal Federal se protegendo
+[00:13:48 · 828.2s → 830.8s] Flávio Bolsonaro: para que investigações não avancem sobre eles.
+[00:13:51 · 831.1s → 831.9s] Flávio Bolsonaro: Isso aqui não dá mais.
+[00:13:52 · 832.0s → 834.4s] Flávio Bolsonaro: Eles já acabaram com a credibilidade do Poder Judiciário
+[00:13:54 · 834.4s → 836.8s] Flávio Bolsonaro: e essa reforma do Judiciário também tem que caminhar
+[00:13:56 · 836.8s → 839.2s] Flávio Bolsonaro: para o resgate dessa credibilidade.
+[00:13:59 · 839.5s → 842.0s] Flávio Bolsonaro: Porque a magistratura toda, Renata, não é Alexandre de Moraes.
+[00:14:02 · 842.1s → 844.0s] Flávio Bolsonaro: O Supremo não é Alexandre de Moraes, né?
+[00:14:04 · 844.0s → 845.2s] Renata Lo Prete: Deixa eu aproveitar que o senhor falou nele,
+[00:14:05 · 845.3s → 847.4s] Renata Lo Prete: porque o senhor tem defendido não só a investigação,
+[00:14:07 · 847.5s → 849.4s] Renata Lo Prete: mas impeachment do ministro Alexandre de Moraes
+[00:14:09 · 849.4s → 852.1s] Renata Lo Prete: por causa das relações dele com o dono do Banco Master.
+[00:14:12 · 852.7s → 855.4s] Renata Lo Prete: Daí eu pergunto, mas e o ministro Cássio Nunes Marques?
+[00:14:15 · 855.5s → 857.5s] Renata Lo Prete: Porque ele foi indicado pelo seu pai
+[00:14:17 · 857.5s → 860.7s] Renata Lo Prete: e mensagens apreendidas no celular do Daniel Vorcaro
+[00:14:20 · 860.7s → 863.8s] Renata Lo Prete: indicam que ele, além de bancar despesas do ministro,
+[00:14:24 · 864.2s → 868.5s] Renata Lo Prete: pagou a um filho dele por meio de uma empresa de consultoria.
+[00:14:28 · 868.9s → 870.6s] Renata Lo Prete: Nunes Marques também precisa ser investigado?
+[00:14:30 · 870.6s → 872.6s] Flávio Bolsonaro: Tem que estar abaixo da lei.
+[00:14:32 · 872.7s → 874.4s] Flávio Bolsonaro: Esse é o problema do Brasil hoje, Renata.
+[00:14:34 · 874.9s → 875.6s] Flávio Bolsonaro: Qual o problema do Brasil?
+[00:14:35 · 875.7s → 877.2s] Flávio Bolsonaro: As pessoas acham que estão acima da lei.
+[00:14:37 · 877.2s → 878.2s] Flávio Bolsonaro: A lei tem que valer para todo mundo.
+[00:14:38 · 878.6s → 880.9s] Flávio Bolsonaro: A lei 1079, que é a lei de impeachment,
+[00:14:41 · 881.1s → 883.7s] Flávio Bolsonaro: estabelece lá quais são os crimes de responsabilidade
+[00:14:43 · 883.7s → 886.2s] Flávio Bolsonaro: que o senhor ministro do Supremo Tribunal Federal
+[00:14:46 · 886.2s → 888.8s] Flávio Bolsonaro: incorrer em uma daquelas hipóteses
+[00:14:48 · 888.8s → 891.0s] Flávio Bolsonaro: é obrigação do Senado Federal
+[00:14:50 · 891.0s → 893.1s] Flávio Bolsonaro: iniciar um processo de impeachment.
+[00:14:53 · 893.5s → 895.4s] Flávio Bolsonaro: Por exemplo, a atuação político-partidária
+[00:14:55 · 895.4s → 898.3s] Flávio Bolsonaro: é o que nós vemos em alguns ministros do Supremo.
+[00:14:58 · 898.5s → 900.6s] Flávio Bolsonaro: Por exemplo, tomar decisões
+[00:15:00 · 900.6s → 904.5s] Flávio Bolsonaro: quando, obviamente, deveria se declarar suspeito
+[00:15:04 · 904.5s → 905.5s] Flávio Bolsonaro: para tomar essas decisões.
+[00:15:05 · 905.9s → 907.2s] Flávio Bolsonaro: Foi o que mais o Alexandre de Moraes fez,
+[00:15:07 · 907.3s → 908.0s] Flávio Bolsonaro: tomou decisão,
+[00:15:08 · 908.3s → 910.9s] Flávio Bolsonaro: perseguindo adversários que ele predeterminava.
+[00:15:11 · 911.3s → 912.2s] Flávio Bolsonaro: E hoje, o que está acontecendo?
+[00:15:12 · 912.3s → 913.4s] Flávio Bolsonaro: Renato Alexandre de Moraes
+[00:15:13 · 913.4s → 916.4s] Flávio Bolsonaro: virou o articulador político do Lula em Brasília.
+[00:15:16 · 916.8s → 919.2s] Flávio Bolsonaro: Ele que fez as pazes do Davi Alcolumbre,
+[00:15:19 · 919.2s → 920.2s] Flávio Bolsonaro: o presidente do Senado,
+[00:15:20 · 920.5s → 922.4s] Flávio Bolsonaro: junto ao presidente Lula.
+[00:15:22 · 922.6s → 924.3s] Flávio Bolsonaro: E hoje estão todos unidos aí
+[00:15:24 · 924.3s → 926.0s] Flávio Bolsonaro: a favor da reeleição do Lula.
+[00:15:26 · 926.3s → 928.6s] Flávio Bolsonaro: Então, não dá para admitir um ministro do Supremo
+[00:15:28 · 928.6s → 930.1s] Flávio Bolsonaro: tendo uma atuação político-partidária.
+[00:15:30 · 930.2s → 931.1s] Flávio Bolsonaro: Então, qualquer pessoa,
+[00:15:31 · 931.6s → 932.8s] Flávio Bolsonaro: qualquer ministro do Supremo
+[00:15:32 · 932.8s → 933.7s] Flávio Bolsonaro: que infringe a lei
+[00:15:33 · 933.7s → 935.3s] Flávio Bolsonaro: tem que, obviamente, responder por isso.
+[00:15:35 · 935.4s → 936.3s] Renata Lo Prete: Candidato, eu quero evitar
+[00:15:36 · 936.3s → 937.9s] Renata Lo Prete: fazer uma discussão maior sobre isso
+[00:15:37 · 937.9s → 940.2s] Renata Lo Prete: porque essa questão de partidarização do Supremo
+[00:15:40 · 940.2s → 941.9s] Renata Lo Prete: ela vai para vários lados,
+[00:15:42 · 942.0s → 942.6s] Renata Lo Prete: como o senhor sabe,
+[00:15:42 · 942.7s → 943.6s] Renata Lo Prete: para diferentes lados.
+[00:15:43 · 943.8s → 945.0s] Renata Lo Prete: Então, vamos seguir aqui.
+[00:15:45 · 945.2s → 946.6s] Renata Lo Prete: Já que a gente falou de caso Master,
+[00:15:46 · 946.8s → 948.2s] Renata Lo Prete: eu quero falar do dinheiro
+[00:15:48 · 948.2s → 949.8s] Renata Lo Prete: que o senhor pediu a Daniel Vorcaro
+[00:15:49 · 949.8s → 950.5s] Renata Lo Prete: e foi atendido.
+[00:15:50 · 950.7s → 952.9s] Renata Lo Prete: Foram quase 70 milhões de reais
+[00:15:52 · 952.9s → 955.4s] Renata Lo Prete: de um total de 134 que o senhor pediu.
+[00:15:55 · 955.9s → 956.5s] Renata Lo Prete: E esse dinheiro,
+[00:15:56 · 956.7s → 957.6s] Renata Lo Prete: em vez de ir direto
+[00:15:57 · 957.6s → 958.9s] Renata Lo Prete: para a produtora do filme
+[00:15:58 · 958.9s → 959.8s] Renata Lo Prete: sobre o seu pai,
+[00:15:59 · 959.9s → 961.6s] Renata Lo Prete: foi parar num fundo nos Estados Unidos,
+[00:16:01 · 961.7s → 962.6s] Renata Lo Prete: um fundo imobiliário
+[00:16:02 · 962.6s → 963.9s] Renata Lo Prete: gerido por um amigo do seu...
+[00:16:03 · 963.9s → 965.0s] Flávio Bolsonaro: Não, não é um fundo imobiliário, Renata.
+[00:16:05 · 965.1s → 965.5s] Flávio Bolsonaro: Só para corrigir.
+[00:16:05 · 965.6s → 967.7s] Flávio Bolsonaro: É um fundo que faz só a gestão do filme.
+[00:16:07 · 967.7s → 968.0s] Renata Lo Prete: Muito bem.
+[00:16:08 · 968.2s → 971.2s] Renata Lo Prete: Gerido por um amigo do seu irmão Eduardo.
+[00:16:11 · 971.4s → 972.8s] Flávio Bolsonaro: Por um advogado experiente nisso.
+[00:16:12 · 972.9s → 974.0s] Renata Lo Prete: Mas que é amigo dele.
+[00:16:14 · 974.3s → 975.9s] Renata Lo Prete: Esse fundo estava inativo.
+[00:16:15 · 975.9s → 977.3s] Renata Lo Prete: havia quatro anos.
+[00:16:17 · 978.0s → 978.6s] Renata Lo Prete: E até hoje,
+[00:16:18 · 978.7s → 980.2s] Renata Lo Prete: esse fundo não deu informações
+[00:16:20 · 980.2s → 981.7s] Renata Lo Prete: sobre onde é que foi parar
+[00:16:21 · 981.7s → 982.5s] Renata Lo Prete: esse dinheiro.
+[00:16:22 · 982.9s → 983.9s] Renata Lo Prete: Bem, eu lhe pergunto.
+[00:16:24 · 984.4s → 984.9s] Renata Lo Prete: Não parece...
+[00:16:24 · 984.9s → 985.6s] Renata Lo Prete: É um ponto importante
+[00:16:25 · 985.6s → 986.3s] Renata Lo Prete: para esclarecer.
+[00:16:26 · 986.4s → 988.1s] Renata Lo Prete: Se não há nada a esconder,
+[00:16:28 · 988.5s → 989.2s] Renata Lo Prete: por que não trabalhar
+[00:16:29 · 989.2s → 990.8s] Renata Lo Prete: para que essas informações
+[00:16:30 · 990.8s → 992.1s] Renata Lo Prete: cheguem ao conhecimento
+[00:16:32 · 992.1s → 992.6s] Renata Lo Prete: do eleitor?
+[00:16:32 · 992.7s → 993.6s] Flávio Bolsonaro: Mas já vieram a público.
+[00:16:34 · 994.3s → 995.6s] Flávio Bolsonaro: A produtora do filme
+[00:16:35 · 995.6s → 996.3s] Flávio Bolsonaro: aqui no Brasil,
+[00:16:36 · 996.4s → 997.6s] Flávio Bolsonaro: ela prestou conta de tudo.
+[00:16:38 · 998.4s → 999.4s] Flávio Bolsonaro: Não tinha um centavo
+[00:16:39 · 999.4s → 1000.3s] Flávio Bolsonaro: que a produtora não usava
+[00:16:40 · 1000.3s → 1001.6s] Flávio Bolsonaro: e que não tivesse autorização do fundo.
+[00:16:41 · 1001.6s → 1001.9s] Flávio Bolsonaro: Renato,
+[00:16:41 · 1002.0s → 1002.7s] Flávio Bolsonaro: vamos separar as coisas
+[00:16:42 · 1002.7s → 1003.4s] Flávio Bolsonaro: que é muito importante
+[00:16:43 · 1003.4s → 1004.0s] Flávio Bolsonaro: a sua pergunta.
+[00:16:44 · 1004.5s → 1005.0s] Flávio Bolsonaro: Mais uma vez,
+[00:16:45 · 1005.1s → 1005.6s] Flávio Bolsonaro: eu vou esclarecer
+[00:16:45 · 1005.6s → 1006.9s] Flávio Bolsonaro: quantas vezes forem necessárias.
+[00:16:47 · 1007.7s → 1008.3s] Flávio Bolsonaro: Eu estou falando
+[00:16:48 · 1008.3s → 1009.8s] Flávio Bolsonaro: de um pedido
+[00:16:49 · 1009.8s → 1011.3s] Flávio Bolsonaro: de um patrocínio privado
+[00:16:51 · 1011.3s → 1012.6s] Flávio Bolsonaro: para um filme privado
+[00:16:52 · 1012.6s → 1013.7s] Flávio Bolsonaro: sem absolutamente
+[00:16:53 · 1013.7s → 1015.1s] Flávio Bolsonaro: nenhuma contrapartida
+[00:16:55 · 1015.1s → 1015.5s] Flávio Bolsonaro: pelo fato
+[00:16:55 · 1015.5s → 1016.5s] Flávio Bolsonaro: de eu ser senador da República
+[00:16:56 · 1016.5s → 1017.4s] Flávio Bolsonaro: para fazer um filme
+[00:16:57 · 1017.4s → 1018.6s] Flávio Bolsonaro: do Jair Bolsonaro.
+[00:16:59 · 1019.1s → 1020.3s] Flávio Bolsonaro: E que diga-se de passagem,
+[00:17:00 · 1020.3s → 1020.9s] Flávio Bolsonaro: muito em breve,
+[00:17:01 · 1021.0s → 1021.6s] Flávio Bolsonaro: se Deus quiser,
+[00:17:01 · 1021.8s → 1022.3s] Flávio Bolsonaro: todos virão
+[00:17:02 · 1022.3s → 1023.8s] Flávio Bolsonaro: uma obra-prima maravilhosa,
+[00:17:04 · 1024.3s → 1025.6s] Flávio Bolsonaro: um filme muito emocionante,
+[00:17:05 · 1025.7s → 1026.0s] Flávio Bolsonaro: em homenagem
+[00:17:06 · 1026.0s → 1027.2s] Flávio Bolsonaro: ao melhor presidente do Brasil
+[00:17:07 · 1027.2s → 1028.4s] Flávio Bolsonaro: que esse país já teve.
+[00:17:08 · 1028.5s → 1030.0s] Flávio Bolsonaro: O que é bem diferente
+[00:17:09 · 1030.0s → 1031.5s] Flávio Bolsonaro: do que fez o Lula
+[00:17:11 · 1031.5s → 1032.0s] Flávio Bolsonaro: na relação
+[00:17:12 · 1032.0s → 1033.3s] Flávio Bolsonaro: com o Vorcaro.
+[00:17:13 · 1033.7s → 1035.1s] Flávio Bolsonaro: Os seus principais
+[00:17:15 · 1035.1s → 1036.6s] Flávio Bolsonaro: articuladores políticos
+[00:17:16 · 1036.6s → 1038.2s] Flávio Bolsonaro: que frequentam ali
+[00:17:18 · 1038.2s → 1038.7s] Flávio Bolsonaro: a casa,
+[00:17:18 · 1038.8s → 1039.8s] Flávio Bolsonaro: a cozinha do Lula,
+[00:17:20 · 1040.2s → 1041.0s] Flávio Bolsonaro: tiveram relações
+[00:17:20 · 1041.0s → 1041.6s] Flávio Bolsonaro: com o Vorcaro
+[00:17:21 · 1041.6s → 1043.3s] Flávio Bolsonaro: e ofereciam contrapartidas
+[00:17:23 · 1043.3s → 1045.5s] Flávio Bolsonaro: para que houvesse
+[00:17:25 · 1045.5s → 1046.4s] Flávio Bolsonaro: esse patrocínio
+[00:17:26 · 1046.4s → 1048.6s] Flávio Bolsonaro: no filme do Lula.
+[00:17:28 · 1049.0s → 1049.9s] Flávio Bolsonaro: 30 milhões por fora.
+[00:17:30 · 1050.0s → 1050.7s] Flávio Bolsonaro: É o áudio do Vorcaro.
+[00:17:30 · 1050.8s → 1051.0s] Flávio Bolsonaro: A gente está falando
+[00:17:31 · 1051.0s → 1051.6s] Flávio Bolsonaro: do filme do Vorcaro.

@@ -1,0 +1,725 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 1622.1,
+    "fim_s": 2138.6
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 1630.7,
+      "fim_s": 1637.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "sobre as Forças Armadas porque elas passaram nos últimos quatro anos por um processo de afastamento dos quartéis da política",
+      "citacao_card": "as Forças Armadas [...] passaram nos últimos quatro anos por um processo de afastamento [...] da política",
+      "afirmacao": "Nos últimos quatro anos (2023-2026), as Forças Armadas passaram por um processo de afastamento da política",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre as Forças Armadas e se o candidato exigirá dos comandantes que endossem sua visão da transição de 2022 e do 8 de janeiro",
+      "o_que_conferir": [
+        "medidas adotadas desde 2023 para afastar militares da política: normas do Ministério da Defesa e dos comandos, PEC sobre militares da ativa em cargos eletivos, trocas de comando",
+        "se as medidas citadas foram de fato adotadas e em que período (2023 a out/2026)"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 1637.6,
+      "fim_s": 1642.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "como resposta ao dano de reputação por envolvimentos de militares na tentativa de golpe.",
+      "afirmacao": "Militares estiveram envolvidos na tentativa de golpe de Estado de 2022-2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as Forças Armadas e se o candidato exigirá dos comandantes que endossem sua visão da transição de 2022 e do 8 de janeiro",
+      "o_que_conferir": [
+        "denúncia da PGR e julgamento no STF da trama golpista: quantos réus e condenados eram militares (ativa e reserva) e com que patente",
+        "situação processual na data da fala (16/out/2026)"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 1706.7,
+      "fim_s": 1709.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Porto de Santos que é uma área da União, do governo federal,",
+      "afirmacao": "O Porto de Santos é um porto público da União, sob responsabilidade do governo federal",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras",
+      "o_que_conferir": [
+        "natureza jurídica do Porto Organizado de Santos e de sua autoridade portuária (Santos Port Authority/APS), Lei 12.815/2013 e atos do Ministério de Portos e Aeroportos",
+        "se houve concessão ou desestatização da autoridade portuária até out/2026"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 1706.7,
+      "fim_s": 1713.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Porto de Santos que é uma área da União, do governo federal, é o segundo maior porto exportador de cocaína do mundo.",
+      "citacao_card": "o Porto de Santos [...] é o segundo maior porto exportador de cocaína do mundo",
+      "afirmacao": "O Porto de Santos é o segundo maior porto exportador de cocaína do mundo",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras",
+      "o_que_conferir": [
+        "relatórios do UNODC (World Drug Report), da Europol/EMCDDA e da PF/Receita sobre apreensões e origem da cocaína por porto",
+        "que métrica sustenta o ranking (apreensões na origem ou no destino) e de que ano é o dado",
+        "se alguma fonte classifica Santos como 2º porto do mundo, ou só como principal porto de saída do Brasil/América do Sul"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 1726.9,
+      "fim_s": 1732.0,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o Brasil vai fazer parte do escudo das Américas para ter intercâmbio de informação e de inteligência",
+      "afirmacao": "O Brasil não integra hoje o Escudo das Américas, iniciativa de intercâmbio de informação e inteligência",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "relacoes-exteriores",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras. A alegação é o que a promessa pressupõe: que o Brasil está fora do Escudo das Américas",
+      "o_que_conferir": [
+        "o que é o Escudo das Américas, quem o criou e quais países aderiram, segundo os governos participantes",
+        "se o Brasil aderiu ou foi convidado até 16/out/2026",
+        "se a iniciativa trata de intercâmbio de informação e inteligência, como dito"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 1743.5,
+      "fim_s": 1747.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "As Forças Armadas foram completamente sucateadas durante o atual governo",
+      "afirmacao": "O orçamento e a capacidade das Forças Armadas foram reduzidos durante o governo Lula (2023-2026)",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta à pergunta sobre as Forças Armadas; o candidato passa a falar de narcotráfico e fronteiras. Fica de fora o juízo 'completamente'; extrai-se o núcleo factual do 'sucateamento'",
+      "o_que_conferir": [
+        "série do orçamento do Ministério da Defesa, SIOP/Portal da Transparência, 2019-2026: despesa discricionária e investimento, em valores reais",
+        "comparar com o governo anterior e com o início do mandato; conferir programas estratégicos (Gripen, submarinos, blindados) e efetivo"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 1760.9,
+      "fim_s": 1763.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "As sedes dos três poderes foram invadidas,",
+      "afirmacao": "Em 8 de janeiro de 2023, as sedes dos três Poderes (Planalto, Congresso e STF) foram invadidas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "relatórios da PF, do STF e das Casas sobre o 8 de janeiro de 2023: quais prédios foram invadidos",
+        "se os três prédios (Palácio do Planalto, Congresso Nacional e STF) tiveram área interna invadida"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 1763.8,
+      "fim_s": 1769.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "os invasores quebraram vidros, invadiram salas, depredaram salas, objetos de arte,",
+      "afirmacao": "Os invasores do 8 de janeiro quebraram vidros, invadiram e depredaram salas e danificaram objetos de arte",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "levantamento de danos dos três Poderes e do Iphan sobre o 8 de janeiro: vidros, salas e obras de arte danificadas",
+        "inventário de obras de arte atingidas (Planalto, Congresso e STF)"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 1769.5,
+      "fim_s": 1773.7,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "atacaram policiais com pedras, coquetails molotov, barras de ferro",
+      "afirmacao": "Os invasores do 8 de janeiro atacaram policiais com pedras, coquetéis molotov e barras de ferro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "relatórios da PMDF, da PF e denúncias da PGR sobre o 8 de janeiro: registro de policiais feridos e dos objetos usados nas agressões",
+        "se há registro específico de coquetéis molotov e barras de ferro, além de pedras"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 1773.7,
+      "fim_s": 1777.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e chegaram a roubar armas do gabinete de segurança institucional.",
+      "afirmacao": "Os invasores do 8 de janeiro roubaram armas do Gabinete de Segurança Institucional (GSI)",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta que descreve os fatos do 8 de janeiro de 2023 e pede ao candidato que diga como os autores devem ser punidos",
+      "o_que_conferir": [
+        "registro do GSI e inquéritos da PF sobre armas e munições subtraídas no Palácio do Planalto em 8/jan/2023",
+        "quais armas, quantas e se foram recuperadas"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 1808.5,
+      "fim_s": 1812.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "uma tentativa de golpe em prédios vazios.",
+      "afirmacao": "Os prédios dos três Poderes estavam vazios quando foram invadidos em 8 de janeiro de 2023",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "dia da semana e presença de autoridades e servidores nos prédios em 8/jan/2023 (domingo), segundo relatórios da PF e das Casas",
+        "se havia seguranças e servidores de plantão dentro dos prédios"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 1822.6,
+      "fim_s": 1825.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "por causa do prefeito Ricardo Nunes que é opositor a ele.",
+      "afirmacao": "O prefeito de São Paulo, Ricardo Nunes, é opositor político de Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "partido e alianças de Ricardo Nunes nas eleições de 2024 e 2026; apoio declarado a candidatos contra Lula"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 1826.0,
+      "fim_s": 1831.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Uma canetada, ao invés dele autorizar a prefeitura a fazer a faixa azul para proteger os motoboys",
+      "afirmacao": "O governo Lula, por ato federal, deixou de autorizar a Prefeitura de São Paulo a implantar a Faixa Azul para motociclistas",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "atos da Senatran/Contran e do Ministério dos Transportes sobre a Faixa Azul de São Paulo: autorização em caráter experimental, prazos e negativas",
+        "se a Faixa Azul depende de autorização federal e qual foi a decisão vigente na data da fala"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 1851.8,
+      "fim_s": 1859.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o prefeito Ricardo Nunes tentou pegar, o Renato, um empréstimo com o aval da União para investir na saúde do povo paulistano e o Lula não dava,",
+      "citacao_card": "Ricardo Nunes tentou pegar [...] um empréstimo com o aval da União [...] e o Lula não dava",
+      "afirmacao": "O governo Lula negou o aval da União a um empréstimo pedido pela Prefeitura de São Paulo para investir em saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "pedido da Prefeitura de São Paulo de garantia da União a operação de crédito (STN/PVL, Sadipem): valor, finalidade e decisão",
+        "se a negativa ou demora foi do Tesouro e por qual fundamento (capacidade de pagamento, CAPAG)"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 1859.3,
+      "fim_s": 1862.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "teve que entrar na justiça para poder botar mais dinheiro na saúde de São Paulo.",
+      "afirmacao": "A Prefeitura de São Paulo recorreu à Justiça para obter o aval da União ao empréstimo para a saúde",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta sobre a punição dos autores do 8 de janeiro; o candidato passa a falar de São Paulo",
+      "o_que_conferir": [
+        "ação judicial da Prefeitura de São Paulo contra a União sobre garantia a operação de crédito: tribunal, número e decisão"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 1895.0,
+      "fim_s": 1896.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "No primeiro turno, o Brasil já escolheu a mudança.",
+      "afirmacao": "No 1º turno de 2026, a maioria dos votos válidos não foi para Lula (oposição somou mais votos)",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta à pergunta se o candidato respeitará o resultado das urnas caso perca. Fica de fora a interpretação 'escolheu a mudança'; o núcleo factual é o resultado do 1º turno",
+      "o_que_conferir": [
+        "resultado oficial do 1º turno presidencial de 2026, TSE: votos válidos de Lula, de Flávio Bolsonaro e dos demais",
+        "quem ficou em primeiro lugar e se Lula teve menos da metade dos votos válidos"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 1901.5,
+      "fim_s": 1904.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em assassinatos de mulheres,",
+      "afirmacao": "No governo Lula, os assassinatos de mulheres (homicídios e feminicídios) atingiram recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "série de feminicídios e homicídios de mulheres, Anuário do Fórum Brasileiro de Segurança Pública e Sinesp/MJSP, anos disponíveis até 2025",
+        "se o recorde vale para feminicídio, para homicídio de mulheres ou para os dois, e em números absolutos ou taxa"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 1904.6,
+      "fim_s": 1906.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em mulheres que são espancadas,",
+      "afirmacao": "No governo Lula, a violência física contra mulheres (agressões e lesões corporais) atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "série de lesão corporal dolosa em violência doméstica e agressões a mulheres, Anuário do FBSP e Sinesp, anos disponíveis",
+        "se o pico da série cai em 2023-2025"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 1907.1,
+      "fim_s": 1909.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em queimadas na Amazônia,",
+      "afirmacao": "No governo Lula, as queimadas na Amazônia atingiram recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "meio-ambiente",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "série de focos de calor no bioma Amazônia (Programa Queimadas/Inpe) e de área queimada (MapBiomas Fogo, Inpe AQ1km), desde 1998",
+        "se o recorde vale para a série inteira ou só para um mês/ano (ex.: 2024) e para que métrica"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 1910.1,
+      "fim_s": 1913.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "com maior queimada na história da nação brasileira,",
+      "afirmacao": "Durante o governo Lula ocorreu a maior queimada da história do Brasil",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "meio-ambiente",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula. A frase vem depois de 'esse foi em outubro', trecho de leitura divergente: a alegação não depende do mês",
+      "o_que_conferir": [
+        "série nacional de área queimada (MapBiomas Fogo, Inpe) e de focos (Inpe) desde o início da medição",
+        "qual ano/período do governo Lula teria o maior valor da série e se é o maior de todos os anos"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 1913.9,
+      "fim_s": 1916.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em criminalidade,",
+      "afirmacao": "No governo Lula, a criminalidade no Brasil atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "séries de mortes violentas intencionais, roubos e furtos, Anuário do FBSP e Sinesp, desde 2011",
+        "qual indicador de 'criminalidade' teria recorde em 2023-2025, se algum"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 1916.7,
+      "fim_s": 1919.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em pessoas endividadas,",
+      "afirmacao": "No governo Lula, o número de pessoas endividadas atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "Peic/CNC (famílias endividadas e inadimplentes) e Mapa da Inadimplência Serasa (número de inadimplentes), séries completas",
+        "diferenciar endividadas (têm dívida) de inadimplentes (dívida atrasada) e ver se o pico cai no governo atual"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 1919.5,
+      "fim_s": 1921.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em empresas que são fechadas,",
+      "afirmacao": "No governo Lula, o fechamento de empresas atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "Mapa de Empresas (MDIC/Receita Federal): empresas fechadas por ano/quadrimestre, série histórica",
+        "se o recorde vale em números absolutos e se inclui MEIs; conferir também o saldo (abertas menos fechadas)"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 1922.0,
+      "fim_s": 1924.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "um governo que é recordista em indústrias que deixam o Brasil e vão para o Paraguai,",
+      "afirmacao": "No governo Lula, o número de indústrias brasileiras que se mudaram para o Paraguai atingiu recorde",
+      "tipo": "serie_historica",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta à pergunta sobre respeitar o resultado das urnas; o candidato enumera 'recordes' do governo Lula",
+      "o_que_conferir": [
+        "dados do governo paraguaio sobre empresas sob o regime de maquila e de capital brasileiro (MIC/CEMAP), por ano de instalação",
+        "se existe série que permita falar em recorde e se as empresas 'deixaram' o Brasil ou abriram filial"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 1960.6,
+      "fim_s": 1972.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "No governo do seu pai, o senhor atuou para tentar aprovar no Senado um projeto que retiraria a marca, a marcação das cápsulas de balas compradas para uso da força de segurança.",
+      "citacao_card": "o senhor atuou para tentar aprovar no Senado um projeto que retiraria [...] a marcação das cápsulas de balas",
+      "afirmacao": "No governo Jair Bolsonaro, Flávio Bolsonaro atuou no Senado pela aprovação de projeto que retiraria a marcação das munições compradas por forças de segurança",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o projeto que retiraria a marcação das munições compradas por forças de segurança",
+      "o_que_conferir": [
+        "projetos no Senado (2019-2022) que alterariam a exigência de marcação de munição para órgãos de segurança: autoria, relatoria, votos e manifestações de Flávio Bolsonaro",
+        "o que o projeto dizia exatamente sobre a marcação dos estojos"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 1967.1,
+      "fim_s": 1972.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a marcação das cápsulas de balas compradas para uso da força de segurança.",
+      "afirmacao": "As munições compradas para uso das forças de segurança têm, por norma, marcação nas cápsulas (estojos)",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o projeto que retiraria a marcação das munições compradas por forças de segurança. A alegação é o que a pergunta pressupõe: que a marcação existe",
+      "o_que_conferir": [
+        "Estatuto do Desarmamento (Lei 10.826/2003, art. 23) e regulamentação do Exército sobre marcação de munição vendida a órgãos públicos",
+        "se a exigência estava em vigor na data da fala"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 1997.9,
+      "fim_s": 2006.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o ex-ministro da Justiça de Lula entrou sem nenhum policial, sem nenhum de segurança, numa favela aqui no Rio de Janeiro chamada Complexo da Maré.",
+      "citacao_card": "o ex-ministro da Justiça de Lula entrou sem nenhum policial [...] numa favela [...] chamada Complexo da Maré",
+      "afirmacao": "Um ex-ministro da Justiça do governo Lula entrou no Complexo da Maré, no Rio, sem policiais nem seguranças",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras. O candidato não diz o nome do ex-ministro",
+      "o_que_conferir": [
+        "qual ministro da Justiça de Lula visitou o Complexo da Maré e quando (agenda oficial do MJSP)",
+        "relatos da imprensa e do ministério sobre a escolta na visita"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 2015.2,
+      "fim_s": 2021.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Aqueles marginais que usam fuzis, armas de guerra pesadas, eles não passaram exame psicológico, não compraram arma em loja.",
+      "citacao_card": "Aqueles marginais que usam fuzis [...] não compraram arma em loja",
+      "afirmacao": "Os fuzis usados por criminosos no Brasil não têm origem em compra legal em loja",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras",
+      "o_que_conferir": [
+        "estudos de rastreamento de armas apreendidas (Instituto Sou da Paz, PF, polícias estaduais): proporção de fuzis de origem legal desviada versus contrabando",
+        "desvios de armas de CACs e de lojas para o crime organizado"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 2024.0,
+      "fim_s": 2031.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Elas estão entrando porque o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas no nosso país.",
+      "citacao_card": "o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas",
+      "afirmacao": "O governo Lula não fiscaliza a entrada de armas e drogas pelas fronteiras",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras",
+      "o_que_conferir": [
+        "apreensões de armas e drogas nas fronteiras pela PF, PRF e Receita, 2019-2026",
+        "operações e programas federais de fronteira em vigor (ex.: Programa de Proteção Integrada de Fronteiras) e seu orçamento"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 2042.2,
+      "fim_s": 2047.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Porque, pelo contrário, o entendimento que se tem é que eliminar isso dificulta a investigação.",
+      "afirmacao": "O entendimento corrente (de especialistas e investigadores) é que eliminar a marcação das munições dificulta a investigação",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Pergunta sobre o projeto que retiraria a marcação das munições compradas por forças de segurança. A mesma ideia aparece antes, em 32:55, sem atribuição; extrai-se aqui",
+      "o_que_conferir": [
+        "manifestações da PF, de peritos e de entidades (ex.: Instituto Sou da Paz) sobre o papel da marcação de munição em investigações",
+        "casos em que a marcação permitiu identificar o lote e o órgão de origem da munição (ex.: munição da PF no caso Marielle)"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 2052.0,
+      "fim_s": 2054.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É por isso que eu votei a favor aqui do projeto de lei antifacção,",
+      "afirmacao": "Flávio Bolsonaro votou a favor do projeto de lei Antifacção no Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições",
+      "o_que_conferir": [
+        "registro nominal da votação do PL Antifacção no Senado Federal: voto de Flávio Bolsonaro"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 2053.1,
+      "fim_s": 2060.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "do projeto de lei antifacção, pra que esses marginais usam essas armas de guerra, eles possam cumprir integralmente a sua pena.",
+      "citacao_card": "do projeto de lei antifacção, pra que esses marginais [...] possam cumprir integralmente a sua pena",
+      "afirmacao": "O PL Antifacção prevê que membros de facções criminosas cumpram a pena integralmente",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições",
+      "o_que_conferir": [
+        "texto aprovado do PL Antifacção (e da lei, se sancionada): regras de progressão de regime e cumprimento de pena para integrantes de facções",
+        "se o texto proíbe a progressão (cumprimento integral) ou só aumenta a fração exigida"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 2060.8,
+      "fim_s": 2065.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É a PEC da Segurança Pública que nós, no Congresso Nacional, melhoramos,",
+      "afirmacao": "O Congresso Nacional alterou o texto da PEC da Segurança Pública enviada pelo governo Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições. Fica de fora o juízo 'melhoramos'; o fato é a alteração do texto",
+      "o_que_conferir": [
+        "tramitação da PEC da Segurança Pública na Câmara e no Senado: texto original do Executivo versus substitutivos aprovados",
+        "fase da tramitação na data da fala"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 2065.4,
+      "fim_s": 2070.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "a PEC da Segurança Pública que foi enviada pelo Lula era uma PEC que controlava policiais.",
+      "afirmacao": "A PEC da Segurança Pública enviada pelo governo Lula tinha como foco o controle das polícias",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "seguranca-publica",
+      "contexto": "Resposta à pergunta insistente sobre o mérito de retirar a marcação de munições",
+      "o_que_conferir": [
+        "texto original da PEC da Segurança Pública enviada pelo Executivo: dispositivos sobre corregedorias, ouvidorias e controle das polícias versus dispositivos sobre crime organizado",
+        "o que a exposição de motivos do MJSP diz ser o objetivo da PEC"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 1624.5,
+      "fim_s": 1626.5,
+      "falante": "Renata Lo Prete",
+      "frase": "o senhor disse que seu irmão não será chanceler.",
+      "motivo": "Retoma o que o candidato acabou de dizer nesta mesma entrevista (e ele confirma em seguida); não há fato externo a conferir."
+    },
+    {
+      "inicio_s": 1659.8,
+      "fim_s": 1665.8,
+      "falante": "Flávio Bolsonaro",
+      "frase": "essa farsa a história vai mostrar que foi algo totalmente armado para tentar tirar Bolsonaro da vida pública.",
+      "motivo": "Juízo de valor ('farsa', 'totalmente armado') e previsão ('a história vai mostrar'); não há registro que confirme ou desminta um juízo."
+    },
+    {
+      "inicio_s": 1695.5,
+      "fim_s": 1701.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "eu vou declarar comando vermelho, PCC e milícias como organizações narcoterroristas que é o que eles são.",
+      "motivo": "Promessa de governo seguida de juízo ('que é o que eles são'); a classificação futura não é fato checável."
+    },
+    {
+      "inicio_s": 1703.1,
+      "fim_s": 1706.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "no Porto de Santos mais um recorde negativo do Lula,",
+      "motivo": "O 'recorde negativo' não é especificado além do ranking de exportação de cocaína, que foi extraído como alegação própria; sobra só a atribuição genérica de culpa."
+    },
+    {
+      "inicio_s": 1732.0,
+      "fim_s": 1734.9,
+      "falante": "Flávio Bolsonaro",
+      "frase": "para a gente combater o terrorismo aqui na Tríplice Fronteira,",
+      "motivo": "Parte de promessa (adesão futura); a pressuposição de atividade terrorista na Tríplice Fronteira é vaga demais para ter um registro que a resolva."
+    },
+    {
+      "inicio_s": 1793.2,
+      "fim_s": 1797.1,
+      "falante": "Flávio Bolsonaro",
+      "frase": "não dá para você querer dizer que uma senhorinha com bíblia, um cara vendendo pão,",
+      "motivo": "Retórica sem caso identificado: não diz quem foi processado ou condenado; não há pessoa ou processo contra o qual conferir."
+    },
+    {
+      "inicio_s": 1813.0,
+      "fim_s": 1815.9,
+      "falante": "Flávio Bolsonaro",
+      "frase": "o golpe que está acontecendo é o do atual presidente.",
+      "motivo": "Juízo de valor político ('golpe' como metáfora para a conduta do governo); os fatos citados em seguida (Faixa Azul, empréstimo) foram extraídos."
+    },
+    {
+      "inicio_s": 1833.3,
+      "fim_s": 1839.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "ele, por birra com o Ricardo Nunes, ele fica punindo os motoboys",
+      "motivo": "Atribuição de intenção ('por birra', 'se vingando'): motivo íntimo não tem registro; o ato em si (Faixa Azul) foi extraído como alegação."
+    },
+    {
+      "inicio_s": 1867.1,
+      "fim_s": 1871.8,
+      "falante": "Renata Lo Prete",
+      "frase": "Eu estava falando de gente que depredou patrimônio, que destruiu prédios, que atacou policiais,",
+      "motivo": "Repete os fatos do 8 de janeiro já afirmados pela entrevistadora em 29:20 a 29:36 e extraídos lá; seria a mesma alegação duas vezes."
+    },
+    {
+      "inicio_s": 1885.0,
+      "fim_s": 1887.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Eu vou disputar as eleições com as áreas que estão aí.",
+      "motivo": "Declaração de intenção, e a palavra 'áreas' não foi resolvida pela transcrição (o contexto pede 'urnas'); citar palavra incerta é o defeito que o projeto evita."
+    },
+    {
+      "inicio_s": 1890.2,
+      "fim_s": 1893.0,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Só que eu tenho a convicção que o Brasil já escolheu a mudança.",
+      "motivo": "Opinião declarada ('tenho a convicção'); o fato embutido (resultado do 1º turno) foi extraído da frase seguinte."
+    },
+    {
+      "inicio_s": 1924.8,
+      "fim_s": 1927.3,
+      "falante": "Flávio Bolsonaro",
+      "frase": "um governo que é um caos, o Brasil está sem presidente.",
+      "motivo": "Juízo de valor ('caos') e hipérbole ('sem presidente'), sem fato embutido que um registro resolva."
+    },
+    {
+      "inicio_s": 1955.9,
+      "fim_s": 1959.0,
+      "falante": "Renata Lo Prete",
+      "frase": "a respeito do qual assessores seus têm falado bastante.",
+      "motivo": "Vago: não identifica assessor, declaração nem período; não há registro preciso contra o qual conferir."
+    },
+    {
+      "inicio_s": 1975.5,
+      "fim_s": 1986.9,
+      "falante": "Renata Lo Prete",
+      "frase": "porque a eliminação desse registro compromete tanto a investigação de autoria de crimes quanto a possibilidade de descobrir como é que armas legais vão parar na mão do crime organizado.",
+      "motivo": "Mesma proposição que a entrevistadora repete em 34:03 com atribuição ('o entendimento que se tem'); extraída uma vez só, lá, para não duplicar."
+    },
+    {
+      "inicio_s": 1991.5,
+      "fim_s": 1995.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "quem está autorizado a usar armas de guerra, inclusive, são os bandidos.",
+      "motivo": "Ironia: ninguém autoriza criminosos a usar armas; não é afirmação literal de fato. A origem das armas foi extraída a seguir."
+    },
+    {
+      "inicio_s": 2006.7,
+      "fim_s": 2013.7,
+      "falante": "Flávio Bolsonaro",
+      "frase": "se um policial bota a viatura naquela rua, é uma saraivara de tiro, leva duas horas até conseguir progredir dentro de um blindado",
+      "motivo": "Descrição genérica de situação hipotética ('se um policial bota'), sem episódio datado; e 'saraivara' é palavra não resolvida pela transcrição."
+    },
+    {
+      "inicio_s": 2094.2,
+      "fim_s": 2098.3,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Isso é muito maior do que qualquer detalhezinho desse em cima de uma cápsula.",
+      "motivo": "Juízo de valor sobre a importância da marcação de munição; sem fato embutido."
+    },
+    {
+      "inicio_s": 2104.6,
+      "fim_s": 2107.2,
+      "falante": "Flávio Bolsonaro",
+      "frase": "eu vou comprar mais de um milhão de câmeras com inteligência artificial",
+      "motivo": "Promessa de governo com número; o que será comprado no futuro não tem registro para conferir."
+    }
+  ]
+}

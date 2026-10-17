@@ -1,0 +1,876 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 517.6,
+    "fim_s": 1051.6
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 523.3,
+      "fim_s": 531.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "seus aliados no Congresso estão dizendo que no ano que vem vão trabalhar para aprovar aquela proposta original do seu partido, o PL,",
+      "citacao_card": "seus aliados no Congresso [...] vão trabalhar para aprovar aquela proposta original do seu partido, o PL",
+      "afirmacao": "Aliados de Flávio Bolsonaro no Congresso têm dito que vão trabalhar, no ano que vem, para aprovar a proposta original do PL sobre a jornada de trabalho",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a posição do candidato quanto ao fim da escala 6x1",
+      "o_que_conferir": [
+        "declarações públicas de parlamentares do PL ou aliados, na imprensa ou em plenário, nas semanas anteriores a 16/out/2026",
+        "se a intenção declarada é aprovar a proposta original do PL em 2027"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 526.3,
+      "fim_s": 538.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "aquela proposta original do seu partido, o PL, aquela que tinha apresentado e prevê pagamentos de salário, férias, décimo terceiro, proporcionais às horas trabalhadas.",
+      "citacao_card": "o PL, [...] prevê pagamentos de salário, férias, décimo terceiro, proporcionais às horas trabalhadas",
+      "afirmacao": "O PL apresentou uma proposta sobre jornada de trabalho que prevê pagamento de salário, férias e 13º proporcionais às horas trabalhadas",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a posição do candidato quanto ao fim da escala 6x1",
+      "o_que_conferir": [
+        "texto da proposta apresentada pelo PL (Câmara ou Senado) no debate sobre a escala 6x1: número, autoria e data",
+        "se o texto prevê remuneração, férias e 13º proporcionais às horas trabalhadas"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 538.4,
+      "fim_s": 543.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Se o senhor chegar à presidência, vai se empenhar para reverter o fim da escala 6x1?",
+      "afirmacao": "O fim da escala 6x1 já foi aprovado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a posição do candidato quanto ao fim da escala 6x1",
+      "o_que_conferir": [
+        "tramitação da PEC ou do projeto que acaba com a escala 6x1, Câmara e Senado: aprovação e promulgação até 16/out/2026",
+        "se o fim da escala já está em vigor ou só aprovado, e com que regra de transição"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 552.0,
+      "fim_s": 553.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Foi uma decisão do Congresso Nacional.",
+      "afirmacao": "O fim da escala 6x1 foi decidido pelo Congresso Nacional",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Resposta sobre reverter o fim da escala 6x1",
+      "o_que_conferir": [
+        "votações na Câmara e no Senado da proposta que acaba com a escala 6x1, com datas e placares",
+        "se a mudança veio de emenda constitucional, lei ou outra via"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 563.0,
+      "fim_s": 572.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Ao defender o fim da reeleição, o senhor chegou a ventilar a ideia de ter, em caso de vitória, estendido o seu próprio mandato dos atuais 4 para 5 anos.",
+      "citacao_card": "o senhor chegou a ventilar a ideia de [...] estendido o seu próprio mandato dos atuais 4 para 5 anos",
+      "afirmacao": "Flávio Bolsonaro chegou a ventilar estender o próprio mandato, em caso de vitória, de 4 para 5 anos",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "declarações de Flávio Bolsonaro na campanha de 2026 sobre mandato de 5 anos, em entrevistas e redes, com data",
+        "se a extensão mencionada valeria para o mandato dele próprio ou só para os seguintes"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 574.0,
+      "fim_s": 577.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Primeiro, o senhor tem dito que quer ser presidente de um mandato só.",
+      "afirmacao": "Flávio Bolsonaro tem dito que quer ser presidente por um mandato só",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Bolsonaro na campanha de 2026 sobre cumprir um único mandato"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 590.8,
+      "fim_s": 600.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "partiu de mim apresentar uma PEC para dar o exemplo. E a minha PEC diz o seguinte. Acaba a reeleição para presidente da República.",
+      "citacao_card": "apresentar uma PEC [...] E a minha PEC diz o seguinte. Acaba a reeleição para presidente da República",
+      "afirmacao": "Flávio Bolsonaro apresentou uma PEC que acaba com a reeleição para presidente da República",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "PEC de autoria de Flávio Bolsonaro no Senado sobre reeleição: número, data de apresentação e texto",
+        "se o texto acaba com a reeleição para presidente"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 623.5,
+      "fim_s": 627.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Já gastou quase 350 bilhões de reais para tentar se reeleger.",
+      "afirmacao": "O governo Lula gastou quase R$ 350 bilhões em medidas apontadas como eleitorais",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Ataque ao atual presidente ao defender o mandato único",
+      "o_que_conferir": [
+        "qual conjunto de medidas soma cerca de R$ 350 bilhões (fonte que a campanha usa: Tesouro, TCU, IFI ou estudo privado)",
+        "período e critério da soma: gasto efetivo, impacto fiscal estimado ou renúncia de receita"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 629.6,
+      "fim_s": 633.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É a sétima vez que ele tenta um mandato de presidente da República.",
+      "afirmacao": "Lula disputa a Presidência da República pela sétima vez em 2026",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Ataque ao atual presidente ao defender o mandato único",
+      "o_que_conferir": [
+        "candidaturas presidenciais de Lula registradas no TSE desde 1989, com os anos",
+        "se a contagem inclui 2026"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 663.2,
+      "fim_s": 669.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A propósito dessa sua proposta de emenda constitucional, só lembrando que ela não prevê extensão de mandato. Não tem isso no texto da PEG.",
+      "citacao_card": "sua proposta de emenda constitucional, só lembrando que ela não prevê extensão de mandato",
+      "afirmacao": "A PEC de Flávio Bolsonaro sobre reeleição não prevê extensão do mandato presidencial",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "texto integral da PEC de autoria de Flávio Bolsonaro no Senado sobre o fim da reeleição",
+        "se há dispositivo sobre duração do mandato, inclusive em emendas ou substitutivo"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 681.9,
+      "fim_s": 684.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "mas eu apresentei para a presidente da República.",
+      "afirmacao": "A PEC de Flávio Bolsonaro acaba com a reeleição só para presidente da República, não para governadores e prefeitos",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "texto da PEC de Flávio Bolsonaro: quais cargos do Executivo ficam sem reeleição"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 685.3,
+      "fim_s": 688.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E vale não só para mim. Vale para parentes até terceiro grau também.",
+      "afirmacao": "A PEC de Flávio Bolsonaro estende a proibição de reeleição a parentes do presidente até o terceiro grau",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre o fim da reeleição e o tamanho do mandato presidencial",
+      "o_que_conferir": [
+        "texto da PEC de Flávio Bolsonaro: regra para cônjuge e parentes do presidente e grau de parentesco alcançado"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 697.8,
+      "fim_s": 703.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "É como está hoje na regra que vale. O parentes até terceiro grau também é considerado uma reeleição.",
+      "afirmacao": "Pela regra vigente, a candidatura de parentes do presidente até o terceiro grau é tratada como reeleição",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre se o pai e os irmãos do candidato poderiam concorrer à sucessão",
+      "o_que_conferir": [
+        "Constituição Federal, art. 14, §§ 5º e 7º: inelegibilidade de cônjuge e parentes do chefe do Executivo e até que grau",
+        "jurisprudência do TSE sobre parente na sucessão contar como terceiro mandato"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 715.3,
+      "fim_s": 718.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu tenho 45 anos de idade,",
+      "afirmacao": "Flávio Bolsonaro tem 45 anos de idade",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "data de nascimento de Flávio Bolsonaro no registro de candidatura do TSE; idade em 16/out/2026"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 715.3,
+      "fim_s": 718.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "eu sou advogado,",
+      "afirmacao": "Flávio Bolsonaro é advogado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "formação e inscrição na OAB de Flávio Bolsonaro (Cadastro Nacional dos Advogados)",
+        "ocupação declarada no registro de candidatura do TSE"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 715.3,
+      "fim_s": 718.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "eu sou empresário.",
+      "afirmacao": "Flávio Bolsonaro é empresário",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "participação societária de Flávio Bolsonaro em empresas ativas (Receita Federal, juntas comerciais)",
+        "bens declarados ao TSE em 2026"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 718.5,
+      "fim_s": 720.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu tenho pós-graduação em políticas públicas e governo.",
+      "afirmacao": "Flávio Bolsonaro tem pós-graduação em políticas públicas e governo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "currículo oficial no site do Senado e registro de candidatura: curso, instituição e ano"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 720.8,
+      "fim_s": 723.0,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu tenho MBA e empreendedorismo em novos negócios.",
+      "afirmacao": "Flávio Bolsonaro tem MBA em empreendedorismo em novos negócios",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Apresentação do candidato ao falar de desapego ao poder",
+      "o_que_conferir": [
+        "currículo oficial no site do Senado e registro de candidatura: curso, instituição e ano"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 746.1,
+      "fim_s": 753.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O seu plano de governo registrado no TSE apresenta seis propostas de reforma do judiciário,",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro registrado no TSE tem seis propostas de reforma do Judiciário",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no DivulgaCandContas/TSE: seção do Judiciário e quantas propostas lista"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 756.8,
+      "fim_s": 760.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Retirar do Supremo, o julgamento de processos criminais contra parlamentares,",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro propõe tirar do STF o julgamento de processos criminais contra parlamentares",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE: se a proposta consta do texto e com que redação"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 761.2,
+      "fim_s": 764.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "reduzir o número de decisões individuais dos ministros",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro propõe reduzir o número de decisões individuais (monocráticas) dos ministros do STF",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE: se a proposta consta do texto e com que redação"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 764.4,
+      "fim_s": 770.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e restringir a possibilidade de familiares deles advogarem causas que correm no tribunal.",
+      "afirmacao": "O plano de governo de Flávio Bolsonaro propõe restringir a advocacia de familiares de ministros em causas que correm no STF",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "plano de governo registrado no TSE: se a proposta consta do texto e com que redação"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 795.8,
+      "fim_s": 800.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Só os penduricalhos dos três poderes, se você for botar na ponta do lápis, são 24 bilhões de reais por ano.",
+      "citacao_card": "Só os penduricalhos dos três poderes [...] são 24 bilhões de reais por ano",
+      "afirmacao": "Os penduricalhos pagos nos três Poderes somam R$ 24 bilhões por ano",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Pergunta sobre as propostas de reforma do Judiciário do plano de governo",
+      "o_que_conferir": [
+        "estimativas de gasto anual com verbas acima do teto (penduricalhos): CNJ, TCU, Tesouro, estudos de Movimento Pessoas à Frente ou similares",
+        "se o número é dos três Poderes, de que esfera (União ou também estados) e de que ano"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 845.3,
+      "fim_s": 849.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor tem defendido não só a investigação, mas impeachment do ministro Alexandre de Moraes",
+      "afirmacao": "Flávio Bolsonaro tem defendido a investigação e o impeachment do ministro Alexandre de Moraes",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "declarações públicas e pedidos de Flávio Bolsonaro sobre investigação e impeachment de Alexandre de Moraes, com data",
+        "se a defesa está ligada ao caso Master"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 849.4,
+      "fim_s": 852.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "por causa das relações dele com o dono do Banco Master.",
+      "afirmacao": "Alexandre de Moraes tem relações com Daniel Vorcaro, dono do Banco Master",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "que relações entre Alexandre de Moraes (ou familiares) e Daniel Vorcaro estão documentadas em investigação ou reportagem",
+        "fonte primária: PF, STF, PGR ou documentos publicados"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 852.7,
+      "fim_s": 857.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "mas e o ministro Cássio Nunes Marques? Porque ele foi indicado pelo seu pai",
+      "afirmacao": "Kassio Nunes Marques foi indicado ao STF por Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "mensagem presidencial de indicação ao STF e aprovação no Senado, 2020"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 857.5,
+      "fim_s": 863.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e mensagens apreendidas no celular do Daniel Vorcaro indicam que ele, além de bancar despesas do ministro,",
+      "citacao_card": "mensagens apreendidas no celular do Daniel Vorcaro indicam que ele, além de bancar despesas do ministro",
+      "afirmacao": "Mensagens apreendidas no celular de Daniel Vorcaro indicam que ele bancou despesas do ministro Kassio Nunes Marques",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "relatório da PF ou documento do inquérito do caso Master que cita mensagens sobre despesas de Kassio Nunes Marques",
+        "o que exatamente as mensagens dizem e quem as tornou públicas"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 857.5,
+      "fim_s": 868.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "e mensagens apreendidas no celular do Daniel Vorcaro indicam que ele, além de bancar despesas do ministro, pagou a um filho dele por meio de uma empresa de consultoria.",
+      "citacao_card": "mensagens [...] indicam que ele [...] pagou a um filho dele por meio de uma empresa de consultoria",
+      "afirmacao": "Mensagens apreendidas no celular de Daniel Vorcaro indicam que ele pagou a um filho de Kassio Nunes Marques por meio de uma empresa de consultoria",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "relatório da PF ou documento do inquérito do caso Master sobre pagamento a filho de Kassio Nunes Marques",
+        "nome da empresa de consultoria e valor, se divulgados"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 878.6,
+      "fim_s": 905.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A lei 1079, que é a lei de impeachment, estabelece lá quais são os crimes de responsabilidade [...] Por exemplo, a atuação político-partidária [...] Por exemplo, tomar decisões quando, obviamente, deveria se declarar suspeito",
+      "citacao_card": "A lei 1079 [...] estabelece [...] os crimes de responsabilidade [...] Por exemplo, a atuação político-partidária",
+      "afirmacao": "A Lei 1.079/1950 define os crimes de responsabilidade de ministros do STF, entre eles exercer atividade político-partidária e julgar causa em que seja suspeito",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "Lei 1.079/1950, art. 39: lista de crimes de responsabilidade dos ministros do STF",
+        "se atividade político-partidária e julgar quando suspeito constam da lista"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 883.7,
+      "fim_s": 893.1,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "que o senhor ministro do Supremo Tribunal Federal incorrer em uma daquelas hipóteses é obrigação do Senado Federal iniciar um processo de impeachment.",
+      "citacao_card": "incorrer em uma daquelas hipóteses é obrigação do Senado Federal iniciar um processo de impeachment",
+      "afirmacao": "Se um ministro do STF incorre em crime de responsabilidade, o Senado é obrigado a iniciar processo de impeachment",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "Lei 1.079/1950, arts. 41 a 46, e Regimento Interno do Senado: quem recebe a denúncia e se há juízo prévio do presidente do Senado",
+        "decisões do STF sobre o poder do presidente do Senado de arquivar denúncia contra ministro"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 916.8,
+      "fim_s": 922.4,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Ele que fez as pazes do Davi Alcolumbre, o presidente do Senado, junto ao presidente Lula.",
+      "afirmacao": "Alexandre de Moraes promoveu a reaproximação entre o presidente do Senado, Davi Alcolumbre, e Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master",
+      "o_que_conferir": [
+        "reportagens e registros de encontros entre Moraes, Alcolumbre e Lula em 2025-2026: quem mediou",
+        "se houve rompimento público entre Alcolumbre e Lula antes, e quando; e se Alcolumbre preside o Senado na data da fala"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 946.8,
+      "fim_s": 952.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "eu quero falar do dinheiro que o senhor pediu a Daniel Vorcaro e foi atendido. Foram quase 70 milhões de reais",
+      "citacao_card": "dinheiro que o senhor pediu a Daniel Vorcaro e foi atendido. Foram quase 70 milhões de reais",
+      "afirmacao": "Daniel Vorcaro repassou quase R$ 70 milhões a pedido de Flávio Bolsonaro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "valor efetivamente transferido por Vorcaro ou empresas ligadas a ele para o projeto do filme, segundo PF, documentos ou reportagem com documento",
+        "se o valor é em reais ou convertido de dólares, e em que câmbio"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 952.9,
+      "fim_s": 955.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "de um total de 134 que o senhor pediu.",
+      "afirmacao": "Flávio Bolsonaro pediu a Daniel Vorcaro um total de R$ 134 milhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "mensagens ou documentos do inquérito com o valor total pedido por Flávio Bolsonaro a Vorcaro",
+        "moeda e câmbio usados para chegar a 134 milhões"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 955.9,
+      "fim_s": 961.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E esse dinheiro, em vez de ir direto para a produtora do filme sobre o seu pai, foi parar num fundo nos Estados Unidos,",
+      "citacao_card": "esse dinheiro, em vez de ir direto para a produtora do filme [...] foi parar num fundo nos Estados Unidos",
+      "afirmacao": "O dinheiro de Vorcaro foi para um fundo nos Estados Unidos, e não direto para a produtora do filme sobre Jair Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "destino das transferências: documentos da investigação ou do próprio fundo e da produtora",
+        "nome e sede do fundo"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 959.9,
+      "fim_s": 962.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "foi parar num fundo nos Estados Unidos, um fundo imobiliário",
+      "afirmacao": "O fundo nos Estados Unidos que recebeu o dinheiro é um fundo imobiliário",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "registro do fundo nos EUA (estado de registro, SEC ou registro estadual): objeto social declarado"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 963.9,
+      "fim_s": 967.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Não, não é um fundo imobiliário, Renata. Só para corrigir. É um fundo que faz só a gestão do filme.",
+      "afirmacao": "O fundo nos Estados Unidos não é imobiliário e só faz a gestão do filme",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "registro do fundo nos EUA: objeto social declarado e outras atividades",
+        "se o fundo tem outros investimentos além do filme"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 968.2,
+      "fim_s": 971.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Gerido por um amigo do seu irmão Eduardo.",
+      "afirmacao": "O fundo é gerido por um amigo de Eduardo Bolsonaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "nome do gestor do fundo no registro e relação documentada dele com Eduardo Bolsonaro"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 971.4,
+      "fim_s": 972.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Por um advogado experiente nisso.",
+      "afirmacao": "O gestor do fundo é advogado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "identidade do gestor do fundo e registro profissional dele como advogado (ordem dos advogados do estado nos EUA ou OAB)"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 974.3,
+      "fim_s": 977.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Esse fundo estava inativo. havia quatro anos.",
+      "afirmacao": "O fundo que recebeu o dinheiro estava inativo havia quatro anos",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "histórico do registro do fundo nos EUA: data de criação, períodos de inatividade e reativação"
+      ]
+    },
+    {
+      "id": "A040",
+      "inicio_s": 978.0,
+      "fim_s": 982.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E até hoje, esse fundo não deu informações sobre onde é que foi parar esse dinheiro.",
+      "afirmacao": "Até 16/out/2026, o fundo não informou o destino do dinheiro recebido",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Pergunta sobre o dinheiro pedido a Daniel Vorcaro para o filme sobre Jair Bolsonaro",
+      "o_que_conferir": [
+        "notas e documentos divulgados pelo fundo ou pelo gestor até 16/out/2026 sobre a aplicação do dinheiro"
+      ]
+    },
+    {
+      "id": "A041",
+      "inicio_s": 994.3,
+      "fim_s": 1001.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A produtora do filme aqui no Brasil, ela prestou conta de tudo. Não tinha um centavo que a produtora não usava e que não tivesse autorização do fundo.",
+      "citacao_card": "ela prestou conta de tudo. Não tinha um centavo que a produtora não usava e que não tivesse autorização do fundo",
+      "afirmacao": "A produtora do filme no Brasil prestou contas de todo o dinheiro, e todo gasto teve autorização do fundo",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre a falta de informação sobre o destino do dinheiro",
+      "o_que_conferir": [
+        "prestação de contas divulgada pela produtora brasileira: data, valores e onde foi publicada",
+        "se o total prestado bate com o valor que saiu do fundo"
+      ]
+    },
+    {
+      "id": "A042",
+      "inicio_s": 1007.7,
+      "fim_s": 1012.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu estou falando de um pedido de um patrocínio privado para um filme privado",
+      "afirmacao": "O dinheiro pedido a Vorcaro foi patrocínio privado para um filme privado, sem recurso público",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre a falta de informação sobre o destino do dinheiro",
+      "o_que_conferir": [
+        "se o filme recebeu recurso público ou incentivo fiscal (Ancine, Lei do Audiovisual, Lei Rouanet)",
+        "se o dinheiro veio de Vorcaro pessoa física, de empresas privadas dele ou do Banco Master"
+      ]
+    },
+    {
+      "id": "A043",
+      "inicio_s": 1009.8,
+      "fim_s": 1018.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "de um patrocínio privado para um filme privado sem absolutamente nenhuma contrapartida pelo fato de eu ser senador da República",
+      "citacao_card": "um patrocínio privado para um filme privado sem absolutamente nenhuma contrapartida pelo fato de eu ser senador",
+      "afirmacao": "Não houve contrapartida de Flávio Bolsonaro, como senador, ao patrocínio de Vorcaro",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Resposta sobre a falta de informação sobre o destino do dinheiro",
+      "o_que_conferir": [
+        "atos de Flávio Bolsonaro no Senado ligados ao Banco Master ou a Vorcaro (projetos, emendas, votos, requerimentos), no período dos pedidos",
+        "o que a investigação da PF ou da PGR diz sobre contrapartida"
+      ]
+    },
+    {
+      "id": "A044",
+      "inicio_s": 1033.7,
+      "fim_s": 1048.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Os seus principais articuladores políticos que frequentam ali a casa, a cozinha do Lula, tiveram relações com o Vorcaro e ofereciam contrapartidas para que houvesse esse patrocínio no filme do Lula.",
+      "citacao_card": "articuladores políticos [...] ofereciam contrapartidas para que houvesse esse patrocínio no filme do Lula",
+      "afirmacao": "Articuladores políticos próximos de Lula tiveram relações com Vorcaro e ofereceram contrapartidas para que ele patrocinasse um filme sobre Lula",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Comparação feita pelo candidato com a relação de aliados de Lula com Vorcaro",
+      "o_que_conferir": [
+        "quem são os aliados citados e o que a investigação ou reportagem com documento mostra sobre pedido de patrocínio para filme sobre Lula",
+        "se há registro de contrapartida oferecida"
+      ]
+    },
+    {
+      "id": "A045",
+      "inicio_s": 1049.0,
+      "fim_s": 1050.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "30 milhões por fora. É o áudio do Vorcaro.",
+      "afirmacao": "Um áudio de Daniel Vorcaro menciona R$ 30 milhões por fora ligados ao patrocínio de um filme sobre Lula",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "justica",
+      "contexto": "Comparação feita pelo candidato com a relação de aliados de Lula com Vorcaro",
+      "o_que_conferir": [
+        "áudio de Vorcaro divulgado (por quem e quando): fala literal sobre 30 milhões e a que se refere",
+        "se o áudio trata de filme sobre Lula"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 517.6,
+      "fim_s": 522.9,
+      "falante": "Renata Lo Prete",
+      "frase": "Antes de dizer que o senhor mudou de posição porque ouviu as pessoas, o senhor se referiu à proposta que o senhor preferia.",
+      "motivo": "Remete a fala anterior do próprio candidato nesta entrevista, fora da janela; não é afirmação sobre o mundo externo."
+    },
+    {
+      "inicio_s": 545.3,
+      "fim_s": 547.7,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Todos os leis trabalhistas estão garantidos.",
+      "motivo": "Declaração genérica de compromisso, sem norma, número ou fato delimitado contra o qual conferir."
+    },
+    {
+      "inicio_s": 586.0,
+      "fim_s": 590.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "quando a minha equipe trouxe esse assunto, Renata, partiu de mim.",
+      "motivo": "Dinâmica interna da equipe de campanha (de quem partiu a ideia), sem registro público; a apresentação da PEC entrou como alegação."
+    },
+    {
+      "inicio_s": 618.9,
+      "fim_s": 623.1,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Porque não dá para continuar essa loucura que o atual presidente da República está fazendo.",
+      "motivo": "Juízo de valor sobre o governo; o número que vem logo depois (R$ 350 bilhões) entrou como alegação separada."
+    },
+    {
+      "inicio_s": 793.4,
+      "fim_s": 795.7,
+      "falante": "Flávio Bolsonaro",
+      "frase": "que hoje são algo assim, é o astronômico.",
+      "motivo": "Qualificação ('astronômico') sem número próprio; o valor de R$ 24 bilhões entrou como alegação separada."
+    },
+    {
+      "inicio_s": 815.1,
+      "fim_s": 823.2,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Não dá para um juiz como é o Alexandre de Moraes continuar dando canetado, interferindo em um monte de coisa, perseguindo adversários políticos do atual governo,",
+      "motivo": "Juízo de valor sobre a conduta de Alexandre de Moraes ('canetado', 'perseguindo'), sem decisão, data ou caso delimitado."
+    },
+    {
+      "inicio_s": 823.8,
+      "fim_s": 830.8,
+      "falante": "Flávio Bolsonaro",
+      "frase": "os amigos do Lula no Supremo Tribunal Federal se protegendo para que investigações não avancem sobre eles.",
+      "motivo": "Imputação de intenção a ministros não nomeados, sem decisão ou investigação delimitada contra a qual conferir."
+    },
+    {
+      "inicio_s": 832.0,
+      "fim_s": 834.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Eles já acabaram com a credibilidade do Poder Judiciário",
+      "motivo": "Juízo de valor; 'acabar com a credibilidade' não tem medida definida na frase (não cita pesquisa nem índice)."
+    },
+    {
+      "inicio_s": 893.5,
+      "fim_s": 898.3,
+      "falante": "Flávio Bolsonaro",
+      "frase": "é o que nós vemos em alguns ministros do Supremo.",
+      "motivo": "Juízo sobre ministros não nomeados; a parte normativa (atividade político-partidária como crime de responsabilidade) entrou como alegação."
+    },
+    {
+      "inicio_s": 905.9,
+      "fim_s": 910.9,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Foi o que mais o Alexandre de Moraes fez, tomou decisão, perseguindo adversários que ele predeterminava.",
+      "motivo": "Juízo jurídico e de valor ('deveria se declarar suspeito', 'perseguindo') sem processo ou decisão nomeados; não há caso delimitado para conferir."
+    },
+    {
+      "inicio_s": 912.3,
+      "fim_s": 916.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Alexandre de Moraes virou o articulador político do Lula em Brasília.",
+      "motivo": "Caracterização política; o fato concreto que a sustenta (reaproximação entre Alcolumbre e Lula) entrou como alegação separada."
+    },
+    {
+      "inicio_s": 922.6,
+      "fim_s": 926.0,
+      "falante": "Flávio Bolsonaro",
+      "frase": "E hoje estão todos unidos aí a favor da reeleição do Lula.",
+      "motivo": "Generalização ('todos', incluindo ministro do STF) sem apoio declarado delimitado de quem quer que seja; juízo, não fato registrável."
+    },
+    {
+      "inicio_s": 1019.1,
+      "fim_s": 1028.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "muito em breve, se Deus quiser, todos virão uma obra-prima maravilhosa, um filme muito emocionante, em homenagem ao melhor presidente do Brasil",
+      "motivo": "Previsão sobre o lançamento do filme e juízo de valor ('obra-prima', 'melhor presidente'); nada de fato checável."
+    },
+    {
+      "inicio_s": 1050.8,
+      "fim_s": 1051.6,
+      "falante": "Flávio Bolsonaro",
+      "frase": "A gente está falando do filme do Vorcaro.",
+      "motivo": "Fala cortada no fim da janela e de sentido incerto ('filme do Vorcaro'); a alegação sobre o áudio foi extraída da frase anterior."
+    }
+  ]
+}

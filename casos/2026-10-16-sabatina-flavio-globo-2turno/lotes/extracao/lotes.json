@@ -1,0 +1,53 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "minutos_alvo": 8.6,
+  "contexto_s": 45.0,
+  "lotes": [
+    {
+      "n": 1,
+      "inicio_s": 0.9,
+      "fim_s": 517.4,
+      "segmentos": 100,
+      "palavras": 1631,
+      "entrada": "casos/2026-10-16-sabatina-flavio-globo-2turno/lotes/extracao/lote-01.txt",
+      "saida": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-01.json"
+    },
+    {
+      "n": 2,
+      "inicio_s": 517.58,
+      "fim_s": 1051.62,
+      "segmentos": 240,
+      "palavras": 1761,
+      "entrada": "casos/2026-10-16-sabatina-flavio-globo-2turno/lotes/extracao/lote-02.txt",
+      "saida": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-02.json"
+    },
+    {
+      "n": 3,
+      "inicio_s": 1051.8,
+      "fim_s": 1621.78,
+      "segmentos": 557,
+      "palavras": 1875,
+      "entrada": "casos/2026-10-16-sabatina-flavio-globo-2turno/lotes/extracao/lote-03.txt",
+      "saida": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-03.json"
+    },
+    {
+      "n": 4,
+      "inicio_s": 1622.06,
+      "fim_s": 2138.64,
+      "segmentos": 520,
+      "palavras": 1618,
+      "entrada": "casos/2026-10-16-sabatina-flavio-globo-2turno/lotes/extracao/lote-04.txt",
+      "saida": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-04.json"
+    },
+    {
+      "n": 5,
+      "inicio_s": 2138.64,
+      "fim_s": 2567.52,
+      "segmentos": 448,
+      "palavras": 1437,
+      "entrada": "casos/2026-10-16-sabatina-flavio-globo-2turno/lotes/extracao/lote-05.txt",
+      "saida": "casos/2026-10-16-sabatina-flavio-globo-2turno/alegacoes/lotes/alegacoes-lote-05.json"
+    }
+  ]
+}

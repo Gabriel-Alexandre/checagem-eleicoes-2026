@@ -1,0 +1,4785 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "recorte": "sabatina-completa",
+  "gerado_em": "2026-10-17",
+  "metodo": "whisper.cpp large-v3-turbo -ml 1 -sow numa janela de 3.0 s em volta da frase de origem (janelas sobrepostas unidas, postas em fila com 2 s de silêncio, numa chamada só com -mc 0); alinhamento por trechos de >= 2 palavras; aceito só dentro da frase de origem (folga 0.3 s)",
+  "medidas": [
+    {
+      "id": "A001",
+      "antes": [
+        11.8,
+        22.5
+      ],
+      "origem": [
+        6.1,
+        26.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 12.78,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 17.36,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A002",
+      "antes": [
+        44.1,
+        49.3
+      ],
+      "origem": [
+        44.14,
+        56.36
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 45.04,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 48.24,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A003",
+      "antes": [
+        49.3,
+        61.6
+      ],
+      "origem": [
+        44.14,
+        68.46
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 49.2,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 57.3,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A004",
+      "antes": [
+        56.4,
+        68.5
+      ],
+      "origem": [
+        49.32,
+        72.72
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 58.7,
+        "palavras": 2,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 64.96,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A005",
+      "antes": [
+        72.7,
+        78.8
+      ],
+      "origem": [
+        68.46,
+        78.78
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 74.88,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 78.78,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A006",
+      "antes": [
+        81.7,
+        87.9
+      ],
+      "origem": [
+        81.72,
+        87.92
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 81.42,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 87.42,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A007",
+      "antes": [
+        89.0,
+        94.4
+      ],
+      "origem": [
+        88.98,
+        94.38
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 88.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 94.38,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A008",
+      "antes": [
+        104.4,
+        117.3
+      ],
+      "origem": [
+        99.0,
+        117.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 106.34,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 117.3,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A009",
+      "antes": [
+        104.4,
+        121.6
+      ],
+      "origem": [
+        99.0,
+        121.64
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 106.34,
+        "palavras": 3,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 119.12,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A010",
+      "antes": [
+        104.4,
+        126.2
+      ],
+      "origem": [
+        99.0,
+        131.52
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 106.34,
+        "palavras": 3,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 122.46,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A011",
+      "antes": [
+        142.5,
+        159.8
+      ],
+      "origem": [
+        142.46,
+        159.78
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 142.46,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 153.36,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A012",
+      "antes": [
+        152.3,
+        159.8
+      ],
+      "origem": [
+        147.68,
+        159.78
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 153.36,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 156.58,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A013",
+      "antes": [
+        160.1,
+        164.9
+      ],
+      "origem": [
+        160.1,
+        171.08
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 161.78,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 164.94,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A014",
+      "antes": [
+        164.9,
+        175.6
+      ],
+      "origem": [
+        160.1,
+        178.1
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 165.35,
+        "palavras": 4,
+        "deslocamento": 1
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 171.81,
+        "palavras": 6,
+        "deslocamento": 2
+      }
+    },
+    {
+      "id": "A015",
+      "antes": [
+        188.0,
+        204.1
+      ],
+      "origem": [
+        183.38,
+        208.0
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 192.9,
+        "palavras": 6,
+        "deslocamento": 1
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 203.74,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A016",
+      "antes": [
+        198.8,
+        208.0
+      ],
+      "origem": [
+        193.94,
+        211.28
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 201.15,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 206.02,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A017",
+      "antes": [
+        220.3,
+        231.6
+      ],
+      "origem": [
+        215.74,
+        260.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 224.72,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 228.1,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A018",
+      "antes": [
+        231.6,
+        260.6
+      ],
+      "origem": [
+        226.1,
+        289.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 242.64,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 248.08,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A019",
+      "antes": [
+        231.6,
+        260.6
+      ],
+      "origem": [
+        226.1,
+        289.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 248.22,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 252.78,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A020",
+      "antes": [
+        231.6,
+        260.6
+      ],
+      "origem": [
+        226.1,
+        289.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 256.32,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 258.98,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A021",
+      "antes": [
+        231.6,
+        260.6
+      ],
+      "origem": [
+        226.1,
+        289.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 256.32,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 261.56,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A022",
+      "antes": [
+        260.6,
+        289.6
+      ],
+      "origem": [
+        231.6,
+        301.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 264.84,
+        "palavras": 2,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 268.42,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A023",
+      "antes": [
+        260.6,
+        289.6
+      ],
+      "origem": [
+        231.6,
+        301.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 280.85,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 284.86,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A024",
+      "antes": [
+        289.6,
+        313.3
+      ],
+      "origem": [
+        260.6,
+        313.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 296.06,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 303.44,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A025",
+      "antes": [
+        301.6,
+        313.3
+      ],
+      "origem": [
+        289.6,
+        313.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 304.05,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 313.32,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A026",
+      "antes": [
+        328.6,
+        344.2
+      ],
+      "origem": [
+        328.6,
+        344.22
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 333.36,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 339.1,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A027",
+      "antes": [
+        336.7,
+        344.2
+      ],
+      "origem": [
+        336.66,
+        344.22
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 339.6,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 344.22,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A028",
+      "antes": [
+        352.2,
+        359.8
+      ],
+      "origem": [
+        352.18,
+        359.84
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 352.18,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 356.74,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A029",
+      "antes": [
+        352.2,
+        359.8
+      ],
+      "origem": [
+        352.18,
+        359.84
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 357.04,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 358.06,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A030",
+      "antes": [
+        352.2,
+        359.8
+      ],
+      "origem": [
+        352.18,
+        359.84
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 358.06,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 359.82,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A031",
+      "antes": [
+        360.3,
+        365.4
+      ],
+      "origem": [
+        360.26,
+        376.14
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 359.82,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 362.7,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A032",
+      "antes": [
+        360.3,
+        365.4
+      ],
+      "origem": [
+        360.26,
+        376.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 362.76,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 365.42,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A033",
+      "antes": [
+        365.4,
+        376.1
+      ],
+      "origem": [
+        360.26,
+        376.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 365.7,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 368.3,
+        "palavras": 3,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A034",
+      "antes": [
+        365.4,
+        376.1
+      ],
+      "origem": [
+        360.26,
+        376.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 367.44,
+        "palavras": 6,
+        "deslocamento": 2
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 370.72,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A035",
+      "antes": [
+        365.4,
+        376.1
+      ],
+      "origem": [
+        360.26,
+        376.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 369.64,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 375.82,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A036",
+      "antes": [
+        398.3,
+        401.7
+      ],
+      "origem": [
+        398.32,
+        401.68
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 397.94,
+        "palavras": 3,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 401.72,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A037",
+      "antes": [
+        408.7,
+        411.5
+      ],
+      "origem": [
+        408.74,
+        417.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 408.78,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 411.54,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A038",
+      "antes": [
+        419.9,
+        425.3
+      ],
+      "origem": [
+        419.86,
+        425.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 419.82,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 425.28,
+        "palavras": 2,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A039",
+      "antes": [
+        469.8,
+        475.6
+      ],
+      "origem": [
+        469.8,
+        475.58
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 469.78,
+        "palavras": 2,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 475.14,
+        "palavras": 6,
+        "deslocamento": 3
+      }
+    },
+    {
+      "id": "A040",
+      "antes": [
+        523.3,
+        531.3
+      ],
+      "origem": [
+        523.3,
+        531.26
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 524.12,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 530.95,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A041",
+      "antes": [
+        526.3,
+        538.2
+      ],
+      "origem": [
+        523.3,
+        538.18
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 528.32,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 538.18,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A042",
+      "antes": [
+        538.4,
+        543.0
+      ],
+      "origem": [
+        538.44,
+        543.04
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 538.42,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 543.04,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A043",
+      "antes": [
+        552.0,
+        553.8
+      ],
+      "origem": [
+        551.98,
+        553.84
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 551.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 553.84,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A044",
+      "antes": [
+        563.0,
+        572.2
+      ],
+      "origem": [
+        563.04,
+        572.16
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 563.04,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": false,
+        "motivo": "nenhum trecho de duas palavras casou"
+      }
+    },
+    {
+      "id": "A045",
+      "antes": [
+        574.0,
+        577.2
+      ],
+      "origem": [
+        574.02,
+        577.16
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 573.92,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 577.16,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A046",
+      "antes": [
+        590.8,
+        600.4
+      ],
+      "origem": [
+        590.84,
+        600.42
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 592.26,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 600.4,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A047",
+      "antes": [
+        623.5,
+        627.8
+      ],
+      "origem": [
+        623.5,
+        627.82
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 623.16,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 627.84,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A048",
+      "antes": [
+        629.6,
+        633.1
+      ],
+      "origem": [
+        629.56,
+        634.88
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 629.41,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 633.14,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A049",
+      "antes": [
+        663.2,
+        669.8
+      ],
+      "origem": [
+        660.58,
+        670.42
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 663.22,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 669.8,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A050",
+      "antes": [
+        681.9,
+        684.8
+      ],
+      "origem": [
+        681.88,
+        684.8
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 683.38,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 684.8,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A051",
+      "antes": [
+        685.3,
+        688.8
+      ],
+      "origem": [
+        685.26,
+        688.84
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 685.24,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 688.82,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A052",
+      "antes": [
+        697.8,
+        703.5
+      ],
+      "origem": [
+        697.78,
+        703.52
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 697.83,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 703.54,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A053",
+      "antes": [
+        715.3,
+        718.2
+      ],
+      "origem": [
+        715.28,
+        718.18
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 715.3,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 716.1,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A054",
+      "antes": [
+        715.3,
+        718.2
+      ],
+      "origem": [
+        715.28,
+        718.18
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 716.1,
+        "palavras": 3,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 717.02,
+        "palavras": 3,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A055",
+      "antes": [
+        715.3,
+        718.2
+      ],
+      "origem": [
+        715.28,
+        718.18
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 717.02,
+        "palavras": 3,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 718.18,
+        "palavras": 3,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A056",
+      "antes": [
+        718.5,
+        720.7
+      ],
+      "origem": [
+        718.48,
+        720.74
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 718.52,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 720.72,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A057",
+      "antes": [
+        720.8,
+        723.0
+      ],
+      "origem": [
+        720.84,
+        722.96
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 720.82,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 722.96,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A058",
+      "antes": [
+        746.1,
+        753.0
+      ],
+      "origem": [
+        746.14,
+        753.04
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 746.1,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 753.02,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A059",
+      "antes": [
+        756.8,
+        760.8
+      ],
+      "origem": [
+        756.78,
+        760.8
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 756.78,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 760.78,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A060",
+      "antes": [
+        761.2,
+        764.4
+      ],
+      "origem": [
+        761.16,
+        770.28
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 761.2,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 764.4,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A061",
+      "antes": [
+        764.4,
+        770.3
+      ],
+      "origem": [
+        761.16,
+        770.28
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 764.4,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 770.28,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A062",
+      "antes": [
+        795.8,
+        800.7
+      ],
+      "origem": [
+        795.8,
+        800.7
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 795.82,
+        "palavras": 2,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 800.7,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A063",
+      "antes": [
+        845.3,
+        849.4
+      ],
+      "origem": [
+        845.26,
+        852.08
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 845.47,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 849.4,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A064",
+      "antes": [
+        849.4,
+        852.1
+      ],
+      "origem": [
+        847.48,
+        852.08
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 849.4,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 852.08,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A065",
+      "antes": [
+        852.7,
+        857.5
+      ],
+      "origem": [
+        852.74,
+        860.7
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 853.06,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 857.54,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A066",
+      "antes": [
+        857.5,
+        863.8
+      ],
+      "origem": [
+        855.54,
+        863.78
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 857.54,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 863.78,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A067",
+      "antes": [
+        857.5,
+        868.5
+      ],
+      "origem": [
+        855.54,
+        868.48
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 857.54,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 868.48,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A068",
+      "antes": [
+        878.6,
+        905.5
+      ],
+      "origem": [
+        878.58,
+        905.46
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 878.56,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 904.48,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A069",
+      "antes": [
+        883.7,
+        893.1
+      ],
+      "origem": [
+        881.1,
+        893.08
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 884.12,
+        "palavras": 6,
+        "deslocamento": 3
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 893.1,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A070",
+      "antes": [
+        916.8,
+        922.4
+      ],
+      "origem": [
+        916.82,
+        922.38
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 916.42,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 922.38,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A071",
+      "antes": [
+        946.8,
+        952.9
+      ],
+      "origem": [
+        946.82,
+        955.42
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 947.24,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 952.7,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A072",
+      "antes": [
+        952.9,
+        955.4
+      ],
+      "origem": [
+        950.66,
+        955.42
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 952.7,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 955.42,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A073",
+      "antes": [
+        955.9,
+        961.6
+      ],
+      "origem": [
+        955.9,
+        961.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 955.88,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 961.6,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A074",
+      "antes": [
+        959.9,
+        962.6
+      ],
+      "origem": [
+        959.86,
+        963.94
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 959.76,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 962.64,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A075",
+      "antes": [
+        963.9,
+        967.7
+      ],
+      "origem": [
+        962.64,
+        968.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 963.96,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 967.66,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A076",
+      "antes": [
+        968.2,
+        971.2
+      ],
+      "origem": [
+        968.22,
+        971.16
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 968.7,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 971.18,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A077",
+      "antes": [
+        971.4,
+        972.8
+      ],
+      "origem": [
+        971.38,
+        972.82
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 971.4,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 972.82,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A078",
+      "antes": [
+        974.3,
+        977.3
+      ],
+      "origem": [
+        974.34,
+        977.32
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 974.56,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 977.3,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A079",
+      "antes": [
+        978.0,
+        982.5
+      ],
+      "origem": [
+        977.98,
+        982.52
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 977.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 982.52,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A080",
+      "antes": [
+        994.3,
+        1001.6
+      ],
+      "origem": [
+        994.26,
+        1001.92
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 993.58,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1001.58,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A081",
+      "antes": [
+        1007.7,
+        1012.6
+      ],
+      "origem": [
+        1007.74,
+        1013.66
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 1006.96,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1012.71,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A082",
+      "antes": [
+        1009.8,
+        1018.6
+      ],
+      "origem": [
+        1008.34,
+        1018.56
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1009.8,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1016.67,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A083",
+      "antes": [
+        1033.7,
+        1048.6
+      ],
+      "origem": [
+        1033.66,
+        1048.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1033.66,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1048.6,
+        "palavras": 4,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A084",
+      "antes": [
+        1049.0,
+        1050.7
+      ],
+      "origem": [
+        1048.96,
+        1050.68
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 1048.6,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1050.3,
+        "palavras": 6,
+        "deslocamento": 1
+      }
+    },
+    {
+      "id": "A085",
+      "antes": [
+        1089.8,
+        1094.6
+      ],
+      "origem": [
+        1089.76,
+        1095.56
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1089.76,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1094.64,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A086",
+      "antes": [
+        1094.6,
+        1097.4
+      ],
+      "origem": [
+        1092.42,
+        1098.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1095.06,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1096.31,
+        "palavras": 5,
+        "deslocamento": 2
+      }
+    },
+    {
+      "id": "A087",
+      "antes": [
+        1101.7,
+        1103.4
+      ],
+      "origem": [
+        1101.72,
+        1105.5
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1101.7,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1103.46,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A088",
+      "antes": [
+        1103.4,
+        1109.9
+      ],
+      "origem": [
+        1102.5,
+        1109.94
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1103.46,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1109.94,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A089",
+      "antes": [
+        1110.8,
+        1112.3
+      ],
+      "origem": [
+        1110.84,
+        1112.26
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1110.84,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1112.26,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A090",
+      "antes": [
+        1115.5,
+        1125.8
+      ],
+      "origem": [
+        1115.46,
+        1125.76
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1115.46,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1125.74,
+        "palavras": 3,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A091",
+      "antes": [
+        1127.8,
+        1142.9
+      ],
+      "origem": [
+        1127.76,
+        1142.94
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1127.78,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1142.94,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A092",
+      "antes": [
+        1130.1,
+        1136.2
+      ],
+      "origem": [
+        1128.62,
+        1136.2
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1130.08,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1136.2,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A093",
+      "antes": [
+        1151.2,
+        1153.2
+      ],
+      "origem": [
+        1151.2,
+        1154.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1151.2,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1153.18,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A094",
+      "antes": [
+        1154.4,
+        1160.3
+      ],
+      "origem": [
+        1154.44,
+        1160.34
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1154.4,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1159.58,
+        "palavras": 6,
+        "deslocamento": 3
+      }
+    },
+    {
+      "id": "A095",
+      "antes": [
+        1175.8,
+        1192.2
+      ],
+      "origem": [
+        1175.78,
+        1192.16
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1175.78,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1191.84,
+        "palavras": 6,
+        "deslocamento": 1
+      }
+    },
+    {
+      "id": "A096",
+      "antes": [
+        1192.4,
+        1204.4
+      ],
+      "origem": [
+        1192.4,
+        1204.44
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1194.69,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1204.44,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A097",
+      "antes": [
+        1211.7,
+        1219.6
+      ],
+      "origem": [
+        1211.66,
+        1219.62
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1211.66,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1219.62,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A098",
+      "antes": [
+        1227.4,
+        1230.9
+      ],
+      "origem": [
+        1226.8,
+        1230.88
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1227.4,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1230.88,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A099",
+      "antes": [
+        1235.5,
+        1249.8
+      ],
+      "origem": [
+        1235.46,
+        1249.78
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 1235.0,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1249.78,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A100",
+      "antes": [
+        1239.4,
+        1243.6
+      ],
+      "origem": [
+        1237.6,
+        1243.58
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1238.92,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1243.58,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A101",
+      "antes": [
+        1249.9,
+        1254.7
+      ],
+      "origem": [
+        1249.86,
+        1254.72
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1249.86,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1254.72,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A102",
+      "antes": [
+        1258.6,
+        1269.5
+      ],
+      "origem": [
+        1258.6,
+        1269.5
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 1258.28,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1269.5,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A103",
+      "antes": [
+        1284.4,
+        1286.0
+      ],
+      "origem": [
+        1284.38,
+        1286.04
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1284.38,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1286.04,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A104",
+      "antes": [
+        1288.8,
+        1290.3
+      ],
+      "origem": [
+        1288.8,
+        1290.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1288.52,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1290.3,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A105",
+      "antes": [
+        1292.9,
+        1299.1
+      ],
+      "origem": [
+        1292.32,
+        1299.06
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1292.89,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1299.06,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A106",
+      "antes": [
+        1301.1,
+        1320.6
+      ],
+      "origem": [
+        1300.62,
+        1320.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1300.71,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1319.44,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A107",
+      "antes": [
+        1320.8,
+        1322.6
+      ],
+      "origem": [
+        1320.82,
+        1322.64
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1320.82,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1322.64,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A108",
+      "antes": [
+        1323.0,
+        1327.8
+      ],
+      "origem": [
+        1322.98,
+        1327.78
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1322.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1327.76,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A109",
+      "antes": [
+        1344.0,
+        1346.3
+      ],
+      "origem": [
+        1343.98,
+        1346.26
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1343.86,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1346.26,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A110",
+      "antes": [
+        1346.9,
+        1348.4
+      ],
+      "origem": [
+        1346.94,
+        1348.4
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1346.94,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1348.4,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A111",
+      "antes": [
+        1354.2,
+        1359.9
+      ],
+      "origem": [
+        1353.84,
+        1359.9
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1354.76,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1359.9,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A112",
+      "antes": [
+        1360.2,
+        1367.7
+      ],
+      "origem": [
+        1360.22,
+        1367.7
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 1359.9,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1367.68,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A113",
+      "antes": [
+        1368.6,
+        1371.6
+      ],
+      "origem": [
+        1368.62,
+        1371.56
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1368.6,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1371.56,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A114",
+      "antes": [
+        1372.3,
+        1373.3
+      ],
+      "origem": [
+        1372.3,
+        1373.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1372.32,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": false,
+        "medido": 1374.58,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      }
+    },
+    {
+      "id": "A115",
+      "antes": [
+        1378.5,
+        1380.8
+      ],
+      "origem": [
+        1378.5,
+        1380.76
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1378.74,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1380.76,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A116",
+      "antes": [
+        1382.8,
+        1383.6
+      ],
+      "origem": [
+        1381.72,
+        1383.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1382.82,
+        "palavras": 2,
+        "deslocamento": 1
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1383.19,
+        "palavras": 2,
+        "deslocamento": 2
+      }
+    },
+    {
+      "id": "A117",
+      "antes": [
+        1384.0,
+        1385.4
+      ],
+      "origem": [
+        1384.04,
+        1385.42
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1384.04,
+        "palavras": 4,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1385.42,
+        "palavras": 4,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A118",
+      "antes": [
+        1385.5,
+        1389.4
+      ],
+      "origem": [
+        1385.5,
+        1389.36
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1385.42,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1389.36,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A119",
+      "antes": [
+        1398.5,
+        1403.0
+      ],
+      "origem": [
+        1398.52,
+        1404.04
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1398.5,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1403.76,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A120",
+      "antes": [
+        1403.0,
+        1407.3
+      ],
+      "origem": [
+        1401.66,
+        1407.34
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1402.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1407.36,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A121",
+      "antes": [
+        1423.7,
+        1427.3
+      ],
+      "origem": [
+        1423.7,
+        1427.26
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1423.6,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1427.26,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A122",
+      "antes": [
+        1427.9,
+        1442.8
+      ],
+      "origem": [
+        1427.9,
+        1443.98
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1427.88,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1442.6,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A123",
+      "antes": [
+        1430.3,
+        1431.8
+      ],
+      "origem": [
+        1428.7,
+        1431.82
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1430.1,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1431.84,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A124",
+      "antes": [
+        1433.4,
+        1436.2
+      ],
+      "origem": [
+        1433.38,
+        1436.2
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1433.3,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1436.31,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A125",
+      "antes": [
+        1447.8,
+        1458.2
+      ],
+      "origem": [
+        1447.8,
+        1458.24
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1447.82,
+        "palavras": 3,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1455.81,
+        "palavras": 4,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A126",
+      "antes": [
+        1447.8,
+        1452.3
+      ],
+      "origem": [
+        1447.8,
+        1453.24
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1447.82,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1452.06,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A127",
+      "antes": [
+        1452.3,
+        1454.3
+      ],
+      "origem": [
+        1450.46,
+        1454.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1452.06,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": false,
+        "medido": 1454.65,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      }
+    },
+    {
+      "id": "A128",
+      "antes": [
+        1456.8,
+        1458.2
+      ],
+      "origem": [
+        1456.78,
+        1458.24
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1456.82,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": false,
+        "medido": 1458.58,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      }
+    },
+    {
+      "id": "A129",
+      "antes": [
+        1458.3,
+        1460.8
+      ],
+      "origem": [
+        1458.3,
+        1460.8
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1458.58,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1460.8,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A130",
+      "antes": [
+        1531.7,
+        1543.3
+      ],
+      "origem": [
+        1531.74,
+        1543.34
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1531.72,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1543.34,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A131",
+      "antes": [
+        1548.7,
+        1554.1
+      ],
+      "origem": [
+        1547.74,
+        1554.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1548.64,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1554.14,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A132",
+      "antes": [
+        1557.5,
+        1561.1
+      ],
+      "origem": [
+        1555.98,
+        1561.12
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1557.52,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1561.12,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A133",
+      "antes": [
+        1568.3,
+        1573.1
+      ],
+      "origem": [
+        1567.1,
+        1573.06
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1568.32,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1573.06,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A134",
+      "antes": [
+        1577.0,
+        1582.2
+      ],
+      "origem": [
+        1577.02,
+        1584.66
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1577.48,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1582.22,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A135",
+      "antes": [
+        1582.2,
+        1588.0
+      ],
+      "origem": [
+        1581.12,
+        1588.04
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1582.44,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1588.04,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A136",
+      "antes": [
+        1589.8,
+        1594.8
+      ],
+      "origem": [
+        1589.76,
+        1595.5
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1589.76,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1594.8,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A137",
+      "antes": [
+        1596.1,
+        1602.4
+      ],
+      "origem": [
+        1595.5,
+        1602.4
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1596.86,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1602.34,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A138",
+      "antes": [
+        1608.3,
+        1616.3
+      ],
+      "origem": [
+        1608.3,
+        1617.1
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1608.14,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1616.28,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A139",
+      "antes": [
+        1630.7,
+        1637.6
+      ],
+      "origem": [
+        1630.18,
+        1638.78
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1630.57,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1637.56,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A140",
+      "antes": [
+        1637.6,
+        1642.9
+      ],
+      "origem": [
+        1636.86,
+        1642.86
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1637.56,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1642.86,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A141",
+      "antes": [
+        1706.7,
+        1709.8
+      ],
+      "origem": [
+        1706.74,
+        1709.84
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1707.07,
+        "palavras": 6,
+        "deslocamento": 3
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1709.84,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A142",
+      "antes": [
+        1706.7,
+        1713.4
+      ],
+      "origem": [
+        1706.74,
+        1713.4
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1707.07,
+        "palavras": 6,
+        "deslocamento": 3
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1713.4,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A143",
+      "antes": [
+        1726.9,
+        1732.0
+      ],
+      "origem": [
+        1726.88,
+        1732.68
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1726.78,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1731.98,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A144",
+      "antes": [
+        1743.5,
+        1747.4
+      ],
+      "origem": [
+        1743.48,
+        1748.4
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1743.48,
+        "palavras": 2,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1747.38,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A145",
+      "antes": [
+        1760.9,
+        1763.4
+      ],
+      "origem": [
+        1760.92,
+        1763.38
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1760.92,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1763.38,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A146",
+      "antes": [
+        1763.8,
+        1769.1
+      ],
+      "origem": [
+        1763.78,
+        1769.08
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1763.76,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1769.08,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A147",
+      "antes": [
+        1769.5,
+        1773.7
+      ],
+      "origem": [
+        1769.52,
+        1774.84
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1769.36,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1773.7,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A148",
+      "antes": [
+        1773.7,
+        1777.6
+      ],
+      "origem": [
+        1772.8,
+        1777.56
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1773.7,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1777.58,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A149",
+      "antes": [
+        1808.5,
+        1812.2
+      ],
+      "origem": [
+        1807.72,
+        1812.16
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1809.31,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1812.16,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A150",
+      "antes": [
+        1822.6,
+        1825.3
+      ],
+      "origem": [
+        1822.6,
+        1825.28
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1822.43,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1825.28,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A151",
+      "antes": [
+        1826.0,
+        1831.4
+      ],
+      "origem": [
+        1826.02,
+        1832.24
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1826.2,
+        "palavras": 6,
+        "deslocamento": 1
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1831.23,
+        "palavras": 3,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A152",
+      "antes": [
+        1851.8,
+        1859.2
+      ],
+      "origem": [
+        1851.14,
+        1859.2
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1851.21,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1859.2,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A153",
+      "antes": [
+        1859.3,
+        1862.2
+      ],
+      "origem": [
+        1859.28,
+        1862.24
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1859.44,
+        "palavras": 6,
+        "deslocamento": 1
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1862.24,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A154",
+      "antes": [
+        1895.0,
+        1896.7
+      ],
+      "origem": [
+        1894.96,
+        1896.74
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1894.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1896.76,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A155",
+      "antes": [
+        1901.5,
+        1904.2
+      ],
+      "origem": [
+        1901.1,
+        1904.22
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1901.1,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1904.2,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A156",
+      "antes": [
+        1904.6,
+        1906.8
+      ],
+      "origem": [
+        1904.58,
+        1906.78
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1904.58,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1906.78,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A157",
+      "antes": [
+        1907.1,
+        1909.1
+      ],
+      "origem": [
+        1907.14,
+        1909.14
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 1906.78,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1909.14,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A158",
+      "antes": [
+        1910.1,
+        1913.6
+      ],
+      "origem": [
+        1910.1,
+        1913.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1910.13,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1913.6,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A159",
+      "antes": [
+        1913.9,
+        1916.4
+      ],
+      "origem": [
+        1913.86,
+        1916.44
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1913.86,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1916.44,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A160",
+      "antes": [
+        1916.7,
+        1919.2
+      ],
+      "origem": [
+        1916.74,
+        1919.16
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1916.72,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1919.16,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A161",
+      "antes": [
+        1919.5,
+        1921.7
+      ],
+      "origem": [
+        1919.46,
+        1921.7
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1919.46,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1921.7,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A162",
+      "antes": [
+        1922.0,
+        1924.5
+      ],
+      "origem": [
+        1921.98,
+        1924.54
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1921.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1924.54,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A163",
+      "antes": [
+        1960.6,
+        1972.4
+      ],
+      "origem": [
+        1960.56,
+        1972.44
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1960.58,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1972.44,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A164",
+      "antes": [
+        1967.1,
+        1972.4
+      ],
+      "origem": [
+        1967.14,
+        1972.44
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1966.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 1972.44,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A165",
+      "antes": [
+        1997.9,
+        2006.1
+      ],
+      "origem": [
+        1996.28,
+        2006.08
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 1998.18,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2006.06,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A166",
+      "antes": [
+        2015.2,
+        2021.9
+      ],
+      "origem": [
+        2015.18,
+        2022.46
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2015.18,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2021.88,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A167",
+      "antes": [
+        2024.0,
+        2031.1
+      ],
+      "origem": [
+        2023.98,
+        2031.1
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2023.98,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2031.1,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A168",
+      "antes": [
+        2042.2,
+        2047.8
+      ],
+      "origem": [
+        2042.16,
+        2047.76
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2042.16,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2047.78,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A169",
+      "antes": [
+        2052.0,
+        2054.4
+      ],
+      "origem": [
+        2052.0,
+        2054.4
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2052.0,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2054.4,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A170",
+      "antes": [
+        2053.1,
+        2060.6
+      ],
+      "origem": [
+        2052.74,
+        2060.62
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2052.97,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2060.6,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A171",
+      "antes": [
+        2060.8,
+        2065.3
+      ],
+      "origem": [
+        2060.8,
+        2065.32
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2060.6,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2064.6,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A172",
+      "antes": [
+        2065.4,
+        2070.6
+      ],
+      "origem": [
+        2065.4,
+        2070.6
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2065.4,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2070.6,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A173",
+      "antes": [
+        2145.2,
+        2154.2
+      ],
+      "origem": [
+        2144.5,
+        2154.16
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2145.24,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2154.14,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A174",
+      "antes": [
+        2154.6,
+        2157.1
+      ],
+      "origem": [
+        2154.58,
+        2158.74
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2154.58,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2157.1,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A175",
+      "antes": [
+        2157.1,
+        2161.2
+      ],
+      "origem": [
+        2156.2,
+        2162.52
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2157.1,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2161.2,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A176",
+      "antes": [
+        2171.2,
+        2174.9
+      ],
+      "origem": [
+        2171.22,
+        2176.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2171.22,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2174.9,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A177",
+      "antes": [
+        2171.2,
+        2174.9
+      ],
+      "origem": [
+        2171.22,
+        2176.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2172.36,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2174.9,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A178",
+      "antes": [
+        2174.9,
+        2178.7
+      ],
+      "origem": [
+        2174.38,
+        2178.7
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2174.9,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2178.7,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A179",
+      "antes": [
+        2183.2,
+        2193.2
+      ],
+      "origem": [
+        2183.2,
+        2193.22
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2183.24,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2193.22,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A180",
+      "antes": [
+        2184.8,
+        2190.3
+      ],
+      "origem": [
+        2184.84,
+        2190.3
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2184.56,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2190.24,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A181",
+      "antes": [
+        2214.3,
+        2217.0
+      ],
+      "origem": [
+        2214.26,
+        2217.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2214.16,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2216.33,
+        "palavras": 6,
+        "deslocamento": 2
+      }
+    },
+    {
+      "id": "A182",
+      "antes": [
+        2241.7,
+        2246.6
+      ],
+      "origem": [
+        2241.68,
+        2248.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2241.68,
+        "palavras": 3,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2245.34,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A183",
+      "antes": [
+        2245.4,
+        2249.2
+      ],
+      "origem": [
+        2244.28,
+        2250.24
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2245.34,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2249.2,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A184",
+      "antes": [
+        2249.2,
+        2250.2
+      ],
+      "origem": [
+        2248.02,
+        2250.24
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2249.26,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2250.22,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A185",
+      "antes": [
+        2266.6,
+        2272.2
+      ],
+      "origem": [
+        2266.56,
+        2272.2
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2266.62,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2272.18,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A186",
+      "antes": [
+        2272.3,
+        2276.6
+      ],
+      "origem": [
+        2272.32,
+        2276.58
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2272.52,
+        "palavras": 6,
+        "deslocamento": 1
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2276.58,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A187",
+      "antes": [
+        2276.9,
+        2281.2
+      ],
+      "origem": [
+        2276.9,
+        2281.22
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2276.9,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2280.38,
+        "palavras": 4,
+        "deslocamento": 2
+      }
+    },
+    {
+      "id": "A188",
+      "antes": [
+        2277.7,
+        2279.6
+      ],
+      "origem": [
+        2276.9,
+        2280.06
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2277.79,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2279.1,
+        "palavras": 5,
+        "deslocamento": 1
+      }
+    },
+    {
+      "id": "A189",
+      "antes": [
+        2297.2,
+        2299.9
+      ],
+      "origem": [
+        2297.16,
+        2299.92
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2297.14,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2299.92,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A190",
+      "antes": [
+        2299.1,
+        2301.5
+      ],
+      "origem": [
+        2298.3,
+        2302.38
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2298.56,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2301.6,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A191",
+      "antes": [
+        2301.5,
+        2306.0
+      ],
+      "origem": [
+        2300.24,
+        2306.02
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2302.12,
+        "palavras": 6,
+        "deslocamento": 2
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2306.02,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A192",
+      "antes": [
+        2306.5,
+        2314.0
+      ],
+      "origem": [
+        2306.5,
+        2313.96
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2306.5,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2314.04,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A193",
+      "antes": [
+        2314.3,
+        2319.4
+      ],
+      "origem": [
+        2314.28,
+        2319.4
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2315.22,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2319.38,
+        "palavras": 4,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A194",
+      "antes": [
+        2319.7,
+        2323.4
+      ],
+      "origem": [
+        2319.74,
+        2323.4
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2319.74,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2323.4,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A195",
+      "antes": [
+        2324.2,
+        2327.2
+      ],
+      "origem": [
+        2323.7,
+        2327.94
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2323.99,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2327.0,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A196",
+      "antes": [
+        2327.2,
+        2328.7
+      ],
+      "origem": [
+        2325.82,
+        2328.7
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2327.0,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2328.7,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A197",
+      "antes": [
+        2362.4,
+        2368.3
+      ],
+      "origem": [
+        2361.84,
+        2368.28
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2362.36,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2368.26,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A198",
+      "antes": [
+        2368.4,
+        2374.5
+      ],
+      "origem": [
+        2368.38,
+        2374.48
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2368.34,
+        "palavras": 5,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2374.48,
+        "palavras": 5,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A199",
+      "antes": [
+        2370.4,
+        2372.1
+      ],
+      "origem": [
+        2370.42,
+        2372.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2370.42,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2372.14,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A200",
+      "antes": [
+        2374.7,
+        2381.0
+      ],
+      "origem": [
+        2374.68,
+        2380.98
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2374.68,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2380.96,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A201",
+      "antes": [
+        2381.2,
+        2392.4
+      ],
+      "origem": [
+        2381.24,
+        2392.36
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2380.96,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2392.36,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A202",
+      "antes": [
+        2409.3,
+        2414.9
+      ],
+      "origem": [
+        2409.34,
+        2414.92
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2409.34,
+        "palavras": 2,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2414.9,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A203",
+      "antes": [
+        2412.1,
+        2415.9
+      ],
+      "origem": [
+        2411.42,
+        2415.94
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2412.19,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2416.02,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A204",
+      "antes": [
+        2419.3,
+        2423.2
+      ],
+      "origem": [
+        2418.22,
+        2424.42
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2419.26,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2423.22,
+        "palavras": 6,
+        "deslocamento": 0
+      }
+    },
+    {
+      "id": "A205",
+      "antes": [
+        2496.4,
+        2498.6
+      ],
+      "origem": [
+        2496.4,
+        2499.14
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2496.32,
+        "palavras": 4,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": true,
+        "medido": 2497.57,
+        "palavras": 4,
+        "deslocamento": 3
+      }
+    },
+    {
+      "id": "A206",
+      "antes": [
+        2552.3,
+        2554.6
+      ],
+      "origem": [
+        2552.28,
+        2554.62
+      ],
+      "inicio": {
+        "aceito": false,
+        "medido": 2551.71,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      },
+      "fim": {
+        "aceito": false,
+        "medido": 2555.54,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      }
+    },
+    {
+      "id": "A207",
+      "antes": [
+        2554.8,
+        2558.8
+      ],
+      "origem": [
+        2554.82,
+        2558.82
+      ],
+      "inicio": {
+        "aceito": true,
+        "medido": 2555.54,
+        "palavras": 6,
+        "deslocamento": 0
+      },
+      "fim": {
+        "aceito": false,
+        "medido": 2559.42,
+        "palavras": 6,
+        "deslocamento": 0,
+        "motivo": "o ponto medido cai fora da frase de origem"
+      }
+    }
+  ]
+}

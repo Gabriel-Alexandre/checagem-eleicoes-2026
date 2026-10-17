@@ -1,0 +1,766 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "fonte_transcricao": "transcricao/transcricao.json",
+  "recorte": "sabatina-completa",
+  "cobertura": {
+    "inicio_s": 0.9,
+    "fim_s": 517.4
+  },
+  "alegacoes": [
+    {
+      "id": "A001",
+      "inicio_s": 11.8,
+      "fim_s": 22.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "hoje recebemos aqui no estúdio o senador Flávio Bolsonaro, que concorre pelo PL",
+      "afirmacao": "Flávio Bolsonaro, senador, disputa o 2º turno da eleição presidencial de 2026 pelo PL",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Abertura da entrevista, apresentação do candidato",
+      "o_que_conferir": [
+        "registro de candidatura no TSE (DivulgaCandContas): partido e cargo de Flávio Bolsonaro em 2026",
+        "resultado do 1º turno, TSE: se ele passou ao 2º turno"
+      ]
+    },
+    {
+      "id": "A002",
+      "inicio_s": 44.1,
+      "fim_s": 49.3,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "A sua campanha tem falado bastante dos juros altos no Brasil",
+      "afirmacao": "A campanha de Flávio Bolsonaro tem destacado os juros altos no Brasil",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "propaganda eleitoral, plano de governo e falas públicas do candidato e da campanha em 2026 sobre juros"
+      ]
+    },
+    {
+      "id": "A003",
+      "inicio_s": 49.3,
+      "fim_s": 61.6,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o governo hoje paga em juros da dívida pública quase o dobro do que gasta em educação e saúde somadas",
+      "afirmacao": "O governo federal gasta hoje com juros da dívida pública quase o dobro da soma das despesas com educação e saúde",
+      "tipo": "comparacao",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a frase pode estar atribuindo o dado à campanha ('lembrando que'), mas é a jornalista quem o enuncia",
+      "o_que_conferir": [
+        "juros nominais do setor público em 12 meses, Banco Central (Estatísticas Fiscais), no mês mais recente antes da fala",
+        "despesa federal com saúde e com educação no mesmo período, Tesouro (RTN) ou Siafi/Portal da Transparência",
+        "se a comparação é com o governo federal ou com o setor público consolidado, e se usa juros nominais ou pagos"
+      ]
+    },
+    {
+      "id": "A004",
+      "inicio_s": 56.4,
+      "fim_s": 68.5,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "vieram à tona algumas propostas de ajuste fiscal ventiladas pelo seu time de assessores econômicos",
+      "afirmacao": "Propostas de ajuste fiscal atribuídas aos assessores econômicos de Flávio Bolsonaro vieram a público durante a campanha",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "reportagens de 2026 sobre propostas de ajuste fiscal atribuídas à equipe econômica da campanha, com nome do assessor e data",
+        "se as propostas foram ditas por assessores identificados ou apenas atribuídas a fontes anônimas"
+      ]
+    },
+    {
+      "id": "A005",
+      "inicio_s": 72.7,
+      "fim_s": 78.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor vai manter os reajustes do salário mínimo acima da inflação",
+      "afirmacao": "A regra atual de reajuste do salário mínimo concede aumentos acima da inflação",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a pergunta pressupõe que os reajustes atuais superam a inflação",
+      "o_que_conferir": [
+        "lei vigente da política de valorização do salário mínimo (Lei 14.663/2023 e alterações posteriores)",
+        "reajustes concedidos de 2023 a 2026 comparados ao INPC do período"
+      ]
+    },
+    {
+      "id": "A006",
+      "inicio_s": 81.7,
+      "fim_s": 87.9,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor vai desvincular o percentual de reajuste do mínimo daquele usado para corrigir o valor das aposentadorias?",
+      "citacao_card": "desvincular o percentual de reajuste do mínimo daquele usado para corrigir o valor das aposentadorias",
+      "afirmacao": "Hoje o percentual de reajuste do salário mínimo é o mesmo usado para corrigir o valor das aposentadorias",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "inss",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a pergunta pressupõe a vinculação atual",
+      "o_que_conferir": [
+        "Constituição (art. 201, §2º) e Lei 8.213/1991: piso dos benefícios igual ao salário mínimo e índice de correção dos benefícios acima do piso",
+        "se a vinculação vale para todas as aposentadorias ou só para as de um salário mínimo"
+      ]
+    },
+    {
+      "id": "A007",
+      "inicio_s": 89.0,
+      "fim_s": 94.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "E o senhor pretende mudar a Constituição para eliminar os pisos de gasto com saúde e educação?",
+      "afirmacao": "A Constituição fixa pisos mínimos de gasto com saúde e com educação",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato; a pergunta pressupõe que os pisos estão na Constituição",
+      "o_que_conferir": [
+        "Constituição Federal, art. 198 (saúde) e art. 212 (educação), na redação vigente em outubro de 2026",
+        "regra de cálculo dos pisos depois do arcabouço fiscal (LC 200/2023)"
+      ]
+    },
+    {
+      "id": "A008",
+      "inicio_s": 104.4,
+      "fim_s": 117.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o meu concorrente está promovendo um verdadeiro terrorismo em cima de servidores públicos, em cima de estatais, dizendo que eu acabaria com as aposentadorias",
+      "citacao_card": "o meu concorrente [...] dizendo que eu acabaria com as aposentadorias",
+      "afirmacao": "Lula ou sua campanha afirmou que Flávio Bolsonaro acabaria com as aposentadorias",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "propaganda eleitoral de rádio e TV e redes de Lula no 2º turno de 2026: peças que digam que Flávio acabaria com aposentadorias",
+        "falas públicas de Lula sobre o tema, com data"
+      ]
+    },
+    {
+      "id": "A009",
+      "inicio_s": 104.4,
+      "fim_s": 121.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o meu concorrente [...] dizendo [...] que eu acabaria com servidores públicos",
+      "afirmacao": "Lula ou sua campanha afirmou que Flávio Bolsonaro acabaria com os servidores públicos",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "propaganda eleitoral e falas de Lula no 2º turno de 2026 sobre servidores públicos e o adversário",
+        "se a peça diz 'acabar com servidores' ou fala de reforma administrativa, estabilidade ou concursos"
+      ]
+    },
+    {
+      "id": "A010",
+      "inicio_s": 104.4,
+      "fim_s": 126.2,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "o meu concorrente [...] dizendo [...] que eu privatizaria Banco do Brasil, Caixa, Petrobras",
+      "afirmacao": "Lula ou sua campanha afirmou que Flávio Bolsonaro privatizaria o Banco do Brasil, a Caixa e a Petrobras",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "politica",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "propaganda eleitoral e falas de Lula no 2º turno de 2026 sobre privatização de Banco do Brasil, Caixa e Petrobras",
+        "se as três empresas são citadas, ou só alguma delas"
+      ]
+    },
+    {
+      "id": "A011",
+      "inicio_s": 142.5,
+      "fim_s": 159.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Se você pegar o boletim Focus de outubro de 2022, a última eleição, o presidente ainda era Jair Bolsonaro. A estimativa de taxa de juros era para estar, neste momento, em torno de 7%.",
+      "citacao_card": "o boletim Focus de outubro de 2022 [...] era para estar, neste momento, em torno de 7%",
+      "afirmacao": "O boletim Focus de outubro de 2022 projetava a taxa Selic em torno de 7% para outubro de 2026",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "boletins Focus do Banco Central de outubro de 2022: mediana da Selic para o fim de 2025 e de 2026 (horizontes mais longos publicados)",
+        "se o Focus de então tinha projeção para 2026 e qual era"
+      ]
+    },
+    {
+      "id": "A012",
+      "inicio_s": 152.3,
+      "fim_s": 159.8,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje, a taxa de juros está em 14%.",
+      "afirmacao": "A taxa básica de juros (Selic) está em 14% ao ano em outubro de 2026",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "economia",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "meta da Selic vigente em 16/out/2026, Copom/Banco Central",
+        "se o valor exato difere (por exemplo 14,25% ou 15%) e qual foi a última decisão do Copom antes da fala"
+      ]
+    },
+    {
+      "id": "A013",
+      "inicio_s": 160.1,
+      "fim_s": 164.9,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "hoje a dívida do Brasil está em 11 trilhões de reais",
+      "afirmacao": "A dívida pública do Brasil está em R$ 11 trilhões",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "Dívida Bruta do Governo Geral e Dívida Líquida do Setor Público, Banco Central, último dado antes de 16/out/2026",
+        "Dívida Pública Federal, Tesouro Nacional, no mesmo mês, para ver a que conceito o número corresponde"
+      ]
+    },
+    {
+      "id": "A014",
+      "inicio_s": 164.9,
+      "fim_s": 175.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Se fizer uma conta básica, 7 pontos, a gente está falando de quase um trilhão de reais a mais em 4 anos",
+      "afirmacao": "Sete pontos percentuais a mais de juros sobre a dívida pública equivalem a quase R$ 1 trilhão a mais de despesa com juros em quatro anos",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta às perguntas sobre ajuste fiscal, salário mínimo e pisos de saúde e educação",
+      "o_que_conferir": [
+        "a conta: 7 pontos percentuais sobre a parcela da dívida indexada à Selic (ou sobre o estoque citado), em quatro anos",
+        "parcela da dívida pública federal atrelada à Selic, Tesouro Nacional, e juros nominais anuais do Banco Central"
+      ]
+    },
+    {
+      "id": "A015",
+      "inicio_s": 188.0,
+      "fim_s": 204.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "há o consenso dos economistas, inclusive muitos que apoiam o senhor, dizem assim você não mexe no gasto público e você principalmente não chega aos 200 bilhões de reais de ajuste",
+      "citacao_card": "há o consenso dos economistas, inclusive muitos que apoiam o senhor [...] não chega aos 200 bilhões de reais de ajuste",
+      "afirmacao": "Economistas, inclusive apoiadores de Flávio Bolsonaro, avaliam que sem desvincular o mínimo das aposentadorias e sem mexer nos pisos de saúde e educação não se chega ao ajuste de R$ 200 bilhões",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "declarações e análises publicadas em 2026 por economistas sobre o ajuste de R$ 200 bilhões, incluindo os ligados à campanha de Flávio",
+        "se há de fato convergência entre economistas de linhas diferentes ou só manifestações isoladas"
+      ]
+    },
+    {
+      "id": "A016",
+      "inicio_s": 198.8,
+      "fim_s": 208.0,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "aos 200 bilhões de reais de ajuste que a sua equipe tem prometido ao mercado",
+      "afirmacao": "A equipe econômica de Flávio Bolsonaro tem prometido ao mercado um ajuste fiscal de R$ 200 bilhões",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Perguntas sobre as propostas de ajuste fiscal atribuídas à equipe econômica do candidato",
+      "o_que_conferir": [
+        "declarações de assessores econômicos da campanha em 2026 sobre o tamanho do ajuste, com data e veículo",
+        "se o valor é anual e se foi apresentado a investidores ou ao mercado financeiro"
+      ]
+    },
+    {
+      "id": "A017",
+      "inicio_s": 220.3,
+      "fim_s": 231.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Hoje, vocês sabem que o atual governo tem 39 ministérios.",
+      "afirmacao": "O governo Lula tem 39 ministérios",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "estrutura da Presidência e dos ministérios em vigor em outubro de 2026 (Lei 14.600/2023 e alterações)",
+        "se a contagem inclui órgãos com status de ministério (AGU, CGU, Casa Civil, BC etc.)"
+      ]
+    },
+    {
+      "id": "A018",
+      "inicio_s": 231.6,
+      "fim_s": 260.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Com o presidente Bolsonaro, as estatais deram 18 bilhões de reais de superávit ou de lucro.",
+      "afirmacao": "No governo Jair Bolsonaro, as estatais federais tiveram R$ 18 bilhões de superávit ou lucro",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "resultado primário das empresas estatais federais, Banco Central, somado de 2019 a 2022",
+        "lucro contábil das estatais federais no mesmo período, SEST/Ministério da Gestão, para ver qual conceito dá R$ 18 bilhões"
+      ]
+    },
+    {
+      "id": "A019",
+      "inicio_s": 231.6,
+      "fim_s": 260.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Com o Lula já são 36 bilhões de prejuízo dessas estatais.",
+      "afirmacao": "No governo Lula, as estatais federais acumulam R$ 36 bilhões de prejuízo",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "resultado primário das empresas estatais federais, Banco Central, somado de 2023 até o dado mais recente de 2026",
+        "se a cifra é déficit primário ou prejuízo contábil, e se inclui ou exclui Petrobras e bancos públicos"
+      ]
+    },
+    {
+      "id": "A020",
+      "inicio_s": 231.6,
+      "fim_s": 260.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Brasil tem mais de 30 mil imóveis",
+      "afirmacao": "A União tem mais de 30 mil imóveis",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "número de imóveis da União cadastrados na Secretaria do Patrimônio da União (SPU), dado mais recente"
+      ]
+    },
+    {
+      "id": "A021",
+      "inicio_s": 231.6,
+      "fim_s": 260.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O Brasil tem mais de 30 mil imóveis, grande parte deles que estão abandonados.",
+      "afirmacao": "Grande parte dos imóveis da União está abandonada ou sem uso",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "levantamentos da SPU, CGU ou TCU sobre imóveis da União vagos, ociosos ou sem destinação",
+        "a proporção dos imóveis em situação de abandono no total"
+      ]
+    },
+    {
+      "id": "A022",
+      "inicio_s": 260.6,
+      "fim_s": 289.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "A avaliação desses imóveis que está desatualizado, à beira, 1,7 trilhão de reais",
+      "afirmacao": "Os imóveis da União têm avaliação, desatualizada, de cerca de R$ 1,7 trilhão",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "valor contábil dos imóveis da União no Balanço Geral da União (BGU) ou na SPU, exercício mais recente",
+        "data da última reavaliação desses imóveis"
+      ]
+    },
+    {
+      "id": "A023",
+      "inicio_s": 260.6,
+      "fim_s": 289.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "os quase 3 trilhões de reais de dívidas que a União tem a receber",
+      "afirmacao": "A União tem quase R$ 3 trilhões em dívidas a receber",
+      "tipo": "valor_monetario",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "estoque da Dívida Ativa da União, PGFN (relatório PGFN em Números), dado mais recente",
+        "quanto desse estoque é classificado como de difícil recuperação"
+      ]
+    },
+    {
+      "id": "A024",
+      "inicio_s": 289.6,
+      "fim_s": 313.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Tem a questão também da margem equatorial, os RODs do petróleo, que já estavam na proposta de governo do presidente Bolsonaro lá em 2022",
+      "citacao_card": "da margem equatorial, [...] que já estavam na proposta de governo do presidente Bolsonaro lá em 2022",
+      "afirmacao": "A exploração de petróleo na margem equatorial constava da proposta de governo de Jair Bolsonaro em 2022",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "plano de governo de Jair Bolsonaro registrado no TSE em 2022: menção à margem equatorial ou à exploração de petróleo nessa região"
+      ]
+    },
+    {
+      "id": "A025",
+      "inicio_s": 301.6,
+      "fim_s": 313.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "passaram-se quatro anos e o presidente Lula não fez, não conseguiu iniciar a exploração do petróleo na margem equatorial, lá na região do Amapá",
+      "citacao_card": "o presidente Lula não fez, não conseguiu iniciar a exploração do petróleo na margem equatorial",
+      "afirmacao": "Em quatro anos de governo Lula, não foi iniciada a exploração de petróleo na margem equatorial, na região do Amapá",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Resposta sobre como fazer um ajuste de R$ 200 bilhões sem mexer nas grandes despesas",
+      "o_que_conferir": [
+        "licenças do Ibama para perfuração na Foz do Amazonas (bloco FZA-M-59) e datas, 2023 a 2026",
+        "se houve perfuração exploratória ou produção na margem equatorial até out/2026, segundo Petrobras e ANP",
+        "distinguir 'exploração' no sentido técnico (pesquisa e perfuração) de produção comercial"
+      ]
+    },
+    {
+      "id": "A026",
+      "inicio_s": 328.6,
+      "fim_s": 344.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "isso é praticamente um consenso entre os economistas, as grandes despesas são essas que eu citei aqui",
+      "afirmacao": "As maiores despesas do orçamento federal são as aposentadorias vinculadas ao salário mínimo e os gastos com saúde e educação",
+      "tipo": "ranking",
+      "checavel": true,
+      "assunto": "contas-publicas",
+      "contexto": "Réplica da jornalista à resposta sobre receitas novas e cortes de despesa",
+      "o_que_conferir": [
+        "composição da despesa primária federal por função ou por item, Tesouro Nacional (RTN), último exercício fechado e 2026",
+        "peso dos benefícios previdenciários e assistenciais vinculados ao mínimo e dos pisos de saúde e educação no total"
+      ]
+    },
+    {
+      "id": "A027",
+      "inicio_s": 336.7,
+      "fim_s": 344.2,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "margem equatorial, segundo a própria Petrobras, antes de 2033 não tem exploração ali",
+      "afirmacao": "Segundo a Petrobras, não haverá exploração de petróleo na margem equatorial antes de 2033",
+      "tipo": "atribuicao_a_terceiro",
+      "checavel": true,
+      "assunto": "energia",
+      "contexto": "Réplica da jornalista à menção do candidato às receitas da margem equatorial",
+      "o_que_conferir": [
+        "Plano de Negócios da Petrobras e declarações da empresa sobre o cronograma da margem equatorial",
+        "se o marco de 2033 se refere ao início de produção comercial ou de exploração"
+      ]
+    },
+    {
+      "id": "A028",
+      "inicio_s": 352.2,
+      "fim_s": 359.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Na quarta-feira, o Senado aprovou a emenda constitucional que acaba com essa escala de trabalho",
+      "afirmacao": "O Senado aprovou, na quarta-feira anterior à entrevista (14/out/2026), a PEC que acaba com a escala 6x1",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "tramitação da PEC no portal do Senado: data e resultado da votação em plenário"
+      ]
+    },
+    {
+      "id": "A029",
+      "inicio_s": 352.2,
+      "fim_s": 359.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "a Câmara já tinha aprovado",
+      "afirmacao": "A Câmara dos Deputados aprovou a PEC do fim da escala 6x1 antes do Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "tramitação da PEC no portal da Câmara: data da aprovação em dois turnos"
+      ]
+    },
+    {
+      "id": "A030",
+      "inicio_s": 352.2,
+      "fim_s": 359.8,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "agora a emenda já está promulgada",
+      "afirmacao": "A emenda constitucional que acaba com a escala 6x1 já foi promulgada",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "sessão de promulgação no Congresso e publicação da emenda no Diário Oficial da União, com número e data"
+      ]
+    },
+    {
+      "id": "A031",
+      "inicio_s": 360.3,
+      "fim_s": 365.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "O senhor foi, desde o início, contrário a essa proposta",
+      "afirmacao": "Flávio Bolsonaro se opôs à PEC do fim da escala 6x1 desde o início da tramitação",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "declarações públicas de Flávio Bolsonaro sobre a PEC do fim da 6x1, em ordem de data",
+        "votos ou manifestações dele em comissões do Senado durante a tramitação"
+      ]
+    },
+    {
+      "id": "A032",
+      "inicio_s": 360.3,
+      "fim_s": 365.4,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor chamou de eleitoreira, de oportunista",
+      "afirmacao": "Flávio Bolsonaro chamou a proposta do fim da escala 6x1 de eleitoreira e oportunista",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "falas e postagens de Flávio Bolsonaro com as palavras 'eleitoreira' e 'oportunista' sobre a PEC, com data e veículo"
+      ]
+    },
+    {
+      "id": "A033",
+      "inicio_s": 365.4,
+      "fim_s": 376.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "Na véspera da votação, o senhor mudou de posição",
+      "afirmacao": "Flávio Bolsonaro mudou de posição sobre a PEC do fim da escala 6x1 na véspera da votação no Senado",
+      "tipo": "data_ou_prazo",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "data do primeiro anúncio público de Flávio Bolsonaro a favor da PEC e data da votação no Senado"
+      ]
+    },
+    {
+      "id": "A034",
+      "inicio_s": 365.4,
+      "fim_s": 376.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "o senhor mudou de posição e votou a favor dessa emenda",
+      "afirmacao": "Flávio Bolsonaro votou a favor da PEC do fim da escala 6x1 no Senado",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "painel nominal da votação da PEC no plenário do Senado (todos os turnos)"
+      ]
+    },
+    {
+      "id": "A035",
+      "inicio_s": 365.4,
+      "fim_s": 376.1,
+      "falante": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "frase": "dessa emenda, que reduz a jornada de trabalho e prevê dois dias de descanso sem redução de salário",
+      "afirmacao": "A emenda do fim da escala 6x1 reduz a jornada de trabalho e prevê dois dias de descanso semanal sem redução de salário",
+      "tipo": "norma_vigente",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Pergunta sobre a mudança de posição do candidato na PEC que acaba com a escala 6x1",
+      "o_que_conferir": [
+        "texto final promulgado da emenda: nova jornada semanal máxima, descanso semanal e cláusula sobre salário",
+        "regras de transição, se houver"
+      ]
+    },
+    {
+      "id": "A036",
+      "inicio_s": 398.3,
+      "fim_s": 401.7,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "O presidente Bolsonaro, ele extinguiu mais de 20 mil cargos em comissão.",
+      "afirmacao": "O governo Jair Bolsonaro extinguiu mais de 20 mil cargos em comissão",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta, voltando ao tema fiscal, sobre corte de despesas",
+      "o_que_conferir": [
+        "decretos de extinção de cargos e funções de 2019 a 2022 (por exemplo Decreto 9.725/2019) e balanços do Ministério da Economia",
+        "se a cifra conta cargos em comissão (DAS) ou também funções gratificadas e cargos vagos"
+      ]
+    },
+    {
+      "id": "A037",
+      "inicio_s": 408.7,
+      "fim_s": 411.5,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "E o Lula já criou mais de 22.500 cargos em comissão.",
+      "afirmacao": "O governo Lula criou mais de 22.500 cargos em comissão",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "administracao-publica",
+      "contexto": "Resposta, voltando ao tema fiscal, sobre corte de despesas",
+      "o_que_conferir": [
+        "leis e decretos de criação de cargos em comissão e funções de confiança de 2023 a 2026; Painel Estatístico de Pessoal",
+        "se o número é criação bruta ou saldo, e se inclui as funções comissionadas (FCE/CCE) da reestruturação de 2023"
+      ]
+    },
+    {
+      "id": "A038",
+      "inicio_s": 419.9,
+      "fim_s": 425.3,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Eu sempre defendi mais liberdade para que os trabalhadores pudessem, inclusive, montar a sua própria jornada de trabalho.",
+      "citacao_card": "Eu sempre defendi mais liberdade para que os trabalhadores pudessem [...] montar a sua própria jornada de trabalho",
+      "afirmacao": "Flávio Bolsonaro defendeu publicamente, antes da votação, que os trabalhadores pudessem montar a própria jornada de trabalho",
+      "tipo": "evento_passado",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Resposta sobre o voto do candidato na PEC do fim da escala 6x1",
+      "o_que_conferir": [
+        "falas, postagens e projetos de Flávio Bolsonaro sobre jornada flexível e escala 6x1 antes da votação no Senado"
+      ]
+    },
+    {
+      "id": "A039",
+      "inicio_s": 469.8,
+      "fim_s": 475.6,
+      "falante": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "frase": "Como eu ouvi da grande maioria dos trabalhadores, que eles estavam favoráveis ao fim da escala seis por um",
+      "afirmacao": "A grande maioria dos trabalhadores brasileiros é favorável ao fim da escala 6x1",
+      "tipo": "numero",
+      "checavel": true,
+      "assunto": "trabalho",
+      "contexto": "Resposta sobre o voto do candidato na PEC do fim da escala 6x1",
+      "o_que_conferir": [
+        "pesquisas de opinião de 2025 e 2026 sobre o fim da escala 6x1 (Datafolha, Quaest e outros institutos), com recorte de trabalhadores quando houver"
+      ]
+    }
+  ],
+  "exclusoes": [
+    {
+      "inicio_s": 6.1,
+      "fim_s": 11.8,
+      "falante": "Renata Lo Prete",
+      "frase": "A ordem das entrevistas foi definida por sorteio",
+      "motivo": "regra de formato do próprio programa, informada pela emissora que conduz a peça; não é afirmação sobre o mundo fora da entrevista"
+    },
+    {
+      "inicio_s": 99.0,
+      "fim_s": 104.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "tem circulado de fato muitas fake news",
+      "motivo": "afirmação vaga, sem dizer quais notícias nem onde; as que ele especifica em seguida viraram alegações próprias"
+    },
+    {
+      "inicio_s": 121.7,
+      "fim_s": 131.5,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Que eu acabaria com a luz do sol, que eu ia acabar com direitos dos alienígenas",
+      "motivo": "ironia sem conteúdo factual: atribuição deliberadamente absurda, não há registro a conferir"
+    },
+    {
+      "inicio_s": 131.5,
+      "fim_s": 142.0,
+      "falante": "Flávio Bolsonaro",
+      "frase": "o maior ajuste fiscal que o Brasil pode fazer é tirar o Lula. Ele hoje é o maior problema para esse desencontro de contas",
+      "motivo": "juízo de valor sobre o adversário; os números que ele dá em seguida (Focus, Selic, dívida) viraram alegações próprias"
+    },
+    {
+      "inicio_s": 142.5,
+      "fim_s": 152.3,
+      "falante": "Flávio Bolsonaro",
+      "frase": "outubro de 2022, a última eleição, o presidente ainda era Jair Bolsonaro",
+      "motivo": "marcação de tempo incontroversa usada para situar o boletim Focus; não é asserção autônoma"
+    },
+    {
+      "inicio_s": 231.6,
+      "fim_s": 260.6,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Só aqui, Renata, é um gap de 54 bilhões de reais.",
+      "motivo": "soma aritmética das duas cifras anteriores (18 + 36 bilhões); resolve-se no mesmo dado das alegações sobre o resultado das estatais"
+    },
+    {
+      "inicio_s": 260.6,
+      "fim_s": 289.6,
+      "falante": "Flávio Bolsonaro",
+      "frase": "cerca de 200 bilhões de receita nova que hoje nós não temos",
+      "motivo": "previsão de receita com a securitização dos imóveis, condicionada a medida futura"
+    },
+    {
+      "inicio_s": 260.6,
+      "fim_s": 301.6,
+      "falante": "Flávio Bolsonaro",
+      "frase": "trazemos mais 200 bilhões a mais de receita para esse orçamento por ano",
+      "motivo": "previsão de receita com a securitização da dívida ativa, condicionada a medida futura"
+    },
+    {
+      "inicio_s": 313.6,
+      "fim_s": 323.6,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Isso poderia trazer mais de 100 bilhões de reais também de largada",
+      "motivo": "hipótese/previsão de receita da margem equatorial ('poderia trazer'), sem registro a conferir"
+    },
+    {
+      "inicio_s": 411.5,
+      "fim_s": 417.0,
+      "falante": "Flávio Bolsonaro",
+      "frase": "o governo usa a sua estrutura para entregar os seus companheiros, os seus cabos eleitorais",
+      "motivo": "juízo de valor sobre o uso dos cargos; o número de cargos criados virou alegação própria"
+    },
+    {
+      "inicio_s": 431.9,
+      "fim_s": 435.1,
+      "falante": "Flávio Bolsonaro",
+      "frase": "E com essa escala seis por um engessada, ela não conseguiu um emprego.",
+      "motivo": "caso ilustrativo de uma mãe hipotética, sem pessoa ou dado identificável a conferir"
+    },
+    {
+      "inicio_s": 464.7,
+      "fim_s": 469.4,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Eu rodei o Brasil inteiro. Eu ouvi muitos trabalhadores. E eu votei conforme o que eu ouvi nas ruas.",
+      "motivo": "motivação íntima do voto e descrição genérica de campanha, sem registro que a confirme ou desminta"
+    },
+    {
+      "inicio_s": 499.5,
+      "fim_s": 503.1,
+      "falante": "Flávio Bolsonaro",
+      "frase": "E o seu salário não está durando até o dia 30, está durando só até o dia 20.",
+      "motivo": "figura retórica dirigida ao espectador ('o seu salário'), sem universo nem métrica definidos"
+    }
+  ]
+}

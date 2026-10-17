@@ -86,8 +86,12 @@ python -m checagem falantes $SLUG
 python ferramentas/lotes-de-debate.py extracao-dividir $SLUG --minutos 8
 python ferramentas/lotes-de-debate.py extracao-juntar  $SLUG
 
+# 🆕 o tempo de cada alegação, palavra por palavra (o segmento é a frase inteira; 17/out/2026)
+python ferramentas/medir-tempo-das-alegacoes.py $SLUG --aplicar # alegacoes/TEMPOS_MEDIDOS.json
+
 # a escolha dos cortes, ANTES de qualquer veredito
 python ferramentas/sugerir-cortes.py $SLUG                     # recortes/SUGESTAO_DE_CORTES.md
+python ferramentas/bordas-na-pausa.py $SLUG --conferir         # 🆕 bordas na pausa da voz: recortes/BORDAS_NA_PAUSA.json
 #   commit da sugestão (o horário do commit prova que veio antes da checagem)
 
 # PASSO 5 · checagem em lotes (um agente por pedido, skills/checar-alegacao.md)

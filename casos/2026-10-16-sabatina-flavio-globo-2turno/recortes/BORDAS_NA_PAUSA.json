@@ -1,0 +1,154 @@
+{
+  "caso": "2026-10-16-sabatina-flavio-globo-2turno",
+  "gerado_em": "2026-10-17",
+  "metodo": "janelas de 40 ms; borda boa a 12.0 dB ou mais abaixo da mediana da fala do corte; busca de 0.8 s sem cortar alegação",
+  "cortes": [
+    {
+      "corte": "corte-01",
+      "fala_db": -17.8,
+      "alegacoes": [
+        "A075",
+        "A076",
+        "A077",
+        "A078"
+      ],
+      "inicio": {
+        "antes": 963.94,
+        "antes_db_abaixo_da_fala": -3.8,
+        "depois": 963.38,
+        "depois_db_abaixo_da_fala": 12.8,
+        "movida": true
+      },
+      "fim": {
+        "antes": 977.57,
+        "antes_db_abaixo_da_fala": 38.7,
+        "depois": 977.57,
+        "depois_db_abaixo_da_fala": 38.7,
+        "movida": false
+      },
+      "texto_da_janela": "por um amigo do seu irmão... Não, não é um fundo miliário, Renata. Só para corrigir, é um fundo que faz só a gestão do filme. Muito bem, gerido por um amigo do seu irmão, Eduardo. Por um advogado experiente nisso. Mas que é amigo dele. Esse fundo estava inativo havia quatro anos."
+    },
+    {
+      "corte": "corte-02",
+      "fala_db": -20.1,
+      "alegacoes": [
+        "A085",
+        "A086",
+        "A087"
+      ],
+      "inicio": {
+        "antes": 1089.51,
+        "antes_db_abaixo_da_fala": 14.9,
+        "depois": 1089.51,
+        "depois_db_abaixo_da_fala": 14.9,
+        "movida": false
+      },
+      "fim": {
+        "antes": 1103.44,
+        "antes_db_abaixo_da_fala": 13.0,
+        "depois": 1103.44,
+        "depois_db_abaixo_da_fala": 13.0,
+        "movida": false
+      },
+      "texto_da_janela": "A perícia da própria produtora diz que o filme custou 75 milhões de reais. E o senhor pediu 134 alvor caro. O senhor pode explicar para a gente para quê? Por que essa diferença, quase o dobro? Era um contrato que não foi cumprido."
+    },
+    {
+      "corte": "corte-03",
+      "fala_db": -18.2,
+      "alegacoes": [
+        "A131",
+        "A132"
+      ],
+      "inicio": {
+        "antes": 1547.74,
+        "antes_db_abaixo_da_fala": 8.3,
+        "depois": 1547.4,
+        "depois_db_abaixo_da_fala": 23.1,
+        "movida": true
+      },
+      "fim": {
+        "antes": 1561.24,
+        "antes_db_abaixo_da_fala": 0.8,
+        "depois": 1561.71,
+        "depois_db_abaixo_da_fala": 22.4,
+        "movida": true
+      },
+      "texto_da_janela": "pergunta especificamente, porque dias atrás ele deu uma entrevista dizendo que quem vai decidir isso é o pai de vocês. Não, ele não vai ser meu chanceler, o Eduardo é um perseguido político que está lá fora denunciando as arbitrariedades que existem aqui no Brasil."
+    },
+    {
+      "corte": "corte-04",
+      "fala_db": -18.0,
+      "alegacoes": [
+        "A158",
+        "A159",
+        "A160",
+        "A161",
+        "A162"
+      ],
+      "inicio": {
+        "antes": 1909.85,
+        "antes_db_abaixo_da_fala": 15.2,
+        "depois": 1909.85,
+        "depois_db_abaixo_da_fala": 15.2,
+        "movida": false
+      },
+      "fim": {
+        "antes": 1924.79,
+        "antes_db_abaixo_da_fala": 22.2,
+        "depois": 1924.79,
+        "depois_db_abaixo_da_fala": 22.2,
+        "movida": false
+      },
+      "texto_da_janela": "com maior queimada na história da nação brasileira, um governo que é recordista em criminalidade, um governo que é recordista em pessoas endividadas, um governo que é recordista em empresas que são fechadas, um governo que é recordista em indústrias que deixam o Brasil e vão para o Paraguai,"
+    },
+    {
+      "corte": "corte-05",
+      "fala_db": -18.9,
+      "alegacoes": [
+        "A185",
+        "A186",
+        "A187",
+        "A188"
+      ],
+      "inicio": {
+        "antes": 2266.48,
+        "antes_db_abaixo_da_fala": 1.5,
+        "depois": 2265.7,
+        "depois_db_abaixo_da_fala": 25.4,
+        "movida": true
+      },
+      "fim": {
+        "antes": 2281.47,
+        "antes_db_abaixo_da_fala": 18.6,
+        "depois": 2281.47,
+        "depois_db_abaixo_da_fala": 18.6,
+        "movida": false
+      },
+      "texto_da_janela": "Diferente do Lula, que esqueceu por quatro anos de quem recebeu o Bolsa Família, não deu reajuste para ninguém, faltando 17 dias para a eleição, ele lembra que tem que reajustar o Bolsa Família, que foi o Bolsonaro que triplicou o valor, que era R$190,00 em média, passou para R$600,00."
+    },
+    {
+      "corte": "corte-06",
+      "fala_db": -18.8,
+      "alegacoes": [
+        "A202",
+        "A203",
+        "A204"
+      ],
+      "inicio": {
+        "antes": 2409.09,
+        "antes_db_abaixo_da_fala": 18.3,
+        "depois": 2409.09,
+        "depois_db_abaixo_da_fala": 18.3,
+        "movida": false
+      },
+      "fim": {
+        "antes": 2423.22,
+        "antes_db_abaixo_da_fala": -2.8,
+        "depois": 2423.67,
+        "depois_db_abaixo_da_fala": 36.3,
+        "movida": true
+      },
+      "texto_da_janela": "Dr. Cláudio Lutenberg, vamos lembrar, ele foi o presidente do melhor hospital do Brasil, que é o Albert Einstein, que fica ali em São Paulo. E qual a ideia? É ele trazer essas boas práticas que existem nesse melhor hospital do Brasil e até um dos melhores da América Latina,"
+    }
+  ]
+}
