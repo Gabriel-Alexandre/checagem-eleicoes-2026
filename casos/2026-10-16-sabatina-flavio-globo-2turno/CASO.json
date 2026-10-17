@@ -1,0 +1,46 @@
+{
+  "slug": "2026-10-16-sabatina-flavio-globo-2turno",
+  "titulo": "Sabatina de Flávio Bolsonaro na TV Globo, 2º turno de 2026",
+  "data_do_evento": "2026-10-16",
+  "veiculo": "TV Globo",
+  "programa": "Sabatina com os candidatos do 2º turno, exibida após o Jornal Nacional",
+  "formato": "sabatina",
+  "eleicao": "Eleições gerais 2026, Presidência da República, 2º turno",
+  "duracao_s": 2567.616,
+  "falantes": [
+    {
+      "nome": "Renata Lo Prete",
+      "papel": "entrevistador",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Jornalista que conduz a entrevista."
+    },
+    {
+      "nome": "Flávio Bolsonaro",
+      "papel": "entrevistado",
+      "cargo_ou_partido": "PL",
+      "descricao": "Candidato à Presidência da República, entrevistado."
+    },
+    {
+      "nome": "Narração (VT)",
+      "papel": "narracao",
+      "cargo_ou_partido": "TV Globo",
+      "descricao": "Voz em off de VT exibido na peça. O repositório não atribui a uma pessoa o que não consegue provar pelo vídeo."
+    }
+  ],
+  "midia": {
+    "arquivo": "sabatina-flavio-globo-2026-10-16.mp4",
+    "sha256": "cffad1d88f189bdaa1ad470fc1b309573ccb816b5997d7d61ebfae13bbae051a",
+    "bytes": 257288382,
+    "largura": 1280,
+    "altura": 720,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "codec_audio": "aac"
+  },
+  "procedencia": {
+    "como_foi_obtido": "Arquivo fornecido pelo autor do projeto em 17/out/2026, às 11h10, anexado à conversa, como `sabatina-flavio-16-10.mp4` (1280x720, 30 fps, 42min48s, 257,3 MB), chegado na pasta Downloads. A pedido dele, o arquivo foi MOVIDO (não copiado) para a pasta do vídeo longo 11, `C:/Users/Gabriel/Videos/youtube/video-longo/video-11/gravacao-sabatina/sabatina-flavio-globo-2026-10-16.mp4`, e ligado em `fonte/` deste caso por hardlink (o mesmo arquivo, sem segunda cópia; `fsutil hardlink list` mostra os dois caminhos). sha256 conferido antes e depois de mover: cffad1d88f189bdaa1ad470fc1b309573ccb816b5997d7d61ebfae13bbae051a, o mesmo de `fonte/MIDIA.json` e do bloco `midia` abaixo. Nenhuma cópia ficou em Downloads. O canal ou endereço de onde a gravação veio NÃO foi informado. ⛔ Não se contornou trava de país com proxy ou rede de anonimato para obtê-la.",
+    "url_oficial": null,
+    "integralidade": "desconhecido",
+    "observacoes": "Peça checada INTEIRA (recorte `sabatina-completa`, sem vídeo renderizado); só cortes curtos viram vídeo (docs/PECA_INTEIRA.md). A pergunta do jornalista que afirma fato entra na checagem, com a mesma régua da resposta."
+  }
+}

@@ -1,6 +1,6 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 16/out/2026, manhã (versão 0.5.1: a sabatina de Lula do 2º turno checada inteira, com 6 cortes curtos)
+**Atualizado em:** 17/out/2026 (versão 0.5.1; a sabatina de Flávio Bolsonaro do 2º turno em andamento, ver "Caso em andamento")
 
 Uma sessão nova consegue continuar lendo **só este arquivo**. Ele diz o que está pronto, o que falta, e o comando exato para retomar. ⛔ Ele não guarda doutrina: isso é [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 
@@ -15,6 +15,31 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 🆕 **1º/out/2026: nasceu o braço de DEBATE** ([`docs/DEBATES.md`](docs/DEBATES.md)), preparado **antes** do debate presidencial da TV Globo (21h30 de 1º/out, mediação de César Tralli, quatro candidatos presentes: Flávio Bolsonaro, Ronaldo Caiado, Augusto Cury e Romeu Zema; Lula avisou que não vai). O caso [`2026-10-01-debate-presidencial-globo`](casos/2026-10-01-debate-presidencial-globo/CASO.json) está aberto, **sem mídia**: falta o vídeo (o autor passa), a procedência, a transcrição, os turnos e a checagem. Ferramentas prontas e testadas: `metricas`, `lotes-de-debate`, `derivar-recorte`, `novo-caso-debate`, skills `checar-debate` e `consideracoes-do-debate`, e os **critérios das considerações da IA, registrados antes do evento** (`consideracoes/CRITERIOS.md`). ⚠️ O texto da resolução do TSE sobre IA e o prazo de publicação (§7 do `DEBATES.md`) são **decisão do autor**, não resolvida aqui.
 
 🆕 **15/out/2026: a sabatina INTEIRA, com cortes curtos** ([`docs/PECA_INTEIRA.md`](docs/PECA_INTEIRA.md)), preparada **antes** da sabatina de Lula na TV Globo do 2º turno (21h15 de 15/out, logo após o Jornal Nacional, 45 min, Renata Lo Prete; Flávio Bolsonaro no dia seguinte). O caso [`2026-10-15-sabatina-lula-globo-2turno`](casos/2026-10-15-sabatina-lula-globo-2turno/CASO.json) está aberto **sem mídia**, com o critério dos cortes ([`recortes/SELECAO_DE_CORTES.md`](casos/2026-10-15-sabatina-lula-globo-2turno/recortes/SELECAO_DE_CORTES.md)) e o das considerações da IA ([`consideracoes/CRITERIOS.md`](casos/2026-10-15-sabatina-lula-globo-2turno/consideracoes/CRITERIOS.md)) registrados às 10h. Ferramentas novas, testadas e ensaiadas sobre a íntegra de 27/ago (o ensaio não entrou no git): `sugerir-cortes.py`, `rascunho-de-turnos.py`, limites de corte curto no `derivar-recorte.py` e relatório da peça inteira. **Para retomar:** o autor entrega a gravação e diz de onde veio; siga a skill [`checar-sabatina-completa`](skills/checar-sabatina-completa.md) do passo 0 ao 16.
+
+🆕 **17/out/2026: a sabatina INTEIRA de Flávio Bolsonaro no 2º turno** (TV Globo, 16/out, Renata Lo Prete), caso [`2026-10-16-sabatina-flavio-globo-2turno`](casos/2026-10-16-sabatina-flavio-globo-2turno/CASO.json), com o mesmo passo a passo, a mesma régua e os mesmos critérios do caso de Lula de 15/out (que é o modelo). Ver a seção **"Caso em andamento"** logo abaixo: ela diz em que etapa está e o comando para retomar.
+
+---
+
+## 🔄 Caso em andamento: `2026-10-16-sabatina-flavio-globo-2turno`
+
+**Pedido do autor (17/out):** o mesmo que foi feito com a sabatina de Lula (`2026-10-15-sabatina-lula-globo-2turno`), do começo ao fim, uma etapa por vez, com commit e push nos dois repositórios ao fim de cada uma; ⛔ merge no `main` é dele. A gravação mora em `C:/Users/Gabriel/Videos/youtube/video-longo/video-11/gravacao-sabatina/sabatina-flavio-globo-2026-10-16.mp4` (movida de Downloads, sha256 `cffad1d8…`), ligada por hardlink em `fonte/`. Os cortes saem em `video-11/cortes-checados/`. Critérios copiados sem mudança do caso de 15/out (`ORIGEM_DOS_CRITERIOS.md` do caso).
+
+| Etapa | O que é | Estado |
+|---|---|---|
+| E0 | preparo: gravação movida e ligada, branch atualizado, testes verdes, caso aberto, critérios copiados | ✅ 17/out |
+| E1 | mídia e procedência: duração, retransmissão ou não, `inicio_da_entrevista_s`, tarja, intervalo, começo e fim | ⬜ |
+| E2 | transcrição (sem nomes no prompt), correções por script, turnos à mão conferidos nos quadros | ⬜ |
+| E3 | blocos, extração em lotes de internet fechada, tempo de cada alegação palavra por palavra, sugestão de cortes com bordas na pausa da voz, **commit antes do 1º veredito** | ⬜ |
+| E4 | checagem em ondas (limite de 200 buscas por turno, somadas), capturas, trechos | ⬜ |
+| E5 | revisão adversarial por lote, coerência entre lotes, coerência cruzada com os casos de Lula (15/out) e de Flávio (28/ago), "a frase que voltou", rodada 2 dos provisórios | ⬜ |
+| E6 | métricas, relatório, cortes renderizados e validados, entrega com `LEIA-ME.md` | ⬜ |
+| E7 | considerações da IA (duas passadas e o documento final) | ⬜ |
+| E8 | auditoria final por amostra, por agente que não participou | ⬜ |
+| E9 | validação final extensiva (os 10 itens do pedido), `CORRECOES.md` §5 | ⬜ |
+| E10 | roteiro final e publicação, no repositório do canal | ⬜ |
+| E11 | revalidação do roteiro e propagação nos dois repositórios | ⬜ |
+
+**Para retomar:** leia a linha da primeira etapa ⬜ acima e a skill [`checar-sabatina-completa`](skills/checar-sabatina-completa.md); o modelo de cada artefato está no caso de 15/out (`CORRECOES.md` §1 a §5 traz as lições). Ambiente: `export PATH="$HOME/scoop/shims:$PATH" PYTHONIOENCODING=utf-8 PYTHONUTF8=1`.
 
 ---
 
