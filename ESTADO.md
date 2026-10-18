@@ -42,7 +42,7 @@ O pipeline roda de ponta a ponta, localmente ou pelos runners do GitHub ([`docs/
 
 **Contagem de buscas web.** Turno 1 (17/out, manhã e tarde): 199 de 200 (E0/E1 2 · ondas 47+46+49 · revisores 11 · rodada 2 37 · revisão da rodada 2 e coerência até 3 · rodada 3 e sua revisão as últimas). Turno 2 (17/out, à noite, depois do "continua"): percepção pública e auditoria final, 20 de 200 até aqui.
 
-**Caso fechado.** O que é do autor: o merge do branch `claude/sabatina-completa-2026` no `main` e as decisões do §6.3 do roteiro do VIDEO_011. A lista do que cada etapa faz está na skill [`checar-sabatina-completa`](skills/checar-sabatina-completa.md) e no `CORRECOES.md` do caso de 15/out (§4 e §5 são o modelo da auditoria e da validação final).
+**Caso fechado.** 🔀 **18/out: o branch `claude/sabatina-completa-2026` entrou no `main`, a pedido do autor** (fast-forward a partir de `c9862ab`). O que segue sendo do autor: as decisões do §6.3 do roteiro do VIDEO_011. A lista do que cada etapa faz está na skill [`checar-sabatina-completa`](skills/checar-sabatina-completa.md) e no `CORRECOES.md` do caso de 15/out (§4 e §5 são o modelo da auditoria e da validação final).
 
 Ferramentas de apoio desta rodada, fora do repositório (scratch da sessão de 17/out): `C:/Users/Gabriel/AppData/Local/Temp/claude/v11/` (`cortes.py`, `sincronia_e_borda.py`, `montar_correcoes.py`, os prompts dos agentes). Se não existirem mais, o que fazem está descrito nos commits e no `CORRECOES.md` do caso.
 
