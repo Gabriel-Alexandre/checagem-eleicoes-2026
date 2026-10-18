@@ -2848,24 +2848,6 @@
       ]
     },
     {
-      "id": "A167",
-      "inicio_s": 2023.98,
-      "fim_s": 2031.1,
-      "falante": "Flávio Bolsonaro",
-      "papel": "entrevistado",
-      "frase": "Elas estão entrando porque o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas no nosso país.",
-      "citacao_card": "o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas",
-      "afirmacao": "O governo Lula não fiscaliza a entrada de armas e drogas pelas fronteiras",
-      "tipo": "evento_passado",
-      "checavel": true,
-      "assunto": "seguranca-publica",
-      "contexto": "Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras",
-      "o_que_conferir": [
-        "apreensões de armas e drogas nas fronteiras pela PF, PRF e Receita, 2019-2026",
-        "operações e programas federais de fronteira em vigor (ex.: Programa de Proteção Integrada de Fronteiras) e seu orçamento"
-      ]
-    },
-    {
       "id": "A168",
       "inicio_s": 2042.16,
       "fim_s": 2047.78,
@@ -3119,40 +3101,6 @@
       "o_que_conferir": [
         "texto vigente da Lei 10.826/2003 e de seus decretos regulamentadores em 2026: requisitos para posse e porte de arma por civis",
         "se a lei proíbe a posse para defesa pessoal ou a condiciona a requisitos"
-      ]
-    },
-    {
-      "id": "A183",
-      "inicio_s": 2245.34,
-      "fim_s": 2249.2,
-      "falante": "Flávio Bolsonaro",
-      "papel": "entrevistado",
-      "frase": "e autoriza os marginais a comprarem armas de guerra",
-      "afirmacao": "O Estatuto do Desarmamento autoriza criminosos a comprar armas de guerra",
-      "tipo": "juizo_de_valor",
-      "checavel": false,
-      "assunto": "seguranca-publica",
-      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
-      "o_que_conferir": [
-        "texto da Lei 10.826/2003: regras sobre armas de uso restrito e proibido e requisitos de antecedentes criminais para compra",
-        "se algum dispositivo permite a compra de armas de uso restrito por pessoas com antecedentes"
-      ]
-    },
-    {
-      "id": "A184",
-      "inicio_s": 2249.26,
-      "fim_s": 2250.22,
-      "falante": "Flávio Bolsonaro",
-      "papel": "entrevistado",
-      "frase": "porque não tem fiscalização nenhuma.",
-      "afirmacao": "Não existe nenhuma fiscalização sobre a circulação de armas que chegam a criminosos",
-      "tipo": "norma_vigente",
-      "checavel": true,
-      "assunto": "seguranca-publica",
-      "contexto": "Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento",
-      "o_que_conferir": [
-        "órgãos com competência legal de fiscalizar armas e munições (Exército/DFPC, Polícia Federal/Sinarm) e de reprimir o tráfico de armas",
-        "dados de apreensões e operações contra tráfico de armas que mostrem se há fiscalização em funcionamento"
       ]
     },
     {
@@ -4026,6 +3974,13 @@
       "motivo": "Descrição genérica de situação hipotética ('se um policial bota'), sem episódio datado; e 'saraivara' é palavra não resolvida pela transcrição."
     },
     {
+      "inicio_s": 2023.98,
+      "fim_s": 2031.1,
+      "falante": "Flávio Bolsonaro",
+      "frase": "Elas estão entrando porque o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas no nosso país.",
+      "motivo": "Hipérbole política ('deixa as fronteiras abertas e não fiscaliza'); o que a frase discute é a eficácia da fiscalização, que não tem registro que a confirme ou desminta como está dita. Mesmo critério da exclusão de 'porque não tinha dinheiro para nada' no caso 2026-10-15-sabatina-lula-globo-2turno. Tirada da lista na auditoria de coerência de 18/out/2026 (era FALSO); CORRECOES.md §6."
+    },
+    {
       "inicio_s": 2094.2,
       "fim_s": 2098.3,
       "falante": "Flávio Bolsonaro",
@@ -4080,6 +4035,20 @@
       "falante": "Flávio Bolsonaro",
       "frase": "ele tem que ser melhorado.",
       "motivo": "Juízo e plano sobre o Estatuto do Desarmamento, sem fato verificável."
+    },
+    {
+      "inicio_s": 2245.34,
+      "fim_s": 2249.2,
+      "falante": "Flávio Bolsonaro",
+      "frase": "e autoriza os marginais a comprarem armas de guerra",
+      "motivo": "Figura de linguagem ('autoriza os marginais a comprarem armas de guerra'), cuja causa a própria oração dá ('porque não tem fiscalização nenhuma'); não descreve o texto da lei. Tirada da lista na auditoria de coerência de 18/out/2026 (era NAO_CHECAVEL desde a auditoria final de 17/out, e FALSO antes dela); CORRECOES.md §6."
+    },
+    {
+      "inicio_s": 2249.26,
+      "fim_s": 2250.22,
+      "falante": "Flávio Bolsonaro",
+      "frase": "porque não tem fiscalização nenhuma.",
+      "motivo": "Hipérbole ('não tem fiscalização nenhuma'), que fecha a mesma oração da figura de linguagem anterior; o que ela discute é a eficácia da fiscalização, sem medida que a confirme ou desminta como está dita. Mesmo critério da exclusão de 'porque não tinha dinheiro para nada' no caso 2026-10-15-sabatina-lula-globo-2turno. Tirada da lista na auditoria de coerência de 18/out/2026 (era FALSO); CORRECOES.md §6."
     },
     {
       "inicio_s": 2284.8,

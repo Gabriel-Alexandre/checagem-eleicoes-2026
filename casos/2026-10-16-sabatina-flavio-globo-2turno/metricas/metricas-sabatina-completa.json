@@ -1,46 +1,46 @@
 {
   "caso": "2026-10-16-sabatina-flavio-globo-2turno",
   "recorte": "sabatina-completa",
-  "gerado_em": "2026-10-17",
+  "gerado_em": "2026-10-18",
   "formato": "sabatina",
   "cobertura": {
     "inicio_s": 0.9,
     "fim_s": 2567.52
   },
   "geral": {
-    "alegacoes": 207,
-    "checaveis": 206,
-    "nao_checaveis": 1,
+    "alegacoes": 204,
+    "checaveis": 204,
+    "nao_checaveis": 0,
     "por_veredito": {
       "VERDADEIRO": 131,
-      "IMPRECISO": 26,
+      "IMPRECISO": 29,
       "INSUSTENTAVEL": 40,
-      "FALSO": 9,
-      "NAO_CHECAVEL": 1
+      "FALSO": 4,
+      "NAO_CHECAVEL": 0
     },
     "percentual_dos_checaveis": {
-      "VERDADEIRO": 63.6,
-      "IMPRECISO": 12.6,
-      "INSUSTENTAVEL": 19.4,
-      "FALSO": 4.4
+      "VERDADEIRO": 64.2,
+      "IMPRECISO": 14.2,
+      "INSUSTENTAVEL": 19.6,
+      "FALSO": 2.0
     },
     "por_papel": {
       "entrevistado": {
-        "alegacoes": 124,
-        "checaveis": 123,
-        "nao_checaveis": 1,
+        "alegacoes": 121,
+        "checaveis": 121,
+        "nao_checaveis": 0,
         "por_veredito": {
           "VERDADEIRO": 66,
-          "IMPRECISO": 23,
+          "IMPRECISO": 26,
           "INSUSTENTAVEL": 25,
-          "FALSO": 9,
-          "NAO_CHECAVEL": 1
+          "FALSO": 4,
+          "NAO_CHECAVEL": 0
         },
         "percentual_dos_checaveis": {
-          "VERDADEIRO": 53.7,
-          "IMPRECISO": 18.7,
-          "INSUSTENTAVEL": 20.3,
-          "FALSO": 7.3
+          "VERDADEIRO": 54.5,
+          "IMPRECISO": 21.5,
+          "INSUSTENTAVEL": 20.7,
+          "FALSO": 3.3
         }
       },
       "entrevistador": {
@@ -114,21 +114,21 @@
       }
     },
     {
-      "alegacoes": 124,
-      "checaveis": 123,
-      "nao_checaveis": 1,
+      "alegacoes": 121,
+      "checaveis": 121,
+      "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 66,
-        "IMPRECISO": 23,
+        "IMPRECISO": 26,
         "INSUSTENTAVEL": 25,
-        "FALSO": 9,
-        "NAO_CHECAVEL": 1
+        "FALSO": 4,
+        "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 53.7,
-        "IMPRECISO": 18.7,
-        "INSUSTENTAVEL": 20.3,
-        "FALSO": 7.3
+        "VERDADEIRO": 54.5,
+        "IMPRECISO": 21.5,
+        "INSUSTENTAVEL": 20.7,
+        "FALSO": 3.3
       },
       "nome": "Flávio Bolsonaro",
       "chave": "flavio-bolsonaro",
@@ -136,11 +136,11 @@
       "cargo_ou_partido": "PL, senador e candidato no 2º turno",
       "fala_s": 1500.5,
       "fala_hms": "00:25:00",
-      "alegacoes_por_minuto_de_fala": 4.96,
+      "alegacoes_por_minuto_de_fala": 4.84,
       "assuntos": {
         "justica": 39,
         "politica": 29,
-        "seguranca-publica": 14,
+        "seguranca-publica": 11,
         "contas-publicas": 9,
         "administracao-publica": 8,
         "relacoes-exteriores": 6,
@@ -152,16 +152,15 @@
         "meio-ambiente": 2
       },
       "tipos": {
-        "evento_passado": 57,
+        "evento_passado": 56,
         "numero": 13,
         "serie_historica": 13,
-        "norma_vigente": 12,
+        "norma_vigente": 11,
         "atribuicao_a_terceiro": 10,
         "valor_monetario": 10,
         "data_ou_prazo": 3,
         "ranking": 3,
-        "comparacao": 2,
-        "juizo_de_valor": 1
+        "comparacao": 2
       }
     }
   ],
@@ -172,16 +171,16 @@
       "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 41,
-        "IMPRECISO": 8,
+        "IMPRECISO": 10,
         "INSUSTENTAVEL": 20,
-        "FALSO": 3,
+        "FALSO": 1,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 56.9,
-        "IMPRECISO": 11.1,
+        "IMPRECISO": 13.9,
         "INSUSTENTAVEL": 27.8,
-        "FALSO": 4.2
+        "FALSO": 1.4
       },
       "assunto": "justica",
       "por_falante": {
@@ -213,25 +212,25 @@
       }
     },
     {
-      "alegacoes": 23,
-      "checaveis": 22,
-      "nao_checaveis": 1,
+      "alegacoes": 20,
+      "checaveis": 20,
+      "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 11,
-        "IMPRECISO": 3,
+        "IMPRECISO": 4,
         "INSUSTENTAVEL": 4,
-        "FALSO": 4,
-        "NAO_CHECAVEL": 1
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 50.0,
-        "IMPRECISO": 13.6,
-        "INSUSTENTAVEL": 18.2,
-        "FALSO": 18.2
+        "VERDADEIRO": 55.0,
+        "IMPRECISO": 20.0,
+        "INSUSTENTAVEL": 20.0,
+        "FALSO": 5.0
       },
       "assunto": "seguranca-publica",
       "por_falante": {
-        "Flávio Bolsonaro": 14,
+        "Flávio Bolsonaro": 11,
         "Renata Lo Prete": 9
       }
     },
@@ -649,16 +648,16 @@
       "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 8,
-        "IMPRECISO": 0,
+        "IMPRECISO": 1,
         "INSUSTENTAVEL": 4,
-        "FALSO": 1,
+        "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 61.5,
-        "IMPRECISO": 0.0,
+        "IMPRECISO": 7.7,
         "INSUSTENTAVEL": 30.8,
-        "FALSO": 7.7
+        "FALSO": 0.0
       },
       "id": "b04",
       "titulo": "Reforma do Judiciário, Moraes e Nunes Marques",
@@ -689,16 +688,16 @@
           "nao_checaveis": 0,
           "por_veredito": {
             "VERDADEIRO": 2,
-            "IMPRECISO": 0,
+            "IMPRECISO": 1,
             "INSUSTENTAVEL": 1,
-            "FALSO": 1,
+            "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
             "VERDADEIRO": 50.0,
-            "IMPRECISO": 0.0,
+            "IMPRECISO": 25.0,
             "INSUSTENTAVEL": 25.0,
-            "FALSO": 25.0
+            "FALSO": 0.0
           }
         }
       }
@@ -829,16 +828,16 @@
       "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 9,
-        "IMPRECISO": 1,
+        "IMPRECISO": 2,
         "INSUSTENTAVEL": 0,
-        "FALSO": 1,
+        "FALSO": 0,
         "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
         "VERDADEIRO": 81.8,
-        "IMPRECISO": 9.1,
+        "IMPRECISO": 18.2,
         "INSUSTENTAVEL": 0.0,
-        "FALSO": 9.1
+        "FALSO": 0.0
       },
       "id": "b07",
       "titulo": "Jair Bolsonaro: condenação e cargo no governo",
@@ -869,16 +868,16 @@
           "nao_checaveis": 0,
           "por_veredito": {
             "VERDADEIRO": 7,
-            "IMPRECISO": 1,
+            "IMPRECISO": 2,
             "INSUSTENTAVEL": 0,
-            "FALSO": 1,
+            "FALSO": 0,
             "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
             "VERDADEIRO": 77.8,
-            "IMPRECISO": 11.1,
+            "IMPRECISO": 22.2,
             "INSUSTENTAVEL": 0.0,
-            "FALSO": 11.1
+            "FALSO": 0.0
           }
         }
       }
@@ -1106,21 +1105,21 @@
       }
     },
     {
-      "alegacoes": 26,
-      "checaveis": 25,
-      "nao_checaveis": 1,
+      "alegacoes": 23,
+      "checaveis": 23,
+      "nao_checaveis": 0,
       "por_veredito": {
         "VERDADEIRO": 15,
-        "IMPRECISO": 3,
+        "IMPRECISO": 4,
         "INSUSTENTAVEL": 3,
-        "FALSO": 4,
-        "NAO_CHECAVEL": 1
+        "FALSO": 1,
+        "NAO_CHECAVEL": 0
       },
       "percentual_dos_checaveis": {
-        "VERDADEIRO": 60.0,
-        "IMPRECISO": 12.0,
-        "INSUSTENTAVEL": 12.0,
-        "FALSO": 16.0
+        "VERDADEIRO": 65.2,
+        "IMPRECISO": 17.4,
+        "INSUSTENTAVEL": 13.0,
+        "FALSO": 4.3
       },
       "id": "b12",
       "titulo": "Armas e segurança pública",
@@ -1146,21 +1145,21 @@
           }
         },
         "Flávio Bolsonaro": {
-          "alegacoes": 17,
-          "checaveis": 16,
-          "nao_checaveis": 1,
+          "alegacoes": 14,
+          "checaveis": 14,
+          "nao_checaveis": 0,
           "por_veredito": {
             "VERDADEIRO": 9,
-            "IMPRECISO": 3,
+            "IMPRECISO": 4,
             "INSUSTENTAVEL": 0,
-            "FALSO": 4,
-            "NAO_CHECAVEL": 1
+            "FALSO": 1,
+            "NAO_CHECAVEL": 0
           },
           "percentual_dos_checaveis": {
-            "VERDADEIRO": 56.2,
-            "IMPRECISO": 18.8,
+            "VERDADEIRO": 64.3,
+            "IMPRECISO": 28.6,
             "INSUSTENTAVEL": 0.0,
-            "FALSO": 25.0
+            "FALSO": 7.1
           }
         }
       }
@@ -1311,17 +1310,17 @@
     }
   ],
   "revisao_ia": {
-    "mantido": 143,
-    "alterado": 64
+    "mantido": 139,
+    "alterado": 65
   },
   "confianca": {
-    "alta": 56,
-    "media": 151
+    "alta": 54,
+    "media": 150
   },
   "fontes": {
-    "citacoes": 767,
-    "urls_distintas": 530,
-    "instituicoes": 281
+    "citacoes": 759,
+    "urls_distintas": 524,
+    "instituicoes": 277
   },
   "avisos": [],
   "ressalvas": [
@@ -1331,28 +1330,28 @@
     "Alegação **não checável** (opinião, promessa, previsão) não entra nos percentuais, mas entra na contagem de alegações, porque o autor decide o que é fato pela metodologia, não pelo resultado."
   ],
   "para_roteiro": {
-    "N_ALEG": 207,
-    "N_CHEC": 206,
-    "N_NC": 1,
+    "N_ALEG": 204,
+    "N_CHEC": 204,
+    "N_NC": 0,
     "N_V": 131,
-    "N_I": 26,
+    "N_I": 29,
     "N_S": 40,
-    "N_F": 9,
+    "N_F": 4,
     "DURACAO": "00:42:47",
     "PALAVRAS": 8322,
     "DURACAO_PECA": "00:42:47",
     "PALAVRAS_PECA": 8322,
-    "N_PV": 63.6,
-    "N_PI": 12.6,
-    "N_PS": 19.4,
-    "N_PF": 4.4,
-    "P_ENTREVISTADO_ALEG": 124,
-    "P_ENTREVISTADO_CHEC": 123,
+    "N_PV": 64.2,
+    "N_PI": 14.2,
+    "N_PS": 19.6,
+    "N_PF": 2.0,
+    "P_ENTREVISTADO_ALEG": 121,
+    "P_ENTREVISTADO_CHEC": 121,
     "P_ENTREVISTADO_V": 66,
-    "P_ENTREVISTADO_I": 23,
+    "P_ENTREVISTADO_I": 26,
     "P_ENTREVISTADO_S": 25,
-    "P_ENTREVISTADO_F": 9,
-    "P_ENTREVISTADO_NC": 1,
+    "P_ENTREVISTADO_F": 4,
+    "P_ENTREVISTADO_NC": 0,
     "P_ENTREVISTADOR_ALEG": 83,
     "P_ENTREVISTADOR_CHEC": 83,
     "P_ENTREVISTADOR_V": 65,
@@ -1363,17 +1362,17 @@
     "C1_NOME": "Flávio Bolsonaro",
     "C1_PARTIDO": "PL, senador e candidato no 2º turno",
     "C1_FALA": "00:25:00",
-    "C1_ALEG": 124,
-    "C1_CHEC": 123,
+    "C1_ALEG": 121,
+    "C1_CHEC": 121,
     "C1_V": 66,
-    "C1_I": 23,
+    "C1_I": 26,
     "C1_S": 25,
-    "C1_F": 9,
-    "C1_NC": 1,
-    "C1_PV": 53.7,
-    "C1_PI": 18.7,
-    "C1_PS": 20.3,
-    "C1_PF": 7.3,
+    "C1_F": 4,
+    "C1_NC": 0,
+    "C1_PV": 54.5,
+    "C1_PI": 21.5,
+    "C1_PS": 20.7,
+    "C1_PF": 3.3,
     "J1_NOME": "Renata Lo Prete",
     "J1_FALA": "00:14:09",
     "J1_ALEG": 83,
@@ -1407,9 +1406,9 @@
     "B4_TITULO": "Reforma do Judiciário, Moraes e Nunes Marques",
     "B4_ALEG": 13,
     "B4_V": 8,
-    "B4_I": 0,
+    "B4_I": 1,
     "B4_S": 4,
-    "B4_F": 1,
+    "B4_F": 0,
     "B4_NC": 0,
     "B5_TITULO": "Caso Master: o dinheiro de Vorcaro para o filme",
     "B5_ALEG": 33,
@@ -1428,9 +1427,9 @@
     "B7_TITULO": "Jair Bolsonaro: condenação e cargo no governo",
     "B7_ALEG": 11,
     "B7_V": 9,
-    "B7_I": 1,
+    "B7_I": 2,
     "B7_S": 0,
-    "B7_F": 1,
+    "B7_F": 0,
     "B7_NC": 0,
     "B8_TITULO": "Eduardo Bolsonaro e o Itamaraty",
     "B8_ALEG": 9,
@@ -1461,12 +1460,12 @@
     "B11_F": 0,
     "B11_NC": 0,
     "B12_TITULO": "Armas e segurança pública",
-    "B12_ALEG": 26,
+    "B12_ALEG": 23,
     "B12_V": 15,
-    "B12_I": 3,
+    "B12_I": 4,
     "B12_S": 3,
-    "B12_F": 4,
-    "B12_NC": 1,
+    "B12_F": 1,
+    "B12_NC": 0,
     "B13_TITULO": "Rio de Janeiro: aliados presos e investigados",
     "B13_ALEG": 8,
     "B13_V": 6,

@@ -156,21 +156,21 @@ Se a contestação estava certa é o C3, e não entra aqui.
 
 ## 3 · C3 · O que foi dito como fato e se sustentou
 
-*Fonte:* só as métricas finais da checagem (`metricas/`), depois da revisão adversarial e da auditoria final de 17/out (143 vereditos mantidos, 64 alterados, contando a auditoria final). As passadas não fizeram este critério: copiaram as métricas de antes da auditoria, com a A113 e a A161 provisórias. Na versão final, a A113 ficou `IMPRECISO` e a A161 `VERDADEIRO`, e outros vereditos mudaram na auditoria; os números abaixo substituem os das passadas.
+*Fonte:* só as métricas finais da checagem (`metricas/`), depois da revisão adversarial e da auditoria final de 17/out (143 vereditos mantidos, 64 alterados, contando a auditoria final) e da auditoria de coerência de 18/out (3 vereditos de `FALSO` para `IMPRECISO` e 3 frases de hipérbole e figura de linguagem tiradas da lista, `CORRECOES.md` §6). As passadas não fizeram este critério: copiaram as métricas de antes da auditoria, com a A113 e a A161 provisórias. Na versão final, a A113 ficou `IMPRECISO` e a A161 `VERDADEIRO`, e outros vereditos mudaram na auditoria; os números abaixo substituem os das passadas.
 
-**207 afirmações de fato** foram conferidas na sabatina. **206 eram checáveis**; uma, do candidato, no bloco de armas e segurança pública, ficou `NÃO CHECÁVEL` e não entra no denominador dos percentuais, como faz o arquivo de métricas.
+**204 afirmações de fato** foram conferidas na sabatina, todas checáveis. Opinião, promessa, hipérbole e figura de linguagem ficaram fora da lista (86 exclusões com motivo), como no caso de 15/out.
 
 | Lado da mesa | Tempo de fala | Afirmações | Checáveis (denominador) | Verdadeiro | Impreciso | Sem comprovação | Falso | Não checável | Por minuto de fala |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Flávio Bolsonaro (entrevistado) | 25:00 | 124 | **123** | 66 · 53,7% | 23 · 18,7% | 25 · 20,3% | 9 · 7,3% | 1 | 4,96 |
+| Flávio Bolsonaro (entrevistado) | 25:00 | 121 | **121** | 66 · 54,5% | 26 · 21,5% | 25 · 20,7% | 4 · 3,3% | 0 | 4,84 |
 | Renata Lo Prete (entrevistadora) | 14:09 | 83 | **83** | 65 · 78,3% | 3 · 3,6% | 15 · 18,1% | 0 · 0,0% | 0 | 5,87 |
-| total | 39:09 de fala (42:47 de peça) | 207 | **206** | 131 · 63,6% | 26 · 12,6% | 40 · 19,4% | 9 · 4,4% | 1 | |
+| total | 39:09 de fala (42:47 de peça) | 204 | **204** | 131 · 64,2% | 29 · 14,2% | 40 · 19,6% | 4 · 2,0% | 0 | |
 
-As nove afirmações classificadas como `FALSO` estão nos blocos de ajuste fiscal (uma), reforma do Judiciário (uma), caso Master (duas), Jair Bolsonaro e a condenação (uma) e armas e segurança pública (quatro).
+As quatro afirmações classificadas como `FALSO` estão nos blocos de ajuste fiscal (uma), caso Master (duas) e armas e segurança pública (uma).
 
 O bloco do caso Master tem 17 das 40 classificadas como `SEM COMPROVAÇÃO`, de 33 alegações no bloco, somando os dois lados da mesa. Parte delas são valores que só aparecem na imprensa sobre material de investigação não público, com a investigação da Polícia Federal em curso e sob sigilo; a checagem registra que nada ali diz que o valor é falso.
 
-🔴 **Os dois lados da mesa não se comparam direto.** Quem responde fala mais e afirma mais (124 contra 83, em 25:00 contra 14:09; a entrevistadora fez mais afirmações por minuto de fala), e as afirmações da entrevistadora são, na maior parte, o contexto das perguntas. Um percentual menor de `VERDADEIRO` pode vir só do tempo de fala e do assunto. `SEM COMPROVAÇÃO` quer dizer que a busca não achou fonte que sustente, e não que alguém provou o contrário.
+🔴 **Os dois lados da mesa não se comparam direto.** Quem responde fala mais e afirma mais (121 contra 83, em 25:00 contra 14:09; a entrevistadora fez mais afirmações por minuto de fala), e as afirmações da entrevistadora são, na maior parte, o contexto das perguntas. Um percentual menor de `VERDADEIRO` pode vir só do tempo de fala e do assunto. `SEM COMPROVAÇÃO` quer dizer que a busca não achou fonte que sustente, e não que alguém provou o contrário.
 
 ⛔ **Nada disso é placar**, nem nota, nem medida de quem diz mais verdade. `FALSO` e `IMPRECISO` não se somam: são vereditos diferentes, e somá-los é a conta que a metodologia proíbe.
 
@@ -266,7 +266,7 @@ Os três textos usam porcentagem redonda e as contagens em que as duas passadas 
 >
 > O segundo critério olha as propostas. A IA contou quantas vinham com pelo menos duas coisas entre meta, prazo, jeito de fazer, de onde sai o dinheiro e quem faz. Deu entre um terço e 40% das propostas. Só uma trouxe prazo: reunir os comandantes e declarar guerra ao narcotráfico a partir de janeiro.
 >
-> O terceiro critério vem da checagem. Flávio fez 124 afirmações de fato, e 123 deu para conferir. Delas, 66 se confirmaram, pouco mais da metade. Perto de 20% estavam imprecisas, outros 20% ficaram sem fonte que sustentasse, e nove foram classificadas como falsas. A entrevistadora fez 83 afirmações nas perguntas, e 65 se confirmaram. Esses números ficam lado a lado, sem comparação direta, porque quem responde fala mais e afirma mais, e eles não viram placar.
+> O terceiro critério vem da checagem. Flávio fez 121 afirmações de fato. Delas, 66 se confirmaram, pouco mais da metade. Perto de 20% estavam imprecisas, outros 20% ficaram sem fonte que sustentasse, e quatro foram classificadas como falsas. A entrevistadora fez 83 afirmações nas perguntas, e 65 se confirmaram. Esses números ficam lado a lado, sem comparação direta, porque quem responde fala mais e afirma mais, e eles não viram placar.
 >
 > No tempo, Flávio ficou com perto de dois terços da fala, que é o desenho de uma sabatina. Nenhuma das leituras achou vez em que a entrevistadora entrou com a frase dele cortada. Ele começou a falar com a frase dela pela metade uma ou duas vezes, conforme a fonte usada para contar.
 >

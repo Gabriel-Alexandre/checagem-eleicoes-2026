@@ -266,13 +266,13 @@
     },
     {
       "id": "A009",
-      "veredito": "FALSO",
-      "resumo": "Houve armas: facas, porretes e estilingues nos processos, e armas levadas do GSI, parte recuperada pela PM",
-      "explicacao": "A frase diz que não foi encontrada nenhuma arma em 8 de janeiro. Os registros contradizem isso por dois caminhos independentes. Primeiro, os processos descrevem o armamento usado pelos invasores como facas, porretes, barras de ferro, estilingues e bolas de gude, o que aparece tanto numa reportagem crítica ao STF (Gazeta do Povo) quanto numa checagem profissional (Aos Fatos), que cita ainda sinalizadores e estilingues com balas metálicas registrados pelas câmeras da Câmara. Segundo, invasores levaram armas e munição de uma sala do GSI no Palácio do Planalto, fato registrado no dia seguinte por Poder360 e CNN Brasil e, meses depois, pelas imagens de segurança; segundo o Aos Fatos, parte dessas armas foi recuperada depois pela PM do DF. O que a fala acerta, se 'arma' for lida só como arma de fogo em poder de manifestante: segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com eles. Isso vai na ressalva, e é também por isso que a confiança é média. ⚠️ Veredito pesado sobre a fala de um candidato: exige leitura humana antes de publicar.",
+      "veredito": "IMPRECISO",
+      "resumo": "Não houve arma de fogo apreendida com manifestantes, mas os processos citam facas e porretes, e levaram armas do GSI",
+      "explicacao": "Auditoria de coerência de 18/out/2026 (a revisão adversarial que este caso deixou pendente): o veredito passou de FALSO a IMPRECISO, com as mesmas fontes, pela mesma régua aplicada à A123 do caso 2026-10-16-sabatina-flavio-globo-2turno, que é a mesma frase. A fala é 'E armada? Não foi encontrada uma arma no 8 de janeiro', e o 'E armada?' que a abre aponta para a leitura de arma de fogo, ligada ao 'organização criminosa armada' da condenação; a auditoria lê a frase na leitura que o contexto sustenta. Nessa leitura a essência tem base: segundo a Gazeta do Povo, os processos falam de pessoas que poderiam ter acesso a armas de fogo, 'embora nenhuma tenha sido apreendida pelas forças policiais'. O que a frase erra é o absoluto: os processos descrevem o armamento usado pelos invasores como facas, porretes, barras de ferro, estilingues e bolas de gude (Gazeta do Povo, crítica ao STF, e Aos Fatos, que cita as câmeras da Câmara), e invasores levaram armas e munição de uma sala do GSI no Planalto (Poder360 e CNN Brasil), parte recuperada pela PM do DF (Aos Fatos). Na leitura de arma de fogo, o que contradiz a frase são as armas do GSI, e sobre elas há duas versões oficiais (letais e não letais no dia, só não letais em abril de 2023): não chega às duas fontes independentes que um FALSO exige. Essência certa na leitura que o contexto sustenta e absoluto errado dão IMPRECISO.",
       "numero_dito": null,
       "numero_apurado": null,
       "data_de_referencia": "atos de 8 de janeiro de 2023",
-      "ressalva": "Segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com os manifestantes",
+      "ressalva": "As armas levadas do GSI têm duas versões oficiais: letais e não letais, ou só não letais",
       "confianca": "media",
       "divergencia_entre_fontes": "Sobre as armas levadas do GSI: no dia 8/1/2023, o então ministro da Secom, Paulo Pimenta, disse que foram levadas armas letais e não letais (CNN Brasil, com Agência Brasil); em abril de 2023, segundo o Diário do Poder, o Palácio do Planalto informou que as armas levadas não eram letais. As duas versões são oficiais e se contradizem; o veredito não depende de qual está certa, porque as duas confirmam que armas foram levadas.",
       "revisao_humana": null,
@@ -322,7 +322,13 @@
           "trecho": "Caixas contendo armas teriam sido levadas pelos invasores. Os vândalos chegaram à sala do GSI por volta das 15h10, cerca de 1h e 20 min antes dos primeiros agentes da segurança presidencial aparecerem nas imagens. De acordo com o Palácio do Planalto, as armas levadas não eram letais.",
           "prova": "A versão oficial posterior: armas não letais. Base da divergência registrada."
         }
-      ]
+      ],
+      "revisao_ia": {
+        "revisor": "Claude (auditoria de coerência por IA, passada separada, contra a METODOLOGIA §2.2 e a A123 do caso 2026-10-16-sabatina-flavio-globo-2turno)",
+        "data": "2026-10-18",
+        "decisao": "alterado",
+        "nota": "Auditoria de coerência de 18/out: FALSO → IMPRECISO. É a revisão adversarial que o CORRECOES.md deste caso deixou pendente ('a leitura de arma pesa no veredito'). O 'E armada?' da própria fala aponta para arma de fogo; nessa leitura a Gazeta do Povo confirma que nenhuma foi apreendida, e o que contradiz são as armas do GSI, com duas versões oficiais sobre a letalidade. O absoluto segue errado pelas armas brancas dos processos. Mesma decisão da A123 de 16/out."
+      }
     },
     {
       "id": "A010",

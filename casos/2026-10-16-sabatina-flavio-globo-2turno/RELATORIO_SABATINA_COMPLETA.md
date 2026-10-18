@@ -3,7 +3,7 @@
 **Peça:** TV Globo · Sabatina com os candidatos do 2º turno, exibida após o Jornal Nacional · sabatina · 16/out/2026  
 **Duração:** 00:42:48  
 **Trecho checado:** a peça inteira (`sabatina-completa`), de 00:00:01 a 00:42:48, sem escolha de trecho  
-**Relatório gerado em:** 2026-10-17  
+**Relatório gerado em:** 2026-10-18  
 **Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  
 **Assinatura da mídia (sha256):** `cffad1d88f189bdaa1ad470fc1b309573ccb816b5997d7d61ebfae13bbae051a`
 
@@ -26,23 +26,22 @@
 
 ## Contagem
 
-**207 alegações** extraídas e checadas.
+**204 alegações** extraídas e checadas.
 
 | Veredito | Total | entrevistado | entrevistador |
 |---|---:|---:|---:|
 | 🟢 VERDADEIRO | 131 | 66 | 65 |
-| 🟡 IMPRECISO | 26 | 23 | 3 |
+| 🟡 IMPRECISO | 29 | 26 | 3 |
 | 🟠 SEM COMPROVAÇÃO | 40 | 25 | 15 |
-| 🔴 FALSO | 9 | 9 | 0 |
-| ⚪ NÃO CHECÁVEL | 1 | 1 | 0 |
+| 🔴 FALSO | 4 | 4 | 0 |
 
 ### Como ler esta contagem
 
-- **entrevistado:** 124 de 207 alegações.
-- **entrevistador:** 83 de 207 alegações.
+- **entrevistado:** 121 de 204 alegações.
+- **entrevistador:** 83 de 204 alegações.
 - Os números acima são **deste trecho** e têm o denominador à vista. ⛔ Eles não são ranking entre pessoas nem entre candidatos, e não dizem nada sobre intenção.
 - ⚠️ **Nem toda afirmação é igualmente checável.** Economia tem série pública; segurança tem defasagem; promessa não tem fonte. Um lado pode acumular `SEM COMPROVAÇÃO` só porque falou de assunto com fonte pior ([`etica-e-risco` §3](../../.cursor/rules/etica-e-risco.mdc)).
-- **Revisão adversarial registrada nas 207 checagens**, feita por IA em passada separada da checagem ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)); o resultado de cada uma está na alegação.
+- **Revisão adversarial registrada nas 204 checagens**, feita por IA em passada separada da checagem ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)); o resultado de cada uma está na alegação.
 
 ## Por falante
 
@@ -51,7 +50,7 @@ Detalhe completo, com assunto e bloco: [`metricas/METRICAS_sabatina-completa.md`
 | Falante | Papel | Fala | Alegações | Checáveis | 🟢 | 🟡 | 🟠 | 🔴 | ⚪ |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Renata Lo Prete | entrevistador | 00:14:09 | 83 | 83 | 65 | 3 | 15 | 0 | 0 |
-| Flávio Bolsonaro | entrevistado | 00:25:00 | 124 | 123 | 66 | 23 | 25 | 9 | 1 |
+| Flávio Bolsonaro | entrevistado | 00:25:00 | 121 | 121 | 66 | 26 | 25 | 4 | 0 |
 
 ## Os cortes que viraram vídeo
 
@@ -64,7 +63,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 | `corte-03` | 00:25:47 a 00:26:02 (14 s) | A131, A132 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 2 alegações checáveis em 14 s, assunto relacoes-exteriores; confronto jornalista x entrevistado em relacoes-exteriores; 1 troca de turno; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 23.1 dB e fim 22.4 dB abaixo da fala) |
 | `corte-04` | 00:31:50 a 00:32:05 (15 s) | A158, A159, A160, A161, A162 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 5 alegações checáveis em 15 s, assunto economia; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 15.2 dB e fim 22.2 dB abaixo da fala) |
 | `corte-05` | 00:37:46 a 00:38:01 (16 s) | A185, A186, A187, A188 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 4 alegações checáveis em 15 s, assunto programas-sociais; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 25.4 dB e fim 18.6 dB abaixo da fala) |
-| `corte-06` | 00:40:09 a 00:40:24 (15 s) | A202, A203, A204 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto saude; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 18.3 dB e fim 36.3 dB abaixo da fala) |
+| `corte-06` | 00:40:09 a 00:40:24 (14 s) | A202, A203, A204 | critério pré-registrado (recortes/SELECAO_DE_CORTES.md): 3 alegações checáveis em 14 s, assunto saude; bordas na pausa da voz (recortes/BORDAS_NA_PAUSA.json: início 18.3 dB e fim 28.1 dB abaixo da fala) |
 
 ## Alegação por alegação
 
@@ -3092,7 +3091,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A069 · 🔴 FALSO · 00:14:44
+### A069 · 🟡 IMPRECISO · 00:14:44
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `justica` · tipo: `norma_vigente`
 
@@ -3102,13 +3101,15 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Pergunta sobre a defesa do impeachment de Alexandre de Moraes e sobre Kassio Nunes Marques, no caso Master
 
-**Resumo (o que aparece no vídeo):** A Lei 1.079 manda o Senado votar se a denúncia segue, e o presidente da Casa pode arquivá-la; abrir não é obrigatório
+**Resumo (o que aparece no vídeo):** A Lei 1.079 manda o Senado processar a denúncia, mas abrir o impeachment depende de votação, e ela pode arquivá-la
 
-**Análise:** A frase descreve a norma: se um ministro do STF incorre num dos crimes do art. 39, o Senado seria obrigado a iniciar o impeachment. A lei diz outra coisa. Pela Lei 1.079/1950, a denúncia precisa ser recebida pela Mesa do Senado, vai a uma comissão especial que opina se ela deve ser objeto de deliberação, o plenário vota esse parecer e, se o Senado resolver que não, os papéis são arquivados (arts. 44 a 48). Na prática, cabe exclusivamente ao presidente do Senado decidir se o pedido é arquivado ou segue (Poder360; BP Money registra que Alcolumbre tinha 109 pedidos contra ministros do STF sem indicar andamento), e a decisão do STF na ADPF 1.259 registra que o presidente do Senado rejeitou uma denúncia em 2020. Há juízo prévio e votação, não obrigação de abrir o processo. As fontes contradizem o essencial da frase (a obrigação), por isso FALSO e não IMPRECISO. A mesma regra foi registrada na checagem A077 do caso 2026-10-15-sabatina-lula-globo-2turno ('cabe exclusivamente ao presidente do Senado decidir'). Nota: a liminar de 3/12/2025 nas ADPFs 1.259 e 1.260 também elevou para 2/3 o quórum de aprovação do parecer e, depois, teve suspensa a parte que dava só à PGR o poder de denunciar; não foi conferido aqui o estado do julgamento de mérito em outubro de 2026, o que não muda o ponto: em nenhuma das versões a abertura é automática.
+**Análise:** Auditoria de coerência de 18/out/2026: o veredito passou de FALSO a IMPRECISO, pela mesma régua da A050 do caso 2026-10-15-sabatina-lula-globo-2turno ('a Constituição nunca permitiu que a União se metesse na segurança pública', IMPRECISO porque acerta o essencial do arranjo e exagera o resto). A frase descreve a norma: se um ministro do STF incorre num dos crimes da lei, o Senado seria obrigado a iniciar o impeachment. O que ela acerta: a Lei 1.079/1950 dá ao Senado o processo desses crimes e usa linguagem de dever para o primeiro passo, porque a denúncia recebida pela Mesa 'será lida no expediente da sessão seguinte e despachada a uma comissão especial' (art. 44). O que ela exagera: entre a denúncia e o processo há um parecer e uma votação, e 'se o Senado resolver que a denúncia não deve constituir objeto de deliberação, serão os papeis arquivados' (art. 48); na prática, cabe ao presidente do Senado decidir se o pedido segue ou é arquivado (Poder360; o BP Money registra 109 pedidos contra ministros do STF), e a decisão do STF na ADPF 1.259 registra que o presidente do Senado rejeitou uma denúncia em 2020. O dever de processar a denúncia tem base no texto; a obrigação de abrir o processo de impeachment não. Até esta auditoria o veredito era FALSO, com as mesmas fontes, pela leitura de que a única obrigação afirmada era a de abrir o processo. Nota mantida: a liminar de 3/12/2025 nas ADPFs 1.259 e 1.260 mexeu no quórum e na legitimidade para denunciar; o estado do julgamento de mérito em outubro de 2026 não foi conferido, e em nenhuma das versões a abertura é automática.
+
+**Ressalva:** A lei manda ler a denúncia e enviá-la a uma comissão; o plenário vota se ela segue, e pode arquivá-la
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: mantido. Revisão r3: Melhor argumento contra o FALSO: o art. 44 da Lei 1.079 usa linguagem imperativa (recebida a denúncia, 'será lida' e despachada à comissão), então a lei impõe ao Senado processar a denúncia; e 'é obrigação' pode ser dever político, não descrição do rito. Não derruba: a fala diz 'iniciar um processo de impeachment', e a lei põe entre a denúncia e o processo um parecer e uma votação do plenário que pode arquivar (art. 48, no trecho do Planalto); na prática o presidente do Senado filtra os pedidos (Poder360; BP Money: 109 pedidos) e a decisão do STF registra uma rejeição de 2020. O essencial da frase (obrigação de abrir) é contradito, não só o ornamento: FALSO, como a A077 de 15/out. O '2/3' citado na explicação está na captura da decisão (p07-r3), fora do trecho. Frase conferida na transcrição (883,7 a 893,1 s).
+**Revisão por IA:** Claude (auditoria de coerência por IA, passada separada, contra a METODOLOGIA §2.2 e §4.2 e os precedentes do caso 2026-10-15-sabatina-lula-globo-2turno) em 2026-10-18: alterado. Auditoria de coerência de 18/out (passada separada): FALSO → IMPRECISO. Contra o FALSO: o art. 44 da Lei 1.079 usa linguagem de dever para receber, ler e despachar a denúncia, então a frase acerta o dever de processar e exagera ao dizer que o processo é aberto por obrigação; é o mesmo padrão da A050 de 15/out (norma descrita com exagero, IMPRECISO). A favor do FALSO: a lei põe parecer e votação antes do processo (art. 48). Pesou a coerência com a A050. Detalhe em CORRECOES.md §6. · Revisões anteriores: Revisão r3: Melhor argumento contra o FALSO: o art. 44 da Lei 1.079 usa linguagem imperativa (recebida a denúncia, 'será lida' e despachada à comissão), então a lei impõe ao Senado processar a denúncia; e 'é obrigação' pode ser dever político, não descrição do rito. Não derruba: a fala diz 'iniciar um processo de impeachment', e a lei põe entre a denúncia e o processo um parecer e uma votação do plenário que pode arquivar (art. 48, no trecho do Planalto); na prática o presidente do Senado filtra os pedidos (Poder360; BP Money: 109 pedidos) e a decisão do STF registra uma rejeição de 2020. O essencial da frase (obrigação de abrir) é contradito, não só o ornamento: FALSO, como a A077 de 15/out. O '2/3' citado na explicação está na captura da decisão (p07-r3), fora do trecho. Frase conferida na transcrição (883,7 a 893,1 s).
 
 **Fontes:**
 
@@ -5659,7 +5660,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A123 · 🔴 FALSO · 00:23:50
+### A123 · 🟡 IMPRECISO · 00:23:50
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -5669,17 +5670,17 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Resposta à pergunta sobre cargo para Jair Bolsonaro, em que o candidato contesta a condenação do pai
 
-**Resumo (o que aparece no vídeo):** Houve armas: facas e porretes descritos nos processos, e armas levadas do GSI, parte recuperada pela PM
+**Resumo (o que aparece no vídeo):** Não houve arma de fogo apreendida com manifestantes, mas os processos citam facas e porretes, e levaram armas do GSI
 
-**Análise:** Auditoria final de 17/out/2026: o veredito fica FALSO, e entrou a fonte que responde à leitura 'arma de fogo', que a revisão r5 chamou de forte. Em decisão assinada em 28/08/2026 e publicada em 01/09/2026, antes da fala, o ministro Alexandre de Moraes mandou o Exército destruir sete armas de fogo apreendidas de Bolsonaro e as qualificou como instrumentos do crime: 'os armamentos apreendidos, empregados ou destinados à atuação da associação criminosa armada qualificam-se como instrumentos do crime e sujeitam-se ao confisco como efeito da condenação' (Congresso em Foco e Gazeta do Povo). As duas reportagens citam o mesmo texto da decisão, que não foi capturada no portal do STF; pela regra 2 da METODOLOGIA §3.1 isso se declara aqui, e elas entram como reprodução da mesma primária. A nuance: segundo a Gazeta do Povo, as armas foram apreendidas depois de um episódio envolvendo um agente de segurança de Bolsonaro, não no curso da investigação do golpe; o que as liga à organização armada é a qualificação da decisão ('empregados ou destinados'). Ainda assim, é registro judicial, sobre a condenação definitiva, de armas de fogo ligadas pelo STF à associação criminosa armada, e contradiz o 'em lugar nenhum' também na leitura estrita. A frase diz que não foi encontrada arma 'em lugar nenhum' no caso que levou à condenação por organização criminosa armada. Os registros contradizem isso. Os processos do 8 de janeiro descrevem facas, porretes, barras de ferro, estilingues e bolas de gude (Gazeta do Povo, veículo crítico ao STF, e Aos Fatos, que cita imagens das câmeras da Câmara). Invasores levaram armas e munição de uma sala do GSI no Planalto (Poder360 e CNN Brasil, no dia seguinte), e segundo o Aos Fatos parte dessas armas foi recuperada depois pela PM do DF. No processo de Bolsonaro, a CNN Brasil registra que o agravante pelo emprego de armas veio do plano de matar Lula, Alckmin e Moraes. O que a fala acerta, se 'arma' for lida só como arma de fogo em poder dos manifestantes: nenhuma foi apreendida com eles (Gazeta do Povo), o que vai na ressalva e é a razão da confiança média; a decisão de Moraes acima responde à leitura de arma de fogo ligada à organização. É o mesmo dado e a mesma régua do caso 2026-08-28-sabatina-flavio-globo (A009, FALSO). A condenação é definitiva, então não se aplica a cautela de etica-e-risco §5. ⚠️ Veredito pesado sobre a fala de um candidato: exige leitura humana antes de publicar.
+**Análise:** Auditoria de coerência de 18/out/2026: o veredito passou de FALSO a IMPRECISO. A frase admite duas leituras, 'nenhuma arma' e 'nenhuma arma de fogo', e o contexto ('ele foi condenado por organização criminosa armada') sustenta a segunda; a auditoria lê a frase na leitura que o contexto sustenta, que é a mais forte para quem falou. Nessa leitura a essência tem base: segundo a Gazeta do Povo, os processos falam de pessoas que poderiam ter acesso a armas de fogo, 'embora nenhuma tenha sido apreendida pelas forças policiais'. O que a frase erra é o absoluto 'em lugar nenhum': os processos do 8 de janeiro descrevem facas, porretes, barras de ferro, estilingues e bolas de gude (Gazeta do Povo, veículo crítico ao STF, e Aos Fatos, que cita as câmeras da Câmara); invasores levaram armas e munição de uma sala do GSI no Planalto (Poder360 e CNN Brasil), e parte foi recuperada pela PM do DF (Aos Fatos), com duas versões oficiais sobre serem letais (ver divergência); e a decisão de Moraes assinada em 28/08/2026 e publicada em 01/09/2026 trata sete armas de fogo apreendidas de Bolsonaro, depois de um episódio com um agente de segurança dele e não no curso da investigação do golpe, como instrumentos da associação criminosa armada (Congresso em Foco e Gazeta do Povo reproduzem o mesmo texto da decisão, que não foi capturada no portal do STF, e por isso contam como uma fonte, regra 2 da METODOLOGIA §3.1). Na leitura de arma de fogo, o que contradiz o 'em lugar nenhum' é essa uma fonte e as armas do GSI, cuja letalidade tem duas versões oficiais; isso não chega às duas fontes independentes que um FALSO exige. Essência certa na leitura que o contexto sustenta e absoluto errado dão IMPRECISO. No processo de Bolsonaro, a CNN Brasil registra que o agravante pelo emprego de armas veio do plano de matar Lula, Alckmin e Moraes. A mesma auditoria aplicou a mesma régua à A009 do caso 2026-08-28-sabatina-flavio-globo (mesma frase, mesmas fontes, sem a decisão de Moraes, que é posterior), que também passou a IMPRECISO. A condenação é definitiva, então não se aplica a cautela de etica-e-risco §5.
 
-**Ressalva:** Segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com os manifestantes
+**Ressalva:** Uma decisão de Moraes trata armas de fogo de Bolsonaro, apreendidas em outro episódio, como instrumentos do crime
 
 **⚠️ Divergência entre fontes:** Sobre as armas levadas do GSI: no dia 8/1/2023, o então ministro da Secom disse que foram levadas armas letais e não letais (CNN Brasil); segundo o Diário do Poder, o Palácio do Planalto informou depois que as armas levadas não eram letais. O veredito não depende de qual versão está certa, porque as duas confirmam que armas foram levadas.
 
 **Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: mantido. Revisão r5: Contra, e é forte: no contexto da fala ('condenado por organização criminosa armada e não foi encontrado uma arma'), 'arma' pode ser lida como arma de fogo, que é o que a qualificadora da organização criminosa mira; a Gazeta do Povo diz que nenhuma arma de fogo foi apreendida com os manifestantes, o Planalto disse depois que as armas levadas do GSI não eram letais, e o agravante citado pela CNN vem de um plano, não de arma apreendida. Fica de pé com confiança média: a frase é absoluta ('em lugar nenhum'), e os registros capturados contradizem a forma absoluta: armas e munição levadas do GSI e parte delas recuperada pela PM-DF (Aos Fatos, Poder360, CNN), e facas, porretes e barras de ferro descritos nos processos (Gazeta do Povo, fonte crítica ao STF). A leitura de arma de fogo está na ressalva, e a divergência sobre armas letais está declarada. Os seis trechos foram achados nas capturas. Ponto para a coerência: o precedente A009 do caso de 28/ago nunca passou por revisão adversarial, então não serve de lastro por si. · Coerência entre lotes e entre casos: Mesmo dado e veredito da A009 de 28/ago, que não tem revisão adversarial registrada; aqui a r5 fez essa revisão e testou a leitura 'arma de fogo', que está na ressalva. Coerente com as A147 e A148 da entrevistadora. · Auditoria final de 17/out (agente que não participou de nada; achado examinado pela IA que conduz o caso contra a metodologia): FALSO → FALSO. Detalhe em checagens/revisao/AUDITORIA_FINAL.md e correcoes-auditoria.md.
+**Revisão por IA:** Claude (auditoria de coerência por IA, passada separada, contra a METODOLOGIA §2.2 e §4.2 e os precedentes do caso 2026-10-15-sabatina-lula-globo-2turno) em 2026-10-18: alterado. Auditoria de coerência de 18/out (passada separada): FALSO → IMPRECISO. Na leitura que o contexto sustenta (arma de fogo, por causa do 'organização criminosa armada'), a Gazeta do Povo confirma que nenhuma foi apreendida com os manifestantes; o que contradiz o absoluto nessa leitura é uma fonte só (a decisão de Moraes, reproduzida por dois veículos) e as armas do GSI, com duas versões oficiais sobre a letalidade. Não chega ao FALSO; o absoluto 'em lugar nenhum' segue errado (armas brancas nos processos), daí IMPRECISO. A009 de 28/ago corrigida junto. Detalhe em CORRECOES.md §6. · Revisões anteriores: Revisão r5: Contra, e é forte: no contexto da fala ('condenado por organização criminosa armada e não foi encontrado uma arma'), 'arma' pode ser lida como arma de fogo, que é o que a qualificadora da organização criminosa mira; a Gazeta do Povo diz que nenhuma arma de fogo foi apreendida com os manifestantes, o Planalto disse depois que as armas levadas do GSI não eram letais, e o agravante citado pela CNN vem de um plano, não de arma apreendida. Fica de pé com confiança média: a frase é absoluta ('em lugar nenhum'), e os registros capturados contradizem a forma absoluta: armas e munição levadas do GSI e parte delas recuperada pela PM-DF (Aos Fatos, Poder360, CNN), e facas, porretes e barras de ferro descritos nos processos (Gazeta do Povo, fonte crítica ao STF). A leitura de arma de fogo está na ressalva, e a divergência sobre armas letais está declarada. Os seis trechos foram achados nas capturas. Ponto para a coerência: o precedente A009 do caso de 28/ago nunca passou por revisão adversarial, então não serve de lastro por si. · Coerência entre lotes e entre casos: Mesmo dado e veredito da A009 de 28/ago, que não tem revisão adversarial registrada; aqui a r5 fez essa revisão e testou a leitura 'arma de fogo', que está na ressalva. Coerente com as A147 e A148 da entrevistadora. · Auditoria final de 17/out (agente que não participou de nada; achado examinado pela IA que conduz o caso contra a metodologia): FALSO → FALSO. Detalhe em checagens/revisao/AUDITORIA_FINAL.md e correcoes-auditoria.md.
 
 **Fontes:**
 
@@ -7716,48 +7717,6 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A167 · 🔴 FALSO · 00:33:44
-
-**Flávio Bolsonaro** (entrevistado) · assunto: `seguranca-publica` · tipo: `evento_passado`
-
-> "Elas estão entrando porque o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas no nosso país."
-
-**Afirmação isolada:** O governo Lula não fiscaliza a entrada de armas e drogas pelas fronteiras
-
-**Contexto:** Resposta à pergunta sobre a marcação de munições; o candidato fala de armas de guerra e fronteiras
-
-**Resumo (o que aparece no vídeo):** Em 2025 a PF fez 482 operações nas fronteiras, e a PRF recolheu 1.134 armas e 719 toneladas de maconha
-
-**Análise:** A frase diz que o governo 'deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas'. O balanço de 2025 apresentado pela PF e pela PRF em fevereiro de 2026 registra 482 operações da PF nas fronteiras, com 663 presos e 1.512 indiciados, 2.471 armas e 73,1 toneladas de cocaína apreendidas pela PF, e 1.134 armas, 719 toneladas de maconha e 44,3 toneladas de cocaína pela PRF; a PF informou recorde na apreensão de drogas. O Liberal, o Diário do Pará e o Bahia Notícias reproduzem o mesmo balanço oficial, que não foi capturado na fonte: pela regra 2 da §3.1, as três contam como uma fonte. A segunda fonte, independente, é a página de notícias da própria Polícia Federal, capturada na madrugada do dia da fala, que registra no dia 15/10/2026 apreensões de maconha em ação com o BPFron, no Paraná, e de quatro pistolas em Cascavel (PR), com destino ao Rio de Janeiro (fonte já capturada no caso 2026-10-15-sabatina-lula-globo-2turno, pasta p06). Há fiscalização registrada, o que contradiz diretamente 'não fiscaliza'; por isso FALSO e não INSUSTENTAVEL. A frase pode ser lida como crítica à eficácia da fiscalização, e isso é juízo que as fontes não medem; o que se checa é a afirmação de que não há fiscalização.
-
-**Confiança:** media
-
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: alterado. Revisão r6: Contra: (a) a frase é hipérbole política sobre a eficácia da fiscalização e não deveria ser FALSO; (b) as três fontes reproduzem o mesmo balanço oficial de fevereiro de 2026, que não foi capturado, e pela regra 2/3 da §3.1 contam como uma fonte, abaixo do mínimo de duas para um FALSO. (a) cai: 'não fiscaliza a entrada de armas e drogas' é afirmação absoluta, contradita por registro de operações e apreensões, a mesma régua do 'nenhuma arma' do caso de 28/08 (A009); a explicação já separa o juízo de eficácia. (b) procedia: entrou como N1 a página de notícias da própria PF, capturada em 16/10/2026 no caso de 15/out (p06), com apreensões de maconha em ação com o BPFron e de pistolas em Cascavel (PR) em 15/10/2026, independente do balanço; a explicação declara a regra 2 para as três reportagens. Veredito mantido.
-
-**Fontes:**
-
-1. `N4` **O Liberal (balanço oficial da Polícia Federal)**: [PF tem 47 mil inquéritos em aberto e tirou R$ 9,5 bi do crime organizado em 2025](https://www.oliberal.com/variedades/pf-tem-47-mil-inqueritos-em-aberto-e-tirou-r-9-5-bi-do-crime-organizado-em-2025-1.1083446) · consultada em 2026-10-17 · captura sha256 `40fd35eac1c638d7…`
-   > Foram apreendidas 2.471 armas, além de 198.113 munições. Nas fronteiras, a PF fez 482 operações, cumpriu 81 mandados de buscas e prendeu 663 alvos. Indiciou 1.512 suspeitos.
-
-   *O que prova:* Operações e apreensões da PF nas fronteiras em 2025.
-
-2. `N4` **Diário do Pará (balanço do MJSP, PF e PRF)**: [PF e PRF retiraram R$ 9,5 bilhões do crime organizado](https://diariodopara.com.br/noticias/brasil/pf-e-prf-retiraram-r-95-bilhoes-do-crime-organizado/) · consultada em 2026-10-17 · captura sha256 `968d0cca26c8d950…`
-   > No balanço operacional, a PRF informou a apreensão de 719 toneladas de maconha, 44,3 toneladas de cocaína e 48,3 milhões de maços de cigarros ilegais. A corporação também recolheu 1.134 armas de fogo, mais de 59 mil munições e recuperou 7.924 veículos.
-
-   *O que prova:* Apreensões de drogas e armas pela PRF em 2025.
-
-3. `N4` **Bahia Notícias (coletiva do diretor-geral da PF)**: [Diretor da PF afirma que corporação apreendeu R$ 9,5 bilhões do crime organizado no ano de 2025, um recorde (10/02/2026)](https://www.bahianoticias.com.br/noticia/313563-diretor-da-pf-afirma-que-corporacao-apreendeu-r-95-bilhoes-do-crime-organizado-no-ano-de-2025-um-recorde) · consultada em 2026-10-17 · captura sha256 `32e7795734570357…`
-   > A corporação também contabilizou em 2025 apreensões de 73.181 quilos de cocaína e de 721.163 quilos de maconha, além de 1.171 operações contra crimes cibernéticos e 482 ações nas fronteiras do país.
-
-   *O que prova:* Outro veículo com o mesmo balanço, confirmando as ações de fronteira.
-
-4. `N1` **Polícia Federal (gov.br)**: [Notícias da Polícia Federal (página capturada em 16/10/2026)](https://www.gov.br/pf/pt-br/assuntos/noticias) · consultada em 2026-10-16 · captura sha256 `26f2f28911cb0dc8…`
-   > PF e BPFRON apreendem mais de 500 kg de maconha no Paraná [...] PF apreende quatro pistolas ocultas em caixas de som em Cascavel/PR Armas tinham como destino a cidade do Rio de Janeiro
-
-   *O que prova:* Registro da própria PF, na véspera da fala, de apreensões de drogas e armas no Paraná, independente do balanço anual reproduzido pela imprensa.
-
----
-
 ### A168 · 🟢 VERDADEIRO · 00:34:02
 
 **Renata Lo Prete** (entrevistador) · assunto: `seguranca-publica` · tipo: `atribuicao_a_terceiro`
@@ -8361,7 +8320,7 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 ---
 
-### A182 · 🔴 FALSO · 00:37:22
+### A182 · 🟡 IMPRECISO · 00:37:22
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `seguranca-publica` · tipo: `norma_vigente`
 
@@ -8371,22 +8330,22 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
 
 **Contexto:** Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento
 
-**Resumo (o que aparece no vídeo):** O Estatuto permite ter arma em casa com requisitos, e decreto admite até duas armas para defesa pessoal
+**Resumo (o que aparece no vídeo):** O Estatuto proíbe o porte como regra, mas permite comprar arma para defesa pessoal e mantê-la em casa, com requisitos
 
-**Análise:** A frase diz que o Estatuto do Desarmamento proíbe o cidadão de se defender. A Lei 10.826/2003, no texto compilado vigente, não proíbe: o art. 4º permite adquirir arma de uso permitido a quem declarar efetiva necessidade e cumprir requisitos (antecedentes, ocupação lícita, capacidade técnica e aptidão psicológica), e o art. 5º autoriza o dono a manter a arma em casa ou no local de trabalho. O decreto que regulamenta a lei em 2026 (Decreto 11.615/2023) diz que o interessado pode adquirir até duas armas de fogo para defesa pessoal. O porte (andar armado) é proibido como regra pelo art. 6º, com exceções e autorização excepcional da Polícia Federal (art. 10), e esse é o ponto restritivo real da lei. A legítima defesa em si é excludente de crime no Código Penal (art. 25). As fontes contradizem a proibição afirmada; a lei condiciona, não proíbe. Por que não IMPRECISO: não há essência certa a salvar, porque a posse para defesa pessoal é expressamente prevista. Lei e decreto são atos normativos distintos, ambos lidos na íntegra.
+**Análise:** Auditoria de coerência de 18/out/2026: o veredito passou de FALSO a IMPRECISO, pela mesma régua da A050 do caso 2026-10-15-sabatina-lula-globo-2turno (acerta o essencial do arranjo e exagera o resto). A frase diz que o Estatuto do Desarmamento proíbe o cidadão de se defender. O que ela acerta: a Lei 10.826/2003 proíbe como regra o porte, andar armado, em todo o território nacional (art. 6º: 'É proibido o porte de arma de fogo em todo o território nacional, salvo para os casos previstos em legislação própria'), com exceções e autorização excepcional da Polícia Federal; é o ponto restritivo da lei, e é ele que a frase mira na resposta sobre revogar o Estatuto. O que ela exagera: a lei não proíbe a defesa com arma. O art. 4º permite adquirir arma de uso permitido a quem declarar efetiva necessidade e cumprir requisitos (antecedentes, ocupação lícita, capacidade técnica e aptidão psicológica), e o art. 5º autoriza o dono a manter a arma em casa ou no local de trabalho; o Decreto 11.615/2023 diz que o interessado pode adquirir até duas armas de fogo para defesa pessoal; e a legítima defesa é excludente de crime no Código Penal (art. 25). Até esta auditoria o veredito era FALSO, pela leitura de que não havia essência certa a salvar; a régua que pôs a A050 em IMPRECISO salva a parte do porte. O trecho do art. 6º entrou na fonte da Lei 10.826, que é a mesma página já capturada para esta checagem.
 
-**Ressalva:** O porte, andar armado, é a exceção na lei e depende de autorização excepcional da Polícia Federal
+**Ressalva:** Com requisitos, dá para comprar arma para defesa pessoal e mantê-la em casa; andar armado é a exceção
 
-**Confiança:** alta
+**Confiança:** media
 
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: mantido. Revisão r7: Contra: é hipérbole política, e o essencial (o Estatuto é restritivo) estaria certo; o porte é proibido como regra (art. 6º), e uma página capturada na p18 (Gazeta do Povo Lab, 07/08/2026, não citada) chega a dizer que a lei proíbe 'o porte e a posse como regra geral'. Não derruba: a fonte primária ganha (pergunta 4), e o texto vigente da Lei 10.826 (arts. 4º e 5º) autoriza compra e posse a quem cumpre requisitos, e o Decreto 11.615 diz que se pode adquirir 'até duas armas de fogo para defesa pessoal'; a frase diz 'proíbe o cidadão de se defender', e o registro prevê o contrário. A ressalva leva o ponto restritivo real (porte). Trechos achados na captura p19. · Coerência entre lotes e entre casos: Ver A181.
+**Revisão por IA:** Claude (auditoria de coerência por IA, passada separada, contra a METODOLOGIA §2.2 e §4.2 e os precedentes do caso 2026-10-15-sabatina-lula-globo-2turno) em 2026-10-18: alterado. Auditoria de coerência de 18/out (passada separada): FALSO → IMPRECISO. A frase mira o ponto restritivo real da lei, o porte proibido como regra (art. 6º), e exagera ao dizer que a lei proíbe a defesa, porque compra e posse para defesa pessoal são previstas (arts. 4º e 5º; Decreto 11.615, art. 15). Mesmo padrão da A050 de 15/out. O trecho do art. 6º foi acrescentado à fonte da Lei 10.826 (mesma URL e mesma captura). Detalhe em CORRECOES.md §6. · Revisões anteriores: Revisão r7: Contra: é hipérbole política, e o essencial (o Estatuto é restritivo) estaria certo; o porte é proibido como regra (art. 6º), e uma página capturada na p18 (Gazeta do Povo Lab, 07/08/2026, não citada) chega a dizer que a lei proíbe 'o porte e a posse como regra geral'. Não derruba: a fonte primária ganha (pergunta 4), e o texto vigente da Lei 10.826 (arts. 4º e 5º) autoriza compra e posse a quem cumpre requisitos, e o Decreto 11.615 diz que se pode adquirir 'até duas armas de fogo para defesa pessoal'; a frase diz 'proíbe o cidadão de se defender', e o registro prevê o contrário. A ressalva leva o ponto restritivo real (porte). Trechos achados na captura p19. · Coerência entre lotes e entre casos: Ver A181.
 
 **Fontes:**
 
-1. `N1` **Presidência da República (Planalto)**: [Lei 10.826/2003 (Estatuto do Desarmamento), arts. 4º e 5º, texto compilado](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm) · consultada em 2026-10-17 · captura sha256 `6e023438851a2b51…`
-   > Art. 4 o Para adquirir arma de fogo de uso permitido o interessado deverá, além de declarar a efetiva necessidade, atender aos seguintes requisitos: I - comprovação de idoneidade, com a apresentação de certidões negativas de antecedentes criminais fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral e de não estar respondendo a inquérito policial ou a processo criminal, [...] Art. 5 o O certificado de Registro de Arma de Fogo, com validade em todo o território nacional, autoriza o seu proprietário a manter a arma de fogo exclusivamente no interior de sua residência ou domicílio,
+1. `N1` **Presidência da República (Planalto)**: [Lei 10.826/2003 (Estatuto do Desarmamento), arts. 4º, 5º e 6º, texto compilado](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm) · consultada em 2026-10-17 · captura sha256 `6e023438851a2b51…`
+   > Art. 4 o Para adquirir arma de fogo de uso permitido o interessado deverá, além de declarar a efetiva necessidade, atender aos seguintes requisitos: I - comprovação de idoneidade, com a apresentação de certidões negativas de antecedentes criminais fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral e de não estar respondendo a inquérito policial ou a processo criminal, [...] Art. 5 o O certificado de Registro de Arma de Fogo, com validade em todo o território nacional, autoriza o seu proprietário a manter a arma de fogo exclusivamente no interior de sua residência ou domicílio, [...] Art. 6 o É proibido o porte de arma de fogo em todo o território nacional, salvo para os casos previstos em legislação própria
 
-   *O que prova:* A lei permite a compra e a posse de arma em casa a quem cumpre requisitos; não proíbe.
+   *O que prova:* A lei permite comprar e manter arma em casa com requisitos (arts. 4º e 5º) e proíbe o porte como regra (art. 6º).
 
 2. `N1` **Presidência da República (Planalto)**: [Decreto 11.615/2023, art. 15, § 2º](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11615.htm) · consultada em 2026-10-17 · captura sha256 `159749caf249d19b…`
    > § 2º O interessado poderá adquirir até duas armas de fogo para defesa pessoal, desde que comprove a efetiva necessidade de que trata o inciso III do caput para cada aquisição, e até cinquenta munições por arma, por ano.
@@ -8397,70 +8356,6 @@ Cada corte herda as checagens desta peça, com os mesmos ids. O critério de esc
    > Art. 23 - Não há crime quando o agente pratica o fato: (Redação dada pela Lei nº 7.209, de 11.7.1984) I - em estado de necessidade; (Incluído pela Lei nº 7.209, de 11.7.1984) II - em legítima defesa; [...] Art. 25 - Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem.
 
    *O que prova:* A legítima defesa é excludente de crime: defender-se não é proibido.
-
----
-
-### A183 · ⚪ NÃO CHECÁVEL · 00:37:25
-
-**Flávio Bolsonaro** (entrevistado) · assunto: `seguranca-publica` · tipo: `juizo_de_valor`
-
-> "e autoriza os marginais a comprarem armas de guerra"
-
-**Afirmação isolada:** O Estatuto do Desarmamento autoriza criminosos a comprar armas de guerra
-
-**Contexto:** Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento
-
-**Resumo (o que aparece no vídeo):** Figura de linguagem: a própria frase diz que a causa é a falta de fiscalização, checada em separado
-
-**Análise:** Auditoria final de 17/out/2026: o veredito passou de FALSO a NAO_CHECAVEL, e a alegação passou a checavel false, tipo juizo_de_valor. A oração inteira é 'e autoriza os marginais a comprarem armas de guerra porque não tem fiscalização nenhuma': 'autoriza' é figura cuja causa a própria oração dá ('porque não tem fiscalização nenhuma'), e não uma descrição do texto da lei. A lei não autoriza criminoso a comprar arma, e ninguém na fala diz que autoriza legalmente; checar o 'autoriza' ao pé da letra refutaria o que não foi afirmado. A parte checável da oração é a da A184 ('não tem fiscalização nenhuma'), já FALSO, e contar as duas como FALSO seria contar a mesma afirmação duas vezes. Por isso NAO_CHECAVEL, com o porquê escrito, como exige a METODOLOGIA §2 (NAO_CHECAVEL é classificação positiva) e §5 (justificativa de por que a frase não tem valor de verdade). Até a auditoria o veredito era FALSO pela leitura literal, com a Lei 10.826/2003 e o Decreto 11.615/2023 como fontes; as duas normas continuam como fontes da A184.
-
-**Confiança:** alta
-
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: alterado. Revisão r7: Contra: a frase quer dizer que o crime se arma porque a lei não funciona, e checá-la ao pé da letra seria injusto. Cai: a frase afirma o que a lei 'autoriza', e a lei exige antecedentes limpos para comprar (art. 4º) e pune com 3 a 6 anos a arma de uso restrito sem autorização (art. 16); a explicação separa a afirmação sobre o mercado ilegal, que não foi checada. Resumo sem leitura de intenção, com números dos trechos. · Auditoria final de 17/out (agente que não participou de nada; achado examinado pela IA que conduz o caso contra a metodologia): FALSO → NAO_CHECAVEL. Detalhe em checagens/revisao/AUDITORIA_FINAL.md e correcoes-auditoria.md.
-
-*Sem fontes: alegação classificada como não checável.*
-
----
-
-### A184 · 🔴 FALSO · 00:37:29
-
-**Flávio Bolsonaro** (entrevistado) · assunto: `seguranca-publica` · tipo: `norma_vigente`
-
-> "porque não tem fiscalização nenhuma."
-
-**Afirmação isolada:** Não existe nenhuma fiscalização sobre a circulação de armas que chegam a criminosos
-
-**Contexto:** Resposta sobre se trabalharia para revogar o Estatuto do Desarmamento
-
-**Resumo (o que aparece no vídeo):** Lei dá à Polícia Federal e ao Exército a fiscalização de armas, e polícias apreenderam dezenas de fuzis em 2025
-
-**Análise:** A frase diz que não há fiscalização nenhuma. A Lei 10.826/2003 cria o Sinarm no âmbito da Polícia Federal, encarregado inclusive de cadastrar as apreensões de armas, e dá ao Comando do Exército a competência de autorizar e fiscalizar a produção, a importação e o comércio de armas; o Decreto 11.615/2023 atribui à Polícia Federal fiscalizar registro e porte. Há fiscalização em funcionamento: o Poder360 registra que a PM do Rio apreendeu 84 fuzis em janeiro de 2025, recorde da série desde 2015, e que a PF apreendeu 11 fuzis numa operação no mesmo mês; o Correio, com dados do Sinesp, registra 37 fuzis apreendidos na Bahia no 1º semestre de 2025 e uma apreensão da PRF de sete fuzis a caminho de uma facção. As fontes contradizem o 'nenhuma'. Se a fiscalização é suficiente ou eficaz é juízo que este veredito não mede. Por que FALSO e não IMPRECISO: o enunciado é absoluto e o registro mostra o oposto.
-
-**Confiança:** media
-
-**Revisão por IA:** Claude (revisão adversarial por IA em passadas separadas: r1 a r7 por lote, revisão da rodada 2 e coerência entre lotes e casos; nenhum revisor checou o que revisou) em 2026-10-17: mantido. Revisão r7: Contra: 'não tem fiscalização nenhuma' é juízo sobre eficácia, não fato. Cai: o enunciado é absoluto, e o registro mostra fiscalização em funcionamento (Sinarm e Exército na lei, PF no decreto, apreensões de fuzis pela PM, pela PF e pela PRF em 2025); a explicação declara que a suficiência não é medida. Confiança média adequada: as apreensões vêm de N4. Trechos achados (p19, p19-r8).
-
-**Fontes:**
-
-1. `N1` **Presidência da República (Planalto)**: [Lei 10.826/2003, arts. 1º, 2º e 24, texto compilado](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm) · consultada em 2026-10-17 · captura sha256 `6e023438851a2b51…`
-   > Art. 1 o O Sistema Nacional de Armas – Sinarm, instituído no Ministério da Justiça, no âmbito da Polícia Federal, tem circunscrição em todo o território nacional. [...] VII – cadastrar as apreensões de armas de fogo, inclusive as vinculadas a procedimentos policiais e judiciais; [...] Art. 24. Excetuadas as atribuições a que se refere o art. 2º desta Lei, compete ao Comando do Exército autorizar e fiscalizar a produção, exportação, importação, desembaraço alfandegário e o comércio de armas de fogo e demais produtos controlados,
-
-   *O que prova:* A lei atribui a fiscalização de armas à Polícia Federal (Sinarm) e ao Exército.
-
-2. `N1` **Presidência da República (Planalto)**: [Decreto 11.615/2023, art. 4º](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11615.htm) · consultada em 2026-10-17 · captura sha256 `159749caf249d19b…`
-   > Art. 4º Compete à Polícia Federal: I - definir, padronizar, sistematizar, normatizar e fiscalizar os seguintes procedimentos e as seguintes atividades: a) registro de armas de fogo e cadastro de munições e acessórios, exceto as armas, as munições e os acessórios das instituições a que se refere o § 1º do art. 3º; b) concessão de porte de arma de fogo pessoal e de suas renovações;
-
-   *O que prova:* O regulamento atribui à Polícia Federal fiscalizar registro e porte de armas.
-
-3. `N4` **Poder360**: [PM do Rio apreendeu 84 fuzis do crime organizado em janeiro (04/02/2025)](https://www.poder360.com.br/seguranca-publica/pm-do-rio-apreendeu-em-janeiro-84-fuzis-do-crime-organizado/) · consultada em 2026-10-17 · captura sha256 `38202d27980bf0b5…`
-   > Em janeiro deste ano, a Polícia Militar do Rio de Janeiro confiscou 410 armas de fogo em posse do crime organizado. Dentre elas, 84 são fuzis — o maior número registrado desde o início da série histórica em 2015. [...] a Polícia Federal apreendeu 11 fuzis durante uma operação na RJ-127, na altura de Paracambi, região metropolitana do Rio de Janeiro.
-
-   *O que prova:* Apreensões de armas de guerra em poder do crime, pela PM e pela PF.
-
-4. `N4` **Correio (Salvador)**: [Mais de 200 fuzis foram apreendidos na Bahia desde 2023, aponta Sinesp (06/08/2025)](https://www.correio24horas.com.br/minha-bahia/mais-de-200-fuzis-foram-apreendidos-na-bahia-desde-2023-aponta-sinesp-0825) · consultada em 2026-10-17 · captura sha256 `2bbacff9efc4c0ee…`
-   > A Polícia Rodoviária Federal (PRF) apreendeu, na última segunda-feira (4), sete fuzis e 12 carregadores que tinham como destino a cidade de Porto Seguro, no extremo-sul baiano. [...] Dados do Sistema Nacional de Informações de Segurança Pública (Sinesp), ligado ao Ministério da Justiça e Segurança Pública apontam que 37 fuzis foram apreendidos na Bahia no primeiro semestre de 2025.
-
-   *O que prova:* Apreensões pela PRF e série do Sinesp: a repressão ao tráfico de fuzis existe.
 
 ---
 
@@ -9888,6 +9783,12 @@ Estas frases passaram pelo filtro de "isto afirma um fato" e ainda assim não vi
 
 **Por que ficou de fora:** Descrição genérica de situação hipotética ('se um policial bota'), sem episódio datado; e 'saraivara' é palavra não resolvida pela transcrição.
 
+### 00:33:44 · Flávio Bolsonaro
+
+> "Elas estão entrando porque o atual governo simplesmente deixa as fronteiras abertas e não fiscaliza a entrada de armas e drogas no nosso país."
+
+**Por que ficou de fora:** Hipérbole política ('deixa as fronteiras abertas e não fiscaliza'); o que a frase discute é a eficácia da fiscalização, que não tem registro que a confirme ou desminta como está dita. Mesmo critério da exclusão de 'porque não tinha dinheiro para nada' no caso 2026-10-15-sabatina-lula-globo-2turno. Tirada da lista na auditoria de coerência de 18/out/2026 (era FALSO); CORRECOES.md §6.
+
 ### 00:34:54 · Flávio Bolsonaro
 
 > "Isso é muito maior do que qualquer detalhezinho desse em cima de uma cápsula."
@@ -9935,6 +9836,18 @@ Estas frases passaram pelo filtro de "isto afirma um fato" e ainda assim não vi
 > "ele tem que ser melhorado."
 
 **Por que ficou de fora:** Juízo e plano sobre o Estatuto do Desarmamento, sem fato verificável.
+
+### 00:37:25 · Flávio Bolsonaro
+
+> "e autoriza os marginais a comprarem armas de guerra"
+
+**Por que ficou de fora:** Figura de linguagem ('autoriza os marginais a comprarem armas de guerra'), cuja causa a própria oração dá ('porque não tem fiscalização nenhuma'); não descreve o texto da lei. Tirada da lista na auditoria de coerência de 18/out/2026 (era NAO_CHECAVEL desde a auditoria final de 17/out, e FALSO antes dela); CORRECOES.md §6.
+
+### 00:37:29 · Flávio Bolsonaro
+
+> "porque não tem fiscalização nenhuma."
+
+**Por que ficou de fora:** Hipérbole ('não tem fiscalização nenhuma'), que fecha a mesma oração da figura de linguagem anterior; o que ela discute é a eficácia da fiscalização, sem medida que a confirme ou desminta como está dita. Mesmo critério da exclusão de 'porque não tinha dinheiro para nada' no caso 2026-10-15-sabatina-lula-globo-2turno. Tirada da lista na auditoria de coerência de 18/out/2026 (era FALSO); CORRECOES.md §6.
 
 ### 00:38:05 · Flávio Bolsonaro
 

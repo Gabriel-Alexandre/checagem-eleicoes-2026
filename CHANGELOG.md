@@ -5,6 +5,17 @@ Versionamento [semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.5.3] · 18/out/2026
+
+**Auditoria de coerência** do caso `2026-10-16-sabatina-flavio-globo-2turno`, em passada separada, com três regras tiradas da METODOLOGIA (§2.2 e §4.2) e dos precedentes do caso de 15/out, aplicadas à lista inteira dos dois lados da mesa (`CORRECOES.md` §6 do caso).
+
+### Corrigido
+- **Três frases de hipérbole e figura de linguagem saíram da lista** (A167, A183, A184, do bloco de armas), pela mesma régua que, no caso de 15/out, excluiu *"porque não tinha dinheiro para nada"*. Não há mais `NAO_CHECAVEL` na contagem.
+- **Três `FALSO` passaram a `IMPRECISO`:** A069 (o dever do Senado de processar a denúncia tem base no art. 44 da Lei 1.079; a abertura do impeachment não é obrigatória), A182 (o porte é proibido como regra, art. 6º; a defesa com arma em casa é permitida) e A123 (na leitura de arma de fogo, que o contexto sustenta, nenhuma foi apreendida com os manifestantes; o absoluto segue errado). Precedente: a A050 do caso de 15/out.
+- **Quatro `FALSO` mantidos**, com o melhor argumento contra cada um registrado: A024, A100, A103 e A165. As três `FALSO` do caso de 15/out foram relidas pelas mesmas regras e nenhuma muda.
+- **A009 do caso `2026-08-28-sabatina-flavio-globo`** (a mesma frase da A123, revisão que estava pendente) passou de `FALSO` a `IMPRECISO`; plano de overlay refeito.
+- Resultado do caso de 16/out: **204 afirmações, 131 verdadeiro, 29 impreciso, 40 sem comprovação, 4 falso** (Flávio Bolsonaro 66 · 26 · 25 · 4, em 121; Renata Lo Prete 65 · 3 · 15 · 0, em 83, sem mudança). Nenhum dos seis cortes muda. Métricas, relatório e considerações da IA refeitos.
+
 ## [0.5.2] · 17/out/2026
 
 A sabatina de Flávio Bolsonaro na TV Globo do 2º turno (16/out, Renata Lo Prete), **checada inteira** com o mesmo passo a passo, a mesma régua e os mesmos critérios do caso de Lula de 15/out.

@@ -4,7 +4,7 @@
 **Duração:** 00:02:44  
 **Trecho checado:** `trecho-g1-golpe`, de 00:00:00 a 00:02:39 da peça  
 **Por que este trecho:** É o trecho inteiro publicado pelo g1, o único arquivo oficial da sabatina que se conseguiu obter (ver CASO.json, procedência). O recorte não foi escolhido por este projeto, nem por densidade, nem pelo resultado: é a peça disponível, checada de ponta a ponta. Os dois lados da mesa falam: a pergunta do entrevistador afirma fatos sobre o julgamento, e a resposta do entrevistado afirma fatos sobre o mesmo julgamento. Termina no fim da última fala, antes da cartela de divulgação do g1 ('Veja a íntegra da entrevista em g1.com.br/eleicoes'), que não é parte da entrevista.  
-**Relatório gerado em:** 2026-09-27  
+**Relatório gerado em:** 2026-10-18  
 **Metodologia:** [`docs/METODOLOGIA.md`](../../docs/METODOLOGIA.md)  
 **Assinatura da mídia (sha256):** `f09911b7609faf7dda84537d2e275a4912f9f131425f0c6040a2d05b4cb52892`
 
@@ -34,9 +34,9 @@
 | Veredito | Total | entrevistado | entrevistador |
 |---|---:|---:|---:|
 | 🟢 VERDADEIRO | 12 | 9 | 3 |
-| 🟡 IMPRECISO | 1 | 1 | 0 |
+| 🟡 IMPRECISO | 2 | 2 | 0 |
 | 🟠 SEM COMPROVAÇÃO | 1 | 1 | 0 |
-| 🔴 FALSO | 2 | 2 | 0 |
+| 🔴 FALSO | 1 | 1 | 0 |
 | ⚪ NÃO CHECÁVEL | 3 | 2 | 1 |
 
 ### Como ler esta contagem
@@ -45,7 +45,7 @@
 - **entrevistador:** 4 de 19 alegações.
 - Os números acima são **deste trecho** e têm o denominador à vista. ⛔ Eles não são ranking entre pessoas nem entre candidatos, e não dizem nada sobre intenção.
 - ⚠️ **Nem toda afirmação é igualmente checável.** Economia tem série pública; segurança tem defasagem; promessa não tem fonte. Um lado pode acumular `SEM COMPROVAÇÃO` só porque falou de assunto com fonte pior ([`etica-e-risco` §3](../../.cursor/rules/etica-e-risco.mdc)).
-- 🔴 **Revisão registrada em 0 de 19 checagens.** O caso só está pronto quando todas passaram pela revisão adversarial ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)).
+- 🔴 **Revisão registrada em 1 de 19 checagens.** O caso só está pronto quando todas passaram pela revisão adversarial ([`skills/revisar-checagem.md`](../../skills/revisar-checagem.md)).
 
 ## Alegação por alegação
 
@@ -307,7 +307,7 @@
 
 ---
 
-### A009 · 🔴 FALSO · 00:01:42
+### A009 · 🟡 IMPRECISO · 00:01:42
 
 **Flávio Bolsonaro** (entrevistado) · assunto: `justica` · tipo: `evento_passado`
 
@@ -317,15 +317,17 @@
 
 **Contexto:** Resposta do candidato à pergunta sobre a tentativa de golpe e a condenação do pai
 
-**Resumo (o que aparece no vídeo):** Houve armas: facas, porretes e estilingues nos processos, e armas levadas do GSI, parte recuperada pela PM
+**Resumo (o que aparece no vídeo):** Não houve arma de fogo apreendida com manifestantes, mas os processos citam facas e porretes, e levaram armas do GSI
 
-**Análise:** A frase diz que não foi encontrada nenhuma arma em 8 de janeiro. Os registros contradizem isso por dois caminhos independentes. Primeiro, os processos descrevem o armamento usado pelos invasores como facas, porretes, barras de ferro, estilingues e bolas de gude, o que aparece tanto numa reportagem crítica ao STF (Gazeta do Povo) quanto numa checagem profissional (Aos Fatos), que cita ainda sinalizadores e estilingues com balas metálicas registrados pelas câmeras da Câmara. Segundo, invasores levaram armas e munição de uma sala do GSI no Palácio do Planalto, fato registrado no dia seguinte por Poder360 e CNN Brasil e, meses depois, pelas imagens de segurança; segundo o Aos Fatos, parte dessas armas foi recuperada depois pela PM do DF. O que a fala acerta, se 'arma' for lida só como arma de fogo em poder de manifestante: segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com eles. Isso vai na ressalva, e é também por isso que a confiança é média. ⚠️ Veredito pesado sobre a fala de um candidato: exige leitura humana antes de publicar.
+**Análise:** Auditoria de coerência de 18/out/2026 (a revisão adversarial que este caso deixou pendente): o veredito passou de FALSO a IMPRECISO, com as mesmas fontes, pela mesma régua aplicada à A123 do caso 2026-10-16-sabatina-flavio-globo-2turno, que é a mesma frase. A fala é 'E armada? Não foi encontrada uma arma no 8 de janeiro', e o 'E armada?' que a abre aponta para a leitura de arma de fogo, ligada ao 'organização criminosa armada' da condenação; a auditoria lê a frase na leitura que o contexto sustenta. Nessa leitura a essência tem base: segundo a Gazeta do Povo, os processos falam de pessoas que poderiam ter acesso a armas de fogo, 'embora nenhuma tenha sido apreendida pelas forças policiais'. O que a frase erra é o absoluto: os processos descrevem o armamento usado pelos invasores como facas, porretes, barras de ferro, estilingues e bolas de gude (Gazeta do Povo, crítica ao STF, e Aos Fatos, que cita as câmeras da Câmara), e invasores levaram armas e munição de uma sala do GSI no Planalto (Poder360 e CNN Brasil), parte recuperada pela PM do DF (Aos Fatos). Na leitura de arma de fogo, o que contradiz a frase são as armas do GSI, e sobre elas há duas versões oficiais (letais e não letais no dia, só não letais em abril de 2023): não chega às duas fontes independentes que um FALSO exige. Essência certa na leitura que o contexto sustenta e absoluto errado dão IMPRECISO.
 
-**Ressalva:** Segundo a Gazeta do Povo, nenhuma arma de fogo foi apreendida com os manifestantes
+**Ressalva:** As armas levadas do GSI têm duas versões oficiais: letais e não letais, ou só não letais
 
 **⚠️ Divergência entre fontes:** Sobre as armas levadas do GSI: no dia 8/1/2023, o então ministro da Secom, Paulo Pimenta, disse que foram levadas armas letais e não letais (CNN Brasil, com Agência Brasil); em abril de 2023, segundo o Diário do Poder, o Palácio do Planalto informou que as armas levadas não eram letais. As duas versões são oficiais e se contradizem; o veredito não depende de qual está certa, porque as duas confirmam que armas foram levadas.
 
 **Confiança:** media
+
+**Revisão por IA:** Claude (auditoria de coerência por IA, passada separada, contra a METODOLOGIA §2.2 e a A123 do caso 2026-10-16-sabatina-flavio-globo-2turno) em 2026-10-18: alterado. Auditoria de coerência de 18/out: FALSO → IMPRECISO. É a revisão adversarial que o CORRECOES.md deste caso deixou pendente ('a leitura de arma pesa no veredito'). O 'E armada?' da própria fala aponta para arma de fogo; nessa leitura a Gazeta do Povo confirma que nenhuma foi apreendida, e o que contradiz são as armas do GSI, com duas versões oficiais sobre a letalidade. O absoluto segue errado pelas armas brancas dos processos. Mesma decisão da A123 de 16/out.
 
 **Fontes:**
 
